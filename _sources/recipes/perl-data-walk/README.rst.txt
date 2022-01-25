@@ -27,12 +27,12 @@ perl-data-walk
       
       
 
-      ``2.01-1``,  ``2.01-0``
+      ``2.01-2``,  ``2.01-1``,  ``2.01-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-data-walk
 
     <script>
         var package = "perl-data-walk";
-        var versions = ["2.01","2.01"];
+        var versions = ["2.01","2.01","2.01"];
     </script>
 
 

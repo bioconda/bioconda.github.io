@@ -27,12 +27,12 @@ perl-math-spline
       
       
 
-      ``0.02-2``,  ``0.02-1``,  ``0.02-0``
+      ``0.02-3``,  ``0.02-2``,  ``0.02-1``,  ``0.02-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-math-derivative: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-math-spline
 
     <script>
         var package = "perl-math-spline";
-        var versions = ["0.02","0.02","0.02"];
+        var versions = ["0.02","0.02","0.02","0.02"];
     </script>
 
 

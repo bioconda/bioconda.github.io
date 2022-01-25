@@ -27,12 +27,12 @@ perl-sys-info-driver-linux
       
       
 
-      ``0.7905-0``,  ``0.7904-0``,  ``0.7903-0``
+      ``0.7905-1``,  ``0.7905-0``,  ``0.7904-0``,  ``0.7903-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-config-general: 
    :depends perl-sys-info-base: 
    :depends perl-unix-processors: 
@@ -67,7 +67,7 @@ perl-sys-info-driver-linux
 
     <script>
         var package = "perl-sys-info-driver-linux";
-        var versions = ["0.7905","0.7904","0.7903"];
+        var versions = ["0.7905","0.7905","0.7904","0.7903"];
     </script>
 
 

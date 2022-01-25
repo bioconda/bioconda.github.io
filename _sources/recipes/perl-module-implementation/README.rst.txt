@@ -27,12 +27,12 @@ perl-module-implementation
       
       
 
-      ``0.09-2``,  ``0.09-0``
+      ``0.09-3``,  ``0.09-2``,  ``0.09-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-module-runtime: 
    :depends perl-try-tiny: 
@@ -67,7 +67,7 @@ perl-module-implementation
 
     <script>
         var package = "perl-module-implementation";
-        var versions = ["0.09","0.09"];
+        var versions = ["0.09","0.09","0.09"];
     </script>
 
 

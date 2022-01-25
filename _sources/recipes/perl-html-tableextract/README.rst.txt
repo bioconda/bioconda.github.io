@@ -27,12 +27,12 @@ perl-html-tableextract
       
       
 
-      ``2.13-2``,  ``2.13-1``,  ``2.13-0``
+      ``2.13-3``,  ``2.13-2``,  ``2.13-1``,  ``2.13-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-html-element-extended: 
    :depends perl-html-parser: 
    :requirements:
@@ -66,7 +66,7 @@ perl-html-tableextract
 
     <script>
         var package = "perl-html-tableextract";
-        var versions = ["2.13","2.13","2.13"];
+        var versions = ["2.13","2.13","2.13","2.13"];
     </script>
 
 

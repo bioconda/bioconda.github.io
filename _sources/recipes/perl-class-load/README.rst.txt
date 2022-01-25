@@ -27,12 +27,12 @@ perl-class-load
       
       
 
-      ``0.25-0``,  ``0.23-1``,  ``0.23-0``
+      ``0.25-1``,  ``0.25-0``,  ``0.23-1``,  ``0.23-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-data-optlist: 
@@ -72,7 +72,7 @@ perl-class-load
 
     <script>
         var package = "perl-class-load";
-        var versions = ["0.25","0.23","0.23"];
+        var versions = ["0.25","0.25","0.23","0.23"];
     </script>
 
 

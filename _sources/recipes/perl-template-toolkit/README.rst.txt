@@ -27,12 +27,13 @@ perl-template-toolkit
       
       
 
-      ``2.26-1``,  ``2.26-0``
+      ``2.26-2``,  ``2.26-1``,  ``2.26-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-appconfig: 
    :depends perl-cgi: 
    :depends perl-image-info: 
@@ -69,7 +70,7 @@ perl-template-toolkit
 
     <script>
         var package = "perl-template-toolkit";
-        var versions = ["2.26","2.26"];
+        var versions = ["2.26","2.26","2.26"];
     </script>
 
 

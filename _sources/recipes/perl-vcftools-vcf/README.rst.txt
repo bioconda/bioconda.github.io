@@ -28,12 +28,13 @@ perl-vcftools-vcf
       
       
 
-      ``0.1.16-2``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.15-2``,  ``0.1.15-1``,  ``0.1.14-0``
+      ``0.1.16-4``,  ``0.1.16-2``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.15-2``,  ``0.1.15-1``,  ``0.1.14-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends htslib: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +66,7 @@ perl-vcftools-vcf
 
     <script>
         var package = "perl-vcftools-vcf";
-        var versions = ["0.1.16","0.1.16","0.1.16","0.1.15","0.1.15"];
+        var versions = ["0.1.16","0.1.16","0.1.16","0.1.16","0.1.15"];
     </script>
 
 

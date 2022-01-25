@@ -27,12 +27,12 @@ perl-graphics-colorobject
       
       
 
-      ``0.5.0-1``
+      ``0.5.0-2``,  ``0.5.0-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-graphics-colornames: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-graphics-colorobject
 
     <script>
         var package = "perl-graphics-colorobject";
-        var versions = ["0.5.0"];
+        var versions = ["0.5.0","0.5.0"];
     </script>
 
 

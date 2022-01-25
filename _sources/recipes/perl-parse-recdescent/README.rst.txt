@@ -27,12 +27,12 @@ perl-parse-recdescent
       
       
 
-      ``1.967015-0``,  ``1.967013-1``,  ``1.967013-0``
+      ``1.967015-1``,  ``1.967015-0``,  ``1.967013-1``,  ``1.967013-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-parse-recdescent
 
     <script>
         var package = "perl-parse-recdescent";
-        var versions = ["1.967015","1.967013","1.967013"];
+        var versions = ["1.967015","1.967015","1.967013","1.967013"];
     </script>
 
 

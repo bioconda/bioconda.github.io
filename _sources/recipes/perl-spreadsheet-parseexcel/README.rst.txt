@@ -27,12 +27,12 @@ perl-spreadsheet-parseexcel
       
       
 
-      ``0.65-2``,  ``0.65-1``,  ``0.65-0``
+      ``0.65-3``,  ``0.65-2``,  ``0.65-1``,  ``0.65-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-crypt-rc4: 
    :depends perl-digest-perl-md5: 
    :depends perl-io-stringy: 
@@ -71,7 +71,7 @@ perl-spreadsheet-parseexcel
 
     <script>
         var package = "perl-spreadsheet-parseexcel";
-        var versions = ["0.65","0.65","0.65"];
+        var versions = ["0.65","0.65","0.65","0.65"];
     </script>
 
 

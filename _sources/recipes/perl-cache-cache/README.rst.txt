@@ -27,12 +27,12 @@ perl-cache-cache
       
       
 
-      ``1.08-0``
+      ``1.08-1``,  ``1.08-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-digest-sha1: 
    :depends perl-error: 
    :depends perl-ipc-sharelite: 
@@ -68,7 +68,7 @@ perl-cache-cache
 
     <script>
         var package = "perl-cache-cache";
-        var versions = ["1.08"];
+        var versions = ["1.08","1.08"];
     </script>
 
 

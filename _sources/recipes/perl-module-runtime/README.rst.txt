@@ -27,12 +27,12 @@ perl-module-runtime
       
       
 
-      ``0.016-1``,  ``0.016-0``,  ``0.014-1``,  ``0.014-0``
+      ``0.016-2``,  ``0.016-1``,  ``0.016-0``,  ``0.014-1``,  ``0.014-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-module-runtime
 
     <script>
         var package = "perl-module-runtime";
-        var versions = ["0.016","0.016","0.014","0.014"];
+        var versions = ["0.016","0.016","0.016","0.014","0.014"];
     </script>
 
 

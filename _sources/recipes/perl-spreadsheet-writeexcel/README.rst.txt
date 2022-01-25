@@ -27,12 +27,12 @@ perl-spreadsheet-writeexcel
       
       
 
-      ``2.40-2``,  ``2.40-1``,  ``2.40-0``
+      ``2.40-3``,  ``2.40-2``,  ``2.40-1``,  ``2.40-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-ole-storage_lite: 
    :depends perl-parse-recdescent: 
    :requirements:
@@ -66,7 +66,7 @@ perl-spreadsheet-writeexcel
 
     <script>
         var package = "perl-spreadsheet-writeexcel";
-        var versions = ["2.40","2.40","2.40"];
+        var versions = ["2.40","2.40","2.40","2.40"];
     </script>
 
 

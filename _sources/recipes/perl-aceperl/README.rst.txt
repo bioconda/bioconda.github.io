@@ -27,12 +27,13 @@ perl-aceperl
       
       
 
-      ``1.92-2``,  ``1.92-1``,  ``1.92-0``
+      ``1.92-3``,  ``1.92-2``,  ``1.92-1``,  ``1.92-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-cache-cache: 
    :depends perl-digest-md5: 
    :requirements:
@@ -66,7 +67,7 @@ perl-aceperl
 
     <script>
         var package = "perl-aceperl";
-        var versions = ["1.92","1.92","1.92"];
+        var versions = ["1.92","1.92","1.92","1.92"];
     </script>
 
 

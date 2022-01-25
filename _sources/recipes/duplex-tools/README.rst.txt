@@ -27,7 +27,7 @@ duplex-tools
       
       
 
-      ``0.2.8-0``,  ``0.2.7-0``
+      ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
@@ -74,7 +74,7 @@ duplex-tools
 
     <script>
         var package = "duplex-tools";
-        var versions = ["0.2.8","0.2.7"];
+        var versions = ["0.2.9","0.2.8","0.2.7"];
     </script>
 
 

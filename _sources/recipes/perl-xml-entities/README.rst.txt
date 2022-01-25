@@ -27,12 +27,12 @@ perl-xml-entities
       
       
 
-      ``1.0002-1``,  ``1.0002-0``
+      ``1.0002-2``,  ``1.0002-1``,  ``1.0002-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-xml-entities
 
     <script>
         var package = "perl-xml-entities";
-        var versions = ["1.0002","1.0002"];
+        var versions = ["1.0002","1.0002","1.0002"];
     </script>
 
 

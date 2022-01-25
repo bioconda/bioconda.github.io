@@ -27,12 +27,12 @@ perl-class-std
       
       
 
-      ``0.013-1``,  ``0.013-0``
+      ``0.013-2``,  ``0.013-1``,  ``0.013-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-scalar-list-utils: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-class-std
 
     <script>
         var package = "perl-class-std";
-        var versions = ["0.013","0.013"];
+        var versions = ["0.013","0.013","0.013"];
     </script>
 
 

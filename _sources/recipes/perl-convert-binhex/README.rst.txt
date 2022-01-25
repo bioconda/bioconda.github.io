@@ -27,12 +27,12 @@ perl-convert-binhex
       
       
 
-      ``1.125-1``,  ``1.125-0``
+      ``1.125-2``,  ``1.125-1``,  ``1.125-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-convert-binhex
 
     <script>
         var package = "perl-convert-binhex";
-        var versions = ["1.125","1.125"];
+        var versions = ["1.125","1.125","1.125"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-local-lib
       
       
 
-      ``2.000024-0``
+      ``2.000024-1``,  ``2.000024-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
    :depends perl-module-build: 
    :requirements:
@@ -66,7 +66,7 @@ perl-local-lib
 
     <script>
         var package = "perl-local-lib";
-        var versions = ["2.000024"];
+        var versions = ["2.000024","2.000024"];
     </script>
 
 

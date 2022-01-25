@@ -27,13 +27,13 @@ spine
       
       
 
-      ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.2-1``,  ``0.2.2-0``
+      ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.2-1``,  ``0.2.2-0``
 
       
 
    
    :depends mummer: ``>=3.22``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-which: 
    :requirements:
 
@@ -66,7 +66,7 @@ spine
 
     <script>
         var package = "spine";
-        var versions = ["0.3.2","0.3.2","0.2.2","0.2.2"];
+        var versions = ["0.3.2","0.3.2","0.3.2","0.2.2","0.2.2"];
     </script>
 
 

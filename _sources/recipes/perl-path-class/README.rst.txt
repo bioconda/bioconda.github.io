@@ -27,12 +27,12 @@ perl-path-class
       
       
 
-      ``0.37-1``,  ``0.37-0``,  ``0.36-0``
+      ``0.37-2``,  ``0.37-1``,  ``0.37-0``,  ``0.36-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-file-path: 
@@ -70,7 +70,7 @@ perl-path-class
 
     <script>
         var package = "perl-path-class";
-        var versions = ["0.37","0.37","0.36"];
+        var versions = ["0.37","0.37","0.37","0.36"];
     </script>
 
 

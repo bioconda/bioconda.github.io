@@ -27,12 +27,12 @@ perl-text-format
       
       
 
-      ``0.59-2``,  ``0.59-1``,  ``0.59-0``
+      ``0.59-3``,  ``0.59-2``,  ``0.59-1``,  ``0.59-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-text-format
 
     <script>
         var package = "perl-text-format";
-        var versions = ["0.59","0.59","0.59"];
+        var versions = ["0.59","0.59","0.59","0.59"];
     </script>
 
 

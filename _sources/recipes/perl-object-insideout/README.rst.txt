@@ -27,12 +27,12 @@ perl-object-insideout
       
       
 
-      ``4.05-0``,  ``4.04-0``
+      ``4.05-1``,  ``4.05-0``,  ``4.04-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-data-dumper: 
    :depends perl-exception-class: 
    :requirements:
@@ -66,7 +66,7 @@ perl-object-insideout
 
     <script>
         var package = "perl-object-insideout";
-        var versions = ["4.05","4.04"];
+        var versions = ["4.05","4.05","4.04"];
     </script>
 
 

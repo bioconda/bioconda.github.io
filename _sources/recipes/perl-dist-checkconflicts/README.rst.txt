@@ -27,12 +27,12 @@ perl-dist-checkconflicts
       
       
 
-      ``0.11-2``,  ``0.11-0``
+      ``0.11-3``,  ``0.11-2``,  ``0.11-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-exporter: 
@@ -68,7 +68,7 @@ perl-dist-checkconflicts
 
     <script>
         var package = "perl-dist-checkconflicts";
-        var versions = ["0.11","0.11"];
+        var versions = ["0.11","0.11","0.11"];
     </script>
 
 

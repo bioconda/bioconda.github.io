@@ -27,12 +27,12 @@ perl-math-utils
       
       
 
-      ``1.13-0``
+      ``1.13-1``,  ``1.13-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-math-utils
 
     <script>
         var package = "perl-math-utils";
-        var versions = ["1.13"];
+        var versions = ["1.13","1.13"];
     </script>
 
 

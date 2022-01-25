@@ -27,12 +27,12 @@ perl-image-size
       
       
 
-      ``3.300-2``,  ``3.300-1``,  ``3.300-0``
+      ``3.300-3``,  ``3.300-2``,  ``3.300-1``,  ``3.300-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-image-size
 
     <script>
         var package = "perl-image-size";
-        var versions = ["3.300","3.300","3.300"];
+        var versions = ["3.300","3.300","3.300","3.300"];
     </script>
 
 

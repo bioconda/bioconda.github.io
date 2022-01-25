@@ -28,13 +28,21 @@ novoplasty
    :versions:
       
       
+      .. raw:: html
 
-      ``4.3.1-0``,  ``4.2-1``,  ``4.2-0``,  ``4.0-0``,  ``3.8.3-0``,  ``3.7.2-0``,  ``3.7-0``,  ``2.2.2-1``,  ``2.2.2-0``
+         <details><summary><span class="truncated-version-list"><code>4.3.1-1</code>,  <code>4.3.1-0</code>,  <code>4.2-1</code>,  <code>4.2-0</code>,  <code>4.0-0</code>,  <code>3.8.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7-0</code>,  <code>2.2.2-1</code>,  </span></summary>
+      
 
+      ``4.3.1-1``,  ``4.3.1-0``,  ``4.2-1``,  ``4.2-0``,  ``4.0-0``,  ``3.8.3-0``,  ``3.7.2-0``,  ``3.7-0``,  ``2.2.2-1``,  ``2.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +74,7 @@ novoplasty
 
     <script>
         var package = "novoplasty";
-        var versions = ["4.3.1","4.2","4.2","4.0","3.8.3"];
+        var versions = ["4.3.1","4.3.1","4.2","4.2","4.0"];
     </script>
 
 

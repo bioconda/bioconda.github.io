@@ -27,12 +27,12 @@ perl-par
       
       
 
-      ``1.014-1``,  ``1.014-0``
+      ``1.014-2``,  ``1.014-1``,  ``1.014-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-archive-zip: 
    :depends perl-par-dist: 
    :requirements:
@@ -66,7 +66,7 @@ perl-par
 
     <script>
         var package = "perl-par";
-        var versions = ["1.014","1.014"];
+        var versions = ["1.014","1.014","1.014"];
     </script>
 
 

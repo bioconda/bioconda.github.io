@@ -27,12 +27,12 @@ perl-mldbm
       
       
 
-      ``2.05-1``,  ``2.05-0``
+      ``2.05-2``,  ``2.05-1``,  ``2.05-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-mldbm
 
     <script>
         var package = "perl-mldbm";
-        var versions = ["2.05","2.05"];
+        var versions = ["2.05","2.05","2.05"];
     </script>
 
 

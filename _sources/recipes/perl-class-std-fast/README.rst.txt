@@ -27,12 +27,12 @@ perl-class-std-fast
       
       
 
-      ``0.0.8-1``,  ``0.0.8-0``
+      ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-class-std: 
    :depends perl-scalar-list-utils: 
    :requirements:
@@ -66,7 +66,7 @@ perl-class-std-fast
 
     <script>
         var package = "perl-class-std-fast";
-        var versions = ["0.0.8","0.0.8"];
+        var versions = ["0.0.8","0.0.8","0.0.8"];
     </script>
 
 

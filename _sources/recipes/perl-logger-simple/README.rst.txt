@@ -27,12 +27,12 @@ perl-logger-simple
       
       
 
-      ``2.0-0``
+      ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-object-insideout: 
    :depends perl-test-harness: 
@@ -69,7 +69,7 @@ perl-logger-simple
 
     <script>
         var package = "perl-logger-simple";
-        var versions = ["2.0"];
+        var versions = ["2.0","2.0"];
     </script>
 
 

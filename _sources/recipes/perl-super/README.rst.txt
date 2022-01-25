@@ -27,12 +27,12 @@ perl-super
       
       
 
-      ``1.20190531-0``,  ``1.20141117-1``,  ``1.20141117-0``
+      ``1.20190531-1``,  ``1.20190531-0``,  ``1.20141117-1``,  ``1.20141117-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-sub-identify: 
    :requirements:
@@ -66,7 +66,7 @@ perl-super
 
     <script>
         var package = "perl-super";
-        var versions = ["1.20190531","1.20141117","1.20141117"];
+        var versions = ["1.20190531","1.20190531","1.20141117","1.20141117"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-sql-statement
       
       
 
-      ``1.412-0``,  ``1.407-1``,  ``1.407-0``
+      ``1.412-1``,  ``1.412-0``,  ``1.407-1``,  ``1.407-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-clone: 
    :depends perl-math-base-convert: 
    :depends perl-module-runtime: 
@@ -69,7 +69,7 @@ perl-sql-statement
 
     <script>
         var package = "perl-sql-statement";
-        var versions = ["1.412","1.407","1.407"];
+        var versions = ["1.412","1.412","1.407","1.407"];
     </script>
 
 

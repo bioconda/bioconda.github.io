@@ -27,12 +27,12 @@ perl-archive-zip
       
       
 
-      ``1.64-0``,  ``1.60-0``,  ``1.55-4``,  ``1.55-3``,  ``1.55-2``,  ``1.55-1``,  ``1.55-0``
+      ``1.64-1``,  ``1.64-0``,  ``1.60-0``,  ``1.55-4``,  ``1.55-3``,  ``1.55-2``,  ``1.55-1``,  ``1.55-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-compress-raw-zlib: 
    :depends perl-file-path: 
    :depends perl-file-temp: 
@@ -68,7 +68,7 @@ perl-archive-zip
 
     <script>
         var package = "perl-archive-zip";
-        var versions = ["1.64","1.60","1.55","1.55","1.55"];
+        var versions = ["1.64","1.64","1.60","1.55","1.55"];
     </script>
 
 

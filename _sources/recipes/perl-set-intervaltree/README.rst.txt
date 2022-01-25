@@ -26,15 +26,23 @@ perl-set-intervaltree
    :versions:
       
       
+      .. raw:: html
 
-      ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.12-1</code>,  <code>0.12-0</code>,  <code>0.11-1</code>,  <code>0.11-0</code>,  <code>0.10-4</code>,  <code>0.10-3</code>,  <code>0.10-2</code>,  <code>0.10-1</code>,  <code>0.10-0</code>,  </span></summary>
+      
 
+      ``0.12-1``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +74,7 @@ perl-set-intervaltree
 
     <script>
         var package = "perl-set-intervaltree";
-        var versions = ["0.12","0.11","0.11","0.10","0.10"];
+        var versions = ["0.12","0.12","0.11","0.11","0.10"];
     </script>
 
 

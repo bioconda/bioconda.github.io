@@ -27,12 +27,12 @@ perl-math-derivative
       
       
 
-      ``1.01-0``,  ``0.04-1``,  ``0.04-0``
+      ``1.01-1``,  ``1.01-0``,  ``0.04-1``,  ``0.04-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-math-derivative
 
     <script>
         var package = "perl-math-derivative";
-        var versions = ["1.01","0.04","0.04"];
+        var versions = ["1.01","1.01","0.04","0.04"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-html-treebuilder-xpath
       
       
 
-      ``0.14-1``,  ``0.14-0``
+      ``0.14-2``,  ``0.14-1``,  ``0.14-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-html-tree: 
    :depends perl-xml-xpathengine: 
    :requirements:
@@ -66,7 +66,7 @@ perl-html-treebuilder-xpath
 
     <script>
         var package = "perl-html-treebuilder-xpath";
-        var versions = ["0.14","0.14"];
+        var versions = ["0.14","0.14","0.14"];
     </script>
 
 

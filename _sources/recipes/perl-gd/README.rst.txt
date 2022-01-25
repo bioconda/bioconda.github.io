@@ -28,10 +28,10 @@ perl-gd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.71-0</code>,  <code>2.70-1</code>,  <code>2.70-0</code>,  <code>2.69-0</code>,  <code>2.68-0</code>,  <code>2.56-9</code>,  <code>2.56-8</code>,  <code>2.56-7</code>,  <code>2.56-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.74-0</code>,  <code>2.71-0</code>,  <code>2.70-1</code>,  <code>2.70-0</code>,  <code>2.69-0</code>,  <code>2.68-0</code>,  <code>2.56-9</code>,  <code>2.56-8</code>,  <code>2.56-7</code>,  </span></summary>
       
 
-      ``2.71-0``,  ``2.70-1``,  ``2.70-0``,  ``2.69-0``,  ``2.68-0``,  ``2.56-9``,  ``2.56-8``,  ``2.56-7``,  ``2.56-6``,  ``2.56-5``,  ``2.56-4``,  ``2.56-3``,  ``2.56-0``
+      ``2.74-0``,  ``2.71-0``,  ``2.70-1``,  ``2.70-0``,  ``2.69-0``,  ``2.68-0``,  ``2.56-9``,  ``2.56-8``,  ``2.56-7``,  ``2.56-6``,  ``2.56-5``,  ``2.56-4``,  ``2.56-3``,  ``2.56-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ perl-gd
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libgd: ``>=2.2.5,<2.3.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libgd: ``>=2.3.3,<2.4.0a0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -76,7 +76,7 @@ perl-gd
 
     <script>
         var package = "perl-gd";
-        var versions = ["2.71","2.70","2.70","2.69","2.68"];
+        var versions = ["2.74","2.71","2.70","2.70","2.69"];
     </script>
 
 

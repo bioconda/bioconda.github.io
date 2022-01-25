@@ -27,12 +27,12 @@ perl-html-element-extended
       
       
 
-      ``1.18-1``,  ``1.18-0``
+      ``1.18-2``,  ``1.18-1``,  ``1.18-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-html-tree: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-html-element-extended
 
     <script>
         var package = "perl-html-element-extended";
-        var versions = ["1.18","1.18"];
+        var versions = ["1.18","1.18","1.18"];
     </script>
 
 

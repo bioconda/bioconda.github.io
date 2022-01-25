@@ -27,12 +27,12 @@ perl-module-runtime-conflicts
       
       
 
-      ``0.003-0``
+      ``0.003-1``,  ``0.003-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-dist-checkconflicts: 
    :depends perl-module-runtime: 
    :requirements:
@@ -66,7 +66,7 @@ perl-module-runtime-conflicts
 
     <script>
         var package = "perl-module-runtime-conflicts";
-        var versions = ["0.003"];
+        var versions = ["0.003","0.003"];
     </script>
 
 

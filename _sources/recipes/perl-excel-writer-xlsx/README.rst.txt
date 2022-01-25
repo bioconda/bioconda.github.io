@@ -27,12 +27,12 @@ perl-excel-writer-xlsx
       
       
 
-      ``1.00-0``,  ``0.98-0``,  ``0.95-1``,  ``0.95-0``
+      ``1.00-1``,  ``1.00-0``,  ``0.98-0``,  ``0.95-1``,  ``0.95-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-archive-zip: 
    :depends perl-file-temp: 
    :requirements:
@@ -66,7 +66,7 @@ perl-excel-writer-xlsx
 
     <script>
         var package = "perl-excel-writer-xlsx";
-        var versions = ["1.00","0.98","0.95","0.95"];
+        var versions = ["1.00","1.00","0.98","0.95","0.95"];
     </script>
 
 

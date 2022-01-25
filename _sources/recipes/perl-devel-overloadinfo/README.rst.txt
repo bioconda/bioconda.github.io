@@ -27,12 +27,12 @@ perl-devel-overloadinfo
       
       
 
-      ``0.005-0``
+      ``0.005-1``,  ``0.005-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter: 
    :depends perl-mro-compat: 
    :depends perl-package-stash: 
@@ -68,7 +68,7 @@ perl-devel-overloadinfo
 
     <script>
         var package = "perl-devel-overloadinfo";
-        var versions = ["0.005"];
+        var versions = ["0.005","0.005"];
     </script>
 
 

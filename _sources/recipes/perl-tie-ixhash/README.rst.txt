@@ -27,12 +27,12 @@ perl-tie-ixhash
       
       
 
-      ``1.23-2``,  ``1.23-1``,  ``1.23-0``
+      ``1.23-3``,  ``1.23-2``,  ``1.23-1``,  ``1.23-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-tie-ixhash
 
     <script>
         var package = "perl-tie-ixhash";
-        var versions = ["1.23","1.23","1.23"];
+        var versions = ["1.23","1.23","1.23","1.23"];
     </script>
 
 

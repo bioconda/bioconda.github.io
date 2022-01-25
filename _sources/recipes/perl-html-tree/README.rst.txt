@@ -27,12 +27,12 @@ perl-html-tree
       
       
 
-      ``5.07-1``,  ``5.07-0``,  ``5.03-0``
+      ``5.07-2``,  ``5.07-1``,  ``5.07-0``,  ``5.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-html-parser: 
@@ -68,7 +68,7 @@ perl-html-tree
 
     <script>
         var package = "perl-html-tree";
-        var versions = ["5.07","5.07","5.03"];
+        var versions = ["5.07","5.07","5.07","5.03"];
     </script>
 
 

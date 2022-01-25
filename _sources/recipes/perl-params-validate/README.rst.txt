@@ -27,13 +27,13 @@ perl-params-validate
       
       
 
-      ``1.29-1``,  ``1.29-0``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.29-2``,  ``1.29-1``,  ``1.29-0``,  ``1.26-2``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-module-implementation: 
@@ -69,7 +69,7 @@ perl-params-validate
 
     <script>
         var package = "perl-params-validate";
-        var versions = ["1.29","1.29","1.26","1.26","1.08"];
+        var versions = ["1.29","1.29","1.29","1.26","1.26"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-test-toolbox
       
       
 
-      ``0.4-1``,  ``0.4-0``
+      ``0.4-2``,  ``0.4-1``,  ``0.4-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-toolbox
 
     <script>
         var package = "perl-test-toolbox";
-        var versions = ["0.4","0.4"];
+        var versions = ["0.4","0.4","0.4"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-text-asciitable
       
       
 
-      ``0.22-2``,  ``0.22-1``,  ``0.22-0``
+      ``0.22-3``,  ``0.22-2``,  ``0.22-1``,  ``0.22-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-encode: 
    :requirements:
@@ -66,7 +66,7 @@ perl-text-asciitable
 
     <script>
         var package = "perl-text-asciitable";
-        var versions = ["0.22","0.22","0.22"];
+        var versions = ["0.22","0.22","0.22","0.22"];
     </script>
 
 

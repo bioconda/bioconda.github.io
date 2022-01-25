@@ -10,15 +10,14 @@ genome_updater
    :replaces_section_title:
    :noindex:
 
-   genome\_updater\: bash script to download and update snapshots of the NCBI genomes
+   genome\_updater\: bash script to download\/update snapshots of refseq\/genbank
 
    :homepage: https://github.com/pirovc/genome_updater
    :license: MIT / MIT License
    :recipe: /`genome_updater <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genome_updater>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genome_updater/meta.yaml>`_
 
-   Bash script to download and update snapshots of the NCBI genomes \(refseq\/genbank\) 
-   keeping all files and detailed log for each update\, with file integrity check \(MD5\) 
-   and parallel download support.
+   Bash script to download\/update snapshots of files from NCBI genomes repository 
+   \(refseq\/genbank\) with track of changes and without redundancy  
 
 
 
@@ -30,7 +29,7 @@ genome_updater
       
       
 
-      ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -72,7 +71,7 @@ genome_updater
 
     <script>
         var package = "genome_updater";
-        var versions = ["0.2.5","0.2.4","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.3.0","0.2.5","0.2.4","0.2.4","0.2.3"];
     </script>
 
 

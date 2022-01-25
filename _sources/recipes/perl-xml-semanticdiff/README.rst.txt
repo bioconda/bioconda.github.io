@@ -27,12 +27,12 @@ perl-xml-semanticdiff
       
       
 
-      ``1.0007-0``,  ``1.0004-2``,  ``1.0004-1``,  ``1.0004-0``
+      ``1.0007-1``,  ``1.0007-0``,  ``1.0004-2``,  ``1.0004-1``,  ``1.0004-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-digest-md5: 
    :depends perl-encode: 
    :depends perl-xml-parser: 
@@ -67,7 +67,7 @@ perl-xml-semanticdiff
 
     <script>
         var package = "perl-xml-semanticdiff";
-        var versions = ["1.0007","1.0004","1.0004","1.0004"];
+        var versions = ["1.0007","1.0007","1.0004","1.0004","1.0004"];
     </script>
 
 

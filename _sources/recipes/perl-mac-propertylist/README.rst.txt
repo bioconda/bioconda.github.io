@@ -27,12 +27,12 @@ perl-mac-propertylist
       
       
 
-      ``1.413-0``
+      ``1.413-1``,  ``1.413-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-math-bigint: 
    :depends perl-mime-base64: 
    :depends perl-parent: 
@@ -69,7 +69,7 @@ perl-mac-propertylist
 
     <script>
         var package = "perl-mac-propertylist";
-        var versions = ["1.413"];
+        var versions = ["1.413","1.413"];
     </script>
 
 

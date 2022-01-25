@@ -34,10 +34,10 @@ n50
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  <code>0.92-0</code>,  <code>0.90-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.2-2</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  <code>0.92-0</code>,  </span></summary>
       
 
-      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.83-0``,  ``0.82-0``,  ``0.80-0``,  ``0.60-2``,  ``0.60-1``,  ``0.60-0``
+      ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.83-0``,  ``0.82-0``,  ``0.80-0``,  ``0.60-2``,  ``0.60-1``,  ``0.60-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ n50
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter: 
    :depends perl-fastx-reader: ``>=1.2.1``
    :depends perl-file-which: 
@@ -85,7 +85,7 @@ n50
 
     <script>
         var package = "n50";
-        var versions = ["1.4.2","1.4.2","1.4.1","1.3.0","1.3.0"];
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.1","1.3.0"];
     </script>
 
 

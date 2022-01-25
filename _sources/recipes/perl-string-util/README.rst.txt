@@ -27,12 +27,12 @@ perl-string-util
       
       
 
-      ``1.26-1``,  ``1.26-0``
+      ``1.26-2``,  ``1.26-1``,  ``1.26-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-number-misc: 
    :depends perl-test-toolbox: 
    :requirements:
@@ -66,7 +66,7 @@ perl-string-util
 
     <script>
         var package = "perl-string-util";
-        var versions = ["1.26","1.26"];
+        var versions = ["1.26","1.26","1.26"];
     </script>
 
 
