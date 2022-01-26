@@ -27,13 +27,14 @@ perl-xml-libxslt
       
       
 
-      ``1.94-1``,  ``1.94-0``
+      ``1.94-2``,  ``1.94-1``,  ``1.94-0``
 
       
 
    
-   :depends libxslt: ``>=1.1.32,<2.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libxslt: ``>=1.1.33,<2.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xml-libxml: 
    :requirements:
 
@@ -66,7 +67,7 @@ perl-xml-libxslt
 
     <script>
         var package = "perl-xml-libxslt";
-        var versions = ["1.94","1.94"];
+        var versions = ["1.94","1.94","1.94"];
     </script>
 
 
