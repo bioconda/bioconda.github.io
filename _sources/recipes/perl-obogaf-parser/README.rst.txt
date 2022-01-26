@@ -34,12 +34,12 @@ perl-obogaf-parser
       
       
 
-      ``1.373-1``,  ``1.373-0``,  ``1.272-0``,  ``1.271-0``,  ``1.016-0``
+      ``1.373-2``,  ``1.373-1``,  ``1.373-0``,  ``1.272-0``,  ``1.271-0``,  ``1.016-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-graph: 
    :depends perl-list-moreutils: 
    :depends perl-perlio-gzip: 
@@ -74,7 +74,7 @@ perl-obogaf-parser
 
     <script>
         var package = "perl-obogaf-parser";
-        var versions = ["1.373","1.373","1.272","1.271","1.016"];
+        var versions = ["1.373","1.373","1.373","1.272","1.271"];
     </script>
 
 

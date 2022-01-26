@@ -27,12 +27,13 @@ perl-forks
       
       
 
-      ``0.36-4``,  ``0.36-3``,  ``0.36-2``,  ``0.36-1``
+      ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-2``,  ``0.36-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-acme-damn: 
    :depends perl-attribute-handlers: 
    :depends perl-devel-symdump: 
@@ -71,7 +72,7 @@ perl-forks
 
     <script>
         var package = "perl-forks";
-        var versions = ["0.36","0.36","0.36","0.36"];
+        var versions = ["0.36","0.36","0.36","0.36","0.36"];
     </script>
 
 

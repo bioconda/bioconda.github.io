@@ -27,12 +27,13 @@ perl-list-moreutils-xs
       
       
 
-      ``0.428-0``
+      ``0.428-1``,  ``0.428-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xsloader: 
    :requirements:
 
@@ -65,7 +66,7 @@ perl-list-moreutils-xs
 
     <script>
         var package = "perl-list-moreutils-xs";
-        var versions = ["0.428"];
+        var versions = ["0.428","0.428"];
     </script>
 
 

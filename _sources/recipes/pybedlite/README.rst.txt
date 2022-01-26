@@ -27,15 +27,14 @@ pybedlite
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
    :depends attrs: ``>=19.3.0``
    :depends intervaltree: ``>=3.1.0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.6``
    :depends typing_extensions: ``>=3.7.4``
    :depends typing_inspect: ``>=0.3.1``
    :requirements:
@@ -69,7 +68,7 @@ pybedlite
 
     <script>
         var package = "pybedlite";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.1","0.0.1"];
     </script>
 
 

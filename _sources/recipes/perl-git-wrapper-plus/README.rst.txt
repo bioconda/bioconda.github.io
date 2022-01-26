@@ -27,12 +27,12 @@ perl-git-wrapper-plus
       
       
 
-      ``0.004011-0``,  ``0.004010-0``
+      ``0.004011-1``,  ``0.004011-0``,  ``0.004010-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-git-wrapper: 
    :depends perl-moo: 
@@ -71,7 +71,7 @@ perl-git-wrapper-plus
 
     <script>
         var package = "perl-git-wrapper-plus";
-        var versions = ["0.004011","0.004010"];
+        var versions = ["0.004011","0.004011","0.004010"];
     </script>
 
 

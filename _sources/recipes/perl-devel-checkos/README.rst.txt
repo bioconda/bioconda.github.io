@@ -27,12 +27,12 @@ perl-devel-checkos
       
       
 
-      ``1.81-0``
+      ``1.81-1``,  ``1.81-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-data-compare: 
    :depends perl-file-find-rule: 
    :depends perl-file-temp: 
@@ -67,7 +67,7 @@ perl-devel-checkos
 
     <script>
         var package = "perl-devel-checkos";
-        var versions = ["1.81"];
+        var versions = ["1.81","1.81"];
     </script>
 
 

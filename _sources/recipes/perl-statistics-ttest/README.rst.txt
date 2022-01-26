@@ -27,12 +27,12 @@ perl-statistics-ttest
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-statistics-descriptive: 
    :depends perl-statistics-distributions: 
    :requirements:
@@ -66,7 +66,7 @@ perl-statistics-ttest
 
     <script>
         var package = "perl-statistics-ttest";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.1","1.1","1.1"];
     </script>
 
 

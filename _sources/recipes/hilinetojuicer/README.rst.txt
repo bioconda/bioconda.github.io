@@ -12,7 +12,7 @@ hilinetojuicer
 
    Convert HiLine SAM alignments to Juicer format
 
-   :homepage: https://pypi.org/project/HiLineToJuicer/0.0.1/
+   :homepage: https://pypi.org/project/HiLineToJuicer/0.0.2/
    :license: MIT
    :recipe: /`hilinetojuicer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hilinetojuicer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hilinetojuicer/meta.yaml>`_
 
@@ -27,7 +27,7 @@ hilinetojuicer
       
       
 
-      ``0.0.1-0``
+      ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -68,7 +68,7 @@ hilinetojuicer
 
     <script>
         var package = "hilinetojuicer";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.2","0.0.1"];
     </script>
 
 

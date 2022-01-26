@@ -28,10 +28,10 @@ trinotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.1-7</code>,  <code>3.1.1-6</code>,  <code>3.1.1-5</code>,  <code>3.1.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.1-7</code>,  <code>3.1.1-6</code>,  <code>3.1.1-5</code>,  </span></summary>
       
 
-      ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-7``,  ``3.1.1-6``,  ``3.1.1-5``,  ``3.1.1-4``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-7``,  ``3.1.1-6``,  ``3.1.1-5``,  ``3.1.1-4``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ trinotate
    
    :depends blast: 
    :depends hmmer: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-dbd-sqlite: 
    :depends perl-dbi: 
@@ -81,7 +81,7 @@ trinotate
 
     <script>
         var package = "trinotate";
-        var versions = ["3.2.2","3.2.1","3.2.1","3.2.0","3.2.0"];
+        var versions = ["3.2.2","3.2.2","3.2.1","3.2.1","3.2.0"];
     </script>
 
 

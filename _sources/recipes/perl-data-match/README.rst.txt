@@ -27,12 +27,12 @@ perl-data-match
       
       
 
-      ``0.06-0``
+      ``0.06-1``,  ``0.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-data-compare: 
    :depends perl-data-dumper: 
    :depends perl-string-escape: 
@@ -67,7 +67,7 @@ perl-data-match
 
     <script>
         var package = "perl-data-match";
-        var versions = ["0.06"];
+        var versions = ["0.06","0.06"];
     </script>
 
 

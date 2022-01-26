@@ -27,12 +27,12 @@ perl-findbin-libs
       
       
 
-      ``2.017008-1``,  ``2.017008-0``
+      ``2.017008-2``,  ``2.017008-1``,  ``2.017008-0``
 
       
 
    
-   :depends perl: ``>=5.22.0.1,<5.23.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-file-temp: 
    :depends perl-module-fromperlver: 
@@ -70,7 +70,7 @@ perl-findbin-libs
 
     <script>
         var package = "perl-findbin-libs";
-        var versions = ["2.017008","2.017008"];
+        var versions = ["2.017008","2.017008","2.017008"];
     </script>
 
 

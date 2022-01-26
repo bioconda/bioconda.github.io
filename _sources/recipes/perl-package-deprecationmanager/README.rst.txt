@@ -27,12 +27,12 @@ perl-package-deprecationmanager
       
       
 
-      ``0.17-0``
+      ``0.17-1``,  ``0.17-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-package-stash: 
    :depends perl-params-util: 
@@ -69,7 +69,7 @@ perl-package-deprecationmanager
 
     <script>
         var package = "perl-package-deprecationmanager";
-        var versions = ["0.17"];
+        var versions = ["0.17","0.17"];
     </script>
 
 

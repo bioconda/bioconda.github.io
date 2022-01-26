@@ -27,12 +27,12 @@ perl-gdgraph
       
       
 
-      ``1.54-0``,  ``1.49-4``,  ``1.49-3``,  ``1.49-2``,  ``1.49-1``,  ``1.49-0``
+      ``1.54-1``,  ``1.54-0``,  ``1.49-4``,  ``1.49-3``,  ``1.49-2``,  ``1.49-1``,  ``1.49-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-gd: 
    :depends perl-gdtextutil: 
    :requirements:
@@ -66,7 +66,7 @@ perl-gdgraph
 
     <script>
         var package = "perl-gdgraph";
-        var versions = ["1.54","1.49","1.49","1.49","1.49"];
+        var versions = ["1.54","1.54","1.49","1.49","1.49"];
     </script>
 
 

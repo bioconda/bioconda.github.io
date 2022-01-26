@@ -27,12 +27,12 @@ perl-parallel-forkmanager
       
       
 
-      ``2.02-0``,  ``1.17-1``,  ``1.17-0``
+      ``2.02-1``,  ``2.02-0``,  ``1.17-1``,  ``1.17-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-file-path: 
    :depends perl-file-temp: 
@@ -69,7 +69,7 @@ perl-parallel-forkmanager
 
     <script>
         var package = "perl-parallel-forkmanager";
-        var versions = ["2.02","1.17","1.17"];
+        var versions = ["2.02","2.02","1.17","1.17"];
     </script>
 
 
