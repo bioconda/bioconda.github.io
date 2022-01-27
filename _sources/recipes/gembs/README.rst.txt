@@ -27,9 +27,17 @@ gembs
    :versions:
       
       
+      .. raw:: html
 
-      ``3.5.1_IHEC-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.5.5_IHEC-0</code>,  <code>3.5.1_IHEC-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.2.0-5</code>,  <code>3.2.0-4</code>,  <code>3.2.0-3</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  </span></summary>
+      
 
+      ``3.5.5_IHEC-0``,  ``3.5.1_IHEC-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -82,7 +90,7 @@ gembs
 
     <script>
         var package = "gembs";
-        var versions = ["3.5.1_IHEC","3.5.0","3.5.0","3.2.0","3.2.0"];
+        var versions = ["3.5.5_IHEC","3.5.1_IHEC","3.5.0","3.5.0","3.2.0"];
     </script>
 
 

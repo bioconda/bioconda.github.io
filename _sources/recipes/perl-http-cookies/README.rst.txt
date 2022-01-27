@@ -27,12 +27,12 @@ perl-http-cookies
       
       
 
-      ``6.04-0``,  ``6.01-1``,  ``6.01-0``
+      ``6.04-1``,  ``6.04-0``,  ``6.01-1``,  ``6.01-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-http-date: 
    :depends perl-http-message: 
@@ -68,7 +68,7 @@ perl-http-cookies
 
     <script>
         var package = "perl-http-cookies";
-        var versions = ["6.04","6.01","6.01"];
+        var versions = ["6.04","6.04","6.01","6.01"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-http-daemon
       
       
 
-      ``6.01-1``,  ``6.01-0``
+      ``6.01-2``,  ``6.01-1``,  ``6.01-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-http-date: 
    :depends perl-http-message: 
    :depends perl-lwp-mediatypes: 
@@ -67,7 +67,7 @@ perl-http-daemon
 
     <script>
         var package = "perl-http-daemon";
-        var versions = ["6.01","6.01"];
+        var versions = ["6.01","6.01","6.01"];
     </script>
 
 

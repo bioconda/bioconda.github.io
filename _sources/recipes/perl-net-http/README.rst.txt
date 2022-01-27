@@ -27,12 +27,12 @@ perl-net-http
       
       
 
-      ``6.19-0``,  ``6.18-0``,  ``6.09-1``,  ``6.09-0``
+      ``6.19-1``,  ``6.19-0``,  ``6.18-0``,  ``6.09-1``,  ``6.09-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-compress-raw-zlib: 
@@ -69,7 +69,7 @@ perl-net-http
 
     <script>
         var package = "perl-net-http";
-        var versions = ["6.19","6.18","6.09","6.09"];
+        var versions = ["6.19","6.19","6.18","6.09","6.09"];
     </script>
 
 

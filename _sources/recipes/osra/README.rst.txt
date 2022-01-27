@@ -6,7 +6,7 @@
 osra
 ====
 
-.. conda:recipe:: osra/2.0.1
+.. conda:recipe:: osra/2.1.0
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,8 @@ osra
 
    :homepage: http://cactus.nci.nih.gov/osra/
    :license: Simplified BSD Licence
-   :recipe: /`osra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/osra>`_/`2.0.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/osra/2.0.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/osra/2.0.1/meta.yaml>`_
+   :recipe: /`osra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/osra>`_/`2.1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/osra/2.1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/osra/2.1.0/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`ctb_osra`
 
    
 

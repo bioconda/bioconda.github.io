@@ -12,7 +12,7 @@ gcen
 
    An easy toolkit of Gene Co\-Expression Network analysis for lncRNAs annotation
 
-   :homepage: https://www.biochen.org/gcen/
+   :homepage: https://www.biochen.org/gcen
    :license: GPL v3
    :recipe: /`gcen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcen/meta.yaml>`_
    :links: biotools: :biotools:`gcen`
@@ -28,7 +28,7 @@ gcen
       
       
 
-      ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``
+      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``
 
       
 
@@ -66,7 +66,7 @@ gcen
 
     <script>
         var package = "gcen";
-        var versions = ["0.6.0","0.5.2","0.5.1","0.5.1"];
+        var versions = ["0.6.1","0.6.0","0.5.2","0.5.1","0.5.1"];
     </script>
 
 

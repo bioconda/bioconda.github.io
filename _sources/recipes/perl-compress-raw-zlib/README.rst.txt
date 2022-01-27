@@ -28,10 +28,10 @@ perl-compress-raw-zlib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-1</code>,  <code>2.086-0</code>,  <code>2.084-1</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  <code>2.069-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.101-1</code>,  <code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-1</code>,  <code>2.086-0</code>,  <code>2.084-1</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  </span></summary>
       
 
-      ``2.087-1``,  ``2.087-0``,  ``2.086-1``,  ``2.086-0``,  ``2.084-1``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-7``,  ``2.069-6``,  ``2.069-3``,  ``2.069-2``,  ``2.069-1``,  ``2.069-0``
+      ``2.101-1``,  ``2.087-1``,  ``2.087-0``,  ``2.086-1``,  ``2.086-0``,  ``2.084-1``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-7``,  ``2.069-6``,  ``2.069-3``,  ``2.069-2``,  ``2.069-1``,  ``2.069-0``
 
       
       .. raw:: html
@@ -74,7 +74,7 @@ perl-compress-raw-zlib
 
     <script>
         var package = "perl-compress-raw-zlib";
-        var versions = ["2.087","2.087","2.086","2.086","2.084"];
+        var versions = ["2.101","2.087","2.087","2.086","2.086"];
     </script>
 
 

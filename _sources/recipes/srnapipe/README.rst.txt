@@ -27,7 +27,7 @@ srnapipe
       
       
 
-      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-3``,  ``1.1-0``
+      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-3``,  ``1.1-0``
 
       
 
@@ -36,14 +36,14 @@ srnapipe
    :depends bioconductor-sushi: 
    :depends bwa: ``>=0.7.12``
    :depends fonts-conda-ecosystem: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-copy-recursive: 
    :depends perl-getopt-long: 
    :depends perl-math-cdf: 
    :depends perl-parallel-forkmanager: 
    :depends perl-statistics-r: 
    :depends perl-string-random: 
-   :depends r-base: ``>=3.5,<3.6.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-plotrix: 
    :depends r-rcolorbrewer: 
@@ -79,7 +79,7 @@ srnapipe
 
     <script>
         var package = "srnapipe";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1","1.1"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1"];
     </script>
 
 

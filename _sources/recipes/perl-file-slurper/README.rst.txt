@@ -27,12 +27,12 @@ perl-file-slurper
       
       
 
-      ``0.012-0``,  ``0.008-2``,  ``0.008-1``,  ``0.008-0``
+      ``0.012-1``,  ``0.012-0``,  ``0.008-2``,  ``0.008-1``,  ``0.008-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-encode: 
@@ -68,7 +68,7 @@ perl-file-slurper
 
     <script>
         var package = "perl-file-slurper";
-        var versions = ["0.012","0.008","0.008","0.008"];
+        var versions = ["0.012","0.012","0.008","0.008","0.008"];
     </script>
 
 

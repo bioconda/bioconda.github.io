@@ -29,10 +29,10 @@ unicycler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.8-5</code>,  <code>0.4.8-4</code>,  <code>0.4.8-3</code>,  <code>0.4.8-2</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.8-5</code>,  <code>0.4.8-4</code>,  <code>0.4.8-3</code>,  <code>0.4.8-2</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  </span></summary>
       
 
-      ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-4``,  ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
+      ``0.5.0-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-4``,  ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,19 +42,14 @@ unicycler
 
    
    :depends blast: 
-   :depends bowtie2: ``>=2.4.4``
-   :depends freebayes: 
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends miniasm: 
-   :depends openjdk: 
-   :depends pilon: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends racon: 
-   :depends samtools: ``>=1.0``
-   :depends spades: ``>=3.6.2``
+   :depends spades: ``>=3.15.3``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +81,7 @@ unicycler
 
     <script>
         var package = "unicycler";
-        var versions = ["0.4.8","0.4.8","0.4.8","0.4.8","0.4.8"];
+        var versions = ["0.5.0","0.4.8","0.4.8","0.4.8","0.4.8"];
     </script>
 
 

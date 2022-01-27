@@ -29,13 +29,13 @@ cytoscape
       
       
 
-      ``3.9.0-0``,  ``3.8.2-0``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``
+      ``3.9.1-0``,  ``3.9.0-0``,  ``3.8.2-0``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``
 
       
 
    
    :depends font-ttf-dejavu-sans-mono: 
-   :depends fontconfig: ``>=2.13.1,<3.0a0``
+   :depends fontconfig: ``>=2.13.94,<3.0a0``
    :depends freetype: ``>=2.10.4,<3.0a0``
    :depends openjdk: ``>=11``
    :depends xorg-libxtst: 
@@ -70,7 +70,7 @@ cytoscape
 
     <script>
         var package = "cytoscape";
-        var versions = ["3.9.0","3.8.2","3.7.2","3.7.2","3.7.1"];
+        var versions = ["3.9.1","3.9.0","3.8.2","3.7.2","3.7.2"];
     </script>
 
 

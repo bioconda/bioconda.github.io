@@ -27,12 +27,12 @@ perl-data-stag
       
       
 
-      ``0.14-1``,  ``0.14-0``
+      ``0.14-2``,  ``0.14-1``,  ``0.14-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-graph: 
    :depends perl-io-string: 
    :depends perl-json: 
@@ -71,7 +71,7 @@ perl-data-stag
 
     <script>
         var package = "perl-data-stag";
-        var versions = ["0.14","0.14"];
+        var versions = ["0.14","0.14","0.14"];
     </script>
 
 

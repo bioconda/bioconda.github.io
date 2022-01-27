@@ -388,9 +388,9 @@ recipe directory.</p></li>
 this function. Used internally when <code class="docutils literal notranslate"><span class="pre">recursive=True</span></code>.</p></li>
 <li><p><strong>packages</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.10)"><em>dict</em></a>) – A dictionary, as returned by fetchPackages(), of all packages in a
 given bioconductor release and their versions.</p></li>
-<li><p><strong>skip_if_in_channels</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><em>list</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><em>None</em></a>) – List of channels whose existing packages will be automatically added to
+<li><p><strong>skip_if_in_channels</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><em>list</em></a><em> or </em><em>None</em>) – List of channels whose existing packages will be automatically added to
 <strong>seen_dependencies</strong>. Only has an effect if <code class="docutils literal notranslate"><span class="pre">recursive=True</span></code>.</p></li>
-<li><p><strong>needs_x</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><em>None</em></a>) – If None, we need to determine if this requires X and therefore additional
+<li><p><strong>needs_x</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a><em> or </em><em>None</em>) – If None, we need to determine if this requires X and therefore additional
 build dependencies and test environment variables.</p></li>
 </ul>
 </dd>
@@ -426,7 +426,7 @@ build dependencies and test environment variables.</p></li>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.4.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

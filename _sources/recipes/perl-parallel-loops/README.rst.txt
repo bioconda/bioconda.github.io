@@ -27,12 +27,12 @@ perl-parallel-loops
       
       
 
-      ``0.10-0``,  ``0.08-0``
+      ``0.10-1``,  ``0.10-0``,  ``0.08-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-parallel-forkmanager: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-parallel-loops
 
     <script>
         var package = "perl-parallel-loops";
-        var versions = ["0.10","0.08"];
+        var versions = ["0.10","0.10","0.08"];
     </script>
 
 

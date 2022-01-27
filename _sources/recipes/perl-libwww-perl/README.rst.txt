@@ -27,12 +27,12 @@ perl-libwww-perl
       
       
 
-      ``6.39-0``,  ``6.36-1``,  ``6.36-0``,  ``6.15-1``,  ``6.15-0``
+      ``6.39-1``,  ``6.39-0``,  ``6.36-1``,  ``6.36-0``,  ``6.15-1``,  ``6.15-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-digest-md5: 
    :depends perl-encode: 
@@ -81,7 +81,7 @@ perl-libwww-perl
 
     <script>
         var package = "perl-libwww-perl";
-        var versions = ["6.39","6.36","6.36","6.15","6.15"];
+        var versions = ["6.39","6.39","6.36","6.36","6.15"];
     </script>
 
 

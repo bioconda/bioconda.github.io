@@ -27,12 +27,12 @@ perl-html-formatter
       
       
 
-      ``2.16-0``,  ``2.14-1``,  ``2.14-0``
+      ``2.16-1``,  ``2.16-0``,  ``2.14-1``,  ``2.14-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-data-dumper: 
@@ -71,7 +71,7 @@ perl-html-formatter
 
     <script>
         var package = "perl-html-formatter";
-        var versions = ["2.16","2.14","2.14"];
+        var versions = ["2.16","2.16","2.14","2.14"];
     </script>
 
 

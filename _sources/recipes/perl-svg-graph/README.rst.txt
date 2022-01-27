@@ -27,12 +27,12 @@ perl-svg-graph
       
       
 
-      ``0.02-3``,  ``0.02-2``,  ``0.02-1``,  ``0.02-0``
+      ``0.02-4``,  ``0.02-3``,  ``0.02-2``,  ``0.02-1``,  ``0.02-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-math-derivative: 
    :depends perl-math-spline: 
    :depends perl-statistics-descriptive: 
@@ -69,7 +69,7 @@ perl-svg-graph
 
     <script>
         var package = "perl-svg-graph";
-        var versions = ["0.02","0.02","0.02","0.02"];
+        var versions = ["0.02","0.02","0.02","0.02","0.02"];
     </script>
 
 

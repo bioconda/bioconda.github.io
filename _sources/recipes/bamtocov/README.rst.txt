@@ -15,8 +15,11 @@ bamtocov
    :homepage: https://github.com/telatin/bamtocov
    :license: MIT
    :recipe: /`bamtocov <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamtocov>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamtocov/meta.yaml>`_
+   :links: biotools: :biotools:`bamtocov`, doi: :doi:`10.3390/bioengineering8050059`
 
-   
+   A collection of tools to extract coverage information from BAM and CRAM files\,
+   supporting target \(BED\, GFF\) and reporting the output in bedGraph \(BED\) or WIG format.
+
 
 
 .. conda:package:: bamtocov
@@ -28,10 +31,10 @@ bamtocov
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.4-0</code>,  <code>2.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.4-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.001-0``,  ``2.0.000-0``
+      ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.001-0``,  ``2.0.000-0``
 
       
       .. raw:: html
@@ -75,7 +78,7 @@ bamtocov
 
     <script>
         var package = "bamtocov";
-        var versions = ["2.5.0","2.4.0","2.3.0","2.2.0","2.2.0"];
+        var versions = ["2.5.0","2.5.0","2.4.0","2.3.0","2.2.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-file-util
       
       
 
-      ``4.161950-3``,  ``4.161950-2``,  ``4.161950-1``,  ``4.161950-0``
+      ``4.161950-4``,  ``4.161950-3``,  ``4.161950-2``,  ``4.161950-1``,  ``4.161950-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-constant: 
    :depends perl-exporter: 
    :depends perl-lib: 
@@ -67,7 +67,7 @@ perl-file-util
 
     <script>
         var package = "perl-file-util";
-        var versions = ["4.161950","4.161950","4.161950","4.161950"];
+        var versions = ["4.161950","4.161950","4.161950","4.161950","4.161950"];
     </script>
 
 
