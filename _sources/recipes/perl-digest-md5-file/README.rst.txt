@@ -27,14 +27,15 @@ perl-digest-md5-file
       
       
 
-      ``0.08-2``,  ``0.08-1``,  ``0.08-0``
+      ``0.08-3``,  ``0.08-2``,  ``0.08-1``,  ``0.08-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-digest-md5: 
-   :depends perl-libwww-perl: 
+   :depends perl-http-message: ``>=6.18``
+   :depends perl-libwww-perl: ``>=6.39``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ perl-digest-md5-file
 
     <script>
         var package = "perl-digest-md5-file";
-        var versions = ["0.08","0.08","0.08"];
+        var versions = ["0.08","0.08","0.08","0.08"];
     </script>
 
 

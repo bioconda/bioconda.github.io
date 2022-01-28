@@ -27,12 +27,13 @@ perl-lwp-protocol-https
       
       
 
-      ``6.07-4``,  ``6.06-3``,  ``6.06-2``,  ``6.06-1``,  ``6.06-0``
+      ``6.07-5``,  ``6.07-4``,  ``6.06-3``,  ``6.06-2``,  ``6.06-1``,  ``6.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-http-message: ``>=6.18``
    :depends perl-io-socket-ssl: 
    :depends perl-libwww-perl: 
    :depends perl-mozilla-ca: 
@@ -69,7 +70,7 @@ perl-lwp-protocol-https
 
     <script>
         var package = "perl-lwp-protocol-https";
-        var versions = ["6.07","6.06","6.06","6.06","6.06"];
+        var versions = ["6.07","6.07","6.06","6.06","6.06"];
     </script>
 
 

@@ -27,12 +27,13 @@ perl-xml-dom
       
       
 
-      ``1.46-0``,  ``1.45-1``,  ``1.45-0``
+      ``1.46-1``,  ``1.46-0``,  ``1.45-1``,  ``1.45-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-http-message: ``>=6.18``
    :depends perl-libwww-perl: 
    :depends perl-libxml-perl: 
    :depends perl-xml-parser: 
@@ -68,7 +69,7 @@ perl-xml-dom
 
     <script>
         var package = "perl-xml-dom";
-        var versions = ["1.46","1.45","1.45"];
+        var versions = ["1.46","1.46","1.45","1.45"];
     </script>
 
 
