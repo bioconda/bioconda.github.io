@@ -27,12 +27,12 @@ perl-getopt-long-descriptive
       
       
 
-      ``0.104-0``,  ``0.103-0``
+      ``0.104-1``,  ``0.104-0``,  ``0.103-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-getopt-long: 
    :depends perl-params-validate: 
@@ -68,7 +68,7 @@ perl-getopt-long-descriptive
 
     <script>
         var package = "perl-getopt-long-descriptive";
-        var versions = ["0.104","0.103"];
+        var versions = ["0.104","0.104","0.103"];
     </script>
 
 

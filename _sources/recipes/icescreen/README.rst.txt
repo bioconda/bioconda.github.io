@@ -29,14 +29,14 @@ icescreen
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends bcbio-gff: ``>=0.6.6``
    :depends biopython: ``>=1.78``
-   :depends blast: ``>=2.9.0``
+   :depends blast: ``>=2.12``
    :depends hmmer: ``>=3.3.2``
    :depends pandas: ``>=0.25.3``
    :depends python: ``>=3.7``
@@ -72,7 +72,7 @@ icescreen
 
     <script>
         var package = "icescreen";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

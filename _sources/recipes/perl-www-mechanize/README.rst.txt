@@ -27,12 +27,12 @@ perl-www-mechanize
       
       
 
-      ``1.91-1``,  ``1.91-0``
+      ``1.91-2``,  ``1.91-1``,  ``1.91-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-cgi: 
    :depends perl-encode-locale: 
    :depends perl-html-form: 
@@ -71,7 +71,7 @@ perl-www-mechanize
 
     <script>
         var package = "perl-www-mechanize";
-        var versions = ["1.91","1.91"];
+        var versions = ["1.91","1.91","1.91"];
     </script>
 
 

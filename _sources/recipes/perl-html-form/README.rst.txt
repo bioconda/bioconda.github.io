@@ -27,12 +27,12 @@ perl-html-form
       
       
 
-      ``6.04-0``,  ``6.03-1``,  ``6.03-0``
+      ``6.04-1``,  ``6.04-0``,  ``6.03-1``,  ``6.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-cpan-meta: 
    :depends perl-data-dumper: 
    :depends perl-extutils-cbuilder: 
@@ -41,7 +41,7 @@ perl-html-form
    :depends perl-file-path: 
    :depends perl-getopt-long: 
    :depends perl-html-parser: 
-   :depends perl-http-message: 
+   :depends perl-http-message: ``>=6.18``
    :depends perl-module-metadata: 
    :depends perl-perl-ostype: 
    :depends perl-text-abbrev: 
@@ -79,7 +79,7 @@ perl-html-form
 
     <script>
         var package = "perl-html-form";
-        var versions = ["6.04","6.03","6.03"];
+        var versions = ["6.04","6.04","6.03","6.03"];
     </script>
 
 

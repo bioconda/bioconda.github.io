@@ -29,7 +29,7 @@ nextstrain-cli
       
       
 
-      ``3.0.5-0``,  ``3.0.3-0``
+      ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
 
       
 
@@ -74,7 +74,7 @@ nextstrain-cli
 
     <script>
         var package = "nextstrain-cli";
-        var versions = ["3.0.5","3.0.3"];
+        var versions = ["3.0.6","3.0.5","3.0.3"];
     </script>
 
 

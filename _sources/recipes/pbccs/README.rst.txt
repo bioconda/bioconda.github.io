@@ -12,7 +12,7 @@ pbccs
 
    pbccs \- Generate Highly Accurate Single\-Molecule Consensus Reads \(HiFi Reads\)
 
-   :homepage: https://github.com/PacificBiosciences/pbbioconda
+   :homepage: https://ccs.how
    :license: BSD-3-Clause-Clear
    :recipe: /`pbccs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbccs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbccs/meta.yaml>`_
 
@@ -28,10 +28,10 @@ pbccs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.2.0-0</code>,  <code>6.0.0-2</code>,  <code>6.0.0-1</code>,  <code>6.0.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.3.0-0</code>,  <code>6.2.0-0</code>,  <code>6.0.0-2</code>,  <code>6.0.0-1</code>,  <code>6.0.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  </span></summary>
       
 
-      ``6.2.0-0``,  ``6.0.0-2``,  ``6.0.0-1``,  ``6.0.0-0``,  ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``
+      ``6.3.0-0``,  ``6.2.0-0``,  ``6.0.0-2``,  ``6.0.0-1``,  ``6.0.0-0``,  ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``
 
       
       .. raw:: html
@@ -71,7 +71,7 @@ pbccs
 
     <script>
         var package = "pbccs";
-        var versions = ["6.2.0","6.0.0","6.0.0","6.0.0","5.0.0"];
+        var versions = ["6.3.0","6.2.0","6.0.0","6.0.0","6.0.0"];
     </script>
 
 
