@@ -35,10 +35,10 @@ spaln
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.6-1</code>,  <code>2.4.6-0</code>,  <code>2.4.5-0</code>,  <code>2.4.4-0</code>,  <code>2.4.03-1</code>,  <code>2.4.03-0</code>,  <code>2.4.02-0</code>,  <code>2.4.01-0</code>,  <code>2.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.7-0</code>,  <code>2.4.6-1</code>,  <code>2.4.6-0</code>,  <code>2.4.5-0</code>,  <code>2.4.4-0</code>,  <code>2.4.03-1</code>,  <code>2.4.03-0</code>,  <code>2.4.02-0</code>,  <code>2.4.01-0</code>,  </span></summary>
       
 
-      ``2.4.6-1``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.03-1``,  ``2.4.03-0``,  ``2.4.02-0``,  ``2.4.01-0``,  ``2.3.3-0``,  ``2.3.3c-0``,  ``2.3.3b-0``,  ``2.3.3a-0``,  ``2.3.2-0``
+      ``2.4.7-0``,  ``2.4.6-1``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.03-1``,  ``2.4.03-0``,  ``2.4.02-0``,  ``2.4.01-0``,  ``2.3.3-0``,  ``2.3.3c-0``,  ``2.3.3b-0``,  ``2.3.3a-0``,  ``2.3.2-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ spaln
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -83,7 +83,7 @@ spaln
 
     <script>
         var package = "spaln";
-        var versions = ["2.4.6","2.4.6","2.4.5","2.4.4","2.4.03"];
+        var versions = ["2.4.7","2.4.6","2.4.6","2.4.5","2.4.4"];
     </script>
 
 

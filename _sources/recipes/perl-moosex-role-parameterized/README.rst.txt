@@ -27,12 +27,12 @@ perl-moosex-role-parameterized
       
       
 
-      ``1.10-0``
+      ``1.10-1``,  ``1.10-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-module-runtime: 
    :depends perl-moose: ``>=2.0300``
@@ -69,7 +69,7 @@ perl-moosex-role-parameterized
 
     <script>
         var package = "perl-moosex-role-parameterized";
-        var versions = ["1.10"];
+        var versions = ["1.10","1.10"];
     </script>
 
 

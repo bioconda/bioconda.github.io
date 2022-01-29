@@ -27,12 +27,12 @@ perl-moosex-strictconstructor
       
       
 
-      ``0.21-0``
+      ``0.21-1``,  ``0.21-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-moose: 
    :depends perl-namespace-autoclean: 
    :requirements:
@@ -66,7 +66,7 @@ perl-moosex-strictconstructor
 
     <script>
         var package = "perl-moosex-strictconstructor";
-        var versions = ["0.21"];
+        var versions = ["0.21","0.21"];
     </script>
 
 

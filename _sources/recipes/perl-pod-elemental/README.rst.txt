@@ -27,16 +27,16 @@ perl-pod-elemental
       
       
 
-      ``0.103004-3``,  ``0.103004-2``,  ``0.103004-1``,  ``0.103004-0``
+      ``0.103004-4``,  ``0.103004-3``,  ``0.103004-2``,  ``0.103004-1``,  ``0.103004-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-mixin-linewise: 
-   :depends perl-moose: 
+   :depends perl-moose: ``2.2201.*``
    :depends perl-moosex-types: 
    :depends perl-scalar-list-utils: 
    :depends perl-string-rewriteprefix: 
@@ -72,7 +72,7 @@ perl-pod-elemental
 
     <script>
         var package = "perl-pod-elemental";
-        var versions = ["0.103004","0.103004","0.103004","0.103004"];
+        var versions = ["0.103004","0.103004","0.103004","0.103004","0.103004"];
     </script>
 
 

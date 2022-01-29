@@ -27,12 +27,12 @@ perl-gd-svg
       
       
 
-      ``0.33-1``,  ``0.33-0``
+      ``0.33-2``,  ``0.33-1``,  ``0.33-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-gd: 
    :depends perl-svg: 
    :requirements:
@@ -66,7 +66,7 @@ perl-gd-svg
 
     <script>
         var package = "perl-gd-svg";
-        var versions = ["0.33","0.33"];
+        var versions = ["0.33","0.33","0.33"];
     </script>
 
 

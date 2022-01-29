@@ -27,12 +27,12 @@ perl-archive-tar-wrapper
       
       
 
-      ``0.33-0``
+      ``0.33-1``,  ``0.33-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-temp: 
    :depends perl-file-which: 
    :depends perl-ipc-run: 
@@ -68,7 +68,7 @@ perl-archive-tar-wrapper
 
     <script>
         var package = "perl-archive-tar-wrapper";
-        var versions = ["0.33"];
+        var versions = ["0.33","0.33"];
     </script>
 
 

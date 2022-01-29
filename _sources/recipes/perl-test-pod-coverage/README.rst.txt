@@ -27,12 +27,12 @@ perl-test-pod-coverage
       
       
 
-      ``1.10-2``,  ``1.10-1``,  ``1.10-0``
+      ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-pod-coverage: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-test-pod-coverage
 
     <script>
         var package = "perl-test-pod-coverage";
-        var versions = ["1.10","1.10","1.10"];
+        var versions = ["1.10","1.10","1.10","1.10"];
     </script>
 
 

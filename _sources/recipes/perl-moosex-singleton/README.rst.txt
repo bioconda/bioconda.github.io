@@ -27,12 +27,12 @@ perl-moosex-singleton
       
       
 
-      ``0.30-0``
+      ``0.30-1``,  ``0.30-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-moose: 
    :requirements:
@@ -66,7 +66,7 @@ perl-moosex-singleton
 
     <script>
         var package = "perl-moosex-singleton";
-        var versions = ["0.30"];
+        var versions = ["0.30","0.30"];
     </script>
 
 

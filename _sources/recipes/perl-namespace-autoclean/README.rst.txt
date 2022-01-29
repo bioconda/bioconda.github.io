@@ -27,13 +27,14 @@ perl-namespace-autoclean
       
       
 
-      ``0.28-2``,  ``0.28-0``
+      ``0.28-3``,  ``0.28-2``,  ``0.28-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-b-hooks-endofscope: 
    :depends perl-namespace-clean: 
    :depends perl-sub-identify: 
@@ -68,7 +69,7 @@ perl-namespace-autoclean
 
     <script>
         var package = "perl-namespace-autoclean";
-        var versions = ["0.28","0.28"];
+        var versions = ["0.28","0.28","0.28"];
     </script>
 
 

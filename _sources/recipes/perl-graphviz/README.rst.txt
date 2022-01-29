@@ -27,13 +27,13 @@ perl-graphviz
       
       
 
-      ``2.24-0``,  ``2.20-1``
+      ``2.24-1``,  ``2.24-0``,  ``2.20-1``
 
       
 
    
-   :depends graphviz: ``>=2.38.0,<3.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends graphviz: ``>=2.47.3,<3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-file-which: 
    :depends perl-getopt-long: 
@@ -75,7 +75,7 @@ perl-graphviz
 
     <script>
         var package = "perl-graphviz";
-        var versions = ["2.24","2.20"];
+        var versions = ["2.24","2.24","2.20"];
     </script>
 
 

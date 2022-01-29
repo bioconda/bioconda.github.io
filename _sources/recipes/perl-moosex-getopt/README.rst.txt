@@ -27,12 +27,12 @@ perl-moosex-getopt
       
       
 
-      ``0.74-0``,  ``0.72-0``,  ``0.71-2``,  ``0.71-1``,  ``0.71-0``
+      ``0.74-1``,  ``0.74-0``,  ``0.72-0``,  ``0.71-2``,  ``0.71-1``,  ``0.71-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-getopt-long: 
    :depends perl-getopt-long-descriptive: 
@@ -71,7 +71,7 @@ perl-moosex-getopt
 
     <script>
         var package = "perl-moosex-getopt";
-        var versions = ["0.74","0.72","0.71","0.71","0.71"];
+        var versions = ["0.74","0.74","0.72","0.71","0.71"];
     </script>
 
 

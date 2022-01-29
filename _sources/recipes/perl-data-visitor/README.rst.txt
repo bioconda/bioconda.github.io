@@ -27,12 +27,12 @@ perl-data-visitor
       
       
 
-      ``0.30-2``,  ``0.30-1``,  ``0.30-0``
+      ``0.30-3``,  ``0.30-2``,  ``0.30-1``,  ``0.30-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-class-load: ``>=0.06``
    :depends perl-moose: 
    :depends perl-namespace-clean: 
@@ -69,7 +69,7 @@ perl-data-visitor
 
     <script>
         var package = "perl-data-visitor";
-        var versions = ["0.30","0.30","0.30"];
+        var versions = ["0.30","0.30","0.30","0.30"];
     </script>
 
 

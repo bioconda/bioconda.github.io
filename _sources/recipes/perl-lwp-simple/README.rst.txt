@@ -27,14 +27,13 @@ perl-lwp-simple
       
       
 
-      ``6.15-4``,  ``6.15-3``,  ``6.15-2``,  ``6.15-1``,  ``6.15-0``
+      ``6.39-5``,  ``6.15-4``,  ``6.15-3``,  ``6.15-2``,  ``6.15-1``,  ``6.15-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends perl: ``>=5.26.2,<5.27.0a0``
-   :depends perl-encode-locale: 
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-libwww-perl: ``6.39.*``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ perl-lwp-simple
 
     <script>
         var package = "perl-lwp-simple";
-        var versions = ["6.15","6.15","6.15","6.15","6.15"];
+        var versions = ["6.39","6.15","6.15","6.15","6.15"];
     </script>
 
 

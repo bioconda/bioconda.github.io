@@ -27,12 +27,12 @@ perl-date-manip
       
       
 
-      ``6.76-0``,  ``6.75-0``,  ``6.73-0``,  ``6.72-0``,  ``6.57-1``,  ``6.57-0``
+      ``6.76-1``,  ``6.76-0``,  ``6.75-0``,  ``6.73-0``,  ``6.72-0``,  ``6.57-1``,  ``6.57-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-data-dumper: 
    :depends perl-encode: 
@@ -68,7 +68,7 @@ perl-date-manip
 
     <script>
         var package = "perl-date-manip";
-        var versions = ["6.76","6.75","6.73","6.72","6.57"];
+        var versions = ["6.76","6.76","6.75","6.73","6.72"];
     </script>
 
 

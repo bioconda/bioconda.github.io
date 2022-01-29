@@ -27,12 +27,12 @@ perl-dumbbench
       
       
 
-      ``0.111-0``
+      ``0.111-1``,  ``0.111-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-carp: 
    :depends perl-class-xsaccessor: 
@@ -73,7 +73,7 @@ perl-dumbbench
 
     <script>
         var package = "perl-dumbbench";
-        var versions = ["0.111"];
+        var versions = ["0.111","0.111"];
     </script>
 
 

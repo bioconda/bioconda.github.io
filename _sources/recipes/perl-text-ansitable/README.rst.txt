@@ -27,12 +27,12 @@ perl-text-ansitable
       
       
 
-      ``0.48-1``,  ``0.48-0``
+      ``0.48-2``,  ``0.48-1``,  ``0.48-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-border-style: 
    :depends perl-color-theme: 
@@ -77,7 +77,7 @@ perl-text-ansitable
 
     <script>
         var package = "perl-text-ansitable";
-        var versions = ["0.48","0.48"];
+        var versions = ["0.48","0.48","0.48"];
     </script>
 
 

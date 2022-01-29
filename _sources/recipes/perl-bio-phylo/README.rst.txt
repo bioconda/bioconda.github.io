@@ -27,12 +27,12 @@ perl-bio-phylo
       
       
 
-      ``0.58-3``,  ``0.58-2``,  ``0.58-1``,  ``0.58-0``
+      ``0.58-4``,  ``0.58-3``,  ``0.58-2``,  ``0.58-1``,  ``0.58-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-gd: 
    :depends perl-html-treebuilder-xpath: 
    :depends perl-json: 
@@ -76,7 +76,7 @@ perl-bio-phylo
 
     <script>
         var package = "perl-bio-phylo";
-        var versions = ["0.58","0.58","0.58","0.58"];
+        var versions = ["0.58","0.58","0.58","0.58","0.58"];
     </script>
 
 

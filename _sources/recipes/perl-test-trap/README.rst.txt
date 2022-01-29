@@ -27,12 +27,12 @@ perl-test-trap
       
       
 
-      ``0.3.3-0``,  ``0.3.2-4``,  ``0.3.2-3``
+      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-4``,  ``0.3.2-3``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 
@@ -72,7 +72,7 @@ perl-test-trap
 
     <script>
         var package = "perl-test-trap";
-        var versions = ["0.3.3","0.3.2","0.3.2"];
+        var versions = ["0.3.3","0.3.3","0.3.2","0.3.2"];
     </script>
 
 

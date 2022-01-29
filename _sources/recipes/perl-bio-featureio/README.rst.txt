@@ -27,12 +27,12 @@ perl-bio-featureio
       
       
 
-      ``1.6.905-3``,  ``1.6.905-2``,  ``1.6.905-1``,  ``1.6.905-0``
+      ``1.6.905-4``,  ``1.6.905-3``,  ``1.6.905-2``,  ``1.6.905-1``,  ``1.6.905-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl-core: 
    :depends perl-tree-dag_node: 
    :depends perl-uri: 
@@ -69,7 +69,7 @@ perl-bio-featureio
 
     <script>
         var package = "perl-bio-featureio";
-        var versions = ["1.6.905","1.6.905","1.6.905","1.6.905"];
+        var versions = ["1.6.905","1.6.905","1.6.905","1.6.905","1.6.905"];
     </script>
 
 

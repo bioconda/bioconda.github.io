@@ -27,12 +27,12 @@ perl-moosex-types-stringlike
       
       
 
-      ``0.003-0``
+      ``0.003-1``,  ``0.003-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-moosex-types: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-moosex-types-stringlike
 
     <script>
         var package = "perl-moosex-types-stringlike";
-        var versions = ["0.003"];
+        var versions = ["0.003","0.003"];
     </script>
 
 

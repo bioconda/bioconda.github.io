@@ -27,12 +27,12 @@ perl-moosex-types-path-class
       
       
 
-      ``0.09-4``,  ``0.09-3``,  ``0.09-2``,  ``0.09-0``
+      ``0.09-5``,  ``0.09-4``,  ``0.09-3``,  ``0.09-2``,  ``0.09-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-moosex-types: 
    :depends perl-path-class: 
    :requirements:
@@ -66,7 +66,7 @@ perl-moosex-types-path-class
 
     <script>
         var package = "perl-moosex-types-path-class";
-        var versions = ["0.09","0.09","0.09","0.09"];
+        var versions = ["0.09","0.09","0.09","0.09","0.09"];
     </script>
 
 

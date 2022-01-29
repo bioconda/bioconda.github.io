@@ -27,14 +27,14 @@ perl-namespace-clean
       
       
 
-      ``0.27-3``,  ``0.27-2``,  ``0.27-0``
+      ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-b-hooks-endofscope: 
    :depends perl-package-stash: 
    :requirements:
@@ -68,7 +68,7 @@ perl-namespace-clean
 
     <script>
         var package = "perl-namespace-clean";
-        var versions = ["0.27","0.27","0.27"];
+        var versions = ["0.27","0.27","0.27","0.27"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-bio-asn1-entrezgene
       
       
 
-      ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.72-2``,  ``1.72-1``,  ``1.70-0``
+      ``1.73-3``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.72-2``,  ``1.72-1``,  ``1.70-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-bioperl-core: 
    :depends perl-carp: 
@@ -70,7 +70,7 @@ perl-bio-asn1-entrezgene
 
     <script>
         var package = "perl-bio-asn1-entrezgene";
-        var versions = ["1.73","1.73","1.73","1.72","1.72"];
+        var versions = ["1.73","1.73","1.73","1.73","1.72"];
     </script>
 
 

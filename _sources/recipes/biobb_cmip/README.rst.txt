@@ -29,13 +29,13 @@ biobb_cmip
       
       
 
-      ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
+      ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
 
       
 
    
    :depends biobb_common: ``3.7.0``
-   :depends biobb_structure_checking: ``3.9.7``
+   :depends biobb_structure_checking: ``3.9.9``
    :depends cmip: ``2.7.0``
    :depends mdanalysis: ``2.0.0``
    :depends python: ``3.7.*``
@@ -70,7 +70,7 @@ biobb_cmip
 
     <script>
         var package = "biobb_cmip";
-        var versions = ["3.7.5","3.7.4","3.7.3","3.7.2","3.6.0"];
+        var versions = ["3.7.5","3.7.5","3.7.4","3.7.3","3.7.2"];
     </script>
 
 

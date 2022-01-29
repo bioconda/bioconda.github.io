@@ -27,7 +27,7 @@ uscdc-datasets-sars-cov-2
       
       
 
-      ``0.5.3-0``,  ``0.4-0``,  ``0.3-0``
+      ``0.6.2-0``,  ``0.5.3-0``,  ``0.4-0``,  ``0.3-0``
 
       
 
@@ -69,7 +69,7 @@ uscdc-datasets-sars-cov-2
 
     <script>
         var package = "uscdc-datasets-sars-cov-2";
-        var versions = ["0.5.3","0.4","0.3"];
+        var versions = ["0.6.2","0.5.3","0.4","0.3"];
     </script>
 
 

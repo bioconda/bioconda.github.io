@@ -27,12 +27,12 @@ perl-bio-coordinate
       
       
 
-      ``1.007001-2``,  ``1.007001-1``,  ``1.007001-0``
+      ``1.007001-3``,  ``1.007001-2``,  ``1.007001-1``,  ``1.007001-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl-core: 
    :depends perl-parent: 
    :depends perl-test-most: 
@@ -67,7 +67,7 @@ perl-bio-coordinate
 
     <script>
         var package = "perl-bio-coordinate";
-        var versions = ["1.007001","1.007001","1.007001"];
+        var versions = ["1.007001","1.007001","1.007001","1.007001"];
     </script>
 
 

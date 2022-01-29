@@ -27,19 +27,26 @@ perl-moosex-types
       
       
 
-      ``0.50-1``,  ``0.50-0``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
+      ``0.50-2``,  ``0.50-1``,  ``0.50-0``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-carp-clan: 
+   :depends perl-class-load: 
+   :depends perl-devel-globaldestruction: 
+   :depends perl-devel-overloadinfo: 
+   :depends perl-devel-stacktrace: 
+   :depends perl-eval-closure: 
    :depends perl-exporter: 
    :depends perl-module-runtime: 
    :depends perl-moose: 
+   :depends perl-mro-compat: 
    :depends perl-namespace-autoclean: 
+   :depends perl-package-deprecationmanager: 
    :depends perl-sub-exporter: 
    :depends perl-sub-exporter-formethods: 
    :depends perl-sub-install: 
@@ -75,7 +82,7 @@ perl-moosex-types
 
     <script>
         var package = "perl-moosex-types";
-        var versions = ["0.50","0.50","0.46","0.46","0.46"];
+        var versions = ["0.50","0.50","0.50","0.46","0.46"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-test-cleannamespaces
       
       
 
-      ``0.24-0``,  ``0.23-0``
+      ``0.24-1``,  ``0.24-0``,  ``0.23-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter: 
    :depends perl-module-runtime: 
    :depends perl-package-stash: 
@@ -68,7 +68,7 @@ perl-test-cleannamespaces
 
     <script>
         var package = "perl-test-cleannamespaces";
-        var versions = ["0.24","0.23"];
+        var versions = ["0.24","0.24","0.23"];
     </script>
 
 

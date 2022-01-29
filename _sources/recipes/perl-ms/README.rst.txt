@@ -27,12 +27,12 @@ perl-ms
       
       
 
-      ``0.206003-1``,  ``0.206003-0``,  ``0.204003-0``,  ``0.204001-0``
+      ``0.206003-2``,  ``0.206003-1``,  ``0.206003-0``,  ``0.204003-0``,  ``0.204001-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-biox-seq: 
    :depends perl-compress-bgzf: 
    :depends perl-data-lock: 
@@ -74,7 +74,7 @@ perl-ms
 
     <script>
         var package = "perl-ms";
-        var versions = ["0.206003","0.206003","0.204003","0.204001"];
+        var versions = ["0.206003","0.206003","0.206003","0.204003","0.204001"];
     </script>
 
 

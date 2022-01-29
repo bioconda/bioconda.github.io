@@ -27,23 +27,21 @@ perl-moose
       
       
 
-      ``2.2011-1``,  ``2.2011-0``,  ``2.2009-0``,  ``2.1804-2``,  ``2.1804-1``,  ``2.1804-0``
+      ``2.2201-0``,  ``2.2011-1``,  ``2.2011-0``,  ``2.2009-0``,  ``2.1804-2``,  ``2.1804-1``,  ``2.1804-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-carp: 
-   :depends perl-class-load: ``>=0.09``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-class-load: 
    :depends perl-class-load-xs: 
    :depends perl-data-optlist: 
    :depends perl-devel-globaldestruction: 
    :depends perl-devel-overloadinfo: 
    :depends perl-devel-stacktrace: 
-   :depends perl-dist-checkconflicts: ``>=0.02``
-   :depends perl-eval-closure: ``>=0.04``
+   :depends perl-dist-checkconflicts: 
+   :depends perl-eval-closure: 
    :depends perl-module-runtime: 
    :depends perl-module-runtime-conflicts: 
    :depends perl-mro-compat: 
@@ -51,10 +49,7 @@ perl-moose
    :depends perl-package-stash: 
    :depends perl-package-stash-xs: 
    :depends perl-params-util: 
-   :depends perl-parent: 
    :depends perl-sub-exporter: 
-   :depends perl-sub-identify: 
-   :depends perl-sub-name: 
    :depends perl-try-tiny: 
    :requirements:
 
@@ -87,7 +82,7 @@ perl-moose
 
     <script>
         var package = "perl-moose";
-        var versions = ["2.2011","2.2011","2.2009","2.1804","2.1804"];
+        var versions = ["2.2201","2.2011","2.2011","2.2009","2.1804"];
     </script>
 
 

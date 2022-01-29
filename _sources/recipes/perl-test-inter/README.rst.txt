@@ -27,12 +27,12 @@ perl-test-inter
       
       
 
-      ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
+      ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-inter
 
     <script>
         var package = "perl-test-inter";
-        var versions = ["1.09","1.07","1.06","1.06"];
+        var versions = ["1.09","1.09","1.07","1.06","1.06"];
     </script>
 
 
