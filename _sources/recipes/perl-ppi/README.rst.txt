@@ -27,20 +27,20 @@ perl-ppi
       
       
 
-      ``1.236-2``,  ``1.236-1``,  ``1.236-0``
+      ``1.236-3``,  ``1.236-2``,  ``1.236-1``,  ``1.236-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-class-xsaccessor: 
    :depends perl-clone: 
    :depends perl-digest-md5: 
+   :depends perl-file-remove: 
    :depends perl-file-spec: 
    :depends perl-hook-lexwrap: 
    :depends perl-io-string: 
    :depends perl-list-moreutils: 
-   :depends perl-list-util: 
    :depends perl-params-util: 
    :depends perl-task-weaken: 
    :requirements:
@@ -74,7 +74,7 @@ perl-ppi
 
     <script>
         var package = "perl-ppi";
-        var versions = ["1.236","1.236","1.236"];
+        var versions = ["1.236","1.236","1.236","1.236"];
     </script>
 
 

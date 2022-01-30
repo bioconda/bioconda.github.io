@@ -27,12 +27,12 @@ perl-module-extract-use
       
       
 
-      ``1.043-2``,  ``1.043-1``,  ``1.043-0``
+      ``1.043-3``,  ``1.043-2``,  ``1.043-1``,  ``1.043-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-ppi: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-module-extract-use
 
     <script>
         var package = "perl-module-extract-use";
-        var versions = ["1.043","1.043","1.043"];
+        var versions = ["1.043","1.043","1.043","1.043"];
     </script>
 
 
