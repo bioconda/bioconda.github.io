@@ -27,12 +27,12 @@ perl-soap-lite
       
       
 
-      ``1.19-1``,  ``1.19-0``
+      ``1.19-2``,  ``1.19-1``,  ``1.19-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-class-inspector: 
    :depends perl-io-sessiondata: 
    :depends perl-io-socket-ssl: 
@@ -74,7 +74,7 @@ perl-soap-lite
 
     <script>
         var package = "perl-soap-lite";
-        var versions = ["1.19","1.19"];
+        var versions = ["1.19","1.19","1.19"];
     </script>
 
 

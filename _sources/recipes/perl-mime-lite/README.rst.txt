@@ -27,12 +27,12 @@ perl-mime-lite
       
       
 
-      ``3.030-1``,  ``3.030-0``
+      ``3.030-2``,  ``3.030-1``,  ``3.030-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-email-date-format: 
    :depends perl-mailtools: 
    :depends perl-mime-types: 
@@ -67,7 +67,7 @@ perl-mime-lite
 
     <script>
         var package = "perl-mime-lite";
-        var versions = ["3.030","3.030"];
+        var versions = ["3.030","3.030","3.030"];
     </script>
 
 

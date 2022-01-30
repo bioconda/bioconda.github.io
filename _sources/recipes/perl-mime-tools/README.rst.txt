@@ -27,12 +27,12 @@ perl-mime-tools
       
       
 
-      ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
+      ``5.508-2``,  ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-convert-binhex: 
    :depends perl-mailtools: 
    :requirements:
@@ -66,7 +66,7 @@ perl-mime-tools
 
     <script>
         var package = "perl-mime-tools";
-        var versions = ["5.508","5.508","5.507","5.507"];
+        var versions = ["5.508","5.508","5.508","5.507","5.507"];
     </script>
 
 

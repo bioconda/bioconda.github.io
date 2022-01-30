@@ -27,17 +27,16 @@ hotspot3d
       
       
 
-      ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``0.6.0-0``
+      ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``0.6.0-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-archive-extract: 
    :depends perl-json: 
    :depends perl-list-moreutils: 
-   :depends perl-list-util: 
-   :depends perl-lwp-simple: 
+   :depends perl-lwp-simple: ``>=6.39``
    :depends perl-parallel-forkmanager: 
    :depends perl-test-most: 
    :requirements:
@@ -71,7 +70,7 @@ hotspot3d
 
     <script>
         var package = "hotspot3d";
-        var versions = ["1.8.2","1.8.2","1.8.2","0.6.0"];
+        var versions = ["1.8.2","1.8.2","1.8.2","1.8.2","0.6.0"];
     </script>
 
 

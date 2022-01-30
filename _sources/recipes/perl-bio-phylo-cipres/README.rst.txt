@@ -27,13 +27,14 @@ perl-bio-phylo-cipres
       
       
 
-      ``v0.2.1-1``,  ``v0.2.1-0``
+      ``v0.2.1-2``,  ``v0.2.1-1``,  ``v0.2.1-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bio-phylo: 
+   :depends perl-lwp-simple: ``>=6.39``
    :depends perl-xml-twig: 
    :depends perl-yaml: 
    :requirements:
@@ -67,7 +68,7 @@ perl-bio-phylo-cipres
 
     <script>
         var package = "perl-bio-phylo-cipres";
-        var versions = ["v0.2.1","v0.2.1"];
+        var versions = ["v0.2.1","v0.2.1","v0.2.1"];
     </script>
 
 

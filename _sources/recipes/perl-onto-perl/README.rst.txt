@@ -27,12 +27,12 @@ perl-onto-perl
       
       
 
-      ``1.45-2``,  ``1.45-1``,  ``1.45-0``
+      ``1.45-3``,  ``1.45-2``,  ``1.45-1``,  ``1.45-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-date-manip: 
    :depends perl-text-csv: 
    :depends perl-xml-parser: 
@@ -68,7 +68,7 @@ perl-onto-perl
 
     <script>
         var package = "perl-onto-perl";
-        var versions = ["1.45","1.45","1.45"];
+        var versions = ["1.45","1.45","1.45","1.45"];
     </script>
 
 

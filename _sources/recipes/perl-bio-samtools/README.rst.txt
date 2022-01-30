@@ -27,12 +27,13 @@ perl-bio-samtools
       
       
 
-      ``1.43-1``,  ``1.43-0``
+      ``1.43-2``,  ``1.43-1``,  ``1.43-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl-core: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -66,7 +67,7 @@ perl-bio-samtools
 
     <script>
         var package = "perl-bio-samtools";
-        var versions = ["1.43","1.43"];
+        var versions = ["1.43","1.43","1.43"];
     </script>
 
 

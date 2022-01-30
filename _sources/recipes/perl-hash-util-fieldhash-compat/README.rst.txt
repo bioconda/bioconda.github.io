@@ -27,12 +27,12 @@ perl-hash-util-fieldhash-compat
       
       
 
-      ``0.11-2``,  ``0.11-1``,  ``0.11-0``
+      ``0.11-3``,  ``0.11-2``,  ``0.11-1``,  ``0.11-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-constant: 
    :depends perl-exporter: 
    :depends perl-parent: 
@@ -69,7 +69,7 @@ perl-hash-util-fieldhash-compat
 
     <script>
         var package = "perl-hash-util-fieldhash-compat";
-        var versions = ["0.11","0.11","0.11"];
+        var versions = ["0.11","0.11","0.11","0.11"];
     </script>
 
 
