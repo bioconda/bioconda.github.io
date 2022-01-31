@@ -32,10 +32,10 @@ masurca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.7-0</code>,  <code>4.0.6-0</code>,  <code>3.4.2-1</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.7-1</code>,  <code>4.0.7-0</code>,  <code>4.0.6-0</code>,  <code>3.4.2-1</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  </span></summary>
       
 
-      ``4.0.7-0``,  ``4.0.6-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
+      ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ masurca
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -83,7 +83,7 @@ masurca
 
     <script>
         var package = "masurca";
-        var versions = ["4.0.7","4.0.6","3.4.2","3.4.2","3.4.1"];
+        var versions = ["4.0.7","4.0.7","4.0.6","3.4.2","3.4.2"];
     </script>
 
 
