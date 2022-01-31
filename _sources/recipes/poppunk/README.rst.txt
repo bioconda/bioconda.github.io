@@ -41,22 +41,24 @@ poppunk
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends dendropy: ``>=4.4.0``
    :depends flask: 
    :depends flask-apscheduler: 
    :depends flask-cors: 
-   :depends gfortran_impl_osx-64: 
    :depends graph-tool: ``>=2.35``
    :depends gunicorn: 
    :depends h5py: 
    :depends hdbscan: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libblas: 
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends llvm-openmp: ``>=11.1.0``
    :depends matplotlib-base: 
    :depends networkx: 
    :depends numpy: 
-   :depends openblas: 
    :depends pandas: 
    :depends pp-sketchlib: ``>=1.7.0``
    :depends python: ``>=3.8,<3.9.0a0``

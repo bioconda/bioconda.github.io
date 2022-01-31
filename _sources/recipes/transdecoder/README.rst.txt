@@ -29,10 +29,10 @@ transdecoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.5.0-4</code>,  <code>5.5.0-3</code>,  <code>5.5.0-2</code>,  <code>5.5.0-1</code>,  <code>5.5.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.5.0-5</code>,  <code>5.5.0-4</code>,  <code>5.5.0-3</code>,  <code>5.5.0-2</code>,  <code>5.5.0-1</code>,  <code>5.5.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  </span></summary>
       
 
-      ``5.5.0-4``,  ``5.5.0-3``,  ``5.5.0-2``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-5``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``
+      ``5.5.0-5``,  ``5.5.0-4``,  ``5.5.0-3``,  ``5.5.0-2``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-5``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ transdecoder
 
    
    :depends bioconductor-seqlogo: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-db-file: 
    :depends perl-uri: 
    :depends r-ggplot2: 

@@ -27,12 +27,12 @@ perl-test-prereq
       
       
 
-      ``2.002-3``,  ``2.002-1``,  ``2.002-0``
+      ``2.002-4``,  ``2.002-3``,  ``2.002-1``,  ``2.002-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-lib: 
    :depends perl-module-build: 
@@ -69,7 +69,7 @@ perl-test-prereq
 
     <script>
         var package = "perl-test-prereq";
-        var versions = ["2.002","2.002","2.002"];
+        var versions = ["2.002","2.002","2.002","2.002"];
     </script>
 
 

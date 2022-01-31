@@ -27,12 +27,12 @@ perl-cg-pipeline
       
       
 
-      ``0.5-0``
+      ``0.5-1``,  ``0.5-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-data-dumper: 
    :depends perl-dbi: 
@@ -40,7 +40,6 @@ perl-cg-pipeline
    :depends perl-file-path: 
    :depends perl-file-spec: 
    :depends perl-file-temp: 
-   :depends perl-list-util: 
    :depends perl-storable: 
    :depends perl-xml-dom: 
    :depends perl-xml-dom-xpath: 
@@ -75,7 +74,7 @@ perl-cg-pipeline
 
     <script>
         var package = "perl-cg-pipeline";
-        var versions = ["0.5"];
+        var versions = ["0.5","0.5"];
     </script>
 
 

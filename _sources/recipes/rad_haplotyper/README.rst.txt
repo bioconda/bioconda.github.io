@@ -27,14 +27,14 @@ rad_haplotyper
       
       
 
-      ``1.1.9-4``,  ``1.1.9-3``,  ``1.1.9-2``,  ``1.1.9-1``,  ``1.1.9-0``,  ``1.1.7-0``,  ``1.1.6-0``
+      ``1.1.9-5``,  ``1.1.9-4``,  ``1.1.9-3``,  ``1.1.9-2``,  ``1.1.9-1``,  ``1.1.9-0``,  ``1.1.7-0``,  ``1.1.6-0``
 
       
 
    
    :depends ddocent: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-bio-cigar: 
    :depends perl-bio-samtools: 

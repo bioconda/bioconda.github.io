@@ -28,16 +28,17 @@ kmergenie
       
       
 
-      ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
+      ``1.7051-2``,  ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ kmergenie
 
     <script>
         var package = "kmergenie";
-        var versions = ["1.7051","1.7051","1.7016","1.7016","1.7016"];
+        var versions = ["1.7051","1.7051","1.7051","1.7016","1.7016"];
     </script>
 
 

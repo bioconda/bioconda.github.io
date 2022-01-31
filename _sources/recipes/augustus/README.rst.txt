@@ -29,10 +29,10 @@ augustus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.3-6</code>,  <code>3.3.3-5</code>,  <code>3.3.3-4</code>,  <code>3.3.3-3</code>,  <code>3.3.3-2</code>,  <code>3.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-3</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.3-7</code>,  <code>3.3.3-6</code>,  <code>3.3.3-5</code>,  <code>3.3.3-4</code>,  <code>3.3.3-3</code>,  </span></summary>
       
 
-      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
+      ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-7``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -46,14 +46,15 @@ augustus
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends cdbtools: 
    :depends diamond: 
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends lp_solve: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-dbi: 
    :depends perl-file-which: 
@@ -61,7 +62,7 @@ augustus
    :depends perl-parallel-forkmanager: 
    :depends perl-scalar-list-utils: 
    :depends perl-yaml: 
-   :depends sqlite: ``>=3.36.0,<4.0a0``
+   :depends sqlite: ``>=3.37.0,<4.0a0``
    :depends suitesparse: ``>=5.10.1,<6.0a0``
    :depends tar: 
    :depends ucsc-fatotwobit: 
@@ -98,7 +99,7 @@ augustus
 
     <script>
         var package = "augustus";
-        var versions = ["3.4.0","3.4.0","3.4.0","3.3.3","3.3.3"];
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.3.3"];
     </script>
 
 
