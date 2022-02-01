@@ -32,12 +32,13 @@ perl-bio-bigfile
       
 
    
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends mysql: 
-   :depends openssl: ``>=1.1.1k,<1.1.2a``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-io-string: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

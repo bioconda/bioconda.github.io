@@ -28,12 +28,12 @@ perl-velvetoptimiser
       
       
 
-      ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``
+      ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7``
    :depends velvet: ``>=0.7.51``
    :requirements:
@@ -67,7 +67,7 @@ perl-velvetoptimiser
 
     <script>
         var package = "perl-velvetoptimiser";
-        var versions = ["2.2.6","2.2.5","2.2.5"];
+        var versions = ["2.2.6","2.2.6","2.2.5","2.2.5"];
     </script>
 
 

@@ -27,13 +27,13 @@ perl-bio-tools-phylo-paml
       
       
 
-      ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
+      ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
 
       
 
    
    :depends paml: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-bioperl-run: 
    :depends perl-getopt-long: 
@@ -69,7 +69,7 @@ perl-bio-tools-phylo-paml
 
     <script>
         var package = "perl-bio-tools-phylo-paml";
-        var versions = ["1.7.3","1.7.3","1.7.3"];
+        var versions = ["1.7.3","1.7.3","1.7.3","1.7.3"];
     </script>
 
 

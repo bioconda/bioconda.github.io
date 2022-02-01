@@ -29,10 +29,10 @@ gembs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.5_IHEC-0</code>,  <code>3.5.1_IHEC-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.2.0-5</code>,  <code>3.2.0-4</code>,  <code>3.2.0-3</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.5_IHEC-1</code>,  <code>3.5.5_IHEC-0</code>,  <code>3.5.1_IHEC-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.2.0-5</code>,  <code>3.2.0-4</code>,  <code>3.2.0-3</code>,  <code>3.2.0-2</code>,  </span></summary>
       
 
-      ``3.5.5_IHEC-0``,  ``3.5.1_IHEC-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
+      ``3.5.5_IHEC-1``,  ``3.5.5_IHEC-0``,  ``3.5.1_IHEC-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
 
       
       .. raw:: html
@@ -52,8 +52,8 @@ gembs
    :depends multiprocess: 
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends pigz: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends samtools: 
    :depends setuptools: 
    :depends ucsc-bedtobigbed: 
@@ -90,7 +90,7 @@ gembs
 
     <script>
         var package = "gembs";
-        var versions = ["3.5.5_IHEC","3.5.1_IHEC","3.5.0","3.5.0","3.2.0"];
+        var versions = ["3.5.5_IHEC","3.5.5_IHEC","3.5.1_IHEC","3.5.0","3.5.0"];
     </script>
 
 
