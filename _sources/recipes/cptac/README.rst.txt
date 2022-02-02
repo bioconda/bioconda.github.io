@@ -12,7 +12,7 @@ cptac
 
    Python packaging for CPTAC data
 
-   :homepage: https://github.com/PayneLab/cptac
+   :homepage: https://pypi.org/project/cptac/
    :license: Apache-2.0
    :recipe: /`cptac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cptac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cptac/meta.yaml>`_
 
@@ -27,7 +27,7 @@ cptac
       
       
 
-      ``1.0.0rc1-0``,  ``0.9.7-0``,  ``0.9.6-0``
+      ``1.1.0-0``,  ``1.0.0rc1-0``,  ``0.9.7-0``,  ``0.9.6-0``
 
       
 
@@ -39,13 +39,13 @@ cptac
    :depends numpy: ``>=1.16.3``
    :depends openpyxl: ``>=2.6.0``
    :depends packaging: ``>=19.2``
-   :depends pandas: ``>=0.25.1``
+   :depends pandas: ``>=1.2.0``
    :depends python: ``>=3.6``
    :depends requests: ``>=2.21.0``
    :depends scipy: ``>=1.2.1``
    :depends statsmodels: ``>=0.10.0``
    :depends urllib3: ``>=1.24.2``
-   :depends xlrd: ``1.2.0``
+   :depends xlrd: ``>=2.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ cptac
 
     <script>
         var package = "cptac";
-        var versions = ["1.0.0rc1","0.9.7","0.9.6"];
+        var versions = ["1.1.0","1.0.0rc1","0.9.7","0.9.6"];
     </script>
 
 

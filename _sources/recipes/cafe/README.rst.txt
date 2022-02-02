@@ -12,8 +12,8 @@ cafe
 
    Computational Analysis of gene Family Evolution \(CAFE\)
 
-   :homepage: https://hahnlab.github.io/CAFE/
-   :license: IU OPEN SOURCE LICENSE (see https://github.com/hahnlab/CAFE/blob/master/LICENSE)
+   :homepage: https://github.com/hahnlab/CAFE5
+   :license: IU OPEN SOURCE LICENSE (see https://github.com/hahnlab/CAFE5/blob/master/LICENSE)
    :recipe: /`cafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cafe/meta.yaml>`_
    :links: biotools: :biotools:`cafe`
 
@@ -28,13 +28,14 @@ cafe
       
       
 
-      ``4.2.1-1``,  ``4.2.1-0``
+      ``5.0.0-0``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +68,7 @@ cafe
 
     <script>
         var package = "cafe";
-        var versions = ["4.2.1","4.2.1"];
+        var versions = ["5.0.0","4.2.1","4.2.1","4.2.1"];
     </script>
 
 
