@@ -27,18 +27,20 @@ perl-params-validationcompiler
       
       
 
-      ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+      ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-b: 
    :depends perl-devel-stacktrace: 
    :depends perl-eval-closure: 
    :depends perl-exception-class: 
+   :depends perl-specio: ``0.47.*``
    :depends perl-variable-magic: 
    :requirements:
 
@@ -71,7 +73,7 @@ perl-params-validationcompiler
 
     <script>
         var package = "perl-params-validationcompiler";
-        var versions = ["0.23","0.23","0.23"];
+        var versions = ["0.23","0.23","0.23","0.23"];
     </script>
 
 

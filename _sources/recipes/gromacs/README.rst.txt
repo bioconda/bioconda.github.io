@@ -6,16 +6,16 @@
 gromacs
 =======
 
-.. conda:recipe:: gromacs/2020
+.. conda:recipe:: gromacs/2021
    :replaces_section_title:
    :noindex:
 
    GROMACS is a versatile package to perform molecular dynamics.
 
-   :homepage: http://www.gromacs.org/
+   :homepage: https://www.gromacs.org/
    :license: LGPL-2.1-or-later
-   :recipe: /`gromacs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs>`_/`2020 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2020>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2020/meta.yaml>`_
-   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.5281/zenodo.2564764`, doi: :doi:`10.5281/zenodo.2564761`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`SCR_014565`, usegalaxy-eu: :usegalaxy-eu:`gmx_sim`
+   :recipe: /`gromacs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs>`_/`2021 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2021>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2021/meta.yaml>`_
+   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.5281/zenodo.5053201`, doi: :doi:`10.5281/zenodo.5053200`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`SCR_014565`, usegalaxy-eu: :usegalaxy-eu:`gmx_sim`
 
    
 

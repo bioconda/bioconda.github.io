@@ -27,19 +27,20 @@ perl-datetime
       
       
 
-      ``1.42-2``,  ``1.42-0``
+      ``1.42-3``,  ``1.42-2``,  ``1.42-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-cpan-meta-check: 
    :depends perl-datetime-locale: 
    :depends perl-datetime-timezone: 
    :depends perl-namespace-autoclean: 
    :depends perl-params-validationcompiler: 
-   :depends perl-specio-exporter: 
+   :depends perl-specio: ``0.47.*``
    :depends perl-test-fatal: 
    :depends perl-try-tiny: 
    :depends perl-warnings-register: 
@@ -75,7 +76,7 @@ perl-datetime
 
     <script>
         var package = "perl-datetime";
-        var versions = ["1.42","1.42"];
+        var versions = ["1.42","1.42","1.42"];
     </script>
 
 

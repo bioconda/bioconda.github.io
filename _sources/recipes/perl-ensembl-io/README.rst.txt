@@ -27,12 +27,12 @@ perl-ensembl-io
       
       
 
-      ``98-0``
+      ``98-1``,  ``98-0``
 
       
 
    
-   :depends perl: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bio-bigfile: 
    :depends perl-ensembl-core: 
    :depends perl-try-tiny: 
@@ -67,7 +67,7 @@ perl-ensembl-io
 
     <script>
         var package = "perl-ensembl-io";
-        var versions = ["98"];
+        var versions = ["98","98"];
     </script>
 
 

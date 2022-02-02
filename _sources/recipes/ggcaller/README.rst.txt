@@ -27,7 +27,7 @@ ggcaller
       
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,11 +37,12 @@ ggcaller
    :depends biopython: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends graph-tool: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends pthread-stubs: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends pytorch: 
    :depends xorg-libxaw: 
    :depends xorg-libxcomposite: 
@@ -52,7 +53,6 @@ ggcaller
    :depends xorg-libxinerama: 
    :depends xorg-libxpm: 
    :depends xorg-libxrandr: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +84,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.2.4","1.2.3","1.2.2","1.2.1","1.1.1"];
+        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.1"];
     </script>
 
 

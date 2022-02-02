@@ -27,12 +27,12 @@ perl-bio-eutilities
       
       
 
-      ``1.75-2``,  ``1.75-0``
+      ``1.75-4``,  ``1.75-2``,  ``1.75-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bio-asn1-entrezgene: 
    :depends perl-bioperl: 
    :depends perl-capture-tiny: 
@@ -85,7 +85,7 @@ perl-bio-eutilities
 
     <script>
         var package = "perl-bio-eutilities";
-        var versions = ["1.75","1.75"];
+        var versions = ["1.75","1.75","1.75"];
     </script>
 
 

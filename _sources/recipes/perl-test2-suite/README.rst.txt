@@ -27,21 +27,16 @@ perl-test2-suite
       
       
 
-      ``0.000117-0``,  ``0.000116-0``,  ``0.000115-0``,  ``0.000061-1``,  ``0.000061-0``
+      ``0.000144-0``,  ``0.000117-0``,  ``0.000116-0``,  ``0.000115-0``,  ``0.000061-1``,  ``0.000061-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-carp: 
-   :depends perl-data-dumper: 
-   :depends perl-exporter: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-importer: 
-   :depends perl-module-pluggable: 
    :depends perl-scope-guard: 
    :depends perl-sub-info: 
    :depends perl-term-table: 
-   :depends perl-time-hires: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +68,7 @@ perl-test2-suite
 
     <script>
         var package = "perl-test2-suite";
-        var versions = ["0.000117","0.000116","0.000115","0.000061","0.000061"];
+        var versions = ["0.000144","0.000117","0.000116","0.000115","0.000061"];
     </script>
 
 

@@ -29,7 +29,7 @@ repeatmodeler
       
       
 
-      ``2.0.2a-0``,  ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
+      ``2.0.2a-1``,  ``2.0.2a-0``,  ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
 
       
 
@@ -38,9 +38,11 @@ repeatmodeler
    :depends genometools-genometools: ``>=1.5.9``
    :depends ltr_retriever: ``>=2.6``
    :depends mafft: ``>=7.407``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-devel-size: 
    :depends perl-file-which: 
+   :depends perl-libwww-perl: 
+   :depends perl-uri: 
    :depends recon: ``>=1.08``
    :depends repeatmasker: 
    :depends repeatscout: ``>=1.0.6``
@@ -80,7 +82,7 @@ repeatmodeler
 
     <script>
         var package = "repeatmodeler";
-        var versions = ["2.0.2a","2.0.1","1.0.11","1.0.11","1.0.11"];
+        var versions = ["2.0.2a","2.0.2a","2.0.1","1.0.11","1.0.11"];
     </script>
 
 
