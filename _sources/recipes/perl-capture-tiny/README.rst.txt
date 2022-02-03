@@ -26,9 +26,17 @@ perl-capture-tiny
    :versions:
       
       
+      .. raw:: html
 
-      ``0.48-1``,  ``0.48-0``,  ``0.36-2``,  ``0.36-1``,  ``0.36-0``,  ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
+         <details><summary><span class="truncated-version-list"><code>0.48-2</code>,  <code>0.48-1</code>,  <code>0.48-0</code>,  <code>0.36-2</code>,  <code>0.36-1</code>,  <code>0.36-0</code>,  <code>0.34-3</code>,  <code>0.34-2</code>,  <code>0.34-1</code>,  </span></summary>
+      
 
+      ``0.48-2``,  ``0.48-1``,  ``0.48-0``,  ``0.36-2``,  ``0.36-1``,  ``0.36-0``,  ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -64,7 +72,7 @@ perl-capture-tiny
 
     <script>
         var package = "perl-capture-tiny";
-        var versions = ["0.48","0.48","0.36","0.36","0.36"];
+        var versions = ["0.48","0.48","0.48","0.36","0.36"];
     </script>
 
 

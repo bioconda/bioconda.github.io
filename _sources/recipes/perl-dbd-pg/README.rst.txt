@@ -27,14 +27,14 @@ perl-dbd-pg
       
       
 
-      ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
+      ``3.15.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libpq: ``>=11.4,<12.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libpq: ``>=14.1,<15.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 
    :depends postgresql: 
    :requirements:
@@ -68,7 +68,7 @@ perl-dbd-pg
 
     <script>
         var package = "perl-dbd-pg";
-        var versions = ["3.8.1","3.8.0","3.7.4","3.5.3","3.5.3"];
+        var versions = ["3.15.0","3.8.1","3.8.0","3.7.4","3.5.3"];
     </script>
 
 

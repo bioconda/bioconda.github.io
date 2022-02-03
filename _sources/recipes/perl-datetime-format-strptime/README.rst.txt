@@ -27,12 +27,12 @@ perl-datetime-format-strptime
       
       
 
-      ``1.75-0``,  ``1.73-0``
+      ``1.75-1``,  ``1.75-0``,  ``1.73-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-datetime: 
@@ -75,7 +75,7 @@ perl-datetime-format-strptime
 
     <script>
         var package = "perl-datetime-format-strptime";
-        var versions = ["1.75","1.73"];
+        var versions = ["1.75","1.75","1.73"];
     </script>
 
 

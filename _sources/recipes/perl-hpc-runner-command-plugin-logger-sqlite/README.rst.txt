@@ -27,12 +27,12 @@ perl-hpc-runner-command-plugin-logger-sqlite
       
       
 
-      ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-base: 
    :depends perl-clone: 
@@ -46,7 +46,7 @@ perl-hpc-runner-command-plugin-logger-sqlite
    :depends perl-log-log4perl: 
    :depends perl-params-validate: 
    :depends perl-text-asciitable: 
-   :depends sqlite: ``>=3.26.0,<4.0a0``
+   :depends sqlite: ``>=3.37.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +78,7 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
     <script>
         var package = "perl-hpc-runner-command-plugin-logger-sqlite";
-        var versions = ["0.0.3","0.0.3","0.0.3"];
+        var versions = ["0.0.3","0.0.3","0.0.3","0.0.3"];
     </script>
 
 

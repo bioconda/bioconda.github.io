@@ -28,10 +28,10 @@ perl-hpc-runner-command
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.13-1</code>,  <code>3.2.13-0</code>,  <code>3.2.11-0</code>,  <code>3.2.10-0</code>,  <code>3.2.9-0</code>,  <code>3.2.8-0</code>,  <code>3.2.7-0</code>,  <code>3.2.6-0</code>,  <code>3.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.13-2</code>,  <code>3.2.13-1</code>,  <code>3.2.13-0</code>,  <code>3.2.11-0</code>,  <code>3.2.10-0</code>,  <code>3.2.9-0</code>,  <code>3.2.8-0</code>,  <code>3.2.7-0</code>,  <code>3.2.6-0</code>,  </span></summary>
       
 
-      ``3.2.13-1``,  ``3.2.13-0``,  ``3.2.11-0``,  ``3.2.10-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``,  ``3.2.6-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.2-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.4-1``,  ``3.1.4-0``,  ``3.1.1-0``,  ``3.0.1-1``
+      ``3.2.13-2``,  ``3.2.13-1``,  ``3.2.13-0``,  ``3.2.11-0``,  ``3.2.10-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``,  ``3.2.6-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.2-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.4-1``,  ``3.1.4-0``,  ``3.1.1-0``,  ``3.0.1-1``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ perl-hpc-runner-command
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-algorithm-dependency: 
    :depends perl-app-cpanminus: 
    :depends perl-archive-tar: 
@@ -82,7 +82,6 @@ perl-hpc-runner-command
    :depends perl-text-asciitable: 
    :depends perl-try-tiny: 
    :depends perl-type-tiny: 
-   :depends perl-types-standard: 
    :depends perl-version-next: 
    :depends perl-yaml: 
    :depends perl-yaml-libyaml: 
@@ -117,7 +116,7 @@ perl-hpc-runner-command
 
     <script>
         var package = "perl-hpc-runner-command";
-        var versions = ["3.2.13","3.2.13","3.2.11","3.2.10","3.2.9"];
+        var versions = ["3.2.13","3.2.13","3.2.13","3.2.11","3.2.10"];
     </script>
 
 

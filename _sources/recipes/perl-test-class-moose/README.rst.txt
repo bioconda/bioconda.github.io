@@ -27,13 +27,16 @@ perl-test-class-moose
       
       
 
-      ``0.96-1``,  ``0.96-0``,  ``0.95-0``,  ``0.94-0``,  ``0.80-0``
+      ``0.96-2``,  ``0.96-1``,  ``0.96-0``,  ``0.95-0``,  ``0.94-0``,  ``0.80-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
+   :depends perl-class-load: 
+   :depends perl-devel-overloadinfo: 
+   :depends perl-eval-closure: 
    :depends perl-exporter: 
    :depends perl-import-into: 
    :depends perl-json-maybexs: 
@@ -42,6 +45,7 @@ perl-test-class-moose
    :depends perl-module-util: 
    :depends perl-moose: 
    :depends perl-moosex-getopt: 
+   :depends perl-mro-compat: 
    :depends perl-namespace-autoclean: 
    :depends perl-package-deprecationmanager: 
    :depends perl-parallel-forkmanager: 
@@ -79,7 +83,7 @@ perl-test-class-moose
 
     <script>
         var package = "perl-test-class-moose";
-        var versions = ["0.96","0.96","0.95","0.94","0.80"];
+        var versions = ["0.96","0.96","0.96","0.95","0.94"];
     </script>
 
 

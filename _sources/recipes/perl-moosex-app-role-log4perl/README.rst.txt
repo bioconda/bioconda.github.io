@@ -27,12 +27,12 @@ perl-moosex-app-role-log4perl
       
       
 
-      ``0.03-1``,  ``0.03-0``
+      ``0.03-2``,  ``0.03-1``,  ``0.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-log-log4perl: 
    :depends perl-moosex-app: 
    :requirements:
@@ -66,7 +66,7 @@ perl-moosex-app-role-log4perl
 
     <script>
         var package = "perl-moosex-app-role-log4perl";
-        var versions = ["0.03","0.03"];
+        var versions = ["0.03","0.03","0.03"];
     </script>
 
 
