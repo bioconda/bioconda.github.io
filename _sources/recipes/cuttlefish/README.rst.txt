@@ -10,14 +10,14 @@ cuttlefish
    :replaces_section_title:
    :noindex:
 
-   Construction of the compacted de Bruijn graph efficiently from genome references
+   Construction of the compacted de Bruijn graph efficiently
 
    :homepage: https://github.com/COMBINE-lab/cuttlefish
    :documentation: https://github.com/COMBINE-lab/cuttlefish#readme
    
    :license: BSD-3-Clause
    :recipe: /`cuttlefish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cuttlefish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cuttlefish/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2020.10.21.349605`
+   :links: doi: :doi:`10.1093/bioinformatics/btab309`, doi: :doi:`10.1101/2021.12.14.472718`
 
    
 
@@ -30,13 +30,16 @@ cuttlefish
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libjemalloc: ``>=5.2.1``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -69,7 +72,7 @@ cuttlefish
 
     <script>
         var package = "cuttlefish";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["2.0.0","1.0.0","1.0.0"];
     </script>
 
 

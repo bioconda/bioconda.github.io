@@ -27,7 +27,7 @@ selenzy_wrapper
       
       
 
-      ``0.1.0-0``,  ``0.0.6-0``
+      ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
 
@@ -68,7 +68,7 @@ selenzy_wrapper
 
     <script>
         var package = "selenzy_wrapper";
-        var versions = ["0.1.0","0.0.6"];
+        var versions = ["0.2.0","0.1.0","0.0.6"];
     </script>
 
 
