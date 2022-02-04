@@ -27,40 +27,22 @@ rosella
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
-   :depends biopython: 
-   :depends blis: 
    :depends bwa: 
-   :depends flight-genome: 
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends hdbscan: 
-   :depends imageio: 
+   :depends flight-genome: ``>=1.4.1``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends matplotlib-base: 
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends minimap2: 
-   :depends numba: 
-   :depends numpy: 
-   :depends openblas: 
-   :depends openssl: ``>=1.1.1j,<1.1.2a``
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends parallel: 
-   :depends pkg-config: 
-   :depends pynndescent: 
-   :depends pysam: ``>=0.16``
-   :depends python: ``>=3.8``
-   :depends samtools: ``1.9.*``
-   :depends scikit-bio: 
-   :depends scikit-learn: 
-   :depends seaborn: 
+   :depends samtools: 
    :depends starcode: 
-   :depends umap-learn: ``>=0.5``
-   :depends vt: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +74,7 @@ rosella
 
     <script>
         var package = "rosella";
-        var versions = ["0.3.3","0.3.2","0.3.0","0.2.4","0.2.3"];
+        var versions = ["0.4.1","0.3.3","0.3.2","0.3.0","0.2.4"];
     </script>
 
 

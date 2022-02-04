@@ -46,6 +46,7 @@ scvi-tools
    :depends anndata: ``>=0.7.5``
    :depends docrep: ``>=0.3.2``
    :depends h5py: ``>=2.9.0``
+   :depends importlib_metadata: 
    :depends ipywidgets: ``>=7.5.1``
    :depends numba: ``>=0.41.0``
    :depends numpy: ``>=1.17.0``
@@ -57,6 +58,7 @@ scvi-tools
    :depends pytorch-lightning: ``>=1.3,<1.4``
    :depends rich: ``>=9.12.4``
    :depends scikit-learn: ``>=0.21.2``
+   :depends setuptools: ``<=59.5.0``
    :depends tqdm: ``>=4.56.0``
    :requirements:
 

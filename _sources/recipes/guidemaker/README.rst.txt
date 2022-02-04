@@ -28,15 +28,16 @@ guidemaker
       
       
 
-      ``0.2.0-0``
+      ``0.3.4-0``,  ``0.2.0-0``
 
       
 
    
    :depends altair: 
-   :depends biopython: ``1.76``
+   :depends biopython: ``>=1.79``
    :depends nmslib: ``>=2.0.6``
    :depends numpy: ``>=1.11``
+   :depends onnxruntime: ``>=1.8.1``
    :depends pandas: ``>=1.0.0``
    :depends pdoc3: 
    :depends pip: 
@@ -79,7 +80,7 @@ guidemaker
 
     <script>
         var package = "guidemaker";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.4","0.2.0"];
     </script>
 
 

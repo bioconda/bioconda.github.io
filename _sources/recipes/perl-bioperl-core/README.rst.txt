@@ -26,21 +26,13 @@ perl-bioperl-core
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.007002-4</code>,  <code>1.007002-3</code>,  <code>1.007002-2</code>,  <code>1.007002-1</code>,  <code>1.007002-0</code>,  <code>1.7.8-0</code>,  <code>1.7.2-3</code>,  <code>1.6.924-2</code>,  <code>1.6.924-1</code>,  </span></summary>
-      
+      ``1.007002-3``,  ``1.007002-2``,  ``1.007002-1``,  ``1.007002-0``,  ``1.7.8-0``,  ``1.7.2-3``,  ``1.6.924-2``,  ``1.6.924-1``,  ``1.6.924-0``
 
-      ``1.007002-4``,  ``1.007002-3``,  ``1.007002-2``,  ``1.007002-1``,  ``1.007002-0``,  ``1.7.8-0``,  ``1.7.2-3``,  ``1.6.924-2``,  ``1.6.924-1``,  ``1.6.924-0``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-aceperl: 
    :depends perl-algorithm-munkres: 
    :depends perl-array-compare: 
@@ -103,7 +95,7 @@ perl-bioperl-core
 
     <script>
         var package = "perl-bioperl-core";
-        var versions = ["1.007002","1.007002","1.007002","1.007002","1.007002"];
+        var versions = ["1.007002","1.007002","1.007002","1.007002","1.7.8"];
     </script>
 
 

@@ -12,7 +12,7 @@ lorikeet-genome
 
    Metagenomic Strain Resolver
 
-   :homepage: https://github.com/rhysnewell/Lorikeet
+   :homepage: https://rhysnewell.github.io/Lorikeet/
    :license: GPL3
    :recipe: /`lorikeet-genome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorikeet-genome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorikeet-genome/meta.yaml>`_
 

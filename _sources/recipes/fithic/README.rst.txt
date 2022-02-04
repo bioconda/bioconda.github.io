@@ -27,13 +27,13 @@ fithic
       
       
 
-      ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
+      ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
 
       
 
    
    :depends argparse: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends python: ``>=3``
    :depends scikit-learn: 
@@ -70,7 +70,7 @@ fithic
 
     <script>
         var package = "fithic";
-        var versions = ["2.0.7","2.0.6","2.0.5"];
+        var versions = ["2.0.8","2.0.7","2.0.6","2.0.5"];
     </script>
 
 

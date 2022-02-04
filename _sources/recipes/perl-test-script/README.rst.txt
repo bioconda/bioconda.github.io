@@ -27,15 +27,14 @@ perl-test-script
       
       
 
-      ``1.25-0``
+      ``1.29-0``,  ``1.25-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-probe-perl: 
-   :depends perl-text-parsewords: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ perl-test-script
 
     <script>
         var package = "perl-test-script";
-        var versions = ["1.25"];
+        var versions = ["1.29","1.25"];
     </script>
 
 
