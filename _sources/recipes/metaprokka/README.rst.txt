@@ -28,12 +28,12 @@ metaprokka
       
       
 
-      ``1.14.6_1-1``,  ``1.14.6_1-0``
+      ``1.14.6_1-2``,  ``1.14.6_1-1``,  ``1.14.6_1-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends prokka: ``1.14.6.*``
    :requirements:
 
@@ -66,7 +66,7 @@ metaprokka
 
     <script>
         var package = "metaprokka";
-        var versions = ["1.14.6_1","1.14.6_1"];
+        var versions = ["1.14.6_1","1.14.6_1","1.14.6_1"];
     </script>
 
 

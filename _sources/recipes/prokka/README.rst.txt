@@ -29,10 +29,10 @@ prokka
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.6-1</code>,  <code>1.14.6-0</code>,  <code>1.14.5-1</code>,  <code>1.14.5-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.13.7-0</code>,  <code>1.13.4-0</code>,  <code>1.13.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.6-2</code>,  <code>1.14.6-1</code>,  <code>1.14.6-0</code>,  <code>1.14.5-1</code>,  <code>1.14.5-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.13.7-0</code>,  <code>1.13.4-0</code>,  </span></summary>
       
 
-      ``1.14.6-1``,  ``1.14.6-0``,  ``1.14.5-1``,  ``1.14.5-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.7-0``,  ``1.13.4-0``,  ``1.13.3-0``,  ``1.13-4``,  ``1.13-3``,  ``1.13-2``,  ``1.13-1``,  ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``
+      ``1.14.6-2``,  ``1.14.6-1``,  ``1.14.6-0``,  ``1.14.5-1``,  ``1.14.5-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.7-0``,  ``1.13.4-0``,  ``1.13.3-0``,  ``1.13-4``,  ``1.13-3``,  ``1.13-2``,  ``1.13-1``,  ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ prokka
    :depends infernal: ``>=1.1.2``
    :depends minced: ``>=0.3``
    :depends parallel: ``>=20180522``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7.2``
    :depends perl-xml-simple: 
    :depends prodigal: ``>=2.6``
@@ -84,7 +84,7 @@ prokka
 
     <script>
         var package = "prokka";
-        var versions = ["1.14.6","1.14.6","1.14.5","1.14.5","1.14.0"];
+        var versions = ["1.14.6","1.14.6","1.14.6","1.14.5","1.14.5"];
     </script>
 
 
