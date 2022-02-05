@@ -27,16 +27,16 @@ hilive2
       
       
 
-      ``2.0a-2``,  ``2.0a-1``,  ``2.0a-0``
+      ``2.0-0``,  ``2.0a-2``,  ``2.0a-1``,  ``2.0a-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends lz4-c: ``>=1.9.3,<1.9.4.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ hilive2
 
     <script>
         var package = "hilive2";
-        var versions = ["2.0a","2.0a","2.0a"];
+        var versions = ["2.0","2.0a","2.0a","2.0a"];
     </script>
 
 
