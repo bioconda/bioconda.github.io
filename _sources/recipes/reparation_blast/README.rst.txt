@@ -28,10 +28,10 @@ reparation_blast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-2</code>,  <code>1.0.7-0</code>,  <code>v1.0.7-1</code>,  <code>v1.0.7-0</code>,  <code>v1.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-2</code>,  <code>1.0.7-0</code>,  <code>v1.0.7-1</code>,  <code>v1.0.7-0</code>,  </span></summary>
       
 
-      ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-2``,  ``1.0.7-0``,  ``v1.0.7-1``,  ``v1.0.7-0``,  ``v1.0.6-0``,  ``v1.0.5-0``,  ``v1.0.4-0``,  ``v1.0.3-2``,  ``v1.0.2-1``,  ``v1.0.1-0``
+      ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-2``,  ``1.0.7-0``,  ``v1.0.7-1``,  ``v1.0.7-0``,  ``v1.0.6-0``,  ``v1.0.5-0``,  ``v1.0.4-0``,  ``v1.0.3-2``,  ``v1.0.2-1``,  ``v1.0.1-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ reparation_blast
    :depends blast: 
    :depends glimmer: 
    :depends openssl: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7.2``
    :depends perl-posix: 
    :depends plastid: 
@@ -87,7 +87,7 @@ reparation_blast
 
     <script>
         var package = "reparation_blast";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.8","1.0.7"];
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.8"];
     </script>
 
 

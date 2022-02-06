@@ -135,10 +135,10 @@ biobb_structure_checking
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.9-0</code>,  <code>3.9.7-0</code>,  <code>3.9.6-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.5-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.10-0</code>,  <code>3.9.9-0</code>,  <code>3.9.7-0</code>,  <code>3.9.6-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.5-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  </span></summary>
       
 
-      ``3.9.9-0``,  ``3.9.7-0``,  ``3.9.6-0``,  ``3.9.2-0``,  ``3.9.1-0``,  ``3.8.5-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.5.3-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``0.0.1-0``
+      ``3.9.10-0``,  ``3.9.9-0``,  ``3.9.7-0``,  ``3.9.6-0``,  ``3.9.2-0``,  ``3.9.1-0``,  ``3.8.5-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.5.3-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -183,7 +183,7 @@ biobb_structure_checking
 
     <script>
         var package = "biobb_structure_checking";
-        var versions = ["3.9.9","3.9.7","3.9.6","3.9.2","3.9.1"];
+        var versions = ["3.9.10","3.9.9","3.9.7","3.9.6","3.9.2"];
     </script>
 
 

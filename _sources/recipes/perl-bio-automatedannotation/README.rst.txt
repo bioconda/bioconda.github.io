@@ -27,7 +27,7 @@ perl-bio-automatedannotation
       
       
 
-      ``1.182770-1``,  ``1.182770-0``
+      ``2021.01.04.08.19.58.619-0``,  ``1.182770-1``,  ``1.182770-0``
 
       
 
@@ -35,14 +35,22 @@ perl-bio-automatedannotation
    :depends blast: 
    :depends hmmer: 
    :depends parallel: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-bio-procedural: 
    :depends perl-bioperl: 
    :depends perl-bioperl-run: 
+   :depends perl-class-load: 
+   :depends perl-devel-globaldestruction: 
+   :depends perl-devel-overloadinfo: 
+   :depends perl-eval-closure: 
    :depends perl-exception-class: 
    :depends perl-file-slurper: 
    :depends perl-file-temp: 
    :depends perl-getopt-long: 
+   :depends perl-module-runtime: 
    :depends perl-moose: 
+   :depends perl-mro-compat: 
+   :depends perl-package-deprecationmanager: 
    :depends perl-text-csv: 
    :depends perl-time-piece: 
    :depends perl-xml-simple: 
@@ -78,7 +86,7 @@ perl-bio-automatedannotation
 
     <script>
         var package = "perl-bio-automatedannotation";
-        var versions = ["1.182770","1.182770"];
+        var versions = ["2021.01.04.08.19.58.619","1.182770","1.182770"];
     </script>
 
 

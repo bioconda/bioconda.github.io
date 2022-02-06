@@ -27,13 +27,14 @@ perl-bio-viennangs
       
       
 
-      ``v0.19.2-5``,  ``v0.19-1``,  ``v0.18-2``,  ``v0.18-1``,  ``v0.18-0``,  ``v0.16-0``
+      ``0.19.2-0``,  ``v0.19.2-5``,  ``v0.19-1``,  ``v0.18-2``,  ``v0.18-1``,  ``v0.18-0``,  ``v0.16-0``
 
       
 
    
    :depends bedtools: ``>=2.24``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-bio-procedural: ``1.7.4.*``
    :depends perl-bio-samtools: 
    :depends perl-bioperl: 
    :depends perl-carp: 
@@ -49,9 +50,8 @@ perl-bio-viennangs
    :depends perl-getopt-long: 
    :depends perl-ipc-cmd: 
    :depends perl-lib: 
-   :depends perl-list-util: 
    :depends perl-math-round: 
-   :depends perl-moose: 
+   :depends perl-moose: ``2.2201.*``
    :depends perl-moosex-clone: 
    :depends perl-namespace-autoclean: 
    :depends perl-params-coerce: 
@@ -59,6 +59,7 @@ perl-bio-viennangs
    :depends perl-perlio-gzip: 
    :depends perl-pod-usage: 
    :depends perl-posix: 
+   :depends perl-scalar-list-utils: 
    :depends perl-template-toolkit: 
    :depends perl-test-deep: 
    :depends perl-test-file-contents: 
@@ -99,7 +100,7 @@ perl-bio-viennangs
 
     <script>
         var package = "perl-bio-viennangs";
-        var versions = ["v0.19.2","v0.19","v0.18","v0.18","v0.18"];
+        var versions = ["0.19.2","v0.19.2","v0.19","v0.18","v0.18"];
     </script>
 
 

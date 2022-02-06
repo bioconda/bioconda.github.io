@@ -28,17 +28,16 @@ snvphyl-tools
       
       
 
-      ``1.8.2-5``,  ``1.8.2-4``,  ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``
+      ``1.8.2-6``,  ``1.8.2-5``,  ``1.8.2-4``,  ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``
 
       
 
    
    :depends bcftools-snvphyl-plugin: ``>=1.9``
    :depends grep: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends mummer: 
-   :depends openssl: ``<1.1``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7.2``
    :depends perl-hash-merge: 
    :depends perl-list-moreutils: 
@@ -47,7 +46,7 @@ snvphyl-tools
    :depends perl-string-util: 
    :depends perl-text-csv: 
    :depends perl-vcftools-vcf: 
-   :depends samtools: 
+   :depends samtools: ``>=1.9``
    :depends vcftools: 
    :requirements:
 

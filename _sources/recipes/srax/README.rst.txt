@@ -30,7 +30,7 @@ srax
       
       
 
-      ``1.5-1``,  ``1.5-0``,  ``1.4-0``
+      ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
 
       
 
@@ -40,7 +40,7 @@ srax
    :depends diamond: ``>=0.9.29``
    :depends mafft: ``>=7.455``
    :depends muscle: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-env-path: 
    :depends perl-file-path: 
    :depends perl-file-slurp: 
@@ -88,7 +88,7 @@ srax
 
     <script>
         var package = "srax";
-        var versions = ["1.5","1.5","1.4"];
+        var versions = ["1.5","1.5","1.5","1.4"];
     </script>
 
 

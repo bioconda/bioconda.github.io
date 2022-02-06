@@ -28,7 +28,7 @@ fgmp
       
       
 
-      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -38,7 +38,7 @@ fgmp
    :depends emboss: ``>=6.5.7``
    :depends exonerate: ``>=2.2.0``
    :depends hmmer: ``>=3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-bioperl: 
    :depends perl-ipc-run: 
@@ -73,7 +73,7 @@ fgmp
 
     <script>
         var package = "fgmp";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.1"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.1"];
     </script>
 
 

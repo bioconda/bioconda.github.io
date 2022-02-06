@@ -40,10 +40,11 @@ mash
       
 
    
-   :depends capnproto: 
+   :depends capnproto: ``>=0.9.1,<0.9.2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
