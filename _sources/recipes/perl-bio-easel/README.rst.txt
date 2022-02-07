@@ -27,13 +27,13 @@ perl-bio-easel
       
       
 
-      ``0.15-0``,  ``0.14-0``
+      ``0.15-1``,  ``0.15-0``,  ``0.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends perl: ``5.26.*``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-inline: 
    :depends perl-inline-c: 
    :requirements:
@@ -67,7 +67,7 @@ perl-bio-easel
 
     <script>
         var package = "perl-bio-easel";
-        var versions = ["0.15","0.14"];
+        var versions = ["0.15","0.15","0.14"];
     </script>
 
 

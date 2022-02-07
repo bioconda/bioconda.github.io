@@ -36,13 +36,16 @@ genometools-genometools
       
 
    
+   :depends cairo: ``>=1.16.0,<1.17.0a0``
    :depends font-ttf-dejavu-sans-mono: 
-   :depends fontconfig: 
+   :depends fontconfig: ``>=2.13.94,<3.0a0``
    :depends gettext: 
-   :depends libcxx: ``>=11.1.0``
-   :depends libglib: ``>=2.66.3,<3.0a0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libglib: ``>=2.70.2,<3.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends pango: ``>=1.48.10,<1.49.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends xorg-libsm: 
    :depends xorg-libxext: 
    :depends xorg-libxrender: 

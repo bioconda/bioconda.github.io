@@ -26,9 +26,17 @@ bioconductor-biocsklearn
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.3-1</code>,  <code>1.10.3-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,8 +46,8 @@ bioconductor-biocsklearn
    :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=9.4.0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-knitr: 
    :depends r-rcpp: 
@@ -75,7 +83,7 @@ bioconductor-biocsklearn
 
     <script>
         var package = "bioconductor-biocsklearn";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.3"];
+        var versions = ["1.16.0","1.16.0","1.14.0","1.12.0","1.12.0"];
     </script>
 
 

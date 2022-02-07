@@ -27,35 +27,23 @@ perl-bio-rna-rnaalisplit
       
       
 
-      ``v0.09-0``,  ``v0.08-0``,  ``v0.07-0``,  ``v0.06-2``,  ``v0.06-1``
+      ``0.11-0``,  ``v0.09-0``,  ``v0.08-0``,  ``v0.07-0``,  ``v0.06-2``,  ``v0.06-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-array-set: 
-   :depends perl-bioperl: ``>=1.6.924``
-   :depends perl-constant: 
-   :depends perl-data-dumper: 
-   :depends perl-devel-globaldestruction: 
-   :depends perl-digest-md5: 
-   :depends perl-extutils-makemaker: 
-   :depends perl-file-path: 
+   :depends perl-bioperl: 
    :depends perl-file-share: 
-   :depends perl-file-spec: 
    :depends perl-filedirutil: 
-   :depends perl-ipc-cmd: 
-   :depends perl-lib: 
-   :depends perl-module-implementation: 
    :depends perl-moose: 
    :depends perl-namespace-autoclean: 
+   :depends perl-params-coerce: 
    :depends perl-path-class: 
-   :depends perl-pod-usage: 
-   :depends perl-storable: 
-   :depends perl-sub-exporter-progressive: 
-   :depends perl-test-prereq: 
+   :depends perl-test-script: 
    :depends rnaz: ``>=2.1``
-   :depends rscape: ``>=1.2.2``
+   :depends rscape: ``>=1.2.2,<1.3``
    :depends viennarna: ``>=2.4.9``
    :requirements:
 
@@ -88,7 +76,7 @@ perl-bio-rna-rnaalisplit
 
     <script>
         var package = "perl-bio-rna-rnaalisplit";
-        var versions = ["v0.09","v0.08","v0.07","v0.06","v0.06"];
+        var versions = ["0.11","v0.09","v0.08","v0.07","v0.06"];
     </script>
 
 

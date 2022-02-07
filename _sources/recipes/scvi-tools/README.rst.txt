@@ -31,10 +31,10 @@ scvi-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.5-0</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.13.0-0</code>,  <code>0.12.2-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.5-1</code>,  <code>0.14.5-0</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.13.0-0</code>,  <code>0.12.2-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  </span></summary>
       
 
-      ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.13.0-0``,  ``0.12.2-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
+      ``0.14.5-1``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.13.0-0``,  ``0.12.2-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
 
       
       .. raw:: html
@@ -46,7 +46,6 @@ scvi-tools
    :depends anndata: ``>=0.7.5``
    :depends docrep: ``>=0.3.2``
    :depends h5py: ``>=2.9.0``
-   :depends importlib_metadata: 
    :depends ipywidgets: ``>=7.5.1``
    :depends numba: ``>=0.41.0``
    :depends numpy: ``>=1.17.0``
@@ -58,7 +57,7 @@ scvi-tools
    :depends pytorch-lightning: ``>=1.3,<1.4``
    :depends rich: ``>=9.12.4``
    :depends scikit-learn: ``>=0.21.2``
-   :depends setuptools: ``<=59.5.0``
+   :depends setuptools: ``<59``
    :depends tqdm: ``>=4.56.0``
    :requirements:
 
@@ -91,7 +90,7 @@ scvi-tools
 
     <script>
         var package = "scvi-tools";
-        var versions = ["0.14.5","0.14.4","0.14.3","0.14.2","0.13.0"];
+        var versions = ["0.14.5","0.14.5","0.14.4","0.14.3","0.14.2"];
     </script>
 
 
