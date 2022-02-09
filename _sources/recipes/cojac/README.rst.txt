@@ -6,7 +6,7 @@
 cojac
 =====
 
-.. conda:recipe:: cojac/0.1
+.. conda:recipe:: cojac/0.2
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ cojac
 
    :homepage: https://github.com/cbg-ethz/cojac
    :license: GPL3 / GNU General Public License v3 or later (GPLv3+)
-   :recipe: /`cojac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cojac>`_/`0.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cojac/0.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cojac/0.1/meta.yaml>`_
+   :recipe: /`cojac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cojac>`_/`0.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cojac/0.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cojac/0.2/meta.yaml>`_
 
    
 
@@ -27,16 +27,18 @@ cojac
       
       
 
-      ``0.1-0``
+      ``0.2-0``,  ``0.1-0``
 
       
 
    
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: ``>0.15.3``
+   :depends pysam: ``>=0.17``
    :depends python: ``>=3``
    :depends pyyaml: 
+   :depends requests: 
+   :depends strictyaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +70,7 @@ cojac
 
     <script>
         var package = "cojac";
-        var versions = ["0.1"];
+        var versions = ["0.2","0.1"];
     </script>
 
 
