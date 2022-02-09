@@ -27,7 +27,7 @@ kmcp
       
       
 
-      ``0.7.0-0``
+      ``0.7.1-0``,  ``0.7.0-0``
 
       
 
@@ -63,7 +63,7 @@ kmcp
 
     <script>
         var package = "kmcp";
-        var versions = ["0.7.0"];
+        var versions = ["0.7.1","0.7.0"];
     </script>
 
 

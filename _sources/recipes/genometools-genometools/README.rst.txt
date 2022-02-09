@@ -31,14 +31,14 @@ genometools-genometools
       
       
 
-      ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
+      ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
 
       
 
    
    :depends cairo: ``>=1.16.0,<1.17.0a0``
    :depends font-ttf-dejavu-sans-mono: 
-   :depends fontconfig: ``>=2.13.94,<3.0a0``
+   :depends fontconfig: ``>=2.13.96,<3.0a0``
    :depends gettext: 
    :depends libgcc-ng: ``>=9.4.0``
    :depends libglib: ``>=2.70.2,<3.0a0``
@@ -80,7 +80,7 @@ genometools-genometools
 
     <script>
         var package = "genometools-genometools";
-        var versions = ["1.6.2","1.6.2","1.6.1","1.6.1","1.6.1"];
+        var versions = ["1.6.2","1.6.2","1.6.2","1.6.1","1.6.1"];
     </script>
 
 

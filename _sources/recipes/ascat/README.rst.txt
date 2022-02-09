@@ -36,12 +36,17 @@ ascat
       
       
 
-      ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.5-0``
+      ``3.0.0-0``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.5-0``
 
       
 
    
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-iranges: 
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-data.table: 
+   :depends r-doparallel: 
+   :depends r-foreach: 
    :depends r-r.devices: 
    :depends r-r.utils: 
    :depends r-rcolorbrewer: 
@@ -76,7 +81,7 @@ ascat
 
     <script>
         var package = "ascat";
-        var versions = ["2.5.2","2.5.2","2.5.2","2.5.2","2.5.2"];
+        var versions = ["3.0.0","2.5.2","2.5.2","2.5.2","2.5.2"];
     </script>
 
 

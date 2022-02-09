@@ -15,7 +15,7 @@ r-fastbaps
    :homepage: https://github.com/gtonkinhill/fastbaps
    :license: MIT / MIT
    :recipe: /`r-fastbaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fastbaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fastbaps/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.1472299`
+   :links: doi: :doi:`10.5281/zenodo.1472299`, doi: :doi:`10.1093/nar/gkz361`
 
    
 
@@ -28,15 +28,18 @@ r-fastbaps
       
       
 
-      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends bioconductor-ggtree: 
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends r-adegenet: 
    :depends r-ape: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clusteval: 
    :depends r-doparallel: 
    :depends r-fastcluster: 
@@ -80,7 +83,7 @@ r-fastbaps
 
     <script>
         var package = "r-fastbaps";
-        var versions = ["1.0.4","1.0.3","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.6","1.0.4","1.0.3","1.0.3","1.0.2"];
     </script>
 
 

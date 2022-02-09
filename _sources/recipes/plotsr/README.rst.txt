@@ -10,7 +10,7 @@ plotsr
    :replaces_section_title:
    :noindex:
 
-   PVisualiser for structural annotations between multiple genomes
+   Visualiser for structural annotations between multiple genomes
 
    :homepage: https://github.com/schneebergerlab/plotsr
    :license: MIT License
@@ -27,7 +27,7 @@ plotsr
       
       
 
-      ``0.5-0``,  ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``0.5-1``,  ``0.5-0``,  ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
 
@@ -67,7 +67,7 @@ plotsr
 
     <script>
         var package = "plotsr";
-        var versions = ["0.5","0.4","0.3.1","0.3"];
+        var versions = ["0.5","0.5","0.4","0.3.1","0.3"];
     </script>
 
 
