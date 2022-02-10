@@ -27,7 +27,7 @@ perl-local-lib
       
       
 
-      ``2.000024-1``,  ``2.000024-0``
+      ``2.000028-0``,  ``2.000024-1``,  ``2.000024-0``
 
       
 
@@ -66,7 +66,7 @@ perl-local-lib
 
     <script>
         var package = "perl-local-lib";
-        var versions = ["2.000024","2.000024"];
+        var versions = ["2.000028","2.000024","2.000024"];
     </script>
 
 

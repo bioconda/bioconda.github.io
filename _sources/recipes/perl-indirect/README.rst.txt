@@ -27,7 +27,7 @@ perl-indirect
       
       
 
-      ``0.38-2``,  ``0.38-1``,  ``0.38-0``
+      ``0.39-0``,  ``0.38-2``,  ``0.38-1``,  ``0.38-0``
 
       
 
@@ -67,7 +67,7 @@ perl-indirect
 
     <script>
         var package = "perl-indirect";
-        var versions = ["0.38","0.38","0.38"];
+        var versions = ["0.39","0.38","0.38","0.38"];
     </script>
 
 

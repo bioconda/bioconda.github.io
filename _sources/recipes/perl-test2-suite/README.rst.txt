@@ -12,7 +12,7 @@ perl-test2-suite
 
    Distribution with a rich set of tools built upon the Test2 framework.
 
-   :homepage: http://metacpan.org/pod/Test2::Suite
+   :homepage: http://metacpan.org/pod/Test2-Suite
    :license: perl_5
    :recipe: /`perl-test2-suite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2-suite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2-suite/meta.yaml>`_
 

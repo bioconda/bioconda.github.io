@@ -26,9 +26,17 @@ perl-compress-raw-bzip2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.074-0``,  ``2.069-2``,  ``2.069-1``
+         <details><summary><span class="truncated-version-list"><code>2.101-0</code>,  <code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-0</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  <code>2.074-0</code>,  <code>2.069-2</code>,  </span></summary>
+      
 
+      ``2.101-0``,  ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.074-0``,  ``2.069-2``,  ``2.069-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -66,7 +74,7 @@ perl-compress-raw-bzip2
 
     <script>
         var package = "perl-compress-raw-bzip2";
-        var versions = ["2.087","2.087","2.086","2.084","2.083"];
+        var versions = ["2.101","2.087","2.087","2.086","2.084"];
     </script>
 
 

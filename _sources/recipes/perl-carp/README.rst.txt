@@ -6,7 +6,7 @@
 perl-carp
 =========
 
-.. conda:recipe:: perl-carp/1.38
+.. conda:recipe:: perl-carp
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-carp
 
    :homepage: http://metacpan.org/pod/Carp
    :license: perl_5
-   :recipe: /`perl-carp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp>`_/`1.38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp/1.38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp/1.38/meta.yaml>`_
+   :recipe: /`perl-carp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp/meta.yaml>`_
 
    
 

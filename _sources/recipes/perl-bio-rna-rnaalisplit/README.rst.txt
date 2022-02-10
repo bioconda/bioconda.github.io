@@ -12,7 +12,7 @@ perl-bio-rna-rnaalisplit
 
    Split and deconvolute structural RNA multiple sequence alignments
 
-   :homepage: http://metacpan.org/pod/Bio::RNA::RNAaliSplit
+   :homepage: https://github.com/mtw/Bio-RNA-RNAaliSplit
    :license: agpl_3
    :recipe: /`perl-bio-rna-rnaalisplit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-rna-rnaalisplit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-rna-rnaalisplit/meta.yaml>`_
 

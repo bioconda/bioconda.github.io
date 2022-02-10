@@ -27,7 +27,7 @@ perl-getopt-long-descriptive
       
       
 
-      ``0.104-1``,  ``0.104-0``,  ``0.103-0``
+      ``0.110-0``,  ``0.104-1``,  ``0.104-0``,  ``0.103-0``
 
       
 
@@ -68,7 +68,7 @@ perl-getopt-long-descriptive
 
     <script>
         var package = "perl-getopt-long-descriptive";
-        var versions = ["0.104","0.104","0.103"];
+        var versions = ["0.110","0.104","0.104","0.103"];
     </script>
 
 

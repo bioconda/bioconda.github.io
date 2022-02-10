@@ -10,7 +10,7 @@ perl-dbd-pg
    :replaces_section_title:
    :noindex:
 
-   PostgreSQL database driver for the DBI module
+   DBI PostgreSQL interface
 
    :homepage: http://search.cpan.org/dist/DBD-Pg/
    :license: perl_5

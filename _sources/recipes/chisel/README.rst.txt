@@ -30,12 +30,14 @@ chisel
       
       
 
-      ``1.0.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-0``
+      ``1.1-0``,  ``1.0.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-0``
 
       
 
    
+   :depends art: 
    :depends bcftools: 
+   :depends bwa: 
    :depends gawk: 
    :depends matplotlib-base: 
    :depends numpy: ``>=1.16.1``
@@ -44,6 +46,7 @@ chisel
    :depends samtools: 
    :depends scipy: ``>=1.2.1``
    :depends seaborn: ``>=0.7.1,<=0.9.0``
+   :depends statsmodels: ``<=0.10.1``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +78,7 @@ chisel
 
     <script>
         var package = "chisel";
-        var versions = ["1.0.0","0.0.5","0.0.4","0.0.2"];
+        var versions = ["1.1","1.0.0","0.0.5","0.0.4","0.0.2"];
     </script>
 
 

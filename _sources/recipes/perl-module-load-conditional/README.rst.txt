@@ -6,7 +6,7 @@
 perl-module-load-conditional
 ============================
 
-.. conda:recipe:: perl-module-load-conditional/0.62
+.. conda:recipe:: perl-module-load-conditional/0.68
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-module-load-conditional
 
    :homepage: http://metacpan.org/pod/Module::Load::Conditional
    :license: perl_5
-   :recipe: /`perl-module-load-conditional <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional>`_/`0.62 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/0.62>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/0.62/meta.yaml>`_
+   :recipe: /`perl-module-load-conditional <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional>`_/`0.68 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/0.68>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/0.68/meta.yaml>`_
 
    
 

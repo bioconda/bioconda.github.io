@@ -10,9 +10,9 @@ perl-bioperl-core
    :replaces_section_title:
    :noindex:
 
-   \"Core\" packages for the BioPerl toolkit\; you really should install perl\-bioperl.
+   Perl modules for biology
 
-   :homepage: http://metacpan.org/pod/BioPerl
+   :homepage: https://metacpan.org/release/BioPerl
    :license: perl_5
    :recipe: /`perl-bioperl-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core/meta.yaml>`_
 

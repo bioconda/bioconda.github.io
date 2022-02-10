@@ -27,7 +27,7 @@ perl-return-multilevel
       
       
 
-      ``0.05-1``,  ``0.05-0``
+      ``0.08-0``,  ``0.05-1``,  ``0.05-0``
 
       
 
@@ -68,7 +68,7 @@ perl-return-multilevel
 
     <script>
         var package = "perl-return-multilevel";
-        var versions = ["0.05","0.05"];
+        var versions = ["0.08","0.05","0.05"];
     </script>
 
 

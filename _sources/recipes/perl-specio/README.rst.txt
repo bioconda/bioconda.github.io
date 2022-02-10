@@ -12,7 +12,7 @@ perl-specio
 
    Type constraints and coercions for Perl
 
-   :homepage: http://metacpan.org/release/Specio
+   :homepage: https://metacpan.org/release/Specio
    :license: artistic_2
    :recipe: /`perl-specio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio/meta.yaml>`_
 

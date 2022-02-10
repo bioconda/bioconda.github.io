@@ -27,7 +27,7 @@ perl-apache-test
       
       
 
-      ``1.40-2``,  ``1.40-1``,  ``1.40-0``
+      ``1.43-0``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``
 
       
 
@@ -65,7 +65,7 @@ perl-apache-test
 
     <script>
         var package = "perl-apache-test";
-        var versions = ["1.40","1.40","1.40"];
+        var versions = ["1.43","1.40","1.40","1.40"];
     </script>
 
 

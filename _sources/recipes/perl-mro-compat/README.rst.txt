@@ -27,7 +27,7 @@ perl-mro-compat
       
       
 
-      ``0.13-1``,  ``0.13-0``
+      ``0.15-0``,  ``0.13-1``,  ``0.13-0``
 
       
 
@@ -64,7 +64,7 @@ perl-mro-compat
 
     <script>
         var package = "perl-mro-compat";
-        var versions = ["0.13","0.13"];
+        var versions = ["0.15","0.13","0.13"];
     </script>
 
 

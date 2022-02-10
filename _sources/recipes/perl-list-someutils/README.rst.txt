@@ -27,7 +27,7 @@ perl-list-someutils
       
       
 
-      ``0.56-2``,  ``0.56-1``,  ``0.56-0``,  ``0.53-0``
+      ``0.58-0``,  ``0.56-2``,  ``0.56-1``,  ``0.56-0``,  ``0.53-0``
 
       
 
@@ -69,7 +69,7 @@ perl-list-someutils
 
     <script>
         var package = "perl-list-someutils";
-        var versions = ["0.56","0.56","0.56","0.53"];
+        var versions = ["0.58","0.56","0.56","0.56","0.53"];
     </script>
 
 

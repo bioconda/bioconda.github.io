@@ -26,9 +26,17 @@ perl-dbd-sqlite
    :versions:
       
       
+      .. raw:: html
 
-      ``1.64-1``,  ``1.64-0``,  ``1.62-1``,  ``1.62-0``,  ``1.60-0``,  ``1.58-0``,  ``1.50-3``,  ``1.50-2``,  ``1.50-1``
+         <details><summary><span class="truncated-version-list"><code>1.70-0</code>,  <code>1.64-1</code>,  <code>1.64-0</code>,  <code>1.62-1</code>,  <code>1.62-0</code>,  <code>1.60-0</code>,  <code>1.58-0</code>,  <code>1.50-3</code>,  <code>1.50-2</code>,  </span></summary>
+      
 
+      ``1.70-0``,  ``1.64-1``,  ``1.64-0``,  ``1.62-1``,  ``1.62-0``,  ``1.60-0``,  ``1.58-0``,  ``1.50-3``,  ``1.50-2``,  ``1.50-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -66,7 +74,7 @@ perl-dbd-sqlite
 
     <script>
         var package = "perl-dbd-sqlite";
-        var versions = ["1.64","1.64","1.62","1.62","1.60"];
+        var versions = ["1.70","1.64","1.64","1.62","1.62"];
     </script>
 
 

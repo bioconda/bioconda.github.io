@@ -27,7 +27,7 @@ perl-file-touch
       
       
 
-      ``0.11-2``,  ``0.11-1``,  ``0.11-0``
+      ``0.12-0``,  ``0.11-2``,  ``0.11-1``,  ``0.11-0``
 
       
 
@@ -66,7 +66,7 @@ perl-file-touch
 
     <script>
         var package = "perl-file-touch";
-        var versions = ["0.11","0.11","0.11"];
+        var versions = ["0.12","0.11","0.11","0.11"];
     </script>
 
 

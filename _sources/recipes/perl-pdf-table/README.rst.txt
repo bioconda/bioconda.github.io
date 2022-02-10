@@ -27,7 +27,7 @@ perl-pdf-table
       
       
 
-      ``0.11.0-1``,  ``0.11.0-0``
+      ``1.002-0``,  ``0.11.0-1``,  ``0.11.0-0``
 
       
 
@@ -64,7 +64,7 @@ perl-pdf-table
 
     <script>
         var package = "perl-pdf-table";
-        var versions = ["0.11.0","0.11.0"];
+        var versions = ["1.002","0.11.0","0.11.0"];
     </script>
 
 

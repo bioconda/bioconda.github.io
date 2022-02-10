@@ -6,15 +6,15 @@
 perl-yaml-libyaml
 =================
 
-.. conda:recipe:: perl-yaml-libyaml/0.63
+.. conda:recipe:: perl-yaml-libyaml/0.66
    :replaces_section_title:
    :noindex:
 
-   Perl YAML Serialization using XS and libyaml 
+   Perl YAML Serialization using XS and libyaml
 
-   :homepage: https://metacpan.org/release/YAML-LibYAML
+   :homepage: https://github.com/ingydotnet/yaml-libyaml-pm
    :license: perl_5
-   :recipe: /`perl-yaml-libyaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-libyaml>`_/`0.63 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-libyaml/0.63>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-libyaml/0.63/meta.yaml>`_
+   :recipe: /`perl-yaml-libyaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-libyaml>`_/`0.66 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-libyaml/0.66>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-libyaml/0.66/meta.yaml>`_
 
    
 

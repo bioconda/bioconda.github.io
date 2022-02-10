@@ -27,7 +27,7 @@ perl-padwalker
       
       
 
-      ``2.3-2``,  ``2.3-1``,  ``2.3-0``
+      ``2.5-0``,  ``2.3-2``,  ``2.3-1``,  ``2.3-0``
 
       
 
@@ -66,7 +66,7 @@ perl-padwalker
 
     <script>
         var package = "perl-padwalker";
-        var versions = ["2.3","2.3","2.3"];
+        var versions = ["2.5","2.3","2.3","2.3"];
     </script>
 
 

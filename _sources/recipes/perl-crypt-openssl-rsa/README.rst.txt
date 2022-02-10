@@ -6,15 +6,15 @@
 perl-crypt-openssl-rsa
 ======================
 
-.. conda:recipe:: perl-crypt-openssl-rsa/0.28
+.. conda:recipe:: perl-crypt-openssl-rsa
    :replaces_section_title:
    :noindex:
 
    RSA encoding and decoding\, using the openSSL libraries
 
-   :homepage: https://metacpan.org/release/Crypt-OpenSSL-RSA
+   :homepage: http://github.com/toddr/Crypt-OpenSSL-RSA
    :license: perl_5
-   :recipe: /`perl-crypt-openssl-rsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa>`_/`0.28 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa/0.28>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa/0.28/meta.yaml>`_
+   :recipe: /`perl-crypt-openssl-rsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa/meta.yaml>`_
 
    
 

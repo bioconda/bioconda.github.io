@@ -27,7 +27,7 @@ perl-xml-libxslt
       
       
 
-      ``1.94-2``,  ``1.94-1``,  ``1.94-0``
+      ``1.99-0``,  ``1.94-2``,  ``1.94-1``,  ``1.94-0``
 
       
 
@@ -67,7 +67,7 @@ perl-xml-libxslt
 
     <script>
         var package = "perl-xml-libxslt";
-        var versions = ["1.94","1.94","1.94"];
+        var versions = ["1.99","1.94","1.94","1.94"];
     </script>
 
 

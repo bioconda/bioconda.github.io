@@ -6,7 +6,7 @@
 perl-encode
 ===========
 
-.. conda:recipe:: perl-encode/2.88
+.. conda:recipe:: perl-encode
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-encode
 
    :homepage: http://metacpan.org/pod/Encode
    :license: perl_5
-   :recipe: /`perl-encode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode>`_/`2.88 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/2.88>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/2.88/meta.yaml>`_
+   :recipe: /`perl-encode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/meta.yaml>`_
 
    
 

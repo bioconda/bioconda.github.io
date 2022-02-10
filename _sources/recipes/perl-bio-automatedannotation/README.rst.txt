@@ -6,7 +6,7 @@
 perl-bio-automatedannotation
 ============================
 
-.. conda:recipe:: perl-bio-automatedannotation/1.182770
+.. conda:recipe:: perl-bio-automatedannotation
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-bio-automatedannotation
 
    :homepage: http://www.sanger.ac.uk/
    :license: open_source
-   :recipe: /`perl-bio-automatedannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation>`_/`1.182770 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation/1.182770>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation/1.182770/meta.yaml>`_
+   :recipe: /`perl-bio-automatedannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation/meta.yaml>`_
 
    
 

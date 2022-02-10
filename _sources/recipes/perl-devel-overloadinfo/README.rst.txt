@@ -27,7 +27,7 @@ perl-devel-overloadinfo
       
       
 
-      ``0.005-1``,  ``0.005-0``
+      ``0.007-0``,  ``0.005-1``,  ``0.005-0``
 
       
 
@@ -68,7 +68,7 @@ perl-devel-overloadinfo
 
     <script>
         var package = "perl-devel-overloadinfo";
-        var versions = ["0.005","0.005"];
+        var versions = ["0.007","0.005","0.005"];
     </script>
 
 

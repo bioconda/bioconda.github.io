@@ -27,7 +27,7 @@ perl-io-socket-inet6
       
       
 
-      ``2.72-3``,  ``2.72-2``,  ``2.72-0``
+      ``2.73-0``,  ``2.72-3``,  ``2.72-2``,  ``2.72-0``
 
       
 
@@ -68,7 +68,7 @@ perl-io-socket-inet6
 
     <script>
         var package = "perl-io-socket-inet6";
-        var versions = ["2.72","2.72","2.72"];
+        var versions = ["2.73","2.72","2.72","2.72"];
     </script>
 
 

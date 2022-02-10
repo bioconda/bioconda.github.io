@@ -27,7 +27,7 @@ perl-tie-hash-indexed
       
       
 
-      ``0.05-2``,  ``0.05-1``,  ``0.05-0``
+      ``0.08-0``,  ``0.05-2``,  ``0.05-1``,  ``0.05-0``
 
       
 
@@ -65,7 +65,7 @@ perl-tie-hash-indexed
 
     <script>
         var package = "perl-tie-hash-indexed";
-        var versions = ["0.05","0.05","0.05"];
+        var versions = ["0.08","0.05","0.05","0.05"];
     </script>
 
 

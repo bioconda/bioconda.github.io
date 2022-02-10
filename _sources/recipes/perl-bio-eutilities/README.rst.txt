@@ -27,7 +27,7 @@ perl-bio-eutilities
       
       
 
-      ``1.75-4``,  ``1.75-2``,  ``1.75-0``
+      ``1.77-0``,  ``1.75-4``,  ``1.75-2``,  ``1.75-0``
 
       
 
@@ -85,7 +85,7 @@ perl-bio-eutilities
 
     <script>
         var package = "perl-bio-eutilities";
-        var versions = ["1.75","1.75","1.75"];
+        var versions = ["1.77","1.75","1.75","1.75"];
     </script>
 
 
