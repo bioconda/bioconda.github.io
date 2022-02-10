@@ -27,7 +27,7 @@ perl-file-readbackwards
       
       
 
-      ``1.05-2``,  ``1.05-1``,  ``1.05-0``
+      ``1.06-0``,  ``1.05-2``,  ``1.05-1``,  ``1.05-0``
 
       
 
@@ -64,7 +64,7 @@ perl-file-readbackwards
 
     <script>
         var package = "perl-file-readbackwards";
-        var versions = ["1.05","1.05","1.05"];
+        var versions = ["1.06","1.05","1.05","1.05"];
     </script>
 
 
