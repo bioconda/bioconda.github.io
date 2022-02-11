@@ -6,7 +6,7 @@
 perl-sub-attribute
 ==================
 
-.. conda:recipe:: perl-sub-attribute/0.05
+.. conda:recipe:: perl-sub-attribute
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-sub-attribute
 
    :homepage: http://metacpan.org/pod/Sub::Attribute
    :license: perl_5
-   :recipe: /`perl-sub-attribute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute>`_/`0.05 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/0.05>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/0.05/meta.yaml>`_
+   :recipe: /`perl-sub-attribute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/meta.yaml>`_
 
    
 
@@ -27,14 +27,13 @@ perl-sub-attribute
       
       
 
-      ``0.05-2``,  ``0.05-1``,  ``0.05-0``
+      ``0.05-3``,  ``0.05-1``,  ``0.05-0``
 
       
 
    
    :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

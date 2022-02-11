@@ -27,7 +27,7 @@ perl-term-table
       
       
 
-      ``0.013-1``,  ``0.013-0``,  ``0.012-0``
+      ``0.016-0``,  ``0.013-1``,  ``0.013-0``,  ``0.012-0``
 
       
 
@@ -66,7 +66,7 @@ perl-term-table
 
     <script>
         var package = "perl-term-table";
-        var versions = ["0.013","0.013","0.012"];
+        var versions = ["0.016","0.013","0.013","0.012"];
     </script>
 
 

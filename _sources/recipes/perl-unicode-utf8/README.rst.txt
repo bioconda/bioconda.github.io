@@ -27,7 +27,7 @@ perl-unicode-utf8
       
       
 
-      ``0.62-2``,  ``0.62-1``,  ``0.62-0``
+      ``0.62-3``,  ``0.62-1``,  ``0.62-0``
 
       
 
@@ -37,7 +37,6 @@ perl-unicode-utf8
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

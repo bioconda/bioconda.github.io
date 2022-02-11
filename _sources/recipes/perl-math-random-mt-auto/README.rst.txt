@@ -27,7 +27,7 @@ perl-math-random-mt-auto
       
       
 
-      ``6.23-2``,  ``6.23-1``,  ``6.23-0``,  ``6.22-0``
+      ``6.23-3``,  ``6.23-1``,  ``6.23-0``,  ``6.22-0``
 
       
 
@@ -38,7 +38,6 @@ perl-math-random-mt-auto
    :depends perl-data-dumper: 
    :depends perl-exception-class: 
    :depends perl-object-insideout: 
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

@@ -28,10 +28,10 @@ perl-gd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.74-0</code>,  <code>2.71-0</code>,  <code>2.70-1</code>,  <code>2.70-0</code>,  <code>2.69-0</code>,  <code>2.68-0</code>,  <code>2.56-9</code>,  <code>2.56-8</code>,  <code>2.56-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.76-0</code>,  <code>2.74-0</code>,  <code>2.71-0</code>,  <code>2.70-1</code>,  <code>2.70-0</code>,  <code>2.69-0</code>,  <code>2.68-0</code>,  <code>2.56-9</code>,  <code>2.56-8</code>,  </span></summary>
       
 
-      ``2.74-0``,  ``2.71-0``,  ``2.70-1``,  ``2.70-0``,  ``2.69-0``,  ``2.68-0``,  ``2.56-9``,  ``2.56-8``,  ``2.56-7``,  ``2.56-6``,  ``2.56-5``,  ``2.56-4``,  ``2.56-3``,  ``2.56-0``
+      ``2.76-0``,  ``2.74-0``,  ``2.71-0``,  ``2.70-1``,  ``2.70-0``,  ``2.69-0``,  ``2.68-0``,  ``2.56-9``,  ``2.56-8``,  ``2.56-7``,  ``2.56-6``,  ``2.56-5``,  ``2.56-4``,  ``2.56-3``,  ``2.56-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ perl-gd
 
     <script>
         var package = "perl-gd";
-        var versions = ["2.74","2.71","2.70","2.70","2.69"];
+        var versions = ["2.76","2.74","2.71","2.70","2.70"];
     </script>
 
 

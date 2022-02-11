@@ -28,10 +28,10 @@ perl-moosex-app
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3701-2</code>,  <code>1.3701-1</code>,  <code>1.3701-0</code>,  <code>1.39-4</code>,  <code>1.39-3</code>,  <code>1.39-2</code>,  <code>1.39-1</code>,  <code>1.39-0</code>,  <code>1.35-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3701-2</code>,  <code>1.3701-1</code>,  <code>1.3701-0</code>,  <code>1.42-0</code>,  <code>1.39-4</code>,  <code>1.39-3</code>,  <code>1.39-2</code>,  <code>1.39-1</code>,  <code>1.39-0</code>,  </span></summary>
       
 
-      ``1.3701-2``,  ``1.3701-1``,  ``1.3701-0``,  ``1.39-4``,  ``1.39-3``,  ``1.39-2``,  ``1.39-1``,  ``1.39-0``,  ``1.35-2``,  ``1.35-1``,  ``1.35-0``
+      ``1.3701-2``,  ``1.3701-1``,  ``1.3701-0``,  ``1.42-0``,  ``1.39-4``,  ``1.39-3``,  ``1.39-2``,  ``1.39-1``,  ``1.39-0``,  ``1.35-2``,  ``1.35-1``,  ``1.35-0``
 
       
       .. raw:: html
@@ -81,7 +81,7 @@ perl-moosex-app
 
     <script>
         var package = "perl-moosex-app";
-        var versions = ["1.3701","1.3701","1.3701","1.39","1.39"];
+        var versions = ["1.3701","1.3701","1.3701","1.42","1.39"];
     </script>
 
 

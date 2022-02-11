@@ -6,7 +6,7 @@
 perl-package-stash-xs
 =====================
 
-.. conda:recipe:: perl-package-stash-xs/0.28
+.. conda:recipe:: perl-package-stash-xs
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-package-stash-xs
 
    :homepage: http://metacpan.org/release/Package-Stash-XS
    :license: perl_5
-   :recipe: /`perl-package-stash-xs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash-xs>`_/`0.28 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash-xs/0.28>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash-xs/0.28/meta.yaml>`_
+   :recipe: /`perl-package-stash-xs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash-xs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash-xs/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-package-stash-xs
       
       
 
-      ``0.28-2``,  ``0.28-1``,  ``0.28-0``
+      ``0.28-3``,  ``0.28-1``,  ``0.28-0``
 
       
 
@@ -35,7 +35,6 @@ perl-package-stash-xs
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

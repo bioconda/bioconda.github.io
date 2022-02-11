@@ -12,8 +12,8 @@ muscle
 
    MUSCLE\: multiple sequence alignment with high accuracy and high throughput
 
-   :homepage: http://www.drive5.com/muscle/
-   :license: http://www.drive5.com/muscle/manual/license.html
+   :homepage: https://github.com/rcedgar/muscle
+   :license: GPL-3.0-only
    :recipe: /`muscle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle/meta.yaml>`_
    :links: biotools: :biotools:`muscle`
 
@@ -28,13 +28,13 @@ muscle
       
       
 
-      ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
+      ``5.1-0``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ muscle
 
     <script>
         var package = "muscle";
-        var versions = ["3.8.1551","3.8.1551","3.8.1551","3.8.1551","3.8.1551"];
+        var versions = ["5.1","3.8.1551","3.8.1551","3.8.1551","3.8.1551"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-indirect
       
       
 
-      ``0.39-0``,  ``0.38-2``,  ``0.38-1``,  ``0.38-0``
+      ``0.39-1``,  ``0.38-1``,  ``0.38-0``
 
       
 
@@ -35,7 +35,6 @@ perl-indirect
    :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ perl-indirect
 
     <script>
         var package = "perl-indirect";
-        var versions = ["0.39","0.38","0.38","0.38"];
+        var versions = ["0.39","0.38","0.38"];
     </script>
 
 

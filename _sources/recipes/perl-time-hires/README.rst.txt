@@ -28,10 +28,10 @@ perl-time-hires
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9764-0</code>,  <code>1.9760-2</code>,  <code>1.9760-1</code>,  <code>1.9760-0</code>,  <code>1.9758-1</code>,  <code>1.9758-0</code>,  <code>1.9728-5</code>,  <code>1.9728-4</code>,  <code>1.9728-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9764-1</code>,  <code>1.9760-2</code>,  <code>1.9760-1</code>,  <code>1.9760-0</code>,  <code>1.9758-1</code>,  <code>1.9758-0</code>,  <code>1.9728-5</code>,  <code>1.9728-4</code>,  <code>1.9728-2</code>,  </span></summary>
       
 
-      ``1.9764-0``,  ``1.9760-2``,  ``1.9760-1``,  ``1.9760-0``,  ``1.9758-1``,  ``1.9758-0``,  ``1.9728-5``,  ``1.9728-4``,  ``1.9728-2``,  ``1.9728-1``,  ``1.9728-0``,  ``1.9726-0``
+      ``1.9764-1``,  ``1.9760-2``,  ``1.9760-1``,  ``1.9760-0``,  ``1.9758-1``,  ``1.9758-0``,  ``1.9728-5``,  ``1.9728-4``,  ``1.9728-2``,  ``1.9728-1``,  ``1.9728-0``,  ``1.9726-0``
 
       
       .. raw:: html
@@ -45,7 +45,6 @@ perl-time-hires
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-extutils-makemaker: 
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

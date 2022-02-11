@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Package Recipe &#39;perl-mac-systemdirectory&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;trimap&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -104,63 +104,65 @@
 
           <div class="body" role="main">
             
-  <section id="perl-mac-systemdirectory">
+  <section id="trimap">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">perl-mac-systemdirectory</span></span></dt>
-<dd><p>Locate Mac OS X Standard System Directories</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">trimap</span></span></dt>
+<dd><p>TriMap: Large-scale Dimensionality Reduction Using Triplets</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/chansen/p5-Mac-SystemDirectory">https://github.com/chansen/p5-Mac-SystemDirectory</a></p>
+<dd class="field-odd"><p><a class="reference external" href="http://github.com/eamid/trimap">http://github.com/eamid/trimap</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>perl_5</p>
+<dd class="field-even"><p>Apache-2.0</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mac-systemdirectory">perl-mac-systemdirectory</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mac-systemdirectory/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimap">trimap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimap/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-perl-mac-systemdirectory">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">perl-mac-systemdirectory</span></span><a class="headerlink" href="#package-perl-mac-systemdirectory" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-mac-systemdirectory"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-mac-systemdirectory.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-mac-systemdirectory"><img alt="docker_perl-mac-systemdirectory" src="https://quay.io/repository/biocontainers/perl-mac-systemdirectory/status" /></a></p>
+<dt class="sig sig-object conda" id="package-trimap">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">trimap</span></span><a class="headerlink" href="#package-trimap" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/trimap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/trimap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/trimap"><img alt="docker_trimap" src="https://quay.io/repository/biocontainers/trimap/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.10-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.15-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.26.2,&lt;5.26.3.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-exporter-feedstock"><strong>perl-exporter</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-xsloader-feedstock"><strong>perl-xsloader</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numba-feedstock"><strong>numba</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.34</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-annoy-feedstock"><strong>python-annoy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.11</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.16</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../autometa/README.html#autometa"><strong class="xref backref">autometa</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">perl</span><span class="o">-</span><span class="n">mac</span><span class="o">-</span><span class="n">systemdirectory</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">trimap</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">perl</span><span class="o">-</span><span class="n">mac</span><span class="o">-</span><span class="n">systemdirectory</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">trimap</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">mac</span><span class="o">-</span><span class="n">systemdirectory</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">trimap</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-mac-systemdirectory?tab=tags">perl-mac-systemdirectory/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/trimap?tab=tags">trimap/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>
-    var package = "perl-mac-systemdirectory";
-    var versions = ["0.10"];
+    var package = "trimap";
+    var versions = ["1.0.15"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -191,8 +193,8 @@
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-mac-systemdirectory/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mac-systemdirectory/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/trimap/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trimap/README.html)
 </pre></div>
 </div>
 </section>
@@ -213,14 +215,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/perl-mac-systemdirectory/README.rst.txt"
+      <a href="../../_sources/recipes/trimap/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/perl-mac-systemdirectory/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/trimap/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

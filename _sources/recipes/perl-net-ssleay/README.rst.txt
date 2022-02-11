@@ -26,9 +26,17 @@ perl-net-ssleay
    :versions:
       
       
+      .. raw:: html
 
-      ``1.88-1``,  ``1.88-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84-1``,  ``1.84-0``,  ``1.74-1``,  ``1.74-0``,  ``1.72-0``
+         <details><summary><span class="truncated-version-list"><code>1.92-0</code>,  <code>1.88-1</code>,  <code>1.88-0</code>,  <code>1.86-0</code>,  <code>1.85-0</code>,  <code>1.84-1</code>,  <code>1.84-0</code>,  <code>1.74-1</code>,  <code>1.74-0</code>,  </span></summary>
+      
 
+      ``1.92-0``,  ``1.88-1``,  ``1.88-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84-1``,  ``1.84-0``,  ``1.74-1``,  ``1.74-0``,  ``1.72-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -69,7 +77,7 @@ perl-net-ssleay
 
     <script>
         var package = "perl-net-ssleay";
-        var versions = ["1.88","1.88","1.86","1.85","1.84"];
+        var versions = ["1.92","1.88","1.88","1.86","1.85"];
     </script>
 
 

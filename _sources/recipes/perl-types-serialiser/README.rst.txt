@@ -27,7 +27,7 @@ perl-types-serialiser
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.01-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -65,7 +65,7 @@ perl-types-serialiser
 
     <script>
         var package = "perl-types-serialiser";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.01","1.0","1.0","1.0","1.0"];
     </script>
 
 

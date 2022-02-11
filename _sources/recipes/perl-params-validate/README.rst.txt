@@ -27,7 +27,7 @@ perl-params-validate
       
       
 
-      ``1.29-2``,  ``1.29-1``,  ``1.29-0``,  ``1.26-2``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.29-3``,  ``1.29-1``,  ``1.29-0``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
 
@@ -37,7 +37,6 @@ perl-params-validate
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-module-implementation: 
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

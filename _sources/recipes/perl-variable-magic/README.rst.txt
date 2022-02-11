@@ -6,7 +6,7 @@
 perl-variable-magic
 ===================
 
-.. conda:recipe:: perl-variable-magic/0.61
+.. conda:recipe:: perl-variable-magic
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-variable-magic
 
    :homepage: http://search.cpan.org/dist/Variable-Magic/
    :license: perl_5
-   :recipe: /`perl-variable-magic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-variable-magic>`_/`0.61 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-variable-magic/0.61>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-variable-magic/0.61/meta.yaml>`_
+   :recipe: /`perl-variable-magic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-variable-magic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-variable-magic/meta.yaml>`_
 
    
 
@@ -27,14 +27,14 @@ perl-variable-magic
       
       
 
-      ``0.61-2``,  ``0.61-1``,  ``0.61-0``
+      ``0.62-0``,  ``0.61-3``,  ``0.61-1``,  ``0.61-0``
 
       
 
    
    :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-xsloader: 
+   :depends perl-test2-suite: ``0.000144.*``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ perl-variable-magic
 
     <script>
         var package = "perl-variable-magic";
-        var versions = ["0.61","0.61","0.61"];
+        var versions = ["0.62","0.61","0.61","0.61"];
     </script>
 
 

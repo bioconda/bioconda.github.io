@@ -6,7 +6,7 @@
 perl-class-xsaccessor
 =====================
 
-.. conda:recipe:: perl-class-xsaccessor/1.19
+.. conda:recipe:: perl-class-xsaccessor
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-class-xsaccessor
 
    :homepage: http://metacpan.org/pod/Class::XSAccessor
    :license: perl_5
-   :recipe: /`perl-class-xsaccessor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor>`_/`1.19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/1.19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/1.19/meta.yaml>`_
+   :recipe: /`perl-class-xsaccessor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-class-xsaccessor
       
       
 
-      ``1.19-3``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``
+      ``1.19-4``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``
 
       
 
@@ -35,7 +35,6 @@ perl-class-xsaccessor
    :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-time-hires: 
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

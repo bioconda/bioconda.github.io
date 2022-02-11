@@ -6,7 +6,7 @@
 perl-datetime
 =============
 
-.. conda:recipe:: perl-datetime/1.42
+.. conda:recipe:: perl-datetime
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-datetime
 
    :homepage: http://metacpan.org/release/DateTime
    :license: artistic_2
-   :recipe: /`perl-datetime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime>`_/`1.42 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/1.42>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/1.42/meta.yaml>`_
+   :recipe: /`perl-datetime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-datetime
       
       
 
-      ``1.42-3``,  ``1.42-2``,  ``1.42-0``
+      ``1.42-4``,  ``1.42-2``,  ``1.42-0``
 
       
 
@@ -44,7 +44,6 @@ perl-datetime
    :depends perl-test-fatal: 
    :depends perl-try-tiny: 
    :depends perl-warnings-register: 
-   :depends perl-xsloader: 
    :requirements:
 
    .. rubric:: Installation

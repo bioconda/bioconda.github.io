@@ -27,7 +27,7 @@ vsnp3
       
       
 
-      ``3.01-0``
+      ``3.02-0``,  ``3.01-0``
 
       
 
@@ -48,7 +48,7 @@ vsnp3
    :depends pyvcf: 
    :depends raxml: 
    :depends regex: 
-   :depends samtools: 
+   :depends samtools: ``1.14``
    :depends scikit-allel: 
    :depends seqkit: 
    :depends sourmash: 
@@ -87,7 +87,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.01"];
+        var versions = ["3.02","3.01"];
     </script>
 
 
