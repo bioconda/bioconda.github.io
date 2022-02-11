@@ -200,6 +200,7 @@
 <span class="sd"># exists before adding the channel.</span>
 <span class="sd">mkdir -p {self.container_staging}/linux-64</span>
 <span class="sd">mkdir -p {self.container_staging}/noarch</span>
+<span class="sd">touch {self.container_staging}/noarch/repodata.json</span>
 <span class="sd">conda config --add channels file://{self.container_staging} 2&gt; &gt;(</span>
 <span class="sd">    grep -vF &quot;Warning: &#39;file://{self.container_staging}&#39; already in &#39;channels&#39; list, moving to the top&quot; &gt;&amp;2</span>
 <span class="sd">)</span>
@@ -211,6 +212,7 @@
 
 <span class="sd"># copy all built packages to the staging area</span>
 <span class="sd">cp `conda build {self.conda_build_args} {self.container_recipe}/meta.yaml --output` {self.container_staging}/{arch}</span>
+<span class="sd">conda index {self.container_staging}</span>
 <span class="sd"># Ensure permissions are correct on the host.</span>
 <span class="sd">HOST_USER={self.user_info[uid]}</span>
 <span class="sd">chown $HOST_USER:$HOST_USER {self.container_staging}/{arch}/*</span>

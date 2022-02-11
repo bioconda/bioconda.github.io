@@ -28,10 +28,10 @@ perl-dbi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.642-1</code>,  <code>1.642-0</code>,  <code>1.641-2</code>,  <code>1.641-1</code>,  <code>1.641-0</code>,  <code>1.640-0</code>,  <code>1.636-0</code>,  <code>1.634-2</code>,  <code>1.634-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.642-2</code>,  <code>1.642-1</code>,  <code>1.642-0</code>,  <code>1.641-2</code>,  <code>1.641-1</code>,  <code>1.641-0</code>,  <code>1.640-0</code>,  <code>1.636-0</code>,  <code>1.634-2</code>,  </span></summary>
       
 
-      ``1.642-1``,  ``1.642-0``,  ``1.641-2``,  ``1.641-1``,  ``1.641-0``,  ``1.640-0``,  ``1.636-0``,  ``1.634-2``,  ``1.634-1``,  ``1.634-0``
+      ``1.642-2``,  ``1.642-1``,  ``1.642-0``,  ``1.641-2``,  ``1.641-1``,  ``1.641-0``,  ``1.640-0``,  ``1.636-0``,  ``1.634-2``,  ``1.634-1``,  ``1.634-0``
 
       
       .. raw:: html
@@ -73,7 +73,7 @@ perl-dbi
 
     <script>
         var package = "perl-dbi";
-        var versions = ["1.642","1.642","1.641","1.641","1.641"];
+        var versions = ["1.642","1.642","1.642","1.641","1.641"];
     </script>
 
 

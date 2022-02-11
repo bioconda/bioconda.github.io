@@ -6,7 +6,7 @@
 perl-b-hooks-endofscope
 =======================
 
-.. conda:recipe:: perl-b-hooks-endofscope/0.21
+.. conda:recipe:: perl-b-hooks-endofscope
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-b-hooks-endofscope
 
    :homepage: https://github.com/karenetheridge/B-Hooks-EndOfScope
    :license: perl_5
-   :recipe: /`perl-b-hooks-endofscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b-hooks-endofscope>`_/`0.21 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b-hooks-endofscope/0.21>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b-hooks-endofscope/0.21/meta.yaml>`_
+   :recipe: /`perl-b-hooks-endofscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b-hooks-endofscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b-hooks-endofscope/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-b-hooks-endofscope
       
       
 
-      ``0.21-5``,  ``0.21-4``,  ``0.21-3``,  ``0.21-0``
+      ``0.21-6``,  ``0.21-5``,  ``0.21-4``,  ``0.21-3``,  ``0.21-0``
 
       
 
@@ -70,7 +70,7 @@ perl-b-hooks-endofscope
 
     <script>
         var package = "perl-b-hooks-endofscope";
-        var versions = ["0.21","0.21","0.21","0.21"];
+        var versions = ["0.21","0.21","0.21","0.21","0.21"];
     </script>
 
 
