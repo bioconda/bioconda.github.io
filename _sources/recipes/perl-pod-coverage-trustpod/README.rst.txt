@@ -6,7 +6,7 @@
 perl-pod-coverage-trustpod
 ==========================
 
-.. conda:recipe:: perl-pod-coverage-trustpod/0.100003
+.. conda:recipe:: perl-pod-coverage-trustpod
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-pod-coverage-trustpod
 
    :homepage: https://github.com/rjbs/Pod-Coverage-TrustPod
    :license: perl_5
-   :recipe: /`perl-pod-coverage-trustpod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod>`_/`0.100003 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod/0.100003>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod/0.100003/meta.yaml>`_
+   :recipe: /`perl-pod-coverage-trustpod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod/meta.yaml>`_
 
    
 
@@ -27,15 +27,19 @@ perl-pod-coverage-trustpod
       
       
 
-      ``0.100003-1``,  ``0.100003-0``
+      ``0.100005-0``,  ``0.100003-1``,  ``0.100003-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-base: 
+   :depends perl-extutils-makemaker: 
    :depends perl-lib: 
+   :depends perl-pod-coverage: 
+   :depends perl-pod-eventual: 
+   :depends perl-pod-parser: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +71,7 @@ perl-pod-coverage-trustpod
 
     <script>
         var package = "perl-pod-coverage-trustpod";
-        var versions = ["0.100003","0.100003"];
+        var versions = ["0.100005","0.100003","0.100003"];
     </script>
 
 

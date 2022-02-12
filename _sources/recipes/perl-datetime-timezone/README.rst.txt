@@ -6,7 +6,7 @@
 perl-datetime-timezone
 ======================
 
-.. conda:recipe:: perl-datetime-timezone/2.09
+.. conda:recipe:: perl-datetime-timezone
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-datetime-timezone
 
    :homepage: http://metacpan.org/release/DateTime-TimeZone
    :license: perl_5
-   :recipe: /`perl-datetime-timezone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone>`_/`2.09 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone/2.09>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone/2.09/meta.yaml>`_
+   :recipe: /`perl-datetime-timezone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-datetime-timezone
       
       
 
-      ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+      ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
 
@@ -38,7 +38,7 @@ perl-datetime-timezone
    :depends perl-app-cpanminus: 
    :depends perl-module-runtime: 
    :depends perl-namespace-autoclean: 
-   :depends perl-params-validationcompiler: 
+   :depends perl-params-validationcompiler: ``0.30.*``
    :depends perl-specio: ``0.47.*``
    :depends perl-try-tiny: 
    :requirements:
@@ -72,7 +72,7 @@ perl-datetime-timezone
 
     <script>
         var package = "perl-datetime-timezone";
-        var versions = ["2.09","2.09","2.09"];
+        var versions = ["2.09","2.09","2.09","2.09"];
     </script>
 
 

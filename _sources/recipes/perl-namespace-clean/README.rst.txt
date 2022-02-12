@@ -6,7 +6,7 @@
 perl-namespace-clean
 ====================
 
-.. conda:recipe:: perl-namespace-clean/0.27
+.. conda:recipe:: perl-namespace-clean
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-namespace-clean
 
    :homepage: http://search.cpan.org/dist/namespace-clean
    :license: perl_5
-   :recipe: /`perl-namespace-clean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean>`_/`0.27 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean/0.27>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean/0.27/meta.yaml>`_
+   :recipe: /`perl-namespace-clean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-namespace-clean
       
       
 
-      ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-0``
+      ``0.27-5``,  ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-0``
 
       
 
@@ -68,7 +68,7 @@ perl-namespace-clean
 
     <script>
         var package = "perl-namespace-clean";
-        var versions = ["0.27","0.27","0.27","0.27"];
+        var versions = ["0.27","0.27","0.27","0.27","0.27"];
     </script>
 
 

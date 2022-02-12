@@ -6,7 +6,7 @@
 perl-params-validationcompiler
 ==============================
 
-.. conda:recipe:: perl-params-validationcompiler/0.23
+.. conda:recipe:: perl-params-validationcompiler
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-params-validationcompiler
 
    :homepage: http://metacpan.org/release/Params-ValidationCompiler
    :license: artistic_2
-   :recipe: /`perl-params-validationcompiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler>`_/`0.23 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler/0.23>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler/0.23/meta.yaml>`_
+   :recipe: /`perl-params-validationcompiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler/meta.yaml>`_
 
    
 
@@ -27,21 +27,15 @@ perl-params-validationcompiler
       
       
 
-      ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+      ``0.30-0``,  ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-app-cpanminus: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-b: 
-   :depends perl-devel-stacktrace: 
    :depends perl-eval-closure: 
    :depends perl-exception-class: 
-   :depends perl-specio: ``0.47.*``
-   :depends perl-variable-magic: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +67,7 @@ perl-params-validationcompiler
 
     <script>
         var package = "perl-params-validationcompiler";
-        var versions = ["0.23","0.23","0.23","0.23"];
+        var versions = ["0.30","0.23","0.23","0.23","0.23"];
     </script>
 
 

@@ -6,7 +6,7 @@
 perl-namespace-autoclean
 ========================
 
-.. conda:recipe:: perl-namespace-autoclean/0.28
+.. conda:recipe:: perl-namespace-autoclean
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-namespace-autoclean
 
    :homepage: https://github.com/moose/namespace-autoclean
    :license: perl_5
-   :recipe: /`perl-namespace-autoclean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean>`_/`0.28 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean/0.28>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean/0.28/meta.yaml>`_
+   :recipe: /`perl-namespace-autoclean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-namespace-autoclean
       
       
 
-      ``0.28-3``,  ``0.28-2``,  ``0.28-0``
+      ``0.28-4``,  ``0.28-3``,  ``0.28-2``,  ``0.28-0``
 
       
 
@@ -69,7 +69,7 @@ perl-namespace-autoclean
 
     <script>
         var package = "perl-namespace-autoclean";
-        var versions = ["0.28","0.28","0.28"];
+        var versions = ["0.28","0.28","0.28","0.28"];
     </script>
 
 

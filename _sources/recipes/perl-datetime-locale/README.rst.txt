@@ -6,7 +6,7 @@
 perl-datetime-locale
 ====================
 
-.. conda:recipe:: perl-datetime-locale/1.12
+.. conda:recipe:: perl-datetime-locale
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ perl-datetime-locale
 
    :homepage: http://metacpan.org/release/DateTime-Locale
    :license: perl_5
-   :recipe: /`perl-datetime-locale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale>`_/`1.12 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale/1.12>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale/1.12/meta.yaml>`_
+   :recipe: /`perl-datetime-locale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-datetime-locale
       
       
 
-      ``1.12-3``,  ``1.12-2``,  ``1.12-0``
+      ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
 
       
 
@@ -37,7 +37,7 @@ perl-datetime-locale
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dist-checkconflicts: 
    :depends perl-namespace-autoclean: 
-   :depends perl-params-validationcompiler: 
+   :depends perl-params-validationcompiler: ``0.30.*``
    :depends perl-specio: ``0.47.*``
    :requirements:
 
@@ -70,7 +70,7 @@ perl-datetime-locale
 
     <script>
         var package = "perl-datetime-locale";
-        var versions = ["1.12","1.12","1.12"];
+        var versions = ["1.12","1.12","1.12","1.12"];
     </script>
 
 

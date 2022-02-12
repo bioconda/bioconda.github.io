@@ -27,7 +27,7 @@ perl-moosex-role-withoverloading
       
       
 
-      ``0.17-2``,  ``0.17-1``,  ``0.17-0``
+      ``0.17-3``,  ``0.17-2``,  ``0.17-1``,  ``0.17-0``
 
       
 
@@ -76,7 +76,7 @@ perl-moosex-role-withoverloading
 
     <script>
         var package = "perl-moosex-role-withoverloading";
-        var versions = ["0.17","0.17","0.17"];
+        var versions = ["0.17","0.17","0.17","0.17"];
     </script>
 
 

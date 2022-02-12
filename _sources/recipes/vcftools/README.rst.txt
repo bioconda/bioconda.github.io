@@ -10,7 +10,7 @@ vcftools
    :replaces_section_title:
    :noindex:
 
-   A set of tools written in Perl and C\+\+ for working with VCF files. This package only contains the C\+\+ libraries whereas the package perl\-vcftools\-vcf contains the perl libraries
+   A set of tools written in Perl and C\+\+ for working with VCF files.
 
    :homepage: https://vcftools.github.io/
    :license: LGPL

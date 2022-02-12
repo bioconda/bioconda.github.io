@@ -27,12 +27,13 @@ anglerfish
       
       
 
-      ``0.4.1-0``
+      ``0.4.2-0``,  ``0.4.1-0``
 
       
 
    
    :depends biopython: 
+   :depends minimap2: 
    :depends numpy: 
    :depends python: ``>=3.7``
    :depends python-levenshtein: 
@@ -67,7 +68,7 @@ anglerfish
 
     <script>
         var package = "anglerfish";
-        var versions = ["0.4.1"];
+        var versions = ["0.4.2","0.4.1"];
     </script>
 
 
