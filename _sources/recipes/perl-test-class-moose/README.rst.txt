@@ -27,7 +27,7 @@ perl-test-class-moose
       
       
 
-      ``0.96-2``,  ``0.96-1``,  ``0.96-0``,  ``0.95-0``,  ``0.94-0``,  ``0.80-0``
+      ``0.99-0``,  ``0.96-2``,  ``0.96-1``,  ``0.96-0``,  ``0.95-0``,  ``0.94-0``,  ``0.80-0``
 
       
 
@@ -51,6 +51,7 @@ perl-test-class-moose
    :depends perl-parallel-forkmanager: 
    :depends perl-sub-attribute: 
    :depends perl-test-most: 
+   :depends perl-test-simple: ``>=1.302118``
    :depends perl-try-tiny: 
    :requirements:
 
@@ -83,7 +84,7 @@ perl-test-class-moose
 
     <script>
         var package = "perl-test-class-moose";
-        var versions = ["0.96","0.96","0.96","0.95","0.94"];
+        var versions = ["0.99","0.96","0.96","0.96","0.95"];
     </script>
 
 

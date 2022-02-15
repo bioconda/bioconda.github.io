@@ -27,7 +27,7 @@ perl-class-method-modifiers
       
       
 
-      ``2.12-1``,  ``2.12-0``,  ``2.11-2``,  ``2.11-1``,  ``2.11-0``
+      ``2.13-0``,  ``2.12-1``,  ``2.12-0``,  ``2.11-2``,  ``2.11-1``,  ``2.11-0``
 
       
 
@@ -64,7 +64,7 @@ perl-class-method-modifiers
 
     <script>
         var package = "perl-class-method-modifiers";
-        var versions = ["2.12","2.12","2.11","2.11","2.11"];
+        var versions = ["2.13","2.12","2.12","2.11","2.11"];
     </script>
 
 

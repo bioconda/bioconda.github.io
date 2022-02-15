@@ -28,10 +28,10 @@ emu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.0.0-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -46,6 +46,7 @@ emu
    :depends importlib-metadata: 
    :depends minimap2: 
    :depends numpy: ``>=1.11``
+   :depends pandarallel: 
    :depends pandas: ``>=1.1.3``
    :depends pysam: ``>=0.15``
    :depends python: ``>=3.6``
@@ -80,7 +81,7 @@ emu
 
     <script>
         var package = "emu";
-        var versions = ["2.0.1","2.0.1","2.0.1","2.0.0","1.0.3"];
+        var versions = ["3.0.0","2.0.1","2.0.1","2.0.1","2.0.0"];
     </script>
 
 

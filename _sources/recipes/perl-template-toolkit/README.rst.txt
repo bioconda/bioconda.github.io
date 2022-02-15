@@ -27,7 +27,7 @@ perl-template-toolkit
       
       
 
-      ``2.26-2``,  ``2.26-1``,  ``2.26-0``
+      ``3.010-0``,  ``2.26-2``,  ``2.26-1``,  ``2.26-0``
 
       
 
@@ -38,7 +38,6 @@ perl-template-toolkit
    :depends perl-cgi: 
    :depends perl-image-info: 
    :depends perl-image-size: 
-   :depends perl-test-leaktrace: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +69,7 @@ perl-template-toolkit
 
     <script>
         var package = "perl-template-toolkit";
-        var versions = ["2.26","2.26","2.26"];
+        var versions = ["3.010","2.26","2.26","2.26"];
     </script>
 
 

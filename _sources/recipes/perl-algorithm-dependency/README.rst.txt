@@ -27,13 +27,13 @@ perl-algorithm-dependency
       
       
 
-      ``1.111-1``,  ``1.111-0``,  ``1.110-2``,  ``1.110-1``,  ``1.110-0``
+      ``1.112-0``,  ``1.111-1``,  ``1.111-0``,  ``1.110-2``,  ``1.110-1``,  ``1.110-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-params-util: 
+   :depends perl-params-util: ``>=0.31``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ perl-algorithm-dependency
 
     <script>
         var package = "perl-algorithm-dependency";
-        var versions = ["1.111","1.111","1.110","1.110","1.110"];
+        var versions = ["1.112","1.111","1.111","1.110","1.110"];
     </script>
 
 

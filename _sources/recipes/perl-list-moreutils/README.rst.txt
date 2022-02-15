@@ -27,14 +27,14 @@ perl-list-moreutils
       
       
 
-      ``0.428-2``,  ``0.428-1``,  ``0.428-0``,  ``0.413-1``,  ``0.15-1``,  ``0.15-0``
+      ``0.430-0``,  ``0.428-2``,  ``0.428-1``,  ``0.428-0``,  ``0.413-1``,  ``0.15-1``,  ``0.15-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter-tiny: 
-   :depends perl-list-moreutils-xs: 
+   :depends perl-list-moreutils-xs: ``>=0.430``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ perl-list-moreutils
 
     <script>
         var package = "perl-list-moreutils";
-        var versions = ["0.428","0.428","0.428","0.413","0.15"];
+        var versions = ["0.430","0.428","0.428","0.428","0.413"];
     </script>
 
 

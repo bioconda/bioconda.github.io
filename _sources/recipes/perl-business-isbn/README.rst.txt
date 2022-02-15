@@ -27,13 +27,13 @@ perl-business-isbn
       
       
 
-      ``3.004-1``,  ``3.004-0``
+      ``3.007-0``,  ``3.004-1``,  ``3.004-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-business-isbn-data: 
+   :depends perl-business-isbn-data: ``>=20191107``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ perl-business-isbn
 
     <script>
         var package = "perl-business-isbn";
-        var versions = ["3.004","3.004"];
+        var versions = ["3.007","3.004","3.004"];
     </script>
 
 

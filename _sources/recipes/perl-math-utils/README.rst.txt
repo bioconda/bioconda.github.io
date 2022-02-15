@@ -27,7 +27,7 @@ perl-math-utils
       
       
 
-      ``1.13-1``,  ``1.13-0``
+      ``1.14-0``,  ``1.13-1``,  ``1.13-0``
 
       
 
@@ -64,7 +64,7 @@ perl-math-utils
 
     <script>
         var package = "perl-math-utils";
-        var versions = ["1.13","1.13"];
+        var versions = ["1.14","1.13","1.13"];
     </script>
 
 

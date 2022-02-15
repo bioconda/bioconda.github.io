@@ -27,7 +27,7 @@ perl-test-file
       
       
 
-      ``1.443-1``,  ``1.443-0``
+      ``1.991-0``,  ``1.443-1``,  ``1.443-0``
 
       
 
@@ -64,7 +64,7 @@ perl-test-file
 
     <script>
         var package = "perl-test-file";
-        var versions = ["1.443","1.443"];
+        var versions = ["1.991","1.443","1.443"];
     </script>
 
 

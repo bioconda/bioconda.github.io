@@ -27,7 +27,7 @@ perl-business-isbn-data
       
       
 
-      ``20140910.003-1``,  ``20140910.003-0``
+      ``20210112.006-0``,  ``20140910.003-1``,  ``20140910.003-0``
 
       
 
@@ -65,7 +65,7 @@ perl-business-isbn-data
 
     <script>
         var package = "perl-business-isbn-data";
-        var versions = ["20140910.003","20140910.003"];
+        var versions = ["20210112.006","20140910.003","20140910.003"];
     </script>
 
 

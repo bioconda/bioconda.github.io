@@ -27,7 +27,7 @@ perl-graph-readwrite
       
       
 
-      ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+      ``2.10-0``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
 
@@ -71,7 +71,7 @@ perl-graph-readwrite
 
     <script>
         var package = "perl-graph-readwrite";
-        var versions = ["2.09","2.09","2.09"];
+        var versions = ["2.10","2.09","2.09","2.09"];
     </script>
 
 

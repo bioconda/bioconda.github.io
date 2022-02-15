@@ -26,9 +26,17 @@ perl-module-build
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4224-4``,  ``0.4224-3``,  ``0.4224-2``,  ``0.4224-1``,  ``0.4224-0``,  ``0.4214-3``,  ``0.4214-2``,  ``0.4214-1``,  ``0.4214-0``
+         <details><summary><span class="truncated-version-list"><code>0.4231-0</code>,  <code>0.4224-4</code>,  <code>0.4224-3</code>,  <code>0.4224-2</code>,  <code>0.4224-1</code>,  <code>0.4224-0</code>,  <code>0.4214-3</code>,  <code>0.4214-2</code>,  <code>0.4214-1</code>,  </span></summary>
+      
 
+      ``0.4231-0``,  ``0.4224-4``,  ``0.4224-3``,  ``0.4224-2``,  ``0.4224-1``,  ``0.4224-0``,  ``0.4214-3``,  ``0.4214-2``,  ``0.4214-1``,  ``0.4214-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -76,7 +84,7 @@ perl-module-build
 
     <script>
         var package = "perl-module-build";
-        var versions = ["0.4224","0.4224","0.4224","0.4224","0.4224"];
+        var versions = ["0.4231","0.4224","0.4224","0.4224","0.4224"];
     </script>
 
 

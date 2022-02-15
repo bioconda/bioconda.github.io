@@ -27,7 +27,7 @@ perl-namespace-autoclean
       
       
 
-      ``0.28-4``,  ``0.28-3``,  ``0.28-2``,  ``0.28-0``
+      ``0.29-0``,  ``0.28-4``,  ``0.28-3``,  ``0.28-2``,  ``0.28-0``
 
       
 
@@ -69,7 +69,7 @@ perl-namespace-autoclean
 
     <script>
         var package = "perl-namespace-autoclean";
-        var versions = ["0.28","0.28","0.28","0.28"];
+        var versions = ["0.29","0.28","0.28","0.28","0.28"];
     </script>
 
 

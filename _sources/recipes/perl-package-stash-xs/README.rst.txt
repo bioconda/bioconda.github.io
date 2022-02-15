@@ -27,7 +27,7 @@ perl-package-stash-xs
       
       
 
-      ``0.28-3``,  ``0.28-1``,  ``0.28-0``
+      ``0.29-0``,  ``0.28-3``,  ``0.28-1``,  ``0.28-0``
 
       
 
@@ -66,7 +66,7 @@ perl-package-stash-xs
 
     <script>
         var package = "perl-package-stash-xs";
-        var versions = ["0.28","0.28","0.28"];
+        var versions = ["0.29","0.28","0.28","0.28"];
     </script>
 
 

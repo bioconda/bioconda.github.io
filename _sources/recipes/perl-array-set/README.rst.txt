@@ -27,12 +27,14 @@ perl-array-set
       
       
 
-      ``0.05-1``,  ``0.05-0``
+      ``0.063-0``,  ``0.05-1``,  ``0.05-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-exporter: ``>=5.57``
+   :depends perl-storable: ``>=3.08``
    :depends perl-tie-ixhash: 
    :requirements:
 
@@ -65,7 +67,7 @@ perl-array-set
 
     <script>
         var package = "perl-array-set";
-        var versions = ["0.05","0.05"];
+        var versions = ["0.063","0.05","0.05"];
     </script>
 
 

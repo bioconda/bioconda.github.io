@@ -27,13 +27,15 @@ perl-math-bigint
       
       
 
-      ``1.999816-1``,  ``1.999816-0``,  ``1.999813-0``
+      ``1.999829-0``,  ``1.999816-1``,  ``1.999816-0``,  ``1.999813-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-math-complex: 
+   :depends perl-carp: ``>=1.22``
+   :depends perl-math-complex: ``>=1.36``
+   :depends perl-scalar-list-utils: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +67,7 @@ perl-math-bigint
 
     <script>
         var package = "perl-math-bigint";
-        var versions = ["1.999816","1.999816","1.999813"];
+        var versions = ["1.999829","1.999816","1.999816","1.999813"];
     </script>
 
 

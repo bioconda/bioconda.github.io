@@ -27,13 +27,17 @@ perl-file-listing
       
       
 
-      ``6.04-2``,  ``6.04-1``,  ``6.04-0``
+      ``6.14-0``,  ``6.04-2``,  ``6.04-1``,  ``6.04-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-base: 
+   :depends perl-carp: 
+   :depends perl-exporter: 
    :depends perl-http-date: 
+   :depends perl-time-local: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +69,7 @@ perl-file-listing
 
     <script>
         var package = "perl-file-listing";
-        var versions = ["6.04","6.04","6.04"];
+        var versions = ["6.14","6.04","6.04","6.04"];
     </script>
 
 

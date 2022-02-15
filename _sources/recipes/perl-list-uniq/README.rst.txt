@@ -27,7 +27,7 @@ perl-list-uniq
       
       
 
-      ``0.20-2``,  ``0.20-1``,  ``0.20-0``
+      ``0.23-0``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``
 
       
 
@@ -64,7 +64,7 @@ perl-list-uniq
 
     <script>
         var package = "perl-list-uniq";
-        var versions = ["0.20","0.20","0.20"];
+        var versions = ["0.23","0.20","0.20","0.20"];
     </script>
 
 

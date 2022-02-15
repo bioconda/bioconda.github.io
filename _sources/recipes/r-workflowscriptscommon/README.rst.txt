@@ -28,10 +28,10 @@ r-workflowscriptscommon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.8-0</code>,  <code>0.0.7-3</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.8-1</code>,  <code>0.0.8-0</code>,  <code>0.0.7-3</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-1</code>,  </span></summary>
       
 
-      ``0.0.8-0``,  ``0.0.7-3``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-3``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ r-workflowscriptscommon
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-optparse: 
    :requirements:
 
@@ -73,7 +73,7 @@ r-workflowscriptscommon
 
     <script>
         var package = "r-workflowscriptscommon";
-        var versions = ["0.0.8","0.0.7","0.0.7","0.0.7","0.0.7"];
+        var versions = ["0.0.8","0.0.8","0.0.7","0.0.7","0.0.7"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-sys-info-driver-osx
       
       
 
-      ``0.7959-1``,  ``0.7959-0``,  ``0.7958-0``
+      ``0.7960-0``,  ``0.7959-1``,  ``0.7959-0``,  ``0.7958-0``
 
       
 
@@ -35,6 +35,7 @@ perl-sys-info-driver-osx
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-mac-propertylist: 
+   :depends perl-parent: 
    :depends perl-sys-info-base: 
    :requirements:
 
@@ -67,7 +68,7 @@ perl-sys-info-driver-osx
 
     <script>
         var package = "perl-sys-info-driver-osx";
-        var versions = ["0.7959","0.7959","0.7958"];
+        var versions = ["0.7960","0.7959","0.7959","0.7958"];
     </script>
 
 

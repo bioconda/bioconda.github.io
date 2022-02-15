@@ -27,14 +27,14 @@ perl-sereal
       
       
 
-      ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-sereal-decoder: ``>=4.007``
-   :depends perl-sereal-encoder: ``>=4.007``
+   :depends perl-sereal-decoder: ``>=4.019``
+   :depends perl-sereal-encoder: ``>=4.019``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ perl-sereal
 
     <script>
         var package = "perl-sereal";
-        var versions = ["4.007","4.007","4.005","3.015","3.015"];
+        var versions = ["4.019","4.007","4.007","4.005","3.015"];
     </script>
 
 

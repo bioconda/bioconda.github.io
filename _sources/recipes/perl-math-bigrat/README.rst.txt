@@ -27,13 +27,16 @@ perl-math-bigrat
       
       
 
-      ``0.2614-1``,  ``0.2614-0``
+      ``0.2620-0``,  ``0.2614-1``,  ``0.2614-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-math-bigint: 
+   :depends perl-carp: ``>=1.22``
+   :depends perl-math-bigint: ``>=1.999821``
+   :depends perl-math-complex: ``>=1.36``
+   :depends perl-scalar-list-utils: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +68,7 @@ perl-math-bigrat
 
     <script>
         var package = "perl-math-bigrat";
-        var versions = ["0.2614","0.2614"];
+        var versions = ["0.2620","0.2614","0.2614"];
     </script>
 
 
