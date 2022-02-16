@@ -27,7 +27,7 @@ perl-moosex-role-parameterized
       
       
 
-      ``1.10-1``,  ``1.10-0``
+      ``1.11-0``,  ``1.10-1``,  ``1.10-0``
 
       
 
@@ -69,7 +69,7 @@ perl-moosex-role-parameterized
 
     <script>
         var package = "perl-moosex-role-parameterized";
-        var versions = ["1.10","1.10"];
+        var versions = ["1.11","1.10","1.10"];
     </script>
 
 

@@ -27,14 +27,15 @@ perl-bignum
       
       
 
-      ``0.51-1``,  ``0.51-0``
+      ``0.64-0``,  ``0.51-1``,  ``0.51-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-math-bigint: 
-   :depends perl-math-bigrat: 
+   :depends perl-carp: ``>=1.22``
+   :depends perl-math-bigint: ``>=1.999825``
+   :depends perl-math-bigrat: ``>=0.2618``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ perl-bignum
 
     <script>
         var package = "perl-bignum";
-        var versions = ["0.51","0.51"];
+        var versions = ["0.64","0.51","0.51"];
     </script>
 
 

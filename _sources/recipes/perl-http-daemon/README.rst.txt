@@ -27,15 +27,17 @@ perl-http-daemon
       
       
 
-      ``6.01-2``,  ``6.01-1``,  ``6.01-0``
+      ``6.13-0``,  ``6.01-2``,  ``6.01-1``,  ``6.01-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-carp: 
    :depends perl-http-date: 
    :depends perl-http-message: 
    :depends perl-lwp-mediatypes: 
+   :depends perl-socket: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +69,7 @@ perl-http-daemon
 
     <script>
         var package = "perl-http-daemon";
-        var versions = ["6.01","6.01","6.01"];
+        var versions = ["6.13","6.01","6.01","6.01"];
     </script>
 
 

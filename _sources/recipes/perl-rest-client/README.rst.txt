@@ -27,7 +27,7 @@ perl-rest-client
       
       
 
-      ``273-1``,  ``273-0``
+      ``281-0``,  ``273-1``,  ``273-0``
 
       
 
@@ -65,7 +65,7 @@ perl-rest-client
 
     <script>
         var package = "perl-rest-client";
-        var versions = ["273","273"];
+        var versions = ["281","273","273"];
     </script>
 
 

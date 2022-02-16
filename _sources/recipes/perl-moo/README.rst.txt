@@ -27,19 +27,19 @@ perl-moo
       
       
 
-      ``2.003004-1``,  ``2.003004-0``,  ``2.001000-2``,  ``2.001000-1``,  ``2.001000-0``,  ``2.000002-1``,  ``2.000002-0``
+      ``2.005004-0``,  ``2.003004-1``,  ``2.003004-0``,  ``2.001000-2``,  ``2.001000-1``,  ``2.001000-0``,  ``2.000002-1``,  ``2.000002-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-class-method-modifiers: 
-   :depends perl-devel-globaldestruction: 
+   :depends perl-carp: 
+   :depends perl-class-method-modifiers: ``>=1.10``
    :depends perl-exporter: 
-   :depends perl-module-runtime: 
    :depends perl-moose: 
-   :depends perl-role-tiny: 
-   :depends perl-sub-quote: 
+   :depends perl-role-tiny: ``>=2.002003``
+   :depends perl-scalar-list-utils: ``>=1.00``
+   :depends perl-sub-quote: ``>=2.006006``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ perl-moo
 
     <script>
         var package = "perl-moo";
-        var versions = ["2.003004","2.003004","2.001000","2.001000","2.001000"];
+        var versions = ["2.005004","2.003004","2.003004","2.001000","2.001000"];
     </script>
 
 

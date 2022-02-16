@@ -27,7 +27,7 @@ perl-bioperl-run
       
       
 
-      ``1.007002-6``,  ``1.007002-5``,  ``1.007002-4``,  ``1.007002-3``,  ``1.006900-2``,  ``1.006900-1``,  ``1.006900-0``
+      ``1.007003-0``,  ``1.007002-6``,  ``1.007002-5``,  ``1.007002-4``,  ``1.007002-3``,  ``1.006900-2``,  ``1.006900-1``,  ``1.006900-0``
 
       
 
@@ -36,6 +36,8 @@ perl-bioperl-run
    :depends perl-bio-samtools: 
    :depends perl-bioperl-core: 
    :depends perl-file-sort: 
+   :depends perl-io-string: 
+   :depends perl-ipc-run: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +69,7 @@ perl-bioperl-run
 
     <script>
         var package = "perl-bioperl-run";
-        var versions = ["1.007002","1.007002","1.007002","1.007002","1.006900"];
+        var versions = ["1.007003","1.007002","1.007002","1.007002","1.007002"];
     </script>
 
 

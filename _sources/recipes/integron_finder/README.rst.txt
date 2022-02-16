@@ -27,7 +27,7 @@ integron_finder
       
       
 
-      ``2.0-0``,  ``2.0rc6-0``
+      ``2.0.1-0``,  ``2.0-0``,  ``2.0rc6-0``
 
       
 
@@ -72,7 +72,7 @@ integron_finder
 
     <script>
         var package = "integron_finder";
-        var versions = ["2.0","2.0rc6"];
+        var versions = ["2.0.1","2.0","2.0rc6"];
     </script>
 
 

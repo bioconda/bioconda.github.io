@@ -27,7 +27,7 @@ methylartist
       
       
 
-      ``1.0.6-0``
+      ``1.1.0-0``,  ``1.0.6-0``
 
       
 
@@ -73,7 +73,7 @@ methylartist
 
     <script>
         var package = "methylartist";
-        var versions = ["1.0.6"];
+        var versions = ["1.1.0","1.0.6"];
     </script>
 
 

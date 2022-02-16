@@ -27,13 +27,15 @@ perl-http-date
       
       
 
-      ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
+      ``6.05-0``,  ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-time-local: 
+   :depends perl-exporter: 
+   :depends perl-time-local: ``>=1.28``
+   :depends perl-timedate: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +67,7 @@ perl-http-date
 
     <script>
         var package = "perl-http-date";
-        var versions = ["6.02","6.02","6.02","6.02","6.02"];
+        var versions = ["6.05","6.02","6.02","6.02","6.02"];
     </script>
 
 

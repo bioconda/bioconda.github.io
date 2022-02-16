@@ -27,14 +27,14 @@ perl-sub-exporter-formethods
       
       
 
-      ``0.100052-2``,  ``0.100052-1``,  ``0.100052-0``
+      ``0.100054-0``,  ``0.100052-2``,  ``0.100052-1``,  ``0.100052-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-scalar-list-utils: 
    :depends perl-sub-exporter: 
-   :depends perl-sub-name: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ perl-sub-exporter-formethods
 
     <script>
         var package = "perl-sub-exporter-formethods";
-        var versions = ["0.100052","0.100052","0.100052"];
+        var versions = ["0.100054","0.100052","0.100052","0.100052"];
     </script>
 
 

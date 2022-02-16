@@ -27,7 +27,7 @@ perl-image-info
       
       
 
-      ``1.38-2``,  ``1.38-1``,  ``1.38-0``
+      ``1.42-0``,  ``1.38-2``,  ``1.38-1``,  ``1.38-0``
 
       
 
@@ -66,7 +66,7 @@ perl-image-info
 
     <script>
         var package = "perl-image-info";
-        var versions = ["1.38","1.38","1.38"];
+        var versions = ["1.42","1.38","1.38","1.38"];
     </script>
 
 

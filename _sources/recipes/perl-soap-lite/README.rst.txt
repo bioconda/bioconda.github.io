@@ -27,7 +27,7 @@ perl-soap-lite
       
       
 
-      ``1.19-2``,  ``1.19-1``,  ``1.19-0``
+      ``1.27-0``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``
 
       
 
@@ -74,7 +74,7 @@ perl-soap-lite
 
     <script>
         var package = "perl-soap-lite";
-        var versions = ["1.19","1.19","1.19"];
+        var versions = ["1.27","1.19","1.19","1.19"];
     </script>
 
 
