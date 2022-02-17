@@ -28,7 +28,7 @@ secedo
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -70,7 +70,7 @@ secedo
 
     <script>
         var package = "secedo";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 

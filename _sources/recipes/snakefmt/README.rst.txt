@@ -28,10 +28,10 @@ snakefmt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.2.6-0</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ snakefmt
       
 
    
-   :depends black: ``>=21.7.b0,<22.0``
-   :depends click: ``>=7.1.2,<8.0.0``
+   :depends black: ``>=22.1.0,<23.0``
+   :depends click: ``>=8.0.0,<9.0.0``
    :depends importlib_metadata: ``>=1.7,<2.0.0``
    :depends python: ``>=3.6``
    :depends toml: ``>=0.10.2,<0.11.0``
@@ -76,7 +76,7 @@ snakefmt
 
     <script>
         var package = "snakefmt";
-        var versions = ["0.5.0","0.4.4","0.4.3","0.4.2","0.4.1"];
+        var versions = ["0.5.0","0.5.0","0.4.4","0.4.3","0.4.2"];
     </script>
 
 
