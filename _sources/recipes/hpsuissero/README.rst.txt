@@ -27,7 +27,7 @@ hpsuissero
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -66,7 +66,7 @@ hpsuissero
 
     <script>
         var package = "hpsuissero";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0"];
     </script>
 
 

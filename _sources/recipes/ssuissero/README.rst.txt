@@ -27,7 +27,7 @@ ssuissero
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -70,7 +70,7 @@ ssuissero
 
     <script>
         var package = "ssuissero";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0"];
     </script>
 
 
