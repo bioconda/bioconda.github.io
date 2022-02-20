@@ -6,7 +6,7 @@
 fiji
 ====
 
-.. conda:recipe:: fiji/20151222
+.. conda:recipe:: fiji/20170530
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ fiji
 
    :homepage: http://fiji.sc
    :license: GNU General Public License
-   :recipe: /`fiji <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji>`_/`20151222 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20151222>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20151222/meta.yaml>`_
+   :recipe: /`fiji <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji>`_/`20170530 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20170530>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20170530/meta.yaml>`_
 
    
 

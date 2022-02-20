@@ -6,7 +6,7 @@
 smallgenomeutilities
 ====================
 
-.. conda:recipe:: smallgenomeutilities/0.3.0
+.. conda:recipe:: smallgenomeutilities/0.2.1
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ smallgenomeutilities
 
    :homepage: https://github.com/cbg-ethz/smallgenomeutilities
    :license: GPL2 / GNU General Public License v2 or later (GPLv2+)
-   :recipe: /`smallgenomeutilities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities>`_/`0.3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.3.0/meta.yaml>`_
+   :recipe: /`smallgenomeutilities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities>`_/`0.2.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1/meta.yaml>`_
 
    
 

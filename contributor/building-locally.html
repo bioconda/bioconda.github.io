@@ -78,8 +78,7 @@
 <li class="toctree-l2"><a class="reference internal" href="setup.html">Initial Setup</a></li>
 <li class="toctree-l2"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Testing Recipes Locally</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#using-the-circle-ci-client">Using the Circle CI Client</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#using-the-bootstrap-method">Using the “Bootstrap” Method</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-bioconda-utils">Using bioconda-utils</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#using-the-debug-method">Using the “Debug” Method</a></li>
 </ul>
 </li>
@@ -126,82 +125,37 @@
             
   <section id="testing-recipes-locally">
 <h1>Testing Recipes Locally<a class="headerlink" href="#testing-recipes-locally" title="Permalink to this headline">¶</a></h1>
-<p>Queue times on CircleCI may sometimes make it more convenient and
+<p>Queue times on Azure DevOps may sometimes make it more convenient and
 faster to work on complex packages locally. There are several ways to
 do so, each with their own caveats.</p>
 <div class="contents local topic" id="contents">
 <ul class="simple">
-<li><p><a class="reference internal" href="#using-the-circle-ci-client" id="id2">Using the Circle CI Client</a></p></li>
-<li><p><a class="reference internal" href="#using-the-bootstrap-method" id="id3">Using the “Bootstrap” Method</a></p></li>
-<li><p><a class="reference internal" href="#using-the-debug-method" id="id4">Using the “Debug” Method</a></p></li>
+<li><p><a class="reference internal" href="#using-bioconda-utils" id="id2">Using bioconda-utils</a></p></li>
+<li><p><a class="reference internal" href="#using-the-debug-method" id="id3">Using the “Debug” Method</a></p></li>
 </ul>
 </div>
-<section id="using-the-circle-ci-client">
-<span id="circleci-client"></span><h2><a class="toc-backref" href="#id2">Using the Circle CI Client</a><a class="headerlink" href="#using-the-circle-ci-client" title="Permalink to this headline">¶</a></h2>
-<p>You can execute an almost exact copy of our Linux build pipeline by
-<a class="reference external" href="https://circleci.com/docs/2.0/local-cli">installing the CircleCI client locally</a> and running it from the
-folder where your copy of <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> resides:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ensure the build container is up-to-date</span>
-<span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="n">env</span><span class="p">:</span><span class="n">latest</span>
+<section id="using-bioconda-utils">
+<span id="bioconda-utils"></span><h2><a class="toc-backref" href="#id2">Using bioconda-utils</a><a class="headerlink" href="#using-bioconda-utils" title="Permalink to this headline">¶</a></h2>
+<p>Whether on a CI node or locally, Bioconda packages are built and tested using <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code>.
+You can install <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally by creating a new conda environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># You can use &quot;conda create&quot; here instead, if you don&#39;t have mamba installed</span>
+<span class="n">mamba</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">bioconda</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="o">-</span><span class="n">c</span> <span class="n">bioconda</span> <span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span>
 
-<span class="c1"># Run the build locally</span>
-<span class="n">circleci</span> <span class="n">build</span>
-</pre></div>
-</div>
-<p>You will have to have “commited” some changes as described above. The
-command will run our build system just as it is run online in a docker
-container. It will detect which recipes where modified using the
-<code class="docutils literal notranslate"><span class="pre">git</span></code> history and proceed with linting and building those.</p>
-<p>Please note that this will only run the Linux build steps.</p>
-<p>You can use Docker volume bind-mounts to capture the local package
-channel with the newly built packages:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">conda</span><span class="o">-</span><span class="n">bld</span>
-<span class="n">circleci</span> <span class="n">build</span> <span class="o">--</span><span class="n">volume</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">conda</span><span class="o">-</span><span class="n">bld</span><span class="p">:</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">conda</span><span class="o">/</span><span class="n">conda</span><span class="o">-</span><span class="n">bld</span>
-</pre></div>
-</div>
-<p>After a successful build, you can then install from the local channel by
-providing the path to it:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">file</span><span class="p">:</span><span class="o">///</span><span class="n">tmp</span><span class="o">/</span><span class="n">conda</span><span class="o">-</span><span class="n">bld</span> <span class="n">your</span><span class="o">-</span><span class="n">package</span>
-</pre></div>
-</div>
-<p>Note that if the package also exists with the same version or a newer
-version in remote channels, then you may need to specify the exact local
-build string in your package spec to ensure your local build is
-installed, e.g.  <code class="docutils literal notranslate"><span class="pre">your-package</span> <span class="pre">==x.y.z</span> <span class="pre">build_string</span></code>.  See
-<a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/package-spec.html" title="(in conda-build v3.21.8+5.g77463386.dirty)"><code class="docutils literal notranslate"><span class="pre">Conda</span> <span class="pre">package</span> <span class="pre">specification</span></code></a> for more details on how to specify
-packages.</p>
-</section>
-<section id="using-the-bootstrap-method">
-<span id="bootstrap"></span><h2><a class="toc-backref" href="#id3">Using the “Bootstrap” Method</a><a class="headerlink" href="#using-the-bootstrap-method" title="Permalink to this headline">¶</a></h2>
-<p>Due to technical limitations of the Circle CI client, the above test does
-<strong>not</strong> run the more stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests. To do so, use the
-following commands:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./bootstrap.py /tmp/miniconda
-<span class="nb">source</span> ~/.config/bioconda/activate
+<span class="n">conda</span> <span class="n">activate</span> <span class="n">bioconda</span>
 
 <span class="c1"># optional linting</span>
-bioconda-utils lint --git-range master
+<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">lint</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span>
 
 <span class="c1"># build and test</span>
-bioconda-utils build --docker --mulled-test --git-range master
+<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">build</span> <span class="o">--</span><span class="n">docker</span> <span class="o">--</span><span class="n">mulled</span><span class="o">-</span><span class="n">test</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span>
 </pre></div>
 </div>
 <p>The above commands do the following:</p>
 <ul class="simple">
+<li><p>Creates a new environment with bioconda-utils.</p></li>
+<li><p>Activates the new environment. You can later just start at <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">activate</span> <span class="pre">bioconda</span></code></p></li>
 <li><dl class="simple">
-<dt>Install a separate miniconda installation in a temporary directory:</dt><dd><ul>
-<li><p>Set up bioconda channels,</p></li>
-<li><p>install bioconda-utils dependencies into the root environment of
-that installation,</p></li>
-<li><p>and write the file <code class="docutils literal notranslate"><span class="pre">~/.config/bioconda/activate</span></code></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p>Source that new file to specifically activate the root environment
-of the new installation</p></li>
-<li><dl class="simple">
-<dt>Run <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> in the new installation:</dt><dd><ul>
+<dt>Run <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> in the new environment:</dt><dd><ul>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">lint</span></code> command will run the lint checks on your recipes</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">build</span></code> command will run the build pipeline</p></li>
 </ul>
@@ -226,16 +180,10 @@ to be included in the build container.</p></li>
 </ul>
 </div>
 <p>If you do not have access to Docker, you can still run the basic test by
-telling the bootstrap setup to not use docker, and by excluding the
-<code class="docutils literal notranslate"><span class="pre">--docker</span></code> and <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> arguments in the last command:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">bootstrap</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">docker</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">miniconda</span>
-<span class="n">source</span> <span class="o">~/.</span><span class="n">config</span><span class="o">/</span><span class="n">bioconda</span><span class="o">/</span><span class="n">activate</span>
-<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">build</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span>
-</pre></div>
-</div>
+omitting the <code class="docutils literal notranslate"><span class="pre">--docker</span></code> and <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> options.</p>
 </section>
 <section id="using-the-debug-method">
-<h2><a class="toc-backref" href="#id4">Using the “Debug” Method</a><a class="headerlink" href="#using-the-debug-method" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Using the “Debug” Method</a><a class="headerlink" href="#using-the-debug-method" title="Permalink to this headline">¶</a></h2>
 <div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
 <ul class="simple">
