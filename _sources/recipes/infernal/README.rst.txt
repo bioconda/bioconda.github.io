@@ -26,13 +26,21 @@ infernal
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+      
 
+      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +72,7 @@ infernal
 
     <script>
         var package = "infernal";
-        var versions = ["1.1.4","1.1.3","1.1.3","1.1.2","1.1.2"];
+        var versions = ["1.1.4","1.1.4","1.1.3","1.1.3","1.1.2"];
     </script>
 
 
