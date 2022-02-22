@@ -29,10 +29,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -51,10 +51,10 @@ poppunk
    :depends h5py: 
    :depends hdbscan: 
    :depends libblas: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgfortran5: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends matplotlib-base: 
    :depends networkx: 
@@ -109,7 +109,7 @@ poppunk
 
     <script>
         var package = "poppunk";
-        var versions = ["2.4.0","2.4.0","2.3.0","2.2.0","2.1.1"];
+        var versions = ["2.4.0","2.4.0","2.4.0","2.3.0","2.2.0"];
     </script>
 
 

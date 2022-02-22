@@ -28,13 +28,13 @@ kronik
       
       
 
-      ``2.20-3``,  ``2.20-2``,  ``2.20-1``,  ``2.20-0``
+      ``2.20-4``,  ``2.20-3``,  ``2.20-2``,  ``2.20-1``,  ``2.20-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ kronik
 
     <script>
         var package = "kronik";
-        var versions = ["2.20","2.20","2.20","2.20"];
+        var versions = ["2.20","2.20","2.20","2.20","2.20"];
     </script>
 
 

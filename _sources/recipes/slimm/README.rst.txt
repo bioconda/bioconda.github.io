@@ -28,15 +28,16 @@ slimm
       
       
 
-      ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``
+      ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends llvm-openmp: ``>=12.0.1``
+   :depends llvm-openmp: ``>=13.0.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -69,7 +70,7 @@ slimm
 
     <script>
         var package = "slimm";
-        var versions = ["0.3.4","0.3.4","0.3.4"];
+        var versions = ["0.3.4","0.3.4","0.3.4","0.3.4"];
     </script>
 
 

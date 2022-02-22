@@ -28,10 +28,10 @@ ococo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.2.7-3</code>,  <code>0.1.2.7-2</code>,  <code>0.1.2.7-1</code>,  <code>0.1.2.7-0</code>,  <code>0.1.2.6-2</code>,  <code>0.1.2.6-1</code>,  <code>0.1.2.6-0</code>,  <code>0.1.2.5-0</code>,  <code>0.1.2.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.2.7-4</code>,  <code>0.1.2.7-3</code>,  <code>0.1.2.7-2</code>,  <code>0.1.2.7-1</code>,  <code>0.1.2.7-0</code>,  <code>0.1.2.6-2</code>,  <code>0.1.2.6-1</code>,  <code>0.1.2.6-0</code>,  <code>0.1.2.5-0</code>,  </span></summary>
       
 
-      ``0.1.2.7-3``,  ``0.1.2.7-2``,  ``0.1.2.7-1``,  ``0.1.2.7-0``,  ``0.1.2.6-2``,  ``0.1.2.6-1``,  ``0.1.2.6-0``,  ``0.1.2.5-0``,  ``0.1.2.4-1``,  ``0.1.2.4-0``
+      ``0.1.2.7-4``,  ``0.1.2.7-3``,  ``0.1.2.7-2``,  ``0.1.2.7-1``,  ``0.1.2.7-0``,  ``0.1.2.6-2``,  ``0.1.2.6-1``,  ``0.1.2.6-0``,  ``0.1.2.5-0``,  ``0.1.2.4-1``,  ``0.1.2.4-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ ococo
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -75,7 +74,7 @@ ococo
 
     <script>
         var package = "ococo";
-        var versions = ["0.1.2.7","0.1.2.7","0.1.2.7","0.1.2.7","0.1.2.6"];
+        var versions = ["0.1.2.7","0.1.2.7","0.1.2.7","0.1.2.7","0.1.2.7"];
     </script>
 
 

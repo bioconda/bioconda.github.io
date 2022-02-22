@@ -27,12 +27,12 @@ sumaclust
       
       
 
-      ``1.0.31-3``,  ``1.0.31-2``,  ``1.0.31-1``,  ``1.0.31-0``
+      ``1.0.31-4``,  ``1.0.31-3``,  ``1.0.31-2``,  ``1.0.31-1``,  ``1.0.31-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ sumaclust
 
     <script>
         var package = "sumaclust";
-        var versions = ["1.0.31","1.0.31","1.0.31","1.0.31"];
+        var versions = ["1.0.31","1.0.31","1.0.31","1.0.31","1.0.31"];
     </script>
 
 

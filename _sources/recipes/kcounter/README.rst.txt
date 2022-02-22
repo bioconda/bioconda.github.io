@@ -27,12 +27,11 @@ kcounter
       
       
 
-      ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
@@ -66,7 +65,7 @@ kcounter
 
     <script>
         var package = "kcounter";
-        var versions = ["0.1.1","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

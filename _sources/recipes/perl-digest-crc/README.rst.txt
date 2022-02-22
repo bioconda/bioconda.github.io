@@ -27,12 +27,11 @@ perl-digest-crc
       
       
 
-      ``0.23-1``,  ``0.23-0``
+      ``0.23-2``,  ``0.23-1``,  ``0.23-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +64,7 @@ perl-digest-crc
 
     <script>
         var package = "perl-digest-crc";
-        var versions = ["0.23","0.23"];
+        var versions = ["0.23","0.23","0.23"];
     </script>
 
 

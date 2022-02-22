@@ -27,14 +27,14 @@ mdasim
       
       
 
-      ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2-0``
+      ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends openmpi: ``>=4.1.0,<5.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends openmpi: ``>=4.1.2,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ mdasim
 
     <script>
         var package = "mdasim";
-        var versions = ["2.1.1","2.1.1","2.1.1","2.1.0","2.0.1"];
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1.1","2.1.0"];
     </script>
 
 

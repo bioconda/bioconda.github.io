@@ -27,16 +27,17 @@ rna-seqc
       
       
 
-      ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``1.1.8-2``,  ``1.1.8-1``
+      ``2.3.5-3``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``1.1.8-2``,  ``1.1.8-1``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends curl: ``>=7.81.0,<8.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -70,7 +71,7 @@ rna-seqc
 
     <script>
         var package = "rna-seqc";
-        var versions = ["2.3.5","2.3.5","2.3.5","2.3.4","2.3.3"];
+        var versions = ["2.3.5","2.3.5","2.3.5","2.3.5","2.3.4"];
     </script>
 
 

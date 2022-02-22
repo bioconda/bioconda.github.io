@@ -28,13 +28,12 @@ gadma
       
       
 
-      ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
+      ``2.0.0rc18-2``,  ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
 
       
 
    
    :depends dadi: 
-   :depends libgcc-ng: ``>=9.4.0``
    :depends matplotlib-base: 
    :depends mpmath: 
    :depends nlopt: ``>=2.7.0,<2.7.1.0a0``
@@ -76,7 +75,7 @@ gadma
 
     <script>
         var package = "gadma";
-        var versions = ["2.0.0rc18","2.0.0rc18","2.0.0rc17","2.0.0rc16"];
+        var versions = ["2.0.0rc18","2.0.0rc18","2.0.0rc18","2.0.0rc17","2.0.0rc16"];
     </script>
 
 

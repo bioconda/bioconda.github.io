@@ -27,13 +27,14 @@ kmer-db
       
       
 
-      ``1.9.2-0``,  ``1.7.6-1``,  ``1.7.6-0``
+      ``1.9.2-1``,  ``1.9.2-0``,  ``1.7.6-1``,  ``1.7.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -66,7 +67,7 @@ kmer-db
 
     <script>
         var package = "kmer-db";
-        var versions = ["1.9.2","1.7.6","1.7.6"];
+        var versions = ["1.9.2","1.9.2","1.7.6","1.7.6"];
     </script>
 
 

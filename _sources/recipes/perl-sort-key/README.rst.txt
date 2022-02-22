@@ -27,12 +27,11 @@ perl-sort-key
       
       
 
-      ``1.33-2``,  ``1.33-1``,  ``1.33-0``
+      ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +64,7 @@ perl-sort-key
 
     <script>
         var package = "perl-sort-key";
-        var versions = ["1.33","1.33","1.33"];
+        var versions = ["1.33","1.33","1.33","1.33"];
     </script>
 
 

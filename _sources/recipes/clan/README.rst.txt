@@ -28,13 +28,13 @@ clan
       
       
 
-      ``0.05-1``,  ``0.05-0``
+      ``0.05-2``,  ``0.05-1``,  ``0.05-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ clan
 
     <script>
         var package = "clan";
-        var versions = ["0.05","0.05"];
+        var versions = ["0.05","0.05","0.05"];
     </script>
 
 

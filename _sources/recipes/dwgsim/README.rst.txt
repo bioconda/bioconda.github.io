@@ -26,15 +26,23 @@ dwgsim
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.13-0``,  ``1.1.11-8``,  ``1.1.11-7``,  ``1.1.11-6``,  ``1.1.11-5``,  ``1.1.11-4``,  ``1.1.11-3``,  ``1.1.11-2``,  ``1.1.11-1``
+         <details><summary><span class="truncated-version-list"><code>1.1.13-1</code>,  <code>1.1.13-0</code>,  <code>1.1.11-8</code>,  <code>1.1.11-7</code>,  <code>1.1.11-6</code>,  <code>1.1.11-5</code>,  <code>1.1.11-4</code>,  <code>1.1.11-3</code>,  <code>1.1.11-2</code>,  </span></summary>
+      
 
+      ``1.1.13-1``,  ``1.1.13-0``,  ``1.1.11-8``,  ``1.1.11-7``,  ``1.1.11-6``,  ``1.1.11-5``,  ``1.1.11-4``,  ``1.1.11-3``,  ``1.1.11-2``,  ``1.1.11-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends ncurses: ``>=6.2,<6.3.0a0``
+   :depends ncurses: ``>=6.3,<7.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +75,7 @@ dwgsim
 
     <script>
         var package = "dwgsim";
-        var versions = ["1.1.13","1.1.11","1.1.11","1.1.11","1.1.11"];
+        var versions = ["1.1.13","1.1.13","1.1.11","1.1.11","1.1.11"];
     </script>
 
 

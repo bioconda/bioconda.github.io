@@ -27,7 +27,7 @@ rosella
       
       
 
-      ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -35,8 +35,8 @@ rosella
    :depends bwa: 
    :depends flight-genome: ``>=1.4.1``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends minimap2: 
    :depends openssl: ``>=1.1.1l,<1.1.2a``
@@ -74,7 +74,7 @@ rosella
 
     <script>
         var package = "rosella";
-        var versions = ["0.4.1","0.3.3","0.3.2","0.3.0","0.2.4"];
+        var versions = ["0.4.1","0.4.1","0.3.3","0.3.2","0.3.0"];
     </script>
 
 

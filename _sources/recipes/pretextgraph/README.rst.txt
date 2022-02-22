@@ -27,13 +27,13 @@ pretextgraph
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ pretextgraph
 
     <script>
         var package = "pretextgraph";
-        var versions = ["0.0.6","0.0.5","0.0.4","0.0.2","0.0.2"];
+        var versions = ["0.0.6","0.0.6","0.0.5","0.0.4","0.0.2"];
     </script>
 
 

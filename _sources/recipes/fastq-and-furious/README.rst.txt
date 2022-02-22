@@ -27,12 +27,12 @@ fastq-and-furious
       
       
 
-      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
@@ -66,7 +66,7 @@ fastq-and-furious
 
     <script>
         var package = "fastq-and-furious";
-        var versions = ["0.3.1","0.3.1","0.3.1","0.3.0","0.2.0"];
+        var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.0"];
     </script>
 
 

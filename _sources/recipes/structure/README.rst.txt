@@ -28,12 +28,11 @@ structure
       
       
 
-      ``2.3.4-3``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``
+      ``2.3.4-4``,  ``2.3.4-3``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ structure
 
     <script>
         var package = "structure";
-        var versions = ["2.3.4","2.3.4","2.3.4","2.3.4"];
+        var versions = ["2.3.4","2.3.4","2.3.4","2.3.4","2.3.4"];
     </script>
 
 

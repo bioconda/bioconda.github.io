@@ -27,13 +27,13 @@ mmquant
       
       
 
-      ``1.0.4-0``
+      ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends make: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -67,7 +67,7 @@ mmquant
 
     <script>
         var package = "mmquant";
-        var versions = ["1.0.4"];
+        var versions = ["1.0.4","1.0.4"];
     </script>
 
 

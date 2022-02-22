@@ -28,7 +28,7 @@ machina
       
       
 
-      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -36,9 +36,8 @@ machina
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends glpk: ``>=4.65,<4.66.0a0``
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +69,7 @@ machina
 
     <script>
         var package = "machina";
-        var versions = ["1.2","1.2","1.2","1.2"];
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
     </script>
 
 

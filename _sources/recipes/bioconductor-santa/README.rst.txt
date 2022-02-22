@@ -26,14 +26,22 @@ bioconductor-santa
    :versions:
       
       
+      .. raw:: html
 
-      ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  </span></summary>
+      
 
+      ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
@@ -69,7 +77,7 @@ bioconductor-santa
 
     <script>
         var package = "bioconductor-santa";
-        var versions = ["2.30.0","2.28.0","2.24.0","2.22.0","2.22.0"];
+        var versions = ["2.30.0","2.30.0","2.28.0","2.24.0","2.22.0"];
     </script>
 
 

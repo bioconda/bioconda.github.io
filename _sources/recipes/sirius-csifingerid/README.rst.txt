@@ -27,13 +27,12 @@ sirius-csifingerid
       
       
 
-      ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+      ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends zlib: 
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ sirius-csifingerid
 
     <script>
         var package = "sirius-csifingerid";
-        var versions = ["4.9.8","4.9.4","4.9.3","4.0.1","4.0.1"];
+        var versions = ["4.9.8","4.9.8","4.9.4","4.9.3","4.0.1"];
     </script>
 
 

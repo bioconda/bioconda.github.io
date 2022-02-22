@@ -28,10 +28,10 @@ pandaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11-5</code>,  <code>2.11-4</code>,  <code>2.11-3</code>,  <code>2.11-2</code>,  <code>2.11-1</code>,  <code>2.10-0</code>,  <code>2.8.1-4</code>,  <code>2.8.1-3</code>,  <code>2.8.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11-6</code>,  <code>2.11-5</code>,  <code>2.11-4</code>,  <code>2.11-3</code>,  <code>2.11-2</code>,  <code>2.11-1</code>,  <code>2.10-0</code>,  <code>2.8.1-5</code>,  <code>2.8.1-4</code>,  </span></summary>
       
 
-      ``2.11-5``,  ``2.11-4``,  ``2.11-3``,  ``2.11-2``,  ``2.11-1``,  ``2.10-0``,  ``2.8.1-4``,  ``2.8.1-3``,  ``2.8.1-2``,  ``2.8.1-1``
+      ``2.11-6``,  ``2.11-5``,  ``2.11-4``,  ``2.11-3``,  ``2.11-2``,  ``2.11-1``,  ``2.10-0``,  ``2.8.1-5``,  ``2.8.1-4``,  ``2.8.1-3``,  ``2.8.1-2``,  ``2.8.1-1``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ pandaseq
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

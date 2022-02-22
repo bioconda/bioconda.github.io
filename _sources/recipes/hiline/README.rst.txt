@@ -28,10 +28,10 @@ hiline
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.4-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.1-0</code>,  <code>0.0.9-3</code>,  <code>0.0.9-2</code>,  <code>0.0.9-1</code>,  <code>0.0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.1-0</code>,  <code>0.0.9-3</code>,  <code>0.0.9-2</code>,  <code>0.0.9-1</code>,  </span></summary>
       
 
-      ``0.2.4-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1-0``,  ``0.0.9-3``,  ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1-0``,  ``0.0.9-3``,  ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -42,14 +42,12 @@ hiline
    
    :depends biopython: ``>=1.76``
    :depends bwa: ``>=0.7.17``
-   :depends bwa-mem2: ``>=2.0``
    :depends click: ``>=7.0``
    :depends gawk: ``>=5.1.0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends matplotlib-base: ``>=3.2.0``
    :depends minimap2: ``>=2.17``
-   :depends numpy: ``>=1.21.2,<2.0a0``
+   :depends numpy: ``>=1.22.2,<2.0a0``
    :depends pandas: ``>=1.0.1``
    :depends pcre: ``>=8.45,<9.0a0``
    :depends perl: ``>=5.30.3``
@@ -88,7 +86,7 @@ hiline
 
     <script>
         var package = "hiline";
-        var versions = ["0.2.4","0.2.2","0.2.2","0.2.1","0.1"];
+        var versions = ["0.2.4","0.2.4","0.2.2","0.2.2","0.2.1"];
     </script>
 
 

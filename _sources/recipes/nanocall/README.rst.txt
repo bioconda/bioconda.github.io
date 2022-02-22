@@ -27,14 +27,15 @@ nanocall
       
       
 
-      ``v0.7.4-3``,  ``v0.7.4-2``,  ``v0.7.4-1``,  ``v0.7.4-0``,  ``v0.6.14-0``,  ``v0.6.13-0``,  ``v0.6.5-0``
+      ``v0.7.4-4``,  ``v0.7.4-3``,  ``v0.7.4-2``,  ``v0.7.4-1``,  ``v0.7.4-0``,  ``v0.6.14-0``,  ``v0.6.13-0``,  ``v0.6.5-0``
 
       
 
    
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +68,7 @@ nanocall
 
     <script>
         var package = "nanocall";
-        var versions = ["v0.7.4","v0.7.4","v0.7.4","v0.7.4","v0.6.14"];
+        var versions = ["v0.7.4","v0.7.4","v0.7.4","v0.7.4","v0.7.4"];
     </script>
 
 

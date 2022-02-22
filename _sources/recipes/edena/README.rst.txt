@@ -28,13 +28,13 @@ edena
       
       
 
-      ``3.131028-3``,  ``3.131028-2``,  ``3.131028-1``,  ``3.131028-0``
+      ``3.131028-4``,  ``3.131028-3``,  ``3.131028-2``,  ``3.131028-1``,  ``3.131028-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ edena
 
     <script>
         var package = "edena";
-        var versions = ["3.131028","3.131028","3.131028","3.131028"];
+        var versions = ["3.131028","3.131028","3.131028","3.131028","3.131028"];
     </script>
 
 

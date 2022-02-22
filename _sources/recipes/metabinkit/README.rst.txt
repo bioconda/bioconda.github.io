@@ -27,9 +27,17 @@ metabinkit
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.2-4</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  </span></summary>
+      
 
+      ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,7 @@ metabinkit
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: ``>=7.81.0,<8.0a0``
    :depends entrez-direct: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
    :depends perl: 
@@ -82,7 +90,7 @@ metabinkit
 
     <script>
         var package = "metabinkit";
-        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.1"];
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.2"];
     </script>
 
 

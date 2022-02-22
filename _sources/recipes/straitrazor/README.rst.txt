@@ -27,13 +27,13 @@ straitrazor
       
       
 
-      ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.1-4``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ straitrazor
 
     <script>
         var package = "straitrazor";
-        var versions = ["3.0.1","3.0.1","3.0.1","3.0.1"];
+        var versions = ["3.0.1","3.0.1","3.0.1","3.0.1","3.0.1"];
     </script>
 
 

@@ -27,13 +27,13 @@ libgenome
       
       
 
-      ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ libgenome
 
     <script>
         var package = "libgenome";
-        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.1"];
     </script>
 
 

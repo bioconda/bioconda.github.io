@@ -27,14 +27,13 @@ deeptoolsintervals
       
       
 
-      ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ deeptoolsintervals
 
     <script>
         var package = "deeptoolsintervals";
-        var versions = ["0.1.9","0.1.9","0.1.9","0.1.9","0.1.8"];
+        var versions = ["0.1.9","0.1.9","0.1.9","0.1.9","0.1.9"];
     </script>
 
 

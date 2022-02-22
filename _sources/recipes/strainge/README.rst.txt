@@ -27,7 +27,7 @@ strainge
       
       
 
-      ``1.2-0``
+      ``1.2-1``,  ``1.2-0``
 
       
 
@@ -35,8 +35,7 @@ strainge
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends h5py: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.17.5,<2.0a0``
@@ -79,7 +78,7 @@ strainge
 
     <script>
         var package = "strainge";
-        var versions = ["1.2"];
+        var versions = ["1.2","1.2"];
     </script>
 
 

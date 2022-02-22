@@ -27,18 +27,26 @@ hhsuite
    :versions:
       
       
+      .. raw:: html
 
-      ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-2</code>,  <code>3.3.0-1</code>,  <code>3.3.0-0</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
+      
 
+      ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends llvm-openmp: ``>=12.0.1``
+   :depends llvm-openmp: ``>=13.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    .. rubric:: Installation

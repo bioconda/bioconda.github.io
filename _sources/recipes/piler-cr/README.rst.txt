@@ -27,13 +27,12 @@ piler-cr
       
       
 
-      ``1.06-1``,  ``1.06-0``
+      ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ piler-cr
 
     <script>
         var package = "piler-cr";
-        var versions = ["1.06","1.06"];
+        var versions = ["1.06","1.06","1.06"];
     </script>
 
 

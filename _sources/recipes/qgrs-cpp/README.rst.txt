@@ -28,13 +28,12 @@ qgrs-cpp
       
       
 
-      ``1.0-1``,  ``1.0-0``,  ``0.0.2017.08.25-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.0.2017.08.25-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ qgrs-cpp
 
     <script>
         var package = "qgrs-cpp";
-        var versions = ["1.0","1.0","0.0.2017.08.25"];
+        var versions = ["1.0","1.0","1.0","0.0.2017.08.25"];
     </script>
 
 

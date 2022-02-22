@@ -27,7 +27,7 @@ metaplatanus
       
       
 
-      ``1.3.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``
 
       
 
@@ -35,8 +35,9 @@ metaplatanus
    :depends bwa: ``>=0.7.17``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gzip: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends metabat2: ``>=2.12.1``
    :depends minimap2: ``>=2.17``
    :depends openmp: 
@@ -78,7 +79,7 @@ metaplatanus
 
     <script>
         var package = "metaplatanus";
-        var versions = ["1.3.0"];
+        var versions = ["1.3.0","1.3.0"];
     </script>
 
 

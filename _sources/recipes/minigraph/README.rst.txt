@@ -28,13 +28,13 @@ minigraph
       
       
 
-      ``0.15-0``
+      ``0.16-0``,  ``0.15-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ minigraph
 
     <script>
         var package = "minigraph";
-        var versions = ["0.15"];
+        var versions = ["0.16","0.15"];
     </script>
 
 

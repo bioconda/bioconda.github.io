@@ -27,14 +27,14 @@ prinseq-plus-plus
       
       
 
-      ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
 
    
    :depends boost-cpp: ``>=1.77.0,<1.77.1.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends pthread-stubs: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -68,7 +68,7 @@ prinseq-plus-plus
 
     <script>
         var package = "prinseq-plus-plus";
-        var versions = ["1.2.4","1.2.3","1.2.3"];
+        var versions = ["1.2.4","1.2.4","1.2.3","1.2.3"];
     </script>
 
 

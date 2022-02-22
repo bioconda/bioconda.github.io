@@ -27,13 +27,12 @@ hifiasm_meta
       
       
 
-      ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
+      ``hamtv0.2.2-1``,  ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -67,7 +66,7 @@ hifiasm_meta
 
     <script>
         var package = "hifiasm_meta";
-        var versions = ["hamtv0.2.2","hamtv0.2","hamtv0.1","hamtv0.1"];
+        var versions = ["hamtv0.2.2","hamtv0.2.2","hamtv0.2","hamtv0.1","hamtv0.1"];
     </script>
 
 
