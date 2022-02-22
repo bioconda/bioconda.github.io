@@ -27,12 +27,12 @@ smafa
       
       
 
-      ``0.5.0-1``,  ``0.5.0-0``
+      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ smafa
 
     <script>
         var package = "smafa";
-        var versions = ["0.5.0","0.5.0"];
+        var versions = ["0.5.0","0.5.0","0.5.0"];
     </script>
 
 

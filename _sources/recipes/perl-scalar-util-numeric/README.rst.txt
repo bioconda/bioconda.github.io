@@ -27,12 +27,12 @@ perl-scalar-util-numeric
       
       
 
-      ``0.40-2``,  ``0.40-1``,  ``0.40-0``
+      ``0.40-3``,  ``0.40-2``,  ``0.40-1``,  ``0.40-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-scalar-util-numeric
 
     <script>
         var package = "perl-scalar-util-numeric";
-        var versions = ["0.40","0.40","0.40"];
+        var versions = ["0.40","0.40","0.40","0.40"];
     </script>
 
 

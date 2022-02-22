@@ -30,14 +30,14 @@ control-freec
       
       
 
-      ``11.6-1``,  ``11.6-0``,  ``11.5-1``,  ``11.5-0``,  ``11.4-0``,  ``10.6-0``,  ``10.5-0``
+      ``11.6-2``,  ``11.6-1``,  ``11.6-0``,  ``11.5-1``,  ``11.5-0``,  ``11.4-0``,  ``10.6-0``,  ``10.5-0``
 
       
 
    
    :depends bioconductor-rtracklayer: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: 
    :depends r-base: 
    :depends samtools: 
@@ -72,7 +72,7 @@ control-freec
 
     <script>
         var package = "control-freec";
-        var versions = ["11.6","11.6","11.5","11.5","11.4"];
+        var versions = ["11.6","11.6","11.6","11.5","11.5"];
     </script>
 
 

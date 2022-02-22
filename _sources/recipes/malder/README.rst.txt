@@ -28,7 +28,7 @@ malder
       
       
 
-      ``1.0.1e83d4e-3``,  ``1.0.1e83d4e-2``,  ``1.0.1e83d4e-1``,  ``1.0.1e83d4e-0``
+      ``1.0.1e83d4e-4``,  ``1.0.1e83d4e-3``,  ``1.0.1e83d4e-2``,  ``1.0.1e83d4e-1``,  ``1.0.1e83d4e-0``
 
       
 
@@ -38,10 +38,10 @@ malder
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends liblapacke: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ malder
 
     <script>
         var package = "malder";
-        var versions = ["1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e"];
+        var versions = ["1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e"];
     </script>
 
 

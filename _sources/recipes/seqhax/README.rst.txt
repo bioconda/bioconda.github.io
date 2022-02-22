@@ -27,13 +27,14 @@ seqhax
       
       
 
-      ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``
+      ``0.7.2-3``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -66,7 +67,7 @@ seqhax
 
     <script>
         var package = "seqhax";
-        var versions = ["0.7.2","0.7.2","0.7.2"];
+        var versions = ["0.7.2","0.7.2","0.7.2","0.7.2"];
     </script>
 
 

@@ -27,13 +27,13 @@ famseq
       
       
 
-      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ famseq
 
     <script>
         var package = "famseq";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

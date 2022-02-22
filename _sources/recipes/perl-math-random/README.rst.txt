@@ -27,12 +27,12 @@ perl-math-random
       
       
 
-      ``0.72-3``,  ``0.72-2``,  ``0.72-1``,  ``0.72-0``
+      ``0.72-4``,  ``0.72-3``,  ``0.72-2``,  ``0.72-1``,  ``0.72-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-math-random
 
     <script>
         var package = "perl-math-random";
-        var versions = ["0.72","0.72","0.72","0.72"];
+        var versions = ["0.72","0.72","0.72","0.72","0.72"];
     </script>
 
 

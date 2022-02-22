@@ -27,14 +27,13 @@ fastv
       
       
 
-      ``0.8.1-1``,  ``0.8.1-0``
+      ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ fastv
 
     <script>
         var package = "fastv";
-        var versions = ["0.8.1","0.8.1"];
+        var versions = ["0.8.1","0.8.1","0.8.1"];
     </script>
 
 

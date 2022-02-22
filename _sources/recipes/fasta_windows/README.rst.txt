@@ -27,12 +27,12 @@ fasta_windows
       
       
 
-      ``0.2.2-0``
+      ``0.2.2-1``,  ``0.2.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ fasta_windows
 
     <script>
         var package = "fasta_windows";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.2","0.2.2"];
     </script>
 
 

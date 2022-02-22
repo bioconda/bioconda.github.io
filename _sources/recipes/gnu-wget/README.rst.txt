@@ -27,15 +27,16 @@ gnu-wget
       
       
 
-      ``1.18-5``,  ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
+      ``1.18-6``,  ``1.18-5``,  ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libidn2: ``>=2,<3.0a0``
    :depends libunistring: ``>=0,<1.0a0``
-   :depends openssl: ``>=1.0.2n,<1.0.3a``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends openssl: ``1.0.2n.*``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

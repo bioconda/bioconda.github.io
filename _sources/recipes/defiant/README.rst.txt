@@ -27,14 +27,14 @@ defiant
       
       
 
-      ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``
+      ``1.1.4-3``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends mpc: ``>=1.1.0,<2.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends mpc: ``>=1.2.1,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ defiant
 
     <script>
         var package = "defiant";
-        var versions = ["1.1.4","1.1.4","1.1.4"];
+        var versions = ["1.1.4","1.1.4","1.1.4","1.1.4"];
     </script>
 
 

@@ -27,14 +27,14 @@ heinz
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ heinz
 
     <script>
         var package = "heinz";
-        var versions = ["2.0.1","2.0.1","2.0","2.0","2.0"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0","2.0"];
     </script>
 
 

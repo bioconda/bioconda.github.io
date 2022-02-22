@@ -27,18 +27,20 @@ rlpipes
       
       
 
-      ``0.9.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``
 
       
 
    
    :depends click: 
+   :depends graphviz: 
    :depends pandas: ``1.2.0``
    :depends pyfastx: 
-   :depends pysam: 
+   :depends pygraphviz: 
+   :depends pysam: ``>=0.17.0``
    :depends pysradb: 
    :depends python: 
-   :depends snakemake-minimal: ``6.4.0``
+   :depends snakemake-minimal: ``>=5.20.1,<=6.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +72,7 @@ rlpipes
 
     <script>
         var package = "rlpipes";
-        var versions = ["0.9.0"];
+        var versions = ["0.9.1","0.9.0"];
     </script>
 
 

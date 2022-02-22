@@ -27,15 +27,14 @@ r-gmwt
       
       
 
-      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clinfun: 
    :depends r-rcpp: ``>=0.9.13``
@@ -71,7 +70,7 @@ r-gmwt
 
     <script>
         var package = "r-gmwt";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

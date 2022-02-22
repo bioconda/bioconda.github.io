@@ -28,12 +28,12 @@ bicseq2-norm
       
       
 
-      ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``
+      ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: 
    :depends r-base: 
    :requirements:
@@ -67,7 +67,7 @@ bicseq2-norm
 
     <script>
         var package = "bicseq2-norm";
-        var versions = ["0.2.4","0.2.4","0.2.4"];
+        var versions = ["0.2.4","0.2.4","0.2.4","0.2.4"];
     </script>
 
 

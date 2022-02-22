@@ -28,10 +28,10 @@ samblaster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.26-1</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.24-3</code>,  <code>0.1.24-2</code>,  <code>0.1.24-1</code>,  <code>0.1.24-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.26-2</code>,  <code>0.1.26-1</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.24-3</code>,  <code>0.1.24-2</code>,  <code>0.1.24-1</code>,  <code>0.1.24-0</code>,  <code>0.1.23-0</code>,  </span></summary>
       
 
-      ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-3``,  ``0.1.24-2``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.20-1``,  ``0.1.20-0``
+      ``0.1.26-2``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-3``,  ``0.1.24-2``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.20-2``,  ``0.1.20-1``,  ``0.1.20-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ samblaster
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ samblaster
 
     <script>
         var package = "samblaster";
-        var versions = ["0.1.26","0.1.26","0.1.25","0.1.24","0.1.24"];
+        var versions = ["0.1.26","0.1.26","0.1.26","0.1.25","0.1.24"];
     </script>
 
 

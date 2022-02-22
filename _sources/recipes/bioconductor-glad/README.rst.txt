@@ -26,17 +26,25 @@ bioconductor-glad
    :versions:
       
       
+      .. raw:: html
 
-      ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.58.0-2</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  </span></summary>
+      
 
+      ``2.58.0-2``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-aws: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -70,7 +78,7 @@ bioconductor-glad
 
     <script>
         var package = "bioconductor-glad";
-        var versions = ["2.58.0","2.58.0","2.56.0","2.54.0","2.54.0"];
+        var versions = ["2.58.0","2.58.0","2.58.0","2.56.0","2.54.0"];
     </script>
 
 

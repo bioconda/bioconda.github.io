@@ -27,13 +27,13 @@ clonalframeml
       
       
 
-      ``1.12-1``,  ``1.12-0``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
+      ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ clonalframeml
 
     <script>
         var package = "clonalframeml";
-        var versions = ["1.12","1.12","1.11","1.11","1.11"];
+        var versions = ["1.12","1.12","1.12","1.11","1.11"];
     </script>
 
 

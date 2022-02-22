@@ -28,10 +28,10 @@ bcftools-snvphyl-plugin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9-5</code>,  <code>1.9-4</code>,  <code>1.9-3</code>,  <code>1.9-2</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  <code>1.8-2</code>,  <code>1.8-0</code>,  <code>1.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9-6</code>,  <code>1.9-5</code>,  <code>1.9-4</code>,  <code>1.9-3</code>,  <code>1.9-2</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  <code>1.8-2</code>,  <code>1.8-0</code>,  </span></summary>
       
 
-      ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-2``,  ``1.8-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-0``
+      ``1.9-6``,  ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-2``,  ``1.8-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ bcftools-snvphyl-plugin
    :depends bcftools: ``1.9.*``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: ``>=7.81.0,<8.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends xz: ``>=5.2.5,<5.3.0a0``

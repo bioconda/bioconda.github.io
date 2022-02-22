@@ -27,12 +27,12 @@ clearcut
       
       
 
-      ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``
+      ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ clearcut
 
     <script>
         var package = "clearcut";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9"];
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.9"];
     </script>
 
 

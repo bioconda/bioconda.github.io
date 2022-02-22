@@ -28,10 +28,10 @@ perl-net-ssleay
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.92-0</code>,  <code>1.88-1</code>,  <code>1.88-0</code>,  <code>1.86-0</code>,  <code>1.85-0</code>,  <code>1.84-1</code>,  <code>1.84-0</code>,  <code>1.74-1</code>,  <code>1.74-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.92-1</code>,  <code>1.92-0</code>,  <code>1.88-1</code>,  <code>1.88-0</code>,  <code>1.86-0</code>,  <code>1.85-0</code>,  <code>1.84-1</code>,  <code>1.84-0</code>,  <code>1.74-1</code>,  </span></summary>
       
 
-      ``1.92-0``,  ``1.88-1``,  ``1.88-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84-1``,  ``1.84-0``,  ``1.74-1``,  ``1.74-0``,  ``1.72-0``
+      ``1.92-1``,  ``1.92-0``,  ``1.88-1``,  ``1.88-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84-1``,  ``1.84-0``,  ``1.74-1``,  ``1.74-0``,  ``1.72-0``
 
       
       .. raw:: html
@@ -40,7 +40,6 @@ perl-net-ssleay
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -77,7 +76,7 @@ perl-net-ssleay
 
     <script>
         var package = "perl-net-ssleay";
-        var versions = ["1.92","1.88","1.88","1.86","1.85"];
+        var versions = ["1.92","1.92","1.88","1.88","1.86"];
     </script>
 
 

@@ -27,14 +27,13 @@ tpmcalculator
       
       
 
-      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ tpmcalculator
 
     <script>
         var package = "tpmcalculator";
-        var versions = ["0.0.4","0.0.4","0.0.3","0.0.3"];
+        var versions = ["0.0.4","0.0.4","0.0.4","0.0.3","0.0.3"];
     </script>
 
 

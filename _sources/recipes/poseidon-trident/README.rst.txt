@@ -27,13 +27,13 @@ poseidon-trident
       
       
 
-      ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
+      ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
 
       
 
    
    :depends gmp: ``>=6.2.1,<7.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -67,7 +67,7 @@ poseidon-trident
 
     <script>
         var package = "poseidon-trident";
-        var versions = ["0.26.1","0.21.0","0.18.1"];
+        var versions = ["0.26.1","0.26.1","0.21.0","0.18.1"];
     </script>
 
 

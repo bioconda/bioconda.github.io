@@ -27,14 +27,14 @@ velvet-sc
       
       
 
-      ``0.7.62-4``,  ``0.7.62-3``,  ``0.7.62-2``,  ``0.7.62-1``,  ``0.7.62-0``
+      ``0.7.62-5``,  ``0.7.62-4``,  ``0.7.62-3``,  ``0.7.62-2``,  ``0.7.62-1``,  ``0.7.62-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

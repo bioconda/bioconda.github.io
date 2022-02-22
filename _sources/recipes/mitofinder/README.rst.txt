@@ -27,7 +27,7 @@ mitofinder
       
       
 
-      ``1.4.1-0``,  ``1.4-0``
+      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``
 
       
 
@@ -35,12 +35,11 @@ mitofinder
    :depends biopython: 
    :depends blast: 
    :depends idba: 
-   :depends libgcc-ng: ``>=9.4.0``
    :depends megahit: 
    :depends openjdk: 
    :depends pandas: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends spades: 
    :depends trnascan-se: 
    :requirements:
@@ -74,7 +73,7 @@ mitofinder
 
     <script>
         var package = "mitofinder";
-        var versions = ["1.4.1","1.4"];
+        var versions = ["1.4.1","1.4.1","1.4"];
     </script>
 
 

@@ -28,7 +28,7 @@ mapseq
       
       
 
-      ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``
+      ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``
 
       
 
@@ -36,11 +36,10 @@ mapseq
    :depends blis: 
    :depends curl: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends libopenblas: ``>=0.3.18,<1.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends ncurses: ``>=6.2,<6.3.0a0``
+   :depends ncurses: ``>=6.3,<7.0a0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends readline: ``>=8.1,<9.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -75,7 +74,7 @@ mapseq
 
     <script>
         var package = "mapseq";
-        var versions = ["1.2.6","1.2.6","1.2.6"];
+        var versions = ["1.2.6","1.2.6","1.2.6","1.2.6"];
     </script>
 
 

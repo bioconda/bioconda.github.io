@@ -28,13 +28,13 @@ deploid
       
       
 
-      ``0.5-1``,  ``0.5-0``,  ``v0.5-1``,  ``v0.5-0``
+      ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``v0.5-1``,  ``v0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ deploid
 
     <script>
         var package = "deploid";
-        var versions = ["0.5","0.5","v0.5","v0.5"];
+        var versions = ["0.5","0.5","0.5","v0.5","v0.5"];
     </script>
 
 

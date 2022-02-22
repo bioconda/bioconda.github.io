@@ -27,14 +27,13 @@ simba_pbg
       
       
 
-      ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends attrs: ``>=18.2``
    :depends h5py: ``>=2.8``
-   :depends libgcc-ng: ``>=9.4.0``
    :depends numpy: ``>=1.12``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -71,7 +70,7 @@ simba_pbg
 
     <script>
         var package = "simba_pbg";
-        var versions = ["1.1","1.0","1.0"];
+        var versions = ["1.1","1.1","1.0","1.0"];
     </script>
 
 

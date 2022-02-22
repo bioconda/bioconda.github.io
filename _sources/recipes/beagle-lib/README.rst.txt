@@ -28,10 +28,10 @@ beagle-lib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.2-3</code>,  <code>3.1.2-2</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-0</code>,  <code>2.1.2-7</code>,  <code>2.1.2-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.2-4</code>,  <code>3.1.2-3</code>,  <code>3.1.2-2</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-0</code>,  <code>2.1.2-7</code>,  </span></summary>
       
 
-      ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``2.1.2-7``,  ``2.1.2-6``,  ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+      ``3.1.2-4``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``2.1.2-7``,  ``2.1.2-6``,  ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ beagle-lib
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends libtool: 
    :depends openjdk: 
    :requirements:
@@ -75,7 +74,7 @@ beagle-lib
 
     <script>
         var package = "beagle-lib";
-        var versions = ["3.1.2","3.1.2","3.1.2","3.1.2","3.1.1"];
+        var versions = ["3.1.2","3.1.2","3.1.2","3.1.2","3.1.2"];
     </script>
 
 

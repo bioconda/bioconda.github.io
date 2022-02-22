@@ -27,13 +27,13 @@ perl-file-remove
       
       
 
-      ``1.57-2``,  ``1.57-1``,  ``1.57-0``
+      ``1.57-3``,  ``1.57-2``,  ``1.57-1``,  ``1.57-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libcxx: ``>=12.0.1``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-file-spec: 
    :depends perl-test-more: 
    :requirements:
@@ -67,7 +67,7 @@ perl-file-remove
 
     <script>
         var package = "perl-file-remove";
-        var versions = ["1.57","1.57","1.57"];
+        var versions = ["1.57","1.57","1.57","1.57"];
     </script>
 
 

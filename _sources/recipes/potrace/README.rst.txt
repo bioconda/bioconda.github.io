@@ -27,12 +27,13 @@ potrace
       
       
 
-      ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
+      ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -65,7 +66,7 @@ potrace
 
     <script>
         var package = "potrace";
-        var versions = ["1.11","1.11","1.11","1.11"];
+        var versions = ["1.11","1.11","1.11","1.11","1.11"];
     </script>
 
 

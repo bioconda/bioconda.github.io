@@ -29,10 +29,10 @@ comet-ms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2021010-0</code>,  <code>2019015-0</code>,  <code>2019014-0</code>,  <code>2019013-0</code>,  <code>2019012-0</code>,  <code>2019011-0</code>,  <code>2019010-0</code>,  <code>2018014-0</code>,  <code>2018013-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2021010-1</code>,  <code>2021010-0</code>,  <code>2019015-0</code>,  <code>2019014-0</code>,  <code>2019013-0</code>,  <code>2019012-0</code>,  <code>2019011-0</code>,  <code>2019010-0</code>,  <code>2018014-0</code>,  </span></summary>
       
 
-      ``2021010-0``,  ``2019015-0``,  ``2019014-0``,  ``2019013-0``,  ``2019012-0``,  ``2019011-0``,  ``2019010-0``,  ``2018014-0``,  ``2018013-0``,  ``2018012-1``,  ``2018012-0``,  ``2016013-3``,  ``2016013-2``,  ``2016013-1``
+      ``2021010-1``,  ``2021010-0``,  ``2019015-0``,  ``2019014-0``,  ``2019013-0``,  ``2019012-0``,  ``2019011-0``,  ``2019010-0``,  ``2018014-0``,  ``2018013-0``,  ``2018012-1``,  ``2018012-0``,  ``2016013-4``,  ``2016013-3``,  ``2016013-2``,  ``2016013-1``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ comet-ms
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ comet-ms
 
     <script>
         var package = "comet-ms";
-        var versions = ["2021010","2019015","2019014","2019013","2019012"];
+        var versions = ["2021010","2021010","2019015","2019014","2019013"];
     </script>
 
 

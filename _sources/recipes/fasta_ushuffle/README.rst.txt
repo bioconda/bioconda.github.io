@@ -27,12 +27,11 @@ fasta_ushuffle
       
       
 
-      ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.2-4``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +63,7 @@ fasta_ushuffle
 
     <script>
         var package = "fasta_ushuffle";
-        var versions = ["0.2","0.2","0.2","0.2"];
+        var versions = ["0.2","0.2","0.2","0.2","0.2"];
     </script>
 
 

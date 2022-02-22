@@ -27,7 +27,7 @@ forgi
       
       
 
-      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0-2``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0-2``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -36,8 +36,8 @@ forgi
    :depends beautifulsoup4: ``>=4.6``
    :depends biopython: ``>=1.70``
    :depends future: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends logging_exceptions: ``>=0.1.6``
    :depends matplotlib-base: ``>=2``
    :depends networkx: ``>=2.0``
@@ -77,7 +77,7 @@ forgi
 
     <script>
         var package = "forgi";
-        var versions = ["2.1.1","2.1.0","2.0.3","2.0.3","2.0"];
+        var versions = ["2.1.1","2.1.1","2.1.0","2.0.3","2.0.3"];
     </script>
 
 

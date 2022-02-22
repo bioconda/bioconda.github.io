@@ -28,14 +28,14 @@ encode-blacklist
       
       
 
-      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ encode-blacklist
 
     <script>
         var package = "encode-blacklist";
-        var versions = ["2.0","2.0","2.0"];
+        var versions = ["2.0","2.0","2.0","2.0"];
     </script>
 
 

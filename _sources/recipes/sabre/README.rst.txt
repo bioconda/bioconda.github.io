@@ -42,12 +42,13 @@ sabre
       
       
 
-      ``1.000-2``,  ``1.000-1``,  ``1.000-0``
+      ``1.000-3``,  ``1.000-2``,  ``1.000-1``,  ``1.000-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -80,7 +81,7 @@ sabre
 
     <script>
         var package = "sabre";
-        var versions = ["1.000","1.000","1.000"];
+        var versions = ["1.000","1.000","1.000","1.000"];
     </script>
 
 

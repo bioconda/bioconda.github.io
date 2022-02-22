@@ -27,12 +27,12 @@ igblast-parser
       
       
 
-      ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.6,<3.7.0a0``
@@ -68,7 +68,7 @@ igblast-parser
 
     <script>
         var package = "igblast-parser";
-        var versions = ["0.0.4","0.0.4","0.0.4","0.0.3"];
+        var versions = ["0.0.4","0.0.4","0.0.4","0.0.4","0.0.3"];
     </script>
 
 

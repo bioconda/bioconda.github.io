@@ -27,7 +27,7 @@ komb
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-0``
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-0``
 
       
 
@@ -37,8 +37,9 @@ komb
    :depends bowtie2: ``>=2.3.5.1``
    :depends igraph: ``0.8.*``
    :depends igraph: ``>=0.8.3,<0.9.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -73,7 +74,7 @@ komb
 
     <script>
         var package = "komb";
-        var versions = ["1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0"];
     </script>
 
 

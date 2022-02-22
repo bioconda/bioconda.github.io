@@ -27,12 +27,12 @@ pyseq-align
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
@@ -66,7 +66,7 @@ pyseq-align
 
     <script>
         var package = "pyseq-align";
-        var versions = ["1.0.2","1.0.1"];
+        var versions = ["1.0.2","1.0.2","1.0.1"];
     </script>
 
 

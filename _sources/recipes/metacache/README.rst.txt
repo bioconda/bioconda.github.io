@@ -27,14 +27,14 @@ metacache
       
       
 
-      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+      ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
 
       
 
    
    :depends gawk: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: ``<3``
    :depends wget: 
@@ -69,7 +69,7 @@ metacache
 
     <script>
         var package = "metacache";
-        var versions = ["2.2.1","2.2.0","2.1.1","2.1.0","2.0.1"];
+        var versions = ["2.2.1","2.2.1","2.2.0","2.1.1","2.1.0"];
     </script>
 
 

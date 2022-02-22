@@ -27,13 +27,13 @@ bwapy
       
       
 
-      ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.4-4``,  ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
    :depends cffi: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -68,7 +68,7 @@ bwapy
 
     <script>
         var package = "bwapy";
-        var versions = ["0.1.4","0.1.4","0.1.4","0.1.4"];
+        var versions = ["0.1.4","0.1.4","0.1.4","0.1.4","0.1.4"];
     </script>
 
 

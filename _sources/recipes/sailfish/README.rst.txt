@@ -26,17 +26,26 @@ sailfish
    :versions:
       
       
+      .. raw:: html
 
-      ``0.10.1-5``,  ``0.10.1-4``,  ``0.10.1-3``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.6-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.1-6</code>,  <code>0.10.1-5</code>,  <code>0.10.1-4</code>,  <code>0.10.1-3</code>,  <code>0.10.1-2</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  </span></summary>
+      
 
+      ``0.10.1-6``,  ``0.10.1-5``,  ``0.10.1-4``,  ``0.10.1-3``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends icu: ``>=68.1,<69.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends icu: ``>=69.1,<70.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends tbb: ``>=2020.2,<2021.0.0a0``
    :requirements:
 

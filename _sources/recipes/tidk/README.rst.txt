@@ -27,13 +27,13 @@ tidk
       
       
 
-      ``0.1.5-0``
+      ``0.1.5-1``,  ``0.1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ tidk
 
     <script>
         var package = "tidk";
-        var versions = ["0.1.5"];
+        var versions = ["0.1.5","0.1.5"];
     </script>
 
 

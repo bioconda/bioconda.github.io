@@ -28,7 +28,7 @@ deltapd
       
       
 
-      ``0.1.5-1``,  ``0.1.5-0``
+      ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
@@ -36,8 +36,7 @@ deltapd
    :depends dendropy: 
    :depends ete3: 
    :depends jinja2: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.17.5,<2.0a0``
    :depends phylodm: 
@@ -76,7 +75,7 @@ deltapd
 
     <script>
         var package = "deltapd";
-        var versions = ["0.1.5","0.1.5"];
+        var versions = ["0.1.5","0.1.5","0.1.5"];
     </script>
 
 

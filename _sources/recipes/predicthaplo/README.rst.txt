@@ -28,15 +28,15 @@ predicthaplo
       
       
 
-      ``2.1.4-1``,  ``2.1.4-0``
+      ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``
 
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ predicthaplo
 
     <script>
         var package = "predicthaplo";
-        var versions = ["2.1.4","2.1.4"];
+        var versions = ["2.1.4","2.1.4","2.1.4"];
     </script>
 
 

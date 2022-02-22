@@ -27,14 +27,15 @@ fqtrim
       
       
 
-      ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+      ``0.9.7-4``,  ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
 
       
 
    
    :depends gclib: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +68,7 @@ fqtrim
 
     <script>
         var package = "fqtrim";
-        var versions = ["0.9.7","0.9.7","0.9.7","0.9.7"];
+        var versions = ["0.9.7","0.9.7","0.9.7","0.9.7","0.9.7"];
     </script>
 
 

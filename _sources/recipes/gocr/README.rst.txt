@@ -27,12 +27,11 @@ gocr
       
       
 
-      ``0.50-3``,  ``0.50-2``,  ``0.50-1``,  ``0.50-0``
+      ``0.50-4``,  ``0.50-3``,  ``0.50-2``,  ``0.50-1``,  ``0.50-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +63,7 @@ gocr
 
     <script>
         var package = "gocr";
-        var versions = ["0.50","0.50","0.50","0.50"];
+        var versions = ["0.50","0.50","0.50","0.50","0.50"];
     </script>
 
 

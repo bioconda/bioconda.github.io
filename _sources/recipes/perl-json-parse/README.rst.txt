@@ -27,13 +27,12 @@ perl-json-parse
       
       
 
-      ``0.61-0``,  ``0.55-2``,  ``0.55-1``,  ``0.55-0``,  ``0.49-1``,  ``0.49-0``
+      ``0.61-1``,  ``0.61-0``,  ``0.55-2``,  ``0.55-1``,  ``0.55-0``,  ``0.49-1``,  ``0.49-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :requirements:
@@ -67,7 +66,7 @@ perl-json-parse
 
     <script>
         var package = "perl-json-parse";
-        var versions = ["0.61","0.55","0.55","0.55","0.49"];
+        var versions = ["0.61","0.61","0.55","0.55","0.55"];
     </script>
 
 

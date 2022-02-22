@@ -27,17 +27,25 @@ treemix
    :versions:
       
       
+      .. raw:: html
 
-      ``1.13-4``,  ``1.13-3``,  ``1.13-2``,  ``1.13-1``,  ``1.13-0``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``
+         <details><summary><span class="truncated-version-list"><code>1.13-5</code>,  <code>1.13-4</code>,  <code>1.13-3</code>,  <code>1.13-2</code>,  <code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.12-3</code>,  <code>1.12-2</code>,  <code>1.12-1</code>,  </span></summary>
+      
 
+      ``1.13-5``,  ``1.13-4``,  ``1.13-3``,  ``1.13-2``,  ``1.13-1``,  ``1.13-0``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends r-base: ``>=3.6``
    :depends r-rcolorbrewer: 

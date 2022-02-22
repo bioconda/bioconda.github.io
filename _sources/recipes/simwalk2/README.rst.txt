@@ -27,14 +27,14 @@ simwalk2
       
       
 
-      ``2.91-3``,  ``2.91-2``,  ``2.91-1``,  ``2.91-0``
+      ``2.91-4``,  ``2.91-3``,  ``2.91-2``,  ``2.91-1``,  ``2.91-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgfortran5: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ simwalk2
 
     <script>
         var package = "simwalk2";
-        var versions = ["2.91","2.91","2.91","2.91"];
+        var versions = ["2.91","2.91","2.91","2.91","2.91"];
     </script>
 
 

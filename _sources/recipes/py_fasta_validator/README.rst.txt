@@ -28,13 +28,13 @@ py_fasta_validator
       
       
 
-      ``0.5-1``,  ``0.5-0``
+      ``0.5-2``,  ``0.5-1``,  ``0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends setuptools: ``>=38.6.0``
@@ -70,7 +70,7 @@ py_fasta_validator
 
     <script>
         var package = "py_fasta_validator";
-        var versions = ["0.5","0.5"];
+        var versions = ["0.5","0.5","0.5"];
     </script>
 
 

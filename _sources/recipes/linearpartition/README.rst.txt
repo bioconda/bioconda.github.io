@@ -27,13 +27,13 @@ linearpartition
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -71,7 +71,7 @@ linearpartition
 
     <script>
         var package = "linearpartition";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

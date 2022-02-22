@@ -27,12 +27,12 @@ perl-set-object
       
       
 
-      ``1.42-0``
+      ``1.42-1``,  ``1.42-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-set-object
 
     <script>
         var package = "perl-set-object";
-        var versions = ["1.42"];
+        var versions = ["1.42","1.42"];
     </script>
 
 

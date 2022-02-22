@@ -28,13 +28,13 @@ famsa
       
       
 
-      ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.12-0``,  ``1.3.2-0``,  ``1.2.5-0``
+      ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.12-0``,  ``1.3.2-0``,  ``1.2.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ famsa
 
     <script>
         var package = "famsa";
-        var versions = ["1.6.2","1.6.2","1.6.1","1.5.12","1.3.2"];
+        var versions = ["1.6.2","1.6.2","1.6.2","1.6.1","1.5.12"];
     </script>
 
 

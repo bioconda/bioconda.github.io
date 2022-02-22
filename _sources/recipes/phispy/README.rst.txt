@@ -32,10 +32,10 @@ phispy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.21-0</code>,  <code>4.2.19-0</code>,  <code>4.2.17-0</code>,  <code>4.2.12-0</code>,  <code>4.2.6-1</code>,  <code>4.2.6-0</code>,  <code>4.1.22-0</code>,  <code>4.1.20-0</code>,  <code>4.1.17-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.21-1</code>,  <code>4.2.21-0</code>,  <code>4.2.19-0</code>,  <code>4.2.17-0</code>,  <code>4.2.12-0</code>,  <code>4.2.6-1</code>,  <code>4.2.6-0</code>,  <code>4.1.22-0</code>,  <code>4.1.20-0</code>,  </span></summary>
       
 
-      ``4.2.21-0``,  ``4.2.19-0``,  ``4.2.17-0``,  ``4.2.12-0``,  ``4.2.6-1``,  ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
+      ``4.2.21-1``,  ``4.2.21-0``,  ``4.2.19-0``,  ``4.2.17-0``,  ``4.2.12-0``,  ``4.2.6-1``,  ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
 
       
       .. raw:: html
@@ -47,8 +47,8 @@ phispy
    :depends bcbio-gff: 
    :depends biopython: 
    :depends hmmer: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends numpy: 
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``
@@ -84,7 +84,7 @@ phispy
 
     <script>
         var package = "phispy";
-        var versions = ["4.2.21","4.2.19","4.2.17","4.2.12","4.2.6"];
+        var versions = ["4.2.21","4.2.21","4.2.19","4.2.17","4.2.12"];
     </script>
 
 

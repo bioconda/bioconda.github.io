@@ -27,14 +27,13 @@ pysvmlight
       
       
 
-      ``0.4-4``,  ``0.4-3``,  ``0.4-2``,  ``0.4-1``
+      ``0.4-5``,  ``0.4-4``,  ``0.4-3``,  ``0.4-2``,  ``0.4-1``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ pysvmlight
 
     <script>
         var package = "pysvmlight";
-        var versions = ["0.4","0.4","0.4","0.4"];
+        var versions = ["0.4","0.4","0.4","0.4","0.4"];
     </script>
 
 

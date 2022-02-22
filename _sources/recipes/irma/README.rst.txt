@@ -27,7 +27,7 @@ irma
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -37,7 +37,7 @@ irma
    :depends minimap2: ``>=2.17``
    :depends muscle: ``>=3.8.1551``
    :depends parallel: ``>=20181022``
-   :depends perl: ``>=5.22.2.1,<5.22.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends pigz: ``>=2.3.4``
    :depends r-base: ``>=3.5.1``
    :depends samtools: ``>=1.2``
@@ -73,7 +73,7 @@ irma
 
     <script>
         var package = "irma";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.2","1.0.2"];
     </script>
 
 

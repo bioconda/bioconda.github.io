@@ -26,9 +26,17 @@ maxbin2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.7-4</code>,  <code>2.2.7-3</code>,  <code>2.2.7-2</code>,  <code>2.2.7-1</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  <code>2.2.1-1</code>,  </span></summary>
+      
 
+      ``2.2.7-4``,  ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,8 +44,8 @@ maxbin2
    :depends fraggenescan: ``>=1.30``
    :depends hmmer: 
    :depends idba: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``5.26.*``
    :depends perl-lwp-simple: 
    :depends r-base: 
@@ -74,7 +82,7 @@ maxbin2
 
     <script>
         var package = "maxbin2";
-        var versions = ["2.2.7","2.2.7","2.2.7","2.2.7","2.2.6"];
+        var versions = ["2.2.7","2.2.7","2.2.7","2.2.7","2.2.7"];
     </script>
 
 

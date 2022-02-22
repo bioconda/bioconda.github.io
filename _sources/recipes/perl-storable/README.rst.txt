@@ -27,12 +27,12 @@ perl-storable
       
       
 
-      ``3.15-2``,  ``3.15-0``,  ``3.11-0``
+      ``3.15-3``,  ``3.15-2``,  ``3.15-0``,  ``3.11-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-storable
 
     <script>
         var package = "perl-storable";
-        var versions = ["3.15","3.15","3.11"];
+        var versions = ["3.15","3.15","3.15","3.11"];
     </script>
 
 

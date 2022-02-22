@@ -27,12 +27,12 @@ minimap2-coverage
       
       
 
-      ``1.2.0c-0``
+      ``1.2.0c-1``,  ``1.2.0c-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -66,7 +66,7 @@ minimap2-coverage
 
     <script>
         var package = "minimap2-coverage";
-        var versions = ["1.2.0c"];
+        var versions = ["1.2.0c","1.2.0c"];
     </script>
 
 

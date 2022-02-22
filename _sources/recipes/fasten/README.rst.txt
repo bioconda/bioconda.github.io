@@ -27,12 +27,12 @@ fasten
       
       
 
-      ``0.2.2-0``,  ``0.1.13-2``,  ``0.1.13-1``,  ``0.1.13-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.13-2``,  ``0.1.13-1``,  ``0.1.13-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ fasten
 
     <script>
         var package = "fasten";
-        var versions = ["0.2.2","0.1.13","0.1.13","0.1.13"];
+        var versions = ["0.2.2","0.2.2","0.1.13","0.1.13","0.1.13"];
     </script>
 
 

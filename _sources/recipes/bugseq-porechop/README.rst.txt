@@ -27,13 +27,12 @@ bugseq-porechop
       
       
 
-      ``0.3.4pre-1``,  ``0.3.4pre-0``
+      ``0.3.4pre-2``,  ``0.3.4pre-1``,  ``0.3.4pre-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
@@ -67,7 +66,7 @@ bugseq-porechop
 
     <script>
         var package = "bugseq-porechop";
-        var versions = ["0.3.4pre","0.3.4pre"];
+        var versions = ["0.3.4pre","0.3.4pre","0.3.4pre"];
     </script>
 
 
