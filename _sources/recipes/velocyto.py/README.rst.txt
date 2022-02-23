@@ -28,15 +28,15 @@ velocyto.py
       
       
 
-      ``0.17.17-4``,  ``0.17.17-3``,  ``0.17.17-2``,  ``0.17.17-1``,  ``0.17.17-0``
+      ``0.17.17-5``,  ``0.17.17-4``,  ``0.17.17-3``,  ``0.17.17-2``,  ``0.17.17-1``,  ``0.17.17-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends click: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends llvm-openmp: ``>=12.0.1``
+   :depends llvm-openmp: ``>=13.0.1``
    :depends loompy: 
    :depends matplotlib-base: 
    :depends numba: 

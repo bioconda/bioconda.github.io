@@ -27,13 +27,14 @@ lordfast
       
       
 
-      ``0.0.10-2``,  ``0.0.10-1``,  ``0.0.10-0``,  ``0.0.9-0``
+      ``0.0.10-3``,  ``0.0.10-2``,  ``0.0.10-1``,  ``0.0.10-0``,  ``0.0.9-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -66,7 +67,7 @@ lordfast
 
     <script>
         var package = "lordfast";
-        var versions = ["0.0.10","0.0.10","0.0.10","0.0.9"];
+        var versions = ["0.0.10","0.0.10","0.0.10","0.0.10","0.0.9"];
     </script>
 
 

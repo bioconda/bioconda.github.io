@@ -30,10 +30,10 @@ sra-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.0-2</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.9-0</code>,  <code>2.10.8-0</code>,  <code>2.10.7-2</code>,  <code>2.10.7-1</code>,  <code>2.10.7-0</code>,  <code>2.10.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11.0-3</code>,  <code>2.11.0-2</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.9-0</code>,  <code>2.10.8-0</code>,  <code>2.10.7-2</code>,  <code>2.10.7-1</code>,  <code>2.10.7-0</code>,  </span></summary>
       
 
-      ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-2``,  ``2.10.7-1``,  ``2.10.7-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.1_1-0``,  ``2.9.1-0``,  ``2.9.0-1``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``
+      ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-2``,  ``2.10.7-1``,  ``2.10.7-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.1_1-0``,  ``2.9.1-0``,  ``2.9.0-1``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ sra-tools
    :depends ca-certificates: 
    :depends curl: 
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libxml2: ``>=2.9.12,<2.10.0a0``
    :depends ncbi-ngs-sdk: 
    :depends ossuuid: 
@@ -84,7 +84,7 @@ sra-tools
 
     <script>
         var package = "sra-tools";
-        var versions = ["2.11.0","2.11.0","2.11.0","2.10.9","2.10.8"];
+        var versions = ["2.11.0","2.11.0","2.11.0","2.11.0","2.10.9"];
     </script>
 
 

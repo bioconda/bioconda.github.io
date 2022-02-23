@@ -28,10 +28,10 @@ cgat-apps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.6-0</code>,  </span></summary>
       
 
-      ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
       .. raw:: html
@@ -49,8 +49,8 @@ cgat-apps
    :depends grep: 
    :depends htslib: ``>=1.14,<1.15.0a0``
    :depends jinja2: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -100,7 +100,7 @@ cgat-apps
 
     <script>
         var package = "cgat-apps";
-        var versions = ["0.6.5","0.6.5","0.6.4","0.6.4","0.6.0"];
+        var versions = ["0.6.5","0.6.5","0.6.5","0.6.4","0.6.4"];
     </script>
 
 

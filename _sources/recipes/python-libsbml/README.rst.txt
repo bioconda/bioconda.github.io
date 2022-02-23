@@ -28,15 +28,15 @@ python-libsbml
       
       
 
-      ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``,  ``5.12.0-2``,  ``5.12.0-1``,  ``5.12.0-0``
+      ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``,  ``5.12.0-2``,  ``5.12.0-1``,  ``5.12.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends libxml2: ``>=2.9.10,<2.10.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libxml2: ``>=2.9.12,<2.10.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
@@ -70,7 +70,7 @@ python-libsbml
 
     <script>
         var package = "python-libsbml";
-        var versions = ["5.18.0","5.18.0","5.18.0","5.18.0","5.12.0"];
+        var versions = ["5.18.0","5.18.0","5.18.0","5.18.0","5.18.0"];
     </script>
 
 

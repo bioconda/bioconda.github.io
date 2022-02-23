@@ -28,10 +28,10 @@ miniasm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3_r179-2</code>,  <code>0.3_r179-1</code>,  <code>0.3_r179-0</code>,  <code>0.2-0</code>,  <code>0.2_r168-3</code>,  <code>0.2_r168-2</code>,  <code>0.2_r168-1</code>,  <code>0.2_r168-0</code>,  <code>0.2_r159-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3_r179-3</code>,  <code>0.3_r179-2</code>,  <code>0.3_r179-1</code>,  <code>0.3_r179-0</code>,  <code>0.2-0</code>,  <code>0.2_r168-3</code>,  <code>0.2_r168-2</code>,  <code>0.2_r168-1</code>,  <code>0.2_r168-0</code>,  </span></summary>
       
 
-      ``0.3_r179-2``,  ``0.3_r179-1``,  ``0.3_r179-0``,  ``0.2-0``,  ``0.2_r168-3``,  ``0.2_r168-2``,  ``0.2_r168-1``,  ``0.2_r168-0``,  ``0.2_r159-0``,  ``0.2_r137-0``
+      ``0.3_r179-3``,  ``0.3_r179-2``,  ``0.3_r179-1``,  ``0.3_r179-0``,  ``0.2-0``,  ``0.2_r168-3``,  ``0.2_r168-2``,  ``0.2_r168-1``,  ``0.2_r168-0``,  ``0.2_r159-0``,  ``0.2_r137-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ miniasm
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -73,7 +73,7 @@ miniasm
 
     <script>
         var package = "miniasm";
-        var versions = ["0.3_r179","0.3_r179","0.3_r179","0.2","0.2_r168"];
+        var versions = ["0.3_r179","0.3_r179","0.3_r179","0.3_r179","0.2"];
     </script>
 
 

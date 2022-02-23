@@ -27,7 +27,7 @@ grafimo
       
       
 
-      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.0.1-0``
+      ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
 
@@ -35,7 +35,7 @@ grafimo
    :depends colorama: 
    :depends graphviz: 
    :depends htslib: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numba: ``>=0.47,<1``
    :depends numpy: ``>=1.17.5,<2.0a0``
    :depends pandas: ``>=1.3.1,<2.0a0``
@@ -74,7 +74,7 @@ grafimo
 
     <script>
         var package = "grafimo";
-        var versions = ["1.1.4","1.1.4","1.1.3","1.1.3","1.1.1"];
+        var versions = ["1.1.4","1.1.4","1.1.4","1.1.3","1.1.3"];
     </script>
 
 

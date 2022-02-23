@@ -27,12 +27,12 @@ codonw
       
       
 
-      ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
+      ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ codonw
 
     <script>
         var package = "codonw";
-        var versions = ["1.4.4","1.4.4","1.4.4","1.4.4"];
+        var versions = ["1.4.4","1.4.4","1.4.4","1.4.4","1.4.4"];
     </script>
 
 

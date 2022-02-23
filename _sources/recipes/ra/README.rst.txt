@@ -27,13 +27,13 @@ ra
       
       
 
-      ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.2.1-0``
+      ``0.9-4``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ ra
 
     <script>
         var package = "ra";
-        var versions = ["0.9","0.9","0.9","0.9","0.2.1"];
+        var versions = ["0.9","0.9","0.9","0.9","0.9"];
     </script>
 
 

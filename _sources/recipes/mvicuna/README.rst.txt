@@ -32,9 +32,9 @@ mvicuna
       
 
    
-   :depends libcxx: ``>=12.0.1``
-   :depends llvm-openmp: ``>=12.0.1``
-   :depends llvm-openmp: ``>=13.0.1``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

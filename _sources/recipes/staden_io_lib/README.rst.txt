@@ -26,16 +26,24 @@ staden_io_lib
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.14-2``,  ``1.14.14-1``,  ``1.14.14-0``,  ``1.14.13-1``,  ``1.14.13-0``,  ``1.14.12-1``,  ``1.14.12-0``,  ``1.14.11-1``,  ``1.14.11-0``
+         <details><summary><span class="truncated-version-list"><code>1.14.14-3</code>,  <code>1.14.14-2</code>,  <code>1.14.14-1</code>,  <code>1.14.14-0</code>,  <code>1.14.13-1</code>,  <code>1.14.13-0</code>,  <code>1.14.12-1</code>,  <code>1.14.12-0</code>,  <code>1.14.11-1</code>,  </span></summary>
+      
 
+      ``1.14.14-3``,  ``1.14.14-2``,  ``1.14.14-1``,  ``1.14.14-0``,  ``1.14.13-1``,  ``1.14.13-0``,  ``1.14.12-1``,  ``1.14.12-0``,  ``1.14.11-1``,  ``1.14.11-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: ``>=7.81.0,<8.0a0``
-   :depends libdeflate: ``>=1.9,<1.10.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libdeflate: ``>=1.10,<1.11.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -70,7 +78,7 @@ staden_io_lib
 
     <script>
         var package = "staden_io_lib";
-        var versions = ["1.14.14","1.14.14","1.14.14","1.14.13","1.14.13"];
+        var versions = ["1.14.14","1.14.14","1.14.14","1.14.14","1.14.13"];
     </script>
 
 

@@ -27,13 +27,13 @@ ideas
       
       
 
-      ``1.20-3``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``
+      ``1.20-4``,  ``1.20-3``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends mkl: 
    :requirements:
 
@@ -66,7 +66,7 @@ ideas
 
     <script>
         var package = "ideas";
-        var versions = ["1.20","1.20","1.20","1.20"];
+        var versions = ["1.20","1.20","1.20","1.20","1.20"];
     </script>
 
 

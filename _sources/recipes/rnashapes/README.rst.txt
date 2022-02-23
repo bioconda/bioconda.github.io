@@ -29,10 +29,10 @@ rnashapes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-0</code>,  <code>2.1.6-4</code>,  <code>2.1.6-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.0-7</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-0</code>,  </span></summary>
       
 
-      ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+      ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.0-7``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ rnashapes
 
    
    :depends bellmans-gapc: ``>=2021.04.28``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -76,7 +76,7 @@ rnashapes
 
     <script>
         var package = "rnashapes";
-        var versions = ["3.3.2","3.3.2","3.3.0","3.3.0","3.3.0"];
+        var versions = ["3.3.2","3.3.2","3.3.2","3.3.0","3.3.0"];
     </script>
 
 

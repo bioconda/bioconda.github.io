@@ -33,6 +33,7 @@ bicseq2-seg
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: 
    :depends r-base: 
    :requirements:

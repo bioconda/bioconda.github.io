@@ -29,14 +29,15 @@ seqan_tcoffee
       
       
 
-      ``1.13.8-1``,  ``1.13.8-0``,  ``1.13.3-2``,  ``1.13.3-1``,  ``1.13.3-0``
+      ``1.13.8-2``,  ``1.13.8-1``,  ``1.13.8-0``,  ``1.13.3-2``,  ``1.13.3-1``,  ``1.13.3-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -69,7 +70,7 @@ seqan_tcoffee
 
     <script>
         var package = "seqan_tcoffee";
-        var versions = ["1.13.8","1.13.8","1.13.3","1.13.3","1.13.3"];
+        var versions = ["1.13.8","1.13.8","1.13.8","1.13.3","1.13.3"];
     </script>
 
 

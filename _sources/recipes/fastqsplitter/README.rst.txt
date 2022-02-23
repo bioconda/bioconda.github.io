@@ -29,12 +29,12 @@ fastqsplitter
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends pigz: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -70,7 +70,7 @@ fastqsplitter
 
     <script>
         var package = "fastqsplitter";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.1.0","1.1.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0","1.1.0"];
     </script>
 
 

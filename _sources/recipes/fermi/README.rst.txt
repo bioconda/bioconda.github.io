@@ -27,12 +27,12 @@ fermi
       
       
 
-      ``1.1_r751_beta-5``,  ``1.1_r751_beta-4``,  ``1.1_r751_beta-3``,  ``1.1_r751_beta-2``,  ``1.1_r751_beta-1``,  ``1.1_r751_beta-0``
+      ``1.1_r751_beta-6``,  ``1.1_r751_beta-5``,  ``1.1_r751_beta-4``,  ``1.1_r751_beta-3``,  ``1.1_r751_beta-2``,  ``1.1_r751_beta-1``,  ``1.1_r751_beta-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

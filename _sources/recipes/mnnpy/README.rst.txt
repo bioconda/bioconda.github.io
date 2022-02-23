@@ -27,14 +27,14 @@ mnnpy
       
       
 
-      ``0.1.9.5-2``,  ``0.1.9.5-1``,  ``0.1.9.5-0``
+      ``0.1.9.5-3``,  ``0.1.9.5-2``,  ``0.1.9.5-1``,  ``0.1.9.5-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends anndata: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numba: 
    :depends numpy: 
    :depends pandas: 
@@ -72,7 +72,7 @@ mnnpy
 
     <script>
         var package = "mnnpy";
-        var versions = ["0.1.9.5","0.1.9.5","0.1.9.5"];
+        var versions = ["0.1.9.5","0.1.9.5","0.1.9.5","0.1.9.5"];
     </script>
 
 

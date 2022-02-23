@@ -41,9 +41,10 @@ kraken2
       
 
    
+   :depends _openmp_mutex: ``* *_gnu``
    :depends blast: 
-   :depends libcxx: ``>=12.0.1``
-   :depends llvm-openmp: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends rsync: 
    :depends tar: 

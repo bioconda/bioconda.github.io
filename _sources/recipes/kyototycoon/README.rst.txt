@@ -27,15 +27,15 @@ kyototycoon
       
       
 
-      ``20170410-1``,  ``20170410-0``,  ``2017.04.10-3``,  ``2017.04.10-2``,  ``2017.04.10-1``
+      ``20170410-2``,  ``20170410-1``,  ``20170410-0``,  ``2017.04.10-3``,  ``2017.04.10-2``,  ``2017.04.10-1``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends lzo: ``>=2.10,<3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ kyototycoon
 
     <script>
         var package = "kyototycoon";
-        var versions = ["20170410","20170410","2017.04.10","2017.04.10","2017.04.10"];
+        var versions = ["20170410","20170410","20170410","2017.04.10","2017.04.10"];
     </script>
 
 

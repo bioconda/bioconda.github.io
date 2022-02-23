@@ -27,12 +27,12 @@ smudgeplot_rn
       
       
 
-      ``0.2.5_RN-2``,  ``0.2.5_RN-1``,  ``0.2.5_RN-0``,  ``0.2.4_RN-0``
+      ``0.2.5_RN-3``,  ``0.2.5_RN-2``,  ``0.2.5_RN-1``,  ``0.2.5_RN-0``,  ``0.2.4_RN-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends r-argparse: 
@@ -70,7 +70,7 @@ smudgeplot_rn
 
     <script>
         var package = "smudgeplot_rn";
-        var versions = ["0.2.5_RN","0.2.5_RN","0.2.5_RN","0.2.4_RN"];
+        var versions = ["0.2.5_RN","0.2.5_RN","0.2.5_RN","0.2.5_RN","0.2.4_RN"];
     </script>
 
 

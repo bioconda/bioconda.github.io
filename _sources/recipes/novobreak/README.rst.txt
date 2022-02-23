@@ -27,13 +27,14 @@ novobreak
       
       
 
-      ``1.1.3rc-7``,  ``1.1.3rc-6``,  ``1.1.3rc-5``,  ``1.1.3rc-4``,  ``1.1.3rc-3``,  ``1.1.3rc-2``,  ``1.1.3rc-1``,  ``1.1.3rc-0``
+      ``1.1.3rc-8``,  ``1.1.3rc-7``,  ``1.1.3rc-6``,  ``1.1.3rc-5``,  ``1.1.3rc-4``,  ``1.1.3rc-3``,  ``1.1.3rc-2``,  ``1.1.3rc-1``,  ``1.1.3rc-0``
 
       
 
    
    :depends bwa: ``>=0.7.10``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: 
    :depends samtools: ``1.*``
    :depends ssake: 

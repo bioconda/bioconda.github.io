@@ -27,12 +27,12 @@ dascrubber
       
       
 
-      ``0.0.1a2-3``,  ``0.0.1a2-2``,  ``0.0.1a2-1``,  ``0.0.1a2-0``,  ``0.0.1a1-0``
+      ``0.0.1a2-4``,  ``0.0.1a2-3``,  ``0.0.1a2-2``,  ``0.0.1a2-1``,  ``0.0.1a2-0``,  ``0.0.1a1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ dascrubber
 
     <script>
         var package = "dascrubber";
-        var versions = ["0.0.1a2","0.0.1a2","0.0.1a2","0.0.1a2","0.0.1a1"];
+        var versions = ["0.0.1a2","0.0.1a2","0.0.1a2","0.0.1a2","0.0.1a2"];
     </script>
 
 

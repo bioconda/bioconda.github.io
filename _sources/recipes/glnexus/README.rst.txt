@@ -27,15 +27,15 @@ glnexus
       
       
 
-      ``1.4.1-0``
+      ``1.4.1-1``,  ``1.4.1-0``
 
       
 
    
    :depends glib: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libglib: ``>=2.68.4,<3.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libglib: ``>=2.70.2,<3.0a0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ glnexus
 
     <script>
         var package = "glnexus";
-        var versions = ["1.4.1"];
+        var versions = ["1.4.1","1.4.1"];
     </script>
 
 

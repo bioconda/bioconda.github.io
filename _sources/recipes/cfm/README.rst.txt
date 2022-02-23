@@ -27,17 +27,17 @@ cfm
       
       
 
-      ``33-2``,  ``33-1``,  ``33-0``
+      ``33-3``,  ``33-2``,  ``33-1``,  ``33-0``
 
       
 
    
    :depends boost-cpp: ``>=1.68.0,<1.68.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblbfgs: ``>=1.10,<1.11.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends lp_solve: ``5.5.*``
-   :depends mpich: ``>=3.4.1,<4.0a0``
+   :depends mpich: ``>=3.4.3,<4.0a0``
    :depends rdkit: ``2018.09.1``
    :requirements:
 
@@ -70,7 +70,7 @@ cfm
 
     <script>
         var package = "cfm";
-        var versions = ["33","33","33"];
+        var versions = ["33","33","33","33"];
     </script>
 
 
