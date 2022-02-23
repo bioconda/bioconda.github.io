@@ -27,14 +27,14 @@ abra2
       
       
 
-      ``2.24-0``,  ``2.23-1``,  ``2.23-0``,  ``2.22-0``,  ``2.20-0``
+      ``2.24-1``,  ``2.24-0``,  ``2.23-1``,  ``2.23-0``,  ``2.22-0``,  ``2.20-0``
 
       
 
    
    :depends coreutils: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends openjdk: ``>=8``
    :requirements:
 
@@ -67,7 +67,7 @@ abra2
 
     <script>
         var package = "abra2";
-        var versions = ["2.24","2.23","2.23","2.22","2.20"];
+        var versions = ["2.24","2.24","2.23","2.23","2.22"];
     </script>
 
 

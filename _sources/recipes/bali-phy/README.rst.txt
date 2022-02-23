@@ -29,7 +29,7 @@ bali-phy
       
       
 
-      ``3.6.0-0``
+      ``3.6.0-1``,  ``3.6.0-0``
 
       
 
@@ -39,12 +39,12 @@ bali-phy
    :depends eigen: ``>=3.3.7``
    :depends glib: 
    :depends gnuplot: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libglib: ``>=2.68.1,<3.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libglib: ``>=2.70.2,<3.0a0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends pandoc: 
    :depends perl: 
-   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends r-base: 
    :requirements:
 
@@ -77,7 +77,7 @@ bali-phy
 
     <script>
         var package = "bali-phy";
-        var versions = ["3.6.0"];
+        var versions = ["3.6.0","3.6.0"];
     </script>
 
 

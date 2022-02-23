@@ -27,13 +27,13 @@ gb_taxonomy_tools
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ gb_taxonomy_tools
 
     <script>
         var package = "gb_taxonomy_tools";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

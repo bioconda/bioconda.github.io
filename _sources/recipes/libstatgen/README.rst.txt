@@ -28,13 +28,14 @@ libstatgen
       
       
 
-      ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.5-0``
+      ``1.0.15-2``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +68,7 @@ libstatgen
 
     <script>
         var package = "libstatgen";
-        var versions = ["1.0.15","1.0.15","1.0.14","1.0.14","1.0.5"];
+        var versions = ["1.0.15","1.0.15","1.0.15","1.0.14","1.0.14"];
     </script>
 
 

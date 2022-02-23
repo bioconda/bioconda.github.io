@@ -27,7 +27,7 @@ samwell
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -35,7 +35,6 @@ samwell
    :depends attrs: ``>=19.3.0``
    :depends cython: 
    :depends defopt: ``>=6.0``
-   :depends libgcc-ng: ``>=9.4.0``
    :depends mypy_extensions: ``>=0.4.3``
    :depends pybedlite: ``>=0.0.1``
    :depends pysam: ``>=0.15.3``
@@ -74,7 +73,7 @@ samwell
 
     <script>
         var package = "samwell";
-        var versions = ["0.0.3","0.0.2"];
+        var versions = ["0.0.3","0.0.3","0.0.2"];
     </script>
 
 

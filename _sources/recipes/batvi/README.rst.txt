@@ -35,7 +35,8 @@ batvi
    :depends bedtools: 
    :depends blast: 
    :depends bwa: 
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openjdk: 
    :depends picard: 

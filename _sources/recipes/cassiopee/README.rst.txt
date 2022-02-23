@@ -27,7 +27,7 @@ cassiopee
       
       
 
-      ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+      ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
 
       
 
@@ -35,9 +35,8 @@ cassiopee
    :depends boost: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends glog: ``>=0.5.0,<0.6.0a0``
-   :depends icu: ``>=68.2,<69.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends icu: ``>=69.1,<70.0a0``
+   :depends libcxx: ``>=12.0.1``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -71,7 +70,7 @@ cassiopee
 
     <script>
         var package = "cassiopee";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.5","1.0.5"];
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.5"];
     </script>
 
 

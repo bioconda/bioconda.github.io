@@ -34,6 +34,7 @@ pblat
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

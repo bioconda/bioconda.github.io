@@ -27,9 +27,17 @@ bioconductor-msnid
    :versions:
       
       
+      .. raw:: html
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.12.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.1-0</code>,  </span></summary>
+      
 
+      ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.12.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -45,9 +53,9 @@ bioconductor-msnid
    :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
    :depends bioconductor-protgenerics: ``>=1.26.0,<1.27.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -95,7 +103,7 @@ bioconductor-msnid
 
     <script>
         var package = "bioconductor-msnid";
-        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.22.0"];
+        var versions = ["1.28.0","1.28.0","1.26.0","1.24.0","1.24.0"];
     </script>
 
 

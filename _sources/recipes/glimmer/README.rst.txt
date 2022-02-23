@@ -28,13 +28,13 @@ glimmer
       
       
 
-      ``3.02-5``,  ``3.02-4``,  ``3.02-3``,  ``3.02-2``,  ``3.02-1``,  ``3.02-0``
+      ``3.02-6``,  ``3.02-5``,  ``3.02-4``,  ``3.02-3``,  ``3.02-2``,  ``3.02-1``,  ``3.02-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

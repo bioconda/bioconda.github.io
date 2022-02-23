@@ -27,12 +27,12 @@ ssu-align
       
       
 
-      ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: 
    :requirements:
 
@@ -65,7 +65,7 @@ ssu-align
 
     <script>
         var package = "ssu-align";
-        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1","0.1.1"];
     </script>
 
 

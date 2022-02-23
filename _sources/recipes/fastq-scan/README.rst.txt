@@ -28,10 +28,10 @@ fastq-scan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ fastq-scan
 
    
    :depends jq: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ fastq-scan
 
     <script>
         var package = "fastq-scan";
-        var versions = ["1.0.0","0.4.4","0.4.4","0.4.3","0.4.3"];
+        var versions = ["1.0.0","1.0.0","0.4.4","0.4.4","0.4.3"];
     </script>
 
 

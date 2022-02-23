@@ -27,13 +27,13 @@ grep
       
       
 
-      ``3.4-1``,  ``3.4-0``,  ``2.14-3``,  ``2.14-2``,  ``2.14-1``,  ``2.14-0``
+      ``3.4-2``,  ``3.4-1``,  ``3.4-0``,  ``2.14-3``,  ``2.14-2``,  ``2.14-1``,  ``2.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends pcre: ``>=8.44,<9.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ grep
 
     <script>
         var package = "grep";
-        var versions = ["3.4","3.4","2.14","2.14","2.14"];
+        var versions = ["3.4","3.4","3.4","2.14","2.14"];
     </script>
 
 

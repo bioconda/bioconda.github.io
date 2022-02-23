@@ -27,13 +27,13 @@ qfilt
       
       
 
-      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ qfilt
 
     <script>
         var package = "qfilt";
-        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

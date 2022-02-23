@@ -27,20 +27,19 @@ meta-sparse
       
       
 
-      ``0.1.12-3``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
+      ``0.1.12-4``,  ``0.1.12-3``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
 
       
 
    
    :depends bowtie2: 
-   :depends libgcc-ng: ``>=9.3.0``
    :depends mash: 
    :depends msgpack-python: 
    :depends numpy: 
    :depends pandas: 
    :depends pycapnp: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: 
    :depends scipy: 
    :requirements:
@@ -74,7 +73,7 @@ meta-sparse
 
     <script>
         var package = "meta-sparse";
-        var versions = ["0.1.12","0.1.12","0.1.12","0.1.12","0.1.11"];
+        var versions = ["0.1.12","0.1.12","0.1.12","0.1.12","0.1.12"];
     </script>
 
 

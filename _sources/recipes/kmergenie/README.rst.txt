@@ -27,14 +27,22 @@ kmergenie
    :versions:
       
       
+      .. raw:: html
 
-      ``1.7051-2``,  ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
+         <details><summary><span class="truncated-version-list"><code>1.7051-3</code>,  <code>1.7051-2</code>,  <code>1.7051-1</code>,  <code>1.7051-0</code>,  <code>1.7016-5</code>,  <code>1.7016-4</code>,  <code>1.7016-3</code>,  <code>1.7016-2</code>,  <code>1.7016-1</code>,  </span></summary>
+      
 
+      ``1.7051-3``,  ``1.7051-2``,  ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -70,7 +78,7 @@ kmergenie
 
     <script>
         var package = "kmergenie";
-        var versions = ["1.7051","1.7051","1.7051","1.7016","1.7016"];
+        var versions = ["1.7051","1.7051","1.7051","1.7051","1.7016"];
     </script>
 
 

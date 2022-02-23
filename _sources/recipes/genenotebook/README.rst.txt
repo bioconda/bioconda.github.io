@@ -28,10 +28,10 @@ genenotebook
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.1.16-4</code>,  <code>0.1.16-3</code>,  <code>0.1.15-4</code>,  <code>0.1.14-2</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.1.16-4</code>,  <code>0.1.16-3</code>,  <code>0.1.15-4</code>,  <code>0.1.14-2</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  </span></summary>
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.16-4``,  ``0.1.16-3``,  ``0.1.15-4``,  ``0.1.14-2``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.16-4``,  ``0.1.16-3``,  ``0.1.15-4``,  ``0.1.14-2``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ genenotebook
 
    
    :depends blast: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends mongodb: ``4.0.3.*``
    :depends nodejs: ``14.17.1.*``
    :depends python_abi: ``3.10.* *_cp310``
@@ -77,7 +77,7 @@ genenotebook
 
     <script>
         var package = "genenotebook";
-        var versions = ["0.3.1","0.3.0","0.1.16","0.1.16","0.1.15"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.1.16","0.1.16"];
     </script>
 
 

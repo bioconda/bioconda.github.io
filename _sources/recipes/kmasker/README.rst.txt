@@ -29,7 +29,7 @@ kmasker
       
       
 
-      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -39,8 +39,8 @@ kmasker
    :depends ea-utils: 
    :depends gffread: 
    :depends jellyfish: ``2.2.10.*``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -77,7 +77,7 @@ kmasker
 
     <script>
         var package = "kmasker";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.0"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

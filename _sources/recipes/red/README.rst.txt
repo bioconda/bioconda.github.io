@@ -28,13 +28,13 @@ red
       
       
 
-      ``2015.05.22-2``,  ``2015.05.22-1``,  ``2015.05.22-0``
+      ``2015.05.22-3``,  ``2015.05.22-2``,  ``2015.05.22-1``,  ``2015.05.22-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ red
 
     <script>
         var package = "red";
-        var versions = ["2015.05.22","2015.05.22","2015.05.22"];
+        var versions = ["2015.05.22","2015.05.22","2015.05.22","2015.05.22"];
     </script>
 
 

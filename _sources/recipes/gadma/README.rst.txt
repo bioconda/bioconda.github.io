@@ -34,6 +34,7 @@ gadma
 
    
    :depends dadi: 
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends mpmath: 
    :depends nlopt: ``>=2.7.0,<2.7.1.0a0``

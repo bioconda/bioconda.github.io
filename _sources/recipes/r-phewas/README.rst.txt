@@ -28,13 +28,12 @@ r-phewas
       
       
 
-      ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
+      ``0.12.1-4``,  ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libgfortran-ng: 
+   :depends libgfortran: ``5.*``
    :depends libgfortran5: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
@@ -78,7 +77,7 @@ r-phewas
 
     <script>
         var package = "r-phewas";
-        var versions = ["0.12.1","0.12.1","0.12.1","0.12.1"];
+        var versions = ["0.12.1","0.12.1","0.12.1","0.12.1","0.12.1"];
     </script>
 
 

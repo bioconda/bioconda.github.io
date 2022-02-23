@@ -28,13 +28,13 @@ genomethreader
       
       
 
-      ``1.7.1-3``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``
+      ``1.7.1-4``,  ``1.7.1-3``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ genomethreader
 
     <script>
         var package = "genomethreader";
-        var versions = ["1.7.1","1.7.1","1.7.1","1.7.1"];
+        var versions = ["1.7.1","1.7.1","1.7.1","1.7.1","1.7.1"];
     </script>
 
 

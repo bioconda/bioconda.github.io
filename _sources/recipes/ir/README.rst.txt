@@ -27,12 +27,12 @@ ir
       
       
 
-      ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``
+      ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ ir
 
     <script>
         var package = "ir";
-        var versions = ["2.8.0","2.8.0","2.8.0"];
+        var versions = ["2.8.0","2.8.0","2.8.0","2.8.0"];
     </script>
 
 

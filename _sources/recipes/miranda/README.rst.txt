@@ -27,12 +27,11 @@ miranda
       
       
 
-      ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
+      ``3.3a-4``,  ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +63,7 @@ miranda
 
     <script>
         var package = "miranda";
-        var versions = ["3.3a","3.3a","3.3a","3.3a"];
+        var versions = ["3.3a","3.3a","3.3a","3.3a","3.3a"];
     </script>
 
 

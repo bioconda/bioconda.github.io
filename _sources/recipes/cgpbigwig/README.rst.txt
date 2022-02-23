@@ -28,10 +28,10 @@ cgpbigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ cgpbigwig
    :depends gnutls: ``>=3.6.15,<3.7.0a0``
    :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libbigwig: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libtasn1: ``>=4.18.0,<5.0a0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends nettle: ``>=3.7.3,<3.8.0a0``
@@ -83,7 +83,7 @@ cgpbigwig
 
     <script>
         var package = "cgpbigwig";
-        var versions = ["1.6.0","1.6.0","1.6.0","1.5.2","1.5.1"];
+        var versions = ["1.6.0","1.6.0","1.6.0","1.6.0","1.5.2"];
     </script>
 
 

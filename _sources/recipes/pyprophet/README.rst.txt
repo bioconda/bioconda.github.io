@@ -28,10 +28,10 @@ pyprophet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.10-1</code>,  <code>2.1.10-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>0.24.1-1</code>,  <code>0.24.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.10-2</code>,  <code>2.1.10-1</code>,  <code>2.1.10-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>0.24.1-1</code>,  </span></summary>
       
 
-      ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
+      ``2.1.10-2``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ pyprophet
    
    :depends click: 
    :depends hyperopt: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends numexpr: ``>=2.1``
    :depends numpy: ``>=1.19.5,<2.0a0``
@@ -86,7 +86,7 @@ pyprophet
 
     <script>
         var package = "pyprophet";
-        var versions = ["2.1.10","2.1.10","2.1.6","2.1.5","2.1.5"];
+        var versions = ["2.1.10","2.1.10","2.1.10","2.1.6","2.1.5"];
     </script>
 
 

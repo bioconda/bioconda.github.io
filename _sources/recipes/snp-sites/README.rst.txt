@@ -26,13 +26,22 @@ snp-sites
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-3``,  ``2.4.0-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-3</code>,  <code>2.4.0-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  </span></summary>
+      
 
+      ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-3``,  ``2.4.0-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -65,7 +74,7 @@ snp-sites
 
     <script>
         var package = "snp-sites";
-        var versions = ["2.5.1","2.5.1","2.4.1","2.4.1","2.4.0"];
+        var versions = ["2.5.1","2.5.1","2.5.1","2.4.1","2.4.1"];
     </script>
 
 

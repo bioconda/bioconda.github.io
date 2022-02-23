@@ -28,14 +28,14 @@ r-cssam
       
       
 
-      ``1.4-1``,  ``1.4-0``,  ``0-0``
+      ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``0-0``
 
       
 
    
    :depends bioconductor-biobase: ``>=2.50.0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.0.5``
    :depends r-formula: ``>=1.2_4``
    :depends r-ggplot2: ``>=3.3.5``
@@ -76,7 +76,7 @@ r-cssam
 
     <script>
         var package = "r-cssam";
-        var versions = ["1.4","1.4","0"];
+        var versions = ["1.4","1.4","1.4","0"];
     </script>
 
 

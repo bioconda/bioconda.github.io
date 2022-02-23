@@ -27,13 +27,13 @@ mea
       
       
 
-      ``0.6.4-5``,  ``0.6.4-4``,  ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``
+      ``0.6.4-6``,  ``0.6.4-5``,  ``0.6.4-4``,  ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

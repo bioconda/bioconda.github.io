@@ -28,14 +28,13 @@ plncpro
       
       
 
-      ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
 
    
    :depends biopython: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends regex: 
@@ -71,7 +70,7 @@ plncpro
 
     <script>
         var package = "plncpro";
-        var versions = ["1.2.2","1.2.2","1.2.2"];
+        var versions = ["1.2.2","1.2.2","1.2.2","1.2.2"];
     </script>
 
 

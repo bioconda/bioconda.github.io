@@ -41,10 +41,10 @@ chemfp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.3a1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  </span></summary>
       
 
-      ``1.6.1-1``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-1``,  ``1.3-0``,  ``1.3a1-0``,  ``1.1p1-0``
+      ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-1``,  ``1.3-0``,  ``1.3a1-0``,  ``1.1p1-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ chemfp
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends openbabel: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
@@ -89,7 +89,7 @@ chemfp
 
     <script>
         var package = "chemfp";
-        var versions = ["1.6.1","1.6.1","1.6","1.5","1.4"];
+        var versions = ["1.6.1","1.6.1","1.6.1","1.6","1.5"];
     </script>
 
 

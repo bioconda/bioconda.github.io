@@ -28,10 +28,10 @@ mykrobe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.0-3</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-3</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
       
 
-      ``0.10.0-0``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-5``,  ``0.7.0-4``,  ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-1``,  ``0.5.6-0``
+      ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-5``,  ``0.7.0-4``,  ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-1``,  ``0.5.6-0``
 
       
       .. raw:: html
@@ -42,8 +42,9 @@ mykrobe
    
    :depends anytree: 
    :depends biopython: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends mongodb: ``>3.0``
    :depends mongoengine: ``>=0.18.0``
    :depends numpy: 
@@ -84,7 +85,7 @@ mykrobe
 
     <script>
         var package = "mykrobe";
-        var versions = ["0.10.0","0.9.0","0.9.0","0.9.0","0.9.0"];
+        var versions = ["0.10.0","0.10.0","0.9.0","0.9.0","0.9.0"];
     </script>
 
 

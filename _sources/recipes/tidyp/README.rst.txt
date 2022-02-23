@@ -27,12 +27,12 @@ tidyp
       
       
 
-      ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+      ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ tidyp
 
     <script>
         var package = "tidyp";
-        var versions = ["1.04","1.04","1.04","1.04"];
+        var versions = ["1.04","1.04","1.04","1.04","1.04"];
     </script>
 
 

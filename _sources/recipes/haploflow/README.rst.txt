@@ -30,14 +30,14 @@ haploflow
       
       
 
-      ``0.1-0``
+      ``0.1-1``,  ``0.1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ haploflow
 
     <script>
         var package = "haploflow";
-        var versions = ["0.1"];
+        var versions = ["0.1","0.1"];
     </script>
 
 

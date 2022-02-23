@@ -28,13 +28,13 @@ migraine
       
       
 
-      ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-0``
+      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ migraine
 
     <script>
         var package = "migraine";
-        var versions = ["0.6.0","0.5.4","0.5.4","0.5.2"];
+        var versions = ["0.6.0","0.6.0","0.5.4","0.5.4","0.5.2"];
     </script>
 
 

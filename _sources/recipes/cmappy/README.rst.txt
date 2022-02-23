@@ -28,10 +28,10 @@ cmappy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-2</code>,  <code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>3.3.3-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.0.0-0</code>,  <code>2.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-3</code>,  <code>4.0.1-2</code>,  <code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>3.3.3-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``3.3.3-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.1.1-0``,  ``1.0.9-0``
+      ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``3.3.3-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.1.1-0``,  ``1.0.9-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ cmappy
 
    
    :depends h5py: ``>=2.6.0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends numpy: ``>=1.11.2``
    :depends pandas: ``>=0.18``
    :depends python: ``>=3.6,<3.7.0a0``
@@ -79,7 +78,7 @@ cmappy
 
     <script>
         var package = "cmappy";
-        var versions = ["4.0.1","4.0.1","4.0.1","3.3.3","3.3.0"];
+        var versions = ["4.0.1","4.0.1","4.0.1","4.0.1","3.3.3"];
     </script>
 
 

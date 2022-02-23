@@ -28,10 +28,10 @@ mikado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  </span></summary>
       
 
-      ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -44,8 +44,7 @@ mikado
    :depends datrie: ``>=0.8``
    :depends drmaa: 
    :depends hypothesis: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends marshmallow: ``>=3.1.0``
    :depends marshmallow-dataclass: ``>=8.3.1``
    :depends msgpack-python: ``>=1.0.0``
@@ -64,7 +63,7 @@ mikado
    :depends snakemake-minimal: ``>=5.7.0``
    :depends sqlalchemy: ``>=1.4.0``
    :depends sqlalchemy-utils: ``>=0.34.1``
-   :depends sqlite: ``>=3.36.0,<4.0a0``
+   :depends sqlite: ``>=3.37.0,<4.0a0``
    :depends tabulate: ``>=0.8.5``
    :depends toml: ``>=0.10.0``
    :depends typeguard: ``>=2.9.1``
@@ -99,7 +98,7 @@ mikado
 
     <script>
         var package = "mikado";
-        var versions = ["2.3.3","2.3.2","2.3.1","2.3.0","2.2.5"];
+        var versions = ["2.3.3","2.3.3","2.3.2","2.3.1","2.3.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ bpp-popgen
       
       
 
-      ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``
+      ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``
 
       
 
    
    :depends bpp-seq: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bpp-popgen
 
     <script>
         var package = "bpp-popgen";
-        var versions = ["2.4.1","2.4.1","2.4.1"];
+        var versions = ["2.4.1","2.4.1","2.4.1","2.4.1"];
     </script>
 
 

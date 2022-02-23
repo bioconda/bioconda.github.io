@@ -28,12 +28,11 @@ dig2
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ dig2
 
     <script>
         var package = "dig2";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

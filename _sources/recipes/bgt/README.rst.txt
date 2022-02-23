@@ -27,12 +27,13 @@ bgt
       
       
 
-      ``r283-3``,  ``r283-2``,  ``r283-1``,  ``r283-0``,  ``r277-0``
+      ``r283-4``,  ``r283-3``,  ``r283-2``,  ``r283-1``,  ``r283-0``,  ``r277-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -65,7 +66,7 @@ bgt
 
     <script>
         var package = "bgt";
-        var versions = ["r283","r283","r283","r283","r277"];
+        var versions = ["r283","r283","r283","r283","r283"];
     </script>
 
 

@@ -28,10 +28,10 @@ bellmans-gapc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2021.04.28-1</code>,  <code>2021.04.28-0</code>,  <code>2020.12.08-1</code>,  <code>2020.12.08-0</code>,  <code>2020.07.07-0</code>,  <code>2020.01.08-1</code>,  <code>2020.01.08-0</code>,  <code>0.1-2</code>,  <code>0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2021.04.28-2</code>,  <code>2021.04.28-1</code>,  <code>2021.04.28-0</code>,  <code>2020.12.08-1</code>,  <code>2020.12.08-0</code>,  <code>2020.07.07-0</code>,  <code>2020.01.08-1</code>,  <code>2020.01.08-0</code>,  <code>0.1-2</code>,  </span></summary>
       
 
-      ``2021.04.28-1``,  ``2021.04.28-0``,  ``2020.12.08-1``,  ``2020.12.08-0``,  ``2020.07.07-0``,  ``2020.01.08-1``,  ``2020.01.08-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``2021.04.28-2``,  ``2021.04.28-1``,  ``2021.04.28-0``,  ``2020.12.08-1``,  ``2020.12.08-0``,  ``2020.07.07-0``,  ``2020.01.08-1``,  ``2020.01.08-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ bellmans-gapc
    :depends blas: 
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends make: 
    :depends sed: 
    :requirements:
@@ -78,7 +78,7 @@ bellmans-gapc
 
     <script>
         var package = "bellmans-gapc";
-        var versions = ["2021.04.28","2021.04.28","2020.12.08","2020.12.08","2020.07.07"];
+        var versions = ["2021.04.28","2021.04.28","2021.04.28","2020.12.08","2020.12.08"];
     </script>
 
 

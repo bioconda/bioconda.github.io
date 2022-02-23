@@ -27,13 +27,13 @@ k8
       
       
 
-      ``0.2.5-1``,  ``0.2.5-0``
+      ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ k8
 
     <script>
         var package = "k8";
-        var versions = ["0.2.5","0.2.5"];
+        var versions = ["0.2.5","0.2.5","0.2.5"];
     </script>
 
 

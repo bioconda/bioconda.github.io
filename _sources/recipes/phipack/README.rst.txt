@@ -27,12 +27,11 @@ phipack
       
       
 
-      ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +63,7 @@ phipack
 
     <script>
         var package = "phipack";
-        var versions = ["1.1","1.1","1.0"];
+        var versions = ["1.1","1.1","1.1","1.0"];
     </script>
 
 

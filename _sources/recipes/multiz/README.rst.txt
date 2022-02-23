@@ -28,12 +28,11 @@ multiz
       
       
 
-      ``11.2-2``,  ``11.2-1``,  ``11.2-0``
+      ``11.2-3``,  ``11.2-2``,  ``11.2-1``,  ``11.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ multiz
 
     <script>
         var package = "multiz";
-        var versions = ["11.2","11.2","11.2"];
+        var versions = ["11.2","11.2","11.2","11.2"];
     </script>
 
 

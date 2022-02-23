@@ -27,12 +27,11 @@ easel
       
       
 
-      ``0.48-0``,  ``0.47-0``,  ``0.45-1``,  ``0.45-0``
+      ``0.48-1``,  ``0.48-0``,  ``0.47-0``,  ``0.45-1``,  ``0.45-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +63,7 @@ easel
 
     <script>
         var package = "easel";
-        var versions = ["0.48","0.47","0.45","0.45"];
+        var versions = ["0.48","0.48","0.47","0.45","0.45"];
     </script>
 
 

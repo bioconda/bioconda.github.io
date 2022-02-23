@@ -27,13 +27,12 @@ ffindex
       
       
 
-      ``0.98-1``,  ``0.98-0``
+      ``0.98-2``,  ``0.98-1``,  ``0.98-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ ffindex
 
     <script>
         var package = "ffindex";
-        var versions = ["0.98","0.98"];
+        var versions = ["0.98","0.98","0.98"];
     </script>
 
 

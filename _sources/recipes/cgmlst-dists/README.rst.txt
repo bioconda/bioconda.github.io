@@ -27,12 +27,11 @@ cgmlst-dists
       
       
 
-      ``0.4.0-1``,  ``0.4.0-0``,  ``0.2.0-0``
+      ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +63,7 @@ cgmlst-dists
 
     <script>
         var package = "cgmlst-dists";
-        var versions = ["0.4.0","0.4.0","0.2.0"];
+        var versions = ["0.4.0","0.4.0","0.4.0","0.2.0"];
     </script>
 
 

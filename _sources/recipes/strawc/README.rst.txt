@@ -27,14 +27,13 @@ strawc
       
       
 
-      ``0.0.2.1-0``
+      ``0.0.2.1-1``,  ``0.0.2.1-0``
 
       
 
    
-   :depends libcurl: ``>=7.77.0,<8.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcurl: ``>=7.81.0,<8.0a0``
+   :depends libcxx: ``>=12.0.1``
    :depends pybind11: ``>=2.4``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -69,7 +68,7 @@ strawc
 
     <script>
         var package = "strawc";
-        var versions = ["0.0.2.1"];
+        var versions = ["0.0.2.1","0.0.2.1"];
     </script>
 
 

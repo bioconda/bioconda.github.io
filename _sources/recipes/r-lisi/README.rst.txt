@@ -27,13 +27,13 @@ r-lisi
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -72,7 +72,7 @@ r-lisi
 
     <script>
         var package = "r-lisi";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.0","1.0","1.0"];
     </script>
 
 

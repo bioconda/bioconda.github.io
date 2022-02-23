@@ -27,18 +27,18 @@ reseq
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ reseq
 
     <script>
         var package = "reseq";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.1","1.1","1.1"];
     </script>
 
 

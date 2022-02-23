@@ -27,15 +27,15 @@ bioconductor-grenits
       
       
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+      ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
 
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: ``>=0.9.0``
    :depends r-rcpp: ``>=0.8.6``
@@ -72,7 +72,7 @@ bioconductor-grenits
 
     <script>
         var package = "bioconductor-grenits";
-        var versions = ["1.46.0","1.44.0","1.42.0","1.42.0","1.40.0"];
+        var versions = ["1.46.0","1.46.0","1.44.0","1.42.0","1.42.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ megapath
       
       
 
-      ``2-1``,  ``2-0``,  ``1.0-0``
+      ``2-2``,  ``2-1``,  ``2-0``,  ``1.0-0``
 
       
 
@@ -35,8 +35,8 @@ megapath
    :depends bedtools: 
    :depends bwa: ``0.7.12.*``
    :depends gatk4: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends megahit: ``1.1.3.*``
    :depends minimap2: 
@@ -78,7 +78,7 @@ megapath
 
     <script>
         var package = "megapath";
-        var versions = ["2","2","1.0"];
+        var versions = ["2","2","2","1.0"];
     </script>
 
 

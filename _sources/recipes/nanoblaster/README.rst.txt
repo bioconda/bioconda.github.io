@@ -27,13 +27,13 @@ nanoblaster
       
       
 
-      ``0.16-3``,  ``0.16-2``,  ``0.16-1``,  ``0.16-0``
+      ``0.16-4``,  ``0.16-3``,  ``0.16-2``,  ``0.16-1``,  ``0.16-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ nanoblaster
 
     <script>
         var package = "nanoblaster";
-        var versions = ["0.16","0.16","0.16","0.16"];
+        var versions = ["0.16","0.16","0.16","0.16","0.16"];
     </script>
 
 

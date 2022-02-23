@@ -27,13 +27,13 @@ csblast
       
       
 
-      ``2.2.3-0``
+      ``2.2.3-1``,  ``2.2.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ csblast
 
     <script>
         var package = "csblast";
-        var versions = ["2.2.3"];
+        var versions = ["2.2.3","2.2.3"];
     </script>
 
 

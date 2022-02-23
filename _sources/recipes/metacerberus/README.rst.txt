@@ -27,11 +27,32 @@ metacerberus
       
       
 
-      
+      ``0.1-0``
 
       
 
    
+   :depends bbmap: 
+   :depends configargparse: 
+   :depends dominate: 
+   :depends fastp: 
+   :depends fastqc: 
+   :depends flash2: 
+   :depends gcc: 
+   :depends hmmer: 
+   :depends make: 
+   :depends metaomestats: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends plotly: 
+   :depends porechop: 
+   :depends prodigal: 
+   :depends psutil: 
+   :depends python: 
+   :depends python-kaleido: 
+   :depends ray-core: 
+   :depends ray-dashboard: 
+   :depends scikit-learn: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +84,7 @@ metacerberus
 
     <script>
         var package = "metacerberus";
-        var versions = [];
+        var versions = ["0.1"];
     </script>
 
 

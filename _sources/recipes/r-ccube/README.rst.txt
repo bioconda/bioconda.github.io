@@ -33,7 +33,8 @@ r-ccube
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-foreach: 

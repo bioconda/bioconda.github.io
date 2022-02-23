@@ -27,21 +27,21 @@ quatradis
       
       
 
-      ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
+      ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
 
       
 
    
    :depends biopython: 
    :depends bwa: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends nextflow: 
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: 
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends pysam: ``>=0.18.0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends r-base: 
    :depends r-getopt: 
    :depends r-mass: 
@@ -77,7 +77,7 @@ quatradis
 
     <script>
         var package = "quatradis";
-        var versions = ["0.4.5","0.4.4","0.4.2","0.4.2","0.3.4"];
+        var versions = ["0.4.5","0.4.5","0.4.4","0.4.2","0.4.2"];
     </script>
 
 

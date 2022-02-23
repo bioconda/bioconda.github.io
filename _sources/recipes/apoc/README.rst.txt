@@ -27,13 +27,12 @@ apoc
       
       
 
-      ``1b16-4``,  ``1b16-3``,  ``1b16-2``,  ``1b16-1``,  ``1b16-0``
+      ``1b16-5``,  ``1b16-4``,  ``1b16-3``,  ``1b16-2``,  ``1b16-1``,  ``1b16-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libgfortran-ng: 
+   :depends libgfortran: ``5.*``
    :depends libgfortran5: ``>=9.3.0``
    :requirements:
 

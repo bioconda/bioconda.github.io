@@ -30,10 +30,10 @@ gffread
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.11.7-0</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.9.12-0</code>,  <code>0.9.9-1</code>,  <code>0.9.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.7-1</code>,  <code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.11.7-0</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.9.12-0</code>,  <code>0.9.9-1</code>,  </span></summary>
       
 
-      ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
+      ``0.12.7-1``,  ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
 
       
       .. raw:: html
@@ -42,8 +42,9 @@ gffread
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -76,7 +77,7 @@ gffread
 
     <script>
         var package = "gffread";
-        var versions = ["0.12.7","0.12.1","0.12.1","0.11.7","0.11.6"];
+        var versions = ["0.12.7","0.12.7","0.12.1","0.12.1","0.11.7"];
     </script>
 
 

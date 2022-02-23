@@ -27,7 +27,7 @@ nanocaller
       
       
 
-      ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
 
@@ -76,7 +76,7 @@ nanocaller
 
     <script>
         var package = "nanocaller";
-        var versions = ["2.1.0","2.0.0"];
+        var versions = ["2.1.1","2.1.0","2.0.0"];
     </script>
 
 

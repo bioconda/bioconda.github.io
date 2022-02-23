@@ -28,17 +28,17 @@ foldseek
       
       
 
-      ``1.3c64211-0``
+      ``1.3c64211-1``,  ``1.3c64211-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends llvm-openmp: ``>=12.0.1``
+   :depends llvm-openmp: ``>=13.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -73,7 +73,7 @@ foldseek
 
     <script>
         var package = "foldseek";
-        var versions = ["1.3c64211"];
+        var versions = ["1.3c64211","1.3c64211"];
     </script>
 
 

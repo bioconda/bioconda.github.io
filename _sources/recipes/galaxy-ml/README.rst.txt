@@ -28,10 +28,10 @@ galaxy-ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-5</code>,  <code>0.8.2-4</code>,  <code>0.8.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-5</code>,  <code>0.8.2-4</code>,  </span></summary>
       
 
-      ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
+      ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
 
       
       .. raw:: html
@@ -46,8 +46,8 @@ galaxy-ml
    :depends htslib: 
    :depends imbalanced-learn: ``>=0.8.0,<0.9``
    :depends joblib: ``>=0.13.2,<1.0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends mlxtend: ``>=0.17,<0.18``
    :depends numpy: ``>=1.21.0,<1.22``
@@ -97,7 +97,7 @@ galaxy-ml
 
     <script>
         var package = "galaxy-ml";
-        var versions = ["0.9.1","0.9.1","0.9.0","0.8.3","0.8.3"];
+        var versions = ["0.9.1","0.9.1","0.9.1","0.9.0","0.8.3"];
     </script>
 
 

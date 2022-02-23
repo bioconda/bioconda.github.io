@@ -28,13 +28,13 @@ rfmix
       
       
 
-      ``2.03.r0.9505bfa-2``,  ``2.03.r0.9505bfa-1``,  ``2.03.r0.9505bfa-0``
+      ``2.03.r0.9505bfa-3``,  ``2.03.r0.9505bfa-2``,  ``2.03.r0.9505bfa-1``,  ``2.03.r0.9505bfa-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends pthread-stubs: 
    :requirements:
 
@@ -67,7 +67,7 @@ rfmix
 
     <script>
         var package = "rfmix";
-        var versions = ["2.03.r0.9505bfa","2.03.r0.9505bfa","2.03.r0.9505bfa"];
+        var versions = ["2.03.r0.9505bfa","2.03.r0.9505bfa","2.03.r0.9505bfa","2.03.r0.9505bfa"];
     </script>
 
 

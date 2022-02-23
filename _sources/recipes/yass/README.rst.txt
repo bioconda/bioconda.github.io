@@ -28,12 +28,11 @@ yass
       
       
 
-      ``1.14-3``,  ``1.14-2``,  ``1.14-1``,  ``1.14-0``
+      ``1.14-4``,  ``1.14-3``,  ``1.14-2``,  ``1.14-1``,  ``1.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ yass
 
     <script>
         var package = "yass";
-        var versions = ["1.14","1.14","1.14","1.14"];
+        var versions = ["1.14","1.14","1.14","1.14","1.14"];
     </script>
 
 

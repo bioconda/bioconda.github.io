@@ -27,13 +27,12 @@ treebest
       
       
 
-      ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
+      ``1.9.2.post1-3``,  ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ treebest
 
     <script>
         var package = "treebest";
-        var versions = ["1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post0","1.9.2_ep78"];
+        var versions = ["1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post0"];
     </script>
 
 

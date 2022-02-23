@@ -27,13 +27,13 @@ perl-b-hooks-endofscope
       
       
 
-      ``0.25-0``,  ``0.21-6``,  ``0.21-5``,  ``0.21-4``,  ``0.21-3``,  ``0.21-0``
+      ``0.26-0``,  ``0.25-0``,  ``0.21-6``,  ``0.21-5``,  ``0.21-4``,  ``0.21-3``,  ``0.21-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-module-implementation: 
@@ -70,7 +70,7 @@ perl-b-hooks-endofscope
 
     <script>
         var package = "perl-b-hooks-endofscope";
-        var versions = ["0.25","0.21","0.21","0.21","0.21"];
+        var versions = ["0.26","0.25","0.21","0.21","0.21"];
     </script>
 
 

@@ -27,13 +27,13 @@ pgsa
       
       
 
-      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ pgsa
 
     <script>
         var package = "pgsa";
-        var versions = ["1.2","1.2","1.2","1.2"];
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
     </script>
 
 

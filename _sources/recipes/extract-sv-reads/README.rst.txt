@@ -27,15 +27,16 @@ extract-sv-reads
       
       
 
-      ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.2-0``,  ``1.1.0-0``
+      ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.2-0``,  ``1.1.0-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +68,7 @@ extract-sv-reads
 
     <script>
         var package = "extract-sv-reads";
-        var versions = ["1.3.0","1.3.0","1.3.0","1.2.1","1.2.1"];
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.2.1"];
     </script>
 
 

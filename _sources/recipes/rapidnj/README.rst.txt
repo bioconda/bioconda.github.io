@@ -28,13 +28,13 @@ rapidnj
       
       
 
-      ``2.3.2-1``,  ``2.3.2-0``,  ``v2.3.2-2``,  ``v2.3.2-1``,  ``v2.3.2-0``
+      ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``v2.3.2-2``,  ``v2.3.2-1``,  ``v2.3.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ rapidnj
 
     <script>
         var package = "rapidnj";
-        var versions = ["2.3.2","2.3.2","v2.3.2","v2.3.2","v2.3.2"];
+        var versions = ["2.3.2","2.3.2","2.3.2","v2.3.2","v2.3.2"];
     </script>
 
 

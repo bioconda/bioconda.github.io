@@ -27,14 +27,22 @@ admixtools
    :versions:
       
       
+      .. raw:: html
 
-      ``7.0.2-1``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``6.0-2``,  ``6.0-1``,  ``6.0-0``,  ``5.1-0``,  ``5.0-0``
+         <details><summary><span class="truncated-version-list"><code>7.0.2-2</code>,  <code>7.0.2-1</code>,  <code>7.0.2-0</code>,  <code>7.0.1-1</code>,  <code>7.0.1-0</code>,  <code>6.0-2</code>,  <code>6.0-1</code>,  <code>6.0-0</code>,  <code>5.1-0</code>,  </span></summary>
+      
 
+      ``7.0.2-2``,  ``7.0.2-1``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``6.0-2``,  ``6.0-1``,  ``6.0-0``,  ``5.1-0``,  ``5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends openblas: 
    :requirements:
 
@@ -67,7 +75,7 @@ admixtools
 
     <script>
         var package = "admixtools";
-        var versions = ["7.0.2","7.0.2","7.0.1","7.0.1","6.0"];
+        var versions = ["7.0.2","7.0.2","7.0.2","7.0.1","7.0.1"];
     </script>
 
 

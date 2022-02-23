@@ -27,7 +27,7 @@ pymisc-utils
       
       
 
-      ``0.2.11-4``,  ``0.2.11-3``,  ``0.2.11-2``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``
+      ``0.2.11-5``,  ``0.2.11-4``,  ``0.2.11-3``,  ``0.2.11-2``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``
 
       
 
@@ -37,7 +37,7 @@ pymisc-utils
    :depends fastparquet: 
    :depends graphviz: ``>=2.47.3,<3.0a0``
    :depends joblib: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib: 
    :depends networkx: 
    :depends nltk: 

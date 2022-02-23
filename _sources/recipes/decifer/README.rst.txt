@@ -28,10 +28,10 @@ decifer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1-0</code>,  </span></summary>
       
 
-      ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ decifer
 
    
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends numpy: ``>=1.16.1``
    :depends pandas: 
    :depends python: ``>=3.7,<3.8.0a0``
@@ -80,7 +79,7 @@ decifer
 
     <script>
         var package = "decifer";
-        var versions = ["2.0.5","2.0.4","2.0.3","2.0.2","2.0.1"];
+        var versions = ["2.0.5","2.0.5","2.0.4","2.0.3","2.0.2"];
     </script>
 
 

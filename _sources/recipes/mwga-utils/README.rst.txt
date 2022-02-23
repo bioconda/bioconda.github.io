@@ -27,13 +27,12 @@ mwga-utils
       
       
 
-      ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ mwga-utils
 
     <script>
         var package = "mwga-utils";
-        var versions = ["0.1.4","0.1.2","0.1.2","0.1.2","0.1.1"];
+        var versions = ["0.1.4","0.1.4","0.1.2","0.1.2","0.1.2"];
     </script>
 
 

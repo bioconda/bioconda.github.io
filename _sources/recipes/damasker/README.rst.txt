@@ -27,12 +27,12 @@ damasker
       
       
 
-      ``1.0p1-3``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
+      ``1.0p1-4``,  ``1.0p1-3``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ damasker
 
     <script>
         var package = "damasker";
-        var versions = ["1.0p1","1.0p1","1.0p1","1.0p1"];
+        var versions = ["1.0p1","1.0p1","1.0p1","1.0p1","1.0p1"];
     </script>
 
 

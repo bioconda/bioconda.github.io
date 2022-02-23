@@ -27,12 +27,12 @@ pulchra
       
       
 
-      ``3.06-1``,  ``3.06-0``
+      ``3.06-2``,  ``3.06-1``,  ``3.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ pulchra
 
     <script>
         var package = "pulchra";
-        var versions = ["3.06","3.06"];
+        var versions = ["3.06","3.06","3.06"];
     </script>
 
 

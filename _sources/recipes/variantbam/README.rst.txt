@@ -26,15 +26,24 @@ variantbam
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.4a-5``,  ``1.4.4a-4``,  ``1.4.4a-3``,  ``1.4.4a-2``,  ``1.4.4a-1``,  ``1.4.4a-0``,  ``1.4.3-0``,  ``1.3.0-0``,  ``1.2.1_2015.01.08-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.4a-6</code>,  <code>1.4.4a-5</code>,  <code>1.4.4a-4</code>,  <code>1.4.4a-3</code>,  <code>1.4.4a-2</code>,  <code>1.4.4a-1</code>,  <code>1.4.4a-0</code>,  <code>1.4.3-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+      
 
+      ``1.4.4a-6``,  ``1.4.4a-5``,  ``1.4.4a-4``,  ``1.4.4a-3``,  ``1.4.4a-2``,  ``1.4.4a-1``,  ``1.4.4a-0``,  ``1.4.3-0``,  ``1.3.0-0``,  ``1.2.1_2015.01.08-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

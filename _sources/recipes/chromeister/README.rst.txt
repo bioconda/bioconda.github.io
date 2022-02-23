@@ -27,15 +27,23 @@ chromeister
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.a-2``,  ``1.5.a-1``,  ``1.5.a-0``,  ``1.4-0``,  ``1.3.c-0``,  ``1.2-0``,  ``1.1.c-0``,  ``1.1.b-0``,  ``1.1.a-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.a-3</code>,  <code>1.5.a-2</code>,  <code>1.5.a-1</code>,  <code>1.5.a-0</code>,  <code>1.4-0</code>,  <code>1.3.c-0</code>,  <code>1.2-0</code>,  <code>1.1.c-0</code>,  <code>1.1.b-0</code>,  </span></summary>
+      
 
+      ``1.5.a-3``,  ``1.5.a-2``,  ``1.5.a-1``,  ``1.5.a-0``,  ``1.4-0``,  ``1.3.c-0``,  ``1.2-0``,  ``1.1.c-0``,  ``1.1.b-0``,  ``1.1.a-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends cycler: 
    :depends kiwisolver: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: 
    :depends opencv: 
    :depends pillow: 
@@ -77,7 +85,7 @@ chromeister
 
     <script>
         var package = "chromeister";
-        var versions = ["1.5.a","1.5.a","1.5.a","1.4","1.3.c"];
+        var versions = ["1.5.a","1.5.a","1.5.a","1.5.a","1.4"];
     </script>
 
 

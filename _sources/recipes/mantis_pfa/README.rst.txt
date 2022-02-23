@@ -39,6 +39,7 @@ mantis_pfa
    :depends cython: 
    :depends diamond: ``>=2.0.13``
    :depends hmmer: ``>=3.2.1``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends nltk: ``>=3.6``
    :depends numpy: 
    :depends psutil: 

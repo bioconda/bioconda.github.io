@@ -28,10 +28,10 @@ r-stitch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.6-1</code>,  <code>1.6.6-0</code>,  <code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-0</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.6-2</code>,  <code>1.6.6-1</code>,  <code>1.6.6-0</code>,  <code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-0</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  </span></summary>
       
 
-      ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
+      ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
 
       
       .. raw:: html
@@ -43,11 +43,11 @@ r-stitch
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends htslib: ``>=1.4``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends mpc: ``>=1.1.0``
-   :depends mpc: ``>=1.1.0,<2.0a0``
-   :depends mpfr: ``>=4.0.2,<5.0a0``
+   :depends mpc: ``>=1.2.1,<2.0a0``
+   :depends mpfr: ``>=4.1.0,<5.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-rcpp: ``>=0.12.18``
@@ -89,7 +89,7 @@ r-stitch
 
     <script>
         var package = "r-stitch";
-        var versions = ["1.6.6","1.6.6","1.6.5","1.6.5","1.6.5"];
+        var versions = ["1.6.6","1.6.6","1.6.6","1.6.5","1.6.5"];
     </script>
 
 

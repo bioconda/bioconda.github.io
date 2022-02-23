@@ -27,12 +27,12 @@ lz4-bin
       
       
 
-      ``131-4``,  ``131-3``,  ``131-2``,  ``131-1``
+      ``131-5``,  ``131-4``,  ``131-3``,  ``131-2``,  ``131-1``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ lz4-bin
 
     <script>
         var package = "lz4-bin";
-        var versions = ["131","131","131","131"];
+        var versions = ["131","131","131","131","131"];
     </script>
 
 

@@ -28,14 +28,14 @@ satrap
       
       
 
-      ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.2-4``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ satrap
 
     <script>
         var package = "satrap";
-        var versions = ["0.2","0.2","0.2","0.2"];
+        var versions = ["0.2","0.2","0.2","0.2","0.2"];
     </script>
 
 

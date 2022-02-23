@@ -27,7 +27,7 @@ hits
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
 
@@ -36,13 +36,14 @@ hits
    :depends bokeh: ``2.4.2``
    :depends ipython: ``7.30.1``
    :depends ipywidgets: ``7.5.1``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: ``3.3.3``
    :depends numpy: ``1.21.4``
    :depends pandas: ``1.1.2``
    :depends pillow: ``7.2.0``
    :depends pysam: ``>=0.15``
    :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends pyyaml: ``5.3``
    :depends scipy: ``1.5.2``
    :depends seaborn: ``0.11.0``
@@ -77,7 +78,7 @@ hits
 
     <script>
         var package = "hits";
-        var versions = ["0.3.3","0.3.2","0.3.0","0.1","0.1"];
+        var versions = ["0.3.3","0.3.3","0.3.2","0.3.0","0.1"];
     </script>
 
 

@@ -28,14 +28,14 @@ lightstringgraph
       
       
 
-      ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
+      ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
 
    
    :depends boost: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ lightstringgraph
 
     <script>
         var package = "lightstringgraph";
-        var versions = ["0.4.0","0.4.0","0.4.0"];
+        var versions = ["0.4.0","0.4.0","0.4.0","0.4.0"];
     </script>
 
 

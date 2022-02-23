@@ -32,6 +32,7 @@ vamb
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: ``>=1.15``
    :depends pysam: ``>=0.14``
    :depends python: ``>=3.6,<3.7.0a0``

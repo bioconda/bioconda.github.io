@@ -28,13 +28,13 @@ centrifuge-core
       
       
 
-      ``1.0.4_beta-1``,  ``1.0.4_beta-0``
+      ``1.0.4_beta-2``,  ``1.0.4_beta-1``,  ``1.0.4_beta-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=4.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: 
    :depends tar: 
    :depends wget: 
@@ -70,7 +70,7 @@ centrifuge-core
 
     <script>
         var package = "centrifuge-core";
-        var versions = ["1.0.4_beta","1.0.4_beta"];
+        var versions = ["1.0.4_beta","1.0.4_beta","1.0.4_beta"];
     </script>
 
 

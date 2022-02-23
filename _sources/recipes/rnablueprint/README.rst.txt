@@ -27,15 +27,24 @@ rnablueprint
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2-1</code>,  </span></summary>
+      
 
+      ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
@@ -68,7 +77,7 @@ rnablueprint
 
     <script>
         var package = "rnablueprint";
-        var versions = ["1.3.2","1.3.2","1.3.2","1.3.0","1.3.0"];
+        var versions = ["1.3.2","1.3.2","1.3.2","1.3.2","1.3.0"];
     </script>
 
 

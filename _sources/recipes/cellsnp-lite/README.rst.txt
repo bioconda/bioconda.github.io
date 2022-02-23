@@ -28,10 +28,10 @@ cellsnp-lite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.3.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.1-1``,  ``0.3.1-0``
+      ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.1-1``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ cellsnp-lite
 
    
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -75,7 +75,7 @@ cellsnp-lite
 
     <script>
         var package = "cellsnp-lite";
-        var versions = ["1.2.2","1.2.2","1.2.1","1.2.0","1.2.0"];
+        var versions = ["1.2.2","1.2.2","1.2.2","1.2.1","1.2.0"];
     </script>
 
 

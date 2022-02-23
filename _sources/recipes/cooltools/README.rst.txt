@@ -29,7 +29,7 @@ cooltools
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-1``,  ``0.3.2-0``
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``
 
       
 
@@ -39,7 +39,6 @@ cooltools
    :depends cooler: ``>=0.8.5``
    :depends cytoolz: ``<0.11``
    :depends joblib: 
-   :depends libgcc-ng: ``>=9.4.0``
    :depends matplotlib-base: 
    :depends numba: 
    :depends numpy: 
@@ -80,7 +79,7 @@ cooltools
 
     <script>
         var package = "cooltools";
-        var versions = ["0.5.0","0.4.0","0.3.2","0.3.2"];
+        var versions = ["0.5.0","0.5.0","0.4.0","0.3.2","0.3.2"];
     </script>
 
 

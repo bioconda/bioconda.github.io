@@ -28,10 +28,10 @@ perl-io-compress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.102-0</code>,  <code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-0</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  <code>2.069-5</code>,  <code>2.069-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.102-1</code>,  <code>2.102-0</code>,  <code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-0</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  <code>2.069-5</code>,  </span></summary>
       
 
-      ``2.102-0``,  ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-5``,  ``2.069-4``,  ``2.069-2``,  ``2.069-1``
+      ``2.102-1``,  ``2.102-0``,  ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-5``,  ``2.069-4``,  ``2.069-2``,  ``2.069-1``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ perl-io-compress
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-compress-raw-bzip2: ``>=2.101``
    :depends perl-compress-raw-zlib: ``>=2.101``
@@ -78,7 +78,7 @@ perl-io-compress
 
     <script>
         var package = "perl-io-compress";
-        var versions = ["2.102","2.087","2.087","2.086","2.084"];
+        var versions = ["2.102","2.102","2.087","2.087","2.086"];
     </script>
 
 

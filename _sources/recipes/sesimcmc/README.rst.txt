@@ -27,13 +27,13 @@ sesimcmc
       
       
 
-      ``4.36-1``,  ``4.36-0``
+      ``4.36-2``,  ``4.36-1``,  ``4.36-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ sesimcmc
 
     <script>
         var package = "sesimcmc";
-        var versions = ["4.36","4.36"];
+        var versions = ["4.36","4.36","4.36"];
     </script>
 
 

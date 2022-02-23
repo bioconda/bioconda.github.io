@@ -34,8 +34,9 @@ bcov
 
    
    :depends glpk: ``>=4.65,<4.66.0a0``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

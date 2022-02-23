@@ -29,10 +29,10 @@ sonicparanoid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-1</code>,  <code>1.3.6-0</code>,  <code>1.0.14-4</code>,  <code>1.0.14-3</code>,  <code>1.0.14-2</code>,  <code>1.0.14-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.8-2</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-1</code>,  <code>1.3.6-0</code>,  <code>1.0.14-4</code>,  <code>1.0.14-3</code>,  <code>1.0.14-2</code>,  </span></summary>
       
 
-      ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
+      ``1.3.8-2``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ sonicparanoid
    :depends blast: ``>=2.12.0``
    :depends diamond: ``>=2.0.12``
    :depends filetype: ``>=1.0.7``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends mcl: ``>=14.137``
    :depends mmseqs2: ``>=13.45111``
    :depends numpy: ``>=1.21``
@@ -87,7 +87,7 @@ sonicparanoid
 
     <script>
         var package = "sonicparanoid";
-        var versions = ["1.3.8","1.3.8","1.3.7","1.3.6","1.3.6"];
+        var versions = ["1.3.8","1.3.8","1.3.8","1.3.7","1.3.6"];
     </script>
 
 

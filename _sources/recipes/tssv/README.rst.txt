@@ -30,14 +30,14 @@ tssv
       
       
 
-      ``1.1.2-0``,  ``1.1.0-0``
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``
 
       
 
    
    :depends biopython: ``>=1.72``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends requests: 
@@ -74,7 +74,7 @@ tssv
 
     <script>
         var package = "tssv";
-        var versions = ["1.1.2","1.1.0"];
+        var versions = ["1.1.2","1.1.2","1.1.0"];
     </script>
 
 

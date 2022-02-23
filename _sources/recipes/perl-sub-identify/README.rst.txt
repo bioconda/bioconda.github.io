@@ -27,12 +27,12 @@ perl-sub-identify
       
       
 
-      ``0.14-1``,  ``0.14-0``,  ``0.12-1``,  ``0.12-0``
+      ``0.14-2``,  ``0.14-1``,  ``0.14-0``,  ``0.12-1``,  ``0.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-sub-identify
 
     <script>
         var package = "perl-sub-identify";
-        var versions = ["0.14","0.14","0.12","0.12"];
+        var versions = ["0.14","0.14","0.14","0.12","0.12"];
     </script>
 
 

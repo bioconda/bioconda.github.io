@@ -27,16 +27,16 @@ treekin
       
       
 
-      ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``
+      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``
 
       
 
    
    :depends lapack: ``<3.9``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgfortran5: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends mlapack: 
    :requirements:
 
@@ -69,7 +69,7 @@ treekin
 
     <script>
         var package = "treekin";
-        var versions = ["0.5.1","0.5.1","0.4.2","0.4.2","0.4.2"];
+        var versions = ["0.5.1","0.5.1","0.5.1","0.4.2","0.4.2"];
     </script>
 
 

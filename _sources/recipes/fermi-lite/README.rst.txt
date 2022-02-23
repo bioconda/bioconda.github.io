@@ -27,12 +27,13 @@ fermi-lite
       
       
 
-      ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -65,7 +66,7 @@ fermi-lite
 
     <script>
         var package = "fermi-lite";
-        var versions = ["0.1","0.1","0.1","0.1"];
+        var versions = ["0.1","0.1","0.1","0.1","0.1"];
     </script>
 
 
