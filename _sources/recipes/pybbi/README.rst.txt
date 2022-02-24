@@ -27,13 +27,13 @@ pybbi
       
       
 
-      ``0.3.2-0``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
    
    :depends libclang: ``13.*``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends numpy: ``>=1.17.5,<2.0a0``
@@ -72,7 +72,7 @@ pybbi
 
     <script>
         var package = "pybbi";
-        var versions = ["0.3.2","0.3.0","0.3.0"];
+        var versions = ["0.3.2","0.3.2","0.3.0","0.3.0"];
     </script>
 
 

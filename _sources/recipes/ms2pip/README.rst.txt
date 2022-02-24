@@ -28,13 +28,13 @@ ms2pip
       
       
 
-      ``3.6.3-0``,  ``3.6.2-0``
+      ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
 
       
 
    
    :depends biopython: ``>=1.74,<2``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: ``>=1.16,<2``
    :depends pandas: ``>=0.24,<2``
    :depends pytables: ``>=3.4``
@@ -75,7 +75,7 @@ ms2pip
 
     <script>
         var package = "ms2pip";
-        var versions = ["3.6.3","3.6.2"];
+        var versions = ["3.6.3","3.6.3","3.6.2"];
     </script>
 
 

@@ -26,13 +26,21 @@ perl-dbd-pg
    :versions:
       
       
+      .. raw:: html
 
-      ``3.15.1-0``,  ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
+         <details><summary><span class="truncated-version-list"><code>3.15.1-1</code>,  <code>3.15.1-0</code>,  <code>3.15.0-2</code>,  <code>3.15.0-1</code>,  <code>3.15.0-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.4-0</code>,  <code>3.5.3-1</code>,  </span></summary>
+      
 
+      ``3.15.1-1``,  ``3.15.1-0``,  ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libpq: ``>=14.2,<15.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 
@@ -68,7 +76,7 @@ perl-dbd-pg
 
     <script>
         var package = "perl-dbd-pg";
-        var versions = ["3.15.1","3.15.0","3.15.0","3.15.0","3.8.1"];
+        var versions = ["3.15.1","3.15.1","3.15.0","3.15.0","3.15.0"];
     </script>
 
 

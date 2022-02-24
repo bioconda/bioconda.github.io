@@ -41,6 +41,7 @@ r-samr
 
    
    :depends bioconductor-impute: ``>=1.56.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gsa: 
    :depends r-matrixstats: 
