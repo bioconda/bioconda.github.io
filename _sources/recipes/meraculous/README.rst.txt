@@ -29,17 +29,17 @@ meraculous
       
       
 
-      ``2.2.6-3``,  ``2.2.6-2``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5.1.1.ga103cd6-0``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``
+      ``2.2.6-4``,  ``2.2.6-3``,  ``2.2.6-2``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5.1.1.ga103cd6-0``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends gnuplot: ``>=3.7``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgd: ``>=2.0``
    :depends libgd: ``>=2.3.3,<2.4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-log-log4perl: ``>=1.31``
    :requirements:
@@ -73,7 +73,7 @@ meraculous
 
     <script>
         var package = "meraculous";
-        var versions = ["2.2.6","2.2.6","2.2.6","2.2.6","2.2.5.1.1.ga103cd6"];
+        var versions = ["2.2.6","2.2.6","2.2.6","2.2.6","2.2.6"];
     </script>
 
 

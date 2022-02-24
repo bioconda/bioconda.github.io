@@ -27,7 +27,7 @@ bioconductor-amaretto
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
 
       
 
@@ -39,9 +39,9 @@ bioconductor-amaretto
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-callr: ``>=3.0.0.9001``
    :depends r-circlize: 
@@ -92,7 +92,7 @@ bioconductor-amaretto
 
     <script>
         var package = "bioconductor-amaretto";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

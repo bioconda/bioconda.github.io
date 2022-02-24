@@ -26,16 +26,24 @@ bioconductor-ibmq
    :versions:
       
       
+      .. raw:: html
 
-      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
+      
 
+      ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: ``>=0.9.2``
@@ -70,7 +78,7 @@ bioconductor-ibmq
 
     <script>
         var package = "bioconductor-ibmq";
-        var versions = ["1.34.0","1.34.0","1.32.0","1.30.0","1.30.0"];
+        var versions = ["1.34.0","1.34.0","1.34.0","1.32.0","1.30.0"];
     </script>
 
 
