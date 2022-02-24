@@ -27,13 +27,13 @@ ogdf
       
       
 
-      ``201207-3``,  ``201207-2``,  ``201207-1``,  ``201207-0``
+      ``201207-4``,  ``201207-3``,  ``201207-2``,  ``201207-1``,  ``201207-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ ogdf
 
     <script>
         var package = "ogdf";
-        var versions = ["201207","201207","201207","201207"];
+        var versions = ["201207","201207","201207","201207","201207"];
     </script>
 
 

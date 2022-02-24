@@ -40,7 +40,8 @@ pybedgraph
       
 
    
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends numpy: ``>=1.16.4``
    :depends pybigwig: ``>=0.3.16``
    :depends python: ``>=3.6,<3.7.0a0``

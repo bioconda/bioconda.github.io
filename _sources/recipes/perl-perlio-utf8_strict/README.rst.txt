@@ -27,13 +27,13 @@ perl-perlio-utf8_strict
       
       
 
-      ``0.009-0``,  ``0.007-3``,  ``0.007-1``,  ``0.007-0``,  ``0.006-1``,  ``0.006-0``
+      ``0.009-1``,  ``0.009-0``,  ``0.007-3``,  ``0.007-1``,  ``0.007-0``,  ``0.006-1``,  ``0.006-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -66,7 +66,7 @@ perl-perlio-utf8_strict
 
     <script>
         var package = "perl-perlio-utf8_strict";
-        var versions = ["0.009","0.007","0.007","0.007","0.006"];
+        var versions = ["0.009","0.009","0.007","0.007","0.007"];
     </script>
 
 

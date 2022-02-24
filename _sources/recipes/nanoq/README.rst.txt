@@ -32,6 +32,7 @@ nanoq
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

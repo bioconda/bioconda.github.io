@@ -27,13 +27,13 @@ bayescan
       
       
 
-      ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ bayescan
 
     <script>
         var package = "bayescan";
-        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","2.0.1"];
     </script>
 
 

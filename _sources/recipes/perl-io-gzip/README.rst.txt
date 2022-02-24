@@ -32,6 +32,7 @@ perl-io-gzip
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

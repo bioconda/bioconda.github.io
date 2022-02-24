@@ -27,15 +27,15 @@ scallop-lr
       
       
 
-      ``0.9.2-4``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``
+      ``0.9.2-5``,  ``0.9.2-4``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,7 +27,7 @@ lordec
       
       
 
-      ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``
+      ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``
 
       
 
@@ -35,8 +35,8 @@ lordec
    :depends boost: ``>=1.74.0,<1.74.1.0a0``
    :depends gatb: ``1.4.1.*``
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -69,7 +69,7 @@ lordec
 
     <script>
         var package = "lordec";
-        var versions = ["0.9","0.9","0.9","0.6","0.6"];
+        var versions = ["0.9","0.9","0.9","0.9","0.6"];
     </script>
 
 

@@ -41,7 +41,8 @@ decifer
 
    
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends numpy: ``>=1.16.1``
    :depends pandas: 
    :depends python: ``>=3.7,<3.8.0a0``

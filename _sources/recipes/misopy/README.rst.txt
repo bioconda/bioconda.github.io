@@ -27,13 +27,13 @@ misopy
       
       
 
-      ``0.5.4-4``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``
+      ``0.5.4-5``,  ``0.5.4-4``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``
 
       
 
    
    :depends bedtools: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib: 
    :depends numpy: ``>=1.5.0``
    :depends pysam: ``>=0.6.0``

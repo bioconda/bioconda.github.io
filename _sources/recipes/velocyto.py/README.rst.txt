@@ -33,10 +33,10 @@ velocyto.py
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends click: 
    :depends h5py: 
-   :depends llvm-openmp: ``>=12.0.1``
-   :depends llvm-openmp: ``>=13.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends loompy: 
    :depends matplotlib-base: 
    :depends numba: 

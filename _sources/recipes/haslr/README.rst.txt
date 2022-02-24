@@ -27,14 +27,15 @@ haslr
       
       
 
-      ``0.8a1-2``,  ``0.8a1-1``,  ``0.8a1-0``
+      ``0.8a1-3``,  ``0.8a1-2``,  ``0.8a1-1``,  ``0.8a1-0``
 
       
 
    
    :depends fastutils: ``>=0.2``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends minia: ``>=3.2.1``
    :depends minimap2: ``>=2.17``
    :depends python: ``>=3.6,<3.7.0a0``
@@ -71,7 +72,7 @@ haslr
 
     <script>
         var package = "haslr";
-        var versions = ["0.8a1","0.8a1","0.8a1"];
+        var versions = ["0.8a1","0.8a1","0.8a1","0.8a1"];
     </script>
 
 

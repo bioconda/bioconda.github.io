@@ -41,11 +41,11 @@ fastspar
    
    :depends armadillo: ``>=10.8,<11.0a0``
    :depends armadillo: ``>=7.800.1``
-   :depends gnu-getopt: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcxx: ``>=12.0.1``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends openblas: ``* *openmp*``
    :requirements:
 

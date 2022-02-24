@@ -41,6 +41,7 @@ addrg
 
    
    :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

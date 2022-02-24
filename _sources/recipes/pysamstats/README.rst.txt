@@ -29,10 +29,10 @@ pysamstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-8</code>,  <code>1.1.2-7</code>,  <code>1.1.2-6</code>,  <code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-9</code>,  <code>1.1.2-8</code>,  <code>1.1.2-7</code>,  <code>1.1.2-6</code>,  <code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  </span></summary>
       
 
-      ``1.1.2-8``,  ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.24.3-0``,  ``0.24.2-1``,  ``0.24.0-0``
+      ``1.1.2-9``,  ``1.1.2-8``,  ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.24.3-0``,  ``0.24.2-1``,  ``0.24.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ pysamstats
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends numpy: 
-   :depends pysam: ``>=0.16.0.1,<0.16.1.0a0``
+   :depends pysam: ``>=0.18.0,<0.18.1.0a0``
    :depends pytables: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

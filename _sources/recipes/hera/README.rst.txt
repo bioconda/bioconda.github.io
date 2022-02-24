@@ -26,9 +26,17 @@ hera
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1-7</code>,  <code>1.1-6</code>,  <code>1.1-5</code>,  <code>1.1-4</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,7 +44,7 @@ hera
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
    :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libdivsufsort: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: 
    :depends xz: ``>=5.2.5,<5.3.0a0``

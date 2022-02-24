@@ -28,13 +28,13 @@ perl-dbd-mysql
       
       
 
-      ``4.046-3``,  ``4.046-2``,  ``4.046-1``,  ``4.046-0``,  ``4.033-3``,  ``4.033-2``,  ``4.033-1``,  ``4.033-0``
+      ``4.046-4``,  ``4.046-3``,  ``4.046-2``,  ``4.046-1``,  ``4.046-0``,  ``4.033-3``,  ``4.033-2``,  ``4.033-1``,  ``4.033-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 
@@ -69,7 +69,7 @@ perl-dbd-mysql
 
     <script>
         var package = "perl-dbd-mysql";
-        var versions = ["4.046","4.046","4.046","4.046","4.033"];
+        var versions = ["4.046","4.046","4.046","4.046","4.046"];
     </script>
 
 

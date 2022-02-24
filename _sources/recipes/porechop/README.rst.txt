@@ -27,13 +27,13 @@ porechop
       
       
 
-      ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3_seqan2.1.1-3``,  ``0.2.3_seqan2.1.1-2``,  ``0.2.3_seqan2.1.1-1``,  ``0.2.3_seqan2.1.1-0``
+      ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3_seqan2.1.1-3``,  ``0.2.3_seqan2.1.1-2``,  ``0.2.3_seqan2.1.1-1``,  ``0.2.3_seqan2.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
@@ -67,7 +67,7 @@ porechop
 
     <script>
         var package = "porechop";
-        var versions = ["0.2.4","0.2.4","0.2.4","0.2.3_seqan2.1.1","0.2.3_seqan2.1.1"];
+        var versions = ["0.2.4","0.2.4","0.2.4","0.2.4","0.2.3_seqan2.1.1"];
     </script>
 
 

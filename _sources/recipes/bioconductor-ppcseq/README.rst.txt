@@ -34,8 +34,9 @@ bioconductor-ppcseq
    
    :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-benchmarkme: 
    :depends r-bh: ``>=1.66.0``

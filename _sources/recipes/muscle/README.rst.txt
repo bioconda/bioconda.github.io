@@ -33,8 +33,8 @@ muscle
       
 
    
-   :depends libcxx: ``>=12.0.1``
-   :depends llvm-openmp: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,13 +27,12 @@ perl-datetime-locale
       
       
 
-      ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
+      ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dist-checkconflicts: 
    :depends perl-namespace-autoclean: 
@@ -70,7 +69,7 @@ perl-datetime-locale
 
     <script>
         var package = "perl-datetime-locale";
-        var versions = ["1.12","1.12","1.12","1.12"];
+        var versions = ["1.12","1.12","1.12","1.12","1.12"];
     </script>
 
 

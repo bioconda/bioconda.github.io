@@ -30,14 +30,14 @@ scramble
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends bioconductor-rsamtools: ``>=2.4.0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.15,<1.16.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends r-base: ``>=4.0.3``
    :depends r-optparse: ``>=1.6.6``
    :depends r-rblast: ``>=0.99.1``
@@ -73,7 +73,7 @@ scramble
 
     <script>
         var package = "scramble";
-        var versions = ["1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1"];
     </script>
 
 

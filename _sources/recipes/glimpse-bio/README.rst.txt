@@ -35,7 +35,8 @@ glimpse-bio
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends pthread-stubs: 

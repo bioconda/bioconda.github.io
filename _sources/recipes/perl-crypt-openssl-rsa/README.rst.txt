@@ -32,6 +32,7 @@ perl-crypt-openssl-rsa
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-crypt-openssl-guess: ``0.15.*``

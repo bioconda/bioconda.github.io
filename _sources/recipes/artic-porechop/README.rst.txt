@@ -27,13 +27,13 @@ artic-porechop
       
       
 
-      ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
+      ``0.3.2pre-3``,  ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
@@ -67,7 +67,7 @@ artic-porechop
 
     <script>
         var package = "artic-porechop";
-        var versions = ["0.3.2pre","0.3.2pre","0.3.2pre"];
+        var versions = ["0.3.2pre","0.3.2pre","0.3.2pre","0.3.2pre"];
     </script>
 
 

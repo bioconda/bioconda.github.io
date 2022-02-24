@@ -27,13 +27,13 @@ nucleosome_prediction
       
       
 
-      ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+      ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -66,7 +66,7 @@ nucleosome_prediction
 
     <script>
         var package = "nucleosome_prediction";
-        var versions = ["3.0","3.0","3.0","3.0"];
+        var versions = ["3.0","3.0","3.0","3.0","3.0"];
     </script>
 
 
