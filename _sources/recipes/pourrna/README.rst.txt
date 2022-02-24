@@ -28,15 +28,14 @@ pourrna
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends viennarna: ``>=2.4.14,<3.0.0``
-   :depends viennarna: ``>=2.4.17,<2.5.0a0``
+   :depends viennarna: ``>=2.5.0,<2.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +67,7 @@ pourrna
 
     <script>
         var package = "pourrna";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.1.0","1.0.1"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0","1.1.0"];
     </script>
 
 

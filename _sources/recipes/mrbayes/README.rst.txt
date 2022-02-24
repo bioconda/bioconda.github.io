@@ -32,14 +32,13 @@ mrbayes
       
       
 
-      ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
+      ``3.2.7-4``,  ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
 
       
 
    
    :depends beagle-lib: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends ncurses: ``>=6.2,<6.3.0a0``
+   :depends ncurses: ``>=6.3,<7.0a0``
    :depends openmpi: ``>=4.1.2,<5.0a0``
    :depends readline: ``>=8.1,<9.0a0``
    :requirements:
@@ -73,7 +72,7 @@ mrbayes
 
     <script>
         var package = "mrbayes";
-        var versions = ["3.2.7","3.2.7","3.2.7","3.2.7","3.2.7a"];
+        var versions = ["3.2.7","3.2.7","3.2.7","3.2.7","3.2.7"];
     </script>
 
 

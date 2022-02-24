@@ -27,14 +27,14 @@ fastlmm
       
       
 
-      ``0.2.32-4``,  ``0.2.32-3``,  ``0.2.32-2``,  ``0.2.32-1``,  ``0.2.32-0``,  ``0.2.24-0``
+      ``0.2.32-5``,  ``0.2.32-4``,  ``0.2.32-3``,  ``0.2.32-2``,  ``0.2.32-1``,  ``0.2.32-0``,  ``0.2.24-0``
 
       
 
    
    :depends dill: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends matplotlib: ``>=1.4.3``
    :depends numpy: ``>=1.9.3``
    :depends pandas: ``>=0.16.2``

@@ -29,10 +29,10 @@ bioconductor-rbgl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.1-0</code>,  <code>1.60.0-1</code>,  <code>1.58.2-0</code>,  <code>1.58.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-1</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.1-0</code>,  <code>1.60.0-1</code>,  <code>1.58.2-0</code>,  </span></summary>
       
 
-      ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.1-0``,  ``1.60.0-1``,  ``1.58.2-0``,  ``1.58.1-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.48.1-1``,  ``1.46.0-1``,  ``1.46.0-0``
+      ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.1-0``,  ``1.60.0-1``,  ``1.58.2-0``,  ``1.58.1-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.48.1-1``,  ``1.46.0-1``,  ``1.46.0-0``
 
       
       .. raw:: html
@@ -43,9 +43,8 @@ bioconductor-rbgl
    
    :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
    :requirements:
@@ -79,7 +78,7 @@ bioconductor-rbgl
 
     <script>
         var package = "bioconductor-rbgl";
-        var versions = ["1.70.0","1.68.0","1.66.0","1.66.0","1.64.0"];
+        var versions = ["1.70.0","1.70.0","1.68.0","1.66.0","1.66.0"];
     </script>
 
 

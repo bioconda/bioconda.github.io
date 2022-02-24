@@ -31,7 +31,7 @@ tigmint
       
       
 
-      ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
+      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
 
       
 
@@ -39,8 +39,8 @@ tigmint
    :depends _openmp_mutex: ``>=4.5``
    :depends bwa: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends make: 
    :depends minimap2: 
@@ -80,7 +80,7 @@ tigmint
 
     <script>
         var package = "tigmint";
-        var versions = ["1.2.5","1.2.4","1.2.4","1.2.3","1.2.2"];
+        var versions = ["1.2.5","1.2.5","1.2.4","1.2.4","1.2.3"];
     </script>
 
 

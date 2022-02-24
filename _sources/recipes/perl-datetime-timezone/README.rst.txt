@@ -27,13 +27,12 @@ perl-datetime-timezone
       
       
 
-      ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+      ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-module-runtime: 
@@ -72,7 +71,7 @@ perl-datetime-timezone
 
     <script>
         var package = "perl-datetime-timezone";
-        var versions = ["2.51","2.09","2.09","2.09","2.09"];
+        var versions = ["2.51","2.51","2.09","2.09","2.09"];
     </script>
 
 

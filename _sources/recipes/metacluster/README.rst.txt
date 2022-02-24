@@ -32,13 +32,13 @@ metacluster
       
       
 
-      ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1-0``
+      ``5.1-4``,  ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ metacluster
 
     <script>
         var package = "metacluster";
-        var versions = ["5.1","5.1","5.1","5.1"];
+        var versions = ["5.1","5.1","5.1","5.1","5.1"];
     </script>
 
 

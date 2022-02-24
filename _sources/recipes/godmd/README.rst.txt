@@ -27,16 +27,16 @@ godmd
       
       
 
-      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libgfortran5: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ godmd
 
     <script>
         var package = "godmd";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

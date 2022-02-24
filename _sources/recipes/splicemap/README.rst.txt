@@ -28,14 +28,13 @@ splicemap
       
       
 
-      ``3.3.5.2-3``,  ``3.3.5.2-2``,  ``3.3.5.2-1``,  ``3.3.5.2-0``
+      ``3.3.5.2-4``,  ``3.3.5.2-3``,  ``3.3.5.2-2``,  ``3.3.5.2-1``,  ``3.3.5.2-0``
 
       
 
    
    :depends bowtie: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ splicemap
 
     <script>
         var package = "splicemap";
-        var versions = ["3.3.5.2","3.3.5.2","3.3.5.2","3.3.5.2"];
+        var versions = ["3.3.5.2","3.3.5.2","3.3.5.2","3.3.5.2","3.3.5.2"];
     </script>
 
 

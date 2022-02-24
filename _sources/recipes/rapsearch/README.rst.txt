@@ -28,13 +28,13 @@ rapsearch
       
       
 
-      ``2.24-4``,  ``2.24-3``,  ``2.24-2``,  ``2.24-1``,  ``2.24-0``
+      ``2.24-5``,  ``2.24-4``,  ``2.24-3``,  ``2.24-2``,  ``2.24-1``,  ``2.24-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation

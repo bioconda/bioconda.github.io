@@ -28,13 +28,13 @@ gffcompare
       
       
 
-      ``0.11.2-2``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
+      ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ gffcompare
 
     <script>
         var package = "gffcompare";
-        var versions = ["0.11.2","0.11.2","0.11.2","0.10.6","0.9.8"];
+        var versions = ["0.11.2","0.11.2","0.11.2","0.11.2","0.10.6"];
     </script>
 
 

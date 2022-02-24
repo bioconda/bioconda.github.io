@@ -27,15 +27,15 @@ rnabridge-align
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ rnabridge-align
 
     <script>
         var package = "rnabridge-align";
-        var versions = ["1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

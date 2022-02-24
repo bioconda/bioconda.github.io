@@ -28,20 +28,19 @@ rnaredprint
       
       
 
-      ``0.3pre-2``,  ``0.3pre-1``,  ``0.3pre-0``
+      ``0.3pre-3``,  ``0.3pre-2``,  ``0.3pre-1``,  ``0.3pre-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends openjdk: 
    :depends python: ``>=3.9,<3.10.0a0``
    :depends scipy: 
    :depends viennarna: ``>=2.4``
-   :depends viennarna: ``>=2.4.17,<2.5.0a0``
+   :depends viennarna: ``>=2.5.0,<2.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +72,7 @@ rnaredprint
 
     <script>
         var package = "rnaredprint";
-        var versions = ["0.3pre","0.3pre","0.3pre"];
+        var versions = ["0.3pre","0.3pre","0.3pre","0.3pre"];
     </script>
 
 

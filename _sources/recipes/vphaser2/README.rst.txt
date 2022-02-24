@@ -28,10 +28,10 @@ vphaser2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0-10</code>,  <code>2.0-9</code>,  <code>2.0-8</code>,  <code>2.0-7</code>,  <code>2.0-6</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  <code>2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0-11</code>,  <code>2.0-10</code>,  <code>2.0-9</code>,  <code>2.0-8</code>,  <code>2.0-7</code>,  <code>2.0-6</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  </span></summary>
       
 
-      ``2.0-10``,  ``2.0-9``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-11``,  ``2.0-10``,  ``2.0-9``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,9 @@ vphaser2
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

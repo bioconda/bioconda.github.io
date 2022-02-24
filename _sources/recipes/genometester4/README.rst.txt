@@ -28,12 +28,12 @@ genometester4
       
       
 
-      ``4.0-3``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``
+      ``4.0-4``,  ``4.0-3``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ genometester4
 
     <script>
         var package = "genometester4";
-        var versions = ["4.0","4.0","4.0","4.0"];
+        var versions = ["4.0","4.0","4.0","4.0","4.0"];
     </script>
 
 

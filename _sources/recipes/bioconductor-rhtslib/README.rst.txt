@@ -29,10 +29,10 @@ bioconductor-rhtslib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.16.1-1</code>,  <code>1.16.1-0</code>,  <code>1.14.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.16.1-1</code>,  <code>1.16.1-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-1``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-1``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ bioconductor-rhtslib
    
    :depends bioconductor-zlibbioc: ``>=1.40.0,<1.41.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -77,7 +77,7 @@ bioconductor-rhtslib
 
     <script>
         var package = "bioconductor-rhtslib";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.22.0","1.20.0"];
+        var versions = ["1.26.0","1.26.0","1.24.0","1.22.0","1.22.0"];
     </script>
 
 

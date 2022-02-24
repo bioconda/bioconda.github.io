@@ -27,7 +27,7 @@ r-perfmeas
       
       
 
-      ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
+      ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
 
       
 
@@ -35,7 +35,6 @@ r-perfmeas
    :depends bioconductor-graph: 
    :depends bioconductor-limma: 
    :depends bioconductor-rbgl: 
-   :depends libgcc-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

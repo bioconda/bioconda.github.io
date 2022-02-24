@@ -27,13 +27,13 @@ satsuma2
       
       
 
-      ``20161123-3``,  ``20161123-2``,  ``20161123-1``,  ``20161123-0``
+      ``20161123-4``,  ``20161123-3``,  ``20161123-2``,  ``20161123-1``,  ``20161123-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ satsuma2
 
     <script>
         var package = "satsuma2";
-        var versions = ["20161123","20161123","20161123","20161123"];
+        var versions = ["20161123","20161123","20161123","20161123","20161123"];
     </script>
 
 

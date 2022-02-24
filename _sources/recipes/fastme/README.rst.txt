@@ -28,12 +28,12 @@ fastme
       
       
 
-      ``2.1.6.1-0``,  ``2.1.5-0``
+      ``2.1.6.1-1``,  ``2.1.6.1-0``,  ``2.1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ fastme
 
     <script>
         var package = "fastme";
-        var versions = ["2.1.6.1","2.1.5"];
+        var versions = ["2.1.6.1","2.1.6.1","2.1.5"];
     </script>
 
 

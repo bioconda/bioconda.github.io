@@ -27,13 +27,13 @@ pandora
       
       
 
-      ``0.9.1-0``
+      ``0.9.1-1``,  ``0.9.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ pandora
 
     <script>
         var package = "pandora";
-        var versions = ["0.9.1"];
+        var versions = ["0.9.1","0.9.1"];
     </script>
 
 

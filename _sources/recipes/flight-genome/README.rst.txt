@@ -10,7 +10,7 @@ flight-genome
    :replaces_section_title:
    :noindex:
 
-   flight \- metagenomic binner and variant clusterer.
+   flight \- python component of Rosella and Lorikeet
 
    :homepage: https://github.com/rhysnewell/flight
    :license: BSD / BSD-3
@@ -28,10 +28,10 @@ flight-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,19 +41,8 @@ flight-genome
 
    
    :depends biopython: 
-   :depends hdbscan: 
-   :depends imageio: 
-   :depends joblib: ``0.17.0``
-   :depends matplotlib-base: 
-   :depends numba: 
-   :depends numpy: 
-   :depends pynndescent: 
    :depends python: 
-   :depends scikit-bio: 
-   :depends scikit-learn: 
-   :depends seaborn: 
-   :depends threadpoolctl: 
-   :depends umap-learn: ``>=0.5``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +74,7 @@ flight-genome
 
     <script>
         var package = "flight-genome";
-        var versions = ["1.4.3","1.4.2","1.4.1","1.4.0","1.3.2"];
+        var versions = ["1.4.3","1.4.3","1.4.2","1.4.1","1.4.0"];
     </script>
 
 

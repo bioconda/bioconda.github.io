@@ -27,14 +27,14 @@ clair3-illumina
       
       
 
-      ``0.1.5-0``
+      ``0.1.5-1``,  ``0.1.5-0``
 
       
 
    
    :depends clair3: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ clair3-illumina
 
     <script>
         var package = "clair3-illumina";
-        var versions = ["0.1.5"];
+        var versions = ["0.1.5","0.1.5"];
     </script>
 
 

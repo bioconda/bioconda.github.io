@@ -34,6 +34,7 @@ simba_pbg
    
    :depends attrs: ``>=18.2``
    :depends h5py: ``>=2.8``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: ``>=1.12``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``

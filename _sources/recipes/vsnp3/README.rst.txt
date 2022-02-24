@@ -27,35 +27,35 @@ vsnp3
       
       
 
-      ``3.02-0``,  ``3.01-0``
+      ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
 
    
-   :depends biopython: 
-   :depends cairosvg: 
-   :depends dask: 
-   :depends freebayes: 
-   :depends humanize: 
-   :depends minimap2: 
-   :depends numpy: 
-   :depends openpyxl: 
-   :depends pandas: 
+   :depends biopython: ``>=1.79``
+   :depends cairosvg: ``>=2.5.2``
+   :depends dask: ``>=2022.01.1``
+   :depends freebayes: ``>=1.3.5``
+   :depends humanize: ``>=3.14.0``
+   :depends minimap2: ``>=2.24``
+   :depends numpy: ``>=1.22.2``
+   :depends openpyxl: ``>=3.0.9``
+   :depends pandas: ``>=1.4.0``
    :depends parallel: 
    :depends pigz: 
    :depends py-cpuinfo: 
    :depends python: ``>=3.7``
    :depends pyvcf: 
-   :depends raxml: 
-   :depends regex: 
-   :depends samtools: ``1.14``
-   :depends scikit-allel: 
-   :depends seqkit: 
-   :depends sourmash: 
-   :depends spades: 
-   :depends svgwrite: 
+   :depends raxml: ``>=8.2.12``
+   :depends regex: ``>=2.5.110``
+   :depends samtools: ``>=1.14``
+   :depends scikit-allel: ``>=1.3.5``
+   :depends seqkit: ``>=2.1.0``
+   :depends sourmash: ``>=4.2.4``
+   :depends spades: ``>=3.15.2``
+   :depends svgwrite: ``>=1.4.1``
    :depends vcflib: 
-   :depends xlsxwriter: 
+   :depends xlsxwriter: ``>=3.0.2``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +87,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.02","3.01"];
+        var versions = ["3.04","3.02","3.01"];
     </script>
 
 

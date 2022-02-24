@@ -27,18 +27,18 @@ cnvnator
       
       
 
-      ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends matplotlib-base: 
-   :depends ncurses: ``>=6.2,<6.3.0a0``
+   :depends ncurses: ``>=6.3,<7.0a0``
    :depends numpy: 
    :depends perl-getopt-long: 
    :depends python: ``>=3.9,<3.10.0a0``

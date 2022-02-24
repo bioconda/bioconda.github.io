@@ -33,13 +33,13 @@ abundancebin
       
       
 
-      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ abundancebin
 
     <script>
         var package = "abundancebin";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

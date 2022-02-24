@@ -28,15 +28,16 @@ solexaqa
       
       
 
-      ``3.1.7.1-2``,  ``3.1.7.1-1``,  ``3.1.7.1-0``
+      ``3.1.7.1-3``,  ``3.1.7.1-2``,  ``3.1.7.1-1``,  ``3.1.7.1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends icu: ``>=68.1,<69.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends icu: ``>=69.1,<70.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -69,7 +70,7 @@ solexaqa
 
     <script>
         var package = "solexaqa";
-        var versions = ["3.1.7.1","3.1.7.1","3.1.7.1"];
+        var versions = ["3.1.7.1","3.1.7.1","3.1.7.1","3.1.7.1"];
     </script>
 
 

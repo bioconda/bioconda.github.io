@@ -28,13 +28,13 @@ micall-lite
       
       
 
-      ``0.1rc5-2``,  ``0.1rc5-1``,  ``0.1rc5-0``,  ``0.1rc4-0``,  ``0.1rc3-0``,  ``0.1rc2-0``,  ``0.1rc-0``
+      ``0.1rc5-3``,  ``0.1rc5-2``,  ``0.1rc5-1``,  ``0.1rc5-0``,  ``0.1rc4-0``,  ``0.1rc3-0``,  ``0.1rc2-0``,  ``0.1rc-0``
 
       
 
    
    :depends bowtie2: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python-levenshtein: 
    :depends python_abi: ``3.6.* *_cp36m``
@@ -69,7 +69,7 @@ micall-lite
 
     <script>
         var package = "micall-lite";
-        var versions = ["0.1rc5","0.1rc5","0.1rc5","0.1rc4","0.1rc3"];
+        var versions = ["0.1rc5","0.1rc5","0.1rc5","0.1rc5","0.1rc4"];
     </script>
 
 

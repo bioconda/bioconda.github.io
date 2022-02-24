@@ -27,12 +27,12 @@ squizz
       
       
 
-      ``0.99d-3``,  ``0.99d-2``,  ``0.99d-1``,  ``0.99d-0``
+      ``0.99d-4``,  ``0.99d-3``,  ``0.99d-2``,  ``0.99d-1``,  ``0.99d-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ squizz
 
     <script>
         var package = "squizz";
-        var versions = ["0.99d","0.99d","0.99d","0.99d"];
+        var versions = ["0.99d","0.99d","0.99d","0.99d","0.99d"];
     </script>
 
 

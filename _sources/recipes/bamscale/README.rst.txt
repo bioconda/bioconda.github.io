@@ -28,7 +28,7 @@ bamscale
       
       
 
-      ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.3-0``
+      ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.3-0``
 
       
 
@@ -37,8 +37,8 @@ bamscale
    :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libbigwig: 
    :depends libcurl: ``>=7.81.0,<8.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -73,7 +73,7 @@ bamscale
 
     <script>
         var package = "bamscale";
-        var versions = ["0.0.5","0.0.5","0.0.5","0.0.5","0.0.3"];
+        var versions = ["0.0.5","0.0.5","0.0.5","0.0.5","0.0.5"];
     </script>
 
 

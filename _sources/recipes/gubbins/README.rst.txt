@@ -44,6 +44,7 @@ gubbins
    :depends dendropy: ``>=4.0.2``
    :depends fasttree: ``2.1.10.*``
    :depends iqtree: ``2.0.3.*``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends multiprocess: ``>=0.70``
    :depends numba: ``>=0.53``

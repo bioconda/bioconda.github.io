@@ -27,12 +27,11 @@ perl-devel-size
       
       
 
-      ``0.83-1``,  ``0.83-0``,  ``0.82-0``,  ``0.80-1``,  ``0.80-0``
+      ``0.83-2``,  ``0.83-1``,  ``0.83-0``,  ``0.82-0``,  ``0.80-1``,  ``0.80-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-test-simple: 
    :requirements:
@@ -66,7 +65,7 @@ perl-devel-size
 
     <script>
         var package = "perl-devel-size";
-        var versions = ["0.83","0.83","0.82","0.80","0.80"];
+        var versions = ["0.83","0.83","0.83","0.82","0.80"];
     </script>
 
 

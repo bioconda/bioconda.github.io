@@ -29,14 +29,13 @@ cyushuffle
       
       
 
-      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
+      ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +67,7 @@ cyushuffle
 
     <script>
         var package = "cyushuffle";
-        var versions = ["1.1.2","1.1.2","1.1.2"];
+        var versions = ["1.1.2","1.1.2","1.1.2","1.1.2"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-sub-name
       
       
 
-      ``0.21-2``,  ``0.21-1``,  ``0.21-0``
+      ``0.21-3``,  ``0.21-2``,  ``0.21-1``,  ``0.21-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-sub-name
 
     <script>
         var package = "perl-sub-name";
-        var versions = ["0.21","0.21","0.21"];
+        var versions = ["0.21","0.21","0.21","0.21"];
     </script>
 
 

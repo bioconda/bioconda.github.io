@@ -29,13 +29,13 @@ appspam
       
       
 
-      ``1.03-1``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``
+      ``1.03-2``,  ``1.03-1``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ appspam
 
     <script>
         var package = "appspam";
-        var versions = ["1.03","1.03","1.02","1.01"];
+        var versions = ["1.03","1.03","1.03","1.02","1.01"];
     </script>
 
 

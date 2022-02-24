@@ -32,7 +32,8 @@ pcst-fast
       
 
    
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends pybind11: ``>=2.4``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``

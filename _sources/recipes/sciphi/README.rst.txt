@@ -27,15 +27,15 @@ sciphi
       
       
 
-      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ sciphi
 
     <script>
         var package = "sciphi";
-        var versions = ["0.1.7","0.1.7","0.1.5","0.1.4"];
+        var versions = ["0.1.7","0.1.7","0.1.7","0.1.5","0.1.4"];
     </script>
 
 

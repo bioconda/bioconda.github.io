@@ -27,13 +27,13 @@ tantan
       
       
 
-      ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
+      ``26-2``,  ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ tantan
 
     <script>
         var package = "tantan";
-        var versions = ["26","26","13","13","13"];
+        var versions = ["26","26","26","13","13"];
     </script>
 
 

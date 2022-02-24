@@ -27,14 +27,14 @@ ac-diamond
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.75.0,<1.75.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends boost-cpp: ``>=1.77.0,<1.77.1.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ ac-diamond
 
     <script>
         var package = "ac-diamond";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

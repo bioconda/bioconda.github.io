@@ -27,13 +27,13 @@ cytocad
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends bedtools: ``>=2.26.0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends librsvg: ``>=2.50.3``
    :depends matplotlib-base: ``>=2.2.3``
    :depends numpy: ``>=1.17.3``
@@ -76,7 +76,7 @@ cytocad
 
     <script>
         var package = "cytocad";
-        var versions = ["1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.3","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

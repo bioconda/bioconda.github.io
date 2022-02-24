@@ -35,6 +35,7 @@ samwell
    :depends attrs: ``>=19.3.0``
    :depends cython: 
    :depends defopt: ``>=6.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends mypy_extensions: ``>=0.4.3``
    :depends pybedlite: ``>=0.0.1``
    :depends pysam: ``>=0.15.3``

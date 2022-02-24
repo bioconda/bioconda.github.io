@@ -27,15 +27,15 @@ linkstats
       
       
 
-      ``0.1.3-1``,  ``0.1.3-0``
+      ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
    :depends click: ``>=8.0.3``
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends matplotlib-base: ``>=3.5.1``
    :depends numpy: ``>=1.22.0``
    :depends pandas: ``>=1.3.5``
@@ -74,7 +74,7 @@ linkstats
 
     <script>
         var package = "linkstats";
-        var versions = ["0.1.3","0.1.3"];
+        var versions = ["0.1.3","0.1.3","0.1.3"];
     </script>
 
 

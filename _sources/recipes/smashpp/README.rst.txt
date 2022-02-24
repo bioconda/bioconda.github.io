@@ -27,13 +27,13 @@ smashpp
       
       
 
-      ``20.04-1``,  ``20.04-0``,  ``19.12-0``
+      ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``19.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ smashpp
 
     <script>
         var package = "smashpp";
-        var versions = ["20.04","20.04","19.12"];
+        var versions = ["20.04","20.04","20.04","19.12"];
     </script>
 
 

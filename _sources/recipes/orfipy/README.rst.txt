@@ -27,14 +27,14 @@ orfipy
       
       
 
-      ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends colorama: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends psutil: 
    :depends pyahocorasick: 
    :depends pyfastx: 
@@ -71,7 +71,7 @@ orfipy
 
     <script>
         var package = "orfipy";
-        var versions = ["0.0.4","0.0.3","0.0.3","0.0.2","0.0.1"];
+        var versions = ["0.0.4","0.0.4","0.0.3","0.0.3","0.0.2"];
     </script>
 
 

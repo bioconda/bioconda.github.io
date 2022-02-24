@@ -26,9 +26,17 @@ snap-aligner
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0beta.23-0``,  ``1.0beta.18-0``,  ``1.0dev.97-3``,  ``1.0dev.97-2``,  ``1.0dev.97-1``,  ``1.0dev.97-0``,  ``1.0dev.96-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0beta.23-0</code>,  <code>1.0beta.18-0</code>,  <code>1.0dev.97-3</code>,  <code>1.0dev.97-2</code>,  <code>1.0dev.97-1</code>,  <code>1.0dev.97-0</code>,  <code>1.0dev.96-1</code>,  </span></summary>
+      
 
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0beta.23-0``,  ``1.0beta.18-0``,  ``1.0dev.97-3``,  ``1.0dev.97-2``,  ``1.0dev.97-1``,  ``1.0dev.97-0``,  ``1.0dev.96-1``,  ``1.0dev.96-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

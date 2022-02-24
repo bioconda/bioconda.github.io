@@ -27,13 +27,13 @@ gvcf2coverage
       
       
 
-      ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ gvcf2coverage
 
     <script>
         var package = "gvcf2coverage";
-        var versions = ["0.1","0.1","0.1","0.1"];
+        var versions = ["0.1","0.1","0.1","0.1","0.1"];
     </script>
 
 

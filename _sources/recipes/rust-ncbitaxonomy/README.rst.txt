@@ -42,6 +42,7 @@ rust-ncbitaxonomy
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :depends sqlite: ``>=3.37.0,<4.0a0``
    :requirements:
 

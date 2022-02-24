@@ -28,7 +28,7 @@ shapeit4
       
       
 
-      ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1-0``,  ``4.0-0``
+      ``4.2.2-1``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1-0``,  ``4.0-0``
 
       
 
@@ -36,8 +36,8 @@ shapeit4
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``1.11.*``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ shapeit4
 
     <script>
         var package = "shapeit4";
-        var versions = ["4.2.2","4.2.1","4.2.0","4.2.0","4.1.3"];
+        var versions = ["4.2.2","4.2.2","4.2.1","4.2.0","4.2.0"];
     </script>
 
 

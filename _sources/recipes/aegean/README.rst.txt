@@ -27,7 +27,7 @@ aegean
       
       
 
-      ``0.16.0-2``,  ``0.16.0-1``,  ``0.16.0-0``
+      ``0.16.0-3``,  ``0.16.0-2``,  ``0.16.0-1``,  ``0.16.0-0``
 
       
 
@@ -35,7 +35,7 @@ aegean
    :depends cairo: ``>=1.16.0,<1.17.0a0``
    :depends genometools-genometools: 
    :depends git: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends pango: ``>=1.48.10,<1.49.0a0``
    :requirements:
@@ -69,7 +69,7 @@ aegean
 
     <script>
         var package = "aegean";
-        var versions = ["0.16.0","0.16.0","0.16.0"];
+        var versions = ["0.16.0","0.16.0","0.16.0","0.16.0"];
     </script>
 
 

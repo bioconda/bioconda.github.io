@@ -39,6 +39,7 @@ cooltools
    :depends cooler: ``>=0.8.5``
    :depends cytoolz: ``<0.11``
    :depends joblib: 
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends numba: 
    :depends numpy: 

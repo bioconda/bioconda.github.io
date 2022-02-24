@@ -29,10 +29,10 @@ bioconductor-proloc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.1-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.18.0-0``
+      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -48,9 +48,8 @@ bioconductor-proloc
    :depends bioconductor-mlinterfaces: ``>=1.74.0,<1.75.0``
    :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-caret: 
    :depends r-class: 
@@ -109,7 +108,7 @@ bioconductor-proloc
 
     <script>
         var package = "bioconductor-proloc";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.28.0"];
+        var versions = ["1.34.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

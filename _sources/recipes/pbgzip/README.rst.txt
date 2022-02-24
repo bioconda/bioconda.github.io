@@ -33,6 +33,7 @@ pbgzip
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

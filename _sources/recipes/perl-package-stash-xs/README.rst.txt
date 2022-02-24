@@ -27,13 +27,12 @@ perl-package-stash-xs
       
       
 
-      ``0.29-0``,  ``0.28-3``,  ``0.28-1``,  ``0.28-0``
+      ``0.29-1``,  ``0.29-0``,  ``0.28-3``,  ``0.28-1``,  ``0.28-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -66,7 +65,7 @@ perl-package-stash-xs
 
     <script>
         var package = "perl-package-stash-xs";
-        var versions = ["0.29","0.28","0.28","0.28"];
+        var versions = ["0.29","0.29","0.28","0.28","0.28"];
     </script>
 
 

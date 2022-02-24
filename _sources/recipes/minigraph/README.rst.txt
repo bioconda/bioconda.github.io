@@ -28,7 +28,7 @@ minigraph
       
       
 
-      ``0.16-0``,  ``0.15-0``
+      ``0.16-0``,  ``0.15-1``,  ``0.15-0``
 
       
 
@@ -66,7 +66,7 @@ minigraph
 
     <script>
         var package = "minigraph";
-        var versions = ["0.16","0.15"];
+        var versions = ["0.16","0.15","0.15"];
     </script>
 
 

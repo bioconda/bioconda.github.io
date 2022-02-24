@@ -32,14 +32,14 @@ sracat
       
       
 
-      ``0.2-0``
+      ``0.2-1``,  ``0.2-0``
 
       
 
    
    :depends ca-certificates: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -72,7 +72,7 @@ sracat
 
     <script>
         var package = "sracat";
-        var versions = ["0.2"];
+        var versions = ["0.2","0.2"];
     </script>
 
 

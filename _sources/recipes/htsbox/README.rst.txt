@@ -26,13 +26,21 @@ htsbox
    :versions:
       
       
+      .. raw:: html
 
-      ``r346-1``,  ``r346-0``,  ``r340-2``,  ``r340-1``,  ``r340-0``,  ``r327-0``,  ``r315-1``,  ``r315-0``,  ``r312-0``
+         <details><summary><span class="truncated-version-list"><code>r346-2</code>,  <code>r346-1</code>,  <code>r346-0</code>,  <code>r340-2</code>,  <code>r340-1</code>,  <code>r340-0</code>,  <code>r327-0</code>,  <code>r315-2</code>,  <code>r315-1</code>,  </span></summary>
+      
 
+      ``r346-2``,  ``r346-1``,  ``r346-0``,  ``r340-2``,  ``r340-1``,  ``r340-0``,  ``r327-0``,  ``r315-2``,  ``r315-1``,  ``r315-0``,  ``r312-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -65,7 +73,7 @@ htsbox
 
     <script>
         var package = "htsbox";
-        var versions = ["r346","r346","r340","r340","r340"];
+        var versions = ["r346","r346","r346","r340","r340"];
     </script>
 
 

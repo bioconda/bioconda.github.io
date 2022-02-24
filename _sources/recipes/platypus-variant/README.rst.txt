@@ -28,10 +28,10 @@ platypus-variant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.1.2-3</code>,  <code>0.8.1.2-2</code>,  <code>0.8.1.2-1</code>,  <code>0.8.1.2-0</code>,  <code>0.8.1.1-3</code>,  <code>0.8.1.1-2</code>,  <code>0.8.1.1-1</code>,  <code>0.8.1.1-0</code>,  <code>0.8.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1.2-4</code>,  <code>0.8.1.2-3</code>,  <code>0.8.1.2-2</code>,  <code>0.8.1.2-1</code>,  <code>0.8.1.2-0</code>,  <code>0.8.1.1-3</code>,  <code>0.8.1.1-2</code>,  <code>0.8.1.1-1</code>,  <code>0.8.1.1-0</code>,  </span></summary>
       
 
-      ``0.8.1.2-3``,  ``0.8.1.2-2``,  ``0.8.1.2-1``,  ``0.8.1.2-0``,  ``0.8.1.1-3``,  ``0.8.1.1-2``,  ``0.8.1.1-1``,  ``0.8.1.1-0``,  ``0.8.1-1``,  ``0.8.1-0``
+      ``0.8.1.2-4``,  ``0.8.1.2-3``,  ``0.8.1.2-2``,  ``0.8.1.2-1``,  ``0.8.1.2-0``,  ``0.8.1.1-3``,  ``0.8.1.1-2``,  ``0.8.1.1-1``,  ``0.8.1.1-0``,  ``0.8.1-1``,  ``0.8.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ platypus-variant
 
    
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
@@ -75,7 +75,7 @@ platypus-variant
 
     <script>
         var package = "platypus-variant";
-        var versions = ["0.8.1.2","0.8.1.2","0.8.1.2","0.8.1.2","0.8.1.1"];
+        var versions = ["0.8.1.2","0.8.1.2","0.8.1.2","0.8.1.2","0.8.1.2"];
     </script>
 
 

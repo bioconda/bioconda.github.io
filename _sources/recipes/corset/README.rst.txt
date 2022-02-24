@@ -28,14 +28,14 @@ corset
       
       
 
-      ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
+      ``1.09-3``,  ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ corset
 
     <script>
         var package = "corset";
-        var versions = ["1.09","1.09","1.09","1.07","1.06"];
+        var versions = ["1.09","1.09","1.09","1.09","1.07"];
     </script>
 
 

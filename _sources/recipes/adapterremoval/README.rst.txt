@@ -27,14 +27,16 @@ adapterremoval
       
       
 
-      ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
+      ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +69,7 @@ adapterremoval
 
     <script>
         var package = "adapterremoval";
-        var versions = ["2.3.2","2.3.2","2.3.1","2.3.1","2.3.0"];
+        var versions = ["2.3.2","2.3.2","2.3.2","2.3.1","2.3.1"];
     </script>
 
 

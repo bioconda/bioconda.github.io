@@ -27,7 +27,7 @@ sketchy
       
       
 
-      ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.1-0``,  ``0.4.3-0``
+      ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.1-0``,  ``0.4.3-0``
 
       
 
@@ -37,8 +37,8 @@ sketchy
    :depends colorama: 
    :depends dendropy: 
    :depends deprecation: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends mash: ``2.2``
    :depends matplotlib-base: 
    :depends networkx: 
@@ -88,7 +88,7 @@ sketchy
 
     <script>
         var package = "sketchy";
-        var versions = ["0.4.5","0.4.5","0.4.4","0.4.4","0.4.3.1"];
+        var versions = ["0.4.5","0.4.5","0.4.5","0.4.4","0.4.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-ramwas
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
@@ -38,7 +38,6 @@ bioconductor-ramwas
    :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
@@ -76,7 +75,7 @@ bioconductor-ramwas
 
     <script>
         var package = "bioconductor-ramwas";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.12.0"];
+        var versions = ["1.18.0","1.18.0","1.16.0","1.14.0","1.14.0"];
     </script>
 
 

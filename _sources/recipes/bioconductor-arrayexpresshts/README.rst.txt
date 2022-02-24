@@ -27,7 +27,7 @@ bioconductor-arrayexpresshts
       
       
 
-      ``1.44.0-0``,  ``1.42.0-0``,  ``1.36.0-0``,  ``1.34.2-0``,  ``1.32.1-0``,  ``1.32.0-0``
+      ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.36.0-0``,  ``1.34.2-0``,  ``1.32.1-0``,  ``1.32.0-0``
 
       
 
@@ -43,7 +43,6 @@ bioconductor-arrayexpresshts
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bitops: 
@@ -87,7 +86,7 @@ bioconductor-arrayexpresshts
 
     <script>
         var package = "bioconductor-arrayexpresshts";
-        var versions = ["1.44.0","1.42.0","1.36.0","1.34.2","1.32.1"];
+        var versions = ["1.44.0","1.44.0","1.42.0","1.36.0","1.34.2"];
     </script>
 
 

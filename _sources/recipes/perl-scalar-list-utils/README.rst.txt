@@ -28,10 +28,10 @@ perl-scalar-list-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.61-0</code>,  <code>1.60-0</code>,  <code>1.52-1</code>,  <code>1.52-0</code>,  <code>1.51-0</code>,  <code>1.50-0</code>,  <code>1.45-4</code>,  <code>1.45-3</code>,  <code>1.45-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.61-1</code>,  <code>1.61-0</code>,  <code>1.60-0</code>,  <code>1.52-1</code>,  <code>1.52-0</code>,  <code>1.51-0</code>,  <code>1.50-0</code>,  <code>1.45-4</code>,  <code>1.45-3</code>,  </span></summary>
       
 
-      ``1.61-0``,  ``1.60-0``,  ``1.52-1``,  ``1.52-0``,  ``1.51-0``,  ``1.50-0``,  ``1.45-4``,  ``1.45-3``,  ``1.45-2``,  ``1.45-1``,  ``1.45-0``,  ``1.42-3``,  ``1.42-2``,  ``1.42-1``,  ``1.42-0``
+      ``1.61-1``,  ``1.61-0``,  ``1.60-0``,  ``1.52-1``,  ``1.52-0``,  ``1.51-0``,  ``1.50-0``,  ``1.45-4``,  ``1.45-3``,  ``1.45-2``,  ``1.45-1``,  ``1.45-0``,  ``1.42-3``,  ``1.42-2``,  ``1.42-1``,  ``1.42-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ perl-scalar-list-utils
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -73,7 +73,7 @@ perl-scalar-list-utils
 
     <script>
         var package = "perl-scalar-list-utils";
-        var versions = ["1.61","1.60","1.52","1.52","1.51"];
+        var versions = ["1.61","1.61","1.60","1.52","1.52"];
     </script>
 
 

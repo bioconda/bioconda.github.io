@@ -27,12 +27,12 @@ recon
       
       
 
-      ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.08-4``,  ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ recon
 
     <script>
         var package = "recon";
-        var versions = ["1.08","1.08","1.08","1.08"];
+        var versions = ["1.08","1.08","1.08","1.08","1.08"];
     </script>
 
 

@@ -32,7 +32,8 @@ r-rrbgen
       
 
    
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``
