@@ -43,7 +43,8 @@ r-stitch
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends htslib: ``>=1.4``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.2.1,<2.0a0``

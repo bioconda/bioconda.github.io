@@ -28,10 +28,10 @@ clever-toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4-9</code>,  <code>2.4-8</code>,  <code>2.4-7</code>,  <code>2.4-6</code>,  <code>2.4-5</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4-10</code>,  <code>2.4-9</code>,  <code>2.4-8</code>,  <code>2.4-7</code>,  <code>2.4-6</code>,  <code>2.4-5</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  </span></summary>
       
 
-      ``2.4-9``,  ``2.4-8``,  ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.1-3``,  ``2.0rc4-3``,  ``2.0rc4-2``,  ``2.0rc3-1``,  ``2.0rc3-0``
+      ``2.4-10``,  ``2.4-9``,  ``2.4-8``,  ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.1-3``,  ``2.0rc4-3``,  ``2.0rc4-2``,  ``2.0rc3-1``,  ``2.0rc3-0``
 
       
       .. raw:: html
@@ -44,8 +44,9 @@ clever-toolkit
    :depends bedtools: ``>=2.26``
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bwa: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends make: 
    :depends matplotlib: ``2.*``
    :depends python: ``>=3.6,<3.7.0a0``

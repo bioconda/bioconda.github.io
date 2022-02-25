@@ -28,15 +28,15 @@ smaca
       
       
 
-      ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.2.3-3``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
 
    
    :depends click: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends numpy: ``>=1.17.5,<2.0a0``
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
@@ -72,7 +72,7 @@ smaca
 
     <script>
         var package = "smaca";
-        var versions = ["1.2.3","1.2.3","1.2.3"];
+        var versions = ["1.2.3","1.2.3","1.2.3","1.2.3"];
     </script>
 
 

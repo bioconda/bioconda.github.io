@@ -28,14 +28,14 @@ ray
       
       
 
-      ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``
+      ``2.3.1-4``,  ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends openmpi: ``>=4.1.0,<5.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends openmpi: ``>=4.1.2,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ ray
 
     <script>
         var package = "ray";
-        var versions = ["2.3.1","2.3.1","2.3.1","2.3.1"];
+        var versions = ["2.3.1","2.3.1","2.3.1","2.3.1","2.3.1"];
     </script>
 
 

@@ -29,10 +29,10 @@ pybedtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-3</code>,  <code>0.8.1-2</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-3</code>,  <code>0.8.1-2</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-1</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-3``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.10-3``,  ``0.7.10-2``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.7-1``,  ``0.7.6-1``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.2-1``,  ``0.7.0-1``,  ``0.6.9-6``,  ``0.6.9-5``,  ``0.6.9-4``,  ``0.6.9-3``,  ``0.6.9-2``,  ``0.6.9-1``,  ``0.6.9-0``
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-3``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.10-3``,  ``0.7.10-2``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.7-1``,  ``0.7.6-1``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.2-1``,  ``0.7.0-1``,  ``0.6.9-6``,  ``0.6.9-5``,  ``0.6.9-4``,  ``0.6.9-3``,  ``0.6.9-2``,  ``0.6.9-1``,  ``0.6.9-0``
 
       
       .. raw:: html
@@ -42,13 +42,13 @@ pybedtools
 
    
    :depends bedtools: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends pandas: 
    :depends pysam: ``>=0.16``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends six: 
    :requirements:
 
@@ -81,7 +81,7 @@ pybedtools
 
     <script>
         var package = "pybedtools";
-        var versions = ["0.9.0","0.8.2","0.8.2","0.8.1","0.8.1"];
+        var versions = ["0.9.0","0.9.0","0.8.2","0.8.2","0.8.1"];
     </script>
 
 

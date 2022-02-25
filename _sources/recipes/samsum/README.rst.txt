@@ -27,13 +27,13 @@ samsum
       
       
 
-      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends numpy: ``>=1.17.5,<2.0a0``
    :depends pyfastx: 
    :depends pytest: 
@@ -70,7 +70,7 @@ samsum
 
     <script>
         var package = "samsum";
-        var versions = ["0.1.4","0.1.4","0.1.2","0.1.2","0.1.2"];
+        var versions = ["0.1.4","0.1.4","0.1.4","0.1.2","0.1.2"];
     </script>
 
 

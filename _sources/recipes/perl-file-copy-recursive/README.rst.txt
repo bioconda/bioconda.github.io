@@ -27,12 +27,12 @@ perl-file-copy-recursive
       
       
 
-      ``0.45-1``,  ``0.45-0``,  ``0.44-1``,  ``0.44-0``,  ``0.38-3``,  ``0.38-2``,  ``0.38-1``
+      ``0.45-2``,  ``0.45-1``,  ``0.45-0``,  ``0.44-1``,  ``0.44-0``,  ``0.38-3``,  ``0.38-2``,  ``0.38-1``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-file-copy-recursive
 
     <script>
         var package = "perl-file-copy-recursive";
-        var versions = ["0.45","0.45","0.44","0.44","0.38"];
+        var versions = ["0.45","0.45","0.45","0.44","0.44"];
     </script>
 
 

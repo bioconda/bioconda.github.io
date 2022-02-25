@@ -27,13 +27,13 @@ perl-eval-closure
       
       
 
-      ``0.14-5``,  ``0.14-4``,  ``0.14-3``,  ``0.14-1``,  ``0.14-0``
+      ``0.14-6``,  ``0.14-5``,  ``0.14-4``,  ``0.14-3``,  ``0.14-1``,  ``0.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 

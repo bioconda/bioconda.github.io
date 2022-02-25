@@ -28,13 +28,13 @@ mapdia
       
       
 
-      ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``1.0-0``
+      ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ mapdia
 
     <script>
         var package = "mapdia";
-        var versions = ["3.1.0","3.1.0","3.1.0","1.0"];
+        var versions = ["3.1.0","3.1.0","3.1.0","3.1.0","1.0"];
     </script>
 
 

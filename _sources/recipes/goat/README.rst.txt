@@ -12,11 +12,12 @@ goat
 
    Query metadata for any taxon across the tree of life.
 
+
    :homepage: https://github.com/genomehubs/goat-cli
    :license: MIT
    :recipe: /`goat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goat/meta.yaml>`_
 
-   
+   A command line interface for the GoaT API\, which is a collection of datasets to decorate the genomic tree of life.
 
 
 .. conda:package:: goat
@@ -27,7 +28,7 @@ goat
       
       
 
-      ``0.1.5-0``
+      ``0.1.51-1``,  ``0.1.51-0``,  ``0.1.5-0``
 
       
 
@@ -66,7 +67,7 @@ goat
 
     <script>
         var package = "goat";
-        var versions = ["0.1.5"];
+        var versions = ["0.1.51","0.1.51","0.1.5"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-symbol-util
       
       
 
-      ``0.0203-1``,  ``0.0203-0``
+      ``0.0203-2``,  ``0.0203-1``,  ``0.0203-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-symbol-util
 
     <script>
         var package = "perl-symbol-util";
-        var versions = ["0.0203","0.0203"];
+        var versions = ["0.0203","0.0203","0.0203"];
     </script>
 
 

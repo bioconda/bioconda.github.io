@@ -28,14 +28,13 @@ r-fastbaps
       
       
 
-      ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends bioconductor-ggtree: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends r-adegenet: 
    :depends r-ape: 
@@ -83,7 +82,7 @@ r-fastbaps
 
     <script>
         var package = "r-fastbaps";
-        var versions = ["1.0.6","1.0.4","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.0.6","1.0.6","1.0.4","1.0.3","1.0.3"];
     </script>
 
 

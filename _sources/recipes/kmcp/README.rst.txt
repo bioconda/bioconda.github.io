@@ -10,7 +10,7 @@ kmcp
    :replaces_section_title:
    :noindex:
 
-   accurate metagenomic profiling of both prokaryotic and viral organisms by pseudo\-mapping
+   accurate metagenomic profiling of both prokaryotic and viral populations by pseudo\-mapping
 
    :homepage: https://github.com/shenwei356/kmcp
    :license: MIT
@@ -27,7 +27,7 @@ kmcp
       
       
 
-      ``0.7.1-0``,  ``0.7.0-0``
+      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``
 
       
 
@@ -63,7 +63,7 @@ kmcp
 
     <script>
         var package = "kmcp";
-        var versions = ["0.7.1","0.7.0"];
+        var versions = ["0.8.0","0.7.1","0.7.0"];
     </script>
 
 

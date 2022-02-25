@@ -33,7 +33,8 @@ pourrna
       
 
    
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends viennarna: ``>=2.4.14,<3.0.0``
    :depends viennarna: ``>=2.5.0,<2.6.0a0``
    :requirements:

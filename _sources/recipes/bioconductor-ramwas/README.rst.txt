@@ -38,6 +38,7 @@ bioconductor-ramwas
    :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 

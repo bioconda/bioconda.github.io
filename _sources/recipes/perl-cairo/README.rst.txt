@@ -27,13 +27,13 @@ perl-cairo
       
       
 
-      ``1.109-0``,  ``1.106-2``,  ``1.106-1``,  ``1.106-0``
+      ``1.109-1``,  ``1.109-0``,  ``1.106-2``,  ``1.106-1``,  ``1.106-0``
 
       
 
    
    :depends cairo: ``>=1.16.0,<1.17.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-extutils-depends: 
    :depends perl-extutils-pkgconfig: 
@@ -71,7 +71,7 @@ perl-cairo
 
     <script>
         var package = "perl-cairo";
-        var versions = ["1.109","1.106","1.106","1.106"];
+        var versions = ["1.109","1.109","1.106","1.106","1.106"];
     </script>
 
 

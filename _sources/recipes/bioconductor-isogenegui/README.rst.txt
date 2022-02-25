@@ -27,7 +27,7 @@ bioconductor-isogenegui
       
       
 
-      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
+      ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
 
       
 
@@ -36,9 +36,8 @@ bioconductor-isogenegui
    :depends bioconductor-geneplotter: ``>=1.72.0,<1.73.0``
    :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ff: 
    :depends r-goric: 
@@ -84,7 +83,7 @@ bioconductor-isogenegui
 
     <script>
         var package = "bioconductor-isogenegui";
-        var versions = ["2.30.0","2.28.0","2.26.0","2.26.0","2.22.0"];
+        var versions = ["2.30.0","2.30.0","2.28.0","2.26.0","2.26.0"];
     </script>
 
 

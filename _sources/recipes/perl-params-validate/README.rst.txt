@@ -26,13 +26,21 @@ perl-params-validate
    :versions:
       
       
+      .. raw:: html
 
-      ``1.30-0``,  ``1.29-3``,  ``1.29-1``,  ``1.29-0``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+         <details><summary><span class="truncated-version-list"><code>1.30-1</code>,  <code>1.30-0</code>,  <code>1.29-3</code>,  <code>1.29-1</code>,  <code>1.29-0</code>,  <code>1.26-1</code>,  <code>1.26-0</code>,  <code>1.08-2</code>,  <code>1.08-1</code>,  </span></summary>
+      
 
+      ``1.30-1``,  ``1.30-0``,  ``1.29-3``,  ``1.29-1``,  ``1.29-0``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
@@ -68,7 +76,7 @@ perl-params-validate
 
     <script>
         var package = "perl-params-validate";
-        var versions = ["1.30","1.29","1.29","1.29","1.26"];
+        var versions = ["1.30","1.30","1.29","1.29","1.29"];
     </script>
 
 

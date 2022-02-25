@@ -28,14 +28,14 @@ inforna
       
       
 
-      ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-0``
+      ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends viennarna: ``>=2.4.17,<2.5.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends viennarna: ``>=2.5.0,<2.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ inforna
 
     <script>
         var package = "inforna";
-        var versions = ["2.1.2","2.1.2","2.1.2","2.1.2"];
+        var versions = ["2.1.2","2.1.2","2.1.2","2.1.2","2.1.2"];
     </script>
 
 

@@ -27,13 +27,21 @@ snoscan
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9b-3``,  ``0.9b-2``,  ``0.9b-1``,  ``0.9b-0``
+         <details><summary><span class="truncated-version-list"><code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9b-3</code>,  <code>0.9b-2</code>,  <code>0.9b-1</code>,  </span></summary>
+      
 
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9b-3``,  ``0.9b-2``,  ``0.9b-1``,  ``0.9b-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -66,7 +74,7 @@ snoscan
 
     <script>
         var package = "snoscan";
-        var versions = ["1.0","1.0","1.0","0.9.1","0.9.1"];
+        var versions = ["1.0","1.0","1.0","1.0","0.9.1"];
     </script>
 
 

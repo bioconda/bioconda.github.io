@@ -27,15 +27,15 @@ idemuxcpp
       
       
 
-      ``0.1.9-0``
+      ``0.1.9-1``,  ``0.1.9-0``
 
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -69,7 +69,7 @@ idemuxcpp
 
     <script>
         var package = "idemuxcpp";
-        var versions = ["0.1.9"];
+        var versions = ["0.1.9","0.1.9"];
     </script>
 
 

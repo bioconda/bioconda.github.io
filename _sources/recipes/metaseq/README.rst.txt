@@ -27,7 +27,7 @@ metaseq
       
       
 
-      ``0.5.6-4``,  ``0.5.6-3``,  ``0.5.6-2``,  ``0.5.6-0``
+      ``0.5.6-5``,  ``0.5.6-4``,  ``0.5.6-3``,  ``0.5.6-2``,  ``0.5.6-0``
 
       
 
@@ -36,7 +36,7 @@ metaseq
    :depends bx-python: ``>=0.7.1``
    :depends fisher: 
    :depends gffutils: ``>=0.8.2``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib: ``>=1.3.1``
    :depends numpy: ``>=1.8.0``
    :depends pandas: ``>=0.13.1``
@@ -78,7 +78,7 @@ metaseq
 
     <script>
         var package = "metaseq";
-        var versions = ["0.5.6","0.5.6","0.5.6","0.5.6"];
+        var versions = ["0.5.6","0.5.6","0.5.6","0.5.6","0.5.6"];
     </script>
 
 
