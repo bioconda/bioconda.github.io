@@ -28,13 +28,13 @@ dagchainer
       
       
 
-      ``r120920-1``,  ``r120920-0``
+      ``r120920-2``,  ``r120920-1``,  ``r120920-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl-carp: 
    :depends perl-data-dumper: 
    :depends perl-getopt-long: 
@@ -71,7 +71,7 @@ dagchainer
 
     <script>
         var package = "dagchainer";
-        var versions = ["r120920","r120920"];
+        var versions = ["r120920","r120920","r120920"];
     </script>
 
 

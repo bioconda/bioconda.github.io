@@ -27,15 +27,14 @@ r-pcalg
       
       
 
-      ``2.6_12-2``,  ``2.6_12-1``,  ``2.6_12-0``
+      ``2.6_12-3``,  ``2.6_12-2``,  ``2.6_12-1``,  ``2.6_12-0``
 
       
 
    
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bdsmatrix: 
@@ -82,7 +81,7 @@ r-pcalg
 
     <script>
         var package = "r-pcalg";
-        var versions = ["2.6_12","2.6_12","2.6_12"];
+        var versions = ["2.6_12","2.6_12","2.6_12","2.6_12"];
     </script>
 
 
