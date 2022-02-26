@@ -45,6 +45,7 @@ bioconductor-harshlight
    :depends bioconductor-altcdfenvs: ``>=2.56.0,<2.57.0``
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:

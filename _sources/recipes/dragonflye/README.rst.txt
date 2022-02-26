@@ -28,7 +28,7 @@ dragonflye
       
       
 
-      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -44,10 +44,12 @@ dragonflye
    :depends perl-file-spec: 
    :depends perl-findbin: 
    :depends pigz: ``>=2.6``
+   :depends porechop: 
    :depends racon: ``>=1.4.20``
    :depends rasusa: ``>=0.6``
    :depends raven-assembler: ``>=1.6.1``
    :depends seqtk: ``>=1.3``
+   :depends tensorflow-gpu: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +81,7 @@ dragonflye
 
     <script>
         var package = "dragonflye";
-        var versions = ["1.0.7","1.0.6","1.0.5","1.0.4","1.0.3"];
+        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-orfik
       
       
 
-      ``1.14.5-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.14.7-0``,  ``1.14.5-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
@@ -48,9 +48,9 @@ bioconductor-orfik
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biomartr: 
    :depends r-cowplot: ``>=1.0.0``
@@ -60,6 +60,7 @@ bioconductor-orfik
    :depends r-ggplot2: ``>=2.2.1``
    :depends r-gridextra: ``>=2.3``
    :depends r-httr: ``>=1.3.0``
+   :depends r-jsonlite: 
    :depends r-r.utils: 
    :depends r-rcpp: ``>=1.0.0``
    :depends r-xml2: ``>=1.2.0``
@@ -94,7 +95,7 @@ bioconductor-orfik
 
     <script>
         var package = "bioconductor-orfik";
-        var versions = ["1.14.5","1.12.0","1.10.1","1.8.1","1.6.0"];
+        var versions = ["1.14.7","1.14.5","1.12.0","1.10.1","1.8.1"];
     </script>
 
 

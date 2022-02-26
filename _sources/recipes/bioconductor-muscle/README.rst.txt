@@ -27,16 +27,16 @@ bioconductor-muscle
       
       
 
-      ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``
+      ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``
 
       
 
    
    :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -69,7 +69,7 @@ bioconductor-muscle
 
     <script>
         var package = "bioconductor-muscle";
-        var versions = ["3.36.0","3.34.0","3.32.0","3.32.0","3.30.0"];
+        var versions = ["3.36.0","3.36.0","3.34.0","3.32.0","3.32.0"];
     </script>
 
 
