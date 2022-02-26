@@ -27,13 +27,12 @@ perl-moosex-role-withoverloading
       
       
 
-      ``0.17-3``,  ``0.17-2``,  ``0.17-1``,  ``0.17-0``
+      ``0.17-4``,  ``0.17-3``,  ``0.17-2``,  ``0.17-1``,  ``0.17-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-aliased: 
    :depends perl-class-load: 
@@ -76,7 +75,7 @@ perl-moosex-role-withoverloading
 
     <script>
         var package = "perl-moosex-role-withoverloading";
-        var versions = ["0.17","0.17","0.17","0.17"];
+        var versions = ["0.17","0.17","0.17","0.17","0.17"];
     </script>
 
 

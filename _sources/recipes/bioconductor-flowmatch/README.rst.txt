@@ -29,10 +29,10 @@ bioconductor-flowmatch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -44,9 +44,9 @@ bioconductor-flowmatch
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcpp: ``>=0.11.0``
    :requirements:
@@ -80,7 +80,7 @@ bioconductor-flowmatch
 
     <script>
         var package = "bioconductor-flowmatch";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.26.0"];
+        var versions = ["1.30.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

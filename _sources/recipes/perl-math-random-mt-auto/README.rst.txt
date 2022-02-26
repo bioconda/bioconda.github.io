@@ -27,12 +27,12 @@ perl-math-random-mt-auto
       
       
 
-      ``6.23-3``,  ``6.23-1``,  ``6.23-0``,  ``6.22-0``
+      ``6.23-4``,  ``6.23-3``,  ``6.23-1``,  ``6.23-0``,  ``6.22-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-data-dumper: 
@@ -69,7 +69,7 @@ perl-math-random-mt-auto
 
     <script>
         var package = "perl-math-random-mt-auto";
-        var versions = ["6.23","6.23","6.23","6.22"];
+        var versions = ["6.23","6.23","6.23","6.23","6.22"];
     </script>
 
 

@@ -27,13 +27,13 @@ perl-namespace-clean
       
       
 
-      ``0.27-5``,  ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-0``
+      ``0.27-6``,  ``0.27-5``,  ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-b-hooks-endofscope: 
    :depends perl-package-stash: 

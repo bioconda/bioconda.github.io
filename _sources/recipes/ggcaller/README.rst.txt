@@ -27,7 +27,7 @@ ggcaller
       
       
 
-      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,8 +37,8 @@ ggcaller
    :depends biopython: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends graph-tool: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends pthread-stubs: 
    :depends python: ``>=3.8,<3.9.0a0``
@@ -84,7 +84,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.2.4","1.2.4","1.2.4","1.2.3","1.2.2"];
     </script>
 
 

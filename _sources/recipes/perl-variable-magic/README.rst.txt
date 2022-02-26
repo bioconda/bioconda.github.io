@@ -27,12 +27,12 @@ perl-variable-magic
       
       
 
-      ``0.62-0``,  ``0.61-3``,  ``0.61-1``,  ``0.61-0``
+      ``0.62-1``,  ``0.62-0``,  ``0.61-3``,  ``0.61-1``,  ``0.61-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-test2-suite: ``0.000144.*``
    :requirements:
@@ -66,7 +66,7 @@ perl-variable-magic
 
     <script>
         var package = "perl-variable-magic";
-        var versions = ["0.62","0.61","0.61","0.61"];
+        var versions = ["0.62","0.62","0.61","0.61","0.61"];
     </script>
 
 

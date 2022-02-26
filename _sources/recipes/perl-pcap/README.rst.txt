@@ -27,12 +27,12 @@ perl-pcap
       
       
 
-      ``3.5.2-1``,  ``3.5.2-0``,  ``1.11.1-2``,  ``1.11.1-1``,  ``1.11.1-0``
+      ``3.5.2-2``,  ``3.5.2-1``,  ``3.5.2-0``,  ``1.11.1-2``,  ``1.11.1-1``,  ``1.11.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bio-db-hts: 
    :depends perl-bio-samtools: 
@@ -74,7 +74,7 @@ perl-pcap
 
     <script>
         var package = "perl-pcap";
-        var versions = ["3.5.2","3.5.2","1.11.1","1.11.1","1.11.1"];
+        var versions = ["3.5.2","3.5.2","3.5.2","1.11.1","1.11.1"];
     </script>
 
 

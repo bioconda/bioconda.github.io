@@ -28,7 +28,7 @@ bioconductor-fraser
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -55,9 +55,8 @@ bioconductor-fraser
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bbmisc: 
    :depends r-cowplot: 
@@ -107,7 +106,7 @@ bioconductor-fraser
 
     <script>
         var package = "bioconductor-fraser";
-        var versions = ["1.6.0","1.4.0","1.2.1","1.2.1","1.2.0"];
+        var versions = ["1.6.0","1.6.0","1.4.0","1.2.1","1.2.1"];
     </script>
 
 

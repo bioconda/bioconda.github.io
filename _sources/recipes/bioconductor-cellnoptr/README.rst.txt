@@ -29,10 +29,10 @@ bioconductor-cellnoptr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.23.0-0``,  ``1.22.0-0``
+      ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.23.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -44,9 +44,9 @@ bioconductor-cellnoptr
    :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
    :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends graphviz: ``>=2.49.1,<3.0a0``
+   :depends graphviz: ``>=2.50.0,<3.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
@@ -87,7 +87,7 @@ bioconductor-cellnoptr
 
     <script>
         var package = "bioconductor-cellnoptr";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.34.0"];
+        var versions = ["1.40.0","1.40.0","1.38.0","1.36.0","1.36.0"];
     </script>
 
 

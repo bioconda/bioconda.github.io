@@ -29,10 +29,10 @@ bioconductor-monocle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-2</code>,  <code>2.18.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.12.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-2</code>,  <code>2.18.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.12.0-1</code>,  <code>2.10.0-0</code>,  </span></summary>
       
 
-      ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-2``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-2``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -47,9 +47,9 @@ bioconductor-monocle
    :depends bioconductor-hsmmsinglecell: ``>=1.14.0,<1.15.0``
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-combinat: 
@@ -107,7 +107,7 @@ bioconductor-monocle
 
     <script>
         var package = "bioconductor-monocle";
-        var versions = ["2.22.0","2.20.0","2.18.0","2.18.0","2.16.0"];
+        var versions = ["2.22.0","2.22.0","2.20.0","2.18.0","2.18.0"];
     </script>
 
 

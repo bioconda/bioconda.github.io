@@ -29,10 +29,10 @@ bioconductor-biostrings
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.50.2-0</code>,  <code>2.50.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.62.0-1</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.50.2-0</code>,  </span></summary>
       
 
-      ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.2-0``,  ``2.50.1-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.2-0``,  ``2.42.1-0``,  ``2.40.2-0``,  ``2.40.0-0``,  ``2.38.4-0``,  ``2.38.3-0``,  ``2.38.2-0``,  ``2.38.0-0``
+      ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.2-0``,  ``2.50.1-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.2-0``,  ``2.42.1-0``,  ``2.40.2-0``,  ``2.40.0-0``,  ``2.38.4-0``,  ``2.38.3-0``,  ``2.38.2-0``,  ``2.38.0-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ bioconductor-biostrings
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-xvector: ``>=0.34.0,<0.35.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-crayon: 
@@ -82,7 +82,7 @@ bioconductor-biostrings
 
     <script>
         var package = "bioconductor-biostrings";
-        var versions = ["2.62.0","2.60.0","2.58.0","2.58.0","2.56.0"];
+        var versions = ["2.62.0","2.62.0","2.60.0","2.58.0","2.58.0"];
     </script>
 
 

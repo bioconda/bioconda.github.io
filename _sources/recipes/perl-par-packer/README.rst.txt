@@ -27,12 +27,12 @@ perl-par-packer
       
       
 
-      ``1.036-3``,  ``1.036-2``,  ``1.036-1``,  ``1.036-0``
+      ``1.036-4``,  ``1.036-3``,  ``1.036-2``,  ``1.036-1``,  ``1.036-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-getopt-argvfile: 
    :depends perl-getopt-long: 
@@ -71,7 +71,7 @@ perl-par-packer
 
     <script>
         var package = "perl-par-packer";
-        var versions = ["1.036","1.036","1.036","1.036"];
+        var versions = ["1.036","1.036","1.036","1.036","1.036"];
     </script>
 
 

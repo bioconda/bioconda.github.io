@@ -28,17 +28,17 @@ mauvealigner
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgenome: 
    :depends libmems: 
    :depends libmuscle: 
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ mauvealigner
 
     <script>
         var package = "mauvealigner";
-        var versions = ["1.2.0","1.2.0","1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-rnaseqsamplesize
       
       
 
-      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``1.17.0-1``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-2``
+      ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``1.17.0-1``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-2``
 
       
 
@@ -37,9 +37,9 @@ bioconductor-rnaseqsamplesize
    :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
    :depends bioconductor-rnaseqsamplesizedata: ``>=1.26.0,<1.27.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-heatmap3: 
    :depends r-matlab: 
@@ -75,7 +75,7 @@ bioconductor-rnaseqsamplesize
 
     <script>
         var package = "bioconductor-rnaseqsamplesize";
-        var versions = ["2.4.0","2.2.0","2.0.0","2.0.0","1.17.0"];
+        var versions = ["2.4.1","2.4.0","2.2.0","2.0.0","2.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ mcroni
       
       
 
-      ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -67,7 +67,7 @@ mcroni
 
     <script>
         var package = "mcroni";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.3","1.0.1"];
     </script>
 
 

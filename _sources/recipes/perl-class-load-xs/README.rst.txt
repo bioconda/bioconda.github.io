@@ -27,13 +27,13 @@ perl-class-load-xs
       
       
 
-      ``0.10-5``,  ``0.10-4``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.09-2``,  ``0.09-0``
+      ``0.10-6``,  ``0.10-5``,  ``0.10-4``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.09-2``,  ``0.09-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-class-load: 
    :requirements:

@@ -27,13 +27,14 @@ bioconductor-bambu
       
       
 
-      ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
+      ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
 
       
 
    
    :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
    :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
    :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
    :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
@@ -43,9 +44,9 @@ bioconductor-bambu
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -84,7 +85,7 @@ bioconductor-bambu
 
     <script>
         var package = "bioconductor-bambu";
-        var versions = ["2.0.3","2.0.0","1.2.0","1.0.2","1.0.2"];
+        var versions = ["2.0.5","2.0.3","2.0.0","1.2.0","1.0.2"];
     </script>
 
 

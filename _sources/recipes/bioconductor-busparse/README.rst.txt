@@ -27,7 +27,7 @@ bioconductor-busparse
       
       
 
-      ``1.8.0-0``,  ``1.5.3-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.5.3-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
 
@@ -46,9 +46,9 @@ bioconductor-busparse
    :depends bioconductor-plyranges: ``>=1.14.0,<1.15.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
    :depends r-dplyr: 
@@ -93,7 +93,7 @@ bioconductor-busparse
 
     <script>
         var package = "bioconductor-busparse";
-        var versions = ["1.8.0","1.5.3","1.4.2","1.4.0","1.2.1"];
+        var versions = ["1.8.0","1.8.0","1.5.3","1.4.2","1.4.0"];
     </script>
 
 

@@ -38,7 +38,8 @@ gargammel
    
    :depends art: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openssl: ``1.0.2n.*``
    :depends perl: 

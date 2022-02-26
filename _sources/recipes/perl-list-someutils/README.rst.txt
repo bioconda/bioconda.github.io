@@ -27,13 +27,13 @@ perl-list-someutils
       
       
 
-      ``0.58-0``,  ``0.56-2``,  ``0.56-1``,  ``0.56-0``,  ``0.53-0``
+      ``0.58-1``,  ``0.58-0``,  ``0.56-2``,  ``0.56-1``,  ``0.56-0``,  ``0.53-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
@@ -69,7 +69,7 @@ perl-list-someutils
 
     <script>
         var package = "perl-list-someutils";
-        var versions = ["0.58","0.56","0.56","0.56","0.53"];
+        var versions = ["0.58","0.58","0.56","0.56","0.56"];
     </script>
 
 
