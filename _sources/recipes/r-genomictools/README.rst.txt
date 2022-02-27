@@ -27,14 +27,13 @@ r-genomictools
       
       
 
-      ``0.2.9.7-2``,  ``0.2.9.7-1``,  ``0.2.9.7-0``
+      ``0.2.9.7-3``,  ``0.2.9.7-2``,  ``0.2.9.7-1``,  ``0.2.9.7-0``
 
       
 
    
    :depends bioconductor-snpstats: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-data.table: ``>=1.9.6``
@@ -74,7 +73,7 @@ r-genomictools
 
     <script>
         var package = "r-genomictools";
-        var versions = ["0.2.9.7","0.2.9.7","0.2.9.7"];
+        var versions = ["0.2.9.7","0.2.9.7","0.2.9.7","0.2.9.7"];
     </script>
 
 

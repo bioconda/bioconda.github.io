@@ -26,9 +26,17 @@ bioconductor-cytoml
    :versions:
       
       
+      .. raw:: html
 
-      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+      
 
+      ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -44,9 +52,9 @@ bioconductor-cytoml
    :depends bioconductor-rhdf5lib: ``>=1.16.0,<1.17.0``
    :depends bioconductor-rprotobuflib: ``>=2.6.0,<2.7.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libxml2: ``>=2.9.12,<2.10.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-base64enc: 
@@ -96,7 +104,7 @@ bioconductor-cytoml
 
     <script>
         var package = "bioconductor-cytoml";
-        var versions = ["2.6.0","2.4.0","2.2.2","2.2.1","2.2.0"];
+        var versions = ["2.6.0","2.6.0","2.4.0","2.2.2","2.2.1"];
     </script>
 
 

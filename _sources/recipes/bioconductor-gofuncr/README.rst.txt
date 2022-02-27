@@ -27,7 +27,7 @@ bioconductor-gofuncr
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
@@ -36,9 +36,8 @@ bioconductor-gofuncr
    :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gtools: ``>=3.5.0``
    :depends r-mapplots: ``>=1.5``
@@ -75,7 +74,7 @@ bioconductor-gofuncr
 
     <script>
         var package = "bioconductor-gofuncr";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["1.14.0","1.14.0","1.12.0","1.10.0","1.10.0"];
     </script>
 
 

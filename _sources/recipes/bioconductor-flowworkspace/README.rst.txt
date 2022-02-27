@@ -29,10 +29,10 @@ bioconductor-flowworkspace
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.1-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.30.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.6.0-1</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.1-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  </span></summary>
       
 
-      ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.1-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.30.2-0``,  ``3.30.1-0``,  ``3.28.2-0``,  ``3.26.2-0``,  ``3.24.4-0``
+      ``4.6.0-1``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.1-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.30.2-0``,  ``3.30.1-0``,  ``3.28.2-0``,  ``3.26.2-0``,  ``3.24.4-0``
 
       
       .. raw:: html
@@ -54,9 +54,9 @@ bioconductor-flowworkspace
    :depends bioconductor-rprotobuflib: ``>=2.6.0,<2.7.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-aws.s3: 
    :depends r-aws.signature: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -104,7 +104,7 @@ bioconductor-flowworkspace
 
     <script>
         var package = "bioconductor-flowworkspace";
-        var versions = ["4.6.0","4.4.0","4.2.0","4.2.0","4.2.0"];
+        var versions = ["4.6.0","4.6.0","4.4.0","4.2.0","4.2.0"];
     </script>
 
 

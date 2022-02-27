@@ -29,10 +29,10 @@ bioconductor-globalancova
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  <code>4.8.0-0</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-1</code>,  <code>4.0.0-0</code>,  <code>3.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  <code>4.8.0-0</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-1</code>,  <code>4.0.0-0</code>,  </span></summary>
       
 
-      ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
+      ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
 
       
       .. raw:: html
@@ -47,7 +47,6 @@ bioconductor-globalancova
    :depends bioconductor-globaltest: ``>=5.48.0,<5.49.0``
    :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corpcor: 
@@ -84,7 +83,7 @@ bioconductor-globalancova
 
     <script>
         var package = "bioconductor-globalancova";
-        var versions = ["4.12.0","4.10.0","4.8.0","4.8.0","4.6.0"];
+        var versions = ["4.12.0","4.12.0","4.10.0","4.8.0","4.8.0"];
     </script>
 
 

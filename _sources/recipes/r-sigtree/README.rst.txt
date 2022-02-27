@@ -26,14 +26,22 @@ r-sigtree
    :versions:
       
       
+      .. raw:: html
 
-      ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.10.6-9</code>,  <code>1.10.6-8</code>,  <code>1.10.6-7</code>,  <code>1.10.6-6</code>,  <code>1.10.6-5</code>,  <code>1.10.6-4</code>,  <code>1.10.6-3</code>,  <code>1.10.6-2</code>,  <code>1.10.6-1</code>,  </span></summary>
+      
 
+      ``1.10.6-9``,  ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-phyloseq: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends r-ape: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mass: 

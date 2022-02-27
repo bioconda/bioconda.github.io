@@ -29,10 +29,10 @@ bioconductor-ping
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.26.0-0</code>,  </span></summary>
       
 
-      ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``
+      ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ bioconductor-ping
    :depends bioconductor-pics: ``>=2.38.0,<2.39.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fda: 
@@ -84,7 +84,7 @@ bioconductor-ping
 
     <script>
         var package = "bioconductor-ping";
-        var versions = ["2.38.0","2.36.0","2.34.0","2.34.0","2.32.0"];
+        var versions = ["2.38.0","2.38.0","2.36.0","2.34.0","2.34.0"];
     </script>
 
 

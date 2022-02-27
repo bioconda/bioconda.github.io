@@ -27,7 +27,7 @@ bioconductor-geodiff
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -36,9 +36,8 @@ bioconductor-geodiff
    :depends bioconductor-geomxtools: ``>=2.0.0,<2.1.0``
    :depends bioconductor-nanostringnctools: ``>=1.2.0,<1.3.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-lme4: 
    :depends r-matrix: 
@@ -80,7 +79,7 @@ bioconductor-geodiff
 
     <script>
         var package = "bioconductor-geodiff";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 
