@@ -33,7 +33,8 @@ r-genomictools
 
    
    :depends bioconductor-snpstats: 
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-data.table: ``>=1.9.6``

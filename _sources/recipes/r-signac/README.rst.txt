@@ -26,9 +26,17 @@ r-signac
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
+      
 
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,8 +46,8 @@ r-signac
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
    :depends bioconductor-s4vectors: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: ``>=1.0.0``
@@ -94,7 +102,7 @@ r-signac
 
     <script>
         var package = "r-signac";
-        var versions = ["1.5.0","1.4.0","1.3.0","1.2.1","1.2.1"];
+        var versions = ["1.5.0","1.5.0","1.4.0","1.3.0","1.2.1"];
     </script>
 
 

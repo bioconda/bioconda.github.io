@@ -26,9 +26,17 @@ bioconductor-csar
    :versions:
       
       
+      .. raw:: html
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-1``,  ``1.34.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.34.0-1</code>,  </span></summary>
+      
 
+      ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-1``,  ``1.34.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,6 @@ bioconductor-csar
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -71,7 +78,7 @@ bioconductor-csar
 
     <script>
         var package = "bioconductor-csar";
-        var versions = ["1.46.0","1.44.0","1.42.0","1.42.0","1.40.0"];
+        var versions = ["1.46.0","1.46.0","1.44.0","1.42.0","1.42.0"];
     </script>
 
 

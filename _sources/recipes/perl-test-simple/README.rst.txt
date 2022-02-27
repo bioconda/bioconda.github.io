@@ -28,10 +28,10 @@ perl-test-simple
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.302188-0</code>,  <code>1.302164-1</code>,  <code>1.302164-0</code>,  <code>1.302156-0</code>,  <code>1.302141-0</code>,  <code>1.302140-0</code>,  <code>1.302075-1</code>,  <code>1.302075-0</code>,  <code>1.302052-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.302189-0</code>,  <code>1.302188-0</code>,  <code>1.302164-1</code>,  <code>1.302164-0</code>,  <code>1.302156-0</code>,  <code>1.302141-0</code>,  <code>1.302140-0</code>,  <code>1.302075-1</code>,  <code>1.302075-0</code>,  </span></summary>
       
 
-      ``1.302188-0``,  ``1.302164-1``,  ``1.302164-0``,  ``1.302156-0``,  ``1.302141-0``,  ``1.302140-0``,  ``1.302075-1``,  ``1.302075-0``,  ``1.302052-1``,  ``1.302052-0``
+      ``1.302189-0``,  ``1.302188-0``,  ``1.302164-1``,  ``1.302164-0``,  ``1.302156-0``,  ``1.302141-0``,  ``1.302140-0``,  ``1.302075-1``,  ``1.302075-0``,  ``1.302052-1``,  ``1.302052-0``
 
       
       .. raw:: html
@@ -74,7 +74,7 @@ perl-test-simple
 
     <script>
         var package = "perl-test-simple";
-        var versions = ["1.302188","1.302164","1.302164","1.302156","1.302141"];
+        var versions = ["1.302189","1.302188","1.302164","1.302164","1.302156"];
     </script>
 
 
