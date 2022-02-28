@@ -27,15 +27,15 @@ ssuissero
       
       
 
-      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends blast: 
+   :depends flye: 
    :depends freebayes: 
    :depends medaka: ``1.0.1``
-   :depends miniasm: 
    :depends minipolish: 
    :depends samtools: 
    :depends vcflib: 
@@ -70,7 +70,7 @@ ssuissero
 
     <script>
         var package = "ssuissero";
-        var versions = ["1.0.1","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0","1.0.0"];
     </script>
 
 

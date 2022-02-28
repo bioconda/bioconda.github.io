@@ -27,7 +27,7 @@ bioconductor-mbkmeans
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
@@ -40,9 +40,9 @@ bioconductor-mbkmeans
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-benchmarkme: 
    :depends r-clusterr: 
@@ -80,7 +80,7 @@ bioconductor-mbkmeans
 
     <script>
         var package = "bioconductor-mbkmeans";
-        var versions = ["1.10.0","1.8.0","1.6.1","1.6.0","1.4.0"];
+        var versions = ["1.10.0","1.10.0","1.8.0","1.6.1","1.6.0"];
     </script>
 
 

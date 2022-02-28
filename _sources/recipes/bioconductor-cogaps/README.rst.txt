@@ -27,7 +27,7 @@ bioconductor-cogaps
       
       
 
-      ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
+      ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
 
       
 
@@ -38,9 +38,8 @@ bioconductor-cogaps
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=12.0.1``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
    :depends r-cluster: 
@@ -78,7 +77,7 @@ bioconductor-cogaps
 
     <script>
         var package = "bioconductor-cogaps";
-        var versions = ["3.14.0","3.12.0","3.10.0","3.10.0","3.8.0"];
+        var versions = ["3.14.0","3.14.0","3.12.0","3.10.0","3.10.0"];
     </script>
 
 
