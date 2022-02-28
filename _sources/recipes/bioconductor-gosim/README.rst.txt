@@ -40,8 +40,9 @@ bioconductor-gosim
    :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
    :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-corpcor: 

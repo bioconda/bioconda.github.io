@@ -28,14 +28,14 @@ r-cdseq
       
       
 
-      ``0-0``
+      ``0-1``,  ``0-0``
 
       
 
    
    :depends bioconductor-biobase: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clue: 
    :depends r-dirmult: 
@@ -88,7 +88,7 @@ r-cdseq
 
     <script>
         var package = "r-cdseq";
-        var versions = ["0"];
+        var versions = ["0","0"];
     </script>
 
 
