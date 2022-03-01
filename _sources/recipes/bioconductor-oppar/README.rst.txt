@@ -45,6 +45,7 @@ bioconductor-oppar
    :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
    :depends bioconductor-gsva: ``>=1.42.0,<1.43.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:

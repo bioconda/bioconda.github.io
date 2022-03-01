@@ -26,9 +26,17 @@ bioconductor-chipseqr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-1``,  ``1.36.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.36.0-1</code>,  </span></summary>
+      
 
+      ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-1``,  ``1.36.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,7 +48,7 @@ bioconductor-chipseqr
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fbasics: 
@@ -76,7 +84,7 @@ bioconductor-chipseqr
 
     <script>
         var package = "bioconductor-chipseqr";
-        var versions = ["1.48.0","1.46.0","1.44.0","1.44.0","1.42.0"];
+        var versions = ["1.48.0","1.48.0","1.46.0","1.44.0","1.44.0"];
     </script>
 
 

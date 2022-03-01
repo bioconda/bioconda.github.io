@@ -29,10 +29,10 @@ qtlseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  </span></summary>
       
 
-      ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -83,7 +83,7 @@ qtlseq
 
     <script>
         var package = "qtlseq";
-        var versions = ["2.2.2","2.2.0","2.2.0","2.1.2","2.1.1"];
+        var versions = ["2.2.3","2.2.2","2.2.0","2.2.0","2.1.2"];
     </script>
 
 

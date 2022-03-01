@@ -29,10 +29,10 @@ bioconductor-rgadem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.30.0-0</code>,  </span></summary>
       
 
-      ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``
+      ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ bioconductor-rgadem
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-seqlogo: ``>=1.60.0,<1.61.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -81,7 +81,7 @@ bioconductor-rgadem
 
     <script>
         var package = "bioconductor-rgadem";
-        var versions = ["2.42.0","2.40.0","2.38.0","2.38.0","2.36.0"];
+        var versions = ["2.42.0","2.42.0","2.40.0","2.38.0","2.38.0"];
     </script>
 
 

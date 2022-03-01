@@ -27,7 +27,7 @@ bioconductor-cellbarcode
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -36,9 +36,9 @@ bioconductor-cellbarcode
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ckmeans.1d.dp: 
    :depends r-data.table: ``>=1.12.6``
@@ -79,7 +79,7 @@ bioconductor-cellbarcode
 
     <script>
         var package = "bioconductor-cellbarcode";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

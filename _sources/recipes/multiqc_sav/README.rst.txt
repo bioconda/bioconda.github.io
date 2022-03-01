@@ -27,7 +27,7 @@ multiqc_sav
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -68,7 +68,7 @@ multiqc_sav
 
     <script>
         var package = "multiqc_sav";
-        var versions = ["0.0.2","0.0.1"];
+        var versions = ["0.0.3","0.0.2","0.0.1"];
     </script>
 
 

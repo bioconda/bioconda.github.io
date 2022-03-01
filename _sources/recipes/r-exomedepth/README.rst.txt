@@ -26,9 +26,17 @@ r-exomedepth
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.15-3``,  ``1.1.15-2``,  ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.15-4</code>,  <code>1.1.15-3</code>,  <code>1.1.15-2</code>,  <code>1.1.15-1</code>,  <code>1.1.15-0</code>,  <code>1.1.12-0</code>,  <code>1.1.10-4</code>,  <code>1.1.10-3</code>,  <code>1.1.10-2</code>,  </span></summary>
+      
 
+      ``1.1.15-4``,  ``1.1.15-3``,  ``1.1.15-2``,  ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,10 +45,10 @@ r-exomedepth
    :depends bioconductor-genomicranges: ``>=1.23.0``
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgfortran5: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-aod: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
@@ -77,7 +85,7 @@ r-exomedepth
 
     <script>
         var package = "r-exomedepth";
-        var versions = ["1.1.15","1.1.15","1.1.15","1.1.15","1.1.12"];
+        var versions = ["1.1.15","1.1.15","1.1.15","1.1.15","1.1.15"];
     </script>
 
 

@@ -27,13 +27,13 @@ r-qtlseqr
       
       
 
-      ``0.7.5.2-2``,  ``0.7.5.2-1``,  ``0.7.5.2-0``
+      ``0.7.5.2-3``,  ``0.7.5.2-2``,  ``0.7.5.2-1``,  ``0.7.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -75,7 +75,7 @@ r-qtlseqr
 
     <script>
         var package = "r-qtlseqr";
-        var versions = ["0.7.5.2","0.7.5.2","0.7.5.2"];
+        var versions = ["0.7.5.2","0.7.5.2","0.7.5.2","0.7.5.2"];
     </script>
 
 

@@ -44,6 +44,7 @@ bioconductor-sim
    :depends bioconductor-globaltest: ``>=5.48.0,<5.49.0``
    :depends bioconductor-quantsmooth: ``>=1.60.0,<1.61.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-quantreg: 

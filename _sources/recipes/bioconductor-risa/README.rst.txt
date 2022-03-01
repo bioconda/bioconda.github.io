@@ -46,8 +46,9 @@ bioconductor-risa
    :depends bioconductor-biocviews: ``>=1.62.0,<1.63.0``
    :depends bioconductor-xcms: ``>=3.16.0,<3.17.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcpp: ``>=0.9.13``
    :requirements:

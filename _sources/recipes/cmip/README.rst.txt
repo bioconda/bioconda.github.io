@@ -28,10 +28,10 @@ cmip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.9-0</code>,  <code>2.6.8-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-5</code>,  <code>2.6.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.0-1</code>,  <code>2.7.0-0</code>,  <code>2.6.9-0</code>,  <code>2.6.8-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-5</code>,  </span></summary>
       
 
-      ``2.7.0-0``,  ``2.6.9-0``,  ``2.6.8-0``,  ``2.6.7-0``,  ``2.6.5-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-5``,  ``2.6.1-4``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``
+      ``2.7.0-1``,  ``2.7.0-0``,  ``2.6.9-0``,  ``2.6.8-0``,  ``2.6.7-0``,  ``2.6.5-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-5``,  ``2.6.1-4``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,9 @@ cmip
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libgfortran-ng: 
+   :depends libcxx: ``>=12.0.1``
+   :depends libgfortran: ``5.*``
    :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +74,7 @@ cmip
 
     <script>
         var package = "cmip";
-        var versions = ["2.7.0","2.6.9","2.6.8","2.6.7","2.6.5"];
+        var versions = ["2.7.0","2.7.0","2.6.9","2.6.8","2.6.7"];
     </script>
 
 

@@ -27,14 +27,14 @@ snakesv
       
       
 
-      ``0.3.1-0``,  ``0.2-0``
+      ``0.4-0``,  ``0.3.1-0``,  ``0.2-0``
 
       
 
    
-   :depends mamba: ``>=0.14.1``
-   :depends pandas: ``>=1.3.0``
-   :depends snakemake: ``>=6.5.2``
+   :depends mamba: ``>=0.22.0``
+   :depends pandas: ``>=1.4.1``
+   :depends snakemake: ``>=7.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ snakesv
 
     <script>
         var package = "snakesv";
-        var versions = ["0.3.1","0.2"];
+        var versions = ["0.4","0.3.1","0.2"];
     </script>
 
 

@@ -35,6 +35,7 @@ r-lncpipereporter
    :depends bioconductor-deseq2: 
    :depends bioconductor-edger: 
    :depends bioconductor-noiseq: 
+   :depends libgcc-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 

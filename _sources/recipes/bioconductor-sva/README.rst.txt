@@ -46,6 +46,7 @@ bioconductor-sva
    :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrixstats: 
