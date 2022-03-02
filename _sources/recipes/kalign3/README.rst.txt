@@ -28,12 +28,12 @@ kalign3
       
       
 
-      ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
+      ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ kalign3
 
     <script>
         var package = "kalign3";
-        var versions = ["3.2.2","3.2.2","3.2.2"];
+        var versions = ["3.2.2","3.2.2","3.2.2","3.2.2"];
     </script>
 
 

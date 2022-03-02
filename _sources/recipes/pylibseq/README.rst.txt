@@ -28,10 +28,10 @@ pylibseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-2</code>,  </span></summary>
       
 
-      ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9.post0-0``,  ``0.1.8-0``
+      ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9.post0-0``,  ``0.1.8-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ pylibseq
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=12.0.1``
    :depends msprime: ``>=0.7.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -76,7 +75,7 @@ pylibseq
 
     <script>
         var package = "pylibseq";
-        var versions = ["0.2.3","0.2.3","0.2.2","0.2.2","0.2.2"];
+        var versions = ["0.2.3","0.2.3","0.2.3","0.2.2","0.2.2"];
     </script>
 
 

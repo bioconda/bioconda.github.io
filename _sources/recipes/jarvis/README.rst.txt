@@ -27,12 +27,12 @@ jarvis
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ jarvis
 
     <script>
         var package = "jarvis";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.1","1.1","1.1"];
     </script>
 
 

@@ -29,10 +29,10 @@ nonpareil
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.4-2</code>,  <code>3.3.4-1</code>,  <code>3.3.4-0</code>,  <code>3.3.3-2</code>,  <code>3.3.3-1</code>,  <code>3.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.4-2</code>,  <code>3.3.4-1</code>,  <code>3.3.4-0</code>,  <code>3.3.3-2</code>,  <code>3.3.3-1</code>,  </span></summary>
       
 
-      ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.4-2``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.2-0``,  ``3.1.1-0``,  ``2.4.01-0``,  ``2.4-0``
+      ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.4-2``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.2-0``,  ``3.1.1-0``,  ``2.4.01-0``,  ``2.4-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ nonpareil
 
     <script>
         var package = "nonpareil";
-        var versions = ["3.4.1","3.4.0","3.4.0","3.3.4","3.3.4"];
+        var versions = ["3.4.1","3.4.1","3.4.0","3.4.0","3.3.4"];
     </script>
 
 
