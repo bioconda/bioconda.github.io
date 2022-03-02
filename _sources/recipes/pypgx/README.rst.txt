@@ -30,10 +30,10 @@ pypgx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``
+      ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ pypgx
 
     <script>
         var package = "pypgx";
-        var versions = ["0.12.0","0.11.0","0.10.1","0.10.0","0.9.0"];
+        var versions = ["0.13.0","0.12.0","0.11.0","0.10.1","0.10.0"];
     </script>
 
 

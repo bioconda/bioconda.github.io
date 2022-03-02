@@ -28,7 +28,7 @@ matam
       
       
 
-      ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
 
@@ -36,8 +36,9 @@ matam
    :depends bzip2: 
    :depends coreutils: 
    :depends krona: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends numpy: 
    :depends python: ``>=3``
    :depends rdptools: 
@@ -78,7 +79,7 @@ matam
 
     <script>
         var package = "matam";
-        var versions = ["1.6.0","1.6.0","1.6.0"];
+        var versions = ["1.6.0","1.6.0","1.6.0","1.6.0"];
     </script>
 
 

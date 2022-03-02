@@ -29,10 +29,10 @@ bioconductor-vegamc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-1</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-1</code>,  <code>3.20.0-0</code>,  </span></summary>
       
 
-      ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
+      ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ bioconductor-vegamc
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -78,7 +78,7 @@ bioconductor-vegamc
 
     <script>
         var package = "bioconductor-vegamc";
-        var versions = ["3.32.0","3.30.0","3.28.0","3.28.0","3.26.0"];
+        var versions = ["3.32.0","3.32.0","3.30.0","3.28.0","3.28.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ biodiff
       
       
 
-      ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``
+      ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: 
    :requirements:
 
@@ -65,7 +65,7 @@ biodiff
 
     <script>
         var package = "biodiff";
-        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2"];
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.2"];
     </script>
 
 

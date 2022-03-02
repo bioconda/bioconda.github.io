@@ -27,12 +27,12 @@ rnacode
       
       
 
-      ``0.3-2``,  ``0.3-1``,  ``0.3-0``
+      ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ rnacode
 
     <script>
         var package = "rnacode";
-        var versions = ["0.3","0.3","0.3"];
+        var versions = ["0.3","0.3","0.3","0.3"];
     </script>
 
 

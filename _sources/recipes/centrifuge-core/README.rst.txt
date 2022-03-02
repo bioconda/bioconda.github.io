@@ -33,7 +33,8 @@ centrifuge-core
       
 
    
-   :depends libcxx: ``>=4.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: 
    :depends tar: 
