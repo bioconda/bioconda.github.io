@@ -27,15 +27,22 @@ generax
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends openmpi: ``>=4.1.1,<5.0a0``
+   :depends libcxx: ``>=12.0.1``
+   :depends openmpi: ``>=4.1.2,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +74,7 @@ generax
 
     <script>
         var package = "generax";
-        var versions = ["2.0.4","2.0.2","2.0.1","1.2.3","1.2.2"];
+        var versions = ["2.0.4","2.0.4","2.0.2","2.0.1","1.2.3"];
     </script>
 
 

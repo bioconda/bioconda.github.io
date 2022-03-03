@@ -27,14 +27,13 @@ barriers
       
       
 
-      ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``
+      ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends viennarna: ``>=2.4.17,<2.5.0a0``
+   :depends libcxx: ``>=12.0.1``
+   :depends viennarna: ``>=2.5.0,<2.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ barriers
 
     <script>
         var package = "barriers";
-        var versions = ["1.8.1","1.8.1","1.8.0","1.7.0","1.7.0"];
+        var versions = ["1.8.1","1.8.1","1.8.1","1.8.0","1.7.0"];
     </script>
 
 

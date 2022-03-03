@@ -29,10 +29,10 @@ angsd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.935-3</code>,  <code>0.935-2</code>,  <code>0.935-1</code>,  <code>0.935-0</code>,  <code>0.933-1</code>,  <code>0.933-0</code>,  <code>0.931-1</code>,  <code>0.931-0</code>,  <code>0.923-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.937-0</code>,  <code>0.935-3</code>,  <code>0.935-2</code>,  <code>0.935-1</code>,  <code>0.935-0</code>,  <code>0.933-1</code>,  <code>0.933-0</code>,  <code>0.931-1</code>,  <code>0.931-0</code>,  </span></summary>
       
 
-      ``0.935-3``,  ``0.935-2``,  ``0.935-1``,  ``0.935-0``,  ``0.933-1``,  ``0.933-0``,  ``0.931-1``,  ``0.931-0``,  ``0.923-0``,  ``0.921-2``,  ``0.921-1``,  ``0.921-0``,  ``0.910-0``
+      ``0.937-0``,  ``0.935-3``,  ``0.935-2``,  ``0.935-1``,  ``0.935-0``,  ``0.933-1``,  ``0.933-0``,  ``0.931-1``,  ``0.931-0``,  ``0.923-0``,  ``0.921-2``,  ``0.921-1``,  ``0.921-0``,  ``0.910-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ angsd
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.15,<1.16.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
@@ -79,7 +79,7 @@ angsd
 
     <script>
         var package = "angsd";
-        var versions = ["0.935","0.935","0.935","0.935","0.933"];
+        var versions = ["0.937","0.935","0.935","0.935","0.935"];
     </script>
 
 
