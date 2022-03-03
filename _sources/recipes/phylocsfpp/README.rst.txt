@@ -32,13 +32,13 @@ phylocsfpp
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libbigwig: 
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends llvm-openmp: ``>=12.0.1``
-   :depends llvm-openmp: ``>=13.0.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

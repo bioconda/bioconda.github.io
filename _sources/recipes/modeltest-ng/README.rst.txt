@@ -10,11 +10,14 @@ modeltest-ng
    :replaces_section_title:
    :noindex:
 
-   ModelTest\-NG is a tool for selecting the best\-fit model of evolution for DNA and protein alignments. ModelTest\-NG supersedes jModelTest and ProtTest in one single tool\, with graphical and command console interfaces.
+   ModelTest\-NG is a tool for selecting the best\-fit model of evolution for DNA and protein alignments.
 
    :homepage: https://github.com/ddarriba/modeltest
+   :documentation: https://github.com/ddarriba/modeltest/wiki
+   
    :license: GPL / GPL-3.0
    :recipe: /`modeltest-ng <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/modeltest-ng>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/modeltest-ng/meta.yaml>`_
+   :links: doi: :doi:`10.1093/molbev/msz189`, doi: :doi:`10.1093/sysbio/syu084`
 
    
 
@@ -27,14 +30,14 @@ modeltest-ng
       
       
 
-      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.7-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends openmpi: ``>=4.1.0,<5.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends openmpi: ``>=4.1.2,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +69,7 @@ modeltest-ng
 
     <script>
         var package = "modeltest-ng";
-        var versions = ["0.1.6","0.1.6","0.1.5"];
+        var versions = ["0.1.7","0.1.6","0.1.6","0.1.5"];
     </script>
 
 

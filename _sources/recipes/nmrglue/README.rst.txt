@@ -27,16 +27,16 @@ nmrglue
       
       
 
-      ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-0``,  ``0.5-1``,  ``0.5-0``
+      ``0.8-2``,  ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-0``,  ``0.5-1``,  ``0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
-   :depends scipy: 
+   :depends scipy: ``<1.8.0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ nmrglue
 
     <script>
         var package = "nmrglue";
-        var versions = ["0.8","0.8","0.7","0.7","0.7"];
+        var versions = ["0.8","0.8","0.8","0.7","0.7"];
     </script>
 
 

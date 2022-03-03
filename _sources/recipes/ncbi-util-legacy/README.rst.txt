@@ -27,18 +27,24 @@ ncbi-util-legacy
       
       
 
-      ``6.1-2``,  ``6.1-1``,  ``6.1-0``
+      ``6.1-3``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``
 
       
 
    
+   :depends fontconfig: ``>=2.13.96,<3.0a0``
+   :depends fonts-conda-ecosystem: 
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends gnutls: ``>=3.6.13,<3.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends jpeg: ``>=9e,<10a``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends openmotif: ``>=2.3.8,<3.0a0``
    :depends tcsh: 
    :depends xorg-libx11: 
+   :depends xorg-libxft: 
    :depends xorg-libxmu: 
+   :depends xorg-libxp: 
    :depends xorg-libxt: 
    :requirements:
 
@@ -71,7 +77,7 @@ ncbi-util-legacy
 
     <script>
         var package = "ncbi-util-legacy";
-        var versions = ["6.1","6.1","6.1"];
+        var versions = ["6.1","6.1","6.1","6.1"];
     </script>
 
 

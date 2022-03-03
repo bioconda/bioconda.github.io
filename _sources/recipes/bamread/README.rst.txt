@@ -26,13 +26,21 @@ bamread
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.9-1</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-1</code>,  </span></summary>
+      
 
+      ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
@@ -71,7 +79,7 @@ bamread
 
     <script>
         var package = "bamread";
-        var versions = ["0.0.9","0.0.8","0.0.7","0.0.7","0.0.7"];
+        var versions = ["0.0.9","0.0.9","0.0.8","0.0.7","0.0.7"];
     </script>
 
 

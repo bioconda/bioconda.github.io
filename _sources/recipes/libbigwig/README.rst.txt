@@ -41,6 +41,7 @@ libbigwig
 
    
    :depends curl: ``>=7.81.0,<8.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

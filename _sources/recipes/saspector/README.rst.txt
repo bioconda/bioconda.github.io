@@ -27,7 +27,7 @@ saspector
       
       
 
-      ``0.0.3-0``,  ``0.0.1-0``
+      ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
 
@@ -77,7 +77,7 @@ saspector
 
     <script>
         var package = "saspector";
-        var versions = ["0.0.3","0.0.1"];
+        var versions = ["0.0.5","0.0.3","0.0.1"];
     </script>
 
 
