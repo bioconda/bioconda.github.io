@@ -41,7 +41,8 @@ generax
       
 
    
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends openmpi: ``>=4.1.2,<5.0a0``
    :requirements:
 

@@ -27,13 +27,13 @@ ac
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ ac
 
     <script>
         var package = "ac";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.1","1.1","1.1"];
     </script>
 
 

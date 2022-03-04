@@ -27,7 +27,7 @@ metacerberus
       
       
 
-      ``0.1-0``
+      ``0.2-0``,  ``0.1-0``
 
       
 
@@ -84,7 +84,7 @@ metacerberus
 
     <script>
         var package = "metacerberus";
-        var versions = ["0.1"];
+        var versions = ["0.2","0.1"];
     </script>
 
 

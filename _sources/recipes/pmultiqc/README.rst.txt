@@ -27,7 +27,7 @@ pmultiqc
       
       
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
@@ -35,6 +35,7 @@ pmultiqc
    :depends lxml: 
    :depends multiqc: 
    :depends pandas: 
+   :depends pyopenms: 
    :depends pyteomics: 
    :depends pytest: 
    :depends python: ``>=3.6``
@@ -70,7 +71,7 @@ pmultiqc
 
     <script>
         var package = "pmultiqc";
-        var versions = ["0.0.9","0.0.8","0.0.7","0.0.5","0.0.4"];
+        var versions = ["0.0.10","0.0.9","0.0.8","0.0.7","0.0.5"];
     </script>
 
 

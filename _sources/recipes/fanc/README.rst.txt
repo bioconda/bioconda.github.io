@@ -29,7 +29,7 @@ fanc
       
       
 
-      ``0.9.0-1``,  ``0.9.0-0``
+      ``0.9.23b-2``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -41,7 +41,7 @@ fanc
    :depends gridmap: ``>=0.14.0``
    :depends h5py: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends msgpack-numpy: ``>=0.4.4.3``
    :depends msgpack-python: 
@@ -91,7 +91,7 @@ fanc
 
     <script>
         var package = "fanc";
-        var versions = ["0.9.0","0.9.0"];
+        var versions = ["0.9.23b","0.9.0","0.9.0"];
     </script>
 
 

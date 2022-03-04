@@ -27,7 +27,7 @@ lepwrap
       
       
 
-      ``4.0-0``
+      ``4.0.1-0``,  ``4.0-0``
 
       
 
@@ -80,7 +80,7 @@ lepwrap
 
     <script>
         var package = "lepwrap";
-        var versions = ["4.0"];
+        var versions = ["4.0.1","4.0"];
     </script>
 
 

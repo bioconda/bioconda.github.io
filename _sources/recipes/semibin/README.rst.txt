@@ -27,7 +27,7 @@ semibin
       
       
 
-      ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
 
@@ -40,6 +40,7 @@ semibin
    :depends numexpr: 
    :depends numpy: ``>=1.20``
    :depends pandas: 
+   :depends prodigal: 
    :depends python: 
    :depends python-igraph: 
    :depends pytorch: ``1.8.*``
@@ -78,7 +79,7 @@ semibin
 
     <script>
         var package = "semibin";
-        var versions = ["0.6.0","0.5.0","0.5.0","0.4.0","0.3"];
+        var versions = ["0.7.0","0.6.0","0.5.0","0.5.0","0.4.0"];
     </script>
 
 
