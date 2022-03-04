@@ -27,7 +27,7 @@ metacerberus
       
       
 
-      ``0.2-0``,  ``0.1-0``
+      ``0.2-1``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -39,6 +39,7 @@ metacerberus
    :depends fastqc: 
    :depends flash2: 
    :depends gcc: 
+   :depends grpcio: ``<=1.43.0``
    :depends hmmer: 
    :depends make: 
    :depends metaomestats: 
@@ -84,7 +85,7 @@ metacerberus
 
     <script>
         var package = "metacerberus";
-        var versions = ["0.2","0.1"];
+        var versions = ["0.2","0.2","0.1"];
     </script>
 
 
