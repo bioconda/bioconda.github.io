@@ -27,7 +27,7 @@ squire
       
       
 
-      ``0.9.9.92-0``
+      ``0.9.9.92-1``,  ``0.9.9.92-0``
 
       
 
@@ -47,6 +47,7 @@ squire
    :depends star: ``2.5.3a``
    :depends stringtie: ``1.3.3``
    :depends ucsc-bedgraphtobigwig: 
+   :depends ucsc-genepredtobed: 
    :depends ucsc-genepredtogtf: 
    :depends ucsc-gtftogenepred: 
    :requirements:
@@ -80,7 +81,7 @@ squire
 
     <script>
         var package = "squire";
-        var versions = ["0.9.9.92"];
+        var versions = ["0.9.9.92","0.9.9.92"];
     </script>
 
 
