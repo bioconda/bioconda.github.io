@@ -28,10 +28,10 @@ sniffles
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>1.0.12-1</code>,  <code>1.0.12-0</code>,  <code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>1.0.12-1</code>,  <code>1.0.12-0</code>,  <code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-1</code>,  </span></summary>
       
 
-      ``2.0.2-0``,  ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -73,7 +73,7 @@ sniffles
 
     <script>
         var package = "sniffles";
-        var versions = ["2.0.2","1.0.12","1.0.12","1.0.11","1.0.11"];
+        var versions = ["2.0.3","2.0.2","1.0.12","1.0.12","1.0.11"];
     </script>
 
 
