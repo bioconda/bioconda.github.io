@@ -28,10 +28,10 @@ libgab
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-8</code>,  <code>1.0.5-7</code>,  <code>1.0.5-6</code>,  <code>1.0.5-5</code>,  <code>1.0.5-4</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.5-9</code>,  <code>1.0.5-8</code>,  <code>1.0.5-7</code>,  <code>1.0.5-6</code>,  <code>1.0.5-5</code>,  <code>1.0.5-4</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  </span></summary>
       
 
-      ``1.0.5-8``,  ``1.0.5-7``,  ``1.0.5-6``,  ``1.0.5-5``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.0.5-9``,  ``1.0.5-8``,  ``1.0.5-7``,  ``1.0.5-6``,  ``1.0.5-5``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ libgab
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.15,<1.16.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
