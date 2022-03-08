@@ -29,10 +29,10 @@ r-histonehmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8-3</code>,  <code>1.8-2</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7-1</code>,  <code>1.7-0</code>,  <code>1.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8-4</code>,  <code>1.8-3</code>,  <code>1.8-2</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7-1</code>,  <code>1.7-0</code>,  </span></summary>
       
 
-      ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
+      ``1.8-4``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
 
       
       .. raw:: html
@@ -44,10 +44,10 @@ r-histonehmm
    :depends bioconductor-biocstyle: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgfortran5: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mvtnorm: 
    :depends r-optparse: 
@@ -83,7 +83,7 @@ r-histonehmm
 
     <script>
         var package = "r-histonehmm";
-        var versions = ["1.8","1.8","1.8","1.8","1.7.1"];
+        var versions = ["1.8","1.8","1.8","1.8","1.8"];
     </script>
 
 

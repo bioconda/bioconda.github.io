@@ -27,7 +27,7 @@ atlas-fastq-provider
       
       
 
-      ``0.4.1-0``
+      ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -66,7 +66,7 @@ atlas-fastq-provider
 
     <script>
         var package = "atlas-fastq-provider";
-        var versions = ["0.4.1"];
+        var versions = ["0.4.2","0.4.1"];
     </script>
 
 

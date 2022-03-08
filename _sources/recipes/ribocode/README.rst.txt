@@ -28,10 +28,10 @@ ribocode
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.13-0</code>,  <code>1.2.12-0</code>,  <code>1.2.11-1</code>,  <code>1.2.11-0</code>,  <code>1.2.10-2</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.14-0</code>,  <code>1.2.13-0</code>,  <code>1.2.12-0</code>,  <code>1.2.11-1</code>,  <code>1.2.11-0</code>,  <code>1.2.10-2</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.2.9-0</code>,  </span></summary>
       
 
-      ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``
+      ``1.2.14-0``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``
 
       
       .. raw:: html
@@ -45,11 +45,13 @@ ribocode
    :depends h5py: 
    :depends htseq: 
    :depends matplotlib-base: 
+   :depends minepy: 
    :depends numpy: 
    :depends pyfasta: 
    :depends pysam: ``>0.8.4``
    :depends python: 
    :depends scipy: 
+   :depends statsmodels: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +83,7 @@ ribocode
 
     <script>
         var package = "ribocode";
-        var versions = ["1.2.13","1.2.12","1.2.11","1.2.11","1.2.10"];
+        var versions = ["1.2.14","1.2.13","1.2.12","1.2.11","1.2.11"];
     </script>
 
 

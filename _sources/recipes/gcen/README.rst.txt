@@ -10,7 +10,7 @@ gcen
    :replaces_section_title:
    :noindex:
 
-   An easy toolkit of Gene Co\-Expression Network analysis for lncRNAs annotation
+   GCEN\: an easy\-to\-use toolkit for Gene Co\-Expression Network analysis and lncRNAs annotation
 
    :homepage: https://www.biochen.org/gcen
    :license: GPL v3
@@ -28,7 +28,7 @@ gcen
       
       
 
-      ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``
+      ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``
 
       
 
@@ -66,7 +66,7 @@ gcen
 
     <script>
         var package = "gcen";
-        var versions = ["0.6.2","0.6.2","0.6.1","0.6.0","0.5.2"];
+        var versions = ["0.6.3","0.6.2","0.6.2","0.6.1","0.6.0"];
     </script>
 
 
