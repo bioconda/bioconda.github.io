@@ -27,7 +27,7 @@ phyloacc
       
       
 
-      ``1.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -74,7 +74,7 @@ phyloacc
 
     <script>
         var package = "phyloacc";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.1","1.1.0"];
     </script>
 
 
