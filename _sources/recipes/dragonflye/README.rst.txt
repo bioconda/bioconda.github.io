@@ -27,14 +27,24 @@ dragonflye
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends any2fasta: ``>=0.4.2``
    :depends assembly-scan: ``>=0.4.0``
+   :depends bwa: 
+   :depends fastp: 
    :depends flye: ``>=2.9``
    :depends kmc: ``>=3.1``
    :depends medaka: ``>=1.5.0``
@@ -44,10 +54,13 @@ dragonflye
    :depends perl-file-spec: 
    :depends perl-findbin: 
    :depends pigz: ``>=2.6``
+   :depends pilon: 
    :depends porechop: 
    :depends racon: ``>=1.4.20``
    :depends rasusa: ``>=0.6``
    :depends raven-assembler: ``>=1.6.1``
+   :depends samclip: 
+   :depends samtools: 
    :depends seqtk: ``>=1.3``
    :depends tensorflow-gpu: 
    :requirements:
@@ -81,7 +94,7 @@ dragonflye
 
     <script>
         var package = "dragonflye";
-        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.4"];
+        var versions = ["1.0.9","1.0.8","1.0.7","1.0.6","1.0.5"];
     </script>
 
 
