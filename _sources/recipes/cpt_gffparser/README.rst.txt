@@ -27,7 +27,7 @@ cpt_gffparser
       
       
 
-      ``1.1.7-0``
+      ``1.2.2-0``,  ``1.1.7-0``
 
       
 
@@ -65,7 +65,7 @@ cpt_gffparser
 
     <script>
         var package = "cpt_gffparser";
-        var versions = ["1.1.7"];
+        var versions = ["1.2.2","1.1.7"];
     </script>
 
 
