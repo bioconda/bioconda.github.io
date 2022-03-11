@@ -27,7 +27,7 @@ syri
       
       
 
-      ``1.5.3-0``
+      ``1.5.4-0``,  ``1.5.3-0``
 
       
 
@@ -75,7 +75,7 @@ syri
 
     <script>
         var package = "syri";
-        var versions = ["1.5.3"];
+        var versions = ["1.5.4","1.5.3"];
     </script>
 
 

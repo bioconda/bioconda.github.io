@@ -27,14 +27,14 @@ leviosam
       
       
 
-      ``3.1.1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1.2-0``
+      ``5.2.1-0``,  ``3.1.1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1.2-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.15,<1.16.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends sdsl-lite: ``>=2.1.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -68,7 +68,7 @@ leviosam
 
     <script>
         var package = "leviosam";
-        var versions = ["3.1.1","0.5.1","0.5.1","0.5.0","0.4.0"];
+        var versions = ["5.2.1","3.1.1","0.5.1","0.5.1","0.5.0"];
     </script>
 
 
