@@ -27,7 +27,7 @@ pydamage
       
       
 
-      ``0.62-0``,  ``0.61-0``,  ``0.60-1``,  ``0.60-0``,  ``0.7-0``
+      ``0.70-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-1``,  ``0.60-0``,  ``0.7-0``
 
       
 
@@ -38,7 +38,6 @@ pydamage
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends pypmml: 
    :depends pysam: 
    :depends python: ``>=3.6``
    :depends scipy: 
@@ -75,7 +74,7 @@ pydamage
 
     <script>
         var package = "pydamage";
-        var versions = ["0.62","0.61","0.60","0.60","0.7"];
+        var versions = ["0.70","0.62","0.61","0.60","0.60"];
     </script>
 
 
