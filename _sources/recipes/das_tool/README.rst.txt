@@ -33,7 +33,7 @@ das_tool
       
       
 
-      ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -45,8 +45,8 @@ das_tool
    :depends pullseq: ``>=1.0.2``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.9.6``
-   :depends r-domc: ``>=1.3.5``
-   :depends r-ggplot2: ``>=3.1``
+   :depends r-docopt: ``>=0.7.1``
+   :depends r-magrittr: ``>=2.0.1``
    :depends ruby: ``>=2.4.4``
    :depends unzip: 
    :requirements:
@@ -80,7 +80,7 @@ das_tool
 
     <script>
         var package = "das_tool";
-        var versions = ["1.1.3","1.1.2","1.1.2","1.1.2","1.1.1"];
+        var versions = ["1.1.4","1.1.3","1.1.2","1.1.2","1.1.2"];
     </script>
 
 

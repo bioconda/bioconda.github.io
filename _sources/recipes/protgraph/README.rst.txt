@@ -27,20 +27,20 @@ protgraph
       
       
 
-      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``,  ``0.0.2b3-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``,  ``0.0.2b3-0``
 
       
 
    
    :depends aenum: 
    :depends biopython: 
+   :depends cassandra-driver: 
    :depends gremlinpython: 
    :depends importlib_metadata: 
    :depends isodate: 
    :depends mysql-connector-python: 
    :depends networkx: 
    :depends prettytable: 
-   :depends psycopg2: 
    :depends python: ``>=3.6``
    :depends python-igraph: 
    :depends redis-py: 
@@ -79,7 +79,7 @@ protgraph
 
     <script>
         var package = "protgraph";
-        var versions = ["0.2.0","0.1.2","0.1.0","0.0.2b3"];
+        var versions = ["0.3.0","0.2.0","0.1.2","0.1.0","0.0.2b3"];
     </script>
 
 

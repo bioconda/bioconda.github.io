@@ -28,10 +28,10 @@ isoquant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,20 +40,20 @@ isoquant
       
 
    
-   :depends argcomplete: ``<=1.11.1``
-   :depends argh: ``<=0.26.2``
-   :depends biopython: ``<=1.76``
-   :depends gffutils: ``<=0.10.1``
-   :depends minimap2: 
-   :depends numpy: ``<=1.18.1``
-   :depends pandas: ``<=1.0.1``
-   :depends pybedtools: ``0.8.1``
-   :depends pyfaidx: ``<=0.5.8``
+   :depends argcomplete: ``>=1.11.1``
+   :depends argh: ``>=0.26.2``
+   :depends biopython: ``>=1.76``
+   :depends gffutils: ``>=0.10.1``
+   :depends minimap2: ``>=2.18``
+   :depends numpy: 
+   :depends pandas: 
+   :depends pybedtools: ``>=0.8.1``
+   :depends pyfaidx: ``>=0.5.8``
    :depends pysam: ``>=0.15``
    :depends python: 
-   :depends samtools: ``1.10``
-   :depends simplejson: ``<=3.17.0``
-   :depends six: ``<=1.14.0``
+   :depends samtools: ``>=1.14``
+   :depends simplejson: ``>=3.17.0``
+   :depends six: ``>=1.14.0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ isoquant
 
     <script>
         var package = "isoquant";
-        var versions = ["2.2.0","2.1.1","2.1.0","2.0.0","1.3.0"];
+        var versions = ["2.2.0","2.2.0","2.1.1","2.1.0","2.0.0"];
     </script>
 
 
