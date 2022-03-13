@@ -27,7 +27,7 @@ hifiasm_meta
       
       
 
-      ``hamtv0.3-0``,  ``hamtv0.2.2-1``,  ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
+      ``hamtv0.3-1``,  ``hamtv0.3-0``,  ``hamtv0.2.2-1``,  ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
 
       
 
@@ -67,7 +67,7 @@ hifiasm_meta
 
     <script>
         var package = "hifiasm_meta";
-        var versions = ["hamtv0.3","hamtv0.2.2","hamtv0.2.2","hamtv0.2","hamtv0.1"];
+        var versions = ["hamtv0.3","hamtv0.3","hamtv0.2.2","hamtv0.2.2","hamtv0.2"];
     </script>
 
 

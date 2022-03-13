@@ -27,7 +27,7 @@ triqler
       
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -35,6 +35,7 @@ triqler
    :depends numpy: ``>=1.12``
    :depends python: 
    :depends scipy: ``>=0.17``
+   :depends threadpoolctl: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ triqler
 
     <script>
         var package = "triqler";
-        var versions = ["0.6.1","0.6.0","0.5.0","0.4.0","0.3.0"];
+        var versions = ["0.6.2","0.6.1","0.6.0","0.5.0","0.4.0"];
     </script>
 
 

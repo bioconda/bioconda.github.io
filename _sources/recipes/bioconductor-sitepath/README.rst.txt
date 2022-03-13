@@ -10,13 +10,13 @@ bioconductor-sitepath
    :replaces_section_title:
    :noindex:
 
-   Phylogenetic pathway–dependent recognition of fixed substitutions and parallel mutations
+   Phylogeny\-based sequence clustering with site polymorphism
 
    :homepage: https://bioconductor.org/packages/3.14/bioc/html/sitePath.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sitepath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath/meta.yaml>`_
 
-   The package does hierarchical search for fixation and parallel mutations given multiple sequence alignment and phylogenetic tree. The package also provides visualization of these mutations on the tree.
+   Using site polymorphism is one of the ways to cluster DNA\/protein sequences but it is possible for the sequences with the same polymorphism on a single site to be genetically distant. This package is aimed at clustering sequences using site polymorphism and their corresponding phylogenetic trees. By considering their location on the tree\, only the structurally adjacent sequences will be clustered. However\, the adjacent sequences may not necessarily have the same polymorphism. So a branch\-and\-bound like algorithm is used to minimize the entropy representing the purity of site polymorphism of each cluster.
 
 
 .. conda:package:: bioconductor-sitepath

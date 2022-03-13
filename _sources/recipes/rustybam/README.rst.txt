@@ -28,10 +28,10 @@ rustybam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.29-0</code>,  <code>0.1.28-1</code>,  <code>0.1.28-0</code>,  <code>0.1.27-1</code>,  <code>0.1.27-0</code>,  <code>0.1.26-1</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.24-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.29-1</code>,  <code>0.1.29-0</code>,  <code>0.1.28-1</code>,  <code>0.1.28-0</code>,  <code>0.1.27-1</code>,  <code>0.1.27-0</code>,  <code>0.1.26-1</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  </span></summary>
       
 
-      ``0.1.29-0``,  ``0.1.28-1``,  ``0.1.28-0``,  ``0.1.27-1``,  ``0.1.27-0``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
+      ``0.1.29-1``,  ``0.1.29-0``,  ``0.1.28-1``,  ``0.1.28-0``,  ``0.1.27-1``,  ``0.1.27-0``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
 
       
       .. raw:: html
@@ -82,7 +82,7 @@ rustybam
 
     <script>
         var package = "rustybam";
-        var versions = ["0.1.29","0.1.28","0.1.28","0.1.27","0.1.27"];
+        var versions = ["0.1.29","0.1.29","0.1.28","0.1.28","0.1.27"];
     </script>
 
 
