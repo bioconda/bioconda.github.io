@@ -28,9 +28,17 @@ mokapot
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+      
 
+      ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -73,7 +81,7 @@ mokapot
 
     <script>
         var package = "mokapot";
-        var versions = ["0.7.4","0.7.3","0.7.2","0.7.1","0.6.2"];
+        var versions = ["0.8.0","0.7.4","0.7.3","0.7.2","0.7.1"];
     </script>
 
 

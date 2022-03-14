@@ -26,9 +26,17 @@ perl-sereal-encoder
    :versions:
       
       
+      .. raw:: html
 
-      ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+         <details><summary><span class="truncated-version-list"><code>4.023-0</code>,  <code>4.021-1</code>,  <code>4.021-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  <code>4.007-0</code>,  <code>4.005-0</code>,  <code>3.015-1</code>,  </span></summary>
+      
 
+      ``4.023-0``,  ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -65,7 +73,7 @@ perl-sereal-encoder
 
     <script>
         var package = "perl-sereal-encoder";
-        var versions = ["4.021","4.021","4.020","4.019","4.007"];
+        var versions = ["4.023","4.021","4.021","4.020","4.019"];
     </script>
 
 
