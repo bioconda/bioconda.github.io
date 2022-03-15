@@ -27,16 +27,16 @@ kissplice
       
       
 
-      ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.4.0p1-3``,  ``2.4.0p1-2``,  ``2.4.0p1-1``,  ``2.4.0p1-0``
+      ``2.5.5-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.4.0p1-3``,  ``2.4.0p1-2``,  ``2.4.0p1-1``,  ``2.4.0p1-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ kissplice
 
     <script>
         var package = "kissplice";
-        var versions = ["2.4.0","2.4.0","2.4.0","2.4.0","2.4.0p1"];
+        var versions = ["2.5.5","2.4.0","2.4.0","2.4.0","2.4.0"];
     </script>
 
 
