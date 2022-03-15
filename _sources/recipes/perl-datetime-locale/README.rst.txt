@@ -27,7 +27,7 @@ perl-datetime-locale
       
       
 
-      ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
+      ``1.33-0``,  ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
 
       
 
@@ -36,9 +36,11 @@ perl-datetime-locale
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dist-checkconflicts: 
+   :depends perl-file-sharedir: 
    :depends perl-namespace-autoclean: 
    :depends perl-params-validationcompiler: ``0.30.*``
    :depends perl-specio: ``0.47.*``
+   :depends perl-test2-plugin-nowarnings: ``0.09.*``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +72,7 @@ perl-datetime-locale
 
     <script>
         var package = "perl-datetime-locale";
-        var versions = ["1.12","1.12","1.12","1.12","1.12"];
+        var versions = ["1.33","1.12","1.12","1.12","1.12"];
     </script>
 
 

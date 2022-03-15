@@ -28,10 +28,10 @@ pygtftk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.7-2</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.7-2</code>,  <code>1.2.7-1</code>,  </span></summary>
       
 
-      ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ pygtftk
    :depends bedtools: ``>=2.23.1``
    :depends billiard: ``>=3.6.4.0``
    :depends biopython: ``>=1.69``
-   :depends bzip2: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cffi: ``>=1.10.0``
    :depends cloudpickle: ``>=0.4.0``
    :depends ftputil: ``>=3.3.1,<4.0.0``
@@ -61,9 +61,9 @@ pygtftk
    :depends pybedtools: ``>=0.7.8``
    :depends pybigwig: ``>=0.3.12``
    :depends pyparsing: ``>=2.2.0``
-   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python: ``>=3.9,<3.10.0a0``
    :depends python-graphviz: 
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends pyyaml: ``>=3.12``
    :depends requests: ``>=2.13.0``
    :depends scikit-learn: ``>=0.21.2``
@@ -101,7 +101,7 @@ pygtftk
 
     <script>
         var package = "pygtftk";
-        var versions = ["1.5.3","1.5.3","1.5.1","1.5.0","1.4.0"];
+        var versions = ["1.6.0","1.5.3","1.5.3","1.5.1","1.5.0"];
     </script>
 
 
