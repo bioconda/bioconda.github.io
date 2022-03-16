@@ -27,13 +27,21 @@ xatlas
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.3-0</code>,  <code>0.2.1-5</code>,  <code>0.2.1-4</code>,  <code>0.2.1-3</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.1-2</code>,  <code>0.1-1</code>,  </span></summary>
+      
 
+      ``0.3-0``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.15,<1.16.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends pthread-stubs: 
@@ -68,7 +76,7 @@ xatlas
 
     <script>
         var package = "xatlas";
-        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1","0.2.1"];
+        var versions = ["0.3","0.2.1","0.2.1","0.2.1","0.2.1"];
     </script>
 
 
