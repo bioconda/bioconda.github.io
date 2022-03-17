@@ -29,7 +29,7 @@ tbvcfreport
       
       
 
-      ``0.1.8-0``,  ``0.1.7-0``
+      ``0.1.10-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
 
@@ -70,7 +70,7 @@ tbvcfreport
 
     <script>
         var package = "tbvcfreport";
-        var versions = ["0.1.8","0.1.7"];
+        var versions = ["0.1.10","0.1.8","0.1.7"];
     </script>
 
 
