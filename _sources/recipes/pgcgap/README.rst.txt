@@ -13,12 +13,14 @@ pgcgap
    A prokaryotic genomics and comparative genomics analysis pipeline
 
    :homepage: https://github.com/liaochenlanruo/pgcgap/blob/master/README.md
+   :documentation: https://liaochenlanruo.fun/pgcgap/
+   
    :developer docs: https://github.com/liaochenlanruo/pgcgap/tree/master
    :license: GPL / GPLv3
    :recipe: /`pgcgap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgcgap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgcgap/meta.yaml>`_
    :links: biotools: :biotools:`pgcgap`
 
-   
+   PGCGAP is a pipeline for prokaryotic comparative genomics analysis. It can take the pair\-end reads\, ONT reads or PacBio reads as input. In addition to genome assembly\, gene prediction and annotation\, it can also get common comparative genomics analysis results such as phylogenetic trees of single\-core proteins and core SNPs\, pan\-genome\, whole\-genome Average Nucleotide Identity \(ANI\)\, orthogroups and orthologs\, COG annotations\, substitutions \(SNPs\) and insertions\/deletions \(indels\)\, and antimicrobial and virulence genes mining with only one line of commands.
 
 
 .. conda:package:: pgcgap
