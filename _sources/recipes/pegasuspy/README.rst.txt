@@ -12,14 +12,14 @@ pegasuspy
 
    An efficient Python analysis tool which scales to transcriptomes of millions of single cells.
 
-   :homepage: https://github.com/klarman-cell-observatory/pegasus
+   :homepage: https://github.com/lilab-bcb/pegasus
    :documentation: https://pegasus.readthedocs.io
    
    :license: BSD / BSD-3-Clause
    :recipe: /`pegasuspy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegasuspy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegasuspy/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41592-020-0905-x`
 
-   Pegasus is a tool for analyzing transcriptomes of millions of single cells. 
+   Pegasus is a tool for analyzing transcriptomes of millions of single cells.
    It is a command line tool\, a python package and a base for Cloud\-based analysis workflows.
 
 
