@@ -28,10 +28,10 @@ perl-scalar-list-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.61-1</code>,  <code>1.61-0</code>,  <code>1.60-0</code>,  <code>1.52-1</code>,  <code>1.52-0</code>,  <code>1.51-0</code>,  <code>1.50-0</code>,  <code>1.45-4</code>,  <code>1.45-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.62-0</code>,  <code>1.61-1</code>,  <code>1.61-0</code>,  <code>1.60-0</code>,  <code>1.52-1</code>,  <code>1.52-0</code>,  <code>1.51-0</code>,  <code>1.50-0</code>,  <code>1.45-4</code>,  </span></summary>
       
 
-      ``1.61-1``,  ``1.61-0``,  ``1.60-0``,  ``1.52-1``,  ``1.52-0``,  ``1.51-0``,  ``1.50-0``,  ``1.45-4``,  ``1.45-3``,  ``1.45-2``,  ``1.45-1``,  ``1.45-0``,  ``1.42-3``,  ``1.42-2``,  ``1.42-1``,  ``1.42-0``
+      ``1.62-0``,  ``1.61-1``,  ``1.61-0``,  ``1.60-0``,  ``1.52-1``,  ``1.52-0``,  ``1.51-0``,  ``1.50-0``,  ``1.45-4``,  ``1.45-3``,  ``1.45-2``,  ``1.45-1``,  ``1.45-0``,  ``1.42-3``,  ``1.42-2``,  ``1.42-1``,  ``1.42-0``
 
       
       .. raw:: html
@@ -73,7 +73,7 @@ perl-scalar-list-utils
 
     <script>
         var package = "perl-scalar-list-utils";
-        var versions = ["1.61","1.61","1.60","1.52","1.52"];
+        var versions = ["1.62","1.61","1.61","1.60","1.52"];
     </script>
 
 

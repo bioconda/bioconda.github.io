@@ -12,7 +12,7 @@ demuxem
 
    DemuxEM is the demultiplexing module of Pegasus\, which works on cell\-hashing and nucleus\-hashing genomics data.
 
-   :homepage: https://github.com/klarman-cell-observatory/demuxEM
+   :homepage: https://github.com/lilab-bcb/demuxEM
    :documentation: https://demuxEM.readthedocs.io
    
    :license: BSD
@@ -30,12 +30,11 @@ demuxem
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.post1-0``
+      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.post1-0``
 
       
 
    
-   :depends importlib_metadata: ``>=0.7``
    :depends numpy: 
    :depends pandas: 
    :depends pegasusio: ``>=0.2.12``
@@ -74,7 +73,7 @@ demuxem
 
     <script>
         var package = "demuxem";
-        var versions = ["0.1.7","0.1.6","0.1.5.post1"];
+        var versions = ["0.1.7","0.1.7","0.1.6","0.1.5.post1"];
     </script>
 
 

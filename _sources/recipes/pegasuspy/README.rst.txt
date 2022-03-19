@@ -32,46 +32,44 @@ pegasuspy
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``
+      ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
    :depends adjusttext: 
-   :depends anndata: ``>=0.7``
+   :depends anndata: ``>=0.7.1``
    :depends demuxem: 
    :depends docopt: 
-   :depends forceatlas2-python: 
-   :depends gprofiler-official: 
-   :depends harmony-pytorch: 
    :depends hnswlib: 
    :depends importlib_metadata: ``>=0.7``
-   :depends joblib: 
+   :depends joblib: ``>=0.14``
    :depends leidenalg: ``>=0.8.0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends lightgbm: 
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends lightgbm: ``>=2.2.1``
    :depends loompy: 
    :depends louvain: ``>=0.7.0``
    :depends matplotlib-base: ``>=2.0.0``
    :depends natsort: 
    :depends numba: 
    :depends numpy: 
-   :depends pandas: ``>=0.24``
-   :depends pegasusio: ``>=0.2.9``
+   :depends pandas: ``>=1.2.0``
+   :depends pegasusio: ``>=0.5.1``
+   :depends psutil: 
    :depends pyarrow: 
    :depends pybind11: 
    :depends pyfit-sne: ``>=1.1.1``
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python-igraph: ``>=0.8.0``
    :depends python_abi: ``3.7.* *_cp37m``
-   :depends scanorama: 
    :depends scikit-learn: ``>=0.23.2``
    :depends scikit-misc: 
    :depends scipy: 
    :depends seaborn: 
    :depends statsmodels: 
-   :depends umap-learn: ``>=0.4``
-   :depends xlrd: 
+   :depends threadpoolctl: 
+   :depends umap-learn: ``>=0.5.2``
+   :depends wordcloud: 
    :depends xlsxwriter: 
    :requirements:
 
@@ -104,7 +102,7 @@ pegasuspy
 
     <script>
         var package = "pegasuspy";
-        var versions = ["1.2.0","1.2.0"];
+        var versions = ["1.5.0","1.2.0","1.2.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ pegasusio
 
    PegasusIO is the IO package for Pegasus.
 
-   :homepage: https://github.com/klarman-cell-observatory/pegasusio
+   :homepage: https://github.com/lilab-bcb/pegasusio
    :documentation: https://pegasusio.readthedocs.io
    
    :license: BSD
@@ -30,10 +30,10 @@ pegasusio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1.post1-1</code>,  <code>0.5.1.post1-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0.post1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1.post2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1.post1-2</code>,  <code>0.5.1.post1-1</code>,  <code>0.5.1.post1-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0.post1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
+      ``0.5.1.post1-2``,  ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
 
       
       .. raw:: html
@@ -86,7 +86,7 @@ pegasusio
 
     <script>
         var package = "pegasusio";
-        var versions = ["0.5.1.post1","0.5.1.post1","0.5.1","0.5.1","0.5.0"];
+        var versions = ["0.5.1.post1","0.5.1.post1","0.5.1.post1","0.5.1","0.5.1"];
     </script>
 
 
