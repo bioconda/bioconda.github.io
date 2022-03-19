@@ -29,7 +29,7 @@ msmetaenhancer
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -37,9 +37,11 @@ msmetaenhancer
    :depends aiohttp: 
    :depends asyncstdlib: 
    :depends frozendict: 
-   :depends matchms: ``>=0.9.2``
+   :depends matchms: ``>=0.14.0``
+   :depends multidict: 
    :depends pandas: 
    :depends python: ``>=3.7,<3.9``
+   :depends rdkit: 
    :depends requests: 
    :depends scipy: 
    :depends tabulate: 
@@ -74,7 +76,7 @@ msmetaenhancer
 
     <script>
         var package = "msmetaenhancer";
-        var versions = ["0.1.3","0.1.2","0.1.1","0.1.0"];
+        var versions = ["0.1.3","0.1.3","0.1.2","0.1.1","0.1.0"];
     </script>
 
 
