@@ -195,6 +195,7 @@
             <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">chain</span><span class="p">(</span>
                 <span class="n">get_inner_deps</span><span class="p">(</span><span class="n">get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s2">&quot;build&quot;</span><span class="p">)),</span>
                 <span class="n">get_inner_deps</span><span class="p">(</span><span class="n">get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s2">&quot;host&quot;</span><span class="p">)),</span>
+                <span class="n">get_inner_deps</span><span class="p">(</span><span class="n">get_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s2">&quot;run&quot;</span><span class="p">)),</span>
             <span class="p">))</span>
         <span class="p">)</span>
 
