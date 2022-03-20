@@ -28,17 +28,18 @@ harmony-pytorch
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends importlib_metadata: ``>=0.7``
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.6``
+   :depends psutil: 
+   :depends python: ``>=3.7``
    :depends pytorch: 
-   :depends scikit-learn: 
+   :depends scikit-learn: ``>=0.23``
+   :depends threadpoolctl: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +71,7 @@ harmony-pytorch
 
     <script>
         var package = "harmony-pytorch";
-        var versions = ["0.1.7","0.1.6","0.1.5"];
+        var versions = ["0.1.7","0.1.7","0.1.6","0.1.5"];
     </script>
 
 
