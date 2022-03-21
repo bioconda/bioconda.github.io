@@ -12,7 +12,7 @@ centrifuge-core
 
    Classifier for metagenomic sequences. Does not include evaluation scripts
 
-   :homepage: https://github.com/infphilo/centrifuge
+   :homepage: https://github.com/DaehwanKimLab/centrifuge
    :license: GPL3
    :recipe: /`centrifuge-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge-core/meta.yaml>`_
    :links: biotools: :biotools:`Centrifuge`, doi: :doi:`10.1101/gr.210641.116`
