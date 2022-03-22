@@ -27,11 +27,12 @@ multisub
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ multisub
 
     <script>
         var package = "multisub";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

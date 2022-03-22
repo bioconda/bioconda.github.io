@@ -28,9 +28,17 @@ biobb_cmip
    :versions:
       
       
+      .. raw:: html
 
-      ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.7.8-0</code>,  <code>3.7.7-0</code>,  <code>3.7.6-1</code>,  <code>3.7.6-0</code>,  <code>3.7.5-1</code>,  <code>3.7.5-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  </span></summary>
+      
 
+      ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -70,7 +78,7 @@ biobb_cmip
 
     <script>
         var package = "biobb_cmip";
-        var versions = ["3.7.7","3.7.6","3.7.6","3.7.5","3.7.5"];
+        var versions = ["3.7.8","3.7.7","3.7.6","3.7.6","3.7.5"];
     </script>
 
 

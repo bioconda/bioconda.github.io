@@ -27,11 +27,20 @@ hocort
       
       
 
-      
+      ``0.3.2-0``
 
       
 
    
+   :depends bbmap: 
+   :depends bowtie2: 
+   :depends bwa-mem2: 
+   :depends hisat2: 
+   :depends kraken2: ``>=2.1.2``
+   :depends minimap2: 
+   :depends python: ``>=3.7,<3.10``
+   :depends samtools: ``>=1.8``
+   :depends tbb: ``2020.2.*``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +72,7 @@ hocort
 
     <script>
         var package = "hocort";
-        var versions = [];
+        var versions = ["0.3.2"];
     </script>
 
 

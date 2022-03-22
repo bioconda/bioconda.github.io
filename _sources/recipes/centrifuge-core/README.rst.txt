@@ -28,7 +28,7 @@ centrifuge-core
       
       
 
-      ``1.0.4_beta-2``,  ``1.0.4_beta-1``,  ``1.0.4_beta-0``
+      ``1.0.4-0``,  ``1.0.4_beta-2``,  ``1.0.4_beta-1``,  ``1.0.4_beta-0``
 
       
 
@@ -37,6 +37,7 @@ centrifuge-core
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: 
+   :depends python: ``>=3.6``
    :depends tar: 
    :depends wget: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -71,7 +72,7 @@ centrifuge-core
 
     <script>
         var package = "centrifuge-core";
-        var versions = ["1.0.4_beta","1.0.4_beta","1.0.4_beta"];
+        var versions = ["1.0.4","1.0.4_beta","1.0.4_beta","1.0.4_beta"];
     </script>
 
 

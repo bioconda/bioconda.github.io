@@ -30,24 +30,23 @@ regenie
       
       
 
-      ``1.0.6.9-0``,  ``1.0.6.7-0``
+      ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
 
       
 
    
-   :depends bgenix: ``>=1.1.7``
-   :depends blas: ``2.20 mkl``
-   :depends boost-cpp: ``>=1.72.0,<1.72.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran4: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends llvm-openmp: 
-   :depends mkl: ``>=2020.4,<2021.0a0``
-   :depends mkl-include: 
-   :depends sqlite: ``>=3.34.0,<4.0a0``
+   :depends libgfortran5: ``>=10.3.0``
+   :depends liblapack: ``>=3.9.0,<3.10.0a0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends mkl: ``>=2020.4``
+   :depends sqlite: ``>=3.37.1,<4.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
-   :depends zstd: ``>=1.4.8,<1.5.0a0``
+   :depends zstd: ``>=1.5.2,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +78,7 @@ regenie
 
     <script>
         var package = "regenie";
-        var versions = ["1.0.6.9","1.0.6.7"];
+        var versions = ["3.0.1","1.0.6.9","1.0.6.7"];
     </script>
 
 
