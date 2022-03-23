@@ -10,7 +10,7 @@ bakta
    :replaces_section_title:
    :noindex:
 
-   Rapid \& standardized annotation of bacterial genomes \& plasmids.
+   Rapid \& standardized annotation of bacterial genomes\, MAGs \& plasmids.
 
    :homepage: https://github.com/oschwengers/bakta
    :license: GPL / GPLv3
@@ -29,10 +29,10 @@ bakta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -44,16 +44,16 @@ bakta
    :depends alive-progress: ``1.6.2``
    :depends aragorn: ``>=1.2.38``
    :depends biopython: ``>=1.78``
-   :depends blast: ``>=2.7.1``
-   :depends diamond: ``>=2.0.11``
-   :depends hmmer: ``>=3.3.1``
+   :depends blast: ``>=2.12.0``
+   :depends diamond: ``>=2.0.14``
+   :depends hmmer: ``>=3.3.2``
    :depends infernal: ``>=1.1.4``
-   :depends ncbi-amrfinderplus: ``>=3.10.16``
+   :depends ncbi-amrfinderplus: ``>=3.10.23``
    :depends piler-cr: 
    :depends prodigal: ``>=2.6.3``
-   :depends python: ``>=3``
+   :depends python: ``>=3.8``
    :depends requests: ``>=2.25.1``
-   :depends trnascan-se: ``>=2.0.6``
+   :depends trnascan-se: ``>=2.0.8``
    :depends xopen: ``>=1.1.0``
    :requirements:
 
@@ -86,7 +86,7 @@ bakta
 
     <script>
         var package = "bakta";
-        var versions = ["1.4.0","1.3.3","1.3.1","1.3.0","1.2.4"];
+        var versions = ["1.4.0","1.4.0","1.3.3","1.3.1","1.3.0"];
     </script>
 
 

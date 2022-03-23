@@ -27,13 +27,14 @@ varfish-cli
       
       
 
-      ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+      ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
 
       
 
    
    :depends attrs: 
    :depends cattrs: 
+   :depends jsonschema: 
    :depends logzero: 
    :depends python: ``>=3``
    :depends python-dateutil: 
@@ -74,7 +75,7 @@ varfish-cli
 
     <script>
         var package = "varfish-cli";
-        var versions = ["0.2.8","0.2.7","0.2.7","0.2.6","0.2.4"];
+        var versions = ["0.3.0","0.2.8","0.2.7","0.2.7","0.2.6"];
     </script>
 
 

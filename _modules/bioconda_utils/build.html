@@ -229,7 +229,7 @@
                         <span class="s2">&quot;cannot be found&quot;</span><span class="p">,</span> <span class="n">pkg_path</span><span class="p">)</span>
                     <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">conda_build_cmd</span> <span class="o">=</span> <span class="p">[</span><span class="n">utils</span><span class="o">.</span><span class="n">bin_for</span><span class="p">(</span><span class="s1">&#39;conda&#39;</span><span class="p">),</span> <span class="s1">&#39;build&#39;</span><span class="p">]</span>
+            <span class="n">conda_build_cmd</span> <span class="o">=</span> <span class="p">[</span><span class="n">utils</span><span class="o">.</span><span class="n">bin_for</span><span class="p">(</span><span class="s1">&#39;conda&#39;</span><span class="p">),</span> <span class="s1">&#39;mambabuild&#39;</span><span class="p">]</span>
             <span class="c1"># - Temporarily reset os.environ to avoid leaking env vars</span>
             <span class="c1"># - Also pass filtered env to run()</span>
             <span class="c1"># - Point conda-build to meta.yaml, to avoid building subdirs</span>

@@ -208,7 +208,7 @@
 <span class="sd"># The actual building...</span>
 <span class="sd"># we explicitly point to the meta.yaml, in order to keep</span>
 <span class="sd"># conda-build from building all subdirectories</span>
-<span class="sd">conda build {self.conda_build_args} {self.container_recipe}/meta.yaml 2&gt;&amp;1</span>
+<span class="sd">conda mambabuild {self.conda_build_args} {self.container_recipe}/meta.yaml 2&gt;&amp;1</span>
 
 <span class="sd"># copy all built packages to the staging area</span>
 <span class="sd">cp `conda build {self.conda_build_args} {self.container_recipe}/meta.yaml --output` {self.container_staging}/{arch}</span>
