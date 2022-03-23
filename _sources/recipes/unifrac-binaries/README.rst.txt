@@ -33,7 +33,7 @@ unifrac-binaries
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -74,7 +74,7 @@ unifrac-binaries
 
     <script>
         var package = "unifrac-binaries";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.1","1.0.0","1.0.0"];
     </script>
 
 

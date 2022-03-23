@@ -6,7 +6,7 @@
 imfusion
 ========
 
-.. conda:recipe:: imfusion/0.3.2
+.. conda:recipe:: imfusion/0.3.0
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ imfusion
 
    :homepage: https://github.com/jrderuiter/imfusion
    :license: MIT
-   :recipe: /`imfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion>`_/`0.3.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.2/meta.yaml>`_
+   :recipe: /`imfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion>`_/`0.3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.0/meta.yaml>`_
 
    
 

@@ -29,10 +29,10 @@ perl-bioperl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.8-0</code>,  <code>1.7.2-11</code>,  <code>1.7.2-10</code>,  <code>1.7.2-9</code>,  <code>1.7.2-8</code>,  <code>1.6.924-7</code>,  <code>1.6.924-6</code>,  <code>1.6.924-5</code>,  <code>1.6.924-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.8-1</code>,  <code>1.7.8-0</code>,  <code>1.7.2-11</code>,  <code>1.7.2-10</code>,  <code>1.7.2-9</code>,  <code>1.7.2-8</code>,  <code>1.6.924-7</code>,  <code>1.6.924-6</code>,  <code>1.6.924-5</code>,  </span></summary>
       
 
-      ``1.7.8-0``,  ``1.7.2-11``,  ``1.7.2-10``,  ``1.7.2-9``,  ``1.7.2-8``,  ``1.6.924-7``,  ``1.6.924-6``,  ``1.6.924-5``,  ``1.6.924-4``,  ``1.6.924-3``,  ``1.6.924-2``,  ``1.6.924-1``,  ``1.6.924-0``
+      ``1.7.8-1``,  ``1.7.8-0``,  ``1.7.2-11``,  ``1.7.2-10``,  ``1.7.2-9``,  ``1.7.2-8``,  ``1.6.924-7``,  ``1.6.924-6``,  ``1.6.924-5``,  ``1.6.924-4``,  ``1.6.924-3``,  ``1.6.924-2``,  ``1.6.924-1``,  ``1.6.924-0``
 
       
       .. raw:: html
@@ -46,6 +46,7 @@ perl-bioperl
    :depends perl-bio-coordinate: 
    :depends perl-bio-featureio: 
    :depends perl-bio-samtools: 
+   :depends perl-bio-searchio-hmmer: 
    :depends perl-bio-tools-phylo-paml: 
    :depends perl-bio-tools-run-alignment-clustalw: 
    :depends perl-bio-tools-run-alignment-tcoffee: 
@@ -82,7 +83,7 @@ perl-bioperl
 
     <script>
         var package = "perl-bioperl";
-        var versions = ["1.7.8","1.7.2","1.7.2","1.7.2","1.7.2"];
+        var versions = ["1.7.8","1.7.8","1.7.2","1.7.2","1.7.2"];
     </script>
 
 
