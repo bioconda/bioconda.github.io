@@ -27,7 +27,7 @@ prodigal-gv
       
       
 
-      ``2.6.3-0``
+      ``2.7.0-0``,  ``2.6.3-0``
 
       
 
@@ -66,7 +66,7 @@ prodigal-gv
 
     <script>
         var package = "prodigal-gv";
-        var versions = ["2.6.3"];
+        var versions = ["2.7.0","2.6.3"];
     </script>
 
 

@@ -27,11 +27,13 @@ polypolish
       
       
 
-      
+      ``0.5.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +65,7 @@ polypolish
 
     <script>
         var package = "polypolish";
-        var versions = [];
+        var versions = ["0.5.0"];
     </script>
 
 
