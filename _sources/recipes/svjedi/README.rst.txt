@@ -27,13 +27,13 @@ svjedi
       
       
 
-      ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.0-0``
+      ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.0-0``
 
       
 
    
    :depends biopython: 
-   :depends minimap2: 
+   :depends minimap2: ``2.17.*``
    :depends numpy: 
    :depends python: ``>=3``
    :requirements:
@@ -67,7 +67,7 @@ svjedi
 
     <script>
         var package = "svjedi";
-        var versions = ["1.1.6","1.1.5","1.1.4","1.1.4","1.1.0"];
+        var versions = ["1.1.6","1.1.6","1.1.5","1.1.4","1.1.4"];
     </script>
 
 
