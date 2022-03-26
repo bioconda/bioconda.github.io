@@ -29,10 +29,10 @@ malva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-4</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.3.1-4</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-1</code>,  </span></summary>
       
 
-      ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``2.0.0-0``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ malva
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.15,<1.16.0a0``
    :depends kmc: 
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
@@ -77,7 +77,7 @@ malva
 
     <script>
         var package = "malva";
-        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.1"];
+        var versions = ["2.0.0","1.3.1","1.3.1","1.3.1","1.3.1"];
     </script>
 
 
