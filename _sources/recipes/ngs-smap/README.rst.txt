@@ -27,7 +27,7 @@ ngs-smap
       
       
 
-      ``4.5.0-0``
+      ``4.5.1-0``,  ``4.5.0-0``
 
       
 
@@ -69,7 +69,7 @@ ngs-smap
 
     <script>
         var package = "ngs-smap";
-        var versions = ["4.5.0"];
+        var versions = ["4.5.1","4.5.0"];
     </script>
 
 

@@ -30,7 +30,7 @@ haploflow
       
       
 
-      ``0.1-1``,  ``0.1-0``
+      ``1.0-0``,  ``0.1-1``,  ``0.1-0``
 
       
 
@@ -69,7 +69,7 @@ haploflow
 
     <script>
         var package = "haploflow";
-        var versions = ["0.1","0.1"];
+        var versions = ["1.0","0.1","0.1"];
     </script>
 
 
