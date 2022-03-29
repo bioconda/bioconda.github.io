@@ -6,7 +6,7 @@
 flexbar
 =======
 
-.. conda:recipe:: flexbar/3.3.0
+.. conda:recipe:: flexbar/2.5.0
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ flexbar
 
    :homepage: https://github.com/seqan/flexbar
    :license: BSD-3-Clause
-   :recipe: /`flexbar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar>`_/`3.3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/3.3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/3.3.0/meta.yaml>`_
+   :recipe: /`flexbar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar>`_/`2.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0/meta.yaml>`_
    :links: biotools: :biotools:`flexbar`
 
    

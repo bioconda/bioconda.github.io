@@ -13,6 +13,8 @@ sequana
    A set of standalone application and snakemake pipelines dedicated to NGS \(new generation sequencing\) analysis
 
    :homepage: http://sequana.readthedocs.io/
+   :documentation: https://sequana.readthedocs.io
+   
    :license: BSD / BSD 3-clause
    :recipe: /`sequana <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana/meta.yaml>`_
 
