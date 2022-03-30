@@ -27,11 +27,19 @@ perl-alien-build
       
       
 
-      
+      ``2.48-0``
 
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-capture-tiny: 
+   :depends perl-ffi-checklib: ``0.28.*``
+   :depends perl-file-chdir: 
+   :depends perl-file-which: 
+   :depends perl-path-tiny: 
+   :depends perl-test2-suite: ``0.000145.*``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +71,7 @@ perl-alien-build
 
     <script>
         var package = "perl-alien-build";
-        var versions = [];
+        var versions = ["2.48"];
     </script>
 
 

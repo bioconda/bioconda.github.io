@@ -27,7 +27,7 @@ rmblast
       
       
 
-      ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
+      ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
 
       
 
@@ -36,10 +36,11 @@ rmblast
    :depends curl: 
    :depends entrez-direct: 
    :depends gnutls: ``>=3.5.19,<3.6.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends nettle: ``>=3.3,<3.4.0a0``
-   :depends pcre: ``>=8.44,<9.0a0``
+   :depends pcre: ``>=8.45,<9.0a0``
    :depends perl: 
    :depends perl-archive-tar: 
    :depends perl-json: 
@@ -76,7 +77,7 @@ rmblast
 
     <script>
         var package = "rmblast";
-        var versions = ["2.10.0","2.9.0","2.6.0","2.2.28","2.2.28"];
+        var versions = ["2.11.0","2.10.0","2.9.0","2.6.0","2.2.28"];
     </script>
 
 

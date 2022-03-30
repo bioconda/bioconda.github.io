@@ -27,7 +27,7 @@ pggb
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -74,7 +74,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

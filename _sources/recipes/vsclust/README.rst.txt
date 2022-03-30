@@ -10,17 +10,14 @@ vsclust
    :replaces_section_title:
    :noindex:
 
-   Interactive tool for statistical testing\, data browsing and interactive visualizationc of quantitative omics data
+   Interactive tool for statistical testing\, data browsing and interactive visualization of quantitative omics data
 
    :homepage: https://bitbucket.org/veitveit/vsclust/src/master/
    :license: GPL / GPL (>=2)
    :recipe: /`vsclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsclust/meta.yaml>`_
    :links: biotools: :biotools:`vsclust`, doi: :doi:`10.1093/bioinformatics/bty224`
 
-   VSClust is a web service \(shiny app\) and command\-line tool for statistical testing\, 
-   clustering and interactive visualization of quantitative omics data. Its 
-   variance\-sensitive clustering algorithm improves identification of co\-regulated 
-   features in noisy data with replicates
+   VSClust is a web service \(shiny app\) and command\-line tool for statistical testing\, clustering and interactive visualization of quantitative omics data. Its variance\-sensitive clustering algorithm improves identification of co\-regulated features in noisy data with replicates
 
 
 
@@ -32,30 +29,23 @@ vsclust
       
       
 
-      ``0.87-0``
+      ``0.91-0``,  ``0.87-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: 
+   :depends bioconductor-clusterprofiler: ``4.2.0.*``
    :depends bioconductor-limma: 
-   :depends bioconductor-mfuzz: ``>=2.46.0``
-   :depends bioconductor-qvalue: ``>=2.16.0``
-   :depends bioconductor-rdavidwebservice: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: 
-   :depends libgfortran4: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
-   :depends r-data.table: ``>=1.12.8``
-   :depends r-dt: 
-   :depends r-matrixstats: ``>=0.56.0``
-   :depends r-readxl: ``>=1.3.1``
-   :depends r-shiny: ``>=1.4.0``
-   :depends r-shinyjs: ``>=1.1``
-   :depends r-shinythemes: ``>=1.1.2``
-   :depends r-stringi: 
-   :depends r-yaml: ``>=2.2.0``
+   :depends bioconductor-mfuzz: 
+   :depends bioconductor-qvalue: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-data.table: 
+   :depends r-matrixstats: 
+   :depends r-parallelly: 
+   :depends r-readxl: 
+   :depends r-shinyjs: 
+   :depends r-shinythemes: 
+   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +77,7 @@ vsclust
 
     <script>
         var package = "vsclust";
-        var versions = ["0.87"];
+        var versions = ["0.91","0.87"];
     </script>
 
 
@@ -96,8 +86,7 @@ vsclust
 
 Notes
 -----
-The shiny app can be run with the run\_vsclust\_app.sh command. Alternatively\, 
-a command\-line version is available\: runVSClust.R
+The shiny app can be run with the run\_app.sh command. Alternative\, a command\-line version is available\: runVSClust.R
 
 
 

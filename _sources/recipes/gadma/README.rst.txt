@@ -28,22 +28,23 @@ gadma
       
       
 
-      ``2.0.0rc18-2``,  ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
+      ``2.0.0rc19-0``,  ``2.0.0rc18-2``,  ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
 
       
 
    
    :depends dadi: 
-   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
+   :depends moments: 
    :depends mpmath: 
-   :depends nlopt: ``>=2.7.0,<2.7.1.0a0``
+   :depends networkx: 
+   :depends nlopt: 
    :depends numpy: 
    :depends pandas: 
    :depends pillow: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.6,<3.9``
    :depends ruamel.yaml: 
+   :depends scikit-allel: 
    :depends scipy: 
    :requirements:
 
@@ -76,7 +77,7 @@ gadma
 
     <script>
         var package = "gadma";
-        var versions = ["2.0.0rc18","2.0.0rc18","2.0.0rc18","2.0.0rc17","2.0.0rc16"];
+        var versions = ["2.0.0rc19","2.0.0rc18","2.0.0rc18","2.0.0rc18","2.0.0rc17"];
     </script>
 
 

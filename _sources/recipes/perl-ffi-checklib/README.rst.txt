@@ -27,11 +27,12 @@ perl-ffi-checklib
       
       
 
-      
+      ``0.28-0``
 
       
 
    
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ perl-ffi-checklib
 
     <script>
         var package = "perl-ffi-checklib";
-        var versions = [];
+        var versions = ["0.28"];
     </script>
 
 

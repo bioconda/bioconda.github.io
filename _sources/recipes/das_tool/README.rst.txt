@@ -32,9 +32,17 @@ das_tool
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  </span></summary>
+      
 
+      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -80,7 +88,7 @@ das_tool
 
     <script>
         var package = "das_tool";
-        var versions = ["1.1.4","1.1.3","1.1.2","1.1.2","1.1.2"];
+        var versions = ["1.1.4","1.1.4","1.1.3","1.1.2","1.1.2"];
     </script>
 
 

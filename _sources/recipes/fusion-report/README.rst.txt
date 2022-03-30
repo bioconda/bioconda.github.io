@@ -29,10 +29,10 @@ fusion-report
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  </span></summary>
       
 
-      ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -43,6 +43,8 @@ fusion-report
    
    :depends colorlog: ``4.0.2``
    :depends jinja2: ``2.10.1``
+   :depends markupsafe: ``<2.1``
+   :depends pandas: 
    :depends python: ``>=3.6``
    :depends python-rapidjson: 
    :depends pyyaml: ``>=4.2b1``
@@ -78,7 +80,7 @@ fusion-report
 
     <script>
         var package = "fusion-report";
-        var versions = ["2.1.4","2.1.3","2.1.2","2.1.1","2.1.0"];
+        var versions = ["2.1.5","2.1.4","2.1.3","2.1.2","2.1.1"];
     </script>
 
 

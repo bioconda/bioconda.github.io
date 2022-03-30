@@ -27,11 +27,13 @@ perl-class-trigger
       
       
 
-      
+      ``0.15-0``
 
       
 
    
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-io-stringy: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +65,7 @@ perl-class-trigger
 
     <script>
         var package = "perl-class-trigger";
-        var versions = [];
+        var versions = ["0.15"];
     </script>
 
 

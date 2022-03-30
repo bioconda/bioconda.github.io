@@ -30,10 +30,10 @@ sequana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3.post1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.2-0</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3.post1-0</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,41 +42,40 @@ sequana
       
 
    
-   :depends atropos: ``>=1.1.16``
-   :depends bcftools: 
-   :depends bedtools: 
-   :depends bioservices: ``>=1.5.1``
+   :depends adjusttext: 
+   :depends bioservices: ``>=1.7.8``
+   :depends brokenaxes: 
+   :depends bx-python: 
+   :depends click: 
    :depends colorlog: ``>=3.1.0``
-   :depends cython: ``>=0.29.16``
-   :depends easydev: ``>=0.9.36``
-   :depends fastqc: ``0.11.5``
-   :depends freebayes: 
-   :depends graphviz: ``>=2.42.3``
+   :depends colormap: 
+   :depends cookiecutter: 
+   :depends cython: 
+   :depends docutils: 
+   :depends easydev: ``>=0.11.1``
+   :depends gseapy: 
    :depends itolapi: 
-   :depends khmer: 
-   :depends krona: 
    :depends lxml: 
-   :depends matplotlib: ``<3.1.2``
+   :depends matplotlib-base: 
+   :depends matplotlib-venn: 
    :depends mock: 
-   :depends multiqc: ``>=1.8``
-   :depends numexpr: 
+   :depends multiqc: 
    :depends packaging: 
    :depends pandas: ``>=0.22``
-   :depends pigz: 
+   :depends plotly: 
    :depends psutil: 
-   :depends pykwalify: ``>=1.6``
-   :depends pysam: ``>=0.15.3``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends pyvcf: ``>=0.6.8``
-   :depends pyyaml: ``>=5.3.1``
-   :depends qtconsole: ``>=4.7.2``
-   :depends ruamel.yaml: 
-   :depends samtools: ``>=1.10``
-   :depends scipy: ``>=1.4.1``
-   :depends snakemake: ``>=5.13.0``
-   :depends xlrd: ``>=1.2.0``
-   :depends xmltodict: ``>=0.12.0``
+   :depends pykwalify: 
+   :depends pysam: ``>=0.16``
+   :depends python: 
+   :depends ruamel.yaml: ``>=0.16.0``
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn: 
+   :depends snakemake: 
+   :depends statsmodels: 
+   :depends upsetplot: 
+   :depends vcfpy: 
+   :depends xlrd: 
    :requirements:
 
    .. rubric:: Installation
@@ -108,7 +107,7 @@ sequana
 
     <script>
         var package = "sequana";
-        var versions = ["0.8.2","0.8.2","0.8.2","0.7.1","0.7.1"];
+        var versions = ["0.13.2","0.8.2","0.8.2","0.8.2","0.7.1"];
     </script>
 
 

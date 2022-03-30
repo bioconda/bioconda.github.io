@@ -27,12 +27,14 @@ graphanalyzer
       
       
 
-      ``1.2.1-0``
+      ``1.2.2-0``,  ``1.2.1-0``
 
       
 
    
+   :depends holoviews: 
    :depends hvplot: 
+   :depends jinja2: ``<3.1``
    :depends networkx: 
    :depends openpyxl: 
    :depends pandas: ``>=1.0``
@@ -69,7 +71,7 @@ graphanalyzer
 
     <script>
         var package = "graphanalyzer";
-        var versions = ["1.2.1"];
+        var versions = ["1.2.2","1.2.1"];
     </script>
 
 

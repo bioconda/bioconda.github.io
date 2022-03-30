@@ -27,13 +27,14 @@ perl-sub-attribute
       
       
 
-      ``0.05-4``,  ``0.05-3``,  ``0.05-1``,  ``0.05-0``
+      ``0.07-0``,  ``0.05-4``,  ``0.05-3``,  ``0.05-1``,  ``0.05-0``
 
       
 
    
    :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-class-trigger: ``0.15.*``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +66,7 @@ perl-sub-attribute
 
     <script>
         var package = "perl-sub-attribute";
-        var versions = ["0.05","0.05","0.05","0.05"];
+        var versions = ["0.07","0.05","0.05","0.05","0.05"];
     </script>
 
 

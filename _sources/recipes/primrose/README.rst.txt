@@ -27,7 +27,7 @@ primrose
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -63,7 +63,7 @@ primrose
 
     <script>
         var package = "primrose";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.3.0","1.1.0","1.0.0"];
     </script>
 
 

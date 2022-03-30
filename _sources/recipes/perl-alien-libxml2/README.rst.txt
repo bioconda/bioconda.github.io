@@ -27,11 +27,14 @@ perl-alien-libxml2
       
       
 
-      
+      ``0.17-0``
 
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-alien-build: ``2.48.*``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ perl-alien-libxml2
 
     <script>
         var package = "perl-alien-libxml2";
-        var versions = [];
+        var versions = ["0.17"];
     </script>
 
 

@@ -27,7 +27,7 @@ eukulele
       
       
 
-      ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -35,7 +35,6 @@ eukulele
    :depends biopython: ``1.78``
    :depends blast: ``2.2.31``
    :depends boost-cpp: 
-   :depends busco: ``4.0.6``
    :depends chardet: 
    :depends diamond: ``0.9.24``
    :depends joblib: 
@@ -44,7 +43,6 @@ eukulele
    :depends pandas: ``1.2.0``
    :depends python: ``>=3.6``
    :depends pyyaml: 
-   :depends r-base: 
    :depends seaborn-base: 
    :depends ujson: 
    :requirements:
@@ -78,7 +76,7 @@ eukulele
 
     <script>
         var package = "eukulele";
-        var versions = ["1.0.6","1.0.4","1.0.2","1.0.2"];
+        var versions = ["2.0.1","1.0.6","1.0.4","1.0.2","1.0.2"];
     </script>
 
 

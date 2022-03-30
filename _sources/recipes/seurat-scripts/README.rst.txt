@@ -26,24 +26,33 @@ seurat-scripts
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.0-0``,  ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>0.3.0-0</code>,  <code>0.0.9-2</code>,  <code>0.0.9-1</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  </span></summary>
+      
 
+      ``4.0.0-0``,  ``0.3.0-0``,  ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends bioconductor-multtest: 
    :depends bioconductor-scater: 
    :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends mscorefonts: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends pandoc: 
    :depends r-cairo: 
    :depends r-loom: 
-   :depends r-matrix: ``<=1.3_2``
+   :depends r-metap: 
    :depends r-optparse: 
-   :depends r-seurat: ``3.2.3.*``
-   :depends r-spatstat: ``<=1.64_1``
-   :depends r-spatstat.data: ``<=1.64_1``
-   :depends r-spatstat.utils: ``<=1.64_1``
+   :depends r-seurat: ``4.0.0.*``
+   :depends r-seuratdisk: 
+   :depends r-svglite: 
+   :depends r-uwot: ``<0.1.11``
    :depends r-workflowscriptscommon: ``>=0.0.8``
    :requirements:
 
@@ -76,7 +85,7 @@ seurat-scripts
 
     <script>
         var package = "seurat-scripts";
-        var versions = ["0.3.0","0.0.9","0.0.9","0.0.9","0.0.8"];
+        var versions = ["4.0.0","0.3.0","0.0.9","0.0.9","0.0.9"];
     </script>
 
 

@@ -28,15 +28,15 @@ abismal
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends openmp: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -69,7 +69,7 @@ abismal
 
     <script>
         var package = "abismal";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["2.0.0","1.0.0","1.0.0"];
     </script>
 
 
