@@ -28,12 +28,12 @@ matchtigs
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends rust: ``>=1.56.1``
+   :depends rust: ``>=1.58.1``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ matchtigs
 
     <script>
         var package = "matchtigs";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

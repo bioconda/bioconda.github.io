@@ -27,22 +27,24 @@ biophi
       
       
 
-      ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
    :depends abnumber: ``0.2.7``
+   :depends anarci: ``2020.04.23``
    :depends biopython: 
    :depends celery: 
    :depends click: ``>=7``
-   :depends fairseq: ``0.10.2``
    :depends flask: 
+   :depends hmmer: ``>=3.1``
    :depends humanize: 
    :depends pandas: 
    :depends python: ``>=3.8``
    :depends redis: 
    :depends requests: 
+   :depends sapiens: 
    :depends sqlalchemy: 
    :depends tqdm: 
    :depends xlsxwriter: 
@@ -77,7 +79,7 @@ biophi
 
     <script>
         var package = "biophi";
-        var versions = ["1.0.3","1.0.1"];
+        var versions = ["1.0.4","1.0.3","1.0.1"];
     </script>
 
 

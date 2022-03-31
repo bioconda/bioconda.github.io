@@ -28,16 +28,25 @@ repeatmodeler
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.2a-1``,  ``2.0.2a-0``,  ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.2a-1</code>,  <code>2.0.2a-0</code>,  <code>2.0.1-0</code>,  <code>1.0.11-3</code>,  <code>1.0.11-2</code>,  <code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.8-1</code>,  </span></summary>
+      
 
+      ``2.0.3-0``,  ``2.0.2a-1``,  ``2.0.2a-0``,  ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends cd-hit: ``>=4.8.1``
-   :depends genometools-genometools: ``>=1.5.9``
-   :depends ltr_retriever: ``>=2.6``
-   :depends mafft: ``>=7.407``
+   :depends genometools-genometools: ``>=1.6``
+   :depends ltr_retriever: ``>=2.9``
+   :depends mafft: ``>=7.471``
+   :depends ninja-nj: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-devel-size: 
    :depends perl-file-which: 
@@ -46,7 +55,7 @@ repeatmodeler
    :depends recon: ``>=1.08``
    :depends repeatmasker: 
    :depends repeatscout: ``>=1.0.6``
-   :depends rmblast: ``2.10.0.*``
+   :depends rmblast: ``>=2.11.0``
    :depends trf: ``>=4.09``
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobitinfo: 
@@ -82,7 +91,7 @@ repeatmodeler
 
     <script>
         var package = "repeatmodeler";
-        var versions = ["2.0.2a","2.0.2a","2.0.1","1.0.11","1.0.11"];
+        var versions = ["2.0.3","2.0.2a","2.0.2a","2.0.1","1.0.11"];
     </script>
 
 

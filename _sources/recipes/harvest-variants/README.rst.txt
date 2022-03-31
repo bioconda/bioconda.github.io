@@ -27,22 +27,24 @@ harvest-variants
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``
+      ``0.3.1-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends bcftools: ``>=1.8``
+   :depends bcftools: ``>=1.15``
    :depends bedtools: ``>=2.30.0``
    :depends biopython: ``>=1.79``
    :depends bwa: ``>=0.7.17``
    :depends fastp: ``>=0.22``
+   :depends fastqc: ``>=0.11.9``
    :depends lofreq: ``>=2.1.3``
-   :depends parsnp: ``>=1.5.6``
+   :depends parsnp: ``>=1.7.0``
    :depends python: ``>=3.6``
    :depends pyvcf: ``>=0.6.8``
-   :depends samtools: ``>=1.13``
-   :depends sra-tools: ``2.8.0.*``
+   :depends samtools: ``>=1.15``
+   :depends snpeff: ``>=5.1``
+   :depends sra-tools: ``2.10.9.*``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +76,7 @@ harvest-variants
 
     <script>
         var package = "harvest-variants";
-        var versions = ["0.0.4","0.0.3"];
+        var versions = ["0.3.1","0.0.4","0.0.3"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-dartr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.9.1-1</code>,  <code>1.9.9.1-0</code>,  <code>1.9.6-0</code>,  <code>1.9.4-0</code>,  <code>1.1.11-2</code>,  <code>1.1.11-1</code>,  <code>1.1.11-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>1.9.9.1-1</code>,  <code>1.9.9.1-0</code>,  <code>1.9.6-0</code>,  <code>1.9.4-0</code>,  <code>1.1.11-2</code>,  <code>1.1.11-1</code>,  <code>1.1.11-0</code>,  <code>1.0.5-1</code>,  </span></summary>
       
 
-      ``1.9.9.1-1``,  ``1.9.9.1-0``,  ``1.9.6-0``,  ``1.9.4-0``,  ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
+      ``2.0.3-0``,  ``1.9.9.1-1``,  ``1.9.9.1-0``,  ``1.9.6-0``,  ``1.9.4-0``,  ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -47,15 +47,18 @@ r-dartr
    :depends r-crayon: 
    :depends r-devtools: 
    :depends r-dplyr: 
+   :depends r-fields: 
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-hardyweinberg: 
    :depends r-hierfstat: 
    :depends r-mass: 
+   :depends r-patchwork: 
    :depends r-plyr: 
    :depends r-popgenreport: 
-   :depends r-robustbase: 
+   :depends r-raster: 
+   :depends r-reshape2: 
    :depends r-sp: 
    :depends r-stampp: 
    :depends r-stringr: 
@@ -92,7 +95,7 @@ r-dartr
 
     <script>
         var package = "r-dartr";
-        var versions = ["1.9.9.1","1.9.9.1","1.9.6","1.9.4","1.1.11"];
+        var versions = ["2.0.3","1.9.9.1","1.9.9.1","1.9.6","1.9.4"];
     </script>
 
 
