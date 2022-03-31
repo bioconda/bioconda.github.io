@@ -30,7 +30,7 @@ dgenies
       
       
 
-      ``1.3.0-0``,  ``1.2.0.2-0``,  ``1.2.0.1-0``
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0.2-0``,  ``1.2.0.1-0``
 
       
 
@@ -38,10 +38,10 @@ dgenies
    :depends biopython: ``>=1.70``
    :depends flask: ``1.0.*``
    :depends intervaltree: ``3.*``
-   :depends itsdangerous: ``2.0.1.*``
+   :depends itsdangerous: ``<2.1.0``
    :depends jinja2: ``>=2.11.3,<3``
    :depends markdown: ``>=2.6``
-   :depends markupsafe: ``2.0.1.*``
+   :depends markupsafe: ``<2.1.0``
    :depends matplotlib-base: ``>=2.1``
    :depends numpy: 
    :depends psutil: ``>=5.6.6``
@@ -50,6 +50,7 @@ dgenies
    :depends pyyaml: ``>=5.4.1``
    :depends requests: ``>=2.20.1``
    :depends tendo: ``0.2.*``
+   :depends werkzeug: ``<2.1.0``
    :depends xopen: ``>=1.0``
    :requirements:
 
@@ -82,7 +83,7 @@ dgenies
 
     <script>
         var package = "dgenies";
-        var versions = ["1.3.0","1.2.0.2","1.2.0.1"];
+        var versions = ["1.3.1","1.3.0","1.2.0.2","1.2.0.1"];
     </script>
 
 
