@@ -28,10 +28,10 @@ bioconductor-curatedmetagenomicdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.1-0</code>,  <code>3.0.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.3-0</code>,  <code>1.10.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.3-0</code>,  <code>3.2.1-0</code>,  <code>3.0.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.3-0</code>,  </span></summary>
       
 
-      ``3.2.1-0``,  ``3.0.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
+      ``3.2.3-0``,  ``3.2.1-0``,  ``3.0.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ bioconductor-curatedmetagenomicdata
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends bioconductor-treesummarizedexperiment: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.82.0,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
@@ -87,7 +87,7 @@ bioconductor-curatedmetagenomicdata
 
     <script>
         var package = "bioconductor-curatedmetagenomicdata";
-        var versions = ["3.2.1","3.0.1","1.20.0","1.20.0","1.18.0"];
+        var versions = ["3.2.3","3.2.1","3.0.1","1.20.0","1.20.0"];
     </script>
 
 
