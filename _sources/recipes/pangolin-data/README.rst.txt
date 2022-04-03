@@ -1,0 +1,88 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'pangolin-data'
+.. highlight: bash
+
+pangolin-data
+=============
+
+.. conda:recipe:: pangolin-data
+   :replaces_section_title:
+   :noindex:
+
+   Repository for storing latest model\, protobuf\, designation hash and alias files for pangolin assignments
+
+   :homepage: https://github.com/cov-lineages/pangolin-data
+   :license: GPL-3.0-only
+   :recipe: /`pangolin-data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin-data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin-data/meta.yaml>`_
+
+   
+
+
+.. conda:package:: pangolin-data
+
+   |downloads_pangolin-data| |docker_pangolin-data|
+
+   :versions:
+      
+      
+
+      
+
+      
+
+   
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pangolin-data
+
+   and update with::
+
+      conda update pangolin-data
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/pangolin-data:<tag>
+
+   (see `pangolin-data/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pangolin-data| image:: https://img.shields.io/conda/dn/bioconda/pangolin-data.svg?style=flat
+   :target: https://anaconda.org/bioconda/pangolin-data
+   :alt:   (downloads)
+.. |docker_pangolin-data| image:: https://quay.io/repository/biocontainers/pangolin-data/status
+   :target: https://quay.io/repository/biocontainers/pangolin-data
+.. _`pangolin-data/tags`: https://quay.io/repository/biocontainers/pangolin-data?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "pangolin-data";
+        var versions = [];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pangolin-data/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pangolin-data/README.html
