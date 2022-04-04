@@ -28,11 +28,14 @@ bwa-meme
       
       
 
-      
+      ``1.0.1-0``
 
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +67,7 @@ bwa-meme
 
     <script>
         var package = "bwa-meme";
-        var versions = [];
+        var versions = ["1.0.1"];
     </script>
 
 

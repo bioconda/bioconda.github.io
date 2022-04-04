@@ -27,16 +27,16 @@ gbkviz
       
       
 
-      ``1.1.5-0``
+      ``1.2.0-0``,  ``1.1.5-0``
 
       
 
    
    :depends biopython: ``>=1.79,<2.0``
    :depends mummer4: ``>=4.0.0rc1``
-   :depends python: ``>=3.6,<4.0``
+   :depends python: ``>=3.7,<4.0``
    :depends reportlab: ``>=3.5.68,<4.0.0``
-   :depends streamlit: ``>=1.5.0,<2.0.0``
+   :depends streamlit: ``1.8.1``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ gbkviz
 
     <script>
         var package = "gbkviz";
-        var versions = ["1.1.5"];
+        var versions = ["1.2.0","1.1.5"];
     </script>
 
 

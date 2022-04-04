@@ -28,7 +28,7 @@ straglr
       
       
 
-      ``1.1.1-0``
+      ``1.2.0-0``,  ``1.1.1-0``
 
       
 
@@ -74,7 +74,7 @@ straglr
 
     <script>
         var package = "straglr";
-        var versions = ["1.1.1"];
+        var versions = ["1.2.0","1.1.1"];
     </script>
 
 

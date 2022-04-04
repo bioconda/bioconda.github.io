@@ -27,11 +27,12 @@ pangolin-data
       
       
 
-      
+      ``1.2.133.2-0``,  ``1.2.133-0``
 
       
 
    
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ pangolin-data
 
     <script>
         var package = "pangolin-data";
-        var versions = [];
+        var versions = ["1.2.133.2","1.2.133"];
     </script>
 
 
