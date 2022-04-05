@@ -28,10 +28,10 @@ rilseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.81-0</code>,  <code>0.80-0</code>,  <code>0.78-1</code>,  <code>0.78-0</code>,  <code>0.77-0</code>,  <code>0.75-0</code>,  <code>0.74-0</code>,  <code>0.73-0</code>,  <code>0.72-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.82-0</code>,  <code>0.81-0</code>,  <code>0.80-0</code>,  <code>0.78-1</code>,  <code>0.78-0</code>,  <code>0.77-0</code>,  <code>0.75-0</code>,  <code>0.74-0</code>,  <code>0.73-0</code>,  </span></summary>
       
 
-      ``0.81-0``,  ``0.80-0``,  ``0.78-1``,  ``0.78-0``,  ``0.77-0``,  ``0.75-0``,  ``0.74-0``,  ``0.73-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-0``
+      ``0.82-0``,  ``0.81-0``,  ``0.80-0``,  ``0.78-1``,  ``0.78-0``,  ``0.77-0``,  ``0.75-0``,  ``0.74-0``,  ``0.73-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ rilseq
 
     <script>
         var package = "rilseq";
-        var versions = ["0.81","0.80","0.78","0.78","0.77"];
+        var versions = ["0.82","0.81","0.80","0.78","0.78"];
     </script>
 
 

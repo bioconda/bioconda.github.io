@@ -27,7 +27,7 @@ plannotate
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -76,7 +76,7 @@ plannotate
 
     <script>
         var package = "plannotate";
-        var versions = ["1.2.0","1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ locarna
 
    Multiple alignment of RNAs
 
-   :homepage: http://www.bioinf.uni-freiburg.de/Software/LocARNA/
+   :homepage: https://s-will.github.io/LocARNA
    :license: GPL
    :recipe: /`locarna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locarna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locarna/meta.yaml>`_
    :links: biotools: :biotools:`locarna`, doi: :doi:`10.1371/journal.pcbi.0030065`
@@ -29,10 +29,10 @@ locarna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0RC8-2</code>,  <code>2.0.0RC8-1</code>,  <code>2.0.0RC8-0</code>,  <code>2.0.0RC6-2</code>,  <code>2.0.0RC6-1</code>,  <code>2.0.0RC6-0</code>,  <code>1.9.2.3-2</code>,  <code>1.9.2.3-1</code>,  <code>1.9.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0RC10-0</code>,  <code>2.0.0RC8-2</code>,  <code>2.0.0RC8-1</code>,  <code>2.0.0RC8-0</code>,  <code>2.0.0RC6-2</code>,  <code>2.0.0RC6-1</code>,  <code>2.0.0RC6-0</code>,  <code>1.9.2.3-2</code>,  <code>1.9.2.3-1</code>,  </span></summary>
       
 
-      ``2.0.0RC8-2``,  ``2.0.0RC8-1``,  ``2.0.0RC8-0``,  ``2.0.0RC6-2``,  ``2.0.0RC6-1``,  ``2.0.0RC6-0``,  ``1.9.2.3-2``,  ``1.9.2.3-1``,  ``1.9.2.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-2``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.12-0``,  ``1.8.11-1``,  ``1.8.10-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.7-1``,  ``1.8.7-0``
+      ``2.0.0RC10-0``,  ``2.0.0RC8-2``,  ``2.0.0RC8-1``,  ``2.0.0RC8-0``,  ``2.0.0RC6-2``,  ``2.0.0RC6-1``,  ``2.0.0RC6-0``,  ``1.9.2.3-2``,  ``1.9.2.3-1``,  ``1.9.2.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-2``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.12-0``,  ``1.8.11-1``,  ``1.8.10-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.7-1``,  ``1.8.7-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ locarna
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: 
-   :depends viennarna: ``2.4.13``
-   :depends viennarna: ``>=2.4.13,<2.5.0a0``
+   :depends viennarna: ``2.5.0``
+   :depends viennarna: ``>=2.5.0,<2.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ locarna
 
     <script>
         var package = "locarna";
-        var versions = ["2.0.0RC8","2.0.0RC8","2.0.0RC8","2.0.0RC6","2.0.0RC6"];
+        var versions = ["2.0.0RC10","2.0.0RC8","2.0.0RC8","2.0.0RC8","2.0.0RC6"];
     </script>
 
 
