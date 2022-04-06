@@ -27,7 +27,7 @@ eukulele
       
       
 
-      ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -37,6 +37,7 @@ eukulele
    :depends boost-cpp: 
    :depends chardet: 
    :depends diamond: ``0.9.24``
+   :depends gnu-wget: ``1.18``
    :depends joblib: 
    :depends matplotlib-base: ``3.3.3``
    :depends numpy: ``1.19.5``
@@ -76,7 +77,7 @@ eukulele
 
     <script>
         var package = "eukulele";
-        var versions = ["2.0.1","1.0.6","1.0.4","1.0.2","1.0.2"];
+        var versions = ["2.0.1","2.0.1","1.0.6","1.0.4","1.0.2"];
     </script>
 
 

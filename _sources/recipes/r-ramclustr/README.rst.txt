@@ -27,7 +27,7 @@ r-ramclustr
       
       
 
-      ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.0.9-1``,  ``1.0.9-0``
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.0.9-1``,  ``1.0.9-0``
 
       
 
@@ -47,6 +47,7 @@ r-ramclustr
    :depends r-interpretmsspectrum: 
    :depends r-jsonlite: 
    :depends r-rcurl: 
+   :depends r-readxl: 
    :depends r-stringi: 
    :depends r-stringr: 
    :depends r-webchem: 
@@ -82,7 +83,7 @@ r-ramclustr
 
     <script>
         var package = "r-ramclustr";
-        var versions = ["1.2.2","1.2.1","1.2.1","1.0.9","1.0.9"];
+        var versions = ["1.2.3","1.2.2","1.2.1","1.2.1","1.0.9"];
     </script>
 
 
