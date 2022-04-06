@@ -27,7 +27,7 @@ snipit
       
       
 
-      ``1.0.3-0``
+      ``1.0.5-0``,  ``1.0.3-0``
 
       
 
@@ -66,7 +66,7 @@ snipit
 
     <script>
         var package = "snipit";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.5","1.0.3"];
     </script>
 
 
