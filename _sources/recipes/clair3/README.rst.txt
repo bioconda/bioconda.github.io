@@ -28,10 +28,10 @@ clair3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4.2-0</code>,  <code>0.1.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.11-1</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4.2-0</code>,  </span></summary>
       
 
-      ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
+      ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -87,7 +87,7 @@ clair3
 
     <script>
         var package = "clair3";
-        var versions = ["0.1.11","0.1.10","0.1.9","0.1.8","0.1.7"];
+        var versions = ["0.1.11","0.1.11","0.1.10","0.1.9","0.1.8"];
     </script>
 
 
