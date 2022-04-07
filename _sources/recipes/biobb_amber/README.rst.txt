@@ -10,18 +10,13 @@ biobb_amber
    :replaces_section_title:
    :noindex:
 
-   Biobb\\\_amber is a BioBB category for AMBER MD package.
+   Biobb\_amber is a BioBB category for AMBER MD package.
 
    :homepage: https://github.com/bioexcel/biobb_amber
    :license: APACHE / Apache Software License
    :recipe: /`biobb_amber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_amber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_amber/meta.yaml>`_
 
-   Biobb amber is a BioBB category for AMBER MD package.
-   Biobb \(BioExcel building blocks\) packages are Python building blocks that
-   create new layer of compatibility and interoperability over popular
-     bioinformatics tools.
-   The latest documentation of this package can be found in our readthedocs site\: \[\!\[\]\(http\:\/\/biobb\_amber.readthedocs.io\/en\/latest\/\)\]\(http\:\/\/biobb\_amber.readthedocs.io\/en\/latest\/\).
-
+   Biobb\_amber is a BioBB category for AMBER MD package. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layer of compatibility and interoperability over popular bioinformatics tools. The latest documentation of this package can be found in our readthedocs site\: http\:\/\/biobb\_amber.readthedocs.io\/en\/latest\/\)\]\(http\:\/\/biobb\_amber.readthedocs.io\/en\/latest\/
 
 
 .. conda:package:: biobb_amber
@@ -32,7 +27,7 @@ biobb_amber
       
       
 
-      ``3.7.1-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
+      ``3.7.1-1``,  ``3.7.1-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
 
       
 
@@ -71,7 +66,7 @@ biobb_amber
 
     <script>
         var package = "biobb_amber";
-        var versions = ["3.7.1","3.6.2","3.6.1","3.6.0","3.6.0"];
+        var versions = ["3.7.1","3.7.1","3.6.2","3.6.1","3.6.0"];
     </script>
 
 

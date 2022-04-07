@@ -27,22 +27,22 @@ phyloacc
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
-   :depends armadillo: ``>=10.8,<11.0a0``
-   :depends biopython: 
+   :depends armadillo: ``>=11.0,<12.0a0``
+   :depends biopython: ``>=1.79``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=10.3.0``
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends snakemake: 
+   :depends matplotlib-base: ``>=3.5``
+   :depends numpy: ``>=1.22``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
+   :depends snakemake-minimal: ``>=7.3``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ phyloacc
 
     <script>
         var package = "phyloacc";
-        var versions = ["1.1.1","1.1.0"];
+        var versions = ["2.0.0","1.1.1","1.1.0"];
     </script>
 
 

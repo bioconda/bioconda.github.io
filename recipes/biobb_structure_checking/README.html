@@ -111,7 +111,7 @@
 <dd><p>BioBB_structure_checking performs MDWeb structure checking set as a command line utility.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/bioexcel/biobb_analysis">https://github.com/bioexcel/biobb_analysis</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/bioexcel/biobb_structure_checking">https://github.com/bioexcel/biobb_structure_checking</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>APACHE / Apache Software License</p>
@@ -120,123 +120,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_checking">biobb_structure_checking</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_checking/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>[![Codacy Badge](https://api.codacy.com/project/badge/Grade/376891e43cab4cc591fb78ea43dfd380)](https://www.codacy.com/app/jlgelpi/structureChecking?utm_source=mmb.irbbarcelona.org&amp;amp;utm_medium=referral&amp;amp;utm_content=gitlab/BioExcel/structureChecking&amp;amp;utm_campaign=Badge_Grade)
-# Structure Checking from MDWeb</p>
-<p>check_structure performs MDWeb structure checking set as a command line
-utility.</p>
-<p>It includes some structure manipulation options like selecting models or chains,
-removing components of the system, completing missing atoms, and some quality
-checking as residue quirality, amide orientation, or vdw clashes.</p>
-<p>```
-usage: checkStruc.py [-h] [-i INPUT_STRUCTURE_PATH] [-o OUTPUT_STRUCTURE_PATH]</p>
-<blockquote>
-<div><p>[--version] [--data_dir DATA_DIR]
-[--res_lib RES_LIB_PATH] [--data_lib DATA_LIBRARY_PATH]
-[--json JSON_OUTPUT_PATH] [--quiet] [--check_only]
-[--non_interactive] [--force_save]
-[--pdb_server PDB_SERVER]
-command …</p>
-</div></blockquote>
-<dl>
-<dt>positional arguments:</dt><dd><p>command               Command to execute (help: checkStruc commands)
-options               Specific command options</p>
-</dd>
-<dt>optional arguments:</dt><dd><p>-h, --help            show this help message and exit
--i INPUT_STRUCTURE_PATH, --input INPUT_STRUCTURE_PATH</p>
-<blockquote>
-<div><p>Input structure. Formats PDB|mmCIF. Remote pdb:{pdbid}</p>
-</div></blockquote>
-<dl class="simple">
-<dt>-o OUTPUT_STRUCTURE_PATH, --output OUTPUT_STRUCTURE_PATH</dt><dd><p>Output structure. Format PDB</p>
-</dd>
-</dl>
-<p>--version             show program's version number and exit
---data_dir DATA_DIR   Override settings default data dir
---res_lib RES_LIB_PATH</p>
-<blockquote>
-<div><p>Override settings default residue library (AMBER prep
-format)</p>
-</div></blockquote>
-<dl class="simple">
-<dt>--data_lib DATA_LIBRARY_PATH</dt><dd><p>Override settings default data library</p>
-</dd>
-<dt>--json JSON_OUTPUT_PATH</dt><dd><p>Cummulated checking results on a json file</p>
-</dd>
-</dl>
-<p>--quiet               Reduces output, removing labels and progress info
---check_only          Perform checks, structure is not modified
---non_interactive     Do not prompt for missing parameters
---force_save          Force saving an output file even if no modification
---pdb_server PDB_SERVER</p>
-<blockquote>
-<div><p>Server for retrieving structures (default: RCSB|mmb)</p>
-</div></blockquote>
-<p>--load                Loads structure from PDB server into the local cache
---stats               Loads structure and get basic statistics and headers</p>
-</dd>
-</dl>
-<p>Available commands:</p>
-<p>```</p>
-<p>## Available commands:</p>
-<p>```
-commands:  This help
-command_list:      Run all tests from conf file
-checkall:   Perform all checks without fixes
-load: Stores structure on local cache and provide basic statistics</p>
-<p>1. System Configuration
-=======================
-models [--select_model model_num]</p>
-<blockquote>
-<div><p>Detect/Select Models</p>
-</div></blockquote>
-<dl class="simple">
-<dt>chains [--select_chains chain_ids]</dt><dd><p>Detect/Select Chains</p>
-</dd>
-<dt>inscodes</dt><dd><p>Detects residues with insertion codes (no fix)</p>
-</dd>
-<dt>altloc [--select_altloc occupancy| alt_id | list of res_id:alt_id]</dt><dd><p>Detect/Select Alternative Locations</p>
-</dd>
-<dt>metals [--remove All | None | Met_ids_list | Residue_list]</dt><dd><p>Detect/Remove Metals</p>
-</dd>
-<dt>ligands [--remove All | None | Res_type_list | Residue_list]</dt><dd><p>Detect/Remove Ligands</p>
-</dd>
-<dt>remwat [--remove Yes|No]</dt><dd><p>Remove Water molecules</p>
-</dd>
-<dt>remh [remh --remove Yes|No]</dt><dd><p>Remove Hydrogen atoms from structure</p>
-</dd>
-<dt>mutateside [--mut mutation_list]</dt><dd><p>Mutate side chain with minimal atom replacement. Allows multiple mutations</p>
-</dd>
-<dt>addH [--mode auto | pH | interactive | interactive_his]</dt><dd><p>Add Hydrogen Atoms</p>
-</dd>
-</dl>
-<ol class="arabic simple" start="2">
-<li><p>Fix Structure Errors</p></li>
-</ol>
-<dl class="simple">
-<dt>amide  [--fix All|None|Residue List]</dt><dd><p>Detect/Fix Amide atoms Assignment</p>
-</dd>
-<dt>chiral [--fix All|None|Residue List]</dt><dd><p>Detect/Fix Improper quirality</p>
-</dd>
-<dt>fixside [--fix All |None|Residue List]</dt><dd><p>Complete side chains</p>
-</dd>
-<dt>backbone [--fix All|None|Residue List]</dt><dd><p>Analyze main chain missing atoms and fragments. O, OXT atoms can be fixed</p>
-</dd>
-</dl>
-<ol class="arabic simple" start="3">
-<li><p>Structure Warnings</p></li>
-</ol>
-<p>cistransbck Analyzes cis-trans dihedrals on backbone atoms
-getss      Detect SS Bonds
-clashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,</p>
-<blockquote>
-<div><p>Ionic Positive, Ionic Negative)</p>
-</div></blockquote>
-<p>```
-### Dependencies
-* python 3.x
-* biopython
-* numpy
-* biobb_model (structure_manager)</p>
+<p>Biobb_structure_checking performs a checking of the quality of a 3D structure intended to facilitate the setup of molecular dynamics simulation of protein or nucleic acids systems. Biobb_structure_checking package allows to configure the system (selection of model/chains,alternative location, addition of disulfide bonds and hydrogen atoms, side chain mutations), to detect and fix structure errors (missing side chain atoms, backbone breaks, amide assignments, incorrect chirality). It works with structures obtained from the Protein Data Bank or user provided. The Biobb_structure_checking package provides a command line utility (https://biobb-structure-checking.readthedocs.io/en/latest/command_line_usage.html) and a python API (https://biobb-structure-checking.readthedocs.io/en/latest/biobb_structure_checking.html). The latest documentation of this package can be found in our readthedocs site: http://biobb_structure_checking.readthedocs.io/en/latest/</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -245,7 +129,7 @@ clashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/biobb_structure_checking"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/biobb_structure_checking.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/biobb_structure_checking"><img alt="docker_biobb_structure_checking" src="https://quay.io/repository/biocontainers/biobb_structure_checking/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.9.11-0</code>,  <code>3.9.10-0</code>,  <code>3.9.9-0</code>,  <code>3.9.7-0</code>,  <code>3.9.6-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.5-0</code>,  <code>3.7.3-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.9.11-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.8.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.9.11-1</code>,  <code>3.9.11-0</code>,  <code>3.9.10-0</code>,  <code>3.9.9-0</code>,  <code>3.9.7-0</code>,  <code>3.9.6-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.5-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.9.11-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.11-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.8.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -258,9 +142,9 @@ clashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,</p>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../biobb_cmip/README.html#biobb_cmip"><strong class="xref backref">biobb_cmip</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../biobb_model/README.html#biobb_model"><strong class="xref backref">biobb_model</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../biobb_structure_utils/README.html#biobb_structure_utils"><strong class="xref backref">biobb_structure_utils</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../biobb_cmip/README.html#biobb_cmip"><strong class="xref backref">biobb_cmip</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -282,7 +166,7 @@ clashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,</p>
 
 <script>
     var package = "biobb_structure_checking";
-    var versions = ["3.9.11","3.9.10","3.9.9","3.9.7","3.9.6"];
+    var versions = ["3.9.11","3.9.11","3.9.10","3.9.9","3.9.7"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -331,7 +215,7 @@ clashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.4.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

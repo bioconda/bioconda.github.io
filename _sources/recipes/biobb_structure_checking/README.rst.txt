@@ -12,118 +12,11 @@ biobb_structure_checking
 
    BioBB\_structure\_checking performs MDWeb structure checking set as a command line utility.
 
-   :homepage: https://github.com/bioexcel/biobb_analysis
+   :homepage: https://github.com/bioexcel/biobb_structure_checking
    :license: APACHE / Apache Software License
    :recipe: /`biobb_structure_checking <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_checking>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_checking/meta.yaml>`_
 
-   \[\!\[Codacy Badge\]\(https\:\/\/api.codacy.com\/project\/badge\/Grade\/376891e43cab4cc591fb78ea43dfd380\)\]\(https\:\/\/www.codacy.com\/app\/jlgelpi\/structureChecking\?utm\_source\=mmb.irbbarcelona.org\&amp\;utm\_medium\=referral\&amp\;utm\_content\=gitlab\/BioExcel\/structureChecking\&amp\;utm\_campaign\=Badge\_Grade\)
-   \# Structure Checking from MDWeb
-
-   check\_structure performs MDWeb structure checking set as a command line
-   utility.
-
-   It includes some structure manipulation options like selecting models or chains\,
-   removing components of the system\, completing missing atoms\, and some quality
-   checking as residue quirality\, amide orientation\, or vdw clashes.
-
-   \`\`\`
-   usage\: checkStruc.py \[\-h\] \[\-i INPUT\_STRUCTURE\_PATH\] \[\-o OUTPUT\_STRUCTURE\_PATH\]
-                        \[\-\-version\] \[\-\-data\_dir DATA\_DIR\]
-                        \[\-\-res\_lib RES\_LIB\_PATH\] \[\-\-data\_lib DATA\_LIBRARY\_PATH\]
-                        \[\-\-json JSON\_OUTPUT\_PATH\] \[\-\-quiet\] \[\-\-check\_only\]
-                        \[\-\-non\_interactive\] \[\-\-force\_save\]
-                        \[\-\-pdb\_server PDB\_SERVER\]
-                        command ...
-   positional arguments\:
-     command               Command to execute \(help\: checkStruc commands\)
-     options               Specific command options
-
-   optional arguments\:
-     \-h\, \-\-help            show this help message and exit
-     \-i INPUT\_STRUCTURE\_PATH\, \-\-input INPUT\_STRUCTURE\_PATH
-                           Input structure. Formats PDB\|mmCIF. Remote pdb\:\{pdbid\}
-     \-o OUTPUT\_STRUCTURE\_PATH\, \-\-output OUTPUT\_STRUCTURE\_PATH
-                           Output structure. Format PDB
-     \-\-version             show program\'s version number and exit
-     \-\-data\_dir DATA\_DIR   Override settings default data dir
-     \-\-res\_lib RES\_LIB\_PATH
-                           Override settings default residue library \(AMBER prep
-                           format\)
-     \-\-data\_lib DATA\_LIBRARY\_PATH
-                           Override settings default data library
-     \-\-json JSON\_OUTPUT\_PATH
-                           Cummulated checking results on a json file
-     \-\-quiet               Reduces output\, removing labels and progress info
-     \-\-check\_only          Perform checks\, structure is not modified
-     \-\-non\_interactive     Do not prompt for missing parameters
-     \-\-force\_save          Force saving an output file even if no modification
-     \-\-pdb\_server PDB\_SERVER
-                           Server for retrieving structures \(default\: RCSB\|mmb\)
-     \-\-load                Loads structure from PDB server into the local cache
-     \-\-stats               Loads structure and get basic statistics and headers
-
-   Available commands\:
-
-   \`\`\`
-
-   \#\# Available commands\:
-
-   \`\`\`
-   commands\:  This help
-   command\_list\:      Run all tests from conf file
-   checkall\:   Perform all checks without fixes
-   load\: Stores structure on local cache and provide basic statistics
-
-   1. System Configuration
-   \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
-   models \[\-\-select\_model model\_num\]     
-       Detect\/Select Models
-   chains \[\-\-select\_chains chain\_ids\]    
-       Detect\/Select Chains
-   inscodes
-       Detects residues with insertion codes \(no fix\)
-   altloc \[\-\-select\_altloc occupancy\| alt\_id \| list of res\_id\:alt\_id\]
-       Detect\/Select Alternative Locations
-   metals \[\-\-remove All \| None \| Met\_ids\_list \| Residue\_list\]   
-       Detect\/Remove Metals
-   ligands \[\-\-remove All \| None \| Res\_type\_list \| Residue\_list\]
-       Detect\/Remove Ligands
-   remwat \[\-\-remove Yes\|No\]
-       Remove Water molecules
-   remh \[remh \-\-remove Yes\|No\]
-       Remove Hydrogen atoms from structure
-   mutateside \[\-\-mut mutation\_list\]
-       Mutate side chain with minimal atom replacement. Allows multiple mutations
-   addH \[\-\-mode auto \| pH \| interactive \| interactive\_his\]
-       Add Hydrogen Atoms
-
-   2. Fix Structure Errors
-
-   amide  \[\-\-fix All\|None\|Residue List\]    
-       Detect\/Fix Amide atoms Assignment
-   chiral \[\-\-fix All\|None\|Residue List\]
-       Detect\/Fix Improper quirality
-   fixside \[\-\-fix All \|None\|Residue List\]    
-       Complete side chains
-   backbone \[\-\-fix All\|None\|Residue List\]   
-       Analyze main chain missing atoms and fragments. O\, OXT atoms can be fixed
-
-   3. Structure Warnings
-
-   cistransbck Analyzes cis\-trans dihedrals on backbone atoms
-   getss      Detect SS Bonds
-   clashes    Steric clashes \(Severe\, Apolar\, Polar Donors\, Polar Acceptors\,
-              Ionic Positive\, Ionic Negative\)
-
-   \`\`\`
-   \#\#\# Dependencies
-   \* python 3.x
-   \* biopython
-   \* numpy
-   \* biobb\_model \(structure\_manager\)
-
-
-
+   Biobb\_structure\_checking performs a checking of the quality of a 3D structure intended to facilitate the setup of molecular dynamics simulation of protein or nucleic acids systems. Biobb\_structure\_checking package allows to configure the system \(selection of model\/chains\,alternative location\, addition of disulfide bonds and hydrogen atoms\, side chain mutations\)\, to detect and fix structure errors \(missing side chain atoms\, backbone breaks\, amide assignments\, incorrect chirality\). It works with structures obtained from the Protein Data Bank or user provided. The Biobb\_structure\_checking package provides a command line utility \(https\:\/\/biobb\-structure\-checking.readthedocs.io\/en\/latest\/command\_line\_usage.html\) and a python API \(https\:\/\/biobb\-structure\-checking.readthedocs.io\/en\/latest\/biobb\_structure\_checking.html\). The latest documentation of this package can be found in our readthedocs site\: http\:\/\/biobb\_structure\_checking.readthedocs.io\/en\/latest\/
 
 
 .. conda:package:: biobb_structure_checking
@@ -135,10 +28,10 @@ biobb_structure_checking
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.11-0</code>,  <code>3.9.10-0</code>,  <code>3.9.9-0</code>,  <code>3.9.7-0</code>,  <code>3.9.6-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.5-0</code>,  <code>3.7.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.11-1</code>,  <code>3.9.11-0</code>,  <code>3.9.10-0</code>,  <code>3.9.9-0</code>,  <code>3.9.7-0</code>,  <code>3.9.6-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.5-0</code>,  </span></summary>
       
 
-      ``3.9.11-0``,  ``3.9.10-0``,  ``3.9.9-0``,  ``3.9.7-0``,  ``3.9.6-0``,  ``3.9.2-0``,  ``3.9.1-0``,  ``3.8.5-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.5.3-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``0.0.1-0``
+      ``3.9.11-1``,  ``3.9.11-0``,  ``3.9.10-0``,  ``3.9.9-0``,  ``3.9.7-0``,  ``3.9.6-0``,  ``3.9.2-0``,  ``3.9.1-0``,  ``3.8.5-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.5.3-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -183,7 +76,7 @@ biobb_structure_checking
 
     <script>
         var package = "biobb_structure_checking";
-        var versions = ["3.9.11","3.9.10","3.9.9","3.9.7","3.9.6"];
+        var versions = ["3.9.11","3.9.11","3.9.10","3.9.9","3.9.7"];
     </script>
 
 
