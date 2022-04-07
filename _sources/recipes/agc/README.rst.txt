@@ -27,7 +27,7 @@ agc
       
       
 
-      ``1.1-0``
+      ``2.0-0``,  ``1.1-0``
 
       
 
@@ -63,7 +63,7 @@ agc
 
     <script>
         var package = "agc";
-        var versions = ["1.1"];
+        var versions = ["2.0","1.1"];
     </script>
 
 
