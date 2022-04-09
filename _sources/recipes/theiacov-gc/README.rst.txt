@@ -27,7 +27,7 @@ theiacov-gc
       
       
 
-      ``2.0.0-0``
+      ``2.1.0-0``,  ``2.0.0-0``
 
       
 
@@ -65,7 +65,7 @@ theiacov-gc
 
     <script>
         var package = "theiacov-gc";
-        var versions = ["2.0.0"];
+        var versions = ["2.1.0","2.0.0"];
     </script>
 
 

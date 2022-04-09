@@ -27,7 +27,7 @@ naltorfs
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -66,7 +66,7 @@ naltorfs
 
     <script>
         var package = "naltorfs";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 
