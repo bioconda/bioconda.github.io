@@ -12,7 +12,7 @@ aragorn
 
    ARAGORN\, tRNA \(and tmRNA\) detection
 
-   :homepage: http://mbio-serv2.mbioekol.lu.se/ARAGORN/
+   :homepage: http://www.ansikte.se/ARAGORN/
    :license: GPLv3
    :recipe: /`aragorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn/meta.yaml>`_
 
