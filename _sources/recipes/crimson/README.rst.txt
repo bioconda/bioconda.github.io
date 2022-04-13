@@ -26,9 +26,17 @@ crimson
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.3.0-1``,  ``0.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.3.0-1</code>,  </span></summary>
+      
 
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.3.0-1``,  ``0.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -67,7 +75,7 @@ crimson
 
     <script>
         var package = "crimson";
-        var versions = ["1.0.0","0.5.2","0.5.2","0.5.1","0.5.0"];
+        var versions = ["1.1.0","1.0.0","0.5.2","0.5.2","0.5.1"];
     </script>
 
 

@@ -27,11 +27,14 @@ aeon
       
       
 
-      
+      ``0.1.1-0``
 
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ aeon
 
     <script>
         var package = "aeon";
-        var versions = [];
+        var versions = ["0.1.1"];
     </script>
 
 

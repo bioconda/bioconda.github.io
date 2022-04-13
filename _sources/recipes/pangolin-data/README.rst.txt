@@ -27,7 +27,7 @@ pangolin-data
       
       
 
-      ``1.2.133.2-0``,  ``1.2.133-0``
+      ``1.3-0``,  ``1.2.133.2-0``,  ``1.2.133-0``
 
       
 
@@ -64,7 +64,7 @@ pangolin-data
 
     <script>
         var package = "pangolin-data";
-        var versions = ["1.2.133.2","1.2.133"];
+        var versions = ["1.3","1.2.133.2","1.2.133"];
     </script>
 
 

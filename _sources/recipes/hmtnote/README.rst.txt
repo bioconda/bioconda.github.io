@@ -27,11 +27,20 @@ hmtnote
       
       
 
-      
+      ``0.7.2-0``
 
       
 
    
+   :depends aiofiles: ``>=0.4.0``
+   :depends aiohttp: ``>=3.5.4``
+   :depends click: ``>=7.0``
+   :depends numpy: ``>=1.16.4``
+   :depends pandas: ``>=0.24.2``
+   :depends python: ``>=3.6``
+   :depends requests: ``>=2.22.0``
+   :depends scikit-allel: ``>=1.2.1``
+   :depends vcfpy2: ``>=0.1.2``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +72,7 @@ hmtnote
 
     <script>
         var package = "hmtnote";
-        var versions = [];
+        var versions = ["0.7.2"];
     </script>
 
 

@@ -1,0 +1,89 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'gctb'
+.. highlight: bash
+
+gctb
+====
+
+.. conda:recipe:: gctb
+   :replaces_section_title:
+   :noindex:
+
+   GCTB \(Genome\-wide Complex Trait Bayesian \) is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome\-wide SNPs.
+
+   :homepage: https://cnsgenomics.com/software/gctb
+   :license: MIT
+   :recipe: /`gctb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gctb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gctb/meta.yaml>`_
+
+   
+
+
+.. conda:package:: gctb
+
+   |downloads_gctb| |docker_gctb|
+
+   :versions:
+      
+      
+
+      ``2.0-0``
+
+      
+
+   
+   :depends libgcc-ng: ``>=10.3.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gctb
+
+   and update with::
+
+      conda update gctb
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/gctb:<tag>
+
+   (see `gctb/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_gctb| image:: https://img.shields.io/conda/dn/bioconda/gctb.svg?style=flat
+   :target: https://anaconda.org/bioconda/gctb
+   :alt:   (downloads)
+.. |docker_gctb| image:: https://quay.io/repository/biocontainers/gctb/status
+   :target: https://quay.io/repository/biocontainers/gctb
+.. _`gctb/tags`: https://quay.io/repository/biocontainers/gctb?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "gctb";
+        var versions = ["2.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gctb/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gctb/README.html

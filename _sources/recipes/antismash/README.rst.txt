@@ -34,10 +34,10 @@ antismash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  <code>5.1.2-3</code>,  <code>5.1.2-2</code>,  <code>5.1.2-1</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>4.2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  <code>5.1.2-3</code>,  <code>5.1.2-2</code>,  <code>5.1.2-1</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  </span></summary>
       
 
-      ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+      ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
 
       
       .. raw:: html
@@ -58,6 +58,7 @@ antismash
    :depends jinja2: 
    :depends joblib: 
    :depends jsonschema: 
+   :depends markupsafe: ``>=2.0``
    :depends matplotlib-base: 
    :depends meme: ``<=4.11.2``
    :depends muscle: ``3.8.*``
@@ -100,7 +101,7 @@ antismash
 
     <script>
         var package = "antismash";
-        var versions = ["6.0.1","6.0.0","5.1.2","5.1.2","5.1.2"];
+        var versions = ["6.1.0","6.0.1","6.0.0","5.1.2","5.1.2"];
     </script>
 
 

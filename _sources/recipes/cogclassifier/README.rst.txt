@@ -27,7 +27,7 @@ cogclassifier
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -67,7 +67,7 @@ cogclassifier
 
     <script>
         var package = "cogclassifier";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 

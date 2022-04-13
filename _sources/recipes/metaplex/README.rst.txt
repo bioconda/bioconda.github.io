@@ -27,11 +27,19 @@ metaplex
       
       
 
-      
+      ``0.2.0-0``
 
       
 
    
+   :depends biom-format: 
+   :depends cutadapt: 
+   :depends cython: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27m``
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +71,7 @@ metaplex
 
     <script>
         var package = "metaplex";
-        var versions = [];
+        var versions = ["0.2.0"];
     </script>
 
 
