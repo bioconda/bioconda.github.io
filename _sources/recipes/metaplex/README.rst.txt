@@ -27,18 +27,17 @@ metaplex
       
       
 
-      ``0.2.0-0``
+      ``1.0.0-0``,  ``0.2.0-0``
 
       
 
    
    :depends biom-format: 
+   :depends biopython: 
    :depends cutadapt: 
-   :depends cython: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python: 
    :depends samtools: 
    :requirements:
 
@@ -71,7 +70,7 @@ metaplex
 
     <script>
         var package = "metaplex";
-        var versions = ["0.2.0"];
+        var versions = ["1.0.0","0.2.0"];
     </script>
 
 

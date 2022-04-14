@@ -33,7 +33,7 @@ antismash-lite
       
       
 
-      ``6.0.1-0``
+      ``6.0.1-1``,  ``6.0.1-0``
 
       
 
@@ -47,7 +47,7 @@ antismash-lite
    :depends helperlibs: ``>=0.2.0``
    :depends hmmer: ``3.1b2``
    :depends hmmer2: 
-   :depends jinja2: 
+   :depends jinja2: ``3.0.3``
    :depends joblib: 
    :depends jsonschema: 
    :depends matplotlib-base: 
@@ -92,7 +92,7 @@ antismash-lite
 
     <script>
         var package = "antismash-lite";
-        var versions = ["6.0.1"];
+        var versions = ["6.0.1","6.0.1"];
     </script>
 
 

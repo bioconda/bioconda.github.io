@@ -10,9 +10,9 @@ dammet
    :replaces_section_title:
    :noindex:
 
-   Software to reconstruct methylomes from HTS data underlying and ancient specimen
+   Software to reconstruct methylomes from HTS data from ancient specimen
 
-   :homepage: https://gitlab.com/KHanghoj/DamMet
+   :homepage: https://github.com/KHanghoj/DamMet
    :license: MIT license
    :recipe: /`dammet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dammet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dammet/meta.yaml>`_
 
@@ -27,17 +27,16 @@ dammet
       
       
 
-      ``1.0.1a-6``,  ``1.0.1a-5``,  ``1.0.1a-4``,  ``1.0.1a-3``,  ``1.0.1a-2``,  ``1.0.1a-1``,  ``1.0.1a-0``
+      ``1.0.4-0``,  ``1.0.1a-6``,  ``1.0.1a-5``,  ``1.0.1a-4``,  ``1.0.1a-3``,  ``1.0.1a-2``,  ``1.0.1a-1``,  ``1.0.1a-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcurl: ``>=7.82.0,<8.0a0``
+   :depends libcxx: ``>=12.0.1``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends nlopt: ``>=2.7.1,<2.7.2.0a0``
+   :depends openssl: ``>=1.1.1n,<1.1.2a``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -71,7 +70,7 @@ dammet
 
     <script>
         var package = "dammet";
-        var versions = ["1.0.1a","1.0.1a","1.0.1a","1.0.1a","1.0.1a"];
+        var versions = ["1.0.4","1.0.1a","1.0.1a","1.0.1a","1.0.1a"];
     </script>
 
 

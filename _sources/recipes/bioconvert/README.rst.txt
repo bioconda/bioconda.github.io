@@ -26,9 +26,17 @@ bioconvert
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.0.10-1</code>,  </span></summary>
+      
 
+      ``0.5.2-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,39 +44,48 @@ bioconvert
    :depends bcftools: 
    :depends bedops: 
    :depends bedtools: 
-   :depends bioawk: 
    :depends biopython: ``>=1.70``
+   :depends biosniff: 
    :depends colorlog: 
    :depends deeptools: 
    :depends dsrc: 
-   :depends easydev: ``>=0.9.36``
+   :depends easydev: 
    :depends go: ``1.10.3``
+   :depends jinja2: ``<3.1``
    :depends mappy: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends mawk: 
+   :depends mosdepth: 
    :depends networkx: 
+   :depends numpydoc: 
    :depends pandas: 
    :depends pbzip2: 
    :depends pigz: 
    :depends plink: 
+   :depends py2bit: 
    :depends pybigwig: 
    :depends pyexcel: 
    :depends pyexcel-ods3: 
    :depends pyexcel-xls: 
+   :depends pyexcel-xlsx: 
    :depends pysam: 
-   :depends python: ``>=3``
+   :depends python: 
    :depends pyyaml: 
    :depends sambamba: 
    :depends samtools: ``>=1.9``
    :depends sed: 
+   :depends seqkit: 
    :depends seqtk: 
    :depends squizz: 
    :depends sra-tools: 
+   :depends statsmodels: 
+   :depends tqdm: 
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-bigwigtobedgraph: 
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobittofa: 
-   :depends wiggletools: 
+   :depends ucsc-wigtobigwig: 
+   :depends wiggletools: ``1.2.11``
    :depends xlrd: 
    :requirements:
 
@@ -101,7 +118,7 @@ bioconvert
 
     <script>
         var package = "bioconvert";
-        var versions = ["0.4.3","0.4.2","0.4.1","0.4.0","0.3.0"];
+        var versions = ["0.5.2","0.4.3","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

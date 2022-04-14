@@ -20,7 +20,7 @@ unifrac
    microbiome research. The metric relates two microbiome samples together
    within the context of an evolutionary history\, and produces a distance
    that corresponds to how similar two samples by the amount of overlapping
-   branch length. 
+   branch length.  
 
 
 
@@ -33,10 +33,10 @@ unifrac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-1</code>,  </span></summary>
       
 
-      ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -46,12 +46,12 @@ unifrac
 
    
    :depends biom-format: 
-   :depends h5py: ``>=3.1.0,<4.0a0``
-   :depends hdf5: ``<1.11.0``
+   :depends h5py: ``>=2.10.0,<3.0a0``
+   :depends hdf5: ``<1.12.1``
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
+   :depends iow: 
    :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends numpy: ``>=1.19.5,<2.0a0``
+   :depends numpy: ``>=1.17.5,<2.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-bio: ``>=0.5.1``
@@ -87,7 +87,7 @@ unifrac
 
     <script>
         var package = "unifrac";
-        var versions = ["1.0.0","1.0.0","0.20.3","0.20.2","0.20.2"];
+        var versions = ["1.1.1","1.1.0","1.0.0","1.0.0","0.20.3"];
     </script>
 
 

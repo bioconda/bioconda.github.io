@@ -27,7 +27,7 @@ nanocaller
       
       
 
-      ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
 
@@ -35,14 +35,14 @@ nanocaller
    :depends bcftools: 
    :depends biopython: 
    :depends intervaltree: 
-   :depends muscle: 
-   :depends numpy: ``>=1.16,<1.18``
+   :depends muscle: ``>=3.5,<5``
+   :depends numpy: ``>=1.16``
    :depends parallel: 
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7``
+   :depends python: ``>=3.8``
    :depends rtg-tools: 
    :depends samtools: ``>=1.10``
-   :depends tensorflow: ``>=1.13,<1.14``
+   :depends tensorflow: ``>=2.2``
    :depends vcflib: 
    :depends whatshap: ``>=1.0``
    :requirements:
@@ -76,7 +76,7 @@ nanocaller
 
     <script>
         var package = "nanocaller";
-        var versions = ["2.1.2","2.1.1","2.1.0","2.0.0"];
+        var versions = ["2.1.2","2.1.2","2.1.1","2.1.0","2.0.0"];
     </script>
 
 
