@@ -28,10 +28,10 @@ odgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.4.1-1</code>,  </span></summary>
       
 
-      ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
+      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ odgi
 
     <script>
         var package = "odgi";
-        var versions = ["0.7.0","0.6.3","0.6.3","0.6.2","0.6.1"];
+        var versions = ["0.7.1","0.7.0","0.6.3","0.6.3","0.6.2"];
     </script>
 
 
