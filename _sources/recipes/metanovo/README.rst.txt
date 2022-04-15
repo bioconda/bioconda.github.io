@@ -27,13 +27,14 @@ metanovo
       
       
 
-      ``1.9.4-1``,  ``1.9.4-0``
+      ``1.9.4-2``,  ``1.9.4-1``,  ``1.9.4-0``
 
       
 
    
    :depends biopython: ``1.79``
    :depends numpy: ``1.22.1``
+   :depends openjdk: ``8.0.312.*``
    :depends pandas: ``1.3.5``
    :depends parallel: ``20220222.*``
    :depends python: ``3.9.9.*``
@@ -68,7 +69,7 @@ metanovo
 
     <script>
         var package = "metanovo";
-        var versions = ["1.9.4","1.9.4"];
+        var versions = ["1.9.4","1.9.4","1.9.4"];
     </script>
 
 

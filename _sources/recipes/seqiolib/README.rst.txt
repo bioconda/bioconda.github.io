@@ -27,15 +27,15 @@ seqiolib
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends numpy: ``<1.19.0``
+   :depends numpy: 
    :depends pyfaidx: 
    :depends python: ``>=3``
-   :depends tensorflow: ``>=2.2``
+   :depends tensorflow: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ seqiolib
 
     <script>
         var package = "seqiolib";
-        var versions = ["0.2.3","0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.2.4","0.2.3","0.2.2","0.2.1","0.2.0"];
     </script>
 
 

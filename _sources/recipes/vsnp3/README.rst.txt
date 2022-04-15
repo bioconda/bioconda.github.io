@@ -27,12 +27,13 @@ vsnp3
       
       
 
-      ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
+      ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
 
    
    :depends biopython: ``>=1.79``
+   :depends bwa: 
    :depends cairosvg: ``>=2.5.2``
    :depends dask: ``>=2022.01.1``
    :depends freebayes: ``>=1.3.5``
@@ -87,7 +88,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.05","3.04","3.02","3.01"];
+        var versions = ["3.06","3.05","3.04","3.02","3.01"];
     </script>
 
 
