@@ -29,10 +29,10 @@ r-acidgenerics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.20-0</code>,  <code>0.5.19-0</code>,  <code>0.5.18-0</code>,  <code>0.5.17-2</code>,  <code>0.5.17-1</code>,  <code>0.5.17-0</code>,  <code>0.5.16-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.20-0</code>,  <code>0.5.19-0</code>,  <code>0.5.18-0</code>,  <code>0.5.17-2</code>,  <code>0.5.17-1</code>,  <code>0.5.17-0</code>,  <code>0.5.16-0</code>,  <code>0.4.1-0</code>,  </span></summary>
       
 
-      ``0.5.20-0``,  ``0.5.19-0``,  ``0.5.18-0``,  ``0.5.17-2``,  ``0.5.17-1``,  ``0.5.17-0``,  ``0.5.16-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.0-0``
+      ``0.6.0-0``,  ``0.5.20-0``,  ``0.5.19-0``,  ``0.5.18-0``,  ``0.5.17-2``,  ``0.5.17-1``,  ``0.5.17-0``,  ``0.5.16-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,6 @@ r-acidgenerics
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0``
-   :depends bioconductor-iranges: ``>=2.26.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -77,7 +73,7 @@ r-acidgenerics
 
     <script>
         var package = "r-acidgenerics";
-        var versions = ["0.5.20","0.5.19","0.5.18","0.5.17","0.5.17"];
+        var versions = ["0.6.0","0.5.20","0.5.19","0.5.18","0.5.17"];
     </script>
 
 

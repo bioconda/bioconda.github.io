@@ -26,9 +26,17 @@ adapterremoval
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
+         <details><summary><span class="truncated-version-list"><code>2.3.3-0</code>,  <code>2.3.2-2</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.2-4</code>,  <code>2.2.2-3</code>,  </span></summary>
+      
 
+      ``2.3.3-0``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -69,7 +77,7 @@ adapterremoval
 
     <script>
         var package = "adapterremoval";
-        var versions = ["2.3.2","2.3.2","2.3.2","2.3.1","2.3.1"];
+        var versions = ["2.3.3","2.3.2","2.3.2","2.3.2","2.3.1"];
     </script>
 
 

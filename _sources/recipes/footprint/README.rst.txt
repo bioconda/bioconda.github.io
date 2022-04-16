@@ -13,7 +13,7 @@ footprint
    This is a pipeline to find transcription factor footprints in ATAC\-seq or DNase\-seq data.
 
    :homepage: https://ohlerlab.mdc-berlin.de/software/Reproducible_footprinting_139/
-   :license: GPL (>= 2)
+   :license: GPL-2.0-or-later
    :recipe: /`footprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/footprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/footprint/meta.yaml>`_
 
    
@@ -27,19 +27,20 @@ footprint
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bedtools: ``==2.17.0``
+   :depends bedtools: ``2.17.0``
    :depends bioconductor-genomicranges: 
-   :depends perl: ``5.22.0*``
-   :depends r-base: ``3.3.2*``
+   :depends gawk: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gtools: 
    :depends r-mixtools: 
    :depends r-segmented: 
-   :depends samtools: ``==1.1``
+   :depends samtools: ``1.1``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ footprint
 
     <script>
         var package = "footprint";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

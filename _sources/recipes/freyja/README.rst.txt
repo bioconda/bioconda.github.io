@@ -26,9 +26,17 @@ freyja
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-0</code>,  </span></summary>
+      
 
+      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -74,7 +82,7 @@ freyja
 
     <script>
         var package = "freyja";
-        var versions = ["1.3.4","1.3.3","1.3.2","1.3.1","1.3"];
+        var versions = ["1.3.5","1.3.4","1.3.3","1.3.2","1.3.1"];
     </script>
 
 

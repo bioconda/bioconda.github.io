@@ -27,7 +27,7 @@ strainge
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``1.3-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -79,7 +79,7 @@ strainge
 
     <script>
         var package = "strainge";
-        var versions = ["1.2","1.2"];
+        var versions = ["1.3","1.2","1.2"];
     </script>
 
 
