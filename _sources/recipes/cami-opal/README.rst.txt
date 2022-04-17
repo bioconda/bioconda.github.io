@@ -27,7 +27,7 @@ cami-opal
       
       
 
-      ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -36,6 +36,8 @@ cami-opal
    :depends dendropy: ``>=4.4.0``
    :depends docker-py: ``>=4.0.2``
    :depends h5py: ``>=2.9.0``
+   :depends jinja2: ``<3.0.1``
+   :depends markupsafe: ``<2.1``
    :depends matplotlib-base: ``>=3.1.1``
    :depends numpy: ``>=1.16.4``
    :depends pandas: ``>=0.24.2``
@@ -73,7 +75,7 @@ cami-opal
 
     <script>
         var package = "cami-opal";
-        var versions = ["1.0.10","1.0.9","1.0.9","1.0.8.post0","1.0.5"];
+        var versions = ["1.0.11","1.0.10","1.0.9","1.0.9","1.0.8.post0"];
     </script>
 
 
