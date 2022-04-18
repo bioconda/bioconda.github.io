@@ -32,7 +32,7 @@ pegasuspy
       
       
 
-      ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -41,6 +41,7 @@ pegasuspy
    :depends anndata: ``>=0.7.1``
    :depends demuxem: 
    :depends docopt: 
+   :depends harmony-pytorch: 
    :depends hnswlib: 
    :depends importlib_metadata: ``>=0.7``
    :depends joblib: ``>=0.14``
@@ -102,7 +103,7 @@ pegasuspy
 
     <script>
         var package = "pegasuspy";
-        var versions = ["1.5.0","1.2.0","1.2.0"];
+        var versions = ["1.6.0","1.5.0","1.2.0","1.2.0"];
     </script>
 
 
