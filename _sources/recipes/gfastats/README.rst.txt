@@ -28,7 +28,7 @@ gfastats
       
       
 
-      ``1.2.0-0``,  ``1.1-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1-0``
 
       
 
@@ -67,7 +67,7 @@ gfastats
 
     <script>
         var package = "gfastats";
-        var versions = ["1.2.0","1.1"];
+        var versions = ["1.2.1","1.2.0","1.1"];
     </script>
 
 
