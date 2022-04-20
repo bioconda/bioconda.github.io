@@ -28,7 +28,7 @@ genbank_to
       
       
 
-      ``0.35-0``
+      ``0.41-0``,  ``0.35-0``
 
       
 
@@ -68,7 +68,7 @@ genbank_to
 
     <script>
         var package = "genbank_to";
-        var versions = ["0.35"];
+        var versions = ["0.41","0.35"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-html-parser
       
       
 
-      ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
+      ``3.78-0``,  ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
 
       
 
@@ -36,6 +36,8 @@ perl-html-parser
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-html-tagset: 
+   :depends perl-http-message: 
+   :depends perl-uri: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +69,7 @@ perl-html-parser
 
     <script>
         var package = "perl-html-parser";
-        var versions = ["3.72","3.72","3.72","3.72","3.72"];
+        var versions = ["3.78","3.72","3.72","3.72","3.72"];
     </script>
 
 

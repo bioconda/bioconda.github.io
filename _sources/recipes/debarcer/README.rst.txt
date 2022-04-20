@@ -27,13 +27,13 @@ debarcer
       
       
 
-      ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``
+      ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``
 
       
 
    
    :depends matplotlib-base: ``>=3.1,<=3.3``
-   :depends mistune: ``>=0.8``
+   :depends mistune: ``>=0.8,<2``
    :depends networkx: ``2.4.*``
    :depends numpy: ``>=1.14``
    :depends pandas: ``>=0.22``
@@ -74,7 +74,7 @@ debarcer
 
     <script>
         var package = "debarcer";
-        var versions = ["2.1.4","2.1.4","2.1.3","2.1.1"];
+        var versions = ["2.1.4","2.1.4","2.1.4","2.1.3","2.1.1"];
     </script>
 
 
