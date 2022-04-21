@@ -28,23 +28,36 @@ r-acidsinglecell
       
       
 
-      ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0``
-   :depends r-acidbase: ``>=0.4.3``
-   :depends r-acidcli: ``>=0.1.5``
-   :depends r-acidexperiment: ``>=0.2.0``
-   :depends r-acidgenerics: ``>=0.5.19``
-   :depends r-acidplyr: ``>=0.1.20``
+   :depends bioconductor-biobase: 
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-biocio: 
+   :depends bioconductor-biocparallel: 
+   :depends bioconductor-deseq2: 
+   :depends bioconductor-dropletutils: 
+   :depends bioconductor-edger: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-scuttle: 
+   :depends bioconductor-singlecellexperiment: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-acidbase: ``>=0.5.0``
+   :depends r-acidcli: ``>=0.2.0``
+   :depends r-acidexperiment: ``>=0.3.0``
+   :depends r-acidgenerics: ``>=0.6.0``
+   :depends r-acidgenomes: ``>=0.3.0``
+   :depends r-acidplyr: ``>=0.2.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-goalie: ``>=0.5.4``
-   :depends r-pipette: ``>=0.7.0``
-   :depends r-scales: ``>=1.1.1``
-   :depends r-stringr: ``>=1.4.0``
-   :depends r-syntactic: ``>=0.5.0``
+   :depends r-goalie: ``>=0.6.0``
+   :depends r-matrix: 
+   :depends r-pipette: ``>=0.8.0``
+   :depends r-scales: 
+   :depends r-stringr: 
+   :depends r-syntactic: ``>=0.5.1``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +89,7 @@ r-acidsinglecell
 
     <script>
         var package = "r-acidsinglecell";
-        var versions = ["0.1.9","0.1.8","0.1.7","0.1.7","0.1.7"];
+        var versions = ["0.2.0","0.1.9","0.1.8","0.1.7","0.1.7"];
     </script>
 
 

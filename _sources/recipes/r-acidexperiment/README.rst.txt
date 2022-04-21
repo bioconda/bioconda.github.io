@@ -29,10 +29,10 @@ r-acidexperiment
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-2</code>,  <code>0.1.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-2</code>,  </span></summary>
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
       .. raw:: html
@@ -41,21 +41,27 @@ r-acidexperiment
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0``
-   :depends r-acidbase: ``>=0.4.5``
-   :depends r-acidcli: ``>=0.1.6``
-   :depends r-acidgenerics: ``>=0.5.20``
-   :depends r-acidgenomes: ``>=0.2.18``
-   :depends r-acidplyr: ``>=0.1.22``
+   :depends bioconductor-biobase: 
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-biostrings: 
+   :depends bioconductor-genomeinfodb: 
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-acidbase: ``>=0.5.0``
+   :depends r-acidcli: ``>=0.1.8``
+   :depends r-acidgenerics: ``>=0.6.0``
+   :depends r-acidgenomes: ``>=0.3.0``
+   :depends r-acidplyr: ``>=0.2.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-goalie: ``>=0.5.4``
-   :depends r-matrix: ``>=1.3``
-   :depends r-pipette: ``>=0.7.1``
-   :depends r-scales: ``>=1.1.1``
-   :depends r-sessioninfo: ``>=1.1.1``
-   :depends r-stringr: ``>=1.4.0``
-   :depends r-syntactic: ``>=0.5.0``
+   :depends r-goalie: ``>=0.6.0``
+   :depends r-matrix: 
+   :depends r-pipette: ``>=0.8.0``
+   :depends r-scales: 
+   :depends r-sessioninfo: 
+   :depends r-stringr: 
+   :depends r-syntactic: ``>=0.5.1``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +93,7 @@ r-acidexperiment
 
     <script>
         var package = "r-acidexperiment";
-        var versions = ["0.2.2","0.2.1","0.2.0","0.1.14","0.1.13"];
+        var versions = ["0.3.0","0.2.2","0.2.1","0.2.0","0.1.14"];
     </script>
 
 
