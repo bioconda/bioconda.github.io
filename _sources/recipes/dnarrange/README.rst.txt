@@ -27,7 +27,7 @@ dnarrange
       
       
 
-      ``1.4.6-0``
+      ``1.5.0-0``,  ``1.4.6-0``
 
       
 
@@ -65,7 +65,7 @@ dnarrange
 
     <script>
         var package = "dnarrange";
-        var versions = ["1.4.6"];
+        var versions = ["1.5.0","1.4.6"];
     </script>
 
 
