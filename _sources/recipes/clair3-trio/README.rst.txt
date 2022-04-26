@@ -27,11 +27,27 @@ clair3-trio
       
       
 
-      
+      ``0.1-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends cffi: 
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends numpy: 
+   :depends parallel: ``20191122.*``
+   :depends pigz: ``2.4.*``
+   :depends pypy3.6: 
+   :depends pytables: ``3.6.1.*``
+   :depends python: ``3.6.10.*``
+   :depends samtools: ``1.10.*``
+   :depends tensorflow: ``2.2.0.*``
+   :depends whatshap: ``1.0.*``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends zstd: ``1.4.4.*``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +79,7 @@ clair3-trio
 
     <script>
         var package = "clair3-trio";
-        var versions = [];
+        var versions = ["0.1"];
     </script>
 
 

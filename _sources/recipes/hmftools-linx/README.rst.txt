@@ -10,9 +10,9 @@ hmftools-linx
    :replaces_section_title:
    :noindex:
 
-   LINX is an annotation\, interpretation and visualisation tool for structural variants
+   Linx is an annotation\, interpretation and visualisation tool for structural variants
 
-   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/sv-linx
+   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/linx
    :license: GPL / GPL-3.0-only
    :recipe: /`hmftools-linx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-linx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-linx/meta.yaml>`_
 
@@ -28,10 +28,10 @@ hmftools-linx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18-0</code>,  <code>1.17-0</code>,  <code>1.16-0</code>,  <code>1.15-0</code>,  <code>1.14-1</code>,  <code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.12-0</code>,  <code>1.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.19-0</code>,  <code>1.18-0</code>,  <code>1.17-0</code>,  <code>1.16-0</code>,  <code>1.15-0</code>,  <code>1.14-1</code>,  <code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.12-0</code>,  </span></summary>
       
 
-      ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
+      ``1.19-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
 
       
       .. raw:: html
@@ -80,7 +80,7 @@ hmftools-linx
 
     <script>
         var package = "hmftools-linx";
-        var versions = ["1.18","1.17","1.16","1.15","1.14"];
+        var versions = ["1.19","1.18","1.17","1.16","1.15"];
     </script>
 
 

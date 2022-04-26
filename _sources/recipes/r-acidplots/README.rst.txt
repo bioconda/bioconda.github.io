@@ -29,10 +29,10 @@ r-acidplots
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.0-0</code>,  <code>0.2.36-0</code>,  <code>0.2.35-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.0-0</code>,  <code>0.2.36-0</code>,  </span></summary>
       
 
-      ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.0-0``,  ``0.2.36-0``,  ``0.2.35-0``,  ``0.2.34-0``,  ``0.2.32-0``,  ``0.2.30-0``,  ``0.2.29-0``,  ``0.2.28-0``,  ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.24-0``,  ``0.2.23-0``,  ``0.2.22-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``
+      ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.0-0``,  ``0.2.36-0``,  ``0.2.35-0``,  ``0.2.34-0``,  ``0.2.32-0``,  ``0.2.30-0``,  ``0.2.29-0``,  ``0.2.28-0``,  ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.24-0``,  ``0.2.23-0``,  ``0.2.22-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``
 
       
       .. raw:: html
@@ -41,23 +41,40 @@ r-acidplots
       
 
    
-   :depends bioconductor-dropletutils: ``>=1.10.3``
-   :depends r-acidgenerics: ``>=0.5.18``
+   :depends bioconductor-biobase: 
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-complexheatmap: 
+   :depends bioconductor-dropletutils: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-singlecellexperiment: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-acidbase: ``>=0.5.0``
+   :depends r-acidcli: ``>=0.2.0``
+   :depends r-acidexperiment: ``>=0.3.0``
+   :depends r-acidgenerics: ``>=0.6.0``
+   :depends r-acidgenomes: ``>=0.3.0``
+   :depends r-acidmarkdown: ``>=0.1.5``
+   :depends r-acidplyr: ``>=0.2.0``
+   :depends r-acidsinglecell: ``>=0.2.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-basejump: ``>=0.14.19``
-   :depends r-cowplot: ``>=1.1.1``
-   :depends r-ggplot2: ``>=3.3.5``
-   :depends r-ggpmisc: ``>=0.4.0``
-   :depends r-ggrepel: ``>=0.9.1``
-   :depends r-ggridges: ``>=0.5.3``
-   :depends r-goalie: ``>=0.5.2``
-   :depends r-matrixstats: ``>=0.60.0``
-   :depends r-pheatmap: ``>=1.0.12``
-   :depends r-rcolorbrewer: ``>=1.1.0``
-   :depends r-rlang: ``>=0.4.11``
-   :depends r-scales: ``>=1.1.1``
-   :depends r-upsetr: ``>=1.4.0``
-   :depends r-viridis: ``>=0.6.1``
+   :depends r-complexupset: 
+   :depends r-ggplot2: 
+   :depends r-ggpmisc: 
+   :depends r-ggrepel: 
+   :depends r-ggridges: 
+   :depends r-goalie: ``>=0.6.0``
+   :depends r-matrix: 
+   :depends r-matrixstats: 
+   :depends r-patchwork: 
+   :depends r-pheatmap: 
+   :depends r-pipette: ``>=0.8.0``
+   :depends r-rcolorbrewer: 
+   :depends r-rlang: 
+   :depends r-scales: 
+   :depends r-stringr: 
+   :depends r-syntactic: 
+   :depends r-viridis: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +106,7 @@ r-acidplots
 
     <script>
         var package = "r-acidplots";
-        var versions = ["0.3.9","0.3.8","0.3.7","0.3.5","0.3.5"];
+        var versions = ["0.4.0","0.3.9","0.3.8","0.3.7","0.3.5"];
     </script>
 
 

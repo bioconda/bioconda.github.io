@@ -29,10 +29,10 @@ r-bcbiobase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.22-0</code>,  <code>0.6.21-1</code>,  <code>0.6.21-0</code>,  <code>0.6.16-1</code>,  <code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.13-1</code>,  <code>0.6.13-0</code>,  <code>0.6.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.22-0</code>,  <code>0.6.21-1</code>,  <code>0.6.21-0</code>,  <code>0.6.16-1</code>,  <code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.13-1</code>,  <code>0.6.13-0</code>,  </span></summary>
       
 
-      ``0.6.22-0``,  ``0.6.21-1``,  ``0.6.21-0``,  ``0.6.16-1``,  ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.13-1``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.2.15-1``,  ``0.2.15-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.0.3-0``
+      ``0.7.0-0``,  ``0.6.22-0``,  ``0.6.21-1``,  ``0.6.21-0``,  ``0.6.16-1``,  ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.13-1``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.2.15-1``,  ``0.2.15-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -41,10 +41,16 @@ r-bcbiobase
       
 
    
+   :depends bioconductor-s4vectors: 
+   :depends r-acidbase: ``>=0.5.0``
+   :depends r-acidcli: ``>=0.2.0``
+   :depends r-acidexperiment: ``>=0.3.0``
+   :depends r-acidplyr: ``>=0.2.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-basejump: ``>=0.14.22``
-   :depends r-goalie: ``>=0.5.4``
-   :depends r-rdrop2: 
+   :depends r-goalie: ``>=0.6.0``
+   :depends r-pipette: ``>=0.8.0``
+   :depends r-stringr: 
+   :depends r-syntactic: ``>=0.5.1``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +82,7 @@ r-bcbiobase
 
     <script>
         var package = "r-bcbiobase";
-        var versions = ["0.6.22","0.6.21","0.6.21","0.6.16","0.6.16"];
+        var versions = ["0.7.0","0.6.22","0.6.21","0.6.21","0.6.16"];
     </script>
 
 

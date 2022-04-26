@@ -28,10 +28,10 @@ kipoi-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.5-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  </span></summary>
       
 
-      ``0.7.5-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``
+      ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``
 
       
       .. raw:: html
@@ -79,7 +79,7 @@ kipoi-utils
 
     <script>
         var package = "kipoi-utils";
-        var versions = ["0.7.5","0.7.2","0.7.1","0.6.0","0.5.0"];
+        var versions = ["0.7.6","0.7.5","0.7.2","0.7.1","0.6.0"];
     </script>
 
 

@@ -27,11 +27,14 @@ cladebreaker
       
       
 
-      
+      ``0.1.0-0``
 
       
 
    
+   :depends conda: 
+   :depends nextflow: 
+   :depends python: ``3.9.* *_cpython``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ cladebreaker
 
     <script>
         var package = "cladebreaker";
-        var versions = [];
+        var versions = ["0.1.0"];
     </script>
 
 

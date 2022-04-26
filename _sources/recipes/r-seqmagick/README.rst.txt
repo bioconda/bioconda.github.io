@@ -33,7 +33,7 @@ r-seqmagick
 
    
    :depends bioconductor-biostrings: 
-   :depends r-base: ``>=3.6.0``
+   :depends r-base: ``>=3.6,<3.7``
    :depends r-magrittr: 
    :requirements:
 

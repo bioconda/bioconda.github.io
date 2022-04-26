@@ -27,11 +27,16 @@ lisa2
       
       
 
-      
+      ``2.3.0-0``
 
       
 
    
+   :depends h5py: ``>=2``
+   :depends numpy: ``<2,>=1.17``
+   :depends python: ``>=3.5``
+   :depends scikit-learn: ``<1,>=0.22``
+   :depends scipy: ``<2,>=1.4``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +68,7 @@ lisa2
 
     <script>
         var package = "lisa2";
-        var versions = [];
+        var versions = ["2.3.0"];
     </script>
 
 

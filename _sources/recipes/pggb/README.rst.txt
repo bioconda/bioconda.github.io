@@ -27,12 +27,13 @@ pggb
       
       
 
-      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
    :depends bc: 
+   :depends bcftools: 
    :depends gfaffix: ``0.1.3.*``
    :depends idna: ``<3,>=2.5``
    :depends multiqc: ``>=1.11``
@@ -75,7 +76,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.3.1","0.3.0","0.3.0","0.2.0"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.3.0","0.2.0"];
     </script>
 
 

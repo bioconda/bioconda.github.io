@@ -12,7 +12,7 @@ r-bcbiosinglecell
 
    R package for bcbio single\-cell RNA\-seq analysis.
 
-   :homepage: https://bioinformatics.sph.harvard.edu/bcbioSingleCell/
+   :homepage: https://r.acidgenomics.com/packages/bcbiosinglecell/
    :developer docs: https://github.com/hbc/bcbioSingleCell
    :license: MIT
    :recipe: /`r-bcbiosinglecell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiosinglecell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiosinglecell/meta.yaml>`_

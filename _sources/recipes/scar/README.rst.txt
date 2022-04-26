@@ -27,7 +27,7 @@ scar
       
       
 
-      ``0.2.2-0``
+      ``0.2.3-0``,  ``0.2.2-0``
 
       
 
@@ -41,6 +41,7 @@ scar
    :depends scanpy: 
    :depends scikit-learn: ``>=1.0.1``
    :depends seaborn: ``>=0.11.2``
+   :depends setuptools: ``<=59.5.0``
    :depends tensorboard: ``>=2.2.1``
    :depends torchvision: ``>=0.9.0``
    :depends tqdm: ``>=4.62.3``
@@ -75,7 +76,7 @@ scar
 
     <script>
         var package = "scar";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.3","0.2.2"];
     </script>
 
 

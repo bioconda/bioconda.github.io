@@ -40,7 +40,7 @@ r-genometricorr
    :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: 
-   :depends r-base: ``>=3.1.0``
+   :depends r-base: ``>=3.1,<3.2``
    :depends r-gdata: 
    :depends r-gplots: 
    :depends r-rcurl: 

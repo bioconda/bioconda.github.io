@@ -12,7 +12,7 @@ hmftools-cobalt
 
    Counts read starts within each 1000 base window to use in PURPLE
 
-   :homepage: https://github.com/hartwigmedical/hmftools/blob/master/count-bam-lines/README.md
+   :homepage: https://github.com/hartwigmedical/hmftools/blob/master/cobalt/README.md
    :license: MIT / MIT
    :recipe: /`hmftools-cobalt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-cobalt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-cobalt/meta.yaml>`_
 
@@ -26,9 +26,17 @@ hmftools-cobalt
    :versions:
       
       
+      .. raw:: html
 
-      ``1.11-1``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``,  ``1.8-1``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``
+         <details><summary><span class="truncated-version-list"><code>1.13-0</code>,  <code>1.11-1</code>,  <code>1.11-0</code>,  <code>1.10-0</code>,  <code>1.9-0</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  </span></summary>
+      
 
+      ``1.13-0``,  ``1.11-1``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``,  ``1.8-1``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -65,7 +73,7 @@ hmftools-cobalt
 
     <script>
         var package = "hmftools-cobalt";
-        var versions = ["1.11","1.11","1.10","1.9","1.8"];
+        var versions = ["1.13","1.11","1.11","1.10","1.9"];
     </script>
 
 
