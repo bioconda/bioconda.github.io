@@ -28,21 +28,36 @@ r-acidgsea
       
       
 
-      ``0.6.4-1``,  ``0.6.4-0``
+      ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26``
-   :depends bioconductor-fgsea: ``>=1.16``
-   :depends r-acidgenerics: ``>=0.5.18``
-   :depends r-acidplots: ``>=0.3.7``
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-biocparallel: 
+   :depends bioconductor-fgsea: 
+   :depends bioconductor-genomeinfodb: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-acidbase: 
+   :depends r-acidcli: 
+   :depends r-acidexperiment: 
+   :depends r-acidgenerics: 
+   :depends r-acidgenomes: 
+   :depends r-acidmarkdown: 
+   :depends r-acidplots: 
+   :depends r-acidplyr: 
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-deseqanalysis: ``>=0.4.2``
-   :depends r-ggplot2: ``>=3.3.5``
-   :depends r-goalie: ``>=0.5.2``
-   :depends r-knitr: ``>=1.33``
-   :depends r-rmarkdown: ``>=2.9``
+   :depends r-basejump: 
+   :depends r-deseqanalysis: 
+   :depends r-ggplot2: 
+   :depends r-goalie: 
+   :depends r-knitr: 
+   :depends r-pipette: 
+   :depends r-rmarkdown: 
+   :depends r-sessioninfo: 
+   :depends r-syntactic: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +89,7 @@ r-acidgsea
 
     <script>
         var package = "r-acidgsea";
-        var versions = ["0.6.4","0.6.4"];
+        var versions = ["0.7.0","0.6.4","0.6.4"];
     </script>
 
 

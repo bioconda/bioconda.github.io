@@ -27,11 +27,14 @@ panisa
       
       
 
-      
+      ``0.1.6-0``
 
       
 
    
+   :depends pysam: ``>=0.9``
+   :depends python: 
+   :depends requests: ``>=2.12``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ panisa
 
     <script>
         var package = "panisa";
-        var versions = [];
+        var versions = ["0.1.6"];
     </script>
 
 

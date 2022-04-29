@@ -27,7 +27,7 @@ prot-scriber
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -64,7 +64,7 @@ prot-scriber
 
     <script>
         var package = "prot-scriber";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

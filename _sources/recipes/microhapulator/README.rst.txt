@@ -27,22 +27,28 @@ microhapulator
       
       
 
-      ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
+      ``0.6.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
 
       
 
    
+   :depends biopython: ``1.78``
    :depends bwa: ``>=0.7.17``
+   :depends fastqc: ``>=0.11.9``
    :depends flash: ``>=1.2``
    :depends happer: ``>=0.1``
    :depends insilicoseq: ``>=1.3.6``
    :depends jsonschema: ``>=3.1``
+   :depends matplotlib-base: ``>=3.0``
    :depends numpy: ``>=1.15.4``
    :depends pandas: ``>=1.0``
    :depends pysam: ``>=0.15.2``
    :depends python: ``>=3``
    :depends samtools: ``>=1.12``
+   :depends scipy: ``>=1.7``
+   :depends snakemake: ``>=6.0``
    :depends termgraph: ``>=0.5``
+   :depends tqdm: ``>=4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +80,7 @@ microhapulator
 
     <script>
         var package = "microhapulator";
-        var versions = ["0.5","0.5","0.4.1","0.3","0.2"];
+        var versions = ["0.6.1","0.5","0.5","0.4.1","0.3"];
     </script>
 
 

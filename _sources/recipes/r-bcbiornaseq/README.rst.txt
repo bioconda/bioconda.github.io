@@ -29,10 +29,10 @@ r-bcbiornaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.44-0</code>,  <code>0.3.42-0</code>,  <code>0.3.41-0</code>,  <code>0.3.40-1</code>,  <code>0.3.40-0</code>,  <code>0.3.39-0</code>,  <code>0.3.37-0</code>,  <code>0.3.36-0</code>,  <code>0.3.34-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.44-0</code>,  <code>0.3.42-0</code>,  <code>0.3.41-0</code>,  <code>0.3.40-1</code>,  <code>0.3.40-0</code>,  <code>0.3.39-0</code>,  <code>0.3.37-0</code>,  <code>0.3.36-0</code>,  </span></summary>
       
 
-      ``0.3.44-0``,  ``0.3.42-0``,  ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
+      ``0.4.0-0``,  ``0.3.44-0``,  ``0.3.42-0``,  ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -41,10 +41,11 @@ r-bcbiornaseq
       
 
    
+   :depends bioconductor-biocgenerics: 
    :depends bioconductor-biocstyle: 
    :depends bioconductor-clusterprofiler: 
    :depends bioconductor-degreport: 
-   :depends bioconductor-deseq2: ``>=1.34.0``
+   :depends bioconductor-deseq2: 
    :depends bioconductor-dose: 
    :depends bioconductor-edger: 
    :depends bioconductor-enrichplot: 
@@ -53,13 +54,19 @@ r-bcbiornaseq
    :depends bioconductor-org.mm.eg.db: 
    :depends bioconductor-pathview: 
    :depends bioconductor-rhdf5: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-summarizedexperiment: 
    :depends bioconductor-tximport: 
    :depends bioconductor-vsn: 
+   :depends r-acidbase: 
+   :depends r-acidcli: 
+   :depends r-acidexperiment: 
    :depends r-acidgenerics: 
+   :depends r-acidgenomes: 
    :depends r-acidgsea: 
    :depends r-acidplots: 
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-basejump: ``>=0.14.23``
+   :depends r-basejump: 
    :depends r-bcbiobase: 
    :depends r-deseqanalysis: 
    :depends r-ggnewscale: 
@@ -68,6 +75,8 @@ r-bcbiornaseq
    :depends r-hexbin: 
    :depends r-knitr: 
    :depends r-rmarkdown: 
+   :depends r-sessioninfo: 
+   :depends r-syntactic: 
    :depends r-viridis: 
    :requirements:
 
@@ -100,7 +109,7 @@ r-bcbiornaseq
 
     <script>
         var package = "r-bcbiornaseq";
-        var versions = ["0.3.44","0.3.42","0.3.41","0.3.40","0.3.40"];
+        var versions = ["0.4.0","0.3.44","0.3.42","0.3.41","0.3.40"];
     </script>
 
 

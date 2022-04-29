@@ -13,7 +13,7 @@ genview
    Gene\-centric visualization tool for genomic sequences
 
    :homepage: https://github.com/EbmeyerSt/GEnView.git
-   :license: GPL-3.0-or-later
+   :license: GPLv3.0
    :recipe: /`genview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genview/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ genview
       
       
 
-      ``0.1.1-0``,  ``0.1-0``
+      ``0.2-0``,  ``0.1.1-0``,  ``0.1-0``
 
       
 
@@ -37,11 +37,13 @@ genview
    :depends cd-hit: 
    :depends diamond: 
    :depends fasttree: 
+   :depends mafft: 
    :depends numpy: 
    :depends pandas: 
+   :depends pip: 
    :depends prodigal: 
-   :depends python: ``>=3``
-   :depends sqlite: ``>=3.37.0,<4.0a0``
+   :depends python: ``>=3.6``
+   :depends sqlite: ``>=3.38.2,<4.0a0``
    :depends time: 
    :requirements:
 
@@ -74,7 +76,7 @@ genview
 
     <script>
         var package = "genview";
-        var versions = ["0.1.1","0.1"];
+        var versions = ["0.2","0.1.1","0.1"];
     </script>
 
 

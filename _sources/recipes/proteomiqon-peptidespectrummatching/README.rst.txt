@@ -34,12 +34,13 @@ proteomiqon-peptidespectrummatching
       
       
 
-      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends dotnet-runtime: 
+   :depends dotnet-runtime: ``5.0.*``
+   :depends openssl: ``1.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ proteomiqon-peptidespectrummatching
 
     <script>
         var package = "proteomiqon-peptidespectrummatching";
-        var versions = ["0.0.7","0.0.6","0.0.5","0.0.4","0.0.3"];
+        var versions = ["0.0.7","0.0.7","0.0.6","0.0.5","0.0.4"];
     </script>
 
 

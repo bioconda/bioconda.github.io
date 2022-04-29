@@ -13,8 +13,11 @@ pyrodigal
    Python bindings to Prodigal\, an ORF finder for microbial sequences.
 
    :homepage: https://github.com/althonos/pyrodigal
+   :documentation: https://pyrodigal.readthedocs.org/
+   
    :license: GPL / GPL-3
    :recipe: /`pyrodigal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrodigal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrodigal/meta.yaml>`_
+   :links: doi: :doi:`10.21105/joss.04296`
 
    
 

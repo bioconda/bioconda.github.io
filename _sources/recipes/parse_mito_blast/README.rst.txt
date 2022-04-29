@@ -27,7 +27,7 @@ parse_mito_blast
       
       
 
-      ``1.0-0``
+      ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -65,7 +65,7 @@ parse_mito_blast
 
     <script>
         var package = "parse_mito_blast";
-        var versions = ["1.0"];
+        var versions = ["1.0.1","1.0"];
     </script>
 
 

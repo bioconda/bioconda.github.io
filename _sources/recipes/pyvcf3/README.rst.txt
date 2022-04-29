@@ -29,11 +29,12 @@ pyvcf3
       
       
 
-      
+      ``1.0.3-0``
 
       
 
    
+   :depends python: ``3.*``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +66,7 @@ pyvcf3
 
     <script>
         var package = "pyvcf3";
-        var versions = [];
+        var versions = ["1.0.3"];
     </script>
 
 

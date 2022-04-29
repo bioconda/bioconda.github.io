@@ -30,7 +30,7 @@ regenie
       
       
 
-      ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
+      ``3.1-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
 
       
 
@@ -44,7 +44,7 @@ regenie
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends mkl: ``>=2020.4``
-   :depends sqlite: ``>=3.37.1,<4.0a0``
+   :depends sqlite: ``>=3.38.2,<4.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :depends zstd: ``>=1.5.2,<1.6.0a0``
    :requirements:
@@ -78,7 +78,7 @@ regenie
 
     <script>
         var package = "regenie";
-        var versions = ["3.0.3","3.0.1","1.0.6.9","1.0.6.7"];
+        var versions = ["3.1","3.0.3","3.0.1","1.0.6.9","1.0.6.7"];
     </script>
 
 

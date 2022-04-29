@@ -29,10 +29,10 @@ r-bcbiosinglecell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.16-1</code>,  <code>0.4.16-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-1</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-1</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.16-1</code>,  <code>0.4.16-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-1</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-1</code>,  <code>0.4.10-0</code>,  </span></summary>
       
 
-      ``0.4.16-1``,  ``0.4.16-0``,  ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
+      ``0.5.0-0``,  ``0.4.16-1``,  ``0.4.16-0``,  ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
 
       
       .. raw:: html
@@ -41,16 +41,32 @@ r-bcbiosinglecell
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.24``
-   :depends r-acidgenerics: ``>=0.5.17``
-   :depends r-acidplots: ``>=0.3.5``
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-biocparallel: 
+   :depends bioconductor-biostrings: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-singlecellexperiment: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-acidbase: 
+   :depends r-acidcli: 
+   :depends r-acidexperiment: 
+   :depends r-acidgenerics: 
+   :depends r-acidgenomes: 
+   :depends r-acidmarkdown: 
+   :depends r-acidplots: 
+   :depends r-acidplyr: 
+   :depends r-acidsinglecell: 
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-basejump: ``>=0.14.17``
-   :depends r-bcbiobase: ``>=0.6.21``
-   :depends r-ggplot2: ``>=3.3``
-   :depends r-ggridges: ``>=0.5``
-   :depends r-goalie: ``>=0.5.1``
-   :depends r-rmarkdown: ``>=2.0``
+   :depends r-basejump: 
+   :depends r-bcbiobase: 
+   :depends r-ggplot2: 
+   :depends r-ggridges: 
+   :depends r-goalie: 
+   :depends r-pipette: 
+   :depends r-rmarkdown: 
+   :depends r-stringr: 
+   :depends r-syntactic: 
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +98,7 @@ r-bcbiosinglecell
 
     <script>
         var package = "r-bcbiosinglecell";
-        var versions = ["0.4.16","0.4.16","0.4.13","0.4.12","0.4.12"];
+        var versions = ["0.5.0","0.4.16","0.4.16","0.4.13","0.4.12"];
     </script>
 
 

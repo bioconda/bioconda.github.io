@@ -34,12 +34,13 @@ proteomiqon-mzmltomzlite
       
       
 
-      ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.8-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
-   :depends dotnet-runtime: 
+   :depends dotnet-runtime: ``5.0.*``
+   :depends openssl: ``1.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ proteomiqon-mzmltomzlite
 
     <script>
         var package = "proteomiqon-mzmltomzlite";
-        var versions = ["0.0.5","0.0.4"];
+        var versions = ["0.0.8","0.0.5","0.0.4"];
     </script>
 
 

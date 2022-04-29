@@ -31,11 +31,23 @@ mgca
       
       
 
-      
+      ``0.0.0-0``
 
       
 
    
+   :depends bakta: ``1.4.0.*``
+   :depends eggnog-mapper: ``2.1.7.*``
+   :depends emboss: 
+   :depends islandpath: ``1.0.6.*``
+   :depends lastz: ``1.04.15.*``
+   :depends mummer4: ``4.0.0rc1.*``
+   :depends opfi: ``0.1.2.*``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-bioperl: 
+   :depends phispy: ``4.2.21.*``
+   :depends r-ggplot2: 
+   :depends repeatmasker: ``4.1.2.p1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +79,7 @@ mgca
 
     <script>
         var package = "mgca";
-        var versions = [];
+        var versions = ["0.0.0"];
     </script>
 
 
