@@ -27,7 +27,7 @@ chronumental
       
       
 
-      ``0.0.48-0``,  ``0.0.47-0``
+      ``0.0.49-0``,  ``0.0.48-0``,  ``0.0.47-0``
 
       
 
@@ -70,7 +70,7 @@ chronumental
 
     <script>
         var package = "chronumental";
-        var versions = ["0.0.48","0.0.47"];
+        var versions = ["0.0.49","0.0.48","0.0.47"];
     </script>
 
 

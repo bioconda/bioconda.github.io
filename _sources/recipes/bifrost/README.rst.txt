@@ -29,10 +29,10 @@ bifrost
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.6.4-1</code>,  <code>1.0.6.4-0</code>,  <code>1.0.6.2-1</code>,  <code>1.0.6.2-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.6.5-0</code>,  <code>1.0.6.4-1</code>,  <code>1.0.6.4-0</code>,  <code>1.0.6.2-1</code>,  <code>1.0.6.2-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  </span></summary>
       
 
-      ``1.0.6.4-1``,  ``1.0.6.4-0``,  ``1.0.6.2-1``,  ``1.0.6.2-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.0.6.5-0``,  ``1.0.6.4-1``,  ``1.0.6.4-0``,  ``1.0.6.2-1``,  ``1.0.6.2-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ bifrost
 
     <script>
         var package = "bifrost";
-        var versions = ["1.0.6.4","1.0.6.4","1.0.6.2","1.0.6.2","1.0.6"];
+        var versions = ["1.0.6.5","1.0.6.4","1.0.6.4","1.0.6.2","1.0.6.2"];
     </script>
 
 

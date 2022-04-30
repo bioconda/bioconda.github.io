@@ -27,15 +27,15 @@ ntm-profiler
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
-   :depends dsk: 
-   :depends python: ``>=3.6``
-   :depends tb-profiler: ``>=4.0.2``
-   :depends tqdm: 
+   :depends kmc: ``3.2.1.*``
+   :depends mash: ``2.3.*``
+   :depends pathogen-profiler: ``2.0.0.*``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ ntm-profiler
 
     <script>
         var package = "ntm-profiler";
-        var versions = ["0.1.1","0.1.0","0.0.2","0.0.1"];
+        var versions = ["0.2.0","0.1.1","0.1.0","0.0.2","0.0.1"];
     </script>
 
 

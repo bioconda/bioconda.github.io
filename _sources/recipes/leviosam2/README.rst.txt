@@ -27,12 +27,12 @@ leviosam2
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends htslib: ``>=1.15,<1.16.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``
    :depends sdsl-lite: ``>=2.1.1``
@@ -68,7 +68,7 @@ leviosam2
 
     <script>
         var package = "leviosam2";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.2.1","0.2.0","0.1.0"];
     </script>
 
 
