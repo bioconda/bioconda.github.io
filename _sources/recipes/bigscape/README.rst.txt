@@ -27,7 +27,7 @@ bigscape
       
       
 
-      ``1.1.3-0``
+      ``1.1.4-0``,  ``1.1.3-0``
 
       
 
@@ -72,7 +72,7 @@ bigscape
 
     <script>
         var package = "bigscape";
-        var versions = ["1.1.3"];
+        var versions = ["1.1.4","1.1.3"];
     </script>
 
 

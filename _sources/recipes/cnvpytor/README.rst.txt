@@ -27,7 +27,7 @@ cnvpytor
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``1.0b3-1``,  ``1.0b3-0``
+      ``1.2.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``1.0b3-1``,  ``1.0b3-0``
 
       
 
@@ -37,10 +37,10 @@ cnvpytor
    :depends numpy: ``>=1.16``
    :depends pathlib: ``>=1.0``
    :depends pysam: ``>=0.15``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.6``
    :depends requests: ``>=2.0``
    :depends scipy: ``>=1.1``
+   :depends xlsxwriter: ``>=1.3``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ cnvpytor
 
     <script>
         var package = "cnvpytor";
-        var versions = ["1.0","1.0","1.0","1.0b3","1.0b3"];
+        var versions = ["1.2.1","1.0","1.0","1.0","1.0b3"];
     </script>
 
 
