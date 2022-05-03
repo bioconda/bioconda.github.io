@@ -26,18 +26,22 @@ phylodm
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``2.0.0-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends dendropy: 
-   :depends h5py: 
-   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +73,7 @@ phylodm
 
     <script>
         var package = "phylodm";
-        var versions = ["1.3.1","1.3.1","1.3.1","1.3.0","1.2.0"];
+        var versions = ["2.0.0","1.3.1","1.3.1","1.3.1","1.3.0"];
     </script>
 
 
