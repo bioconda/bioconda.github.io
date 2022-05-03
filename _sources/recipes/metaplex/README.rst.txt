@@ -27,7 +27,7 @@ metaplex
       
       
 
-      ``1.0.0-0``,  ``0.2.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``
 
       
 
@@ -70,7 +70,7 @@ metaplex
 
     <script>
         var package = "metaplex";
-        var versions = ["1.0.0","0.2.0"];
+        var versions = ["1.1.0","1.0.0","0.2.0"];
     </script>
 
 

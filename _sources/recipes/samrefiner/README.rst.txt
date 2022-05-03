@@ -27,7 +27,7 @@ samrefiner
       
       
 
-      ``1.0-0``
+      ``1.4-0``,  ``1.0-0``
 
       
 
@@ -64,7 +64,7 @@ samrefiner
 
     <script>
         var package = "samrefiner";
-        var versions = ["1.0"];
+        var versions = ["1.4","1.0"];
     </script>
 
 

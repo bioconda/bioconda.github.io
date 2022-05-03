@@ -27,7 +27,7 @@ libcifpp
       
       
 
-      ``3.0.3-0``,  ``3.0.0-0``
+      ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
 
       
 
@@ -65,7 +65,7 @@ libcifpp
 
     <script>
         var package = "libcifpp";
-        var versions = ["3.0.3","3.0.0"];
+        var versions = ["4.0.0","3.0.3","3.0.0"];
     </script>
 
 

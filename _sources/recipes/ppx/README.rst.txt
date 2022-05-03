@@ -30,10 +30,10 @@ ppx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  </span></summary>
       
 
-      ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,9 @@ ppx
       
 
    
-   :depends python: ``>=3.6``
-   :depends requests: ``>=2.25.1``
+   :depends cloudpathlib: ``>=0.7.1``
+   :depends python: ``>=3.7``
+   :depends requests: ``>=2.23.0``
    :depends tqdm: ``>=4.60.0``
    :requirements:
 
@@ -76,7 +77,7 @@ ppx
 
     <script>
         var package = "ppx";
-        var versions = ["1.2.6","1.2.5","1.2.4","1.2.3","1.2.2"];
+        var versions = ["1.3.0","1.2.6","1.2.5","1.2.4","1.2.3"];
     </script>
 
 
