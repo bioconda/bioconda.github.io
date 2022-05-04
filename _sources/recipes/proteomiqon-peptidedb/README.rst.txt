@@ -35,12 +35,13 @@ proteomiqon-peptidedb
       
       
 
-      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.4-0``,  ``0.0.1-0``
+      ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.4-0``,  ``0.0.1-0``
 
       
 
    
-   :depends dotnet-runtime: 
+   :depends dotnet-runtime: ``5.0.*``
+   :depends openssl: ``1.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +73,7 @@ proteomiqon-peptidedb
 
     <script>
         var package = "proteomiqon-peptidedb";
-        var versions = ["0.0.7","0.0.6","0.0.4","0.0.1"];
+        var versions = ["0.0.7","0.0.7","0.0.6","0.0.4","0.0.1"];
     </script>
 
 

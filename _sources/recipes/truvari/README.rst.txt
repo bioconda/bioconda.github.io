@@ -12,7 +12,7 @@ truvari
 
    Structural variant comparison tool for VCFs
 
-   :homepage: https://github.com/spiralgenetics/truvari
+   :homepage: https://github.com/ACEnglish/truvari
    :license: MIT
    :recipe: /`truvari <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/truvari>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/truvari/meta.yaml>`_
 
@@ -27,17 +27,22 @@ truvari
       
       
 
-      ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+      ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
 
       
 
    
-   :depends intervaltree: 
-   :depends progressbar2: 
-   :depends pyfaidx: 
-   :depends python: ``<3``
-   :depends python-levenshtein: 
-   :depends pyvcf: 
+   :depends bwapy: ``>=0.1.4``
+   :depends intervaltree: ``>=3.0.2``
+   :depends joblib: ``>=1.0.1``
+   :depends numpy: ``>=1.21.2``
+   :depends pandas: ``>=1.3.3``
+   :depends progressbar2: ``>=3.41.0``
+   :depends pysam: ``>=0.15.2``
+   :depends pytabix: ``>=0.1``
+   :depends python: ``>=3.6``
+   :depends python-edlib: ``>=1.3.8.post2``
+   :depends python-levenshtein: ``0.12.2``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +74,7 @@ truvari
 
     <script>
         var package = "truvari";
-        var versions = ["0.1.2018.08.10","0.1.2018.08.10","0.1.2018.08.10"];
+        var versions = ["3.2.0","0.1.2018.08.10","0.1.2018.08.10","0.1.2018.08.10"];
     </script>
 
 
