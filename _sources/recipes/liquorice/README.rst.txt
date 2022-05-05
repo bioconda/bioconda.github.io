@@ -27,7 +27,7 @@ liquorice
       
       
 
-      ``0.5.4-0``,  ``0.5.3-0``
+      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
 
@@ -80,7 +80,7 @@ liquorice
 
     <script>
         var package = "liquorice";
-        var versions = ["0.5.4","0.5.3"];
+        var versions = ["0.5.5","0.5.4","0.5.3"];
     </script>
 
 

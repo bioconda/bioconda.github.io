@@ -26,9 +26,17 @@ longshot
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``v0.3.5-0``,  ``v0.3.4-0``,  ``v0.3.3-0``,  ``v0.3.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>v0.3.5-0</code>,  <code>v0.3.4-0</code>,  <code>v0.3.3-0</code>,  </span></summary>
+      
 
+      ``0.4.5-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``v0.3.5-0``,  ``v0.3.4-0``,  ``v0.3.3-0``,  ``v0.3.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -67,7 +75,7 @@ longshot
 
     <script>
         var package = "longshot";
-        var versions = ["0.4.1","0.4.1","0.4.1","0.4.0","0.3.5"];
+        var versions = ["0.4.5","0.4.1","0.4.1","0.4.1","0.4.0"];
     </script>
 
 
