@@ -10,7 +10,7 @@ yahs
    :replaces_section_title:
    :noindex:
 
-   YaHS\, yet another Hi\-C scaffolding tool\, is scaffolding tool using Hi\-C data
+   YaHS\, yet another Hi\-C scaffolding tool.
 
    :homepage: https://github.com/c-zhou/yahs
    :license: MIT
