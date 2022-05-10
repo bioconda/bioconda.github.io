@@ -12,7 +12,7 @@ ribowaltz
 
    Calculation of optimal P\-site offsets\, diagnostic analysis and visual inspection of ribosome profiling data.
 
-   :homepage: https://github.com/BackofenLab/StoatyDive
+   :homepage: https://github.com/LabTranslationalArchitectomics/riboWaltz
    :license: MIT
    :recipe: /`ribowaltz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribowaltz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribowaltz/meta.yaml>`_
 

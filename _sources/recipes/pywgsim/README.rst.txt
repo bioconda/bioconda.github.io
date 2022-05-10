@@ -27,11 +27,15 @@ pywgsim
       
       
 
-      
+      ``0.5.2-0``
 
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends plac: 
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +67,7 @@ pywgsim
 
     <script>
         var package = "pywgsim";
-        var versions = [];
+        var versions = ["0.5.2"];
     </script>
 
 

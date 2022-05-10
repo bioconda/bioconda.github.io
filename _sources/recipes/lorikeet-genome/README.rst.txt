@@ -10,13 +10,13 @@ lorikeet-genome
    :replaces_section_title:
    :noindex:
 
-   Metagenomic Strain Resolver
+   Metagenomic Variant Calling \& Diversity Analysis
 
    :homepage: https://rhysnewell.github.io/Lorikeet/
    :license: GPL3
    :recipe: /`lorikeet-genome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorikeet-genome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorikeet-genome/meta.yaml>`_
 
-   Lorikeet aims to generate strain level genotypes from metagenomic communities using information from both long and short reads.
+   Lorikeet aims to call variants in metagenomes using local reassembly of haplotypes.
 
 
 .. conda:package:: lorikeet-genome
@@ -26,9 +26,17 @@ lorikeet-genome
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  </span></summary>
+      
 
+      ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,29 +44,27 @@ lorikeet-genome
    :depends bwa: ``>=0.7.17``
    :depends dashing: 
    :depends fastani: 
-   :depends freebayes: 
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends hdbscan: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends ngmlr: 
    :depends numpy: 
-   :depends openblas: 
-   :depends openssl: ``>=1.1.1h,<1.1.2a``
+   :depends openssl: ``>=1.1.1o,<1.1.2a``
    :depends parallel: 
    :depends prodigal: 
    :depends pysam: ``>=0.16``
-   :depends python: ``3.7.*``
-   :depends r-base: 
-   :depends samtools: ``1.9.*``
+   :depends python: ``>=3.9``
+   :depends samtools: ``>=1.9``
    :depends scikit-bio: 
    :depends scikit-learn: 
    :depends seaborn: 
    :depends starcode: 
    :depends svim: 
-   :depends umap-learn: 
    :depends vt: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -92,7 +98,7 @@ lorikeet-genome
 
     <script>
         var package = "lorikeet-genome";
-        var versions = ["0.5.0","0.4.0","0.3.7","0.3.7","0.3.6"];
+        var versions = ["0.6.6","0.5.0","0.4.0","0.3.7","0.3.7"];
     </script>
 
 

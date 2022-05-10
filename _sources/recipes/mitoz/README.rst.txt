@@ -27,7 +27,7 @@ mitoz
       
       
 
-      ``3.0-0``
+      ``3.1-0``,  ``3.0-0``
 
       
 
@@ -51,6 +51,7 @@ mitoz
    :depends python: ``>=3.6``
    :depends requests: 
    :depends samtools: 
+   :depends seqkit: 
    :depends tbl2asn: 
    :requirements:
 
@@ -83,7 +84,7 @@ mitoz
 
     <script>
         var package = "mitoz";
-        var versions = ["3.0"];
+        var versions = ["3.1","3.0"];
     </script>
 
 

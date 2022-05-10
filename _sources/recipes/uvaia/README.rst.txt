@@ -28,14 +28,18 @@ uvaia
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=10.3.0``
+   :depends libgomp: 
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends sysroot_linux-64: ``2.17.*``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -69,7 +73,7 @@ uvaia
 
     <script>
         var package = "uvaia";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["2.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

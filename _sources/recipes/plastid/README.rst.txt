@@ -28,10 +28,10 @@ plastid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.8-5</code>,  <code>0.4.8-4</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.8-5</code>,  <code>0.4.8-4</code>,  <code>0.4.8-1</code>,  </span></summary>
       
 
-      ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``
+      ``0.6.1-0``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``
 
       
       .. raw:: html
@@ -49,10 +49,11 @@ plastid
    :depends matplotlib-base: ``>=1.4.0``
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pandas: ``>=0.17.0``
-   :depends pysam: ``>=0.18.0,<0.18.1.0a0``
+   :depends pysam: ``>=0.19.0,<0.19.1.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: ``>=0.15.1``
+   :depends setuptools: 
    :depends termcolor: 
    :depends twobitreader: ``>=3.0.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -87,7 +88,7 @@ plastid
 
     <script>
         var package = "plastid";
-        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.5.1"];
+        var versions = ["0.6.1","0.5.1","0.5.1","0.5.1","0.5.1"];
     </script>
 
 

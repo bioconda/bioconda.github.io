@@ -30,7 +30,7 @@ bialign
       
       
 
-      ``0.3b5-0``,  ``0.3b4-0``
+      ``0.3-0``,  ``0.3b5-0``,  ``0.3b4-0``
 
       
 
@@ -71,7 +71,7 @@ bialign
 
     <script>
         var package = "bialign";
-        var versions = ["0.3b5","0.3b4"];
+        var versions = ["0.3","0.3b5","0.3b4"];
     </script>
 
 
