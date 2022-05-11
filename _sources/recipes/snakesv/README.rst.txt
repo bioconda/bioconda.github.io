@@ -27,11 +27,12 @@ snakesv
       
       
 
-      ``0.4-0``,  ``0.3.1-0``,  ``0.2-0``
+      ``0.4-1``,  ``0.4-0``,  ``0.3.1-0``,  ``0.2-0``
 
       
 
    
+   :depends bcftools: ``>=1.15.1``
    :depends mamba: ``>=0.22.0``
    :depends pandas: ``>=1.4.1``
    :depends snakemake: ``>=7.0.1``
@@ -66,7 +67,7 @@ snakesv
 
     <script>
         var package = "snakesv";
-        var versions = ["0.4","0.3.1","0.2"];
+        var versions = ["0.4","0.4","0.3.1","0.2"];
     </script>
 
 

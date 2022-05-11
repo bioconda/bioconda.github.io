@@ -10,12 +10,12 @@ r-recetox-aplcms
    :replaces_section_title:
    :noindex:
 
-   apLCMS generates a feature table from a batch of LC\/MS spectra.
+   apLCMS is a software which generates a feature table from a batch of LC\/MS spectra. A modified fork of the original apLCMS by Tianwei Yu.
 
    :homepage: https://github.com/RECETOX
    :license: GPL-2.0
    :recipe: /`r-recetox-aplcms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-aplcms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-aplcms/meta.yaml>`_
-   :links: doi: :doi:`10.1021/acs.analchem.6b01214`
+   :links: doi: :doi:`10.1093/bioinformatics/btp291`, doi: :doi:`10.1186/1471-2105-11-559`, doi: :doi:`10.1021/pr301053d`, doi: :doi:`10.1093/bioinformatics/btu430`, doi: :doi:`10.1038/s41598-020-70850-0`
 
    
 
@@ -28,14 +28,18 @@ r-recetox-aplcms
       
       
 
-      ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
+      ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
 
       
 
    
    :depends bioconductor-mzr: 
+   :depends r-arrow: 
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-biocmanager: 
+   :depends r-devtools: 
    :depends r-doparallel: 
+   :depends r-dplyr: 
    :depends r-e1071: 
    :depends r-foreach: 
    :depends r-gbm: 
@@ -47,6 +51,10 @@ r-recetox-aplcms
    :depends r-rocr: 
    :depends r-rocs: 
    :depends r-snow: 
+   :depends r-splines2: 
+   :depends r-stringr: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +86,7 @@ r-recetox-aplcms
 
     <script>
         var package = "r-recetox-aplcms";
-        var versions = ["0.9.3","0.9.2","0"];
+        var versions = ["0.9.4","0.9.3","0.9.2","0"];
     </script>
 
 
