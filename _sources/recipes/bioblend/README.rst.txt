@@ -28,10 +28,10 @@ bioblend
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-1</code>,  </span></summary>
       
 
-      ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``
+      ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioblend
 
    
    :depends boto: ``>=2.9.7``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends pyyaml: 
    :depends requests: ``>=2.20.0``
    :depends requests-toolbelt: ``>=0.5.1,!=0.9.0``
@@ -76,7 +76,7 @@ bioblend
 
     <script>
         var package = "bioblend";
-        var versions = ["0.16.0","0.15.0","0.14.0","0.13.0","0.12.0"];
+        var versions = ["0.17.0","0.16.0","0.15.0","0.14.0","0.13.0"];
     </script>
 
 

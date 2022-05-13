@@ -28,10 +28,10 @@ quatradis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.5.4-0</code>,  <code>0.4.9-0</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.5.4-0</code>,  <code>0.4.9-0</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  </span></summary>
       
 
-      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.5.4-0``,  ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
+      ``0.8.2-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.5.4-0``,  ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
 
       
       .. raw:: html
@@ -87,7 +87,7 @@ quatradis
 
     <script>
         var package = "quatradis";
-        var versions = ["0.7.0","0.7.0","0.6.2","0.5.4","0.4.9"];
+        var versions = ["0.8.2","0.7.0","0.7.0","0.6.2","0.5.4"];
     </script>
 
 
