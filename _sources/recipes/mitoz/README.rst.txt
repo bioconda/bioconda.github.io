@@ -27,7 +27,7 @@ mitoz
       
       
 
-      ``3.1-0``,  ``3.0-0``
+      ``3.2-0``,  ``3.1-0``,  ``3.0-0``
 
       
 
@@ -84,7 +84,7 @@ mitoz
 
     <script>
         var package = "mitoz";
-        var versions = ["3.1","3.0"];
+        var versions = ["3.2","3.1","3.0"];
     </script>
 
 
