@@ -27,7 +27,7 @@ hmftools-isofox
       
       
 
-      ``1.4-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.5-0``,  ``1.4-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -64,7 +64,7 @@ hmftools-isofox
 
     <script>
         var package = "hmftools-isofox";
-        var versions = ["1.4","1.1","1.0"];
+        var versions = ["1.5","1.4","1.1","1.0"];
     </script>
 
 
