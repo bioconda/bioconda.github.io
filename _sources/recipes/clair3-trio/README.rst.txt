@@ -27,7 +27,7 @@ clair3-trio
       
       
 
-      ``0.1-0``
+      ``0.2-0``,  ``0.1-0``
 
       
 
@@ -79,7 +79,7 @@ clair3-trio
 
     <script>
         var package = "clair3-trio";
-        var versions = ["0.1"];
+        var versions = ["0.2","0.1"];
     </script>
 
 
