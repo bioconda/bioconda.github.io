@@ -27,7 +27,7 @@ bte
       
       
 
-      ``0.8.0-0``
+      ``0.8.1-0``,  ``0.8.0-0``
 
       
 
@@ -70,7 +70,7 @@ bte
 
     <script>
         var package = "bte";
-        var versions = ["0.8.0"];
+        var versions = ["0.8.1","0.8.0"];
     </script>
 
 
