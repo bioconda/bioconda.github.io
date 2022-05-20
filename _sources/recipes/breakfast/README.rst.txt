@@ -27,7 +27,7 @@ breakfast
       
       
 
-      ``0.3.2-0``
+      ``0.3.3-0``,  ``0.3.2-0``
 
       
 
@@ -70,7 +70,7 @@ breakfast
 
     <script>
         var package = "breakfast";
-        var versions = ["0.3.2"];
+        var versions = ["0.3.3","0.3.2"];
     </script>
 
 
