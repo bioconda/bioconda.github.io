@@ -27,7 +27,7 @@ coidb
       
       
 
-      ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``
+      ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``
 
       
 
@@ -38,6 +38,7 @@ coidb
    :depends python: ``>=3.8``
    :depends snakemake: 
    :depends tqdm: 
+   :depends unzip: 
    :depends vsearch: 
    :requirements:
 
@@ -70,7 +71,7 @@ coidb
 
     <script>
         var package = "coidb";
-        var versions = ["0.4.5","0.4.3","0.4.1","0.4.0","0.3.3"];
+        var versions = ["0.4.6","0.4.5","0.4.3","0.4.1","0.4.0"];
     </script>
 
 
