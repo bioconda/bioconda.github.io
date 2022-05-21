@@ -10,7 +10,7 @@ orsum
    :replaces_section_title:
    :noindex:
 
-   A tool for the summary of over\-representation analysis results
+   A tool to filter long lists of enriched terms resulting from one or more enrichment analyses
 
    :homepage: https://github.com/ozanozisik/orsum/
    :license: MIT / MIT

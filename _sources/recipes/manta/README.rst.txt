@@ -13,7 +13,7 @@ manta
    Structural variant and indel caller for mapped sequencing data
 
    :homepage: https://github.com/Illumina/manta
-   :license: GPLv3
+   :license: GPL-3.0-only
    :recipe: /`manta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/manta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/manta/meta.yaml>`_
    :links: biotools: :biotools:`Manta9235`
 
@@ -29,10 +29,10 @@ manta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.29.6-0``,  ``0.29.3-0``,  ``0.29.1-0``
+      ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.29.6-0``,  ``0.29.3-0``,  ``0.29.1-0``
 
       
       .. raw:: html
@@ -73,7 +73,7 @@ manta
 
     <script>
         var package = "manta";
-        var versions = ["1.6.0","1.6.0","1.5.0","1.4.0","1.4.0"];
+        var versions = ["1.6.0","1.6.0","1.6.0","1.5.0","1.4.0"];
     </script>
 
 

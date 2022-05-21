@@ -29,14 +29,14 @@ expam
       
       
 
-      ``1.0.5-0``
+      ``1.1.0-0``,  ``1.0.5-0``
 
       
 
    
    :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.22.0``
    :depends pandas: 
    :depends psutil: 
    :depends pytables: 
@@ -74,7 +74,7 @@ expam
 
     <script>
         var package = "expam";
-        var versions = ["1.0.5"];
+        var versions = ["1.1.0","1.0.5"];
     </script>
 
 
