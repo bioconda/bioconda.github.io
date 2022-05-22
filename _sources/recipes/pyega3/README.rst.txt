@@ -13,7 +13,7 @@ pyega3
    EGA python client
 
    :homepage: https://github.com/EGA-archive/ega-download-client
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`pyega3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyega3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyega3/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pyega3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.44-0</code>,  <code>3.0.40-0</code>,  <code>3.0.39-0</code>,  <code>3.0.38-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.3-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.44-0</code>,  <code>3.0.40-0</code>,  <code>3.0.39-0</code>,  </span></summary>
       
 
-      ``4.0.1-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.1.0-0``,  ``3.0.44-0``,  ``3.0.40-0``,  ``3.0.39-0``,  ``3.0.38-0``,  ``3.0.21-1``,  ``3.0.21-0``
+      ``4.0.3-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.1.0-0``,  ``3.0.44-0``,  ``3.0.40-0``,  ``3.0.39-0``,  ``3.0.38-0``,  ``3.0.21-1``,  ``3.0.21-0``
 
       
       .. raw:: html
@@ -76,7 +76,7 @@ pyega3
 
     <script>
         var package = "pyega3";
-        var versions = ["4.0.1","4.0.0","3.4.1","3.4.0","3.1.0"];
+        var versions = ["4.0.3","4.0.1","4.0.0","3.4.1","3.4.0"];
     </script>
 
 

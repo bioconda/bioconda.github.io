@@ -12,8 +12,8 @@ perl-xml-xpath
 
    Parse and evaluate XPath statements.
 
-   :homepage: http://metacpan.org/pod/XML-XPath
-   :license: artistic_2
+   :homepage: https://metacpan.org/pod/XML::XPath
+   :license: Artistic-2.0
    :recipe: /`perl-xml-xpath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-xpath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-xpath/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-xml-xpath
       
       
 
-      ``1.44-1``,  ``1.44-0``,  ``1.33-1``,  ``1.33-0``
+      ``1.47-0``,  ``1.44-1``,  ``1.44-0``,  ``1.33-1``,  ``1.33-0``
 
       
 
@@ -65,7 +65,7 @@ perl-xml-xpath
 
     <script>
         var package = "perl-xml-xpath";
-        var versions = ["1.44","1.44","1.33","1.33"];
+        var versions = ["1.47","1.44","1.44","1.33","1.33"];
     </script>
 
 

@@ -27,7 +27,7 @@ lrphase
       
       
 
-      ``0.7.6-0``,  ``0.7.5-0``
+      ``0.7.10-0``,  ``0.7.6-0``,  ``0.7.5-0``
 
       
 
@@ -38,7 +38,7 @@ lrphase
    :depends powerlaw: ``>=1.4.6``
    :depends pyliftover: ``>=0.4``
    :depends pysam: ``>=0.16.0.1``
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends requests: ``>=2.26.0``
    :requirements:
 
@@ -71,7 +71,7 @@ lrphase
 
     <script>
         var package = "lrphase";
-        var versions = ["0.7.6","0.7.5"];
+        var versions = ["0.7.10","0.7.6","0.7.5"];
     </script>
 
 

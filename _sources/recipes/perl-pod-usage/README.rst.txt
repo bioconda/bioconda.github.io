@@ -12,7 +12,7 @@ perl-pod-usage
 
    print a usage message from embedded pod documentation 
 
-   :homepage: http://search.cpan.org/~marekr/Pod-Usage-1.69/
+   :homepage: https://metacpan.org/pod/Pod::Usage
    :license: perl_5
    :recipe: /`perl-pod-usage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-usage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-usage/meta.yaml>`_
 
@@ -27,7 +27,7 @@ perl-pod-usage
       
       
 
-      ``2.01-0``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``
+      ``2.03-0``,  ``2.01-0``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``
 
       
 
@@ -68,7 +68,7 @@ perl-pod-usage
 
     <script>
         var package = "perl-pod-usage";
-        var versions = ["2.01","1.69","1.69","1.69"];
+        var versions = ["2.03","2.01","1.69","1.69","1.69"];
     </script>
 
 

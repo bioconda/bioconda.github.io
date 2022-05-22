@@ -13,7 +13,7 @@ mg-toolkit
    Metagenomics toolkit.
 
    :homepage: https://github.com/EBI-metagenomics/emg-toolkit
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`mg-toolkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mg-toolkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mg-toolkit/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ mg-toolkit
       
       
 
-      ``0.10.0-0``,  ``0.9.1-0``
+      ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``
 
       
 
@@ -68,7 +68,7 @@ mg-toolkit
 
     <script>
         var package = "mg-toolkit";
-        var versions = ["0.10.0","0.9.1"];
+        var versions = ["0.10.1","0.10.0","0.9.1"];
     </script>
 
 

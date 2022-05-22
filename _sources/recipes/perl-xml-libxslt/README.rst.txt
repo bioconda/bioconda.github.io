@@ -12,7 +12,7 @@ perl-xml-libxslt
 
    Interface to GNOME libxslt library
 
-   :homepage: http://metacpan.org/pod/XML-LibXSLT
+   :homepage: https://metacpan.org/pod/XML::LibXSLT
    :license: perl_5
    :recipe: /`perl-xml-libxslt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-libxslt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-libxslt/meta.yaml>`_
 
@@ -27,12 +27,12 @@ perl-xml-libxslt
       
       
 
-      ``2.000000-0``,  ``1.99-1``,  ``1.99-0``,  ``1.94-2``,  ``1.94-1``,  ``1.94-0``
+      ``2.002000-0``,  ``2.001000-0``,  ``2.000000-0``,  ``1.99-1``,  ``1.99-0``,  ``1.94-2``,  ``1.94-1``,  ``1.94-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libxslt: ``>=1.1.33,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xml-libxml: 
@@ -67,7 +67,7 @@ perl-xml-libxslt
 
     <script>
         var package = "perl-xml-libxslt";
-        var versions = ["2.000000","1.99","1.99","1.94","1.94"];
+        var versions = ["2.002000","2.001000","2.000000","1.99","1.99"];
     </script>
 
 
