@@ -26,9 +26,17 @@ perl-json
    :versions:
       
       
+      .. raw:: html
 
-      ``4.05-0``,  ``4.02-1``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
+         <details><summary><span class="truncated-version-list"><code>4.06-0</code>,  <code>4.05-0</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  <code>4.00-0</code>,  <code>2.97001-0</code>,  <code>2.90-3</code>,  <code>2.90-2</code>,  <code>2.90-1</code>,  </span></summary>
+      
 
+      ``4.06-0``,  ``4.05-0``,  ``4.02-1``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -65,7 +73,7 @@ perl-json
 
     <script>
         var package = "perl-json";
-        var versions = ["4.05","4.02","4.02","4.00","2.97001"];
+        var versions = ["4.06","4.05","4.02","4.02","4.00"];
     </script>
 
 

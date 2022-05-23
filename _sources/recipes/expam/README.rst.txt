@@ -15,7 +15,7 @@ expam
    :homepage: https://github.com/seansolari/expam
    :documentation: https://expam.readthedocs.io/en/latest/
    
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`expam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expam/meta.yaml>`_
 
    
@@ -29,12 +29,12 @@ expam
       
       
 
-      ``1.1.0-0``,  ``1.0.5-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.22.0``
    :depends pandas: 
@@ -74,7 +74,7 @@ expam
 
     <script>
         var package = "expam";
-        var versions = ["1.1.0","1.0.5"];
+        var versions = ["1.1.1","1.1.0","1.0.5"];
     </script>
 
 
