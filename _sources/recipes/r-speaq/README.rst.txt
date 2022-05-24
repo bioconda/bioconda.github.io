@@ -13,7 +13,7 @@ r-speaq
    Makes Nuclear Magnetic Resonance spectroscopy \(NMR spectroscopy\) data analysis as easy as possible by only requiring a small set of functions to perform an entire analysis. \'speaq\' offers the possibility of raw spectra alignment and quantitation but also an analysis based on features whereby the spectra are converted to peaks which are then grouped and turned into features. These features can be processed with any number of statistical tools either included in \'speaq\' or available elsewhere on CRAN. More detail can be found in Vu et al. \(2011\) \<doi\:10.1186\/1471\-2105\-12\-405\> and Beirnaert et al. \(2018\) \<doi\:10.1371\/journal.pcbi.1006018\>. 
 
    :homepage: https://CRAN.R-project.org/package=speaq
-   :license: APACHE / Apache License 2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-speaq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-speaq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-speaq/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ r-speaq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.1-3</code>,  <code>2.6.1-2</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.1.0-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.1-3</code>,  <code>2.6.1-2</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.1.0-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
+      ``2.7.0-0``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.1.0-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -50,7 +50,6 @@ r-speaq
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-missforest: 
-   :depends r-mqtl: 
    :depends r-reshape2: 
    :depends r-rfast: 
    :depends r-rvest: 
@@ -86,7 +85,7 @@ r-speaq
 
     <script>
         var package = "r-speaq";
-        var versions = ["2.6.1","2.6.1","2.6.1","2.6.1","2.6.0"];
+        var versions = ["2.7.0","2.6.1","2.6.1","2.6.1","2.6.1"];
     </script>
 
 

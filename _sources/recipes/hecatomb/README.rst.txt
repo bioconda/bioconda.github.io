@@ -29,7 +29,7 @@ hecatomb
       
       
 
-      ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
+      ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
 
       
 
@@ -39,7 +39,7 @@ hecatomb
    :depends networkx: ``>=2.6.3``
    :depends pygments: ``>=2.10.0``
    :depends pygraphviz: ``>=1.7``
-   :depends python: ``>=3``
+   :depends python: ``>=3.9``
    :depends pyyaml: ``>=5.4.1``
    :depends snakemake-minimal: ``>=6.10.0``
    :requirements:
@@ -73,7 +73,7 @@ hecatomb
 
     <script>
         var package = "hecatomb";
-        var versions = ["1.0.0.beta.5","1.0.0.beta.4","1.0.0.beta.3","1.0.0.beta.2","1.0.0.beta.2"];
+        var versions = ["1.0.1","1.0.0.beta.5","1.0.0.beta.4","1.0.0.beta.3","1.0.0.beta.2"];
     </script>
 
 

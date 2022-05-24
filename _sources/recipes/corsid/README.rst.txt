@@ -27,7 +27,7 @@ corsid
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -38,7 +38,9 @@ corsid
    :depends pysam: 
    :depends pytablewriter: 
    :depends python: 
+   :depends scikit-learn: 
    :depends tqdm: 
+   :depends xgboost: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +72,7 @@ corsid
 
     <script>
         var package = "corsid";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["0.1.3","0.1.2","0.1.1"];
     </script>
 
 
