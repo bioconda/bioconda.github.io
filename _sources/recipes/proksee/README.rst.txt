@@ -27,7 +27,7 @@ proksee
       
       
 
-      ``1.0.0a2-0``,  ``1.0.0a1-0``
+      ``1.0.0a3-0``,  ``1.0.0a2-0``,  ``1.0.0a1-0``
 
       
 
@@ -75,7 +75,7 @@ proksee
 
     <script>
         var package = "proksee";
-        var versions = ["1.0.0a2","1.0.0a1"];
+        var versions = ["1.0.0a3","1.0.0a2","1.0.0a1"];
     </script>
 
 

@@ -27,7 +27,7 @@ btllib
       
       
 
-      ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
 
@@ -35,8 +35,8 @@ btllib
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gzip: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends lrzip: 
    :depends pigz: 
    :depends python: ``>=3.8,<3.9.0a0``
@@ -77,7 +77,7 @@ btllib
 
     <script>
         var package = "btllib";
-        var versions = ["1.4.3","1.4.3","1.4.3"];
+        var versions = ["1.4.4","1.4.3","1.4.3","1.4.3"];
     </script>
 
 

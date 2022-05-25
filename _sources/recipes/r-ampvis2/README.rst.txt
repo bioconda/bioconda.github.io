@@ -13,7 +13,7 @@ r-ampvis2
    Tools for visualising amplicon data
 
    :homepage: https://github.com/MadsAlbertsen/ampvis2
-   :license: GPL-2.0-only
+   :license: AGPL-3.0-only
    :recipe: /`r-ampvis2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ampvis2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ampvis2/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-ampvis2
       
       
 
-      ``2.7.24-0``,  ``2.7.22-0``,  ``2.7.21-0``,  ``2.7.17-1``,  ``2.7.17-0``,  ``2.7.12-1``,  ``2.7.12-0``
+      ``2.7.26-0``,  ``2.7.24-0``,  ``2.7.22-0``,  ``2.7.21-0``,  ``2.7.17-1``,  ``2.7.17-0``,  ``2.7.12-1``,  ``2.7.12-0``
 
       
 
@@ -90,7 +90,7 @@ r-ampvis2
 
     <script>
         var package = "r-ampvis2";
-        var versions = ["2.7.24","2.7.22","2.7.21","2.7.17","2.7.17"];
+        var versions = ["2.7.26","2.7.24","2.7.22","2.7.21","2.7.17"];
     </script>
 
 

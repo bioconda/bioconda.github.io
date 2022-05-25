@@ -27,7 +27,7 @@ psap
       
       
 
-      ``1.0.6-0``
+      ``1.0.7-0``,  ``1.0.6-0``
 
       
 
@@ -75,7 +75,7 @@ psap
 
     <script>
         var package = "psap";
-        var versions = ["1.0.6"];
+        var versions = ["1.0.7","1.0.6"];
     </script>
 
 

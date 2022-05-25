@@ -26,9 +26,17 @@ snakeobjects
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1.0-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  </span></summary>
+      
 
+      ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -65,7 +73,7 @@ snakeobjects
 
     <script>
         var package = "snakeobjects";
-        var versions = ["3.1.0","3.0.8","3.0.7","3.0.6","3.0.5"];
+        var versions = ["3.1.1","3.1.0","3.0.8","3.0.7","3.0.6"];
     </script>
 
 

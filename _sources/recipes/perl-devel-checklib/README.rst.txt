@@ -27,7 +27,7 @@ perl-devel-checklib
       
       
 
-      ``1.14-1``,  ``1.14-0``
+      ``1.16-0``,  ``1.14-1``,  ``1.14-0``
 
       
 
@@ -65,7 +65,7 @@ perl-devel-checklib
 
     <script>
         var package = "perl-devel-checklib";
-        var versions = ["1.14","1.14"];
+        var versions = ["1.16","1.14","1.14"];
     </script>
 
 

@@ -28,7 +28,7 @@ matchtigs
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -65,7 +65,7 @@ matchtigs
 
     <script>
         var package = "matchtigs";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0"];
     </script>
 
 

@@ -28,18 +28,18 @@ metapi
       
       
 
-      ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``2.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends biopython: 
    :depends matplotlib-base: 
+   :depends natsort: 
    :depends numpy: 
    :depends openpyxl: 
    :depends pandas: 
-   :depends pysam: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends ruamel.yaml: 
    :depends seaborn: 
    :depends snakemake: 
@@ -74,7 +74,7 @@ metapi
 
     <script>
         var package = "metapi";
-        var versions = ["1.1.0","1.0.5","1.0.4","1.0.3","1.0.2"];
+        var versions = ["2.1.1","1.1.0","1.0.5","1.0.4","1.0.3"];
     </script>
 
 

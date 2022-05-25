@@ -27,19 +27,20 @@ jcast
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
    
-   :depends biopython: ``>=1.7,<2``
-   :depends gtfparse: ``>=1,<2``
-   :depends matplotlib-base: ``>=3.4,<4``
-   :depends pandas: ``>=1.0,<2``
+   :depends biopython: ``>=1.78``
+   :depends gtfparse: ``>=1.2.1``
+   :depends matplotlib-base: ``>=3.4.2``
+   :depends pandas: ``>=1.3.0``
+   :depends pomegranate: ``>=0.13``
    :depends python: ``>=3.7``
-   :depends requests: ``>=2,<3``
+   :depends requests: ``>=2.24.0``
    :depends scikit-learn: ``>=0.24.2``
-   :depends tqdm: ``>=4,<5``
+   :depends tqdm: ``>=4.61.2``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ jcast
 
     <script>
         var package = "jcast";
-        var versions = ["0.3.3","0.3.2","0.3.1","0.2.9","0.2.8"];
+        var versions = ["0.3.4","0.3.3","0.3.2","0.3.1","0.2.9"];
     </script>
 
 

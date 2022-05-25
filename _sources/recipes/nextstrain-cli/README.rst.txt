@@ -28,9 +28,17 @@ nextstrain-cli
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.5-0</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  </span></summary>
+      
 
+      ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -76,7 +84,7 @@ nextstrain-cli
 
     <script>
         var package = "nextstrain-cli";
-        var versions = ["3.2.4","3.2.3","3.2.2","3.2.1","3.2.0"];
+        var versions = ["3.2.5","3.2.4","3.2.3","3.2.2","3.2.1"];
     </script>
 
 

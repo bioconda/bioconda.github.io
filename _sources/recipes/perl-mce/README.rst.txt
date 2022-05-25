@@ -26,9 +26,17 @@ perl-mce
    :versions:
       
       
+      .. raw:: html
 
-      ``1.878-0``,  ``1.876-0``,  ``1.837-1``,  ``1.837-0``,  ``1.836-0``,  ``1.835-1``,  ``1.835-0``,  ``1.814-1``,  ``1.814-0``
+         <details><summary><span class="truncated-version-list"><code>1.879-0</code>,  <code>1.878-0</code>,  <code>1.876-0</code>,  <code>1.837-1</code>,  <code>1.837-0</code>,  <code>1.836-0</code>,  <code>1.835-1</code>,  <code>1.835-0</code>,  <code>1.814-1</code>,  </span></summary>
+      
 
+      ``1.879-0``,  ``1.878-0``,  ``1.876-0``,  ``1.837-1``,  ``1.837-0``,  ``1.836-0``,  ``1.835-1``,  ``1.835-0``,  ``1.814-1``,  ``1.814-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -72,7 +80,7 @@ perl-mce
 
     <script>
         var package = "perl-mce";
-        var versions = ["1.878","1.876","1.837","1.837","1.836"];
+        var versions = ["1.879","1.878","1.876","1.837","1.837"];
     </script>
 
 

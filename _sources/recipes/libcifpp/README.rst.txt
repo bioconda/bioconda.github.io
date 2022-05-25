@@ -27,13 +27,13 @@ libcifpp
       
       
 
-      ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
+      ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ libcifpp
 
     <script>
         var package = "libcifpp";
-        var versions = ["4.0.0","3.0.3","3.0.0"];
+        var versions = ["4.1.1","4.0.0","3.0.3","3.0.0"];
     </script>
 
 

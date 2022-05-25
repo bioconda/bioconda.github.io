@@ -12,7 +12,7 @@ bioconductor-curatedmetagenomicdata
 
    Curated Metagenomic Data of the Human Microbiome
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/curatedMetagenomicData.html
+   :homepage: https://bioconductor.org/packages/3.15/data/experiment/html/curatedMetagenomicData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedmetagenomicdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedmetagenomicdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedmetagenomicdata/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-curatedmetagenomicdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.3-0</code>,  <code>3.2.1-0</code>,  <code>3.0.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.2.3-0</code>,  <code>3.2.1-0</code>,  <code>3.0.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  </span></summary>
       
 
-      ``3.2.3-0``,  ``3.2.1-0``,  ``3.0.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
+      ``3.4.1-0``,  ``3.2.3-0``,  ``3.2.1-0``,  ``3.0.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-curatedmetagenomicdata
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-mia: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.82.0,<8.0a0``
+   :depends bioconductor-annotationhub: 
+   :depends bioconductor-experimenthub: 
+   :depends bioconductor-mia: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends bioconductor-treesummarizedexperiment: 
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
@@ -87,7 +87,7 @@ bioconductor-curatedmetagenomicdata
 
     <script>
         var package = "bioconductor-curatedmetagenomicdata";
-        var versions = ["3.2.3","3.2.1","3.0.1","1.20.0","1.20.0"];
+        var versions = ["3.4.1","3.2.3","3.2.1","3.0.1","1.20.0"];
     </script>
 
 

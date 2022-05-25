@@ -27,7 +27,7 @@ snakedeploy
       
       
 
-      ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.1-1``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.1-1``
 
       
 
@@ -35,6 +35,7 @@ snakedeploy
    :depends jinja2: 
    :depends pandas: 
    :depends python: ``>=3.8``
+   :depends pyyaml: 
    :depends requests: 
    :requirements:
 
@@ -67,7 +68,7 @@ snakedeploy
 
     <script>
         var package = "snakedeploy";
-        var versions = ["0.3.0","0.2.1","0.1.3","0.1.1"];
+        var versions = ["0.4.0","0.3.0","0.2.1","0.1.3","0.1.1"];
     </script>
 
 

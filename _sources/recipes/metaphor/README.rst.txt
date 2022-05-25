@@ -1,0 +1,98 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'metaphor'
+.. highlight: bash
+
+metaphor
+========
+
+.. conda:recipe:: metaphor
+   :replaces_section_title:
+   :noindex:
+
+   Metaphor \- Metagenomic Pipeline for Short Reads
+
+   :homepage: https://github.com/vinisalazar/metaphor
+   :documentation: https://metaphor-worklfow.readthedocs.io/
+   
+   :license: MIT / MIT
+   :recipe: /`metaphor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphor/meta.yaml>`_
+
+   
+
+
+.. conda:package:: metaphor
+
+   |downloads_metaphor| |docker_metaphor|
+
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.3.1-0``
+
+      
+
+   
+   :depends networkx: 
+   :depends pandas: 
+   :depends python: 
+   :depends pyyaml: 
+   :depends requests: 
+   :depends snakemake: ``>=7.5``
+   :depends snakemake-wrapper-utils: 
+   :depends tqdm: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metaphor
+
+   and update with::
+
+      conda update metaphor
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/metaphor:<tag>
+
+   (see `metaphor/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_metaphor| image:: https://img.shields.io/conda/dn/bioconda/metaphor.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaphor
+   :alt:   (downloads)
+.. |docker_metaphor| image:: https://quay.io/repository/biocontainers/metaphor/status
+   :target: https://quay.io/repository/biocontainers/metaphor
+.. _`metaphor/tags`: https://quay.io/repository/biocontainers/metaphor?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "metaphor";
+        var versions = ["1.4.0","1.3.1"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metaphor/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metaphor/README.html

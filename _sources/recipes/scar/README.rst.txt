@@ -12,7 +12,7 @@ scar
 
    scAR \(single cell Ambient Remover\) is a package for denoising multiple single cell omics data.
 
-   :homepage: https://github.com/Novartis/scAR
+   :homepage: https://github.com/Novartis/scar
    :license: MIT
    :recipe: /`scar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scar/meta.yaml>`_
 
@@ -27,7 +27,7 @@ scar
       
       
 
-      ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
 
@@ -76,7 +76,7 @@ scar
 
     <script>
         var package = "scar";
-        var versions = ["0.4.0","0.3.5","0.3.4","0.3.2","0.3.0"];
+        var versions = ["0.4.1","0.4.0","0.3.5","0.3.4","0.3.2"];
     </script>
 
 
