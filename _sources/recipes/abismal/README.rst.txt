@@ -10,11 +10,11 @@ abismal
    :replaces_section_title:
    :noindex:
 
-   abismal is a fast and memory\-efficient mapper for short whole genome bisulfite sequencing reads
+   abismal is a fast and memory\-efficient mapper for short bisulfite sequencing reads
 
 
    :homepage: https://github.com/smithlabcode/abismal
-   :license: GPL 3
+   :license: GPL-3.0-only
    :recipe: /`abismal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abismal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abismal/meta.yaml>`_
 
    
@@ -28,14 +28,14 @@ abismal
       
       
 
-      ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -69,7 +69,7 @@ abismal
 
     <script>
         var package = "abismal";
-        var versions = ["2.0.0","1.0.0","1.0.0"];
+        var versions = ["3.0.0","2.0.0","1.0.0","1.0.0"];
     </script>
 
 

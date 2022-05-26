@@ -27,7 +27,7 @@ clippy
       
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-0``
+      ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-0``
 
       
 
@@ -43,6 +43,7 @@ clippy
    :depends pybedtools: 
    :depends python: ``>=3.8``
    :depends scipy: 
+   :depends werkzeug: ``2.0.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ clippy
 
     <script>
         var package = "clippy";
-        var versions = ["1.3.3","1.3.2","1.3.1","1.3.1"];
+        var versions = ["1.4.1","1.3.3","1.3.2","1.3.1","1.3.1"];
     </script>
 
 

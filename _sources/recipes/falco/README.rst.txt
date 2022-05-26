@@ -10,11 +10,11 @@ falco
    :replaces_section_title:
    :noindex:
 
-   falco is a C\+\+ implementation of FastQC to run quality control checks on fastq files
+   falco is a C\+\+ implementation of FastQC to assess the quality of sequence reads.
 
 
    :homepage: https://github.com/smithlabcode/falco
-   :license: GPL 3
+   :license: GPL-3.0-only
    :recipe: /`falco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco/meta.yaml>`_
 
    
@@ -27,15 +27,23 @@ falco
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  </span></summary>
+      
 
+      ``1.0.0-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -69,7 +77,7 @@ falco
 
     <script>
         var package = "falco";
-        var versions = ["0.3.0","0.3.0","0.3.0","0.2.4","0.2.4"];
+        var versions = ["1.0.0","0.3.0","0.3.0","0.3.0","0.2.4"];
     </script>
 
 

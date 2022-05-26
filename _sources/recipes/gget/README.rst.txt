@@ -30,7 +30,7 @@ gget
       
       
 
-      ``0.0.24-0``
+      ``0.1.0-0``,  ``0.0.24-0``
 
       
 
@@ -74,7 +74,7 @@ gget
 
     <script>
         var package = "gget";
-        var versions = ["0.0.24"];
+        var versions = ["0.1.0","0.0.24"];
     </script>
 
 
