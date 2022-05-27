@@ -13,7 +13,7 @@ metacerberus
    Versatile Functional Ontology Assignments for Metagenomes via Hidden Markov Model \(HMM\) searching with environmental focus of shotgun meta\'omics data
 
    :homepage: https://github.com/raw-lab/metacerberus
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`metacerberus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacerberus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacerberus/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ metacerberus
       
       
 
-      ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+      ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -39,7 +39,9 @@ metacerberus
    :depends fastqc: 
    :depends flash2: 
    :depends gcc: 
-   :depends grpcio: ``<=1.43.0``
+   :depends git: 
+   :depends gitpython: 
+   :depends grpcio: 
    :depends hmmer: 
    :depends make: 
    :depends metaomestats: 
@@ -53,6 +55,7 @@ metacerberus
    :depends python-kaleido: 
    :depends ray-core: 
    :depends ray-dashboard: 
+   :depends ray-default: 
    :depends scikit-learn: 
    :requirements:
 
@@ -85,7 +88,7 @@ metacerberus
 
     <script>
         var package = "metacerberus";
-        var versions = ["0.2","0.2","0.1"];
+        var versions = ["1.0","0.2","0.2","0.1"];
     </script>
 
 

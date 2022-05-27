@@ -13,7 +13,7 @@ wgdi
    Whole Genome Duplication Identification
 
    :homepage: https://github.com/SunPengChuan/wgdi
-   :license: BSD / BSD
+   :license: BSD / BSD-2-Clause
    :recipe: /`wgdi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgdi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgdi/meta.yaml>`_
 
    Python utility libraries on comparative genomics
@@ -28,10 +28,10 @@ wgdi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.9-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.6-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.9-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  </span></summary>
       
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.1-0``
+      ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,10 +41,12 @@ wgdi
 
    
    :depends biopython: 
+   :depends divvier: ``1.01``
+   :depends fasttree: 
    :depends iqtree: 
    :depends mafft: 
    :depends matplotlib-base: 
-   :depends muscle: 
+   :depends muscle: ``3.8.1551``
    :depends numpy: 
    :depends pal2nal: 
    :depends paml: 
@@ -83,7 +85,7 @@ wgdi
 
     <script>
         var package = "wgdi";
-        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.5.1"];
+        var versions = ["0.5.6","0.5.4","0.5.3","0.5.2","0.5.1"];
     </script>
 
 
