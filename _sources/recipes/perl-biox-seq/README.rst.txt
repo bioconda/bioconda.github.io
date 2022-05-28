@@ -13,7 +13,7 @@ perl-biox-seq
    a basic but fast biological sequence object and associated parsers
 
    :homepage: http://metacpan.org/pod/BioX::Seq
-   :license: gpl_3
+   :license: GPL-3.0-or-later
    :recipe: /`perl-biox-seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-seq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-seq/meta.yaml>`_
 
    

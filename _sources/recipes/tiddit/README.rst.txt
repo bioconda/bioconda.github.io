@@ -12,7 +12,7 @@ tiddit
 
    TIDDIT \- structural variant calling.
 
-   :homepage: https://github.com/SciLifeLab/TIDDIT
+   :homepage: https://github.com/J35P312/TIDDIT
    :license: GPL-3.0-only
    :recipe: /`tiddit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiddit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiddit/meta.yaml>`_
 

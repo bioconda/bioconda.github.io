@@ -13,7 +13,7 @@ veryfasttree
    VeryFastTree \-\- speeding up the estimation of phylogenies for large alignments through parallelization and vectorization strategies
 
    :homepage: https://github.com/citiususc/veryfasttree
-   :license: GNU v3
+   :license: GPL-3.0-only
    :recipe: /`veryfasttree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/veryfasttree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/veryfasttree/meta.yaml>`_
 
    VeryFastTree is a highly\-tuned implementation of the FastTree\-2 tool that takes advantage of parallelization and vectorization strategies 

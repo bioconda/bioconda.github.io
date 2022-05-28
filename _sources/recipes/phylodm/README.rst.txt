@@ -13,7 +13,7 @@ phylodm
    Efficient calculation of phylogenetic distance matrices.
 
    :homepage: https://github.com/aaronmussig/PhyloDM
-   :license: GPL / GPL-3
+   :license: GPL / GPL-3.0-only
    :recipe: /`phylodm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodm/meta.yaml>`_
 
    

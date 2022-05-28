@@ -13,12 +13,17 @@ metaphor
    Metaphor \- Metagenomic Pipeline for Short Reads
 
    :homepage: https://github.com/vinisalazar/metaphor
-   :documentation: https://metaphor-worklfow.readthedocs.io/
+   :documentation: https://metaphor-workflow.readthedocs.io/
    
    :license: MIT / MIT
    :recipe: /`metaphor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphor/meta.yaml>`_
 
    
+   \# Metaphor \- Metagenomic Pipeline for sHOrt Reads
+
+
+   Metaphor is a Snakemake\-based\, general\-purpose workflow for assembly and binning of metagenomes. To learn how to use it\, please refer to the \[docs page\]\(https\:\/\/metaphor\-workflow.readthedocs.io\/\).
+
 
 
 .. conda:package:: metaphor
