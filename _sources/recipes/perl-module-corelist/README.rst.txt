@@ -12,7 +12,7 @@ perl-module-corelist
 
    what modules shipped with versions of perl
 
-   :homepage: http://dev.perl.org/
+   :homepage: https://metacpan.org/pod/Module::CoreList
    :license: perl_5
    :recipe: /`perl-module-corelist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-corelist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-corelist/meta.yaml>`_
 
