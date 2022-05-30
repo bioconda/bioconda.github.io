@@ -12,7 +12,7 @@ perl-template-toolkit
 
    comprehensive template processing system
 
-   :homepage: http://metacpan.org/pod/Template-Toolkit
+   :homepage: https://metacpan.org/pod/Template::Toolkit
    :license: perl_5
    :recipe: /`perl-template-toolkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-template-toolkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-template-toolkit/meta.yaml>`_
 
