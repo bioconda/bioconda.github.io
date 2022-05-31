@@ -43,6 +43,7 @@ crispresso2
    :depends bowtie2: 
    :depends flash: 
    :depends jinja2: 
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 

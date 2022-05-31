@@ -29,15 +29,15 @@ veryfasttree
       
       
 
-      ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
+      ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgomp: 
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ veryfasttree
 
     <script>
         var package = "veryfasttree";
-        var versions = ["3.1.0","3.1.0","3.0.1"];
+        var versions = ["3.1.1","3.1.0","3.1.0","3.0.1"];
     </script>
 
 

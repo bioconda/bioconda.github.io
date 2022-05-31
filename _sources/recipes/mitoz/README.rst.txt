@@ -27,7 +27,7 @@ mitoz
       
       
 
-      ``3.2-0``,  ``3.1-0``,  ``3.0-0``
+      ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``
 
       
 
@@ -42,6 +42,7 @@ mitoz
    :depends hmmer: ``3.1b2.*``
    :depends infernal: ``1.1.1.*``
    :depends libgd: 
+   :depends megahit: 
    :depends openjdk: 
    :depends perl: ``5.26.*``
    :depends perl-bioperl: 
@@ -52,6 +53,7 @@ mitoz
    :depends requests: 
    :depends samtools: 
    :depends seqkit: 
+   :depends spades: 
    :depends tbl2asn: 
    :requirements:
 
@@ -84,7 +86,7 @@ mitoz
 
     <script>
         var package = "mitoz";
-        var versions = ["3.2","3.1","3.0"];
+        var versions = ["3.3","3.2","3.1","3.0"];
     </script>
 
 

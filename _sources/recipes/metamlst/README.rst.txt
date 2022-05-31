@@ -28,7 +28,7 @@ metamlst
       
       
 
-      ``1.2.2-0``
+      ``1.2.3-0``,  ``1.2.2-0``
 
       
 
@@ -70,7 +70,7 @@ metamlst
 
     <script>
         var package = "metamlst";
-        var versions = ["1.2.2"];
+        var versions = ["1.2.3","1.2.2"];
     </script>
 
 

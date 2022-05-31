@@ -28,7 +28,7 @@ bleties
       
       
 
-      ``0.1.11-0``,  ``0.1.9-0``
+      ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.9-0``
 
       
 
@@ -36,7 +36,7 @@ bleties
    :depends biopython: ``1.76.*``
    :depends htslib: ``1.9.*``
    :depends matplotlib-base: 
-   :depends muscle: ``>=3.8.1551``
+   :depends muscle: ``3.8.1551.*``
    :depends ncrf: ``1.01.02.*``
    :depends pandas: 
    :depends pip: 
@@ -77,7 +77,7 @@ bleties
 
     <script>
         var package = "bleties";
-        var versions = ["0.1.11","0.1.9"];
+        var versions = ["0.1.11","0.1.11","0.1.9"];
     </script>
 
 

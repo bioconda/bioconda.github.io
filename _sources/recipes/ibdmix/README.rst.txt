@@ -28,11 +28,13 @@ ibdmix
       
       
 
-      
+      ``1.0.1-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +66,7 @@ ibdmix
 
     <script>
         var package = "ibdmix";
-        var versions = [];
+        var versions = ["1.0.1"];
     </script>
 
 

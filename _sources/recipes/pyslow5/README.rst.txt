@@ -27,12 +27,12 @@ pyslow5
       
       
 
-      ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
@@ -69,7 +69,7 @@ pyslow5
 
     <script>
         var package = "pyslow5";
-        var versions = ["0.4.0","0.3.0","0.3.0","0.2.0"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.3.0","0.2.0"];
     </script>
 
 

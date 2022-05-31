@@ -34,14 +34,15 @@ metaphor
       
       
 
-      ``1.4.0-0``,  ``1.3.1-0``
+      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``
 
       
 
    
+   :depends jinja2: 
    :depends networkx: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.9``
    :depends pyyaml: 
    :depends requests: 
    :depends snakemake: ``>=7.5``
@@ -78,7 +79,7 @@ metaphor
 
     <script>
         var package = "metaphor";
-        var versions = ["1.4.0","1.3.1"];
+        var versions = ["1.4.1","1.4.0","1.3.1"];
     </script>
 
 

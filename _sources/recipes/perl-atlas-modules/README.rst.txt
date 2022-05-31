@@ -27,19 +27,21 @@ perl-atlas-modules
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.3.1-2``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends perl: ``5.26.2.*``
    :depends perl-algorithm-diff: 
    :depends perl-archive-extract: 
    :depends perl-archive-zip: 
    :depends perl-array-compare: 
    :depends perl-array-utils: 
    :depends perl-base: 
+   :depends perl-capture-tiny: 
    :depends perl-carp: 
    :depends perl-carp-clan: 
    :depends perl-class-accessor: 
@@ -47,13 +49,12 @@ perl-atlas-modules
    :depends perl-clone: 
    :depends perl-data-compare: 
    :depends perl-data-dumper: 
-   :depends perl-date-format: 
    :depends perl-date-manip: 
    :depends perl-datetime: 
    :depends perl-datetime-format-strptime: 
    :depends perl-dbd-mysql: 
-   :depends perl-dbd-pg: ``>3.5.3``
-   :depends perl-dbi: 
+   :depends perl-dbd-pg: 
+   :depends perl-dbi: ``<1.642``
    :depends perl-devel-symdump: 
    :depends perl-extutils-cbuilder: 
    :depends perl-extutils-config: 
@@ -64,10 +65,10 @@ perl-atlas-modules
    :depends perl-io-scalar: 
    :depends perl-io-stringy: 
    :depends perl-ipc-cmd: 
+   :depends perl-ipc-run3: 
    :depends perl-json: 
    :depends perl-json-parse: 
    :depends perl-list-moreutils: 
-   :depends perl-list-util: 
    :depends perl-log-log4perl: 
    :depends perl-lwp-protocol-https: 
    :depends perl-lwp-simple: 
@@ -83,11 +84,13 @@ perl-atlas-modules
    :depends perl-parse-recdescent: 
    :depends perl-path-tiny: 
    :depends perl-readonly: 
+   :depends perl-scalar-list-utils: 
    :depends perl-spiffy: 
    :depends perl-sub-exporter-formethods: 
    :depends perl-sub-uplevel: 
    :depends perl-test-exception: 
    :depends perl-test-inter: 
+   :depends perl-test-needs: 
    :depends perl-test-nowarnings: 
    :depends perl-test-pod: 
    :depends perl-test-pod-coverage: 
@@ -133,7 +136,7 @@ perl-atlas-modules
 
     <script>
         var package = "perl-atlas-modules";
-        var versions = ["0.3.1","0.3.0","0.2.0","0.1.6","0.1.6"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.0","0.1.6"];
     </script>
 
 

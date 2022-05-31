@@ -27,11 +27,13 @@ fastkit
       
       
 
-      
+      ``0.1.4-0``
 
       
 
    
+   :depends biopython: 
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +65,7 @@ fastkit
 
     <script>
         var package = "fastkit";
-        var versions = [];
+        var versions = ["0.1.4"];
     </script>
 
 
