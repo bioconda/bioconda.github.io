@@ -13,7 +13,7 @@ mob_suite
    This package MOB\-suite\: software tools for clustering\, reconstruction and typing of plasmids from draft assemblies. The MOB\-suite is designed to be a modular set of tools for the typing and reconstruction of plasmid sequences from WGS assemblies.
 
    :homepage: https://github.com/phac-nml/mob-suite
-   :license: Apache License, Version 2.0
+   :license: Apache-2.0
    :recipe: /`mob_suite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mob_suite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mob_suite/meta.yaml>`_
 
    
