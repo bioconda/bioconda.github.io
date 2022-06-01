@@ -15,6 +15,7 @@ phylodm
    :homepage: https://github.com/aaronmussig/PhyloDM
    :license: GPL / GPL-3.0-only
    :recipe: /`phylodm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodm/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.3998716`
 
    
 
