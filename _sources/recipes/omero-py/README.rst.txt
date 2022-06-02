@@ -44,11 +44,10 @@ omero-py
    :depends future: 
    :depends numpy: 
    :depends pillow: 
-   :depends python: ``>=3.6``
-   :depends pywin32-on-windows: 
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends requests: 
-   :depends zeroc-ice: ``>=3.6.5,<3.7``
+   :depends zeroc-ice: ``>=3.6.4,<3.7``
    :requirements:
 
    .. rubric:: Installation

@@ -27,7 +27,7 @@ mdmcleaner
       
       
 
-      ``0.8.2-0``
+      ``0.8.3-0``,  ``0.8.2-0``
 
       
 
@@ -73,7 +73,7 @@ mdmcleaner
 
     <script>
         var package = "mdmcleaner";
-        var versions = ["0.8.2"];
+        var versions = ["0.8.3","0.8.2"];
     </script>
 
 
