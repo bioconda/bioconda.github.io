@@ -13,7 +13,7 @@ hat-phasing
    HAT\:‌  Haplotype assembly tool that use both long and short reads to reconstruct haplotypes
 
    :homepage: https://github.com/AbeelLab/hat/
-   :license: GPL3 / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hat-phasing <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hat-phasing>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hat-phasing/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hat-phasing
       
       
 
-      ``0.1.1-0``
+      ``0.1.5-0``,  ``0.1.1-0``
 
       
 
@@ -69,7 +69,7 @@ hat-phasing
 
     <script>
         var package = "hat-phasing";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.5","0.1.1"];
     </script>
 
 

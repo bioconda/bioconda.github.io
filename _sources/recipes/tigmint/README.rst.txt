@@ -32,10 +32,10 @@ tigmint
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.6-2</code>,  <code>1.2.6-1</code>,  <code>1.2.6-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.6-3</code>,  <code>1.2.6-2</code>,  <code>1.2.6-1</code>,  <code>1.2.6-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  </span></summary>
       
 
-      ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
+      ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -47,15 +47,16 @@ tigmint
    :depends _openmp_mutex: ``>=4.5``
    :depends bwa: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends make: 
    :depends minimap2: 
    :depends pybedtools: 
    :depends pysam: ``>=0.15.3``
    :depends python: ``>=3.8,<3.9.0a0``
    :depends python_abi: ``3.8.* *_cp38``
+   :depends samtools: 
    :depends zsh: 
    :requirements:
 
@@ -88,7 +89,7 @@ tigmint
 
     <script>
         var package = "tigmint";
-        var versions = ["1.2.6","1.2.6","1.2.6","1.2.5","1.2.5"];
+        var versions = ["1.2.6","1.2.6","1.2.6","1.2.6","1.2.5"];
     </script>
 
 

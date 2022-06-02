@@ -27,18 +27,30 @@ graftm
       
       
 
-      ``0.14.0-0``,  ``0.13.1-0``,  ``0.12.2-0``,  ``0.11.1-0``,  ``0.10.1-1``,  ``0.10.1-0``
+      ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.12.2-0``,  ``0.11.1-0``,  ``0.10.1-1``,  ``0.10.1-0``
 
       
 
    
    :depends biom-format: ``>=2.1.4``
    :depends biopython: ``>=1.64``
+   :depends bird_tool_utils_python: 
    :depends dendropy: ``>=4.1.0``
-   :depends extern: ``>=0.0.4``
-   :depends python: ``>=3``
+   :depends diamond: ``>=0.9``
+   :depends extern: 
+   :depends fastalite: 
+   :depends fasttree: 
+   :depends hmmer: ``3.2.1.*``
+   :depends jinja2: 
+   :depends krona: ``>=2.4``
+   :depends mafft: ``>=7.22``
+   :depends mfqe: ``>=0.5.0``
+   :depends orfm: ``>=0.2.0``
+   :depends pplacer: 
+   :depends python: 
+   :depends python: ``>3.7``
+   :depends pyyaml: 
    :depends taxtastic: ``>=0.5.4``
-   :depends tempdir: ``>=0.6``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +82,7 @@ graftm
 
     <script>
         var package = "graftm";
-        var versions = ["0.14.0","0.13.1","0.12.2","0.11.1","0.10.1"];
+        var versions = ["0.14.0","0.14.0","0.13.1","0.12.2","0.11.1"];
     </script>
 
 

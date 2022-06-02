@@ -28,10 +28,10 @@ alevin-fry
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ alevin-fry
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ alevin-fry
 
     <script>
         var package = "alevin-fry";
-        var versions = ["0.5.1","0.5.0","0.5.0","0.4.3","0.4.2"];
+        var versions = ["0.6.0","0.5.1","0.5.0","0.5.0","0.4.3"];
     </script>
 
 

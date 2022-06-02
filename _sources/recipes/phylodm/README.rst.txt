@@ -29,10 +29,10 @@ phylodm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
       
 
-      ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,8 @@ phylodm
 
    
    :depends numpy: 
-   :depends python: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ phylodm
 
     <script>
         var package = "phylodm";
-        var versions = ["2.0.3","2.0.1","2.0.0","1.3.1","1.3.1"];
+        var versions = ["2.0.5","2.0.3","2.0.1","2.0.0","1.3.1"];
     </script>
 
 
