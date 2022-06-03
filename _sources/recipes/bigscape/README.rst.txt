@@ -27,20 +27,17 @@ bigscape
       
       
 
-      ``1.1.4-0``,  ``1.1.3-0``
+      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
    
-   :depends biopython: ``1.70``
-   :depends dataclasses: 
+   :depends biopython: 
    :depends fasttree: 
    :depends hmmer: 
    :depends networkx: 
-   :depends numpy: 
-   :depends python: ``3.6``
-   :depends scikit-learn: ``0.19.1``
-   :depends scipy: 
+   :depends python: ``3.7``
+   :depends scikit-learn: ``0.19.2``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +69,7 @@ bigscape
 
     <script>
         var package = "bigscape";
-        var versions = ["1.1.4","1.1.3"];
+        var versions = ["1.1.4","1.1.4","1.1.3"];
     </script>
 
 
