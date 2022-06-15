@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Troubleshooting &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/vega.min.js"></script>
     <script src="../_static/vega-lite.min.js"></script>
@@ -120,7 +121,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -130,8 +131,8 @@
           <div class="body" role="main">
             
   <section id="troubleshooting">
-<h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h1>
-<div class="contents local topic" id="contents">
+<h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this heading">¶</a></h1>
+<nav class="contents local" id="contents">
 <ul class="simple">
 <li><p><a class="reference internal" href="#reading-bioconda-utils-logs" id="id1">Reading bioconda-utils logs</a></p></li>
 <li><p><a class="reference internal" href="#http-500-errors" id="id2">HTTP 500 errors</a></p></li>
@@ -142,9 +143,9 @@
 <li><p><a class="reference internal" href="#using-the-extended-image" id="id7">Using the extended image</a></p></li>
 <li><p><a class="reference internal" href="#g-or-gcc-not-found" id="id8"><code class="docutils literal notranslate"><span class="pre">g++</span></code> or <code class="docutils literal notranslate"><span class="pre">gcc</span></code> not found</a></p></li>
 </ul>
-</div>
+</nav>
 <section id="reading-bioconda-utils-logs">
-<span id="reading-logs"></span><h2><a class="toc-backref" href="#id1">Reading bioconda-utils logs</a><a class="headerlink" href="#reading-bioconda-utils-logs" title="Permalink to this headline">¶</a></h2>
+<span id="reading-logs"></span><h2><a class="toc-backref" href="#id1" role="doc-backlink">Reading bioconda-utils logs</a><a class="headerlink" href="#reading-bioconda-utils-logs" title="Permalink to this heading">¶</a></h2>
 <p>For failed recipes, usually the easiest thing to do is find the first <code class="docutils literal notranslate"><span class="pre">BIOCONDA</span>
 <span class="pre">ERROR</span></code>, and start reading the output below that line. The stdout and stderr for
 that failed build will end with the next <code class="docutils literal notranslate"><span class="pre">BIOCONDA</span></code> log line, likely
@@ -155,7 +156,7 @@ docker container. For working with failures in mulled-build tests, see
 <a class="reference internal" href="#mulled-build-troubleshooting"><span class="std std-ref">Troubleshooting failed mulled-build tests</span></a>.</p>
 </section>
 <section id="http-500-errors">
-<h2><a class="toc-backref" href="#id2">HTTP 500 errors</a><a class="headerlink" href="#http-500-errors" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">HTTP 500 errors</a><a class="headerlink" href="#http-500-errors" title="Permalink to this heading">¶</a></h2>
 <p>Sometimes recipes fail for reasons outside our control. For example,
 if anaconda.org returns an HTTP 500 error, that has nothing to do with
 the recipe but with anaconda.org’s servers. In this case, you can
@@ -167,7 +168,7 @@ restart the build by posting a comment with the line:</p>
 which the comment was made.</p>
 </section>
 <section id="http-404-errors">
-<h2><a class="toc-backref" href="#id3">HTTP 404 errors</a><a class="headerlink" href="#http-404-errors" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">HTTP 404 errors</a><a class="headerlink" href="#http-404-errors" title="Permalink to this heading">¶</a></h2>
 <p>HTTP 404 errors can happen if a url used for a recipe was not
 stable. In this case the solution is to track down a stable URL. For
 example this problem happened frequently with Bioconductor recipes
@@ -205,7 +206,7 @@ in the “Help” column to the <code class="docutils literal notranslate"><span
 </div>
 </section>
 <section id="zlib-errors">
-<span id="zlib"></span><h2><a class="toc-backref" href="#id4">ZLIB errors</a><a class="headerlink" href="#zlib-errors" title="Permalink to this headline">¶</a></h2>
+<span id="zlib"></span><h2><a class="toc-backref" href="#id4" role="doc-backlink">ZLIB errors</a><a class="headerlink" href="#zlib-errors" title="Permalink to this heading">¶</a></h2>
 <p>When building the package, you may get an error saying that zlib.h
 can’t be found – despite having zlib listed in the dependencies. The
 reason is that the location of <a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">zlib</span></code></a> often has to be
@@ -225,7 +226,7 @@ doesn’t seem to work then please submit an issue or notify
 <code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> for advice.</p>
 </section>
 <section id="usr-bin-perl-or-usr-bin-python-not-found">
-<span id="perl-or-python-not-found"></span><h2><a class="toc-backref" href="#id5"><code class="docutils literal notranslate"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal notranslate"><span class="pre">/usr/bin/python</span></code> not found</a><a class="headerlink" href="#usr-bin-perl-or-usr-bin-python-not-found" title="Permalink to this headline">¶</a></h2>
+<span id="perl-or-python-not-found"></span><h2><a class="toc-backref" href="#id5" role="doc-backlink"><code class="docutils literal notranslate"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal notranslate"><span class="pre">/usr/bin/python</span></code> not found</a><a class="headerlink" href="#usr-bin-perl-or-usr-bin-python-not-found" title="Permalink to this heading">¶</a></h2>
 <p>Often a tool hard-codes the shebang line as, e.g., <code class="docutils literal notranslate"><span class="pre">/usr/bin/perl</span></code>
 rather than the more portable <code class="docutils literal notranslate"><span class="pre">/usr/bin/env</span> <span class="pre">perl</span></code>. To fix this, use
 <code class="docutils literal notranslate"><span class="pre">sed</span></code> in the build script to edit the lines.</p>
@@ -243,7 +244,7 @@ will need some <code class="docutils literal notranslate"><span class="pre">sed<
 an example to work from.</p>
 </section>
 <section id="troubleshooting-failed-mulled-build-tests">
-<span id="mulled-build-troubleshooting"></span><h2><a class="toc-backref" href="#id6">Troubleshooting failed <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests</a><a class="headerlink" href="#troubleshooting-failed-mulled-build-tests" title="Permalink to this headline">¶</a></h2>
+<span id="mulled-build-troubleshooting"></span><h2><a class="toc-backref" href="#id6" role="doc-backlink">Troubleshooting failed <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests</a><a class="headerlink" href="#troubleshooting-failed-mulled-build-tests" title="Permalink to this heading">¶</a></h2>
 <p>After conda sucessfully builds and tests a package, we then perform a
 more stringent test in a minimal Docker container using
 <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>. Notably, this container is designed to include
@@ -268,7 +269,7 @@ into the <code class="docutils literal notranslate"><span class="pre">run_test.s
 </ul>
 </section>
 <section id="using-the-extended-image">
-<h2><a class="toc-backref" href="#id7">Using the extended image</a><a class="headerlink" href="#using-the-extended-image" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Using the extended image</a><a class="headerlink" href="#using-the-extended-image" title="Permalink to this heading">¶</a></h2>
 <p>For the vast majority of recipes, we use a minimal BusyBox container
 for testing and to upload to quay.io. This allows us to greatly reduce
 the size of images, but there are some packages that are not
@@ -296,7 +297,7 @@ extended base has been needed are:</p>
 </div>
 </section>
 <section id="g-or-gcc-not-found">
-<h2><a class="toc-backref" href="#id8"><code class="docutils literal notranslate"><span class="pre">g++</span></code> or <code class="docutils literal notranslate"><span class="pre">gcc</span></code> not found</a><a class="headerlink" href="#g-or-gcc-not-found" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id8" role="doc-backlink"><code class="docutils literal notranslate"><span class="pre">g++</span></code> or <code class="docutils literal notranslate"><span class="pre">gcc</span></code> not found</a><a class="headerlink" href="#g-or-gcc-not-found" title="Permalink to this heading">¶</a></h2>
 <p>The new conda build system brings its own compilers and system
 libraries. The specific compiler may vary between the target
 platforms, e.g. we use <code class="docutils literal notranslate"><span class="pre">clang</span></code> on MacOS and <code class="docutils literal notranslate"><span class="pre">gcc</span></code> on Linux. The name
@@ -370,7 +371,7 @@ software.</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

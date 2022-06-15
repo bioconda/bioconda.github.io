@@ -12,7 +12,7 @@ tiddit
 
    TIDDIT \- structural variant calling.
 
-   :homepage: https://github.com/J35P312/TIDDIT
+   :homepage: https://github.com/SciLifeLab/TIDDIT
    :license: GPL-3.0-only
    :recipe: /`tiddit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiddit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiddit/meta.yaml>`_
 
@@ -28,10 +28,10 @@ tiddit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.12.1-0</code>,  <code>2.12.0-4</code>,  <code>2.12.0-3</code>,  <code>2.12.0-2</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.11.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.12.1-0</code>,  <code>2.12.0-4</code>,  <code>2.12.0-3</code>,  <code>2.12.0-2</code>,  <code>2.12.0-1</code>,  </span></summary>
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.12.1-0``,  ``2.12.0-4``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.1-2``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6.0-0``
+      ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.12.1-0``,  ``2.12.0-4``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.1-2``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -79,7 +79,7 @@ tiddit
 
     <script>
         var package = "tiddit";
-        var versions = ["3.0.0","3.0.0","2.12.1","2.12.0","2.12.0"];
+        var versions = ["3.1.0","3.1.0","3.0.0","3.0.0","2.12.1"];
     </script>
 
 

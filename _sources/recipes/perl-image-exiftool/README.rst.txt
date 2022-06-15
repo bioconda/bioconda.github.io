@@ -12,7 +12,7 @@ perl-image-exiftool
 
    ExifTool is a platform\-independent Perl library plus a command\-line application for reading\, writing and editing meta information in a wide variety of files.
 
-   :homepage: http://metacpan.org/pod/Image::ExifTool
+   :homepage: https://metacpan.org/pod/Image::ExifTool
    :license: perl_5
    :recipe: /`perl-image-exiftool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-exiftool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-exiftool/meta.yaml>`_
 
@@ -26,9 +26,17 @@ perl-image-exiftool
    :versions:
       
       
+      .. raw:: html
 
-      ``12.30-0``,  ``11.50-1``,  ``11.50-0``,  ``11.30-0``,  ``11.11-0``,  ``11.01-1``,  ``11.01-0``,  ``10.40-2``,  ``10.40-0``
+         <details><summary><span class="truncated-version-list"><code>12.42-0</code>,  <code>12.30-0</code>,  <code>11.50-1</code>,  <code>11.50-0</code>,  <code>11.30-0</code>,  <code>11.11-0</code>,  <code>11.01-1</code>,  <code>11.01-0</code>,  <code>10.40-2</code>,  </span></summary>
+      
 
+      ``12.42-0``,  ``12.30-0``,  ``11.50-1``,  ``11.50-0``,  ``11.30-0``,  ``11.11-0``,  ``11.01-1``,  ``11.01-0``,  ``10.40-2``,  ``10.40-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -64,7 +72,7 @@ perl-image-exiftool
 
     <script>
         var package = "perl-image-exiftool";
-        var versions = ["12.30","11.50","11.50","11.30","11.11"];
+        var versions = ["12.42","12.30","11.50","11.50","11.30"];
     </script>
 
 

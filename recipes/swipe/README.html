@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Package Recipe &#39;swipe&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
@@ -95,7 +96,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -110,19 +111,19 @@
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">swipe</span></span></dt>
 <dd><p>Tool for performing rapid local alignment searches in amino acid or nucleotide sequence databases. It is a highly optimized implementation of the Smith-Waterman algoritm using SIMD parallel computing technology available on common CPUs.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Homepage</dt>
+<dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="http://dna.uio.no/swipe">http://dna.uio.no/swipe</a></p>
 </dd>
-<dt class="field-even">Developer docs</dt>
+<dt class="field-even">Developer docs<span class="colon">:</span></dt>
 <dd class="field-even"><p><a class="reference external" href="https://github.com/torognes/swipe">https://github.com/torognes/swipe</a></p>
 </dd>
-<dt class="field-odd">License</dt>
+<dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>GPL / AGPL-3.0</p>
 </dd>
-<dt class="field-even">Recipe</dt>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe">swipe</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe/meta.yaml">meta.yaml</a></p>
 </dd>
-<dt class="field-odd">Links</dt>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
 <dd class="field-odd"><p>biotools: <a class="reference external" href="https://bio.tools/swipe">swipe</a>, doi: <a class="reference external" href="https://doi.org/10.1186/1471-2105-12-221">10.1186/1471-2105-12-221</a></p>
 </dd>
 </dl>
@@ -133,18 +134,18 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">swipe</span></span><a class="headerlink" href="#package-swipe" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/swipe"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/swipe.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/swipe"><img alt="docker_swipe" src="https://quay.io/repository/biocontainers/swipe/status" /></a></p>
 <dl class="field-list simple">
-<dt class="field-odd">Versions</dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.12-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.12-0</span></code></p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
+<dt class="field-even">Depends<span class="colon">:</span></dt>
+<dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=10.3.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=10.3.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openmpi-feedstock"><strong>openmpi</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1.2,&lt;5.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tbb-feedstock"><strong>tbb</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2020.2,&lt;2021.0.0a0</span></code></p></li>
 </ul>
 </dd>
-<dt class="field-odd">Required By</dt>
+<dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 </ul>
 </dd>
@@ -169,7 +170,7 @@
     var package = "swipe";
     var versions = ["2.1.1","2.1.1","2.1.0","2.1.0","2.1.0"];
 </script><section id="download-stats">
-<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
 <div style="width: 100%" id="cdf_plot"></div>
 
@@ -197,7 +198,7 @@
 </script>
 </section>
 <section id="link-to-this-page">
-<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
+<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this heading">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/swipe/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/swipe/README.html)
 </pre></div>
@@ -216,7 +217,7 @@
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -27,7 +27,7 @@ sam2lca
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -36,7 +36,7 @@ sam2lca
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends python-rocksdb: 
    :depends scipy: 
    :depends taxopy: 
@@ -73,7 +73,7 @@ sam2lca
 
     <script>
         var package = "sam2lca";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

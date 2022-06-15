@@ -13,7 +13,7 @@ r-nbpseq
    Negative Binomial \(NB\) models for two\-group comparisons and regression inferences from RNA\-Sequencing Data.
 
    :homepage: https://CRAN.R-project.org/package=NBPSeq
-   :license: GPL2 / GPL-2
+   :license: GPL2 / GPL-2.0-only
    :recipe: /`r-nbpseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nbpseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nbpseq/meta.yaml>`_
 
    
@@ -27,13 +27,13 @@ r-nbpseq
       
       
 
-      ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
    
    :depends bioconductor-qvalue: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ r-nbpseq
 
     <script>
         var package = "r-nbpseq";
-        var versions = ["0.3.0","0.3.0","0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.3.1","0.3.0","0.3.0","0.3.0","0.3.0"];
     </script>
 
 

@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>githandler &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
@@ -76,9 +77,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
@@ -101,7 +100,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
@@ -125,7 +123,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -135,14 +133,10 @@
           <div class="body" role="main">
             
   <section id="module-bioconda_utils.githandler">
-<span id="githandler"></span><h1>githandler<a class="headerlink" href="#module-bioconda_utils.githandler" title="Permalink to this headline">¶</a></h1>
+<span id="githandler"></span><h1>githandler<a class="headerlink" href="#module-bioconda_utils.githandler" title="Permalink to this heading">¶</a></h1>
 <p>Wrappers for interacting with <code class="docutils literal notranslate"><span class="pre">git</span></code></p>
 <p class="rubric">Functions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githandler.install_gpg_key" title="bioconda_utils.githandler.install_gpg_key"><code class="xref py py-obj docutils literal notranslate"><span class="pre">install_gpg_key</span></code></a>(key)</p></td>
 <td><p>Install GPG key</p></td>
@@ -151,10 +145,6 @@
 </table>
 <p class="rubric">Classes</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githandler.BiocondaRepo" title="bioconda_utils.githandler.BiocondaRepo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BiocondaRepo</span></code></a>([folder, dry_run, home, fork, ...])</p></td>
 <td><p></p></td>
@@ -178,10 +168,6 @@
 </table>
 <p class="rubric">Exceptions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githandler.GitHandlerFailure" title="bioconda_utils.githandler.GitHandlerFailure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitHandlerFailure</span></code></a></p></td>
 <td><p>Something went wrong interacting with git</p></td>
@@ -189,15 +175,288 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.install_gpg_key">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">install_gpg_key</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#install_gpg_key"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.install_gpg_key" title="Permalink to this definition">¶</a></dt>
+<dd><p>Install GPG key</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>key</strong> – Key to import to GPG as string</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GPG key ID</p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>ValueError if importing the key failed</strong> – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerFailure">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">GitHandlerFailure</span></span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerFailure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerFailure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Something went wrong interacting with git</p>
+</dd></dl>
+
 <dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepo">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">BiocondaRepo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'.'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda/bioconda-recipes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_dirty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">depth</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepo" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">GitHandlerBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">repo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda/bioconda-recipes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_dirty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>GitPython abstraction</p>
+<p>We have to work with three git repositories, the local checkout,
+the project primary repository and a working repository. The
+latter may be a fork or may be the same as the primary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>repo</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Repo</span></code>) – GitPython Repo object (created by subclasses)</p></li>
+<li><p><strong>dry_run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Don’t push anything to remote</p></li>
+<li><p><strong>home</strong> – string occurring in remote url marking primary project repo</p></li>
+<li><p><strong>fork</strong> – string occurring in remote url marking forked repo</p></li>
+<li><p><strong>allow_dirty</strong> – don’t bail out if repo is dirty</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.repo">
+<span class="sig-name descname"><span class="pre">repo</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Repo</span></em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.repo" title="Permalink to this definition">¶</a></dt>
+<dd><p>GitPython Repo object representing our repository</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.dry_run">
+<span class="sig-name descname"><span class="pre">dry_run</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.dry_run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Dry-Run mode - don’t push or commit anything</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.home_remote">
+<span class="sig-name descname"><span class="pre">home_remote</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.home_remote" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remote pointing to primary project repo</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.fork_remote">
+<span class="sig-name descname"><span class="pre">fork_remote</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.fork_remote" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remote to pull from</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.lock_working_dir">
+<span class="sig-name descname"><span class="pre">lock_working_dir</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.lock_working_dir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Semaphore for things that mess with working directory</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.actor">
+<span class="sig-name descname"><span class="pre">actor</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Actor</span></em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.actor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Committer and Author</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Release resources allocated</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.enable_signing">
+<span class="sig-name descname"><span class="pre">enable_signing</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.enable_signing"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.enable_signing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable signing of commits</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>key</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Keyid to use for signing. Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> to enable
+using the default key or to <code class="docutils literal notranslate"><span class="pre">False</span></code> to disable
+signing.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_remote">
+<span class="sig-name descname"><span class="pre">get_remote</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">desc</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_remote"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_remote" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finds first remote containing <strong>desc</strong> in one of its URLs</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.branch_is_current">
+<em class="property"><span class="pre">async</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">branch_is_current</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">master</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'master'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.branch_is_current"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.branch_is_current" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if <strong>branch</strong> has the most recent commit modifying <strong>path</strong>
+as compared to <strong>master</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.delete_local_branch">
+<span class="sig-name descname"><span class="pre">delete_local_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.delete_local_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.delete_local_branch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes <strong>branch</strong> locally</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.delete_remote_branch">
+<span class="sig-name descname"><span class="pre">delete_remote_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.delete_remote_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.delete_remote_branch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes <strong>branch</strong> on fork remote</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_local_branch">
+<span class="sig-name descname"><span class="pre">get_local_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_local_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_local_branch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finds local branch named <strong>branch_name</strong></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.is_sha">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">is_sha</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.is_sha"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.is_sha" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if <strong>ref</strong> is a commit checksum</p>
+<p>Verifies that <strong>ref</strong> is a hex value of length 40</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_remote_branch">
+<span class="sig-name descname"><span class="pre">get_remote_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">try_fetch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_remote_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_remote_branch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finds fork remote branch named <strong>branch_name</strong></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.read_from_branch">
+<span class="sig-name descname"><span class="pre">read_from_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.read_from_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.read_from_branch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads contents of file <strong>file_name</strong> from git branch <strong>branch</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.create_local_branch">
+<span class="sig-name descname"><span class="pre">create_local_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">remote_branch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.create_local_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.create_local_branch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates local branch from remote <strong>branch_name</strong></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_merge_base">
+<span class="sig-name descname"><span class="pre">get_merge_base</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">try_fetch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_merge_base"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_merge_base" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determines the merge base for <strong>other</strong> and <strong>ref</strong></p>
+<p>See git merge-base. Returns the commit at which <strong>ref</strong> split
+from <strong>other</strong> and from which point on changes would be
+merged.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ref</strong> – One of the two tips for which a merge base is sought.
+Defaults to the currently checked out HEAD. This is the
+second argument to <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge-base</span></code>.</p></li>
+<li><p><strong>other</strong> – One of the two tips for which a merge base is sought.
+Defaults to <code class="docutils literal notranslate"><span class="pre">origin/master</span></code> (<code class="docutils literal notranslate"><span class="pre">home_remote</span></code>). This is
+the first argument to <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge-base</span></code>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The first merge base for the two references provided if found.
+May return <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> if no merge base was found. This may for
+example be the case if branches were deleted or if the
+repository is shallow and the merge base commit not available.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.list_changed_files">
+<span class="sig-name descname"><span class="pre">list_changed_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.list_changed_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.list_changed_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lists files that would be added/modified by merge of <strong>other</strong> into <strong>ref</strong></p>
+<p>See also <a class="reference internal" href="#bioconda_utils.githandler.GitHandlerBase.get_merge_base" title="bioconda_utils.githandler.GitHandlerBase.get_merge_base"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_merge_base()</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ref</strong> – Defaults to <code class="docutils literal notranslate"><span class="pre">HEAD</span></code> (active branch), one of the tips compared</p></li>
+<li><p><strong>other</strong> – Defaults to <code class="docutils literal notranslate"><span class="pre">origin/master</span></code>, other tip compared</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Generator over modified or created (<strong>not deleted</strong>) files.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.list_modified_files">
+<span class="sig-name descname"><span class="pre">list_modified_files</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.list_modified_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.list_modified_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lists files modified in working directory</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.prepare_branch">
+<span class="sig-name descname"><span class="pre">prepare_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.prepare_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.prepare_branch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks out <strong>branch_name</strong>, creating it from home remote master if needed</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.commit_and_push_changes">
+<span class="sig-name descname"><span class="pre">commit_and_push_changes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">files</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sign</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.commit_and_push_changes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.commit_and_push_changes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create recipe commit and pushes to upstream remote</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Boolean indicating whether there were changes committed</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.set_user">
+<span class="sig-name descname"><span class="pre">set_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.set_user"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.set_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the user and email to use for committing</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">BiocondaRepoMixin</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">repo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda/bioconda-recipes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_dirty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin" title="Permalink to this definition">¶</a></dt>
 <dd><p>Githandler with logic specific to Bioconda Repo</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder">
+<span class="sig-name descname"><span class="pre">recipes_folder</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'recipes'</span></em><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder" title="Permalink to this definition">¶</a></dt>
+<dd><p>location of recipes folder within repo</p>
+</dd></dl>
+
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.config_file">
 <span class="sig-name descname"><span class="pre">config_file</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'config.yml'</span></em><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.config_file" title="Permalink to this definition">¶</a></dt>
@@ -205,26 +464,11 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.get_blacklisted">
-<span class="sig-name descname"><span class="pre">get_blacklisted</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin.get_blacklisted"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_blacklisted" title="Permalink to this definition">¶</a></dt>
-<dd><p>Get blacklisted recipes as of <strong>ref</strong></p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>ref</strong> – Name of branch or commit (HEAD~1 is allowed), defaults to
-currently checked out branch</p>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set" title="bioconda_utils.recipe.Recipe.set"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">set</span></code></a> of blacklisted recipes (full path to repo root)</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
 <dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes">
 <span class="sig-name descname"><span class="pre">get_changed_recipes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">files</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin.get_changed_recipes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns list of modified recipes</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>ref</strong> – See <a class="reference internal" href="#bioconda_utils.githandler.GitHandlerBase.get_merge_base" title="bioconda_utils.githandler.GitHandlerBase.get_merge_base"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_merge_base</span></code></a>. Defaults to HEAD</p></li>
 <li><p><strong>other</strong> – See <a class="reference internal" href="#bioconda_utils.githandler.GitHandlerBase.get_merge_base" title="bioconda_utils.githandler.GitHandlerBase.get_merge_base"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_merge_base</span></code></a>. Defaults to origin/master</p></li>
@@ -242,14 +486,16 @@ root (e.g. <code class="docutils literal notranslate"><span class="pre">recipes/
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build">
-<span class="sig-name descname"><span class="pre">get_recipes_to_build</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin.get_recipes_to_build"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes to build for merge of <strong>ref</strong> into <strong>other</strong></p>
-<p>This includes all recipes returned by <a class="reference internal" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes" title="bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_changed_recipes</span></code></a> and
-all newly unblacklisted, extant recipes within <a class="reference internal" href="#bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder" title="bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">recipes_folder</span></code></a></p>
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.get_blacklisted">
+<span class="sig-name descname"><span class="pre">get_blacklisted</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin.get_blacklisted"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_blacklisted" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get blacklisted recipes as of <strong>ref</strong></p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes that should be built</p>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ref</strong> – Name of branch or commit (HEAD~1 is allowed), defaults to
+currently checked out branch</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set" title="bioconda_utils.recipe.Recipe.set"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">set</span></code></a> of blacklisted recipes (full path to repo root)</p>
 </dd>
 </dl>
 </dd></dl>
@@ -259,22 +505,41 @@ all newly unblacklisted, extant recipes within <a class="reference internal" hre
 <span class="sig-name descname"><span class="pre">get_unblacklisted</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin.get_unblacklisted"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_unblacklisted" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get recipes unblacklisted by a merge of <strong>ref</strong> into <strong>other</strong></p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>ref</strong> – Branch or commit or reference, defaults to current branch</p></li>
 <li><p><strong>other</strong> – Same as <strong>ref</strong>, defaults to <code class="docutils literal notranslate"><span class="pre">origin/master</span></code></p></li>
 </ul>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set" title="bioconda_utils.recipe.Recipe.set"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">set</span></code></a> of unblacklisted recipes (full path to repo root)</p>
 </dd>
 </dl>
 </dd></dl>
 
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build">
+<span class="sig-name descname"><span class="pre">get_recipes_to_build</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin.get_recipes_to_build"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes to build for merge of <strong>ref</strong> into <strong>other</strong></p>
+<p>This includes all recipes returned by <a class="reference internal" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes" title="bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_changed_recipes</span></code></a> and
+all newly unblacklisted, extant recipes within <a class="reference internal" href="#bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder" title="bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">recipes_folder</span></code></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes that should be built</p>
+</dd>
+</dl>
+</dd></dl>
+
 <dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder">
-<span class="sig-name descname"><span class="pre">recipes_folder</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'recipes'</span></em><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder" title="Permalink to this definition">¶</a></dt>
-<dd><p>location of recipes folder within repo</p>
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.repo">
+<span class="sig-name descname"><span class="pre">repo</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Repo</span></em><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.repo" title="Permalink to this definition">¶</a></dt>
+<dd><p>GitPython Repo object representing our repository</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepoMixin.actor">
+<span class="sig-name descname"><span class="pre">actor</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Actor</span></em><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.actor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Committer and Author</p>
 </dd></dl>
 
 </dd></dl>
@@ -295,270 +560,25 @@ all newly unblacklisted, extant recipes within <a class="reference internal" hre
 <span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandler.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandler.close" title="Permalink to this definition">¶</a></dt>
 <dd><p>Release resources allocated</p>
 <dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">GitHandlerBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">repo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda/bioconda-recipes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_dirty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase" title="Permalink to this definition">¶</a></dt>
-<dd><p>GitPython abstraction</p>
-<p>We have to work with three git repositories, the local checkout,
-the project primary repository and a working repository. The
-latter may be a fork or may be the same as the primary.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>repo</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Repo</span></code>) – GitPython Repo object (created by subclasses)</p></li>
-<li><p><strong>dry_run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Don’t push anything to remote</p></li>
-<li><p><strong>home</strong> – string occurring in remote url marking primary project repo</p></li>
-<li><p><strong>fork</strong> – string occurring in remote url marking forked repo</p></li>
-<li><p><strong>allow_dirty</strong> – don’t bail out if repo is dirty</p></li>
-</ul>
-</dd>
-</dl>
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.actor">
-<span class="sig-name descname"><span class="pre">actor</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">git.util.Actor</span></em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.actor" title="Permalink to this definition">¶</a></dt>
-<dd><p>Committer and Author</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.branch_is_current">
-<em class="property"><span class="pre">async</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">branch_is_current</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">master</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'master'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.branch_is_current"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.branch_is_current" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks if <strong>branch</strong> has the most recent commit modifying <strong>path</strong>
-as compared to <strong>master</strong></p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.close">
-<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.close" title="Permalink to this definition">¶</a></dt>
-<dd><p>Release resources allocated</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.commit_and_push_changes">
-<span class="sig-name descname"><span class="pre">commit_and_push_changes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">files</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sign</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.commit_and_push_changes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.commit_and_push_changes" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create recipe commit and pushes to upstream remote</p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>Boolean indicating whether there were changes committed</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.create_local_branch">
-<span class="sig-name descname"><span class="pre">create_local_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">remote_branch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.create_local_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.create_local_branch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Creates local branch from remote <strong>branch_name</strong></p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.delete_local_branch">
-<span class="sig-name descname"><span class="pre">delete_local_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.delete_local_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.delete_local_branch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Deletes <strong>branch</strong> locally</p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.delete_remote_branch">
-<span class="sig-name descname"><span class="pre">delete_remote_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.delete_remote_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.delete_remote_branch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Deletes <strong>branch</strong> on fork remote</p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.dry_run">
-<span class="sig-name descname"><span class="pre">dry_run</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.dry_run" title="Permalink to this definition">¶</a></dt>
-<dd><p>Dry-Run mode - don’t push or commit anything</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.enable_signing">
-<span class="sig-name descname"><span class="pre">enable_signing</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.enable_signing"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.enable_signing" title="Permalink to this definition">¶</a></dt>
-<dd><p>Enable signing of commits</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>key</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Keyid to use for signing. Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> to enable
-using the default key or to <code class="docutils literal notranslate"><span class="pre">False</span></code> to disable
-signing.</p>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.fork_remote">
-<span class="sig-name descname"><span class="pre">fork_remote</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.fork_remote" title="Permalink to this definition">¶</a></dt>
-<dd><p>Remote to pull from</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_local_branch">
-<span class="sig-name descname"><span class="pre">get_local_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_local_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_local_branch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Finds local branch named <strong>branch_name</strong></p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_merge_base">
-<span class="sig-name descname"><span class="pre">get_merge_base</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">try_fetch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_merge_base"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_merge_base" title="Permalink to this definition">¶</a></dt>
-<dd><p>Determines the merge base for <strong>other</strong> and <strong>ref</strong></p>
-<p>See git merge-base. Returns the commit at which <strong>ref</strong> split
-from <strong>other</strong> and from which point on changes would be
-merged.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>ref</strong> – One of the two tips for which a merge base is sought.
-Defaults to the currently checked out HEAD. This is the
-second argument to <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge-base</span></code>.</p></li>
-<li><p><strong>other</strong> – One of the two tips for which a merge base is sought.
-Defaults to <code class="docutils literal notranslate"><span class="pre">origin/master</span></code> (<code class="docutils literal notranslate"><span class="pre">home_remote</span></code>). This is
-the first argument to <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge-base</span></code>.</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>The first merge base for the two references provided if found.
-May return <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> if no merge base was found. This may for
-example be the case if branches were deleted or if the
-repository is shallow and the merge base commit not available.</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_remote">
-<span class="sig-name descname"><span class="pre">get_remote</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">desc</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_remote"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_remote" title="Permalink to this definition">¶</a></dt>
-<dd><p>Finds first remote containing <strong>desc</strong> in one of its URLs</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.get_remote_branch">
-<span class="sig-name descname"><span class="pre">get_remote_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">try_fetch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_remote_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_remote_branch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Finds fork remote branch named <strong>branch_name</strong></p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.home_remote">
-<span class="sig-name descname"><span class="pre">home_remote</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.home_remote" title="Permalink to this definition">¶</a></dt>
-<dd><p>Remote pointing to primary project repo</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.is_sha">
-<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">is_sha</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.is_sha"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.is_sha" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks if <strong>ref</strong> is a commit checksum</p>
-<p>Verifies that <strong>ref</strong> is a hex value of length 40</p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.list_changed_files">
-<span class="sig-name descname"><span class="pre">list_changed_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.list_changed_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.list_changed_files" title="Permalink to this definition">¶</a></dt>
-<dd><p>Lists files that would be added/modified by merge of <strong>other</strong> into <strong>ref</strong></p>
-<p>See also <a class="reference internal" href="#bioconda_utils.githandler.GitHandlerBase.get_merge_base" title="bioconda_utils.githandler.GitHandlerBase.get_merge_base"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_merge_base()</span></code></a>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>ref</strong> – Defaults to <code class="docutils literal notranslate"><span class="pre">HEAD</span></code> (active branch), one of the tips compared</p></li>
-<li><p><strong>other</strong> – Defaults to <code class="docutils literal notranslate"><span class="pre">origin/master</span></code>, other tip compared</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>Generator over modified or created (<strong>not deleted</strong>) files.</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.list_modified_files">
-<span class="sig-name descname"><span class="pre">list_modified_files</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.list_modified_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.list_modified_files" title="Permalink to this definition">¶</a></dt>
-<dd><p>Lists files modified in working directory</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.lock_working_dir">
-<span class="sig-name descname"><span class="pre">lock_working_dir</span></span><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.lock_working_dir" title="Permalink to this definition">¶</a></dt>
-<dd><p>Semaphore for things that mess with working directory</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.prepare_branch">
-<span class="sig-name descname"><span class="pre">prepare_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.prepare_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.prepare_branch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks out <strong>branch_name</strong>, creating it from home remote master if needed</p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.read_from_branch">
-<span class="sig-name descname"><span class="pre">read_from_branch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">branch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.read_from_branch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.read_from_branch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Reads contents of file <strong>file_name</strong> from git branch <strong>branch</strong></p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.repo">
-<span class="sig-name descname"><span class="pre">repo</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">git.repo.base.Repo</span></em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.repo" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandler.repo">
+<span class="sig-name descname"><span class="pre">repo</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Repo</span></em><a class="headerlink" href="#bioconda_utils.githandler.GitHandler.repo" title="Permalink to this definition">¶</a></dt>
 <dd><p>GitPython Repo object representing our repository</p>
 </dd></dl>
 
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerBase.set_user">
-<span class="sig-name descname"><span class="pre">set_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase.set_user"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.set_user" title="Permalink to this definition">¶</a></dt>
-<dd><p>Set the user and email to use for committing</p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandler.actor">
+<span class="sig-name descname"><span class="pre">actor</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Actor</span></em><a class="headerlink" href="#bioconda_utils.githandler.GitHandler.actor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Committer and Author</p>
 </dd></dl>
 
 </dd></dl>
-
-<dl class="py exception">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.GitHandlerFailure">
-<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">GitHandlerFailure</span></span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerFailure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerFailure" title="Permalink to this definition">¶</a></dt>
-<dd><p>Something went wrong interacting with git</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.TempBiocondaRepo">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">TempBiocondaRepo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url_format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://{userpass}github.com/{user}/{repo}.git'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home_user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home_repo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda-recipes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork_user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork_repo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#TempBiocondaRepo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.TempBiocondaRepo" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.githandler.TempGitHandler">
@@ -569,53 +589,55 @@ might be working in multiple threads and want to avoid blocking waits for
 a single repo. It also improves robustness: If something goes wrong with this
 repo, it will not break the entire process.</p>
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.TempGitHandler.close">
-<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#TempGitHandler.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.TempGitHandler.close" title="Permalink to this definition">¶</a></dt>
-<dd><p>Remove temporary clone and cleanup resources</p>
-<dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
 <dt class="sig sig-object py" id="bioconda_utils.githandler.TempGitHandler.set_mirror_dir">
 <em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">set_mirror_dir</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dirname</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#TempGitHandler.set_mirror_dir"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.TempGitHandler.set_mirror_dir" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set directory where repo mirrors are kept for caching</p>
 <p>Use this if you want to preserve a cache across invocations
 of the Python interpreter.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>dirname</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Name of directory in which remote repos will be cached.</p>
 </dd>
-<dt class="field-even">Return type</dt>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
 <dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
 
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.githandler.install_gpg_key">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">install_gpg_key</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#install_gpg_key"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.install_gpg_key" title="Permalink to this definition">¶</a></dt>
-<dd><p>Install GPG key</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.TempGitHandler.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#TempGitHandler.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.TempGitHandler.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove temporary clone and cleanup resources</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>key</strong> – Key to import to GPG as string</p>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
-</dd>
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>GPG key ID</p>
-</dd>
-<dt class="field-even">Raises</dt>
-<dd class="field-even"><p><strong>ValueError if importing the key failed</strong> – </p>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepo">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">BiocondaRepo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'.'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda/bioconda-recipes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_dirty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">depth</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepo" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepo.repo">
+<span class="sig-name descname"><span class="pre">repo</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Repo</span></em><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepo.repo" title="Permalink to this definition">¶</a></dt>
+<dd><p>GitPython Repo object representing our repository</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.BiocondaRepo.actor">
+<span class="sig-name descname"><span class="pre">actor</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Actor</span></em><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepo.actor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Committer and Author</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.githandler.TempBiocondaRepo">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.githandler.</span></span><span class="sig-name descname"><span class="pre">TempBiocondaRepo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url_format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://{userpass}github.com/{user}/{repo}.git'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home_user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">home_repo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bioconda-recipes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork_user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fork_repo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#TempBiocondaRepo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githandler.TempBiocondaRepo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 </section>
 
@@ -630,7 +652,7 @@ of the Python interpreter.</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

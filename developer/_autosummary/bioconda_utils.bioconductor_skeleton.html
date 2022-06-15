@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>bioconductor_skeleton &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
@@ -76,9 +77,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">bioconductor_skeleton</a></li>
@@ -101,7 +100,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
@@ -125,7 +123,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -135,14 +133,10 @@
           <div class="body" role="main">
             
   <section id="module-bioconda_utils.bioconductor_skeleton">
-<span id="bioconductor-skeleton"></span><h1>bioconductor_skeleton<a class="headerlink" href="#module-bioconda_utils.bioconductor_skeleton" title="Permalink to this headline">¶</a></h1>
+<span id="bioconductor-skeleton"></span><h1>bioconductor_skeleton<a class="headerlink" href="#module-bioconda_utils.bioconductor_skeleton" title="Permalink to this heading">¶</a></h1>
 <p>Conda Skeleton for Bioconductor Recipes</p>
 <p class="rubric">Functions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.bioarchive_url" title="bioconda_utils.bioconductor_skeleton.bioarchive_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bioarchive_url</span></code></a>(package, pkg_version[, ...])</p></td>
 <td><p>Constructs a url for the package as archived on bioaRchive</p></td>
@@ -182,7 +176,7 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.write_recipe_recursive" title="bioconda_utils.bioconductor_skeleton.write_recipe_recursive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_recipe_recursive</span></code></a>(proj, ...)</p></td>
 <td><p><dl class="field-list simple">
-<dt class="field-odd">param proj</dt>
+<dt class="field-odd">param proj<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 </dl>
 </p></td>
@@ -191,10 +185,6 @@
 </table>
 <p class="rubric">Classes</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">BioCProjectPage</span></code>(package[, bioc_version, ...])</p></td>
 <td><p>Represents a single Bioconductor package page and provides access to scraped data.</p></td>
@@ -203,10 +193,6 @@
 </table>
 <p class="rubric">Exceptions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.PackageNotFoundError" title="bioconda_utils.bioconductor_skeleton.PackageNotFoundError"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PackageNotFoundError</span></code></a></p></td>
 <td><p></p></td>
@@ -228,16 +214,34 @@
 <dd></dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.bioarchive_url">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioarchive_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioarchive_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioarchive_url" title="Permalink to this definition">¶</a></dt>
-<dd><p>Constructs a url for the package as archived on bioaRchive</p>
+<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.bioconductor_versions">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioconductor_versions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioconductor_versions"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioconductor_versions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a list of available Bioconductor versions scraped from the
+Bioconductor site.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">latest_bioconductor_release_version</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#latest_bioconductor_release_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version" title="Permalink to this definition">¶</a></dt>
+<dd><p>Latest Bioconductor release version.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.latest_bioconductor_devel_version">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">latest_bioconductor_devel_version</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#latest_bioconductor_devel_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.latest_bioconductor_devel_version" title="Permalink to this definition">¶</a></dt>
+<dd><p>Latest Bioconductor version in development.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.bioconductor_tarball_url">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioconductor_tarball_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioconductor_tarball_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioconductor_tarball_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructs a url for a package tarball</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Case-sensitive Bioconductor package name</p></li>
 <li><p><strong>pkg_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor package version</p></li>
-<li><p><strong>bioc_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor release version. Not used;, only included for API
-compatibility with other url funcs</p></li>
+<li><p><strong>bioc_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor release version</p></li>
 </ul>
 </dd>
 </dl>
@@ -248,7 +252,7 @@ compatibility with other url funcs</p></li>
 <span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioconductor_annotation_data_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioconductor_annotation_data_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioconductor_annotation_data_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Constructs a url for an annotation package tarball</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Case-sensitive Bioconductor package name</p></li>
 <li><p><strong>pkg_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor package version</p></li>
@@ -263,7 +267,7 @@ compatibility with other url funcs</p></li>
 <span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioconductor_experiment_data_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioconductor_experiment_data_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioconductor_experiment_data_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Constructs a url for an experiment data package tarball</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Case-sensitive Bioconductor package name</p></li>
 <li><p><strong>pkg_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor package version</p></li>
@@ -274,25 +278,19 @@ compatibility with other url funcs</p></li>
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.bioconductor_tarball_url">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioconductor_tarball_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioconductor_tarball_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioconductor_tarball_url" title="Permalink to this definition">¶</a></dt>
-<dd><p>Constructs a url for a package tarball</p>
+<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.bioarchive_url">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioarchive_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioarchive_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioarchive_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructs a url for the package as archived on bioaRchive</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Case-sensitive Bioconductor package name</p></li>
 <li><p><strong>pkg_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor package version</p></li>
-<li><p><strong>bioc_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor release version</p></li>
+<li><p><strong>bioc_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor release version. Not used;, only included for API
+compatibility with other url funcs</p></li>
 </ul>
 </dd>
 </dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.bioconductor_versions">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">bioconductor_versions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#bioconductor_versions"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.bioconductor_versions" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns a list of available Bioconductor versions scraped from the
-Bioconductor site.</p>
 </dd></dl>
 
 <dl class="py function">
@@ -300,12 +298,29 @@ Bioconductor site.</p>
 <span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">cargoport_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#cargoport_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.cargoport_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Constructs a url for the package as archived on the galaxy cargo-port</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Case-sensitive Bioconductor package name</p></li>
 <li><p><strong>pkg_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor package version</p></li>
 <li><p><strong>bioc_version</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor release version. Not used;, only included for API
 compatibility with other url funcs</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.find_best_bioc_version">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">find_best_bioc_version</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#find_best_bioc_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.find_best_bioc_version" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a package version number, identifies which BioC version[s] it is in
+and returns the latest.</p>
+<p>If the package is not found, raises a PackageNotFound error.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>package</strong> – Case-sensitive Bioconductor package name</p></li>
+<li><p><strong>version</strong> – Bioconductor package version</p></li>
+<li><p><strong>found.</strong> (<em>Returns None if no valid package</em>) – </p></li>
 </ul>
 </dd>
 </dl>
@@ -329,38 +344,25 @@ compatibility with other url funcs</p></li>
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.find_best_bioc_version">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">find_best_bioc_version</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#find_best_bioc_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.find_best_bioc_version" title="Permalink to this definition">¶</a></dt>
-<dd><p>Given a package version number, identifies which BioC version[s] it is in
-and returns the latest.</p>
-<p>If the package is not found, raises a PackageNotFound error.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> – Case-sensitive Bioconductor package name</p></li>
-<li><p><strong>version</strong> – Bioconductor package version</p></li>
-<li><p><strong>found.</strong> (<em>Returns None if no valid package</em>) – </p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.latest_bioconductor_devel_version">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">latest_bioconductor_devel_version</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#latest_bioconductor_devel_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.latest_bioconductor_devel_version" title="Permalink to this definition">¶</a></dt>
-<dd><p>Latest Bioconductor version in development.</p>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">latest_bioconductor_release_version</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#latest_bioconductor_release_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version" title="Permalink to this definition">¶</a></dt>
-<dd><p>Latest Bioconductor release version.</p>
-</dd></dl>
-
-<dl class="py function">
 <dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.packagesNeedingX">
 <span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">packagesNeedingX</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">packages</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#packagesNeedingX"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.packagesNeedingX" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a set of all packages needing X. Packages needing X are defines as those that directly or indirectly require rgl.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.write_recipe_recursive">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">write_recipe_recursive</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">proj</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_dependencies</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recipe_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">versioned</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recursive</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#write_recipe_recursive"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.write_recipe_recursive" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>proj</strong> (<em>BioCProjectPage object</em>) – </p></li>
+<li><p><strong>seen_dependencies</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><em>list</em></a>) – Dependencies to ignore</p></li>
+<li><p><strong>recipe_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Path to recipe dir</p></li>
+<li><p><strong>config</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Path to recipes config file</p></li>
+<li><p><strong>force</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, any recipes that already exist will be overwritten.</p></li>
+</ul>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py function">
@@ -371,7 +373,7 @@ a data package (bsed on the detected URL from Bioconductor), then also
 create a post-link.sh and pre-unlink.sh script that will download and
 install the package.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Bioconductor package name (case-sensitive)</p></li>
 <li><p><strong>recipe_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – </p></li>
@@ -396,22 +398,6 @@ build dependencies and test environment variables.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.bioconductor_skeleton.write_recipe_recursive">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bioconductor_skeleton.</span></span><span class="sig-name descname"><span class="pre">write_recipe_recursive</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">proj</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_dependencies</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recipe_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bioc_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pkg_version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">versioned</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recursive</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#write_recipe_recursive"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.write_recipe_recursive" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>proj</strong> (<em>BioCProjectPage object</em>) – </p></li>
-<li><p><strong>seen_dependencies</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><em>list</em></a>) – Dependencies to ignore</p></li>
-<li><p><strong>recipe_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Path to recipe dir</p></li>
-<li><p><strong>config</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Path to recipes config file</p></li>
-<li><p><strong>force</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, any recipes that already exist will be overwritten.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
 </section>
 
 
@@ -425,7 +411,7 @@ build dependencies and test environment variables.</p></li>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

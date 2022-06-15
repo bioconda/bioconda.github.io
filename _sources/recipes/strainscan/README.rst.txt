@@ -27,7 +27,7 @@ strainscan
       
       
 
-      ``1.0.3-0``
+      ``1.0.10-0``,  ``1.0.3-0``
 
       
 
@@ -36,6 +36,7 @@ strainscan
    :depends biopython: ``1.74``
    :depends numpy: ``1.17.3``
    :depends pandas: ``1.0.1``
+   :depends psutil: ``5.9.1``
    :depends python: ``3.7.3``
    :depends r-base: ``4.0.2``
    :depends scikit-learn: ``0.23.1``
@@ -73,7 +74,7 @@ strainscan
 
     <script>
         var package = "strainscan";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.10","1.0.3"];
     </script>
 
 

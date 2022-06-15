@@ -27,14 +27,14 @@ prodigal-gv
       
       
 
-      ``2.7.0-0``,  ``2.6.3-0``
+      ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ prodigal-gv
 
     <script>
         var package = "prodigal-gv";
-        var versions = ["2.7.0","2.6.3"];
+        var versions = ["2.9.0","2.8.0","2.7.0","2.6.3"];
     </script>
 
 

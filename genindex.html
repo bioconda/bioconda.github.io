@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,6 +14,7 @@
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/vega.min.js"></script>
     <script src="_static/vega-lite.min.js"></script>
@@ -94,7 +95,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -185,8 +186,16 @@
 </li>
       <li><a href="recipes/actc/README.html#package-actc">actc (package)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.actor">actor (bioconda_utils.githandler.GitHandlerBase attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepo.actor">actor (bioconda_utils.githandler.BiocondaRepo attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.actor">(bioconda_utils.githandler.BiocondaRepoMixin attribute)</a>
 </li>
+        <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler.actor">(bioconda_utils.githandler.GitHandler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.actor">(bioconda_utils.githandler.GitHandlerBase attribute)</a>
+</li>
+      </ul></li>
       <li><a href="recipes/adam/README.html#package-adam">adam (package)</a>
 </li>
       <li><a href="recipes/adapt/README.html#package-adapt">adapt (package)</a>
@@ -327,8 +336,12 @@
 </li>
       <li><a href="recipes/aodp/README.html#package-aodp">aodp (package)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.api">api (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.AiohttpGitHubHandler.api">api (bioconda_utils.githubhandler.AiohttpGitHubHandler attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.api">(bioconda_utils.githubhandler.GitHubHandler attribute)</a>
 </li>
+      </ul></li>
       <li><a href="recipes/apoc/README.html#package-apoc">apoc (package)</a>
 </li>
       <li><a href="recipes/apollo/README.html#package-apollo">apollo (package)</a>
@@ -531,8 +544,12 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective">AutoRecipesDirective (class in bioconda_utils.sphinxext)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.avatar_url">avatar_url (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.AiohttpGitHubHandler.avatar_url">avatar_url (bioconda_utils.githubhandler.AiohttpGitHubHandler attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.avatar_url">(bioconda_utils.githubhandler.GitHubHandler attribute)</a>
 </li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.avatarUrl">avatarUrl (bioconda_utils.gitter.Room property)</a>
 
       <ul>
@@ -847,20 +864,6 @@
 
       <ul>
         <li><a href="developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#module-bioconda_utils.bioconductor_skeleton">module</a>
-</li>
-      </ul></li>
-      <li>
-    bioconda_utils.bot
-
-      <ul>
-        <li><a href="developer/_autosummary/bioconda_utils.bot.html#module-bioconda_utils.bot">module</a>
-</li>
-      </ul></li>
-      <li>
-    bioconda_utils.bot.config
-
-      <ul>
-        <li><a href="developer/_autosummary/bioconda_utils.bot.config.html#module-bioconda_utils.bot.config">module</a>
 </li>
       </ul></li>
       <li>
@@ -4357,12 +4360,12 @@
 </li>
       <li><a href="recipes/bioconductor-mantelcorr/README.html#package-bioconductor-mantelcorr">bioconductor-mantelcorr (package)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/bioconductor-mapkl/README.html#package-bioconductor-mapkl">bioconductor-mapkl (package)</a>
 </li>
       <li><a href="recipes/bioconductor-mapkldata/README.html#package-bioconductor-mapkldata">bioconductor-mapkldata (package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/bioconductor-mapredictdsc/README.html#package-bioconductor-mapredictdsc">bioconductor-mapredictdsc (package)</a>
 </li>
       <li><a href="recipes/bioconductor-mapscape/README.html#package-bioconductor-mapscape">bioconductor-mapscape (package)</a>
@@ -7919,6 +7922,8 @@
 </li>
       <li><a href="recipes/bloomfiltertrie/README.html#package-bloomfiltertrie">bloomfiltertrie (package)</a>
 </li>
+      <li><a href="recipes/blosum/README.html#package-blosum">blosum (package)</a>
+</li>
       <li><a href="recipes/bmfilter/README.html#package-bmfilter">bmfilter (package)</a>
 </li>
       <li><a href="recipes/bmge/README.html#package-bmge">bmge (package)</a>
@@ -8640,7 +8645,11 @@
       <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.conda_render_failure">conda_render_failure (class in bioconda_utils.lint)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.conda_sem">conda_sem (bioconda_utils.aiopipe.AsyncPipeline attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner.conda_sem">(bioconda_utils.autobump.Scanner attribute)</a>
 </li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.CondaBuildConfigFile">CondaBuildConfigFile (class in bioconda_utils.utils)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain">CondaDomain (class in bioconda_utils.sphinxext)</a>
@@ -8910,7 +8919,11 @@
       <li><a href="recipes/dastk/README.html#package-dastk">dastk (package)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.data">data (bioconda_utils.recipe.Recipe attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.data">(bioconda_utils.sphinxext.CondaDomain attribute)</a>
 </li>
+      </ul></li>
       <li><a href="recipes/data_hacks/README.html#package-data_hacks">data_hacks (package)</a>
 </li>
       <li><a href="recipes/datafunk/README.html#package-datafunk">datafunk (package)</a>
@@ -9047,10 +9060,10 @@
 </li>
       <li><a href="recipes/dfam/README.html#package-dfam">dfam (package)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/dfast/README.html#package-dfast">dfast (package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/dfast_qc/README.html#package-dfast_qc">dfast_qc (package)</a>
 </li>
       <li><a href="recipes/dgenies/README.html#package-dgenies">dgenies (package)</a>
@@ -9091,6 +9104,8 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.dir">dir (bioconda_utils.recipe.Recipe property)</a>
 </li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.directives">directives (bioconda_utils.sphinxext.CondaDomain attribute)</a>
+</li>
       <li><a href="recipes/discasm/README.html#package-discasm">discasm (package)</a>
 </li>
       <li><a href="recipes/disco/README.html#package-disco">disco (package)</a>
@@ -9120,6 +9135,8 @@
       <li><a href="recipes/dms/README.html#package-dms">dms (package)</a>
 </li>
       <li><a href="recipes/dna_features_viewer/README.html#package-dna_features_viewer">dna_features_viewer (package)</a>
+</li>
+      <li><a href="recipes/dnacauldron/README.html#package-dnacauldron">dnacauldron (package)</a>
 </li>
       <li><a href="recipes/dnachisel/README.html#package-dnachisel">dnachisel (package)</a>
 </li>
@@ -9446,8 +9463,12 @@
 </li>
       <li><a href="recipes/examine/README.html#package-examine">examine (package)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.exclude">exclude (bioconda_utils.hosters.Hoster attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubBase.exclude">exclude (bioconda_utils.hosters.GithubBase attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.exclude">(bioconda_utils.hosters.Hoster attribute)</a>
 </li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeBlacklisted">ExcludeBlacklisted (class in bioconda_utils.autobump)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeBlacklisted.Blacklisted">ExcludeBlacklisted.Blacklisted</a>
@@ -9710,10 +9731,10 @@
 </li>
       <li><a href="recipes/figaro/README.html#package-figaro">figaro (package)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/figtree/README.html#package-figtree">figtree (package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/fiji/README.html#package-fiji">fiji (package)</a>
 </li>
       <li><a href="recipes/fiji-morpholibj/README.html#package-fiji-morpholibj">fiji-morpholibj (package)</a>
@@ -9727,7 +9748,11 @@
       <li><a href="developer/_autosummary/bioconda_utils.graph.html#bioconda_utils.graph.filter_recipe_dag">filter_recipe_dag() (in module bioconda_utils.graph)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.filters">filters (bioconda_utils.aiopipe.AsyncPipeline attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner.filters">(bioconda_utils.autobump.Scanner attribute)</a>
 </li>
+      </ul></li>
       <li><a href="recipes/filtlong/README.html#package-filtlong">filtlong (package)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncFilter.finalize">finalize() (bioconda_utils.aiopipe.AsyncFilter method)</a>
@@ -10242,10 +10267,10 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw">get_raw() (bioconda_utils.recipe.Recipe method)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw_range">get_raw_range() (bioconda_utils.recipe.Recipe method)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw_range">get_raw_range() (bioconda_utils.recipe.Recipe method)</a>
+</li>
       <li><a href="developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.get_recipes">get_recipes() (in module bioconda_utils.cli)</a>
 
       <ul>
@@ -10263,8 +10288,6 @@
       <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote_branch">get_remote_branch() (bioconda_utils.githandler.GitHandlerBase method)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.get_room">get_room() (bioconda_utils.gitter.GitterAPI method)</a>
-</li>
-      <li><a href="developer/_autosummary/bioconda_utils.bot.config.html#bioconda_utils.bot.config.get_secret">get_secret() (in module bioconda_utils.bot.config)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_simple_modules">get_simple_modules() (bioconda_utils.recipe.Recipe method)</a>
 </li>
@@ -10640,6 +10663,12 @@
 </li>
       <li><a href="recipes/harvesttools/README.html#package-harvesttools">harvesttools (package)</a>
 </li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective.has_content">has_content (bioconda_utils.sphinxext.AutoRecipesDirective attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.LintDescriptionDirective.has_content">(bioconda_utils.sphinxext.LintDescriptionDirective attribute)</a>
+</li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file">has_windows_bat_file (class in bioconda_utils.lint.check_policy)</a>
 </li>
       <li><a href="recipes/haslr/README.html#package-haslr">haslr (package)</a>
@@ -10708,10 +10737,10 @@
 </li>
       <li><a href="recipes/hiddendomains/README.html#package-hiddendomains">hiddendomains (package)</a>
 </li>
-      <li><a href="recipes/hifiasm/README.html#package-hifiasm">hifiasm (package)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="recipes/hifiasm/README.html#package-hifiasm">hifiasm (package)</a>
+</li>
       <li><a href="recipes/hifiasm_meta/README.html#package-hifiasm_meta">hifiasm_meta (package)</a>
 </li>
       <li><a href="recipes/hifive/README.html#package-hifive">hifive (package)</a>
@@ -10940,6 +10969,8 @@
 </li>
       <li><a href="recipes/indelfixer/README.html#package-indelfixer">indelfixer (package)</a>
 </li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.indices">indices (bioconda_utils.sphinxext.CondaDomain attribute)</a>
+</li>
       <li><a href="recipes/infernal/README.html#package-infernal">infernal (package)</a>
 </li>
       <li><a href="recipes/influx_si/README.html#package-influx_si">influx_si (package)</a>
@@ -10949,6 +10980,8 @@
       <li><a href="recipes/inforna/README.html#package-inforna">inforna (package)</a>
 </li>
       <li><a href="recipes/inheritance/README.html#package-inheritance">inheritance (package)</a>
+</li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.initial_data">initial_data (bioconda_utils.sphinxext.CondaDomain attribute)</a>
 </li>
       <li><a href="recipes/insilicoseq/README.html#package-insilicoseq">insilicoseq (package)</a>
 </li>
@@ -10987,8 +11020,14 @@
       <li><a href="recipes/involucro/README.html#package-involucro">involucro (package)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.io_sem">io_sem (bioconda_utils.aiopipe.AsyncPipeline attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner.io_sem">(bioconda_utils.autobump.Scanner attribute)</a>
 </li>
+      </ul></li>
       <li><a href="recipes/iow/README.html#package-iow">iow (package)</a>
+</li>
+      <li><a href="recipes/iphop/README.html#package-iphop">iphop (package)</a>
 </li>
       <li><a href="recipes/iptkl/README.html#package-iptkl">iptkl (package)</a>
 </li>
@@ -11310,6 +11349,8 @@
 <h2 id="L">L</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.label">label (bioconda_utils.sphinxext.CondaDomain attribute)</a>
+</li>
       <li><a href="recipes/labrat/README.html#package-labrat">labrat (package)</a>
 </li>
       <li><a href="recipes/lace/README.html#package-lace">lace (package)</a>
@@ -11674,6 +11715,8 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.mark_as_read">mark_as_read() (bioconda_utils.gitter.GitterAPI method)</a>
 </li>
+      <li><a href="recipes/markermag/README.html#package-markermag">markermag (package)</a>
+</li>
       <li><a href="recipes/markov_clustering/README.html#package-markov_clustering">markov_clustering (package)</a>
 </li>
       <li><a href="recipes/mars/README.html#package-mars">mars (package)</a>
@@ -11683,6 +11726,8 @@
       <li><a href="recipes/mash/README.html#package-mash">mash (package)</a>
 </li>
       <li><a href="recipes/mashmap/README.html#package-mashmap">mashmap (package)</a>
+</li>
+      <li><a href="recipes/mashpit/README.html#package-mashpit">mashpit (package)</a>
 </li>
       <li><a href="recipes/mashtree/README.html#package-mashtree">mashtree (package)</a>
 </li>
@@ -11822,8 +11867,106 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.message">message() (bioconda_utils.lint.LintCheck method)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.messages">messages (bioconda_utils.lint.LintCheck attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build.messages">messages (bioconda_utils.lint.check_build_help.compilers_must_be_in_build attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host.messages">(bioconda_utils.lint.check_build_help.cython_must_be_in_host attribute)</a>
 </li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler.messages">(bioconda_utils.lint.check_build_help.cython_needs_compiler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args.messages">(bioconda_utils.lint.check_build_help.setup_py_install_args attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers.messages">(bioconda_utils.lint.check_build_help.should_use_compilers attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools.messages">(bioconda_utils.lint.check_build_help.uses_setuptools attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_build_number.messages">(bioconda_utils.lint.check_completeness.missing_build_number attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_hash.messages">(bioconda_utils.lint.check_completeness.missing_hash attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_home.messages">(bioconda_utils.lint.check_completeness.missing_home attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_license.messages">(bioconda_utils.lint.check_completeness.missing_license attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_summary.messages">(bioconda_utils.lint.check_completeness.missing_summary attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_tests.messages">(bioconda_utils.lint.check_completeness.missing_tests attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.messages">(bioconda_utils.lint.check_deprecation.deprecated_numpy_spec attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk.messages">(bioconda_utils.lint.check_deprecation.uses_javajdk attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_matplotlib.messages">(bioconda_utils.lint.check_deprecation.uses_matplotlib attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded.messages">(bioconda_utils.lint.check_deprecation.uses_perl_threaded attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_be_noarch_generic.messages">(bioconda_utils.lint.check_noarch.should_be_noarch_generic attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_be_noarch_python.messages">(bioconda_utils.lint.check_noarch.should_be_noarch_python attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_compiler.messages">(bioconda_utils.lint.check_noarch.should_not_be_noarch_compiler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_skip.messages">(bioconda_utils.lint.check_noarch.should_not_be_noarch_skip attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_source.messages">(bioconda_utils.lint.check_noarch.should_not_be_noarch_source attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_use_skip_python.messages">(bioconda_utils.lint.check_noarch.should_not_use_skip_python attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.messages">(bioconda_utils.lint.check_policy.cran_packages_to_conda_forge attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match.messages">(bioconda_utils.lint.check_policy.folder_and_package_name_must_match attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.messages">(bioconda_utils.lint.check_policy.gpl_requires_license_distributed attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file.messages">(bioconda_utils.lint.check_policy.has_windows_bat_file attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary.messages">(bioconda_utils.lint.check_policy.long_summary attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.should_not_use_fn.messages">(bioconda_utils.lint.check_policy.should_not_use_fn attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url.messages">(bioconda_utils.lint.check_policy.uses_vcs_url attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.version_starts_with_v.messages">(bioconda_utils.lint.check_policy.version_starts_with_v attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump.messages">(bioconda_utils.lint.check_repo.build_number_needs_bump attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.messages">(bioconda_utils.lint.check_repo.build_number_needs_reset attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.in_other_channels.messages">(bioconda_utils.lint.check_repo.in_other_channels attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted.messages">(bioconda_utils.lint.check_repo.recipe_is_blacklisted attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.messages">(bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.messages">(bioconda_utils.lint.check_syntax.extra_identifiers_not_list attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.messages">(bioconda_utils.lint.check_syntax.extra_identifiers_not_string attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.messages">(bioconda_utils.lint.check_syntax.extra_skip_lints_not_list attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.conda_render_failure.messages">(bioconda_utils.lint.conda_render_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.duplicate_key_in_meta_yaml.messages">(bioconda_utils.lint.duplicate_key_in_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.empty_meta_yaml.messages">(bioconda_utils.lint.empty_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.jinja_render_failure.messages">(bioconda_utils.lint.jinja_render_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.messages">(bioconda_utils.lint.LintCheck attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.linter_failure.messages">(bioconda_utils.lint.linter_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_build.messages">(bioconda_utils.lint.missing_build attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_meta_yaml.messages">(bioconda_utils.lint.missing_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_version_or_name.messages">(bioconda_utils.lint.missing_version_or_name attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_check.messages">(bioconda_utils.lint.unknown_check attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_selector.messages">(bioconda_utils.lint.unknown_selector attribute)</a>
+</li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.meta">meta (bioconda_utils.gitter.Message property)</a>
 
       <ul>
@@ -11928,6 +12071,8 @@
 </li>
       <li><a href="recipes/metaxa/README.html#package-metaxa">metaxa (package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/metfrag/README.html#package-metfrag">metfrag (package)</a>
 </li>
       <li><a href="recipes/methpipe/README.html#package-methpipe">methpipe (package)</a>
@@ -11978,8 +12123,6 @@
 </li>
       <li><a href="recipes/micro_razers/README.html#package-micro_razers">micro_razers (package)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/microbeannotator/README.html#package-microbeannotator">microbeannotator (package)</a>
 </li>
       <li><a href="recipes/microbecensus/README.html#package-microbecensus">microbecensus (package)</a>
@@ -11993,6 +12136,8 @@
       <li><a href="recipes/micropita/README.html#package-micropita">micropita (package)</a>
 </li>
       <li><a href="recipes/midas/README.html#package-midas">midas (package)</a>
+</li>
+      <li><a href="recipes/miga/README.html#package-miga">miga (package)</a>
 </li>
       <li><a href="recipes/migmap/README.html#package-migmap">migmap (package)</a>
 </li>
@@ -12163,10 +12308,6 @@
         <li><a href="developer/_autosummary/bioconda_utils.autobump.html#module-bioconda_utils.autobump">bioconda_utils.autobump</a>
 </li>
         <li><a href="developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#module-bioconda_utils.bioconductor_skeleton">bioconda_utils.bioconductor_skeleton</a>
-</li>
-        <li><a href="developer/_autosummary/bioconda_utils.bot.html#module-bioconda_utils.bot">bioconda_utils.bot</a>
-</li>
-        <li><a href="developer/_autosummary/bioconda_utils.bot.config.html#module-bioconda_utils.bot.config">bioconda_utils.bot.config</a>
 </li>
         <li><a href="developer/_autosummary/bioconda_utils.build.html#module-bioconda_utils.build">bioconda_utils.build</a>
 </li>
@@ -12404,6 +12545,8 @@
 </li>
         <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.name">(bioconda_utils.recipe.Recipe property)</a>
 </li>
+        <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.name">(bioconda_utils.sphinxext.CondaDomain attribute)</a>
+</li>
       </ul></li>
       <li><a href="recipes/nanoblaster/README.html#package-nanoblaster">nanoblaster (package)</a>
 </li>
@@ -12515,10 +12658,10 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.newly_unblacklisted">newly_unblacklisted() (in module bioconda_utils.utils)</a>
 </li>
-      <li><a href="recipes/nextalign/README.html#package-nextalign">nextalign (package)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="recipes/nextalign/README.html#package-nextalign">nextalign (package)</a>
+</li>
       <li><a href="recipes/nextclade/README.html#package-nextclade">nextclade (package)</a>
 </li>
       <li><a href="recipes/nextclade_js/README.html#package-nextclade_js">nextclade_js (package)</a>
@@ -12657,6 +12800,8 @@
 </li>
       <li><a href="recipes/obitools/README.html#package-obitools">obitools (package)</a>
 </li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.object_types">object_types (bioconda_utils.sphinxext.CondaDomain attribute)</a>
+</li>
       <li><a href="recipes/ococo/README.html#package-ococo">ococo (package)</a>
 </li>
       <li><a href="recipes/ocrad/README.html#package-ocrad">ocrad (package)</a>
@@ -12731,6 +12876,12 @@
 </li>
       <li><a href="recipes/optimir/README.html#package-optimir">optimir (package)</a>
 </li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective.option_spec">option_spec (bioconda_utils.sphinxext.AutoRecipesDirective attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.option_spec">(bioconda_utils.sphinxext.CondaObjectDescription attribute)</a>
+</li>
+      </ul></li>
       <li><a href="recipes/optitype/README.html#package-optitype">optitype (package)</a>
 </li>
       <li><a href="recipes/optplus/README.html#package-optplus">optplus (package)</a>
@@ -15057,6 +15208,8 @@
 </li>
       <li><a href="recipes/pytriangle/README.html#package-pytriangle">pytriangle (package)</a>
 </li>
+      <li><a href="recipes/pytrimal/README.html#package-pytrimal">pytrimal (package)</a>
+</li>
       <li><a href="recipes/pyvcf3/README.html#package-pyvcf3">pyvcf3 (package)</a>
 </li>
       <li><a href="recipes/pywdl/README.html#package-pywdl">pywdl (package)</a>
@@ -15180,6 +15333,8 @@
       <li><a href="recipes/r-bcbiornaseq/README.html#package-r-bcbiornaseq">r-bcbiornaseq (package)</a>
 </li>
       <li><a href="recipes/r-bcbiosinglecell/README.html#package-r-bcbiosinglecell">r-bcbiosinglecell (package)</a>
+</li>
+      <li><a href="recipes/r-bedtoolsr/README.html#package-r-bedtoolsr">r-bedtoolsr (package)</a>
 </li>
       <li><a href="recipes/r-beyondcell/README.html#package-r-beyondcell">r-beyondcell (package)</a>
 </li>
@@ -15481,6 +15636,8 @@
 </li>
       <li><a href="recipes/r-scimpute/README.html#package-r-scimpute">r-scimpute (package)</a>
 </li>
+      <li><a href="recipes/r-scoper/README.html#package-r-scoper">r-scoper (package)</a>
+</li>
       <li><a href="recipes/r-scpred/README.html#package-r-scpred">r-scpred (package)</a>
 </li>
       <li><a href="recipes/r-seqmagick/README.html#package-r-seqmagick">r-seqmagick (package)</a>
@@ -15569,8 +15726,6 @@
 </li>
       <li><a href="recipes/r2r/README.html#package-r2r">r2r (package)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/ra/README.html#package-ra">ra (package)</a>
 </li>
       <li><a href="recipes/ra-integrate/README.html#package-ra-integrate">ra-integrate (package)</a>
@@ -15629,6 +15784,8 @@
 </li>
       <li><a href="recipes/ray/README.html#package-ray">ray (package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/razers3/README.html#package-razers3">razers3 (package)</a>
 </li>
       <li><a href="recipes/rcorrector/README.html#package-rcorrector">rcorrector (package)</a>
@@ -15675,10 +15832,106 @@
 </li>
       <li><a href="recipes/recentrifuge/README.html#package-recentrifuge">recentrifuge (package)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.recipe">recipe (bioconda_utils.lint.LintCheck attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build.recipe">recipe (bioconda_utils.lint.check_build_help.compilers_must_be_in_build attribute)</a>
 
       <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host.recipe">(bioconda_utils.lint.check_build_help.cython_must_be_in_host attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler.recipe">(bioconda_utils.lint.check_build_help.cython_needs_compiler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args.recipe">(bioconda_utils.lint.check_build_help.setup_py_install_args attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers.recipe">(bioconda_utils.lint.check_build_help.should_use_compilers attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools.recipe">(bioconda_utils.lint.check_build_help.uses_setuptools attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_build_number.recipe">(bioconda_utils.lint.check_completeness.missing_build_number attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_hash.recipe">(bioconda_utils.lint.check_completeness.missing_hash attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_home.recipe">(bioconda_utils.lint.check_completeness.missing_home attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_license.recipe">(bioconda_utils.lint.check_completeness.missing_license attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_summary.recipe">(bioconda_utils.lint.check_completeness.missing_summary attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_tests.recipe">(bioconda_utils.lint.check_completeness.missing_tests attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.recipe">(bioconda_utils.lint.check_deprecation.deprecated_numpy_spec attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk.recipe">(bioconda_utils.lint.check_deprecation.uses_javajdk attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_matplotlib.recipe">(bioconda_utils.lint.check_deprecation.uses_matplotlib attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded.recipe">(bioconda_utils.lint.check_deprecation.uses_perl_threaded attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_be_noarch_generic.recipe">(bioconda_utils.lint.check_noarch.should_be_noarch_generic attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_be_noarch_python.recipe">(bioconda_utils.lint.check_noarch.should_be_noarch_python attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_compiler.recipe">(bioconda_utils.lint.check_noarch.should_not_be_noarch_compiler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_skip.recipe">(bioconda_utils.lint.check_noarch.should_not_be_noarch_skip attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_source.recipe">(bioconda_utils.lint.check_noarch.should_not_be_noarch_source attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_use_skip_python.recipe">(bioconda_utils.lint.check_noarch.should_not_use_skip_python attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.recipe">(bioconda_utils.lint.check_policy.cran_packages_to_conda_forge attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match.recipe">(bioconda_utils.lint.check_policy.folder_and_package_name_must_match attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.recipe">(bioconda_utils.lint.check_policy.gpl_requires_license_distributed attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file.recipe">(bioconda_utils.lint.check_policy.has_windows_bat_file attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary.recipe">(bioconda_utils.lint.check_policy.long_summary attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.should_not_use_fn.recipe">(bioconda_utils.lint.check_policy.should_not_use_fn attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url.recipe">(bioconda_utils.lint.check_policy.uses_vcs_url attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.version_starts_with_v.recipe">(bioconda_utils.lint.check_policy.version_starts_with_v attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump.recipe">(bioconda_utils.lint.check_repo.build_number_needs_bump attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.recipe">(bioconda_utils.lint.check_repo.build_number_needs_reset attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.in_other_channels.recipe">(bioconda_utils.lint.check_repo.in_other_channels attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted.recipe">(bioconda_utils.lint.check_repo.recipe_is_blacklisted attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.recipe">(bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.recipe">(bioconda_utils.lint.check_syntax.extra_identifiers_not_list attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.recipe">(bioconda_utils.lint.check_syntax.extra_identifiers_not_string attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.recipe">(bioconda_utils.lint.check_syntax.extra_skip_lints_not_list attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.conda_render_failure.recipe">(bioconda_utils.lint.conda_render_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.duplicate_key_in_meta_yaml.recipe">(bioconda_utils.lint.duplicate_key_in_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.empty_meta_yaml.recipe">(bioconda_utils.lint.empty_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.jinja_render_failure.recipe">(bioconda_utils.lint.jinja_render_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.recipe">(bioconda_utils.lint.LintCheck attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.linter_failure.recipe">(bioconda_utils.lint.linter_failure attribute)</a>
+</li>
         <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.recipe">(bioconda_utils.lint.LintMessage property)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_build.recipe">(bioconda_utils.lint.missing_build attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_meta_yaml.recipe">(bioconda_utils.lint.missing_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_version_or_name.recipe">(bioconda_utils.lint.missing_version_or_name attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_check.recipe">(bioconda_utils.lint.unknown_check attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_selector.recipe">(bioconda_utils.lint.unknown_selector attribute)</a>
 </li>
       </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe">Recipe (class in bioconda_utils.recipe)</a>
@@ -15777,9 +16030,15 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.replace_named_capture_group">replace_named_capture_group() (in module bioconda_utils.hosters)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.repo">repo (bioconda_utils.githandler.GitHandlerBase attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepo.repo">repo (bioconda_utils.githandler.BiocondaRepo attribute)</a>
 
       <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.repo">(bioconda_utils.githandler.BiocondaRepoMixin attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler.repo">(bioconda_utils.githandler.GitHandler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.repo">(bioconda_utils.githandler.GitHandlerBase attribute)</a>
+</li>
         <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.repo">(bioconda_utils.githubhandler.GitHubHandler attribute)</a>
 </li>
       </ul></li>
@@ -15793,17 +16052,37 @@
         <li><a href="recipes/req/README.html#package-req">(package)</a>
 </li>
       </ul></li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective.required_arguments">required_arguments (bioconda_utils.sphinxext.AutoRecipesDirective attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.LintDescriptionDirective.required_arguments">(bioconda_utils.sphinxext.LintDescriptionDirective attribute)</a>
+</li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequiredByField">RequiredByField (class in bioconda_utils.sphinxext)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequirementsField">RequirementsField (class in bioconda_utils.sphinxext)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.requires">requires (bioconda_utils.lint.LintCheck attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_be_noarch_generic.requires">requires (bioconda_utils.lint.check_noarch.should_be_noarch_generic attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.requires">(bioconda_utils.lint.check_policy.gpl_requires_license_distributed attribute)</a>
 </li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.requires">(bioconda_utils.lint.check_repo.build_number_needs_reset attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.requires">(bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.requires">(bioconda_utils.lint.check_syntax.extra_identifiers_not_string attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.requires">(bioconda_utils.lint.LintCheck attribute)</a>
+</li>
+      </ul></li>
       <li><a href="recipes/reseq/README.html#package-reseq">reseq (package)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.reset_buildnumber">reset_buildnumber() (bioconda_utils.recipe.Recipe method)</a>
 </li>
       <li><a href="recipes/resfinder/README.html#package-resfinder">resfinder (package)</a>
+</li>
+      <li><a href="recipes/resmico/README.html#package-resmico">resmico (package)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.resolve_any_xref">resolve_any_xref() (bioconda_utils.sphinxext.CondaDomain method)</a>
 </li>
@@ -15934,6 +16213,8 @@
       <li><a href="recipes/rodeo/README.html#package-rodeo">rodeo (package)</a>
 </li>
       <li><a href="recipes/roguenarok/README.html#package-roguenarok">roguenarok (package)</a>
+</li>
+      <li><a href="developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.roles">roles (bioconda_utils.sphinxext.CondaDomain attribute)</a>
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room">Room (class in bioconda_utils.gitter)</a>
 </li>
@@ -16369,9 +16650,17 @@
 </li>
       <li><a href="recipes/sevenbridges-python/README.html#package-sevenbridges-python">sevenbridges-python (package)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.severity">severity (bioconda_utils.lint.LintCheck attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler.severity">severity (bioconda_utils.lint.check_build_help.cython_needs_compiler attribute)</a>
 
       <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools.severity">(bioconda_utils.lint.check_build_help.uses_setuptools attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.severity">(bioconda_utils.lint.check_policy.gpl_requires_license_distributed attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary.severity">(bioconda_utils.lint.check_policy.long_summary attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.severity">(bioconda_utils.lint.LintCheck attribute)</a>
+</li>
         <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.severity">(bioconda_utils.lint.LintMessage property)</a>
 </li>
       </ul></li>
@@ -16495,10 +16784,10 @@
 </li>
       <li><a href="recipes/simwalk2/README.html#package-simwalk2">simwalk2 (package)</a>
 </li>
-      <li><a href="recipes/sina/README.html#package-sina">sina (package)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="recipes/sina/README.html#package-sina">sina (package)</a>
+</li>
       <li><a href="recipes/singlecell-barcodes/README.html#package-singlecell-barcodes">singlecell-barcodes (package)</a>
 </li>
       <li><a href="recipes/singlecellnet-cli/README.html#package-singlecellnet-cli">singlecellnet-cli (package)</a>
@@ -16604,6 +16893,8 @@
       <li><a href="recipes/snap/README.html#package-snap">snap (package)</a>
 </li>
       <li><a href="recipes/snap-aligner/README.html#package-snap-aligner">snap-aligner (package)</a>
+</li>
+      <li><a href="recipes/snapgene-reader/README.html#package-snapgene-reader">snapgene-reader (package)</a>
 </li>
       <li><a href="recipes/snaptools/README.html#package-snaptools">snaptools (package)</a>
 </li>
@@ -17149,8 +17440,6 @@
 </li>
       <li><a href="recipes/tiptoft/README.html#package-tiptoft">tiptoft (package)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/tirmite/README.html#package-tirmite">tirmite (package)</a>
 </li>
       <li><a href="recipes/titan-gc/README.html#package-titan-gc">titan-gc (package)</a>
@@ -17199,6 +17488,8 @@
 </li>
       <li><a href="recipes/traitar/README.html#package-traitar">traitar (package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/transabyss/README.html#package-transabyss">transabyss (package)</a>
 </li>
       <li><a href="recipes/transcomb/README.html#package-transcomb">transcomb (package)</a>
@@ -17295,8 +17586,106 @@
 </li>
       <li><a href="recipes/truvari/README.html#package-truvari">truvari (package)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.try_fix">try_fix (bioconda_utils.lint.LintCheck attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build.try_fix">try_fix (bioconda_utils.lint.check_build_help.compilers_must_be_in_build attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host.try_fix">(bioconda_utils.lint.check_build_help.cython_must_be_in_host attribute)</a>
 </li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler.try_fix">(bioconda_utils.lint.check_build_help.cython_needs_compiler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args.try_fix">(bioconda_utils.lint.check_build_help.setup_py_install_args attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers.try_fix">(bioconda_utils.lint.check_build_help.should_use_compilers attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools.try_fix">(bioconda_utils.lint.check_build_help.uses_setuptools attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_build_number.try_fix">(bioconda_utils.lint.check_completeness.missing_build_number attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_hash.try_fix">(bioconda_utils.lint.check_completeness.missing_hash attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_home.try_fix">(bioconda_utils.lint.check_completeness.missing_home attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_license.try_fix">(bioconda_utils.lint.check_completeness.missing_license attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_summary.try_fix">(bioconda_utils.lint.check_completeness.missing_summary attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_tests.try_fix">(bioconda_utils.lint.check_completeness.missing_tests attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.try_fix">(bioconda_utils.lint.check_deprecation.deprecated_numpy_spec attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk.try_fix">(bioconda_utils.lint.check_deprecation.uses_javajdk attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_matplotlib.try_fix">(bioconda_utils.lint.check_deprecation.uses_matplotlib attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded.try_fix">(bioconda_utils.lint.check_deprecation.uses_perl_threaded attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_be_noarch_generic.try_fix">(bioconda_utils.lint.check_noarch.should_be_noarch_generic attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_be_noarch_python.try_fix">(bioconda_utils.lint.check_noarch.should_be_noarch_python attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_compiler.try_fix">(bioconda_utils.lint.check_noarch.should_not_be_noarch_compiler attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_skip.try_fix">(bioconda_utils.lint.check_noarch.should_not_be_noarch_skip attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_source.try_fix">(bioconda_utils.lint.check_noarch.should_not_be_noarch_source attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_use_skip_python.try_fix">(bioconda_utils.lint.check_noarch.should_not_use_skip_python attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.try_fix">(bioconda_utils.lint.check_policy.cran_packages_to_conda_forge attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match.try_fix">(bioconda_utils.lint.check_policy.folder_and_package_name_must_match attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.try_fix">(bioconda_utils.lint.check_policy.gpl_requires_license_distributed attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file.try_fix">(bioconda_utils.lint.check_policy.has_windows_bat_file attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary.try_fix">(bioconda_utils.lint.check_policy.long_summary attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.should_not_use_fn.try_fix">(bioconda_utils.lint.check_policy.should_not_use_fn attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url.try_fix">(bioconda_utils.lint.check_policy.uses_vcs_url attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.version_starts_with_v.try_fix">(bioconda_utils.lint.check_policy.version_starts_with_v attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump.try_fix">(bioconda_utils.lint.check_repo.build_number_needs_bump attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.try_fix">(bioconda_utils.lint.check_repo.build_number_needs_reset attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.in_other_channels.try_fix">(bioconda_utils.lint.check_repo.in_other_channels attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted.try_fix">(bioconda_utils.lint.check_repo.recipe_is_blacklisted attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.try_fix">(bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.try_fix">(bioconda_utils.lint.check_syntax.extra_identifiers_not_list attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.try_fix">(bioconda_utils.lint.check_syntax.extra_identifiers_not_string attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.try_fix">(bioconda_utils.lint.check_syntax.extra_skip_lints_not_list attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.conda_render_failure.try_fix">(bioconda_utils.lint.conda_render_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.duplicate_key_in_meta_yaml.try_fix">(bioconda_utils.lint.duplicate_key_in_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.empty_meta_yaml.try_fix">(bioconda_utils.lint.empty_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.jinja_render_failure.try_fix">(bioconda_utils.lint.jinja_render_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.try_fix">(bioconda_utils.lint.LintCheck attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.linter_failure.try_fix">(bioconda_utils.lint.linter_failure attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_build.try_fix">(bioconda_utils.lint.missing_build attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_meta_yaml.try_fix">(bioconda_utils.lint.missing_meta_yaml attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_version_or_name.try_fix">(bioconda_utils.lint.missing_version_or_name attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_check.try_fix">(bioconda_utils.lint.unknown_check attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_selector.try_fix">(bioconda_utils.lint.unknown_selector attribute)</a>
+</li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.try_make_hoster">try_make_hoster() (bioconda_utils.hosters.Hoster class method)</a>
 </li>
       <li><a href="recipes/trycycler/README.html#package-trycycler">trycycler (package)</a>
@@ -17647,8 +18036,6 @@
 </li>
       <li><a href="recipes/ucsc-mrnatogene/README.html#package-ucsc-mrnatogene">ucsc-mrnatogene (package)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/ucsc-netchainsubset/README.html#package-ucsc-netchainsubset">ucsc-netchainsubset (package)</a>
 </li>
       <li><a href="recipes/ucsc-netclass/README.html#package-ucsc-netclass">ucsc-netclass (package)</a>
@@ -17665,6 +18052,8 @@
 </li>
       <li><a href="recipes/ucsc-newprog/README.html#package-ucsc-newprog">ucsc-newprog (package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/ucsc-newpythonprog/README.html#package-ucsc-newpythonprog">ucsc-newpythonprog (package)</a>
 </li>
       <li><a href="recipes/ucsc-nibfrag/README.html#package-ucsc-nibfrag">ucsc-nibfrag (package)</a>
@@ -17927,8 +18316,40 @@
       </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_pattern">url_pattern (bioconda_utils.hosters.Hoster property)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_re">url_re (bioconda_utils.hosters.Hoster attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioarchive.url_re">url_re (bioconda_utils.hosters.Bioarchive attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioconductor.url_re">(bioconda_utils.hosters.Bioconductor attribute)</a>
 </li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketDownload.url_re">(bioconda_utils.hosters.BitBucketDownload attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketTag.url_re">(bioconda_utils.hosters.BitBucketTag attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CargoPort.url_re">(bioconda_utils.hosters.CargoPort attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CPAN.url_re">(bioconda_utils.hosters.CPAN attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CRAN.url_re">(bioconda_utils.hosters.CRAN attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.FTPHoster.url_re">(bioconda_utils.hosters.FTPHoster attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubRelease.url_re">(bioconda_utils.hosters.GithubRelease attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubReleaseAttachment.url_re">(bioconda_utils.hosters.GithubReleaseAttachment attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubRepoStore.url_re">(bioconda_utils.hosters.GithubRepoStore attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubTag.url_re">(bioconda_utils.hosters.GithubTag attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GitlabTag.url_re">(bioconda_utils.hosters.GitlabTag attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_re">(bioconda_utils.hosters.Hoster attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.PyPi.url_re">(bioconda_utils.hosters.PyPi attribute)</a>
+</li>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.SourceForge.url_re">(bioconda_utils.hosters.SourceForge attribute)</a>
+</li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.urls">urls (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="recipes/uropa/README.html#package-uropa">uropa (package)</a>
@@ -17955,9 +18376,11 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.userIds">userIds (bioconda_utils.gitter.Mention property)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.username">username (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.AiohttpGitHubHandler.username">username (bioconda_utils.githubhandler.AiohttpGitHubHandler attribute)</a>
 
       <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.username">(bioconda_utils.githubhandler.GitHubHandler attribute)</a>
+</li>
         <li><a href="developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.username">(bioconda_utils.gitter.User property)</a>
 </li>
       </ul></li>
@@ -18051,6 +18474,8 @@
 </li>
       <li><a href="recipes/vcf2maf/README.html#package-vcf2maf">vcf2maf (package)</a>
 </li>
+      <li><a href="recipes/vcf2parquet/README.html#package-vcf2parquet">vcf2parquet (package)</a>
+</li>
       <li><a href="recipes/vcf2variants/README.html#package-vcf2variants">vcf2variants (package)</a>
 </li>
       <li><a href="recipes/vcfanno/README.html#package-vcfanno">vcfanno (package)</a>
@@ -18099,8 +18524,12 @@
 </li>
       <li><a href="developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.version">version (bioconda_utils.recipe.Recipe property)</a>
 </li>
-      <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.version_pattern">version_pattern (bioconda_utils.hosters.Hoster attribute)</a>
+      <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.FTPHoster.version_pattern">version_pattern (bioconda_utils.hosters.FTPHoster attribute)</a>
+
+      <ul>
+        <li><a href="developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.version_pattern">(bioconda_utils.hosters.Hoster attribute)</a>
 </li>
+      </ul></li>
       <li><a href="developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.version_starts_with_v">version_starts_with_v (class in bioconda_utils.lint.check_policy)</a>
 </li>
       <li><a href="recipes/veryfasttree/README.html#package-veryfasttree">veryfasttree (package)</a>
@@ -18372,7 +18801,7 @@
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

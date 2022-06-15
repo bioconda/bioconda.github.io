@@ -13,7 +13,7 @@ alignstats
    Comprehensive alignment\, whole\-genome coverage\, and capture coverage statistics.
 
    :homepage: https://github.com/jfarek/alignstats
-   :license: BSD
+   :license: BSD-3-Clause
    :recipe: /`alignstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignstats/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ alignstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10-0</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  </span></summary>
       
 
-      ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.5-1``,  ``0.5-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.10-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.5-1``,  ``0.5-0``,  ``0.3-1``,  ``0.3-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ alignstats
       
 
    
-   :depends htslib: ``>=1.15,<1.16.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ alignstats
 
     <script>
         var package = "alignstats";
-        var versions = ["0.9.1","0.9.1","0.9.1","0.9","0.8"];
+        var versions = ["0.10","0.9.1","0.9.1","0.9.1","0.9"];
     </script>
 
 

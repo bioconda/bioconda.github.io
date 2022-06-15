@@ -26,14 +26,22 @@ tantan
    :versions:
       
       
+      .. raw:: html
 
-      ``31-0``,  ``26-2``,  ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
+         <details><summary><span class="truncated-version-list"><code>39-0</code>,  <code>34-0</code>,  <code>32-0</code>,  <code>31-0</code>,  <code>26-2</code>,  <code>26-1</code>,  <code>26-0</code>,  <code>13-2</code>,  <code>13-1</code>,  </span></summary>
+      
 
+      ``39-0``,  ``34-0``,  ``32-0``,  ``31-0``,  ``26-2``,  ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +73,7 @@ tantan
 
     <script>
         var package = "tantan";
-        var versions = ["31","26","26","26","13"];
+        var versions = ["39","34","32","31","26"];
     </script>
 
 

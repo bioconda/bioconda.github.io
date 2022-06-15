@@ -28,23 +28,31 @@ vcontact2
    :versions:
       
       
+      .. raw:: html
 
-      ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.19-0``,  ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.12-0``
+         <details><summary><span class="truncated-version-list"><code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.9.19-0</code>,  <code>0.9.18-0</code>,  <code>0.9.17-0</code>,  <code>0.9.16-0</code>,  <code>0.9.15-0</code>,  </span></summary>
+      
 
+      ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.19-0``,  ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: ``>=1.73``
+   :depends biopython: ``>=1.78``
    :depends hdf5: ``>=1.10.4``
    :depends networkx: ``>=2.2``
-   :depends numpy: ``>=1.15.4``
-   :depends pandas: ``>=0.25.0,<=0.25.3``
-   :depends psutil: ``>=5.5.0``
+   :depends numpy: ``>=1.20.1``
+   :depends pandas: ``>=1.0.5``
+   :depends psutil: ``>=5.8.0``
    :depends pyparsing: ``>=2.4.6``
    :depends pytables: ``>=3.4.0``
    :depends python: ``>=3.7``
-   :depends scikit-learn: ``>=0.20.2``
-   :depends scipy: ``>=1.2.0``
+   :depends scikit-learn: ``>=0.24.1``
+   :depends scipy: ``>=1.6.0``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +84,7 @@ vcontact2
 
     <script>
         var package = "vcontact2";
-        var versions = ["0.11.1","0.11.0","0.9.19","0.9.18","0.9.17"];
+        var versions = ["0.11.3","0.11.2","0.11.1","0.11.0","0.9.19"];
     </script>
 
 

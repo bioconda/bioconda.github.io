@@ -12,8 +12,8 @@ strainge
 
    Strain Genome Explorer\: a tool suite for tracking and characterizing low\-abundance strains.
 
-   :homepage: The package home page
-   :license: BSD / BSD
+   :homepage: https://github.com/broadinstitute/strainge
+   :license: BSD / BSD-3-Clause
    :recipe: /`strainge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strainge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strainge/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ strainge
       
       
 
-      ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -79,7 +79,7 @@ strainge
 
     <script>
         var package = "strainge";
-        var versions = ["1.3.1","1.3","1.2","1.2"];
+        var versions = ["1.3.2","1.3.1","1.3","1.2","1.2"];
     </script>
 
 

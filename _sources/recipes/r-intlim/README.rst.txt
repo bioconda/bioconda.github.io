@@ -13,7 +13,7 @@ r-intlim
    Integration of Omics Data Using Linear Modeling
 
    :homepage: http://github.com/Mathelab/IntLIM/
-   :license: GPL / GPL-2
+   :license: GPL / GPL-2.0-only
    :recipe: /`r-intlim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-intlim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-intlim/meta.yaml>`_
 
    
@@ -27,23 +27,31 @@ r-intlim
       
       
 
-      ``1.1.0-0``,  ``v.1.1.0-1``,  ``v.1.1.0-0``
+      ``1.1.0-3``,  ``1.1.0-0``,  ``v.1.1.0-1``,  ``v.1.1.0-0``
 
       
 
    
+   :depends bioconductor-biobase: 
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-genomicranges: 
    :depends bioconductor-multidataset: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-dendextend: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-dplyr: 
    :depends r-dt: 
-   :depends r-gplots: 
    :depends r-heatmaply: 
    :depends r-highcharter: 
+   :depends r-htmltools: 
+   :depends r-magrittr: 
    :depends r-plotly: 
+   :depends r-purrr: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
    :depends r-rmarkdown: 
    :depends r-shinydashboard: 
    :depends r-shinyfiles: 
    :depends r-shinyjs: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +83,7 @@ r-intlim
 
     <script>
         var package = "r-intlim";
-        var versions = ["1.1.0","v.1.1.0","v.1.1.0"];
+        var versions = ["1.1.0","1.1.0","v.1.1.0","v.1.1.0"];
     </script>
 
 

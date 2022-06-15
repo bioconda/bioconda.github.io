@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>News &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/vega.min.js"></script>
     <script src="_static/vega-lite.min.js"></script>
@@ -96,7 +97,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -133,14 +134,14 @@ one such channel specializing in bioinformatics software.</p>
 list of these and other containers can be found at the <a class="reference external" href="https://biocontainers.pro/#/registry">Biocontainers
 Registry</a>.</p>
 <section id="news">
-<h1>News<a class="headerlink" href="#news" title="Permalink to this headline">¶</a></h1>
+<h1>News<a class="headerlink" href="#news" title="Permalink to this heading">¶</a></h1>
 <ul class="simple">
 <li><p>Nov 2019: Bioconda has been selected as one of 42 open source projects for being <a class="reference external" href="https://chanzuckerberg.com/newsroom/chan-zuckerberg-initiative-awards-5-million-for-open-source-software-projects-essential-to-science">funded by the Chan Zuckerberg Initiative</a>.</p></li>
 <li><p>Nov 2017: Bioconda has been acknowledged by NATURE in their <a class="reference external" href="http://blogs.nature.com/naturejobs/2017/11/03/techblog-bioconda-promises-to-ease-bioinformatics-software-installation-woes">technology blog</a>.</p></li>
 </ul>
 </section>
 <section id="stats">
-<h1>Stats<a class="headerlink" href="#stats" title="Permalink to this headline">¶</a></h1>
+<h1>Stats<a class="headerlink" href="#stats" title="Permalink to this heading">¶</a></h1>
 <div style="width: 100%" id="download_plot"></div>
 <div style="width: 100%" id="package_plot"></div>
 
@@ -198,7 +199,7 @@ window.onload = function() {
 </script>
 </section>
 <section id="citing-bioconda">
-<h1>Citing Bioconda<a class="headerlink" href="#citing-bioconda" title="Permalink to this headline">¶</a></h1>
+<h1>Citing Bioconda<a class="headerlink" href="#citing-bioconda" title="Permalink to this heading">¶</a></h1>
 <p>When using Bioconda please <strong>cite our article</strong>:</p>
 <blockquote>
 <div><p>Grüning, Björn, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian
@@ -209,7 +210,7 @@ Methods, 2018 doi:<a class="reference external" href="https://doi.org/10.1038/s4
 </div></blockquote>
 </section>
 <section id="acknowledgments">
-<h1>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">¶</a></h1>
+<h1>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this heading">¶</a></h1>
 <p>Bioconda is a derivative mark of Anaconda <sup>®</sup>, a trademark of Anaconda,
 Inc registered in the U.S. and other countries.  Anaconda, Inc.
 grants permission of the derivative use but is not associated with Bioconda.</p>
@@ -219,9 +220,9 @@ Bioconda is supported by <a class="reference external" href="https://circleci.co
 source plan including free Linux and MacOS builds.</p>
 </section>
 <section id="contributors">
-<h1>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h1>
+<h1>Contributors<a class="headerlink" href="#contributors" title="Permalink to this heading">¶</a></h1>
 <section id="core">
-<h2>Core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h2>
+<h2>Core<a class="headerlink" href="#core" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/johanneskoester">Johannes Köster</a></p></li>
 <li><p><a class="reference external" href="https://github.com/daler">Ryan Dale</a></p></li>
@@ -237,12 +238,12 @@ source plan including free Linux and MacOS builds.</p>
 </ul>
 </section>
 <section id="team">
-<h2>Team<a class="headerlink" href="#team" title="Permalink to this headline">¶</a></h2>
+<h2>Team<a class="headerlink" href="#team" title="Permalink to this heading">¶</a></h2>
 <p>Bioconda has over 850 (as of 2020/1) <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">contributors</a>.</p>
 </section>
 </section>
 <section id="table-of-contents">
-<h1>Table of contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h1>
+<h1>Table of contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="user/index.html">User Docs</a><ul>
@@ -454,12 +455,7 @@ source plan including free Linux and MacOS builds.</p>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="developer/index.html">Developer Docs</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="developer/bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="developer/_autosummary/bioconda_utils.html">bioconda_utils</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="developer/_autosummary/bioconda_utils.bot.html">bot</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.bot.config.html">config</a></li>
-</ul>
-</li>
 <li class="toctree-l3"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.html">lint</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.html#writing-additional-checks">Writing additional checks</a></li>
 <li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.html#module-autodocs">Module Autodocs</a><ul>
@@ -493,20 +489,6 @@ source plan including free Linux and MacOS builds.</p>
 <li class="toctree-l3"><a class="reference internal" href="developer/_autosummary/bioconda_utils.update_pinnings.html">update_pinnings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="developer/_autosummary/bioconda_utils.upload.html">upload</a></li>
 <li class="toctree-l3"><a class="reference internal" href="developer/_autosummary/bioconda_utils.utils.html">utils</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.html">lint</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.html#writing-additional-checks">Writing additional checks</a></li>
-<li class="toctree-l3"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.html#module-autodocs">Module Autodocs</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.check_build_help.html">check_build_help</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.check_completeness.html">check_completeness</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.check_deprecation.html">check_deprecation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.check_noarch.html">check_noarch</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.check_policy.html">check_policy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.check_repo.html">check_repo</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/_autosummary/bioconda_utils.lint.check_syntax.html">check_syntax</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -562,7 +544,7 @@ source plan including free Linux and MacOS builds.</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

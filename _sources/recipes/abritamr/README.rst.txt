@@ -13,7 +13,7 @@ abritamr
    Running AMRFinderPlus for MDU
 
    :homepage: https://github.com/MDU-PHL/abritamr
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`abritamr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abritamr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abritamr/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ abritamr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+      
 
+      ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -69,7 +77,7 @@ abritamr
 
     <script>
         var package = "abritamr";
-        var versions = ["1.0.7","1.0.7","1.0.6","1.0.4","1.0.3"];
+        var versions = ["1.0.10","1.0.9","1.0.8","1.0.7","1.0.7"];
     </script>
 
 

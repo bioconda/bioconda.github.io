@@ -13,7 +13,7 @@ bioutils
    miscellaneous simple bioinformatics utilities and lookup tables
 
    :homepage: https://github.com/biocommons/bioutils
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`bioutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioutils/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ bioutils
       
       
 
-      ``0.5.5-0``
+      ``0.5.6-0``,  ``0.5.5-0``
 
       
 
@@ -66,7 +66,7 @@ bioutils
 
     <script>
         var package = "bioutils";
-        var versions = ["0.5.5"];
+        var versions = ["0.5.6","0.5.5"];
     </script>
 
 

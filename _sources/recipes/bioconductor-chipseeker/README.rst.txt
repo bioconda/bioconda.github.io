@@ -29,10 +29,10 @@ bioconductor-chipseeker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.3-1</code>,  <code>1.28.3-0</code>,  <code>1.26.2-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.3-1</code>,  <code>1.28.3-0</code>,  <code>1.26.2-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.3-1``,  ``1.28.3-0``,  ``1.26.2-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.2-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.6-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.3-1``,  ``1.28.3-0``,  ``1.26.2-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.2-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.6-0``
 
       
       .. raw:: html
@@ -55,6 +55,7 @@ bioconductor-chipseeker
    :depends r-boot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-ggupset: 
    :depends r-gplots: 
    :depends r-gtools: 
    :depends r-magrittr: 
@@ -91,7 +92,7 @@ bioconductor-chipseeker
 
     <script>
         var package = "bioconductor-chipseeker";
-        var versions = ["1.30.0","1.28.3","1.28.3","1.26.2","1.26.0"];
+        var versions = ["1.32.0","1.30.0","1.28.3","1.28.3","1.26.2"];
     </script>
 
 

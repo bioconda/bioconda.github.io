@@ -29,10 +29,10 @@ bracken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.2-0</code>,  <code>2.6.1-3</code>,  <code>2.6.1-2</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-3</code>,  <code>2.6.1-2</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  </span></summary>
       
 
-      ``2.6.2-0``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.2-1``,  ``2.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.7-0``,  ``2.6.2-0``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.2-1``,  ``2.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ bracken
    
    :depends _openmp_mutex: ``>=4.5``
    :depends kraken2: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
@@ -78,7 +78,7 @@ bracken
 
     <script>
         var package = "bracken";
-        var versions = ["2.6.2","2.6.1","2.6.1","2.6.1","2.6.1"];
+        var versions = ["2.7","2.6.2","2.6.1","2.6.1","2.6.1"];
     </script>
 
 

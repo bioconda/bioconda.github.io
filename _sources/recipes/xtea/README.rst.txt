@@ -13,7 +13,7 @@ xtea
    TE insertion caller for both short and long reads
 
    :homepage: https://github.com/parklab/xTea
-   :license: AGPL-3.0-only
+   :license: Academic and Non-Commercial Research Use
    :recipe: /`xtea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtea/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ xtea
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -73,7 +73,7 @@ xtea
 
     <script>
         var package = "xtea";
-        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

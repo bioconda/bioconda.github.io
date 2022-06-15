@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>check_deprecation &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
@@ -76,20 +77,31 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.lint.html">lint</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html#writing-additional-checks">Writing additional checks</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="bioconda_utils.lint.html#module-autodocs">Module Autodocs</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_build_help.html">check_build_help</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_completeness.html">check_completeness</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">check_deprecation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_noarch.html">check_noarch</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_policy.html">check_policy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_repo.html">check_repo</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_syntax.html">check_syntax</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="bioconda_utils.lint.html">lint</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.html#writing-additional-checks">Writing additional checks</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="bioconda_utils.lint.html#module-autodocs">Module Autodocs</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">cran_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">docker_utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.autobump.html">autobump</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
 </ul>
@@ -115,7 +127,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -125,14 +137,10 @@
           <div class="body" role="main">
             
   <section id="module-bioconda_utils.lint.check_deprecation">
-<span id="check-deprecation"></span><h1>check_deprecation<a class="headerlink" href="#module-bioconda_utils.lint.check_deprecation" title="Permalink to this headline">¶</a></h1>
+<span id="check-deprecation"></span><h1>check_deprecation<a class="headerlink" href="#module-bioconda_utils.lint.check_deprecation" title="Permalink to this heading">¶</a></h1>
 <p>Deprecated packages and syntax</p>
 <p class="rubric">Classes</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec" title="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec"><code class="xref py py-obj docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code></a>(_linter)</p></td>
 <td><p>The recipe contains a deprecated numpy spec</p></td>
@@ -150,13 +158,13 @@
 </table>
 <p class="rubric">Documentation</p>
 <dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_deprecation.</span></span><span class="sig-name descname"><span class="pre">deprecated_numpy_spec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#deprecated_numpy_spec"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe contains a deprecated numpy spec</p>
-<p>Please remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code> - pinning is now handled automatically.</p>
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_deprecation.</span></span><span class="sig-name descname"><span class="pre">uses_perl_threaded</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_perl_threaded"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p>
+<p>Please use <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead.</p>
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.check_deps">
-<span class="sig-name descname"><span class="pre">check_deps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deps</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#deprecated_numpy_spec.check_deps"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.check_deps" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded.check_deps">
+<span class="sig-name descname"><span class="pre">check_deps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deps</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_perl_threaded.check_deps"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded.check_deps" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe dependencies</p>
 <p>Example format for <strong>deps</strong>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
@@ -169,7 +177,7 @@
 <p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
 parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
 to their locations within the recipe.</p>
 </dd>
@@ -177,9 +185,27 @@ to their locations within the recipe.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.fix">
-<span class="sig-name descname"><span class="pre">fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#deprecated_numpy_spec.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.fix" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded.fix">
+<span class="sig-name descname"><span class="pre">fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_perl_threaded.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">_recipe.Recipe</span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
 </dd></dl>
@@ -204,7 +230,7 @@ to their locations within the recipe.</p>
 <p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
 parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
 to their locations within the recipe.</p>
 </dd>
@@ -215,6 +241,77 @@ to their locations within the recipe.</p>
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_javajdk.fix">
 <span class="sig-name descname"><span class="pre">fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_javajdk.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_javajdk.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_javajdk.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_javajdk.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_javajdk.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">_recipe.Recipe</span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_javajdk.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_javajdk.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_javajdk.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_deprecation.</span></span><span class="sig-name descname"><span class="pre">deprecated_numpy_spec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#deprecated_numpy_spec"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe contains a deprecated numpy spec</p>
+<p>Please remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code> - pinning is now handled automatically.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.check_deps">
+<span class="sig-name descname"><span class="pre">check_deps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deps</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#deprecated_numpy_spec.check_deps"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.check_deps" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe dependencies</p>
+<p>Example format for <strong>deps</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s1">&#39;setuptools&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/run&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;outputs/0/requirements/run/1&#39;</span><span class="p">],</span>
+  <span class="s1">&#39;compiler_cxx&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/build/0&#39;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
+parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
+to their locations within the recipe.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.fix">
+<span class="sig-name descname"><span class="pre">fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#deprecated_numpy_spec.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Attempt to fix the problem</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">_recipe.Recipe</span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
 </dd></dl>
@@ -240,7 +337,7 @@ unless the package explicitly needs the PyQt interactive plotting backend.</p>
 <p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
 parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
 to their locations within the recipe.</p>
 </dd>
@@ -253,39 +350,22 @@ to their locations within the recipe.</p>
 <dd><p>Attempt to fix the problem</p>
 </dd></dl>
 
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_matplotlib.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_matplotlib.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
 </dd></dl>
 
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_deprecation.</span></span><span class="sig-name descname"><span class="pre">uses_perl_threaded</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_perl_threaded"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p>
-<p>Please use <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead.</p>
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded.check_deps">
-<span class="sig-name descname"><span class="pre">check_deps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deps</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_perl_threaded.check_deps"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded.check_deps" title="Permalink to this definition">¶</a></dt>
-<dd><p>Execute check on recipe dependencies</p>
-<p>Example format for <strong>deps</strong>:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-  <span class="s1">&#39;setuptools&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/run&#39;</span><span class="p">,</span>
-                 <span class="s1">&#39;outputs/0/requirements/run/1&#39;</span><span class="p">],</span>
-  <span class="s1">&#39;compiler_cxx&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/build/0&#39;</span><span class="p">]</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-<p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
-parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
-to their locations within the recipe.</p>
-</dd>
-</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_matplotlib.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">_recipe.Recipe</span></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_matplotlib.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
 </dd></dl>
 
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_perl_threaded.fix">
-<span class="sig-name descname"><span class="pre">fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_perl_threaded.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded.fix" title="Permalink to this definition">¶</a></dt>
-<dd><p>Attempt to fix the problem</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_deprecation.uses_matplotlib.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_matplotlib.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
 </dd></dl>
@@ -303,7 +383,7 @@ to their locations within the recipe.</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

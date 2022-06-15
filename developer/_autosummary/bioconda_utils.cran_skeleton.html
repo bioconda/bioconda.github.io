@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>cran_skeleton &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
@@ -76,9 +77,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
@@ -101,7 +100,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
@@ -125,7 +123,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -135,15 +133,11 @@
           <div class="body" role="main">
             
   <section id="module-bioconda_utils.cran_skeleton">
-<span id="cran-skeleton"></span><h1>cran_skeleton<a class="headerlink" href="#module-bioconda_utils.cran_skeleton" title="Permalink to this headline">¶</a></h1>
+<span id="cran-skeleton"></span><h1>cran_skeleton<a class="headerlink" href="#module-bioconda_utils.cran_skeleton" title="Permalink to this heading">¶</a></h1>
 <p>This module cleans up conda CRAN skeletons to make it compliant with
 conda-forge requirements.</p>
 <p class="rubric">Functions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cran_skeleton.add_maintainers" title="bioconda_utils.cran_skeleton.add_maintainers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_maintainers</span></code></a>(lines)</p></td>
 <td><p>Append the contents of &quot;maintainers.yaml&quot; to the end of a YAML file.</p></td>
@@ -176,109 +170,6 @@ conda-forge requirements.</p>
 </table>
 <p class="rubric">Documentation</p>
 <dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.add_maintainers">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">add_maintainers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lines</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#add_maintainers"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.add_maintainers" title="Permalink to this definition">¶</a></dt>
-<dd><p>Append the contents of “maintainers.yaml” to the end of a YAML file.</p>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_bld_file">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_bld_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_bld_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_bld_file" title="Permalink to this definition">¶</a></dt>
-<dd><p>Cleans bld.bat file created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to be compatible with
-conda-forge.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, then the bld.bat file will be removed.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_build_file">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_build_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_build_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_build_file" title="Permalink to this definition">¶</a></dt>
-<dd><p>Cleans build.sh file created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to be compatible with
-conda-forge.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – Included for consistency with other <code class="docutils literal notranslate"><span class="pre">clean_*</span></code> functions; does not have
-any effect for this function.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_skeleton_files">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_skeleton_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_skeleton_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_skeleton_files" title="Permalink to this definition">¶</a></dt>
-<dd><p>Cleans output files created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to make them
-conda-forge compatible.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Package name. Can be case-sensitive CRAN name, or sanitized
-“r-pkgname” conda package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, no bld.bat will be created and no <code class="docutils literal notranslate"><span class="pre">[win]</span></code> preprocess selectors
-will be added to the yaml</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_yaml_file">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_yaml_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_yaml_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_yaml_file" title="Permalink to this definition">¶</a></dt>
-<dd><p>Cleans the YAML file output by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to make it conda-forge
-compatible.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, then adds a “build: skip: True # [win32]” line to skip Windows
-builds.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.filter_lines_regex">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">filter_lines_regex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lines</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">regex</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">substitute</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#filter_lines_regex"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.filter_lines_regex" title="Permalink to this definition">¶</a></dt>
-<dd><p>Substitutes <strong>substitute</strong> for every match to <strong>regex</strong> in each line of
-<strong>lines</strong>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>lines</strong> (<em>iterable of strings</em>) – </p></li>
-<li><p><strong>regex</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – </p></li>
-<li><p><strong>substitute</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – </p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.main">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.main" title="Permalink to this definition">¶</a></dt>
-<dd><p>Adding support for arguments here</p>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.remove_empty_lines">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">remove_empty_lines</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lines</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#remove_empty_lines"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.remove_empty_lines" title="Permalink to this definition">¶</a></dt>
-<dd><p>Removes consecutive empty lines in <strong>lines</strong>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lines</strong> (<em>iterable of strings</em>) – </p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
 <dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.write_recipe">
 <span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">write_recipe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recipe_dir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'.'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recursive</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#write_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.write_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Call out to to <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code>.</p>
@@ -286,7 +177,7 @@ builds.</p></li>
 <a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe" title="bioconda_utils.bioconductor_skeleton.write_recipe"><code class="xref any py py-func docutils literal notranslate"><span class="pre">bioconductor_skeleton.write_recipe</span></code></a>; the only one handled here is
 <code class="docutils literal notranslate"><span class="pre">recursive</span></code>.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Package name. Can be case-sensitive CRAN name, or sanitized
 “r-pkgname” conda package name.</p></li>
@@ -304,6 +195,109 @@ removed from the recipe.</p></li>
 </dl>
 </dd></dl>
 
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_skeleton_files">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_skeleton_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_skeleton_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_skeleton_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cleans output files created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to make them
+conda-forge compatible.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Package name. Can be case-sensitive CRAN name, or sanitized
+“r-pkgname” conda package name.</p></li>
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, no bld.bat will be created and no <code class="docutils literal notranslate"><span class="pre">[win]</span></code> preprocess selectors
+will be added to the yaml</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_yaml_file">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_yaml_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_yaml_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_yaml_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cleans the YAML file output by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to make it conda-forge
+compatible.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, then adds a “build: skip: True # [win32]” line to skip Windows
+builds.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_build_file">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_build_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_build_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_build_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cleans build.sh file created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to be compatible with
+conda-forge.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – Included for consistency with other <code class="docutils literal notranslate"><span class="pre">clean_*</span></code> functions; does not have
+any effect for this function.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.clean_bld_file">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">clean_bld_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_windows</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#clean_bld_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.clean_bld_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cleans bld.bat file created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to be compatible with
+conda-forge.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a>) – If True, then the bld.bat file will be removed.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.filter_lines_regex">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">filter_lines_regex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lines</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">regex</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">substitute</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#filter_lines_regex"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.filter_lines_regex" title="Permalink to this definition">¶</a></dt>
+<dd><p>Substitutes <strong>substitute</strong> for every match to <strong>regex</strong> in each line of
+<strong>lines</strong>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>lines</strong> (<em>iterable of strings</em>) – </p></li>
+<li><p><strong>regex</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – </p></li>
+<li><p><strong>substitute</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.remove_empty_lines">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">remove_empty_lines</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lines</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#remove_empty_lines"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.remove_empty_lines" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes consecutive empty lines in <strong>lines</strong>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>lines</strong> (<em>iterable of strings</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.add_maintainers">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">add_maintainers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lines</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#add_maintainers"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.add_maintainers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Append the contents of “maintainers.yaml” to the end of a YAML file.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.cran_skeleton.main">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.cran_skeleton.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cran_skeleton.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.cran_skeleton.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adding support for arguments here</p>
+</dd></dl>
+
 </section>
 
 
@@ -317,7 +311,7 @@ removed from the recipe.</p></li>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

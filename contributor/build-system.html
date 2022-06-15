@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Build system &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/vega.min.js"></script>
     <script src="../_static/vega-lite.min.js"></script>
@@ -118,7 +119,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -128,7 +129,7 @@
           <div class="body" role="main">
             
   <section id="build-system">
-<h1>Build system<a class="headerlink" href="#build-system" title="Permalink to this headline">¶</a></h1>
+<h1>Build system<a class="headerlink" href="#build-system" title="Permalink to this heading">¶</a></h1>
 <p>The build system for Bioconda takes recipes and converts them into conda
 packages that are uploaded to anaconda.org as well as Docker containers that
 are uploaded to quay.io as part of the Biocontainers project. All of this happens in a transparent way, with all
@@ -146,7 +147,7 @@ their own specific channels. So there are a lot of moving parts that have to be
 coordinated, resulting in a complex system. That said, we do have some room to
 simplify, and do so where we can.</p>
 <section id="stages-of-a-bioconda-build">
-<h2>Stages of a bioconda build<a class="headerlink" href="#stages-of-a-bioconda-build" title="Permalink to this headline">¶</a></h2>
+<h2>Stages of a bioconda build<a class="headerlink" href="#stages-of-a-bioconda-build" title="Permalink to this heading">¶</a></h2>
 <p>A GitHub pull request, or any pushed changes to a GitHub pull request, triggers
 a new build on Azure DevOps. One build can contain mulitple recipes, limited only
 by the time limit imposed by Azure.
@@ -160,7 +161,7 @@ local system. This container is defined by <a class="reference external" href="h
 each build.</p>
 <p>The steps are orchestrated by the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline.yml">Azure config file</a>.</p>
 <section id="configure-the-environment">
-<h3>Configure the environment<a class="headerlink" href="#configure-the-environment" title="Permalink to this headline">¶</a></h3>
+<h3>Configure the environment<a class="headerlink" href="#configure-the-environment" title="Permalink to this heading">¶</a></h3>
 <p>N.B., due to transitioning to Azure, the remainder of this section is no longer relevant and requires rewritting.</p>
 <ul>
 <li><dl class="simple">
@@ -275,7 +276,7 @@ quay.io, it is available for use via <code class="docutils literal notranslate">
 </section>
 </section>
 <section id="the-bulk-branch">
-<h2>The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch<a class="headerlink" href="#the-bulk-branch" title="Permalink to this headline">¶</a></h2>
+<h2>The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch<a class="headerlink" href="#the-bulk-branch" title="Permalink to this heading">¶</a></h2>
 <p>Periodically, large-scale maintenance needs to be done on the channel. For
 example, when a new version of Bioconductor comes out, we need to update all
 <code class="docutils literal notranslate"><span class="pre">bioconductor-*</span></code> packages and rebuild them. Or if we change the version of
@@ -306,7 +307,7 @@ changes are then pushed to <code class="docutils literal notranslate"><span clas
 fully successful, a PR is opened to merge the changes into master.</p>
 </section>
 <section id="labels">
-<h2>Labels<a class="headerlink" href="#labels" title="Permalink to this headline">¶</a></h2>
+<h2>Labels<a class="headerlink" href="#labels" title="Permalink to this heading">¶</a></h2>
 <p>If the <code class="docutils literal notranslate"><span class="pre">BIOCONDA_LABEL</span></code> environment variable is set, then all uploads will
 have that label assigned to them, rather than <code class="docutils literal notranslate"><span class="pre">main</span></code>. Consequently, they can
 only be installed by adding <code class="docutils literal notranslate"><span class="pre">-c</span> <span class="pre">bioconda/BIOCONDA_LABEL</span></code> to the channels,
@@ -326,7 +327,7 @@ that uploads of biocontainers to quay.io will still occur!</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

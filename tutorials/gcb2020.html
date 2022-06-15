@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>GCB 2020 Tutorial &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/vega.min.js"></script>
     <script src="../_static/vega-lite.min.js"></script>
@@ -131,7 +132,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -141,9 +142,9 @@
           <div class="body" role="main">
             
   <section id="gcb-2020-tutorial">
-<h1>GCB 2020 Tutorial<a class="headerlink" href="#gcb-2020-tutorial" title="Permalink to this headline">¶</a></h1>
+<h1>GCB 2020 Tutorial<a class="headerlink" href="#gcb-2020-tutorial" title="Permalink to this heading">¶</a></h1>
 <section id="what-exactly-is-conda">
-<h2>What exactly is Conda?<a class="headerlink" href="#what-exactly-is-conda" title="Permalink to this headline">¶</a></h2>
+<h2>What exactly is Conda?<a class="headerlink" href="#what-exactly-is-conda" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><dl class="simple">
 <dt>A package and environment manager</dt><dd><ul>
@@ -172,7 +173,7 @@
 <p><img alt="tutorial-conda-miniconda-anaconda" class="no-scaled-link align-middle" src="../_images/tutorial-conda-miniconda-anaconda.jpg" style="width: 75%;" /></p>
 </section>
 <section id="conda-packages">
-<h2>Conda packages<a class="headerlink" href="#conda-packages" title="Permalink to this headline">¶</a></h2>
+<h2>Conda packages<a class="headerlink" href="#conda-packages" title="Permalink to this heading">¶</a></h2>
 <ul>
 <li><p>Specific versions</p></li>
 <li><p>Various sources (“channels”)</p></li>
@@ -198,13 +199,8 @@
 </ul>
 </section>
 <section id="conda-channels">
-<h2>Conda channels<a class="headerlink" href="#conda-channels" title="Permalink to this headline">¶</a></h2>
+<h2>Conda channels<a class="headerlink" href="#conda-channels" title="Permalink to this heading">¶</a></h2>
 <table class="tutorial docutils align-default" style="width: 100%">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><div class="graphviz"><img src="../_images/graphviz-57da9f255cd05e8c2e7469d3ba040a5351a4c160.png" alt="digraph {
   &quot;Channel 1&quot;
@@ -281,7 +277,7 @@ $ conda config --prepend channels conda-forge
 </ul>
 </section>
 <section id="finding-packages">
-<h2>Finding Packages<a class="headerlink" href="#finding-packages" title="Permalink to this headline">¶</a></h2>
+<h2>Finding Packages<a class="headerlink" href="#finding-packages" title="Permalink to this heading">¶</a></h2>
 <ul>
 <li><p>Search <a class="reference external" href="https://anaconda.org">https://anaconda.org</a></p></li>
 <li><dl>
@@ -315,7 +311,7 @@ pysam                       <span class="m">0</span>.16.0.1  py38hbdc2ae9_1  bio
 </ul>
 </section>
 <section id="practical-1">
-<h2>Practical 1<a class="headerlink" href="#practical-1" title="Permalink to this headline">¶</a></h2>
+<h2>Practical 1<a class="headerlink" href="#practical-1" title="Permalink to this heading">¶</a></h2>
 <p>What are the most recent versions of samtools and Snakemake?</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda search samtools <span class="p">|</span> tail -n1
 samtools                        <span class="m">1</span>.10      h9402c20_2  bioconda
@@ -326,16 +322,12 @@ snakemake                     <span class="m">5</span>.24.0               <span 
 </div>
 </section>
 <section id="conda-environments">
-<h2>Conda environments<a class="headerlink" href="#conda-environments" title="Permalink to this headline">¶</a></h2>
+<h2>Conda environments<a class="headerlink" href="#conda-environments" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>A (mostly) self-contained directory with a set of compatible packages</p></li>
 <li><p>Uses links to reduce disk space when possible</p></li>
 </ul>
 <table class="tutorial docutils align-default">
-<colgroup>
-<col style="width: 27%" />
-<col style="width: 73%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td rowspan="2"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── bin
 ├── conda-meta
@@ -388,7 +380,7 @@ snakemake                     <span class="m">5</span>.24.0               <span 
 </div>
 </section>
 <section id="conda-environments-common-commands">
-<h2>Conda environments – common commands<a class="headerlink" href="#conda-environments-common-commands" title="Permalink to this headline">¶</a></h2>
+<h2>Conda environments – common commands<a class="headerlink" href="#conda-environments-common-commands" title="Permalink to this heading">¶</a></h2>
 <ul>
 <li><dl>
 <dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">info</span> <span class="pre">--envs</span></code> (or <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>)</dt><dd><ul class="simple">
@@ -473,7 +465,7 @@ $ conda remove snakemake
 </div>
 </section>
 <section id="introducing-mamba">
-<h2>Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#introducing-mamba" title="Permalink to this headline">¶</a></h2>
+<h2>Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#introducing-mamba" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>Newer package manager called <code class="docutils literal notranslate"><span class="pre">mamba</span></code></p></li>
 <li><p>A reimplementation of <code class="docutils literal notranslate"><span class="pre">conda</span></code></p></li>
@@ -503,7 +495,7 @@ $ conda remove snakemake
 </ul>
 </section>
 <section id="practical-2">
-<h2>Practical 2<a class="headerlink" href="#practical-2" title="Permalink to this headline">¶</a></h2>
+<h2>Practical 2<a class="headerlink" href="#practical-2" title="Permalink to this heading">¶</a></h2>
 <ul>
 <li><p>Let’s create some new environments!</p></li>
 <li><dl>
@@ -534,7 +526,7 @@ $ conda info
 </li>
 </ul>
 <section id="practical-2-1">
-<h3>Practical 2.1<a class="headerlink" href="#practical-2-1" title="Permalink to this headline">¶</a></h3>
+<h3>Practical 2.1<a class="headerlink" href="#practical-2-1" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Create a new environment named “mapping” with <code class="docutils literal notranslate"><span class="pre">bwa-mem2</span></code> and <code class="docutils literal notranslate"><span class="pre">pysamstats</span></code></p></li>
 <li><p>What versions of <code class="docutils literal notranslate"><span class="pre">numpy</span></code> and <code class="docutils literal notranslate"><span class="pre">python</span></code> got installed in it?</p></li>
@@ -549,7 +541,7 @@ $ conda list <span class="s1">&#39;^(numpy|python)$&#39;</span>
 </div>
 </section>
 <section id="practical-2-2">
-<h3>Practical 2.2<a class="headerlink" href="#practical-2-2" title="Permalink to this headline">¶</a></h3>
+<h3>Practical 2.2<a class="headerlink" href="#practical-2-2" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Create a new environment for Snakemake with <code class="docutils literal notranslate"><span class="pre">mamba</span></code></p></li>
 </ul>
@@ -566,7 +558,7 @@ $ snakemake --version
 </section>
 </section>
 <section id="id1">
-<h2>Conda environments – common commands<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<h2>Conda environments – common commands<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
 <ul>
 <li><dl>
 <dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">export</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span></code></dt><dd><ul class="simple">
@@ -593,7 +585,7 @@ dependencies:
 </ul>
 </section>
 <section id="common-pitfalls">
-<h2>Common pitfalls<a class="headerlink" href="#common-pitfalls" title="Permalink to this headline">¶</a></h2>
+<h2>Common pitfalls<a class="headerlink" href="#common-pitfalls" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>Wrong channel order</p></li>
 <li><p>Installing packages in your <code class="docutils literal notranslate"><span class="pre">base</span></code> env</p></li>
@@ -602,7 +594,7 @@ dependencies:
 </ul>
 </section>
 <section id="conda-package-recipes">
-<h2>Conda package recipes<a class="headerlink" href="#conda-package-recipes" title="Permalink to this headline">¶</a></h2>
+<h2>Conda package recipes<a class="headerlink" href="#conda-package-recipes" title="Permalink to this heading">¶</a></h2>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ tree -A recipes/varlociraptor
 recipes/varlociraptor/
 ├── build.sh
@@ -623,7 +615,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="meta-yaml-sections">
-<h2><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections<a class="headerlink" href="#meta-yaml-sections" title="Permalink to this headline">¶</a></h2>
+<h2><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections<a class="headerlink" href="#meta-yaml-sections" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">package</span></code>: name and version</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: url and SHA256/MD5 checksums</p></li>
@@ -634,7 +626,7 @@ recipes/varlociraptor/
 <li><p><code class="docutils literal notranslate"><span class="pre">extras</span></code>: comments, maintainers, etc.</p></li>
 </ul>
 <section id="package">
-<h3><code class="docutils literal notranslate"><span class="pre">package</span></code><a class="headerlink" href="#package" title="Permalink to this headline">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">package</span></code><a class="headerlink" href="#package" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">package</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span><span class="w"></span>
 <span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.20.0</span><span class="w"></span>
@@ -650,7 +642,7 @@ recipes/varlociraptor/
 </div>
 </section>
 <section id="source">
-<h3><code class="docutils literal notranslate"><span class="pre">source</span></code><a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">source</span></code><a class="headerlink" href="#source" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/biocore/unifrac/archive/</span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="l l-Scalar l-Scalar-Plain">.tar.gz</span><span class="w"></span>
 <span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">e2692c683fddc6450ca4da049112b00264cf61aef1071d2ebc0f0539b86611b8</span><span class="w"></span>
@@ -662,7 +654,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="build">
-<h3><code class="docutils literal notranslate"><span class="pre">build</span></code><a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">build</span></code><a class="headerlink" href="#build" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
 </pre></div>
@@ -738,7 +730,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="requirements">
-<h3><code class="docutils literal notranslate"><span class="pre">requirements</span></code><a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">requirements</span></code><a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">compiler</span><span class="o">(</span><span class="s1">&#39;c&#39;</span><span class="o">)</span> <span class="cp">}}</span><span class="w"></span>
@@ -758,7 +750,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="a-note-on-pinnings">
-<h3>A note on “pinnings”<a class="headerlink" href="#a-note-on-pinnings" title="Permalink to this headline">¶</a></h3>
+<h3>A note on “pinnings”<a class="headerlink" href="#a-note-on-pinnings" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Packages need to be compatible</p></li>
 <li><p>Same compiler per platform</p></li>
@@ -785,7 +777,7 @@ samtools                        <span class="m">1</span>.10      h9402c20_2  bio
 </ul>
 </section>
 <section id="test">
-<h3><code class="docutils literal notranslate"><span class="pre">test</span></code><a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">test</span></code><a class="headerlink" href="#test" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">imports</span><span class="p">:</span><span class="w"></span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane</span><span class="w"></span>
@@ -800,7 +792,7 @@ samtools                        <span class="m">1</span>.10      h9402c20_2  bio
 </ul>
 </section>
 <section id="about-extra">
-<h3><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code><a class="headerlink" href="#about-extra" title="Permalink to this headline">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code><a class="headerlink" href="#about-extra" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-yaml-jinja notranslate"><div class="highlight"><pre><span></span>about:
   home: https://github.com/vembrane/vembrane
   license: MIT
@@ -819,7 +811,7 @@ extra:
 </section>
 </section>
 <section id="don-t-fear-skeletons">
-<h2>Don’t fear skeletons<a class="headerlink" href="#don-t-fear-skeletons" title="Permalink to this headline">¶</a></h2>
+<h2>Don’t fear skeletons<a class="headerlink" href="#don-t-fear-skeletons" title="Permalink to this heading">¶</a></h2>
 <ul>
 <li><p>Making recipes manually takes time</p></li>
 <li><dl>
@@ -845,7 +837,7 @@ $ conda-skeleton pypi vembrane
 </ul>
 </section>
 <section id="practical-3">
-<h2>Practical 3<a class="headerlink" href="#practical-3" title="Permalink to this headline">¶</a></h2>
+<h2>Practical 3<a class="headerlink" href="#practical-3" title="Permalink to this heading">¶</a></h2>
 <p>Make a new <code class="docutils literal notranslate"><span class="pre">cutadapt</span></code> recipe</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>conda-build conda-build
 $ conda activate conda-build
@@ -857,7 +849,7 @@ $ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit bu
 </div>
 </section>
 <section id="common-problems">
-<h2>Common problems<a class="headerlink" href="#common-problems" title="Permalink to this headline">¶</a></h2>
+<h2>Common problems<a class="headerlink" href="#common-problems" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>Compiling C/C++ packages can be troublesome</p></li>
 <li><p>The compiler is NOT called <code class="docutils literal notranslate"><span class="pre">gcc</span></code></p></li>
@@ -866,7 +858,7 @@ $ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit bu
 </ul>
 </section>
 <section id="practical-4-and-or-q-a">
-<h2>Practical 4 and/or Q&amp;A<a class="headerlink" href="#practical-4-and-or-q-a" title="Permalink to this headline">¶</a></h2>
+<h2>Practical 4 and/or Q&amp;A<a class="headerlink" href="#practical-4-and-or-q-a" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a> tour?</p></li>
 <li><dl class="simple">
@@ -905,7 +897,7 @@ $ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit bu
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -27,7 +27,7 @@ pymlst
       
       
 
-      ``2.1.2-0``
+      ``2.1.3-0``,  ``2.1.2-0``
 
       
 
@@ -80,7 +80,7 @@ pymlst
 
     <script>
         var package = "pymlst";
-        var versions = ["2.1.2"];
+        var versions = ["2.1.3","2.1.2"];
     </script>
 
 

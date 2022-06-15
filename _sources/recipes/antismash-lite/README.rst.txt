@@ -33,7 +33,7 @@ antismash-lite
       
       
 
-      ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
 
@@ -93,7 +93,7 @@ antismash-lite
 
     <script>
         var package = "antismash-lite";
-        var versions = ["6.1.0","6.0.1","6.0.1"];
+        var versions = ["6.1.1","6.1.0","6.0.1","6.0.1"];
     </script>
 
 

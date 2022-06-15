@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>bioconda_utils &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,14 +15,15 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
     <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bot" href="bioconda_utils.bot.html" />
-    <link rel="prev" title="bioconda-utils" href="../bioconda-utils.html" />
+    <link rel="next" title="lint" href="bioconda_utils.lint.html" />
+    <link rel="prev" title="Developer Docs" href="../index.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -76,9 +77,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">bioconda_utils</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
@@ -101,7 +100,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
@@ -125,7 +123,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -135,29 +133,18 @@
           <div class="body" role="main">
             
   <section id="module-bioconda_utils">
-<span id="bioconda-utils"></span><h1>bioconda_utils<a class="headerlink" href="#module-bioconda_utils" title="Permalink to this headline">¶</a></h1>
+<span id="bioconda-utils"></span><h1>bioconda_utils<a class="headerlink" href="#module-bioconda_utils" title="Permalink to this heading">¶</a></h1>
 <p>Bioconda Utilities Package</p>
 <p class="rubric">Subpackages</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.bot.html#module-bioconda_utils.bot" title="bioconda_utils.bot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bioconda_utils.bot</span></code></a></p></td>
-<td><p>Bioconda Bot &amp; Github App</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.lint.html#module-bioconda_utils.lint" title="bioconda_utils.lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bioconda_utils.lint</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint.html#module-bioconda_utils.lint" title="bioconda_utils.lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bioconda_utils.lint</span></code></a></p></td>
 <td><p>Recipe Linter</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Submodules</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.aiopipe.html#module-bioconda_utils.aiopipe" title="bioconda_utils.aiopipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">aiopipe</span></code></a></p></td>
 <td><p>Utilities for Asynchronous Processing</p></td>
@@ -232,7 +219,7 @@
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

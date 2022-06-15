@@ -12,7 +12,7 @@ tbpore
 
    Mycobacterium tuberculosis genomic analysis from Nanopore sequencing data
 
-   :homepage: https://github.com/mbhall88/tbpore/
+   :homepage: https://github.com/mbhall88/tbpore
    :license: MIT
    :recipe: /`tbpore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbpore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbpore/meta.yaml>`_
 
@@ -27,27 +27,26 @@ tbpore
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends bcftools: 
-   :depends click: 
-   :depends cyvcf2: 
-   :depends importlib_metadata: ``>=1.7,<2.0.0``
-   :depends loguru: 
-   :depends minimap2: 
-   :depends mykrobe: 
-   :depends networkx: 
-   :depends pandas: 
-   :depends psdm: 
-   :depends pysam: 
-   :depends python: 
-   :depends pyyaml: 
+   :depends bcftools: ``1.13.*``
+   :depends click: ``>=8.0.3,<9.0``
+   :depends cyvcf2: ``>=0.30,<1.0``
+   :depends loguru: ``>=0.5.3,<1.0``
+   :depends minimap2: ``2.22.*``
+   :depends mykrobe: ``0.11.*``
+   :depends networkx: ``>=2.8,<3.0``
+   :depends pandas: ``>=1.4.2,<2.0``
+   :depends psdm: ``0.1.*``
+   :depends pysam: ``0.17.*``
+   :depends python: ``>=3.8,<3.10``
+   :depends pyyaml: ``>=6.0``
    :depends rasusa: 
-   :depends samtools: 
-   :depends seqkit: 
+   :depends samtools: ``1.13.*``
+   :depends seqkit: ``2.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +78,7 @@ tbpore
 
     <script>
         var package = "tbpore";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

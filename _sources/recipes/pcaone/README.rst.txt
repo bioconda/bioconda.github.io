@@ -27,17 +27,18 @@ pcaone
       
       
 
-      ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.0.0-0``
+      ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.0.0-0``
 
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends intel-openmp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends mkl: 
-   :depends mkl-include: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ pcaone
 
     <script>
         var package = "pcaone";
-        var versions = ["0.1.8","0.1.7","0.1.7","0.0.0"];
+        var versions = ["0.1.9","0.1.8","0.1.8","0.1.7","0.1.7"];
     </script>
 
 

@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>lint &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
@@ -22,7 +23,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="check_build_help" href="bioconda_utils.lint.check_build_help.html" />
-    <link rel="prev" title="config" href="bioconda_utils.bot.config.html" />
+    <link rel="prev" title="bioconda_utils" href="bioconda_utils.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -76,20 +77,31 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">lint</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#writing-additional-checks">Writing additional checks</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#module-autodocs">Module Autodocs</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_build_help.html">check_build_help</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_completeness.html">check_completeness</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_deprecation.html">check_deprecation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_noarch.html">check_noarch</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_policy.html">check_policy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_repo.html">check_repo</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_syntax.html">check_syntax</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">lint</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#writing-additional-checks">Writing additional checks</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-autodocs">Module Autodocs</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">cran_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">docker_utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.autobump.html">autobump</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
 </ul>
@@ -115,7 +127,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -125,10 +137,10 @@
           <div class="body" role="main">
             
   <section id="module-bioconda_utils.lint">
-<span id="lint"></span><h1>lint<a class="headerlink" href="#module-bioconda_utils.lint" title="Permalink to this headline">¶</a></h1>
+<span id="lint"></span><h1>lint<a class="headerlink" href="#module-bioconda_utils.lint" title="Permalink to this heading">¶</a></h1>
 <p>Recipe Linter</p>
 <section id="writing-additional-checks">
-<h2>Writing additional checks<a class="headerlink" href="#writing-additional-checks" title="Permalink to this headline">¶</a></h2>
+<h2>Writing additional checks<a class="headerlink" href="#writing-additional-checks" title="Permalink to this heading">¶</a></h2>
 <p>Lint checks are defined in <code class="xref py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.lint.checks</span></code> as
 subclasses of <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintCheck</span></code></a>. It might be easiest to have a look at that
 module and the already existing checks and go from there.</p>
@@ -182,7 +194,7 @@ specify the line number directly (<code class="docutils literal notranslate"><sp
 </ul>
 </section>
 <section id="module-autodocs">
-<h2>Module Autodocs<a class="headerlink" href="#module-autodocs" title="Permalink to this headline">¶</a></h2>
+<h2>Module Autodocs<a class="headerlink" href="#module-autodocs" title="Permalink to this heading">¶</a></h2>
 <p class="rubric">Environment Variables</p>
 <dl class="std envvar">
 <dt class="sig sig-object std" id="envvar-LINT_SKIP">
@@ -195,10 +207,6 @@ checks for specific recipes, add strings of the following form:</p>
 </dd></dl>
 
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint.check_build_help.html#module-bioconda_utils.lint.check_build_help" title="bioconda_utils.lint.check_build_help"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_build_help</span></code></a></p></td>
 <td><p>Build tool usage</p></td>
@@ -225,10 +233,6 @@ checks for specific recipes, add strings of the following form:</p>
 </table>
 <p class="rubric">Functions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.get_checks" title="bioconda_utils.lint.get_checks"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_checks</span></code></a>()</p></td>
 <td><p>Loads and returns the available lint checks</p></td>
@@ -237,10 +241,6 @@ checks for specific recipes, add strings of the following form:</p>
 </table>
 <p class="rubric">Classes</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LintCheck</span></code></a>(_linter)</p></td>
 <td><p>Base class for lint checks</p></td>
@@ -291,9 +291,195 @@ checks for specific recipes, add strings of the following form:</p>
 </table>
 <p class="rubric">Documentation</p>
 <dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.Severity">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">Severity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Severity"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Severity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Severities for lint checks</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.Severity.INFO">
+<span class="sig-name descname"><span class="pre">INFO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#bioconda_utils.lint.Severity.INFO" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks of this severity are purely informational</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.Severity.WARNING">
+<span class="sig-name descname"><span class="pre">WARNING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20</span></em><a class="headerlink" href="#bioconda_utils.lint.Severity.WARNING" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks of this severity indicate possible problems</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.Severity.ERROR">
+<span class="sig-name descname"><span class="pre">ERROR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">30</span></em><a class="headerlink" href="#bioconda_utils.lint.Severity.ERROR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks of this severity must be fixed and will fail a recipe.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">LintMessage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">check</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><span class="pre">LintCheck</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">severity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#bioconda_utils.lint.Severity" title="bioconda_utils.lint.Severity"><span class="pre">Severity</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">Severity.ERROR</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><span class="pre">int</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><span class="pre">int</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'meta.yaml'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">canfix</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintMessage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintMessage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Message issued by LintChecks</p>
+<p>Create new instance of LintMessage(recipe, check, severity, title, body, start_line, end_line, fname, canfix)</p>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.recipe">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">recipe</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe this message refers to</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.check">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">check</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.check" title="Permalink to this definition">¶</a></dt>
+<dd><p>The check issuing the message</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.severity">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">severity</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.severity" title="Permalink to this definition">¶</a></dt>
+<dd><p>The severity of the message</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.title">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">title</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.title" title="Permalink to this definition">¶</a></dt>
+<dd><p>Message title to be presented to user</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.body">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">body</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.body" title="Permalink to this definition">¶</a></dt>
+<dd><p>Message body to be presented to user</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.start_line">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">start_line</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.start_line" title="Permalink to this definition">¶</a></dt>
+<dd><p>Line at which problem begins</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.end_line">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">end_line</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.end_line" title="Permalink to this definition">¶</a></dt>
+<dd><p>Line at which problem ends</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.fname">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">fname</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.fname" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name of file in which error was found</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.canfix">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">canfix</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.canfix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether the problem can be auto fixed</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.get_level">
+<span class="sig-name descname"><span class="pre">get_level</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintMessage.get_level"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintMessage.get_level" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return level string as required by github</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheckMeta">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">LintCheckMeta</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">bases</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.10)"><span class="pre">Tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/functions.html#type" title="(in Python v3.10)"><span class="pre">type</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">namespace</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.10)"><span class="pre">Dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.10)"><span class="pre">Any</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheckMeta"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheckMeta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Meta class for lint checks</p>
+<p>Handles registry</p>
+<p>Creates LintCheck classes</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioconda_utils.lint.get_checks">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">get_checks</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#get_checks"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.get_checks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads and returns the available lint checks</p>
+</dd></dl>
+
+<dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">LintCheck</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck" title="Permalink to this definition">¶</a></dt>
 <dd><p>Base class for lint checks</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.severity">
+<span class="sig-name descname"><span class="pre">severity</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#bioconda_utils.lint.Severity" title="bioconda_utils.lint.Severity"><span class="pre">Severity</span></a></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">30</span></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.severity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Severity of this check. Only ERROR causes a lint failure.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.requires">
+<span class="sig-name descname"><span class="pre">requires</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><span class="pre">LintCheck</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.requires" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks that must have passed for this check to be executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.run">
+<span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.run"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the check on a recipe. Called by Linter</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe to be linted</p></li>
+<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether to attempt to fix the recipe</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.check_recipe">
+<span class="sig-name descname"><span class="pre">check_recipe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe</p>
+<p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
+to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe under test.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.check_source">
+<span class="sig-name descname"><span class="pre">check_source</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_source"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_source" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on each source</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>source</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>) – Dictionary containing the source section</p></li>
+<li><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Path to the section. Can be <code class="docutils literal notranslate"><span class="pre">source</span></code> or
+<code class="docutils literal notranslate"><span class="pre">source/0</span></code> (1,2,3…).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
 <dl class="py method">
 <dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.check_deps">
 <span class="sig-name descname"><span class="pre">check_deps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deps</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_deps"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_deps" title="Permalink to this definition">¶</a></dt>
@@ -309,45 +495,11 @@ checks for specific recipes, add strings of the following form:</p>
 <p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
 parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>deps</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]]) – Dictionary mapping requirements occurring in the recipe
 to their locations within the recipe.</p>
 </dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.check_recipe">
-<span class="sig-name descname"><span class="pre">check_recipe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_recipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Execute check on recipe</p>
-<p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
-to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe under test.</p>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.check_source">
-<span class="sig-name descname"><span class="pre">check_source</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_source"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_source" title="Permalink to this definition">¶</a></dt>
-<dd><p>Execute check on each source</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>source</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>) – Dictionary containing the source section</p></li>
-<li><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Path to the section. Can be <code class="docutils literal notranslate"><span class="pre">source</span></code> or
-<code class="docutils literal notranslate"><span class="pre">source/0</span></code> (1,2,3…).</p></li>
-</ul>
-</dd>
-<dt class="field-even">Return type</dt>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
 <dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
@@ -358,29 +510,8 @@ to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" t
 <span class="sig-name descname"><span class="pre">fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
 <dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.make_message">
-<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">make_message</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">canfix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.make_message"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.make_message" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a LintMessage</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, a lint location within the recipe
-meta.yaml pointing to this section/subsection will
-be added to the message</p></li>
-<li><p><strong>fname</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, the message will apply to this file, rather than the
-recipe meta.yaml</p></li>
-<li><p><strong>line</strong> – If specified, sets the line number for the message directly</p></li>
-</ul>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -391,7 +522,7 @@ recipe meta.yaml</p></li>
 <dd><p>Add a message to the lint results</p>
 <p>Also calls <a class="reference internal" href="#bioconda_utils.lint.LintCheck.fix" title="bioconda_utils.lint.LintCheck.fix"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">fix</span></code></a> if we are supposed to be fixing.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, a lint location within the recipe
 meta.yaml pointing to this section/subsection will
@@ -403,134 +534,302 @@ recipe meta.yaml</p></li>
 something other than None.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return type</dt>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
 <dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
 
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.messages">
-<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">bioconda_utils.lint.LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.messages" title="Permalink to this definition">¶</a></dt>
-<dd><p>Messages collected running tests</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.recipe">
-<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">bioconda_utils.recipe.Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.recipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Recipe currently being checked</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.requires">
-<span class="sig-name descname"><span class="pre">requires</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><span class="pre">bioconda_utils.lint.LintCheck</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.requires" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks that must have passed for this check to be executed.</p>
-</dd></dl>
-
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.run">
-<span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.run"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.run" title="Permalink to this definition">¶</a></dt>
-<dd><p>Run the check on a recipe. Called by Linter</p>
+<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.make_message">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">make_message</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">canfix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.make_message"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.make_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a LintMessage</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe to be linted</p></li>
-<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether to attempt to fix the recipe</p></li>
+<li><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, a lint location within the recipe
+meta.yaml pointing to this section/subsection will
+be added to the message</p></li>
+<li><p><strong>fname</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, the message will apply to this file, rather than the
+recipe meta.yaml</p></li>
+<li><p><strong>line</strong> – If specified, sets the line number for the message directly</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
 
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.linter_failure">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">linter_failure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#linter_failure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.linter_failure" title="Permalink to this definition">¶</a></dt>
+<dd><p>An unexpected exception was raised during linting</p>
+<p>Please file an issue at the bioconda-utils repo</p>
 <dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.severity">
-<span class="sig-name descname"><span class="pre">severity</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#bioconda_utils.lint.Severity" title="bioconda_utils.lint.Severity"><span class="pre">bioconda_utils.lint.Severity</span></a></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">30</span></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.severity" title="Permalink to this definition">¶</a></dt>
-<dd><p>Severity of this check. Only ERROR causes a lint failure.</p>
+<dt class="sig sig-object py" id="bioconda_utils.lint.linter_failure.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.linter_failure.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheck.try_fix">
-<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.try_fix" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.lint.linter_failure.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.linter_failure.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.linter_failure.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.linter_failure.try_fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintCheckMeta">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">LintCheckMeta</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">bases</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.10)"><span class="pre">Tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/functions.html#type" title="(in Python v3.10)"><span class="pre">type</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">namespace</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.10)"><span class="pre">Dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.10)"><span class="pre">Any</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheckMeta"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheckMeta" title="Permalink to this definition">¶</a></dt>
-<dd><p>Meta class for lint checks</p>
-<p>Handles registry</p>
-<p>Creates LintCheck classes</p>
+<dt class="sig sig-object py" id="bioconda_utils.lint.duplicate_key_in_meta_yaml">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">duplicate_key_in_meta_yaml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#duplicate_key_in_meta_yaml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.duplicate_key_in_meta_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe meta.yaml contains a duplicate key</p>
+<p>This is invalid YAML, as it’s unclear what the structure should
+become. Please merge the two offending sections</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.duplicate_key_in_meta_yaml.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.duplicate_key_in_meta_yaml.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.duplicate_key_in_meta_yaml.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.duplicate_key_in_meta_yaml.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.duplicate_key_in_meta_yaml.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.duplicate_key_in_meta_yaml.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
 </dd></dl>
 
 <dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">LintMessage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">bioconda_utils.recipe.Recipe</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">check</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><span class="pre">LintCheck</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">severity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#bioconda_utils.lint.Severity" title="bioconda_utils.lint.Severity"><span class="pre">bioconda_utils.lint.Severity</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">Severity.ERROR</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><span class="pre">int</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><span class="pre">int</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'meta.yaml'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">canfix</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintMessage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintMessage" title="Permalink to this definition">¶</a></dt>
-<dd><p>Message issued by LintChecks</p>
-<p>Create new instance of LintMessage(recipe, check, severity, title, body, start_line, end_line, fname, canfix)</p>
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.body">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">body</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.body" title="Permalink to this definition">¶</a></dt>
-<dd><p>Message body to be presented to user</p>
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_version_or_name">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">missing_version_or_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_version_or_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.missing_version_or_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing name and/or version</p>
+<p>Please make sure the recipe has at least:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">package</span><span class="p">:</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">package_name</span>
+  <span class="n">version</span><span class="p">:</span> <span class="mf">0.12.34</span>
+</pre></div>
+</div>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_version_or_name.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.missing_version_or_name.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.canfix">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">canfix</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.canfix" title="Permalink to this definition">¶</a></dt>
-<dd><p>Whether the problem can be auto fixed</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_version_or_name.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.missing_version_or_name.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.check">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">check</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.check" title="Permalink to this definition">¶</a></dt>
-<dd><p>The check issuing the message</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_version_or_name.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.missing_version_or_name.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.end_line">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">end_line</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.end_line" title="Permalink to this definition">¶</a></dt>
-<dd><p>Line at which problem ends</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.fname">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">fname</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.fname" title="Permalink to this definition">¶</a></dt>
-<dd><p>Name of file in which error was found</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.empty_meta_yaml">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">empty_meta_yaml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#empty_meta_yaml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.empty_meta_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe has an empty meta.yaml!?</p>
+<p>Please check if you forgot to commit its contents.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.empty_meta_yaml.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.empty_meta_yaml.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
 </dd></dl>
 
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.get_level">
-<span class="sig-name descname"><span class="pre">get_level</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintMessage.get_level"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.LintMessage.get_level" title="Permalink to this definition">¶</a></dt>
-<dd><p>Return level string as required by github</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.empty_meta_yaml.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.empty_meta_yaml.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.recipe">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">recipe</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.recipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe this message refers to</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.empty_meta_yaml.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.empty_meta_yaml.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.severity">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">severity</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.severity" title="Permalink to this definition">¶</a></dt>
-<dd><p>The severity of the message</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.start_line">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">start_line</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.start_line" title="Permalink to this definition">¶</a></dt>
-<dd><p>Line at which problem begins</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_build">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">missing_build</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_build"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.missing_build" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a build section.</p>
+<p>Please add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
+  <span class="n">number</span><span class="p">:</span> <span class="mi">0</span>
+</pre></div>
+</div>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_build.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.missing_build.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
 </dd></dl>
 
-<dl class="py property">
-<dt class="sig sig-object py" id="bioconda_utils.lint.LintMessage.title">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">title</span></span><a class="headerlink" href="#bioconda_utils.lint.LintMessage.title" title="Permalink to this definition">¶</a></dt>
-<dd><p>Message title to be presented to user</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_build.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.missing_build.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
 </dd></dl>
 
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_build.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.missing_build.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_selector">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">unknown_selector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_selector"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_selector" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe failed to parse due to selector lines</p>
+<p>Please request help from &#64;bioconda/core.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_selector.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.unknown_selector.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_selector.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.unknown_selector.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_selector.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.unknown_selector.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_meta_yaml">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">missing_meta_yaml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_meta_yaml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.missing_meta_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a meta.yaml file</p>
+<p>Most commonly, this is because the file was accidentally
+named <code class="docutils literal notranslate"><span class="pre">meta.yml</span></code>. If so, rename it to <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_meta_yaml.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.missing_meta_yaml.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_meta_yaml.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.missing_meta_yaml.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.missing_meta_yaml.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.missing_meta_yaml.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.conda_render_failure">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">conda_render_failure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#conda_render_failure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.conda_render_failure" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe was not understood by conda-build</p>
+<p>Please request help from &#64;bioconda/core.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.conda_render_failure.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.conda_render_failure.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.conda_render_failure.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.conda_render_failure.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.conda_render_failure.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.conda_render_failure.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.jinja_render_failure">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">jinja_render_failure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#jinja_render_failure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.jinja_render_failure" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe could not be rendered by Jinja2</p>
+<p>Check if you are missing quotes or curly braces in Jinja2 template
+expressions. (The parts with <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">something</span> <span class="pre">}}</span></code> or <code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">set</span>
+<span class="pre">var=&quot;value&quot;</span> <span class="pre">%}</span></code>).</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.jinja_render_failure.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.jinja_render_failure.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.jinja_render_failure.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.jinja_render_failure.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.jinja_render_failure.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.jinja_render_failure.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_check">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">unknown_check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Something went wrong inside the linter</p>
+<p>Please request help from &#64;bioconda/core</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_check.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.unknown_check.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_check.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><span class="pre">Recipe</span></a></em><a class="headerlink" href="#bioconda_utils.lint.unknown_check.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_check.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.unknown_check.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="bioconda_utils.lint.recipe_error_to_lint_check">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">recipe_error_to_lint_check</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{&lt;class</span> <span class="pre">'bioconda_utils.recipe.DuplicateKey'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.duplicate_key_in_meta_yaml'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.MissingKey'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.missing_version_or_name'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.EmptyRecipe'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.empty_meta_yaml'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.MissingBuild'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.missing_build'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.HasSelector'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.unknown_selector'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.MissingMetaYaml'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.missing_meta_yaml'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.CondaRenderFailure'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.conda_render_failure'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.RenderFailure'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.jinja_render_failure'&gt;}</span></em><a class="headerlink" href="#bioconda_utils.lint.recipe_error_to_lint_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Maps <code class="xref any docutils literal notranslate"><span class="pre">_recipe.RecipeError</span></code> to <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintCheck</span></code></a></p>
 </dd></dl>
 
 <dl class="py class">
@@ -538,7 +837,7 @@ something other than None.</p></li>
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">Linter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recipe_folder</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exclude</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nocatch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Lint executor</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>config</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>) – Configuration dict as provided by <a class="reference internal" href="bioconda_utils.utils.html#bioconda_utils.utils.load_config" title="bioconda_utils.utils.load_config"><code class="xref any py py-func docutils literal notranslate"><span class="pre">utils.load_config()</span></code></a>.</p></li>
 <li><p><strong>recipe_folder</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Folder which recipes are located.</p></li>
@@ -556,17 +855,11 @@ linter_error lint messages. Used by tests.</p></li>
 </dd>
 </dl>
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.Linter.clear_messages">
-<span class="sig-name descname"><span class="pre">clear_messages</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.clear_messages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.clear_messages" title="Permalink to this definition">¶</a></dt>
-<dd><p>Clears the lint messages stored in linter</p>
-</dd></dl>
-
-<dl class="py method">
 <dt class="sig sig-object py" id="bioconda_utils.lint.Linter.get_blacklist">
 <span class="sig-name descname"><span class="pre">get_blacklist</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.get_blacklist"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.get_blacklist" title="Permalink to this definition">¶</a></dt>
 <dd><p>Loads the blacklist as per linter configuration</p>
 <dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Set" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Set</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
 </dd>
 </dl>
@@ -577,52 +870,16 @@ linter_error lint messages. Used by tests.</p></li>
 <span class="sig-name descname"><span class="pre">get_messages</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.get_messages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.get_messages" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the lint messages collected during linting</p>
 <dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.Linter.lint">
-<span class="sig-name descname"><span class="pre">lint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint" title="Permalink to this definition">¶</a></dt>
-<dd><p>Run linter on multiple recipes</p>
-<p>Lint messages are collected in the linter. They can be retrieved
-with <a class="reference internal" href="#bioconda_utils.lint.Linter.get_messages" title="bioconda_utils.lint.Linter.get_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_messages</span></code></a> and the list cleared with <a class="reference internal" href="#bioconda_utils.lint.Linter.clear_messages" title="bioconda_utils.lint.Linter.clear_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">clear_messages</span></code></a>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>recipe_names</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – List of names of recipes to lint</p></li>
-<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether checks should attempt to fix detected issues</p></li>
-</ul>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
-</dd>
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>True if issues with errors were found</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="bioconda_utils.lint.Linter.lint_one">
-<span class="sig-name descname"><span class="pre">lint_one</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint_one"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint_one" title="Permalink to this definition">¶</a></dt>
-<dd><p>Run the linter on a single recipe</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>recipe_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Mames of recipe to lint</p></li>
-<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether checks should attempt to fix detected issues</p></li>
-</ul>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
-</dd>
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>List of collected messages</p>
-</dd>
-</dl>
+<dt class="sig sig-object py" id="bioconda_utils.lint.Linter.clear_messages">
+<span class="sig-name descname"><span class="pre">clear_messages</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.clear_messages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.clear_messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clears the lint messages stored in linter</p>
 </dd></dl>
 
 <dl class="py method">
@@ -634,125 +891,48 @@ with <a class="reference internal" href="#bioconda_utils.lint.Linter.get_message
 check will be skipped.</p>
 </dd></dl>
 
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.Linter.lint">
+<span class="sig-name descname"><span class="pre">lint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run linter on multiple recipes</p>
+<p>Lint messages are collected in the linter. They can be retrieved
+with <a class="reference internal" href="#bioconda_utils.lint.Linter.get_messages" title="bioconda_utils.lint.Linter.get_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_messages</span></code></a> and the list cleared with <a class="reference internal" href="#bioconda_utils.lint.Linter.clear_messages" title="bioconda_utils.lint.Linter.clear_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">clear_messages</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe_names</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – List of names of recipes to lint</p></li>
+<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether checks should attempt to fix detected issues</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>True if issues with errors were found</p>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.Severity">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">Severity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Severity"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Severity" title="Permalink to this definition">¶</a></dt>
-<dd><p>Severities for lint checks</p>
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.Severity.ERROR">
-<span class="sig-name descname"><span class="pre">ERROR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">30</span></em><a class="headerlink" href="#bioconda_utils.lint.Severity.ERROR" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks of this severity must be fixed and will fail a recipe.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.Linter.lint_one">
+<span class="sig-name descname"><span class="pre">lint_one</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint_one"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint_one" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the linter on a single recipe</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Mames of recipe to lint</p></li>
+<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether checks should attempt to fix detected issues</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>List of collected messages</p>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.Severity.INFO">
-<span class="sig-name descname"><span class="pre">INFO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#bioconda_utils.lint.Severity.INFO" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks of this severity are purely informational</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="bioconda_utils.lint.Severity.WARNING">
-<span class="sig-name descname"><span class="pre">WARNING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20</span></em><a class="headerlink" href="#bioconda_utils.lint.Severity.WARNING" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks of this severity indicate possible problems</p>
-</dd></dl>
-
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.conda_render_failure">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">conda_render_failure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#conda_render_failure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.conda_render_failure" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe was not understood by conda-build</p>
-<p>Please request help from &#64;bioconda/core.</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.duplicate_key_in_meta_yaml">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">duplicate_key_in_meta_yaml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#duplicate_key_in_meta_yaml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.duplicate_key_in_meta_yaml" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe meta.yaml contains a duplicate key</p>
-<p>This is invalid YAML, as it’s unclear what the structure should
-become. Please merge the two offending sections</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.empty_meta_yaml">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">empty_meta_yaml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#empty_meta_yaml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.empty_meta_yaml" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe has an empty meta.yaml!?</p>
-<p>Please check if you forgot to commit its contents.</p>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="bioconda_utils.lint.get_checks">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">get_checks</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#get_checks"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.get_checks" title="Permalink to this definition">¶</a></dt>
-<dd><p>Loads and returns the available lint checks</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.jinja_render_failure">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">jinja_render_failure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#jinja_render_failure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.jinja_render_failure" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe could not be rendered by Jinja2</p>
-<p>Check if you are missing quotes or curly braces in Jinja2 template
-expressions. (The parts with <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">something</span> <span class="pre">}}</span></code> or <code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">set</span>
-<span class="pre">var=&quot;value&quot;</span> <span class="pre">%}</span></code>).</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.linter_failure">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">linter_failure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#linter_failure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.linter_failure" title="Permalink to this definition">¶</a></dt>
-<dd><p>An unexpected exception was raised during linting</p>
-<p>Please file an issue at the bioconda-utils repo</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.missing_build">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">missing_build</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_build"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.missing_build" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe is missing a build section.</p>
-<p>Please add:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
-  <span class="n">number</span><span class="p">:</span> <span class="mi">0</span>
-</pre></div>
-</div>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.missing_meta_yaml">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">missing_meta_yaml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_meta_yaml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.missing_meta_yaml" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe is missing a meta.yaml file</p>
-<p>Most commonly, this is because the file was accidentally
-named <code class="docutils literal notranslate"><span class="pre">meta.yml</span></code>. If so, rename it to <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.missing_version_or_name">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">missing_version_or_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_version_or_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.missing_version_or_name" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe is missing name and/or version</p>
-<p>Please make sure the recipe has at least:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">package</span><span class="p">:</span>
-  <span class="n">name</span><span class="p">:</span> <span class="n">package_name</span>
-  <span class="n">version</span><span class="p">:</span> <span class="mf">0.12.34</span>
-</pre></div>
-</div>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="bioconda_utils.lint.recipe_error_to_lint_check">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">recipe_error_to_lint_check</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{&lt;class</span> <span class="pre">'bioconda_utils.recipe.DuplicateKey'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.duplicate_key_in_meta_yaml'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.MissingKey'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.missing_version_or_name'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.EmptyRecipe'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.empty_meta_yaml'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.MissingBuild'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.missing_build'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.HasSelector'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.unknown_selector'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.MissingMetaYaml'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.missing_meta_yaml'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.CondaRenderFailure'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.conda_render_failure'&gt;,</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.recipe.RenderFailure'&gt;:</span> <span class="pre">&lt;class</span> <span class="pre">'bioconda_utils.lint.jinja_render_failure'&gt;}</span></em><a class="headerlink" href="#bioconda_utils.lint.recipe_error_to_lint_check" title="Permalink to this definition">¶</a></dt>
-<dd><p>Maps <code class="xref any docutils literal notranslate"><span class="pre">_recipe.RecipeError</span></code> to <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintCheck</span></code></a></p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_check">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">unknown_check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_check" title="Permalink to this definition">¶</a></dt>
-<dd><p>Something went wrong inside the linter</p>
-<p>Please request help from &#64;bioconda/core</p>
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py" id="bioconda_utils.lint.unknown_selector">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.</span></span><span class="sig-name descname"><span class="pre">unknown_selector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_selector"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_selector" title="Permalink to this definition">¶</a></dt>
-<dd><p>The recipe failed to parse due to selector lines</p>
-<p>Please request help from &#64;bioconda/core.</p>
 </dd></dl>
 
 </section>
@@ -769,7 +949,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

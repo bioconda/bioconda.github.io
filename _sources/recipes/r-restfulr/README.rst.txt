@@ -27,13 +27,13 @@ r-restfulr
       
       
 
-      ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
+      ``0.0.14-0``,  ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
 
       
 
    
    :depends bioconductor-s4vectors: ``>=0.13.15``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcurl: 
    :depends r-rjson: 
@@ -70,7 +70,7 @@ r-restfulr
 
     <script>
         var package = "r-restfulr";
-        var versions = ["0.0.13","0.0.13","0.0.13"];
+        var versions = ["0.0.14","0.0.13","0.0.13","0.0.13"];
     </script>
 
 

@@ -27,13 +27,13 @@ purge_dups
       
       
 
-      ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.0.1-0``
+      ``1.2.6-0``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends minimap2: 
    :requirements:
 
@@ -66,7 +66,7 @@ purge_dups
 
     <script>
         var package = "purge_dups";
-        var versions = ["1.2.5","1.2.5","1.2.5","1.0.1"];
+        var versions = ["1.2.6","1.2.5","1.2.5","1.2.5","1.0.1"];
     </script>
 
 

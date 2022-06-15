@@ -27,12 +27,12 @@ perl-specio
       
       
 
-      ``0.47-0``,  ``0.43-0``,  ``0.42-0``
+      ``0.48-0``,  ``0.47-0``,  ``0.43-0``,  ``0.42-0``
 
       
 
    
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-devel-stacktrace: 
    :depends perl-eval-closure: 
    :depends perl-module-runtime: 
@@ -72,7 +72,7 @@ perl-specio
 
     <script>
         var package = "perl-specio";
-        var versions = ["0.47","0.43","0.42"];
+        var versions = ["0.48","0.47","0.43","0.42"];
     </script>
 
 

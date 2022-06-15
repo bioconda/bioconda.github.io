@@ -12,8 +12,8 @@ parse_mito_blast
 
    Filtering blast out from querying assembly against mitochondrial database.
 
-   :homepage: https://github.com/VGP/vgp-assembly/tree/master/pipeline/VGP_decontamination_pipe
-   :license: MIT
+   :homepage: https://github.com/VGP/vgp-assembly/tree/master/galaxy_tools/parse_mito_blast
+   :license: BSD
    :recipe: /`parse_mito_blast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parse_mito_blast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parse_mito_blast/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ parse_mito_blast
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -65,7 +65,7 @@ parse_mito_blast
 
     <script>
         var package = "parse_mito_blast";
-        var versions = ["1.0.1","1.0.1","1.0"];
+        var versions = ["1.0.2","1.0.1","1.0.1","1.0"];
     </script>
 
 

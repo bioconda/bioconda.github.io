@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Getting Started &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/vega.min.js"></script>
     <script src="../_static/vega-lite.min.js"></script>
@@ -108,7 +109,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -118,10 +119,10 @@
           <div class="body" role="main">
             
   <section id="getting-started">
-<span id="using-bioconda"></span><h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<span id="using-bioconda"></span><h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this heading">¶</a></h1>
 <p><strong>Note:</strong> <em>Bioconda supports only 64-bit Linux and Mac OS</em>.</p>
 <section id="install-conda">
-<h2>1. Install conda<a class="headerlink" href="#install-conda" title="Permalink to this headline">¶</a></h2>
+<h2>1. Install conda<a class="headerlink" href="#install-conda" title="Permalink to this heading">¶</a></h2>
 <p>Bioconda requires the conda package manager to be installed. If you
 have an Anaconda Python installation, you already have it. Otherwise,
 the best way to install it is with the <a class="reference external" href="https://conda.io/en/latest/miniconda.html" title="(in Conda)"><code class="docutils literal notranslate"><span class="pre">Miniconda</span></code></a>
@@ -149,7 +150,7 @@ it’s easy to use with existing Python installations.</p></li>
 </div>
 </section>
 <section id="set-up-channels">
-<span id="id1"></span><h2>2. Set up channels<a class="headerlink" href="#set-up-channels" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2>2. Set up channels<a class="headerlink" href="#set-up-channels" title="Permalink to this heading">¶</a></h2>
 <p>After installing conda you will need to add the bioconda channel as well as the
 other channels bioconda depends on. <strong>It is important to add them in this
 order</strong> so that the priority is set correctly (that is, conda-forge is highest
@@ -163,7 +164,7 @@ found in the <code class="docutils literal notranslate"><span class="pre">defaul
 </div>
 </section>
 <section id="install-packages">
-<h2>3. Install packages<a class="headerlink" href="#install-packages" title="Permalink to this headline">¶</a></h2>
+<h2>3. Install packages<a class="headerlink" href="#install-packages" title="Permalink to this heading">¶</a></h2>
 <p><span class="xref std std-ref">Browse the packages</span> to see what’s available.</p>
 <p>Bioconda is now enabled, so any packages on the bioconda channel can be installed into the current conda environment:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bwa</span>
@@ -175,7 +176,7 @@ found in the <code class="docutils literal notranslate"><span class="pre">defaul
 </div>
 </section>
 <section id="join-the-team">
-<h2>4. Join the team<a class="headerlink" href="#join-the-team" title="Permalink to this headline">¶</a></h2>
+<h2>4. Join the team<a class="headerlink" href="#join-the-team" title="Permalink to this heading">¶</a></h2>
 <p>We invite all parties interested in adding/editing package recipes to join the bioconda team,
 so that their pull requests don’t require merging by the core team or other members. To do
 so, please fork our <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">recipes</a> have a read
@@ -183,7 +184,7 @@ through the <a class="reference external" href="https://docs.conda.io/projects/c
 If you ping <code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> in a pull request we will review it and then add you to the team, if you desire.</p>
 </section>
 <section id="spread-the-word">
-<h2>5. Spread the word<a class="headerlink" href="#spread-the-word" title="Permalink to this headline">¶</a></h2>
+<h2>5. Spread the word<a class="headerlink" href="#spread-the-word" title="Permalink to this heading">¶</a></h2>
 <p>Consider <a class="reference external" href="../_static/badge-generator/">adding a badge</a> to your posters and presentations to promote
 that a tool can be easily installed from Bioconda.</p>
 </section>
@@ -200,7 +201,7 @@ that a tool can be easily installed from Bioconda.</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

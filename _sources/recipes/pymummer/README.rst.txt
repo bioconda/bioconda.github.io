@@ -28,10 +28,10 @@ pymummer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.3-2</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-2</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.3-2</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-2</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  </span></summary>
       
 
-      ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.6.1-1``,  ``0.6.1-0``
+      ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.6.1-1``,  ``0.6.1-0``
 
       
       .. raw:: html
@@ -74,7 +74,7 @@ pymummer
 
     <script>
         var package = "pymummer";
-        var versions = ["0.11.0","0.10.3","0.10.3","0.10.3","0.10.2"];
+        var versions = ["0.11.0","0.11.0","0.10.3","0.10.3","0.10.3"];
     </script>
 
 

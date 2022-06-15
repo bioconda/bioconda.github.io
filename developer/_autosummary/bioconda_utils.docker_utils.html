@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>docker_utils &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/vega.min.js"></script>
     <script src="../../_static/vega-lite.min.js"></script>
@@ -76,9 +77,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
@@ -101,7 +100,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
@@ -125,7 +123,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -135,7 +133,7 @@
           <div class="body" role="main">
             
   <section id="module-bioconda_utils.docker_utils">
-<span id="docker-utils"></span><h1>docker_utils<a class="headerlink" href="#module-bioconda_utils.docker_utils" title="Permalink to this headline">¶</a></h1>
+<span id="docker-utils"></span><h1>docker_utils<a class="headerlink" href="#module-bioconda_utils.docker_utils" title="Permalink to this heading">¶</a></h1>
 <p>To ensure conda packages are built in the most compatible manner, we can use
 a docker container. This module supports using a docker container to build
 conda packages in the local channel which can later be uploaded to anaconda.</p>
@@ -174,10 +172,6 @@ Most magic happens here.</p></li>
 </ul>
 <p class="rubric">Functions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.docker_utils.get_host_conda_bld" title="bioconda_utils.docker_utils.get_host_conda_bld"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_host_conda_bld</span></code></a>()</p></td>
 <td><p>Identifies the conda-bld directory on the host.</p></td>
@@ -189,10 +183,6 @@ Most magic happens here.</p></li>
 </table>
 <p class="rubric">Classes</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeBuilder</span></code>([tag, container_recipe, ...])</p></td>
 <td><p>Class to handle building a custom docker container that can be used for building conda recipes.</p></td>
@@ -201,10 +191,6 @@ Most magic happens here.</p></li>
 </table>
 <p class="rubric">Exceptions</p>
 <table class="autosummary longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.docker_utils.DockerBuildError" title="bioconda_utils.docker_utils.DockerBuildError"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DockerBuildError</span></code></a></p></td>
 <td><p></p></td>
@@ -216,13 +202,13 @@ Most magic happens here.</p></li>
 </table>
 <p class="rubric">Documentation</p>
 <dl class="py exception">
-<dt class="sig sig-object py" id="bioconda_utils.docker_utils.DockerBuildError">
-<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.docker_utils.</span></span><span class="sig-name descname"><span class="pre">DockerBuildError</span></span><a class="reference internal" href="../../_modules/bioconda_utils/docker_utils.html#DockerBuildError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerBuildError" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.docker_utils.DockerCalledProcessError">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.docker_utils.</span></span><span class="sig-name descname"><span class="pre">DockerCalledProcessError</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">returncode</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cmd</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stderr</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/docker_utils.html#DockerCalledProcessError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerCalledProcessError" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py exception">
-<dt class="sig sig-object py" id="bioconda_utils.docker_utils.DockerCalledProcessError">
-<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.docker_utils.</span></span><span class="sig-name descname"><span class="pre">DockerCalledProcessError</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">returncode</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cmd</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stderr</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/docker_utils.html#DockerCalledProcessError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerCalledProcessError" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.docker_utils.DockerBuildError">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.docker_utils.</span></span><span class="sig-name descname"><span class="pre">DockerBuildError</span></span><a class="reference internal" href="../../_modules/bioconda_utils/docker_utils.html#DockerBuildError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerBuildError" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
@@ -245,7 +231,7 @@ Most magic happens here.</p></li>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

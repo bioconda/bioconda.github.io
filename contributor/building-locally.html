@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Testing Recipes Locally &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/vega.min.js"></script>
     <script src="../_static/vega-lite.min.js"></script>
@@ -114,7 +115,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -124,18 +125,18 @@
           <div class="body" role="main">
             
   <section id="testing-recipes-locally">
-<h1>Testing Recipes Locally<a class="headerlink" href="#testing-recipes-locally" title="Permalink to this headline">¶</a></h1>
+<h1>Testing Recipes Locally<a class="headerlink" href="#testing-recipes-locally" title="Permalink to this heading">¶</a></h1>
 <p>Queue times on Azure DevOps may sometimes make it more convenient and
 faster to work on complex packages locally. There are several ways to
 do so, each with their own caveats.</p>
-<div class="contents local topic" id="contents">
+<nav class="contents local" id="contents">
 <ul class="simple">
 <li><p><a class="reference internal" href="#using-bioconda-utils" id="id2">Using bioconda-utils</a></p></li>
 <li><p><a class="reference internal" href="#using-the-debug-method" id="id3">Using the “Debug” Method</a></p></li>
 </ul>
-</div>
+</nav>
 <section id="using-bioconda-utils">
-<span id="bioconda-utils"></span><h2><a class="toc-backref" href="#id2">Using bioconda-utils</a><a class="headerlink" href="#using-bioconda-utils" title="Permalink to this headline">¶</a></h2>
+<span id="bioconda-utils"></span><h2><a class="toc-backref" href="#id2" role="doc-backlink">Using bioconda-utils</a><a class="headerlink" href="#using-bioconda-utils" title="Permalink to this heading">¶</a></h2>
 <p>Whether on a CI node or locally, Bioconda packages are built and tested using <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code>.
 You can install <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally by creating a new conda environment:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># You can use &quot;conda create&quot; here instead, if you don&#39;t have mamba installed</span>
@@ -183,7 +184,7 @@ to be included in the build container.</p></li>
 omitting the <code class="docutils literal notranslate"><span class="pre">--docker</span></code> and <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> options.</p>
 </section>
 <section id="using-the-debug-method">
-<h2><a class="toc-backref" href="#id3">Using the “Debug” Method</a><a class="headerlink" href="#using-the-debug-method" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Using the “Debug” Method</a><a class="headerlink" href="#using-the-debug-method" title="Permalink to this heading">¶</a></h2>
 <div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
 <ul class="simple">
@@ -205,7 +206,7 @@ omitting the <code class="docutils literal notranslate"><span class="pre">--dock
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

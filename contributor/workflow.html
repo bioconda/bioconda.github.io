@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Contribution Workflow &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
@@ -15,6 +15,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/vega.min.js"></script>
     <script src="../_static/vega-lite.min.js"></script>
@@ -118,7 +119,7 @@
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -128,10 +129,10 @@
           <div class="body" role="main">
             
   <section id="contribution-workflow">
-<h1>Contribution Workflow<a class="headerlink" href="#contribution-workflow" title="Permalink to this headline">¶</a></h1>
+<h1>Contribution Workflow<a class="headerlink" href="#contribution-workflow" title="Permalink to this heading">¶</a></h1>
 <p>The following steps are done for each recipe or batch of recipes you’d
 like to contribute.</p>
-<div class="contents local topic" id="contents">
+<nav class="contents local" id="contents">
 <ul class="simple">
 <li><p><a class="reference internal" href="#create-a-branch" id="id2">1. Create a Branch</a></p></li>
 <li><p><a class="reference internal" href="#make-some-edits" id="id3">2. Make Some Edits</a></p></li>
@@ -140,9 +141,9 @@ like to contribute.</p>
 <li><p><a class="reference internal" href="#delete-your-branch" id="id6">5. Delete your Branch</a></p></li>
 <li><p><a class="reference internal" href="#install-your-package" id="id7">6. Install Your Package</a></p></li>
 </ul>
-</div>
+</nav>
 <section id="create-a-branch">
-<span id="create-branch"></span><h2><a class="toc-backref" href="#id2">1. Create a Branch</a><a class="headerlink" href="#create-a-branch" title="Permalink to this headline">¶</a></h2>
+<span id="create-branch"></span><h2><a class="toc-backref" href="#id2" role="doc-backlink">1. Create a Branch</a><a class="headerlink" href="#create-a-branch" title="Permalink to this heading">¶</a></h2>
 <p>Next, we create a “branch”. You could in theory work on the <code class="docutils literal notranslate"><span class="pre">master</span></code>
 branch, but it helps if you give the work you are intending to do a
 name. That way you can more easily work on separate issues if one of
@@ -158,7 +159,7 @@ git checkout -b update_my_recipe
 </div>
 </section>
 <section id="make-some-edits">
-<span id="make-edits"></span><h2><a class="toc-backref" href="#id3">2. Make Some Edits</a><a class="headerlink" href="#make-some-edits" title="Permalink to this headline">¶</a></h2>
+<span id="make-edits"></span><h2><a class="toc-backref" href="#id3" role="doc-backlink">2. Make Some Edits</a><a class="headerlink" href="#make-some-edits" title="Permalink to this heading">¶</a></h2>
 <p>Now you need to make your edits. Naturally, this can become rather
 complex.</p>
 <p>If you have a PyPi recipe you want to package for Bioconda, you could
@@ -183,7 +184,7 @@ the package).</p>
 </div>
 </section>
 <section id="push-changes">
-<span id="id1"></span><h2><a class="toc-backref" href="#id4">3. Push Changes</a><a class="headerlink" href="#push-changes" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2><a class="toc-backref" href="#id4" role="doc-backlink">3. Push Changes</a><a class="headerlink" href="#push-changes" title="Permalink to this heading">¶</a></h2>
 <p>To publish your changes, “add” them, then “commit” all added changes,
 then push the branch to GitHub:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Choose the edited files to commit:</span>
@@ -196,7 +197,7 @@ then push the branch to GitHub:</p>
 </div>
 </section>
 <section id="create-a-pull-request">
-<span id="create-pr"></span><h2><a class="toc-backref" href="#id5">4. Create a Pull Request</a><a class="headerlink" href="#create-a-pull-request" title="Permalink to this headline">¶</a></h2>
+<span id="create-pr"></span><h2><a class="toc-backref" href="#id5" role="doc-backlink">4. Create a Pull Request</a><a class="headerlink" href="#create-a-pull-request" title="Permalink to this heading">¶</a></h2>
 <p>Now head back to GitHub. Go to your fork of the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code>
 repository and find the branch you have just created in the
 <code class="docutils literal notranslate"><span class="pre">Branch:</span></code> drop down. You should now see a message saying <code class="docutils literal notranslate"><span class="pre">This</span>
@@ -218,7 +219,7 @@ submit your PR for review. Otherwise, just ask on <a class="reference external" 
 main repository and the altered packages uploaded to our channel.</p>
 </section>
 <section id="delete-your-branch">
-<span id="delete-branch"></span><h2><a class="toc-backref" href="#id6">5. Delete your Branch</a><a class="headerlink" href="#delete-your-branch" title="Permalink to this headline">¶</a></h2>
+<span id="delete-branch"></span><h2><a class="toc-backref" href="#id6" role="doc-backlink">5. Delete your Branch</a><a class="headerlink" href="#delete-your-branch" title="Permalink to this heading">¶</a></h2>
 <p>Once the Pull Request has been merged, you can click <code class="docutils literal notranslate"><span class="pre">Delete</span> <span class="pre">Branch</span></code>
 directly on GitHub, or you can remove the branch with <code class="docutils literal notranslate"><span class="pre">git</span></code>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Delete local branch</span>
@@ -229,7 +230,7 @@ git push origin -d my_branch
 </div>
 </section>
 <section id="install-your-package">
-<h2><a class="toc-backref" href="#id7">6. Install Your Package</a><a class="headerlink" href="#install-your-package" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">6. Install Your Package</a><a class="headerlink" href="#install-your-package" title="Permalink to this heading">¶</a></h2>
 <p>After the Pull Request has been merged, you will need to wait for a
 little while for the package to become available. Our channel is so
 popular that Anaconda decided to give us the “CDN treatment”. While
@@ -253,7 +254,7 @@ happened, you can enjoy:</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

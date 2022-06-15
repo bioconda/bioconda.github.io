@@ -27,12 +27,12 @@ prot-scriber
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ prot-scriber
 
     <script>
         var package = "prot-scriber";
-        var versions = ["0.1.2","0.1.1","0.1.0"];
+        var versions = ["0.1.3","0.1.2","0.1.1","0.1.0"];
     </script>
 
 

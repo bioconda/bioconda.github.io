@@ -12,7 +12,7 @@ r-immunedeconv
 
    collection of methods for immune cell deconvolution of bulk RNA\-seq samples.
 
-   :homepage: https://github.com/icbi-lab/immunedeconv
+   :homepage: https://github.com/omnideconv/immunedeconv
    :license: BSD / BSD_3_clause
    :recipe: /`r-immunedeconv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-immunedeconv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-immunedeconv/meta.yaml>`_
    :links: doi: :doi:`10.1101/463828`
@@ -28,16 +28,19 @@ r-immunedeconv
       
       
 
-      ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+      ``2.1.0-0``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
 
       
 
    
    :depends bioconductor-biobase: 
    :depends bioconductor-biocparallel: 
+   :depends bioconductor-biomart: 
    :depends bioconductor-preprocesscore: 
    :depends bioconductor-sva: 
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-comics: 
+   :depends r-consensustme: 
    :depends r-data.tree: ``>=0.7``
    :depends r-dplyr: ``>=0.7``
    :depends r-e1071: ``>=1.6``
@@ -45,6 +48,7 @@ r-immunedeconv
    :depends r-limsolve: ``>=1.5.5.1``
    :depends r-magrittr: ``>=1.5``
    :depends r-mcpcounter: 
+   :depends r-mmcpcounter: 
    :depends r-readr: ``>=1.1``
    :depends r-readxl: ``>=1.0``
    :depends r-testit: ``>=0.7``
@@ -81,7 +85,7 @@ r-immunedeconv
 
     <script>
         var package = "r-immunedeconv";
-        var versions = ["2.0.3","2.0.3","2.0.3","2.0.2","2.0.2"];
+        var versions = ["2.1.0","2.0.3","2.0.3","2.0.3","2.0.2"];
     </script>
 
 

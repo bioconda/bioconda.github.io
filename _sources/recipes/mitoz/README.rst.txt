@@ -27,7 +27,7 @@ mitoz
       
       
 
-      ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``
+      ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``
 
       
 
@@ -37,7 +37,7 @@ mitoz
    :depends bs4: 
    :depends bwa: 
    :depends circos: ``0.69.*``
-   :depends ete3: ``3.1.1.*``
+   :depends ete3: ``>=3.1.2``
    :depends fastp: 
    :depends hmmer: ``3.1b2.*``
    :depends infernal: ``1.1.1.*``
@@ -53,7 +53,7 @@ mitoz
    :depends requests: 
    :depends samtools: 
    :depends seqkit: 
-   :depends spades: 
+   :depends spades: ``>=3.15.4``
    :depends tbl2asn: 
    :requirements:
 
@@ -86,7 +86,7 @@ mitoz
 
     <script>
         var package = "mitoz";
-        var versions = ["3.3","3.2","3.1","3.0"];
+        var versions = ["3.4","3.4","3.3","3.3","3.2"];
     </script>
 
 

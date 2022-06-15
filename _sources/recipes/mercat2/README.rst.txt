@@ -13,7 +13,7 @@ mercat2
    versatile k\-mer counter and diversity estimator for database independent property analysis \(DIPA\) for multi\-omic analysis
 
    :homepage: https://github.com/raw-lab/mercat2
-   :license: MIT / MIT
+   :license: BSD / BSD-3-Clause
    :recipe: /`mercat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mercat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mercat2/meta.yaml>`_
 
    
@@ -27,21 +27,25 @@ mercat2
       
       
 
-      ``0.1-0``
+      ``0.2-0``,  ``0.1-0``
 
       
 
    
    :depends configargparse: 
    :depends dominate: 
+   :depends fastp: 
+   :depends fastqc: 
    :depends humanize: 
-   :depends joblib: 
    :depends numpy: 
    :depends pandas: 
    :depends plotly: 
+   :depends prodigal: 
    :depends psutil: 
    :depends python: 
    :depends ray-core: 
+   :depends ray-dashboard: 
+   :depends ray-default: 
    :depends scikit-learn: 
    :requirements:
 
@@ -74,7 +78,7 @@ mercat2
 
     <script>
         var package = "mercat2";
-        var versions = ["0.1"];
+        var versions = ["0.2","0.1"];
     </script>
 
 

@@ -13,7 +13,7 @@ r-imputelcmd
    The package contains a collection of functions for left\-censored missing data imputation. Left\-censoring is a special case of missing not at random \(MNAR\)  mechanism that generates non\-responses in proteomics experiments. The package also contains functions to artificially generate peptide\/protein expression data \(log\-transformed\) as random draws from a multivariate Gaussian distribution as well as a function to generate missing data \(both randomly and non\-randomly\). For comparison reasons\, the package also contains several wrapper functions for the imputation of non\-responses that are missing at random. \* New functionality has been added\: a hybrid method that allows the imputation of missing values in a more complex scenario where the missing data are both MAR and MNAR.
 
    :homepage: https://CRAN.R-project.org/package=imputeLCMD
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`r-imputelcmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-imputelcmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-imputelcmd/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-imputelcmd
       
       
 
-      ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.1-0``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
@@ -68,7 +68,7 @@ r-imputelcmd
 
     <script>
         var package = "r-imputelcmd";
-        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+        var versions = ["2.1","2.0","2.0","2.0","2.0"];
     </script>
 
 
