@@ -302,15 +302,16 @@ upstream changes.</p>
 <section id="python">
 <h2>Python<a class="headerlink" href="#python" title="Permalink to this heading">¶</a></h2>
 <p>If a Python package is available on PyPI, use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span>
-<span class="pre">&lt;packagename&gt;</span></code> to create a recipe, then remove the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> and any extra
-comments in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> and <code class="docutils literal notranslate"><span class="pre">build.sh</span></code>. The test that is automatically
+<span class="pre">&lt;packagename&gt;</span></code> , or the <a class="reference external" href="https://github.com/conda-incubator/grayskull">more recent alternative</a> <code class="docutils literal notranslate"><span class="pre">grayskull</span> <span class="pre">pypi</span> <span class="pre">&lt;packagename&gt;</span></code>
+to create a recipe, then remove the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> and any extra comments
+in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> and <code class="docutils literal notranslate"><span class="pre">build.sh</span></code>. The test that is automatically
 added is probably sufficient. The exception is when the package also installs
 a command-line tool, in which case that should be tested as well.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code> only works with packages that have a source
+<p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code> and <code class="docutils literal notranslate"><span class="pre">grayskull</span> <span class="pre">pypi</span></code> only work with packages that have a source
 distribution produced with <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">sdist</span></code>. Packages on PyPI
-which only have a wheel will not work with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code>.
+which only have a wheel will not work.
 Packages containing only “built source” distributions produced with
 <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">bdist</span></code> on UNIX will likewise not work.</p>
 </div>
