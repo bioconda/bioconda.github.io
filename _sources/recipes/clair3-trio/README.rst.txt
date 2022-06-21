@@ -27,16 +27,16 @@ clair3-trio
       
       
 
-      ``0.2-0``,  ``0.1-0``
+      ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cffi: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends numpy: 
    :depends parallel: ``20191122.*``
    :depends pigz: ``2.4.*``
@@ -79,7 +79,7 @@ clair3-trio
 
     <script>
         var package = "clair3-trio";
-        var versions = ["0.2","0.1"];
+        var versions = ["0.3","0.2","0.1"];
     </script>
 
 

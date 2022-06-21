@@ -13,7 +13,7 @@ r-quilt
    Read aware low coverage whole genome sequence imputation from a reference panel
 
    :homepage: https://github.com/rwdavies/quilt
-   :license: GPL3 / GPL3
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`r-quilt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-quilt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-quilt/meta.yaml>`_
 
    
@@ -27,17 +27,17 @@ r-quilt
       
       
 
-      ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
 
    
    :depends gmp: ``>=6.2.1,<7.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.2.1,<2.0a0``
    :depends mpfr: ``>=4.1.0,<5.0a0``
@@ -51,7 +51,7 @@ r-quilt
    :depends rsync: 
    :depends samtools: ``>=1.4``
    :depends xz: ``>=5.2.5,<5.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["0.1.9","0.1.9","0.1.9"];
+        var versions = ["1.0.3","0.1.9","0.1.9","0.1.9"];
     </script>
 
 

@@ -73,7 +73,7 @@
 
 <h3>Navigation</h3>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Tutorials</a><ul class="current">
@@ -84,6 +84,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#finding-packages">Finding Packages</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#practical-1">Practical 1</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#conda-environments">Conda environments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Conda environments</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#conda-environments-common-commands">Conda environments – common commands</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#introducing-mamba">Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#practical-2">Practical 2</a><ul>
@@ -91,7 +92,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#practical-2-2">Practical 2.2</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Conda environments – common commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Conda environments – common commands</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#common-pitfalls">Common pitfalls</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#conda-package-recipes">Conda package recipes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#meta-yaml-sections"><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections</a><ul>
@@ -116,15 +117,16 @@
 
 <ul>
   
-  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  <li class="toctree-l1"><a href="../conda-package_index.html">Browse packages</a></li>
   
-  <li class="toctree-l1"><a href="../conda-package_index.html">Package Index</a></li>
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
   <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
+    <h3 id="searchlabel">Search</h3>
+    <p id="searchdesc">packages & docs</p>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
       <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
@@ -364,6 +366,9 @@ snakemake                     <span class="m">5</span>.24.0               <span 
 </tr>
 </tbody>
 </table>
+</section>
+<section id="id1">
+<h2>Conda environments<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>Linking is relative to packages!</p></li>
 <li><p>No more conflicting dependencies between versions!</p></li>
@@ -382,8 +387,9 @@ snakemake                     <span class="m">5</span>.24.0               <span 
 <section id="conda-environments-common-commands">
 <h2>Conda environments – common commands<a class="headerlink" href="#conda-environments-common-commands" title="Permalink to this heading">¶</a></h2>
 <ul>
-<li><dl>
-<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">info</span> <span class="pre">--envs</span></code> (or <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>)</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">info</span> <span class="pre">--envs</span></code> (or <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>)</p>
+<blockquote>
+<div><ul class="simple">
 <li><p>Lists available environments</p></li>
 </ul>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda info --envs
@@ -400,13 +406,13 @@ snakemake                /home/gcb2020/conda/envs/snakemake
 <li><p>You start in <code class="docutils literal notranslate"><span class="pre">base</span></code></p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">*</span></code> indicates the active environment</p></li>
 </ul>
-</dd>
-</dl>
+</div></blockquote>
 </li>
 </ul>
 <ul>
-<li><dl>
-<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">remove</span></code></dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">remove</span></code></p>
+<blockquote>
+<div><ul class="simple">
 <li><p>Create/remove environments</p></li>
 </ul>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>myenv <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8 numpy <span class="s1">&#39;pysam&gt;=0.16&#39;</span>
@@ -417,8 +423,7 @@ $ conda env remove --name<span class="o">=</span>myenv
 <li><p>Packages can have versions specified</p></li>
 <li><p>Min/max versions can be specified</p></li>
 </ul>
-</dd>
-</dl>
+</div></blockquote>
 </li>
 </ul>
 <ul>
@@ -443,8 +448,9 @@ $ <span class="nb">command</span> -v samtools
 </ul>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">remove</span></code></p></li>
-<li><dl>
-<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">list</span></code></dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda activate myenv
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">list</span></code></p>
+<blockquote>
+<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda activate myenv
 $ conda install snakemake
 ... a lot of status output ...
 $ conda list
@@ -452,8 +458,7 @@ $ conda list
 $ conda remove snakemake
 </pre></div>
 </div>
-</dd>
-</dl>
+</div></blockquote>
 </li>
 </ul>
 <div class="admonition tip">
@@ -557,8 +562,8 @@ $ snakemake --version
 </div>
 </section>
 </section>
-<section id="id1">
-<h2>Conda environments – common commands<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+<section id="id2">
+<h2>Conda environments – common commands<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
 <ul>
 <li><dl>
 <dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">export</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span></code></dt><dd><ul class="simple">
@@ -856,6 +861,17 @@ $ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit bu
 <li><p>Installed into <code class="docutils literal notranslate"><span class="pre">$PREFIX</span></code></p></li>
 <li><p>Library dependencies are in <code class="docutils literal notranslate"><span class="pre">$PREFIX/lib</span></code></p></li>
 </ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ cat build.sh
+<span class="c1">#! /usr/bin/env bash</span>
+make install <span class="se">\</span>
+    <span class="nv">CC</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CC</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
+    <span class="nv">CXX</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CXX</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
+    <span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CFLAGS</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
+    <span class="nv">CXXFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CXXFLAGS</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
+    <span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LDFLAGS</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
+    <span class="nv">prefix</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PREFIX</span><span class="si">}</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
 </section>
 <section id="practical-4-and-or-q-a">
 <h2>Practical 4 and/or Q&amp;A<a class="headerlink" href="#practical-4-and-or-q-a" title="Permalink to this heading">¶</a></h2>
@@ -897,7 +913,7 @@ $ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit bu
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

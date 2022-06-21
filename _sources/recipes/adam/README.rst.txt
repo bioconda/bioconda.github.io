@@ -13,7 +13,7 @@ adam
    Genomics analysis platform built on Apache Avro\, Apache Spark\, and Apache Parquet
 
    :homepage: https://github.com/bigdatagenomics/adam
-   :license: Apache 2
+   :license: Apache-2.0
    :recipe: /`adam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adam/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ adam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.37.0-0</code>,  <code>0.36.0-0</code>,  <code>0.35.0-0</code>,  <code>0.34.0-1</code>,  <code>0.34.0-0</code>,  <code>0.33.0-0</code>,  <code>0.32.0-0</code>,  <code>0.31.0-0</code>,  <code>0.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>0.37.0-0</code>,  <code>0.36.0-0</code>,  <code>0.35.0-0</code>,  <code>0.34.0-1</code>,  <code>0.34.0-0</code>,  <code>0.33.0-0</code>,  <code>0.32.0-0</code>,  <code>0.31.0-0</code>,  </span></summary>
       
 
-      ``0.37.0-0``,  ``0.36.0-0``,  ``0.35.0-0``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.33.0-0``,  ``0.32.0-0``,  ``0.31.0-0``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.27.0-1``,  ``0.26.0-1``,  ``0.25.0-1``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.0-0``
+      ``1.0-0``,  ``0.37.0-0``,  ``0.36.0-0``,  ``0.35.0-0``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.33.0-0``,  ``0.32.0-0``,  ``0.31.0-0``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.27.0-1``,  ``0.26.0-1``,  ``0.25.0-1``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ adam
 
    
    :depends openjdk: ``>=8``
-   :depends pyspark: 
+   :depends pyspark: ``>=3.2.1``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ adam
 
     <script>
         var package = "adam";
-        var versions = ["0.37.0","0.36.0","0.35.0","0.34.0","0.34.0"];
+        var versions = ["1.0","0.37.0","0.36.0","0.35.0","0.34.0"];
     </script>
 
 

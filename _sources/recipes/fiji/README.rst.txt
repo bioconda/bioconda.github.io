@@ -6,7 +6,7 @@
 fiji
 ====
 
-.. conda:recipe:: fiji/20170530
+.. conda:recipe:: fiji
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ fiji
 
    :homepage: http://fiji.sc
    :license: GNU General Public License
-   :recipe: /`fiji <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji>`_/`20170530 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20170530>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20170530/meta.yaml>`_
+   :recipe: /`fiji <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/meta.yaml>`_
 
    
 
@@ -28,10 +28,10 @@ fiji
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20170530-2</code>,  <code>20170530-1</code>,  <code>20170530-0</code>,  <code>20151222-2</code>,  <code>20151222-1</code>,  <code>20151222-0</code>,  <code>20141125-6</code>,  <code>20141125-5</code>,  <code>20141125-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20220414-0</code>,  <code>20170530-2</code>,  <code>20170530-1</code>,  <code>20170530-0</code>,  <code>20151222-2</code>,  <code>20151222-1</code>,  <code>20151222-0</code>,  <code>20141125-6</code>,  <code>20141125-5</code>,  </span></summary>
       
 
-      ``20170530-2``,  ``20170530-1``,  ``20170530-0``,  ``20151222-2``,  ``20151222-1``,  ``20151222-0``,  ``20141125-6``,  ``20141125-5``,  ``20141125-4``,  ``20141125-3``,  ``20141125-2``,  ``20141125-1``
+      ``20220414-0``,  ``20170530-2``,  ``20170530-1``,  ``20170530-0``,  ``20151222-2``,  ``20151222-1``,  ``20151222-0``,  ``20141125-6``,  ``20141125-5``,  ``20141125-4``,  ``20141125-3``,  ``20141125-2``,  ``20141125-1``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ fiji
 
     <script>
         var package = "fiji";
-        var versions = ["20170530","20170530","20170530","20151222","20151222"];
+        var versions = ["20220414","20170530","20170530","20170530","20151222"];
     </script>
 
 

@@ -13,7 +13,7 @@ cannoli
    Distributed execution of bioinformatics tools on Apache Spark
 
    :homepage: https://github.com/bigdatagenomics/cannoli
-   :license: Apache 2
+   :license: Apache-2.0
    :recipe: /`cannoli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cannoli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cannoli/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ cannoli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  </span></summary>
       
 
-      ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``1.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ cannoli
 
    
    :depends openjdk: ``>=8``
-   :depends pyspark: 
+   :depends pyspark: ``>=3.2.1``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ cannoli
 
     <script>
         var package = "cannoli";
-        var versions = ["0.15.0","0.14.0","0.13.0","0.12.0","0.12.0"];
+        var versions = ["1.0","0.15.0","0.14.0","0.13.0","0.12.0"];
     </script>
 
 

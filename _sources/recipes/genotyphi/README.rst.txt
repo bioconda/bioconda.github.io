@@ -27,12 +27,13 @@ genotyphi
       
       
 
-      ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.1-0``
+      ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.1-0``
 
       
 
    
    :depends bcftools: ``>=1.1``
+   :depends pandas: 
    :depends python: ``<3``
    :depends samtools: ``>=1.1``
    :requirements:
@@ -66,7 +67,7 @@ genotyphi
 
     <script>
         var package = "genotyphi";
-        var versions = ["1.9.1","1.9.0","1.8.0","1.7.1"];
+        var versions = ["1.9.1","1.9.1","1.9.0","1.8.0","1.7.1"];
     </script>
 
 
