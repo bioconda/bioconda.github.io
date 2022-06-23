@@ -1,0 +1,96 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'r-geneexpressionfromgeo'
+.. highlight: bash
+
+r-geneexpressionfromgeo
+=======================
+
+.. conda:recipe:: r-geneexpressionfromgeo
+   :replaces_section_title:
+   :noindex:
+
+   A function that reads in the GEO code of a gene expression dataset\, retrieves its data from GEO\, \(optionally\) retrieves the gene symbols of the dataset\, and returns a simple dataframe table containing all the data. Platforms available\: GPL11532\, GPL23126\, GPL6244\, GPL8300\, GPL80\, GPL96\, GPL570\, GPL571\, GPL20115\, GPL1293\,  GPL6102\, GPL6104\, GPL6883\, GPL6884\, GPL13497\, GPL14550\, GPL17077\, GPL6480. GEO\: Gene Expression Omnibus. ID\: identifier code. The GEO datasets are downloaded from the URL \<https\:\/\/ftp.ncbi.nlm.nih.gov\/geo\/series\/\>. More information can be found in the following manuscript\: Davide Chicco\, \"geneExpressionFromGEO\: an R package to facilitate data reading from Gene Expression Omnibus \(GEO\)\". Microarray Data Analysis\, Methods in Molecular Biology\, volume 2401\, chapter 12\, pages 187\-194\, Springer Protocols\, 2021\, \<doi\:10.1007\/978\-1\-0716\-1839\-4\_12\>.
+
+   :homepage: https://github.com/davidechicco/geneExpressionFromGEO
+   :license: GPL3 / GPL-3.0-only
+   :recipe: /`r-geneexpressionfromgeo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-geneexpressionfromgeo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-geneexpressionfromgeo/meta.yaml>`_
+
+   
+
+
+.. conda:package:: r-geneexpressionfromgeo
+
+   |downloads_r-geneexpressionfromgeo| |docker_r-geneexpressionfromgeo|
+
+   :versions:
+      
+      
+
+      ``0.9-0``
+
+      
+
+   
+   :depends bioconductor-annotate: 
+   :depends bioconductor-biobase: 
+   :depends bioconductor-geoquery: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-biocmanager: 
+   :depends r-markdown: 
+   :depends r-r.utils: 
+   :depends r-xml2: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-geneexpressionfromgeo
+
+   and update with::
+
+      conda update r-geneexpressionfromgeo
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/r-geneexpressionfromgeo:<tag>
+
+   (see `r-geneexpressionfromgeo/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_r-geneexpressionfromgeo| image:: https://img.shields.io/conda/dn/bioconda/r-geneexpressionfromgeo.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-geneexpressionfromgeo
+   :alt:   (downloads)
+.. |docker_r-geneexpressionfromgeo| image:: https://quay.io/repository/biocontainers/r-geneexpressionfromgeo/status
+   :target: https://quay.io/repository/biocontainers/r-geneexpressionfromgeo
+.. _`r-geneexpressionfromgeo/tags`: https://quay.io/repository/biocontainers/r-geneexpressionfromgeo?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "r-geneexpressionfromgeo";
+        var versions = ["0.9"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-geneexpressionfromgeo/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-geneexpressionfromgeo/README.html
