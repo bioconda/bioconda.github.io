@@ -31,10 +31,10 @@ pypgatk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.19-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.22-0</code>,  <code>0.0.19-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  <code>0.0.12-0</code>,  </span></summary>
       
 
-      ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.4-0``
+      ``0.0.22-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -43,43 +43,21 @@ pypgatk
       
 
    
-   :depends argcomplete: 
-   :depends argh: 
-   :depends asn1crypto: 
-   :depends astroid: 
-   :depends bcrypt: 
    :depends biopython: 
-   :depends certifi: 
-   :depends cffi: 
-   :depends chardet: 
    :depends click: 
-   :depends cryptography: 
    :depends gffutils: 
-   :depends idna: 
-   :depends isort: 
-   :depends lazy-object-proxy: 
-   :depends mccabe: 
    :depends numpy: 
-   :depends paramiko: 
-   :depends pyasn1: 
+   :depends pandas: 
    :depends pybedtools: 
-   :depends pycparser: 
-   :depends pyfaidx: 
-   :depends pylint: 
-   :depends pynacl: 
+   :depends pyopenms: ``2.7.0``
    :depends pysam: ``>=0.16``
-   :depends pysftp: 
-   :depends pyteomics: 
+   :depends pyteomics: ``>=4.2``
    :depends python: ``>=3``
    :depends pyvcf: 
    :depends pyyaml: 
    :depends ratelimit: 
    :depends requests: 
    :depends simplejson: 
-   :depends six: 
-   :depends typed-ast: 
-   :depends urllib3: 
-   :depends wrapt: 
    :requirements:
 
    .. rubric:: Installation
@@ -111,7 +89,7 @@ pypgatk
 
     <script>
         var package = "pypgatk";
-        var versions = ["0.0.19","0.0.18","0.0.17","0.0.16","0.0.15"];
+        var versions = ["0.0.22","0.0.19","0.0.18","0.0.17","0.0.16"];
     </script>
 
 

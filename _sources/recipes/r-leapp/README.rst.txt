@@ -13,7 +13,7 @@ r-leapp
    These functions take a gene expression value matrix\, a primary covariate vector\, an additional known covariates matrix.  A two stage analysis is applied to counter the effects of latent variables on the rankings of hypotheses.  The estimation and adjustment of latent effects are proposed by Sun\, Zhang and Owen \(2011\).  \"leapp\" is developed in the context of microarray experiments\, but may be used as a general tool for high throughput data sets where dependence may be involved.
 
    :homepage: https://CRAN.R-project.org/package=leapp
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`r-leapp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-leapp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-leapp/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-leapp
       
       
 
-      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.3-0``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -67,7 +67,7 @@ r-leapp
 
     <script>
         var package = "r-leapp";
-        var versions = ["1.2","1.2","1.2","1.2","1.2"];
+        var versions = ["1.3","1.2","1.2","1.2","1.2"];
     </script>
 
 
