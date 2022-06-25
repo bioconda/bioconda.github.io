@@ -28,7 +28,7 @@ svdss
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -39,7 +39,7 @@ svdss
    :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends samtools: ``>=1.9``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :requirements:
@@ -73,7 +73,7 @@ svdss
 
     <script>
         var package = "svdss";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 

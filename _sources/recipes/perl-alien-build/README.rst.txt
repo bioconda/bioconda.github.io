@@ -27,12 +27,12 @@ perl-alien-build
       
       
 
-      ``2.48-0``
+      ``2.50-0``,  ``2.49-0``,  ``2.48-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-ffi-checklib: ``0.28.*``
@@ -71,7 +71,7 @@ perl-alien-build
 
     <script>
         var package = "perl-alien-build";
-        var versions = ["2.48"];
+        var versions = ["2.50","2.49","2.48"];
     </script>
 
 

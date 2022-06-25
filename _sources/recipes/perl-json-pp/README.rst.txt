@@ -26,9 +26,17 @@ perl-json-pp
    :versions:
       
       
+      .. raw:: html
 
-      ``4.09-0``,  ``4.08-0``,  ``4.07-0``,  ``4.04-1``,  ``4.04-0``,  ``4.03-0``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``
+         <details><summary><span class="truncated-version-list"><code>4.10-0</code>,  <code>4.09-0</code>,  <code>4.08-0</code>,  <code>4.07-0</code>,  <code>4.04-1</code>,  <code>4.04-0</code>,  <code>4.03-0</code>,  <code>4.02-0</code>,  <code>4.00-0</code>,  </span></summary>
+      
 
+      ``4.10-0``,  ``4.09-0``,  ``4.08-0``,  ``4.07-0``,  ``4.04-1``,  ``4.04-0``,  ``4.03-0``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -64,7 +72,7 @@ perl-json-pp
 
     <script>
         var package = "perl-json-pp";
-        var versions = ["4.09","4.08","4.07","4.04","4.04"];
+        var versions = ["4.10","4.09","4.08","4.07","4.04"];
     </script>
 
 

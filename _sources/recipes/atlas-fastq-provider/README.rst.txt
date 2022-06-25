@@ -27,13 +27,16 @@ atlas-fastq-provider
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``
+      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
    
    :depends bash: 
    :depends coreutils: 
+   :depends fastq_utils: 
+   :depends grep: 
+   :depends sra-tools: 
    :depends wget: 
    :requirements:
 
@@ -66,7 +69,7 @@ atlas-fastq-provider
 
     <script>
         var package = "atlas-fastq-provider";
-        var versions = ["0.4.2","0.4.1"];
+        var versions = ["0.4.3","0.4.2","0.4.1"];
     </script>
 
 
