@@ -28,10 +28,10 @@ perl-compress-raw-bzip2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.103-0</code>,  <code>2.101-1</code>,  <code>2.101-0</code>,  <code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-0</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.201-0</code>,  <code>2.103-0</code>,  <code>2.101-1</code>,  <code>2.101-0</code>,  <code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-0</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  </span></summary>
       
 
-      ``2.103-0``,  ``2.101-1``,  ``2.101-0``,  ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.074-0``,  ``2.069-2``,  ``2.069-1``
+      ``2.201-0``,  ``2.103-0``,  ``2.101-1``,  ``2.101-0``,  ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.074-0``,  ``2.069-2``,  ``2.069-1``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ perl-compress-raw-bzip2
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -74,7 +74,7 @@ perl-compress-raw-bzip2
 
     <script>
         var package = "perl-compress-raw-bzip2";
-        var versions = ["2.103","2.101","2.101","2.087","2.087"];
+        var versions = ["2.201","2.103","2.101","2.101","2.087"];
     </script>
 
 
