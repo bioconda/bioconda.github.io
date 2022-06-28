@@ -27,7 +27,7 @@ epytope
       
       
 
-      ``3.0.0-0``
+      ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -75,7 +75,7 @@ epytope
 
     <script>
         var package = "epytope";
-        var versions = ["3.0.0"];
+        var versions = ["3.1.0","3.0.0"];
     </script>
 
 

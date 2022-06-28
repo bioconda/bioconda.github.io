@@ -29,7 +29,7 @@ pytrimal
       
       
 
-      ``0.2.2-0``
+      ``0.3.0-0``,  ``0.2.2-0``
 
       
 
@@ -70,7 +70,7 @@ pytrimal
 
     <script>
         var package = "pytrimal";
-        var versions = ["0.2.2"];
+        var versions = ["0.3.0","0.2.2"];
     </script>
 
 

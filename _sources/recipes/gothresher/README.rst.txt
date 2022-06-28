@@ -13,7 +13,7 @@ gothresher
    remove function bias from GAF files
 
    :homepage: https://github.com/FriedbergLab/GOThresher
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`gothresher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gothresher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gothresher/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ gothresher
       
       
 
-      ``1.0.21-0``
+      ``1.0.24-0``,  ``1.0.21-0``
 
       
 
@@ -69,7 +69,7 @@ gothresher
 
     <script>
         var package = "gothresher";
-        var versions = ["1.0.21"];
+        var versions = ["1.0.24","1.0.21"];
     </script>
 
 

@@ -15,7 +15,7 @@ mokapot
    :homepage: https://github.com/wfondrie/mokapot
    :documentation: https://mokapot.readthedocs.io
    
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`mokapot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mokapot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mokapot/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ mokapot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.2-0</code>,  </span></summary>
       
 
-      ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5-0``
+      ``0.8.1-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5-0``
 
       
       .. raw:: html
@@ -81,7 +81,7 @@ mokapot
 
     <script>
         var package = "mokapot";
-        var versions = ["0.8.0","0.8.0","0.8.0","0.7.4","0.7.3"];
+        var versions = ["0.8.1","0.8.0","0.8.0","0.8.0","0.7.4"];
     </script>
 
 
