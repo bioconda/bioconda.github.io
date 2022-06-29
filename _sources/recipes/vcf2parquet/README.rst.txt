@@ -27,7 +27,7 @@ vcf2parquet
       
       
 
-      ``0.1-0``
+      ``0.2-0``,  ``0.1-0``
 
       
 
@@ -67,7 +67,7 @@ vcf2parquet
 
     <script>
         var package = "vcf2parquet";
-        var versions = ["0.1"];
+        var versions = ["0.2","0.1"];
     </script>
 
 

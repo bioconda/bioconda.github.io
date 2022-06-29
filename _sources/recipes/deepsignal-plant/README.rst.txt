@@ -27,17 +27,17 @@ deepsignal-plant
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
    :depends h5py: ``>=2.8.0``
-   :depends numpy: ``>=1.15.3``
-   :depends python: ``>=3.6``
-   :depends pytorch: ``>=1.2.0,<=1.6.0``
-   :depends scikit-learn: ``>=0.20.1``
-   :depends statsmodels: ``>=0.9.0``
+   :depends numpy: ``>=1.19.2``
+   :depends python: ``>=3.8``
+   :depends pytorch: ``>=1.2.0,<=1.11.0``
+   :depends scikit-learn: ``>=1.0.2``
+   :depends statsmodels: ``>=0.13.2``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ deepsignal-plant
 
     <script>
         var package = "deepsignal-plant";
-        var versions = ["0.1.5","0.1.4","0.1.3","0.1.2"];
+        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.2"];
     </script>
 
 

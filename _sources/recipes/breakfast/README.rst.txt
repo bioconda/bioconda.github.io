@@ -27,7 +27,7 @@ breakfast
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
 
       
 
@@ -36,7 +36,7 @@ breakfast
    :depends networkx: ``>=2.8,<3.0``
    :depends numpy: ``>=1.22.3,<2.0.0``
    :depends pandas: ``>=1.4.2,<2.0.0``
-   :depends python: ``>=3.6,<3.11``
+   :depends python: ``>=3.9,<3.11``
    :depends scikit-learn: ``>=1.0.2,<2.0.0``
    :depends scipy: ``>=1.8.0,<2.0.0``
    :requirements:
@@ -70,7 +70,7 @@ breakfast
 
     <script>
         var package = "breakfast";
-        var versions = ["0.4.1","0.4.0","0.3.3","0.3.2"];
+        var versions = ["0.4.2","0.4.1","0.4.0","0.3.3","0.3.2"];
     </script>
 
 

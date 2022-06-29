@@ -27,7 +27,7 @@ alignoth
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -68,7 +68,7 @@ alignoth
 
     <script>
         var package = "alignoth";
-        var versions = ["0.2.1","0.2.0"];
+        var versions = ["0.2.2","0.2.1","0.2.0"];
     </script>
 
 

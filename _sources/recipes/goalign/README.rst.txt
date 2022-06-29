@@ -26,9 +26,17 @@ goalign
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-1</code>,  </span></summary>
+      
 
+      ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -63,7 +71,7 @@ goalign
 
     <script>
         var package = "goalign";
-        var versions = ["0.3.5","0.3.4","0.3.2","0.3.2","0.3.2"];
+        var versions = ["0.3.5","0.3.5","0.3.4","0.3.2","0.3.2"];
     </script>
 
 
