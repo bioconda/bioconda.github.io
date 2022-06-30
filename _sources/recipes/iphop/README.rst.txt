@@ -27,7 +27,7 @@ iphop
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -78,7 +78,7 @@ iphop
 
     <script>
         var package = "iphop";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

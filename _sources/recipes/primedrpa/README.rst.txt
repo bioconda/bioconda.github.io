@@ -27,7 +27,7 @@ primedrpa
       
       
 
-      ``1.0.2-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-0``
 
       
 
@@ -35,8 +35,8 @@ primedrpa
    :depends blast: 
    :depends clustalo: 
    :depends pandas: 
-   :depends python: ``>=3.5``
-   :depends samtools: 
+   :depends python: ``>=3.6``
+   :depends samtools: ``>=1.10``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ primedrpa
 
     <script>
         var package = "primedrpa";
-        var versions = ["1.0.2","1.0.0"];
+        var versions = ["1.0.3","1.0.2","1.0.0"];
     </script>
 
 

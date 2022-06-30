@@ -27,7 +27,7 @@ pygenomeviz
       
       
 
-      ``0.0.9-0``
+      ``0.1.0-0``,  ``0.0.9-0``
 
       
 
@@ -67,7 +67,7 @@ pygenomeviz
 
     <script>
         var package = "pygenomeviz";
-        var versions = ["0.0.9"];
+        var versions = ["0.1.0","0.0.9"];
     </script>
 
 

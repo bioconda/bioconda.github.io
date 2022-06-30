@@ -12,7 +12,7 @@ duplex-tools
 
    Duplex Tools contains a set of utilities for dealing with ONT Duplex sequencing data
 
-   :homepage: https://github.com/nanoporetech/duplex_tools
+   :homepage: https://github.com/nanoporetech/duplex-tools
    :license: MPL-2.0
    :recipe: /`duplex-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/duplex-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/duplex-tools/meta.yaml>`_
 
@@ -27,7 +27,7 @@ duplex-tools
       
       
 
-      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
@@ -74,7 +74,7 @@ duplex-tools
 
     <script>
         var package = "duplex-tools";
-        var versions = ["0.2.10","0.2.9","0.2.8","0.2.7"];
+        var versions = ["0.2.11","0.2.10","0.2.9","0.2.8","0.2.7"];
     </script>
 
 
