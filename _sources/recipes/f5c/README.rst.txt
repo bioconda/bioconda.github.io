@@ -26,17 +26,25 @@ f5c
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6-3</code>,  <code>0.6-2</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  </span></summary>
+      
 
+      ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ f5c
 
     <script>
         var package = "f5c";
-        var versions = ["0.8","0.8","0.7","0.6","0.6"];
+        var versions = ["0.9","0.8","0.8","0.7","0.6"];
     </script>
 
 

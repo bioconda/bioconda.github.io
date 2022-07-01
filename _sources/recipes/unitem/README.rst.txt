@@ -13,7 +13,7 @@ unitem
    Ensemble binning strategies for combining the output of multiple binning methods.
 
    :homepage: https://github.com/dparks1134/UniteM
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`unitem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unitem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unitem/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ unitem
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``0.0.18-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``0.0.18-0``
 
       
 
@@ -68,7 +68,7 @@ unitem
 
     <script>
         var package = "unitem";
-        var versions = ["1.2.0","1.1.0","1.0.4","1.0.3","0.0.18"];
+        var versions = ["1.2.1","1.2.0","1.1.0","1.0.4","1.0.3"];
     </script>
 
 
