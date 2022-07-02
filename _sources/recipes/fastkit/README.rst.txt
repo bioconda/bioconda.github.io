@@ -27,7 +27,7 @@ fastkit
       
       
 
-      ``0.1.4-0``
+      ``1.0.0-0``,  ``0.1.4-0``
 
       
 
@@ -65,7 +65,7 @@ fastkit
 
     <script>
         var package = "fastkit";
-        var versions = ["0.1.4"];
+        var versions = ["1.0.0","0.1.4"];
     </script>
 
 

@@ -28,14 +28,14 @@ goat
       
       
 
-      ``0.1.55-0``,  ``0.1.54-0``,  ``0.1.51-1``,  ``0.1.51-0``,  ``0.1.5-0``
+      ``0.2.0-0``,  ``0.1.55-0``,  ``0.1.54-0``,  ``0.1.51-1``,  ``0.1.51-0``,  ``0.1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends openssl: ``>=1.1.1n,<1.1.2a``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends openssl: ``>=1.1.1p,<1.1.2a``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ goat
 
     <script>
         var package = "goat";
-        var versions = ["0.1.55","0.1.54","0.1.51","0.1.51","0.1.5"];
+        var versions = ["0.2.0","0.1.55","0.1.54","0.1.51","0.1.51"];
     </script>
 
 
