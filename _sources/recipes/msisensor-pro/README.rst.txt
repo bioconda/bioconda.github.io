@@ -28,10 +28,10 @@ msisensor-pro
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.a-1</code>,  <code>1.1.a-0</code>,  <code>1.0.a-8</code>,  <code>1.0.a-7</code>,  <code>1.0.a-3</code>,  <code>1.0.a-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-3</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.a-1</code>,  <code>1.1.a-0</code>,  <code>1.0.a-8</code>,  <code>1.0.a-7</code>,  <code>1.0.a-3</code>,  </span></summary>
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.a-1``,  ``1.1.a-0``,  ``1.0.a-8``,  ``1.0.a-7``,  ``1.0.a-3``,  ``1.0.a-2``,  ``1.0.a-1``,  ``1.0.a-0``,  ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-0``,  ``0.0.1-0``,  ``v1.2.0-0``
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.a-1``,  ``1.1.a-0``,  ``1.0.a-8``,  ``1.0.a-7``,  ``1.0.a-3``,  ``1.0.a-2``,  ``1.0.a-1``,  ``1.0.a-0``,  ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-0``,  ``0.0.1-0``,  ``v1.2.0-0``
 
       
       .. raw:: html
@@ -41,17 +41,9 @@ msisensor-pro
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libcurl: ``>=7.81.0,<8.0a0``
-   :depends libdeflate: ``>=1.10,<1.11.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends ncurses: ``>=6.3,<7.0a0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
-   :depends xz: ``>=5.2.5,<5.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +75,7 @@ msisensor-pro
 
     <script>
         var package = "msisensor-pro";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.1.a","1.1.a"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0","1.1.a"];
     </script>
 
 

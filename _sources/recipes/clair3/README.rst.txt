@@ -28,10 +28,10 @@ clair3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.11-5</code>,  <code>0.1.11-4</code>,  <code>0.1.11-3</code>,  <code>0.1.11-2</code>,  <code>0.1.11-1</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.11-6</code>,  <code>0.1.11-5</code>,  <code>0.1.11-4</code>,  <code>0.1.11-3</code>,  <code>0.1.11-2</code>,  <code>0.1.11-1</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  </span></summary>
       
 
-      ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
+      ``0.1.11-6``,  ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ clair3
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cffi: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends numpy: 
    :depends parallel: ``20191122.*``
    :depends pigz: ``2.4.*``
