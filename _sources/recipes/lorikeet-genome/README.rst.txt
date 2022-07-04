@@ -28,10 +28,10 @@ lorikeet-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+      ``0.7.0-0``,  ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -47,14 +47,14 @@ lorikeet-genome
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends ngmlr: 
    :depends numpy: 
-   :depends openssl: ``>=1.1.1o,<1.1.2a``
+   :depends openssl: ``>=1.1.1p,<1.1.2a``
    :depends parallel: 
    :depends prodigal: 
    :depends pysam: ``>=0.16``
@@ -66,7 +66,7 @@ lorikeet-genome
    :depends starcode: 
    :depends svim: 
    :depends vt: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +98,7 @@ lorikeet-genome
 
     <script>
         var package = "lorikeet-genome";
-        var versions = ["0.6.6","0.5.0","0.4.0","0.3.7","0.3.7"];
+        var versions = ["0.7.0","0.6.6","0.5.0","0.4.0","0.3.7"];
     </script>
 
 

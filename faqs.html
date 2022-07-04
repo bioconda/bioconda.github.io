@@ -76,13 +76,10 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">FAQs</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#how-do-i-speed-up-package-installation">How do I speed up package installation?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#use-mamba">Use <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#use-environments-strategically">Use environments strategically</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#speedup-option-1-use-mamba">Speedup option 1: use <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#speedup-option-2-use-environments-strategically">Speedup option 2: use environments strategically</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#naming-environments">Naming environments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-a-recipe-and-a-package">What’s the difference between a recipe and a package?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-versions-are-supported">What versions are supported?</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#operating-systems">Operating Systems</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#python">Python</a></li>
@@ -90,6 +87,9 @@
 <li class="toctree-l3"><a class="reference internal" href="#unsupported-versions">Unsupported versions</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#how-do-i-keep-track-of-environments">How do I keep track of environments?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-a-recipe-and-a-package">What’s the difference between a recipe and a package?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a></li>
@@ -129,39 +129,104 @@
 <h1>FAQs<a class="headerlink" href="#faqs" title="Permalink to this heading">¶</a></h1>
 <section id="how-do-i-speed-up-package-installation">
 <span id="speedup"></span><h2>How do I speed up package installation?<a class="headerlink" href="#how-do-i-speed-up-package-installation" title="Permalink to this heading">¶</a></h2>
-<section id="use-mamba">
-<h3>Use <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#use-mamba" title="Permalink to this heading">¶</a></h3>
-<blockquote>
-<div><p><a class="reference external" href="https://github.com/mamba-org/mamba">mamba</a> is a drop-in replacement for
+<section id="speedup-option-1-use-mamba">
+<h3>Speedup option 1: use <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#speedup-option-1-use-mamba" title="Permalink to this heading">¶</a></h3>
+<p><a class="reference external" href="https://github.com/mamba-org/mamba">mamba</a> is a drop-in replacement for
 conda that uses a faster dependency solving library and parts reimplemented in
 C++ for speed. Install it just into the base environment so that it’s always
 available, like this:</p>
-</div></blockquote>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install mamba -n base -c conda-forge
 </pre></div>
 </div>
-<p>Then use <code class="xref any docutils literal notranslate"><span class="pre">mamba</span> <span class="pre">install</span></code> instead of <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>; use <code class="xref any docutils literal notranslate"><span class="pre">mamba</span> <span class="pre">create</span></code>
-instead of <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span></code>, and so on.</p>
+<p>Then use <code class="docutils literal notranslate"><span class="pre">mamba</span></code> instead of <code class="docutils literal notranslate"><span class="pre">conda</span></code>.</p>
+<p>For example, instead of <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>, use <code class="docutils literal notranslate"><span class="pre">mamba</span> <span class="pre">install</span></code>. Instead of
+<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span></code> use <code class="docutils literal notranslate"><span class="pre">mamba</span> <span class="pre">env</span> <span class="pre">create</span></code>, and so on. <code class="docutils literal notranslate"><span class="pre">mamba</span></code> also uses
+the same configuration as <code class="docutils literal notranslate"><span class="pre">conda</span></code>, so you don’t need to reconfigure the
+channels.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Installing <code class="docutils literal notranslate"><span class="pre">mamba</span></code> into the base environment (<code class="docutils literal notranslate"><span class="pre">-n</span> <span class="pre">base</span></code> in the command
+above) means that it does <strong>not</strong> need to be installed into each subsequent
+environment you create.</p>
+</div>
 </section>
-<section id="use-environments-strategically">
-<h3>Use environments strategically<a class="headerlink" href="#use-environments-strategically" title="Permalink to this heading">¶</a></h3>
-<ol class="arabic simple">
-<li><p>Keep the <code class="docutils literal notranslate"><span class="pre">base</span></code> environment small. If you install everything into the same
-environment (e.g. the <code class="xref any docutils literal notranslate"><span class="pre">base</span></code> environment), then whenever you add or update
-packages to it, the solver has to do a lot of work to make sure all of the
-many packages are mutually compatible with each other.</p></li>
-<li><p>Try to use smaller environments only containing what you need for
-a particular project.</p></li>
-<li><p>Sometimes pinning dependencies to a specific version can speed up the solving.</p></li>
-<li><p>Creating an environment from a file with all dependencies can be faster than
-incrementally adding packages to an existing environment.</p></li>
-<li><p>Ensure that you’ve run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span> <span class="pre">--set</span> <span class="pre">channel_priority</span> <span class="pre">strict</span></code> to
-respect the configured channel order.</p></li>
+<section id="speedup-option-2-use-environments-strategically">
+<h3>Speedup option 2: use environments strategically<a class="headerlink" href="#speedup-option-2-use-environments-strategically" title="Permalink to this heading">¶</a></h3>
+<p>Here are several ways you can use environments to minimize the time spent on
+solving dependencies, which typically is what takes the longest amount of time:</p>
+<ol class="arabic">
+<li><p>Keep the <code class="docutils literal notranslate"><span class="pre">base</span></code> environment small.</p>
+<p>If you install everything into the same environment (e.g. the <code class="docutils literal notranslate"><span class="pre">base</span></code>
+environment, which is used any time you don’t otherwise specify an
+environment), then whenever you add or update packages to it, the solver has
+to do a lot of work to make sure all of the many packages are mutually
+compatible with each other.</p>
+</li>
+<li><p>Use smaller environments.</p>
+<p>Fewer packages means less work for the solver. Try to use environments only
+containing what you need for a particular project or task.</p>
+</li>
+<li><p>Pin dependencies.</p>
+<p>Sometimes pinning dependencies to a specific version can speed up the
+solving, since it reduces the search space for the solver. In some cases
+this may backfire though. For example, you can’t pin an older version of
+R and also use newer R packages that don’t support that version of R.</p>
+</li>
+<li><p>Create an environment from a file with all dependencies.</p>
+<p>Creating an environment with all dependencies at once can be faster than
+incrementally adding packages to an existing environment. For example
+<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span> <span class="pre">-n</span> <span class="pre">myenv</span> <span class="pre">--file</span> <span class="pre">requirements.txt</span></code>, or <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span>
+<span class="pre">--file</span> <span class="pre">env.yaml</span></code>.</p>
+</li>
+<li><p>Use strict channel priority.</p>
+<p>Ensure that you’ve run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span> <span class="pre">--set</span> <span class="pre">channel_priority</span> <span class="pre">strict</span></code> to
+respect the configured channel order. This can also speed up the solving.</p>
+</li>
 </ol>
 </section>
 </section>
-<section id="naming-environments">
-<h2>Naming environments<a class="headerlink" href="#naming-environments" title="Permalink to this heading">¶</a></h2>
+<section id="what-versions-are-supported">
+<h2>What versions are supported?<a class="headerlink" href="#what-versions-are-supported" title="Permalink to this heading">¶</a></h2>
+<section id="operating-systems">
+<h3>Operating Systems<a class="headerlink" href="#operating-systems" title="Permalink to this heading">¶</a></h3>
+<p>Bioconda only supports 64-bit Linux and macOS. ARM is not currently supported.</p>
+</section>
+<section id="python">
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this heading">¶</a></h3>
+<p>Bioconda only supports python 2.7, 3.6, 3.7, 3.8 and 3.9.</p>
+<p>The exception to this is Bioconda packages which declare <code class="xref any docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> and
+only depend on such packages - those packages can be installed in an
+environment with any version of python they say they can support. However many
+python packages in Bioconda depend on other Bioconda packages with architecture
+specific builds, such as <a class="conda-package reference internal" href="recipes/pysam/README.html#package-pysam" title="pysam package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">pysam</span></code></a>, and so do not meet this criteria.</p>
+</section>
+<section id="pinned-packages">
+<h3>Pinned packages<a class="headerlink" href="#pinned-packages" title="Permalink to this heading">¶</a></h3>
+<p>Some packages require <a class="reference external" href="https://en.wikipedia.org/wiki/Application_binary_interface">ABI</a> compatibility
+with underlying libraries. To ensure that packages can work together, there are
+some libraries that need to be <em>pinned</em>, or fixed to a particular version.
+Other packages are then built with that specific version (and therefore that
+specific ABI) to ensure they can all work together.</p>
+<p>The authoritative source for which packages are pinned and to which versions
+can be found in the <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">bioconda_utils-conda_build_config.yaml</a>
+file.</p>
+<p>This is <em>in addition to</em> the conda-forge specified versions,
+<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda_build_config.yaml</a>
+which pins versions of base dependencies like boost, zlib, and many others.</p>
+</section>
+<section id="unsupported-versions">
+<h3>Unsupported versions<a class="headerlink" href="#unsupported-versions" title="Permalink to this heading">¶</a></h3>
+<p>If there is a version of a dependency you wish to build against that Bioconda
+does not currently support, please reach out to the <a class="reference external" href="https://gitter.im/bioconda/Lobby">Bioconda Gitter</a> for more information about if supporting
+that version is feasible, if work on that is already being done, and how you
+can help.</p>
+<p>To find out against which version you can pin a package, e.g. x.y.* or x.*
+please use <a class="reference external" href="https://abi-laboratory.pro/tracker/">ABI-Laboratory</a>.</p>
+</section>
+</section>
+<section id="how-do-i-keep-track-of-environments">
+<h2>How do I keep track of environments?<a class="headerlink" href="#how-do-i-keep-track-of-environments" title="Permalink to this heading">¶</a></h2>
+<p>You can view your created environments with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>.</p>
 <p>Note that if keeping track of different environment names
 becomes a burden, you can create an environment in the same directory as
 a project with the <code class="docutils literal notranslate"><span class="pre">-p</span></code> argument, e.g.,</p>
@@ -226,45 +291,6 @@ with <code class="docutils literal notranslate"><span class="pre">conda</span> <
 what a package contains and how it is installed into an
 environment.</p>
 </div>
-</section>
-<section id="what-versions-are-supported">
-<h2>What versions are supported?<a class="headerlink" href="#what-versions-are-supported" title="Permalink to this heading">¶</a></h2>
-<section id="operating-systems">
-<h3>Operating Systems<a class="headerlink" href="#operating-systems" title="Permalink to this heading">¶</a></h3>
-<p>Bioconda only supports 64-bit Linux and Mac OS</p>
-</section>
-<section id="python">
-<h3>Python<a class="headerlink" href="#python" title="Permalink to this heading">¶</a></h3>
-<p>Bioconda only supports python 2.7, 3.6, 3.7, 3.8 and 3.9.</p>
-<p>The exception to this is Bioconda packages which declare <code class="xref any docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> and
-only depend on such packages - those packages can be installed in an
-environment with any version of python they say they can support. However many
-python packages in Bioconda depend on other Bioconda packages with architecture
-specific builds, such as <a class="conda-package reference internal" href="recipes/pysam/README.html#package-pysam" title="pysam package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">pysam</span></code></a>, and so do not meet this criteria.</p>
-</section>
-<section id="pinned-packages">
-<h3>Pinned packages<a class="headerlink" href="#pinned-packages" title="Permalink to this heading">¶</a></h3>
-<p>Some packages require <a class="reference external" href="https://en.wikipedia.org/wiki/Application_binary_interface">ABI</a> compatibility
-with underlying libraries. To ensure that packages can work together, there are
-some libraries that need to be <em>pinned</em>, or fixed to a particular version.
-Other packages are then built with that specific version (and therefore that
-specific ABI) to ensure they can all work together.</p>
-<p>The authoritative source for which packages are pinned and to which versions
-can be found in the <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">bioconda_utils-conda_build_config.yaml</a>
-file.</p>
-<p>This is <em>in addition to</em> the conda-forge specified versions,
-<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda_build_config.yaml</a>
-which pins versions of base dependencies like boost, zlib, and many others.</p>
-</section>
-<section id="unsupported-versions">
-<h3>Unsupported versions<a class="headerlink" href="#unsupported-versions" title="Permalink to this heading">¶</a></h3>
-<p>If there is a version of a dependency you wish to build against that Bioconda
-does not currently support, please reach out to the <a class="reference external" href="https://gitter.im/bioconda/Lobby">Bioconda Gitter</a> for more information about if supporting
-that version is feasible, if work on that is already being done, and how you
-can help.</p>
-<p>To find out against which version you can pin a package, e.g. x.y.* or x.*
-please use <a class="reference external" href="https://abi-laboratory.pro/tracker/">ABI-Laboratory</a>.</p>
-</section>
 </section>
 </section>
 

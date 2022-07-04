@@ -27,7 +27,7 @@ markermag
       
       
 
-      ``1.1.26-0``
+      ``1.1.27-0``,  ``1.1.26-0``
 
       
 
@@ -78,7 +78,7 @@ markermag
 
     <script>
         var package = "markermag";
-        var versions = ["1.1.26"];
+        var versions = ["1.1.27","1.1.26"];
     </script>
 
 

@@ -110,37 +110,64 @@
   <img alt="_images/bioconda.png" src="_images/bioconda.png" />
 <p><strong>Bioconda</strong> lets you install thousands of software packages related to
 biomedical research using the <a class="reference external" href="https://conda.io">conda</a> package manager.</p>
+<p><strong>NOTE</strong>: <em>Bioconda supports only 64-bit Linux and macOS</em></p>
 <section id="usage">
 <h1>Usage<a class="headerlink" href="#usage" title="Permalink to this heading">¶</a></h1>
-<p><strong>NOTE</strong>: <em>Bioconda supports only 64-bit Linux and macOS</em></p>
-<p><a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">Install conda</a>, then perform a one-time set up of Bioconda with the following
-commands:</p>
+<p>First, <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">install conda</a>. Then perform a one-time set up of Bioconda with the
+following commands:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="nb">set</span> <span class="n">channel_priority</span> <span class="n">strict</span>
 </pre></div>
 </div>
-<p>Now you can use <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code> to install and use any of the <a class="reference external" href="conda-package_index.html">available
-packages</a>.</p>
-<details><summary>What did these commands do?</summary><div class="details"><p><code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code> modifies your condarc file which is
-<code class="xref any docutils literal notranslate"><span class="pre">~/.condarc</span></code> by default.</p>
-<p>The first three commands set the channel priority, where later channels
-have higher priority. The <em>bioconda</em> channel depends on the <em>conda-forge</em>
-channel, and the <em>defaults</em> channel is the fallback.</p>
-<p>Running <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span> <span class="pre">--set</span> <span class="pre">channel_priority</span> <span class="pre">strict</span></code> ensures that the
-configured channel priority is respected when solving dependencies. You can
-read more about this on <a class="reference external" href="https://conda-forge.org/docs/user/tipsandtricks.html">this page of the conda-forge docs</a>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you use the <code class="docutils literal notranslate"><span class="pre">--channel</span></code> argument instead of modifying
-<code class="docutils literal notranslate"><span class="pre">~/.condarc</span></code>, remember that higher-priority channels come first in
-the command-line interface. So you should use, for example:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">samtools</span> <span class="o">--</span><span class="n">channel</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="o">--</span><span class="n">channel</span> <span class="n">bioconda</span>
+<details><summary>What did these commands do?</summary><div class="details"><p>In general, running <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code> modifies your condarc file which can be
+found at <code class="xref any docutils literal notranslate"><span class="pre">~/.condarc</span></code> by default.</p>
+<p>The first three commands add channels, from lowest to highest priority.
+<strong>The order is important</strong> to avoid problems with solving dependencies:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 </pre></div>
 </div>
+<ul class="simple">
+<li><p>The <code class="docutils literal notranslate"><span class="pre">defaults</span></code> channel is the one set by default in a new installation of
+conda. It should be set to the lowest priority.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> channel enables installation of packages related to
+biomedical research.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> channel (see <a class="reference external" href="https://conda-forge.org/docs/index.html">docs</a>) enables installation of
+general-purpose packages. Since <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> heavily depends on the
+<code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> channel, it is set to highest priority.</p></li>
+</ul>
+<p>This command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="nb">set</span> <span class="n">channel_priority</span> <span class="n">strict</span>
+</pre></div>
 </div>
-</div></details><details><summary>How do I speed up package installation?</summary><div class="details"><p>Sometimes conda can spend a lot of time trying to solve dependencies for an
+<p>avoids cryptic errors when tryng to install. It ensures that the channel
+priority configured above is respected when solving dependencies. See <a class="reference external" href="https://conda-forge.org/docs/user/tipsandtricks.html">this
+section of the conda-forge docs</a> for more info.</p>
+</div></details><details><summary>What if I don't want to modify my condarc?</summary><div class="details"><p>Sometimes you might want to specify the channel priority directly in the
+<code class="docutils literal notranslate"><span class="pre">conda</span></code> command-line call when installing a package or creating an
+environment, and not edit the condarc file with the suggested <code class="docutils literal notranslate"><span class="pre">conda</span>
+<span class="pre">config</span></code> commands above.</p>
+<p>In that case, you would need to add the following arguments to <code class="docutils literal notranslate"><span class="pre">conda</span></code> calls:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">--</span><span class="n">channel</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="o">--</span><span class="n">channel</span> <span class="n">bioconda</span> <span class="o">--</span><span class="n">strict</span><span class="o">-</span><span class="n">channel</span><span class="o">-</span><span class="n">priority</span>
+</pre></div>
+</div>
+<p>For example, if you were creating an environment with bwa and samtools in
+it, you would use:</p>
+<blockquote>
+<div><dl class="simple">
+<dt>conda create -n myenv samtools bwa </dt><dd><p>–channel conda-forge –channel bioconda –channel defaults –strict-channel-priority</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Note that conda interprets channels on the command line in order
+of <em>decreasing</em> priority (in contrast to <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code>, where they are
+listed in increasing priority).</p>
+</div></details><p>Now you can use <code class="docutils literal notranslate"><span class="pre">conda</span></code> to install and use any of the <a class="reference external" href="conda-package_index.html">packages available in
+bioconda</a>.</p>
+<details><summary>How do I speed up package installation?</summary><div class="details"><p>Sometimes conda can spend a lot of time trying to solve dependencies for an
 environment. See <a class="reference internal" href="faqs.html#speedup"><span class="std std-ref">How do I speed up package installation?</span></a> in the FAQs for some options to improve this.</p>
 </div></details><details><summary>How do I get Docker containers of packages?</summary><div class="details"><p>Every conda package in Bioconda has a corresponding Docker <a class="reference external" href="https://biocontainers.pro">BioContainer</a>
 automatically created and uploaded to <a class="reference external" href="https://quay.io/organization/biocontainers">Quay.io</a>. A list of these and other
@@ -148,6 +175,7 @@ containers can be found at the <a class="reference external" href="https://bioco
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">samtools</span><span class="p">:</span><span class="mf">1.15.1</span><span class="o">--</span><span class="n">h1170115_0</span>
 </pre></div>
 </div>
+<p>If you have docker installed, you do not need any additional configuration.</p>
 </div></details></section>
 <section id="overview">
 <h1>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h1>
@@ -265,22 +293,28 @@ window.onload = function() {
 </section>
 <section id="acknowledgments">
 <h1>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this heading">¶</a></h1>
-<p>Bioconda is a derivative mark of Anaconda <sup>®</sup>, a trademark of Anaconda,
-Inc registered in the U.S. and other countries. Anaconda, Inc.
-grants permission of the derivative use but is not associated with Bioconda.</p>
-<p>The Bioconda channel is sponsored by <a class="reference external" href="https://www.anaconda.com/">Anaconda, Inc</a> in the form of providing unlimited (in time and
-space) storage. Bioconda is supported by <a class="reference external" href="https://circleci.com/">Circle CI</a>
-via an open source plan including free Linux and MacOS builds. Bioconda is also
-supported by Amazon Web Services in the form of storage for BioContainers as
-well as compute credits.</p>
+<p>The Bioconda channel could not exist without support from:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.anaconda.com/">Anaconda, Inc</a> in the form of providing
+unlimited (in time and space) storage for packages in the channel.</p></li>
+<li><p><a class="reference external" href="https://circleci.com/">Circle CI</a> via an open source plan including free
+Linux and MacOS builds.</p></li>
+<li><p>Amazon Web Services in the form of storage for BioContainers as well as
+compute credits.</p></li>
+<li><p><a class="reference external" href="https://azure.microsoft.com/en-us/services/devops/pipelines/">Azure DevOps</a> open source plan</p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/actions">GitHub Actions</a> open source plan</p></li>
+</ul>
+<p>The Bioconda logo is a derivative mark of Anaconda <sup>®</sup>, a trademark of
+Anaconda, Inc registered in the U.S. and other countries. Anaconda, Inc. grants
+permission of the derivative use but is not associated with Bioconda.</p>
 <section id="citing-bioconda">
 <h2>Citing Bioconda<a class="headerlink" href="#citing-bioconda" title="Permalink to this heading">¶</a></h2>
 <p>When using Bioconda please <strong>cite our article</strong>:</p>
 <blockquote>
 <div><p>Grüning, Björn, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian
 Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, the Bioconda
-Team, and Johannes Köster. 2018. “Bioconda: Sustainable and
-Comprehensive Software Distribution for the Life Sciences”. Nature
+Team, and Johannes Köster. 2018. <em>Bioconda: Sustainable and
+Comprehensive Software Distribution for the Life Sciences</em>. Nature
 Methods, 2018 doi:<a class="reference external" href="https://doi.org/10.1038/s41592-018-0046-7">10.1038/s41592-018-0046-7</a>.</p>
 </div></blockquote>
 </section>
@@ -315,13 +349,10 @@ wonderful community which includes over 1400 (as of 2022) <a class="reference ex
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="faqs.html#how-do-i-speed-up-package-installation">How do I speed up package installation?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#use-mamba">Use <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#use-environments-strategically">Use environments strategically</a></li>
+<li class="toctree-l3"><a class="reference internal" href="faqs.html#speedup-option-1-use-mamba">Speedup option 1: use <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="faqs.html#speedup-option-2-use-environments-strategically">Speedup option 2: use environments strategically</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#naming-environments">Naming environments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-a-recipe-and-a-package">What’s the difference between a recipe and a package?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faqs.html#what-versions-are-supported">What versions are supported?</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="faqs.html#operating-systems">Operating Systems</a></li>
 <li class="toctree-l3"><a class="reference internal" href="faqs.html#python">Python</a></li>
@@ -329,6 +360,9 @@ wonderful community which includes over 1400 (as of 2022) <a class="reference ex
 <li class="toctree-l3"><a class="reference internal" href="faqs.html#unsupported-versions">Unsupported versions</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html#how-do-i-keep-track-of-environments">How do I keep track of environments?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-a-recipe-and-a-package">What’s the difference between a recipe and a package?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a><ul>
