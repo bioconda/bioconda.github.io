@@ -28,10 +28,10 @@ perl-math-bigint
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.999836-0</code>,  <code>1.999835-0</code>,  <code>1.999833-0</code>,  <code>1.999832-0</code>,  <code>1.999831-0</code>,  <code>1.999830-0</code>,  <code>1.999829-0</code>,  <code>1.999816-1</code>,  <code>1.999816-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.999837-0</code>,  <code>1.999836-0</code>,  <code>1.999835-0</code>,  <code>1.999833-0</code>,  <code>1.999832-0</code>,  <code>1.999831-0</code>,  <code>1.999830-0</code>,  <code>1.999829-0</code>,  <code>1.999816-1</code>,  </span></summary>
       
 
-      ``1.999836-0``,  ``1.999835-0``,  ``1.999833-0``,  ``1.999832-0``,  ``1.999831-0``,  ``1.999830-0``,  ``1.999829-0``,  ``1.999816-1``,  ``1.999816-0``,  ``1.999813-0``
+      ``1.999837-0``,  ``1.999836-0``,  ``1.999835-0``,  ``1.999833-0``,  ``1.999832-0``,  ``1.999831-0``,  ``1.999830-0``,  ``1.999829-0``,  ``1.999816-1``,  ``1.999816-0``,  ``1.999813-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ perl-math-bigint
 
     <script>
         var package = "perl-math-bigint";
-        var versions = ["1.999836","1.999835","1.999833","1.999832","1.999831"];
+        var versions = ["1.999837","1.999836","1.999835","1.999833","1.999832"];
     </script>
 
 
