@@ -27,7 +27,7 @@ covsonar
       
       
 
-      ``2.0.0a0-0``
+      ``2.0.0a1-0``,  ``2.0.0a0-0``
 
       
 
@@ -73,7 +73,7 @@ covsonar
 
     <script>
         var package = "covsonar";
-        var versions = ["2.0.0a0"];
+        var versions = ["2.0.0a1","2.0.0a0"];
     </script>
 
 

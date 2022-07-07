@@ -28,10 +28,10 @@ parsnp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.2-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.3-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  </span></summary>
       
 
-      ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
+      ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
 
       
       .. raw:: html
@@ -44,16 +44,18 @@ parsnp
    :depends fastani: 
    :depends fasttree: 
    :depends harvesttools: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends mash: 
+   :depends muscle: ``>=5``
    :depends numpy: 
    :depends openmp: 
    :depends phipack: 
+   :depends pyabpoa: 
    :depends python: ``>=3.7``
    :depends raxml: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +87,7 @@ parsnp
 
     <script>
         var package = "parsnp";
-        var versions = ["1.7.2","1.7.1","1.7.1","1.7.0","1.6.2"];
+        var versions = ["1.7.3","1.7.2","1.7.1","1.7.1","1.7.0"];
     </script>
 
 

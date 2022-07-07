@@ -27,7 +27,7 @@ clearcnv
       
       
 
-      ``0.305-0``
+      ``0.305-1``,  ``0.305-0``
 
       
 
@@ -36,7 +36,7 @@ clearcnv
    :depends bedops: 
    :depends bedtools: 
    :depends cattrs: 
-   :depends dash: 
+   :depends dash: ``1.21.0.*``
    :depends dash-bootstrap-components: 
    :depends dash-core-components: 
    :depends dash-html-components: 
@@ -59,6 +59,7 @@ clearcnv
    :depends seaborn: 
    :depends snakemake-minimal: 
    :depends tqdm: 
+   :depends werkzeug: ``2.0.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +91,7 @@ clearcnv
 
     <script>
         var package = "clearcnv";
-        var versions = ["0.305"];
+        var versions = ["0.305","0.305"];
     </script>
 
 
