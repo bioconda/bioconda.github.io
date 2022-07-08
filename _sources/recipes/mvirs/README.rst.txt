@@ -1,0 +1,93 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'mvirs'
+.. highlight: bash
+
+mvirs
+=====
+
+.. conda:recipe:: mvirs
+   :replaces_section_title:
+   :noindex:
+
+   mVIRs\: Localisation of inducible prophages using NGS data
+
+   :homepage: https://github.com/SushiLab/mVIRs
+   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :recipe: /`mvirs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvirs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvirs/meta.yaml>`_
+   :links: https: :https:`//doi.org/10.1186/s40168-021-01033-w`
+
+   
+
+
+.. conda:package:: mvirs
+
+   |downloads_mvirs| |docker_mvirs|
+
+   :versions:
+      
+      
+
+      ``1.1.1-0``
+
+      
+
+   
+   :depends bwa: ``>=0.7.17``
+   :depends pysam: ``>=0.15.2``
+   :depends python: ``>=3.8``
+   :depends samtools: ``>=1.9``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mvirs
+
+   and update with::
+
+      conda update mvirs
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/mvirs:<tag>
+
+   (see `mvirs/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_mvirs| image:: https://img.shields.io/conda/dn/bioconda/mvirs.svg?style=flat
+   :target: https://anaconda.org/bioconda/mvirs
+   :alt:   (downloads)
+.. |docker_mvirs| image:: https://quay.io/repository/biocontainers/mvirs/status
+   :target: https://quay.io/repository/biocontainers/mvirs
+.. _`mvirs/tags`: https://quay.io/repository/biocontainers/mvirs?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "mvirs";
+        var versions = ["1.1.1"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mvirs/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mvirs/README.html
