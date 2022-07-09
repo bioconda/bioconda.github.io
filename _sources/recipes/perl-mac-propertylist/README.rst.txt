@@ -27,7 +27,7 @@ perl-mac-propertylist
       
       
 
-      ``1.503-0``,  ``1.502-0``,  ``1.413-1``,  ``1.413-0``
+      ``1.504-0``,  ``1.503-0``,  ``1.502-0``,  ``1.413-1``,  ``1.413-0``
 
       
 
@@ -69,7 +69,7 @@ perl-mac-propertylist
 
     <script>
         var package = "perl-mac-propertylist";
-        var versions = ["1.503","1.502","1.413","1.413"];
+        var versions = ["1.504","1.503","1.502","1.413","1.413"];
     </script>
 
 

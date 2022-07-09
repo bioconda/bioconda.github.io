@@ -27,7 +27,7 @@ bioutils
       
       
 
-      ``0.5.6-0``,  ``0.5.5-0``
+      ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``
 
       
 
@@ -66,7 +66,7 @@ bioutils
 
     <script>
         var package = "bioutils";
-        var versions = ["0.5.6","0.5.5"];
+        var versions = ["0.5.7","0.5.6","0.5.5"];
     </script>
 
 

@@ -27,7 +27,7 @@ clearcnv
       
       
 
-      ``0.305-1``,  ``0.305-0``
+      ``0.306-0``,  ``0.305-1``,  ``0.305-0``
 
       
 
@@ -91,7 +91,7 @@ clearcnv
 
     <script>
         var package = "clearcnv";
-        var versions = ["0.305","0.305"];
+        var versions = ["0.306","0.305","0.305"];
     </script>
 
 

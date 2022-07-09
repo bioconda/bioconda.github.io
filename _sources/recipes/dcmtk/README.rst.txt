@@ -13,6 +13,7 @@ dcmtk
    DCMTK is a collection of libraries and applications implementing large parts the DICOM standard
 
    :homepage: http://dicom.offis.de
+   :developer docs: https://git.dcmtk.org/
    :license: BSD
    :recipe: /`dcmtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dcmtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dcmtk/meta.yaml>`_
 
@@ -26,23 +27,31 @@ dcmtk
    :versions:
       
       
+      .. raw:: html
 
-      ``3.6.5-2``,  ``3.6.5-1``,  ``3.6.5-0``,  ``3.6.1-7``,  ``3.6.1-6``,  ``3.6.1-5``,  ``3.6.1-4``,  ``3.6.1-3``,  ``3.6.1-2``
+         <details><summary><span class="truncated-version-list"><code>3.6.7-0</code>,  <code>3.6.5-2</code>,  <code>3.6.5-1</code>,  <code>3.6.5-0</code>,  <code>3.6.1-7</code>,  <code>3.6.1-6</code>,  <code>3.6.1-5</code>,  <code>3.6.1-4</code>,  <code>3.6.1-3</code>,  </span></summary>
+      
 
+      ``3.6.7-0``,  ``3.6.5-2``,  ``3.6.5-1``,  ``3.6.5-0``,  ``3.6.1-7``,  ``3.6.1-6``,  ``3.6.1-5``,  ``3.6.1-4``,  ``3.6.1-3``,  ``3.6.1-2``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends icu: ``>=69.1,<70.0a0``
-   :depends jpeg: ``>=9e,<10a``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends libsndfile: ``>=1.0.31,<1.1.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libtiff: ``>=4.3.0,<5.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libtiff: ``>=4.4.0,<5.0a0``
    :depends libxml2: ``>=2.9.12,<2.10.0a0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends openjpeg: ``>=2.4.0,<2.5.0a0``
+   :depends openssl: ``>=1.1.1q,<1.1.2a``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +83,7 @@ dcmtk
 
     <script>
         var package = "dcmtk";
-        var versions = ["3.6.5","3.6.5","3.6.5","3.6.1","3.6.1"];
+        var versions = ["3.6.7","3.6.5","3.6.5","3.6.5","3.6.1"];
     </script>
 
 

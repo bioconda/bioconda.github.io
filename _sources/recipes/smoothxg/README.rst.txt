@@ -27,15 +27,15 @@ smoothxg
       
       
 
-      ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libjemalloc: ``>=5.2.1``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends zstd: ``>=1.5.2,<1.6.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ smoothxg
 
     <script>
         var package = "smoothxg";
-        var versions = ["0.6.4","0.6.2","0.6.2","0.6.1","0.6.1"];
+        var versions = ["0.6.5","0.6.4","0.6.2","0.6.2","0.6.1"];
     </script>
 
 
