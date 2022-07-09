@@ -28,13 +28,13 @@ d4tools
       
       
 
-      ``0.3.4-0``
+      ``0.3.7-0``,  ``0.3.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends starcode: 
    :requirements:
 
@@ -67,7 +67,7 @@ d4tools
 
     <script>
         var package = "d4tools";
-        var versions = ["0.3.4"];
+        var versions = ["0.3.7","0.3.4"];
     </script>
 
 

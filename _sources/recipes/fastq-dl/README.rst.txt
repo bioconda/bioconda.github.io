@@ -26,9 +26,17 @@ fastq-dl
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -69,7 +77,7 @@ fastq-dl
 
     <script>
         var package = "fastq-dl";
-        var versions = ["1.1.0","1.0.6","1.0.6","1.0.5","1.0.4"];
+        var versions = ["1.1.1","1.1.0","1.0.6","1.0.6","1.0.5"];
     </script>
 
 

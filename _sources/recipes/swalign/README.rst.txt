@@ -27,12 +27,12 @@ swalign
       
       
 
-      ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-2``,  ``0.3.3-0``
+      ``0.3.6-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-2``,  ``0.3.3-0``
 
       
 
    
-   :depends python: ``<3``
+   :depends python: ``>=3.1``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ swalign
 
     <script>
         var package = "swalign";
-        var versions = ["0.3.4","0.3.4","0.3.3","0.3.3"];
+        var versions = ["0.3.6","0.3.4","0.3.4","0.3.3","0.3.3"];
     </script>
 
 

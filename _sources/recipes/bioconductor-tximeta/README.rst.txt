@@ -12,7 +12,7 @@ bioconductor-tximeta
 
    Transcript Quantification Import with Automatic Metadata
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/tximeta.html
+   :homepage: https://bioconductor.org/packages/3.15/bioc/html/tximeta.html
    :license: GPL-2
    :recipe: /`bioconductor-tximeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximeta/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-tximeta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.4-0</code>,  <code>1.8.0-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.4.3-0</code>,  <code>1.4.0-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.4-0</code>,  <code>1.8.0-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.4.3-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -87,7 +87,7 @@ bioconductor-tximeta
 
     <script>
         var package = "bioconductor-tximeta";
-        var versions = ["1.12.0","1.10.0","1.8.4","1.8.0","1.6.3"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.8.4","1.8.0"];
     </script>
 
 
