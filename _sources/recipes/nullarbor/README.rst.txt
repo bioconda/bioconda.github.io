@@ -27,24 +27,25 @@ nullarbor
       
       
 
-      ``2.0.20191013-2``,  ``2.0.20191013-1``,  ``2.0.20191013-0``,  ``2.0.20191007-0``,  ``2.0.20191003-0``,  ``2.0.20181010-5``,  ``2.0.20181010-4``,  ``2.0.20181010-2``
+      ``2.0.20191013-3``,  ``2.0.20191013-2``,  ``2.0.20191013-1``,  ``2.0.20191013-0``,  ``2.0.20191007-0``,  ``2.0.20191003-0``,  ``2.0.20181010-5``,  ``2.0.20181010-4``,  ``2.0.20181010-2``
 
       
 
    
-   :depends abricate: ``>=0.9.8``
+   :depends abricate: ``>=1.0.1``
    :depends any2fasta: ``>=0.4.2``
    :depends centrifuge: ``>=1.0``
    :depends fasttree: ``>=2.1.10``
-   :depends iqtree: ``>=1.6.12``
+   :depends iqtree: ``>=2.2.0``
    :depends kraken: ``>=1.1``
-   :depends kraken2: ``>=2.0.7``
+   :depends kraken2: ``>=2.1.2``
    :depends make: ``>=4.2``
-   :depends mash: ``>=2.2``
+   :depends mash: ``>=2.3``
    :depends megahit: ``>=1.1.3``
-   :depends mlst: ``>=2.17.6``
+   :depends mlst: ``>=2.22.0``
    :depends newick_utils: ``>=1.6``
-   :depends perl: ``>=5.16``
+   :depends perl: ``5.26.2.*``
+   :depends perl-bioperl: ``1.7.2.*``
    :depends perl-file-spec: 
    :depends perl-file-which: 
    :depends perl-findbin: 
@@ -56,16 +57,17 @@ nullarbor
    :depends perl-time-piece: 
    :depends perl-yaml-tiny: 
    :depends pigz: 
-   :depends prokka: ``>=1.14``
+   :depends prokka: ``>=1.14.6``
    :depends quicktree: ``>=2.5``
-   :depends roary: ``>=3.12``
+   :depends roary: ``>=3.13``
    :depends samtools: ``>=1.9``
    :depends seqtk: ``>=1.3``
-   :depends shovill: ``>=1.0.9``
-   :depends skesa: ``>=2.3``
+   :depends shovill: ``>=1.1.0``
+   :depends skesa: ``>=2.4``
    :depends snippy: ``>=4.4.3``
-   :depends snp-dists: ``>=0.6``
-   :depends spades: ``>=3.13``
+   :depends snp-dists: ``>=0.8.2``
+   :depends snpeff: ``5.0.*``
+   :depends spades: ``>=3.15``
    :depends trimmomatic: ``>=0.39``
    :requirements:
 
@@ -98,7 +100,7 @@ nullarbor
 
     <script>
         var package = "nullarbor";
-        var versions = ["2.0.20191013","2.0.20191013","2.0.20191013","2.0.20191007","2.0.20191003"];
+        var versions = ["2.0.20191013","2.0.20191013","2.0.20191013","2.0.20191013","2.0.20191007"];
     </script>
 
 
