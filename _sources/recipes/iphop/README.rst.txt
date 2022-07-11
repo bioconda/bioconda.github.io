@@ -13,7 +13,7 @@ iphop
    Predict host genus from genomes of uncultivated phages.
 
    :homepage: https://bitbucket.org/srouxjgi/iphop/
-   :license: BSD / Modified BSD
+   :license: GPL / Modified GPL v3
    :recipe: /`iphop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iphop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iphop/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ iphop
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -35,6 +35,7 @@ iphop
    :depends biopython: ``1.79.*``
    :depends blast: ``2.12.0.*``
    :depends click: ``8.0.1.*``
+   :depends crisper_recognition_tool: ``1.2.*``
    :depends diamond: ``2.0.11.*``
    :depends hmmer: ``3.3.2.*``
    :depends joblib: ``1.0.1.*``
@@ -42,6 +43,7 @@ iphop
    :depends pandas: ``1.3.2.*``
    :depends perl: ``5.26.*``
    :depends perl-bioperl: ``1.6.924.*``
+   :depends piler-cr: ``1.06.*``
    :depends prodigal: ``2.6.3.*``
    :depends python: ``3.8.*``
    :depends r-ranger: ``0.13.1.*``
@@ -78,7 +80,7 @@ iphop
 
     <script>
         var package = "iphop";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0"];
     </script>
 
 
