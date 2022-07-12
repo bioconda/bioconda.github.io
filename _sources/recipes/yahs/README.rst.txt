@@ -27,13 +27,13 @@ yahs
       
       
 
-      ``1.1a.2-0``,  ``1.0-0``
+      ``1.2a-0``,  ``1.1a.2-0``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ yahs
 
     <script>
         var package = "yahs";
-        var versions = ["1.1a.2","1.0"];
+        var versions = ["1.2a","1.1a.2","1.0"];
     </script>
 
 
