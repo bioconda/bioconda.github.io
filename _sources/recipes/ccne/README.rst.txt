@@ -27,7 +27,7 @@ ccne
       
       
 
-      ``1.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -72,7 +72,7 @@ ccne
 
     <script>
         var package = "ccne";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.1","1.1.0"];
     </script>
 
 

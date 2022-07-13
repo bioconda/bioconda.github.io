@@ -28,10 +28,10 @@ vembrane
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.10.1-1``,  ``0.10.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,11 @@ vembrane
 
    
    :depends asttokens: ``>=2.0,<3.0``
-   :depends importlib_metadata: ``>=1.7.0,<2.0.0``
-   :depends intervaltree: ``2.1``
-   :depends numpy: ``>=1.20,<2.0``
-   :depends pysam: ``>=0.16,<0.17``
-   :depends python: ``>=3.7``
-   :depends pyyaml: ``>=5.3,<6``
+   :depends intervaltree: ``>=3.0,<4.0``
+   :depends numpy: ``>=1.23,<2.0``
+   :depends pysam: ``>=0.19,<0.20``
+   :depends python: ``>=3.8,<4``
+   :depends pyyaml: ``>=6.0,<7``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +77,7 @@ vembrane
 
     <script>
         var package = "vembrane";
-        var versions = ["0.8.0","0.7.1","0.7.0","0.6.1","0.6.0"];
+        var versions = ["0.10.1","0.10.1","0.8.0","0.7.1","0.7.0"];
     </script>
 
 
