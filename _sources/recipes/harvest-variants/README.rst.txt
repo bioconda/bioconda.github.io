@@ -27,7 +27,7 @@ harvest-variants
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.1-2``,  ``0.3.1-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.1-2``,  ``0.3.1-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -39,7 +39,7 @@ harvest-variants
    :depends fastp: ``>=0.22``
    :depends fastqc: ``>=0.11.9``
    :depends lofreq: ``>=2.1.3``
-   :depends parsnp: ``>=1.7.2``
+   :depends parsnp: ``>=1.7.4``
    :depends python: ``>=3.6``
    :depends pyvcf: ``>=0.6.8``
    :depends samtools: ``>=1.15``
@@ -76,7 +76,7 @@ harvest-variants
 
     <script>
         var package = "harvest-variants";
-        var versions = ["1.0.1","1.0.0","0.3.1","0.3.1","0.0.4"];
+        var versions = ["1.1.0","1.0.1","1.0.0","0.3.1","0.3.1"];
     </script>
 
 

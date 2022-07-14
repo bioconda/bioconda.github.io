@@ -13,7 +13,7 @@ libcifpp
    Library containing code to manipulate mmCIF and PDB files
 
    :homepage: https://github.com/PDB-REDO/libcifpp
-   :license: BSD / BSD-2
+   :license: BSD / BSD-2-Clause
    :recipe: /`libcifpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcifpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcifpp/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ libcifpp
       
       
 
-      ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
+      ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
 
       
 
@@ -65,7 +65,7 @@ libcifpp
 
     <script>
         var package = "libcifpp";
-        var versions = ["4.1.1","4.0.0","3.0.3","3.0.0"];
+        var versions = ["4.2.0","4.1.1","4.0.0","3.0.3","3.0.0"];
     </script>
 
 

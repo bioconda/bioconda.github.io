@@ -6,7 +6,7 @@
 hla-la
 ======
 
-.. conda:recipe:: hla-la/1.0
+.. conda:recipe:: hla-la
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ hla-la
 
    :homepage: https://github.com/DiltheyLab/HLA-LA
    :license: GPL
-   :recipe: /`hla-la <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hla-la>`_/`1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hla-la/1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hla-la/1.0/meta.yaml>`_
+   :recipe: /`hla-la <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hla-la>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hla-la/meta.yaml>`_
    :links: biotools: :biotools:`hla-la`
 
    
@@ -28,16 +28,17 @@ hla-la
       
       
 
-      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.3-0``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends bwa: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends bwa: ``0.7.12``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends mummer: 
    :depends perl-bio-db-hts: 
    :depends perl-bio-featureio: 
@@ -46,8 +47,8 @@ hla-la
    :depends perl-list-moreutils: 
    :depends perl-text-levenshtein: 
    :depends picard: 
-   :depends samtools: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends r-base: ``4.*``
+   :depends samtools: ``1.10``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +80,7 @@ hla-la
 
     <script>
         var package = "hla-la";
-        var versions = ["1.0.1","1.0.1","1.0","1.0","1.0"];
+        var versions = ["1.0.3","1.0.1","1.0.1","1.0","1.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ captus
       
       
 
-      ``0.9.83-0``
+      ``0.9.84-0``,  ``0.9.83-0``
 
       
 
@@ -77,7 +77,7 @@ captus
 
     <script>
         var package = "captus";
-        var versions = ["0.9.83"];
+        var versions = ["0.9.84","0.9.83"];
     </script>
 
 

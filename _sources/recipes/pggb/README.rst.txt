@@ -27,24 +27,25 @@ pggb
       
       
 
-      ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
    :depends bc: 
    :depends bcftools: 
-   :depends gfaffix: ``0.1.3.*``
+   :depends gfaffix: ``>=0.1.3``
+   :depends gsl: ``2.7.0.*``
    :depends idna: ``<3,>=2.5``
    :depends multiqc: ``>=1.11``
-   :depends odgi: ``0.7.1.*``
+   :depends odgi: ``>=0.7.3``
    :depends pigz: 
-   :depends seqwish: ``0.7.5.*``
-   :depends smoothxg: ``0.6.4.*``
+   :depends seqwish: ``>=0.7.6``
+   :depends smoothxg: ``>=0.6.5``
    :depends tabix: 
    :depends time: 
-   :depends vg: ``1.39.0.*``
-   :depends wfmash: ``0.8.2.*``
+   :depends vg: ``1.40.0.*``
+   :depends wfmash: ``>=0.9.1``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +77,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.4.0","0.3.1","0.3.1","0.3.0","0.3.0"];
+        var versions = ["0.4.0","0.4.0","0.3.1","0.3.1","0.3.0"];
     </script>
 
 
