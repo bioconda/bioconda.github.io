@@ -10,7 +10,7 @@ duet
    :replaces_section_title:
    :noindex:
 
-   SNP\-Assisted Phased SV Detection from Low\-depth Long\-reads
+   SNP\-Assisted Structural Variant Calling and Phasing Using Oxford Nanopore Sequencing
 
    :homepage: https://github.com/yekaizhou/duet
    :license: BSD / BSD-3-Clause
