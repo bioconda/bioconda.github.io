@@ -28,14 +28,16 @@ ampliconclassifier
       
       
 
-      ``0.4.5-1``,  ``0.4.5-0``
+      ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``
 
       
 
    
    :depends intervaltree: 
    :depends matplotlib-base: 
+   :depends pandas: 
    :depends python: ``>=3.7``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +69,7 @@ ampliconclassifier
 
     <script>
         var package = "ampliconclassifier";
-        var versions = ["0.4.5","0.4.5"];
+        var versions = ["0.4.9","0.4.5","0.4.5"];
     </script>
 
 

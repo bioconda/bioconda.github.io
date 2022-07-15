@@ -27,7 +27,7 @@ anndata2ri
       
       
 
-      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.1-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -35,7 +35,7 @@ anndata2ri
    :depends anndata: 
    :depends get_version: 
    :depends python: ``>=3.6``
-   :depends rpy2: ``>=3.0.1``
+   :depends rpy2: ``>=3.4.3``
    :depends tzlocal: 
    :requirements:
 
@@ -68,7 +68,7 @@ anndata2ri
 
     <script>
         var package = "anndata2ri";
-        var versions = ["1.0.6","1.0.5","1.0.4","1.0.3","1.0.2"];
+        var versions = ["1.1","1.0.6","1.0.5","1.0.4","1.0.3"];
     </script>
 
 
