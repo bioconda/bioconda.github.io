@@ -13,7 +13,7 @@ protgraph
    ProtGraph\, a graph generator for proteins.
 
    :homepage: https://github.com/mpc-bioinformatics/ProtGraph
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`protgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protgraph/meta.yaml>`_
 
    
