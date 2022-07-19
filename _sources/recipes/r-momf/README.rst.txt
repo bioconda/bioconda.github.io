@@ -12,7 +12,7 @@ r-momf
 
    The package can fit single RNA\-seq data set\(SOMF\) and multiple RNA\-seq data sets \(MOMF\).
 
-   :homepage: https://github.com/sqsun/MOMF
+   :homepage: https://github.com/omnideconv/MOMF
    :license: GPL / GPL-2
    :recipe: /`r-momf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-momf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-momf/meta.yaml>`_
    :links: doi: :doi:`10.5281/zenodo.3373980`

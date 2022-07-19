@@ -12,7 +12,9 @@ lorikeet-genome
 
    Metagenomic Variant Calling \& Diversity Analysis
 
-   :homepage: https://rhysnewell.github.io/Lorikeet/
+   :homepage: https://github.com/rhysnewell/Lorikeet
+   :documentation: https://rhysnewell.github.io/Lorikeet/
+   
    :license: GPL3
    :recipe: /`lorikeet-genome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorikeet-genome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorikeet-genome/meta.yaml>`_
 

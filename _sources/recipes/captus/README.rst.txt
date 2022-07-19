@@ -13,7 +13,7 @@ captus
    Captus\: Assembly of Phylogenomic Datasets from High\-Throughput Sequencing data
 
    :homepage: https://github.com/edgardomortiz/Captus
-   :license: GPL#
+   :license: GPL3
    :recipe: /`captus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/captus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/captus/meta.yaml>`_
 
    
