@@ -12,7 +12,7 @@ r-dwls
 
    Deconvolution of bulk mRNA data using single\-cell RNAseq to provide cell type specific signatures
 
-   :homepage: https://github.com/PelzKo/dwls
+   :homepage: https://github.com/omnideconv/dwls
    :license: GPL / GPL-2
    :recipe: /`r-dwls <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dwls>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dwls/meta.yaml>`_
 

@@ -12,7 +12,7 @@ r-scdc
 
    SCDC adopts an ENSEMBLE method to integrate deconvolution results from different scRNA\-seq datasets that are produced in different laboratories and at different times\, implicitly addressing the batch\-effect confounding.
 
-   :homepage: https://github.com/meichendong/SCDC
+   :homepage: https://github.com/omnideconv/SCDC
    :license: MIT / MIT
    :recipe: /`r-scdc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scdc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scdc/meta.yaml>`_
    :links: doi: :doi:`10.1093/bib/bbz166`
