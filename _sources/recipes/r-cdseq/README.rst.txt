@@ -12,7 +12,7 @@ r-cdseq
 
    Estimate cell\-type\-specific gene expression profiles and sample\-specific cell\-type proportions simultaneously using bulk sequencing data. Kang et al. \(2019\) \<doi\:10.1371\/journal.pcbi.1007510\>.
 
-   :homepage: https://github.com/kkang7/CDSeq_R_Package
+   :homepage: https://github.com/omnideconv/CDSeq
    :license: GPL / GPL-3
    :recipe: /`r-cdseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cdseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cdseq/meta.yaml>`_
    :links: doi: :doi:`10.1371/journal.pcbi.1007510`
