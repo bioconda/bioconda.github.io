@@ -28,11 +28,16 @@ mantis-msi2
       
       
 
-      
+      ``2.0.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends numpy: ``>=1.11``
+   :depends pysam: ``>=0.13``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +69,7 @@ mantis-msi2
 
     <script>
         var package = "mantis-msi2";
-        var versions = [];
+        var versions = ["2.0.0"];
     </script>
 
 

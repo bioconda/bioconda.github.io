@@ -27,11 +27,28 @@ multivelo
       
       
 
-      
+      ``0.1.2-0``
 
       
 
    
+   :depends anndata: ``>=0.7.5``
+   :depends h5py: ``>=2.10.0``
+   :depends ipywidgets: 
+   :depends joblib: 
+   :depends loompy: ``>=2.0.12``
+   :depends matplotlib-base: ``>=3.3.0``
+   :depends numba: ``>=0.41.0``
+   :depends numpy: ``>=1.17``
+   :depends pandas: ``>=0.23``
+   :depends python: ``>=3.7``
+   :depends scanpy: ``>=1.5``
+   :depends scikit-learn: ``>=0.23.0``
+   :depends scipy: ``>=1.4.1``
+   :depends scvelo: ``>=0.2.3``
+   :depends seaborn: ``>=0.11.0``
+   :depends tqdm: 
+   :depends umap-learn: ``>=0.3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +80,7 @@ multivelo
 
     <script>
         var package = "multivelo";
-        var versions = [];
+        var versions = ["0.1.2"];
     </script>
 
 

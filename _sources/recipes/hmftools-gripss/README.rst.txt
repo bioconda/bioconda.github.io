@@ -28,10 +28,10 @@ hmftools-gripss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.11-0</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  <code>1.8-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.11-0</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  <code>1.8-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  </span></summary>
       
 
-      ``2.1-0``,  ``2.0-0``,  ``1.11-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.11-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ hmftools-gripss
 
     <script>
         var package = "hmftools-gripss";
-        var versions = ["2.1","2.0","1.11","1.9","1.9"];
+        var versions = ["2.2","2.1","2.0","1.11","1.9"];
     </script>
 
 

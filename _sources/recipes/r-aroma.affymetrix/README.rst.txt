@@ -28,10 +28,10 @@ r-aroma.affymetrix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-4</code>,  <code>3.2.0-3</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.1-0</code>,  <code>3.2.0-4</code>,  <code>3.2.0-3</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  </span></summary>
       
 
-      ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``3.2.1-0``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -46,12 +46,12 @@ r-aroma.affymetrix
    :depends r-future: 
    :depends r-listenv: 
    :depends r-mass: 
-   :depends r-matrixstats: ``>=0.54.0``
-   :depends r-r.cache: ``>=0.13.0``
-   :depends r-r.devices: ``>=2.16.0``
+   :depends r-matrixstats: ``>=0.55.0``
+   :depends r-r.cache: ``>=0.14.0``
+   :depends r-r.devices: ``>=2.16.1``
    :depends r-r.filesets: ``>=2.13.0``
    :depends r-r.methodss3: ``>=1.7.1``
-   :depends r-r.oo: ``>=1.21.0``
+   :depends r-r.oo: ``>=1.23.0``
    :depends r-r.utils: ``>=2.9.0``
    :requirements:
 
@@ -84,7 +84,7 @@ r-aroma.affymetrix
 
     <script>
         var package = "r-aroma.affymetrix";
-        var versions = ["3.2.0","3.2.0","3.2.0","3.2.0","3.2.0"];
+        var versions = ["3.2.1","3.2.0","3.2.0","3.2.0","3.2.0"];
     </script>
 
 

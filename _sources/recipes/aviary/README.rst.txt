@@ -31,11 +31,21 @@ aviary
       
       
 
-      
+      ``0.4.1-0``
 
       
 
    
+   :depends bbmap: 
+   :depends biopython: 
+   :depends mamba: 
+   :depends numpy: 
+   :depends pandas: ``>=1.2,<1.5``
+   :depends parallel: 
+   :depends pigz: ``>=2.6``
+   :depends python: ``>=3.8,<3.11``
+   :depends ruamel.yaml: ``>=0.15.99``
+   :depends snakemake: ``7.8.*``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +77,7 @@ aviary
 
     <script>
         var package = "aviary";
-        var versions = [];
+        var versions = ["0.4.1"];
     </script>
 
 

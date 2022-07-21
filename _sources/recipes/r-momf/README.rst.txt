@@ -28,13 +28,13 @@ r-momf
       
       
 
-      ``0-1``,  ``0-0``
+      ``0-2``,  ``0-1``,  ``0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-car: 
    :depends r-matlib: 
@@ -71,7 +71,7 @@ r-momf
 
     <script>
         var package = "r-momf";
-        var versions = ["0","0"];
+        var versions = ["0","0","0"];
     </script>
 
 

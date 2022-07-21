@@ -27,14 +27,14 @@ captus
       
       
 
-      ``0.9.84-0``,  ``0.9.83-0``
+      ``0.9.85-0``,  ``0.9.84-1``,  ``0.9.84-0``,  ``0.9.83-0``
 
       
 
    
    :depends bbmap: 
    :depends clipkit: ``>=1.3.0``
-   :depends falco: 
+   :depends falco: ``>=0.3.0``
    :depends fastqc: 
    :depends mafft: 
    :depends megahit: 
@@ -44,7 +44,7 @@ captus
    :depends pigz: 
    :depends pip: 
    :depends plotly: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.6``
    :depends tqdm: 
    :requirements:
 
@@ -77,7 +77,7 @@ captus
 
     <script>
         var package = "captus";
-        var versions = ["0.9.84","0.9.83"];
+        var versions = ["0.9.85","0.9.84","0.9.84","0.9.83"];
     </script>
 
 

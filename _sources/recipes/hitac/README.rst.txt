@@ -33,10 +33,10 @@ hitac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.8-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>1.5.9-0</code>,  <code>1.5.8-0</code>,  <code>1.5.4-0</code>,  <code>1.5.1-0</code>,  <code>1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-0</code>,  <code>2.0.8-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>1.5.9-0</code>,  <code>1.5.8-0</code>,  <code>1.5.4-0</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.4-0``,  ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
+      ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.4-0``,  ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -45,12 +45,12 @@ hitac
       
 
    
-   :depends hiclass: 
-   :depends numpy: 
-   :depends pandas: 
+   :depends hiclass: ``>=4.1``
+   :depends numpy: ``1.22.3.*``
+   :depends pandas: ``1.4.3.*``
    :depends python: ``>=3.8``
-   :depends scikit-bio: 
-   :depends scikit-learn: 
+   :depends scikit-bio: ``0.5.7.*``
+   :depends scikit-learn: ``0.24.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ hitac
 
     <script>
         var package = "hitac";
-        var versions = ["2.0.8","2.0.6","2.0.5","2.0.4","1.5.9"];
+        var versions = ["2.0.9","2.0.8","2.0.6","2.0.5","2.0.4"];
     </script>
 
 

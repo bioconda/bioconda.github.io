@@ -13,7 +13,7 @@ spades
    SPAdes \(St. Petersburg genome assembler\) is intended for both standard isolates and single\-cell MDA bacteria assemblies.
 
    :homepage: http://cab.spbu.ru/software/spades/
-   :documentation: http://cab.spbu.ru/files/release3.15.4/manual.html
+   :documentation: http://cab.spbu.ru/files/release3.15.5/manual.html
    
    :developer docs: https://github.com/ablab/spades
    :license: GPL / GPLv2
@@ -38,10 +38,10 @@ spades
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.15.4-0</code>,  <code>3.15.3-1</code>,  <code>3.15.3-0</code>,  <code>3.15.2-1</code>,  <code>3.15.2-0</code>,  <code>3.15.0-0</code>,  <code>3.14.1-2</code>,  <code>3.14.1-1</code>,  <code>3.14.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.15.5-0</code>,  <code>3.15.4-0</code>,  <code>3.15.3-1</code>,  <code>3.15.3-0</code>,  <code>3.15.2-1</code>,  <code>3.15.2-0</code>,  <code>3.15.0-0</code>,  <code>3.14.1-2</code>,  <code>3.14.1-1</code>,  </span></summary>
       
 
-      ``3.15.4-0``,  ``3.15.3-1``,  ``3.15.3-0``,  ``3.15.2-1``,  ``3.15.2-0``,  ``3.15.0-0``,  ``3.14.1-2``,  ``3.14.1-1``,  ``3.14.1-0``,  ``3.14.0-0``,  ``3.13.2-0``,  ``3.13.1-2``,  ``3.13.1-1``,  ``3.13.1-0``,  ``3.13.0-0``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.1-5``,  ``3.11.1-4``,  ``3.11.1-3``,  ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``,  ``3.11.0-1``,  ``3.11.0-0``,  ``3.10.1-1``,  ``3.10.1-0``,  ``3.10.0-0``,  ``3.9.1-1``,  ``3.9.1-0``,  ``3.9.0-4``,  ``3.9.0-3``,  ``3.9.0-2``,  ``3.9.0-1``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.2-0``,  ``3.5.0-1``,  ``3.5.0-0``
+      ``3.15.5-0``,  ``3.15.4-0``,  ``3.15.3-1``,  ``3.15.3-0``,  ``3.15.2-1``,  ``3.15.2-0``,  ``3.15.0-0``,  ``3.14.1-2``,  ``3.14.1-1``,  ``3.14.1-0``,  ``3.14.0-0``,  ``3.13.2-0``,  ``3.13.1-2``,  ``3.13.1-1``,  ``3.13.1-0``,  ``3.13.0-0``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.1-5``,  ``3.11.1-4``,  ``3.11.1-3``,  ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``,  ``3.11.0-1``,  ``3.11.0-0``,  ``3.10.1-1``,  ``3.10.1-0``,  ``3.10.0-0``,  ``3.9.1-1``,  ``3.9.1-0``,  ``3.9.0-4``,  ``3.9.0-3``,  ``3.9.0-2``,  ``3.9.0-1``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.2-0``,  ``3.5.0-1``,  ``3.5.0-0``
 
       
       .. raw:: html
@@ -51,9 +51,9 @@ spades
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends openmp: 
    :depends python: ``<=3.9``
    :depends sysroot_linux-64: ``2.17.*``
@@ -88,7 +88,7 @@ spades
 
     <script>
         var package = "spades";
-        var versions = ["3.15.4","3.15.3","3.15.3","3.15.2","3.15.2"];
+        var versions = ["3.15.5","3.15.4","3.15.3","3.15.3","3.15.2"];
     </script>
 
 

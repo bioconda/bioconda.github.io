@@ -29,11 +29,18 @@ pharokka
       
       
 
-      
+      ``0.1.6-0``
 
       
 
    
+   :depends biopython: ``>1.78``
+   :depends emboss: ``>=6.6.0``
+   :depends hhsuite: ``>=3.3.0``
+   :depends mmseqs2: ``>=13.45111``
+   :depends phanotate: ``>=1.5.0``
+   :depends prodigal: ``>=2.6.3``
+   :depends trnascan-se: ``>=2.0.9``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +72,7 @@ pharokka
 
     <script>
         var package = "pharokka";
-        var versions = [];
+        var versions = ["0.1.6"];
     </script>
 
 

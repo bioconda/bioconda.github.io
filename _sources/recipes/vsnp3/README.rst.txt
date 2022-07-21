@@ -27,11 +27,12 @@ vsnp3
       
       
 
-      ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
+      ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
 
    
+   :depends bcftools: 
    :depends biopython: ``>=1.79``
    :depends bwa: 
    :depends cairosvg: ``>=2.5.2``
@@ -56,6 +57,7 @@ vsnp3
    :depends spades: ``>=3.15.2``
    :depends svgwrite: ``>=1.4.1``
    :depends vcflib: 
+   :depends vcftools: 
    :depends xlsxwriter: ``>=3.0.2``
    :requirements:
 
@@ -88,7 +90,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.06","3.05","3.04","3.02","3.01"];
+        var versions = ["3.07","3.06","3.05","3.04","3.02"];
     </script>
 
 

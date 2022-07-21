@@ -29,7 +29,7 @@ physlr
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -79,7 +79,7 @@ physlr
 
     <script>
         var package = "physlr";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 
