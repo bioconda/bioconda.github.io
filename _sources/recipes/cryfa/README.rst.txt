@@ -27,13 +27,13 @@ cryfa
       
       
 
-      ``18.06-2``,  ``18.06-1``,  ``18.06-0``
+      ``20.04-0``,  ``18.06-2``,  ``18.06-1``,  ``18.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ cryfa
 
     <script>
         var package = "cryfa";
-        var versions = ["18.06","18.06","18.06"];
+        var versions = ["20.04","18.06","18.06","18.06"];
     </script>
 
 
