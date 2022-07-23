@@ -27,14 +27,12 @@ array-as-vcf
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends python: ``>=3.6``
-   :depends requests: ``>2``
-   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +64,7 @@ array-as-vcf
 
     <script>
         var package = "array-as-vcf";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.1.0","1.0.1","1.0.0"];
     </script>
 
 
