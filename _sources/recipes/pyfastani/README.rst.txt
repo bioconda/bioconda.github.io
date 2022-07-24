@@ -29,7 +29,7 @@ pyfastani
       
       
 
-      ``0.3.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -70,7 +70,7 @@ pyfastani
 
     <script>
         var package = "pyfastani";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.1","0.3.0"];
     </script>
 
 

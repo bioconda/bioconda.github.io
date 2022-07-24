@@ -30,17 +30,18 @@ blastmining
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends blast: 
+   :depends blast: ``2.12.0.*``
    :depends csvtk: 
    :depends fastnumbers: 
    :depends krona: 
    :depends numpy: 
    :depends pandas: 
+   :depends parallel: 
    :depends python: ``>=3.6``
    :depends taxonkit: 
    :requirements:
@@ -74,7 +75,7 @@ blastmining
 
     <script>
         var package = "blastmining";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

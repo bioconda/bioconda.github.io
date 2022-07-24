@@ -28,15 +28,15 @@ medicc2
       
       
 
-      ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
+      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
 
       
 
    
    :depends biopython: ``>=1.78``
    :depends joblib: ``>=1.0.1``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: ``>=3.3``
    :depends numpy: ``>=1.20.1``
    :depends numpy: ``>=1.21.6,<2.0a0``
@@ -78,7 +78,7 @@ medicc2
 
     <script>
         var package = "medicc2";
-        var versions = ["0.7.1","0.7.0","0.7.0","0.6b1","0.5b4"];
+        var versions = ["0.8.0","0.7.1","0.7.0","0.7.0","0.6b1"];
     </script>
 
 

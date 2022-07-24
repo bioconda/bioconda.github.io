@@ -12,7 +12,7 @@ bio-vcf
 
    Smart VCF parser
 
-   :homepage: https://github.com/pjotrp/bioruby-vcf
+   :homepage: https://github.com/vcflib/bio-vcf
    :license: MIT
    :recipe: /`bio-vcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-vcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-vcf/meta.yaml>`_
 
@@ -27,12 +27,12 @@ bio-vcf
       
       
 
-      ``0.9.2-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
    
-   :depends ruby: 
+   :depends ruby: ``2.6.6.*``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ bio-vcf
 
     <script>
         var package = "bio-vcf";
-        var versions = ["0.9.2","0.9.1","0.9.1","0.9.1","0.9.0"];
+        var versions = ["0.9.5","0.9.2","0.9.1","0.9.1","0.9.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ rnaprot
       
       
 
-      ``0.4-0``,  ``0.3-0``
+      ``0.5-0``,  ``0.4-0``,  ``0.3-0``
 
       
 
@@ -77,7 +77,7 @@ rnaprot
 
     <script>
         var package = "rnaprot";
-        var versions = ["0.4","0.3"];
+        var versions = ["0.5","0.4","0.3"];
     </script>
 
 
