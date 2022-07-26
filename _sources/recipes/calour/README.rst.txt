@@ -31,7 +31,7 @@ calour
       
       
 
-      ``2019.5.1-0``,  ``2018.10.1-0``
+      ``2020.8.6-0``,  ``2019.5.1-0``,  ``2018.10.1-0``
 
       
 
@@ -40,7 +40,7 @@ calour
    :depends docrep: 
    :depends ipython: 
    :depends ipywidgets: 
-   :depends matplotlib: ``>=2.0``
+   :depends matplotlib-base: ``>=2.0``
    :depends numpy: 
    :depends pandas: 
    :depends pyqt: ``>5``
@@ -80,7 +80,7 @@ calour
 
     <script>
         var package = "calour";
-        var versions = ["2019.5.1","2018.10.1"];
+        var versions = ["2020.8.6","2019.5.1","2018.10.1"];
     </script>
 
 

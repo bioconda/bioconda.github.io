@@ -27,7 +27,7 @@ rnaprot
       
       
 
-      ``0.5-0``,  ``0.4-0``,  ``0.3-0``
+      ``0.5-1``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``
 
       
 
@@ -38,7 +38,7 @@ rnaprot
    :depends markdown: ``<=3.2.2``
    :depends plotly: 
    :depends python: ``>=3.8``
-   :depends pytorch: ``1.8.*``
+   :depends pytorch: ``>=1.8``
    :depends scikit-learn: 
    :depends seaborn: 
    :depends ucsc-bigwigaverageoverbed: 
@@ -77,7 +77,7 @@ rnaprot
 
     <script>
         var package = "rnaprot";
-        var versions = ["0.5","0.4","0.3"];
+        var versions = ["0.5","0.5","0.4","0.3"];
     </script>
 
 

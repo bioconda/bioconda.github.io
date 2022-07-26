@@ -27,7 +27,7 @@ perl-memoize
       
       
 
-      ``1.03-3``,  ``1.03-2``,  ``1.03-1``
+      ``1.05-0``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``
 
       
 
@@ -65,7 +65,7 @@ perl-memoize
 
     <script>
         var package = "perl-memoize";
-        var versions = ["1.03","1.03","1.03"];
+        var versions = ["1.05","1.03","1.03","1.03"];
     </script>
 
 

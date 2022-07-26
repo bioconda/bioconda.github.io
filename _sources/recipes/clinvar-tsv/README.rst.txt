@@ -27,14 +27,19 @@ clinvar-tsv
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
+   :depends cattrs: 
+   :depends interval-binning: 
+   :depends logzero: 
    :depends pysam: ``>=0.15.1``
    :depends python: ``>=3.5``
+   :depends python-dateutil: 
    :depends snakemake-minimal: ``>=5.3.0``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +71,7 @@ clinvar-tsv
 
     <script>
         var package = "clinvar-tsv";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.2.2","0.1.1","0.1.0"];
     </script>
 
 
