@@ -27,13 +27,13 @@ stoatydive
       
       
 
-      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.4-0``
+      ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.4-0``
 
       
 
    
    :depends bedtools: ``>=2.27.1``
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends python: 
    :depends r-base: 
@@ -72,7 +72,7 @@ stoatydive
 
     <script>
         var package = "stoatydive";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.0.4"];
+        var versions = ["1.1.1","1.1.0","1.1.0","1.1.0","1.0.4"];
     </script>
 
 

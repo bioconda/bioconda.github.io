@@ -30,13 +30,13 @@ simplesam
       
       
 
-      ``0.1.4.0-0``,  ``0.1.3.2-0``,  ``0.1.3.1-1``,  ``0.1.3.1-0``
+      ``0.1.4.1-0``,  ``0.1.4.0-0``,  ``0.1.3.2-0``,  ``0.1.3.1-1``,  ``0.1.3.1-0``
 
       
 
    
-   :depends pip: 
    :depends python: 
+   :depends setuptools: 
    :depends six: 
    :requirements:
 
@@ -69,7 +69,7 @@ simplesam
 
     <script>
         var package = "simplesam";
-        var versions = ["0.1.4.0","0.1.3.2","0.1.3.1","0.1.3.1"];
+        var versions = ["0.1.4.1","0.1.4.0","0.1.3.2","0.1.3.1","0.1.3.1"];
     </script>
 
 
