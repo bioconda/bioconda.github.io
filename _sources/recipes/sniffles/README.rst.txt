@@ -12,7 +12,7 @@ sniffles
 
    Sniffles is a structural variation caller using third generation sequencing \(PacBio or Oxford Nanopore\)
 
-   :homepage: https://github.com/smolkmo/Sniffles2
+   :homepage: https://github.com/fritzsedlazeck/Sniffles
    :license: MIT / MIT
    :recipe: /`sniffles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sniffles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sniffles/meta.yaml>`_
 
