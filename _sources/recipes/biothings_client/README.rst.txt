@@ -32,8 +32,11 @@ biothings_client
       
 
    
-   :depends python: 
+   :depends pandas: ``>=0.18.0``
+   :depends pyld: ``>=0.7.2``
+   :depends python: ``>=3.6``
    :depends requests: ``>=2.3.0``
+   :depends requests-cache: ``>=0.4.13``
    :requirements:
 
    .. rubric:: Installation
