@@ -27,17 +27,17 @@ dragmap
       
       
 
-      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
    :depends boost: ``>=1.74.0,<1.74.1.0a0``
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ dragmap
 
     <script>
         var package = "dragmap";
-        var versions = ["1.2.1","1.2.1","1.2.0"];
+        var versions = ["1.3.0","1.2.1","1.2.1","1.2.0"];
     </script>
 
 
