@@ -27,7 +27,7 @@ pygenomeviz
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
 
       
 
@@ -36,6 +36,7 @@ pygenomeviz
    :depends matplotlib-base: ``>=3.5.2,<4.0.0``
    :depends numpy: ``>=1.21,<2.0``
    :depends python: ``>=3.7,<4.0``
+   :depends typing-extensions: ``>=4.3.0,<5.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +68,7 @@ pygenomeviz
 
     <script>
         var package = "pygenomeviz";
-        var versions = ["0.1.1","0.1.0","0.0.9"];
+        var versions = ["0.2.2","0.2.1","0.2.0","0.1.1","0.1.0"];
     </script>
 
 

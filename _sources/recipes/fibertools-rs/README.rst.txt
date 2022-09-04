@@ -27,11 +27,17 @@ fibertools-rs
       
       
 
-      
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-0``
 
       
 
    
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libcblas: ``>=3.8.0,<4.0a0``
+   :depends libcurl: ``>=7.83.1,<8.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends openssl: ``>=1.1.1q,<1.1.2a``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +69,7 @@ fibertools-rs
 
     <script>
         var package = "fibertools-rs";
-        var versions = [];
+        var versions = ["0.0.5","0.0.4","0.0.2"];
     </script>
 
 

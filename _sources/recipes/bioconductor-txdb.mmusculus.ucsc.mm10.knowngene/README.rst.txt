@@ -28,10 +28,10 @@ bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.10.0-5</code>,  <code>3.10.0-4</code>,  <code>3.10.0-3</code>,  <code>3.10.0-2</code>,  <code>3.10.0-1</code>,  <code>3.10.0-0</code>,  <code>3.4.7-1</code>,  <code>3.4.4-0</code>,  <code>3.4.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.10.0-6</code>,  <code>3.10.0-5</code>,  <code>3.10.0-4</code>,  <code>3.10.0-3</code>,  <code>3.10.0-2</code>,  <code>3.10.0-1</code>,  <code>3.10.0-0</code>,  <code>3.4.7-1</code>,  <code>3.4.4-0</code>,  </span></summary>
       
 
-      ``3.10.0-5``,  ``3.10.0-4``,  ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.7-1``,  ``3.4.4-0``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
+      ``3.10.0-6``,  ``3.10.0-5``,  ``3.10.0-4``,  ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.7-1``,  ``3.4.4-0``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

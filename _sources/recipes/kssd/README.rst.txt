@@ -13,9 +13,9 @@ kssd
    K\-mer substring space decomposition
 
    :homepage: https://github.com/yhg926/public_kssd
-   :license: Apache Software License
+   :license: Apache-2.0
    :recipe: /`kssd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kssd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kssd/meta.yaml>`_
-   :links: doi: :doi:`10.1101/729665`
+   :links: doi: :doi:`10.1186/s13059-021-02303-4`
 
    Kssd is a command\-line tool for large\-scale sequences sketching and resemblance\- and 
    containment\-analysis. It sketches sequences by k\-mer substring space sampling\/shuffling. 
@@ -31,13 +31,13 @@ kssd
       
       
 
-      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``2.21-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ kssd
 
     <script>
         var package = "kssd";
-        var versions = ["1.1","1.1","1.1","1.0"];
+        var versions = ["2.21","1.1","1.1","1.1","1.0"];
     </script>
 
 

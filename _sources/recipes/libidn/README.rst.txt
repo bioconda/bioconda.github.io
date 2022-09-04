@@ -27,13 +27,13 @@ libidn
       
       
 
-      ``7.45.0-5``,  ``7.45.0-4``,  ``7.45.0-3``,  ``7.45.0-2``,  ``7.45.0-1``
+      ``7.45.0-6``,  ``7.45.0-5``,  ``7.45.0-4``,  ``7.45.0-3``,  ``7.45.0-2``,  ``7.45.0-1``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

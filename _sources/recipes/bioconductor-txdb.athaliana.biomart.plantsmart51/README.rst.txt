@@ -27,14 +27,14 @@ bioconductor-txdb.athaliana.biomart.plantsmart51
       
       
 
-      ``0.99.0-0``
+      ``0.99.0-1``,  ``0.99.0-0``
 
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-txdb.athaliana.biomart.plantsmart51
 
     <script>
         var package = "bioconductor-txdb.athaliana.biomart.plantsmart51";
-        var versions = ["0.99.0"];
+        var versions = ["0.99.0","0.99.0"];
     </script>
 
 

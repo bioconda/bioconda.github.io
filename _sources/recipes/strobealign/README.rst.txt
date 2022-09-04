@@ -27,7 +27,7 @@ strobealign
       
       
 
-      ``0.7.1-0``
+      ``0.7.1-1``,  ``0.7.1-0``
 
       
 
@@ -67,7 +67,7 @@ strobealign
 
     <script>
         var package = "strobealign";
-        var versions = ["0.7.1"];
+        var versions = ["0.7.1","0.7.1"];
     </script>
 
 

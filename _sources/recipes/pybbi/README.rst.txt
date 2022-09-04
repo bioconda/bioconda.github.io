@@ -32,14 +32,13 @@ pybbi
       
 
    
-   :depends libclang: ``13.*``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends numpy: ``>=1.17.5,<2.0a0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends openssl: ``>=1.1.1q,<1.1.2a``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends six: 
    :requirements:
 

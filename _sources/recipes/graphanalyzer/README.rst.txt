@@ -27,7 +27,7 @@ graphanalyzer
       
       
 
-      ``1.4-0``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.5.1-0``,  ``1.5-0``,  ``1.4-0``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
@@ -38,8 +38,9 @@ graphanalyzer
    :depends networkx: 
    :depends openpyxl: 
    :depends pandas: ``>=1.0``
+   :depends plotly: 
    :depends pygraphviz: ``>=1.6,<=1.7``
-   :depends python: ``>=3,<3.9``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ graphanalyzer
 
     <script>
         var package = "graphanalyzer";
-        var versions = ["1.4","1.2.2","1.2.1"];
+        var versions = ["1.5.1","1.5","1.4","1.2.2","1.2.1"];
     </script>
 
 

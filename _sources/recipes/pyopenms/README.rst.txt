@@ -47,18 +47,19 @@ pyopenms
    :depends eigen: ``>=3.4.0,<3.5.0a0``
    :depends glpk: ``>=4.65,<4.66.0a0``
    :depends hdf5: ``>=1.12.1,<1.13.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libopenms: ``2.8.0.*``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=12``
    :depends libsvm: ``>=3.21,<3.22.0a0``
-   :depends numpy: ``1.17.*``
+   :depends numpy: ``1.21.*``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: 
-   :depends python: ``>=3.6,<3.7.0a0 *_cpython``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends qt: ``>=5.12.9,<5.13.0a0``
-   :depends sqlite: ``>=3.37.1,<4.0a0``
+   :depends sqlite: ``>=3.39.2,<4.0a0``
    :depends xerces-c: ``>=3.2.3,<3.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

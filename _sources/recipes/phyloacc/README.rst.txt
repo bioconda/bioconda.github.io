@@ -32,16 +32,16 @@ phyloacc
       
 
    
-   :depends armadillo: ``>=11.0,<12.0a0``
+   :depends armadillo: ``>=11.1,<12.0a0``
    :depends biopython: ``>=1.79``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: ``>=3.5``
    :depends numpy: ``>=1.22``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends snakemake-minimal: ``>=7.3``
    :requirements:
 

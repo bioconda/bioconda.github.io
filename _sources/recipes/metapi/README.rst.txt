@@ -29,10 +29,10 @@ metapi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -41,16 +41,21 @@ metapi
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.73``
+   :depends fd-find: 
    :depends matplotlib-base: 
    :depends natsort: 
    :depends numpy: 
    :depends openpyxl: 
    :depends pandas: 
+   :depends pigz: 
    :depends python: ``>=3.7``
    :depends ruamel.yaml: 
    :depends seaborn: 
-   :depends snakemake: 
+   :depends seqkit: 
+   :depends seqtk: 
+   :depends snakemake: ``>=7.0``
+   :depends sra-tools: ``>=2.11.0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +87,7 @@ metapi
 
     <script>
         var package = "metapi";
-        var versions = ["2.2.0","2.1.4","2.1.3","2.1.2","2.1.1"];
+        var versions = ["2.4.0","2.3.0","2.2.0","2.1.4","2.1.3"];
     </script>
 
 

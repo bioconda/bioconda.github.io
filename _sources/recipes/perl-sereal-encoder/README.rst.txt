@@ -28,10 +28,10 @@ perl-sereal-encoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.023-0</code>,  <code>4.021-1</code>,  <code>4.021-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  <code>4.007-0</code>,  <code>4.005-0</code>,  <code>3.015-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.024-0</code>,  <code>4.023-0</code>,  <code>4.021-1</code>,  <code>4.021-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  </span></summary>
       
 
-      ``4.023-0``,  ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``4.025-1``,  ``4.025-0``,  ``4.024-0``,  ``4.023-0``,  ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ perl-sereal-encoder
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -73,7 +73,7 @@ perl-sereal-encoder
 
     <script>
         var package = "perl-sereal-encoder";
-        var versions = ["4.023","4.021","4.021","4.020","4.019"];
+        var versions = ["4.025","4.025","4.024","4.023","4.021"];
     </script>
 
 

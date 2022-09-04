@@ -32,9 +32,10 @@ taxonomy
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends cffi: 
+   :depends libgcc-ng: ``>=12``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

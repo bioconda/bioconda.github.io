@@ -27,7 +27,7 @@ ffq
       
       
 
-      ``0.2.1-0``,  ``0.1.2-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.2-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -35,7 +35,7 @@ ffq
    :depends beautifulsoup4: ``>=4.8.2``
    :depends frozendict: 
    :depends lxml: ``>=4.5.0``
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :depends requests: ``>=2.23.0``
    :requirements:
 
@@ -68,7 +68,7 @@ ffq
 
     <script>
         var package = "ffq";
-        var versions = ["0.2.1","0.1.2","0.0.4","0.0.3"];
+        var versions = ["0.3.0","0.2.1","0.1.2","0.0.4","0.0.3"];
     </script>
 
 

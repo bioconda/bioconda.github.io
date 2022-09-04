@@ -28,11 +28,22 @@ genomad
       
       
 
-      
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
+   :depends aragorn: 
+   :depends keras: ``>=2.7``
+   :depends mmseqs2: ``>=13.45111``
+   :depends numba: 
+   :depends prodigal-gv: ``>=2.7.0``
+   :depends python: ``>=3.8``
+   :depends python-crfsuite: 
+   :depends rich-click: ``>=1.4``
+   :depends taxopy: ``>=0.4.0``
+   :depends tensorflow: ``>=2.7``
+   :depends xgboost: ``>=1.6``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +75,7 @@ genomad
 
     <script>
         var package = "genomad";
-        var versions = [];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

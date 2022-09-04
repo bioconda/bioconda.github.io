@@ -46,10 +46,10 @@ pyprophet
    :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numexpr: ``>=2.1``
-   :depends numpy: ``>=1.19.5,<2.0a0``
+   :depends numpy: ``>=1.23.1,<2.0a0``
    :depends pandas: ``>=0.17``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: ``>=0.17``
    :depends scipy: 
    :depends seaborn: 

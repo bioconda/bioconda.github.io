@@ -26,17 +26,25 @@ megadepth
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9b-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9b-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libbigwig: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libbigwig: ``>=0.4.6,<0.5.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ megadepth
 
     <script>
         var package = "megadepth";
-        var versions = ["1.2.0","1.2.0","1.1.3","1.1.3","1.1.2"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.1.3","1.1.3"];
     </script>
 
 

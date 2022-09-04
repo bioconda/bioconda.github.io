@@ -27,13 +27,13 @@ bioconductor-tbx20bamsubset
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-xtable: 
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-tbx20bamsubset
 
     <script>
         var package = "bioconductor-tbx20bamsubset";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.30.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-synaptome.db
       
       
 
-      ``0.99.8-0``
+      ``0.99.8-1``,  ``0.99.8-0``
 
       
 
    
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-synaptome.data: ``>=0.99.0,<0.100.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-dbplyr: 
@@ -73,7 +73,7 @@ bioconductor-synaptome.db
 
     <script>
         var package = "bioconductor-synaptome.db";
-        var versions = ["0.99.8"];
+        var versions = ["0.99.8","0.99.8"];
     </script>
 
 

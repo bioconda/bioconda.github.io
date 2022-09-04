@@ -44,10 +44,10 @@ htseq
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: ``>=1.4``
-   :depends numpy: ``>=1.17.5,<2.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pysam: ``>=0.15.1``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

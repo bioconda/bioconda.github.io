@@ -27,7 +27,7 @@ bioconductor-pd.feinberg.hg18.me.hx1
       
       
 
-      ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
+      ``0.99.3-9``,  ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-pd.feinberg.hg18.me.hx1
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
    :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``

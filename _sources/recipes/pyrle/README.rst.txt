@@ -28,10 +28,10 @@ pyrle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.35-0</code>,  <code>0.0.34-1</code>,  <code>0.0.34-0</code>,  <code>0.0.33-0</code>,  <code>0.0.32-1</code>,  <code>0.0.32-0</code>,  <code>0.0.31-1</code>,  <code>0.0.31-0</code>,  <code>0.0.30-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.35-1</code>,  <code>0.0.35-0</code>,  <code>0.0.34-1</code>,  <code>0.0.34-0</code>,  <code>0.0.33-0</code>,  <code>0.0.32-1</code>,  <code>0.0.32-0</code>,  <code>0.0.31-1</code>,  <code>0.0.31-0</code>,  </span></summary>
       
 
-      ``0.0.35-0``,  ``0.0.34-1``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.32-1``,  ``0.0.32-0``,  ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-1``,  ``0.0.24-0``,  ``0.0.23-0``
+      ``0.0.35-1``,  ``0.0.35-0``,  ``0.0.34-1``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.32-1``,  ``0.0.32-0``,  ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-1``,  ``0.0.24-0``,  ``0.0.23-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ pyrle
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends tabulate: 
    :requirements:
 
@@ -78,7 +78,7 @@ pyrle
 
     <script>
         var package = "pyrle";
-        var versions = ["0.0.35","0.0.34","0.0.34","0.0.33","0.0.32"];
+        var versions = ["0.0.35","0.0.35","0.0.34","0.0.34","0.0.33"];
     </script>
 
 

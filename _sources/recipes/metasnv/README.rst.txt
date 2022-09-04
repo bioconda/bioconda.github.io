@@ -28,10 +28,10 @@ metasnv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.4-2</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.3-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.4-3</code>,  <code>2.0.4-2</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.0.4-2``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ metasnv
 
    
    :depends bioconductor-biocparallel: ``>=1.26``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends numpy: 
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: 
    :depends pandoc: ``>=2.1``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-ape: 
    :depends r-base: ``>=4.0``
    :depends r-batchtools: 
@@ -72,7 +72,7 @@ metasnv
    :depends r-rmarkdown: 
    :depends r-tidyr: 
    :depends samtools: ``>=1.12``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -104,7 +104,7 @@ metasnv
 
     <script>
         var package = "metasnv";
-        var versions = ["2.0.4","2.0.4","2.0.4","2.0.3","2.0.2"];
+        var versions = ["2.0.4","2.0.4","2.0.4","2.0.4","2.0.3"];
     </script>
 
 

@@ -27,7 +27,7 @@ strainge
       
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -46,7 +46,7 @@ strainge
    :depends python_abi: ``3.7.* *_cp37m``
    :depends scikit-bio: ``>=0.5``
    :depends scikit-learn: ``>=0.24``
-   :depends scipy: 
+   :depends scipy: ``<1.9``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
@@ -79,7 +79,7 @@ strainge
 
     <script>
         var package = "strainge";
-        var versions = ["1.3.2","1.3.1","1.3","1.2","1.2"];
+        var versions = ["1.3.3","1.3.2","1.3.1","1.3","1.2"];
     </script>
 
 

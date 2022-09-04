@@ -30,21 +30,23 @@ phanotate
       
       
 
-      ``1.5.0-1``,  ``1.5.0-0``
+      ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
 
    
    :depends backports.tempfile: 
    :depends fastpath: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :depends seaborn: 
+   :depends setuptools: 
    :depends statsmodels: 
    :depends textwrap3: 
+   :depends trnascan-se: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +78,7 @@ phanotate
 
     <script>
         var package = "phanotate";
-        var versions = ["1.5.0","1.5.0"];
+        var versions = ["1.5.0","1.5.0","1.5.0"];
     </script>
 
 

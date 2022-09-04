@@ -27,7 +27,7 @@ bioconductor-mafh5.gnomad.v3.1.1.grch38
       
       
 
-      ``3.13.0-1``,  ``3.13.0-0``
+      ``3.13.0-2``,  ``3.13.0-1``,  ``3.13.0-0``
 
       
 
@@ -40,7 +40,7 @@ bioconductor-mafh5.gnomad.v3.1.1.grch38
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -73,7 +73,7 @@ bioconductor-mafh5.gnomad.v3.1.1.grch38
 
     <script>
         var package = "bioconductor-mafh5.gnomad.v3.1.1.grch38";
-        var versions = ["3.13.0","3.13.0"];
+        var versions = ["3.13.0","3.13.0","3.13.0"];
     </script>
 
 

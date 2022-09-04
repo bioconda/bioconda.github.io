@@ -40,12 +40,12 @@ motifscan
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=3.0.0``
    :depends numpy: ``>=1.15``
    :depends pysam: ``>=0.15.0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends requests: 
    :depends scipy: ``>=1.0``
    :depends tqdm: ``>=4.42.1``

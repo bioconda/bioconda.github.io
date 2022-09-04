@@ -27,12 +27,12 @@ bioconductor-scannotatr.models
       
       
 
-      ``0.99.10-0``
+      ``0.99.10-1``,  ``0.99.10-0``
 
       
 
    
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +65,7 @@ bioconductor-scannotatr.models
 
     <script>
         var package = "bioconductor-scannotatr.models";
-        var versions = ["0.99.10"];
+        var versions = ["0.99.10","0.99.10"];
     </script>
 
 

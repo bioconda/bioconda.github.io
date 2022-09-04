@@ -28,10 +28,10 @@ bioconductor-reactome.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.77.0-0</code>,  <code>1.76.0-0</code>,  <code>1.74.0-1</code>,  <code>1.74.0-0</code>,  <code>1.70.0-1</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.77.0-1</code>,  <code>1.77.0-0</code>,  <code>1.76.0-0</code>,  <code>1.74.0-1</code>,  <code>1.74.0-0</code>,  <code>1.70.0-1</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.66.0-0</code>,  </span></summary>
       
 
-      ``1.77.0-0``,  ``1.76.0-0``,  ``1.74.0-1``,  ``1.74.0-0``,  ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``
+      ``1.77.0-1``,  ``1.77.0-0``,  ``1.76.0-0``,  ``1.74.0-1``,  ``1.74.0-0``,  ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-reactome.db
 
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-reactome.db
 
     <script>
         var package = "bioconductor-reactome.db";
-        var versions = ["1.77.0","1.76.0","1.74.0","1.74.0","1.70.0"];
+        var versions = ["1.77.0","1.77.0","1.76.0","1.74.0","1.74.0"];
     </script>
 
 

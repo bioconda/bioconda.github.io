@@ -26,13 +26,21 @@ bioconductor-ahcytobands
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.1-0``,  ``0.99.0-7``,  ``0.99.0-6``,  ``0.99.0-5``,  ``0.99.0-4``,  ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-1``,  ``0.99.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.99.1-1</code>,  <code>0.99.1-0</code>,  <code>0.99.0-7</code>,  <code>0.99.0-6</code>,  <code>0.99.0-5</code>,  <code>0.99.0-4</code>,  <code>0.99.0-3</code>,  <code>0.99.0-2</code>,  <code>0.99.0-1</code>,  </span></summary>
+      
 
+      ``0.99.1-1``,  ``0.99.1-0``,  ``0.99.0-7``,  ``0.99.0-6``,  ``0.99.0-5``,  ``0.99.0-4``,  ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-1``,  ``0.99.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +73,7 @@ bioconductor-ahcytobands
 
     <script>
         var package = "bioconductor-ahcytobands";
-        var versions = ["0.99.1","0.99.0","0.99.0","0.99.0","0.99.0"];
+        var versions = ["0.99.1","0.99.1","0.99.0","0.99.0","0.99.0"];
     </script>
 
 

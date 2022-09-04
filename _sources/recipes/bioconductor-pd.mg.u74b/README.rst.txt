@@ -27,7 +27,7 @@ bioconductor-pd.mg.u74b
       
       
 
-      ``3.12.0-8``,  ``3.12.0-7``,  ``3.12.0-6``,  ``3.12.0-5``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-0``
+      ``3.12.0-9``,  ``3.12.0-8``,  ``3.12.0-7``,  ``3.12.0-6``,  ``3.12.0-5``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-0``
 
       
 
@@ -37,7 +37,7 @@ bioconductor-pd.mg.u74b
    :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
    :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-rsqlite: ``>=1.0.0``

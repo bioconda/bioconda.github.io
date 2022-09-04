@@ -27,11 +27,16 @@ simpleaf
       
       
 
-      
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
 
    
+   :depends alevin-fry: ``>=0.6.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends pyroe: ``>=0.6.2``
+   :depends salmon: ``>=1.5.1``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +68,7 @@ simpleaf
 
     <script>
         var package = "simpleaf";
-        var versions = [];
+        var versions = ["0.5.1","0.5.0","0.4.0","0.3.0","0.2.1"];
     </script>
 
 

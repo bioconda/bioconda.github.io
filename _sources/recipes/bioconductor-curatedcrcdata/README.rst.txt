@@ -26,14 +26,22 @@ bioconductor-curatedcrcdata
    :versions:
       
       
+      .. raw:: html
 
-      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.21.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.21.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  </span></summary>
+      
 
+      ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.21.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-nlme: 
    :requirements:
@@ -67,7 +75,7 @@ bioconductor-curatedcrcdata
 
     <script>
         var package = "bioconductor-curatedcrcdata";
-        var versions = ["2.26.0","2.24.0","2.22.0","2.22.0","2.21.0"];
+        var versions = ["2.26.0","2.26.0","2.24.0","2.22.0","2.22.0"];
     </script>
 
 

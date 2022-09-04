@@ -37,17 +37,17 @@ pymisc-utils
    :depends fastparquet: 
    :depends graphviz: ``>=2.47.3,<3.0a0``
    :depends joblib: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib: 
    :depends networkx: 
    :depends nltk: 
-   :depends numpy: 
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends openpyxl: 
    :depends pandas: 
    :depends paramiko: 
    :depends pydot: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: 
    :depends scipy: 
    :depends six: 

@@ -32,8 +32,8 @@ biobb_ml
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(https\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(https\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2021 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2021 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2022 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2022 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -52,10 +52,10 @@ biobb_ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.0-2</code>,  <code>3.7.0-1</code>,  <code>3.7.0-0</code>,  <code>3.6.1-1</code>,  <code>3.6.1-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-3</code>,  <code>3.5.0-2</code>,  <code>3.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8.0-0</code>,  <code>3.7.0-2</code>,  <code>3.7.0-1</code>,  <code>3.7.0-0</code>,  <code>3.6.1-1</code>,  <code>3.6.1-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-3</code>,  <code>3.5.0-2</code>,  </span></summary>
       
 
-      ``3.7.0-2``,  ``3.7.0-1``,  ``3.7.0-0``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.8.0-0``,  ``3.7.0-2``,  ``3.7.0-1``,  ``3.7.0-0``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -64,7 +64,7 @@ biobb_ml
       
 
    
-   :depends biobb_common: ``3.7.0``
+   :depends biobb_common: ``3.8.1``
    :depends h5py: ``2.10.0``
    :depends imbalanced-learn: ``0.7.0``
    :depends numpy: ``1.19.5``
@@ -72,7 +72,7 @@ biobb_ml
    :depends python: ``>=3.7``
    :depends scikit-learn: ``0.24.2``
    :depends seaborn: ``0.10.1``
-   :depends tensorflow: ``2.4.0``
+   :depends tensorflow: ``>=2.4.2``
    :requirements:
 
    .. rubric:: Installation
@@ -104,7 +104,7 @@ biobb_ml
 
     <script>
         var package = "biobb_ml";
-        var versions = ["3.7.0","3.7.0","3.7.0","3.6.1","3.6.1"];
+        var versions = ["3.8.0","3.7.0","3.7.0","3.7.0","3.6.1"];
     </script>
 
 

@@ -27,9 +27,17 @@ metaeuk
    :versions:
       
       
+      .. raw:: html
 
-      ``6.a5d39d9-0``,  ``5.34c21f2-1``,  ``5.34c21f2-0``,  ``4.a0f584d-2``,  ``4.a0f584d-1``,  ``4.a0f584d-0``,  ``3.8dc7e0b-0``,  ``2.ddf2742-0``,  ``1.ea903e5-0``
+         <details><summary><span class="truncated-version-list"><code>6.a5d39d9-1</code>,  <code>6.a5d39d9-0</code>,  <code>5.34c21f2-1</code>,  <code>5.34c21f2-0</code>,  <code>4.a0f584d-2</code>,  <code>4.a0f584d-1</code>,  <code>4.a0f584d-0</code>,  <code>3.8dc7e0b-0</code>,  <code>2.ddf2742-0</code>,  </span></summary>
+      
 
+      ``6.a5d39d9-1``,  ``6.a5d39d9-0``,  ``5.34c21f2-1``,  ``5.34c21f2-0``,  ``4.a0f584d-2``,  ``4.a0f584d-1``,  ``4.a0f584d-0``,  ``3.8dc7e0b-0``,  ``2.ddf2742-0``,  ``1.ea903e5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -73,7 +81,7 @@ metaeuk
 
     <script>
         var package = "metaeuk";
-        var versions = ["6.a5d39d9","5.34c21f2","5.34c21f2","4.a0f584d","4.a0f584d"];
+        var versions = ["6.a5d39d9","6.a5d39d9","5.34c21f2","5.34c21f2","4.a0f584d"];
     </script>
 
 

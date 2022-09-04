@@ -28,7 +28,7 @@ humann
       
       
 
-      ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``3.0.0a4-0``
+      ``3.5-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``3.0.0a4-0``
 
       
 
@@ -36,7 +36,7 @@ humann
    :depends bowtie2: ``>2.1``
    :depends diamond: ``>=0.9.36``
    :depends glpk: 
-   :depends metaphlan: ``>=3.0``
+   :depends metaphlan: ``>=3.1``
    :depends python: 
    :requirements:
 
@@ -69,7 +69,7 @@ humann
 
     <script>
         var package = "humann";
-        var versions = ["3.0.1","3.0.0","3.0.0","3.0.0a4"];
+        var versions = ["3.5","3.1.1","3.1.0","3.0.1","3.0.0"];
     </script>
 
 

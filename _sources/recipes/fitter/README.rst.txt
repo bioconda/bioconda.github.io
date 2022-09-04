@@ -12,8 +12,8 @@ fitter
 
    A tool to fit data to many distributions and best one\(s\)
 
-   :homepage: http://github.com/cokelaer/fitter
-   :license: GNU Library or Lesser General Public License (LGPL)
+   :homepage: https://github.com/cokelaer/fitter
+   :license: GPL-3.0-only
    :recipe: /`fitter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fitter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fitter/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ fitter
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.0-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.4-1``,  ``1.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.4-1</code>,  </span></summary>
+      
 
+      ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.4-1``,  ``1.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -71,7 +79,7 @@ fitter
 
     <script>
         var package = "fitter";
-        var versions = ["1.4.0","1.2.3","1.2.1","1.2.0","1.1.11"];
+        var versions = ["1.4.1","1.4.0","1.2.3","1.2.1","1.2.0"];
     </script>
 
 

@@ -27,19 +27,19 @@ centrosome
       
       
 
-      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-0``
+      ``1.2.1-0``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-0``
 
       
 
    
    :depends deprecation: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pillow: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-image: 
    :depends scipy: 
    :requirements:
@@ -73,7 +73,7 @@ centrosome
 
     <script>
         var package = "centrosome";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0","1.1.7"];
+        var versions = ["1.2.1","1.2.0","1.2.0","1.2.0","1.2.0"];
     </script>
 
 

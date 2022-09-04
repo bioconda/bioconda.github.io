@@ -27,14 +27,14 @@ bioconductor-txdb.athaliana.biomart.plantsmart28
       
       
 
-      ``3.2.2-8``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-4``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-0``
+      ``3.2.2-9``,  ``3.2.2-8``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-4``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-0``
 
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

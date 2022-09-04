@@ -29,10 +29,10 @@ checkv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ checkv
    :depends importlib-metadata: ``>=0.12``
    :depends kcounter: 
    :depends numpy: 
-   :depends prodigal: 
+   :depends prodigal-gv: 
    :depends psutil: 
    :depends python: ``>=3.6``
    :requirements:
@@ -81,7 +81,7 @@ checkv
 
     <script>
         var package = "checkv";
-        var versions = ["0.9.0","0.8.1","0.8.1","0.8.0","0.7.0"];
+        var versions = ["1.0.1","1.0.0","0.9.0","0.8.1","0.8.1"];
     </script>
 
 

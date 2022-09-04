@@ -27,7 +27,7 @@ singlem
       
       
 
-      ``0.13.2-0``
+      ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
 
       
 
@@ -38,7 +38,7 @@ singlem
    :depends diamond: ``>=0.9``
    :depends expressbetadiversity: 
    :depends extern: ``>=0.0.4``
-   :depends graftm: ``>=0.12.2``
+   :depends graftm: ``0.13.1.*``
    :depends h5py: 
    :depends hmmer: ``>=3.1b1``
    :depends krona: ``>=2.4``
@@ -84,7 +84,7 @@ singlem
 
     <script>
         var package = "singlem";
-        var versions = ["0.13.2"];
+        var versions = ["0.13.2","0.13.2","0.13.2"];
     </script>
 
 

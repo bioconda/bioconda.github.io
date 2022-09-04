@@ -26,14 +26,22 @@ libgtextutils
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7-8``,  ``0.7-7``,  ``0.7-6``,  ``0.7-5``,  ``0.7-4``,  ``0.7-3``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``
+         <details><summary><span class="truncated-version-list"><code>0.7-9</code>,  <code>0.7-8</code>,  <code>0.7-7</code>,  <code>0.7-6</code>,  <code>0.7-5</code>,  <code>0.7-4</code>,  <code>0.7-3</code>,  <code>0.7-2</code>,  <code>0.7-1</code>,  </span></summary>
+      
 
+      ``0.7-9``,  ``0.7-8``,  ``0.7-7``,  ``0.7-6``,  ``0.7-5``,  ``0.7-4``,  ``0.7-3``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

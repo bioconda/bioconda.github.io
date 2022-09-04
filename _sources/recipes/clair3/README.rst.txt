@@ -28,10 +28,10 @@ clair3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.11-6</code>,  <code>0.1.11-5</code>,  <code>0.1.11-4</code>,  <code>0.1.11-3</code>,  <code>0.1.11-2</code>,  <code>0.1.11-1</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.12-4</code>,  <code>0.1.12-2</code>,  <code>0.1.12-1</code>,  <code>0.1.12-0</code>,  <code>0.1.11-6</code>,  <code>0.1.11-5</code>,  <code>0.1.11-4</code>,  <code>0.1.11-3</code>,  <code>0.1.11-2</code>,  </span></summary>
       
 
-      ``0.1.11-6``,  ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
+      ``0.1.12-4``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-6``,  ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -41,21 +41,22 @@ clair3
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends cffi: 
+   :depends cffi: ``1.14.4.*``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends numpy: 
+   :depends openssl: ``1.1.1.*``
    :depends parallel: ``20191122.*``
-   :depends pigz: ``2.4.*``
+   :depends pigz: 
    :depends pypy3.6: 
-   :depends pytables: ``3.6.1.*``
-   :depends python: ``3.6.10.*``
-   :depends samtools: ``1.10.*``
-   :depends tensorflow: ``2.2.0.*``
-   :depends whatshap: ``1.0.*``
-   :depends xz: ``>=5.2.5,<5.3.0a0``
-   :depends zstd: ``1.4.4.*``
+   :depends pytables: 
+   :depends python: ``3.9.0.*``
+   :depends samtools: ``1.15.1.*``
+   :depends tensorflow: ``2.8.0.*``
+   :depends whatshap: ``1.4.*``
+   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends zstd: 
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +88,7 @@ clair3
 
     <script>
         var package = "clair3";
-        var versions = ["0.1.11","0.1.11","0.1.11","0.1.11","0.1.11"];
+        var versions = ["0.1.12","0.1.12","0.1.12","0.1.12","0.1.11"];
     </script>
 
 

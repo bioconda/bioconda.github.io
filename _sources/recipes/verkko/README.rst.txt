@@ -27,7 +27,7 @@ verkko
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -35,11 +35,11 @@ verkko
    :depends _openmp_mutex: ``>=4.5``
    :depends graphaligner: ``>=1.0.16``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends mbg: ``>=1.0.10``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends mbg: ``>=1.0.11``
    :depends python: ``>=3.7``
-   :depends snakemake-minimal: ``>=7.0.0``
+   :depends snakemake-minimal: ``>=7.8.0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ verkko
 
     <script>
         var package = "verkko";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.1","1.0","1.0","1.0","1.0"];
     </script>
 
 

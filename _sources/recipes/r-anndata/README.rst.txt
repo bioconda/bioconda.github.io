@@ -28,7 +28,7 @@ r-anndata
       
       
 
-      ``0.7.5.2-0``
+      ``0.7.5.4-0``,  ``0.7.5.2-0``
 
       
 
@@ -37,7 +37,7 @@ r-anndata
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :depends r-r6: 
-   :depends r-reticulate: 
+   :depends r-reticulate: ``>=1.17``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ r-anndata
 
     <script>
         var package = "r-anndata";
-        var versions = ["0.7.5.2"];
+        var versions = ["0.7.5.4","0.7.5.2"];
     </script>
 
 

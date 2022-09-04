@@ -6,7 +6,7 @@
 smallgenomeutilities
 ====================
 
-.. conda:recipe:: smallgenomeutilities/0.2.1
+.. conda:recipe:: smallgenomeutilities/0.3.4
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ smallgenomeutilities
 
    :homepage: https://github.com/cbg-ethz/smallgenomeutilities
    :license: GPL2 / GNU General Public License v2 or later (GPLv2+)
-   :recipe: /`smallgenomeutilities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities>`_/`0.2.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1/meta.yaml>`_
+   :recipe: /`smallgenomeutilities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities>`_/`0.3.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.3.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.3.4/meta.yaml>`_
 
    
 
@@ -28,10 +28,10 @@ smallgenomeutilities
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  </span></summary>
       
 
-      ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``,  ``0.1-0``
+      ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``,  ``0.1-0``
 
       
       .. raw:: html
@@ -84,7 +84,7 @@ smallgenomeutilities
 
     <script>
         var package = "smallgenomeutilities";
-        var versions = ["0.3.6","0.3.5","0.3.4","0.3.2","0.3.1"];
+        var versions = ["0.3.7","0.3.6","0.3.5","0.3.4","0.3.2"];
     </script>
 
 

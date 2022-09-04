@@ -28,10 +28,10 @@ dnaio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ dnaio
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends libgcc-ng: ``>=12``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends xopen: ``>=1.4.0``
    :requirements:
 
@@ -75,7 +75,7 @@ dnaio
 
     <script>
         var package = "dnaio";
-        var versions = ["0.9.0","0.8.1","0.8.0","0.7.1","0.7.1"];
+        var versions = ["0.9.1","0.9.1","0.9.0","0.9.0","0.8.1"];
     </script>
 
 

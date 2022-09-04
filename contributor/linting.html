@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <title>Linting &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
@@ -247,46 +247,47 @@ at preventing.</p>
 <li><p><a class="reference internal" href="#extra-identifiers-not-string" id="id31">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”</a></p></li>
 <li><p><a class="reference internal" href="#extra-identifiers-missing-colon" id="id32">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”</a></p></li>
 <li><p><a class="reference internal" href="#extra-skip-lints-not-list" id="id33">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_skip_lints_not_list</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#version-constraints-missing-whitespace" id="id34">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_constraints_missing_whitespace</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#recipe-parsing" id="id34">Recipe Parsing</a></p>
+<li><p><a class="reference internal" href="#recipe-parsing" id="id35">Recipe Parsing</a></p>
 <ul>
-<li><p><a class="reference internal" href="#duplicate-key-in-meta-yaml" id="id35">“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#unknown-selector" id="id36">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#conda-render-failure" id="id37">“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#jinja-render-failure" id="id38">“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#unknown-check" id="id39">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#duplicate-key-in-meta-yaml" id="id36">“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#unknown-selector" id="id37">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#conda-render-failure" id="id38">“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#jinja-render-failure" id="id39">“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#unknown-check" id="id40">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#repository" id="id40">Repository</a></p>
+<li><p><a class="reference internal" href="#repository" id="id41">Repository</a></p>
 <ul>
-<li><p><a class="reference internal" href="#in-other-channels" id="id41">“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#build-number-needs-bump" id="id42">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#build-number-needs-reset" id="id43">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#recipe-is-blacklisted" id="id44">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#in-other-channels" id="id42">“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#build-number-needs-bump" id="id43">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#build-number-needs-reset" id="id44">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#recipe-is-blacklisted" id="id45">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#deprecations" id="id45">Deprecations</a></p>
+<li><p><a class="reference internal" href="#deprecations" id="id46">Deprecations</a></p>
 <ul>
-<li><p><a class="reference internal" href="#uses-perl-threaded" id="id46">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#uses-javajdk" id="id47">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#deprecated-numpy-spec" id="id48">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#uses-matplotlib" id="id49">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-perl-threaded" id="id47">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-javajdk" id="id48">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#deprecated-numpy-spec" id="id49">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-matplotlib" id="id50">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#build-helpers" id="id50">Build helpers</a></p>
+<li><p><a class="reference internal" href="#build-helpers" id="id51">Build helpers</a></p>
 <ul>
-<li><p><a class="reference internal" href="#should-use-compilers" id="id51">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#uses-setuptools" id="id52">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#setup-py-install-args" id="id53">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#compilers-must-be-in-build" id="id54">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#cython-must-be-in-host" id="id55">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#cython-needs-compiler" id="id56">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#should-use-compilers" id="id52">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-setuptools" id="id53">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#setup-py-install-args" id="id54">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#compilers-must-be-in-build" id="id55">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#cython-must-be-in-host" id="id56">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#cython-needs-compiler" id="id57">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#linter-errors" id="id57">Linter Errors</a></p>
+<li><p><a class="reference internal" href="#linter-errors" id="id58">Linter Errors</a></p>
 <ul>
-<li><p><a class="reference internal" href="#linter-failure" id="id58">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#linter-failure" id="id59">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a></p></li>
 </ul>
 </li>
 </ul>
@@ -783,13 +784,27 @@ identifier.  Whitespace is not allowed.</p>
 the list here for the correct name.</p>
 </p>
 </section>
+<section id="version-constraints-missing-whitespace">
+<h4><a class="toc-backref" href="#id34" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_constraints_missing_whitespace</span></code>”</a><a class="headerlink" href="#version-constraints-missing-whitespace" title="Permalink to this heading">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">Packages and their version constraints must be space separated</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">host</span><span class="p">:</span>
+    <span class="n">python</span> <span class="o">&gt;=</span><span class="mi">3</span>
+</pre></div>
+</div>
+</div>
+<p><p>Version constraints in the meta.yaml must have spaces between the package
+name and the constraint.</p>
+</p>
+</section>
 </section>
 <section id="recipe-parsing">
-<h3><a class="toc-backref" href="#id34" role="doc-backlink">Recipe Parsing</a><a class="headerlink" href="#recipe-parsing" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id35" role="doc-backlink">Recipe Parsing</a><a class="headerlink" href="#recipe-parsing" title="Permalink to this heading">¶</a></h3>
 <p>These lints happen implicitly during recipe parsing. They cannot be
 skipped!</p>
 <section id="duplicate-key-in-meta-yaml">
-<h4><a class="toc-backref" href="#id35" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”</a><a class="headerlink" href="#duplicate-key-in-meta-yaml" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id36" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”</a><a class="headerlink" href="#duplicate-key-in-meta-yaml" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe meta.yaml contains a duplicate key</p>
 <p>This is invalid YAML, as it’s unclear what the structure should
@@ -805,7 +820,7 @@ don’t.</p>
 </p>
 </section>
 <section id="unknown-selector">
-<h4><a class="toc-backref" href="#id36" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”</a><a class="headerlink" href="#unknown-selector" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id37" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”</a><a class="headerlink" href="#unknown-selector" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe failed to parse due to selector lines</p>
 <p>Please request help from &#64;bioconda/core.</p>
@@ -816,7 +831,7 @@ bioconda-utils. If you actually do encounter this, ping
 </p>
 </section>
 <section id="conda-render-failure">
-<h4><a class="toc-backref" href="#id37" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”</a><a class="headerlink" href="#conda-render-failure" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id38" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”</a><a class="headerlink" href="#conda-render-failure" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe was not understood by conda-build</p>
 <p>Please request help from &#64;bioconda/core.</p>
@@ -826,7 +841,7 @@ recipe. Please contact <code class="docutils literal notranslate"><span class="p
 </p>
 </section>
 <section id="jinja-render-failure">
-<h4><a class="toc-backref" href="#id38" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”</a><a class="headerlink" href="#jinja-render-failure" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id39" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”</a><a class="headerlink" href="#jinja-render-failure" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe could not be rendered by Jinja2</p>
 <p>Check if you are missing quotes or curly braces in Jinja2 template
@@ -841,7 +856,7 @@ parentheses or quotes.</p>
 </p>
 </section>
 <section id="unknown-check">
-<h4><a class="toc-backref" href="#id39" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”</a><a class="headerlink" href="#unknown-check" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id40" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”</a><a class="headerlink" href="#unknown-check" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Something went wrong inside the linter</p>
 <p>Please request help from &#64;bioconda/core</p>
@@ -852,9 +867,9 @@ linter. Ping &#64;bioconda/core to figure out what’s going on.</p>
 </section>
 </section>
 <section id="repository">
-<h3><a class="toc-backref" href="#id40" role="doc-backlink">Repository</a><a class="headerlink" href="#repository" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id41" role="doc-backlink">Repository</a><a class="headerlink" href="#repository" title="Permalink to this heading">¶</a></h3>
 <section id="in-other-channels">
-<h4><a class="toc-backref" href="#id41" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a><a class="headerlink" href="#in-other-channels" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id42" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a><a class="headerlink" href="#in-other-channels" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">A package of the same name already exists in another channel</p>
 <p>Bioconda and Conda-Forge occupy the same name space and have
@@ -891,7 +906,7 @@ recipe.  In that PR, reference the conda-forge/staged-recipes PR.</p></li>
 </p>
 </section>
 <section id="build-number-needs-bump">
-<h4><a class="toc-backref" href="#id42" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a><a class="headerlink" href="#build-number-needs-bump" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id43" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a><a class="headerlink" href="#build-number-needs-bump" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe build number should be incremented</p>
 <p>A package with the same name and version and a build number at
@@ -905,7 +920,7 @@ might happen only on one architecture and not the other).</p>
 </p>
 </section>
 <section id="build-number-needs-reset">
-<h4><a class="toc-backref" href="#id43" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a><a class="headerlink" href="#build-number-needs-reset" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id44" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a><a class="headerlink" href="#build-number-needs-reset" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe build number should be reset to 0</p>
 <p>No previous build of a package of this name and this version exists,
@@ -916,7 +931,7 @@ build number should be 0.</p>
 </p>
 </section>
 <section id="recipe-is-blacklisted">
-<h4><a class="toc-backref" href="#id44" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a><a class="headerlink" href="#recipe-is-blacklisted" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id45" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a><a class="headerlink" href="#recipe-is-blacklisted" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is currently blacklisted and will not be built</p>
 <p>If you are intending to repair this recipe, remove it from
@@ -931,11 +946,11 @@ recipe on the blacklist!</p>
 </section>
 </section>
 <section id="deprecations">
-<h3><a class="toc-backref" href="#id45" role="doc-backlink">Deprecations</a><a class="headerlink" href="#deprecations" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id46" role="doc-backlink">Deprecations</a><a class="headerlink" href="#deprecations" title="Permalink to this heading">¶</a></h3>
 <p>These checks catch packages or recipe idioms we no longer use or that
 no longer work and need to be changed.</p>
 <section id="uses-perl-threaded">
-<h4><a class="toc-backref" href="#id46" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a><a class="headerlink" href="#uses-perl-threaded" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id47" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a><a class="headerlink" href="#uses-perl-threaded" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p>
 <p>Please use <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead.</p>
@@ -946,7 +961,7 @@ these older recipes is updated, it will fail this check.</p>
 </p>
 </section>
 <section id="uses-javajdk">
-<h4><a class="toc-backref" href="#id47" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a><a class="headerlink" href="#uses-javajdk" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id48" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a><a class="headerlink" href="#uses-javajdk" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code></p>
 <p>Please use <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead.</p>
@@ -957,7 +972,7 @@ those older recipes is updated, it will fail this check.</p>
 </p>
 </section>
 <section id="deprecated-numpy-spec">
-<h4><a class="toc-backref" href="#id48" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a><a class="headerlink" href="#deprecated-numpy-spec" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id49" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a><a class="headerlink" href="#deprecated-numpy-spec" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe contains a deprecated numpy spec</p>
 <p>Please remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code> - pinning is now handled automatically.</p>
@@ -969,7 +984,7 @@ now just write <code class="docutils literal notranslate"><span class="pre">nump
 </p>
 </section>
 <section id="uses-matplotlib">
-<h4><a class="toc-backref" href="#id49" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a><a class="headerlink" href="#uses-matplotlib" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id50" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a><a class="headerlink" href="#uses-matplotlib" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>, but <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code> is recommended</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> dependency should be replaced with <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code>
@@ -984,9 +999,9 @@ which pulls in many other dependencies. In most cases, using
 </section>
 </section>
 <section id="build-helpers">
-<h3><a class="toc-backref" href="#id50" role="doc-backlink">Build helpers</a><a class="headerlink" href="#build-helpers" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id51" role="doc-backlink">Build helpers</a><a class="headerlink" href="#build-helpers" title="Permalink to this heading">¶</a></h3>
 <section id="should-use-compilers">
-<h4><a class="toc-backref" href="#id51" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id52" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requires a compiler directly</p>
 <p>Since version 3, <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> uses a special syntax to require
@@ -1026,7 +1041,7 @@ needs to be added manually if your package makes use of OpenMP.</p>
 </p>
 </section>
 <section id="uses-setuptools">
-<h4><a class="toc-backref" href="#id52" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools in run depends</p>
 <p>Most Python packages only need setuptools during installation.
@@ -1049,7 +1064,7 @@ already include the required section.</p>
 </p>
 </section>
 <section id="setup-py-install-args">
-<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools without required arguments</p>
 <p>Please use:</p>
@@ -1078,7 +1093,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="compilers-must-be-in-build">
-<h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requests a compiler in a section other than build</p>
 <p>Please move the <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('language')</span> <span class="pre">}}</span></code> line into the
@@ -1090,7 +1105,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="cython-must-be-in-host">
-<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython should be in the host section</p>
 <p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
@@ -1105,7 +1120,7 @@ host section for now.</p>
 </p>
 </section>
 <section id="cython-needs-compiler">
-<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id57" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython generates C code, which will need to be compiled</p>
 <p>Add the compiler to the recipe:</p>
@@ -1122,9 +1137,9 @@ recipe.</p>
 </section>
 </section>
 <section id="linter-errors">
-<h3><a class="toc-backref" href="#id57" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id58" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Permalink to this heading">¶</a></h3>
 <section id="linter-failure">
-<h4><a class="toc-backref" href="#id58" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id59" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">An unexpected exception was raised during linting</p>
 <p>Please file an issue at the bioconda-utils repo</p>
@@ -1150,7 +1165,7 @@ recipe.</p>
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

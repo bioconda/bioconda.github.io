@@ -27,7 +27,7 @@ bioconductor-org.mxanthus.db
       
       
 
-      ``1.0.27-5``,  ``1.0.27-3``,  ``1.0.27-2``,  ``1.0.27-1``,  ``1.0.27-0``,  ``1.0.23-0``
+      ``1.0.27-6``,  ``1.0.27-5``,  ``1.0.27-3``,  ``1.0.27-2``,  ``1.0.27-1``,  ``1.0.27-0``,  ``1.0.23-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-org.mxanthus.db
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
    :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

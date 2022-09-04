@@ -26,9 +26,17 @@ perl-encode
    :versions:
       
       
+      .. raw:: html
 
-      ``3.18-0``,  ``3.17-0``,  ``3.16-1``,  ``3.16-0``,  ``2.88-2``,  ``2.88-1``,  ``2.88-0``
+         <details><summary><span class="truncated-version-list"><code>3.19-1</code>,  <code>3.19-0</code>,  <code>3.18-1</code>,  <code>3.18-0</code>,  <code>3.17-0</code>,  <code>3.16-1</code>,  <code>3.16-0</code>,  <code>2.88-2</code>,  <code>2.88-1</code>,  </span></summary>
+      
 
+      ``3.19-1``,  ``3.19-0``,  ``3.18-1``,  ``3.18-0``,  ``3.17-0``,  ``3.16-1``,  ``3.16-0``,  ``2.88-2``,  ``2.88-1``,  ``2.88-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -67,7 +75,7 @@ perl-encode
 
     <script>
         var package = "perl-encode";
-        var versions = ["3.18","3.17","3.16","3.16","2.88"];
+        var versions = ["3.19","3.19","3.18","3.18","3.17"];
     </script>
 
 

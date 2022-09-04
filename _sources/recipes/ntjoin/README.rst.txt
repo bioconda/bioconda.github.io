@@ -49,9 +49,9 @@ ntjoin
    :depends pybedtools: 
    :depends pymannkendall: 
    :depends pysam: ``>=0.16.0``
-   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-igraph: 
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: ``>=1.10``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:

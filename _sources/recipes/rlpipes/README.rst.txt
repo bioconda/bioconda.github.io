@@ -27,16 +27,16 @@ rlpipes
       
       
 
-      ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.3-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
    
    :depends click: 
-   :depends graphviz: 
+   :depends graphviz: ``5.0.0``
    :depends pandas: ``1.2.0``
    :depends pyfastx: 
-   :depends pygraphviz: 
+   :depends pygraphviz: ``1.9``
    :depends pysam: ``>=0.17.0``
    :depends pysradb: 
    :depends python: 
@@ -72,7 +72,7 @@ rlpipes
 
     <script>
         var package = "rlpipes";
-        var versions = ["0.9.1","0.9.0"];
+        var versions = ["0.9.3","0.9.1","0.9.0"];
     </script>
 
 

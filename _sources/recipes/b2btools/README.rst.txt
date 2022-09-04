@@ -36,7 +36,7 @@ b2btools
       
       
 
-      ``3.0.4-0``
+      ``3.0.5-0``,  ``3.0.4-0``
 
       
 
@@ -89,7 +89,7 @@ b2btools
 
     <script>
         var package = "b2btools";
-        var versions = ["3.0.4"];
+        var versions = ["3.0.5","3.0.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-somaticcanceralterations
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-somaticcanceralterations
    :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-somaticcanceralterations
 
     <script>
         var package = "bioconductor-somaticcanceralterations";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.30.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

@@ -15,7 +15,7 @@ jgoslin
    :homepage: https://github.com/lifs-tools/jgoslin
    :license: APACHE / Apache License 2.0
    :recipe: /`jgoslin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jgoslin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jgoslin/meta.yaml>`_
-   :links: biotools: :biotools:`jgoslin`, doi: :doi:`10.5281/zenodo.3842332`
+   :links: biotools: :biotools:`jgoslin`, doi: :doi:`10.5281/zenodo.7018207`
 
    The Grammar of succinct lipid nomenclature project \(Goslin\) defines multiple grammers compatible with ANTLRv4 for different sources of shorthand lipid nomenclature. 
    This allows to generate parsers based on the defined grammars\, which provide immediate feedback whether a processed lipid shorthand notation string is compliant with a particular grammar\, or not. jGoslin uses the Goslin grammars and the generated parser to support the following general tasks. 1\) Facilitate the parsing of shorthand lipid names dialects. 2\) Provide a structural representation of the shorthand lipid after parsing. 3\) Use the structural representation to generate normalized names.
@@ -30,12 +30,12 @@ jgoslin
       
       
 
-      ``1.1.2-1``,  ``1.1.2-0``
+      ``2.0.2-0``,  ``1.1.2-1``,  ``1.1.2-0``
 
       
 
    
-   :depends openjdk: ``>=11``
+   :depends openjdk: ``>=17``
    :depends python: 
    :requirements:
 
@@ -68,7 +68,7 @@ jgoslin
 
     <script>
         var package = "jgoslin";
-        var versions = ["1.1.2","1.1.2"];
+        var versions = ["2.0.2","1.1.2","1.1.2"];
     </script>
 
 

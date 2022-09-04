@@ -28,10 +28,10 @@ bioconductor-phastcons100way.ucsc.hg19
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.2-10</code>,  <code>3.7.2-9</code>,  <code>3.7.2-8</code>,  <code>3.7.2-7</code>,  <code>3.7.2-6</code>,  <code>3.7.2-5</code>,  <code>3.7.2-4</code>,  <code>3.7.2-2</code>,  <code>3.7.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.2-11</code>,  <code>3.7.2-10</code>,  <code>3.7.2-9</code>,  <code>3.7.2-8</code>,  <code>3.7.2-7</code>,  <code>3.7.2-6</code>,  <code>3.7.2-5</code>,  <code>3.7.2-4</code>,  <code>3.7.2-2</code>,  </span></summary>
       
 
-      ``3.7.2-10``,  ``3.7.2-9``,  ``3.7.2-8``,  ``3.7.2-7``,  ``3.7.2-6``,  ``3.7.2-5``,  ``3.7.2-4``,  ``3.7.2-2``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.6.0-0``
+      ``3.7.2-11``,  ``3.7.2-10``,  ``3.7.2-9``,  ``3.7.2-8``,  ``3.7.2-7``,  ``3.7.2-6``,  ``3.7.2-5``,  ``3.7.2-4``,  ``3.7.2-2``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ bioconductor-phastcons100way.ucsc.hg19
    :depends bioconductor-genomicscores: ``>=2.6.0,<2.7.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

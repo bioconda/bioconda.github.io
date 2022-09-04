@@ -27,14 +27,14 @@ tn93
       
       
 
-      ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
+      ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ tn93
 
     <script>
         var package = "tn93";
-        var versions = ["1.0.6","1.0.6","1.0.6","1.0.4","1.0.2"];
+        var versions = ["1.0.9","1.0.6","1.0.6","1.0.6","1.0.4"];
     </script>
 
 

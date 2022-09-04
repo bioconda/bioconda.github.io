@@ -32,15 +32,15 @@ biobb_vs
       
       
 
-      ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
+      ``3.8.0-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
 
       
 
    
    :depends autodock-vina: ``1.1.2``
-   :depends biobb_common: ``3.7.0``
+   :depends biobb_common: ``3.8.1``
    :depends fpocket: ``3.1.4.2``
-   :depends python: ``3.7.*``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ biobb_vs
 
     <script>
         var package = "biobb_vs";
-        var versions = ["3.7.1","3.7.0","3.6.0","3.5.1","3.5.0"];
+        var versions = ["3.8.0","3.7.1","3.7.0","3.6.0","3.5.1"];
     </script>
 
 

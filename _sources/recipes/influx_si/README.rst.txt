@@ -33,10 +33,10 @@ influx_si
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.0.4-0</code>,  <code>6.0.1-0</code>,  <code>6.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.4-1</code>,  <code>6.0.4-0</code>,  <code>6.0.1-0</code>,  <code>6.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  </span></summary>
       
 
-      ``6.0.4-0``,  ``6.0.1-0``,  ``6.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``
+      ``6.0.4-1``,  ``6.0.4-0``,  ``6.0.1-0``,  ``6.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``
 
       
       .. raw:: html
@@ -45,10 +45,12 @@ influx_si
       
 
    
+   :depends pandas: 
    :depends python: ``>=3``
    :depends python-libsbml: 
    :depends r-arrapply: 
    :depends r-base: 
+   :depends r-kvh: 
    :depends r-limsolve: 
    :depends r-multbxxc: 
    :depends r-nnls: 
@@ -88,7 +90,7 @@ influx_si
 
     <script>
         var package = "influx_si";
-        var versions = ["6.0.4","6.0.1","6.0","5.4.0","5.3.0"];
+        var versions = ["6.0.4","6.0.4","6.0.1","6.0","5.4.0"];
     </script>
 
 

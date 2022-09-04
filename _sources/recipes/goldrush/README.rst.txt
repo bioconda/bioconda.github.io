@@ -27,7 +27,7 @@ goldrush
       
       
 
-      ``0.9.3-0``
+      ``1.0.0-0``,  ``0.9.3-0``
 
       
 
@@ -35,6 +35,7 @@ goldrush
    :depends _openmp_mutex: ``>=4.5``
    :depends btllib: 
    :depends gperftools: 
+   :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends make: 
@@ -74,7 +75,7 @@ goldrush
 
     <script>
         var package = "goldrush";
-        var versions = ["0.9.3"];
+        var versions = ["1.0.0","0.9.3"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-flowsorted.dlpfc.450k
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
    :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
-   :depends curl: ``>=7.80.0,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-flowsorted.dlpfc.450k
 
     <script>
         var package = "bioconductor-flowsorted.dlpfc.450k";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.30.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

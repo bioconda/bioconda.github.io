@@ -26,9 +26,17 @@ bioconductor-pd.moe430a
    :versions:
       
       
+      .. raw:: html
 
-      ``3.12.0-9``,  ``3.12.0-8``,  ``3.12.0-7``,  ``3.12.0-6``,  ``3.12.0-5``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-1``,  ``3.12.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.12.0-10</code>,  <code>3.12.0-9</code>,  <code>3.12.0-8</code>,  <code>3.12.0-7</code>,  <code>3.12.0-6</code>,  <code>3.12.0-5</code>,  <code>3.12.0-4</code>,  <code>3.12.0-3</code>,  <code>3.12.0-1</code>,  </span></summary>
+      
 
+      ``3.12.0-10``,  ``3.12.0-9``,  ``3.12.0-8``,  ``3.12.0-7``,  ``3.12.0-6``,  ``3.12.0-5``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-1``,  ``3.12.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,7 @@ bioconductor-pd.moe430a
    :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
    :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-rsqlite: ``>=1.0.0``

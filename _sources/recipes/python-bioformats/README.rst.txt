@@ -27,7 +27,7 @@ python-bioformats
       
       
 
-      ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.0-0``,  ``1.5.2-0``
+      ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.0-0``,  ``1.5.2-0``
 
       
 
@@ -36,7 +36,7 @@ python-bioformats
    :depends future: ``>=0.18.2``
    :depends openjdk: 
    :depends python: 
-   :depends python-javabridge: ``4.0.0``
+   :depends python-javabridge: ``4.0.3``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ python-bioformats
 
     <script>
         var package = "python-bioformats";
-        var versions = ["4.0.5","4.0.4","4.0.0","1.5.2"];
+        var versions = ["4.0.6","4.0.5","4.0.4","4.0.0","1.5.2"];
     </script>
 
 

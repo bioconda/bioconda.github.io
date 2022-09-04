@@ -40,9 +40,9 @@ contatester
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends openmpi: ``>=4.1.4,<5.0a0``
-   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-pegasus-wms: ``>=4.8.2``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gridbase: 
    :depends r-gridextra: 

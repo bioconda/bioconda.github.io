@@ -27,13 +27,13 @@ bioconductor-pwmenrich.mmusculus.background
       
       
 
-      ``4.28.0-0``,  ``4.26.1-0``,  ``4.24.0-1``,  ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.18.0-1``,  ``4.16.0-0``
+      ``4.28.0-1``,  ``4.28.0-0``,  ``4.26.1-0``,  ``4.24.0-1``,  ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.18.0-1``,  ``4.16.0-0``
 
       
 
    
    :depends bioconductor-pwmenrich: ``>=4.30.0,<4.31.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-pwmenrich.mmusculus.background
 
     <script>
         var package = "bioconductor-pwmenrich.mmusculus.background";
-        var versions = ["4.28.0","4.26.1","4.24.0","4.24.0","4.22.0"];
+        var versions = ["4.28.0","4.28.0","4.26.1","4.24.0","4.24.0"];
     </script>
 
 

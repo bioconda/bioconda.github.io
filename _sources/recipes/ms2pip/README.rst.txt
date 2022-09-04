@@ -35,14 +35,14 @@ ms2pip
    
    :depends biopython: ``>=1.43,<2``
    :depends click: ``>=7,<9``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
-   :depends numpy: ``>=1.17.5,<2.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: ``>=0.24,<2``
    :depends pytables: ``>=3.4``
    :depends pyteomics: ``>=3.5,<5``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: ``>=1,<2``
    :depends spectrum_utils: ``>=0.3.5``
    :depends tomlkit: ``>=0.5,<1``

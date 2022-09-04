@@ -27,11 +27,14 @@ czlab_perl_lib
       
       
 
-      
+      ``1.0.1-0``
 
       
 
    
+   :depends perl: ``>=5.32.1``
+   :depends perl-bioperl: ``>=1.7.8``
+   :depends perl-math-cdf: ``>=0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ czlab_perl_lib
 
     <script>
         var package = "czlab_perl_lib";
-        var versions = [];
+        var versions = ["1.0.1"];
     </script>
 
 

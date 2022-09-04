@@ -10,13 +10,20 @@ hesslab-gambit
    :replaces_section_title:
    :noindex:
 
-   Tool for rapid taxonomic identification of microbial pathogens
+   IMPORTANT\: This recipe is out of date. Use \"gambit\" instead\: http\:\/\/bioconda.github.io\/recipes\/gambit\/README.html
 
-   :homepage: https://github.com/hesslab-gambit/gambit
+   :homepage: https://github.com/jlumpe/gambit
+   :documentation: https://gambit-genomics.readthedocs.io/en/latest
+   
    :license: AGPL-3.0-or-later
    :recipe: /`hesslab-gambit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hesslab-gambit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hesslab-gambit/meta.yaml>`_
 
-   
+   GAMBIT \(Genomic Approximation Method for Bacterial Identification and Tracking\)
+   is a tool for rapid taxonomic identification of microbial pathogens. It uses an
+   extremely efficient genomic distance metric along with a curated database of
+   approximately 50\,000 reference genomes \(derived from NCBI RefSeq\) to identify
+   unknown bacterial genomes within seconds.
+
 
 
 .. conda:package:: hesslab-gambit
@@ -26,9 +33,17 @@ hesslab-gambit
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
+      
 
+      ``0.5.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,7 +53,7 @@ hesslab-gambit
    :depends cattrs: ``>=1.0``
    :depends click: ``>=7.0``
    :depends h5py: ``>=3.0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends numpy: ``>=1.13``
    :depends numpy: ``>=1.21.6,<2.0a0``
    :depends python: ``>=3.7,<3.8.0a0``
@@ -76,7 +91,7 @@ hesslab-gambit
 
     <script>
         var package = "hesslab-gambit";
-        var versions = ["0.5.0","0.4.0","0.4.0","0.3.0","0.3.0"];
+        var versions = ["0.5.1","0.5.0","0.5.0","0.5.0","0.4.0"];
     </script>
 
 

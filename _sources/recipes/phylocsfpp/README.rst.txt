@@ -27,19 +27,18 @@ phylocsfpp
       
       
 
-      ``1.2.0_9643238d-3``,  ``1.2.0_9643238d-2``,  ``1.2.0_9643238d-1``,  ``1.2.0_9643238d-0``,  ``1.1.1_4bb3c87a-0``,  ``1.1.0_519b603e-0``,  ``1.0.0_f5ab2559-1``,  ``1.0.0_f5ab2559-0``
+      ``1.2.0_9643238d-4``,  ``1.2.0_9643238d-3``,  ``1.2.0_9643238d-2``,  ``1.2.0_9643238d-1``,  ``1.2.0_9643238d-0``,  ``1.1.1_4bb3c87a-0``,  ``1.1.0_519b603e-0``,  ``1.0.0_f5ab2559-1``,  ``1.0.0_f5ab2559-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libbigwig: 
+   :depends libbigwig: ``>=0.4.6,<0.5.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +70,7 @@ phylocsfpp
 
     <script>
         var package = "phylocsfpp";
-        var versions = ["1.2.0_9643238d","1.2.0_9643238d","1.2.0_9643238d","1.2.0_9643238d","1.1.1_4bb3c87a"];
+        var versions = ["1.2.0_9643238d","1.2.0_9643238d","1.2.0_9643238d","1.2.0_9643238d","1.2.0_9643238d"];
     </script>
 
 

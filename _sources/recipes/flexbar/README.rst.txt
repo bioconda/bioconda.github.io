@@ -29,10 +29,10 @@ flexbar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-5</code>,  <code>3.5.0-4</code>,  <code>3.5.0-3</code>,  <code>3.5.0-2</code>,  <code>3.3.0-1</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.0-6</code>,  <code>3.5.0-5</code>,  <code>3.5.0-4</code>,  <code>3.5.0-3</code>,  <code>3.5.0-2</code>,  <code>3.3.0-1</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  </span></summary>
       
 
-      ``3.5.0-5``,  ``3.5.0-4``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.3.0-1``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``3.5.0-6``,  ``3.5.0-5``,  ``3.5.0-4``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.3.0-1``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ flexbar
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends seqan-library: 
    :depends tbb: ``>=2020.2,<2021.0.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ flexbar
 
     <script>
         var package = "flexbar";
-        var versions = ["3.5.0","3.5.0","3.5.0","3.5.0","3.3.0"];
+        var versions = ["3.5.0","3.5.0","3.5.0","3.5.0","3.5.0"];
     </script>
 
 

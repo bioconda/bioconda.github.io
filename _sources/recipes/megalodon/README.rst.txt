@@ -43,13 +43,14 @@ megalodon
 
    
    :depends h5py: ``>=2.2.1``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends mappy: ``>=2.16``
+   :depends numpy: ``>=1.23.1,<2.0a0``
    :depends numpy: ``>=1.9.0``
    :depends ont-fast5-api: ``>=3.2``
    :depends pysam: ``>=0.15``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: 
    :depends scipy: ``>=1.1.0``
    :depends seaborn: 

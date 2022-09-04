@@ -27,7 +27,7 @@ bioconductor-mvoutdata
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-mvoutdata
    :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-lumi: ``>=2.46.0,<2.47.0``
-   :depends curl: ``>=7.80.0,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-mvoutdata
 
     <script>
         var package = "bioconductor-mvoutdata";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.30.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

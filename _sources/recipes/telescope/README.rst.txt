@@ -28,19 +28,19 @@ telescope
       
       
 
-      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends future: ``>=0.17.1``
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends intervaltree: ``>=3.0.2``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends numpy: ``>=1.19.5,<2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends numpy: ``>=1.23.1,<2.0a0``
    :depends pysam: ``>=0.15.2``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=5.1``
    :depends scipy: ``>=1.2.1``
    :requirements:

@@ -30,10 +30,10 @@ pegasusio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.5.1.post1-2</code>,  <code>0.5.1.post1-1</code>,  <code>0.5.1.post1-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.5.1.post1-2</code>,  <code>0.5.1.post1-1</code>,  <code>0.5.1.post1-0</code>,  </span></summary>
       
 
-      ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1.post1-2``,  ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
+      ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1.post1-2``,  ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
 
       
       .. raw:: html
@@ -45,15 +45,14 @@ pegasusio
    :depends anndata: ``>=0.7``
    :depends docopt: 
    :depends h5py: ``>=3.0.0``
-   :depends importlib_metadata: ``>=0.7``
    :depends libgcc-ng: ``>=12``
    :depends loompy: 
    :depends natsort: 
    :depends numpy: 
    :depends pandas: ``>=1.2.0``
    :depends pillow: 
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :depends zarr: 
    :requirements:
@@ -87,7 +86,7 @@ pegasusio
 
     <script>
         var package = "pegasusio";
-        var versions = ["0.6.2","0.6.1","0.5.1.post1","0.5.1.post1","0.5.1.post1"];
+        var versions = ["0.7.1","0.7.1","0.7.0","0.7.0","0.6.2"];
     </script>
 
 

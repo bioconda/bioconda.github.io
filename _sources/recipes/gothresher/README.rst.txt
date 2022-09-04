@@ -10,13 +10,13 @@ gothresher
    :replaces_section_title:
    :noindex:
 
-   remove function bias from GAF files
+   GOThresher\: a program to remove annotation biases from protein function annotation datasets
 
    :homepage: https://github.com/FriedbergLab/GOThresher
    :license: GPL3 / GPL-3.0-only
    :recipe: /`gothresher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gothresher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gothresher/meta.yaml>`_
 
-   
+   GOThresher removes annotation bias from GAF files based on GO term information content\, GO evidence\, annotation source\, number of proteins annotated from a given source\, and date. GOThresher accepts one or more GAF files as input. The motivation for GOThresher lies in the observation that protein function annotations are biased due to high throughput experimental studies. Removing such annotation biases can help present a more balanced picture of protein annotations for a given organism or set of proteins.
 
 
 .. conda:package:: gothresher
@@ -27,7 +27,7 @@ gothresher
       
       
 
-      ``1.0.24-0``,  ``1.0.21-0``
+      ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.24-0``,  ``1.0.21-0``
 
       
 
@@ -69,7 +69,7 @@ gothresher
 
     <script>
         var package = "gothresher";
-        var versions = ["1.0.24","1.0.21"];
+        var versions = ["1.0.27","1.0.26","1.0.24","1.0.21"];
     </script>
 
 

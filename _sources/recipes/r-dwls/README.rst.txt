@@ -27,7 +27,7 @@ r-dwls
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -72,7 +72,7 @@ r-dwls
 
     <script>
         var package = "r-dwls";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.0","1.0","1.0"];
     </script>
 
 

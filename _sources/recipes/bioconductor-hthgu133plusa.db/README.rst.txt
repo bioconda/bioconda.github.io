@@ -27,14 +27,14 @@ bioconductor-hthgu133plusa.db
       
       
 
-      ``3.13.0-0``
+      ``3.13.0-1``,  ``3.13.0-0``
 
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-hthgu133plusa.db
 
     <script>
         var package = "bioconductor-hthgu133plusa.db";
-        var versions = ["3.13.0"];
+        var versions = ["3.13.0","3.13.0"];
     </script>
 
 

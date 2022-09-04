@@ -28,10 +28,10 @@ raven-assembler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.3-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.3-0</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.5-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.1-0``,  ``0.0.0-0``
+      ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.5-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.1-0``,  ``0.0.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ raven-assembler
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ raven-assembler
 
     <script>
         var package = "raven-assembler";
-        var versions = ["1.8.1","1.8.0","1.7.0","1.7.0","1.6.1"];
+        var versions = ["1.8.1","1.8.1","1.8.0","1.7.0","1.7.0"];
     </script>
 
 

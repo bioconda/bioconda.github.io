@@ -27,16 +27,13 @@ biothings_client
       
       
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends pandas: ``>=0.18.0``
-   :depends pyld: ``>=0.7.2``
-   :depends python: ``>=3.6``
+   :depends python: 
    :depends requests: ``>=2.3.0``
-   :depends requests-cache: ``>=0.4.13``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +65,7 @@ biothings_client
 
     <script>
         var package = "biothings_client";
-        var versions = ["0.2.6","0.2.5","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.2.6","0.2.6","0.2.5","0.2.4","0.2.3"];
     </script>
 
 

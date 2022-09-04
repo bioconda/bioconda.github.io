@@ -26,15 +26,23 @@ bioconductor-huex10stprobeset.db
    :versions:
       
       
+      .. raw:: html
 
-      ``8.8.0-0``,  ``8.7.0-8``,  ``8.7.0-7``,  ``8.7.0-6``,  ``8.7.0-5``,  ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-1``,  ``8.7.0-0``
+         <details><summary><span class="truncated-version-list"><code>8.8.0-1</code>,  <code>8.8.0-0</code>,  <code>8.7.0-8</code>,  <code>8.7.0-7</code>,  <code>8.7.0-6</code>,  <code>8.7.0-5</code>,  <code>8.7.0-4</code>,  <code>8.7.0-3</code>,  <code>8.7.0-1</code>,  </span></summary>
+      
 
+      ``8.8.0-1``,  ``8.8.0-0``,  ``8.7.0-8``,  ``8.7.0-7``,  ``8.7.0-6``,  ``8.7.0-5``,  ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-1``,  ``8.7.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +75,7 @@ bioconductor-huex10stprobeset.db
 
     <script>
         var package = "bioconductor-huex10stprobeset.db";
-        var versions = ["8.8.0","8.7.0","8.7.0","8.7.0","8.7.0"];
+        var versions = ["8.8.0","8.8.0","8.7.0","8.7.0","8.7.0"];
     </script>
 
 

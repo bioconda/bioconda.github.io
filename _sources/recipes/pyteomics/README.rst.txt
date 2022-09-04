@@ -12,8 +12,8 @@ pyteomics
 
    A framework for proteomics data analysis.
 
-   :homepage: https://bitbucket.org/levitsky/pyteomics
-   :license: Apache License, Version 2.0
+   :homepage: https://github.com/levitsky/pyteomics
+   :license: Apache-2.0
    :recipe: /`pyteomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyteomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyteomics/meta.yaml>`_
    :links: biotools: :biotools:`pyteomics`
 
@@ -29,10 +29,10 @@ pyteomics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.5.4-0</code>,  <code>4.5.3-0</code>,  <code>4.5.2-0</code>,  <code>4.5.1-0</code>,  <code>4.5-0</code>,  <code>4.4.2-0</code>,  <code>4.4.1-0</code>,  <code>4.4.0-0</code>,  <code>4.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.5.5-0</code>,  <code>4.5.4-0</code>,  <code>4.5.3-0</code>,  <code>4.5.2-0</code>,  <code>4.5.1-0</code>,  <code>4.5-0</code>,  <code>4.4.2-0</code>,  <code>4.4.1-0</code>,  <code>4.4.0-0</code>,  </span></summary>
       
 
-      ``4.5.4-0``,  ``4.5.3-0``,  ``4.5.2-0``,  ``4.5.1-0``,  ``4.5-0``,  ``4.4.2-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.2-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.5.1-2``,  ``3.5.1-0``,  ``3.4-1``,  ``3.4-0``
+      ``4.5.5-0``,  ``4.5.4-0``,  ``4.5.3-0``,  ``4.5.2-0``,  ``4.5.1-0``,  ``4.5-0``,  ``4.4.2-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.2-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.5.1-2``,  ``3.5.1-0``,  ``3.4-1``,  ``3.4-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ pyteomics
 
     <script>
         var package = "pyteomics";
-        var versions = ["4.5.4","4.5.3","4.5.2","4.5.1","4.5"];
+        var versions = ["4.5.5","4.5.4","4.5.3","4.5.2","4.5.1"];
     </script>
 
 

@@ -28,16 +28,16 @@ btyper3
       
       
 
-      ``3.2.0-0``
+      ``3.3.2-0``,  ``3.3.1-0``,  ``3.2.0-0``
 
       
 
    
    :depends biopython: ``>=1.74``
    :depends blast: ``>=2.9.0``
-   :depends fastani: ``>=1.0``
    :depends numpy: ``>=1.18``
    :depends pandas: ``>=1.0``
+   :depends pyfastani: ``>=0.4``
    :depends python: ``>=3.7``
    :requirements:
 
@@ -70,7 +70,7 @@ btyper3
 
     <script>
         var package = "btyper3";
-        var versions = ["3.2.0"];
+        var versions = ["3.3.2","3.3.1","3.2.0"];
     </script>
 
 

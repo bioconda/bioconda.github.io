@@ -29,9 +29,17 @@ regenie
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
+         <details><summary><span class="truncated-version-list"><code>3.2-0</code>,  <code>3.1.4-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1-0</code>,  <code>3.0.3-0</code>,  <code>3.0.1-0</code>,  <code>1.0.6.9-0</code>,  </span></summary>
+      
 
+      ``3.2-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -39,12 +47,12 @@ regenie
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
+   :depends libgfortran5: ``>=10.4.0``
    :depends liblapack: ``>=3.9.0,<3.10.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends mkl: ``>=2020.4``
-   :depends sqlite: ``>=3.39.0,<4.0a0``
+   :depends sqlite: ``>=3.39.2,<4.0a0``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :depends zstd: ``>=1.5.2,<1.6.0a0``
    :requirements:
@@ -78,7 +86,7 @@ regenie
 
     <script>
         var package = "regenie";
-        var versions = ["3.1.3","3.1.2","3.1.1","3.1","3.0.3"];
+        var versions = ["3.2","3.1.4","3.1.3","3.1.2","3.1.1"];
     </script>
 
 

@@ -10,7 +10,7 @@ ggcaller
    :replaces_section_title:
    :noindex:
 
-   a gene caller for Bifrost graphs
+   A de Bruijn graph\-based gene\-caller and pangenome analysis tool
 
    :homepage: https://github.com/samhorsfield96/ggCaller
    :license: MIT
@@ -27,23 +27,42 @@ ggcaller
       
       
 
-      ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends bcbio-gff: 
    :depends bifrost: 
    :depends biopython: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends graph-tool: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends pthread-stubs: 
+   :depends cd-hit: 
+   :depends diamond: 
+   :depends gffutils: 
+   :depends hmmer: 
+   :depends intbitset: 
+   :depends joblib: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends mafft: 
+   :depends matplotlib-base: 
+   :depends networkx: 
+   :depends numpy: 
+   :depends pandas: 
    :depends python: ``>=3.8,<3.9.0a0``
+   :depends python-edlib: 
+   :depends python-wget: 
    :depends python_abi: ``3.8.* *_cp38``
-   :depends pytorch: 
+   :depends pytorch: ``>=1.11.0,<1.12.0a0``
+   :depends rapidnj: 
+   :depends scipy: 
+   :depends seaborn: 
+   :depends snp-sites: 
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends tqdm: 
+   :depends uncertainties: 
    :depends xorg-libxaw: 
    :depends xorg-libxcomposite: 
    :depends xorg-libxcursor: 
@@ -53,6 +72,7 @@ ggcaller
    :depends xorg-libxinerama: 
    :depends xorg-libxpm: 
    :depends xorg-libxrandr: 
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +104,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.2.4","1.2.4","1.2.4","1.2.3","1.2.2"];
+        var versions = ["1.3.0","1.2.4","1.2.4","1.2.4","1.2.3"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-yeastgsdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.27.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  <code>0.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.27.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  </span></summary>
       
 
-      ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.20.0-0``
+      ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.20.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-yeastgsdata
       
 
    
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -73,7 +73,7 @@ bioconductor-yeastgsdata
 
     <script>
         var package = "bioconductor-yeastgsdata";
-        var versions = ["0.32.0","0.30.0","0.28.0","0.28.0","0.27.0"];
+        var versions = ["0.32.0","0.32.0","0.30.0","0.28.0","0.28.0"];
     </script>
 
 

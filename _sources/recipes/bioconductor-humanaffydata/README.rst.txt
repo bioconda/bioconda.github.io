@@ -27,14 +27,14 @@ bioconductor-humanaffydata
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-humanaffydata
 
     <script>
         var package = "bioconductor-humanaffydata";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
+        var versions = ["1.20.0","1.20.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-alien-build
       
       
 
-      ``2.50-0``,  ``2.49-0``,  ``2.48-0``
+      ``2.53-0``,  ``2.51-0``,  ``2.50-0``,  ``2.49-0``,  ``2.48-0``
 
       
 
@@ -71,7 +71,7 @@ perl-alien-build
 
     <script>
         var package = "perl-alien-build";
-        var versions = ["2.50","2.49","2.48"];
+        var versions = ["2.53","2.51","2.50","2.49","2.48"];
     </script>
 
 

@@ -28,7 +28,7 @@ ribodetector
       
       
 
-      ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -71,7 +71,7 @@ ribodetector
 
     <script>
         var package = "ribodetector";
-        var versions = ["0.2.6","0.2.4","0.2.3"];
+        var versions = ["0.2.7","0.2.6","0.2.4","0.2.3"];
     </script>
 
 

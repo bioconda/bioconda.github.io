@@ -27,7 +27,7 @@ onehot2seq
       
       
 
-      ``0.0.2-0``
+      ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -65,7 +65,7 @@ onehot2seq
 
     <script>
         var package = "onehot2seq";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.2","0.0.2"];
     </script>
 
 

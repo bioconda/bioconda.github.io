@@ -31,15 +31,15 @@ galaxy-data
       
       
 
-      ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
+      ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
 
       
 
    
    :depends bdbag: 
    :depends bx-python: 
-   :depends galaxy-objectstore: ``>=21.9``
-   :depends galaxy-util: ``>=21.9``
+   :depends galaxy-objectstore: ``>=22.1``
+   :depends galaxy-util: ``>=22.1``
    :depends galaxy_sequence_utils: 
    :depends h5py: 
    :depends isa-rwval: 
@@ -86,7 +86,7 @@ galaxy-data
 
     <script>
         var package = "galaxy-data";
-        var versions = ["21.9.0","20.9.1","20.9.1","20.9.1"];
+        var versions = ["22.1.1","21.9.0","20.9.1","20.9.1","20.9.1"];
     </script>
 
 

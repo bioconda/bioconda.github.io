@@ -27,13 +27,13 @@ pcst-fast
       
       
 
-      ``1.0.8-0``,  ``1.0.7.1-1``,  ``1.0.7.1-0``,  ``1.0.7-0``
+      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7.1-1``,  ``1.0.7.1-0``,  ``1.0.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends pybind11: ``>=2.4``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -68,7 +68,7 @@ pcst-fast
 
     <script>
         var package = "pcst-fast";
-        var versions = ["1.0.8","1.0.7.1","1.0.7.1","1.0.7"];
+        var versions = ["1.0.8","1.0.8","1.0.7.1","1.0.7.1","1.0.7"];
     </script>
 
 

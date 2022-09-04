@@ -28,10 +28,10 @@ libsequence
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.8-3</code>,  <code>1.9.8-2</code>,  <code>1.9.8-1</code>,  <code>1.9.8-0</code>,  <code>1.9.7-0</code>,  <code>1.9.6-0</code>,  <code>1.9.5-0</code>,  <code>1.9.4-0</code>,  <code>1.9.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.8-4</code>,  <code>1.9.8-3</code>,  <code>1.9.8-2</code>,  <code>1.9.8-1</code>,  <code>1.9.8-0</code>,  <code>1.9.7-0</code>,  <code>1.9.6-0</code>,  <code>1.9.5-0</code>,  <code>1.9.4-0</code>,  </span></summary>
       
 
-      ``1.9.8-3``,  ``1.9.8-2``,  ``1.9.8-1``,  ``1.9.8-0``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-1``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.4-6``,  ``1.8.4-5``,  ``1.8.4-4``,  ``1.8.4-3``,  ``1.8.4-2``,  ``1.8.4-1``,  ``1.8.4-0``
+      ``1.9.8-4``,  ``1.9.8-3``,  ``1.9.8-2``,  ``1.9.8-1``,  ``1.9.8-0``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-1``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.4-6``,  ``1.8.4-5``,  ``1.8.4-4``,  ``1.8.4-3``,  ``1.8.4-2``,  ``1.8.4-1``,  ``1.8.4-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ libsequence
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ libsequence
 
     <script>
         var package = "libsequence";
-        var versions = ["1.9.8","1.9.8","1.9.8","1.9.8","1.9.7"];
+        var versions = ["1.9.8","1.9.8","1.9.8","1.9.8","1.9.8"];
     </script>
 
 

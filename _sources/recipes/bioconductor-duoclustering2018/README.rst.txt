@@ -27,13 +27,13 @@ bioconductor-duoclustering2018
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -75,7 +75,7 @@ bioconductor-duoclustering2018
 
     <script>
         var package = "bioconductor-duoclustering2018";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.12.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

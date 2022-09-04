@@ -26,15 +26,23 @@ bioconductor-grasp2db
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-10</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  </span></summary>
+      
 
+      ``1.1.0-10``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbplyr: 
    :depends r-digest: 

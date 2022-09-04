@@ -27,7 +27,7 @@ alignoth
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -36,7 +36,7 @@ alignoth
    :depends libcurl: ``>=7.83.1,<8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openssl: ``>=1.1.1p,<1.1.2a``
+   :depends openssl: ``>=1.1.1q,<1.1.2a``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ alignoth
 
     <script>
         var package = "alignoth";
-        var versions = ["0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.4.0","0.3.0","0.2.2","0.2.1","0.2.0"];
     </script>
 
 

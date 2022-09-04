@@ -28,14 +28,14 @@ bwa-meme
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bwa-meme
 
     <script>
         var package = "bwa-meme";
-        var versions = ["1.0.4","1.0.4","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.2"];
     </script>
 
 

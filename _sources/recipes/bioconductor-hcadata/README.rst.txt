@@ -27,7 +27,7 @@ bioconductor-hcadata
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-hcadata
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
    :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -69,7 +69,7 @@ bioconductor-hcadata
 
     <script>
         var package = "bioconductor-hcadata";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

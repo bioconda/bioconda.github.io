@@ -27,7 +27,7 @@ bioconductor-phyloprofiledata
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-phyloprofiledata
    :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
    :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-phyloprofiledata
 
     <script>
         var package = "bioconductor-phyloprofiledata";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.8.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

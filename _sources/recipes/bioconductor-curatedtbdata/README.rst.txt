@@ -27,7 +27,7 @@ bioconductor-curatedtbdata
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-curatedtbdata
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
    :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rlang: 
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-curatedtbdata
 
     <script>
         var package = "bioconductor-curatedtbdata";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

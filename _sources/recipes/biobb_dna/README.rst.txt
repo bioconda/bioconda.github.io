@@ -32,8 +32,8 @@ biobb_dna
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(https\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(https\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2021 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2021 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2022 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2022 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -51,14 +51,14 @@ biobb_dna
       
       
 
-      ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.2-1``,  ``3.6.2-0``,  ``3.6.1-0``,  ``1.1.1-0``
+      ``3.8.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.2-1``,  ``3.6.2-0``,  ``3.6.1-0``,  ``1.1.1-0``
 
       
 
    
-   :depends biobb_common: ``>=3.7``
+   :depends biobb_common: ``3.8.1``
    :depends curves: ``3.0.0``
-   :depends matplotlib-base: ``3.4.2``
+   :depends numpy: ``1.19.5``
    :depends pandas: ``1.3.0``
    :depends python: ``>=3.7``
    :depends scikit-learn: ``0.24.2``
@@ -93,7 +93,7 @@ biobb_dna
 
     <script>
         var package = "biobb_dna";
-        var versions = ["3.7.1","3.7.0","3.6.2","3.6.2","3.6.1"];
+        var versions = ["3.8.2","3.7.1","3.7.0","3.6.2","3.6.2"];
     </script>
 
 

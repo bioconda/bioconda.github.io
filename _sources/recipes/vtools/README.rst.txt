@@ -34,10 +34,10 @@ vtools
    
    :depends click: 
    :depends cyvcf2: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends libgcc-ng: ``>=12``
+   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends tqdm: 
    :requirements:
 

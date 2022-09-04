@@ -32,7 +32,7 @@ pegasuspy
       
       
 
-      ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -46,9 +46,9 @@ pegasuspy
    :depends importlib_metadata: ``>=0.7``
    :depends joblib: ``>=0.14``
    :depends leidenalg: ``>=0.8.0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends lightgbm: ``>=2.2.1``
-   :depends loompy: 
+   :depends loompy: ``>=3``
    :depends louvain: ``>=0.7.0``
    :depends matplotlib-base: ``>=2.0.0``
    :depends natsort: 
@@ -57,7 +57,7 @@ pegasuspy
    :depends pandas: ``>=1.2.0``
    :depends pegasusio: ``>=0.5.1``
    :depends psutil: 
-   :depends pyarrow: 
+   :depends pyarrow: ``>=9``
    :depends pybind11: 
    :depends pyfit-sne: ``>=1.1.1``
    :depends python: ``>=3.7,<3.8.0a0``
@@ -65,7 +65,7 @@ pegasuspy
    :depends python_abi: ``3.7.* *_cp37m``
    :depends scikit-learn: ``>=0.23.2``
    :depends scikit-misc: 
-   :depends scipy: 
+   :depends scipy: ``>=1.7``
    :depends seaborn: 
    :depends statsmodels: 
    :depends threadpoolctl: 
@@ -103,7 +103,7 @@ pegasuspy
 
     <script>
         var package = "pegasuspy";
-        var versions = ["1.6.0","1.5.0","1.2.0","1.2.0"];
+        var versions = ["1.7.1","1.6.0","1.5.0","1.2.0","1.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ gamma
       
       
 
-      ``2.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``2.2-0``,  ``2.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -35,6 +35,7 @@ gamma
    :depends biopython: 
    :depends blat: 
    :depends python: ``>=3``
+   :depends unidecode: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ gamma
 
     <script>
         var package = "gamma";
-        var versions = ["2.1","1.4","1.3","1.1","1.1"];
+        var versions = ["2.2","2.1","1.4","1.3","1.1"];
     </script>
 
 

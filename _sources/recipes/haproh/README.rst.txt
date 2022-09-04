@@ -27,7 +27,7 @@ haproh
       
       
 
-      ``0.53-0``
+      ``0.60-0``,  ``0.53-0``
 
       
 
@@ -75,7 +75,7 @@ haproh
 
     <script>
         var package = "haproh";
-        var versions = ["0.53"];
+        var versions = ["0.60","0.53"];
     </script>
 
 

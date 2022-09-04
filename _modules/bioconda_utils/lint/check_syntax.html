@@ -112,8 +112,49 @@
 <span class="sd">section that is otherwise free-form.</span>
 
 <span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">re</span>
 
 <span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
+
+
+<div class="viewcode-block" id="version_constraints_missing_whitespace"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace">[docs]</a><span class="k">class</span> <span class="nc">version_constraints_missing_whitespace</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Packages and their version constraints must be space separated</span>
+
+<span class="sd">    Example::</span>
+
+<span class="sd">        host:</span>
+<span class="sd">            python &gt;=3</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="version_constraints_missing_whitespace.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+        <span class="n">check_paths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">section</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">):</span>
+            <span class="n">check_paths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;requirements/</span><span class="si">{</span><span class="n">section</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+        <span class="n">constraints</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;(.*?)([&lt;=&gt;].*)&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">check_paths</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">n</span><span class="p">,</span> <span class="n">spec</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="p">[])):</span>
+                <span class="n">has_constraints</span> <span class="o">=</span> <span class="n">constraints</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">spec</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">has_constraints</span><span class="p">:</span>
+                    <span class="n">space_separated</span> <span class="o">=</span> <span class="n">has_constraints</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="n">space_separated</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="version_constraints_missing_whitespace.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
+        <span class="n">check_paths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">section</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">):</span>
+            <span class="n">check_paths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;requirements/</span><span class="si">{</span><span class="n">section</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+        <span class="n">constraints</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;(.*?)([&lt;=&gt;].*)&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">check_paths</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">spec</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="p">[]):</span>
+                <span class="n">has_constraints</span> <span class="o">=</span> <span class="n">constraints</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">spec</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">has_constraints</span><span class="p">:</span>
+                    <span class="n">space_separated</span> <span class="o">=</span> <span class="n">has_constraints</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="n">space_separated</span><span class="p">:</span>
+                        <span class="n">dep</span><span class="p">,</span> <span class="n">ver</span> <span class="o">=</span> <span class="n">has_constraints</span><span class="o">.</span><span class="n">groups</span><span class="p">()</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">spec</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dep</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">ver</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">within</span><span class="o">=</span><span class="s1">&#39;requirements&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">True</span></div></div>
 
 
 <div class="viewcode-block" id="extra_identifiers_not_list"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list">[docs]</a><span class="k">class</span> <span class="nc">extra_identifiers_not_list</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
@@ -198,7 +239,7 @@
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

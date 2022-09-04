@@ -27,17 +27,17 @@ libsbml
       
       
 
-      ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
+      ``5.18.0-7``,  ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libxml2: ``>=2.9.12,<2.10.0a0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libxml2: ``>=2.9.14,<2.10.0a0``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

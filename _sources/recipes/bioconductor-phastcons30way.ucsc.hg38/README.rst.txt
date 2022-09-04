@@ -27,14 +27,14 @@ bioconductor-phastcons30way.ucsc.hg38
       
       
 
-      ``3.13.0-0``,  ``3.11.1-3``,  ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``
+      ``3.13.0-1``,  ``3.13.0-0``,  ``3.11.1-3``,  ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``
 
       
 
    
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-genomicscores: ``>=2.6.0,<2.7.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-phastcons30way.ucsc.hg38
 
     <script>
         var package = "bioconductor-phastcons30way.ucsc.hg38";
-        var versions = ["3.13.0","3.11.1","3.11.1","3.11.1","3.11.1"];
+        var versions = ["3.13.0","3.13.0","3.11.1","3.11.1","3.11.1"];
     </script>
 
 

@@ -32,7 +32,7 @@ scglue
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -43,7 +43,7 @@ scglue
    :depends leidenalg: ``>=0.7``
    :depends matplotlib-base: ``>=3.1.2``
    :depends networkx: ``>=2``
-   :depends numpy: ``>=1.19``
+   :depends numpy: ``>=1.19,<1.22``
    :depends packaging: ``>=16.8``
    :depends pandas: ``>=1.1``
    :depends parse: ``>=1.3.2``
@@ -91,7 +91,7 @@ scglue
 
     <script>
         var package = "scglue";
-        var versions = ["0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.3.2","0.3.1","0.2.3","0.2.2","0.2.1"];
     </script>
 
 

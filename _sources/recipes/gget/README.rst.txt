@@ -31,10 +31,10 @@ gget
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.7-0</code>,  <code>0.3.5-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.24-0``
+      ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.7-0``,  ``0.3.5-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.24-0``
 
       
       .. raw:: html
@@ -45,12 +45,15 @@ gget
    
    :depends beautifulsoup4: ``>=4.10.0``
    :depends ipython: 
+   :depends ipywidgets: 
    :depends matplotlib-base: 
-   :depends mysql-connector-python: ``>=8.0.5``
+   :depends mysql-connector-python: ``>=8.0.5,<=8.0.29``
    :depends numpy: ``>=1.17.2``
    :depends pandas: ``>=1.0.0``
+   :depends py3dmol: ``>=1.8.0``
    :depends python: ``>=3.6``
    :depends requests: ``>=2.22.0``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +85,7 @@ gget
 
     <script>
         var package = "gget";
-        var versions = ["0.2.6","0.2.5","0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.3.10","0.3.9","0.3.7","0.3.5","0.2.7"];
     </script>
 
 

@@ -15,7 +15,7 @@ get_homologues
    :homepage: https://github.com/eead-csic-compbio/get_homologues
    :license: GPL3
    :recipe: /`get_homologues <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/get_homologues>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/get_homologues/meta.yaml>`_
-   :links: biotools: :biotools:`get_homologues`, doi: :doi:`https://doi.org/10.1128/AEM.02411-13`, doi: :doi:`https://doi.org/10.3389/fpls.2017.00184`
+   :links: biotools: :biotools:`get_homologues`, doi: :doi:`https://doi.org/10.1128/AEM.02411-13`, doi: :doi:`https://doi.org/10.3389/fpls.2017.00184`, doi: :doi:`https://doi.org/10.1007/978-1-4939-1720-4_14`, doi: :doi:`https://doi.org/10.1007/978-1-0716-2429-6_9`
 
    
 
@@ -28,7 +28,7 @@ get_homologues
       
       
 
-      ``3.5.1-0``
+      ``3.5.4-0``,  ``3.5.1-0``
 
       
 
@@ -78,7 +78,7 @@ get_homologues
 
     <script>
         var package = "get_homologues";
-        var versions = ["3.5.1"];
+        var versions = ["3.5.4","3.5.1"];
     </script>
 
 

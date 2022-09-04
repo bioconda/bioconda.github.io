@@ -28,10 +28,10 @@ bioconductor-scrnaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.17-0</code>,  <code>2.2.0-0</code>,  <code>1.99.8-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.17-0</code>,  <code>2.2.0-0</code>,  <code>1.99.8-0</code>,  <code>1.10.0-1</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.17-0``,  ``2.2.0-0``,  ``1.99.8-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.17-0``,  ``2.2.0-0``,  ``1.99.8-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ bioconductor-scrnaseq
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -83,7 +83,7 @@ bioconductor-scrnaseq
 
     <script>
         var package = "bioconductor-scrnaseq";
-        var versions = ["2.8.0","2.6.1","2.4.0","2.4.0","2.3.17"];
+        var versions = ["2.8.0","2.8.0","2.6.1","2.4.0","2.4.0"];
     </script>
 
 

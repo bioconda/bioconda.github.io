@@ -27,7 +27,7 @@ python-crypt4gh
       
       
 
-      ``1.5-0``
+      ``1.6-0``,  ``1.5-0``
 
       
 
@@ -69,7 +69,7 @@ python-crypt4gh
 
     <script>
         var package = "python-crypt4gh";
-        var versions = ["1.5"];
+        var versions = ["1.6","1.5"];
     </script>
 
 

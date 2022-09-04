@@ -36,15 +36,15 @@ velocyto.py
    :depends _openmp_mutex: ``>=4.5``
    :depends click: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends loompy: 
    :depends matplotlib-base: 
    :depends numba: 
-   :depends numpy: ``>=1.17.5,<2.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: 
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: 
    :depends scikit-learn: 
    :depends scipy: 

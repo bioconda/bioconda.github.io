@@ -27,14 +27,14 @@ bioconductor-epitxdb.hs.hg38
       
       
 
-      ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
+      ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
 
       
 
    
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-epitxdb: ``>=1.6.0,<1.7.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-epitxdb.hs.hg38
 
     <script>
         var package = "bioconductor-epitxdb.hs.hg38";
-        var versions = ["0.99.7","0.99.7","0.99.7","0.99.7","0.99.3"];
+        var versions = ["0.99.7","0.99.7","0.99.7","0.99.7","0.99.7"];
     </script>
 
 

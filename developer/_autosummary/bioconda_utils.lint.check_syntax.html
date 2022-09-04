@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <title>check_syntax &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -156,9 +156,60 @@ section that is otherwise free-form.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list" title="bioconda_utils.lint.check_syntax.extra_skip_lints_not_list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extra_skip_lints_not_list</span></code></a>(_linter)</p></td>
 <td><p>The extra/skip-lints section must contain a list</p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace" title="bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace"><code class="xref py py-obj docutils literal notranslate"><span class="pre">version_constraints_missing_whitespace</span></code></a>(_linter)</p></td>
+<td><p>Packages and their version constraints must be space separated</p></td>
+</tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_syntax.</span></span><span class="sig-name descname"><span class="pre">version_constraints_missing_whitespace</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_syntax.html#version_constraints_missing_whitespace"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Packages and their version constraints must be space separated</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">host</span><span class="p">:</span>
+    <span class="n">python</span> <span class="o">&gt;=</span><span class="mi">3</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.check_recipe">
+<span class="sig-name descname"><span class="pre">check_recipe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_syntax.html#version_constraints_missing_whitespace.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.check_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe</p>
+<p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
+to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>recipe</strong> – The recipe under test.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.fix">
+<span class="sig-name descname"><span class="pre">fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_syntax.html#version_constraints_missing_whitespace.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Attempt to fix the problem</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.messages">
+<span class="sig-name descname"><span class="pre">messages</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><span class="pre">LintMessage</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.recipe">
+<span class="sig-name descname"><span class="pre">recipe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">_recipe.Recipe</span></em><a class="headerlink" href="#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.try_fix">
+<span class="sig-name descname"><span class="pre">try_fix</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></em><a class="headerlink" href="#bioconda_utils.lint.check_syntax.version_constraints_missing_whitespace.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
+</dd></dl>
+
+</dd></dl>
+
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_syntax.extra_identifiers_not_list">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_syntax.</span></span><span class="sig-name descname"><span class="pre">extra_identifiers_not_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_list"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list" title="Permalink to this definition">¶</a></dt>
@@ -357,7 +408,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
       &copy;2016-2022, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

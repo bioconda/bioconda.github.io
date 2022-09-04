@@ -1,0 +1,105 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'pastml'
+.. highlight: bash
+
+pastml
+======
+
+.. conda:recipe:: pastml
+   :replaces_section_title:
+   :noindex:
+
+   Ancestral character reconstruction and visualisation for rooted phylogenetic trees.
+
+   :homepage: https://pastml.pasteur.fr
+   :documentation: https://pastml.pasteur.fr/help
+   
+   :developer docs: https://github.com/evolbioinfo/pastml
+   :license: GPL / GPL-3.0
+   :recipe: /`pastml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastml/meta.yaml>`_
+
+   PastML provides fast methods for Ancestral Character Reconstruction \(ACR\)
+   and visualisation on rooted phylogenetic trees. Given a rooted tree and its
+   node annotations\, it can either visualise them as\-is\, or infer ancestral
+   node states based on the tip states\, with a selection of maximum likelihood
+   and parsimonious methods. The result is then visualised as a zoomable html
+   map.
+
+
+
+.. conda:package:: pastml
+
+   |downloads_pastml| |docker_pastml|
+
+   :versions:
+      
+      
+
+      ``1.9.40-0``,  ``1.9.39-0``
+
+      
+
+   
+   :depends biopython: ``>=1.70``
+   :depends ete3: ``>=3.1.1``
+   :depends itolapi: ``>=4.0.0``
+   :depends jinja2: ``>=2.11.0``
+   :depends numpy: ``>=1.22``
+   :depends pandas: ``>=1.0.0``
+   :depends python: ``>=3.8``
+   :depends scipy: ``>=1.5.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pastml
+
+   and update with::
+
+      conda update pastml
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/pastml:<tag>
+
+   (see `pastml/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pastml| image:: https://img.shields.io/conda/dn/bioconda/pastml.svg?style=flat
+   :target: https://anaconda.org/bioconda/pastml
+   :alt:   (downloads)
+.. |docker_pastml| image:: https://quay.io/repository/biocontainers/pastml/status
+   :target: https://quay.io/repository/biocontainers/pastml
+.. _`pastml/tags`: https://quay.io/repository/biocontainers/pastml?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "pastml";
+        var versions = ["1.9.40","1.9.39"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pastml/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pastml/README.html

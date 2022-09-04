@@ -26,15 +26,23 @@ bioconductor-txdb.hsapiens.biomart.igis
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.2-9``,  ``2.3.2-8``,  ``2.3.2-7``,  ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-1``,  ``2.3.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.2-10</code>,  <code>2.3.2-9</code>,  <code>2.3.2-8</code>,  <code>2.3.2-7</code>,  <code>2.3.2-6</code>,  <code>2.3.2-5</code>,  <code>2.3.2-4</code>,  <code>2.3.2-3</code>,  <code>2.3.2-1</code>,  </span></summary>
+      
 
+      ``2.3.2-10``,  ``2.3.2-9``,  ``2.3.2-8``,  ``2.3.2-7``,  ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-1``,  ``2.3.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

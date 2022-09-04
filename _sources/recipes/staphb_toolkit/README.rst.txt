@@ -30,7 +30,7 @@ staphb_toolkit
       
       
 
-      ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``
+      ``2.0.0-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``
 
       
 
@@ -39,7 +39,9 @@ staphb_toolkit
    :depends openjdk: 
    :depends pexpect: ``>=4.8``
    :depends psutil: ``>=5.6.3``
+   :depends pyfiglet: ``>=0.8.post1``
    :depends python: ``>=3.6``
+   :depends rich: ``>=12.4.4``
    :depends spython: ``>=0.0.73``
    :requirements:
 
@@ -72,7 +74,7 @@ staphb_toolkit
 
     <script>
         var package = "staphb_toolkit";
-        var versions = ["1.3.10","1.3.9","1.3.8","1.3.7","1.3.6"];
+        var versions = ["2.0.0","1.3.10","1.3.9","1.3.8","1.3.7"];
     </script>
 
 

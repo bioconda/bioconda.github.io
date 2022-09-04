@@ -31,7 +31,7 @@ aviary
       
       
 
-      ``0.4.1-0``
+      ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
 
       
 
@@ -77,7 +77,7 @@ aviary
 
     <script>
         var package = "aviary";
-        var versions = ["0.4.1"];
+        var versions = ["0.5.0","0.4.3","0.4.1"];
     </script>
 
 

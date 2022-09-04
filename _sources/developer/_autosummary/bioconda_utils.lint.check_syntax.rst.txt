@@ -20,6 +20,7 @@ check\_syntax
       extra_identifiers_not_list
       extra_identifiers_not_string
       extra_skip_lints_not_list
+      version_constraints_missing_whitespace
    
    
 

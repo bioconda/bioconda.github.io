@@ -30,10 +30,10 @@ lorikeet-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-1</code>,  </span></summary>
       
 
-      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -58,13 +58,12 @@ lorikeet-genome
    :depends numpy: 
    :depends openssl: ``>=1.1.1q,<1.1.2a``
    :depends parallel: 
+   :depends polars: 
    :depends prodigal: 
-   :depends pysam: ``>=0.16``
    :depends python: ``>=3.9``
    :depends samtools: ``>=1.9``
-   :depends scikit-bio: 
-   :depends scikit-learn: 
-   :depends seaborn: 
+   :depends scikit-allel: 
+   :depends scipy: 
    :depends starcode: 
    :depends svim: 
    :depends vt: 
@@ -100,7 +99,7 @@ lorikeet-genome
 
     <script>
         var package = "lorikeet-genome";
-        var versions = ["0.7.1","0.7.0","0.6.6","0.5.0","0.4.0"];
+        var versions = ["0.7.2","0.7.1","0.7.0","0.6.6","0.5.0"];
     </script>
 
 

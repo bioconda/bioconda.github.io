@@ -12,7 +12,7 @@ taxopy
 
    A Python package for obtaining complete lineages and the lowest common ancestor \(LCA\) from a set of taxonomic identifiers.
 
-   :homepage: https://apcamargo.github.io/taxopy/
+   :homepage: https://github.com/apcamargo/taxopy
    :license: GPL / GNU General Public License v3.0
    :recipe: /`taxopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxopy/meta.yaml>`_
 
@@ -28,10 +28,10 @@ taxopy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ taxopy
 
     <script>
         var package = "taxopy";
-        var versions = ["0.9.2","0.9.1","0.9.0","0.8.0","0.7.0"];
+        var versions = ["0.10.2","0.10.1","0.10.0","0.9.2","0.9.1"];
     </script>
 
 

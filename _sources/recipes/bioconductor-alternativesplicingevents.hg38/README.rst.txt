@@ -26,14 +26,22 @@ bioconductor-alternativesplicingevents.hg38
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.0-0``,  ``1.0.1-8``,  ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-1``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-8</code>,  <code>1.0.1-7</code>,  <code>1.0.1-6</code>,  <code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0.1-1</code>,  </span></summary>
+      
 
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-8``,  ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +74,7 @@ bioconductor-alternativesplicingevents.hg38
 
     <script>
         var package = "bioconductor-alternativesplicingevents.hg38";
-        var versions = ["1.1.0","1.0.1","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.1.0","1.1.0","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

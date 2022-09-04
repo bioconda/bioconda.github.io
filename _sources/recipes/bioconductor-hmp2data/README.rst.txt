@@ -27,7 +27,7 @@ bioconductor-hmp2data
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-hmp2data
    :depends bioconductor-phyloseq: ``>=1.38.0,<1.39.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
@@ -78,7 +78,7 @@ bioconductor-hmp2data
 
     <script>
         var package = "bioconductor-hmp2data";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.1.0"];
+        var versions = ["1.8.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

@@ -26,14 +26,22 @@ bioconductor-arabidopsis.db0
    :versions:
       
       
+      .. raw:: html
 
-      ``3.14.0-0``,  ``3.13.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.3-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.1-1``,  ``3.7.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.13.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.11.3-0</code>,  <code>3.10.0-0</code>,  <code>3.8.2-1</code>,  <code>3.7.1-1</code>,  </span></summary>
+      
 
+      ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.3-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.1-1``,  ``3.7.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +74,7 @@ bioconductor-arabidopsis.db0
 
     <script>
         var package = "bioconductor-arabidopsis.db0";
-        var versions = ["3.14.0","3.13.0","3.12.0","3.12.0","3.11.3"];
+        var versions = ["3.14.0","3.14.0","3.13.0","3.12.0","3.12.0"];
     </script>
 
 

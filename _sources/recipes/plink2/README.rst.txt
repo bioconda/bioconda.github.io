@@ -27,13 +27,13 @@ plink2
       
       
 
-      ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
+      ``2.00a3.3-0``,  ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends openblas: 
    :requirements:
 
@@ -66,7 +66,7 @@ plink2
 
     <script>
         var package = "plink2";
-        var versions = ["2.00a2.3","2.00a2.3","2.00a2.3","1.90b3.35"];
+        var versions = ["2.00a3.3","2.00a2.3","2.00a2.3","2.00a2.3","1.90b3.35"];
     </script>
 
 

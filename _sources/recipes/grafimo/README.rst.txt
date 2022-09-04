@@ -35,12 +35,12 @@ grafimo
    :depends colorama: 
    :depends graphviz: 
    :depends htslib: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends numba: ``>=0.47,<1``
-   :depends numpy: ``>=1.17.5,<2.0a0``
-   :depends pandas: ``>=1.3.1,<2.0a0``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends pandas: ``>=1.4.3,<2.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends statsmodels: ``>=0.11``
    :depends vg: 
    :requirements:

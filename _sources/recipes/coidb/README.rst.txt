@@ -27,7 +27,7 @@ coidb
       
       
 
-      ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``
+      ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``
 
       
 
@@ -36,6 +36,7 @@ coidb
    :depends importlib_resources: 
    :depends pandas: 
    :depends python: ``>=3.8``
+   :depends seqkit: 
    :depends snakemake: 
    :depends tqdm: 
    :depends unzip: 
@@ -71,7 +72,7 @@ coidb
 
     <script>
         var package = "coidb";
-        var versions = ["0.4.6","0.4.5","0.4.3","0.4.1","0.4.0"];
+        var versions = ["0.4.7","0.4.6","0.4.5","0.4.3","0.4.1"];
     </script>
 
 

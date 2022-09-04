@@ -30,10 +30,10 @@ nextstrain-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.2.5-0</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.2.5-0</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  </span></summary>
       
 
-      ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
+      ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
 
       
       .. raw:: html
@@ -46,11 +46,11 @@ nextstrain-cli
    :depends docutils: 
    :depends fasteners: 
    :depends fsspec: 
+   :depends packaging: 
    :depends pyjwt: ``>=2.0.0``
    :depends python: ``>=3.6``
    :depends requests: 
    :depends s3fs: 
-   :depends setuptools: ``>=8.0.3``
    :depends typing_extensions: ``>=3.6.4``
    :depends wcmatch: ``>=6.0``
    :requirements:
@@ -84,7 +84,7 @@ nextstrain-cli
 
     <script>
         var package = "nextstrain-cli";
-        var versions = ["4.1.1","4.1.0","4.0.0","3.2.5","3.2.4"];
+        var versions = ["4.2.0","4.2.0","4.1.1","4.1.1","4.1.0"];
     </script>
 
 

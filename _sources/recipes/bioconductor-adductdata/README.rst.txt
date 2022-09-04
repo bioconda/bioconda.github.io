@@ -27,14 +27,14 @@ bioconductor-adductdata
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``
 
       
 
    
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-adductdata
 
     <script>
         var package = "bioconductor-adductdata";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

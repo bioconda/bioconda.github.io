@@ -26,9 +26,17 @@ bioconductor-pd.hugene.1.1.st.v1
    :versions:
       
       
+      .. raw:: html
 
-      ``3.14.1-9``,  ``3.14.1-8``,  ``3.14.1-7``,  ``3.14.1-6``,  ``3.14.1-5``,  ``3.14.1-4``,  ``3.14.1-3``,  ``3.14.1-1``,  ``3.14.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.14.1-10</code>,  <code>3.14.1-9</code>,  <code>3.14.1-8</code>,  <code>3.14.1-7</code>,  <code>3.14.1-6</code>,  <code>3.14.1-5</code>,  <code>3.14.1-4</code>,  <code>3.14.1-3</code>,  <code>3.14.1-1</code>,  </span></summary>
+      
 
+      ``3.14.1-10``,  ``3.14.1-9``,  ``3.14.1-8``,  ``3.14.1-7``,  ``3.14.1-6``,  ``3.14.1-5``,  ``3.14.1-4``,  ``3.14.1-3``,  ``3.14.1-1``,  ``3.14.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,7 @@ bioconductor-pd.hugene.1.1.st.v1
    :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
    :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-rsqlite: ``>=1.0.0``

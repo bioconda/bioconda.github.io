@@ -28,10 +28,10 @@ igv-reports
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.8-1</code>,  <code>0.9.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ igv-reports
 
    
    :depends intervaltree: 
-   :depends pysam: ``>=0.15``
+   :depends pysam: ``>=0.19.1``
    :depends python: 
    :depends requests: 
    :requirements:
@@ -75,7 +75,7 @@ igv-reports
 
     <script>
         var package = "igv-reports";
-        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.5.1","1.5.0","1.0.5","1.0.4","1.0.3"];
     </script>
 
 

@@ -31,12 +31,12 @@ galaxy-objectstore
       
       
 
-      ``21.9.0-0``,  ``20.9.1-0``
+      ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-0``
 
       
 
    
-   :depends galaxy-util: ``>=21.9``
+   :depends galaxy-util: ``>=22.1``
    :depends python: ``>=3.6``
    :depends pyyaml: 
    :depends six: ``>=1.9.0``
@@ -71,7 +71,7 @@ galaxy-objectstore
 
     <script>
         var package = "galaxy-objectstore";
-        var versions = ["21.9.0","20.9.1"];
+        var versions = ["22.1.1","21.9.0","20.9.1"];
     </script>
 
 

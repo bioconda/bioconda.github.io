@@ -53,8 +53,8 @@ ganon
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends multitax: ``1.1.1``
    :depends pandas: ``>=1.1.0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 

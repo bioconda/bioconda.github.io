@@ -28,20 +28,19 @@ ampligone
       
       
 
-      ``1.0.3-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
    :depends biopython: ``>=1.79``
-   :depends mappy: ``>=2.17``
-   :depends numpy: ``>=1.20``
-   :depends pandas: ``>=1.2.3``
-   :depends parmap: ``>=1.5.2``
-   :depends pysam: ``>=0.16``
+   :depends mappy: ``2.24``
+   :depends pandas: ``>=1.3``
+   :depends parmap: ``1.5.*``
+   :depends pysam: ``0.19.*``
    :depends python: ``>=3.8``
    :depends regex: ``>=2021.11.10``
-   :depends tqdm: ``>=4.59.0``
+   :depends rich: ``12.5.*``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +72,7 @@ ampligone
 
     <script>
         var package = "ampligone";
-        var versions = ["1.0.3","1.0.1"];
+        var versions = ["1.1.0","1.0.3","1.0.1"];
     </script>
 
 

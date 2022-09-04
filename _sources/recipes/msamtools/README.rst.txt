@@ -27,15 +27,15 @@ msamtools
       
       
 
-      ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends argtable2: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ msamtools
 
     <script>
         var package = "msamtools";
-        var versions = ["1.1.0","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.1.0","1.1.0","1.0.3","1.0.3","1.0.2"];
     </script>
 
 

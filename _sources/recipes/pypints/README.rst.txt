@@ -29,11 +29,12 @@ pypints
       
       
 
-      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.0-0``
+      ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.0-0``
 
       
 
    
+   :depends bedtools: 
    :depends biopython: 
    :depends matplotlib-base: 
    :depends numpy: 
@@ -43,8 +44,10 @@ pypints
    :depends pysam: 
    :depends python: 
    :depends requests: 
+   :depends samtools: 
    :depends scipy: 
    :depends statsmodels: 
+   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +79,7 @@ pypints
 
     <script>
         var package = "pypints";
-        var versions = ["1.1.4","1.1.3","1.1.0"];
+        var versions = ["1.1.6","1.1.6","1.1.4","1.1.3","1.1.0"];
     </script>
 
 

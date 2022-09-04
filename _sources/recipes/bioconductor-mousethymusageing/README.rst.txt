@@ -27,7 +27,7 @@ bioconductor-mousethymusageing
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,7 +37,7 @@ bioconductor-mousethymusageing
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -70,7 +70,7 @@ bioconductor-mousethymusageing
 
     <script>
         var package = "bioconductor-mousethymusageing";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.0.0"];
     </script>
 
 

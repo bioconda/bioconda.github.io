@@ -44,11 +44,11 @@ cdna_cupcake
    :depends biopython: 
    :depends bx-python: ``>=0.7.3``
    :depends graphviz: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends numpy: ``>=1.17.5,<2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pysam: 
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: 
    :depends samtools: ``>=1.10``
    :depends scikit-learn: 

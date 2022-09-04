@@ -28,10 +28,10 @@ bioconductor-lumihumanall.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-11</code>,  <code>1.22.0-10</code>,  <code>1.22.0-9</code>,  <code>1.22.0-8</code>,  <code>1.22.0-7</code>,  <code>1.22.0-6</code>,  <code>1.22.0-5</code>,  <code>1.22.0-3</code>,  <code>1.22.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-12</code>,  <code>1.22.0-11</code>,  <code>1.22.0-10</code>,  <code>1.22.0-9</code>,  <code>1.22.0-8</code>,  <code>1.22.0-7</code>,  <code>1.22.0-6</code>,  <code>1.22.0-5</code>,  <code>1.22.0-3</code>,  </span></summary>
       
 
-      ``1.22.0-11``,  ``1.22.0-10``,  ``1.22.0-9``,  ``1.22.0-8``,  ``1.22.0-7``,  ``1.22.0-6``,  ``1.22.0-5``,  ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-0``
+      ``1.22.0-12``,  ``1.22.0-11``,  ``1.22.0-10``,  ``1.22.0-9``,  ``1.22.0-8``,  ``1.22.0-7``,  ``1.22.0-6``,  ``1.22.0-5``,  ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ bioconductor-lumihumanall.db
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

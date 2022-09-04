@@ -28,10 +28,10 @@ bioconductor-illuminahumanmethylation450kmanifest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-12</code>,  <code>0.4.0-11</code>,  <code>0.4.0-10</code>,  <code>0.4.0-9</code>,  <code>0.4.0-8</code>,  <code>0.4.0-7</code>,  <code>0.4.0-6</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-13</code>,  <code>0.4.0-12</code>,  <code>0.4.0-11</code>,  <code>0.4.0-10</code>,  <code>0.4.0-9</code>,  <code>0.4.0-8</code>,  <code>0.4.0-7</code>,  <code>0.4.0-6</code>,  <code>0.4.0-4</code>,  </span></summary>
       
 
-      ``0.4.0-12``,  ``0.4.0-11``,  ``0.4.0-10``,  ``0.4.0-9``,  ``0.4.0-8``,  ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
+      ``0.4.0-13``,  ``0.4.0-12``,  ``0.4.0-11``,  ``0.4.0-10``,  ``0.4.0-9``,  ``0.4.0-8``,  ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-illuminahumanmethylation450kmanifest
 
    
    :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
-   :depends curl: ``>=7.80.0,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

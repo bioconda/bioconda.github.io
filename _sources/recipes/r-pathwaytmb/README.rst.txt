@@ -27,7 +27,7 @@ r-pathwaytmb
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -76,7 +76,7 @@ r-pathwaytmb
 
     <script>
         var package = "r-pathwaytmb";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.3","0.1.2"];
     </script>
 
 

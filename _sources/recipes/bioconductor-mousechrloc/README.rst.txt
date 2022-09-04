@@ -26,13 +26,21 @@ bioconductor-mousechrloc
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.6-8``,  ``2.1.6-7``,  ``2.1.6-6``,  ``2.1.6-5``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.6-9</code>,  <code>2.1.6-8</code>,  <code>2.1.6-7</code>,  <code>2.1.6-6</code>,  <code>2.1.6-5</code>,  <code>2.1.6-4</code>,  <code>2.1.6-3</code>,  <code>2.1.6-2</code>,  <code>2.1.6-1</code>,  </span></summary>
+      
 
+      ``2.1.6-9``,  ``2.1.6-8``,  ``2.1.6-7``,  ``2.1.6-6``,  ``2.1.6-5``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

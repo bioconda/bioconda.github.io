@@ -27,13 +27,13 @@ bioconductor-tabulamurisdata
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-tabulamurisdata
 
     <script>
         var package = "bioconductor-tabulamurisdata";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.12.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

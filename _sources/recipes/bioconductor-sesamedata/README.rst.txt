@@ -26,15 +26,23 @@ bioconductor-sesamedata
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-curl: 
    :depends r-rmarkdown: 
@@ -69,7 +77,7 @@ bioconductor-sesamedata
 
     <script>
         var package = "bioconductor-sesamedata";
-        var versions = ["1.12.0","1.10.0","1.8.1","1.8.0","1.6.0"];
+        var versions = ["1.12.0","1.12.0","1.10.0","1.8.1","1.8.0"];
     </script>
 
 

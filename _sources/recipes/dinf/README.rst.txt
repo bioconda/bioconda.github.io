@@ -27,7 +27,7 @@ dinf
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -45,6 +45,8 @@ dinf
    :depends numpy: 
    :depends optax: 
    :depends python: ``>=3.8``
+   :depends rich: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +78,7 @@ dinf
 
     <script>
         var package = "dinf";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

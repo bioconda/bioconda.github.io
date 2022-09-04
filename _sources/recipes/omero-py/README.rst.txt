@@ -28,10 +28,10 @@ omero-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.11.1-0</code>,  <code>5.11.0-0</code>,  <code>5.10.3-0</code>,  <code>5.10.2-0</code>,  <code>5.10.1-0</code>,  <code>5.9.1-0</code>,  <code>5.9.0-0</code>,  <code>5.8.3-0</code>,  <code>5.8.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.11.1-1</code>,  <code>5.11.1-0</code>,  <code>5.11.0-0</code>,  <code>5.10.3-0</code>,  <code>5.10.2-0</code>,  <code>5.10.1-0</code>,  <code>5.9.1-0</code>,  <code>5.9.0-0</code>,  <code>5.8.3-0</code>,  </span></summary>
       
 
-      ``5.11.1-0``,  ``5.11.0-0``,  ``5.10.3-0``,  ``5.10.2-0``,  ``5.10.1-0``,  ``5.9.1-0``,  ``5.9.0-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``5.8.1-0``,  ``5.8.0-0``,  ``5.7.1-0``
+      ``5.11.1-1``,  ``5.11.1-0``,  ``5.11.0-0``,  ``5.10.3-0``,  ``5.10.2-0``,  ``5.10.1-0``,  ``5.9.1-0``,  ``5.9.0-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``5.8.1-0``,  ``5.8.0-0``,  ``5.7.1-0``
 
       
       .. raw:: html
@@ -44,11 +44,10 @@ omero-py
    :depends future: 
    :depends numpy: 
    :depends pillow: 
-   :depends python: ``>=3.6``
-   :depends pywin32-on-windows: 
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends requests: 
-   :depends zeroc-ice: ``>=3.6.5,<3.7``
+   :depends zeroc-ice: ``>=3.6.4,<3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +79,7 @@ omero-py
 
     <script>
         var package = "omero-py";
-        var versions = ["5.11.1","5.11.0","5.10.3","5.10.2","5.10.1"];
+        var versions = ["5.11.1","5.11.1","5.11.0","5.10.3","5.10.2"];
     </script>
 
 

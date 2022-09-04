@@ -26,13 +26,21 @@ perl-sereal-decoder
    :versions:
       
       
+      .. raw:: html
 
-      ``4.023-1``,  ``4.023-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+         <details><summary><span class="truncated-version-list"><code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.023-1</code>,  <code>4.023-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  <code>4.007-0</code>,  <code>4.005-0</code>,  </span></summary>
+      
 
+      ``4.025-1``,  ``4.025-0``,  ``4.023-1``,  ``4.023-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +73,7 @@ perl-sereal-decoder
 
     <script>
         var package = "perl-sereal-decoder";
-        var versions = ["4.023","4.023","4.020","4.019","4.007"];
+        var versions = ["4.025","4.025","4.023","4.023","4.020"];
     </script>
 
 

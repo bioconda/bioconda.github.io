@@ -10,11 +10,12 @@ vafator
    :replaces_section_title:
    :noindex:
 
-   Annotate a VCF file with AF\, AD and DP from tumor and normal BAMs
+   VAFator annotates the variants in a VCF file with technical annotations extracted from one or more BAM alignment files. We implement a set of basic coverage annotations and also more sophisticated published annotations used to assess the quality of every variant call.
 
    :homepage: https://github.com/tron-bioinformatics/vafator
    :license: MIT / MIT
    :recipe: /`vafator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vafator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vafator/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.6976425`
 
    
 
@@ -28,10 +29,10 @@ vafator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.1.4-0</code>,  <code>1.1.2-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  </span></summary>
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -40,12 +41,13 @@ vafator
       
 
    
-   :depends cyvcf2: ``0.30.11``
-   :depends logzero: ``1.7.0``
-   :depends pandas: ``1.3.3``
-   :depends pybedtools: ``0.8.2``
-   :depends pysam: ``0.17.0``
-   :depends python: ``3.7.*``
+   :depends cyvcf2: ``~=0.30.14``
+   :depends logzero: ``~=1.7.0``
+   :depends pandas: ``~=1.3.3``
+   :depends pybedtools: ``~=0.9.0``
+   :depends pysam: ``~=0.19.1``
+   :depends python: ``>=3.7,<=3.9``
+   :depends scipy: ``~=1.8.1``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +79,7 @@ vafator
 
     <script>
         var package = "vafator";
-        var versions = ["1.3.2","1.3.1","1.3.0","1.2.6","1.2.5"];
+        var versions = ["2.0.3","2.0.2","2.0.1","1.3.2","1.3.1"];
     </script>
 
 

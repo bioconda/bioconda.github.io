@@ -27,7 +27,7 @@ bioconductor-msigdb
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-msigdb
    :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -71,7 +71,7 @@ bioconductor-msigdb
 
     <script>
         var package = "bioconductor-msigdb";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.0.0"];
     </script>
 
 

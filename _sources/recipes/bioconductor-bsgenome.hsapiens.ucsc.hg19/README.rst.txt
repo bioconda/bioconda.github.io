@@ -28,10 +28,10 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.3-4</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.0-8</code>,  <code>1.4.0-7</code>,  <code>1.4.0-5</code>,  <code>1.4.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.3-5</code>,  <code>1.4.3-4</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.0-8</code>,  <code>1.4.0-7</code>,  <code>1.4.0-5</code>,  </span></summary>
       
 
-      ``1.4.3-4``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.0-8``,  ``1.4.0-7``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.4.3-5``,  ``1.4.3-4``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.0-8``,  ``1.4.0-7``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19
 
    
    :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

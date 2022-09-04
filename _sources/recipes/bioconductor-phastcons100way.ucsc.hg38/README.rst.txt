@@ -27,7 +27,7 @@ bioconductor-phastcons100way.ucsc.hg38
       
       
 
-      ``3.7.1-8``,  ``3.7.1-7``,  ``3.7.1-6``,  ``3.7.1-5``,  ``3.7.1-4``,  ``3.7.1-3``,  ``3.7.1-2``,  ``3.7.1-0``
+      ``3.7.1-9``,  ``3.7.1-8``,  ``3.7.1-7``,  ``3.7.1-6``,  ``3.7.1-5``,  ``3.7.1-4``,  ``3.7.1-3``,  ``3.7.1-2``,  ``3.7.1-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-phastcons100way.ucsc.hg38
    :depends bioconductor-genomicscores: ``>=2.6.0,<2.7.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

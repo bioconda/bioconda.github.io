@@ -27,14 +27,14 @@ bioconductor-ahensdbs
       
       
 
-      ``1.1.2-0``,  ``1.0.18-1``,  ``1.0.18-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.12-0``,  ``1.0.9-1``,  ``1.0.8-0``
+      ``1.1.4-1``,  ``1.1.2-0``,  ``1.0.18-1``,  ``1.0.18-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.12-0``,  ``1.0.9-1``,  ``1.0.8-0``
 
       
 
    
    :depends bioconductor-annotationhubdata: ``>=1.24.0,<1.25.0``
    :depends bioconductor-ensembldb: ``>=2.18.0,<2.19.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-ahensdbs
 
     <script>
         var package = "bioconductor-ahensdbs";
-        var versions = ["1.1.2","1.0.18","1.0.18","1.0.15","1.0.14"];
+        var versions = ["1.1.4","1.1.2","1.0.18","1.0.18","1.0.15"];
     </script>
 
 

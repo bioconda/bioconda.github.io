@@ -28,19 +28,20 @@ transrate
       
       
 
-      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
-   :depends blast: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends blast: ``2.2.31.*``
+   :depends boost: ``1.60.*``
+   :depends libgcc-ng: ``>=12``
    :depends rb-bundler: 
    :depends ruby: ``>=2``
    :depends ruby: ``>=2.5.7,<2.6.0a0``
-   :depends salmon: ``0.6.*``
-   :depends snap-aligner: 
-   :depends transrate-tools: 
+   :depends salmon: ``0.6.0.*``
+   :depends snap-aligner: ``1.0dev.96.*``
+   :depends transrate-tools: ``1.0.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +73,7 @@ transrate
 
     <script>
         var package = "transrate";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

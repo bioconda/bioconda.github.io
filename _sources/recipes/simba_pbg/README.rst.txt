@@ -34,10 +34,10 @@ simba_pbg
    
    :depends attrs: ``>=18.2``
    :depends h5py: ``>=2.8``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends numpy: ``>=1.12``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pytorch: ``>=1.7.1``
    :depends tqdm: 
    :requirements:

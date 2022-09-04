@@ -27,7 +27,7 @@ capcruncher
       
       
 
-      ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
 
       
 
@@ -93,7 +93,7 @@ capcruncher
 
     <script>
         var package = "capcruncher";
-        var versions = ["0.2.2","0.1.1a1","0.1.0a2"];
+        var versions = ["0.2.3","0.2.2","0.1.1a1","0.1.0a2"];
     </script>
 
 

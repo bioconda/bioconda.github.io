@@ -27,14 +27,14 @@ bioconductor-obmiti
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-obmiti
 
     <script>
         var package = "bioconductor-obmiti";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.0.0"];
     </script>
 
 

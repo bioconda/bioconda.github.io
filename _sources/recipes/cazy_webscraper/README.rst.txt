@@ -10,7 +10,7 @@ cazy_webscraper
    :replaces_section_title:
    :noindex:
 
-   The cazy\_webscraper automates retrieval of protein data from the CAZy database.
+   cazy\_webscraper automates retrieving of protein\, annotation\, sequence\, structure\, genomic and taxonomic data from the CAZy\, NCBI\, UniProt\, RCSB PDB and GTDB databases.
 
    :homepage: https://hobnobmancer.github.io/cazy_webscraper/
    :license: MIT / MIT
@@ -27,7 +27,7 @@ cazy_webscraper
       
       
 
-      ``1.0.2-0``
+      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
 
       
 
@@ -42,7 +42,8 @@ cazy_webscraper
    :depends python: ``>=3.8``
    :depends pyyaml: 
    :depends requests: 
-   :depends sqlalchemy: ``1.3.20``
+   :depends saintbioutils: ``>=0.0.23``
+   :depends sqlalchemy: ``>=1.4.20``
    :depends tqdm: 
    :requirements:
 
@@ -75,7 +76,7 @@ cazy_webscraper
 
     <script>
         var package = "cazy_webscraper";
-        var versions = ["1.0.2"];
+        var versions = ["2.2.1","2.2.0","2.1.3.1","1.0.2"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-flowsorted.blood.epic
       
       
 
-      ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-flowsorted.blood.epic
    :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-nlme: 
    :depends r-quadprog: 
@@ -73,7 +73,7 @@ bioconductor-flowsorted.blood.epic
 
     <script>
         var package = "bioconductor-flowsorted.blood.epic";
-        var versions = ["1.12.1","1.10.0","1.8.0","1.8.0","1.6.1"];
+        var versions = ["1.12.1","1.12.1","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

@@ -28,12 +28,13 @@ foldseek
       
       
 
-      ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
+      ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
@@ -73,7 +74,7 @@ foldseek
 
     <script>
         var package = "foldseek";
-        var versions = ["2.8bd520","1.3c64211","1.3c64211"];
+        var versions = ["3.915ef7d","3.915ef7d","2.8bd520","2.8bd520","1.3c64211"];
     </script>
 
 

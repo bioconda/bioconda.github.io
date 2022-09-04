@@ -29,12 +29,13 @@ pharokka
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``
+      ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
    
    :depends aragorn: ``>=1.2.41``
+   :depends bcbio-gff: 
    :depends biopython: ``>1.78``
    :depends emboss: ``>=6.6.0``
    :depends hhsuite: ``>=3.3.0``
@@ -74,7 +75,7 @@ pharokka
 
     <script>
         var package = "pharokka";
-        var versions = ["0.1.7","0.1.6"];
+        var versions = ["0.1.10","0.1.9","0.1.8","0.1.7","0.1.6"];
     </script>
 
 

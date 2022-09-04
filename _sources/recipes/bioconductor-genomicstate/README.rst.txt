@@ -27,7 +27,7 @@ bioconductor-genomicstate
       
       
 
-      ``0.99.15-0``,  ``0.99.9-3``,  ``0.99.9-2``,  ``0.99.9-1``,  ``0.99.9-0``
+      ``0.99.15-1``,  ``0.99.15-0``,  ``0.99.9-3``,  ``0.99.9-2``,  ``0.99.9-1``,  ``0.99.9-0``
 
       
 
@@ -41,7 +41,7 @@ bioconductor-genomicstate
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-genomicstate
 
     <script>
         var package = "bioconductor-genomicstate";
-        var versions = ["0.99.15","0.99.9","0.99.9","0.99.9","0.99.9"];
+        var versions = ["0.99.15","0.99.15","0.99.9","0.99.9","0.99.9"];
     </script>
 
 

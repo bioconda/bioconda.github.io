@@ -44,27 +44,27 @@ mikado
    :depends datrie: ``>=0.8``
    :depends drmaa: 
    :depends hypothesis: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends marshmallow: ``>=3.1.0``
    :depends marshmallow-dataclass: ``>=8.3.1``
    :depends msgpack-python: ``>=1.0.0``
    :depends networkx: ``>=2.3``
-   :depends numpy: ``>=1.17.5,<2.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: ``>=1.0``
    :depends pyfaidx: ``>=0.5.8``
    :depends pysam: ``>=0.15.3``
    :depends pytest: 
-   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-rapidjson: ``>=1.0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=5.1.2``
-   :depends scipy: ``>=1.7.0,<2.0a0``
+   :depends scipy: ``>=1.9.0,<2.0a0``
    :depends six: ``>=1.12.0``
    :depends snakemake-minimal: ``>=5.7.0``
    :depends sqlalchemy: ``>=1.4.0``
    :depends sqlalchemy-utils: ``>=0.34.1``
-   :depends sqlite: ``>=3.37.0,<4.0a0``
+   :depends sqlite: ``>=3.39.2,<4.0a0``
    :depends tabulate: ``>=0.8.5``
    :depends toml: ``>=0.10.0``
    :depends typeguard: ``>=2.9.1``
