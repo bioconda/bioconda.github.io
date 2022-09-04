@@ -27,7 +27,7 @@ bioconductor-gsvadata
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-gsvadata
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
    :depends bioconductor-hgu95a.db: ``>=3.13.0,<3.14.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-gsvadata
 
     <script>
         var package = "bioconductor-gsvadata";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.30.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

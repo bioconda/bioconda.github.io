@@ -1356,7 +1356,7 @@
 
 <span class="sd">            SUCCESS=0</span>
 <span class="sd">            for URL in ${URLS[@]}; do</span>
-<span class="sd">              curl $URL &gt; $TARBALL</span>
+<span class="sd">              curl -L $URL &gt; $TARBALL</span>
 <span class="sd">              [[ $? == 0 ]] || continue</span>
 
 <span class="sd">              # Platform-specific md5sum checks.</span>

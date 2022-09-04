@@ -13,7 +13,7 @@ r-grain
    Probability propagation in graphical independence networks\, also known as Bayesian networks or probabilistic expert systems.
 
    :homepage: http://people.math.aau.dk/~sorenh/software/gR/
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`r-grain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grain/meta.yaml>`_
 
    
@@ -26,18 +26,26 @@ r-grain
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.10-0``,  ``1.3.9-0``,  ``1.3_0-6``,  ``1.3_0-5``,  ``1.3_0-4``,  ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.11-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  <code>1.3_0-6</code>,  <code>1.3_0-5</code>,  <code>1.3_0-4</code>,  <code>1.3_0-3</code>,  <code>1.3_0-2</code>,  <code>1.3_0-1</code>,  </span></summary>
+      
 
+      ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3_0-6``,  ``1.3_0-5``,  ``1.3_0-4``,  ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-graph: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends bioconductor-rgraphviz: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-functional: 
-   :depends r-grbase: ``>=1.7_2``
+   :depends r-grbase: ``>=1.8.6.6``
    :depends r-igraph: 
    :depends r-magrittr: 
    :depends r-rcpp: ``>=0.11.1``
@@ -74,7 +82,7 @@ r-grain
 
     <script>
         var package = "r-grain";
-        var versions = ["1.3.10","1.3.9","1.3_0","1.3_0","1.3_0"];
+        var versions = ["1.3.11","1.3.10","1.3.9","1.3_0","1.3_0"];
     </script>
 
 
