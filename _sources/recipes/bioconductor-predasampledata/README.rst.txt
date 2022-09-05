@@ -27,7 +27,7 @@ bioconductor-predasampledata
       
       
 
-      ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
+      ``0.34.0-1``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-predasampledata
    :depends bioconductor-annotate: ``>=1.72.0,<1.73.0``
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-preda: ``>=1.40.0,<1.41.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -69,7 +69,7 @@ bioconductor-predasampledata
 
     <script>
         var package = "bioconductor-predasampledata";
-        var versions = ["0.34.0","0.32.0","0.30.0","0.30.0","0.28.0"];
+        var versions = ["0.34.0","0.34.0","0.32.0","0.30.0","0.30.0"];
     </script>
 
 

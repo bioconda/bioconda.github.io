@@ -26,14 +26,22 @@ bioconductor-dresscheck
    :versions:
       
       
+      .. raw:: html
 
-      ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.27.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  </span></summary>
+      
 
+      ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +74,7 @@ bioconductor-dresscheck
 
     <script>
         var package = "bioconductor-dresscheck";
-        var versions = ["0.32.0","0.30.0","0.28.0","0.28.0","0.27.0"];
+        var versions = ["0.32.0","0.32.0","0.30.0","0.28.0","0.28.0"];
     </script>
 
 

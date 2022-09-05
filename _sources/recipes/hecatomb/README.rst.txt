@@ -29,11 +29,12 @@ hecatomb
       
       
 
-      ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
+      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
 
       
 
    
+   :depends click: ``>=8.0.4``
    :depends jinja2: ``>=3.0.2``
    :depends mamba: ``>=0.19.0``
    :depends networkx: ``>=2.6.3``
@@ -73,7 +74,7 @@ hecatomb
 
     <script>
         var package = "hecatomb";
-        var versions = ["1.0.1","1.0.0.beta.5","1.0.0.beta.4","1.0.0.beta.3","1.0.0.beta.2"];
+        var versions = ["1.1.0","1.0.1","1.0.0.beta.5","1.0.0.beta.4","1.0.0.beta.3"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-curatedbreastdata
       
       
 
-      ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``
+      ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-curatedbreastdata
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
    :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-xml: 
@@ -70,7 +70,7 @@ bioconductor-curatedbreastdata
 
     <script>
         var package = "bioconductor-curatedbreastdata";
-        var versions = ["2.22.0","2.20.0","2.18.0","2.18.0","2.16.0"];
+        var versions = ["2.22.0","2.22.0","2.20.0","2.18.0","2.18.0"];
     </script>
 
 

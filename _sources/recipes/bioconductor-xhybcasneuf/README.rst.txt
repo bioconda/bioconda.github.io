@@ -27,7 +27,7 @@ bioconductor-xhybcasneuf
       
       
 
-      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-xhybcasneuf
    :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
    :depends bioconductor-ath1121501cdf: ``>=2.18.0,<2.19.0``
    :depends bioconductor-tinesath1cdf: ``>=1.32.0,<1.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcolorbrewer: 
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-xhybcasneuf
 
     <script>
         var package = "bioconductor-xhybcasneuf";
-        var versions = ["1.32.0","1.30.0","1.28.0","1.28.0","1.26.0"];
+        var versions = ["1.32.0","1.32.0","1.30.0","1.28.0","1.28.0"];
     </script>
 
 

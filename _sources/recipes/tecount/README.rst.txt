@@ -28,7 +28,7 @@ tecount
       
       
 
-      ``0.6.0-0``
+      ``0.6.1-0``,  ``0.6.0-0``
 
       
 
@@ -68,7 +68,7 @@ tecount
 
     <script>
         var package = "tecount";
-        var versions = ["0.6.0"];
+        var versions = ["0.6.1","0.6.0"];
     </script>
 
 

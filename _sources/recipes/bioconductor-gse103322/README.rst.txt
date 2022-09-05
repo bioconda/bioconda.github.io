@@ -27,14 +27,14 @@ bioconductor-gse103322
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-gse103322
 
     <script>
         var package = "bioconductor-gse103322";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 
