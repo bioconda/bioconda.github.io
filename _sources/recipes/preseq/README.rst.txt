@@ -10,10 +10,13 @@ preseq
    :replaces_section_title:
    :noindex:
 
-   Software for predicting library complexity and genome coverage in high\-throughput sequencing
+   predicting library complexity and genome coverage in high\-throughput sequencing
+
 
    :homepage: https://github.com/smithlabcode/preseq
-   :license: GNU GENERAL PUBLIC LICENSE
+   :documentation: https://preseq.readthedocs.io/
+   
+   :license: GPL-3.0-or-later
    :recipe: /`preseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/preseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/preseq/meta.yaml>`_
 
    
@@ -28,10 +31,10 @@ preseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.2-3</code>,  <code>3.1.2-2</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>2.0.3-5</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.2-3</code>,  <code>3.1.2-2</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>2.0.3-5</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  </span></summary>
       
 
-      ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``2.0.3-5``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``
+      ``3.2.0-0``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``2.0.3-5``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``
 
       
       .. raw:: html
@@ -40,13 +43,11 @@ preseq
       
 
    
-   :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends openblas: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +79,7 @@ preseq
 
     <script>
         var package = "preseq";
-        var versions = ["3.1.2","3.1.2","3.1.2","3.1.2","2.0.3"];
+        var versions = ["3.2.0","3.1.2","3.1.2","3.1.2","3.1.2"];
     </script>
 
 

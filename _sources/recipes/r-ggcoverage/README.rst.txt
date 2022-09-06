@@ -27,7 +27,7 @@ r-ggcoverage
       
       
 
-      ``0.7.0-0``
+      ``0.7.1-0``,  ``0.7.0-0``
 
       
 
@@ -85,7 +85,7 @@ r-ggcoverage
 
     <script>
         var package = "r-ggcoverage";
-        var versions = ["0.7.0"];
+        var versions = ["0.7.1","0.7.0"];
     </script>
 
 

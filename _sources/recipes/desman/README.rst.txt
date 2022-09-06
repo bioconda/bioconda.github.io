@@ -28,7 +28,7 @@ desman
       
       
 
-      ``2.1-6``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+      ``2.1-7``,  ``2.1-6``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
 
       
 
@@ -37,12 +37,11 @@ desman
    :depends biopython: 
    :depends cython: ``>=0.19.1``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends numpy: ``>=1.16.6,<2.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: ``>=0.11.0``
    :depends pysam: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-getopt: 
    :depends r-ggplot2: ``>=2.2.2``
    :depends r-labeling: 

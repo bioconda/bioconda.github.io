@@ -27,13 +27,13 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.major
       
       
 
-      ``0.0.9999-0``
+      ``0.0.9999-1``,  ``0.0.9999-0``
 
       
 
    
    :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.major
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.major";
-        var versions = ["0.0.9999"];
+        var versions = ["0.0.9999","0.0.9999"];
     </script>
 
 

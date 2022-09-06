@@ -28,10 +28,10 @@ bioconductor-snplocs.hsapiens.dbsnp144.grch38
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.20-12</code>,  <code>0.99.20-11</code>,  <code>0.99.20-10</code>,  <code>0.99.20-9</code>,  <code>0.99.20-8</code>,  <code>0.99.20-7</code>,  <code>0.99.20-6</code>,  <code>0.99.20-4</code>,  <code>0.99.20-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.20-13</code>,  <code>0.99.20-12</code>,  <code>0.99.20-11</code>,  <code>0.99.20-10</code>,  <code>0.99.20-9</code>,  <code>0.99.20-8</code>,  <code>0.99.20-7</code>,  <code>0.99.20-6</code>,  <code>0.99.20-4</code>,  </span></summary>
       
 
-      ``0.99.20-12``,  ``0.99.20-11``,  ``0.99.20-10``,  ``0.99.20-9``,  ``0.99.20-8``,  ``0.99.20-7``,  ``0.99.20-6``,  ``0.99.20-4``,  ``0.99.20-3``,  ``0.99.20-1``,  ``0.99.20-0``
+      ``0.99.20-13``,  ``0.99.20-12``,  ``0.99.20-11``,  ``0.99.20-10``,  ``0.99.20-9``,  ``0.99.20-8``,  ``0.99.20-7``,  ``0.99.20-6``,  ``0.99.20-4``,  ``0.99.20-3``,  ``0.99.20-1``,  ``0.99.20-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ bioconductor-snplocs.hsapiens.dbsnp144.grch38
    :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
