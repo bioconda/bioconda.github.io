@@ -46,8 +46,8 @@ gseapy
    :depends matplotlib-base: ``>=1.4.3``
    :depends numpy: ``>=1.13.0``
    :depends pandas: ``>=0.16``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends requests: 
    :depends scipy: 
    :requirements:

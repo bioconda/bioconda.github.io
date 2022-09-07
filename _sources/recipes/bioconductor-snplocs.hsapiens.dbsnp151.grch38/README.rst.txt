@@ -27,7 +27,7 @@ bioconductor-snplocs.hsapiens.dbsnp151.grch38
       
       
 
-      ``0.99.20-10``,  ``0.99.20-9``,  ``0.99.20-8``,  ``0.99.20-6``,  ``0.99.20-3``,  ``0.99.20-2``,  ``0.99.20-0``
+      ``0.99.20-11``,  ``0.99.20-10``,  ``0.99.20-9``,  ``0.99.20-8``,  ``0.99.20-6``,  ``0.99.20-3``,  ``0.99.20-2``,  ``0.99.20-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-snplocs.hsapiens.dbsnp151.grch38
    :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

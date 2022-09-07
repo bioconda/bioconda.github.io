@@ -59,8 +59,8 @@ poppunk
    :depends numpy: 
    :depends pandas: 
    :depends pp-sketchlib: ``>=1.7.0``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends rapidnj: 
    :depends requests: 
    :depends scikit-learn: ``>=0.24``

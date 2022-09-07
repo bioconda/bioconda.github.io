@@ -28,10 +28,10 @@ bioconductor-bsgenome.drerio.ucsc.danrer7
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-12</code>,  <code>1.4.0-11</code>,  <code>1.4.0-10</code>,  <code>1.4.0-9</code>,  <code>1.4.0-8</code>,  <code>1.4.0-7</code>,  <code>1.4.0-6</code>,  <code>1.4.0-3</code>,  <code>1.4.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-13</code>,  <code>1.4.0-12</code>,  <code>1.4.0-11</code>,  <code>1.4.0-10</code>,  <code>1.4.0-9</code>,  <code>1.4.0-8</code>,  <code>1.4.0-7</code>,  <code>1.4.0-6</code>,  <code>1.4.0-3</code>,  </span></summary>
       
 
-      ``1.4.0-12``,  ``1.4.0-11``,  ``1.4.0-10``,  ``1.4.0-9``,  ``1.4.0-8``,  ``1.4.0-7``,  ``1.4.0-6``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-0``
+      ``1.4.0-13``,  ``1.4.0-12``,  ``1.4.0-11``,  ``1.4.0-10``,  ``1.4.0-9``,  ``1.4.0-8``,  ``1.4.0-7``,  ``1.4.0-6``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-bsgenome.drerio.ucsc.danrer7
 
    
    :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

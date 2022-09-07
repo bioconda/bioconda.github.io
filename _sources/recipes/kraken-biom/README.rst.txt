@@ -15,6 +15,7 @@ kraken-biom
    :homepage: https://github.com/smdabdoub/kraken-biom
    :license: MIT / MIT License
    :recipe: /`kraken-biom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-biom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-biom/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`kraken_biom`
 
    
 
@@ -27,7 +28,7 @@ kraken-biom
       
       
 
-      ``1.0.1-2``,  ``1.0.1-0``
+      ``1.2.0-0``,  ``1.0.1-2``,  ``1.0.1-0``
 
       
 
@@ -65,7 +66,7 @@ kraken-biom
 
     <script>
         var package = "kraken-biom";
-        var versions = ["1.0.1","1.0.1"];
+        var versions = ["1.2.0","1.0.1","1.0.1"];
     </script>
 
 

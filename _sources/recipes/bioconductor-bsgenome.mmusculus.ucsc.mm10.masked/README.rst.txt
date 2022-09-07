@@ -27,14 +27,14 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
       
       
 
-      ``1.4.3-0``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+      ``1.4.3-1``,  ``1.4.3-0``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
 
       
 
    
    :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: ``>=1.4.0,<1.5.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
 
     <script>
         var package = "bioconductor-bsgenome.mmusculus.ucsc.mm10.masked";
-        var versions = ["1.4.3","1.3.99","1.3.99","1.3.99","1.3.99"];
+        var versions = ["1.4.3","1.4.3","1.3.99","1.3.99","1.3.99"];
     </script>
 
 
