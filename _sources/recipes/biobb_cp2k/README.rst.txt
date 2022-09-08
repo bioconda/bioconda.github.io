@@ -51,7 +51,7 @@ biobb_cp2k
       
       
 
-      ``3.8.0-0``
+      ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
 
@@ -90,7 +90,7 @@ biobb_cp2k
 
     <script>
         var package = "biobb_cp2k";
-        var versions = ["3.8.0"];
+        var versions = ["3.8.3","3.8.2","3.8.1","3.8.0"];
     </script>
 
 

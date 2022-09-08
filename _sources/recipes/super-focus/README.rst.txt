@@ -29,10 +29,10 @@ super-focus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.0-0</code>,  <code>0.35-0</code>,  <code>0.34-1</code>,  <code>0.34-0</code>,  <code>0.33-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.0-0</code>,  <code>0.35-0</code>,  <code>0.34-1</code>,  <code>0.34-0</code>,  </span></summary>
       
 
-      ``1.6-0``,  ``1.5-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.0-0``,  ``0.35-0``,  ``0.34-1``,  ``0.34-0``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.31-0``,  ``0.30-0``,  ``0.29-0``
+      ``1.6-1``,  ``1.6-0``,  ``1.5-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.0-0``,  ``0.35-0``,  ``0.34-1``,  ``0.34-0``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.31-0``,  ``0.30-0``,  ``0.29-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ super-focus
    :depends blast: 
    :depends diamond: 
    :depends kmer-jellyfish: 
+   :depends mmseqs2: 
    :depends numpy: ``>=1.12.1``
    :depends python: ``>=3``
    :depends rapsearch: 
@@ -81,7 +82,7 @@ super-focus
 
     <script>
         var package = "super-focus";
-        var versions = ["1.6","1.5","1.4.1","1.4","1.0"];
+        var versions = ["1.6","1.6","1.5","1.4.1","1.4"];
     </script>
 
 
