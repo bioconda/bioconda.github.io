@@ -41,11 +41,14 @@ bowtie
       
 
    
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends perl: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

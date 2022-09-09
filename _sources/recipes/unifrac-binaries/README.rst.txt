@@ -16,7 +16,7 @@ unifrac-binaries
    :license: BSD / BSD-3-Clause
    :recipe: /`unifrac-binaries <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unifrac-binaries>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unifrac-binaries/meta.yaml>`_
 
-   UniFrac is a commonly phylogenetic diversity distance metric used in 
+   UniFrac is a commonly phylogenetic diversity distance metric used in
    microbiome research. The metric relates two microbiome samples together
    within the context of an evolutionary history\, and produces a distance
    that corresponds to how similar two samples by the amount of overlapping

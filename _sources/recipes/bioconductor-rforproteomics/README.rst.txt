@@ -27,14 +27,14 @@ bioconductor-rforproteomics
       
       
 
-      ``1.31.1-0``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.27.1-0``,  ``1.26.0-0``,  ``1.23.1-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.32.0-1``,  ``1.31.1-0``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.27.1-0``,  ``1.26.0-0``,  ``1.23.1-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
    :depends bioconductor-biocviews: ``>=1.62.0,<1.63.0``
    :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-r.utils: 
@@ -69,7 +69,7 @@ bioconductor-rforproteomics
 
     <script>
         var package = "bioconductor-rforproteomics";
-        var versions = ["1.31.1","1.30.0","1.28.1","1.27.1","1.26.0"];
+        var versions = ["1.32.0","1.31.1","1.30.0","1.28.1","1.27.1"];
     </script>
 
 

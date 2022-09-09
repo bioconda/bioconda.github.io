@@ -29,10 +29,10 @@ augustus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-6</code>,  <code>3.4.0-5</code>,  <code>3.4.0-4</code>,  <code>3.4.0-3</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.3-9</code>,  <code>3.3.3-8</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-7</code>,  <code>3.4.0-6</code>,  <code>3.4.0-5</code>,  <code>3.4.0-4</code>,  <code>3.4.0-3</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.3-9</code>,  </span></summary>
       
 
-      ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-9``,  ``3.3.3-8``,  ``3.3.3-7``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
+      ``3.4.0-7``,  ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-9``,  ``3.3.3-8``,  ``3.3.3-7``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -50,9 +50,10 @@ augustus
    :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libsqlite: ``>=3.39.3,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends lp_solve: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
@@ -62,12 +63,12 @@ augustus
    :depends perl-parallel-forkmanager: 
    :depends perl-scalar-list-utils: 
    :depends perl-yaml: 
-   :depends sqlite: ``>=3.38.5,<4.0a0``
+   :depends sqlite: ``>=3.39.3,<4.0a0``
    :depends suitesparse: ``>=5.10.1,<6.0a0``
    :depends tar: 
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobitinfo: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

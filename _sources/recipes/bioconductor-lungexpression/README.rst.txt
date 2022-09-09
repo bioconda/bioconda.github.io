@@ -27,13 +27,13 @@ bioconductor-lungexpression
       
       
 
-      ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.32.1-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
 
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.83.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-lungexpression
 
     <script>
         var package = "bioconductor-lungexpression";
-        var versions = ["0.32.0","0.30.0","0.28.0","0.28.0","0.26.0"];
+        var versions = ["0.32.1","0.32.0","0.30.0","0.28.0","0.28.0"];
     </script>
 
 

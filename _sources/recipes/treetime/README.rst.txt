@@ -13,6 +13,8 @@ treetime
    Maximum\-Likelihood dating and ancestral inference for phylogenetic trees
 
    :homepage: https://github.com/neherlab/treetime
+   :documentation: https://treetime.readthedocs.io/en/latest/index.html
+   
    :license: MIT / MIT
    :recipe: /`treetime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treetime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treetime/meta.yaml>`_
 
@@ -28,10 +30,10 @@ treetime
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  </span></summary>
       
 
-      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.4.1-0``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``
+      ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.4.1-0``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``
 
       
       .. raw:: html
@@ -40,11 +42,11 @@ treetime
       
 
    
-   :depends biopython: ``>=1.66``
-   :depends matplotlib-base: 
+   :depends biopython: ``>=1.67,!=1.77,!=1.78``
+   :depends matplotlib-base: ``>=2.0``
    :depends numpy: ``>=1.10.4``
    :depends pandas: ``>=0.17.1``
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends scipy: ``>=0.16.1``
    :requirements:
 
@@ -77,7 +79,7 @@ treetime
 
     <script>
         var package = "treetime";
-        var versions = ["0.9.2","0.9.1","0.9.0","0.8.6","0.8.5"];
+        var versions = ["0.9.3","0.9.2","0.9.1","0.9.0","0.8.6"];
     </script>
 
 
