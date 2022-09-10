@@ -28,10 +28,10 @@ python-bioext
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20.4-1</code>,  <code>0.20.4-0</code>,  <code>0.20.2-0</code>,  <code>0.20.1-1</code>,  <code>0.20.1-0</code>,  <code>0.19.7-1</code>,  <code>0.19.7-0</code>,  <code>0.18.6-2</code>,  <code>0.18.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.20.4-2</code>,  <code>0.20.4-1</code>,  <code>0.20.4-0</code>,  <code>0.20.2-0</code>,  <code>0.20.1-1</code>,  <code>0.20.1-0</code>,  <code>0.19.7-1</code>,  <code>0.19.7-0</code>,  <code>0.18.6-2</code>,  </span></summary>
       
 
-      ``0.20.4-1``,  ``0.20.4-0``,  ``0.20.2-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
+      ``0.20.4-2``,  ``0.20.4-1``,  ``0.20.4-0``,  ``0.20.2-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ python-bioext
 
    
    :depends biopython: ``>=1.58``
-   :depends freetype: ``>=2.10.4,<3.0a0``
+   :depends freetype: ``>=2.12.1,<3.0a0``
    :depends joblib: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends numpy: ``>=1.14``
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
@@ -82,7 +82,7 @@ python-bioext
 
     <script>
         var package = "python-bioext";
-        var versions = ["0.20.4","0.20.4","0.20.2","0.20.1","0.20.1"];
+        var versions = ["0.20.4","0.20.4","0.20.4","0.20.2","0.20.1"];
     </script>
 
 

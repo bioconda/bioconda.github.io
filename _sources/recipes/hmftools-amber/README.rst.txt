@@ -26,14 +26,23 @@ hmftools-amber
    :versions:
       
       
+      .. raw:: html
 
-      ``3.9-0``,  ``3.5-1``,  ``3.5-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2-0``,  ``2.5-0``,  ``2.3-0``,  ``2.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.9-1</code>,  <code>3.9-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-0</code>,  <code>3.3-0</code>,  <code>3.2-0</code>,  <code>2.5-0</code>,  <code>2.3-0</code>,  </span></summary>
+      
 
+      ``3.9-1``,  ``3.9-0``,  ``3.5-1``,  ``3.5-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2-0``,  ``2.5-0``,  ``2.3-0``,  ``2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-copynumber: 
    :depends openjdk: ``>=8``
+   :depends r-dplyr: 
    :depends zlib: 
    :requirements:
 
@@ -66,7 +75,7 @@ hmftools-amber
 
     <script>
         var package = "hmftools-amber";
-        var versions = ["3.9","3.5","3.5","3.4","3.3"];
+        var versions = ["3.9","3.9","3.5","3.5","3.4"];
     </script>
 
 

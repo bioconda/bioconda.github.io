@@ -28,10 +28,10 @@ scelvis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.7-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.9-0</code>,  <code>0.8.7-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  </span></summary>
       
 
-      ``0.8.7-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.8.9-0``,  ``0.8.7-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ scelvis
    
    :depends anndata: ``>=0.7.6``
    :depends attrs: ``>=21.2``
+   :depends click: ``<8.0``
    :depends dash: 
    :depends dash-bootstrap-components: 
    :depends dash-core-components: ``>1.0,<2.0``
@@ -54,11 +55,11 @@ scelvis
    :depends fs.sshfs: ``>=1.0.0``
    :depends htmllistparse: ``>=0.5``
    :depends logzero: ``>=1.7.0``
-   :depends numpy: ``>=1.21.4``
+   :depends numpy: ``<1.21``
    :depends pandas: ``>=1.3.4``
    :depends plotly: ``>=5.3.1``
    :depends python: ``>=3.6``
-   :depends python-irodsclient: ``>=0.8.2``
+   :depends python-irodsclient: ``>=1.1.0``
    :depends requests: ``>=2.26.0``
    :depends ruamel.yaml: ``>=0.17.17``
    :depends s3fs: ``>=2021.11.0``
@@ -94,7 +95,7 @@ scelvis
 
     <script>
         var package = "scelvis";
-        var versions = ["0.8.7","0.8.4","0.8.3","0.8.2","0.8.2"];
+        var versions = ["0.8.9","0.8.7","0.8.4","0.8.3","0.8.2"];
     </script>
 
 
