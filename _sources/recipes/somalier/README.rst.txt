@@ -28,11 +28,13 @@ somalier
       
       
 
-      
+      ``0.2.15-0``
 
       
 
    
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +66,7 @@ somalier
 
     <script>
         var package = "somalier";
-        var versions = [];
+        var versions = ["0.2.15"];
     </script>
 
 

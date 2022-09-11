@@ -28,26 +28,26 @@ flair
       
       
 
-      ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+      ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
 
       
 
    
    :depends bedtools: 
+   :depends bioconductor-apeglm: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-drimseq: 
    :depends bioconductor-stager: 
-   :depends intervaltree: 
-   :depends kerneltree: 
+   :depends mappy: ``2.24``
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends ncls: 
-   :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: ``>=0.16.0``
+   :depends pysam: 
    :depends python: ``>=3.6``
    :depends r-ggplot2: 
+   :depends r-lazyeval: 
    :depends r-qqman: 
    :depends rpy2: 
    :depends samtools: 
@@ -84,7 +84,7 @@ flair
 
     <script>
         var package = "flair";
-        var versions = ["1.5","1.5","1.4"];
+        var versions = ["1.6.3","1.5","1.5","1.4"];
     </script>
 
 
