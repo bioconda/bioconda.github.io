@@ -46,9 +46,10 @@ python-bioext
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends numpy: ``>=1.14``
+   :depends numpy: ``>=1.23.2,<2.0a0``
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :depends six: 
    :requirements:
