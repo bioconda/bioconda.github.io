@@ -22,7 +22,7 @@
     <script src="../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="bioconda_utils" href="_autosummary/bioconda_utils.html" />
+    <link rel="next" title="The bulk branch" href="bulk.html" />
     <link rel="prev" title="Conda build v3" href="../contributor/cb3.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
@@ -78,6 +78,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Developer Docs</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#updating-bioconda-utils">Updating <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bulk-branch">Bulk branch</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="bulk.html">The <code class="xref any docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#api-docs">API docs</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.html">bioconda_utils</a></li>
 </ul>
@@ -124,6 +128,22 @@ working on Azure DevOps and building packages.</p>
 <p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> is currently using <a class="reference external" href="https://github.com/googleapis/release-please">Release Please</a> to manage updates, changelogs,
 and versioning. This works in a specific way, so the steps below walk through
 the process if you’re not already familiar.</p>
+<p>Prefix the PR title, as well as at least one commit in the PR, with one of the
+following change types. Some special types will change the bioconda-utils
+version number, as noted below.</p>
+<ul class="simple">
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">&lt;type&gt;!</span></code> (that is, any of the types below ending an exclamation point) indicates
+a breaking change. <em>PRs with this title will result in a new</em> <strong>MAJOR VERSION</strong></p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">feat:</span></code> a new feature. <em>PRs with this title will result in a new</em> <strong>MINOR VERSION</strong></p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">fix:</span></code> fixes a bug. <em>PRs with this title will result in a new</em> <strong>PATCH VERSION</strong></p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">test:</span></code> changes related to tests</p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">chore:</span></code> for maintenance changes. E.g. dependency version changes (should use
+a <code class="xref any docutils literal notranslate"></code> to indicate breaking change in this case)</p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">ci:</span></code> for changes related to CI <em>of bioconda-utils</em></p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">docs:</span></code> a change that only affects documentation (ReST, comments, docstrings)</p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">refactor:</span></code> a change in code that neither fixes a bug nor adds a feature</p></li>
+<li><p><code class="xref any docutils literal notranslate"><span class="pre">style:</span></code> whitespace, formatting, etc</p></li>
+</ul>
 <p>The general workflow is:</p>
 <ol class="arabic simple">
 <li><p>Open a pull request to <a class="reference external" href="https://github.com/bioconda/bioconda-utils">bioconda-utils repo</a>,
@@ -214,6 +234,19 @@ step (it should say cache miss on the first time it runs) and then check
 “Install bioconda-utils” step to ensure it installed the version you
 expect.</p>
 </div></details></section>
+<section id="bulk-branch">
+<h2>Bulk branch<a class="headerlink" href="#bulk-branch" title="Permalink to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bulk.html">The <code class="xref any docutils literal notranslate"><span class="pre">bulk</span></code> branch</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bulk.html#updating-pinnings">Updating pinnings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bulk.html#merging-back-to-master">Merging back to master</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bulk.html#notes-on-working-with-bulk-branch">Notes on working with bulk branch</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
 <section id="api-docs">
 <h2>API docs<a class="headerlink" href="#api-docs" title="Permalink to this heading">¶</a></h2>
 <p>This section contains the <code class="docutils literal notranslate"><span class="pre">docstring</span></code> generated API documentation

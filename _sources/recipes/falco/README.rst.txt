@@ -10,10 +10,12 @@ falco
    :replaces_section_title:
    :noindex:
 
-   falco is a C\+\+ implementation of FastQC to assess the quality of sequence reads.
+   falco is a drop\-in C\+\+ implementation of FastQC to assess the quality of sequence reads.
 
 
    :homepage: https://github.com/smithlabcode/falco
+   :documentation: https://falco.readthedocs.io/
+   
    :license: GPL-3.0-only
    :recipe: /`falco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco/meta.yaml>`_
 
