@@ -12,7 +12,7 @@ scexecute
 
    SCExecute generates cell\-barcode specific BAM files from aligned\, aggregate single\-cell sequencing data\, executing a user\-provided command on each barcode\-stratified BAM file.
 
-   :homepage: https://github.com/HorvathLab/NGS/tree/master/SCExecute#readme
+   :homepage: https://horvathlab.github.io/NGS/SCExecute
    :license: MIT
    :recipe: /`scexecute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scexecute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scexecute/meta.yaml>`_
 
@@ -27,11 +27,12 @@ scexecute
       
       
 
-      ``1.3.1-0``
+      ``1.3.2-0``,  ``1.3.1-0``
 
       
 
    
+   :depends psutil: 
    :depends pysam: 
    :depends python: ``>=3.7``
    :depends samtools: 
@@ -67,7 +68,7 @@ scexecute
 
     <script>
         var package = "scexecute";
-        var versions = ["1.3.1"];
+        var versions = ["1.3.2","1.3.1"];
     </script>
 
 
