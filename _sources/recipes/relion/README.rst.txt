@@ -27,11 +27,16 @@ relion
       
       
 
-      
+      ``3.1.3-0``
 
       
 
    
+   :depends fftw: ``>=3.3.10,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libtiff: ``>=4.4.0,<5.0a0``
+   :depends openmpi: ``>=4.1.4,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +68,7 @@ relion
 
     <script>
         var package = "relion";
-        var versions = [];
+        var versions = ["3.1.3"];
     </script>
 
 

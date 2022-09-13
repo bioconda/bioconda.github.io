@@ -27,11 +27,32 @@ phylofisher
       
       
 
-      
+      ``1.1.2-0``
 
       
 
    
+   :depends astral-tree: ``5.7.8.*``
+   :depends binutils: ``1.0.1.*``
+   :depends biopython: ``1.78.*``
+   :depends blast: ``2.9.0.*``
+   :depends bmge: ``1.12.*``
+   :depends cd-hit: ``4.8.1.*``
+   :depends diamond: ``2.0.15.*``
+   :depends dist_est: ``1.1.*``
+   :depends divvier: ``1.01.*``
+   :depends ete3: ``3.1.2.*``
+   :depends fasttree: ``2.1.10.*``
+   :depends hmmer: ``3.3.*``
+   :depends mafft: ``7.455.*``
+   :depends matplotlib-base: ``3.4.1.*``
+   :depends pandas: ``1.2.4.*``
+   :depends prequal: ``1.02.*``
+   :depends pyqt: ``5.12.3.*``
+   :depends python: ``3.7.10.*``
+   :depends raxml: ``8.2.12.*``
+   :depends snakemake-minimal: ``6.5.3.*``
+   :depends trimal: ``1.4.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +84,7 @@ phylofisher
 
     <script>
         var package = "phylofisher";
-        var versions = [];
+        var versions = ["1.1.2"];
     </script>
 
 

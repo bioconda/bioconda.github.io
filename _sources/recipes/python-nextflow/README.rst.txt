@@ -27,13 +27,13 @@ python-nextflow
       
       
 
-      ``0.4-0``
+      ``0.4-1``,  ``0.4-0``
 
       
 
    
    :depends nextflow: 
-   :depends python: ``>=3.6,<3.9``
+   :depends python: ``>=3.6,<=3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ python-nextflow
 
     <script>
         var package = "python-nextflow";
-        var versions = ["0.4"];
+        var versions = ["0.4","0.4"];
     </script>
 
 

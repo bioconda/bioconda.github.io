@@ -30,11 +30,20 @@ macsyfinder
       
       
 
-      
+      ``2.0-0``
 
       
 
    
+   :depends certifi: 
+   :depends colorama: ``>=0.4.4``
+   :depends colorlog: 
+   :depends hmmer: ``>=3.1b2,<=3.3.2``
+   :depends networkx: ``>=2.4``
+   :depends packaging: ``>=18.0``
+   :depends pandas: ``>=1.1.5,<=1.4.3``
+   :depends python: 
+   :depends pyyaml: ``>=5.1.1``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +75,7 @@ macsyfinder
 
     <script>
         var package = "macsyfinder";
-        var versions = [];
+        var versions = ["2.0"];
     </script>
 
 
