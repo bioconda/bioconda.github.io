@@ -29,7 +29,7 @@ sample-sheet
       
       
 
-      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``
+      ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``
 
       
 
@@ -37,7 +37,7 @@ sample-sheet
    :depends click: 
    :depends python: ``>=3.6``
    :depends requests: 
-   :depends smart_open: 
+   :depends smart_open: ``>=1.5.4``
    :depends tabulate: 
    :depends terminaltables: 
    :requirements:
@@ -71,7 +71,7 @@ sample-sheet
 
     <script>
         var package = "sample-sheet";
-        var versions = ["0.12.0","0.11.0","0.10.0","0.9.4","0.9.2"];
+        var versions = ["0.13.0","0.12.0","0.11.0","0.10.0","0.9.4"];
     </script>
 
 
