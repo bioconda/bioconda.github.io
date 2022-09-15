@@ -28,16 +28,15 @@ pardre
       
       
 
-      ``2.2.5-0``
+      ``2.2.5-1``,  ``2.2.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends mpich: ``>=3.4.3,<5.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends mpich: ``>=4.0.2,<5.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +68,7 @@ pardre
 
     <script>
         var package = "pardre";
-        var versions = ["2.2.5"];
+        var versions = ["2.2.5","2.2.5"];
     </script>
 
 

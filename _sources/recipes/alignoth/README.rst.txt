@@ -27,12 +27,12 @@ alignoth
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends libcblas: ``>=3.8.0,<4.0a0``
+   :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libcurl: ``>=7.83.1,<8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -68,7 +68,7 @@ alignoth
 
     <script>
         var package = "alignoth";
-        var versions = ["0.4.0","0.3.0","0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.4.0","0.4.0","0.3.0","0.2.2","0.2.1"];
     </script>
 
 

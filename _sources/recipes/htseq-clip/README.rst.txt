@@ -27,11 +27,14 @@ htseq-clip
       
       
 
-      
+      ``2.14.0b0-0``
 
       
 
    
+   :depends htseq: 
+   :depends pysam: 
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ htseq-clip
 
     <script>
         var package = "htseq-clip";
-        var versions = [];
+        var versions = ["2.14.0b0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-msstatslobd
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-minpack.lm: 
@@ -71,7 +71,7 @@ bioconductor-msstatslobd
 
     <script>
         var package = "bioconductor-msstatslobd";
-        var versions = ["1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

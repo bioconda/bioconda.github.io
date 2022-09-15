@@ -27,17 +27,16 @@ gatb
       
       
 
-      ``1.4.2-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
    
    :depends boost: ``>=1.74.0,<1.74.1.0a0``
-   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +68,7 @@ gatb
 
     <script>
         var package = "gatb";
-        var versions = ["1.4.2","1.4.1","1.4.1","1.4.1","1.4.1"];
+        var versions = ["1.4.2","1.4.2","1.4.1","1.4.1","1.4.1"];
     </script>
 
 

@@ -28,10 +28,10 @@ slow5tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ slow5tools
       
 
    
-   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
+   :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
@@ -76,7 +76,7 @@ slow5tools
 
     <script>
         var package = "slow5tools";
-        var versions = ["0.6.0","0.6.0","0.5.1","0.5.1","0.5.0"];
+        var versions = ["0.6.0","0.6.0","0.6.0","0.5.1","0.5.1"];
     </script>
 
 

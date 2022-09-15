@@ -27,19 +27,18 @@ mnnpy
       
       
 
-      ``0.1.9.5-3``,  ``0.1.9.5-2``,  ``0.1.9.5-1``,  ``0.1.9.5-0``
+      ``0.1.9.5-4``,  ``0.1.9.5-3``,  ``0.1.9.5-2``,  ``0.1.9.5-1``,  ``0.1.9.5-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends anndata: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends llvm-openmp: ``>=14.0.4``
    :depends numba: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :requirements:
 
@@ -72,7 +71,7 @@ mnnpy
 
     <script>
         var package = "mnnpy";
-        var versions = ["0.1.9.5","0.1.9.5","0.1.9.5","0.1.9.5"];
+        var versions = ["0.1.9.5","0.1.9.5","0.1.9.5","0.1.9.5","0.1.9.5"];
     </script>
 
 

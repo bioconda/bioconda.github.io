@@ -28,10 +28,10 @@ bioconductor-lea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-2</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  </span></summary>
       
 
-      ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-lea
       
 
    
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -75,7 +75,7 @@ bioconductor-lea
 
     <script>
         var package = "bioconductor-lea";
-        var versions = ["3.6.0","3.6.0","3.4.0","3.2.0","3.2.0"];
+        var versions = ["3.6.0","3.6.0","3.6.0","3.4.0","3.2.0"];
     </script>
 
 

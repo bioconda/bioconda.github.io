@@ -26,9 +26,17 @@ bioconductor-eventpointer
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.4-0``,  ``2.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.4-0</code>,  </span></summary>
+      
 
+      ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.4-0``,  ``2.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -48,9 +56,9 @@ bioconductor-eventpointer
    :depends bioconductor-sgseq: ``>=1.28.0,<1.29.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends bioconductor-tximport: ``>=1.22.0,<1.23.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cobs: 
@@ -99,7 +107,7 @@ bioconductor-eventpointer
 
     <script>
         var package = "bioconductor-eventpointer";
-        var versions = ["3.2.0","3.2.0","3.0.0","2.8.0","2.8.0"];
+        var versions = ["3.2.0","3.2.0","3.2.0","3.0.0","2.8.0"];
     </script>
 
 

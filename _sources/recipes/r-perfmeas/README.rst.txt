@@ -13,7 +13,7 @@ r-perfmeas
    Package that implements different performance measures for classification and ranking tasks. AUC\, precision at a given recall\, F\-score for single and multiple classes are available.
 
    :homepage: https://CRAN.R-project.org/package=PerfMeas
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`r-perfmeas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-perfmeas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-perfmeas/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-perfmeas
       
       
 
-      ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
+      ``1.2.5-0``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
 
       
 
@@ -35,7 +35,7 @@ r-perfmeas
    :depends bioconductor-graph: 
    :depends bioconductor-limma: 
    :depends bioconductor-rbgl: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ r-perfmeas
 
     <script>
         var package = "r-perfmeas";
-        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.2.1"];
+        var versions = ["1.2.5","1.2.1","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

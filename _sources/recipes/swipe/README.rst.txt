@@ -29,15 +29,15 @@ swipe
       
       
 
-      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+      ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends openmpi: ``>=4.1.2,<5.0a0``
-   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends openmpi: ``>=4.1.4,<5.0a0``
+   :depends tbb: ``>=2021.5.0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ swipe
 
     <script>
         var package = "swipe";
-        var versions = ["2.1.1","2.1.1","2.1.0","2.1.0","2.1.0"];
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1.0","2.1.0"];
     </script>
 
 

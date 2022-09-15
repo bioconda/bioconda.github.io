@@ -29,10 +29,10 @@ bioconductor-illuminaio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.36.0-1</code>,  <code>0.36.0-0</code>,  <code>0.34.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.0-1</code>,  <code>0.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.36.0-2</code>,  <code>0.36.0-1</code>,  <code>0.36.0-0</code>,  <code>0.34.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.0-1</code>,  </span></summary>
       
 
-      ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-1``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.14.0-0``,  ``0.12.0-0``
+      ``0.36.0-2``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-1``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.14.0-0``,  ``0.12.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-illuminaio
       
 
    
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-base64: 
    :requirements:
@@ -77,7 +77,7 @@ bioconductor-illuminaio
 
     <script>
         var package = "bioconductor-illuminaio";
-        var versions = ["0.36.0","0.36.0","0.34.0","0.32.0","0.32.0"];
+        var versions = ["0.36.0","0.36.0","0.36.0","0.34.0","0.32.0"];
     </script>
 
 

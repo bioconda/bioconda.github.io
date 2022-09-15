@@ -27,15 +27,15 @@ bioconductor-gcsconnection
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-googleauthr: 
    :depends r-googlecloudstorager: 
@@ -73,7 +73,7 @@ bioconductor-gcsconnection
 
     <script>
         var package = "bioconductor-gcsconnection";
-        var versions = ["1.6.0","1.6.0","1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.6.0","1.6.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

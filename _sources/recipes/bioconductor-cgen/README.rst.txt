@@ -27,16 +27,16 @@ bioconductor-cgen
       
       
 
-      ``3.30.0-1``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.23.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.18.0-0``
+      ``3.30.0-2``,  ``3.30.0-1``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.23.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.18.0-0``
 
       
 
    
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libgfortran5: ``>=10.4.0``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mvtnorm: 
    :depends r-survival: 
@@ -71,7 +71,7 @@ bioconductor-cgen
 
     <script>
         var package = "bioconductor-cgen";
-        var versions = ["3.30.0","3.30.0","3.28.0","3.23.0","3.22.0"];
+        var versions = ["3.30.0","3.30.0","3.30.0","3.28.0","3.23.0"];
     </script>
 
 

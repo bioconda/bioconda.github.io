@@ -26,18 +26,25 @@ bioconductor-seqcna
    :versions:
       
       
+      .. raw:: html
 
-      ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.30.0-1</code>,  </span></summary>
+      
 
+      ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-glad: ``>=2.58.0,<2.59.0``
    :depends bioconductor-seqcna.annot: ``>=1.30.0,<1.31.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-adehabitatlt: ``>=0.3.4``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dosnow: ``>=1.0.5``
@@ -73,7 +80,7 @@ bioconductor-seqcna
 
     <script>
         var package = "bioconductor-seqcna";
-        var versions = ["1.40.0","1.40.0","1.38.0","1.36.0","1.36.0"];
+        var versions = ["1.40.0","1.40.0","1.40.0","1.38.0","1.36.0"];
     </script>
 
 
