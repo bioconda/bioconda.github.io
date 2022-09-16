@@ -28,10 +28,10 @@ bioconductor-delayedarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  <code>0.12.0-0</code>,  <code>0.10.0-1</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.20.0-2</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  <code>0.12.0-0</code>,  <code>0.10.0-1</code>,  </span></summary>
       
 
-      ``0.20.0-1``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
+      ``0.20.0-2``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
 
       
       .. raw:: html
@@ -44,9 +44,8 @@ bioconductor-delayedarray
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-matrixgenerics: ``>=1.6.0,<1.7.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :requirements:
@@ -80,7 +79,7 @@ bioconductor-delayedarray
 
     <script>
         var package = "bioconductor-delayedarray";
-        var versions = ["0.20.0","0.20.0","0.18.0","0.16.3","0.16.0"];
+        var versions = ["0.20.0","0.20.0","0.20.0","0.18.0","0.16.3"];
     </script>
 
 

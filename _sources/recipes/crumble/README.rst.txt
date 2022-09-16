@@ -27,15 +27,22 @@ crumble
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.0-0``,  ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.3-5</code>,  <code>0.8.3-4</code>,  <code>0.8.3-3</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  </span></summary>
+      
 
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +74,7 @@ crumble
 
     <script>
         var package = "crumble";
-        var versions = ["0.9.0","0.8.3","0.8.3","0.8.3","0.8.3"];
+        var versions = ["0.9.0","0.9.0","0.8.3","0.8.3","0.8.3"];
     </script>
 
 

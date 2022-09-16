@@ -28,10 +28,10 @@ wiggletools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.11-3</code>,  <code>1.2.11-2</code>,  <code>1.2.11-1</code>,  <code>1.2.11-0</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.2.8-2</code>,  <code>1.2.8-1</code>,  <code>1.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.11-4</code>,  <code>1.2.11-3</code>,  <code>1.2.11-2</code>,  <code>1.2.11-1</code>,  <code>1.2.11-0</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.2.8-2</code>,  <code>1.2.8-1</code>,  </span></summary>
       
 
-      ``1.2.11-3``,  ``1.2.11-2``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.8-2``,  ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.2.11-4``,  ``1.2.11-3``,  ``1.2.11-2``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.8-2``,  ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -41,10 +41,9 @@ wiggletools
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
-   :depends libbigwig: ``>=0.4.6,<0.5.0a0``
-   :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libbigwig: ``>=0.4.7,<0.5.0a0``
+   :depends libcblas: ``>=3.9.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +75,7 @@ wiggletools
 
     <script>
         var package = "wiggletools";
-        var versions = ["1.2.11","1.2.11","1.2.11","1.2.11","1.2.10"];
+        var versions = ["1.2.11","1.2.11","1.2.11","1.2.11","1.2.11"];
     </script>
 
 

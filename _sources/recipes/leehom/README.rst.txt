@@ -27,18 +27,19 @@ leehom
       
       
 
-      ``1.2.15-3``,  ``1.2.15-2``,  ``1.2.15-1``,  ``1.2.15-0``
+      ``1.2.15-4``,  ``1.2.15-3``,  ``1.2.15-2``,  ``1.2.15-1``,  ``1.2.15-0``
 
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends htslib: ``>=1.15,<1.16.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libgab: ``>=1.0.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgab: ``>=1.0.5,<1.1.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +71,7 @@ leehom
 
     <script>
         var package = "leehom";
-        var versions = ["1.2.15","1.2.15","1.2.15","1.2.15"];
+        var versions = ["1.2.15","1.2.15","1.2.15","1.2.15","1.2.15"];
     </script>
 
 

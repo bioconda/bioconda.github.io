@@ -27,15 +27,14 @@ aletsch
       
       
 
-      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libcxx: ``>=14.0.4``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ aletsch
 
     <script>
         var package = "aletsch";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

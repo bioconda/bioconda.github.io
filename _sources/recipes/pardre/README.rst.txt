@@ -33,7 +33,8 @@ pardre
       
 
    
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends mpich: ``>=4.0.2,<5.0a0``
    :depends zlib: ``>=1.2.12,<1.3.0a0``

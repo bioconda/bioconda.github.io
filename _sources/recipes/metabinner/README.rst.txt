@@ -27,7 +27,7 @@ metabinner
       
       
 
-      ``1.4.3-0``,  ``1.4.2-0``
+      ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``
 
       
 
@@ -78,7 +78,7 @@ metabinner
 
     <script>
         var package = "metabinner";
-        var versions = ["1.4.3","1.4.2"];
+        var versions = ["1.4.4","1.4.3","1.4.2"];
     </script>
 
 

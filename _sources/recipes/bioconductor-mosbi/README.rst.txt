@@ -27,17 +27,17 @@ bioconductor-mosbi
       
       
 
-      ``1.0.3-0``,  ``1.0.0-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-fabia: ``>=2.40.0,<2.41.0``
    :depends bioconductor-qubic: ``>=1.22.0,<1.23.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-akmbiclust: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
@@ -79,7 +79,7 @@ bioconductor-mosbi
 
     <script>
         var package = "bioconductor-mosbi";
-        var versions = ["1.0.3","1.0.0"];
+        var versions = ["1.0.3","1.0.3","1.0.0"];
     </script>
 
 

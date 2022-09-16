@@ -28,15 +28,14 @@ gangstr
       
       
 
-      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libcxx: ``>=14.0.4``
    :depends nlopt: ``>=2.7.1,<2.7.2.0a0``
    :requirements:
 
@@ -69,7 +68,7 @@ gangstr
 
     <script>
         var package = "gangstr";
-        var versions = ["2.5.0","2.5.0","2.5.0","2.5.0"];
+        var versions = ["2.5.0","2.5.0","2.5.0","2.5.0","2.5.0"];
     </script>
 
 

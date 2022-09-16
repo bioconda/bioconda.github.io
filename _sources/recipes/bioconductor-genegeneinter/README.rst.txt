@@ -27,7 +27,7 @@ bioconductor-genegeneinter
       
       
 
-      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
@@ -36,10 +36,9 @@ bioconductor-genegeneinter
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends bioconductor-snpstats: ``>=1.44.0,<1.45.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-factominer: 
@@ -77,7 +76,7 @@ bioconductor-genegeneinter
 
     <script>
         var package = "bioconductor-genegeneinter";
-        var versions = ["1.20.0","1.20.0","1.18.0","1.14.0","1.12.0"];
+        var versions = ["1.20.0","1.20.0","1.20.0","1.18.0","1.14.0"];
     </script>
 
 

@@ -26,9 +26,17 @@ bioconductor-netresponse
    :versions:
       
       
+      .. raw:: html
 
-      ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.54.0-2</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  </span></summary>
+      
 
+      ``1.54.0-2``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,9 +45,9 @@ bioconductor-netresponse
    :depends bioconductor-minet: ``>=3.52.0,<3.53.0``
    :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dmt: 
    :depends r-ggplot2: 
@@ -80,7 +88,7 @@ bioconductor-netresponse
 
     <script>
         var package = "bioconductor-netresponse";
-        var versions = ["1.54.0","1.54.0","1.52.0","1.50.0","1.50.0"];
+        var versions = ["1.54.0","1.54.0","1.54.0","1.52.0","1.50.0"];
     </script>
 
 

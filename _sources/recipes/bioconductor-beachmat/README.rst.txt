@@ -28,10 +28,10 @@ bioconductor-beachmat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.4-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-2</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.4-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  </span></summary>
       
 
-      ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.4-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
+      ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.4-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -42,10 +42,9 @@ bioconductor-beachmat
    
    :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 
@@ -80,7 +79,7 @@ bioconductor-beachmat
 
     <script>
         var package = "bioconductor-beachmat";
-        var versions = ["2.10.0","2.10.0","2.8.0","2.6.4","2.6.0"];
+        var versions = ["2.10.0","2.10.0","2.10.0","2.8.0","2.6.4"];
     </script>
 
 

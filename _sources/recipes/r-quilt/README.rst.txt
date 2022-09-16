@@ -27,16 +27,15 @@ r-quilt
       
       
 
-      ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
 
    
    :depends gmp: ``>=6.2.1,<7.0a0``
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.2.1,<2.0a0``
@@ -50,7 +49,7 @@ r-quilt
    :depends r-testthat: ``>=2.0.0``
    :depends rsync: 
    :depends samtools: ``>=1.4``
-   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends xz: ``>=5.2.6,<5.3.0a0``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
@@ -83,7 +82,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["1.0.3","0.1.9","0.1.9","0.1.9"];
+        var versions = ["1.0.3","1.0.3","0.1.9","0.1.9","0.1.9"];
     </script>
 
 

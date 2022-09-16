@@ -33,7 +33,8 @@ ont_vbz_hdf_plugin
 
    
    :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends zstd: ``>=1.5.2,<1.6.0a0``
    :requirements:
 

@@ -26,18 +26,26 @@ gmtk
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.4-8``,  ``1.4.4-7``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.4-9</code>,  <code>1.4.4-8</code>,  <code>1.4.4-7</code>,  <code>1.4.4-6</code>,  <code>1.4.4-5</code>,  <code>1.4.4-4</code>,  <code>1.4.4-3</code>,  <code>1.4.4-2</code>,  <code>1.4.4-1</code>,  </span></summary>
+      
 
+      ``1.4.4-9``,  ``1.4.4-8``,  ``1.4.4-7``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gxx_linux-64: ``10.*``
-   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

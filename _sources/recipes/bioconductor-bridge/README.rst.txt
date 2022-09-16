@@ -43,6 +43,7 @@ bioconductor-bridge
    
    :depends bioconductor-rama: ``>=1.68.0,<1.69.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:

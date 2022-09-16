@@ -27,21 +27,28 @@ tabixpp
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  </span></summary>
+      
 
+      ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bc: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends samtools: 
-   :depends xz: ``>=5.2.5,<5.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

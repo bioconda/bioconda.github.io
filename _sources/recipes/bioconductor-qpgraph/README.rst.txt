@@ -29,10 +29,10 @@ bioconductor-qpgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.28.1-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.3-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.28.2-0</code>,  <code>2.28.1-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.3-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  </span></summary>
       
 
-      ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.3-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``
+      ``2.28.2-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.3-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``
 
       
       .. raw:: html
@@ -52,9 +52,9 @@ bioconductor-qpgraph
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: ``>=1.0``
    :depends r-mvtnorm: 
@@ -90,7 +90,7 @@ bioconductor-qpgraph
 
     <script>
         var package = "bioconductor-qpgraph";
-        var versions = ["2.28.1","2.28.0","2.26.0","2.24.3","2.24.0"];
+        var versions = ["2.28.2","2.28.1","2.28.0","2.26.0","2.24.3"];
     </script>
 
 

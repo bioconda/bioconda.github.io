@@ -10,9 +10,9 @@ screadcounts
    :replaces_section_title:
    :noindex:
 
-   SCReadCounts is a computational tool for a cell\-level assessment of the read counts bearing a particular nucleotide at genomic positions of interest from single cell RNA sequencing \(scRNA\-seq\) data.
+   SCReadCounts is a computational tool for a cell\-level assessment of the read counts bearing a particular nucleotide at genomic positions of interest from single cell RNA sequencing \(scRNA\-seq\) data. 
 
-   :homepage: https://github.com/HorvathLab/NGS/tree/master/SCReadCounts#readme
+   :homepage: https://horvathlab.github.io/NGS/SCReadCounts
    :license: MIT
    :recipe: /`screadcounts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screadcounts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screadcounts/meta.yaml>`_
 
@@ -27,7 +27,7 @@ screadcounts
       
       
 
-      ``1.2.0-0``
+      ``1.3.1-0``,  ``1.2.0-0``
 
       
 
@@ -69,7 +69,7 @@ screadcounts
 
     <script>
         var package = "screadcounts";
-        var versions = ["1.2.0"];
+        var versions = ["1.3.1","1.2.0"];
     </script>
 
 

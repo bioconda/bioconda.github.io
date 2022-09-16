@@ -27,7 +27,7 @@ hmntrimmer
       
       
 
-      ``0.6.5-0``
+      ``0.6.5-1``,  ``0.6.5-0``
 
       
 
@@ -43,7 +43,7 @@ hmntrimmer
    :depends rapidjson: 
    :depends seaborn: 
    :depends seqan: ``2.4.0.*``
-   :depends spdlog: ``>=1.9.2,<1.10.0a0``
+   :depends spdlog: ``>=1.10.0,<1.11.0a0``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
@@ -76,7 +76,7 @@ hmntrimmer
 
     <script>
         var package = "hmntrimmer";
-        var versions = ["0.6.5"];
+        var versions = ["0.6.5","0.6.5"];
     </script>
 
 

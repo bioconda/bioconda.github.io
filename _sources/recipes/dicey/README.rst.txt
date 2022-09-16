@@ -26,22 +26,27 @@ dicey
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.8-3</code>,  <code>0.1.8-2</code>,  <code>0.1.8-1</code>,  <code>0.1.8-0</code>,  <code>0.1.7-2</code>,  <code>0.1.7-1</code>,  <code>0.1.7-0</code>,  <code>0.1.6-2</code>,  <code>0.1.6-1</code>,  </span></summary>
+      
 
+      ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends _openmp_mutex: ``* *_llvm``
-   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends llvm-openmp: ``>=13.0.1``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends llvm-openmp: ``>=14.0.4``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +78,7 @@ dicey
 
     <script>
         var package = "dicey";
-        var versions = ["0.1.8","0.1.8","0.1.8","0.1.7","0.1.7"];
+        var versions = ["0.1.8","0.1.8","0.1.8","0.1.8","0.1.7"];
     </script>
 
 

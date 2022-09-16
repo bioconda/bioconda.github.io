@@ -29,16 +29,14 @@ pharokka
       
       
 
-      ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``1.0.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
    
    :depends aragorn: ``>=1.2.41``
    :depends bcbio-gff: 
-   :depends biopython: ``>1.78``
-   :depends emboss: ``>=6.6.0``
-   :depends hhsuite: ``>=3.3.0``
+   :depends biopython: ``>=1.78``
    :depends minced: ``>=0.4.2``
    :depends mmseqs2: ``>=13.45111``
    :depends phanotate: ``>=1.5.0``
@@ -75,7 +73,7 @@ pharokka
 
     <script>
         var package = "pharokka";
-        var versions = ["0.1.11","0.1.10","0.1.9","0.1.8","0.1.7"];
+        var versions = ["1.0.0","0.1.11","0.1.10","0.1.9","0.1.8"];
     </script>
 
 

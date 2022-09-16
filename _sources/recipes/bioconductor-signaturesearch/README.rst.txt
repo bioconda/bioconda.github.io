@@ -27,7 +27,7 @@ bioconductor-signaturesearch
       
       
 
-      ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -46,10 +46,10 @@ bioconductor-signaturesearch
    :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
    :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -94,7 +94,7 @@ bioconductor-signaturesearch
 
     <script>
         var package = "bioconductor-signaturesearch";
-        var versions = ["1.8.2","1.8.0","1.6.1","1.4.3","1.4.0"];
+        var versions = ["1.8.2","1.8.2","1.8.0","1.6.1","1.4.3"];
     </script>
 
 

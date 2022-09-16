@@ -31,10 +31,10 @@ ataqv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.1-2</code>,  </span></summary>
       
 
-      ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -45,13 +45,12 @@ ataqv
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends coreutils: 
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libcxx: ``>=14.0.4``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends ncurses: ``>=6.3,<7.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
@@ -84,7 +83,7 @@ ataqv
 
     <script>
         var package = "ataqv";
-        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.2.1"];
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.3.0"];
     </script>
 
 

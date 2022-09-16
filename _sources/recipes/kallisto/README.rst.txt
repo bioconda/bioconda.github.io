@@ -29,10 +29,10 @@ kallisto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.48.0-1</code>,  <code>0.48.0-0</code>,  <code>0.46.2-2</code>,  <code>0.46.2-1</code>,  <code>0.46.2-0</code>,  <code>0.46.1-0</code>,  <code>0.46.0-1</code>,  <code>0.46.0-0</code>,  <code>0.45.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.48.0-2</code>,  <code>0.48.0-1</code>,  <code>0.48.0-0</code>,  <code>0.46.2-2</code>,  <code>0.46.2-1</code>,  <code>0.46.2-0</code>,  <code>0.46.1-0</code>,  <code>0.46.0-1</code>,  <code>0.46.0-0</code>,  </span></summary>
       
 
-      ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.2-2``,  ``0.46.2-1``,  ``0.46.2-0``,  ``0.46.1-0``,  ``0.46.0-1``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.43.1-1``,  ``0.43.1-0``,  ``0.43.0-2``,  ``0.43.0-1``,  ``0.42.4-2``,  ``0.42.4-1``,  ``0.42.3-1``,  ``0.42.3-0``
+      ``0.48.0-2``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.2-2``,  ``0.46.2-1``,  ``0.46.2-0``,  ``0.46.1-0``,  ``0.46.0-1``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.43.1-1``,  ``0.43.1-0``,  ``0.43.0-2``,  ``0.43.0-1``,  ``0.42.4-2``,  ``0.42.4-1``,  ``0.42.3-1``,  ``0.42.3-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ kallisto
       
 
    
-   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ kallisto
 
     <script>
         var package = "kallisto";
-        var versions = ["0.48.0","0.48.0","0.46.2","0.46.2","0.46.2"];
+        var versions = ["0.48.0","0.48.0","0.48.0","0.46.2","0.46.2"];
     </script>
 
 

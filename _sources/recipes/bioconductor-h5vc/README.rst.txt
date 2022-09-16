@@ -26,9 +26,17 @@ bioconductor-h5vc
    :versions:
       
       
+      .. raw:: html
 
-      ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.1-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-1``,  ``2.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.28.0-2</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.1-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.18.0-1</code>,  </span></summary>
+      
 
+      ``2.28.0-2``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.1-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-1``,  ``2.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,10 +50,9 @@ bioconductor-h5vc
    :depends bioconductor-rhtslib: ``>=1.26.0,<1.27.0``
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-batchjobs: 
@@ -83,7 +90,7 @@ bioconductor-h5vc
 
     <script>
         var package = "bioconductor-h5vc";
-        var versions = ["2.28.0","2.28.0","2.26.1","2.24.0","2.24.0"];
+        var versions = ["2.28.0","2.28.0","2.28.0","2.26.1","2.24.0"];
     </script>
 
 

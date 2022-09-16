@@ -27,13 +27,12 @@ gvcf2coverage
       
       
 
-      ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
    :requirements:
 
    .. rubric:: Installation

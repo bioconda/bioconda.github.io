@@ -27,7 +27,7 @@ bioconductor-hicdcplus
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -41,10 +41,10 @@ bioconductor-hicdcplus
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bbmle: 
    :depends r-data.table: 
@@ -87,7 +87,7 @@ bioconductor-hicdcplus
 
     <script>
         var package = "bioconductor-hicdcplus";
-        var versions = ["1.2.1","1.2.0","1.0.0"];
+        var versions = ["1.2.1","1.2.1","1.2.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ lofreq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.5-7</code>,  <code>2.1.5-6</code>,  <code>2.1.5-5</code>,  <code>2.1.5-4</code>,  <code>2.1.5-3</code>,  <code>2.1.5-2</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.5-8</code>,  <code>2.1.5-7</code>,  <code>2.1.5-6</code>,  <code>2.1.5-5</code>,  <code>2.1.5-4</code>,  <code>2.1.5-3</code>,  <code>2.1.5-2</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  </span></summary>
       
 
-      ``2.1.5-7``,  ``2.1.5-6``,  ``2.1.5-5``,  ``2.1.5-4``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3.1-0``,  ``2.1.2-0``
+      ``2.1.5-8``,  ``2.1.5-7``,  ``2.1.5-6``,  ``2.1.5-5``,  ``2.1.5-4``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3.1-0``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -41,11 +41,10 @@ lofreq
       
 
    
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: 
    :requirements:
 

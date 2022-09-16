@@ -42,8 +42,9 @@ bioconductor-impute
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=11.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=10.4.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:

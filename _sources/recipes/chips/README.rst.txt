@@ -27,16 +27,15 @@ chips
       
       
 
-      ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``,  ``2.3-0``
+      ``2.4-4``,  ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``,  ``2.3-0``
 
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +67,7 @@ chips
 
     <script>
         var package = "chips";
-        var versions = ["2.4","2.4","2.4","2.4","2.3"];
+        var versions = ["2.4","2.4","2.4","2.4","2.4"];
     </script>
 
 

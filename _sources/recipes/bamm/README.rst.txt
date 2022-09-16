@@ -28,10 +28,10 @@ bamm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.3-11</code>,  <code>1.7.3-10</code>,  <code>1.7.3-9</code>,  <code>1.7.3-8</code>,  <code>1.7.3-7</code>,  <code>1.7.3-6</code>,  <code>1.7.3-5</code>,  <code>1.7.3-4</code>,  <code>1.7.3-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.3-12</code>,  <code>1.7.3-11</code>,  <code>1.7.3-10</code>,  <code>1.7.3-9</code>,  <code>1.7.3-8</code>,  <code>1.7.3-7</code>,  <code>1.7.3-6</code>,  <code>1.7.3-5</code>,  <code>1.7.3-4</code>,  </span></summary>
       
 
-      ``1.7.3-11``,  ``1.7.3-10``,  ``1.7.3-9``,  ``1.7.3-8``,  ``1.7.3-7``,  ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
+      ``1.7.3-12``,  ``1.7.3-11``,  ``1.7.3-10``,  ``1.7.3-9``,  ``1.7.3-8``,  ``1.7.3-7``,  ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bamm
 
    
    :depends bwa: ``>=0.7.12``
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``

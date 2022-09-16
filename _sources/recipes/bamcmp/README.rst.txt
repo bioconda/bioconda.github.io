@@ -27,14 +27,13 @@ bamcmp
       
       
 
-      ``2.2-1``,  ``2.2-0``
+      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libcxx: ``>=14.0.4``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ bamcmp
 
     <script>
         var package = "bamcmp";
-        var versions = ["2.2","2.2"];
+        var versions = ["2.2","2.2","2.2"];
     </script>
 
 

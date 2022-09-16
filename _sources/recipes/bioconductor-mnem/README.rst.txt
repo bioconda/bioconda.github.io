@@ -27,7 +27,7 @@ bioconductor-mnem
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.1-0``,  ``1.4.0-0``
+      ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.1-0``,  ``1.4.0-0``
 
       
 
@@ -35,10 +35,10 @@ bioconductor-mnem
    :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends bioconductor-linnorm: ``>=2.18.0,<2.19.0``
    :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-data.table: 
@@ -84,7 +84,7 @@ bioconductor-mnem
 
     <script>
         var package = "bioconductor-mnem";
-        var versions = ["1.10.0","1.10.0","1.8.0","1.6.5","1.6.1"];
+        var versions = ["1.10.0","1.10.0","1.10.0","1.8.0","1.6.5"];
     </script>
 
 
