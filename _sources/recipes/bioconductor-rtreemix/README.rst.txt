@@ -29,10 +29,10 @@ bioconductor-rtreemix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.56.0-1</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.44.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.56.0-2</code>,  <code>1.56.0-1</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  </span></summary>
       
 
-      ``1.56.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
+      ``1.56.0-2``,  ``1.56.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
 
       
       .. raw:: html
@@ -43,10 +43,9 @@ bioconductor-rtreemix
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-hmisc: 
    :requirements:
@@ -80,7 +79,7 @@ bioconductor-rtreemix
 
     <script>
         var package = "bioconductor-rtreemix";
-        var versions = ["1.56.0","1.56.0","1.54.0","1.52.0","1.52.0"];
+        var versions = ["1.56.0","1.56.0","1.56.0","1.54.0","1.52.0"];
     </script>
 
 

@@ -36,7 +36,8 @@ nerpa
       
 
    
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends networkx: 
    :depends openjdk: 
    :depends python: ``>=3.10,<3.11.0a0``

@@ -42,10 +42,11 @@ pheniqs
 
    
    :depends htslib: ``>=1.16,<1.17.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends rapidjson: 
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:

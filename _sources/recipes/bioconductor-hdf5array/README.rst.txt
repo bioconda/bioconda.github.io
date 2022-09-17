@@ -49,6 +49,7 @@ bioconductor-hdf5array
    :depends bioconductor-rhdf5lib: ``>=1.16.0,<1.17.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 

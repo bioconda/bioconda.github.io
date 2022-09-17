@@ -40,9 +40,10 @@ msisensor-pro
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends htslib: ``>=1.16,<1.17.0a0``
-   :depends libcxx: ``>=14.0.4``
-   :depends llvm-openmp: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

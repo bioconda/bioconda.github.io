@@ -45,6 +45,7 @@ bioconductor-sictools
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends ncurses: ``>=6.3,<7.0a0``

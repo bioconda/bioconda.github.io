@@ -28,10 +28,10 @@ wfmash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-3</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  </span></summary>
       
 
-      ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``
+      ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ wfmash
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libjemalloc: ``>=5.2.1``
    :depends libstdcxx-ng: ``>=12``
@@ -77,7 +77,7 @@ wfmash
 
     <script>
         var package = "wfmash";
-        var versions = ["0.9.1","0.9.1","0.9.1","0.8.2","0.8.1"];
+        var versions = ["0.9.1","0.9.1","0.9.1","0.9.1","0.8.2"];
     </script>
 
 

@@ -37,7 +37,8 @@ bamscale
    :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libbigwig: ``>=0.4.7,<0.5.0a0``
    :depends libcurl: ``>=7.83.1,<8.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends xz: ``>=5.2.6,<5.3.0a0``
    :requirements:

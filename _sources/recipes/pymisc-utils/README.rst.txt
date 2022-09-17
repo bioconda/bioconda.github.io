@@ -27,7 +27,7 @@ pymisc-utils
       
       
 
-      ``0.2.11-5``,  ``0.2.11-4``,  ``0.2.11-3``,  ``0.2.11-2``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``
+      ``0.2.11-6``,  ``0.2.11-5``,  ``0.2.11-4``,  ``0.2.11-3``,  ``0.2.11-2``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``
 
       
 
@@ -35,19 +35,17 @@ pymisc-utils
    :depends dask: 
    :depends docopt: 
    :depends fastparquet: 
-   :depends graphviz: ``>=2.47.3,<3.0a0``
+   :depends graphviz: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=12``
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends networkx: 
    :depends nltk: 
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: 
    :depends openpyxl: 
    :depends pandas: 
    :depends paramiko: 
    :depends pydot: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends six: 

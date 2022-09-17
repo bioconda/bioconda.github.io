@@ -34,7 +34,8 @@ linkstats
    
    :depends click: ``>=8.0.3``
    :depends htslib: ``>=1.16,<1.17.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: ``>=3.5.1``
    :depends numpy: ``>=1.22.0``
    :depends pandas: ``>=1.3.5``
