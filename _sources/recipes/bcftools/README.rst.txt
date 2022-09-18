@@ -43,6 +43,7 @@ bcftools
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends perl: 
    :depends zlib: ``>=1.2.12,<1.3.0a0``

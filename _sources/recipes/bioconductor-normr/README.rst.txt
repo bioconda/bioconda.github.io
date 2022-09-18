@@ -26,9 +26,17 @@ bioconductor-normr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+      
 
+      ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,10 +46,9 @@ bioconductor-normr
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcpp: ``>=0.11``
    :requirements:
@@ -75,7 +82,7 @@ bioconductor-normr
 
     <script>
         var package = "bioconductor-normr";
-        var versions = ["1.20.0","1.20.0","1.18.0","1.16.0","1.16.0"];
+        var versions = ["1.20.0","1.20.0","1.20.0","1.18.0","1.16.0"];
     </script>
 
 

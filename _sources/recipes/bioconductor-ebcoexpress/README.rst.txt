@@ -26,16 +26,24 @@ bioconductor-ebcoexpress
    :versions:
       
       
+      .. raw:: html
 
-      ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.38.0-2</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
+      
 
+      ``1.38.0-2``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-ebarrays: ``>=2.58.0,<2.59.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mclust: 
    :depends r-minqa: 
@@ -70,7 +78,7 @@ bioconductor-ebcoexpress
 
     <script>
         var package = "bioconductor-ebcoexpress";
-        var versions = ["1.38.0","1.38.0","1.36.0","1.34.0","1.34.0"];
+        var versions = ["1.38.0","1.38.0","1.38.0","1.36.0","1.34.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-cytokernel
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -36,10 +36,9 @@ bioconductor-cytokernel
    :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-ashr: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
@@ -79,7 +78,7 @@ bioconductor-cytokernel
 
     <script>
         var package = "bioconductor-cytokernel";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

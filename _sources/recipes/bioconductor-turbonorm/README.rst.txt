@@ -46,6 +46,7 @@ bioconductor-turbonorm
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends bioconductor-marray: ``>=1.72.0,<1.73.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-lattice: 
