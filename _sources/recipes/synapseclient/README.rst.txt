@@ -12,13 +12,13 @@ synapseclient
 
    Python client for Synapse
 
-   :homepage: http://synapse.sagebase.org/
-   :developer docs: https://github.com/Sage-Bionetworks/synapsePythonClient
-   :license: Apache Software License
+   :homepage: https://github.com/Sage-Bionetworks/synapsePythonClient
+   :license: Apache-2.0
    :recipe: /`synapseclient <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient/meta.yaml>`_
 
    A client for Synapse\, a collaborative compute space  that allows
    scientists to share and analyze data together.
+
 
 
 .. conda:package:: synapseclient
@@ -30,10 +30,10 @@ synapseclient
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.6.0-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.7.5-1``,  ``1.7.5-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``
+      ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.7.5-1``,  ``1.7.5-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``
 
       
       .. raw:: html
@@ -43,11 +43,11 @@ synapseclient
 
    
    :depends backports.csv: 
-   :depends deprecated: ``>=1.2.3``
+   :depends deprecated: ``>=1.2.4``
    :depends future: 
-   :depends keyring: ``>=12.0.2``
+   :depends keyring: ``>=15.0.0``
    :depends python: 
-   :depends requests: ``>=1.2``
+   :depends requests: ``>=2.22``
    :depends six: 
    :requirements:
 
@@ -80,7 +80,7 @@ synapseclient
 
     <script>
         var package = "synapseclient";
-        var versions = ["2.6.0","2.5.1","2.5.0","2.4.0","2.3.1"];
+        var versions = ["2.7.0","2.6.0","2.5.1","2.5.0","2.4.0"];
     </script>
 
 

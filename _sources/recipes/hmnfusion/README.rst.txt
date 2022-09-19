@@ -27,7 +27,7 @@ hmnfusion
       
       
 
-      ``1.2.3-0``
+      ``1.2.6-0``,  ``1.2.3-0``
 
       
 
@@ -78,7 +78,7 @@ hmnfusion
 
     <script>
         var package = "hmnfusion";
-        var versions = ["1.2.3"];
+        var versions = ["1.2.6","1.2.3"];
     </script>
 
 
