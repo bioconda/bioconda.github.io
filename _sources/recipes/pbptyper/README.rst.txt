@@ -27,13 +27,14 @@ pbptyper
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends blast: 
    :depends executor: 
+   :depends fastani: 
    :depends python: ``>=3.7``
    :depends rich-click: 
    :requirements:
@@ -67,7 +68,7 @@ pbptyper
 
     <script>
         var package = "pbptyper";
-        var versions = ["1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 
