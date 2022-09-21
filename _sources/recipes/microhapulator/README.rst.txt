@@ -27,7 +27,7 @@ microhapulator
       
       
 
-      ``0.6.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
+      ``0.7.1-0``,  ``0.6.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
 
       
 
@@ -37,7 +37,7 @@ microhapulator
    :depends fastqc: ``>=0.11.9``
    :depends flash: ``>=1.2``
    :depends happer: ``>=0.1``
-   :depends insilicoseq: ``>=1.3.6``
+   :depends insilicoseq: ``>=1.5.4``
    :depends jsonschema: ``>=3.1``
    :depends matplotlib-base: ``>=3.0``
    :depends numpy: ``>=1.15.4``
@@ -80,7 +80,7 @@ microhapulator
 
     <script>
         var package = "microhapulator";
-        var versions = ["0.6.1","0.5","0.5","0.4.1","0.3"];
+        var versions = ["0.7.1","0.6.1","0.5","0.5","0.4.1"];
     </script>
 
 
