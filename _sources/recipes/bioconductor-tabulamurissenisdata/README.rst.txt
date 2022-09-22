@@ -37,7 +37,7 @@ bioconductor-tabulamurissenisdata
    :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gdata: 
    :requirements:

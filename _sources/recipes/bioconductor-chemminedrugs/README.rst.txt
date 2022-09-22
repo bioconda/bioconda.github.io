@@ -34,7 +34,7 @@ bioconductor-chemminedrugs
    
    :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends bioconductor-chemminer: ``>=3.46.0,<3.47.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rsqlite: 
    :requirements:

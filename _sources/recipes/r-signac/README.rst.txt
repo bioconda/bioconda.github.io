@@ -28,10 +28,10 @@ r-signac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-signac
 
    
    :depends bioconductor-biocgenerics: 
-   :depends bioconductor-genomeinfodb: 
+   :depends bioconductor-genomeinfodb: ``>=1.29.3``
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
@@ -54,23 +54,19 @@ r-signac
    :depends r-fastmatch: 
    :depends r-future: 
    :depends r-future.apply: 
-   :depends r-ggforce: 
    :depends r-ggplot2: 
-   :depends r-ggrepel: 
-   :depends r-ggseqlogo: 
    :depends r-irlba: 
-   :depends r-lsa: 
    :depends r-matrix: 
    :depends r-patchwork: 
    :depends r-pbapply: 
-   :depends r-qlcmatrix: 
    :depends r-rcpp: 
    :depends r-rcpproll: 
    :depends r-scales: 
-   :depends r-seurat: ``>=4.0.0``
    :depends r-seuratobject: ``>=4.0.0``
    :depends r-stringi: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
+   :depends r-vctrs: 
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +98,7 @@ r-signac
 
     <script>
         var package = "r-signac";
-        var versions = ["1.7.0","1.7.0","1.6.0","1.6.0","1.5.0"];
+        var versions = ["1.8.0","1.7.0","1.7.0","1.6.0","1.6.0"];
     </script>
 
 

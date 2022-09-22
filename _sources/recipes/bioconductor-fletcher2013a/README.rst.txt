@@ -42,7 +42,7 @@ bioconductor-fletcher2013a
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gplots: 
    :depends r-venndiagram: 

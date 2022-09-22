@@ -35,7 +35,7 @@ bioconductor-harbchip
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

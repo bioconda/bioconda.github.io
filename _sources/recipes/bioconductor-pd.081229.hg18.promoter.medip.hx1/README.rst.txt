@@ -36,7 +36,7 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
    :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``

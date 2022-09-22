@@ -33,7 +33,7 @@ bioconductor-rrdpdata
 
    
    :depends bioconductor-rrdp: ``>=1.28.0,<1.29.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends openjdk: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:

@@ -33,7 +33,7 @@ bioconductor-flowsorted.cordbloodnorway.450k
 
    
    :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

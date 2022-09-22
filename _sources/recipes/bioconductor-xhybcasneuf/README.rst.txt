@@ -35,7 +35,7 @@ bioconductor-xhybcasneuf
    :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
    :depends bioconductor-ath1121501cdf: ``>=2.18.0,<2.19.0``
    :depends bioconductor-tinesath1cdf: ``>=1.32.0,<1.33.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcolorbrewer: 
    :requirements:

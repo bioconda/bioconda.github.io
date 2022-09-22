@@ -47,7 +47,7 @@ bioconductor-systempiperdata
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
    :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-jsonlite: 
    :depends r-remotes: 

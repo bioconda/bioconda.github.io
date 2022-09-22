@@ -27,7 +27,7 @@ snakelines
       
       
 
-      ``1.1.0-0``,  ``1.0.4-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``
+      ``1.1.4-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``
 
       
 
@@ -39,6 +39,7 @@ snakelines
    :depends oyaml: ``0.9``
    :depends pandas: ``1.1.3``
    :depends parse: ``1.19.0``
+   :depends pygraphviz: ``1.7``
    :depends python: ``3.7.6``
    :depends seaborn: ``0.11.0``
    :depends snakemake-minimal: ``6.15.5``
@@ -75,7 +76,7 @@ snakelines
 
     <script>
         var package = "snakelines";
-        var versions = ["1.1.0","1.0.4","0.10.0","0.10.0","0.9.2"];
+        var versions = ["1.1.4","1.1.0","1.0.4","0.10.0","0.10.0"];
     </script>
 
 

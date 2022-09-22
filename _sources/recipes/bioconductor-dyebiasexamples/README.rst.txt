@@ -34,7 +34,7 @@ bioconductor-dyebiasexamples
    
    :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
    :depends bioconductor-marray: ``>=1.72.0,<1.73.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

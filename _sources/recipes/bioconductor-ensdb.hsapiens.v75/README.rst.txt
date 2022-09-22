@@ -41,7 +41,7 @@ bioconductor-ensdb.hsapiens.v75
 
    
    :depends bioconductor-ensembldb: ``>=2.18.0,<2.19.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

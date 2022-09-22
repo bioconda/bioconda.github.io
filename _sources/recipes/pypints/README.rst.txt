@@ -14,7 +14,7 @@ pypints
 
    :homepage: https://pints.yulab.org
    :developer docs: https://github.com/hyulab/PINTS
-   :license: GPL / GPL
+   :license: GPL / GPL-3.0-only
    :recipe: /`pypints <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypints>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypints/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41587-022-01211-7`
 
@@ -29,7 +29,7 @@ pypints
       
       
 
-      ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.0-0``
+      ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.0-0``
 
       
 
@@ -79,7 +79,7 @@ pypints
 
     <script>
         var package = "pypints";
-        var versions = ["1.1.6","1.1.6","1.1.4","1.1.3","1.1.0"];
+        var versions = ["1.1.7","1.1.6","1.1.6","1.1.4","1.1.3"];
     </script>
 
 

@@ -33,7 +33,7 @@ bioconductor-dapardata
 
    
    :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-knitr: 
    :requirements:

@@ -42,7 +42,7 @@ bioconductor-desousa2013
    :depends bioconductor-hgu133plus2frmavecs: ``>=1.5.0,<1.6.0``
    :depends bioconductor-siggenes: ``>=1.68.0,<1.69.0``
    :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-gplots: 

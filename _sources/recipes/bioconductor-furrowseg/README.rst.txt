@@ -33,7 +33,7 @@ bioconductor-furrowseg
 
    
    :depends bioconductor-ebimage: ``>=4.36.0,<4.37.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 

@@ -33,7 +33,7 @@ bioconductor-cardinalworkflows
 
    
    :depends bioconductor-cardinal: ``>=2.12.0,<2.13.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

@@ -33,7 +33,7 @@ bioconductor-tbx20bamsubset
 
    
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-xtable: 
    :requirements:

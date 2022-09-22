@@ -35,7 +35,7 @@ bioconductor-curatedbreastdata
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
    :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-xml: 

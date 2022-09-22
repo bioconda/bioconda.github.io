@@ -35,7 +35,7 @@ bioconductor-nullrangesdata
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
    :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
    :depends bioconductor-interactionset: ``>=1.22.0,<1.23.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

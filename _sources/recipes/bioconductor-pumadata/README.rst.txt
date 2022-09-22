@@ -35,7 +35,7 @@ bioconductor-pumadata
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
    :depends bioconductor-puma: ``>=3.36.0,<3.37.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

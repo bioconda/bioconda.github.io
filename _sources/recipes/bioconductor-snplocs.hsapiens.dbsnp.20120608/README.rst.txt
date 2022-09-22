@@ -35,7 +35,7 @@ bioconductor-snplocs.hsapiens.dbsnp.20120608
    :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
    :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

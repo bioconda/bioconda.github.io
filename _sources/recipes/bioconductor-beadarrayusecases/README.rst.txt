@@ -35,7 +35,7 @@ bioconductor-beadarrayusecases
    :depends bioconductor-beadarray: ``>=2.44.0,<2.45.0``
    :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

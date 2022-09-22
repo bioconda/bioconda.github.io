@@ -33,7 +33,7 @@ bioconductor-topdownrdata
 
    
    :depends bioconductor-topdownr: ``>=1.16.0,<1.17.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

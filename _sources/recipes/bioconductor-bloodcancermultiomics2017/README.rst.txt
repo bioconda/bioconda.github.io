@@ -35,7 +35,7 @@ bioconductor-bloodcancermultiomics2017
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-beeswarm: 
    :depends r-devtools: 

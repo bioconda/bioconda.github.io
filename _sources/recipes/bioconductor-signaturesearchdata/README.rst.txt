@@ -38,7 +38,7 @@ bioconductor-signaturesearchdata
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
    :depends bioconductor-signaturesearch: ``>=1.8.0,<1.9.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 

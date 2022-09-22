@@ -34,7 +34,7 @@ bioconductor-humanaffydata
    
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

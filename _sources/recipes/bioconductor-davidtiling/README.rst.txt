@@ -35,7 +35,7 @@ bioconductor-davidtiling
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
    :depends bioconductor-tilingarray: ``>=1.72.0,<1.73.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

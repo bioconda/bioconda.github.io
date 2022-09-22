@@ -33,7 +33,7 @@ chicagotools
 
    
    :depends bioconductor-chicago: 
-   :depends python: ``<3``
+   :depends python: 
    :depends r-argparser: 
    :depends r-base: 
    :requirements:

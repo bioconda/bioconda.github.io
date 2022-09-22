@@ -27,7 +27,7 @@ anadama2
       
       
 
-      ``0.8.0-0``,  ``0.7.5-0``
+      ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.5-0``
 
       
 
@@ -70,7 +70,7 @@ anadama2
 
     <script>
         var package = "anadama2";
-        var versions = ["0.8.0","0.7.5"];
+        var versions = ["0.10.0","0.8.0","0.7.5"];
     </script>
 
 

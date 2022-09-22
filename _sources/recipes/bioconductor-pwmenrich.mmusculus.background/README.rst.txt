@@ -33,7 +33,7 @@ bioconductor-pwmenrich.mmusculus.background
 
    
    :depends bioconductor-pwmenrich: ``>=4.30.0,<4.31.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

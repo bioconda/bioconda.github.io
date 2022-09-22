@@ -46,7 +46,7 @@ bioconductor-curatedmetagenomicdata
    :depends bioconductor-s4vectors: 
    :depends bioconductor-summarizedexperiment: 
    :depends bioconductor-treesummarizedexperiment: 
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 

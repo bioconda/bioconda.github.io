@@ -41,7 +41,7 @@ bioconductor-chic.data
 
    
    :depends bioconductor-genomeintervals: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-caret: ``>=6.0-78``
    :depends r-randomforest: 

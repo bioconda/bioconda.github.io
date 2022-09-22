@@ -41,7 +41,7 @@ bioconductor-assessorfdata
 
    
    :depends bioconductor-decipher: ``>=2.22.0,<2.23.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

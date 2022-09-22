@@ -10,12 +10,12 @@ cstag
    :replaces_section_title:
    :noindex:
 
-   a Python module to manipulate minimap2\'s CS tag.
+   Python module to manipulate the minimap2\'s CS tag
 
    :homepage: https://github.com/akikuno/cstag
    :documentation: https://akikuno.github.io/cstag/cstag/
    
-   :license: MIT / MIT
+   :license: MIT
    :recipe: /`cstag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cstag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cstag/meta.yaml>`_
 
    
@@ -29,12 +29,12 @@ cstag
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.3.1-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
-   :depends python: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ cstag
 
     <script>
         var package = "cstag";
-        var versions = ["0.2.3","0.2.2","0.2.0","0.1.1"];
+        var versions = ["0.3.1","0.2.3","0.2.2","0.2.0","0.1.1"];
     </script>
 
 

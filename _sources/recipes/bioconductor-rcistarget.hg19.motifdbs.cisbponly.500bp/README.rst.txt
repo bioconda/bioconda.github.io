@@ -40,7 +40,7 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
       
 
    
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :requirements:

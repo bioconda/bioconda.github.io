@@ -35,7 +35,7 @@ bioconductor-pth2o2lipids
    :depends bioconductor-camera: ``>=1.50.0,<1.51.0``
    :depends bioconductor-lobstahs: ``>=1.20.0,<1.21.0``
    :depends bioconductor-xcms: ``>=3.16.0,<3.17.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

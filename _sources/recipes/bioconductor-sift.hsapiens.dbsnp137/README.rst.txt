@@ -34,7 +34,7 @@ bioconductor-sift.hsapiens.dbsnp137
    
    :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rsqlite: ``>=0.11.0``
    :requirements:

@@ -42,7 +42,7 @@ bioconductor-genelendatabase
    
    :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
    :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
