@@ -43,8 +43,9 @@ bioconductor-biocsklearn
    :depends bioconductor-basilisk: ``>=1.6.0,<1.7.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: ``>=4.1,<4.2.0a0``

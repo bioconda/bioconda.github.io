@@ -27,7 +27,7 @@ bioconductor-destiny
       
       
 
-      ``3.8.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.15.0-0``,  ``2.14.0-1``,  ``2.12.0-0``
+      ``3.8.1-1``,  ``3.8.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.15.0-0``,  ``2.14.0-1``,  ``2.12.0-0``
 
       
 
@@ -37,10 +37,9 @@ bioconductor-destiny
    :depends bioconductor-pcamethods: ``>=1.86.0,<1.87.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot.multistats: 
    :depends r-ggplot2: 
@@ -90,7 +89,7 @@ bioconductor-destiny
 
     <script>
         var package = "bioconductor-destiny";
-        var versions = ["3.8.1","3.4.0","3.4.0","3.2.0","2.15.0"];
+        var versions = ["3.8.1","3.8.1","3.4.0","3.4.0","3.2.0"];
     </script>
 
 

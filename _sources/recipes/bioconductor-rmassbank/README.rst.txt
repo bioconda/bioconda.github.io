@@ -27,7 +27,7 @@ bioconductor-rmassbank
       
       
 
-      ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
 
       
 
@@ -36,10 +36,9 @@ bioconductor-rmassbank
    :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
    :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends openbabel: 
    :depends r-assertthat: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -84,7 +83,7 @@ bioconductor-rmassbank
 
     <script>
         var package = "bioconductor-rmassbank";
-        var versions = ["3.4.0","3.4.0","3.2.0","3.0.0","3.0.0"];
+        var versions = ["3.4.0","3.4.0","3.4.0","3.2.0","3.0.0"];
     </script>
 
 

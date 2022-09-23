@@ -29,10 +29,10 @@ bioconductor-mosaics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.32.0-2</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.20.0-0</code>,  </span></summary>
       
 
-      ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.4.1-0``
+      ``2.32.0-2``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.4.1-0``
 
       
       .. raw:: html
@@ -47,10 +47,9 @@ bioconductor-mosaics
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-lattice: 
@@ -87,7 +86,7 @@ bioconductor-mosaics
 
     <script>
         var package = "bioconductor-mosaics";
-        var versions = ["2.32.0","2.32.0","2.30.0","2.28.0","2.26.0"];
+        var versions = ["2.32.0","2.32.0","2.32.0","2.30.0","2.28.0"];
     </script>
 
 

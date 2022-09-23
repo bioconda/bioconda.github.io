@@ -28,10 +28,10 @@ bioconductor-flowclust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-2</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.32.0-2</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-2</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  </span></summary>
       
 
-      ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
+      ``3.32.0-2``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
 
       
       .. raw:: html
@@ -45,9 +45,9 @@ bioconductor-flowclust
    :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
    :depends bioconductor-flowviz: ``>=1.58.0,<1.59.0``
    :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clue: 
    :depends r-corpcor: 
@@ -84,7 +84,7 @@ bioconductor-flowclust
 
     <script>
         var package = "bioconductor-flowclust";
-        var versions = ["3.32.0","3.32.0","3.30.0","3.28.0","3.28.0"];
+        var versions = ["3.32.0","3.32.0","3.32.0","3.30.0","3.28.0"];
     </script>
 
 

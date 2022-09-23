@@ -27,14 +27,14 @@ debreak
       
       
 
-      ``1.0.2-0``
+      ``1.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends minimap2: ``2.15.*``
-   :depends pysam: ``0.16.0.1.*``
-   :depends python: ``2.7.*``
+   :depends pysam: ``0.19.0.*``
+   :depends python: ``>=3``
    :depends samtools: ``1.9.*``
    :depends wtdbg: ``2.5.*``
    :requirements:
@@ -68,7 +68,7 @@ debreak
 
     <script>
         var package = "debreak";
-        var versions = ["1.0.2"];
+        var versions = ["1.3","1.0.2"];
     </script>
 
 

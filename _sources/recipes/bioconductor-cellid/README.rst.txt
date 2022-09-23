@@ -27,7 +27,7 @@ bioconductor-cellid
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,10 +37,9 @@ bioconductor-cellid
    :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-fastmatch: 
@@ -89,7 +88,7 @@ bioconductor-cellid
 
     <script>
         var package = "bioconductor-cellid";
-        var versions = ["1.2.1","1.2.0","1.0.0"];
+        var versions = ["1.2.1","1.2.1","1.2.0","1.0.0"];
     </script>
 
 

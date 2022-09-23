@@ -27,7 +27,7 @@ bioconductor-mirsm
       
       
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-1``
+      ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-1``
 
       
 
@@ -41,10 +41,9 @@ bioconductor-mirsm
    :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends bioconductor-rqubic: ``>=1.40.0,<1.41.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=14.0.4``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bibitr: 
    :depends r-biclust: 
@@ -98,7 +97,7 @@ bioconductor-mirsm
 
     <script>
         var package = "bioconductor-mirsm";
-        var versions = ["1.12.0","1.12.0","1.10.0","1.8.3","1.8.0"];
+        var versions = ["1.12.0","1.12.0","1.12.0","1.10.0","1.8.3"];
     </script>
 
 

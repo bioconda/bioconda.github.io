@@ -27,7 +27,7 @@ bioconductor-snapcgh
       
       
 
-      ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``
+      ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``
 
       
 
@@ -37,9 +37,9 @@ bioconductor-snapcgh
    :depends bioconductor-glad: ``>=2.58.0,<2.59.0``
    :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends bioconductor-tilingarray: ``>=1.72.0,<1.73.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :requirements:
@@ -73,7 +73,7 @@ bioconductor-snapcgh
 
     <script>
         var package = "bioconductor-snapcgh";
-        var versions = ["1.64.0","1.64.0","1.62.0","1.60.0","1.60.0"];
+        var versions = ["1.64.0","1.64.0","1.64.0","1.62.0","1.60.0"];
     </script>
 
 

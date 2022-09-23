@@ -27,7 +27,7 @@ bioconductor-adacgh2
       
       
 
-      ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
+      ``2.34.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
 
       
 
@@ -37,9 +37,9 @@ bioconductor-adacgh2
    :depends bioconductor-glad: ``>=2.58.0,<2.59.0``
    :depends bioconductor-snapcgh: ``>=1.64.0,<1.65.0``
    :depends bioconductor-tilingarray: ``>=1.72.0,<1.73.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bit: 
    :depends r-cluster: 
@@ -77,7 +77,7 @@ bioconductor-adacgh2
 
     <script>
         var package = "bioconductor-adacgh2";
-        var versions = ["2.34.0","2.34.0","2.32.0","2.30.0","2.30.0"];
+        var versions = ["2.34.0","2.34.0","2.34.0","2.32.0","2.30.0"];
     </script>
 
 

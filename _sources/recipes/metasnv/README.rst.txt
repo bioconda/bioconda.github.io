@@ -42,7 +42,8 @@ metasnv
    
    :depends bioconductor-biocparallel: ``>=1.26``
    :depends htslib: ``>=1.16,<1.17.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: 

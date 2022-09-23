@@ -13,7 +13,7 @@ r-scoper
    Provides a computational framework for identification of B cell clones from Adaptive Immune Receptor Repertoire sequencing \(AIRR\-Seq\) data. Three main functions are included \(identicalClones\, hierarchicalClones\, and spectralClones\) that perform clustering among sequences of BCRs\/IGs \(B cell receptors\/immunoglobulins\) which share the same V gene\, J gene and junction length. Nouri N and Kleinstein SH \(2018\) \<doi\: 10.1093\/bioinformatics\/bty235\>. Nouri N and Kleinstein SH \(2019\) \<doi\: 10.1101\/788620\>. Gupta NT\, et al. \(2017\) \<doi\: 10.4049\/jimmunol.1601850\>.
 
    :homepage: https://scoper.readthedocs.io
-   :license: AGPL / AGPL-3
+   :license: AGPL / AGPL-3.0-only
    :recipe: /`r-scoper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scoper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scoper/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-scoper
       
       
 
-      ``1.2.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``
 
       
 
@@ -78,7 +78,7 @@ r-scoper
 
     <script>
         var package = "r-scoper";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.1","1.2.0"];
     </script>
 
 

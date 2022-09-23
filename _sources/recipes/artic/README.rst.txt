@@ -26,34 +26,43 @@ artic
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
+      
 
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends artic-porechop: ``0.3.2pre.*``
    :depends artic-tools: ``0.2.6.*``
-   :depends bcftools: ``1.10.2.*``
-   :depends biopython: ``1.76.*``
+   :depends bcftools: ``1.15.1.*``
+   :depends biopython: ``1.79.*``
    :depends bwa: ``0.7.17.*``
-   :depends clint: 
-   :depends htslib: ``1.10.2.*``
-   :depends longshot: ``0.4.1.*``
-   :depends medaka: ``1.0.3.*``
-   :depends minimap2: ``2.17.*``
-   :depends multiqc: 
+   :depends clint: ``0.5.1.*``
+   :depends htslib: ``1.15.1.*``
+   :depends longshot: ``0.4.5.*``
+   :depends medaka: ``>=1.6.1``
+   :depends minimap2: ``2.24.*``
+   :depends multiqc: ``1.13.*``
    :depends muscle: ``3.8.*``
-   :depends nanopolish: ``0.13.2.*``
-   :depends pandas: ``0.23.0.*``
+   :depends nanopolish: ``0.14.0.*``
+   :depends pandas: ``1.4.4.*``
    :depends pip: 
-   :depends pysam: ``0.16.0.1.*``
-   :depends pytest: 
-   :depends python: ``3.6.13.*``
+   :depends pyfaidx: ``0.6.0.*``
+   :depends pysam: 
+   :depends pytest: ``7.1.3.*``
+   :depends python: ``3.8.13.*``
    :depends pyvcf: ``0.6.8.*``
-   :depends requests: 
-   :depends samtools: ``1.10.*``
-   :depends tqdm: 
+   :depends requests: ``2.28.*``
+   :depends samtools: ``1.15.*``
+   :depends tqdm: ``4.64.*``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +94,7 @@ artic
 
     <script>
         var package = "artic";
-        var versions = ["1.2.2","1.2.1","1.2.0","1.1.3","1.1.3"];
+        var versions = ["1.2.3","1.2.2","1.2.1","1.2.0","1.1.3"];
     </script>
 
 

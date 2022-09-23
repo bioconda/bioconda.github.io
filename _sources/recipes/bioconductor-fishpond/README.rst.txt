@@ -27,7 +27,7 @@ bioconductor-fishpond
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
@@ -36,10 +36,10 @@ bioconductor-fishpond
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gtools: 
@@ -79,7 +79,7 @@ bioconductor-fishpond
 
     <script>
         var package = "bioconductor-fishpond";
-        var versions = ["2.0.1","2.0.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["2.0.1","2.0.1","2.0.0","1.8.0","1.6.0"];
     </script>
 
 

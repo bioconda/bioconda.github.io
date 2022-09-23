@@ -47,8 +47,9 @@ bioconductor-normr
    :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcpp: ``>=0.11``
    :requirements:

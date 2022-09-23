@@ -28,10 +28,10 @@ bioconductor-opencyto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
+      ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
 
       
       .. raw:: html
@@ -50,10 +50,10 @@ bioconductor-opencyto
    :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends bioconductor-ncdfflow: ``>=2.40.0,<2.41.0``
    :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clue: 
    :depends r-data.table: 
@@ -97,7 +97,7 @@ bioconductor-opencyto
 
     <script>
         var package = "bioconductor-opencyto";
-        var versions = ["2.6.0","2.6.0","2.4.0","2.2.0","2.2.0"];
+        var versions = ["2.6.0","2.6.0","2.6.0","2.4.0","2.2.0"];
     </script>
 
 
