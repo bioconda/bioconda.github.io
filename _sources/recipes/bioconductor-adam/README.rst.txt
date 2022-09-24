@@ -27,7 +27,7 @@ bioconductor-adam
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
@@ -35,10 +35,10 @@ bioconductor-adam
    :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
    :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.7.6``
    :depends r-dt: ``>=0.4``
@@ -77,7 +77,7 @@ bioconductor-adam
 
     <script>
         var package = "bioconductor-adam";
-        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["1.10.0","1.10.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

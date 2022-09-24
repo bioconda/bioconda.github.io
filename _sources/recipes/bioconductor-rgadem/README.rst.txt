@@ -47,6 +47,7 @@ bioconductor-rgadem
    :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends bioconductor-seqlogo: ``>=1.60.0,<1.61.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:

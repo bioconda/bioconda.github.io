@@ -1,0 +1,102 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'r-shinyngs'
+.. highlight: bash
+
+r-shinyngs
+==========
+
+.. conda:recipe:: r-shinyngs
+   :replaces_section_title:
+   :noindex:
+
+   Provides Shiny applications for various array and NGS applications. Currently very RNA\-seq centric\, with plans for expansion.
+
+   :homepage: git@github.com:pinin4fjords/shinyngs
+   :license: AGPL / AGPL-3.0
+   :recipe: /`r-shinyngs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shinyngs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shinyngs/meta.yaml>`_
+
+   
+
+
+.. conda:package:: r-shinyngs
+
+   |downloads_r-shinyngs| |docker_r-shinyngs|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-gseabase: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-d3heatmap: 
+   :depends r-data.table: 
+   :depends r-dt: ``>=0.2``
+   :depends r-ggdendro: 
+   :depends r-pheatmap: 
+   :depends r-plotly: ``>=4.3.4``
+   :depends r-plyr: 
+   :depends r-rcolorbrewer: 
+   :depends r-shiny: 
+   :depends r-shinyjs: 
+   :depends r-shinythemes: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-shinyngs
+
+   and update with::
+
+      conda update r-shinyngs
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/r-shinyngs:<tag>
+
+   (see `r-shinyngs/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_r-shinyngs| image:: https://img.shields.io/conda/dn/bioconda/r-shinyngs.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-shinyngs
+   :alt:   (downloads)
+.. |docker_r-shinyngs| image:: https://quay.io/repository/biocontainers/r-shinyngs/status
+   :target: https://quay.io/repository/biocontainers/r-shinyngs
+.. _`r-shinyngs/tags`: https://quay.io/repository/biocontainers/r-shinyngs?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "r-shinyngs";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-shinyngs/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-shinyngs/README.html

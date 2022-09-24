@@ -29,10 +29,10 @@ bioconductor-diffbind
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.11-0</code>,  <code>3.4.0-0</code>,  <code>3.2.7-0</code>,  <code>3.2.1-0</code>,  <code>3.0.15-0</code>,  <code>3.0.3-0</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.11-1</code>,  <code>3.4.11-0</code>,  <code>3.4.0-0</code>,  <code>3.2.7-0</code>,  <code>3.2.1-0</code>,  <code>3.0.15-0</code>,  <code>3.0.3-0</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  </span></summary>
       
 
-      ``3.4.11-0``,  ``3.4.0-0``,  ``3.2.7-0``,  ``3.2.1-0``,  ``3.0.15-0``,  ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
+      ``3.4.11-1``,  ``3.4.11-0``,  ``3.4.0-0``,  ``3.2.7-0``,  ``3.2.1-0``,  ``3.0.15-0``,  ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
 
       
       .. raw:: html
@@ -54,10 +54,10 @@ bioconductor-diffbind
    :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends bioconductor-systempiper: ``>=2.0.0,<2.1.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-amap: 
    :depends r-ashr: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -100,7 +100,7 @@ bioconductor-diffbind
 
     <script>
         var package = "bioconductor-diffbind";
-        var versions = ["3.4.11","3.4.0","3.2.7","3.2.1","3.0.15"];
+        var versions = ["3.4.11","3.4.11","3.4.0","3.2.7","3.2.1"];
     </script>
 
 

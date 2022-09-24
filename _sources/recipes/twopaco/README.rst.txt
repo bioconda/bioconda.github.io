@@ -27,14 +27,14 @@ twopaco
       
       
 
-      ``0.9.4-2``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-0``
+      ``0.9.4-3``,  ``0.9.4-2``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends tbb: ``>=2021.5.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ twopaco
 
     <script>
         var package = "twopaco";
-        var versions = ["0.9.4","0.9.4","0.9.4","0.9.2","0.9.2"];
+        var versions = ["0.9.4","0.9.4","0.9.4","0.9.4","0.9.2"];
     </script>
 
 

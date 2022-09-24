@@ -12,7 +12,7 @@ bioconductor-alevinqc
 
    Generate QC Reports For Alevin Output
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/alevinQC.html
+   :homepage: https://bioconductor.org/packages/3.15/bioc/html/alevinQC.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alevinqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alevinqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alevinqc/meta.yaml>`_
 
@@ -27,12 +27,14 @@ bioconductor-alevinqc
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
    :depends bioconductor-tximport: ``>=1.22.0,<1.23.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
@@ -75,7 +77,7 @@ bioconductor-alevinqc
 
     <script>
         var package = "bioconductor-alevinqc";
-        var versions = ["1.10.0","1.8.0","1.6.1","1.6.0","1.4.0"];
+        var versions = ["1.12.1","1.10.0","1.8.0","1.6.1","1.6.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-ihwpaper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-3</code>,  <code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -49,9 +49,9 @@ bioconductor-ihwpaper
    :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends curl: ``>=7.83.1,<8.0a0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
@@ -90,7 +90,7 @@ bioconductor-ihwpaper
 
     <script>
         var package = "bioconductor-ihwpaper";
-        var versions = ["1.22.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.22.0","1.22.0","1.22.0","1.22.0","1.20.0"];
     </script>
 
 

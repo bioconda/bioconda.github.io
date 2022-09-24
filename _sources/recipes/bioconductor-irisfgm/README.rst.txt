@@ -27,7 +27,7 @@ bioconductor-irisfgm
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -40,10 +40,10 @@ bioconductor-irisfgm
    :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
    :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
    :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-adaptgauss: 
    :depends r-anocva: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -93,7 +93,7 @@ bioconductor-irisfgm
 
     <script>
         var package = "bioconductor-irisfgm";
-        var versions = ["1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

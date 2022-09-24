@@ -27,36 +27,12 @@ sketchy
       
       
 
-      ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.1-0``,  ``0.4.3-0``
+      ``0.6.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.1-0``,  ``0.4.3-0``
 
       
 
    
-   :depends braceexpand: 
-   :depends click: 
-   :depends colorama: 
-   :depends dendropy: 
-   :depends deprecation: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends mash: ``2.2``
-   :depends matplotlib-base: 
-   :depends networkx: 
-   :depends nextflow: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends psutil: 
-   :depends pyfastx: 
-   :depends pysam: 
-   :depends pytest: 
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python-dateutil: 
-   :depends python_abi: ``3.7.* *_cp37m``
-   :depends scipy: 
-   :depends seaborn: 
-   :depends tqdm: 
-   :depends watchdog: 
-   :depends wget: 
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +64,7 @@ sketchy
 
     <script>
         var package = "sketchy";
-        var versions = ["0.4.5","0.4.5","0.4.5","0.4.4","0.4.4"];
+        var versions = ["0.6.0","0.4.5","0.4.5","0.4.5","0.4.4"];
     </script>
 
 

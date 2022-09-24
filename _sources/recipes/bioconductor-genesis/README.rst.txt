@@ -26,9 +26,17 @@ bioconductor-genesis
    :versions:
       
       
+      .. raw:: html
 
-      ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.1-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.24.2-0</code>,  <code>2.24.1-0</code>,  <code>2.24.0-0</code>,  <code>2.22.1-0</code>,  <code>2.20.1-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.3-0</code>,  </span></summary>
+      
 
+      ``2.24.2-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.1-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -43,9 +51,9 @@ bioconductor-genesis
    :depends bioconductor-seqarray: ``>=1.34.0,<1.35.0``
    :depends bioconductor-seqvartools: ``>=1.32.0,<1.33.0``
    :depends bioconductor-snprelate: ``>=1.28.0,<1.29.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-igraph: 
@@ -82,7 +90,7 @@ bioconductor-genesis
 
     <script>
         var package = "bioconductor-genesis";
-        var versions = ["2.24.1","2.24.0","2.22.1","2.20.1","2.20.0"];
+        var versions = ["2.24.2","2.24.1","2.24.0","2.22.1","2.20.1"];
     </script>
 
 

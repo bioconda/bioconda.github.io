@@ -27,7 +27,7 @@ btllib
       
       
 
-      ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
 
@@ -44,7 +44,7 @@ btllib
    :depends samtools: 
    :depends tar: 
    :depends wget: 
-   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends xz: ``>=5.2.6,<5.3.0a0``
    :depends zip: 
    :requirements:
 
@@ -77,7 +77,7 @@ btllib
 
     <script>
         var package = "btllib";
-        var versions = ["1.4.4","1.4.3","1.4.3","1.4.3"];
+        var versions = ["1.4.8","1.4.4","1.4.3","1.4.3","1.4.3"];
     </script>
 
 

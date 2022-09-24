@@ -27,7 +27,7 @@ phylofisher
       
       
 
-      ``1.1.2-0``
+      ``1.2.0-0``,  ``1.1.2-0``
 
       
 
@@ -84,7 +84,7 @@ phylofisher
 
     <script>
         var package = "phylofisher";
-        var versions = ["1.1.2"];
+        var versions = ["1.2.0","1.1.2"];
     </script>
 
 

@@ -33,14 +33,14 @@ unifrac-binaries
       
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libcblas: ``>=3.8.0,<4.0a0``
+   :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends liblapacke: ``>=3.8.0,<4.0a0``
+   :depends liblapacke: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends lz4: 
    :requirements:
@@ -74,7 +74,7 @@ unifrac-binaries
 
     <script>
         var package = "unifrac-binaries";
-        var versions = ["1.1.1","1.1.1","1.1","1.0.0","1.0.0"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1","1.0.0"];
     </script>
 
 
