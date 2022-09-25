@@ -27,17 +27,18 @@ sibeliaz
       
       
 
-      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends maf2synteny: 
    :depends spoa: ``4.0.3-0.*``
-   :depends tbb: ``>=2020.2,<2021.0.0a0``
-   :depends twopaco: 
+   :depends tbb: ``>=2021.5.0``
+   :depends twopaco: ``>0.9.2``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ sibeliaz
 
     <script>
         var package = "sibeliaz";
-        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.2"];
+        var versions = ["1.2.4","1.2.4","1.2.4","1.2.3","1.2.2"];
     </script>
 
 

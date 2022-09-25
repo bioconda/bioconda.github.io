@@ -27,7 +27,7 @@ r-corncob
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -38,10 +38,8 @@ r-corncob
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
-   :depends r-matrix: 
    :depends r-numderiv: 
    :depends r-optimr: 
-   :depends r-rmutil: 
    :depends r-scales: 
    :depends r-trust: 
    :depends r-vgam: 
@@ -76,7 +74,7 @@ r-corncob
 
     <script>
         var package = "r-corncob";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 
