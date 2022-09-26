@@ -43,6 +43,7 @@ bioconductor-arrayexpresshts
    :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bitops: 

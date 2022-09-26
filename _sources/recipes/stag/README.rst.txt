@@ -27,7 +27,7 @@ stag
       
       
 
-      ``0.8.3-0``
+      ``0.8.3-1``,  ``0.8.3-0``
 
       
 
@@ -38,7 +38,7 @@ stag
    :depends numpy: ``1.19.*``
    :depends pandas: 
    :depends prodigal: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends regex: 
    :depends scikit-learn: ``<0.24``
    :depends seqtk: 
@@ -73,7 +73,7 @@ stag
 
     <script>
         var package = "stag";
-        var versions = ["0.8.3"];
+        var versions = ["0.8.3","0.8.3"];
     </script>
 
 

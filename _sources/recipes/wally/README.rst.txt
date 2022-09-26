@@ -28,10 +28,10 @@ wally
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.6-2</code>,  <code>0.5.6-1</code>,  <code>0.5.6-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.2.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.7-0</code>,  <code>0.5.6-2</code>,  <code>0.5.6-1</code>,  <code>0.5.6-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  </span></summary>
       
 
-      ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``0.5.7-0``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ wally
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libopencv: ``>=4.5.3``
    :depends libopencv: ``>=4.6.0,<4.6.1.0a0``
@@ -80,7 +80,7 @@ wally
 
     <script>
         var package = "wally";
-        var versions = ["0.5.6","0.5.6","0.5.6","0.5.5","0.5.5"];
+        var versions = ["0.5.7","0.5.6","0.5.6","0.5.6","0.5.5"];
     </script>
 
 

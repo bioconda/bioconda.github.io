@@ -31,10 +31,10 @@ trtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>2.0.18-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  </span></summary>
       
 
-      ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
+      ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
 
       
       .. raw:: html
@@ -83,7 +83,7 @@ trtools
 
     <script>
         var package = "trtools";
-        var versions = ["4.1.0","4.0.2","4.0.1","4.0.0","4.0.0"];
+        var versions = ["4.2.1","4.1.0","4.0.2","4.0.1","4.0.0"];
     </script>
 
 

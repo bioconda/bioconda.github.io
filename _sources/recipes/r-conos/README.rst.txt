@@ -27,7 +27,7 @@ r-conos
       
       
 
-      ``1.4.7-0``,  ``1.4.6-0``
+      ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``
 
       
 
@@ -48,7 +48,6 @@ r-conos
    :depends r-leidenalg: 
    :depends r-magrittr: 
    :depends r-matrix: 
-   :depends r-matrix.utils: 
    :depends r-n2r: 
    :depends r-r6: 
    :depends r-rcpp: 
@@ -90,7 +89,7 @@ r-conos
 
     <script>
         var package = "r-conos";
-        var versions = ["1.4.7","1.4.6"];
+        var versions = ["1.4.8","1.4.7","1.4.6"];
     </script>
 
 
