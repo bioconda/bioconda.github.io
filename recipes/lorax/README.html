@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Package Recipe &#39;perl-extutils-constant&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;lorax&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -106,36 +106,41 @@
 
           <div class="body" role="main">
             
-  <section id="perl-extutils-constant">
+  <section id="lorax">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">perl-extutils-constant</span></span></dt>
-<dd><p>generate XS code to import C header constants</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">lorax</span></span></dt>
+<dd><p>A long-read analysis toolbox for cancer genomics</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://metacpan.org/pod/ExtUtils::Constant">http://metacpan.org/pod/ExtUtils::Constant</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/tobiasrausch/lorax">https://github.com/tobiasrausch/lorax</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>perl_5</p>
+<dd class="field-even"><p>BSD / BSD-3-Clause</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant">perl-extutils-constant</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorax">lorax</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorax/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-perl-extutils-constant">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">perl-extutils-constant</span></span><a class="headerlink" href="#package-perl-extutils-constant" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-extutils-constant"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-extutils-constant.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-extutils-constant"><img alt="docker_perl-extutils-constant" src="https://quay.io/repository/biocontainers/perl-extutils-constant/status" /></a></p>
+<dt class="sig sig-object conda" id="package-lorax">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">lorax</span></span><a class="headerlink" href="#package-lorax" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/lorax"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/lorax.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/lorax"><img alt="docker_lorax" src="https://quay.io/repository/biocontainers/lorax/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.25-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.5-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=10.3.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;5.33.0a0 *_perl5</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/boost-cpp-feedstock"><strong>boost-cpp</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.74.0,&lt;1.74.1.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.15.1,&lt;1.16.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libzlib-feedstock"><strong>libzlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.12,&lt;1.3.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.12,&lt;1.3.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
@@ -145,23 +150,23 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">perl</span><span class="o">-</span><span class="n">extutils</span><span class="o">-</span><span class="n">constant</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">lorax</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">perl</span><span class="o">-</span><span class="n">extutils</span><span class="o">-</span><span class="n">constant</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">lorax</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">extutils</span><span class="o">-</span><span class="n">constant</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">lorax</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-extutils-constant?tab=tags">perl-extutils-constant/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/lorax?tab=tags">lorax/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>
-    var package = "perl-extutils-constant";
-    var versions = ["0.25","0.25","0.25","0.24","0.24"];
+    var package = "lorax";
+    var versions = ["0.3.5"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -192,8 +197,8 @@
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-extutils-constant/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-extutils-constant/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/lorax/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lorax/README.html)
 </pre></div>
 </div>
 </section>
@@ -214,14 +219,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/perl-extutils-constant/README.rst.txt"
+      <a href="../../_sources/recipes/lorax/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/perl-extutils-constant/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/lorax/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

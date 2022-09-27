@@ -30,7 +30,7 @@ neofox
       
       
 
-      ``0.6.4-0``
+      ``1.0.0-0``,  ``0.6.4-0``
 
       
 
@@ -91,7 +91,7 @@ neofox
 
     <script>
         var package = "neofox";
-        var versions = ["0.6.4"];
+        var versions = ["1.0.0","0.6.4"];
     </script>
 
 

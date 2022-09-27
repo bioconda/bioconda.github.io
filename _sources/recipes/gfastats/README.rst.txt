@@ -15,7 +15,7 @@ gfastats
    :homepage: https://github.com/vgl-hub/gfastats
    :license: MIT
    :recipe: /`gfastats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfastats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfastats/meta.yaml>`_
-   :links: biotools: :biotools:`gfastats`
+   :links: biotools: :biotools:`gfastats`, usegalaxy-eu: :usegalaxy-eu:`gfastats`
 
    
 
@@ -28,7 +28,7 @@ gfastats
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1-0``
+      ``1.3.4-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1-0``
 
       
 
@@ -67,7 +67,7 @@ gfastats
 
     <script>
         var package = "gfastats";
-        var versions = ["1.3.1","1.3.0","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.3.4","1.3.1","1.3.0","1.2.3","1.2.2"];
     </script>
 
 

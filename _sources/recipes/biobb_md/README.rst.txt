@@ -10,7 +10,7 @@ biobb_md
    :replaces_section_title:
    :noindex:
 
-   Biobb\_md is the Biobb module collection to perform molecular dynamics simulations.
+   Deprecated Package\: biobb\_md is no longer maintained and has been superseded by the biobb\_gromacs package. Biobb\_md is the Biobb module collection to perform molecular dynamics simulations.
 
    :homepage: https://github.com/bioexcel/biobb_md
    :documentation: http://biobb_md.readthedocs.io/en/latest/
@@ -18,7 +18,7 @@ biobb_md
    :license: APACHE / Apache Software License
    :recipe: /`biobb_md <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_md>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_md/meta.yaml>`_
 
-   Biobb\_md is the Biobb module collection to perform molecular dynamics simulations. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layers of compatibility and interoperability over popular bioinformatics tools.
+   Deprecated Package\: biobb\_md is no longer maintained and has been superseded by the biobb\_gromacs package. Biobb\_md is the Biobb module collection to perform molecular dynamics simulations. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layers of compatibility and interoperability over popular bioinformatics tools.
 
 
 .. conda:package:: biobb_md
@@ -30,10 +30,10 @@ biobb_md
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  <code>1.1.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``3.7.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -76,7 +76,7 @@ biobb_md
 
     <script>
         var package = "biobb_md";
-        var versions = ["3.7.1","3.7.0","3.6.0","3.5.1","3.5.0"];
+        var versions = ["3.7.2","3.7.1","3.7.0","3.6.0","3.5.1"];
     </script>
 
 

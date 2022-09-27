@@ -29,7 +29,7 @@ hamronization
       
       
 
-      ``1.1.0-0``,  ``1.0.3-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
 
       
 
@@ -67,7 +67,7 @@ hamronization
 
     <script>
         var package = "hamronization";
-        var versions = ["1.1.0","1.0.3"];
+        var versions = ["1.1.1","1.1.0","1.0.3"];
     </script>
 
 
