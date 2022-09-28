@@ -10,7 +10,7 @@ parascopy
    :replaces_section_title:
    :noindex:
 
-   Robust and accurate estimation of paralog\-specific copy number for duplicated genes using whole\-genome sequencing.
+   Calling paralog\-specific copy number and sequence variants in duplicated genes using short\-read whole\-genome sequencing.
 
    :homepage: https://github.com/tprodanov/parascopy
    :license: MIT
@@ -28,10 +28,10 @@ parascopy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.6-0</code>,  <code>1.7.4-0</code>,  <code>1.7.3-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.1-0</code>,  <code>1.7.6-0</code>,  <code>1.7.4-0</code>,  <code>1.7.3-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.7.6-0``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.9.1-0``,  ``1.7.6-0``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,14 +42,20 @@ parascopy
    
    :depends biopython: ``>=1.70``
    :depends bwa: ``>=0.7``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends htslib: ``>=1.15.1,<1.16.0a0``
    :depends intervaltree: ``>=3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends numpy: ``>=1.15``
    :depends parasail-python: ``>=1.2``
-   :depends pysam: ``>=0.15``
-   :depends python: ``>=3.6``
+   :depends pysam: ``>=0.17``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: ``>=1.11``
    :depends scipy: ``>=1.5``
    :depends simpleeval: ``>=0.9``
+   :depends tabixpp: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +87,7 @@ parascopy
 
     <script>
         var package = "parascopy";
-        var versions = ["1.7.6","1.7.4","1.7.3","1.7.1","1.7.0"];
+        var versions = ["1.9.1","1.7.6","1.7.4","1.7.3","1.7.1"];
     </script>
 
 

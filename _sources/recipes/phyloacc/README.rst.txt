@@ -32,11 +32,14 @@ phyloacc
       
 
    
-   :depends armadillo: ``>=11.2,<12.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends armadillo: ``>=11.4,<12.0a0``
    :depends biopython: ``>=1.79``
+   :depends blis: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: ``>=3.5``
    :depends numpy: ``>=1.22``
    :depends python: ``>=3.10,<3.11.0a0``

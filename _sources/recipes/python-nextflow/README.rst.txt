@@ -27,7 +27,7 @@ python-nextflow
       
       
 
-      ``0.4-1``,  ``0.4-0``
+      ``0.4.2-0``,  ``0.4-1``,  ``0.4-0``
 
       
 
@@ -65,7 +65,7 @@ python-nextflow
 
     <script>
         var package = "python-nextflow";
-        var versions = ["0.4","0.4"];
+        var versions = ["0.4.2","0.4","0.4"];
     </script>
 
 

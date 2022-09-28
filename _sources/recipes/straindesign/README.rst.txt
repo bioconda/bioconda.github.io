@@ -27,7 +27,7 @@ straindesign
       
       
 
-      ``3.0.0-0``
+      ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -37,8 +37,10 @@ straindesign
    :depends cobra: ``<0.25.0``
    :depends markupsafe: ``2.0.1``
    :depends pandas: 
+   :depends plotly: 
    :depends pytest: 
    :depends python: 
+   :depends python-kaleido: 
    :depends pyyaml: 
    :requirements:
 
@@ -71,7 +73,7 @@ straindesign
 
     <script>
         var package = "straindesign";
-        var versions = ["3.0.0"];
+        var versions = ["3.1.0","3.0.0"];
     </script>
 
 
