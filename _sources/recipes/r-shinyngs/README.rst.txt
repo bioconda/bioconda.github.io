@@ -12,7 +12,7 @@ r-shinyngs
 
    Provides Shiny applications for various array and NGS applications. Currently very RNA\-seq centric\, with plans for expansion.
 
-   :homepage: git@github.com:pinin4fjords/shinyngs
+   :homepage: https://github.com/pinin4fjords/shinyngs
    :license: AGPL / AGPL-3.0
    :recipe: /`r-shinyngs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shinyngs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shinyngs/meta.yaml>`_
 
@@ -27,25 +27,31 @@ r-shinyngs
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-gseabase: 
+   :depends bioconductor-limma: 
    :depends bioconductor-summarizedexperiment: 
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-cluster: 
    :depends r-d3heatmap: 
    :depends r-data.table: 
    :depends r-dt: ``>=0.2``
    :depends r-ggdendro: 
+   :depends r-ggplot2: 
    :depends r-pheatmap: 
    :depends r-plotly: ``>=4.3.4``
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
    :depends r-shiny: 
+   :depends r-shinybs: 
    :depends r-shinyjs: 
    :depends r-shinythemes: 
+   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +83,7 @@ r-shinyngs
 
     <script>
         var package = "r-shinyngs";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

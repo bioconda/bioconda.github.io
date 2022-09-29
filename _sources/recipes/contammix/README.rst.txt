@@ -27,7 +27,7 @@ contammix
       
       
 
-      ``1.0.10-1``,  ``1.0.10-0``
+      ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``
 
       
 
@@ -69,7 +69,7 @@ contammix
 
     <script>
         var package = "contammix";
-        var versions = ["1.0.10","1.0.10"];
+        var versions = ["1.0.11","1.0.10","1.0.10"];
     </script>
 
 

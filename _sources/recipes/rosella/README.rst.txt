@@ -27,18 +27,18 @@ rosella
       
       
 
-      ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
    :depends bwa: 
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends minimap2: 
-   :depends openssl: ``>=1.1.1o,<1.1.2a``
+   :depends openssl: ``>=1.1.1q,<1.1.2a``
    :depends parallel: 
    :depends samtools: 
    :depends starcode: 
@@ -73,7 +73,7 @@ rosella
 
     <script>
         var package = "rosella";
-        var versions = ["0.4.1","0.4.1","0.4.1","0.3.3","0.3.2"];
+        var versions = ["0.4.2","0.4.1","0.4.1","0.4.1","0.3.3"];
     </script>
 
 

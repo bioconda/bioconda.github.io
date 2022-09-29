@@ -27,7 +27,7 @@ ccsmeth
       
       
 
-      ``0.3.1-0``
+      ``0.3.2-0``,  ``0.3.1-0``
 
       
 
@@ -77,7 +77,7 @@ ccsmeth
 
     <script>
         var package = "ccsmeth";
-        var versions = ["0.3.1"];
+        var versions = ["0.3.2","0.3.1"];
     </script>
 
 

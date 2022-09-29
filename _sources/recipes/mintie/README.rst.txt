@@ -29,7 +29,7 @@ mintie
       
       
 
-      ``0.3.9-0``
+      ``0.4.1-0``,  ``0.3.9-0``
 
       
 
@@ -91,7 +91,7 @@ mintie
 
     <script>
         var package = "mintie";
-        var versions = ["0.3.9"];
+        var versions = ["0.4.1","0.3.9"];
     </script>
 
 

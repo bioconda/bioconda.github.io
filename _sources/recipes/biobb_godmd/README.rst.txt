@@ -51,7 +51,7 @@ biobb_godmd
       
       
 
-      ``3.8.0-0``
+      ``3.8.1-0``,  ``3.8.0-0``
 
       
 
@@ -90,7 +90,7 @@ biobb_godmd
 
     <script>
         var package = "biobb_godmd";
-        var versions = ["3.8.0"];
+        var versions = ["3.8.1","3.8.0"];
     </script>
 
 
