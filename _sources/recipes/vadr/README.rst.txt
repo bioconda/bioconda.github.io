@@ -28,10 +28,10 @@ vadr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  </span></summary>
       
 
-      ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``
+      ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ vadr
    :depends fasta3: ``>=36.3.8``
    :depends hmmer: ``>=3.3.2``
    :depends infernal: ``>=1.1.4``
+   :depends minimap2: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bio-easel: ``>=0.15``
    :depends perl-lwp-protocol-https: ``>=6.07``
@@ -83,7 +84,7 @@ vadr
 
     <script>
         var package = "vadr";
-        var versions = ["1.4.2","1.4.1","1.4.1","1.4","1.3"];
+        var versions = ["1.5","1.4.2","1.4.1","1.4.1","1.4"];
     </script>
 
 

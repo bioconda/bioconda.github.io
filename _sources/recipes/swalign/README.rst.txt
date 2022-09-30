@@ -12,7 +12,7 @@ swalign
 
    Smith\-Waterman local aligner
 
-   :homepage: http://github.com/mbreese/swalign/
+   :homepage: https://github.com/mbreese/swalign/
    :license: BSD
    :recipe: /`swalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swalign/meta.yaml>`_
 
@@ -27,7 +27,7 @@ swalign
       
       
 
-      ``0.3.6-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-2``,  ``0.3.3-0``
+      ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-2``,  ``0.3.3-0``
 
       
 
@@ -64,7 +64,7 @@ swalign
 
     <script>
         var package = "swalign";
-        var versions = ["0.3.6","0.3.4","0.3.4","0.3.3","0.3.3"];
+        var versions = ["0.3.7","0.3.6","0.3.4","0.3.4","0.3.3"];
     </script>
 
 
