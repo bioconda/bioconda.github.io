@@ -27,7 +27,7 @@ emeraldbgc
       
       
 
-      ``0.2.3.1-0``,  ``0.2.3-0``
+      ``0.2.4.1-0``,  ``0.2.3.1-0``,  ``0.2.3-0``
 
       
 
@@ -73,7 +73,7 @@ emeraldbgc
 
     <script>
         var package = "emeraldbgc";
-        var versions = ["0.2.3.1","0.2.3"];
+        var versions = ["0.2.4.1","0.2.3.1","0.2.3"];
     </script>
 
 

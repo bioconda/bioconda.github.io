@@ -10,7 +10,7 @@ mtglink
    :replaces_section_title:
    :noindex:
 
-   MTG\-link is a tool for gap\-filling of scaffolds with linked\-read data using MindTheGap
+   MTG\-link is a local assembly tool for linked\-read data
 
    :homepage: https://github.com/anne-gcd/MTG-Link
    :license: file
@@ -28,10 +28,10 @@ mtglink
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ mtglink
 
    
    :depends biopython: 
-   :depends blast: 
    :depends gfapy: 
-   :depends lrez: ``>=2.2.2``
+   :depends lrez: ``>=2.2.3``
    :depends mindthegap: ``>=2.2.3``
    :depends mummer: 
    :depends pathos: 
+   :depends pysam: 
    :depends python: ``>=3``
-   :depends samtools: 
+   :depends regex: 
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ mtglink
 
     <script>
         var package = "mtglink";
-        var versions = ["2.3.2","2.3.1","2.3.0","2.2.1","2.2.0"];
+        var versions = ["2.4.0","2.3.2","2.3.1","2.3.0","2.2.1"];
     </script>
 
 

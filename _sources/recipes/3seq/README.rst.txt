@@ -27,16 +27,13 @@
       
       
 
-      ``1.8-0``
+      ``1.8-1``,  ``1.8-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +65,7 @@
 
     <script>
         var package = "3seq";
-        var versions = ["1.8"];
+        var versions = ["1.8","1.8"];
     </script>
 
 
