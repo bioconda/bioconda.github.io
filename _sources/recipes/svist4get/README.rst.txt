@@ -12,7 +12,7 @@ svist4get
 
    A simple visualization tool for genomic tracks from sequencing experiments
 
-   :homepage: https://bitbucket.org/artegorov/svist4get/
+   :homepage: https://github.com/art-egorov/svist4get
    :license: OTHER / WTFPL
    :recipe: /`svist4get <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svist4get>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svist4get/meta.yaml>`_
 

@@ -28,7 +28,7 @@ aster
       
       
 
-      ``1.3-0``
+      ``1.3-1``,  ``1.3-0``
 
       
 
@@ -66,7 +66,7 @@ aster
 
     <script>
         var package = "aster";
-        var versions = ["1.3"];
+        var versions = ["1.3","1.3"];
     </script>
 
 
