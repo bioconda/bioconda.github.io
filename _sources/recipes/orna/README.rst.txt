@@ -27,17 +27,16 @@ orna
       
       
 
-      ``2.0-1``,  ``2.0-0``
+      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends boost: ``>=1.74.0,<1.74.1.0a0``
-   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +68,7 @@ orna
 
     <script>
         var package = "orna";
-        var versions = ["2.0","2.0"];
+        var versions = ["2.0","2.0","2.0"];
     </script>
 
 

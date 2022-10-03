@@ -27,7 +27,7 @@ sibeliaz
       
       
 
-      ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
 
@@ -37,7 +37,7 @@ sibeliaz
    :depends libstdcxx-ng: ``>=12``
    :depends maf2synteny: 
    :depends spoa: ``4.0.3-0.*``
-   :depends tbb: ``>=2021.5.0``
+   :depends tbb: ``>=2021.6.0``
    :depends twopaco: ``>0.9.2``
    :requirements:
 
@@ -70,7 +70,7 @@ sibeliaz
 
     <script>
         var package = "sibeliaz";
-        var versions = ["1.2.4","1.2.4","1.2.4","1.2.3","1.2.2"];
+        var versions = ["1.2.5","1.2.5","1.2.4","1.2.4","1.2.4"];
     </script>
 
 
