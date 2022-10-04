@@ -28,13 +28,13 @@ msaprobs
       
       
 
-      ``0.9.7-0``
+      ``0.9.7-1``,  ``0.9.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ msaprobs
 
     <script>
         var package = "msaprobs";
-        var versions = ["0.9.7"];
+        var versions = ["0.9.7","0.9.7"];
     </script>
 
 

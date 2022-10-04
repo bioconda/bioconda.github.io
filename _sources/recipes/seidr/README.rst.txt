@@ -27,21 +27,22 @@ seidr
       
       
 
-      ``0.14.2-0``
+      ``0.14.2-1``,  ``0.14.2-0``
 
       
 
    
    :depends armadillo: ``* *openblas*``
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends coin-or-clp: ``>=1.17.6,<1.18.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends coin-or-clp: ``>=1.17,<1.18.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran4: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends mpich: ``>=3.3,<3.4.0a0``
-   :depends tbb: ``>=2021.1.1``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgfortran5: ``>=10.4.0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends mpich: ``>=4.0,<4.1.0a0``
+   :depends tbb: ``>=2021.6.0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +74,7 @@ seidr
 
     <script>
         var package = "seidr";
-        var versions = ["0.14.2"];
+        var versions = ["0.14.2","0.14.2"];
     </script>
 
 

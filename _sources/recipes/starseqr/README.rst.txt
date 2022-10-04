@@ -27,21 +27,21 @@ starseqr
       
       
 
-      ``0.6.7-3``,  ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
+      ``0.6.7-4``,  ``0.6.7-3``,  ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
 
       
 
    
    :depends gffread: 
    :depends intervaltree_bio: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
    :depends networkx: 
-   :depends numpy: 
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: ``>=0.18.1``
    :depends primer3-py: 
    :depends pysam: ``>=0.9.1.4``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends six: 
    :requirements:
 
@@ -74,7 +74,7 @@ starseqr
 
     <script>
         var package = "starseqr";
-        var versions = ["0.6.7","0.6.7","0.6.7","0.6.7","0.6.6"];
+        var versions = ["0.6.7","0.6.7","0.6.7","0.6.7","0.6.7"];
     </script>
 
 

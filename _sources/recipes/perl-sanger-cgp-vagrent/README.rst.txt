@@ -27,13 +27,13 @@ perl-sanger-cgp-vagrent
       
       
 
-      ``3.7.0-0``,  ``3.6.1-0``,  ``3.5.2-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.3.3-0``,  ``3.2.0-1``,  ``3.2.0-0``
+      ``3.7.0-1``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.5.2-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.3.3-0``,  ``3.2.0-1``,  ``3.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bio-db-hts: 
    :depends perl-bioperl: 
    :depends perl-set-intervaltree: 
@@ -69,7 +69,7 @@ perl-sanger-cgp-vagrent
 
     <script>
         var package = "perl-sanger-cgp-vagrent";
-        var versions = ["3.7.0","3.6.1","3.5.2","3.5.0","3.5.0"];
+        var versions = ["3.7.0","3.7.0","3.6.1","3.5.2","3.5.0"];
     </script>
 
 

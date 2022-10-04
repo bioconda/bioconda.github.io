@@ -27,41 +27,32 @@ datma
       
       
 
-      ``1.0-0``
+      ``2.0-0``,  ``1.0-0``
 
       
 
    
-   :depends blast: ``2.6.0.*``
-   :depends bowtie2: ``2.3.5.*``
-   :depends busco: ``2.0.1.*``
-   :depends bwa: ``0.7.17.*``
-   :depends checkm-genome: ``1.0.12.*``
-   :depends clame: ``1.0 he1b5a44_1``
-   :depends fastqc: ``0.11.8.*``
-   :depends fastx_toolkit: 
+   :depends blast: 
+   :depends bwa: 
+   :depends checkm-genome: 
+   :depends clame: ``1.*``
    :depends flash2: 
-   :depends gmp: 
    :depends kaiju: 
-   :depends kraken: ``1.1.*``
-   :depends krona: ``2.7.*``
+   :depends krona: 
    :depends matplotlib-base: 
-   :depends maven: 
-   :depends megahit: ``1.1.3.*``
+   :depends megahit: 
    :depends mergenotcombined: 
-   :depends openjdk: 
-   :depends pplacer: ``1.1.alpha19.*``
-   :depends prinseq: 
+   :depends numpy: 
    :depends prodigal: 
-   :depends python: ``>=2.7,<=3.6.5``
-   :depends quast: ``5.0.2.*``
+   :depends python: 
+   :depends quast: 
    :depends rapifilt: 
    :depends rdp_classifier: 
-   :depends samtools: ``1.9.*``
+   :depends samtools: 
+   :depends sdsl-lite: 
    :depends selectfasta: 
-   :depends spades: ``3.13.0.*``
+   :depends spades: 
    :depends trimmomatic: 
-   :depends unmerge: 
    :depends velvet: 
    :requirements:
 
@@ -94,7 +85,7 @@ datma
 
     <script>
         var package = "datma";
-        var versions = ["1.0"];
+        var versions = ["2.0","1.0"];
     </script>
 
 

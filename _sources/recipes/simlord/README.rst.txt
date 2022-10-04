@@ -27,17 +27,17 @@ simlord
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.2-2``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.7.3-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.2-2``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.7.3-0``
 
       
 
    
    :depends dinopy: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
    :depends numpy: 
    :depends pysam: ``>=0.8.4``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :requirements:
 
@@ -70,7 +70,7 @@ simlord
 
     <script>
         var package = "simlord";
-        var versions = ["1.0.4","1.0.4","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.3"];
     </script>
 
 

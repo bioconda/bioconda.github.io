@@ -27,7 +27,7 @@ r-shinyngs
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -39,14 +39,17 @@ r-shinyngs
    :depends r-cluster: 
    :depends r-d3heatmap: 
    :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-dt: ``>=0.2``
    :depends r-ggdendro: 
    :depends r-ggplot2: 
+   :depends r-optparse: 
    :depends r-pheatmap: 
    :depends r-plotly: ``>=4.3.4``
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-scatterplot3d: 
    :depends r-shiny: 
    :depends r-shinybs: 
    :depends r-shinyjs: 
@@ -83,7 +86,7 @@ r-shinyngs
 
     <script>
         var package = "r-shinyngs";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.1.0","1.0.1","1.0.0"];
     </script>
 
 

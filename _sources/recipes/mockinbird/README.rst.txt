@@ -29,7 +29,7 @@ mockinbird
       
       
 
-      ``1.0.0a1-4``,  ``1.0.0a1-3``,  ``1.0.0a1-2``,  ``1.0.0a1-1``,  ``1.0.0a1-0``
+      ``1.0.0a1-5``,  ``1.0.0a1-4``,  ``1.0.0a1-3``,  ``1.0.0a1-2``,  ``1.0.0a1-1``,  ``1.0.0a1-0``
 
       
 
@@ -37,7 +37,6 @@ mockinbird
    :depends bowtie: 
    :depends fastqc: 
    :depends jinja2: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 

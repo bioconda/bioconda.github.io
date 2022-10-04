@@ -30,16 +30,14 @@ chorus2
       
       
 
-      ``2.01-0``,  ``2.0.1-0``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.01-1``,  ``2.01-0``,  ``2.0.1-0``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends bcftools: 
-   :depends bwa: ``<=0.7.8``
-   :depends bwa: ``>=0.7.3a``
+   :depends bwa: ``>=0.7.3a,<=0.7.8``
    :depends kmer-jellyfish: ``2.*``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib-base: ``>=3``
    :depends numpy: 
    :depends pandas: 
@@ -48,8 +46,8 @@ chorus2
    :depends pybigwig: 
    :depends pyfasta: 
    :depends pyqt: ``<5.11``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends samtools: 
    :depends sip: ``>=4``
    :requirements:
@@ -83,7 +81,7 @@ chorus2
 
     <script>
         var package = "chorus2";
-        var versions = ["2.01","2.0.1","2.0","2.0","2.0"];
+        var versions = ["2.01","2.01","2.0.1","2.0","2.0"];
     </script>
 
 

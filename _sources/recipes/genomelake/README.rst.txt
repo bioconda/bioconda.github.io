@@ -27,13 +27,13 @@ genomelake
       
       
 
-      ``0.1.4-4``,  ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.4-5``,  ``0.1.4-4``,  ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
    :depends bcolz: ``>=1.1``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
    :depends numpy: 
    :depends pybedtools: 
    :depends pybigwig: 

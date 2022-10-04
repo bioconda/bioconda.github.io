@@ -27,16 +27,18 @@ perl-sanger-cgp-allelecount
       
       
 
-      ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+      ``4.2.1-1``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bio-samtools: 
    :depends perl-bioperl: 
-   :depends perl-devel-cover: 
+   :depends perl-file-slurp: 
+   :depends perl-file-which: 
+   :depends perl-pod-coverage: 
    :depends perl-sanger-cgp-vcf: 
    :requirements:
 
@@ -69,7 +71,7 @@ perl-sanger-cgp-allelecount
 
     <script>
         var package = "perl-sanger-cgp-allelecount";
-        var versions = ["4.2.1","4.1.0","4.0.0","4.0.0","4.0.0"];
+        var versions = ["4.2.1","4.2.1","4.1.0","4.0.0","4.0.0"];
     </script>
 
 

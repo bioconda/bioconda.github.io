@@ -27,17 +27,17 @@ sqt
       
       
 
-      ``0.8.0-3``,  ``0.8.0-2``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.1-0``
+      ``0.8.0-4``,  ``0.8.0-3``,  ``0.8.0-2``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.1-0``
 
       
 
    
    :depends cutadapt: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib: 
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends seaborn: 
    :depends xopen: 
    :requirements:
@@ -71,7 +71,7 @@ sqt
 
     <script>
         var package = "sqt";
-        var versions = ["0.8.0","0.8.0","0.8.0","0.7.0","0.7.0"];
+        var versions = ["0.8.0","0.8.0","0.8.0","0.8.0","0.7.0"];
     </script>
 
 

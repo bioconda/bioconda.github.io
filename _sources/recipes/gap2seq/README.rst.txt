@@ -28,10 +28,10 @@ gap2seq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1-0</code>,  <code>2.1-4</code>,  <code>2.1-3</code>,  <code>2.1-2</code>,  <code>2.1-1</code>,  <code>2.1-0</code>,  <code>2.0-8</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1-0</code>,  <code>2.1-4</code>,  <code>2.1-3</code>,  <code>2.1-2</code>,  <code>2.1-1</code>,  <code>2.1-0</code>,  </span></summary>
       
 
-      ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``
+      ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ gap2seq
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ gap2seq
 
     <script>
         var package = "gap2seq";
-        var versions = ["3.1","3.1","3.1","2.1","2.1"];
+        var versions = ["3.1","3.1","3.1","3.1","2.1"];
     </script>
 
 

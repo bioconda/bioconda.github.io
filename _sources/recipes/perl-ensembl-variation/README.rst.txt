@@ -27,7 +27,7 @@ perl-ensembl-variation
       
       
 
-      ``98-0``
+      ``98-1``,  ``98-0``
 
       
 
@@ -71,7 +71,7 @@ perl-ensembl-variation
 
     <script>
         var package = "perl-ensembl-variation";
-        var versions = ["98"];
+        var versions = ["98","98"];
     </script>
 
 

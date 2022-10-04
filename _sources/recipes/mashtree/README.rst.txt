@@ -40,12 +40,14 @@ mashtree
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends mash: ``>=1.1``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7.2``
    :depends perl-dbd-sqlite: ``>=1.58``
+   :depends perl-file-which: 
    :depends quicktree: 
-   :depends sqlite: 
+   :depends sqlite: ``>=3.39.4,<4.0a0``
    :requirements:
 
    .. rubric:: Installation

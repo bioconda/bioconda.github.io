@@ -28,20 +28,20 @@ blockclust
       
       
 
-      ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
    :depends cloudpickle: ``0.5.6.*``
    :depends eden: ``1.1.*``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends mcl: ``>=14.137``
    :depends pysam: ``>=0.15.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dendextend: ``>=1.8.0``
    :depends scikit-learn: ``>=0.20.0``
    :depends wget: 

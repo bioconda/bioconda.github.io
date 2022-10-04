@@ -28,7 +28,7 @@ tadbit
       
       
 
-      ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.5-1``,  ``0.5-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.5-1``,  ``0.5-0``
 
       
 
@@ -36,8 +36,8 @@ tadbit
    :depends future: 
    :depends gem3-mapper: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends mcl: 
    :depends numpy: 
@@ -77,7 +77,7 @@ tadbit
 
     <script>
         var package = "tadbit";
-        var versions = ["1.0.1","1.0","1.0","0.5","0.5"];
+        var versions = ["1.0.1","1.0.1","1.0","1.0","0.5"];
     </script>
 
 
