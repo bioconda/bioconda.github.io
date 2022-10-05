@@ -37,7 +37,8 @@ mockinbird
    :depends bowtie: 
    :depends fastqc: 
    :depends jinja2: 
-   :depends matplotlib: 
+   :depends libgcc-ng: ``>=12``
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
@@ -48,7 +49,7 @@ mockinbird
    :depends r-lsd: 
    :depends samtools: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends star: 
    :depends xxmotif: 
    :requirements:

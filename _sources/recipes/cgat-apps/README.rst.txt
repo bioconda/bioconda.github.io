@@ -28,10 +28,10 @@ cgat-apps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.5-3</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
       .. raw:: html
@@ -47,18 +47,17 @@ cgat-apps
    :depends coreutils: 
    :depends future: 
    :depends grep: 
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
    :depends jinja2: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=14.0.4``
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pysam: ``>=0.17.0``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: 
    :depends quicksect: 
    :depends scikit-learn: 
@@ -68,7 +67,7 @@ cgat-apps
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-wigtobigwig: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +99,7 @@ cgat-apps
 
     <script>
         var package = "cgat-apps";
-        var versions = ["0.6.5","0.6.5","0.6.5","0.6.4","0.6.4"];
+        var versions = ["0.6.5","0.6.5","0.6.5","0.6.5","0.6.4"];
     </script>
 
 

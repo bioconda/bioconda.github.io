@@ -27,13 +27,14 @@ perl-bio-mlst-check
       
       
 
-      ``2.1.1706216-2``,  ``2.1.1706216-1``,  ``2.1.1706216-0``
+      ``2.1.1706216-3``,  ``2.1.1706216-2``,  ``2.1.1706216-1``,  ``2.1.1706216-0``
 
       
 
    
    :depends blast: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-bio-procedural: 
    :depends perl-bioperl: 
    :depends perl-data-dumper: 
    :depends perl-exporter: 
@@ -41,7 +42,9 @@ perl-bio-mlst-check
    :depends perl-file-temp: 
    :depends perl-file-which: 
    :depends perl-getopt-long: 
+   :depends perl-io-scalar: 
    :depends perl-lib: 
+   :depends perl-libwww-perl: 
    :depends perl-lwp-simple: 
    :depends perl-moose: 
    :depends perl-parallel-forkmanager: 
@@ -80,7 +83,7 @@ perl-bio-mlst-check
 
     <script>
         var package = "perl-bio-mlst-check";
-        var versions = ["2.1.1706216","2.1.1706216","2.1.1706216"];
+        var versions = ["2.1.1706216","2.1.1706216","2.1.1706216","2.1.1706216"];
     </script>
 
 
