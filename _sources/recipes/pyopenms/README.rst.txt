@@ -29,10 +29,10 @@ pyopenms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -57,7 +57,7 @@ pyopenms
    :depends python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends python_abi: ``3.10.* *_cp310``
    :depends qt: ``>=5.12.9,<5.13.0a0``
-   :depends sqlite: ``>=3.39.2,<4.0a0``
+   :depends sqlite: ``>=3.39.4,<4.0a0``
    :depends xerces-c: ``>=3.2.3,<3.3.0a0``
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
@@ -91,7 +91,7 @@ pyopenms
 
     <script>
         var package = "pyopenms";
-        var versions = ["2.8.0","2.7.0","2.6.0","2.5.0","2.5.0"];
+        var versions = ["2.8.0","2.8.0","2.7.0","2.6.0","2.5.0"];
     </script>
 
 

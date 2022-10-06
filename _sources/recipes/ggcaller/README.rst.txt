@@ -26,9 +26,17 @@ ggcaller
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+      
 
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -51,16 +59,16 @@ ggcaller
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: 
    :depends python-wget: 
-   :depends python_abi: ``3.8.* *_cp38``
-   :depends pytorch: ``>=1.11.0,<1.12.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends pytorch: ``>=1.12.1,<1.13.0a0``
    :depends rapidnj: 
    :depends scipy: 
    :depends seaborn: 
    :depends snp-sites: 
-   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends tbb: ``>=2021.6.0``
    :depends tqdm: 
    :depends uncertainties: 
    :depends xorg-libxaw: 
@@ -104,7 +112,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.3.0","1.2.4","1.2.4","1.2.4","1.2.3"];
+        var versions = ["1.3.0","1.3.0","1.2.4","1.2.4","1.2.4"];
     </script>
 
 

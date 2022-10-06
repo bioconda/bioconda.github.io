@@ -31,10 +31,10 @@ genomepy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.0-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.0-1</code>,  <code>0.14.0-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.3-0</code>,  </span></summary>
       
 
-      ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-0``
+      ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ genomepy
    :depends click: 
    :depends colorama: 
    :depends diskcache: 
-   :depends filelock: 
+   :depends filelock: ``>=3.5``
    :depends loguru: 
    :depends mygene: 
    :depends mysql-connector-python: 
@@ -56,7 +56,7 @@ genomepy
    :depends numpy: 
    :depends pandas: 
    :depends pyfaidx: ``>=0.5.7``
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends requests: 
    :depends tabix: 
    :depends tqdm: ``>=4.51``
@@ -96,7 +96,7 @@ genomepy
 
     <script>
         var package = "genomepy";
-        var versions = ["0.14.0","0.13.1","0.13.0","0.12.0","0.11.1"];
+        var versions = ["0.14.0","0.14.0","0.13.1","0.13.0","0.12.0"];
     </script>
 
 
