@@ -27,13 +27,13 @@ parse-vcf
       
       
 
-      ``0.2.8-0``
+      ``0.2.8-1``,  ``0.2.8-0``
 
       
 
    
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ parse-vcf
 
     <script>
         var package = "parse-vcf";
-        var versions = ["0.2.8"];
+        var versions = ["0.2.8","0.2.8"];
     </script>
 
 

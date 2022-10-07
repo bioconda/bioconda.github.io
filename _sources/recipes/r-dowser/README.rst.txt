@@ -27,7 +27,7 @@ r-dowser
       
       
 
-      ``1.0.0-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
 
@@ -80,7 +80,7 @@ r-dowser
 
     <script>
         var package = "r-dowser";
-        var versions = ["1.0.0","0.1.0"];
+        var versions = ["1.1.0","1.0.0","0.1.0"];
     </script>
 
 

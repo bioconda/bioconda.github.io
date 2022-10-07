@@ -27,20 +27,29 @@ sierrapy
       
       
 
-      ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``0.4.1-0``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
 
    
-   :depends click: ``>=6.7``
-   :depends gql: ``>=0.1.0,<2.0a0``
-   :depends graphql-core: ``>=0.5.3,<2.0a0``
-   :depends promise: ``>=0.4.2``
+   :depends backoff: ``>=1.6.0``
+   :depends certifi: ``>=2022.9.24``
+   :depends charset-normalizer: ``>=2.1.1``
+   :depends click: ``>=8.1.3``
+   :depends gql: ``>=3.4.0``
+   :depends graphql-core: ``>=3.2.3``
+   :depends idna: ``>=3.4``
+   :depends more-itertools: ``>=8.14.0``
+   :depends multidict: ``>=6.0.2``
+   :depends promise: ``>=2.3``
    :depends python: 
-   :depends requests: ``>=2.11.1``
-   :depends six: ``>=1.10.0``
-   :depends tqdm: ``>=4.8.4``
-   :depends voluptuous: ``>=0.10.5``
+   :depends requests: ``>=2.28.1``
+   :depends requests-toolbelt: ``>=0.8.0``
+   :depends six: ``>=1.16.0``
+   :depends tqdm: ``>=4.64.1``
+   :depends urllib3: ``>=1.25.8``
+   :depends voluptuous: ``>=0.13.1``
+   :depends yarl: ``>=1.8.1``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +81,7 @@ sierrapy
 
     <script>
         var package = "sierrapy";
-        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1"];
+        var versions = ["0.4.1","0.2.1","0.2.1","0.2.1","0.2.1"];
     </script>
 
 

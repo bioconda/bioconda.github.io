@@ -14,6 +14,8 @@ abismal
 
 
    :homepage: https://github.com/smithlabcode/abismal
+   :documentation: https://github.com/smithlabcode/abismal/blob/master/docs/MANUAL.md
+   
    :license: GPL-3.0-only
    :recipe: /`abismal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abismal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abismal/meta.yaml>`_
 
@@ -28,7 +30,7 @@ abismal
       
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -69,7 +71,7 @@ abismal
 
     <script>
         var package = "abismal";
-        var versions = ["3.0.0","3.0.0","2.0.0","1.0.0","1.0.0"];
+        var versions = ["3.1.1","3.0.0","3.0.0","2.0.0","1.0.0"];
     </script>
 
 

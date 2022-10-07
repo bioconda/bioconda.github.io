@@ -27,7 +27,7 @@ r-alakazam
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
@@ -35,8 +35,8 @@ r-alakazam
    :depends bioconductor-biostrings: ``>=2.56.0``
    :depends bioconductor-genomicalignments: ``>=1.24.0``
    :depends bioconductor-iranges: ``>=2.22.2``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-airr: ``>=1.3``
    :depends r-ape: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -84,7 +84,7 @@ r-alakazam
 
     <script>
         var package = "r-alakazam";
-        var versions = ["1.2.0","1.2.0","0.2.10","0.2.8","0.2.7"];
+        var versions = ["1.2.1","1.2.0","1.2.0","0.2.10","0.2.8"];
     </script>
 
 

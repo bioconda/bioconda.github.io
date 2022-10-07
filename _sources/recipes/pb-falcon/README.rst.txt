@@ -28,10 +28,10 @@ pb-falcon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.4-1</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.4-2</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.7-1``,  ``0.2.6-3``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
+      ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.7-1``,  ``0.2.6-3``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
 
       
       .. raw:: html
@@ -41,17 +41,17 @@ pb-falcon
 
    
    :depends future: ``>=0.16.0``
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends networkx: ``>=1.9.1``
    :depends numpy: 
    :depends pysam: 
-   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: ``>=1.2.4``
    :depends python-intervaltree: 
    :depends python-msgpack: ``>=0.6.1``
-   :depends python_abi: ``3.7.* *_cp37m``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ pb-falcon
 
     <script>
         var package = "pb-falcon";
-        var versions = ["2.2.4","2.2.4","2.2.3","2.2.2","2.2.1"];
+        var versions = ["2.2.4","2.2.4","2.2.4","2.2.3","2.2.2"];
     </script>
 
 

@@ -27,17 +27,18 @@ bte
       
       
 
-      ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
 
       
 
    
-   :depends boost-cpp: ``1.73.0.*``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends protobuf: ``3.19.*``
    :depends python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends tbb: ``>=2019.0``
    :depends tbb-devel: ``2019.0.*``
    :requirements:
 
@@ -70,7 +71,7 @@ bte
 
     <script>
         var package = "bte";
-        var versions = ["0.8.2","0.8.1","0.8.0"];
+        var versions = ["0.8.3","0.8.2","0.8.1","0.8.0"];
     </script>
 
 
