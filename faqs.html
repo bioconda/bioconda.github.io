@@ -90,6 +90,10 @@
 <li class="toctree-l2"><a class="reference internal" href="#how-do-i-keep-track-of-environments">How do I keep track of environments?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-a-recipe-and-a-package">What’s the difference between a recipe and a package?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba">What’s the difference between miniconda, miniforge, mambaforge, micromamba?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-are-bioconductor-data-packages-failing-to-install">Why are Bioconductor data packages failing to install?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-a-build-number-and-a-package-version">What’s the difference between a build number and a package version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls">Why shouldn’t I include build numbers in my environment YAMLs?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a></li>
@@ -291,6 +295,145 @@ with <code class="docutils literal notranslate"><span class="pre">conda</span> <
 what a package contains and how it is installed into an
 environment.</p>
 </div>
+</section>
+<section id="what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba">
+<h2>What’s the difference between miniconda, miniforge, mambaforge, micromamba?<a class="headerlink" href="#what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba" title="Permalink to this heading">¶</a></h2>
+<p><strong>Miniconda</strong> is the slimmed-down version of the Anaconda distribution;
+miniconda only has conda and its dependencies.</p>
+<p><strong>Miniforge</strong> is like miniconda, but with the conda-forge channel preconfigured
+and all packages coming from the conda-forge and <em>not</em> the <code class="docutils literal notranslate"><span class="pre">defaults</span></code>
+channel.</p>
+<p><strong>Mambaforge</strong> is like miniforge, but has mamba installed into the base environment.</p>
+<p><strong>Micromamba</strong> is not a conda distribution. Rather, it is a minimal binary that
+has roughly the same commands as mamba, so that a single executable (rather
+than an entire Python installation required for conda itself) can be used to
+create environments. Micromamba is currently still experimental.</p>
+</section>
+<section id="why-are-bioconductor-data-packages-failing-to-install">
+<h2>Why are Bioconductor data packages failing to install?<a class="headerlink" href="#why-are-bioconductor-data-packages-failing-to-install" title="Permalink to this heading">¶</a></h2>
+<p>When creating an environment containing Bioconductor data packages, you may get
+errors like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ne">ValueError</span><span class="p">:</span> <span class="n">unsupported</span> <span class="nb">format</span> <span class="n">character</span> <span class="s1">&#39;T&#39;</span> <span class="p">(</span><span class="mh">0x54</span><span class="p">)</span> <span class="n">at</span> <span class="n">index</span> <span class="mi">648</span>
+</pre></div>
+</div>
+<p>The actual error will be somewhere above that, with something like this (here,
+it’s for the <code class="docutils literal notranslate"><span class="pre">bioconductor-org.hs.eg.db=3.14.0=r41hdfd78af_0</span></code> package):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">message</span><span class="p">:</span>
+<span class="n">post</span><span class="o">-</span><span class="n">link</span> <span class="n">script</span> <span class="n">failed</span> <span class="k">for</span> <span class="n">package</span> <span class="n">bioconda</span><span class="p">::</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">org</span><span class="o">.</span><span class="n">hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db</span><span class="o">-</span><span class="mf">3.14.0</span><span class="o">-</span><span class="n">r41hdfd78af_0</span>
+<span class="n">location</span> <span class="n">of</span> <span class="n">failed</span> <span class="n">script</span><span class="p">:</span> <span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">dalerr</span><span class="o">/</span><span class="n">env</span><span class="o">/</span><span class="nb">bin</span><span class="o">/.</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">org</span><span class="o">.</span><span class="n">hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db</span><span class="o">-</span><span class="n">post</span><span class="o">-</span><span class="n">link</span><span class="o">.</span><span class="n">sh</span>
+<span class="o">==&gt;</span> <span class="n">script</span> <span class="n">messages</span> <span class="o">&lt;==</span>
+<span class="o">&lt;</span><span class="kc">None</span><span class="o">&gt;</span>
+<span class="o">==&gt;</span> <span class="n">script</span> <span class="n">output</span> <span class="o">&lt;==</span>
+<span class="n">stdout</span><span class="p">:</span> <span class="n">ERROR</span><span class="p">:</span> <span class="n">post</span><span class="o">-</span><span class="n">link</span><span class="o">.</span><span class="n">sh</span> <span class="n">was</span> <span class="n">unable</span> <span class="n">to</span> <span class="n">download</span> <span class="nb">any</span> <span class="n">of</span> <span class="n">the</span> <span class="n">following</span> <span class="n">URLs</span> <span class="k">with</span> <span class="n">the</span> <span class="n">md5sum</span> <span class="n">ef7fc0096ec579f564a33f0f4869324a</span><span class="p">:</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">bioconductor</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">packages</span><span class="o">/</span><span class="mf">3.14</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">annotation</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">contrib</span><span class="o">/</span><span class="n">org</span><span class="o">.</span><span class="n">Hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db_3</span><span class="mf">.14.0</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">bioarchive</span><span class="o">.</span><span class="n">galaxyproject</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">org</span><span class="o">.</span><span class="n">Hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db_3</span><span class="mf">.14.0</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">depot</span><span class="o">.</span><span class="n">galaxyproject</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">org</span><span class="o">.</span><span class="n">hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db</span><span class="o">/</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">org</span><span class="o">.</span><span class="n">hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db_3</span><span class="mf">.14.0</span><span class="n">_src_all</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</pre></div>
+</div>
+<p><strong>To fix it</strong>, you need to adjust the requirements. If you had this as a requirement:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bioconductor</span><span class="o">-</span><span class="n">org</span><span class="o">.</span><span class="n">hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db</span><span class="o">=</span><span class="mf">3.14.0</span><span class="o">=</span><span class="n">r41hdfd78af_0</span>
+</pre></div>
+</div>
+<p>then increase the build number on the end, here from <code class="docutils literal notranslate"><span class="pre">_0</span></code> to <code class="docutils literal notranslate"><span class="pre">_1</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bioconductor</span><span class="o">-</span><span class="n">org</span><span class="o">.</span><span class="n">hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db</span><span class="o">=</span><span class="mf">3.14.0</span><span class="o">=</span><span class="n">r41hdfd78af_1</span>
+</pre></div>
+</div>
+<p>or, relax the exact build constraint while keeping the package version the same:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bioconductor</span><span class="o">-</span><span class="n">org</span><span class="o">.</span><span class="n">hs</span><span class="o">.</span><span class="n">eg</span><span class="o">.</span><span class="n">db</span><span class="o">=</span><span class="mf">3.14.0</span>
+</pre></div>
+</div>
+<p>and then re-build your environment.</p>
+<p><strong>The reason this is happening</strong> is a combination of factors. Early on in
+Bioconda’s history we made the decision that pure data packages – like
+Bioconductor data packages, which can be multiple GB in size – would not be
+directly converted into conda packages. That way, we could avoid additional
+storage load on Anaconda’s servers since the data were already available from
+Bioconductor, and we could provide a mechanism to use the data packages within
+an R environment living in a conda environment. This mechanism is
+a <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/latest/resources/link-scripts.html">post-link.sh</a>
+script for the recipe.</p>
+<p>When a user installs the package via conda, the GB of data aren’t in the
+package. Rather, the URL pointing to the tarball is in the post-link script,
+and the script uses <code class="docutils literal notranslate"><span class="pre">curl</span></code> to download the package from Bioconductor and
+install into the conda environment’s R library. We also set up separate
+infrastructure to archive data packages to other servers, and these archive
+URLs were also stored in the post-link scripts as backups.</p>
+<p><em>The problem is that back then, we assumed that URLs would be stable and we did
+not use the</em> <code class="docutils literal notranslate"><span class="pre">-L</span></code> <em>argument for curl in post-link scripts</em>.</p>
+<p>Recently Bioconductor packages have moved to a different server (XSEDE/ACCESS).
+The old URL, the one hard-coded in the post-link scripts, is correctly now
+a redirect to the new location. But without <code class="docutils literal notranslate"><span class="pre">-L</span></code>, the existing recipes and
+their post-link scripts cannot follow the redirect! Compounding this, the
+archive URLs stopped being generated, so the backup strategy also failed.</p>
+<p>The fix was to re-build all Bioconductor data packages and include the <code class="docutils literal notranslate"><span class="pre">-L</span></code>
+argument, allowing them to follow the redirect and correctly install the
+package. Conda packages have the idea of a “build number”, which allows us to
+still provide the same version of the package (3.14.0 in the example above) but
+packaged differently (in this case, with a post-link script that works in
+Bioconductor’s current server environment).</p>
+<p><strong>Reproducibility is hard.</strong> We are trying our best, and conda is an amazing
+resource. But the fact that a single entity does not (and should not!) control
+all code, data, packages, distribution mechanisms, and installation mechanisms,
+means that we will always be at risk of similar situations in the future.
+Hopefully we are guarding better against this particular issue, but see
+<a class="reference external" href="http://dx.doi.org/10.1016/j.cels.2018.03.014">Grüning et al 2018</a>
+(especially Fig 1) for advice on more reproducible strategies you can use for
+your own work.</p>
+</section>
+<section id="what-s-the-difference-between-a-build-number-and-a-package-version">
+<span id="version-vs-build"></span><h2>What’s the difference between a build number and a package version?<a class="headerlink" href="#what-s-the-difference-between-a-build-number-and-a-package-version" title="Permalink to this heading">¶</a></h2>
+<p>A <em>package version</em> is the version of the tool. A tool can possibly be packaged
+multiple times, even though the underlying tool doesn’t change. In such a case,
+the package version remains unchanged, but the <em>build number</em> chances.</p>
+<p>The Bioconductor data packages described above are one example of what would
+cause a change in build number (i.e., adding a single argument to
+a post-installation script). Other times, a package might have omitted an
+executable that should have been included, so a new build for the same version
+is created that fixes that packaging issue, without changing anything in the
+package itself. In rare cases, packages are completely broken, and are moved to
+a “broken” label in the conda channel, effectively removing them from being
+installed by default.</p>
+<p>More often, build numbers change due to underlying dependencies across the
+entire Bioconda and conda-forge ecosystem. These build numbers include a hash.
+That hash is generated by concatenating all of the pinned versions of packages
+that are dependencies of that package.</p>
+<p>For example, <code class="docutils literal notranslate"><span class="pre">samtools==1.15.1=h1170115_0</span></code> refers to version 1.15.1 of
+<code class="docutils literal notranslate"><span class="pre">samtools</span></code>. The build number is <code class="docutils literal notranslate"><span class="pre">h1170115_0</span></code>.  The hash part is the
+<code class="docutils literal notranslate"><span class="pre">h1170115</span></code>, and the <code class="docutils literal notranslate"><span class="pre">_0</span></code> refers to the first (zero-indexing) build of this
+samtools version and this hash.</p>
+<p>The hash, in turn is calculated by looking at the dependencies of samtools. The
+dependencies happen to include things like a C compiler (gcc), the zlib and htslib
+libraries and make. Some of these dependencies are “pinned”. That is, they are
+fixed to a particular version or versions, and those versions are used
+everywhere in conda-forge and Bioconda to maintain ABI compatibility
+(basically, to let packages co-exist in the same environment). You can find the
+conda-forge pinnings <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/main/recipe/conda_build_config.yaml">here</a>,
+and the bioconda-specific ones <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">here</a>.</p>
+<p>In the case of samtools, that hash <code class="docutils literal notranslate"><span class="pre">h1170115</span></code> incorporates the packages and
+versions of all of its dependencies that are pinned. That includes gcc, zlib,
+and htslib. But it doesn’t include make in that hash, because make is not
+pinned in those files.</p>
+<p>The build number is likely to change, and you probably should avoid including
+the build number in your environment specifications – see <a class="reference internal" href="#no-builds"><span class="std std-ref">Why shouldn’t I include build numbers in my environment YAMLs?</span></a> for
+more information on this.</p>
+</section>
+<section id="why-shouldn-t-i-include-build-numbers-in-my-environment-yamls">
+<span id="no-builds"></span><h2>Why shouldn’t I include build numbers in my environment YAMLs?<a class="headerlink" href="#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls" title="Permalink to this heading">¶</a></h2>
+<p>As described at <a class="reference internal" href="#version-vs-build"><span class="std std-ref">What’s the difference between a build number and a package version?</span></a>, build numbers may change over time,
+independently of the actual package version. This means that when you are
+recording the packages installed in an environment, it is not useful to record
+the build number, as this is effectively over-specifying and may cause
+difficulty when trying to re-create the environment.</p>
+<p>To record the installed packages in an environment, we recommend the
+<code class="docutils literal notranslate"><span class="pre">--no-builds</span></code> argument to <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">export</span></code>. For example, with an
+environment activated:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">env</span> <span class="n">export</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">builds</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">--no-builds</span></code> argument completely removes the build number from the
+output, avoiding future errors when trying to rebuild the environment, and
+allowing the conda solver to identify the packages that can co-exist in the
+same environment.</p>
 </section>
 </section>
 

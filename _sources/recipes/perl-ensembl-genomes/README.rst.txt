@@ -27,7 +27,7 @@ perl-ensembl-genomes
       
       
 
-      ``44-0``
+      ``44-1``,  ``44-0``
 
       
 
@@ -66,7 +66,7 @@ perl-ensembl-genomes
 
     <script>
         var package = "perl-ensembl-genomes";
-        var versions = ["44"];
+        var versions = ["44","44"];
     </script>
 
 

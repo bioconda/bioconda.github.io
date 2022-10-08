@@ -29,7 +29,7 @@ hail
       
       
 
-      ``0.2.61-1``,  ``0.2.61-0``,  ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
+      ``0.2.61-2``,  ``0.2.61-1``,  ``0.2.61-0``,  ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
 
       
 
@@ -47,8 +47,8 @@ hail
    :depends google-cloud-storage: 
    :depends humanize: 
    :depends hurry.filesize: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends jinja2: ``<3.1``
+   :depends libcxx: ``>=14.0.4``
    :depends nest-asyncio: 
    :depends openjdk: ``8.*``
    :depends parsimonious: 
@@ -92,7 +92,7 @@ hail
 
     <script>
         var package = "hail";
-        var versions = ["0.2.61","0.2.61","0.2.58","0.2.33","0.2.33"];
+        var versions = ["0.2.61","0.2.61","0.2.61","0.2.58","0.2.33"];
     </script>
 
 

@@ -27,15 +27,15 @@ metapop
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
-   :depends bcftools: ``1.9.*``
+   :depends bcftools: 
    :depends bioconductor-biostrings: 
    :depends bioconductor-rsamtools: 
-   :depends r-base: 
+   :depends r-base: ``>=4.0,<4.1``
    :depends r-bit64: 
    :depends r-compositions: 
    :depends r-cowplot: 
@@ -47,7 +47,7 @@ metapop
    :depends r-rcolorbrewer: 
    :depends r-stringr: 
    :depends r-vegan: 
-   :depends samtools: ``1.9.*``
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ metapop
 
     <script>
         var package = "metapop";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.2","1.0.2"];
     </script>
 
 
