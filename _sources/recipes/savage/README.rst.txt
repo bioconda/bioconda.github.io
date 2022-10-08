@@ -26,17 +26,26 @@ savage
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-1</code>,  </span></summary>
+      
 
+      ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bwa: 
    :depends kallisto: ``>=0.43.0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :depends rust-overlaps: 
@@ -71,7 +80,7 @@ savage
 
     <script>
         var package = "savage";
-        var versions = ["0.4.2","0.4.2","0.4.1","0.4.0","0.4.0"];
+        var versions = ["0.4.2","0.4.2","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

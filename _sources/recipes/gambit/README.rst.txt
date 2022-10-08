@@ -34,7 +34,7 @@ gambit
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``
+      ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -47,9 +47,10 @@ gambit
    :depends h5py: ``>=3.0``
    :depends libgcc-ng: ``>=12``
    :depends numpy: ``>=1.13``
-   :depends numpy: ``>=1.23.2,<2.0a0``
+   :depends numpy: ``>=1.23.3,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends scipy: ``>=1.7``
    :depends setuptools: 
    :depends sqlalchemy: ``>=1.1``
    :requirements:
@@ -83,7 +84,7 @@ gambit
 
     <script>
         var package = "gambit";
-        var versions = ["0.5.1","0.5.0"];
+        var versions = ["1.0.0","0.5.1","0.5.0"];
     </script>
 
 

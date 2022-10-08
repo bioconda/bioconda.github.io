@@ -30,10 +30,10 @@ spectrum_utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,13 +43,15 @@ spectrum_utils
 
    
    :depends altair: 
+   :depends appdirs: 
+   :depends fastobo: 
+   :depends lark: ``>=1.0``
    :depends matplotlib-base: 
    :depends numba: ``>=0.47``
    :depends numpy: 
    :depends pandas: 
-   :depends pyteomics: 
-   :depends python: ``>=3.6``
-   :depends rdkit: 
+   :depends pyteomics: ``>=4.5``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +83,7 @@ spectrum_utils
 
     <script>
         var package = "spectrum_utils";
-        var versions = ["0.3.5","0.3.4","0.3.3","0.3.2","0.3.2"];
+        var versions = ["0.4.0","0.3.5","0.3.4","0.3.3","0.3.2"];
     </script>
 
 
