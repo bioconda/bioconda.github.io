@@ -48,10 +48,10 @@ metagenome-atlas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  </span></summary>
       
 
-      ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6a4-0``,  ``2.6a2-0``,  ``2.6a1-0``,  ``2.5.0-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.beta2-0``,  ``2.2.0-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.0.6-1``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.12.0-0``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6a4-0``,  ``2.6a2-0``,  ``2.6a1-0``,  ``2.5.0-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.beta2-0``,  ``2.2.0-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.0.6-1``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
       .. raw:: html
@@ -60,17 +60,20 @@ metagenome-atlas
       
 
    
-   :depends bbmap: ``38.*``
+   :depends bbmap: ``>=38.99``
    :depends click: ``>=7``
    :depends cookiecutter: 
+   :depends graphviz: 
    :depends mamba: 
+   :depends networkx: 
    :depends numpy: ``1.21.*``
    :depends pandas: ``>=1.2,<1.5``
-   :depends pathlib2: 
+   :depends pathlib: 
    :depends pyarrow: ``8.*``
+   :depends pygments: 
    :depends python: ``>=3.8,<3.11``
-   :depends ruamel.yaml: ``0.17.*``
-   :depends snakemake-minimal: ``7.3.*``
+   :depends ruamel.yaml: ``>=0.17``
+   :depends snakemake-minimal: ``>=7.15.1,<7.16``
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +105,7 @@ metagenome-atlas
 
     <script>
         var package = "metagenome-atlas";
-        var versions = ["2.11.1","2.11.0","2.11.0","2.10.0","2.9.1"];
+        var versions = ["2.12.0","2.11.1","2.11.0","2.11.0","2.10.0"];
     </script>
 
 

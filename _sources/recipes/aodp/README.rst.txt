@@ -28,15 +28,16 @@ aodp
       
       
 
-      ``2.5.0.1-0``
+      ``2.5.0.2-0``,  ``2.5.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7.2``
+   :depends perl-list-moreutils: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +69,7 @@ aodp
 
     <script>
         var package = "aodp";
-        var versions = ["2.5.0.1"];
+        var versions = ["2.5.0.2","2.5.0.1"];
     </script>
 
 

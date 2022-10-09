@@ -27,7 +27,7 @@ bird_tool_utils_python
       
       
 
-      ``0.2.17-0``
+      ``0.3.6-0``,  ``0.2.17-0``
 
       
 
@@ -65,7 +65,7 @@ bird_tool_utils_python
 
     <script>
         var package = "bird_tool_utils_python";
-        var versions = ["0.2.17"];
+        var versions = ["0.3.6","0.2.17"];
     </script>
 
 
