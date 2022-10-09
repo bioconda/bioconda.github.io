@@ -28,15 +28,14 @@ anise_basil
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libcxx: ``>=14.0.4``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +67,7 @@ anise_basil
 
     <script>
         var package = "anise_basil";
-        var versions = ["1.2.0","1.2.0","1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0"];
     </script>
 
 
