@@ -27,11 +27,12 @@ perl-bio-das
       
       
 
-      ``1.17-0``
+      ``1.17-1``,  ``1.17-0``
 
       
 
    
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl-core: 
    :depends perl-html-parser: 
    :depends perl-mime-base64: 
@@ -66,7 +67,7 @@ perl-bio-das
 
     <script>
         var package = "perl-bio-das";
-        var versions = ["1.17"];
+        var versions = ["1.17","1.17"];
     </script>
 
 

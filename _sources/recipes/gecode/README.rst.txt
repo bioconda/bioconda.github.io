@@ -28,10 +28,10 @@ gecode
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.2.0-1</code>,  <code>6.2.0-0</code>,  <code>5.1.0-2</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-3</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.2.0-1</code>,  <code>6.2.0-0</code>,  <code>5.1.0-2</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-4</code>,  <code>5.0.0-3</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  </span></summary>
       
 
-      ``6.2.0-1``,  ``6.2.0-0``,  ``5.1.0-2``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.4.0-4``,  ``4.4.0-3``,  ``4.4.0-2``,  ``4.4.0-1``
+      ``6.2.0-1``,  ``6.2.0-0``,  ``5.1.0-2``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.4.0-4``,  ``4.4.0-3``,  ``4.4.0-2``,  ``4.4.0-1``
 
       
       .. raw:: html

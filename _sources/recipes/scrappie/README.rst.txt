@@ -27,21 +27,24 @@ scrappie
       
       
 
-      ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.2-2``,  ``1.3.2-0``
+      ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.2-2``,  ``1.3.2-0``
 
       
 
    
    :depends cffi: ``>=1.0.0``
    :depends cunit: 
-   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends numpy: 
+   :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends mkl: 
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends openblas: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +76,7 @@ scrappie
 
     <script>
         var package = "scrappie";
-        var versions = ["1.4.2","1.4.2","1.4.2","1.4.1","1.3.2"];
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.2","1.4.1"];
     </script>
 
 

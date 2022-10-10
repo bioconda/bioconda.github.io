@@ -29,10 +29,10 @@ centrifuge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4_beta-6</code>,  <code>1.0.4_beta-5</code>,  <code>1.0.4_beta-4</code>,  <code>1.0.4_beta-3</code>,  <code>1.0.4_beta-2</code>,  <code>1.0.4_beta-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-0</code>,  <code>1.0.4_beta-6</code>,  <code>1.0.4_beta-5</code>,  <code>1.0.4_beta-4</code>,  <code>1.0.4_beta-3</code>,  <code>1.0.4_beta-2</code>,  <code>1.0.4_beta-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  </span></summary>
       
 
-      ``1.0.4_beta-6``,  ``1.0.4_beta-5``,  ``1.0.4_beta-4``,  ``1.0.4_beta-3``,  ``1.0.4_beta-2``,  ``1.0.4_beta-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.4_beta-6``,  ``1.0.4_beta-5``,  ``1.0.4_beta-4``,  ``1.0.4_beta-3``,  ``1.0.4_beta-2``,  ``1.0.4_beta-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -41,13 +41,14 @@ centrifuge
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends perl: 
    :depends python: ``<3``
    :depends tar: 
    :depends wget: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +80,7 @@ centrifuge
 
     <script>
         var package = "centrifuge";
-        var versions = ["1.0.4_beta","1.0.4_beta","1.0.4_beta","1.0.4_beta","1.0.4_beta"];
+        var versions = ["1.0.4","1.0.4_beta","1.0.4_beta","1.0.4_beta","1.0.4_beta"];
     </script>
 
 
