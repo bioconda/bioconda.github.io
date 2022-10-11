@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Package Recipe &#39;perl-regexp-common&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;r-crisprcleanr&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -106,66 +106,66 @@
 
           <div class="body" role="main">
             
-  <section id="perl-regexp-common">
+  <section id="r-crisprcleanr">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">perl-regexp-common</span></span></dt>
-<dd><p>Provide commonly requested regular expressions</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">r-crisprcleanr</span></span></dt>
+<dd><p>Analysis of CRISPR functional genomics, remove false positive due to CNVs.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://metacpan.org/pod/Regexp::Common">http://metacpan.org/pod/Regexp::Common</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/francescojm/CRISPRcleanR">https://github.com/francescojm/CRISPRcleanR</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>mit</p>
+<dd class="field-even"><p>AGPL / AGPL-3</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-regexp-common">perl-regexp-common</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-regexp-common/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-crisprcleanr">r-crisprcleanr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-crisprcleanr/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-perl-regexp-common">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">perl-regexp-common</span></span><a class="headerlink" href="#package-perl-regexp-common" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-regexp-common"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-regexp-common.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-regexp-common"><img alt="docker_perl-regexp-common" src="https://quay.io/repository/biocontainers/perl-regexp-common/status" /></a></p>
+<dt class="sig sig-object conda" id="package-r-crisprcleanr">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">r-crisprcleanr</span></span><a class="headerlink" href="#package-r-crisprcleanr" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-crisprcleanr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-crisprcleanr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-crisprcleanr"><img alt="docker_r-crisprcleanr" src="https://quay.io/repository/biocontainers/r-crisprcleanr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2017060201-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2017060201-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2016060801-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2016060801-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.3.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-dnacopy/README.html#package-bioconductor-dnacopy" title="bioconductor-dnacopy package"><strong>bioconductor-dnacopy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.68</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-pracma-feedstock"><strong>r-pracma</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-proc-feedstock"><strong>r-proc</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-prroc-feedstock"><strong>r-prroc</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-stringr-feedstock"><strong>r-stringr</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../circos/README.html#circos"><strong class="xref backref">circos</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../circos-tools/README.html#circos-tools"><strong class="xref backref">circos-tools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-mlst-check/README.html#perl-bio-mlst-check"><strong class="xref backref">perl-bio-mlst-check</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mirnature/README.html#mirnature"><strong class="xref backref">mirnature</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-statistics-r/README.html#perl-statistics-r"><strong class="xref backref">perl-statistics-r</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">perl</span><span class="o">-</span><span class="n">regexp</span><span class="o">-</span><span class="n">common</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">crisprcleanr</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">perl</span><span class="o">-</span><span class="n">regexp</span><span class="o">-</span><span class="n">common</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">crisprcleanr</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">regexp</span><span class="o">-</span><span class="n">common</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">crisprcleanr</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-regexp-common?tab=tags">perl-regexp-common/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-crisprcleanr?tab=tags">r-crisprcleanr/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>
-    var package = "perl-regexp-common";
-    var versions = ["2017060201","2017060201","2016060801","2016060801"];
+    var package = "r-crisprcleanr";
+    var versions = ["2.3.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -196,8 +196,8 @@
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-regexp-common/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-regexp-common/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-crisprcleanr/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-crisprcleanr/README.html)
 </pre></div>
 </div>
 </section>
@@ -218,14 +218,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/perl-regexp-common/README.rst.txt"
+      <a href="../../_sources/recipes/r-crisprcleanr/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/perl-regexp-common/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-crisprcleanr/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
