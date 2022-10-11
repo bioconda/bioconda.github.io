@@ -37,7 +37,7 @@ plastedma
       
       
 
-      ``0.1.2-0``
+      ``0.2.1-0``,  ``0.1.2-0``
 
       
 
@@ -79,7 +79,7 @@ plastedma
 
     <script>
         var package = "plastedma";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.1","0.1.2"];
     </script>
 
 

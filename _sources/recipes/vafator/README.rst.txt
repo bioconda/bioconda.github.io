@@ -29,10 +29,10 @@ vafator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  </span></summary>
       
 
-      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ vafator
       
 
    
-   :depends cyvcf2: ``~=0.30.14``
-   :depends logzero: ``~=1.7.0``
-   :depends pandas: ``~=1.3.3``
-   :depends pybedtools: ``~=0.9.0``
-   :depends pysam: ``~=0.19.1``
+   :depends cyvcf2: ``>=0.30.14,<0.31``
+   :depends logzero: ``>=1.7.0,<1.8``
+   :depends pandas: ``>=1.3.3,<1.4``
+   :depends pybedtools: ``>=0.9.0,<0.10``
+   :depends pysam: ``>=0.19.1,<0.20``
    :depends python: ``>=3.7,<=3.9``
-   :depends scipy: ``~=1.8.1``
+   :depends scipy: ``>=1.8.1,<1.9``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ vafator
 
     <script>
         var package = "vafator";
-        var versions = ["2.0.3","2.0.2","2.0.1","1.3.2","1.3.1"];
+        var versions = ["2.1.0","2.0.3","2.0.2","2.0.1","1.3.2"];
     </script>
 
 

@@ -27,13 +27,13 @@ nf-test
       
       
 
-      ``0.6.0-0``
+      ``0.6.1-0``,  ``0.6.0-0``
 
       
 
    
    :depends coreutils: 
-   :depends curl: ``>=7.83.1,<8.0a0``
+   :depends curl: ``>=7.85.0,<8.0a0``
    :depends openjdk: ``>=11,<=18``
    :requirements:
 
@@ -66,7 +66,7 @@ nf-test
 
     <script>
         var package = "nf-test";
-        var versions = ["0.6.0"];
+        var versions = ["0.6.1","0.6.0"];
     </script>
 
 

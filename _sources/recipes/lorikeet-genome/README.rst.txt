@@ -30,10 +30,10 @@ lorikeet-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+      ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ lorikeet-genome
 
     <script>
         var package = "lorikeet-genome";
-        var versions = ["0.7.3","0.7.2","0.7.2","0.7.1","0.7.0"];
+        var versions = ["0.7.3","0.7.3","0.7.2","0.7.2","0.7.1"];
     </script>
 
 

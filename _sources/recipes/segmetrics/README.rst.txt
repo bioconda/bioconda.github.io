@@ -27,7 +27,7 @@ segmetrics
       
       
 
-      ``0.11.3-0``
+      ``1.0.0-0``,  ``0.11.3-0``
 
       
 
@@ -69,7 +69,7 @@ segmetrics
 
     <script>
         var package = "segmetrics";
-        var versions = ["0.11.3"];
+        var versions = ["1.0.0","0.11.3"];
     </script>
 
 

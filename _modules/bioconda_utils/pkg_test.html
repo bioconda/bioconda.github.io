@@ -267,6 +267,8 @@
     <span class="c1"># galaxy-lib always downloads involucro, unless it&#39;s in cwd or its path is explicitly given.</span>
     <span class="c1"># We inject a POSTINSTALL to the involucro command with a small wrapper to</span>
     <span class="c1"># create activation / entrypoint scripts for the container.</span>
+    <span class="c1"># We also inject a PREINSTALL to alias conda to mamba so `mamba install` is</span>
+    <span class="c1"># used instead of `conda install` in the container builds.</span>
     <span class="n">involucro_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">),</span> <span class="s1">&#39;involucro&#39;</span><span class="p">)</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">involucro_path</span><span class="p">):</span>
         <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s1">&#39;internal involucro wrapper missing&#39;</span><span class="p">)</span>
