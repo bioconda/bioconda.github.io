@@ -13,7 +13,7 @@ micom
    Microbial community modeling based on cobrapy.
 
    :homepage: https://github.com/micom-dev/micom
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`micom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/micom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/micom/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ micom
       
       
 
-      ``0.31.4-0``,  ``0.31.3-0``,  ``0.30.5-0``,  ``0.30.4-0``,  ``0.29.6-0``,  ``0.29.5-0``,  ``0.28.0-0``,  ``0.26.0-0``
+      ``0.32.0-0``,  ``0.31.4-0``,  ``0.31.3-0``,  ``0.30.5-0``,  ``0.30.4-0``,  ``0.29.6-0``,  ``0.29.5-0``,  ``0.28.0-0``,  ``0.26.0-0``
 
       
 
@@ -70,7 +70,7 @@ micom
 
     <script>
         var package = "micom";
-        var versions = ["0.31.4","0.31.3","0.30.5","0.30.4","0.29.6"];
+        var versions = ["0.32.0","0.31.4","0.31.3","0.30.5","0.30.4"];
     </script>
 
 

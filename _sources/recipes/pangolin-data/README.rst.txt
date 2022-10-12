@@ -28,10 +28,10 @@ pangolin-data
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14-0</code>,  <code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.12-0</code>,  <code>1.11-0</code>,  <code>1.9-0</code>,  <code>1.8-0</code>,  <code>1.6-0</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.1-0</code>,  <code>1.14-0</code>,  <code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.12-0</code>,  <code>1.11-0</code>,  <code>1.9-0</code>,  <code>1.8-0</code>,  <code>1.6-0</code>,  </span></summary>
       
 
-      ``1.14-0``,  ``1.13-1``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.9-0``,  ``1.8-0``,  ``1.6-0``,  ``1.3-0``,  ``1.2.133.2-0``,  ``1.2.133-0``
+      ``1.15.1-0``,  ``1.14-0``,  ``1.13-1``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.9-0``,  ``1.8-0``,  ``1.6-0``,  ``1.3-0``,  ``1.2.133.2-0``,  ``1.2.133-0``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ pangolin-data
 
     <script>
         var package = "pangolin-data";
-        var versions = ["1.14","1.13","1.13","1.12","1.11"];
+        var versions = ["1.15.1","1.14","1.13","1.13","1.12"];
     </script>
 
 

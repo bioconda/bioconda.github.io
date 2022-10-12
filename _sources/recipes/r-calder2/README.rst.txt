@@ -27,7 +27,7 @@ r-calder2
       
       
 
-      ``0.1-0``
+      ``0.2-0``,  ``0.1-0``
 
       
 
@@ -82,7 +82,7 @@ r-calder2
 
     <script>
         var package = "r-calder2";
-        var versions = ["0.1"];
+        var versions = ["0.2","0.1"];
     </script>
 
 

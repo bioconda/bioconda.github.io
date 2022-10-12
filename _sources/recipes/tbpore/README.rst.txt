@@ -27,7 +27,7 @@ tbpore
       
       
 
-      ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -37,7 +37,7 @@ tbpore
    :depends cyvcf2: ``>=0.30,<1.0``
    :depends loguru: ``>=0.5.3,<1.0``
    :depends minimap2: ``2.22.*``
-   :depends mykrobe: ``0.11.*``
+   :depends mykrobe: ``0.12.*``
    :depends networkx: ``>=2.8,<3.0``
    :depends pandas: ``>=1.4.2,<2.0``
    :depends psdm: ``0.1.*``
@@ -78,7 +78,7 @@ tbpore
 
     <script>
         var package = "tbpore";
-        var versions = ["0.1.1","0.1.0","0.1.0"];
+        var versions = ["0.2.0","0.1.1","0.1.0","0.1.0"];
     </script>
 
 

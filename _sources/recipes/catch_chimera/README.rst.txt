@@ -27,12 +27,13 @@ catch_chimera
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends bioconductor-decipher: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +65,7 @@ catch_chimera
 
     <script>
         var package = "catch_chimera";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 
