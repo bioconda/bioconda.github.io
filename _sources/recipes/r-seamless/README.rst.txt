@@ -27,7 +27,7 @@ r-seamless
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -38,6 +38,7 @@ r-seamless
    :depends r-ggtern: 
    :depends r-music: 
    :depends r-randomforest: 
+   :depends xbioc: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ r-seamless
 
     <script>
         var package = "r-seamless";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

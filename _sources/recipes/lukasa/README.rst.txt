@@ -29,13 +29,14 @@ lukasa
       
       
 
-      ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
+      ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
 
       
 
    
    :depends cwltool: 
    :depends metaeuk: 
+   :depends nodejs: 
    :depends python: 
    :depends samtools: 
    :depends spaln: 
@@ -70,7 +71,7 @@ lukasa
 
     <script>
         var package = "lukasa";
-        var versions = ["0.0.8","0.0.7","0.0.7","0.0.6"];
+        var versions = ["0.0.8","0.0.8","0.0.7","0.0.7","0.0.6"];
     </script>
 
 
