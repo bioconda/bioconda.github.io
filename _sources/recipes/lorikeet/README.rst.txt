@@ -28,7 +28,7 @@ lorikeet
       
       
 
-      ``20-0``,  ``19-0``,  ``17-0``
+      ``20-1``,  ``20-0``,  ``19-0``,  ``17-0``
 
       
 
@@ -65,7 +65,7 @@ lorikeet
 
     <script>
         var package = "lorikeet";
-        var versions = ["20","19","17"];
+        var versions = ["20","20","19","17"];
     </script>
 
 

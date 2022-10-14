@@ -12,7 +12,7 @@ centrifuge
 
    Classifier for metagenomic sequences.
 
-   :homepage: https://github.com/infphilo/centrifuge
+   :homepage: https://github.com/DaehwanKimLab/centrifuge
    :license: GPL3
    :recipe: /`centrifuge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge/meta.yaml>`_
    :links: biotools: :biotools:`Centrifuge`, doi: :doi:`10.1101/gr.210641.116`

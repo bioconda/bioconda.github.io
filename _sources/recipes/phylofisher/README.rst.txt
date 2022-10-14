@@ -27,13 +27,12 @@ phylofisher
       
       
 
-      ``1.2.0-0``,  ``1.1.2-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``
 
       
 
    
    :depends astral-tree: ``5.7.8.*``
-   :depends binutils: ``1.0.1.*``
    :depends biopython: ``1.78.*``
    :depends blast: ``2.9.0.*``
    :depends bmge: ``1.12.*``
@@ -84,7 +83,7 @@ phylofisher
 
     <script>
         var package = "phylofisher";
-        var versions = ["1.2.0","1.1.2"];
+        var versions = ["1.2.1","1.2.0","1.1.2"];
     </script>
 
 
