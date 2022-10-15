@@ -28,10 +28,10 @@ perl-mce
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.879-0</code>,  <code>1.878-0</code>,  <code>1.876-0</code>,  <code>1.837-1</code>,  <code>1.837-0</code>,  <code>1.836-0</code>,  <code>1.835-1</code>,  <code>1.835-0</code>,  <code>1.814-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.881-0</code>,  <code>1.879-0</code>,  <code>1.878-0</code>,  <code>1.876-0</code>,  <code>1.837-1</code>,  <code>1.837-0</code>,  <code>1.836-0</code>,  <code>1.835-1</code>,  <code>1.835-0</code>,  </span></summary>
       
 
-      ``1.879-0``,  ``1.878-0``,  ``1.876-0``,  ``1.837-1``,  ``1.837-0``,  ``1.836-0``,  ``1.835-1``,  ``1.835-0``,  ``1.814-1``,  ``1.814-0``
+      ``1.881-0``,  ``1.879-0``,  ``1.878-0``,  ``1.876-0``,  ``1.837-1``,  ``1.837-0``,  ``1.836-0``,  ``1.835-1``,  ``1.835-0``,  ``1.814-1``,  ``1.814-0``
 
       
       .. raw:: html
@@ -80,7 +80,7 @@ perl-mce
 
     <script>
         var package = "perl-mce";
-        var versions = ["1.879","1.878","1.876","1.837","1.837"];
+        var versions = ["1.881","1.879","1.878","1.876","1.837"];
     </script>
 
 

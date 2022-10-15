@@ -27,14 +27,14 @@ glimmerhmm
       
       
 
-      ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``
+      ``3.0.4-5``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ glimmerhmm
 
     <script>
         var package = "glimmerhmm";
-        var versions = ["3.0.4","3.0.4","3.0.4","3.0.4"];
+        var versions = ["3.0.4","3.0.4","3.0.4","3.0.4","3.0.4"];
     </script>
 
 

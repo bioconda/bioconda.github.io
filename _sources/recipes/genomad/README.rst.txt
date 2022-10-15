@@ -28,14 +28,14 @@ genomad
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends aragorn: 
    :depends keras: ``>=2.7``
-   :depends mmseqs2: ``>=13.45111``
+   :depends mmseqs2: ``13.45111.*``
    :depends numba: 
    :depends prodigal-gv: ``>=2.7.0``
    :depends python: ``>=3.8``
@@ -75,7 +75,7 @@ genomad
 
     <script>
         var package = "genomad";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0"];
     </script>
 
 

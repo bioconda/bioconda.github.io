@@ -27,19 +27,21 @@ mirfix
       
       
 
-      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-0``
+      ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends biopython: 
-   :depends clustalw: 
-   :depends dialign2: 
-   :depends matplotlib-base: 
-   :depends numpy: 
+   :depends biopython: ``1.78.*``
+   :depends blast: ``2.11.0.*``
+   :depends clustalw: ``2.1.*``
+   :depends dialign2: ``2.2.1.*``
+   :depends matplotlib-base: ``3.3.1.*``
+   :depends numpy: ``1.19.1.*``
+   :depends pyfaidx: ``0.7.1.*``
    :depends python: ``>=3``
-   :depends tk: 
-   :depends viennarna: 
+   :depends tk: ``8.6.10.*``
+   :depends viennarna: ``2.4.15.*``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +73,7 @@ mirfix
 
     <script>
         var package = "mirfix";
-        var versions = ["2.0.1","2.0.0","2.0.0","1.0.1"];
+        var versions = ["2.1.0","2.0.1","2.0.0","2.0.0","1.0.1"];
     </script>
 
 

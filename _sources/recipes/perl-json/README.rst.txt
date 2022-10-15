@@ -28,10 +28,10 @@ perl-json
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.09-0</code>,  <code>4.08-0</code>,  <code>4.07-0</code>,  <code>4.06-0</code>,  <code>4.05-0</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  <code>4.00-0</code>,  <code>2.97001-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10-0</code>,  <code>4.09-0</code>,  <code>4.08-0</code>,  <code>4.07-0</code>,  <code>4.06-0</code>,  <code>4.05-0</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  <code>4.00-0</code>,  </span></summary>
       
 
-      ``4.09-0``,  ``4.08-0``,  ``4.07-0``,  ``4.06-0``,  ``4.05-0``,  ``4.02-1``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
+      ``4.10-0``,  ``4.09-0``,  ``4.08-0``,  ``4.07-0``,  ``4.06-0``,  ``4.05-0``,  ``4.02-1``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
 
       
       .. raw:: html
@@ -73,7 +73,7 @@ perl-json
 
     <script>
         var package = "perl-json";
-        var versions = ["4.09","4.08","4.07","4.06","4.05"];
+        var versions = ["4.10","4.09","4.08","4.07","4.06"];
     </script>
 
 

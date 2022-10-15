@@ -26,9 +26,17 @@ perl-sanger-cgp-allelecount
    :versions:
       
       
+      .. raw:: html
 
-      ``4.2.1-1``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+         <details><summary><span class="truncated-version-list"><code>4.3.0-0</code>,  <code>4.2.1-1</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  </span></summary>
+      
 
+      ``4.3.0-0``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -71,7 +79,7 @@ perl-sanger-cgp-allelecount
 
     <script>
         var package = "perl-sanger-cgp-allelecount";
-        var versions = ["4.2.1","4.2.1","4.1.0","4.0.0","4.0.0"];
+        var versions = ["4.3.0","4.2.1","4.2.1","4.1.0","4.0.0"];
     </script>
 
 
