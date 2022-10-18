@@ -27,13 +27,14 @@ r-calder2
       
       
 
-      ``0.2-0``,  ``0.1-0``
+      ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
    
    :depends bioconductor-genomicranges: ``>=1.36.0``
    :depends bioconductor-rhdf5: ``>=2.28.0``
+   :depends cooler: 
    :depends r-ape: ``>=5.3``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.12.2``
@@ -46,6 +47,7 @@ r-calder2
    :depends r-igraph: ``>=1.2.4.1``
    :depends r-maptools: ``>=0.9.5``
    :depends r-matrix: ``>=1.2.17``
+   :depends r-optparse: 
    :depends r-r.utils: ``>=2.9.0``
    :depends r-rarpack: ``>=0.11.0``
    :depends r-rcpp: 
@@ -82,7 +84,7 @@ r-calder2
 
     <script>
         var package = "r-calder2";
-        var versions = ["0.2","0.1"];
+        var versions = ["0.3","0.2","0.1"];
     </script>
 
 

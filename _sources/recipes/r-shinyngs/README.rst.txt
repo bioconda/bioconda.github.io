@@ -27,7 +27,7 @@ r-shinyngs
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,19 +36,27 @@ r-shinyngs
    :depends bioconductor-limma: 
    :depends bioconductor-summarizedexperiment: 
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base64enc: 
+   :depends r-biocmanager: 
    :depends r-cluster: 
-   :depends r-d3heatmap: 
+   :depends r-cpp11: 
    :depends r-data.table: 
+   :depends r-dendextend: ``>=0.18.0``
    :depends r-dplyr: 
    :depends r-dt: ``>=0.2``
    :depends r-ggdendro: 
    :depends r-ggplot2: 
+   :depends r-htmlwidgets: 
+   :depends r-markdown: 
    :depends r-optparse: 
    :depends r-pheatmap: 
    :depends r-plotly: ``>=4.3.4``
    :depends r-plyr: 
+   :depends r-png: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-rsconnect: 
+   :depends r-scales: ``>=0.2.5``
    :depends r-scatterplot3d: 
    :depends r-shiny: 
    :depends r-shinybs: 
@@ -86,7 +94,7 @@ r-shinyngs
 
     <script>
         var package = "r-shinyngs";
-        var versions = ["1.2.0","1.1.0","1.0.1","1.0.0"];
+        var versions = ["1.3.0","1.2.0","1.1.0","1.0.1","1.0.0"];
     </script>
 
 
