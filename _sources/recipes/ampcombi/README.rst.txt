@@ -28,7 +28,7 @@ ampcombi
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -37,6 +37,7 @@ ampcombi
    :depends biopython: 
    :depends contextlib2: 
    :depends diamond: 
+   :depends jsonschema: 
    :depends openpyxl: 
    :depends pandas: 
    :depends parsedatetime: 
@@ -74,7 +75,7 @@ ampcombi
 
     <script>
         var package = "ampcombi";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 
