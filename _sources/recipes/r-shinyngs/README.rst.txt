@@ -27,7 +27,7 @@ r-shinyngs
       
       
 
-      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -35,6 +35,7 @@ r-shinyngs
    :depends bioconductor-gseabase: 
    :depends bioconductor-limma: 
    :depends bioconductor-summarizedexperiment: 
+   :depends pandoc: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-base64enc: 
    :depends r-biocmanager: 
@@ -94,7 +95,7 @@ r-shinyngs
 
     <script>
         var package = "r-shinyngs";
-        var versions = ["1.3.0","1.2.0","1.1.0","1.0.1","1.0.0"];
+        var versions = ["1.3.0","1.3.0","1.2.0","1.1.0","1.0.1"];
     </script>
 
 

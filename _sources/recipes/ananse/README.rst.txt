@@ -29,10 +29,10 @@ ananse
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.7-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.7-0</code>,  <code>0.1.5-0</code>,  </span></summary>
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``v0.1.2-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``v0.1.2-0``
 
       
       .. raw:: html
@@ -41,26 +41,26 @@ ananse
       
 
    
-   :depends adjusttext: ``>=0.7.3``
-   :depends dask: ``>=2022.8.1``
+   :depends adjusttext: 
+   :depends dask: 
    :depends genomepy: ``>=0.14.0``
-   :depends gimmemotifs-minimal: ``>=0.17.1``
-   :depends loguru: ``>=0.6.0``
-   :depends matplotlib-base: ``>=3.5.3``
-   :depends networkx: ``>=2.8.6``
-   :depends numpy: ``>=1.23.2``
-   :depends openpyxl: ``>=3.0.9``
-   :depends pandas: ``>=1.1.5``
-   :depends pybedtools: ``>=0.9.0``
-   :depends pydot: ``>=1.4.2``
-   :depends pygraphviz: ``>=1.10``
-   :depends pyranges: ``>=0.0.117``
-   :depends pytables: ``>=3.7.0``
-   :depends python: 
-   :depends scikit-learn: ``>=1.1.2``
-   :depends scipy: ``>=1.9.0``
-   :depends seaborn-base: ``>=0.11.2``
-   :depends tqdm: ``>=4.64.0``
+   :depends gimmemotifs-minimal: ``>=0.17.2``
+   :depends loguru: 
+   :depends matplotlib-base: ``>=3.3``
+   :depends networkx: 
+   :depends numpy: ``>=1.6``
+   :depends openpyxl: 
+   :depends pandas: 
+   :depends pybedtools: 
+   :depends pydot: ``>=1.4.1``
+   :depends pygraphviz: ``>=1.7``
+   :depends pyranges: 
+   :depends pytables: 
+   :depends python: ``>=3.7``
+   :depends scikit-learn: 
+   :depends scipy: ``>=1.5``
+   :depends seaborn-base: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +92,7 @@ ananse
 
     <script>
         var package = "ananse";
-        var versions = ["0.4.0","0.3.0","0.2.2","0.2.2","0.2.1"];
+        var versions = ["0.4.0","0.4.0","0.3.0","0.2.2","0.2.2"];
     </script>
 
 
