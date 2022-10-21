@@ -27,18 +27,18 @@ ashleys-qc
       
       
 
-      ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends matplotlib-base: ``3.2.1.*``
-   :depends pandas: ``1.1.2.*``
+   :depends matplotlib-base: 
+   :depends pandas: 
    :depends pip: 
-   :depends pysam: ``0.16.0.1.*``
+   :depends pysam: 
    :depends pytest: 
-   :depends python: ``3.7.12.*``
-   :depends scikit-learn: ``0.23.2.*``
+   :depends python: 
+   :depends scikit-learn: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ ashleys-qc
 
     <script>
         var package = "ashleys-qc";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.1","0.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ liftofftools
       
       
 
-      ``0.4.3.2-0``,  ``0.4.3-0``
+      ``0.4.4-0``,  ``0.4.3.2-0``,  ``0.4.3-0``
 
       
 
@@ -72,7 +72,7 @@ liftofftools
 
     <script>
         var package = "liftofftools";
-        var versions = ["0.4.3.2","0.4.3"];
+        var versions = ["0.4.4","0.4.3.2","0.4.3"];
     </script>
 
 
