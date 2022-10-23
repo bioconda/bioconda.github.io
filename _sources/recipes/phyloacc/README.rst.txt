@@ -12,7 +12,8 @@ phyloacc
 
    Bayesian estimation of substitution rate shifts in non\-coding regions
 
-   :homepage: https://github.com/phyloacc/PhyloAcc
+   :homepage: https://phyloacc.github.io/
+   :developer docs: https://github.com/phyloacc/PhyloAcc
    :license: GPL / GNU GPLv3
    :recipe: /`phyloacc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyloacc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyloacc/meta.yaml>`_
 
@@ -27,7 +28,7 @@ phyloacc
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -76,7 +77,7 @@ phyloacc
 
     <script>
         var package = "phyloacc";
-        var versions = ["2.0.0","2.0.0","1.1.1","1.1.0"];
+        var versions = ["2.0.0","2.0.0","2.0.0","1.1.1","1.1.0"];
     </script>
 
 

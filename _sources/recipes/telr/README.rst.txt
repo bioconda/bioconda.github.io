@@ -27,7 +27,7 @@ telr
       
       
 
-      ``0.2-1``,  ``0.2-0``
+      ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
@@ -47,7 +47,7 @@ telr
    :depends rmblast: ``2.6.0.*``
    :depends samtools: ``1.9.*``
    :depends seqtk: 
-   :depends sniffles: ``>=1.0.12``
+   :depends sniffles: ``1.0.12.*``
    :depends wtdbg: ``>=2.5``
    :requirements:
 
@@ -80,7 +80,7 @@ telr
 
     <script>
         var package = "telr";
-        var versions = ["0.2","0.2"];
+        var versions = ["0.2","0.2","0.2"];
     </script>
 
 
