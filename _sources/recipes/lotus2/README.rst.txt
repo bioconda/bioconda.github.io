@@ -29,10 +29,10 @@ lotus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.21-0</code>,  <code>2.19-0</code>,  <code>2.17-0</code>,  <code>2.16-0</code>,  <code>2.14-0</code>,  <code>2.12-1</code>,  <code>2.12-0</code>,  <code>2.11-0</code>,  <code>2.09.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.22-0</code>,  <code>2.21-0</code>,  <code>2.19-0</code>,  <code>2.17-0</code>,  <code>2.16-0</code>,  <code>2.14-0</code>,  <code>2.12-1</code>,  <code>2.12-0</code>,  <code>2.11-0</code>,  </span></summary>
       
 
-      ``2.21-0``,  ``2.19-0``,  ``2.17-0``,  ``2.16-0``,  ``2.14-0``,  ``2.12-1``,  ``2.12-0``,  ``2.11-0``,  ``2.09.2-0``,  ``2.09.1-0``,  ``2.09-0``,  ``2.08-0``,  ``2.07-0``,  ``2.06-0``,  ``2.05.1-0``,  ``2.04-1``,  ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
+      ``2.22-0``,  ``2.21-0``,  ``2.19-0``,  ``2.17-0``,  ``2.16-0``,  ``2.14-0``,  ``2.12-1``,  ``2.12-0``,  ``2.11-0``,  ``2.09.2-0``,  ``2.09.1-0``,  ``2.09-0``,  ``2.08-0``,  ``2.07-0``,  ``2.06-0``,  ``2.05.1-0``,  ``2.04-1``,  ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
 
       
       .. raw:: html
@@ -60,7 +60,7 @@ lotus2
    :depends r-dplyr: 
    :depends rdp_classifier: 
    :depends rtk: 
-   :depends sdm: ``2.02``
+   :depends sdm: ``2.05``
    :depends swarm: 
    :depends unzip: 
    :depends vsearch: 
@@ -97,7 +97,7 @@ lotus2
 
     <script>
         var package = "lotus2";
-        var versions = ["2.21","2.19","2.17","2.16","2.14"];
+        var versions = ["2.22","2.21","2.19","2.17","2.16"];
     </script>
 
 
