@@ -13,10 +13,16 @@ agat
    Another Gff Analysis Toolkit \(AGAT\). Suite of tools to handle gene annotations in any GTF\/GFF format.
 
    :homepage: https://github.com/NBISweden/AGAT
+   :documentation: https://agat.readthedocs.io/en/latest/
+   
    :license: GPL / GPLv3
    :recipe: /`agat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agat/meta.yaml>`_
 
-   
+   AGAT has the power to check\, fix\, pad missing information \(features\/attributes\) of any kind of GTF and GFF to create complete\, sorted and standardised GTF\/GFF formats. 
+   Over the years it has been enriched by many many tools to perform just about any tasks that is possible related to GTF\/GFF format files 
+   \(sanitizing\, conversions\, merging\, modifying\, filtering\, FASTA sequence extraction\, adding information\, etc\).
+   Comparing to other methods AGAT is robust to even the most despicable GTF\/GFF files.
+
 
 
 .. conda:package:: agat
@@ -28,10 +34,10 @@ agat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.2-2</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.6.2-0</code>,  </span></summary>
       
 
-      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
+      ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -85,7 +91,7 @@ agat
 
     <script>
         var package = "agat";
-        var versions = ["0.9.2","0.9.2","0.9.1","0.9.0","0.8.1"];
+        var versions = ["0.9.2","0.9.2","0.9.2","0.9.1","0.9.0"];
     </script>
 
 
