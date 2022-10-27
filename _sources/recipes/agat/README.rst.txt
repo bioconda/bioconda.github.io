@@ -34,10 +34,10 @@ agat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.2-2</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.9.2-2</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  </span></summary>
       
 
-      ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
+      ``1.0.0-0``,  ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -49,17 +49,18 @@ agat
    :depends libdb: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl-core: ``>=1.7.8``
+   :depends perl-carp: 
    :depends perl-clone: 
    :depends perl-file-share: 
    :depends perl-file-sharedir-install: 
    :depends perl-graph: 
-   :depends perl-json: 
    :depends perl-list-moreutils: 
    :depends perl-lwp-protocol-https: 
    :depends perl-lwp-simple: ``>=6.39``
    :depends perl-moose: 
    :depends perl-sort-naturally: 
    :depends perl-term-progressbar: 
+   :depends perl-yaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +92,7 @@ agat
 
     <script>
         var package = "agat";
-        var versions = ["0.9.2","0.9.2","0.9.2","0.9.1","0.9.0"];
+        var versions = ["1.0.0","0.9.2","0.9.2","0.9.2","0.9.1"];
     </script>
 
 

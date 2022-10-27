@@ -30,26 +30,26 @@ neofox
       
       
 
-      ``1.0.0-0``,  ``0.6.4-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.4-0``
 
       
 
    
-   :depends betterproto: ``~=1.2.5``
+   :depends betterproto: ``>=1.2.5,<1.3.0``
    :depends bioconductor-biostrings: 
    :depends biopython: ``1.76``
    :depends blast: ``2.10.1``
    :depends dask: ``>=2021.10.0``
    :depends distributed: ``>=2021.10.0``
-   :depends faker: ``~=6.6.2``
+   :depends faker: ``>=6.6.2,<7.0.0``
    :depends logzero: ``>=1.5.0``
-   :depends mock: ``~=4.0.3``
+   :depends mock: ``>=4.0.3,<5.0.0``
    :depends numpy: ``>=1.21``
-   :depends orjson: ``~=3.5.2``
+   :depends orjson: ``>=3.5.2,<4.0.0``
    :depends pandas: ``>=1.1.5``
-   :depends pysam: ``~=0.19.1``
+   :depends pysam: ``>=0.19.1,<0.20.0``
    :depends python: ``>=3.7,<=3.8``
-   :depends python-dotenv: ``~=0.12.0``
+   :depends python-dotenv: ``>=0.12.0,<0.13.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-caret: 
    :depends r-doparallel: 
@@ -57,9 +57,9 @@ neofox
    :depends r-ggplot2: 
    :depends r-lattice: 
    :depends r-peptides: 
-   :depends scikit-learn: ``~=0.22.1``
+   :depends scikit-learn: ``>=0.22.1,<0.23.0``
    :depends scipy: ``>=1.5.4``
-   :depends xmltodict: ``~=0.12.0``
+   :depends xmltodict: ``>=0.12.0,<0.13.0``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +91,7 @@ neofox
 
     <script>
         var package = "neofox";
-        var versions = ["1.0.0","0.6.4"];
+        var versions = ["1.0.1","1.0.0","0.6.4"];
     </script>
 
 
