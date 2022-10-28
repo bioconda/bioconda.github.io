@@ -10,7 +10,7 @@ ngmaster
    :replaces_section_title:
    :noindex:
 
-   In silico multi\-antigen sequence typing for Neisseria gonorrhoeae \(NG\-MAST\)
+   In silico multi\-antigen sequence typing for Neisseria gonorrhoeae \(NG\-MAST\) and Neisseria gonorrhoeae sequence typing for antimicrobial resistance \(NG\-STAR\)
 
    :homepage: https://github.com/MDU-PHL/ngmaster
    :documentation: https://github.com/MDU-PHL/ngmaster/blob/master/README.md
@@ -29,15 +29,14 @@ ngmaster
       
       
 
-      ``0.5.8-1``,  ``0.5.8-0``
+      ``1.0.0-0``,  ``0.5.8-1``,  ``0.5.8-0``
 
       
 
    
    :depends biopython: 
-   :depends bs4: 
-   :depends ispcr: 
-   :depends python: ``>=3.6``
+   :depends mlst: 
+   :depends python: ``>=3.7,<=3.9``
    :depends requests: 
    :requirements:
 
@@ -70,7 +69,7 @@ ngmaster
 
     <script>
         var package = "ngmaster";
-        var versions = ["0.5.8","0.5.8"];
+        var versions = ["1.0.0","0.5.8","0.5.8"];
     </script>
 
 

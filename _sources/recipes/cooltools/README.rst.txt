@@ -29,25 +29,24 @@ cooltools
       
       
 
-      ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``
+      ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``
 
       
 
    
-   :depends bioframe: ``>=0.3.1``
+   :depends bioframe: ``>=0.3.3``
    :depends click: ``>=7``
    :depends cooler: ``>=0.8.5``
-   :depends cytoolz: ``<0.11``
    :depends joblib: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numba: 
-   :depends numpy: 
-   :depends pandas: ``>=1.3``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends pandas: ``>=1.5.1``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-image: 
-   :depends scikit-learn: 
+   :depends scikit-learn: ``>=1.1.2``
    :depends scipy: 
    :requirements:
 
@@ -80,7 +79,7 @@ cooltools
 
     <script>
         var package = "cooltools";
-        var versions = ["0.5.1","0.5.1","0.5.0","0.5.0","0.4.0"];
+        var versions = ["0.5.2","0.5.1","0.5.1","0.5.0","0.5.0"];
     </script>
 
 
