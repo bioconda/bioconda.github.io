@@ -27,11 +27,14 @@ bioconductor-data-packages
       
       
 
-      
+      ``20221027-0``
 
       
 
    
+   :depends curl: 
+   :depends r-base: 
+   :depends yq: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ bioconductor-data-packages
 
     <script>
         var package = "bioconductor-data-packages";
-        var versions = [];
+        var versions = ["20221027"];
     </script>
 
 
