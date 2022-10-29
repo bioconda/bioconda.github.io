@@ -790,6 +790,9 @@
 <span class="s1">     is specified, then all packages in a given bioconductor release will be</span>
 <span class="s1">     created/updated (--force is then implied).&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;bioc_data_packages&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;?&#39;</span><span class="p">,</span>
+     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Path to folder containing the recipe for the bioconductor-data-packages</span>
+<span class="s1">     (default: recipes/bioconductor-data-packages)&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--versioned&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;If specified, recipe will be</span>
 <span class="s1">     created in RECIPES/&lt;package&gt;/&lt;version&gt;&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--force&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Overwrite the contents of an</span>
@@ -809,7 +812,7 @@
 <span class="s2">     that already exist in the packages listed here.&quot;&quot;&quot;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">(</span><span class="s1">&#39;debug&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">bioconductor_skeleton</span><span class="p">(</span>
-    <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;conda-forge&#39;</span><span class="p">,</span> <span class="s1">&#39;bioconda&#39;</span><span class="p">]):</span>
     <span class="sd">&quot;&quot;&quot;</span>
@@ -831,6 +834,8 @@
 
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">seen_dependencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">bioc_data_packages</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">bioc_data_packages</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="s2">&quot;bioconductor-data-packages&quot;</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="n">package</span> <span class="o">==</span> <span class="s2">&quot;update-all-packages&quot;</span><span class="p">:</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">bioc_version</span><span class="p">:</span>
@@ -841,7 +846,7 @@
         <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">packages</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
             <span class="k">try</span><span class="p">:</span>
                 <span class="n">_bioconductor_skeleton</span><span class="o">.</span><span class="n">write_recipe</span><span class="p">(</span>
-                    <span class="n">k</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="n">bioc_version</span><span class="p">,</span>
+                    <span class="n">k</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">bioc_data_packages</span><span class="o">=</span><span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="n">bioc_version</span><span class="p">,</span>
                     <span class="n">pkg_version</span><span class="o">=</span><span class="n">v</span><span class="p">[</span><span class="s1">&#39;Version&#39;</span><span class="p">],</span> <span class="n">versioned</span><span class="o">=</span><span class="n">versioned</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">,</span>
                     <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="n">skip_if_in_channels</span><span class="p">,</span> <span class="n">needs_x</span> <span class="o">=</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">needs_x</span><span class="p">)</span>
             <span class="k">except</span><span class="p">:</span>
@@ -850,10 +855,11 @@
             <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="s2">&quot;The following recipes had problems and were not finished: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">problems</span><span class="p">)))</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">_bioconductor_skeleton</span><span class="o">.</span><span class="n">write_recipe</span><span class="p">(</span>
-            <span class="n">package</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="n">force</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="n">bioc_version</span><span class="p">,</span>
+            <span class="n">package</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="n">force</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="n">bioc_version</span><span class="p">,</span>
             <span class="n">pkg_version</span><span class="o">=</span><span class="n">pkg_version</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="n">versioned</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="n">recursive</span><span class="p">,</span>
             <span class="n">seen_dependencies</span><span class="o">=</span><span class="n">seen_dependencies</span><span class="p">,</span>
-            <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="n">skip_if_in_channels</span><span class="p">)</span></div>
+            <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="n">skip_if_in_channels</span><span class="p">)</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Warning! Make sure to bump bioconductor-data-packages if needed!</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="clean_cran_skeleton"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.clean_cran_skeleton">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Path to recipe to be cleaned&#39;&#39;&#39;</span><span class="p">)</span>

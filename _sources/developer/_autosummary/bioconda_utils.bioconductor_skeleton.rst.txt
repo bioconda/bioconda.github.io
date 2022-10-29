@@ -23,6 +23,7 @@ bioconductor\_skeleton
       latest_bioconductor_devel_version
       latest_bioconductor_release_version
       packagesNeedingX
+      updateDataPackages
       write_recipe
       write_recipe_recursive
    

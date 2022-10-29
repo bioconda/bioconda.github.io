@@ -119,6 +119,8 @@
 <span class="kn">import</span> <span class="nn">re</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">OrderedDict</span>
 <span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
 
 <span class="kn">import</span> <span class="nn">bs4</span>
 <span class="kn">import</span> <span class="nn">pyaml</span>
@@ -1015,6 +1017,7 @@
         <span class="n">additional_run_deps</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_data_package</span><span class="p">:</span>
             <span class="n">additional_run_deps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;curl&#39;</span><span class="p">)</span>
+            <span class="n">additional_run_deps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;bioconductor-data-packages&gt;=</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y%m</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)))</span>
 
         <span class="n">d</span> <span class="o">=</span> <span class="n">OrderedDict</span><span class="p">((</span>
             <span class="p">(</span>
@@ -1131,7 +1134,7 @@
         <span class="k">return</span> <span class="n">fout</span><span class="o">.</span><span class="n">name</span>
 
 
-<div class="viewcode-block" id="write_recipe_recursive"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe_recursive">[docs]</a><span class="k">def</span> <span class="nf">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="p">,</span>
+<div class="viewcode-block" id="write_recipe_recursive"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe_recursive">[docs]</a><span class="k">def</span> <span class="nf">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">force</span><span class="p">,</span>
                            <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">versioned</span><span class="p">,</span> <span class="n">recursive</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Parameters</span>
@@ -1147,6 +1150,10 @@
 
 <span class="sd">    config : str</span>
 <span class="sd">        Path to recipes config file</span>
+
+<span class="sd">    bioc_data_packages : str</span>
+<span class="sd">        Path to the bioc_data_packages recipe, which stores the URL and MD5 of</span>
+<span class="sd">        all bioconductor packages across versions</span>
 
 <span class="sd">    force : bool</span>
 <span class="sd">        If True, any recipes that already exist will be overwritten.</span>
@@ -1169,13 +1176,15 @@
         <span class="n">seen_dependencies</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="n">conda_name_without_version</span><span class="p">])</span>
 
         <span class="k">if</span> <span class="n">conda_name_without_version</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;r-&#39;</span><span class="p">):</span>
-            <span class="n">writer</span> <span class="o">=</span> <span class="n">cran_skeleton</span><span class="o">.</span><span class="n">write_recipe</span>
+            <span class="c1">#writer = cran_skeleton.write_recipe  # We should only create bioconductor dependencies, otherwise we duplicate what&#39;s on conda-forge!</span>
+            <span class="k">continue</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">writer</span> <span class="o">=</span> <span class="n">write_recipe</span>
         <span class="n">writer</span><span class="p">(</span>
             <span class="n">package</span><span class="o">=</span><span class="n">cran_or_bioc_name</span><span class="p">,</span>
             <span class="n">recipe_dir</span><span class="o">=</span><span class="n">recipe_dir</span><span class="p">,</span>
             <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span>
+            <span class="n">bioc_data_packages</span><span class="o">=</span><span class="n">bioc_data_packages</span><span class="p">,</span>
             <span class="n">force</span><span class="o">=</span><span class="n">force</span><span class="p">,</span>
             <span class="n">bioc_version</span><span class="o">=</span><span class="n">bioc_version</span><span class="p">,</span>
             <span class="n">pkg_version</span><span class="o">=</span><span class="n">pkg_version</span><span class="p">,</span>
@@ -1185,14 +1194,31 @@
         <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<div class="viewcode-block" id="updateDataPackages"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.updateDataPackages">[docs]</a><span class="k">def</span> <span class="nf">updateDataPackages</span><span class="p">(</span><span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">pkg</span><span class="p">,</span> <span class="n">urls</span><span class="p">,</span> <span class="n">md5</span><span class="p">,</span> <span class="n">tarball</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Update the bioc_data_packages json file, adding/updating:</span>
+<span class="sd">    pkg: {</span>
+<span class="sd">        urls: [urls],</span>
+<span class="sd">        md5: md5,</span>
+<span class="sd">        fn: tarball</span>
+<span class="sd">    }</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">jsPath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">bioc_data_packages</span><span class="p">,</span> <span class="s2">&quot;dataURLs.json&quot;</span><span class="p">)</span>
+    <span class="n">jsContent</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">jsPath</span><span class="p">):</span>
+        <span class="n">jsContent</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="n">jsPath</span><span class="p">))</span>
+    <span class="n">jsContent</span><span class="p">[</span><span class="n">pkg</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;urls&#39;</span><span class="p">:</span> <span class="n">urls</span><span class="p">,</span> <span class="s1">&#39;md5&#39;</span><span class="p">:</span> <span class="n">md5</span><span class="p">,</span> <span class="s1">&#39;fn&#39;</span><span class="p">:</span> <span class="n">tarball</span><span class="p">}</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">jsContent</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">jsPath</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">bioc_data_packages</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                  <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                  <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">needs_x</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Write the meta.yaml and build.sh files. If the package is detected to be</span>
 <span class="sd">    a data package (bsed on the detected URL from Bioconductor), then also</span>
 <span class="sd">    create a post-link.sh and pre-unlink.sh script that will download and</span>
-<span class="sd">    install the package.</span>
+<span class="sd">    install the package. In that case also update bioconductor-data-packages.</span>
 
 <span class="sd">    Parameters</span>
 <span class="sd">    ----------</span>
@@ -1203,6 +1229,10 @@
 <span class="sd">    recipe_dir : str</span>
 
 <span class="sd">    config : str or dict</span>
+
+<span class="sd">    bioc_data_packages : str</span>
+<span class="sd">        Path to the bioc_data_packages recipe, which stores the URL and MD5 of</span>
+<span class="sd">        all bioconductor packages across versions</span>
 
 <span class="sd">    force : bool</span>
 <span class="sd">        If True, then recipes will get overwritten. If **recursive** is also</span>
@@ -1241,6 +1271,9 @@
     <span class="n">proj</span> <span class="o">=</span> <span class="n">BioCProjectPage</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">)</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Making recipe for: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">))</span>
 
+    <span class="k">if</span> <span class="n">bioc_data_packages</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">bioc_data_packages</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s2">&quot;bioconductor-data-packages&quot;</span><span class="p">)</span>
+
     <span class="k">if</span> <span class="n">seen_dependencies</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">seen_dependencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
 
@@ -1257,7 +1290,7 @@
                     <span class="n">seen_dependencies</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
 
         <span class="n">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span>
-                               <span class="n">force</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">versioned</span><span class="p">,</span>
+                               <span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">force</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">versioned</span><span class="p">,</span>
                                <span class="n">recursive</span><span class="p">)</span>
 
     <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">==</span><span class="si">%s</span><span class="s1">, BioC==</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">)</span>
@@ -1323,7 +1356,7 @@
 
     <span class="k">else</span><span class="p">:</span>
         <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span>
-            <span class="s1">&#39;&quot;</span><span class="si">{0}</span><span class="s1">&quot;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">u</span><span class="p">)</span> <span class="k">for</span> <span class="n">u</span> <span class="ow">in</span> <span class="p">[</span>
+            <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">u</span><span class="p">)</span> <span class="k">for</span> <span class="n">u</span> <span class="ow">in</span> <span class="p">[</span>
                 <span class="n">proj</span><span class="o">.</span><span class="n">bioconductor_tarball_url</span><span class="p">,</span>
                 <span class="n">bioarchive_url</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">),</span>
                 <span class="n">cargoport_url</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">),</span>
@@ -1331,65 +1364,19 @@
             <span class="p">]</span>
             <span class="k">if</span> <span class="n">u</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
         <span class="p">]</span>
-        <span class="n">urls</span> <span class="o">=</span> <span class="s1">&#39;  &#39;</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">  &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">urls</span><span class="p">)</span>
+        <span class="n">recipeName</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">-</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">(),</span> <span class="n">proj</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
         <span class="n">post_link_template</span> <span class="o">=</span> <span class="n">dedent</span><span class="p">(</span>
             <span class="sd">&#39;&#39;&#39;\</span>
 <span class="sd">            #!/bin/bash</span>
-<span class="sd">            FN=&quot;{proj.tarball_basename}&quot;</span>
-<span class="sd">            URLS=(</span>
-<span class="sd">            &#39;&#39;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proj</span><span class="o">=</span><span class="n">proj</span><span class="p">))</span>
+<span class="sd">            installBiocDataPackage.sh &quot;{recipeName}&quot;</span>
+<span class="sd">            &#39;&#39;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">recipeName</span><span class="o">=</span><span class="n">recipeName</span><span class="p">))</span>
 
-        <span class="n">post_link_template</span> <span class="o">+=</span> <span class="n">urls</span>
-        <span class="n">post_link_template</span> <span class="o">+=</span> <span class="n">dedent</span><span class="p">(</span>
-            <span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">            )</span>
-<span class="sd">            MD5=&quot;{proj.md5}&quot;</span>
-<span class="sd">            &#39;&#39;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proj</span><span class="o">=</span><span class="n">proj</span><span class="p">,</span> <span class="n">urls</span><span class="o">=</span><span class="n">urls</span><span class="p">))</span>
-        <span class="n">post_link_template</span> <span class="o">+=</span> <span class="n">dedent</span><span class="p">(</span>
-            <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">            # Use a staging area in the conda dir rather than temp dirs, both to avoid</span>
-<span class="sd">            # permission issues as well as to have things downloaded in a predictable</span>
-<span class="sd">            # manner.</span>
-<span class="sd">            STAGING=$PREFIX/share/$PKG_NAME-$PKG_VERSION-$PKG_BUILDNUM</span>
-<span class="sd">            mkdir -p $STAGING</span>
-<span class="sd">            TARBALL=$STAGING/$FN</span>
-
-<span class="sd">            SUCCESS=0</span>
-<span class="sd">            for URL in ${URLS[@]}; do</span>
-<span class="sd">              curl -L $URL &gt; $TARBALL</span>
-<span class="sd">              [[ $? == 0 ]] || continue</span>
-
-<span class="sd">              # Platform-specific md5sum checks.</span>
-<span class="sd">              if [[ $(uname -s) == &quot;Linux&quot; ]]; then</span>
-<span class="sd">                if md5sum -c &lt;&lt;&lt;&quot;$MD5  $TARBALL&quot;; then</span>
-<span class="sd">                  SUCCESS=1</span>
-<span class="sd">                  break</span>
-<span class="sd">                fi</span>
-<span class="sd">              else if [[ $(uname -s) == &quot;Darwin&quot; ]]; then</span>
-<span class="sd">                if [[ $(md5 $TARBALL | cut -f4 -d &quot; &quot;) == &quot;$MD5&quot; ]]; then</span>
-<span class="sd">                  SUCCESS=1</span>
-<span class="sd">                  break</span>
-<span class="sd">                fi</span>
-<span class="sd">              fi</span>
-<span class="sd">            fi</span>
-<span class="sd">            done</span>
-
-<span class="sd">            if [[ $SUCCESS != 1 ]]; then</span>
-<span class="sd">              echo &quot;ERROR: post-link.sh was unable to download any of the following URLs with the md5sum $MD5:&quot;</span>
-<span class="sd">              printf &#39;%s\\n&#39; &quot;${URLS[@]}&quot;</span>
-<span class="sd">              exit 1</span>
-<span class="sd">            fi</span>
-
-<span class="sd">            # Install and clean up</span>
-<span class="sd">            R CMD INSTALL --library=$PREFIX/lib/R/library $TARBALL</span>
-<span class="sd">            rm $TARBALL</span>
-<span class="sd">            rmdir $STAGING</span>
-<span class="sd">            &quot;&quot;&quot;</span><span class="p">)</span>  <span class="c1"># noqa: E501: line too long</span>
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;post-link.sh&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
             <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dedent</span><span class="p">(</span><span class="n">post_link_template</span><span class="p">))</span>
         <span class="n">pre_unlink_template</span> <span class="o">=</span> <span class="s2">&quot;R CMD REMOVE --library=$PREFIX/lib/R/library/ </span><span class="si">{0}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">package</span><span class="p">)</span>
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="s1">&#39;pre-unlink.sh&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
             <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pre_unlink_template</span><span class="p">)</span>
+        <span class="n">updateDataPackages</span><span class="p">(</span><span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">recipeName</span><span class="p">,</span> <span class="n">urls</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">md5</span><span class="p">,</span> <span class="n">proj</span><span class="o">.</span><span class="n">tarball_basename</span><span class="p">)</span>
 
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Wrote recipe in </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">)</span></div>
 </pre></div>
