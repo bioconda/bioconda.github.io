@@ -27,13 +27,12 @@ ultra_bioinformatics
       
       
 
-      ``0.0.4.1-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
+      ``0.0.4.2-0``,  ``0.0.4.1-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
 
       
 
    
    :depends dill: 
-   :depends edlib: 
    :depends gffutils: 
    :depends intervaltree: 
    :depends minimap2: 
@@ -75,7 +74,7 @@ ultra_bioinformatics
 
     <script>
         var package = "ultra_bioinformatics";
-        var versions = ["0.0.4.1","0.0.4","0.0.4","0.0.3.3","0.0.3.3"];
+        var versions = ["0.0.4.2","0.0.4.1","0.0.4","0.0.4","0.0.3.3"];
     </script>
 
 

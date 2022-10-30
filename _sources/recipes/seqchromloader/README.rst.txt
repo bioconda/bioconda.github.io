@@ -30,7 +30,7 @@ seqchromloader
       
       
 
-      ``0.2.1-0``
+      ``0.2.4-0``,  ``0.2.1-0``
 
       
 
@@ -76,7 +76,7 @@ seqchromloader
 
     <script>
         var package = "seqchromloader";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.4","0.2.1"];
     </script>
 
 

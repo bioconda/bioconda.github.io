@@ -27,15 +27,22 @@ eigensoft
    :versions:
       
       
+      .. raw:: html
 
-      ``7.2.1-5``,  ``7.2.1-4``,  ``7.2.1-3``,  ``7.2.1-2``,  ``7.2.1-1``,  ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.2.1-5</code>,  <code>7.2.1-4</code>,  <code>7.2.1-3</code>,  <code>7.2.1-2</code>,  <code>7.2.1-1</code>,  <code>7.2.1-0</code>,  <code>6.0.1-3</code>,  </span></summary>
+      
 
+      ``8.0.0-1``,  ``8.0.0-0``,  ``7.2.1-5``,  ``7.2.1-4``,  ``7.2.1-3``,  ``7.2.1-2``,  ``7.2.1-1``,  ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libgfortran: 
+   :depends libgcc-ng: ``>=12``
    :depends openblas: 
    :depends perl: 
    :requirements:
@@ -69,7 +76,7 @@ eigensoft
 
     <script>
         var package = "eigensoft";
-        var versions = ["7.2.1","7.2.1","7.2.1","7.2.1","7.2.1"];
+        var versions = ["8.0.0","8.0.0","7.2.1","7.2.1","7.2.1"];
     </script>
 
 

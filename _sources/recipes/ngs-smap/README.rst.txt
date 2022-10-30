@@ -27,16 +27,16 @@ ngs-smap
       
       
 
-      ``4.6.4-0``,  ``4.6.2-0``,  ``4.6.1-0``,  ``4.6.0-0``,  ``4.5.1-0``,  ``4.5.0-0``
+      ``4.6.5-0``,  ``4.6.4-0``,  ``4.6.2-0``,  ``4.6.1-0``,  ``4.6.0-0``,  ``4.5.1-0``,  ``4.5.0-0``
 
       
 
    
-   :depends colorlog: ``~=6.6.0``
-   :depends matplotlib: ``~=3.5.1``
-   :depends pandas: ``~=1.4.0``
-   :depends pybedtools: ``~=0.9.0``
-   :depends pysam: ``~=0.18.0``
+   :depends colorlog: ``>=6.6.0,<6.7``
+   :depends matplotlib-base: ``>=3.5.1,<3.6``
+   :depends pandas: ``>=1.4.0,<1.5``
+   :depends pybedtools: ``>=0.9.0,<0.10``
+   :depends pysam: ``>=0.18.0,<0.19``
    :depends python: ``>=3.8.1``
    :requirements:
 
@@ -69,7 +69,7 @@ ngs-smap
 
     <script>
         var package = "ngs-smap";
-        var versions = ["4.6.4","4.6.2","4.6.1","4.6.0","4.5.1"];
+        var versions = ["4.6.5","4.6.4","4.6.2","4.6.1","4.6.0"];
     </script>
 
 

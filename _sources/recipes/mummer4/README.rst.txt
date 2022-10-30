@@ -28,10 +28,10 @@ mummer4
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0rc1-3</code>,  <code>4.0.0rc1-2</code>,  <code>4.0.0rc1-1</code>,  <code>4.0.0rc1-0</code>,  <code>4.0.0beta2-5</code>,  <code>4.0.0beta2-4</code>,  <code>4.0.0beta2-3</code>,  <code>4.0.0beta2-2</code>,  <code>4.0.0beta2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0rc1-4</code>,  <code>4.0.0rc1-3</code>,  <code>4.0.0rc1-2</code>,  <code>4.0.0rc1-1</code>,  <code>4.0.0rc1-0</code>,  <code>4.0.0beta2-5</code>,  <code>4.0.0beta2-4</code>,  <code>4.0.0beta2-3</code>,  <code>4.0.0beta2-2</code>,  </span></summary>
       
 
-      ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
+      ``4.0.0rc1-4``,  ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ mummer4
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -74,7 +74,7 @@ mummer4
 
     <script>
         var package = "mummer4";
-        var versions = ["4.0.0rc1","4.0.0rc1","4.0.0rc1","4.0.0rc1","4.0.0beta2"];
+        var versions = ["4.0.0rc1","4.0.0rc1","4.0.0rc1","4.0.0rc1","4.0.0rc1"];
     </script>
 
 

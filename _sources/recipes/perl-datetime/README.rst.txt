@@ -26,9 +26,17 @@ perl-datetime
    :versions:
       
       
+      .. raw:: html
 
-      ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
+         <details><summary><span class="truncated-version-list"><code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.55-1</code>,  <code>1.55-0</code>,  <code>1.42-5</code>,  <code>1.42-4</code>,  <code>1.42-2</code>,  </span></summary>
+      
 
+      ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,10 +49,10 @@ perl-datetime
    :depends perl-namespace-autoclean: 
    :depends perl-params-validationcompiler: ``0.30.*``
    :depends perl-params-validationcompiler: ``>=0.26``
-   :depends perl-specio: ``0.47.*``
-   :depends perl-test-fatal: 
+   :depends perl-specio: ``0.48.*``
+   :depends perl-test-fatal: ``0.016.*``
    :depends perl-test-without-module: 
-   :depends perl-try-tiny: 
+   :depends perl-try-tiny: ``0.31.*``
    :depends perl-warnings-register: 
    :requirements:
 
@@ -77,7 +85,7 @@ perl-datetime
 
     <script>
         var package = "perl-datetime";
-        var versions = ["1.58","1.58","1.57","1.55","1.55"];
+        var versions = ["1.59","1.58","1.58","1.57","1.55"];
     </script>
 
 
