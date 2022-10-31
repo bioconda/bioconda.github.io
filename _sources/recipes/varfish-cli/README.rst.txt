@@ -26,24 +26,33 @@ varfish-cli
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.0-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-1</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  </span></summary>
+      
 
+      ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends attrs: 
    :depends cattrs: 
    :depends jsonschema: 
+   :depends levenshtein: 
    :depends logzero: 
    :depends python: ``>=3``
    :depends python-dateutil: 
-   :depends python-levenshtein: 
    :depends requests: 
    :depends simplejson: 
    :depends tabulate: 
    :depends toml: 
    :depends tqdm: 
+   :depends typeguard: 
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +84,7 @@ varfish-cli
 
     <script>
         var package = "varfish-cli";
-        var versions = ["0.3.4","0.3.3","0.3.2","0.3.0","0.2.8"];
+        var versions = ["0.4.0","0.3.4","0.3.3","0.3.2","0.3.0"];
     </script>
 
 

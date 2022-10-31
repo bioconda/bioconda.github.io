@@ -29,10 +29,10 @@ mgkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.6-1</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.8-0</code>,  <code>0.5.6-1</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.0-0``,  ``0.2.2-0``
+      ``0.5.8-0``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -46,19 +46,21 @@ mgkit
    :depends htseq: ``>=0.9.1``
    :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=2``
-   :depends msgpack-python: ``>=0.4.6``
+   :depends msgpack-python: ``>=0.5.6``
    :depends networkx: 
    :depends numpy: ``>=1.9.2``
-   :depends pandas: ``>=0.24``
+   :depends pandas: ``>=1.1.3``
+   :depends pyarrow: ``>=2.0.0``
    :depends pymongo: ``>=3.1.1``
    :depends pysam: ``>=0.14``
    :depends pytables: ``>=3.4.2``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
+   :depends pyvcf: ``>=0.6.0``
    :depends requests: 
    :depends scipy: ``>=0.15.1``
    :depends semidbm: ``>=0.5.1``
-   :depends statsmodels: ``>=0.8``
+   :depends statsmodels: ``>=0.12``
    :depends tqdm: ``>=4.0``
    :requirements:
 
@@ -91,7 +93,7 @@ mgkit
 
     <script>
         var package = "mgkit";
-        var versions = ["0.5.6","0.5.6","0.5.5","0.5.4","0.5.3"];
+        var versions = ["0.5.8","0.5.6","0.5.6","0.5.5","0.5.4"];
     </script>
 
 

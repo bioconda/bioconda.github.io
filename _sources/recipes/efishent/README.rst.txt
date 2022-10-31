@@ -27,7 +27,7 @@ efishent
       
       
 
-      ``0.0.1-0``
+      ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -44,6 +44,7 @@ efishent
    :depends pandas: 
    :depends pyarrow: 
    :depends pyomo: 
+   :depends pysam: 
    :depends python: ``>=3.9``
    :depends rnastructure: 
    :depends samtools: 
@@ -79,7 +80,7 @@ efishent
 
     <script>
         var package = "efishent";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.2","0.0.1"];
     </script>
 
 

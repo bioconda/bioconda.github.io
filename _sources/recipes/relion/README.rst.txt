@@ -27,13 +27,14 @@ relion
       
       
 
-      ``3.1.3-0``
+      ``4.0.0-0``,  ``3.1.3-0``
 
       
 
    
    :depends fftw: ``>=3.3.10,<4.0a0``
    :depends libgcc-ng: ``>=12``
+   :depends libpng: ``>=1.6.38,<1.7.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libtiff: ``>=4.4.0,<5.0a0``
    :depends openmpi: ``>=4.1.4,<5.0a0``
@@ -68,7 +69,7 @@ relion
 
     <script>
         var package = "relion";
-        var versions = ["3.1.3"];
+        var versions = ["4.0.0","3.1.3"];
     </script>
 
 
