@@ -30,10 +30,10 @@ sequana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.1-2</code>,  </span></summary>
       
 
-      ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -49,14 +49,14 @@ sequana
    :depends click: ``>=8.1.0``
    :depends colorlog: ``>=3.1.0``
    :depends colormap: 
-   :depends cookiecutter: 
+   :depends cookiecutter: ``<2``
    :depends cython: 
    :depends docutils: 
    :depends easydev: ``>=0.11.1``
    :depends gseapy: 
    :depends itolapi: 
    :depends lxml: 
-   :depends matplotlib-base: 
+   :depends matplotlib-base: ``<3.6``
    :depends matplotlib-venn: 
    :depends mock: 
    :depends multiqc: ``<=1.11``
@@ -71,7 +71,7 @@ sequana
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
-   :depends snakemake: ``>=7.3.1``
+   :depends snakemake-minimal: ``>=7.3.1,<=7.13``
    :depends statsmodels: 
    :depends tqdm: 
    :depends upsetplot: 
@@ -108,7 +108,7 @@ sequana
 
     <script>
         var package = "sequana";
-        var versions = ["0.14.2","0.14.1","0.14.0","0.13.2","0.8.2"];
+        var versions = ["0.14.3","0.14.2","0.14.1","0.14.0","0.13.2"];
     </script>
 
 

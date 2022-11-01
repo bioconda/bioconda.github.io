@@ -29,16 +29,17 @@ pyfastani
       
       
 
-      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends setuptools: 
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +71,7 @@ pyfastani
 
     <script>
         var package = "pyfastani";
-        var versions = ["0.4.0","0.3.1","0.3.0"];
+        var versions = ["0.4.1","0.4.0","0.3.1","0.3.0"];
     </script>
 
 

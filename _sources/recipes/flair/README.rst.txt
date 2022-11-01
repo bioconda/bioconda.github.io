@@ -28,7 +28,7 @@ flair
       
       
 
-      ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+      ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
 
       
 
@@ -38,7 +38,7 @@ flair
    :depends bioconductor-deseq2: 
    :depends bioconductor-drimseq: 
    :depends bioconductor-stager: 
-   :depends mappy: ``2.24``
+   :depends mappy: ``2.24.*``
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends ncls: 
@@ -51,7 +51,7 @@ flair
    :depends r-qqman: 
    :depends rpy2: 
    :depends samtools: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends tqdm: 
    :requirements:
 
@@ -84,7 +84,7 @@ flair
 
     <script>
         var package = "flair";
-        var versions = ["1.6.4","1.6.3","1.5","1.5","1.4"];
+        var versions = ["1.7.0","1.6.4","1.6.3","1.5","1.5"];
     </script>
 
 

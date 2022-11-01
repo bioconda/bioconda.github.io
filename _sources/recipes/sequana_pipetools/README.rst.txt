@@ -27,19 +27,21 @@ sequana_pipetools
       
       
 
-      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``
+      ``0.9.4-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``
 
       
 
    
+   :depends aiohttp: 
    :depends deprecated: 
    :depends easydev: 
    :depends importlib_resources: 
    :depends parse: 
    :depends pykwalify: 
-   :depends python: ``>=3.7``
+   :depends python: 
    :depends pyyaml: 
    :depends ruamel.yaml: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +73,7 @@ sequana_pipetools
 
     <script>
         var package = "sequana_pipetools";
-        var versions = ["0.9.0","0.8.1","0.8.0","0.7.6","0.7.5"];
+        var versions = ["0.9.4","0.9.0","0.8.1","0.8.0","0.7.6"];
     </script>
 
 
