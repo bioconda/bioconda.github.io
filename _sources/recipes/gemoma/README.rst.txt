@@ -32,14 +32,14 @@ gemoma
       
       
 
-      ``1.7.1-0``,  ``1.6.4-1``,  ``1.6.4-0``
+      ``1.9-0``,  ``1.7.1-0``,  ``1.6.4-1``,  ``1.6.4-0``
 
       
 
    
-   :depends blast: ``>=2.2.31``
-   :depends mmseqs2: ``>=8.fac81``
-   :depends openjdk: ``>=8``
+   :depends blast: ``>=2.12.0``
+   :depends mmseqs2: ``>=14.7e284``
+   :depends openjdk: ``>=8,<12``
    :depends python: ``>=3.7``
    :requirements:
 
@@ -72,7 +72,7 @@ gemoma
 
     <script>
         var package = "gemoma";
-        var versions = ["1.7.1","1.6.4","1.6.4"];
+        var versions = ["1.9","1.7.1","1.6.4","1.6.4"];
     </script>
 
 
@@ -82,7 +82,7 @@ gemoma
 Notes
 -----
 GeMoMa is Java program that comes with a custom wrapper python script. By default
-\"\-Xms1g \-Xmx2g\" is set in the wrapper. If you want to overwrite it you can
+\"\-Xms3g \-Xmx6g\" is set in the wrapper. If you want to overwrite it you can
 specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 

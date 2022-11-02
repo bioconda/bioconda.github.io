@@ -27,12 +27,13 @@ verkko
       
       
 
-      ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends findutils: ``>=4.6.0``
    :depends graphaligner: ``>=1.0.16``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc-ng: ``>=12``
@@ -71,7 +72,7 @@ verkko
 
     <script>
         var package = "verkko";
-        var versions = ["1.1","1.0","1.0","1.0","1.0"];
+        var versions = ["1.1","1.1","1.0","1.0","1.0"];
     </script>
 
 
