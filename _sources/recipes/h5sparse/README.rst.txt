@@ -27,11 +27,16 @@ h5sparse
       
       
 
-      
+      ``0.1.0-0``
 
       
 
    
+   :depends h5py: 
+   :depends numpy: 
+   :depends python: 
+   :depends scipy: 
+   :depends six: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +68,7 @@ h5sparse
 
     <script>
         var package = "h5sparse";
-        var versions = [];
+        var versions = ["0.1.0"];
     </script>
 
 
