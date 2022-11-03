@@ -29,10 +29,10 @@ bioconductor-birewire
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.26.5-0</code>,  <code>3.26.2-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-1</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.30.0-0</code>,  <code>3.26.5-0</code>,  <code>3.26.2-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-1</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  </span></summary>
       
 
-      ``3.26.5-0``,  ``3.26.2-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-0``
+      ``3.30.0-0``,  ``3.26.5-0``,  ``3.26.2-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ bioconductor-birewire
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
    :depends r-rtsne: 
@@ -80,7 +80,7 @@ bioconductor-birewire
 
     <script>
         var package = "bioconductor-birewire";
-        var versions = ["3.26.5","3.26.2","3.26.0","3.24.0","3.22.0"];
+        var versions = ["3.30.0","3.26.5","3.26.2","3.26.0","3.24.0"];
     </script>
 
 

@@ -27,18 +27,19 @@ bioconductor-densvis
       
       
 
-      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.6-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.6-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-basilisk: ``>=1.9.0,<1.10.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-irlba: 
    :depends r-rcpp: 
    :depends r-reticulate: 
    :requirements:
@@ -72,7 +73,7 @@ bioconductor-densvis
 
     <script>
         var package = "bioconductor-densvis";
-        var versions = ["1.4.0","1.4.0","1.4.0","1.2.0","1.00.6"];
+        var versions = ["1.8.0","1.4.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

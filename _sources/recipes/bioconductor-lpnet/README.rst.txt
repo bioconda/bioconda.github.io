@@ -27,13 +27,21 @@ bioconductor-lpnet
    :versions:
       
       
+      .. raw:: html
 
-      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  </span></summary>
+      
 
+      ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-lpsolve: 
    :requirements:
 
@@ -66,7 +74,7 @@ bioconductor-lpnet
 
     <script>
         var package = "bioconductor-lpnet";
-        var versions = ["2.26.0","2.24.0","2.22.0","2.22.0","2.18.0"];
+        var versions = ["2.30.0","2.26.0","2.24.0","2.22.0","2.22.0"];
     </script>
 
 

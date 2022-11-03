@@ -28,10 +28,10 @@ bioconductor-lowmacaannotation
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.3-9</code>,  <code>0.99.3-8</code>,  <code>0.99.3-7</code>,  <code>0.99.3-6</code>,  <code>0.99.3-5</code>,  <code>0.99.3-4</code>,  <code>0.99.3-3</code>,  <code>0.99.3-2</code>,  <code>0.99.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.3-10</code>,  <code>0.99.3-9</code>,  <code>0.99.3-8</code>,  <code>0.99.3-7</code>,  <code>0.99.3-6</code>,  <code>0.99.3-5</code>,  <code>0.99.3-4</code>,  <code>0.99.3-3</code>,  <code>0.99.3-2</code>,  </span></summary>
       
 
-      ``0.99.3-9``,  ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-1``,  ``0.99.3-0``
+      ``0.99.3-10``,  ``0.99.3-9``,  ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-1``,  ``0.99.3-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ bioconductor-lowmacaannotation
       
 
    
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

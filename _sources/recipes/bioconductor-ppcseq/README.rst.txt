@@ -27,17 +27,16 @@ bioconductor-ppcseq
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14.0.4``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-benchmarkme: 
    :depends r-bh: ``>=1.66.0``
    :depends r-dplyr: 
@@ -88,7 +87,7 @@ bioconductor-ppcseq
 
     <script>
         var package = "bioconductor-ppcseq";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

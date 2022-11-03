@@ -27,13 +27,13 @@ bioconductor-mistyr
       
       
 
-      ``1.2.1-0``,  ``1.0.2-0``
+      ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.2-0``
 
       
 
    
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-caret: 
    :depends r-deldir: 
    :depends r-digest: 
@@ -42,16 +42,17 @@ bioconductor-mistyr
    :depends r-filelock: 
    :depends r-furrr: ``>=0.2.0``
    :depends r-ggplot2: 
-   :depends r-mass: 
    :depends r-purrr: 
    :depends r-r.utils: 
    :depends r-ranger: 
    :depends r-readr: 
+   :depends r-ridge: 
    :depends r-rlang: 
    :depends r-rlist: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
    :depends r-withr: 
    :requirements:
 
@@ -84,7 +85,7 @@ bioconductor-mistyr
 
     <script>
         var package = "bioconductor-mistyr";
-        var versions = ["1.2.1","1.0.2"];
+        var versions = ["1.6.0","1.2.1","1.0.2"];
     </script>
 
 

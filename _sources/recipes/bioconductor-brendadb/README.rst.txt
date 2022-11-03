@@ -27,18 +27,18 @@ bioconductor-brendadb
       
       
 
-      ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.11.0-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-crayon: 
    :depends r-curl: 
    :depends r-dplyr: 
@@ -82,7 +82,7 @@ bioconductor-brendadb
 
     <script>
         var package = "bioconductor-brendadb";
-        var versions = ["1.8.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.11.0","1.8.0","1.8.0","1.8.0","1.6.0"];
     </script>
 
 

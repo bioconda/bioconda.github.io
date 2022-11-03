@@ -29,10 +29,10 @@ bioconductor-rbiopaxparser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  </span></summary>
       
 
-      ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``
+      ``2.38.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-rbiopaxparser
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-xml: 
    :requirements:
@@ -75,7 +75,7 @@ bioconductor-rbiopaxparser
 
     <script>
         var package = "bioconductor-rbiopaxparser";
-        var versions = ["2.34.0","2.32.0","2.30.0","2.30.0","2.28.0"];
+        var versions = ["2.38.0","2.34.0","2.32.0","2.30.0","2.30.0"];
     </script>
 
 

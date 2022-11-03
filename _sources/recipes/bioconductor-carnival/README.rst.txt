@@ -27,12 +27,12 @@ bioconductor-carnival
       
       
 
-      ``2.4.0-0``,  ``2.2.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
    :depends r-lpsolve: 
@@ -40,6 +40,8 @@ bioconductor-carnival
    :depends r-rjson: 
    :depends r-rmarkdown: 
    :depends r-stringr: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +73,7 @@ bioconductor-carnival
 
     <script>
         var package = "bioconductor-carnival";
-        var versions = ["2.4.0","2.2.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["2.8.0","2.4.0","2.2.0","1.2.0","1.2.0"];
     </script>
 
 

@@ -26,17 +26,25 @@ bioconductor-olingui
    :versions:
       
       
+      .. raw:: html
 
-      ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.72.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  </span></summary>
+      
 
+      ``1.72.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-marray: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-olin: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-tkwidgets: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-widgettools: ``>=1.72.0,<1.73.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-marray: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-olin: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-tkwidgets: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-widgettools: ``>=1.76.0,<1.77.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ bioconductor-olingui
 
     <script>
         var package = "bioconductor-olingui";
-        var versions = ["1.68.0","1.66.0","1.64.0","1.64.0","1.62.0"];
+        var versions = ["1.72.0","1.68.0","1.66.0","1.64.0","1.64.0"];
     </script>
 
 

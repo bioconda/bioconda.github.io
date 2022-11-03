@@ -27,12 +27,12 @@ bioconductor-tripr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-config: ``>=0.3.1``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -81,7 +81,7 @@ bioconductor-tripr
 
     <script>
         var package = "bioconductor-tripr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

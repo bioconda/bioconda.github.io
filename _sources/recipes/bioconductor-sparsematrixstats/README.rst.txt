@@ -27,17 +27,17 @@ bioconductor-sparsematrixstats
       
       
 
-      ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-matrixgenerics: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-matrix: 
    :depends r-matrixstats: ``>=0.60.0``
    :depends r-rcpp: 
@@ -72,7 +72,7 @@ bioconductor-sparsematrixstats
 
     <script>
         var package = "bioconductor-sparsematrixstats";
-        var versions = ["1.6.0","1.6.0","1.6.0","1.4.0","1.2.1"];
+        var versions = ["1.10.0","1.6.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

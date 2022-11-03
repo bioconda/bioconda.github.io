@@ -26,13 +26,21 @@ bioconductor-difflogo
    :versions:
       
       
+      .. raw:: html
 
-      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  </span></summary>
+      
 
+      ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cba: 
    :requirements:
 
@@ -65,7 +73,7 @@ bioconductor-difflogo
 
     <script>
         var package = "bioconductor-difflogo";
-        var versions = ["2.18.0","2.16.0","2.14.0","2.14.0","2.11.0"];
+        var versions = ["2.22.0","2.18.0","2.16.0","2.14.0","2.14.0"];
     </script>
 
 

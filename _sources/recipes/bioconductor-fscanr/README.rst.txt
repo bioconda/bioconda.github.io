@@ -27,12 +27,12 @@ bioconductor-fscanr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ bioconductor-fscanr
 
     <script>
         var package = "bioconductor-fscanr";
-        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

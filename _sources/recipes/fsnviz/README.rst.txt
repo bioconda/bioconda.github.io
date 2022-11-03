@@ -28,10 +28,10 @@ fsnviz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ fsnviz
    
    :depends circos: ``>=0.69.2``
    :depends click: ``>=6.6``
-   :depends crimson: ``>=0.3.0``
+   :depends crimson: ``>=1.1.0``
    :depends jinja2: ``2.9.5``
    :depends python: ``>=3``
    :requirements:

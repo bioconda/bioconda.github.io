@@ -27,17 +27,16 @@ bioconductor-biodb
       
       
 
-      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.6.0-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14.0.4``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-chk: 
    :depends r-jsonlite: 
    :depends r-lgr: 
@@ -86,7 +85,7 @@ bioconductor-biodb
 
     <script>
         var package = "bioconductor-biodb";
-        var versions = ["1.2.2","1.2.2","1.2.0","1.0.3"];
+        var versions = ["1.6.0","1.2.2","1.2.2","1.2.0","1.0.3"];
     </script>
 
 

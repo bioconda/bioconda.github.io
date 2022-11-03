@@ -27,14 +27,14 @@ bioconductor-tanggle
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-ggtree: ``>=3.6.0,<3.7.0``
    :depends r-ape: ``>=5.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: ``>=2.2.0``
    :depends r-phangorn: ``>=2.5``
    :requirements:
@@ -68,7 +68,7 @@ bioconductor-tanggle
 
     <script>
         var package = "bioconductor-tanggle";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

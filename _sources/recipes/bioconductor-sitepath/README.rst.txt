@@ -26,20 +26,28 @@ bioconductor-sitepath
    :versions:
       
       
+      .. raw:: html
 
-      ``1.10.2-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.10.2-1</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.3-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+      
 
+      ``1.14.0-0``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-ggtree: ``>=3.6.0,<3.7.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends r-ape: 
    :depends r-aplot: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
@@ -78,7 +86,7 @@ bioconductor-sitepath
 
     <script>
         var package = "bioconductor-sitepath";
-        var versions = ["1.10.2","1.10.2","1.10.0","1.8.0","1.6.3"];
+        var versions = ["1.14.0","1.10.2","1.10.2","1.10.0","1.8.0"];
     </script>
 
 

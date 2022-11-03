@@ -27,19 +27,23 @@ bioconductor-anvil
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-dplyr: 
+   :depends r-dt: 
    :depends r-futile.logger: 
+   :depends r-htmltools: 
    :depends r-httr: 
    :depends r-jsonlite: 
+   :depends r-miniui: 
    :depends r-rapiclient: ``>=0.1.3``
    :depends r-rlang: 
+   :depends r-shiny: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-tidyselect: 
@@ -74,7 +78,7 @@ bioconductor-anvil
 
     <script>
         var package = "bioconductor-anvil";
-        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.3"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0","1.2.0"];
     </script>
 
 

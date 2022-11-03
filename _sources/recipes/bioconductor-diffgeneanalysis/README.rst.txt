@@ -29,10 +29,10 @@ bioconductor-diffgeneanalysis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.76.0-0</code>,  <code>1.74.0-0</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.80.0-0</code>,  <code>1.76.0-0</code>,  <code>1.74.0-0</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  </span></summary>
       
 
-      ``1.76.0-0``,  ``1.74.0-0``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``
+      ``1.80.0-0``,  ``1.76.0-0``,  ``1.74.0-0``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-diffgeneanalysis
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-minpack.lm: ``>=1.0-4``
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-diffgeneanalysis
 
     <script>
         var package = "bioconductor-diffgeneanalysis";
-        var versions = ["1.76.0","1.74.0","1.72.0","1.72.0","1.70.0"];
+        var versions = ["1.80.0","1.76.0","1.74.0","1.72.0","1.72.0"];
     </script>
 
 

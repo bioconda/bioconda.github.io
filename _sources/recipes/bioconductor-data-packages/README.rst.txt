@@ -27,7 +27,7 @@ bioconductor-data-packages
       
       
 
-      ``20221027-0``
+      ``20221103-0``,  ``20221027-0``
 
       
 
@@ -66,7 +66,7 @@ bioconductor-data-packages
 
     <script>
         var package = "bioconductor-data-packages";
-        var versions = ["20221027"];
+        var versions = ["20221103","20221027"];
     </script>
 
 

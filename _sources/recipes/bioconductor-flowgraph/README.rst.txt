@@ -27,12 +27,12 @@ bioconductor-flowgraph
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: ``>=1.9.5``
    :depends r-effsize: 
    :depends r-furrr: 
@@ -81,7 +81,7 @@ bioconductor-flowgraph
 
     <script>
         var package = "bioconductor-flowgraph";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

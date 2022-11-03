@@ -28,10 +28,10 @@ bioconductor-lymphoseqdb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.2-9</code>,  <code>0.99.2-8</code>,  <code>0.99.2-7</code>,  <code>0.99.2-6</code>,  <code>0.99.2-5</code>,  <code>0.99.2-4</code>,  <code>0.99.2-3</code>,  <code>0.99.2-2</code>,  <code>0.99.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.2-10</code>,  <code>0.99.2-9</code>,  <code>0.99.2-8</code>,  <code>0.99.2-7</code>,  <code>0.99.2-6</code>,  <code>0.99.2-5</code>,  <code>0.99.2-4</code>,  <code>0.99.2-3</code>,  <code>0.99.2-2</code>,  </span></summary>
       
 
-      ``0.99.2-9``,  ``0.99.2-8``,  ``0.99.2-7``,  ``0.99.2-6``,  ``0.99.2-5``,  ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
+      ``0.99.2-10``,  ``0.99.2-9``,  ``0.99.2-8``,  ``0.99.2-7``,  ``0.99.2-6``,  ``0.99.2-5``,  ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ bioconductor-lymphoseqdb
       
 
    
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

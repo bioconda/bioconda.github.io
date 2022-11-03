@@ -27,13 +27,14 @@ bioconductor-excluderanges
       
       
 
-      ``0.99.6-1``,  ``0.99.6-0``
+      ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``
 
       
 
    
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +66,7 @@ bioconductor-excluderanges
 
     <script>
         var package = "bioconductor-excluderanges";
-        var versions = ["0.99.6","0.99.6"];
+        var versions = ["0.99.6","0.99.6","0.99.6"];
     </script>
 
 

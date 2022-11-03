@@ -27,17 +27,16 @@ bioconductor-biodbhmdb
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biodb: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-biodb: ``>=1.6.0,<1.7.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14.0.4``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-r6: 
    :depends r-rcpp: 
    :depends r-testthat: 
@@ -72,7 +71,7 @@ bioconductor-biodbhmdb
 
     <script>
         var package = "bioconductor-biodbhmdb";
-        var versions = ["1.0.3","1.0.3","1.0.0"];
+        var versions = ["1.4.0","1.0.3","1.0.3","1.0.0"];
     </script>
 
 

@@ -27,17 +27,17 @@ bioconductor-systempipeshiny
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bsplus: 
    :depends r-crayon: 
    :depends r-dplyr: 
-   :depends r-drawer: 
+   :depends r-drawer: ``>=0.2``
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-glue: 
@@ -49,7 +49,7 @@ bioconductor-systempipeshiny
    :depends r-rlang: 
    :depends r-rsqlite: 
    :depends r-rstudioapi: 
-   :depends r-shiny: ``>=1.5.0``
+   :depends r-shiny: ``>=1.6.0``
    :depends r-shinyace: 
    :depends r-shinydashboard: 
    :depends r-shinydashboardplus: ``>=2.0.0``
@@ -58,8 +58,8 @@ bioconductor-systempipeshiny
    :depends r-shinyjs: 
    :depends r-shinytoastr: 
    :depends r-shinywidgets: 
-   :depends r-spscomps: ``>=0.3.1``
-   :depends r-spsutil: ``>=0.2.0``
+   :depends r-spscomps: ``>=0.3.2``
+   :depends r-spsutil: ``>=0.2.2``
    :depends r-stringr: 
    :depends r-styler: 
    :depends r-tibble: 
@@ -96,7 +96,7 @@ bioconductor-systempipeshiny
 
     <script>
         var package = "bioconductor-systempipeshiny";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ verkko
       
       
 
-      ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -38,7 +38,7 @@ verkko
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends mbg: ``>=1.0.11``
+   :depends mbg: ``>=1.0.12``
    :depends python: ``>=3.7``
    :depends snakemake-minimal: ``>=7.8.0``
    :requirements:
@@ -72,7 +72,7 @@ verkko
 
     <script>
         var package = "verkko";
-        var versions = ["1.1","1.1","1.0","1.0","1.0"];
+        var versions = ["1.2","1.1","1.1","1.0","1.0"];
     </script>
 
 

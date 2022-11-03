@@ -27,15 +27,16 @@ bioconductor-cimice
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-maftools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-maftools: ``>=2.14.0,<2.15.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
+   :depends r-expm: 
    :depends r-ggcorrplot: 
    :depends r-ggplot2: 
    :depends r-ggraph: 
@@ -44,7 +45,7 @@ bioconductor-cimice
    :depends r-matrix: 
    :depends r-networkd3: 
    :depends r-purrr: 
-   :depends r-relations: 
+   :depends r-tidygraph: 
    :depends r-tidyr: 
    :depends r-visnetwork: 
    :requirements:
@@ -78,7 +79,7 @@ bioconductor-cimice
 
     <script>
         var package = "bioconductor-cimice";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

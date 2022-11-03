@@ -28,7 +28,7 @@ flair
       
       
 
-      ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+      ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
 
       
 
@@ -51,6 +51,7 @@ flair
    :depends r-qqman: 
    :depends rpy2: 
    :depends samtools: 
+   :depends scipy: 
    :depends seaborn-base: 
    :depends tqdm: 
    :requirements:
@@ -84,7 +85,7 @@ flair
 
     <script>
         var package = "flair";
-        var versions = ["1.7.0","1.6.4","1.6.3","1.5","1.5"];
+        var versions = ["1.7.0","1.7.0","1.6.4","1.6.3","1.5"];
     </script>
 
 

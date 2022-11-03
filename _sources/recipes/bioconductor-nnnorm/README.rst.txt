@@ -29,10 +29,10 @@ bioconductor-nnnorm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.62.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  <code>2.48.0-0</code>,  </span></summary>
       
 
-      ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+      ``2.62.0-0``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-nnnorm
       
 
    
-   :depends bioconductor-marray: ``>=1.72.0,<1.73.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-marray: ``>=1.76.0,<1.77.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-nnet: 
    :requirements:
 
@@ -75,7 +75,7 @@ bioconductor-nnnorm
 
     <script>
         var package = "bioconductor-nnnorm";
-        var versions = ["2.58.0","2.56.0","2.54.0","2.54.0","2.52.0"];
+        var versions = ["2.62.0","2.58.0","2.56.0","2.54.0","2.54.0"];
     </script>
 
 

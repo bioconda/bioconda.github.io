@@ -26,14 +26,24 @@ bioconductor-msmb
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.15.2-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.15.2-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-tibble: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +75,7 @@ bioconductor-msmb
 
     <script>
         var package = "bioconductor-msmb";
-        var versions = ["1.12.0","1.12.0","1.10.0","1.8.0","1.7.0"];
+        var versions = ["1.15.2","1.12.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

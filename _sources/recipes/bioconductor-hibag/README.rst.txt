@@ -29,10 +29,10 @@ bioconductor-hibag
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.2-1</code>,  <code>1.30.2-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.1-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.2-1</code>,  <code>1.30.2-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.1-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.30.2-1``,  ``1.30.2-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.34.0-0``,  ``1.30.2-1``,  ``1.30.2-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -42,10 +42,9 @@ bioconductor-hibag
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14.0.4``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-rcppparallel: ``>=5.0.0``
    :requirements:
 
@@ -78,7 +77,7 @@ bioconductor-hibag
 
     <script>
         var package = "bioconductor-hibag";
-        var versions = ["1.30.2","1.30.2","1.30.0","1.28.0","1.26.1"];
+        var versions = ["1.34.0","1.30.2","1.30.2","1.30.0","1.28.0"];
     </script>
 
 

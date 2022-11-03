@@ -27,14 +27,12 @@ pcasuite
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends binutils: 
    :depends bison: 
-   :depends cmake: 
    :depends lapack: 
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
@@ -43,7 +41,6 @@ pcasuite
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libnetcdf: ``>=4.8.1,<4.8.2.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends make: 
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +72,7 @@ pcasuite
 
     <script>
         var package = "pcasuite";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

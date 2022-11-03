@@ -26,13 +26,21 @@ bioconductor-sbmlr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.90.0-0``,  ``1.88.0-0``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-0``,  ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.94.0-0</code>,  <code>1.90.0-0</code>,  <code>1.88.0-0</code>,  <code>1.86.0-1</code>,  <code>1.86.0-0</code>,  <code>1.84.0-0</code>,  <code>1.82.0-0</code>,  <code>1.80.0-1</code>,  <code>1.80.0-0</code>,  </span></summary>
+      
 
+      ``1.94.0-0``,  ``1.90.0-0``,  ``1.88.0-0``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-0``,  ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-desolve: 
    :depends r-xml: 
    :requirements:
@@ -66,7 +74,7 @@ bioconductor-sbmlr
 
     <script>
         var package = "bioconductor-sbmlr";
-        var versions = ["1.90.0","1.88.0","1.86.0","1.86.0","1.84.0"];
+        var versions = ["1.94.0","1.90.0","1.88.0","1.86.0","1.86.0"];
     </script>
 
 

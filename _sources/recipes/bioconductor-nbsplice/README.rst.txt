@@ -28,10 +28,10 @@ bioconductor-nbsplice
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.6-0``,  ``1.0.0-0``
+      ``1.15.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.6-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-nbsplice
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-car: 
    :depends r-ggplot2: 
    :depends r-mass: 
@@ -79,7 +79,7 @@ bioconductor-nbsplice
 
     <script>
         var package = "bioconductor-nbsplice";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.15.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

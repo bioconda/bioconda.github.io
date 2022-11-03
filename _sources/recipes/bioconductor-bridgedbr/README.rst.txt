@@ -27,12 +27,12 @@ bioconductor-bridgedbr
       
       
 
-      ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``
+      ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-curl: 
    :depends r-rjava: 
    :requirements:
@@ -66,7 +66,7 @@ bioconductor-bridgedbr
 
     <script>
         var package = "bioconductor-bridgedbr";
-        var versions = ["2.4.0","2.2.1","2.0.0","2.0.0","1.20.0"];
+        var versions = ["2.8.0","2.4.0","2.2.1","2.0.0","2.0.0"];
     </script>
 
 
