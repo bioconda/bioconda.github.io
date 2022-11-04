@@ -27,16 +27,15 @@ bioconductor-orthogene
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-ggtree: ``>=3.6.0,<3.7.0``
    :depends r-babelgene: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -46,7 +45,6 @@ bioconductor-orthogene
    :depends r-homologene: 
    :depends r-jsonlite: 
    :depends r-matrix: 
-   :depends r-matrix.utils: 
    :depends r-patchwork: 
    :depends r-repmis: 
    :requirements:
@@ -80,7 +78,7 @@ bioconductor-orthogene
 
     <script>
         var package = "bioconductor-orthogene";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

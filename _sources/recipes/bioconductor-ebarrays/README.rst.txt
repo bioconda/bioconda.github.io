@@ -29,10 +29,10 @@ bioconductor-ebarrays
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.58.0-2</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.62.0-0</code>,  <code>2.58.0-2</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  </span></summary>
       
 
-      ``2.58.0-2``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+      ``2.62.0-0``,  ``2.58.0-2``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-ebarrays
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cluster: 
    :depends r-lattice: 
    :requirements:
@@ -79,7 +79,7 @@ bioconductor-ebarrays
 
     <script>
         var package = "bioconductor-ebarrays";
-        var versions = ["2.58.0","2.58.0","2.58.0","2.56.0","2.54.0"];
+        var versions = ["2.62.0","2.58.0","2.58.0","2.58.0","2.56.0"];
     </script>
 
 

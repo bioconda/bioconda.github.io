@@ -27,16 +27,16 @@ bioconductor-flowbin
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowfp: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowfp: ``>=1.55.0,<1.56.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-class: 
    :depends r-snow: 
    :requirements:
@@ -70,7 +70,7 @@ bioconductor-flowbin
 
     <script>
         var package = "bioconductor-flowbin";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

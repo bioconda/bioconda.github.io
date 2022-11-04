@@ -27,7 +27,7 @@ r-statvisual
       
       
 
-      ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.9-0``,  ``1.1.8-0``
+      ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.9-0``,  ``1.1.8-0``
 
       
 
@@ -35,7 +35,7 @@ r-statvisual
    :depends bioconductor-biobase: 
    :depends bioconductor-limma: 
    :depends bioconductor-pvca: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-factoextra: 
    :depends r-forestplot: 
@@ -91,7 +91,7 @@ r-statvisual
 
     <script>
         var package = "r-statvisual";
-        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.1.9"];
+        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

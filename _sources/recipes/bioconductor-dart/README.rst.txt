@@ -26,13 +26,21 @@ bioconductor-dart
    :versions:
       
       
+      .. raw:: html
 
-      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  </span></summary>
+      
 
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: ``>=0.6.0``
    :requirements:
 
@@ -65,7 +73,7 @@ bioconductor-dart
 
     <script>
         var package = "bioconductor-dart";
-        var versions = ["1.42.0","1.40.0","1.38.0","1.38.0","1.36.0"];
+        var versions = ["1.46.0","1.42.0","1.40.0","1.38.0","1.38.0"];
     </script>
 
 

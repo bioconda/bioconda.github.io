@@ -27,12 +27,12 @@ r-xmlrpc
       
       
 
-      ``0.2_4-5``,  ``0.2_4-4``,  ``0.2_4-3``,  ``0.2_4-0``
+      ``0.2_4-6``,  ``0.2_4-5``,  ``0.2_4-4``,  ``0.2_4-3``,  ``0.2_4-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-rcurl: 
    :depends r-xml: 
    :requirements:
@@ -66,7 +66,7 @@ r-xmlrpc
 
     <script>
         var package = "r-xmlrpc";
-        var versions = ["0.2_4","0.2_4","0.2_4","0.2_4"];
+        var versions = ["0.2_4","0.2_4","0.2_4","0.2_4","0.2_4"];
     </script>
 
 

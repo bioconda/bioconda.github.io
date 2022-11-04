@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Package Recipe &#39;perl-math-round&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;massiveqc&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -106,68 +106,76 @@
 
           <div class="body" role="main">
             
-  <section id="perl-math-round">
+  <section id="massiveqc">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">perl-math-round</span></span></dt>
-<dd><p>Perl extension for rounding numbers</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">massiveqc</span></span></dt>
+<dd><p>Tools for QC massive RNA-seq samples</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://metacpan.org/pod/Math-Round">http://metacpan.org/pod/Math-Round</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/shimw6828/MassiveQC">https://github.com/shimw6828/MassiveQC</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>unknown</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-round">perl-math-round</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-round/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/massiveqc">massiveqc</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/massiveqc/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-perl-math-round">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">perl-math-round</span></span><a class="headerlink" href="#package-perl-math-round" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-math-round"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-math-round.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-math-round"><img alt="docker_perl-math-round" src="https://quay.io/repository/biocontainers/perl-math-round/status" /></a></p>
+<dt class="sig sig-object conda" id="package-massiveqc">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">massiveqc</span></span><a class="headerlink" href="#package-massiveqc" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/massiveqc"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/massiveqc.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/massiveqc"><img alt="docker_massiveqc" src="https://quay.io/repository/biocontainers/massiveqc/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.07-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.07-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.07-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.0.5-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../atropos/README.html#package-atropos" title="atropos package"><strong>atropos</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bamtools/README.html#package-bamtools" title="bamtools package"><strong>bamtools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../fastq-screen/README.html#package-fastq-screen" title="fastq-screen package"><strong>fastq-screen</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../hisat2/README.html#package-hisat2" title="hisat2 package"><strong>hisat2</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/more-itertools-feedstock"><strong>more-itertools</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyarrow-feedstock"><strong>pyarrow</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pysradb/README.html#package-pysradb" title="pysradb package"><strong>pysradb</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/shap-feedstock"><strong>shap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../subread/README.html#package-subread" title="subread package"><strong>subread</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tqdm-feedstock"><strong>tqdm</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xopen-feedstock"><strong>xopen</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../circos-tools/README.html#circos-tools"><strong class="xref backref">circos-tools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../circos/README.html#circos"><strong class="xref backref">circos</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../snvphyl-tools/README.html#snvphyl-tools"><strong class="xref backref">snvphyl-tools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../graphclust-wrappers/README.html#graphclust-wrappers"><strong class="xref backref">graphclust-wrappers</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../kinsimriboswitch/README.html#kinsimriboswitch"><strong class="xref backref">kinsimriboswitch</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-viennangs/README.html#perl-bio-viennangs"><strong class="xref backref">perl-bio-viennangs</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mummer2circos/README.html#mummer2circos"><strong class="xref backref">mummer2circos</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">perl</span><span class="o">-</span><span class="n">math</span><span class="o">-</span><span class="nb">round</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">massiveqc</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">perl</span><span class="o">-</span><span class="n">math</span><span class="o">-</span><span class="nb">round</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">massiveqc</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">math</span><span class="o">-</span><span class="nb">round</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">massiveqc</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-math-round?tab=tags">perl-math-round/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/massiveqc?tab=tags">massiveqc/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>
-    var package = "perl-math-round";
-    var versions = ["0.07","0.07","0.07"];
+    var package = "massiveqc";
+    var versions = ["0.0.5"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -198,8 +206,8 @@
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-math-round/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-math-round/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/massiveqc/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/massiveqc/README.html)
 </pre></div>
 </div>
 </section>
@@ -220,14 +228,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/perl-math-round/README.rst.txt"
+      <a href="../../_sources/recipes/massiveqc/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/perl-math-round/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/massiveqc/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

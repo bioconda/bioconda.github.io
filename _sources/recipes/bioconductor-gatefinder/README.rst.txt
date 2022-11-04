@@ -27,14 +27,14 @@ bioconductor-gatefinder
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowfp: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowfp: ``>=1.55.0,<1.56.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-diptest: 
    :depends r-mvoutlier: 
    :depends r-splancs: 
@@ -69,7 +69,7 @@ bioconductor-gatefinder
 
     <script>
         var package = "bioconductor-gatefinder";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
     </script>
 
 

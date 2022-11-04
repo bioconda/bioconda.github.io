@@ -27,17 +27,17 @@ r-pcalg
       
       
 
-      ``2.6_12-3``,  ``2.6_12-2``,  ``2.6_12-1``,  ``2.6_12-0``
+      ``2.6_12-4``,  ``2.6_12-3``,  ``2.6_12-2``,  ``2.6_12-1``,  ``2.6_12-0``
 
       
 
    
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-abind: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bdsmatrix: 
    :depends r-bh: 
    :depends r-clue: 
@@ -82,7 +82,7 @@ r-pcalg
 
     <script>
         var package = "r-pcalg";
-        var versions = ["2.6_12","2.6_12","2.6_12","2.6_12"];
+        var versions = ["2.6_12","2.6_12","2.6_12","2.6_12","2.6_12"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-rcy3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.2-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.3-0</code>,  <code>2.2.9-0</code>,  <code>2.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.2-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.3-0</code>,  <code>2.2.9-0</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.2-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.3-0``,  ``2.2.9-0``,  ``2.2.6-0``,  ``2.0.88-0``,  ``1.8.0-0``
+      ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.2-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.3-0``,  ``2.2.9-0``,  ``2.2.6-0``,  ``2.0.88-0``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,15 @@ bioconductor-rcy3
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
    :depends cytoscape: ``>=3.7.1``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-base64enc: 
    :depends r-base64url: 
    :depends r-fs: 
    :depends r-glue: 
+   :depends r-gplots: 
    :depends r-httr: 
    :depends r-irdisplay: 
    :depends r-irkernel: 
@@ -88,7 +89,7 @@ bioconductor-rcy3
 
     <script>
         var package = "bioconductor-rcy3";
-        var versions = ["2.14.0","2.12.0","2.10.2","2.10.0","2.8.0"];
+        var versions = ["2.18.0","2.14.0","2.12.0","2.10.2","2.10.0"];
     </script>
 
 

@@ -27,16 +27,16 @@ r-leidenbase
       
       
 
-      ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgfortran5: ``>=10.4.0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: 
    :requirements:
 
@@ -69,7 +69,7 @@ r-leidenbase
 
     <script>
         var package = "r-leidenbase";
-        var versions = ["0.1.3","0.1.3","0.1.3","0.1.0","0.1.0"];
+        var versions = ["0.1.3","0.1.3","0.1.3","0.1.3","0.1.0"];
     </script>
 
 

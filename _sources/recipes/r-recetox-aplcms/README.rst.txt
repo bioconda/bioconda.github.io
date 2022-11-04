@@ -28,14 +28,14 @@ r-recetox-aplcms
       
       
 
-      ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
+      ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
 
       
 
    
    :depends bioconductor-mzr: 
    :depends r-arrow: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-devtools: 
    :depends r-doparallel: 
@@ -86,7 +86,7 @@ r-recetox-aplcms
 
     <script>
         var package = "r-recetox-aplcms";
-        var versions = ["0.9.4","0.9.3","0.9.2","0"];
+        var versions = ["0.9.4","0.9.4","0.9.3","0.9.2","0"];
     </script>
 
 

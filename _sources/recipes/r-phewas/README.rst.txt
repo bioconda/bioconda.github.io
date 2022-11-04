@@ -28,15 +28,15 @@ r-phewas
       
       
 
-      ``0.12.1-4``,  ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
+      ``0.12.1-5``,  ``0.12.1-4``,  ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgfortran5: ``>=10.4.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: ``>=2.2.0``

@@ -27,14 +27,14 @@ bioconductor-flowmeans
       
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.1-0``
+      ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-feature: 
    :depends r-rrcov: 
    :requirements:
@@ -68,7 +68,7 @@ bioconductor-flowmeans
 
     <script>
         var package = "bioconductor-flowmeans";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.50.0","1.48.0"];
+        var versions = ["1.58.0","1.54.0","1.52.0","1.50.0","1.50.0"];
     </script>
 
 

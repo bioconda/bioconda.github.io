@@ -27,20 +27,20 @@ bioconductor-confess
       
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``
 
       
 
    
-   :depends bioconductor-ebimage: ``>=4.36.0,<4.37.0``
-   :depends bioconductor-flowclust: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowmeans: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-flowmerge: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-flowpeaks: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-samspectral: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-ebimage: ``>=4.40.0,<4.41.0``
+   :depends bioconductor-flowclust: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowmeans: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-flowmerge: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-flowpeaks: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-samspectral: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-changepoint: 
    :depends r-cluster: 
    :depends r-contrast: 
@@ -90,7 +90,7 @@ bioconductor-confess
 
     <script>
         var package = "bioconductor-confess";
-        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
+        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.18.0"];
     </script>
 
 

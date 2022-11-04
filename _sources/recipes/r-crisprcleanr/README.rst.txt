@@ -27,13 +27,13 @@ r-crisprcleanr
       
       
 
-      ``2.3.1-0``
+      ``2.3.1-1``,  ``2.3.1-0``
 
       
 
    
    :depends bioconductor-dnacopy: ``>=1.68``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-pracma: 
    :depends r-proc: 
    :depends r-prroc: 
@@ -69,7 +69,7 @@ r-crisprcleanr
 
     <script>
         var package = "r-crisprcleanr";
-        var versions = ["2.3.1"];
+        var versions = ["2.3.1","2.3.1"];
     </script>
 
 

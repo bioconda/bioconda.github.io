@@ -29,10 +29,10 @@ bioconductor-anota
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-anota
       
 
    
-   :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-multtest: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ bioconductor-anota
 
     <script>
         var package = "bioconductor-anota";
-        var versions = ["1.42.0","1.40.0","1.38.0","1.38.0","1.36.0"];
+        var versions = ["1.46.0","1.42.0","1.40.0","1.38.0","1.38.0"];
     </script>
 
 

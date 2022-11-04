@@ -27,13 +27,13 @@ r-mkmisc
       
       
 
-      ``1.8-0``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+      ``1.8-1``,  ``1.8-0``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
 
       
 
    
    :depends bioconductor-limma: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
    :depends r-robustbase: 
@@ -69,7 +69,7 @@ r-mkmisc
 
     <script>
         var package = "r-mkmisc";
-        var versions = ["1.8","1.6","1.6","1.6","1.6"];
+        var versions = ["1.8","1.8","1.6","1.6","1.6"];
     </script>
 
 

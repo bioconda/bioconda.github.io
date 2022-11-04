@@ -29,10 +29,10 @@ bioconductor-metcirc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,11 @@ bioconductor-metcirc
       
 
    
-   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-mscoreutils: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-spectra: ``>=1.8.0,<1.9.0``
    :depends r-amap: ``>=0.8``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-circlize: ``>=0.3.9``
    :depends r-ggplot2: ``>=3.2.1``
    :depends r-scales: ``>=0.3.0``
@@ -80,7 +81,7 @@ bioconductor-metcirc
 
     <script>
         var package = "bioconductor-metcirc";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.20.0"];
     </script>
 
 

@@ -27,14 +27,15 @@ bioconductor-ptairdata
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-signal: 
    :requirements:
 
@@ -67,7 +68,7 @@ bioconductor-ptairdata
 
     <script>
         var package = "bioconductor-ptairdata";
-        var versions = ["1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.5.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

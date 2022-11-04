@@ -27,16 +27,17 @@ bioconductor-reactomegsa.data
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.11.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-reactomegsa: ``>=1.8.0,<1.9.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-reactomegsa: ``>=1.12.0,<1.13.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-seurat: 
    :requirements:
 
@@ -69,7 +70,7 @@ bioconductor-reactomegsa.data
 
     <script>
         var package = "bioconductor-reactomegsa.data";
-        var versions = ["1.8.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.11.0","1.8.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

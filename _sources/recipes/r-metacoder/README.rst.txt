@@ -27,15 +27,15 @@ r-metacoder
       
       
 
-      ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-ape: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cowplot: 
    :depends r-crayon: 
    :depends r-dplyr: 
@@ -86,7 +86,7 @@ r-metacoder
 
     <script>
         var package = "r-metacoder";
-        var versions = ["0.3.5","0.3.5","0.3.4","0.3.4","0.3.4"];
+        var versions = ["0.3.5","0.3.5","0.3.5","0.3.4","0.3.4"];
     </script>
 
 

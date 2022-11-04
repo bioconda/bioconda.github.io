@@ -27,15 +27,15 @@ bioconductor-flowtrans
       
       
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+      ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
 
       
 
    
-   :depends bioconductor-flowclust: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowviz: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-flowclust: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowviz: ``>=1.62.0,<1.63.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-flowtrans
 
     <script>
         var package = "bioconductor-flowtrans";
-        var versions = ["1.46.0","1.44.0","1.42.0","1.42.0","1.40.0"];
+        var versions = ["1.50.0","1.46.0","1.44.0","1.42.0","1.42.0"];
     </script>
 
 

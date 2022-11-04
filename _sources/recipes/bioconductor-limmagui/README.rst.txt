@@ -26,14 +26,22 @@ bioconductor-limmagui
    :versions:
       
       
+      .. raw:: html
 
-      ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.74.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  </span></summary>
+      
 
+      ``1.74.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-r2html: 
    :depends r-tkrplot: 
    :depends r-xtable: 
@@ -68,7 +76,7 @@ bioconductor-limmagui
 
     <script>
         var package = "bioconductor-limmagui";
-        var versions = ["1.70.0","1.68.0","1.66.0","1.66.0","1.64.0"];
+        var versions = ["1.74.0","1.70.0","1.68.0","1.66.0","1.66.0"];
     </script>
 
 

@@ -26,16 +26,24 @@ bioconductor-tpp
    :versions:
       
       
+      .. raw:: html
 
-      ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.10.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.26.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.10.1-0</code>,  </span></summary>
+      
 
+      ``3.26.0-0``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.10.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biobroom: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biobroom: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-broom: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -92,7 +100,7 @@ bioconductor-tpp
 
     <script>
         var package = "bioconductor-tpp";
-        var versions = ["3.22.0","3.20.0","3.18.0","3.18.0","3.16.0"];
+        var versions = ["3.26.0","3.22.0","3.20.0","3.18.0","3.18.0"];
     </script>
 
 

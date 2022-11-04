@@ -27,16 +27,18 @@ bioconductor-targetdecoy
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-mzid: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-mzid: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :depends r-ggpubr: 
+   :depends r-miniui: 
+   :depends r-shiny: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +70,7 @@ bioconductor-targetdecoy
 
     <script>
         var package = "bioconductor-targetdecoy";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-degraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+      ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-degraph
       
 
    
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-kegggraph: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-ncigraph: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-kegggraph: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-ncigraph: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-rbgl: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-lattice: 
    :depends r-mvtnorm: 
    :depends r-r.methodss3: 
@@ -83,7 +83,7 @@ bioconductor-degraph
 
     <script>
         var package = "bioconductor-degraph";
-        var versions = ["1.46.0","1.44.0","1.42.0","1.42.0","1.40.0"];
+        var versions = ["1.50.0","1.46.0","1.44.0","1.42.0","1.42.0"];
     </script>
 
 

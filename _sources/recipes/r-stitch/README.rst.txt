@@ -28,10 +28,10 @@ r-stitch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.6-3</code>,  <code>1.6.6-2</code>,  <code>1.6.6-1</code>,  <code>1.6.6-0</code>,  <code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-0</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.6-4</code>,  <code>1.6.6-3</code>,  <code>1.6.6-2</code>,  <code>1.6.6-1</code>,  <code>1.6.6-0</code>,  <code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-0</code>,  <code>1.6.3-1</code>,  </span></summary>
       
 
-      ``1.6.6-3``,  ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
+      ``1.6.6-4``,  ``1.6.6-3``,  ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
 
       
       .. raw:: html
@@ -45,11 +45,11 @@ r-stitch
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.2.1,<2.0a0``
    :depends mpfr: ``>=4.1.0,<5.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``
@@ -58,7 +58,7 @@ r-stitch
    :depends rsync: 
    :depends samtools: ``>=1.4``
    :depends xz: ``>=5.2.6,<5.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ r-stitch
 
     <script>
         var package = "r-stitch";
-        var versions = ["1.6.6","1.6.6","1.6.6","1.6.6","1.6.5"];
+        var versions = ["1.6.6","1.6.6","1.6.6","1.6.6","1.6.6"];
     </script>
 
 

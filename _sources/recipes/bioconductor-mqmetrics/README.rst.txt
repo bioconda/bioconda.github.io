@@ -27,12 +27,12 @@ bioconductor-mqmetrics
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggforce: 
@@ -40,7 +40,6 @@ bioconductor-mqmetrics
    :depends r-ggplot2: 
    :depends r-ggpubr: 
    :depends r-ggrepel: 
-   :depends r-ggridges: 
    :depends r-gridextra: 
    :depends r-gtable: 
    :depends r-knitr: 
@@ -86,7 +85,7 @@ bioconductor-mqmetrics
 
     <script>
         var package = "bioconductor-mqmetrics";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

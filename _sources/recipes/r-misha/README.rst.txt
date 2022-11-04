@@ -28,10 +28,10 @@ r-misha
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.0-3</code>,  <code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.11-0</code>,  <code>4.0.10-1</code>,  <code>4.0.10-0</code>,  <code>4.0.6-1</code>,  <code>4.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-4</code>,  <code>4.1.0-3</code>,  <code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.11-0</code>,  <code>4.0.10-1</code>,  <code>4.0.10-0</code>,  <code>4.0.6-1</code>,  </span></summary>
       
 
-      ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.11-0``,  ``4.0.10-1``,  ``4.0.10-0``,  ``4.0.6-1``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-1``
+      ``4.1.0-4``,  ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.11-0``,  ``4.0.10-1``,  ``4.0.10-0``,  ``4.0.6-1``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-1``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ r-misha
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ r-misha
 
     <script>
         var package = "r-misha";
-        var versions = ["4.1.0","4.1.0","4.1.0","4.1.0","4.0.11"];
+        var versions = ["4.1.0","4.1.0","4.1.0","4.1.0","4.1.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-ahcytobands
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.1-1</code>,  <code>0.99.1-0</code>,  <code>0.99.0-7</code>,  <code>0.99.0-6</code>,  <code>0.99.0-5</code>,  <code>0.99.0-4</code>,  <code>0.99.0-3</code>,  <code>0.99.0-2</code>,  <code>0.99.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.1-2</code>,  <code>0.99.1-1</code>,  <code>0.99.1-0</code>,  <code>0.99.0-7</code>,  <code>0.99.0-6</code>,  <code>0.99.0-5</code>,  <code>0.99.0-4</code>,  <code>0.99.0-3</code>,  <code>0.99.0-2</code>,  </span></summary>
       
 
-      ``0.99.1-1``,  ``0.99.1-0``,  ``0.99.0-7``,  ``0.99.0-6``,  ``0.99.0-5``,  ``0.99.0-4``,  ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-1``,  ``0.99.0-0``
+      ``0.99.1-2``,  ``0.99.1-1``,  ``0.99.1-0``,  ``0.99.0-7``,  ``0.99.0-6``,  ``0.99.0-5``,  ``0.99.0-4``,  ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-1``,  ``0.99.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ bioconductor-ahcytobands
       
 
    
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +74,7 @@ bioconductor-ahcytobands
 
     <script>
         var package = "bioconductor-ahcytobands";
-        var versions = ["0.99.1","0.99.1","0.99.0","0.99.0","0.99.0"];
+        var versions = ["0.99.1","0.99.1","0.99.1","0.99.0","0.99.0"];
     </script>
 
 

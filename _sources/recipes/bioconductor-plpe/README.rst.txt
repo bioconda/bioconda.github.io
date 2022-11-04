@@ -29,10 +29,10 @@ bioconductor-plpe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.42.0-0</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
+      ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-plpe
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-lpe: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-lpe: ``>=1.72.0,<1.73.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-mass: 
    :requirements:
 
@@ -76,7 +76,7 @@ bioconductor-plpe
 
     <script>
         var package = "bioconductor-plpe";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.50.0","1.48.0"];
+        var versions = ["1.58.0","1.54.0","1.52.0","1.50.0","1.50.0"];
     </script>
 
 

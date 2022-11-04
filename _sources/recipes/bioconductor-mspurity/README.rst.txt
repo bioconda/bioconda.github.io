@@ -29,10 +29,10 @@ bioconductor-mspurity
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.2-1</code>,  <code>1.16.2-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.2-1</code>,  <code>1.16.2-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.9-0``
+      ``1.24.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.9-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-mspurity
       
 
    
-   :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: 
    :depends r-dbplyr: 
    :depends r-dosnow: 
@@ -54,14 +54,12 @@ bioconductor-mspurity
    :depends r-fastcluster: 
    :depends r-foreach: 
    :depends r-ggplot2: 
-   :depends r-jsonlite: 
    :depends r-magrittr: 
    :depends r-plyr: 
    :depends r-rcpp: 
    :depends r-reshape2: 
    :depends r-rsqlite: 
    :depends r-stringr: 
-   :depends r-uuid: 
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +91,7 @@ bioconductor-mspurity
 
     <script>
         var package = "bioconductor-mspurity";
-        var versions = ["1.20.0","1.20.0","1.20.0","1.18.0","1.16.2"];
+        var versions = ["1.24.0","1.20.0","1.20.0","1.20.0","1.18.0"];
     </script>
 
 

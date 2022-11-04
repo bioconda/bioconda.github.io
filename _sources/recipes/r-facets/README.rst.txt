@@ -27,16 +27,24 @@ r-facets
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-4``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.2-2</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.5.14-4</code>,  <code>0.5.14-3</code>,  <code>0.5.14-2</code>,  <code>0.5.14-1</code>,  </span></summary>
+      
 
+      ``0.6.2-2``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-4``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgfortran5: ``>=10.4.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-pctgcdata: 
    :requirements:
 
@@ -69,7 +77,7 @@ r-facets
 
     <script>
         var package = "r-facets";
-        var versions = ["0.6.2","0.6.2","0.6.1","0.6.1","0.5.14"];
+        var versions = ["0.6.2","0.6.2","0.6.2","0.6.1","0.6.1"];
     </script>
 
 

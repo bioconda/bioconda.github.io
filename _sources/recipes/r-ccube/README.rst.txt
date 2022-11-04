@@ -27,15 +27,15 @@ r-ccube
       
       
 
-      ``1.0_beta.1-1``,  ``1.0_beta.1-0``
+      ``1.0_beta.1-2``,  ``1.0_beta.1-1``,  ``1.0_beta.1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-foreach: 
    :depends r-matrix: 
@@ -71,7 +71,7 @@ r-ccube
 
     <script>
         var package = "r-ccube";
-        var versions = ["1.0_beta.1","1.0_beta.1"];
+        var versions = ["1.0_beta.1","1.0_beta.1","1.0_beta.1"];
     </script>
 
 

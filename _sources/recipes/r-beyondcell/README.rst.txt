@@ -27,7 +27,7 @@ r-beyondcell
       
       
 
-      ``1.3.3-0``
+      ``1.3.3-1``,  ``1.3.3-0``
 
       
 
@@ -35,7 +35,7 @@ r-beyondcell
    :depends bioconductor-qusage: ``>=2.22.0``
    :depends numba: ``0.46.*``
    :depends python: ``3.6.*``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bnstruct: ``>=1.0.6``
    :depends r-cowplot: ``>=1.1.0``
    :depends r-deldir: ``>=1.0_2``
@@ -83,7 +83,7 @@ r-beyondcell
 
     <script>
         var package = "r-beyondcell";
-        var versions = ["1.3.3"];
+        var versions = ["1.3.3","1.3.3"];
     </script>
 
 

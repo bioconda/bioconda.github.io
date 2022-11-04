@@ -27,7 +27,7 @@ r-perfmeas
       
       
 
-      ``1.2.5-0``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
+      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
 
       
 
@@ -36,7 +36,7 @@ r-perfmeas
    :depends bioconductor-limma: 
    :depends bioconductor-rbgl: 
    :depends libgcc-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ r-perfmeas
 
     <script>
         var package = "r-perfmeas";
-        var versions = ["1.2.5","1.2.1","1.2.1","1.2.1","1.2.1"];
+        var versions = ["1.2.5","1.2.5","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

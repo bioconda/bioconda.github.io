@@ -27,18 +27,18 @@ bioconductor-spectra
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-mscoreutils: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-protgenerics: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-mscoreutils: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-protgenerics: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-fs: 
    :requirements:
 
@@ -71,7 +71,7 @@ bioconductor-spectra
 
     <script>
         var package = "bioconductor-spectra";
-        var versions = ["1.4.0","1.2.0","1.0.5","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.5","1.0.0"];
     </script>
 
 

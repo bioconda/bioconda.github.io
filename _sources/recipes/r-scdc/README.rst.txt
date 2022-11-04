@@ -28,15 +28,14 @@ r-scdc
       
       
 
-      ``0-3``,  ``0-2``,  ``0-1``,  ``0-0``
+      ``0-4``,  ``0-3``,  ``0-2``,  ``0-1``,  ``0-0``
 
       
 
    
    :depends bioconductor-biobase: ``>=2.50.0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.0,<4.1``
+   :depends libcxx: ``>=14.0.4``
+   :depends r-base: ``>=4.0.5``
    :depends r-cowplot: ``>=1.1.1``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-l1pack: ``>=0.38.196``
@@ -76,7 +75,7 @@ r-scdc
 
     <script>
         var package = "r-scdc";
-        var versions = ["0","0","0","0"];
+        var versions = ["0","0","0","0","0"];
     </script>
 
 

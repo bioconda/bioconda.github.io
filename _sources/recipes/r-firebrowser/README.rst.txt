@@ -27,12 +27,12 @@ r-firebrowser
       
       
 
-      ``1.1.35-3``,  ``1.1.35-2``,  ``1.1.35-1``,  ``1.1.35-0``
+      ``1.1.35-4``,  ``1.1.35-3``,  ``1.1.35-2``,  ``1.1.35-1``,  ``1.1.35-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ r-firebrowser
 
     <script>
         var package = "r-firebrowser";
-        var versions = ["1.1.35","1.1.35","1.1.35","1.1.35"];
+        var versions = ["1.1.35","1.1.35","1.1.35","1.1.35","1.1.35"];
     </script>
 
 

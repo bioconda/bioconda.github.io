@@ -27,7 +27,7 @@ r-quilt
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
 
@@ -37,11 +37,11 @@ r-quilt
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.2.1,<2.0a0``
    :depends mpfr: ``>=4.1.0,<5.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``
@@ -51,7 +51,7 @@ r-quilt
    :depends rsync: 
    :depends samtools: ``>=1.4``
    :depends xz: ``>=5.2.6,<5.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["1.0.3","1.0.3","0.1.9","0.1.9","0.1.9"];
+        var versions = ["1.0.3","1.0.3","1.0.3","0.1.9","0.1.9"];
     </script>
 
 

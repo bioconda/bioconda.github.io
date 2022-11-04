@@ -26,15 +26,23 @@ bioconductor-bioassayr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.20.1-0</code>,  </span></summary>
+      
 
+      ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-chemminer: ``>=3.46.0,<3.47.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-chemminer: ``>=3.50.0,<3.51.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-matrix: 
    :depends r-rjson: 
@@ -71,7 +79,7 @@ bioconductor-bioassayr
 
     <script>
         var package = "bioconductor-bioassayr";
-        var versions = ["1.32.0","1.30.0","1.28.2","1.28.0","1.26.0"];
+        var versions = ["1.36.0","1.32.0","1.30.0","1.28.2","1.28.0"];
     </script>
 
 

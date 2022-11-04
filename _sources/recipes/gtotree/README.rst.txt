@@ -20,7 +20,7 @@ gtotree
    :recipe: /`gtotree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtotree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtotree/meta.yaml>`_
 
    
-   \# GToTree \- User\-friendly workflow for phylogenomics.
+   \# GToTree \- a user\-friendly workflow for phylogenomics
 
    GToTree is a user\-friendly workflow for phylogenomics intended to give more researchers the capability to create phylogenomic trees. The open\-access Bioinformatics Journal publication is available here \(https\:\/\/doi.org\/10.1093\/bioinformatics\/btz188\)\, and documentation and examples can be found at the wiki here \(https\:\/\/github.com\/AstrobioMike\/GToTree\/wiki\).
 
@@ -34,7 +34,7 @@ gtotree
       
       
 
-      ``1.7.05-0``
+      ``1.7.05-1``
 
       
 

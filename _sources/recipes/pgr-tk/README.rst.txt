@@ -27,18 +27,16 @@ pgr-tk
       
       
 
-      ``0.3.4-1``,  ``0.3.4-0``
+      ``0.3.6-0``,  ``0.3.4-1``,  ``0.3.4-0``
 
       
 
    
-   :depends libclang13: ``>=14.0.6``
    :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``12.*``
    :depends libstdcxx-ng: ``>=12``
    :depends numpy: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +68,7 @@ pgr-tk
 
     <script>
         var package = "pgr-tk";
-        var versions = ["0.3.4","0.3.4"];
+        var versions = ["0.3.6","0.3.4","0.3.4"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-wasabi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.3-0</code>,  </span></summary>
       
 
-      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``,  ``0.0.1-0``
+      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-wasabi
 
    
    :depends bioconductor-rhdf5: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-rjson: 
    :requirements:

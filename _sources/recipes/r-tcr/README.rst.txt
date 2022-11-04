@@ -26,15 +26,23 @@ r-tcr
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.4.1-1``,  ``2.2.4.1-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.2-4</code>,  <code>2.3.2-3</code>,  <code>2.3.2-2</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>2.2.4.1-1</code>,  <code>2.2.4.1-0</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  </span></summary>
+      
 
+      ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.4.1-1``,  ``2.2.4.1-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: ``>=1.9.0``
    :depends r-dplyr: ``>=0.4.0``
    :depends r-ggplot2: ``>=1.0.0``
@@ -76,7 +84,7 @@ r-tcr
 
     <script>
         var package = "r-tcr";
-        var versions = ["2.3.2","2.3.2","2.3.2","2.3.2","2.2.4.1"];
+        var versions = ["2.3.2","2.3.2","2.3.2","2.3.2","2.3.2"];
     </script>
 
 

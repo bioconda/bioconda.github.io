@@ -27,14 +27,14 @@ bioconductor-infinityflow
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-generics: 
    :depends r-gtools: 
    :depends r-matlab: 
@@ -74,7 +74,7 @@ bioconductor-infinityflow
 
     <script>
         var package = "bioconductor-infinityflow";
-        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

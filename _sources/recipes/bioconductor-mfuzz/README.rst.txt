@@ -27,14 +27,14 @@ bioconductor-mfuzz
       
       
 
-      ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.42.0-0``
+      ``2.58.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.42.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-tkwidgets: ``>=1.72.0,<1.73.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-tkwidgets: ``>=1.76.0,<1.77.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-e1071: 
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-mfuzz
 
     <script>
         var package = "bioconductor-mfuzz";
-        var versions = ["2.54.0","2.52.0","2.50.0","2.50.0","2.48.0"];
+        var versions = ["2.58.0","2.54.0","2.52.0","2.50.0","2.50.0"];
     </script>
 
 

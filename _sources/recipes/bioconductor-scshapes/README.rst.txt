@@ -27,13 +27,13 @@ bioconductor-scshapes
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dgof: 
    :depends r-emdbook: 
    :depends r-magrittr: 
@@ -72,7 +72,7 @@ bioconductor-scshapes
 
     <script>
         var package = "bioconductor-scshapes";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

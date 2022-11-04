@@ -27,14 +27,14 @@ bioconductor-mogamun
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rcy3: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rcy3: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: 
    :depends r-runit: 
    :depends r-stringr: 
@@ -69,7 +69,7 @@ bioconductor-mogamun
 
     <script>
         var package = "bioconductor-mogamun";
-        var versions = ["1.4.0","1.2.0","1.0.1","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.1","1.0.0"];
     </script>
 
 

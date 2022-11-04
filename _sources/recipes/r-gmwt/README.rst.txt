@@ -27,7 +27,7 @@ r-gmwt
       
       
 
-      ``1.2-0``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.2-1``,  ``1.2-0``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -36,7 +36,7 @@ r-gmwt
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-clinfun: 
    :depends r-rcpp: ``>=0.9.13``
    :depends r-rcpparmadillo: 
@@ -71,7 +71,7 @@ r-gmwt
 
     <script>
         var package = "r-gmwt";
-        var versions = ["1.2","1.1.1","1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.2","1.2","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

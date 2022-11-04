@@ -27,16 +27,16 @@ bioconductor-flowmerge
       
       
 
-      ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.1-0``
+      ``2.46.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.1-0``
 
       
 
    
-   :depends bioconductor-flowclust: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-flowclust: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-feature: 
    :depends r-foreach: 
    :depends r-rrcov: 
@@ -72,7 +72,7 @@ bioconductor-flowmerge
 
     <script>
         var package = "bioconductor-flowmerge";
-        var versions = ["2.42.0","2.40.0","2.38.0","2.38.0","2.36.0"];
+        var versions = ["2.46.0","2.42.0","2.40.0","2.38.0","2.38.0"];
     </script>
 
 

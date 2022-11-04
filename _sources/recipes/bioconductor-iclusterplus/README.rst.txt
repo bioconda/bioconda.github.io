@@ -27,7 +27,7 @@ bioconductor-iclusterplus
       
       
 
-      ``1.30.0-2``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.20.0-0``
+      ``1.34.0-0``,  ``1.30.0-2``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.20.0-0``
 
       
 
@@ -37,7 +37,7 @@ bioconductor-iclusterplus
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=10.4.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ bioconductor-iclusterplus
 
     <script>
         var package = "bioconductor-iclusterplus";
-        var versions = ["1.30.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.34.0","1.30.0","1.30.0","1.30.0","1.28.0"];
     </script>
 
 

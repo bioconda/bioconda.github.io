@@ -27,13 +27,13 @@ r-isva
       
       
 
-      ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``
+      ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``
 
       
 
    
    :depends bioconductor-qvalue: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-fastica: 
    :depends r-jade: 
    :requirements:

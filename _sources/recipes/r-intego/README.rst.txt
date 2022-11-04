@@ -28,12 +28,12 @@ r-intego
       
       
 
-      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-factominer: 
    :requirements:
 
@@ -66,7 +66,7 @@ r-intego
 
     <script>
         var package = "r-intego";
-        var versions = ["2.0","2.0","2.0","2.0"];
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
     </script>
 
 

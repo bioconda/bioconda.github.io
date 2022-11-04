@@ -28,10 +28,10 @@ r-nanostringnorm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1.1-2</code>,  <code>1.2.1.1-1</code>,  <code>1.2.1.1-0</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.21-2</code>,  <code>1.1.21-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1.1-3</code>,  <code>1.2.1.1-2</code>,  <code>1.2.1.1-1</code>,  <code>1.2.1.1-0</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.21-2</code>,  </span></summary>
       
 
-      ``1.2.1.1-2``,  ``1.2.1.1-1``,  ``1.2.1.1-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.21-2``,  ``1.1.21-1``,  ``1.1.21-0``
+      ``1.2.1.1-3``,  ``1.2.1.1-2``,  ``1.2.1.1-1``,  ``1.2.1.1-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.21-2``,  ``1.1.21-1``,  ``1.1.21-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-nanostringnorm
 
    
    :depends bioconductor-vsn: ``>=3.22.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gdata: ``>=2.8.2``
    :depends r-xml: ``>=3.98_1.5``
    :requirements:
@@ -75,7 +75,7 @@ r-nanostringnorm
 
     <script>
         var package = "r-nanostringnorm";
-        var versions = ["1.2.1.1","1.2.1.1","1.2.1.1","1.2.1","1.2.1"];
+        var versions = ["1.2.1.1","1.2.1.1","1.2.1.1","1.2.1.1","1.2.1"];
     </script>
 
 

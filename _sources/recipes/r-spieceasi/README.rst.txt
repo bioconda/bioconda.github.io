@@ -26,15 +26,23 @@ r-spieceasi
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``0.1.4-1``,  ``0.1.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>0.1.4-1</code>,  </span></summary>
+      
 
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``0.1.4-1``,  ``0.1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-glmnet: 
    :depends r-huge: ``>=1.3.2``
    :depends r-mass: 
@@ -74,7 +82,7 @@ r-spieceasi
 
     <script>
         var package = "r-spieceasi";
-        var versions = ["1.1.1","1.1.1","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0","1.1.0"];
     </script>
 
 
