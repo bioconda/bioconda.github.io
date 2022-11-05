@@ -27,13 +27,13 @@ r-ontologyplot
       
       
 
-      ``1.6-2``,  ``1.6-1``,  ``1.6-0``,  ``1.4-1``,  ``1.4-0``
+      ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``,  ``1.4-1``,  ``1.4-0``
 
       
 
    
    :depends bioconductor-rgraphviz: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ontologyindex: 
    :depends r-paintmap: 
    :requirements:
@@ -67,7 +67,7 @@ r-ontologyplot
 
     <script>
         var package = "r-ontologyplot";
-        var versions = ["1.6","1.6","1.6","1.4","1.4"];
+        var versions = ["1.6","1.6","1.6","1.6","1.4"];
     </script>
 
 

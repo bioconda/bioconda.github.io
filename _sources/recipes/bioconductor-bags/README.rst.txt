@@ -28,10 +28,10 @@ bioconductor-bags
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.34.0-2</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-2</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.34.0-2</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-2</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  </span></summary>
       
 
-      ``2.34.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-2``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-1``,  ``2.22.0-0``
+      ``2.38.0-0``,  ``2.34.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-2``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-1``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-bags
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-breastcancervdx: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-breastcancervdx: ``>=1.36.0,<1.37.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ bioconductor-bags
 
     <script>
         var package = "bioconductor-bags";
-        var versions = ["2.34.0","2.34.0","2.34.0","2.32.0","2.30.0"];
+        var versions = ["2.38.0","2.34.0","2.34.0","2.34.0","2.32.0"];
     </script>
 
 

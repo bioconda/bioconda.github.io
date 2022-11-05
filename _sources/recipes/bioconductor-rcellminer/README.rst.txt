@@ -27,14 +27,14 @@ bioconductor-rcellminer
       
       
 
-      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.1-0``,  ``2.11.1-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-1``,  ``2.4.0-0``
+      ``2.20.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.1-0``,  ``2.11.1-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-1``,  ``2.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-rcellminerdata: ``>=2.16.0,<2.17.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-rcellminerdata: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-shiny: 
@@ -70,7 +70,7 @@ bioconductor-rcellminer
 
     <script>
         var package = "bioconductor-rcellminer";
-        var versions = ["2.16.0","2.14.0","2.12.1","2.11.1","2.10.0"];
+        var versions = ["2.20.0","2.16.0","2.14.0","2.12.1","2.11.1"];
     </script>
 
 

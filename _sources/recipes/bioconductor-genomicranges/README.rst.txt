@@ -29,10 +29,10 @@ bioconductor-genomicranges
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.1-1</code>,  <code>1.46.1-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.1-1</code>,  <code>1.46.1-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
       
 
-      ``1.46.1-1``,  ``1.46.1-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.7-0``,  ``1.30.3-0``,  ``1.30.0-0``,  ``1.28.6-0``,  ``1.26.4-0``,  ``1.26.1-1``,  ``1.24.3-1``,  ``1.22.4-0``,  ``1.22.3-0``,  ``1.22.2-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.8-0``
+      ``1.50.0-0``,  ``1.46.1-1``,  ``1.46.1-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.7-0``,  ``1.30.3-0``,  ``1.30.0-0``,  ``1.28.6-0``,  ``1.26.4-0``,  ``1.26.1-1``,  ``1.24.3-1``,  ``1.22.4-0``,  ``1.22.3-0``,  ``1.22.2-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.8-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-genomicranges
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-xvector: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-xvector: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ bioconductor-genomicranges
 
     <script>
         var package = "bioconductor-genomicranges";
-        var versions = ["1.46.1","1.46.1","1.46.0","1.44.0","1.42.0"];
+        var versions = ["1.50.0","1.46.1","1.46.1","1.46.0","1.44.0"];
     </script>
 
 

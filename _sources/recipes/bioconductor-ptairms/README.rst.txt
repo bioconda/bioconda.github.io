@@ -36,8 +36,9 @@ bioconductor-ptairms
    :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
    :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bit64: 
    :depends r-chron: 

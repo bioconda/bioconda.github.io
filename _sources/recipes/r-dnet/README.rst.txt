@@ -27,7 +27,7 @@ r-dnet
       
       
 
-      ``1.1.7-3``,  ``1.1.7-2``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``
+      ``1.1.7-4``,  ``1.1.7-3``,  ``1.1.7-2``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``
 
       
 
@@ -35,7 +35,7 @@ r-dnet
    :depends bioconductor-graph: 
    :depends bioconductor-rgraphviz: 
    :depends bioconductor-suprahex: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
    :requirements:
@@ -69,7 +69,7 @@ r-dnet
 
     <script>
         var package = "r-dnet";
-        var versions = ["1.1.7","1.1.7","1.1.7","1.1.7","1.1.6"];
+        var versions = ["1.1.7","1.1.7","1.1.7","1.1.7","1.1.7"];
     </script>
 
 

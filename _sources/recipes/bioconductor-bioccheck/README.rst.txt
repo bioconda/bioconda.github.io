@@ -27,19 +27,18 @@ bioconductor-bioccheck
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-biocviews: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocviews: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-codetools: 
    :depends r-httr: 
    :depends r-knitr: 
-   :depends r-optparse: 
    :depends r-stringdist: 
    :requirements:
 
@@ -72,7 +71,7 @@ bioconductor-bioccheck
 
     <script>
         var package = "bioconductor-bioccheck";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

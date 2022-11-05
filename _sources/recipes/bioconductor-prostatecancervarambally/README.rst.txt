@@ -28,10 +28,10 @@ bioconductor-prostatecancervarambally
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.10.0-0``
+      ``1.26.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ bioconductor-prostatecancervarambally
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-data-packages: ``>=20221104``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ bioconductor-prostatecancervarambally
 
     <script>
         var package = "bioconductor-prostatecancervarambally";
-        var versions = ["1.22.0","1.22.0","1.20.0","1.18.0","1.18.0"];
+        var versions = ["1.26.0","1.22.0","1.22.0","1.20.0","1.18.0"];
     </script>
 
 

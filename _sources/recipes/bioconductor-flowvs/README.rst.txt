@@ -27,15 +27,15 @@ bioconductor-flowvs
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowstats: ``>=4.6.0,<4.7.0``
-   :depends bioconductor-flowviz: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowstats: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-flowviz: ``>=1.62.0,<1.63.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-flowvs
 
     <script>
         var package = "bioconductor-flowvs";
-        var versions = ["1.26.0","1.24.0","1.19.0","1.18.0","1.16.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.19.0","1.18.0"];
     </script>
 
 

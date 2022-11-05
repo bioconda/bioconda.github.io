@@ -27,16 +27,16 @@ bioconductor-cyanofilter
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-flowclust: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowdensity: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-flowclust: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowdensity: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cytometree: 
    :depends r-ggally: 
    :depends r-ggplot2: 
@@ -72,7 +72,7 @@ bioconductor-cyanofilter
 
     <script>
         var package = "bioconductor-cyanofilter";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

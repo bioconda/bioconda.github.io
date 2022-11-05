@@ -27,14 +27,14 @@ bioconductor-prince
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: ``>=0.7.4``
    :depends r-forecast: ``>=8.2``
    :depends r-hmisc: ``>=4.0``
@@ -80,7 +80,7 @@ bioconductor-prince
 
     <script>
         var package = "bioconductor-prince";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

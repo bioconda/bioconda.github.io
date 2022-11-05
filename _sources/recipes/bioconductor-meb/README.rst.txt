@@ -27,13 +27,13 @@ bioconductor-meb
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-e1071: 
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-meb
 
     <script>
         var package = "bioconductor-meb";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

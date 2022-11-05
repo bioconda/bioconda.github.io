@@ -27,14 +27,15 @@ bioconductor-peakpanther
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-bslib: 
    :depends r-doparallel: ``>=1.0.11``
    :depends r-dt: ``>=0.15``
    :depends r-foreach: ``>=1.4.4``
@@ -45,7 +46,6 @@ bioconductor-peakpanther
    :depends r-scales: ``>=0.5.0``
    :depends r-shiny: ``>=1.0.5``
    :depends r-shinycssloaders: ``>=1.0.0``
-   :depends r-shinythemes: ``>=1.1.1``
    :depends r-stringr: ``>=1.2.0``
    :depends r-xml: ``>=3.98.1.10``
    :requirements:
@@ -79,7 +79,7 @@ bioconductor-peakpanther
 
     <script>
         var package = "bioconductor-peakpanther";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-biodblipidmaps
       
       
 
-      ``1.0.1-0``
+      ``1.3.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biodb: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biodb: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-lifecycle: 
    :depends r-r6: 
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-biodblipidmaps
 
     <script>
         var package = "bioconductor-biodblipidmaps";
-        var versions = ["1.0.1"];
+        var versions = ["1.3.0","1.0.1"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-flowcut
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowdensity: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowdensity: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cairo: 
    :depends r-e1071: 
    :requirements:
@@ -68,7 +68,7 @@ bioconductor-flowcut
 
     <script>
         var package = "bioconductor-flowcut";
-        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-normqpcr
       
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-readqpcr: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-readqpcr: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-qpcr: 
    :depends r-rcolorbrewer: 
    :requirements:
@@ -68,7 +68,7 @@ bioconductor-normqpcr
 
     <script>
         var package = "bioconductor-normqpcr";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.34.0"];
+        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.36.0"];
     </script>
 
 

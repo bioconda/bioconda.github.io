@@ -28,10 +28,10 @@ bioconductor-cytoml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+      ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -40,38 +40,30 @@ bioconductor-cytoml
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-cytolib: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowworkspace: ``>=4.6.0,<4.7.0``
-   :depends bioconductor-ggcyto: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-opencyto: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-rhdf5lib: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-rprotobuflib: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-cytolib: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowworkspace: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-ggcyto: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-opencyto: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-rbgl: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-rhdf5lib: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-rprotobuflib: ``>=2.10.0,<2.11.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libxml2: ``>=2.9.14,<2.10.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-base64enc: 
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bh: ``>=1.62.0-1``
-   :depends r-corpcor: 
+   :depends r-cpp11: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-jsonlite: 
-   :depends r-lattice: 
-   :depends r-plyr: 
-   :depends r-rcpp: 
-   :depends r-rcpparmadillo: 
-   :depends r-rcppparallel: ``>=4.4.2-1``
-   :depends r-runit: 
    :depends r-tibble: 
    :depends r-xml: 
-   :depends r-xml2: 
    :depends r-yaml: 
    :requirements:
 
@@ -104,7 +96,7 @@ bioconductor-cytoml
 
     <script>
         var package = "bioconductor-cytoml";
-        var versions = ["2.6.0","2.6.0","2.6.0","2.4.0","2.2.2"];
+        var versions = ["2.10.0","2.6.0","2.6.0","2.6.0","2.4.0"];
     </script>
 
 

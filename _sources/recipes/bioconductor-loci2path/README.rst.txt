@@ -26,16 +26,24 @@ bioconductor-loci2path
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: 
@@ -71,7 +79,7 @@ bioconductor-loci2path
 
     <script>
         var package = "bioconductor-loci2path";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
     </script>
 
 

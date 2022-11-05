@@ -27,13 +27,13 @@ bioconductor-biodbuniprot
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biodb: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biodb: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-r6: 
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-biodbuniprot
 
     <script>
         var package = "bioconductor-biodbuniprot";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

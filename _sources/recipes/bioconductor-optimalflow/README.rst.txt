@@ -27,14 +27,14 @@ bioconductor-optimalflow
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-flowmeans: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-optimalflowdata: ``>=1.6.0,<1.7.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-flowmeans: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-optimalflowdata: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbscan: 
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -77,7 +77,7 @@ bioconductor-optimalflow
 
     <script>
         var package = "bioconductor-optimalflow";
-        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0","1.2.0"];
     </script>
 
 
