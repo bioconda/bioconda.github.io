@@ -27,18 +27,22 @@ bioconductor-toast
       
       
 
-      ``1.7.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-epidish: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-epidish: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-corpcor: 
+   :depends r-doparallel: 
+   :depends r-ggally: 
+   :depends r-ggplot2: 
    :depends r-nnls: 
-   :depends r-reffreeewas: 
+   :depends r-quadprog: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +74,7 @@ bioconductor-toast
 
     <script>
         var package = "bioconductor-toast";
-        var versions = ["1.7.1","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.7.1","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

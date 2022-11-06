@@ -27,26 +27,25 @@ bioconductor-matrixqcvis
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-pcamethods: ``>=1.86.0,<1.87.0``
-   :depends bioconductor-proda: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-pcamethods: ``>=1.90.0,<1.91.0``
+   :depends bioconductor-proda: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-vsn: ``>=3.66.0,<3.67.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: ``>=1.0.5``
    :depends r-ggplot2: ``>=3.3.3``
    :depends r-hmisc: ``>=4.5-0``
    :depends r-htmlwidgets: ``>=1.5.3``
    :depends r-imputelcmd: ``>=2.0``
-   :depends r-openxlsx: ``>=4.2.3``
+   :depends r-mass: ``>=7.3-58.1``
    :depends r-plotly: ``>=4.9.3``
    :depends r-rlang: ``>=0.4.10``
    :depends r-rmarkdown: ``>=2.7``
@@ -59,7 +58,6 @@ bioconductor-matrixqcvis
    :depends r-tidyr: ``>=1.1.3``
    :depends r-umap: ``>=0.2.7.0``
    :depends r-upsetr: ``>=1.4.0``
-   :depends r-vegan: ``>=2.5-7``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +89,7 @@ bioconductor-matrixqcvis
 
     <script>
         var package = "bioconductor-matrixqcvis";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

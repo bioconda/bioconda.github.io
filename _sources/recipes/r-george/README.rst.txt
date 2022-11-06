@@ -27,14 +27,14 @@ r-george
       
       
 
-      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
+      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
 
       
 
    
    :depends bioconductor-mzr: 
    :depends bioconductor-xcms: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-optparse: 
    :requirements:
 
@@ -67,7 +67,7 @@ r-george
 
     <script>
         var package = "r-george";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

@@ -27,13 +27,13 @@ r-breakaway
       
       
 
-      ``4.7.9-0``,  ``3.0-0``
+      ``4.7.9-1``,  ``4.7.9-0``,  ``3.0-0``
 
       
 
    
    :depends bioconductor-phyloseq: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :depends r-lme4: 
    :depends r-magrittr: 
@@ -70,7 +70,7 @@ r-breakaway
 
     <script>
         var package = "r-breakaway";
-        var versions = ["4.7.9","3.0"];
+        var versions = ["4.7.9","4.7.9","3.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ r-cellassign
       
       
 
-      ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.99.0-1``,  ``0.99.0-0``
+      ``0.99.2-5``,  ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.99.0-1``,  ``0.99.0-0``
 
       
 
@@ -35,7 +35,7 @@ r-cellassign
    :depends bioconductor-genomeinfodbdata: 
    :depends bioconductor-scran: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-glue: 
    :depends r-tensorflow: 
    :requirements:

@@ -27,15 +27,15 @@ bioconductor-dittoseq
       
       
 
-      ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.5-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.5-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-colorspace: ``>=1.4``
    :depends r-cowplot: 
    :depends r-ggplot2: 
@@ -75,7 +75,7 @@ bioconductor-dittoseq
 
     <script>
         var package = "bioconductor-dittoseq";
-        var versions = ["1.6.0","1.4.1","1.2.5","1.2.0","1.0.1"];
+        var versions = ["1.10.0","1.6.0","1.4.1","1.2.5","1.2.0"];
     </script>
 
 

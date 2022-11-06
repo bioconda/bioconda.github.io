@@ -27,14 +27,14 @@ bioconductor-tidysummarizedexperiment
       
       
 
-      ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
    :depends r-ellipsis: 
@@ -50,6 +50,7 @@ bioconductor-tidysummarizedexperiment
    :depends r-tibble: ``>=3.0.4``
    :depends r-tidyr: 
    :depends r-tidyselect: 
+   :depends r-vctrs: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +82,7 @@ bioconductor-tidysummarizedexperiment
 
     <script>
         var package = "bioconductor-tidysummarizedexperiment";
-        var versions = ["1.4.1","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.1","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

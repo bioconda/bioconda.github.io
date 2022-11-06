@@ -28,10 +28,10 @@ r-exomedepth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.15-4</code>,  <code>1.1.15-3</code>,  <code>1.1.15-2</code>,  <code>1.1.15-1</code>,  <code>1.1.15-0</code>,  <code>1.1.12-0</code>,  <code>1.1.10-4</code>,  <code>1.1.10-3</code>,  <code>1.1.10-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.16-0</code>,  <code>1.1.15-4</code>,  <code>1.1.15-3</code>,  <code>1.1.15-2</code>,  <code>1.1.15-1</code>,  <code>1.1.15-0</code>,  <code>1.1.12-0</code>,  <code>1.1.10-4</code>,  <code>1.1.10-3</code>,  </span></summary>
       
 
-      ``1.1.15-4``,  ``1.1.15-3``,  ``1.1.15-2``,  ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
+      ``1.1.16-0``,  ``1.1.15-4``,  ``1.1.15-3``,  ``1.1.15-2``,  ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
 
       
       .. raw:: html
@@ -45,10 +45,10 @@ r-exomedepth
    :depends bioconductor-genomicranges: ``>=1.23.0``
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgfortran5: ``>=10.4.0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-aod: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
@@ -85,7 +85,7 @@ r-exomedepth
 
     <script>
         var package = "r-exomedepth";
-        var versions = ["1.1.15","1.1.15","1.1.15","1.1.15","1.1.15"];
+        var versions = ["1.1.16","1.1.15","1.1.15","1.1.15","1.1.15"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-microbiome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.4.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.4.2-0</code>,  </span></summary>
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.2-0``,  ``1.2.1-0``,  ``1.0.2-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.2-0``,  ``1.2.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -40,8 +40,10 @@ bioconductor-microbiome
       
 
    
-   :depends bioconductor-phyloseq: ``>=1.38.0,<1.39.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-phyloseq: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-compositions: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-reshape2: 
@@ -81,7 +83,7 @@ bioconductor-microbiome
 
     <script>
         var package = "bioconductor-microbiome";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
     </script>
 
 

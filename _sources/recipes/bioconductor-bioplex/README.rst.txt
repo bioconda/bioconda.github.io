@@ -27,16 +27,20 @@ bioconductor-bioplex
       
       
 
-      ``1.0.1-0``
+      ``1.4.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-data-packages: ``>=20221106``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +72,7 @@ bioconductor-bioplex
 
     <script>
         var package = "bioconductor-bioplex";
-        var versions = ["1.0.1"];
+        var versions = ["1.4.0","1.0.1"];
     </script>
 
 

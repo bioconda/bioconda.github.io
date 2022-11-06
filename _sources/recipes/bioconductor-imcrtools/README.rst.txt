@@ -27,24 +27,26 @@ bioconductor-imcrtools
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocneighbors: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-cytomapper: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-ebimage: ``>=4.36.0,<4.37.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-scuttle: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-spatialexperiment: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biocneighbors: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-cytomapper: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-ebimage: ``>=4.40.0,<4.41.0``
+   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-scuttle: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-spatialexperiment: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-concaveman: 
    :depends r-data.table: 
+   :depends r-distances: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: 
@@ -57,6 +59,7 @@ bioconductor-imcrtools
    :depends r-sf: 
    :depends r-stringr: 
    :depends r-tidygraph: 
+   :depends r-tidyselect: 
    :depends r-viridis: 
    :depends r-vroom: 
    :requirements:
@@ -90,7 +93,7 @@ bioconductor-imcrtools
 
     <script>
         var package = "bioconductor-imcrtools";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

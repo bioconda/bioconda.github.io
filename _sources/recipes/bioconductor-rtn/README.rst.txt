@@ -26,20 +26,28 @@ bioconductor-rtn
    :versions:
       
       
+      .. raw:: html
 
-      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.3-0``,  ``2.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.1-0</code>,  <code>2.6.3-0</code>,  </span></summary>
+      
 
+      ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.3-0``,  ``2.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-minet: ``>=3.52.0,<3.53.0``
-   :depends bioconductor-reder: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-viper: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-minet: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-reder: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-viper: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-car: 
    :depends r-data.table: 
    :depends r-igraph: 
@@ -78,7 +86,7 @@ bioconductor-rtn
 
     <script>
         var package = "bioconductor-rtn";
-        var versions = ["2.18.0","2.16.0","2.14.1","2.14.0","2.12.0"];
+        var versions = ["2.22.0","2.18.0","2.16.0","2.14.1","2.14.0"];
     </script>
 
 

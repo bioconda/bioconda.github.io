@@ -27,16 +27,16 @@ bioconductor-biocpkgtools
       
       
 
-      ``1.12.2-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
+      ``1.16.0-0``,  ``1.12.2-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-biocviews: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biocviews: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-rbgl: ``>=1.74.0,<1.75.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -49,11 +49,10 @@ bioconductor-biocpkgtools
    :depends r-magrittr: 
    :depends r-readr: 
    :depends r-rlang: 
+   :depends r-rorcid: 
    :depends r-rvest: 
    :depends r-stringr: 
    :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-tidyselect: 
    :depends r-xml2: 
    :requirements:
 
@@ -86,7 +85,7 @@ bioconductor-biocpkgtools
 
     <script>
         var package = "bioconductor-biocpkgtools";
-        var versions = ["1.12.2","1.10.1","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.2","1.10.1","1.8.0","1.8.0"];
     </script>
 
 

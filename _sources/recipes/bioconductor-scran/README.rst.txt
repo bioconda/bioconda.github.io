@@ -29,10 +29,10 @@ bioconductor-scran
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.1-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.18.5-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.1-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.18.5-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  </span></summary>
       
 
-      ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
+      ``1.26.0-0``,  ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
 
       
       .. raw:: html
@@ -41,25 +41,25 @@ bioconductor-scran
       
 
    
-   :depends bioconductor-beachmat: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-biocsingular: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-bluster: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-metapod: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-scuttle: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-beachmat: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocsingular: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-bluster: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-metapod: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-scuttle: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bh: 
    :depends r-dqrng: 
    :depends r-igraph: 
@@ -97,7 +97,7 @@ bioconductor-scran
 
     <script>
         var package = "bioconductor-scran";
-        var versions = ["1.22.1","1.22.1","1.22.0","1.20.1","1.18.5"];
+        var versions = ["1.26.0","1.22.1","1.22.1","1.22.0","1.20.1"];
     </script>
 
 

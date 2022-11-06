@@ -27,15 +27,16 @@ bioconductor-tmexplorer
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``,  ``0.99.6-0``
+      ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``,  ``0.99.6-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-data-packages: ``>=20221106``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -68,7 +69,7 @@ bioconductor-tmexplorer
 
     <script>
         var package = "bioconductor-tmexplorer";
-        var versions = ["1.4.0","1.4.0","1.2.1","1.0.1","0.99.6"];
+        var versions = ["1.8.0","1.4.0","1.4.0","1.2.1","1.0.1"];
     </script>
 
 

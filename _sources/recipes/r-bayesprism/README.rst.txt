@@ -28,7 +28,7 @@ r-bayesprism
       
       
 
-      ``0-0``
+      ``0-1``,  ``0-0``
 
       
 
@@ -37,7 +37,7 @@ r-bayesprism
    :depends bioconductor-scran: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gplots: 
    :depends r-knitr: 
    :depends r-nmf: 
@@ -74,7 +74,7 @@ r-bayesprism
 
     <script>
         var package = "r-bayesprism";
-        var versions = ["0"];
+        var versions = ["0","0"];
     </script>
 
 

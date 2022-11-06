@@ -29,10 +29,10 @@ bioconductor-cancersubtypes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,11 @@ bioconductor-cancersubtypes
       
 
    
-   :depends bioconductor-consensusclusterplus: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-consensusclusterplus: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cluster: 
-   :depends r-icluster: 
    :depends r-nmf: 
    :depends r-sigclust: 
    :depends r-survival: 
@@ -81,7 +80,7 @@ bioconductor-cancersubtypes
 
     <script>
         var package = "bioconductor-cancersubtypes";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

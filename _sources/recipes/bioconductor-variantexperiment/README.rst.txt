@@ -27,24 +27,24 @@ bioconductor-variantexperiment
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-delayeddataframe: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-gdsarray: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-gdsfmt: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-seqarray: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-seqvartools: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-snprelate: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-delayeddataframe: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-gdsarray: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-gdsfmt: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-seqarray: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-seqvartools: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-snprelate: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +76,7 @@ bioconductor-variantexperiment
 
     <script>
         var package = "bioconductor-variantexperiment";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

@@ -27,16 +27,16 @@ bioconductor-slingshot
       
       
 
-      ``2.2.0-0``,  ``2.0.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-trajectoryutils: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-trajectoryutils: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: 
    :depends r-matrixstats: 
    :depends r-princurve: ``>=2.0.4``
@@ -71,7 +71,7 @@ bioconductor-slingshot
 
     <script>
         var package = "bioconductor-slingshot";
-        var versions = ["2.2.0","2.0.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["2.6.0","2.2.0","2.0.0","1.8.0","1.8.0"];
     </script>
 
 

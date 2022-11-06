@@ -27,19 +27,19 @@ massiveqc
       
       
 
-      ``0.0.5-0``
+      ``0.0.7-0``,  ``0.0.5-0``
 
       
 
    
    :depends atropos: 
    :depends bamtools: 
+   :depends fastparquet: 
    :depends fastq-screen: 
    :depends hisat2: 
    :depends more-itertools: 
    :depends numpy: 
    :depends pandas: ``>=1.3.2``
-   :depends pyarrow: 
    :depends pysradb: 
    :depends python: 
    :depends samtools: 
@@ -79,7 +79,7 @@ massiveqc
 
     <script>
         var package = "massiveqc";
-        var versions = ["0.0.5"];
+        var versions = ["0.0.7","0.0.5"];
     </script>
 
 

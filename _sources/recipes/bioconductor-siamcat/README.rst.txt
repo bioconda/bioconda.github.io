@@ -27,23 +27,27 @@ bioconductor-siamcat
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``2.2.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-phyloseq: ``>=1.38.0,<1.39.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-phyloseq: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-beanplot: 
    :depends r-corrplot: 
    :depends r-glmnet: 
    :depends r-gridbase: 
    :depends r-gridextra: 
    :depends r-infotheo: 
+   :depends r-lgr: 
    :depends r-liblinear: 
+   :depends r-lmertest: 
    :depends r-matrixstats: 
-   :depends r-mlr: 
-   :depends r-paramhelpers: 
+   :depends r-mlr3: 
+   :depends r-mlr3learners: 
+   :depends r-mlr3tuning: 
+   :depends r-paradox: 
    :depends r-proc: 
    :depends r-progress: 
    :depends r-prroc: 
@@ -81,7 +85,7 @@ bioconductor-siamcat
 
     <script>
         var package = "bioconductor-siamcat";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["2.2.0","1.14.0","1.12.0","1.10.0","1.10.0"];
     </script>
 
 

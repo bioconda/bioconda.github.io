@@ -28,10 +28,10 @@ r-rtfbs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.15-5</code>,  <code>0.3.15-4</code>,  <code>0.3.15-3</code>,  <code>0.3.15-2</code>,  <code>0.3.15-1</code>,  <code>0.3.15-0</code>,  <code>0.3.9-3</code>,  <code>0.3.9-2</code>,  <code>0.3.9-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.15-6</code>,  <code>0.3.15-5</code>,  <code>0.3.15-4</code>,  <code>0.3.15-3</code>,  <code>0.3.15-2</code>,  <code>0.3.15-1</code>,  <code>0.3.15-0</code>,  <code>0.3.9-3</code>,  <code>0.3.9-2</code>,  </span></summary>
       
 
-      ``0.3.15-5``,  ``0.3.15-4``,  ``0.3.15-3``,  ``0.3.15-2``,  ``0.3.15-1``,  ``0.3.15-0``,  ``0.3.9-3``,  ``0.3.9-2``,  ``0.3.9-1``,  ``0.3.9-0``
+      ``0.3.15-6``,  ``0.3.15-5``,  ``0.3.15-4``,  ``0.3.15-3``,  ``0.3.15-2``,  ``0.3.15-1``,  ``0.3.15-0``,  ``0.3.9-3``,  ``0.3.9-2``,  ``0.3.9-1``,  ``0.3.9-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ r-rtfbs
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-rphast: 
    :requirements:
 

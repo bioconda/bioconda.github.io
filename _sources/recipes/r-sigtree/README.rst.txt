@@ -28,10 +28,10 @@ r-sigtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.6-9</code>,  <code>1.10.6-8</code>,  <code>1.10.6-7</code>,  <code>1.10.6-6</code>,  <code>1.10.6-5</code>,  <code>1.10.6-4</code>,  <code>1.10.6-3</code>,  <code>1.10.6-2</code>,  <code>1.10.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.6-10</code>,  <code>1.10.6-9</code>,  <code>1.10.6-8</code>,  <code>1.10.6-7</code>,  <code>1.10.6-6</code>,  <code>1.10.6-5</code>,  <code>1.10.6-4</code>,  <code>1.10.6-3</code>,  <code>1.10.6-2</code>,  </span></summary>
       
 
-      ``1.10.6-9``,  ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
+      ``1.10.6-10``,  ``1.10.6-9``,  ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ r-sigtree
 
    
    :depends bioconductor-phyloseq: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends r-ape: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-mass: 
    :depends r-phyext2: 
    :depends r-phylobase: 

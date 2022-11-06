@@ -28,10 +28,10 @@ r-mixkernel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6-0</code>,  <code>0.5-2</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.4-2</code>,  <code>0.4-1</code>,  <code>0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6-0</code>,  <code>0.5-2</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.4-2</code>,  <code>0.4-1</code>,  </span></summary>
       
 
-      ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-mixkernel
    
    :depends bioconductor-mixomics: 
    :depends bioconductor-phyloseq: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-corrplot: 
    :depends r-ggplot2: 
    :depends r-ldrtools: 
@@ -83,7 +83,7 @@ r-mixkernel
 
     <script>
         var package = "r-mixkernel";
-        var versions = ["0.8","0.7","0.6","0.5","0.5"];
+        var versions = ["0.8","0.8","0.7","0.6","0.5"];
     </script>
 
 

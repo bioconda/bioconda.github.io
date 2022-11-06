@@ -27,16 +27,16 @@ bioconductor-lymphoseq
       
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-ggtree: ``>=3.6.0,<3.7.0``
    :depends bioconductor-lymphoseqdb: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-msa: ``>=1.26.0,<1.27.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-msa: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-circlize: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -80,7 +80,7 @@ bioconductor-lymphoseq
 
     <script>
         var package = "bioconductor-lymphoseq";
-        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
+        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.18.0"];
     </script>
 
 
