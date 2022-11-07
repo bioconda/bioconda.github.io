@@ -27,7 +27,7 @@ r-scoper
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
@@ -35,7 +35,7 @@ r-scoper
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends r-alakazam: ``>=1.2.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-dplyr: ``>=1.0``
@@ -78,7 +78,7 @@ r-scoper
 
     <script>
         var package = "r-scoper";
-        var versions = ["1.2.1","1.2.0"];
+        var versions = ["1.2.1","1.2.1","1.2.0"];
     </script>
 
 

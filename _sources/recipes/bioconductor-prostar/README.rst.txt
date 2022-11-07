@@ -27,27 +27,23 @@ bioconductor-prostar
       
       
 
-      ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
 
       
 
    
-   :depends bioconductor-dapar: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-dapardata: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-biocmanager: 
-   :depends r-colourpicker: 
+   :depends bioconductor-dapar: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-dapardata: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
-   :depends r-dt: 
    :depends r-future: 
+   :depends r-ggplot2: 
+   :depends r-gplots: 
    :depends r-highcharter: 
    :depends r-htmlwidgets: 
    :depends r-later: 
    :depends r-promises: 
-   :depends r-r.utils: 
-   :depends r-rclipboard: 
    :depends r-rhandsontable: 
-   :depends r-sass: 
    :depends r-shiny: 
    :depends r-shinyace: 
    :depends r-shinybs: 
@@ -55,11 +51,9 @@ bioconductor-prostar
    :depends r-shinyjqui: 
    :depends r-shinyjs: 
    :depends r-shinythemes: 
-   :depends r-shinytree: 
-   :depends r-shinywidgets: 
    :depends r-tibble: 
+   :depends r-vioplot: 
    :depends r-webshot: 
-   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +85,7 @@ bioconductor-prostar
 
     <script>
         var package = "bioconductor-prostar";
-        var versions = ["1.26.0","1.24.3","1.22.8","1.22.0","1.20.0"];
+        var versions = ["1.30.0","1.26.0","1.24.3","1.22.8","1.22.0"];
     </script>
 
 

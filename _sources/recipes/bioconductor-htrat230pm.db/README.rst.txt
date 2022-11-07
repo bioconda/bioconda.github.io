@@ -27,15 +27,16 @@ bioconductor-htrat230pm.db
       
       
 
-      ``3.13.0-1``,  ``3.13.0-0``
+      ``3.13.0-2``,  ``3.13.0-1``,  ``3.13.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-org.rn.eg.db: ``>=3.16.0,<3.17.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +68,7 @@ bioconductor-htrat230pm.db
 
     <script>
         var package = "bioconductor-htrat230pm.db";
-        var versions = ["3.13.0","3.13.0"];
+        var versions = ["3.13.0","3.13.0","3.13.0"];
     </script>
 
 

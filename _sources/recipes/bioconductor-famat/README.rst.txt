@@ -27,23 +27,24 @@ bioconductor-famat
       
       
 
-      ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
-   :depends bioconductor-rwikipathways: ``>=1.14.0,<1.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-keggrest: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-reactome.db: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-rwikipathways: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-biasedurn: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-gprofiler2: 
    :depends r-magrittr: 
-   :depends r-mpinet: 
+   :depends r-mgcv: 
    :depends r-ontologyindex: 
    :depends r-plotly: 
    :depends r-shiny: 
@@ -82,7 +83,7 @@ bioconductor-famat
 
     <script>
         var package = "bioconductor-famat";
-        var versions = ["1.4.0","1.1.1","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.1.1","1.0.0","1.0.0"];
     </script>
 
 

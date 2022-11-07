@@ -27,13 +27,13 @@ bioconductor-netboxr
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.9.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dt: 
    :depends r-gplots: 
@@ -72,7 +72,7 @@ bioconductor-netboxr
 
     <script>
         var package = "bioconductor-netboxr";
-        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.9.0","1.6.0","1.4.0","1.2.0","1.2.0"];
     </script>
 
 

@@ -27,23 +27,25 @@ bioconductor-simplifyenrichment
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-gosemsim: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-gosemsim: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-circlize: 
    :depends r-clue: 
    :depends r-cluster: ``>=1.14.2``
+   :depends r-colorspace: 
    :depends r-digest: 
    :depends r-getoptlong: 
+   :depends r-globaloptions: ``>=0.1.0``
    :depends r-matrix: 
    :depends r-proxyc: 
    :depends r-slam: 
@@ -79,7 +81,7 @@ bioconductor-simplifyenrichment
 
     <script>
         var package = "bioconductor-simplifyenrichment";
-        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

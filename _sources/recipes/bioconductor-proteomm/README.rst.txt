@@ -27,13 +27,13 @@ bioconductor-proteomm
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gdata: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -70,7 +70,7 @@ bioconductor-proteomm
 
     <script>
         var package = "bioconductor-proteomm";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

@@ -26,15 +26,23 @@ r-sleuth
    :versions:
       
       
+      .. raw:: html
 
-      ``0.30.0-5``,  ``0.30.0-4``,  ``0.30.0-3``,  ``0.30.0-2``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.30.0-6</code>,  <code>0.30.0-5</code>,  <code>0.30.0-4</code>,  <code>0.30.0-3</code>,  <code>0.30.0-2</code>,  <code>0.30.0-1</code>,  <code>0.30.0-0</code>,  <code>0.29.0-0</code>,  <code>0.28.0-0</code>,  </span></summary>
+      
 
+      ``0.30.0-6``,  ``0.30.0-5``,  ``0.30.0-4``,  ``0.30.0-3``,  ``0.30.0-2``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-rhdf5: 
    :depends r-aggregation: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

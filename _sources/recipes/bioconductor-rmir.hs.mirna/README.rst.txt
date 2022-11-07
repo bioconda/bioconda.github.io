@@ -28,10 +28,10 @@ bioconductor-rmir.hs.mirna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-12</code>,  <code>1.0.7-11</code>,  <code>1.0.7-10</code>,  <code>1.0.7-9</code>,  <code>1.0.7-8</code>,  <code>1.0.7-7</code>,  <code>1.0.7-6</code>,  <code>1.0.7-5</code>,  <code>1.0.7-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.7-13</code>,  <code>1.0.7-12</code>,  <code>1.0.7-11</code>,  <code>1.0.7-10</code>,  <code>1.0.7-9</code>,  <code>1.0.7-8</code>,  <code>1.0.7-7</code>,  <code>1.0.7-6</code>,  <code>1.0.7-5</code>,  </span></summary>
       
 
-      ``1.0.7-12``,  ``1.0.7-11``,  ``1.0.7-10``,  ``1.0.7-9``,  ``1.0.7-8``,  ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-0``
+      ``1.0.7-13``,  ``1.0.7-12``,  ``1.0.7-11``,  ``1.0.7-10``,  ``1.0.7-9``,  ``1.0.7-8``,  ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ bioconductor-rmir.hs.mirna
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

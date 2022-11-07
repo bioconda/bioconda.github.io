@@ -26,16 +26,25 @@ bioconductor-illuminahumanmethylation27k.db
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.8-9``,  ``1.4.8-8``,  ``1.4.8-7``,  ``1.4.8-6``,  ``1.4.8-5``,  ``1.4.8-4``,  ``1.4.8-3``,  ``1.4.8-2``,  ``1.4.8-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.8-10</code>,  <code>1.4.8-9</code>,  <code>1.4.8-8</code>,  <code>1.4.8-7</code>,  <code>1.4.8-6</code>,  <code>1.4.8-5</code>,  <code>1.4.8-4</code>,  <code>1.4.8-3</code>,  <code>1.4.8-2</code>,  </span></summary>
+      
 
+      ``1.4.8-10``,  ``1.4.8-9``,  ``1.4.8-8``,  ``1.4.8-7``,  ``1.4.8-6``,  ``1.4.8-5``,  ``1.4.8-4``,  ``1.4.8-3``,  ``1.4.8-2``,  ``1.4.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

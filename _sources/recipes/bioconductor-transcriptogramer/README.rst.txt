@@ -27,17 +27,17 @@ bioconductor-transcriptogramer
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-reder: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-reder: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
    :depends openjdk: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dosnow: 
    :depends r-foreach: 
@@ -77,7 +77,7 @@ bioconductor-transcriptogramer
 
     <script>
         var package = "bioconductor-transcriptogramer";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
     </script>
 
 

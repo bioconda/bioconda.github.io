@@ -28,10 +28,10 @@ r-shazam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.1.11-0</code>,  </span></summary>
       
 
-      ``1.1.2-0``,  ``1.1.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-2``
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-2``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-shazam
    
    :depends r-alakazam: ``>=1.1.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-diptest: 
    :depends r-doparallel: 
    :depends r-dplyr: ``>=0.8.1``
@@ -92,7 +92,7 @@ r-shazam
 
     <script>
         var package = "r-shazam";
-        var versions = ["1.1.2","1.1.0","0.2.3","0.2.3","0.2.2"];
+        var versions = ["1.1.2","1.1.2","1.1.0","0.2.3","0.2.3"];
     </script>
 
 

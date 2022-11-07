@@ -27,13 +27,13 @@ bioconductor-moda
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-amountain: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-amountain: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cluster: 
    :depends r-dynamictreecut: 
    :depends r-igraph: 
@@ -70,7 +70,7 @@ bioconductor-moda
 
     <script>
         var package = "bioconductor-moda";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

@@ -27,18 +27,18 @@ bioconductor-mapkl
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-multtest: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-reactome.db: ``>=1.82.0,<1.83.0``
    :depends r-apcluster: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-clustersim: 
    :depends r-e1071: 
    :depends r-igraph: 
@@ -74,7 +74,7 @@ bioconductor-mapkl
 
     <script>
         var package = "bioconductor-mapkl";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.20.0"];
     </script>
 
 

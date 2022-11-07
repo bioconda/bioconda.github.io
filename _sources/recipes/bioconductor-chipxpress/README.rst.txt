@@ -28,17 +28,17 @@ bioconductor-chipxpress
       
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-chipxpressdata: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-frma: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-chipxpressdata: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-frma: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biganalytics: 
    :depends r-bigmemory: 
    :requirements:
@@ -72,7 +72,7 @@ bioconductor-chipxpress
 
     <script>
         var package = "bioconductor-chipxpress";
-        var versions = ["1.38.0","1.36.0","1.34.0","1.30.0","1.28.0"];
+        var versions = ["1.42.0","1.38.0","1.36.0","1.34.0","1.30.0"];
     </script>
 
 

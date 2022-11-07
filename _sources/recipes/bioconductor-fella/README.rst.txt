@@ -26,14 +26,22 @@ bioconductor-fella
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-keggrest: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
    :depends r-plyr: 
@@ -68,7 +76,7 @@ bioconductor-fella
 
     <script>
         var package = "bioconductor-fella";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
     </script>
 
 

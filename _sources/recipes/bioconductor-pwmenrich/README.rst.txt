@@ -29,10 +29,10 @@ bioconductor-pwmenrich
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.30.0-0</code>,  <code>4.28.1-0</code>,  <code>4.26.0-1</code>,  <code>4.26.0-0</code>,  <code>4.23.0-0</code>,  <code>4.22.0-0</code>,  <code>4.20.0-1</code>,  <code>4.18.0-0</code>,  <code>4.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.34.0-0</code>,  <code>4.30.0-0</code>,  <code>4.28.1-0</code>,  <code>4.26.0-1</code>,  <code>4.26.0-0</code>,  <code>4.23.0-0</code>,  <code>4.22.0-0</code>,  <code>4.20.0-1</code>,  <code>4.18.0-0</code>,  </span></summary>
       
 
-      ``4.30.0-0``,  ``4.28.1-0``,  ``4.26.0-1``,  ``4.26.0-0``,  ``4.23.0-0``,  ``4.22.0-0``,  ``4.20.0-1``,  ``4.18.0-0``,  ``4.16.0-0``,  ``4.14.0-0``
+      ``4.34.0-0``,  ``4.30.0-0``,  ``4.28.1-0``,  ``4.26.0-1``,  ``4.26.0-0``,  ``4.23.0-0``,  ``4.22.0-0``,  ``4.20.0-1``,  ``4.18.0-0``,  ``4.16.0-0``,  ``4.14.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-pwmenrich
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-seqlogo: ``>=1.60.0,<1.61.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-seqlogo: ``>=1.64.0,<1.65.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-evd: 
    :depends r-gdata: 
    :requirements:
@@ -79,7 +79,7 @@ bioconductor-pwmenrich
 
     <script>
         var package = "bioconductor-pwmenrich";
-        var versions = ["4.30.0","4.28.1","4.26.0","4.26.0","4.23.0"];
+        var versions = ["4.34.0","4.30.0","4.28.1","4.26.0","4.26.0"];
     </script>
 
 

@@ -27,16 +27,16 @@ bioconductor-netomics
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-minet: ``>=3.52.0,<3.53.0``
-   :depends bioconductor-randomwalkrestartmh: ``>=1.14.0,<1.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-minet: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-randomwalkrestartmh: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-gprofiler2: 
@@ -76,7 +76,7 @@ bioconductor-netomics
 
     <script>
         var package = "bioconductor-netomics";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

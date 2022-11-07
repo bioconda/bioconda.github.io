@@ -27,15 +27,15 @@ bioconductor-nanostringqcpro
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-knitr: ``>=1.12``
    :depends r-nmf: ``>=0.20.5``
    :depends r-png: ``>=0.1-7``
@@ -71,7 +71,7 @@ bioconductor-nanostringqcpro
 
     <script>
         var package = "bioconductor-nanostringqcpro";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.22.0","1.20.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.22.0"];
     </script>
 
 

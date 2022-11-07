@@ -26,16 +26,25 @@ bioconductor-hgug4845a.db
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.3-9``,  ``0.0.3-8``,  ``0.0.3-7``,  ``0.0.3-6``,  ``0.0.3-5``,  ``0.0.3-4``,  ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.3-10</code>,  <code>0.0.3-9</code>,  <code>0.0.3-8</code>,  <code>0.0.3-7</code>,  <code>0.0.3-6</code>,  <code>0.0.3-5</code>,  <code>0.0.3-4</code>,  <code>0.0.3-3</code>,  <code>0.0.3-2</code>,  </span></summary>
+      
 
+      ``0.0.3-10``,  ``0.0.3-9``,  ``0.0.3-8``,  ``0.0.3-7``,  ``0.0.3-6``,  ``0.0.3-5``,  ``0.0.3-4``,  ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

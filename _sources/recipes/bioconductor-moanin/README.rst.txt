@@ -27,17 +27,17 @@ bioconductor-moanin
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-clusterr: 
    :depends r-mass: ``>=1.0.0``
    :depends r-matrixstats: 
@@ -76,7 +76,7 @@ bioconductor-moanin
 
     <script>
         var package = "bioconductor-moanin";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

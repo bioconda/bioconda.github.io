@@ -28,14 +28,14 @@ r-recetox-xmsannotator
       
       
 
-      ``0.9.0-0``
+      ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
    :depends bioconductor-rhdf5: 
    :depends r-arrow: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: ``>=1``
    :depends r-flashclust: 
@@ -75,7 +75,7 @@ r-recetox-xmsannotator
 
     <script>
         var package = "r-recetox-xmsannotator";
-        var versions = ["0.9.0"];
+        var versions = ["0.9.0","0.9.0"];
     </script>
 
 

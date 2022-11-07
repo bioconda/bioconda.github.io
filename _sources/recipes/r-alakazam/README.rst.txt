@@ -27,7 +27,7 @@ r-alakazam
       
       
 
-      ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
@@ -39,7 +39,7 @@ r-alakazam
    :depends libstdcxx-ng: ``>=12``
    :depends r-airr: ``>=1.3``
    :depends r-ape: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: ``>=1.0``
    :depends r-ggplot2: ``>=3.3.4``
    :depends r-igraph: ``>=1.0.0``
@@ -84,7 +84,7 @@ r-alakazam
 
     <script>
         var package = "r-alakazam";
-        var versions = ["1.2.1","1.2.0","1.2.0","0.2.10","0.2.8"];
+        var versions = ["1.2.1","1.2.1","1.2.0","1.2.0","0.2.10"];
     </script>
 
 

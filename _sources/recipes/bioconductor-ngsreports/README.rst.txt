@@ -27,14 +27,14 @@ bioconductor-ngsreports
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``2.0.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-checkmate: 
    :depends r-dplyr: ``>=1.0.0``
    :depends r-dt: 
@@ -44,6 +44,7 @@ bioconductor-ngsreports
    :depends r-lifecycle: 
    :depends r-lubridate: 
    :depends r-pander: 
+   :depends r-patchwork: ``>=1.1.1``
    :depends r-plotly: ``>=4.9.4``
    :depends r-readr: 
    :depends r-reshape2: 
@@ -85,7 +86,7 @@ bioconductor-ngsreports
 
     <script>
         var package = "bioconductor-ngsreports";
-        var versions = ["1.10.0","1.8.0","1.6.1","1.6.0","1.4.0"];
+        var versions = ["2.0.0","1.10.0","1.8.0","1.6.1","1.6.0"];
     </script>
 
 

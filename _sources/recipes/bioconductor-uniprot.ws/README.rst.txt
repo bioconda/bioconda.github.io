@@ -29,10 +29,10 @@ bioconductor-uniprot.ws
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.29.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.1-0</code>,  <code>2.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.29.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.1-0</code>,  </span></summary>
       
 
-      ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.29.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.4-0``,  ``2.18.0-0``,  ``2.16.0-0``
+      ``2.38.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.29.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.4-0``,  ``2.18.0-0``,  ``2.16.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,16 @@ bioconductor-uniprot.ws
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-rappdirs: 
-   :depends r-rcurl: 
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biocbaseutils: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-httpcache: 
+   :depends r-httr: 
+   :depends r-jsonlite: 
+   :depends r-progress: 
+   :depends r-rjsoncons: 
    :depends r-rsqlite: 
    :requirements:
 
@@ -79,7 +83,7 @@ bioconductor-uniprot.ws
 
     <script>
         var package = "bioconductor-uniprot.ws";
-        var versions = ["2.34.0","2.32.0","2.30.0","2.30.0","2.29.0"];
+        var versions = ["2.38.0","2.34.0","2.32.0","2.30.0","2.30.0"];
     </script>
 
 

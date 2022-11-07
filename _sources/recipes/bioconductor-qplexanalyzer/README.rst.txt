@@ -27,20 +27,20 @@ bioconductor-qplexanalyzer
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: ``>=1.0.0``
    :depends r-ggdendro: 
    :depends r-ggplot2: 
@@ -85,7 +85,7 @@ bioconductor-qplexanalyzer
 
     <script>
         var package = "bioconductor-qplexanalyzer";
-        var versions = ["1.12.0","1.10.0","1.8.2","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.2","1.8.0"];
     </script>
 
 

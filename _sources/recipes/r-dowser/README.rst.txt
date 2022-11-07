@@ -27,7 +27,7 @@ r-dowser
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
 
@@ -36,7 +36,7 @@ r-dowser
    :depends bioconductor-ggtree: 
    :depends r-alakazam: ``>=1.1.0``
    :depends r-ape: ``>=5.5``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: ``>=0.8.1``
    :depends r-ggplot2: ``>=3.2.0``
    :depends r-gridextra: 
@@ -80,7 +80,7 @@ r-dowser
 
     <script>
         var package = "r-dowser";
-        var versions = ["1.1.0","1.0.0","0.1.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0","0.1.0"];
     </script>
 
 

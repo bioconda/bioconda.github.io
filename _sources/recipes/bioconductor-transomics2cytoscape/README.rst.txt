@@ -27,15 +27,17 @@ bioconductor-transomics2cytoscape
       
       
 
-      ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-rcy3: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-keggrest: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-rcy3: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
+   :depends r-purrr: 
+   :depends r-tibble: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +69,7 @@ bioconductor-transomics2cytoscape
 
     <script>
         var package = "bioconductor-transomics2cytoscape";
-        var versions = ["1.4.0","1.2.1","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.1","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ r-seqmagick
       
       
 
-      ``0.1.5-0``
+      ``0.1.5-1``,  ``0.1.5-0``
 
       
 
    
    :depends bioconductor-biostrings: 
-   :depends r-base: ``>=3.6,<3.7``
+   :depends r-base: ``>=3.6.0``
    :depends r-magrittr: 
    :requirements:
 
@@ -66,7 +66,7 @@ r-seqmagick
 
     <script>
         var package = "r-seqmagick";
-        var versions = ["0.1.5"];
+        var versions = ["0.1.5","0.1.5"];
     </script>
 
 

@@ -27,7 +27,7 @@ r-merge-kallisto
       
       
 
-      ``0.6-1``,  ``0.6-0``
+      ``0.6-2``,  ``0.6-1``,  ``0.6-0``
 
       
 
@@ -71,7 +71,7 @@ r-merge-kallisto
 
     <script>
         var package = "r-merge-kallisto";
-        var versions = ["0.6","0.6"];
+        var versions = ["0.6","0.6","0.6"];
     </script>
 
 

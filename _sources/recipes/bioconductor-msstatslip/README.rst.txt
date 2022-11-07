@@ -27,20 +27,20 @@ bioconductor-msstatslip
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.3.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-msstats: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-msstatsconvert: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-msstatsptm: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-msstats: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-msstatsconvert: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-msstatsptm: ``>=2.0.0,<2.1.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -86,7 +86,7 @@ bioconductor-msstatslip
 
     <script>
         var package = "bioconductor-msstatslip";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.3.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

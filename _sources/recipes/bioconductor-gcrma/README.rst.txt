@@ -29,10 +29,10 @@ bioconductor-gcrma
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.62.0-1</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.70.0-0</code>,  <code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.62.0-1</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  </span></summary>
       
 
-      ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
+      ``2.70.0-0``,  ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-gcrma
       
 
    
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-affyio: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-xvector: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-affyio: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-xvector: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :requirements:
 
@@ -82,7 +82,7 @@ bioconductor-gcrma
 
     <script>
         var package = "bioconductor-gcrma";
-        var versions = ["2.66.0","2.66.0","2.66.0","2.64.0","2.62.0"];
+        var versions = ["2.70.0","2.66.0","2.66.0","2.66.0","2.64.0"];
     </script>
 
 

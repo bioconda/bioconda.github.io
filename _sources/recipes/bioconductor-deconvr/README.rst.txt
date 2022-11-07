@@ -27,18 +27,18 @@ bioconductor-deconvr
       
       
 
-      ``1.0.1-0``
+      ``1.4.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-methylkit: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-methylkit: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: ``>=1.14.0``
    :depends r-dplyr: ``>=1.0.7``
    :depends r-e1071: ``>=1.7.9``
@@ -81,7 +81,7 @@ bioconductor-deconvr
 
     <script>
         var package = "bioconductor-deconvr";
-        var versions = ["1.0.1"];
+        var versions = ["1.4.0","1.0.1"];
     </script>
 
 

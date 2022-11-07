@@ -27,28 +27,27 @@ bioconductor-glmsparsenet
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-digest: 
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-futile.logger: 
+   :depends r-futile.options: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
    :depends r-glue: 
    :depends r-httr: 
-   :depends r-loose.rock: ``>=1.0.12``
    :depends r-matrix: 
    :depends r-readr: 
    :depends r-reshape2: 
-   :depends r-sparsebn: 
-   :depends r-sparsebnutils: 
    :depends r-stringr: 
    :depends r-survminer: 
    :requirements:
@@ -82,7 +81,7 @@ bioconductor-glmsparsenet
 
     <script>
         var package = "bioconductor-glmsparsenet";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

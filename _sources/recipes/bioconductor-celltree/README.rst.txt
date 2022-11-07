@@ -26,14 +26,22 @@ bioconductor-celltree
    :versions:
       
       
+      .. raw:: html
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.27.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.19.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  </span></summary>
+      
 
+      ``1.27.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gplots: 
    :depends r-igraph: 
    :depends r-maptpx: 
@@ -71,7 +79,7 @@ bioconductor-celltree
 
     <script>
         var package = "bioconductor-celltree";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.19.0"];
+        var versions = ["1.27.0","1.24.0","1.22.0","1.20.0","1.20.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ r-millefy
       
       
 
-      ``0.1.9-0``
+      ``0.1.9-1``,  ``0.1.9-0``
 
       
 
@@ -37,7 +37,7 @@ r-millefy
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rsamtools: 
    :depends bioconductor-rtracklayer: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dtplyr: 
    :depends r-proxy: 
@@ -73,7 +73,7 @@ r-millefy
 
     <script>
         var package = "r-millefy";
-        var versions = ["0.1.9"];
+        var versions = ["0.1.9","0.1.9"];
     </script>
 
 

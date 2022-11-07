@@ -27,14 +27,14 @@ bioconductor-biomm
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cmplot: 
    :depends r-e1071: 
    :depends r-ggplot2: 
@@ -78,7 +78,7 @@ bioconductor-biomm
 
     <script>
         var package = "bioconductor-biomm";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

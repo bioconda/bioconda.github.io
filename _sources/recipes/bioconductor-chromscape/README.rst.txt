@@ -27,31 +27,30 @@ bioconductor-chromscape
       
       
 
-      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-batchelor: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-sushi: ``>=1.31.0,<1.32.0``
+   :depends bioconductor-batchelor: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-scater: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-scran: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-colorramps: 
    :depends r-colourpicker: 
    :depends r-coop: 
@@ -59,7 +58,10 @@ bioconductor-chromscape
    :depends r-dt: 
    :depends r-forcats: 
    :depends r-fs: 
+   :depends r-gggenes: 
    :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-gridextra: 
    :depends r-irlba: 
    :depends r-jsonlite: 
    :depends r-kableextra: 
@@ -81,6 +83,7 @@ bioconductor-chromscape
    :depends r-shinyjs: 
    :depends r-shinywidgets: 
    :depends r-stringdist: 
+   :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-umap: 
@@ -116,7 +119,7 @@ bioconductor-chromscape
 
     <script>
         var package = "bioconductor-chromscape";
-        var versions = ["1.4.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

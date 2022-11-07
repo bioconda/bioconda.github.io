@@ -27,16 +27,14 @@ bioconductor-rcpi
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-chemminer: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-fmcsr: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-gosemsim: ``>=2.20.0,<2.21.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-gosemsim: ``>=2.24.0,<2.25.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-rcdk: ``>=3.3.8``
@@ -73,7 +71,7 @@ bioconductor-rcpi
 
     <script>
         var package = "bioconductor-rcpi";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.22.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

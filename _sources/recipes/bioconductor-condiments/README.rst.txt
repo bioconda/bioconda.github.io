@@ -27,17 +27,18 @@ bioconductor-condiments
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-slingshot: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-trajectoryutils: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-distinct: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-slingshot: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-trajectoryutils: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: ``>=1.0``
    :depends r-ecume: ``>=0.9.1``
    :depends r-igraph: 
@@ -77,7 +78,7 @@ bioconductor-condiments
 
     <script>
         var package = "bioconductor-condiments";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

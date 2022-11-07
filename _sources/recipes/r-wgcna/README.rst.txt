@@ -29,10 +29,10 @@ r-wgcna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.71-0</code>,  <code>1.69-5</code>,  <code>1.69-4</code>,  <code>1.69-3</code>,  <code>1.69-2</code>,  <code>1.69-1</code>,  <code>1.69-0</code>,  <code>1.68-1</code>,  <code>1.68-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.71-2</code>,  <code>1.71-0</code>,  <code>1.69-5</code>,  <code>1.69-4</code>,  <code>1.69-3</code>,  <code>1.69-2</code>,  <code>1.69-1</code>,  <code>1.69-0</code>,  <code>1.68-1</code>,  </span></summary>
       
 
-      ``1.71-0``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``,  ``1.68-1``,  ``1.68-0``,  ``1.67-0``,  ``1.66-1``,  ``1.66-0``,  ``1.64_1-0``,  ``1.61-0``,  ``1.51-1``,  ``1.51-0``
+      ``1.71-2``,  ``1.71-0``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``,  ``1.68-1``,  ``1.68-0``,  ``1.67-0``,  ``1.66-1``,  ``1.66-0``,  ``1.64_1-0``,  ``1.61-0``,  ``1.51-1``,  ``1.51-0``
 
       
       .. raw:: html
@@ -45,9 +45,9 @@ r-wgcna
    :depends bioconductor-go.db: 
    :depends bioconductor-impute: 
    :depends bioconductor-preprocesscore: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-doparallel: 
    :depends r-dynamictreecut: ``>=1.62``
    :depends r-fastcluster: 
@@ -88,7 +88,7 @@ r-wgcna
 
     <script>
         var package = "r-wgcna";
-        var versions = ["1.71","1.69","1.69","1.69","1.69"];
+        var versions = ["1.71","1.71","1.69","1.69","1.69"];
     </script>
 
 

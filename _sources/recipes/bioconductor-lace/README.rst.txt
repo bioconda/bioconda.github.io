@@ -27,17 +27,46 @@ bioconductor-lace
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-bsplus: 
+   :depends r-callr: 
+   :depends r-configr: 
+   :depends r-curl: 
+   :depends r-data.table: 
    :depends r-data.tree: 
+   :depends r-doparallel: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-foreach: 
+   :depends r-fs: 
+   :depends r-htmltools: 
+   :depends r-htmlwidgets: 
    :depends r-igraph: 
+   :depends r-jsonlite: 
+   :depends r-logr: 
+   :depends r-matrix: 
+   :depends r-purrr: 
    :depends r-rcolorbrewer: 
+   :depends r-readr: 
    :depends r-rfast: 
+   :depends r-shiny: 
+   :depends r-shinybs: 
+   :depends r-shinydashboard: 
+   :depends r-shinyfiles: 
+   :depends r-shinyjs: 
+   :depends r-shinythemes: 
+   :depends r-shinyvalidate: 
+   :depends r-sortable: 
+   :depends r-stringi: 
+   :depends r-stringr: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +98,7 @@ bioconductor-lace
 
     <script>
         var package = "bioconductor-lace";
-        var versions = ["1.6.0","1.4.0","1.2.1","1.2.0","1.0.0"];
+        var versions = ["2.2.0","1.6.0","1.4.0","1.2.1","1.2.0"];
     </script>
 
 

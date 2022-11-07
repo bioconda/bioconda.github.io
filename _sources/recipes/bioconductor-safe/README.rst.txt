@@ -29,10 +29,10 @@ bioconductor-safe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.34.0-0</code>,  <code>3.32.0-0</code>,  <code>3.30.0-1</code>,  <code>3.30.0-0</code>,  <code>3.27.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-1</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.38.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-0</code>,  <code>3.30.0-1</code>,  <code>3.30.0-0</code>,  <code>3.27.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-1</code>,  <code>3.22.0-0</code>,  </span></summary>
       
 
-      ``3.34.0-0``,  ``3.32.0-0``,  ``3.30.0-1``,  ``3.30.0-0``,  ``3.27.0-0``,  ``3.26.0-0``,  ``3.24.0-1``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
+      ``3.38.0-0``,  ``3.34.0-0``,  ``3.32.0-0``,  ``3.30.0-1``,  ``3.30.0-0``,  ``3.27.0-0``,  ``3.26.0-0``,  ``3.24.0-1``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-safe
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-sparsem: 
    :requirements:
 
@@ -76,7 +76,7 @@ bioconductor-safe
 
     <script>
         var package = "bioconductor-safe";
-        var versions = ["3.34.0","3.32.0","3.30.0","3.30.0","3.27.0"];
+        var versions = ["3.38.0","3.34.0","3.32.0","3.30.0","3.30.0"];
     </script>
 
 

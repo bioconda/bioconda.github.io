@@ -27,16 +27,16 @@ bioconductor-cellity
       
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-e1071: 
    :depends r-ggplot2: 
    :depends r-mvoutlier: 
@@ -72,7 +72,7 @@ bioconductor-cellity
 
     <script>
         var package = "bioconductor-cellity";
-        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
+        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.18.0"];
     </script>
 
 

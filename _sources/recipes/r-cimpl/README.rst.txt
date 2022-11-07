@@ -27,14 +27,14 @@ r-cimpl
       
       
 
-      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-0``
+      ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-0``
 
       
 
    
    :depends bioconductor-biomart: 
    :depends bioconductor-biostrings: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-kernsmooth: 
    :depends r-mass: 
    :depends r-xtable: 
@@ -69,7 +69,7 @@ r-cimpl
 
     <script>
         var package = "r-cimpl";
-        var versions = ["1.1","1.1","1.1","1.1"];
+        var versions = ["1.1","1.1","1.1","1.1","1.1"];
     </script>
 
 
