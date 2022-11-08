@@ -27,13 +27,13 @@ r-umianalyzer
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-rsamtools: ``>=1.32.3``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-dplyr: ``>=0.7.5``
    :depends r-dt: ``>=0.19``
@@ -84,7 +84,7 @@ r-umianalyzer
 
     <script>
         var package = "r-umianalyzer";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

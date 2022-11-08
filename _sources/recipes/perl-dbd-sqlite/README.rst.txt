@@ -28,10 +28,10 @@ perl-dbd-sqlite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70-2</code>,  <code>1.70-1</code>,  <code>1.70-0</code>,  <code>1.64-1</code>,  <code>1.64-0</code>,  <code>1.62-1</code>,  <code>1.62-0</code>,  <code>1.60-0</code>,  <code>1.58-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.72-0</code>,  <code>1.70-2</code>,  <code>1.70-1</code>,  <code>1.70-0</code>,  <code>1.64-1</code>,  <code>1.64-0</code>,  <code>1.62-1</code>,  <code>1.62-0</code>,  <code>1.60-0</code>,  </span></summary>
       
 
-      ``1.70-2``,  ``1.70-1``,  ``1.70-0``,  ``1.64-1``,  ``1.64-0``,  ``1.62-1``,  ``1.62-0``,  ``1.60-0``,  ``1.58-0``,  ``1.50-3``,  ``1.50-2``,  ``1.50-1``
+      ``1.72-0``,  ``1.70-2``,  ``1.70-1``,  ``1.70-0``,  ``1.64-1``,  ``1.64-0``,  ``1.62-1``,  ``1.62-0``,  ``1.60-0``,  ``1.58-0``,  ``1.50-3``,  ``1.50-2``,  ``1.50-1``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ perl-dbd-sqlite
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 
    :requirements:
@@ -74,7 +74,7 @@ perl-dbd-sqlite
 
     <script>
         var package = "perl-dbd-sqlite";
-        var versions = ["1.70","1.70","1.70","1.64","1.64"];
+        var versions = ["1.72","1.70","1.70","1.70","1.64"];
     </script>
 
 

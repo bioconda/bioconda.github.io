@@ -28,10 +28,10 @@ bioconductor-paa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
+      ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,12 @@ bioconductor-paa
       
 
    
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14.0.4``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-e1071: 
    :depends r-gplots: 
    :depends r-gtools: 
@@ -86,7 +85,7 @@ bioconductor-paa
 
     <script>
         var package = "bioconductor-paa";
-        var versions = ["1.28.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.32.0","1.28.0","1.28.0","1.28.0","1.26.0"];
     </script>
 
 

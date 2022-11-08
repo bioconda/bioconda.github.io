@@ -27,26 +27,26 @@ bioconductor-nanomethviz
       
       
 
-      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biocsingular: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-bsseq: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-zlibbioc: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biocsingular: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-bsseq: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-zlibbioc: ``>=1.44.0,<1.45.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cpp11: ``>=0.2.5``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -54,15 +54,16 @@ bioconductor-nanomethviz
    :depends r-forcats: 
    :depends r-fs: 
    :depends r-ggplot2: 
-   :depends r-ggthemes: 
+   :depends r-ggrastr: 
    :depends r-glue: 
    :depends r-patchwork: 
    :depends r-purrr: 
+   :depends r-r.utils: 
    :depends r-rcpp: 
    :depends r-readr: 
    :depends r-rlang: 
    :depends r-rsqlite: 
-   :depends r-scales: 
+   :depends r-scales: ``>=1.2.0``
    :depends r-scico: 
    :depends r-stringr: 
    :depends r-tibble: 
@@ -99,7 +100,7 @@ bioconductor-nanomethviz
 
     <script>
         var package = "bioconductor-nanomethviz";
-        var versions = ["2.0.0","2.0.0","2.0.0","1.2.0","1.0.0"];
+        var versions = ["2.4.0","2.0.0","2.0.0","2.0.0","1.2.0"];
     </script>
 
 

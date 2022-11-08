@@ -27,21 +27,21 @@ bioconductor-methcp
       
       
 
-      ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.11.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-bsseq: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-dnacopy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-dss: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-methylkit: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-bsseq: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-dnacopy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-dss: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-methylkit: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ bioconductor-methcp
 
     <script>
         var package = "bioconductor-methcp";
-        var versions = ["1.7.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.11.0","1.7.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

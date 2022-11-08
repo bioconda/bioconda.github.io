@@ -27,18 +27,22 @@ bioconductor-isanalytics
       
       
 
-      ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-bslib: 
    :depends r-data.table: 
+   :depends r-datamods: 
    :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-forcats: 
    :depends r-fs: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
+   :depends r-glue: 
    :depends r-lifecycle: 
    :depends r-lubridate: 
    :depends r-magrittr: 
@@ -48,10 +52,11 @@ bioconductor-isanalytics
    :depends r-readr: 
    :depends r-readxl: 
    :depends r-rlang: 
+   :depends r-shiny: 
+   :depends r-shinywidgets: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
-   :depends r-zip: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +88,7 @@ bioconductor-isanalytics
 
     <script>
         var package = "bioconductor-isanalytics";
-        var versions = ["1.4.1","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.1","1.2.0","1.0.0"];
     </script>
 
 

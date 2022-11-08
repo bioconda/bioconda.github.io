@@ -27,16 +27,17 @@ bioconductor-easierdata
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-data-packages: ``>=20221106``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +69,7 @@ bioconductor-easierdata
 
     <script>
         var package = "bioconductor-easierdata";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.0.0","1.0.0"];
     </script>
 
 

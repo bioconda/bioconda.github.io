@@ -27,15 +27,15 @@ bioconductor-biggr
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``
 
       
 
    
-   :depends bioconductor-hyperdraw: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-hypergraph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-rsbml: ``>=2.52.0,<2.53.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-hyperdraw: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-hypergraph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-rsbml: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-lim: 
    :depends r-limsolve: 
    :depends r-stringr: 
@@ -70,7 +70,7 @@ bioconductor-biggr
 
     <script>
         var package = "bioconductor-biggr";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

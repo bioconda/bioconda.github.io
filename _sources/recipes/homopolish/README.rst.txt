@@ -27,7 +27,7 @@ homopolish
       
       
 
-      ``0.4.1-0``,  ``0.3.3-0``,  ``0.2.1-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.2.1-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -52,12 +52,12 @@ homopolish
    :depends cryptography: ``>=3.1.1``
    :depends curl: ``>=7.78.0``
    :depends double-conversion: ``>=3.1.5``
-   :depends fastani: ``>=1.32``
+   :depends fastani: ``1.32.*``
    :depends feather-format: ``>=0.4.1``
    :depends gflags: ``>=2.2.2``
    :depends glog: ``>=0.4.0``
    :depends grpc-cpp: ``>=1.25.0``
-   :depends gsl: ``>=2.4``
+   :depends gsl: ``2.4.*``
    :depends icu: ``>=58.2``
    :depends idna: ``>=2.10``
    :depends joblib: ``>=0.15.1``
@@ -82,13 +82,13 @@ homopolish
    :depends libstdcxx-ng: ``>=12.1.0``
    :depends llvm-openmp: ``>=12.0.1``
    :depends lz4-c: ``>=1.8.3``
-   :depends mash: ``>=2.1.1``
+   :depends mash: ``2.1.1.*``
    :depends minimap2: ``>=2.17``
    :depends more-itertools: ``>=8.4.0``
    :depends ncbi-datasets-cli: ``>=13.37.2``
    :depends ncurses: ``>=6.3``
-   :depends numpy: ``>=1.18.5``
-   :depends numpy-base: ``>=1.18.5``
+   :depends numpy: ``1.18.5.*``
+   :depends numpy-base: ``1.18.5.*``
    :depends openssl: ``>=1.1.1q``
    :depends pandas: ``>=0.23.4``
    :depends parquet-cpp: ``>=1.5.1``
@@ -98,14 +98,14 @@ homopolish
    :depends pyopenssl: ``>=19.1.0``
    :depends pysam: ``>=0.15.3``
    :depends pysocks: ``>=1.7.1``
-   :depends python: ``>=3.7.7``
+   :depends python: 
    :depends python-dateutil: ``>=2.8.1``
    :depends python-wget: ``>=3.2``
    :depends pytz: ``>=2020.1``
    :depends re2: ``>=2019.08.01``
    :depends readline: ``>=8.1.2,<9.0a0``
    :depends requests: ``>=2.24.0``
-   :depends scikit-learn: ``>=0.21.3``
+   :depends scikit-learn: ``0.21.3.*``
    :depends scipy: ``>=1.5.2``
    :depends setuptools: ``>=50.3.0``
    :depends six: ``>=1.15.0``
@@ -151,7 +151,7 @@ homopolish
 
     <script>
         var package = "homopolish";
-        var versions = ["0.4.1","0.3.3","0.2.1","0.0.2","0.0.1"];
+        var versions = ["0.4.1","0.4.1","0.3.3","0.2.1","0.0.2"];
     </script>
 
 

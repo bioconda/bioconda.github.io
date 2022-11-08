@@ -29,10 +29,10 @@ bioconductor-webbioc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-0</code>,  </span></summary>
       
 
-      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+      ``1.70.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-webbioc
       
 
    
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-annaffy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-gcrma: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-annaffy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-gcrma: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-multtest: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-vsn: ``>=3.66.0,<3.67.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :requirements:
 
@@ -81,7 +81,7 @@ bioconductor-webbioc
 
     <script>
         var package = "bioconductor-webbioc";
-        var versions = ["1.66.0","1.64.0","1.62.0","1.62.0","1.60.0"];
+        var versions = ["1.70.0","1.66.0","1.64.0","1.62.0","1.62.0"];
     </script>
 
 

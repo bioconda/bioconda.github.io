@@ -27,14 +27,15 @@ bioconductor-bsgenome.tgondii.toxodb.7.0
       
       
 
-      ``0.99.1-2``,  ``0.99.1-1``,  ``0.99.1-0``,  ``0.99.0-4``,  ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-0``
+      ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-1``,  ``0.99.1-0``,  ``0.99.0-4``,  ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ bioconductor-bsgenome.tgondii.toxodb.7.0
 
     <script>
         var package = "bioconductor-bsgenome.tgondii.toxodb.7.0";
-        var versions = ["0.99.1","0.99.1","0.99.1","0.99.0","0.99.0"];
+        var versions = ["0.99.1","0.99.1","0.99.1","0.99.1","0.99.0"];
     </script>
 
 

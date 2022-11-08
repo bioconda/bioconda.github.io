@@ -28,10 +28,10 @@ ntlink
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.3-0</code>,  </span></summary>
       
 
-      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -44,13 +44,13 @@ ntlink
    :depends btllib: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends make: 
    :depends numpy: 
    :depends python: ``>=3.8,<3.9.0a0``
    :depends python-igraph: 
    :depends python_abi: ``3.8.* *_cp38``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ ntlink
 
     <script>
         var package = "ntlink";
-        var versions = ["1.3.4","1.3.3","1.3.2","1.3.1","1.3.0"];
+        var versions = ["1.3.5","1.3.4","1.3.3","1.3.2","1.3.1"];
     </script>
 
 

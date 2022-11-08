@@ -26,15 +26,24 @@ bioconductor-pwmenrich.hsapiens.background
    :versions:
       
       
+      .. raw:: html
 
-      ``4.28.0-1``,  ``4.28.0-0``,  ``4.26.1-0``,  ``4.24.0-1``,  ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.18.0-1``,  ``4.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>4.32.0-0</code>,  <code>4.28.0-1</code>,  <code>4.28.0-0</code>,  <code>4.26.1-0</code>,  <code>4.24.0-1</code>,  <code>4.24.0-0</code>,  <code>4.22.0-0</code>,  <code>4.20.0-0</code>,  <code>4.18.0-1</code>,  </span></summary>
+      
 
+      ``4.32.0-0``,  ``4.28.0-1``,  ``4.28.0-0``,  ``4.26.1-0``,  ``4.24.0-1``,  ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.18.0-1``,  ``4.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-pwmenrich: ``>=4.30.0,<4.31.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221107``
+   :depends bioconductor-pwmenrich: ``>=4.34.0,<4.35.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +75,7 @@ bioconductor-pwmenrich.hsapiens.background
 
     <script>
         var package = "bioconductor-pwmenrich.hsapiens.background";
-        var versions = ["4.28.0","4.28.0","4.26.1","4.24.0","4.24.0"];
+        var versions = ["4.32.0","4.28.0","4.28.0","4.26.1","4.24.0"];
     </script>
 
 

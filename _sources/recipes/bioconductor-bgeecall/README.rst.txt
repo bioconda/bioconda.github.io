@@ -27,18 +27,18 @@ bioconductor-bgeecall
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-tximport: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-tximport: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-jsonlite: 
@@ -75,7 +75,7 @@ bioconductor-bgeecall
 
     <script>
         var package = "bioconductor-bgeecall";
-        var versions = ["1.10.0","1.8.0","1.6.2","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.2","1.6.0"];
     </script>
 
 

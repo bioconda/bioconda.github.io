@@ -27,19 +27,19 @@ bioconductor-viseago
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-annotationforge: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-fgsea: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-gosemsim: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-annotationforge: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-fgsea: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-gosemsim: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dendextend: 
    :depends r-diagrammer: 
@@ -86,7 +86,7 @@ bioconductor-viseago
 
     <script>
         var package = "bioconductor-viseago";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

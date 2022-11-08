@@ -29,10 +29,10 @@ bioconductor-reactomepa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ bioconductor-reactomepa
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-enrichplot: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-graphite: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-ggplot2: 
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-dose: ``>=3.24.0,<3.25.0``
+   :depends bioconductor-enrichplot: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-graphite: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-reactome.db: ``>=1.82.0,<1.83.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-ggplot2: ``>=3.3.5``
    :depends r-ggraph: 
+   :depends r-gson: 
    :depends r-igraph: 
    :requirements:
 
@@ -81,7 +82,7 @@ bioconductor-reactomepa
 
     <script>
         var package = "bioconductor-reactomepa";
-        var versions = ["1.38.0","1.36.0","1.34.0","1.34.0","1.32.0"];
+        var versions = ["1.42.0","1.38.0","1.36.0","1.34.0","1.34.0"];
     </script>
 
 

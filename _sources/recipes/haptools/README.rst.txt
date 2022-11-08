@@ -27,12 +27,11 @@ haptools
       
       
 
-      ``0.0.2-0``
+      ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
-   :depends brewer2mpl: ``>=1.4.1``
    :depends click: ``>=8.0.3``
    :depends cyvcf2: ``>=0.30.14``
    :depends matplotlib-base: ``>=3.5.1``
@@ -69,7 +68,7 @@ haptools
 
     <script>
         var package = "haptools";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.3","0.0.2"];
     </script>
 
 

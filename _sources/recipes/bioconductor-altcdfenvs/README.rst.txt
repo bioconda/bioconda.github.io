@@ -29,10 +29,10 @@ bioconductor-altcdfenvs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.60.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-1</code>,  <code>2.44.0-0</code>,  </span></summary>
       
 
-      ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+      ``2.60.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-altcdfenvs
       
 
    
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-hypergraph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-makecdfenv: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-hypergraph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-makecdfenv: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ bioconductor-altcdfenvs
 
     <script>
         var package = "bioconductor-altcdfenvs";
-        var versions = ["2.56.0","2.54.0","2.52.0","2.52.0","2.50.0"];
+        var versions = ["2.60.0","2.56.0","2.54.0","2.52.0","2.52.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ r-garnett
       
       
 
-      ``0.2.8-3``,  ``0.2.8-2``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.1.4-0``
+      ``0.2.8-4``,  ``0.2.8-3``,  ``0.2.8-2``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.1.4-0``
 
       
 
@@ -40,7 +40,7 @@ r-garnett
    :depends bioconductor-org.hs.eg.db: ``>=3.7.0``
    :depends bioconductor-org.mm.eg.db: 
    :depends r-assertthat: ``>=0.2.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-doparallel: ``>=1.0.14``
    :depends r-forcats: ``>=0.3.0``
    :depends r-ggplot2: ``>=3.1.0``
@@ -87,7 +87,7 @@ r-garnett
 
     <script>
         var package = "r-garnett";
-        var versions = ["0.2.8","0.2.8","0.2.8","0.2.8","0.1.4"];
+        var versions = ["0.2.8","0.2.8","0.2.8","0.2.8","0.2.8"];
     </script>
 
 

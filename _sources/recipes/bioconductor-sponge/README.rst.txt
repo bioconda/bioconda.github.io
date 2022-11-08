@@ -27,24 +27,40 @@ bioconductor-sponge
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-mirbaseconverter: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-caret: 
+   :depends r-cvms: 
    :depends r-data.table: 
    :depends r-dorng: 
+   :depends r-dplyr: 
    :depends r-expm: 
    :depends r-foreach: 
+   :depends r-ggplot2: 
+   :depends r-ggpubr: 
+   :depends r-ggridges: 
    :depends r-glmnet: 
    :depends r-grbase: 
    :depends r-igraph: 
    :depends r-iterators: 
    :depends r-logging: 
    :depends r-mass: 
+   :depends r-metbrewer: 
    :depends r-ppcor: 
+   :depends r-randomforest: 
+   :depends r-rlang: 
+   :depends r-stringr: 
+   :depends r-tidyr: 
+   :depends r-tidyverse: 
+   :depends r-tnet: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +92,7 @@ bioconductor-sponge
 
     <script>
         var package = "bioconductor-sponge";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
     </script>
 
 

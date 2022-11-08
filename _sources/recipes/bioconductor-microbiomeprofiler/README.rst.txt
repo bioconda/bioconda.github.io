@@ -27,14 +27,14 @@ bioconductor-microbiomeprofiler
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-enrichplot: ``>=1.14.0,<1.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-enrichplot: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-config: 
    :depends r-dt: 
    :depends r-ggplot2: 
@@ -75,7 +75,7 @@ bioconductor-microbiomeprofiler
 
     <script>
         var package = "bioconductor-microbiomeprofiler";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

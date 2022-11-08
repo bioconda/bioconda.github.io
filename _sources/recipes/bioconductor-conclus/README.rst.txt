@@ -27,22 +27,24 @@ bioconductor-conclus
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.5.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-scater: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-scran: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbscan: 
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -52,6 +54,7 @@ bioconductor-conclus
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-pheatmap: 
+   :depends r-rlang: 
    :depends r-rtsne: 
    :depends r-scales: 
    :depends r-stringr: 
@@ -86,7 +89,7 @@ bioconductor-conclus
 
     <script>
         var package = "bioconductor-conclus";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.5.0","1.2.0","1.0.0"];
     </script>
 
 

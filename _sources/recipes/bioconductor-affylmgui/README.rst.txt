@@ -27,19 +27,19 @@ bioconductor-affylmgui
       
       
 
-      ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``
+      ``1.72.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-affyio: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-affyplm: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-gcrma: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-affyio: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-affyplm: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-gcrma: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-r2html: 
    :depends r-tkrplot: 
@@ -75,7 +75,7 @@ bioconductor-affylmgui
 
     <script>
         var package = "bioconductor-affylmgui";
-        var versions = ["1.68.0","1.66.0","1.64.0","1.64.0","1.62.0"];
+        var versions = ["1.72.0","1.68.0","1.66.0","1.64.0","1.64.0"];
     </script>
 
 

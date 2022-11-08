@@ -28,10 +28,10 @@ bioconductor-panther.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.11-2</code>,  <code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.10-2</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-5</code>,  <code>1.0.4-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.11-3</code>,  <code>1.0.11-2</code>,  <code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.10-2</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-5</code>,  </span></summary>
       
 
-      ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.5-0``,  ``1.0.4-5``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-0``
+      ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.5-0``,  ``1.0.4-5``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -40,11 +40,12 @@ bioconductor-panther.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-rsqlite: 
    :requirements:
 
@@ -77,7 +78,7 @@ bioconductor-panther.db
 
     <script>
         var package = "bioconductor-panther.db";
-        var versions = ["1.0.11","1.0.11","1.0.11","1.0.10","1.0.10"];
+        var versions = ["1.0.11","1.0.11","1.0.11","1.0.11","1.0.10"];
     </script>
 
 

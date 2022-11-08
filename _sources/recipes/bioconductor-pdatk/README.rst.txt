@@ -27,24 +27,24 @@ bioconductor-pdatk
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-coregx: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-genefu: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-matrixgenerics: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-piano: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-survcomp: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-switchbox: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-coregx: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-genefu: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-piano: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-survcomp: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-switchbox: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-caret: 
    :depends r-clusterrepro: 
    :depends r-data.table: 
@@ -93,7 +93,7 @@ bioconductor-pdatk
 
     <script>
         var package = "bioconductor-pdatk";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -27,17 +27,17 @@ r-dpeak
       
       
 
-      ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
    :depends bioconductor-bsgenome: 
    :depends bioconductor-iranges: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-mass: 
    :depends r-rcpp: 
    :requirements:

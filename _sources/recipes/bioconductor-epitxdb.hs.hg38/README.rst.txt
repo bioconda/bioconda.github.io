@@ -27,15 +27,16 @@ bioconductor-epitxdb.hs.hg38
       
       
 
-      ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
+      ``0.99.7-5``,  ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-epitxdb: ``>=1.6.0,<1.7.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-epitxdb: ``>=1.10.0,<1.11.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -26,16 +26,25 @@ bioconductor-mm24kresogen.db
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.0-9``,  ``2.5.0-8``,  ``2.5.0-7``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.5.0-10</code>,  <code>2.5.0-9</code>,  <code>2.5.0-8</code>,  <code>2.5.0-7</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  </span></summary>
+      
 
+      ``2.5.0-10``,  ``2.5.0-9``,  ``2.5.0-8``,  ``2.5.0-7``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

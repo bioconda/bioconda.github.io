@@ -26,28 +26,38 @@ bioconductor-mirsponger
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.1-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.20.1-1</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.2-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+      
 
+      ``2.2.0-0``,  ``1.20.1-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-reactomepa: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-dose: ``>=3.24.0,<3.25.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-reactomepa: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-sponge: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-corpcor: 
+   :depends r-doparallel: 
+   :depends r-foreach: 
    :depends r-igraph: 
    :depends r-linkcomm: 
    :depends r-mcl: 
    :depends r-rcpp: 
    :depends r-survival: 
-   :depends r-varhandle: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +89,7 @@ bioconductor-mirsponger
 
     <script>
         var package = "bioconductor-mirsponger";
-        var versions = ["1.20.1","1.20.1","1.20.0","1.18.0","1.16.2"];
+        var versions = ["2.2.0","1.20.1","1.20.1","1.20.0","1.18.0"];
     </script>
 
 

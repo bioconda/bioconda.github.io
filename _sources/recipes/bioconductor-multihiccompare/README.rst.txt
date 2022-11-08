@@ -26,20 +26,28 @@ bioconductor-multihiccompare
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
    :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-hiccompare: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-hiccompare: ``>=1.20.0,<1.21.0``
    :depends r-aggregation: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-pbapply: 
@@ -76,7 +84,7 @@ bioconductor-multihiccompare
 
     <script>
         var package = "bioconductor-multihiccompare";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

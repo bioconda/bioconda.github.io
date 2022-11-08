@@ -26,15 +26,24 @@ bioconductor-bsseqdata
    :versions:
       
       
+      .. raw:: html
 
-      ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  </span></summary>
+      
 
+      ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsseq: ``>=1.30.0,<1.31.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-bsseq: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +75,7 @@ bioconductor-bsseqdata
 
     <script>
         var package = "bioconductor-bsseqdata";
-        var versions = ["0.32.0","0.32.0","0.30.0","0.28.0","0.28.0"];
+        var versions = ["0.36.0","0.32.0","0.32.0","0.30.0","0.28.0"];
     </script>
 
 

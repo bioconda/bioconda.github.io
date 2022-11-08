@@ -27,14 +27,14 @@ bioconductor-subcellbarcode
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-caret: 
    :depends r-e1071: 
    :depends r-ggplot2: 
@@ -74,7 +74,7 @@ bioconductor-subcellbarcode
 
     <script>
         var package = "bioconductor-subcellbarcode";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

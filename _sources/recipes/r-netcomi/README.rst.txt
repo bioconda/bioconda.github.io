@@ -27,14 +27,14 @@ r-netcomi
       
       
 
-      ``1.0.3-0``
+      ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends bioconductor-biobase: 
    :depends bioconductor-phyloseq: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dosnow: 
    :depends r-fdrtool: 
    :depends r-filematrix: 
@@ -83,7 +83,7 @@ r-netcomi
 
     <script>
         var package = "r-netcomi";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.3","1.0.3"];
     </script>
 
 

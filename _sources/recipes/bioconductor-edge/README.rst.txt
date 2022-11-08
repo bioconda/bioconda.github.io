@@ -28,10 +28,10 @@ bioconductor-edge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.26.0-2</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.26.0-2</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  </span></summary>
       
 
-      ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+      ``2.30.0-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,13 @@ bioconductor-edge
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-snm: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-snm: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-jackstraw: 
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-mass: 
    :requirements:
 
@@ -81,7 +79,7 @@ bioconductor-edge
 
     <script>
         var package = "bioconductor-edge";
-        var versions = ["2.26.0","2.26.0","2.26.0","2.24.0","2.22.0"];
+        var versions = ["2.30.0","2.26.0","2.26.0","2.26.0","2.24.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ r-dinamic.duo
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends bioconductor-biomart: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dinamic: 
    :depends r-plyr: 
    :depends r-reticulate: 
@@ -68,7 +68,7 @@ r-dinamic.duo
 
     <script>
         var package = "r-dinamic.duo";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.1","1.0.1"];
     </script>
 
 

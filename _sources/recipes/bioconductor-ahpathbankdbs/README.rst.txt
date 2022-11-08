@@ -27,14 +27,15 @@ bioconductor-ahpathbankdbs
       
       
 
-      ``0.99.5-2``,  ``0.99.5-1``,  ``0.99.5-0``
+      ``0.99.5-3``,  ``0.99.5-2``,  ``0.99.5-1``,  ``0.99.5-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ bioconductor-ahpathbankdbs
 
     <script>
         var package = "bioconductor-ahpathbankdbs";
-        var versions = ["0.99.5","0.99.5","0.99.5"];
+        var versions = ["0.99.5","0.99.5","0.99.5","0.99.5"];
     </script>
 
 

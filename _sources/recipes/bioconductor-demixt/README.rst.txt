@@ -26,24 +26,35 @@ bioconductor-demixt
    :versions:
       
       
+      .. raw:: html
 
-      ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-dss: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14.0.4``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-base64enc: 
+   :depends r-dendextend: 
    :depends r-ggplot2: 
    :depends r-kernsmooth: 
    :depends r-knitr: 
    :depends r-matrixcalc: 
    :depends r-matrixstats: 
+   :depends r-psych: 
    :depends r-rcpp: ``>=1.0.0``
    :depends r-rmarkdown: 
    :depends r-truncdist: 
@@ -78,7 +89,7 @@ bioconductor-demixt
 
     <script>
         var package = "bioconductor-demixt";
-        var versions = ["1.10.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.10.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

@@ -32,7 +32,7 @@ r-txrevise
       
       
 
-      ``2.0-0``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``2.0-1``,  ``2.0-0``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
@@ -40,7 +40,7 @@ r-txrevise
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-purrr: 
@@ -78,7 +78,7 @@ r-txrevise
 
     <script>
         var package = "r-txrevise";
-        var versions = ["2.0","0.1","0.1","0.1","0.1"];
+        var versions = ["2.0","2.0","0.1","0.1","0.1"];
     </script>
 
 

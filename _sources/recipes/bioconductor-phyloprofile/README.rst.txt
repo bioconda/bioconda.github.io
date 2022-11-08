@@ -26,19 +26,27 @@ bioconductor-phyloprofile
    :versions:
       
       
+      .. raw:: html
 
-      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  <code>1.2.8-1</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+      
 
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-biodist: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-omadb: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-biodist: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-omadb: ``>=2.14.0,<2.15.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-colourpicker: 
    :depends r-data.table: 
    :depends r-dt: 
@@ -51,6 +59,7 @@ bioconductor-phyloprofile
    :depends r-rcurl: 
    :depends r-shiny: 
    :depends r-shinybs: 
+   :depends r-shinyfiles: 
    :depends r-shinyjs: 
    :depends r-xml2: 
    :depends r-yaml: 
@@ -86,7 +95,7 @@ bioconductor-phyloprofile
 
     <script>
         var package = "bioconductor-phyloprofile";
-        var versions = ["1.8.0","1.6.1","1.4.9","1.4.0","1.2.8"];
+        var versions = ["1.12.0","1.8.0","1.6.1","1.4.9","1.4.0"];
     </script>
 
 

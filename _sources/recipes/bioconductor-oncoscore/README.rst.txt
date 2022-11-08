@@ -27,13 +27,13 @@ bioconductor-oncoscore
       
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ bioconductor-oncoscore
 
     <script>
         var package = "bioconductor-oncoscore";
-        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
+        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.18.0"];
     </script>
 
 

@@ -27,15 +27,16 @@ bioconductor-txdb.drerio.ucsc.danrer11.refgene
       
       
 
-      ``3.4.6-8``,  ``3.4.6-7``,  ``3.4.6-6``,  ``3.4.6-5``,  ``3.4.6-4``,  ``3.4.6-3``,  ``3.4.6-2``,  ``3.4.6-1``
+      ``3.4.6-9``,  ``3.4.6-8``,  ``3.4.6-7``,  ``3.4.6-6``,  ``3.4.6-5``,  ``3.4.6-4``,  ``3.4.6-3``,  ``3.4.6-2``,  ``3.4.6-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
