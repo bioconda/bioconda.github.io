@@ -27,19 +27,18 @@ bioconductor-msprep
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-pcamethods: ``>=1.86.0,<1.87.0``
-   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-pcamethods: ``>=1.90.0,<1.91.0``
+   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-crmn: 
-   :depends r-ddpcr: 
    :depends r-dplyr: ``>=0.7``
    :depends r-magrittr: 
    :depends r-missforest: 
@@ -79,7 +78,7 @@ bioconductor-msprep
 
     <script>
         var package = "bioconductor-msprep";
-        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

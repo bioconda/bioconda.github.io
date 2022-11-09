@@ -27,24 +27,24 @@ bioconductor-msgbsr
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-easyrnaseq: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-ggbio: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-easyrnaseq: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicalignments: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-ggbio: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :depends r-plyr: 
    :depends r-r.utils: 
@@ -79,7 +79,7 @@ bioconductor-msgbsr
 
     <script>
         var package = "bioconductor-msgbsr";
-        var versions = ["1.18.0","1.16.0","1.12.0","1.10.0","1.8.0"];
+        var versions = ["1.22.0","1.18.0","1.16.0","1.12.0","1.10.0"];
     </script>
 
 

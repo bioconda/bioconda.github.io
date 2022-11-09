@@ -26,16 +26,25 @@ bioconductor-cellmapperdata
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+      
 
+      ``1.24.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-cellmapper: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-cellmapper: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +76,7 @@ bioconductor-cellmapperdata
 
     <script>
         var package = "bioconductor-cellmapperdata";
-        var versions = ["1.20.0","1.20.0","1.18.0","1.16.0","1.16.0"];
+        var versions = ["1.24.0","1.20.0","1.20.0","1.18.0","1.16.0"];
     </script>
 
 

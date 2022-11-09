@@ -27,18 +27,18 @@ bioconductor-drugtargetinteractions
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationfilter: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-ensembldb: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-uniprot.ws: ``>=2.34.0,<2.35.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationfilter: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-ensembldb: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-uniprot.ws: ``>=2.38.0,<2.39.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-rappdirs: 
    :depends r-rsqlite: 
@@ -73,7 +73,7 @@ bioconductor-drugtargetinteractions
 
     <script>
         var package = "bioconductor-drugtargetinteractions";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

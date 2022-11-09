@@ -27,21 +27,22 @@ bioconductor-methylseqdata
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +74,7 @@ bioconductor-methylseqdata
 
     <script>
         var package = "bioconductor-methylseqdata";
-        var versions = ["1.4.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

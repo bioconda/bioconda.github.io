@@ -27,19 +27,18 @@ bioconductor-comet
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-gviz: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-colortools: 
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-corrplot: 
    :depends r-gridextra: 
    :depends r-hash: 
@@ -75,7 +74,7 @@ bioconductor-comet
 
     <script>
         var package = "bioconductor-comet";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.22.0","1.20.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.22.0"];
     </script>
 
 

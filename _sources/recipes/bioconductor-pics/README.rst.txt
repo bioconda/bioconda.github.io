@@ -46,6 +46,7 @@ bioconductor-pics
    :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
    :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:

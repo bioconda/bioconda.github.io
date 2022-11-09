@@ -27,14 +27,14 @@ bioconductor-selex
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
    :depends openjdk: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-rjava: ``>=0.5-0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-selex
 
     <script>
         var package = "bioconductor-selex";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.22.0","1.18.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.22.0"];
     </script>
 
 

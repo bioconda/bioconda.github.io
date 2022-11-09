@@ -28,10 +28,10 @@ bioconductor-pd.atdschip.tiling
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  <code>0.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  </span></summary>
       
 
-      ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-1``,  ``0.20.0-0``
+      ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-1``,  ``0.20.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,14 @@ bioconductor-pd.atdschip.tiling
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-oligoclasses: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.10.0``
    :requirements:
@@ -80,7 +81,7 @@ bioconductor-pd.atdschip.tiling
 
     <script>
         var package = "bioconductor-pd.atdschip.tiling";
-        var versions = ["0.32.0","0.32.0","0.30.0","0.28.0","0.28.0"];
+        var versions = ["0.36.0","0.32.0","0.32.0","0.30.0","0.28.0"];
     </script>
 
 

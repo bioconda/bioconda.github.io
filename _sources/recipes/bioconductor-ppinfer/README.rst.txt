@@ -28,10 +28,10 @@ bioconductor-ppinfer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-1</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-1</code>,  <code>1.8.1-1</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``
 
       
       .. raw:: html
@@ -40,12 +40,13 @@ bioconductor-ppinfer
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-fgsea: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-stringdb: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-yeastexpdata: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-fgsea: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-stringdb: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-yeastexpdata: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
+   :depends r-httr: 
    :depends r-igraph: 
    :depends r-kernlab: 
    :requirements:
@@ -79,7 +80,7 @@ bioconductor-ppinfer
 
     <script>
         var package = "bioconductor-ppinfer";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

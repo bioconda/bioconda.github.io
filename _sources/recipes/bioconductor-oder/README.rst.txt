@@ -27,22 +27,22 @@ bioconductor-oder
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-dasper: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-derfinder: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-megadepth: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-dasper: ``>=1.7.0,<1.8.0``
+   :depends bioconductor-derfinder: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-megadepth: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -84,7 +84,7 @@ bioconductor-oder
 
     <script>
         var package = "bioconductor-oder";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

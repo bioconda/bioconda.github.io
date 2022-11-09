@@ -27,7 +27,7 @@ r-nanopore
       
       
 
-      ``0.2.9-4``,  ``0.2.9-3``,  ``0.2.9-2``,  ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.5-0``
+      ``0.2.9-5``,  ``0.2.9-4``,  ``0.2.9-3``,  ``0.2.9-2``,  ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.5-0``
 
       
 
@@ -42,8 +42,9 @@ r-nanopore
    :depends bioconductor-s4vectors: 
    :depends bioconductor-shortread: 
    :depends bioconductor-variantannotation: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-dplyr: 

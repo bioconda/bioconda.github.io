@@ -27,20 +27,21 @@ bioconductor-cepo
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-patchwork: 
    :depends r-reshape2: 
@@ -76,7 +77,7 @@ bioconductor-cepo
 
     <script>
         var package = "bioconductor-cepo";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

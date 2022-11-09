@@ -27,21 +27,21 @@ bioconductor-sparrow
       
       
 
-      ``1.0.1-0``
+      ``1.4.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-biocset: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocset: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
    :depends r-babelgene: ``>=21.4``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-checkmate: 
    :depends r-circlize: 
    :depends r-data.table: ``>=1.10.4``
@@ -81,7 +81,7 @@ bioconductor-sparrow
 
     <script>
         var package = "bioconductor-sparrow";
-        var versions = ["1.0.1"];
+        var versions = ["1.4.0","1.0.1"];
     </script>
 
 

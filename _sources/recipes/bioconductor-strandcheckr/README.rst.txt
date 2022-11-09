@@ -27,20 +27,20 @@ bioconductor-strandcheckr
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.14.0,<3.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicalignments: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.16.0,<3.17.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
@@ -79,7 +79,7 @@ bioconductor-strandcheckr
 
     <script>
         var package = "bioconductor-strandcheckr";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

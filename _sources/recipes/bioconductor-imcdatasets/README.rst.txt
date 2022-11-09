@@ -27,19 +27,21 @@ bioconductor-imcdatasets
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-cytomapper: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-cytomapper: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-spatialexperiment: ``>=1.8.0,<1.9.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +73,7 @@ bioconductor-imcdatasets
 
     <script>
         var package = "bioconductor-imcdatasets";
-        var versions = ["1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-classifyr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.4-0</code>,  <code>2.2.6-0</code>,  <code>2.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.4-0</code>,  <code>2.2.6-0</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.6-0``,  ``2.2.4-0``,  ``2.0.10-0``,  ``1.12.2-0``
+      ``3.2.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.6-0``,  ``2.2.4-0``,  ``2.0.10-0``,  ``1.12.2-0``
 
       
       .. raw:: html
@@ -41,12 +41,21 @@ bioconductor-classifyr
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-locfit: 
-   :depends r-plyr: 
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-dplyr: 
+   :depends r-generics: 
+   :depends r-ranger: 
+   :depends r-rlang: 
+   :depends r-survival: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +87,7 @@ bioconductor-classifyr
 
     <script>
         var package = "bioconductor-classifyr";
-        var versions = ["2.14.0","2.12.0","2.10.0","2.10.0","2.8.0"];
+        var versions = ["3.2.0","2.14.0","2.12.0","2.10.0","2.10.0"];
     </script>
 
 

@@ -27,18 +27,18 @@ bioconductor-genomicozone
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-ggbio: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-ggbio: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ckmeans.1d.dp: ``>=4.3.0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
@@ -76,7 +76,7 @@ bioconductor-genomicozone
 
     <script>
         var package = "bioconductor-genomicozone";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

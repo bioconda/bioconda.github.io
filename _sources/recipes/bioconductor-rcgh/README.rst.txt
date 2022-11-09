@@ -29,10 +29,10 @@ bioconductor-rcgh
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -41,20 +41,20 @@ bioconductor-rcgh
       
 
    
-   :depends bioconductor-acgh: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-dnacopy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-acgh: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-dnacopy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.14.0,<3.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.16.0,<3.17.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :depends r-lattice: 
    :depends r-mclust: 
@@ -91,7 +91,7 @@ bioconductor-rcgh
 
     <script>
         var package = "bioconductor-rcgh";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.20.0"];
     </script>
 
 

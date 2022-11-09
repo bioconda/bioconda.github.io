@@ -26,16 +26,25 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19.masked
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.993-5``,  ``1.3.993-4``,  ``1.3.993-3``,  ``1.3.993-2``,  ``1.3.993-1``,  ``1.3.993-0``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.993-6</code>,  <code>1.3.993-5</code>,  <code>1.3.993-4</code>,  <code>1.3.993-3</code>,  <code>1.3.993-2</code>,  <code>1.3.993-1</code>,  <code>1.3.993-0</code>,  <code>1.3.99-3</code>,  <code>1.3.99-2</code>,  </span></summary>
+      
 
+      ``1.3.993-6``,  ``1.3.993-5``,  ``1.3.993-4``,  ``1.3.993-3``,  ``1.3.993-2``,  ``1.3.993-1``,  ``1.3.993-0``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

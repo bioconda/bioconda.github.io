@@ -27,18 +27,18 @@ bioconductor-ripat
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-karyoploter: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-regioner: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-karyoploter: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-regioner: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: ``>=3.1.0``
    :depends r-openxlsx: ``>=4.1.4``
    :depends r-plyr: ``>=1.8.4``
@@ -74,7 +74,7 @@ bioconductor-ripat
 
     <script>
         var package = "bioconductor-ripat";
-        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

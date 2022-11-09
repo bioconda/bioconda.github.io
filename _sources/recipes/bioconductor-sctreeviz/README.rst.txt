@@ -27,20 +27,20 @@ bioconductor-sctreeviz
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-epivizr: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-epivizrdata: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-epivizrserver: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-epivizr: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-epivizrdata: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-epivizrserver: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-scater: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-scran: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-clustree: 
    :depends r-data.table: 
    :depends r-digest: 
@@ -83,7 +83,7 @@ bioconductor-sctreeviz
 
     <script>
         var package = "bioconductor-sctreeviz";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

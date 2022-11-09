@@ -27,13 +27,13 @@ r-leapp
       
       
 
-      ``1.3-0``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.3-1``,  ``1.3-0``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
    :depends bioconductor-sva: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-corpcor: 
    :depends r-mass: 
    :requirements:
@@ -67,7 +67,7 @@ r-leapp
 
     <script>
         var package = "r-leapp";
-        var versions = ["1.3","1.2","1.2","1.2","1.2"];
+        var versions = ["1.3","1.3","1.2","1.2","1.2"];
     </script>
 
 

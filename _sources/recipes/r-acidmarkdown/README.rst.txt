@@ -28,14 +28,15 @@ r-acidmarkdown
       
       
 
-      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.5-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
+   :depends r-acidgenerics: ``>=0.6.4``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-goalie: 
-   :depends r-knitr: 
+   :depends r-goalie: ``>=0.6.6``
+   :depends r-knitr: ``>=1.40``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +68,7 @@ r-acidmarkdown
 
     <script>
         var package = "r-acidmarkdown";
-        var versions = ["0.1.6","0.1.6","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.2.5","0.1.6","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-psichomics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.2-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.13.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.2-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.13.1-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.20.2-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.13.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+      ``1.24.0-0``,  ``1.20.2-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.13.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -40,18 +40,18 @@ bioconductor-psichomics
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-recount: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-recount: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cluster: 
    :depends r-colourpicker: 
    :depends r-data.table: 
@@ -111,7 +111,7 @@ bioconductor-psichomics
 
     <script>
         var package = "bioconductor-psichomics";
-        var versions = ["1.20.2","1.20.1","1.20.0","1.18.1","1.16.0"];
+        var versions = ["1.24.0","1.20.2","1.20.1","1.20.0","1.18.1"];
     </script>
 
 

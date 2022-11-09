@@ -29,10 +29,10 @@ bioconductor-cummerbund
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.24.0-0</code>,  </span></summary>
       
 
-      ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.1-1``,  ``2.12.1-0``,  ``2.8.2-1``,  ``2.8.2-0``
+      ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.1-1``,  ``2.12.1-0``,  ``2.8.2-1``,  ``2.8.2-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-cummerbund
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-gviz: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-fastcluster: 
    :depends r-ggplot2: 
    :depends r-plyr: 
@@ -83,7 +83,7 @@ bioconductor-cummerbund
 
     <script>
         var package = "bioconductor-cummerbund";
-        var versions = ["2.36.0","2.34.0","2.32.0","2.32.0","2.30.0"];
+        var versions = ["2.40.0","2.36.0","2.34.0","2.32.0","2.32.0"];
     </script>
 
 

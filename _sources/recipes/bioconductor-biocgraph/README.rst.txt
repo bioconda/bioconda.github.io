@@ -29,10 +29,10 @@ bioconductor-biocgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.44.0-0</code>,  </span></summary>
       
 
-      ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
+      ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-biocgraph
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-geneplotter: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-geneplotter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ bioconductor-biocgraph
 
     <script>
         var package = "bioconductor-biocgraph";
-        var versions = ["1.56.0","1.54.0","1.52.0","1.52.0","1.50.0"];
+        var versions = ["1.60.0","1.56.0","1.54.0","1.52.0","1.52.0"];
     </script>
 
 

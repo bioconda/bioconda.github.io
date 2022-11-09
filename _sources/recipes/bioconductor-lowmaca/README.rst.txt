@@ -27,21 +27,22 @@ bioconductor-lowmaca
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-cbioportaldata: ``>=2.10.0,<2.11.0``
    :depends bioconductor-lowmacaannotation: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-motifstack: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-motifstack: ``>=1.42.0,<1.43.0``
    :depends clustalo: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-cgdsr: 
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-gridbase: 
    :depends r-httr: 
+   :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
    :depends r-stringr: 
@@ -76,7 +77,7 @@ bioconductor-lowmaca
 
     <script>
         var package = "bioconductor-lowmaca";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.20.0"];
     </script>
 
 

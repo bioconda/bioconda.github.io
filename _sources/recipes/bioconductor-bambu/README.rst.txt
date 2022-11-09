@@ -26,28 +26,36 @@ bioconductor-bambu
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  </span></summary>
+      
 
+      ``3.0.1-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicalignments: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-rcpp: 
@@ -85,7 +93,7 @@ bioconductor-bambu
 
     <script>
         var package = "bioconductor-bambu";
-        var versions = ["2.0.6","2.0.6","2.0.5","2.0.3","2.0.0"];
+        var versions = ["3.0.1","2.0.6","2.0.6","2.0.5","2.0.3"];
     </script>
 
 

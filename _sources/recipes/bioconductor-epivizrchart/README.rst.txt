@@ -27,15 +27,15 @@ bioconductor-epivizrchart
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-epivizrdata: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-epivizrserver: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-epivizrdata: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-epivizrserver: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-htmltools: 
    :depends r-rjson: 
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-epivizrchart
 
     <script>
         var package = "bioconductor-epivizrchart";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
     </script>
 
 

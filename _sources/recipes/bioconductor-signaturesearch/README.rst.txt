@@ -27,30 +27,31 @@ bioconductor-signaturesearch
       
       
 
-      ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-fgsea: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
-   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-dose: ``>=3.24.0,<3.25.0``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-fgsea: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-reactome.db: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-fastmatch: 
@@ -62,6 +63,7 @@ bioconductor-signaturesearch
    :depends r-reshape2: 
    :depends r-rsqlite: 
    :depends r-scales: 
+   :depends r-tibble: 
    :depends r-visnetwork: 
    :requirements:
 
@@ -94,7 +96,7 @@ bioconductor-signaturesearch
 
     <script>
         var package = "bioconductor-signaturesearch";
-        var versions = ["1.8.2","1.8.2","1.8.0","1.6.1","1.4.3"];
+        var versions = ["1.12.0","1.8.2","1.8.2","1.8.0","1.6.1"];
     </script>
 
 

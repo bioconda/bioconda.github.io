@@ -27,17 +27,18 @@ bioconductor-nestlink
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-shortread: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gplots: ``>=3.0``
    :depends r-protviz: ``>=0.4``
    :requirements:
@@ -71,7 +72,7 @@ bioconductor-nestlink
 
     <script>
         var package = "bioconductor-nestlink";
-        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["1.14.0","1.10.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

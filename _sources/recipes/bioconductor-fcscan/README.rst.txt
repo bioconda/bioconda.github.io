@@ -27,17 +27,17 @@ bioconductor-fcscan
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-plyr: 
@@ -72,7 +72,7 @@ bioconductor-fcscan
 
     <script>
         var package = "bioconductor-fcscan";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

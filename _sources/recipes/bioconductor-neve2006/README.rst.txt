@@ -26,17 +26,26 @@ bioconductor-neve2006
    :versions:
       
       
+      .. raw:: html
 
-      ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  </span></summary>
+      
 
+      ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotate: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-annotate: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-data-packages: ``>=20221108``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +77,7 @@ bioconductor-neve2006
 
     <script>
         var package = "bioconductor-neve2006";
-        var versions = ["0.32.0","0.32.0","0.30.0","0.28.0","0.28.0"];
+        var versions = ["0.36.0","0.32.0","0.32.0","0.30.0","0.28.0"];
     </script>
 
 

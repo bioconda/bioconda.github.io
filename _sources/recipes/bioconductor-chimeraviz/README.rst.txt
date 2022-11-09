@@ -28,10 +28,10 @@ bioconductor-chimeraviz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.0.4-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -40,24 +40,24 @@ bioconductor-chimeraviz
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-annotationfilter: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-ensembldb: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-gviz: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-annotationfilter: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-ensembldb: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicalignments: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends bowtie2: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -99,7 +99,7 @@ bioconductor-chimeraviz
 
     <script>
         var package = "bioconductor-chimeraviz";
-        var versions = ["1.20.0","1.18.0","1.16.1","1.16.0","1.14.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.1","1.16.0"];
     </script>
 
 

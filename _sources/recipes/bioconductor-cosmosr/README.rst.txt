@@ -27,29 +27,21 @@ bioconductor-cosmosr
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-carnival: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-dorothea: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-carnival: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-dorothea: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
-   :depends r-ggplot2: 
    :depends r-igraph: 
-   :depends r-magrittr: 
-   :depends r-plyr: 
+   :depends r-progress: 
    :depends r-purrr: 
-   :depends r-readr: 
    :depends r-rlang: 
-   :depends r-scales: 
    :depends r-stringr: 
-   :depends r-tibble: 
    :depends r-visnetwork: 
    :requirements:
 
@@ -82,7 +74,7 @@ bioconductor-cosmosr
 
     <script>
         var package = "bioconductor-cosmosr";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

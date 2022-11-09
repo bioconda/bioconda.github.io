@@ -27,17 +27,17 @@ bioconductor-rnaagecalc
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-recount: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-recount: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ggplot2: 
    :requirements:
 
@@ -70,7 +70,7 @@ bioconductor-rnaagecalc
 
     <script>
         var package = "bioconductor-rnaagecalc";
-        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0","1.2.0"];
     </script>
 
 

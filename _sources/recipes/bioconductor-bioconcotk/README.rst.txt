@@ -27,21 +27,21 @@ bioconductor-bioconcotk
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-curatedtcgadata: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-curatedtcgadata: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bigrquery: 
    :depends r-car: 
    :depends r-dbi: 
@@ -86,7 +86,7 @@ bioconductor-bioconcotk
 
     <script>
         var package = "bioconductor-bioconcotk";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
     </script>
 
 

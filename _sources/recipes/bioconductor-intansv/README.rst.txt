@@ -27,16 +27,16 @@ bioconductor-intansv
       
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-ggbio: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-ggbio: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-plyr: 
    :requirements:
 
@@ -69,7 +69,7 @@ bioconductor-intansv
 
     <script>
         var package = "bioconductor-intansv";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.28.0"];
+        var versions = ["1.38.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

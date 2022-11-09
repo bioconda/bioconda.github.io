@@ -26,25 +26,31 @@ bioconductor-adacgh2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.34.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.34.0-2</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  </span></summary>
+      
 
+      ``2.38.0-0``,  ``2.34.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-acgh: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-dnacopy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-glad: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-snapcgh: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-tilingarray: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-acgh: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-dnacopy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-glad: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-snapcgh: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-tilingarray: ``>=1.76.0,<1.77.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bit: 
    :depends r-cluster: 
    :depends r-ff: 
-   :depends r-ffbase: 
    :depends r-waveslim: 
    :requirements:
 
@@ -77,7 +83,7 @@ bioconductor-adacgh2
 
     <script>
         var package = "bioconductor-adacgh2";
-        var versions = ["2.34.0","2.34.0","2.34.0","2.32.0","2.30.0"];
+        var versions = ["2.38.0","2.34.0","2.34.0","2.34.0","2.32.0"];
     </script>
 
 

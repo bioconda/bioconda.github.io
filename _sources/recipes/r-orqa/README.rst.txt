@@ -27,15 +27,15 @@ r-orqa
       
       
 
-      ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``0.2.1-8``,  ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
 
    
    :depends bioconductor-genefilter: ``>=1.24.3``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gtools: ``>=2.6.1``
    :depends r-nlme: ``>=3.1_96``
    :depends r-rcpp: ``>=0.8.9``

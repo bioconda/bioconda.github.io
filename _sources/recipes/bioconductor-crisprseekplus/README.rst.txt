@@ -29,10 +29,10 @@ bioconductor-crisprseekplus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-crisprseekplus
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-crisprseek: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-guideseq: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-crisprseek: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-guideseq: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-dt: 
    :depends r-hash: 
@@ -84,7 +84,7 @@ bioconductor-crisprseekplus
 
     <script>
         var package = "bioconductor-crisprseekplus";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

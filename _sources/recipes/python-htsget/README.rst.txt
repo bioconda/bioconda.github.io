@@ -27,7 +27,7 @@ python-htsget
       
       
 
-      ``0.2.5-1``,  ``0.2.5-0``
+      ``0.2.6-0``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
 
@@ -67,7 +67,7 @@ python-htsget
 
     <script>
         var package = "python-htsget";
-        var versions = ["0.2.5","0.2.5"];
+        var versions = ["0.2.6","0.2.5","0.2.5"];
     </script>
 
 

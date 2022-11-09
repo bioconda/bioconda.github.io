@@ -26,15 +26,24 @@ bioconductor-bsgenome.vvinifera.urgi.iggp12xv0
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1-9``,  ``0.1-8``,  ``0.1-7``,  ``0.1-6``,  ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.1-10</code>,  <code>0.1-9</code>,  <code>0.1-8</code>,  <code>0.1-7</code>,  <code>0.1-6</code>,  <code>0.1-5</code>,  <code>0.1-4</code>,  <code>0.1-3</code>,  <code>0.1-2</code>,  </span></summary>
+      
 
+      ``0.1-10``,  ``0.1-9``,  ``0.1-8``,  ``0.1-7``,  ``0.1-6``,  ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-data-packages: ``>=20221102``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation

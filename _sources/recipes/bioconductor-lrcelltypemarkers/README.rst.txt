@@ -27,14 +27,15 @@ bioconductor-lrcelltypemarkers
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ bioconductor-lrcelltypemarkers
 
     <script>
         var package = "bioconductor-lrcelltypemarkers";
-        var versions = ["1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

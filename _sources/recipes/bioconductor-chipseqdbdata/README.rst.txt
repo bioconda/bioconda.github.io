@@ -27,17 +27,18 @@ bioconductor-chipseqdbdata
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-data-packages: ``>=20221108``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ bioconductor-chipseqdbdata
 
     <script>
         var package = "bioconductor-chipseqdbdata";
-        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["1.14.0","1.10.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

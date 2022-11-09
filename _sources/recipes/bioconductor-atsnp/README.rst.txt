@@ -27,20 +27,20 @@ bioconductor-atsnp
       
       
 
-      ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-motifstack: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-motifstack: ``>=1.42.0,<1.43.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-lifecycle: 
@@ -78,7 +78,7 @@ bioconductor-atsnp
 
     <script>
         var package = "bioconductor-atsnp";
-        var versions = ["1.10.0","1.10.0","1.10.0","1.8.0","1.3.0"];
+        var versions = ["1.14.0","1.10.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 
