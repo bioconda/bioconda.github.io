@@ -28,10 +28,10 @@ bioconductor-data-packages
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20221110-0</code>,  <code>20221109-2</code>,  <code>20221109-1</code>,  <code>20221109-0</code>,  <code>20221108-1</code>,  <code>20221108-0</code>,  <code>20221107-1</code>,  <code>20221106-3</code>,  <code>20221105-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20221110-1</code>,  <code>20221110-0</code>,  <code>20221109-2</code>,  <code>20221109-1</code>,  <code>20221109-0</code>,  <code>20221108-1</code>,  <code>20221108-0</code>,  <code>20221107-1</code>,  <code>20221106-3</code>,  </span></summary>
       
 
-      ``20221110-0``,  ``20221109-2``,  ``20221109-1``,  ``20221109-0``,  ``20221108-1``,  ``20221108-0``,  ``20221107-1``,  ``20221106-3``,  ``20221105-1``,  ``20221104-2``,  ``20221103-0``,  ``20221027-0``
+      ``20221110-1``,  ``20221110-0``,  ``20221109-2``,  ``20221109-1``,  ``20221109-0``,  ``20221108-1``,  ``20221108-0``,  ``20221107-1``,  ``20221106-3``,  ``20221105-1``,  ``20221104-2``,  ``20221103-0``,  ``20221027-0``
 
       
       .. raw:: html
@@ -74,7 +74,7 @@ bioconductor-data-packages
 
     <script>
         var package = "bioconductor-data-packages";
-        var versions = ["20221110","20221109","20221109","20221109","20221108"];
+        var versions = ["20221110","20221110","20221109","20221109","20221109"];
     </script>
 
 

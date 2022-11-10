@@ -10,7 +10,7 @@ fastk
    :replaces_section_title:
    :noindex:
 
-   A tool.
+   FastK is a k‑mer counter that is optimized for processing high quality DNA assembly data sets such as those produced with an Illumina instrument or a PacBio run in HiFi mode.
 
    :homepage: https://github.com/thegenemyers/FASTK
    :license: MIT
@@ -27,7 +27,7 @@ fastk
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
@@ -68,7 +68,7 @@ fastk
 
     <script>
         var package = "fastk";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

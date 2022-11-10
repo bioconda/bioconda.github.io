@@ -29,10 +29,10 @@ bioconductor-affycoretools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.1-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.1-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-0</code>,  </span></summary>
       
 
-      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.2-0``,  ``1.50.6-0``
+      ``1.70.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.2-0``,  ``1.50.6-0``
 
       
       .. raw:: html
@@ -41,19 +41,19 @@ bioconductor-affycoretools
       
 
    
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-gcrma: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-glimma: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-gostats: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-reportingtools: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-gcrma: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-glimma: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-gostats: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-oligoclasses: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-reportingtools: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: 
    :depends r-ggplot2: 
    :depends r-gplots: 
@@ -92,7 +92,7 @@ bioconductor-affycoretools
 
     <script>
         var package = "bioconductor-affycoretools";
-        var versions = ["1.66.0","1.64.0","1.62.0","1.62.0","1.60.1"];
+        var versions = ["1.70.0","1.66.0","1.64.0","1.62.0","1.62.0"];
     </script>
 
 
