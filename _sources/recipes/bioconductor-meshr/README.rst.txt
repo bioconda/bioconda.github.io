@@ -27,17 +27,17 @@ bioconductor-meshr
       
       
 
-      ``2.0.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.18.0-0``
+      ``2.4.0-0``,  ``2.0.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-category: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-meshdbi: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-category: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-meshdbi: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-fdrtool: 
    :depends r-knitr: 
    :depends r-markdown: 
@@ -74,7 +74,7 @@ bioconductor-meshr
 
     <script>
         var package = "bioconductor-meshr";
-        var versions = ["2.0.0","1.28.0","1.26.0","1.24.1","1.22.0"];
+        var versions = ["2.4.0","2.0.0","1.28.0","1.26.0","1.24.1"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-metalonda
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.8-3</code>,  <code>1.1.8-2</code>,  <code>1.1.8-1</code>,  <code>1.1.8-0</code>,  <code>1.1.5-0</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.8-4</code>,  <code>1.1.8-3</code>,  <code>1.1.8-2</code>,  <code>1.1.8-1</code>,  <code>1.1.8-0</code>,  <code>1.1.5-0</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  </span></summary>
       
 
-      ``1.1.8-3``,  ``1.1.8-2``,  ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.5-0``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.8-4``,  ``1.1.8-3``,  ``1.1.8-2``,  ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.5-0``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ r-metalonda
    :depends bioconductor-deseq2: 
    :depends bioconductor-edger: 
    :depends bioconductor-metagenomeseq: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-doparallel: 
    :depends r-ggplot2: 
    :depends r-gss: 
@@ -81,7 +81,7 @@ r-metalonda
 
     <script>
         var package = "r-metalonda";
-        var versions = ["1.1.8","1.1.8","1.1.8","1.1.8","1.1.5"];
+        var versions = ["1.1.8","1.1.8","1.1.8","1.1.8","1.1.8"];
     </script>
 
 

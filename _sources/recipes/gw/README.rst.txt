@@ -27,7 +27,7 @@ gw
       
       
 
-      ``0.1.7-0``
+      ``0.1.8-0``,  ``0.1.7-0``
 
       
 
@@ -71,7 +71,7 @@ gw
 
     <script>
         var package = "gw";
-        var versions = ["0.1.7"];
+        var versions = ["0.1.8","0.1.7"];
     </script>
 
 

@@ -33,10 +33,10 @@ r-sartools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.4-0</code>,  <code>1.7.3-3</code>,  <code>1.7.3-2</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.4-0</code>,  <code>1.7.3-3</code>,  <code>1.7.3-2</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-0</code>,  </span></summary>
       
 
-      ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.4-0``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.6-3``,  ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.4.1-0``,  ``1.3.2-0``,  ``1.2.0-0``
+      ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.4-0``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.6-3``,  ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.4.1-0``,  ``1.3.2-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ r-sartools
    :depends bioconductor-edger: ``>=3.34.0``
    :depends bioconductor-summarizedexperiment: ``>=1.6``
    :depends r-ashr: ``>=2.2-54``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bit64: 
    :depends r-blob: 
    :depends r-ggally: 
@@ -92,7 +92,7 @@ r-sartools
 
     <script>
         var package = "r-sartools";
-        var versions = ["1.8.1","1.8.0","1.7.4","1.7.3","1.7.3"];
+        var versions = ["1.8.1","1.8.1","1.8.0","1.7.4","1.7.3"];
     </script>
 
 

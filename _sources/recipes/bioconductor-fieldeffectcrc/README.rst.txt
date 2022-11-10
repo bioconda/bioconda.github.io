@@ -27,18 +27,19 @@ bioconductor-fieldeffectcrc
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-data-packages: ``>=20221110``
+   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-runit: 
    :requirements:
 
@@ -71,7 +72,7 @@ bioconductor-fieldeffectcrc
 
     <script>
         var package = "bioconductor-fieldeffectcrc";
-        var versions = ["1.4.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

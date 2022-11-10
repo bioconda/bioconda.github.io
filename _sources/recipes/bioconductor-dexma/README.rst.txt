@@ -27,21 +27,23 @@ bioconductor-dexma
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-dexmadata: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-snpstats: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-dexmadata: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-snpstats: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-bnstruct: 
    :depends r-pheatmap: 
    :depends r-plyr: 
+   :depends r-rcolorbrewer: 
    :depends r-scales: 
    :depends r-swamp: 
    :requirements:
@@ -75,7 +77,7 @@ bioconductor-dexma
 
     <script>
         var package = "bioconductor-dexma";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

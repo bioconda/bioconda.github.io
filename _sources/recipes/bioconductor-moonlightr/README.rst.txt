@@ -27,19 +27,19 @@ bioconductor-moonlightr
       
       
 
-      ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.22.0,<2.23.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-dose: ``>=3.24.0,<3.25.0``
+   :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.25.0,<2.26.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-circlize: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -80,7 +80,7 @@ bioconductor-moonlightr
 
     <script>
         var package = "bioconductor-moonlightr";
-        var versions = ["1.19.0","1.18.0","1.16.0","1.16.0","1.12.0"];
+        var versions = ["1.24.0","1.19.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

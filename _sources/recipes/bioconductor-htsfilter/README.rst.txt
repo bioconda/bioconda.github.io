@@ -26,17 +26,25 @@ bioconductor-htsfilter
    :versions:
       
       
+      .. raw:: html
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+      
 
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ bioconductor-htsfilter
 
     <script>
         var package = "bioconductor-htsfilter";
-        var versions = ["1.34.0","1.32.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.38.0","1.34.0","1.32.0","1.28.0","1.26.0"];
     </script>
 
 

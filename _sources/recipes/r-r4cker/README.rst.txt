@@ -27,14 +27,14 @@ r-r4cker
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.0.0.9000-0``
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.0.0.9000-0``
 
       
 
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-genomeinfodbdata: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-depmixs4: 
    :depends r-ggplot2: 
    :depends r-mass: 
@@ -72,7 +72,7 @@ r-r4cker
 
     <script>
         var package = "r-r4cker";
-        var versions = ["1.0","1.0","1.0","1.0","0.0.0.9000"];
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ r-acidgenomes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.20-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  <code>0.2.16-0</code>,  <code>0.2.15-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.3.0-0</code>,  <code>0.2.20-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  <code>0.2.16-0</code>,  <code>0.2.15-0</code>,  <code>0.2.14-0</code>,  </span></summary>
       
 
-      ``0.3.0-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,27 +41,27 @@ r-acidgenomes
       
 
    
-   :depends bioconductor-annotationdbi: 
-   :depends bioconductor-annotationhub: 
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biomart: 
-   :depends bioconductor-ensdb.hsapiens.v75: 
-   :depends bioconductor-ensembldb: 
-   :depends bioconductor-genomeinfodb: 
-   :depends bioconductor-genomicfeatures: 
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-iranges: 
-   :depends bioconductor-s4vectors: 
-   :depends r-acidbase: ``>=0.5.0``
-   :depends r-acidcli: ``>=0.2.0``
-   :depends r-acidgenerics: ``>=0.6.0``
-   :depends r-acidplyr: ``>=0.2.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-goalie: ``>=0.6.0``
-   :depends r-httr: 
-   :depends r-pipette: ``>=0.8.0``
-   :depends r-stringr: 
-   :depends r-syntactic: ``>=0.5.1``
+   :depends bioconductor-annotationdbi: ``>=1.58.0``
+   :depends bioconductor-annotationhub: ``>=3.4.0``
+   :depends bioconductor-biocgenerics: ``>=0.42.0``
+   :depends bioconductor-biomart: ``>=2.52.0``
+   :depends bioconductor-ensembldb: ``>=2.20.2``
+   :depends bioconductor-genomeinfodb: ``>=1.32.4``
+   :depends bioconductor-genomicfeatures: ``>=1.48.4``
+   :depends bioconductor-genomicranges: ``>=1.48.0``
+   :depends bioconductor-iranges: ``>=2.30.1``
+   :depends bioconductor-s4vectors: ``>=0.34.0``
+   :depends r-acidbase: ``>=0.6.8``
+   :depends r-acidcli: ``>=0.2.4``
+   :depends r-acidgenerics: ``>=0.6.4``
+   :depends r-acidplyr: ``>=0.3.2``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-goalie: ``>=0.6.6``
+   :depends r-pipette: ``>=0.10.0``
+   :depends r-rcurl: ``>=1.98``
+   :depends r-stringi: ``>=1.7.8``
+   :depends r-syntactic: ``>=0.6.3``
+   :depends r-withr: ``>=2.5.0``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +93,7 @@ r-acidgenomes
 
     <script>
         var package = "r-acidgenomes";
-        var versions = ["0.3.0","0.2.20","0.2.19","0.2.18","0.2.17"];
+        var versions = ["0.4.4","0.3.0","0.2.20","0.2.19","0.2.18"];
     </script>
 
 

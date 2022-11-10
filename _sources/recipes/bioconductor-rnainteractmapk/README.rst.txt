@@ -27,16 +27,17 @@ bioconductor-rnainteractmapk
       
       
 
-      ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.36.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-rnainteract: ``>=1.42.0,<1.43.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-data-packages: ``>=20221110``
+   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-rnainteract: ``>=1.46.0,<1.47.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-fields: 
    :depends r-gdata: 
    :depends r-lattice: 
@@ -73,7 +74,7 @@ bioconductor-rnainteractmapk
 
     <script>
         var package = "bioconductor-rnainteractmapk";
-        var versions = ["1.32.0","1.32.0","1.30.0","1.25.0","1.24.0"];
+        var versions = ["1.36.0","1.32.0","1.32.0","1.30.0","1.25.0"];
     </script>
 
 

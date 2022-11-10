@@ -27,14 +27,14 @@ bioconductor-props
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bnlearn: 
    :depends r-reshape2: 
    :requirements:
@@ -68,7 +68,7 @@ bioconductor-props
 
     <script>
         var package = "bioconductor-props";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
     </script>
 
 

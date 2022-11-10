@@ -27,28 +27,26 @@ bioconductor-ewce
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-ewcedata: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-cowplot: 
-   :depends r-future: 
-   :depends r-ggdendro: 
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-ewcedata: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-orthogene: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-ggplot2: 
-   :depends r-gridextra: 
    :depends r-hgnchelper: 
    :depends r-matrix: 
    :depends r-reshape2: 
    :depends r-rnomni: ``>=1.0``
-   :depends r-scales: 
    :depends r-stringr: 
    :requirements:
 
@@ -81,7 +79,7 @@ bioconductor-ewce
 
     <script>
         var package = "bioconductor-ewce";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

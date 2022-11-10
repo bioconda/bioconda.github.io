@@ -27,24 +27,25 @@ bioconductor-spatialheatmap
       
       
 
-      ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-distinct: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-rols: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-av: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-scater: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-scran: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-scuttle: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-dynamictreecut: 
    :depends r-flashclust: 
    :depends r-ggdendro: 
@@ -55,13 +56,14 @@ bioconductor-spatialheatmap
    :depends r-grimport: 
    :depends r-htmlwidgets: 
    :depends r-igraph: 
-   :depends r-magick: 
+   :depends r-matrix: 
    :depends r-plotly: 
    :depends r-rappdirs: 
    :depends r-reshape2: 
    :depends r-rsvg: 
    :depends r-shiny: 
    :depends r-shinydashboard: 
+   :depends r-tibble: 
    :depends r-upsetr: 
    :depends r-visnetwork: 
    :depends r-wgcna: 
@@ -98,7 +100,7 @@ bioconductor-spatialheatmap
 
     <script>
         var package = "bioconductor-spatialheatmap";
-        var versions = ["2.0.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["2.4.0","2.0.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

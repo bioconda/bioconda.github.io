@@ -27,20 +27,20 @@ bioconductor-animalcules
       
       
 
-      ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.6-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.6-0``
 
       
 
    
-   :depends bioconductor-biomformat: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biomformat: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends r-ape: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-caret: 
    :depends r-covr: 
    :depends r-dplyr: 
@@ -95,7 +95,7 @@ bioconductor-animalcules
 
     <script>
         var package = "bioconductor-animalcules";
-        var versions = ["1.10.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-globalancova
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.12.0-2</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  <code>4.8.0-0</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.16.0-0</code>,  <code>4.12.0-2</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  <code>4.8.0-0</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  </span></summary>
       
 
-      ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
+      ``4.16.0-0``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-globalancova
       
 
    
-   :depends bioconductor-annotate: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-globaltest: ``>=5.48.0,<5.49.0``
-   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-annotate: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-globaltest: ``>=5.52.0,<5.53.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-corpcor: 
    :depends r-dendextend: 
    :depends r-vgam: 
@@ -84,7 +84,7 @@ bioconductor-globalancova
 
     <script>
         var package = "bioconductor-globalancova";
-        var versions = ["4.12.0","4.12.0","4.12.0","4.10.0","4.8.0"];
+        var versions = ["4.16.0","4.12.0","4.12.0","4.12.0","4.10.0"];
     </script>
 
 

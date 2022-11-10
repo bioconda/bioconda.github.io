@@ -27,15 +27,15 @@ bioconductor-sigcheck
       
       
 
-      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+      ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-mlinterfaces: ``>=1.74.0,<1.75.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-mlinterfaces: ``>=1.78.0,<1.79.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-e1071: 
    :depends r-survival: 
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-sigcheck
 
     <script>
         var package = "bioconductor-sigcheck";
-        var versions = ["2.26.0","2.24.0","2.22.0","2.22.0","2.20.0"];
+        var versions = ["2.30.0","2.26.0","2.24.0","2.22.0","2.22.0"];
     </script>
 
 

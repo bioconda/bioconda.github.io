@@ -26,20 +26,28 @@ bioconductor-cellhts2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.58.0-0``,  ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.62.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  </span></summary>
+      
 
+      ``2.62.0-0``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-category: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-splots: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-category: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-splots: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-vsn: ``>=3.66.0,<3.67.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-hwriter: 
    :depends r-locfit: 
    :depends r-rcolorbrewer: 
@@ -74,7 +82,7 @@ bioconductor-cellhts2
 
     <script>
         var package = "bioconductor-cellhts2";
-        var versions = ["2.58.0","2.56.0","2.52.0","2.50.0","2.48.0"];
+        var versions = ["2.62.0","2.58.0","2.56.0","2.52.0","2.50.0"];
     </script>
 
 

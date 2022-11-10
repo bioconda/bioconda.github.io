@@ -27,47 +27,51 @@ bioconductor-singlecelltk
       
       
 
-      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.3-0``
+      ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.3-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-batchelor: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-celda: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-celldex: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-dropletutils: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-fishpond: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-gsva: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gsvadata: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-mast: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-scdblfinder: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-scds: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-scmerge: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-scrnaseq: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-singler: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-tenxpbmcdata: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-tximport: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-zinbwave: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-batchelor: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-celda: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-celldex: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-dropletutils: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-ensembldb: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-fishpond: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-ggtree: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-gsva: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-gsvadata: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-mast: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-multtest: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-scater: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-scdblfinder: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-scds: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-scmerge: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-scran: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-scrnaseq: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-scuttle: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-singler: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-tenxpbmcdata: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-trajectoryutils: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-tscan: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-tximport: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-zinbwave: ``>=1.20.0,<1.21.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-circlize: 
    :depends r-cluster: 
    :depends r-colorspace: 
@@ -90,8 +94,8 @@ bioconductor-singlecelltk
    :depends r-metap: 
    :depends r-msigdbr: 
    :depends r-plotly: 
+   :depends r-plyr: 
    :depends r-r.utils: 
-   :depends r-rcolorbrewer: 
    :depends r-reshape2: 
    :depends r-reticulate: ``>=1.14``
    :depends r-rlang: 
@@ -103,6 +107,7 @@ bioconductor-singlecelltk
    :depends r-shinyalert: 
    :depends r-shinycssloaders: 
    :depends r-shinyjs: 
+   :depends r-soupx: 
    :depends r-tibble: 
    :depends r-vam: ``>=0.5.3``
    :depends r-withr: 
@@ -138,7 +143,7 @@ bioconductor-singlecelltk
 
     <script>
         var package = "bioconductor-singlecelltk";
-        var versions = ["2.4.0","2.2.0","2.0.0","2.0.0","1.8.0"];
+        var versions = ["2.8.0","2.4.0","2.2.0","2.0.0","2.0.0"];
     </script>
 
 

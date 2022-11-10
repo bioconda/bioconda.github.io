@@ -29,10 +29,10 @@ r-pipette
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.15-2``,  ``0.5.15-1``,  ``0.5.15-0``,  ``0.5.14-2``,  ``0.5.14-0``,  ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.10.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.15-2``,  ``0.5.15-1``,  ``0.5.15-0``,  ``0.5.14-2``,  ``0.5.14-0``,  ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,34 +41,34 @@ r-pipette
       
 
    
-   :depends bioconductor-biocfilecache: 
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biocio: 
-   :depends bioconductor-biostrings: 
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-iranges: 
-   :depends bioconductor-rtracklayer: 
-   :depends bioconductor-s4vectors: 
-   :depends r-acidbase: ``>=0.5.0``
-   :depends r-acidcli: ``>=0.2.0``
-   :depends r-acidgenerics: ``>=0.6.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-data.table: 
-   :depends r-digest: 
-   :depends r-goalie: ``>=0.6.0``
-   :depends r-httr: 
-   :depends r-jsonlite: 
-   :depends r-matrix: 
-   :depends r-pzfx: 
-   :depends r-rcurl: 
-   :depends r-readr: 
-   :depends r-readxl: 
-   :depends r-rio: 
-   :depends r-stringi: 
-   :depends r-stringr: 
-   :depends r-syntactic: ``>=0.5.1``
-   :depends r-tibble: 
-   :depends r-yaml: 
+   :depends bioconductor-biocfilecache: ``>=2.4.0``
+   :depends bioconductor-biocgenerics: ``>=0.42.0``
+   :depends bioconductor-biocio: ``>=1.6.0``
+   :depends bioconductor-biostrings: ``>=2.64.1``
+   :depends bioconductor-genomicranges: ``>=1.48.0``
+   :depends bioconductor-iranges: ``>=2.30.1``
+   :depends bioconductor-rtracklayer: ``>=1.56.1``
+   :depends bioconductor-s4vectors: ``>=0.34.0``
+   :depends r-acidbase: ``>=0.6.8``
+   :depends r-acidcli: ``>=0.2.4``
+   :depends r-acidgenerics: ``>=0.6.4``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-data.table: ``>=1.14.4``
+   :depends r-digest: ``>=0.6.30``
+   :depends r-goalie: ``>=0.6.6``
+   :depends r-httr: ``>=1.4.4``
+   :depends r-jsonlite: ``>=1.8.3``
+   :depends r-matrix: ``>=1.5.1``
+   :depends r-ontologyindex: ``>=2.10``
+   :depends r-pzfx: ``>=0.3.0``
+   :depends r-rcurl: ``>=1.98``
+   :depends r-readr: ``>=2.1.3``
+   :depends r-readxl: ``>=1.4.1``
+   :depends r-rio: ``>=0.5.29``
+   :depends r-stringi: ``>=1.7.8``
+   :depends r-syntactic: ``>=0.6.3``
+   :depends r-tibble: ``>=3.1.8``
+   :depends r-yaml: ``>=2.3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +100,7 @@ r-pipette
 
     <script>
         var package = "r-pipette";
-        var versions = ["0.8.0","0.8.0","0.7.2","0.7.1","0.7.0"];
+        var versions = ["0.10.0","0.8.0","0.8.0","0.7.2","0.7.1"];
     </script>
 
 

@@ -27,22 +27,22 @@ bioconductor-easier
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-dorothea: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-easierdata: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-progeny: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-quantiseqr: ``>=1.2.0,<1.3.0``
-   :depends r-arules: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-dorothea: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-easierdata: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-progeny: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-quantiseqr: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-coin: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-ggpubr: 
    :depends r-ggrepel: 
    :depends r-matrixstats: 
    :depends r-reshape2: 
@@ -80,7 +80,7 @@ bioconductor-easier
 
     <script>
         var package = "bioconductor-easier";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

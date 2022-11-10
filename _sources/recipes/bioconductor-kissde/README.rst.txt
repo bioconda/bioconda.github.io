@@ -27,21 +27,26 @@ bioconductor-kissde
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-dss: ``>=2.42.0,<2.43.0``
-   :depends r-aod: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-dss: ``>=2.46.0,<2.47.0``
+   :depends r-ade4: 
+   :depends r-aods3: 
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-doparallel: 
+   :depends r-dt: 
+   :depends r-factoextra: 
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-matrixstats: 
+   :depends r-shiny: 
+   :depends r-shinycssloaders: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +78,7 @@ bioconductor-kissde
 
     <script>
         var package = "bioconductor-kissde";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
     </script>
 
 

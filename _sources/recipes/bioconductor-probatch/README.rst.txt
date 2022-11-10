@@ -27,16 +27,16 @@ bioconductor-probatch
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.13.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-pvca: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-pvca: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-corrplot: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -87,7 +87,7 @@ bioconductor-probatch
 
     <script>
         var package = "bioconductor-probatch";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.13.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

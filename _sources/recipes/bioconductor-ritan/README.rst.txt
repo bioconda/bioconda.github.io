@@ -26,16 +26,28 @@ bioconductor-ritan
    :versions:
       
       
+      .. raw:: html
 
-      ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-1</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bgeedb: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-ritandata: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-stringdb: ``>=2.6.0,<2.7.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationfilter: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-bgeedb: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
+   :depends bioconductor-ensembldb: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-ritandata: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-stringdb: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dynamictreecut: 
    :depends r-ggplot2: 
    :depends r-gplots: 
@@ -82,7 +94,7 @@ bioconductor-ritan
 
     <script>
         var package = "bioconductor-ritan";
-        var versions = ["1.17.0","1.16.0","1.14.0","1.14.0","1.12.0"];
+        var versions = ["1.22.0","1.17.0","1.16.0","1.14.0","1.14.0"];
     </script>
 
 

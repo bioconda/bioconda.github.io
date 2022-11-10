@@ -47,8 +47,9 @@ bioconductor-mlinterfaces
    :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cluster: 
    :depends r-fpc: 

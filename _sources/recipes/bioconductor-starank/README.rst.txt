@@ -28,10 +28,10 @@ bioconductor-starank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.24.1-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.24.1-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-starank
       
 
    
-   :depends bioconductor-cellhts2: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-cellhts2: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ bioconductor-starank
 
     <script>
         var package = "bioconductor-starank";
-        var versions = ["1.36.0","1.34.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.40.0","1.36.0","1.34.0","1.30.0","1.28.0"];
     </script>
 
 

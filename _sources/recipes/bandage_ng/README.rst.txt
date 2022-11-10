@@ -28,11 +28,16 @@ bandage_ng
       
       
 
-      
+      ``2022.09-0``
 
       
 
    
+   :depends fonts-conda-ecosystem: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends qt6-main: 
+   :depends xorg-libxrender: 
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +69,7 @@ bandage_ng
 
     <script>
         var package = "bandage_ng";
-        var versions = [];
+        var versions = ["2022.09"];
     </script>
 
 
