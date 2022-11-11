@@ -27,23 +27,23 @@ bioconductor-trena
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.11.6-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.2-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.11.6-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.2-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-motifdb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-motifdb: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
    :depends bioconductor-snplocs.hsapiens.dbsnp150.grch38: ``>=0.99.0,<0.100.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: 
    :depends r-glmnet: ``>=2.0.3``
    :depends r-lassopv: 
@@ -51,7 +51,6 @@ bioconductor-trena
    :depends r-rmysql: 
    :depends r-rpostgresql: 
    :depends r-rsqlite: 
-   :depends r-vbsr: 
    :depends r-wgcna: 
    :depends r-xgboost: 
    :requirements:
@@ -85,7 +84,7 @@ bioconductor-trena
 
     <script>
         var package = "bioconductor-trena";
-        var versions = ["1.16.0","1.14.0","1.11.6","1.8.0","1.6.1"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.11.6","1.8.0"];
     </script>
 
 

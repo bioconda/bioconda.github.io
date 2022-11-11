@@ -27,11 +27,26 @@ bioconductor-cancer
       
       
 
-      
+      ``1.32.0-0``
 
       
 
    
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-genetclassifier: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-phenotest: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-circlize: 
+   :depends r-formula: 
+   :depends r-httr: 
+   :depends r-plyr: 
+   :depends r-r.methodss3: 
+   :depends r-r.oo: 
+   :depends r-rpart: 
+   :depends r-runit: 
+   :depends r-survival: 
+   :depends r-tkrplot: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +78,7 @@ bioconductor-cancer
 
     <script>
         var package = "bioconductor-cancer";
-        var versions = [];
+        var versions = ["1.32.0"];
     </script>
 
 

@@ -27,19 +27,19 @@ bioconductor-orfhunter
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-peptides: 
    :depends r-randomforest: 
@@ -77,7 +77,7 @@ bioconductor-orfhunter
 
     <script>
         var package = "bioconductor-orfhunter";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

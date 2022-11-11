@@ -29,10 +29,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  </span></summary>
       
 
-      ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
+      ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
 
       
       .. raw:: html
@@ -42,9 +42,10 @@ openms-meta
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends glpk: ``>=5.0,<5.1.0a0``
    :depends hdf5: ``>=1.12.2,<1.12.3.0a0``
    :depends libsqlite: ``>=3.39.4,<4.0a0``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends qt: ``>=5.12.9,<5.13.0a0``
    :depends xerces-c: ``>=3.2.3,<3.3.0a0``
    :requirements:
@@ -78,7 +79,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["2.8.0","2.8.0","2.8.0","2.8.0","2.7.0"];
+        var versions = ["2.8.0","2.8.0","2.8.0","2.8.0","2.8.0"];
     </script>
 
 
@@ -91,10 +92,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  </span></summary>
       
 
-      ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -107,17 +108,17 @@ openms-meta
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends coinmp: ``>=1.8.4,<1.9.0a0``
    :depends eigen: ``>=3.4.0,<3.5.0a0``
-   :depends glpk: ``>=4.65,<4.66.0a0``
+   :depends glpk: ``>=5.0,<5.1.0a0``
    :depends hdf5: ``>=1.12.2,<1.12.3.0a0``
    :depends hdf5: ``>=1.12.2,<1.13.0a0``
-   :depends libopenms: ``2.8.0 h7ca0330_3``
+   :depends libopenms: ``2.8.0 h604f271_4``
    :depends libsqlite: ``>=3.39.4,<4.0a0``
    :depends libsvm: ``>=3.21,<3.22.0a0``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends qt: ``>=5.12.9,<5.13.0a0``
    :depends sqlite: ``>=3.39.4,<4.0a0``
    :depends xerces-c: ``>=3.2.3,<3.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -149,7 +150,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["2.8.0","2.8.0","2.8.0","2.8.0","2.7.0"];
+        var versions = ["2.8.0","2.8.0","2.8.0","2.8.0","2.8.0"];
     </script>
 
 
@@ -210,10 +211,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  </span></summary>
       
 
-      ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -229,7 +230,7 @@ openms-meta
    :depends gnuplot: 
    :depends luciphor2: ``2020_04_03``
    :depends msgf_plus: ``2021.03.22``
-   :depends openms: ``2.8.0 h7ca0330_3``
+   :depends openms: ``2.8.0 h604f271_4``
    :depends pepnovo: ``20101117``
    :depends percolator: ``3.5``
    :depends r-gplots: 
@@ -267,7 +268,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["2.8.0","2.8.0","2.8.0","2.8.0","2.7.0"];
+        var versions = ["2.8.0","2.8.0","2.8.0","2.8.0","2.8.0"];
     </script>
 
 

@@ -27,11 +27,12 @@ epytope
       
       
 
-      ``3.1.0-0``,  ``3.0.0-0``
+      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
    
+   :depends beautifulsoup4: 
    :depends biopython: 
    :depends h5py: ``<=2.10.0``
    :depends keras: ``<=2.3.1``
@@ -43,6 +44,7 @@ epytope
    :depends pyomo: ``>=4.0``
    :depends python: 
    :depends pyvcf: 
+   :depends requests: 
    :depends setuptools: ``<=57``
    :requirements:
 
@@ -75,7 +77,7 @@ epytope
 
     <script>
         var package = "epytope";
-        var versions = ["3.1.0","3.0.0"];
+        var versions = ["3.2.0","3.1.0","3.0.0"];
     </script>
 
 

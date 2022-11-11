@@ -27,19 +27,19 @@ bioconductor-shinyepico
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: ``>=1.13.0``
    :depends r-doparallel: ``>=1.0.0``
-   :depends r-dplyr: ``>=1.0.0``
+   :depends r-dplyr: ``>=1.0.9``
    :depends r-dt: ``>=0.15.0``
    :depends r-foreach: ``>=1.5.0``
    :depends r-ggplot2: ``>=3.3.0``
@@ -47,7 +47,7 @@ bioconductor-shinyepico
    :depends r-heatmaply: ``>=1.1.0``
    :depends r-plotly: ``>=4.9.2``
    :depends r-reshape2: ``>=1.4.0``
-   :depends r-rlang: ``>=0.4.0``
+   :depends r-rlang: ``>=1.0.2``
    :depends r-rmarkdown: ``>=2.3.0``
    :depends r-shiny: ``>=1.5.0``
    :depends r-shinycssloaders: ``>=0.3.0``
@@ -55,7 +55,7 @@ bioconductor-shinyepico
    :depends r-shinythemes: ``>=1.1.0``
    :depends r-shinywidgets: ``>=0.5.0``
    :depends r-statmod: ``>=1.4.0``
-   :depends r-tidyr: ``>=1.1.0``
+   :depends r-tidyr: ``>=1.2.0``
    :depends r-zip: ``>=2.1.0``
    :requirements:
 
@@ -88,7 +88,7 @@ bioconductor-shinyepico
 
     <script>
         var package = "bioconductor-shinyepico";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

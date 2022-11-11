@@ -26,20 +26,29 @@ bioconductor-flowsorted.blood.epic
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``2.2.0-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: ``>=0.6.0,<0.7.0``
-   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends curl: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-data-packages: ``>=20221110``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-nlme: 
    :depends r-quadprog: 
    :requirements:
@@ -73,7 +82,7 @@ bioconductor-flowsorted.blood.epic
 
     <script>
         var package = "bioconductor-flowsorted.blood.epic";
-        var versions = ["1.12.1","1.12.1","1.10.0","1.8.0","1.8.0"];
+        var versions = ["2.2.0","1.12.1","1.12.1","1.10.0","1.8.0"];
     </script>
 
 

@@ -27,19 +27,19 @@ bioconductor-magar
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-crlmm: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-rnbeads: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-rnbeads.hg19: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-snpstats: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-crlmm: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-rnbeads: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-rnbeads.hg19: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-snpstats: ``>=1.48.0,<1.49.0``
    :depends r-argparse: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bigstatsr: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -81,7 +81,7 @@ bioconductor-magar
 
     <script>
         var package = "bioconductor-magar";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

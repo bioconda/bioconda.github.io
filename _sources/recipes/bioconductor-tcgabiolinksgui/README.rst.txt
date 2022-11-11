@@ -27,20 +27,20 @@ bioconductor-tcgabiolinksgui
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.23.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-elmer: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-maftools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-pathview: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-sesame: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-tcgabiolinksgui.data: ``>=1.14.0,<1.15.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-elmer: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-maftools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-pathview: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-sesame: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.25.0,<2.26.0``
+   :depends bioconductor-tcgabiolinksgui.data: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-caret: 
    :depends r-colourpicker: 
    :depends r-data.table: 
@@ -87,7 +87,7 @@ bioconductor-tcgabiolinksgui
 
     <script>
         var package = "bioconductor-tcgabiolinksgui";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
+        var versions = ["1.23.0","1.20.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

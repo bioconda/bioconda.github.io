@@ -26,31 +26,45 @@ bioconductor-rmassbank
    :versions:
       
       
+      .. raw:: html
 
-      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.8.0-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.13.0-0</code>,  <code>2.12.0-1</code>,  </span></summary>
+      
 
+      ``3.8.0-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-chemmineob: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-chemminer: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends openbabel: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-data.table: 
    :depends r-digest: 
    :depends r-envipat: 
    :depends r-httr: 
    :depends r-logger: 
+   :depends r-r.utils: 
    :depends r-rcdk: 
    :depends r-rcpp: 
    :depends r-rcurl: 
+   :depends r-readjdx: 
    :depends r-rjson: 
+   :depends r-webchem: 
    :depends r-xml: 
    :depends r-yaml: 
    :requirements:
@@ -84,7 +98,7 @@ bioconductor-rmassbank
 
     <script>
         var package = "bioconductor-rmassbank";
-        var versions = ["3.4.0","3.4.0","3.4.0","3.2.0","3.0.0"];
+        var versions = ["3.8.0","3.4.0","3.4.0","3.4.0","3.2.0"];
     </script>
 
 

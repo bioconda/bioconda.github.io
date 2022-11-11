@@ -27,34 +27,33 @@ bioconductor-profileplyr
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-chipseeker: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-enrichedheatmap: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-rgreat: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-soggi: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-chipseeker: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-enrichedheatmap: ``>=1.27.0,<1.28.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-rgreat: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-soggi: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.16.0,<3.17.0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm10.knowngene: ``>=3.10.0,<3.11.0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: ``>=3.2.0,<3.3.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-cairo: 
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -96,7 +95,7 @@ bioconductor-profileplyr
 
     <script>
         var package = "bioconductor-profileplyr";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.3"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
     </script>
 
 

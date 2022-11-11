@@ -26,18 +26,26 @@ bioconductor-agimicrorna
    :versions:
       
       
+      .. raw:: html
 
-      ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-1``,  ``2.32.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-1</code>,  <code>2.32.0-1</code>,  </span></summary>
+      
 
+      ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-1``,  ``2.32.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-affycoretools: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-affycoretools: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +77,7 @@ bioconductor-agimicrorna
 
     <script>
         var package = "bioconductor-agimicrorna";
-        var versions = ["2.44.0","2.42.0","2.40.0","2.40.0","2.38.0"];
+        var versions = ["2.48.0","2.44.0","2.42.0","2.40.0","2.40.0"];
     </script>
 
 

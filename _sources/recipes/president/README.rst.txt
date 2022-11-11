@@ -12,10 +12,9 @@ president
 
    Calculate pairwise nucleotide identity with respect to a reference sequence.
 
-   :homepage: https://gitlab.com/RKIBioinformaticsPipelines/president
+   :homepage: https://github.com/rki-mf1/president
    :license: MIT
    :recipe: /`president <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/president>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/president/meta.yaml>`_
-   :links: biotools: :biotools:`president`
 
    
 
@@ -29,10 +28,10 @@ president
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.7-0</code>,  <code>0.6.6-1</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -77,7 +76,7 @@ president
 
     <script>
         var package = "president";
-        var versions = ["0.6.6","0.6.5","0.6.4","0.6.3","0.6.1"];
+        var versions = ["0.6.7","0.6.6","0.6.6","0.6.5","0.6.4"];
     </script>
 
 

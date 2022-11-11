@@ -28,10 +28,10 @@ bioconductor-rmmquant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
       
 
-      ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,19 +40,19 @@ bioconductor-rmmquant
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-tbx20bamsubset: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-tbx20bamsubset: ``>=1.34.0,<1.35.0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: ``>=3.2.0,<3.3.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-devtools: 
    :depends r-rcpp: ``>=0.12.8``
    :requirements:
@@ -86,7 +86,7 @@ bioconductor-rmmquant
 
     <script>
         var package = "bioconductor-rmmquant";
-        var versions = ["1.12.0","1.12.0","1.12.0","1.10.0","1.8.1"];
+        var versions = ["1.16.0","1.12.0","1.12.0","1.12.0","1.10.0"];
     </script>
 
 

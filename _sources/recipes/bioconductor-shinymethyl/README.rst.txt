@@ -29,10 +29,10 @@ bioconductor-shinymethyl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-shinymethyl
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
    :depends bioconductor-illuminahumanmethylation450kmanifest: ``>=0.4.0,<0.5.0``
-   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-matrixstats: 
    :depends r-rcolorbrewer: 
    :depends r-shiny: ``>=0.13.2``
@@ -79,7 +79,7 @@ bioconductor-shinymethyl
 
     <script>
         var package = "bioconductor-shinymethyl";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

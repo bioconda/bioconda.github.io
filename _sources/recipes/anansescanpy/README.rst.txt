@@ -27,7 +27,7 @@ anansescanpy
       
       
 
-      ``0.1.4-0``,  ``0.1.2-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``
 
       
 
@@ -70,7 +70,7 @@ anansescanpy
 
     <script>
         var package = "anansescanpy";
-        var versions = ["0.1.4","0.1.2"];
+        var versions = ["0.1.5","0.1.4","0.1.2"];
     </script>
 
 

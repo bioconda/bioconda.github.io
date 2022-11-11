@@ -27,33 +27,33 @@ bioconductor-appreci8r
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-cosmic.67: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicscores: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-cosmic.67: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicscores: ``>=2.10.0,<2.11.0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
    :depends bioconductor-mafdb.1kgenomes.phase3.hs37d5: ``>=3.10.0,<3.11.0``
    :depends bioconductor-mafdb.exac.r1.0.hs37d5: ``>=3.10.0,<3.11.0``
    :depends bioconductor-mafdb.gnomadex.r2.1.hs37d5: ``>=3.10.0,<3.11.0``
    :depends bioconductor-polyphen.hsapiens.dbsnp131: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends bioconductor-sift.hsapiens.dbsnp137: ``>=1.0.0,<1.1.0``
    :depends bioconductor-snplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
    :depends bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dt: 
    :depends r-openxlsx: 
    :depends r-rentrez: 
@@ -93,7 +93,7 @@ bioconductor-appreci8r
 
     <script>
         var package = "bioconductor-appreci8r";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

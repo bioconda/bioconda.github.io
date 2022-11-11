@@ -27,19 +27,20 @@ bioconductor-mmuphin
       
       
 
-      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-maaslin2: ``>=1.8.0,<1.9.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-maaslin2: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-fpc: 
    :depends r-ggplot2: 
    :depends r-igraph: 
    :depends r-metafor: 
+   :depends r-stringr: 
    :depends r-tidyr: 
    :requirements:
 
@@ -72,7 +73,7 @@ bioconductor-mmuphin
 
     <script>
         var package = "bioconductor-mmuphin";
-        var versions = ["1.8.0","1.6.1","1.4.1","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.1","1.4.1","1.4.0"];
     </script>
 
 

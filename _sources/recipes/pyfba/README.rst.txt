@@ -29,13 +29,13 @@ pyfba
       
       
 
-      ``2.62-2``,  ``2.62-1``,  ``2.62-0``,  ``2.59-0``,  ``2.58-0``,  ``2.55-0``
+      ``2.62-3``,  ``2.62-2``,  ``2.62-1``,  ``2.62-0``,  ``2.59-0``,  ``2.58-0``,  ``2.55-0``
 
       
 
    
    :depends beautifulsoup4: 
-   :depends glpk: ``>=4.65,<4.66.0a0``
+   :depends glpk: ``>=5.0,<5.1.0a0``
    :depends importlib_resources: 
    :depends jupyter: 
    :depends libgcc-ng: ``>=12``
@@ -75,7 +75,7 @@ pyfba
 
     <script>
         var package = "pyfba";
-        var versions = ["2.62","2.62","2.62","2.59","2.58"];
+        var versions = ["2.62","2.62","2.62","2.62","2.59"];
     </script>
 
 

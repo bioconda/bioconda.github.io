@@ -29,10 +29,10 @@ bioconductor-padog
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-padog
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-keggdzpathwaysgeo: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-keggdzpathwaysgeo: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-keggrest: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dorng: 
    :depends r-foreach: 
    :depends r-gsa: 
@@ -84,7 +84,7 @@ bioconductor-padog
 
     <script>
         var package = "bioconductor-padog";
-        var versions = ["1.36.0","1.34.0","1.32.0","1.32.0","1.30.0"];
+        var versions = ["1.40.0","1.36.0","1.34.0","1.32.0","1.32.0"];
     </script>
 
 
