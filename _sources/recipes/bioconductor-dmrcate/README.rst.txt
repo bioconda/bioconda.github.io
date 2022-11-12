@@ -27,26 +27,34 @@ bioconductor-dmrcate
    :versions:
       
       
+      .. raw:: html
 
-      ``2.6.0-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+      
 
+      ``2.12.0-0``,  ``2.6.0-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsseq: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-dss: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-gviz: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-missmethyl: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-bsseq: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-dss: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-missmethyl: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-plyr: 
    :requirements:
 
@@ -79,7 +87,7 @@ bioconductor-dmrcate
 
     <script>
         var package = "bioconductor-dmrcate";
-        var versions = ["2.6.0","2.4.1","2.4.0","2.2.0","2.0.0"];
+        var versions = ["2.12.0","2.6.0","2.4.1","2.4.0","2.2.0"];
     </script>
 
 

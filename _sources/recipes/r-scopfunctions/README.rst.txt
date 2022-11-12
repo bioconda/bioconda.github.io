@@ -27,7 +27,7 @@ r-scopfunctions
       
       
 
-      ``0-0``
+      ``0-1``,  ``0-0``
 
       
 
@@ -35,7 +35,7 @@ r-scopfunctions
    :depends bioconductor-mast: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
@@ -74,7 +74,7 @@ r-scopfunctions
 
     <script>
         var package = "r-scopfunctions";
-        var versions = ["0"];
+        var versions = ["0","0"];
     </script>
 
 

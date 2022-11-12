@@ -27,7 +27,7 @@ r-bulkanalyser
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -37,7 +37,7 @@ r-bulkanalyser
    :depends bioconductor-edger: 
    :depends bioconductor-genie3: 
    :depends bioconductor-preprocesscore: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -95,7 +95,7 @@ r-bulkanalyser
 
     <script>
         var package = "r-bulkanalyser";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

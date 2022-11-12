@@ -27,7 +27,7 @@ cvlr
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
@@ -39,7 +39,7 @@ cvlr
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends openssl: ``>=1.1.1q,<1.1.2a``
+   :depends openssl: ``>=1.1.1s,<1.1.2a``
    :depends python: ``>=3``
    :depends xz: ``>=5.2.6,<5.3.0a0``
    :requirements:
@@ -73,7 +73,7 @@ cvlr
 
     <script>
         var package = "cvlr";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

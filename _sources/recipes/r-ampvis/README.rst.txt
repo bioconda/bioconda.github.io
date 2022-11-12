@@ -27,7 +27,7 @@ r-ampvis
       
       
 
-      ``1.27.0-4``,  ``1.27.0-3``,  ``1.27.0-2``,  ``1.27.0-0``
+      ``1.27.0-5``,  ``1.27.0-4``,  ``1.27.0-3``,  ``1.27.0-2``,  ``1.27.0-0``
 
       
 
@@ -35,7 +35,7 @@ r-ampvis
    :depends bioconductor-biostrings: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-phyloseq: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggdendro: 
@@ -81,7 +81,7 @@ r-ampvis
 
     <script>
         var package = "r-ampvis";
-        var versions = ["1.27.0","1.27.0","1.27.0","1.27.0"];
+        var versions = ["1.27.0","1.27.0","1.27.0","1.27.0","1.27.0"];
     </script>
 
 

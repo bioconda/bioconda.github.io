@@ -27,12 +27,12 @@ r-eacon
       
       
 
-      ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4_1-1``,  ``0.3.4_1-0``
+      ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4_1-1``,  ``0.3.4_1-0``
 
       
 
    
-   :depends ascat: 
+   :depends ascat: ``>=3``
    :depends bioconductor-affxparser: 
    :depends bioconductor-aroma.light: 
    :depends bioconductor-biostrings: 
@@ -42,7 +42,7 @@ r-eacon
    :depends bioconductor-limma: 
    :depends bioconductor-rhdf5: 
    :depends bioconductor-rsamtools: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bedr: 
    :depends r-changepoint: 
    :depends r-data.table: 
@@ -87,7 +87,7 @@ r-eacon
 
     <script>
         var package = "r-eacon";
-        var versions = ["0.3.6","0.3.6","0.3.5","0.3.5","0.3.4_1"];
+        var versions = ["0.3.6","0.3.6","0.3.6","0.3.5","0.3.5"];
     </script>
 
 

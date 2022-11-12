@@ -27,16 +27,16 @@ bioconductor-meat
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-watermelon: ``>=2.0.0,<2.1.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-watermelon: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-dynamictreecut: ``>=1.63``
    :depends r-glmnet: ``>=2.0``
@@ -74,7 +74,7 @@ bioconductor-meat
 
     <script>
         var package = "bioconductor-meat";
-        var versions = ["1.6.0","1.4.0","1.2.2","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.2","1.2.0"];
     </script>
 
 

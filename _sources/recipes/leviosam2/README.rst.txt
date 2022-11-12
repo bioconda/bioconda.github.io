@@ -27,7 +27,7 @@ leviosam2
       
       
 
-      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -36,7 +36,7 @@ leviosam2
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends sdsl-lite: ``>=2.1.1``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ leviosam2
 
     <script>
         var package = "leviosam2";
-        var versions = ["0.2.2","0.2.2","0.2.1","0.2.0","0.1.0"];
+        var versions = ["0.3.0","0.2.2","0.2.2","0.2.1","0.2.0"];
     </script>
 
 

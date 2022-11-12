@@ -28,36 +28,35 @@ r-acidgsea
       
       
 
-      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
+      ``0.8.6-1``,  ``0.8.6-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biocparallel: 
-   :depends bioconductor-fgsea: 
-   :depends bioconductor-genomeinfodb: 
-   :depends bioconductor-iranges: 
-   :depends bioconductor-s4vectors: 
-   :depends bioconductor-summarizedexperiment: 
-   :depends r-acidbase: 
-   :depends r-acidcli: 
-   :depends r-acidexperiment: 
-   :depends r-acidgenerics: 
-   :depends r-acidgenomes: 
-   :depends r-acidmarkdown: 
-   :depends r-acidplots: 
-   :depends r-acidplyr: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-basejump: 
-   :depends r-deseqanalysis: 
-   :depends r-ggplot2: 
-   :depends r-goalie: 
-   :depends r-knitr: 
-   :depends r-pipette: 
-   :depends r-rmarkdown: 
-   :depends r-sessioninfo: 
-   :depends r-syntactic: 
+   :depends bioconductor-biocgenerics: ``>=0.42.0``
+   :depends bioconductor-biocparallel: ``>=1.30.4``
+   :depends bioconductor-fgsea: ``>=1.22.0``
+   :depends bioconductor-genomeinfodb: ``>=1.32.4``
+   :depends bioconductor-iranges: ``>=2.30.1``
+   :depends bioconductor-s4vectors: ``>=0.34.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.26.1``
+   :depends r-acidbase: ``>=0.6.8``
+   :depends r-acidcli: ``>=0.2.4``
+   :depends r-acidexperiment: ``>=0.4.4``
+   :depends r-acidgenerics: ``>=0.6.4``
+   :depends r-acidgenomes: ``>=0.4.4``
+   :depends r-acidmarkdown: ``>=0.2.5``
+   :depends r-acidplots: ``>=0.5.2``
+   :depends r-acidplyr: ``>=0.3.2``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-basejump: ``>=0.16.1``
+   :depends r-deseqanalysis: ``>=0.6.6``
+   :depends r-ggplot2: ``>=3.3.6``
+   :depends r-goalie: ``>=0.6.6``
+   :depends r-knitr: ``>=1.40``
+   :depends r-pipette: ``>=0.10.0``
+   :depends r-rmarkdown: ``>=2.17``
+   :depends r-syntactic: ``>=0.6.3``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +88,7 @@ r-acidgsea
 
     <script>
         var package = "r-acidgsea";
-        var versions = ["0.7.0","0.7.0","0.6.4","0.6.4"];
+        var versions = ["0.8.6","0.8.6","0.7.0","0.7.0","0.6.4"];
     </script>
 
 

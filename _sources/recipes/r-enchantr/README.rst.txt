@@ -27,7 +27,7 @@ r-enchantr
       
       
 
-      ``0.0.3-0``,  ``0.0.1-0``
+      ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
 
@@ -35,7 +35,7 @@ r-enchantr
    :depends igphyml: ``1.1.4.*``
    :depends r-airr: ``>=1.4.1``
    :depends r-alakazam: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-bookdown: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -89,7 +89,7 @@ r-enchantr
 
     <script>
         var package = "r-enchantr";
-        var versions = ["0.0.3","0.0.1"];
+        var versions = ["0.0.3","0.0.3","0.0.1"];
     </script>
 
 
