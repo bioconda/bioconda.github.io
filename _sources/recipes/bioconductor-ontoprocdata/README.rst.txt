@@ -12,11 +12,11 @@ bioconductor-ontoprocdata
 
    A data package for ontoProc
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ontoProcData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/ontoProcData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ontoprocdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoprocdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoprocdata/meta.yaml>`_
 
-   This package manages rda files of multiple ontologies that are used in the ontoProc package. These ontologies were originally downloaded as owl or obo files and converted into Rda files . The files were downloaded at various times but most of them were downloaded on June 22 2021.
+   This package manages rda files of multiple ontologies that are used in the ontoProc package. These ontologies were originally downloaded as owl or obo files and converted into Rda files. The files were downloaded at various times but most of them were downloaded on August 08 2022.
 
 
 .. conda:package:: bioconductor-ontoprocdata

@@ -10,9 +10,9 @@ bioconductor-cicero
    :replaces_section_title:
    :noindex:
 
-   Precict cis\-co\-accessibility from single\-cell chromatin accessibility data
+   Predict cis\-co\-accessibility from single\-cell chromatin accessibility data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cicero.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cicero.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cicero <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cicero>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cicero/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-cicero
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.14-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.14-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-gviz: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-monocle: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-monocle: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends r-assertthat: ``>=0.2.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: ``>=1.10.4``
    :depends r-dplyr: ``>=0.7.4``
    :depends r-fnn: ``>=1.1``
@@ -86,7 +86,7 @@ bioconductor-cicero
 
     <script>
         var package = "bioconductor-cicero";
-        var versions = ["1.12.0","1.10.0","1.8.1","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.1","1.8.0"];
     </script>
 
 

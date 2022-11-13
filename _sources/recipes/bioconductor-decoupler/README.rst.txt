@@ -10,13 +10,13 @@ bioconductor-decoupler
    :replaces_section_title:
    :noindex:
 
-   decoupleR\: Inferring biological activities from omics data using a collection of methods
+   decoupleR\: Ensemble of computational methods to infer biological activities from omics data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/decoupleR.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/decoupleR.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-decoupler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decoupler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decoupler/meta.yaml>`_
 
-   Computational methods allow the extraction of mechanistic signatures from omics data based on prior knowledge resources\, reducing the dimensionality of the data for increased statistical power and better interpretability. Here\, we present decoupleR\, a Bioconductor package containing different statistical methods to extract these signatures within a unified framework. decoupleR allows the user to flexibly test any method with any resource. It incorporates methods that take into account the sign and weight of network interactions. Using decoupleR\, we evaluated the performance of contemporary methods on transcriptomic and phospho\-proteomic perturbation experiments.
+   Many methods allow us to extract biological activities from omics data using information from prior knowledge resources\, reducing the dimensionality for increased statistical power and better interpretability. Here\, we present decoupleR\, a Bioconductor package containing different statistical methods to extract these signatures within a unified framework. decoupleR allows the user to flexibly test any method with any resource. It incorporates methods that take into account the sign and weight of network interactions. decoupleR can be used with any omic\, as long as its features can be linked to a biological process based on prior knowledge. For example\, in transcriptomics gene sets regulated by a transcription factor\, or in phospho\-proteomics phosphosites that are targeted by a kinase.
 
 
 .. conda:package:: bioconductor-decoupler

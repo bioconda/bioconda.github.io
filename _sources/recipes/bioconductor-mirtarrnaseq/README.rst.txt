@@ -12,8 +12,8 @@ bioconductor-mirtarrnaseq
 
    mirTarRnaSeq
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mirTarRnaSeq.html
-   :license: MIT
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mirTarRnaSeq.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-mirtarrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirtarrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirtarrnaseq/meta.yaml>`_
 
    mirTarRnaSeq R package can be used for interactive mRNA miRNA sequencing statistical analysis. This package utilizes expression or differential expression mRNA and miRNA sequencing results and performs interactive correlation and various GLMs \(Regular GLM\, Multivariate GLM\, and Interaction GLMs \) analysis between mRNA and miRNA expriments. These experiments can be time point experiments\, and or condition expriments.

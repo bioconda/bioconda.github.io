@@ -12,7 +12,7 @@ bioconductor-ewcedata
 
    The ewceData package provides reference data required for ewce
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/ewceData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/ewceData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ewcedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ewcedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ewcedata/meta.yaml>`_
 

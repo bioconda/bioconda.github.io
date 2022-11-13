@@ -12,8 +12,8 @@ bioconductor-nanotube
 
    An Easy Pipeline for NanoString nCounter Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/NanoTube.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/NanoTube.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-nanotube <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotube>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotube/meta.yaml>`_
 
    NanoTube includes functions for the processing\, quality control\, analysis\, and visualization of NanoString nCounter data. Analysis functions include differential analysis and gene set analysis methods\, as well as postprocessing steps to help understand the results. Additional functions are included to enable interoperability with other Bioconductor NanoString data analysis packages.

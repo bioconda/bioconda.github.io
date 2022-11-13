@@ -12,7 +12,7 @@ bioconductor-condiments
 
    Differential Topology\, Progression and Differentiation
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/condiments.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/condiments.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-condiments <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-condiments>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-condiments/meta.yaml>`_
 

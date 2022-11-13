@@ -12,7 +12,7 @@ bioconductor-sincell
 
    R package for the statistical assessment of cell state hierarchies from single\-cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sincell.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sincell.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sincell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sincell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sincell/meta.yaml>`_
    :links: biotools: :biotools:`sincell`

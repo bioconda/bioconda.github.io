@@ -12,7 +12,7 @@ bioconductor-ioniser
 
    Quality Assessment Tools for Oxford Nanopore MinION data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/IONiseR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/IONiseR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ioniser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ioniser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ioniser/meta.yaml>`_
    :links: biotools: :biotools:`ioniser`, doi: :doi:`10.1038/nmeth.3252`

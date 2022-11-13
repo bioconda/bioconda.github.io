@@ -12,7 +12,7 @@ bioconductor-ruvseq
 
    Remove Unwanted Variation from RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RUVSeq.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RUVSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ruvseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvseq/meta.yaml>`_
    :links: biotools: :biotools:`ruvseq`

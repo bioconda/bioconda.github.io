@@ -12,7 +12,7 @@ bioconductor-debrowser
 
    Interactive Differential Expresion Analysis Browser
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/debrowser.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/debrowser.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-debrowser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-debrowser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-debrowser/meta.yaml>`_
 

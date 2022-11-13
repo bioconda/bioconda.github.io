@@ -12,7 +12,7 @@ bioconductor-snm
 
    Supervised Normalization of Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/snm.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/snm.html
    :license: LGPL
    :recipe: /`bioconductor-snm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snm/meta.yaml>`_
    :links: biotools: :biotools:`snm`

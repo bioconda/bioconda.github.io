@@ -12,7 +12,7 @@ bioconductor-nondetects
 
    Non\-detects in qPCR data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/nondetects.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/nondetects.html
    :license: GPL-3
    :recipe: /`bioconductor-nondetects <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nondetects>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nondetects/meta.yaml>`_
    :links: biotools: :biotools:`nondetects`

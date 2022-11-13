@@ -12,7 +12,7 @@ bioconductor-evaluomer
 
    Evaluation of Bioinformatics Metrics
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/evaluomeR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/evaluomeR.html
    :license: GPL-3
    :recipe: /`bioconductor-evaluomer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-evaluomer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-evaluomer/meta.yaml>`_
 

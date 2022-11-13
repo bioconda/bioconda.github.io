@@ -12,7 +12,7 @@ bioconductor-isanalytics
 
    Analyze gene therapy vector insertion sites data identified from genomics next generation sequencing reads for clonal tracking studies
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ISAnalytics.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ISAnalytics.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-isanalytics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isanalytics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isanalytics/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-ecoli2probe
 
    Probe sequence data for microarrays of type ecoli2
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ecoli2probe.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/ecoli2probe.html
    :license: LGPL
    :recipe: /`bioconductor-ecoli2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2probe/meta.yaml>`_
 

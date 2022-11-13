@@ -12,7 +12,7 @@ bioconductor-alevinqc
 
    Generate QC Reports For Alevin Output
 
-   :homepage: https://bioconductor.org/packages/3.15/bioc/html/alevinQC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/alevinQC.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alevinqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alevinqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alevinqc/meta.yaml>`_
 

@@ -12,8 +12,8 @@ bioconductor-imcdatasets
 
    Collection of publicly available imaging mass cytometry \(IMC\) datasets
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/imcdatasets.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/imcdatasets.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-imcdatasets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imcdatasets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imcdatasets/meta.yaml>`_
 
    The imcdatasets package provides access to publicly available IMC datasets. IMC is a technology that enables measurement of \> 40 proteins from tissue sections. The generated images can be segmented to extract single cell data. Datasets typically consist of three elements\: a SingleCellExperiment object containing single cell data\, a CytoImageList object containing multichannel images and a CytoImageList object containing the cell masks that were used to extract the single cell data from the images.

@@ -12,7 +12,7 @@ bioconductor-org.dr.eg.db
 
    Genome wide annotation for Zebrafish
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/org.Dr.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/org.Dr.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.dr.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dr.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dr.eg.db/meta.yaml>`_
 

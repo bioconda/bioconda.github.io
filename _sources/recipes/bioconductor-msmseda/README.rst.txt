@@ -12,7 +12,7 @@ bioconductor-msmseda
 
    Exploratory Data Analysis of LC\-MS\/MS data by spectral counts
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/msmsEDA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/msmsEDA.html
    :license: GPL-2
    :recipe: /`bioconductor-msmseda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmseda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmseda/meta.yaml>`_
    :links: biotools: :biotools:`msmseda`, doi: :doi:`10.1038/nmeth.3252`

@@ -10,13 +10,13 @@ bioconductor-ancombc
    :replaces_section_title:
    :noindex:
 
-   Analysis of compositions of microbiomes with bias correction
+   Microbiome differential abudance and correlation analyses with bias correction
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ANCOMBC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ANCOMBC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ancombc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc/meta.yaml>`_
 
-   ANCOMBC is a package for normalizing the microbial observed abundance data due to unequal sampling fractions across samples\, and identifying taxa \(e.g. phyla\, families\, genera\, species\, etc.\) that are differentially abundant with respect to the covariate of interest \(e.g. study groups\) between two or more groups of multiple samples.
+   ANCOMBC is a package containing differential abundance \(DA\) and correlation analyses for microbiome data. Specifically\, the package includes Analysis of Compositions of Microbiomes with Bias Correction 2 \(ANCOM\-BC2\)\, Analysis of Compositions of Microbiomes with Bias Correction \(ANCOM\-BC\)\, and Analysis of Composition of Microbiomes \(ANCOM\) for DA analysis\, and Sparse Estimation of Correlations among Microbiomes \(SECOM\) for correlation analysis. Microbiome data are typically subject to two sources of biases\: unequal sampling fractions \(sample\-specific biases\) and differential sequencing efficiencies \(taxon\-specific biases\). Methodologies included in the ANCOMBC package are designed to correct these biases and construct statistically consistent estimators.
 
 
 .. conda:package:: bioconductor-ancombc

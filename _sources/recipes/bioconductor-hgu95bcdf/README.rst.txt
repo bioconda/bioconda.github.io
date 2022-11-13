@@ -12,7 +12,7 @@ bioconductor-hgu95bcdf
 
    hgu95bcdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hgu95bcdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hgu95bcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgu95bcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95bcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95bcdf/meta.yaml>`_
 

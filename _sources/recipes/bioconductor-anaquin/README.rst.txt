@@ -12,7 +12,7 @@ bioconductor-anaquin
 
    Statistical analysis of sequins
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Anaquin.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Anaquin.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-anaquin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anaquin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anaquin/meta.yaml>`_
 

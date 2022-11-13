@@ -12,7 +12,7 @@ bioconductor-trio
 
    Testing of SNPs and SNP Interactions in Case\-Parent Trio Studies
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/trio.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/trio.html
    :license: LGPL-2
    :recipe: /`bioconductor-trio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trio/meta.yaml>`_
    :links: biotools: :biotools:`trio`, doi: :doi:`10.1038/nmeth.3252`

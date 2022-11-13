@@ -12,7 +12,7 @@ bioconductor-onesense
 
    One\-Dimensional Soli\-Expression by Nonlinear Stochastic Embedding \(OneSENSE\)
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/oneSENSE.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/oneSENSE.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-onesense <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onesense>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onesense/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gpaexample
 
    Example data for the GPA package \(Genetic analysis incorporating Pleiotropy and Annotation\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/gpaExample.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/gpaExample.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gpaexample <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpaexample>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpaexample/meta.yaml>`_
 

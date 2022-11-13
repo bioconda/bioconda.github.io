@@ -12,7 +12,7 @@ bioconductor-cimice
 
    CIMICE\-R\: \(Markov\) Chain Method to Inferr Cancer Evolution
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CIMICE.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CIMICE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cimice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cimice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cimice/meta.yaml>`_
 

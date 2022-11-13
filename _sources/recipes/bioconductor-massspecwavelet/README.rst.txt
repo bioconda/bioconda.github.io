@@ -10,14 +10,14 @@ bioconductor-massspecwavelet
    :replaces_section_title:
    :noindex:
 
-   Mass spectrum processing by wavelet\-based algorithms
+   Peak Detection for Mass Spectrometry data using wavelet\-based algorithms
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MassSpecWavelet.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MassSpecWavelet.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-massspecwavelet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet/meta.yaml>`_
    :links: biotools: :biotools:`massspecwavelet`
 
-   Processing Mass Spectrometry spectrum by using wavelet based algorithm
+   Peak Detection in Mass Spectrometry data is one of the important preprocessing steps. The performance of peak detection affects subsequent processes\, including protein identification\, profile alignment and biomarker identification. Using Continuous Wavelet Transform \(CWT\)\, this package provides a reliable algorithm for peak detection that does not require any type of smoothing or previous baseline correction method\, providing more consistent results for different spectra. See \<doi\:10.1093\/bioinformatics\/btl355\} for further details.
 
 
 .. conda:package:: bioconductor-massspecwavelet

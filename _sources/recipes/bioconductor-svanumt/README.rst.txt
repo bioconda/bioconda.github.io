@@ -12,8 +12,8 @@ bioconductor-svanumt
 
    NUMT detection from structural variant calls
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/svaNUMT.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/svaNUMT.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-svanumt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svanumt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svanumt/meta.yaml>`_
 
    svaNUMT contains functions for detecting NUMT events from structural variant calls. It takes structural variant calls in GRanges of breakend notation and identifies NUMTs by nuclear\-mitochondrial breakend junctions. The main function reports candidate NUMTs if there is a pair of valid insertion sites found on the nuclear genome within a certain distance threshold. The candidate NUMTs are reported by events.

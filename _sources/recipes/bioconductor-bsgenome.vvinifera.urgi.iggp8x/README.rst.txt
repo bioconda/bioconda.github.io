@@ -12,7 +12,7 @@ bioconductor-bsgenome.vvinifera.urgi.iggp8x
 
    Full reference nuclear genome sequences for Vitis vinifera subsp. vinifera PN40024 \(IGGP version 8X\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP8X.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP8X.html
    :license: CC0
    :recipe: /`bioconductor-bsgenome.vvinifera.urgi.iggp8x <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp8x>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp8x/meta.yaml>`_
 

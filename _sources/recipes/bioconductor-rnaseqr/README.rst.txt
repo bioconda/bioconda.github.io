@@ -12,7 +12,7 @@ bioconductor-rnaseqr
 
    RNASeqR\: an R package for automated two\-group RNA\-Seq analysis workflow
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RNASeqR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RNASeqR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnaseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqr/meta.yaml>`_
 

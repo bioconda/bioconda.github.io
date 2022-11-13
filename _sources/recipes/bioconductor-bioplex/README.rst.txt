@@ -12,7 +12,7 @@ bioconductor-bioplex
 
    R\-side access to BioPlex protein\-protein interaction data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BioPlex.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/BioPlex.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioplex/meta.yaml>`_
 

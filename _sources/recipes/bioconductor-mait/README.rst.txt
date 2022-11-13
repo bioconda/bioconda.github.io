@@ -12,7 +12,7 @@ bioconductor-mait
 
    Statistical Analysis of Metabolomic Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MAIT.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MAIT.html
    :license: GPL-2
    :recipe: /`bioconductor-mait <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mait>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mait/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-flowsorted.cordblood.450k
 
    Illumina 450k data on sorted cord blood cells
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/FlowSorted.CordBlood.450k.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/FlowSorted.CordBlood.450k.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowsorted.cordblood.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordblood.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordblood.450k/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-nupop
 
    An R package for nucleosome positioning prediction
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/NuPoP.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/NuPoP.html
    :license: GPL-2
    :recipe: /`bioconductor-nupop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nupop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nupop/meta.yaml>`_
 
-   NuPoP is an R package for Nucleosome Positioning Prediction.This package is built upon a duration hidden Markov model proposed in Xi et al\, 2010\; Wang et al\, 2008. The core of the package was written in Fotran. In addition to the R package\, a stand\-alone Fortran software tool is also available at http\:\/\/nucleosome.stats.northwestern.edu.
+   NuPoP is an R package for Nucleosome Positioning Prediction.This package is built upon a duration hidden Markov model proposed in Xi et al\, 2010\; Wang et al\, 2008. The core of the package was written in Fotran. In addition to the R package\, a stand\-alone Fortran software tool is also available at https\:\/\/github.com\/jipingw. The Fortran codes have complete functonality as the R package.  Note\: NuPoP has two separate functions for prediction of nucleosome positioning\, one for MNase\-map trained models and the other for chemical map\-trained models. The latter was implemented for four species including yeast\, S.pombe\, mouse and human\, trained based on our recent publications. We noticed there is another package nuCpos by another group for prediction of nucleosome positioning trained with chemicals. A report to compare recent versions of NuPoP with nuCpos can be found at https\:\/\/github.com\/jiping\/NuPoP\_doc. Some more information can be found and will be posted at https\:\/\/github.com\/jipingw\/NuPoP.
 
 
 .. conda:package:: bioconductor-nupop

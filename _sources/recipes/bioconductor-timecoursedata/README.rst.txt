@@ -12,7 +12,7 @@ bioconductor-timecoursedata
 
    A data package for timecourse RNA\-seq and microarray gene expression data sets
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/timecoursedata.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/timecoursedata.html
    :license: BSD 3-clause License + file LICENSE
    :recipe: /`bioconductor-timecoursedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timecoursedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timecoursedata/meta.yaml>`_
 

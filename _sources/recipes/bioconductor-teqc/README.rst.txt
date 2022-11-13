@@ -12,7 +12,7 @@ bioconductor-teqc
 
    Quality control for target capture experiments
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TEQC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TEQC.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-teqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-teqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-teqc/meta.yaml>`_
    :links: biotools: :biotools:`teqc`, doi: :doi:`10.1093/bioinformatics/btr122`

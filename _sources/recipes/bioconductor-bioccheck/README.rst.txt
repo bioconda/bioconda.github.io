@@ -12,11 +12,11 @@ bioconductor-bioccheck
 
    Bioconductor\-specific package checks
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BiocCheck.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BiocCheck.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioccheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccheck/meta.yaml>`_
 
-   Executes Bioconductor\-specific package checks.
+   BiocCheck guides maintainers through Bioconductor best practicies. It runs Bioconductor\-specific package checks by searching through package code\, examples\, and vignettes. Maintainers are required to address all errors\, warnings\, and most notes produced.
 
 
 .. conda:package:: bioconductor-bioccheck

@@ -12,7 +12,7 @@ bioconductor-hcg110.db
 
    Affymetrix Affymetrix HC\_G110 Array annotation data \(chip hcg110\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hcg110.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hcg110.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hcg110.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110.db/meta.yaml>`_
 

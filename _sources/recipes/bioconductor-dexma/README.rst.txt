@@ -12,11 +12,11 @@ bioconductor-dexma
 
    Differential Expression Meta\-Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DExMA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DExMA.html
    :license: GPL-2
    :recipe: /`bioconductor-dexma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexma/meta.yaml>`_
 
-   performing all the steps of gene expression meta\-analysis without eliminating those genes that are presented in at least two datasets. It provides the necessary functions to be able to perform the different methods of gene expression meta\-analysis. In addition\, it contains functions to apply quality controls\, download GEO data sets and show graphical representations of the results.
+   performing all the steps of gene expression meta\-analysis considering the possible existence of missing genes. It provides the necessary functions to be able to perform the different methods of gene expression meta\-analysis. In addition\, it contains functions to apply quality controls\, download GEO datasets and show graphical representations of the results.
 
 
 .. conda:package:: bioconductor-dexma

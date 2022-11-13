@@ -12,7 +12,7 @@ bioconductor-grndata
 
    Synthetic Expression Data for Gene Regulatory Network Inference
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/grndata.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/grndata.html
    :license: GPL-3
    :recipe: /`bioconductor-grndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grndata/meta.yaml>`_
 

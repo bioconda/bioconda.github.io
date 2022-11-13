@@ -12,7 +12,7 @@ bioconductor-lydata
 
    Example Dataset for crossmeta Package
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/lydata.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/lydata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lydata/meta.yaml>`_
 

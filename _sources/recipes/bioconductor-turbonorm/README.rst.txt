@@ -12,7 +12,7 @@ bioconductor-turbonorm
 
    A fast scatterplot smoother suitable for microarray normalization
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TurboNorm.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TurboNorm.html
    :license: LGPL
    :recipe: /`bioconductor-turbonorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-turbonorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-turbonorm/meta.yaml>`_
    :links: biotools: :biotools:`turbonorm`

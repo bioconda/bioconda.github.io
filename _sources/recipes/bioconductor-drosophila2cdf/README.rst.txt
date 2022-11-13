@@ -12,7 +12,7 @@ bioconductor-drosophila2cdf
 
    drosophila2cdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/drosophila2cdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/drosophila2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-drosophila2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosophila2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosophila2cdf/meta.yaml>`_
 

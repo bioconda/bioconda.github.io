@@ -12,7 +12,7 @@ bioconductor-treekor
 
    Cytometry Cluster Hierarchy and Cellular\-to\-phenotype Associations
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/treekoR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/treekoR.html
    :license: GPL-3
    :recipe: /`bioconductor-treekor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treekor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treekor/meta.yaml>`_
 

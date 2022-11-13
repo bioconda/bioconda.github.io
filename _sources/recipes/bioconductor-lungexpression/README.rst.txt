@@ -12,7 +12,7 @@ bioconductor-lungexpression
 
    ExpressionSets for Parmigiani et al.\, 2004 Clinical Cancer Research paper
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/lungExpression.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/lungExpression.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-lungexpression <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungexpression>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungexpression/meta.yaml>`_
 

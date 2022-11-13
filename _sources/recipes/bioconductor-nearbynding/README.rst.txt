@@ -12,7 +12,7 @@ bioconductor-nearbynding
 
    Discern RNA structure proximal to protein binding
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/nearBynding.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/nearBynding.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-nearbynding <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nearbynding>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nearbynding/meta.yaml>`_
 

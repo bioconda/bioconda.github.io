@@ -12,7 +12,7 @@ bioconductor-scrnaseq
 
    Collection of Public Single\-Cell RNA\-Seq Datasets
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/scRNAseq.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/scRNAseq.html
    :license: CC0
    :recipe: /`bioconductor-scrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-egsea
 
    Ensemble of Gene Set Enrichment Analyses
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/EGSEA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EGSEA.html
    :license: GPL-3
    :recipe: /`bioconductor-egsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egsea/meta.yaml>`_
    :links: biotools: :biotools:`egsea`, usegalaxy-eu: :usegalaxy-eu:`egsea`

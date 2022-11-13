@@ -12,7 +12,7 @@ bioconductor-flowbeads
 
    flowBeads\: Analysis of flow bead data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flowBeads.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/flowBeads.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowbeads <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowbeads>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowbeads/meta.yaml>`_
    :links: biotools: :biotools:`flowbeads`, doi: :doi:`10.1038/nmeth.3252`

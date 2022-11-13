@@ -12,7 +12,7 @@ bioconductor-coexnet
 
    coexnet\: An R package to build CO\-EXpression NETworks from Microarray Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/coexnet.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/coexnet.html
    :license: LGPL
    :recipe: /`bioconductor-coexnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coexnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coexnet/meta.yaml>`_
 

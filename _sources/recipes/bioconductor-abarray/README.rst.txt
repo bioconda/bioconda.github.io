@@ -12,7 +12,7 @@ bioconductor-abarray
 
    Microarray QA and statistical data analysis for Applied Biosystems Genome Survey Microrarray \(AB1700\) gene expression data.
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ABarray.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ABarray.html
    :license: GPL
    :recipe: /`bioconductor-abarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abarray/meta.yaml>`_
 

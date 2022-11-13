@@ -12,7 +12,7 @@ bioconductor-scmeth
 
    Functions to conduct quality control analysis in methylation data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scmeth.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scmeth.html
    :license: GPL-2
    :recipe: /`bioconductor-scmeth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmeth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmeth/meta.yaml>`_
 

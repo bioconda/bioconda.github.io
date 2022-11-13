@@ -12,7 +12,7 @@ bioconductor-genomicinstability
 
    Genomic Instability estimation for scRNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/genomicInstability.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/genomicInstability.html
    :license: file LICENSE
    :recipe: /`bioconductor-genomicinstability <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinstability>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinstability/meta.yaml>`_
 

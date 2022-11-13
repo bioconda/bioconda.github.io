@@ -12,7 +12,7 @@ bioconductor-phipdata
 
    Container for PhIP\-Seq Experiments
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/PhIPData.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PhIPData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-phipdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phipdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phipdata/meta.yaml>`_
 

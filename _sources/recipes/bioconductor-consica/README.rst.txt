@@ -1,0 +1,99 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-consica'
+.. highlight: bash
+
+bioconductor-consica
+====================
+
+.. conda:recipe:: bioconductor-consica
+   :replaces_section_title:
+   :noindex:
+
+   consensus Independent Component Analysis
+
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/consICA.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-consica <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consica>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consica/meta.yaml>`_
+
+   consICA implements a data\-driven deconvolution method – consensus independent component analysis \(ICA\) to decompose heterogeneous omics data and extract features suitable for patient diagnostics and prognostics. The method separates biologically relevant transcriptional signals from technical effects and provides information about the cellular composition and biological processes. The implementation of parallel computing in the package ensures efficient analysis of modern multicore systems.
+
+
+.. conda:package:: bioconductor-consica
+
+   |downloads_bioconductor-consica| |docker_bioconductor-consica|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-fastica: ``>=1.2.1``
+   :depends r-pheatmap: 
+   :depends r-sm: 
+   :depends r-survival: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-consica
+
+   and update with::
+
+      conda update bioconductor-consica
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-consica:<tag>
+
+   (see `bioconductor-consica/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-consica| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-consica.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-consica
+   :alt:   (downloads)
+.. |docker_bioconductor-consica| image:: https://quay.io/repository/biocontainers/bioconductor-consica/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-consica
+.. _`bioconductor-consica/tags`: https://quay.io/repository/biocontainers/bioconductor-consica?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-consica";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-consica/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-consica/README.html

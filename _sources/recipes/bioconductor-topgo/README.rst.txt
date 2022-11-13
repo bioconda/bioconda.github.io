@@ -12,7 +12,7 @@ bioconductor-topgo
 
    Enrichment Analysis for Gene Ontology
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/topGO.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/topGO.html
    :license: LGPL
    :recipe: /`bioconductor-topgo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topgo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topgo/meta.yaml>`_
    :links: biotools: :biotools:`topgo`, doi: :doi:`10.1093/bioinformatics/btl140`

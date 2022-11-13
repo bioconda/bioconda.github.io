@@ -12,11 +12,11 @@ bioconductor-targetsearch
 
    A package for the analysis of GC\-MS metabolite profiling data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TargetSearch.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TargetSearch.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-targetsearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearch/meta.yaml>`_
 
-   This packages provides a targeted pre\-processing method for GC\-MS data.
+   This packages provides a flexible\, fast and accurate method for targeted pre\-processing of GC\-MS data. The user provides a \(often very large\) set of GC chromatograms and a metabolite library of targets. The package will automatically search those targets in the chromatograms resulting in a data matrix that can be used for further data analysis.
 
 
 .. conda:package:: bioconductor-targetsearch

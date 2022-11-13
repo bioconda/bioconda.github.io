@@ -12,7 +12,7 @@ bioconductor-org.mxanthus.db
 
    Genome wide annotation for Myxococcus xanthus DK 1622
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/org.Mxanthus.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/org.Mxanthus.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.mxanthus.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mxanthus.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mxanthus.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-genomicozone
 
    Delineate outstanding genomic zones of differential gene activity
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GenomicOZone.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GenomicOZone.html
    :license: LGPL (>=3)
    :recipe: /`bioconductor-genomicozone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicozone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicozone/meta.yaml>`_
 

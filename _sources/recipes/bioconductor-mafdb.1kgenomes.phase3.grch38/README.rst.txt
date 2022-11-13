@@ -12,7 +12,7 @@ bioconductor-mafdb.1kgenomes.phase3.grch38
 
    Minor allele frequency data from 1000 Genomes Phase 3 for GRCh38
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/MafDb.1Kgenomes.phase3.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/MafDb.1Kgenomes.phase3.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.1kgenomes.phase3.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.1kgenomes.phase3.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.1kgenomes.phase3.grch38/meta.yaml>`_
 

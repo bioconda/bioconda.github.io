@@ -12,7 +12,7 @@ bioconductor-sitepath
 
    Phylogeny\-based sequence clustering with site polymorphism
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sitePath.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sitePath.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sitepath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath/meta.yaml>`_
 

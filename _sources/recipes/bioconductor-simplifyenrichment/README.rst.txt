@@ -12,11 +12,11 @@ bioconductor-simplifyenrichment
 
    Simplify Functional Enrichment Results
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/simplifyEnrichment.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/simplifyEnrichment.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-simplifyenrichment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simplifyenrichment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simplifyenrichment/meta.yaml>`_
 
-   A new clustering algorithm\, binary cut\, for clustering similarity matrices of functional terms is implemeted in this package. It also provideds functionalities for visualizing\, summarizing and comparing the clusterings.
+   A new clustering algorithm\, \"binary cut\"\, for clustering similarity matrices of functional terms is implemeted in this package. It also provides functions for visualizing\, summarizing and comparing the clusterings.
 
 
 .. conda:package:: bioconductor-simplifyenrichment

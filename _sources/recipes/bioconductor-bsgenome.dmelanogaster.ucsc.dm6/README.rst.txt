@@ -12,7 +12,7 @@ bioconductor-bsgenome.dmelanogaster.ucsc.dm6
 
    Full genome sequences for Drosophila melanogaster \(UCSC version dm6\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm6.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm6.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.dmelanogaster.ucsc.dm6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm6/meta.yaml>`_
 

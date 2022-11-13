@@ -12,7 +12,7 @@ bioconductor-cepo
 
    Cepo for the identification of differentially stable genes
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Cepo.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Cepo.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cepo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cepo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cepo/meta.yaml>`_
 

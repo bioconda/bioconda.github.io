@@ -12,7 +12,7 @@ bioconductor-xtropicaliscdf
 
    xtropicaliscdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/xtropicaliscdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/xtropicaliscdf.html
    :license: LGPL
    :recipe: /`bioconductor-xtropicaliscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicaliscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicaliscdf/meta.yaml>`_
 

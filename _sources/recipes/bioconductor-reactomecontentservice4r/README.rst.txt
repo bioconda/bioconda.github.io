@@ -12,7 +12,7 @@ bioconductor-reactomecontentservice4r
 
    Interface for the Reactome Content Service
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ReactomeContentService4R.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ReactomeContentService4R.html
    :license: Apache License (>= 2.0) | file LICENSE
    :recipe: /`bioconductor-reactomecontentservice4r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomecontentservice4r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomecontentservice4r/meta.yaml>`_
 

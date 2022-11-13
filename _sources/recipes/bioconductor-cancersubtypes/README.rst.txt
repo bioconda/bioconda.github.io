@@ -12,7 +12,7 @@ bioconductor-cancersubtypes
 
    Cancer subtypes identification\, validation and visualization based on multiple genomic data sets
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CancerSubtypes.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CancerSubtypes.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cancersubtypes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancersubtypes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancersubtypes/meta.yaml>`_
    :links: biotools: :biotools:`cancersubtypes`, doi: :doi:`10.1038/nmeth.3252`

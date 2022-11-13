@@ -12,7 +12,7 @@ bioconductor-hilbertvisgui
 
    HilbertVisGUI
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/HilbertVisGUI.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/HilbertVisGUI.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-hilbertvisgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvisgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvisgui/meta.yaml>`_
 

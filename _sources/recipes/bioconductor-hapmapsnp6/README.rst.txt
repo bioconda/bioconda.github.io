@@ -12,7 +12,7 @@ bioconductor-hapmapsnp6
 
    Sample data \- Hapmap SNP 6.0 Affymetrix
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/hapmapsnp6.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/hapmapsnp6.html
    :license: GPL
    :recipe: /`bioconductor-hapmapsnp6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmapsnp6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmapsnp6/meta.yaml>`_
 

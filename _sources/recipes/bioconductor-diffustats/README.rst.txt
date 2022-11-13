@@ -12,7 +12,7 @@ bioconductor-diffustats
 
    Diffusion scores on biological networks
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/diffuStats.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/diffuStats.html
    :license: GPL-3
    :recipe: /`bioconductor-diffustats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffustats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffustats/meta.yaml>`_
    :links: biotools: :biotools:`diffuStats`, doi: :doi:`10.1093/bioinformatics/btx632`

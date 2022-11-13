@@ -12,7 +12,7 @@ bioconductor-scran
 
    Methods for Single\-Cell RNA\-Seq Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scran.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scran.html
    :license: GPL-3
    :recipe: /`bioconductor-scran <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scran>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scran/meta.yaml>`_
    :links: biotools: :biotools:`scran`

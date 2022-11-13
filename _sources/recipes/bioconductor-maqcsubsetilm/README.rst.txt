@@ -12,7 +12,7 @@ bioconductor-maqcsubsetilm
 
    MAQC data subset for the Illumina platform
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/MAQCsubsetILM.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/MAQCsubsetILM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-maqcsubsetilm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcsubsetilm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcsubsetilm/meta.yaml>`_
 

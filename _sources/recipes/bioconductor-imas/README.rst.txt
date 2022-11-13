@@ -12,7 +12,7 @@ bioconductor-imas
 
    Integrative analysis of Multi\-omics data for Alternative Splicing
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/IMAS.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/IMAS.html
    :license: GPL-2
    :recipe: /`bioconductor-imas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imas/meta.yaml>`_
 

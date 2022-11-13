@@ -12,11 +12,11 @@ bioconductor-fgga
 
    Hierarchical ensemble method based on factor graph
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/fgga.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/fgga.html
    :license: GPL-3
    :recipe: /`bioconductor-fgga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgga/meta.yaml>`_
 
-   Package that implements the FGGA algorithm. This package provides a hierarchical ensemble method based ob factor graphs for the consistent GO annotation of protein coding genes. FGGA embodies elements of predicate logic\, communication theory\, supervised learning and inference in graphical models.
+   Package that implements the FGGA algorithm. This package provides a hierarchical ensemble method based ob factor graphs for the consistent cross\-ontology annotation of protein coding genes. FGGA embodies elements of predicate logic\, communication theory\, supervised learning and inference in graphical models.
 
 
 .. conda:package:: bioconductor-fgga

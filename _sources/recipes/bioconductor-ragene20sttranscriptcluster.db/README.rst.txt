@@ -12,7 +12,7 @@ bioconductor-ragene20sttranscriptcluster.db
 
    Affymetrix ragene20 annotation data \(chip ragene20sttranscriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ragene20sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/ragene20sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ragene20sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene20sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene20sttranscriptcluster.db/meta.yaml>`_
 

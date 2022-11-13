@@ -12,7 +12,7 @@ bioconductor-qusage
 
    qusage\: Quantitative Set Analysis for Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/qusage.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/qusage.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-qusage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qusage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qusage/meta.yaml>`_
    :links: biotools: :biotools:`qusage`

@@ -12,7 +12,7 @@ bioconductor-lumi
 
    BeadArray Specific Methods for Illumina Methylation and Expression Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/lumi.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/lumi.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-lumi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumi/meta.yaml>`_
    :links: biotools: :biotools:`lumi`

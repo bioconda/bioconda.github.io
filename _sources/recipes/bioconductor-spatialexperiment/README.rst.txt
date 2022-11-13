@@ -10,13 +10,13 @@ bioconductor-spatialexperiment
    :replaces_section_title:
    :noindex:
 
-   S4 Class for Spatial Experiments handling
+   S4 Class for Spatially Resolved Transcriptomics Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SpatialExperiment.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SpatialExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-spatialexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialexperiment/meta.yaml>`_
 
-   Defines S4 classes for storing data for spatial experiments. Main examples are reported by using seqFISH and 10x\-Visium Spatial Gene Expression data. This includes specialized methods for storing\, retrieving spatial coordinates\, 10x dedicated parameters and their handling.
+   Defines an S4 class for storing data from spatially resolved transcriptomics \(ST\) experiments. The class extends SingleCellExperiment to support storage and retrieval of additional information from spot\-based and molecule\-based ST platforms\, including spatial coordinates\, images\, and image metadata. A specialized constructor function is included for data from the 10x Genomics Visium platform.
 
 
 .. conda:package:: bioconductor-spatialexperiment

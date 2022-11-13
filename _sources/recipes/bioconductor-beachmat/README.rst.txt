@@ -12,7 +12,7 @@ bioconductor-beachmat
 
    Compiling Bioconductor to Handle Each Matrix Type
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/beachmat.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/beachmat.html
    :license: GPL-3
    :recipe: /`bioconductor-beachmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beachmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beachmat/meta.yaml>`_
 

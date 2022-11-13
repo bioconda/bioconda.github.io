@@ -12,7 +12,7 @@ bioconductor-iclusterplus
 
    Integrative clustering of multi\-type genomic data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/iClusterPlus.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/iClusterPlus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iclusterplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iclusterplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iclusterplus/meta.yaml>`_
 

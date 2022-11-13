@@ -12,7 +12,7 @@ bioconductor-garfield
 
    GWAS Analysis of Regulatory or Functional Information Enrichment with LD correction
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/garfield.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/garfield.html
    :license: GPL-3
    :recipe: /`bioconductor-garfield <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-garfield>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-garfield/meta.yaml>`_
 

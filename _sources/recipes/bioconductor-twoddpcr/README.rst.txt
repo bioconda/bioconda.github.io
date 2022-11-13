@@ -12,7 +12,7 @@ bioconductor-twoddpcr
 
    Classify 2\-d Droplet Digital PCR \(ddPCR\) data and quantify the number of starting molecules
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/twoddpcr.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/twoddpcr.html
    :license: GPL-3
    :recipe: /`bioconductor-twoddpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-twoddpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-twoddpcr/meta.yaml>`_
 

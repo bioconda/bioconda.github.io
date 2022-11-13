@@ -12,7 +12,7 @@ bioconductor-hapmap500knsp
 
    Sample data \- Hapmap 500K NSP Affymetrix
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/hapmap500knsp.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/hapmap500knsp.html
    :license: GPL
    :recipe: /`bioconductor-hapmap500knsp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap500knsp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap500knsp/meta.yaml>`_
 

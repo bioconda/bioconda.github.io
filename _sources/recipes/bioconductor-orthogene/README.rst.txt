@@ -12,11 +12,11 @@ bioconductor-orthogene
 
    Interspecies gene mapping
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/orthogene.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/orthogene.html
    :license: GPL-3
    :recipe: /`bioconductor-orthogene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthogene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthogene/meta.yaml>`_
 
-   orthogene is an R package for easy mapping of orthologous genes across hundreds of species. It pulls up\-to\-date interspecies gene ortholog mappings across 700\+ organisms. It also provides various utility functions to map common objects \(e.g. data.frames\, gene expression matrices\, lists\) onto 1\:1 gene orthologs from any other species.
+   \`orthogene\` is an R package for easy mapping of orthologous genes across hundreds of species. It pulls up\-to\-date gene ortholog mappings across \*\*700\+ organisms\*\*. It also provides various utility functions to aggregate\/expand common objects \(e.g. data.frames\, gene expression matrices\, lists\) using \*\*1\:1\*\*\, \*\*many\:1\*\*\, \*\*1\:many\*\* or \*\*many\:many\*\* gene mappings\, both within\- and between\-species.
 
 
 .. conda:package:: bioconductor-orthogene

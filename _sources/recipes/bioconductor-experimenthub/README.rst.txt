@@ -12,7 +12,7 @@ bioconductor-experimenthub
 
    Client to access ExperimentHub resources
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ExperimentHub.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ExperimentHub.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-experimenthub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthub/meta.yaml>`_
 

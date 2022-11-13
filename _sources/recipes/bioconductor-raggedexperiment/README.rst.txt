@@ -12,11 +12,11 @@ bioconductor-raggedexperiment
 
    Representation of Sparse Experiments and Assays Across Samples
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RaggedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RaggedExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-raggedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raggedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raggedexperiment/meta.yaml>`_
 
-   This package provides a flexible representation of copy number\, mutation\, and other data that fit into the ragged array schema for genomic location data. The basic representation of such data provides a rectangular flat table interface to the user with range information in the rows and samples\/specimen in the columns.
+   This package provides a flexible representation of copy number\, mutation\, and other data that fit into the ragged array schema for genomic location data. The basic representation of such data provides a rectangular flat table interface to the user with range information in the rows and samples\/specimen in the columns. The RaggedExperiment class derives from a GRangesList representation and provides a semblance of a rectangular dataset.
 
 
 .. conda:package:: bioconductor-raggedexperiment

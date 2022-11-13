@@ -12,7 +12,7 @@ bioconductor-nullranges
 
    Generation of null ranges via bootstrapping or covariate matching
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/nullranges.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/nullranges.html
    :license: GPL-3
    :recipe: /`bioconductor-nullranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nullranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nullranges/meta.yaml>`_
 

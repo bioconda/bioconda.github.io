@@ -12,7 +12,7 @@ bioconductor-ensdb.rnorvegicus.v79
 
    Ensembl based annotation package
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/EnsDb.Rnorvegicus.v79.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/EnsDb.Rnorvegicus.v79.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensdb.rnorvegicus.v79 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.rnorvegicus.v79>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.rnorvegicus.v79/meta.yaml>`_
 

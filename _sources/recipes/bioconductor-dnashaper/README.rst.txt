@@ -12,7 +12,7 @@ bioconductor-dnashaper
 
    High\-throughput prediction of DNA shape features
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DNAshapeR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DNAshapeR.html
    :license: GPL-2
    :recipe: /`bioconductor-dnashaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnashaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnashaper/meta.yaml>`_
    :links: biotools: :biotools:`dnashaper`

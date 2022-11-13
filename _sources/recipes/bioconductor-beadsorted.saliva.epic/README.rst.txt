@@ -10,13 +10,13 @@ bioconductor-beadsorted.saliva.epic
    :replaces_section_title:
    :noindex:
 
-   Illumina EPIC data on BeadSorted adult saliva cells
+   Illumina EPIC data on BeadSorted child saliva cells
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/BeadSorted.Saliva.EPIC.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/BeadSorted.Saliva.EPIC.html
    :license: GPL-3
    :recipe: /`bioconductor-beadsorted.saliva.epic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadsorted.saliva.epic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadsorted.saliva.epic/meta.yaml>`_
 
-   Raw data objects used to estimate saliva cell proportion estimates in ewastools. The FlowSorted.Saliva.EPIC object is constructed from saples assayed by Lauren Middleton et. al. \(2021\).
+   Raw data objects used to estimate saliva cell proportion estimates in ewastools. The FlowSorted.Saliva.EPIC object is constructed from samples assayed by Lauren Middleton et. al. \(2021\).
 
 
 .. conda:package:: bioconductor-beadsorted.saliva.epic

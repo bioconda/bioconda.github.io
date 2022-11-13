@@ -12,7 +12,7 @@ bioconductor-hopach
 
    Hierarchical Ordered Partitioning and Collapsing Hybrid \(HOPACH\)
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/hopach.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/hopach.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hopach <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hopach>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hopach/meta.yaml>`_
    :links: biotools: :biotools:`hopach`, doi: :doi:`10.1038/nmeth.3252`

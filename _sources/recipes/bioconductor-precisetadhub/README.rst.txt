@@ -12,7 +12,7 @@ bioconductor-precisetadhub
 
    Pre\-trained random forest models obtained using preciseTAD
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/preciseTADhub.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/preciseTADhub.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-precisetadhub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-precisetadhub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-precisetadhub/meta.yaml>`_
 

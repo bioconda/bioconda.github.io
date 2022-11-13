@@ -12,7 +12,7 @@ bioconductor-geneticsped
 
    Pedigree and genetic relationship functions
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GeneticsPed.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GeneticsPed.html
    :license: LGPL (>= 2.1) | file LICENSE
    :recipe: /`bioconductor-geneticsped <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsped>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsped/meta.yaml>`_
 

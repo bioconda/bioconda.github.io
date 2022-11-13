@@ -12,7 +12,7 @@ bioconductor-basecallqc
 
    Working with Illumina Basecalling and Demultiplexing input and output files
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/basecallQC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/basecallQC.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-basecallqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basecallqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basecallqc/meta.yaml>`_
 

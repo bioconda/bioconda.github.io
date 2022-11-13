@@ -10,13 +10,13 @@ bioconductor-cfdnapro
    :replaces_section_title:
    :noindex:
 
-   cfDNAPro Helps Characterise and Visualise Whole Genome Sequencing Data from Liquid Biopsy
+   cfDNAPro extracts and Visualises biological features from whole genome sequencing data of cell\-free DNA
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cfDNAPro.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cfDNAPro.html
    :license: GPL-3
    :recipe: /`bioconductor-cfdnapro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnapro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnapro/meta.yaml>`_
 
-   cfDNA fragment size metrics are important features for utilizing liquid biopsy in tumor early detection\, diagnosis\, therapy personlization and monitoring. Analyzing and visualizing insert size metrics could be time intensive. This package intends to simplify this exploration process\, and it offers two sets of functions for data characterization and data visualization.
+   cfDNA fragments carry important features for building cancer sample classification ML models\, such as fragment size\, and fragment end motif etc. Analyzing and visualizing fragment size metrics\, as well as other biological features in a curated\, standardized\, scalable\, well\-documented\, and reproducible way might be time intensive. This package intends to resolve these problems and simplify the process. It offers two sets of functions for cfDNA feature characterization and visualization.
 
 
 .. conda:package:: bioconductor-cfdnapro

@@ -12,7 +12,7 @@ bioconductor-easierdata
 
    easier internal data and exemplary dataset from IMvigor210CoreBiologies package
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/easierData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/easierData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-easierdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easierdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easierdata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mafh5.gnomad.v3.1.1.grch38
 
    Minor allele frequency data from gnomAD version 3.1.1 for GRCh38
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/MafH5.gnomAD.v3.1.1.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/MafH5.gnomAD.v3.1.1.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafh5.gnomad.v3.1.1.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafh5.gnomad.v3.1.1.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafh5.gnomad.v3.1.1.grch38/meta.yaml>`_
 

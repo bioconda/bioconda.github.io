@@ -12,12 +12,12 @@ bioconductor-annmap
 
    Genome annotation and visualisation package pertaining to Affymetrix arrays and NGS analysis.
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/annmap.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/annmap.html
    :license: GPL-2
    :recipe: /`bioconductor-annmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annmap/meta.yaml>`_
    :links: biotools: :biotools:`annmap`, doi: :doi:`10.1093/nar/gkm779`
 
-   annmap provides annotation mappings for Affymetrix exon arrays and coordinate based queries to support deep sequencing data analysis. Database access is hidden behind the API which provides a set of functions such as genesInRange\(\)\, geneToExon\(\)\, exonDetails\(\)\, etc. Functions to plot gene architecture and BAM file data are also provided. Underlying data are from Ensembl.
+   annmap provides annotation mappings for Affymetrix exon arrays and coordinate based queries to support deep sequencing data analysis. Database access is hidden behind the API which provides a set of functions such as genesInRange\(\)\, geneToExon\(\)\, exonDetails\(\)\, etc. Functions to plot gene architecture and BAM file data are also provided. Underlying data are from Ensembl. The annmap database can be downloaded from\: https\:\/\/figshare.manchester.ac.uk\/account\/articles\/16685071
 
 
 .. conda:package:: bioconductor-annmap

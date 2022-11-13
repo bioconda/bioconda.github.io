@@ -12,7 +12,7 @@ bioconductor-regioner
 
    Association analysis of genomic regions based on permutation tests
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/regioneR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/regioneR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-regioner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regioner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regioner/meta.yaml>`_
    :links: biotools: :biotools:`regioner`

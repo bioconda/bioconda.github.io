@@ -12,7 +12,7 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/TxDb.Celegans.UCSC.ce11.ensGene.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/TxDb.Celegans.UCSC.ce11.ensGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.celegans.ucsc.ce11.ensgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.celegans.ucsc.ce11.ensgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.celegans.ucsc.ce11.ensgene/meta.yaml>`_
 

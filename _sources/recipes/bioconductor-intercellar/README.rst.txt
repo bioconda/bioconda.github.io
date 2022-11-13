@@ -12,7 +12,7 @@ bioconductor-intercellar
 
    InterCellar\: an R\-Shiny app for interactive analysis and exploration of cell\-cell communication in single\-cell transcriptomics
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/InterCellar.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/InterCellar.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-intercellar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intercellar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intercellar/meta.yaml>`_
 

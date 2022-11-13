@@ -10,13 +10,13 @@ bioconductor-recountmethylation
    :replaces_section_title:
    :noindex:
 
-   Access and analyze DNA methylation database compilations
+   Access and analyze public DNA methylation array data compilations
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/recountmethylation.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/recountmethylation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-recountmethylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recountmethylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recountmethylation/meta.yaml>`_
 
-   Access cross\-study compilations of DNA methylation array databases. Database files can be downloaded and accessed using provided functions. Background about database file types \(HDF5 and HDF5\-SummarizedExperiment\)\, SummarizedExperiment classes\, and examples for data handling\, validation\, and analyses\, can be found in the package vignettes. Note the disclaimer on package load\, and consult the main manuscript for further info.
+   Resources for cross\-study analyses of public DNAm array data from NCBI GEO repo\, produced using Illumina\'s Infinium HumanMethylation450K \(HM450K\) and MethylationEPIC \(EPIC\) platforms. Provided functions enable download\, summary\, and filtering of large compilation files. Vignettes detail background about file formats\, example analyses\, and more. Note the disclaimer on package load and consult the main manuscripts for further info.
 
 
 .. conda:package:: bioconductor-recountmethylation

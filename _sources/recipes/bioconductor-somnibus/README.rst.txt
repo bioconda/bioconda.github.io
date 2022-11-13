@@ -12,7 +12,7 @@ bioconductor-somnibus
 
    Smooth modeling of bisulfite sequencing
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SOMNiBUS.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SOMNiBUS.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-somnibus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somnibus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somnibus/meta.yaml>`_
 

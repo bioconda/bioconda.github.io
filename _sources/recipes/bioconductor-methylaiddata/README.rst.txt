@@ -12,7 +12,7 @@ bioconductor-methylaiddata
 
    MethylAid\-summarized data for 2800 Illumina 450k array samples and 2620 EPIC array samples
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/MethylAidData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/MethylAidData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-methylaiddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaiddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaiddata/meta.yaml>`_
 

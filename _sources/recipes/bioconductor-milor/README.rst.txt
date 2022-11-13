@@ -12,11 +12,11 @@ bioconductor-milor
 
    Differential neighbourhood abundance testing on a graph
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/miloR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/miloR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-milor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-milor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-milor/meta.yaml>`_
 
-   This package performs single\-cell differential abundance testing. Cell states are modelled as representative neighbourhoods on a nearest neighbour graph. Hypothesis testing is performed using a negative bionomial generalized linear model.
+   Milo performs single\-cell differential abundance testing. Cell states are modelled as representative neighbourhoods on a nearest neighbour graph. Hypothesis testing is performed using a negative bionomial generalized linear model.
 
 
 .. conda:package:: bioconductor-milor

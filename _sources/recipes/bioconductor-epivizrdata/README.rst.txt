@@ -12,7 +12,7 @@ bioconductor-epivizrdata
 
    Data Management API for epiviz interactive visualization app
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/epivizrData.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/epivizrData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epivizrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrdata/meta.yaml>`_
    :links: biotools: :biotools:`epivizrdata`, doi: :doi:`10.1038/nmeth.3252`

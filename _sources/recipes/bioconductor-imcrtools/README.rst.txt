@@ -12,7 +12,7 @@ bioconductor-imcrtools
 
    Methods for imaging mass cytometry data analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/imcRtools.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/imcRtools.html
    :license: GPL-3
    :recipe: /`bioconductor-imcrtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imcrtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imcrtools/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-transcriptogramer
 
    Transcriptional analysis based on transcriptograms
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/transcriptogramer.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/transcriptogramer.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-transcriptogramer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transcriptogramer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transcriptogramer/meta.yaml>`_
 

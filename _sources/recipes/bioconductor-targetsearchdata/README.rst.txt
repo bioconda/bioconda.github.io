@@ -12,11 +12,11 @@ bioconductor-targetsearchdata
 
    Example GC\-MS data for TargetSearch Package
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/TargetSearchData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/TargetSearchData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-targetsearchdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearchdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearchdata/meta.yaml>`_
 
-   This package provides example GC\-MS data for TargetSearch Package.
+   Example files of GC\-MS data for the TargetSearch Package. The package contains raw NetCDF files from a E.coli salt stress experiment\, extracted peak lists\, and sample metadata required for a GC\-MS analysis. The raw data has been restricted for demonstration purposes.
 
 
 .. conda:package:: bioconductor-targetsearchdata

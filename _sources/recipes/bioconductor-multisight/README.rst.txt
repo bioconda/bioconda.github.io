@@ -12,11 +12,11 @@ bioconductor-multisight
 
    Multi\-omics Classification\, Functional Enrichment and Network Inference analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/multiSight.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/multiSight.html
    :license: CeCILL + file LICENSE
    :recipe: /`bioconductor-multisight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multisight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multisight/meta.yaml>`_
 
-   multiSight is an R package providing an user\-friendly graphical interface to analyze your omic datasets in a multi\-omics manner based on Stouffer\'s p\-value pooling and multi\-block statistical methods. For each omic dataset you furnish\, multiSight provides classification models with feature selection you can use as biosignature\: \(i\) To forecast phenotypes \(e.g. to diagnostic tasks\, histological subtyping\)\, \(ii\) To design Pathways and gene ontology enrichments \(Over Representation Analysis\)\, \(iii\) To build Network inference linked to PubMed querying to make assumptions easier and data\-driven.
+   multiSight is an R package providing functions to analyze your omic datasets in a multi\-omics manner based on Stouffer\'s p\-value pooling and multi\-block statistical methods. For each omic dataset you furnish\, multiSight provides classification models with feature selection you can use as biosignature\: \(i\) To forecast phenotypes \(e.g. to diagnostic tasks\, histological subtyping\)\, \(ii\) To design Pathways and gene ontology enrichments \(Over Representation Analysis\)\, \(iii\) To build Network inference linked to PubMed querying to make assumptions easier and data\-driven. Main analysis are embedded in an user\-friendly graphical interface.
 
 
 .. conda:package:: bioconductor-multisight

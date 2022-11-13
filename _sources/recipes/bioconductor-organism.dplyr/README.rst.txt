@@ -12,7 +12,7 @@ bioconductor-organism.dplyr
 
    dplyr\-based Access to Bioconductor Annotation Resources
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Organism.dplyr.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Organism.dplyr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-organism.dplyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organism.dplyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organism.dplyr/meta.yaml>`_
 

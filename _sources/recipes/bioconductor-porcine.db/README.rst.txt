@@ -12,7 +12,7 @@ bioconductor-porcine.db
 
    Affymetrix Affymetrix Porcine Array annotation data \(chip porcine\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/porcine.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/porcine.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-porcine.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcine.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcine.db/meta.yaml>`_
 

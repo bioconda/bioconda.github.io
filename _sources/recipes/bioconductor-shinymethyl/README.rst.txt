@@ -12,7 +12,7 @@ bioconductor-shinymethyl
 
    Interactive visualization for Illumina methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/shinyMethyl.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/shinyMethyl.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-shinymethyl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinymethyl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinymethyl/meta.yaml>`_
    :links: biotools: :biotools:`shinymethyl`

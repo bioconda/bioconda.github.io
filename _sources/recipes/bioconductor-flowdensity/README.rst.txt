@@ -12,7 +12,7 @@ bioconductor-flowdensity
 
    Sequential Flow Cytometry Data Gating
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flowDensity.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/flowDensity.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowdensity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowdensity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowdensity/meta.yaml>`_
    :links: biotools: :biotools:`flowdensity`, doi: :doi:`10.1093/bioinformatics/btu677`

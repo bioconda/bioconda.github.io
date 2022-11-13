@@ -12,7 +12,7 @@ bioconductor-lace
 
    Longitudinal Analysis of Cancer Evolution \(LACE\)
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/LACE.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/LACE.html
    :license: file LICENSE
    :recipe: /`bioconductor-lace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lace/meta.yaml>`_
 

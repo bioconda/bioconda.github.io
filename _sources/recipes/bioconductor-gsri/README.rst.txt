@@ -12,7 +12,7 @@ bioconductor-gsri
 
    Gene Set Regulation Index
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GSRI.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GSRI.html
    :license: GPL-3
    :recipe: /`bioconductor-gsri <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsri>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsri/meta.yaml>`_
    :links: biotools: :biotools:`gsri`, doi: :doi:`10.1038/nmeth.3252`

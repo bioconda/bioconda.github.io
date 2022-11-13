@@ -12,7 +12,7 @@ bioconductor-cyanofilter
 
    Phytoplankton Population Identification using Cell Pigmentation and\/or Complexity
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cyanoFilter.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cyanoFilter.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cyanofilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cyanofilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cyanofilter/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rontotools
 
    R Onto\-Tools suite
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ROntoTools.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ROntoTools.html
    :license: CC BY-NC-ND 4.0 + file LICENSE
    :recipe: /`bioconductor-rontotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rontotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rontotools/meta.yaml>`_
    :links: biotools: :biotools:`rontotools`, doi: :doi:`10.1109/JPROC.2016.2531000`

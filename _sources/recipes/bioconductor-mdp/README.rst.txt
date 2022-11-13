@@ -12,7 +12,7 @@ bioconductor-mdp
 
    Molecular Degree of Perturbation calculates scores for transcriptome data samples based on their perturbation from controls
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mdp.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mdp.html
    :license: GPL-3
    :recipe: /`bioconductor-mdp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdp/meta.yaml>`_
 

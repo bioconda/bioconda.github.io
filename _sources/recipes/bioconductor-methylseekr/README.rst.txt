@@ -12,7 +12,7 @@ bioconductor-methylseekr
 
    Segmentation of Bis\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MethylSeekR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MethylSeekR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-methylseekr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylseekr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylseekr/meta.yaml>`_
    :links: biotools: :biotools:`methylseekr`

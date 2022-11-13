@@ -10,9 +10,9 @@ bioconductor-flowcut
    :replaces_section_title:
    :noindex:
 
-   Precise and Accurate Automated Removal of Outlier Events and Flagging of Files Based on Time Versus Fluorescence Analysis
+   Automated Removal of Outlier Events and Flagging of Files Based on Time Versus Fluorescence Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flowCut.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/flowCut.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowcut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcut/meta.yaml>`_
 

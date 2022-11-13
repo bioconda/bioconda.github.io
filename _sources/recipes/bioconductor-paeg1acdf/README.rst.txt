@@ -12,7 +12,7 @@ bioconductor-paeg1acdf
 
    paeg1acdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/paeg1acdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/paeg1acdf.html
    :license: LGPL
    :recipe: /`bioconductor-paeg1acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1acdf/meta.yaml>`_
 

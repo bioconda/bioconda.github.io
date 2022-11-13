@@ -12,7 +12,7 @@ bioconductor-netboxr
 
    netboxr
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/netboxr.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/netboxr.html
    :license: LGPL-3 + file LICENSE
    :recipe: /`bioconductor-netboxr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboxr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboxr/meta.yaml>`_
 

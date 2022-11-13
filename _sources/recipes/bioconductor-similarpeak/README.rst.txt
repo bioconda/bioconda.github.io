@@ -12,12 +12,12 @@ bioconductor-similarpeak
 
    Metrics to estimate a level of similarity between two ChIP\-Seq profiles
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/similaRpeak.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/similaRpeak.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-similarpeak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-similarpeak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-similarpeak/meta.yaml>`_
    :links: biotools: :biotools:`similarpeak`, doi: :doi:`10.1371/journal.pcbi.1004751`
 
-   This package calculates metrics which assign a level of similarity between ChIP\-Seq profiles.
+   This package calculates metrics which quantify the level of similarity between ChIP\-Seq profiles. More specifically\, the package implements six pseudometrics specialized in pattern similarity detection in ChIP\-Seq profiles.
 
 
 .. conda:package:: bioconductor-similarpeak

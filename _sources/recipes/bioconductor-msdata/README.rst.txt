@@ -12,11 +12,11 @@ bioconductor-msdata
 
    Various Mass Spectrometry raw data example files
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/msdata.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/msdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-msdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msdata/meta.yaml>`_
 
-   Ion Trap positive ionization mode data in mzData file format.  Subset from 500\-850 m\/z and 1190\-1310 seconds\, incl. MS2 and MS3\, intensity threshold 100.000. Extracts from FTICR Apex III\, m\/z 400\-450.  Subset of UPLC \- Bruker micrOTOFq data\, both mzData\, mzML and mz5. LC\-MSMS and MRM files from proteomics experiments. PSI mzIdentML example files for various search engines.
+   Ion Trap positive ionization mode data in mzML file format.  Subset from 500\-850 m\/z and 1190\-1310 seconds\, incl. MS2 and MS3\, intensity threshold 100.000. Extracts from FTICR Apex III\, m\/z 400\-450.  Subset of UPLC \- Bruker micrOTOFq data\, both mzML and mz5. LC\-MSMS and MRM files from proteomics experiments. PSI mzIdentML example files for various search engines.
 
 
 .. conda:package:: bioconductor-msdata

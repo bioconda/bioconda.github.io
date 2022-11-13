@@ -12,7 +12,7 @@ bioconductor-omadb
 
    R wrapper for the OMA REST API
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/OmaDB.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/OmaDB.html
    :license: GPL-3
    :recipe: /`bioconductor-omadb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omadb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omadb/meta.yaml>`_
 

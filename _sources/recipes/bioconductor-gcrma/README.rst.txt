@@ -12,7 +12,7 @@ bioconductor-gcrma
 
    Background Adjustment Using Sequence Information
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/gcrma.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/gcrma.html
    :license: LGPL
    :recipe: /`bioconductor-gcrma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrma/meta.yaml>`_
    :links: biotools: :biotools:`gcrma`, doi: :doi:`10.1186/1471-2105-9-452`

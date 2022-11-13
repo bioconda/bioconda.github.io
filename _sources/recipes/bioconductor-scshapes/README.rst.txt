@@ -12,7 +12,7 @@ bioconductor-scshapes
 
    A Statistical Framework for Modeling and Identifying Differential Distributions in Single\-cell RNA\-sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scShapes.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scShapes.html
    :license: GPL-3
    :recipe: /`bioconductor-scshapes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scshapes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scshapes/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hgfocuscdf
 
    hgfocuscdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hgfocuscdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hgfocuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgfocuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocuscdf/meta.yaml>`_
 

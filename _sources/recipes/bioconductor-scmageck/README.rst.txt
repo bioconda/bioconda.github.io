@@ -12,7 +12,7 @@ bioconductor-scmageck
 
    Identify genes associated with multiple expression phenotypes in single\-cell CRISPR screening data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scMAGeCK.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scMAGeCK.html
    :license: BSD_2_clause
    :recipe: /`bioconductor-scmageck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmageck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmageck/meta.yaml>`_
 

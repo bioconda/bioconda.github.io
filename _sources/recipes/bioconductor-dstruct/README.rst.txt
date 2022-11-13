@@ -12,7 +12,7 @@ bioconductor-dstruct
 
    Identifying differentially reactive regions from RNA structurome profiling data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/dStruct.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/dStruct.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dstruct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dstruct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dstruct/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pd.mapping250k.sty
 
    Platform Design Info for Affymetrix Mapping250K\_Sty
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.mapping250k.sty.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.mapping250k.sty.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.mapping250k.sty <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mapping250k.sty>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mapping250k.sty/meta.yaml>`_
 

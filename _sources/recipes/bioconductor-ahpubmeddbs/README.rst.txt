@@ -12,7 +12,7 @@ bioconductor-ahpubmeddbs
 
    SQLites\, tibbles\, and data.tables for AnnotationHub
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/AHPubMedDbs.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/AHPubMedDbs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahpubmeddbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahpubmeddbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahpubmeddbs/meta.yaml>`_
 

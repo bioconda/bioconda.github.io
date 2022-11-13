@@ -12,7 +12,7 @@ bioconductor-somaticsignatures
 
    Somatic Signatures
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SomaticSignatures.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SomaticSignatures.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-somaticsignatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticsignatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticsignatures/meta.yaml>`_
    :links: biotools: :biotools:`somaticsignatures`

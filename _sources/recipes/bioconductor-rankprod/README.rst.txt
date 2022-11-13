@@ -12,7 +12,7 @@ bioconductor-rankprod
 
    Rank Product method for identifying differentially expressed genes with application in meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RankProd.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RankProd.html
    :license: file LICENSE
    :recipe: /`bioconductor-rankprod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rankprod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rankprod/meta.yaml>`_
    :links: biotools: :biotools:`rankprod`, doi: :doi:`10.1093/bioinformatics/btl476`

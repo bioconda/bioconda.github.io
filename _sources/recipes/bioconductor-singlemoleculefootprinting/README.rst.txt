@@ -12,7 +12,7 @@ bioconductor-singlemoleculefootprinting
 
    Analysis tools for Single Molecule Footprinting \(SMF\) data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SingleMoleculeFootprinting.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SingleMoleculeFootprinting.html
    :license: GPL-3
    :recipe: /`bioconductor-singlemoleculefootprinting <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlemoleculefootprinting>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlemoleculefootprinting/meta.yaml>`_
 

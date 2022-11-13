@@ -12,7 +12,7 @@ bioconductor-mgfr
 
    Marker Gene Finder in RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MGFR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MGFR.html
    :license: GPL-3
    :recipe: /`bioconductor-mgfr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfr/meta.yaml>`_
    :links: biotools: :biotools:`mgfr`, doi: :doi:`10.1186/s12864-015-1785-9`

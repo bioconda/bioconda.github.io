@@ -12,7 +12,7 @@ bioconductor-cnvgears
 
    A Framework of Functions to Combine\, Analize and Interpret CNVs Calling Results
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CNVgears.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CNVgears.html
    :license: GPL-3
    :recipe: /`bioconductor-cnvgears <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgears>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgears/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-olin
 
    Optimized local intensity\-dependent normalisation of two\-color microarrays
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/OLIN.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/OLIN.html
    :license: GPL-2
    :recipe: /`bioconductor-olin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olin/meta.yaml>`_
    :links: biotools: :biotools:`olin`

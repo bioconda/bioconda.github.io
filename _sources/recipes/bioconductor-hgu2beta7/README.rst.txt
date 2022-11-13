@@ -12,7 +12,7 @@ bioconductor-hgu2beta7
 
    A data package containing annotation data for hgu2beta7
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/hgu2beta7.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/hgu2beta7.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgu2beta7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu2beta7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu2beta7/meta.yaml>`_
 

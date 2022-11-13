@@ -12,7 +12,7 @@ bioconductor-brain
 
    Baffling Recursive Algorithm for Isotope distributioN calculations
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BRAIN.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BRAIN.html
    :license: GPL-2
    :recipe: /`bioconductor-brain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brain/meta.yaml>`_
    :links: biotools: :biotools:`brain`, doi: :doi:`10.1021/ac303439m`

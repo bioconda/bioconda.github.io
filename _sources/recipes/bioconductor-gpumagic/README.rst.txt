@@ -12,7 +12,7 @@ bioconductor-gpumagic
 
    An openCL compiler with the capacity to compile R functions and run the code on GPU
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/gpuMagic.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/gpuMagic.html
    :license: GPL-3
    :recipe: /`bioconductor-gpumagic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpumagic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpumagic/meta.yaml>`_
 

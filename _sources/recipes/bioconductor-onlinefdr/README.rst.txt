@@ -10,13 +10,13 @@ bioconductor-onlinefdr
    :replaces_section_title:
    :noindex:
 
-   Online error control
+   Online error rate control
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/onlineFDR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/onlineFDR.html
    :license: GPL-3
    :recipe: /`bioconductor-onlinefdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr/meta.yaml>`_
 
-   This package allows users to control the false discovery rate \(FDR\) or familywise error rate \(FWER\) for online hypothesis testing\, where hypotheses arrive sequentially in a stream. In this framework\, a null hypothesis is rejected based only on the previous decisions\, as the future p\-values and the number of hypotheses to be tested are unknown.
+   This package allows users to control the false discovery rate \(FDR\) or familywise error rate \(FWER\) for online multiple hypothesis testing\, where hypotheses arrive in a stream. In this framework\, a null hypothesis is rejected based on the evidence against it and on the previous rejection decisions.
 
 
 .. conda:package:: bioconductor-onlinefdr

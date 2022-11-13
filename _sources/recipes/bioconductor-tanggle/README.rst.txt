@@ -12,7 +12,7 @@ bioconductor-tanggle
 
    Visualization of Phylogenetic Networks
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/tanggle.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/tanggle.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tanggle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tanggle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tanggle/meta.yaml>`_
 

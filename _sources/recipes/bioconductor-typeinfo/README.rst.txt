@@ -12,8 +12,8 @@ bioconductor-typeinfo
 
    Optional Type Specification Prototype
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TypeInfo.html
-   :license: BSD
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TypeInfo.html
+   :license: BSD_2_clause
    :recipe: /`bioconductor-typeinfo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-typeinfo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-typeinfo/meta.yaml>`_
 
    A prototype for a mechanism for specifying the types of parameters and the return value for an R function. This is meta\-information that can be used to generate stubs for servers and various interfaces to these functions. Additionally\, the arguments in a call to a typed function can be validated using the type specifications. We allow types to be specified as either i\) by class name using either inheritance \- is\(x\, className\)\, or strict instance of \- class\(x\) \%in\% className\, or ii\) a dynamic test given as an R expression which is evaluated at run\-time. More precise information and interesting tests can be done via ii\)\, but it is harder to use this information as meta\-data as it requires more effort to interpret it and it is of course run\-time information. It is typically more meaningful.

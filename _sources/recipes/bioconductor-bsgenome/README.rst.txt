@@ -12,7 +12,7 @@ bioconductor-bsgenome
 
    Software infrastructure for efficient representation of full genomes and their SNPs
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BSgenome.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BSgenome.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome/meta.yaml>`_
    :links: biotools: :biotools:`bsgenome`, doi: :doi:`10.1038/nmeth.3252`

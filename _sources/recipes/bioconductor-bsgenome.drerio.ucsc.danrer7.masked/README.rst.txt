@@ -12,7 +12,7 @@ bioconductor-bsgenome.drerio.ucsc.danrer7.masked
 
    Full masked genome sequences for Danio rerio \(UCSC version danRer7\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Drerio.UCSC.danRer7.masked.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Drerio.UCSC.danRer7.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.drerio.ucsc.danrer7.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer7.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer7.masked/meta.yaml>`_
 

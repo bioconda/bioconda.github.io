@@ -12,7 +12,7 @@ bioconductor-msigdb
 
    An ExperimentHub Package for the Molecular Signatures Database \(MSigDB\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/msigdb.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/msigdb.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-msigdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msigdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msigdb/meta.yaml>`_
 

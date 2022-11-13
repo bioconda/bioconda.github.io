@@ -12,7 +12,7 @@ bioconductor-pasillatranscriptexpr
 
    Data package with transcript expression obtained with kallisto from pasilla knock\-down RNA\-Seq data from Brooks et al.
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/PasillaTranscriptExpr.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/PasillaTranscriptExpr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-pasillatranscriptexpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillatranscriptexpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillatranscriptexpr/meta.yaml>`_
 

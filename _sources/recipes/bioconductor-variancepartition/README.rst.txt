@@ -10,10 +10,10 @@ bioconductor-variancepartition
    :replaces_section_title:
    :noindex:
 
-   Quantify and interpret divers of variation in multilevel gene expression experiments
+   Quantify and interpret drivers of variation in multilevel gene expression experiments
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/variancePartition.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/variancePartition.html
+   :license: GPL-2
    :recipe: /`bioconductor-variancepartition <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variancepartition>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variancepartition/meta.yaml>`_
    :links: biotools: :biotools:`variancepartition`
 

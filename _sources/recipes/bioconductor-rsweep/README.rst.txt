@@ -12,7 +12,7 @@ bioconductor-rsweep
 
    Functions to creation of low dimensional comparative matrices of Amino Acid Sequence occurrences
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rSWeeP.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rSWeeP.html
    :license: GPL-3
    :recipe: /`bioconductor-rsweep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsweep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsweep/meta.yaml>`_
 

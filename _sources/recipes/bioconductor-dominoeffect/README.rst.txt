@@ -12,7 +12,7 @@ bioconductor-dominoeffect
 
    Identification and Annotation of Protein Hotspot Residues
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DominoEffect.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DominoEffect.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-dominoeffect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dominoeffect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dominoeffect/meta.yaml>`_
 

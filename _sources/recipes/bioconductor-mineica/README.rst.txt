@@ -12,7 +12,7 @@ bioconductor-mineica
 
    Analysis of an ICA decomposition obtained on genomics data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MineICA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MineICA.html
    :license: GPL-2
    :recipe: /`bioconductor-mineica <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mineica>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mineica/meta.yaml>`_
    :links: biotools: :biotools:`mineica`, doi: :doi:`10.1155/2014/213656`

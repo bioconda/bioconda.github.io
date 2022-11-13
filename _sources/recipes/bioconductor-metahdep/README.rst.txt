@@ -12,7 +12,7 @@ bioconductor-metahdep
 
    Hierarchical Dependence in Meta\-Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/metahdep.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/metahdep.html
    :license: GPL-3
    :recipe: /`bioconductor-metahdep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metahdep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metahdep/meta.yaml>`_
    :links: biotools: :biotools:`metahdep`, doi: :doi:`10.1093/bioinformatics/btp468`

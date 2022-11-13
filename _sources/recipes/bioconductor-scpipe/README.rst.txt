@@ -12,7 +12,7 @@ bioconductor-scpipe
 
    pipeline for single cell RNA\-seq data analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scPipe.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scPipe.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-scpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpipe/meta.yaml>`_
 

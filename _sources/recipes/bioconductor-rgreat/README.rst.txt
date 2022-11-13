@@ -10,14 +10,14 @@ bioconductor-rgreat
    :replaces_section_title:
    :noindex:
 
-   Client for GREAT Analysis
+   GREAT Analysis \- Functional Enrichment on Genomic Regions
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rGREAT.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rGREAT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rgreat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat/meta.yaml>`_
    :links: biotools: :biotools:`rgreat`, doi: :doi:`10.1038/nmeth.3252`
 
-   This package makes GREAT \(Genomic Regions Enrichment of Annotations Tool\) analysis automatic by constructing a HTTP POST request according to user\'s input and automatically retrieving results from GREAT web server.
+   GREAT \(Genomic Regions Enrichment of Annotations Tool\) is a type of functional enrichment analysis directly performed on genomic regions. This package implements the GREAT algorithm \(the local GREAT analysis\)\, also it supports directly interacting with the GREAT web service \(the online GREAT analysis\). Both analysis can be viewed by a Shiny application. rGREAT by default supports more than 600 organisms and a large number of gene set collections\, as well as self\-provided gene sets and organisms from users. Additionally\, it implements a general method for dealing with background regions.
 
 
 .. conda:package:: bioconductor-rgreat

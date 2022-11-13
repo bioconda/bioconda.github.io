@@ -12,7 +12,7 @@ bioconductor-oppti
 
    Outlier Protein and Phosphosite Target Identifier
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/oppti.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/oppti.html
    :license: MIT
    :recipe: /`bioconductor-oppti <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oppti>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oppti/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rtnsurvival
 
    Survival analysis using transcriptional networks inferred by the RTN package
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RTNsurvival.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RTNsurvival.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rtnsurvival <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtnsurvival>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtnsurvival/meta.yaml>`_
 

@@ -10,13 +10,13 @@ bioconductor-stexampledata
    :replaces_section_title:
    :noindex:
 
-   Collection of spatially resolved transcriptomics datasets in SpatialExperiment Bioconductor format
+   Collection of spatially\-resolved transcriptomics datasets in SpatialExperiment Bioconductor format
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/STexampleData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/STexampleData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-stexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stexampledata/meta.yaml>`_
 
-   Collection of spatially resolved transcriptomics datasets in SpatialExperiment Bioconductor format\, for use in examples\, demonstrations\, tutorials\, and other purposes. The datasets have been sourced from various publicly available sources\, and cover several technological platforms.
+   Collection of spatially\-resolved transcriptomics \(SRT\) datasets in SpatialExperiment Bioconductor format\, for use in examples\, demonstrations\, and tutorials. The datasets are from several different SRT platforms and have been sourced from various publicly available sources. Several datasets include images and\/or ground truth annotation labels.
 
 
 .. conda:package:: bioconductor-stexampledata

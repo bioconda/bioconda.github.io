@@ -12,7 +12,7 @@ bioconductor-metams
 
    MS\-based metabolomics annotation pipeline
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/metaMS.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/metaMS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-metams <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metams>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metams/meta.yaml>`_
    :links: biotools: :biotools:`metams`

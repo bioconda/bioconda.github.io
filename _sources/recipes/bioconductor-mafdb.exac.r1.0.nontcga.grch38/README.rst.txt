@@ -12,7 +12,7 @@ bioconductor-mafdb.exac.r1.0.nontcga.grch38
 
    Minor allele frequency data from ExAC release 1.0 subset of nonTCGA exomes for GRCh38
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/MafDb.ExAC.r1.0.nonTCGA.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/MafDb.ExAC.r1.0.nonTCGA.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.exac.r1.0.nontcga.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.nontcga.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.nontcga.grch38/meta.yaml>`_
 

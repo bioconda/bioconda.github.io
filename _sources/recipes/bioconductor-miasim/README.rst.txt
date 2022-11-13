@@ -12,7 +12,7 @@ bioconductor-miasim
 
    Microbiome Data Simulation
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/miaSim.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/miaSim.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-miasim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miasim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miasim/meta.yaml>`_
 

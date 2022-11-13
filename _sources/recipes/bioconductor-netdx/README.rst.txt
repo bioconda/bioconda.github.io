@@ -12,7 +12,7 @@ bioconductor-netdx
 
    Network\-based patient classifier
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/netDx.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/netDx.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-netdx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netdx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netdx/meta.yaml>`_
 

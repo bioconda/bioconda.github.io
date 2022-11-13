@@ -12,11 +12,11 @@ bioconductor-nxtirfdata
 
    Data for NxtIRF
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/NxtIRFdata.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/NxtIRFdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-nxtirfdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfdata/meta.yaml>`_
 
-   NxtIRFdata is a companion package for NxtIRF\, which is an IRFinder\- based R package for Intron Retention and Alternative Splicing quantitation for RNA\-seq BAM files. NxtIRFdata contains Mappability files required for the generation of human and mouse references. NxtIRFdata also contains a synthetic genome reference and example BAM files used to test NxtIRF. BAM files are based on 6 samples from the Leucegene dataset provided by NCBI Gene Expression Omnibus under accession number GSE67039.
+   NxtIRFdata is a companion package for SpliceWiz\, an interactive analysis and visualization tool for alternative splicing quantitation \(including intron retention\) for RNA\-seq BAM files. NxtIRFdata contains Mappability files required for the generation of human and mouse references. NxtIRFdata also contains a synthetic genome reference and example BAM files used to demonstrate SpliceWiz\'s functionality. BAM files are based on 6 samples from the Leucegene dataset provided by NCBI Gene Expression Omnibus under accession number GSE67039.
 
 
 .. conda:package:: bioconductor-nxtirfdata

@@ -12,7 +12,7 @@ bioconductor-mina
 
    Microbial community dIversity and Network Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mina.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mina.html
    :license: GPL
    :recipe: /`bioconductor-mina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mina/meta.yaml>`_
 

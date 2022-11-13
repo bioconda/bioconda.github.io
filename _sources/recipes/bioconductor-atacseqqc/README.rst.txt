@@ -12,7 +12,7 @@ bioconductor-atacseqqc
 
    ATAC\-seq Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ATACseqQC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ATACseqQC.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-atacseqqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atacseqqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atacseqqc/meta.yaml>`_
 

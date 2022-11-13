@@ -12,7 +12,7 @@ bioconductor-netprior
 
    A model for network\-based prioritisation of genes
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/netprioR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/netprioR.html
    :license: GPL-3
    :recipe: /`bioconductor-netprior <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netprior>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netprior/meta.yaml>`_
 

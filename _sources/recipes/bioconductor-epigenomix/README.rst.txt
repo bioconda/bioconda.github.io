@@ -12,7 +12,7 @@ bioconductor-epigenomix
 
    Epigenetic and gene transcription data normalization and integration with mixture models
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/epigenomix.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/epigenomix.html
    :license: LGPL-3
    :recipe: /`bioconductor-epigenomix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigenomix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigenomix/meta.yaml>`_
    :links: biotools: :biotools:`epigenomix`

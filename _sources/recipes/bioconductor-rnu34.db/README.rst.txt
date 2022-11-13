@@ -12,7 +12,7 @@ bioconductor-rnu34.db
 
    Affymetrix Affymetrix RN\_U34 Array annotation data \(chip rnu34\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/rnu34.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/rnu34.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnu34.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34.db/meta.yaml>`_
 

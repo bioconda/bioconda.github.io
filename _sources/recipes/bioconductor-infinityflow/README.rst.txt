@@ -12,7 +12,7 @@ bioconductor-infinityflow
 
    Augmenting Massively Parallel Cytometry Experiments Using Multivariate Non\-Linear Regressions
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/infinityFlow.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/infinityFlow.html
    :license: GPL-3
    :recipe: /`bioconductor-infinityflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infinityflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infinityflow/meta.yaml>`_
 

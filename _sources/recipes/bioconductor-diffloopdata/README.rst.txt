@@ -12,7 +12,7 @@ bioconductor-diffloopdata
 
    Example ChIA\-PET Datasets for the diffloop Package
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/diffloopdata.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/diffloopdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-diffloopdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffloopdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffloopdata/meta.yaml>`_
 

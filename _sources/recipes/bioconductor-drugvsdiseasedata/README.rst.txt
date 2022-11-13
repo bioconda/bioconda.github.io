@@ -12,7 +12,7 @@ bioconductor-drugvsdiseasedata
 
    Drug versus Disease Data
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/DrugVsDiseasedata.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/DrugVsDiseasedata.html
    :license: GPL-3
    :recipe: /`bioconductor-drugvsdiseasedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdiseasedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdiseasedata/meta.yaml>`_
 

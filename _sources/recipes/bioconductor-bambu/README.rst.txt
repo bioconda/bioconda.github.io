@@ -10,9 +10,9 @@ bioconductor-bambu
    :replaces_section_title:
    :noindex:
 
-   Reference\-guided isoform reconstruction and quantification for long read RNA\-Seq data
+   Context\-Aware Transcript Quantification from Long Read RNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/bambu.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/bambu.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-bambu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bambu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bambu/meta.yaml>`_
 

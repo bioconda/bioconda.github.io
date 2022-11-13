@@ -12,7 +12,7 @@ bioconductor-sarks
 
    Suffix Array Kernel Smoothing for discovery of correlative sequence motifs and multi\-motif domains
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sarks.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sarks.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-sarks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sarks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sarks/meta.yaml>`_
 

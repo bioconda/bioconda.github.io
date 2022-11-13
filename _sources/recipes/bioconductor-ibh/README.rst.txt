@@ -12,7 +12,7 @@ bioconductor-ibh
 
    Interaction Based Homogeneity for Evaluating Gene Lists
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ibh.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ibh.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ibh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibh/meta.yaml>`_
    :links: biotools: :biotools:`ibh`, doi: :doi:`10.1038/nmeth.3252`

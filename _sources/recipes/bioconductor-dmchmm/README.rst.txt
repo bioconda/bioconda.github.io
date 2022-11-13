@@ -12,7 +12,7 @@ bioconductor-dmchmm
 
    Differentially Methylated CpG using Hidden Markov Model
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DMCHMM.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DMCHMM.html
    :license: GPL-3
    :recipe: /`bioconductor-dmchmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmchmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmchmm/meta.yaml>`_
 

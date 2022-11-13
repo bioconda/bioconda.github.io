@@ -12,7 +12,7 @@ bioconductor-iloreg
 
    ILoReg\: a tool for high\-resolution cell population identification from scRNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ILoReg.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ILoReg.html
    :license: GPL-3
    :recipe: /`bioconductor-iloreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iloreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iloreg/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-ahmeshdbs
 
    MeSHDbs for AnnotationHub
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/AHMeSHDbs.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/AHMeSHDbs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahmeshdbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahmeshdbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahmeshdbs/meta.yaml>`_
 

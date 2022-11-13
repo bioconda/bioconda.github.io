@@ -12,7 +12,7 @@ bioconductor-bsgenome.ppaniscus.ucsc.panpan2
 
    Full genome sequences for Pan paniscus \(UCSC version panPan2\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Ppaniscus.UCSC.panPan2.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Ppaniscus.UCSC.panPan2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.ppaniscus.ucsc.panpan2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ppaniscus.ucsc.panpan2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ppaniscus.ucsc.panpan2/meta.yaml>`_
 

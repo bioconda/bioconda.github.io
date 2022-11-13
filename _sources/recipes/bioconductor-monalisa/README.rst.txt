@@ -12,8 +12,8 @@ bioconductor-monalisa
 
    Binned Motif Enrichment Analysis and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/monaLisa.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/monaLisa.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-monalisa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-monalisa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-monalisa/meta.yaml>`_
 
    Useful functions to work with sequence motifs in the analysis of genomics data. These include methods to annotate genomic regions or sequences with predicted motif hits and to identify motifs that drive observed changes in accessibility or expression. Functions to produce informative visualizations of the obtained results are also provided.

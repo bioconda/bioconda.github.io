@@ -12,7 +12,7 @@ bioconductor-cellity
 
    Quality Control for Single\-Cell RNA\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cellity.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cellity.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cellity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellity/meta.yaml>`_
 

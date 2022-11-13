@@ -12,7 +12,7 @@ bioconductor-sva
 
    Surrogate Variable Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sva.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sva.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sva/meta.yaml>`_
    :links: biotools: :biotools:`sva`, doi: :doi:`10.1371/journal.pgen.0030161`

@@ -12,7 +12,7 @@ bioconductor-scdd
 
    Mixture modeling of single\-cell RNA\-seq data to identify genes with differential distributions
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scDD.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scDD.html
    :license: GPL-2
    :recipe: /`bioconductor-scdd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdd/meta.yaml>`_
 

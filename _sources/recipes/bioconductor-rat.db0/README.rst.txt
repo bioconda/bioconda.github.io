@@ -12,7 +12,7 @@ bioconductor-rat.db0
 
    Base Level Annotation databases for rat
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/rat.db0.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/rat.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rat.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat.db0/meta.yaml>`_
 

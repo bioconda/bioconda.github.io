@@ -12,7 +12,7 @@ bioconductor-methimpute
 
    Imputation\-guided re\-construction of complete methylomes from WGBS data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/methimpute.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/methimpute.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methimpute/meta.yaml>`_
 

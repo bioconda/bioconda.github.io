@@ -12,7 +12,7 @@ bioconductor-riceprobe
 
    Probe sequence data for microarrays of type rice
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/riceprobe.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/riceprobe.html
    :license: LGPL
    :recipe: /`bioconductor-riceprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riceprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riceprobe/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-org.gg.eg.db
 
    Genome wide annotation for Chicken
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/org.Gg.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/org.Gg.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.gg.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.gg.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.gg.eg.db/meta.yaml>`_
 

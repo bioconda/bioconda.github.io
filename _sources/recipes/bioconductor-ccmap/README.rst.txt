@@ -12,7 +12,7 @@ bioconductor-ccmap
 
    Combination Connectivity Mapping
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ccmap.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ccmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ccmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap/meta.yaml>`_
 

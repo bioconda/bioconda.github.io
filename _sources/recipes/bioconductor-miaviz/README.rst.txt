@@ -12,7 +12,7 @@ bioconductor-miaviz
 
    Microbiome Analysis Plotting and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/miaViz.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/miaViz.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-miaviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miaviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miaviz/meta.yaml>`_
 

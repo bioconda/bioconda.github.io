@@ -12,7 +12,7 @@ bioconductor-specond
 
    Condition specific detection from expression data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SpeCond.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SpeCond.html
    :license: LGPL (>=2)
    :recipe: /`bioconductor-specond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specond/meta.yaml>`_
    :links: biotools: :biotools:`specond`, doi: :doi:`10.1186/gb-2011-12-12-413`

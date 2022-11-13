@@ -12,8 +12,8 @@ bioconductor-ewce
 
    Expression Weighted Celltype Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/EWCE.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EWCE.html
+   :license: GPL-3
    :recipe: /`bioconductor-ewce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ewce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ewce/meta.yaml>`_
 
    Used to determine which cell types are enriched within gene lists. The package provides tools for testing enrichments within simple gene lists \(such as human disease associated genes\) and those resulting from differential expression studies. The package does not depend upon any particular Single Cell Transcriptome dataset and user defined datasets can be loaded in and used in the analyses.

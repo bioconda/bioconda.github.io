@@ -12,11 +12,11 @@ bioconductor-combi
 
    Compositional omics model based visual integration
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/combi.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/combi.html
    :license: GPL-2
    :recipe: /`bioconductor-combi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-combi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-combi/meta.yaml>`_
 
-   Combine quasi\-likelihood estimation\, compositional regression models and latent variable models for integrative visualization of several omics datasets. Both unconstrained and constrained integration is available\, the results are shown as interpretable multiplots.
+   This explorative ordination method combines quasi\-likelihood estimation\, compositional regression models and latent variable models for integrative visualization of several omics datasets. Both unconstrained and constrained integration are available. The results are shown as interpretable\, compositional multiplots.
 
 
 .. conda:package:: bioconductor-combi

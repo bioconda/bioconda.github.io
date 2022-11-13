@@ -12,7 +12,7 @@ bioconductor-gsalightning
 
    Fast Permutation\-based Gene Set Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GSALightning.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GSALightning.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-gsalightning <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsalightning>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsalightning/meta.yaml>`_
    :links: biotools: :biotools:`gsalightning`, doi: :doi:`10.1093/bioinformatics/btw349`

@@ -12,7 +12,7 @@ bioconductor-methylcc
 
    Estimate the cell composition of whole blood in DNA methylation samples
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/methylCC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/methylCC.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-methylcc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylcc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylcc/meta.yaml>`_
 

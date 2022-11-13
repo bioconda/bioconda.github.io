@@ -12,7 +12,7 @@ bioconductor-easyrnaseq
 
    Count summarization and normalization for RNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/easyRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/easyRNASeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-easyrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyrnaseq/meta.yaml>`_
 

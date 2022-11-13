@@ -12,7 +12,7 @@ bioconductor-yeast2probe
 
    Probe sequence data for microarrays of type yeast2
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/yeast2probe.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/yeast2probe.html
    :license: LGPL
    :recipe: /`bioconductor-yeast2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast2probe/meta.yaml>`_
 

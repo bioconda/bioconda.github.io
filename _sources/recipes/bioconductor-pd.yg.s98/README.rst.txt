@@ -12,7 +12,7 @@ bioconductor-pd.yg.s98
 
    Platform Design Info for The Manufacturer\'s Name YG\_S98
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.yg.s98.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.yg.s98.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.yg.s98 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.yg.s98>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.yg.s98/meta.yaml>`_
 

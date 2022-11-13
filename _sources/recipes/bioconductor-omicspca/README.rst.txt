@@ -12,7 +12,7 @@ bioconductor-omicspca
 
    An R package for quantitative integration and analysis of multiple omics assays from heterogeneous samples
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/OMICsPCA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/OMICsPCA.html
    :license: GPL-3
    :recipe: /`bioconductor-omicspca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspca/meta.yaml>`_
 

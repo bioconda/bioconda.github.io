@@ -12,7 +12,7 @@ bioconductor-egad
 
    Extending guilt by association by degree
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/EGAD.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EGAD.html
    :license: GPL-2
    :recipe: /`bioconductor-egad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egad/meta.yaml>`_
 

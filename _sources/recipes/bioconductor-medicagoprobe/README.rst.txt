@@ -12,7 +12,7 @@ bioconductor-medicagoprobe
 
    Probe sequence data for microarrays of type medicago
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/medicagoprobe.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/medicagoprobe.html
    :license: LGPL
    :recipe: /`bioconductor-medicagoprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medicagoprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medicagoprobe/meta.yaml>`_
 

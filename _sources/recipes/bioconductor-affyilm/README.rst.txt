@@ -12,7 +12,7 @@ bioconductor-affyilm
 
    Linear Model of background subtraction and the Langmuir isotherm
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/affyILM.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/affyILM.html
    :license: GPL-3
    :recipe: /`bioconductor-affyilm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyilm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyilm/meta.yaml>`_
    :links: biotools: :biotools:`affyilm`, doi: :doi:`10.1186/1748-7188-4-15`

@@ -12,7 +12,7 @@ bioconductor-blacksheepr
 
    Outlier Analysis for pairwise differential comparison
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/blacksheepr.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/blacksheepr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-blacksheepr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blacksheepr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blacksheepr/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-tbsignatureprofiler
 
    Profile RNA\-Seq Data Using TB Pathway Signatures
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TBSignatureProfiler.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TBSignatureProfiler.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tbsignatureprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tbsignatureprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tbsignatureprofiler/meta.yaml>`_
 
-   Gene signatures of TB progression\, TB disease\, and other TB disease states have been validated and published previously. This package aggregates known signatures and provides computational tools to enlist their usage on other datasets. The TBSignatureProfiler makes it easy to profile RNA\-Seq data using these signatures and includes common signature profiling tools including ASSIGN\, GSVA\, and ssGSEA.
+   Gene signatures of TB progression\, TB disease\, and other TB disease states have been validated and published previously. This package aggregates known signatures and provides computational tools to enlist their usage on other datasets. The TBSignatureProfiler makes it easy to profile RNA\-Seq data using these signatures and includes common signature profiling tools including ASSIGN\, GSVA\, and ssGSEA. Original models for some gene signatures are also available.  A shiny app provides some functionality alongside for detailed command line accessibility.
 
 
 .. conda:package:: bioconductor-tbsignatureprofiler

@@ -12,11 +12,11 @@ bioconductor-rcm
 
    Fit row\-column association models with the negative binomial distribution for the microbiome
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RCM.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RCM.html
    :license: GPL-2
    :recipe: /`bioconductor-rcm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcm/meta.yaml>`_
 
-   Combine ideas of log\-linear analysis of contingency table\, flexible response function estimation and empirical Bayes dispersion estimation for explorative visualization of microbiome datasets. The package includes unconstrained as well as constrained analysis.
+   Combine ideas of log\-linear analysis of contingency table\, flexible response function estimation and empirical Bayes dispersion estimation for explorative visualization of microbiome datasets. The package includes unconstrained as well as constrained analysis. In addition\, diagnostic plot to detect lack of fit are available.
 
 
 .. conda:package:: bioconductor-rcm

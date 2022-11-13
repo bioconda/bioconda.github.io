@@ -12,7 +12,7 @@ bioconductor-schex
 
    Hexbin plots for single cell omics data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/schex.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/schex.html
    :license: GPL-3
    :recipe: /`bioconductor-schex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-schex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-schex/meta.yaml>`_
 

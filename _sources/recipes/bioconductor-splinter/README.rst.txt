@@ -12,7 +12,7 @@ bioconductor-splinter
 
    Splice Interpreter of Transcripts
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SPLINTER.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SPLINTER.html
    :license: GPL-2
    :recipe: /`bioconductor-splinter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinter/meta.yaml>`_
    :links: biotools: :biotools:`splinter`, doi: :doi:`10.1038/nmeth.3252`

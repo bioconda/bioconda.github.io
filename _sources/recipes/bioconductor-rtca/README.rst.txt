@@ -12,7 +12,7 @@ bioconductor-rtca
 
    Open\-source toolkit to analyse data from xCELLigence System \(RTCA\)
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RTCA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RTCA.html
    :license: LGPL-3
    :recipe: /`bioconductor-rtca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtca/meta.yaml>`_
    :links: biotools: :biotools:`rtca`, doi: :doi:`10.1016/j.compbiolchem.2013.12.004`

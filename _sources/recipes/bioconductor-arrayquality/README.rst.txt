@@ -12,7 +12,7 @@ bioconductor-arrayquality
 
    Assessing array quality on spotted arrays
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/arrayQuality.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/arrayQuality.html
    :license: LGPL
    :recipe: /`bioconductor-arrayquality <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayquality>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayquality/meta.yaml>`_
    :links: biotools: :biotools:`arrayquality`, doi: :doi:`10.1093/bioinformatics/btn647`

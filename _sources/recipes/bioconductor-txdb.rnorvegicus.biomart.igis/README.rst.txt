@@ -12,7 +12,7 @@ bioconductor-txdb.rnorvegicus.biomart.igis
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/TxDb.Rnorvegicus.BioMart.igis.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/TxDb.Rnorvegicus.BioMart.igis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.rnorvegicus.biomart.igis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.biomart.igis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.biomart.igis/meta.yaml>`_
 

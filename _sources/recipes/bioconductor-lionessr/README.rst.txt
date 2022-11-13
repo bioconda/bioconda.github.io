@@ -12,7 +12,7 @@ bioconductor-lionessr
 
    Modeling networks for individual samples using LIONESS
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/lionessR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/lionessR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lionessr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lionessr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lionessr/meta.yaml>`_
 

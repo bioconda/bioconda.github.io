@@ -12,7 +12,7 @@ bioconductor-synergyfinder
 
    Calculate and Visualize Synergy Scores for Drug Combinations
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/synergyfinder.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/synergyfinder.html
    :license: Mozilla Public License 2.0
    :recipe: /`bioconductor-synergyfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder/meta.yaml>`_
    :links: biotools: :biotools:`synergyfinder`, doi: :doi:`10.1093/bioinformatics/btx162`

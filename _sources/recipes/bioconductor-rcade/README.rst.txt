@@ -12,7 +12,7 @@ bioconductor-rcade
 
    R\-based analysis of ChIP\-seq And Differential Expression \- a tool for integrating a count\-based ChIP\-seq analysis with differential expression summary data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Rcade.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Rcade.html
    :license: GPL-2
    :recipe: /`bioconductor-rcade <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcade>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcade/meta.yaml>`_
 

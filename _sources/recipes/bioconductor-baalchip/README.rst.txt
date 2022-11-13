@@ -12,7 +12,7 @@ bioconductor-baalchip
 
    BaalChIP\: Bayesian analysis of allele\-specific transcription factor binding in cancer genomes
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BaalChIP.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BaalChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-baalchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-baalchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-baalchip/meta.yaml>`_
    :links: biotools: :biotools:`baalchip`, doi: :doi:`10.1186/s13059-017-1165-7`

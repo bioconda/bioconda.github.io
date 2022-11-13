@@ -12,7 +12,7 @@ bioconductor-sccb2
 
    CB2 improves power of cell detection in droplet\-based single\-cell RNA sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scCB2.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scCB2.html
    :license: GPL-3
    :recipe: /`bioconductor-sccb2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccb2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccb2/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rtracklayer
 
    R interface to genome annotation files and the UCSC genome browser
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rtracklayer.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rtracklayer.html
    :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-rtracklayer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtracklayer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtracklayer/meta.yaml>`_
    :links: biotools: :biotools:`rtracklayer`

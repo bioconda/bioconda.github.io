@@ -12,7 +12,7 @@ bioconductor-biseq
 
    Processing and analyzing bisulfite sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BiSeq.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BiSeq.html
    :license: LGPL-3
    :recipe: /`bioconductor-biseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biseq/meta.yaml>`_
    :links: biotools: :biotools:`biseq`, doi: :doi:`10.1093/bib/bbv095`

@@ -12,7 +12,7 @@ bioconductor-loci2path
 
    Loci2path\: regulatory annotation of genomic intervals based on tissue\-specific expression QTLs
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/loci2path.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/loci2path.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-loci2path <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loci2path>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loci2path/meta.yaml>`_
 

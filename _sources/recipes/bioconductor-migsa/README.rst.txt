@@ -12,7 +12,7 @@ bioconductor-migsa
 
    Massive and Integrative Gene Set Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MIGSA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MIGSA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-migsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-migsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-migsa/meta.yaml>`_
 

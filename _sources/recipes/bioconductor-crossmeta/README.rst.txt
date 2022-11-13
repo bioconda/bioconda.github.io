@@ -12,7 +12,7 @@ bioconductor-crossmeta
 
    Cross Platform Meta\-Analysis of Microarray Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/crossmeta.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/crossmeta.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crossmeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crossmeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crossmeta/meta.yaml>`_
 

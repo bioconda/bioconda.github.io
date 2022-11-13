@@ -10,13 +10,13 @@ bioconductor-microbiotaprocess
    :replaces_section_title:
    :noindex:
 
-   an R package for analysis\, visualization and biomarker discovery of microbiome
+   A comprehensive R package for managing and analyzing microbiome and other ecological data within the tidy framework
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MicrobiotaProcess.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MicrobiotaProcess.html
    :license: GPL (>= 3.0)
    :recipe: /`bioconductor-microbiotaprocess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiotaprocess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiotaprocess/meta.yaml>`_
 
-   MicrobiotaProcess is an R package for analysis\, visualization and biomarker discovery of microbial datasets. It introduces MPSE class\, this make it more interoperable with the existing computing ecosystem. Moreover\, it introduces a tidy microbiome data structure paradigm and analysis grammar. It provides a wide variety of microbiome analsys procedures under the unified and common framework \(tidy\-like framework\).
+   MicrobiotaProcess is an R package for analysis\, visualization and biomarker discovery of microbial datasets. It introduces MPSE class\, this make it more interoperable with the existing computing ecosystem. Moreover\, it introduces a tidy microbiome data structure paradigm and analysis grammar. It provides a wide variety of microbiome data analysis procedures under the unified and common framework \(tidy\-like framework\).
 
 
 .. conda:package:: bioconductor-microbiotaprocess

@@ -12,7 +12,7 @@ bioconductor-sepira
 
    Systems EPigenomics Inference of Regulatory Activity
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SEPIRA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SEPIRA.html
    :license: GPL-3
    :recipe: /`bioconductor-sepira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepira/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-zinbwave
 
    Zero\-Inflated Negative Binomial Model for RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/zinbwave.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/zinbwave.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-zinbwave <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zinbwave>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zinbwave/meta.yaml>`_
    :links: biotools: :biotools:`zinbwave`, doi: :doi:`10.1038/s41467-017-02554-5`

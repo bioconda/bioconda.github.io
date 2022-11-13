@@ -12,7 +12,7 @@ bioconductor-arrmnormalization
 
    Adaptive Robust Regression normalization for Illumina methylation data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ARRmNormalization.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ARRmNormalization.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arrmnormalization <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmnormalization>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmnormalization/meta.yaml>`_
    :links: biotools: :biotools:`arrmnormalization`, doi: :doi:`10.1186/s13059-014-0503-2`

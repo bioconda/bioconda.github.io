@@ -12,7 +12,7 @@ bioconductor-repitools
 
    Epigenomic tools
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Repitools.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Repitools.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-repitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repitools/meta.yaml>`_
    :links: biotools: :biotools:`repitools`

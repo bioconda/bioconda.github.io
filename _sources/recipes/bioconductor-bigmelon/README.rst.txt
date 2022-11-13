@@ -12,7 +12,7 @@ bioconductor-bigmelon
 
    Illumina methylation array analysis for large experiments
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/bigmelon.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/bigmelon.html
    :license: GPL-3
    :recipe: /`bioconductor-bigmelon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmelon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmelon/meta.yaml>`_
 

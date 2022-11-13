@@ -12,7 +12,7 @@ bioconductor-stan
 
    The Genomic STate ANnotation Package
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/STAN.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/STAN.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-stan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stan/meta.yaml>`_
    :links: biotools: :biotools:`stan`

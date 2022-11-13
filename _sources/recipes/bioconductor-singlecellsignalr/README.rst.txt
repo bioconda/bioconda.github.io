@@ -12,7 +12,7 @@ bioconductor-singlecellsignalr
 
    Cell Signalling Using Single Cell RNAseq Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SingleCellSignalR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SingleCellSignalR.html
    :license: GPL-3
    :recipe: /`bioconductor-singlecellsignalr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellsignalr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellsignalr/meta.yaml>`_
 

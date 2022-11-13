@@ -12,7 +12,7 @@ bioconductor-paxtoolsr
 
    Access Pathways from Multiple Databases Through BioPAX and Pathway Commons
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/paxtoolsr.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/paxtoolsr.html
    :license: LGPL-3
    :recipe: /`bioconductor-paxtoolsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paxtoolsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paxtoolsr/meta.yaml>`_
 

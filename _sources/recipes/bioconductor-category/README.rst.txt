@@ -12,7 +12,7 @@ bioconductor-category
 
    Category Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Category.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Category.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-category <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-category>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-category/meta.yaml>`_
    :links: biotools: :biotools:`category`, doi: :doi:`10.1038/nmeth.3252`

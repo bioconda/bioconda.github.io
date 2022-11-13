@@ -12,7 +12,7 @@ bioconductor-m6aboost
 
    m6Aboost
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/m6Aboost.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/m6Aboost.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-m6aboost <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m6aboost>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m6aboost/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-anvil
 
    Bioconductor on the AnVIL compute environment
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AnVIL.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/AnVIL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvil/meta.yaml>`_
 

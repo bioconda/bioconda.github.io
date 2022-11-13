@@ -12,7 +12,7 @@ bioconductor-rnainteract
 
    Estimate Pairwise Interactions from multidimensional features
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RNAinteract.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RNAinteract.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnainteract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteract/meta.yaml>`_
 

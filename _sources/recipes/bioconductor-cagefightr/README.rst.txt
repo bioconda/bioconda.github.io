@@ -12,7 +12,7 @@ bioconductor-cagefightr
 
    Analysis of Cap Analysis of Gene Expression \(CAGE\) data using Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CAGEfightR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CAGEfightR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-cagefightr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cagefightr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cagefightr/meta.yaml>`_
 

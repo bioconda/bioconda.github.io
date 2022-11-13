@@ -12,8 +12,8 @@ bioconductor-idpr
 
    Profiling and Analyzing Intrinsically Disordered Proteins in R
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/idpr.html
-   :license: LGPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/idpr.html
+   :license: LGPL (>= 3)
    :recipe: /`bioconductor-idpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idpr/meta.yaml>`_
 
    ‘idpr’ aims to integrate tools for the computational analysis of intrinsically disordered proteins \(IDPs\) within R. This package is used to identify known characteristics of IDPs for a sequence of interest with easily reported and dynamic results. Additionally\, this package includes tools for IDP\-based sequence analysis to be used in conjunction with other R packages.

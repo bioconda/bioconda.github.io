@@ -12,11 +12,11 @@ bioconductor-discordant
 
    The Discordant Method\: A Novel Approach for Differential Correlation
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/discordant.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/discordant.html
+   :license: GPL-3
    :recipe: /`bioconductor-discordant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-discordant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-discordant/meta.yaml>`_
 
-   Discordant is a method to determine differential correlation of molecular feature pairs from \-omics data using mixture models. Algorithm is explained further in Siska et al.
+   Discordant is an R package that identifies pairs of features that correlate differently between phenotypic groups\, with application to \-omics data sets. Discordant uses a mixture model that “bins” molecular feature pairs based on their type of coexpression or coabbundance. Algorithm is explained further in \"Differential Correlation for Sequencing Data\"\" \(Siska et al. 2016\).
 
 
 .. conda:package:: bioconductor-discordant

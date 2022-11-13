@@ -10,9 +10,9 @@ bioconductor-biocpkgtools
    :replaces_section_title:
    :noindex:
 
-   Collection of simple tools for learning about Bioc Packages
+   Collection of simple tools for learning about Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BiocPkgTools.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BiocPkgTools.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocpkgtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocpkgtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocpkgtools/meta.yaml>`_
 

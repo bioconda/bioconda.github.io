@@ -12,7 +12,7 @@ bioconductor-orfik
 
    Open Reading Frames in Genomics
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ORFik.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ORFik.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-orfik <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfik>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfik/meta.yaml>`_
 

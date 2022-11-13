@@ -12,7 +12,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm39
 
    Full genome sequences for Mus musculus \(UCSC genome mm39\, based on GRCm39\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Mmusculus.UCSC.mm39.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Mmusculus.UCSC.mm39.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmusculus.ucsc.mm39 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm39>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm39/meta.yaml>`_
 

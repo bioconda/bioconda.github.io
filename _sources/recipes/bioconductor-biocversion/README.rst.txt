@@ -12,7 +12,7 @@ bioconductor-biocversion
 
    Set the appropriate version of Bioconductor packages
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BiocVersion.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BiocVersion.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocversion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocversion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocversion/meta.yaml>`_
 

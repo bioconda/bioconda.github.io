@@ -12,7 +12,7 @@ bioconductor-planet
 
    Placental DNA methylation analysis tools
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/planet.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/planet.html
    :license: GPL-2
    :recipe: /`bioconductor-planet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-planet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-planet/meta.yaml>`_
 

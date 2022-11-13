@@ -12,7 +12,7 @@ bioconductor-flowsorted.dlpfc.450k
 
    Illumina HumanMethylation data on sorted frontal cortex cell populations
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/FlowSorted.DLPFC.450k.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/FlowSorted.DLPFC.450k.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowsorted.dlpfc.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.dlpfc.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.dlpfc.450k/meta.yaml>`_
 

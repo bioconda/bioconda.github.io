@@ -12,7 +12,7 @@ bioconductor-cetf
 
    Coexpression for Transcription Factors using Regulatory Impact Factors and Partial Correlation and Information Theory analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CeTF.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CeTF.html
    :license: GPL-3
    :recipe: /`bioconductor-cetf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cetf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cetf/meta.yaml>`_
 

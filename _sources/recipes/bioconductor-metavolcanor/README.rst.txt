@@ -12,7 +12,7 @@ bioconductor-metavolcanor
 
    Gene Expression Meta\-analysis Visualization Tool
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MetaVolcanoR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MetaVolcanoR.html
    :license: GPL-3
    :recipe: /`bioconductor-metavolcanor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavolcanor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavolcanor/meta.yaml>`_
 

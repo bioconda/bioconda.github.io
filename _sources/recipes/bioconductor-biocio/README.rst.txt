@@ -12,11 +12,11 @@ bioconductor-biocio
 
    Standard Input and Output for Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BiocIO.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BiocIO.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocio/meta.yaml>`_
 
-   Implements \`import\(\)\` and \`export\(\)\` standard generics for importing and exporting biological data formats. \`import\(\)\` supports whole\-file as well as chunk\-wise iterative import. The \`import\(\)\` interface optionally provides a standard mechanism for \'lazy\' access via \`filter\(\)\` \(on row or element\-like components of the file resource\)\, \`select\(\)\` \(on column\-like components of the file resource\) and \`collect\(\)\`. The \`import\(\)\` interface optionally provides transparent access to remote \(e.g. via https\) as well as local access. Developers can register a file extension\, e.g.\, \`.loom\` for dispatch from character\-based URIs to specific \`import\(\)\` \/ \`export\(\)\` methods based on classes representing file types\, e.g.\, \`LoomFile\(\)\`.
+   The \`BiocIO\` package contains high\-level abstract classes and generics used by developers to build IO funcionality within the Bioconductor suite of packages. Implements \`import\(\)\` and \`export\(\)\` standard generics for importing and exporting biological data formats. \`import\(\)\` supports whole\-file as well as chunk\-wise iterative import. The \`import\(\)\` interface optionally provides a standard mechanism for \'lazy\' access via \`filter\(\)\` \(on row or element\-like components of the file resource\)\, \`select\(\)\` \(on column\-like components of the file resource\) and \`collect\(\)\`. The \`import\(\)\` interface optionally provides transparent access to remote \(e.g. via https\) as well as local access. Developers can register a file extension\, e.g.\, \`.loom\` for dispatch from character\-based URIs to specific \`import\(\)\` \/ \`export\(\)\` methods based on classes representing file types\, e.g.\, \`LoomFile\(\)\`.
 
 
 .. conda:package:: bioconductor-biocio

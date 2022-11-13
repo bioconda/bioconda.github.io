@@ -12,7 +12,7 @@ bioconductor-gothic
 
    Binomial test for Hi\-C data analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GOTHiC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GOTHiC.html
    :license: GPL-3
    :recipe: /`bioconductor-gothic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gothic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gothic/meta.yaml>`_
    :links: biotools: :biotools:`gothic`, doi: :doi:`10.1101/gr.185272.114`

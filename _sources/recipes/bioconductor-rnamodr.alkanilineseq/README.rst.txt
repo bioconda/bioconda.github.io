@@ -12,7 +12,7 @@ bioconductor-rnamodr.alkanilineseq
 
    Detection of m7G\, m3C and D modification by AlkAnilineSeq
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RNAmodR.AlkAnilineSeq.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RNAmodR.AlkAnilineSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnamodr.alkanilineseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.alkanilineseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.alkanilineseq/meta.yaml>`_
 

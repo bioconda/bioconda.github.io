@@ -12,7 +12,7 @@ bioconductor-destiny
 
    Creates diffusion maps
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/destiny.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/destiny.html
    :license: GPL-3
    :recipe: /`bioconductor-destiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-destiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-destiny/meta.yaml>`_
 

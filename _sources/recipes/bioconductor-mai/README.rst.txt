@@ -12,7 +12,7 @@ bioconductor-mai
 
    Mechanism\-Aware Imputation
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MAI.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MAI.html
    :license: GPL-3
    :recipe: /`bioconductor-mai <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mai>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mai/meta.yaml>`_
 

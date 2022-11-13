@@ -12,7 +12,7 @@ bioconductor-medicagocdf
 
    medicagocdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/medicagocdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/medicagocdf.html
    :license: LGPL
    :recipe: /`bioconductor-medicagocdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medicagocdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medicagocdf/meta.yaml>`_
 

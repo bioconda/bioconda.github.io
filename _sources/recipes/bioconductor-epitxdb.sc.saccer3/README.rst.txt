@@ -12,7 +12,7 @@ bioconductor-epitxdb.sc.saccer3
 
    Annotation package for EpiTxDb objects
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/EpiTxDb.Sc.sacCer3.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/EpiTxDb.Sc.sacCer3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epitxdb.sc.saccer3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.sc.saccer3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.sc.saccer3/meta.yaml>`_
 

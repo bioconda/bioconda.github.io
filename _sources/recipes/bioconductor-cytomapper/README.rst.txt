@@ -12,7 +12,7 @@ bioconductor-cytomapper
 
    Visualization of highly multiplexed imaging data in R
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cytomapper.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cytomapper.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cytomapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomapper/meta.yaml>`_
 

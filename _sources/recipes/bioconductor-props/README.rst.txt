@@ -12,7 +12,7 @@ bioconductor-props
 
    PRObabilistic Pathway Score \(PROPS\)
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/PROPS.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PROPS.html
    :license: GPL-2
    :recipe: /`bioconductor-props <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-props>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-props/meta.yaml>`_
 

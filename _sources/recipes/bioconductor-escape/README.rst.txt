@@ -12,8 +12,8 @@ bioconductor-escape
 
    Easy single cell analysis platform for enrichment
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/escape.html
-   :license: Apache License 2.0
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/escape.html
+   :license: GPL-2
    :recipe: /`bioconductor-escape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escape/meta.yaml>`_
 
    A bridging R package to facilitate gene set enrichment analysis \(GSEA\) in the context of single\-cell RNA sequencing. Using raw count information\, Seurat objects\, or SingleCellExperiment format\, users can perform and visualize GSEA across individual cells.

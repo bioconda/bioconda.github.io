@@ -12,7 +12,7 @@ bioconductor-diffutr
 
    diffUTR\: Streamlining differential exon and 3\' UTR usage
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/diffUTR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/diffUTR.html
    :license: GPL-3
    :recipe: /`bioconductor-diffutr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffutr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffutr/meta.yaml>`_
 

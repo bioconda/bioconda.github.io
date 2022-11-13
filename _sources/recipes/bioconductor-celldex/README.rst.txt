@@ -12,7 +12,7 @@ bioconductor-celldex
 
    Reference Index for Cell Types
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/celldex.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/celldex.html
    :license: GPL-3
    :recipe: /`bioconductor-celldex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celldex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celldex/meta.yaml>`_
 

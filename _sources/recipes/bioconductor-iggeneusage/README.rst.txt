@@ -12,11 +12,11 @@ bioconductor-iggeneusage
 
    Differential gene usage in immune repertoires
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/IgGeneUsage.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/IgGeneUsage.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-iggeneusage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iggeneusage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iggeneusage/meta.yaml>`_
 
-   Detection of biases in immunoglobulin \(Ig\) gene usage between adaptive immune repertoires that belong to different biological conditions is an important task in immune repertoire profiling. IgGeneUsage detects aberrant Ig gene usage using probabilistic model which is analyzed computationally by Bayes inference.
+   Detection of biases in the usage of immunoglobulin \(Ig\) genes is an important task in immune repertoire profiling. IgGeneUsage detects aberrant Ig gene usage between biological conditions using a probabilistic model which is analyzed computationally by Bayes inference. With this IgGeneUsage also avoids some common problems related to the current practice of null\-hypothesis significance testing.
 
 
 .. conda:package:: bioconductor-iggeneusage

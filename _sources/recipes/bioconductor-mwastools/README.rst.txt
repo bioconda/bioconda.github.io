@@ -12,7 +12,7 @@ bioconductor-mwastools
 
    MWASTools\: an integrated pipeline to perform metabolome\-wide association studies
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MWASTools.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MWASTools.html
    :license: CC BY-NC-ND 4.0
    :recipe: /`bioconductor-mwastools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mwastools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mwastools/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-ribodipa
 
    Differential pattern analysis for Ribo\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RiboDiPA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RiboDiPA.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-ribodipa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribodipa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribodipa/meta.yaml>`_
 

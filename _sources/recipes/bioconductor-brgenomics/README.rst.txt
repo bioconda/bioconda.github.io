@@ -12,7 +12,7 @@ bioconductor-brgenomics
 
    Tools for the Efficient Analysis of High\-Resolution Genomics Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BRGenomics.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BRGenomics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-brgenomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brgenomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brgenomics/meta.yaml>`_
 

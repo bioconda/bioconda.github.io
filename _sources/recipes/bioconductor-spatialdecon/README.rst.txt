@@ -12,11 +12,11 @@ bioconductor-spatialdecon
 
    Deconvolution of mixed cells from spatial and\/or bulk gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SpatialDecon.html
-   :license: GPL-3 + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SpatialDecon.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-spatialdecon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdecon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdecon/meta.yaml>`_
 
-   Using spatial or bulk gene expression data\, estimates abundance of mixed cell types within each observation. Based on \"Advances in mixed cell deconvolution enable quantification of cell types in spatially\-resolved gene expression data\"\, Danaher \(2020\). Designed for use with the NanoString GeoMx platform\, but applicable to any gene expression data.
+   Using spatial or bulk gene expression data\, estimates abundance of mixed cell types within each observation. Based on \"Advances in mixed cell deconvolution enable quantification of cell types in spatial transcriptomic data\"\, Danaher \(2022\). Designed for use with the NanoString GeoMx platform\, but applicable to any gene expression data.
 
 
 .. conda:package:: bioconductor-spatialdecon

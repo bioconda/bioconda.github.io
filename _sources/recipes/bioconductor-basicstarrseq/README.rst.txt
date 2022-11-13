@@ -12,7 +12,7 @@ bioconductor-basicstarrseq
 
    Basic peak calling on STARR\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BasicSTARRseq.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BasicSTARRseq.html
    :license: LGPL-3
    :recipe: /`bioconductor-basicstarrseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basicstarrseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basicstarrseq/meta.yaml>`_
 

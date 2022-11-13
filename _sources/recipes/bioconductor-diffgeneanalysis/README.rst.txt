@@ -12,7 +12,7 @@ bioconductor-diffgeneanalysis
 
    Performs differential gene expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/diffGeneAnalysis.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/diffGeneAnalysis.html
    :license: GPL
    :recipe: /`bioconductor-diffgeneanalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffgeneanalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffgeneanalysis/meta.yaml>`_
    :links: biotools: :biotools:`diffgeneanalysis`, doi: :doi:`10.1038/nmeth.3252`

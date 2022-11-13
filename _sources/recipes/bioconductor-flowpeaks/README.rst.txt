@@ -12,7 +12,7 @@ bioconductor-flowpeaks
 
    An R package for flow data clustering
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flowPeaks.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/flowPeaks.html
    :license: Artistic-1.0
    :recipe: /`bioconductor-flowpeaks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowpeaks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowpeaks/meta.yaml>`_
    :links: biotools: :biotools:`flowpeaks`

@@ -27,12 +27,12 @@ r-cghseg
       
       
 
-      ``1.0.5-0``
+      ``1.0.5-1``,  ``1.0.5-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ r-cghseg
 
     <script>
         var package = "r-cghseg";
-        var versions = ["1.0.5"];
+        var versions = ["1.0.5","1.0.5"];
     </script>
 
 

@@ -12,11 +12,11 @@ bioconductor-mungesumstats
 
    Standardise summary statistics from GWAS
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MungeSumstats.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MungeSumstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mungesumstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mungesumstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mungesumstats/meta.yaml>`_
 
-   The \*MungeSumstats\* package is designed to facilitate the standardisation of GWAS summary statistics. It reformats inputted summary statisitics to include SNP\, CHR\, BP and can look up these values if any are missing. It also removes duplicates across SNPs.
+   The \*MungeSumstats\* package is designed to facilitate the standardisation of GWAS summary statistics. It reformats inputted summary statisitics to include SNP\, CHR\, BP and can look up these values if any are missing. It also pefrorms dozens of QC and filtering steps to ensure high data quality and minimise inter\-study differences.
 
 
 .. conda:package:: bioconductor-mungesumstats

@@ -12,7 +12,7 @@ bioconductor-isoformswitchanalyzer
 
    Identify\, Annotate and Visualize Alternative Splicing and Isoform Switches with Functional Consequences from both short\- and long\-read RNA\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/IsoformSwitchAnalyzeR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/IsoformSwitchAnalyzeR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-isoformswitchanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isoformswitchanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isoformswitchanalyzer/meta.yaml>`_
    :links: biotools: :biotools:`IsoformSwitchAnalyzeR`, doi: :doi:`10.1158/1541-7786.MCR-16-0459`

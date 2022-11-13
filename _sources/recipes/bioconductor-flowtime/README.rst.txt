@@ -12,7 +12,7 @@ bioconductor-flowtime
 
    Annotation and analysis of biological dynamical systems using flow cytometry
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flowTime.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/flowTime.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowtime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtime/meta.yaml>`_
 

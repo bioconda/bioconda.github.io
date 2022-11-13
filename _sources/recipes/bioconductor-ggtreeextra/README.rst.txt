@@ -12,8 +12,8 @@ bioconductor-ggtreeextra
 
    An R Package To Add Geometric Layers On Circular Or Other Layout Tree Of \"ggtree\"
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ggtreeExtra.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ggtreeExtra.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-ggtreeextra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtreeextra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtreeextra/meta.yaml>`_
 
    \'ggtreeExtra\' extends the method for mapping and visualizing associated data on phylogenetic tree using \'ggtree\'. These associated data can be presented on the external panels to circular layout\, fan layout\, or other rectangular layout tree built by \'ggtree\' with the grammar of \'ggplot2\'.

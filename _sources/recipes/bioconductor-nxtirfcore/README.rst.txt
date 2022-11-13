@@ -12,11 +12,11 @@ bioconductor-nxtirfcore
 
    Core Engine for NxtIRF\: a User\-Friendly Intron Retention and Alternative Splicing Analysis using the IRFinder Engine
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/NxtIRFcore.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/NxtIRFcore.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-nxtirfcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfcore/meta.yaml>`_
 
-   Interactively analyses Intron Retention and Alternative Splicing Events \(ASE\) in RNA\-seq data. NxtIRF quantifies ASE events in BAM files aligned to the genome using a splice\-aware aligner such as STAR. The core quantitation algorithm relies on the IRFinder\/C\+\+ engine ported via Rcpp for multi\-platform compatibility. In addition\, NxtIRF provides convenient pipelines for downstream analysis and publication\-ready visualisation tools.
+   Interactively analyses Intron Retention and Alternative Splicing Events \(ASE\) in RNA\-seq data. NxtIRF quantifies ASE events in BAM files aligned to the genome using a splice\-aware aligner such as STAR. The core quantitation algorithm relies on the IRFinder\/C\+\+ engine ported via Rcpp for multi\-platform compatibility. In addition\, NxtIRF provides convenient pipelines for downstream analysis and publication\-ready visualisation tools. Note that NxtIRFcore is now replaced by SpliceWiz in Bioconductor 3.16 onwards.
 
 
 .. conda:package:: bioconductor-nxtirfcore

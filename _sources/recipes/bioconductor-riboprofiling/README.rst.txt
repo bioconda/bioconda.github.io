@@ -12,7 +12,7 @@ bioconductor-riboprofiling
 
    Ribosome Profiling Data Analysis\: from BAM to Data Representation and Interpretation
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RiboProfiling.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RiboProfiling.html
    :license: GPL-3
    :recipe: /`bioconductor-riboprofiling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboprofiling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboprofiling/meta.yaml>`_
    :links: biotools: :biotools:`riboprofiling`, doi: :doi:`10.12688/f1000research.8964.1`

@@ -12,7 +12,7 @@ bioconductor-simpintlists
 
    The package contains BioGRID interactions for various organisms in a simple format
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/simpIntLists.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/simpIntLists.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-simpintlists <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpintlists>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpintlists/meta.yaml>`_
 

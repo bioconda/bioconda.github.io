@@ -12,7 +12,7 @@ bioconductor-smad
 
    Statistical Modelling of AP\-MS Data \(SMAD\)
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SMAD.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SMAD.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-smad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smad/meta.yaml>`_
 

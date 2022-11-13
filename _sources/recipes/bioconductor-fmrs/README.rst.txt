@@ -10,13 +10,13 @@ bioconductor-fmrs
    :replaces_section_title:
    :noindex:
 
-   Variable Selection in Finite Mixture of AFT Regression and FMR
+   Variable Selection in Finite Mixture of AFT Regression and FMR Models
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/fmrs.html
-   :license: GPL (>= 3)
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/fmrs.html
+   :license: GPL-3
    :recipe: /`bioconductor-fmrs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fmrs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fmrs/meta.yaml>`_
 
-   Provides parameter estimation as well as variable selection in Finite Mixture of Accelerated Failure Time Regression and Finite Mixture of Regression Models. Furthermore\, this package provides Ridge Regression and Elastic Net.
+   The package obtains parameter estimation\, i.e.\, maximum likelihood estimators \(MLE\)\, via the Expectation\-Maximization \(EM\) algorithm for the Finite Mixture of Regression \(FMR\) models with Normal distribution\, and MLE for the Finite Mixture of Accelerated Failure Time Regression \(FMAFTR\) subject to right censoring with Log\-Normal and Weibull distributions via the EM algorithm and the Newton\-Raphson algorithm \(for Weibull distribution\). More importantly\, the package obtains the maximum penalized likelihood \(MPLE\) for both FMR and FMAFTR models \(collectively called FMRs\). A component\-wise tuning parameter selection based on a component\-wise BIC is implemented in the package. Furthermore\, this package provides Ridge Regression and Elastic Net.
 
 
 .. conda:package:: bioconductor-fmrs

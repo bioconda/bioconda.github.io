@@ -12,11 +12,11 @@ bioconductor-prostar
 
    Provides a GUI for DAPAR
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Prostar.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Prostar.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostar/meta.yaml>`_
 
-   This package provides a GUI interface for DAPAR.
+   This package provides a GUI interface for the DAPAR package. The package Prostar \(Proteomics statistical analysis with R\) is a Bioconductor distributed R package which provides all the necessary functions to analyze quantitative data from label\-free proteomics experiments. Contrarily to most other similar R packages\, it is endowed with rich and user\-friendly graphical interfaces\, so that no programming skill is required.
 
 
 .. conda:package:: bioconductor-prostar

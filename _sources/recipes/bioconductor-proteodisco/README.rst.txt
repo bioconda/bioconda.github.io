@@ -12,11 +12,11 @@ bioconductor-proteodisco
 
    Generation of customized protein variant databases from genomic variants\, splice\-junctions and manual sequences
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ProteoDisco.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ProteoDisco.html
    :license: GPL-3
    :recipe: /`bioconductor-proteodisco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteodisco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteodisco/meta.yaml>`_
 
-   ProteoDisco is an R package to facilitate proteogenomics studies. It houses functions to create customized \(mutant\) protein databases based on user\-submitted genomic variants\, splice\-junctions\, fusion genes and manual transcript sequences. The flexible workflow can be adopted to suit a myriad of research and experimental settings.
+   ProteoDisco is an R package to facilitate proteogenomics studies. It houses functions to create customized \(variant\) protein databases based on user\-submitted genomic variants\, splice\-junctions\, fusion genes and manual transcript sequences. The flexible workflow can be adopted to suit a myriad of research and experimental settings.
 
 
 .. conda:package:: bioconductor-proteodisco

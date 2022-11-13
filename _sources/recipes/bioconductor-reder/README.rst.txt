@@ -12,12 +12,12 @@ bioconductor-reder
 
    Interactive visualization and manipulation of nested networks
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RedeR.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RedeR.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-reder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reder/meta.yaml>`_
    :links: biotools: :biotools:`reder`
 
-   RedeR is an R\-based package combined with a stand\-alone Java application for interactive visualization and manipulation of modular structures\, nested networks and multiple levels of hierarchical associations.
+   RedeR is an R\-based package combined with a stand\-alone Java application for interactive visualization and manipulation of nested networks.
 
 
 .. conda:package:: bioconductor-reder

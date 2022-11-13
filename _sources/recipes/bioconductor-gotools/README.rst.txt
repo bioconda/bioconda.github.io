@@ -12,7 +12,7 @@ bioconductor-gotools
 
    Functions for Gene Ontology database
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/goTools.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/goTools.html
    :license: GPL-2
    :recipe: /`bioconductor-gotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gotools/meta.yaml>`_
    :links: biotools: :biotools:`gotools`, doi: :doi:`10.1038/nmeth.3252`

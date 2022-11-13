@@ -12,11 +12,11 @@ bioconductor-rmelting
 
    R Interface to MELTING 5
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rmelting.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rmelting.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-rmelting <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmelting>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmelting/meta.yaml>`_
 
-   R interface to the MELTING 5 program \(https\:\/\/www.ebi.ac.uk\/biomodels\-static\/tools\/melting\/\) to compute melting temperatures of nucleic acid duplexes along with other thermodynamic parameters.
+   R interface to the MELTING 5 program \(https\:\/\/www.ebi.ac.uk\/biomodels\/tools\/melting\/\) to compute melting temperatures of nucleic acid duplexes along with other thermodynamic parameters.
 
 
 .. conda:package:: bioconductor-rmelting

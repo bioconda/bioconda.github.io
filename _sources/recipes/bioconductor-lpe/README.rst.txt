@@ -12,7 +12,7 @@ bioconductor-lpe
 
    Methods for analyzing microarray data using Local Pooled Error \(LPE\) method
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/LPE.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/LPE.html
    :license: LGPL
    :recipe: /`bioconductor-lpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpe/meta.yaml>`_
    :links: biotools: :biotools:`lpe`, doi: :doi:`10.1093/bioinformatics/btg264`

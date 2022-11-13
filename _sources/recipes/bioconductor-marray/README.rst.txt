@@ -12,7 +12,7 @@ bioconductor-marray
 
    Exploratory analysis for two\-color spotted microarray data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/marray.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/marray.html
    :license: LGPL
    :recipe: /`bioconductor-marray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marray/meta.yaml>`_
    :links: biotools: :biotools:`marray`, doi: :doi:`10.1007/0-387-21679-0_3`

@@ -12,7 +12,7 @@ bioconductor-heatplus
 
    Heatmaps with row and\/or column covariates and colored clusters
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Heatplus.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Heatplus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-heatplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatplus/meta.yaml>`_
    :links: biotools: :biotools:`heatplus`, doi: :doi:`10.1038/nmeth.3252`

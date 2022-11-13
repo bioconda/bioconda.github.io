@@ -12,7 +12,7 @@ bioconductor-bsgenome.creinhardtii.jgi.v5.6
 
    Full genome sequences for Chlamydomonas reinhardtii \(v5.6\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Creinhardtii.JGI.v5.6.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Creinhardtii.JGI.v5.6.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.creinhardtii.jgi.v5.6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.creinhardtii.jgi.v5.6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.creinhardtii.jgi.v5.6/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-nanoporernaseq
 
    Nanopore RNA\-Seq Example data
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/NanoporeRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/NanoporeRNASeq.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-nanoporernaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanoporernaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanoporernaseq/meta.yaml>`_
 

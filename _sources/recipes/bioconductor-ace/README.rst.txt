@@ -12,7 +12,7 @@ bioconductor-ace
 
    Absolute Copy Number Estimation from Low\-coverage Whole Genome Sequencing
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ACE.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ACE.html
    :license: GPL-2
    :recipe: /`bioconductor-ace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ace/meta.yaml>`_
 

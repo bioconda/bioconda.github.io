@@ -12,7 +12,7 @@ bioconductor-apalyzer
 
    A toolkit for APA analysis using RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/APAlyzer.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/APAlyzer.html
    :license: LGPL-3
    :recipe: /`bioconductor-apalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apalyzer/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-synmut
 
    SynMut\: Designing Synonymously Mutated Sequences with Different Genomic Signatures
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SynMut.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SynMut.html
    :license: GPL-2
    :recipe: /`bioconductor-synmut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synmut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synmut/meta.yaml>`_
 

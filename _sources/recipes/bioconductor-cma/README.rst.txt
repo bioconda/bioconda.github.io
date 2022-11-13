@@ -12,7 +12,7 @@ bioconductor-cma
 
    Synthesis of microarray\-based classification
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CMA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CMA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cma/meta.yaml>`_
    :links: biotools: :biotools:`cma`, doi: :doi:`10.1186/1471-2105-9-439`

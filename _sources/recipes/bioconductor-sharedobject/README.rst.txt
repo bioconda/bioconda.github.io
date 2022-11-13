@@ -12,7 +12,7 @@ bioconductor-sharedobject
 
    Sharing R objects across multiple R processes without memory duplication
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SharedObject.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SharedObject.html
    :license: GPL-3
    :recipe: /`bioconductor-sharedobject <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sharedobject>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sharedobject/meta.yaml>`_
 

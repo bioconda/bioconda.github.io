@@ -12,7 +12,7 @@ bioconductor-anota2seq
 
    Generally applicable transcriptome\-wide analysis of translational efficiency using anota2seq
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/anota2seq.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/anota2seq.html
    :license: GPL-3
    :recipe: /`bioconductor-anota2seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota2seq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota2seq/meta.yaml>`_
 

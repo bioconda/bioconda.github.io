@@ -12,7 +12,7 @@ bioconductor-trare
 
    Transcriptional Rewiring
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TraRe.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TraRe.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-trare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trare/meta.yaml>`_
 

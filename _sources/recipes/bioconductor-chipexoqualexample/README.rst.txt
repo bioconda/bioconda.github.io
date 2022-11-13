@@ -12,7 +12,7 @@ bioconductor-chipexoqualexample
 
    Example data for the ChIPexoQual package\, which implements a quality control pipeline for ChIP\-exo data
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/ChIPexoQualExample.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/ChIPexoQualExample.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chipexoqualexample <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqualexample>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqualexample/meta.yaml>`_
 

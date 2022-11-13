@@ -12,7 +12,7 @@ bioconductor-lineagepulse
 
    Differential expression analysis and model fitting for single\-cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/LineagePulse.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/LineagePulse.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lineagepulse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lineagepulse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lineagepulse/meta.yaml>`_
 

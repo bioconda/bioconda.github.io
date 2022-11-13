@@ -12,7 +12,7 @@ bioconductor-jaspar2018
 
    Data package for JASPAR 2018
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/JASPAR2018.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/JASPAR2018.html
    :license: GPL-2
    :recipe: /`bioconductor-jaspar2018 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2018>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2018/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pd.wheat
 
    Platform Design Info for The Manufacturer\'s Name wheat
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.wheat.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.wheat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.wheat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.wheat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.wheat/meta.yaml>`_
 

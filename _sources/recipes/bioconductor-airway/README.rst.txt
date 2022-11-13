@@ -12,7 +12,7 @@ bioconductor-airway
 
    RangedSummarizedExperiment for RNA\-Seq in airway smooth muscle cells\, by Himes et al PLoS One 2014
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/airway.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/airway.html
    :license: LGPL
    :recipe: /`bioconductor-airway <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-airway>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-airway/meta.yaml>`_
 

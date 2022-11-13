@@ -12,7 +12,7 @@ bioconductor-proper
 
    PROspective Power Evaluation for RNAseq
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/PROPER.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PROPER.html
    :license: GPL
    :recipe: /`bioconductor-proper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proper/meta.yaml>`_
    :links: biotools: :biotools:`proper`

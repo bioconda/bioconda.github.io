@@ -12,11 +12,11 @@ bioconductor-harmandata
 
    Data for the Harman package
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/HarmanData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/HarmanData.html
    :license: GPL-3
    :recipe: /`bioconductor-harmandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata/meta.yaml>`_
 
-   Datasets of accompany Harman\, a PCA and constrained optimisation based technique. Contains three datasets\: IMR90\, Human lung fibroblast cells exposed to nitric oxide\; NPM\, an experiment to test skin penetration of metal oxide nanoparticles following topical application of sunscreens in non\-pregnant mice\; OLF\; an experiment to gauge the response of human olfactory neurosphere\-derived \(hONS\) cells to ZnO nanoparticles.
+   Datasets of accompany Harman\, a PCA and constrained optimisation based technique. Contains three example datasets\: IMR90\, Human lung fibroblast cells exposed to nitric oxide\; NPM\, an experiment to test skin penetration of metal oxide nanoparticles following topical application of sunscreens in non\-pregnant mice\; OLF\; an experiment to gauge the response of human olfactory neurosphere\-derived \(hONS\) cells to ZnO nanoparticles. Since version 1.24\, this package also contains the Infinium5 dataset\, a set of batch correction adjustments across 5 Illumina Infinium Methylation BeadChip datasets. This file does not contain methylation data\, but summary statistics of 5 datasets after correction. There is also an EpiSCOPE\_sample file as exampling for the new methylation clustering functionality in Harman.
 
 
 .. conda:package:: bioconductor-harmandata

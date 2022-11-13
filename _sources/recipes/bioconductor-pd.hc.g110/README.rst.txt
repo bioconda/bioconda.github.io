@@ -12,7 +12,7 @@ bioconductor-pd.hc.g110
 
    Platform Design Info for The Manufacturer\'s Name HC\_G110
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.hc.g110.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.hc.g110.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hc.g110 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hc.g110>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hc.g110/meta.yaml>`_
 

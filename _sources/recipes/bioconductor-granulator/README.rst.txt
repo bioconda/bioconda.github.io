@@ -12,7 +12,7 @@ bioconductor-granulator
 
    Rapid benchmarking of methods for \*in silico\* deconvolution of bulk RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/granulator.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/granulator.html
    :license: GPL-3
    :recipe: /`bioconductor-granulator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-granulator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-granulator/meta.yaml>`_
 

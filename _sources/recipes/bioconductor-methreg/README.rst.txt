@@ -12,7 +12,7 @@ bioconductor-methreg
 
    Assessing the regulatory potential of DNA methylation regions or sites on gene transcription
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MethReg.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MethReg.html
    :license: GPL-3
    :recipe: /`bioconductor-methreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methreg/meta.yaml>`_
 

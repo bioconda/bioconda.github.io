@@ -12,11 +12,11 @@ bioconductor-cbioportaldata
 
    Exposes and makes available data from the cBioPortal web resources
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cBioPortalData.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cBioPortalData.html
    :license: AGPL-3
    :recipe: /`bioconductor-cbioportaldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbioportaldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbioportaldata/meta.yaml>`_
 
-   The cBioPortalData package takes compressed resources from repositories such as cBioPortal and assembles a MultiAssayExperiment object with Bioconductor classes.
+   The cBioPortalData R package accesses study datasets from the cBio Cancer Genomics Portal. It accesses the data either from the pre\-packaged zip \/ tar files or from the API interface that was recently implemented by the cBioPortal Data Team. The package can provide data in either tabular format or with MultiAssayExperiment object that uses familiar Bioconductor data representations.
 
 
 .. conda:package:: bioconductor-cbioportaldata

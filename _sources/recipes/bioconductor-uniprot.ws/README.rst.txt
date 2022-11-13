@@ -12,12 +12,12 @@ bioconductor-uniprot.ws
 
    R Interface to UniProt Web Services
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/UniProt.ws.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/UniProt.ws.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-uniprot.ws <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws/meta.yaml>`_
    :links: biotools: :biotools:`uniprot.ws`, doi: :doi:`10.1038/nmeth.3252`
 
-   A collection of functions for retrieving\, processing and repackaging the UniProt web services.
+   The Universal Protein Resource \(UniProt\) is a comprehensive resource for protein sequence and annotation data. This package provides a collection of functions for retrieving\, processing\, and re\-packaging UniProt web services. The package makes use of UniProt\'s modernized REST API and allows mapping of identifiers accross different databases.
 
 
 .. conda:package:: bioconductor-uniprot.ws

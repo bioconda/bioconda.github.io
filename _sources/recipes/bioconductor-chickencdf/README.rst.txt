@@ -12,7 +12,7 @@ bioconductor-chickencdf
 
    chickencdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/chickencdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/chickencdf.html
    :license: LGPL
    :recipe: /`bioconductor-chickencdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickencdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickencdf/meta.yaml>`_
 

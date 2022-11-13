@@ -10,13 +10,13 @@ bioconductor-poma
    :replaces_section_title:
    :noindex:
 
-   User\-friendly Workflow for Metabolomics and Proteomics Data Analysis
+   Tools for Omics Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/POMA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/POMA.html
    :license: GPL-3
    :recipe: /`bioconductor-poma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma/meta.yaml>`_
 
-   A structured\, reproducible and easy\-to\-use workflow for the visualization\, pre\-processing\, exploratory data analysis\, and statistical analysis of metabolomics and proteomics data. The main aim of POMA is to enable a flexible data cleaning and statistical analysis processes in one comprehensible and user\-friendly R package. This package also has a Shiny app version that implements all POMA functions. See https\:\/\/github.com\/pcastellanoescuder\/POMAShiny.
+   A reproducible and easy\-to\-use toolkit for visualization\, pre\-processing\, exploration\, and statistical analysis of omics datasets. The main aim of POMA is to enable a flexible data cleaning and statistical analysis processes in one comprehensible and user\-friendly R package. This package has a Shiny app version called POMAShiny that implements all POMA functions. See https\:\/\/github.com\/pcastellanoescuder\/POMAShiny. See Castellano\-Escuder P\, González\-Domínguez R\, Carmona\-Pontaque F\, et al. \(2021\) \<doi\:10.1371\/journal.pcbi.1009148\> for more details.
 
 
 .. conda:package:: bioconductor-poma

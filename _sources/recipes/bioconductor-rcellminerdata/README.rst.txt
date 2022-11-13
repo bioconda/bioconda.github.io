@@ -12,7 +12,7 @@ bioconductor-rcellminerdata
 
    rcellminerData\: Molecular Profiles and Drug Response for the NCI\-60 Cell Lines
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/rcellminerData.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/rcellminerData.html
    :license: LGPL-3 + file LICENSE
    :recipe: /`bioconductor-rcellminerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcellminerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcellminerdata/meta.yaml>`_
 

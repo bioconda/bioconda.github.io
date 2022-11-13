@@ -12,7 +12,7 @@ bioconductor-mistyr
 
    Multiview Intercellular SpaTial modeling framework
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mistyR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mistyR.html
    :license: GPL-3
    :recipe: /`bioconductor-mistyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mistyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mistyr/meta.yaml>`_
 

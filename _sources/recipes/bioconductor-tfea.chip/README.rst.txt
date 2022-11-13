@@ -12,7 +12,7 @@ bioconductor-tfea.chip
 
    Analyze Transcription Factor Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TFEA.ChIP.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TFEA.ChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tfea.chip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfea.chip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfea.chip/meta.yaml>`_
 

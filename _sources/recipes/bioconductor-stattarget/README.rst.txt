@@ -12,7 +12,7 @@ bioconductor-stattarget
 
    Statistical Analysis of Molecular Profiles
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/statTarget.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/statTarget.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-stattarget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stattarget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stattarget/meta.yaml>`_
 

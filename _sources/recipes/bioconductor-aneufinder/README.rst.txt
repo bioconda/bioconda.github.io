@@ -12,7 +12,7 @@ bioconductor-aneufinder
 
    Analysis of Copy Number Variation in Single\-Cell\-Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AneuFinder.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/AneuFinder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-aneufinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinder/meta.yaml>`_
 

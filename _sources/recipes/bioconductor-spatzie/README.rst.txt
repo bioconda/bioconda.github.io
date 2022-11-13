@@ -12,7 +12,7 @@ bioconductor-spatzie
 
    Identification of enriched motif pairs from chromatin interaction data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/spatzie.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/spatzie.html
    :license: GPL-3
    :recipe: /`bioconductor-spatzie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatzie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatzie/meta.yaml>`_
 

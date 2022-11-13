@@ -12,7 +12,7 @@ bioconductor-targetdecoy
 
    Diagnostic Plots to Evaluate the Target Decoy Approach
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TargetDecoy.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TargetDecoy.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-targetdecoy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetdecoy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetdecoy/meta.yaml>`_
 

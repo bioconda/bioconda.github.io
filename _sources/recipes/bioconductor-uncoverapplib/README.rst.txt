@@ -12,11 +12,11 @@ bioconductor-uncoverapplib
 
    Interactive graphical application for clinical assessment of sequence coverage at the base\-pair level
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/uncoverappLib.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/uncoverappLib.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-uncoverapplib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uncoverapplib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uncoverapplib/meta.yaml>`_
 
-   a Shiny application containing a suite of graphical and statistical tools to support clinical assessment of low coverage regions.It displays three web pages each providing a different analysis module\: Coverage analysis\, calculate AF by allele frequency app and binomial distribution.
+   a Shiny application containing a suite of graphical and statistical tools to support clinical assessment of low coverage regions.It displays three web pages each providing a different analysis module\: Coverage analysis\, calculate AF by allele frequency app and binomial distribution. uncoverAPP provides a statisticl summary of coverage given target file or genes name.
 
 
 .. conda:package:: bioconductor-uncoverapplib

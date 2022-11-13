@@ -12,7 +12,7 @@ bioconductor-pwrewas
 
    A user\-friendly tool for comprehensive power estimation for epigenome wide association studies \(EWAS\)
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/pwrEWAS.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/pwrEWAS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pwrewas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwrewas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwrewas/meta.yaml>`_
 

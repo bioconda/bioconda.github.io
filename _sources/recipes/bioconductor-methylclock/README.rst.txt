@@ -12,7 +12,7 @@ bioconductor-methylclock
 
    Methylclock \- DNA methylation\-based clocks
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/methylclock.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/methylclock.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-methylclock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylclock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylclock/meta.yaml>`_
 

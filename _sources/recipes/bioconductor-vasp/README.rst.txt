@@ -12,11 +12,11 @@ bioconductor-vasp
 
    Quantification and Visualization of Variations of Splicing in Population
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/VaSP.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/VaSP.html
    :license: GPL (>= 2.0)
    :recipe: /`bioconductor-vasp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vasp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vasp/meta.yaml>`_
 
-   Discovery of genome\-wide variable alternative splicing events from short\-read RNA\-seq data and visualizations of gene splicing information for publication\-quality multi\-panel figures in a population.
+   Discovery of genome\-wide variable alternative splicing events from short\-read RNA\-seq data and visualizations of gene splicing information for publication\-quality multi\-panel figures in a population. \(Warning\: The visualizing function is removed due to the dependent package Sushi deprecated. If you want to use it\, please change back to an older version.\)
 
 
 .. conda:package:: bioconductor-vasp

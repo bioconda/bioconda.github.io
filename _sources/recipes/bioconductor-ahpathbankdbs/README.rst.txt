@@ -12,7 +12,7 @@ bioconductor-ahpathbankdbs
 
    Metabolites and proteins linked to PathBank pathways \(for AnnotationHub\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/AHPathbankDbs.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/AHPathbankDbs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahpathbankdbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahpathbankdbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahpathbankdbs/meta.yaml>`_
 

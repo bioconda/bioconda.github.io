@@ -12,7 +12,7 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer2.sgdGene.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer2.sgdGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene/meta.yaml>`_
 

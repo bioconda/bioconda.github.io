@@ -12,7 +12,7 @@ bioconductor-hu35ksubc.db
 
    Affymetrix Affymetrix Hu35KsubC Array annotation data \(chip hu35ksubc\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hu35ksubc.db.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hu35ksubc.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hu35ksubc.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubc.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubc.db/meta.yaml>`_
 

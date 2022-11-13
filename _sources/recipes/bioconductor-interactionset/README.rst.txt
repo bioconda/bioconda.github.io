@@ -12,7 +12,7 @@ bioconductor-interactionset
 
    Base Classes for Storing Genomic Interaction Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/InteractionSet.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/InteractionSet.html
    :license: GPL-3
    :recipe: /`bioconductor-interactionset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactionset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactionset/meta.yaml>`_
    :links: biotools: :biotools:`interactionset`

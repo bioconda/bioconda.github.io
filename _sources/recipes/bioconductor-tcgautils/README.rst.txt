@@ -12,11 +12,11 @@ bioconductor-tcgautils
 
    TCGA utility functions for data management
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TCGAutils.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TCGAutils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tcgautils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgautils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgautils/meta.yaml>`_
 
-   A suite of helper functions for checking and manipulating TCGA data including data obtained from the curatedTCGAData experiment package. These functions aim to simplify and make working with TCGA data more manageable.
+   A suite of helper functions for checking and manipulating TCGA data including data obtained from the curatedTCGAData experiment package. These functions aim to simplify and make working with TCGA data more manageable. Exported functions include those that import data from flat files into Bioconductor objects\, convert row annotations\, and identifier translation via the GDC API.
 
 
 .. conda:package:: bioconductor-tcgautils

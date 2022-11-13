@@ -12,7 +12,7 @@ bioconductor-sift.hsapiens.dbsnp132
 
    SIFT Predictions for Homo sapiens dbSNP build 132
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/SIFT.Hsapiens.dbSNP132.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/SIFT.Hsapiens.dbSNP132.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sift.hsapiens.dbsnp132 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sift.hsapiens.dbsnp132>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sift.hsapiens.dbsnp132/meta.yaml>`_
 

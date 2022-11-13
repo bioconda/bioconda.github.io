@@ -12,11 +12,11 @@ bioconductor-geneplast.data
 
    Input data for the geneplast package via AnnotationHub
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/geneplast.data.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/geneplast.data.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geneplast.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data/meta.yaml>`_
 
-   The package geneplast.data provides an interface for obtaining input data used in the analyses pipelines from geneplast package. Objects containing species\, phylogenetic trees\, and orthology information of eukaryotes from different orthologous databases are provided.
+   The package geneplast.data provides datasets from different sources via AnnotationHub to use in geneplast pipelines. The datasets have species\, phylogenetic trees\, and orthology relationships among eukaryotes from different orthologs databases.
 
 
 .. conda:package:: bioconductor-geneplast.data

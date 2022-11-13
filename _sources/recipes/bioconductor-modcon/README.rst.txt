@@ -12,7 +12,7 @@ bioconductor-modcon
 
    Modifying splice site usage by changing the mRNP code\, while maintaining the genetic code
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ModCon.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ModCon.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-modcon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-modcon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-modcon/meta.yaml>`_
 

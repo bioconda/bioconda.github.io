@@ -12,7 +12,7 @@ bioconductor-lumibarnes
 
    Barnes Benchmark Illumina Tissues Titration Data
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/lumiBarnes.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/lumiBarnes.html
    :license: LGPL
    :recipe: /`bioconductor-lumibarnes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumibarnes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumibarnes/meta.yaml>`_
 

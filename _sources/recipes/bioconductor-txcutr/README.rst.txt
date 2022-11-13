@@ -12,7 +12,7 @@ bioconductor-txcutr
 
    Transcriptome CUTteR
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/txcutr.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/txcutr.html
    :license: GPL-3
    :recipe: /`bioconductor-txcutr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txcutr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txcutr/meta.yaml>`_
 

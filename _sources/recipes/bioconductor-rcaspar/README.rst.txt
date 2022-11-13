@@ -12,7 +12,7 @@ bioconductor-rcaspar
 
    A package for survival time prediction based on a piecewise baseline hazard Cox regression model.
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RCASPAR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RCASPAR.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-rcaspar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcaspar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcaspar/meta.yaml>`_
    :links: biotools: :biotools:`rcaspar`, doi: :doi:`10.1038/nmeth.3252`

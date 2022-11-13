@@ -12,7 +12,7 @@ bioconductor-chipexoqual
 
    ChIPexoQual
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ChIPexoQual.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ChIPexoQual.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-chipexoqual <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqual>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqual/meta.yaml>`_
 

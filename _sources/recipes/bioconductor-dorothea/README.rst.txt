@@ -12,11 +12,11 @@ bioconductor-dorothea
 
    Collection Of Human And Mouse TF Regulons
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/dorothea.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/dorothea.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-dorothea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dorothea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dorothea/meta.yaml>`_
 
-   This package contains human and mouse TF regulons. The human regulons were curated and collected from different types of evidence such as literature curated resources\, ChIP\-seq peaks\, TF binding site motifs and interactions inferred directly from gene expression. The mouse regulons were constructed by mapping the human gene symbols to their orthologs in mice. Those regulons can be coupled with any statistical method that aims to analyse gene sets to infer TF activity from gene expression data. Preferably the statistical method viper is used.
+   DoRothEA is a gene regulatory network containing signed transcription factor \(TF\) \- target gene interactions. DoRothEA regulons\, the collection of a TF and its transcriptional targets\, were curated and collected from different types of evidence for both human and mouse. A confidence level was assigned to each TF\-target interaction based on the number of supporting evidence.
 
 
 .. conda:package:: bioconductor-dorothea

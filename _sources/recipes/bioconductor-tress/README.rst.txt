@@ -12,11 +12,11 @@ bioconductor-tress
 
    Toolbox for mRNA epigenetics sequencing analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TRESS.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TRESS.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-tress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tress/meta.yaml>`_
 
-   This package is devoted to analyzing MeRIP\-seq data. Current functionality is for detection of transcriptome\-wide m6A methylation regions. The method is based on hierarchical negative binomial models.
+   This package is devoted to analyzing MeRIP\-seq data. Current functionalities include 1. detection of transcriptome wide m6A methylation regions 2. detection of transcriptome wide differential m6A methylation regions.
 
 
 .. conda:package:: bioconductor-tress

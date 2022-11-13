@@ -12,7 +12,7 @@ bioconductor-megadepth
 
    megadepth\: BigWig and BAM related utilities
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/megadepth.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/megadepth.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-megadepth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-megadepth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-megadepth/meta.yaml>`_
 

@@ -12,8 +12,8 @@ bioconductor-opencyto
 
    Hierarchical Gating Pipeline for flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/openCyto.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/openCyto.html
+   :license: AGPL-3.0-only
    :recipe: /`bioconductor-opencyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opencyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opencyto/meta.yaml>`_
 
    This package is designed to facilitate the automated gating methods in sequential way to mimic the manual gating strategy.

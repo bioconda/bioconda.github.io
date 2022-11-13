@@ -12,7 +12,7 @@ bioconductor-sdams
 
    Differential Abundant\/Expression Analysis for Metabolomics\, Proteomics and single\-cell RNA sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SDAMS.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SDAMS.html
    :license: GPL
    :recipe: /`bioconductor-sdams <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams/meta.yaml>`_
 

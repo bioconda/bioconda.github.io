@@ -12,11 +12,11 @@ bioconductor-chipanalyser
 
    ChIPanalyser\: Predicting Transcription Factor Binding Sites
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ChIPanalyser.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ChIPanalyser.html
    :license: GPL-3
    :recipe: /`bioconductor-chipanalyser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipanalyser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipanalyser/meta.yaml>`_
 
-   Based on a statistical thermodynamic framework\, ChIPanalyser tries to produce ChIP\-seq like profile. The model relies on four consideration\: TF binding sites can be scored using a Position weight Matrix\, DNA accessibility plays a role in Transcription Factor binding\, binding profiles are dependant on the number of transcription factors bound to DNA and finally binding energy \(another way of describing PWM\'s\) or binding specificity should be modulated \(hence the introduction of a binding specificity modulator\). The end result of ChIPanalyser is to produce profiles simulating real ChIP\-seq profile and provide accuracy measurements of these predicted profiles after being compared to real ChIP\-seq data. The ultimate goal is to produce ChIP\-seq like profiles predicting ChIP\-seq like profile to circumvent the need to produce costly ChIP\-seq experiments.
+   ChIPanalyser is a package to predict and understand TF binding by utilizing a statistical thermodynamic model. The model incorporates 4 main factors thought to drive TF binding\: Chromatin State\, Binding energy\, Number of bound molecules and a scaling factor modulating TF binding affinity. Taken together\, ChIPanalyser produces ChIP\-like profiles that closely mimic the patterns seens in real ChIP\-seq data.
 
 
 .. conda:package:: bioconductor-chipanalyser

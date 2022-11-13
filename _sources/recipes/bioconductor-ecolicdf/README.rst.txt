@@ -12,7 +12,7 @@ bioconductor-ecolicdf
 
    ecolicdf
 
-   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ecolicdf.html
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/ecolicdf.html
    :license: LGPL
    :recipe: /`bioconductor-ecolicdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolicdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolicdf/meta.yaml>`_
 

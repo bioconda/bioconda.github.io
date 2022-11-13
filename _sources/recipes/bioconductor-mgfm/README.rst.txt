@@ -12,7 +12,7 @@ bioconductor-mgfm
 
    Marker Gene Finder in Microarray gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MGFM.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MGFM.html
    :license: GPL-3
    :recipe: /`bioconductor-mgfm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfm/meta.yaml>`_
    :links: biotools: :biotools:`mgfm`, doi: :doi:`10.1186/s12864-015-1785-9`

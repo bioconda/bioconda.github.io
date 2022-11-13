@@ -12,7 +12,7 @@ bioconductor-liebermanaidenhic2009
 
    Selected data from the HiC paper of E. Lieberman\-Aiden et al. in Science \(2009\)
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/LiebermanAidenHiC2009.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/LiebermanAidenHiC2009.html
    :license: LGPL
    :recipe: /`bioconductor-liebermanaidenhic2009 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liebermanaidenhic2009>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liebermanaidenhic2009/meta.yaml>`_
 

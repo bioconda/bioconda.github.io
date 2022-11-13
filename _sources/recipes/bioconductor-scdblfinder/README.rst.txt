@@ -12,11 +12,11 @@ bioconductor-scdblfinder
 
    scDblFinder
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scDblFinder.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scDblFinder.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scdblfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdblfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdblfinder/meta.yaml>`_
 
-   The scDblFinder package gathers various methods for the detection and handling of doublets\/multiplets in single\-cell RNA sequencing data \(i.e. multiple cells captured within the same droplet or reaction volume\). It includes methods formerly found in the scran package\, and the new fast and comprehensive scDblFinder method.
+   The scDblFinder package gathers various methods for the detection and handling of doublets\/multiplets in single\-cell sequencing data \(i.e. multiple cells captured within the same droplet or reaction volume\). It includes methods formerly found in the scran package\, the new fast and comprehensive scDblFinder method\, and a reimplementation of the Amulet detection method for single\-cell ATAC\-seq.
 
 
 .. conda:package:: bioconductor-scdblfinder

@@ -12,7 +12,7 @@ bioconductor-gostats
 
    Tools for manipulating GO and microarrays
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GOstats.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GOstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gostats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gostats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gostats/meta.yaml>`_
    :links: biotools: :biotools:`gostats`

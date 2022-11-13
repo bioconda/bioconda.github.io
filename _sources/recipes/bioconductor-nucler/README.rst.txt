@@ -12,7 +12,7 @@ bioconductor-nucler
 
    Nucleosome positioning package for R
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/nucleR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/nucleR.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-nucler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucler/meta.yaml>`_
    :links: biotools: :biotools:`nucler`

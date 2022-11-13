@@ -12,11 +12,11 @@ bioconductor-rhdf5filters
 
    HDF5 Compression Filters
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rhdf5filters.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rhdf5filters.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-rhdf5filters <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters/meta.yaml>`_
 
-   Provides a collection of compression filters for use with HDF5 datasets.
+   Provides a collection of additional compression filters for HDF5 datasets. The package is intended to provide seemless integration with rhdf5\, however the compiled filters can also be used with external applications.
 
 
 .. conda:package:: bioconductor-rhdf5filters

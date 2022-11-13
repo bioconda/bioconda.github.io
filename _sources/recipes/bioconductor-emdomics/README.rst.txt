@@ -12,7 +12,7 @@ bioconductor-emdomics
 
    Earth Mover\'s Distance for Differential Analysis of Genomics Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/EMDomics.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EMDomics.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-emdomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-emdomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-emdomics/meta.yaml>`_
 

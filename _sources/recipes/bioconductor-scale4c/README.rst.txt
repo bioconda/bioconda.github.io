@@ -12,7 +12,7 @@ bioconductor-scale4c
 
    Scale4C\: an R\/Bioconductor package for scale\-space transformation of 4C\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Scale4C.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Scale4C.html
    :license: LGPL-3
    :recipe: /`bioconductor-scale4c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scale4c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scale4c/meta.yaml>`_
 

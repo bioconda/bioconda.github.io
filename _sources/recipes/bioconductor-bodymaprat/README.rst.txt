@@ -12,7 +12,7 @@ bioconductor-bodymaprat
 
    Experimental dataset from the rat BodyMap project
 
-   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/bodymapRat.html
+   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/bodymapRat.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-bodymaprat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bodymaprat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bodymaprat/meta.yaml>`_
 

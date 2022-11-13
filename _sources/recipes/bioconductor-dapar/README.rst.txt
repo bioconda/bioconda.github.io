@@ -12,11 +12,11 @@ bioconductor-dapar
 
    Tools for the Differential Analysis of Proteins Abundance with R
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DAPAR.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DAPAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dapar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dapar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dapar/meta.yaml>`_
 
-   This package contains a collection of functions for the visualisation and the statistical analysis of proteomic data.
+   The package DAPAR is a Bioconductor distributed R package which provides all the necessary functions to analyze quantitative data from label\-free proteomics experiments. Contrarily to most other similar R packages\, it is endowed with rich and user\-friendly graphical interfaces\, so that no programming skill is required \(see \`Prostar\` package\).
 
 
 .. conda:package:: bioconductor-dapar

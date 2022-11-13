@@ -12,7 +12,7 @@ bioconductor-affyrnadegradation
 
    Analyze and correct probe positional bias in microarray data due to RNA degradation
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AffyRNADegradation.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/AffyRNADegradation.html
    :license: GPL-2
    :recipe: /`bioconductor-affyrnadegradation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyrnadegradation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyrnadegradation/meta.yaml>`_
    :links: biotools: :biotools:`affyrnadegradation`

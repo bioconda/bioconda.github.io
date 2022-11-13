@@ -12,7 +12,7 @@ bioconductor-midashla
 
    R package for immunogenomics data handling and association analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/midasHLA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/midasHLA.html
    :license: MIT + file LICENCE
    :recipe: /`bioconductor-midashla <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-midashla>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-midashla/meta.yaml>`_
 

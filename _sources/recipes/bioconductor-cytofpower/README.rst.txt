@@ -12,7 +12,7 @@ bioconductor-cytofpower
 
    Power analysis for CyTOF experiments
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CyTOFpower.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CyTOFpower.html
    :license: LGPL-3
    :recipe: /`bioconductor-cytofpower <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofpower>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofpower/meta.yaml>`_
 

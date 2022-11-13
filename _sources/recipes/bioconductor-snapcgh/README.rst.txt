@@ -12,7 +12,7 @@ bioconductor-snapcgh
 
    Segmentation\, normalisation and processing of aCGH data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/snapCGH.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/snapCGH.html
    :license: GPL
    :recipe: /`bioconductor-snapcgh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snapcgh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snapcgh/meta.yaml>`_
 

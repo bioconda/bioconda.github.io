@@ -12,7 +12,7 @@ bioconductor-nethet
 
    A bioconductor package for high\-dimensional exploration of biological network heterogeneity
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/nethet.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/nethet.html
    :license: GPL-2
    :recipe: /`bioconductor-nethet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nethet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nethet/meta.yaml>`_
 

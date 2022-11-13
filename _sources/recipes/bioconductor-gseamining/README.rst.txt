@@ -12,7 +12,7 @@ bioconductor-gseamining
 
    Make Biological Sense of Gene Set Enrichment Analysis Outputs
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GSEAmining.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GSEAmining.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-gseamining <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseamining>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseamining/meta.yaml>`_
 

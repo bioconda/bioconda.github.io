@@ -12,11 +12,11 @@ bioconductor-progeny
 
    Pathway RespOnsive GENes for activity inference from gene expression
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/progeny.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/progeny.html
    :license: Apache License (== 2.0) | file LICENSE
    :recipe: /`bioconductor-progeny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-progeny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-progeny/meta.yaml>`_
 
-   This package provides a function to infer pathway activity from gene expression using PROGENy. It contains the linear model we inferred in the publication \"Perturbation\-response genes reveal signaling footprints in cancer gene expression\".
+   PROGENy is resource that leverages a large compendium of publicly available signaling perturbation experiments to yield a common core of pathway responsive genes for human and mouse. These\, coupled with any statistical method\, can be used to infer pathway activities from bulk or single\-cell transcriptomics.
 
 
 .. conda:package:: bioconductor-progeny

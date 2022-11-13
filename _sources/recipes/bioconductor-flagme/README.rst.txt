@@ -12,12 +12,12 @@ bioconductor-flagme
 
    Analysis of Metabolomics GC\/MS Data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flagme.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/flagme.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-flagme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flagme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flagme/meta.yaml>`_
    :links: biotools: :biotools:`flagme`, doi: :doi:`10.1038/nmeth.3252`
 
-   Fragment\-level analysis of gas chromatography \- mass spectrometry metabolomics data
+   Fragment\-level analysis of gas chromatography\-massspectrometry metabolomics data.
 
 
 .. conda:package:: bioconductor-flagme

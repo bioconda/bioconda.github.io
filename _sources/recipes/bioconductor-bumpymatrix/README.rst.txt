@@ -12,7 +12,7 @@ bioconductor-bumpymatrix
 
    Bumpy Matrix of Non\-Scalar Objects
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BumpyMatrix.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BumpyMatrix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-bumpymatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumpymatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumpymatrix/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mcbiclust
 
    Massive correlating biclusters for gene expression data and associated methods
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MCbiclust.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MCbiclust.html
    :license: GPL-2
    :recipe: /`bioconductor-mcbiclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcbiclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcbiclust/meta.yaml>`_
 

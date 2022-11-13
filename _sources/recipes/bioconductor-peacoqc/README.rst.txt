@@ -12,7 +12,7 @@ bioconductor-peacoqc
 
    Peak\-based selection of high quality cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/PeacoQC.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PeacoQC.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-peacoqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peacoqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peacoqc/meta.yaml>`_
 

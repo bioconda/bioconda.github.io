@@ -12,7 +12,7 @@ bioconductor-rbsurv
 
    Robust likelihood\-based survival modeling with microarray data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rbsurv.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rbsurv.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rbsurv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbsurv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbsurv/meta.yaml>`_
    :links: biotools: :biotools:`rbsurv`, doi: :doi:`10.18637/jss.v029.i01`

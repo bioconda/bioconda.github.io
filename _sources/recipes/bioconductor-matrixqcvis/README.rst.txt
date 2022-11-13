@@ -12,7 +12,7 @@ bioconductor-matrixqcvis
 
    Shiny\-based interactive data\-quality exploration for omics data
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MatrixQCvis.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MatrixQCvis.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-matrixqcvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixqcvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixqcvis/meta.yaml>`_
 

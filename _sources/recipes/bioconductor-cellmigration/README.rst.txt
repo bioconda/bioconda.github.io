@@ -12,7 +12,7 @@ bioconductor-cellmigration
 
    Track Cells\, Analyze Cell Trajectories and Compute Migration Statistics
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cellmigRation.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cellmigRation.html
    :license: GPL-2
    :recipe: /`bioconductor-cellmigration <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmigration>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmigration/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rwikipathways
 
    rWikiPathways \- R client library for the WikiPathways API
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rWikiPathways.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rWikiPathways.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rwikipathways <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwikipathways>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwikipathways/meta.yaml>`_
 

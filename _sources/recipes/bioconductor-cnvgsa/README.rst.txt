@@ -12,7 +12,7 @@ bioconductor-cnvgsa
 
    Gene Set Analysis of \(Rare\) Copy Number Variants
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cnvGSA.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cnvGSA.html
    :license: LGPL
    :recipe: /`bioconductor-cnvgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsa/meta.yaml>`_
    :links: biotools: :biotools:`cnvgsa`, doi: :doi:`10.1038/nmeth.3252`

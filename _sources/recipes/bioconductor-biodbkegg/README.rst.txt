@@ -12,7 +12,7 @@ bioconductor-biodbkegg
 
    biodbKegg\, a library for connecting to the KEGG Database
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/biodbKegg.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/biodbKegg.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbkegg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbkegg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbkegg/meta.yaml>`_
 

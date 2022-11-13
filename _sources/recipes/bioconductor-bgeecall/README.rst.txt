@@ -12,8 +12,8 @@ bioconductor-bgeecall
 
    Automatic RNA\-Seq present\/absent gene expression calls generation
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BgeeCall.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BgeeCall.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-bgeecall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeecall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeecall/meta.yaml>`_
 
    BgeeCall allows to generate present\/absent gene expression calls without using an arbitrary cutoff like TPM\<1. Calls are generated based on reference intergenic sequences. These sequences are generated based on expression of all RNA\-Seq libraries of each species integrated in Bgee \(https\:\/\/bgee.org\).

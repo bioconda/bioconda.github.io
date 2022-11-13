@@ -12,11 +12,11 @@ bioconductor-dcanr
 
    Differential co\-expression\/association network analysis
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/dcanr.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/dcanr.html
    :license: GPL-3
    :recipe: /`bioconductor-dcanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcanr/meta.yaml>`_
 
-   Methods and an evaluation framework for the inference of differential co\-expression\/association networks.
+   This package implements methods and an evaluation framework to infer differential co\-expression\/association networks. Various methods are implemented and can be evaluated using simulated datasets. Inference of differential co\-expression networks can allow identification of networks that are altered between two conditions \(e.g.\, health and disease\).
 
 
 .. conda:package:: bioconductor-dcanr

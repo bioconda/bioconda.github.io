@@ -12,7 +12,7 @@ bioconductor-veloviz
 
    VeloViz\: RNA\-velocity informed 2D embeddings for visualizing cell state trajectories
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/veloviz.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/veloviz.html
    :license: GPL-3
    :recipe: /`bioconductor-veloviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-veloviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-veloviz/meta.yaml>`_
 

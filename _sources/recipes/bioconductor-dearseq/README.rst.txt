@@ -12,7 +12,7 @@ bioconductor-dearseq
 
    Differential Expression Analysis for RNA\-seq data through a robust variance component test
 
-   :homepage: https://bioconductor.org/packages/3.14/bioc/html/dearseq.html
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/dearseq.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-dearseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dearseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dearseq/meta.yaml>`_
 
