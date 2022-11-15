@@ -27,13 +27,14 @@ gw
       
       
 
-      ``0.1.8-0``,  ``0.1.7-0``
+      ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
 
    
    :depends fontconfig: ``>=2.13.96,<3.0a0``
    :depends fonts-conda-ecosystem: 
+   :depends freetype: ``>=2.12.1,<3.0a0``
    :depends glfw: 
    :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libcurl: ``>=7.86.0,<8.0a0``
@@ -71,7 +72,7 @@ gw
 
     <script>
         var package = "gw";
-        var versions = ["0.1.8","0.1.7"];
+        var versions = ["0.2.0","0.1.8","0.1.7"];
     </script>
 
 

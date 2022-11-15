@@ -10,10 +10,11 @@ r-sleuth
    :replaces_section_title:
    :noindex:
 
-   Sleuth is an R library for analysis of RNA\-Seq experiments for which transcript abundances have been quantified with kallisto.
+   Tools for investigating RNA\-Seq.
 
-   :homepage: http://pachterlab.github.io/sleuth
-   :license: GPLv3
+   :homepage: http://pachterlab.github.io/sleuth/
+   :developer docs: https://github.com/pachterlab/sleuth
+   :license: GPL / GPLv3
    :recipe: /`r-sleuth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sleuth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sleuth/meta.yaml>`_
 
    
@@ -28,10 +29,10 @@ r-sleuth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.30.0-6</code>,  <code>0.30.0-5</code>,  <code>0.30.0-4</code>,  <code>0.30.0-3</code>,  <code>0.30.0-2</code>,  <code>0.30.0-1</code>,  <code>0.30.0-0</code>,  <code>0.29.0-0</code>,  <code>0.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.30.1-0</code>,  <code>0.30.0-6</code>,  <code>0.30.0-5</code>,  <code>0.30.0-4</code>,  <code>0.30.0-3</code>,  <code>0.30.0-2</code>,  <code>0.30.0-1</code>,  <code>0.30.0-0</code>,  <code>0.29.0-0</code>,  </span></summary>
       
 
-      ``0.30.0-6``,  ``0.30.0-5``,  ``0.30.0-4``,  ``0.30.0-3``,  ``0.30.0-2``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.0.1-0``
+      ``0.30.1-0``,  ``0.30.0-6``,  ``0.30.0-5``,  ``0.30.0-4``,  ``0.30.0-3``,  ``0.30.0-2``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -47,6 +48,7 @@ r-sleuth
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-lazyeval: 
+   :depends r-mass: 
    :depends r-matrixstats: 
    :depends r-pheatmap: 
    :depends r-reshape2: 
@@ -83,7 +85,7 @@ r-sleuth
 
     <script>
         var package = "r-sleuth";
-        var versions = ["0.30.0","0.30.0","0.30.0","0.30.0","0.30.0"];
+        var versions = ["0.30.1","0.30.0","0.30.0","0.30.0","0.30.0"];
     </script>
 
 

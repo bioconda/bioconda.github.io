@@ -27,15 +27,16 @@ lumpy-sv-minimal
       
       
 
-      ``0.3.1-0``
+      ``0.3.1-1``,  ``0.3.1-0``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +68,7 @@ lumpy-sv-minimal
 
     <script>
         var package = "lumpy-sv-minimal";
-        var versions = ["0.3.1"];
+        var versions = ["0.3.1","0.3.1"];
     </script>
 
 

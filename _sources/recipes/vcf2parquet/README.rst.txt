@@ -27,15 +27,15 @@ vcf2parquet
       
       
 
-      ``0.2-0``,  ``0.1-0``
+      ``0.3.0-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends xz: ``>=5.2.6,<5.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ vcf2parquet
 
     <script>
         var package = "vcf2parquet";
-        var versions = ["0.2","0.1"];
+        var versions = ["0.3.0","0.2","0.1"];
     </script>
 
 

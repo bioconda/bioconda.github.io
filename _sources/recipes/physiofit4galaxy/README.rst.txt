@@ -27,7 +27,7 @@ physiofit4galaxy
       
       
 
-      ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.4-0``
+      ``2.2.1-1``,  ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.4-0``
 
       
 
@@ -69,7 +69,7 @@ physiofit4galaxy
 
     <script>
         var package = "physiofit4galaxy";
-        var versions = ["2.2.1","2.1.0","2.0.4"];
+        var versions = ["2.2.1","2.2.1","2.1.0","2.0.4"];
     </script>
 
 

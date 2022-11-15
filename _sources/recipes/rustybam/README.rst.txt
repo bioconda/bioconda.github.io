@@ -28,10 +28,10 @@ rustybam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.30-1</code>,  <code>0.1.30-0</code>,  <code>0.1.29-1</code>,  <code>0.1.29-0</code>,  <code>0.1.28-1</code>,  <code>0.1.28-0</code>,  <code>0.1.27-1</code>,  <code>0.1.27-0</code>,  <code>0.1.26-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.31-0</code>,  <code>0.1.30-1</code>,  <code>0.1.30-0</code>,  <code>0.1.29-1</code>,  <code>0.1.29-0</code>,  <code>0.1.28-1</code>,  <code>0.1.28-0</code>,  <code>0.1.27-1</code>,  <code>0.1.27-0</code>,  </span></summary>
       
 
-      ``0.1.30-1``,  ``0.1.30-0``,  ``0.1.29-1``,  ``0.1.29-0``,  ``0.1.28-1``,  ``0.1.28-0``,  ``0.1.27-1``,  ``0.1.27-0``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
+      ``0.1.31-0``,  ``0.1.30-1``,  ``0.1.30-0``,  ``0.1.29-1``,  ``0.1.29-0``,  ``0.1.28-1``,  ``0.1.28-0``,  ``0.1.27-1``,  ``0.1.27-0``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
 
       
       .. raw:: html
@@ -43,14 +43,14 @@ rustybam
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libcurl: ``>=7.83.1,<8.0a0``
+   :depends libcurl: ``>=7.86.0,<8.0a0``
    :depends libdeflate: ``>=1.13,<1.14.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends openssl: ``>=1.1.1q,<1.1.2a``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends openssl: ``>=1.1.1s,<1.1.2a``
    :depends xz: ``>=5.2.6,<5.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ rustybam
 
     <script>
         var package = "rustybam";
-        var versions = ["0.1.30","0.1.30","0.1.29","0.1.29","0.1.28"];
+        var versions = ["0.1.31","0.1.30","0.1.30","0.1.29","0.1.29"];
     </script>
 
 
