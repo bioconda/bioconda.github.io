@@ -43,7 +43,7 @@ bioconductor-prolocdata
    :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
    :depends bioconductor-data-packages: ``>=20221105``
    :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

@@ -42,7 +42,7 @@ bioconductor-gwasdata
    
    :depends bioconductor-data-packages: ``>=20221104``
    :depends bioconductor-gwastools: ``>=1.44.0,<1.45.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

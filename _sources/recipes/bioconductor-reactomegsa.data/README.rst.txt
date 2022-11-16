@@ -36,7 +36,7 @@ bioconductor-reactomegsa.data
    :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
    :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
    :depends bioconductor-reactomegsa: ``>=1.12.0,<1.13.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-seurat: 
    :requirements:

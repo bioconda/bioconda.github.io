@@ -43,7 +43,7 @@ bioconductor-mu11ksuba.db
    :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
    :depends bioconductor-data-packages: ``>=20221103``
    :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

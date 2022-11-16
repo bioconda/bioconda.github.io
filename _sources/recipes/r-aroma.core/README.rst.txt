@@ -13,7 +13,7 @@ r-aroma.core
    Core methods and classes used by higher\-level \'aroma.\*\' packages part of the Aroma Project\, e.g. \'aroma.affymetrix\' and \'aroma.cn\'.
 
    :homepage: https://github.com/HenrikBengtsson/aroma.core, http://www.aroma-project.org/
-   :license: LGPL / LGPL (>= 2.1)
+   :license: LGPL / LGPL-2.1-or-later
    :recipe: /`r-aroma.core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-aroma.core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-aroma.core/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ r-aroma.core
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.2-2</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.2-2</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.1-0``,  ``3.0.0-0``
+      ``3.3.0-0``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.1-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -85,7 +85,7 @@ r-aroma.core
 
     <script>
         var package = "r-aroma.core";
-        var versions = ["3.2.2","3.2.2","3.2.2","3.2.1","3.2.1"];
+        var versions = ["3.3.0","3.2.2","3.2.2","3.2.2","3.2.1"];
     </script>
 
 

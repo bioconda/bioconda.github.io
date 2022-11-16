@@ -45,7 +45,7 @@ bioconductor-hd2013sgi
    :depends bioconductor-geneplotter: ``>=1.76.0,<1.77.0``
    :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
    :depends bioconductor-splots: ``>=1.64.0,<1.65.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gplots: 
    :depends r-lsd: 

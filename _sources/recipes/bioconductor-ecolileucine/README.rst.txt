@@ -43,7 +43,7 @@ bioconductor-ecolileucine
    :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
    :depends bioconductor-data-packages: ``>=20221107``
    :depends bioconductor-ecolicdf: ``>=2.18.0,<2.19.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

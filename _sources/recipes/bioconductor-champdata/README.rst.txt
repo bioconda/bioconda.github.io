@@ -43,7 +43,7 @@ bioconductor-champdata
    :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
    :depends bioconductor-data-packages: ``>=20221105``
    :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

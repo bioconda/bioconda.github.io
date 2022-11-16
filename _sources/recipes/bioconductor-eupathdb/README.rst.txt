@@ -47,7 +47,7 @@ bioconductor-eupathdb
    :depends bioconductor-data-packages: ``>=20221102``
    :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
    :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :requirements:

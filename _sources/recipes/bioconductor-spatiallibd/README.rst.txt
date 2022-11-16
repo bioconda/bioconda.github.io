@@ -48,7 +48,7 @@ bioconductor-spatiallibd
    :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
    :depends bioconductor-spatialexperiment: ``>=1.8.0,<1.9.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-benchmarkme: 
    :depends r-cowplot: 

@@ -37,7 +37,7 @@ bioconductor-nestlink
    :depends bioconductor-data-packages: ``>=20221108``
    :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
    :depends bioconductor-shortread: ``>=1.56.0,<1.57.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gplots: ``>=3.0``
    :depends r-protviz: ``>=0.4``

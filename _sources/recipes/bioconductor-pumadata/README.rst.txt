@@ -44,7 +44,7 @@ bioconductor-pumadata
    :depends bioconductor-data-packages: ``>=20221108``
    :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
    :depends bioconductor-puma: ``>=3.40.0,<3.41.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

@@ -44,7 +44,7 @@ bioconductor-chimphumanbraindata
    :depends bioconductor-data-packages: ``>=20221104``
    :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
    :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-hexbin: 
    :depends r-statmod: 

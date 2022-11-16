@@ -39,7 +39,7 @@ bioconductor-snplocs.hsapiens.dbsnp150.grch38
    :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
    :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
    :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

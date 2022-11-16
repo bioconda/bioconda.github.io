@@ -47,7 +47,7 @@ bioconductor-dmrcatedata
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-plyr: 
    :depends r-readxl: 

@@ -42,7 +42,7 @@ bioconductor-chic.data
    
    :depends bioconductor-data-packages: ``>=20221106``
    :depends bioconductor-genomeintervals: ``>=1.54.0,<1.55.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-caret: ``>=6.0-78``
    :depends r-randomforest: 

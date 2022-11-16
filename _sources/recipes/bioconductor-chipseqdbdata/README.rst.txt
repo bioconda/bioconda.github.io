@@ -37,7 +37,7 @@ bioconductor-chipseqdbdata
    :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
    :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
    :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

@@ -42,7 +42,7 @@ bioconductor-pwmenrich.hsapiens.background
    
    :depends bioconductor-data-packages: ``>=20221107``
    :depends bioconductor-pwmenrich: ``>=4.34.0,<4.35.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

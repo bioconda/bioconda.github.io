@@ -44,7 +44,7 @@ bioconductor-neve2006
    :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
    :depends bioconductor-data-packages: ``>=20221108``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

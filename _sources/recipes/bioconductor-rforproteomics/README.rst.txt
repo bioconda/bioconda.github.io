@@ -43,7 +43,7 @@ bioconductor-rforproteomics
    :depends bioconductor-biocviews: ``>=1.66.0,<1.67.0``
    :depends bioconductor-data-packages: ``>=20221103``
    :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biocmanager: 
    :depends r-r.utils: 

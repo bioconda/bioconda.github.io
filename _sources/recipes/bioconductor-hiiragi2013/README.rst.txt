@@ -47,7 +47,7 @@ bioconductor-hiiragi2013
    :depends bioconductor-geneplotter: ``>=1.76.0,<1.77.0``
    :depends bioconductor-keggrest: ``>=1.38.0,<1.39.0``
    :depends bioconductor-mouse4302.db: ``>=3.13.0,<3.14.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-boot: 
    :depends r-clue: 

@@ -44,7 +44,7 @@ bioconductor-panther.db
    :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
    :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
    :depends bioconductor-data-packages: ``>=20221103``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-rsqlite: 
    :requirements:

@@ -38,7 +38,7 @@ bioconductor-metagxbreast
    :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
    :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-lattice: 
    :requirements:

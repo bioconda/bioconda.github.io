@@ -34,7 +34,7 @@ bioconductor-ptairdata
    
    :depends bioconductor-data-packages: ``>=20221103``
    :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-signal: 
    :requirements:

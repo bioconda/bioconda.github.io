@@ -39,7 +39,7 @@ bioconductor-flowsorted.cordbloodcombined.450k
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

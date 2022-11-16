@@ -43,7 +43,7 @@ bioconductor-beadarrayexampledata
    :depends bioconductor-beadarray: ``>=2.48.0,<2.49.0``
    :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
    :depends bioconductor-data-packages: ``>=20221107``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

@@ -44,7 +44,7 @@ bioconductor-fletcher2013b
    :depends bioconductor-fletcher2013a: ``>=1.34.0,<1.35.0``
    :depends bioconductor-reder: ``>=2.2.0,<2.3.0``
    :depends bioconductor-rtn: ``>=2.22.0,<2.23.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-igraph: 
    :depends r-rcolorbrewer: 

@@ -47,7 +47,7 @@ bioconductor-homo.sapiens
    :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
    :depends bioconductor-organismdbi: ``>=1.40.0,<1.41.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

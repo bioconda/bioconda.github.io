@@ -37,7 +37,7 @@ bioconductor-gse13015
    :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
    :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

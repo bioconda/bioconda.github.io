@@ -46,7 +46,7 @@ bioconductor-pd.zebrafish
    :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
    :depends bioconductor-oligoclasses: ``>=1.60.0,<1.61.0``
    :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-rsqlite: ``>=1.0.0``

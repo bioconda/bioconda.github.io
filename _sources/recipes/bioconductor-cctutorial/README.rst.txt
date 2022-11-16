@@ -45,7 +45,7 @@ bioconductor-cctutorial
    :depends bioconductor-data-packages: ``>=20221109``
    :depends bioconductor-ringo: ``>=1.62.0,<1.63.0``
    :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

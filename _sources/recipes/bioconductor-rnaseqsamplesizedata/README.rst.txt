@@ -42,7 +42,7 @@ bioconductor-rnaseqsamplesizedata
    
    :depends bioconductor-data-packages: ``>=20221109``
    :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

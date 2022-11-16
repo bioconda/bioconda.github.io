@@ -42,7 +42,7 @@ bioconductor-rrbsdata
    
    :depends bioconductor-biseq: ``>=1.38.0,<1.39.0``
    :depends bioconductor-data-packages: ``>=20221109``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

@@ -27,37 +27,36 @@ mirnature
       
       
 
-      ``1.1-0``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.1-1``,  ``1.1-0``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends blast: ``>=2.9.0``
-   :depends blast-legacy: ``>=2.2.26``
+   :depends biopython: ``>=1.78``
+   :depends blast: ``>=2.13.0``
    :depends clustalo: ``>=1.2.4``
-   :depends hmmer: ``>=3.3``
-   :depends infernal: ``>=1.1.2``
-   :depends mirfix: ``>=2.0.0``
-   :depends nettle: ``>=3.3``
+   :depends hmmer: ``>=3.3.2``
+   :depends infernal: ``>=1.1.4``
+   :depends mirfix: ``>=2.1.1``
+   :depends parallel: ``>=20220922``
+   :depends perl: ``>=5.32.1``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-bioperl: ``>=1.7.2``
+   :depends perl-bioperl: ``>=1.6.924``
    :depends perl-file-copy-recursive: ``>=0.45``
-   :depends perl-file-share: ``>=0.25``
-   :depends perl-file-sharedir: ``>=1.116``
-   :depends perl-getopt-long: ``>=2.50``
-   :depends perl-list-moreutils: 
+   :depends perl-io-string: ``>=1.08``
+   :depends perl-io-stringy: ``>=2.113``
    :depends perl-module-build: ``>=0.4224``
-   :depends perl-moose: ``>=2.2011``
-   :depends perl-moosex-types: ``>=0.50``
+   :depends perl-module-implementation: ``>=0.09``
+   :depends perl-moose: ``>=2.2201``
    :depends perl-moosex-types-path-class: ``>=0.09``
-   :depends perl-regexp-common: ``>=2017060201``
    :depends perl-statistics-r: ``>=0.34``
-   :depends perl-sub-name: ``>=0.21``
    :depends perl-yaml-tiny: ``>=1.73``
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-dplyr: ``>=0.8.5``
+   :depends pyfaidx: ``>=0.7.1``
+   :depends python: ``>3``
+   :depends r-base: ``>=4.1.0``
+   :depends r-dplyr: ``>=1.0.10``
    :depends rmblast: ``>=2.9.0``
-   :depends viennarna: ``>=2.4.17``
+   :depends viennarna: ``>=2.4.15``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +88,7 @@ mirnature
 
     <script>
         var package = "mirnature";
-        var versions = ["1.1","1.0","1.0","1.0","1.0"];
+        var versions = ["1.1","1.1","1.0","1.0","1.0"];
     </script>
 
 

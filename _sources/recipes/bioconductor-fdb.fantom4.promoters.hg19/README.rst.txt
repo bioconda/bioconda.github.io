@@ -44,7 +44,7 @@ bioconductor-fdb.fantom4.promoters.hg19
    :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
    :depends bioconductor-data-packages: ``>=20221102``
    :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

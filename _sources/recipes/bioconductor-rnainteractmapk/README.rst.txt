@@ -36,7 +36,7 @@ bioconductor-rnainteractmapk
    :depends bioconductor-data-packages: ``>=20221110``
    :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
    :depends bioconductor-rnainteract: ``>=1.46.0,<1.47.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-fields: 
    :depends r-gdata: 

@@ -46,7 +46,7 @@ bioconductor-fdb.infiniummethylation.hg18
    :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

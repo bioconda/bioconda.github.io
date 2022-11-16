@@ -43,7 +43,7 @@ bioconductor-qplexdata
    :depends bioconductor-data-packages: ``>=20221106``
    :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
    :depends bioconductor-qplexanalyzer: ``>=1.16.0,<1.17.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-knitr: 

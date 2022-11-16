@@ -46,7 +46,7 @@ bioconductor-metagxpancreas
    :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
    :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

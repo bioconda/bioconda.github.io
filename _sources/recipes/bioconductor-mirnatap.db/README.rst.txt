@@ -43,7 +43,7 @@ bioconductor-mirnatap.db
    :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
    :depends bioconductor-data-packages: ``>=20221103``
    :depends bioconductor-mirnatap: ``>=1.32.0,<1.33.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 

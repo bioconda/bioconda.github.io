@@ -43,7 +43,7 @@ bioconductor-grasp2db
    :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
    :depends bioconductor-data-packages: ``>=20221102``
    :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbplyr: 
    :depends r-digest: 

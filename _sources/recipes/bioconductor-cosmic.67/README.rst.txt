@@ -44,7 +44,7 @@ bioconductor-cosmic.67
    :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
    :depends bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

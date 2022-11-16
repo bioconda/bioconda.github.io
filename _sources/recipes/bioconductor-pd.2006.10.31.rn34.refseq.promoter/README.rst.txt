@@ -45,7 +45,7 @@ bioconductor-pd.2006.10.31.rn34.refseq.promoter
    :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
    :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
    :depends bioconductor-oligoclasses: ``>=1.60.0,<1.61.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``

@@ -44,7 +44,7 @@ bioconductor-davidtiling
    :depends bioconductor-data-packages: ``>=20221109``
    :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
    :depends bioconductor-tilingarray: ``>=1.76.0,<1.77.0``
-   :depends curl: ``>=7.86.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

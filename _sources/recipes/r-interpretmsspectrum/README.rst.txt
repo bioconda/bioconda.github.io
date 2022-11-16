@@ -13,7 +13,7 @@ r-interpretmsspectrum
    Annotate and interpret deconvoluted mass spectra \(mass\*intensity pairs\) from high resolution mass spectrometry devices.
 
    :homepage: http://dx.doi.org/10.1021/acs.analchem.6b02743
-   :license: GPL3 / GPL-3
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`r-interpretmsspectrum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-interpretmsspectrum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-interpretmsspectrum/meta.yaml>`_
 
    
@@ -27,19 +27,15 @@ r-interpretmsspectrum
       
       
 
-      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.3-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
    :depends bioconductor-rdisop: 
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-dbi: 
-   :depends r-doparallel: 
    :depends r-envipat: 
-   :depends r-foreach: 
    :depends r-plyr: 
-   :depends r-rsqlite: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +67,7 @@ r-interpretmsspectrum
 
     <script>
         var package = "r-interpretmsspectrum";
-        var versions = ["1.2","1.2","1.2","1.2"];
+        var versions = ["1.3.3","1.2","1.2","1.2","1.2"];
     </script>
 
 

@@ -29,7 +29,7 @@ pyrovelocity
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -42,10 +42,10 @@ pyrovelocity
    :depends ipywidgets: 
    :depends jupyterlab: 
    :depends pyro-ppl: ``1.6.0``
-   :depends python: ``3.8``
+   :depends python: ``3.8.8``
    :depends pytorch-gpu: ``1.8.*``
    :depends pytorch-lightning: ``1.3.0``
-   :depends scvelo: 
+   :depends scvelo: ``0.2.4``
    :depends scvi-tools: ``0.13.0``
    :depends seaborn: ``0.11.2``
    :depends torchmetrics: ``0.5.1``
@@ -80,7 +80,7 @@ pyrovelocity
 
     <script>
         var package = "pyrovelocity";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 
