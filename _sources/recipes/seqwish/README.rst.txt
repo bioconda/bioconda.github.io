@@ -28,10 +28,10 @@ seqwish
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.7-0</code>,  <code>0.7.6-1</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.7-1</code>,  <code>0.7.7-0</code>,  <code>0.7.6-1</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  </span></summary>
       
 
-      ``0.7.7-0``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4-0``,  ``0.2.1-0``
+      ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -76,7 +76,7 @@ seqwish
 
     <script>
         var package = "seqwish";
-        var versions = ["0.7.7","0.7.6","0.7.6","0.7.5","0.7.4"];
+        var versions = ["0.7.7","0.7.7","0.7.6","0.7.6","0.7.5"];
     </script>
 
 

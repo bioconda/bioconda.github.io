@@ -30,10 +30,10 @@ pomoxis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ pomoxis
    :depends matplotlib-base: ``>=3.2.1``
    :depends miniasm: ``>=0.3_r179``
    :depends minimap2: ``>=2.17``
+   :depends ncls: ``>=0.0.65``
    :depends numpy: ``>=1.16.1``
    :depends pandas: ``>=0.24.2``
    :depends porechop: 
@@ -88,7 +89,7 @@ pomoxis
 
     <script>
         var package = "pomoxis";
-        var versions = ["0.3.10","0.3.9","0.3.8","0.3.7","0.3.6"];
+        var versions = ["0.3.11","0.3.10","0.3.9","0.3.8","0.3.7"];
     </script>
 
 

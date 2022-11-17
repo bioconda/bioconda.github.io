@@ -1,0 +1,91 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'degenotate'
+.. highlight: bash
+
+degenotate
+==========
+
+.. conda:recipe:: degenotate
+   :replaces_section_title:
+   :noindex:
+
+   Annotation of degeneracy of sites in coding regions of a genome
+
+   :homepage: https://github.com/harvardinformatics/degenotate
+   :license: MIT
+   :recipe: /`degenotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/degenotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/degenotate/meta.yaml>`_
+
+   Annotation of degeneracy of sites in coding regions of a genome
+
+
+.. conda:package:: degenotate
+
+   |downloads_degenotate| |docker_degenotate|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends networkx: 
+   :depends pysam: 
+   :depends python: ``>3.8``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install degenotate
+
+   and update with::
+
+      conda update degenotate
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/degenotate:<tag>
+
+   (see `degenotate/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_degenotate| image:: https://img.shields.io/conda/dn/bioconda/degenotate.svg?style=flat
+   :target: https://anaconda.org/bioconda/degenotate
+   :alt:   (downloads)
+.. |docker_degenotate| image:: https://quay.io/repository/biocontainers/degenotate/status
+   :target: https://quay.io/repository/biocontainers/degenotate
+.. _`degenotate/tags`: https://quay.io/repository/biocontainers/degenotate?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "degenotate";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/degenotate/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/degenotate/README.html
