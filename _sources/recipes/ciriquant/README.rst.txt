@@ -27,19 +27,23 @@ ciriquant
       
       
 
-      ``1.1.2-0``
+      ``1.1.2-1``,  ``1.1.2-0``
 
       
 
    
    :depends argparse: 
+   :depends bwa: 
+   :depends hisat2: 
    :depends numexpr: 
    :depends numpy: 
    :depends pysam: 
    :depends python: ``2.7.15``
    :depends pyyaml: 
+   :depends samtools: ``1.9``
    :depends scikit-learn: 
    :depends scipy: 
+   :depends stringtie: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +75,7 @@ ciriquant
 
     <script>
         var package = "ciriquant";
-        var versions = ["1.1.2"];
+        var versions = ["1.1.2","1.1.2"];
     </script>
 
 

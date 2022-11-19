@@ -29,10 +29,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -47,18 +47,17 @@ poppunk
    :depends graph-tool: ``>=2.35``
    :depends h5py: 
    :depends hdbscan: 
-   :depends libblas: 
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=10.4.0``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mandrake: 
    :depends matplotlib-base: 
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends pp-sketchlib: ``>=1.7.0``
+   :depends pp-sketchlib: ``>=2.0.1``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends rapidnj: 
@@ -76,7 +75,7 @@ poppunk
    :depends xorg-libxinerama: 
    :depends xorg-libxpm: 
    :depends xorg-libxrandr: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -108,7 +107,7 @@ poppunk
 
     <script>
         var package = "poppunk";
-        var versions = ["2.5.0","2.4.0","2.4.0","2.4.0","2.3.0"];
+        var versions = ["2.6.0","2.5.0","2.4.0","2.4.0","2.4.0"];
     </script>
 
 
