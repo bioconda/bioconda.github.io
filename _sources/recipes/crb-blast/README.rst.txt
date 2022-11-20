@@ -27,14 +27,13 @@ crb-blast
       
       
 
-      ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``
+      ``0.6.9-0``,  ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``
 
       
 
    
    :depends blast: 
    :depends ruby: ``>=2.4.4``
-   :depends ruby: ``>=2.6.5,<2.7.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ crb-blast
 
     <script>
         var package = "crb-blast";
-        var versions = ["0.6.6","0.6.6","0.6.6"];
+        var versions = ["0.6.9","0.6.6","0.6.6","0.6.6"];
     </script>
 
 

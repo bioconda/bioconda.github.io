@@ -13,7 +13,7 @@ r-mkmisc
    Contains several functions for statistical data analysis\; e.g. for sample size and power calculations\, computation of confidence intervals and tests\, and generation of similarity matrices.
 
    :homepage: http://www.stamats.de/
-   :license: LGPL / LGPL-3
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`r-mkmisc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mkmisc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mkmisc/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-mkmisc
       
       
 
-      ``1.8-1``,  ``1.8-0``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+      ``1.9-0``,  ``1.8-1``,  ``1.8-0``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
 
       
 
@@ -69,7 +69,7 @@ r-mkmisc
 
     <script>
         var package = "r-mkmisc";
-        var versions = ["1.8","1.8","1.6","1.6","1.6"];
+        var versions = ["1.9","1.8","1.8","1.6","1.6"];
     </script>
 
 

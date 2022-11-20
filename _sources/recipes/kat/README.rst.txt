@@ -29,10 +29,10 @@ kat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.2-2</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.1-3</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.2-3</code>,  <code>2.4.2-2</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.1-3</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  </span></summary>
       
 
-      ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-2``,  ``2.0.8-1``,  ``2.0.8-0``
+      ``2.4.2-3``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-2``,  ``2.0.8-1``,  ``2.0.8-0``
 
       
       .. raw:: html
@@ -41,16 +41,17 @@ kat
       
 
    
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends matplotlib: 
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :depends tabulate: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +83,7 @@ kat
 
     <script>
         var package = "kat";
-        var versions = ["2.4.2","2.4.2","2.4.2","2.4.1","2.4.1"];
+        var versions = ["2.4.2","2.4.2","2.4.2","2.4.2","2.4.1"];
     </script>
 
 

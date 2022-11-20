@@ -27,7 +27,7 @@ iphop
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -41,8 +41,8 @@ iphop
    :depends joblib: ``1.0.1.*``
    :depends libstdcxx-ng: ``11.2.0.*``
    :depends pandas: ``1.3.2.*``
-   :depends perl: ``5.26.*``
-   :depends perl-bioperl: ``1.6.924.*``
+   :depends perl: ``<6``
+   :depends perl-bioperl: ``<=1.7``
    :depends piler-cr: ``1.06.*``
    :depends prodigal: ``2.6.3.*``
    :depends python: ``3.8.*``
@@ -80,7 +80,7 @@ iphop
 
     <script>
         var package = "iphop";
-        var versions = ["1.1.0","1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.0.0"];
     </script>
 
 
