@@ -29,12 +29,12 @@ corekaburra
       
       
 
-      ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
-   :depends biopython: ``>=1.79``
+   :depends biopython: ``1.79``
    :depends gffutils: ``0.10.1``
    :depends networkx: ``2.6.3``
    :depends python: ``>=3.9``
@@ -69,7 +69,7 @@ corekaburra
 
     <script>
         var package = "corekaburra";
-        var versions = ["0.0.4","0.0.3","0.0.3"];
+        var versions = ["0.0.5","0.0.4","0.0.3","0.0.3"];
     </script>
 
 

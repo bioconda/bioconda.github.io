@@ -28,10 +28,10 @@ hifiasm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.1-1</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.5-0</code>,  <code>0.15.4-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.14-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17.3-0</code>,  <code>0.16.1-1</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.5-0</code>,  <code>0.15.4-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  </span></summary>
       
 
-      ``0.16.1-1``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.5-0``,  ``0.15.4-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.14-1``,  ``0.14-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.10-0``,  ``0.9-0``
+      ``0.17.3-0``,  ``0.16.1-1``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.5-0``,  ``0.15.4-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.14-1``,  ``0.14-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.10-0``,  ``0.9-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ hifiasm
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ hifiasm
 
     <script>
         var package = "hifiasm";
-        var versions = ["0.16.1","0.16.1","0.16.0","0.15.5","0.15.4"];
+        var versions = ["0.17.3","0.16.1","0.16.1","0.16.0","0.15.5"];
     </script>
 
 
