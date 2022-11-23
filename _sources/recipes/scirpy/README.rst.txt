@@ -10,7 +10,7 @@ scirpy
    :replaces_section_title:
    :noindex:
 
-   A Scanpy extension for analyzing single\-cell T\-cell receptor sequencing data.
+   A Scanpy extension for analyzing single\-cell T\-cell and B\-cell receptor \(TCR\/BCR\) sequencing data.
 
    :homepage: https://icbi-lab.github.io/scirpy
    :developer docs: https://github.com/icbi-lab/scirpy
@@ -30,10 +30,10 @@ scirpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  </span></summary>
       
 
-      ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ scirpy
    :depends pandas: ``>=1.0``
    :depends parasail-python: 
    :depends python: ``>=3.7``
-   :depends python-igraph: 
+   :depends python-igraph: ``>0.10.1|<0.10.0``
    :depends python-levenshtein: 
    :depends scanpy: ``>=1.6.0``
    :depends scikit-learn: 
@@ -89,7 +89,7 @@ scirpy
 
     <script>
         var package = "scirpy";
-        var versions = ["0.11.1","0.11.0","0.10.1","0.10.0","0.9.1"];
+        var versions = ["0.11.2","0.11.1","0.11.0","0.10.1","0.10.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ fusioncatcher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  <code>1.33-0</code>,  <code>1.30-1</code>,  <code>1.30-0</code>,  <code>1.20-2</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.33-4</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  <code>1.33-0</code>,  <code>1.30-1</code>,  <code>1.30-0</code>,  <code>1.20-2</code>,  <code>1.20-1</code>,  </span></summary>
       
 
-      ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.30-1``,  ``1.30-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-0``,  ``1.00-1``,  ``1.00-0``
+      ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.30-1``,  ``1.30-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-0``,  ``1.00-1``,  ``1.00-0``
 
       
       .. raw:: html
@@ -51,6 +51,7 @@ fusioncatcher
    :depends fastqtk: 
    :depends fusioncatcher-seqtk: ``1.2.*``
    :depends grep: 
+   :depends gzip: 
    :depends lzo: 
    :depends lzop: 
    :depends numpy: ``1.13.1.*``
@@ -101,7 +102,7 @@ fusioncatcher
 
     <script>
         var package = "fusioncatcher";
-        var versions = ["1.33","1.33","1.33","1.33","1.30"];
+        var versions = ["1.33","1.33","1.33","1.33","1.33"];
     </script>
 
 

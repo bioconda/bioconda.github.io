@@ -30,10 +30,10 @@ kb-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.27.3-0</code>,  <code>0.27.2-0</code>,  <code>0.27.1-0</code>,  <code>0.27.0-0</code>,  <code>0.26.4-0</code>,  <code>0.26.3-0</code>,  <code>0.26.2-0</code>,  <code>0.26.1-0</code>,  <code>0.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.27.3-1</code>,  <code>0.27.3-0</code>,  <code>0.27.2-0</code>,  <code>0.27.1-0</code>,  <code>0.27.0-0</code>,  <code>0.26.4-0</code>,  <code>0.26.3-0</code>,  <code>0.26.2-0</code>,  <code>0.26.1-0</code>,  </span></summary>
       
 
-      ``0.27.3-0``,  ``0.27.2-0``,  ``0.27.1-0``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.26.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
+      ``0.27.3-1``,  ``0.27.3-0``,  ``0.27.2-0``,  ``0.27.1-0``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.26.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
 
       
       .. raw:: html
@@ -55,6 +55,7 @@ kb-python
    :depends pandas: ``>=1.0.0``
    :depends plotly: ``>=4.5.0``
    :depends python: ``>=3.6``
+   :depends requests: ``>=2.22.0``
    :depends scanpy: ``>=1.4.4.post1``
    :depends scikit-learn: ``>=0.21.3``
    :depends tqdm: ``>=4.39.0``
@@ -89,7 +90,7 @@ kb-python
 
     <script>
         var package = "kb-python";
-        var versions = ["0.27.3","0.27.2","0.27.1","0.27.0","0.26.4"];
+        var versions = ["0.27.3","0.27.3","0.27.2","0.27.1","0.27.0"];
     </script>
 
 
