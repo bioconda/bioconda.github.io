@@ -27,17 +27,18 @@ ryuto
       
       
 
-      ``1.6.2-0``,  ``1.6.1-0``,  ``1.6-0``
+      ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ ryuto
 
     <script>
         var package = "ryuto";
-        var versions = ["1.6.2","1.6.1","1.6"];
+        var versions = ["1.6.3","1.6.2","1.6.1","1.6"];
     </script>
 
 

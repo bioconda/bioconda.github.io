@@ -27,11 +27,13 @@ pbpigeon
       
       
 
-      ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +65,7 @@ pbpigeon
 
     <script>
         var package = "pbpigeon";
-        var versions = ["1.0.0","0.1.2","0.1.1","0.1.0"];
+        var versions = ["1.0.0","1.0.0","0.1.2","0.1.1","0.1.0"];
     </script>
 
 

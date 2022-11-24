@@ -27,7 +27,7 @@ captus
       
       
 
-      ``0.9.88-0``,  ``0.9.86-0``,  ``0.9.85-0``,  ``0.9.84-1``,  ``0.9.84-0``,  ``0.9.83-0``
+      ``0.9.88-1``,  ``0.9.88-0``,  ``0.9.86-0``,  ``0.9.85-0``,  ``0.9.84-1``,  ``0.9.84-0``,  ``0.9.83-0``
 
       
 
@@ -39,6 +39,7 @@ captus
    :depends mafft: 
    :depends megahit: 
    :depends mmseqs2: 
+   :depends muscle: ``>=5``
    :depends pandas: 
    :depends perl-bioperl-core: ``1.007002.*``
    :depends pigz: 
@@ -77,7 +78,7 @@ captus
 
     <script>
         var package = "captus";
-        var versions = ["0.9.88","0.9.86","0.9.85","0.9.84","0.9.84"];
+        var versions = ["0.9.88","0.9.88","0.9.86","0.9.85","0.9.84"];
     </script>
 
 
