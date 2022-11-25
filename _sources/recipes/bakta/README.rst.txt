@@ -29,10 +29,10 @@ bakta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -45,13 +45,15 @@ bakta
    :depends aragorn: ``>=1.2.38``
    :depends biopython: ``>=1.78``
    :depends blast: ``>=2.12.0``
+   :depends circos: ``>=0.69.8``
    :depends diamond: ``>=2.0.14``
    :depends hmmer: ``>=3.3.2``
    :depends infernal: ``>=1.1.4``
-   :depends ncbi-amrfinderplus: ``>=3.10.23``
+   :depends ncbi-amrfinderplus: ``>=3.10.42``
    :depends piler-cr: 
-   :depends prodigal: ``>=2.6.3``
+   :depends pyrodigal: ``>=2.0.2``
    :depends python: ``>=3.8``
+   :depends pyyaml: ``>=6.0``
    :depends requests: ``>=2.25.1``
    :depends trnascan-se: ``>=2.0.8``
    :depends xopen: ``>=1.1.0``
@@ -86,7 +88,7 @@ bakta
 
     <script>
         var package = "bakta";
-        var versions = ["1.5.1","1.5.0","1.4.2","1.4.1","1.4.0"];
+        var versions = ["1.6.0","1.5.1","1.5.0","1.4.2","1.4.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ cherri
       
       
 
-      ``0.6-0``
+      ``0.7-0``,  ``0.6-0``
 
       
 
@@ -77,7 +77,7 @@ cherri
 
     <script>
         var package = "cherri";
-        var versions = ["0.6"];
+        var versions = ["0.7","0.6"];
     </script>
 
 
