@@ -26,13 +26,20 @@ r-jackstraw
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.8-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3-6</code>,  <code>1.3-5</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  </span></summary>
+      
 
+      ``1.3.8-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-lfa: 
    :depends bioconductor-qvalue: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cluster: 
@@ -71,7 +78,7 @@ r-jackstraw
 
     <script>
         var package = "r-jackstraw";
-        var versions = ["1.3.1","1.3.1","1.3","1.3","1.3"];
+        var versions = ["1.3.8","1.3.1","1.3.1","1.3","1.3"];
     </script>
 
 

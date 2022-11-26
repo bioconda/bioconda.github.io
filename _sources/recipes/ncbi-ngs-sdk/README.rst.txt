@@ -28,10 +28,10 @@ ncbi-ngs-sdk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.2-1</code>,  <code>2.11.2-0</code>,  <code>2.11.1-0</code>,  <code>2.11.0-0</code>,  <code>2.10.9-1</code>,  <code>2.10.9-0</code>,  <code>2.10.4-1</code>,  <code>2.10.4-0</code>,  <code>2.10.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>2.11.2-1</code>,  <code>2.11.2-0</code>,  <code>2.11.1-0</code>,  <code>2.11.0-0</code>,  <code>2.10.9-1</code>,  <code>2.10.9-0</code>,  <code>2.10.4-1</code>,  <code>2.10.4-0</code>,  </span></summary>
       
 
-      ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.9-1``,  ``2.10.9-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
+      ``3.0.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.9-1``,  ``2.10.9-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ ncbi-ngs-sdk
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libiconv: ``>=1.16,<1.17.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libxml2: ``>=2.9.12,<2.10.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libxml2: ``>=2.9.14,<2.10.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -76,7 +76,7 @@ ncbi-ngs-sdk
 
     <script>
         var package = "ncbi-ngs-sdk";
-        var versions = ["2.11.2","2.11.2","2.11.1","2.11.0","2.10.9"];
+        var versions = ["3.0.1","2.11.2","2.11.2","2.11.1","2.11.0"];
     </script>
 
 

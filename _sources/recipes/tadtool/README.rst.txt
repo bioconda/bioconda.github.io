@@ -26,9 +26,17 @@ tadtool
    :versions:
       
       
+      .. raw:: html
 
-      ``0.82-0``,  ``0.81-1``,  ``0.81-0``,  ``0.80-0``,  ``0.79-0``,  ``0.78-0``,  ``0.77-0``,  ``0.75-1``,  ``0.75-0``
+         <details><summary><span class="truncated-version-list"><code>0.84-0</code>,  <code>0.82-0</code>,  <code>0.81-1</code>,  <code>0.81-0</code>,  <code>0.80-0</code>,  <code>0.79-0</code>,  <code>0.78-0</code>,  <code>0.77-0</code>,  <code>0.75-1</code>,  </span></summary>
+      
 
+      ``0.84-0``,  ``0.82-0``,  ``0.81-1``,  ``0.81-0``,  ``0.80-0``,  ``0.79-0``,  ``0.78-0``,  ``0.77-0``,  ``0.75-1``,  ``0.75-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -68,7 +76,7 @@ tadtool
 
     <script>
         var package = "tadtool";
-        var versions = ["0.82","0.81","0.81","0.80","0.79"];
+        var versions = ["0.84","0.82","0.81","0.81","0.80"];
     </script>
 
 
