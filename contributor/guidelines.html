@@ -638,7 +638,7 @@ tests or otherwise), including these in the recipe is not recommended
 since it may timeout the build system on CircleCI. We especially want to avoid
 including any kind of test data in the repository.</p>
 <p>Note that a test must return an exit code of 0. The test can be in the <code class="docutils literal notranslate"><span class="pre">test</span></code>
-field of <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>, or can be a separate script (see the <a class="reference external" href="http://conda.pydata.org/docs/building/meta-yaml.html#test-section">relevant conda
+field of <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>, or can be a separate script (see the <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/stable/resources/define-metadata.html?highlight=test-section#test-section">relevant conda
 docs</a> for
 testing).</p>
 <p>It is recommended to pipe unneeded stdout/stderr to /dev/null to avoid
