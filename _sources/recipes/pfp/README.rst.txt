@@ -27,7 +27,7 @@ pfp
       
       
 
-      ``0.3.5-1``,  ``0.3.5-0``
+      ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
 
       
 
@@ -35,8 +35,8 @@ pfp
    :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ pfp
 
     <script>
         var package = "pfp";
-        var versions = ["0.3.5","0.3.5"];
+        var versions = ["0.3.6","0.3.5","0.3.5"];
     </script>
 
 

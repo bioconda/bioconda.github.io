@@ -27,7 +27,7 @@ cdhit-reader
       
       
 
-      ``0.1.0-0``,  ``0.0.6-0``
+      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
 
@@ -68,7 +68,7 @@ cdhit-reader
 
     <script>
         var package = "cdhit-reader";
-        var versions = ["0.1.0","0.0.6"];
+        var versions = ["0.1.1","0.1.0","0.0.6"];
     </script>
 
 
