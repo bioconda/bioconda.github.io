@@ -13,7 +13,7 @@ r-crisprcleanr
    Analysis of CRISPR functional genomics\, remove false positive due to CNVs.
 
    :homepage: https://github.com/francescojm/CRISPRcleanR
-   :license: AGPL / AGPL-3
+   :license: MIT / MIT
    :recipe: /`r-crisprcleanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-crisprcleanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-crisprcleanr/meta.yaml>`_
 
    
@@ -27,17 +27,25 @@ r-crisprcleanr
       
       
 
-      ``2.3.1-1``,  ``2.3.1-0``
+      ``3.0.0-0``,  ``2.3.1-1``,  ``2.3.1-0``
 
       
 
    
-   :depends bioconductor-dnacopy: ``>=1.68``
+   :depends bioconductor-biostrings: 
+   :depends bioconductor-dnacopy: 
+   :depends bioconductor-genomicalignments: 
+   :depends bioconductor-rqc: 
+   :depends bioconductor-rsubread: 
+   :depends bioconductor-shortread: 
    :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-biocmanager: 
+   :depends r-jsonlite: 
    :depends r-pracma: 
    :depends r-proc: 
    :depends r-prroc: 
    :depends r-stringr: 
+   :depends r-withr: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +77,7 @@ r-crisprcleanr
 
     <script>
         var package = "r-crisprcleanr";
-        var versions = ["2.3.1","2.3.1"];
+        var versions = ["3.0.0","2.3.1","2.3.1"];
     </script>
 
 
