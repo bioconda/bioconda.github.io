@@ -27,7 +27,7 @@ interproscan
       
       
 
-      ``5.55_88.0-1``,  ``5.55_88.0-0``,  ``5.54_87.0-3``,  ``5.54_87.0-2``,  ``5.54_87.0-1``,  ``5.54_87.0-0``,  ``5.52_86.0-0``
+      ``5.59_91.0-0``,  ``5.55_88.0-1``,  ``5.55_88.0-0``,  ``5.54_87.0-3``,  ``5.54_87.0-2``,  ``5.54_87.0-1``,  ``5.54_87.0-0``,  ``5.52_86.0-0``
 
       
 
@@ -37,8 +37,8 @@ interproscan
    :depends emboss: 
    :depends hmmer: ``>=3``
    :depends hmmer2: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends openjdk: ``>=11``
+   :depends libgcc-ng: ``>=12``
+   :depends openjdk: ``>=11,<17``
    :depends perl: ``>=5.08``
    :depends pftools: 
    :depends python: ``>=3``
@@ -74,7 +74,7 @@ interproscan
 
     <script>
         var package = "interproscan";
-        var versions = ["5.55_88.0","5.55_88.0","5.54_87.0","5.54_87.0","5.54_87.0"];
+        var versions = ["5.59_91.0","5.55_88.0","5.55_88.0","5.54_87.0","5.54_87.0"];
     </script>
 
 
