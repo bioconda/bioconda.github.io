@@ -58,14 +58,14 @@ biobb_adapters
       
       
 
-      ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``0.1.4-0``
+      ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``0.1.4-0``
 
       
 
    
    :depends cwltool: 
    :depends jupyter: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +97,7 @@ biobb_adapters
 
     <script>
         var package = "biobb_adapters";
-        var versions = ["3.7.0","3.6.1","3.6.0","0.1.4"];
+        var versions = ["3.8.1","3.8.0","3.7.0","3.6.1","3.6.0"];
     </script>
 
 
