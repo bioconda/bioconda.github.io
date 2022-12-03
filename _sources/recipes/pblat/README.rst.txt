@@ -29,15 +29,15 @@ pblat
       
       
 
-      ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``
+      ``2.5.1-0``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends openssl: ``>=1.1.1s,<1.1.2a``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ pblat
 
     <script>
         var package = "pblat";
-        var versions = ["2.5","2.5","2.5","2.4","2.3"];
+        var versions = ["2.5.1","2.5","2.5","2.5","2.4"];
     </script>
 
 

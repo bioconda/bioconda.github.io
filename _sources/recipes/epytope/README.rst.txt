@@ -27,7 +27,7 @@ epytope
       
       
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -37,15 +37,15 @@ epytope
    :depends h5py: ``<=2.10.0``
    :depends keras: ``<=2.3.1``
    :depends mhcflurry: ``<=1.4.3``
-   :depends mhcnuggets: 
+   :depends mhcnuggets: ``2.3.2``
    :depends np_utils: 
    :depends pandas: 
    :depends pymysql: 
    :depends pyomo: ``>=4.0``
    :depends python: 
-   :depends pyvcf: 
+   :depends pyvcf3: 
    :depends requests: 
-   :depends setuptools: ``<=57``
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ epytope
 
     <script>
         var package = "epytope";
-        var versions = ["3.2.0","3.1.0","3.0.0"];
+        var versions = ["3.3.0","3.2.0","3.1.0","3.0.0"];
     </script>
 
 

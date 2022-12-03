@@ -27,7 +27,7 @@ msaconverter
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -65,7 +65,7 @@ msaconverter
 
     <script>
         var package = "msaconverter";
-        var versions = ["0.0.2","0.0.1"];
+        var versions = ["0.0.4","0.0.2","0.0.1"];
     </script>
 
 

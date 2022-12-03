@@ -29,18 +29,18 @@ icescreen
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bcbio-gff: ``>=0.6.6``
-   :depends biopython: ``>=1.78``
+   :depends bcbio-gff: ``>=0.6.9``
+   :depends biopython: ``>=1.80``
    :depends blast: ``2.12.*``
    :depends hmmer: ``3.3.2.*``
-   :depends pandas: ``>=1.4.1``
-   :depends python: ``>=3.8``
-   :depends snakemake-minimal: ``>=6.0.5``
+   :depends pandas: ``>=1.5.2``
+   :depends python: ``>=3.9``
+   :depends snakemake-minimal: ``>=7.18.2``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ icescreen
 
     <script>
         var package = "icescreen";
-        var versions = ["1.0.4","1.0.4","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.1.0","1.0.4","1.0.4","1.0.3","1.0.3"];
     </script>
 
 

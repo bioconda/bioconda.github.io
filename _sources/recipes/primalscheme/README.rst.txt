@@ -28,7 +28,7 @@ primalscheme
       
       
 
-      ``1.3.2-0``
+      ``1.4.0-0``,  ``1.3.2-0``
 
       
 
@@ -71,7 +71,7 @@ primalscheme
 
     <script>
         var package = "primalscheme";
-        var versions = ["1.3.2"];
+        var versions = ["1.4.0","1.3.2"];
     </script>
 
 
