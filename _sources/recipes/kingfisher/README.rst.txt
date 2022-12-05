@@ -27,12 +27,13 @@ kingfisher
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends aria2: ``>=1.36.0``
+   :depends awscli: 
    :depends bird_tool_utils_python: ``>=0.4.1``
    :depends curl: 
    :depends extern: 
@@ -75,7 +76,7 @@ kingfisher
 
     <script>
         var package = "kingfisher";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

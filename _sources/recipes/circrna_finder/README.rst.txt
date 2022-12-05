@@ -27,7 +27,7 @@ circrna_finder
       
       
 
-      ``1.2-0``
+      ``1.2-1``,  ``1.2-0``
 
       
 
@@ -65,7 +65,7 @@ circrna_finder
 
     <script>
         var package = "circrna_finder";
-        var versions = ["1.2"];
+        var versions = ["1.2","1.2"];
     </script>
 
 
