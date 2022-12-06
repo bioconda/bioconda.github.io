@@ -27,7 +27,7 @@ piranha-polio
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
@@ -35,13 +35,13 @@ piranha-polio
    :depends bcftools: ``>=1.11``
    :depends biopython: 
    :depends coreutils: ``>=9.1``
-   :depends gofasta: 
    :depends mafft: 
    :depends mako: ``>=1.2``
    :depends medaka: ``>=1.7.1``
    :depends minimap2: ``>=2.17``
+   :depends pandas: 
+   :depends pysam: 
    :depends python: ``<3.10``
-   :depends racon: 
    :depends samtools: ``>=1.11``
    :depends snakemake-minimal: 
    :depends snipit: 
@@ -77,7 +77,7 @@ piranha-polio
 
     <script>
         var package = "piranha-polio";
-        var versions = ["1.0.5","1.0.4"];
+        var versions = ["1.0.6","1.0.5","1.0.4"];
     </script>
 
 

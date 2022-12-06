@@ -27,14 +27,14 @@ anchorwave
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends gmap: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends minimap2: 
    :depends zlib: 
    :requirements:
@@ -68,7 +68,7 @@ anchorwave
 
     <script>
         var package = "anchorwave";
-        var versions = ["1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.1.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

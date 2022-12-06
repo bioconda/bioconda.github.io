@@ -30,7 +30,7 @@ cuttlefish
       
       
 
-      ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -39,8 +39,8 @@ cuttlefish
    :depends libgcc-ng: ``>=12``
    :depends libjemalloc: ``>=5.2.1``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ cuttlefish
 
     <script>
         var package = "cuttlefish";
-        var versions = ["2.1.0","2.0.0","2.0.0","1.0.0","1.0.0"];
+        var versions = ["2.1.1","2.1.0","2.0.0","2.0.0","1.0.0"];
     </script>
 
 

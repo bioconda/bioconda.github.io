@@ -15,7 +15,7 @@ pantools
    :homepage: https://git.wur.nl/bioinformatics/pantools
    :license: GPL / GPL-3.0-only
    :recipe: /`pantools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.1093/bioinformatics/btw455`, doi: :doi:`https://doi.org/10.1186/s12859-018-2362-4`, doi: :doi:`https://doi.org/10.1101/813634`
+   :links: doi: :doi:`https://doi.org/10.1093/bioinformatics/btw455`, doi: :doi:`https://doi.org/10.1186/s12859-018-2362-4`, doi: :doi:`https://doi.org/10.1101/813634`, doi: :doi:`https://doi.org/10.1093/bioinformatics/btac506`
 
    PanTools is a pangenomic toolkit for comparative analysis of large number
    of genomes. It is developed in the Bioinformatics Group of Wageningen
@@ -32,15 +32,26 @@ pantools
       
       
 
-      ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+      ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
 
       
 
    
-   :depends kmc: 
+   :depends aster: ``1.3.*``
+   :depends blast: 
+   :depends fastani: 
+   :depends fasttree: 
+   :depends graphviz: 
+   :depends iqtree: 
+   :depends kmc: ``3.0.1.*``
+   :depends mafft: 
+   :depends mash: ``2.3.*``
    :depends mcl: 
    :depends openjdk: ``8.*``
-   :depends python: 
+   :depends python: ``3.7.*``
+   :depends r-ape: ``5.0.*``
+   :depends r-base: ``3.4.3.*``
+   :depends r-ggplot2: ``2.2.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +83,7 @@ pantools
 
     <script>
         var package = "pantools";
-        var versions = ["3.3.3","3.1.0","3.1.0","2.0.0","1.2"];
+        var versions = ["3.4.0","3.3.3","3.1.0","3.1.0","2.0.0"];
     </script>
 
 
@@ -86,7 +97,10 @@ This wrapper is called \"pantools\" and is on \$PATH by default. By default
 \"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want to overwrite it you can
 specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
-For example run it with \"pantools \-Xms512m \-Xmx1g\"
+For example run it with \"pantools \-Xms512m \-Xmx1g\".
+NB\: BUSCO is \*\*not\*\* included in the dependency list but is required for
+one subcommand of pantools \(\"pantools busco\_protein\"\). Please manually
+install BUSCO for running this subcommand.
 
 
 

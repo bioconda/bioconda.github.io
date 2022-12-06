@@ -29,10 +29,10 @@ r-immunedeconv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+      ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ r-immunedeconv
    :depends bioconductor-biocparallel: 
    :depends bioconductor-biomart: 
    :depends bioconductor-preprocesscore: 
+   :depends bioconductor-quantiseqr: 
    :depends bioconductor-sva: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-comics: 
@@ -93,7 +94,7 @@ r-immunedeconv
 
     <script>
         var package = "r-immunedeconv";
-        var versions = ["2.1.0","2.1.0","2.0.3","2.0.3","2.0.3"];
+        var versions = ["2.1.1","2.1.0","2.1.0","2.0.3","2.0.3"];
     </script>
 
 
