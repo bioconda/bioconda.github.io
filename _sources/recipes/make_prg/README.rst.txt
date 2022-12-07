@@ -10,9 +10,9 @@ make_prg
    :replaces_section_title:
    :noindex:
 
-   A tool to create a PRG for input to Pandora and Gramtools from a Multiple Sequence Alignment.
+   A tool to create and update PRGs from a set of Multiple Sequence Alignments.
 
-   :homepage: https://github.com/rmcolq/make_prg
+   :homepage: https://github.com/iqbal-lab-org/make_prg
    :license: MIT
    :recipe: /`make_prg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/make_prg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/make_prg/meta.yaml>`_
 
@@ -27,15 +27,18 @@ make_prg
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends biopython: ``>=1.70``
-   :depends numpy: ``>=1.14``
-   :depends python: 
-   :depends scikit-learn: ``>=0.19.1``
+   :depends biopython: ``1.79``
+   :depends intervaltree: ``>=3.1.0,<4.0.0``
+   :depends loguru: ``>=0.6.0,<0.7.0``
+   :depends numpy: ``>=1.21.4,<2.0.0``
+   :depends python: ``>=3.8,<=3.11``
+   :depends scikit-learn: ``0.24.2``
+   :depends setuptools: ``>=65,<66``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +70,7 @@ make_prg
 
     <script>
         var package = "make_prg";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.4.0","0.1.1","0.1.0"];
     </script>
 
 

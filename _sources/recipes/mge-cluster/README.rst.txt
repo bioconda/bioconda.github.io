@@ -27,7 +27,7 @@ mge-cluster
       
       
 
-      ``1.0.2-0``
+      ``1.1.0-0``,  ``1.0.2-0``
 
       
 
@@ -72,7 +72,7 @@ mge-cluster
 
     <script>
         var package = "mge-cluster";
-        var versions = ["1.0.2"];
+        var versions = ["1.1.0","1.0.2"];
     </script>
 
 

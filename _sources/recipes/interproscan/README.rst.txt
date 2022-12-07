@@ -15,6 +15,7 @@ interproscan
    :homepage: https://github.com/ebi-pf-team/interproscan
    :license: Apache / GPLv3
    :recipe: /`interproscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/interproscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/interproscan/meta.yaml>`_
+   :links: biotools: :biotools:`interproscan_ebi`
 
    
 
@@ -27,7 +28,7 @@ interproscan
       
       
 
-      ``5.59_91.0-0``,  ``5.55_88.0-1``,  ``5.55_88.0-0``,  ``5.54_87.0-3``,  ``5.54_87.0-2``,  ``5.54_87.0-1``,  ``5.54_87.0-0``,  ``5.52_86.0-0``
+      ``5.59_91.0-1``,  ``5.59_91.0-0``,  ``5.55_88.0-1``,  ``5.55_88.0-0``,  ``5.54_87.0-3``,  ``5.54_87.0-2``,  ``5.54_87.0-1``,  ``5.54_87.0-0``,  ``5.52_86.0-0``
 
       
 
@@ -74,7 +75,7 @@ interproscan
 
     <script>
         var package = "interproscan";
-        var versions = ["5.59_91.0","5.55_88.0","5.55_88.0","5.54_87.0","5.54_87.0"];
+        var versions = ["5.59_91.0","5.59_91.0","5.55_88.0","5.55_88.0","5.54_87.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ stare-abc
       
       
 
-      ``1.0.3-0``
+      ``1.0.3.1-0``,  ``1.0.3-0``
 
       
 
@@ -68,7 +68,7 @@ stare-abc
 
     <script>
         var package = "stare-abc";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.3.1","1.0.3"];
     </script>
 
 

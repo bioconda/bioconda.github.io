@@ -27,31 +27,30 @@ resmico
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.12-0``
+      ``1.2.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.12-0``
 
       
 
    
    :depends cmake: ``>=3.13``
    :depends ipython: 
-   :depends keras: 
+   :depends keras: ``>=2.8.0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends numpy: ``>=1.17``
-   :depends numpy: ``>=1.23.4,<2.0a0``
-   :depends pandas: ``>=1.1.2``
-   :depends pathos: 
-   :depends pysam: ``>=0.19``
+   :depends numpy: ``>=1.17.0``
+   :depends numpy: ``>=1.23.5,<2.0a0``
+   :depends pandas: ``>=1.4.2``
+   :depends pathos: ``>=0.2.9``
+   :depends protobuf: ``>=3.20``
+   :depends pysam: ``>=0.19.1``
    :depends pytables: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends samtools: 
-   :depends scikit-learn: 
+   :depends scikit-learn: ``>=1.1.1``
    :depends tensorboard: ``<2.9.0``
-   :depends tensorflow: 
-   :depends toolz: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends tensorflow: ``>=2.8.1``
+   :depends toolz: ``>=0.11.2``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +82,7 @@ resmico
 
     <script>
         var package = "resmico";
-        var versions = ["1.1.1","1.1.0","1.0.12"];
+        var versions = ["1.2.2","1.1.1","1.1.0","1.0.12"];
     </script>
 
 
