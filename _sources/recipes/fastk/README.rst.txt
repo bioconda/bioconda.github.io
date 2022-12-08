@@ -13,7 +13,7 @@ fastk
    FastK is a k‑mer counter that is optimized for processing high quality DNA assembly data sets such as those produced with an Illumina instrument or a PacBio run in HiFi mode.
 
    :homepage: https://github.com/thegenemyers/FASTK
-   :license: MIT
+   :license: https://github.com/thegenemyers/FASTK/blob/master/LICENSE
    :recipe: /`fastk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastk/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ fastk
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -68,7 +68,7 @@ fastk
 
     <script>
         var package = "fastk";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.0","1.0","1.0"];
     </script>
 
 

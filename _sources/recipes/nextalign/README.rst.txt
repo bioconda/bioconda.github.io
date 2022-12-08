@@ -10,12 +10,11 @@ nextalign
    :replaces_section_title:
    :noindex:
 
-   Viral genome sequence alignment tool
+   Viral genome alignment
 
-   :homepage: https://github.com/nextstrain/nextclade/tree/master/packages/nextalign_cli
-   :documentation: https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextalign-cli.html
+   :homepage: https://github.com/nextstrain/nextclade
+   :documentation: https://docs.nextstrain.org/projects/nextclade/en/stable/
    
-   :developer docs: https://github.com/nextstrain/nextclade
    :license: MIT / MIT
    :recipe: /`nextalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextalign/meta.yaml>`_
 

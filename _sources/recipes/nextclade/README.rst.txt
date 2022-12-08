@@ -10,12 +10,11 @@ nextclade
    :replaces_section_title:
    :noindex:
 
-   SARS\-CoV\-2 genome clade assignment\, mutation calling\, and sequence quality checks
+   Viral genome alignment\, mutation calling\, clade assignment\, quality checks and phylogenetic placement
 
-   :homepage: https://github.com/nextstrain/nextclade/tree/master/packages/nextclade_cli
-   :documentation: https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli.html#
+   :homepage: https://github.com/nextstrain/nextclade
+   :documentation: https://docs.nextstrain.org/projects/nextclade/en/stable/
    
-   :developer docs: https://github.com/nextstrain/nextclade
    :license: MIT / MIT
    :recipe: /`nextclade <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextclade>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextclade/meta.yaml>`_
 
