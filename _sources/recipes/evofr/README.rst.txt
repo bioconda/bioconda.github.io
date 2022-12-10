@@ -27,7 +27,7 @@ evofr
       
       
 
-      ``0.1.14-0``
+      ``0.1.15-0``,  ``0.1.14-0``
 
       
 
@@ -69,7 +69,7 @@ evofr
 
     <script>
         var package = "evofr";
-        var versions = ["0.1.14"];
+        var versions = ["0.1.15","0.1.14"];
     </script>
 
 

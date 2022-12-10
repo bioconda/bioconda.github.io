@@ -27,19 +27,19 @@ adpred
       
       
 
-      ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.3-0``
+      ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.3-0``
 
       
 
    
-   :depends keras: ``2.2.4``
-   :depends numpy: ``1.17.2``
-   :depends pandas: 
-   :depends plotly: ``4.1.1``
-   :depends python: ``>=3.6``
-   :depends requests: ``2.23.0``
-   :depends scikit-learn: ``0.21.3``
-   :depends tensorflow: ``1.14.0``
+   :depends keras: ``>=2``
+   :depends numpy: ``>=1``
+   :depends pandas: ``>=1``
+   :depends plotly: ``>=5``
+   :depends python: ``>=3.9``
+   :depends requests: ``>=2``
+   :depends scikit-learn: ``>=1``
+   :depends tensorflow: ``>=2``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ adpred
 
     <script>
         var package = "adpred";
-        var versions = ["1.2.8","1.2.7","1.2.5","1.2.4","1.1.3"];
+        var versions = ["1.3.1","1.2.8","1.2.7","1.2.5","1.2.4"];
     </script>
 
 

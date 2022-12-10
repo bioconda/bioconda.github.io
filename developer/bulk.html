@@ -82,6 +82,7 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#">The <code class="xref any docutils literal notranslate"><span class="pre">bulk</span></code> branch</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#updating-pinnings">Updating pinnings</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#merging-back-to-master">Merging back to master</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#updating-bioconductor">Updating Bioconductor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#notes-on-working-with-bulk-branch">Notes on working with bulk branch</a></li>
 </ul>
 </li>
@@ -201,6 +202,57 @@ needed.</p></li>
 bioconda-utils that the <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch has been using.</p></li>
 <li><p>Compile a list of packages that have been skipped or blacklisted during the
 bulk migration, and open a new issue to ask for help from the community.</p></li>
+</ol>
+</section>
+<section id="updating-bioconductor">
+<h2>Updating Bioconductor<a class="headerlink" href="#updating-bioconductor" title="Permalink to this heading">¶</a></h2>
+<p>Bioconductor gets updated twice a year (spring and fall), where all BioC
+packages get released with updated versions at the same time. This in turn
+requires updating the packages on Bioconda. This is a perfect use-case for the
+bulk branch. The process is generally the same as above but without the
+pinnings updates and with some Bioconductor-specific helper scripts.</p>
+<ol class="arabic">
+<li><p><em>(this is step 4 from the above section on updating pinnings)</em> In
+bioconda-recipes, merge master into bulk to start with a clean slate. Since
+bulk is infrequently updated, there may be substantial conflicts caused by
+running the default <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">bulk</span> <span class="pre">&amp;&amp;</span> <span class="pre">git</span> <span class="pre">merge</span> <span class="pre">master</span></code>. This tends to
+happen most with build numbers. But since we want to prefer using whatever
+is in the master branch, we can merge master into bulk, while preferring
+master version in any conflicts, with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout bulk
+git merge master -s recursive -X theirs
+</pre></div>
+</div>
+<p>There may be a few remaining conflicts to fix; in all cases you should
+prefer what’s on the master branch.</p>
+</li>
+<li><p>Identify the latest BioConductor version, and update all BioConductor
+recipes with:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils bioconductor-skeleton update-all-packages --bioc-version <span class="nv">$BIOC_VERSION</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p><em>(this is step 5 from the above section on updating pinnings)</em> Start
+a preliminary bulk run to build the cache. In
+<code class="file docutils literal notranslate"><span class="pre">.github/workflows/Bulk.yml</span></code>, set the number of workers to 1 (so,
+<code class="docutils literal notranslate"><span class="pre">jobs:build-linux:strategy:matrix:runner:[0]</span></code>) and also set
+<code class="docutils literal notranslate"><span class="pre">--n-workers=1</span></code> in the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> call. This will allow building
+the cache which will be used in subsequent (parallel) runs. Make sure you do
+this for both the Linux and MacOS sections.</p></li>
+<li><p>Use the
+[rootNodes.py](<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/scripts/bioconductor/rootNodes.py">https://github.com/bioconda/bioconda-recipes/blob/master/scripts/bioconductor/rootNodes.py</a>)
+from the bioconda-recipes repo to help figure out what the primary root
+nodes are for the currently-remaining packages to be built. This looks at
+recently-built packages, removes them from the DAG of recipes to be built,
+and then reports to stdout the remaining root nodes. This information can be
+used to strategically edit the <code class="docutils literal notranslate"><span class="pre">build-fail-blacklist</span></code> file to prioritize
+the building of those root nodes.</p></li>
+<li><p>Once builds seem to be stabilizing, remove the temporary edits to the
+<code class="docutils literal notranslate"><span class="pre">build-fail-blacklist</span></code>.</p></li>
+<li><p>Follow the <a class="reference internal" href="#merge-bulk"><span class="std std-ref">Merging back to master</span></a> instructions for merging bulk back into the
+master branch.</p></li>
 </ol>
 </section>
 <section id="notes-on-working-with-bulk-branch">

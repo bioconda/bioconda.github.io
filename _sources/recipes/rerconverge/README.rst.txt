@@ -27,11 +27,21 @@ rerconverge
       
       
 
-      
+      ``0.3.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-devtools: 
+   :depends r-geiger: 
+   :depends r-gplots: 
+   :depends r-knitr: 
+   :depends r-phangorn: 
+   :depends r-phytools: 
+   :depends r-rcpparmadillo: 
+   :depends r-weights: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +73,7 @@ rerconverge
 
     <script>
         var package = "rerconverge";
-        var versions = [];
+        var versions = ["0.3.0"];
     </script>
 
 
