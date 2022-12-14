@@ -27,14 +27,14 @@ perl-bio-tools-run-alignment-tcoffee
       
       
 
-      ``1.7.4-4``,  ``1.7.4-3``,  ``1.7.4-2``,  ``1.7.4-1``,  ``1.7.4-0``
+      ``1.7.4-5``,  ``1.7.4-4``,  ``1.7.4-3``,  ``1.7.4-2``,  ``1.7.4-1``,  ``1.7.4-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl-run: 
-   :depends t_coffee: 
+   :depends t-coffee: 
    :requirements:
 
    .. rubric:: Installation
