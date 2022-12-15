@@ -27,7 +27,7 @@ fqgrep
       
       
 
-      ``0.1.0-0``
+      ``1.0.1-0``,  ``0.1.0-0``
 
       
 
@@ -65,7 +65,7 @@ fqgrep
 
     <script>
         var package = "fqgrep";
-        var versions = ["0.1.0"];
+        var versions = ["1.0.1","0.1.0"];
     </script>
 
 

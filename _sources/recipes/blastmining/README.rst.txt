@@ -17,7 +17,7 @@ blastmining
    
    :license: GPL3 / GNU GENERAL PUBLIC V3
    :recipe: /`blastmining <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastmining>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastmining/meta.yaml>`_
-   :links: biotools: :biotools:`blastMining`, doi: :doi:`10.5281/zenodo.6823244`
+   :links: biotools: :biotools:`blastMining`, doi: :doi:`10.5281/zenodo.7431488`
 
    
 
@@ -30,12 +30,12 @@ blastmining
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends blast: ``2.12.0.*``
+   :depends blast: ``>=2.12.0``
    :depends csvtk: 
    :depends fastnumbers: 
    :depends krona: 
@@ -75,7 +75,7 @@ blastmining
 
     <script>
         var package = "blastmining";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0"];
     </script>
 
 

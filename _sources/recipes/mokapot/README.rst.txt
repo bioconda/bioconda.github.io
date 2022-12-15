@@ -30,10 +30,10 @@ mokapot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5-0``
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5-0``
 
       
       .. raw:: html
@@ -42,6 +42,8 @@ mokapot
       
 
    
+   :depends importlib-metadata: ``>=5.1.0``
+   :depends joblib: ``>=1.1.0``
    :depends lxml: ``>=4.6.2``
    :depends matplotlib-base: ``>=3.1.3``
    :depends numba: ``>=0.48.0``
@@ -81,7 +83,7 @@ mokapot
 
     <script>
         var package = "mokapot";
-        var versions = ["0.9.0","0.8.3","0.8.2","0.8.1","0.8.0"];
+        var versions = ["0.9.1","0.9.0","0.8.3","0.8.2","0.8.1"];
     </script>
 
 
