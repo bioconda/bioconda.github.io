@@ -27,13 +27,13 @@ cherri
       
       
 
-      ``0.7-0``,  ``0.6-0``
+      ``0.7-1``,  ``0.7-0``,  ``0.6-0``
 
       
 
    
    :depends bedtools: 
-   :depends biofilm: 
+   :depends biofilm: ``>=0.0.102``
    :depends biopython: 
    :depends eden-kernel: 
    :depends intarna: 
@@ -77,7 +77,7 @@ cherri
 
     <script>
         var package = "cherri";
-        var versions = ["0.7","0.6"];
+        var versions = ["0.7","0.7","0.6"];
     </script>
 
 
