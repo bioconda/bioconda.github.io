@@ -13,6 +13,7 @@ hybran
    Hybrid reference transfer and ab initio prokaryotic genome annotation
 
    :homepage: https://lpcdrp.gitlab.io/hybran
+   :developer docs: https://gitlab.com/LPCDRP/hybran
    :license: GPLv3
    :recipe: /`hybran <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybran>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybran/meta.yaml>`_
 
@@ -27,12 +28,12 @@ hybran
       
       
 
-      ``1.5.2-0``
+      ``1.5.2-1``,  ``1.5.2-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.79``
    :depends blast: 
    :depends cd-hit: 
    :depends diamond: 
@@ -44,8 +45,8 @@ hybran
    :depends multiprocess: 
    :depends mummer: 
    :depends prodigal: 
-   :depends prokka: 
-   :depends python: ``<=3.7``
+   :depends prokka: ``>=1.14``
+   :depends python: ``>=3``
    :depends ratt: 
    :depends tbl2asn-forever: 
    :requirements:
@@ -79,7 +80,7 @@ hybran
 
     <script>
         var package = "hybran";
-        var versions = ["1.5.2"];
+        var versions = ["1.5.2","1.5.2"];
     </script>
 
 
