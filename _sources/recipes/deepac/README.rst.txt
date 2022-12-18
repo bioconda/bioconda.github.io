@@ -12,7 +12,7 @@ deepac
 
    Predicting pathogenic potentials of novel DNA with reverse\-complement neural networks.
 
-   :homepage: https://gitlab.com/rki_bioinformatics/DeePaC
+   :homepage: https://gitlab.com/dacs-hpi/deepac
    :documentation: https://rki_bioinformatics.gitlab.io/DeePaC/
    
    :license: MIT / MIT
@@ -30,10 +30,10 @@ deepac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.0-0</code>,  <code>0.13.6-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.6-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  </span></summary>
       
 
-      ``0.14.0-0``,  ``0.13.6-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
+      ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.6-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ deepac
    :depends biopython: ``>=1.79``
    :depends h5py: ``2.10``
    :depends matplotlib-base: ``>=3.5.0``
-   :depends numpy: ``1.19.5``
+   :depends numpy: ``>=1.19.5``
    :depends pandas: ``>=1.3.4``
    :depends psutil: ``>=5.8.0``
    :depends pybedtools: ``>=0.8.2``
@@ -58,7 +58,7 @@ deepac
    :depends seaborn: ``>=0.11.2``
    :depends shap: ``>=0.40.0``
    :depends statsmodels: ``>=0.13.1``
-   :depends tensorflow: ``2.4.1``
+   :depends tensorflow: ``>=2.4.1``
    :depends tqdm: ``>=4.62.3``
    :depends weblogo: ``>=3.7.8``
    :requirements:
@@ -92,7 +92,7 @@ deepac
 
     <script>
         var package = "deepac";
-        var versions = ["0.14.0","0.13.6","0.13.5","0.13.4","0.13.3"];
+        var versions = ["0.14.1","0.14.0","0.13.6","0.13.5","0.13.4"];
     </script>
 
 

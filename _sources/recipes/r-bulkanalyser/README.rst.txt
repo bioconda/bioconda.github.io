@@ -27,7 +27,7 @@ r-bulkanalyser
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -46,6 +46,7 @@ r-bulkanalyser
    :depends r-ggplot2: 
    :depends r-ggrastr: 
    :depends r-ggrepel: 
+   :depends r-ggvenndiagram: 
    :depends r-glue: 
    :depends r-gprofiler2: 
    :depends r-magrittr: 
@@ -95,7 +96,7 @@ r-bulkanalyser
 
     <script>
         var package = "r-bulkanalyser";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.1.0","1.0.0","1.0.0"];
     </script>
 
 
