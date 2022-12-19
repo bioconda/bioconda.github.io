@@ -27,15 +27,16 @@ svhip
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: ``>=1.79``
    :depends blosum: ``>=1.1.3``
+   :depends clustalw: ``>=2.1.0``
    :depends matplotlib-base: ``>=3.5.1``
-   :depends scikit-learn: ``>=1.1.3``
+   :depends scikit-learn: ``1.1.3``
    :depends scipy: ``>=1.8.0``
    :depends seaborn: ``>=0.11.2``
    :depends viennarna: ``>=2.5.0``
@@ -70,7 +71,7 @@ svhip
 
     <script>
         var package = "svhip";
-        var versions = ["1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.5","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

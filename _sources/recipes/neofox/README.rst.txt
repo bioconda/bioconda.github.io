@@ -30,7 +30,7 @@ neofox
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.4-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.4-0``
 
       
 
@@ -50,7 +50,7 @@ neofox
    :depends pysam: ``>=0.19.1,<0.20.0``
    :depends python: ``>=3.7,<=3.8``
    :depends python-dotenv: ``>=0.12.0,<0.13.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-caret: 
    :depends r-doparallel: 
    :depends r-gbm: 
@@ -91,7 +91,7 @@ neofox
 
     <script>
         var package = "neofox";
-        var versions = ["1.0.1","1.0.0","0.6.4"];
+        var versions = ["1.0.2","1.0.1","1.0.0","0.6.4"];
     </script>
 
 

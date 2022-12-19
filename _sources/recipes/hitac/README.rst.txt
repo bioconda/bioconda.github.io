@@ -12,7 +12,7 @@ hitac
 
    A hierarchical taxonomic classifier for fungal ITS sequences
 
-   :homepage: https://gitlab.com/dacs-hpi/hitac
+   :homepage: https://github.com/mirand863/hitac
    :license: BSD / BSD-3-Clause
    :recipe: /`hitac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hitac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hitac/meta.yaml>`_
    :links: biotools: :biotools:`hitac`
@@ -33,10 +33,10 @@ hitac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.21-0</code>,  <code>2.0.20-1</code>,  <code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.16-0</code>,  <code>2.0.15-0</code>,  <code>2.0.10-1</code>,  <code>2.0.10-0</code>,  <code>2.0.9-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.22-0</code>,  <code>2.0.21-1</code>,  <code>2.0.21-0</code>,  <code>2.0.20-1</code>,  <code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.16-0</code>,  <code>2.0.15-0</code>,  <code>2.0.10-1</code>,  </span></summary>
       
 
-      ``2.0.21-0``,  ``2.0.20-1``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.10-1``,  ``2.0.10-0``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.4-0``,  ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
+      ``2.0.22-0``,  ``2.0.21-1``,  ``2.0.21-0``,  ``2.0.20-1``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.10-1``,  ``2.0.10-0``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.4-0``,  ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -82,7 +82,7 @@ hitac
 
     <script>
         var package = "hitac";
-        var versions = ["2.0.21","2.0.20","2.0.20","2.0.19","2.0.16"];
+        var versions = ["2.0.22","2.0.21","2.0.21","2.0.20","2.0.20"];
     </script>
 
 

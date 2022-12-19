@@ -28,10 +28,10 @@ pggb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  </span></summary>
       
 
-      ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -45,15 +45,15 @@ pggb
    :depends gfaffix: ``>=0.1.4``
    :depends gsl: ``2.7.0.*``
    :depends idna: ``<3,>=2.5``
-   :depends multiqc: ``>=1.11``
-   :depends odgi: ``>=0.8.1``
+   :depends multiqc: ``>=1.13``
+   :depends odgi: ``>=0.8.2``
    :depends pigz: 
-   :depends seqwish: ``>=0.7.7``
-   :depends smoothxg: ``>=0.6.7``
+   :depends seqwish: ``>=0.7.8``
+   :depends smoothxg: ``>=0.6.8``
    :depends tabix: 
    :depends time: 
    :depends vg: ``1.40.0.*``
-   :depends wfmash: ``>=0.10.0``
+   :depends wfmash: ``>=0.10.1``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.5.1","0.5.1","0.5.0","0.4.1","0.4.0"];
+        var versions = ["0.5.2","0.5.1","0.5.1","0.5.0","0.4.1"];
     </script>
 
 
