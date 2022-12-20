@@ -33,7 +33,7 @@ autometa
       
       
 
-      ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -46,6 +46,7 @@ autometa
    :depends gdown: 
    :depends hdbscan: 
    :depends hmmer: 
+   :depends joblib: ``1.1.0``
    :depends numba: ``>=0.47``
    :depends numpy: ``>=1.13``
    :depends pandas: ``>=1.1``
@@ -57,6 +58,8 @@ autometa
    :depends samtools: ``>=1.11``
    :depends scikit-bio: 
    :depends scikit-learn: ``0.24``
+   :depends scipy: ``1.8.1``
+   :depends seqkit: 
    :depends tqdm: 
    :depends trimap: 
    :depends tsne: 
@@ -92,7 +95,7 @@ autometa
 
     <script>
         var package = "autometa";
-        var versions = ["2.1.0","2.0.3","2.0.2","2.0.1","2.0.0"];
+        var versions = ["2.2.0","2.1.0","2.0.3","2.0.2","2.0.1"];
     </script>
 
 

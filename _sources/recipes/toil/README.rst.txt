@@ -28,10 +28,10 @@ toil
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.6.0-0</code>,  <code>5.5.0-1</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.7.1-0</code>,  <code>5.6.0-0</code>,  <code>5.5.0-1</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  </span></summary>
       
 
-      ``5.6.0-0``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.21.0-0``,  ``3.20.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0a1-0``,  ``3.11.0-1``,  ``3.11.0-0``,  ``3.11.0a1-1``,  ``3.11.0a1-0``,  ``3.10.0-0``,  ``3.10.0a1-1``,  ``3.10.0a1-0``,  ``3.9.0a1-0``,  ``3.8.0a1-1``,  ``3.8.0a1-0``,  ``3.7.0a-1``,  ``3.7.0a-0``,  ``3.6.0-0``,  ``3.5.0a1-3``,  ``3.5.0a1-2``,  ``3.5.0a1-1``,  ``3.5.0a1-0``,  ``3.4.0a1-3``,  ``3.4.0a1-2``,  ``3.4.0a1-1``,  ``3.4.0a1-0``,  ``3.3.0a1-0``,  ``3.2.0a2-2``,  ``3.2.0a2-0``
+      ``5.7.1-0``,  ``5.6.0-0``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.21.0-0``,  ``3.20.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0a1-0``,  ``3.11.0-1``,  ``3.11.0-0``,  ``3.11.0a1-1``,  ``3.11.0a1-0``,  ``3.10.0-0``,  ``3.10.0a1-1``,  ``3.10.0a1-0``,  ``3.9.0a1-0``,  ``3.8.0a1-1``,  ``3.8.0a1-0``,  ``3.7.0a-1``,  ``3.7.0a-0``,  ``3.6.0-0``,  ``3.5.0a1-3``,  ``3.5.0a1-2``,  ``3.5.0a1-1``,  ``3.5.0a1-0``,  ``3.4.0a1-3``,  ``3.4.0a1-2``,  ``3.4.0a1-1``,  ``3.4.0a1-0``,  ``3.3.0a1-0``,  ``3.2.0a2-2``,  ``3.2.0a2-0``
 
       
       .. raw:: html
@@ -40,23 +40,25 @@ toil
       
 
    
-   :depends addict: ``>=2.2.1,<2.3``
-   :depends boto: ``>=2.48.0,<3``
-   :depends boto3: ``>=1.7.50,<2.0``
-   :depends cwltool: ``3.1.20211107152837``
+   :depends addict: ``>=2.2.1,<2.5``
+   :depends apache-libcloud: ``>=2.2.1,<3``
+   :depends cwltool: ``3.1.20220628170238``
    :depends dill: ``>=0.3.2,<0.4``
-   :depends docker-py: ``>=2.5.1``
-   :depends future: 
-   :depends galaxy-lib: ``>=18.9.2``
-   :depends pathlib2: ``>=2.3.2``
+   :depends docker-py: ``>=3.7.2,<6``
+   :depends galaxy-tool-util: 
+   :depends google-cloud-storage: ``>=1.6.0,<2``
+   :depends idna: ``>=2``
+   :depends networkx: ``>=2,<2.8.5``
    :depends psutil: ``>=3.0.1,<6``
-   :depends pycryptodome: ``>=3.5.1``
    :depends pynacl: ``>=1.4.0,<2``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends python-dateutil: 
-   :depends requests: ``2.*``
-   :depends six: ``>=1.10.0``
-   :depends sphinx: ``>=1.7.5``
+   :depends python-htcondor: ``>=8.6.0,<9``
+   :depends python-kubernetes: ``>=12.0.1,<22``
+   :depends pytz: ``>=2012``
+   :depends requests: ``>=2,<3``
+   :depends ruamel.yaml: ``>=0.15,<=0.17.21``
+   :depends ruamel.yaml.clib: ``>=0.2.6``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +90,7 @@ toil
 
     <script>
         var package = "toil";
-        var versions = ["5.6.0","5.5.0","5.5.0","5.4.0","5.3.0"];
+        var versions = ["5.7.1","5.6.0","5.5.0","5.5.0","5.4.0"];
     </script>
 
 
