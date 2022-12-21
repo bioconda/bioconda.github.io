@@ -28,18 +28,40 @@ gcnvkernel
       
       
 
-      ``0.7-0``
+      ``0.8-0``,  ``0.7-0``
 
       
 
    
-   :depends mkl: 
-   :depends numpy: 
+   :depends biopython: ``1.76.*``
+   :depends dill: ``0.3.4.*``
+   :depends h5py: ``2.10.0.*``
+   :depends intel-openmp: ``2019.4.*``
+   :depends keras: ``2.2.4.*``
+   :depends matplotlib: ``3.2.1.*``
+   :depends mkl: ``2019.5.*``
+   :depends mkl-service: ``2.3.0.*``
+   :depends numpy: ``1.17.5.*``
+   :depends pandas: ``1.0.3.*``
+   :depends pip: ``20.0.2.*``
    :depends pymc3: ``3.1.*``
-   :depends python: ``3.*``
-   :depends scipy: ``<1.3.0``
-   :depends theano: 
-   :depends tqdm: 
+   :depends pysam: ``0.15.3.*``
+   :depends python: ``3.6.10.*``
+   :depends pyvcf: ``0.6.8.*``
+   :depends r-backports: ``1.1.10.*``
+   :depends r-base: ``3.6.2.*``
+   :depends r-data.table: ``1.12.8.*``
+   :depends r-dplyr: ``0.8.5.*``
+   :depends r-getopt: ``1.20.3.*``
+   :depends r-ggplot2: ``3.3.0.*``
+   :depends r-gplots: ``3.0.3.*``
+   :depends r-gsalib: ``2.1.*``
+   :depends r-optparse: ``1.6.4.*``
+   :depends scikit-learn: ``0.23.1.*``
+   :depends scipy: ``1.0.0.*``
+   :depends tensorflow: ``1.15.0.*``
+   :depends theano: ``1.0.4.*``
+   :depends typing_extensions: ``4.1.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +93,7 @@ gcnvkernel
 
     <script>
         var package = "gcnvkernel";
-        var versions = ["0.7"];
+        var versions = ["0.8","0.7"];
     </script>
 
 
