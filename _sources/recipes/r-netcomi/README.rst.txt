@@ -27,7 +27,7 @@ r-netcomi
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``
+      ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
@@ -35,6 +35,7 @@ r-netcomi
    :depends bioconductor-biobase: 
    :depends bioconductor-phyloseq: 
    :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-corrplot: 
    :depends r-dosnow: 
    :depends r-fdrtool: 
    :depends r-filematrix: 
@@ -44,6 +45,8 @@ r-netcomi
    :depends r-igraph: 
    :depends r-mass: 
    :depends r-matrix: 
+   :depends r-mixedcca: ``>=1.6.2``
+   :depends r-orca: 
    :depends r-pulsar: 
    :depends r-qgraph: 
    :depends r-rdpack: 
@@ -83,7 +86,7 @@ r-netcomi
 
     <script>
         var package = "r-netcomi";
-        var versions = ["1.0.3","1.0.3"];
+        var versions = ["1.1.0","1.0.3","1.0.3"];
     </script>
 
 
