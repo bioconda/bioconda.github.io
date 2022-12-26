@@ -10,7 +10,7 @@ args_oap
    :replaces_section_title:
    :noindex:
 
-   ARGs\-OAP\: Online Analysis Pipeline for Antibiotic Resistance Genes D etection from Metagenomic Data Using an Integrated Structured ARG Database
+   ARGs\-OAP\: Online Analysis Pipeline for Antibiotic Resistance Genes Detection from Metagenomic Data Using an Integrated Structured ARG Database
 
    :homepage: https://github.com/xinehc/args_oap
    :license: MIT / MIT
@@ -27,7 +27,7 @@ args_oap
       
       
 
-      ``3.2-0``
+      ``3.2.1-0``,  ``3.2-0``
 
       
 
@@ -69,7 +69,7 @@ args_oap
 
     <script>
         var package = "args_oap";
-        var versions = ["3.2"];
+        var versions = ["3.2.1","3.2"];
     </script>
 
 

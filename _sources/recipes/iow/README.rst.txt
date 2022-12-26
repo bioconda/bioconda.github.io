@@ -29,7 +29,7 @@ iow
       
       
 
-      ``1.0.5-1``,  ``1.0.5-0``
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
 
       
 
@@ -38,12 +38,11 @@ iow
    :depends h5py: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends numpy: ``>=1.23.1,<2.0a0``
+   :depends numpy: ``>=1.24.0,<2.0a0``
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-bio: ``>=0.5.1``
-   :depends scipy: ``<1.9.0``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +74,7 @@ iow
 
     <script>
         var package = "iow";
-        var versions = ["1.0.5","1.0.5"];
+        var versions = ["1.0.5","1.0.5","1.0.5"];
     </script>
 
 

@@ -10,7 +10,7 @@ woltka
    :replaces_section_title:
    :noindex:
 
-   versatile metagenome classifier
+   versatile meta\-omic data classifier
 
    :homepage: https://github.com/qiyunzhu/woltka
    :license: BSD / BSD
@@ -27,7 +27,7 @@ woltka
       
       
 
-      ``0.1.4-0``
+      ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -66,7 +66,7 @@ woltka
 
     <script>
         var package = "woltka";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.5","0.1.4"];
     </script>
 
 
