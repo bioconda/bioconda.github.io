@@ -51,14 +51,14 @@ biobb_cp2k
       
       
 
-      ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``3.9.0-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
 
    
-   :depends biobb_common: ``3.8.1``
+   :depends biobb_common: ``3.9.0``
    :depends cp2k: ``7.1.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ biobb_cp2k
 
     <script>
         var package = "biobb_cp2k";
-        var versions = ["3.8.3","3.8.2","3.8.1","3.8.0"];
+        var versions = ["3.9.0","3.8.3","3.8.2","3.8.1","3.8.0"];
     </script>
 
 

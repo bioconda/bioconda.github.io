@@ -27,7 +27,7 @@ unikmer
       
       
 
-      ``0.19.0-0``
+      ``0.19.1-0``,  ``0.19.0-0``
 
       
 
@@ -63,7 +63,7 @@ unikmer
 
     <script>
         var package = "unikmer";
-        var versions = ["0.19.0"];
+        var versions = ["0.19.1","0.19.0"];
     </script>
 
 
