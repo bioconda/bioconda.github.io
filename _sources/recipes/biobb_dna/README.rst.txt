@@ -51,15 +51,15 @@ biobb_dna
       
       
 
-      ``3.8.2-1``,  ``3.8.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.2-1``,  ``3.6.2-0``,  ``3.6.1-0``,  ``1.1.1-0``
+      ``3.9.0-0``,  ``3.8.2-1``,  ``3.8.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.2-1``,  ``3.6.2-0``,  ``3.6.1-0``,  ``1.1.1-0``
 
       
 
    
-   :depends biobb_common: ``3.8.1``
+   :depends biobb_common: ``3.9.0``
    :depends curves: ``3.0.0``
    :depends pandas: ``1.3.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<3.10``
    :depends scikit-learn: ``0.24.2``
    :requirements:
 
@@ -92,7 +92,7 @@ biobb_dna
 
     <script>
         var package = "biobb_dna";
-        var versions = ["3.8.2","3.8.2","3.7.1","3.7.0","3.6.2"];
+        var versions = ["3.9.0","3.8.2","3.8.2","3.7.1","3.7.0"];
     </script>
 
 
