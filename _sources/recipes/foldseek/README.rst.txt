@@ -28,7 +28,7 @@ foldseek
       
       
 
-      ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
+      ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
 
       
 
@@ -39,10 +39,10 @@ foldseek
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ foldseek
 
     <script>
         var package = "foldseek";
-        var versions = ["3.915ef7d","3.915ef7d","2.8bd520","2.8bd520","1.3c64211"];
+        var versions = ["4.645b789","3.915ef7d","3.915ef7d","2.8bd520","2.8bd520"];
     </script>
 
 

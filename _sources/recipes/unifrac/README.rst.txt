@@ -33,10 +33,10 @@ unifrac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.20.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  </span></summary>
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+      ``1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -46,17 +46,15 @@ unifrac
 
    
    :depends biom-format: 
-   :depends h5py: ``>=3.7.0,<4.0a0``
-   :depends hdf5: ``<1.12.1``
-   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
+   :depends h5py: ``<3.0.0|>3.3.0``
    :depends iow: 
    :depends libgcc-ng: ``>=12``
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``>=1.24.0,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends scikit-bio: ``>=0.5.1``
-   :depends scipy: ``<1.9``
-   :depends unifrac-binaries: 
+   :depends scikit-bio: ``>=0.5.8``
+   :depends scipy: ``>=1.9.0``
+   :depends unifrac-binaries: ``>=1.2``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +86,7 @@ unifrac
 
     <script>
         var package = "unifrac";
-        var versions = ["1.1.1","1.1.1","1.1.0","1.0.0","1.0.0"];
+        var versions = ["1.2","1.1.1","1.1.1","1.1.0","1.0.0"];
     </script>
 
 

@@ -29,7 +29,7 @@ plassembler
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -75,7 +75,7 @@ plassembler
 
     <script>
         var package = "plassembler";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.3","0.1.2"];
     </script>
 
 

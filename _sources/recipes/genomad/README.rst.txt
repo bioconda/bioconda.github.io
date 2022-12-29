@@ -28,7 +28,7 @@ genomad
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,6 +37,7 @@ genomad
    :depends keras: ``>=2.7``
    :depends mmseqs2: ``14.7e284.*``
    :depends numba: 
+   :depends numpy: ``<1.24``
    :depends prodigal-gv: ``>=2.7.0``
    :depends python: ``>=3.8``
    :depends python-crfsuite: 
@@ -75,7 +76,7 @@ genomad
 
     <script>
         var package = "genomad";
-        var versions = ["1.3.1","1.3.0","1.2.0","1.1.0","1.1.0"];
+        var versions = ["1.3.2","1.3.1","1.3.0","1.2.0","1.1.0"];
     </script>
 
 

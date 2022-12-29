@@ -28,10 +28,10 @@ midas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-6</code>,  <code>1.3.2-5</code>,  <code>1.3.2-4</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.2-7</code>,  <code>1.3.2-6</code>,  <code>1.3.2-5</code>,  <code>1.3.2-4</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.3.2-6``,  ``1.3.2-5``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.3.2-7``,  ``1.3.2-6``,  ``1.3.2-5``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ midas
       
 
    
-   :depends biopython: 
-   :depends bowtie2: 
+   :depends biopython: ``>=1.6.2``
+   :depends bowtie2: ``2.3.2.*``
    :depends hs-blastn: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends pysam: 
-   :depends python: 
-   :depends samtools: ``>=1.4.0``
+   :depends numpy: ``>=1.7.0``
+   :depends pandas: ``>=0.17.1``
+   :depends pysam: ``>=0.8.1``
+   :depends python: ``>=2.7``
+   :depends samtools: ``1.4.0.*``
    :requirements:
 
    .. rubric:: Installation

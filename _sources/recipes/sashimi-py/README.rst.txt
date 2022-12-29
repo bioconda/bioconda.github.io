@@ -29,11 +29,12 @@ sashimi-py
       
       
 
-      ``0.0.4-0``
+      ``0.1.5-0``,  ``0.0.4-0``
 
       
 
    
+   :depends adjusttext: 
    :depends cairocffi: 
    :depends click: 
    :depends click-option-group: 
@@ -47,9 +48,7 @@ sashimi-py
    :depends pysam: 
    :depends python: 
    :depends requests: 
-   :depends samtools: 
    :depends seaborn-base: 
-   :depends tabix: 
    :depends wheel: 
    :depends xmltodict: 
    :requirements:
@@ -83,7 +82,7 @@ sashimi-py
 
     <script>
         var package = "sashimi-py";
-        var versions = ["0.0.4"];
+        var versions = ["0.1.5","0.0.4"];
     </script>
 
 
