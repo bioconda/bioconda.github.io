@@ -10,10 +10,10 @@ purge_dups
    :replaces_section_title:
    :noindex:
 
-   Purge\_dups is a package used to purge haplotigs and overlaps in an assembly based on read depth
+   purge\_dups is a package used to purge haplotigs and overlaps in an assembly based on read depth.
 
    :homepage: https://github.com/dfguan/purge_dups
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`purge_dups <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/purge_dups>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/purge_dups/meta.yaml>`_
 
    
@@ -27,14 +27,22 @@ purge_dups
       
       
 
-      ``1.2.6-0``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.0.1-0``
+      ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.0.1-0``
 
       
 
    
+   :depends augustus: 
+   :depends blast: 
+   :depends busco: 
+   :depends kmc: 
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends matplotlib-base: 
    :depends minimap2: 
+   :depends purge-dups-runner: 
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +74,7 @@ purge_dups
 
     <script>
         var package = "purge_dups";
-        var versions = ["1.2.6","1.2.5","1.2.5","1.2.5","1.0.1"];
+        var versions = ["1.2.6","1.2.6","1.2.5","1.2.5","1.2.5"];
     </script>
 
 

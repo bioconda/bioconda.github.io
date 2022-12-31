@@ -110,13 +110,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">purge_dups</span></span></dt>
-<dd><p>Purge_dups is a package used to purge haplotigs and overlaps in an assembly based on read depth</p>
+<dd><p>purge_dups is a package used to purge haplotigs and overlaps in an assembly based on read depth.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/dfguan/purge_dups">https://github.com/dfguan/purge_dups</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/purge_dups">purge_dups</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/purge_dups/meta.yaml">meta.yaml</a></p>
@@ -130,13 +130,21 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/purge_dups"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/purge_dups.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/purge_dups"><img alt="docker_purge_dups" src="https://quay.io/repository/biocontainers/purge_dups/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../augustus/README.html#package-augustus" title="augustus package"><strong>augustus</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../busco/README.html#package-busco" title="busco package"><strong>busco</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../kmc/README.html#package-kmc" title="kmc package"><strong>kmc</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libzlib-feedstock"><strong>libzlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.12,&lt;1.3.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libzlib-feedstock"><strong>libzlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;1.3.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-base-feedstock"><strong>matplotlib-base</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../minimap2/README.html#package-minimap2" title="minimap2 package"><strong>minimap2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../purge-dups-runner/README.html#package-purge-dups-runner" title="purge-dups-runner package"><strong>purge-dups-runner</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.10.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python_abi-feedstock"><strong>python_abi</strong></a> <code class="docutils literal notranslate"><span class="pre">3.9.* *_cp39</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
@@ -162,7 +170,7 @@
 
 <script>
     var package = "purge_dups";
-    var versions = ["1.2.6","1.2.5","1.2.5","1.2.5","1.0.1"];
+    var versions = ["1.2.6","1.2.6","1.2.5","1.2.5","1.2.5"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
