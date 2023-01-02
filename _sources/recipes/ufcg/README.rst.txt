@@ -1,0 +1,95 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'ufcg'
+.. highlight: bash
+
+ufcg
+====
+
+.. conda:recipe:: ufcg
+   :replaces_section_title:
+   :noindex:
+
+   UFCG pipeline provides methods for a genome\-wide taxonomic profiling and annotation of your own biological sequences of Fungi.
+
+   :homepage: https://ufcg.steineggerlab.com
+   :developer docs: https://github.com/steineggerlab/ufcg
+   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :recipe: /`ufcg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ufcg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ufcg/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkac894`
+
+   
+
+
+.. conda:package:: ufcg
+
+   |downloads_ufcg| |docker_ufcg|
+
+   :versions:
+      
+      
+
+      ``1.0.3c-0``
+
+      
+
+   
+   :depends augustus: ``>=3.5.0``
+   :depends iqtree: 
+   :depends mafft: 
+   :depends mmseqs2: ``>=14.7e284``
+   :depends openjdk: ``>=8``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ufcg
+
+   and update with::
+
+      conda update ufcg
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/ufcg:<tag>
+
+   (see `ufcg/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_ufcg| image:: https://img.shields.io/conda/dn/bioconda/ufcg.svg?style=flat
+   :target: https://anaconda.org/bioconda/ufcg
+   :alt:   (downloads)
+.. |docker_ufcg| image:: https://quay.io/repository/biocontainers/ufcg/status
+   :target: https://quay.io/repository/biocontainers/ufcg
+.. _`ufcg/tags`: https://quay.io/repository/biocontainers/ufcg?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "ufcg";
+        var versions = ["1.0.3c"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ufcg/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ufcg/README.html
