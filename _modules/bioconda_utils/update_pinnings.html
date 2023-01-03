@@ -140,7 +140,7 @@
 
 
 <div class="viewcode-block" id="skip_for_variants"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.skip_for_variants">[docs]</a><span class="k">def</span> <span class="nf">skip_for_variants</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">,</span> <span class="n">variant_keys</span><span class="p">:</span> <span class="n">AbstractSet</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Check if the recipe uses any given variant keys</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Check if the recipe uses any given variant keys</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      meta: Variant MetaData object</span>
@@ -154,7 +154,7 @@
 
 
 <div class="viewcode-block" id="will_build_variant"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.will_build_variant">[docs]</a><span class="k">def</span> <span class="nf">will_build_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Check if the recipe variant will be built as currently rendered</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Check if the recipe variant will be built as currently rendered</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      meta: Variant MetaData object</span>
@@ -179,7 +179,7 @@
 
 
 <span class="n">_legacy_build_string_prefixes</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span>
-    <span class="sd">&#39;&#39;&#39;</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">    ^</span>
 <span class="sd">    (</span>
 <span class="sd">        (?P&lt;numpy&gt;    np   [0-9]{2,9}) |</span>
@@ -294,7 +294,7 @@
 
 
 <div class="viewcode-block" id="have_variant"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.have_variant">[docs]</a><span class="k">def</span> <span class="nf">have_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Checks if we have an exact match to name/version/buildstring</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Checks if we have an exact match to name/version/buildstring</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      meta: Variant MetaData object</span>
@@ -314,7 +314,7 @@
 
 
 <div class="viewcode-block" id="have_noarch_python_build_number"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.have_noarch_python_build_number">[docs]</a><span class="k">def</span> <span class="nf">have_noarch_python_build_number</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Checks if we have a noarch:python build with same version+build_number</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Checks if we have a noarch:python build with same version+build_number</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      meta: Variant MetaData object</span>
@@ -336,7 +336,7 @@
 
 
 <div class="viewcode-block" id="will_build_only_missing"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.will_build_only_missing">[docs]</a><span class="k">def</span> <span class="nf">will_build_only_missing</span><span class="p">(</span><span class="n">metas</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">MetaData</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Checks if only new builds will be added (no divergent build ids exist)</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Checks if only new builds will be added (no divergent build ids exist)</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      metas: List of Variant MetaData objects</span>
@@ -368,7 +368,7 @@
 
 
 <div class="viewcode-block" id="State"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State">[docs]</a><span class="k">class</span> <span class="nc">State</span><span class="p">(</span><span class="n">enum</span><span class="o">.</span><span class="n">Flag</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Recipe Pinning State&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Recipe Pinning State&quot;&quot;&quot;</span>
     <span class="c1">#: Recipe had a failure rendering</span>
     <span class="n">FAIL</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
     <span class="c1">#: Recipe has a variant that will be skipped</span>
@@ -383,13 +383,13 @@
     <span class="n">HAVE_NOARCH_PYTHON</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
 
 <div class="viewcode-block" id="State.needs_bump"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State.needs_bump">[docs]</a>    <span class="k">def</span> <span class="nf">needs_bump</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Checks if the state indicates that the recipe needs to be bumped</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Checks if the state indicates that the recipe needs to be bumped</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span></div>
 
 
 <div class="viewcode-block" id="State.failed"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State.failed">[docs]</a>    <span class="k">def</span> <span class="nf">failed</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;True if the update pinning check failed&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;True if the update pinning check failed&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">FAIL</span></div></div>
 
 
@@ -409,7 +409,7 @@
     <span class="n">keep_metas</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">skip_variant_keys</span><span class="p">:</span> <span class="n">AbstractSet</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">frozenset</span><span class="p">(),</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">State</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Determine if a given recipe should have its build number increments</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Determine if a given recipe should have its build number increments</span>
 <span class="sd">    (bumped) due to a recent change in pinnings.</span>
 
 <span class="sd">    Args:</span>

@@ -226,7 +226,7 @@ Nevertheless, it can sometimes happen that we have to mark packages as broken
 in order to avoid that they are accidentally pulled by the conda solver.
 In such a case it is only possible to install them by specifically considering
 the <code class="docutils literal notranslate"><span class="pre">broken</span></code> label, i.e.,</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge -c bioconda -c defaults -c bioconda/label/broken my-package<span class="o">=</span>&lt;broken-version&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>-c<span class="w"> </span>bioconda<span class="w"> </span>-c<span class="w"> </span>defaults<span class="w"> </span>-c<span class="w"> </span>bioconda/label/broken<span class="w"> </span>my-package<span class="o">=</span>&lt;broken-version&gt;
 </pre></div>
 </div>
 </section>
@@ -256,17 +256,17 @@ picked up. So we need to uninstall and then reinstall bioconda-utils.</p>
 <p>Finally, run the tests using <code class="docutils literal notranslate"><span class="pre">pytest</span></code>.</p>
 <p>In summary:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># activate env</span>
-<span class="nb">source</span> ~/.config/bioconda/activate
+<span class="nb">source</span><span class="w"> </span>~/.config/bioconda/activate
 
 <span class="c1"># install dependencies</span>
-conda install --file test-requirements.txt --file bioconda_utils/bioconda_utils-requirements.txt
+conda<span class="w"> </span>install<span class="w"> </span>--file<span class="w"> </span>test-requirements.txt<span class="w"> </span>--file<span class="w"> </span>bioconda_utils/bioconda_utils-requirements.txt
 
 <span class="c1"># uninstall and then reinstall</span>
-pip uninstall bioconda_utils
-python setup.py develop
+pip<span class="w"> </span>uninstall<span class="w"> </span>bioconda_utils
+python<span class="w"> </span>setup.py<span class="w"> </span>develop
 
 <span class="c1"># run tests</span>
-pytest <span class="nb">test</span> -vv
+pytest<span class="w"> </span><span class="nb">test</span><span class="w"> </span>-vv
 </pre></div>
 </div>
 </section>

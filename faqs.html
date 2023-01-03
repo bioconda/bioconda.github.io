@@ -139,7 +139,7 @@
 conda that uses a faster dependency solving library and parts reimplemented in
 C++ for speed. Install it just into the base environment so that it’s always
 available, like this:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install mamba -n base -c conda-forge
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>mamba<span class="w"> </span>-n<span class="w"> </span>base<span class="w"> </span>-c<span class="w"> </span>conda-forge
 </pre></div>
 </div>
 <p>Then use <code class="docutils literal notranslate"><span class="pre">mamba</span></code> instead of <code class="docutils literal notranslate"><span class="pre">conda</span></code>.</p>
@@ -234,11 +234,11 @@ please use <a class="reference external" href="https://abi-laboratory.pro/tracke
 <p>Note that if keeping track of different environment names
 becomes a burden, you can create an environment in the same directory as
 a project with the <code class="docutils literal notranslate"><span class="pre">-p</span></code> argument, e.g.,</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda create -p ./env --file requirements.txt
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-p<span class="w"> </span>./env<span class="w"> </span>--file<span class="w"> </span>requirements.txt
 </pre></div>
 </div>
 <p>and then activate the environment with</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda activate ./env
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>./env
 </pre></div>
 </div>
 <p>This also works quite well in a shared directory so everyone can use (and

@@ -162,7 +162,7 @@ docker container. For working with failures in mulled-build tests, see
 if anaconda.org returns an HTTP 500 error, that has nothing to do with
 the recipe but with anaconda.org’s servers. In this case, you can
 restart the build by posting a comment with the line:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>@BiocondaBot rebuild
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>@BiocondaBot<span class="w"> </span>rebuild
 </pre></div>
 </div>
 <p>This will retrigger the build for the latest commit made to the PR in
@@ -189,20 +189,20 @@ file as another entry in the <code class="docutils literal notranslate"><span cl
 in the “Help” column to the <code class="docutils literal notranslate"><span class="pre">source:</span></code> section.</p></li>
 </ul>
 <p>For example, if this stopped working:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">fn</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span><span class="w"></span>
-<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span><span class="w"></span>
-<span class="w">  </span><span class="nt">md5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">fn</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span>
+<span class="w">  </span><span class="nt">md5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span>
 </pre></div>
 </div>
 <p>then change it to this:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">fn</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span><span class="w"></span>
-<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://depot.galaxyproject.org/software/argh/argh_0.26.1_src_all.tar.gz</span><span class="w"></span>
-<span class="w">  </span><span class="nt">md5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span><span class="w"></span>
-<span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">06a7442cb9130fb8806fe336000fcf20edf1f2f8ad205e7b62cec118505510db</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">fn</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://depot.galaxyproject.org/software/argh/argh_0.26.1_src_all.tar.gz</span>
+<span class="w">  </span><span class="nt">md5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span>
+<span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">06a7442cb9130fb8806fe336000fcf20edf1f2f8ad205e7b62cec118505510db</span>
 </pre></div>
 </div>
 </section>
@@ -212,12 +212,12 @@ in the “Help” column to the <code class="docutils literal notranslate"><span
 can’t be found – despite having zlib listed in the dependencies. The
 reason is that the location of <a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">zlib</span></code></a> often has to be
 specified in the <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script, which can be done like this:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CFLAGS</span><span class="s2"> -I</span><span class="nv">$PREFIX</span><span class="s2">/include&quot;</span>
-<span class="nb">export</span> <span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$LDFLAGS</span><span class="s2"> -L</span><span class="nv">$PREFIX</span><span class="s2">/lib&quot;</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CFLAGS</span><span class="s2"> -I</span><span class="nv">$PREFIX</span><span class="s2">/include&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$LDFLAGS</span><span class="s2"> -L</span><span class="nv">$PREFIX</span><span class="s2">/lib&quot;</span>
 </pre></div>
 </div>
 <p>Or sometimes:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">CPATH</span><span class="o">=</span><span class="si">${</span><span class="nv">PREFIX</span><span class="si">}</span>/include
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">CPATH</span><span class="o">=</span><span class="si">${</span><span class="nv">PREFIX</span><span class="si">}</span>/include
 </pre></div>
 </div>
 <p>Sometimes Makefiles may specify these locations, in which case they
@@ -233,7 +233,7 @@ rather than the more portable <code class="docutils literal notranslate"><span c
 <code class="docutils literal notranslate"><span class="pre">sed</span></code> in the build script to edit the lines.</p>
 <p>Here is an example that will replace the first line of a file
 <code class="docutils literal notranslate"><span class="pre">$PREFIX/bin/alocal</span></code> with the proper shebang line</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sed -i.bak <span class="s1">&#39;1 s|^.*$|#!/usr/bin/env perl|g&#39;</span> <span class="nv">$PREFIX</span>/bin/aclocal
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sed<span class="w"> </span>-i.bak<span class="w"> </span><span class="s1">&#39;1 s|^.*$|#!/usr/bin/env perl|g&#39;</span><span class="w"> </span><span class="nv">$PREFIX</span>/bin/aclocal
 </pre></div>
 </div>
 <p>(note the <code class="docutils literal notranslate"><span class="pre">-i.bak</span></code>, which is needed to support both Linux and OSX
@@ -291,9 +291,9 @@ extended base has been needed are:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">openssl</span></code> dependency, e.g., through <code class="docutils literal notranslate"><span class="pre">openmpi</span></code></p></li>
 </ul>
 <p>To use the extended container, add the following to a recipe’s <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">extra</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">container</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="nt">extended-base</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">extra</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">container</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">extended-base</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span>
 </pre></div>
 </div>
 </section>
@@ -309,15 +309,15 @@ on this automatically, a lot of software has hard-coded compiler names
 in its <code class="docutils literal notranslate"><span class="pre">Makefile</span></code>s.</p>
 <p>Instead of using patches or <code class="docutils literal notranslate"><span class="pre">sed</span></code> to modify those Makefiles, you can
 often simply override Make variables from the command line:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make <span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span><span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span>
 </pre></div>
 </div>
 <p>Briefly, Makefile variables can be specified inside the Makefile with
 the following operators:</p>
-<div class="highlight-Make notranslate"><div class="highlight"><pre><span></span><span class="nv">VAR1</span> <span class="o">=</span> content   <span class="c1"># assign with late recursive expand</span>
-<span class="nv">VAR2</span> <span class="o">:=</span> content  <span class="c1"># assign fixed</span>
-<span class="nv">VAR3</span> <span class="o">?=</span> content  <span class="c1"># assign default</span>
-<span class="nv">VAR4</span> <span class="o">+=</span> content  <span class="c1"># append</span>
+<div class="highlight-Make notranslate"><div class="highlight"><pre><span></span><span class="nv">VAR1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>content<span class="w">   </span><span class="c1"># assign with late recursive expand</span>
+<span class="nv">VAR2</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span>content<span class="w">  </span><span class="c1"># assign fixed</span>
+<span class="nv">VAR3</span><span class="w"> </span><span class="o">?=</span><span class="w"> </span>content<span class="w">  </span><span class="c1"># assign default</span>
+<span class="nv">VAR4</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span>content<span class="w">  </span><span class="c1"># append</span>
 </pre></div>
 </div>
 <p>All of these variables can be “overridden” from the command line as
@@ -330,15 +330,15 @@ to the command line.</p>
 (set if not already set) or <code class="docutils literal notranslate"><span class="pre">+=</span></code> (append) most likely will work just
 as expected.</p>
 <p>Example:</p>
-<div class="highlight-Make notranslate"><div class="highlight"><pre><span></span><span class="nv">CC</span> <span class="o">=</span> g++
-<span class="nv">CFLAGS</span> <span class="o">=</span> -O2 -g -DVERSION<span class="o">=</span><span class="m">1</span>.2.3
-<span class="nv">LDFLAGS</span> <span class="o">+=</span> -lz
+<div class="highlight-Make notranslate"><div class="highlight"><pre><span></span><span class="nv">CC</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>g++
+<span class="nv">CFLAGS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>-O2<span class="w"> </span>-g<span class="w"> </span>-DVERSION<span class="o">=</span><span class="m">1</span>.2.3
+<span class="nv">LDFLAGS</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span>-lz
 </pre></div>
 </div>
 <ul>
 <li><p>This Makefile sets <code class="docutils literal notranslate"><span class="pre">CC</span></code> to <code class="docutils literal notranslate"><span class="pre">g++</span></code> which you can simply
 override:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make <span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span><span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span>
 </pre></div>
 </div>
 </li>
@@ -346,11 +346,11 @@ override:</p>
 <code class="docutils literal notranslate"><span class="pre">libz</span></code>, you do not need to do anything here.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">CFLAGS</span></code> are more complicated. You can patch the
 Makefile to append to <code class="docutils literal notranslate"><span class="pre">CFLAGS</span></code> instead of overwriting:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sed -i.bak <span class="s1">&#39;s/CFLAGS =/CFLAGS +=/&#39;</span> Makefile
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sed<span class="w"> </span>-i.bak<span class="w"> </span><span class="s1">&#39;s/CFLAGS =/CFLAGS +=/&#39;</span><span class="w"> </span>Makefile
 </pre></div>
 </div>
 <p>Or you could override:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make <span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span> <span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CFLAGS</span><span class="s2"> -DVERSION=1.2.3&quot;</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span><span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span><span class="w"> </span><span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CFLAGS</span><span class="s2"> -DVERSION=1.2.3&quot;</span>
 </pre></div>
 </div>
 <p>In this case, the latter is not recommended as we would expect the

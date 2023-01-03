@@ -263,14 +263,14 @@
 <li><p>bioconda: Most bioinf packages (salmon, STAR, samtools, DESeq2, etc.)</p></li>
 <li><p>defaults: Packages built by Anaconda Inc.</p></li>
 <li><dl>
-<dt>Order matters! Use this one:</dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda config --show channels
+<dt>Order matters! Use this one:</dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>config<span class="w"> </span>--show<span class="w"> </span>channels
 channels:
-  - conda-forge
-  - bioconda
-  - defaults
+<span class="w">  </span>-<span class="w"> </span>conda-forge
+<span class="w">  </span>-<span class="w"> </span>bioconda
+<span class="w">  </span>-<span class="w"> </span>defaults
 
-$ conda config --prepend channels bioconda
-$ conda config --prepend channels conda-forge
+$<span class="w"> </span>conda<span class="w"> </span>config<span class="w"> </span>--prepend<span class="w"> </span>channels<span class="w"> </span>bioconda
+$<span class="w"> </span>conda<span class="w"> </span>config<span class="w"> </span>--prepend<span class="w"> </span>channels<span class="w"> </span>conda-forge
 </pre></div>
 </div>
 </dd>
@@ -283,20 +283,20 @@ $ conda config --prepend channels conda-forge
 <ul>
 <li><p>Search <a class="reference external" href="https://anaconda.org">https://anaconda.org</a></p></li>
 <li><dl>
-<dt>Use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">search</span></code></dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda search pysam
-Loading channels: <span class="k">done</span>
+<dt>Use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">search</span></code></dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>search<span class="w"> </span>pysam
+Loading<span class="w"> </span>channels:<span class="w"> </span><span class="k">done</span>
 <span class="c1"># Name                       Version           Build  Channel</span>
 <span class="o">[</span>...<span class="o">]</span>
-pysam                         <span class="m">0</span>.16.0  py36h71d3148_1  bioconda
-pysam                         <span class="m">0</span>.16.0  py36h873a209_0  bioconda
-pysam                         <span class="m">0</span>.16.0  py37ha9a96c6_0  bioconda
-pysam                         <span class="m">0</span>.16.0  py37hc501bad_1  bioconda
-pysam                       <span class="m">0</span>.16.0.1  py27ha863e18_1  bioconda
-pysam                       <span class="m">0</span>.16.0.1  py36h4c34d4e_1  bioconda
-pysam                       <span class="m">0</span>.16.0.1  py36h71d3148_0  bioconda
-pysam                       <span class="m">0</span>.16.0.1  py37hc334e0b_1  bioconda
-pysam                       <span class="m">0</span>.16.0.1  py37hc501bad_0  bioconda
-pysam                       <span class="m">0</span>.16.0.1  py38hbdc2ae9_1  bioconda
+pysam<span class="w">                         </span><span class="m">0</span>.16.0<span class="w">  </span>py36h71d3148_1<span class="w">  </span>bioconda
+pysam<span class="w">                         </span><span class="m">0</span>.16.0<span class="w">  </span>py36h873a209_0<span class="w">  </span>bioconda
+pysam<span class="w">                         </span><span class="m">0</span>.16.0<span class="w">  </span>py37ha9a96c6_0<span class="w">  </span>bioconda
+pysam<span class="w">                         </span><span class="m">0</span>.16.0<span class="w">  </span>py37hc501bad_1<span class="w">  </span>bioconda
+pysam<span class="w">                       </span><span class="m">0</span>.16.0.1<span class="w">  </span>py27ha863e18_1<span class="w">  </span>bioconda
+pysam<span class="w">                       </span><span class="m">0</span>.16.0.1<span class="w">  </span>py36h4c34d4e_1<span class="w">  </span>bioconda
+pysam<span class="w">                       </span><span class="m">0</span>.16.0.1<span class="w">  </span>py36h71d3148_0<span class="w">  </span>bioconda
+pysam<span class="w">                       </span><span class="m">0</span>.16.0.1<span class="w">  </span>py37hc334e0b_1<span class="w">  </span>bioconda
+pysam<span class="w">                       </span><span class="m">0</span>.16.0.1<span class="w">  </span>py37hc501bad_0<span class="w">  </span>bioconda
+pysam<span class="w">                       </span><span class="m">0</span>.16.0.1<span class="w">  </span>py38hbdc2ae9_1<span class="w">  </span>bioconda
 </pre></div>
 </div>
 </dd>
@@ -315,11 +315,11 @@ pysam                       <span class="m">0</span>.16.0.1  py38hbdc2ae9_1  bio
 <section id="practical-1">
 <h2>Practical 1<a class="headerlink" href="#practical-1" title="Permalink to this heading">¶</a></h2>
 <p>What are the most recent versions of samtools and Snakemake?</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda search samtools <span class="p">|</span> tail -n1
-samtools                        <span class="m">1</span>.10      h9402c20_2  bioconda
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>search<span class="w"> </span>samtools<span class="w"> </span><span class="p">|</span><span class="w"> </span>tail<span class="w"> </span>-n1
+samtools<span class="w">                        </span><span class="m">1</span>.10<span class="w">      </span>h9402c20_2<span class="w">  </span>bioconda
 
-$ conda search snakemake <span class="p">|</span> tail -n1
-snakemake                     <span class="m">5</span>.24.0               <span class="m">1</span>  bioconda
+$<span class="w"> </span>conda<span class="w"> </span>search<span class="w"> </span>snakemake<span class="w"> </span><span class="p">|</span><span class="w"> </span>tail<span class="w"> </span>-n1
+snakemake<span class="w">                     </span><span class="m">5</span>.24.0<span class="w">               </span><span class="m">1</span><span class="w">  </span>bioconda
 </pre></div>
 </div>
 </section>
@@ -356,10 +356,10 @@ snakemake                     <span class="m">5</span>.24.0               <span 
 }" class="graphviz" /></div>
 </td>
 </tr>
-<tr class="row-even"><td><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ ls -1i **/bin/samtools
-<span class="m">116889197</span> envs/tutorial/bin/samtools
-<span class="m">116889197</span> envs/samtools/bin/samtools
-<span class="m">116889197</span> pkgs/samtools-1.10-h2e538c0_3/bin/samtools
+<tr class="row-even"><td><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ls<span class="w"> </span>-1i<span class="w"> </span>**/bin/samtools
+<span class="m">116889197</span><span class="w"> </span>envs/tutorial/bin/samtools
+<span class="m">116889197</span><span class="w"> </span>envs/samtools/bin/samtools
+<span class="m">116889197</span><span class="w"> </span>pkgs/samtools-1.10-h2e538c0_3/bin/samtools
 </pre></div>
 </div>
 </td>
@@ -373,13 +373,13 @@ snakemake                     <span class="m">5</span>.24.0               <span 
 <li><p>Linking is relative to packages!</p></li>
 <li><p>No more conflicting dependencies between versions!</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ ldd -r envs/samtools/bin/samtools
-     linux-vdso.so.1 <span class="o">=</span>&gt;  <span class="o">(</span>0x00007ffc684ef000<span class="o">)</span>
-     libhts.so.3 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libhts.so.3 <span class="o">(</span>0x00007f32c8eac000<span class="o">)</span>
-     libtinfow.so.6 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libtinfow.so.6 <span class="o">(</span>0x00007f32c8e6c000<span class="o">)</span>
-     libncursesw.so.6 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libncursesw.so.6 <span class="o">(</span>0x00007f32c8e2f000<span class="o">)</span>
-     libm.so.6 <span class="o">=</span>&gt; /lib64/libm.so.6 <span class="o">(</span>0x00007f32c8ad0000<span class="o">)</span>
-     libz.so.1 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libz.so.1 <span class="o">(</span>0x00007f32c8e11000<span class="o">)</span>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ldd<span class="w"> </span>-r<span class="w"> </span>envs/samtools/bin/samtools
+<span class="w">     </span>linux-vdso.so.1<span class="w"> </span><span class="o">=</span>&gt;<span class="w">  </span><span class="o">(</span>0x00007ffc684ef000<span class="o">)</span>
+<span class="w">     </span>libhts.so.3<span class="w"> </span><span class="o">=</span>&gt;<span class="w"> </span>/home/gcb2020/conda/envs/samtools/bin/../lib/libhts.so.3<span class="w"> </span><span class="o">(</span>0x00007f32c8eac000<span class="o">)</span>
+<span class="w">     </span>libtinfow.so.6<span class="w"> </span><span class="o">=</span>&gt;<span class="w"> </span>/home/gcb2020/conda/envs/samtools/bin/../lib/libtinfow.so.6<span class="w"> </span><span class="o">(</span>0x00007f32c8e6c000<span class="o">)</span>
+<span class="w">     </span>libncursesw.so.6<span class="w"> </span><span class="o">=</span>&gt;<span class="w"> </span>/home/gcb2020/conda/envs/samtools/bin/../lib/libncursesw.so.6<span class="w"> </span><span class="o">(</span>0x00007f32c8e2f000<span class="o">)</span>
+<span class="w">     </span>libm.so.6<span class="w"> </span><span class="o">=</span>&gt;<span class="w"> </span>/lib64/libm.so.6<span class="w"> </span><span class="o">(</span>0x00007f32c8ad0000<span class="o">)</span>
+<span class="w">     </span>libz.so.1<span class="w"> </span><span class="o">=</span>&gt;<span class="w"> </span>/home/gcb2020/conda/envs/samtools/bin/../lib/libz.so.1<span class="w"> </span><span class="o">(</span>0x00007f32c8e11000<span class="o">)</span>
 <span class="o">[</span>...<span class="o">]</span>
 </pre></div>
 </div>
@@ -392,14 +392,14 @@ snakemake                     <span class="m">5</span>.24.0               <span 
 <div><ul class="simple">
 <li><p>Lists available environments</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda info --envs
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>info<span class="w"> </span>--envs
 <span class="c1"># conda environments:</span>
 <span class="c1">#</span>
-base                  *  /home/gcb2020/conda
-tutorial                 /home/gcb2020/conda/envs/tutorial
-pysam                    /home/gcb2020/conda/envs/pysam
-samtools                 /home/gcb2020/conda/envs/samtools
-snakemake                /home/gcb2020/conda/envs/snakemake
+base<span class="w">                  </span>*<span class="w">  </span>/home/gcb2020/conda
+tutorial<span class="w">                 </span>/home/gcb2020/conda/envs/tutorial
+pysam<span class="w">                    </span>/home/gcb2020/conda/envs/pysam
+samtools<span class="w">                 </span>/home/gcb2020/conda/envs/samtools
+snakemake<span class="w">                </span>/home/gcb2020/conda/envs/snakemake
 </pre></div>
 </div>
 <ul class="simple">
@@ -415,8 +415,8 @@ snakemake                /home/gcb2020/conda/envs/snakemake
 <div><ul class="simple">
 <li><p>Create/remove environments</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>myenv <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8 numpy <span class="s1">&#39;pysam&gt;=0.16&#39;</span>
-$ conda env remove --name<span class="o">=</span>myenv
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="o">=</span>myenv<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8<span class="w"> </span>numpy<span class="w"> </span><span class="s1">&#39;pysam&gt;=0.16&#39;</span>
+$<span class="w"> </span>conda<span class="w"> </span>env<span class="w"> </span>remove<span class="w"> </span>--name<span class="o">=</span>myenv
 </pre></div>
 </div>
 <ul class="simple">
@@ -431,12 +431,12 @@ $ conda env remove --name<span class="o">=</span>myenv
 <dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">activate</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">deactivate</span></code></dt><dd><ul class="simple">
 <li><p>Activates/deactivates an environment</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">command</span> -v samtools
-$ conda activate samtools
-$ <span class="nb">command</span> -v samtools
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">command</span><span class="w"> </span>-v<span class="w"> </span>samtools
+$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>samtools
+$<span class="w"> </span><span class="nb">command</span><span class="w"> </span>-v<span class="w"> </span>samtools
 /home/gcb2020/conda/envs/samtools/bin/samtools
-$ conda deactivate
-$ <span class="nb">command</span> -v samtools
+$<span class="w"> </span>conda<span class="w"> </span>deactivate
+$<span class="w"> </span><span class="nb">command</span><span class="w"> </span>-v<span class="w"> </span>samtools
 </pre></div>
 </div>
 <ul class="simple">
@@ -450,12 +450,12 @@ $ <span class="nb">command</span> -v samtools
 <li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">remove</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">list</span></code></p>
 <blockquote>
-<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda activate myenv
-$ conda install snakemake
-... a lot of status output ...
-$ conda list
-... many packages ...
-$ conda remove snakemake
+<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>myenv
+$<span class="w"> </span>conda<span class="w"> </span>install<span class="w"> </span>snakemake
+...<span class="w"> </span>a<span class="w"> </span>lot<span class="w"> </span>of<span class="w"> </span>status<span class="w"> </span>output<span class="w"> </span>...
+$<span class="w"> </span>conda<span class="w"> </span>list
+...<span class="w"> </span>many<span class="w"> </span>packages<span class="w"> </span>...
+$<span class="w"> </span>conda<span class="w"> </span>remove<span class="w"> </span>snakemake
 </pre></div>
 </div>
 </div></blockquote>
@@ -508,22 +508,22 @@ $ conda remove snakemake
 <li><p><code class="docutils literal notranslate"><span class="pre">conda</span></code> is up to date</p></li>
 <li><p>The correct channel order is in place</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda activate base
-$ conda update --all
-$ conda --version
-conda <span class="m">4</span>.8.4
-$ conda config --show channels
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>base
+$<span class="w"> </span>conda<span class="w"> </span>update<span class="w"> </span>--all
+$<span class="w"> </span>conda<span class="w"> </span>--version
+conda<span class="w"> </span><span class="m">4</span>.8.4
+$<span class="w"> </span>conda<span class="w"> </span>config<span class="w"> </span>--show<span class="w"> </span>channels
 channels:
-  - conda-forge
-  - bioconda
-  - defaults
-$ conda config --show-sources
-<span class="o">==</span>&gt; /home/gcb2020/.condarc &lt;<span class="o">==</span>
+<span class="w">  </span>-<span class="w"> </span>conda-forge
+<span class="w">  </span>-<span class="w"> </span>bioconda
+<span class="w">  </span>-<span class="w"> </span>defaults
+$<span class="w"> </span>conda<span class="w"> </span>config<span class="w"> </span>--show-sources
+<span class="o">==</span>&gt;<span class="w"> </span>/home/gcb2020/.condarc<span class="w"> </span>&lt;<span class="o">==</span>
 channels:
-  - conda-forge
-  - bioconda
-  - defaults
-$ conda info
+<span class="w">  </span>-<span class="w"> </span>conda-forge
+<span class="w">  </span>-<span class="w"> </span>bioconda
+<span class="w">  </span>-<span class="w"> </span>defaults
+$<span class="w"> </span>conda<span class="w"> </span>info
 </pre></div>
 </div>
 </dd>
@@ -536,12 +536,12 @@ $ conda info
 <li><p>Create a new environment named “mapping” with <code class="docutils literal notranslate"><span class="pre">bwa-mem2</span></code> and <code class="docutils literal notranslate"><span class="pre">pysamstats</span></code></p></li>
 <li><p>What versions of <code class="docutils literal notranslate"><span class="pre">numpy</span></code> and <code class="docutils literal notranslate"><span class="pre">python</span></code> got installed in it?</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>mapping bwa-mem2 pysamstats
-$ conda activate mapping
-$ conda list <span class="p">|</span> grep -E <span class="s1">&#39;^(python|numpy)\&gt;&#39;</span>
-numpy                     <span class="m">1</span>.19.1           py38hbc27379_2    conda-forge
-python                    <span class="m">3</span>.8.5           h1103e12_7_cpython    conda-forge
-$ conda list <span class="s1">&#39;^(numpy|python)$&#39;</span>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="o">=</span>mapping<span class="w"> </span>bwa-mem2<span class="w"> </span>pysamstats
+$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>mapping
+$<span class="w"> </span>conda<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;^(python|numpy)\&gt;&#39;</span>
+numpy<span class="w">                     </span><span class="m">1</span>.19.1<span class="w">           </span>py38hbc27379_2<span class="w">    </span>conda-forge
+python<span class="w">                    </span><span class="m">3</span>.8.5<span class="w">           </span>h1103e12_7_cpython<span class="w">    </span>conda-forge
+$<span class="w"> </span>conda<span class="w"> </span>list<span class="w"> </span><span class="s1">&#39;^(numpy|python)$&#39;</span>
 </pre></div>
 </div>
 </section>
@@ -550,13 +550,13 @@ $ conda list <span class="s1">&#39;^(numpy|python)$&#39;</span>
 <ul class="simple">
 <li><p>Create a new environment for Snakemake with <code class="docutils literal notranslate"><span class="pre">mamba</span></code></p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda install --name<span class="o">=</span>base mamba
-$ mamba --version
-mamba <span class="m">0</span>.5.1
-conda <span class="m">4</span>.8.4
-$ mamba create --name<span class="o">=</span>snakemake snakemake
-$ conda activate snakemake
-$ snakemake --version
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>install<span class="w"> </span>--name<span class="o">=</span>base<span class="w"> </span>mamba
+$<span class="w"> </span>mamba<span class="w"> </span>--version
+mamba<span class="w"> </span><span class="m">0</span>.5.1
+conda<span class="w"> </span><span class="m">4</span>.8.4
+$<span class="w"> </span>mamba<span class="w"> </span>create<span class="w"> </span>--name<span class="o">=</span>snakemake<span class="w"> </span>snakemake
+$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>snakemake
+$<span class="w"> </span>snakemake<span class="w"> </span>--version
 <span class="m">5</span>.24.0
 </pre></div>
 </div>
@@ -569,19 +569,19 @@ $ snakemake --version
 <dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">export</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span></code></dt><dd><ul class="simple">
 <li><p>Exports or creates an environment from a YAML file</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda env <span class="nb">export</span> --no-builds &gt; env.yaml
-$ conda env create --name<span class="o">=</span>more-map-and-call --file<span class="o">=</span>env.yaml
-$ head env.yaml
-name: map-and-call
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>env<span class="w"> </span><span class="nb">export</span><span class="w"> </span>--no-builds<span class="w"> </span>&gt;<span class="w"> </span>env.yaml
+$<span class="w"> </span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>--name<span class="o">=</span>more-map-and-call<span class="w"> </span>--file<span class="o">=</span>env.yaml
+$<span class="w"> </span>head<span class="w"> </span>env.yaml
+name:<span class="w"> </span>map-and-call
 channels:
-  - conda-forge
-  - bioconda
-  - defaults
+<span class="w">  </span>-<span class="w"> </span>conda-forge
+<span class="w">  </span>-<span class="w"> </span>bioconda
+<span class="w">  </span>-<span class="w"> </span>defaults
 dependencies:
-  - <span class="nv">_libgcc_mutex</span><span class="o">=</span><span class="m">0</span>.1
-  - <span class="nv">_openmp_mutex</span><span class="o">=</span><span class="m">4</span>.5
-  - <span class="nv">bcftools</span><span class="o">=</span><span class="m">1</span>.10.2
-  - <span class="nv">blis</span><span class="o">=</span><span class="m">0</span>.7.0
+<span class="w">  </span>-<span class="w"> </span><span class="nv">_libgcc_mutex</span><span class="o">=</span><span class="m">0</span>.1
+<span class="w">  </span>-<span class="w"> </span><span class="nv">_openmp_mutex</span><span class="o">=</span><span class="m">4</span>.5
+<span class="w">  </span>-<span class="w"> </span><span class="nv">bcftools</span><span class="o">=</span><span class="m">1</span>.10.2
+<span class="w">  </span>-<span class="w"> </span><span class="nv">blis</span><span class="o">=</span><span class="m">0</span>.7.0
 </pre></div>
 </div>
 </dd>
@@ -600,10 +600,10 @@ dependencies:
 </section>
 <section id="conda-package-recipes">
 <h2>Conda package recipes<a class="headerlink" href="#conda-package-recipes" title="Permalink to this heading">¶</a></h2>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ tree -A recipes/varlociraptor
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tree<span class="w"> </span>-A<span class="w"> </span>recipes/varlociraptor
 recipes/varlociraptor/
-├── build.sh
-└── meta.yaml
+├──<span class="w"> </span>build.sh
+└──<span class="w"> </span>meta.yaml
 </pre></div>
 </div>
 <ul class="simple">
@@ -632,25 +632,25 @@ recipes/varlociraptor/
 </ul>
 <section id="package">
 <h3><code class="docutils literal notranslate"><span class="pre">package</span></code><a class="headerlink" href="#package" title="Permalink to this heading">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">package</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span><span class="w"></span>
-<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.20.0</span><span class="w"></span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">package</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.20.0</span>
 </pre></div>
 </div>
 <p>Can also use Jinja variables:</p>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{%</span> <span class="k">set</span> <span class="nv">version</span> <span class="o">=</span> <span class="s2">&quot;0.20.0&quot;</span> <span class="cp">%}</span><span class="w"></span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{%</span> <span class="k">set</span> <span class="nv">version</span> <span class="o">=</span> <span class="s2">&quot;0.20.0&quot;</span> <span class="cp">%}</span>
 
-<span class="nt">package</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span><span class="w"></span>
-<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="w"></span>
+<span class="nt">package</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span>
 </pre></div>
 </div>
 </section>
 <section id="source">
 <h3><code class="docutils literal notranslate"><span class="pre">source</span></code><a class="headerlink" href="#source" title="Permalink to this heading">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/biocore/unifrac/archive/</span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="l l-Scalar l-Scalar-Plain">.tar.gz</span><span class="w"></span>
-<span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">e2692c683fddc6450ca4da049112b00264cf61aef1071d2ebc0f0539b86611b8</span><span class="w"></span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/biocore/unifrac/archive/</span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="l l-Scalar l-Scalar-Plain">.tar.gz</span>
+<span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">e2692c683fddc6450ca4da049112b00264cf61aef1071d2ebc0f0539b86611b8</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -660,17 +660,17 @@ recipes/varlociraptor/
 </section>
 <section id="build">
 <h3><code class="docutils literal notranslate"><span class="pre">build</span></code><a class="headerlink" href="#build" title="Permalink to this heading">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
 </pre></div>
 </div>
 <ul>
 <li><p>Reset to <code class="docutils literal notranslate"><span class="pre">0</span></code> with new releases</p></li>
 <li><p>Increment with each change for same version</p></li>
 <li><dl>
-<dt>Can skip build on conditions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
-<span class="w">  </span><span class="nt">skip</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w">  </span><span class="c1"># [osx or py&lt;36]</span><span class="w"></span>
+<dt>Can skip build on conditions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
+<span class="w">  </span><span class="nt">skip</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w">  </span><span class="c1"># [osx or py&lt;36]</span>
 </pre></div>
 </div>
 </dd>
@@ -682,18 +682,18 @@ recipes/varlociraptor/
 <blockquote>
 <div><ul>
 <li><dl>
-<dt><code class="docutils literal notranslate"><span class="pre">generic</span></code>: No platform-specific code (Java, pure Perl, pure R, etc.)</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
-<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">generic</span><span class="w"></span>
+<dt><code class="docutils literal notranslate"><span class="pre">generic</span></code>: No platform-specific code (Java, pure Perl, pure R, etc.)</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
+<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">generic</span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt><code class="docutils literal notranslate"><span class="pre">python</span></code>: Pure Python packages, one build -&gt; all versions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
-<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span><span class="w"></span>
+<dt><code class="docutils literal notranslate"><span class="pre">python</span></code>: Pure Python packages, one build -&gt; all versions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
+<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
 </pre></div>
 </div>
 </dd>
@@ -714,19 +714,19 @@ recipes/varlociraptor/
 <ul>
 <li><p>You can include entire build command</p>
 <blockquote>
-<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
-<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span><span class="w"></span>
-<span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">PYTHON</span> <span class="cp">}}</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">-m pip install . --no-deps -vv</span><span class="w"></span>
+<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
+<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
+<span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">PYTHON</span> <span class="cp">}}</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">-m pip install . --no-deps -vv</span>
 </pre></div>
 </div>
 </div></blockquote>
 </li>
 <li><p>Alternatively, use <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> for “more involved” installs</p>
 <blockquote>
-<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ cat build.sh
+<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w"> </span>build.sh
 <span class="c1"># !/usr/bin/env bash</span>
-<span class="s2">&quot;</span><span class="si">${</span><span class="nv">PYTHON</span><span class="si">}</span><span class="s2">&quot;</span> -m pip install . --no-deps -vv
+<span class="s2">&quot;</span><span class="si">${</span><span class="nv">PYTHON</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>.<span class="w"> </span>--no-deps<span class="w"> </span>-vv
 </pre></div>
 </div>
 </div></blockquote>
@@ -736,15 +736,15 @@ recipes/varlociraptor/
 </section>
 <section id="requirements">
 <h3><code class="docutils literal notranslate"><span class="pre">requirements</span></code><a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">compiler</span><span class="o">(</span><span class="s1">&#39;c&#39;</span><span class="o">)</span> <span class="cp">}}</span><span class="w"></span>
-<span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">htslib</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span><span class="w"></span>
-<span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">htslib</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span><span class="w"></span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">build</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">compiler</span><span class="o">(</span><span class="s1">&#39;c&#39;</span><span class="o">)</span> <span class="cp">}}</span>
+<span class="w">  </span><span class="nt">host</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">htslib</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span>
+<span class="w">  </span><span class="nt">run</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">htslib</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -762,8 +762,8 @@ recipes/varlociraptor/
 <li><p>Same <code class="docutils literal notranslate"><span class="pre">htslib</span></code>/<code class="docutils literal notranslate"><span class="pre">numpy</span></code>/<code class="docutils literal notranslate"><span class="pre">zlib</span></code>/<code class="docutils literal notranslate"><span class="pre">libcurl</span></code>/etc. versions</p></li>
 <li><p>Above are “pinned”</p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda search samtools <span class="p">|</span> tail -n1
-samtools                        <span class="m">1</span>.10      h9402c20_2  bioconda
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>search<span class="w"> </span>samtools<span class="w"> </span><span class="p">|</span><span class="w"> </span>tail<span class="w"> </span>-n1
+samtools<span class="w">                        </span><span class="m">1</span>.10<span class="w">      </span>h9402c20_2<span class="w">  </span>bioconda
 </pre></div>
 </div>
 <ul>
@@ -771,10 +771,10 @@ samtools                        <span class="m">1</span>.10      h9402c20_2  bio
 <li><p>Bioconda uses <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda-forge-pinning</a></p></li>
 <li><p>Version ranges are very useful!</p>
 <blockquote>
-<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">importlib_metadata &gt;=1.7.0,&lt;2.0.0</span><span class="w"></span>
-<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pysam &gt;=0.16,&lt;0.17</span><span class="w"></span>
-<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python &gt;=3.7</span><span class="w"></span>
-<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pyyaml &gt;=5.3,&lt;6</span><span class="w"></span>
+<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">importlib_metadata &gt;=1.7.0,&lt;2.0.0</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pysam &gt;=0.16,&lt;0.17</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python &gt;=3.7</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pyyaml &gt;=5.3,&lt;6</span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -783,11 +783,11 @@ samtools                        <span class="m">1</span>.10      h9402c20_2  bio
 </section>
 <section id="test">
 <h3><code class="docutils literal notranslate"><span class="pre">test</span></code><a class="headerlink" href="#test" title="Permalink to this heading">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">imports</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane</span><span class="w"></span>
-<span class="w">  </span><span class="nt">commands</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane --help</span><span class="w"></span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">imports</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane</span>
+<span class="w">  </span><span class="nt">commands</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane --help</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -820,9 +820,9 @@ extra:
 <ul>
 <li><p>Making recipes manually takes time</p></li>
 <li><dl>
-<dt>Many common sources are automated</dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ mkdir recipe
-$ <span class="nb">cd</span> recipe
-$ conda-skeleton pypi vembrane
+<dt>Many common sources are automated</dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>mkdir<span class="w"> </span>recipe
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>recipe
+$<span class="w"> </span>conda-skeleton<span class="w"> </span>pypi<span class="w"> </span>vembrane
 </pre></div>
 </div>
 </dd>
@@ -844,12 +844,12 @@ $ conda-skeleton pypi vembrane
 <section id="practical-3">
 <h2>Practical 3<a class="headerlink" href="#practical-3" title="Permalink to this heading">¶</a></h2>
 <p>Make a new <code class="docutils literal notranslate"><span class="pre">cutadapt</span></code> recipe</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>conda-build conda-build
-$ conda activate conda-build
-$ mkdir recipes
-$ <span class="nb">cd</span> recipes
-$ conda-skeleton pypi cutadapt
-$ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit build, host requirements, license_file</span>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="o">=</span>conda-build<span class="w"> </span>conda-build
+$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>conda-build
+$<span class="w"> </span>mkdir<span class="w"> </span>recipes
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>recipes
+$<span class="w"> </span>conda-skeleton<span class="w"> </span>pypi<span class="w"> </span>cutadapt
+$<span class="w"> </span><span class="nv">$EDITOR</span><span class="w"> </span>cutadapt/meta.yaml<span class="w">  </span><span class="c1"># edit build, host requirements, license_file</span>
 </pre></div>
 </div>
 </section>
@@ -861,15 +861,15 @@ $ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit bu
 <li><p>Installed into <code class="docutils literal notranslate"><span class="pre">$PREFIX</span></code></p></li>
 <li><p>Library dependencies are in <code class="docutils literal notranslate"><span class="pre">$PREFIX/lib</span></code></p></li>
 </ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ cat build.sh
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w"> </span>build.sh
 <span class="c1">#! /usr/bin/env bash</span>
-make install <span class="se">\</span>
-    <span class="nv">CC</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CC</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
-    <span class="nv">CXX</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CXX</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
-    <span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CFLAGS</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
-    <span class="nv">CXXFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CXXFLAGS</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
-    <span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LDFLAGS</span><span class="si">}</span><span class="s2">&quot;</span> <span class="se">\</span>
-    <span class="nv">prefix</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PREFIX</span><span class="si">}</span><span class="s2">&quot;</span>
+make<span class="w"> </span>install<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="nv">CC</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CC</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="nv">CXX</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CXX</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CFLAGS</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="nv">CXXFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CXXFLAGS</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LDFLAGS</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="nv">prefix</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PREFIX</span><span class="si">}</span><span class="s2">&quot;</span>
 </pre></div>
 </div>
 </section>

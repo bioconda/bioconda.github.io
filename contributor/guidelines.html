@@ -192,7 +192,7 @@ package. If a checksum is provided alongside the source package, then use that.
 Otherwise we prefer sha256 over md5.</p>
 <p>Use <code class="docutils literal notranslate"><span class="pre">shasum</span> <span class="pre">-a</span> <span class="pre">256</span> <span class="pre">...</span></code> (or <code class="docutils literal notranslate"><span class="pre">sha256sum</span></code>  or <code class="docutils literal notranslate"><span class="pre">openssl</span> <span class="pre">sha256</span></code> etc) on a
 file to compute its sha256 hash, and copy this into the recipe, for example:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget -O- <span class="nv">$URL</span> <span class="p">|</span> shasum -a <span class="m">256</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget<span class="w"> </span>-O-<span class="w"> </span><span class="nv">$URL</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>shasum<span class="w"> </span>-a<span class="w"> </span><span class="m">256</span>
 </pre></div>
 </div>
 <p>Likewise use <code class="docutils literal notranslate"><span class="pre">md5sum</span></code> (Linux) or <code class="docutils literal notranslate"><span class="pre">md5</span></code> (OSX) on a file to compute its md5 hash,
@@ -334,13 +334,13 @@ in the meta.yaml file along with the <code class="docutils literal notranslate">
 a recipe should be skipped.</p>
 <p>For example, a recipe that only runs on Python 2.7 should include the
 following:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">host</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w">   </span><span class="l l-Scalar l-Scalar-Plain">python &lt;3</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">host</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w">   </span><span class="l l-Scalar l-Scalar-Plain">python &lt;3</span>
 </pre></div>
 </div>
 <p>Or a package that only runs on Python 3.6 and 3.7:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">host</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python &gt;=3.6</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">host</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python &gt;=3.6</span>
 </pre></div>
 </div>
 <p>Alternatively, for straightforward compatibility fixes you can apply a <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-yaml" title="(in conda-build v3.23.3+6.gdb9a728a.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">patch</span>
@@ -364,26 +364,26 @@ built for Windows as well, with lines like:</p>
 </pre></div>
 </div>
 <p>and</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="w">   </span><span class="nt">test</span><span class="p">:</span><span class="w"></span>
-<span class="w">     </span><span class="nt">commands</span><span class="p">:</span><span class="w"></span>
-<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span><span class="w">  </span><span class="c1"># [not win]</span><span class="w"></span>
-<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;\&quot;%R%\&quot;</span><span class="nv"> </span><span class="s">-e</span><span class="nv"> </span><span class="s">\&quot;library(&#39;RNeXML&#39;)\&quot;&quot;</span><span class="w">  </span><span class="c1"># [win]</span><span class="w"></span>
-<span class="l l-Scalar l-Scalar-Plain">and</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="w">   </span><span class="nt">test</span><span class="p">:</span>
+<span class="w">     </span><span class="nt">commands</span><span class="p">:</span>
+<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span><span class="w">  </span><span class="c1"># [not win]</span>
+<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;\&quot;%R%\&quot;</span><span class="nv"> </span><span class="s">-e</span><span class="nv"> </span><span class="s">\&quot;library(&#39;RNeXML&#39;)\&quot;&quot;</span><span class="w">  </span><span class="c1"># [win]</span>
+<span class="l l-Scalar l-Scalar-Plain">and</span>
 
-<span class="l l-Scalar l-Scalar-Plain">.. code-block:</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yaml</span><span class="w"></span>
+<span class="l l-Scalar l-Scalar-Plain">.. code-block:</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yaml</span>
 
-<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">requirements</span><span class="p p-Indicator">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">posix</span><span class="w"> </span><span class="p p-Indicator">}}</span><span class="l l-Scalar l-Scalar-Plain">zip</span><span class="w">               </span><span class="c1"># [win]</span><span class="w"></span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">requirements</span><span class="p p-Indicator">:</span>
+<span class="w">      </span><span class="nt">build</span><span class="p">:</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">posix</span><span class="w"> </span><span class="p p-Indicator">}}</span><span class="l l-Scalar l-Scalar-Plain">zip</span><span class="w">               </span><span class="c1"># [win]</span>
 </pre></div>
 </div>
 <p>The bioconda channel does not build for Windows. To keep recipes
 streamlined, please remove the “set posix” and “set native” lines described
 above, remove the whole <code class="docutils literal notranslate"><span class="pre">build</span></code> entry under <code class="docutils literal notranslate"><span class="pre">requirements</span></code>, and convert
 the <code class="docutils literal notranslate"><span class="pre">test:commands:</span></code> block to only:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">commands</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">commands</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span>
 </pre></div>
 </div>
 </div>
@@ -490,13 +490,13 @@ These rules apply for both Linux and macOS.</p>
 <p>Conda distinguishes between dependencies needed for building (the <code class="docutils literal notranslate"><span class="pre">build</span></code> section),
 and dependencies needed during build time (the <code class="docutils literal notranslate"><span class="pre">host</span></code> section).
 For example, the following</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">compiler(&#39;c&#39;)</span><span class="w"> </span><span class="p p-Indicator">}}</span><span class="w"></span>
-<span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span><span class="w"></span>
-<span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">build</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">compiler(&#39;c&#39;)</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+<span class="w">  </span><span class="nt">host</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span>
+<span class="w">  </span><span class="nt">run</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span>
 </pre></div>
 </div>
 <p>specifies that a recipe needs the C compiler to build, and zlib present during

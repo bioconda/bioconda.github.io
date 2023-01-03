@@ -118,7 +118,7 @@
 
 
 <div class="viewcode-block" id="anaconda_upload"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.anaconda_upload">[docs]</a><span class="k">def</span> <span class="nf">anaconda_upload</span><span class="p">(</span><span class="n">package</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">label</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Upload a package to anaconda.</span>
 
 <span class="sd">    Args:</span>
@@ -172,7 +172,7 @@
 
 
 <div class="viewcode-block" id="mulled_upload"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.mulled_upload">[docs]</a><span class="k">def</span> <span class="nf">mulled_upload</span><span class="p">(</span><span class="n">image</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">quay_target</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">sp</span><span class="o">.</span><span class="n">CompletedProcess</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Upload the build Docker images to quay.io with ``mulled-build push``.</span>
 
 <span class="sd">    Calls ``mulled-build push &lt;image&gt; -n &lt;quay_target&gt;``</span>
@@ -193,7 +193,7 @@
 <div class="viewcode-block" id="skopeo_upload"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.skopeo_upload">[docs]</a><span class="k">def</span> <span class="nf">skopeo_upload</span><span class="p">(</span><span class="n">image_file</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">target</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                   <span class="n">creds</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">registry</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;quay.io&quot;</span><span class="p">,</span>
                   <span class="n">timeout</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">600</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Upload an image to docker registy</span>
 
 <span class="sd">    Uses ``skopeo`` to upload tar archives of docker images as created</span>

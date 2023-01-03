@@ -223,7 +223,7 @@
 
 
 <div class="viewcode-block" id="Severity"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Severity">[docs]</a><span class="k">class</span> <span class="nc">Severity</span><span class="p">(</span><span class="n">IntEnum</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Severities for lint checks&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Severities for lint checks&quot;&quot;&quot;</span>
     <span class="c1">#: Checks of this severity are purely informational</span>
     <span class="n">INFO</span> <span class="o">=</span> <span class="mi">10</span>
 
@@ -239,7 +239,7 @@
 
 
 <div class="viewcode-block" id="LintMessage"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage">[docs]</a><span class="k">class</span> <span class="nc">LintMessage</span><span class="p">(</span><span class="n">NamedTuple</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Message issued by LintChecks&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Message issued by LintChecks&quot;&quot;&quot;</span>
 
     <span class="c1">#: The recipe this message refers to</span>
     <span class="n">recipe</span><span class="p">:</span> <span class="n">_recipe</span><span class="o">.</span><span class="n">Recipe</span>
@@ -269,7 +269,7 @@
     <span class="n">canfix</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
 
 <div class="viewcode-block" id="LintMessage.get_level"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.get_level">[docs]</a>    <span class="k">def</span> <span class="nf">get_level</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Return level string as required by github&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return level string as required by github&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">severity</span> <span class="o">&lt;</span> <span class="n">WARNING</span><span class="p">:</span>
             <span class="k">return</span> <span class="s2">&quot;notice&quot;</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">severity</span> <span class="o">&lt;</span> <span class="n">ERROR</span><span class="p">:</span>
@@ -278,7 +278,7 @@
 
 
 <div class="viewcode-block" id="LintCheckMeta"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheckMeta">[docs]</a><span class="k">class</span> <span class="nc">LintCheckMeta</span><span class="p">(</span><span class="n">abc</span><span class="o">.</span><span class="n">ABCMeta</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Meta class for lint checks</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Meta class for lint checks</span>
 
 <span class="sd">    Handles registry</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -287,7 +287,7 @@
 
     <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">bases</span><span class="p">:</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">type</span><span class="p">,</span> <span class="o">...</span><span class="p">],</span>
                 <span class="n">namespace</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">type</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Creates LintCheck classes&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Creates LintCheck classes&quot;&quot;&quot;</span>
         <span class="n">typ</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">bases</span><span class="p">,</span> <span class="n">namespace</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">name</span> <span class="o">!=</span> <span class="s2">&quot;LintCheck&quot;</span><span class="p">:</span>  <span class="c1"># don&#39;t register base class</span>
             <span class="bp">cls</span><span class="o">.</span><span class="n">registry</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">typ</span><span class="p">)</span>
@@ -298,7 +298,7 @@
 
 <span class="n">_checks_loaded</span> <span class="o">=</span> <span class="kc">False</span>
 <div class="viewcode-block" id="get_checks"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.get_checks">[docs]</a><span class="k">def</span> <span class="nf">get_checks</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;Loads and returns the available lint checks&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Loads and returns the available lint checks&quot;&quot;&quot;</span>
     <span class="k">global</span> <span class="n">_checks_loaded</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">_checks_loaded</span><span class="p">:</span>
         <span class="k">for</span> <span class="n">_loader</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">_ispkg</span> <span class="ow">in</span> <span class="n">pkgutil</span><span class="o">.</span><span class="n">iter_modules</span><span class="p">(</span><span class="n">__path__</span><span class="p">):</span>
@@ -309,7 +309,7 @@
 
 
 <div class="viewcode-block" id="LintCheck"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck">[docs]</a><span class="k">class</span> <span class="nc">LintCheck</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">LintCheckMeta</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Base class for lint checks&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Base class for lint checks&quot;&quot;&quot;</span>
 
     <span class="c1">#: Severity of this check. Only ERROR causes a lint failure.</span>
     <span class="n">severity</span><span class="p">:</span> <span class="n">Severity</span> <span class="o">=</span> <span class="n">ERROR</span>
@@ -329,7 +329,7 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span>
 
 <div class="viewcode-block" id="LintCheck.run"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">_recipe</span><span class="o">.</span><span class="n">Recipe</span><span class="p">,</span> <span class="n">fix</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">LintMessage</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Run the check on a recipe. Called by Linter</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Run the check on a recipe. Called by Linter</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          recipe: The recipe to be linted</span>
@@ -356,7 +356,7 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">messages</span></div>
 
 <div class="viewcode-block" id="LintCheck.check_recipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">_recipe</span><span class="o">.</span><span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Execute check on recipe</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute check on recipe</span>
 
 <span class="sd">        Override this method in subclasses, using ``self.message()``</span>
 <span class="sd">        to issue `LintMessage` as failures are encountered.</span>
@@ -366,7 +366,7 @@
 <span class="sd">        &quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="LintCheck.check_source"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">:</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">section</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Execute check on each source</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute check on each source</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          source: Dictionary containing the source section</span>
@@ -375,7 +375,7 @@
 <span class="sd">        &quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="LintCheck.check_deps"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Execute check on recipe dependencies</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute check on recipe dependencies</span>
 
 <span class="sd">        Example format for **deps**::</span>
 
@@ -394,11 +394,11 @@
 <span class="sd">        &quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="LintCheck.fix"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">LintMessage</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Attempt to fix the problem&quot;&quot;&quot;</span></div>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Attempt to fix the problem&quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="LintCheck.message"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.message">[docs]</a>    <span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">section</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">fname</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">line</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                 <span class="n">data</span><span class="p">:</span> <span class="n">Any</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Add a message to the lint results</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Add a message to the lint results</span>
 
 <span class="sd">        Also calls `fix` if we are supposed to be fixing.</span>
 
@@ -421,7 +421,7 @@
 <div class="viewcode-block" id="LintCheck.make_message"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.make_message">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">make_message</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">_recipe</span><span class="o">.</span><span class="n">Recipe</span><span class="p">,</span> <span class="n">section</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                      <span class="n">fname</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">canfix</span><span class="p">:</span> <span class="nb">bool</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">LintMessage</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Create a LintMessage</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a LintMessage</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          section: If specified, a lint location within the recipe</span>
@@ -461,14 +461,14 @@
 
 
 <div class="viewcode-block" id="linter_failure"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.linter_failure">[docs]</a><span class="k">class</span> <span class="nc">linter_failure</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;An unexpected exception was raised during linting</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;An unexpected exception was raised during linting</span>
 
 <span class="sd">    Please file an issue at the bioconda-utils repo</span>
 <span class="sd">    &quot;&quot;&quot;</span></div>
 
 
 <div class="viewcode-block" id="duplicate_key_in_meta_yaml"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.duplicate_key_in_meta_yaml">[docs]</a><span class="k">class</span> <span class="nc">duplicate_key_in_meta_yaml</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe meta.yaml contains a duplicate key</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe meta.yaml contains a duplicate key</span>
 
 <span class="sd">    This is invalid YAML, as it&#39;s unclear what the structure should</span>
 <span class="sd">    become. Please merge the two offending sections</span>
@@ -476,7 +476,7 @@
 
 
 <div class="viewcode-block" id="missing_version_or_name"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_version_or_name">[docs]</a><span class="k">class</span> <span class="nc">missing_version_or_name</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe is missing name and/or version</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe is missing name and/or version</span>
 
 <span class="sd">    Please make sure the recipe has at least::</span>
 
@@ -487,14 +487,14 @@
 
 
 <div class="viewcode-block" id="empty_meta_yaml"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.empty_meta_yaml">[docs]</a><span class="k">class</span> <span class="nc">empty_meta_yaml</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe has an empty meta.yaml!?</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe has an empty meta.yaml!?</span>
 
 <span class="sd">    Please check if you forgot to commit its contents.</span>
 <span class="sd">    &quot;&quot;&quot;</span></div>
 
 
 <div class="viewcode-block" id="missing_build"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_build">[docs]</a><span class="k">class</span> <span class="nc">missing_build</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe is missing a build section.</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe is missing a build section.</span>
 
 <span class="sd">    Please add::</span>
 
@@ -504,14 +504,14 @@
 
 
 <div class="viewcode-block" id="unknown_selector"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_selector">[docs]</a><span class="k">class</span> <span class="nc">unknown_selector</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe failed to parse due to selector lines</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe failed to parse due to selector lines</span>
 
 <span class="sd">    Please request help from @bioconda/core.</span>
 <span class="sd">    &quot;&quot;&quot;</span></div>
 
 
 <div class="viewcode-block" id="missing_meta_yaml"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.missing_meta_yaml">[docs]</a><span class="k">class</span> <span class="nc">missing_meta_yaml</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe is missing a meta.yaml file</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe is missing a meta.yaml file</span>
 
 <span class="sd">    Most commonly, this is because the file was accidentally</span>
 <span class="sd">    named ``meta.yml``. If so, rename it to ``meta.yaml``.</span>
@@ -519,14 +519,14 @@
 
 
 <div class="viewcode-block" id="conda_render_failure"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.conda_render_failure">[docs]</a><span class="k">class</span> <span class="nc">conda_render_failure</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe was not understood by conda-build</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe was not understood by conda-build</span>
 
 <span class="sd">    Please request help from @bioconda/core.</span>
 <span class="sd">    &quot;&quot;&quot;</span></div>
 
 
 <div class="viewcode-block" id="jinja_render_failure"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.jinja_render_failure">[docs]</a><span class="k">class</span> <span class="nc">jinja_render_failure</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe could not be rendered by Jinja2</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe could not be rendered by Jinja2</span>
 
 <span class="sd">    Check if you are missing quotes or curly braces in Jinja2 template</span>
 <span class="sd">    expressions. (The parts with ``{{ something }}`` or ``{% set</span>
@@ -535,7 +535,7 @@
 
 
 <div class="viewcode-block" id="unknown_check"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.unknown_check">[docs]</a><span class="k">class</span> <span class="nc">unknown_check</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Something went wrong inside the linter</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Something went wrong inside the linter</span>
 
 <span class="sd">    Please request help from @bioconda/core</span>
 <span class="sd">    &quot;&quot;&quot;</span></div>
@@ -557,7 +557,7 @@
 
 
 <div class="viewcode-block" id="Linter"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter">[docs]</a><span class="k">class</span> <span class="nc">Linter</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Lint executor</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Lint executor</span>
 
 <span class="sd">    Arguments:</span>
 <span class="sd">      config: Configuration dict as provided by `utils.load_config()`.</span>
@@ -601,15 +601,15 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">check_instances</span> <span class="o">=</span> <span class="p">{</span><span class="nb">str</span><span class="p">(</span><span class="n">check</span><span class="p">):</span> <span class="n">check</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">get_checks</span><span class="p">()}</span>
 
 <div class="viewcode-block" id="Linter.get_blacklist"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.get_blacklist">[docs]</a>    <span class="k">def</span> <span class="nf">get_blacklist</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Loads the blacklist as per linter configuration&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Loads the blacklist as per linter configuration&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_folder</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="Linter.get_messages"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.get_messages">[docs]</a>    <span class="k">def</span> <span class="nf">get_messages</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">LintMessage</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Returns the lint messages collected during linting&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns the lint messages collected during linting&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_messages</span></div>
 
 <div class="viewcode-block" id="Linter.clear_messages"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.clear_messages">[docs]</a>    <span class="k">def</span> <span class="nf">clear_messages</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Clears the lint messages stored in linter&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Clears the lint messages stored in linter&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_messages</span> <span class="o">=</span> <span class="p">[]</span></div>
 
     <span class="k">def</span> <span class="nf">get_report</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
@@ -619,7 +619,7 @@
         <span class="p">)</span>
 
 <div class="viewcode-block" id="Linter.load_skips"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.load_skips">[docs]</a>    <span class="k">def</span> <span class="nf">load_skips</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Parses lint skips</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Parses lint skips</span>
 
 <span class="sd">        If :envvar:`LINT_SKIP` or the most recent commit contains ``[</span>
 <span class="sd">        lint skip &lt;check_name&gt; for &lt;recipe_name&gt; ]``, that particular</span>
@@ -647,7 +647,7 @@
         <span class="k">return</span> <span class="n">skip_dict</span></div>
 
 <div class="viewcode-block" id="Linter.lint"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.lint">[docs]</a>    <span class="k">def</span> <span class="nf">lint</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_names</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">fix</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Run linter on multiple recipes</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Run linter on multiple recipes</span>
 
 <span class="sd">        Lint messages are collected in the linter. They can be retrieved</span>
 <span class="sd">        with `get_messages` and the list cleared with `clear_messages`.</span>
@@ -675,7 +675,7 @@
                    <span class="k">for</span> <span class="n">message</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_messages</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="Linter.lint_one"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.lint_one">[docs]</a>    <span class="k">def</span> <span class="nf">lint_one</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">fix</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">LintMessage</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Run the linter on a single recipe</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Run the linter on a single recipe</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          recipe_name: Mames of recipe to lint</span>

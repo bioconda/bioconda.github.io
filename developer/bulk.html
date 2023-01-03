@@ -165,8 +165,8 @@ caused by running the default <code class="docutils literal notranslate"><span c
 This tends to happen most with build numbers. But since we want to prefer
 using whatever is in the master branch, we can merge master into bulk, while
 preferring master version in any conflicts, with:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout bulk
-git merge master -s recursive -X theirs
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>checkout<span class="w"> </span>bulk
+git<span class="w"> </span>merge<span class="w"> </span>master<span class="w"> </span>-s<span class="w"> </span>recursive<span class="w"> </span>-X<span class="w"> </span>theirs
 </pre></div>
 </div>
 <p>There may be a few remaining conflicts to fix; in all cases you should
@@ -219,8 +219,8 @@ running the default <code class="docutils literal notranslate"><span class="pre"
 happen most with build numbers. But since we want to prefer using whatever
 is in the master branch, we can merge master into bulk, while preferring
 master version in any conflicts, with:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout bulk
-git merge master -s recursive -X theirs
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>checkout<span class="w"> </span>bulk
+git<span class="w"> </span>merge<span class="w"> </span>master<span class="w"> </span>-s<span class="w"> </span>recursive<span class="w"> </span>-X<span class="w"> </span>theirs
 </pre></div>
 </div>
 <p>There may be a few remaining conflicts to fix; in all cases you should
@@ -229,7 +229,7 @@ prefer what’s on the master branch.</p>
 <li><p>Identify the latest BioConductor version, and update all BioConductor
 recipes with:</p>
 <blockquote>
-<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils bioconductor-skeleton update-all-packages --bioc-version <span class="nv">$BIOC_VERSION</span>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>bioconductor-skeleton<span class="w"> </span>update-all-packages<span class="w"> </span>--bioc-version<span class="w"> </span><span class="nv">$BIOC_VERSION</span>
 </pre></div>
 </div>
 </div></blockquote>

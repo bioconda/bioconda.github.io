@@ -152,14 +152,14 @@
 <span class="n">CardContentType</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">(</span><span class="s2">&quot;CardContentType&quot;</span><span class="p">,</span> <span class="s2">&quot;Issue PullRequest&quot;</span><span class="p">)</span>
 
 <div class="viewcode-block" id="iso_now"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.iso_now">[docs]</a><span class="k">def</span> <span class="nf">iso_now</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Creates ISO 8601 timestamp in format</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Creates ISO 8601 timestamp in format</span>
 <span class="sd">    ``YYYY-MM-DDTHH:MM:SSZ`` as required by Github</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">microsecond</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span><span class="o">+</span><span class="s1">&#39;Z&#39;</span></div>
 
 
 <div class="viewcode-block" id="GitHubHandler"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler">[docs]</a><span class="k">class</span> <span class="nc">GitHubHandler</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Handles interaction with GitHub</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Handles interaction with GitHub</span>
 
 <span class="sd">    Arguments:</span>
 <span class="sd">      token: OAUTH token granting permissions to GH</span>
@@ -235,7 +235,7 @@
         <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2">(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">user</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="si">}</span><span class="s2">)&quot;</span>
 
 <div class="viewcode-block" id="GitHubHandler.for_json"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.for_json">[docs]</a>    <span class="k">def</span> <span class="nf">for_json</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Return JSON repesentation of object&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return JSON repesentation of object&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="p">{</span>
             <span class="s1">&#39;__module__&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__module__</span><span class="p">,</span>
             <span class="s1">&#39;__type__&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__qualname__</span><span class="p">,</span>
@@ -250,25 +250,25 @@
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">rate_limit</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">sansio</span><span class="o">.</span><span class="n">RateLimit</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Last recorded rate limit data&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Last recorded rate limit data&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">rate_limit</span>
 
 <div class="viewcode-block" id="GitHubHandler.set_oauth_token"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.set_oauth_token">[docs]</a>    <span class="k">def</span> <span class="nf">set_oauth_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Update oauth token for the wrapped GitHubAPI object&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Update oauth token for the wrapped GitHubAPI object&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="n">token</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">oauth_token</span> <span class="o">=</span> <span class="n">token</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.create_api_object"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.create_api_object">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
     <span class="k">def</span> <span class="nf">create_api_object</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Create API object&quot;&quot;&quot;</span></div>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create API object&quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_file_relurl"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_file_relurl">[docs]</a>    <span class="k">def</span> <span class="nf">get_file_relurl</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;master&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Format domain relative url for **path** on **branch_name**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Format domain relative url for **path** on **branch_name**&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="s2">&quot;/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/tree/</span><span class="si">{branch_name}</span><span class="s2">/</span><span class="si">{path}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
             <span class="n">branch_name</span><span class="o">=</span><span class="n">branch_name</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">,</span> <span class="o">**</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.login"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.login">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">login</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Log into API (fills `username`)&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Log into API (fills `username`)&quot;&quot;&quot;</span>
 
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">create_api_object</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
@@ -286,7 +286,7 @@
         <span class="k">return</span> <span class="kc">False</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_user"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_user">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_user</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Fetches the user&#39;s info</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Fetches the user&#39;s info</span>
 
 <span class="sd">        Returns:</span>
 <span class="sd">          Empty dict if the request failed</span>
@@ -297,7 +297,7 @@
             <span class="k">return</span> <span class="p">{}</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_user_orgs"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_user_orgs">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_user_orgs</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Fetches the user&#39;s orgs</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Fetches the user&#39;s orgs</span>
 
 <span class="sd">        Returns:</span>
 <span class="sd">          Empty list if the request failed</span>
@@ -308,7 +308,7 @@
             <span class="k">return</span> <span class="p">[]</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.iter_teams"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.iter_teams">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">iter_teams</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AsyncIterator</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;List organization teams</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List organization teams</span>
 
 <span class="sd">        Returns:</span>
 <span class="sd">          Async iterator over dicts, containing **id**,</span>
@@ -319,7 +319,7 @@
 
 <div class="viewcode-block" id="GitHubHandler.get_team_id"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_team_id">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_team_id</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">team_slug</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                           <span class="n">team_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Get the Team ID from the Team slug</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get the Team ID from the Team slug</span>
 
 <span class="sd">        If both are set, **team_slug** is tried first.</span>
 
@@ -347,7 +347,7 @@
                     <span class="k">return</span> <span class="n">team</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.is_team_member"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.is_team_member">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">is_team_member</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">username</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">team</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Check if user is a member of given team</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Check if user is a member of given team</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          username: Name of user to check</span>
@@ -378,7 +378,7 @@
         <span class="k">return</span> <span class="kc">False</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.is_member"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.is_member">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">is_member</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">username</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">team</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Check user membership</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Check user membership</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          username: Name of user for whom to check membership</span>
@@ -404,7 +404,7 @@
 
 <div class="viewcode-block" id="GitHubHandler.search_issues"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.search_issues">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">search_issues</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">pr</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">issue</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sha</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                             <span class="n">closed</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Search issues/PRs on our repos</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Search issues/PRs on our repos</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          author: login name of user to search</span>
@@ -434,7 +434,7 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">SEARCH_ISSUES</span> <span class="o">+</span> <span class="s1">&#39;+&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">query</span><span class="p">))</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_pr_count"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_pr_count">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_pr_count</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get the number of PRs opened by user</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get the number of PRs opened by user</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          user: login of user to query</span>
@@ -446,7 +446,7 @@
         <span class="k">return</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;total_count&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.is_org"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.is_org">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">is_org</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Check if we are operating on an organization&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Check if we are operating on an organization&quot;&quot;&quot;</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ORG</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
         <span class="k">except</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">BadRequest</span><span class="p">:</span>
@@ -454,7 +454,7 @@
         <span class="k">return</span> <span class="kc">True</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_prs_from_sha"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_prs_from_sha">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_prs_from_sha</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">only_open</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Searches for PRs matching **head_sha**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Searches for PRs matching **head_sha**</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          head_sha: The head checksum to search for</span>
@@ -482,7 +482,7 @@
                       <span class="n">to_branch</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                       <span class="n">number</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                       <span class="n">state</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">IssueState</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;Retrieve list of PRs matching parameters</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Retrieve list of PRs matching parameters</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          from_branch: Name of branch from which PR asks to pull</span>
@@ -517,7 +517,7 @@
             <span class="k">raise</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_issue"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_issue">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_issue</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Retrieve a single PR or Issue by its number</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Retrieve a single PR or Issue by its number</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          number: PR/Issue number</span>
@@ -530,7 +530,7 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ISSUES</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.iter_pr_commits"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.iter_pr_commits">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">iter_pr_commits</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Create iterator over commits in a PR&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create iterator over commits in a PR&quot;&quot;&quot;</span>
         <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
         <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
         <span class="k">try</span><span class="p">:</span>
@@ -547,7 +547,7 @@
                         <span class="n">body</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                         <span class="n">maintainer_can_modify</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
                         <span class="n">draft</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Create new PR</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create new PR</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          title: Title of new PR</span>
@@ -590,7 +590,7 @@
 
 <div class="viewcode-block" id="GitHubHandler.merge_pr"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.merge_pr">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">merge_pr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">title</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">sha</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                            <span class="n">method</span><span class="p">:</span> <span class="n">MergeMethod</span> <span class="o">=</span> <span class="n">MergeMethod</span><span class="o">.</span><span class="n">squash</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Merge a PR</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Merge a PR</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          number: PR Number</span>
@@ -624,7 +624,7 @@
             <span class="k">raise</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.pr_is_merged"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.pr_is_merged">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">pr_is_merged</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Checks whether a PR has been merged</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Checks whether a PR has been merged</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          number: PR Number</span>
@@ -643,7 +643,7 @@
             <span class="k">raise</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.pr_update_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.pr_update_branch">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">pr_update_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Updates PR branch</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Updates PR branch</span>
 
 <span class="sd">        Merges changes to &quot;base&quot; into &quot;head&quot;</span>
 <span class="sd">        &quot;&quot;&quot;</span>
@@ -668,7 +668,7 @@
                            <span class="n">labels</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                            <span class="n">title</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                            <span class="n">body</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Modify existing issue (PRs are issues)</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Modify existing issue (PRs are issues)</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          labels: list of labels to assign to issue</span>
@@ -699,7 +699,7 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ISSUES</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.create_comment"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.create_comment">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">create_comment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">body</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Create issue comment</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create issue comment</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          number: Issue number</span>
@@ -718,13 +718,13 @@
         <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.iter_comments"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.iter_comments">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">iter_comments</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;List comments for issue&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List comments for issue&quot;&quot;&quot;</span>
         <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
         <span class="n">var_data</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getiter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ISSUE_COMMENTS</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.update_comment"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.update_comment">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">update_comment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">body</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Update issue comment</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Update issue comment</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          number: Comment number (NOT PR NUMBER!)</span>
@@ -743,7 +743,7 @@
         <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_pr_modified_files"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_pr_modified_files">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_pr_modified_files</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;Retrieve the list of files modified by the PR</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Retrieve the list of files modified by the PR</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          number: PR issue number</span>
@@ -754,7 +754,7 @@
 
 <div class="viewcode-block" id="GitHubHandler.create_check_run"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.create_check_run">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">create_check_run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                                <span class="n">details_url</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">external_id</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Create a check run</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a check run</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          name: The name of the check, e.g. ``bioconda-test``</span>
@@ -787,7 +787,7 @@
                                <span class="n">output_text</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                <span class="n">output_annotations</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                <span class="n">actions</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="s1">&#39;str&#39;</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Modify a check runs</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Modify a check runs</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          number: id number of check run</span>
@@ -832,7 +832,7 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">CHECK_RUN</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">accept</span><span class="o">=</span><span class="n">accept</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_check_runs"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_check_runs">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_check_runs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;List check runs for **sha**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List check runs for **sha**</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          sha: The commit SHA for which  to search for check runs</span>
@@ -846,7 +846,7 @@
         <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="s1">&#39;check_runs&#39;</span><span class="p">]</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_statuses"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_statuses">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_statuses</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;List status checks for **sha**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List status checks for **sha**</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          sha: The commit SHA for which to find statuses</span>
@@ -858,7 +858,7 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">GET_STATUSES</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_pr_reviews"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_pr_reviews">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_pr_reviews</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;Get reviews filed for a PR</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get reviews filed for a PR</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          pr_number: Number of PR</span>
@@ -871,7 +871,7 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">PULL_REVIEWS</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_branch_protection"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_branch_protection">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_branch_protection</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;master&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Retrieve protection settings for branch</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Retrieve protection settings for branch</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          branch: Branch for which to get protection settings</span>
@@ -915,7 +915,7 @@
 
 <div class="viewcode-block" id="GitHubHandler.check_protections"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.check_protections">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">check_protections</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
                                 <span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">],</span> <span class="nb">str</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Check whether PR meets protection requirements</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Check whether PR meets protection requirements</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          pr_number: issue number of PR</span>
@@ -976,7 +976,7 @@
         <span class="k">return</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;LGTM&quot;</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_contents"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_contents">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_contents</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ref</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get contents of a file in repo</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get contents of a file in repo</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          path: file path</span>
@@ -1003,7 +1003,7 @@
         <span class="k">return</span> <span class="n">content</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.delete_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.delete_branch">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">delete_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Delete a branch (ref)</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Delete a branch (ref)</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          ref: Name of reference/branch</span>
@@ -1013,7 +1013,7 @@
         <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">GIT_REFERENCE</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
 
     <span class="k">def</span> <span class="nf">_deparse_card_pr_number</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">card</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Extracts the card&#39;s issue&#39;s number from the content_url</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Extracts the card&#39;s issue&#39;s number from the content_url</span>
 
 <span class="sd">        This is a hack. The card data returned from github does not contain</span>
 <span class="sd">        content_id or anything referencing the PR/issue except for the</span>
@@ -1043,7 +1043,7 @@
         <span class="k">return</span> <span class="n">card</span>
 
 <div class="viewcode-block" id="GitHubHandler.list_project_cards"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.list_project_cards">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">list_project_cards</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">column_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;List cards in a project column</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List cards in a project column</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          column_id: ID number of project column</span>
@@ -1054,7 +1054,7 @@
         <span class="k">return</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_deparse_card_pr_number</span><span class="p">(</span><span class="n">card</span><span class="p">)</span> <span class="k">for</span> <span class="n">card</span> <span class="ow">in</span> <span class="n">res</span><span class="p">]</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_project_card"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_project_card">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_project_card</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">card_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Get a project card</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get a project card</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          card_id: ID number of project card</span>
@@ -1075,7 +1075,7 @@
                                   <span class="n">content_id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                   <span class="n">content_type</span><span class="p">:</span> <span class="n">CardContentType</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                   <span class="n">number</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Create a new project card</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a new project card</span>
 
 <span class="sd">        In addition to **column_id**, you must provide *either*:</span>
 
@@ -1133,7 +1133,7 @@
             <span class="k">return</span> <span class="p">{}</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.delete_project_card"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.delete_project_card">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">delete_project_card</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">card_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Deletes a project card</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Deletes a project card</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          card_id: ID of the card to delete</span>
@@ -1150,7 +1150,7 @@
             <span class="k">return</span> <span class="kc">False</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.delete_project_card_from_column"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.delete_project_card_from_column">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">delete_project_card_from_column</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">column_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Deletes a project card identified by PR/Issue number from column</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Deletes a project card identified by PR/Issue number from column</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          column_id: ID of project card column</span>
@@ -1165,7 +1165,7 @@
 
 
 <div class="viewcode-block" id="AiohttpGitHubHandler"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.AiohttpGitHubHandler">[docs]</a><span class="k">class</span> <span class="nc">AiohttpGitHubHandler</span><span class="p">(</span><span class="n">GitHubHandler</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;GitHubHandler using Aiohttp for HTTP requests</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;GitHubHandler using Aiohttp for HTTP requests</span>
 
 <span class="sd">    Arguments:</span>
 <span class="sd">      session: Aiohttp Client Session object</span>
@@ -1181,9 +1181,9 @@
 
 
 <div class="viewcode-block" id="Event"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.Event">[docs]</a><span class="k">class</span> <span class="nc">Event</span><span class="p">(</span><span class="n">gidgethub</span><span class="o">.</span><span class="n">sansio</span><span class="o">.</span><span class="n">Event</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Adds **get(path)** method to Github Webhook event&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adds **get(path)** method to Github Webhook event&quot;&quot;&quot;</span>
 <div class="viewcode-block" id="Event.get"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.Event.get">[docs]</a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">altvalue</span><span class="o">=</span><span class="ne">KeyError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get subkeys from even data using slash separated path&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get subkeys from even data using slash separated path&quot;&quot;&quot;</span>
         <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">):</span>
@@ -1197,7 +1197,7 @@
 
 
 <div class="viewcode-block" id="GitHubAppHandler"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler">[docs]</a><span class="k">class</span> <span class="nc">GitHubAppHandler</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Handles interaction with Github as App</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Handles interaction with Github as App</span>
 
 <span class="sd">    Arguments:</span>
 <span class="sd">      session: Use this session to make calls to the Github API</span>
@@ -1258,7 +1258,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">_user_handlers</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">GitHubHandler</span><span class="p">]]</span> <span class="o">=</span> <span class="p">{}</span>
 
 <div class="viewcode-block" id="GitHubAppHandler.get_app_jwt"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.get_app_jwt">[docs]</a>    <span class="k">def</span> <span class="nf">get_app_jwt</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Returns JWT authenticating as this app&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns JWT authenticating as this app&quot;&quot;&quot;</span>
         <span class="n">now</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">())</span>
         <span class="n">expires</span><span class="p">,</span> <span class="n">token</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_jwt</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">expires</span> <span class="ow">or</span> <span class="n">expires</span> <span class="o">&lt;</span> <span class="n">now</span> <span class="o">+</span> <span class="mi">60</span><span class="p">:</span>
@@ -1280,13 +1280,13 @@
 
 <div class="viewcode-block" id="GitHubAppHandler.parse_isotime"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.parse_isotime">[docs]</a>    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">parse_isotime</span><span class="p">(</span><span class="n">timestr</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Converts UTC ISO 8601 time stamp to seconds in epoch&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Converts UTC ISO 8601 time stamp to seconds in epoch&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">timestr</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;Z&#39;</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Time String &#39;%s&#39; not in UTC&quot;</span><span class="p">)</span>
         <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">mktime</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">timestr</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="s2">&quot;%Y-%m-</span><span class="si">%d</span><span class="s2">T%H:%M:%S&quot;</span><span class="p">)))</span></div>
 
 <div class="viewcode-block" id="GitHubAppHandler.get_installation_token"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.get_installation_token">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_installation_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">installation</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Returns OAUTH token for installation referenced in **event**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns OAUTH token for installation referenced in **event**&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">name</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">name</span> <span class="o">=</span> <span class="n">installation</span>
         <span class="n">now</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">())</span>
@@ -1317,7 +1317,7 @@
         <span class="k">return</span> <span class="n">token</span></div>
 
 <div class="viewcode-block" id="GitHubAppHandler.get_installation_id"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.get_installation_id">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_installation_id</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="n">repo</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Retrieve installation ID given user and repo&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Retrieve installation ID given user and repo&quot;&quot;&quot;</span>
         <span class="n">api</span> <span class="o">=</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">aiohttp</span><span class="o">.</span><span class="n">GitHubAPI</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">cache</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_cache</span><span class="p">)</span>
         <span class="n">res</span> <span class="o">=</span> <span class="k">await</span> <span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">INSTALLATION</span><span class="p">,</span>
                                 <span class="p">{</span><span class="s1">&#39;owner&#39;</span><span class="p">:</span> <span class="n">user</span><span class="p">,</span> <span class="s1">&#39;repo&#39;</span><span class="p">:</span> <span class="n">repo</span><span class="p">},</span>
@@ -1327,7 +1327,7 @@
 
 <div class="viewcode-block" id="GitHubAppHandler.get_github_api"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.get_github_api">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_github_api</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">,</span> <span class="n">to_user</span><span class="p">,</span> <span class="n">to_repo</span><span class="p">,</span>
                              <span class="n">installation</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">GitHubHandler</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Returns the GitHubHandler for the installation the event came from&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns the GitHubHandler for the installation the event came from&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">installation</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">installation</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_installation_id</span><span class="p">(</span><span class="n">to_user</span><span class="p">,</span> <span class="n">to_repo</span><span class="p">)</span>
 
@@ -1347,7 +1347,7 @@
         <span class="k">return</span> <span class="n">api</span></div>
 
 <div class="viewcode-block" id="GitHubAppHandler.get_github_user_api"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.get_github_user_api">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_github_user_api</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">GitHubHandler</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Returns the GitHubHandler for a user given a token&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns the GitHubHandler for a user given a token&quot;&quot;&quot;</span>
         <span class="n">now</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">())</span>
         <span class="k">if</span> <span class="n">token</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_user_handlers</span><span class="p">:</span>
             <span class="n">api</span> <span class="o">=</span> <span class="n">AiohttpGitHubHandler</span><span class="p">(</span><span class="n">token</span><span class="o">=</span><span class="n">token</span><span class="p">)</span>
@@ -1374,7 +1374,7 @@
 
 <div class="viewcode-block" id="GitHubAppHandler.generate_nonce"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.generate_nonce">[docs]</a>    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">generate_nonce</span><span class="p">(</span><span class="n">nbytes</span><span class="o">=</span><span class="mi">16</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Generates a random string</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Generates a random string</span>
 
 <span class="sd">        Fetches **nbytes** of random data from `os.urandom` and passes them through</span>
 <span class="sd">        base64 encoding.</span>
@@ -1382,7 +1382,7 @@
         <span class="k">return</span> <span class="n">base64</span><span class="o">.</span><span class="n">b64encode</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">urandom</span><span class="p">(</span><span class="n">nbytes</span><span class="p">),</span> <span class="n">altchars</span><span class="o">=</span><span class="sa">b</span><span class="s1">&#39;_-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span></div>
 
 <div class="viewcode-block" id="GitHubAppHandler.oauth_github_user"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.oauth_github_user">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">oauth_github_user</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">redirect</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">params</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Acquires `AiohttpGitHubHandler` for user via OAuth</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Acquires `AiohttpGitHubHandler` for user via OAuth</span>
 
 <span class="sd">        This must be called from an ``aiohttp.web`` server with the</span>
 <span class="sd">        ``aiohttp-session`` active for session management.</span>

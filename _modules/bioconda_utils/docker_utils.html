@@ -258,7 +258,7 @@
 
 
 <div class="viewcode-block" id="get_host_conda_bld"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.get_host_conda_bld">[docs]</a><span class="k">def</span> <span class="nf">get_host_conda_bld</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Identifies the conda-bld directory on the host.</span>
 
 <span class="sd">    Assumes that conda-build is installed.</span>
@@ -285,7 +285,7 @@
         <span class="n">image_build_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
         <span class="n">docker_base_image</span><span class="o">=</span><span class="s1">&#39;quay.io/bioconda/bioconda-utils-build-env-cos7:</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">__version__</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="s1">&#39;_&#39;</span><span class="p">))</span>
     <span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Class to handle building a custom docker container that can be used for</span>
 <span class="sd">        building conda recipes.</span>
 
@@ -433,7 +433,7 @@
         <span class="k">return</span> <span class="n">res</span>
 
     <span class="k">def</span> <span class="nf">_build_image</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Builds a new image with requirements installed.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
 
@@ -514,7 +514,7 @@
         <span class="k">return</span> <span class="n">p</span>
 
     <span class="k">def</span> <span class="nf">build_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">build_args</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">noarch</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Build a single recipe.</span>
 
 <span class="sd">        Parameters</span>

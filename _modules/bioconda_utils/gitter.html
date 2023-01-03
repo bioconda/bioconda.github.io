@@ -126,10 +126,10 @@
 
 
 <div class="viewcode-block" id="User"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User">[docs]</a><span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">NamedTuple</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Gitter User&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Gitter User&quot;&quot;&quot;</span>
 <div class="viewcode-block" id="User.from_dict"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.from_dict">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_dict</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Create `User` from `dict`&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create `User` from `dict`&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
 
     <span class="c1">#: User ID</span>
@@ -155,10 +155,10 @@
 
 
 <div class="viewcode-block" id="Mention"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention">[docs]</a><span class="k">class</span> <span class="nc">Mention</span><span class="p">(</span><span class="n">NamedTuple</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Gitter User Mention&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Gitter User Mention&quot;&quot;&quot;</span>
 <div class="viewcode-block" id="Mention.from_dict"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.from_dict">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_dict</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Create `User` from `dict`&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create `User` from `dict`&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
 
     <span class="c1">#: User Name</span>
@@ -170,10 +170,10 @@
 
 
 <div class="viewcode-block" id="Message"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message">[docs]</a><span class="k">class</span> <span class="nc">Message</span><span class="p">(</span><span class="n">NamedTuple</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Gitter Chat Message&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Gitter Chat Message&quot;&quot;&quot;</span>
 <div class="viewcode-block" id="Message.from_dict"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.from_dict">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_dict</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Create `Message` from `dict`&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create `Message` from `dict`&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="s1">&#39;mentions&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
             <span class="n">data</span><span class="p">[</span><span class="s1">&#39;mentions&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">Mention</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">user</span><span class="p">)</span> <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;mentions&#39;</span><span class="p">]]</span>
         <span class="k">if</span> <span class="s1">&#39;fromUser&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
@@ -212,10 +212,10 @@
 
 
 <div class="viewcode-block" id="Room"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room">[docs]</a><span class="k">class</span> <span class="nc">Room</span><span class="p">(</span><span class="n">NamedTuple</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Gitter Chat Room&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Gitter Chat Room&quot;&quot;&quot;</span>
 <div class="viewcode-block" id="Room.from_dict"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.from_dict">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_dict</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Create `Room` from `dict`&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create `Room` from `dict`&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="s1">&#39;user&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
             <span class="n">data</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">])</span>
         <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
@@ -270,7 +270,7 @@
 
 
 <div class="viewcode-block" id="GitterAPI"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI">[docs]</a><span class="k">class</span> <span class="nc">GitterAPI</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Sans-IO Base Class for Gitter API</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Sans-IO Base Class for Gitter API</span>
 
 <span class="sd">    .. rubric:: Methods</span>
 
@@ -321,7 +321,7 @@
     <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">headers</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
                        <span class="n">body</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="nb">bytes</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Execute HTTP request (implemented by IO providing subclass)</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute HTTP request (implemented by IO providing subclass)</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          method: one of ``GET``, ``POST``, ``PATCH``, etc</span>
@@ -337,7 +337,7 @@
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_stream_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                               <span class="n">headers</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
                               <span class="n">body</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AsyncIterator</span><span class="p">[</span><span class="nb">bytes</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Execute streaming HTTP request (implement by IO providing subclass)</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute streaming HTTP request (implement by IO providing subclass)</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          method: one of ``GET``, ``POST``, ``PATCH``, etc</span>
@@ -353,7 +353,7 @@
                          <span class="n">data</span><span class="p">:</span> <span class="n">Any</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                          <span class="n">charset</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;utf-8&#39;</span><span class="p">,</span>
                          <span class="n">accept</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;application/json&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="nb">bytes</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Prepare url, headers and json body for request&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Prepare url, headers and json body for request&quot;&quot;&quot;</span>
         <span class="n">url</span> <span class="o">=</span> <span class="n">uritemplate</span><span class="o">.</span><span class="n">expand</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">var_dict</span><span class="o">=</span><span class="n">var_dict</span><span class="p">)</span>
         <span class="n">headers</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="n">headers</span><span class="p">[</span><span class="s1">&#39;accept&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">accept</span>
@@ -371,7 +371,7 @@
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_make_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">var_dict</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
                             <span class="n">data</span><span class="p">:</span> <span class="n">Any</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                             <span class="n">accept</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;application/json&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Make HTTP request&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Make HTTP request&quot;&quot;&quot;</span>
         <span class="n">charset</span> <span class="o">=</span> <span class="s1">&#39;utf-8&#39;</span>
         <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">_GITTER_API</span><span class="p">,</span> <span class="n">url</span><span class="p">))</span>
         <span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="p">,</span> <span class="n">body</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_prepare_request</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">var_dict</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">charset</span><span class="p">,</span> <span class="n">accept</span><span class="p">)</span>
@@ -398,7 +398,7 @@
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_make_stream_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">var_dict</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
                                    <span class="n">data</span><span class="p">:</span> <span class="n">Any</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                    <span class="n">accept</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;application/json&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AsyncIterator</span><span class="p">[</span><span class="n">Any</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Make streaming HTTP request&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Make streaming HTTP request&quot;&quot;&quot;</span>
         <span class="n">charset</span> <span class="o">=</span> <span class="s1">&#39;utf-8&#39;</span>
         <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">_GITTER_STREAM_API</span><span class="p">,</span> <span class="n">url</span><span class="p">))</span>
         <span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="p">,</span> <span class="n">body</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_prepare_request</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">var_dict</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">charset</span><span class="p">,</span> <span class="n">accept</span><span class="p">)</span>
@@ -412,7 +412,7 @@
                 <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to decode json in line </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">line_str</span><span class="p">)</span>
 
 <div class="viewcode-block" id="GitterAPI.list_rooms"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.list_rooms">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">list_rooms</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Room</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Get list of current user&#39;s rooms</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get list of current user&#39;s rooms</span>
 
 <span class="sd">        The list is filtered to match provided arguments.</span>
 
@@ -428,17 +428,17 @@
         <span class="k">return</span> <span class="n">rooms</span></div>
 
 <div class="viewcode-block" id="GitterAPI.get_room"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.get_room">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_room</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uri</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Room</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get a room using its URI&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get a room using its URI&quot;&quot;&quot;</span>
         <span class="n">_</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;POST&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ROOMS</span><span class="p">,</span> <span class="p">{},</span> <span class="p">{</span><span class="s1">&#39;uri&#39;</span><span class="p">:</span> <span class="n">uri</span><span class="p">})</span>
         <span class="k">return</span> <span class="n">Room</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitterAPI.join_room"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.join_room">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">join_room</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="n">User</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Add **user** to a **room**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Add **user** to a **room**&quot;&quot;&quot;</span>
         <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;POST&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_USER_ROOMS</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;userId&#39;</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">id</span><span class="p">},</span>
                                  <span class="p">{</span><span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="n">room</span><span class="o">.</span><span class="n">id</span><span class="p">})</span></div>
 
 <div class="viewcode-block" id="GitterAPI.leave_room"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.leave_room">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">leave_room</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="n">User</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Remove **user** from **room**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Remove **user** from **room**&quot;&quot;&quot;</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;DELETE&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ROOM_USERS</span><span class="p">,</span>
                                      <span class="p">{</span><span class="s1">&#39;roomId&#39;</span><span class="p">:</span> <span class="n">room</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="s1">&#39;userId&#39;</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">id</span><span class="p">})</span>
@@ -449,7 +449,7 @@
 
 <div class="viewcode-block" id="GitterAPI.edit_room"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.edit_room">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">edit_room</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">,</span> <span class="n">topic</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">tags</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                         <span class="n">noindex</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Set **topic**, **tags** or **noindex** for **room**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Set **topic**, **tags** or **noindex** for **room**&quot;&quot;&quot;</span>
         <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="k">if</span> <span class="n">topic</span><span class="p">:</span>
             <span class="n">data</span><span class="p">[</span><span class="s1">&#39;topic&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">topic</span>
@@ -460,7 +460,7 @@
         <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;PUT&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ROOMS</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;roomId&#39;</span><span class="p">:</span> <span class="n">room</span><span class="o">.</span><span class="n">id</span><span class="p">},</span> <span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitterAPI.list_unread_items"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.list_unread_items">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">list_unread_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="n">User</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;Get Ids for unread items of **user** in **room**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get Ids for unread items of **user** in **room**</span>
 
 <span class="sd">        Returns:</span>
 <span class="sd">          Two lists of chat IDs are returned. The first are all unread mentions, the second only</span>
@@ -471,43 +471,43 @@
         <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;chat&#39;</span><span class="p">,</span> <span class="p">[]),</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;mention&#39;</span><span class="p">,</span> <span class="p">[])</span></div>
 
 <div class="viewcode-block" id="GitterAPI.mark_as_read"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.mark_as_read">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">mark_as_read</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="n">User</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">,</span> <span class="n">ids</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Mark chat messages listed in **ids** as read&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Mark chat messages listed in **ids** as read&quot;&quot;&quot;</span>
         <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;POST&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_UNREAD</span><span class="p">,</span>
                                  <span class="p">{</span><span class="s1">&#39;userId&#39;</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="s1">&#39;roomId&#39;</span><span class="p">:</span> <span class="n">room</span><span class="o">.</span><span class="n">id</span><span class="p">},</span>
                                  <span class="p">{</span><span class="s1">&#39;chat&#39;</span><span class="p">:</span> <span class="n">ids</span><span class="p">})</span></div>
 
 <div class="viewcode-block" id="GitterAPI.get_message"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.get_message">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">,</span> <span class="n">msgid</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Message</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get a single message by its **id**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get a single message by its **id**&quot;&quot;&quot;</span>
         <span class="n">_</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;GET&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_MESSAGES</span><span class="p">,</span>
                                            <span class="p">{</span><span class="s1">&#39;roomId&#39;</span><span class="p">:</span> <span class="n">room</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="s1">&#39;messageId&#39;</span><span class="p">:</span> <span class="n">msgid</span><span class="p">})</span>
         <span class="k">return</span> <span class="n">Message</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitterAPI.send_message"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.send_message">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">send_message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Message</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Send a new message&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Send a new message&quot;&quot;&quot;</span>
         <span class="n">_</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;POST&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_MESSAGES</span><span class="p">,</span>
                                            <span class="p">{</span><span class="s1">&#39;roomId&#39;</span><span class="p">:</span> <span class="n">room</span><span class="o">.</span><span class="n">id</span><span class="p">},</span>
                                            <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="n">text</span> <span class="o">%</span> <span class="n">args</span><span class="p">})</span>
         <span class="k">return</span> <span class="n">Message</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitterAPI.edit_message"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.edit_message">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">edit_message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="n">Message</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Message</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Edit a message&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Edit a message&quot;&quot;&quot;</span>
         <span class="n">_</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;PUT&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_MESSAGES</span><span class="p">,</span>
                                            <span class="p">{</span><span class="s1">&#39;roomId&#39;</span><span class="p">:</span> <span class="n">room</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="s1">&#39;messageId&#39;</span><span class="p">:</span> <span class="n">message</span><span class="o">.</span><span class="n">id</span><span class="p">},</span>
                                            <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="n">text</span><span class="p">})</span>
         <span class="k">return</span> <span class="n">Message</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitterAPI.list_groups"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.list_groups">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">list_groups</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Get list of current user&#39;s groups&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get list of current user&#39;s groups&quot;&quot;&quot;</span>
         <span class="n">_</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;GET&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_LIST_GROUPS</span><span class="p">,</span> <span class="p">{})</span>
         <span class="k">return</span> <span class="n">data</span></div>
 
 <div class="viewcode-block" id="GitterAPI.get_user"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.get_user">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_user</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">User</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get current user&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get current user&quot;&quot;&quot;</span>
         <span class="n">_</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;GET&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_GET_USER</span><span class="p">,</span> <span class="p">{})</span>
         <span class="k">return</span> <span class="n">User</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitterAPI.iter_chat"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.iter_chat">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">iter_chat</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">Room</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AsyncIterator</span><span class="p">[</span><span class="n">Message</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Listen to chat messages</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Listen to chat messages</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          room: Room to listen in. Use `list_rooms` to find `Room`.</span>
@@ -521,7 +521,7 @@
 
 
 <div class="viewcode-block" id="AioGitterAPI"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.AioGitterAPI">[docs]</a><span class="k">class</span> <span class="nc">AioGitterAPI</span><span class="p">(</span><span class="n">GitterAPI</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;AioHTTP based implementation of GitterAPI&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;AioHTTP based implementation of GitterAPI&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">session</span><span class="p">:</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientSession</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_session</span> <span class="o">=</span> <span class="n">session</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>

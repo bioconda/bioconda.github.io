@@ -140,10 +140,10 @@
 <span class="n">ITEM</span> <span class="o">=</span> <span class="n">TypeVar</span><span class="p">(</span><span class="s1">&#39;ITEM&#39;</span><span class="p">)</span>
 
 <div class="viewcode-block" id="EndProcessing"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessing">[docs]</a><span class="k">class</span> <span class="nc">EndProcessing</span><span class="p">(</span><span class="ne">BaseException</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised by `AsyncFilter` to tell `AsyncPipeline` to stop processing&quot;&quot;&quot;</span></div>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised by `AsyncFilter` to tell `AsyncPipeline` to stop processing&quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="EndProcessingItem"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem">[docs]</a><span class="k">class</span> <span class="nc">EndProcessingItem</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised to indicate that an item should not be processed further&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised to indicate that an item should not be processed further&quot;&quot;&quot;</span>
     <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;item&#39;</span><span class="p">,</span> <span class="s1">&#39;args&#39;</span><span class="p">]</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;broken: </span><span class="si">%s</span><span class="s2">&quot;</span>
     <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">INFO</span>
@@ -154,7 +154,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">args</span> <span class="o">=</span> <span class="n">args</span>
 
 <div class="viewcode-block" id="EndProcessingItem.log"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem.log">[docs]</a>    <span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uselogger</span><span class="o">=</span><span class="n">logger</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Print message using provided logging func&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Print message using provided logging func&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">level</span><span class="p">:</span>
             <span class="n">level</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">level</span>
         <span class="n">uselogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">level</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">item</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">template</span><span class="p">,</span> <span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">args</span><span class="p">)</span></div>
@@ -164,28 +164,28 @@
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Name of class&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Name of class&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span></div>
 
 
 <div class="viewcode-block" id="AsyncFilter"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncFilter">[docs]</a><span class="k">class</span> <span class="nc">AsyncFilter</span><span class="p">(</span><span class="n">abc</span><span class="o">.</span><span class="n">ABC</span><span class="p">,</span> <span class="n">Generic</span><span class="p">[</span><span class="n">ITEM</span><span class="p">]):</span>
-    <span class="sd">&quot;&quot;&quot;Function object type called by Scanner&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Function object type called by Scanner&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pipeline</span><span class="p">:</span> <span class="s2">&quot;AsyncPipeline&quot;</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">,</span> <span class="o">**</span><span class="n">_kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span> <span class="o">=</span> <span class="n">pipeline</span>
 
 <div class="viewcode-block" id="AsyncFilter.apply"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncFilter.apply">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">ITEM</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Process a recipe. Returns False if processing should stop&quot;&quot;&quot;</span></div>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Process a recipe. Returns False if processing should stop&quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="AsyncFilter.async_init"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncFilter.async_init">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_init</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Called inside loop before processing&quot;&quot;&quot;</span></div>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Called inside loop before processing&quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="AsyncFilter.finalize"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncFilter.finalize">[docs]</a>    <span class="k">def</span> <span class="nf">finalize</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Called at the end of a run&quot;&quot;&quot;</span></div></div>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Called at the end of a run&quot;&quot;&quot;</span></div></div>
 
 
 <div class="viewcode-block" id="AsyncPipeline"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline">[docs]</a><span class="k">class</span> <span class="nc">AsyncPipeline</span><span class="p">(</span><span class="n">Generic</span><span class="p">[</span><span class="n">ITEM</span><span class="p">]):</span>
-    <span class="sd">&quot;&quot;&quot;Processes items in an asyncio pipeline&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Processes items in an asyncio pipeline&quot;&quot;&quot;</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">threads</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">try</span><span class="p">:</span>  <span class="c1"># get or create loop (threads don&#39;t have one)</span>
@@ -209,7 +209,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">_shutting_down</span> <span class="o">=</span> <span class="kc">False</span>
 
 <div class="viewcode-block" id="AsyncPipeline.add"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.add">[docs]</a>    <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filt</span><span class="p">:</span> <span class="n">Type</span><span class="p">[</span><span class="n">AsyncFilter</span><span class="p">[</span><span class="n">ITEM</span><span class="p">]],</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Adds `Filter` to this `Scanner`&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Adds `Filter` to this `Scanner`&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">filters</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">filt</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">))</span></div>
 
     <span class="k">async</span> <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sig</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -224,7 +224,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
 
 <div class="viewcode-block" id="AsyncPipeline.run"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Enters the asyncio loop and manages shutdown.&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Enters the asyncio loop and manages shutdown.&quot;&quot;&quot;</span>
         <span class="c1"># We need to handle KeyboardInterrupt &quot;manually&quot; to get clean shutdown</span>
         <span class="c1"># for the ProcessPoolExecutor</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">add_signal_handler</span><span class="p">(</span><span class="n">signal</span><span class="o">.</span><span class="n">SIGINT</span><span class="p">,</span>
@@ -250,7 +250,7 @@
         <span class="k">return</span> <span class="mi">0</span>
 
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_async_run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Runner within async loop&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Runner within async loop&quot;&quot;&quot;</span>
         <span class="c1"># call init functions on filters</span>
         <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">gather</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">filt</span><span class="o">.</span><span class="n">async_init</span><span class="p">()</span> <span class="k">for</span> <span class="n">filt</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">filters</span><span class="p">))</span>
 
@@ -301,7 +301,7 @@
             <span class="k">return</span>
 
 <div class="viewcode-block" id="AsyncPipeline.process"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.process">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">item</span><span class="p">:</span> <span class="n">ITEM</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Applies the filters to an item&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Applies the filters to an item&quot;&quot;&quot;</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">filt</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">filters</span><span class="p">:</span>
                 <span class="k">await</span> <span class="n">filt</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
@@ -321,17 +321,17 @@
         <span class="k">return</span> <span class="kc">True</span></div>
 
 <div class="viewcode-block" id="AsyncPipeline.run_io"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.run_io">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">run_io</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Run **func** in thread pool executor using **args**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Run **func** in thread pool executor using **args**&quot;&quot;&quot;</span>
         <span class="k">async</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">io_sem</span><span class="p">:</span>
             <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">run_in_executor</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="AsyncPipeline.run_sp"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.run_sp">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">run_sp</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Run **func** in process pool executor using **args**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Run **func** in process pool executor using **args**&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">run_in_executor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">proc_pool_executor</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span></div></div>
 
 
 <div class="viewcode-block" id="AsyncRequests"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests">[docs]</a><span class="k">class</span> <span class="nc">AsyncRequests</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;Provides helpers for async access to URLs</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Provides helpers for async access to URLs</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="c1">#: Used as user agent in http requests and as requester in github API requests</span>
@@ -372,7 +372,7 @@
 <div class="viewcode-block" id="AsyncRequests.get_text_from_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests.get_text_from_url">[docs]</a>    <span class="nd">@backoff</span><span class="o">.</span><span class="n">on_exception</span><span class="p">(</span><span class="n">backoff</span><span class="o">.</span><span class="n">fibo</span><span class="p">,</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientResponseError</span><span class="p">,</span> <span class="n">max_tries</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
                           <span class="n">giveup</span><span class="o">=</span><span class="k">lambda</span> <span class="n">ex</span><span class="p">:</span> <span class="n">ex</span><span class="o">.</span><span class="n">code</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">429</span><span class="p">,</span> <span class="mi">502</span><span class="p">,</span> <span class="mi">503</span><span class="p">,</span> <span class="mi">504</span><span class="p">])</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">get_text_from_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Fetch content at **url** and return as text</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Fetch content at **url** and return as text</span>
 
 <span class="sd">        - On non-permanent errors (429, 502, 503, 504), the GET is retried 10 times with</span>
 <span class="sd">          increasing wait times according to fibonacci series.</span>
@@ -391,7 +391,7 @@
         <span class="k">return</span> <span class="n">res</span></div>
 
 <div class="viewcode-block" id="AsyncRequests.get_checksum_from_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_url">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_checksum_from_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">desc</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Compute sha256 checksum of content at **url**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Compute sha256 checksum of content at **url**</span>
 
 <span class="sd">        - Shows TQDM progress monitor with label **desc**.</span>
 <span class="sd">        - Caches result</span>
@@ -413,7 +413,7 @@
 <div class="viewcode-block" id="AsyncRequests.get_checksum_from_http"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_http">[docs]</a>    <span class="nd">@backoff</span><span class="o">.</span><span class="n">on_exception</span><span class="p">(</span><span class="n">backoff</span><span class="o">.</span><span class="n">fibo</span><span class="p">,</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientResponseError</span><span class="p">,</span> <span class="n">max_tries</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
                           <span class="n">giveup</span><span class="o">=</span><span class="k">lambda</span> <span class="n">ex</span><span class="p">:</span> <span class="n">ex</span><span class="o">.</span><span class="n">code</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">429</span><span class="p">,</span> <span class="mi">502</span><span class="p">,</span> <span class="mi">503</span><span class="p">,</span> <span class="mi">504</span><span class="p">])</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">get_checksum_from_http</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">desc</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Compute sha256 checksum of content at http **url**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Compute sha256 checksum of content at http **url**</span>
 
 <span class="sd">        Shows TQDM progress monitor with label **desc**.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
@@ -434,7 +434,7 @@
 <div class="viewcode-block" id="AsyncRequests.get_file_from_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests.get_file_from_url">[docs]</a>    <span class="nd">@backoff</span><span class="o">.</span><span class="n">on_exception</span><span class="p">(</span><span class="n">backoff</span><span class="o">.</span><span class="n">fibo</span><span class="p">,</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientResponseError</span><span class="p">,</span> <span class="n">max_tries</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
                           <span class="n">giveup</span><span class="o">=</span><span class="k">lambda</span> <span class="n">ex</span><span class="p">:</span> <span class="n">ex</span><span class="o">.</span><span class="n">code</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">429</span><span class="p">,</span> <span class="mi">502</span><span class="p">,</span> <span class="mi">503</span><span class="p">,</span> <span class="mi">504</span><span class="p">])</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">get_file_from_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">fname</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">desc</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Fetch file at **url** into **fname**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Fetch file at **url** into **fname**</span>
 
 <span class="sd">        Shows TQDM progress monitor with label **desc**.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
@@ -452,7 +452,7 @@
                         <span class="n">progress</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">block</span><span class="p">))</span></div>
 
 <div class="viewcode-block" id="AsyncRequests.get_ftp_listing"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests.get_ftp_listing">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_ftp_listing</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Returns list of files at FTP **url**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns list of files at FTP **url**&quot;&quot;&quot;</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;FTP: listing </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cache</span> <span class="ow">and</span> <span class="n">url</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">cache</span><span class="p">[</span><span class="s2">&quot;ftp_list&quot;</span><span class="p">]:</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">cache</span><span class="p">[</span><span class="s2">&quot;ftp_list&quot;</span><span class="p">][</span><span class="n">url</span><span class="p">]</span>
@@ -466,7 +466,7 @@
         <span class="k">return</span> <span class="n">res</span></div>
 
 <div class="viewcode-block" id="AsyncRequests.get_checksum_from_ftp"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_ftp">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_checksum_from_ftp</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">_desc</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Compute sha256 checksum of content at ftp **url**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Compute sha256 checksum of content at ftp **url**</span>
 
 <span class="sd">        Does not show progress monitor at this time (would need to</span>
 <span class="sd">        get file size first)</span>

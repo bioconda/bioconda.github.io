@@ -124,7 +124,7 @@
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
 <div class="viewcode-block" id="CircleAPI"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI">[docs]</a><span class="k">class</span> <span class="nc">CircleAPI</span><span class="p">(</span><span class="n">abc</span><span class="o">.</span><span class="n">ABC</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;CircleCI API</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;CircleCI API</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">CIRCLE_API</span> <span class="o">=</span> <span class="s2">&quot;https://circleci.com/api/v1.1&quot;</span>
 
@@ -145,7 +145,7 @@
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">var_data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Defaults for this API instance&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Defaults for this API instance&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="p">{</span>
             <span class="s1">&#39;vcs_type&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">vcs_type</span><span class="p">,</span>
             <span class="s1">&#39;username&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">username</span><span class="p">,</span>
@@ -157,12 +157,12 @@
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                        <span class="n">headers</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
                        <span class="n">body</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="nb">bytes</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;Execute HTTP request (overriden by IO providing subclass)&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Execute HTTP request (overriden by IO providing subclass)&quot;&quot;&quot;</span>
 
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_make_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">var_dict</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
                             <span class="n">data</span><span class="p">:</span> <span class="n">Any</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                             <span class="n">accept</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;application/json&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Make HTTP request&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Make HTTP request&quot;&quot;&quot;</span>
         <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">CIRCLE_API</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="s2">&quot;{?circle-token}&quot;</span><span class="p">))</span>
         <span class="n">url</span> <span class="o">=</span> <span class="n">uritemplate</span><span class="o">.</span><span class="n">expand</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">var_dict</span><span class="o">=</span><span class="n">var_dict</span><span class="p">)</span>
         <span class="n">headers</span> <span class="o">=</span> <span class="p">{}</span>
@@ -200,7 +200,7 @@
         <span class="k">return</span> <span class="n">response_text</span>
 
 <div class="viewcode-block" id="CircleAPI.list_artifacts"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI.list_artifacts">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">list_artifacts</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">build_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;Lists artifacts for build number</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Lists artifacts for build number</span>
 
 <span class="sd">        Returns:</span>
 <span class="sd">          List of artifacts described by ``path`` and ``url``</span>
@@ -211,7 +211,7 @@
 
 <div class="viewcode-block" id="CircleAPI.list_recent_builds"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI.list_recent_builds">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">list_recent_builds</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sha</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                                  <span class="n">skip_rebuilt</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;List recent builds for **path** (branch or pr)</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List recent builds for **path** (branch or pr)</span>
 
 <span class="sd">        Note: skip rebuild seems to only apply to jobs, not workflow reruns.</span>
 
@@ -248,7 +248,7 @@
         <span class="k">return</span> <span class="n">res</span></div>
 
 <div class="viewcode-block" id="CircleAPI.trigger_rebuild"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI.trigger_rebuild">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">trigger_rebuild</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Trigger rebuilding **sha** on **branch**.</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Trigger rebuilding **sha** on **branch**.</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          branch: Must be ``pull/123`` if on fork, otherwise name of branch</span>
@@ -261,7 +261,7 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="s1">&#39;POST&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">TRIGGER_REBUILD</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">var_data</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="CircleAPI.trigger_job"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI.trigger_job">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">trigger_job</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="o">=</span><span class="s2">&quot;master&quot;</span><span class="p">,</span> <span class="n">project</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Trigger specific job</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Trigger specific job</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          branch: Must be ``pull/123`` if on fork, otherwise name of branch</span>
@@ -285,7 +285,7 @@
         <span class="k">return</span> <span class="n">res</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;build_url&#39;</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="CircleAPI.get_artifacts"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI.get_artifacts">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_artifacts</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;Get artifacts for specific branch and head_sha</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get artifacts for specific branch and head_sha</span>
 
 <span class="sd">        For each artifact built for this sha, get the latest URL. Multiple builds</span>
 <span class="sd">        may exist e.g. if a rebuild was triggered.</span>
@@ -308,7 +308,7 @@
 
 
 <div class="viewcode-block" id="SlackMessage"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.SlackMessage">[docs]</a><span class="k">class</span> <span class="nc">SlackMessage</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Parses a Slack message as sent by CircleCI&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Parses a Slack message as sent by CircleCI&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_headers</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="n">data</span><span class="p">:</span> <span class="nb">bytes</span><span class="p">):</span>
         <span class="n">response_text</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
         <span class="k">try</span><span class="p">:</span>
@@ -338,7 +338,7 @@
 
 
 <div class="viewcode-block" id="AsyncCircleAPI"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.AsyncCircleAPI">[docs]</a><span class="k">class</span> <span class="nc">AsyncCircleAPI</span><span class="p">(</span><span class="n">CircleAPI</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;CircleCI API using `aiohttp`&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;CircleCI API using `aiohttp`&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">session</span><span class="p">:</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientSession</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_session</span> <span class="o">=</span> <span class="n">session</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>

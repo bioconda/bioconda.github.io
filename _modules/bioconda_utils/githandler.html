@@ -127,7 +127,7 @@
 
 
 <div class="viewcode-block" id="install_gpg_key"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.install_gpg_key">[docs]</a><span class="k">def</span> <span class="nf">install_gpg_key</span><span class="p">(</span><span class="n">key</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Install GPG key</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Install GPG key</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      key: Key to import to GPG as string</span>
@@ -158,11 +158,11 @@
 
 
 <div class="viewcode-block" id="GitHandlerFailure"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerFailure">[docs]</a><span class="k">class</span> <span class="nc">GitHandlerFailure</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Something went wrong interacting with git&quot;&quot;&quot;</span></div>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Something went wrong interacting with git&quot;&quot;&quot;</span></div>
 
 
 <div class="viewcode-block" id="GitHandlerBase"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase">[docs]</a><span class="k">class</span> <span class="nc">GitHandlerBase</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;GitPython abstraction</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;GitPython abstraction</span>
 
 <span class="sd">    We have to work with three git repositories, the local checkout,</span>
 <span class="sd">    the project primary repository and a working repository. The</span>
@@ -205,7 +205,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">actor</span><span class="p">:</span> <span class="n">git</span><span class="o">.</span><span class="n">Actor</span> <span class="o">=</span> <span class="kc">None</span>
 
 <div class="viewcode-block" id="GitHandlerBase.close"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.close">[docs]</a>    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Release resources allocated&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Release resources allocated&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
 
     <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -218,7 +218,7 @@
         <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2">(</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">)&quot;</span>
 
 <div class="viewcode-block" id="GitHandlerBase.enable_signing"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.enable_signing">[docs]</a>    <span class="k">def</span> <span class="nf">enable_signing</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Enable signing of commits</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Enable signing of commits</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          key: Keyid to use for signing. Set to ``True`` to enable</span>
@@ -228,7 +228,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">_sign</span> <span class="o">=</span> <span class="n">key</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.get_remote"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote">[docs]</a>    <span class="k">def</span> <span class="nf">get_remote</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">desc</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Finds first remote containing **desc** in one of its URLs&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Finds first remote containing **desc** in one of its URLs&quot;&quot;&quot;</span>
         <span class="c1"># try if desc is the name</span>
         <span class="k">if</span> <span class="n">desc</span> <span class="ow">in</span> <span class="p">[</span><span class="n">r</span><span class="o">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">remotes</span><span class="p">]:</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">remotes</span><span class="p">[</span><span class="n">desc</span><span class="p">]</span>
@@ -255,7 +255,7 @@
         <span class="k">return</span> <span class="n">remotes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.branch_is_current"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.branch_is_current">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">branch_is_current</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">master</span><span class="o">=</span><span class="s2">&quot;master&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Checks if **branch** has the most recent commit modifying **path**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Checks if **branch** has the most recent commit modifying **path**</span>
 <span class="sd">        as compared to **master**&quot;&quot;&quot;</span>
         <span class="n">proc</span> <span class="o">=</span> <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">create_subprocess_exec</span><span class="p">(</span>
             <span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;log&#39;</span><span class="p">,</span> <span class="s1">&#39;-1&#39;</span><span class="p">,</span> <span class="s1">&#39;--oneline&#39;</span><span class="p">,</span> <span class="s1">&#39;--decorate&#39;</span><span class="p">,</span>
@@ -265,11 +265,11 @@
         <span class="k">return</span> <span class="n">branch</span><span class="o">.</span><span class="n">name</span> <span class="ow">in</span> <span class="n">stdout</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;ascii&#39;</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.delete_local_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.delete_local_branch">[docs]</a>    <span class="k">def</span> <span class="nf">delete_local_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Deletes **branch** locally&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Deletes **branch** locally&quot;&quot;&quot;</span>
         <span class="n">git</span><span class="o">.</span><span class="n">Reference</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">,</span> <span class="n">branch</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.delete_remote_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.delete_remote_branch">[docs]</a>    <span class="k">def</span> <span class="nf">delete_remote_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Deletes **branch** on fork remote&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Deletes **branch** on fork remote&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Deleting branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="s2">&quot;:&quot;</span> <span class="o">+</span> <span class="n">branch_name</span><span class="p">)</span>
@@ -277,7 +277,7 @@
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Would delete branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.get_local_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_local_branch">[docs]</a>    <span class="k">def</span> <span class="nf">get_local_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Finds local branch named **branch_name**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Finds local branch named **branch_name**&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">branch_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">branches</span><span class="p">:</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">branches</span><span class="p">[</span><span class="n">branch_name</span><span class="p">]</span>
         <span class="k">try</span><span class="p">:</span>
@@ -288,7 +288,7 @@
 
 <div class="viewcode-block" id="GitHandlerBase.is_sha"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.is_sha">[docs]</a>    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">is_sha</span><span class="p">(</span><span class="n">ref</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Checks if **ref** is a commit checksum</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Checks if **ref** is a commit checksum</span>
 
 <span class="sd">        Verifies that **ref** is a hex value of length 40</span>
 <span class="sd">        &quot;&quot;&quot;</span>
@@ -301,7 +301,7 @@
         <span class="k">return</span> <span class="kc">False</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.get_remote_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote_branch">[docs]</a>    <span class="k">def</span> <span class="nf">get_remote_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">try_fetch</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Finds fork remote branch named **branch_name**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Finds fork remote branch named **branch_name**&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">branch_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">refs</span><span class="p">:</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">refs</span><span class="p">[</span><span class="n">branch_name</span><span class="p">]</span>
 
@@ -332,7 +332,7 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">home_remote</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="s1">&#39;master&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">commit</span>
 
 <div class="viewcode-block" id="GitHandlerBase.read_from_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.read_from_branch">[docs]</a>    <span class="k">def</span> <span class="nf">read_from_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">,</span> <span class="n">file_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Reads contents of file **file_name** from git branch **branch**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Reads contents of file **file_name** from git branch **branch**&quot;&quot;&quot;</span>
         <span class="n">abs_file_name</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">file_name</span><span class="p">)</span>
         <span class="n">abs_repo_root</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">working_dir</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">abs_file_name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">abs_repo_root</span><span class="p">):</span>
@@ -350,7 +350,7 @@
         <span class="k">return</span> <span class="kc">None</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.create_local_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.create_local_branch">[docs]</a>    <span class="k">def</span> <span class="nf">create_local_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">remote_branch</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Creates local branch from remote **branch_name**&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Creates local branch from remote **branch_name**&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">remote_branch</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">remote_branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_remote_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">,</span> <span class="n">try_fetch</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
@@ -361,7 +361,7 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.get_merge_base"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_merge_base">[docs]</a>    <span class="k">def</span> <span class="nf">get_merge_base</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">other</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">try_fetch</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Determines the merge base for **other** and **ref**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Determines the merge base for **other** and **ref**</span>
 
 <span class="sd">        See git merge-base. Returns the commit at which **ref** split</span>
 <span class="sd">        from **other** and from which point on changes would be</span>
@@ -403,7 +403,7 @@
         <span class="k">return</span> <span class="n">merge_bases</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.list_changed_files"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.list_changed_files">[docs]</a>    <span class="k">def</span> <span class="nf">list_changed_files</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">other</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Lists files that would be added/modified by merge of **other** into **ref**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Lists files that would be added/modified by merge of **other** into **ref**</span>
 
 <span class="sd">        See also `get_merge_base()`.</span>
 
@@ -422,7 +422,7 @@
                 <span class="k">yield</span> <span class="n">diffobj</span><span class="o">.</span><span class="n">b_path</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.list_modified_files"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.list_modified_files">[docs]</a>    <span class="k">def</span> <span class="nf">list_modified_files</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Lists files modified in working directory&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Lists files modified in working directory&quot;&quot;&quot;</span>
         <span class="n">seen</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
         <span class="k">for</span> <span class="n">diffobj</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="kc">None</span><span class="p">):</span>
             <span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="p">(</span><span class="n">diffobj</span><span class="o">.</span><span class="n">a_path</span><span class="p">,</span> <span class="n">diffobj</span><span class="o">.</span><span class="n">b_path</span><span class="p">):</span>
@@ -431,7 +431,7 @@
                     <span class="k">yield</span> <span class="n">fname</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.prepare_branch"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.prepare_branch">[docs]</a>    <span class="k">def</span> <span class="nf">prepare_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Checks out **branch_name**, creating it from home remote master if needed&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Checks out **branch_name**, creating it from home remote master if needed&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">branch_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">heads</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Creating new branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
             <span class="n">from_commit</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_latest_master</span><span class="p">()</span>
@@ -442,7 +442,7 @@
 
 <div class="viewcode-block" id="GitHandlerBase.commit_and_push_changes"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.commit_and_push_changes">[docs]</a>    <span class="k">def</span> <span class="nf">commit_and_push_changes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">files</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                                 <span class="n">msg</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sign</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Create recipe commit and pushes to upstream remote</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create recipe commit and pushes to upstream remote</span>
 
 <span class="sd">        Returns:</span>
 <span class="sd">          Boolean indicating whether there were changes committed</span>
@@ -490,12 +490,12 @@
         <span class="k">return</span> <span class="kc">True</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.set_user"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.set_user">[docs]</a>    <span class="k">def</span> <span class="nf">set_user</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Set the user and email to use for committing&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Set the user and email to use for committing&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">actor</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">Actor</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">email</span><span class="p">)</span></div></div>
 
 
 <div class="viewcode-block" id="BiocondaRepoMixin"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin">[docs]</a><span class="k">class</span> <span class="nc">BiocondaRepoMixin</span><span class="p">(</span><span class="n">GitHandlerBase</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Githandler with logic specific to Bioconda Repo&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Githandler with logic specific to Bioconda Repo&quot;&quot;&quot;</span>
 
     <span class="c1">#: location of recipes folder within repo</span>
     <span class="n">recipes_folder</span> <span class="o">=</span> <span class="s2">&quot;recipes&quot;</span>
@@ -504,7 +504,7 @@
     <span class="n">config_file</span> <span class="o">=</span> <span class="s2">&quot;config.yml&quot;</span>
 
 <div class="viewcode-block" id="BiocondaRepoMixin.get_changed_recipes"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes">[docs]</a>    <span class="k">def</span> <span class="nf">get_changed_recipes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">other</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">files</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Returns list of modified recipes</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns list of modified recipes</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          ref: See `get_merge_base`. Defaults to HEAD</span>
@@ -528,7 +528,7 @@
         <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">changed</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="BiocondaRepoMixin.get_blacklisted"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.get_blacklisted">[docs]</a>    <span class="k">def</span> <span class="nf">get_blacklisted</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Get blacklisted recipes as of **ref**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get blacklisted recipes as of **ref**</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          ref: Name of branch or commit (HEAD~1 is allowed), defaults to</span>
@@ -556,7 +556,7 @@
         <span class="k">return</span> <span class="n">blacklisted</span></div>
 
 <div class="viewcode-block" id="BiocondaRepoMixin.get_unblacklisted"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.get_unblacklisted">[docs]</a>    <span class="k">def</span> <span class="nf">get_unblacklisted</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">other</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Get recipes unblacklisted by a merge of **ref** into **other**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get recipes unblacklisted by a merge of **ref** into **other**</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">          ref: Branch or commit or reference, defaults to current branch</span>
@@ -571,7 +571,7 @@
         <span class="k">return</span> <span class="n">orig_blacklist</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">cur_blacklist</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="BiocondaRepoMixin.get_recipes_to_build"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build">[docs]</a>    <span class="k">def</span> <span class="nf">get_recipes_to_build</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">other</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Returns `list` of recipes to build for merge of **ref** into **other**</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns `list` of recipes to build for merge of **ref** into **other**</span>
 
 <span class="sd">        This includes all recipes returned by `get_changed_recipes` and</span>
 <span class="sd">        all newly unblacklisted, extant recipes within `recipes_folder`</span>
@@ -588,7 +588,7 @@
 
 
 <div class="viewcode-block" id="GitHandler"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler">[docs]</a><span class="k">class</span> <span class="nc">GitHandler</span><span class="p">(</span><span class="n">GitHandlerBase</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;GitHandler for working with a pre-existing local checkout of bioconda-recipes</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;GitHandler for working with a pre-existing local checkout of bioconda-recipes</span>
 
 <span class="sd">    Restores the branch active when created upon calling `close()`.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -619,7 +619,7 @@
             <span class="k">pass</span>
 
 <div class="viewcode-block" id="GitHandler.checkout_master"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler.checkout_master">[docs]</a>    <span class="k">def</span> <span class="nf">checkout_master</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Check out master branch (original branch restored by `close()`)&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Check out master branch (original branch restored by `close()`)&quot;&quot;&quot;</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Checking out master&quot;</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="s2">&quot;master&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">checkout</span><span class="p">()</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Updating master to latest project master&quot;</span><span class="p">)</span>
@@ -629,7 +629,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="n">prune</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHandler.close"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler.close">[docs]</a>    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Release resources allocated&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Release resources allocated&quot;&quot;&quot;</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Switching back to </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prev_active_branch</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">prev_active_branch</span><span class="o">.</span><span class="n">checkout</span><span class="p">()</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div></div>
@@ -639,7 +639,7 @@
 
 
 <div class="viewcode-block" id="TempGitHandler"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.TempGitHandler">[docs]</a><span class="k">class</span> <span class="nc">TempGitHandler</span><span class="p">(</span><span class="n">GitHandlerBase</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;GitHandler for working with temporary working directories created on the fly</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;GitHandler for working with temporary working directories created on the fly</span>
 
 <span class="sd">    Throw-away copies of a git repo as provided by this class are useful when we</span>
 <span class="sd">    might be working in multiple threads and want to avoid blocking waits for</span>
@@ -651,7 +651,7 @@
 
 <div class="viewcode-block" id="TempGitHandler.set_mirror_dir"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.TempGitHandler.set_mirror_dir">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">set_mirror_dir</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">dirname</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Set directory where repo mirrors are kept for caching</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Set directory where repo mirrors are kept for caching</span>
 
 <span class="sd">        Use this if you want to preserve a cache across invocations</span>
 <span class="sd">        of the Python interpreter.</span>
@@ -663,7 +663,7 @@
 
     <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">_get_local_mirror</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">git</span><span class="o">.</span><span class="n">Repo</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get a (cached) local mirror of a remote repo</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get a (cached) local mirror of a remote repo</span>
 
 <span class="sd">        This is used to speed up getting full repo copies. The bioconda-recipes</span>
 <span class="sd">        repo has grown to be quite large, and copying it every time a checkout</span>
@@ -706,7 +706,7 @@
 
     <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">_clone_with_mirror</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">home_url</span><span class="p">,</span> <span class="n">todir</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Prepares a clone of **home_url** in **todir** using mirror cache&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Prepares a clone of **home_url** in **todir** using mirror cache&quot;&quot;&quot;</span>
         <span class="n">repo</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_get_local_mirror</span><span class="p">(</span><span class="n">home_url</span><span class="p">)</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="n">todir</span><span class="p">)</span>
         <span class="n">r_origin</span> <span class="o">=</span> <span class="n">repo</span><span class="o">.</span><span class="n">remote</span><span class="p">(</span><span class="s1">&#39;origin&#39;</span><span class="p">)</span>
         <span class="n">r_origin</span><span class="o">.</span><span class="n">set_url</span><span class="p">(</span><span class="n">home_url</span><span class="p">,</span> <span class="nb">next</span><span class="p">(</span><span class="n">r_origin</span><span class="o">.</span><span class="n">urls</span><span class="p">))</span>
@@ -760,7 +760,7 @@
 
 
 <div class="viewcode-block" id="TempGitHandler.close"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.TempGitHandler.close">[docs]</a>    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Remove temporary clone and cleanup resources&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Remove temporary clone and cleanup resources&quot;&quot;&quot;</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Removing repo from </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tempdir</span><span class="o">.</span><span class="n">cleanup</span><span class="p">()</span></div></div>

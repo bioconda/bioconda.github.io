@@ -147,7 +147,7 @@
 
 
 <div class="viewcode-block" id="enable_logging"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.enable_logging">[docs]</a><span class="k">def</span> <span class="nf">enable_logging</span><span class="p">(</span><span class="n">default_loglevel</span><span class="o">=</span><span class="s1">&#39;info&#39;</span><span class="p">,</span> <span class="n">default_file_loglevel</span><span class="o">=</span><span class="s1">&#39;debug&#39;</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Adds the parameter ``--loglevel`` and sets up logging</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adds the parameter ``--loglevel`` and sets up logging</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      default_loglevel: loglevel used when --loglevel is not passed</span>
@@ -170,7 +170,7 @@
 
 
 <div class="viewcode-block" id="enable_debugging"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.enable_debugging">[docs]</a><span class="k">def</span> <span class="nf">enable_debugging</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;Adds the paremeter ``--pdb`` (or ``-P``) to enable dropping into PDB&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adds the paremeter ``--pdb`` (or ``-P``) to enable dropping into PDB&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
         <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;-P&#39;</span><span class="p">,</span> <span class="s1">&#39;--pdb&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Drop into debugger on exception&quot;</span><span class="p">)</span>
         <span class="nd">@utils</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
@@ -189,7 +189,7 @@
 
 
 <div class="viewcode-block" id="enable_threads"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.enable_threads">[docs]</a><span class="k">def</span> <span class="nf">enable_threads</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;Adds the parameter ``--threads`` (or ``-t``) to limit parallelism&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adds the parameter ``--threads`` (or ``-t``) to limit parallelism&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
         <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="s1">&#39;--threads&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Limit maximum number of processes used.&quot;</span><span class="p">)</span>
         <span class="nd">@utils</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
@@ -201,7 +201,7 @@
 
 
 <div class="viewcode-block" id="recipe_folder_and_config"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.recipe_folder_and_config">[docs]</a><span class="k">def</span> <span class="nf">recipe_folder_and_config</span><span class="p">(</span><span class="n">allow_missing_for</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Adds optional positional arguments recipe_folder and config</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adds optional positional arguments recipe_folder and config</span>
 
 <span class="sd">    Requires that func has synopsis ``def x(recipe_folder, config,...)``.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -241,7 +241,7 @@
 
 
 <div class="viewcode-block" id="get_recipes_to_build"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.get_recipes_to_build">[docs]</a><span class="k">def</span> <span class="nf">get_recipes_to_build</span><span class="p">(</span><span class="n">git_range</span><span class="p">:</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
-    <span class="sd">&quot;&quot;&quot;Gets list of modified recipes according to git_range and blacklist</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Gets list of modified recipes according to git_range and blacklist</span>
 
 <span class="sd">    See `BiocondaRepoMixin.get_recipes_to_build()`.</span>
 
@@ -261,7 +261,7 @@
 
 
 <div class="viewcode-block" id="get_recipes"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.get_recipes">[docs]</a><span class="k">def</span> <span class="nf">get_recipes</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">git_range</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
-    <span class="sd">&quot;&quot;&quot;Gets list of paths to recipe folders to be built</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Gets list of paths to recipe folders to be built</span>
 
 <span class="sd">    Considers all recipes matching globs in packages, constrains to</span>
 <span class="sd">    recipes modified or unblacklisted in the git_range if given, then</span>
@@ -318,7 +318,7 @@
                <span class="n">remove</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                <span class="n">url</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                <span class="n">channel</span><span class="o">=</span><span class="s1">&#39;bioconda&#39;</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Detect packages in bioconda that have duplicates in the other defined</span>
 <span class="sd">    channels.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -435,7 +435,7 @@
             <span class="n">commit</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">push_comment</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">pull_request</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
             <span class="n">repo</span><span class="o">=</span><span class="s1">&#39;bioconda-recipes&#39;</span><span class="p">,</span> <span class="n">git_range</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">full_report</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
             <span class="n">try_fix</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Lint recipes</span>
 
 <span class="sd">    If --push-status is not set, reports a TSV of linting results to stdout.</span>
@@ -601,7 +601,7 @@
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Hide singletons in the printed graph.&#39;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">()</span>
 <span class="k">def</span> <span class="nf">dag</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;gml&#39;</span><span class="p">,</span> <span class="n">hide_singletons</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Export the DAG of packages to a graph format file for visualization</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">dag</span><span class="p">,</span> <span class="n">name2recipes</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="s2">&quot;*&quot;</span><span class="p">),</span> <span class="n">config</span><span class="p">)</span>
@@ -664,7 +664,7 @@
                    <span class="n">max_bumps</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                    <span class="n">no_leaves</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                    <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Bump a package build number and all dependencies as required due</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Bump a package build number and all dependencies as required due</span>
 <span class="sd">    to a change in pinnings</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
@@ -762,7 +762,7 @@
 <span class="nd">@enable_logging</span><span class="p">()</span>
 <span class="k">def</span> <span class="nf">dependent</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">restrict</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
               <span class="n">dependencies</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">reverse_dependencies</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Print recipes dependent on a package</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">dependencies</span> <span class="ow">and</span> <span class="n">reverse_dependencies</span><span class="p">:</span>
@@ -815,7 +815,7 @@
     <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">bioc_data_packages</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;conda-forge&#39;</span><span class="p">,</span> <span class="s1">&#39;bioconda&#39;</span><span class="p">]):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Build a Bioconductor recipe. The recipe will be created in the &#39;recipes&#39;</span>
 <span class="sd">    directory and will be prefixed by &quot;bioconductor-&quot;. If --recursive is set,</span>
 <span class="sd">    then any R dependency recipes will be prefixed by &quot;r-&quot;.</span>
@@ -869,7 +869,7 @@
 <span class="s2">     removed.&quot;&quot;&quot;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">()</span>
 <span class="k">def</span> <span class="nf">clean_cran_skeleton</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">no_windows</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Cleans skeletons created by ``conda skeleton cran``.</span>
 
 <span class="sd">    Before submitting to conda-forge or Bioconda, recipes generated with ``conda</span>
@@ -926,7 +926,7 @@
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Don&#39;t check for version updates to recipes&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--sign&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;?&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Enable signing. Optionally takes keyid.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--commit-as&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Set user and email to use for committing. &#39;&#39;&#39;</span>
-     <span class="sd">&#39;&#39;&#39;Takes exactly two arguments.&#39;&#39;&#39;</span><span class="p">)</span>
+<span class="w">     </span><span class="sd">&#39;&#39;&#39;Takes exactly two arguments.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">()</span>
 <span class="nd">@enable_debugging</span><span class="p">()</span>
 <span class="nd">@enable_threads</span><span class="p">()</span>
@@ -942,7 +942,7 @@
              <span class="n">no_check_version_update</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">no_check_pending_deps</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">sign</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">commit_as</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Updates recipes in recipe_folder</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># load and register config</span>
@@ -1063,7 +1063,7 @@
 
 <div class="viewcode-block" id="bot"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.bot">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--loglevel&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;info&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Log level&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">bot</span><span class="p">(</span><span class="n">loglevel</span><span class="o">=</span><span class="s1">&#39;info&#39;</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Locally accedd bioconda-bot command API</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Locally accedd bioconda-bot command API</span>
 
 <span class="sd">    To run the bot locally, use:</span>
 

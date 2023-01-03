@@ -176,7 +176,7 @@
 
 
 <div class="viewcode-block" id="DuplicateKey"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.DuplicateKey">[docs]</a><span class="k">class</span> <span class="nc">DuplicateKey</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised for recipes with duplicate keys in the meta.yaml. YAML</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised for recipes with duplicate keys in the meta.yaml. YAML</span>
 <span class="sd">    does not allow those, but the PyYAML parser silently overwrites</span>
 <span class="sd">    previous keys.</span>
 
@@ -187,41 +187,41 @@
 
 
 <div class="viewcode-block" id="MissingKey"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.MissingKey">[docs]</a><span class="k">class</span> <span class="nc">MissingKey</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised if a recipe is missing package/version or package/name&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised if a recipe is missing package/version or package/name&quot;&quot;&quot;</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has missing key&quot;</span></div>
 
 
 <div class="viewcode-block" id="EmptyRecipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.EmptyRecipe">[docs]</a><span class="k">class</span> <span class="nc">EmptyRecipe</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised if the recipe file is empty&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised if the recipe file is empty&quot;&quot;&quot;</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;is empty&quot;</span></div>
 
 
 <div class="viewcode-block" id="MissingBuild"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.MissingBuild">[docs]</a><span class="k">class</span> <span class="nc">MissingBuild</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised if the recipe is missing the build section&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised if the recipe is missing the build section&quot;&quot;&quot;</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;is missing build section&quot;</span></div>
 
 
 <div class="viewcode-block" id="HasSelector"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.HasSelector">[docs]</a><span class="k">class</span> <span class="nc">HasSelector</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised when recplacements fail due to ``# [cond]`` line selectors</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised when recplacements fail due to ``# [cond]`` line selectors</span>
 <span class="sd">    FIXME: This should no longer be an error</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has selector in line </span><span class="si">%i</span><span class="s2"> (replace failed)&quot;</span></div>
 
 
 <div class="viewcode-block" id="MissingMetaYaml"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.MissingMetaYaml">[docs]</a><span class="k">class</span> <span class="nc">MissingMetaYaml</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised when FileNotFoundError is encountered</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised when FileNotFoundError is encountered</span>
 
 <span class="sd">    self.item is NOT a Recipe but a str here</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;has missing file `meta.yaml`&quot;</span></div>
 
 <div class="viewcode-block" id="CondaRenderFailure"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.CondaRenderFailure">[docs]</a><span class="k">class</span> <span class="nc">CondaRenderFailure</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised when conda_build.api.render fails&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised when conda_build.api.render fails&quot;&quot;&quot;</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;could not be rendered by conda-build: </span><span class="si">%s</span><span class="s2">&quot;</span></div>
 
 
 <div class="viewcode-block" id="RenderFailure"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.RenderFailure">[docs]</a><span class="k">class</span> <span class="nc">RenderFailure</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Raised on Jinja rendering problems</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Raised on Jinja rendering problems</span>
 
 <span class="sd">    May have self.line</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -229,7 +229,7 @@
 
 
 <div class="viewcode-block" id="Recipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe">[docs]</a><span class="k">class</span> <span class="nc">Recipe</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;Represents a recipe (meta.yaml) in editable form</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Represents a recipe (meta.yaml) in editable form</span>
 
 <span class="sd">    Using conda-build to render recipe is slow and a one-way</span>
 <span class="sd">    process. We need to be able to load **and** save recipes, which is</span>
@@ -292,17 +292,17 @@
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">path</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Full path to ``meta.yaml``&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Full path to ``meta.yaml``&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">basedir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reldir</span><span class="p">,</span> <span class="s2">&quot;meta.yaml&quot;</span><span class="p">)</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">relpath</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Relative path to ``meta.yaml`` (from ``basedir``)&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Relative path to ``meta.yaml`` (from ``basedir``)&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">reldir</span><span class="p">,</span> <span class="s2">&quot;meta.yaml&quot;</span><span class="p">)</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">dir</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Path to recipe folder&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Path to recipe folder&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">basedir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reldir</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
@@ -312,7 +312,7 @@
         <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s1"> &quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">reldir</span><span class="si">}</span><span class="s1">&quot;&#39;</span>
 
 <div class="viewcode-block" id="Recipe.load_from_string"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.load_from_string">[docs]</a>    <span class="k">def</span> <span class="nf">load_from_string</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;Recipe&quot;</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Load and `render` recipe contents from disk&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Load and `render` recipe contents from disk&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">:</span>
             <span class="k">raise</span> <span class="n">EmptyRecipe</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
@@ -347,7 +347,7 @@
 
 <div class="viewcode-block" id="Recipe.from_file"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.from_file">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_file</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">recipe_fname</span><span class="p">,</span> <span class="n">return_exceptions</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;Recipe&quot;</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Create new `Recipe` object from file</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create new `Recipe` object from file</span>
 
 <span class="sd">        Args:</span>
 <span class="sd">           recipe_dir: Path to recipes folder</span>
@@ -388,14 +388,14 @@
             <span class="n">fdes</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span>
 
 <div class="viewcode-block" id="Recipe.set_original"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set_original">[docs]</a>    <span class="k">def</span> <span class="nf">set_original</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Store the current state of the recipe as &quot;original&quot; version&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Store the current state of the recipe as &quot;original&quot; version&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">orig</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></div>
 
     <span class="k">def</span> <span class="nf">is_modified</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">meta_yaml</span>
 
 <div class="viewcode-block" id="Recipe.dump"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.dump">[docs]</a>    <span class="k">def</span> <span class="nf">dump</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Dump recipe content&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Dump recipe content&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span></div>
 
     <span class="nd">@staticmethod</span>
@@ -446,7 +446,7 @@
         <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
 
 <div class="viewcode-block" id="Recipe.get_template"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_template">[docs]</a>    <span class="k">def</span> <span class="nf">get_template</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Create a Jinja2 template from the current raw recipe&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a Jinja2 template from the current raw recipe&quot;&quot;&quot;</span>
         <span class="c1"># This function exists because the template cannot be pickled.</span>
         <span class="c1"># Storing it means the recipe cannot be pickled, which in turn</span>
         <span class="c1"># means we cannot pass it to ProcessExecutors.</span>
@@ -460,7 +460,7 @@
             <span class="k">raise</span> <span class="n">RenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">exc</span><span class="o">.</span><span class="n">message</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="Recipe.get_simple_modules"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_simple_modules">[docs]</a>    <span class="k">def</span> <span class="nf">get_simple_modules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Yield simple replacement values from template</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Yield simple replacement values from template</span>
 
 <span class="sd">        E.g. those set with ``{% set version=&#39;1.2.3&#39; %}```</span>
 
@@ -477,7 +477,7 @@
         <span class="p">}</span></div>
 
 <div class="viewcode-block" id="Recipe.render"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.render">[docs]</a>    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Convert recipe text into data structure</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Convert recipe text into data structure</span>
 
 <span class="sd">        - create jinja template from recipe content</span>
 <span class="sd">        - render template</span>
@@ -509,24 +509,24 @@
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">maintainers</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;List of recipe maintainers&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List of recipe maintainers&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="s1">&#39;extra&#39;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span> <span class="ow">and</span> <span class="s1">&#39;recipe-maintainers&#39;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s1">&#39;extra&#39;</span><span class="p">]:</span>
             <span class="k">return</span> <span class="n">utils</span><span class="o">.</span><span class="n">ensure_list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s1">&#39;extra&#39;</span><span class="p">][</span><span class="s1">&#39;recipe-maintainers&#39;</span><span class="p">])</span>
         <span class="k">return</span> <span class="p">[]</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;The name of the toplevel package built by this recipe&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;The name of the toplevel package built by this recipe&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">version</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;The version of the package build by this recipe&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;The version of the package build by this recipe&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">][</span><span class="s2">&quot;version&quot;</span><span class="p">])</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">build_number</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;The current build number&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;The current build number&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;build&quot;</span><span class="p">][</span><span class="s2">&quot;number&quot;</span><span class="p">])</span>
 
     <span class="k">def</span> <span class="fm">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
@@ -554,7 +554,7 @@
         <span class="k">return</span> <span class="n">nodes</span><span class="p">,</span> <span class="n">keys</span>
 
 <div class="viewcode-block" id="Recipe.get_raw_range"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw_range">[docs]</a>    <span class="k">def</span> <span class="nf">get_raw_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Locate the position of a node in the YAML within the raw text</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Locate the position of a node in the YAML within the raw text</span>
 
 <span class="sd">        See also `get_raw()` if you want to get the content of the unparsed</span>
 <span class="sd">        meta.yaml at a specific key.</span>
@@ -601,7 +601,7 @@
         <span class="k">return</span> <span class="p">(</span><span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span><span class="p">,</span> <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="Recipe.get_raw"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw">[docs]</a>    <span class="k">def</span> <span class="nf">get_raw</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Extracts the unparsed text for a node in the meta.yaml</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Extracts the unparsed text for a node in the meta.yaml</span>
 
 <span class="sd">        This may contain separators and other characters from</span>
 <span class="sd">        the yaml!</span>
@@ -629,7 +629,7 @@
         <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span></div>
 
 <div class="viewcode-block" id="Recipe.get"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get">[docs]</a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">default</span><span class="p">:</span> <span class="n">Any</span><span class="o">=</span><span class="ne">KeyError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Get a value or section from the recipe</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get a value or section from the recipe</span>
 
 <span class="sd">        &gt;&gt;&gt; recipe.get(&#39;requirements/build&#39;)</span>
 <span class="sd">        [&#39;setuptools]</span>
@@ -662,7 +662,7 @@
         <span class="k">return</span> <span class="n">res</span></div>
 
 <div class="viewcode-block" id="Recipe.set"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set">[docs]</a>    <span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Set a value or section in the recipe</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Set a value or section in the recipe</span>
 
 <span class="sd">        See `get` for a description of how **path** works.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
@@ -691,7 +691,7 @@
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">package_names</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
-        <span class="sd">&quot;&quot;&quot;List of the packages built by this recipe (including outputs)&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;List of the packages built by this recipe (including outputs)&quot;&quot;&quot;</span>
         <span class="n">packages</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">]</span>
         <span class="k">if</span> <span class="s2">&quot;outputs&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">:</span>
             <span class="n">packages</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">output</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
@@ -702,7 +702,7 @@
 <div class="viewcode-block" id="Recipe.replace"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.replace">[docs]</a>    <span class="k">def</span> <span class="nf">replace</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">before</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">after</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                 <span class="n">within</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;package&quot;</span><span class="p">,</span> <span class="s2">&quot;source&quot;</span><span class="p">),</span>
                 <span class="n">with_fuzz</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Runs string replace on parts of recipe text.</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Runs string replace on parts of recipe text.</span>
 
 <span class="sd">        - Lines considered are those containing Jinja set statements</span>
 <span class="sd">          (``{% set var=&quot;val&quot; %}``) and those defining the top level</span>
@@ -759,7 +759,7 @@
         <span class="k">return</span> <span class="n">replacements</span></div>
 
 <div class="viewcode-block" id="Recipe.reset_buildnumber"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.reset_buildnumber">[docs]</a>    <span class="k">def</span> <span class="nf">reset_buildnumber</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Resets the build number</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Resets the build number</span>
 
 <span class="sd">        If the build number is missing, it is added after build.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
@@ -808,7 +808,7 @@
                      <span class="n">finalize</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
                      <span class="n">permit_unsatisfiable_variants</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                      <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="n">MetaData</span><span class="p">,</span> <span class="nb">bool</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]]:</span>
-        <span class="sd">&quot;&quot;&quot;Handles calling conda_build.api.render</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Handles calling conda_build.api.render</span>
 
 <span class="sd">        ``conda_build.api.render`` is fragile, loud and slow. Avoid using this</span>
 <span class="sd">        whenever you can.</span>
@@ -905,7 +905,7 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span></div>
 
 <div class="viewcode-block" id="Recipe.conda_release"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_release">[docs]</a>    <span class="k">def</span> <span class="nf">conda_release</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Releases resources acquired in `conda_render`&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Releases resources acquired in `conda_render`&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="p">:</span>

@@ -119,7 +119,7 @@
 
 
 <div class="viewcode-block" id="should_use_compilers"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers">[docs]</a><span class="k">class</span> <span class="nc">should_use_compilers</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe requires a compiler directly</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe requires a compiler directly</span>
 
 <span class="sd">    Since version 3, ``conda-build`` uses a special syntax to require</span>
 <span class="sd">    compilers for a given language matching the architecture for which</span>
@@ -147,7 +147,7 @@
 
 
 <div class="viewcode-block" id="compilers_must_be_in_build"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build">[docs]</a><span class="k">class</span> <span class="nc">compilers_must_be_in_build</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe requests a compiler in a section other than build</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe requests a compiler in a section other than build</span>
 
 <span class="sd">    Please move the ``{{ compiler(&#39;language&#39;) }}`` line into the</span>
 <span class="sd">    ``requirements: build:`` section.</span>
@@ -163,7 +163,7 @@
 
 
 <div class="viewcode-block" id="uses_setuptools"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools">[docs]</a><span class="k">class</span> <span class="nc">uses_setuptools</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe uses setuptools in run depends</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe uses setuptools in run depends</span>
 
 <span class="sd">    Most Python packages only need setuptools during installation.</span>
 <span class="sd">    Check if the package really needs setuptools (e.g. because it uses</span>
@@ -178,7 +178,7 @@
 
 
 <div class="viewcode-block" id="setup_py_install_args"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args">[docs]</a><span class="k">class</span> <span class="nc">setup_py_install_args</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The recipe uses setuptools without required arguments</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The recipe uses setuptools without required arguments</span>
 
 <span class="sd">    Please use::</span>
 
@@ -191,7 +191,7 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">_check_line</span><span class="p">(</span><span class="n">line</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="sd">&quot;&quot;&quot;Check a line for a broken call to setup.py&quot;&quot;&quot;</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Check a line for a broken call to setup.py&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="s1">&#39;setup.py install&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
             <span class="k">return</span> <span class="kc">True</span>
         <span class="k">if</span> <span class="s1">&#39;--single-version-externally-managed&#39;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
@@ -215,7 +215,7 @@
 
 
 <div class="viewcode-block" id="cython_must_be_in_host"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host">[docs]</a><span class="k">class</span> <span class="nc">cython_must_be_in_host</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Cython should be in the host section</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Cython should be in the host section</span>
 
 <span class="sd">    Move cython to ``host``::</span>
 
@@ -231,7 +231,7 @@
 
 
 <div class="viewcode-block" id="cython_needs_compiler"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler">[docs]</a><span class="k">class</span> <span class="nc">cython_needs_compiler</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Cython generates C code, which will need to be compiled</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Cython generates C code, which will need to be compiled</span>
 
 <span class="sd">    Add the compiler to the recipe::</span>
 

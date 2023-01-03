@@ -849,30 +849,30 @@ and <code class="docutils literal notranslate"><span class="pre">commit_id</span
 <dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p><p>Deep dict as example below. Protections not in place will not be present
 in dict.</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">required_status_checks</span><span class="p">:</span><span class="w">  </span><span class="c1"># require status checks to pass</span><span class="w"></span>
-<span class="w">    </span><span class="nt">strict</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">False</span><span class="w">        </span><span class="c1"># require PR branch to be up to date with base</span><span class="w"></span>
-<span class="w">    </span><span class="nt">contexts</span><span class="p">:</span><span class="w">            </span><span class="c1"># list of status checks required</span><span class="w"></span>
-<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bioconda-test</span><span class="w"></span>
-<span class="w">    </span><span class="nt">enforce_admins</span><span class="p">:</span><span class="w">      </span><span class="c1"># admins, too, must follow rules</span><span class="w"></span>
-<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w"></span>
-<span class="nt">required_pull_request_reviews</span><span class="p">:</span><span class="w">          </span><span class="c1"># require approving review</span><span class="w"></span>
-<span class="w">    </span><span class="nt">required_approving_review_count</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span><span class="w">  </span><span class="c1"># 1 - 6 valid</span><span class="w"></span>
-<span class="w">    </span><span class="nt">dismiss_stale_reviews</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">False</span><span class="w">        </span><span class="c1"># auto dismiss approval after push</span><span class="w"></span>
-<span class="w">    </span><span class="nt">require_code_owner_reviews</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">False</span><span class="w"></span>
-<span class="w">    </span><span class="nt">dismissal_restrictions</span><span class="p">:</span><span class="w">             </span><span class="c1"># specify who may dismiss reviews</span><span class="w"></span>
-<span class="w">       </span><span class="nt">users</span><span class="p">:</span><span class="w"></span>
-<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">login</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bla</span><span class="w"></span>
-<span class="w">       </span><span class="nt">teams</span><span class="p">:</span><span class="w"></span>
-<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span><span class="w"></span>
-<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bl Ub</span><span class="w"></span>
-<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">slug</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bl-ub</span><span class="w"></span>
-<span class="nt">restrictions</span><span class="p">:</span><span class="w">             </span><span class="c1"># specify who may push</span><span class="w"></span>
-<span class="w">  </span><span class="nt">users</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">login</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bla</span><span class="w"></span>
-<span class="w">  </span><span class="nt">teams</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span><span class="w"></span>
-<span class="nt">enforce_admins</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w">  </span><span class="c1"># apply to admins also</span><span class="w"></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">required_status_checks</span><span class="p">:</span><span class="w">  </span><span class="c1"># require status checks to pass</span>
+<span class="w">    </span><span class="nt">strict</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">False</span><span class="w">        </span><span class="c1"># require PR branch to be up to date with base</span>
+<span class="w">    </span><span class="nt">contexts</span><span class="p">:</span><span class="w">            </span><span class="c1"># list of status checks required</span>
+<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bioconda-test</span>
+<span class="w">    </span><span class="nt">enforce_admins</span><span class="p">:</span><span class="w">      </span><span class="c1"># admins, too, must follow rules</span>
+<span class="w">       </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="nt">required_pull_request_reviews</span><span class="p">:</span><span class="w">          </span><span class="c1"># require approving review</span>
+<span class="w">    </span><span class="nt">required_approving_review_count</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span><span class="w">  </span><span class="c1"># 1 - 6 valid</span>
+<span class="w">    </span><span class="nt">dismiss_stale_reviews</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">False</span><span class="w">        </span><span class="c1"># auto dismiss approval after push</span>
+<span class="w">    </span><span class="nt">require_code_owner_reviews</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">False</span>
+<span class="w">    </span><span class="nt">dismissal_restrictions</span><span class="p">:</span><span class="w">             </span><span class="c1"># specify who may dismiss reviews</span>
+<span class="w">       </span><span class="nt">users</span><span class="p">:</span>
+<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">login</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bla</span>
+<span class="w">       </span><span class="nt">teams</span><span class="p">:</span>
+<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bl Ub</span>
+<span class="w">         </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">slug</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bl-ub</span>
+<span class="nt">restrictions</span><span class="p">:</span><span class="w">             </span><span class="c1"># specify who may push</span>
+<span class="w">  </span><span class="nt">users</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">login</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bla</span>
+<span class="w">  </span><span class="nt">teams</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="nt">enforce_admins</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w">  </span><span class="c1"># apply to admins also</span>
 </pre></div>
 </div>
 </p>
