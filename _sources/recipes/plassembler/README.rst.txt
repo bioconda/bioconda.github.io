@@ -29,17 +29,18 @@ plassembler
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.76``
    :depends bwa: 
-   :depends fastp: 
+   :depends fastp: ``>=0.18.0``
    :depends flye: ``>=2.9``
-   :depends minimap2: 
-   :depends nanofilt: 
+   :depends mash: ``>=2.2``
+   :depends minimap2: ``>=2.11``
+   :depends nanofilt: ``>=2.2.0``
    :depends pandas: 
    :depends python: ``>=3.6``
    :depends seqkit: 
@@ -75,7 +76,7 @@ plassembler
 
     <script>
         var package = "plassembler";
-        var versions = ["0.1.3","0.1.2"];
+        var versions = ["0.1.4","0.1.3","0.1.2"];
     </script>
 
 

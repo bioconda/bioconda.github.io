@@ -13,6 +13,8 @@ pantools
    PanTools is a pangenomic toolkit for comparative analysis of large number of genomes.
 
    :homepage: https://git.wur.nl/bioinformatics/pantools
+   :documentation: https://pantools.readthedocs.io/
+   
    :license: GPL / GPL-3.0-only
    :recipe: /`pantools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools/meta.yaml>`_
    :links: doi: :doi:`https://doi.org/10.1093/bioinformatics/btw455`, doi: :doi:`https://doi.org/10.1186/s12859-018-2362-4`, doi: :doi:`https://doi.org/10.1101/813634`, doi: :doi:`https://doi.org/10.1093/bioinformatics/btac506`
@@ -32,13 +34,14 @@ pantools
       
       
 
-      ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+      ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
 
       
 
    
    :depends aster: ``1.3.*``
    :depends blast: 
+   :depends busco: ``>=5``
    :depends fastani: 
    :depends fasttree: 
    :depends graphviz: 
@@ -83,7 +86,7 @@ pantools
 
     <script>
         var package = "pantools";
-        var versions = ["3.4.0","3.3.3","3.1.0","3.1.0","2.0.0"];
+        var versions = ["4.0.0","3.4.0","3.3.3","3.1.0","3.1.0"];
     </script>
 
 
@@ -98,9 +101,11 @@ This wrapper is called \"pantools\" and is on \$PATH by default. By default
 specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"pantools \-Xms512m \-Xmx1g\".
-NB\: BUSCO is \*\*not\*\* included in the dependency list but is required for
-one subcommand of pantools \(\"pantools busco\_protein\"\). Please manually
-install BUSCO for running this subcommand.
+NB\: \"pantools add\_functions\" currently doesn\'t work because of the expected
+directory structure by PanTools. We are looking into this.
+NB\: For MacOS\, BUSCO is \*\*not\*\* included in the dependency list but it is
+still required for one subcommand of pantools \(\"pantools busco\_protein\"\).
+Please manually install BUSCO for running this command.
 
 
 

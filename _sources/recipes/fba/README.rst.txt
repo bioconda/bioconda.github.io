@@ -10,13 +10,16 @@ fba
    :replaces_section_title:
    :noindex:
 
-   Tools for feature barcoding analyses
+   Tools for single\-cell feature barcoding analysis. Citation\: Duan\, et al \(2021\) \<doi\:10.1093\/bioinformatics\/btab375\>.
 
    :homepage: https://github.com/jlduan/fba
-   :license: MIT / MIT
+   :documentation: https://jlduan.github.io/fba
+   
+   :license: MIT
    :recipe: /`fba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fba/meta.yaml>`_
 
-   
+   \'fba is a flexible and streamlined toolbox for quality control\, quantification\, demultiplexing of various single\-cell feature barcoding assays. It can be applied to customized feature barcoding specifications\, including different CRISPR constructs or targeted enriched transcripts. fba allows users to customize a wide range of parameters for the quantification and demultiplexing process. fba also has a user\-friendly quality control module\, which is helpful in troubleshooting feature barcoding experiments.\'
+
 
 
 .. conda:package:: fba
@@ -27,12 +30,12 @@ fba
       
       
 
-      ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10.post1-0``
+      ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10.post1-0``
 
       
 
    
-   :depends dnaio: 
+   :depends dnaio: ``>=0.10.0``
    :depends hdbscan: ``>=0.8.21``
    :depends matplotlib-base: ``>=3.3``
    :depends numpy: ``>=1.19.0``
@@ -79,7 +82,7 @@ fba
 
     <script>
         var package = "fba";
-        var versions = ["0.0.12","0.0.11","0.0.10.post1"];
+        var versions = ["0.0.13","0.0.12","0.0.11","0.0.10.post1"];
     </script>
 
 

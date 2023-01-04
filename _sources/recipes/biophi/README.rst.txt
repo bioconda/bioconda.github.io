@@ -27,7 +27,7 @@ biophi
       
       
 
-      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -42,7 +42,7 @@ biophi
    :depends python: ``>=3.8``
    :depends redis-py: 
    :depends requests: 
-   :depends sapiens: 
+   :depends sapiens: ``1.0.3``
    :depends sqlalchemy: 
    :depends tqdm: 
    :depends xlsxwriter: 
@@ -77,7 +77,7 @@ biophi
 
     <script>
         var package = "biophi";
-        var versions = ["1.0.6","1.0.5","1.0.4","1.0.4","1.0.3"];
+        var versions = ["1.0.7","1.0.6","1.0.5","1.0.4","1.0.4"];
     </script>
 
 

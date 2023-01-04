@@ -27,24 +27,24 @@ snakelines
       
       
 
-      ``1.1.4-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``
+      ``1.1.8-0``,  ``1.1.4-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``
 
       
 
    
-   :depends bs4: ``4.9.3``
-   :depends jinja2: ``2.11.2``
-   :depends multiqc: ``1.10.1``
-   :depends numpy: ``1.19.2``
-   :depends oyaml: ``0.9``
-   :depends pandas: ``1.1.3``
-   :depends parse: ``1.19.0``
-   :depends pygraphviz: ``1.7``
-   :depends python: ``3.7.6``
-   :depends seaborn: ``0.11.0``
-   :depends snakemake-minimal: ``6.15.5``
-   :depends tk: ``8.6.10``
-   :depends weasyprint: ``51``
+   :depends bs4: ``>=4.9,<4.10``
+   :depends jinja2: ``>=3.1.2,<3.2``
+   :depends multiqc: ``>=1.10,<1.11``
+   :depends numpy: ``>=1.19,<1.20``
+   :depends oyaml: ``>=0.9,<1.0``
+   :depends pandas: ``>=1.1,<1.2``
+   :depends parse: ``>=1.19.0,<1.20``
+   :depends pygraphviz: ``>=1.7,<1.8``
+   :depends python: ``>=3.9,<3.10``
+   :depends seaborn: ``>=0.11,<0.12``
+   :depends snakemake-minimal: ``>=7.18,<7.19``
+   :depends tk: ``>=8.6,<8.7``
+   :depends weasyprint: ``>=51,<52``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +76,7 @@ snakelines
 
     <script>
         var package = "snakelines";
-        var versions = ["1.1.4","1.1.0","1.0.4","0.10.0","0.10.0"];
+        var versions = ["1.1.8","1.1.4","1.1.0","1.0.4","0.10.0"];
     </script>
 
 
