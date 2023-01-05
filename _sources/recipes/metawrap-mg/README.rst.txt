@@ -27,7 +27,7 @@ metawrap-mg
       
       
 
-      ``1.3.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``
 
       
 
@@ -95,7 +95,7 @@ metawrap-mg
 
     <script>
         var package = "metawrap-mg";
-        var versions = ["1.3.0"];
+        var versions = ["1.3.0","1.3.0"];
     </script>
 
 

@@ -29,12 +29,11 @@ panacota
       
       
 
-      ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1.2-0``
+      ``1.4.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1.2-0``
 
       
 
    
-   :depends argparse: 
    :depends biopython: ``>=1.60``
    :depends colorlog: 
    :depends fastme: 
@@ -49,7 +48,7 @@ panacota
    :depends prodigal: ``>=2.6.2``
    :depends progressbar2: ``>=3.18.0``
    :depends prokka: ``1.14.5``
-   :depends python: ``>=3.4``
+   :depends python: ``>=3.6``
    :depends quicktree: 
    :depends scipy: 
    :depends termcolor: 
@@ -84,7 +83,7 @@ panacota
 
     <script>
         var package = "panacota";
-        var versions = ["1.3.1","1.2.0","1.1.0","1.0.1.2"];
+        var versions = ["1.4.0","1.3.1","1.2.0","1.1.0","1.0.1.2"];
     </script>
 
 

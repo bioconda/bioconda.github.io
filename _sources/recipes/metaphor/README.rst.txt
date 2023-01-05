@@ -33,9 +33,17 @@ metaphor
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.7.1-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+      
 
+      ``1.7.1-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -79,7 +87,7 @@ metaphor
 
     <script>
         var package = "metaphor";
-        var versions = ["1.6.2","1.6.1","1.6.0","1.5.2","1.5.1"];
+        var versions = ["1.7.1","1.6.2","1.6.1","1.6.0","1.5.2"];
     </script>
 
 
