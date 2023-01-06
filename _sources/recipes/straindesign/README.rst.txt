@@ -27,21 +27,37 @@ straindesign
       
       
 
-      ``3.1.0-0``,  ``3.0.0-0``
+      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
    
    :depends biopython: 
-   :depends cameo: 
-   :depends cobra: ``<0.25.0``
-   :depends markupsafe: ``2.0.1``
+   :depends blessings: 
+   :depends click: 
+   :depends cobra: ``>=0.24``
+   :depends escher: 
+   :depends future: 
+   :depends gnomic: 
+   :depends inspyred: 
+   :depends iprogress: 
+   :depends lazy-object-proxy: 
+   :depends markupsafe: 
+   :depends networkx: 
+   :depends numexpr: 
+   :depends numpy: ``<1.24``
+   :depends openbabel: 
+   :depends openpyxl: 
+   :depends optlang: 
+   :depends ordered-set: 
+   :depends palettable: 
    :depends pandas: 
    :depends plotly: 
-   :depends pytest: 
    :depends python: 
-   :depends python-kaleido: 
-   :depends pyyaml: 
+   :depends redis-py: 
+   :depends requests: 
+   :depends scipy: 
+   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +89,7 @@ straindesign
 
     <script>
         var package = "straindesign";
-        var versions = ["3.1.0","3.0.0"];
+        var versions = ["3.2.0","3.1.0","3.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-pod-eventual
       
       
 
-      ``0.094002-0``
+      ``0.094003-0``,  ``0.094002-0``
 
       
 
@@ -66,7 +66,7 @@ perl-pod-eventual
 
     <script>
         var package = "perl-pod-eventual";
-        var versions = ["0.094002"];
+        var versions = ["0.094003","0.094002"];
     </script>
 
 

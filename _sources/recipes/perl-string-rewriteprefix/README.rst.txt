@@ -27,7 +27,7 @@ perl-string-rewriteprefix
       
       
 
-      ``0.008-0``,  ``0.007-1``,  ``0.007-0``
+      ``0.009-0``,  ``0.008-0``,  ``0.007-1``,  ``0.007-0``
 
       
 
@@ -66,7 +66,7 @@ perl-string-rewriteprefix
 
     <script>
         var package = "perl-string-rewriteprefix";
-        var versions = ["0.008","0.007","0.007"];
+        var versions = ["0.009","0.008","0.007","0.007"];
     </script>
 
 

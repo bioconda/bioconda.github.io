@@ -27,7 +27,7 @@ gff2bed
       
       
 
-      ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -64,7 +64,7 @@ gff2bed
 
     <script>
         var package = "gff2bed";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.3","1.0.1"];
     </script>
 
 

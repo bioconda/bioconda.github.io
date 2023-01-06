@@ -27,20 +27,22 @@ perl-pod-elemental
       
       
 
-      ``0.103005-1``,  ``0.103005-0``,  ``0.103004-5``,  ``0.103004-4``,  ``0.103004-3``,  ``0.103004-2``,  ``0.103004-1``,  ``0.103004-0``
+      ``0.103006-0``,  ``0.103005-1``,  ``0.103005-0``,  ``0.103004-5``,  ``0.103004-4``,  ``0.103004-3``,  ``0.103004-2``,  ``0.103004-1``,  ``0.103004-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-mixin-linewise: 
    :depends perl-moose: ``2.2201.*``
    :depends perl-moosex-types: 
+   :depends perl-pod-eventual: ``0.094002.*``
    :depends perl-scalar-list-utils: 
    :depends perl-string-rewriteprefix: 
    :depends perl-string-truncate: 
+   :depends perl-test-differences: ``0.69.*``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +74,7 @@ perl-pod-elemental
 
     <script>
         var package = "perl-pod-elemental";
-        var versions = ["0.103005","0.103005","0.103004","0.103004","0.103004"];
+        var versions = ["0.103006","0.103005","0.103005","0.103004","0.103004"];
     </script>
 
 

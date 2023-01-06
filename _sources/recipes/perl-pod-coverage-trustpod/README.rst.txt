@@ -27,7 +27,7 @@ perl-pod-coverage-trustpod
       
       
 
-      ``0.100005-0``,  ``0.100003-1``,  ``0.100003-0``
+      ``0.100006-0``,  ``0.100005-0``,  ``0.100003-1``,  ``0.100003-0``
 
       
 
@@ -71,7 +71,7 @@ perl-pod-coverage-trustpod
 
     <script>
         var package = "perl-pod-coverage-trustpod";
-        var versions = ["0.100005","0.100003","0.100003"];
+        var versions = ["0.100006","0.100005","0.100003","0.100003"];
     </script>
 
 
