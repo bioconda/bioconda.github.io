@@ -27,7 +27,7 @@ perl-string-truncate
       
       
 
-      ``1.100602-1``,  ``1.100602-0``
+      ``1.100603-0``,  ``1.100602-1``,  ``1.100602-0``
 
       
 
@@ -67,7 +67,7 @@ perl-string-truncate
 
     <script>
         var package = "perl-string-truncate";
-        var versions = ["1.100602","1.100602"];
+        var versions = ["1.100603","1.100602","1.100602"];
     </script>
 
 

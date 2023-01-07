@@ -33,15 +33,23 @@ pantools
    :versions:
       
       
+      .. raw:: html
 
-      ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.3-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  </span></summary>
+      
 
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends aster: ``1.3.*``
    :depends blast: 
-   :depends busco: ``>=5``
+   :depends busco: ``5.*``
    :depends fastani: 
    :depends fasttree: 
    :depends graphviz: 
@@ -86,7 +94,7 @@ pantools
 
     <script>
         var package = "pantools";
-        var versions = ["4.0.0","3.4.0","3.3.3","3.1.0","3.1.0"];
+        var versions = ["4.0.0","4.0.0","3.4.0","3.3.3","3.1.0"];
     </script>
 
 
@@ -103,9 +111,6 @@ set globally this will take precedence.
 For example run it with \"pantools \-Xms512m \-Xmx1g\".
 NB\: \"pantools add\_functions\" currently doesn\'t work because of the expected
 directory structure by PanTools. We are looking into this.
-NB\: For MacOS\, BUSCO is \*\*not\*\* included in the dependency list but it is
-still required for one subcommand of pantools \(\"pantools busco\_protein\"\).
-Please manually install BUSCO for running this command.
 
 
 
