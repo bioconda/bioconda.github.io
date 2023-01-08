@@ -10,7 +10,7 @@ gfastats
    :replaces_section_title:
    :noindex:
 
-   The swiss army knife for genome assembly.
+   The swiss army knife for genome assembly
 
    :homepage: https://github.com/vgl-hub/gfastats
    :license: MIT
