@@ -27,7 +27,7 @@ ngs-chew
       
       
 
-      ``0.6.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``
 
       
 
@@ -41,6 +41,7 @@ ngs-chew
    :depends plotly: 
    :depends pysam: 
    :depends python: ``>=3.7``
+   :depends samtools: 
    :depends scipy: 
    :depends tqdm: 
    :depends vcfpy: 
@@ -75,7 +76,7 @@ ngs-chew
 
     <script>
         var package = "ngs-chew";
-        var versions = ["0.6.0"];
+        var versions = ["0.7.0","0.6.0"];
     </script>
 
 

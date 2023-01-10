@@ -12,7 +12,7 @@ snpsplit
 
    SNPsplit is an allele\-specific alignment sorter which is designed to read in alignment files in SAM\/BAM format and determine the allelic origin of reads that cover known SNP positions.
 
-   :homepage: https://www.bioinformatics.babraham.ac.uk/projects/SNPsplit/
+   :homepage: https://github.com/FelixKrueger/SNPsplit
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`snpsplit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsplit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsplit/meta.yaml>`_
    :links: doi: :doi:`10.12688/f1000research.9037.2`
@@ -28,7 +28,7 @@ snpsplit
       
       
 
-      ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``
 
       
 
@@ -66,7 +66,7 @@ snpsplit
 
     <script>
         var package = "snpsplit";
-        var versions = ["0.5.0","0.4.0","0.4.0","0.3.4","0.3.4"];
+        var versions = ["0.6.0","0.5.0","0.4.0","0.4.0","0.3.4"];
     </script>
 
 

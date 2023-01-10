@@ -28,7 +28,7 @@ ccphylo
       
       
 
-      ``0.8.1-0``
+      ``0.8.2-0``,  ``0.8.1-0``
 
       
 
@@ -67,7 +67,7 @@ ccphylo
 
     <script>
         var package = "ccphylo";
-        var versions = ["0.8.1"];
+        var versions = ["0.8.2","0.8.1"];
     </script>
 
 
