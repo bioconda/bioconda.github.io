@@ -27,7 +27,7 @@ dadaist2-full
       
       
 
-      ``1.1-0``,  ``1.0-0``,  ``0.7-1``,  ``0.7-0``
+      ``2.0-0``,  ``1.1-0``,  ``1.0-0``,  ``0.7-1``,  ``0.7-0``
 
       
 
@@ -42,6 +42,7 @@ dadaist2-full
    :depends r-corrplot: 
    :depends r-fpc: 
    :depends r-hmisc: 
+   :depends r-optparse: 
    :depends r-phangorn: 
    :depends rich: 
    :depends vsearch: 
@@ -76,7 +77,7 @@ dadaist2-full
 
     <script>
         var package = "dadaist2-full";
-        var versions = ["1.1","1.0","0.7","0.7"];
+        var versions = ["2.0","1.1","1.0","0.7","0.7"];
     </script>
 
 

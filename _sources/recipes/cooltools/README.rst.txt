@@ -30,10 +30,10 @@ cooltools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-2</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-2</code>,  </span></summary>
       
 
-      ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``
+      ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -49,7 +49,8 @@ cooltools
    :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numba: 
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``<1.24``
+   :depends numpy: ``>=1.23.5,<2.0a0``
    :depends pandas: ``>=1.5.1``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -87,7 +88,7 @@ cooltools
 
     <script>
         var package = "cooltools";
-        var versions = ["0.5.2","0.5.2","0.5.1","0.5.1","0.5.0"];
+        var versions = ["0.5.2","0.5.2","0.5.2","0.5.1","0.5.1"];
     </script>
 
 

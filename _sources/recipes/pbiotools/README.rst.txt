@@ -27,7 +27,7 @@ pbiotools
       
       
 
-      ``2.0.0-0``
+      ``3.0.0-0``,  ``2.0.0-0``
 
       
 
@@ -44,8 +44,7 @@ pbiotools
    :depends pybedtools: 
    :depends pyensembl: 
    :depends pysam: 
-   :depends pystan: ``<3``
-   :depends python: ``<3.10.0a0``
+   :depends python: 
    :depends scikit-learn: 
    :depends seaborn: 
    :depends tqdm: 
@@ -80,7 +79,7 @@ pbiotools
 
     <script>
         var package = "pbiotools";
-        var versions = ["2.0.0"];
+        var versions = ["3.0.0","2.0.0"];
     </script>
 
 

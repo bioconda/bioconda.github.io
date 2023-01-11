@@ -27,7 +27,7 @@ mitoz
       
       
 
-      ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``
+      ``3.5-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``
 
       
 
@@ -37,24 +37,37 @@ mitoz
    :depends bs4: 
    :depends bwa: 
    :depends circos: ``0.69.*``
+   :depends coreutils: 
    :depends ete3: ``>=3.1.2``
    :depends fastp: 
    :depends hmmer: ``3.1b2.*``
+   :depends html5lib: 
    :depends infernal: ``1.1.1.*``
    :depends libgd: 
    :depends megahit: 
    :depends openjdk: 
-   :depends perl: ``5.26.*``
+   :depends perl: ``5.32.*``
+   :depends perl-app-cpanminus: 
    :depends perl-bioperl: 
    :depends perl-clone: 
+   :depends perl-config-general: 
+   :depends perl-encode-locale: 
    :depends perl-list-moreutils: 
+   :depends perl-math-bezier: 
+   :depends perl-math-round: 
+   :depends perl-math-vecstat: 
    :depends perl-params-validate: 
-   :depends python: ``>=3.6``
+   :depends perl-set-intspan: 
+   :depends perl-statistics-basic: 
+   :depends perl-statistics-descriptive: 
+   :depends pkgconfig: 
+   :depends python: ``>=3.6,<3.10``
    :depends requests: 
    :depends samtools: 
    :depends seqkit: 
    :depends spades: ``>=3.15.4``
    :depends tbl2asn: 
+   :depends wise2: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +99,7 @@ mitoz
 
     <script>
         var package = "mitoz";
-        var versions = ["3.4","3.4","3.3","3.3","3.2"];
+        var versions = ["3.5","3.4","3.4","3.3","3.3"];
     </script>
 
 
