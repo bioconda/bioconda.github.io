@@ -26,17 +26,26 @@ anansescanpy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+      
 
+      ``1.0.0-0``,  ``0.2.6-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends anndata: ``>=0.8.0``
-   :depends jupyterlab: ``>=3.3.4``
-   :depends numpy: ``>=1.23.3``
+   :depends numba: ``>=0.56.3``
+   :depends numpy: ``>=1.23.3,<1.24``
+   :depends packaging: ``>=21.3``
    :depends pandas: ``>=1.4.4``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.8``
    :depends scanpy: ``>=1.9.1``
    :depends scipy: ``>=1.9.1``
    :requirements:
@@ -70,7 +79,7 @@ anansescanpy
 
     <script>
         var package = "anansescanpy";
-        var versions = ["0.2.3","0.2.2","0.2.1","0.2.0","0.1.9"];
+        var versions = ["1.0.0","0.2.6","0.2.3","0.2.2","0.2.1"];
     </script>
 
 
