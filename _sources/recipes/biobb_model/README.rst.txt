@@ -53,10 +53,10 @@ biobb_model
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.0-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
+      ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
       .. raw:: html
@@ -65,8 +65,8 @@ biobb_model
       
 
    
-   :depends biobb_common: ``3.8.1``
-   :depends biobb_structure_checking: ``3.10.1``
+   :depends biobb_common: ``3.9.0``
+   :depends biobb_structure_checking: ``3.12.1``
    :depends python: ``>=3.7``
    :depends xmltodict: 
    :requirements:
@@ -100,7 +100,7 @@ biobb_model
 
     <script>
         var package = "biobb_model";
-        var versions = ["3.8.1","3.8.0","3.7.0","3.6.0","3.5.1"];
+        var versions = ["3.9.0","3.8.1","3.8.0","3.7.0","3.6.0"];
     </script>
 
 

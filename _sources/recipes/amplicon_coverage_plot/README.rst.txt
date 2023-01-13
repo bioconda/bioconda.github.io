@@ -28,7 +28,7 @@ amplicon_coverage_plot
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
 
@@ -68,7 +68,7 @@ amplicon_coverage_plot
 
     <script>
         var package = "amplicon_coverage_plot";
-        var versions = ["0.3.2","0.3.1","0.3.0","0.2.1"];
+        var versions = ["0.3.3","0.3.2","0.3.1","0.3.0","0.2.1"];
     </script>
 
 
