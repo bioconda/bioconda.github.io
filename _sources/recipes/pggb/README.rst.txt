@@ -28,10 +28,10 @@ pggb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.1-1</code>,  </span></summary>
       
 
-      ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ pggb
    :depends tabix: 
    :depends time: 
    :depends vg: ``1.40.0.*``
-   :depends wfmash: ``>=0.10.1``
+   :depends wfmash: ``>=0.10.2``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.5.2","0.5.1","0.5.1","0.5.0","0.4.1"];
+        var versions = ["0.5.3","0.5.2","0.5.1","0.5.1","0.5.0"];
     </script>
 
 

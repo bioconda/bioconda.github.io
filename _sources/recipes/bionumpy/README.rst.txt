@@ -27,7 +27,7 @@ bionumpy
       
       
 
-      ``0.2.13-0``,  ``0.2.12-0``
+      ``0.2.15-0``,  ``0.2.13-0``,  ``0.2.12-0``
 
       
 
@@ -66,7 +66,7 @@ bionumpy
 
     <script>
         var package = "bionumpy";
-        var versions = ["0.2.13","0.2.12"];
+        var versions = ["0.2.15","0.2.13","0.2.12"];
     </script>
 
 
