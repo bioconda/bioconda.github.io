@@ -26,31 +26,41 @@ perl-moose
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2201-2``,  ``2.2201-1``,  ``2.2201-0``,  ``2.2011-1``,  ``2.2011-0``,  ``2.2009-0``,  ``2.1804-2``,  ``2.1804-1``,  ``2.1804-0``
+         <details><summary><span class="truncated-version-list"><code>2.2202-0</code>,  <code>2.2201-2</code>,  <code>2.2201-1</code>,  <code>2.2201-0</code>,  <code>2.2011-1</code>,  <code>2.2011-0</code>,  <code>2.2009-0</code>,  <code>2.1804-2</code>,  <code>2.1804-1</code>,  </span></summary>
+      
 
+      ``2.2202-0``,  ``2.2201-2``,  ``2.2201-1``,  ``2.2201-0``,  ``2.2011-1``,  ``2.2011-0``,  ``2.2009-0``,  ``2.1804-2``,  ``2.1804-1``,  ``2.1804-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-class-load: 
    :depends perl-class-load-xs: 
-   :depends perl-data-optlist: 
-   :depends perl-devel-globaldestruction: 
+   :depends perl-cpan-meta-check: ``0.014.*``
+   :depends perl-data-optlist: ``0.113.*``
+   :depends perl-devel-globaldestruction: ``0.14.*``
    :depends perl-devel-overloadinfo: 
-   :depends perl-devel-stacktrace: 
-   :depends perl-dist-checkconflicts: 
+   :depends perl-devel-stacktrace: ``2.04.*``
+   :depends perl-dist-checkconflicts: ``0.11.*``
    :depends perl-eval-closure: 
-   :depends perl-module-runtime: 
+   :depends perl-module-runtime: ``0.016.*``
    :depends perl-module-runtime-conflicts: 
-   :depends perl-mro-compat: 
-   :depends perl-package-deprecationmanager: 
-   :depends perl-package-stash: 
-   :depends perl-package-stash-xs: 
-   :depends perl-params-util: 
+   :depends perl-mro-compat: ``0.15.*``
+   :depends perl-package-deprecationmanager: ``0.17.*``
+   :depends perl-package-stash: ``0.40.*``
+   :depends perl-package-stash-xs: ``0.30.*``
+   :depends perl-params-util: ``1.102.*``
    :depends perl-sub-exporter: 
-   :depends perl-try-tiny: 
+   :depends perl-test-fatal: ``0.016.*``
+   :depends perl-try-tiny: ``0.31.*``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +92,7 @@ perl-moose
 
     <script>
         var package = "perl-moose";
-        var versions = ["2.2201","2.2201","2.2201","2.2011","2.2011"];
+        var versions = ["2.2202","2.2201","2.2201","2.2201","2.2011"];
     </script>
 
 

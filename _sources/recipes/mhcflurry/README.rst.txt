@@ -10,12 +10,10 @@ mhcflurry
    :replaces_section_title:
    :noindex:
 
-   Peptide\-MHC I binding affinity prediction
+   MHC Binding Predictor
 
-   :homepage: https://github.com/hammerlab/mhcflurry
-   :documentation: http://openvax.github.io/mhcflurry/
-   
-   :license: Apache License Version 2.0
+   :homepage: https://github.com/openvax/mhcflurry
+   :license: APACHE / Apache Software
    :recipe: /`mhcflurry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcflurry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcflurry/meta.yaml>`_
    :links: doi: :doi:`10.1016/j.cels.2018.05.014`
 

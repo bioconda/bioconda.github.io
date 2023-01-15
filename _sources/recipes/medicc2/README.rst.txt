@@ -27,9 +27,17 @@ medicc2
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
+         <details><summary><span class="truncated-version-list"><code>0.8.3-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6b1-0</code>,  <code>0.5b4-0</code>,  </span></summary>
+      
 
+      ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -78,7 +86,7 @@ medicc2
 
     <script>
         var package = "medicc2";
-        var versions = ["0.8.1","0.8.1","0.8.0","0.7.1","0.7.0"];
+        var versions = ["0.8.3","0.8.1","0.8.1","0.8.0","0.7.1"];
     </script>
 
 
