@@ -29,7 +29,7 @@ geofetch
       
       
 
-      ``0.11.1-0``,  ``0.11.0-0``
+      ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``
 
       
 
@@ -77,7 +77,7 @@ geofetch
 
     <script>
         var package = "geofetch";
-        var versions = ["0.11.1","0.11.0"];
+        var versions = ["0.11.2","0.11.1","0.11.0"];
     </script>
 
 

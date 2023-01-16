@@ -27,7 +27,7 @@ perl-params-validationcompiler
       
       
 
-      ``0.30-0``,  ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+      ``0.31-0``,  ``0.30-0``,  ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
 
       
 
@@ -67,7 +67,7 @@ perl-params-validationcompiler
 
     <script>
         var package = "perl-params-validationcompiler";
-        var versions = ["0.30","0.23","0.23","0.23","0.23"];
+        var versions = ["0.31","0.30","0.23","0.23","0.23"];
     </script>
 
 

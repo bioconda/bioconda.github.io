@@ -29,10 +29,10 @@ mlst
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.23.0-0</code>,  <code>2.22.1-0</code>,  <code>2.22.0-0</code>,  <code>2.19.0-1</code>,  <code>2.19.0-0</code>,  <code>2.18.1-0</code>,  <code>2.18.0-0</code>,  <code>2.17.6-1</code>,  <code>2.17.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.23.0-1</code>,  <code>2.23.0-0</code>,  <code>2.22.1-0</code>,  <code>2.22.0-0</code>,  <code>2.19.0-1</code>,  <code>2.19.0-0</code>,  <code>2.18.1-0</code>,  <code>2.18.0-0</code>,  <code>2.17.6-1</code>,  </span></summary>
       
 
-      ``2.23.0-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.19.0-1``,  ``2.19.0-0``,  ``2.18.1-0``,  ``2.18.0-0``,  ``2.17.6-1``,  ``2.17.6-0``,  ``2.16.4-0``,  ``2.16.2-1``,  ``2.16.2-0``,  ``2.16.1-0``,  ``2.16-0``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.15-0``,  ``2.14-0``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-1``,  ``2.10-0``,  ``2.9-4``,  ``2.9-3``,  ``2.9-2``,  ``2.9-1``,  ``2.9-0``,  ``2.6-0``
+      ``2.23.0-1``,  ``2.23.0-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.19.0-1``,  ``2.19.0-0``,  ``2.18.1-0``,  ``2.18.0-0``,  ``2.17.6-1``,  ``2.17.6-0``,  ``2.16.4-0``,  ``2.16.2-1``,  ``2.16.2-0``,  ``2.16.1-0``,  ``2.16-0``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.15-0``,  ``2.14-0``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-1``,  ``2.10-0``,  ``2.9-4``,  ``2.9-3``,  ``2.9-2``,  ``2.9-1``,  ``2.9-0``,  ``2.6-0``
 
       
       .. raw:: html
@@ -43,10 +43,14 @@ mlst
    
    :depends any2fasta: 
    :depends blast: ``>=2.9.0``
+   :depends curl: 
+   :depends parallel: 
    :depends perl: 
    :depends perl-bioperl: ``>=1.7.2``
+   :depends perl-file-which: 
    :depends perl-json: 
    :depends perl-list-moreutils: 
+   :depends perl-lwp-protocol-https: 
    :depends perl-moo: 
    :depends zlib: 
    :requirements:
@@ -80,7 +84,7 @@ mlst
 
     <script>
         var package = "mlst";
-        var versions = ["2.23.0","2.22.1","2.22.0","2.19.0","2.19.0"];
+        var versions = ["2.23.0","2.23.0","2.22.1","2.22.0","2.19.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-email-simple
       
       
 
-      ``2.216-1``,  ``2.216-0``
+      ``2.218-0``,  ``2.216-1``,  ``2.216-0``
 
       
 
@@ -65,7 +65,7 @@ perl-email-simple
 
     <script>
         var package = "perl-email-simple";
-        var versions = ["2.216","2.216"];
+        var versions = ["2.218","2.216","2.216"];
     </script>
 
 
