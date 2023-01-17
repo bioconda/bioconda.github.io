@@ -29,7 +29,7 @@ plassembler
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -43,6 +43,7 @@ plassembler
    :depends nanofilt: ``>=2.2.0``
    :depends pandas: 
    :depends python: ``>=3.6``
+   :depends samtools: ``>=1.10``
    :depends seqkit: 
    :depends unicycler: ``>=0.4.8``
    :requirements:
@@ -76,7 +77,7 @@ plassembler
 
     <script>
         var package = "plassembler";
-        var versions = ["0.1.4","0.1.3","0.1.2"];
+        var versions = ["0.1.5","0.1.4","0.1.3","0.1.2"];
     </script>
 
 
