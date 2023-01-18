@@ -10,14 +10,19 @@ msgf_plus
    :replaces_section_title:
    :noindex:
 
-   MS\-GF\+ is a new MS\/MS database search tool that is sensitive \(it identifies more peptides than other database search tools and as many peptides as spectral library search tools\) and universal \(works well for diverse types of spectra\, different configurations of MS instruments and different experimental protocols\).
+   MS\-GF\+ is a MS\/MS database search tool
 
-   :homepage: https://omics.pnl.gov/software/ms-gf
-   :license: https://github.com/sangtaekim/msgfplus/blob/master/LICENSE.txt
+   :homepage: https://msgfplus.github.io/
+   :license: https://github.com/msgfplus/msgfplus/blob/master/LICENSE.txt
    :recipe: /`msgf_plus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus/meta.yaml>`_
    :links: biotools: :biotools:`MSGFplus`, doi: :doi:`10.1038/ncomms6277`
 
-   
+   MS\-GF\+ is a MS\/MS database search tool that is sensitive \(it identifies more
+   peptides than other database search tools and as many peptides as spectral
+   library search tools\) and universal \(works well for diverse types of
+   spectra\, different configurations of MS instruments and different
+   experimental protocols\).
+
 
 
 .. conda:package:: msgf_plus
@@ -29,10 +34,10 @@ msgf_plus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2022.04.18-0</code>,  <code>2022.01.07-0</code>,  <code>2021.09.06-0</code>,  <code>2021.03.22-1</code>,  <code>2021.03.22-0</code>,  <code>2021.01.08-1</code>,  <code>2021.01.08-0</code>,  <code>2020.08.05-0</code>,  <code>2020.06.22-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2023.01.1202-0</code>,  <code>2022.04.18-0</code>,  <code>2022.01.07-0</code>,  <code>2021.09.06-0</code>,  <code>2021.03.22-1</code>,  <code>2021.03.22-0</code>,  <code>2021.01.08-1</code>,  <code>2021.01.08-0</code>,  <code>2020.08.05-0</code>,  </span></summary>
       
 
-      ``2022.04.18-0``,  ``2022.01.07-0``,  ``2021.09.06-0``,  ``2021.03.22-1``,  ``2021.03.22-0``,  ``2021.01.08-1``,  ``2021.01.08-0``,  ``2020.08.05-0``,  ``2020.06.22-0``,  ``2020.06.16-0``,  ``2020.03.14-0``,  ``2020.03.12-0``,  ``2020.01.15-0``,  ``2019.07.03-0``,  ``2019.06.28-0``,  ``2019.04.18-0``,  ``2019.02.28-3``,  ``2017.07.21-3``,  ``2017.07.21-2``,  ``2017.07.21-1``,  ``2017.07.21-0``,  ``2016.10.26-2``,  ``2016.10.26-1``,  ``2016.10.26-0``,  ``1.0.0-0``
+      ``2023.01.1202-0``,  ``2022.04.18-0``,  ``2022.01.07-0``,  ``2021.09.06-0``,  ``2021.03.22-1``,  ``2021.03.22-0``,  ``2021.01.08-1``,  ``2021.01.08-0``,  ``2020.08.05-0``,  ``2020.06.22-0``,  ``2020.06.16-0``,  ``2020.03.14-0``,  ``2020.03.12-0``,  ``2020.01.15-0``,  ``2019.07.03-0``,  ``2019.06.28-0``,  ``2019.04.18-0``,  ``2019.02.28-3``,  ``2017.07.21-3``,  ``2017.07.21-2``,  ``2017.07.21-1``,  ``2017.07.21-0``,  ``2016.10.26-2``,  ``2016.10.26-1``,  ``2016.10.26-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,7 +46,7 @@ msgf_plus
       
 
    
-   :depends openjdk: ``<9``
+   :depends openjdk: ``<=17``
    :depends python: 
    :requirements:
 
@@ -74,7 +79,7 @@ msgf_plus
 
     <script>
         var package = "msgf_plus";
-        var versions = ["2022.04.18","2022.01.07","2021.09.06","2021.03.22","2021.03.22"];
+        var versions = ["2023.01.1202","2022.04.18","2022.01.07","2021.09.06","2021.03.22"];
     </script>
 
 
