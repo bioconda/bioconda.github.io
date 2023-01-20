@@ -28,23 +28,23 @@ r-cellosaurus
       
       
 
-      ``0.3.4-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.42.0``
-   :depends bioconductor-iranges: ``>=2.30.1``
-   :depends bioconductor-s4vectors: ``>=0.34.0``
-   :depends r-acidbase: ``>=0.6.7``
-   :depends r-acidcli: ``>=0.2.3``
-   :depends r-acidgenerics: ``>=0.6.4``
+   :depends bioconductor-biocgenerics: ``>=0.44.0``
+   :depends bioconductor-iranges: ``>=2.32.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0``
+   :depends r-acidbase: ``>=0.6.6``
+   :depends r-acidcli: ``>=0.2.5``
+   :depends r-acidgenerics: ``>=0.6.5``
    :depends r-acidplyr: ``>=0.3.2``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-goalie: ``>=0.6.4``
+   :depends r-goalie: ``>=0.6.7``
    :depends r-ontologyindex: ``>=2.10``
-   :depends r-pipette: ``>=0.9.7``
-   :depends r-stringi: ``>=1.7.8``
+   :depends r-pipette: ``>=0.10.1``
+   :depends r-stringi: ``>=1.7.12``
    :depends r-syntactic: ``>=0.6.3``
    :depends r-taxizedb: ``>=0.3.0``
    :requirements:
@@ -78,7 +78,7 @@ r-cellosaurus
 
     <script>
         var package = "r-cellosaurus";
-        var versions = ["0.3.4"];
+        var versions = ["0.4.1","0.4.0","0.3.4"];
     </script>
 
 

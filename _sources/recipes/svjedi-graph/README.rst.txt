@@ -27,12 +27,12 @@ svjedi-graph
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends graphaligner: ``1.0.12.*``
+   :depends minigraph: 
    :depends numpy: 
    :depends python: ``>=3.8.13``
    :requirements:
@@ -66,7 +66,7 @@ svjedi-graph
 
     <script>
         var package = "svjedi-graph";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

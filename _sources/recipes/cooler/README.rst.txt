@@ -12,7 +12,7 @@ cooler
 
    Sparse binary format for genomic interaction matrices
 
-   :homepage: https://github.com/mirnylab/cooler
+   :homepage: https://github.com/open2c/cooler
    :license: BSD / BSD-3-Clause
    :recipe: /`cooler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cooler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cooler/meta.yaml>`_
    :links: doi: :doi:`0.1093/bioinformatics/btz540`
@@ -29,10 +29,10 @@ cooler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.11-2</code>,  <code>0.8.11-1</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.11-2</code>,  <code>0.8.11-1</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  </span></summary>
       
 
-      ``0.8.11-2``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-4``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.0-0``
+      ``0.9.0-0``,  ``0.8.11-2``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-4``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.0-0``
 
       
       .. raw:: html
@@ -48,16 +48,15 @@ cooler
    :depends h5py: ``>=2.5``
    :depends hdf5: 
    :depends multiprocess: 
-   :depends numpy: ``>=1.9,<1.24``
+   :depends numpy: ``>=1.9``
    :depends pairix: 
-   :depends pandas: 
+   :depends pandas: ``>1.0``
    :depends pyfaidx: 
    :depends pysam: ``>0.8``
    :depends python: 
    :depends pyyaml: 
    :depends scipy: 
    :depends simplejson: 
-   :depends six: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +88,7 @@ cooler
 
     <script>
         var package = "cooler";
-        var versions = ["0.8.11","0.8.11","0.8.11","0.8.10","0.8.9"];
+        var versions = ["0.9.0","0.8.11","0.8.11","0.8.11","0.8.10"];
     </script>
 
 

@@ -28,10 +28,10 @@ ggcaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  </span></summary>
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ ggcaller
    :depends biopython: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cd-hit: 
-   :depends diamond: 
+   :depends diamond: ``>=2.0``
    :depends gffutils: 
    :depends hmmer: 
    :depends intbitset: 
@@ -56,9 +56,11 @@ ggcaller
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mafft: 
    :depends matplotlib-base: 
+   :depends mkl: ``>=2022.2.1,<2023.0a0``
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
+   :depends pthread-stubs: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: 
    :depends python-wget: 
@@ -112,7 +114,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.3.2","1.3.1","1.3.0","1.3.0","1.2.4"];
+        var versions = ["1.3.3","1.3.2","1.3.1","1.3.0","1.3.0"];
     </script>
 
 

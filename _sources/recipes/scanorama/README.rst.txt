@@ -28,14 +28,14 @@ scanorama
       
       
 
-      ``1.7.1-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``
+      ``1.7.3-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``
 
       
 
    
    :depends fbpca: ``>=1.0``
    :depends geosketch: ``>=1``
-   :depends intervaltree: ``2.1``
+   :depends intervaltree: ``>=3.1.0``
    :depends matplotlib-base: ``>=2.0.2``
    :depends numpy: ``>=1.12``
    :depends python: ``>=3.6``
@@ -73,7 +73,7 @@ scanorama
 
     <script>
         var package = "scanorama";
-        var versions = ["1.7.1","1.7","1.6","1.5.2","1.5.1"];
+        var versions = ["1.7.3","1.7.1","1.7","1.6","1.5.2"];
     </script>
 
 

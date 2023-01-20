@@ -28,7 +28,7 @@ hla-la
       
       
 
-      ``1.0.3-0``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -38,17 +38,17 @@ hla-la
    :depends bwa: ``0.7.12``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mummer: 
    :depends perl-bio-db-hts: 
    :depends perl-bio-featureio: 
    :depends perl-bioperl: 
-   :depends perl-bioperl-core: 
+   :depends perl-bioperl-core: ``1.7.8.*``
    :depends perl-list-moreutils: 
    :depends perl-text-levenshtein: 
    :depends picard: 
    :depends r-base: ``4.*``
-   :depends samtools: ``1.10``
+   :depends samtools: ``>=1.10``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ hla-la
 
     <script>
         var package = "hla-la";
-        var versions = ["1.0.3","1.0.1","1.0.1","1.0.1","1.0"];
+        var versions = ["1.0.3","1.0.3","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

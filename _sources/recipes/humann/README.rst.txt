@@ -27,16 +27,24 @@ humann
    :versions:
       
       
+      .. raw:: html
 
-      ``3.6-1``,  ``3.6-0``,  ``3.5-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``3.0.0a4-0``
+         <details><summary><span class="truncated-version-list"><code>3.6-2</code>,  <code>3.6-1</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-1</code>,  </span></summary>
+      
 
+      ``3.6-2``,  ``3.6-1``,  ``3.6-0``,  ``3.5-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``3.0.0a4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bowtie2: ``>2.1``
    :depends diamond: ``>=0.9.36``
    :depends glpk: 
-   :depends metaphlan: ``>=3.1``
+   :depends metaphlan: ``>=4.0``
    :depends python: 
    :requirements:
 
@@ -69,7 +77,7 @@ humann
 
     <script>
         var package = "humann";
-        var versions = ["3.6","3.6","3.5","3.1.1","3.1.0"];
+        var versions = ["3.6","3.6","3.6","3.5","3.1.1"];
     </script>
 
 

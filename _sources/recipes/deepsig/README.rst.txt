@@ -27,13 +27,14 @@ deepsig
       
       
 
-      ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends biopython: ``>=1.78``
    :depends keras: ``2.4.3.*``
+   :depends numpy: ``1.23.*``
    :depends python: ``=3.8,<3.9``
    :depends tensorflow: ``2.2.0.*``
    :requirements:
@@ -67,7 +68,7 @@ deepsig
 
     <script>
         var package = "deepsig";
-        var versions = ["1.2.5","1.2.4","1.2.3","1.0","1.0"];
+        var versions = ["1.2.5","1.2.5","1.2.4","1.2.3","1.0"];
     </script>
 
 
