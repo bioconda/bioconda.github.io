@@ -28,10 +28,10 @@ hicmatrix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>16-0</code>,  <code>15-0</code>,  <code>14-0</code>,  <code>13-0</code>,  <code>12-0</code>,  <code>11-0</code>,  <code>10-1</code>,  <code>10-0</code>,  <code>9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>17-0</code>,  <code>16-0</code>,  <code>15-0</code>,  <code>14-0</code>,  <code>13-0</code>,  <code>12-0</code>,  <code>11-0</code>,  <code>10-1</code>,  <code>10-0</code>,  </span></summary>
       
 
-      ``16-0``,  ``15-0``,  ``14-0``,  ``13-0``,  ``12-0``,  ``11-0``,  ``10-1``,  ``10-0``,  ``9-0``,  ``8-0``,  ``7-0``,  ``6-1``,  ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2.2-1``,  ``2.2-0``
+      ``17-0``,  ``16-0``,  ``15-0``,  ``14-0``,  ``13-0``,  ``12-0``,  ``11-0``,  ``10-1``,  ``10-0``,  ``9-0``,  ``8-0``,  ``7-0``,  ``6-1``,  ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2.2-1``,  ``2.2-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ hicmatrix
 
    
    :depends cooler: ``>=0.8.10``
-   :depends intervaltree: 
-   :depends numpy: ``>=1.16``
-   :depends pandas: 
-   :depends pytables: 
-   :depends python: ``>=3``
-   :depends scipy: 
+   :depends intervaltree: ``>=3.0.*``
+   :depends numpy: ``>=1.20``
+   :depends pandas: ``>=0.25.*``
+   :depends pytables: ``>=3.5.*``
+   :depends python: ``>=3.7``
+   :depends scipy: ``>=1.2.*``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +78,7 @@ hicmatrix
 
     <script>
         var package = "hicmatrix";
-        var versions = ["16","15","14","13","12"];
+        var versions = ["17","16","15","14","13"];
     </script>
 
 
