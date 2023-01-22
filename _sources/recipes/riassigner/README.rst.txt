@@ -28,7 +28,7 @@ riassigner
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -36,7 +36,7 @@ riassigner
    :depends matchms: ``>=0.9.1``
    :depends numpy: 
    :depends pandas: 
-   :depends pint: ``>=0.17``
+   :depends pint: ``>=0.17,<0.20``
    :depends python: ``>=3.7,<3.9``
    :depends scipy: 
    :requirements:
@@ -70,7 +70,7 @@ riassigner
 
     <script>
         var package = "riassigner";
-        var versions = ["0.3.3","0.3.2","0.3.1","0.3.0","0.2.0"];
+        var versions = ["0.3.3","0.3.3","0.3.2","0.3.1","0.3.0"];
     </script>
 
 

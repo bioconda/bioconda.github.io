@@ -27,7 +27,7 @@ sctagger
       
       
 
-      ``1.0.1-0``
+      ``1.1-0``,  ``1.0.1-0``
 
       
 
@@ -35,6 +35,7 @@ sctagger
    :depends matplotlib-base: 
    :depends numpy: ``>=1.16``
    :depends pandas: 
+   :depends pyahocorasick: 
    :depends pysam: ``>=0.15``
    :depends python: ``>=3.8``
    :depends python-edlib: 
@@ -70,7 +71,7 @@ sctagger
 
     <script>
         var package = "sctagger";
-        var versions = ["1.0.1"];
+        var versions = ["1.1","1.0.1"];
     </script>
 
 

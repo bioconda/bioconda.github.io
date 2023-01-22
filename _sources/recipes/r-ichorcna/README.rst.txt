@@ -12,7 +12,7 @@ r-ichorcna
 
    Estimating tumor fraction in cell\-free DNA from ultra\-low\-pass whole genome sequencing.
 
-   :homepage: https://github.com/broadinstitute/ichorCNA
+   :homepage: https://github.com/GavinHaLab/ichorCNA
    :license: GPL-3.0-only
    :recipe: /`r-ichorcna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ichorcna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ichorcna/meta.yaml>`_
 
