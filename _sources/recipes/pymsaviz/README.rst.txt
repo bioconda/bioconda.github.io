@@ -27,14 +27,14 @@ pymsaviz
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
    :depends biopython: ``>=1.79,<2.0``
    :depends matplotlib-base: ``>=3.5.2,<4.0.0``
-   :depends python: ``>=3.7,<4.0``
+   :depends python: ``>=3.8,<4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ pymsaviz
 
     <script>
         var package = "pymsaviz";
-        var versions = ["0.2.1","0.2.0"];
+        var versions = ["0.2.2","0.2.1","0.2.0"];
     </script>
 
 

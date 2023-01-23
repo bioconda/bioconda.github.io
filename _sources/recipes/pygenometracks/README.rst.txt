@@ -28,10 +28,10 @@ pygenometracks
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7-0</code>,  <code>3.6-0</code>,  <code>3.5.1-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-0</code>,  <code>3.3-1</code>,  <code>3.3-0</code>,  <code>3.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8-0</code>,  <code>3.7-0</code>,  <code>3.6-0</code>,  <code>3.5.1-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-0</code>,  <code>3.3-1</code>,  <code>3.3-0</code>,  </span></summary>
       
 
-      ``3.7-0``,  ``3.6-0``,  ``3.5.1-0``,  ``3.5-1``,  ``3.5-0``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0-0``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.0-0``,  ``0.1-0``
+      ``3.8-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5.1-0``,  ``3.5-1``,  ``3.5-0``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0-0``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.0-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ pygenometracks
    :depends gffutils: ``>=0.9``
    :depends hicmatrix: ``>=15``
    :depends intervaltree: ``>=2.1.0``
-   :depends matplotlib-base: ``>=3.1.1,<=3.5.1``
-   :depends numpy: ``>=1.16``
+   :depends matplotlib-base: ``>=3.1.1,<=3.6.2``
+   :depends numpy: ``>=1.20``
    :depends pybedtools: ``>=0.8.1``
    :depends pybigwig: ``>=0.3.16``
    :depends pyfaidx: ``>=0.1.3``
@@ -84,7 +84,7 @@ pygenometracks
 
     <script>
         var package = "pygenometracks";
-        var versions = ["3.7","3.6","3.5.1","3.5","3.5"];
+        var versions = ["3.8","3.7","3.6","3.5.1","3.5"];
     </script>
 
 

@@ -27,18 +27,24 @@ r-ichorcna
       
       
 
-      ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
+      ``0.5.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
 
       
 
    
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.3,<1.5.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.4,<1.5.0``
    :depends bioconductor-genomeinfodb: ``>=1.26.7``
    :depends bioconductor-genomicranges: ``>=1.42.0``
    :depends bioconductor-hmmcopy: ``>=1.32.0``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-domc: ``>=1.3.6``
+   :depends r-foreach: ``>=1.5.0``
+   :depends r-ggplot2: ``>=3.3.5``
    :depends r-optparse: 
    :depends r-plyr: 
+   :depends r-stringr: ``>=1.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +76,7 @@ r-ichorcna
 
     <script>
         var package = "r-ichorcna";
-        var versions = ["0.3.2","0.3.2","0.3.2","0.2.0","0.2.0"];
+        var versions = ["0.5.0","0.3.2","0.3.2","0.3.2","0.2.0"];
     </script>
 
 
