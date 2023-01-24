@@ -27,11 +27,12 @@ spec2vec
       
       
 
-      ``0.6.0-0``
+      ``0.8.0-0``,  ``0.6.0-0``
 
       
 
    
+   :depends fuzzytm: 
    :depends gensim: ``>=4.0.0``
    :depends matchms: ``>=0.11.0``
    :depends numba: ``>=0.51``
@@ -69,7 +70,7 @@ spec2vec
 
     <script>
         var package = "spec2vec";
-        var versions = ["0.6.0"];
+        var versions = ["0.8.0","0.6.0"];
     </script>
 
 

@@ -29,7 +29,7 @@ psm-utils
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -74,7 +74,7 @@ psm-utils
 
     <script>
         var package = "psm-utils";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.2.1","0.2.0","0.1.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ eukulele
       
       
 
-      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.0.3-3``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -46,6 +46,7 @@ eukulele
    :depends pyyaml: 
    :depends seaborn-base: 
    :depends ujson: 
+   :depends wget: ``1.21.3``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +78,7 @@ eukulele
 
     <script>
         var package = "eukulele";
-        var versions = ["2.0.3","2.0.2","2.0.1","2.0.1","1.0.6"];
+        var versions = ["2.0.3","2.0.3","2.0.2","2.0.1","2.0.1"];
     </script>
 
 
