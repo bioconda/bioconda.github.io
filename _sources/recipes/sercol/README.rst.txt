@@ -1,0 +1,92 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'sercol'
+.. highlight: bash
+
+sercol
+======
+
+.. conda:recipe:: sercol
+   :replaces_section_title:
+   :noindex:
+
+   Rich collection class with grouping and filtering helpers
+
+   :homepage: https://github.com/openvax/sercol
+   :license: APACHE / Apache Software
+   :recipe: /`sercol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sercol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sercol/meta.yaml>`_
+
+   
+
+
+.. conda:package:: sercol
+
+   |downloads_sercol| |docker_sercol|
+
+   :versions:
+      
+      
+
+      ``0.1.4-0``
+
+      
+
+   
+   :depends pandas: 
+   :depends python: 
+   :depends serializable: 
+   :depends simplejson: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sercol
+
+   and update with::
+
+      conda update sercol
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/sercol:<tag>
+
+   (see `sercol/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_sercol| image:: https://img.shields.io/conda/dn/bioconda/sercol.svg?style=flat
+   :target: https://anaconda.org/bioconda/sercol
+   :alt:   (downloads)
+.. |docker_sercol| image:: https://quay.io/repository/biocontainers/sercol/status
+   :target: https://quay.io/repository/biocontainers/sercol
+.. _`sercol/tags`: https://quay.io/repository/biocontainers/sercol?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "sercol";
+        var versions = ["0.1.4"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sercol/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sercol/README.html

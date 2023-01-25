@@ -28,19 +28,28 @@ pharokka
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  </span></summary>
+      
 
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends aragorn: ``>=1.2.41``
    :depends bcbio-gff: 
    :depends biopython: ``>=1.78``
+   :depends mash: ``>=2.2``
    :depends minced: ``>=0.4.2``
    :depends mmseqs2: ``13.45111``
    :depends phanotate: ``>=1.5.0``
-   :depends prodigal: ``>=2.6.3``
+   :depends pyrodigal: ``>=2.0.1``
    :depends trnascan-se: ``>=2.0.9``
    :requirements:
 
@@ -73,7 +82,7 @@ pharokka
 
     <script>
         var package = "pharokka";
-        var versions = ["1.1.0","1.0.1","1.0.0","0.1.11","0.1.10"];
+        var versions = ["1.2.0","1.1.0","1.0.1","1.0.0","0.1.11"];
     </script>
 
 

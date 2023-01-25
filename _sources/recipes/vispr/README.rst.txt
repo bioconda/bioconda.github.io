@@ -28,10 +28,10 @@ vispr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.17-0</code>,  <code>0.4.16-0</code>,  <code>0.4.15-0</code>,  <code>0.4.14-2</code>,  <code>0.4.14-1</code>,  <code>0.4.14-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.17-1</code>,  <code>0.4.17-0</code>,  <code>0.4.16-0</code>,  <code>0.4.15-0</code>,  <code>0.4.14-2</code>,  <code>0.4.14-1</code>,  <code>0.4.14-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-0</code>,  </span></summary>
       
 
-      ``0.4.17-0``,  ``0.4.16-0``,  ``0.4.15-0``,  ``0.4.14-2``,  ``0.4.14-1``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``
+      ``0.4.17-1``,  ``0.4.17-0``,  ``0.4.16-0``,  ``0.4.15-0``,  ``0.4.14-2``,  ``0.4.14-1``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ vispr
    
    :depends appdirs: 
    :depends flask: 
-   :depends numpy: ``>=1.10``
+   :depends numpy: ``1.10.*``
    :depends pandas: 
    :depends python: ``>=3``
    :depends pyyaml: 
@@ -79,7 +79,7 @@ vispr
 
     <script>
         var package = "vispr";
-        var versions = ["0.4.17","0.4.16","0.4.15","0.4.14","0.4.14"];
+        var versions = ["0.4.17","0.4.17","0.4.16","0.4.15","0.4.14"];
     </script>
 
 
