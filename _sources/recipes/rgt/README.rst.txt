@@ -30,20 +30,21 @@ rgt
       
       
 
-      ``0.12.3-3``,  ``0.12.3-2``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
+      ``1.0.0-0``,  ``0.12.3-3``,  ``0.12.3-2``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
 
       
 
    
-   :depends biopython: ``>=1.64``
-   :depends configparser: 
-   :depends fisher: ``>=0.1.5``
-   :depends hmmlearn: ``>=0.2``
+   :depends adjusttext: 
+   :depends biopython: 
+   :depends fisher: 
+   :depends hmmlearn: ``0.2.2``
    :depends htseq: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends joblib: 
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends logomaker: 
-   :depends matplotlib: ``>=1.1.0``
+   :depends matplotlib-base: 
    :depends matplotlib-venn: 
    :depends moods: 
    :depends mpmath: 
@@ -51,19 +52,18 @@ rgt
    :depends numpy: 
    :depends pandas: 
    :depends pybigwig: 
-   :depends pysam: ``>=0.12.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends pyvcf: 
+   :depends pysam: ``>=0.20.0``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends pyx: 
-   :depends scikit-learn: ``>=0.19.0,<0.20.0``
-   :depends scipy: ``>=1.0.0``
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn: 
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-bigbedtobed: 
    :depends ucsc-bigwigmerge: 
    :depends ucsc-wigtobigwig: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +95,7 @@ rgt
 
     <script>
         var package = "rgt";
-        var versions = ["0.12.3","0.12.3","0.12.3","0.12.3","0.12.2"];
+        var versions = ["1.0.0","0.12.3","0.12.3","0.12.3","0.12.3"];
     </script>
 
 

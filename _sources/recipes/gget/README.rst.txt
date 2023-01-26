@@ -31,10 +31,10 @@ gget
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.27.2-0</code>,  <code>0.27.0-0</code>,  <code>0.3.13-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.7-0</code>,  <code>0.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.27.2-1</code>,  <code>0.27.2-0</code>,  <code>0.27.0-0</code>,  <code>0.3.13-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.7-0</code>,  </span></summary>
       
 
-      ``0.27.2-0``,  ``0.27.0-0``,  ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.7-0``,  ``0.3.5-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.24-0``
+      ``0.27.2-1``,  ``0.27.2-0``,  ``0.27.0-0``,  ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.7-0``,  ``0.3.5-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.24-0``
 
       
       .. raw:: html
@@ -44,11 +44,14 @@ gget
 
    
    :depends beautifulsoup4: ``>=4.10.0``
+   :depends curl: ``>=7.87.0,<8.0a0``
    :depends ipython: 
    :depends ipywidgets: 
+   :depends lxml: 
    :depends matplotlib-base: 
    :depends mysql-connector-python: ``>=8.0.5,<=8.0.29``
    :depends numpy: ``>=1.17.2``
+   :depends openmm: ``>=7.5.1``
    :depends pandas: ``>=1.0.0``
    :depends py3dmol: ``>=1.8.0``
    :depends python: ``>=3.6``
@@ -85,7 +88,7 @@ gget
 
     <script>
         var package = "gget";
-        var versions = ["0.27.2","0.27.0","0.3.13","0.3.12","0.3.11"];
+        var versions = ["0.27.2","0.27.2","0.27.0","0.3.13","0.3.12"];
     </script>
 
 
