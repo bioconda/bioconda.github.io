@@ -13,12 +13,14 @@ graphbin
    GraphBin\: Refined binning of metagenomic contigs using assembly graphs
 
    :homepage: https://github.com/Vini2/GraphBin
-   :documentation: https://doi.org/10.1093/bioinformatics/btaa180
+   :documentation: https://graphbin.readthedocs.io/
    
-   :license: GPL / GPL-2.0
+   :license: BSD-3
    :recipe: /`graphbin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphbin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphbin/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaa180`
 
-   
+   GraphBin is a metagenomic contig bin\-refinement tool that makes use of assembly graphs.
+
 
 
 .. conda:package:: graphbin
@@ -29,7 +31,7 @@ graphbin
       
       
 
-      ``1.5-0``
+      ``1.6.1-0``,  ``1.5-0``
 
       
 
@@ -38,6 +40,7 @@ graphbin
    :depends cairocffi: 
    :depends python: ``>=3.7.1``
    :depends python-igraph: ``>=0.7.21``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +72,7 @@ graphbin
 
     <script>
         var package = "graphbin";
-        var versions = ["1.5"];
+        var versions = ["1.6.1","1.5"];
     </script>
 
 
