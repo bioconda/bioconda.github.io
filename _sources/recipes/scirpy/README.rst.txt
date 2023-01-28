@@ -30,10 +30,10 @@ scirpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  </span></summary>
       
 
-      ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ scirpy
       
 
    
-   :depends adjusttext: 
+   :depends adjusttext: ``>=0.7``
    :depends airr: ``>=1.2``
    :depends anndata: ``>=0.7.6``
    :depends networkx: ``>=2.5``
    :depends numba: ``>=0.41.0``
-   :depends numpy: 
+   :depends numpy: ``>=0.17.0``
    :depends pandas: ``>=1.0``
    :depends parasail-python: 
    :depends python: ``>=3.7``
@@ -89,7 +89,7 @@ scirpy
 
     <script>
         var package = "scirpy";
-        var versions = ["0.11.2","0.11.1","0.11.0","0.10.1","0.10.0"];
+        var versions = ["0.12.0","0.11.2","0.11.1","0.11.0","0.10.1"];
     </script>
 
 
