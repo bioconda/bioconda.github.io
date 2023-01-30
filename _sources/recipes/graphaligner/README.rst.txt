@@ -28,10 +28,10 @@ graphaligner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.16-1</code>,  <code>1.0.16-0</code>,  <code>1.0.15-1</code>,  <code>1.0.15-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.17-0</code>,  <code>1.0.16-1</code>,  <code>1.0.16-0</code>,  <code>1.0.15-1</code>,  <code>1.0.15-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  </span></summary>
       
 
-      ``1.0.16-1``,  ``1.0.16-0``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.17-0``,  ``1.0.16-1``,  ``1.0.16-0``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ graphaligner
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ graphaligner
 
     <script>
         var package = "graphaligner";
-        var versions = ["1.0.16","1.0.16","1.0.15","1.0.15","1.0.14"];
+        var versions = ["1.0.17","1.0.16","1.0.16","1.0.15","1.0.15"];
     </script>
 
 

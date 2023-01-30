@@ -35,7 +35,7 @@ b2b-utils
       
       
 
-      ``0.017-0``
+      ``0.018-0``,  ``0.017-0``
 
       
 
@@ -78,7 +78,7 @@ b2b-utils
 
     <script>
         var package = "b2b-utils";
-        var versions = ["0.017"];
+        var versions = ["0.018","0.017"];
     </script>
 
 

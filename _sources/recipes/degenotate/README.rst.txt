@@ -27,7 +27,7 @@ degenotate
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -35,6 +35,7 @@ degenotate
    :depends networkx: 
    :depends pysam: 
    :depends python: ``>=3.10``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +67,7 @@ degenotate
 
     <script>
         var package = "degenotate";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-autodie
       
       
 
-      ``2.34-0``,  ``2.29-1``,  ``2.29-0``
+      ``2.35-0``,  ``2.34-0``,  ``2.29-1``,  ``2.29-0``
 
       
 
@@ -69,7 +69,7 @@ perl-autodie
 
     <script>
         var package = "perl-autodie";
-        var versions = ["2.34","2.29","2.29"];
+        var versions = ["2.35","2.34","2.29","2.29"];
     </script>
 
 
