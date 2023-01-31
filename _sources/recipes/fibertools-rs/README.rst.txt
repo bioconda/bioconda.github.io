@@ -28,10 +28,10 @@ fibertools-rs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.0-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  </span></summary>
       
 
-      ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-0``
+      ``0.1.0-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ fibertools-rs
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libcurl: ``>=7.86.0,<8.0a0``
+   :depends libcurl: ``>=7.87.0,<8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends openssl: ``>=1.1.1s,<1.1.2a``
@@ -77,7 +77,7 @@ fibertools-rs
 
     <script>
         var package = "fibertools-rs";
-        var versions = ["0.0.11","0.0.10","0.0.8","0.0.7","0.0.6"];
+        var versions = ["0.1.0","0.0.11","0.0.10","0.0.8","0.0.7"];
     </script>
 
 

@@ -32,7 +32,7 @@ pegasuspy
       
       
 
-      ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -57,7 +57,6 @@ pegasuspy
    :depends pandas: ``>=1.2.0``
    :depends pegasusio: ``>=0.5.1``
    :depends psutil: 
-   :depends pyarrow: ``>=9``
    :depends pybind11: 
    :depends pyfit-sne: ``>=1.1.1``
    :depends python: ``>=3.7,<3.8.0a0``
@@ -103,7 +102,7 @@ pegasuspy
 
     <script>
         var package = "pegasuspy";
-        var versions = ["1.7.1","1.6.0","1.5.0","1.2.0","1.2.0"];
+        var versions = ["1.7.1","1.7.1","1.6.0","1.5.0","1.2.0"];
     </script>
 
 
