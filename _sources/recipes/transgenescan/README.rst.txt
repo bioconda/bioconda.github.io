@@ -13,7 +13,7 @@ transgenescan
    Software tool for finding genes in assembled transcripts from metatranscriptomic sequences.
 
    :homepage: https://github.com/COL-IU/TransGeneScan
-   :license: file
+   :license: GPL-3.0-only
    :recipe: /`transgenescan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transgenescan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transgenescan/meta.yaml>`_
    :links: biotools: :biotools:`TransGeneScan`, doi: :doi:`10.1186/1471-2105-15-S9-S8`
 
@@ -28,12 +28,12 @@ transgenescan
       
       
 
-      ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
+      ``1.3.0-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ transgenescan
 
     <script>
         var package = "transgenescan";
-        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1"];
+        var versions = ["1.3.0","1.2.1","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

@@ -26,17 +26,24 @@ pygenomeviz
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+      
 
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: ``>=1.79,<2.0``
-   :depends matplotlib-base: ``>=3.5.2,<4.0.0``
-   :depends numpy: ``>=1.21,<2.0``
-   :depends python: ``>=3.7,<4.0``
-   :depends typing-extensions: ``>=4.3.0,<5.0.0``
+   :depends biopython: ``>=1.79``
+   :depends matplotlib-base: ``>=3.5.2``
+   :depends numpy: ``>=1.21``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +75,7 @@ pygenomeviz
 
     <script>
         var package = "pygenomeviz";
-        var versions = ["0.3.1","0.3.0","0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.3.2","0.3.1","0.3.0","0.2.3","0.2.2"];
     </script>
 
 
