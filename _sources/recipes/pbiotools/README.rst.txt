@@ -27,25 +27,27 @@ pbiotools
       
       
 
-      ``3.0.0-0``,  ``2.0.0-0``
+      ``4.0.0-0``,  ``3.0.0-0``,  ``2.0.0-0``
 
       
 
    
-   :depends appdirs: 
    :depends biopython: 
    :depends dask: 
    :depends fastparquet: 
+   :depends joblib: 
    :depends matplotlib-base: 
    :depends matplotlib-venn: 
    :depends more-itertools: 
    :depends mygene: 
+   :depends numpy: 
    :depends openpyxl: 
-   :depends pybedtools: 
+   :depends pandas: 
    :depends pyensembl: 
    :depends pysam: 
    :depends python: 
    :depends scikit-learn: 
+   :depends scipy: 
    :depends seaborn: 
    :depends tqdm: 
    :requirements:
@@ -79,7 +81,7 @@ pbiotools
 
     <script>
         var package = "pbiotools";
-        var versions = ["3.0.0","2.0.0"];
+        var versions = ["4.0.0","3.0.0","2.0.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ dastk
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -74,7 +74,7 @@ dastk
 
     <script>
         var package = "dastk";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

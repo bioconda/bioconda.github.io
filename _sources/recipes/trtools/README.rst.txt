@@ -31,10 +31,10 @@ trtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.1-0</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.0.3-0</code>,  </span></summary>
       
 
-      ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
+      ``5.0.1-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
 
       
       .. raw:: html
@@ -52,6 +52,7 @@ trtools
    :depends python: ``>=3.5``
    :depends scikit-learn: ``>=0.23.1``
    :depends scipy: ``>=1.4.1``
+   :depends statsmodels: ``>=0.13.5``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +84,7 @@ trtools
 
     <script>
         var package = "trtools";
-        var versions = ["4.2.1","4.1.0","4.0.2","4.0.1","4.0.0"];
+        var versions = ["5.0.1","4.2.1","4.1.0","4.0.2","4.0.1"];
     </script>
 
 

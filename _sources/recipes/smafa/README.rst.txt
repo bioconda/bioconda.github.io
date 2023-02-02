@@ -10,7 +10,7 @@ smafa
    :replaces_section_title:
    :noindex:
 
-   smafa is a tool for querying and clustering pre\-aligned small pre\-aligned DNA and amino acid sequences.
+   smafa is a tool for querying and clustering pre\-aligned small pre\-aligned sequences.
 
    :homepage: https://github.com/wwood/smafa
    :license: GPL3
@@ -27,12 +27,12 @@ smafa
       
       
 
-      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.6.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ smafa
 
     <script>
         var package = "smafa";
-        var versions = ["0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.6.1","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

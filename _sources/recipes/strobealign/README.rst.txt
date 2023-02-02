@@ -12,8 +12,8 @@ strobealign
 
    Align short reads using dynamic seed size with strobemers
 
-   :homepage: https://github.com/ksahlin/StrobeAlign
-   :license: GPL
+   :homepage: https://github.com/ksahlin/strobealign
+   :license: MIT
    :recipe: /`strobealign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strobealign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strobealign/meta.yaml>`_
 
    
@@ -27,15 +27,15 @@ strobealign
       
       
 
-      ``0.7.1-1``,  ``0.7.1-0``
+      ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ strobealign
 
     <script>
         var package = "strobealign";
-        var versions = ["0.7.1","0.7.1"];
+        var versions = ["0.8.0","0.7.1","0.7.1"];
     </script>
 
 

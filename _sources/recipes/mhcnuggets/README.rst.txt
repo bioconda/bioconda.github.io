@@ -52,17 +52,19 @@ mhcnuggets
       
       
 
-      ``2.3.2-0``,  ``2.3.1-0``,  ``2.2-0``
+      ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2-0``
 
       
 
    
    :depends keras: 
-   :depends numpy: ``>=1.16.1``
-   :depends python: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``3.6.*``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends tensorflow: ``1.13.1.*``
+   :depends tensorflow: 
+   :depends varcode: 
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +96,7 @@ mhcnuggets
 
     <script>
         var package = "mhcnuggets";
-        var versions = ["2.3.2","2.3.1","2.2"];
+        var versions = ["2.4.0","2.3.2","2.3.1","2.2"];
     </script>
 
 

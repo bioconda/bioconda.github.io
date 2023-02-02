@@ -27,7 +27,7 @@ taxpasta
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -69,7 +69,7 @@ taxpasta
 
     <script>
         var package = "taxpasta";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

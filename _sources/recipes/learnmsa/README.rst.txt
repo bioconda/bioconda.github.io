@@ -27,7 +27,7 @@ learnmsa
       
       
 
-      ``1.0.1-0``
+      ``1.1.1-0``,  ``1.0.1-0``
 
       
 
@@ -35,6 +35,7 @@ learnmsa
    :depends logomaker: 
    :depends networkx: 
    :depends python: ``>=3.7``
+   :depends seaborn: 
    :depends tensorflow: ``>=2.7.0``
    :requirements:
 
@@ -67,7 +68,7 @@ learnmsa
 
     <script>
         var package = "learnmsa";
-        var versions = ["1.0.1"];
+        var versions = ["1.1.1","1.0.1"];
     </script>
 
 
