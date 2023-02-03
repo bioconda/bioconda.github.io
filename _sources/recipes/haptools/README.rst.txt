@@ -27,7 +27,7 @@ haptools
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.2-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -35,6 +35,7 @@ haptools
    :depends click: ``>=8.0.3``
    :depends cyvcf2: ``>=0.30.14``
    :depends matplotlib-base: ``>=3.5.1``
+   :depends numpy: ``>=1.20.0``
    :depends pysam: ``>=0.19.0``
    :depends python: ``>=3.7,<3.11``
    :requirements:
@@ -68,7 +69,7 @@ haptools
 
     <script>
         var package = "haptools";
-        var versions = ["0.0.3","0.0.2"];
+        var versions = ["0.1.2","0.0.3","0.0.2"];
     </script>
 
 
