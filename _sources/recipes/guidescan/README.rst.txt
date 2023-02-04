@@ -27,11 +27,12 @@ guidescan
       
       
 
-      ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``2.1.2-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
+   :depends libcurl: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -65,7 +66,7 @@ guidescan
 
     <script>
         var package = "guidescan";
-        var versions = ["2.0.0","1.2","1.2","1.0","1.0"];
+        var versions = ["2.1.2","2.0.0","1.2","1.2","1.0"];
     </script>
 
 
