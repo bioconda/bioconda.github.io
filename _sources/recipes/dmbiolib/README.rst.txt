@@ -29,7 +29,7 @@ dmbiolib
       
       
 
-      ``0.3.7-0``
+      ``0.3.8-0``,  ``0.3.7-0``
 
       
 
@@ -68,7 +68,7 @@ dmbiolib
 
     <script>
         var package = "dmbiolib";
-        var versions = ["0.3.7"];
+        var versions = ["0.3.8","0.3.7"];
     </script>
 
 
