@@ -28,13 +28,13 @@ primalscheme
       
       
 
-      ``1.4.0-0``,  ``1.3.2-0``
+      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.2-0``
 
       
 
    
    :depends biopython: ``>=1,<2``
-   :depends click: ``>=7.1.2``
+   :depends click: ``>=8.1.3``
    :depends parasail-python: ``>=1.2``
    :depends primer3-py: ``>=0,<1``
    :depends progress: ``>=1.5``
@@ -71,7 +71,7 @@ primalscheme
 
     <script>
         var package = "primalscheme";
-        var versions = ["1.4.0","1.3.2"];
+        var versions = ["1.4.1","1.4.0","1.3.2"];
     </script>
 
 

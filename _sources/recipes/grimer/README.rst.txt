@@ -10,14 +10,14 @@ grimer
    :replaces_section_title:
    :noindex:
 
-   GRIMER perform analysis of microbiome data and generates a portable and interactive dashboard
+   GRIMER performs analysis of microbiome studies and generates a portable and interactive dashboard
 
    :homepage: https://github.com/pirovc/grimer
    :license: MIT / MIT License
    :recipe: /`grimer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grimer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grimer/meta.yaml>`_
 
-   GRIMER perform analysis of microbiome data and generates a portable and interactive dashboard
-   integrating annotation\, taxonomy and metadata with focus on contamination detection.
+   GRIMER performs analysis of microbiome studies and generates a portable and interactive dashboard 
+   integrating annotation\, taxonomy and metadata with focus on contamination detection. 
 
 
 
@@ -29,7 +29,7 @@ grimer
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -39,7 +39,7 @@ grimer
    :depends bokeh: ``2.2.3``
    :depends jinja2: ``3.0.3``
    :depends markdown: 
-   :depends multitax: ``1.1.1``
+   :depends multitax: ``>=1.2.1``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.5``
@@ -78,7 +78,7 @@ grimer
 
     <script>
         var package = "grimer";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.1.0","1.0.0","1.0.0"];
     </script>
 
 
