@@ -10,7 +10,7 @@ straindesign
    :replaces_section_title:
    :noindex:
 
-   Cli interface to predict gene knockout targets with an heterologous pathway
+   Library to perform metabolic engineering tasks
 
    :homepage: https://github.com/brsynth/straindesign
    :license: MIT
@@ -27,7 +27,7 @@ straindesign
       
       
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -89,7 +89,7 @@ straindesign
 
     <script>
         var package = "straindesign";
-        var versions = ["3.2.0","3.1.0","3.0.0"];
+        var versions = ["3.2.2","3.2.0","3.1.0","3.0.0"];
     </script>
 
 
