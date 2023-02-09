@@ -27,7 +27,7 @@ ngsderive
       
       
 
-      ``2.2.0-1``,  ``2.2.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -40,6 +40,7 @@ ngsderive
    :depends python: ``>=3.7``
    :depends rstr: ``>=2.2.6``
    :depends sortedcontainers: ``>=2.3.0``
+   :depends tabix: ``>=1.11``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ ngsderive
 
     <script>
         var package = "ngsderive";
-        var versions = ["2.2.0","2.2.0","1.2.0","1.1.0","1.0.2"];
+        var versions = ["2.2.0","2.2.0","2.2.0","1.2.0","1.1.0"];
     </script>
 
 
