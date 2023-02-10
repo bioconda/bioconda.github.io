@@ -30,7 +30,7 @@ phables
       
       
 
-      ``0.1.0-0``,  ``0.1.0b7-0``
+      ``0.1.1-0``,  ``0.1.0-0``,  ``0.1.0b7-0``
 
       
 
@@ -72,7 +72,7 @@ phables
 
     <script>
         var package = "phables";
-        var versions = ["0.1.0","0.1.0b7"];
+        var versions = ["0.1.1","0.1.0","0.1.0b7"];
     </script>
 
 

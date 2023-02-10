@@ -29,7 +29,7 @@ bactopia-gather
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ bactopia-gather
    :depends bbmap: ``>=39.01``
    :depends biopython: ``1.77.*``
    :depends coreutils: 
-   :depends fastq-dl: ``>=1.1.1``
+   :depends fastq-dl: ``>=2.0.0``
    :depends fastq-scan: ``>=1.0.1``
    :depends gsl: ``2.6.*``
    :depends mash: ``>=2.3``
@@ -47,7 +47,7 @@ bactopia-gather
    :depends python: ``>=3.6,<3.11``
    :depends rename: 
    :depends sed: 
-   :depends sra-tools: ``>=3.0.0``
+   :depends sra-tools: ``>=3.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ bactopia-gather
 
     <script>
         var package = "bactopia-gather";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 
