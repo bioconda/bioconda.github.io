@@ -27,7 +27,7 @@ ptgaul
       
       
 
-      ``1.0.4-0``
+      ``1.0.5-0``,  ``1.0.4-0``
 
       
 
@@ -70,7 +70,7 @@ ptgaul
 
     <script>
         var package = "ptgaul";
-        var versions = ["1.0.4"];
+        var versions = ["1.0.5","1.0.4"];
     </script>
 
 

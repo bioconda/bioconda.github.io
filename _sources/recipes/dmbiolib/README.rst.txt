@@ -13,9 +13,9 @@ dmbiolib
    Library of Python functions for bioinformatics
 
    :homepage: https://github.com/damienmarsic/dmbiolib
-   :documentation: https//dmbiolib.readthedocs.io
+   :documentation: https://dmbiolib.readthedocs.io/
    
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL-3.0
    :recipe: /`dmbiolib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dmbiolib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dmbiolib/meta.yaml>`_
 
    
@@ -29,14 +29,14 @@ dmbiolib
       
       
 
-      ``0.3.8-0``,  ``0.3.7-0``
+      ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``
 
       
 
    
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ dmbiolib
 
     <script>
         var package = "dmbiolib";
-        var versions = ["0.3.8","0.3.7"];
+        var versions = ["0.3.8","0.3.8","0.3.7"];
     </script>
 
 

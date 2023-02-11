@@ -27,7 +27,7 @@ pango_aliasor
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -64,7 +64,7 @@ pango_aliasor
 
     <script>
         var package = "pango_aliasor";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 
