@@ -27,12 +27,12 @@ assembly-scan
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2-0``
+      ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2-0``
 
       
 
    
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ assembly-scan
 
     <script>
         var package = "assembly-scan";
-        var versions = ["0.4.1","0.4.0","0.3.0","0.2"];
+        var versions = ["1.0.0","0.4.1","0.4.0","0.3.0","0.2"];
     </script>
 
 
