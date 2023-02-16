@@ -28,10 +28,10 @@ tbpore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -46,6 +46,7 @@ tbpore
    :depends loguru: ``>=0.5.3,<1.0``
    :depends minimap2: ``2.22.*``
    :depends mykrobe: ``0.12.*``
+   :depends nanoq: ``0.9.*``
    :depends networkx: ``>=2.8,<3.0``
    :depends pandas: ``>=1.4.2,<2.0``
    :depends psdm: ``0.1.*``
@@ -86,7 +87,7 @@ tbpore
 
     <script>
         var package = "tbpore";
-        var versions = ["0.4.1","0.4.0","0.4.0","0.3.2","0.3.1"];
+        var versions = ["0.6.0","0.5.0","0.4.1","0.4.0","0.4.0"];
     </script>
 
 

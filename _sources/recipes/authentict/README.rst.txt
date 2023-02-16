@@ -10,7 +10,7 @@ authentict
    :replaces_section_title:
    :noindex:
 
-   AuthentiCT estimates the proportion of present\-day DNA contamination in ancient DNA datasets generated from single\-stranded libraries.
+   Estimates present\-day DNA contamination in ancient DNA single\-stranded libraries.
 
    :homepage: https://github.com/StephanePeyregne/AuthentiCT
    :license: GPL3
@@ -28,11 +28,19 @@ authentict
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends numdifftools: ``>=0.9.39``
+   :depends numpy: ``>=1.17.2``
+   :depends pandas: ``>=0.25.1``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
+   :depends scipy: ``>=1.3``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +72,7 @@ authentict
 
     <script>
         var package = "authentict";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

@@ -28,11 +28,28 @@ r-chromium
       
       
 
-      
+      ``0.2.1-0``
 
       
 
    
+   :depends bioconductor-rhdf5: ``>=2.42.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.20.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0``
+   :depends r-acidbase: ``>=0.6.12``
+   :depends r-acidcli: ``>=0.2.7``
+   :depends r-acidexperiment: ``>=0.4.5``
+   :depends r-acidgenerics: ``>=0.6.6``
+   :depends r-acidgenomes: ``>=0.4.7``
+   :depends r-acidplyr: ``>=0.3.6``
+   :depends r-acidsinglecell: ``>=0.3.4``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-goalie: ``>=0.6.8``
+   :depends r-matrix: ``>=1.5.1``
+   :depends r-pipette: ``>=0.10.3``
+   :depends r-stringi: ``>=1.7.12``
+   :depends r-syntactic: ``>=0.6.4``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +81,7 @@ r-chromium
 
     <script>
         var package = "r-chromium";
-        var versions = [];
+        var versions = ["0.2.1"];
     </script>
 
 

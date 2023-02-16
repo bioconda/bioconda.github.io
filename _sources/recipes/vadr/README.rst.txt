@@ -28,10 +28,10 @@ vadr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5-1</code>,  <code>1.5-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5-1</code>,  <code>1.5-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3-4</code>,  </span></summary>
       
 
-      ``1.5.1-0``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``
+      ``1.5.1-1``,  ``1.5.1-0``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ vadr
    
    :depends blast: ``>=2.11.0``
    :depends easel: ``>=0.48``
-   :depends fasta3: ``36.3.8h.*``
    :depends hmmer: ``>=3.3.2``
    :depends infernal: ``>=1.1.4``
+   :depends libgcc-ng: ``>=12``
    :depends minimap2: 
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bio-easel: ``>=0.16``
    :depends perl-lwp-protocol-https: ``>=6.07``
    :depends perl-lwp-simple: 
@@ -84,7 +84,7 @@ vadr
 
     <script>
         var package = "vadr";
-        var versions = ["1.5.1","1.5","1.5","1.4.2","1.4.1"];
+        var versions = ["1.5.1","1.5.1","1.5","1.5","1.4.2"];
     </script>
 
 

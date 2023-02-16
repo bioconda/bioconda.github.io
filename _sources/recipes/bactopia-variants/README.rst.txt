@@ -29,11 +29,21 @@ bactopia-variants
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends coreutils: 
+   :depends gsl: ``2.6.*``
+   :depends openjdk: ``11.0.15.*``
+   :depends pigz: 
+   :depends python: ``>=3.6,<3.11``
+   :depends rename: 
+   :depends sed: 
+   :depends snippy: ``>=4.6.0``
+   :depends snpeff: ``>=4.3,<5``
+   :depends vcf-annotator: ``>=0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +75,7 @@ bactopia-variants
 
     <script>
         var package = "bactopia-variants";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

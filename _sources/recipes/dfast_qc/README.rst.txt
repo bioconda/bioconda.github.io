@@ -29,10 +29,10 @@ dfast_qc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-1</code>,  <code>0.2.6-0</code>,  <code>0.2.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.1-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-1</code>,  </span></summary>
       
 
-      ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -41,16 +41,15 @@ dfast_qc
       
 
    
-   :depends biopython: ``>=1.7``
    :depends blast: 
-   :depends checkm-genome: 
+   :depends checkm-genome: ``1.2.2``
    :depends ete3: 
-   :depends fastani: 
+   :depends fastani: ``1.33``
    :depends hmmer: 
    :depends more-itertools: 
    :depends peewee: 
    :depends prodigal: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +81,7 @@ dfast_qc
 
     <script>
         var package = "dfast_qc";
-        var versions = ["0.5.1","0.4.2","0.4.1","0.2.9","0.2.8"];
+        var versions = ["0.5.6","0.5.5","0.5.1","0.4.2","0.4.1"];
     </script>
 
 
