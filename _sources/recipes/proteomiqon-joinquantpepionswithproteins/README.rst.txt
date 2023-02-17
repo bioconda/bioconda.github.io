@@ -33,7 +33,7 @@ proteomiqon-joinquantpepionswithproteins
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.2-1``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -71,7 +71,7 @@ proteomiqon-joinquantpepionswithproteins
 
     <script>
         var package = "proteomiqon-joinquantpepionswithproteins";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["0.0.2","0.0.1","0.0.1"];
     </script>
 
 

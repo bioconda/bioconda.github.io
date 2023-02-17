@@ -27,15 +27,16 @@ olivar
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.0-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.0-0``
 
       
 
    
    :depends biopython: 
    :depends blast: ``>=2.12.0``
-   :depends matplotlib-base: 
+   :depends numpy: 
    :depends pandas: 
+   :depends plotly: ``>=5.13.0``
    :depends python: ``>=3.8``
    :requirements:
 
@@ -68,7 +69,7 @@ olivar
 
     <script>
         var package = "olivar";
-        var versions = ["1.0.2","1.0.1","1.0.0","0.10.0"];
+        var versions = ["1.1.0","1.0.2","1.0.1","1.0.0","0.10.0"];
     </script>
 
 

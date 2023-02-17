@@ -29,10 +29,10 @@ r-bcbiornaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.44-0</code>,  <code>0.3.42-0</code>,  <code>0.3.41-0</code>,  <code>0.3.40-1</code>,  <code>0.3.40-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.44-0</code>,  <code>0.3.42-0</code>,  <code>0.3.41-0</code>,  <code>0.3.40-1</code>,  </span></summary>
       
 
-      ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.44-0``,  ``0.3.42-0``,  ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
+      ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.44-0``,  ``0.3.42-0``,  ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -41,47 +41,47 @@ r-bcbiornaseq
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.42.0``
-   :depends bioconductor-biocstyle: ``>=2.24.0``
-   :depends bioconductor-clusterprofiler: ``>=4.4.4``
-   :depends bioconductor-degreport: ``>=1.32.0``
-   :depends bioconductor-deseq2: ``>=1.36.0``
-   :depends bioconductor-dose: ``>=3.22.1``
-   :depends bioconductor-edger: ``>=3.38.0``
-   :depends bioconductor-enrichplot: ``>=1.16.2``
+   :depends bioconductor-biocgenerics: ``>=0.44.0``
+   :depends bioconductor-biocstyle: ``>=2.26.0``
+   :depends bioconductor-clusterprofiler: ``>=4.6.0``
+   :depends bioconductor-degreport: ``>=1.34.0``
+   :depends bioconductor-deseq2: ``>=1.38.0``
+   :depends bioconductor-dose: ``>=3.24.0``
+   :depends bioconductor-edger: ``>=3.40.0``
+   :depends bioconductor-enrichplot: ``>=1.18.0``
    :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0``
-   :depends bioconductor-genomeinfodb: ``>=1.32.0``
-   :depends bioconductor-iranges: ``>=2.30.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.15.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.15.0``
-   :depends bioconductor-pathview: ``>=1.36.1``
-   :depends bioconductor-rhdf5: ``>=2.40.0``
-   :depends bioconductor-s4vectors: ``>=0.34.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.26.0``
-   :depends bioconductor-tximport: ``>=1.24.0``
-   :depends bioconductor-vsn: ``>=3.64.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.0``
+   :depends bioconductor-iranges: ``>=2.32.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.16.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.16.0``
+   :depends bioconductor-pathview: ``>=1.38.0``
+   :depends bioconductor-rhdf5: ``>=2.42.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.28.0``
+   :depends bioconductor-tximport: ``>=1.26.0``
+   :depends bioconductor-vsn: ``>=3.66.0``
    :depends r-acidbase: ``>=0.6.8``
-   :depends r-acidcli: ``>=0.2.4``
+   :depends r-acidcli: ``>=0.2.7``
    :depends r-acidexperiment: ``>=0.4.4``
-   :depends r-acidgenerics: ``>=0.6.4``
-   :depends r-acidgenomes: ``>=0.4.4``
+   :depends r-acidgenerics: ``>=0.6.5``
+   :depends r-acidgenomes: ``>=0.4.5``
    :depends r-acidgsea: ``>=0.8.6``
-   :depends r-acidplots: ``>=0.5.1``
+   :depends r-acidplots: ``>=0.5.3``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-basejump: ``>=0.16.0``
+   :depends r-basejump: ``>=0.16.3``
    :depends r-bcbiobase: ``>=0.8.1``
    :depends r-deseqanalysis: ``>=0.6.6``
    :depends r-ggnewscale: ``>=0.4.8``
-   :depends r-ggplot2: ``>=3.3.6``
-   :depends r-goalie: ``>=0.6.6``
-   :depends r-hexbin: ``>=1.28.0``
-   :depends r-knitr: ``>=1.40``
+   :depends r-ggplot2: ``>=3.4.0``
+   :depends r-goalie: ``>=0.6.8``
+   :depends r-hexbin: ``>=1.28.2``
+   :depends r-knitr: ``>=1.42``
    :depends r-pheatmap: ``>=1.0.12``
-   :depends r-pipette: ``>=0.10.0``
-   :depends r-r.utils: ``>=2.12.0``
-   :depends r-rmarkdown: ``>=2.17``
-   :depends r-stringi: ``>=1.7.8``
-   :depends r-syntactic: ``>=0.6.3``
+   :depends r-pipette: ``>=0.10.2``
+   :depends r-r.utils: ``>=2.12.2``
+   :depends r-rmarkdown: ``>=2.20``
+   :depends r-stringi: ``>=1.7.12``
+   :depends r-syntactic: ``>=0.6.4``
    :depends r-viridis: ``>=0.6.2``
    :depends r-withr: ``>=2.5.0``
    :requirements:
@@ -115,7 +115,7 @@ r-bcbiornaseq
 
     <script>
         var package = "r-bcbiornaseq";
-        var versions = ["0.5.2","0.5.1","0.5.1","0.4.0","0.3.44"];
+        var versions = ["0.5.3","0.5.2","0.5.1","0.5.1","0.4.0"];
     </script>
 
 

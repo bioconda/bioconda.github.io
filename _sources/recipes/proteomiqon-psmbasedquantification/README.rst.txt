@@ -38,7 +38,7 @@ proteomiqon-psmbasedquantification
       
       
 
-      ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
@@ -76,7 +76,7 @@ proteomiqon-psmbasedquantification
 
     <script>
         var package = "proteomiqon-psmbasedquantification";
-        var versions = ["0.0.8","0.0.7","0.0.5","0.0.4"];
+        var versions = ["0.0.9","0.0.8","0.0.7","0.0.5","0.0.4"];
     </script>
 
 

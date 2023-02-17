@@ -34,7 +34,7 @@ proteomiqon-alignmentbasedquantstatistics
       
       
 
-      ``0.0.1-0``
+      ``0.0.3-0``,  ``0.0.1-0``
 
       
 
@@ -72,7 +72,7 @@ proteomiqon-alignmentbasedquantstatistics
 
     <script>
         var package = "proteomiqon-alignmentbasedquantstatistics";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.3","0.0.1"];
     </script>
 
 

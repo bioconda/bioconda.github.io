@@ -39,7 +39,7 @@ proteomiqon-labelfreeproteinquantification
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.3-1``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -77,7 +77,7 @@ proteomiqon-labelfreeproteinquantification
 
     <script>
         var package = "proteomiqon-labelfreeproteinquantification";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["0.0.3","0.0.1","0.0.1"];
     </script>
 
 

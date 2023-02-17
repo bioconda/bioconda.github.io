@@ -15,7 +15,7 @@ cblaster
    :homepage: https://github.com/gamcil/cblaster
    :documentation: https://cblaster.readthedocs.io/en/latest/
    
-   :license: MIT / MIT License or MIT
+   :license: MIT / MIT
    :recipe: /`cblaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cblaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cblaster/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ cblaster
       
       
 
-      ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.9-0``
+      ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.9-0``
 
       
 
@@ -75,7 +75,7 @@ cblaster
 
     <script>
         var package = "cblaster";
-        var versions = ["1.3.17","1.3.16","1.3.15","1.3.12","1.3.11"];
+        var versions = ["1.3.18","1.3.17","1.3.16","1.3.15","1.3.12"];
     </script>
 
 
