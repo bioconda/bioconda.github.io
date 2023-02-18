@@ -27,15 +27,17 @@ aniclustermap
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends fastani: ``1.33``
-   :depends pandas: ``>=1.4.1,<2.0.0``
-   :depends python: ``>=3.7,<4.0``
-   :depends seaborn: ``>=0.11.2,<0.12.0``
+   :depends fastani: ``>=1.33``
+   :depends pandas: ``>=1.4.1``
+   :depends python: ``>=3.8``
+   :depends scipy: ``>=1.9.0``
+   :depends seaborn: ``>=0.11.2``
+   :depends skani: ``>=0.1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +69,7 @@ aniclustermap
 
     <script>
         var package = "aniclustermap";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0"];
     </script>
 
 

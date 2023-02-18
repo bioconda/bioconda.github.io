@@ -35,12 +35,12 @@ fiji-max_inscribed_circles
       
       
 
-      ``1.1.2-0``
+      ``2.0.0-0``,  ``1.1.2-0``
 
       
 
    
-   :depends fiji: ``>=20220414,!=h527b516_0,!=h9ee0642_0``
+   :depends fiji: ``>=20220414``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ fiji-max_inscribed_circles
 
     <script>
         var package = "fiji-max_inscribed_circles";
-        var versions = ["1.1.2"];
+        var versions = ["2.0.0","1.1.2"];
     </script>
 
 
