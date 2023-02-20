@@ -28,7 +28,7 @@ authentict
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -40,6 +40,7 @@ authentict
    :depends pandas: ``>=0.25.1``
    :depends python: ``>=3.11,<3.12.0a0``
    :depends python_abi: ``3.11.* *_cp311``
+   :depends samtools: 
    :depends scipy: ``>=1.3``
    :requirements:
 
@@ -72,7 +73,7 @@ authentict
 
     <script>
         var package = "authentict";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 
