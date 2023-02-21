@@ -12,7 +12,7 @@ seq2hla
 
    Precision HLA typing and expression from next\-generation RNA sequencing data
 
-   :homepage: https://bitbucket.org/sebastian_boegel/seq2hla
+   :homepage: https://github.com/TRON-Bioinformatics/seq2HLA
    :license: MIT
    :recipe: /`seq2hla <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq2hla>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq2hla/meta.yaml>`_
    :links: biotools: :biotools:`seq2hla`
@@ -28,7 +28,7 @@ seq2hla
       
       
 
-      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
@@ -68,7 +68,7 @@ seq2hla
 
     <script>
         var package = "seq2hla";
-        var versions = ["2.2","2.2","2.2"];
+        var versions = ["2.3","2.2","2.2","2.2"];
     </script>
 
 
