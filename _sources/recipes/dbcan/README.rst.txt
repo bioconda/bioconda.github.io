@@ -28,15 +28,17 @@ dbcan
       
       
 
-      ``3.0.7-0``,  ``3.0.6-0``
+      ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
 
    
+   :depends biopython: 
    :depends diamond: 
    :depends hmmer: 
    :depends natsort: 
    :depends numpy: ``>1.19``
+   :depends pandas: 
    :depends prodigal: 
    :depends psutil: 
    :depends python: 
@@ -72,7 +74,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["3.0.7","3.0.6"];
+        var versions = ["4.0.0","3.0.7","3.0.6"];
     </script>
 
 

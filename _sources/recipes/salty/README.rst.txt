@@ -27,7 +27,7 @@ salty
       
       
 
-      ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.0-0``
 
       
 
@@ -66,7 +66,7 @@ salty
 
     <script>
         var package = "salty";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.2","1.0.0"];
     </script>
 
 

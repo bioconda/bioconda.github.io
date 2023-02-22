@@ -19,7 +19,8 @@ metacoag
    :recipe: /`metacoag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacoag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacoag/meta.yaml>`_
    :links: doi: :doi:`10.1007/978-3-031-04749-7_5`
 
-   
+   MetaCoAG is a metagenomic contig binning tool that makes use of the connectivity information found in assembly graphs.
+
 
 
 .. conda:package:: metacoag
@@ -30,7 +31,7 @@ metacoag
       
       
 
-      ``1.1-0``
+      ``1.1.1-0``,  ``1.1-0``
 
       
 
@@ -41,6 +42,7 @@ metacoag
    :depends hmmer: 
    :depends networkx: 
    :depends numpy: 
+   :depends pandas: 
    :depends python: 
    :depends python-igraph: 
    :depends scipy: 
@@ -76,7 +78,7 @@ metacoag
 
     <script>
         var package = "metacoag";
-        var versions = ["1.1"];
+        var versions = ["1.1.1","1.1"];
     </script>
 
 

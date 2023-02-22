@@ -27,7 +27,7 @@ hmftools-lilac
       
       
 
-      ``1.1-0``
+      ``1.4.2-0``,  ``1.1-0``
 
       
 
@@ -65,7 +65,7 @@ hmftools-lilac
 
     <script>
         var package = "hmftools-lilac";
-        var versions = ["1.1"];
+        var versions = ["1.4.2","1.1"];
     </script>
 
 
