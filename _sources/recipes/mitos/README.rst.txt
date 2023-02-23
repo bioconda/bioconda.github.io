@@ -29,10 +29,10 @@ mitos
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ mitos
       
 
    
-   :depends biopython: 
+   :depends biopython: ``<1.68``
    :depends blast: ``2.9.*``
    :depends hmmer: ``3.2.*``
    :depends infernal: ``1.1.*``
-   :depends openjdk: 
-   :depends python: ``<3``
-   :depends r-base: ``>=4``
+   :depends openjdk: ``>8``
+   :depends python: ``>=3``
+   :depends r-base: ``>=3``
    :depends r-ggplot2: 
    :depends r-reshape2: 
    :depends viennarna: ``<2``
@@ -82,7 +82,7 @@ mitos
 
     <script>
         var package = "mitos";
-        var versions = ["2.1.0","2.0.8","2.0.8","2.0.6","2.0.5"];
+        var versions = ["2.1.1","2.1.0","2.0.8","2.0.8","2.0.6"];
     </script>
 
 

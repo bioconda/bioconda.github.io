@@ -27,7 +27,7 @@ apscale
       
       
 
-      ``1.5.5-0``
+      ``1.6.3-0``,  ``1.5.5-0``
 
       
 
@@ -75,7 +75,7 @@ apscale
 
     <script>
         var package = "apscale";
-        var versions = ["1.5.5"];
+        var versions = ["1.6.3","1.5.5"];
     </script>
 
 

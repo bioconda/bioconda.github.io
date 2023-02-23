@@ -30,10 +30,10 @@ mirge3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-1</code>,  </span></summary>
       
 
-      ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -48,13 +48,13 @@ mirge3
    :depends future: ``>=0.18.2``
    :depends joblib: ``>=0.15.1``
    :depends matplotlib-base: 
-   :depends pandas: ``>=1.0.3``
+   :depends pandas: 
    :depends python: 
    :depends reportlab: ``>=3.5.42``
    :depends samtools: 
-   :depends scikit-learn: ``0.23.1``
+   :depends scikit-learn: 
    :depends scipy: ``>=1.4.1``
-   :depends viennarna: ``2.4.14``
+   :depends viennarna: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ mirge3
 
     <script>
         var package = "mirge3";
-        var versions = ["0.1.2","0.1.1","0.0.9","0.0.8","0.0.7"];
+        var versions = ["0.1.2","0.1.2","0.1.1","0.0.9","0.0.8"];
     </script>
 
 

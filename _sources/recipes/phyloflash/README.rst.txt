@@ -29,10 +29,10 @@ phyloflash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3b4-0</code>,  <code>3.3b3-0</code>,  <code>3.3b2-0</code>,  <code>3.3b1-1</code>,  <code>3.3b1-0</code>,  <code>3.0b1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3b4-0</code>,  <code>3.3b3-0</code>,  <code>3.3b2-0</code>,  <code>3.3b1-1</code>,  <code>3.3b1-0</code>,  </span></summary>
       
 
-      ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3b4-0``,  ``3.3b3-0``,  ``3.3b2-0``,  ``3.3b1-1``,  ``3.3b1-0``,  ``3.0b1-1``,  ``3.0b1-0``,  ``2.0beta6-0``
+      ``3.4.2-0``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3b4-0``,  ``3.3b3-0``,  ``3.3b2-0``,  ``3.3b1-1``,  ``3.3b1-0``,  ``3.0b1-1``,  ``3.0b1-0``,  ``2.0beta6-0``
 
       
       .. raw:: html
@@ -87,7 +87,7 @@ phyloflash
 
     <script>
         var package = "phyloflash";
-        var versions = ["3.4.1","3.4","3.4","3.3b4","3.3b3"];
+        var versions = ["3.4.2","3.4.1","3.4","3.4","3.3b4"];
     </script>
 
 

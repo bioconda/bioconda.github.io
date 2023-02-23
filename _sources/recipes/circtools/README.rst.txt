@@ -27,7 +27,7 @@ circtools
       
       
 
-      ``1.2.1-0``
+      ``1.2.2-0``,  ``1.2.1-0``
 
       
 
@@ -73,7 +73,7 @@ circtools
 
     <script>
         var package = "circtools";
-        var versions = ["1.2.1"];
+        var versions = ["1.2.2","1.2.1"];
     </script>
 
 
