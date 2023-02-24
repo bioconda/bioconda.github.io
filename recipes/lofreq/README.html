@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -149,10 +166,10 @@
 <dd class="field-odd"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../variabel/README.html#variabel"><strong class="xref backref">variabel</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../qhery/README.html#qhery"><strong class="xref backref">qhery</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../harvest-variants/README.html#harvest-variants"><strong class="xref backref">harvest-variants</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../somaticseq/README.html#somaticseq"><strong class="xref backref">somaticseq</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pathogen-profiler/README.html#pathogen-profiler"><strong class="xref backref">pathogen-profiler</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../harvest-variants/README.html#harvest-variants"><strong class="xref backref">harvest-variants</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../minvar/README.html#minvar"><strong class="xref backref">minvar</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../somaticseq/README.html#somaticseq"><strong class="xref backref">somaticseq</strong></a></p></li>
 </ul>
 </dd>
 </dl>

@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -158,12 +175,12 @@ produce better mapping results.</p>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../mintie/README.html#mintie"><strong class="xref backref">mintie</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../plastid/README.html#plastid"><strong class="xref backref">plastid</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pispino/README.html#pispino"><strong class="xref backref">pispino</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../jaffa/README.html#jaffa"><strong class="xref backref">jaffa</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pipits/README.html#pipits"><strong class="xref backref">pipits</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../mintie/README.html#mintie"><strong class="xref backref">mintie</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../rop/README.html#rop"><strong class="xref backref">rop</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pipits/README.html#pipits"><strong class="xref backref">pipits</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pispino/README.html#pispino"><strong class="xref backref">pispino</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../plastid/README.html#plastid"><strong class="xref backref">plastid</strong></a></p></li>
 </ul>
 </dd>
 </dl>

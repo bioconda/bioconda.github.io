@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -153,14 +170,14 @@
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../catch_chimera/README.html#catch_chimera"><strong class="xref backref">catch_chimera</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-openprimer/README.html#bioconductor-openprimer"><strong class="xref backref">bioconductor-openprimer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-assessorf/README.html#bioconductor-assessorf"><strong class="xref backref">bioconductor-assessorf</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-synextend/README.html#bioconductor-synextend"><strong class="xref backref">bioconductor-synextend</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-assessorfdata/README.html#bioconductor-assessorfdata"><strong class="xref backref">bioconductor-assessorfdata</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../dadaist2/README.html#dadaist2"><strong class="xref backref">dadaist2</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-scifer/README.html#bioconductor-scifer"><strong class="xref backref">bioconductor-scifer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sangeranalyser/README.html#bioconductor-sangeranalyser"><strong class="xref backref">bioconductor-sangeranalyser</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-mia/README.html#bioconductor-mia"><strong class="xref backref">bioconductor-mia</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-synextend/README.html#bioconductor-synextend"><strong class="xref backref">bioconductor-synextend</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sangeranalyser/README.html#bioconductor-sangeranalyser"><strong class="xref backref">bioconductor-sangeranalyser</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-openprimer/README.html#bioconductor-openprimer"><strong class="xref backref">bioconductor-openprimer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-assessorfdata/README.html#bioconductor-assessorfdata"><strong class="xref backref">bioconductor-assessorfdata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-assessorf/README.html#bioconductor-assessorf"><strong class="xref backref">bioconductor-assessorf</strong></a></p></li>
 </ul>
 </dd>
 </dl>

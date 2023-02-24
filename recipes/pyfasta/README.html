@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -143,13 +160,13 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../seqchromloader/README.html#seqchromloader"><strong class="xref backref">seqchromloader</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../chorus2/README.html#chorus2"><strong class="xref backref">chorus2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ribocode/README.html#ribocode"><strong class="xref backref">ribocode</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../schavott/README.html#schavott"><strong class="xref backref">schavott</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../smashbenchmarking/README.html#smashbenchmarking"><strong class="xref backref">smashbenchmarking</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../schavott/README.html#schavott"><strong class="xref backref">schavott</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../spanki/README.html#spanki"><strong class="xref backref">spanki</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../seqchromloader/README.html#seqchromloader"><strong class="xref backref">seqchromloader</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../comparative-annotation-toolkit/README.html#comparative-annotation-toolkit"><strong class="xref backref">comparative-annotation-toolkit</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ribocode/README.html#ribocode"><strong class="xref backref">ribocode</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../chorus2/README.html#chorus2"><strong class="xref backref">chorus2</strong></a></p></li>
 </ul>
 </dd>
 </dl>

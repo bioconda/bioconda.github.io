@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -155,13 +172,13 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-alpsnmr/README.html#bioconductor-alpsnmr"><strong class="xref backref">bioconductor-alpsnmr</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-viscorvar/README.html#r-viscorvar"><strong class="xref backref">r-viscorvar</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-timeomics/README.html#bioconductor-timeomics"><strong class="xref backref">bioconductor-timeomics</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-mixkernel/README.html#r-mixkernel"><strong class="xref backref">r-mixkernel</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-multisight/README.html#bioconductor-multisight"><strong class="xref backref">bioconductor-multisight</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-depecher/README.html#bioconductor-depecher"><strong class="xref backref">bioconductor-depecher</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-multisight/README.html#bioconductor-multisight"><strong class="xref backref">bioconductor-multisight</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-viscorvar/README.html#r-viscorvar"><strong class="xref backref">r-viscorvar</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-poma/README.html#bioconductor-poma"><strong class="xref backref">bioconductor-poma</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-mixkernel/README.html#r-mixkernel"><strong class="xref backref">r-mixkernel</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-alpsnmr/README.html#bioconductor-alpsnmr"><strong class="xref backref">bioconductor-alpsnmr</strong></a></p></li>
 </ul>
 </dd>
 </dl>

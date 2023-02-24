@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -147,17 +164,17 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-champ/README.html#bioconductor-champ"><strong class="xref backref">bioconductor-champ</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-beadarray/README.html#bioconductor-beadarray"><strong class="xref backref">bioconductor-beadarray</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-normalize450k/README.html#bioconductor-normalize450k"><strong class="xref backref">bioconductor-normalize450k</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-sesame/README.html#bioconductor-sesame"><strong class="xref backref">bioconductor-sesame</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-methylumi/README.html#bioconductor-methylumi"><strong class="xref backref">bioconductor-methylumi</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-enmix/README.html#bioconductor-enmix"><strong class="xref backref">bioconductor-enmix</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-minfi/README.html#bioconductor-minfi"><strong class="xref backref">bioconductor-minfi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-bigmelon/README.html#bioconductor-bigmelon"><strong class="xref backref">bioconductor-bigmelon</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-watermelon/README.html#bioconductor-watermelon"><strong class="xref backref">bioconductor-watermelon</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-normalize450k/README.html#bioconductor-normalize450k"><strong class="xref backref">bioconductor-normalize450k</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-rnbeads/README.html#bioconductor-rnbeads"><strong class="xref backref">bioconductor-rnbeads</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-methylumi/README.html#bioconductor-methylumi"><strong class="xref backref">bioconductor-methylumi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-watermelon/README.html#bioconductor-watermelon"><strong class="xref backref">bioconductor-watermelon</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-beadarray/README.html#bioconductor-beadarray"><strong class="xref backref">bioconductor-beadarray</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-champ/README.html#bioconductor-champ"><strong class="xref backref">bioconductor-champ</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-crlmm/README.html#bioconductor-crlmm"><strong class="xref backref">bioconductor-crlmm</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-bigmelon/README.html#bioconductor-bigmelon"><strong class="xref backref">bioconductor-bigmelon</strong></a></p></li>
 </ul>
 </dd>
 </dl>

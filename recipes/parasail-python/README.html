@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -146,20 +163,20 @@
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../scirpy/README.html#scirpy"><strong class="xref backref">scirpy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nanomonsv/README.html#nanomonsv"><strong class="xref backref">nanomonsv</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../liftoff/README.html#liftoff"><strong class="xref backref">liftoff</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../qcat/README.html#qcat"><strong class="xref backref">qcat</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../readucks/README.html#readucks"><strong class="xref backref">readucks</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nanocaller/README.html#nanocaller"><strong class="xref backref">nanocaller</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../liftofftools/README.html#liftofftools"><strong class="xref backref">liftofftools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pychopper/README.html#pychopper"><strong class="xref backref">pychopper</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../parascopy/README.html#parascopy"><strong class="xref backref">parascopy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../duplex-tools/README.html#duplex-tools"><strong class="xref backref">duplex-tools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../isonclust/README.html#isonclust"><strong class="xref backref">isonclust</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../primalscheme/README.html#primalscheme"><strong class="xref backref">primalscheme</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ultra_bioinformatics/README.html#ultra_bioinformatics"><strong class="xref backref">ultra_bioinformatics</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../medaka/README.html#medaka"><strong class="xref backref">medaka</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../nanomonsv/README.html#nanomonsv"><strong class="xref backref">nanomonsv</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../readucks/README.html#readucks"><strong class="xref backref">readucks</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ultra_bioinformatics/README.html#ultra_bioinformatics"><strong class="xref backref">ultra_bioinformatics</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../liftofftools/README.html#liftofftools"><strong class="xref backref">liftofftools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../duplex-tools/README.html#duplex-tools"><strong class="xref backref">duplex-tools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pychopper/README.html#pychopper"><strong class="xref backref">pychopper</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../liftoff/README.html#liftoff"><strong class="xref backref">liftoff</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../isonclust/README.html#isonclust"><strong class="xref backref">isonclust</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../opfi/README.html#opfi"><strong class="xref backref">opfi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../primalscheme/README.html#primalscheme"><strong class="xref backref">primalscheme</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../nanocaller/README.html#nanocaller"><strong class="xref backref">nanocaller</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../qcat/README.html#qcat"><strong class="xref backref">qcat</strong></a></p></li>
 </ul>
 </dd>
 </dl>

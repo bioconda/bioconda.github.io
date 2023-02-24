@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -140,11 +157,11 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocfhir/README.html#bioconductor-biocfhir"><strong class="xref backref">bioconductor-biocfhir</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-uniprot.ws/README.html#bioconductor-uniprot.ws"><strong class="xref backref">bioconductor-uniprot.ws</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-dnafusion/README.html#bioconductor-dnafusion"><strong class="xref backref">bioconductor-dnafusion</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-tenxio/README.html#bioconductor-tenxio"><strong class="xref backref">bioconductor-tenxio</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-uniprot.ws/README.html#bioconductor-uniprot.ws"><strong class="xref backref">bioconductor-uniprot.ws</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-multiassayexperiment/README.html#bioconductor-multiassayexperiment"><strong class="xref backref">bioconductor-multiassayexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-biocfhir/README.html#bioconductor-biocfhir"><strong class="xref backref">bioconductor-biocfhir</strong></a></p></li>
 </ul>
 </dd>
 </dl>

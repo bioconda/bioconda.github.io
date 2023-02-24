@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -152,14 +169,14 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-webbioc/README.html#bioconductor-webbioc"><strong class="xref backref">bioconductor-webbioc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-maskbad/README.html#bioconductor-maskbad"><strong class="xref backref">bioconductor-maskbad</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-affyilm/README.html#bioconductor-affyilm"><strong class="xref backref">bioconductor-affyilm</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-affyplm/README.html#bioconductor-affyplm"><strong class="xref backref">bioconductor-affyplm</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-affycoretools/README.html#bioconductor-affycoretools"><strong class="xref backref">bioconductor-affycoretools</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-affylmgui/README.html#bioconductor-affylmgui"><strong class="xref backref">bioconductor-affylmgui</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-maskbad/README.html#bioconductor-maskbad"><strong class="xref backref">bioconductor-maskbad</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-mapredictdsc/README.html#bioconductor-mapredictdsc"><strong class="xref backref">bioconductor-mapredictdsc</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-bgx/README.html#bioconductor-bgx"><strong class="xref backref">bioconductor-bgx</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-webbioc/README.html#bioconductor-webbioc"><strong class="xref backref">bioconductor-webbioc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mapredictdsc/README.html#bioconductor-mapredictdsc"><strong class="xref backref">bioconductor-mapredictdsc</strong></a></p></li>
 </ul>
 </dd>
 </dl>

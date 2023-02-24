@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -144,13 +161,13 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../crispritz/README.html#crispritz"><strong class="xref backref">crispritz</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rkp/README.html#rkp"><strong class="xref backref">rkp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ddocent/README.html#ddocent"><strong class="xref backref">ddocent</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pyseer/README.html#pyseer"><strong class="xref backref">pyseer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../clearcnv/README.html#clearcnv"><strong class="xref backref">clearcnv</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../tritimap/README.html#tritimap"><strong class="xref backref">tritimap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../rkp/README.html#rkp"><strong class="xref backref">rkp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pyseer/README.html#pyseer"><strong class="xref backref">pyseer</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconvert/README.html#bioconvert"><strong class="xref backref">bioconvert</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../crispritz/README.html#crispritz"><strong class="xref backref">crispritz</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../clearcnv/README.html#clearcnv"><strong class="xref backref">clearcnv</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ddocent/README.html#ddocent"><strong class="xref backref">ddocent</strong></a></p></li>
 </ul>
 </dd>
 </dl>

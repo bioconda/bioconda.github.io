@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -142,12 +159,12 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../nanoget/README.html#nanoget"><strong class="xref backref">nanoget</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nanoplot/README.html#nanoplot"><strong class="xref backref">nanoplot</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nanocomp/README.html#nanocomp"><strong class="xref backref">nanocomp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nanostat/README.html#nanostat"><strong class="xref backref">nanostat</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../yanagiba/README.html#yanagiba"><strong class="xref backref">yanagiba</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../nanofilt/README.html#nanofilt"><strong class="xref backref">nanofilt</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../nanocomp/README.html#nanocomp"><strong class="xref backref">nanocomp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../yanagiba/README.html#yanagiba"><strong class="xref backref">yanagiba</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../nanoplot/README.html#nanoplot"><strong class="xref backref">nanoplot</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../nanoget/README.html#nanoget"><strong class="xref backref">nanoget</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../nanostat/README.html#nanostat"><strong class="xref backref">nanostat</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../nanosplit/README.html#nanosplit"><strong class="xref backref">nanosplit</strong></a></p></li>
 </ul>
 </dd>

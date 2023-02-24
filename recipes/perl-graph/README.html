@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -144,12 +161,12 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-graph-readwrite/README.html#perl-graph-readwrite"><strong class="xref backref">perl-graph-readwrite</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-obogaf-parser/README.html#perl-obogaf-parser"><strong class="xref backref">perl-obogaf-parser</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../agat/README.html#agat"><strong class="xref backref">agat</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-data-stag/README.html#perl-data-stag"><strong class="xref backref">perl-data-stag</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../roary/README.html#roary"><strong class="xref backref">roary</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-graph-readwrite/README.html#perl-graph-readwrite"><strong class="xref backref">perl-graph-readwrite</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../agat/README.html#agat"><strong class="xref backref">agat</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../gaas/README.html#gaas"><strong class="xref backref">gaas</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../roary/README.html#roary"><strong class="xref backref">roary</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-obogaf-parser/README.html#perl-obogaf-parser"><strong class="xref backref">perl-obogaf-parser</strong></a></p></li>
 </ul>
 </dd>
 </dl>

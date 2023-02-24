@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -149,14 +166,14 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-asics/README.html#bioconductor-asics"><strong class="xref backref">bioconductor-asics</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-phenomis/README.html#bioconductor-phenomis"><strong class="xref backref">bioconductor-phenomis</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-lipidr/README.html#bioconductor-lipidr"><strong class="xref backref">bioconductor-lipidr</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-multibac/README.html#bioconductor-multibac"><strong class="xref backref">bioconductor-multibac</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biosigner/README.html#bioconductor-biosigner"><strong class="xref backref">bioconductor-biosigner</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-structtoolbox/README.html#bioconductor-structtoolbox"><strong class="xref backref">bioconductor-structtoolbox</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rqt/README.html#bioconductor-rqt"><strong class="xref backref">bioconductor-rqt</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-profia/README.html#bioconductor-profia"><strong class="xref backref">bioconductor-profia</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-structtoolbox/README.html#bioconductor-structtoolbox"><strong class="xref backref">bioconductor-structtoolbox</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-biosigner/README.html#bioconductor-biosigner"><strong class="xref backref">bioconductor-biosigner</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-rqt/README.html#bioconductor-rqt"><strong class="xref backref">bioconductor-rqt</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-asics/README.html#bioconductor-asics"><strong class="xref backref">bioconductor-asics</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-multibac/README.html#bioconductor-multibac"><strong class="xref backref">bioconductor-multibac</strong></a></p></li>
 </ul>
 </dd>
 </dl>

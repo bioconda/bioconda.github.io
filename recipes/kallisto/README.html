@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -146,15 +163,15 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../arcas-hla/README.html#arcas-hla"><strong class="xref backref">arcas-hla</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../trinity/README.html#trinity"><strong class="xref backref">trinity</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../kb-python/README.html#kb-python"><strong class="xref backref">kb-python</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../haploconduct/README.html#haploconduct"><strong class="xref backref">haploconduct</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../savage/README.html#savage"><strong class="xref backref">savage</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../how_are_we_stranded_here/README.html#how_are_we_stranded_here"><strong class="xref backref">how_are_we_stranded_here</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../funannotate/README.html#funannotate"><strong class="xref backref">funannotate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../abeona/README.html#abeona"><strong class="xref backref">abeona</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../arcas-hla/README.html#arcas-hla"><strong class="xref backref">arcas-hla</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../savage/README.html#savage"><strong class="xref backref">savage</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../kb-python/README.html#kb-python"><strong class="xref backref">kb-python</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../trinity/README.html#trinity"><strong class="xref backref">trinity</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ditasic/README.html#ditasic"><strong class="xref backref">ditasic</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../abeona/README.html#abeona"><strong class="xref backref">abeona</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../how_are_we_stranded_here/README.html#how_are_we_stranded_here"><strong class="xref backref">how_are_we_stranded_here</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../haploconduct/README.html#haploconduct"><strong class="xref backref">haploconduct</strong></a></p></li>
 </ul>
 </dd>
 </dl>

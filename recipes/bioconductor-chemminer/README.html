@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -162,14 +179,14 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-bioassayr/README.html#bioconductor-bioassayr"><strong class="xref backref">bioconductor-bioassayr</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-metid/README.html#bioconductor-metid"><strong class="xref backref">bioconductor-metid</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-fmcsr/README.html#bioconductor-fmcsr"><strong class="xref backref">bioconductor-fmcsr</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-eir/README.html#bioconductor-eir"><strong class="xref backref">bioconductor-eir</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-compounddb/README.html#bioconductor-compounddb"><strong class="xref backref">bioconductor-compounddb</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rmassbank/README.html#bioconductor-rmassbank"><strong class="xref backref">bioconductor-rmassbank</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-chemminedrugs/README.html#bioconductor-chemminedrugs"><strong class="xref backref">bioconductor-chemminedrugs</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-customcmpdb/README.html#bioconductor-customcmpdb"><strong class="xref backref">bioconductor-customcmpdb</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-compounddb/README.html#bioconductor-compounddb"><strong class="xref backref">bioconductor-compounddb</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-bioassayr/README.html#bioconductor-bioassayr"><strong class="xref backref">bioconductor-bioassayr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-rmassbank/README.html#bioconductor-rmassbank"><strong class="xref backref">bioconductor-rmassbank</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-eir/README.html#bioconductor-eir"><strong class="xref backref">bioconductor-eir</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-chemminedrugs/README.html#bioconductor-chemminedrugs"><strong class="xref backref">bioconductor-chemminedrugs</strong></a></p></li>
 </ul>
 </dd>
 </dl>

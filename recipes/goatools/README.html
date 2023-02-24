@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -150,13 +167,13 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../iptkl/README.html#iptkl"><strong class="xref backref">iptkl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metaquantome/README.html#metaquantome"><strong class="xref backref">metaquantome</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../group_humann2_uniref_abundances_to_go/README.html#group_humann2_uniref_abundances_to_go"><strong class="xref backref">group_humann2_uniref_abundances_to_go</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../genewalk/README.html#genewalk"><strong class="xref backref">genewalk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../jcvi/README.html#jcvi"><strong class="xref backref">jcvi</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../funannotate/README.html#funannotate"><strong class="xref backref">funannotate</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../jcvi/README.html#jcvi"><strong class="xref backref">jcvi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../iptkl/README.html#iptkl"><strong class="xref backref">iptkl</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../genewalk/README.html#genewalk"><strong class="xref backref">genewalk</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../metaquant/README.html#metaquant"><strong class="xref backref">metaquant</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../group_humann2_uniref_abundances_to_go/README.html#group_humann2_uniref_abundances_to_go"><strong class="xref backref">group_humann2_uniref_abundances_to_go</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metaquantome/README.html#metaquantome"><strong class="xref backref">metaquantome</strong></a></p></li>
 </ul>
 </dd>
 </dl>

@@ -42,6 +42,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -113,16 +130,22 @@ biomedical research using the <a class="reference external" href="https://conda.
 <p><strong>NOTE</strong>: <em>Bioconda supports only 64-bit Linux and macOS</em></p>
 <section id="usage">
 <h1>Usage<a class="headerlink" href="#usage" title="Permalink to this heading">¶</a></h1>
-<p>First, <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">install conda</a>. Then perform a one-time set up of Bioconda with the
-following commands:</p>
+<p>First, <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">install conda</a>.</p>
+<p>Then perform a one-time set up of Bioconda with the following commands. This
+will modify your <code class="file docutils literal notranslate"><span class="pre">~/.condarc</span></code> file:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="nb">set</span> <span class="n">channel_priority</span> <span class="n">strict</span>
 </pre></div>
 </div>
-<details><summary>What did these commands do?</summary><div class="details"><p>In general, running <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code> modifies your condarc file which can be
-found at <code class="xref any docutils literal notranslate"><span class="pre">~/.condarc</span></code> by default.</p>
+<p>If you have used Bioconda in the past, note that the recommended configuration
+has changed over the years. You should run the above commands to ensure your
+settings follow the current recommendations.</p>
+<details><summary>How have the recommendations changed?</summary><div id=recommendation-changes class="details"><p><i>How have the recommendations changed?</i><a class="headerlink" title="Permalink" href="#recommendation-changes">¶</a></p><p>In June 2022, the additional command <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span> <span class="pre">--set</span>
+<span class="pre">channel_priority_strict</span></code> was added; see the <a class="reference external" href="#explain-commands">explanation of commands below</a> for details.</p>
+</div></details><details><summary>What did these commands do?</summary><div id=explain-commands class="details"><p><i>What did these commands do?</i><a class="headerlink" title="Permalink" href="#explain-commands">¶</a></p><p>In general, running <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code> modifies your condarc file which can be
+found at <code class="docutils literal notranslate"><span class="pre">~/.condarc</span></code> by default.</p>
 <p>The first three commands add channels, from lowest to highest priority.
 <strong>The order is important</strong> to avoid problems with solving dependencies:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
@@ -146,47 +169,55 @@ general-purpose packages. Since <code class="docutils literal notranslate"><span
 <p>avoids cryptic errors when tryng to install. It ensures that the channel
 priority configured above is respected when solving dependencies. See <a class="reference external" href="https://conda-forge.org/docs/user/tipsandtricks.html">this
 section of the conda-forge docs</a> for more info.</p>
-</div></details><details><summary>What if I don't want to modify my condarc?</summary><div class="details"><p>Sometimes you might want to specify the channel priority directly in the
-<code class="docutils literal notranslate"><span class="pre">conda</span></code> command-line call when installing a package or creating an
-environment, and not edit the condarc file with the suggested <code class="docutils literal notranslate"><span class="pre">conda</span>
-<span class="pre">config</span></code> commands above.</p>
-<p>In that case, you would need to add the following arguments to <code class="docutils literal notranslate"><span class="pre">conda</span></code> calls:</p>
+</div></details><details><summary>What if I don't want to modify my condarc?</summary><div id=do-not-modify-condarc class="details"><p><i>What if I don't want to modify my condarc?</i><a class="headerlink" title="Permalink" href="#do-not-modify-condarc">¶</a></p><blockquote>
+<div><p>Sometimes you want to specify the channel priority directly in the
+<code class="docutils literal notranslate"><span class="pre">conda</span></code> command-line call, and do not want to change the condarc file
+with the suggested <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code> commands above.</p>
+<p>To match the above recommendations, you need to append the following
+arguments to any <code class="docutils literal notranslate"><span class="pre">conda</span></code> calls:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">--</span><span class="n">channel</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="o">--</span><span class="n">channel</span> <span class="n">bioconda</span> <span class="o">--</span><span class="n">strict</span><span class="o">-</span><span class="n">channel</span><span class="o">-</span><span class="n">priority</span>
 </pre></div>
 </div>
-<p>For example, if you were creating an environment with bwa and samtools in
-it, you would use:</p>
-<blockquote>
-<div><dl class="simple">
-<dt>conda create -n myenv samtools bwa </dt><dd><p>–channel conda-forge –channel bioconda –channel defaults –strict-channel-priority</p>
-</dd>
-</dl>
-</div></blockquote>
+<p>For example, to create an environment containing bwa and
+samtools without running the <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code> commands above, then you
+would use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">myenv</span> <span class="n">samtools</span> <span class="n">bwa</span> \
+  <span class="o">--</span><span class="n">channel</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> \
+  <span class="o">--</span><span class="n">channel</span> <span class="n">bioconda</span> \
+  <span class="o">--</span><span class="n">channel</span> <span class="n">defaults</span> \
+  <span class="o">--</span><span class="n">strict</span><span class="o">-</span><span class="n">channel</span><span class="o">-</span><span class="n">priority</span>
+</pre></div>
+</div>
 <p>Note that conda interprets channels on the command line in order
 of <em>decreasing</em> priority (in contrast to <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code>, where they are
 listed in increasing priority).</p>
+<p>See the <a class="reference external" href="#explain-commands">explanation of commands</a> for details on what
+these arguments do.</p>
+</div></blockquote>
 </div></details><p>Now you can use <code class="docutils literal notranslate"><span class="pre">conda</span></code> to install and use any of the <a class="reference external" href="conda-package_index.html">packages available in
 bioconda</a>.</p>
-<details><summary>How do I speed up package installation?</summary><div class="details"><p>Sometimes conda can spend a lot of time trying to solve dependencies for an
+<details><summary>How do I speed up package installation?</summary><div class="details"><p><i>How do I speed up package installation?</i></p><p>Sometimes conda can spend a lot of time trying to solve dependencies for an
 environment. See <a class="reference internal" href="faqs.html#speedup"><span class="std std-ref">How do I speed up package installation?</span></a> in the FAQs for some options to improve this.</p>
-</div></details><details><summary>How do I get Docker containers of packages?</summary><div class="details"><p>Every conda package in Bioconda has a corresponding Docker <a class="reference external" href="https://biocontainers.pro">BioContainer</a>
+</div></details><details><summary>How do I get Docker containers of packages?</summary><div id=how-do-i-get-containers class="details"><p><i>How do I get Docker containers of packages?</i><a class="headerlink" title="Permalink" href="#how-do-i-get-containers">¶</a></p><blockquote>
+<div><p>Every conda package in Bioconda has a corresponding Docker <a class="reference external" href="https://biocontainers.pro">BioContainer</a>
 automatically created and uploaded to <a class="reference external" href="https://quay.io/organization/biocontainers">Quay.io</a>. A list of these and other
 containers can be found at the <a class="reference external" href="https://biocontainers.pro/#/registry">BioContainers Registry</a>. For example:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">samtools</span><span class="p">:</span><span class="mf">1.15.1</span><span class="o">--</span><span class="n">h1170115_0</span>
 </pre></div>
 </div>
 <p>If you have docker installed, you do not need any additional configuration.</p>
+</div></blockquote>
 </div></details></section>
 <section id="overview">
 <h1>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h1>
-<p>The Bioconda channel is the primary output for users, but it takes a team of
+<p>While Bioconda channel is the primary output for users, it takes a team of
 contributors and additional infrastructure to make it all happen. The entire
 system consists of the components illustrated in the diagram below.</p>
 <a class="reference internal image-reference" href="_images/bioconda-dag.png"><img alt="_images/bioconda-dag.png" src="_images/bioconda-dag.png" style="width: 80%;" /></a>
 <p><strong>Legend</strong> (starting from the bottom):</p>
 <p><span class="circlednumber">①</span> Over 1400 contributors who add,
 modify, update, and maintain recipes and packages</p>
-<details><summary>Details</summary><div class="details"><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">Contributors</a> to
+<details><summary>Details</summary><div class="details"><p><i>Details</i></p><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">Contributors</a> to
 Bioconda add new recipes or update existing recipes by opening pull
 requests to GitHub. Contributors might include:</p>
 <ul class="simple">
@@ -198,7 +229,7 @@ requests to GitHub. Contributors might include:</p>
 for updates (like CRAN, PyPI, GitHub releases) and submits a pull
 request with the update for other contributors to review.</p>
 </div></details><p><span class="circlednumber">②</span> A repository of recipes hosted on GitHub</p>
-<details><summary>Details</summary><div class="details"><p>The full history of all recipes is stored in the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">repository of recipes</a>
+<details><summary>Details</summary><div class="details"><p><i>Details</i></p><p>The full history of all recipes is stored in the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">repository of recipes</a>
 on GitHub.</p>
 <p>Contributors and Bioconda core team coordinate, collaborate, and
 help each other out via comments on GitHub in issues and pull requests
@@ -206,7 +237,7 @@ which are tested (see <span class="circlednumber">③</span>). The goal is to ge
 package that satisfies the Bioconda policies.</p>
 </div></details><p><span class="circlednumber">③</span> A build system that turns each recipes into a conda
 package and a Docker container</p>
-<details><summary>Details</summary><div class="details"><p>Every time changes are pushed to a GitHub pull request (e.g., new
+<details><summary>Details</summary><div class="details"><p><i>Details</i></p><p>Every time changes are pushed to a GitHub pull request (e.g., new
 recipe or updates to recipe), all of these changes are automatically built
 and tested. The results are reported back to the GitHub pull request page.
 Contributors work together to fix any issues (which are tested again) and
@@ -217,7 +248,7 @@ package</a> and a <a class="reference external" href="https://biocontainers.pro"
 pull request.</p>
 </div></details><p><span class="circlednumber">④</span> A repository of packages and a registry of containers
 containing over 8000 bioinformatics packages</p>
-<details><summary>Details</summary><div class="details"><p>When all tests pass and the pull request is merged into the main branch,
+<details><summary>Details</summary><div class="details"><p><i>Details</i></p><p>When all tests pass and the pull request is merged into the main branch,
 two things happen:</p>
 <ol class="arabic simple">
 <li><p>A final conda package is built and uploaded to the <a class="reference external" href="https://anaconda.org/bioconda">Bioconda channel on
@@ -226,7 +257,7 @@ anaconda.org</a> on anaconda.org.</p></li>
 then uploaded to the <a class="reference external" href="https://quay.io/biocontainers">Biocontainers registry</a>.</p></li>
 </ol>
 </div></details><p><span class="circlednumber">⑤</span> Users can then use the package with <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code> or <code class="xref any docutils literal notranslate"><span class="pre">docker</span> <span class="pre">pull</span></code></p>
-<details><summary>Details</summary><div class="details"><p>See above for how to configure the conda channels. Using docker containers
+<details><summary>Details</summary><div class="details"><p><i>Details</i></p><p>See above for how to configure the conda channels. Using docker containers
 just needs docker installed.</p>
 </div></details><section id="package-downloads">
 <h2>Package downloads<a class="headerlink" href="#package-downloads" title="Permalink to this heading">¶</a></h2>

@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -157,20 +174,20 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../r-calder2/README.html#r-calder2"><strong class="xref backref">r-calder2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../schicexplorer/README.html#schicexplorer"><strong class="xref backref">schicexplorer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../coolbox/README.html#coolbox"><strong class="xref backref">coolbox</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../coolpuppy/README.html#coolpuppy"><strong class="xref backref">coolpuppy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../hic2cool/README.html#hic2cool"><strong class="xref backref">hic2cool</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../cooltools/README.html#cooltools"><strong class="xref backref">cooltools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fanc/README.html#fanc"><strong class="xref backref">fanc</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../capcruncher/README.html#capcruncher"><strong class="xref backref">capcruncher</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../hic2cool/README.html#hic2cool"><strong class="xref backref">hic2cool</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../fanc/README.html#fanc"><strong class="xref backref">fanc</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../hicmatrix/README.html#hicmatrix"><strong class="xref backref">hicmatrix</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../hint/README.html#hint"><strong class="xref backref">hint</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../chromosight/README.html#chromosight"><strong class="xref backref">chromosight</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../coolbox/README.html#coolbox"><strong class="xref backref">coolbox</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-calder2/README.html#r-calder2"><strong class="xref backref">r-calder2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../schicexplorer/README.html#schicexplorer"><strong class="xref backref">schicexplorer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../cooltools/README.html#cooltools"><strong class="xref backref">cooltools</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../hicexplorer/README.html#hicexplorer"><strong class="xref backref">hicexplorer</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pore-c/README.html#pore-c"><strong class="xref backref">pore-c</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../basenji/README.html#basenji"><strong class="xref backref">basenji</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../chromosight/README.html#chromosight"><strong class="xref backref">chromosight</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../coolpuppy/README.html#coolpuppy"><strong class="xref backref">coolpuppy</strong></a></p></li>
 </ul>
 </dd>
 </dl>

@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -140,12 +157,12 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../sequana/README.html#sequana"><strong class="xref backref">sequana</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../genomics-data-index/README.html#genomics-data-index"><strong class="xref backref">genomics-data-index</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../clsify/README.html#clsify"><strong class="xref backref">clsify</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../genomics-data-index/README.html#genomics-data-index"><strong class="xref backref">genomics-data-index</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../mobidic-mpa/README.html#mobidic-mpa"><strong class="xref backref">mobidic-mpa</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../tb_variant_filter/README.html#tb_variant_filter"><strong class="xref backref">tb_variant_filter</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ngs-chew/README.html#ngs-chew"><strong class="xref backref">ngs-chew</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../sequana/README.html#sequana"><strong class="xref backref">sequana</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../tb_variant_filter/README.html#tb_variant_filter"><strong class="xref backref">tb_variant_filter</strong></a></p></li>
 </ul>
 </dd>
 </dl>

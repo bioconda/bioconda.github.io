@@ -41,6 +41,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -148,12 +165,12 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-coexnet/README.html#bioconductor-coexnet"><strong class="xref backref">bioconductor-coexnet</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-netresponse/README.html#bioconductor-netresponse"><strong class="xref backref">bioconductor-netresponse</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rtn/README.html#bioconductor-rtn"><strong class="xref backref">bioconductor-rtn</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-netomics/README.html#bioconductor-netomics"><strong class="xref backref">bioconductor-netomics</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genetclassifier/README.html#bioconductor-genetclassifier"><strong class="xref backref">bioconductor-genetclassifier</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-bionero/README.html#bioconductor-bionero"><strong class="xref backref">bioconductor-bionero</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-netresponse/README.html#bioconductor-netresponse"><strong class="xref backref">bioconductor-netresponse</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-coexnet/README.html#bioconductor-coexnet"><strong class="xref backref">bioconductor-coexnet</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-genetclassifier/README.html#bioconductor-genetclassifier"><strong class="xref backref">bioconductor-genetclassifier</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-netomics/README.html#bioconductor-netomics"><strong class="xref backref">bioconductor-netomics</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-rtn/README.html#bioconductor-rtn"><strong class="xref backref">bioconductor-rtn</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-bus/README.html#bioconductor-bus"><strong class="xref backref">bioconductor-bus</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-epinem/README.html#bioconductor-epinem"><strong class="xref backref">bioconductor-epinem</strong></a></p></li>
 </ul>
