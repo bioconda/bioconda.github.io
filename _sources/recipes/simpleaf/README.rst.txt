@@ -28,10 +28,10 @@ simpleaf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
       
 
-      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ simpleaf
    :depends alevin-fry: ``>=0.8.1``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends pyroe: ``>=0.8.1``
-   :depends salmon: ``>=1.9.0``
+   :depends pyroe: ``>=0.9.0``
+   :depends salmon: ``>=1.10.0``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +76,7 @@ simpleaf
 
     <script>
         var package = "simpleaf";
-        var versions = ["0.10.0","0.9.0","0.8.1","0.7.0","0.6.0"];
+        var versions = ["0.10.0","0.10.0","0.9.0","0.8.1","0.7.0"];
     </script>
 
 
