@@ -28,10 +28,10 @@ instrain
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.7-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.7-0</code>,  </span></summary>
       
 
-      ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.0-0``,  ``1.3.11-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.14-0``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.0-0``,  ``1.3.11-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.14-0``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -41,20 +41,16 @@ instrain
 
    
    :depends biopython: ``<=1.74``
-   :depends drep: 
    :depends h5py: 
    :depends lmfit: 
    :depends matplotlib-base: 
    :depends networkx: 
-   :depends numba: 
    :depends numpy: 
    :depends pandas: ``>=0.25,!=1.1.3``
    :depends psutil: 
    :depends pysam: ``>=0.15``
    :depends pytest: 
    :depends python: ``>=3.4``
-   :depends samtools: 
-   :depends scikit-learn: 
    :depends seaborn: 
    :depends tqdm: 
    :requirements:
@@ -88,7 +84,7 @@ instrain
 
     <script>
         var package = "instrain";
-        var versions = ["1.7.0","1.6.4","1.6.3","1.6.2","1.6.1"];
+        var versions = ["1.7.1","1.7.1","1.7.0","1.6.4","1.6.3"];
     </script>
 
 

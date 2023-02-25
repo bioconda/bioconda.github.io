@@ -27,7 +27,7 @@ olivar
       
       
 
-      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.0-0``
 
       
 
@@ -38,6 +38,7 @@ olivar
    :depends pandas: 
    :depends plotly: ``>=5.13.0``
    :depends python: ``>=3.8``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ olivar
 
     <script>
         var package = "olivar";
-        var versions = ["1.1.0","1.0.2","1.0.1","1.0.0","0.10.0"];
+        var versions = ["1.1.1","1.1.0","1.0.2","1.0.1","1.0.0"];
     </script>
 
 
