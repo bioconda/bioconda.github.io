@@ -6,7 +6,7 @@
 bcftools-gtc2vcf-plugin
 =======================
 
-.. conda:recipe:: bcftools-gtc2vcf-plugin/1.9
+.. conda:recipe:: bcftools-gtc2vcf-plugin
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ bcftools-gtc2vcf-plugin
 
    :homepage: https://github.com/freeseek/gtc2vcf
    :license: MIT
-   :recipe: /`bcftools-gtc2vcf-plugin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools-gtc2vcf-plugin>`_/`1.9 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools-gtc2vcf-plugin/1.9>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools-gtc2vcf-plugin/1.9/meta.yaml>`_
+   :recipe: /`bcftools-gtc2vcf-plugin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools-gtc2vcf-plugin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools-gtc2vcf-plugin/meta.yaml>`_
 
    
 
@@ -27,18 +27,18 @@ bcftools-gtc2vcf-plugin
       
       
 
-      ``1.9-0``
+      ``1.16-0``,  ``1.9-0``
 
       
 
    
-   :depends bcftools: ``1.9.*``
-   :depends bzip2: ``>=1.0.6,<2.0a0``
-   :depends curl: ``>=7.59.0,<8.0a0``
-   :depends libdeflate: ``>=1.0,<1.1.0a0``
-   :depends libgcc-ng: ``>=4.9``
-   :depends xz: ``>=5.2.4,<5.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends bcftools: 
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ bcftools-gtc2vcf-plugin
 
     <script>
         var package = "bcftools-gtc2vcf-plugin";
-        var versions = ["1.9"];
+        var versions = ["1.16","1.9"];
     </script>
 
 

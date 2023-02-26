@@ -28,10 +28,10 @@ bioconvert
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0.post0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
       
 
-      ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
+      ``1.0.0.post0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
 
       
       .. raw:: html
@@ -50,6 +50,7 @@ bioconvert
    :depends deeptools: 
    :depends dsrc: 
    :depends easydev: 
+   :depends gffread: 
    :depends go: ``1.10.3``
    :depends jinja2: ``<3.1``
    :depends mappy: 
@@ -58,8 +59,10 @@ bioconvert
    :depends mosdepth: 
    :depends networkx: 
    :depends numpydoc: 
+   :depends openpyxl: ``<=3.0.10``
    :depends pandas: 
    :depends pbzip2: 
+   :depends picard: 
    :depends pigz: 
    :depends plink: 
    :depends py2bit: 
@@ -86,7 +89,7 @@ bioconvert
    :depends ucsc-twobittofa: 
    :depends ucsc-wigtobigwig: 
    :depends wiggletools: ``1.2.11``
-   :depends xlrd: ``>=2.0``
+   :depends xlrd: ``>2.0``
    :requirements:
 
    .. rubric:: Installation
@@ -118,7 +121,7 @@ bioconvert
 
     <script>
         var package = "bioconvert";
-        var versions = ["0.6.3","0.6.2","0.6.1","0.6.0","0.5.2"];
+        var versions = ["1.0.0.post0","0.6.3","0.6.2","0.6.1","0.6.0"];
     </script>
 
 
