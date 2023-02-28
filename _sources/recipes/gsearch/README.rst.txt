@@ -27,11 +27,13 @@ gsearch
       
       
 
-      
+      ``0.0.12-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +65,7 @@ gsearch
 
     <script>
         var package = "gsearch";
-        var versions = [];
+        var versions = ["0.0.12"];
     </script>
 
 

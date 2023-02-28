@@ -27,7 +27,7 @@ imods
       
       
 
-      
+      ``1.0.4-0``
 
       
 
@@ -63,7 +63,7 @@ imods
 
     <script>
         var package = "imods";
-        var versions = [];
+        var versions = ["1.0.4"];
     </script>
 
 

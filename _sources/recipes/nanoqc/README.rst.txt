@@ -41,7 +41,7 @@ nanoqc
 
    
    :depends biopython: 
-   :depends bokeh: 
+   :depends bokeh: ``>=2.4,<3``
    :depends numpy: 
    :depends python: ``>=3``
    :requirements:

@@ -136,3 +136,4 @@ Bulk branch
 .. toctree::
 
     bulk
+    repodata_patching

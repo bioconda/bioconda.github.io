@@ -27,11 +27,12 @@ r-enchantr
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
+      ``0.1.0-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
 
    
+   :depends bioconductor-complexheatmap: ``>=2.14.0``
    :depends igphyml: ``1.1.5.*``
    :depends r-airr: ``>=1.4.1``
    :depends r-alakazam: 
@@ -48,6 +49,7 @@ r-enchantr
    :depends r-igraph: 
    :depends r-knitr: 
    :depends r-optparse: 
+   :depends r-plotly: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
    :depends r-rmarkdown: 
@@ -89,7 +91,7 @@ r-enchantr
 
     <script>
         var package = "r-enchantr";
-        var versions = ["0.0.6","0.0.5","0.0.4","0.0.3","0.0.3"];
+        var versions = ["0.1.0","0.0.6","0.0.5","0.0.4","0.0.3"];
     </script>
 
 

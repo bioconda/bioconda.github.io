@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Repodata patching &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/vega.min.js"></script>
+    <script src="../_static/vega-lite.min.js"></script>
+    <script src="../_static/vega-embed.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Tutorials" href="../tutorials/index.html" />
+    <link rel="prev" title="The bulk branch" href="bulk.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Developer Docs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="index.html#updating-bioconda-utils">Updating <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#bulk-branch">Bulk branch</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bulk.html">The <code class="xref any docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Repodata patching</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#what-is-repodata">What is repodata?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-bioconda-repodata-patches-package">The bioconda-repodata-patches package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#modifying-gen-patch-json-py">Modifying gen_patch_json.py</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#confirming-the-patch-is-correct">Confirming the patch is correct</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="../conda-package_index.html">Browse packages</a></li>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+    <h3 id="searchlabel">Search</h3>
+    <p id="searchdesc">packages & docs</p>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="repodata-patching">
+<h1>Repodata patching<a class="headerlink" href="#repodata-patching" title="Permalink to this heading">¶</a></h1>
+<p>Oh no, your favorite package, nanoqc, pulls in bokeh as a dependency, but there
+was recently a major version change in it that breaks backward compatibility.
+That wouldn’t be a problem, except nanoqc doesn’t restrict the range of <a class="conda-forge reference external" href="https://github.com/conda-forge/bokeh-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bokeh</span></code></a>
+that can be installed. Thus, you and everyone else in the world, will
+constantly get non-functional installs whenever creating new environments with
+nanoqc. Sure you can get around this with <code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span> <span class="pre">-n</span> <span class="pre">nanoqc</span> <span class="pre">nanoqc</span> <span class="pre">bokeh=2.4.3</span></code>,
+but that still leaves things broken for everyone else in the world. Wouldn’t it
+be nice if you could just fix the nanoqc package, in place, such that it
+magically contains a restriction on the version of bokeh that it depends on? It
+turns out you <strong>CAN</strong> do this with repodata patching.</p>
+<section id="what-is-repodata">
+<h2>What is repodata?<a class="headerlink" href="#what-is-repodata" title="Permalink to this heading">¶</a></h2>
+<p>Repodata is a JSON file that contains a variety of information for each package
+in Bioconda. There is one for each architecture (linux-64, osx-64, noarch, etc.)
+and they’re hosted by bioconda. For example, the noarch repodata.json file <a href="#id1"><span class="problematic" id="id2">`is
+available here&lt;https://conda.anaconda.org/bioconda/noarch/repodata.json&gt;`_</span></a>.
+Let’s take a look at the what sorts of things are stored within this file for a
+single package:</p>
+<blockquote>
+<div><div class="highlight-json notranslate"><div class="highlight"><pre><span></span>{
+  &quot;info&quot;: {
+    &quot;subdir&quot;: &quot;noarch&quot;
+  },
+  &quot;packages&quot;: {
+    ... many packages ..
+    &quot;nanoqc-0.9.4-py_0.tar.bz2&quot;: {
+      &quot;build&quot;: &quot;py_0&quot;,
+      &quot;build_number&quot;: 0,
+      &quot;depends&quot;: [
+        &quot;biopython&quot;,
+        &quot;bokeh&quot;,
+        &quot;numpy&quot;,
+        &quot;python &gt;=3&quot;
+      ],
+      &quot;license&quot;: &quot;MIT License&quot;,
+      &quot;license_family&quot;: &quot;MIT&quot;,
+      &quot;md5&quot;: &quot;ebe00c0c2390252a67f5f6419dd4db80&quot;,
+      &quot;name&quot;: &quot;nanoqc&quot;,
+      &quot;noarch&quot;: &quot;python&quot;,
+      &quot;sha256&quot;: &quot;32d12881d92396cf85274268baf82d400ae353edf370096c0ddf559993807ce8&quot;,
+      &quot;size&quot;: 9867,
+      &quot;subdir&quot;: &quot;noarch&quot;,
+      &quot;timestamp&quot;: 1592396392980,
+      &quot;version&quot;: &quot;0.9.4&quot;
+    },
+  },
+  &quot;packages.conda&quot;: {},
+  &quot;removed&quot;: [],
+  &quot;repodata_version&quot;: 1
+}
+</pre></div>
+</div>
+</div></blockquote>
+<p>This is what’s used by <a class="conda-forge reference external" href="https://github.com/conda-forge/conda-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda</span></code></a> and <a class="conda-forge reference external" href="https://github.com/conda-forge/mamba-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">mamba</span></code></a> for determining what packages exist
+and their dependencies. Note that the exact fields have changed over time, with
+older packages lacking things like the <code class="xref any docutils literal notranslate"><span class="pre">timestamp</span></code> value.</p>
+<p>In order to add/remove/update a dependency, we need to modify the <code class="xref any docutils literal notranslate"><span class="pre">depends</span></code> list
+in each package that should be modified. We can’t directly modify these files,
+instead we need to patch them with the bioconda-repodata-patches package.</p>
+</section>
+<section id="the-bioconda-repodata-patches-package">
+<h2>The bioconda-repodata-patches package<a class="headerlink" href="#the-bioconda-repodata-patches-package" title="Permalink to this heading">¶</a></h2>
+<p>The <a class="conda-package reference internal" href="../recipes/bioconda-repodata-patches/README.html#package-bioconda-repodata-patches" title="bioconda-repodata-patches package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bioconda-repodata-patches</span></code></a> package itself contains a set of patches for
+each architecture:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.
+├── linux-64
+│   └── patch_instructions.json
+├── noarch
+│   └── patch_instructions.json
+└── osx-64
+    └── patch_instructions.json
+</pre></div>
+</div>
+<p>For an individual package, the json file will contain the updated dependencies.
+For the <a class="conda-package reference internal" href="../recipes/nanoqc/README.html#package-nanoqc" title="nanoqc package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">nanoqc</span></code></a> example above, that would look like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;nanoqc-0.9.4-py_0.tar.bz2&quot;</span><span class="p">:</span> <span class="p">{</span>
+  <span class="s2">&quot;depends&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="s2">&quot;biopython&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;bokeh &gt;=2.4,&lt;3&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;numpy&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;python &gt;=3&quot;</span>
+  <span class="p">]</span>
+<span class="p">},</span>
+</pre></div>
+</div>
+<p>Thankfully, you do not need to manually update each package and in fact if you
+do your changes will almost certainly be lost over time. Instead, within the
+<a class="conda-package reference internal" href="../recipes/bioconda-repodata-patches/README.html#package-bioconda-repodata-patches" title="bioconda-repodata-patches package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bioconda-repodata-patches</span></code></a> recipe, edit and run the <code class="xref any docutils literal notranslate"><span class="pre">gen_patch_json.py</span></code> script.</p>
+</section>
+<section id="modifying-gen-patch-json-py">
+<h2>Modifying gen_patch_json.py<a class="headerlink" href="#modifying-gen-patch-json-py" title="Permalink to this heading">¶</a></h2>
+<p>The <code class="xref any docutils literal notranslate"><span class="pre">gen_patch_json.py</span></code> file is borrowed from conda-forge and has one function
+that should typically be modified: <code class="xref any docutils literal notranslate"><span class="pre">_gen_new_index</span></code>. Within this function, each
+record in repodata.json is iterated over and changes that should be made to it
+are returned to a comparison function. So if you make changes within this
+function, they’ll end up in the appropriate <code class="xref any docutils literal notranslate"><span class="pre">patch_instructions.json</span></code> file.
+Let’s use the <a class="conda-package reference internal" href="../recipes/nanoqc/README.html#package-nanoqc" title="nanoqc package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">nanoqc</span></code></a> example to see how we can do this.</p>
+<p>We first need to come up with a strategy for finding and updating the <a class="conda-package reference internal" href="../recipes/nanoqc/README.html#package-nanoqc" title="nanoqc package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">nanoqc</span></code></a>
+packages. A process like that might look like the following:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Find any package whose name starts with nanoqc</p></li>
+<li><p>See if it has <a class="conda-forge reference external" href="https://github.com/conda-forge/bokeh-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bokeh</span></code></a> listed as a dependency.</p></li>
+<li><p>Change that dependency to <code class="xref any docutils literal notranslate"><span class="pre">bokeh</span> <span class="pre">&gt;=2.4,&lt;3</span></code></p></li>
+</ol>
+</div></blockquote>
+<p>One thing we should think about is what will happen if a new version of <a class="conda-package reference internal" href="../recipes/nanoqc/README.html#package-nanoqc" title="nanoqc package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">nanoqc</span></code></a>
+comes out that <strong>IS</strong> compatible with new versions of <a class="conda-forge reference external" href="https://github.com/conda-forge/bokeh-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bokeh</span></code></a>. We certainly
+don’t want to continue adding this version constraint to new releases. To avoid
+this, we can use the <code class="xref any docutils literal notranslate"><span class="pre">timestamp</span></code>, so we only update packages that currently
+exist. The code for this might look like the following:</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nanoqc requires bokeh &gt;=2.4,&lt;3</span>
+<span class="k">if</span> <span class="n">record_name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;nanoqc&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">has_dep</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s2">&quot;bokeh&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">record</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;timestamp&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">1592397000000</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">dep</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">deps</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">dep</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;bokeh&#39;</span><span class="p">):</span>
+            <span class="n">deps</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;bokeh &gt;=2.4,&lt;3&#39;</span>
+            <span class="k">break</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>So, we’re only modifying packages that start with <a class="conda-package reference internal" href="../recipes/nanoqc/README.html#package-nanoqc" title="nanoqc package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">nanoqc</span></code></a>, have <a class="conda-forge reference external" href="https://github.com/conda-forge/bokeh-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bokeh</span></code></a> as a
+dependency and are sufficiently old.</p>
+<p>After making this change, we then need to run <code class="xref any docutils literal notranslate"><span class="pre">gen_patch_json.py</span></code> to actually
+generate the new patch files. This is why the patch files should not be manually
+modified themselves, the changes will be overwritten the next time this script
+is run.</p>
+</section>
+<section id="confirming-the-patch-is-correct">
+<h2>Confirming the patch is correct<a class="headerlink" href="#confirming-the-patch-is-correct" title="Permalink to this heading">¶</a></h2>
+<p>Now that the patches have been made, it’s good to check that they actually
+contain the right changes before proceeding. To do this, we can use the
+<code class="xref any docutils literal notranslate"><span class="pre">show_diff.py</span></code> script. In the example above, this would produce:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">noarch</span><span class="p">::</span><span class="n">nanoqc</span><span class="o">-</span><span class="mf">0.9.1</span><span class="o">-</span><span class="n">py_0</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
+<span class="o">-</span>    <span class="s2">&quot;bokeh&quot;</span><span class="p">,</span>
+<span class="o">+</span>    <span class="s2">&quot;bokeh &gt;=2.4,&lt;3&quot;</span><span class="p">,</span>
+<span class="n">noarch</span><span class="p">::</span><span class="n">nanoqc</span><span class="o">-</span><span class="mf">0.9.2</span><span class="o">-</span><span class="n">py_0</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
+<span class="o">-</span>    <span class="s2">&quot;bokeh&quot;</span><span class="p">,</span>
+<span class="o">+</span>    <span class="s2">&quot;bokeh &gt;=2.4,&lt;3&quot;</span><span class="p">,</span>
+<span class="n">noarch</span><span class="p">::</span><span class="n">nanoqc</span><span class="o">-</span><span class="mf">0.9.4</span><span class="o">-</span><span class="n">py_0</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
+<span class="o">-</span>    <span class="s2">&quot;bokeh&quot;</span><span class="p">,</span>
+<span class="o">+</span>    <span class="s2">&quot;bokeh &gt;=2.4,&lt;3&quot;</span><span class="p">,</span>
+<span class="n">linux</span><span class="o">-</span><span class="mi">64</span><span class="p">::</span><span class="n">nanoqc</span><span class="o">-</span><span class="mf">0.6.0</span><span class="o">-</span><span class="n">py35_0</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
+<span class="o">-</span>    <span class="s2">&quot;bokeh&quot;</span><span class="p">,</span>
+<span class="o">+</span>    <span class="s2">&quot;bokeh &gt;=2.4,&lt;3&quot;</span><span class="p">,</span>
+<span class="n">linux</span><span class="o">-</span><span class="mi">64</span><span class="p">::</span><span class="n">nanoqc</span><span class="o">-</span><span class="mf">0.6.0</span><span class="o">-</span><span class="n">py36_0</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
+<span class="o">-</span>    <span class="s2">&quot;bokeh&quot;</span><span class="p">,</span>
+<span class="o">+</span>    <span class="s2">&quot;bokeh &gt;=2.4,&lt;3&quot;</span><span class="p">,</span>
+<span class="o">...</span> <span class="ow">and</span> <span class="n">many</span> <span class="n">more</span> <span class="o">...</span>
+</pre></div>
+</div>
+<p>Note that you must have <code class="xref any docutils literal notranslate"><span class="pre">conda-bld</span></code> in your path for this to work.</p>
+<p>As long as all of the packages that should be updated are listed there, then
+these changes are ready for committing and pushing. Don’t be surprised if
+additional packages are also updated. It’s not unusual for bioconductor package
+repodata to get updated over time, for example.</p>
+<p>Please ping the core team in gitter when proposing changes to this package!</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2023, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../_sources/developer/repodata_patching.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/developer/repodata_patching.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>
