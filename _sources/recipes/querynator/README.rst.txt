@@ -1,0 +1,100 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'querynator'
+.. highlight: bash
+
+querynator
+==========
+
+.. conda:recipe:: querynator
+   :replaces_section_title:
+   :noindex:
+
+   Python package to query cancer variant databases
+
+   :homepage: https://github.com/qbic-pipelines/querynator
+   :documentation: https://querynator.readthedocs.io/
+   
+   :developer docs: https://github.com/qbic-pipelines/querynator/tree/dev
+   :license: MIT / MIT
+   :recipe: /`querynator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/querynator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/querynator/meta.yaml>`_
+   :links: biotools: :biotools:`querynator`
+
+   
+
+
+.. conda:package:: querynator
+
+   |downloads_querynator| |docker_querynator|
+
+   :versions:
+      
+      
+
+      ``0.1.3-0``
+
+      
+
+   
+   :depends click: ``>=8.1.3``
+   :depends httplib2: 
+   :depends pytest: ``>=6.2.4``
+   :depends python: ``>=3.8``
+   :depends requests: 
+   :depends requests-cache: 
+   :depends sphinx: ``>=5.3.0``
+   :depends sphinx-rtd-theme: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install querynator
+
+   and update with::
+
+      conda update querynator
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/querynator:<tag>
+
+   (see `querynator/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_querynator| image:: https://img.shields.io/conda/dn/bioconda/querynator.svg?style=flat
+   :target: https://anaconda.org/bioconda/querynator
+   :alt:   (downloads)
+.. |docker_querynator| image:: https://quay.io/repository/biocontainers/querynator/status
+   :target: https://quay.io/repository/biocontainers/querynator
+.. _`querynator/tags`: https://quay.io/repository/biocontainers/querynator?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "querynator";
+        var versions = ["0.1.3"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/querynator/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/querynator/README.html

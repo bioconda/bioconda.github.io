@@ -1,0 +1,93 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bcool'
+.. highlight: bash
+
+bcool
+=====
+
+.. conda:recipe:: bcool
+   :replaces_section_title:
+   :noindex:
+
+   BCOOL is a read corrector for NGS sequencing data that align reads on a de Bruijn graph. Version described at \(https\:\/\/arxiv.org\/abs\/1711.03336\) presented at RECOMB\-seq 2018
+
+   :homepage: https://github.com/Malfoy/BCOOL
+   :license: AGPL-3.0
+   :recipe: /`bcool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcool/meta.yaml>`_
+
+   
+
+
+.. conda:package:: bcool
+
+   |downloads_bcool| |docker_bcool|
+
+   :versions:
+      
+      
+
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
+   
+   :depends bcalm: 
+   :depends bgreat: 
+   :depends btrim: 
+   :depends ntcard: 
+   :depends python: ``>=3``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bcool
+
+   and update with::
+
+      conda update bcool
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bcool:<tag>
+
+   (see `bcool/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bcool| image:: https://img.shields.io/conda/dn/bioconda/bcool.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcool
+   :alt:   (downloads)
+.. |docker_bcool| image:: https://quay.io/repository/biocontainers/bcool/status
+   :target: https://quay.io/repository/biocontainers/bcool
+.. _`bcool/tags`: https://quay.io/repository/biocontainers/bcool?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bcool";
+        var versions = ["1.0.0","1.0.0","1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bcool/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bcool/README.html

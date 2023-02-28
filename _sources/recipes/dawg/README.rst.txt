@@ -1,0 +1,92 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'dawg'
+.. highlight: bash
+
+dawg
+====
+
+.. conda:recipe:: dawg
+   :replaces_section_title:
+   :noindex:
+
+   DNA Assembly with Gaps \(Dawg\) is an application designed to simulate the evolution of recombinant DNA sequences in continuous time based on the robust general time reversible model with gamma and invariant rate heterogeneity and a novel length\-dependent model of gap formation.
+
+   :homepage: https://github.com/reedacartwright/dawg
+   :license: GPL-2
+   :recipe: /`dawg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dawg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dawg/meta.yaml>`_
+
+   
+
+
+.. conda:package:: dawg
+
+   |downloads_dawg| |docker_dawg|
+
+   :versions:
+      
+      
+
+      ``2.0.beta1-5``,  ``2.0.beta1-4``,  ``2.0.beta1-3``,  ``2.0.beta1-2``,  ``2.0.beta1-1``,  ``2.0.beta1-0``
+
+      
+
+   
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dawg
+
+   and update with::
+
+      conda update dawg
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/dawg:<tag>
+
+   (see `dawg/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_dawg| image:: https://img.shields.io/conda/dn/bioconda/dawg.svg?style=flat
+   :target: https://anaconda.org/bioconda/dawg
+   :alt:   (downloads)
+.. |docker_dawg| image:: https://quay.io/repository/biocontainers/dawg/status
+   :target: https://quay.io/repository/biocontainers/dawg
+.. _`dawg/tags`: https://quay.io/repository/biocontainers/dawg?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "dawg";
+        var versions = ["2.0.beta1","2.0.beta1","2.0.beta1","2.0.beta1","2.0.beta1"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dawg/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dawg/README.html

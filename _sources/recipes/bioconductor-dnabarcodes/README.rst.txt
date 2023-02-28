@@ -1,0 +1,105 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-dnabarcodes'
+.. highlight: bash
+
+bioconductor-dnabarcodes
+========================
+
+.. conda:recipe:: bioconductor-dnabarcodes
+   :replaces_section_title:
+   :noindex:
+
+   A tool for creating and analysing DNA barcodes used in Next Generation Sequencing multiplexing experiments
+
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DNABarcodes.html
+   :license: GPL-2
+   :recipe: /`bioconductor-dnabarcodes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodes/meta.yaml>`_
+   :links: biotools: :biotools:`dnabarcodes`
+
+   The package offers a function to create DNA barcode sets capable of correcting insertion\, deletion\, and substitution errors. Existing barcodes can be analysed regarding their minimal\, maximal and average distances between barcodes. Finally\, reads that start with a \(possibly mutated\) barcode can be demultiplexed\, i.e.\, assigned to their original reference barcode.
+
+
+.. conda:package:: bioconductor-dnabarcodes
+
+   |downloads_bioconductor-dnabarcodes| |docker_bioconductor-dnabarcodes|
+
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+      
+
+      ``1.28.0-0``,  ``1.24.0-2``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
+   
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-bh: 
+   :depends r-matrix: 
+   :depends r-rcpp: ``>=0.11.2``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dnabarcodes
+
+   and update with::
+
+      conda update bioconductor-dnabarcodes
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-dnabarcodes:<tag>
+
+   (see `bioconductor-dnabarcodes/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-dnabarcodes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dnabarcodes.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dnabarcodes
+   :alt:   (downloads)
+.. |docker_bioconductor-dnabarcodes| image:: https://quay.io/repository/biocontainers/bioconductor-dnabarcodes/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dnabarcodes
+.. _`bioconductor-dnabarcodes/tags`: https://quay.io/repository/biocontainers/bioconductor-dnabarcodes?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dnabarcodes";
+        var versions = ["1.28.0","1.24.0","1.24.0","1.24.0","1.22.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dnabarcodes/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dnabarcodes/README.html

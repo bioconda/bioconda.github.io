@@ -1,0 +1,98 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-ddpcrclust'
+.. highlight: bash
+
+bioconductor-ddpcrclust
+=======================
+
+.. conda:recipe:: bioconductor-ddpcrclust
+   :replaces_section_title:
+   :noindex:
+
+   Clustering algorithm for ddPCR data
+
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ddPCRclust.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ddpcrclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddpcrclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddpcrclust/meta.yaml>`_
+
+   The ddPCRclust algorithm can automatically quantify the CPDs of non\-orthogonal ddPCR reactions with up to four targets. In order to determine the correct droplet count for each target\, it is crucial to both identify all clusters and label them correctly based on their position. For more information on what data can be analyzed and how a template needs to be formatted\, please check the vignette.
+
+
+.. conda:package:: bioconductor-ddpcrclust
+
+   |downloads_bioconductor-ddpcrclust| |docker_bioconductor-ddpcrclust|
+
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
+   
+   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowdensity: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-flowpeaks: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-samspectral: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-clue: 
+   :depends r-ggplot2: 
+   :depends r-openxlsx: 
+   :depends r-plotrix: 
+   :depends r-r.utils: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ddpcrclust
+
+   and update with::
+
+      conda update bioconductor-ddpcrclust
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-ddpcrclust:<tag>
+
+   (see `bioconductor-ddpcrclust/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-ddpcrclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ddpcrclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ddpcrclust
+   :alt:   (downloads)
+.. |docker_bioconductor-ddpcrclust| image:: https://quay.io/repository/biocontainers/bioconductor-ddpcrclust/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ddpcrclust
+.. _`bioconductor-ddpcrclust/tags`: https://quay.io/repository/biocontainers/bioconductor-ddpcrclust?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ddpcrclust";
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ddpcrclust/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ddpcrclust/README.html

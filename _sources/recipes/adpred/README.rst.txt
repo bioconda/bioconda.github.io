@@ -1,0 +1,96 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'adpred'
+.. highlight: bash
+
+adpred
+======
+
+.. conda:recipe:: adpred
+   :replaces_section_title:
+   :noindex:
+
+   python adpred module for prediction of Transcription activation domains from protein sequences
+
+   :homepage: https://github.com/FredHutch/adpred
+   :license: MIT Licence
+   :recipe: /`adpred <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adpred>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adpred/meta.yaml>`_
+
+   
+
+
+.. conda:package:: adpred
+
+   |downloads_adpred| |docker_adpred|
+
+   :versions:
+      
+      
+
+      ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.3-0``
+
+      
+
+   
+   :depends keras: ``>=2``
+   :depends numpy: ``>=1``
+   :depends pandas: ``>=1``
+   :depends plotly: ``>=5``
+   :depends python: ``>=3.9``
+   :depends requests: ``>=2``
+   :depends scikit-learn: ``>=1``
+   :depends tensorflow: ``>=2``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install adpred
+
+   and update with::
+
+      conda update adpred
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/adpred:<tag>
+
+   (see `adpred/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_adpred| image:: https://img.shields.io/conda/dn/bioconda/adpred.svg?style=flat
+   :target: https://anaconda.org/bioconda/adpred
+   :alt:   (downloads)
+.. |docker_adpred| image:: https://quay.io/repository/biocontainers/adpred/status
+   :target: https://quay.io/repository/biocontainers/adpred
+.. _`adpred/tags`: https://quay.io/repository/biocontainers/adpred?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "adpred";
+        var versions = ["1.3.1","1.2.8","1.2.7","1.2.5","1.2.4"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/adpred/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/adpred/README.html

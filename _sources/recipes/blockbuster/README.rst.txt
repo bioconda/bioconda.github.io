@@ -1,0 +1,89 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'blockbuster'
+.. highlight: bash
+
+blockbuster
+===========
+
+.. conda:recipe:: blockbuster
+   :replaces_section_title:
+   :noindex:
+
+   Blockbuster detects blocks of overlapping reads using a gaussian\-distribution approach.
+
+   :homepage: http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html
+   :license: The 3-Clause BSD License
+   :recipe: /`blockbuster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockbuster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockbuster/meta.yaml>`_
+
+   
+
+
+.. conda:package:: blockbuster
+
+   |downloads_blockbuster| |docker_blockbuster|
+
+   :versions:
+      
+      
+
+      ``0.0.1.1-5``,  ``0.0.1.1-4``,  ``0.0.1.1-3``,  ``0.0.1.1-2``,  ``0.0.1.1-1``
+
+      
+
+   
+   :depends libgcc-ng: ``>=10.3.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install blockbuster
+
+   and update with::
+
+      conda update blockbuster
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/blockbuster:<tag>
+
+   (see `blockbuster/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_blockbuster| image:: https://img.shields.io/conda/dn/bioconda/blockbuster.svg?style=flat
+   :target: https://anaconda.org/bioconda/blockbuster
+   :alt:   (downloads)
+.. |docker_blockbuster| image:: https://quay.io/repository/biocontainers/blockbuster/status
+   :target: https://quay.io/repository/biocontainers/blockbuster
+.. _`blockbuster/tags`: https://quay.io/repository/biocontainers/blockbuster?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "blockbuster";
+        var versions = ["0.0.1.1","0.0.1.1","0.0.1.1","0.0.1.1","0.0.1.1"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/blockbuster/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/blockbuster/README.html

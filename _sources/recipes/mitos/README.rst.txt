@@ -1,0 +1,109 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'mitos'
+.. highlight: bash
+
+mitos
+=====
+
+.. conda:recipe:: mitos
+   :replaces_section_title:
+   :noindex:
+
+   MITOS is a tool for the annotation of metazoan mitochondrial genomes.
+
+   :homepage: http://mitos.bioinf.uni-leipzig.de
+   :developer docs: https://gitlab.com/Bernt/MITOS
+   :license: MIT / MIT
+   :recipe: /`mitos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitos/meta.yaml>`_
+
+   
+
+
+.. conda:package:: mitos
+
+   |downloads_mitos| |docker_mitos|
+
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  </span></summary>
+      
+
+      ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
+   
+   :depends biopython: ``<1.68``
+   :depends blast: ``2.9.*``
+   :depends hmmer: ``3.2.*``
+   :depends infernal: ``1.1.*``
+   :depends libtiff: ``<4.5``
+   :depends openjdk: ``>8``
+   :depends pillow: 
+   :depends python: ``>=3``
+   :depends r-base: ``>=3``
+   :depends r-ggplot2: 
+   :depends r-reshape2: 
+   :depends viennarna: ``<2``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mitos
+
+   and update with::
+
+      conda update mitos
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/mitos:<tag>
+
+   (see `mitos/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_mitos| image:: https://img.shields.io/conda/dn/bioconda/mitos.svg?style=flat
+   :target: https://anaconda.org/bioconda/mitos
+   :alt:   (downloads)
+.. |docker_mitos| image:: https://quay.io/repository/biocontainers/mitos/status
+   :target: https://quay.io/repository/biocontainers/mitos
+.. _`mitos/tags`: https://quay.io/repository/biocontainers/mitos?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "mitos";
+        var versions = ["2.1.3","2.1.2","2.1.1","2.1.0","2.0.8"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mitos/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mitos/README.html

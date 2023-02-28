@@ -1,0 +1,102 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-gage'
+.. highlight: bash
+
+bioconductor-gage
+=================
+
+.. conda:recipe:: bioconductor-gage
+   :replaces_section_title:
+   :noindex:
+
+   Generally Applicable Gene\-set Enrichment for Pathway Analysis
+
+   :homepage: https://bioconductor.org/packages/3.16/bioc/html/gage.html
+   :license: GPL (>=2.0)
+   :recipe: /`bioconductor-gage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage/meta.yaml>`_
+   :links: biotools: :biotools:`gage`
+
+   GAGE is a published method for gene set \(enrichment or GSEA\) or pathway analysis. GAGE is generally applicable independent of microarray or RNA\-Seq data attributes including sample sizes\, experimental designs\, assay platforms\, and other types of heterogeneity\, and consistently achieves superior performance over other frequently used methods. In gage package\, we provide functions for basic GAGE analysis\, result processing and presentation. We have also built pipeline routines for of multiple GAGE analyses in a batch\, comparison between parallel analyses\, and combined analysis of heterogeneous data from different sources\/studies. In addition\, we provide demo microarray data and commonly used gene set data based on KEGG pathways and GO terms. These funtions and data are also useful for gene set analysis using other methods.
+
+
+.. conda:package:: bioconductor-gage
+
+   |downloads_bioconductor-gage| |docker_bioconductor-gage|
+
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.1-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-1</code>,  <code>2.32.0-0</code>,  </span></summary>
+      
+
+      ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.1-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.3-0``,  ``2.21.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
+   
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-keggrest: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gage
+
+   and update with::
+
+      conda update bioconductor-gage
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-gage:<tag>
+
+   (see `bioconductor-gage/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-gage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gage
+   :alt:   (downloads)
+.. |docker_bioconductor-gage| image:: https://quay.io/repository/biocontainers/bioconductor-gage/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gage
+.. _`bioconductor-gage/tags`: https://quay.io/repository/biocontainers/bioconductor-gage?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gage";
+        var versions = ["2.48.0","2.44.0","2.42.0","2.40.1","2.40.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gage/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gage/README.html

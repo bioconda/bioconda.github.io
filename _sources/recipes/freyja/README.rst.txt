@@ -1,0 +1,111 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'freyja'
+.. highlight: bash
+
+freyja
+======
+
+.. conda:recipe:: freyja
+   :replaces_section_title:
+   :noindex:
+
+   Freyja recovers relative lineage abundances from mixed SARS\-CoV\-2 samples and provides functionality to analyze lineage dynamics.
+
+   :homepage: https://github.com/andersen-lab/Freyja
+   :license: BSD
+   :recipe: /`freyja <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/freyja>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/freyja/meta.yaml>`_
+
+   
+
+
+.. conda:package:: freyja
+
+   |downloads_freyja| |docker_freyja|
+
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.12-0</code>,  <code>1.3.11-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  </span></summary>
+      
+
+      ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
+   
+   :depends click: 
+   :depends cvxpy: 
+   :depends epiweeks: 
+   :depends ivar: 
+   :depends joblib: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends plotly: 
+   :depends python: ``>=3.7``
+   :depends pyyaml: 
+   :depends requests: 
+   :depends samtools: 
+   :depends tqdm: 
+   :depends usher: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install freyja
+
+   and update with::
+
+      conda update freyja
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/freyja:<tag>
+
+   (see `freyja/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_freyja| image:: https://img.shields.io/conda/dn/bioconda/freyja.svg?style=flat
+   :target: https://anaconda.org/bioconda/freyja
+   :alt:   (downloads)
+.. |docker_freyja| image:: https://quay.io/repository/biocontainers/freyja/status
+   :target: https://quay.io/repository/biocontainers/freyja
+.. _`freyja/tags`: https://quay.io/repository/biocontainers/freyja?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "freyja";
+        var versions = ["1.3.12","1.3.11","1.3.10","1.3.9","1.3.8"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/freyja/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/freyja/README.html

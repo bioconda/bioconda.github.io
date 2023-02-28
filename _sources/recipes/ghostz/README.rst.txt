@@ -1,0 +1,91 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'ghostz'
+.. highlight: bash
+
+ghostz
+======
+
+.. conda:recipe:: ghostz
+   :replaces_section_title:
+   :noindex:
+
+   GHOSTZ is a highly efficient remote homologue detection tool
+
+   :homepage: http://www.bi.cs.titech.ac.jp/ghostz/
+   :license: BSD-2-Clause
+   :recipe: /`ghostz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostz/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btu780`
+
+   GHOSTZ is a homology search tool which can detect remote homologues like BLAST and is about 200 times more efficient than BLAST by using database subsequence clustering. GHOSTZ outputs search results in the format similar to BLAST\-tabular format.
+
+
+.. conda:package:: ghostz
+
+   |downloads_ghostz| |docker_ghostz|
+
+   :versions:
+      
+      
+
+      ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
+   
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ghostz
+
+   and update with::
+
+      conda update ghostz
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/ghostz:<tag>
+
+   (see `ghostz/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_ghostz| image:: https://img.shields.io/conda/dn/bioconda/ghostz.svg?style=flat
+   :target: https://anaconda.org/bioconda/ghostz
+   :alt:   (downloads)
+.. |docker_ghostz| image:: https://quay.io/repository/biocontainers/ghostz/status
+   :target: https://quay.io/repository/biocontainers/ghostz
+.. _`ghostz/tags`: https://quay.io/repository/biocontainers/ghostz?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "ghostz";
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ghostz/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ghostz/README.html

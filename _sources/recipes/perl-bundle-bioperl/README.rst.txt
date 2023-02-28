@@ -1,0 +1,89 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'perl-bundle-bioperl'
+.. highlight: bash
+
+perl-bundle-bioperl
+===================
+
+.. conda:recipe:: perl-bundle-bioperl
+   :replaces_section_title:
+   :noindex:
+
+   A bundle to install external CPAN modules used by BioPerl 1.5.2
+
+   :homepage: http://metacpan.org/pod/Bundle::BioPerl
+   :license: unknown
+   :recipe: /`perl-bundle-bioperl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bundle-bioperl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bundle-bioperl/meta.yaml>`_
+
+   
+
+
+.. conda:package:: perl-bundle-bioperl
+
+   |downloads_perl-bundle-bioperl| |docker_perl-bundle-bioperl|
+
+   :versions:
+      
+      
+
+      ``2.1.9-1``,  ``2.1.9-0``
+
+      
+
+   
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bundle-bioperl
+
+   and update with::
+
+      conda update perl-bundle-bioperl
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/perl-bundle-bioperl:<tag>
+
+   (see `perl-bundle-bioperl/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_perl-bundle-bioperl| image:: https://img.shields.io/conda/dn/bioconda/perl-bundle-bioperl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bundle-bioperl
+   :alt:   (downloads)
+.. |docker_perl-bundle-bioperl| image:: https://quay.io/repository/biocontainers/perl-bundle-bioperl/status
+   :target: https://quay.io/repository/biocontainers/perl-bundle-bioperl
+.. _`perl-bundle-bioperl/tags`: https://quay.io/repository/biocontainers/perl-bundle-bioperl?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "perl-bundle-bioperl";
+        var versions = ["2.1.9","2.1.9"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bundle-bioperl/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bundle-bioperl/README.html

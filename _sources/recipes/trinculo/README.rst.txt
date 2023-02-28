@@ -1,0 +1,94 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'trinculo'
+.. highlight: bash
+
+trinculo
+========
+
+.. conda:recipe:: trinculo
+   :replaces_section_title:
+   :noindex:
+
+   A toolkit for carrying out genetic association for
+   multi\-category phenotypes. Implements multinomial and ordinal
+   association incorporating covariates\, conditional analysis\,
+   empirical and non\-emperical priors and fine\-mapping.
+
+   :homepage: https://sourceforge.net/projects/trinculo/
+   :license: MIT
+   :recipe: /`trinculo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinculo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinculo/meta.yaml>`_
+
+   
+
+
+.. conda:package:: trinculo
+
+   |downloads_trinculo| |docker_trinculo|
+
+   :versions:
+      
+      
+
+      ``0.96-6``,  ``0.96-5``,  ``0.96-4``,  ``0.96-3``,  ``0.96-2``,  ``0.96-0``
+
+      
+
+   
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install trinculo
+
+   and update with::
+
+      conda update trinculo
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/trinculo:<tag>
+
+   (see `trinculo/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_trinculo| image:: https://img.shields.io/conda/dn/bioconda/trinculo.svg?style=flat
+   :target: https://anaconda.org/bioconda/trinculo
+   :alt:   (downloads)
+.. |docker_trinculo| image:: https://quay.io/repository/biocontainers/trinculo/status
+   :target: https://quay.io/repository/biocontainers/trinculo
+.. _`trinculo/tags`: https://quay.io/repository/biocontainers/trinculo?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "trinculo";
+        var versions = ["0.96","0.96","0.96","0.96","0.96"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trinculo/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/trinculo/README.html

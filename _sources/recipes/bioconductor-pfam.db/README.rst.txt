@@ -1,0 +1,100 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-pfam.db'
+.. highlight: bash
+
+bioconductor-pfam.db
+====================
+
+.. conda:recipe:: bioconductor-pfam.db
+   :replaces_section_title:
+   :noindex:
+
+   A set of protein ID mappings for PFAM
+
+   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/PFAM.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pfam.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pfam.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pfam.db/meta.yaml>`_
+
+   A set of protein ID mappings for PFAM assembled using data from public repositories
+
+
+.. conda:package:: bioconductor-pfam.db
+
+   |downloads_bioconductor-pfam.db| |docker_bioconductor-pfam.db|
+
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.16.0-0</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.13.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.0-1</code>,  <code>3.10.0-0</code>,  <code>3.8.2-1</code>,  </span></summary>
+      
+
+      ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
+   
+   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20221103``
+   :depends curl: 
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pfam.db
+
+   and update with::
+
+      conda update bioconductor-pfam.db
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-pfam.db:<tag>
+
+   (see `bioconductor-pfam.db/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-pfam.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pfam.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pfam.db
+   :alt:   (downloads)
+.. |docker_bioconductor-pfam.db| image:: https://quay.io/repository/biocontainers/bioconductor-pfam.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pfam.db
+.. _`bioconductor-pfam.db/tags`: https://quay.io/repository/biocontainers/bioconductor-pfam.db?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pfam.db";
+        var versions = ["3.16.0","3.14.0","3.14.0","3.13.0","3.12.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pfam.db/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pfam.db/README.html

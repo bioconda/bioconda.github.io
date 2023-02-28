@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Package Recipe &#39;pseudo-it&#39; &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="../../conda-package_index.html">Browse packages</a></li>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+    <h3 id="searchlabel">Search</h3>
+    <p id="searchdesc">packages & docs</p>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="pseudo-it">
+<dl class="conda recipe">
+<dt class="sig sig-object conda">
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">pseudo-it</span></span></dt>
+<dd><p>Reference-based genome assembly with iterative mapping</p>
+<dl class="field-list simple">
+<dt class="field-odd">Homepage<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/goodest-goodlab/pseudo-it">https://github.com/goodest-goodlab/pseudo-it</a></p>
+</dd>
+<dt class="field-even">License<span class="colon">:</span></dt>
+<dd class="field-even"><p>GPL / GNU GPLv3</p>
+</dd>
+<dt class="field-odd">Recipe<span class="colon">:</span></dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pseudo-it">pseudo-it</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pseudo-it/meta.yaml">meta.yaml</a></p>
+</dd>
+</dl>
+<p>Reference-based genome assembly with iterative mapping</p>
+</dd></dl>
+
+<dl class="conda package">
+<dt class="sig sig-object conda" id="package-pseudo-it">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">pseudo-it</span></span><a class="headerlink" href="#package-pseudo-it" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/pseudo-it"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pseudo-it.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pseudo-it"><img alt="docker_pseudo-it" src="https://quay.io/repository/biocontainers/pseudo-it/status" /></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code></p>
+</dd>
+<dt class="field-even">Depends<span class="colon">:</span></dt>
+<dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bcftools/README.html#package-bcftools" title="bcftools package"><strong>bcftools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../gatk4/README.html#package-gatk4" title="gatk4 package"><strong>gatk4</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../picard/README.html#package-picard" title="picard package"><strong>picard</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sed-feedstock"><strong>sed</strong></a></p></li>
+</ul>
+</dd>
+<dt class="field-odd">Required By<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+</ul>
+</dd>
+</dl>
+<p class="rubric">Installation</p>
+<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pseudo</span><span class="o">-</span><span class="n">it</span>
+</pre></div>
+</div>
+<p>and update with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">pseudo</span><span class="o">-</span><span class="n">it</span>
+</pre></div>
+</div>
+<p>or use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pseudo</span><span class="o">-</span><span class="n">it</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pseudo-it?tab=tags">pseudo-it/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+</dd></dl>
+
+<script>
+    var package = "pseudo-it";
+    var versions = ["3.1.0","3.0.0"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+<div style="width: 100%" id="cdf_plot"></div>
+
+<script>
+    window.onload = async function() {
+        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
+            let spec = JSON.parse(data);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
+            });
+        });
+
+        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json`, function( data ) {
+            let spec = JSON.parse(data);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`, function( plot_data ) {
+                spec.data.values = JSON.parse(plot_data);
+                vegaEmbed('#download_plot', spec);
+            });
+        });
+    }
+</script>
+</section>
+<section id="link-to-this-page">
+<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this heading">¶</a></h2>
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/pseudo-it/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pseudo-it/README.html)
+</pre></div>
+</div>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2023, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../../_sources/recipes/pseudo-it/README.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/pseudo-it/meta.yaml" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

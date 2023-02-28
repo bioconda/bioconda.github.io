@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Package Recipe &#39;bioconductor-singlecellexperiment&#39; &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <script>
+        const openDetailsIfAnchorHidden = evt => {
+          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
+
+          // Detect if the target is hidden, in which case do nothing
+          const props = window.getComputedStyle(targetDiv);
+          if (props.display === 'none' || props.visibility === 'hidden') return;
+
+          // otherwise, find the closest <details> element and open it
+          targetDiv.closest("details").open = true;
+        }
+
+        [...document.querySelectorAll("[href^='#']")].forEach( 
+           el => el.addEventListener("click", openDetailsIfAnchorHidden )
+        );
+    </script>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="../../conda-package_index.html">Browse packages</a></li>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+    <h3 id="searchlabel">Search</h3>
+    <p id="searchdesc">packages & docs</p>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="bioconductor-singlecellexperiment">
+<dl class="conda recipe">
+<dt class="sig sig-object conda">
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">bioconductor-singlecellexperiment</span></span></dt>
+<dd><p>S4 Classes for Single Cell Data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Homepage<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.16/bioc/html/SingleCellExperiment.html">https://bioconductor.org/packages/3.16/bioc/html/SingleCellExperiment.html</a></p>
+</dd>
+<dt class="field-even">License<span class="colon">:</span></dt>
+<dd class="field-even"><p>GPL-3</p>
+</dd>
+<dt class="field-odd">Recipe<span class="colon">:</span></dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment">bioconductor-singlecellexperiment</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment/meta.yaml">meta.yaml</a></p>
+</dd>
+</dl>
+<p>Defines a S4 class for storing data from single-cell experiments. This includes specialized methods to store and retrieve spike-in information, dimensionality reduction coordinates and size factors for each cell, along with the usual metadata for genes and libraries.</p>
+</dd></dl>
+
+<dl class="conda package">
+<dt class="sig sig-object conda" id="package-bioconductor-singlecellexperiment">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">bioconductor-singlecellexperiment</span></span><a class="headerlink" href="#package-bioconductor-singlecellexperiment" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-singlecellexperiment"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-singlecellexperiment.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment"><img alt="docker_bioconductor-singlecellexperiment" src="https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment/status" /></a></p>
+<dl class="field-list">
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.4.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.20.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.16.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.6.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+</details></dd>
+<dt class="field-even">Depends<span class="colon">:</span></dt>
+<dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.44.0,&lt;0.45.0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-delayedarray/README.html#package-bioconductor-delayedarray" title="bioconductor-delayedarray package"><strong>bioconductor-delayedarray</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.24.0,&lt;0.25.0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.50.0,&lt;1.51.0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.36.0,&lt;0.37.0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#package-bioconductor-summarizedexperiment" title="bioconductor-summarizedexperiment package"><strong>bioconductor-summarizedexperiment</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.28.0,&lt;1.29.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.2,&lt;4.3.0a0</span></code></p></li>
+</ul>
+</dd>
+<dt class="field-odd">Required By<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-citefuse/README.html#bioconductor-citefuse"><strong class="xref backref">bioconductor-citefuse</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-asurat/README.html#bioconductor-asurat"><strong class="xref backref">bioconductor-asurat</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-cytomapper/README.html#bioconductor-cytomapper"><strong class="xref backref">bioconductor-cytomapper</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-treesummarizedexperiment/README.html#bioconductor-treesummarizedexperiment"><strong class="xref backref">bioconductor-treesummarizedexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-pipecomp/README.html#bioconductor-pipecomp"><strong class="xref backref">bioconductor-pipecomp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sctreeviz/README.html#bioconductor-sctreeviz"><strong class="xref backref">bioconductor-sctreeviz</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spotlight/README.html#bioconductor-spotlight"><strong class="xref backref">bioconductor-spotlight</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scddboost/README.html#bioconductor-scddboost"><strong class="xref backref">bioconductor-scddboost</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-destiny/README.html#bioconductor-destiny"><strong class="xref backref">bioconductor-destiny</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-imcdatasets/README.html#bioconductor-imcdatasets"><strong class="xref backref">bioconductor-imcdatasets</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-imcrtools/README.html#bioconductor-imcrtools"><strong class="xref backref">bioconductor-imcrtools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-loomexperiment/README.html#bioconductor-loomexperiment"><strong class="xref backref">bioconductor-loomexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-experimentsubset/README.html#bioconductor-experimentsubset"><strong class="xref backref">bioconductor-experimentsubset</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-distinct/README.html#bioconductor-distinct"><strong class="xref backref">bioconductor-distinct</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mumosa/README.html#bioconductor-mumosa"><strong class="xref backref">bioconductor-mumosa</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scnorm/README.html#bioconductor-scnorm"><strong class="xref backref">bioconductor-scnorm</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-chromscape/README.html#bioconductor-chromscape"><strong class="xref backref">bioconductor-chromscape</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-singlecellexperiment-scripts/README.html#bioconductor-singlecellexperiment-scripts"><strong class="xref backref">bioconductor-singlecellexperiment-scripts</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sctensor/README.html#bioconductor-sctensor"><strong class="xref backref">bioconductor-sctensor</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scmet/README.html#bioconductor-scmet"><strong class="xref backref">bioconductor-scmet</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scannotatr/README.html#bioconductor-scannotatr"><strong class="xref backref">bioconductor-scannotatr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-adimpute/README.html#bioconductor-adimpute"><strong class="xref backref">bioconductor-adimpute</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-flames/README.html#bioconductor-flames"><strong class="xref backref">bioconductor-flames</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-cellmixs/README.html#bioconductor-cellmixs"><strong class="xref backref">bioconductor-cellmixs</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-voyager/README.html#bioconductor-voyager"><strong class="xref backref">bioconductor-voyager</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-basics/README.html#bioconductor-basics"><strong class="xref backref">bioconductor-basics</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-dropletutils/README.html#bioconductor-dropletutils"><strong class="xref backref">bioconductor-dropletutils</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-slalom/README.html#bioconductor-slalom"><strong class="xref backref">bioconductor-slalom</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-feast/README.html#bioconductor-feast"><strong class="xref backref">bioconductor-feast</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-monocle3/README.html#r-monocle3"><strong class="xref backref">r-monocle3</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-glmgampoi/README.html#bioconductor-glmgampoi"><strong class="xref backref">bioconductor-glmgampoi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spatiallibd/README.html#bioconductor-spatiallibd"><strong class="xref backref">bioconductor-spatiallibd</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-baynorm/README.html#bioconductor-baynorm"><strong class="xref backref">bioconductor-baynorm</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-velociraptor/README.html#bioconductor-velociraptor"><strong class="xref backref">bioconductor-velociraptor</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../singlecellnet-cli/README.html#singlecellnet-cli"><strong class="xref backref">singlecellnet-cli</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-fcoex/README.html#bioconductor-fcoex"><strong class="xref backref">bioconductor-fcoex</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spatialexperiment/README.html#bioconductor-spatialexperiment"><strong class="xref backref">bioconductor-spatialexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scry/README.html#bioconductor-scry"><strong class="xref backref">bioconductor-scry</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-milor/README.html#bioconductor-milor"><strong class="xref backref">bioconductor-milor</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-basicstan/README.html#bioconductor-basicstan"><strong class="xref backref">bioconductor-basicstan</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-dittoseq/README.html#bioconductor-dittoseq"><strong class="xref backref">bioconductor-dittoseq</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sctgif/README.html#bioconductor-sctgif"><strong class="xref backref">bioconductor-sctgif</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scuttle/README.html#bioconductor-scuttle"><strong class="xref backref">bioconductor-scuttle</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-clustifyr/README.html#bioconductor-clustifyr"><strong class="xref backref">bioconductor-clustifyr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-schex/README.html#bioconductor-schex"><strong class="xref backref">bioconductor-schex</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-condiments/README.html#bioconductor-condiments"><strong class="xref backref">bioconductor-condiments</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-celltrails/README.html#bioconductor-celltrails"><strong class="xref backref">bioconductor-celltrails</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-standr/README.html#bioconductor-standr"><strong class="xref backref">bioconductor-standr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scran/README.html#bioconductor-scran"><strong class="xref backref">bioconductor-scran</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-muscat/README.html#bioconductor-muscat"><strong class="xref backref">bioconductor-muscat</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-neuca/README.html#bioconductor-neuca"><strong class="xref backref">bioconductor-neuca</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spatialheatmap/README.html#bioconductor-spatialheatmap"><strong class="xref backref">bioconductor-spatialheatmap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-cepo/README.html#bioconductor-cepo"><strong class="xref backref">bioconductor-cepo</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-chetah/README.html#bioconductor-chetah"><strong class="xref backref">bioconductor-chetah</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scpipe/README.html#bioconductor-scpipe"><strong class="xref backref">bioconductor-scpipe</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spatialfeatureexperiment/README.html#bioconductor-spatialfeatureexperiment"><strong class="xref backref">bioconductor-spatialfeatureexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scmerge/README.html#bioconductor-scmerge"><strong class="xref backref">bioconductor-scmerge</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-aggregatebiovar/README.html#bioconductor-aggregatebiovar"><strong class="xref backref">bioconductor-aggregatebiovar</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scalign/README.html#bioconductor-scalign"><strong class="xref backref">bioconductor-scalign</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-apl/README.html#bioconductor-apl"><strong class="xref backref">bioconductor-apl</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-singlecellmultimodal/README.html#bioconductor-singlecellmultimodal"><strong class="xref backref">bioconductor-singlecellmultimodal</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scgps/README.html#bioconductor-scgps"><strong class="xref backref">bioconductor-scgps</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-nebulosa/README.html#bioconductor-nebulosa"><strong class="xref backref">bioconductor-nebulosa</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scp/README.html#bioconductor-scp"><strong class="xref backref">bioconductor-scp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-slingshot/README.html#bioconductor-slingshot"><strong class="xref backref">bioconductor-slingshot</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-cogaps/README.html#bioconductor-cogaps"><strong class="xref backref">bioconductor-cogaps</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-chromium/README.html#r-chromium"><strong class="xref backref">r-chromium</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-basejump/README.html#r-basejump"><strong class="xref backref">r-basejump</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scater/README.html#bioconductor-scater"><strong class="xref backref">bioconductor-scater</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-isee/README.html#bioconductor-isee"><strong class="xref backref">bioconductor-isee</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spaniel/README.html#bioconductor-spaniel"><strong class="xref backref">bioconductor-spaniel</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mbkmeans/README.html#bioconductor-mbkmeans"><strong class="xref backref">bioconductor-mbkmeans</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tenxpbmcdata/README.html#bioconductor-tenxpbmcdata"><strong class="xref backref">bioconductor-tenxpbmcdata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spicyr/README.html#bioconductor-spicyr"><strong class="xref backref">bioconductor-spicyr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tmexplorer/README.html#bioconductor-tmexplorer"><strong class="xref backref">bioconductor-tmexplorer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tabulamurissenisdata/README.html#bioconductor-tabulamurissenisdata"><strong class="xref backref">bioconductor-tabulamurissenisdata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-trajectoryutils/README.html#bioconductor-trajectoryutils"><strong class="xref backref">bioconductor-trajectoryutils</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-statial/README.html#bioconductor-statial"><strong class="xref backref">bioconductor-statial</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-treekor/README.html#bioconductor-treekor"><strong class="xref backref">bioconductor-treekor</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-weberdivechalcdata/README.html#bioconductor-weberdivechalcdata"><strong class="xref backref">bioconductor-weberdivechalcdata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sccb2/README.html#bioconductor-sccb2"><strong class="xref backref">bioconductor-sccb2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-iseeu/README.html#bioconductor-iseeu"><strong class="xref backref">bioconductor-iseeu</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-harmony/README.html#r-harmony"><strong class="xref backref">r-harmony</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-escape/README.html#bioconductor-escape"><strong class="xref backref">bioconductor-escape</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-conclus/README.html#bioconductor-conclus"><strong class="xref backref">bioconductor-conclus</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-dino/README.html#bioconductor-dino"><strong class="xref backref">bioconductor-dino</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mia/README.html#bioconductor-mia"><strong class="xref backref">bioconductor-mia</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-muscdata/README.html#bioconductor-muscdata"><strong class="xref backref">bioconductor-muscdata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-cydar/README.html#bioconductor-cydar"><strong class="xref backref">bioconductor-cydar</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-celda/README.html#bioconductor-celda"><strong class="xref backref">bioconductor-celda</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-gsva/README.html#bioconductor-gsva"><strong class="xref backref">bioconductor-gsva</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-schot/README.html#bioconductor-schot"><strong class="xref backref">bioconductor-schot</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-singlecelltk/README.html#bioconductor-singlecelltk"><strong class="xref backref">bioconductor-singlecelltk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tricycle/README.html#bioconductor-tricycle"><strong class="xref backref">bioconductor-tricycle</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-traviz/README.html#bioconductor-traviz"><strong class="xref backref">bioconductor-traviz</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-acidsinglecell/README.html#r-acidsinglecell"><strong class="xref backref">r-acidsinglecell</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-clusterexperiment/README.html#bioconductor-clusterexperiment"><strong class="xref backref">bioconductor-clusterexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tidysinglecellexperiment/README.html#bioconductor-tidysinglecellexperiment"><strong class="xref backref">bioconductor-tidysinglecellexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../scmap-cli/README.html#scmap-cli"><strong class="xref backref">scmap-cli</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scds/README.html#bioconductor-scds"><strong class="xref backref">bioconductor-scds</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tenxio/README.html#bioconductor-tenxio"><strong class="xref backref">bioconductor-tenxio</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-bcbiosinglecell/README.html#r-bcbiosinglecell"><strong class="xref backref">r-bcbiosinglecell</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mudata/README.html#bioconductor-mudata"><strong class="xref backref">bioconductor-mudata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tenxbraindata/README.html#bioconductor-tenxbraindata"><strong class="xref backref">bioconductor-tenxbraindata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scbfa/README.html#bioconductor-scbfa"><strong class="xref backref">bioconductor-scbfa</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-airpart/README.html#bioconductor-airpart"><strong class="xref backref">bioconductor-airpart</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mousethymusageing/README.html#bioconductor-mousethymusageing"><strong class="xref backref">bioconductor-mousethymusageing</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-infercnv/README.html#bioconductor-infercnv"><strong class="xref backref">bioconductor-infercnv</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-sceasy/README.html#r-sceasy"><strong class="xref backref">r-sceasy</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-miqc/README.html#bioconductor-miqc"><strong class="xref backref">bioconductor-miqc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-busseq/README.html#bioconductor-busseq"><strong class="xref backref">bioconductor-busseq</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-catalyst/README.html#bioconductor-catalyst"><strong class="xref backref">bioconductor-catalyst</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-ccfindr/README.html#bioconductor-ccfindr"><strong class="xref backref">bioconductor-ccfindr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sc3/README.html#bioconductor-sc3"><strong class="xref backref">bioconductor-sc3</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-acidplots/README.html#r-acidplots"><strong class="xref backref">r-acidplots</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-iloreg/README.html#bioconductor-iloreg"><strong class="xref backref">bioconductor-iloreg</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-nnsvg/README.html#bioconductor-nnsvg"><strong class="xref backref">bioconductor-nnsvg</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-ancombc/README.html#bioconductor-ancombc"><strong class="xref backref">bioconductor-ancombc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-differentialregulation/README.html#bioconductor-differentialregulation"><strong class="xref backref">bioconductor-differentialregulation</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-fishpond/README.html#bioconductor-fishpond"><strong class="xref backref">bioconductor-fishpond</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-lineagepulse/README.html#bioconductor-lineagepulse"><strong class="xref backref">bioconductor-lineagepulse</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scpdata/README.html#bioconductor-scpdata"><strong class="xref backref">bioconductor-scpdata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-cellid/README.html#bioconductor-cellid"><strong class="xref backref">bioconductor-cellid</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-zellkonverter/README.html#bioconductor-zellkonverter"><strong class="xref backref">bioconductor-zellkonverter</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-cellbench/README.html#bioconductor-cellbench"><strong class="xref backref">bioconductor-cellbench</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-switchde/README.html#bioconductor-switchde"><strong class="xref backref">bioconductor-switchde</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-corral/README.html#bioconductor-corral"><strong class="xref backref">bioconductor-corral</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sccomp/README.html#bioconductor-sccomp"><strong class="xref backref">bioconductor-sccomp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scdblfinder/README.html#bioconductor-scdblfinder"><strong class="xref backref">bioconductor-scdblfinder</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-metaneighbor/README.html#bioconductor-metaneighbor"><strong class="xref backref">bioconductor-metaneighbor</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scarray/README.html#bioconductor-scarray"><strong class="xref backref">bioconductor-scarray</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-ggspavis/README.html#bioconductor-ggspavis"><strong class="xref backref">bioconductor-ggspavis</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-bearscc/README.html#bioconductor-bearscc"><strong class="xref backref">bioconductor-bearscc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scrnaseq/README.html#bioconductor-scrnaseq"><strong class="xref backref">bioconductor-scrnaseq</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scdataviz/README.html#bioconductor-scdataviz"><strong class="xref backref">bioconductor-scdataviz</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tscan/README.html#bioconductor-tscan"><strong class="xref backref">bioconductor-tscan</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-hippo/README.html#bioconductor-hippo"><strong class="xref backref">bioconductor-hippo</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-zinbwave/README.html#bioconductor-zinbwave"><strong class="xref backref">bioconductor-zinbwave</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-splatter/README.html#bioconductor-splatter"><strong class="xref backref">bioconductor-splatter</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scdd/README.html#bioconductor-scdd"><strong class="xref backref">bioconductor-scdd</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-batchelor/README.html#bioconductor-batchelor"><strong class="xref backref">bioconductor-batchelor</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-netsmooth/README.html#bioconductor-netsmooth"><strong class="xref backref">bioconductor-netsmooth</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../dropletutils-scripts/README.html#dropletutils-scripts"><strong class="xref backref">dropletutils-scripts</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mousegastrulationdata/README.html#bioconductor-mousegastrulationdata"><strong class="xref backref">bioconductor-mousegastrulationdata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-bayesspace/README.html#bioconductor-bayesspace"><strong class="xref backref">bioconductor-bayesspace</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-screclassify/README.html#bioconductor-screclassify"><strong class="xref backref">bioconductor-screclassify</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-ewce/README.html#bioconductor-ewce"><strong class="xref backref">bioconductor-ewce</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-peco/README.html#bioconductor-peco"><strong class="xref backref">bioconductor-peco</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-newwave/README.html#bioconductor-newwave"><strong class="xref backref">bioconductor-newwave</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scruff/README.html#bioconductor-scruff"><strong class="xref backref">bioconductor-scruff</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-iseehub/README.html#bioconductor-iseehub"><strong class="xref backref">bioconductor-iseehub</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scatac.explorer/README.html#bioconductor-scatac.explorer"><strong class="xref backref">bioconductor-scatac.explorer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-vaexprs/README.html#bioconductor-vaexprs"><strong class="xref backref">bioconductor-vaexprs</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-irisfgm/README.html#bioconductor-irisfgm"><strong class="xref backref">bioconductor-irisfgm</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-lisaclust/README.html#bioconductor-lisaclust"><strong class="xref backref">bioconductor-lisaclust</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-powsc/README.html#bioconductor-powsc"><strong class="xref backref">bioconductor-powsc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-vdjdive/README.html#bioconductor-vdjdive"><strong class="xref backref">bioconductor-vdjdive</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-screpertoire/README.html#bioconductor-screpertoire"><strong class="xref backref">bioconductor-screpertoire</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spsimseq/README.html#bioconductor-spsimseq"><strong class="xref backref">bioconductor-spsimseq</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mast/README.html#bioconductor-mast"><strong class="xref backref">bioconductor-mast</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scone/README.html#bioconductor-scone"><strong class="xref backref">bioconductor-scone</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-ucell/README.html#bioconductor-ucell"><strong class="xref backref">bioconductor-ucell</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-waddr/README.html#bioconductor-waddr"><strong class="xref backref">bioconductor-waddr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-hcadata/README.html#bioconductor-hcadata"><strong class="xref backref">bioconductor-hcadata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tradeseq/README.html#bioconductor-tradeseq"><strong class="xref backref">bioconductor-tradeseq</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scmap/README.html#bioconductor-scmap"><strong class="xref backref">bioconductor-scmap</strong></a></p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Installation</p>
+<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">singlecellexperiment</span>
+</pre></div>
+</div>
+<p>and update with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">singlecellexperiment</span>
+</pre></div>
+</div>
+<p>or use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">singlecellexperiment</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment?tab=tags">bioconductor-singlecellexperiment/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+</dd></dl>
+
+<script>
+    var package = "bioconductor-singlecellexperiment";
+    var versions = ["1.20.0","1.16.0","1.14.1","1.12.0","1.12.0"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+<div style="width: 100%" id="cdf_plot"></div>
+
+<script>
+    window.onload = async function() {
+        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
+            let spec = JSON.parse(data);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
+            });
+        });
+
+        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json`, function( data ) {
+            let spec = JSON.parse(data);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`, function( plot_data ) {
+                spec.data.values = JSON.parse(plot_data);
+                vegaEmbed('#download_plot', spec);
+            });
+        });
+    }
+</script>
+</section>
+<section id="link-to-this-page">
+<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this heading">¶</a></h2>
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-singlecellexperiment/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-singlecellexperiment/README.html)
+</pre></div>
+</div>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2023, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.1.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../../_sources/recipes/bioconductor-singlecellexperiment/README.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bioconductor-singlecellexperiment/meta.yaml" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

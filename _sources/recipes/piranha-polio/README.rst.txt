@@ -1,0 +1,102 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'piranha-polio'
+.. highlight: bash
+
+piranha-polio
+=============
+
+.. conda:recipe:: piranha-polio
+   :replaces_section_title:
+   :noindex:
+
+   Poliovirus Investigation Resource Automating Nanopore Haplotype Analysis
+
+   :homepage: https://github.com/polio-nanopore/piranha
+   :license: GPL-3.0-only
+   :recipe: /`piranha-polio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piranha-polio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piranha-polio/meta.yaml>`_
+
+   
+
+
+.. conda:package:: piranha-polio
+
+   |downloads_piranha-polio| |docker_piranha-polio|
+
+   :versions:
+      
+      
+
+      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
+
+      
+
+   
+   :depends bcftools: ``>=1.11``
+   :depends biopython: 
+   :depends coreutils: ``>=9.1``
+   :depends mafft: 
+   :depends mako: ``>=1.2``
+   :depends medaka: ``>=1.7.1``
+   :depends minimap2: ``>=2.17``
+   :depends pandas: 
+   :depends pysam: 
+   :depends python: ``<3.10``
+   :depends samtools: ``>=1.11``
+   :depends snakemake-minimal: 
+   :depends snipit: 
+   :depends tabix: ``>=1.11``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install piranha-polio
+
+   and update with::
+
+      conda update piranha-polio
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/piranha-polio:<tag>
+
+   (see `piranha-polio/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_piranha-polio| image:: https://img.shields.io/conda/dn/bioconda/piranha-polio.svg?style=flat
+   :target: https://anaconda.org/bioconda/piranha-polio
+   :alt:   (downloads)
+.. |docker_piranha-polio| image:: https://quay.io/repository/biocontainers/piranha-polio/status
+   :target: https://quay.io/repository/biocontainers/piranha-polio
+.. _`piranha-polio/tags`: https://quay.io/repository/biocontainers/piranha-polio?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "piranha-polio";
+        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.4"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/piranha-polio/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/piranha-polio/README.html
