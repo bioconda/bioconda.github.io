@@ -177,7 +177,7 @@ therefore be disabled individually if there is good reason to do so.</p>
     <span class="o">-</span> <span class="n">uses_setuptools</span>  <span class="c1"># uses pkg_resoures during run time</span>
 </pre></div>
 </div>
-<p>For example, <a class="reference internal" href="../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools" title="bioconda_utils.lint.check_build_help.uses_setuptools"><code class="xref any py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code></a> will trigger if a recipe
+<p>For example, <code class="xref any docutils literal notranslate"><span class="pre">uses_setuptools</span></code> will trigger if a recipe
 requires <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> in its <code class="docutils literal notranslate"><span class="pre">run</span></code> section. While the vast
 majority of tools only need <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> during installation, there
 are some exceptions to this rule. A tool accessing the
@@ -207,7 +207,7 @@ has a subdirectory for an older version.</p>
 HEAD commit. However, often we want to test changes locally without
 committing.  When running locally for testing, you can add the same
 special text to a temporary environment variable
-<span class="target" id="index-0"></span><a class="reference internal" href="../developer/_autosummary/bioconda_utils.lint.html#envvar-LINT_SKIP"><code class="xref std std-envvar docutils literal notranslate"><span class="pre">LINT_SKIP</span></code></a>. The same example above could be tested locally
+<span class="target" id="index-0"></span><code class="xref std std-envvar docutils literal notranslate"><span class="pre">LINT_SKIP</span></code>. The same example above could be tested locally
 like this without having to make a commit:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage]&quot;</span> <span class="n">circleci</span> <span class="n">build</span>
 </pre></div>
@@ -1167,7 +1167,7 @@ recipe.</p>
 </section>
 <section id="developer-docs">
 <h2>Developer docs<a class="headerlink" href="#developer-docs" title="Permalink to this heading">¶</a></h2>
-<p>See <a class="reference internal" href="../developer/_autosummary/bioconda_utils.lint.html#module-bioconda_utils.lint" title="bioconda_utils.lint"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.lint</span></code></a> for information on how to write additional checks.</p>
+<p>See <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.lint</span></code> for information on how to write additional checks.</p>
 </section>
 </section>
 

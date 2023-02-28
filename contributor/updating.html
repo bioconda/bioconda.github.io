@@ -148,7 +148,7 @@
             
   <section id="updating-recipes">
 <span id="updating"></span><h1>Updating recipes<a class="headerlink" href="#updating-recipes" title="Permalink to this heading">¶</a></h1>
-<p><a class="conda-package reference internal" href="../recipes/bioconda-utils/README.html#package-bioconda-utils" title="bioconda-utils package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a> now has the ability to automatically update packages and
+<p><code class="xref any docutils literal notranslate"><span class="pre">bioconda-utils</span></code> now has the ability to automatically update packages and
 submit a PR on your behalf. Note that the auto-updater does not yet know how to
 monitor changed dependencies, so it is important to verify that the updated
 recipe reflects all the changes. This tool is most useful when scanning
@@ -182,46 +182,46 @@ expand the functionality of the update scanner or anyone interested in the
 inner workings.</p>
 <section id="the-components">
 <h3>The components<a class="headerlink" href="#the-components" title="Permalink to this heading">¶</a></h3>
-<p>The <a class="reference internal" href="../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.Recipe</span></code></a> object contains logic for finding and
+<p>The <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.recipe.Recipe</span></code> object contains logic for finding and
 replacing text that may contain version information (such as within <code class="docutils literal notranslate"><span class="pre">package:</span></code>
 and <code class="docutils literal notranslate"><span class="pre">source:</span></code> sections or Jinja set statements), for resetting build numbers,
 and for reading and writing recipes. Notably, reading and writing recipes here
 does not rely on conda-build as we need to do things conda-build was not
 designed for.</p>
-<p>The <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Scanner</span></code></a> class reads recipes and applies various
+<p>The <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Scanner</span></code> class reads recipes and applies various
 filters (described below) in an asyncio loop to dramatically speed up the many
 http calls that are performed over the course of scanning for updates. It also
 handles other things like retrying after increasingly longer wait times when it
 encounters non-permanent HTTP errors.</p>
-<p>Subclasses of <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a> are added to the scanner. They
+<p>Subclasses of <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code> are added to the scanner. They
 contain logic in their <code class="docutils literal notranslate"><span class="pre">apply</span></code> method. This method at least takes a recipe as
 the first argument, and either returns a (possibly modified) recipe or raises
 a custom exception. The remainder of the <code class="docutils literal notranslate"><span class="pre">apply</span></code> function can do arbitrarily
 complicated things, and will do so in the asyncio loop.</p>
-<p>Subclasses of <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.Hoster</span></code></a> use regular expressions to detect
+<p>Subclasses of <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.hosters.Hoster</span></code> use regular expressions to detect
 which recipes came from which site and how to find links to new source code
 from that site. There are existing hosters for e.g. GitHub, PyPI, CRAN, CPAN,
-Bioconductor, and more. These are primarily used by the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> filter.</p>
+Bioconductor, and more. These are primarily used by the <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code> filter.</p>
 </section>
 <section id="writing-a-filter">
 <h3>Writing a filter<a class="headerlink" href="#writing-a-filter" title="Permalink to this heading">¶</a></h3>
 <p>To add additional functionality to the scanner, create a filter in
-<a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#module-bioconda_utils.autobump" title="bioconda_utils.autobump"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code></a> and add it to the scanner in
-<a class="reference internal" href="../developer/_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.autobump" title="bioconda_utils.cli.autobump"><code class="xref any py py-func docutils literal notranslate"><span class="pre">bioconda_utils.cli.autobump()</span></code></a>. There are existing filters to exclude recipes
+<code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code> and add it to the scanner in
+<code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.cli.autobump()</span></code>. There are existing filters to exclude recipes
 based on blacklist or subrecipe status, update a recipe based on the latest
-version found by a <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> (see below), update checksums, figure out where to
+version found by a <code class="xref any docutils literal notranslate"><span class="pre">Hoster</span></code> (see below), update checksums, figure out where to
 load a recipe from (i.e. master branch or an existing PR), create a new PR, and
 more.</p>
 <p>Filters can be arbitrarily complex, like any Python function. See the
-<a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#module-bioconda_utils.autobump" title="bioconda_utils.autobump"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code></a> source for examples when writing a new filter –
-<a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeSubrecipe" title="bioconda_utils.autobump.ExcludeSubrecipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">ExcludeSubrecipe</span></code></a> is a relatively simple one; <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> is more complex.</p>
+<code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code> source for examples when writing a new filter –
+<code class="xref any docutils literal notranslate"><span class="pre">ExcludeSubrecipe</span></code> is a relatively simple one; <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code> is more complex.</p>
 </section>
 <section id="writing-a-new-hoster">
 <h3>Writing a new hoster<a class="headerlink" href="#writing-a-new-hoster" title="Permalink to this heading">¶</a></h3>
-<p>A <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> is a mechanism for scraping links of new releases off of a site and
+<p>A <code class="xref any docutils literal notranslate"><span class="pre">Hoster</span></code> is a mechanism for scraping links of new releases off of a site and
 is the means by which we detect new releases. It works primarily by regular
 expressions.</p>
-<p>A hoster is a subclass of <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.hosters.Hoster</span></code></a> and is configured by</p>
+<p>A hoster is a subclass of <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.hosters.Hoster</span></code> and is configured by</p>
 <ul class="simple">
 <li><p>a regex used to try matching with the existing source URL in the recipe</p></li>
 <li><p>a format string that will create the URL of the releases website on which
@@ -229,13 +229,13 @@ possibly many versions may be listed</p></li>
 <li><p>a regex to match links from that page and extract their version</p></li>
 </ul>
 <p>If you want a recipe to be updated automatically (and existing hosters aren’t
-cutting it), write a new <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> class in <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#module-bioconda_utils.hosters" title="bioconda_utils.hosters"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.hosters</span></code></a>. Any new
-classes will automatically be picked up by the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HosterMeta" title="bioconda_utils.hosters.HosterMeta"><code class="xref any py py-class docutils literal notranslate"><span class="pre">HosterMeta</span></code></a> metaclass and will
+cutting it), write a new <code class="xref any docutils literal notranslate"><span class="pre">Hoster</span></code> class in <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.hosters</span></code>. Any new
+classes will automatically be picked up by the <code class="xref any docutils literal notranslate"><span class="pre">HosterMeta</span></code> metaclass and will
 be used to scan against existing recipes.</p>
 <p>Adding an attribute to the class with the suffix  <code class="docutils literal notranslate"><span class="pre">_pattern</span></code> allows the
 regular expression stored in that attribute to be subsituted into other regular
 expressions using <code class="docutils literal notranslate"><span class="pre">{placeholder}</span></code> format placeholders.</p>
-<p>Take, for example, the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioconductor" title="bioconda_utils.hosters.Bioconductor"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Bioconductor</span></code></a> hoster which is commented here for
+<p>Take, for example, the <code class="xref any docutils literal notranslate"><span class="pre">Bioconductor</span></code> hoster which is commented here for
 explanation purposes:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Bioconductor</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Matches R packages hosted at Bioconductor&quot;&quot;&quot;</span>
@@ -273,20 +273,20 @@ explanation purposes:</p>
 </div>
 <p>To tie this all together:</p>
 <ul class="simple">
-<li><p>A <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Scanner</span></code></a> is set up, the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> filter is added and the asyncio
+<li><p>A <code class="xref any docutils literal notranslate"><span class="pre">Scanner</span></code> is set up, the <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code> filter is added and the asyncio
 loop starts.</p></li>
-<li><p>The scanner checks all recipes. Because it has the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a>
-filter added, and because an <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> filter will check a recipe
+<li><p>The scanner checks all recipes. Because it has the <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code>
+filter added, and because an <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code> filter will check a recipe
 against all configured hosters, a Bioconductor recipe will match the above
-<a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_pattern" title="bioconda_utils.hosters.Hoster.url_pattern"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">Hoster.url_pattern</span></code></a> for the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioconductor" title="bioconda_utils.hosters.Bioconductor"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Bioconductor</span></code></a> hoster.</p></li>
+<code class="xref any docutils literal notranslate"><span class="pre">Hoster.url_pattern</span></code> for the <code class="xref any docutils literal notranslate"><span class="pre">Bioconductor</span></code> hoster.</p></li>
 <li><p>The hoster object will go to the site specified by <code class="docutils literal notranslate"><span class="pre">releases_format</span></code> and
-scrape links that match <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.link_pattern" title="bioconda_utils.hosters.Hoster.link_pattern"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">Hoster.link_pattern</span></code></a>.</p></li>
-<li><p>The <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> filter will inspect those links found by the hoster,
+scrape links that match <code class="xref any docutils literal notranslate"><span class="pre">Hoster.link_pattern</span></code>.</p></li>
+<li><p>The <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code> filter will inspect those links found by the hoster,
 figure out which is the most recent, and see if the existing recipe is
 up-to-date. If a more recent link was found, use that and write the new
 recipe with the updated version and URL.</p></li>
-<li><p>The scanner also has the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateChecksums" title="bioconda_utils.autobump.UpdateChecksums"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateChecksums</span></code></a> filter added, but it is added
-after <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a>. This filter will inspect the package, download it, and
+<li><p>The scanner also has the <code class="xref any docutils literal notranslate"><span class="pre">UpdateChecksums</span></code> filter added, but it is added
+after <code class="xref any docutils literal notranslate"><span class="pre">UpdateVersion</span></code>. This filter will inspect the package, download it, and
 update the checksum in the recipe.</p></li>
 </ul>
 <p>In practice, depending on the command-line argument provided (and therefore
