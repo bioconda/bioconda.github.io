@@ -29,14 +29,14 @@ imctools
       
       
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``,  ``0.2-0``
+      ``2.1.8-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``,  ``0.2-0``
 
       
 
    
    :depends numpy: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends scikit-image: 
    :depends scipy: 
    :depends tifffile: ``>=0.13.5``
@@ -71,7 +71,7 @@ imctools
 
     <script>
         var package = "imctools";
-        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.4"];
+        var versions = ["2.1.8","1.0.8","1.0.7","1.0.6","1.0.5"];
     </script>
 
 

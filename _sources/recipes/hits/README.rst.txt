@@ -27,26 +27,27 @@ hits
       
       
 
-      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
 
    
-   :depends biopython: ``1.78``
-   :depends bokeh: ``2.4.2``
-   :depends ipython: ``7.30.1``
-   :depends ipywidgets: ``7.5.1``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends matplotlib-base: ``3.3.3``
-   :depends numpy: ``1.21.4``
-   :depends pandas: ``1.1.2``
-   :depends pillow: ``7.2.0``
-   :depends pysam: ``>=0.15``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
-   :depends pyyaml: ``5.3``
-   :depends scipy: ``1.5.2``
-   :depends seaborn: ``0.11.0``
+   :depends biopython: ``>=1.72``
+   :depends bokeh: 
+   :depends ipython: ``>=7.8.0``
+   :depends ipywidgets: ``>=7.4.2``
+   :depends libgcc-ng: ``>=12``
+   :depends matplotlib-base: ``>=3.0.2``
+   :depends numpy: ``>=1.15.4``
+   :depends pandas: ``>=0.23.4``
+   :depends pillow: ``>=5.3.0``
+   :depends pysam: ``>=0.15.1``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
+   :depends pyyaml: ``>=3.13``
+   :depends scipy: ``>=1.2.1``
+   :depends seaborn: ``>=0.11.0``
+   :depends statsmodels: ``>=0.12.1``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +79,7 @@ hits
 
     <script>
         var package = "hits";
-        var versions = ["0.3.3","0.3.3","0.3.2","0.3.0","0.1"];
+        var versions = ["0.4.0","0.3.3","0.3.3","0.3.2","0.3.0"];
     </script>
 
 
