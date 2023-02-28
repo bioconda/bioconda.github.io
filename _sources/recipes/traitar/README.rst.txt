@@ -12,7 +12,7 @@ traitar
 
    traitar \- The microbial trait analyzer
 
-   :homepage: http://github.com/aweimann/traitar
+   :homepage: https://github.com/nick-youngblut/traitar3
    :license: GPL3 / GNU General Public, version 3 (GPL-3.0)
    :recipe: /`traitar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/traitar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/traitar/meta.yaml>`_
 

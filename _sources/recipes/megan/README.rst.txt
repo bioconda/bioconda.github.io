@@ -12,7 +12,7 @@ megan
 
    A tool for studying the taxonomic content of a set of DNA reads
 
-   :homepage: http://ab.inf.uni-tuebingen.de/software/megan6/
+   :homepage: https://megan.cs.uni-tuebingen.de/
    :license: GPL >=3
    :recipe: /`megan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megan/meta.yaml>`_
    :links: biotools: :biotools:`megan`
