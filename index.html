@@ -25,6 +25,10 @@
     <link rel="next" title="FAQs" href="faqs.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
 
     <link rel="apple-touch-icon" sizes="57x57" href="_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="_static/apple-icon-60x60.png">
@@ -70,54 +74,9 @@
 
 
   </head><body>
-  <div class="document">
-    
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-<p class="logo">
-  <a href="#">
-    <img class="logo" src="_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
-    
-  </a>
-</p>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a></li>
-<li class="toctree-l1"><a class="reference internal" href="developer/index.html">Developer Docs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorials/index.html">Tutorials</a></li>
-</ul>
-
-<ul>
   
-  <li class="toctree-l1"><a href="conda-package_index.html">Browse packages</a></li>
-  
-  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
-  
-  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
-  
-</ul>
-<div id="searchbox" style="display: none" role="search">
-    <h3 id="searchlabel">Search</h3>
-    <p id="searchdesc">packages & docs</p>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</div>
-<script>document.getElementById('searchbox').style.display = "block"</script>
-        </div>
-      </div>
+
+    <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
           
@@ -385,278 +344,10 @@ wonderful community which includes over 1400 (as of 2022) <a class="reference ex
 <h1>Table of contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#how-do-i-speed-up-package-installation">How do I speed up package installation?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#speedup-option-1-use-mamba">Speedup option 1: use <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#speedup-option-2-use-environments-strategically">Speedup option 2: use environments strategically</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-versions-are-supported">What versions are supported?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#operating-systems">Operating Systems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#python">Python</a></li>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#pinned-packages">Pinned packages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="faqs.html#unsupported-versions">Unsupported versions</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#how-do-i-keep-track-of-environments">How do I keep track of environments?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-a-recipe-and-a-package">What’s the difference between a recipe and a package?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba">What’s the difference between miniconda, miniforge, mambaforge, micromamba?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#why-are-bioconductor-data-packages-failing-to-install">Why are Bioconductor data packages failing to install?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-difference-between-a-build-number-and-a-package-version">What’s the difference between a build number and a package version?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls">Why shouldn’t I include build numbers in my environment YAMLs?</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="contributor/setup.html">Initial Setup</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/setup.html#create-a-fork-of-our-recipes-repo">1. Create a Fork of our Recipes Repo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/setup.html#create-local-clone">2. Create Local “Clone”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/setup.html#continue-with-or-without-local-builds">3. Continue with or without local builds</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/workflow.html">Contribution Workflow</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/workflow.html#create-a-branch">1. Create a Branch</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/workflow.html#make-some-edits">2. Make Some Edits</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/workflow.html#push-changes">3. Push Changes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/workflow.html#create-a-pull-request">4. Create a Pull Request</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/workflow.html#delete-your-branch">5. Delete your Branch</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/workflow.html#install-your-package">6. Install Your Package</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/building-locally.html">Testing Recipes Locally</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/building-locally.html#using-bioconda-utils">Using bioconda-utils</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/building-locally.html#using-the-debug-method">Using the “Debug” Method</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/troubleshooting.html">Troubleshooting</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#reading-bioconda-utils-logs">Reading bioconda-utils logs</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#http-500-errors">HTTP 500 errors</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#http-404-errors">HTTP 404 errors</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#zlib-errors">ZLIB errors</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#usr-bin-perl-or-usr-bin-python-not-found"><code class="docutils literal notranslate"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal notranslate"><span class="pre">/usr/bin/python</span></code> not found</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#troubleshooting-failed-mulled-build-tests">Troubleshooting failed <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#using-the-extended-image">Using the extended image</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/troubleshooting.html#g-or-gcc-not-found"><code class="docutils literal notranslate"><span class="pre">g++</span></code> or <code class="docutils literal notranslate"><span class="pre">gcc</span></code> not found</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/build-system.html">Build system</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/build-system.html#stages-of-a-bioconda-build">Stages of a bioconda build</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="contributor/build-system.html#configure-the-environment">Configure the environment</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/build-system.html#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/build-system.html#labels">Labels</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#bioconda-recipe-checklist">bioconda recipe checklist</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#stable-urls">Stable urls</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#hashes">Hashes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#build-numbers">Build numbers</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#bat-files"><code class="docutils literal notranslate"><span class="pre">.bat</span></code> files</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#comments-in-recipes">Comments in recipes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#filesystem-hierarchy-standard">Filesystem Hierarchy Standard</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#existing-package-exceptions">Existing package exceptions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#packages-appropriate-for-bioconda">Packages appropriate for bioconda</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#noarch-packages">“Noarch” packages</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#dependencies">Dependencies</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#test-dependencies">Test Dependencies</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/guidelines.html#patching">Patching</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#python">Python</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#r-cran">R (CRAN)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#r-bioconductor">R (Bioconductor)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#r-other-sources">R (other sources)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#java">Java</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#perl">Perl</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#c-c">C/C++</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#haskell">Haskell</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#general-command-line-tools">General command-line tools</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#metapackages">Metapackages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#other-examples-of-interest">Other examples of interest</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#name-collisions-identical-names">Name collisions (identical names)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#tests">Tests</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#link-and-unlink-scripts-pre-and-post-install-hooks">Link and unlink scripts (pre- and post- install hooks)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/guidelines.html#versions">Versions</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/linting.html">Linting</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/linting.html#skipping-a-lint-check">Skipping a lint check</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#skipping-persistently-on-a-per-recipe-basis">Skipping persistently on a per-recipe basis</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#skipping-on-a-per-commit-basis">Skipping on a per-commit basis</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/linting.html#lint-checks">Lint Checks</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#incomplete-recipe">Incomplete Recipe</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-home">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_home</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-summary">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_summary</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-license">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_license</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-tests">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_tests</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-hash">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_hash</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-version-or-name">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_version_or_name</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#empty-meta-yaml">“<code class="xref py py-class docutils literal notranslate"><span class="pre">empty_meta_yaml</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-meta-yaml">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_meta_yaml</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-build">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#missing-build-number">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build_number</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#noarch-or-not-noarch">Noarch or not noarch</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-be-noarch-python">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_python</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-be-noarch-generic">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_generic</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-not-be-noarch-compiler">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_compiler</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-not-be-noarch-source">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_source</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-not-be-noarch-skip">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_skip</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-not-use-skip-python">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_skip_python</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#policy">Policy</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#uses-vcs-url">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_vcs_url</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#folder-and-package-name-must-match">“<code class="xref py py-class docutils literal notranslate"><span class="pre">folder_and_package_name_must_match</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#gpl-requires-license-distributed">“<code class="xref py py-class docutils literal notranslate"><span class="pre">gpl_requires_license_distributed</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-not-use-fn">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#has-windows-bat-file">“<code class="xref py py-class docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#long-summary">“<code class="xref py py-class docutils literal notranslate"><span class="pre">long_summary</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#cran-packages-to-conda-forge">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cran_packages_to_conda_forge</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#version-starts-with-v">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_starts_with_v</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#syntax">Syntax</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#extra-identifiers-not-list">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#extra-identifiers-not-string">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#extra-identifiers-missing-colon">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#extra-skip-lints-not-list">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_skip_lints_not_list</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#version-constraints-missing-whitespace">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_constraints_missing_whitespace</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#recipe-parsing">Recipe Parsing</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#duplicate-key-in-meta-yaml">“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#unknown-selector">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#conda-render-failure">“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#jinja-render-failure">“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#unknown-check">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#repository">Repository</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#in-other-channels">“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#build-number-needs-bump">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#build-number-needs-reset">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#recipe-is-blacklisted">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#deprecations">Deprecations</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#uses-perl-threaded">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#uses-javajdk">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#deprecated-numpy-spec">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#uses-matplotlib">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#build-helpers">Build helpers</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#should-use-compilers">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#uses-setuptools">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#setup-py-install-args">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#compilers-must-be-in-build">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#cython-must-be-in-host">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a></li>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#cython-needs-compiler">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a></li>
-</ul>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/linting.html#linter-errors">Linter Errors</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="contributor/linting.html#linter-failure">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/linting.html#developer-docs">Developer docs</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/faqs.html">FAQs</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#what-s-the-difference-between-anaconda-conda-and-miniconda">What’s the difference between Anaconda, conda, and Miniconda?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#recipe-vs-package">Recipe vs package</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#continuous-integration-circle-ci">Continuous integration (Circle CI)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#how-is-circle-ci-set-up-and-configured">How is Circle CI set up and configured?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#how-are-dependencies-pinned-to-particular-versions">How are dependencies pinned to particular versions?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#what-s-the-lifecycle-of-a-bioconda-package">What’s the lifecycle of a bioconda package?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#circleci-macos-plans">CircleCI macOS plans</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#testing-bioconda-utils-locally">Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/faqs.html#where-can-i-find-more-info-on-meta-yaml">Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/updating.html">Updating recipes</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/updating.html#how-it-works">How it works</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="contributor/updating.html#the-components">The components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/updating.html#writing-a-filter">Writing a filter</a></li>
-<li class="toctree-l4"><a class="reference internal" href="contributor/updating.html#writing-a-new-hoster">Writing a new hoster</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l2"><a class="reference internal" href="contributor/cb3.html">Conda build v3</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contributor/cb3.html#the-new-host-section">The new <code class="docutils literal notranslate"><span class="pre">host</span></code> section</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/cb3.html#compiler-tools">Compiler tools</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contributor/cb3.html#global-pinning">Global pinning</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="developer/index.html">Developer Docs</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="developer/index.html#updating-bioconda-utils">Updating <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="developer/index.html#bulk-branch">Bulk branch</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="developer/bulk.html">The <code class="xref any docutils literal notranslate"><span class="pre">bulk</span></code> branch</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="developer/bulk.html#updating-pinnings">Updating pinnings</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/bulk.html#merging-back-to-master">Merging back to master</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/bulk.html#updating-bioconductor">Updating Bioconductor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/bulk.html#notes-on-working-with-bulk-branch">Notes on working with bulk branch</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="developer/repodata_patching.html">Repodata patching</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="developer/repodata_patching.html#what-is-repodata">What is repodata?</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/repodata_patching.html#the-bioconda-repodata-patches-package">The bioconda-repodata-patches package</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/repodata_patching.html#modifying-gen-patch-json-py">Modifying gen_patch_json.py</a></li>
-<li class="toctree-l4"><a class="reference internal" href="developer/repodata_patching.html#confirming-the-patch-is-correct">Confirming the patch is correct</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="tutorials/index.html">Tutorials</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="tutorials/gcb2020.html">GCB 2020 Tutorial</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#what-exactly-is-conda">What exactly is Conda?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#conda-packages">Conda packages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#conda-channels">Conda channels</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#finding-packages">Finding Packages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#practical-1">Practical 1</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#conda-environments">Conda environments</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#id1">Conda environments</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#conda-environments-common-commands">Conda environments – common commands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#introducing-mamba">Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#practical-2">Practical 2</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#practical-2-1">Practical 2.1</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#practical-2-2">Practical 2.2</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#id2">Conda environments – common commands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#common-pitfalls">Common pitfalls</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#conda-package-recipes">Conda package recipes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#meta-yaml-sections"><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#package"><code class="docutils literal notranslate"><span class="pre">package</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#source"><code class="docutils literal notranslate"><span class="pre">source</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#build"><code class="docutils literal notranslate"><span class="pre">build</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#requirements"><code class="docutils literal notranslate"><span class="pre">requirements</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#a-note-on-pinnings">A note on “pinnings”</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#test"><code class="docutils literal notranslate"><span class="pre">test</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="tutorials/gcb2020.html#about-extra"><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code></a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#don-t-fear-skeletons">Don’t fear skeletons</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#practical-3">Practical 3</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#common-problems">Common problems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tutorials/gcb2020.html#practical-4-and-or-q-a">Practical 4 and/or Q&amp;A</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/index.html">Tutorials</a></li>
 </ul>
 </div>
 </section>
@@ -666,8 +357,54 @@ wonderful community which includes over 1400 (as of 2022) <a class="reference ex
           
         </div>
       </div>
-    <div class="clearer"></div>
-  </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="#">
+    <img class="logo" src="_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/index.html">Tutorials</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="conda-package_index.html">Browse packages</a></li>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+    <h3 id="searchlabel">Search</h3>
+    <p id="searchdesc">packages & docs</p>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

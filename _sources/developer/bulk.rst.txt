@@ -1,5 +1,5 @@
-The `bulk` branch
-=================
+The ``bulk`` branch
+===================
 
 Sometimes we need to do maintenance or make changes to lots of recipes at once.
 This happens most often when there is a new Bioconductor release: all
@@ -9,11 +9,12 @@ need to be built.
 This ends up taking substantial compute time on CI infrastructure. If this were
 run on the same CI infrastructure that processes pull requests, this might
 consume CI time needed for the typical functioning of the daily activity in the
-bioconda repository. The `bulk` branch is a mechanism for the Bioconda core
+bioconda repository. The ``bulk`` branch is a mechanism for the Bioconda core
 team to perform large-scale changes on a different CI system, without tying up
 the CI infrastructure used by contributors on individual pull requests.
 
-The bulk branch reads from the `bulk` branch of `bioconda-common`.
+The bulk branch reads its configuration (which version of bioconda-utils and
+miniconda) from the ``bulk`` branch of `bioconda-common`.
 
 **The bulk branch immediately uploads successfully built packages to
 Anaconda.** As such, only the bioconda core team has the ability to push to
@@ -30,21 +31,23 @@ example is updating pinnings to support Python 3.10.
 1. Update `bioconda pinnings
    <https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml>`_.
    This may take a few tries; you may need to make changes to match
-   conda-forge's pinnings. Merge these changes into the master branch (which
-   will create or update a Release Please PR) and merge in the Release Please
-   PR to create a new version of bioconda-utils.
+   conda-forge's pinnings. Merge these changes into the master branch of
+   bioconda-utils (which will create or update a Release Please PR) and merge
+   in the Release Please PR to create a new version of bioconda-utils.
 
-2. Allow autobump to pick up the new version. This usually takes an hour. Then
-   merge the corresponding PR in bioconda-recipes. You now have a new
-   bioconda-utils package to use which contains those pinnings.
+2. Allow autobump to pick up the new version and create a PR in
+   bioconda-recipes for the new version of bioconda-utils. This usually takes
+   an hour. Then merge the corresponding PR in bioconda-recipes. You now have
+   a new bioconda-utils package to use which contains those pinnings.
 
 3. Update ``common.sh`` (see `here
-   <https://github.com/bioconda/bioconda-common/blob/master/common.sh>`_) to
-   use the new version. **In general, this should be done only on the bulk
-   branch to start**, since changing the pinnings will likely trigger many
-   recipes to require rebuilding. Since the bioconda-recipes/bulk branch reads
-   from the bioconda-common/bulk branch, this allows bulk to run a different
-   version of bioconda-utils. Once a bulk migration is complete, 
+   <https://github.com/bioconda/bioconda-common/blob/master/common.sh>`_) **only on the bulk
+   branch in bioconda-commont**, to match the newly-updated bioconda-utils
+   version. Changing the pinnings will likely trigger many recipes to require
+   rebuilding. Since the bioconda-recipes/bulk branch reads from the
+   bioconda-common/bulk branch, this allows bulk to run a different version of
+   bioconda-utils. Once a bulk migration is complete, you can update the master
+   branch of bioconda-common.
 
 4. In bioconda-recipes, merge master into bulk to start with a clean slate.
    Since bulk is infrequently updated, there may be substantial conflicts

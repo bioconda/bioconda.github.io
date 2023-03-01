@@ -26,6 +26,10 @@
     <link rel="prev" title="FAQs" href="../faqs.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
 
     <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
@@ -71,8 +75,65 @@
 
 
   </head><body>
-  <div class="document">
-    
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="contributing-to-bioconda">
+<h1>Contributing to Bioconda<a class="headerlink" href="#contributing-to-bioconda" title="Permalink to this heading">¶</a></h1>
+<p>Bioconda is completely dependent on contributors to add, update, and
+maintain recipes. Every little bit helps! Below are instructions for
+one-time setup as well as a general procedure to follow for each
+recipe you’d like to add.</p>
+<p>The basic workflow is:</p>
+<ul>
+<li><p>Follow the <a class="reference internal" href="setup.html"><span class="doc">Initial Setup</span></a> instructions to get a local copy of the
+recipes repository</p></li>
+<li><p>Write a recipe or modify an existing one. A recipe consists of a
+metadata file and (optionally) a shell script to install it. Here is
+an example Python package:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/pyfaidx/meta.yaml">meta.yaml</a></p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Push your changes to GitHub. This triggers automatic building and
+testing of the recipe.</p></li>
+<li><p>Once the tests pass, the recipe is reviewed by other members and
+then merged into the master branch. The resulting conda packages and
+containers that are built on the master branch are uploaded to
+public repositories for worldwide use.</p></li>
+</ul>
+<p>There are some details to be aware of, and some software can be
+challenging to package. The topics below provide more details.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Initial Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building-locally.html">Testing Recipes Locally</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
 <p class="logo">
@@ -132,64 +193,8 @@
 <script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          
-
-          <div class="body" role="main">
-            
-  <section id="contributing-to-bioconda">
-<h1>Contributing to Bioconda<a class="headerlink" href="#contributing-to-bioconda" title="Permalink to this heading">¶</a></h1>
-<p>Bioconda is completely dependent on contributors to add, update, and
-maintain recipes. Every little bit helps! Below are instructions for
-one-time setup as well as a general procedure to follow for each
-recipe you’d like to add.</p>
-<p>The basic workflow is:</p>
-<ul>
-<li><p>Follow the <a class="reference internal" href="setup.html"><span class="doc">Initial Setup</span></a> instructions to get a local copy of the
-recipes repository</p></li>
-<li><p>Write a recipe or modify an existing one. A recipe consists of a
-metadata file and (optionally) a shell script to install it. Here is
-an example Python package:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/pyfaidx/meta.yaml">meta.yaml</a></p></li>
-</ul>
-</div></blockquote>
-</li>
-<li><p>Push your changes to GitHub. This triggers automatic building and
-testing of the recipe.</p></li>
-<li><p>Once the tests pass, the recipe is reviewed by other members and
-then merged into the master branch. The resulting conda packages and
-containers that are built on the master branch are uploaded to
-public repositories for worldwide use.</p></li>
-</ul>
-<p>There are some details to be aware of, and some software can be
-challenging to package. The topics below provide more details.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="setup.html">Initial Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
-<li class="toctree-l1"><a class="reference internal" href="building-locally.html">Testing Recipes Locally</a></li>
-<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
-</ul>
-</div>
-</section>
-
-
-          </div>
-          
-        </div>
-      </div>
-    <div class="clearer"></div>
-  </div>
+      <div class="clearer"></div>
+    </div>
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

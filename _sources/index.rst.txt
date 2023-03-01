@@ -301,7 +301,8 @@ Table of contents
 =================
 
 .. toctree::
-   :includehidden:/p
+   :includehidden:
+   :maxdepth: 1
 
    faqs
    contributor/index
