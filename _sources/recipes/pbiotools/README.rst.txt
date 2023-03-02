@@ -27,7 +27,7 @@ pbiotools
       
       
 
-      ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.0.0-0``
+      ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.0.0-0``
 
       
 
@@ -44,7 +44,7 @@ pbiotools
    :depends openpyxl: 
    :depends pandas: 
    :depends pyensembl: 
-   :depends pysam: 
+   :depends pysam: ``>0.9.1``
    :depends python: 
    :depends scikit-learn: 
    :depends scipy: 
@@ -81,7 +81,7 @@ pbiotools
 
     <script>
         var package = "pbiotools";
-        var versions = ["4.0.1","4.0.0","3.0.0","2.0.0"];
+        var versions = ["4.0.1","4.0.1","4.0.0","3.0.0","2.0.0"];
     </script>
 
 

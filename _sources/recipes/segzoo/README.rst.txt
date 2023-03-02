@@ -27,14 +27,14 @@ segzoo
       
       
 
-      ``1.0.7-0``
+      ``1.0.11-0``,  ``1.0.7-0``
 
       
 
    
    :depends ggd: 
    :depends pybedtools: 
-   :depends python: ``3.8.*``
+   :depends python: ``>=3.8``
    :depends seaborn: 
    :depends segtools: 
    :depends snakemake: 
@@ -69,7 +69,7 @@ segzoo
 
     <script>
         var package = "segzoo";
-        var versions = ["1.0.7"];
+        var versions = ["1.0.11","1.0.7"];
     </script>
 
 
