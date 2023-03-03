@@ -28,10 +28,10 @@ ppanggolin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.74-1</code>,  <code>1.2.74-0</code>,  <code>1.2.63-1</code>,  <code>1.2.63-0</code>,  <code>1.2.61-0</code>,  <code>1.2.46-1</code>,  <code>1.2.46-0</code>,  <code>1.1.136-1</code>,  <code>1.1.136-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.105-0</code>,  <code>1.2.74-1</code>,  <code>1.2.74-0</code>,  <code>1.2.63-1</code>,  <code>1.2.63-0</code>,  <code>1.2.61-0</code>,  <code>1.2.46-1</code>,  <code>1.2.46-0</code>,  <code>1.1.136-1</code>,  </span></summary>
       
 
-      ``1.2.74-1``,  ``1.2.74-0``,  ``1.2.63-1``,  ``1.2.63-0``,  ``1.2.61-0``,  ``1.2.46-1``,  ``1.2.46-0``,  ``1.1.136-1``,  ``1.1.136-0``,  ``1.1.131-0``,  ``1.1.96-0``,  ``1.1.85-1``,  ``1.1.85-0``,  ``1.1.72-0``,  ``1.0.13-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``v0.3.88-1``,  ``v0.3.88-0``
+      ``1.2.105-0``,  ``1.2.74-1``,  ``1.2.74-0``,  ``1.2.63-1``,  ``1.2.63-0``,  ``1.2.61-0``,  ``1.2.46-1``,  ``1.2.46-0``,  ``1.1.136-1``,  ``1.1.136-0``,  ``1.1.131-0``,  ``1.1.96-0``,  ``1.1.85-1``,  ``1.1.85-0``,  ``1.1.72-0``,  ``1.0.13-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``v0.3.88-1``,  ``v0.3.88-0``
 
       
       .. raw:: html
@@ -45,17 +45,17 @@ ppanggolin
    :depends colorlover: ``0.3.*``
    :depends gmpy2: ``2.*``
    :depends infernal: ``1.1.*``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends mafft: 
    :depends mmseqs2: 
    :depends networkx: ``2.*``
    :depends numpy: ``1.*``
-   :depends pandas: ``0.25.*``
+   :depends pandas: ``1.*``
    :depends plotly: ``4.*``
    :depends prodigal: ``2.6.*``
    :depends pytables: ``3.*``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: ``1.*``
    :depends tqdm: ``4.*``
    :requirements:
@@ -89,7 +89,7 @@ ppanggolin
 
     <script>
         var package = "ppanggolin";
-        var versions = ["1.2.74","1.2.74","1.2.63","1.2.63","1.2.61"];
+        var versions = ["1.2.105","1.2.74","1.2.74","1.2.63","1.2.63"];
     </script>
 
 

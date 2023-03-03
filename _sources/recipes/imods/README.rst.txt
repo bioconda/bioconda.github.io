@@ -27,11 +27,12 @@ imods
       
       
 
-      ``1.0.4-0``
+      ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
+   :depends arpack: ``>=3.7.0,<3.7.1.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ imods
 
     <script>
         var package = "imods";
-        var versions = ["1.0.4"];
+        var versions = ["1.0.4","1.0.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ r-dinamic.duo
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -36,7 +36,6 @@ r-dinamic.duo
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dinamic: 
    :depends r-plyr: 
-   :depends r-reticulate: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +67,7 @@ r-dinamic.duo
 
     <script>
         var package = "r-dinamic.duo";
-        var versions = ["1.0.1","1.0.1"];
+        var versions = ["1.0.2","1.0.1","1.0.1"];
     </script>
 
 

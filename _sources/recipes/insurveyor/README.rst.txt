@@ -28,17 +28,17 @@ insurveyor
       
       
 
-      ``1.0.2-0``
+      ``1.1.1-0``,  ``1.0.2-0``
 
       
 
    
-   :depends htslib: ``>=1.13,<1.14.0a0``
+   :depends htslib: ``>=1.16,<1.17.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends numpy: 
-   :depends pyfaidx: ``0.5.9.1``
-   :depends pysam: ``0.16.0.1``
+   :depends pyfaidx: ``>=0.5.9.1,<0.8``
+   :depends pysam: ``>=0.16.0.1,<0.21``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ insurveyor
 
     <script>
         var package = "insurveyor";
-        var versions = ["1.0.2"];
+        var versions = ["1.1.1","1.0.2"];
     </script>
 
 

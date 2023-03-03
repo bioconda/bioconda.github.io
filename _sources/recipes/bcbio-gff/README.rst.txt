@@ -26,13 +26,21 @@ bcbio-gff
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.9-1</code>,  <code>0.6.9-0</code>,  <code>0.6.8-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-1</code>,  <code>0.6.6-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.2-1</code>,  </span></summary>
+      
 
+      ``0.6.9-1``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: 
+   :depends biopython: ``<1.81``
    :depends bx-python: 
    :depends python: 
    :depends six: 
@@ -67,7 +75,7 @@ bcbio-gff
 
     <script>
         var package = "bcbio-gff";
-        var versions = ["0.6.9","0.6.8","0.6.7","0.6.6","0.6.6"];
+        var versions = ["0.6.9","0.6.9","0.6.8","0.6.7","0.6.6"];
     </script>
 
 

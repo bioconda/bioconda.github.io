@@ -28,10 +28,10 @@ alignoth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-1</code>,  </span></summary>
       
 
-      ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ alignoth
    :depends libcurl: ``>=7.87.0,<8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openssl: ``>=1.1.1s,<1.1.2a``
+   :depends openssl: ``>=1.1.1t,<1.1.2a``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +76,7 @@ alignoth
 
     <script>
         var package = "alignoth";
-        var versions = ["0.7.0","0.6.2","0.6.1","0.6.0","0.5.3"];
+        var versions = ["0.7.1","0.7.0","0.6.2","0.6.1","0.6.0"];
     </script>
 
 
