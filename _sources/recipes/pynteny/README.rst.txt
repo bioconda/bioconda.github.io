@@ -30,7 +30,7 @@ pynteny
       
       
 
-      ``0.0.5-0``
+      ``1.0.0-0``,  ``0.0.5-0``
 
       
 
@@ -44,10 +44,10 @@ pynteny
    :depends psutil: 
    :depends pyfastx: ``>=0.8``
    :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-wget: 
    :depends python_abi: ``3.10.* *_cp310``
-   :depends streamlit: 
-   :depends streamlit-aggrid: 
+   :depends requests: 
+   :depends seqkit: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ pynteny
 
     <script>
         var package = "pynteny";
-        var versions = ["0.0.5"];
+        var versions = ["1.0.0","0.0.5"];
     </script>
 
 
