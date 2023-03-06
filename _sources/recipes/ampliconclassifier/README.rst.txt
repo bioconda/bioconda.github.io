@@ -28,7 +28,7 @@ ampliconclassifier
       
       
 
-      ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``
+      ``0.4.14-0``,  ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``
 
       
 
@@ -69,7 +69,7 @@ ampliconclassifier
 
     <script>
         var package = "ampliconclassifier";
-        var versions = ["0.4.9","0.4.5","0.4.5"];
+        var versions = ["0.4.14","0.4.9","0.4.5","0.4.5"];
     </script>
 
 

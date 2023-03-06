@@ -27,7 +27,7 @@ r-tinyarray
       
       
 
-      ``2.2.7-1``,  ``2.2.7-0``
+      ``2.2.9-0``,  ``2.2.7-1``,  ``2.2.7-0``
 
       
 
@@ -39,6 +39,7 @@ r-tinyarray
    :depends r-biocmanager: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-magrittr: 
    :depends r-patchwork: 
    :depends r-pheatmap: 
    :depends r-stringr: 
@@ -76,7 +77,7 @@ r-tinyarray
 
     <script>
         var package = "r-tinyarray";
-        var versions = ["2.2.7","2.2.7"];
+        var versions = ["2.2.9","2.2.7","2.2.7"];
     </script>
 
 

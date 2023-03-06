@@ -27,7 +27,7 @@ r-bulkanalyser
       
       
 
-      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -96,7 +96,7 @@ r-bulkanalyser
 
     <script>
         var package = "r-bulkanalyser";
-        var versions = ["1.1.0","1.0.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0","1.0.0"];
     </script>
 
 

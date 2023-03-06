@@ -27,9 +27,17 @@ r-annotables
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.90-4``,  ``0.1.90-3``,  ``0.1.90-2``,  ``0.1.90-1``,  ``0.1.90-0``,  ``v0.1.90-3``,  ``v0.1.90-2``,  ``v0.1.90-1``,  ``v0.1.90-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.0-0</code>,  <code>0.1.90-4</code>,  <code>0.1.90-3</code>,  <code>0.1.90-2</code>,  <code>0.1.90-1</code>,  <code>0.1.90-0</code>,  <code>v0.1.90-3</code>,  <code>v0.1.90-2</code>,  <code>v0.1.90-1</code>,  </span></summary>
+      
 
+      ``0.2.0-0``,  ``0.1.90-4``,  ``0.1.90-3``,  ``0.1.90-2``,  ``0.1.90-1``,  ``0.1.90-0``,  ``v0.1.90-3``,  ``v0.1.90-2``,  ``v0.1.90-1``,  ``v0.1.90-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -66,7 +74,7 @@ r-annotables
 
     <script>
         var package = "r-annotables";
-        var versions = ["0.1.90","0.1.90","0.1.90","0.1.90","0.1.90"];
+        var versions = ["0.2.0","0.1.90","0.1.90","0.1.90","0.1.90"];
     </script>
 
 

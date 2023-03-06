@@ -27,19 +27,18 @@ ngsderive
       
       
 
-      ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends colorlog: ``>=4.0.2``
+   :depends colorlog: ``>=6.6.0``
    :depends gtfparse: ``>=1.2.1``
-   :depends poetry: 
-   :depends pysam: ``0.15.3.*``
+   :depends pysam: ``>=0.18``
    :depends pytabix: ``>=0.1``
-   :depends python: ``>=3.7``
-   :depends rstr: ``>=2.2.6``
-   :depends sortedcontainers: ``>=2.3.0``
+   :depends python: ``>=3.8,<3.10``
+   :depends rstr: ``>=3.0.0``
+   :depends sortedcontainers: ``>=2.4.0``
    :depends tabix: ``>=1.11``
    :requirements:
 
@@ -72,7 +71,7 @@ ngsderive
 
     <script>
         var package = "ngsderive";
-        var versions = ["2.2.0","2.2.0","2.2.0","1.2.0","1.1.0"];
+        var versions = ["2.3.1","2.2.0","2.2.0","2.2.0","1.2.0"];
     </script>
 
 

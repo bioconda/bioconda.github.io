@@ -27,7 +27,7 @@ r-crisprcleanr
       
       
 
-      ``3.0.0-0``,  ``2.3.1-1``,  ``2.3.1-0``
+      ``3.0.0-1``,  ``3.0.0-0``,  ``2.3.1-1``,  ``2.3.1-0``
 
       
 
@@ -77,7 +77,7 @@ r-crisprcleanr
 
     <script>
         var package = "r-crisprcleanr";
-        var versions = ["3.0.0","2.3.1","2.3.1"];
+        var versions = ["3.0.0","3.0.0","2.3.1","2.3.1"];
     </script>
 
 

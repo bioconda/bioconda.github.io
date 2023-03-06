@@ -27,7 +27,7 @@ pseudo-it
       
       
 
-      ``3.1.0-0``,  ``3.0.0-0``
+      ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -71,7 +71,7 @@ pseudo-it
 
     <script>
         var package = "pseudo-it";
-        var versions = ["3.1.0","3.0.0"];
+        var versions = ["3.1.1","3.1.0","3.0.0"];
     </script>
 
 
