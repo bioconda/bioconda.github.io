@@ -28,15 +28,15 @@ atac
       
       
 
-      ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
+      ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
@@ -70,7 +70,7 @@ atac
 
     <script>
         var package = "atac";
-        var versions = ["2008","2008","2008","2008"];
+        var versions = ["2008","2008","2008","2008","2008"];
     </script>
 
 

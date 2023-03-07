@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -126,33 +109,34 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../outrigger/README.html#outrigger"><strong class="xref backref">outrigger</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../targqc/README.html#targqc"><strong class="xref backref">targqc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ultraheatmap/README.html#ultraheatmap"><strong class="xref backref">ultraheatmap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bcbio-nextgen/README.html#bcbio-nextgen"><strong class="xref backref">bcbio-nextgen</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../liftoff/README.html#liftoff"><strong class="xref backref">liftoff</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../asgal/README.html#asgal"><strong class="xref backref">asgal</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../riboloco/README.html#riboloco"><strong class="xref backref">riboloco</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../panaroo/README.html#panaroo"><strong class="xref backref">panaroo</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../gffmunger/README.html#gffmunger"><strong class="xref backref">gffmunger</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../biopython.convert/README.html#biopython.convert"><strong class="xref backref">biopython.convert</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../cblaster/README.html#cblaster"><strong class="xref backref">cblaster</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pypgatk/README.html#pypgatk"><strong class="xref backref">pypgatk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../collect-columns/README.html#collect-columns"><strong class="xref backref">collect-columns</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../isoquant/README.html#isoquant"><strong class="xref backref">isoquant</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../corekaburra/README.html#corekaburra"><strong class="xref backref">corekaburra</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../clinker-py/README.html#clinker-py"><strong class="xref backref">clinker-py</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../feature_merge/README.html#feature_merge"><strong class="xref backref">feature_merge</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metaseq/README.html#metaseq"><strong class="xref backref">metaseq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ultra_bioinformatics/README.html#ultra_bioinformatics"><strong class="xref backref">ultra_bioinformatics</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ggcaller/README.html#ggcaller"><strong class="xref backref">ggcaller</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../kipoiseq/README.html#kipoiseq"><strong class="xref backref">kipoiseq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rnaquast/README.html#rnaquast"><strong class="xref backref">rnaquast</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pygenometracks/README.html#pygenometracks"><strong class="xref backref">pygenometracks</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../jcvi/README.html#jcvi"><strong class="xref backref">jcvi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ultra_bioinformatics/README.html#ultra_bioinformatics"><strong class="xref backref">ultra_bioinformatics</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../liftofftools/README.html#liftofftools"><strong class="xref backref">liftofftools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pygenometracks/README.html#pygenometracks"><strong class="xref backref">pygenometracks</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../chado-tools/README.html#chado-tools"><strong class="xref backref">chado-tools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ncbi-datasets-pylib/README.html#ncbi-datasets-pylib"><strong class="xref backref">ncbi-datasets-pylib</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../panaroo/README.html#panaroo"><strong class="xref backref">panaroo</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../biopython.convert/README.html#biopython.convert"><strong class="xref backref">biopython.convert</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../rnaquast/README.html#rnaquast"><strong class="xref backref">rnaquast</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../corekaburra/README.html#corekaburra"><strong class="xref backref">corekaburra</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../isoquant/README.html#isoquant"><strong class="xref backref">isoquant</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../targqc/README.html#targqc"><strong class="xref backref">targqc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../riboloco/README.html#riboloco"><strong class="xref backref">riboloco</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pypgatk/README.html#pypgatk"><strong class="xref backref">pypgatk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../liftoff/README.html#liftoff"><strong class="xref backref">liftoff</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../kipoiseq/README.html#kipoiseq"><strong class="xref backref">kipoiseq</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../labrat/README.html#labrat"><strong class="xref backref">labrat</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../jcvi/README.html#jcvi"><strong class="xref backref">jcvi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../asgal/README.html#asgal"><strong class="xref backref">asgal</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../outrigger/README.html#outrigger"><strong class="xref backref">outrigger</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../clinker-py/README.html#clinker-py"><strong class="xref backref">clinker-py</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../gffmunger/README.html#gffmunger"><strong class="xref backref">gffmunger</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../collect-columns/README.html#collect-columns"><strong class="xref backref">collect-columns</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../cblaster/README.html#cblaster"><strong class="xref backref">cblaster</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bcbio-nextgen/README.html#bcbio-nextgen"><strong class="xref backref">bcbio-nextgen</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ultraheatmap/README.html#ultraheatmap"><strong class="xref backref">ultraheatmap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metaseq/README.html#metaseq"><strong class="xref backref">metaseq</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -264,7 +248,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

@@ -28,7 +28,7 @@ varfish-server-worker
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
 
@@ -66,7 +66,7 @@ varfish-server-worker
 
     <script>
         var package = "varfish-server-worker";
-        var versions = ["0.4.0","0.3.0","0.2.1"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.2.1"];
     </script>
 
 

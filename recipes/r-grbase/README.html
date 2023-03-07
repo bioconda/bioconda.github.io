@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -129,11 +112,11 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-clipper/README.html#bioconductor-clipper"><strong class="xref backref">bioconductor-clipper</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-grain/README.html#r-grain"><strong class="xref backref">r-grain</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-fgga/README.html#bioconductor-fgga"><strong class="xref backref">bioconductor-fgga</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-gmicr/README.html#bioconductor-gmicr"><strong class="xref backref">bioconductor-gmicr</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-sponge/README.html#bioconductor-sponge"><strong class="xref backref">bioconductor-sponge</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-grain/README.html#r-grain"><strong class="xref backref">r-grain</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-clipper/README.html#bioconductor-clipper"><strong class="xref backref">bioconductor-clipper</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -245,7 +228,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

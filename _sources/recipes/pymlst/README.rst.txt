@@ -27,7 +27,7 @@ pymlst
       
       
 
-      ``2.1.3-0``,  ``2.1.2-0``
+      ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
 
       
 
@@ -37,18 +37,18 @@ pymlst
    :depends biopython: ``>=1.78``
    :depends click: ``>=7.1``
    :depends decorator: ``>=4.4``
-   :depends kma: 
-   :depends mafft: 
+   :depends kma: ``>=1.3``
+   :depends mafft: ``>=7.3``
    :depends networkx: ``>=2.5``
    :depends numpy: ``>=1.20``
    :depends pandas: ``>=1.2``
    :depends pytest: ``>=6.2``
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends questionary: ``>=1.9``
    :depends requests: ``>=2.23``
    :depends setuptools: ``>=44.0``
-   :depends sqlalchemy: ``>=1.4``
-   :depends ucsc-blat: 
+   :depends sqlalchemy: ``>=1.4,<2``
+   :depends ucsc-blat: ``>=360``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ pymlst
 
     <script>
         var package = "pymlst";
-        var versions = ["2.1.3","2.1.2"];
+        var versions = ["2.1.3","2.1.3","2.1.2"];
     </script>
 
 

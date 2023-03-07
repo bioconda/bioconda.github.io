@@ -26,9 +26,17 @@ smudgeplot
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.5-0``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.4-4</code>,  <code>0.2.4-3</code>,  <code>0.2.4-2</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+      
 
+      ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,7 @@ smudgeplot
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-argparse: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-viridis: 
    :depends scipy: 
    :requirements:
@@ -71,7 +79,7 @@ smudgeplot
 
     <script>
         var package = "smudgeplot";
-        var versions = ["0.2.5","0.2.4","0.2.4","0.2.4","0.2.4"];
+        var versions = ["0.2.5","0.2.5","0.2.4","0.2.4","0.2.4"];
     </script>
 
 

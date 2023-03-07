@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -107,7 +90,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/strandphaser"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/strandphaser.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/strandphaser"><img alt="docker_strandphaser" src="https://quay.io/repository/biocontainers/strandphaser/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -118,7 +101,7 @@
 <li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-rsamtools/README.html#package-bioconductor-rsamtools" title="bioconductor-rsamtools package"><strong>bioconductor-rsamtools</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.2,&lt;4.3.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-cowplot-feedstock"><strong>r-cowplot</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-doparallel-feedstock"><strong>r-doparallel</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-foreach-feedstock"><strong>r-foreach</strong></a></p></li>
@@ -151,7 +134,7 @@
 
 <script>
     var package = "strandphaser";
-    var versions = ["1.0.0"];
+    var versions = ["1.0.0","1.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -241,7 +224,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -109,12 +92,12 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/rnasnp"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rnasnp.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rnasnp"><img alt="docker_rnasnp" src="https://quay.io/repository/biocontainers/rnasnp/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2-7</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=9.3.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=9.3.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
@@ -230,7 +213,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

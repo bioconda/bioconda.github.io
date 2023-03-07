@@ -29,10 +29,10 @@ trumicount
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.14-0</code>,  <code>0.9.13-3</code>,  <code>0.9.13-2</code>,  <code>0.9.13-1</code>,  <code>0.9.13-0</code>,  <code>0.9.12-0</code>,  <code>0.9.11.1-0</code>,  <code>0.9.11-1</code>,  <code>0.9.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.14-1</code>,  <code>0.9.14-0</code>,  <code>0.9.13-3</code>,  <code>0.9.13-2</code>,  <code>0.9.13-1</code>,  <code>0.9.13-0</code>,  <code>0.9.12-0</code>,  <code>0.9.11.1-0</code>,  <code>0.9.11-1</code>,  </span></summary>
       
 
-      ``0.9.14-0``,  ``0.9.13-3``,  ``0.9.13-2``,  ``0.9.13-1``,  ``0.9.13-0``,  ``0.9.12-0``,  ``0.9.11.1-0``,  ``0.9.11-1``,  ``0.9.10-1``,  ``0.9.9.3-1``,  ``0.9.9.3-0``
+      ``0.9.14-1``,  ``0.9.14-0``,  ``0.9.13-3``,  ``0.9.13-2``,  ``0.9.13-1``,  ``0.9.13-0``,  ``0.9.12-0``,  ``0.9.11.1-0``,  ``0.9.11-1``,  ``0.9.10-1``,  ``0.9.9.3-1``,  ``0.9.9.3-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ trumicount
 
    
    :depends gawk: ``>=4.0.0``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 
    :depends r-docopt: 
    :depends r-gwpcr: ``>=0.9.10``
@@ -77,7 +77,7 @@ trumicount
 
     <script>
         var package = "trumicount";
-        var versions = ["0.9.14","0.9.13","0.9.13","0.9.13","0.9.13"];
+        var versions = ["0.9.14","0.9.14","0.9.13","0.9.13","0.9.13"];
     </script>
 
 

@@ -28,21 +28,21 @@ pftools
       
       
 
-      ``3.2.12-0``,  ``3.2.11-2``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
+      ``3.2.12-1``,  ``3.2.12-0``,  ``3.2.11-2``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgfortran5: ``>=10.4.0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends pcre2: ``>=10.37,<10.38.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-file-slurp: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl-file-slurp: ``9999.32.*``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ pftools
 
     <script>
         var package = "pftools";
-        var versions = ["3.2.12","3.2.11","3.2.11","3.2.11","3.2.10"];
+        var versions = ["3.2.12","3.2.12","3.2.11","3.2.11","3.2.11"];
     </script>
 
 

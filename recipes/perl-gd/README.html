@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -120,20 +103,20 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../protrac/README.html#protrac"><strong class="xref backref">protrac</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../plasmidid/README.html#plasmidid"><strong class="xref backref">plasmidid</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ltr_finder/README.html#ltr_finder"><strong class="xref backref">ltr_finder</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-gdtextutil/README.html#perl-gdtextutil"><strong class="xref backref">perl-gdtextutil</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-bioperl-core/README.html#perl-bioperl-core"><strong class="xref backref">perl-bioperl-core</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-gd-svg/README.html#perl-gd-svg"><strong class="xref backref">perl-gd-svg</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../fastx_toolkit/README.html#fastx_toolkit"><strong class="xref backref">fastx_toolkit</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../get_homologues/README.html#get_homologues"><strong class="xref backref">get_homologues</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../circos/README.html#circos"><strong class="xref backref">circos</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ltr_finder/README.html#ltr_finder"><strong class="xref backref">ltr_finder</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-gdgraph/README.html#perl-gdgraph"><strong class="xref backref">perl-gdgraph</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../plasmidid/README.html#plasmidid"><strong class="xref backref">plasmidid</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bioperl-core/README.html#perl-bioperl-core"><strong class="xref backref">perl-bioperl-core</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../gcluster/README.html#gcluster"><strong class="xref backref">gcluster</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-pcap/README.html#perl-pcap"><strong class="xref backref">perl-pcap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../protrac/README.html#protrac"><strong class="xref backref">protrac</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-gdtextutil/README.html#perl-gdtextutil"><strong class="xref backref">perl-gdtextutil</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-bio-phylo/README.html#perl-bio-phylo"><strong class="xref backref">perl-bio-phylo</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fastx_toolkit/README.html#fastx_toolkit"><strong class="xref backref">fastx_toolkit</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-gd-svg/README.html#perl-gd-svg"><strong class="xref backref">perl-gd-svg</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../gcluster/README.html#gcluster"><strong class="xref backref">gcluster</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../rsat-core/README.html#rsat-core"><strong class="xref backref">rsat-core</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-gdgraph/README.html#perl-gdgraph"><strong class="xref backref">perl-gdgraph</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -245,7 +228,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

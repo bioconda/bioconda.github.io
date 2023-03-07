@@ -47,23 +47,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -259,7 +242,7 @@ a dependency.</p>
 with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>.</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/package-spec.html" title="(in conda-build v3.23.3+68.gc91ac132.dirty)"><code class="docutils literal notranslate"><span class="pre">Conda</span> <span class="pre">package</span> <span class="pre">specification</span></code></a> has details on exactly
+<p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/package-spec.html" title="(in conda-build v3.23.3+69.ge69d3ef8.dirty)"><code class="docutils literal notranslate"><span class="pre">Conda</span> <span class="pre">package</span> <span class="pre">specification</span></code></a> has details on exactly
 what a package contains and how it is installed into an
 environment.</p>
 </div>
@@ -478,7 +461,19 @@ same environment.</p>
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -106,13 +89,13 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/hiddendomains"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/hiddendomains.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/hiddendomains"><img alt="docker_hiddendomains" src="https://quay.io/repository/biocontainers/hiddendomains/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.1-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.2,&lt;4.3.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-depmixs4-feedstock"><strong>r-depmixs4</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-hiddenmarkov-feedstock"><strong>r-hiddenmarkov</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
@@ -141,7 +124,7 @@
 
 <script>
     var package = "hiddendomains";
-    var versions = ["3.1","3.1","3.1","3.1","3.0"];
+    var versions = ["3.1","3.1","3.1","3.1","3.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -231,7 +214,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

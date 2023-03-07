@@ -27,13 +27,13 @@ sequencetools
       
       
 
-      ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.0.6-1``,  ``1.4.0.6-0``,  ``1.2.2-0``
+      ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.0.6-1``,  ``1.4.0.6-0``,  ``1.2.2-0``
 
       
 
    
    :depends gmp: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends samtools: 
    :depends xz: 
    :depends zlib: 
@@ -68,7 +68,7 @@ sequencetools
 
     <script>
         var package = "sequencetools";
-        var versions = ["1.5.2","1.5.2","1.5.1","1.4.0.6","1.4.0.6"];
+        var versions = ["1.5.3","1.5.2","1.5.2","1.5.1","1.4.0.6"];
     </script>
 
 

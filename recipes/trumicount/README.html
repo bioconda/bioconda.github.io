@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -109,12 +92,12 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/trumicount"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/trumicount.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/trumicount"><img alt="docker_trumicount" src="https://quay.io/repository/biocontainers/trumicount/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.9.14-0</code>,  <code>0.9.13-3</code>,  <code>0.9.13-2</code>,  <code>0.9.13-1</code>,  <code>0.9.13-0</code>,  <code>0.9.12-0</code>,  <code>0.9.11.1-0</code>,  <code>0.9.11-1</code>,  <code>0.9.10-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.9.14-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.12-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.11.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.11-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.10-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.9.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.9.3-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.9.14-1</code>,  <code>0.9.14-0</code>,  <code>0.9.13-3</code>,  <code>0.9.13-2</code>,  <code>0.9.13-1</code>,  <code>0.9.13-0</code>,  <code>0.9.12-0</code>,  <code>0.9.11.1-0</code>,  <code>0.9.11-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.9.14-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.14-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.13-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.12-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.11.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.11-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.10-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.9.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.9.3-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/gawk-feedstock"><strong>gawk</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.0.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.2,&lt;4.3.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-data.table-feedstock"><strong>r-data.table</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-docopt-feedstock"><strong>r-docopt</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../r-gwpcr/README.html#package-r-gwpcr" title="r-gwpcr package"><strong>r-gwpcr</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.9.10</span></code></p></li>
@@ -143,7 +126,7 @@
 
 <script>
     var package = "trumicount";
-    var versions = ["0.9.14","0.9.13","0.9.13","0.9.13","0.9.13"];
+    var versions = ["0.9.14","0.9.14","0.9.13","0.9.13","0.9.13"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -233,7 +216,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

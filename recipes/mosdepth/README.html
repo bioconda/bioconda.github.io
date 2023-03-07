@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -119,11 +102,11 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconvert/README.html#bioconvert"><strong class="xref backref">bioconvert</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../smoove/README.html#smoove"><strong class="xref backref">smoove</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../grid/README.html#grid"><strong class="xref backref">grid</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../hatchet/README.html#hatchet"><strong class="xref backref">hatchet</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../hafez/README.html#hafez"><strong class="xref backref">hafez</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconvert/README.html#bioconvert"><strong class="xref backref">bioconvert</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../smoove/README.html#smoove"><strong class="xref backref">smoove</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../tmb/README.html#tmb"><strong class="xref backref">tmb</strong></a></p></li>
 </ul>
 </dd>
@@ -236,7 +219,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

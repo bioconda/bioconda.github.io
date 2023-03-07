@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -119,20 +102,20 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../recognizer/README.html#recognizer"><strong class="xref backref">recognizer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../drax/README.html#drax"><strong class="xref backref">drax</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../blastmining/README.html#blastmining"><strong class="xref backref">blastmining</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bactopia-teton/README.html#bactopia-teton"><strong class="xref backref">bactopia-teton</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mosca/README.html#mosca"><strong class="xref backref">mosca</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../matam/README.html#matam"><strong class="xref backref">matam</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metawrap-mg/README.html#metawrap-mg"><strong class="xref backref">metawrap-mg</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../singlem/README.html#singlem"><strong class="xref backref">singlem</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ccmetagen/README.html#ccmetagen"><strong class="xref backref">ccmetagen</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../quantpi/README.html#quantpi"><strong class="xref backref">quantpi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../refinem/README.html#refinem"><strong class="xref backref">refinem</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../datma/README.html#datma"><strong class="xref backref">datma</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../qcumber/README.html#qcumber"><strong class="xref backref">qcumber</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ccmetagen/README.html#ccmetagen"><strong class="xref backref">ccmetagen</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../blastmining/README.html#blastmining"><strong class="xref backref">blastmining</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metawrap-mg/README.html#metawrap-mg"><strong class="xref backref">metawrap-mg</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../graftm/README.html#graftm"><strong class="xref backref">graftm</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../matam/README.html#matam"><strong class="xref backref">matam</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bactopia-teton/README.html#bactopia-teton"><strong class="xref backref">bactopia-teton</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../quantpi/README.html#quantpi"><strong class="xref backref">quantpi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../qcumber/README.html#qcumber"><strong class="xref backref">qcumber</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../singlem/README.html#singlem"><strong class="xref backref">singlem</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../recognizer/README.html#recognizer"><strong class="xref backref">recognizer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../mosca/README.html#mosca"><strong class="xref backref">mosca</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../drax/README.html#drax"><strong class="xref backref">drax</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../refinem/README.html#refinem"><strong class="xref backref">refinem</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -244,7 +227,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

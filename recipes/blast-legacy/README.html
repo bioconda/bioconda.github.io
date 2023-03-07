@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -110,14 +93,14 @@
 </dd>
 <dt class="field-even">Required By<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../mothur/README.html#mothur"><strong class="xref backref">mothur</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../poa/README.html#poa"><strong class="xref backref">poa</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../metaphyler/README.html#metaphyler"><strong class="xref backref">metaphyler</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pyani/README.html#pyani"><strong class="xref backref">pyani</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mothur/README.html#mothur"><strong class="xref backref">mothur</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../transposonpsi/README.html#transposonpsi"><strong class="xref backref">transposonpsi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../poa/README.html#poa"><strong class="xref backref">poa</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../blastalign/README.html#blastalign"><strong class="xref backref">blastalign</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../snostrip/README.html#snostrip"><strong class="xref backref">snostrip</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../coprarna/README.html#coprarna"><strong class="xref backref">coprarna</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../transposonpsi/README.html#transposonpsi"><strong class="xref backref">transposonpsi</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../blastalign/README.html#blastalign"><strong class="xref backref">blastalign</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -229,7 +212,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

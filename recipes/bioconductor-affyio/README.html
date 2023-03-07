@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -123,18 +106,18 @@
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-scan.upc/README.html#bioconductor-scan.upc"><strong class="xref backref">bioconductor-scan.upc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-oligo/README.html#bioconductor-oligo"><strong class="xref backref">bioconductor-oligo</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gcrma/README.html#bioconductor-gcrma"><strong class="xref backref">bioconductor-gcrma</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-makecdfenv/README.html#bioconductor-makecdfenv"><strong class="xref backref">bioconductor-makecdfenv</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-affy/README.html#bioconductor-affy"><strong class="xref backref">bioconductor-affy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-crlmm/README.html#bioconductor-crlmm"><strong class="xref backref">bioconductor-crlmm</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-oligoclasses/README.html#bioconductor-oligoclasses"><strong class="xref backref">bioconductor-oligoclasses</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sscore/README.html#bioconductor-sscore"><strong class="xref backref">bioconductor-sscore</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-puma/README.html#bioconductor-puma"><strong class="xref backref">bioconductor-puma</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-affylmgui/README.html#bioconductor-affylmgui"><strong class="xref backref">bioconductor-affylmgui</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-eximir/README.html#bioconductor-eximir"><strong class="xref backref">bioconductor-eximir</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../r-msqrob/README.html#r-msqrob"><strong class="xref backref">r-msqrob</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-makecdfenv/README.html#bioconductor-makecdfenv"><strong class="xref backref">bioconductor-makecdfenv</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-affylmgui/README.html#bioconductor-affylmgui"><strong class="xref backref">bioconductor-affylmgui</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sscore/README.html#bioconductor-sscore"><strong class="xref backref">bioconductor-sscore</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-crlmm/README.html#bioconductor-crlmm"><strong class="xref backref">bioconductor-crlmm</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-gcrma/README.html#bioconductor-gcrma"><strong class="xref backref">bioconductor-gcrma</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-puma/README.html#bioconductor-puma"><strong class="xref backref">bioconductor-puma</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scan.upc/README.html#bioconductor-scan.upc"><strong class="xref backref">bioconductor-scan.upc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-eximir/README.html#bioconductor-eximir"><strong class="xref backref">bioconductor-eximir</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-oligo/README.html#bioconductor-oligo"><strong class="xref backref">bioconductor-oligo</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-affy/README.html#bioconductor-affy"><strong class="xref backref">bioconductor-affy</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-oligoclasses/README.html#bioconductor-oligoclasses"><strong class="xref backref">bioconductor-oligoclasses</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -246,7 +229,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

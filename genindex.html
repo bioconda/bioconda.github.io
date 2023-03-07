@@ -44,23 +44,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -8747,6 +8730,8 @@
 </li>
       <li><a href="recipes/deltabs/README.html#package-deltabs">deltabs (package)</a>
 </li>
+      <li><a href="recipes/deltamsi/README.html#package-deltamsi">deltamsi (package)</a>
+</li>
       <li><a href="recipes/deltapd/README.html#package-deltapd">deltapd (package)</a>
 </li>
       <li><a href="recipes/demultiplexer/README.html#package-demultiplexer">demultiplexer (package)</a>
@@ -8773,10 +8758,10 @@
 </li>
       <li><a href="recipes/dfast/README.html#package-dfast">dfast (package)</a>
 </li>
-      <li><a href="recipes/dfast_qc/README.html#package-dfast_qc">dfast_qc (package)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="recipes/dfast_qc/README.html#package-dfast_qc">dfast_qc (package)</a>
+</li>
       <li><a href="recipes/dgenies/README.html#package-dgenies">dgenies (package)</a>
 </li>
       <li><a href="recipes/dia_umpire/README.html#package-dia_umpire">dia_umpire (package)</a>
@@ -9200,6 +9185,8 @@
 </li>
       <li><a href="recipes/fastafunk/README.html#package-fastafunk">fastafunk (package)</a>
 </li>
+      <li><a href="recipes/fastagap/README.html#package-fastagap">fastagap (package)</a>
+</li>
       <li><a href="recipes/fastahack/README.html#package-fastahack">fastahack (package)</a>
 </li>
       <li><a href="recipes/fastaindex/README.html#package-fastaindex">fastaindex (package)</a>
@@ -9330,10 +9317,10 @@
 </li>
       <li><a href="recipes/fgap/README.html#package-fgap">fgap (package)</a>
 </li>
-      <li><a href="recipes/fgbio/README.html#package-fgbio">fgbio (package)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="recipes/fgbio/README.html#package-fgbio">fgbio (package)</a>
+</li>
       <li><a href="recipes/fgbio-minimal/README.html#package-fgbio-minimal">fgbio-minimal (package)</a>
 </li>
       <li><a href="recipes/fgmp/README.html#package-fgmp">fgmp (package)</a>
@@ -11698,6 +11685,8 @@
 </li>
       <li><a href="recipes/ncbi-amrfinderplus/README.html#package-ncbi-amrfinderplus">ncbi-amrfinderplus (package)</a>
 </li>
+      <li><a href="recipes/ncbi-datasets-pylib/README.html#package-ncbi-datasets-pylib">ncbi-datasets-pylib (package)</a>
+</li>
       <li><a href="recipes/ncbi-genome-download/README.html#package-ncbi-genome-download">ncbi-genome-download (package)</a>
 </li>
       <li><a href="recipes/ncbi-ngs-sdk/README.html#package-ncbi-ngs-sdk">ncbi-ngs-sdk (package)</a>
@@ -11896,6 +11885,8 @@
 <h2 id="O">O</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="recipes/oakvar/README.html#package-oakvar">oakvar (package)</a>
+</li>
       <li><a href="recipes/oases/README.html#package-oases">oases (package)</a>
 </li>
       <li><a href="recipes/obitools/README.html#package-obitools">obitools (package)</a>
@@ -17274,7 +17265,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -106,7 +89,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/pymlst"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pymlst.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pymlst"><img alt="docker_pymlst" src="https://quay.io/repository/biocontainers/pymlst/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -115,18 +98,18 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.78</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/click-feedstock"><strong>click</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.1</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/decorator-feedstock"><strong>decorator</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.4</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../kma/README.html#package-kma" title="kma package"><strong>kma</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mafft/README.html#package-mafft" title="mafft package"><strong>mafft</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../kma/README.html#package-kma" title="kma package"><strong>kma</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../mafft/README.html#package-mafft" title="mafft package"><strong>mafft</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.3</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/networkx-feedstock"><strong>networkx</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.5</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.20</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pytest-feedstock"><strong>pytest</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=6.2</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/questionary-feedstock"><strong>questionary</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.23</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/setuptools-feedstock"><strong>setuptools</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=44.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlalchemy-feedstock"><strong>sqlalchemy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../ucsc-blat/README.html#package-ucsc-blat" title="ucsc-blat package"><strong>ucsc-blat</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlalchemy-feedstock"><strong>sqlalchemy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.4,&lt;2</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../ucsc-blat/README.html#package-ucsc-blat" title="ucsc-blat package"><strong>ucsc-blat</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=360</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
@@ -152,7 +135,7 @@
 
 <script>
     var package = "pymlst";
-    var versions = ["2.1.3","2.1.2"];
+    var versions = ["2.1.3","2.1.3","2.1.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -242,7 +225,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

@@ -45,23 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <script>
-        const openDetailsIfAnchorHidden = evt => {
-          const targetDiv = document.querySelector(evt.target.getAttribute("href"));
-
-          // Detect if the target is hidden, in which case do nothing
-          const props = window.getComputedStyle(targetDiv);
-          if (props.display === 'none' || props.visibility === 'hidden') return;
-
-          // otherwise, find the closest <details> element and open it
-          targetDiv.closest("details").open = true;
-        }
-
-        [...document.querySelectorAll("[href^='#']")].forEach( 
-           el => el.addEventListener("click", openDetailsIfAnchorHidden )
-        );
-    </script>
-
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
@@ -112,7 +95,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/kmasker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/kmasker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/kmasker"><img alt="docker_kmasker" src="https://quay.io/repository/biocontainers/kmasker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.1-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.1-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -123,11 +106,11 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jellyfish-feedstock"><strong>jellyfish</strong></a> <code class="docutils literal notranslate"><span class="pre">2.2.10.*</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23.1,&lt;2.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24.2,&lt;2.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;5.33.0a0 *_perl5</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python_abi-feedstock"><strong>python_abi</strong></a> <code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.2,&lt;4.3.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/which-feedstock"><strong>which</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.21</span></code></p></li>
 </ul>
 </dd>
@@ -244,7 +227,19 @@
         </div>
       </div>
       <div class="clearer"></div>
-    </div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    let elem = document.getElementById(id);
+    if (elem != null) {
+        // Get the closest "details" element and open it
+        closest = elem.closest("details");
+        closest.open = true;
+    }
+</script>
+
+    
     <div class="footer">
       &copy;2016-2023, The Bioconda Team.
       

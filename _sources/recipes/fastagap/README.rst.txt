@@ -1,0 +1,90 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'fastagap'
+.. highlight: bash
+
+fastagap
+========
+
+.. conda:recipe:: fastagap
+   :replaces_section_title:
+   :noindex:
+
+   Count and remove missing data in fasta\-formatted sequence data
+
+   :homepage: https://github.com/nylander/fastagap
+   :license: MIT
+   :recipe: /`fastagap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastagap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastagap/meta.yaml>`_
+
+   
+
+
+.. conda:package:: fastagap
+
+   |downloads_fastagap| |docker_fastagap|
+
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
+   
+   :depends perl: 
+   :depends perl-list-moreutils: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastagap
+
+   and update with::
+
+      conda update fastagap
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/fastagap:<tag>
+
+   (see `fastagap/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_fastagap| image:: https://img.shields.io/conda/dn/bioconda/fastagap.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastagap
+   :alt:   (downloads)
+.. |docker_fastagap| image:: https://quay.io/repository/biocontainers/fastagap/status
+   :target: https://quay.io/repository/biocontainers/fastagap
+.. _`fastagap/tags`: https://quay.io/repository/biocontainers/fastagap?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "fastagap";
+        var versions = ["1.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastagap/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastagap/README.html
