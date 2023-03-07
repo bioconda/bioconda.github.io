@@ -28,14 +28,14 @@ hapog
       
       
 
-      ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
+      ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
 
       
 
    
    :depends biopython: 
    :depends bwa: 
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends minimap2: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -73,7 +73,7 @@ hapog
 
     <script>
         var package = "hapog";
-        var versions = ["1.3.4","1.3.4","1.3.3","1.3.2"];
+        var versions = ["1.3.4","1.3.4","1.3.4","1.3.3","1.3.2"];
     </script>
 
 

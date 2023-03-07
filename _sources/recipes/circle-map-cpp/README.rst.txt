@@ -27,13 +27,13 @@ circle-map-cpp
       
       
 
-      ``0.5.0-0``
+      ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends bedtools: 
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends numpy: 
@@ -69,7 +69,7 @@ circle-map-cpp
 
     <script>
         var package = "circle-map-cpp";
-        var versions = ["0.5.0"];
+        var versions = ["0.5.0","0.5.0"];
     </script>
 
 

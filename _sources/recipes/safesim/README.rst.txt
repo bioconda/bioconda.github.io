@@ -28,22 +28,22 @@ safesim
       
       
 
-      ``0.1.6.8d44580-0``,  ``0.1.5.f9a66db-0``
+      ``0.1.6.8d44580-1``,  ``0.1.6.8d44580-0``,  ``0.1.5.f9a66db-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fastq-tools: 
-   :depends htslib: ``>=1.15.1,<1.16.0a0``
-   :depends libcurl: ``>=7.83.1,<8.0a0``
-   :depends libdeflate: ``>=1.10,<1.11.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends libcurl: ``>=7.87.0,<8.0a0``
+   :depends libdeflate: ``>=1.13,<1.14.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends openssl: ``>=1.1.1q,<1.1.2a``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends openssl: ``>=1.1.1t,<1.1.2a``
    :depends xz: ``>=5.2.6,<5.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ safesim
 
     <script>
         var package = "safesim";
-        var versions = ["0.1.6.8d44580","0.1.5.f9a66db"];
+        var versions = ["0.1.6.8d44580","0.1.6.8d44580","0.1.5.f9a66db"];
     </script>
 
 

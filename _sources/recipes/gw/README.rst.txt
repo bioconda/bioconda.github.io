@@ -28,10 +28,10 @@ gw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.0-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.0-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  </span></summary>
       
 
-      ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
+      ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ gw
    :depends fonts-conda-ecosystem: 
    :depends freetype: ``>=2.12.1,<3.0a0``
    :depends glfw: 
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libcurl: ``>=7.87.0,<8.0a0``
    :depends libdeflate: ``>=1.13,<1.14.0a0``
    :depends libgcc-ng: ``>=12``
@@ -80,7 +80,7 @@ gw
 
     <script>
         var package = "gw";
-        var versions = ["0.6.3","0.6.2","0.6.1","0.5.3","0.5.2"];
+        var versions = ["0.6.3","0.6.3","0.6.2","0.6.1","0.5.3"];
     </script>
 
 

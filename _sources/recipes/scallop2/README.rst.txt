@@ -27,13 +27,13 @@ scallop2
       
       
 
-      ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -67,7 +67,7 @@ scallop2
 
     <script>
         var package = "scallop2";
-        var versions = ["1.1.2","1.1.2","1.1.2","1.1.2","1.1.1"];
+        var versions = ["1.1.2","1.1.2","1.1.2","1.1.2","1.1.2"];
     </script>
 
 

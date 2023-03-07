@@ -31,10 +31,10 @@ metagraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -45,11 +45,11 @@ metagraph
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends jemalloc: 
    :depends libgcc-ng: ``>=12``
    :depends libgomp: 
-   :depends libjemalloc: ``>=5.2.1``
+   :depends libjemalloc: ``>=5.3.0``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
 
@@ -82,7 +82,7 @@ metagraph
 
     <script>
         var package = "metagraph";
-        var versions = ["0.3.6","0.3.6","0.3.5","0.3.4","0.3.4"];
+        var versions = ["0.3.6","0.3.6","0.3.6","0.3.5","0.3.4"];
     </script>
 
 

@@ -41,7 +41,8 @@ faqcs
       
 
    
-   :depends libcxx: ``>=14.0.6``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends zlib: ``>=1.2.13,<1.3.0a0``
