@@ -29,10 +29,10 @@ pindel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.5b9-8</code>,  <code>0.2.5b9-7</code>,  <code>0.2.5b9-6</code>,  <code>0.2.5b9-5</code>,  <code>0.2.5b9-4</code>,  <code>0.2.5b9-3</code>,  <code>0.2.5b9-2</code>,  <code>0.2.5b9-1</code>,  <code>0.2.5b9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.5b9-9</code>,  <code>0.2.5b9-8</code>,  <code>0.2.5b9-7</code>,  <code>0.2.5b9-6</code>,  <code>0.2.5b9-5</code>,  <code>0.2.5b9-4</code>,  <code>0.2.5b9-3</code>,  <code>0.2.5b9-2</code>,  <code>0.2.5b9-1</code>,  </span></summary>
       
 
-      ``0.2.5b9-8``,  ``0.2.5b9-7``,  ``0.2.5b9-6``,  ``0.2.5b9-5``,  ``0.2.5b9-4``,  ``0.2.5b9-3``,  ``0.2.5b9-2``,  ``0.2.5b9-1``,  ``0.2.5b9-0``,  ``0.2.5b8-2``
+      ``0.2.5b9-9``,  ``0.2.5b9-8``,  ``0.2.5b9-7``,  ``0.2.5b9-6``,  ``0.2.5b9-5``,  ``0.2.5b9-4``,  ``0.2.5b9-3``,  ``0.2.5b9-2``,  ``0.2.5b9-1``,  ``0.2.5b9-0``,  ``0.2.5b8-2``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ pindel
       
 
    
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:

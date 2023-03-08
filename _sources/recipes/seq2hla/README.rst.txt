@@ -28,13 +28,14 @@ seq2hla
       
       
 
-      ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.3-1``,  ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
    :depends biopython: ``>=1.58``
    :depends bowtie: ``1.1.2``
+   :depends coreutils: 
    :depends python: ``<3``
    :depends r-base: 
    :requirements:
@@ -68,7 +69,7 @@ seq2hla
 
     <script>
         var package = "seq2hla";
-        var versions = ["2.3","2.2","2.2","2.2"];
+        var versions = ["2.3","2.3","2.2","2.2","2.2"];
     </script>
 
 

@@ -27,7 +27,7 @@ chopper
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -68,7 +68,7 @@ chopper
 
     <script>
         var package = "chopper";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

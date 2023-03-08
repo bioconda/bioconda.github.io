@@ -27,14 +27,14 @@ transindel
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``2.0-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends htseq: ``>=0.6.1``
    :depends pysam: ``>=0.13.0``
-   :depends python: ``<=3``
+   :depends python: ``>=3.8``
    :depends samtools: ``>=1.0``
    :requirements:
 
@@ -67,7 +67,7 @@ transindel
 
     <script>
         var package = "transindel";
-        var versions = ["1.0","1.0","1.0"];
+        var versions = ["2.0","1.0","1.0","1.0"];
     </script>
 
 

@@ -28,21 +28,21 @@ sscocaller
       
       
 
-      ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=10.4.0``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ sscocaller
 
     <script>
         var package = "sscocaller";
-        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.1"];
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.2"];
     </script>
 
 

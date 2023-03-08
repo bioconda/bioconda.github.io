@@ -27,18 +27,21 @@ verkko
       
       
 
-      ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends biopython: 
    :depends findutils: ``>=4.6.0``
-   :depends graphaligner: ``>=1.0.16``
+   :depends graphaligner: ``>=1.0.17``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends mbg: ``>=1.0.12``
+   :depends mashmap: ``>=2.0``
+   :depends mbg: ``>=1.0.14``
+   :depends parasail-python: ``>=1.3.3``
    :depends python: ``>=3.7``
    :depends snakemake-minimal: ``>=7.8.0``
    :requirements:
@@ -72,7 +75,7 @@ verkko
 
     <script>
         var package = "verkko";
-        var versions = ["1.2","1.1","1.1","1.0","1.0"];
+        var versions = ["1.3.1","1.3","1.2","1.1","1.1"];
     </script>
 
 

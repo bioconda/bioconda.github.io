@@ -27,13 +27,13 @@ ngslca
       
       
 
-      ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
@@ -70,7 +70,7 @@ ngslca
 
     <script>
         var package = "ngslca";
-        var versions = ["1.0.5","1.0.4","1.0.4"];
+        var versions = ["1.0.5","1.0.5","1.0.4","1.0.4"];
     </script>
 
 
