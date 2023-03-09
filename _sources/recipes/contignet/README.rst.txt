@@ -28,11 +28,23 @@ contignet
       
       
 
-      
+      ``1.0.1.post3-0``
 
       
 
    
+   :depends biopython: 
+   :depends ete3: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: 
+   :depends pytorch: 
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn: 
+   :depends tensorboard: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +76,7 @@ contignet
 
     <script>
         var package = "contignet";
-        var versions = [];
+        var versions = ["1.0.1.post3"];
     </script>
 
 

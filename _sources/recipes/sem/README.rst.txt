@@ -27,7 +27,7 @@ sem
       
       
 
-      ``1.1.2-0``
+      ``1.2.0-0``,  ``1.1.2-0``
 
       
 
@@ -65,7 +65,7 @@ sem
 
     <script>
         var package = "sem";
-        var versions = ["1.1.2"];
+        var versions = ["1.2.0","1.1.2"];
     </script>
 
 
