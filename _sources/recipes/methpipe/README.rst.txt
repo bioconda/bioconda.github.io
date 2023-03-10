@@ -27,17 +27,17 @@ methpipe
       
       
 
-      ``5.0.1-1``,  ``5.0.1-0``
+      ``5.0.1-2``,  ``5.0.1-1``,  ``5.0.1-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ methpipe
 
     <script>
         var package = "methpipe";
-        var versions = ["5.0.1","5.0.1"];
+        var versions = ["5.0.1","5.0.1","5.0.1"];
     </script>
 
 

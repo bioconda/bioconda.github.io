@@ -27,12 +27,13 @@ hocort
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
 
       
 
    
    :depends bbmap: 
+   :depends biobloomtools: 
    :depends bowtie2: 
    :depends bwa-mem2: 
    :depends hisat2: 
@@ -72,7 +73,7 @@ hocort
 
     <script>
         var package = "hocort";
-        var versions = ["1.1.0","1.0.0","0.3.3","0.3.2"];
+        var versions = ["1.2.0","1.1.0","1.0.0","0.3.3","0.3.2"];
     </script>
 
 

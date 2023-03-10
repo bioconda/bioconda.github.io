@@ -15,7 +15,7 @@ obonet
    :homepage: https://github.com/dhimmel/obonet
    :documentation: https://github.com/dhimmel/obonet/README.md
    
-   :license: CC0-1.0
+   :license: BSD-2-Clause-Patent
    :recipe: /`obonet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obonet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obonet/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ obonet
       
       
 
-      ``0.2.3-0``
+      ``1.0.0-0``,  ``0.2.3-0``
 
       
 
@@ -67,7 +67,7 @@ obonet
 
     <script>
         var package = "obonet";
-        var versions = ["0.2.3"];
+        var versions = ["1.0.0","0.2.3"];
     </script>
 
 

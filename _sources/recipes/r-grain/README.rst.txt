@@ -28,10 +28,10 @@ r-grain
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.12-1</code>,  <code>1.3.12-0</code>,  <code>1.3.11-1</code>,  <code>1.3.11-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  <code>1.3_0-6</code>,  <code>1.3_0-5</code>,  <code>1.3_0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.13-0</code>,  <code>1.3.12-1</code>,  <code>1.3.12-0</code>,  <code>1.3.11-1</code>,  <code>1.3.11-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  <code>1.3_0-6</code>,  <code>1.3_0-5</code>,  </span></summary>
       
 
-      ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.11-1``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3_0-6``,  ``1.3_0-5``,  ``1.3_0-4``,  ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
+      ``1.3.13-0``,  ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.11-1``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3_0-6``,  ``1.3_0-5``,  ``1.3_0-4``,  ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
 
       
       .. raw:: html
@@ -83,7 +83,7 @@ r-grain
 
     <script>
         var package = "r-grain";
-        var versions = ["1.3.12","1.3.12","1.3.11","1.3.11","1.3.10"];
+        var versions = ["1.3.13","1.3.12","1.3.12","1.3.11","1.3.11"];
     </script>
 
 

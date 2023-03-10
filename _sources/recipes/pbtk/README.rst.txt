@@ -27,7 +27,7 @@ pbtk
       
       
 
-      ``1.0.0-0``
+      ``3.0.0-0``,  ``1.0.0-0``
 
       
 
@@ -63,7 +63,7 @@ pbtk
 
     <script>
         var package = "pbtk";
-        var versions = ["1.0.0"];
+        var versions = ["3.0.0","1.0.0"];
     </script>
 
 

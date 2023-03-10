@@ -27,16 +27,16 @@ chips
       
       
 
-      ``2.4-4``,  ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``,  ``2.3-0``
+      ``2.4-5``,  ``2.4-4``,  ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``,  ``2.3-0``
 
       
 
    
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

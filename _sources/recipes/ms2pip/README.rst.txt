@@ -28,28 +28,28 @@ ms2pip
       
       
 
-      ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
+      ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
 
       
 
    
-   :depends biopython: ``>=1.43``
+   :depends biopython: ``>=1.74``
    :depends click: ``>=7``
    :depends libgcc-ng: ``>=12``
    :depends lxml: ``>=4``
-   :depends matplotlib-base: 
+   :depends matplotlib-base: ``>=3.0``
    :depends numpy: ``>=1.21.6,<2.0a0``
-   :depends pandas: ``>=0.24``
+   :depends pandas: ``>=1.0``
+   :depends pydantic: ``>=1.10``
    :depends pytables: ``>=3.4``
    :depends pyteomics: ``>=3.5``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends rich: ``>=13``
-   :depends scipy: ``>=1``
    :depends spectrum_utils: ``>=0.3.5``
    :depends tomlkit: ``>=0.5``
-   :depends tqdm: 
-   :depends xgboost: ``>=1``
+   :depends tqdm: ``>=4``
+   :depends xgboost: ``>=1.3``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ ms2pip
 
     <script>
         var package = "ms2pip";
-        var versions = ["3.10.0","3.9.0","3.6.3","3.6.3","3.6.2"];
+        var versions = ["3.11.0","3.10.0","3.9.0","3.6.3","3.6.3"];
     </script>
 
 
