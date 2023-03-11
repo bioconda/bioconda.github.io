@@ -27,11 +27,12 @@ extracthifi
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends pbtk: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ extracthifi
 
     <script>
         var package = "extracthifi";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

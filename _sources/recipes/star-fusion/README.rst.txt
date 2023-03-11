@@ -46,7 +46,7 @@ star-fusion
    :depends gmap: 
    :depends htslib: 
    :depends igv-reports: 
-   :depends openssl: 
+   :depends openssl: ``>=1.1.0,<=1.1.1``
    :depends perl: 
    :depends perl-carp: 
    :depends perl-carp-assert: 

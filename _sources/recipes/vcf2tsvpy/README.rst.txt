@@ -27,7 +27,7 @@ vcf2tsvpy
       
       
 
-      ``0.6.0-0``
+      ``0.6.1-0``,  ``0.6.0-0``
 
       
 
@@ -67,7 +67,7 @@ vcf2tsvpy
 
     <script>
         var package = "vcf2tsvpy";
-        var versions = ["0.6.0"];
+        var versions = ["0.6.1","0.6.0"];
     </script>
 
 

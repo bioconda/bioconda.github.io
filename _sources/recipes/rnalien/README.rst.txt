@@ -47,7 +47,7 @@ rnalien
    :depends gmp: 
    :depends infernal: ``1.1.2``
    :depends locarna: ``2.0.0RC8``
-   :depends openssl: 
+   :depends openssl: ``>=1.1.0,<=1.1.1``
    :depends perl: 
    :depends rnacode: ``0.3``
    :depends rnaz: ``2.1.1``
