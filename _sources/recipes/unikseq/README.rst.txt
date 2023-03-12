@@ -27,11 +27,12 @@ unikseq
       
       
 
-      ``1.0.0-0``
+      ``1.3.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends links: ``1.8.7.*``
    :depends perl: 
    :requirements:
 
@@ -64,7 +65,7 @@ unikseq
 
     <script>
         var package = "unikseq";
-        var versions = ["1.0.0"];
+        var versions = ["1.3.1","1.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ calisp
       
       
 
-      ``3.0.10-0``
+      ``3.0.11-0``,  ``3.0.10-0``
 
       
 
@@ -70,7 +70,7 @@ calisp
 
     <script>
         var package = "calisp";
-        var versions = ["3.0.10"];
+        var versions = ["3.0.11","3.0.10"];
     </script>
 
 
