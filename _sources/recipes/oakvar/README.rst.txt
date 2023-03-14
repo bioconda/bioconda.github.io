@@ -30,7 +30,7 @@ oakvar
       
       
 
-      ``2.7.40-0``
+      ``2.8.28-0``,  ``2.7.40-0``
 
       
 
@@ -92,7 +92,7 @@ oakvar
 
     <script>
         var package = "oakvar";
-        var versions = ["2.7.40"];
+        var versions = ["2.8.28","2.7.40"];
     </script>
 
 

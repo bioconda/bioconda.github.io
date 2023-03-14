@@ -27,7 +27,7 @@ ncbi-datasets-pylib
       
       
 
-      ``14.15.0-0``,  ``14.13.0-0``
+      ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
 
       
 
@@ -70,7 +70,7 @@ ncbi-datasets-pylib
 
     <script>
         var package = "ncbi-datasets-pylib";
-        var versions = ["14.15.0","14.13.0"];
+        var versions = ["14.16.0","14.15.0","14.13.0"];
     </script>
 
 
