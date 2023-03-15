@@ -13,7 +13,7 @@ shortstack
    ShortStack\: Comprehensive annotation and quantification of small RNA genes
 
    :homepage: https://github.com/MikeAxtell/ShortStack
-   :license: GPL / GPL-3.0
+   :license: MIT / MIT
    :recipe: /`shortstack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shortstack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shortstack/meta.yaml>`_
 
    
@@ -27,14 +27,21 @@ shortstack
       
       
 
-      ``3.8.5-4``,  ``3.8.5-3``,  ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-1``,  ``3.6-0``
+      ``4.0.0-0``,  ``3.8.5-4``,  ``3.8.5-3``,  ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-1``,  ``3.6-0``
 
       
 
    
-   :depends bowtie: 
-   :depends perl: 
-   :depends samtools: ``>=1.10``
+   :depends bedtools: 
+   :depends biopython: 
+   :depends bowtie: ``>=1.3.1``
+   :depends cutadapt: 
+   :depends numpy: 
+   :depends python: ``>=3.10.8``
+   :depends samtools: ``>=1.16``
+   :depends shorttracks: 
+   :depends strucvis: 
+   :depends tqdm: 
    :depends viennarna: ``2.*``
    :requirements:
 
@@ -67,7 +74,7 @@ shortstack
 
     <script>
         var package = "shortstack";
-        var versions = ["3.8.5","3.8.5","3.8.5","3.8.5","3.8.5"];
+        var versions = ["4.0.0","3.8.5","3.8.5","3.8.5","3.8.5"];
     </script>
 
 

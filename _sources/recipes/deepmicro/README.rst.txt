@@ -27,11 +27,21 @@ deepmicro
       
       
 
-      
+      ``1.2-0``
 
       
 
    
+   :depends h5py: 
+   :depends keras: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends psutil: 
+   :depends python: ``3.10.*``
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends tensorflow: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +73,7 @@ deepmicro
 
     <script>
         var package = "deepmicro";
-        var versions = [];
+        var versions = ["1.2"];
     </script>
 
 

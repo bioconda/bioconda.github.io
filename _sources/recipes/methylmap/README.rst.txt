@@ -10,7 +10,7 @@ methylmap
    :replaces_section_title:
    :noindex:
 
-   Plotting tool for population scale nucleotide modifications
+   Plotting tool for population\-scale nucleotide modifications
 
    :homepage: https://github.com/EliseCoopman/methylmap
    :license: MIT / MIT
@@ -27,7 +27,7 @@ methylmap
       
       
 
-      ``0.3.4-0``,  ``0.2.3-0``
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``
 
       
 
@@ -69,7 +69,7 @@ methylmap
 
     <script>
         var package = "methylmap";
-        var versions = ["0.3.4","0.2.3"];
+        var versions = ["0.3.5","0.3.4","0.2.3"];
     </script>
 
 
