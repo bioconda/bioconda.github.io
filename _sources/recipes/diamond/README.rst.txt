@@ -13,9 +13,9 @@ diamond
    Accelerated BLAST compatible local sequence aligner
 
    :homepage: https://github.com/bbuchfink/diamond
-   :license: AGPL / AGPL-3.0
+   :license: GPL / GPL-3.0
    :recipe: /`diamond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diamond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diamond/meta.yaml>`_
-   :links: biotools: :biotools:`Diamond`, doi: :doi:`10.1038/nmeth.3176`
+   :links: biotools: :biotools:`Diamond`, doi: :doi:`10.1038/s41592-021-01101-x`
 
    
 
