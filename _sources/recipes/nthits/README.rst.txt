@@ -10,7 +10,7 @@ nthits
    :replaces_section_title:
    :noindex:
 
-   a method for identifying repeats in high\-throughput DNA sequencing data.
+   ntHits is a tool for efficiently counting and filtering k\-mers based on their frequencies
 
    :homepage: https://github.com/bcgsc/ntHits
    :license: MIT
