@@ -29,11 +29,21 @@ samestr
       
       
 
-      
+      ``1.2023.3-0``
 
       
 
    
+   :depends biopython: ``1.81``
+   :depends blast: ``>=2.6.0``
+   :depends mafft: ``7.515``
+   :depends muscle: ``3.8.1551``
+   :depends numpy: ``1.24.2``
+   :depends pandas: ``1.5.3``
+   :depends pysam: ``0.20.0``
+   :depends python: ``>=3.9``
+   :depends samtools: ``0.1.19``
+   :depends scipy: ``1.10.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +75,7 @@ samestr
 
     <script>
         var package = "samestr";
-        var versions = [];
+        var versions = ["1.2023.3"];
     </script>
 
 

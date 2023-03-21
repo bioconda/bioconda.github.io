@@ -28,7 +28,7 @@ viroconstrictor
       
       
 
-      ``1.2.5-0``,  ``1.2.4-0``
+      ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
 
@@ -77,7 +77,7 @@ viroconstrictor
 
     <script>
         var package = "viroconstrictor";
-        var versions = ["1.2.5","1.2.4"];
+        var versions = ["1.2.6","1.2.5","1.2.4"];
     </script>
 
 

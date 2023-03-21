@@ -33,13 +33,12 @@ macse
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``2.07-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
    :depends openjdk: ``>=1.5``
-   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +70,7 @@ macse
 
     <script>
         var package = "macse";
-        var versions = ["1.2","1.2"];
+        var versions = ["2.07","1.2","1.2"];
     </script>
 
 

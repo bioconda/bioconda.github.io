@@ -27,18 +27,24 @@ diapysef
       
       
 
-      ``0.3.5-1``,  ``0.3.5-0``
+      ``1.0.8-0``,  ``0.3.5-1``,  ``0.3.5-0``
 
       
 
    
+   :depends click: 
+   :depends joblib: 
    :depends matplotlib-base: 
+   :depends mesa-libgl-cos6-x86_64: 
    :depends numpy: 
+   :depends opencv: 
    :depends pandas: 
    :depends patsy: 
    :depends pyopenms: 
    :depends python: 
+   :depends seaborn: 
    :depends statsmodels: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +76,7 @@ diapysef
 
     <script>
         var package = "diapysef";
-        var versions = ["0.3.5","0.3.5"];
+        var versions = ["1.0.8","0.3.5","0.3.5"];
     </script>
 
 

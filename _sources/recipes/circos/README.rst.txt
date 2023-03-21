@@ -29,10 +29,10 @@ circos
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.69.8-1</code>,  <code>0.69.8-0</code>,  <code>0.69.6-5</code>,  <code>0.69.6-4</code>,  <code>0.69.6-2</code>,  <code>0.69.6-1</code>,  <code>0.69.6-0</code>,  <code>0.69.5-0</code>,  <code>0.69.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.69.9-0</code>,  <code>0.69.8-1</code>,  <code>0.69.8-0</code>,  <code>0.69.6-5</code>,  <code>0.69.6-4</code>,  <code>0.69.6-2</code>,  <code>0.69.6-1</code>,  <code>0.69.6-0</code>,  <code>0.69.5-0</code>,  </span></summary>
       
 
-      ``0.69.8-1``,  ``0.69.8-0``,  ``0.69.6-5``,  ``0.69.6-4``,  ``0.69.6-2``,  ``0.69.6-1``,  ``0.69.6-0``,  ``0.69.5-0``,  ``0.69.4-0``,  ``0.69.2-0``
+      ``0.69.9-0``,  ``0.69.8-1``,  ``0.69.8-0``,  ``0.69.6-5``,  ``0.69.6-4``,  ``0.69.6-2``,  ``0.69.6-1``,  ``0.69.6-0``,  ``0.69.5-0``,  ``0.69.4-0``,  ``0.69.2-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ circos
 
     <script>
         var package = "circos";
-        var versions = ["0.69.8","0.69.8","0.69.6","0.69.6","0.69.6"];
+        var versions = ["0.69.9","0.69.8","0.69.8","0.69.6","0.69.6"];
     </script>
 
 

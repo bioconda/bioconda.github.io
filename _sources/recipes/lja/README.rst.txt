@@ -27,11 +27,15 @@ lja
       
       
 
-      
+      ``0.2-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +67,7 @@ lja
 
     <script>
         var package = "lja";
-        var versions = [];
+        var versions = ["0.2"];
     </script>
 
 

@@ -27,11 +27,18 @@ pastrami
       
       
 
-      
+      ``0.9.5-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends numpy: 
+   :depends pandas: 
+   :depends pathos: 
+   :depends plink2: 
+   :depends python: ``>=3.8``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +70,7 @@ pastrami
 
     <script>
         var package = "pastrami";
-        var versions = [];
+        var versions = ["0.9.5"];
     </script>
 
 

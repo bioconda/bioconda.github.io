@@ -29,10 +29,10 @@ kraken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-7</code>,  <code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-0</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-8</code>,  <code>1.1.1-7</code>,  <code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-0</code>,  <code>1.1-2</code>,  </span></summary>
       
 
-      ``1.1.1-7``,  ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.10.6_eaf8fb68-4``,  ``0.10.6_eaf8fb68-3``,  ``0.10.6_eaf8fb68-2``,  ``0.10.6_eaf8fb68-1``,  ``0.10.6_eaf8fb68-0``,  ``0.10.5beta-2``,  ``0.10.5beta-0``
+      ``1.1.1-8``,  ``1.1.1-7``,  ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.10.6_eaf8fb68-4``,  ``0.10.6_eaf8fb68-3``,  ``0.10.6_eaf8fb68-2``,  ``0.10.6_eaf8fb68-1``,  ``0.10.6_eaf8fb68-0``,  ``0.10.5beta-2``,  ``0.10.5beta-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ kraken
 
    
    :depends kmer-jellyfish: ``1.*``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends rsync: 
    :depends tar: 

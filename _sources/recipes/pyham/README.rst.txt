@@ -27,11 +27,18 @@ pyham
       
       
 
-      
+      ``1.1.11-0``
 
       
 
    
+   :depends ete3: 
+   :depends future: 
+   :depends lxml: 
+   :depends numpy: 
+   :depends python: 
+   :depends requests: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +70,7 @@ pyham
 
     <script>
         var package = "pyham";
-        var versions = [];
+        var versions = ["1.1.11"];
     </script>
 
 

@@ -46,11 +46,20 @@ rrmscorer
       
       
 
-      
+      ``1.0.8-0``
 
       
 
    
+   :depends biopython: ``1.79``
+   :depends hmmer: 
+   :depends logomaker: ``0.8``
+   :depends matplotlib-base: 
+   :depends numpy: ``1.22.3``
+   :depends pandas: ``1.4.2``
+   :depends python: ``>=3.9``
+   :depends requests: ``2.28.2``
+   :depends scikit-learn: ``1.1.1``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +91,7 @@ rrmscorer
 
     <script>
         var package = "rrmscorer";
-        var versions = [];
+        var versions = ["1.0.8"];
     </script>
 
 

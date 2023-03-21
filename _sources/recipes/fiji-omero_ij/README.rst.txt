@@ -28,11 +28,12 @@ fiji-omero_ij
       
       
 
-      
+      ``5.8.0-0``
 
       
 
    
+   :depends fiji: ``>=20220414``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +65,7 @@ fiji-omero_ij
 
     <script>
         var package = "fiji-omero_ij";
-        var versions = [];
+        var versions = ["5.8.0"];
     </script>
 
 

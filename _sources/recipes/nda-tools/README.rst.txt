@@ -27,7 +27,7 @@ nda-tools
       
       
 
-      ``0.2.23-0``
+      ``0.2.24-0``,  ``0.2.23-0``
 
       
 
@@ -72,7 +72,7 @@ nda-tools
 
     <script>
         var package = "nda-tools";
-        var versions = ["0.2.23"];
+        var versions = ["0.2.24","0.2.23"];
     </script>
 
 

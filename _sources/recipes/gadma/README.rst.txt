@@ -27,9 +27,17 @@ gadma
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.0rc22-0``,  ``2.0.0rc21-0``,  ``2.0.0rc20-0``,  ``2.0.0rc19-0``,  ``2.0.0rc18-2``,  ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0rc23-0</code>,  <code>2.0.0rc22-0</code>,  <code>2.0.0rc21-0</code>,  <code>2.0.0rc20-0</code>,  <code>2.0.0rc19-0</code>,  <code>2.0.0rc18-2</code>,  <code>2.0.0rc18-1</code>,  <code>2.0.0rc18-0</code>,  <code>2.0.0rc17-0</code>,  </span></summary>
+      
 
+      ``2.0.0rc23-0``,  ``2.0.0rc22-0``,  ``2.0.0rc21-0``,  ``2.0.0rc20-0``,  ``2.0.0rc19-0``,  ``2.0.0rc18-2``,  ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -77,7 +85,7 @@ gadma
 
     <script>
         var package = "gadma";
-        var versions = ["2.0.0rc22","2.0.0rc21","2.0.0rc20","2.0.0rc19","2.0.0rc18"];
+        var versions = ["2.0.0rc23","2.0.0rc22","2.0.0rc21","2.0.0rc20","2.0.0rc19"];
     </script>
 
 

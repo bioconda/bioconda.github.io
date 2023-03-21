@@ -30,11 +30,22 @@ zarp
       
       
 
-      
+      ``0.1.1-0``
 
       
 
    
+   :depends addict: ``>=2.4.0``
+   :depends bidict: ``>=0.22.0``
+   :depends email-validator: ``>=1.2.1``
+   :depends jsonref: ``>=0.2``
+   :depends pandas: ``>=1.3.5``
+   :depends pydantic: ``>=1.9.2``
+   :depends pydantic-collections: ``>=0.3.0``
+   :depends pygments: ``>=2.8.0``
+   :depends python: ``>=3.7``
+   :depends rich: ``>=12.5.1``
+   :depends snakemake: ``>=7.19.1``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +77,7 @@ zarp
 
     <script>
         var package = "zarp";
-        var versions = [];
+        var versions = ["0.1.1"];
     </script>
 
 

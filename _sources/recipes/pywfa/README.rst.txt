@@ -27,11 +27,13 @@ pywfa
       
       
 
-      
+      ``0.4.1-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends python_abi: ``3.11.* *_cp311``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +65,7 @@ pywfa
 
     <script>
         var package = "pywfa";
-        var versions = [];
+        var versions = ["0.4.1"];
     </script>
 
 
