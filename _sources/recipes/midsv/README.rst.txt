@@ -28,10 +28,10 @@ midsv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.5-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.3.1-0``
+      ``0.9.5-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ midsv
 
     <script>
         var package = "midsv";
-        var versions = ["0.9.0","0.8.4","0.8.2","0.8.0","0.7.1"];
+        var versions = ["0.9.5","0.9.0","0.8.4","0.8.2","0.8.0"];
     </script>
 
 

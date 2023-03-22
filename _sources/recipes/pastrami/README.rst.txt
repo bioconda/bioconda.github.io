@@ -27,7 +27,7 @@ pastrami
       
       
 
-      ``0.9.5-0``
+      ``0.9.6-0``,  ``0.9.5-0``
 
       
 
@@ -70,7 +70,7 @@ pastrami
 
     <script>
         var package = "pastrami";
-        var versions = ["0.9.5"];
+        var versions = ["0.9.6","0.9.5"];
     </script>
 
 

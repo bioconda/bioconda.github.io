@@ -27,7 +27,7 @@ savana
       
       
 
-      ``0.2.1-0``
+      ``0.2.3-0``,  ``0.2.1-0``
 
       
 
@@ -66,7 +66,7 @@ savana
 
     <script>
         var package = "savana";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.3","0.2.1"];
     </script>
 
 

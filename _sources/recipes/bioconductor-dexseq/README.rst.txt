@@ -29,10 +29,10 @@ bioconductor-dexseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.28.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.1-1``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-3``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-2``,  ``1.20.1-1``,  ``1.20.1-0``,  ``1.18.4-1``,  ``1.16.6-0``
+      ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.1-1``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-3``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-2``,  ``1.20.1-1``,  ``1.20.1-0``,  ``1.18.4-1``,  ``1.16.6-0``
 
       
       .. raw:: html
@@ -54,6 +54,7 @@ bioconductor-dexseq
    :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
    :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends htseq: ``>=2.0.2,<2.1``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-hwriter: 
    :depends r-rcolorbrewer: 
@@ -90,7 +91,7 @@ bioconductor-dexseq
 
     <script>
         var package = "bioconductor-dexseq";
-        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.36.0"];
+        var versions = ["1.44.0","1.44.0","1.40.0","1.38.0","1.36.0"];
     </script>
 
 

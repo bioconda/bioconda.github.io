@@ -28,10 +28,10 @@ micom
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.32.2-0</code>,  <code>0.32.0-0</code>,  <code>0.31.4-0</code>,  <code>0.31.3-0</code>,  <code>0.30.5-0</code>,  <code>0.30.4-0</code>,  <code>0.29.6-0</code>,  <code>0.29.5-0</code>,  <code>0.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.32.4-0</code>,  <code>0.32.2-0</code>,  <code>0.32.0-0</code>,  <code>0.31.4-0</code>,  <code>0.31.3-0</code>,  <code>0.30.5-0</code>,  <code>0.30.4-0</code>,  <code>0.29.6-0</code>,  <code>0.29.5-0</code>,  </span></summary>
       
 
-      ``0.32.2-0``,  ``0.32.0-0``,  ``0.31.4-0``,  ``0.31.3-0``,  ``0.30.5-0``,  ``0.30.4-0``,  ``0.29.6-0``,  ``0.29.5-0``,  ``0.28.0-0``,  ``0.26.0-0``
+      ``0.32.4-0``,  ``0.32.2-0``,  ``0.32.0-0``,  ``0.31.4-0``,  ``0.31.3-0``,  ``0.30.5-0``,  ``0.30.4-0``,  ``0.29.6-0``,  ``0.29.5-0``,  ``0.28.0-0``,  ``0.26.0-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ micom
 
     <script>
         var package = "micom";
-        var versions = ["0.32.2","0.32.0","0.31.4","0.31.3","0.30.5"];
+        var versions = ["0.32.4","0.32.2","0.32.0","0.31.4","0.31.3"];
     </script>
 
 

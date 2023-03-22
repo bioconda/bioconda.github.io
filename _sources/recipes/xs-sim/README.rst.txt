@@ -30,12 +30,12 @@ xs-sim
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ xs-sim
 
     <script>
         var package = "xs-sim";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["2","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

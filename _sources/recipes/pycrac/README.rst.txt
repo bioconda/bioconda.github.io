@@ -27,7 +27,7 @@ pycrac
       
       
 
-      ``1.5.1-0``
+      ``1.5.2-0``,  ``1.5.1-0``
 
       
 
@@ -67,7 +67,7 @@ pycrac
 
     <script>
         var package = "pycrac";
-        var versions = ["1.5.1"];
+        var versions = ["1.5.2","1.5.1"];
     </script>
 
 

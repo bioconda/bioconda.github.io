@@ -13,7 +13,7 @@ guidemaker
    GuideMaker\: Software to design gRNAs pools in non\-model genomes and CRISPR\-Cas systems
 
    :homepage: https://github.com/USDA-ARS-GBRU/GuideMaker
-   :license: PUBLIC-DOMAIN / CC0 1.0
+   :license: PUBLIC-DOMAIN / CC0-1.0
    :recipe: /`guidemaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/guidemaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/guidemaker/meta.yaml>`_
    :links: biotools: :biotools:`GuideMaker`, doi: :doi:`10.5281/zenodo.4849258`
 
@@ -28,7 +28,7 @@ guidemaker
       
       
 
-      ``0.3.4-0``,  ``0.2.0-0``
+      ``0.3.6-0``,  ``0.3.4-0``,  ``0.2.0-0``
 
       
 
@@ -80,7 +80,7 @@ guidemaker
 
     <script>
         var package = "guidemaker";
-        var versions = ["0.3.4","0.2.0"];
+        var versions = ["0.3.6","0.3.4","0.2.0"];
     </script>
 
 
