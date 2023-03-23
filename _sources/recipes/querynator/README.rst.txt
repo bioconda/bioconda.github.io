@@ -31,7 +31,7 @@ querynator
       
       
 
-      ``0.2.1-0``,  ``0.1.3-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``
 
       
 
@@ -41,9 +41,9 @@ querynator
    :depends httplib2: 
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: ``>=0.20.0``
    :depends pytest: ``>=6.2.4``
    :depends python: 
+   :depends pyvcf3: ``>=1.0.3``
    :depends requests: 
    :depends requests-cache: 
    :depends sphinx: ``>=5.3.0``
@@ -79,7 +79,7 @@ querynator
 
     <script>
         var package = "querynator";
-        var versions = ["0.2.1","0.1.3"];
+        var versions = ["0.2.2","0.2.1","0.1.3"];
     </script>
 
 

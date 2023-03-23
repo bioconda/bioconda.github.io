@@ -27,13 +27,21 @@ riassigner
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.4-3</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+      
 
+      ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends matchms: ``>=0.9.1``
+   :depends matchms: ``>=0.14.0,<0.18.0``
    :depends numpy: 
    :depends pandas: 
    :depends pint: ``>=0.17,<0.20``
@@ -70,7 +78,7 @@ riassigner
 
     <script>
         var package = "riassigner";
-        var versions = ["0.3.4","0.3.4","0.3.4","0.3.3","0.3.3"];
+        var versions = ["0.3.4","0.3.4","0.3.4","0.3.4","0.3.3"];
     </script>
 
 

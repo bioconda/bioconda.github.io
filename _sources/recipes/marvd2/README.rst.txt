@@ -29,25 +29,25 @@ marvd2
       
       
 
-      ``0.11.3-0``,  ``0.11.2-0``
+      ``0.11.8-0``,  ``0.11.3-0``,  ``0.11.2-0``
 
       
 
    
-   :depends biopython: ``>=1.78,<=1.80``
-   :depends ete3: ``>=3.1.2,<=3.1.3``
-   :depends hmmer: ``>=3.2.1,<=3.3.2``
-   :depends joblib: ``>=1.0.1``
-   :depends matplotlib-base: ``>=3.3.4``
-   :depends mmseqs2: ``>=12.113e3``
-   :depends numpy: ``>=1.18.1,<2.0a0``
-   :depends pandas: ``>=1.2.3,<=1.4.3``
-   :depends prodigal: ``2.6.3.*``
-   :depends psutil: ``>=5.7.2,<=5.9.2``
+   :depends biopython: ``1.80``
+   :depends ete3: ``>=3.1.2``
+   :depends hmmer: ``>=3.3.2``
+   :depends joblib: ``>=1.2.0``
+   :depends matplotlib-base: ``>=3.4.3``
+   :depends mmseqs2: ``>=13.45111``
+   :depends numpy: ``>=1.23.5,<2.0a0``
+   :depends pandas: ``>=1.5.2``
+   :depends prodigal: ``2.6.3``
+   :depends psutil: ``>=5.9.4``
    :depends python: ``>=3.9,<3.10.0a0``
-   :depends scikit-learn: ``>=0.23.2``
-   :depends scipy: ``>=1.5.3,<1.9.1``
-   :depends swifter: ``>=1.0.6``
+   :depends scikit-learn: ``>=1.1.2``
+   :depends scipy: ``>=1.10.0``
+   :depends swifter: ``>=1.3.4``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ marvd2
 
     <script>
         var package = "marvd2";
-        var versions = ["0.11.3","0.11.2"];
+        var versions = ["0.11.8","0.11.3","0.11.2"];
     </script>
 
 
