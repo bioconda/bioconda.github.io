@@ -10,11 +10,10 @@ grampa
    :replaces_section_title:
    :noindex:
 
-   GRAMPA is a program to identify and place polyploidy events on a phylogeny and count duplications and losses in the presence of polyploidy.
+   GRAMPA is a program to identify and place polyploidy events on a phylogeny and to count duplications and losses in the presence of polyploidy.
 
-   :homepage: https://github.com/gwct/grampa
-   :documentation: https://gwct.github.io/grampa/
-   
+   :homepage: https://gwct.github.io/grampa/
+   :developer docs: https://github.com/gwct/grampa
    :license: GPL3 / GPL-3.0-only
    :recipe: /`grampa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grampa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grampa/meta.yaml>`_
 
@@ -29,7 +28,7 @@ grampa
       
       
 
-      ``1.3.1-0``
+      ``1.4.0-0``,  ``1.3.1-0``
 
       
 
@@ -66,7 +65,7 @@ grampa
 
     <script>
         var package = "grampa";
-        var versions = ["1.3.1"];
+        var versions = ["1.4.0","1.3.1"];
     </script>
 
 
