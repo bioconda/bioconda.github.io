@@ -27,9 +27,17 @@ r-recetox-aplcms
    :versions:
       
       
+      .. raw:: html
 
-      ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.4-1</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+      
 
+      ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -78,7 +86,7 @@ r-recetox-aplcms
 
     <script>
         var package = "r-recetox-aplcms";
-        var versions = ["0.10.2","0.10.1","0.10.1","0.10.0","0.9.4"];
+        var versions = ["0.10.3","0.10.2","0.10.1","0.10.1","0.10.0"];
     </script>
 
 
