@@ -27,7 +27,7 @@ deepmicro
       
       
 
-      ``1.2-0``
+      ``1.3-0``,  ``1.2-0``
 
       
 
@@ -73,7 +73,7 @@ deepmicro
 
     <script>
         var package = "deepmicro";
-        var versions = ["1.2"];
+        var versions = ["1.3","1.2"];
     </script>
 
 

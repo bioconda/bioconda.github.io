@@ -28,7 +28,7 @@ foldcomp
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -69,7 +69,7 @@ foldcomp
 
     <script>
         var package = "foldcomp";
-        var versions = ["0.0.3","0.0.2"];
+        var versions = ["0.0.4","0.0.3","0.0.2"];
     </script>
 
 
