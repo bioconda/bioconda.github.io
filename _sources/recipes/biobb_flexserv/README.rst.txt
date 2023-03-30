@@ -32,13 +32,14 @@ biobb_flexserv
       
       
 
-      ``3.9.1-0``
+      ``3.9.1-1``,  ``3.9.1-0``
 
       
 
    
    :depends biobb_common: ``3.9.0``
    :depends flexserv: ``1.0.2``
+   :depends pcasuite: ``1.0.0``
    :depends python: ``>=3.7,<3.10``
    :requirements:
 
@@ -71,7 +72,7 @@ biobb_flexserv
 
     <script>
         var package = "biobb_flexserv";
-        var versions = ["3.9.1"];
+        var versions = ["3.9.1","3.9.1"];
     </script>
 
 

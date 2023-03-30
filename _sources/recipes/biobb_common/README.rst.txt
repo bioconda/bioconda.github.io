@@ -13,6 +13,8 @@ biobb_common
    Biobb\_common is the base package required to use the biobb packages.
 
    :homepage: https://github.com/bioexcel/biobb_common
+   :documentation: https://biobb-common.readthedocs.io/en/latest/
+   
    :license: APACHE / Apache Software License
    :recipe: /`biobb_common <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_common>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_common/meta.yaml>`_
 
@@ -34,8 +36,8 @@ biobb_common
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2022 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2021 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2023 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2023 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -54,10 +56,10 @@ biobb_common
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``3.9.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -67,7 +69,7 @@ biobb_common
 
    
    :depends biopython: ``1.79``
-   :depends python: ``>=3.7,<3.10``
+   :depends python: ``>=3.7,<=3.10``
    :depends pyyaml: 
    :depends requests: 
    :requirements:
@@ -101,7 +103,7 @@ biobb_common
 
     <script>
         var package = "biobb_common";
-        var versions = ["3.9.0","3.8.1","3.7.0","3.6.0","3.6.0"];
+        var versions = ["4.0.0","3.9.0","3.8.1","3.7.0","3.6.0"];
     </script>
 
 

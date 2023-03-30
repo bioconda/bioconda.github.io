@@ -28,7 +28,7 @@ boquila
       
       
 
-      ``0.6.0-0``
+      ``0.6.1-0``,  ``0.6.0-0``
 
       
 
@@ -64,7 +64,7 @@ boquila
 
     <script>
         var package = "boquila";
-        var versions = ["0.6.0"];
+        var versions = ["0.6.1","0.6.0"];
     </script>
 
 
