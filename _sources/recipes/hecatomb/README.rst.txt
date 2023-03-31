@@ -10,7 +10,7 @@ hecatomb
    :replaces_section_title:
    :noindex:
 
-   Accurate classification of viral sequences from metagenome samples
+   Hecatomb\: and end\-to\-end platform for viral metagenomics
 
    :homepage: https://github.com/shandley/hecatomb
    :documentation: https://hecatomb.readthedocs.io/en/latest/
@@ -18,7 +18,9 @@ hecatomb
    :license: MIT
    :recipe: /`hecatomb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hecatomb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hecatomb/meta.yaml>`_
 
-   
+   Hecatomb accelerates viral metagenomics research by assembling contigs and accurately identifying viruses from a
+   range of sequencing data types.
+
 
 
 .. conda:package:: hecatomb
@@ -29,20 +31,17 @@ hecatomb
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
 
       
 
    
-   :depends click: ``>=8.0.4``
+   :depends click: ``>=8.1.3``
    :depends jinja2: ``>=3.0.2``
-   :depends mamba: ``>=0.19.0``
-   :depends networkx: ``>=2.6.3``
-   :depends pygments: ``>=2.10.0``
-   :depends pygraphviz: ``>=1.7``
-   :depends python: ``>=3.9``
-   :depends pyyaml: ``>=5.4.1``
-   :depends snakemake-minimal: ``>=6.10.0``
+   :depends mamba: ``>=0.15.3``
+   :depends python: ``>=3.8,<3.11``
+   :depends pyyaml: ``>=6.0``
+   :depends snakemake: ``>=7.14.0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +73,7 @@ hecatomb
 
     <script>
         var package = "hecatomb";
-        var versions = ["1.1.0","1.0.1","1.0.0.beta.5","1.0.0.beta.4","1.0.0.beta.3"];
+        var versions = ["1.2.0","1.1.0","1.0.1","1.0.0.beta.5","1.0.0.beta.4"];
     </script>
 
 

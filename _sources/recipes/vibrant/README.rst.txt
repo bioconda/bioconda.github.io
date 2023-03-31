@@ -29,10 +29,10 @@ vibrant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-4</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.1-2</code>,  </span></summary>
       
 
-      ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ vibrant
    
    :depends biopython: 
    :depends coreutils: 
+   :depends gzip: 
    :depends hmmer: ``>=3.2.1``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.17.0``
@@ -83,7 +84,7 @@ vibrant
 
     <script>
         var package = "vibrant";
-        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.2.0"];
+        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

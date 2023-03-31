@@ -27,7 +27,7 @@ gencove
       
       
 
-      ``2.4.5-0``,  ``2.4.3-0``
+      ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.3-0``
 
       
 
@@ -73,7 +73,7 @@ gencove
 
     <script>
         var package = "gencove";
-        var versions = ["2.4.5","2.4.3"];
+        var versions = ["2.4.6","2.4.5","2.4.3"];
     </script>
 
 

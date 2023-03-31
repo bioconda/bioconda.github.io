@@ -28,7 +28,7 @@ matam
       
       
 
-      ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.6.1-0``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
 
@@ -36,18 +36,18 @@ matam
    :depends bzip2: 
    :depends coreutils: 
    :depends krona: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends numpy: 
    :depends python: ``>=3``
    :depends rdptools: 
    :depends samtools: 
    :depends sga: 
-   :depends sortmerna: ``2.1b``
+   :depends sortmerna: ``2.1b.*``
    :depends vsearch: 
    :depends wget: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ matam
 
     <script>
         var package = "matam";
-        var versions = ["1.6.0","1.6.0","1.6.0","1.6.0"];
+        var versions = ["1.6.1","1.6.0","1.6.0","1.6.0","1.6.0"];
     </script>
 
 

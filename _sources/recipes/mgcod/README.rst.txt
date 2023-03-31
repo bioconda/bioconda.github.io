@@ -28,7 +28,7 @@ mgcod
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -70,7 +70,7 @@ mgcod
 
     <script>
         var package = "mgcod";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 
