@@ -10,13 +10,13 @@ slow5tools
    :replaces_section_title:
    :noindex:
 
-   Slow5tools is a toolkit for converting \(FAST5 \<\-\> SLOW5\)\, compressing\, viewing\, indexing and manipulating data in SLOW5 format.
+   Toolkit for S\/bLOW5 format
 
    :homepage: https://github.com/hasindu2008/slow5tools
    :license: MIT
    :recipe: /`slow5tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slow5tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slow5tools/meta.yaml>`_
 
-   
+   Slow5tools is a toolkit for converting \(FAST5 \<\-\> SLOW5\)\, compressing\, viewing\, indexing and manipulating data in SLOW5 format.
 
 
 .. conda:package:: slow5tools
@@ -28,10 +28,10 @@ slow5tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  </span></summary>
       
 
-      ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ slow5tools
    :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +76,7 @@ slow5tools
 
     <script>
         var package = "slow5tools";
-        var versions = ["0.6.0","0.6.0","0.6.0","0.5.1","0.5.1"];
+        var versions = ["1.0.0","0.9.0","0.8.0","0.7.0","0.6.0"];
     </script>
 
 
