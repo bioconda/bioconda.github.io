@@ -27,11 +27,12 @@ vgan
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ vgan
 
     <script>
         var package = "vgan";
-        var versions = ["1.0.2","1.0.1","1.0.0"];
+        var versions = ["2.0.0","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

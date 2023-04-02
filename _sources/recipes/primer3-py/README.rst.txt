@@ -10,10 +10,10 @@ primer3-py
    :replaces_section_title:
    :noindex:
 
-   Primer3\-py is a Python\-abstracted API for the popular Primer3 library.
+   Python bindings for Primer3
 
-   :homepage: https://libnano.github.io/primer3-py/
-   :license: GPLv2
+   :homepage: https://github.com/libnano/primer3-py
+   :license: GPL-2.0-only
    :recipe: /`primer3-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3-py/meta.yaml>`_
 
    
@@ -26,15 +26,23 @@ primer3-py
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.4-3</code>,  <code>0.5.4-2</code>,  <code>0.5.4-1</code>,  </span></summary>
+      
 
+      ``1.2.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libgcc-ng: ``>=12``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +74,7 @@ primer3-py
 
     <script>
         var package = "primer3-py";
-        var versions = ["0.6.1","0.6.1","0.6.0","0.6.0","0.6.0"];
+        var versions = ["1.2.0","0.6.1","0.6.1","0.6.0","0.6.0"];
     </script>
 
 

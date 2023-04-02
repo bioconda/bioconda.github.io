@@ -13,6 +13,8 @@ segmetrics
    A Python package implementing image segmentation and object detection performance measures\, for biomedical image analysis and beyond.
 
    :homepage: https://github.com/BMCV/segmetrics.py
+   :documentation: https://segmetrics.readthedocs.io
+   
    :license: MIT
    :recipe: /`segmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segmetrics/meta.yaml>`_
 
@@ -27,14 +29,14 @@ segmetrics
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.11.3-0``
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.11.3-0``
 
       
 
    
    :depends dill: 
    :depends numpy: ``>=1.18``
-   :depends python: 
+   :depends python: ``>=3.6,<3.11``
    :depends scikit-image: ``>=0.18``
    :depends scikit-learn: 
    :depends scipy: 
@@ -69,7 +71,7 @@ segmetrics
 
     <script>
         var package = "segmetrics";
-        var versions = ["1.2.2","1.2.1","1.2.0","1.0.0","0.11.3"];
+        var versions = ["1.2.3","1.2.2","1.2.1","1.2.0","1.0.0"];
     </script>
 
 
