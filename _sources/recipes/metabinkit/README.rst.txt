@@ -29,10 +29,10 @@ metabinkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-5</code>,  <code>0.2.2-4</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.3-0</code>,  <code>0.2.2-5</code>,  <code>0.2.2-4</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.2.2-5``,  ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``0.2.3-0``,  ``0.2.2-5``,  ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ metabinkit
 
     <script>
         var package = "metabinkit";
-        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.2"];
+        var versions = ["0.2.3","0.2.2","0.2.2","0.2.2","0.2.2"];
     </script>
 
 

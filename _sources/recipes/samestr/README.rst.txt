@@ -29,7 +29,7 @@ samestr
       
       
 
-      ``1.2023.3-0``
+      ``1.2023.4-0``,  ``1.2023.3-0``
 
       
 
@@ -75,7 +75,7 @@ samestr
 
     <script>
         var package = "samestr";
-        var versions = ["1.2023.3"];
+        var versions = ["1.2023.4","1.2023.3"];
     </script>
 
 
