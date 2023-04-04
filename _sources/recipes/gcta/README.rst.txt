@@ -12,8 +12,8 @@ gcta
 
    GCTA \(Genome\-wide Complex Trait Analysis\) estimates the proportion of phenotypic variance explained by all genome\-wide SNPs for complex traits.
 
-   :homepage: https://cnsgenomics.com/software/gcta/
-   :license: MIT
+   :homepage: https://yanglab.westlake.edu.cn/software/gcta
+   :license: GPL-3.0-only
    :recipe: /`gcta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcta/meta.yaml>`_
    :links: biotools: :biotools:`gcta`, doi: :doi:`10.1016/j.ajhg.2010.11.011`
 
@@ -28,7 +28,7 @@ gcta
       
       
 
-      ``1.93.2beta-1``,  ``1.93.2beta-0``
+      ``1.94.1-0``,  ``1.93.2beta-1``,  ``1.93.2beta-0``
 
       
 
@@ -64,7 +64,7 @@ gcta
 
     <script>
         var package = "gcta";
-        var versions = ["1.93.2beta","1.93.2beta"];
+        var versions = ["1.94.1","1.93.2beta","1.93.2beta"];
     </script>
 
 

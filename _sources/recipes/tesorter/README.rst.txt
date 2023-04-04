@@ -27,7 +27,7 @@ tesorter
       
       
 
-      ``1.3.0-0``,  ``1.2.5.2-0``
+      ``1.4.6-0``,  ``1.3.0-0``,  ``1.2.5.2-0``
 
       
 
@@ -38,6 +38,7 @@ tesorter
    :depends hmmer: 
    :depends pp: 
    :depends python: ``>=3``
+   :depends xopen: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ tesorter
 
     <script>
         var package = "tesorter";
-        var versions = ["1.3.0","1.2.5.2"];
+        var versions = ["1.4.6","1.3.0","1.2.5.2"];
     </script>
 
 

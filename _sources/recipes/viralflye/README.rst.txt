@@ -27,11 +27,28 @@ viralflye
       
       
 
-      
+      ``0.2-0``
 
       
 
    
+   :depends bcftools: 
+   :depends biopython: 
+   :depends blast: 
+   :depends bwa: 
+   :depends freebayes: 
+   :depends minced: 
+   :depends minimap2: 
+   :depends numpy: 
+   :depends prodigal: 
+   :depends pysam: 
+   :depends python: ``>=3.6``
+   :depends samtools: 
+   :depends scipy: 
+   :depends seqtk: 
+   :depends tabix: 
+   :depends vcflib: 
+   :depends viralverify: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +80,7 @@ viralflye
 
     <script>
         var package = "viralflye";
-        var versions = [];
+        var versions = ["0.2"];
     </script>
 
 

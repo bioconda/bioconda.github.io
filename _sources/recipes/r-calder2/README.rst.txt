@@ -27,7 +27,7 @@ r-calder2
       
       
 
-      ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.6-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -44,7 +44,7 @@ r-calder2
    :depends r-fields: ``>=9.8.3``
    :depends r-fitdistrplus: ``>=1.0.14``
    :depends r-ggplot2: ``>=3.3.5``
-   :depends r-igraph: ``>=1.2.4.1``
+   :depends r-igraph: ``>=1.2.4``
    :depends r-maptools: ``>=0.9.5``
    :depends r-matrix: ``>=1.2.17``
    :depends r-optparse: 
@@ -84,7 +84,7 @@ r-calder2
 
     <script>
         var package = "r-calder2";
-        var versions = ["0.3","0.3","0.2","0.1"];
+        var versions = ["0.6","0.3","0.3","0.2","0.1"];
     </script>
 
 
