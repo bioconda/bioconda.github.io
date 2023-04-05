@@ -27,7 +27,7 @@ diapysef
       
       
 
-      ``1.0.8-0``,  ``0.3.5-1``,  ``0.3.5-0``
+      ``1.0.10-0``,  ``1.0.8-0``,  ``0.3.5-1``,  ``0.3.5-0``
 
       
 
@@ -42,6 +42,7 @@ diapysef
    :depends patsy: 
    :depends pyopenms: 
    :depends python: 
+   :depends scikit-image: 
    :depends seaborn: 
    :depends statsmodels: 
    :depends tqdm: 
@@ -76,7 +77,7 @@ diapysef
 
     <script>
         var package = "diapysef";
-        var versions = ["1.0.8","0.3.5","0.3.5"];
+        var versions = ["1.0.10","1.0.8","0.3.5","0.3.5"];
     </script>
 
 

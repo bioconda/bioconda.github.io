@@ -28,7 +28,7 @@ fq
       
       
 
-      ``0.9.1-0``
+      ``0.10.0-0``,  ``0.9.1-0``
 
       
 
@@ -64,7 +64,7 @@ fq
 
     <script>
         var package = "fq";
-        var versions = ["0.9.1"];
+        var versions = ["0.10.0","0.9.1"];
     </script>
 
 

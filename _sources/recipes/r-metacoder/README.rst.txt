@@ -27,7 +27,7 @@ r-metacoder
       
       
 
-      ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.6-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
@@ -51,6 +51,7 @@ r-metacoder
    :depends r-readr: 
    :depends r-rlang: 
    :depends r-seqinr: 
+   :depends r-stringi: ``>=1.7.12``
    :depends r-stringr: 
    :depends r-taxize: 
    :depends r-tibble: 
@@ -86,7 +87,7 @@ r-metacoder
 
     <script>
         var package = "r-metacoder";
-        var versions = ["0.3.5","0.3.5","0.3.5","0.3.4","0.3.4"];
+        var versions = ["0.3.6","0.3.5","0.3.5","0.3.5","0.3.4"];
     </script>
 
 

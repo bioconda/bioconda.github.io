@@ -28,10 +28,10 @@ homer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.11-7</code>,  <code>4.11-6</code>,  <code>4.11-5</code>,  <code>4.11-4</code>,  <code>4.11-3</code>,  <code>4.11-2</code>,  <code>4.11-1</code>,  <code>4.11-0</code>,  <code>4.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.11-8</code>,  <code>4.11-7</code>,  <code>4.11-6</code>,  <code>4.11-5</code>,  <code>4.11-4</code>,  <code>4.11-3</code>,  <code>4.11-2</code>,  <code>4.11-1</code>,  <code>4.11-0</code>,  </span></summary>
       
 
-      ``4.11-7``,  ``4.11-6``,  ``4.11-5``,  ``4.11-4``,  ``4.11-3``,  ``4.11-2``,  ``4.11-1``,  ``4.11-0``,  ``4.10-0``,  ``4.9.1-6``,  ``4.9.1-5``,  ``4.9.1-4``,  ``4.9.1-3``,  ``4.9.1-2``,  ``4.9.1-1``,  ``4.9.1-0``,  ``4.8.3-3``,  ``4.8-1``
+      ``4.11-8``,  ``4.11-7``,  ``4.11-6``,  ``4.11-5``,  ``4.11-4``,  ``4.11-3``,  ``4.11-2``,  ``4.11-1``,  ``4.11-0``,  ``4.10-0``,  ``4.9.1-6``,  ``4.9.1-5``,  ``4.9.1-4``,  ``4.9.1-3``,  ``4.9.1-2``,  ``4.9.1-1``,  ``4.9.1-0``,  ``4.8.3-3``,  ``4.8-1``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ homer
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends perl: 
    :depends unzip: 
    :depends wget: 
    :requirements:

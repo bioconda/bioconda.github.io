@@ -12,7 +12,7 @@ simba
 
    SIMBA \- SIngle\-cell eMBedding Along with features
 
-   :homepage: https://github.com/pinellolab/simba
+   :homepage: https://github.com/huidongchen/simba
    :license: BSD / BSD-3
    :recipe: /`simba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simba/meta.yaml>`_
 
@@ -27,7 +27,7 @@ simba
       
       
 
-      ``1.1-0``,  ``1.0-0``,  ``0.1-0``,  ``0.1a-0``
+      ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.1-0``,  ``0.1a-0``
 
       
 
@@ -41,11 +41,11 @@ simba
    :depends pybedtools: ``>=0.8.0``
    :depends pytables: 
    :depends python: 
-   :depends scikit-learn: ``>=0.19``
+   :depends scikit-learn: ``>=1.2``
    :depends scikit-misc: ``>=0.1.3``
    :depends scipy: ``>=1.4``
    :depends seaborn: ``>=0.11``
-   :depends simba_pbg: ``>=1.1``
+   :depends simba_pbg: ``>=1.2``
    :depends umap-learn: ``>=0.3.0``
    :requirements:
 
@@ -78,7 +78,7 @@ simba
 
     <script>
         var package = "simba";
-        var versions = ["1.1","1.0","0.1","0.1a"];
+        var versions = ["1.2","1.1","1.0","0.1","0.1a"];
     </script>
 
 

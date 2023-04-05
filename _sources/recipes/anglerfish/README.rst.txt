@@ -27,7 +27,7 @@ anglerfish
       
       
 
-      ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.5.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -37,6 +37,7 @@ anglerfish
    :depends numpy: 
    :depends python: ``3.9.*``
    :depends python-levenshtein: 
+   :depends pyyaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +69,7 @@ anglerfish
 
     <script>
         var package = "anglerfish";
-        var versions = ["0.4.2","0.4.2","0.4.1"];
+        var versions = ["0.5.0","0.4.2","0.4.2","0.4.1"];
     </script>
 
 
