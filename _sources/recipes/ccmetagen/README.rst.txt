@@ -27,7 +27,7 @@ ccmetagen
       
       
 
-      ``1.4.0-0``,  ``1.2.5-0``
+      ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.5-0``
 
       
 
@@ -68,7 +68,7 @@ ccmetagen
 
     <script>
         var package = "ccmetagen";
-        var versions = ["1.4.0","1.2.5"];
+        var versions = ["1.4.1","1.4.0","1.2.5"];
     </script>
 
 
