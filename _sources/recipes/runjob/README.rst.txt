@@ -13,7 +13,7 @@ runjob
    Manage jobs or pipeline of bioinfomation.
 
    :homepage: https://github.com/yodeng/runjob
-   :license: BSD
+   :license: MIT
    :recipe: /`runjob <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/runjob>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/runjob/meta.yaml>`_
 
    Runjob is a program for managing a group of related bioinformatic jobs or pipelines running on a compute cluster.
@@ -27,15 +27,16 @@ runjob
       
       
 
-      ``2.10.3-0``,  ``2.10.2-0``
+      ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.2-0``
 
       
 
    
    :depends configparser: ``>=5.0.2``
+   :depends pip: 
    :depends prettytable: ``>=3.2.0``
    :depends psutil: ``>=5.7.0``
-   :depends python: 
+   :depends python: ``>=2.7.10,<3.11``
    :depends ratelimiter: ``>=1.2.0``
    :requirements:
 
@@ -68,7 +69,7 @@ runjob
 
     <script>
         var package = "runjob";
-        var versions = ["2.10.3","2.10.2"];
+        var versions = ["2.10.4","2.10.3","2.10.2"];
     </script>
 
 

@@ -29,7 +29,7 @@ mindagap
       
       
 
-      ``0.0.2-0``
+      ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -39,6 +39,7 @@ mindagap
    :depends mesa-libgl-cos7-x86_64: 
    :depends numpy: 
    :depends opencv: 
+   :depends pandas: 
    :depends procps-ng: 
    :depends py-opencv: 
    :depends python: ``3.9.13``
@@ -76,7 +77,7 @@ mindagap
 
     <script>
         var package = "mindagap";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.2","0.0.2"];
     </script>
 
 

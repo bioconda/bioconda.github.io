@@ -27,7 +27,7 @@ exomiser-rest-prioritiser
       
       
 
-      ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
+      ``13.2.0-0``,  ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
 
       
 
@@ -65,7 +65,7 @@ exomiser-rest-prioritiser
 
     <script>
         var package = "exomiser-rest-prioritiser";
-        var versions = ["12.1.0","12.1.0","12.1.0"];
+        var versions = ["13.2.0","12.1.0","12.1.0","12.1.0"];
     </script>
 
 

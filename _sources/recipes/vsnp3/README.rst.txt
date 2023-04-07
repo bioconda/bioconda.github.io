@@ -28,10 +28,10 @@ vsnp3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.11-0</code>,  <code>3.10-0</code>,  <code>3.09-0</code>,  <code>3.08-0</code>,  <code>3.07-0</code>,  <code>3.06-0</code>,  <code>3.05-0</code>,  <code>3.04-0</code>,  <code>3.02-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.12-0</code>,  <code>3.11-0</code>,  <code>3.10-0</code>,  <code>3.09-0</code>,  <code>3.08-0</code>,  <code>3.07-0</code>,  <code>3.06-0</code>,  <code>3.05-0</code>,  <code>3.04-0</code>,  </span></summary>
       
 
-      ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
+      ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.11","3.10","3.09","3.08","3.07"];
+        var versions = ["3.12","3.11","3.10","3.09","3.08"];
     </script>
 
 

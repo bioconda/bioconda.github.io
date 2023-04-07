@@ -1,0 +1,89 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'pyctv_taxonomy'
+.. highlight: bash
+
+pyctv_taxonomy
+==============
+
+.. conda:recipe:: pyctv_taxonomy
+   :replaces_section_title:
+   :noindex:
+
+   pyctv\_taxonomy\: download and use the ICTV Virus Metadata Resource
+
+   :homepage: https://github.com/linsalrob/pyctv
+   :license: MIT / MIT
+   :recipe: /`pyctv_taxonomy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyctv_taxonomy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyctv_taxonomy/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.7728567`
+
+   
+
+
+.. conda:package:: pyctv_taxonomy
+
+   |downloads_pyctv_taxonomy| |docker_pyctv_taxonomy|
+
+   :versions:
+      
+      
+
+      
+
+      
+
+   
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyctv_taxonomy
+
+   and update with::
+
+      conda update pyctv_taxonomy
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/pyctv_taxonomy:<tag>
+
+   (see `pyctv_taxonomy/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pyctv_taxonomy| image:: https://img.shields.io/conda/dn/bioconda/pyctv_taxonomy.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyctv_taxonomy
+   :alt:   (downloads)
+.. |docker_pyctv_taxonomy| image:: https://quay.io/repository/biocontainers/pyctv_taxonomy/status
+   :target: https://quay.io/repository/biocontainers/pyctv_taxonomy
+.. _`pyctv_taxonomy/tags`: https://quay.io/repository/biocontainers/pyctv_taxonomy?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "pyctv_taxonomy";
+        var versions = [];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyctv_taxonomy/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyctv_taxonomy/README.html

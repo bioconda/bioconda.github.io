@@ -27,11 +27,14 @@ evidencemodeler
       
       
 
-      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
+      ``2.1.0-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: 
    :depends perl-carp: 
    :depends perl-dbi: 
@@ -67,7 +70,7 @@ evidencemodeler
 
     <script>
         var package = "evidencemodeler";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","v1.1.1"];
+        var versions = ["2.1.0","1.1.1","1.1.1","1.1.1","1.1.1"];
     </script>
 
 
