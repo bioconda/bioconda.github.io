@@ -28,11 +28,14 @@ pyctv_taxonomy
       
       
 
-      
+      ``0.25-0``
 
       
 
    
+   :depends openpyxl: 
+   :depends python: ``>=3``
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +67,7 @@ pyctv_taxonomy
 
     <script>
         var package = "pyctv_taxonomy";
-        var versions = [];
+        var versions = ["0.25"];
     </script>
 
 

@@ -29,10 +29,10 @@ igdiscover
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.1-0</code>,  <code>0.14-0</code>,  <code>0.13-0</code>,  <code>0.12.3-1</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12-0</code>,  <code>0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.15.1-1</code>,  <code>0.15.1-0</code>,  <code>0.14-0</code>,  <code>0.13-0</code>,  <code>0.12.3-1</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12-0</code>,  </span></summary>
       
 
-      ``0.15.1-0``,  ``0.14-0``,  ``0.13-0``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12-0``,  ``0.11-0``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.9-1``,  ``0.9-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.5-1``,  ``0.4-1``,  ``0.3-1``
+      ``0.15.1-1``,  ``0.15.1-0``,  ``0.14-0``,  ``0.13-0``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12-0``,  ``0.11-0``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.9-1``,  ``0.9-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.5-1``,  ``0.4-1``,  ``0.3-1``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ igdiscover
    :depends python: ``>=3.6``
    :depends ruamel.yaml: ``0.16.*``
    :depends scipy: ``>=1.4.1``
-   :depends seaborn-base: ``0.11.*``
+   :depends seaborn-base: ``>=0.11.*``
    :depends snakemake-minimal: ``5.9.*``
    :depends tinyalign: ``>=0.2``
    :depends xopen: ``>=1.2.0``
@@ -88,7 +88,7 @@ igdiscover
 
     <script>
         var package = "igdiscover";
-        var versions = ["0.15.1","0.14","0.13","0.12.3","0.12.3"];
+        var versions = ["0.15.1","0.15.1","0.14","0.13","0.12.3"];
     </script>
 
 
