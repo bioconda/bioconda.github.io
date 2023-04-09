@@ -13,7 +13,7 @@ alfred
    BAM alignment statistics\, feature counting and feature annotation
 
    :homepage: https://github.com/tobiasrausch/alfred
-   :license: BSD / BSD License
+   :license: BSD / BSD-3-Clause
    :recipe: /`alfred <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alfred>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alfred/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ alfred
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.6-2</code>,  <code>0.2.6-1</code>,  <code>0.2.6-0</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.7-0</code>,  <code>0.2.6-2</code>,  <code>0.2.6-1</code>,  <code>0.2.6-0</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  </span></summary>
       
 
-      ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-2``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.13-0``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.5-4``,  ``0.1.5-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.3-4``,  ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``
+      ``0.2.7-0``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-2``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.13-0``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.5-4``,  ``0.1.5-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.3-4``,  ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ alfred
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends libdeflate: ``>=1.13,<1.14.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
@@ -78,7 +79,7 @@ alfred
 
     <script>
         var package = "alfred";
-        var versions = ["0.2.6","0.2.6","0.2.6","0.2.5","0.2.5"];
+        var versions = ["0.2.7","0.2.6","0.2.6","0.2.6","0.2.5"];
     </script>
 
 
