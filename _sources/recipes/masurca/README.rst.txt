@@ -10,10 +10,7 @@ masurca
    :replaces_section_title:
    :noindex:
 
-   MaSuRCA \(Maryland Super\-Read Celera Assembler\) genome assembly software.
-   MaSuRCA requires Illumina data\, and supports third\-generation PacBio\/Nanopore
-   MinION reads for hybrid assembly.
-
+   MaSuRCA \(Maryland Super\-Read Celera Assembler\) genome assembly software. MaSuRCA requires Illumina data\, and supports third\-generation PacBio\/Nanopore MinION reads for hybrid assembly.
 
    :homepage: http://masurca.blogspot.co.uk/
    :license: GPL / GPL-3.0-only

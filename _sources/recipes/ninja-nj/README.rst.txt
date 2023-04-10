@@ -27,13 +27,13 @@ ninja-nj
       
       
 
-      ``0.97-0``
+      ``0.98-0``,  ``0.97-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ ninja-nj
 
     <script>
         var package = "ninja-nj";
-        var versions = ["0.97"];
+        var versions = ["0.98","0.97"];
     </script>
 
 
