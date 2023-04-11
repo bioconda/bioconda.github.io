@@ -27,7 +27,7 @@ clair3-trio
       
       
 
-      ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.5-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -42,7 +42,7 @@ clair3-trio
    :depends pigz: ``2.4.*``
    :depends pypy3.6: 
    :depends pytables: ``3.6.1.*``
-   :depends python: ``3.6.10.*``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends samtools: ``1.10.*``
    :depends tensorflow: ``2.2.0.*``
    :depends whatshap: ``1.0.*``
@@ -79,7 +79,7 @@ clair3-trio
 
     <script>
         var package = "clair3-trio";
-        var versions = ["0.3","0.3","0.3","0.2","0.1"];
+        var versions = ["0.5","0.3","0.3","0.3","0.2"];
     </script>
 
 
