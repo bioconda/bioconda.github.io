@@ -18,7 +18,29 @@ biobb_gromacs
    :license: APACHE / Apache Software License
    :recipe: /`biobb_gromacs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_gromacs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_gromacs/meta.yaml>`_
 
-   biobb\_gromacs is the Biobb module collection to perform molecular dynamics simulationsusing the GROMACS MD suite. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layers of compatibility and interoperability over popular bioinformatics tools.
+   \# biobb\_gromacs
+
+   \#\#\# Introduction
+   Biobb\_gromacs is the Biobb module collection to perform molecular dynamics simulationsusing the GROMACS MD suite.
+   Biobb \(BioExcel building blocks\) packages are Python building blocks that
+   create new layer of compatibility and interoperability over popular
+   bioinformatics tools.
+   The latest documentation of this package can be found in our readthedocs site\:
+   \[latest API documentation\]\(http\:\/\/biobb\-gromacs.readthedocs.io\/en\/latest\/\).
+
+
+   \#\#\# Copyright \& Licensing
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+
+   \* \(c\) 2015\-2023 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2022 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   Licensed under the
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
+
+   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
+
+
+
 
 
 .. conda:package:: biobb_gromacs
@@ -29,14 +51,14 @@ biobb_gromacs
       
       
 
-      ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
 
    
-   :depends biobb_common: ``3.9.0``
+   :depends biobb_common: ``4.0.0``
    :depends gromacs: ``2022.2``
-   :depends python: ``>=3.7,<3.10``
+   :depends python: ``>=3.7,<=3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +90,7 @@ biobb_gromacs
 
     <script>
         var package = "biobb_gromacs";
-        var versions = ["4.0.0","3.9.0","3.8.1","3.8.0"];
+        var versions = ["4.0.0","4.0.0","3.9.0","3.8.1","3.8.0"];
     </script>
 
 

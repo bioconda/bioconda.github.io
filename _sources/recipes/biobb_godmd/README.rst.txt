@@ -16,8 +16,6 @@ biobb_godmd
    :license: APACHE / Apache Software License
    :recipe: /`biobb_godmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_godmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_godmd/meta.yaml>`_
 
-   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-godmd\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-godmd.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_godmd\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/docker\-Quay.io\-blue\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_godmd\?tab\=tags\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
-
    \# biobb\_godmd
 
    \#\#\# Introduction
@@ -32,8 +30,8 @@ biobb_godmd
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(https\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(https\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2022 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2022 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2023 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2023 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -51,14 +49,15 @@ biobb_godmd
       
       
 
-      ``3.8.1-0``,  ``3.8.0-0``
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
 
    
-   :depends biobb_common: ``3.8.1``
+   :depends biobb_common: ``4.0.0``
+   :depends emboss: 
    :depends godmd: ``1.0.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<=3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +89,7 @@ biobb_godmd
 
     <script>
         var package = "biobb_godmd";
-        var versions = ["3.8.1","3.8.0"];
+        var versions = ["4.0.0","4.0.0","3.8.1","3.8.0"];
     </script>
 
 

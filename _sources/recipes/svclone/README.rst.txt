@@ -10,17 +10,17 @@ svclone
    :replaces_section_title:
    :noindex:
 
+   Computational method for inferring cancer cell fraction of tumour SVs from WGS
+
+   :homepage: https://github.com/mcmero/SVclone
+   :license: BSD / BSD-3-Clause
+   :recipe: /`svclone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svclone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svclone/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-020-14351-8`
+
    A computational method for inferring the cancer cell
    fraction of tumour structural variation from whole\-genome
    sequencing data. 
 
-
-   :homepage: https://github.com/mcmero/SVclone
-   :license: BSD / BSD 3-clause
-   :recipe: /`svclone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svclone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svclone/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s41467-020-14351-8`
-
-   
 
 
 .. conda:package:: svclone

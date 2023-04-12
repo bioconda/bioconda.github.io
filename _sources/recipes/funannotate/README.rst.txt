@@ -30,10 +30,10 @@ funannotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.13-0</code>,  <code>1.8.11-0</code>,  <code>1.8.9-3</code>,  <code>1.8.9-2</code>,  <code>1.8.9-1</code>,  <code>1.8.9-0</code>,  <code>1.8.7-0</code>,  <code>1.8.5-1</code>,  <code>1.8.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.15-0</code>,  <code>1.8.13-0</code>,  <code>1.8.11-0</code>,  <code>1.8.9-3</code>,  <code>1.8.9-2</code>,  <code>1.8.9-1</code>,  <code>1.8.9-0</code>,  <code>1.8.7-0</code>,  <code>1.8.5-1</code>,  </span></summary>
       
 
-      ``1.8.13-0``,  ``1.8.11-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.8.15-0``,  ``1.8.13-0``,  ``1.8.11-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
       .. raw:: html
@@ -42,13 +42,13 @@ funannotate
       
 
    
-   :depends augustus: 
+   :depends augustus: ``3.5.0``
    :depends bamtools: 
    :depends bedtools: 
    :depends biopython: 
-   :depends blast: ``2.2.31``
+   :depends blast: 
    :depends codingquarry: 
-   :depends diamond: ``>=2.0.5``
+   :depends diamond: ``>=2.1.6``
    :depends distro: 
    :depends ete3: 
    :depends evidencemodeler: 
@@ -72,6 +72,7 @@ funannotate
    :depends perl-dbd-mysql: 
    :depends perl-hash-merge: 
    :depends perl-json: 
+   :depends perl-local-lib: 
    :depends perl-logger-simple: 
    :depends perl-math-utils: 
    :depends perl-mce: 
@@ -80,6 +81,7 @@ funannotate
    :depends perl-soap-lite: 
    :depends perl-text-soundex: 
    :depends phyml: 
+   :depends pigz: 
    :depends proteinortho: ``>=6.0.16``
    :depends psutil: 
    :depends python: ``>=3.6,<3.9``
@@ -131,7 +133,7 @@ funannotate
 
     <script>
         var package = "funannotate";
-        var versions = ["1.8.13","1.8.11","1.8.9","1.8.9","1.8.9"];
+        var versions = ["1.8.15","1.8.13","1.8.11","1.8.9","1.8.9"];
     </script>
 
 
