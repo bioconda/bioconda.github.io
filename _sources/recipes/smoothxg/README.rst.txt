@@ -28,10 +28,10 @@ smoothxg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.8-0</code>,  <code>0.6.7-1</code>,  <code>0.6.7-0</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.8-0</code>,  <code>0.6.7-1</code>,  <code>0.6.7-0</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.2-1</code>,  </span></summary>
       
 
-      ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ smoothxg
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libjemalloc: ``>=5.2.1``
+   :depends libjemalloc: ``>=5.3.0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends zstd: ``>=1.5.2,<1.6.0a0``
@@ -76,7 +76,7 @@ smoothxg
 
     <script>
         var package = "smoothxg";
-        var versions = ["0.6.8","0.6.7","0.6.7","0.6.5","0.6.5"];
+        var versions = ["0.7.0","0.6.8","0.6.7","0.6.7","0.6.5"];
     </script>
 
 

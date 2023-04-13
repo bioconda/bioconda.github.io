@@ -33,7 +33,7 @@ antismash-lite
       
       
 
-      ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
 
@@ -41,11 +41,11 @@ antismash-lite
    :depends bcbio-gff: 
    :depends biopython: ``1.78.*``
    :depends blast: 
-   :depends diamond: ``0.9.*``
+   :depends diamond: ``>=0.9,<=2.0.15``
    :depends fasttree: ``2.1.*``
    :depends glimmerhmm: ``3.0.*``
    :depends helperlibs: ``>=0.2.0``
-   :depends hmmer: ``3.1b2``
+   :depends hmmer: ``>=3.1b2``
    :depends hmmer2: 
    :depends jinja2: 
    :depends joblib: 
@@ -93,7 +93,7 @@ antismash-lite
 
     <script>
         var package = "antismash-lite";
-        var versions = ["6.1.1","6.1.0","6.0.1","6.0.1"];
+        var versions = ["6.1.1","6.1.1","6.1.0","6.0.1","6.0.1"];
     </script>
 
 

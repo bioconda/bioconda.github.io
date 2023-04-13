@@ -13,7 +13,7 @@ moods
    MOODS\, Motif Occurrence Detection Suite
 
    :homepage: https://github.com/jhkorhonen/MOODS
-   :license: GPL-3.0
+   :license: GPL / GPLv3
    :recipe: /`moods <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moods>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moods/meta.yaml>`_
    :links: biotools: :biotools:`MOODS`, doi: :doi:`10.1109/TCBB.2009.35`
 
@@ -28,15 +28,15 @@ moods
       
       
 
-      ``1.9.4.1-1``,  ``1.9.4.1-0``,  ``1.9.3-4``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.0-0``
+      ``1.9.4.1-2``,  ``1.9.4.1-1``,  ``1.9.4.1-0``,  ``1.9.3-4``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.0-0``
 
       
 
    
-   :depends libcxx: ``>=9.0.1``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends swig: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ moods
 
     <script>
         var package = "moods";
-        var versions = ["1.9.4.1","1.9.4.1","1.9.3","1.9.3","1.9.3"];
+        var versions = ["1.9.4.1","1.9.4.1","1.9.4.1","1.9.3","1.9.3"];
     </script>
 
 

@@ -30,10 +30,10 @@ funannotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.15-0</code>,  <code>1.8.13-0</code>,  <code>1.8.11-0</code>,  <code>1.8.9-3</code>,  <code>1.8.9-2</code>,  <code>1.8.9-1</code>,  <code>1.8.9-0</code>,  <code>1.8.7-0</code>,  <code>1.8.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.15-1</code>,  <code>1.8.15-0</code>,  <code>1.8.13-0</code>,  <code>1.8.11-0</code>,  <code>1.8.9-3</code>,  <code>1.8.9-2</code>,  <code>1.8.9-1</code>,  <code>1.8.9-0</code>,  <code>1.8.7-0</code>,  </span></summary>
       
 
-      ``1.8.15-0``,  ``1.8.13-0``,  ``1.8.11-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.8.15-1``,  ``1.8.15-0``,  ``1.8.13-0``,  ``1.8.11-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ funannotate
    :depends diamond: ``>=2.1.6``
    :depends distro: 
    :depends ete3: 
-   :depends evidencemodeler: 
+   :depends evidencemodeler: ``1.1.1``
    :depends exonerate: 
    :depends glimmerhmm: 
    :depends goatools: 
@@ -133,7 +133,7 @@ funannotate
 
     <script>
         var package = "funannotate";
-        var versions = ["1.8.15","1.8.13","1.8.11","1.8.9","1.8.9"];
+        var versions = ["1.8.15","1.8.15","1.8.13","1.8.11","1.8.9"];
     </script>
 
 

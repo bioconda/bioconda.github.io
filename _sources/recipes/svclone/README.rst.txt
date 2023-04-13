@@ -31,7 +31,7 @@ svclone
       
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``v1.1.0-0``
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``v1.1.0-0``
 
       
 
@@ -39,12 +39,11 @@ svclone
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3``
    :depends pyvcf: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-ccube: 
    :depends r-doparallel: 
-   :depends samtools: ``>=1.13``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +75,7 @@ svclone
 
     <script>
         var package = "svclone";
-        var versions = ["1.1.2","1.1.1","1.1.0","v1.1.0"];
+        var versions = ["1.1.2","1.1.2","1.1.1","1.1.0","v1.1.0"];
     </script>
 
 

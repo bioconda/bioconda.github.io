@@ -16,11 +16,28 @@ biobb_vs
    :license: APACHE / Apache Software License
    :recipe: /`biobb_vs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_vs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_vs/meta.yaml>`_
 
+   \# biobb\_vs
+
+   \#\#\# Introduction
    Biobb\_vs is the Biobb module collection to perform virtual screening studies.
    Biobb \(BioExcel building blocks\) packages are Python building blocks that
    create new layer of compatibility and interoperability over popular
-     bioinformatics tools.
-   The latest documentation of this package can be found in our readthedocs site\: http\:\/\/biobb\_vs.readthedocs.io\/en\/latest\/\).
+   bioinformatics tools.
+   The latest documentation of this package can be found in our readthedocs site\:
+   \[latest API documentation\]\(http\:\/\/biobb\-vs.readthedocs.io\/en\/latest\/\).
+
+
+   \#\#\# Copyright \& Licensing
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+
+   \* \(c\) 2015\-2023 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2023 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   Licensed under the
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
+
+   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
+
+
 
 
 
@@ -31,16 +48,24 @@ biobb_vs
    :versions:
       
       
+      .. raw:: html
 
-      ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  </span></summary>
+      
 
+      ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends autodock-vina: ``1.1.2``
-   :depends biobb_common: ``3.9.0``
+   :depends biobb_common: ``4.0.0``
    :depends fpocket: ``3.1.4.2``
    :depends python: ``>=3.7,<3.10``
+   :depends vina: ``1.2.3``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +97,7 @@ biobb_vs
 
     <script>
         var package = "biobb_vs";
-        var versions = ["4.0.0","3.9.0","3.8.1","3.8.0","3.7.1"];
+        var versions = ["4.0.0","4.0.0","4.0.0","3.9.0","3.8.1"];
     </script>
 
 

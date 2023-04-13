@@ -16,8 +16,6 @@ biobb_flexdyn
    :license: APACHE / Apache Software License
    :recipe: /`biobb_flexdyn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_flexdyn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_flexdyn/meta.yaml>`_
 
-   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-flexdyn\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-flexdyn.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_flexdyn\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/docker\-Quay.io\-blue\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_flexdyn\?tab\=tags\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
-
    \# biobb\_flexdyn
 
    \#\#\# Introduction
@@ -51,7 +49,7 @@ biobb_flexdyn
       
       
 
-      ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
+      ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
 
       
 
@@ -93,7 +91,7 @@ biobb_flexdyn
 
     <script>
         var package = "biobb_flexdyn";
-        var versions = ["4.0.0","3.9.0","3.9.0"];
+        var versions = ["4.0.1","4.0.0","3.9.0","3.9.0"];
     </script>
 
 
