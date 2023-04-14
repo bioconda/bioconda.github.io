@@ -27,7 +27,7 @@ annotsv
       
       
 
-      ``3.3.4-0``
+      ``3.3.4-1``,  ``3.3.4-0``
 
       
 
@@ -35,6 +35,7 @@ annotsv
    :depends bcftools: ``>=1.10``
    :depends bedtools: ``>=2.25``
    :depends coreutils: 
+   :depends curl: 
    :depends natsort: ``>=7.1.1``
    :depends openjdk: ``>=8``
    :depends pandas: ``>=1.5.2``
@@ -74,7 +75,7 @@ annotsv
 
     <script>
         var package = "annotsv";
-        var versions = ["3.3.4"];
+        var versions = ["3.3.4","3.3.4"];
     </script>
 
 

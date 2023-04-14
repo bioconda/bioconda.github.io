@@ -13,7 +13,7 @@ taxonkit
    A Cross\-platform and Efficient NCBI Taxonomy Toolkit
 
    :homepage: https://github.com/shenwei356/taxonkit
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`taxonkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonkit/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ taxonkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  </span></summary>
       
 
-      ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-1``,  ``0.2.5-1``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
+      ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-1``,  ``0.2.5-1``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -71,7 +71,7 @@ taxonkit
 
     <script>
         var package = "taxonkit";
-        var versions = ["0.14.1","0.14.0","0.13.0","0.12.0","0.11.1"];
+        var versions = ["0.14.2","0.14.1","0.14.0","0.13.0","0.12.0"];
     </script>
 
 
