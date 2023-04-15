@@ -27,7 +27,7 @@ annotsv
       
       
 
-      ``3.3.4-1``,  ``3.3.4-0``
+      ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
 
       
 
@@ -75,7 +75,7 @@ annotsv
 
     <script>
         var package = "annotsv";
-        var versions = ["3.3.4","3.3.4"];
+        var versions = ["3.3.5","3.3.4","3.3.4"];
     </script>
 
 

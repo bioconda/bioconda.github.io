@@ -16,8 +16,6 @@ biobb_ml
    :license: APACHE / Apache Software License
    :recipe: /`biobb_ml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_ml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_ml/meta.yaml>`_
 
-   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-ml\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-ml.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_ml\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/docker\-Quay.io\-blue\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_ml\) \[\!\[\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/singularity\-hub.org\/collections\/4574\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
-
    \# biobb\_ml
 
    \#\#\# Introduction
@@ -52,10 +50,10 @@ biobb_ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-2</code>,  <code>3.7.0-1</code>,  <code>3.7.0-0</code>,  <code>3.6.1-1</code>,  <code>3.6.1-0</code>,  <code>3.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-2</code>,  <code>3.7.0-1</code>,  <code>3.7.0-0</code>,  <code>3.6.1-1</code>,  <code>3.6.1-0</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.0-2``,  ``3.7.0-1``,  ``3.7.0-0``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.0-2``,  ``3.7.0-1``,  ``3.7.0-0``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -64,7 +62,7 @@ biobb_ml
       
 
    
-   :depends biobb_common: ``3.9.0``
+   :depends biobb_common: ``4.0.0``
    :depends h5py: ``2.10.0``
    :depends imbalanced-learn: ``0.7.0``
    :depends numpy: ``1.19.5``
@@ -104,7 +102,7 @@ biobb_ml
 
     <script>
         var package = "biobb_ml";
-        var versions = ["4.0.0","3.9.0","3.8.0","3.7.0","3.7.0"];
+        var versions = ["4.0.0","4.0.0","3.9.0","3.8.0","3.7.0"];
     </script>
 
 

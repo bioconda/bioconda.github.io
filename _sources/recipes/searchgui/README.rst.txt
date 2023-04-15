@@ -20,7 +20,6 @@ searchgui
    SearchGUI is a user\-friendly open\-source graphical user interface for configuring and running proteomics identification search engines\, currently supporting X\!Tandem\, MS\-GF\+\, MetaMorpheus\, MS Amanda\, MyriMatch\, Comet\, Tide\, Andromeda and OMSSA.
 
 
-
 .. conda:package:: searchgui
 
    |downloads_searchgui| |docker_searchgui|
@@ -30,10 +29,10 @@ searchgui
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.24-0</code>,  <code>4.0.41-1</code>,  <code>4.0.41-0</code>,  <code>4.0.33-0</code>,  <code>4.0.32-0</code>,  <code>4.0.25-2</code>,  <code>4.0.25-0</code>,  <code>4.0.22-1</code>,  <code>4.0.22-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.9-0</code>,  <code>4.1.24-0</code>,  <code>4.0.41-1</code>,  <code>4.0.41-0</code>,  <code>4.0.33-0</code>,  <code>4.0.32-0</code>,  <code>4.0.25-2</code>,  <code>4.0.25-0</code>,  <code>4.0.22-1</code>,  </span></summary>
       
 
-      ``4.1.24-0``,  ``4.0.41-1``,  ``4.0.41-0``,  ``4.0.33-0``,  ``4.0.32-0``,  ``4.0.25-2``,  ``4.0.25-0``,  ``4.0.22-1``,  ``4.0.22-0``,  ``4.0.12-0``,  ``4.0.7-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.1.alpha-0``,  ``3.3.10-0``,  ``3.3.9-1``,  ``3.3.9-0``,  ``3.3.6-1``,  ``3.3.5-1``,  ``3.3.3-1``,  ``3.3.1-1``,  ``3.3.1-0``,  ``3.2.26-0``,  ``3.2.24-0``,  ``3.2.20-0``,  ``3.2.13-1``,  ``3.2.13-0``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.8-1``,  ``3.2.8-0``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.1.4-2``,  ``3.1.4-1``,  ``3.1.4-0``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``
+      ``4.2.9-0``,  ``4.1.24-0``,  ``4.0.41-1``,  ``4.0.41-0``,  ``4.0.33-0``,  ``4.0.32-0``,  ``4.0.25-2``,  ``4.0.25-0``,  ``4.0.22-1``,  ``4.0.22-0``,  ``4.0.12-0``,  ``4.0.7-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.1.alpha-0``,  ``3.3.10-0``,  ``3.3.9-1``,  ``3.3.9-0``,  ``3.3.6-1``,  ``3.3.5-1``,  ``3.3.3-1``,  ``3.3.1-1``,  ``3.3.1-0``,  ``3.2.26-0``,  ``3.2.24-0``,  ``3.2.20-0``,  ``3.2.13-1``,  ``3.2.13-0``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.8-1``,  ``3.2.8-0``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.1.4-2``,  ``3.1.4-1``,  ``3.1.4-0``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``
 
       
       .. raw:: html
@@ -45,10 +44,9 @@ searchgui
    :depends blast: ``2.12.0``
    :depends fontconfig: 
    :depends fonts-conda-ecosystem: 
-   :depends libgcc-ng: ``>=12``
-   :depends metamorpheus: ``0.0.320``
+   :depends metamorpheus: ``1.0.2``
    :depends mono: ``>=6.0.0``
-   :depends openjdk: ``>=11``
+   :depends openjdk: ``>=17``
    :depends python: 
    :depends xtandem: ``15.12.15.2``
    :requirements:
@@ -82,7 +80,7 @@ searchgui
 
     <script>
         var package = "searchgui";
-        var versions = ["4.1.24","4.0.41","4.0.41","4.0.33","4.0.32"];
+        var versions = ["4.2.9","4.1.24","4.0.41","4.0.41","4.0.33"];
     </script>
 
 
@@ -91,13 +89,7 @@ searchgui
 
 Notes
 -----
-SearchGUI is Java program that comes with a custom wrapper shell script.
-This shell wrapper is called \"opsin\" and is on \$PATH by default. By default
-\"\-Xms512m \-Xmx4g\" is set in the wrapper. If you want to overwrite it you can
-specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
-set globally this will take precedence.
-For example run it with \"searchgui \-Xms512m \-Xmx8g\"
-
+SearchGUI is Java program that comes with a custom wrapper shell script. This shell wrapper is called \"opsin\" and is on \$PATH by default. By default \"\-Xms512m \-Xmx4g\" is set in the wrapper. If you want to overwrite it you can specify these values directly after your binaries. If you have \_JAVA\_OPTIONS set globally this will take precedence. For example run it with \"searchgui \-Xms512m \-Xmx8g\"
 
 
 Download stats

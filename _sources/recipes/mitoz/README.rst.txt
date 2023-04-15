@@ -27,7 +27,7 @@ mitoz
       
       
 
-      ``3.5-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``
+      ``3.6-0``,  ``3.5-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``
 
       
 
@@ -67,6 +67,7 @@ mitoz
    :depends seqkit: 
    :depends spades: ``>=3.15.4``
    :depends tbl2asn: 
+   :depends tiara: 
    :depends wise2: 
    :requirements:
 
@@ -99,7 +100,7 @@ mitoz
 
     <script>
         var package = "mitoz";
-        var versions = ["3.5","3.4","3.4","3.3","3.3"];
+        var versions = ["3.6","3.5","3.4","3.4","3.3"];
     </script>
 
 

@@ -27,12 +27,13 @@ hmftools-sv-prep
       
       
 
-      ``1.1-0``,  ``1.0.1-0``
+      ``1.1-1``,  ``1.1-0``,  ``1.0.1-0``
 
       
 
    
    :depends openjdk: ``>=8``
+   :depends samtools: 
    :depends zlib: 
    :requirements:
 
@@ -65,7 +66,7 @@ hmftools-sv-prep
 
     <script>
         var package = "hmftools-sv-prep";
-        var versions = ["1.1","1.0.1"];
+        var versions = ["1.1","1.1","1.0.1"];
     </script>
 
 
