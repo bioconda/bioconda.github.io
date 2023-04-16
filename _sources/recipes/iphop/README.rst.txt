@@ -27,28 +27,29 @@ iphop
       
       
 
-      ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: ``1.79.*``
-   :depends blast: ``2.12.0.*``
-   :depends click: ``8.0.1.*``
+   :depends blast: ``2.12.*``
+   :depends click: ``8.0.*``
    :depends crisper_recognition_tool: ``1.2.*``
-   :depends diamond: ``2.0.11.*``
+   :depends diamond: ``2.0.*``
    :depends hmmer: ``3.3.2.*``
-   :depends joblib: ``1.0.1.*``
-   :depends libstdcxx-ng: ``11.2.0.*``
-   :depends pandas: ``1.3.2.*``
+   :depends joblib: ``1.0.*``
+   :depends numpy: ``1.23.*``
+   :depends pandas: ``1.3.*``
    :depends perl: ``<6``
    :depends perl-bioperl: ``<=1.7``
    :depends piler-cr: ``1.06.*``
-   :depends prodigal: ``2.6.3.*``
+   :depends prodigal: ``2.6.*``
    :depends python: ``3.8.*``
-   :depends r-ranger: ``0.13.1.*``
+   :depends r-base: ``4.0.*``
+   :depends r-ranger: ``0.13.*``
    :depends scikit-learn: ``0.22.*``
-   :depends tensorflow: ``2.7.0.*``
+   :depends tensorflow: ``2.7.*``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +81,7 @@ iphop
 
     <script>
         var package = "iphop";
-        var versions = ["1.2.0","1.1.0","1.1.0","1.1.0","1.0.0"];
+        var versions = ["1.3.0","1.2.0","1.1.0","1.1.0","1.1.0"];
     </script>
 
 
