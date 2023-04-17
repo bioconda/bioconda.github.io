@@ -28,10 +28,10 @@ pyroe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ pyroe
    :depends bedtools: ``>=2.30.0``
    :depends biopython: ``>=1.77``
    :depends packaging: ``>=21.0``
-   :depends pandas: ``>=1.3.0``
+   :depends pandas: ``>=1.3.0,<2.0.0``
    :depends pyranges: ``>=0.0.120``
    :depends python: ``>=3.7``
    :depends scanpy: ``>=1.8.2``
@@ -78,7 +78,7 @@ pyroe
 
     <script>
         var package = "pyroe";
-        var versions = ["0.9.0","0.8.1","0.8.0","0.7.1","0.7.0"];
+        var versions = ["0.9.1","0.9.0","0.8.1","0.8.0","0.7.1"];
     </script>
 
 
