@@ -28,10 +28,10 @@ perl-datetime-locale
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  <code>1.12-5</code>,  <code>1.12-4</code>,  <code>1.12-3</code>,  <code>1.12-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  <code>1.12-5</code>,  <code>1.12-4</code>,  <code>1.12-3</code>,  </span></summary>
       
 
-      ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
+      ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
 
       
       .. raw:: html
@@ -43,11 +43,13 @@ perl-datetime-locale
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-dist-checkconflicts: 
+   :depends perl-cpan-meta-check: ``0.014.*``
+   :depends perl-dist-checkconflicts: ``0.11.*``
    :depends perl-file-sharedir: 
    :depends perl-namespace-autoclean: 
-   :depends perl-params-validationcompiler: ``0.30.*``
+   :depends perl-params-validationcompiler: ``0.31.*``
    :depends perl-specio: ``0.48.*``
+   :depends perl-test-warnings: ``0.031.*``
    :depends perl-test2-plugin-nowarnings: ``0.09.*``
    :requirements:
 
@@ -80,7 +82,7 @@ perl-datetime-locale
 
     <script>
         var package = "perl-datetime-locale";
-        var versions = ["1.37","1.36","1.35","1.34","1.33"];
+        var versions = ["1.38","1.37","1.36","1.35","1.34"];
     </script>
 
 

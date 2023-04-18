@@ -52,7 +52,7 @@ ffgc
       
       
 
-      ``2.4.1-0``
+      ``2.4.2-0``,  ``2.4.1-0``
 
       
 
@@ -97,7 +97,7 @@ ffgc
 
     <script>
         var package = "ffgc";
-        var versions = ["2.4.1"];
+        var versions = ["2.4.2","2.4.1"];
     </script>
 
 

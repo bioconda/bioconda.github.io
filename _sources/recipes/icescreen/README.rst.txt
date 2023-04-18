@@ -28,19 +28,27 @@ icescreen
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bcbio-gff: ``>=0.6.9``
-   :depends biopython: ``1.80.*``
+   :depends bcbio-gff: ``>=0.7.0``
+   :depends biopython: ``>=1.81``
    :depends blast: ``2.12.*``
    :depends hmmer: ``3.3.2.*``
-   :depends pandas: ``>=1.5.2``
-   :depends python: ``>=3.9``
-   :depends snakemake-minimal: ``>=7.18.2``
+   :depends pandas: ``>=2.0.0``
+   :depends python: 
+   :depends snakemake-minimal: ``>=7.25.0``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +80,7 @@ icescreen
 
     <script>
         var package = "icescreen";
-        var versions = ["1.1.1","1.1.0","1.0.4","1.0.4","1.0.3"];
+        var versions = ["1.2.0","1.1.1","1.1.0","1.0.4","1.0.4"];
     </script>
 
 
