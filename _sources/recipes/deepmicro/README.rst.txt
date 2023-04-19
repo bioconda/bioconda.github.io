@@ -27,13 +27,13 @@ deepmicro
       
       
 
-      ``1.3-0``,  ``1.2-0``
+      ``1.4-0``,  ``1.3-0``,  ``1.2-0``
 
       
 
    
    :depends h5py: 
-   :depends keras: 
+   :depends keras: ``>=2.3.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -73,7 +73,7 @@ deepmicro
 
     <script>
         var package = "deepmicro";
-        var versions = ["1.3","1.2"];
+        var versions = ["1.4","1.3","1.2"];
     </script>
 
 

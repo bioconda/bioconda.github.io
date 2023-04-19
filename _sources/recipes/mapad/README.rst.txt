@@ -27,7 +27,7 @@ mapad
       
       
 
-      ``0.41.0-0``
+      ``0.42.1-0``,  ``0.41.0-0``
 
       
 
@@ -65,7 +65,7 @@ mapad
 
     <script>
         var package = "mapad";
-        var versions = ["0.41.0"];
+        var versions = ["0.42.1","0.41.0"];
     </script>
 
 

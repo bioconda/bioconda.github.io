@@ -29,10 +29,10 @@ miniprot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.4-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11-0</code>,  <code>0.10-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.4-0</code>,  <code>0.3-0</code>,  </span></summary>
       
 
-      ``0.10-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.11-0``,  ``0.10-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ miniprot
 
     <script>
         var package = "miniprot";
-        var versions = ["0.10","0.9","0.8","0.7","0.6"];
+        var versions = ["0.11","0.10","0.9","0.8","0.7"];
     </script>
 
 

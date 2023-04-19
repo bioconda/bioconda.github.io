@@ -10,11 +10,12 @@ vrhyme
    :replaces_section_title:
    :noindex:
 
-   vRhyme functions by utilizing coverage variance comparisons and supervised machine learning classification of sequence features to construct viral metagenome\-assembled genomes \(vMAGs\).
+   Binning Virus Genomes from Metagenomes.
 
    :homepage: https://github.com/AnantharamanLab/vRhyme
-   :license: GPL-3.0 license
+   :license: GPL / GPL-3.0
    :recipe: /`vrhyme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vrhyme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vrhyme/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkac341`
 
    
 
@@ -27,7 +28,7 @@ vrhyme
       
       
 
-      ``1.1.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -76,7 +77,7 @@ vrhyme
 
     <script>
         var package = "vrhyme";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.0","1.1.0"];
     </script>
 
 

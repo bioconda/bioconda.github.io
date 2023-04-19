@@ -16,7 +16,7 @@ frogs
    :license: GNU GPL v3
    :recipe: /`frogs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs/meta.yaml>`_
 
-   FROGS produces an OTUs count matrix from high depth sequencing amplicon data. This is the official release 4.0.1 of FROGS. To fully install FROGS dependencies\, please refer to the frogs\-conda\-requirements.txt and frogsfunc\-conda\-requirements.txt available at https\:\/\/github.com\/geraldinepascal\/FROGS
+   FROGS produces an ASVs count matrix from high depth sequencing amplicon data. This is the official release 4.1.0 of FROGS. To fully install FROGS dependencies\, please refer to the frogs\-conda\-requirements.txt and frogsfunc\-conda\-requirements.txt available at https\:\/\/github.com\/geraldinepascal\/FROGS
 
 
 .. conda:package:: frogs
@@ -28,10 +28,10 @@ frogs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>2.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  </span></summary>
       
 
-      ``4.0.1-0``,  ``4.0.0-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ frogs
 
     <script>
         var package = "frogs";
-        var versions = ["4.0.1","4.0.0","3.2.3","3.2.2","3.2.1"];
+        var versions = ["4.1.0","4.0.1","4.0.0","3.2.3","3.2.2"];
     </script>
 
 
