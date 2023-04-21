@@ -28,10 +28,10 @@ ncbi-datasets-pylib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>14.22.1-0</code>,  <code>14.22.0-0</code>,  <code>14.21.0-0</code>,  <code>14.20.0-0</code>,  <code>14.19.0-0</code>,  <code>14.18.0-0</code>,  <code>14.17.0-0</code>,  <code>14.16.0-0</code>,  <code>14.15.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>14.23.0-0</code>,  <code>14.22.1-0</code>,  <code>14.22.0-0</code>,  <code>14.21.0-0</code>,  <code>14.20.0-0</code>,  <code>14.19.0-0</code>,  <code>14.18.0-0</code>,  <code>14.17.0-0</code>,  <code>14.16.0-0</code>,  </span></summary>
       
 
-      ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
+      ``14.23.0-0``,  ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ ncbi-datasets-pylib
 
     <script>
         var package = "ncbi-datasets-pylib";
-        var versions = ["14.22.1","14.22.0","14.21.0","14.20.0","14.19.0"];
+        var versions = ["14.23.0","14.22.1","14.22.0","14.21.0","14.20.0"];
     </script>
 
 

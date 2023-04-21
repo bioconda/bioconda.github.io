@@ -27,7 +27,7 @@ tyto
       
       
 
-      ``1.0b3-0``
+      ``1.4-0``,  ``1.0b3-0``
 
       
 
@@ -68,7 +68,7 @@ tyto
 
     <script>
         var package = "tyto";
-        var versions = ["1.0b3"];
+        var versions = ["1.4","1.0b3"];
     </script>
 
 

@@ -13,7 +13,7 @@ bpipe
    Bpipe \- a tool for running and managing bioinformatics pipelines
 
    :homepage: http://docs.bpipe.org/
-   :license: BSD-3-clause
+   :license: BSD-3-Clause
    :recipe: /`bpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/bts167`, biotools: :biotools:`bpipe`
 
@@ -28,13 +28,13 @@ bpipe
       
       
 
-      ``0.9.11-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9.9-0``,  ``0.9.9.8-0``,  ``0.9.9.7-0``,  ``0.9.9.2-0``
+      ``0.9.11-1``,  ``0.9.11-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9.9-0``,  ``0.9.9.8-0``,  ``0.9.9.7-0``,  ``0.9.9.2-0``
 
       
 
    
    :depends coreutils: 
-   :depends openjdk: 
+   :depends openjdk: ``11.*``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bpipe
 
     <script>
         var package = "bpipe";
-        var versions = ["0.9.11","0.9.10","0.9.10","0.9.9.9","0.9.9.8"];
+        var versions = ["0.9.11","0.9.11","0.9.10","0.9.10","0.9.9.9"];
     </script>
 
 

@@ -29,10 +29,10 @@ seq2science
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  </span></summary>
       
 
-      ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
+      ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
 
       
       .. raw:: html
@@ -41,23 +41,23 @@ seq2science
       
 
    
-   :depends argcomplete: ``2.0.0.*``
-   :depends biopython: ``1.79.*``
-   :depends conda: ``4.11.0.*``
+   :depends argcomplete: ``3.0.5.*``
+   :depends biopython: ``1.81.*``
+   :depends conda: ``23.1.0.*``
    :depends conda-ecosystem-user-package-isolation: ``1.0.*``
-   :depends filelock: ``3.7.1.*``
-   :depends genomepy: ``0.13.0.*``
-   :depends mamba: ``0.20.0.*``
-   :depends matplotlib-base: ``3.5.2.*``
-   :depends pandas: ``1.3.2.*``
+   :depends filelock: ``3.10.7.*``
+   :depends genomepy: ``0.15.0.*``
+   :depends mamba: ``1.2.0.*``
+   :depends matplotlib-base: ``3.7.1.*``
+   :depends pandas: ``1.5.3.*``
    :depends pandas_schema: ``0.3.5.*``
-   :depends pysradb: ``1.4.2.*``
-   :depends python: ``3.8.*``
+   :depends pysradb: ``2.0.1.*``
+   :depends python: ``3.10.*``
    :depends pyyaml: ``6.0.*``
-   :depends snakemake-minimal: ``7.18.2.*``
-   :depends tabulate: ``0.8.9.*``
+   :depends snakemake-minimal: ``7.25.0.*``
+   :depends tabulate: ``0.9.0.*``
    :depends trackhub: ``0.1.2019.12.24.*``
-   :depends xdg: ``5.1.1.*``
+   :depends xdg: ``6.0.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ seq2science
 
     <script>
         var package = "seq2science";
-        var versions = ["0.9.8","0.9.7","0.9.6","0.9.5","0.9.4"];
+        var versions = ["0.9.9","0.9.8","0.9.7","0.9.6","0.9.5"];
     </script>
 
 

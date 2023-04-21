@@ -10,13 +10,13 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
    :replaces_section_title:
    :noindex:
 
-   Full genome sequences for Homo sapiens \(UCSC version hg38\, based on GRCh38.p13\)
+   Full genomic sequences for Homo sapiens \(UCSC genome hg38\)
 
    :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38/meta.yaml>`_
 
-   Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg38\, based on GRCh38.p13\) and stored in Biostrings objects.
+   Full genomic sequences for Homo sapiens as provided by UCSC \(genome hg38\, based on assembly GRCh38.p14 since 2023\/01\/31\). The sequences are stored in DNAString objects.
 
 
 .. conda:package:: bioconductor-bsgenome.hsapiens.ucsc.hg38
@@ -28,10 +28,10 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.4-2</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.5-0</code>,  <code>1.4.4-2</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.1-8</code>,  </span></summary>
       
 
-      ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.4.5-0``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-data-packages: ``>=20221102``
-   :depends curl: 
+   :depends bioconductor-bsgenome: ``>=1.66.2,<1.67.0``
+   :depends bioconductor-data-packages: ``>=20230420``
+   :depends bioconductor-genomeinfodb: ``>=1.34.9,<1.35.0``
+   :depends curl: ``>=7.87.0,<8.0a0``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
@@ -75,7 +76,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ucsc.hg38";
-        var versions = ["1.4.4","1.4.4","1.4.4","1.4.3","1.4.3"];
+        var versions = ["1.4.5","1.4.4","1.4.4","1.4.4","1.4.3"];
     </script>
 
 

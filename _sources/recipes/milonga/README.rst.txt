@@ -13,7 +13,7 @@ milonga
    MiLongA \- A snakemake workflow for Microbial Long\-read Assembly
 
    :homepage: https://gitlab.com/bfr_bioinformatics/milonga
-   :license: BSD-3
+   :license: BSD-3-Clause
    :recipe: /`milonga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/milonga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/milonga/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ milonga
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -105,7 +105,7 @@ milonga
 
     <script>
         var package = "milonga";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.2","1.0.1"];
     </script>
 
 
