@@ -26,9 +26,17 @@ shortstack
    :versions:
       
       
+      .. raw:: html
 
-      ``4.0.0-0``,  ``3.8.5-4``,  ``3.8.5-3``,  ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-1``,  ``3.6-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.8.5-4</code>,  <code>3.8.5-3</code>,  <code>3.8.5-2</code>,  <code>3.8.5-1</code>,  <code>3.8.5-0</code>,  <code>3.8.3-0</code>,  <code>3.6-1</code>,  </span></summary>
+      
 
+      ``4.0.1-0``,  ``4.0.0-0``,  ``3.8.5-4``,  ``3.8.5-3``,  ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-1``,  ``3.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -74,7 +82,7 @@ shortstack
 
     <script>
         var package = "shortstack";
-        var versions = ["4.0.0","3.8.5","3.8.5","3.8.5","3.8.5"];
+        var versions = ["4.0.1","4.0.0","3.8.5","3.8.5","3.8.5"];
     </script>
 
 

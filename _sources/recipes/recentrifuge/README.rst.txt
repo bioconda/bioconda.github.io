@@ -13,7 +13,7 @@ recentrifuge
    Robust comparative analysis and contamination removal for metagenomics
 
    :homepage: https://github.com/khyox/recentrifuge
-   :license: GPLv3
+   :license: AGPLv3
    :recipe: /`recentrifuge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recentrifuge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recentrifuge/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ recentrifuge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.0-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.12.1-0</code>,  <code>1.10.0-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  </span></summary>
       
 
-      ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.29.0-0``,  ``0.28.14-0``,  ``0.28.13-0``
+      ``1.12.1-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.29.0-0``,  ``0.28.14-0``,  ``0.28.13-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ recentrifuge
       
 
    
-   :depends biopython: ``>=1.78``
-   :depends matplotlib-base: ``>=3.3.3``
-   :depends numpy: ``>=1.19.4``
-   :depends openpyxl: ``>=3.0.5``
-   :depends pandas: ``>=1.1.5``
+   :depends biopython: ``1.79.*``
+   :depends matplotlib-base: ``>=3.3.4``
+   :depends numpy: ``>=1.19.5``
+   :depends openpyxl: ``>=3.1``
+   :depends pandas: ``<2.0.0``
    :depends python: ``>=3``
    :requirements:
 
@@ -77,7 +77,7 @@ recentrifuge
 
     <script>
         var package = "recentrifuge";
-        var versions = ["1.10.0","1.9.1","1.9.0","1.8.1","1.8.0"];
+        var versions = ["1.12.1","1.10.0","1.9.1","1.9.0","1.8.1"];
     </script>
 
 
