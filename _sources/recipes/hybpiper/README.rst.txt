@@ -28,7 +28,7 @@ hybpiper
       
       
 
-      ``2.1.1-0``
+      ``2.1.3-0``,  ``2.1.1-0``
 
       
 
@@ -83,7 +83,7 @@ hybpiper
 
     <script>
         var package = "hybpiper";
-        var versions = ["2.1.1"];
+        var versions = ["2.1.3","2.1.1"];
     </script>
 
 

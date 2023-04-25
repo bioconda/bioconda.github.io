@@ -28,7 +28,7 @@ pybiolib
       
       
 
-      ``1.1.809-0``
+      ``1.1.814-0``,  ``1.1.809-0``
 
       
 
@@ -77,7 +77,7 @@ pybiolib
 
     <script>
         var package = "pybiolib";
-        var versions = ["1.1.809"];
+        var versions = ["1.1.814","1.1.809"];
     </script>
 
 

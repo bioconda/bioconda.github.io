@@ -12,7 +12,7 @@ epiweeks
 
    Epidemiological weeks calculation based on the US CDC \(MMWR\) and ISO week numbering systems
 
-   :homepage: https://github.com/mhalshehri/epiweeks
+   :homepage: https://github.com/dralshehri/epiweeks
    :license: MIT / MIT
    :recipe: /`epiweeks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epiweeks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epiweeks/meta.yaml>`_
 
@@ -27,12 +27,12 @@ epiweeks
       
       
 
-      ``2.1.4-0``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
+      ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
 
       
 
    
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ epiweeks
 
     <script>
         var package = "epiweeks";
-        var versions = ["2.1.4","2.1.3","2.1.3","2.1.3","2.1.2"];
+        var versions = ["2.2.0","2.1.4","2.1.3","2.1.3","2.1.3"];
     </script>
 
 
