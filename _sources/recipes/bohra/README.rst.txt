@@ -28,10 +28,10 @@ bohra
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.20-0</code>,  <code>1.2.19-1</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.16-0</code>,  <code>1.2.15-0</code>,  <code>1.2.14-0</code>,  <code>1.2.12-0</code>,  <code>1.2.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.2.20-0</code>,  <code>1.2.19-1</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.16-0</code>,  <code>1.2.15-0</code>,  <code>1.2.14-0</code>,  <code>1.2.12-0</code>,  </span></summary>
       
 
-      ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.24-0``,  ``1.0.23-0``,  ``1.0.22-0``,  ``1.0.20-1``,  ``1.0.20-0``,  ``1.0.19-0``
+      ``2.2.0-0``,  ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.24-0``,  ``1.0.23-0``,  ``1.0.22-0``,  ``1.0.20-1``,  ``1.0.20-0``,  ``1.0.19-0``
 
       
       .. raw:: html
@@ -40,32 +40,22 @@ bohra
       
 
    
-   :depends abritamr: ``>=0.2.2``
-   :depends biopython: ``>=1.70``
-   :depends iqtree: 
+   :depends any2fasta: 
+   :depends biopython: ``1.81.*``
+   :depends csvtk: 
    :depends jinja2: 
-   :depends kraken2: 
-   :depends mash: 
-   :depends mlst: ``>=2.19``
-   :depends numpy: ``>=1.18.1``
+   :depends nextflow: ``22.10.6.*``
+   :depends numpy: ``1.23.1.*``
    :depends packaging: 
-   :depends pandas: ``>=1.0``
-   :depends prokka: ``>=1.14.6``
+   :depends pandas: ``1.0.5.*``
+   :depends perl-list-moreutils: 
+   :depends perl-svg: 
+   :depends perl-text-csv: 
    :depends psutil: 
    :depends pytest: 
    :depends pytest-runner: 
-   :depends python: ``>=3.7``
-   :depends quicktree: 
-   :depends roary: 
-   :depends samtools: ``1.9``
-   :depends seqtk: 
+   :depends python: ``>=3.8``
    :depends sh: 
-   :depends shovill: ``>=1.0.9``
-   :depends snakemake: ``>=5.10``
-   :depends snippy: ``4.4.5``
-   :depends snp-dists: ``0.6.3``
-   :depends svgwrite: 
-   :depends toml: 
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +87,7 @@ bohra
 
     <script>
         var package = "bohra";
-        var versions = ["1.2.20","1.2.19","1.2.19","1.2.18","1.2.16"];
+        var versions = ["2.2.0","1.2.20","1.2.19","1.2.19","1.2.18"];
     </script>
 
 

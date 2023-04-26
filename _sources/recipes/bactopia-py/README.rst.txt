@@ -27,12 +27,13 @@ bactopia-py
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends executor: 
+   :depends nextflow: ``>=21.10.0``
    :depends pandas: ``>=1.5.3,<2.0.0``
    :depends pysradb: ``>=1.4,<2.0.0``
    :depends python: ``>=3.8``
@@ -70,7 +71,7 @@ bactopia-py
 
     <script>
         var package = "bactopia-py";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 
