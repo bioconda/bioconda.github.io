@@ -6,7 +6,7 @@
 vase
 ====
 
-.. conda:recipe:: vase/0.2.4
+.. conda:recipe:: vase/0.5.1
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ vase
 
    :homepage: https://github.com/david-a-parry/vase
    :license: MIT / MIT
-   :recipe: /`vase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vase>`_/`0.2.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vase/0.2.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vase/0.2.4/meta.yaml>`_
+   :recipe: /`vase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vase>`_/`0.5.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vase/0.5.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vase/0.5.1/meta.yaml>`_
 
    
 

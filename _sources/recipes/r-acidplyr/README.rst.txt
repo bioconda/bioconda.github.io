@@ -29,10 +29,10 @@ r-acidplyr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.8-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.3.8-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -41,17 +41,15 @@ r-acidplyr
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.42.0``
-   :depends bioconductor-iranges: ``>=2.30.1``
-   :depends bioconductor-s4vectors: ``>=0.34.0``
-   :depends r-acidcli: ``>=0.2.3``
-   :depends r-acidgenerics: ``>=0.6.4``
+   :depends bioconductor-biocgenerics: ``>=0.44.0``
+   :depends bioconductor-iranges: ``>=2.32.0``
+   :depends bioconductor-s4vectors: ``>=0.36.0``
+   :depends r-acidcli: ``>=0.2.7``
+   :depends r-acidgenerics: ``>=0.6.6``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-dplyr: ``>=1.0.9``
-   :depends r-goalie: ``>=0.6.4``
-   :depends r-pipette: ``>=0.10.0``
-   :depends r-purrr: ``>=0.3.4``
-   :depends r-tidyr: ``>=1.2.0``
+   :depends r-goalie: ``>=0.6.8``
+   :depends r-pipette: ``>=0.10.4``
+   :depends r-tidyr: ``>=1.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +81,7 @@ r-acidplyr
 
     <script>
         var package = "r-acidplyr";
-        var versions = ["0.3.7","0.3.7","0.3.6","0.3.5","0.3.4"];
+        var versions = ["0.3.8","0.3.7","0.3.7","0.3.6","0.3.5"];
     </script>
 
 
