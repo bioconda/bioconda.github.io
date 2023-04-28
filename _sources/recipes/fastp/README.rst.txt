@@ -41,7 +41,7 @@ fastp
 
    
    :depends isa-l: 
-   :depends libdeflate: ``>=1.13,<1.14.0a0``
+   :depends libdeflate: ``>=1.13,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:

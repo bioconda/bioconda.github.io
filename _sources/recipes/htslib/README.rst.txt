@@ -43,7 +43,7 @@ htslib
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libcurl: ``>=7.87.0,<8.0a0``
-   :depends libdeflate: ``>=1.13,<1.14.0a0``
+   :depends libdeflate: ``>=1.13,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends openssl: ``>=1.1.1t,<1.1.2a``

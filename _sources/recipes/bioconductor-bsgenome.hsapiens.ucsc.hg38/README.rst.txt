@@ -43,7 +43,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
    :depends bioconductor-bsgenome: ``>=1.66.2,<1.67.0``
    :depends bioconductor-data-packages: ``>=20230420``
    :depends bioconductor-genomeinfodb: ``>=1.34.9,<1.35.0``
-   :depends curl: ``>=7.87.0,<8.0a0``
+   :depends curl: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 

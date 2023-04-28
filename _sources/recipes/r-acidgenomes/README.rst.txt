@@ -29,10 +29,10 @@ r-acidgenomes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.3.0-0</code>,  <code>0.2.20-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.5.0-0``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -51,17 +51,17 @@ r-acidgenomes
    :depends bioconductor-genomicranges: ``>=1.50.0``
    :depends bioconductor-iranges: ``>=2.32.0``
    :depends bioconductor-s4vectors: ``>=0.36.0``
-   :depends r-acidbase: ``>=0.6.12``
+   :depends r-acidbase: ``>=0.6.15``
    :depends r-acidcli: ``>=0.2.7``
-   :depends r-acidgenerics: ``>=0.6.6``
-   :depends r-acidplyr: ``>=0.3.6``
+   :depends r-acidgenerics: ``>=0.6.7``
+   :depends r-acidplyr: ``>=0.3.9``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-goalie: ``>=0.6.8``
-   :depends r-pipette: ``>=0.10.3``
+   :depends r-goalie: ``>=0.6.9``
+   :depends r-pipette: ``>=0.10.9``
    :depends r-rcurl: ``>=1.98``
    :depends r-rvest: ``>=1.0.3``
    :depends r-stringi: ``>=1.7.12``
-   :depends r-syntactic: ``>=0.6.4``
+   :depends r-syntactic: ``>=0.6.5``
    :depends r-withr: ``>=2.5.0``
    :requirements:
 
@@ -94,7 +94,7 @@ r-acidgenomes
 
     <script>
         var package = "r-acidgenomes";
-        var versions = ["0.4.8","0.4.8","0.4.7","0.4.6","0.4.5"];
+        var versions = ["0.5.0","0.4.8","0.4.8","0.4.7","0.4.6"];
     </script>
 
 

@@ -42,7 +42,7 @@ staden_io_lib
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: ``>=7.83.1,<8.0a0``
-   :depends libdeflate: ``>=1.13,<1.14.0a0``
+   :depends libdeflate: ``>=1.13,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.12,<1.3.0a0``
    :depends xz: ``>=5.2.6,<5.3.0a0``

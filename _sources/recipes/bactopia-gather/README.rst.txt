@@ -29,7 +29,7 @@ bactopia-gather
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -44,7 +44,7 @@ bactopia-gather
    :depends mash: ``>=2.3``
    :depends ncbi-genome-download: ``>=0.3.1``
    :depends pigz: 
-   :depends python: ``>=3.6,<3.11``
+   :depends python: ``>=3.9,<3.11``
    :depends rename: 
    :depends sed: 
    :depends sra-tools: ``>=3.0.1``
@@ -79,7 +79,7 @@ bactopia-gather
 
     <script>
         var package = "bactopia-gather";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ pasa
 
    PASA\, acronym for Program to Assemble Spliced Alignments \(and pronounced \'pass\-uh\'\)\, is a eukaryotic genome annotation tool that exploits spliced alignments of expressed transcript sequences to automatically model gene structures\, and to maintain gene structure annotation consistent with the most recently available experimental sequence data. PASA also identifies and classifies all splicing variations supported by the transcript alignments.
 
-   :homepage: https://pasapipeline.github.io/
+   :homepage: https://github.com/PASApipeline/PASApipeline/wiki
    :license: BSD-3-Clause
    :recipe: /`pasa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa/meta.yaml>`_
    :links: doi: :doi:`10.1186/gb-2008-9-1-r7`
@@ -28,15 +28,14 @@ pasa
       
       
 
-      ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+      ``2.5.2-1``,  ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
 
       
 
    
-   :depends blat: 
    :depends cdbtools: 
    :depends fasta3: 
-   :depends gmap: ``2021.08.25``
+   :depends gmap: ``>=2023.03.24``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends lighttpd: 
@@ -44,13 +43,14 @@ pasa
    :depends pblat: 
    :depends perl: 
    :depends perl-cgi: 
-   :depends perl-db-file: 
+   :depends perl-db_file: 
    :depends perl-dbd-sqlite: 
    :depends perl-uri: 
    :depends r-base: 
    :depends samtools: 
    :depends slclust: 
-   :depends transdecoder: ``>=5.5.0``
+   :depends transdecoder: ``>=5.7.0``
+   :depends ucsc-blat: 
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ pasa
 
     <script>
         var package = "pasa";
-        var versions = ["2.5.2","2.4.1","2.4.1","2.3.3","2.3.3"];
+        var versions = ["2.5.2","2.5.2","2.4.1","2.4.1","2.3.3"];
     </script>
 
 
