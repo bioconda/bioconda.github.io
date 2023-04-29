@@ -27,7 +27,7 @@ milonga
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -105,7 +105,7 @@ milonga
 
     <script>
         var package = "milonga";
-        var versions = ["1.0.2","1.0.1"];
+        var versions = ["1.0.3","1.0.2","1.0.1"];
     </script>
 
 
