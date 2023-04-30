@@ -26,9 +26,17 @@ protgraph
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.8-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``,  ``0.0.2b3-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.2-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+      
 
+      ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``,  ``0.0.2b3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -79,7 +87,7 @@ protgraph
 
     <script>
         var package = "protgraph";
-        var versions = ["0.3.8","0.3.4","0.3.3","0.3.1","0.3.0"];
+        var versions = ["0.3.9","0.3.8","0.3.4","0.3.3","0.3.1"];
     </script>
 
 
