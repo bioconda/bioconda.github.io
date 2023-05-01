@@ -28,10 +28,10 @@ nf-core
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.2-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.6-1</code>,  <code>2.6-0</code>,  <code>2.5.1-0</code>,  <code>2.5-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.6-1</code>,  <code>2.6-0</code>,  <code>2.5.1-0</code>,  <code>2.5-0</code>,  <code>2.4.1-1</code>,  </span></summary>
       
 
-      ``2.7.2-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6-1``,  ``2.6-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.14-0``,  ``1.13.3-0``,  ``1.13.2-0``,  ``1.13.1-0``,  ``1.13-0``,  ``1.12.1-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
+      ``2.8-0``,  ``2.7.2-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6-1``,  ``2.6-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.14-0``,  ``1.13.3-0``,  ``1.13.2-0``,  ``1.13.1-0``,  ``1.13-0``,  ``1.12.1-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -53,14 +53,14 @@ nf-core
    :depends prompt_toolkit: ``>=3.0.3``
    :depends pytest: ``>=7.0.0``
    :depends pytest-workflow: ``>=1.6.0``
-   :depends python: 
+   :depends python: ``>=3.8``
    :depends pyyaml: 
    :depends questionary: ``>=1.8.0``
    :depends refgenie: 
    :depends requests: 
    :depends requests-cache: 
-   :depends rich: ``>=10.7.0``
-   :depends rich-click: ``>=1.0.0``
+   :depends rich: ``>=13.3.1``
+   :depends rich-click: ``>=1.6.1``
    :depends tabulate: 
    :requirements:
 
@@ -93,7 +93,7 @@ nf-core
 
     <script>
         var package = "nf-core";
-        var versions = ["2.7.2","2.7.1","2.7.1","2.6","2.6"];
+        var versions = ["2.8","2.7.2","2.7.1","2.7.1","2.6"];
     </script>
 
 

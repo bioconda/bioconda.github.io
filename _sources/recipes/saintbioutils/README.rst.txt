@@ -27,7 +27,7 @@ saintbioutils
       
       
 
-      ``0.0.24-0``,  ``0.0.23-0``
+      ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``
 
       
 
@@ -66,7 +66,7 @@ saintbioutils
 
     <script>
         var package = "saintbioutils";
-        var versions = ["0.0.24","0.0.23"];
+        var versions = ["0.0.25","0.0.24","0.0.23"];
     </script>
 
 
