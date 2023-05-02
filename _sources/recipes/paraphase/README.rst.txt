@@ -10,7 +10,7 @@ paraphase
    :replaces_section_title:
    :noindex:
 
-   SMN1\/SMN2 caller for PacBio HiFi Data
+   HiFi\-based caller for highly homologous genes
 
    :homepage: https://github.com/PacificBiosciences/paraphase
    :license: BSD-3-Clause-Clear
@@ -27,7 +27,7 @@ paraphase
       
       
 
-      ``2.1.0-0``,  ``2.0.0-0``,  ``1.1.3-0``
+      ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.1.3-0``
 
       
 
@@ -70,7 +70,7 @@ paraphase
 
     <script>
         var package = "paraphase";
-        var versions = ["2.1.0","2.0.0","1.1.3"];
+        var versions = ["2.2.2","2.2.1","2.1.0","2.0.0","1.1.3"];
     </script>
 
 
