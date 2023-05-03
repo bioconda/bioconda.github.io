@@ -10,10 +10,10 @@ telr
    :replaces_section_title:
    :noindex:
 
-   A a fast non\-reference transposable element \(TE\) detector from long read sequencing data \(PacBio or Oxford Nanopore\).
+   A a fast non\-reference transposable element \(TE\) detector from long read \(LR\) sequencing data \(PacBio or Oxford Nanopore\).
 
    :homepage: https://github.com/bergmanlab/telr
-   :license: BSD
+   :license: BSD-2-Clause
    :recipe: /`telr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/telr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/telr/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ telr
       
       
 
-      ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``1.1-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
@@ -80,7 +80,7 @@ telr
 
     <script>
         var package = "telr";
-        var versions = ["0.2","0.2","0.2"];
+        var versions = ["1.1","0.2","0.2","0.2"];
     </script>
 
 

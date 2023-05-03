@@ -27,7 +27,7 @@ cellsnake
       
       
 
-      ``0.2.0-0``,  ``0.2.0.dev9-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.2.0.dev9-0``
 
       
 
@@ -55,7 +55,7 @@ cellsnake
    :depends matplotlib-base: ``<3.7``
    :depends numba: ``>=0.56.4``
    :depends openblas: ``0.3.21``
-   :depends pandas: 
+   :depends pandas: ``<=1.5.3``
    :depends pandoc: 
    :depends plotly: 
    :depends pysam: ``>=0.16.0.1``
@@ -130,7 +130,7 @@ cellsnake
 
     <script>
         var package = "cellsnake";
-        var versions = ["0.2.0","0.2.0.dev9"];
+        var versions = ["0.2.0","0.2.0","0.2.0.dev9"];
     </script>
 
 

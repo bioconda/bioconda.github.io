@@ -28,12 +28,12 @@ hybran
       
       
 
-      ``1.5.2-1``,  ``1.5.2-0``
+      ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
 
       
 
    
-   :depends biopython: ``>=1.79``
+   :depends biopython: ``>=1.80``
    :depends blast: 
    :depends cd-hit: 
    :depends diamond: 
@@ -43,10 +43,8 @@ hybran
    :depends entrez-direct: 
    :depends mcl: 
    :depends multiprocess: 
-   :depends mummer: 
-   :depends prodigal: 
    :depends prokka: ``>=1.14``
-   :depends python: ``>=3``
+   :depends python: ``>=3.9``
    :depends ratt: 
    :depends tbl2asn-forever: 
    :requirements:
@@ -80,7 +78,7 @@ hybran
 
     <script>
         var package = "hybran";
-        var versions = ["1.5.2","1.5.2"];
+        var versions = ["1.6","1.5.2","1.5.2"];
     </script>
 
 

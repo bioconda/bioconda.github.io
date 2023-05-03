@@ -13,7 +13,7 @@ mosca
    MOSCA \- Meta\-Omics Software for Community Analysis
 
    :homepage: https://github.com/iquasere/MOSCA
-   :documentation: https://github.com/iquasere/MOSCA/blob/master/README.md
+   :documentation: https://github.com/iquasere/MOSCA/wiki
    
    :license: GPL / GNU General Public License v3 (GPL-3.0)
    :recipe: /`mosca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosca/meta.yaml>`_
@@ -42,10 +42,10 @@ mosca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``2.1.0-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -54,52 +54,8 @@ mosca
       
 
    
-   :depends bioconductor-deseq2: ``>=1.10.1``
-   :depends bioconductor-edger: ``>=3.14.0``
-   :depends bioconductor-pcamethods: ``1.82.0.*``
-   :depends bioconductor-rots: ``1.18.0.*``
-   :depends bioconductor-vsn: ``3.58.0.*``
-   :depends biopython: ``>=1.78``
-   :depends blast: ``>=2.5.0``
-   :depends bowtie2: ``2.3.*``
-   :depends checkm-genome: ``>=1.1.0``
-   :depends diamond: ``>=2.0.2``
-   :depends fastqc: ``>=0.11.9``
-   :depends fraggenescan: ``>=1.31``
-   :depends htseq: ``0.12.*``
-   :depends keggcharter: ``>=0.1.1``
-   :depends krona: ``>=2.7.1``
-   :depends lxml: ``>=4.6.1``
-   :depends maxbin2: ``>=2.2.7``
-   :depends maxquant: ``>=1.6.10``
-   :depends megahit: ``>=1.2.9``
-   :depends metaphlan: ``3.*``
-   :depends openpyxl: ``>=3.0.3``
-   :depends pandas: ``>=1.1.4``
-   :depends peptide-shaker: ``1.16.*``
-   :depends perl: 
-   :depends progressbar33: ``>=2.4``
-   :depends python: ``>=3.6``
-   :depends quast: ``>=5.0.2``
-   :depends r-optparse: 
-   :depends r-pheatmap: 
-   :depends r-rcolorbrewer: ``>=1.1.2``
-   :depends recognizer: ``>=1.4.0``
-   :depends reportlab: ``>=3.5.45``
-   :depends samtools: ``>=1.11``
-   :depends scikit-learn: ``>=0.23.1``
-   :depends searchgui: ``3.3.*``
-   :depends seqkit: ``>=0.13.2``
-   :depends seqtk: 
-   :depends snakemake: ``>=5.27.4``
-   :depends sortmerna: ``2.1b.*``
-   :depends spades: ``>=3.14.1``
-   :depends svn: ``>=1.9.7``
-   :depends tqdm: ``>=4.33.0``
-   :depends trimmomatic: ``>=0.39``
-   :depends upimapi: ``>=1.0.4``
-   :depends xlrd: ``1.2.*``
-   :depends xlsxwriter: ``>=1.3.7``
+   :depends python: ``>=3.9``
+   :depends snakemake: 
    :requirements:
 
    .. rubric:: Installation
@@ -131,7 +87,7 @@ mosca
 
     <script>
         var package = "mosca";
-        var versions = ["1.3.5","1.3.4","1.3.3","1.3.2","1.3.1"];
+        var versions = ["2.1.0","1.3.5","1.3.4","1.3.3","1.3.2"];
     </script>
 
 

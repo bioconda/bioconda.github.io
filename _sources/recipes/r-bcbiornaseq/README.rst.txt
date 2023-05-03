@@ -29,10 +29,10 @@ r-bcbiornaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.44-0</code>,  <code>0.3.42-0</code>,  <code>0.3.41-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.44-0</code>,  </span></summary>
       
 
-      ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.44-0``,  ``0.3.42-0``,  ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
+      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.44-0``,  ``0.3.42-0``,  ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -60,28 +60,28 @@ r-bcbiornaseq
    :depends bioconductor-summarizedexperiment: ``>=1.28.0``
    :depends bioconductor-tximport: ``>=1.26.0``
    :depends bioconductor-vsn: ``>=3.66.0``
-   :depends r-acidbase: ``>=0.6.8``
+   :depends r-acidbase: ``>=0.6.15``
    :depends r-acidcli: ``>=0.2.7``
-   :depends r-acidexperiment: ``>=0.4.4``
-   :depends r-acidgenerics: ``>=0.6.5``
-   :depends r-acidgenomes: ``>=0.4.5``
-   :depends r-acidgsea: ``>=0.8.6``
-   :depends r-acidplots: ``>=0.5.3``
+   :depends r-acidexperiment: ``>=0.4.7``
+   :depends r-acidgenerics: ``>=0.6.7``
+   :depends r-acidgenomes: ``>=0.5.0``
+   :depends r-acidgsea: ``>=0.8.8``
+   :depends r-acidplots: ``>=0.5.5``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-basejump: ``>=0.16.3``
+   :depends r-basejump: ``>=0.16.5``
    :depends r-bcbiobase: ``>=0.8.1``
-   :depends r-deseqanalysis: ``>=0.6.6``
+   :depends r-deseqanalysis: ``>=0.6.8``
    :depends r-ggnewscale: ``>=0.4.8``
-   :depends r-ggplot2: ``>=3.4.0``
+   :depends r-ggplot2: ``>=3.4.2``
    :depends r-goalie: ``>=0.6.8``
-   :depends r-hexbin: ``>=1.28.2``
+   :depends r-hexbin: ``>=1.28.3``
    :depends r-knitr: ``>=1.42``
    :depends r-pheatmap: ``>=1.0.12``
-   :depends r-pipette: ``>=0.10.2``
+   :depends r-pipette: ``>=0.10.9``
    :depends r-r.utils: ``>=2.12.2``
-   :depends r-rmarkdown: ``>=2.20``
+   :depends r-rmarkdown: ``>=2.21``
    :depends r-stringi: ``>=1.7.12``
-   :depends r-syntactic: ``>=0.6.4``
+   :depends r-syntactic: ``>=0.6.6``
    :depends r-viridis: ``>=0.6.2``
    :depends r-withr: ``>=2.5.0``
    :requirements:
@@ -115,7 +115,7 @@ r-bcbiornaseq
 
     <script>
         var package = "r-bcbiornaseq";
-        var versions = ["0.5.3","0.5.3","0.5.2","0.5.1","0.5.1"];
+        var versions = ["0.5.4","0.5.4","0.5.3","0.5.3","0.5.2"];
     </script>
 
 
