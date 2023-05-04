@@ -13,6 +13,9 @@ ncbi-datasets-pylib
    Easily gather data from across NCBI databases
 
    :homepage: https://www.ncbi.nlm.nih.gov/datasets
+   :documentation: https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
+   
+   :developer docs: https://github.com/ncbi/datasets
    :license: Unlicense
    :recipe: /`ncbi-datasets-pylib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-datasets-pylib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-datasets-pylib/meta.yaml>`_
 
@@ -28,10 +31,10 @@ ncbi-datasets-pylib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>14.25.1-0</code>,  <code>14.23.0-0</code>,  <code>14.22.1-0</code>,  <code>14.22.0-0</code>,  <code>14.21.0-0</code>,  <code>14.20.0-0</code>,  <code>14.19.0-0</code>,  <code>14.18.0-0</code>,  <code>14.17.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>14.26.0-0</code>,  <code>14.25.1-0</code>,  <code>14.23.0-0</code>,  <code>14.22.1-0</code>,  <code>14.22.0-0</code>,  <code>14.21.0-0</code>,  <code>14.20.0-0</code>,  <code>14.19.0-0</code>,  <code>14.18.0-0</code>,  </span></summary>
       
 
-      ``14.25.1-0``,  ``14.23.0-0``,  ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
+      ``14.26.0-0``,  ``14.25.1-0``,  ``14.23.0-0``,  ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
 
       
       .. raw:: html
@@ -41,12 +44,13 @@ ncbi-datasets-pylib
 
    
    :depends gffutils: ``0.10.*``
-   :depends jinja2: 
+   :depends jinja2: ``3.1.*``
    :depends jsonlines: ``3.0.*``
    :depends protobuf: ``3.20.*``
    :depends python: ``>=3.8``
-   :depends python-dateutil: 
-   :depends urllib3: 
+   :depends python-dateutil: ``2.8.*``
+   :depends setuptools: ``>=21.0.0``
+   :depends urllib3: ``1.26.*``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +82,7 @@ ncbi-datasets-pylib
 
     <script>
         var package = "ncbi-datasets-pylib";
-        var versions = ["14.25.1","14.23.0","14.22.1","14.22.0","14.21.0"];
+        var versions = ["14.26.0","14.25.1","14.23.0","14.22.1","14.22.0"];
     </script>
 
 
