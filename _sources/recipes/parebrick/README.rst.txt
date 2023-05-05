@@ -27,7 +27,7 @@ parebrick
       
       
 
-      ``0.4-0``,  ``0.3.7-0``
+      ``0.5.5-0``,  ``0.4-0``,  ``0.3.7-0``
 
       
 
@@ -69,7 +69,7 @@ parebrick
 
     <script>
         var package = "parebrick";
-        var versions = ["0.4","0.3.7"];
+        var versions = ["0.5.5","0.4","0.3.7"];
     </script>
 
 

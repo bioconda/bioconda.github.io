@@ -28,24 +28,24 @@ viroconstrictor
       
       
 
-      ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
+      ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
 
    
-   :depends aminoextract: ``0.2.1``
-   :depends biopython: ``1.79``
+   :depends aminoextract: ``>=0.2.1``
+   :depends biopython: ``>=1.79``
    :depends conda: 
    :depends drmaa: ``0.7.9``
-   :depends fpdf2: ``2.5.1``
+   :depends fpdf2: 
    :depends mamba: 
-   :depends openpyxl: ``3.0.9``
-   :depends pandas: ``1.4.2``
+   :depends openpyxl: 
+   :depends pandas: ``>=1.5.1``
    :depends python: ``>=3.10``
    :depends pyyaml: ``6.0``
    :depends rich: ``13.*``
    :depends snakemake: ``>=7.15.2``
-   :depends urllib3: ``>=1.26``
+   :depends urllib3: 
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ viroconstrictor
 
     <script>
         var package = "viroconstrictor";
-        var versions = ["1.2.6","1.2.5","1.2.4"];
+        var versions = ["1.3.0","1.2.6","1.2.5","1.2.4"];
     </script>
 
 

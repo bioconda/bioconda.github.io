@@ -27,16 +27,16 @@ evofr
       
       
 
-      ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
+      ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
 
       
 
    
-   :depends blackjax: ``>=0.9.6,<1``
-   :depends jax: ``>=0.3.13,<1``
-   :depends jaxlib: ``>=0.3.10,<1``
+   :depends blackjax: ``>=0.9.6,<0.10.0``
+   :depends jax: ``>=0.3.13,<0.4.0``
+   :depends jaxlib: ``>=0.3.10,<0.4.0``
    :depends numpy: ``>=1.22.4,<2``
-   :depends numpyro: ``>=0.9.2,<1``
+   :depends numpyro: ``>=0.9.2,<0.10.0``
    :depends pandas: ``>=1.4.2,<2``
    :depends python: ``>=3.9,<4``
    :requirements:
@@ -70,7 +70,7 @@ evofr
 
     <script>
         var package = "evofr";
-        var versions = ["0.1.18","0.1.17","0.1.16","0.1.15","0.1.14"];
+        var versions = ["0.1.18","0.1.18","0.1.17","0.1.16","0.1.15"];
     </script>
 
 

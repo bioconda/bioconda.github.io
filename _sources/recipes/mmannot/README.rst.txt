@@ -27,7 +27,7 @@ mmannot
       
       
 
-      ``1.0.3-0``
+      ``1.1-0``,  ``1.0.3-0``
 
       
 
@@ -66,7 +66,7 @@ mmannot
 
     <script>
         var package = "mmannot";
-        var versions = ["1.0.3"];
+        var versions = ["1.1","1.0.3"];
     </script>
 
 

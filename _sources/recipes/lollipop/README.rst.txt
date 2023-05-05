@@ -15,6 +15,7 @@ lollipop
    :homepage: https://github.com/cbg-ethz/LolliPop
    :license: GPL3 / GNU General Public License v3 or later (GPLv3+)
    :recipe: /`lollipop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lollipop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lollipop/meta.yaml>`_
+   :links: biotools: :biotools:`lollipop`, doi: :doi:`10.1101/2022.11.02.22281825`
 
    
 
@@ -27,18 +28,22 @@ lollipop
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends bcbio-gff: 
    :depends click: 
+   :depends click-option-group: 
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3``
-   :depends ruamel_yaml: 
+   :depends ruamel.yaml: 
    :depends scipy: 
+   :depends strictyaml: 
    :depends tqdm: 
+   :depends zstandard: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +75,7 @@ lollipop
 
     <script>
         var package = "lollipop";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.0"];
     </script>
 
 

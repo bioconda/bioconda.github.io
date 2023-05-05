@@ -10,7 +10,7 @@ ltr_retriever
    :replaces_section_title:
    :noindex:
 
-   Identification of LTR retrotransposons
+   Sensitive and accurate identification of LTR retrotransposons
 
    :homepage: https://github.com/oushujun/LTR_retriever
    :license: GPL / GPLv3
@@ -27,7 +27,7 @@ ltr_retriever
       
       
 
-      ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
+      ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
 
       
 
@@ -36,6 +36,7 @@ ltr_retriever
    :depends perl: 
    :depends perl-text-soundex: 
    :depends repeatmasker: 
+   :depends tesorter: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +68,7 @@ ltr_retriever
 
     <script>
         var package = "ltr_retriever";
-        var versions = ["2.9.0","2.9.0","2.8.7","2.8"];
+        var versions = ["2.9.0","2.9.0","2.9.0","2.8.7","2.8"];
     </script>
 
 
