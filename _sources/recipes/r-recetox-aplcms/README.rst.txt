@@ -29,10 +29,10 @@ r-recetox-aplcms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.4-1</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.3-2</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.4-1</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  </span></summary>
       
 
-      ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
+      ``0.10.3-2``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
 
       
       .. raw:: html
@@ -52,6 +52,7 @@ r-recetox-aplcms
    :depends r-rcpp: 
    :depends r-snow: 
    :depends r-splines2: 
+   :depends r-stringi: ``>=1.7.12``
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
@@ -86,7 +87,7 @@ r-recetox-aplcms
 
     <script>
         var package = "r-recetox-aplcms";
-        var versions = ["0.10.3","0.10.2","0.10.1","0.10.1","0.10.0"];
+        var versions = ["0.10.3","0.10.3","0.10.2","0.10.1","0.10.1"];
     </script>
 
 
