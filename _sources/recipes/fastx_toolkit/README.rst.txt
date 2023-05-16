@@ -45,10 +45,10 @@ fastx_toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.14-10</code>,  <code>0.0.14-9</code>,  <code>0.0.14-8</code>,  <code>0.0.14-7</code>,  <code>0.0.14-6</code>,  <code>0.0.14-5</code>,  <code>0.0.14-4</code>,  <code>0.0.14-3</code>,  <code>0.0.14-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.14-11</code>,  <code>0.0.14-10</code>,  <code>0.0.14-9</code>,  <code>0.0.14-8</code>,  <code>0.0.14-7</code>,  <code>0.0.14-6</code>,  <code>0.0.14-5</code>,  <code>0.0.14-4</code>,  <code>0.0.14-3</code>,  </span></summary>
       
 
-      ``0.0.14-10``,  ``0.0.14-9``,  ``0.0.14-8``,  ``0.0.14-7``,  ``0.0.14-6``,  ``0.0.14-5``,  ``0.0.14-4``,  ``0.0.14-3``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
+      ``0.0.14-11``,  ``0.0.14-10``,  ``0.0.14-9``,  ``0.0.14-8``,  ``0.0.14-7``,  ``0.0.14-6``,  ``0.0.14-5``,  ``0.0.14-4``,  ``0.0.14-3``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
 
       
       .. raw:: html

@@ -33,7 +33,8 @@ tmalign
       
 
    
-   :depends libgfortran: ``5.*``
+   :depends libgcc-ng: ``>=12``
+   :depends libgfortran-ng: 
    :depends libgfortran5: ``>=12.2.0``
    :requirements:
 

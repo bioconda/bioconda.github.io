@@ -26,9 +26,17 @@ gnu-wget
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18-8``,  ``1.18-7``,  ``1.18-6``,  ``1.18-5``,  ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
+         <details><summary><span class="truncated-version-list"><code>1.18-9</code>,  <code>1.18-8</code>,  <code>1.18-7</code>,  <code>1.18-6</code>,  <code>1.18-5</code>,  <code>1.18-4</code>,  <code>1.18-3</code>,  <code>1.18-2</code>,  <code>1.18-1</code>,  </span></summary>
+      
 
+      ``1.18-9``,  ``1.18-8``,  ``1.18-7``,  ``1.18-6``,  ``1.18-5``,  ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

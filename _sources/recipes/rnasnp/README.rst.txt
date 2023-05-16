@@ -27,9 +27,17 @@ rnasnp
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2-8``,  ``1.2-7``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.2-9</code>,  <code>1.2-8</code>,  <code>1.2-7</code>,  <code>1.2-6</code>,  <code>1.2-5</code>,  <code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  </span></summary>
+      
 
+      ``1.2-9``,  ``1.2-8``,  ``1.2-7``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

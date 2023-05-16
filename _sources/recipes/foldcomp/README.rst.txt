@@ -28,15 +28,15 @@ foldcomp
       
       
 
-      ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends llvm-openmp: ``>=15.0.7``
+   :depends llvm-openmp: ``>=16.0.3``
    :depends zlib: 
    :requirements:
 
@@ -69,7 +69,7 @@ foldcomp
 
     <script>
         var package = "foldcomp";
-        var versions = ["0.0.5","0.0.5","0.0.4","0.0.3","0.0.2"];
+        var versions = ["0.0.5","0.0.5","0.0.5","0.0.4","0.0.3"];
     </script>
 
 

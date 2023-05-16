@@ -28,7 +28,7 @@ mstmap
       
       
 
-      ``1-2``,  ``1-1``,  ``1-0``
+      ``1-3``,  ``1-2``,  ``1-1``,  ``1-0``
 
       
 
@@ -67,7 +67,7 @@ mstmap
 
     <script>
         var package = "mstmap";
-        var versions = ["1","1","1"];
+        var versions = ["1","1","1","1"];
     </script>
 
 

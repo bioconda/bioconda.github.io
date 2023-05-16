@@ -28,7 +28,7 @@ finestructure
       
       
 
-      ``2.1.3-6``,  ``2.1.3-5``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``
+      ``2.1.3-7``,  ``2.1.3-6``,  ``2.1.3-5``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``
 
       
 
@@ -40,7 +40,7 @@ finestructure
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends openblas: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

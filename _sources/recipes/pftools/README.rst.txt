@@ -27,22 +27,30 @@ pftools
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.12-2``,  ``3.2.12-1``,  ``3.2.12-0``,  ``3.2.11-2``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.12-3</code>,  <code>3.2.12-2</code>,  <code>3.2.12-1</code>,  <code>3.2.12-0</code>,  <code>3.2.11-2</code>,  <code>3.2.11-1</code>,  <code>3.2.11-0</code>,  <code>3.2.10-0</code>,  <code>2.3.5-1</code>,  </span></summary>
+      
 
+      ``3.2.12-3``,  ``3.2.12-2``,  ``3.2.12-1``,  ``3.2.12-0``,  ``3.2.11-2``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
+   :depends libgfortran5: ``>=12.2.0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends pcre2: ``>=10.37,<10.38.0a0``
+   :depends pcre2: ``>=10.40,<10.41.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-file-slurp: ``9999.32.*``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +82,7 @@ pftools
 
     <script>
         var package = "pftools";
-        var versions = ["3.2.12","3.2.12","3.2.12","3.2.11","3.2.11"];
+        var versions = ["3.2.12","3.2.12","3.2.12","3.2.12","3.2.11"];
     </script>
 
 

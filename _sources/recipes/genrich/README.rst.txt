@@ -27,14 +27,14 @@ genrich
       
       
 
-      ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6-0``,  ``0.5-0``
+      ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6-0``,  ``0.5-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ genrich
 
     <script>
         var package = "genrich";
-        var versions = ["0.6.1","0.6.1","0.6.1","0.6.1","0.6"];
+        var versions = ["0.6.1","0.6.1","0.6.1","0.6.1","0.6.1"];
     </script>
 
 

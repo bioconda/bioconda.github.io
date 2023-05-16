@@ -33,6 +33,7 @@ bicseq2-norm
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends perl: 
    :depends r-base: 
    :requirements:

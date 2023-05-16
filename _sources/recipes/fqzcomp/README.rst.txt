@@ -27,7 +27,7 @@ fqzcomp
       
       
 
-      ``4.6-4``,  ``4.6-3``,  ``4.6-2``,  ``4.6-1``,  ``4.6-0``
+      ``4.6-5``,  ``4.6-4``,  ``4.6-3``,  ``4.6-2``,  ``4.6-1``,  ``4.6-0``
 
       
 
@@ -35,7 +35,7 @@ fqzcomp
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

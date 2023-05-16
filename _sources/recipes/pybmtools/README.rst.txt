@@ -27,18 +27,18 @@ pybmtools
       
       
 
-      ``0.1.3-0``
+      ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
-   :depends libcurl: ``>=7.83.1,<8.0a0``
+   :depends libcurl: ``>=8.0.1,<9.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends numpy: ``>=1.21.6,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ pybmtools
 
     <script>
         var package = "pybmtools";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.3","0.1.3"];
     </script>
 
 

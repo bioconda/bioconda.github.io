@@ -27,13 +27,12 @@ divvier
       
       
 
-      ``1.01-3``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``
+      ``1.01-4``,  ``1.01-3``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
@@ -66,7 +65,7 @@ divvier
 
     <script>
         var package = "divvier";
-        var versions = ["1.01","1.01","1.01","1.01"];
+        var versions = ["1.01","1.01","1.01","1.01","1.01"];
     </script>
 
 

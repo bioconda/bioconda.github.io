@@ -28,10 +28,10 @@ rapmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-4</code>,  <code>0.6.0-3</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>v0.2.1-2</code>,  <code>v0.2.1-1</code>,  <code>v0.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-5</code>,  <code>0.6.0-4</code>,  <code>0.6.0-3</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>v0.2.1-2</code>,  <code>v0.2.1-1</code>,  </span></summary>
       
 
-      ``0.6.0-4``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-0``,  ``v0.2.1-2``,  ``v0.2.1-1``,  ``v0.2.0-1``,  ``v0.1.0pre-3``,  ``v0.1.0pre-2``,  ``v0.1.0pre-1``
+      ``0.6.0-5``,  ``0.6.0-4``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-0``,  ``v0.2.1-2``,  ``v0.2.1-1``,  ``v0.2.0-1``,  ``v0.1.0pre-3``,  ``v0.1.0pre-2``,  ``v0.1.0pre-1``
 
       
       .. raw:: html

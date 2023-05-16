@@ -27,7 +27,7 @@ porechop_abi
       
       
 
-      ``0.5.0-1``,  ``0.5.0-0``
+      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
@@ -71,7 +71,7 @@ porechop_abi
 
     <script>
         var package = "porechop_abi";
-        var versions = ["0.5.0","0.5.0"];
+        var versions = ["0.5.0","0.5.0","0.5.0"];
     </script>
 
 

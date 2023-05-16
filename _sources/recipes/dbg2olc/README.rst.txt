@@ -27,18 +27,18 @@ dbg2olc
       
       
 
-      ``20200723-1``,  ``20200723-0``,  ``20180222-3``,  ``20180222-2``,  ``20180222-1``,  ``20180222-0``,  ``20160205-1``,  ``20160205-0``
+      ``20200723-2``,  ``20200723-1``,  ``20200723-0``,  ``20180222-3``,  ``20180222-2``,  ``20180222-1``,  ``20180222-0``,  ``20160205-1``,  ``20160205-0``
 
       
 
    
    :depends assemblyutility: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends sparc: 
    :depends sparseassembler: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ dbg2olc
 
     <script>
         var package = "dbg2olc";
-        var versions = ["20200723","20200723","20180222","20180222","20180222"];
+        var versions = ["20200723","20200723","20200723","20180222","20180222"];
     </script>
 
 

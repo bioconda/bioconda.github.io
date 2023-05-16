@@ -27,7 +27,7 @@ contrafold
       
       
 
-      ``2.02-2``,  ``2.02-1``,  ``2.02-0``
+      ``2.02-3``,  ``2.02-2``,  ``2.02-1``,  ``2.02-0``
 
       
 
@@ -66,7 +66,7 @@ contrafold
 
     <script>
         var package = "contrafold";
-        var versions = ["2.02","2.02","2.02"];
+        var versions = ["2.02","2.02","2.02","2.02"];
     </script>
 
 

@@ -27,7 +27,7 @@ minirmd
       
       
 
-      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -35,7 +35,7 @@ minirmd
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ minirmd
 
     <script>
         var package = "minirmd";
-        var versions = ["1.1","1.1","1.1","1.1"];
+        var versions = ["1.1","1.1","1.1","1.1","1.1"];
     </script>
 
 

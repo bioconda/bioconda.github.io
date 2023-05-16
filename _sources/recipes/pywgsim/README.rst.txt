@@ -27,12 +27,11 @@ pywgsim
       
       
 
-      ``0.5.2-0``
+      ``0.5.2-1``,  ``0.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends plac: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -67,7 +66,7 @@ pywgsim
 
     <script>
         var package = "pywgsim";
-        var versions = ["0.5.2"];
+        var versions = ["0.5.2","0.5.2"];
     </script>
 
 

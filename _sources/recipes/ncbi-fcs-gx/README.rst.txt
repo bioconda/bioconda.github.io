@@ -27,7 +27,7 @@ ncbi-fcs-gx
       
       
 
-      ``0.4.0-1``,  ``0.4.0-0``
+      ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
 
@@ -66,7 +66,7 @@ ncbi-fcs-gx
 
     <script>
         var package = "ncbi-fcs-gx";
-        var versions = ["0.4.0","0.4.0"];
+        var versions = ["0.4.0","0.4.0","0.4.0"];
     </script>
 
 

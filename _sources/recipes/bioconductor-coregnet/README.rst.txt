@@ -41,6 +41,7 @@ bioconductor-coregnet
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-arules: 
    :depends r-base: ``>=4.2,<4.3.0a0``

@@ -27,7 +27,7 @@ idba_subasm
       
       
 
-      ``1.1.3a2-6``,  ``1.1.3a2-5``,  ``1.1.3a2-4``,  ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
+      ``1.1.3a2-7``,  ``1.1.3a2-6``,  ``1.1.3a2-5``,  ``1.1.3a2-4``,  ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
 
       
 
@@ -35,8 +35,8 @@ idba_subasm
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

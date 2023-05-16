@@ -29,10 +29,10 @@ selscan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0a-5</code>,  <code>1.2.0a-4</code>,  <code>1.2.0a-3</code>,  <code>1.2.0a-2</code>,  <code>1.2.0a-1</code>,  <code>1.2.0a-0</code>,  <code>1.1.0b-3</code>,  <code>1.1.0b-2</code>,  <code>1.1.0b-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0a-6</code>,  <code>1.2.0a-5</code>,  <code>1.2.0a-4</code>,  <code>1.2.0a-3</code>,  <code>1.2.0a-2</code>,  <code>1.2.0a-1</code>,  <code>1.2.0a-0</code>,  <code>1.1.0b-3</code>,  <code>1.1.0b-2</code>,  </span></summary>
       
 
-      ``1.2.0a-5``,  ``1.2.0a-4``,  ``1.2.0a-3``,  ``1.2.0a-2``,  ``1.2.0a-1``,  ``1.2.0a-0``,  ``1.1.0b-3``,  ``1.1.0b-2``,  ``1.1.0b-1``,  ``1.1.0b-0``
+      ``1.2.0a-6``,  ``1.2.0a-5``,  ``1.2.0a-4``,  ``1.2.0a-3``,  ``1.2.0a-2``,  ``1.2.0a-1``,  ``1.2.0a-0``,  ``1.1.0b-3``,  ``1.1.0b-2``,  ``1.1.0b-1``,  ``1.1.0b-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ selscan
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

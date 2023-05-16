@@ -27,16 +27,24 @@ moods
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.4.1-3``,  ``1.9.4.1-2``,  ``1.9.4.1-1``,  ``1.9.4.1-0``,  ``1.9.3-4``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.4.1-4</code>,  <code>1.9.4.1-3</code>,  <code>1.9.4.1-2</code>,  <code>1.9.4.1-1</code>,  <code>1.9.4.1-0</code>,  <code>1.9.3-4</code>,  <code>1.9.3-2</code>,  <code>1.9.3-1</code>,  <code>1.9.3-0</code>,  </span></summary>
+      
 
+      ``1.9.4.1-4``,  ``1.9.4.1-3``,  ``1.9.4.1-2``,  ``1.9.4.1-1``,  ``1.9.4.1-0``,  ``1.9.3-4``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ moods
 
     <script>
         var package = "moods";
-        var versions = ["1.9.4.1","1.9.4.1","1.9.4.1","1.9.4.1","1.9.3"];
+        var versions = ["1.9.4.1","1.9.4.1","1.9.4.1","1.9.4.1","1.9.4.1"];
     </script>
 
 

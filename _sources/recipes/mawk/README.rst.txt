@@ -32,6 +32,7 @@ mawk
       
 
    
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

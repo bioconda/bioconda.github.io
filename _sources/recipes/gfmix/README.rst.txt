@@ -27,14 +27,14 @@ gfmix
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
+   :depends libgfortran5: ``>=12.2.0``
    :depends libiconv: 
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: 
@@ -70,7 +70,7 @@ gfmix
 
     <script>
         var package = "gfmix";
-        var versions = ["1.0.2","1.0.2"];
+        var versions = ["1.0.2","1.0.2","1.0.2"];
     </script>
 
 

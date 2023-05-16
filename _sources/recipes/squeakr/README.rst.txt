@@ -27,20 +27,20 @@ squeakr
       
       
 
-      ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
+      ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
 
       
 
    
-   :depends boost: ``>=1.74.0,<1.74.1.0a0``
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=1.1.1t,<1.1.2a``
+   :depends openssl: ``>=3.1.0,<4.0a0``
    :depends pthread-stubs: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

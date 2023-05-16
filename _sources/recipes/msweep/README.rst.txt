@@ -28,7 +28,7 @@ msweep
       
       
 
-      ``1.6.3-1``,  ``1.6.3-0``
+      ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``
 
       
 
@@ -38,7 +38,7 @@ msweep
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ msweep
 
     <script>
         var package = "msweep";
-        var versions = ["1.6.3","1.6.3"];
+        var versions = ["1.6.3","1.6.3","1.6.3"];
     </script>
 
 

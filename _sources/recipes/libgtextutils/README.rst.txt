@@ -28,10 +28,10 @@ libgtextutils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7-10</code>,  <code>0.7-9</code>,  <code>0.7-8</code>,  <code>0.7-7</code>,  <code>0.7-6</code>,  <code>0.7-5</code>,  <code>0.7-4</code>,  <code>0.7-3</code>,  <code>0.7-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7-11</code>,  <code>0.7-10</code>,  <code>0.7-9</code>,  <code>0.7-8</code>,  <code>0.7-7</code>,  <code>0.7-6</code>,  <code>0.7-5</code>,  <code>0.7-4</code>,  <code>0.7-3</code>,  </span></summary>
       
 
-      ``0.7-10``,  ``0.7-9``,  ``0.7-8``,  ``0.7-7``,  ``0.7-6``,  ``0.7-5``,  ``0.7-4``,  ``0.7-3``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``
+      ``0.7-11``,  ``0.7-10``,  ``0.7-9``,  ``0.7-8``,  ``0.7-7``,  ``0.7-6``,  ``0.7-5``,  ``0.7-4``,  ``0.7-3``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``
 
       
       .. raw:: html

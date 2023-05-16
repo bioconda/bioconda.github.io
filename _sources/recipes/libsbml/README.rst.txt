@@ -26,18 +26,26 @@ libsbml
    :versions:
       
       
+      .. raw:: html
 
-      ``5.18.0-8``,  ``5.18.0-7``,  ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.18.0-9</code>,  <code>5.18.0-8</code>,  <code>5.18.0-7</code>,  <code>5.18.0-6</code>,  <code>5.18.0-5</code>,  <code>5.18.0-4</code>,  <code>5.18.0-3</code>,  <code>5.18.0-2</code>,  <code>5.18.0-1</code>,  </span></summary>
+      
 
+      ``5.18.0-9``,  ``5.18.0-8``,  ``5.18.0-7``,  ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libxml2: ``>=2.9.14,<2.10.0a0``
+   :depends libxml2: ``>=2.10.4,<2.11.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

@@ -27,7 +27,7 @@ bioconductor-eds
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -70,7 +70,7 @@ bioconductor-eds
 
     <script>
         var package = "bioconductor-eds";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ perl-json-parse
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.62-2</code>,  <code>0.62-1</code>,  <code>0.62-0</code>,  <code>0.61-1</code>,  <code>0.61-0</code>,  <code>0.55-2</code>,  <code>0.55-1</code>,  <code>0.55-0</code>,  <code>0.49-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.62-3</code>,  <code>0.62-2</code>,  <code>0.62-1</code>,  <code>0.62-0</code>,  <code>0.61-1</code>,  <code>0.61-0</code>,  <code>0.55-2</code>,  <code>0.55-1</code>,  <code>0.55-0</code>,  </span></summary>
       
 
-      ``0.62-2``,  ``0.62-1``,  ``0.62-0``,  ``0.61-1``,  ``0.61-0``,  ``0.55-2``,  ``0.55-1``,  ``0.55-0``,  ``0.49-1``,  ``0.49-0``
+      ``0.62-3``,  ``0.62-2``,  ``0.62-1``,  ``0.62-0``,  ``0.61-1``,  ``0.61-0``,  ``0.55-2``,  ``0.55-1``,  ``0.55-0``,  ``0.49-1``,  ``0.49-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ perl-json-parse
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :requirements:
@@ -75,7 +74,7 @@ perl-json-parse
 
     <script>
         var package = "perl-json-parse";
-        var versions = ["0.62","0.62","0.62","0.61","0.61"];
+        var versions = ["0.62","0.62","0.62","0.62","0.61"];
     </script>
 
 

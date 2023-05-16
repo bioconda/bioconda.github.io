@@ -32,9 +32,10 @@ dist_est
       
 
    
-   :depends libcxx: ``>=15.0.7``
-   :depends libgfortran: ``5.*``
+   :depends libgcc-ng: ``>=12``
+   :depends libgfortran-ng: 
    :depends libgfortran5: ``>=12.2.0``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

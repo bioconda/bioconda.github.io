@@ -28,7 +28,7 @@ cesar
       
       
 
-      ``1.01-1``,  ``1.01-0``
+      ``1.01-2``,  ``1.01-1``,  ``1.01-0``
 
       
 
@@ -66,7 +66,7 @@ cesar
 
     <script>
         var package = "cesar";
-        var versions = ["1.01","1.01"];
+        var versions = ["1.01","1.01","1.01"];
     </script>
 
 

@@ -40,10 +40,10 @@ kissplice
       
 
    
-   :depends libcxx: ``>=15.0.7``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends llvm-openmp: ``>=15.0.7``
-   :depends llvm-openmp: ``>=16.0.3``
    :depends python: ``>=3``
    :requirements:
 

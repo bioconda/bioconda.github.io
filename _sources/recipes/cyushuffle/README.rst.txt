@@ -34,6 +34,7 @@ cyushuffle
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:

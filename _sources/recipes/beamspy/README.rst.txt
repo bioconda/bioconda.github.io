@@ -27,7 +27,7 @@ beamspy
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -36,10 +36,10 @@ beamspy
    :depends matplotlib: 
    :depends networkx: ``<=2.5``
    :depends numpy: 
-   :depends pandas: 
-   :depends pyside2: ``5.13.1``
+   :depends pandas: ``<=1.5.3``
+   :depends pyside2: 
    :depends pyteomics: ``<=4.4.1``
-   :depends python: ``>3.7,<3.9``
+   :depends python: ``>3.8,<3.11``
    :depends requests: 
    :depends scipy: 
    :depends seaborn: 
@@ -75,7 +75,7 @@ beamspy
 
     <script>
         var package = "beamspy";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

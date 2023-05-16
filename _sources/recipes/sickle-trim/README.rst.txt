@@ -26,15 +26,23 @@ sickle-trim
    :versions:
       
       
+      .. raw:: html
 
-      ``1.33-8``,  ``1.33-7``,  ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
+         <details><summary><span class="truncated-version-list"><code>1.33-9</code>,  <code>1.33-8</code>,  <code>1.33-7</code>,  <code>1.33-6</code>,  <code>1.33-5</code>,  <code>1.33-4</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  </span></summary>
+      
 
+      ``1.33-9``,  ``1.33-8``,  ``1.33-7``,  ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

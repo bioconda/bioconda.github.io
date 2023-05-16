@@ -32,6 +32,7 @@ mapad
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 

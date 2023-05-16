@@ -12,7 +12,7 @@ r-saige
 
    SAIGE is an R package with Scalable and Accurate Implementation of Generalized mixed model \(Chen\, H. et al. 2016\)
 
-   :homepage: https://github.com/weizhouUMICH/SAIGE
+   :homepage: https://github.com/saigegit/SAIGE
    :license: GPL3 / GNU GPL
    :recipe: /`r-saige <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-saige>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-saige/meta.yaml>`_
 
