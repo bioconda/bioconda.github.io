@@ -29,10 +29,10 @@ snoscan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9b-3</code>,  <code>0.9b-2</code>,  <code>0.9b-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0-5</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9b-3</code>,  </span></summary>
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9b-3``,  ``0.9b-2``,  ``0.9b-1``,  ``0.9b-0``
+      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9b-3``,  ``0.9b-2``,  ``0.9b-1``,  ``0.9b-0``
 
       
       .. raw:: html
@@ -41,8 +41,9 @@ snoscan
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-module-build: ``0.4234.*``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ snoscan
 
     <script>
         var package = "snoscan";
-        var versions = ["1.0","1.0","1.0","1.0","0.9.1"];
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

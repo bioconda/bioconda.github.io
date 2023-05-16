@@ -26,9 +26,17 @@ perl-json-parse
    :versions:
       
       
+      .. raw:: html
 
-      ``0.62-1``,  ``0.62-0``,  ``0.61-1``,  ``0.61-0``,  ``0.55-2``,  ``0.55-1``,  ``0.55-0``,  ``0.49-1``,  ``0.49-0``
+         <details><summary><span class="truncated-version-list"><code>0.62-2</code>,  <code>0.62-1</code>,  <code>0.62-0</code>,  <code>0.61-1</code>,  <code>0.61-0</code>,  <code>0.55-2</code>,  <code>0.55-1</code>,  <code>0.55-0</code>,  <code>0.49-1</code>,  </span></summary>
+      
 
+      ``0.62-2``,  ``0.62-1``,  ``0.62-0``,  ``0.61-1``,  ``0.61-0``,  ``0.55-2``,  ``0.55-1``,  ``0.55-0``,  ``0.49-1``,  ``0.49-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -67,7 +75,7 @@ perl-json-parse
 
     <script>
         var package = "perl-json-parse";
-        var versions = ["0.62","0.62","0.61","0.61","0.55"];
+        var versions = ["0.62","0.62","0.62","0.61","0.61"];
     </script>
 
 

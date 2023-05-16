@@ -27,12 +27,12 @@ aprfinder
       
       
 
-      ``1.5-0``,  ``1.4-0``,  ``1.2-0``
+      ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``,  ``1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ aprfinder
 
     <script>
         var package = "aprfinder";
-        var versions = ["1.5","1.4","1.2"];
+        var versions = ["1.5","1.5","1.5","1.4","1.2"];
     </script>
 
 

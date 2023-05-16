@@ -27,13 +27,15 @@ irescue
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends bedtools: ``>=2.30.0``
+   :depends coreutils: ``>=9.3``
    :depends gawk: ``>=5.0.1``
+   :depends gzip: ``>=1.12``
    :depends numpy: ``>=1.20.2``
    :depends pysam: ``>=0.16.0.1``
    :depends python: ``>=3.7``
@@ -70,7 +72,7 @@ irescue
 
     <script>
         var package = "irescue";
-        var versions = ["1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.3","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

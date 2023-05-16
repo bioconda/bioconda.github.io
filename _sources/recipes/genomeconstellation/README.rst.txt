@@ -28,15 +28,15 @@ genomeconstellation
       
       
 
-      ``0.21.1-2``,  ``0.21.1-1``,  ``0.21.1-0``
+      ``0.21.1-4``,  ``0.21.1-3``,  ``0.21.1-2``,  ``0.21.1-1``,  ``0.21.1-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ genomeconstellation
 
     <script>
         var package = "genomeconstellation";
-        var versions = ["0.21.1","0.21.1","0.21.1"];
+        var versions = ["0.21.1","0.21.1","0.21.1","0.21.1","0.21.1"];
     </script>
 
 

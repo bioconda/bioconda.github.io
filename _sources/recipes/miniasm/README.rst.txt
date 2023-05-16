@@ -28,10 +28,10 @@ miniasm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3-0</code>,  <code>0.3_r179-3</code>,  <code>0.3_r179-2</code>,  <code>0.3_r179-1</code>,  <code>0.3_r179-0</code>,  <code>0.2-0</code>,  <code>0.2_r168-3</code>,  <code>0.2_r168-2</code>,  <code>0.2_r168-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.3_r179-3</code>,  <code>0.3_r179-2</code>,  <code>0.3_r179-1</code>,  <code>0.3_r179-0</code>,  <code>0.2-0</code>,  <code>0.2_r168-3</code>,  </span></summary>
       
 
-      ``0.3-0``,  ``0.3_r179-3``,  ``0.3_r179-2``,  ``0.3_r179-1``,  ``0.3_r179-0``,  ``0.2-0``,  ``0.2_r168-3``,  ``0.2_r168-2``,  ``0.2_r168-1``,  ``0.2_r168-0``,  ``0.2_r159-0``,  ``0.2_r137-0``
+      ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.3_r179-3``,  ``0.3_r179-2``,  ``0.3_r179-1``,  ``0.3_r179-0``,  ``0.2-0``,  ``0.2_r168-3``,  ``0.2_r168-2``,  ``0.2_r168-1``,  ``0.2_r168-0``,  ``0.2_r159-0``,  ``0.2_r137-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ miniasm
    
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ miniasm
 
     <script>
         var package = "miniasm";
-        var versions = ["0.3","0.3_r179","0.3_r179","0.3_r179","0.3_r179"];
+        var versions = ["0.3","0.3","0.3","0.3_r179","0.3_r179"];
     </script>
 
 

@@ -32,10 +32,10 @@ genometools-genometools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.2-3</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.10-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.2-6</code>,  <code>1.6.2-4</code>,  <code>1.6.2-3</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  </span></summary>
       
 
-      ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
+      ``1.6.2-6``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
 
       
       .. raw:: html
@@ -44,14 +44,14 @@ genometools-genometools
       
 
    
-   :depends cairo: ``>=1.16.0,<1.17.0a0``
+   :depends cairo: ``>=1.16.0,<2.0a0``
    :depends font-ttf-dejavu-sans-mono: 
-   :depends fontconfig: ``>=2.14.0,<3.0a0``
+   :depends fontconfig: 
    :depends gettext: 
    :depends libgcc-ng: ``>=12``
-   :depends libglib: ``>=2.72.1,<3.0a0``
+   :depends libglib: ``>=2.76.2,<3.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends pango: ``>=1.48.10,<1.49.0a0``
+   :depends pango: ``>=1.50.14,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends xorg-libsm: 
@@ -88,7 +88,7 @@ genometools-genometools
 
     <script>
         var package = "genometools-genometools";
-        var versions = ["1.6.2","1.6.2","1.6.2","1.6.2","1.6.1"];
+        var versions = ["1.6.2","1.6.2","1.6.2","1.6.2","1.6.2"];
     </script>
 
 

@@ -27,15 +27,16 @@ perl-extutils-cppguess
       
       
 
-      ``0.26-0``,  ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``
+      ``0.26-1``,  ``0.26-0``,  ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-capture-tiny: 
+   :depends perl-module-build: ``0.4234.*``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +68,7 @@ perl-extutils-cppguess
 
     <script>
         var package = "perl-extutils-cppguess";
-        var versions = ["0.26","0.12","0.12","0.12","0.12"];
+        var versions = ["0.26","0.26","0.12","0.12","0.12"];
     </script>
 
 

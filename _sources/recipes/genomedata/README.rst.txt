@@ -29,10 +29,10 @@ genomedata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.4-6</code>,  <code>1.4.4-5</code>,  <code>1.4.4-4</code>,  <code>1.4.4-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.4-6</code>,  <code>1.4.4-5</code>,  <code>1.4.4-4</code>,  </span></summary>
       
 
-      ``1.6.0-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ genomedata
 
    
    :depends bedtools: 
-   :depends hdf5: ``>=1.12.1,<1.12.2.0a0``
+   :depends hdf5: ``>=1.12.2,<1.12.3.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends path.py: 
@@ -84,7 +84,7 @@ genomedata
 
     <script>
         var package = "genomedata";
-        var versions = ["1.6.0","1.5.0","1.5.0","1.5.0","1.5.0"];
+        var versions = ["1.6.0","1.6.0","1.5.0","1.5.0","1.5.0"];
     </script>
 
 

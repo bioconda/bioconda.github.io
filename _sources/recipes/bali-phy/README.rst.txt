@@ -29,22 +29,22 @@ bali-phy
       
       
 
-      ``3.6.0-1``,  ``3.6.0-0``
+      ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends cairo: ``>=1.16.0,<1.17.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends cairo: ``>=1.16.0,<2.0a0``
    :depends eigen: ``>=3.3.7``
    :depends glib: 
    :depends gnuplot: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libglib: ``>=2.70.2,<3.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libglib: ``>=2.76.2,<3.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends pandoc: 
    :depends perl: 
-   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python: ``>=3.11,<3.12.0a0``
    :depends r-base: 
    :requirements:
 
@@ -77,7 +77,7 @@ bali-phy
 
     <script>
         var package = "bali-phy";
-        var versions = ["3.6.0","3.6.0"];
+        var versions = ["3.6.0","3.6.0","3.6.0"];
     </script>
 
 

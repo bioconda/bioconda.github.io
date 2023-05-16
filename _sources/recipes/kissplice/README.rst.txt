@@ -26,16 +26,24 @@ kissplice
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.5-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.4.0p1-3``,  ``2.4.0p1-2``,  ``2.4.0p1-1``,  ``2.4.0p1-0``
+         <details><summary><span class="truncated-version-list"><code>2.5.5-2</code>,  <code>2.5.5-1</code>,  <code>2.5.5-0</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.4.0p1-3</code>,  <code>2.4.0p1-2</code>,  </span></summary>
+      
 
+      ``2.5.5-2``,  ``2.5.5-1``,  ``2.5.5-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.4.0p1-3``,  ``2.4.0p1-2``,  ``2.4.0p1-1``,  ``2.4.0p1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libcxx: ``>=15.0.7``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends llvm-openmp: ``>=15.0.7``
+   :depends llvm-openmp: ``>=16.0.3``
    :depends python: ``>=3``
    :requirements:
 
@@ -68,7 +76,7 @@ kissplice
 
     <script>
         var package = "kissplice";
-        var versions = ["2.5.5","2.4.0","2.4.0","2.4.0","2.4.0"];
+        var versions = ["2.5.5","2.5.5","2.5.5","2.4.0","2.4.0"];
     </script>
 
 

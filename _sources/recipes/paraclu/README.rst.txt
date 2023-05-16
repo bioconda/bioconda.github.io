@@ -28,15 +28,15 @@ paraclu
       
       
 
-      ``10-2``,  ``10-1``,  ``10-0``,  ``9-0``
+      ``10-4``,  ``10-3``,  ``10-2``,  ``10-1``,  ``10-0``,  ``9-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ paraclu
 
     <script>
         var package = "paraclu";
-        var versions = ["10","10","10","9"];
+        var versions = ["10","10","10","10","10"];
     </script>
 
 

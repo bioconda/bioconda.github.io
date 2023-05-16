@@ -28,13 +28,13 @@ ghostz
       
       
 
-      ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ ghostz
 
     <script>
         var package = "ghostz";
-        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.0"];
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

@@ -28,16 +28,16 @@ simka
       
       
 
-      ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
+      ``1.5.3-4``,  ``1.5.3-3``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ simka
 
     <script>
         var package = "simka";
-        var versions = ["1.5.3","1.5.3","1.5.3","1.5.2","1.5.1"];
+        var versions = ["1.5.3","1.5.3","1.5.3","1.5.3","1.5.3"];
     </script>
 
 

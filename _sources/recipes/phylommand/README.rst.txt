@@ -27,14 +27,14 @@ phylommand
       
       
 
-      ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends nlopt: ``>=2.7.1,<2.7.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends nlopt: ``>=2.7.1,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ phylommand
 
     <script>
         var package = "phylommand";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

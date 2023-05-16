@@ -27,16 +27,16 @@ king
       
       
 
-      ``2.2.7-0``,  ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``
+      ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends openmp: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ king
 
     <script>
         var package = "king";
-        var versions = ["2.2.7","2.2.4","2.2.4","2.2.4"];
+        var versions = ["2.2.7","2.2.7","2.2.7","2.2.4","2.2.4"];
     </script>
 
 

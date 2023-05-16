@@ -26,14 +26,22 @@ scrm
    :versions:
       
       
+      .. raw:: html
 
-      ``1.7.4-2``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.7.4-3</code>,  <code>1.7.4-2</code>,  <code>1.7.4-1</code>,  <code>1.7.4-0</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  </span></summary>
+      
 
+      ``1.7.4-3``,  ``1.7.4-2``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +73,7 @@ scrm
 
     <script>
         var package = "scrm";
-        var versions = ["1.7.4","1.7.4","1.7.4","1.7.3","1.7.3"];
+        var versions = ["1.7.4","1.7.4","1.7.4","1.7.4","1.7.3"];
     </script>
 
 

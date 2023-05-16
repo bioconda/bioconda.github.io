@@ -28,7 +28,7 @@ spacepharer
       
       
 
-      ``5.c2e680a-1``,  ``5.c2e680a-0``,  ``4.228b9e5-2``,  ``4.228b9e5-1``,  ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
+      ``5.c2e680a-2``,  ``5.c2e680a-1``,  ``5.c2e680a-0``,  ``4.228b9e5-2``,  ``4.228b9e5-1``,  ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
 
       
 
@@ -36,12 +36,12 @@ spacepharer
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ spacepharer
 
     <script>
         var package = "spacepharer";
-        var versions = ["5.c2e680a","5.c2e680a","4.228b9e5","4.228b9e5","4.228b9e5"];
+        var versions = ["5.c2e680a","5.c2e680a","5.c2e680a","4.228b9e5","4.228b9e5"];
     </script>
 
 

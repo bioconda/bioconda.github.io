@@ -27,7 +27,7 @@ phasius
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -65,7 +65,7 @@ phasius
 
     <script>
         var package = "phasius";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0","0.1.0"];
     </script>
 
 

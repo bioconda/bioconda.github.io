@@ -27,21 +27,29 @@ commet
    :versions:
       
       
+      .. raw:: html
 
-      ``24.7.14-8``,  ``24.7.14-7``,  ``24.7.14-6``,  ``24.7.14-5``,  ``24.7.14-4``,  ``24.7.14-3``,  ``24.7.14-2``,  ``24.7.14-1``,  ``24.7.14-0``
+         <details><summary><span class="truncated-version-list"><code>24.7.14-10</code>,  <code>24.7.14-9</code>,  <code>24.7.14-8</code>,  <code>24.7.14-7</code>,  <code>24.7.14-6</code>,  <code>24.7.14-5</code>,  <code>24.7.14-4</code>,  <code>24.7.14-3</code>,  <code>24.7.14-2</code>,  </span></summary>
+      
 
+      ``24.7.14-10``,  ``24.7.14-9``,  ``24.7.14-8``,  ``24.7.14-7``,  ``24.7.14-6``,  ``24.7.14-5``,  ``24.7.14-4``,  ``24.7.14-3``,  ``24.7.14-2``,  ``24.7.14-1``,  ``24.7.14-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
+   :depends libgfortran5: ``>=12.2.0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gplots: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

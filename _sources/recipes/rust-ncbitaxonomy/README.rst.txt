@@ -30,10 +30,10 @@ rust-ncbitaxonomy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  </span></summary>
       
 
-      ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -42,8 +42,9 @@ rust-ncbitaxonomy
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends sqlite: ``>=3.37.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libsqlite: ``>=3.41.2,<4.0a0``
+   :depends sqlite: 
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +76,7 @@ rust-ncbitaxonomy
 
     <script>
         var package = "rust-ncbitaxonomy";
-        var versions = ["1.0.7","1.0.7","1.0.7","1.0.5","1.0.3"];
+        var versions = ["1.0.7","1.0.7","1.0.7","1.0.7","1.0.7"];
     </script>
 
 

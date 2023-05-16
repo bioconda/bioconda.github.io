@@ -27,17 +27,25 @@ shapeit4
    :versions:
       
       
+      .. raw:: html
 
-      ``4.2.2-1``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1-0``,  ``4.0-0``
+         <details><summary><span class="truncated-version-list"><code>4.2.2-3</code>,  <code>4.2.2-2</code>,  <code>4.2.2-1</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.3-1</code>,  <code>4.1.3-0</code>,  </span></summary>
+      
 
+      ``4.2.2-3``,  ``4.2.2-2``,  ``4.2.2-1``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1-0``,  ``4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``1.11.*``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +77,7 @@ shapeit4
 
     <script>
         var package = "shapeit4";
-        var versions = ["4.2.2","4.2.2","4.2.1","4.2.0","4.2.0"];
+        var versions = ["4.2.2","4.2.2","4.2.2","4.2.2","4.2.1"];
     </script>
 
 

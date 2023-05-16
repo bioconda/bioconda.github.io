@@ -28,13 +28,20 @@ sage-proteomics
    :versions:
       
       
+      .. raw:: html
 
-      ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.4-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.12.0-2</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.2-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.4-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+      
 
+      ``0.12.0-2``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.4-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +73,7 @@ sage-proteomics
 
     <script>
         var package = "sage-proteomics";
-        var versions = ["0.12.0","0.11.2","0.11.0","0.10.0","0.9.4"];
+        var versions = ["0.12.0","0.12.0","0.12.0","0.11.2","0.11.0"];
     </script>
 
 

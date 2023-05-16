@@ -27,13 +27,12 @@ samhaplotag
       
       
 
-      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ samhaplotag
 
     <script>
         var package = "samhaplotag";
-        var versions = ["0.0.4","0.0.4","0.0.3","0.0.2","0.0.1"];
+        var versions = ["0.0.4","0.0.4","0.0.4","0.0.4","0.0.3"];
     </script>
 
 

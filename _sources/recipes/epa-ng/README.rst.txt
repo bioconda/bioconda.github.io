@@ -27,16 +27,24 @@ epa-ng
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.8-4</code>,  <code>0.3.8-3</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  </span></summary>
+      
 
+      ``0.3.8-4``,  ``0.3.8-3``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ epa-ng
 
     <script>
         var package = "epa-ng";
-        var versions = ["0.3.8","0.3.8","0.3.8","0.3.6","0.3.5"];
+        var versions = ["0.3.8","0.3.8","0.3.8","0.3.8","0.3.8"];
     </script>
 
 

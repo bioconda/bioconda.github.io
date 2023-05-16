@@ -29,10 +29,10 @@ andi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13-3</code>,  <code>0.13-2</code>,  <code>0.13-1</code>,  <code>0.13-0</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-0</code>,  <code>0.11-1</code>,  <code>0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13-4</code>,  <code>0.13-3</code>,  <code>0.13-2</code>,  <code>0.13-1</code>,  <code>0.13-0</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-0</code>,  <code>0.11-1</code>,  </span></summary>
       
 
-      ``0.13-3``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``,  ``0.12-4``,  ``0.12-3``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``
+      ``0.13-4``,  ``0.13-3``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``,  ``0.12-4``,  ``0.12-3``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``
 
       
       .. raw:: html
@@ -43,7 +43,6 @@ andi
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends mkl: 
    :depends openblas: 
    :requirements:
@@ -77,7 +76,7 @@ andi
 
     <script>
         var package = "andi";
-        var versions = ["0.13","0.13","0.13","0.13","0.12"];
+        var versions = ["0.13","0.13","0.13","0.13","0.13"];
     </script>
 
 

@@ -27,7 +27,7 @@ maast
       
       
 
-      ``1.0.7-0``
+      ``1.0.7-1``,  ``1.0.7-0``
 
       
 
@@ -41,10 +41,10 @@ maast
    :depends mash: 
    :depends mummer4: 
    :depends networkx: 
-   :depends numpy: 
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pigz: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :requirements:
 
@@ -77,7 +77,7 @@ maast
 
     <script>
         var package = "maast";
-        var versions = ["1.0.7"];
+        var versions = ["1.0.7","1.0.7"];
     </script>
 
 

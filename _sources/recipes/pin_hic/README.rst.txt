@@ -27,14 +27,14 @@ pin_hic
       
       
 
-      ``3.0.0-1``,  ``3.0.0-0``
+      ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ pin_hic
 
     <script>
         var package = "pin_hic";
-        var versions = ["3.0.0","3.0.0"];
+        var versions = ["3.0.0","3.0.0","3.0.0","3.0.0"];
     </script>
 
 

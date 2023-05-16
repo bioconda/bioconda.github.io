@@ -27,24 +27,24 @@ perl-moosex-role-withoverloading
       
       
 
-      ``0.17-4``,  ``0.17-3``,  ``0.17-2``,  ``0.17-1``,  ``0.17-0``
+      ``0.17-5``,  ``0.17-4``,  ``0.17-3``,  ``0.17-2``,  ``0.17-1``,  ``0.17-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-aliased: 
-   :depends perl-class-load: 
-   :depends perl-devel-globaldestruction: 
-   :depends perl-devel-overloadinfo: 
-   :depends perl-eval-closure: 
+   :depends perl-class-load: ``0.25.*``
+   :depends perl-devel-globaldestruction: ``0.14.*``
+   :depends perl-devel-overloadinfo: ``0.007.*``
+   :depends perl-eval-closure: ``0.14.*``
    :depends perl-moose: ``2.2201.*``
-   :depends perl-mro-compat: 
+   :depends perl-mro-compat: ``0.15.*``
    :depends perl-namespace-autoclean: 
-   :depends perl-namespace-clean: 
-   :depends perl-package-deprecationmanager: 
+   :depends perl-namespace-clean: ``0.27.*``
+   :depends perl-package-deprecationmanager: ``0.18.*``
    :requirements:
 
    .. rubric:: Installation

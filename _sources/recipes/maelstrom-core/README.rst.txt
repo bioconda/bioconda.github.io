@@ -27,14 +27,14 @@ maelstrom-core
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openssl: ``>=1.1.1q,<1.1.2a``
+   :depends openssl: ``>=3.1.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ maelstrom-core
 
     <script>
         var package = "maelstrom-core";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1"];
     </script>
 
 

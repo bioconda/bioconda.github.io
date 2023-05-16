@@ -26,9 +26,17 @@ porechop
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3_seqan2.1.1-3``,  ``0.2.3_seqan2.1.1-2``,  ``0.2.3_seqan2.1.1-1``,  ``0.2.3_seqan2.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.4-6</code>,  <code>0.2.4-4</code>,  <code>0.2.4-3</code>,  <code>0.2.4-2</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3_seqan2.1.1-3</code>,  <code>0.2.3_seqan2.1.1-2</code>,  <code>0.2.3_seqan2.1.1-1</code>,  </span></summary>
+      
 
+      ``0.2.4-6``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3_seqan2.1.1-3``,  ``0.2.3_seqan2.1.1-2``,  ``0.2.3_seqan2.1.1-1``,  ``0.2.3_seqan2.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -67,7 +75,7 @@ porechop
 
     <script>
         var package = "porechop";
-        var versions = ["0.2.4","0.2.4","0.2.4","0.2.4","0.2.3_seqan2.1.1"];
+        var versions = ["0.2.4","0.2.4","0.2.4","0.2.4","0.2.4"];
     </script>
 
 

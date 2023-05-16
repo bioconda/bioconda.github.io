@@ -27,12 +27,11 @@ quicktree
       
       
 
-      ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.2-1``,  ``2.2-0``
+      ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +63,7 @@ quicktree
 
     <script>
         var package = "quicktree";
-        var versions = ["2.5","2.5","2.5","2.4","2.2"];
+        var versions = ["2.5","2.5","2.5","2.5","2.5"];
     </script>
 
 

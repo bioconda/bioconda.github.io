@@ -27,18 +27,17 @@ pydmtools
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends libcurl: ``>=7.88.1,<8.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcurl: ``>=8.0.1,<9.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends numpy: ``>=1.21.6,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +69,7 @@ pydmtools
 
     <script>
         var package = "pydmtools";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

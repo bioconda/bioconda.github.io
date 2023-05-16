@@ -26,16 +26,24 @@ r2r
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.6-4</code>,  <code>1.0.6-3</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  </span></summary>
+      
 
+      ``1.0.6-4``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-clone: 
+   :depends perl-clone: ``0.46.*``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +75,7 @@ r2r
 
     <script>
         var package = "r2r";
-        var versions = ["1.0.6","1.0.6","1.0.6","1.0.5","1.0.5"];
+        var versions = ["1.0.6","1.0.6","1.0.6","1.0.6","1.0.6"];
     </script>
 
 

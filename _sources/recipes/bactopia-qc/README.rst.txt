@@ -29,7 +29,7 @@ bactopia-qc
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -46,7 +46,7 @@ bactopia-qc
    :depends nanoq: ``>=0.9.0``
    :depends pigz: 
    :depends porechop: ``>=0.2.4``
-   :depends python: ``>=3.6,<3.11``
+   :depends python: ``>=3.7,<3.11``
    :depends rasusa: ``>=0.7.0``
    :depends rename: 
    :depends sed: 
@@ -81,7 +81,7 @@ bactopia-qc
 
     <script>
         var package = "bactopia-qc";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

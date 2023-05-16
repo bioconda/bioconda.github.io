@@ -26,13 +26,21 @@ sirius-csifingerid
    :versions:
       
       
+      .. raw:: html
 
-      ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  <code>4.9.15-0</code>,  <code>4.9.8-2</code>,  <code>4.9.8-1</code>,  <code>4.9.8-0</code>,  <code>4.9.4-0</code>,  <code>4.9.3-0</code>,  </span></summary>
+      
 
+      ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends zlib: 
    :requirements:
 
@@ -65,7 +73,7 @@ sirius-csifingerid
 
     <script>
         var package = "sirius-csifingerid";
-        var versions = ["4.9.15","4.9.15","4.9.8","4.9.8","4.9.8"];
+        var versions = ["4.9.15","4.9.15","4.9.15","4.9.15","4.9.8"];
     </script>
 
 

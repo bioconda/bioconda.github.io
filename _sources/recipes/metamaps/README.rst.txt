@@ -27,15 +27,15 @@ metamaps
       
       
 
-      ``0.1.98102e9-1``,  ``0.1.98102e9-0``
+      ``0.1.98102e9-2``,  ``0.1.98102e9-1``,  ``0.1.98102e9-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: 
    :depends perl-file-slurp: 
    :depends perl-http-message: 
@@ -47,7 +47,7 @@ metamaps
    :depends r-base: 
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ metamaps
 
     <script>
         var package = "metamaps";
-        var versions = ["0.1.98102e9","0.1.98102e9"];
+        var versions = ["0.1.98102e9","0.1.98102e9","0.1.98102e9"];
     </script>
 
 

@@ -13,7 +13,7 @@ ma
    MA \- The Modular Aligner
 
    :homepage: https://github.com/ITBE-Lab/MA
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ma/meta.yaml>`_
 
    
@@ -26,18 +26,26 @@ ma
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-0``,  ``1.1.4-3``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.1.4-3</code>,  <code>1.1.4-2</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  </span></summary>
+      
 
+      ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.4-3``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +77,7 @@ ma
 
     <script>
         var package = "ma";
-        var versions = ["2.0.1","1.1.4","1.1.4","1.1.4","1.1.4"];
+        var versions = ["2.0.2","2.0.1","1.1.4","1.1.4","1.1.4"];
     </script>
 
 

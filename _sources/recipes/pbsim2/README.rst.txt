@@ -28,13 +28,13 @@ pbsim2
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``
+      ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ pbsim2
 
     <script>
         var package = "pbsim2";
-        var versions = ["2.0.1","2.0.1"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1"];
     </script>
 
 

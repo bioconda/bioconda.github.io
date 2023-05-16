@@ -26,13 +26,21 @@ irfinder
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.3-0``,  ``1.2.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-4</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  </span></summary>
+      
 
+      ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.3-0``,  ``1.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: 
    :depends r-base: 
    :requirements:
@@ -66,7 +74,7 @@ irfinder
 
     <script>
         var package = "irfinder";
-        var versions = ["1.3.1","1.3.1","1.3.1","1.3.0","1.2.6"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.1"];
     </script>
 
 

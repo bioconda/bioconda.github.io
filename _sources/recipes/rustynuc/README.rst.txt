@@ -27,14 +27,14 @@ rustynuc
       
       
 
-      ``0.3.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ rustynuc
 
     <script>
         var package = "rustynuc";
-        var versions = ["0.3.1","0.3.0","0.3.0","0.3.0","0.2.0"];
+        var versions = ["0.3.1","0.3.1","0.3.1","0.3.0","0.3.0"];
     </script>
 
 

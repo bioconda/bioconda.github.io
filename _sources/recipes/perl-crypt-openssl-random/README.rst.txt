@@ -27,13 +27,13 @@ perl-crypt-openssl-random
       
       
 
-      ``0.11-3``,  ``0.11-2``,  ``0.11-1``,  ``0.11-0``
+      ``0.11-5``,  ``0.11-4``,  ``0.11-3``,  ``0.11-2``,  ``0.11-1``,  ``0.11-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
+   :depends libgcc-ng: ``>=12``
+   :depends openssl: ``>=3.1.0,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -66,7 +66,7 @@ perl-crypt-openssl-random
 
     <script>
         var package = "perl-crypt-openssl-random";
-        var versions = ["0.11","0.11","0.11","0.11"];
+        var versions = ["0.11","0.11","0.11","0.11","0.11"];
     </script>
 
 

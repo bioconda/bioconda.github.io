@@ -27,12 +27,12 @@ prequal
       
       
 
-      ``1.02-3``,  ``1.02-2``,  ``1.02-1``,  ``1.02-0``
+      ``1.02-5``,  ``1.02-4``,  ``1.02-3``,  ``1.02-2``,  ``1.02-1``,  ``1.02-0``
 
       
 
    
-   :depends boost-cpp: ``1.74.0.*``
+   :depends boost-cpp: ``1.78.0.*``
    :depends zlib: ``1.2.*``
    :requirements:
 
@@ -65,7 +65,7 @@ prequal
 
     <script>
         var package = "prequal";
-        var versions = ["1.02","1.02","1.02","1.02"];
+        var versions = ["1.02","1.02","1.02","1.02","1.02"];
     </script>
 
 

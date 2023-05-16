@@ -28,10 +28,10 @@ phylocsfpp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0_9643238d-5</code>,  <code>1.2.0_9643238d-4</code>,  <code>1.2.0_9643238d-3</code>,  <code>1.2.0_9643238d-2</code>,  <code>1.2.0_9643238d-1</code>,  <code>1.2.0_9643238d-0</code>,  <code>1.1.1_4bb3c87a-0</code>,  <code>1.1.0_519b603e-0</code>,  <code>1.0.0_f5ab2559-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0_9643238d-6</code>,  <code>1.2.0_9643238d-5</code>,  <code>1.2.0_9643238d-4</code>,  <code>1.2.0_9643238d-3</code>,  <code>1.2.0_9643238d-2</code>,  <code>1.2.0_9643238d-1</code>,  <code>1.2.0_9643238d-0</code>,  <code>1.1.1_4bb3c87a-0</code>,  <code>1.1.0_519b603e-0</code>,  </span></summary>
       
 
-      ``1.2.0_9643238d-5``,  ``1.2.0_9643238d-4``,  ``1.2.0_9643238d-3``,  ``1.2.0_9643238d-2``,  ``1.2.0_9643238d-1``,  ``1.2.0_9643238d-0``,  ``1.1.1_4bb3c87a-0``,  ``1.1.0_519b603e-0``,  ``1.0.0_f5ab2559-1``,  ``1.0.0_f5ab2559-0``
+      ``1.2.0_9643238d-6``,  ``1.2.0_9643238d-5``,  ``1.2.0_9643238d-4``,  ``1.2.0_9643238d-3``,  ``1.2.0_9643238d-2``,  ``1.2.0_9643238d-1``,  ``1.2.0_9643238d-0``,  ``1.1.1_4bb3c87a-0``,  ``1.1.0_519b603e-0``,  ``1.0.0_f5ab2559-1``,  ``1.0.0_f5ab2559-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ phylocsfpp
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

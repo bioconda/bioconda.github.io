@@ -28,13 +28,13 @@ genform
       
       
 
-      ``r8-2``,  ``r8-1``,  ``r8-0``
+      ``r8-4``,  ``r8-3``,  ``r8-2``,  ``r8-1``,  ``r8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ genform
 
     <script>
         var package = "genform";
-        var versions = ["r8","r8","r8"];
+        var versions = ["r8","r8","r8","r8","r8"];
     </script>
 
 

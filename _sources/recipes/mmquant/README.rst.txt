@@ -27,7 +27,7 @@ mmquant
       
       
 
-      ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -36,7 +36,7 @@ mmquant
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends make: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ mmquant
 
     <script>
         var package = "mmquant";
-        var versions = ["1.0.5","1.0.4","1.0.4"];
+        var versions = ["1.0.5","1.0.5","1.0.5","1.0.4","1.0.4"];
     </script>
 
 

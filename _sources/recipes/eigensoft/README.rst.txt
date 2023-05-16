@@ -29,10 +29,10 @@ eigensoft
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.2.1-5</code>,  <code>7.2.1-4</code>,  <code>7.2.1-3</code>,  <code>7.2.1-2</code>,  <code>7.2.1-1</code>,  <code>7.2.1-0</code>,  <code>6.0.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.0.0-3</code>,  <code>8.0.0-2</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.2.1-5</code>,  <code>7.2.1-4</code>,  <code>7.2.1-3</code>,  <code>7.2.1-2</code>,  <code>7.2.1-1</code>,  </span></summary>
       
 
-      ``8.0.0-1``,  ``8.0.0-0``,  ``7.2.1-5``,  ``7.2.1-4``,  ``7.2.1-3``,  ``7.2.1-2``,  ``7.2.1-1``,  ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``8.0.0-3``,  ``8.0.0-2``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.2.1-5``,  ``7.2.1-4``,  ``7.2.1-3``,  ``7.2.1-2``,  ``7.2.1-1``,  ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
       .. raw:: html
@@ -76,7 +76,7 @@ eigensoft
 
     <script>
         var package = "eigensoft";
-        var versions = ["8.0.0","8.0.0","7.2.1","7.2.1","7.2.1"];
+        var versions = ["8.0.0","8.0.0","8.0.0","8.0.0","7.2.1"];
     </script>
 
 

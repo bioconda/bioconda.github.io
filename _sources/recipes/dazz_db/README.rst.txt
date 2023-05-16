@@ -26,9 +26,17 @@ dazz_db
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0-0``,  ``1.0p2-5``,  ``1.0p2-4``,  ``1.0p2-3``,  ``1.0p2-2``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-1``,  ``1.0p1-0``
+         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>1.0p2-7</code>,  <code>1.0p2-6</code>,  <code>1.0p2-5</code>,  <code>1.0p2-4</code>,  <code>1.0p2-3</code>,  <code>1.0p2-2</code>,  <code>1.0p2-1</code>,  <code>1.0p2-0</code>,  </span></summary>
+      
 
+      ``1.0-0``,  ``1.0p2-7``,  ``1.0p2-6``,  ``1.0p2-5``,  ``1.0p2-4``,  ``1.0p2-3``,  ``1.0p2-2``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-1``,  ``1.0p1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

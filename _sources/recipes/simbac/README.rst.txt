@@ -28,14 +28,13 @@ simbac
       
       
 
-      ``0.1a-3``,  ``0.1a-2``,  ``0.1a-1``,  ``0.1a-0``
+      ``0.1a-5``,  ``0.1a-4``,  ``0.1a-3``,  ``0.1a-2``,  ``0.1a-1``,  ``0.1a-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ simbac
 
     <script>
         var package = "simbac";
-        var versions = ["0.1a","0.1a","0.1a","0.1a"];
+        var versions = ["0.1a","0.1a","0.1a","0.1a","0.1a"];
     </script>
 
 

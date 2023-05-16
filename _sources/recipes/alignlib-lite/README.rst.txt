@@ -26,9 +26,17 @@ alignlib-lite
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3-5``,  ``0.3-4``,  ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.3-6</code>,  <code>0.3-5</code>,  <code>0.3-4</code>,  <code>0.3-3</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  </span></summary>
+      
 
+      ``0.3-6``,  ``0.3-5``,  ``0.3-4``,  ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

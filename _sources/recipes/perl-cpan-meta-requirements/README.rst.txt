@@ -27,7 +27,7 @@ perl-cpan-meta-requirements
       
       
 
-      ``2.140-1``,  ``2.140-0``
+      ``2.142-0``,  ``2.140-1``,  ``2.140-0``
 
       
 
@@ -66,7 +66,7 @@ perl-cpan-meta-requirements
 
     <script>
         var package = "perl-cpan-meta-requirements";
-        var versions = ["2.140","2.140"];
+        var versions = ["2.142","2.140","2.140"];
     </script>
 
 

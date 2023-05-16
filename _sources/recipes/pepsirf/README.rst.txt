@@ -27,12 +27,12 @@ pepsirf
       
       
 
-      ``1.6.0-0``
+      ``1.6.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends boost: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost: ``>=1.78.0,<1.78.1.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
@@ -67,7 +67,7 @@ pepsirf
 
     <script>
         var package = "pepsirf";
-        var versions = ["1.6.0"];
+        var versions = ["1.6.0","1.6.0"];
     </script>
 
 

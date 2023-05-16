@@ -28,12 +28,12 @@ strainseeker
       
       
 
-      ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``
+      ``1.5.1-3``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: 
    :depends r-base: 
    :depends zlib: 
@@ -68,7 +68,7 @@ strainseeker
 
     <script>
         var package = "strainseeker";
-        var versions = ["1.5.1","1.5.1","1.5.1"];
+        var versions = ["1.5.1","1.5.1","1.5.1","1.5.1"];
     </script>
 
 

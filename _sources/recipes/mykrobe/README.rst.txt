@@ -28,10 +28,10 @@ mykrobe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-3</code>,  <code>0.9.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.1-2</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-3</code>,  </span></summary>
       
 
-      ``0.12.1-1``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-5``,  ``0.7.0-4``,  ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-1``,  ``0.5.6-0``
+      ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-5``,  ``0.7.0-4``,  ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-1``,  ``0.5.6-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ mykrobe
    :depends biopython: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mongodb: ``>3.0``
    :depends mongoengine: ``>=0.18.0``
    :depends numpy: ``>=1.21.6,<2.0a0``
@@ -54,7 +54,7 @@ mykrobe
    :depends requests: 
    :depends setuptools: 
    :depends wget: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ mykrobe
 
     <script>
         var package = "mykrobe";
-        var versions = ["0.12.1","0.12.1","0.12.0","0.11.0","0.11.0"];
+        var versions = ["0.12.1","0.12.1","0.12.1","0.12.0","0.11.0"];
     </script>
 
 

@@ -28,12 +28,12 @@ mreps
       
       
 
-      ``2.6.01-2``,  ``2.6.01-1``,  ``2.6.01-0``,  ``0.1-0``
+      ``2.6.01-3``,  ``2.6.01-2``,  ``2.6.01-1``,  ``2.6.01-0``,  ``0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ mreps
 
     <script>
         var package = "mreps";
-        var versions = ["2.6.01","2.6.01","2.6.01","0.1"];
+        var versions = ["2.6.01","2.6.01","2.6.01","2.6.01","0.1"];
     </script>
 
 

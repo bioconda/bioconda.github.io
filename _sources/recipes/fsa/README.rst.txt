@@ -30,14 +30,14 @@ fsa
       
       
 
-      ``1.15.9-3``,  ``1.15.9-2``,  ``1.15.9-1``,  ``1.15.9-0``
+      ``1.15.9-4``,  ``1.15.9-3``,  ``1.15.9-2``,  ``1.15.9-1``,  ``1.15.9-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ fsa
 
     <script>
         var package = "fsa";
-        var versions = ["1.15.9","1.15.9","1.15.9","1.15.9"];
+        var versions = ["1.15.9","1.15.9","1.15.9","1.15.9","1.15.9"];
     </script>
 
 

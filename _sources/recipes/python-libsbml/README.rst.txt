@@ -27,18 +27,26 @@ python-libsbml
    :versions:
       
       
+      .. raw:: html
 
-      ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``,  ``5.12.0-2``,  ``5.12.0-1``,  ``5.12.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.18.0-6</code>,  <code>5.18.0-5</code>,  <code>5.18.0-4</code>,  <code>5.18.0-3</code>,  <code>5.18.0-2</code>,  <code>5.18.0-1</code>,  <code>5.18.0-0</code>,  <code>5.12.0-2</code>,  <code>5.12.0-1</code>,  </span></summary>
+      
 
+      ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``,  ``5.12.0-2``,  ``5.12.0-1``,  ``5.12.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libxml2: ``>=2.9.12,<2.10.0a0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libxml2: ``>=2.10.4,<2.11.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

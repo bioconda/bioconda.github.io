@@ -28,10 +28,10 @@ sdm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.06-0</code>,  <code>2.05-0</code>,  <code>2.02-1</code>,  <code>2.02-0</code>,  <code>1.94-1</code>,  <code>1.94-0</code>,  <code>1.93-0</code>,  <code>1.92-0</code>,  <code>1.90-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.08-2</code>,  <code>2.08-1</code>,  <code>2.08-0</code>,  <code>2.06-0</code>,  <code>2.05-0</code>,  <code>2.02-1</code>,  <code>2.02-0</code>,  <code>1.94-1</code>,  <code>1.94-0</code>,  </span></summary>
       
 
-      ``2.06-0``,  ``2.05-0``,  ``2.02-1``,  ``2.02-0``,  ``1.94-1``,  ``1.94-0``,  ``1.93-0``,  ``1.92-0``,  ``1.90-0``,  ``1.89-0``,  ``1.87-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
+      ``2.08-2``,  ``2.08-1``,  ``2.08-0``,  ``2.06-0``,  ``2.05-0``,  ``2.02-1``,  ``2.02-0``,  ``1.94-1``,  ``1.94-0``,  ``1.93-0``,  ``1.92-0``,  ``1.90-0``,  ``1.89-0``,  ``1.87-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ sdm
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ sdm
 
     <script>
         var package = "sdm";
-        var versions = ["2.06","2.05","2.02","2.02","1.94"];
+        var versions = ["2.08","2.08","2.08","2.06","2.05"];
     </script>
 
 

@@ -27,15 +27,15 @@ ima3
       
       
 
-      ``1.12-1``,  ``1.12-0``
+      ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends openmpi: ``>=1.8``
-   :depends openmpi: ``>=4.1.2,<5.0a0``
+   :depends openmpi: ``>=4.1.5,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ ima3
 
     <script>
         var package = "ima3";
-        var versions = ["1.12","1.12"];
+        var versions = ["1.12","1.12","1.12","1.12"];
     </script>
 
 

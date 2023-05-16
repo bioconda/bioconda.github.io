@@ -27,14 +27,14 @@ fermi-lite
       
       
 
-      ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-7``,  ``0.1-6``,  ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

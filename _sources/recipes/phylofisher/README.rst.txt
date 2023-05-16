@@ -26,9 +26,17 @@ phylofisher
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,11 +49,13 @@ phylofisher
    :depends ete3: 
    :depends fasttree: ``2.1.10.*``
    :depends hmmer: ``3.3.*``
+   :depends mafft: ``7.520.*``
    :depends matplotlib-base: 
    :depends pandas: 
    :depends pyqt: 
    :depends python: ``3.7.10.*``
    :depends snakemake-minimal: ``6.1.*``
+   :depends trimal: ``1.4.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +87,7 @@ phylofisher
 
     <script>
         var package = "phylofisher";
-        var versions = ["1.2.7","1.2.6","1.2.5","1.2.3","1.2.3"];
+        var versions = ["1.2.7","1.2.7","1.2.6","1.2.5","1.2.3"];
     </script>
 
 

@@ -27,7 +27,7 @@ vcfbub
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -64,7 +64,7 @@ vcfbub
 
     <script>
         var package = "vcfbub";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

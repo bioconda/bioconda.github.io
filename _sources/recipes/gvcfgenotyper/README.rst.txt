@@ -27,17 +27,17 @@ gvcfgenotyper
       
       
 
-      ``2019.02.26-2``,  ``2019.02.26-1``,  ``2019.02.26-0``,  ``2018.10.15-0``
+      ``2019.02.26-4``,  ``2019.02.26-3``,  ``2019.02.26-2``,  ``2019.02.26-1``,  ``2019.02.26-0``,  ``2018.10.15-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends xz: ``>=5.2.5,<5.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ gvcfgenotyper
 
     <script>
         var package = "gvcfgenotyper";
-        var versions = ["2019.02.26","2019.02.26","2019.02.26","2018.10.15"];
+        var versions = ["2019.02.26","2019.02.26","2019.02.26","2019.02.26","2019.02.26"];
     </script>
 
 

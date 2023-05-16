@@ -28,7 +28,7 @@ fastphylo
       
       
 
-      ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
@@ -38,10 +38,10 @@ fastphylo
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libxml2: ``>=2.9.14,<2.10.0a0``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends openmpi: ``<4.0.2``
    :depends openmpi: ``>=4.0.1,<4.1.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

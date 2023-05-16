@@ -27,14 +27,15 @@ perl-escape-houdini
       
       
 
-      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-exporter: 
+   :depends perl-module-build: ``0.4234.*``
    :depends perl-parent: 
    :requirements:
 
@@ -67,7 +68,7 @@ perl-escape-houdini
 
     <script>
         var package = "perl-escape-houdini";
-        var versions = ["0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.3.0","0.3.0","0.3.0","0.3.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ hi-corrector
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends openmpi: ``>=4.1.2,<5.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends openmpi: ``>=4.1.5,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ hi-corrector
 
     <script>
         var package = "hi-corrector";
-        var versions = ["1.2","1.2"];
+        var versions = ["1.2","1.2","1.2","1.2"];
     </script>
 
 

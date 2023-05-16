@@ -28,22 +28,30 @@ cortexpy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.46.5-3``,  ``0.46.5-2``,  ``0.46.5-1``,  ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.46.5-4</code>,  <code>0.46.5-3</code>,  <code>0.46.5-2</code>,  <code>0.46.5-1</code>,  <code>0.46.5-0</code>,  <code>0.46.4-0</code>,  <code>0.45.7-0</code>,  <code>0.45.6-0</code>,  <code>0.44.0-0</code>,  </span></summary>
+      
 
+      ``0.46.5-4``,  ``0.46.5-3``,  ``0.46.5-2``,  ``0.46.5-1``,  ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends attrs: 
    :depends biopython: 
    :depends delegation: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends msgpack-python: 
    :depends networkx: 
    :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends pyyaml: 
    :depends schema: 
    :requirements:
@@ -77,7 +85,7 @@ cortexpy
 
     <script>
         var package = "cortexpy";
-        var versions = ["0.46.5","0.46.5","0.46.5","0.46.5","0.46.4"];
+        var versions = ["0.46.5","0.46.5","0.46.5","0.46.5","0.46.5"];
     </script>
 
 

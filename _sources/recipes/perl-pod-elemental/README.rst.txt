@@ -26,9 +26,17 @@ perl-pod-elemental
    :versions:
       
       
+      .. raw:: html
 
-      ``0.103006-0``,  ``0.103005-1``,  ``0.103005-0``,  ``0.103004-5``,  ``0.103004-4``,  ``0.103004-3``,  ``0.103004-2``,  ``0.103004-1``,  ``0.103004-0``
+         <details><summary><span class="truncated-version-list"><code>0.103006-1</code>,  <code>0.103006-0</code>,  <code>0.103005-1</code>,  <code>0.103005-0</code>,  <code>0.103004-5</code>,  <code>0.103004-4</code>,  <code>0.103004-3</code>,  <code>0.103004-2</code>,  <code>0.103004-1</code>,  </span></summary>
+      
 
+      ``0.103006-1``,  ``0.103006-0``,  ``0.103005-1``,  ``0.103005-0``,  ``0.103004-5``,  ``0.103004-4``,  ``0.103004-3``,  ``0.103004-2``,  ``0.103004-1``,  ``0.103004-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,9 +44,9 @@ perl-pod-elemental
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-mixin-linewise: 
-   :depends perl-moose: ``2.2201.*``
+   :depends perl-moose: ``2.2203.*``
    :depends perl-moosex-types: 
-   :depends perl-pod-eventual: ``0.094002.*``
+   :depends perl-pod-eventual: ``0.094003.*``
    :depends perl-scalar-list-utils: 
    :depends perl-string-rewriteprefix: 
    :depends perl-string-truncate: 
@@ -74,7 +82,7 @@ perl-pod-elemental
 
     <script>
         var package = "perl-pod-elemental";
-        var versions = ["0.103006","0.103005","0.103005","0.103004","0.103004"];
+        var versions = ["0.103006","0.103006","0.103005","0.103005","0.103004"];
     </script>
 
 

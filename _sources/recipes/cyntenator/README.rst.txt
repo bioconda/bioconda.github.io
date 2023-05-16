@@ -27,13 +27,13 @@ cyntenator
       
       
 
-      ``0.0.r2326-1``,  ``0.0.r2326-0``
+      ``0.0.r2326-3``,  ``0.0.r2326-2``,  ``0.0.r2326-1``,  ``0.0.r2326-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ cyntenator
 
     <script>
         var package = "cyntenator";
-        var versions = ["0.0.r2326","0.0.r2326"];
+        var versions = ["0.0.r2326","0.0.r2326","0.0.r2326","0.0.r2326"];
     </script>
 
 

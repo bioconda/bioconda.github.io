@@ -27,7 +27,7 @@ artic-porechop
       
       
 
-      ``0.3.2pre-3``,  ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
+      ``0.3.2pre-4``,  ``0.3.2pre-3``,  ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
 
       
 
@@ -67,7 +67,7 @@ artic-porechop
 
     <script>
         var package = "artic-porechop";
-        var versions = ["0.3.2pre","0.3.2pre","0.3.2pre","0.3.2pre"];
+        var versions = ["0.3.2pre","0.3.2pre","0.3.2pre","0.3.2pre","0.3.2pre"];
     </script>
 
 

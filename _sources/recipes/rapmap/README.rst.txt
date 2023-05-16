@@ -28,10 +28,10 @@ rapmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-3</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>v0.2.1-2</code>,  <code>v0.2.1-1</code>,  <code>v0.2.0-1</code>,  <code>v0.1.0pre-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-4</code>,  <code>0.6.0-3</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>v0.2.1-2</code>,  <code>v0.2.1-1</code>,  <code>v0.2.0-1</code>,  </span></summary>
       
 
-      ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-0``,  ``v0.2.1-2``,  ``v0.2.1-1``,  ``v0.2.0-1``,  ``v0.1.0pre-3``,  ``v0.1.0pre-2``,  ``v0.1.0pre-1``
+      ``0.6.0-4``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-0``,  ``v0.2.1-2``,  ``v0.2.1-1``,  ``v0.2.0-1``,  ``v0.1.0pre-3``,  ``v0.1.0pre-2``,  ``v0.1.0pre-1``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ rapmap
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends jemalloc: ``>=5.1.0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libjemalloc: ``>=5.2.1``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libjemalloc: ``>=5.3.0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends tbb: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ rapmap
 
     <script>
         var package = "rapmap";
-        var versions = ["0.6.0","0.6.0","0.6.0","0.6.0","0.5.0"];
+        var versions = ["0.6.0","0.6.0","0.6.0","0.6.0","0.6.0"];
     </script>
 
 

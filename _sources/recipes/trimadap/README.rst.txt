@@ -28,10 +28,10 @@ trimadap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>r11-3</code>,  <code>r11-2</code>,  <code>r11-1</code>,  <code>r11-0</code>,  <code>r10-2</code>,  <code>r10-1</code>,  <code>r10-0</code>,  <code>r9-0</code>,  <code>r2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>r11-5</code>,  <code>r11-4</code>,  <code>r11-3</code>,  <code>r11-2</code>,  <code>r11-1</code>,  <code>r11-0</code>,  <code>r10-2</code>,  <code>r10-1</code>,  <code>r10-0</code>,  </span></summary>
       
 
-      ``r11-3``,  ``r11-2``,  ``r11-1``,  ``r11-0``,  ``r10-2``,  ``r10-1``,  ``r10-0``,  ``r9-0``,  ``r2-2``,  ``r2-1``,  ``r2-0``
+      ``r11-5``,  ``r11-4``,  ``r11-3``,  ``r11-2``,  ``r11-1``,  ``r11-0``,  ``r10-2``,  ``r10-1``,  ``r10-0``,  ``r9-0``,  ``r2-3``,  ``r2-2``,  ``r2-1``,  ``r2-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ trimadap
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ trimadap
 
     <script>
         var package = "trimadap";
-        var versions = ["r11","r11","r11","r11","r10"];
+        var versions = ["r11","r11","r11","r11","r11"];
     </script>
 
 

@@ -26,14 +26,22 @@ treebest
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.2.post1-3``,  ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.2.post1-5</code>,  <code>1.9.2.post1-4</code>,  <code>1.9.2.post1-3</code>,  <code>1.9.2.post1-2</code>,  <code>1.9.2.post1-1</code>,  <code>1.9.2.post1-0</code>,  <code>1.9.2.post0-0</code>,  <code>1.9.2_ep78-2</code>,  <code>1.9.2_ep78-1</code>,  </span></summary>
+      
 
+      ``1.9.2.post1-5``,  ``1.9.2.post1-4``,  ``1.9.2.post1-3``,  ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +73,7 @@ treebest
 
     <script>
         var package = "treebest";
-        var versions = ["1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post0"];
+        var versions = ["1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post1"];
     </script>
 
 

@@ -28,13 +28,13 @@ gassst
       
       
 
-      ``1.28-0``
+      ``1.28-1``,  ``1.28-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ gassst
 
     <script>
         var package = "gassst";
-        var versions = ["1.28"];
+        var versions = ["1.28","1.28"];
     </script>
 
 

@@ -27,13 +27,13 @@ perl-unicode-normalize
       
       
 
-      ``1.26-3``,  ``1.26-2``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.18-0``
+      ``1.26-5``,  ``1.26-4``,  ``1.26-3``,  ``1.26-2``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.18-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
@@ -69,7 +69,7 @@ perl-unicode-normalize
 
     <script>
         var package = "perl-unicode-normalize";
-        var versions = ["1.26","1.26","1.26","1.26","1.25"];
+        var versions = ["1.26","1.26","1.26","1.26","1.26"];
     </script>
 
 

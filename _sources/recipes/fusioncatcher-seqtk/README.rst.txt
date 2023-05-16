@@ -27,14 +27,13 @@ fusioncatcher-seqtk
       
       
 
-      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ fusioncatcher-seqtk
 
     <script>
         var package = "fusioncatcher-seqtk";
-        var versions = ["1.2","1.2","1.2","1.2"];
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
     </script>
 
 

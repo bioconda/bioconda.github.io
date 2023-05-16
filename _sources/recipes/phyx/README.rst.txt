@@ -27,16 +27,16 @@ phyx
       
       
 
-      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends armadillo: ``>=10.8,<11.0a0``
+   :depends armadillo: ``>=12.2,<13.0a0``
    :depends lapack: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends nlopt: ``>=2.7.1,<2.7.2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends nlopt: ``>=2.7.1,<2.8.0a0``
    :depends openblas: 
    :requirements:
 
@@ -69,7 +69,7 @@ phyx
 
     <script>
         var package = "phyx";
-        var versions = ["1.1","1.1","1.1"];
+        var versions = ["1.1","1.1","1.1","1.1","1.1"];
     </script>
 
 

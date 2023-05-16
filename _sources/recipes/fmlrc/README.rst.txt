@@ -28,13 +28,13 @@ fmlrc
       
       
 
-      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.2-0``
+      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ fmlrc
 
     <script>
         var package = "fmlrc";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","0.1.2"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

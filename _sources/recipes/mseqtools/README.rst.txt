@@ -27,16 +27,16 @@ mseqtools
       
       
 
-      ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
    
    :depends argtable2: 
    :depends gzip: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ mseqtools
 
     <script>
         var package = "mseqtools";
-        var versions = ["0.9.1","0.9.1","0.9.0"];
+        var versions = ["0.9.1","0.9.1","0.9.1","0.9.0"];
     </script>
 
 

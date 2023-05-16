@@ -27,14 +27,14 @@ mrsfast
       
       
 
-      ``3.4.2-2``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``
+      ``3.4.2-4``,  ``3.4.2-3``,  ``3.4.2-2``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ mrsfast
 
     <script>
         var package = "mrsfast";
-        var versions = ["3.4.2","3.4.2","3.4.2","3.4.1"];
+        var versions = ["3.4.2","3.4.2","3.4.2","3.4.2","3.4.2"];
     </script>
 
 

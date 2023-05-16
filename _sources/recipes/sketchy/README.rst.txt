@@ -26,9 +26,17 @@ sketchy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.1-0``,  ``0.4.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.4.5-2</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.3.1-0</code>,  </span></summary>
+      
 
+      ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.1-0``,  ``0.4.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -64,7 +72,7 @@ sketchy
 
     <script>
         var package = "sketchy";
-        var versions = ["0.6.0","0.4.5","0.4.5","0.4.5","0.4.4"];
+        var versions = ["0.6.0","0.6.0","0.6.0","0.4.5","0.4.5"];
     </script>
 
 

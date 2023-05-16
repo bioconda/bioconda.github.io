@@ -26,16 +26,24 @@ poseidon-trident
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.11.0-2</code>,  <code>1.1.11.0-1</code>,  <code>1.1.11.0-0</code>,  <code>1.1.6.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.3-1</code>,  <code>0.26.3-0</code>,  <code>0.26.1-1</code>,  <code>0.26.1-0</code>,  </span></summary>
+      
 
+      ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +75,7 @@ poseidon-trident
 
     <script>
         var package = "poseidon-trident";
-        var versions = ["1.1.11.0","1.1.6.0","0.28.0","0.26.3","0.26.3"];
+        var versions = ["1.1.11.0","1.1.11.0","1.1.11.0","1.1.6.0","0.28.0"];
     </script>
 
 

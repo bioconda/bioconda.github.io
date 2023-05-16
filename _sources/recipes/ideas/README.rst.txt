@@ -27,13 +27,13 @@ ideas
       
       
 
-      ``1.20-4``,  ``1.20-3``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``
+      ``1.20-5``,  ``1.20-4``,  ``1.20-3``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends mkl: 
    :requirements:
 

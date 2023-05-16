@@ -27,17 +27,17 @@ atlas
       
       
 
-      ``0.9.9-1``,  ``0.9.9-0``
+      ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
 
       
 
    
-   :depends armadillo: ``>=11.2,<12.0a0``
+   :depends armadillo: ``>=12.2,<13.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ atlas
 
     <script>
         var package = "atlas";
-        var versions = ["0.9.9","0.9.9"];
+        var versions = ["0.9.9","0.9.9","0.9.9","0.9.9"];
     </script>
 
 

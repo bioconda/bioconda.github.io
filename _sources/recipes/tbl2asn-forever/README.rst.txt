@@ -27,12 +27,12 @@ tbl2asn-forever
       
       
 
-      ``25.7.2f-2``,  ``25.7.2f-1``,  ``25.7.2f-0``,  ``25.7.1f-0``,  ``25.7f-0``
+      ``25.7.2f-3``,  ``25.7.2f-2``,  ``25.7.2f-1``,  ``25.7.2f-0``,  ``25.7.1f-0``,  ``25.7f-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libidn11: 
    :depends zlib: 
    :requirements:
@@ -66,7 +66,7 @@ tbl2asn-forever
 
     <script>
         var package = "tbl2asn-forever";
-        var versions = ["25.7.2f","25.7.2f","25.7.2f","25.7.1f","25.7f"];
+        var versions = ["25.7.2f","25.7.2f","25.7.2f","25.7.2f","25.7.1f"];
     </script>
 
 

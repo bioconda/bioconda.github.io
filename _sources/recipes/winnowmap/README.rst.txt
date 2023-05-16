@@ -28,15 +28,15 @@ winnowmap
       
       
 
-      ``2.03-1``,  ``2.03-0``,  ``2.02-0``,  ``2.01-0``,  ``2.0-1``,  ``2.0-0``
+      ``2.03-2``,  ``2.03-1``,  ``2.03-0``,  ``2.02-0``,  ``2.01-0``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends meryl: ``>=1.2,<2013``
    :requirements:
 
@@ -69,7 +69,7 @@ winnowmap
 
     <script>
         var package = "winnowmap";
-        var versions = ["2.03","2.03","2.02","2.01","2.0"];
+        var versions = ["2.03","2.03","2.03","2.02","2.01"];
     </script>
 
 

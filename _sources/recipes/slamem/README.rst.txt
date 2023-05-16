@@ -27,12 +27,12 @@ slamem
       
       
 
-      ``0.8.5-1``,  ``0.8.5-0``,  ``v0.8.5-0``
+      ``0.8.5-3``,  ``0.8.5-2``,  ``0.8.5-1``,  ``0.8.5-0``,  ``v0.8.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ slamem
 
     <script>
         var package = "slamem";
-        var versions = ["0.8.5","0.8.5","v0.8.5"];
+        var versions = ["0.8.5","0.8.5","0.8.5","0.8.5","v0.8.5"];
     </script>
 
 

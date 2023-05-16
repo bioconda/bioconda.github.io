@@ -27,7 +27,7 @@ nanomonsv
       
       
 
-      ``0.5.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -74,7 +74,7 @@ nanomonsv
 
     <script>
         var package = "nanomonsv";
-        var versions = ["0.5.0"];
+        var versions = ["0.5.1","0.5.0"];
     </script>
 
 

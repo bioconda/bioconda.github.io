@@ -28,13 +28,13 @@ expressbetadiversity
       
       
 
-      ``1.0.10-3``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``
+      ``1.0.10-4``,  ``1.0.10-3``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends python: ``>=3``
@@ -69,7 +69,7 @@ expressbetadiversity
 
     <script>
         var package = "expressbetadiversity";
-        var versions = ["1.0.10","1.0.10","1.0.10","1.0.10"];
+        var versions = ["1.0.10","1.0.10","1.0.10","1.0.10","1.0.10"];
     </script>
 
 

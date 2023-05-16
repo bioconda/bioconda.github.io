@@ -30,13 +30,21 @@ fraggenescan
    :versions:
       
       
+      .. raw:: html
 
-      ``1.31-4``,  ``1.31-3``,  ``1.31-2``,  ``1.31-1``,  ``1.31-0``,  ``1.30-2``,  ``1.30-1``,  ``1.30-0``
+         <details><summary><span class="truncated-version-list"><code>1.31-6</code>,  <code>1.31-5</code>,  <code>1.31-4</code>,  <code>1.31-3</code>,  <code>1.31-2</code>,  <code>1.31-1</code>,  <code>1.31-0</code>,  <code>1.30-2</code>,  <code>1.30-1</code>,  </span></summary>
+      
 
+      ``1.31-6``,  ``1.31-5``,  ``1.31-4``,  ``1.31-3``,  ``1.31-2``,  ``1.31-1``,  ``1.31-0``,  ``1.30-2``,  ``1.30-1``,  ``1.30-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: 
    :requirements:
 

@@ -27,15 +27,15 @@ muse
       
       
 
-      ``1.0.rc-6``,  ``1.0.rc-5``,  ``1.0.rc-4``,  ``1.0.rc-3``,  ``1.0.rc-2``,  ``1.0.rc-1``,  ``1.0.rc-0``
+      ``1.0.rc-8``,  ``1.0.rc-7``,  ``1.0.rc-6``,  ``1.0.rc-5``,  ``1.0.rc-4``,  ``1.0.rc-3``,  ``1.0.rc-2``,  ``1.0.rc-1``,  ``1.0.rc-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

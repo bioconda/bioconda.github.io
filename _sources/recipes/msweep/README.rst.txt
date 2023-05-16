@@ -28,7 +28,7 @@ msweep
       
       
 
-      ``1.6.3-0``
+      ``1.6.3-1``,  ``1.6.3-0``
 
       
 
@@ -70,7 +70,7 @@ msweep
 
     <script>
         var package = "msweep";
-        var versions = ["1.6.3"];
+        var versions = ["1.6.3","1.6.3"];
     </script>
 
 

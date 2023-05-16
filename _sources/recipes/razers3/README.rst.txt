@@ -26,17 +26,25 @@ razers3
    :versions:
       
       
+      .. raw:: html
 
-      ``3.5.8-2``,  ``3.5.8-1``,  ``3.5.8-0``,  ``3.5.3-3``,  ``3.5.3-2``,  ``3.5.3-1``,  ``3.5.3-0``,  ``3.5.0-1``,  ``3.5.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.5.8-3</code>,  <code>3.5.8-2</code>,  <code>3.5.8-1</code>,  <code>3.5.8-0</code>,  <code>3.5.3-3</code>,  <code>3.5.3-2</code>,  <code>3.5.3-1</code>,  <code>3.5.3-0</code>,  <code>3.5.0-1</code>,  </span></summary>
+      
 
+      ``3.5.8-3``,  ``3.5.8-2``,  ``3.5.8-1``,  ``3.5.8-0``,  ``3.5.3-3``,  ``3.5.3-2``,  ``3.5.3-1``,  ``3.5.3-0``,  ``3.5.0-1``,  ``3.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ razers3
 
     <script>
         var package = "razers3";
-        var versions = ["3.5.8","3.5.8","3.5.8","3.5.3","3.5.3"];
+        var versions = ["3.5.8","3.5.8","3.5.8","3.5.8","3.5.3"];
     </script>
 
 

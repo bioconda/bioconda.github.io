@@ -31,13 +31,13 @@ kssd
       
       
 
-      ``2.21-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``2.21-1``,  ``2.21-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ kssd
 
     <script>
         var package = "kssd";
-        var versions = ["2.21","1.1","1.1","1.1","1.0"];
+        var versions = ["2.21","2.21","1.1","1.1","1.1"];
     </script>
 
 

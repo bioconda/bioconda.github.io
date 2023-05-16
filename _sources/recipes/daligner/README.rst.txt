@@ -26,13 +26,21 @@ daligner
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.20200322-2``,  ``1.0.20200322-1``,  ``1.0.20200322-0``,  ``1.0-0``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.20200322-3</code>,  <code>1.0.20200322-2</code>,  <code>1.0.20200322-1</code>,  <code>1.0.20200322-0</code>,  <code>1.0-0</code>,  <code>1.0p2-1</code>,  <code>1.0p2-0</code>,  <code>1.0p1-2</code>,  <code>1.0p1-1</code>,  </span></summary>
+      
 
+      ``1.0.20200322-3``,  ``1.0.20200322-2``,  ``1.0.20200322-1``,  ``1.0.20200322-0``,  ``1.0-0``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +72,7 @@ daligner
 
     <script>
         var package = "daligner";
-        var versions = ["1.0.20200322","1.0.20200322","1.0.20200322","1.0","1.0p2"];
+        var versions = ["1.0.20200322","1.0.20200322","1.0.20200322","1.0.20200322","1.0"];
     </script>
 
 

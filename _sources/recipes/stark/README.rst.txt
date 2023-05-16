@@ -27,13 +27,13 @@ stark
       
       
 
-      ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1-0``
+      ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ stark
 
     <script>
         var package = "stark";
-        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1","0.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1","0.1.1"];
     </script>
 
 

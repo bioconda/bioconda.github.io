@@ -27,14 +27,14 @@ necat
       
       
 
-      ``0.0.1_update20200803-2``,  ``0.0.1_update20200803-1``,  ``0.0.1_update20200803-0``
+      ``0.0.1_update20200803-4``,  ``0.0.1_update20200803-3``,  ``0.0.1_update20200803-2``,  ``0.0.1_update20200803-1``,  ``0.0.1_update20200803-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: 
    :depends perl-env: 
    :requirements:
@@ -68,7 +68,7 @@ necat
 
     <script>
         var package = "necat";
-        var versions = ["0.0.1_update20200803","0.0.1_update20200803","0.0.1_update20200803"];
+        var versions = ["0.0.1_update20200803","0.0.1_update20200803","0.0.1_update20200803","0.0.1_update20200803","0.0.1_update20200803"];
     </script>
 
 

@@ -27,13 +27,13 @@ apt-probeset-summarize
       
       
 
-      ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``
+      ``2.10.0-4``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ apt-probeset-summarize
 
     <script>
         var package = "apt-probeset-summarize";
-        var versions = ["2.10.0","2.10.0","2.10.0","2.10.0"];
+        var versions = ["2.10.0","2.10.0","2.10.0","2.10.0","2.10.0"];
     </script>
 
 

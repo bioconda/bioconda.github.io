@@ -13,7 +13,7 @@ plotsr
    Visualiser for structural annotations between multiple genomes
 
    :homepage: https://github.com/schneebergerlab/plotsr
-   :license: MIT License
+   :license: MIT / MIT
    :recipe: /`plotsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plotsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plotsr/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ plotsr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.4-0</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ plotsr
 
     <script>
         var package = "plotsr";
-        var versions = ["1.0.0","0.5.4","0.5.3","0.5.2","0.5.1"];
+        var versions = ["1.1.1","1.1.0","1.0.0","0.5.4","0.5.3"];
     </script>
 
 

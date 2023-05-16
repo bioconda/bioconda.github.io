@@ -28,10 +28,10 @@ rscape
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>0.8.3-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-4</code>,  <code>1.4.0-3</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.0.4-2</code>,  </span></summary>
       
 
-      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.3.1-0``,  ``0.2.1-0``
+      ``1.4.0-4``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``0.8.3-7``,  ``0.8.3-6``,  ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.3.1-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ rscape
 
    
    :depends gnuplot: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: 
    :requirements:
 
@@ -75,7 +75,7 @@ rscape
 
     <script>
         var package = "rscape";
-        var versions = ["1.4.0","1.4.0","1.4.0","1.2.2","1.2.2"];
+        var versions = ["1.4.0","1.4.0","1.4.0","1.4.0","1.4.0"];
     </script>
 
 

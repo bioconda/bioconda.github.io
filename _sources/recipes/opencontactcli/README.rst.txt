@@ -27,17 +27,17 @@ opencontactcli
       
       
 
-      ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends numpy: ``>=1.16.5,<2.0a0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libgfortran5: ``>=12.2.0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

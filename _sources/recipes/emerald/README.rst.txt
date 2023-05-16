@@ -28,7 +28,7 @@ emerald
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
 
@@ -68,7 +68,7 @@ emerald
 
     <script>
         var package = "emerald";
-        var versions = ["1.1.0","1.0.1"];
+        var versions = ["1.1.0","1.1.0","1.0.1"];
     </script>
 
 

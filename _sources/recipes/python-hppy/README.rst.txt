@@ -27,16 +27,16 @@ python-hppy
       
       
 
-      ``0.9.8-5``,  ``0.9.8-4``,  ``0.9.8-3``,  ``0.9.8-2``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.6-0``
+      ``0.9.8-6``,  ``0.9.8-5``,  ``0.9.8-4``,  ``0.9.8-3``,  ``0.9.8-2``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-fakemp: 
    :depends python-hyphy-python: 
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

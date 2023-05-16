@@ -10,14 +10,14 @@ ganon
    :replaces_section_title:
    :noindex:
 
-   ganon classifies short DNA sequences against large sets of genomic reference sequences efficiently
+   ganon classifies DNA sequences against large sets of genomic reference sequences efficiently
 
    :homepage: https://github.com/pirovc/ganon
    :license: MIT / MIT License
    :recipe: /`ganon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ganon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ganon/meta.yaml>`_
    :links: doi: :doi:`10.1101/406017`
 
-   ganon classifies short DNA sequences against large sets of genomic sequences efficiently\, 
+   ganon classifies DNA sequences against large sets of genomic sequences efficiently\, 
    with download and update of references \(RefSeq\/Genbank\)\, taxonomic \(NCBI\/GTDB\) and 
    hierarchical classification\, customized reporting and more
 
@@ -32,10 +32,10 @@ ganon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  </span></summary>
       
 
-      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ ganon
    :depends coreutils: 
    :depends curl: ``>=7.88.1,<8.0a0``
    :depends diffutils: 
-   :depends genome_updater: ``0.5.2``
+   :depends genome_updater: ``>=0.6.2``
    :depends grep: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -89,7 +89,7 @@ ganon
 
     <script>
         var package = "ganon";
-        var versions = ["1.5.1","1.5.0","1.4.0","1.3.0","1.2.0"];
+        var versions = ["1.6.0","1.5.1","1.5.0","1.4.0","1.3.0"];
     </script>
 
 

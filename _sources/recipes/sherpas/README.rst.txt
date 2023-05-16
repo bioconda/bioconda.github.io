@@ -28,14 +28,13 @@ sherpas
       
       
 
-      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-0``
+      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends libcxx: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ sherpas
 
     <script>
         var package = "sherpas";
-        var versions = ["1.0.2","1.0.2","1.0.2","1.0.0"];
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

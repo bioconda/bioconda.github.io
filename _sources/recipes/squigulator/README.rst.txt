@@ -27,7 +27,7 @@ squigulator
       
       
 
-      ``0.2.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -67,7 +67,7 @@ squigulator
 
     <script>
         var package = "squigulator";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.0","0.2.0"];
     </script>
 
 

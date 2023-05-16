@@ -27,7 +27,7 @@ core-snp-filter
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -66,7 +66,7 @@ core-snp-filter
 
     <script>
         var package = "core-snp-filter";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

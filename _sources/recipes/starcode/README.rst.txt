@@ -26,13 +26,21 @@ starcode
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-1``,  ``1.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.4-4</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.1-1</code>,  </span></summary>
+      
 
+      ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-1``,  ``1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +72,7 @@ starcode
 
     <script>
         var package = "starcode";
-        var versions = ["1.4","1.4","1.4","1.3","1.3"];
+        var versions = ["1.4","1.4","1.4","1.4","1.4"];
     </script>
 
 

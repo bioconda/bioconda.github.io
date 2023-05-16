@@ -28,10 +28,10 @@ nanoq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  <code>0.8.5-1</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-2</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  <code>0.8.5-1</code>,  <code>0.8.5-0</code>,  </span></summary>
       
 
-      ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.2.1-0``
+      ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ nanoq
 
     <script>
         var package = "nanoq";
-        var versions = ["0.10.0","0.9.0","0.9.0","0.8.6","0.8.6"];
+        var versions = ["0.10.0","0.10.0","0.10.0","0.9.0","0.9.0"];
     </script>
 
 

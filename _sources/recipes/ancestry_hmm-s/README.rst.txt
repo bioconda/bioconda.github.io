@@ -32,14 +32,14 @@ ancestry_hmm-s
       
       
 
-      ``0.9.0.2-2``,  ``0.9.0.2-1``,  ``0.9.0.2-0``
+      ``0.9.0.2-4``,  ``0.9.0.2-3``,  ``0.9.0.2-2``,  ``0.9.0.2-1``,  ``0.9.0.2-0``
 
       
 
    
-   :depends armadillo: ``>=10.8,<11.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends armadillo: ``>=12.2,<13.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ ancestry_hmm-s
 
     <script>
         var package = "ancestry_hmm-s";
-        var versions = ["0.9.0.2","0.9.0.2","0.9.0.2"];
+        var versions = ["0.9.0.2","0.9.0.2","0.9.0.2","0.9.0.2","0.9.0.2"];
     </script>
 
 

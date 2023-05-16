@@ -29,10 +29,10 @@ kmergenie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7051-4</code>,  <code>1.7051-3</code>,  <code>1.7051-2</code>,  <code>1.7051-1</code>,  <code>1.7051-0</code>,  <code>1.7016-5</code>,  <code>1.7016-4</code>,  <code>1.7016-3</code>,  <code>1.7016-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7051-7</code>,  <code>1.7051-5</code>,  <code>1.7051-4</code>,  <code>1.7051-3</code>,  <code>1.7051-2</code>,  <code>1.7051-1</code>,  <code>1.7051-0</code>,  <code>1.7016-5</code>,  <code>1.7016-4</code>,  </span></summary>
       
 
-      ``1.7051-4``,  ``1.7051-3``,  ``1.7051-2``,  ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
+      ``1.7051-7``,  ``1.7051-5``,  ``1.7051-4``,  ``1.7051-3``,  ``1.7051-2``,  ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
 
       
       .. raw:: html

@@ -26,17 +26,25 @@ treekin
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``
+         <details><summary><span class="truncated-version-list"><code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.3.1-3</code>,  </span></summary>
+      
 
+      ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends lapack: ``<3.9``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgfortran5: ``>=12.2.0``
+   :depends libstdcxx-ng: ``>=12``
    :depends mlapack: 
    :requirements:
 
@@ -69,7 +77,7 @@ treekin
 
     <script>
         var package = "treekin";
-        var versions = ["0.5.1","0.5.1","0.5.1","0.4.2","0.4.2"];
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.5.1"];
     </script>
 
 

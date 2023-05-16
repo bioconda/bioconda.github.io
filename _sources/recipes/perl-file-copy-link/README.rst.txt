@@ -27,13 +27,14 @@ perl-file-copy-link
       
       
 
-      ``0.140-4``,  ``0.140-3``,  ``0.140-2``,  ``0.140-1``,  ``0.140-0``
+      ``0.140-6``,  ``0.140-5``,  ``0.140-4``,  ``0.140-3``,  ``0.140-2``,  ``0.140-1``,  ``0.140-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-module-build: ``0.4234.*``
    :requirements:
 
    .. rubric:: Installation

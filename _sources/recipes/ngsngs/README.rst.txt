@@ -28,7 +28,7 @@ ngsngs
       
       
 
-      ``0.9.0-0``
+      ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -38,8 +38,8 @@ ngsngs
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends xz: ``>=5.2.6,<5.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ ngsngs
 
     <script>
         var package = "ngsngs";
-        var versions = ["0.9.0"];
+        var versions = ["0.9.0","0.9.0"];
     </script>
 
 

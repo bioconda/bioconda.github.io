@@ -28,14 +28,13 @@ tmalign
       
       
 
-      ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
+      ``20170708-6``,  ``20170708-5``,  ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=12.2.0``
    :requirements:
 
    .. rubric:: Installation

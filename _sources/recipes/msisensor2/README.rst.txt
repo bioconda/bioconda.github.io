@@ -27,7 +27,7 @@ msisensor2
       
       
 
-      ``0.1-0``
+      ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
@@ -36,8 +36,8 @@ msisensor2
    :depends libgcc-ng: ``>=12``
    :depends libgomp: 
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ msisensor2
 
     <script>
         var package = "msisensor2";
-        var versions = ["0.1"];
+        var versions = ["0.1","0.1","0.1"];
     </script>
 
 

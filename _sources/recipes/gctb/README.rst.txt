@@ -27,12 +27,12 @@ gctb
       
       
 
-      ``2.0-0``
+      ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ gctb
 
     <script>
         var package = "gctb";
-        var versions = ["2.0"];
+        var versions = ["2.0","2.0"];
     </script>
 
 

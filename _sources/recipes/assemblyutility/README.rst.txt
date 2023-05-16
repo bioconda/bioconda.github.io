@@ -27,15 +27,15 @@ assemblyutility
       
       
 
-      ``20160209-5``,  ``20160209-4``,  ``20160209-3``,  ``20160209-2``,  ``20160209-1``,  ``20160209-0``
+      ``20160209-7``,  ``20160209-6``,  ``20160209-5``,  ``20160209-4``,  ``20160209-3``,  ``20160209-2``,  ``20160209-1``,  ``20160209-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

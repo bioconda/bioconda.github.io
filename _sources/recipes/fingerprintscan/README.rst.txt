@@ -27,13 +27,13 @@ fingerprintscan
       
       
 
-      ``3_597-2``,  ``3_597-1``,  ``3_597-0``
+      ``3_597-4``,  ``3_597-3``,  ``3_597-2``,  ``3_597-1``,  ``3_597-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ fingerprintscan
 
     <script>
         var package = "fingerprintscan";
-        var versions = ["3_597","3_597","3_597"];
+        var versions = ["3_597","3_597","3_597","3_597","3_597"];
     </script>
 
 

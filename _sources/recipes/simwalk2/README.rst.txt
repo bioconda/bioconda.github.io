@@ -27,14 +27,14 @@ simwalk2
       
       
 
-      ``2.91-4``,  ``2.91-3``,  ``2.91-2``,  ``2.91-1``,  ``2.91-0``
+      ``2.91-5``,  ``2.91-4``,  ``2.91-3``,  ``2.91-2``,  ``2.91-1``,  ``2.91-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
+   :depends libgfortran5: ``>=10.4.0``
    :requirements:
 
    .. rubric:: Installation

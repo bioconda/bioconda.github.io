@@ -29,10 +29,10 @@ quast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.0.2-7</code>,  <code>5.0.2-6</code>,  <code>5.0.2-5</code>,  <code>5.0.2-4</code>,  <code>5.0.2-3</code>,  <code>5.0.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.0-3</code>,  <code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.0.2-7</code>,  <code>5.0.2-6</code>,  <code>5.0.2-5</code>,  <code>5.0.2-4</code>,  <code>5.0.2-3</code>,  </span></summary>
       
 
-      ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.0.2-7``,  ``5.0.2-6``,  ``5.0.2-5``,  ``5.0.2-4``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.6.3-2``,  ``4.6.3-1``,  ``4.6.3-0``,  ``4.6.1-0``,  ``4.5-1``,  ``4.4-1``,  ``4.4-0``,  ``4.3-2``,  ``4.3-1``,  ``4.1-1``,  ``4.1-0``,  ``3.2-1``
+      ``5.2.0-3``,  ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.0.2-7``,  ``5.0.2-6``,  ``5.0.2-5``,  ``5.0.2-4``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.6.3-2``,  ``4.6.3-1``,  ``4.6.3-0``,  ``4.6.1-0``,  ``4.5-1``,  ``4.4-1``,  ``4.4-0``,  ``4.3-2``,  ``4.3-1``,  ``4.1-1``,  ``4.1-0``,  ``3.2-1``
 
       
       .. raw:: html
@@ -49,13 +49,13 @@ quast
    :depends joblib: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends matplotlib-base: 
    :depends minimap2: ``>=2.10``
    :depends openjdk: ``>=8``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends simplejson: 
    :requirements:
 
@@ -88,7 +88,7 @@ quast
 
     <script>
         var package = "quast";
-        var versions = ["5.2.0","5.2.0","5.2.0","5.0.2","5.0.2"];
+        var versions = ["5.2.0","5.2.0","5.2.0","5.2.0","5.0.2"];
     </script>
 
 

@@ -10,7 +10,7 @@ phables
    :replaces_section_title:
    :noindex:
 
-   Phables\: Phage bubbles resolve bacteriophage genomes in viral metagenomic samples
+   Phables\: from fragmented assemblies to high\-quality bacteriophage genomes
 
    :homepage: https://github.com/Vini2/phables
    :documentation: https://phables.readthedocs.io/
@@ -30,7 +30,7 @@ phables
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.1.0b7-0``
+      ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.1.0b7-0``
 
       
 
@@ -72,7 +72,7 @@ phables
 
     <script>
         var package = "phables";
-        var versions = ["0.2.0","0.1.1","0.1.0","0.1.0b7"];
+        var versions = ["1.0.0","0.2.0","0.1.1","0.1.0","0.1.0b7"];
     </script>
 
 

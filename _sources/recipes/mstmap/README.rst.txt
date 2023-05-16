@@ -28,13 +28,13 @@ mstmap
       
       
 
-      ``1-1``,  ``1-0``
+      ``1-2``,  ``1-1``,  ``1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends tar: 
    :requirements:
 
@@ -67,7 +67,7 @@ mstmap
 
     <script>
         var package = "mstmap";
-        var versions = ["1","1"];
+        var versions = ["1","1","1"];
     </script>
 
 

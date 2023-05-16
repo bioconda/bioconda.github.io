@@ -27,14 +27,14 @@ ropebwt2
       
       
 
-      ``r187-6``,  ``r187-5``,  ``r187-4``,  ``r187-3``,  ``r187-2``,  ``r187-1``,  ``r187-0``
+      ``r187-8``,  ``r187-7``,  ``r187-6``,  ``r187-5``,  ``r187-4``,  ``r187-3``,  ``r187-2``,  ``r187-1``,  ``r187-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

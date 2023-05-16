@@ -26,15 +26,23 @@ bfc
    :versions:
       
       
+      .. raw:: html
 
-      ``r181-7``,  ``r181-6``,  ``r181-5``,  ``r181-4``,  ``r181-3``,  ``r181-2``,  ``r181-1``,  ``r181-0``
+         <details><summary><span class="truncated-version-list"><code>r181-9</code>,  <code>r181-8</code>,  <code>r181-7</code>,  <code>r181-6</code>,  <code>r181-5</code>,  <code>r181-4</code>,  <code>r181-3</code>,  <code>r181-2</code>,  <code>r181-1</code>,  </span></summary>
+      
 
+      ``r181-9``,  ``r181-8``,  ``r181-7``,  ``r181-6``,  ``r181-5``,  ``r181-4``,  ``r181-3``,  ``r181-2``,  ``r181-1``,  ``r181-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

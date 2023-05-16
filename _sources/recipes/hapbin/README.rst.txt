@@ -27,14 +27,14 @@ hapbin
       
       
 
-      ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ hapbin
 
     <script>
         var package = "hapbin";
-        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.0.0"];
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.3.0"];
     </script>
 
 

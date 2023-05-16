@@ -26,16 +26,24 @@ perl-perlio-gzip
    :versions:
       
       
+      .. raw:: html
 
-      ``0.20-3``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+         <details><summary><span class="truncated-version-list"><code>0.20-5</code>,  <code>0.20-4</code>,  <code>0.20-3</code>,  <code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-3</code>,  <code>0.19-2</code>,  <code>0.19-1</code>,  </span></summary>
+      
 
+      ``0.20-5``,  ``0.20-4``,  ``0.20-3``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +75,7 @@ perl-perlio-gzip
 
     <script>
         var package = "perl-perlio-gzip";
-        var versions = ["0.20","0.20","0.20","0.20","0.19"];
+        var versions = ["0.20","0.20","0.20","0.20","0.20"];
     </script>
 
 

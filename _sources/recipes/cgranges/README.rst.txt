@@ -27,7 +27,7 @@ cgranges
       
       
 
-      ``0.1-1``,  ``0.1-0``
+      ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
@@ -66,7 +66,7 @@ cgranges
 
     <script>
         var package = "cgranges";
-        var versions = ["0.1","0.1"];
+        var versions = ["0.1","0.1","0.1"];
     </script>
 
 

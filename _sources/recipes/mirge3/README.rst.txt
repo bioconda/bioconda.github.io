@@ -30,10 +30,10 @@ mirge3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.4-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  </span></summary>
       
 
-      ``0.1.4-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ mirge3
       
 
    
+   :depends bioconductor-deseq2: 
    :depends biopython: 
    :depends bowtie: 
    :depends cutadapt: 
@@ -50,6 +51,7 @@ mirge3
    :depends matplotlib-base: 
    :depends pandas: 
    :depends python: 
+   :depends r-ggplot2: 
    :depends reportlab: ``>=3.5.42``
    :depends samtools: 
    :depends scikit-learn: 
@@ -86,7 +88,7 @@ mirge3
 
     <script>
         var package = "mirge3";
-        var versions = ["0.1.4","0.1.2","0.1.2","0.1.1","0.0.9"];
+        var versions = ["0.1.4","0.1.4","0.1.2","0.1.2","0.1.1"];
     </script>
 
 

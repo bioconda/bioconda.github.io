@@ -27,12 +27,12 @@ miranda
       
       
 
-      ``3.3a-4``,  ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
+      ``3.3a-6``,  ``3.3a-5``,  ``3.3a-4``,  ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

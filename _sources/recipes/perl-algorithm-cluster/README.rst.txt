@@ -26,13 +26,21 @@ perl-algorithm-cluster
    :versions:
       
       
+      .. raw:: html
 
-      ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
+         <details><summary><span class="truncated-version-list"><code>1.59-3</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.56-0</code>,  <code>1.52-1</code>,  </span></summary>
+      
 
+      ``1.59-3``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -65,7 +73,7 @@ perl-algorithm-cluster
 
     <script>
         var package = "perl-algorithm-cluster";
-        var versions = ["1.59","1.59","1.58","1.58","1.57"];
+        var versions = ["1.59","1.59","1.59","1.59","1.58"];
     </script>
 
 

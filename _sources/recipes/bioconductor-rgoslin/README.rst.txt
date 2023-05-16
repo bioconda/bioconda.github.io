@@ -27,15 +27,14 @@ bioconductor-rgoslin
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 
    :depends r-rcpp: ``>=1.0.3``
@@ -70,7 +69,7 @@ bioconductor-rgoslin
 
     <script>
         var package = "bioconductor-rgoslin";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0"];
     </script>
 
 

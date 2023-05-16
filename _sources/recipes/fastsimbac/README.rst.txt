@@ -27,14 +27,14 @@ fastsimbac
       
       
 
-      ``1.0.1_bd3ad13d8f79-3``,  ``1.0.1_bd3ad13d8f79-2``,  ``1.0.1_bd3ad13d8f79-1``,  ``1.0.1_bd3ad13d8f79-0``
+      ``1.0.1_bd3ad13d8f79-5``,  ``1.0.1_bd3ad13d8f79-4``,  ``1.0.1_bd3ad13d8f79-3``,  ``1.0.1_bd3ad13d8f79-2``,  ``1.0.1_bd3ad13d8f79-1``,  ``1.0.1_bd3ad13d8f79-0``
 
       
 
    
-   :depends boost: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends boost: ``>=1.78.0,<1.78.1.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ fastsimbac
 
     <script>
         var package = "fastsimbac";
-        var versions = ["1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79"];
+        var versions = ["1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79"];
     </script>
 
 

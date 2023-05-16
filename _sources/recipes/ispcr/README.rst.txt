@@ -28,12 +28,12 @@ ispcr
       
       
 
-      ``33-3``,  ``33-2``,  ``33-1``,  ``33-0``
+      ``33-5``,  ``33-4``,  ``33-3``,  ``33-2``,  ``33-1``,  ``33-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ ispcr
 
     <script>
         var package = "ispcr";
-        var versions = ["33","33","33","33"];
+        var versions = ["33","33","33","33","33"];
     </script>
 
 

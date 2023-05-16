@@ -29,10 +29,10 @@ hhsuite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-2</code>,  <code>3.3.0-1</code>,  <code>3.3.0-0</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-2</code>,  <code>3.3.0-1</code>,  <code>3.3.0-0</code>,  <code>3.2.0-2</code>,  </span></summary>
       
 
-      ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
+      ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ hhsuite
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

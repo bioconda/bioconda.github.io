@@ -31,13 +31,12 @@ nerpa
       
       
 
-      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends networkx: 
    :depends openjdk: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -74,7 +73,7 @@ nerpa
 
     <script>
         var package = "nerpa";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

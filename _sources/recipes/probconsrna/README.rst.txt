@@ -28,13 +28,12 @@ probconsrna
       
       
 
-      ``1.10-2``,  ``1.10-1``,  ``1.10-0``
+      ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=14.0.6``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ probconsrna
 
     <script>
         var package = "probconsrna";
-        var versions = ["1.10","1.10","1.10"];
+        var versions = ["1.10","1.10","1.10","1.10"];
     </script>
 
 

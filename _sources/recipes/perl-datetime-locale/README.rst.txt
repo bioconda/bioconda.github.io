@@ -28,10 +28,10 @@ perl-datetime-locale
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  <code>1.12-5</code>,  <code>1.12-4</code>,  <code>1.12-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38-1</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  <code>1.12-5</code>,  <code>1.12-4</code>,  </span></summary>
       
 
-      ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
+      ``1.38-1``,  ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
 
       
       .. raw:: html
@@ -82,7 +82,7 @@ perl-datetime-locale
 
     <script>
         var package = "perl-datetime-locale";
-        var versions = ["1.38","1.37","1.36","1.35","1.34"];
+        var versions = ["1.38","1.38","1.37","1.36","1.35"];
     </script>
 
 

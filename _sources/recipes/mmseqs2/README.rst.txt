@@ -29,10 +29,10 @@ mmseqs2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>14.7e284-0</code>,  <code>13.45111-2</code>,  <code>13.45111-1</code>,  <code>13.45111-0</code>,  <code>12.113e3-2</code>,  <code>12.113e3-1</code>,  <code>12.113e3-0</code>,  <code>11.e1a1c-0</code>,  <code>10.6d92c-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>14.7e284-2</code>,  <code>14.7e284-1</code>,  <code>14.7e284-0</code>,  <code>13.45111-2</code>,  <code>13.45111-1</code>,  <code>13.45111-0</code>,  <code>12.113e3-2</code>,  <code>12.113e3-1</code>,  <code>12.113e3-0</code>,  </span></summary>
       
 
-      ``14.7e284-0``,  ``13.45111-2``,  ``13.45111-1``,  ``13.45111-0``,  ``12.113e3-2``,  ``12.113e3-1``,  ``12.113e3-0``,  ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
+      ``14.7e284-2``,  ``14.7e284-1``,  ``14.7e284-0``,  ``13.45111-2``,  ``13.45111-1``,  ``13.45111-0``,  ``12.113e3-2``,  ``12.113e3-1``,  ``12.113e3-0``,  ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
 
       
       .. raw:: html
@@ -47,10 +47,10 @@ mmseqs2
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ mmseqs2
 
     <script>
         var package = "mmseqs2";
-        var versions = ["14.7e284","13.45111","13.45111","13.45111","12.113e3"];
+        var versions = ["14.7e284","14.7e284","14.7e284","13.45111","13.45111"];
     </script>
 
 

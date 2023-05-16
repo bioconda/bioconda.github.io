@@ -26,13 +26,21 @@ perl-config-any
    :versions:
       
       
+      .. raw:: html
 
-      ``0.32-3``,  ``0.32-2``,  ``0.32-1``,  ``0.32-0``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
+         <details><summary><span class="truncated-version-list"><code>0.33-2</code>,  <code>0.33-1</code>,  <code>0.33-0</code>,  <code>0.32-3</code>,  <code>0.32-2</code>,  <code>0.32-1</code>,  <code>0.32-0</code>,  <code>0.27-2</code>,  <code>0.27-1</code>,  </span></summary>
+      
 
+      ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-3``,  ``0.32-2``,  ``0.32-1``,  ``0.32-0``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :requirements:
@@ -66,7 +74,7 @@ perl-config-any
 
     <script>
         var package = "perl-config-any";
-        var versions = ["0.32","0.32","0.32","0.32","0.27"];
+        var versions = ["0.33","0.33","0.33","0.32","0.32"];
     </script>
 
 

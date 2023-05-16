@@ -26,9 +26,17 @@ plink2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.00a3.7-2``,  ``2.00a3.7-1``,  ``2.00a3.7-0``,  ``2.00a3.3-0``,  ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
+         <details><summary><span class="truncated-version-list"><code>2.00a3.7-4</code>,  <code>2.00a3.7-3</code>,  <code>2.00a3.7-2</code>,  <code>2.00a3.7-1</code>,  <code>2.00a3.7-0</code>,  <code>2.00a3.3-0</code>,  <code>2.00a2.3-2</code>,  <code>2.00a2.3-1</code>,  <code>2.00a2.3-0</code>,  </span></summary>
+      
 
+      ``2.00a3.7-4``,  ``2.00a3.7-3``,  ``2.00a3.7-2``,  ``2.00a3.7-1``,  ``2.00a3.7-0``,  ``2.00a3.3-0``,  ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -65,7 +73,7 @@ plink2
 
     <script>
         var package = "plink2";
-        var versions = ["2.00a3.7","2.00a3.7","2.00a3.7","2.00a3.3","2.00a2.3"];
+        var versions = ["2.00a3.7","2.00a3.7","2.00a3.7","2.00a3.7","2.00a3.7"];
     </script>
 
 

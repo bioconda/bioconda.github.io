@@ -27,7 +27,7 @@ perl-template-toolkit
       
       
 
-      ``3.100-1``,  ``3.100-0``,  ``3.010-1``,  ``3.010-0``,  ``2.26-2``,  ``2.26-1``,  ``2.26-0``
+      ``3.100-2``,  ``3.100-1``,  ``3.100-0``,  ``3.010-1``,  ``3.010-0``,  ``2.26-2``,  ``2.26-1``,  ``2.26-0``
 
       
 
@@ -37,6 +37,7 @@ perl-template-toolkit
    :depends perl-appconfig: 
    :depends perl-image-info: 
    :depends perl-image-size: 
+   :depends perl-test-leaktrace: ``0.17.*``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +69,7 @@ perl-template-toolkit
 
     <script>
         var package = "perl-template-toolkit";
-        var versions = ["3.100","3.100","3.010","3.010","2.26"];
+        var versions = ["3.100","3.100","3.100","3.010","3.010"];
     </script>
 
 

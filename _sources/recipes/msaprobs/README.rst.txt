@@ -28,11 +28,12 @@ msaprobs
       
       
 
-      ``0.9.7-1``,  ``0.9.7-0``
+      ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -66,7 +67,7 @@ msaprobs
 
     <script>
         var package = "msaprobs";
-        var versions = ["0.9.7","0.9.7"];
+        var versions = ["0.9.7","0.9.7","0.9.7","0.9.7"];
     </script>
 
 

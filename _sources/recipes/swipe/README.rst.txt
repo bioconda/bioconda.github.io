@@ -28,16 +28,24 @@ swipe
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.12-1</code>,  </span></summary>
+      
 
+      ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openmpi: ``>=4.1.4,<5.0a0``
-   :depends tbb: ``>=2021.5.0``
+   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends tbb: ``>=2021.9.0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +77,7 @@ swipe
 
     <script>
         var package = "swipe";
-        var versions = ["2.1.1","2.1.1","2.1.1","2.1.0","2.1.0"];
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1.1","2.1.1"];
     </script>
 
 

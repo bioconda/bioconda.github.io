@@ -13,7 +13,7 @@ nanocaller
    NanoCaller for accurate detection of SNPs and indels in difficult\-to\-map regions from long\-read sequencing.
 
    :homepage: https://github.com/WGLab/NanoCaller
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`nanocaller <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocaller>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocaller/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ nanocaller
       
       
 
-      ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
 
@@ -39,6 +39,7 @@ nanocaller
    :depends parasail-python: 
    :depends pysam: 
    :depends python: ``>=3.8,<3.9``
+   :depends rtg-tools: 
    :depends samtools: ``>=1.10``
    :depends tensorflow: ``>=2.7,<2.8``
    :depends tqdm: 
@@ -75,7 +76,7 @@ nanocaller
 
     <script>
         var package = "nanocaller";
-        var versions = ["3.0.1","3.0.0","2.1.2","2.1.2","2.1.1"];
+        var versions = ["3.2.0","3.1.0","3.0.1","3.0.0","2.1.2"];
     </script>
 
 

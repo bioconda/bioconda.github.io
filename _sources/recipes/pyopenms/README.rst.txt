@@ -29,10 +29,10 @@ pyopenms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.1-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  </span></summary>
       
 
-      ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ pyopenms
 
     <script>
         var package = "pyopenms";
-        var versions = ["2.9.1","2.8.0","2.8.0","2.7.0","2.6.0"];
+        var versions = ["2.9.1","2.9.1","2.8.0","2.8.0","2.7.0"];
     </script>
 
 

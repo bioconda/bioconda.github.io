@@ -28,12 +28,12 @@ bicseq2-seg
       
       
 
-      ``0.7.2-3``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``
+      ``0.7.2-5``,  ``0.7.2-4``,  ``0.7.2-3``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: 
    :depends r-base: 
    :requirements:
@@ -67,7 +67,7 @@ bicseq2-seg
 
     <script>
         var package = "bicseq2-seg";
-        var versions = ["0.7.2","0.7.2","0.7.2","0.7.2"];
+        var versions = ["0.7.2","0.7.2","0.7.2","0.7.2","0.7.2"];
     </script>
 
 

@@ -26,14 +26,22 @@ clonalframeml
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
+         <details><summary><span class="truncated-version-list"><code>1.12-4</code>,  <code>1.12-3</code>,  <code>1.12-2</code>,  <code>1.12-1</code>,  <code>1.12-0</code>,  <code>1.11-6</code>,  <code>1.11-5</code>,  <code>1.11-4</code>,  <code>1.11-3</code>,  </span></summary>
+      
 
+      ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-6``,  ``1.11-5``,  ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +73,7 @@ clonalframeml
 
     <script>
         var package = "clonalframeml";
-        var versions = ["1.12","1.12","1.12","1.11","1.11"];
+        var versions = ["1.12","1.12","1.12","1.12","1.12"];
     </script>
 
 

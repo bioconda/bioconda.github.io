@@ -27,15 +27,15 @@ fermi
       
       
 
-      ``1.1_r751_beta-6``,  ``1.1_r751_beta-5``,  ``1.1_r751_beta-4``,  ``1.1_r751_beta-3``,  ``1.1_r751_beta-2``,  ``1.1_r751_beta-1``,  ``1.1_r751_beta-0``
+      ``1.1_r751_beta-8``,  ``1.1_r751_beta-7``,  ``1.1_r751_beta-6``,  ``1.1_r751_beta-5``,  ``1.1_r751_beta-4``,  ``1.1_r751_beta-3``,  ``1.1_r751_beta-2``,  ``1.1_r751_beta-1``,  ``1.1_r751_beta-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

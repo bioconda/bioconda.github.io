@@ -27,14 +27,14 @@ wise2
       
       
 
-      ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``
+      ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``
 
       
 
    
    :depends glib: 
    :depends libgcc-ng: ``>=12``
-   :depends libglib: ``>=2.74.1,<3.0a0``
+   :depends libglib: ``>=2.76.2,<3.0a0``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
 
@@ -67,7 +67,7 @@ wise2
 
     <script>
         var package = "wise2";
-        var versions = ["2.4.1","2.4.1","2.4.1"];
+        var versions = ["2.4.1","2.4.1","2.4.1","2.4.1","2.4.1"];
     </script>
 
 

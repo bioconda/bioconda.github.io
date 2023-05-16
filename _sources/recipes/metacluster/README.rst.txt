@@ -32,13 +32,13 @@ metacluster
       
       
 
-      ``5.1-4``,  ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1-0``
+      ``5.1-6``,  ``5.1-5``,  ``5.1-4``,  ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

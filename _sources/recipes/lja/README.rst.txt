@@ -27,7 +27,7 @@ lja
       
       
 
-      ``0.2-0``
+      ``0.2-1``,  ``0.2-0``
 
       
 
@@ -67,7 +67,7 @@ lja
 
     <script>
         var package = "lja";
-        var versions = ["0.2"];
+        var versions = ["0.2","0.2"];
     </script>
 
 

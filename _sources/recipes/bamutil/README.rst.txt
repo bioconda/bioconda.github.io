@@ -27,16 +27,24 @@ bamutil
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.15-2``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-5``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.15-3</code>,  <code>1.0.15-2</code>,  <code>1.0.15-1</code>,  <code>1.0.15-0</code>,  <code>1.0.14-5</code>,  <code>1.0.14-4</code>,  <code>1.0.14-3</code>,  <code>1.0.14-2</code>,  <code>1.0.14-1</code>,  </span></summary>
+      
 
+      ``1.0.15-3``,  ``1.0.15-2``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-5``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ bamutil
 
     <script>
         var package = "bamutil";
-        var versions = ["1.0.15","1.0.15","1.0.15","1.0.14","1.0.14"];
+        var versions = ["1.0.15","1.0.15","1.0.15","1.0.15","1.0.14"];
     </script>
 
 

@@ -27,16 +27,17 @@ perl-unicode-utf8
       
       
 
-      ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
+      ``0.62-6``,  ``0.62-5``,  ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
+   :depends perl-test-fatal: ``0.016.*``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +69,7 @@ perl-unicode-utf8
 
     <script>
         var package = "perl-unicode-utf8";
-        var versions = ["0.62","0.62","0.62","0.62"];
+        var versions = ["0.62","0.62","0.62","0.62","0.62"];
     </script>
 
 

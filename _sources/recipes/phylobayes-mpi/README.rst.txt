@@ -27,14 +27,14 @@ phylobayes-mpi
       
       
 
-      ``1.9-0``,  ``1.8c-2``,  ``1.8c-1``,  ``1.8c-0``,  ``1.8b-0``
+      ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8c-2``,  ``1.8c-1``,  ``1.8c-0``,  ``1.8b-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openmpi: ``>=4.1.3,<5.0a0``
+   :depends openmpi: ``>=4.1.5,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ phylobayes-mpi
 
     <script>
         var package = "phylobayes-mpi";
-        var versions = ["1.9","1.8c","1.8c","1.8c","1.8b"];
+        var versions = ["1.9","1.9","1.9","1.8c","1.8c"];
     </script>
 
 

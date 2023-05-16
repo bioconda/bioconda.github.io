@@ -27,13 +27,13 @@ peregrine-2021
       
       
 
-      ``0.4.13-1``,  ``0.4.13-0``,  ``0.4.12-0``
+      ``0.4.13-3``,  ``0.4.13-2``,  ``0.4.13-1``,  ``0.4.13-0``,  ``0.4.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends parallel: 
    :requirements:
 
@@ -66,7 +66,7 @@ peregrine-2021
 
     <script>
         var package = "peregrine-2021";
-        var versions = ["0.4.13","0.4.13","0.4.12"];
+        var versions = ["0.4.13","0.4.13","0.4.13","0.4.13","0.4.12"];
     </script>
 
 

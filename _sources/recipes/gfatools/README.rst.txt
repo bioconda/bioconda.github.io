@@ -27,13 +27,13 @@ gfatools
       
       
 
-      ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``
+      ``0.5-4``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ gfatools
 
     <script>
         var package = "gfatools";
-        var versions = ["0.5","0.5","0.5","0.4","0.4"];
+        var versions = ["0.5","0.5","0.5","0.5","0.5"];
     </script>
 
 

@@ -27,15 +27,15 @@ dawg
       
       
 
-      ``2.0.beta1-5``,  ``2.0.beta1-4``,  ``2.0.beta1-3``,  ``2.0.beta1-2``,  ``2.0.beta1-1``,  ``2.0.beta1-0``
+      ``2.0.beta1-7``,  ``2.0.beta1-6``,  ``2.0.beta1-5``,  ``2.0.beta1-4``,  ``2.0.beta1-3``,  ``2.0.beta1-2``,  ``2.0.beta1-1``,  ``2.0.beta1-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

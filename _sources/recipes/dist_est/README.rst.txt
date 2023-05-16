@@ -27,15 +27,14 @@ dist_est
       
       
 
-      ``1.1-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=12.2.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ dist_est
 
     <script>
         var package = "dist_est";
-        var versions = ["1.1"];
+        var versions = ["1.1","1.1","1.1"];
     </script>
 
 

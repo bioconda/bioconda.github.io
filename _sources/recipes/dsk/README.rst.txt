@@ -28,15 +28,15 @@ dsk
       
       
 
-      ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``
+      ``2.3.3-4``,  ``2.3.3-3``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ dsk
 
     <script>
         var package = "dsk";
-        var versions = ["2.3.3","2.3.3","2.3.3","2.3.1","2.2.0"];
+        var versions = ["2.3.3","2.3.3","2.3.3","2.3.3","2.3.3"];
     </script>
 
 

@@ -26,9 +26,17 @@ bioconductor-metaseqr2
    :versions:
       
       
+      .. raw:: html
 
-      ``1.10.0-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.11-0``
+         <details><summary><span class="truncated-version-list"><code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.11-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -115,7 +123,7 @@ bioconductor-metaseqr2
 
     <script>
         var package = "bioconductor-metaseqr2";
-        var versions = ["1.10.0","1.6.1","1.6.1","1.6.0","1.4.0"];
+        var versions = ["1.10.0","1.10.0","1.6.1","1.6.1","1.6.0"];
     </script>
 
 

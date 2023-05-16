@@ -27,7 +27,7 @@ rock
       
       
 
-      ``2.0-0``
+      ``2.0-1``,  ``2.0-0``
 
       
 
@@ -65,7 +65,7 @@ rock
 
     <script>
         var package = "rock";
-        var versions = ["2.0"];
+        var versions = ["2.0","2.0"];
     </script>
 
 

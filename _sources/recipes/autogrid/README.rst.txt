@@ -27,14 +27,13 @@ autogrid
       
       
 
-      ``4.2.6-1``,  ``4.2.6-0``
+      ``4.2.6-3``,  ``4.2.6-2``,  ``4.2.6-1``,  ``4.2.6-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=15.0.7``
+   :depends llvm-openmp: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ autogrid
 
     <script>
         var package = "autogrid";
-        var versions = ["4.2.6","4.2.6"];
+        var versions = ["4.2.6","4.2.6","4.2.6","4.2.6"];
     </script>
 
 

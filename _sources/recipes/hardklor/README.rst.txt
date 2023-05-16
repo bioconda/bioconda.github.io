@@ -28,13 +28,13 @@ hardklor
       
       
 
-      ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ hardklor
 
     <script>
         var package = "hardklor";
-        var versions = ["2.3.2","2.3.2","2.3.2","2.3.0","2.3.0"];
+        var versions = ["2.3.2","2.3.2","2.3.2","2.3.2","2.3.2"];
     </script>
 
 

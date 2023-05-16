@@ -27,14 +27,14 @@ libbambamc
       
       
 
-      ``0.0.50-3``,  ``0.0.50-2``,  ``0.0.50-1``,  ``0.0.50-0``
+      ``0.0.50-5``,  ``0.0.50-4``,  ``0.0.50-3``,  ``0.0.50-2``,  ``0.0.50-1``,  ``0.0.50-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ libbambamc
 
     <script>
         var package = "libbambamc";
-        var versions = ["0.0.50","0.0.50","0.0.50","0.0.50"];
+        var versions = ["0.0.50","0.0.50","0.0.50","0.0.50","0.0.50"];
     </script>
 
 

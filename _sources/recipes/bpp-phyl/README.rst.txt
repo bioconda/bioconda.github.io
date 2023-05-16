@@ -27,14 +27,14 @@ bpp-phyl
       
       
 
-      ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
+      ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
 
       
 
    
    :depends bpp-seq: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bpp-phyl
 
     <script>
         var package = "bpp-phyl";
-        var versions = ["2.4.1","2.4.1","2.4.1","2.4.1","2.2.0"];
+        var versions = ["2.4.1","2.4.1","2.4.1","2.4.1","2.4.1"];
     </script>
 
 

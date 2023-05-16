@@ -28,13 +28,13 @@ gloome
       
       
 
-      ``VR01.266-1``,  ``VR01.266-0``
+      ``VR01.266-3``,  ``VR01.266-2``,  ``VR01.266-1``,  ``VR01.266-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ gloome
 
     <script>
         var package = "gloome";
-        var versions = ["VR01.266","VR01.266"];
+        var versions = ["VR01.266","VR01.266","VR01.266","VR01.266"];
     </script>
 
 

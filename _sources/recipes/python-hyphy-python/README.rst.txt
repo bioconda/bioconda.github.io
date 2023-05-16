@@ -28,10 +28,10 @@ python-hyphy-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.10-2</code>,  <code>0.1.10-1</code>,  <code>0.1.10-0</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.10-5</code>,  <code>0.1.10-3</code>,  <code>0.1.10-2</code>,  <code>0.1.10-1</code>,  <code>0.1.10-0</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  </span></summary>
       
 
-      ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.3-0``
+      ``0.1.10-5``,  ``0.1.10-3``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ python-hyphy-python
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libcurl: ``>=7.81.0,<8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libcurl: ``>=8.0.1,<9.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ python-hyphy-python
 
     <script>
         var package = "python-hyphy-python";
-        var versions = ["0.1.10","0.1.10","0.1.10","0.1.9","0.1.9"];
+        var versions = ["0.1.10","0.1.10","0.1.10","0.1.10","0.1.10"];
     </script>
 
 

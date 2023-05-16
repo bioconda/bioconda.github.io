@@ -15,7 +15,7 @@ foldseek
    :homepage: https://github.com/steineggerlab/foldseek
    :license: GPL / GPL-3
    :recipe: /`foldseek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldseek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldseek/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2022.02.07.479398`, biotools: :biotools:`foldseek`
+   :links: doi: :doi:`10.1038/s41587-023-01773-0`, biotools: :biotools:`foldseek`
 
    
 
@@ -27,9 +27,17 @@ foldseek
    :versions:
       
       
+      .. raw:: html
 
-      ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
+         <details><summary><span class="truncated-version-list"><code>6.29e2557-1</code>,  <code>6.29e2557-0</code>,  <code>5.53465f0-0</code>,  <code>4.645b789-0</code>,  <code>3.915ef7d-1</code>,  <code>3.915ef7d-0</code>,  <code>2.8bd520-1</code>,  <code>2.8bd520-0</code>,  <code>1.3c64211-1</code>,  </span></summary>
+      
 
+      ``6.29e2557-1``,  ``6.29e2557-0``,  ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -74,7 +82,7 @@ foldseek
 
     <script>
         var package = "foldseek";
-        var versions = ["5.53465f0","4.645b789","3.915ef7d","3.915ef7d","2.8bd520"];
+        var versions = ["6.29e2557","6.29e2557","5.53465f0","4.645b789","3.915ef7d"];
     </script>
 
 

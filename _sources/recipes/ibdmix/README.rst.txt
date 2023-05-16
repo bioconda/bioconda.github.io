@@ -28,7 +28,7 @@ ibdmix
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -66,7 +66,7 @@ ibdmix
 
     <script>
         var package = "ibdmix";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1"];
     </script>
 
 

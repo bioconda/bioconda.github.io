@@ -27,7 +27,7 @@ cagee
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
@@ -70,7 +70,7 @@ cagee
 
     <script>
         var package = "cagee";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

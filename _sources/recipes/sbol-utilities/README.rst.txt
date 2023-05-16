@@ -27,7 +27,7 @@ sbol-utilities
       
       
 
-      ``1.0a16-0``
+      ``1.0a17-0``,  ``1.0a16-0``
 
       
 
@@ -37,12 +37,12 @@ sbol-utilities
    :depends openjdk: 
    :depends openpyxl: 
    :depends pysbol2: ``v1.4.1.*``
-   :depends pysbol3: ``>=1.0.1``
+   :depends pysbol3: ``>=1.1``
    :depends python: ``>=3.7``
    :depends python-graphviz: 
-   :depends rdflib: 
-   :depends sbol_factory: ``>=1.0``
-   :depends tyto: ``>=1.0b3``
+   :depends rdflib: ``>=6.2``
+   :depends sbol_factory: ``>=1.1``
+   :depends tyto: ``>=1.4``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ sbol-utilities
 
     <script>
         var package = "sbol-utilities";
-        var versions = ["1.0a16"];
+        var versions = ["1.0a17","1.0a16"];
     </script>
 
 

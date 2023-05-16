@@ -28,13 +28,12 @@ ripser
       
       
 
-      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ ripser
 
     <script>
         var package = "ripser";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

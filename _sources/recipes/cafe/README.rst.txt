@@ -27,16 +27,24 @@ cafe
    :versions:
       
       
+      .. raw:: html
 
-      ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.0-3</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.1-5</code>,  <code>4.2.1-4</code>,  <code>4.2.1-3</code>,  <code>4.2.1-2</code>,  <code>4.2.1-1</code>,  </span></summary>
+      
 
+      ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-5``,  ``4.2.1-4``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ cafe
 
     <script>
         var package = "cafe";
-        var versions = ["5.0.0","5.0.0","4.2.1","4.2.1","4.2.1"];
+        var versions = ["5.0.0","5.0.0","5.0.0","5.0.0","4.2.1"];
     </script>
 
 

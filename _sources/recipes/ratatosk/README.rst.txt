@@ -27,7 +27,7 @@ ratatosk
       
       
 
-      ``0.7.6.3-0``
+      ``0.7.6.3-2``,  ``0.7.6.3-1``,  ``0.7.6.3-0``
 
       
 
@@ -35,7 +35,7 @@ ratatosk
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ ratatosk
 
     <script>
         var package = "ratatosk";
-        var versions = ["0.7.6.3"];
+        var versions = ["0.7.6.3","0.7.6.3","0.7.6.3"];
     </script>
 
 

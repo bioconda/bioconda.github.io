@@ -28,7 +28,7 @@ haplocheck
       
       
 
-      ``1.3.3-0``
+      ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``
 
       
 
@@ -65,7 +65,7 @@ haplocheck
 
     <script>
         var package = "haplocheck";
-        var versions = ["1.3.3"];
+        var versions = ["1.3.3","1.3.3","1.3.3"];
     </script>
 
 

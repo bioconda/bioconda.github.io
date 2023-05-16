@@ -27,15 +27,15 @@ revbayes
       
       
 
-      ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
+      ``1.0.13-7``,  ``1.0.13-6``,  ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.77.0,<1.77.1.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends openmpi: ``>=4.1.2,<5.0a0``
+   :depends boost-cpp: ``>=1.82.0,<1.82.1.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends openmpi: ``>=4.1.5,<5.0a0``
    :requirements:
 
    .. rubric:: Installation

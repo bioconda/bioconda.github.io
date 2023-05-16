@@ -27,7 +27,7 @@ vechat
       
       
 
-      ``1.1.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -70,7 +70,7 @@ vechat
 
     <script>
         var package = "vechat";
-        var versions = ["1.1.1"];
+        var versions = ["1.1.1","1.1.1"];
     </script>
 
 

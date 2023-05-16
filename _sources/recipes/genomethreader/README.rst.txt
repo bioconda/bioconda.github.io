@@ -28,13 +28,13 @@ genomethreader
       
       
 
-      ``1.7.1-4``,  ``1.7.1-3``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``
+      ``1.7.1-5``,  ``1.7.1-4``,  ``1.7.1-3``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

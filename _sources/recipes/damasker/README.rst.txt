@@ -27,12 +27,12 @@ damasker
       
       
 
-      ``1.0p1-4``,  ``1.0p1-3``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
+      ``1.0p1-6``,  ``1.0p1-5``,  ``1.0p1-4``,  ``1.0p1-3``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

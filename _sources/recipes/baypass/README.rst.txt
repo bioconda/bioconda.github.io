@@ -27,14 +27,14 @@ baypass
       
       
 
-      ``2.31-0``
+      ``2.31-2``,  ``2.31-1``,  ``2.31-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
+   :depends libgfortran5: ``>=12.2.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ baypass
 
     <script>
         var package = "baypass";
-        var versions = ["2.31"];
+        var versions = ["2.31","2.31","2.31"];
     </script>
 
 

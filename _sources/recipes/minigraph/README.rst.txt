@@ -27,9 +27,17 @@ minigraph
    :versions:
       
       
+      .. raw:: html
 
-      ``0.20-0``,  ``0.19-1``,  ``0.19-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
+         <details><summary><span class="truncated-version-list"><code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-1</code>,  <code>0.19-0</code>,  <code>0.18-0</code>,  <code>0.17-0</code>,  <code>0.16-1</code>,  <code>0.16-0</code>,  </span></summary>
+      
 
+      ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-1``,  ``0.19-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -66,7 +74,7 @@ minigraph
 
     <script>
         var package = "minigraph";
-        var versions = ["0.20","0.19","0.19","0.18","0.17"];
+        var versions = ["0.20","0.20","0.20","0.19","0.19"];
     </script>
 
 

@@ -28,7 +28,7 @@ provean
       
       
 
-      ``1.1.5-1``,  ``1.1.5-0``
+      ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``
 
       
 
@@ -68,7 +68,7 @@ provean
 
     <script>
         var package = "provean";
-        var versions = ["1.1.5","1.1.5"];
+        var versions = ["1.1.5","1.1.5","1.1.5"];
     </script>
 
 

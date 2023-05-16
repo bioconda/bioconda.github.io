@@ -27,12 +27,11 @@ perl-class-xsaccessor
       
       
 
-      ``1.19-5``,  ``1.19-4``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``
+      ``1.19-6``,  ``1.19-5``,  ``1.19-4``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-time-hires: 
    :requirements:

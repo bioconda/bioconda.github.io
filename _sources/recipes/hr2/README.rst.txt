@@ -27,13 +27,13 @@ hr2
       
       
 
-      ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+      ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ hr2
 
     <script>
         var package = "hr2";
-        var versions = ["1.04","1.04","1.04","1.04"];
+        var versions = ["1.04","1.04","1.04","1.04","1.04"];
     </script>
 
 

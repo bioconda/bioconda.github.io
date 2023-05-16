@@ -27,15 +27,15 @@ bloomfiltertrie
       
       
 
-      ``0.8.7-3``,  ``0.8.7-2``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.1-0``
+      ``0.8.7-5``,  ``0.8.7-4``,  ``0.8.7-3``,  ``0.8.7-2``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.1-0``
 
       
 
    
    :depends jemalloc: 
    :depends judy: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libjemalloc: ``>=5.2.1``
+   :depends libgcc-ng: ``>=12``
+   :depends libjemalloc: ``>=5.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bloomfiltertrie
 
     <script>
         var package = "bloomfiltertrie";
-        var versions = ["0.8.7","0.8.7","0.8.7","0.8.7","0.8.1"];
+        var versions = ["0.8.7","0.8.7","0.8.7","0.8.7","0.8.7"];
     </script>
 
 

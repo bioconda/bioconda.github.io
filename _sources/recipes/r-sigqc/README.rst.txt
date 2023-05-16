@@ -13,7 +13,7 @@ r-sigqc
    Provides gene signature quality control metrics in publication ready plots. Namely\, enables the visualization of properties such as expression\, variability\, correlation\, and comparison of methods of standardisation and scoring metrics.
 
    :homepage: https://CRAN.R-project.org/package=sigQC
-   :license: OTHER / file LICENSE (Restricts use)
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`r-sigqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sigqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sigqc/meta.yaml>`_
 
    
@@ -26,15 +26,22 @@ r-sigqc
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.22-2``,  ``0.1.22-1``,  ``0.1.22-0``,  ``0.1.21-4``,  ``0.1.21-3``,  ``0.1.21-2``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.14-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.23-0</code>,  <code>0.1.22-2</code>,  <code>0.1.22-1</code>,  <code>0.1.22-0</code>,  <code>0.1.21-4</code>,  <code>0.1.21-3</code>,  <code>0.1.21-2</code>,  <code>0.1.21-1</code>,  <code>0.1.21-0</code>,  </span></summary>
+      
 
+      ``0.1.23-0``,  ``0.1.22-2``,  ``0.1.22-1``,  ``0.1.22-0``,  ``0.1.21-4``,  ``0.1.21-3``,  ``0.1.21-2``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.14-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-complexheatmap: 
    :depends bioconductor-gsva: 
-   :depends bioconductor-rankprod: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-biclust: 
    :depends r-circlize: 
@@ -80,7 +87,7 @@ r-sigqc
 
     <script>
         var package = "r-sigqc";
-        var versions = ["0.1.22","0.1.22","0.1.22","0.1.21","0.1.21"];
+        var versions = ["0.1.23","0.1.22","0.1.22","0.1.22","0.1.21"];
     </script>
 
 

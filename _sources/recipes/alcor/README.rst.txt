@@ -27,7 +27,7 @@ alcor
       
       
 
-      ``1.9-0``,  ``1.8-0``
+      ``1.9-1``,  ``1.9-0``,  ``1.8-0``
 
       
 
@@ -67,7 +67,7 @@ alcor
 
     <script>
         var package = "alcor";
-        var versions = ["1.9","1.8"];
+        var versions = ["1.9","1.9","1.8"];
     </script>
 
 

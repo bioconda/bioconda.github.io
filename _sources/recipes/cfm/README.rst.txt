@@ -27,7 +27,7 @@ cfm
       
       
 
-      ``33-4``,  ``33-3``,  ``33-2``,  ``33-1``,  ``33-0``
+      ``33-6``,  ``33-5``,  ``33-4``,  ``33-3``,  ``33-2``,  ``33-1``,  ``33-0``
 
       
 
@@ -37,7 +37,7 @@ cfm
    :depends liblbfgs: ``>=1.10,<1.11.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends lp_solve: ``5.5.*``
-   :depends mpich: ``>=4.0.2,<5.0a0``
+   :depends mpich: ``>=4.1.1,<5.0a0``
    :depends rdkit: ``2018.09.1``
    :requirements:
 

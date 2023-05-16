@@ -27,12 +27,11 @@ mapad
       
       
 
-      ``0.42.1-0``,  ``0.41.0-0``
+      ``0.42.1-2``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.41.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
@@ -65,7 +64,7 @@ mapad
 
     <script>
         var package = "mapad";
-        var versions = ["0.42.1","0.41.0"];
+        var versions = ["0.42.1","0.42.1","0.42.1","0.41.0"];
     </script>
 
 

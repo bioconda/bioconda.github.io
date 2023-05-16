@@ -26,25 +26,33 @@ tadarida-d
    :versions:
       
       
+      .. raw:: html
 
-      ``1.03-6``,  ``1.03-5``,  ``1.03-4``,  ``1.03-3``,  ``1.03-1``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.03-8</code>,  <code>1.03-7</code>,  <code>1.03-6</code>,  <code>1.03-5</code>,  <code>1.03-4</code>,  <code>1.03-3</code>,  <code>1.03-1</code>,  <code>1.03-0</code>,  <code>1.02-0</code>,  </span></summary>
+      
 
+      ``1.03-8``,  ``1.03-7``,  ``1.03-6``,  ``1.03-5``,  ``1.03-4``,  ``1.03-3``,  ``1.03-1``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends fftw: ``>=3.3.10,<4.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libsndfile: ``>=1.0.31,<1.1.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends qt: ``>=4.8.7,<4.9.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libsndfile: ``>=1.2.0,<1.3.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends qt: ``<5``
    :depends xorg-libsm: 
    :depends xorg-libx11: 
    :depends xorg-libxau: 
    :depends xorg-libxdmcp: 
    :depends xorg-libxext: 
    :depends xorg-libxrender: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

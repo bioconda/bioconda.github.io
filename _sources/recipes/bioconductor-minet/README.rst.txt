@@ -29,10 +29,10 @@ bioconductor-minet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.56.0-0</code>,  <code>3.52.0-2</code>,  <code>3.52.0-1</code>,  <code>3.52.0-0</code>,  <code>3.50.0-0</code>,  <code>3.48.0-1</code>,  <code>3.48.0-0</code>,  <code>3.46.0-0</code>,  <code>3.44.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.56.0-2</code>,  <code>3.56.0-1</code>,  <code>3.56.0-0</code>,  <code>3.52.0-2</code>,  <code>3.52.0-1</code>,  <code>3.52.0-0</code>,  <code>3.50.0-0</code>,  <code>3.48.0-1</code>,  <code>3.48.0-0</code>,  </span></summary>
       
 
-      ``3.56.0-0``,  ``3.52.0-2``,  ``3.52.0-1``,  ``3.52.0-0``,  ``3.50.0-0``,  ``3.48.0-1``,  ``3.48.0-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-0``
+      ``3.56.0-2``,  ``3.56.0-1``,  ``3.56.0-0``,  ``3.52.0-2``,  ``3.52.0-1``,  ``3.52.0-0``,  ``3.50.0-0``,  ``3.48.0-1``,  ``3.48.0-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ bioconductor-minet
 
     <script>
         var package = "bioconductor-minet";
-        var versions = ["3.56.0","3.52.0","3.52.0","3.52.0","3.50.0"];
+        var versions = ["3.56.0","3.56.0","3.56.0","3.52.0","3.52.0"];
     </script>
 
 

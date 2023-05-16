@@ -27,7 +27,7 @@ hic-straw
       
       
 
-      ``1.3.1-0``
+      ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
@@ -69,7 +69,7 @@ hic-straw
 
     <script>
         var package = "hic-straw";
-        var versions = ["1.3.1"];
+        var versions = ["1.3.1","1.3.1","1.3.1"];
     </script>
 
 

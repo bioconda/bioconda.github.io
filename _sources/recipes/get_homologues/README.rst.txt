@@ -28,7 +28,7 @@ get_homologues
       
       
 
-      ``3.5.4-0``,  ``3.5.1-0``
+      ``3.5.5-0``,  ``3.5.4-0``,  ``3.5.1-0``
 
       
 
@@ -78,7 +78,7 @@ get_homologues
 
     <script>
         var package = "get_homologues";
-        var versions = ["3.5.4","3.5.1"];
+        var versions = ["3.5.5","3.5.4","3.5.1"];
     </script>
 
 

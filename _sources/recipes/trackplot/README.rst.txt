@@ -29,26 +29,27 @@ trackplot
       
       
 
-      ``0.2.1-0``
+      ``0.2.4-0``,  ``0.2.1-0``
 
       
 
    
-   :depends adjusttext: 
-   :depends cairocffi: 
+   :depends adjusttext: ``>=0.7.3``
+   :depends cairocffi: ``>=1.4.0``
    :depends click: 
    :depends click-option-group: 
-   :depends filetype: 
+   :depends filetype: ``>=1.2.0``
    :depends hicmatrix: 
    :depends loguru: 
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends pybigwig: 
-   :depends pysam: 
+   :depends matplotlib-base: ``>=3.6.3``
+   :depends numpy: ``>=1.24.1``
+   :depends pandas: ``>=1.5.3``
+   :depends pybigwig: ``>=0.3.18``
+   :depends pysam: ``>=0.20.0``
    :depends python: 
    :depends requests: 
-   :depends seaborn-base: 
+   :depends scipy: ``>=1.10.0``
+   :depends seaborn-base: ``>=0.12.2``
    :depends wheel: 
    :depends xmltodict: 
    :requirements:
@@ -82,7 +83,7 @@ trackplot
 
     <script>
         var package = "trackplot";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.4","0.2.1"];
     </script>
 
 

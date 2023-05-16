@@ -28,13 +28,13 @@ abawaca
       
       
 
-      ``1.00-4``,  ``1.00-3``,  ``1.00-2``,  ``1.00-1``,  ``1.00-0``
+      ``1.00-5``,  ``1.00-4``,  ``1.00-3``,  ``1.00-2``,  ``1.00-1``,  ``1.00-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

@@ -29,10 +29,10 @@ bioconductor-degseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  </span></summary>
       
 
-      ``1.52.0-0``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.30.0-0``
+      ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.30.0-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ bioconductor-degseq
 
     <script>
         var package = "bioconductor-degseq";
-        var versions = ["1.52.0","1.48.0","1.48.0","1.48.0","1.46.0"];
+        var versions = ["1.52.0","1.52.0","1.48.0","1.48.0","1.48.0"];
     </script>
 
 

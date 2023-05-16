@@ -26,18 +26,26 @@ pb-falconc
    :versions:
       
       
+      .. raw:: html
 
-      ``1.15.0-0``,  ``1.13.1-2``,  ``1.13.1-1``,  ``1.13.1-0``,  ``1.10.3-0``,  ``1.10.1-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.15.0-2</code>,  <code>1.15.0-1</code>,  <code>1.15.0-0</code>,  <code>1.13.1-2</code>,  <code>1.13.1-1</code>,  <code>1.13.1-0</code>,  <code>1.10.3-0</code>,  <code>1.10.1-0</code>,  <code>0.1.2-1</code>,  </span></summary>
+      
 
+      ``1.15.0-2``,  ``1.15.0-1``,  ``1.15.0-0``,  ``1.13.1-2``,  ``1.13.1-1``,  ``1.13.1-0``,  ``1.10.3-0``,  ``1.10.1-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends htslib: ``>=1.13``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +77,7 @@ pb-falconc
 
     <script>
         var package = "pb-falconc";
-        var versions = ["1.15.0","1.13.1","1.13.1","1.13.1","1.10.3"];
+        var versions = ["1.15.0","1.15.0","1.15.0","1.13.1","1.13.1"];
     </script>
 
 

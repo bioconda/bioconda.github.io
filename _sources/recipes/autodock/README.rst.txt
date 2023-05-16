@@ -27,14 +27,14 @@ autodock
       
       
 
-      ``4.2.6-1``,  ``4.2.6-0``
+      ``4.2.6-2``,  ``4.2.6-1``,  ``4.2.6-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ autodock
 
     <script>
         var package = "autodock";
-        var versions = ["4.2.6","4.2.6"];
+        var versions = ["4.2.6","4.2.6","4.2.6"];
     </script>
 
 

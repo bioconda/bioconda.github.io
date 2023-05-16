@@ -29,7 +29,7 @@ barseqcount
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -70,7 +70,7 @@ barseqcount
 
     <script>
         var package = "barseqcount";
-        var versions = ["0.1.4","0.1.3"];
+        var versions = ["0.1.5","0.1.4","0.1.3"];
     </script>
 
 

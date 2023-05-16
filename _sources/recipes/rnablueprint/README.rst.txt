@@ -29,10 +29,10 @@ rnablueprint
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-4</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.2-6</code>,  <code>1.3.2-5</code>,  <code>1.3.2-4</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.2-6``,  ``1.3.2-5``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ rnablueprint
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

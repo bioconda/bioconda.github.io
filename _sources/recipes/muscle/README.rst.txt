@@ -27,14 +27,22 @@ muscle
    :versions:
       
       
+      .. raw:: html
 
-      ``5.1-1``,  ``5.1-0``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
+         <details><summary><span class="truncated-version-list"><code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1-1</code>,  <code>5.1-0</code>,  <code>3.8.1551-6</code>,  <code>3.8.1551-5</code>,  <code>3.8.1551-4</code>,  <code>3.8.1551-3</code>,  <code>3.8.1551-2</code>,  </span></summary>
+      
 
+      ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1-0``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=15.0.7``
+   :depends llvm-openmp: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +74,7 @@ muscle
 
     <script>
         var package = "muscle";
-        var versions = ["5.1","5.1","3.8.1551","3.8.1551","3.8.1551"];
+        var versions = ["5.1","5.1","5.1","5.1","3.8.1551"];
     </script>
 
 

@@ -26,9 +26,17 @@ maxentpy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.02-1``,  ``0.02-0``,  ``0.0.3-0``,  ``0.0.1-5``,  ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.02-1</code>,  <code>0.02-0</code>,  <code>0.0.3-2</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  <code>0.0.1-5</code>,  <code>0.0.1-4</code>,  <code>0.0.1-3</code>,  <code>0.0.1-2</code>,  </span></summary>
+      
 
+      ``0.02-1``,  ``0.02-0``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-5``,  ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -67,7 +75,7 @@ maxentpy
 
     <script>
         var package = "maxentpy";
-        var versions = ["0.02","0.02","0.0.3","0.0.1","0.0.1"];
+        var versions = ["0.02","0.02","0.0.3","0.0.3","0.0.3"];
     </script>
 
 

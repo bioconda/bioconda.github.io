@@ -27,12 +27,12 @@ svmlight
       
       
 
-      ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``
+      ``6.02-5``,  ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ svmlight
 
     <script>
         var package = "svmlight";
-        var versions = ["6.02","6.02","6.02","6.02"];
+        var versions = ["6.02","6.02","6.02","6.02","6.02"];
     </script>
 
 

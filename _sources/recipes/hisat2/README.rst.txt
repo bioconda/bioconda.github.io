@@ -32,10 +32,10 @@ hisat2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.1-4</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-0</code>,  <code>2.2.0-4</code>,  <code>2.2.0-3</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.1-5</code>,  <code>2.2.1-4</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-0</code>,  <code>2.2.0-4</code>,  <code>2.2.0-3</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  </span></summary>
       
 
-      ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-0``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3beta-0``,  ``2.0.2beta-0``,  ``2.0.1beta-0``,  ``2.0.0beta-0``
+      ``2.2.1-5``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-0``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3beta-0``,  ``2.0.2beta-0``,  ``2.0.1beta-0``,  ``2.0.0beta-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ hisat2
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: 
    :depends python: ``>3.5``
    :requirements:
@@ -79,7 +79,7 @@ hisat2
 
     <script>
         var package = "hisat2";
-        var versions = ["2.2.1","2.2.1","2.2.1","2.2.1","2.2.0"];
+        var versions = ["2.2.1","2.2.1","2.2.1","2.2.1","2.2.1"];
     </script>
 
 

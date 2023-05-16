@@ -28,7 +28,7 @@ hapog
       
       
 
-      ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
+      ``1.3.4-3``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
 
       
 
@@ -36,7 +36,6 @@ hapog
    :depends biopython: 
    :depends bwa: 
    :depends htslib: ``>=1.17,<1.18.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends minimap2: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -73,7 +72,7 @@ hapog
 
     <script>
         var package = "hapog";
-        var versions = ["1.3.4","1.3.4","1.3.4","1.3.3","1.3.2"];
+        var versions = ["1.3.4","1.3.4","1.3.4","1.3.4","1.3.3"];
     </script>
 
 

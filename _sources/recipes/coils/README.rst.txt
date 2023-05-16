@@ -27,12 +27,12 @@ coils
       
       
 
-      ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
+      ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ coils
 
     <script>
         var package = "coils";
-        var versions = ["2.2.1","2.2.1","2.2.1"];
+        var versions = ["2.2.1","2.2.1","2.2.1","2.2.1","2.2.1"];
     </script>
 
 

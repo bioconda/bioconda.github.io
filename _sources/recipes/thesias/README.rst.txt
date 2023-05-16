@@ -28,12 +28,12 @@ thesias
       
       
 
-      ``3.1.1-3``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``
+      ``3.1.1-4``,  ``3.1.1-3``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends openjdk: ``>=11``
    :depends python: 
    :requirements:
@@ -67,7 +67,7 @@ thesias
 
     <script>
         var package = "thesias";
-        var versions = ["3.1.1","3.1.1","3.1.1","3.1.1"];
+        var versions = ["3.1.1","3.1.1","3.1.1","3.1.1","3.1.1"];
     </script>
 
 

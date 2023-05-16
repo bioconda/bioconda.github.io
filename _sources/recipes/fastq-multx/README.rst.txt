@@ -26,14 +26,22 @@ fastq-multx
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.0-2``,  ``1.3.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.4.2-4</code>,  <code>1.4.2-3</code>,  <code>1.4.2-2</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.0-2</code>,  </span></summary>
+      
 
+      ``1.4.2-4``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.0-2``,  ``1.3.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +73,7 @@ fastq-multx
 
     <script>
         var package = "fastq-multx";
-        var versions = ["1.4.2","1.4.2","1.4.2","1.4.0","1.3.1"];
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.2","1.4.2"];
     </script>
 
 

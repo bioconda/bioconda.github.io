@@ -26,17 +26,26 @@ ntedit
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.5-4</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  </span></summary>
+      
 
+      ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends llvm-openmp: ``>=15.0.7``
+   :depends llvm-openmp: ``>=16.0.3``
    :depends nthits: ``0.0.1``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +77,7 @@ ntedit
 
     <script>
         var package = "ntedit";
-        var versions = ["1.3.5","1.3.5","1.3.5","1.3.4","1.3.4"];
+        var versions = ["1.3.5","1.3.5","1.3.5","1.3.5","1.3.5"];
     </script>
 
 

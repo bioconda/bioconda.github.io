@@ -29,13 +29,13 @@ bedtk
       
       
 
-      ``0.0.r25.dirty-2``,  ``0.0.r25.dirty-1``,  ``0.0.r25.dirty-0``
+      ``0.0.r25.dirty-3``,  ``0.0.r25.dirty-2``,  ``0.0.r25.dirty-1``,  ``0.0.r25.dirty-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bedtk
 
     <script>
         var package = "bedtk";
-        var versions = ["0.0.r25.dirty","0.0.r25.dirty","0.0.r25.dirty"];
+        var versions = ["0.0.r25.dirty","0.0.r25.dirty","0.0.r25.dirty","0.0.r25.dirty"];
     </script>
 
 

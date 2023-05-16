@@ -27,13 +27,13 @@ slimfastq
       
       
 
-      ``2.04-2``,  ``2.04-1``,  ``2.04-0``
+      ``2.04-4``,  ``2.04-3``,  ``2.04-2``,  ``2.04-1``,  ``2.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ slimfastq
 
     <script>
         var package = "slimfastq";
-        var versions = ["2.04","2.04","2.04"];
+        var versions = ["2.04","2.04","2.04","2.04","2.04"];
     </script>
 
 

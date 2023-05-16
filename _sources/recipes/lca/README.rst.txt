@@ -27,15 +27,15 @@ lca
       
       
 
-      ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
+      ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ lca
 
     <script>
         var package = "lca";
-        var versions = ["0.23","0.23","0.22","0.21","0.21"];
+        var versions = ["0.24","0.24","0.24","0.23","0.23"];
     </script>
 
 

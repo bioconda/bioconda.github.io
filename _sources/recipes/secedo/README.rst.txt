@@ -28,17 +28,17 @@ secedo
       
       
 
-      ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends openblas: 
    :depends openmp: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ secedo
 
     <script>
         var package = "secedo";
-        var versions = ["1.0.7","1.0.7","1.0.6","1.0.5","1.0.5"];
+        var versions = ["1.0.7","1.0.7","1.0.7","1.0.6","1.0.5"];
     </script>
 
 

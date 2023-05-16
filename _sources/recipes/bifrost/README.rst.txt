@@ -29,10 +29,10 @@ bifrost
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.0.6.5-1</code>,  <code>1.0.6.5-0</code>,  <code>1.0.6.4-1</code>,  <code>1.0.6.4-0</code>,  <code>1.0.6.2-1</code>,  <code>1.0.6.2-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.6.5-1</code>,  <code>1.0.6.5-0</code>,  <code>1.0.6.4-1</code>,  <code>1.0.6.4-0</code>,  <code>1.0.6.2-1</code>,  <code>1.0.6.2-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.0.6.5-1``,  ``1.0.6.5-0``,  ``1.0.6.4-1``,  ``1.0.6.4-0``,  ``1.0.6.2-1``,  ``1.0.6.2-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.6.5-1``,  ``1.0.6.5-0``,  ``1.0.6.4-1``,  ``1.0.6.4-0``,  ``1.0.6.2-1``,  ``1.0.6.2-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ bifrost
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends pthread-stubs: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ bifrost
 
     <script>
         var package = "bifrost";
-        var versions = ["1.2.0","1.0.6.5","1.0.6.5","1.0.6.4","1.0.6.4"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.0.6.5","1.0.6.5"];
     </script>
 
 

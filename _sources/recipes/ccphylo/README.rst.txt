@@ -28,14 +28,14 @@ ccphylo
       
       
 
-      ``0.8.2-0``,  ``0.8.1-0``
+      ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ ccphylo
 
     <script>
         var package = "ccphylo";
-        var versions = ["0.8.2","0.8.1"];
+        var versions = ["0.8.2","0.8.2","0.8.2","0.8.1"];
     </script>
 
 

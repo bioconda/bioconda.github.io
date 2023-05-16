@@ -27,13 +27,14 @@ perl-want
       
       
 
-      ``0.29-3``,  ``0.29-2``,  ``0.29-1``,  ``0.29-0``
+      ``0.29-4``,  ``0.29-3``,  ``0.29-2``,  ``0.29-1``,  ``0.29-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-module-build: ``0.4234.*``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +66,7 @@ perl-want
 
     <script>
         var package = "perl-want";
-        var versions = ["0.29","0.29","0.29","0.29"];
+        var versions = ["0.29","0.29","0.29","0.29","0.29"];
     </script>
 
 
