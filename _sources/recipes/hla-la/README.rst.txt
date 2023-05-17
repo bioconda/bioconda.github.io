@@ -27,9 +27,17 @@ hla-la
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.1-6</code>,  <code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  </span></summary>
+      
 
+      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -80,7 +88,7 @@ hla-la
 
     <script>
         var package = "hla-la";
-        var versions = ["1.0.3","1.0.3","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.1","1.0.1"];
     </script>
 
 

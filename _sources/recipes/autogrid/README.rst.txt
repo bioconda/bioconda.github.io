@@ -32,8 +32,9 @@ autogrid
       
 
    
-   :depends libcxx: ``>=15.0.7``
-   :depends llvm-openmp: ``>=15.0.7``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

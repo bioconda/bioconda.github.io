@@ -30,7 +30,7 @@ phanotate
       
       
 
-      ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
 
@@ -40,7 +40,7 @@ phanotate
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :depends seaborn: 
    :depends setuptools: 
@@ -78,7 +78,7 @@ phanotate
 
     <script>
         var package = "phanotate";
-        var versions = ["1.5.1","1.5.0","1.5.0","1.5.0"];
+        var versions = ["1.5.1","1.5.1","1.5.0","1.5.0","1.5.0"];
     </script>
 
 

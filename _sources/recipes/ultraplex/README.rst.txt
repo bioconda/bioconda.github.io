@@ -26,17 +26,25 @@ ultraplex
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+      
 
+      ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends dnaio: ``>=0.5.0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends pigz: 
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends xopen: ``>=1.0.0``
    :requirements:
 
@@ -69,7 +77,7 @@ ultraplex
 
     <script>
         var package = "ultraplex";
-        var versions = ["1.2.5","1.2.5","1.2.4","1.2.3","1.1.5"];
+        var versions = ["1.2.5","1.2.5","1.2.5","1.2.4","1.2.3"];
     </script>
 
 

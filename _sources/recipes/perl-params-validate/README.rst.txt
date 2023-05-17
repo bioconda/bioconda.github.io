@@ -28,10 +28,10 @@ perl-params-validate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.31-1</code>,  <code>1.31-0</code>,  <code>1.30-1</code>,  <code>1.30-0</code>,  <code>1.29-3</code>,  <code>1.29-1</code>,  <code>1.29-0</code>,  <code>1.26-1</code>,  <code>1.26-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.31-2</code>,  <code>1.31-1</code>,  <code>1.31-0</code>,  <code>1.30-1</code>,  <code>1.30-0</code>,  <code>1.29-3</code>,  <code>1.29-1</code>,  <code>1.29-0</code>,  <code>1.26-1</code>,  </span></summary>
       
 
-      ``1.31-1``,  ``1.31-0``,  ``1.30-1``,  ``1.30-0``,  ``1.29-3``,  ``1.29-1``,  ``1.29-0``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.31-2``,  ``1.31-1``,  ``1.31-0``,  ``1.30-1``,  ``1.30-0``,  ``1.29-3``,  ``1.29-1``,  ``1.29-0``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ perl-params-validate
 
     <script>
         var package = "perl-params-validate";
-        var versions = ["1.31","1.31","1.30","1.30","1.29"];
+        var versions = ["1.31","1.31","1.31","1.30","1.30"];
     </script>
 
 

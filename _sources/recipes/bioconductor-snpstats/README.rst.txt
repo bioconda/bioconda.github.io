@@ -44,6 +44,7 @@ bioconductor-snpstats
    :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
    :depends bioconductor-zlibbioc: ``>=1.44.0,<1.45.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-matrix: 

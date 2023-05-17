@@ -26,13 +26,21 @@ scallop
    :versions:
       
       
+      .. raw:: html
 
-      ``0.10.5-5``,  ``0.10.5-4``,  ``0.10.5-3``,  ``0.10.5-2``,  ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.5-6</code>,  <code>0.10.5-5</code>,  <code>0.10.5-4</code>,  <code>0.10.5-3</code>,  <code>0.10.5-2</code>,  <code>0.10.5-1</code>,  <code>0.10.5-0</code>,  <code>0.10.4-2</code>,  <code>0.10.4-1</code>,  </span></summary>
+      
 
+      ``0.10.5-6``,  ``0.10.5-5``,  ``0.10.5-4``,  ``0.10.5-3``,  ``0.10.5-2``,  ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

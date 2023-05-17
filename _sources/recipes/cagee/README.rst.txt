@@ -27,17 +27,18 @@ cagee
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends llvm-openmp: ``>=15.0.7``
+   :depends llvm-openmp: ``>=16.0.3``
    :depends mkl: ``>=2020.4``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :depends zstd: ``>=1.5.2,<1.6.0a0``
    :requirements:
 
@@ -70,7 +71,7 @@ cagee
 
     <script>
         var package = "cagee";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.0","1.0","1.0"];
     </script>
 
 

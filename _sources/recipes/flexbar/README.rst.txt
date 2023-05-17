@@ -42,7 +42,8 @@ flexbar
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends seqan-library: 
    :depends tbb: ``>=2021.9.0``

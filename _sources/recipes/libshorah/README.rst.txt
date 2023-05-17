@@ -27,12 +27,12 @@ libshorah
       
       
 
-      ``1.99.4-0``
+      ``1.99.4-1``,  ``1.99.4-0``
 
       
 
    
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -68,7 +68,7 @@ libshorah
 
     <script>
         var package = "libshorah";
-        var versions = ["1.99.4"];
+        var versions = ["1.99.4","1.99.4"];
     </script>
 
 

@@ -27,14 +27,14 @@ psascan
       
       
 
-      ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libdivsufsort: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ psascan
 
     <script>
         var package = "psascan";
-        var versions = ["0.1.0","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.0","0.1.0","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

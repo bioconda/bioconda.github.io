@@ -27,14 +27,21 @@ gcen
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.3-2</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  </span></summary>
+      
 
+      ``0.6.3-2``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=10.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +73,7 @@ gcen
 
     <script>
         var package = "gcen";
-        var versions = ["0.6.3","0.6.3","0.6.2","0.6.2","0.6.1"];
+        var versions = ["0.6.3","0.6.3","0.6.3","0.6.2","0.6.2"];
     </script>
 
 

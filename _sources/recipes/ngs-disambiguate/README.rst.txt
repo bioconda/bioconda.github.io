@@ -26,17 +26,25 @@ ngs-disambiguate
    :versions:
       
       
+      .. raw:: html
 
-      ``2018.05.03-6``,  ``2018.05.03-5``,  ``2018.05.03-4``,  ``2018.05.03-3``,  ``2018.05.03-2``,  ``2018.05.03-1``,  ``2018.05.03-0``,  ``2016.11.10-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2018.05.03-7</code>,  <code>2018.05.03-6</code>,  <code>2018.05.03-5</code>,  <code>2018.05.03-4</code>,  <code>2018.05.03-3</code>,  <code>2018.05.03-2</code>,  <code>2018.05.03-1</code>,  <code>2018.05.03-0</code>,  <code>2016.11.10-0</code>,  </span></summary>
+      
 
+      ``2018.05.03-7``,  ``2018.05.03-6``,  ``2018.05.03-5``,  ``2018.05.03-4``,  ``2018.05.03-3``,  ``2018.05.03-2``,  ``2018.05.03-1``,  ``2018.05.03-0``,  ``2016.11.10-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

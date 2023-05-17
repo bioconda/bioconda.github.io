@@ -27,14 +27,13 @@ treerecs
       
       
 
-      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
+   :depends llvm-openmp: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ treerecs
 
     <script>
         var package = "treerecs";
-        var versions = ["1.2","1.2","1.2","1.2"];
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
     </script>
 
 

@@ -1,0 +1,93 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'wgd'
+.. highlight: bash
+
+wgd
+===
+
+.. conda:recipe:: wgd
+   :replaces_section_title:
+   :noindex:
+
+   a suite tool of WGD inference and timing
+
+   :homepage: https://github.com/heche-psb/wgd
+   :license: GPL
+   :recipe: /`wgd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgd/meta.yaml>`_
+
+   
+
+
+.. conda:package:: wgd
+
+   |downloads_wgd| |docker_wgd|
+
+   :versions:
+      
+      
+
+      ``2.0.12-0``
+
+      
+
+   
+   :depends diamond: 
+   :depends mafft: 
+   :depends mcl: 
+   :depends paml: 
+   :depends python: ``>=3.6,<=3.9``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install wgd
+
+   and update with::
+
+      conda update wgd
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/wgd:<tag>
+
+   (see `wgd/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_wgd| image:: https://img.shields.io/conda/dn/bioconda/wgd.svg?style=flat
+   :target: https://anaconda.org/bioconda/wgd
+   :alt:   (downloads)
+.. |docker_wgd| image:: https://quay.io/repository/biocontainers/wgd/status
+   :target: https://quay.io/repository/biocontainers/wgd
+.. _`wgd/tags`: https://quay.io/repository/biocontainers/wgd?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "wgd";
+        var versions = ["2.0.12"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/wgd/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/wgd/README.html

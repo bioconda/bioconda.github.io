@@ -29,10 +29,10 @@ augustus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-2</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.0-8</code>,  <code>3.4.0-7</code>,  <code>3.4.0-6</code>,  <code>3.4.0-5</code>,  <code>3.4.0-4</code>,  <code>3.4.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.0-3</code>,  <code>3.5.0-2</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.0-8</code>,  <code>3.4.0-7</code>,  <code>3.4.0-6</code>,  <code>3.4.0-5</code>,  <code>3.4.0-4</code>,  </span></summary>
       
 
-      ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-11``,  ``3.3.3-10``,  ``3.3.3-9``,  ``3.3.3-8``,  ``3.3.3-7``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
+      ``3.5.0-3``,  ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-12``,  ``3.3.3-11``,  ``3.3.3-10``,  ``3.3.3-9``,  ``3.3.3-8``,  ``3.3.3-7``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ augustus
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
    :depends biopython: 
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends cdbtools: 
    :depends diamond: 
    :depends gsl: ``>=2.7,<2.8.0a0``
@@ -51,7 +51,7 @@ augustus
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.40.0,<4.0a0``
+   :depends libsqlite: ``>=3.41.2,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends lp_solve: 
@@ -59,16 +59,16 @@ augustus
    :depends perl-app-cpanminus: 
    :depends perl-dbi: 
    :depends perl-file-which: 
-   :depends perl-module-build: ``0.4232.*``
+   :depends perl-module-build: ``0.4234.*``
    :depends perl-parallel-forkmanager: 
    :depends perl-scalar-list-utils: 
    :depends perl-yaml: 
-   :depends sqlite: ``>=3.40.0,<4.0a0``
+   :depends sqlite: 
    :depends suitesparse: ``>=5.10.1,<6.0a0``
    :depends tar: 
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobitinfo: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +100,7 @@ augustus
 
     <script>
         var package = "augustus";
-        var versions = ["3.5.0","3.5.0","3.5.0","3.4.0","3.4.0"];
+        var versions = ["3.5.0","3.5.0","3.5.0","3.5.0","3.4.0"];
     </script>
 
 

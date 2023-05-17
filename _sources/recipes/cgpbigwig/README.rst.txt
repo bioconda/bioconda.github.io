@@ -28,10 +28,10 @@ cgpbigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-6</code>,  <code>1.6.0-5</code>,  <code>1.6.0-4</code>,  <code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-7</code>,  <code>1.6.0-6</code>,  <code>1.6.0-5</code>,  <code>1.6.0-4</code>,  <code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  </span></summary>
       
 
-      ``1.6.0-6``,  ``1.6.0-5``,  ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.6.0-7``,  ``1.6.0-6``,  ``1.6.0-5``,  ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ cgpbigwig
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends nettle: ``>=3.8.1,<3.9.0a0``
    :depends p11-kit: ``>=0.24.1,<0.25.0a0``
-   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
    .. rubric:: Installation

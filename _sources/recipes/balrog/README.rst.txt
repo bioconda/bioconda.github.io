@@ -27,17 +27,17 @@ balrog
       
       
 
-      ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.19-0``
+      ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.19-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends llvm-openmp: ``>=15.0.7``
+   :depends llvm-openmp: ``>=16.0.3``
    :depends scipy: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ balrog
 
     <script>
         var package = "balrog";
-        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.3.2"];
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.5.1"];
     </script>
 
 

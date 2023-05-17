@@ -27,7 +27,7 @@ repdenovo
       
       
 
-      ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -35,12 +35,12 @@ repdenovo
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
    :depends bwa: 
    :depends kmer-jellyfish: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: 
    :depends velvet: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ repdenovo
 
     <script>
         var package = "repdenovo";
-        var versions = ["0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

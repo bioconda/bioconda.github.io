@@ -28,10 +28,10 @@ bioconductor-manor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.66.0-2</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-1</code>,  <code>1.70.0-0</code>,  <code>1.66.0-2</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  </span></summary>
       
 
-      ``1.70.0-0``,  ``1.66.0-2``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.56.0-0``
+      ``1.70.0-1``,  ``1.70.0-0``,  ``1.66.0-2``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.56.0-0``
 
       
       .. raw:: html
@@ -76,7 +76,7 @@ bioconductor-manor
 
     <script>
         var package = "bioconductor-manor";
-        var versions = ["1.70.0","1.66.0","1.66.0","1.66.0","1.64.0"];
+        var versions = ["1.70.0","1.70.0","1.66.0","1.66.0","1.66.0"];
     </script>
 
 

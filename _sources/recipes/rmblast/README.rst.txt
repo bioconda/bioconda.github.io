@@ -27,13 +27,13 @@ rmblast
       
       
 
-      ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
+      ``2.13.0-1``,  ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends curl: ``>=7.88.1,<8.0a0``
+   :depends curl: 
    :depends entrez-direct: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -44,7 +44,7 @@ rmblast
    :depends perl-archive-tar: 
    :depends perl-json: 
    :depends perl-list-moreutils: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +76,7 @@ rmblast
 
     <script>
         var package = "rmblast";
-        var versions = ["2.13.0","2.11.0","2.10.0","2.9.0","2.6.0"];
+        var versions = ["2.13.0","2.13.0","2.11.0","2.10.0","2.9.0"];
     </script>
 
 

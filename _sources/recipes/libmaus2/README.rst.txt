@@ -26,19 +26,28 @@ libmaus2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  <code>2.0.774-1</code>,  <code>2.0.774-0</code>,  <code>2.0.772-1</code>,  <code>2.0.772-0</code>,  </span></summary>
+      
 
+      ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libcurl: ``>=7.83.1,<8.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends libcurl: ``>=8.0.1,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends snappy: ``1.1.8.*``
    :depends snappy: ``>=1.1.8,<2.0a0``
    :depends staden_io_lib: ``>=1.14.14``
+   :depends staden_io_lib: ``>=1.14.14,<1.15.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +79,7 @@ libmaus2
 
     <script>
         var package = "libmaus2";
-        var versions = ["2.0.810","2.0.810","2.0.777","2.0.777","2.0.774"];
+        var versions = ["2.0.810","2.0.810","2.0.810","2.0.777","2.0.777"];
     </script>
 
 

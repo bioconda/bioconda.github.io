@@ -27,18 +27,26 @@ sga
    :versions:
       
       
+      .. raw:: html
 
-      ``0.10.15-7``,  ``0.10.15-6``,  ``0.10.15-5``,  ``0.10.15-4``,  ``0.10.15-3``,  ``0.10.15-2``,  ``0.10.15-1``,  ``0.10.15-0``,  ``0.10.13-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.15-8</code>,  <code>0.10.15-7</code>,  <code>0.10.15-6</code>,  <code>0.10.15-5</code>,  <code>0.10.15-4</code>,  <code>0.10.15-3</code>,  <code>0.10.15-2</code>,  <code>0.10.15-1</code>,  <code>0.10.15-0</code>,  </span></summary>
+      
 
+      ``0.10.15-8``,  ``0.10.15-7``,  ``0.10.15-6``,  ``0.10.15-5``,  ``0.10.15-4``,  ``0.10.15-3``,  ``0.10.15-2``,  ``0.10.15-1``,  ``0.10.15-0``,  ``0.10.13-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends sparsehash: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

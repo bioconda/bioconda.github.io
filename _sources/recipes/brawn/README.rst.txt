@@ -27,11 +27,12 @@ brawn
       
       
 
-      
+      ``1.0.1-0``
 
       
 
    
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ brawn
 
     <script>
         var package = "brawn";
-        var versions = [];
+        var versions = ["1.0.1"];
     </script>
 
 

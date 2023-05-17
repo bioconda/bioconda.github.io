@@ -31,15 +31,16 @@ graphbin
       
       
 
-      ``1.6.1-0``,  ``1.5-0``
+      ``1.7.0-0``,  ``1.6.1-0``,  ``1.5-0``
 
       
 
    
-   :depends biopython: ``>=1.7.2``
    :depends cairocffi: 
-   :depends python: ``>=3.7.1``
-   :depends python-igraph: ``>=0.7.21``
+   :depends click: 
+   :depends cogent3: 
+   :depends python: ``>=3.7.1,<3.11``
+   :depends python-igraph: 
    :depends tqdm: 
    :requirements:
 
@@ -72,7 +73,7 @@ graphbin
 
     <script>
         var package = "graphbin";
-        var versions = ["1.6.1","1.5"];
+        var versions = ["1.7.0","1.6.1","1.5"];
     </script>
 
 

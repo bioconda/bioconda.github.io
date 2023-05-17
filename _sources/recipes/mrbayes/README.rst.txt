@@ -32,7 +32,7 @@ mrbayes
       
       
 
-      ``3.2.7-5``,  ``3.2.7-4``,  ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
+      ``3.2.7-6``,  ``3.2.7-5``,  ``3.2.7-4``,  ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
 
       
 
@@ -40,8 +40,8 @@ mrbayes
    :depends beagle-lib: ``<4``
    :depends libgcc-ng: ``>=12``
    :depends ncurses: ``>=6.3,<7.0a0``
-   :depends openmpi: ``>=4.1.4,<5.0a0``
-   :depends readline: ``>=8.1.2,<9.0a0``
+   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends readline: ``>=8.2,<9.0a0``
    :requirements:
 
    .. rubric:: Installation

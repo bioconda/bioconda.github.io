@@ -27,11 +27,14 @@ nextpolish2
       
       
 
-      
+      ``0.1.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends yak: ``>=0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +66,7 @@ nextpolish2
 
     <script>
         var package = "nextpolish2";
-        var versions = [];
+        var versions = ["0.1.0"];
     </script>
 
 

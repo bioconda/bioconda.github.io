@@ -27,7 +27,7 @@ alcor
       
       
 
-      ``1.9-1``,  ``1.9-0``,  ``1.8-0``
+      ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-0``
 
       
 
@@ -35,7 +35,7 @@ alcor
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ alcor
 
     <script>
         var package = "alcor";
-        var versions = ["1.9","1.9","1.8"];
+        var versions = ["1.9","1.9","1.9","1.8"];
     </script>
 
 

@@ -28,10 +28,10 @@ cpat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.4-1</code>,  </span></summary>
       
 
-      ``3.0.4-1``,  ``3.0.4-0``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
+      ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ cpat
 
    
    :depends bx-python: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends numpy: 
+   :depends libgcc-ng: ``>=12``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends r-base: 
    :requirements:
 
@@ -78,7 +78,7 @@ cpat
 
     <script>
         var package = "cpat";
-        var versions = ["3.0.4","3.0.4","2.0.0","2.0.0","2.0.0"];
+        var versions = ["3.0.4","3.0.4","3.0.4","2.0.0","2.0.0"];
     </script>
 
 

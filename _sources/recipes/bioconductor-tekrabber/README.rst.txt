@@ -27,7 +27,7 @@ bioconductor-tekrabber
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -74,7 +74,7 @@ bioconductor-tekrabber
 
     <script>
         var package = "bioconductor-tekrabber";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 

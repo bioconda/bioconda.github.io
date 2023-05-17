@@ -27,14 +27,14 @@ superstr
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends arch-py: ``>=4.15``
    :depends htslib: ``>=1.17,<1.18.0a0``
-   :depends libcurl: ``>=7.87.0,<8.0a0``
+   :depends libcurl: ``>=8.0.1,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
@@ -78,7 +78,7 @@ superstr
 
     <script>
         var package = "superstr";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 
