@@ -29,10 +29,10 @@ bioconductor-acme
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.54.0-0</code>,  <code>2.50.0-2</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.50.0-2</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  </span></summary>
       
 
-      ``2.54.0-0``,  ``2.50.0-2``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``
+      ``2.54.0-1``,  ``2.54.0-0``,  ``2.50.0-2``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ bioconductor-acme
 
     <script>
         var package = "bioconductor-acme";
-        var versions = ["2.54.0","2.50.0","2.50.0","2.50.0","2.48.0"];
+        var versions = ["2.54.0","2.54.0","2.50.0","2.50.0","2.50.0"];
     </script>
 
 

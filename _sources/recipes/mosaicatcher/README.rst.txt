@@ -27,12 +27,12 @@ mosaicatcher
       
       
 
-      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+      ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -67,7 +67,7 @@ mosaicatcher
 
     <script>
         var package = "mosaicatcher";
-        var versions = ["0.3.1","0.3.1","0.3.1"];
+        var versions = ["0.3.1","0.3.1","0.3.1","0.3.1"];
     </script>
 
 

@@ -10,7 +10,7 @@ mashmap
    :replaces_section_title:
    :noindex:
 
-   A fast approximate aligner for long DNA sequences
+   A fast approximate aligner for long DNA sequences.
 
    :homepage: https://github.com/marbl/MashMap
    :license: Custom

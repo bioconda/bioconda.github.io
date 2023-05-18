@@ -29,10 +29,10 @@ ldblockshow
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40-2</code>,  <code>1.40-1</code>,  <code>1.40-0</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40-3</code>,  <code>1.40-2</code>,  <code>1.40-1</code>,  <code>1.40-0</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  </span></summary>
       
 
-      ``1.40-2``,  ``1.40-1``,  ``1.40-0``,  ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.27-0``,  ``1.25-0``
+      ``1.40-3``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``,  ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.27-0``,  ``1.25-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ ldblockshow
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-svg: 
    :depends plink: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ ldblockshow
 
     <script>
         var package = "ldblockshow";
-        var versions = ["1.40","1.40","1.40","1.38","1.37"];
+        var versions = ["1.40","1.40","1.40","1.40","1.38"];
     </script>
 
 

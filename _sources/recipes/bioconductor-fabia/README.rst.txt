@@ -29,10 +29,10 @@ bioconductor-fabia
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.44.0-0</code>,  <code>2.40.0-2</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-2</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  </span></summary>
       
 
-      ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``
+      ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ bioconductor-fabia
 
     <script>
         var package = "bioconductor-fabia";
-        var versions = ["2.44.0","2.40.0","2.40.0","2.40.0","2.38.0"];
+        var versions = ["2.44.0","2.44.0","2.40.0","2.40.0","2.40.0"];
     </script>
 
 

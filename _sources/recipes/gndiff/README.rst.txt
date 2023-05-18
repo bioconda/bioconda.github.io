@@ -28,7 +28,7 @@ gndiff
       
       
 
-      
+      ``0.2.0-0``
 
       
 
@@ -64,7 +64,7 @@ gndiff
 
     <script>
         var package = "gndiff";
-        var versions = [];
+        var versions = ["0.2.0"];
     </script>
 
 

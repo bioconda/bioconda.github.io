@@ -27,25 +27,31 @@ strandphaser
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-bamsignals: 
    :depends bioconductor-biocgenerics: 
+   :depends bioconductor-breakpointr: 
    :depends bioconductor-bsgenome: 
    :depends bioconductor-fastseg: 
    :depends bioconductor-genomicalignments: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rsamtools: 
    :depends bioconductor-s4vectors: 
+   :depends bioconductor-variantannotation: 
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-cowplot: 
    :depends r-doparallel: 
+   :depends r-dplyr: 
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-gtools: 
+   :depends r-r.methodss3: 
    :depends r-reshape2: 
+   :depends r-tidyr: 
    :depends r-zoo: 
    :requirements:
 
@@ -78,7 +84,7 @@ strandphaser
 
     <script>
         var package = "strandphaser";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.2","1.0.0","1.0.0"];
     </script>
 
 
