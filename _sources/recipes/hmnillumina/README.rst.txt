@@ -27,7 +27,7 @@ hmnillumina
       
       
 
-      ``1.5.0-0``,  ``1.4.3-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.3-0``
 
       
 
@@ -39,7 +39,7 @@ hmnillumina
    :depends pytest: 
    :depends python: 
    :depends rapidjson: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ hmnillumina
 
     <script>
         var package = "hmnillumina";
-        var versions = ["1.5.0","1.4.3"];
+        var versions = ["1.5.0","1.5.0","1.4.3"];
     </script>
 
 

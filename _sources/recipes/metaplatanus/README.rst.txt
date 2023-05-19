@@ -27,7 +27,7 @@ metaplatanus
       
       
 
-      ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
 
       
 
@@ -49,7 +49,7 @@ metaplatanus
    :depends samtools: ``>=1.9``
    :depends seqkit: ``>=0.16.1``
    :depends tgsgapcloser: ``>=1.0.3``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ metaplatanus
 
     <script>
         var package = "metaplatanus";
-        var versions = ["1.3.1","1.3.0","1.3.0"];
+        var versions = ["1.3.1","1.3.1","1.3.0","1.3.0"];
     </script>
 
 

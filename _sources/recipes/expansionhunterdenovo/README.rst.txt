@@ -27,13 +27,13 @@ expansionhunterdenovo
       
       
 
-      ``0.9.0-6``,  ``0.9.0-5``,  ``0.9.0-4``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``0.9.0-7``,  ``0.9.0-6``,  ``0.9.0-5``,  ``0.9.0-4``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
    :depends backports.lzma: 
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cmake: 
    :depends htslib: ``>=1.17,<1.18.0a0``
@@ -41,7 +41,7 @@ expansionhunterdenovo
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends spdlog: ``1.4.2.*``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

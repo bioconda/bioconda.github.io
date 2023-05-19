@@ -26,9 +26,17 @@ libcifpp
    :versions:
       
       
+      .. raw:: html
 
-      ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.2-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.0.0-0</code>,  <code>3.0.3-0</code>,  </span></summary>
+      
 
+      ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -65,7 +73,7 @@ libcifpp
 
     <script>
         var package = "libcifpp";
-        var versions = ["5.0.0","5.0.0","4.2.2","4.2.0","4.2.0"];
+        var versions = ["5.0.0","5.0.0","5.0.0","4.2.2","4.2.0"];
     </script>
 
 

@@ -41,7 +41,8 @@ gcen
       
 
    
-   :depends libcxx: ``>=10.0.1``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

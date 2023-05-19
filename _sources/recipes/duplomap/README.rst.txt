@@ -27,13 +27,13 @@ duplomap
       
       
 
-      ``0.9.5-2``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``
+      ``0.9.5-3``,  ``0.9.5-2``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends samtools: 
    :requirements:
 
@@ -66,7 +66,7 @@ duplomap
 
     <script>
         var package = "duplomap";
-        var versions = ["0.9.5","0.9.5","0.9.5","0.9.4","0.9.3"];
+        var versions = ["0.9.5","0.9.5","0.9.5","0.9.5","0.9.4"];
     </script>
 
 

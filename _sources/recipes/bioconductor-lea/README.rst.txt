@@ -28,10 +28,10 @@ bioconductor-lea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.10.0-0</code>,  <code>3.6.0-2</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.10.0-1</code>,  <code>3.10.0-0</code>,  <code>3.6.0-2</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``3.10.0-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``3.10.0-1``,  ``3.10.0-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ bioconductor-lea
 
     <script>
         var package = "bioconductor-lea";
-        var versions = ["3.10.0","3.6.0","3.6.0","3.6.0","3.4.0"];
+        var versions = ["3.10.0","3.10.0","3.6.0","3.6.0","3.6.0"];
     </script>
 
 

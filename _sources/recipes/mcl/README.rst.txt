@@ -26,14 +26,22 @@ mcl
    :versions:
       
       
+      .. raw:: html
 
-      ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
+         <details><summary><span class="truncated-version-list"><code>14.137-9</code>,  <code>14.137-8</code>,  <code>14.137-7</code>,  <code>14.137-6</code>,  <code>14.137-5</code>,  <code>14.137-4</code>,  <code>14.137-3</code>,  <code>14.137-2</code>,  <code>14.137-1</code>,  </span></summary>
+      
 
+      ``14.137-9``,  ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends blast: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 

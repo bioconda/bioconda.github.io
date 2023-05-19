@@ -28,14 +28,14 @@ knotinframe
       
       
 
-      ``2.2.14-0``
+      ``2.2.14-1``,  ``2.2.14-0``
 
       
 
    
    :depends bellmans-gapc: ``>=2020.12.08``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -68,7 +68,7 @@ knotinframe
 
     <script>
         var package = "knotinframe";
-        var versions = ["2.2.14"];
+        var versions = ["2.2.14","2.2.14"];
     </script>
 
 

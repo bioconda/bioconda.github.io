@@ -27,11 +27,18 @@ multixrank
       
       
 
-      
+      ``0.1-1``
 
       
 
    
+   :depends networkx: ``2.5``
+   :depends numpy: 
+   :depends pandas: 
+   :depends psutil: 
+   :depends python: 
+   :depends pyyaml: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +70,7 @@ multixrank
 
     <script>
         var package = "multixrank";
-        var versions = [];
+        var versions = ["0.1"];
     </script>
 
 

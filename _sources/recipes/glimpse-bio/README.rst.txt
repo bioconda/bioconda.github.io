@@ -27,18 +27,18 @@ glimpse-bio
       
       
 
-      ``2.0.0-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.81.0,<1.81.1.0a0``
+   :depends boost-cpp: ``>=1.82.0,<1.82.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=1.1.1s,<1.1.2a``
+   :depends openssl: ``>=3.1.0,<4.0a0``
    :depends pthread-stubs: 
    :requirements:
 
@@ -71,7 +71,7 @@ glimpse-bio
 
     <script>
         var package = "glimpse-bio";
-        var versions = ["2.0.0","1.1.1","1.1.1","1.1.1","1.1.1"];
+        var versions = ["2.0.0","2.0.0","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

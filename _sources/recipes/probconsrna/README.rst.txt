@@ -33,7 +33,8 @@ probconsrna
       
 
    
-   :depends libcxx: ``>=14.0.6``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation

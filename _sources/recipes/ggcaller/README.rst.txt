@@ -28,10 +28,10 @@ ggcaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ ggcaller
    :depends bcbio-gff: 
    :depends bifrost: 
    :depends biopython: 
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cd-hit: 
    :depends diamond: ``>=2.0``
@@ -65,12 +66,12 @@ ggcaller
    :depends python-edlib: 
    :depends python-wget: 
    :depends python_abi: ``3.10.* *_cp310``
-   :depends pytorch: ``>=1.12.1,<1.13.0a0``
+   :depends pytorch: ``>=1.13.1,<1.14.0a0``
    :depends rapidnj: 
    :depends scipy: 
    :depends seaborn: 
    :depends snp-sites: 
-   :depends tbb: ``>=2021.7.0``
+   :depends tbb: ``>=2021.9.0``
    :depends tqdm: 
    :depends uncertainties: 
    :depends xorg-libxaw: 
@@ -82,7 +83,7 @@ ggcaller
    :depends xorg-libxinerama: 
    :depends xorg-libxpm: 
    :depends xorg-libxrandr: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -114,7 +115,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.3.3","1.3.2","1.3.1","1.3.0","1.3.0"];
+        var versions = ["1.3.3","1.3.3","1.3.2","1.3.1","1.3.0"];
     </script>
 
 

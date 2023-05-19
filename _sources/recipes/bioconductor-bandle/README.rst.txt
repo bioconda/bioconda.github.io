@@ -27,7 +27,7 @@ bioconductor-bandle
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -89,7 +89,7 @@ bioconductor-bandle
 
     <script>
         var package = "bioconductor-bandle";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-suitor
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -69,7 +69,7 @@ bioconductor-suitor
 
     <script>
         var package = "bioconductor-suitor";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

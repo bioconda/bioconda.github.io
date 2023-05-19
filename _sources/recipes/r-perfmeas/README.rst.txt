@@ -26,9 +26,17 @@ r-perfmeas
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.1-7</code>,  <code>1.2.1-6</code>,  <code>1.2.1-5</code>,  <code>1.2.1-4</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  </span></summary>
+      
 
+      ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -68,7 +76,7 @@ r-perfmeas
 
     <script>
         var package = "r-perfmeas";
-        var versions = ["1.2.5","1.2.5","1.2.1","1.2.1","1.2.1"];
+        var versions = ["1.2.5","1.2.5","1.2.5","1.2.1","1.2.1"];
     </script>
 
 

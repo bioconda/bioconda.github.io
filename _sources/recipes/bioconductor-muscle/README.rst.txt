@@ -28,10 +28,10 @@ bioconductor-muscle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.40.0-0</code>,  <code>3.36.0-2</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.36.0-2</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  </span></summary>
       
 
-      ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``
+      ``3.40.0-1``,  ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ bioconductor-muscle
 
     <script>
         var package = "bioconductor-muscle";
-        var versions = ["3.40.0","3.36.0","3.36.0","3.36.0","3.34.0"];
+        var versions = ["3.40.0","3.40.0","3.36.0","3.36.0","3.36.0"];
     </script>
 
 

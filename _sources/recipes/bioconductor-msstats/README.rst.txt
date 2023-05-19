@@ -29,10 +29,10 @@ bioconductor-msstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.22.1-1</code>,  <code>3.22.1-0</code>,  <code>3.22.0-0</code>,  <code>3.20.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.6.0-1</code>,  <code>4.6.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.22.1-1</code>,  <code>3.22.1-0</code>,  <code>3.22.0-0</code>,  </span></summary>
       
 
-      ``4.6.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+      ``4.6.0-1``,  ``4.6.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ bioconductor-msstats
 
     <script>
         var package = "bioconductor-msstats";
-        var versions = ["4.6.0","4.2.0","4.2.0","4.2.0","4.0.0"];
+        var versions = ["4.6.0","4.6.0","4.2.0","4.2.0","4.2.0"];
     </script>
 
 

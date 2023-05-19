@@ -36,6 +36,7 @@ nextpolish
    
    :depends bwa: 
    :depends bzip2: 
+   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends minimap2: 
    :depends paralleltask: 

@@ -27,7 +27,7 @@ bioconductor-enhancerhomologsearch
       
       
 
-      ``1.4.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -44,9 +44,8 @@ bioconductor-enhancerhomologsearch
    :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
    :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 
@@ -83,7 +82,7 @@ bioconductor-enhancerhomologsearch
 
     <script>
         var package = "bioconductor-enhancerhomologsearch";
-        var versions = ["1.4.0","1.0.1","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.4.0","1.0.1","1.0.0","1.0.0"];
     </script>
 
 

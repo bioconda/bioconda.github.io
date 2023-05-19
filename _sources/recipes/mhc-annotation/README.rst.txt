@@ -27,7 +27,7 @@ mhc-annotation
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -67,7 +67,7 @@ mhc-annotation
 
     <script>
         var package = "mhc-annotation";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-biodbnci
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -73,7 +73,7 @@ bioconductor-biodbnci
 
     <script>
         var package = "bioconductor-biodbnci";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 

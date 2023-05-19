@@ -29,10 +29,10 @@ pindel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.5b9-9</code>,  <code>0.2.5b9-8</code>,  <code>0.2.5b9-7</code>,  <code>0.2.5b9-6</code>,  <code>0.2.5b9-5</code>,  <code>0.2.5b9-4</code>,  <code>0.2.5b9-3</code>,  <code>0.2.5b9-2</code>,  <code>0.2.5b9-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.5b9-10</code>,  <code>0.2.5b9-9</code>,  <code>0.2.5b9-8</code>,  <code>0.2.5b9-7</code>,  <code>0.2.5b9-6</code>,  <code>0.2.5b9-5</code>,  <code>0.2.5b9-4</code>,  <code>0.2.5b9-3</code>,  <code>0.2.5b9-2</code>,  </span></summary>
       
 
-      ``0.2.5b9-9``,  ``0.2.5b9-8``,  ``0.2.5b9-7``,  ``0.2.5b9-6``,  ``0.2.5b9-5``,  ``0.2.5b9-4``,  ``0.2.5b9-3``,  ``0.2.5b9-2``,  ``0.2.5b9-1``,  ``0.2.5b9-0``,  ``0.2.5b8-2``
+      ``0.2.5b9-10``,  ``0.2.5b9-9``,  ``0.2.5b9-8``,  ``0.2.5b9-7``,  ``0.2.5b9-6``,  ``0.2.5b9-5``,  ``0.2.5b9-4``,  ``0.2.5b9-3``,  ``0.2.5b9-2``,  ``0.2.5b9-1``,  ``0.2.5b9-0``,  ``0.2.5b8-2``
 
       
       .. raw:: html

@@ -27,7 +27,7 @@ bioconductor-methylclock
       
       
 
-      ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -89,7 +89,7 @@ bioconductor-methylclock
 
     <script>
         var package = "bioconductor-methylclock";
-        var versions = ["1.4.0","1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.4.0","1.4.0","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

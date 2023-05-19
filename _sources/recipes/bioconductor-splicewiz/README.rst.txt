@@ -27,7 +27,7 @@ bioconductor-splicewiz
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -108,7 +108,7 @@ bioconductor-splicewiz
 
     <script>
         var package = "bioconductor-splicewiz";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

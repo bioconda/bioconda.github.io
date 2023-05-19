@@ -27,7 +27,7 @@ drprg
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -36,7 +36,7 @@ drprg
    :depends libgcc-ng: ``>=12``
    :depends mafft: ``7.505.*``
    :depends make_prg: ``0.4.*``
-   :depends openssl: ``>=1.1.1t,<1.1.2a``
+   :depends openssl: ``>=3.1.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ drprg
 
     <script>
         var package = "drprg";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

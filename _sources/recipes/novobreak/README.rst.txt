@@ -26,19 +26,27 @@ novobreak
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.3rc-8``,  ``1.1.3rc-7``,  ``1.1.3rc-6``,  ``1.1.3rc-5``,  ``1.1.3rc-4``,  ``1.1.3rc-3``,  ``1.1.3rc-2``,  ``1.1.3rc-1``,  ``1.1.3rc-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.3rc-9</code>,  <code>1.1.3rc-8</code>,  <code>1.1.3rc-7</code>,  <code>1.1.3rc-6</code>,  <code>1.1.3rc-5</code>,  <code>1.1.3rc-4</code>,  <code>1.1.3rc-3</code>,  <code>1.1.3rc-2</code>,  <code>1.1.3rc-1</code>,  </span></summary>
+      
 
+      ``1.1.3rc-9``,  ``1.1.3rc-8``,  ``1.1.3rc-7``,  ``1.1.3rc-6``,  ``1.1.3rc-5``,  ``1.1.3rc-4``,  ``1.1.3rc-3``,  ``1.1.3rc-2``,  ``1.1.3rc-1``,  ``1.1.3rc-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bwa: ``>=0.7.10``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: 
    :depends samtools: ``1.*``
    :depends ssake: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

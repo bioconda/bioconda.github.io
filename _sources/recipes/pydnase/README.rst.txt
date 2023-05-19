@@ -29,14 +29,13 @@ pydnase
       
       
 
-      ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.6-1``,  ``0.2.6-0``
+      ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.6-1``,  ``0.2.6-0``
 
       
 
    
    :depends bedtools: 
    :depends clint: 
-   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pybedtools: 
