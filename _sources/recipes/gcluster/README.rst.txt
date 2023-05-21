@@ -12,7 +12,7 @@ gcluster
 
    Gcluster is a simple\-to\-use tool for visualizing and comparing genome contexts for numerous genomes
 
-   :homepage: http://www.microbialgenomic.com/Gcluster_tool.html
+   :homepage: http://www.microbialgenomic.cn/Gcluster_tool.html
    :developer docs: https://github.com/Xiangyang1984/Gcluster
    :license: perl_5
    :recipe: /`gcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcluster/meta.yaml>`_
@@ -28,7 +28,7 @@ gcluster
       
       
 
-      ``2.06-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.06-2``,  ``2.06-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
@@ -70,7 +70,7 @@ gcluster
 
     <script>
         var package = "gcluster";
-        var versions = ["2.06","2.0.5","2.0.5","2.0.4","2.0.3"];
+        var versions = ["2.06","2.06","2.0.5","2.0.5","2.0.4"];
     </script>
 
 
