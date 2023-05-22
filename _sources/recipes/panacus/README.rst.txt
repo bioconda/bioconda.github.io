@@ -27,11 +27,19 @@ panacus
       
       
 
-      
+      ``0.2-0``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: 
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +71,7 @@ panacus
 
     <script>
         var package = "panacus";
-        var versions = [];
+        var versions = ["0.2"];
     </script>
 
 

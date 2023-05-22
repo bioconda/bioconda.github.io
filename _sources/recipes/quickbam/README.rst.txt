@@ -27,7 +27,7 @@ quickbam
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -68,7 +68,7 @@ quickbam
 
     <script>
         var package = "quickbam";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

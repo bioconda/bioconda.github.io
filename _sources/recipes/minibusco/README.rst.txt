@@ -27,15 +27,17 @@ minibusco
       
       
 
-      ``0.2-0``
+      ``0.2.1-0``,  ``0.2-0``
 
       
 
    
-   :depends hmmer: ``>=3.3.2``
+   :depends dendropy: ``<4.6.0``
+   :depends hmmer: 
    :depends miniprot: ``>=0.11``
-   :depends pandas: ``>=1.5.3``
-   :depends python: ``>=3.8``
+   :depends pandas: 
+   :depends python: 
+   :depends sepp: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +69,7 @@ minibusco
 
     <script>
         var package = "minibusco";
-        var versions = ["0.2"];
+        var versions = ["0.2.1","0.2"];
     </script>
 
 

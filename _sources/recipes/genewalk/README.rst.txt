@@ -29,12 +29,12 @@ genewalk
       
       
 
-      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``
+      ``1.6.1-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``
 
       
 
    
-   :depends gensim: ``<4.0``
+   :depends gensim: ``>=4.0``
    :depends goatools: 
    :depends matplotlib-base: 
    :depends networkx: ``>=2.1``
@@ -75,7 +75,7 @@ genewalk
 
     <script>
         var package = "genewalk";
-        var versions = ["1.5.3","1.5.2","1.5.1"];
+        var versions = ["1.6.1","1.5.3","1.5.2","1.5.1"];
     </script>
 
 

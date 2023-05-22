@@ -27,17 +27,20 @@ cami-amber
       
       
 
-      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
+      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
 
       
 
    
-   :depends bokeh: ``0.13.0``
-   :depends matplotlib-base: ``>=3.1.0``
-   :depends numpy: ``>=1.18.3``
-   :depends pandas: ``>=1.0.3``
+   :depends biopython: ``>=1.81``
+   :depends bokeh: ``>=3.1.0``
+   :depends jinja2: ``>=3.1.2``
+   :depends matplotlib-base: ``>=3.7.1``
+   :depends numpy: ``>=1.24.2``
+   :depends pandas: ``>=1.5.3``
+   :depends pyarrow: ``>=11.0.0``
    :depends python: ``>=3.6``
-   :depends seaborn: ``>=0.10.1``
+   :depends seaborn: ``>=0.12.2``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +72,7 @@ cami-amber
 
     <script>
         var package = "cami-amber";
-        var versions = ["2.0.3","2.0.2","2.0.1","2.0.0.post0"];
+        var versions = ["2.0.4","2.0.3","2.0.2","2.0.1","2.0.0.post0"];
     </script>
 
 

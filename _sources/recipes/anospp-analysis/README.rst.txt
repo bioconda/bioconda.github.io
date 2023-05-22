@@ -27,20 +27,23 @@ anospp-analysis
       
       
 
-      ``0.1.3-0``
+      ``0.2.1-0``,  ``0.1.3-0``
 
       
 
    
    :depends biopython: 
    :depends blast: 
+   :depends bokeh: 
    :depends cutadapt: 
    :depends fasttree: 
+   :depends keras: 
    :depends mafft: 
    :depends numpy: 
    :depends pandas: 
    :depends python: 
    :depends seaborn: 
+   :depends tensorflow-base: 
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +75,7 @@ anospp-analysis
 
     <script>
         var package = "anospp-analysis";
-        var versions = ["0.1.3"];
+        var versions = ["0.2.1","0.1.3"];
     </script>
 
 

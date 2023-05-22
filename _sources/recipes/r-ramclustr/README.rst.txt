@@ -10,7 +10,7 @@ r-ramclustr
    :replaces_section_title:
    :noindex:
 
-   A feature clustering algorithm for non\-targeted mass spectrometric metabolomics data. This method is compatible with gas and liquid chromatography coupled mass spectrometry\, including indiscriminant tandem mass spectrometry \<DOI\: 10.1021\/ac501530d\> data.
+   A feature clustering algorithm for non\-targeted mass spectrometric metabolomics data. This method is compatible with gas and liquid chromatography coupled mass spectrometry\, including indiscriminant tandem mass spectrometry data \<DOI\: 10.1021\/ac501530d\>.
 
    :homepage: https://github.com/cbroeckl/RAMClustR
    :license: GPL2 / GPL-2.0-or-later
@@ -27,7 +27,7 @@ r-ramclustr
       
       
 
-      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.0.9-1``,  ``1.0.9-0``
+      ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.0.9-1``,  ``1.0.9-0``
 
       
 
@@ -83,7 +83,7 @@ r-ramclustr
 
     <script>
         var package = "r-ramclustr";
-        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.3.0","1.2.4","1.2.4","1.2.3","1.2.2"];
     </script>
 
 
