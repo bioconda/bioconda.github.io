@@ -28,10 +28,10 @@ abritamr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-1</code>,  </span></summary>
       
 
-      ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
+      ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ abritamr
    :depends libcurl: 
    :depends ncbi-amrfinderplus: ``3.10.42.*``
    :depends pandas: ``>1.4*``
+   :depends parallel: 
    :depends python: 
    :depends xlsxwriter: 
    :requirements:
@@ -78,7 +79,7 @@ abritamr
 
     <script>
         var package = "abritamr";
-        var versions = ["1.0.14","1.0.13","1.0.12","1.0.11","1.0.10"];
+        var versions = ["1.0.14","1.0.14","1.0.13","1.0.12","1.0.11"];
     </script>
 
 

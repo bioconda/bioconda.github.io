@@ -27,7 +27,7 @@ bioconductor-mitoclone2
       
       
 
-      ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -75,7 +75,7 @@ bioconductor-mitoclone2
 
     <script>
         var package = "bioconductor-mitoclone2";
-        var versions = ["1.4.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.4.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

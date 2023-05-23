@@ -27,16 +27,17 @@ perl-bio-samtools
       
       
 
-      ``1.43-3``,  ``1.43-2``,  ``1.43-1``,  ``1.43-0``
+      ``1.43-4``,  ``1.43-3``,  ``1.43-2``,  ``1.43-1``,  ``1.43-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl-core: ``1.7.8.*``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl-module-build: ``0.4234.*``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +69,7 @@ perl-bio-samtools
 
     <script>
         var package = "perl-bio-samtools";
-        var versions = ["1.43","1.43","1.43","1.43"];
+        var versions = ["1.43","1.43","1.43","1.43","1.43"];
     </script>
 
 

@@ -28,17 +28,17 @@ bsmap
       
       
 
-      ``2.90-4``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
+      ``2.90-5``,  ``2.90-4``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: ``2.7.*``
    :depends samtools: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

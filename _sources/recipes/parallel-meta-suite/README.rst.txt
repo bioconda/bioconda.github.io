@@ -27,14 +27,14 @@ parallel-meta-suite
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends hmmer: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-pheatmap: 
    :depends vsearch: 
    :requirements:
@@ -68,7 +68,7 @@ parallel-meta-suite
 
     <script>
         var package = "parallel-meta-suite";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

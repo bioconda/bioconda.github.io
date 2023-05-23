@@ -28,10 +28,10 @@ hap.py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.14-0</code>,  <code>0.3.13-0</code>,  <code>0.3.12-2</code>,  <code>0.3.12-1</code>,  <code>0.3.12-0</code>,  <code>0.3.10-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.2.9-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.15-0</code>,  <code>0.3.14-0</code>,  <code>0.3.13-0</code>,  <code>0.3.12-2</code>,  <code>0.3.12-1</code>,  <code>0.3.12-0</code>,  <code>0.3.10-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  </span></summary>
       
 
-      ``0.3.14-0``,  ``0.3.13-0``,  ``0.3.12-2``,  ``0.3.12-1``,  ``0.3.12-0``,  ``0.3.10-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.9-1``,  ``0.2.9-0``
+      ``0.3.15-0``,  ``0.3.14-0``,  ``0.3.13-0``,  ``0.3.12-2``,  ``0.3.12-1``,  ``0.3.12-0``,  ``0.3.10-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.9-1``,  ``0.2.9-0``
 
       
       .. raw:: html
@@ -41,22 +41,20 @@ hap.py
 
    
    :depends bcftools: 
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bx-python: 
-   :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libdeflate: ``>=1.6,<1.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends nose: 
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: 
+   :depends pysam: ``>=0.20.0,<1.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :depends samtools: 
    :depends scipy: 
-   :depends xz: ``>=5.2.5,<5.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +86,7 @@ hap.py
 
     <script>
         var package = "hap.py";
-        var versions = ["0.3.14","0.3.13","0.3.12","0.3.12","0.3.12"];
+        var versions = ["0.3.15","0.3.14","0.3.13","0.3.12","0.3.12"];
     </script>
 
 

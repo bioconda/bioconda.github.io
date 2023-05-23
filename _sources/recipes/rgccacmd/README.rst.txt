@@ -29,12 +29,12 @@ rgccacmd
       
       
 
-      ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
+      ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-deriv: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -80,7 +80,7 @@ rgccacmd
 
     <script>
         var package = "rgccacmd";
-        var versions = ["3.0.2","3.0.1","3.0.0","3.0.0","3.0.0"];
+        var versions = ["3.0.3","3.0.2","3.0.1","3.0.0","3.0.0"];
     </script>
 
 

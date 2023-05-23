@@ -27,7 +27,7 @@ biobloomtools
       
       
 
-      ``2.3.5-1``,  ``2.3.5-0``
+      ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``
 
       
 
@@ -69,7 +69,7 @@ biobloomtools
 
     <script>
         var package = "biobloomtools";
-        var versions = ["2.3.5","2.3.5"];
+        var versions = ["2.3.5","2.3.5","2.3.5"];
     </script>
 
 

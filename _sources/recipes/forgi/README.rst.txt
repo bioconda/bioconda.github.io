@@ -28,10 +28,10 @@ forgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-4</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0-2</code>,  <code>1.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.1.1-4</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0-2</code>,  </span></summary>
       
 
-      ``2.1.1-4``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0-2``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``2.2.2-0``,  ``2.1.1-4``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0-2``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
       .. raw:: html
@@ -50,10 +50,9 @@ forgi
    :depends matplotlib-base: ``>=2``
    :depends networkx: ``>=2.0``
    :depends numpy: ``>=1.10.0``
-   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: ``>=0.20``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: ``>=0.19.1``
    :requirements:
 
@@ -86,7 +85,7 @@ forgi
 
     <script>
         var package = "forgi";
-        var versions = ["2.1.1","2.1.1","2.1.1","2.1.1","2.1.0"];
+        var versions = ["2.2.2","2.1.1","2.1.1","2.1.1","2.1.1"];
     </script>
 
 

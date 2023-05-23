@@ -17,7 +17,7 @@ pyhmmer
    
    :license: MIT
    :recipe: /`pyhmmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyhmmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyhmmer/meta.yaml>`_
-   :links: DOI: :DOI:`10.5281/zenodo.4270012`
+   :links: DOI: :DOI:`10.1093/bioinformatics/btad214`
 
    
 

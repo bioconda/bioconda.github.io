@@ -12,7 +12,7 @@ biotransformer
 
    Predicts small molecule metabolism.
 
-   :homepage: https://bitbucket.org/djoumbou/biotransformer
+   :homepage: https://bitbucket.org/wishartlab/biotransformer3.0jar/src
    :license: GPL3
    :recipe: /`biotransformer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biotransformer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biotransformer/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13321‐018‐0324‐5`, doi: :doi:`10.1093/nar/gkv1229`
@@ -31,7 +31,7 @@ biotransformer
       
       
 
-      ``3.0-0``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``
+      ``3.0.20230403-0``,  ``3.0-0``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``
 
       
 
@@ -69,7 +69,7 @@ biotransformer
 
     <script>
         var package = "biotransformer";
-        var versions = ["3.0","1.1.5","1.1.5","1.1.5"];
+        var versions = ["3.0.20230403","3.0","1.1.5","1.1.5","1.1.5"];
     </script>
 
 
