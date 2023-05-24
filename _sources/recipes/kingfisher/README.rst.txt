@@ -27,7 +27,7 @@ kingfisher
       
       
 
-      ``0.1.2-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.2-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -42,7 +42,7 @@ kingfisher
    :depends pyarrow: 
    :depends python: 
    :depends requests: 
-   :depends sra-tools: 
+   :depends sra-tools: ``>=3.0.5``
    :depends sracat: 
    :depends tqdm: 
    :requirements:
@@ -76,7 +76,7 @@ kingfisher
 
     <script>
         var package = "kingfisher";
-        var versions = ["0.1.2","0.1.0","0.1.0"];
+        var versions = ["0.2.1","0.2.1","0.1.2","0.1.0","0.1.0"];
     </script>
 
 

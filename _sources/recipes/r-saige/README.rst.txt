@@ -13,7 +13,7 @@ r-saige
    SAIGE is an R package with Scalable and Accurate Implementation of Generalized mixed model \(Chen\, H. et al. 2016\)
 
    :homepage: https://github.com/saigegit/SAIGE
-   :license: GPL3 / GNU GPL
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`r-saige <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-saige>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-saige/meta.yaml>`_
 
    SAIGE is an R package with Scalable and Accurate Implementation of Generalized
@@ -31,10 +31,10 @@ r-saige
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.8-0</code>,  <code>0.45.0-5</code>,  <code>0.45.0-4</code>,  <code>0.45.0-3</code>,  <code>0.45.0-2</code>,  <code>0.45.0-0</code>,  <code>0.44.6.5-3</code>,  <code>0.44.6.5-2</code>,  <code>0.44.6.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>0.45.0-5</code>,  <code>0.45.0-4</code>,  <code>0.45.0-3</code>,  <code>0.45.0-2</code>,  <code>0.45.0-0</code>,  <code>0.44.6.5-3</code>,  <code>0.44.6.5-2</code>,  </span></summary>
       
 
-      ``1.1.8-0``,  ``0.45.0-5``,  ``0.45.0-4``,  ``0.45.0-3``,  ``0.45.0-2``,  ``0.45.0-0``,  ``0.44.6.5-3``,  ``0.44.6.5-2``,  ``0.44.6.5-1``,  ``0.44.6.5-0``,  ``0.44.6.2-0``,  ``0.44.6.1-0``,  ``0.44.6-0``,  ``0.44.5-1``,  ``0.44.5-0``,  ``0.44.2-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-2``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
+      ``1.1.9-0``,  ``1.1.8-0``,  ``0.45.0-5``,  ``0.45.0-4``,  ``0.45.0-3``,  ``0.45.0-2``,  ``0.45.0-0``,  ``0.44.6.5-3``,  ``0.44.6.5-2``,  ``0.44.6.5-1``,  ``0.44.6.5-0``,  ``0.44.6.2-0``,  ``0.44.6.1-0``,  ``0.44.6-0``,  ``0.44.5-1``,  ``0.44.5-0``,  ``0.44.2-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-2``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ r-saige
 
     <script>
         var package = "r-saige";
-        var versions = ["1.1.8","0.45.0","0.45.0","0.45.0","0.45.0"];
+        var versions = ["1.1.9","1.1.8","0.45.0","0.45.0","0.45.0"];
     </script>
 
 

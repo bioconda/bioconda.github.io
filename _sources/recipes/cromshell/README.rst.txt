@@ -28,10 +28,10 @@ cromshell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  </span></summary>
       
 
-      ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.3-0``
+      ``2.0.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.3-0``
 
       
       .. raw:: html
@@ -40,7 +40,15 @@ cromshell
       
 
    
+   :depends click: ``>=8``
+   :depends gcsfs: ``>=2022.3.0``
+   :depends google-cloud-bigquery: ``>=3.5.0``
    :depends jq: 
+   :depends pygments: ``>=2.12.0``
+   :depends python: ``>=3``
+   :depends requests: ``>=2.27.1``
+   :depends tabulate: ``>=0.8.9``
+   :depends termcolor: ``>=1.1.0``
    :depends womtool: 
    :requirements:
 
@@ -73,7 +81,7 @@ cromshell
 
     <script>
         var package = "cromshell";
-        var versions = ["0.5.3","0.5.2","0.5.1","0.5.0","0.4.4"];
+        var versions = ["2.0.0","0.5.3","0.5.2","0.5.1","0.5.0"];
     </script>
 
 

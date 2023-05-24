@@ -28,7 +28,7 @@ annonars
       
       
 
-      ``0.2.0-0``
+      ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -70,7 +70,7 @@ annonars
 
     <script>
         var package = "annonars";
-        var versions = ["0.2.0"];
+        var versions = ["0.5.0","0.3.0","0.2.0"];
     </script>
 
 

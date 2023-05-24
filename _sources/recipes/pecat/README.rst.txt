@@ -13,7 +13,7 @@ pecat
    A phased error correction and assembly tool
 
    :homepage: https://github.com/lemene/PECAT
-   :license: BSD-2-Clause license
+   :license: BSD-2-Clause
    :recipe: /`pecat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pecat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pecat/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pecat
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -39,6 +39,7 @@ pecat
    :depends perl: ``>=5.26.2``
    :depends python: ``>=3.6``
    :depends racon: ``>=1.4.3``
+   :depends samtools: ``>=1.17``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +71,7 @@ pecat
 
     <script>
         var package = "pecat";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["0.0.2","0.0.1","0.0.1"];
     </script>
 
 

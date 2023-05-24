@@ -27,7 +27,7 @@ htseq-clip
       
       
 
-      ``2.18.2b0-0``,  ``2.14.0b0-0``
+      ``2.19.0b0-0``,  ``2.18.2b0-0``,  ``2.14.0b0-0``
 
       
 
@@ -66,7 +66,7 @@ htseq-clip
 
     <script>
         var package = "htseq-clip";
-        var versions = ["2.18.2b0","2.14.0b0"];
+        var versions = ["2.19.0b0","2.18.2b0","2.14.0b0"];
     </script>
 
 
