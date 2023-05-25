@@ -28,11 +28,27 @@ ms2query
       
       
 
-      
+      ``1.2.0-0``
 
       
 
    
+   :depends gensim: ``>=4.0.0``
+   :depends h5py: ``>=3.8.0``
+   :depends matchms: ``>=0.14.0,<=0.17.0``
+   :depends matchmsextras: ``0.4.1.*``
+   :depends matplotlib-base: 
+   :depends ms2deepscore: 
+   :depends onnxruntime: 
+   :depends pandas: ``>=1.2.5,<2.0.0``
+   :depends pubchempy: 
+   :depends python: ``3.8.*``
+   :depends rdkit: 
+   :depends scikit-learn: 
+   :depends skl2onnx: 
+   :depends spec2vec: ``>=0.6.0``
+   :depends tensorflow: ``<2.9``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +80,7 @@ ms2query
 
     <script>
         var package = "ms2query";
-        var versions = [];
+        var versions = ["1.2.0"];
     </script>
 
 

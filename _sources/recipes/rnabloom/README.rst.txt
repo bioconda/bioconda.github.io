@@ -17,7 +17,7 @@ rnabloom
    
    :license: GPL-3.0
    :recipe: /`rnabloom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabloom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabloom/meta.yaml>`_
-   :links: doi: :doi:`10.1101/gr.260174.119`
+   :links: doi: :doi:`10.1101/gr.260174.119`, doi: :doi:`10.1038/s41467-023-38553-y`
 
    RNA\-Bloom is a reference\-free and reference\-guided transcriptome assembly tool for short and long RNA\-seq reads.
 
@@ -29,9 +29,17 @@ rnabloom
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.3-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+      
 
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -70,7 +78,7 @@ rnabloom
 
     <script>
         var package = "rnabloom";
-        var versions = ["2.0.1","2.0.0","1.4.3","1.3.1","1.3.1"];
+        var versions = ["2.0.1","2.0.1","2.0.0","1.4.3","1.3.1"];
     </script>
 
 

@@ -12,9 +12,12 @@ circtools
 
    circtools \- a circular RNA toolbox
 
-   :homepage: https://github.com/dieterich-lab/circtools
+   :homepage: https://github.com/jakobilab/circtools
+   :documentation: https://docs.circ.tools/en/latest/
+   
    :license: GPL-3.0
    :recipe: /`circtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circtools/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty948`, biotools: :biotools:`circtools`
 
    
 
@@ -27,21 +30,48 @@ circtools
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``
+      ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
    
+   :depends bioconductor-ballgown: 
+   :depends bioconductor-biomart: 
+   :depends bioconductor-edger: 
+   :depends bioconductor-genomicfeatures: 
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-ggbio: 
    :depends biopython: ``>=1.71``
-   :depends htseq: ``>=0.11.0``
+   :depends htseq: ``>=2.0.0``
    :depends numpy: ``>=1.14.5``
    :depends pandas: ``>=0.25.0``
+   :depends pathos: ``>=0.3.0``
    :depends pybedtools: ``>=0.7.10``
-   :depends pysam: ``>=0.13``
-   :depends python: 
+   :depends pysam: ``>=0.16.0.1``
+   :depends python: ``>=3.8``
+   :depends r-amap: 
+   :depends r-aod: 
+   :depends r-base: 
+   :depends r-data.table: 
+   :depends r-devtools: 
+   :depends r-dplyr: 
+   :depends r-formattable: 
+   :depends r-ggfortify: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-gplots: 
+   :depends r-gridextra: 
+   :depends r-hmisc: 
+   :depends r-kableextra: 
+   :depends r-openxlsx: 
+   :depends r-plyr: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
    :depends reportlab: ``>=3.3.0``
    :depends scipy: ``>=0.19.0``
-   :depends statsmodels: ``>=0.9.0``
+   :depends star: 
+   :depends statsmodels: 
+   :depends stringtie: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +103,7 @@ circtools
 
     <script>
         var package = "circtools";
-        var versions = ["1.2.2","1.2.1"];
+        var versions = ["1.3.0","1.2.2","1.2.1"];
     </script>
 
 

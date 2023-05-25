@@ -26,23 +26,31 @@ biophi
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.9-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+      
 
+      ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends abnumber: ``0.3.0``
+   :depends abnumber: ``0.3.2``
    :depends anarci: ``2020.04.23``
    :depends celery: 
    :depends click: ``>=7``
    :depends flask: ``>=2.1``
    :depends hmmer: ``>=3.1``
    :depends humanize: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :depends redis-py: 
    :depends requests: 
-   :depends sapiens: ``1.0.3``
+   :depends sapiens: ``>=1.0.4``
    :depends sqlalchemy: ``<2``
    :depends tqdm: 
    :depends xlsxwriter: 
@@ -77,7 +85,7 @@ biophi
 
     <script>
         var package = "biophi";
-        var versions = ["1.0.8","1.0.8","1.0.7","1.0.6","1.0.5"];
+        var versions = ["1.0.9","1.0.8","1.0.8","1.0.7","1.0.6"];
     </script>
 
 

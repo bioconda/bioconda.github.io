@@ -29,10 +29,10 @@ segway
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0-1</code>,  <code>3.0-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0-1</code>,  <code>3.0-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  </span></summary>
       
 
-      ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0-1``,  ``3.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.4.4-0``,  ``1.4-0``
+      ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0-1``,  ``3.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.4.4-0``,  ``1.4-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ segway
    :depends colorbrewer: 
    :depends drmaa: ``>=0.4a3``
    :depends genomedata: 
-   :depends gmtk: ``>=1.4.4 hd5b5912_5``
+   :depends gmtk: ``>=1.4.4``
    :depends optbuild: 
    :depends optplus: 
    :depends path.py: 
@@ -84,7 +84,7 @@ segway
 
     <script>
         var package = "segway";
-        var versions = ["3.0.4","3.0.3","3.0.2","3.0.2","3.0"];
+        var versions = ["3.0.4","3.0.4","3.0.3","3.0.2","3.0.2"];
     </script>
 
 

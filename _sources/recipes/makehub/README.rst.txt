@@ -27,14 +27,14 @@ makehub
       
       
 
-      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
-   :depends augustus: ``>=3.3.1``
+   :depends augustus: ``>=3.5.0``
    :depends biopython: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.8``
    :depends samtools: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-fatotwobit: 
@@ -77,7 +77,7 @@ makehub
 
     <script>
         var package = "makehub";
-        var versions = ["1.0.5","1.0.5","1.0.4","1.0.3"];
+        var versions = ["1.0.6","1.0.5","1.0.5","1.0.4","1.0.3"];
     </script>
 
 
