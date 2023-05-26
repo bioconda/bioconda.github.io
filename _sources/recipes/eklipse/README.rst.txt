@@ -27,7 +27,7 @@ eklipse
       
       
 
-      ``1.8-0``
+      ``1.8-1``,  ``1.8-0``
 
       
 
@@ -69,7 +69,7 @@ eklipse
 
     <script>
         var package = "eklipse";
-        var versions = ["1.8"];
+        var versions = ["1.8","1.8"];
     </script>
 
 

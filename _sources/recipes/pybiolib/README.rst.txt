@@ -29,10 +29,10 @@ pybiolib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.916-0</code>,  <code>1.1.911-0</code>,  <code>1.1.862-0</code>,  <code>1.1.860-0</code>,  <code>1.1.835-0</code>,  <code>1.1.825-0</code>,  <code>1.1.824-0</code>,  <code>1.1.822-0</code>,  <code>1.1.814-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.918-0</code>,  <code>1.1.916-0</code>,  <code>1.1.911-0</code>,  <code>1.1.862-0</code>,  <code>1.1.860-0</code>,  <code>1.1.835-0</code>,  <code>1.1.825-0</code>,  <code>1.1.824-0</code>,  <code>1.1.822-0</code>,  </span></summary>
       
 
-      ``1.1.916-0``,  ``1.1.911-0``,  ``1.1.862-0``,  ``1.1.860-0``,  ``1.1.835-0``,  ``1.1.825-0``,  ``1.1.824-0``,  ``1.1.822-0``,  ``1.1.814-0``,  ``1.1.809-0``
+      ``1.1.918-0``,  ``1.1.916-0``,  ``1.1.911-0``,  ``1.1.862-0``,  ``1.1.860-0``,  ``1.1.835-0``,  ``1.1.825-0``,  ``1.1.824-0``,  ``1.1.822-0``,  ``1.1.814-0``,  ``1.1.809-0``
 
       
       .. raw:: html
@@ -85,7 +85,7 @@ pybiolib
 
     <script>
         var package = "pybiolib";
-        var versions = ["1.1.916","1.1.911","1.1.862","1.1.860","1.1.835"];
+        var versions = ["1.1.918","1.1.916","1.1.911","1.1.862","1.1.860"];
     </script>
 
 

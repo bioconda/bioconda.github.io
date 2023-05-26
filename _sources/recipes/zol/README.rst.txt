@@ -27,7 +27,7 @@ zol
       
       
 
-      ``1.2.7-0``
+      ``1.2.8-0``,  ``1.2.7-0``
 
       
 
@@ -94,7 +94,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.2.7"];
+        var versions = ["1.2.8","1.2.7"];
     </script>
 
 

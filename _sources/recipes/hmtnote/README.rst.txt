@@ -27,7 +27,7 @@ hmtnote
       
       
 
-      ``0.7.2-0``
+      ``0.7.2-1``,  ``0.7.2-0``
 
       
 
@@ -72,7 +72,7 @@ hmtnote
 
     <script>
         var package = "hmtnote";
-        var versions = ["0.7.2"];
+        var versions = ["0.7.2","0.7.2"];
     </script>
 
 

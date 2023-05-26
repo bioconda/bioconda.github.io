@@ -13,7 +13,10 @@ epytope
    A Framework for Epitope Detection and Vaccine Design
 
    :homepage: https://github.com/KohlbacherLab/epytope
-   :license: BSD-3-Clause
+   :documentation: https://epytope.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/KohlbacherLab/epytope/tree/develop
+   :license: BSD / BSD
    :recipe: /`epytope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epytope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epytope/meta.yaml>`_
 
    
@@ -27,7 +30,7 @@ epytope
       
       
 
-      ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -38,8 +41,7 @@ epytope
    :depends keras: ``<=2.3.1``
    :depends mhcflurry: ``<=1.4.3``
    :depends mhcnuggets: ``2.3.2``
-   :depends np_utils: 
-   :depends pandas: 
+   :depends pandas: ``>=1.3.5``
    :depends pymysql: 
    :depends pyomo: ``>=4.0``
    :depends python: 
@@ -77,7 +79,7 @@ epytope
 
     <script>
         var package = "epytope";
-        var versions = ["3.3.0","3.2.0","3.1.0","3.0.0"];
+        var versions = ["3.3.1","3.3.0","3.2.0","3.1.0","3.0.0"];
     </script>
 
 
