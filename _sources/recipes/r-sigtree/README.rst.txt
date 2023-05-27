@@ -28,10 +28,10 @@ r-sigtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.6-10</code>,  <code>1.10.6-9</code>,  <code>1.10.6-8</code>,  <code>1.10.6-7</code>,  <code>1.10.6-6</code>,  <code>1.10.6-5</code>,  <code>1.10.6-4</code>,  <code>1.10.6-3</code>,  <code>1.10.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.6-11</code>,  <code>1.10.6-10</code>,  <code>1.10.6-9</code>,  <code>1.10.6-8</code>,  <code>1.10.6-7</code>,  <code>1.10.6-6</code>,  <code>1.10.6-5</code>,  <code>1.10.6-4</code>,  <code>1.10.6-3</code>,  </span></summary>
       
 
-      ``1.10.6-10``,  ``1.10.6-9``,  ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
+      ``1.10.6-11``,  ``1.10.6-10``,  ``1.10.6-9``,  ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
 
       
       .. raw:: html

@@ -27,7 +27,7 @@ bioconductor-fusesom
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -85,7 +85,7 @@ bioconductor-fusesom
 
     <script>
         var package = "bioconductor-fusesom";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

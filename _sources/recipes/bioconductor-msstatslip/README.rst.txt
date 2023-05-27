@@ -27,7 +27,7 @@ bioconductor-msstatslip
       
       
 
-      ``1.3.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -86,7 +86,7 @@ bioconductor-msstatslip
 
     <script>
         var package = "bioconductor-msstatslip";
-        var versions = ["1.3.1","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.3.1","1.3.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

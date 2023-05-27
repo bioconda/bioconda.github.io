@@ -27,7 +27,7 @@ bioconductor-msa2dist
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -83,7 +83,7 @@ bioconductor-msa2dist
 
     <script>
         var package = "bioconductor-msa2dist";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 
