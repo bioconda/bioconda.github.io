@@ -27,7 +27,7 @@ bioconductor-sccomp
       
       
 
-      ``1.1.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -93,7 +93,7 @@ bioconductor-sccomp
 
     <script>
         var package = "bioconductor-sccomp";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.0","1.1.0"];
     </script>
 
 

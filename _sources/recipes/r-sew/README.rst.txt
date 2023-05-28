@@ -27,13 +27,13 @@ r-sew
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends coreutils: 
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.2,<4.3.0a0``
@@ -76,7 +76,7 @@ r-sew
 
     <script>
         var package = "r-sew";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

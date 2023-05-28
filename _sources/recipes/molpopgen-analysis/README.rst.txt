@@ -26,16 +26,23 @@ molpopgen-analysis
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8.8-8``,  ``0.8.8-7``,  ``0.8.8-6``,  ``0.8.8-5``,  ``0.8.8-4``,  ``0.8.8-3``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``
+         <details><summary><span class="truncated-version-list"><code>0.8.8-9</code>,  <code>0.8.8-8</code>,  <code>0.8.8-7</code>,  <code>0.8.8-6</code>,  <code>0.8.8-5</code>,  <code>0.8.8-4</code>,  <code>0.8.8-3</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  </span></summary>
+      
 
+      ``0.8.8-9``,  ``0.8.8-8``,  ``0.8.8-7``,  ``0.8.8-6``,  ``0.8.8-5``,  ``0.8.8-4``,  ``0.8.8-3``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libcxx: ``>=15.0.7``
    :depends libsequence: ``1.8.4.*``
-   :depends libstdcxx-ng: ``>=10.3.0``
    :depends openblas: 
    :requirements:
 

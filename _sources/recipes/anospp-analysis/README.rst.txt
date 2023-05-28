@@ -27,7 +27,7 @@ anospp-analysis
       
       
 
-      ``0.2.1-0``,  ``0.1.3-0``
+      ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.3-0``
 
       
 
@@ -37,13 +37,13 @@ anospp-analysis
    :depends bokeh: 
    :depends cutadapt: 
    :depends fasttree: 
-   :depends keras: 
+   :depends keras: ``>=2``
    :depends mafft: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``3.10.*``
    :depends seaborn: 
-   :depends tensorflow-base: 
+   :depends tensorflow-base: ``>=2``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ anospp-analysis
 
     <script>
         var package = "anospp-analysis";
-        var versions = ["0.2.1","0.1.3"];
+        var versions = ["0.2.1","0.2.1","0.1.3"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-rnaseqsamplesize
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>1.17.0-1</code>,  <code>1.16.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>1.17.0-1</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``1.17.0-1``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-2``
+      ``2.8.0-1``,  ``2.8.0-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``1.17.0-1``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-2``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ bioconductor-rnaseqsamplesize
 
     <script>
         var package = "bioconductor-rnaseqsamplesize";
-        var versions = ["2.8.0","2.4.1","2.4.1","2.4.0","2.2.0"];
+        var versions = ["2.8.0","2.8.0","2.4.1","2.4.1","2.4.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-profia
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.23.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.3-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.23.0-1</code>,  <code>1.23.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.3-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.23.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.3-0``,  ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.23.0-1``,  ``1.23.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.3-0``,  ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -83,7 +83,7 @@ bioconductor-profia
 
     <script>
         var package = "bioconductor-profia";
-        var versions = ["1.23.0","1.20.0","1.20.0","1.20.0","1.18.0"];
+        var versions = ["1.23.0","1.23.0","1.20.0","1.20.0","1.20.0"];
     </script>
 
 

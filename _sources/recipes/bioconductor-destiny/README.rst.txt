@@ -26,9 +26,17 @@ bioconductor-destiny
    :versions:
       
       
+      .. raw:: html
 
-      ``3.12.0-0``,  ``3.8.1-1``,  ``3.8.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.15.0-0``,  ``2.14.0-1``,  ``2.12.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.8.1-1</code>,  <code>3.8.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>2.15.0-0</code>,  <code>2.14.0-1</code>,  </span></summary>
+      
 
+      ``3.12.0-1``,  ``3.12.0-0``,  ``3.8.1-1``,  ``3.8.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.15.0-0``,  ``2.14.0-1``,  ``2.12.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -90,7 +98,7 @@ bioconductor-destiny
 
     <script>
         var package = "bioconductor-destiny";
-        var versions = ["3.12.0","3.8.1","3.8.1","3.4.0","3.4.0"];
+        var versions = ["3.12.0","3.12.0","3.8.1","3.8.1","3.4.0"];
     </script>
 
 

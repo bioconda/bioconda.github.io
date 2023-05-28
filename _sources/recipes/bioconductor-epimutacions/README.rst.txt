@@ -27,7 +27,7 @@ bioconductor-epimutacions
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -103,7 +103,7 @@ bioconductor-epimutacions
 
     <script>
         var package = "bioconductor-epimutacions";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 

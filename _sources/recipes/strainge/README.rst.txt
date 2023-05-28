@@ -26,16 +26,23 @@ strainge
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.7-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-1</code>,  </span></summary>
+      
 
+      ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends h5py: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.21.6,<2.0a0``
@@ -77,7 +84,7 @@ strainge
 
     <script>
         var package = "strainge";
-        var versions = ["1.3.7","1.3.3","1.3.3","1.3.3","1.3.2"];
+        var versions = ["1.3.7","1.3.7","1.3.3","1.3.3","1.3.3"];
     </script>
 
 

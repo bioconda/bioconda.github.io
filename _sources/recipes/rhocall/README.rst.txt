@@ -28,7 +28,7 @@ rhocall
       
       
 
-      ``0.5.1-1``,  ``0.5.1-0``
+      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
 
       
 
@@ -37,9 +37,9 @@ rhocall
    :depends cyvcf2: 
    :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends tk: ``>=8.6.12,<8.7.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends tk: 
    :depends xorg-libx11: 
    :requirements:
 
@@ -72,7 +72,7 @@ rhocall
 
     <script>
         var package = "rhocall";
-        var versions = ["0.5.1","0.5.1"];
+        var versions = ["0.5.1","0.5.1","0.5.1"];
     </script>
 
 

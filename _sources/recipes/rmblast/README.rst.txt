@@ -15,6 +15,7 @@ rmblast
    :homepage: https://www.repeatmasker.org/rmblast/
    :license: OSL-2.1
    :recipe: /`rmblast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmblast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmblast/meta.yaml>`_
+   :links: biotools: :biotools:`rmblast`
 
    
 
@@ -26,14 +27,22 @@ rmblast
    :versions:
       
       
+      .. raw:: html
 
-      ``2.13.0-1``,  ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
+         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.13.0-1</code>,  <code>2.13.0-0</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  <code>2.9.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.28-4</code>,  <code>2.2.28-3</code>,  </span></summary>
+      
 
+      ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends curl: 
+   :depends curl: ``>=7.88.1,<8.0a0``
    :depends entrez-direct: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -44,7 +53,7 @@ rmblast
    :depends perl-archive-tar: 
    :depends perl-json: 
    :depends perl-list-moreutils: 
-   :depends zlib: 
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +85,7 @@ rmblast
 
     <script>
         var package = "rmblast";
-        var versions = ["2.13.0","2.13.0","2.11.0","2.10.0","2.9.0"];
+        var versions = ["2.14.0","2.13.0","2.13.0","2.11.0","2.10.0"];
     </script>
 
 

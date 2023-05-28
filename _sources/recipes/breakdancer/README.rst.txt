@@ -28,14 +28,14 @@ breakdancer
       
       
 
-      ``1.4.5-10``,  ``1.4.5-9``,  ``1.4.5-8``,  ``1.4.5-7``,  ``1.4.5-6``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
+      ``1.4.5-11``,  ``1.4.5-10``,  ``1.4.5-9``,  ``1.4.5-8``,  ``1.4.5-7``,  ``1.4.5-6``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends ncurses: ``>=6.3,<7.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-gdgraph-histogram: 

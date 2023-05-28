@@ -28,10 +28,10 @@ bioconductor-cogaps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.18.0-0</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.0-1</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.0-1</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  </span></summary>
       
 
-      ``3.18.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
+      ``3.18.0-1``,  ``3.18.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
 
       
       .. raw:: html
@@ -86,7 +86,7 @@ bioconductor-cogaps
 
     <script>
         var package = "bioconductor-cogaps";
-        var versions = ["3.18.0","3.14.0","3.14.0","3.14.0","3.12.0"];
+        var versions = ["3.18.0","3.18.0","3.14.0","3.14.0","3.14.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-rbowtie2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ bioconductor-rbowtie2
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-magrittr: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ bioconductor-rbowtie2
 
     <script>
         var package = "bioconductor-rbowtie2";
-        var versions = ["2.4.0","2.0.0","2.0.0","2.0.0","1.14.0"];
+        var versions = ["2.4.0","2.4.0","2.0.0","2.0.0","2.0.0"];
     </script>
 
 

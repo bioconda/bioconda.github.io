@@ -27,7 +27,7 @@ bioconductor-differentialregulation
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -80,7 +80,7 @@ bioconductor-differentialregulation
 
     <script>
         var package = "bioconductor-differentialregulation";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 

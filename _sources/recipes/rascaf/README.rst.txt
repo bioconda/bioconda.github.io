@@ -27,15 +27,15 @@ rascaf
       
       
 
-      ``20161129-5``,  ``20161129-4``,  ``20161129-3``,  ``20161129-2``,  ``20161129-1``,  ``20161129-0``
+      ``20161129-6``,  ``20161129-5``,  ``20161129-4``,  ``20161129-3``,  ``20161129-2``,  ``20161129-1``,  ``20161129-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

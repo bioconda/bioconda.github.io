@@ -27,16 +27,16 @@ sequenza-utils
       
       
 
-      ``3.0.0-5``,  ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.1.9999b0-0``
+      ``3.0.0-6``,  ``3.0.0-5``,  ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.1.9999b0-0``
 
       
 
    
    :depends htslib: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: 
    :requirements:
 
