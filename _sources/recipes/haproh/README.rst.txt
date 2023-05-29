@@ -27,14 +27,13 @@ haproh
       
       
 
-      ``0.64-0``,  ``0.63-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-0``,  ``0.53-0``
+      ``0.64-1``,  ``0.64-0``,  ``0.63-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-0``,  ``0.53-0``
 
       
 
    
    :depends cython: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numdifftools: 
    :depends numpy: 
@@ -75,7 +74,7 @@ haproh
 
     <script>
         var package = "haproh";
-        var versions = ["0.64","0.63","0.62","0.61","0.60"];
+        var versions = ["0.64","0.64","0.63","0.62","0.61"];
     </script>
 
 

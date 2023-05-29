@@ -27,16 +27,15 @@ syri
       
       
 
-      ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
+      ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends longestrunsubsequence: 
    :depends numpy: ``>=1.20``
-   :depends numpy: ``>=1.23.4,<2.0a0``
+   :depends numpy: ``>=1.24.3,<2.0a0``
    :depends pandas: 
    :depends psutil: 
    :depends pulp: 
@@ -76,7 +75,7 @@ syri
 
     <script>
         var package = "syri";
-        var versions = ["1.6.3","1.6","1.6","1.5.4","1.5.3"];
+        var versions = ["1.6.3","1.6.3","1.6","1.6","1.5.4"];
     </script>
 
 

@@ -26,9 +26,17 @@ hits
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.0-0</code>,  <code>0.1-2</code>,  <code>0.1-1</code>,  <code>0.1-0</code>,  </span></summary>
+      
 
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,7 +44,6 @@ hits
    :depends bokeh: 
    :depends ipython: ``>=7.8.0``
    :depends ipywidgets: ``>=7.4.2``
-   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=3.0.2``
    :depends numpy: ``>=1.15.4``
    :depends pandas: ``>=0.23.4``
@@ -79,7 +86,7 @@ hits
 
     <script>
         var package = "hits";
-        var versions = ["0.4.0","0.3.3","0.3.3","0.3.2","0.3.0"];
+        var versions = ["0.4.0","0.4.0","0.3.3","0.3.3","0.3.2"];
     </script>
 
 

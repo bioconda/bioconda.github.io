@@ -30,10 +30,10 @@ psims
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.1.50-0</code>,  <code>0.1.47-0</code>,  <code>0.1.46-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.1.50-0</code>,  <code>0.1.47-0</code>,  </span></summary>
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.50-0``,  ``0.1.47-0``,  ``0.1.46-0``,  ``0.1.45-0``
+      ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.50-0``,  ``0.1.47-0``,  ``0.1.46-0``,  ``0.1.45-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ psims
 
     <script>
         var package = "psims";
-        var versions = ["1.2.4","1.2.3","1.2.2","1.2.0","1.0.1"];
+        var versions = ["1.2.5","1.2.4","1.2.3","1.2.2","1.2.0"];
     </script>
 
 

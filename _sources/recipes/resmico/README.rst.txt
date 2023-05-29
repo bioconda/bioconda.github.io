@@ -27,7 +27,7 @@ resmico
       
       
 
-      ``1.2.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.12-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.12-0``
 
       
 
@@ -35,11 +35,10 @@ resmico
    :depends cmake: ``>=3.13``
    :depends ipython: 
    :depends keras: ``>=2.8.0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends numpy: ``>=1.17.0``
-   :depends numpy: ``>=1.23.5,<2.0a0``
+   :depends numpy: ``>=1.24.3,<2.0a0``
    :depends pandas: ``>=1.4.2``
    :depends pathos: ``>=0.2.9``
    :depends protobuf: ``>=3.20``
@@ -82,7 +81,7 @@ resmico
 
     <script>
         var package = "resmico";
-        var versions = ["1.2.2","1.1.1","1.1.0","1.0.12"];
+        var versions = ["1.2.2","1.2.2","1.1.1","1.1.0","1.0.12"];
     </script>
 
 
