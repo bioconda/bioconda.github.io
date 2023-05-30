@@ -27,7 +27,7 @@ bioconductor-syntenet
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ bioconductor-syntenet
 
     <script>
         var package = "bioconductor-syntenet";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

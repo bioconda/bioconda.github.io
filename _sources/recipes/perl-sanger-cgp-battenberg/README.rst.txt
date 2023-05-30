@@ -27,17 +27,18 @@ perl-sanger-cgp-battenberg
       
       
 
-      ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``
+      ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``
 
       
 
    
    :depends cancerit-allelecount: 
    :depends impute2: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-file-sharedir: 
    :depends perl-file-sharedir-install: 
+   :depends perl-module-build: ``0.4234.*``
    :depends perl-pcap: 
    :depends perl-sanger-cgp-allelecount: 
    :requirements:

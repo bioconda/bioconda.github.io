@@ -28,10 +28,10 @@ perl-sanger-cgp-allelecount
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.0-0</code>,  <code>4.2.1-1</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.0-1</code>,  <code>4.3.0-0</code>,  <code>4.2.1-1</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>2.1.2-3</code>,  </span></summary>
       
 
-      ``4.3.0-0``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+      ``4.3.0-1``,  ``4.3.0-0``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
 
       
       .. raw:: html
@@ -44,8 +44,9 @@ perl-sanger-cgp-allelecount
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bio-samtools: 
    :depends perl-bioperl: 
-   :depends perl-file-slurp: 
+   :depends perl-file-slurp: ``9999.32.*``
    :depends perl-file-which: 
+   :depends perl-module-build: ``0.4234.*``
    :depends perl-pod-coverage: 
    :depends perl-sanger-cgp-vcf: 
    :requirements:
@@ -79,7 +80,7 @@ perl-sanger-cgp-allelecount
 
     <script>
         var package = "perl-sanger-cgp-allelecount";
-        var versions = ["4.3.0","4.2.1","4.2.1","4.1.0","4.0.0"];
+        var versions = ["4.3.0","4.3.0","4.2.1","4.2.1","4.1.0"];
     </script>
 
 

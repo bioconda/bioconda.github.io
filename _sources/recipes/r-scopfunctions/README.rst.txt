@@ -27,7 +27,7 @@ r-scopfunctions
       
       
 
-      ``0-1``,  ``0-0``
+      ``0-2``,  ``0-1``,  ``0-0``
 
       
 
@@ -74,7 +74,7 @@ r-scopfunctions
 
     <script>
         var package = "r-scopfunctions";
-        var versions = ["0","0"];
+        var versions = ["0","0","0"];
     </script>
 
 

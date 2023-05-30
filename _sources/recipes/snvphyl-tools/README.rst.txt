@@ -27,15 +27,23 @@ snvphyl-tools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.8.2-7``,  ``1.8.2-6``,  ``1.8.2-5``,  ``1.8.2-4``,  ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.8.2-8</code>,  <code>1.8.2-7</code>,  <code>1.8.2-6</code>,  <code>1.8.2-5</code>,  <code>1.8.2-4</code>,  <code>1.8.2-3</code>,  <code>1.8.2-2</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  </span></summary>
+      
 
+      ``1.8.2-8``,  ``1.8.2-7``,  ``1.8.2-6``,  ``1.8.2-5``,  ``1.8.2-4``,  ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bcftools-snvphyl-plugin: ``>=1.9``
    :depends grep: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends mummer: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7.2``

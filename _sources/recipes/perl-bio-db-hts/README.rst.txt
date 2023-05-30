@@ -28,10 +28,10 @@ perl-bio-db-hts
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.01-7</code>,  <code>3.01-6</code>,  <code>3.01-5</code>,  <code>3.01-4</code>,  <code>3.01-3</code>,  <code>3.01-2</code>,  <code>3.01-1</code>,  <code>3.01-0</code>,  <code>2.7-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.01-8</code>,  <code>3.01-7</code>,  <code>3.01-6</code>,  <code>3.01-5</code>,  <code>3.01-4</code>,  <code>3.01-3</code>,  <code>3.01-2</code>,  <code>3.01-1</code>,  <code>3.01-0</code>,  </span></summary>
       
 
-      ``3.01-7``,  ``3.01-6``,  ``3.01-5``,  ``3.01-4``,  ``3.01-3``,  ``3.01-2``,  ``3.01-1``,  ``3.01-0``,  ``2.7-3``,  ``2.7-2``,  ``2.7-1``,  ``2.7-0``,  ``2.4-0``
+      ``3.01-8``,  ``3.01-7``,  ``3.01-6``,  ``3.01-5``,  ``3.01-4``,  ``3.01-3``,  ``3.01-2``,  ``3.01-1``,  ``3.01-0``,  ``2.7-3``,  ``2.7-2``,  ``2.7-1``,  ``2.7-0``,  ``2.4-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ perl-bio-db-hts
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
-   :depends perl-module-build: ``0.4232.*``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends perl-module-build: ``0.4234.*``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

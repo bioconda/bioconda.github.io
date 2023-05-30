@@ -27,7 +27,7 @@ perl-bio-bigfile
       
       
 
-      ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
+      ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
 
       
 
@@ -35,11 +35,11 @@ perl-bio-bigfile
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mysql: 
-   :depends openssl: ``>=1.1.1t,<1.1.2a``
+   :depends openssl: ``>=3.1.0,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-io-string: 
-   :depends perl-module-build: ``0.4232.*``
+   :depends perl-module-build: ``0.4234.*``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ perl-bio-bigfile
 
     <script>
         var package = "perl-bio-bigfile";
-        var versions = ["1.07","1.07","1.07","1.07"];
+        var versions = ["1.07","1.07","1.07","1.07","1.07"];
     </script>
 
 

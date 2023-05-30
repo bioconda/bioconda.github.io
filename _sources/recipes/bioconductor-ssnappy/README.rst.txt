@@ -27,7 +27,7 @@ bioconductor-ssnappy
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -85,7 +85,7 @@ bioconductor-ssnappy
 
     <script>
         var package = "bioconductor-ssnappy";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 

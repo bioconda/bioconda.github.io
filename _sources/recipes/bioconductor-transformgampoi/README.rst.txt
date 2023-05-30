@@ -27,7 +27,7 @@ bioconductor-transformgampoi
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
@@ -75,7 +75,7 @@ bioconductor-transformgampoi
 
     <script>
         var package = "bioconductor-transformgampoi";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.4.0","1.4.0","1.0.0"];
     </script>
 
 

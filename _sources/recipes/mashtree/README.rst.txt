@@ -28,10 +28,10 @@ mashtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.1-0</code>,  <code>1.0-0</code>,  <code>0.57-1</code>,  <code>0.57-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.1-0</code>,  <code>1.0-0</code>,  <code>0.57-1</code>,  </span></summary>
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.57-1``,  ``0.57-0``,  ``0.55-0``,  ``0.37-0``,  ``0.36-0``,  ``0.35.4-0``,  ``0.30-2``,  ``0.30-0``,  ``0.28-0``,  ``0.26-0``,  ``0.25-0``,  ``0.21-0``,  ``0.20-0``,  ``0.12-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.57-1``,  ``0.57-0``,  ``0.55-0``,  ``0.37-0``,  ``0.36-0``,  ``0.35.4-0``,  ``0.30-2``,  ``0.30-0``,  ``0.28-0``,  ``0.26-0``,  ``0.25-0``,  ``0.21-0``,  ``0.20-0``,  ``0.12-0``
 
       
       .. raw:: html
@@ -46,8 +46,9 @@ mashtree
    :depends perl-bioperl: ``>=1.7.2``
    :depends perl-dbd-sqlite: ``>=1.58``
    :depends perl-file-which: 
+   :depends perl-module-build: ``0.4234.*``
    :depends quicktree: 
-   :depends sqlite: ``>=3.39.4,<4.0a0``
+   :depends sqlite: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +80,7 @@ mashtree
 
     <script>
         var package = "mashtree";
-        var versions = ["1.2.0","1.2.0","1.1.2","1.1","1.0.4"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.1.2","1.1"];
     </script>
 
 

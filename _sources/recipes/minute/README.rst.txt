@@ -27,7 +27,7 @@ minute
       
       
 
-      ``0.2.0-0``
+      ``0.3.3-0``,  ``0.2.0-0``
 
       
 
@@ -39,7 +39,7 @@ minute
    :depends fastqc: ``>=0.11.9``
    :depends igvtools: ``>=2.5.3``
    :depends je-suite: ``>=2.0.RC``
-   :depends multiqc: ``1.11.*``
+   :depends multiqc: ``1.13.*``
    :depends picard: ``>=2.26.0``
    :depends python: ``>=3.7``
    :depends r-base: ``>=4.0.0``
@@ -47,7 +47,7 @@ minute
    :depends r-ggplot2: ``>=3.3.0``
    :depends ruamel.yaml: 
    :depends samtools: ``>=1.13``
-   :depends snakemake-minimal: ``>=6.9.0``
+   :depends snakemake-minimal: ``>=7.22.0``
    :depends sra-tools: ``>=2.11.0``
    :depends xopen: ``>=1.2.0``
    :requirements:
@@ -81,7 +81,7 @@ minute
 
     <script>
         var package = "minute";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.3","0.2.0"];
     </script>
 
 

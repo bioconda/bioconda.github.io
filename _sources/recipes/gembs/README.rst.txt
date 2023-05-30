@@ -29,10 +29,10 @@ gembs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.5_IHEC-6</code>,  <code>3.5.5_IHEC-5</code>,  <code>3.5.5_IHEC-4</code>,  <code>3.5.5_IHEC-3</code>,  <code>3.5.5_IHEC-2</code>,  <code>3.5.5_IHEC-1</code>,  <code>3.5.5_IHEC-0</code>,  <code>3.5.1_IHEC-0</code>,  <code>3.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.5_IHEC-7</code>,  <code>3.5.5_IHEC-6</code>,  <code>3.5.5_IHEC-5</code>,  <code>3.5.5_IHEC-4</code>,  <code>3.5.5_IHEC-3</code>,  <code>3.5.5_IHEC-2</code>,  <code>3.5.5_IHEC-1</code>,  <code>3.5.5_IHEC-0</code>,  <code>3.5.1_IHEC-0</code>,  </span></summary>
       
 
-      ``3.5.5_IHEC-6``,  ``3.5.5_IHEC-5``,  ``3.5.5_IHEC-4``,  ``3.5.5_IHEC-3``,  ``3.5.5_IHEC-2``,  ``3.5.5_IHEC-1``,  ``3.5.5_IHEC-0``,  ``3.5.1_IHEC-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
+      ``3.5.5_IHEC-7``,  ``3.5.5_IHEC-6``,  ``3.5.5_IHEC-5``,  ``3.5.5_IHEC-4``,  ``3.5.5_IHEC-3``,  ``3.5.5_IHEC-2``,  ``3.5.5_IHEC-1``,  ``3.5.5_IHEC-0``,  ``3.5.1_IHEC-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
 
       
       .. raw:: html
@@ -46,11 +46,10 @@ gembs
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gem3-mapper: 
    :depends htslib: ``>=1.17,<1.18.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends matplotlib-base: 
    :depends multiprocess: 
-   :depends openssl: ``>=1.1.1t,<1.1.2a``
+   :depends openssl: ``>=3.1.0,<4.0a0``
    :depends pigz: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -58,7 +57,7 @@ gembs
    :depends setuptools: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-wigtobigwig: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

@@ -29,10 +29,10 @@ bioconductor-scran
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.1-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.18.5-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.1-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.18.5-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
+      ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ bioconductor-scran
 
     <script>
         var package = "bioconductor-scran";
-        var versions = ["1.26.0","1.22.1","1.22.1","1.22.0","1.20.1"];
+        var versions = ["1.26.0","1.26.0","1.22.1","1.22.1","1.22.0"];
     </script>
 
 
