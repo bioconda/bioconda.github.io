@@ -34,6 +34,7 @@ haproh
    
    :depends cython: 
    :depends h5py: 
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numdifftools: 
    :depends numpy: 

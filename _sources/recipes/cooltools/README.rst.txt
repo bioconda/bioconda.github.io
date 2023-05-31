@@ -30,10 +30,10 @@ cooltools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-3</code>,  <code>0.5.2-2</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-3</code>,  <code>0.5.2-2</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  </span></summary>
       
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-3``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``
+      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-3``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-3``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -88,7 +88,7 @@ cooltools
 
     <script>
         var package = "cooltools";
-        var versions = ["0.5.4","0.5.3","0.5.2","0.5.2","0.5.2"];
+        var versions = ["0.5.4","0.5.4","0.5.3","0.5.2","0.5.2"];
     </script>
 
 

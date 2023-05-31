@@ -34,7 +34,8 @@ insurveyor
 
    
    :depends htslib: ``>=1.17,<1.18.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends numpy: 
    :depends pyfaidx: ``>=0.5.9.1,<0.8``
    :depends pysam: ``>=0.16.0.1,<0.21``

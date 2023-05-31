@@ -28,10 +28,10 @@ bioconductor-tilingarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.76.0-1</code>,  <code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  </span></summary>
       
 
-      ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
+      ``1.76.0-1``,  ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
 
       
       .. raw:: html
@@ -82,7 +82,7 @@ bioconductor-tilingarray
 
     <script>
         var package = "bioconductor-tilingarray";
-        var versions = ["1.76.0","1.72.0","1.72.0","1.72.0","1.70.0"];
+        var versions = ["1.76.0","1.76.0","1.72.0","1.72.0","1.72.0"];
     </script>
 
 

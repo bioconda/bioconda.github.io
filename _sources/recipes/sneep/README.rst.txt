@@ -32,10 +32,10 @@ sneep
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bedtools: ``>=2.27.1``
-   :depends libcxx: ``>=14.0.6``
-   :depends llvm-openmp: ``>=15.0.7``
-   :depends llvm-openmp: ``>=16.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.19``
    :depends python: ``>=3.10,<3.11.0a0``

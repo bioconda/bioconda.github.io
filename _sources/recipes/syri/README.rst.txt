@@ -32,7 +32,8 @@ syri
       
 
    
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends longestrunsubsequence: 
    :depends numpy: ``>=1.20``
    :depends numpy: ``>=1.24.3,<2.0a0``

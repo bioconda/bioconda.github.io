@@ -42,7 +42,8 @@ ntjoin
    
    :depends bedtools: ``>=2.21.0``
    :depends btllib: ``<=1.4.10``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends make: 
    :depends pybedtools: 

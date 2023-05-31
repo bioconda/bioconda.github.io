@@ -26,14 +26,22 @@ rad_haplotyper
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.9-6``,  ``1.1.9-5``,  ``1.1.9-4``,  ``1.1.9-3``,  ``1.1.9-2``,  ``1.1.9-1``,  ``1.1.9-0``,  ``1.1.7-0``,  ``1.1.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.9-7</code>,  <code>1.1.9-6</code>,  <code>1.1.9-5</code>,  <code>1.1.9-4</code>,  <code>1.1.9-3</code>,  <code>1.1.9-2</code>,  <code>1.1.9-1</code>,  <code>1.1.9-0</code>,  <code>1.1.7-0</code>,  </span></summary>
+      
 
+      ``1.1.9-7``,  ``1.1.9-6``,  ``1.1.9-5``,  ``1.1.9-4``,  ``1.1.9-3``,  ``1.1.9-2``,  ``1.1.9-1``,  ``1.1.9-0``,  ``1.1.7-0``,  ``1.1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends ddocent: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-bio-cigar: 
@@ -42,7 +50,7 @@ rad_haplotyper
    :depends perl-data-dumper: 
    :depends perl-getopt-long: 
    :depends perl-list-moreutils: 
-   :depends perl-module-build: 
+   :depends perl-module-build: ``0.4234.*``
    :depends perl-parallel-forkmanager: 
    :depends perl-pod-usage: 
    :depends perl-term-progressbar: 

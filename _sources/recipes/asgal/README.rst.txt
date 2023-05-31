@@ -28,7 +28,7 @@ asgal
       
       
 
-      ``1.1.8-0``
+      ``1.1.8-1``,  ``1.1.8-0``
 
       
 
@@ -75,7 +75,7 @@ asgal
 
     <script>
         var package = "asgal";
-        var versions = ["1.1.8"];
+        var versions = ["1.1.8","1.1.8"];
     </script>
 
 

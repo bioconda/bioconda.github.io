@@ -28,10 +28,10 @@ ariba
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.6-4</code>,  <code>2.14.6-3</code>,  <code>2.14.6-2</code>,  <code>2.14.6-0</code>,  <code>2.14.5-2</code>,  <code>2.14.5-1</code>,  <code>2.14.5-0</code>,  <code>2.14.4-0</code>,  <code>2.14.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.6-5</code>,  <code>2.14.6-4</code>,  <code>2.14.6-3</code>,  <code>2.14.6-2</code>,  <code>2.14.6-0</code>,  <code>2.14.5-2</code>,  <code>2.14.5-1</code>,  <code>2.14.5-0</code>,  <code>2.14.4-0</code>,  </span></summary>
       
 
-      ``2.14.6-4``,  ``2.14.6-3``,  ``2.14.6-2``,  ``2.14.6-0``,  ``2.14.5-2``,  ``2.14.5-1``,  ``2.14.5-0``,  ``2.14.4-0``,  ``2.14.3-1``,  ``2.14.3-0``,  ``2.14.1-0``,  ``2.13.5-0``,  ``2.13.3-0``,  ``2.13.2-0``,  ``2.12.1-0``,  ``2.12.0-2``,  ``2.12.0-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.5.1-0``,  ``0.6.0-0``
+      ``2.14.6-5``,  ``2.14.6-4``,  ``2.14.6-3``,  ``2.14.6-2``,  ``2.14.6-0``,  ``2.14.5-2``,  ``2.14.5-1``,  ``2.14.5-0``,  ``2.14.4-0``,  ``2.14.3-1``,  ``2.14.3-0``,  ``2.14.1-0``,  ``2.13.5-0``,  ``2.13.3-0``,  ``2.13.2-0``,  ``2.12.1-0``,  ``2.12.0-2``,  ``2.12.0-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.5.1-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -48,17 +48,18 @@ ariba
    :depends dendropy: ``>=4.2.0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends matplotlib-base: ``>=3.1.0``
    :depends mummer: ``>=3.23``
    :depends pyfastaq: ``>=3.12.0``
    :depends pymummer: ``>=0.11.0``
    :depends pysam: ``>=0.15.3,<=0.18.0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends samtools: ``>=1.2``
    :depends spades: ``>=3.5.0``
    :depends wget: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +91,7 @@ ariba
 
     <script>
         var package = "ariba";
-        var versions = ["2.14.6","2.14.6","2.14.6","2.14.6","2.14.5"];
+        var versions = ["2.14.6","2.14.6","2.14.6","2.14.6","2.14.6"];
     </script>
 
 

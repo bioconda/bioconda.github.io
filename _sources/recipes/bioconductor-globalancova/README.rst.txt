@@ -29,10 +29,10 @@ bioconductor-globalancova
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.16.0-0</code>,  <code>4.12.0-2</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  <code>4.8.0-0</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.16.0-1</code>,  <code>4.16.0-0</code>,  <code>4.12.0-2</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  <code>4.8.0-0</code>,  <code>4.6.0-0</code>,  </span></summary>
       
 
-      ``4.16.0-0``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
+      ``4.16.0-1``,  ``4.16.0-0``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
 
       
       .. raw:: html
@@ -84,7 +84,7 @@ bioconductor-globalancova
 
     <script>
         var package = "bioconductor-globalancova";
-        var versions = ["4.16.0","4.12.0","4.12.0","4.12.0","4.10.0"];
+        var versions = ["4.16.0","4.16.0","4.12.0","4.12.0","4.12.0"];
     </script>
 
 

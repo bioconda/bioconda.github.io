@@ -27,7 +27,7 @@ clair3-trio
       
       
 
-      ``0.6-0``,  ``0.5-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -47,7 +47,7 @@ clair3-trio
    :depends samtools: ``1.15.1.*``
    :depends tensorflow: ``2.8.0.*``
    :depends whatshap: ``1.7.*``
-   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
    :depends zstd: 
    :requirements:
 
@@ -80,7 +80,7 @@ clair3-trio
 
     <script>
         var package = "clair3-trio";
-        var versions = ["0.6","0.5","0.3","0.3","0.3"];
+        var versions = ["0.6","0.6","0.5","0.3","0.3"];
     </script>
 
 
