@@ -31,13 +31,14 @@ metacoag
       
       
 
-      ``1.1.1-0``,  ``1.1-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``
 
       
 
    
    :depends biopython: 
    :depends cairocffi: 
+   :depends click: 
    :depends fraggenescan: 
    :depends hmmer: 
    :depends networkx: 
@@ -78,7 +79,7 @@ metacoag
 
     <script>
         var package = "metacoag";
-        var versions = ["1.1.1","1.1"];
+        var versions = ["1.1.2","1.1.1","1.1"];
     </script>
 
 

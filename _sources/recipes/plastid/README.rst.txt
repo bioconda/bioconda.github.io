@@ -28,10 +28,10 @@ plastid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.8-5</code>,  <code>0.4.8-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.1-2</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.8-5</code>,  </span></summary>
       
 
-      ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``
+      ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``
 
       
       .. raw:: html
@@ -44,21 +44,22 @@ plastid
    :depends bowtie: 
    :depends cython: ``>=0.22.0``
    :depends fastx_toolkit: 
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends matplotlib-base: ``>=1.4.0``
    :depends numpy: ``<=1.23.5``
-   :depends openssl: ``>=1.1.1s,<1.1.2a``
+   :depends numpy: ``>=1.23.5,<2.0a0``
+   :depends openssl: ``>=3.1.1,<4.0a0``
    :depends pandas: ``>=0.17.0``
-   :depends pysam: ``>=0.20.0,<0.20.1.0a0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends pysam: ``>=0.21.0,<0.21.1.0a0``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends scipy: ``>=0.15.1``
    :depends setuptools: 
    :depends termcolor: 
    :depends twobitreader: ``>=3.0.0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +91,7 @@ plastid
 
     <script>
         var package = "plastid";
-        var versions = ["0.6.1","0.6.1","0.5.1","0.5.1","0.5.1"];
+        var versions = ["0.6.1","0.6.1","0.6.1","0.5.1","0.5.1"];
     </script>
 
 

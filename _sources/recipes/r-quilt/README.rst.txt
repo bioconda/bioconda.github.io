@@ -27,7 +27,7 @@ r-quilt
       
       
 
-      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
 
@@ -50,8 +50,8 @@ r-quilt
    :depends r-testthat: ``>=2.0.0``
    :depends rsync: 
    :depends samtools: ``>=1.4``
-   :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
+   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","0.1.9"];
+        var versions = ["1.0.4","1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

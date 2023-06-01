@@ -29,14 +29,13 @@ amap
       
       
 
-      ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
    :depends blast: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=15.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +67,7 @@ amap
 
     <script>
         var package = "amap";
-        var versions = ["2.2","2.2","2.2","2.2"];
+        var versions = ["2.2","2.2","2.2","2.2","2.2"];
     </script>
 
 

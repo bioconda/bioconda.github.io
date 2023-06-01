@@ -44,8 +44,9 @@ bioconductor-flowmatch
    :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
    :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-rcpp: ``>=0.11.0``
    :requirements:

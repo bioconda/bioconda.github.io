@@ -27,7 +27,7 @@ mark-nonconverted-reads
       
       
 
-      ``1.1-1``,  ``1.0-0``
+      ``1.2-0``,  ``1.1-1``,  ``1.0-0``
 
       
 
@@ -65,7 +65,7 @@ mark-nonconverted-reads
 
     <script>
         var package = "mark-nonconverted-reads";
-        var versions = ["1.1","1.0"];
+        var versions = ["1.2","1.1","1.0"];
     </script>
 
 

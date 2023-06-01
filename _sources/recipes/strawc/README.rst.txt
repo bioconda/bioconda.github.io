@@ -27,12 +27,12 @@ strawc
       
       
 
-      ``0.0.2.1-2``,  ``0.0.2.1-1``,  ``0.0.2.1-0``
+      ``0.0.2.1-3``,  ``0.0.2.1-2``,  ``0.0.2.1-1``,  ``0.0.2.1-0``
 
       
 
    
-   :depends libcurl: ``>=8.1.0,<9.0a0``
+   :depends libcurl: ``>=8.1.2,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
@@ -71,7 +71,7 @@ strawc
 
     <script>
         var package = "strawc";
-        var versions = ["0.0.2.1","0.0.2.1","0.0.2.1"];
+        var versions = ["0.0.2.1","0.0.2.1","0.0.2.1","0.0.2.1"];
     </script>
 
 
