@@ -42,7 +42,10 @@ rnashapes
 
    
    :depends bellmans-gapc: ``>=2021.04.28``
-   :depends libcxx: ``>=15.0.7``
+   :depends gxx_linux-64: ``12.*``
+   :depends libgcc-ng: ``>=12``
+   :depends libopenblas: ``>=0.3.23,<1.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 

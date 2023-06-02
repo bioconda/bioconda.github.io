@@ -28,7 +28,7 @@ r-bayesprism
       
       
 
-      ``0-1``,  ``0-0``
+      ``0-2``,  ``0-1``,  ``0-0``
 
       
 
@@ -74,7 +74,7 @@ r-bayesprism
 
     <script>
         var package = "r-bayesprism";
-        var versions = ["0","0"];
+        var versions = ["0","0","0"];
     </script>
 
 

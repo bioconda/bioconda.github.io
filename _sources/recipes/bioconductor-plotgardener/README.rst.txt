@@ -27,7 +27,7 @@ bioconductor-plotgardener
       
       
 
-      ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.4.1-1``,  ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -79,7 +79,7 @@ bioconductor-plotgardener
 
     <script>
         var package = "bioconductor-plotgardener";
-        var versions = ["1.4.1","1.0.17","1.0.14","1.0.1","1.0.0"];
+        var versions = ["1.4.1","1.4.1","1.0.17","1.0.14","1.0.1"];
     </script>
 
 

@@ -27,14 +27,14 @@ pyabpoa
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``
+      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
    
    :depends cython: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ pyabpoa
 
     <script>
         var package = "pyabpoa";
-        var versions = ["1.4.0","1.4.0"];
+        var versions = ["1.4.0","1.4.0","1.4.0"];
     </script>
 
 

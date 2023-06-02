@@ -27,11 +27,16 @@ perl-retroseq
       
       
 
-      
+      ``1.5-0``
 
       
 
    
+   :depends bedtools: 
+   :depends exonerate: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-carp: 
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +68,7 @@ perl-retroseq
 
     <script>
         var package = "perl-retroseq";
-        var versions = [];
+        var versions = ["1.5"];
     </script>
 
 

@@ -27,7 +27,7 @@ peakachu
       
       
 
-      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -37,13 +37,13 @@ peakachu
    :depends bioconductor-edger: 
    :depends biopython: ``>=1.77``
    :depends blockbuster: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=3.3.1``
    :depends numexpr: ``>=2.7.0``
    :depends pandas: ``>=0.25.1``
    :depends pysam: ``>=0.16.0.1``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends rpy2: 
    :depends statsmodels: ``>=0.10.1``
    :requirements:
@@ -77,7 +77,7 @@ peakachu
 
     <script>
         var package = "peakachu";
-        var versions = ["0.2.0","0.2.0","0.2.0","0.1.0","0.1.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.1.0"];
     </script>
 
 

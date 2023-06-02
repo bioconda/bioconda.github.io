@@ -28,10 +28,10 @@ bioconductor-rmassbank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.0-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.13.0-0</code>,  <code>2.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8.0-1</code>,  <code>3.8.0-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.13.0-0</code>,  </span></summary>
       
 
-      ``3.8.0-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+      ``3.8.0-1``,  ``3.8.0-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ bioconductor-rmassbank
 
     <script>
         var package = "bioconductor-rmassbank";
-        var versions = ["3.8.0","3.4.0","3.4.0","3.4.0","3.2.0"];
+        var versions = ["3.8.0","3.8.0","3.4.0","3.4.0","3.4.0"];
     </script>
 
 

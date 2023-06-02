@@ -10,11 +10,9 @@ plassembler
    :replaces_section_title:
    :noindex:
 
-   Automated Bacterial Plasmid Assembly Program
+   Quickly and accurately assemble plasmids in hybrid sequenced bacterial isolates
 
    :homepage: https://github.com/gbouras13/plassembler
-   :documentation: https://plassembler.readthedocs.io
-   
    :license: MIT
    :recipe: /`plassembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plassembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plassembler/meta.yaml>`_
 
@@ -29,24 +27,25 @@ plassembler
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
    :depends biopython: ``>=1.76``
    :depends chopper: ``>=0.5.0``
-   :depends curl: 
+   :depends click: ``>=8.0.0``
    :depends fastp: ``>=0.18.0``
    :depends flye: ``>=2.9``
+   :depends loguru: ``>=0.5.3``
    :depends mash: ``>=2.2``
    :depends minimap2: ``>=2.11``
-   :depends pandas: 
-   :depends pysam: ``>0.12,<0.16``
-   :depends python: ``>=3.6``
-   :depends rasusa: ``>=0.5.0``
-   :depends samtools: ``>=1.7,<1.10``
-   :depends tar: 
+   :depends pandas: ``>=1.4.2``
+   :depends pysam: ``>=0.16.0``
+   :depends python: ``>=3.8,<3.10``
+   :depends pyyaml: ``>=6.0``
+   :depends raven-assembler: ``>=1.8``
+   :depends samtools: ``>=0.15.0``
    :depends unicycler: ``>=0.4.8``
    :requirements:
 
@@ -79,7 +78,7 @@ plassembler
 
     <script>
         var package = "plassembler";
-        var versions = ["1.0.0","1.0.0","0.1.5","0.1.4","0.1.3"];
+        var versions = ["1.1.0","1.0.0","1.0.0","0.1.5","0.1.4"];
     </script>
 
 

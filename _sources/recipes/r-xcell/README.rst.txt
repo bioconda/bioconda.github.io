@@ -28,9 +28,17 @@ r-xcell
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.3-5</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  </span></summary>
+      
 
+      ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

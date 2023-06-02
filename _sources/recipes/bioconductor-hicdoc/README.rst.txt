@@ -27,7 +27,7 @@ bioconductor-hicdoc
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -86,7 +86,7 @@ bioconductor-hicdoc
 
     <script>
         var package = "bioconductor-hicdoc";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 
