@@ -24,6 +24,12 @@ gtotree
 
    GToTree is a user\-friendly workflow for phylogenomics intended to give more researchers the capability to create phylogenomic trees. The open\-access Bioinformatics Journal publication is available here \(https\:\/\/doi.org\/10.1093\/bioinformatics\/btz188\)\, and documentation and examples can be found at the wiki here \(https\:\/\/github.com\/AstrobioMike\/GToTree\/wiki\).
 
+   Installation should be performed as\:
+
+   \`\`\`
+   conda create \-n gtotree \-c astrobiomike \-c conda\-forge \-c bioconda \-c defaults gtotree
+   \`\`\`
+
 
 
 .. conda:package:: gtotree
@@ -34,7 +40,7 @@ gtotree
       
       
 
-      ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
+      ``1.8.1-0``,  ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
 
       
 
@@ -49,7 +55,7 @@ gtotree
    :depends file: 
    :depends gzip: 
    :depends hmmer: 
-   :depends iqtree: 
+   :depends iqtree: ``>=2.2.2``
    :depends kofamscan: ``1.3.0.*``
    :depends muscle: ``5.*``
    :depends pandas: 
@@ -90,7 +96,7 @@ gtotree
 
     <script>
         var package = "gtotree";
-        var versions = ["1.7.10","1.7.08","1.7.07","1.7.06","1.7.05"];
+        var versions = ["1.8.1","1.7.10","1.7.08","1.7.07","1.7.06"];
     </script>
 
 

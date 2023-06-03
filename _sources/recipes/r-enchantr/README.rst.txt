@@ -28,10 +28,10 @@ r-enchantr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.1-0</code>,  <code>0.1.0-2</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-2</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  </span></summary>
       
 
-      ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -43,14 +43,15 @@ r-enchantr
    :depends bioconductor-complexheatmap: ``>=2.14.0``
    :depends igphyml: ``1.1.5.*``
    :depends r-airr: ``>=1.4.1``
-   :depends r-alakazam: 
+   :depends r-alakazam: ``>=1.2.1``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-bookdown: 
+   :depends r-bookdown: ``>=0.29``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-dowser: ``>=1.1.0``
    :depends r-dplyr: 
    :depends r-dt: 
+   :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-ggraph: 
    :depends r-gridextra: 
@@ -62,7 +63,7 @@ r-enchantr
    :depends r-reshape2: 
    :depends r-rmarkdown: 
    :depends r-scales: 
-   :depends r-scoper: 
+   :depends r-scoper: ``>=1.2.1``
    :depends r-shazam: ``>1.1.0``
    :depends r-stringi: 
    :depends r-stringr: 
@@ -99,7 +100,7 @@ r-enchantr
 
     <script>
         var package = "r-enchantr";
-        var versions = ["0.1.1","0.1.0","0.1.0","0.1.0","0.0.6"];
+        var versions = ["0.1.2","0.1.1","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-basicstan
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ bioconductor-basicstan
 
     <script>
         var package = "bioconductor-basicstan";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 
