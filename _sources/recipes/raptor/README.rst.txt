@@ -13,9 +13,11 @@ raptor
    Raptor\: A fast and space\-efficient pre\-filter for querying very large collections of nucleotide sequences
 
    :homepage: https://github.com/seqan/raptor
+   :documentation: https://seqan-raptor.vercel.app
+   
    :license: BSD / BSD-3-Clause License
    :recipe: /`raptor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raptor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raptor/meta.yaml>`_
-   :links: doi: :doi:`10.1016/j.isci.2021.102782`
+   :links: doi: :doi:`10.1016/j.isci.2021.102782`, doi: :doi:`10.1186/s13059-023-02971-4`
 
    Raptor is a tool for approximately searching many queries in large collections of nucleotide sequences.
 
@@ -28,7 +30,7 @@ raptor
       
       
 
-      ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``3.0.0-0``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,7 +39,7 @@ raptor
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
+   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +71,7 @@ raptor
 
     <script>
         var package = "raptor";
-        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0","1.1.0"];
+        var versions = ["3.0.0","2.0.0","2.0.0","2.0.0","2.0.0"];
     </script>
 
 

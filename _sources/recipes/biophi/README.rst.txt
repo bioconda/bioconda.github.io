@@ -28,10 +28,10 @@ biophi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
       
 
-      ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ biophi
    :depends flask: ``>=2.1``
    :depends hmmer: ``>=3.1``
    :depends humanize: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.8``
    :depends redis-py: 
    :depends requests: 
    :depends sapiens: ``>=1.0.4``
@@ -85,7 +85,7 @@ biophi
 
     <script>
         var package = "biophi";
-        var versions = ["1.0.9","1.0.8","1.0.8","1.0.7","1.0.6"];
+        var versions = ["1.0.9","1.0.9","1.0.8","1.0.8","1.0.7"];
     </script>
 
 

@@ -27,7 +27,7 @@ selenzy_wrapper
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
 
@@ -36,7 +36,7 @@ selenzy_wrapper
    :depends brs_utils: 
    :depends emboss: 
    :depends python: ``>=3.7,<3.10``
-   :depends rptools: 
+   :depends rptools: ``>=6.2.3``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ selenzy_wrapper
 
     <script>
         var package = "selenzy_wrapper";
-        var versions = ["0.3.0","0.2.0","0.1.0","0.0.6"];
+        var versions = ["0.3.0","0.3.0","0.2.0","0.1.0","0.0.6"];
     </script>
 
 

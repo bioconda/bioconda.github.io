@@ -30,12 +30,13 @@ harpy
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends bcftools: 
+   :depends bioconductor-complexheatmap: 
    :depends bwa: 
    :depends datamash: 
    :depends fastp: 
@@ -46,6 +47,7 @@ harpy
    :depends multiqc: 
    :depends python: ``>=3.7``
    :depends r-base: ``>=4``
+   :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: 
@@ -55,6 +57,7 @@ harpy
    :depends r-rmarkdown: 
    :depends r-stitch: 
    :depends r-tidyr: 
+   :depends r-viridislite: 
    :depends rich-click: 
    :depends sambamba: 
    :depends samtools: 
@@ -93,7 +96,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["0.1.1","0.1.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1"];
     </script>
 
 
