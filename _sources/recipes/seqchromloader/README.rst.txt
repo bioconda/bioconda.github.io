@@ -30,7 +30,7 @@ seqchromloader
       
       
 
-      ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
+      ``0.5.3-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
 
       
 
@@ -39,7 +39,7 @@ seqchromloader
    :depends pandas: 
    :depends pybedtools: ``>=0.9.0``
    :depends pybigwig: ``>=0.3.0``
-   :depends pyfasta: ``>=0.5.0``
+   :depends pyfaidx: ``>=0.7.0``
    :depends pysam: ``>=0.19.0``
    :depends python: ``>=3.7,<3.10``
    :depends pytorch: ``>=1.10.0``
@@ -76,7 +76,7 @@ seqchromloader
 
     <script>
         var package = "seqchromloader";
-        var versions = ["0.4.0","0.2.4","0.2.1"];
+        var versions = ["0.5.3","0.4.0","0.2.4","0.2.1"];
     </script>
 
 

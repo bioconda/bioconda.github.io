@@ -30,7 +30,7 @@ abromics_galaxy_json_extractor
       
       
 
-      ``0.1-0``
+      ``0.1-1``,  ``0.1-0``
 
       
 
@@ -43,7 +43,6 @@ abromics_galaxy_json_extractor
    :depends ld_impl_linux-64: 
    :depends libblas: 
    :depends libcblas: 
-   :depends libexpat: 
    :depends libffi: ``>=3.4.2,<3.5.0a0``
    :depends libgcc-ng: 
    :depends libgfortran-ng: 
@@ -54,7 +53,6 @@ abromics_galaxy_json_extractor
    :depends libopenblas: 
    :depends libsqlite: 
    :depends libstdcxx-ng: 
-   :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: 
    :depends ncurses: 
    :depends numpy: 
@@ -104,7 +102,7 @@ abromics_galaxy_json_extractor
 
     <script>
         var package = "abromics_galaxy_json_extractor";
-        var versions = ["0.1"];
+        var versions = ["0.1","0.1"];
     </script>
 
 
