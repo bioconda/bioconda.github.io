@@ -27,7 +27,7 @@ strobealign
       
       
 
-      ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
+      ``0.10.0-2``,  ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
 
@@ -35,7 +35,7 @@ strobealign
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ strobealign
 
     <script>
         var package = "strobealign";
-        var versions = ["0.10.0","0.9.0","0.9.0","0.9.0","0.8.0"];
+        var versions = ["0.10.0","0.10.0","0.9.0","0.9.0","0.9.0"];
     </script>
 
 

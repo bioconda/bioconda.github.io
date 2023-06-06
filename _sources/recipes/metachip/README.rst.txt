@@ -29,10 +29,10 @@ metachip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.12-0</code>,  <code>1.10.10-0</code>,  <code>1.10.9-0</code>,  <code>1.10.8-0</code>,  <code>1.10.6-0</code>,  <code>1.10.5-0</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  <code>1.10.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.13-0</code>,  <code>1.10.12-0</code>,  <code>1.10.10-0</code>,  <code>1.10.9-0</code>,  <code>1.10.8-0</code>,  <code>1.10.6-0</code>,  <code>1.10.5-0</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  </span></summary>
       
 
-      ``1.10.12-0``,  ``1.10.10-0``,  ``1.10.9-0``,  ``1.10.8-0``,  ``1.10.6-0``,  ``1.10.5-0``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.0-0``
+      ``1.10.13-0``,  ``1.10.12-0``,  ``1.10.10-0``,  ``1.10.9-0``,  ``1.10.8-0``,  ``1.10.6-0``,  ``1.10.5-0``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -88,7 +88,7 @@ metachip
 
     <script>
         var package = "metachip";
-        var versions = ["1.10.12","1.10.10","1.10.9","1.10.8","1.10.6"];
+        var versions = ["1.10.13","1.10.12","1.10.10","1.10.9","1.10.8"];
     </script>
 
 

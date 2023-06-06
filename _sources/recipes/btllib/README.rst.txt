@@ -28,10 +28,10 @@ btllib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.10-0</code>,  <code>1.4.8-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.10-0</code>,  <code>1.4.8-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-2</code>,  </span></summary>
       
 
-      ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ btllib
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends bzip2: 
    :depends gzip: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -52,7 +52,7 @@ btllib
    :depends samtools: 
    :depends tar: 
    :depends wget: 
-   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends xz: 
    :depends zip: 
    :requirements:
 
@@ -85,7 +85,7 @@ btllib
 
     <script>
         var package = "btllib";
-        var versions = ["1.6.0","1.5.1","1.5.1","1.5.0","1.4.10"];
+        var versions = ["1.6.0","1.6.0","1.5.1","1.5.1","1.5.0"];
     </script>
 
 

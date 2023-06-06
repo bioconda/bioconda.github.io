@@ -28,10 +28,10 @@ libbigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.7-3</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.6-3</code>,  <code>0.4.6-2</code>,  <code>0.4.6-1</code>,  <code>0.4.6-0</code>,  <code>0.4.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.7-4</code>,  <code>0.4.7-3</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.6-3</code>,  <code>0.4.6-2</code>,  <code>0.4.6-1</code>,  <code>0.4.6-0</code>,  </span></summary>
       
 
-      ``0.4.7-3``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-3``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.0-0``
+      ``0.4.7-4``,  ``0.4.7-3``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-3``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ libbigwig
       
 
    
-   :depends libcurl: ``>=7.88.1,<8.0a0``
+   :depends libcurl: ``>=8.1.2,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ libbigwig
 
     <script>
         var package = "libbigwig";
-        var versions = ["0.4.7","0.4.7","0.4.7","0.4.7","0.4.6"];
+        var versions = ["0.4.7","0.4.7","0.4.7","0.4.7","0.4.7"];
     </script>
 
 

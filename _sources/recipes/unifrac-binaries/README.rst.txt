@@ -34,10 +34,10 @@ unifrac-binaries
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.2-2</code>,  <code>1.3.2-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  </span></summary>
       
 
-      ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -46,15 +46,17 @@ unifrac-binaries
       
 
    
+   :depends libaec: ``>=1.0.6,<2.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
+   :depends libgfortran5: ``>=12.2.0``
    :depends liblapacke: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends lz4: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends mpi: 
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +88,7 @@ unifrac-binaries
 
     <script>
         var package = "unifrac-binaries";
-        var versions = ["1.3.2","1.3.1","1.3.1","1.3.1","1.3"];
+        var versions = ["1.3.2","1.3.2","1.3.1","1.3.1","1.3.1"];
     </script>
 
 
