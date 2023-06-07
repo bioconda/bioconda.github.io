@@ -27,7 +27,7 @@ genoflu
       
       
 
-      ``1.0-0``
+      ``1.01-0``,  ``1.0-0``
 
       
 
@@ -68,7 +68,7 @@ genoflu
 
     <script>
         var package = "genoflu";
-        var versions = ["1.0"];
+        var versions = ["1.01","1.0"];
     </script>
 
 

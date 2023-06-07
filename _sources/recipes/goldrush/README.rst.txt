@@ -32,11 +32,12 @@ goldrush
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends btllib: 
    :depends gperftools: 
-   :depends libcxx: ``>=15.0.7``
    :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends llvm-openmp: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends make: 
    :depends minimap2: 
    :depends ntlink: ``>=1.3.0``

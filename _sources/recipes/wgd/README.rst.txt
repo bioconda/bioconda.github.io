@@ -13,7 +13,7 @@ wgd
    a suite tool of WGD inference and timing
 
    :homepage: https://github.com/heche-psb/wgd
-   :license: GPL
+   :license: GPL-3.0
    :recipe: /`wgd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgd/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ wgd
       
       
 
-      ``2.0.15-0``,  ``2.0.12-0``
+      ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-0``
 
       
 
@@ -68,7 +68,7 @@ wgd
 
     <script>
         var package = "wgd";
-        var versions = ["2.0.15","2.0.12"];
+        var versions = ["2.0.16","2.0.15","2.0.12"];
     </script>
 
 

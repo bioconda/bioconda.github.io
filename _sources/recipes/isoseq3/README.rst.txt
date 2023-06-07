@@ -10,7 +10,7 @@ isoseq3
    :replaces_section_title:
    :noindex:
 
-   IsoSeq3 \- Scalable De Novo Isoform Discovery
+   Iso\-Seq \- Scalable De Novo Isoform Discovery
 
    :homepage: https://github.com/PacificBiosciences/pbbioconda
    :license: BSD-3-Clause-Clear
@@ -28,10 +28,10 @@ isoseq3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-3</code>,  <code>3.2.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-3</code>,  </span></summary>
       
 
-      ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-3``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``
+      ``4.0.0-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-3``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ isoseq3
       
 
    
+   :depends isoseq: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ isoseq3
 
     <script>
         var package = "isoseq3";
-        var versions = ["3.8.2","3.8.1","3.8.0","3.7.0","3.4.0"];
+        var versions = ["4.0.0","3.8.2","3.8.1","3.8.0","3.7.0"];
     </script>
 
 

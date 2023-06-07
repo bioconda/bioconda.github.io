@@ -27,7 +27,7 @@ deepmicro
       
       
 
-      ``1.4-0``,  ``1.3-0``,  ``1.2-0``
+      ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``
 
       
 
@@ -41,7 +41,7 @@ deepmicro
    :depends python: ``3.10.*``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends tensorflow: 
+   :depends tensorflow: ``>=2.11.0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ deepmicro
 
     <script>
         var package = "deepmicro";
-        var versions = ["1.4","1.3","1.2"];
+        var versions = ["1.4","1.4","1.3","1.2"];
     </script>
 
 
