@@ -27,16 +27,16 @@ mehari
       
       
 
-      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.4.0-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.41.2,<4.0a0``
+   :depends libsqlite: ``>=3.42.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=3.1.0,<4.0a0``
+   :depends openssl: ``>=3.1.1,<4.0a0``
    :depends sqlite: 
    :requirements:
 
@@ -69,7 +69,7 @@ mehari
 
     <script>
         var package = "mehari";
-        var versions = ["0.3.1","0.3.1","0.3.1","0.2.1","0.2.0"];
+        var versions = ["0.4.0","0.3.1","0.3.1","0.3.1","0.2.1"];
     </script>
 
 

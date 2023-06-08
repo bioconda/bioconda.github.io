@@ -27,7 +27,7 @@ sctagger
       
       
 
-      ``1.1-0``,  ``1.0.1-0``
+      ``1.1.1-0``,  ``1.1-0``,  ``1.0.1-0``
 
       
 
@@ -71,7 +71,7 @@ sctagger
 
     <script>
         var package = "sctagger";
-        var versions = ["1.1","1.0.1"];
+        var versions = ["1.1.1","1.1","1.0.1"];
     </script>
 
 

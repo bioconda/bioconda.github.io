@@ -13,9 +13,10 @@ kraken2
    Kraken2 is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
 
    :homepage: https://ccb.jhu.edu/software/kraken2/
+   :developer docs: https://github.com/DerrickWood/kraken2
    :license: GPLv3
    :recipe: /`kraken2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2/meta.yaml>`_
-   :links: biotools: :biotools:`kraken2`, doi: :doi:`10.1186/gb-2014-15-3-r46`
+   :links: biotools: :biotools:`kraken2`, doi: :doi:`10.1186/gb-2014-15-3-r46`, doi: :doi:`10.1186/s13059-019-1891-0`
 
    
 
@@ -29,10 +30,10 @@ kraken2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.2-4</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.9beta-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.3-0</code>,  <code>2.1.2-4</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
+      ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
 
       
       .. raw:: html
@@ -41,14 +42,12 @@ kraken2
       
 
    
-   :depends _openmp_mutex: ``* *_gnu``
+   :depends _openmp_mutex: ``>=4.5``
    :depends blast: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends rsync: 
-   :depends tar: 
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +79,7 @@ kraken2
 
     <script>
         var package = "kraken2";
-        var versions = ["2.1.2","2.1.2","2.1.2","2.1.2","2.1.2"];
+        var versions = ["2.1.3","2.1.2","2.1.2","2.1.2","2.1.2"];
     </script>
 
 

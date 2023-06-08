@@ -88,18 +88,17 @@ pmx_biobb
       
       
 
-      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.0.3-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
+   :depends libgfortran5: ``>=12.2.0``
    :depends libstdcxx-ng: ``>=12``
-   :depends matplotlib-base: 
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends scipy: 
    :requirements:
 
@@ -132,7 +131,7 @@ pmx_biobb
 
     <script>
         var package = "pmx_biobb";
-        var versions = ["2.0.0","2.0.0","2.0.0","1.0.0","1.0.0"];
+        var versions = ["3.0.3","2.0.0","2.0.0","2.0.0","1.0.0"];
     </script>
 
 

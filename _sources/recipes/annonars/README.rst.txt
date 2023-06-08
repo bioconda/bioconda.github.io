@@ -28,7 +28,7 @@ annonars
       
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -37,8 +37,8 @@ annonars
    :depends libsqlite: ``>=3.42.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=1.1.1u,<1.1.2a``
-   :depends sqlite: ``>=3.42.0,<4.0a0``
+   :depends openssl: ``>=3.1.1,<4.0a0``
+   :depends sqlite: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ annonars
 
     <script>
         var package = "annonars";
-        var versions = ["0.7.0","0.6.0","0.5.1","0.5.0","0.3.0"];
+        var versions = ["0.8.0","0.7.0","0.6.0","0.5.1","0.5.0"];
     </script>
 
 
