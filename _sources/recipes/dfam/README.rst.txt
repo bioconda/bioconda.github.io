@@ -13,7 +13,9 @@ dfam
    The Dfam database is a collection of Repetitive DNA element sequence alignments\, hidden Markov models \(HMMs\) and matches lists for complete Eukaryote genomes
 
    :homepage: dfam.org
-   :license: GPL
+   :documentation: https://www.dfam.org/help/family
+   
+   :license: CC / Creative Commons Zero
    :recipe: /`dfam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dfam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dfam/meta.yaml>`_
 
    
@@ -27,14 +29,14 @@ dfam
       
       
 
-      ``3.3-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``3.7-0``,  ``3.3-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends hmmer: 
    :depends perl: 
-   :depends python: 
+   :depends python: ``>3``
    :depends python-wget: 
    :depends repeatmasker: 
    :depends wget: 
@@ -69,7 +71,7 @@ dfam
 
     <script>
         var package = "dfam";
-        var versions = ["3.3","2.0","2.0","2.0"];
+        var versions = ["3.7","3.3","2.0","2.0","2.0"];
     </script>
 
 

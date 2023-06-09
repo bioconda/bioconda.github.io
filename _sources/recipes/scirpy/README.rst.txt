@@ -30,10 +30,10 @@ scirpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  </span></summary>
       
 
-      ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.13.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -44,20 +44,23 @@ scirpy
    
    :depends adjusttext: ``>=0.7``
    :depends airr: ``>=1.2``
-   :depends anndata: ``>=0.7.6``
+   :depends anndata: ``>=0.9``
+   :depends awkward: ``>=2.1.0``
+   :depends mudata: ``>=0.2.3``
    :depends networkx: ``>=2.5``
    :depends numba: ``>=0.41.0``
-   :depends numpy: ``>=0.17.0``
+   :depends numpy: ``>=1.17.0``
    :depends pandas: ``>=1.5,<2``
    :depends parasail-python: 
-   :depends python: ``>=3.7``
+   :depends pooch: ``>=1.7.0``
+   :depends python: ``>=3.9``
    :depends python-igraph: ``>0.10.1|<0.10.0``
    :depends python-levenshtein: 
-   :depends scanpy: ``>=1.6.0``
+   :depends scanpy: ``>=1.9.3``
    :depends scikit-learn: 
    :depends scipy: 
    :depends squarify: 
-   :depends tqdm: ``>=4.44.1``
+   :depends tqdm: ``>=4.63``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +92,7 @@ scirpy
 
     <script>
         var package = "scirpy";
-        var versions = ["0.12.2","0.12.1","0.12.0","0.11.2","0.11.1"];
+        var versions = ["0.13.0","0.12.2","0.12.1","0.12.0","0.11.2"];
     </script>
 
 
