@@ -13,7 +13,7 @@ panacus
    panacus is a tool for computing counting statistics for GFA files
 
    :homepage: https://github.com/marschall-lab/panacus
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`panacus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panacus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panacus/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ panacus
       
       
 
-      ``0.2-0``
+      ``0.2.1-0``,  ``0.2-0``
 
       
 
@@ -71,7 +71,7 @@ panacus
 
     <script>
         var package = "panacus";
-        var versions = ["0.2"];
+        var versions = ["0.2.1","0.2"];
     </script>
 
 

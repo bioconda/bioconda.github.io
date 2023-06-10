@@ -27,7 +27,7 @@ hiphase
       
       
 
-      ``0.8.1-0``
+      ``0.10.0-0``,  ``0.8.1-0``
 
       
 
@@ -63,7 +63,7 @@ hiphase
 
     <script>
         var package = "hiphase";
-        var versions = ["0.8.1"];
+        var versions = ["0.10.0","0.8.1"];
     </script>
 
 

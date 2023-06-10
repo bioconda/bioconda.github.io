@@ -27,24 +27,25 @@ plannotate
       
       
 
-      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends biopython: ``>1.77``
-   :depends blast: ``>=2.10.1``
+   :depends altair: ``4.2.2.*``
+   :depends biopython: ``1.78.*``
+   :depends blast: ``2.10.1.*``
    :depends bokeh: ``2.4.1.*``
-   :depends click: 
+   :depends click: ``7.1.2.*``
    :depends curl: 
-   :depends diamond: ``>=2.0.13``
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.7``
-   :depends ripgrep: ``>=13.0.0``
-   :depends streamlit: ``1.2.0.*``
-   :depends tabulate: ``>=0.8.9``
-   :depends trnascan-se: ``>=2.0.7``
+   :depends diamond: ``2.0.13.*``
+   :depends numpy: ``1.21.5.*``
+   :depends pandas: ``1.3.5.*``
+   :depends python: ``3.7.*``
+   :depends ripgrep: ``13.0.0.*``
+   :depends streamlit: ``1.8.1.*``
+   :depends tabulate: ``0.8.9.*``
+   :depends trnascan-se: ``2.0.7.*``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +77,7 @@ plannotate
 
     <script>
         var package = "plannotate";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0","1.2.0"];
     </script>
 
 

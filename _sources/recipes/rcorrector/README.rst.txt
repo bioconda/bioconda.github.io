@@ -13,7 +13,7 @@ rcorrector
    Rcorrector \(RNA\-seq error CORRECTOR\) is a kmer\-based error correction method for RNA\-seq data. Rcorrector can also be applied to other type of sequencing data where the read coverage is non\-uniform\, such as single\-cell sequencing.
 
    :homepage: https://github.com/mourisl/Rcorrector/
-   :license: GPL-3.0-only
+   :license: GPL / GPL-3.0-only
    :recipe: /`rcorrector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rcorrector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rcorrector/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ rcorrector
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3.1-1</code>,  <code>1.0.3.1-0</code>,  <code>1.0.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.6-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3.1-1</code>,  <code>1.0.3.1-0</code>,  </span></summary>
       
 
-      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3.1-1``,  ``1.0.3.1-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3.1-1``,  ``1.0.3.1-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ rcorrector
 
     <script>
         var package = "rcorrector";
-        var versions = ["1.0.5","1.0.5","1.0.4","1.0.4","1.0.4"];
+        var versions = ["1.0.6","1.0.5","1.0.5","1.0.4","1.0.4"];
     </script>
 
 
