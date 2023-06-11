@@ -29,10 +29,10 @@ itsxpress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.0-2</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.1-0</code>,  <code>1.8.0-2</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  </span></summary>
       
 
-      ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.6-0``
+      ``1.8.1-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.6-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ itsxpress
       
 
    
-   :depends bbmap: 
-   :depends biopython: ``>=1.60``
-   :depends hmmer: ``>=3.1b2``
+   :depends bbmap: ``38.96.*``
+   :depends biopython: ``>=1.79``
+   :depends hmmer: ``3.1b2.*``
    :depends pip: 
-   :depends python: ``>=3``
-   :depends vsearch: ``2.7.0.*``
+   :depends python: ``>=3.8``
+   :depends vsearch: ``2.21.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +78,7 @@ itsxpress
 
     <script>
         var package = "itsxpress";
-        var versions = ["1.8.0","1.8.0","1.8.0","1.7.2","1.7.2"];
+        var versions = ["1.8.1","1.8.0","1.8.0","1.8.0","1.7.2"];
     </script>
 
 
