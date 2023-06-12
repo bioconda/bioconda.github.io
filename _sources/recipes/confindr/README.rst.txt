@@ -30,10 +30,10 @@ confindr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.8.1-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -42,16 +42,14 @@ confindr
       
 
    
-   :depends bbmap: ``>=38``
-   :depends biopython: 
-   :depends kma: ``1.2.0.*``
-   :depends mash: ``>=2``
+   :depends bbmap: ``>=39.01``
+   :depends biopython: ``1.81.*``
+   :depends kma: ``>=1.4.9``
+   :depends mash: ``>=2.3``
    :depends minimap2: 
-   :depends pluggy: ``0.11.0.*``
    :depends pysam: ``>=0.15``
    :depends pytest: 
-   :depends python: ``>=3``
-   :depends rauth: 
+   :depends python: ``>=3.9.15``
    :depends samtools: ``>=1.6``
    :requirements:
 
@@ -84,7 +82,7 @@ confindr
 
     <script>
         var package = "confindr";
-        var versions = ["0.8.1","0.7.4","0.7.3","0.7.2","0.7.1"];
+        var versions = ["0.8.1","0.8.1","0.7.4","0.7.3","0.7.2"];
     </script>
 
 

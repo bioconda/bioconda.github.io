@@ -13,7 +13,7 @@ ccsmeth
    Detecting DNA methylation from PacBio CCS read
 
    :homepage: https://github.com/PengNi/ccsmeth
-   :license: BSD / BSD-3-Clause-Clear license
+   :license: BSD / BSD-3-Clause-Clear
    :recipe: /`ccsmeth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccsmeth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccsmeth/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ ccsmeth
       
       
 
-      ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
 
@@ -77,7 +77,7 @@ ccsmeth
 
     <script>
         var package = "ccsmeth";
-        var versions = ["0.3.4","0.3.2","0.3.1"];
+        var versions = ["0.4.0","0.3.4","0.3.2","0.3.1"];
     </script>
 
 
