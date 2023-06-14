@@ -21,8 +21,8 @@ spaln
    Spaln \(space\-efficient spliced alignment\) is a stand\-alone program that maps
    and aligns a set of cDNA or protein sequences onto a whole genomic sequence
    in a single job. Spaln also performs spliced or ordinary alignment after
-   rapid similarity search against a protein sequence database\, if a genomic segment 
-   or an amino acid sequence is given as a query. 
+   rapid similarity search against a protein sequence database\, if a genomic segment
+   or an amino acid sequence is given as a query.
 
 
 

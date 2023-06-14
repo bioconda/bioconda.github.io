@@ -10,10 +10,10 @@ episcanpy
    :replaces_section_title:
    :noindex:
 
-   Epigenomics Single\-Cell Analysis in Python
+   Epigenomics Single\-Cell Analysis in Python.
 
-   :homepage: http://github.com/colomemaria/epiScanpy
-   :license: BSD / BSD-3-Clause
+   :homepage: https://github.com/colomemaria/epiScanpy
+   :license: BSD-3-Clause
    :recipe: /`episcanpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/episcanpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/episcanpy/meta.yaml>`_
    :links: biotools: :biotools:`epiScanpy`, doi: :doi:`10.1038/s41467-021-25131-3`
 
@@ -28,7 +28,7 @@ episcanpy
       
       
 
-      ``0.3.2-0``
+      ``0.4.0-0``,  ``0.3.2-0``
 
       
 
@@ -36,23 +36,25 @@ episcanpy
    :depends anndata: 
    :depends bamnostic: 
    :depends h5py: 
-   :depends importlib_metadata: 
+   :depends importlib-metadata: ``>=0.7``
+   :depends intervaltree: 
    :depends joblib: 
+   :depends kneed: 
    :depends legacy-api-wrap: 
    :depends matplotlib-base: 
    :depends natsort: 
    :depends networkx: 
-   :depends numba: 
-   :depends numpy: 
+   :depends numba: ``>=0.50.0``
+   :depends numpy: ``>=1.21.2``
    :depends packaging: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: ``<3.8``
+   :depends python: ``>=3.7``
    :depends scanpy: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
-   :depends setuptools_scm: 
+   :depends setuptools-scm: 
    :depends statsmodels: 
    :depends tbb: 
    :depends tqdm: 
@@ -88,7 +90,7 @@ episcanpy
 
     <script>
         var package = "episcanpy";
-        var versions = ["0.3.2"];
+        var versions = ["0.4.0","0.3.2"];
     </script>
 
 

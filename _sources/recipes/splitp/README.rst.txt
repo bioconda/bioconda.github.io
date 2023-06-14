@@ -13,7 +13,7 @@ splitp
    splitp is a streaming read pre\-preprocessor.
 
    :homepage: https://github.com/COMBINE-lab/splitp
-   :license: BSD 3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`splitp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/splitp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/splitp/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ splitp
       
       
 
-      ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -65,7 +65,7 @@ splitp
 
     <script>
         var package = "splitp";
-        var versions = ["0.1.0","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.2.0","0.1.0","0.1.0","0.1.0","0.1.0"];
     </script>
 
 
