@@ -30,7 +30,7 @@ abromics_galaxy_json_extractor
       
       
 
-      ``0.1-1``,  ``0.1-0``
+      ``0.2-0``,  ``0.1-1``,  ``0.1-0``
 
       
 
@@ -38,12 +38,12 @@ abromics_galaxy_json_extractor
    :depends _libgcc_mutex: 
    :depends _openmp_mutex: 
    :depends biopython: 
-   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends bzip2: 
    :depends ca-certificates: 
    :depends ld_impl_linux-64: 
    :depends libblas: 
    :depends libcblas: 
-   :depends libffi: ``>=3.4.2,<3.5.0a0``
+   :depends libffi: 
    :depends libgcc-ng: 
    :depends libgfortran-ng: 
    :depends libgfortran5: 
@@ -64,13 +64,13 @@ abromics_galaxy_json_extractor
    :depends python-tzdata: 
    :depends python_abi: 
    :depends pytz: 
-   :depends readline: ``>=8.2,<9.0a0``
+   :depends readline: 
    :depends setuptools: 
    :depends six: 
-   :depends tk: ``>=8.6.12,<8.7.0a0``
+   :depends tk: 
    :depends tzdata: 
    :depends wheel: 
-   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends xz: 
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +102,7 @@ abromics_galaxy_json_extractor
 
     <script>
         var package = "abromics_galaxy_json_extractor";
-        var versions = ["0.1","0.1"];
+        var versions = ["0.2","0.1","0.1"];
     </script>
 
 
