@@ -10,11 +10,14 @@ trnascan-se
    :replaces_section_title:
    :noindex:
 
-   tRNA detection in large\-scale genome sequence
+   tRNA detection in large\-scale genomic sequences
 
    :homepage: http://lowelab.ucsc.edu/tRNAscan-SE/
+   :documentation: http://lowelab.ucsc.edu/tRNAscan-SE/help.html
+   
    :license: GPLv3
    :recipe: /`trnascan-se <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trnascan-se>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trnascan-se/meta.yaml>`_
+   :links: biotools: :biotools:`trnascan-se`, doi: :doi:`10.1093/nar/gkab688`
 
    
 
@@ -28,10 +31,10 @@ trnascan-se
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.11-1</code>,  <code>2.0.11-0</code>,  <code>2.0.9-3</code>,  <code>2.0.9-2</code>,  <code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.7-1</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.12-0</code>,  <code>2.0.11-1</code>,  <code>2.0.11-0</code>,  <code>2.0.9-3</code>,  <code>2.0.9-2</code>,  <code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.7-1</code>,  <code>2.0.7-0</code>,  </span></summary>
       
 
-      ``2.0.11-1``,  ``2.0.11-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0-1``,  ``2.0-0``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
+      ``2.0.12-0``,  ``2.0.11-1``,  ``2.0.11-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0-1``,  ``2.0-0``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
 
       
       .. raw:: html
@@ -74,7 +77,7 @@ trnascan-se
 
     <script>
         var package = "trnascan-se";
-        var versions = ["2.0.11","2.0.11","2.0.9","2.0.9","2.0.9"];
+        var versions = ["2.0.12","2.0.11","2.0.11","2.0.9","2.0.9"];
     </script>
 
 

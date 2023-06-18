@@ -12,9 +12,13 @@ dendropy
 
    A Python library for phylogenetics and phylogenetic computing\: reading\, writing\, simulation\, processing and manipulation of phylogenetic trees \(phylogenies\) and characters.
 
-   :homepage: https://dendropy.org/
+   :homepage: https://pypi.org/project/DendroPy/
+   :documentation: https://dendropy.org/
+   
+   :developer docs: https://github.com/jeetsukumaran/DendroPy
    :license: BSD / BSD-3-Clause
    :recipe: /`dendropy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dendropy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dendropy/meta.yaml>`_
+   :links: biotools: :biotools:`dendropy`, doi: :doi:`10.1093/bioinformatics/btq228`
 
    
 
@@ -28,10 +32,10 @@ dendropy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6.0-0</code>,  <code>4.5.2-0</code>,  <code>4.5.1-0</code>,  <code>4.4.0-2</code>,  <code>4.4.0-1</code>,  <code>4.4.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.6.1-0</code>,  <code>4.6.0-0</code>,  <code>4.5.2-0</code>,  <code>4.5.1-0</code>,  <code>4.4.0-2</code>,  <code>4.4.0-1</code>,  <code>4.4.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-0</code>,  </span></summary>
       
 
-      ``4.6.0-0``,  ``4.5.2-0``,  ``4.5.1-0``,  ``4.4.0-2``,  ``4.4.0-1``,  ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``3.12.3-1``,  ``3.12.3-0``
+      ``4.6.1-0``,  ``4.6.0-0``,  ``4.5.2-0``,  ``4.5.1-0``,  ``4.4.0-2``,  ``4.4.0-1``,  ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``3.12.3-1``,  ``3.12.3-0``
 
       
       .. raw:: html
@@ -40,7 +44,7 @@ dendropy
       
 
    
-   :depends python: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +76,7 @@ dendropy
 
     <script>
         var package = "dendropy";
-        var versions = ["4.6.0","4.5.2","4.5.1","4.4.0","4.4.0"];
+        var versions = ["4.6.1","4.6.0","4.5.2","4.5.1","4.4.0"];
     </script>
 
 
