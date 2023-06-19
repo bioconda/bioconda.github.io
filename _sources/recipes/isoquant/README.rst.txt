@@ -10,7 +10,7 @@ isoquant
    :replaces_section_title:
    :noindex:
 
-   IsoQuant is a tool for reference\-based analysis of long RNA reads.
+   IsoQuant is a tool for reference\-based analysis of long RNA reads\, such as gene\/transcript quantification and discovery.
 
    :homepage: https://github.com/ablab/IsoQuant
    :license: GPL2

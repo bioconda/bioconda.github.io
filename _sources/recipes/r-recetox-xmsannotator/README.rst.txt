@@ -28,22 +28,33 @@ r-recetox-xmsannotator
       
       
 
-      ``0.9.0-1``,  ``0.9.0-0``
+      ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
-   :depends bioconductor-rhdf5: 
-   :depends r-arrow: 
+   :depends bioconductor-rdisop: 
+   :depends boost-cpp: 
+   :depends r-arrow: ``>=9.0.0,<10.0.0``
    :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-data.table: 
-   :depends r-dplyr: ``>=1``
-   :depends r-flashclust: 
-   :depends r-purrr: 
-   :depends r-rcpp: 
-   :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-wgcna: 
+   :depends r-biocmanager: ``>=1.30.16``
+   :depends r-data.table: ``>=1.14.2``
+   :depends r-dplyr: ``>=1.0.0``
+   :depends r-entropy: ``>=1.3.1``
+   :depends r-flashclust: ``>=1.01_2``
+   :depends r-gplots: 
+   :depends r-pastecs: ``>=1.3.21``
+   :depends r-plyr: ``>=1.8.6``
+   :depends r-purrr: ``>=0.3.4``
+   :depends r-rann: ``>=2.6.1``
+   :depends r-rcdk: ``>=3.5.0``
+   :depends r-rcpp: ``>=0.11.0``
+   :depends r-readr: ``>=2.0.2``
+   :depends r-rlist: ``>=0.4.6.2``
+   :depends r-stringi: 
+   :depends r-tibble: ``>=3.1.5``
+   :depends r-tidyr: ``>=1.1.4``
+   :depends r-wgcna: ``>=1.69``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +86,7 @@ r-recetox-xmsannotator
 
     <script>
         var package = "r-recetox-xmsannotator";
-        var versions = ["0.9.0","0.9.0"];
+        var versions = ["0.10.0","0.9.0","0.9.0"];
     </script>
 
 
