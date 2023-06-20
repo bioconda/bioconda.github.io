@@ -1,10 +1,10 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'shortreadconnector'
+.. title:: Package Recipe 'short-read-connector'
 .. highlight: bash
 
-shortreadconnector
-==================
+short-read-connector
+====================
 
 .. conda:recipe:: short-read-connector
    :replaces_section_title:
@@ -13,59 +13,62 @@ shortreadconnector
    Short read connector enables the comparisons of two read sets
 
    :homepage: https://github.com/GATB/short_read_connector
-   :license: GNU Affero General Public License v3.0
+   :license: AGPL / AGPL-3.0
    :recipe: /`short-read-connector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/short-read-connector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/short-read-connector/meta.yaml>`_
 
    
 
 
-.. conda:package:: shortreadconnector
+.. conda:package:: short-read-connector
 
-   |downloads_shortreadconnector| |docker_shortreadconnector|
+   |downloads_short-read-connector| |docker_short-read-connector|
 
    :versions:
       
       
 
-      ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``1.2.0-0``
 
       
 
    
    :depends dsk: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
 
    With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
-      conda install shortreadconnector
+      conda install short-read-connector
 
    and update with::
 
-      conda update shortreadconnector
+      conda update short-read-connector
 
    or use the docker container::
 
-      docker pull quay.io/biocontainers/shortreadconnector:<tag>
+      docker pull quay.io/biocontainers/short-read-connector:<tag>
 
-   (see `shortreadconnector/tags`_ for valid values for ``<tag>``)
+   (see `short-read-connector/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_shortreadconnector| image:: https://img.shields.io/conda/dn/bioconda/shortreadconnector.svg?style=flat
-   :target: https://anaconda.org/bioconda/shortreadconnector
+.. |downloads_short-read-connector| image:: https://img.shields.io/conda/dn/bioconda/short-read-connector.svg?style=flat
+   :target: https://anaconda.org/bioconda/short-read-connector
    :alt:   (downloads)
-.. |docker_shortreadconnector| image:: https://quay.io/repository/biocontainers/shortreadconnector/status
-   :target: https://quay.io/repository/biocontainers/shortreadconnector
-.. _`shortreadconnector/tags`: https://quay.io/repository/biocontainers/shortreadconnector?tab=tags
+.. |docker_short-read-connector| image:: https://quay.io/repository/biocontainers/short-read-connector/status
+   :target: https://quay.io/repository/biocontainers/short-read-connector
+.. _`short-read-connector/tags`: https://quay.io/repository/biocontainers/short-read-connector?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "shortreadconnector";
-        var versions = ["1.1.3","1.1.3","1.1.3"];
+        var package = "short-read-connector";
+        var versions = ["1.2.0"];
     </script>
 
 
@@ -84,7 +87,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/shortreadconnector/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/short-read-connector/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/shortreadconnector/README.html
+   :target: http://bioconda.github.io/recipes/short-read-connector/README.html

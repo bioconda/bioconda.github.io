@@ -28,7 +28,7 @@ pydeseq2
       
       
 
-      ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
@@ -74,7 +74,7 @@ pydeseq2
 
     <script>
         var package = "pydeseq2";
-        var versions = ["0.3.4","0.3.3"];
+        var versions = ["0.3.5","0.3.4","0.3.3"];
     </script>
 
 
