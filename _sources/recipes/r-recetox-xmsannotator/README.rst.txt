@@ -12,7 +12,7 @@ r-recetox-xmsannotator
 
    Annotate peak intensity table with compounds from the compounds database. A heavily modified fork of the original xMSannotator by Karan Uppal.
 
-   :homepage: https://github.com/recetox/recetox-xMSannotator
+   :homepage: https://github.com/RECETOX/recetox-xMSannotator
    :license: GPL2.0
    :recipe: /`r-recetox-xmsannotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-xmsannotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-xmsannotator/meta.yaml>`_
    :links: doi: :doi:`10.1021/acs.analchem.6b01214`
@@ -28,7 +28,7 @@ r-recetox-xmsannotator
       
       
 
-      ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -86,7 +86,7 @@ r-recetox-xmsannotator
 
     <script>
         var package = "r-recetox-xmsannotator";
-        var versions = ["0.10.0","0.9.0","0.9.0"];
+        var versions = ["0.10.0","0.10.0","0.9.0","0.9.0"];
     </script>
 
 

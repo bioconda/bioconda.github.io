@@ -12,7 +12,7 @@ tassel
 
    TASSEL is a software package to evaluate traits associations\, evolutionary patterns\, and linkage disequilibrium.
 
-   :homepage: http://www.maizegenetics.net/tassel
+   :homepage: https://www.maizegenetics.net/tassel
    :license: LGPL V2.1
    :recipe: /`tassel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tassel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tassel/meta.yaml>`_
 
@@ -27,7 +27,7 @@ tassel
       
       
 
-      ``5.2.40-3``,  ``5.2.40-2``,  ``5.2.40-1``,  ``5.2.40-0``,  ``4.3.15-1``,  ``4.3.15-0``,  ``3.0.174-1``,  ``3.0.174-0``
+      ``5.2.89-0``,  ``5.2.40-3``,  ``5.2.40-2``,  ``5.2.40-1``,  ``5.2.40-0``,  ``4.3.15-1``,  ``4.3.15-0``,  ``3.0.174-1``,  ``3.0.174-0``
 
       
 
@@ -65,7 +65,7 @@ tassel
 
     <script>
         var package = "tassel";
-        var versions = ["5.2.40","5.2.40","5.2.40","5.2.40","4.3.15"];
+        var versions = ["5.2.89","5.2.40","5.2.40","5.2.40","5.2.40"];
     </script>
 
 
