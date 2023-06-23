@@ -30,7 +30,7 @@ superdsm
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1-0``
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1-0``
 
       
 
@@ -45,7 +45,6 @@ superdsm
    :depends numpy: ``>=1.18,<2.0``
    :depends posix_ipc: ``>=1.0.4,<2.0``
    :depends python: ``>=3.6,<3.11``
-   :depends ray-dashboard: 
    :depends ray-default: ``>=0.8.7``
    :depends scikit-image: ``>=0.18,<1.0``
    :depends scipy: ``>=1.6.3,<2.0``
@@ -80,7 +79,7 @@ superdsm
 
     <script>
         var package = "superdsm";
-        var versions = ["0.1.2","0.1.1","0.1"];
+        var versions = ["0.1.2","0.1.2","0.1.1","0.1"];
     </script>
 
 

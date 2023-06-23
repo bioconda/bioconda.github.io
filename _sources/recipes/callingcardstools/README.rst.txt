@@ -30,13 +30,13 @@ callingcardstools
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: 
-   :depends edlib: 
+   :depends edlib: ``>=1.3.9``
    :depends numpy: 
    :depends pandas: 
    :depends poetry: 
@@ -73,7 +73,7 @@ callingcardstools
 
     <script>
         var package = "callingcardstools";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

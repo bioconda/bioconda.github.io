@@ -26,22 +26,30 @@ nanocaller
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
+      
 
+      ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bcftools: 
    :depends intervaltree: 
    :depends muscle: ``>=3.8,<4``
-   :depends numpy: ``>=1.18,<1.19``
+   :depends numpy: ``>=1.18``
    :depends parasail-python: 
    :depends pysam: 
-   :depends python: ``>=3.8,<3.9``
+   :depends python: ``>=3.8``
    :depends rtg-tools: 
    :depends samtools: ``>=1.10``
-   :depends tensorflow: ``>=2.7,<2.8``
+   :depends tensorflow: ``>=2.4``
    :depends tqdm: 
    :depends vcflib: 
    :depends whatshap: ``>=1.4``
@@ -76,7 +84,7 @@ nanocaller
 
     <script>
         var package = "nanocaller";
-        var versions = ["3.2.0","3.1.0","3.0.1","3.0.0","2.1.2"];
+        var versions = ["3.2.0","3.2.0","3.1.0","3.0.1","3.0.0"];
     </script>
 
 

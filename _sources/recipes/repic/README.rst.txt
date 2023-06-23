@@ -13,10 +13,12 @@ repic
    REPIC \- an ensemble learning approach to cryo\-EM particle picking.
 
    :homepage: https://github.com/ccameron/REPIC
+   :documentation: https://repic.readthedocs.io/en/latest/
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`repic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repic/meta.yaml>`_
 
-   REPIC is an ensemble learning approach to cryogenic\-electron\\ \\ microscopy \(cryo\-EM\) particle picking. It identifies particles common to\\ \\ multiple picked particle sets \(i.e.\, consensus particles\) using graph\\ \\ theory and integer linear programming \(ILP\). Picked particle sets may be\\ \\ found by a human specialist \(manual\)\, template matching\, mathematical\\ \\ function \(e.g.\, RELION\'s Laplacian\-of\-Gaussian auto\-picking\)\, or\\ \\ machine\-learning method. REPIC expects particle sets to be in BOX file\\ \\ format \(\*.box\) and contain particle coordinates\, detection box size \(in\\ \\ pixels\)\, and \(optional\) score \[0\-1\].
+   REliable PIcking by Consensus \(REPIC\) is an ensemble learning approach to cryogenic\-electron microscopy \(cryo\-EM\) particle picking. It identifies particles common to multiple picked particle sets \(i.e.\, consensus particles\) using graph theory and integer linear programming \(ILP\). Picked particle sets may be found by a human specialist \(manual\)\, template matching\, mathematical function \(e.g.\, RELION\'s Laplacian\-of\-Gaussian auto\-picking\)\, or machine\-learning method. REPIC expects particle sets to be in BOX file format \(\*.box\) where each particle has coordinates\, a detection box size \(in pixels\)\, and \(optional\) a score \[0\-1\].
 
 
 .. conda:package:: repic
@@ -27,7 +29,7 @@ repic
       
       
 
-      ``0.0.0-0``
+      ``0.1.0-0``,  ``0.0.0-0``
 
       
 
@@ -71,7 +73,7 @@ repic
 
     <script>
         var package = "repic";
-        var versions = ["0.0.0"];
+        var versions = ["0.1.0","0.0.0"];
     </script>
 
 

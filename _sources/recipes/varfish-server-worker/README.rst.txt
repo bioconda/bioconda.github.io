@@ -27,14 +27,26 @@ varfish-server-worker
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+      
 
+      ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
+   :depends libsqlite: ``>=3.42.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends openssl: ``>=3.1.1,<4.0a0``
+   :depends sqlite: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +78,7 @@ varfish-server-worker
 
     <script>
         var package = "varfish-server-worker";
-        var versions = ["0.6.1","0.6.1","0.6.1","0.6.0","0.5.1"];
+        var versions = ["0.7.0","0.6.1","0.6.1","0.6.1","0.6.0"];
     </script>
 
 
