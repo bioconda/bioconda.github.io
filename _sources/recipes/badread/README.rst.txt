@@ -27,16 +27,16 @@ badread
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
    
-   :depends edlib: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pip: 
    :depends python: ``>=3.6``
+   :depends python-edlib: 
    :depends scipy: 
    :requirements:
 
@@ -69,7 +69,7 @@ badread
 
     <script>
         var package = "badread";
-        var versions = ["0.4.0","0.3.0","0.2.0","0.1.5"];
+        var versions = ["0.4.0","0.4.0","0.3.0","0.2.0","0.1.5"];
     </script>
 
 
