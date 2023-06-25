@@ -28,10 +28,10 @@ pggb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  </span></summary>
       
 
-      ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,19 +42,19 @@ pggb
    
    :depends bc: 
    :depends bcftools: 
-   :depends gfaffix: ``>=0.1.4``
+   :depends gfaffix: ``0.1.4``
    :depends gsl: ``2.7.0.*``
    :depends idna: ``<3,>=2.5``
-   :depends multiqc: ``>=1.13``
-   :depends odgi: ``>=0.8.2``
+   :depends multiqc: ``1.14``
+   :depends odgi: ``0.8.3``
    :depends pigz: 
-   :depends python-igraph: ``>=0.10.3``
-   :depends seqwish: ``>=0.7.8``
-   :depends smoothxg: ``>=0.6.8``
+   :depends python-igraph: ``0.10.4``
+   :depends seqwish: ``0.7.9``
+   :depends smoothxg: ``0.7.0``
    :depends tabix: 
    :depends time: 
    :depends vg: ``1.40.0.*``
-   :depends wfmash: ``>=0.10.2``
+   :depends wfmash: ``0.10.3``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.5.3","0.5.3","0.5.3","0.5.2","0.5.1"];
+        var versions = ["0.5.4","0.5.3","0.5.3","0.5.3","0.5.2"];
     </script>
 
 
