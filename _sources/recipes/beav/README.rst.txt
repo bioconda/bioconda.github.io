@@ -13,7 +13,7 @@ beav
    beav\: Bacterial genome and mobile element annotation pipeline
 
    :homepage: https://github.com/weisberglab/beav
-   :license: GPL
+   :license: GPL / GPL-3.0
    :recipe: /`beav <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beav>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beav/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ beav
       
       
 
-      ``0.0.13-0``
+      ``0.0.14-0``,  ``0.0.13-0``
 
       
 
@@ -56,6 +56,7 @@ beav
    :depends perl-findbin: 
    :depends perl-getopt-long: 
    :depends perl-ipc-run3: 
+   :depends pftools: 
    :depends prokka: ``>=1.11``
    :depends python: ``>=3.7,<=3.10``
    :depends scikit-learn: 
@@ -92,7 +93,7 @@ beav
 
     <script>
         var package = "beav";
-        var versions = ["0.0.13"];
+        var versions = ["0.0.14","0.0.13"];
     </script>
 
 
