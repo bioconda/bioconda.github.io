@@ -28,7 +28,7 @@ pyclone-vi
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -71,7 +71,7 @@ pyclone-vi
 
     <script>
         var package = "pyclone-vi";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["0.1.3","0.1.2","0.1.1"];
     </script>
 
 
