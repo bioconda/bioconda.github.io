@@ -27,7 +27,7 @@ varvamp
       
       
 
-      ``0.4-0``
+      ``0.8.3-0``,  ``0.4-0``
 
       
 
@@ -38,6 +38,7 @@ varvamp
    :depends pandas: ``>=1.4.4``
    :depends primer3-py: ``>=1.1.0``
    :depends python: ``>=3.9``
+   :depends seqfold: ``>=0.7.15``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +70,7 @@ varvamp
 
     <script>
         var package = "varvamp";
-        var versions = ["0.4"];
+        var versions = ["0.8.3","0.4"];
     </script>
 
 

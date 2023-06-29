@@ -27,13 +27,13 @@ baltic
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
    :depends matplotlib-base: ``>=2.0.0``
-   :depends numpy: ``>=1.17``
+   :depends numpy: ``>=1.16``
    :depends python: 
    :requirements:
 
@@ -66,7 +66,7 @@ baltic
 
     <script>
         var package = "baltic";
-        var versions = ["0.1.6","0.1.5"];
+        var versions = ["0.1.8","0.1.6","0.1.5"];
     </script>
 
 
