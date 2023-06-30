@@ -17,7 +17,7 @@ trinity
    
    :license: BSD / BSD-3-Clause
    :recipe: /`trinity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity/meta.yaml>`_
-   :links: biotools: :biotools:`trinity`, doi: :doi:`10.1038/nbt.1883`, usegalaxy-eu: :usegalaxy-eu:`trinity`
+   :links: biotools: :biotools:`trinity`, usegalaxy-eu: :usegalaxy-eu:`trinity`, doi: :doi:`10.1038/nbt.1883`, doi: :doi:`10.1038/nprot.2013.084`
 
    
 
@@ -31,10 +31,10 @@ trinity
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.15.1-2</code>,  <code>2.15.1-1</code>,  <code>2.15.1-0</code>,  <code>2.13.2-4</code>,  <code>2.13.2-3</code>,  <code>2.13.2-2</code>,  <code>2.13.2-1</code>,  <code>2.13.2-0</code>,  <code>2.12.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.15.1-3</code>,  <code>2.15.1-2</code>,  <code>2.15.1-1</code>,  <code>2.15.1-0</code>,  <code>2.13.2-4</code>,  <code>2.13.2-3</code>,  <code>2.13.2-2</code>,  <code>2.13.2-1</code>,  <code>2.13.2-0</code>,  </span></summary>
       
 
-      ``2.15.1-2``,  ``2.15.1-1``,  ``2.15.1-0``,  ``2.13.2-4``,  ``2.13.2-3``,  ``2.13.2-2``,  ``2.13.2-1``,  ``2.13.2-0``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.5-5``,  ``2.8.5-4``,  ``2.8.5-3``,  ``2.8.5-2``,  ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-1``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-2``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.6.6-2``,  ``2.6.6-1``,  ``2.6.6-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-5``,  ``2.4.0-4``,  ``2.4.0-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-6``,  ``date.2011_11_26-8``,  ``date.2011_11_26-7``,  ``date.2011_11_26-6``,  ``date.2011_11_26-5``,  ``date.2011_11_26-4``,  ``date.2011_11_26-3``
+      ``2.15.1-3``,  ``2.15.1-2``,  ``2.15.1-1``,  ``2.15.1-0``,  ``2.13.2-4``,  ``2.13.2-3``,  ``2.13.2-2``,  ``2.13.2-1``,  ``2.13.2-0``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.5-5``,  ``2.8.5-4``,  ``2.8.5-3``,  ``2.8.5-2``,  ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-1``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-2``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.6.6-2``,  ``2.6.6-1``,  ``2.6.6-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-5``,  ``2.4.0-4``,  ``2.4.0-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-6``,  ``date.2011_11_26-8``,  ``date.2011_11_26-7``,  ``date.2011_11_26-6``,  ``date.2011_11_26-5``,  ``date.2011_11_26-4``,  ``date.2011_11_26-3``
 
       
       .. raw:: html
@@ -50,23 +50,21 @@ trinity
    :depends bioconductor-go.db: 
    :depends bioconductor-goseq: 
    :depends bioconductor-qvalue: 
-   :depends bowtie: 
    :depends bowtie2: ``>=2.3.0``
-   :depends coreutils: 
    :depends htslib: ``>=1.17,<1.18.0a0``
    :depends kallisto: 
-   :depends kmer-jellyfish: ``>=2.2``
+   :depends kmer-jellyfish: ``>=2.3``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends numpy: 
-   :depends openjdk: ``>=8``
-   :depends perl: 
+   :depends openjdk: ``>=17``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-db_file: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends r-ape: 
    :depends r-argparse: 
-   :depends r-base: ``>=4.1``
+   :depends r-base: 
    :depends r-cluster: 
    :depends r-fastcluster: 
    :depends r-gplots: 
@@ -74,9 +72,9 @@ trinity
    :depends r-sm: 
    :depends r-tidyverse: 
    :depends r-vioplot: 
-   :depends salmon: ``>=1.0``
-   :depends samtools: ``>=1.9``
-   :depends trimmomatic: ``>=0.36``
+   :depends salmon: 
+   :depends samtools: ``>=1.14``
+   :depends trimmomatic: ``>=0.39``
    :requirements:
 
    .. rubric:: Installation
@@ -108,7 +106,7 @@ trinity
 
     <script>
         var package = "trinity";
-        var versions = ["2.15.1","2.15.1","2.15.1","2.13.2","2.13.2"];
+        var versions = ["2.15.1","2.15.1","2.15.1","2.15.1","2.13.2"];
     </script>
 
 

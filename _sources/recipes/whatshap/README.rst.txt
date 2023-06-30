@@ -29,10 +29,10 @@ whatshap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7-1</code>,  <code>1.7-0</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0-0</code>,  <code>1.7-1</code>,  <code>1.7-0</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-1</code>,  </span></summary>
       
 
-      ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-0``,  ``0.15-0``,  ``0.14.1-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.9-0``
+      ``2.0-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-0``,  ``0.15-0``,  ``0.14.1-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.9-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ whatshap
    :depends networkx: ``>=2.4``
    :depends pulp: ``>=2``
    :depends pyfaidx: ``>=0.5.5.2``
-   :depends pysam: ``>=0.17``
+   :depends pysam: ``>=0.18``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
@@ -84,7 +84,7 @@ whatshap
 
     <script>
         var package = "whatshap";
-        var versions = ["1.7","1.7","1.6","1.6","1.5"];
+        var versions = ["2.0","1.7","1.7","1.6","1.6"];
     </script>
 
 

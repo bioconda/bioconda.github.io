@@ -27,7 +27,7 @@ zol
       
       
 
-      ``1.2.8-0``,  ``1.2.7-0``
+      ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
 
@@ -49,7 +49,8 @@ zol
    :depends pandas: ``>=2.0``
    :depends pomegranate: ``>0.13,<=0.14.8``
    :depends prodigal: 
-   :depends pyrodigal: ``2.1.0.*``
+   :depends pyhmmer: 
+   :depends pyrodigal: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: 
@@ -94,7 +95,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.2.8","1.2.7"];
+        var versions = ["1.3.1","1.2.8","1.2.7"];
     </script>
 
 

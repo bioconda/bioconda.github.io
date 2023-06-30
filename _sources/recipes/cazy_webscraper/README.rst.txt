@@ -10,11 +10,13 @@ cazy_webscraper
    :replaces_section_title:
    :noindex:
 
-   cazy\_webscraper automates retrieving of protein\, annotation\, sequence\, structure\, genomic and taxonomic data from the CAZy\, NCBI\, UniProt\, RCSB PDB and GTDB databases.
+   A tool to automate retrieving data from CAZy\, build a local CAZyme SQL database\, and throughly interrogating the data. Also\, automate retrieving protein data\, sequences\, EC numbers and structure files for specific datasets in the CAZyme database from UniProt\, GenBank and PDB.
 
    :homepage: https://hobnobmancer.github.io/cazy_webscraper/
-   :license: MIT / MIT
+   :developer docs: https://github.com/HobnobMancer/cazy_webscraper
+   :license: MIT
    :recipe: /`cazy_webscraper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cazy_webscraper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cazy_webscraper/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2022.12.02.518825`
 
    
 

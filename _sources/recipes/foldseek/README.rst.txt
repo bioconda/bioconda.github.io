@@ -29,10 +29,10 @@ foldseek
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.29e2557-2</code>,  <code>6.29e2557-1</code>,  <code>6.29e2557-0</code>,  <code>5.53465f0-0</code>,  <code>4.645b789-0</code>,  <code>3.915ef7d-1</code>,  <code>3.915ef7d-0</code>,  <code>2.8bd520-1</code>,  <code>2.8bd520-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.04e0ec8-0</code>,  <code>6.29e2557-2</code>,  <code>6.29e2557-1</code>,  <code>6.29e2557-0</code>,  <code>5.53465f0-0</code>,  <code>4.645b789-0</code>,  <code>3.915ef7d-1</code>,  <code>3.915ef7d-0</code>,  <code>2.8bd520-1</code>,  </span></summary>
       
 
-      ``6.29e2557-2``,  ``6.29e2557-1``,  ``6.29e2557-0``,  ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
+      ``7.04e0ec8-0``,  ``6.29e2557-2``,  ``6.29e2557-1``,  ``6.29e2557-0``,  ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
 
       
       .. raw:: html
@@ -82,7 +82,7 @@ foldseek
 
     <script>
         var package = "foldseek";
-        var versions = ["6.29e2557","6.29e2557","6.29e2557","5.53465f0","4.645b789"];
+        var versions = ["7.04e0ec8","6.29e2557","6.29e2557","6.29e2557","5.53465f0"];
     </script>
 
 

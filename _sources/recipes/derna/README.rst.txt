@@ -27,7 +27,7 @@ derna
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -65,7 +65,7 @@ derna
 
     <script>
         var package = "derna";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.2","1.0.2"];
     </script>
 
 

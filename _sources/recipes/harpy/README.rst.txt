@@ -30,7 +30,7 @@ harpy
       
       
 
-      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -45,6 +45,7 @@ harpy
    :depends libzlib: 
    :depends llvm-openmp: 
    :depends multiqc: 
+   :depends naibr-plus: 
    :depends python: ``>=3.7``
    :depends r-base: ``>=4``
    :depends r-circlize: 
@@ -96,7 +97,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.2.0","0.1.1","0.1.1","0.1.1"];
     </script>
 
 

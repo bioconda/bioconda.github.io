@@ -30,7 +30,7 @@ macsyfinder
       
       
 
-      ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``
+      ``2.1.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``
 
       
 
@@ -75,7 +75,7 @@ macsyfinder
 
     <script>
         var package = "macsyfinder";
-        var versions = ["2.1.1","2.1","2.0"];
+        var versions = ["2.1.2","2.1.1","2.1","2.0"];
     </script>
 
 

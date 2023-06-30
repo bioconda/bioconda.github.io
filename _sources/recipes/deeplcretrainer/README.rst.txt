@@ -27,7 +27,7 @@ deeplcretrainer
       
       
 
-      ``0.1.17-0``
+      ``0.1.19-0``,  ``0.1.17-0``
 
       
 
@@ -64,7 +64,7 @@ deeplcretrainer
 
     <script>
         var package = "deeplcretrainer";
-        var versions = ["0.1.17"];
+        var versions = ["0.1.19","0.1.17"];
     </script>
 
 

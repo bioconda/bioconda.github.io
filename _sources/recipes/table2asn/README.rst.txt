@@ -29,11 +29,13 @@ table2asn
       
       
 
-      
+      ``1.27.792-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +67,7 @@ table2asn
 
     <script>
         var package = "table2asn";
-        var versions = [];
+        var versions = ["1.27.792"];
     </script>
 
 

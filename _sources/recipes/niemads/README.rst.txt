@@ -27,7 +27,7 @@ niemads
       
       
 
-      ``1.0.14-0``
+      ``1.0.16-0``,  ``1.0.15-0``,  ``1.0.14-0``
 
       
 
@@ -64,7 +64,7 @@ niemads
 
     <script>
         var package = "niemads";
-        var versions = ["1.0.14"];
+        var versions = ["1.0.16","1.0.15","1.0.14"];
     </script>
 
 

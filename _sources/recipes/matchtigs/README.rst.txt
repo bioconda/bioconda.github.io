@@ -27,9 +27,17 @@ matchtigs
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.5-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.5-0</code>,  <code>1.5.5-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``2.1.5-0``,  ``1.5.5-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -65,7 +73,7 @@ matchtigs
 
     <script>
         var package = "matchtigs";
-        var versions = ["1.5.5","1.5.3","1.5.2","1.5.1","1.5.0"];
+        var versions = ["2.1.5","1.5.5","1.5.3","1.5.2","1.5.1"];
     </script>
 
 
