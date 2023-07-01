@@ -1,0 +1,94 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'python-monovar'
+.. highlight: bash
+
+python-monovar
+==============
+
+.. conda:recipe:: python-monovar
+   :replaces_section_title:
+   :noindex:
+
+   single cell joint genotyper\, patched version
+
+   :homepage: https://kgithub.com/gongyh/MonoVar
+   :license: MIT
+   :recipe: /`python-monovar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-monovar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-monovar/meta.yaml>`_
+   :links: biotools: :biotools:`Monovar`, doi: :doi:`10.1038/nmeth.3835`
+
+   
+
+
+.. conda:package:: python-monovar
+
+   |downloads_python-monovar| |docker_python-monovar|
+
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
+   
+   :depends numpy: 
+   :depends pysam: 
+   :depends python: 
+   :depends samtools: 
+   :depends scipy: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-monovar
+
+   and update with::
+
+      conda update python-monovar
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/python-monovar:<tag>
+
+   (see `python-monovar/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_python-monovar| image:: https://img.shields.io/conda/dn/bioconda/python-monovar.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-monovar
+   :alt:   (downloads)
+.. |docker_python-monovar| image:: https://quay.io/repository/biocontainers/python-monovar/status
+   :target: https://quay.io/repository/biocontainers/python-monovar
+.. _`python-monovar/tags`: https://quay.io/repository/biocontainers/python-monovar?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "python-monovar";
+        var versions = ["0.1"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-monovar/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-monovar/README.html

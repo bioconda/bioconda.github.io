@@ -12,7 +12,7 @@ fasta3
 
    The FASTA package \- protein and DNA sequence similarity searching and alignment programs
 
-   :homepage: http://faculty.virginia.edu/wrpearson/fasta
+   :homepage: https://fasta.bioch.virginia.edu/wrpearson/fasta/
    :license: Apache 2.0
    :recipe: /`fasta3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta3/meta.yaml>`_
 
@@ -28,10 +28,10 @@ fasta3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>36.3.8-7</code>,  <code>36.3.8-6</code>,  <code>36.3.8-5</code>,  <code>36.3.8-4</code>,  <code>36.3.8-3</code>,  <code>36.3.8-2</code>,  <code>36.3.8-1</code>,  <code>36.3.8-0</code>,  <code>36.3.8h-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>36.3.8-7</code>,  <code>36.3.8-6</code>,  <code>36.3.8-5</code>,  <code>36.3.8-4</code>,  <code>36.3.8-3</code>,  <code>36.3.8-2</code>,  <code>36.3.8-1</code>,  <code>36.3.8-0</code>,  <code>36.3.8i-0</code>,  </span></summary>
       
 
-      ``36.3.8-7``,  ``36.3.8-6``,  ``36.3.8-5``,  ``36.3.8-4``,  ``36.3.8-3``,  ``36.3.8-2``,  ``36.3.8-1``,  ``36.3.8-0``,  ``36.3.8h-2``,  ``36.3.8h-1``,  ``36.3.8h-0``
+      ``36.3.8-7``,  ``36.3.8-6``,  ``36.3.8-5``,  ``36.3.8-4``,  ``36.3.8-3``,  ``36.3.8-2``,  ``36.3.8-1``,  ``36.3.8-0``,  ``36.3.8i-0``,  ``36.3.8h-2``,  ``36.3.8h-1``,  ``36.3.8h-0``
 
       
       .. raw:: html

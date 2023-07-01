@@ -29,10 +29,10 @@ meme
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.5.2-1</code>,  <code>5.5.2-0</code>,  <code>5.4.1-2</code>,  <code>5.4.1-1</code>,  <code>5.4.1-0</code>,  <code>5.3.0-2</code>,  <code>5.3.0-0</code>,  <code>5.1.1-3</code>,  <code>5.1.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.5.3-0</code>,  <code>5.5.2-1</code>,  <code>5.5.2-0</code>,  <code>5.4.1-2</code>,  <code>5.4.1-1</code>,  <code>5.4.1-0</code>,  <code>5.3.0-2</code>,  <code>5.3.0-0</code>,  <code>5.1.1-3</code>,  </span></summary>
       
 
-      ``5.5.2-1``,  ``5.5.2-0``,  ``5.4.1-2``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.3.0-2``,  ``5.3.0-0``,  ``5.1.1-3``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.2-5``,  ``5.0.2-3``,  ``5.0.2-2``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.11.2-8``,  ``4.11.2-6``,  ``4.11.2-5``,  ``4.11.2-4``,  ``4.11.2-3``,  ``4.11.2-2``,  ``4.11.2-1``,  ``4.11.2-0``,  ``4.11.1-7``,  ``4.11.1-6``,  ``4.11.1-5``,  ``4.11.1-4``,  ``4.11.1-3``,  ``4.11.1-2``,  ``4.11.1-1``,  ``4.11.1-0``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``
+      ``5.5.3-0``,  ``5.5.2-1``,  ``5.5.2-0``,  ``5.4.1-2``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.3.0-2``,  ``5.3.0-0``,  ``5.1.1-3``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.2-5``,  ``5.0.2-3``,  ``5.0.2-2``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.11.2-8``,  ``4.11.2-6``,  ``4.11.2-5``,  ``4.11.2-4``,  ``4.11.2-3``,  ``4.11.2-2``,  ``4.11.2-1``,  ``4.11.2-0``,  ``4.11.1-7``,  ``4.11.1-6``,  ``4.11.1-5``,  ``4.11.1-4``,  ``4.11.1-3``,  ``4.11.1-2``,  ``4.11.1-1``,  ``4.11.1-0``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``
 
       
       .. raw:: html
@@ -41,16 +41,16 @@ meme
       
 
    
-   :depends expat: 
-   :depends ghostscript: 
    :depends icu: ``>=70.1,<71.0a0``
    :depends libexpat: ``>=2.5.0,<3.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libxml2: ``>=2.10.3,<2.11.0a0``
    :depends libxslt: ``>=1.1.37,<2.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends nodejs: ``>=18.15.0,<19.0a0``
    :depends openmpi: ``>=4.1.5,<5.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-app-cpanminus: 
    :depends perl-cgi: 
    :depends perl-file-which: 
    :depends perl-html-parser: 
@@ -59,13 +59,12 @@ meme
    :depends perl-json: 
    :depends perl-log-log4perl: 
    :depends perl-math-cdf: 
-   :depends perl-module-build: ``0.4234.*``
+   :depends perl-module-build: 
    :depends perl-sys-info: 
    :depends perl-xml-parser: 
    :depends perl-xml-simple: 
    :depends perl-yaml: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.7``
    :depends xz: ``>=5.2.6,<6.0a0``
    :depends yaml: ``>=0.2.5,<0.3.0a0``
    :requirements:
@@ -99,7 +98,7 @@ meme
 
     <script>
         var package = "meme";
-        var versions = ["5.5.2","5.5.2","5.4.1","5.4.1","5.4.1"];
+        var versions = ["5.5.3","5.5.2","5.5.2","5.4.1","5.4.1"];
     </script>
 
 

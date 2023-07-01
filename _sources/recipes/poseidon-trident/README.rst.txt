@@ -12,7 +12,7 @@ poseidon-trident
 
    A tool \(trident\) to work with modular genotype databases formatted using Poseidon.
 
-   :homepage: https://poseidon-framework.github.io/#/
+   :homepage: https://www.poseidon-adna.org/#/
    :license: MIT
    :recipe: /`poseidon-trident <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-trident>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-trident/meta.yaml>`_
 
@@ -28,10 +28,10 @@ poseidon-trident
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.11.0-2</code>,  <code>1.1.11.0-1</code>,  <code>1.1.11.0-0</code>,  <code>1.1.6.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.3-1</code>,  <code>0.26.3-0</code>,  <code>0.26.1-1</code>,  <code>0.26.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0.0-0</code>,  <code>1.1.11.0-2</code>,  <code>1.1.11.0-1</code>,  <code>1.1.11.0-0</code>,  <code>1.1.6.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.3-1</code>,  <code>0.26.3-0</code>,  <code>0.26.1-1</code>,  </span></summary>
       
 
-      ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
+      ``1.2.0.0-0``,  ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ poseidon-trident
 
     <script>
         var package = "poseidon-trident";
-        var versions = ["1.1.11.0","1.1.11.0","1.1.11.0","1.1.6.0","0.28.0"];
+        var versions = ["1.2.0.0","1.1.11.0","1.1.11.0","1.1.11.0","1.1.6.0"];
     </script>
 
 
