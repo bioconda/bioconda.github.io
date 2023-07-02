@@ -28,10 +28,10 @@ perl-statistics-descriptive
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0800-0</code>,  <code>3.0702-1</code>,  <code>3.0702-0</code>,  <code>3.0612-2</code>,  <code>3.0612-1</code>,  <code>3.0612-0</code>,  <code>3.0609-5</code>,  <code>3.0609-4</code>,  <code>3.0609-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0801-0</code>,  <code>3.0800-0</code>,  <code>3.0702-1</code>,  <code>3.0702-0</code>,  <code>3.0612-2</code>,  <code>3.0612-1</code>,  <code>3.0612-0</code>,  <code>3.0609-5</code>,  <code>3.0609-4</code>,  </span></summary>
       
 
-      ``3.0800-0``,  ``3.0702-1``,  ``3.0702-0``,  ``3.0612-2``,  ``3.0612-1``,  ``3.0612-0``,  ``3.0609-5``,  ``3.0609-4``,  ``3.0609-3``,  ``3.0609-2``,  ``3.0609-1``,  ``3.0609-0``
+      ``3.0801-0``,  ``3.0800-0``,  ``3.0702-1``,  ``3.0702-0``,  ``3.0612-2``,  ``3.0612-1``,  ``3.0612-0``,  ``3.0609-5``,  ``3.0609-4``,  ``3.0609-3``,  ``3.0609-2``,  ``3.0609-1``,  ``3.0609-0``
 
       
       .. raw:: html
@@ -73,7 +73,7 @@ perl-statistics-descriptive
 
     <script>
         var package = "perl-statistics-descriptive";
-        var versions = ["3.0800","3.0702","3.0702","3.0612","3.0612"];
+        var versions = ["3.0801","3.0800","3.0702","3.0702","3.0612"];
     </script>
 
 

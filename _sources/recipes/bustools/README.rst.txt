@@ -28,10 +28,10 @@ bustools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.42.0-2</code>,  <code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.41.0-2</code>,  <code>0.41.0-1</code>,  <code>0.41.0-0</code>,  <code>0.40.0-1</code>,  <code>0.40.0-0</code>,  <code>0.39.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.43.0-0</code>,  <code>0.42.0-2</code>,  <code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.41.0-2</code>,  <code>0.41.0-1</code>,  <code>0.41.0-0</code>,  <code>0.40.0-1</code>,  <code>0.40.0-0</code>,  </span></summary>
       
 
-      ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.41.0-2``,  ``0.41.0-1``,  ``0.41.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.39.4-0``,  ``0.39.3-0``,  ``0.39.2-0``
+      ``0.43.0-0``,  ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.41.0-2``,  ``0.41.0-1``,  ``0.41.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.39.4-0``,  ``0.39.3-0``,  ``0.39.2-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ bustools
 
     <script>
         var package = "bustools";
-        var versions = ["0.42.0","0.42.0","0.42.0","0.41.0","0.41.0"];
+        var versions = ["0.43.0","0.42.0","0.42.0","0.42.0","0.41.0"];
     </script>
 
 
