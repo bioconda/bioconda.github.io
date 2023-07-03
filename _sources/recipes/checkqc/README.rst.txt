@@ -27,16 +27,16 @@ checkqc
       
       
 
-      ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.6-0``,  ``3.6.5-0``,  ``3.6.4-0``,  ``3.6.3-0``,  ``3.6.1-0``
+      ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.6-0``,  ``3.6.5-0``,  ``3.6.4-0``,  ``3.6.3-0``,  ``3.6.1-0``
 
       
 
    
    :depends click: 
-   :depends illumina-interop: ``>=1.1.10``
+   :depends illumina-interop: ``>=1.2.3``
    :depends python: ``>=3.6``
    :depends pyyaml: ``>=3.12``
-   :depends sample-sheet: 
+   :depends sample-sheet: ``>=0.13.0``
    :depends tornado: 
    :depends xmltodict: 
    :requirements:
@@ -70,7 +70,7 @@ checkqc
 
     <script>
         var package = "checkqc";
-        var versions = ["3.8.0","3.7.0","3.6.6","3.6.5","3.6.4"];
+        var versions = ["3.8.1","3.8.0","3.7.0","3.6.6","3.6.5"];
     </script>
 
 
