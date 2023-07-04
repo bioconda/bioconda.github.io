@@ -26,12 +26,21 @@ dropest
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8.6-6``,  ``0.8.6-5``,  ``0.8.6-4``,  ``0.8.6-3``,  ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.8.6-7</code>,  <code>0.8.6-6</code>,  <code>0.8.6-5</code>,  <code>0.8.6-4</code>,  <code>0.8.6-3</code>,  <code>0.8.6-2</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  <code>0.8.5-1</code>,  </span></summary>
+      
 
+      ``0.8.6-7``,  ``0.8.6-6``,  ``0.8.6-5``,  ``0.8.6-4``,  ``0.8.6-3``,  ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
    :depends boost: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
