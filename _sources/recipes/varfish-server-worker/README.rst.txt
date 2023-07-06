@@ -29,10 +29,10 @@ varfish-server-worker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ varfish-server-worker
 
     <script>
         var package = "varfish-server-worker";
-        var versions = ["0.8.0","0.7.0","0.6.1","0.6.1","0.6.1"];
+        var versions = ["0.9.0","0.8.0","0.7.0","0.6.1","0.6.1"];
     </script>
 
 

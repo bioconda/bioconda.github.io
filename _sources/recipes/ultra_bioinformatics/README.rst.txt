@@ -27,7 +27,7 @@ ultra_bioinformatics
       
       
 
-      ``0.1-0``,  ``0.0.4.2-0``,  ``0.0.4.1-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
+      ``0.1-1``,  ``0.1-0``,  ``0.0.4.2-0``,  ``0.0.4.1-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
 
       
 
@@ -37,12 +37,11 @@ ultra_bioinformatics
    :depends intervaltree: 
    :depends minimap2: 
    :depends mummer: 
+   :depends namfinder: 
    :depends parasail-python: 
    :depends pysam: 
    :depends python: 
    :depends python-edlib: 
-   :depends slamem: 
-   :depends strobemap: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +73,7 @@ ultra_bioinformatics
 
     <script>
         var package = "ultra_bioinformatics";
-        var versions = ["0.1","0.0.4.2","0.0.4.1","0.0.4","0.0.4"];
+        var versions = ["0.1","0.1","0.0.4.2","0.0.4.1","0.0.4"];
     </script>
 
 

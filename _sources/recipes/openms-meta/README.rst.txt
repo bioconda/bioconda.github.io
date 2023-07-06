@@ -29,10 +29,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  </span></summary>
       
 
-      ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
+      ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
 
       
       .. raw:: html
@@ -41,11 +41,12 @@ openms-meta
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends hdf5: ``>=1.14.0,<1.14.1.0a0``
+   :depends hdf5: ``>=1.14.1,<1.14.2.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends qt: ``>=5.12.9,<5.13.0a0``
-   :depends xerces-c: ``>=3.2.3,<3.3.0a0``
+   :depends qt-main: ``>=5.15.8,<5.16.0a0``
+   :depends xerces-c: ``>=3.2.4,<3.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +78,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["2.9.1","2.9.1","2.9.0","2.8.0","2.8.0"];
+        var versions = ["2.9.1","2.9.1","2.9.1","2.9.0","2.8.0"];
     </script>
 
 
@@ -90,10 +91,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  </span></summary>
       
 
-      ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -102,17 +103,19 @@ openms-meta
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends bzip2: ``>=1.0.8,<1.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends coinmp: ``>=1.8.4,<1.9.0a0``
    :depends eigen: ``>=3.4.0,<3.5.0a0``
-   :depends hdf5: ``>=1.14.0,<1.14.1.0a0``
-   :depends hdf5: ``>=1.14.0,<1.15.0a0``
-   :depends libopenms: ``2.9.1 h135471a_1``
-   :depends libsvm: ``>=3.21,<3.22.0a0``
+   :depends hdf5: ``>=1.14.1,<1.14.2.0a0``
+   :depends hdf5: ``>=1.14.1,<1.15.0a0``
+   :depends libopenms: ``2.9.1 h8964181_4``
+   :depends libsvm: ``>=325,<326.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends qt: ``>=5.12.9,<5.13.0a0``
-   :depends xerces-c: ``>=3.2.3,<3.3.0a0``
+   :depends qt-main: ``>=5.15.8,<5.16.0a0``
+   :depends xerces-c: ``>=3.2.4,<3.3.0a0``
    :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
@@ -145,7 +148,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["2.9.1","2.9.1","2.9.0","2.8.0","2.8.0"];
+        var versions = ["2.9.1","2.9.1","2.9.1","2.9.0","2.8.0"];
     </script>
 
 
@@ -206,10 +209,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  </span></summary>
       
 
-      ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -223,7 +226,7 @@ openms-meta
    :depends gnuplot: 
    :depends luciphor2: ``2020_04_03``
    :depends msgf_plus: ``2021.03.22``
-   :depends openms: ``2.9.1 h135471a_1``
+   :depends openms: ``2.9.1 h8964181_4``
    :depends pepnovo: ``20101117``
    :depends percolator: ``3.5``
    :depends r-gplots: 
@@ -261,7 +264,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["2.9.1","2.9.1","2.9.0","2.8.0","2.8.0"];
+        var versions = ["2.9.1","2.9.1","2.9.1","2.9.0","2.8.0"];
     </script>
 
 

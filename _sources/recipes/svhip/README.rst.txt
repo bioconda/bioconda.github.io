@@ -13,7 +13,7 @@ svhip
    Retrainable machine learning pipeline for the detection of secondary structure conservation on a genome\-level.
 
    :homepage: https://github.com/chrisBioInf/Svhip
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`svhip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svhip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svhip/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ svhip
       
       
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -71,7 +71,7 @@ svhip
 
     <script>
         var package = "svhip";
-        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.2"];
+        var versions = ["1.0.9","1.0.8","1.0.7","1.0.6","1.0.5"];
     </script>
 
 

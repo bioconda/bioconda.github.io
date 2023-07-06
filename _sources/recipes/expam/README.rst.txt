@@ -29,14 +29,16 @@ expam
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``
+      ``1.2.2-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
+   :depends multiprocess: 
    :depends numpy: ``>=1.22.0``
+   :depends numpy: ``>=1.25.0,<2.0a0``
    :depends pandas: 
    :depends psutil: 
    :depends pytables: 
@@ -74,7 +76,7 @@ expam
 
     <script>
         var package = "expam";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.1.3","1.1.2"];
+        var versions = ["1.2.2","1.2.0","1.2.0","1.2.0","1.1.3"];
     </script>
 
 
