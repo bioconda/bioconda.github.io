@@ -27,14 +27,14 @@ bioconductor-fastreer
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
    :depends openjdk: 
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dynamictreecut: 
    :depends r-r.utils: 
@@ -71,7 +71,7 @@ bioconductor-fastreer
 
     <script>
         var package = "bioconductor-fastreer";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

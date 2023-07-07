@@ -27,12 +27,12 @@ bioconductor-tripr
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-config: ``>=0.3.1``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -42,7 +42,6 @@ bioconductor-tripr
    :depends r-plot3d: 
    :depends r-plotly: 
    :depends r-plyr: 
-   :depends r-pryr: 
    :depends r-rcolorbrewer: 
    :depends r-shiny: ``>=1.6.0``
    :depends r-shinybs: 
@@ -81,7 +80,7 @@ bioconductor-tripr
 
     <script>
         var package = "bioconductor-tripr";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

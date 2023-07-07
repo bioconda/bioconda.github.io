@@ -27,7 +27,7 @@ bioconductor-mina
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,7 +37,7 @@ bioconductor-mina
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends r-apcluster: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biganalytics: 
    :depends r-bigmemory: 
    :depends r-foreach: 
@@ -83,7 +83,7 @@ bioconductor-mina
 
     <script>
         var package = "bioconductor-mina";
-        var versions = ["1.6.0","1.6.0","1.2.0","1.2.0","1.2.0"];
+        var versions = ["1.8.0","1.6.0","1.6.0","1.2.0","1.2.0"];
     </script>
 
 

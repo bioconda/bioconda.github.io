@@ -27,14 +27,13 @@ bioconductor-isanalytics
       
       
 
-      ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.1-0``,  ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bslib: 
-   :depends r-data.table: 
    :depends r-datamods: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -45,10 +44,7 @@ bioconductor-isanalytics
    :depends r-glue: 
    :depends r-lifecycle: 
    :depends r-lubridate: 
-   :depends r-magrittr: 
-   :depends r-psych: 
    :depends r-purrr: 
-   :depends r-rcapture: 
    :depends r-readr: 
    :depends r-readxl: 
    :depends r-rlang: 
@@ -88,7 +84,7 @@ bioconductor-isanalytics
 
     <script>
         var package = "bioconductor-isanalytics";
-        var versions = ["1.8.0","1.4.1","1.2.0","1.0.0"];
+        var versions = ["1.10.1","1.8.0","1.4.1","1.2.0","1.0.0"];
     </script>
 
 

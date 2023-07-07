@@ -29,13 +29,14 @@ cazy_webscraper
       
       
 
-      ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
+      ``2.3.0-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
 
       
 
    
    :depends beautifulsoup4: 
    :depends biopython: 
+   :depends bioservices: ``>=1.10.0``
    :depends html5lib: 
    :depends lxml: 
    :depends mechanicalsoup: 
@@ -44,8 +45,8 @@ cazy_webscraper
    :depends python: ``>=3.8``
    :depends pyyaml: 
    :depends requests: 
-   :depends saintbioutils: ``>=0.0.23``
-   :depends sqlalchemy: ``>=1.4.20``
+   :depends saintbioutils: ``>=0.0.25``
+   :depends sqlalchemy: ``1.4.20``
    :depends tqdm: 
    :requirements:
 
@@ -78,7 +79,7 @@ cazy_webscraper
 
     <script>
         var package = "cazy_webscraper";
-        var versions = ["2.2.8","2.2.7","2.2.6","2.2.2","2.2.1"];
+        var versions = ["2.3.0","2.2.8","2.2.7","2.2.6","2.2.2"];
     </script>
 
 

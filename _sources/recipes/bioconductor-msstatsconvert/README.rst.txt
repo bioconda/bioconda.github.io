@@ -27,12 +27,12 @@ bioconductor-msstatsconvert
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.10.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
    :depends r-log4r: 
@@ -68,7 +68,7 @@ bioconductor-msstatsconvert
 
     <script>
         var package = "bioconductor-msstatsconvert";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.3","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -28,13 +28,14 @@ esviritu
       
       
 
-      ``0.2.2-0``
+      ``0.2.3-0``,  ``0.2.2-0``
 
       
 
    
    :depends bedtools: ``2.30.0.*``
    :depends bioawk: ``1.0.*``
+   :depends biopython: 
    :depends blast: ``>=2.13.0``
    :depends bwa-mem2: ``2.2.1.*``
    :depends coverm: ``0.6.1.*``
@@ -94,7 +95,7 @@ esviritu
 
     <script>
         var package = "esviritu";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.3","0.2.2"];
     </script>
 
 

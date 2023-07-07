@@ -27,7 +27,7 @@ bioconductor-eds
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-eds
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 
    :requirements:
@@ -70,7 +70,7 @@ bioconductor-eds
 
     <script>
         var package = "bioconductor-eds";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.2.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

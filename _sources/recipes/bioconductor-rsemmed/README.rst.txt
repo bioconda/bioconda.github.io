@@ -27,12 +27,12 @@ bioconductor-rsemmed
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
    :depends r-magrittr: 
@@ -68,7 +68,7 @@ bioconductor-rsemmed
 
     <script>
         var package = "bioconductor-rsemmed";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

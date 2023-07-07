@@ -26,13 +26,21 @@ bioconductor-biocversion
    :versions:
       
       
+      .. raw:: html
 
-      ``3.16.0-0``,  ``3.14.0-0``,  ``3.13.1-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.1-0``,  ``3.10.1-0``,  ``3.9.0-1``,  ``3.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.17.1-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.13.1-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.11.1-0</code>,  <code>3.10.1-0</code>,  <code>3.9.0-1</code>,  </span></summary>
+      
 
+      ``3.17.1-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.13.1-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.1-0``,  ``3.10.1-0``,  ``3.9.0-1``,  ``3.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +72,7 @@ bioconductor-biocversion
 
     <script>
         var package = "bioconductor-biocversion";
-        var versions = ["3.16.0","3.14.0","3.13.1","3.12.0","3.12.0"];
+        var versions = ["3.17.1","3.16.0","3.14.0","3.13.1","3.12.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ icount-mini
       
       
 
-      ``2.0.3-0``
+      ``3.0.0-0``,  ``2.0.3-0``
 
       
 
@@ -73,7 +73,7 @@ icount-mini
 
     <script>
         var package = "icount-mini";
-        var versions = ["2.0.3"];
+        var versions = ["3.0.0","2.0.3"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-synergyfinder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.2.2-0</code>,  <code>3.0.3-0</code>,  <code>2.4.10-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.1-0</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8.2-0</code>,  <code>3.6.0-0</code>,  <code>3.2.2-0</code>,  <code>3.0.3-0</code>,  <code>2.4.10-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.1-0</code>,  <code>1.10.2-0</code>,  </span></summary>
       
 
-      ``3.6.0-0``,  ``3.2.2-0``,  ``3.0.3-0``,  ``2.4.10-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``3.8.2-0``,  ``3.6.0-0``,  ``3.2.2-0``,  ``3.0.3-0``,  ``2.4.10-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-synergyfinder
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=1.0.3``
    :depends r-drc: ``>=3.0-1``
    :depends r-furrr: ``>=0.2.2``
@@ -97,7 +97,7 @@ bioconductor-synergyfinder
 
     <script>
         var package = "bioconductor-synergyfinder";
-        var versions = ["3.6.0","3.2.2","3.0.3","2.4.10","2.4.0"];
+        var versions = ["3.8.2","3.6.0","3.2.2","3.0.3","2.4.10"];
     </script>
 
 

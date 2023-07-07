@@ -26,16 +26,24 @@ bioconductor-fmrs
    :versions:
       
       
+      .. raw:: html
 
-      ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.10.0-0</code>,  <code>1.8.0-2</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+      
 
+      ``1.10.0-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-survival: 
    :requirements:
 
@@ -68,7 +76,7 @@ bioconductor-fmrs
 
     <script>
         var package = "bioconductor-fmrs";
-        var versions = ["1.8.0","1.8.0","1.8.0","1.4.0","1.4.0"];
+        var versions = ["1.10.0","1.8.0","1.8.0","1.8.0","1.4.0"];
     </script>
 
 

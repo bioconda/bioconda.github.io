@@ -27,12 +27,12 @@ bioconductor-pathwaypca
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.16.1-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-lars: 
    :depends r-survival: 
    :requirements:
@@ -66,7 +66,7 @@ bioconductor-pathwaypca
 
     <script>
         var package = "bioconductor-pathwaypca";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.3","1.6.0"];
+        var versions = ["1.16.1","1.14.0","1.10.0","1.8.0","1.6.3"];
     </script>
 
 

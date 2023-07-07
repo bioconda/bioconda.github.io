@@ -27,12 +27,12 @@ bioconductor-hpip
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
    :depends r-corrplot: 
    :depends r-dplyr: ``>=1.0.6``
@@ -80,7 +80,7 @@ bioconductor-hpip
 
     <script>
         var package = "bioconductor-hpip";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

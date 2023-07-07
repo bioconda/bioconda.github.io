@@ -27,13 +27,13 @@ bioconductor-systempipeshiny
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-assertthat: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bsplus: 
    :depends r-crayon: 
    :depends r-dplyr: 
@@ -96,7 +96,7 @@ bioconductor-systempipeshiny
 
     <script>
         var package = "bioconductor-systempipeshiny";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

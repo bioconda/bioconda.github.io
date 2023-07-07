@@ -12,9 +12,13 @@ svim
 
    SVIM is a structural variant caller for long reads.
 
-   :homepage: https://github.com/eldariont/svim
+   :homepage: https://pypi.org/project/svim/
+   :documentation: https://github.com/eldariont/svim/wiki
+   
+   :developer docs: https://github.com/eldariont/svim
    :license: GPL / GPL-3.0
    :recipe: /`svim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svim/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btz041`
 
    
 
@@ -28,10 +32,10 @@ svim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``2.0.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -40,13 +44,16 @@ svim
       
 
    
-   :depends matplotlib-base: 
+   :depends matplotlib-base: ``>=3.3.0``
    :depends minimap2: 
    :depends networkx: 
    :depends ngmlr: 
    :depends numpy: 
-   :depends pysam: ``>=0.15``
-   :depends python: ``>=3.6``
+   :depends py-cpuinfo: ``>=7.0.0``
+   :depends pysam: ``>=0.15.2``
+   :depends pyspoa: ``>=0.0.6``
+   :depends python: ``>=3.8``
+   :depends python-edlib: 
    :depends samtools: 
    :depends scipy: 
    :requirements:
@@ -80,7 +87,7 @@ svim
 
     <script>
         var package = "svim";
-        var versions = ["1.4.2","1.4.1","1.4.0","1.3.1","1.3.0"];
+        var versions = ["2.0.0","1.4.2","1.4.1","1.4.0","1.3.1"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-panviz
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-colorspace: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -77,7 +77,7 @@ bioconductor-panviz
 
     <script>
         var package = "bioconductor-panviz";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-herper
       
       
 
-      ``1.7.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.7.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-reticulate: 
    :depends r-rjson: 
    :depends r-withr: 
@@ -67,7 +67,7 @@ bioconductor-herper
 
     <script>
         var package = "bioconductor-herper";
-        var versions = ["1.7.2","1.3.0","1.2.0","1.0.2","1.0.0"];
+        var versions = ["1.10.0","1.7.2","1.3.0","1.2.0","1.0.2"];
     </script>
 
 

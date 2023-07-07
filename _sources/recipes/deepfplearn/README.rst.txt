@@ -27,11 +27,21 @@ deepfplearn
       
       
 
-      
+      ``1.2-0``
 
       
 
    
+   :depends jsonpickle: ``2.1.*``
+   :depends keras: ``2.9.*``
+   :depends matplotlib-base: ``3.5.*``
+   :depends numpy: ``1.22.*``
+   :depends pandas: ``1.4.*``
+   :depends python: 
+   :depends rdkit: ``2022.03.*``
+   :depends scikit-learn: ``1.0.*``
+   :depends tensorflow-base: 
+   :depends wandb: ``0.12.*``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +73,7 @@ deepfplearn
 
     <script>
         var package = "deepfplearn";
-        var versions = [];
+        var versions = ["1.2"];
     </script>
 
 
