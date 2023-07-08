@@ -10,7 +10,7 @@ ucsc-bigwigtowig
    :replaces_section_title:
    :noindex:
 
-   Convert bigWig to wig.  This will keep more of the same structure of the
+   Convert bigWig to wig. This will keep more of the same structure of the original wig than bigWigToBedGraph does\, but still will break up large stepped sections into smaller ones.
 
    :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
    :license: varies; see http://genome.ucsc.edu/license

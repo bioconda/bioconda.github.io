@@ -15,6 +15,7 @@ spoa
    :homepage: https://github.com/rvaser/spoa
    :license: MIT
    :recipe: /`spoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spoa/meta.yaml>`_
+   :links: biotools: :biotools:`spoa`, doi: :doi:`10.1101/gr.214270.116`
 
    
 

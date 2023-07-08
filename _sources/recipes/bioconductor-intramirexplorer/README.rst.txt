@@ -26,14 +26,22 @@ bioconductor-intramirexplorer
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-fgnet: ``>=3.32.0,<3.33.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-fgnet: ``>=3.34.0,<3.35.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-igraph: ``>=1.0.1``
    :depends r-knitr: ``>=1.12.3``
    :requirements:
@@ -67,7 +75,7 @@ bioconductor-intramirexplorer
 
     <script>
         var package = "bioconductor-intramirexplorer";
-        var versions = ["1.20.0","1.16.0","1.12.0","1.12.0","1.10.0"];
+        var versions = ["1.22.0","1.20.0","1.16.0","1.12.0","1.12.0"];
     </script>
 
 

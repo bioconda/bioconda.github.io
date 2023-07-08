@@ -27,13 +27,13 @@ bioconductor-isocorrectorgui
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-isocorrector: ``>=1.16.0,<1.17.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-isocorrector: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-readxl: 
    :depends r-tcltk2: 
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-isocorrectorgui
 
     <script>
         var package = "bioconductor-isocorrectorgui";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["1.16.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 
