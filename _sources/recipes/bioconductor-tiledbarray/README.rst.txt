@@ -27,18 +27,17 @@ bioconductor-tiledbarray
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rcpp: 
    :depends r-tiledb: 
    :requirements:
@@ -72,7 +71,7 @@ bioconductor-tiledbarray
 
     <script>
         var package = "bioconductor-tiledbarray";
-        var versions = ["1.8.0","1.8.0","1.4.0","1.4.0","1.4.0"];
+        var versions = ["1.10.0","1.8.0","1.8.0","1.4.0","1.4.0"];
     </script>
 
 

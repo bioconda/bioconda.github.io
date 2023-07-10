@@ -28,10 +28,10 @@ bioconductor-h5vcdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.17.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.17.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.9.0-0</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.17.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.17.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-h5vcdata
       
 
    
-   :depends bioconductor-data-packages: ``>=20221107``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ bioconductor-h5vcdata
 
     <script>
         var package = "bioconductor-h5vcdata";
-        var versions = ["2.18.0","2.17.0","2.14.0","2.14.0","2.12.0"];
+        var versions = ["2.20.0","2.18.0","2.17.0","2.14.0","2.14.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ zol
       
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
 
@@ -43,6 +43,7 @@ zol
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends mcl: 
+   :depends miniprot: ``0.7.*``
    :depends muscle: 
    :depends ncbi-genome-download: 
    :depends pal2nal: ``>=14.1``
@@ -95,7 +96,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.3.2","1.3.1","1.2.8","1.2.7"];
+        var versions = ["1.3.5","1.3.4","1.3.3","1.3.2","1.3.1"];
     </script>
 
 

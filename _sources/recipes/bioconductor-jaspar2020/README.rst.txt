@@ -27,14 +27,14 @@ bioconductor-jaspar2020
       
       
 
-      ``0.99.10-5``,  ``0.99.10-4``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-1``,  ``0.99.10-0``
+      ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-4``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-1``,  ``0.99.10-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

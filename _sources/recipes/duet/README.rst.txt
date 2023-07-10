@@ -27,13 +27,13 @@ duet
       
       
 
-      ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
+      ``1.0-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
    
    :depends bcftools: ``1.8.*``
-   :depends clair3: ``0.1.12.*``
+   :depends clair3: ``1.0.3.*``
    :depends cutesv: ``2.0.2.*``
    :depends python: ``3.9.0.*``
    :depends sniffles: ``2.0.7.*``
@@ -69,7 +69,7 @@ duet
 
     <script>
         var package = "duet";
-        var versions = ["0.6","0.5","0.4","0.3","0.2"];
+        var versions = ["1.0","0.6","0.5","0.4","0.3"];
     </script>
 
 

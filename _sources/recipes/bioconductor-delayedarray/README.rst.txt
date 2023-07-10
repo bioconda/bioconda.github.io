@@ -28,10 +28,10 @@ bioconductor-delayedarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.20.0-2</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.26.6-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.20.0-2</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.16.0-0</code>,  </span></summary>
       
 
-      ``0.24.0-1``,  ``0.24.0-0``,  ``0.20.0-2``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
+      ``0.26.6-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.20.0-2``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-delayedarray
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-s4arrays: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -80,7 +80,7 @@ bioconductor-delayedarray
 
     <script>
         var package = "bioconductor-delayedarray";
-        var versions = ["0.24.0","0.24.0","0.20.0","0.20.0","0.20.0"];
+        var versions = ["0.26.6","0.24.0","0.24.0","0.20.0","0.20.0"];
     </script>
 
 

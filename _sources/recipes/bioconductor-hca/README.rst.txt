@@ -27,13 +27,13 @@ bioconductor-hca
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-digest: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -75,7 +75,7 @@ bioconductor-hca
 
     <script>
         var package = "bioconductor-hca";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.8.1","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

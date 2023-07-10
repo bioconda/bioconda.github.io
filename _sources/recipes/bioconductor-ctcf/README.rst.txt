@@ -27,14 +27,14 @@ bioconductor-ctcf
       
       
 
-      ``0.99.9-0``,  ``0.99.4-1``,  ``0.99.4-0``
+      ``0.99.11-0``,  ``0.99.9-0``,  ``0.99.4-1``,  ``0.99.4-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bioconductor-ctcf
 
     <script>
         var package = "bioconductor-ctcf";
-        var versions = ["0.99.9","0.99.4","0.99.4"];
+        var versions = ["0.99.11","0.99.9","0.99.4","0.99.4"];
     </script>
 
 

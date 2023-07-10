@@ -27,14 +27,14 @@ bioconductor-netactivitydata
       
       
 
-      ``1.0.0-0``,  ``0.99.8-0``
+      ``1.2.0-0``,  ``1.0.0-0``,  ``0.99.8-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221110``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bioconductor-netactivitydata
 
     <script>
         var package = "bioconductor-netactivitydata";
-        var versions = ["1.0.0","0.99.8"];
+        var versions = ["1.2.0","1.0.0","0.99.8"];
     </script>
 
 

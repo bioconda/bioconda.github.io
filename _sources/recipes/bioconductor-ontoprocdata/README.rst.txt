@@ -27,14 +27,14 @@ bioconductor-ontoprocdata
       
       
 
-      ``0.99.9901-0``,  ``0.99.9-1``,  ``0.99.9-0``
+      ``0.99.9901-1``,  ``0.99.9901-0``,  ``0.99.9-1``,  ``0.99.9-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bioconductor-ontoprocdata
 
     <script>
         var package = "bioconductor-ontoprocdata";
-        var versions = ["0.99.9901","0.99.9","0.99.9"];
+        var versions = ["0.99.9901","0.99.9901","0.99.9","0.99.9"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-epimutacionsdata
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221111``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bioconductor-epimutacionsdata
 
     <script>
         var package = "bioconductor-epimutacionsdata";
-        var versions = ["1.2.0","1.1.0"];
+        var versions = ["1.4.0","1.2.0","1.1.0"];
     </script>
 
 

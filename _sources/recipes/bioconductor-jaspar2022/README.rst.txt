@@ -27,15 +27,15 @@ bioconductor-jaspar2022
       
       
 
-      ``0.99.7-0``
+      ``0.99.7-1``,  ``0.99.7-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-jaspar2022
 
     <script>
         var package = "bioconductor-jaspar2022";
-        var versions = ["0.99.7"];
+        var versions = ["0.99.7","0.99.7"];
     </script>
 
 

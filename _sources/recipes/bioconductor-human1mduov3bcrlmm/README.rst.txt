@@ -28,10 +28,10 @@ bioconductor-human1mduov3bcrlmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-10</code>,  <code>1.0.4-9</code>,  <code>1.0.4-8</code>,  <code>1.0.4-7</code>,  <code>1.0.4-6</code>,  <code>1.0.4-5</code>,  <code>1.0.4-4</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-11</code>,  <code>1.0.4-10</code>,  <code>1.0.4-9</code>,  <code>1.0.4-8</code>,  <code>1.0.4-7</code>,  <code>1.0.4-6</code>,  <code>1.0.4-5</code>,  <code>1.0.4-4</code>,  <code>1.0.4-3</code>,  </span></summary>
       
 
-      ``1.0.4-10``,  ``1.0.4-9``,  ``1.0.4-8``,  ``1.0.4-7``,  ``1.0.4-6``,  ``1.0.4-5``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.4-11``,  ``1.0.4-10``,  ``1.0.4-9``,  ``1.0.4-8``,  ``1.0.4-7``,  ``1.0.4-6``,  ``1.0.4-5``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-human1mduov3bcrlmm
       
 
    
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

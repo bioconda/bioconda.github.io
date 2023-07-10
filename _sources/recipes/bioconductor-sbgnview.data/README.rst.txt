@@ -26,15 +26,23 @@ bioconductor-sbgnview.data
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.0-0``,  ``1.11.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-data-packages: ``>=20221107``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bookdown: 
    :depends r-knitr: 
    :depends r-rmarkdown: 
@@ -69,7 +77,7 @@ bioconductor-sbgnview.data
 
     <script>
         var package = "bioconductor-sbgnview.data";
-        var versions = ["1.12.0","1.11.0","1.8.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.11.0","1.8.0","1.8.0"];
     </script>
 
 

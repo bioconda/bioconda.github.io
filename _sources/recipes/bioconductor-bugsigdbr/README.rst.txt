@@ -27,13 +27,13 @@ bioconductor-bugsigdbr
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.2-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-vroom: 
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-bugsigdbr
 
     <script>
         var package = "bioconductor-bugsigdbr";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.2","1.4.0","1.0.0"];
     </script>
 
 

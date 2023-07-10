@@ -28,10 +28,10 @@ bioconductor-sparsematrixstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.12.2-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.2-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-sparsematrixstats
       
 
    
-   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :depends r-matrixstats: ``>=0.60.0``
    :depends r-rcpp: 
@@ -80,7 +80,7 @@ bioconductor-sparsematrixstats
 
     <script>
         var package = "bioconductor-sparsematrixstats";
-        var versions = ["1.10.0","1.10.0","1.6.0","1.6.0","1.6.0"];
+        var versions = ["1.12.2","1.10.0","1.10.0","1.6.0","1.6.0"];
     </script>
 
 

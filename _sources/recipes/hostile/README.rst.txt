@@ -28,11 +28,20 @@ hostile
       
       
 
-      
+      ``0.0.2-0``
 
       
 
    
+   :depends bowtie2: ``>=2.5.1``
+   :depends defopt: ``>=6.4.0``
+   :depends gawk: ``>=5.1.0``
+   :depends httpx: ``>=0.24.1``
+   :depends minimap2: ``>=2.26``
+   :depends platformdirs: ``>=3.5.1``
+   :depends python: ``>=3.10``
+   :depends samtools: ``>=1.17``
+   :depends tqdm: ``>=4.65.0``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +73,7 @@ hostile
 
     <script>
         var package = "hostile";
-        var versions = [];
+        var versions = ["0.0.2"];
     </script>
 
 

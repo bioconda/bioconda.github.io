@@ -26,14 +26,22 @@ bioconductor-metid
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-chemminer: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-chemminer: ``>=3.52.0,<3.53.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-devtools: ``>=1.13.0``
    :depends r-igraph: ``>=1.2.1``
    :depends r-matrix: ``>=1.2-12``
@@ -69,7 +77,7 @@ bioconductor-metid
 
     <script>
         var package = "bioconductor-metid";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
+        var versions = ["1.18.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

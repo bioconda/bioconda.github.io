@@ -12,14 +12,16 @@ tobias
 
    Transcription factor Occupancy prediction By Investigation of ATAC\-seq Signal
 
-   :homepage: https://github.com/loosolab/TOBIAS/
+   :homepage: https://github.com/loosolab/TOBIAS
    :documentation: https://github.com/loosolab/TOBIAS/wiki
    
+   :developer docs: https://pypi.org/project/tobias/
    :license: MIT
    :recipe: /`tobias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias/meta.yaml>`_
+   :links: biotools: :biotools:`TOBIAS`, doi: :doi:`10.1038/s41467-020-18035-1`
 
    TOBIAS \(Transcription factor Occupancy prediction By Investigation of ATAC\-seq Signal\) is a collection
-   of command\-line bioinformatics tools for performing footprinting analysis on ATAC\-seq data. 
+   of command\-line bioinformatics tools for performing footprinting analysis on ATAC\-seq data.
 
 
 
@@ -32,10 +34,10 @@ tobias
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.3-1</code>,  <code>0.13.3-0</code>,  <code>0.13.2-1</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.12-0</code>,  <code>0.12.11-0</code>,  <code>0.12.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.15.1-0</code>,  <code>0.13.3-1</code>,  <code>0.13.3-0</code>,  <code>0.13.2-1</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.12-0</code>,  <code>0.12.11-0</code>,  </span></summary>
       
 
-      ``0.13.3-1``,  ``0.13.3-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.12-0``,  ``0.12.11-0``,  ``0.12.10-1``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
+      ``0.15.1-0``,  ``0.13.3-1``,  ``0.13.3-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.12-0``,  ``0.12.11-0``,  ``0.12.10-1``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -46,20 +48,21 @@ tobias
    
    :depends adjusttext: 
    :depends boto3: 
-   :depends importlib_metadata: 
+   :depends importlib-metadata: 
    :depends kneed: 
+   :depends libgcc-ng: ``>=12``
    :depends logomaker: 
    :depends matplotlib-base: ``>=2``
    :depends moods: 
-   :depends numpy: ``>=1.17.5,<2.0a0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: 
    :depends pybedtools: 
-   :depends pybigwig: 
+   :depends pybigwig: ``>=0.3``
    :depends pypdf2: 
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends pyyaml: ``>=5.1``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends pyyaml: ``>5.1``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: ``>=0.9.1``
@@ -97,7 +100,7 @@ tobias
 
     <script>
         var package = "tobias";
-        var versions = ["0.13.3","0.13.3","0.13.2","0.13.2","0.13.1"];
+        var versions = ["0.15.1","0.13.3","0.13.3","0.13.2","0.13.2"];
     </script>
 
 

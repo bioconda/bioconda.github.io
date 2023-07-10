@@ -28,10 +28,10 @@ bioconductor-hgu133plus2frmavecs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-11</code>,  <code>1.5.0-10</code>,  <code>1.5.0-9</code>,  <code>1.5.0-8</code>,  <code>1.5.0-7</code>,  <code>1.5.0-6</code>,  <code>1.5.0-5</code>,  <code>1.5.0-4</code>,  <code>1.5.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-12</code>,  <code>1.5.0-11</code>,  <code>1.5.0-10</code>,  <code>1.5.0-9</code>,  <code>1.5.0-8</code>,  <code>1.5.0-7</code>,  <code>1.5.0-6</code>,  <code>1.5.0-5</code>,  <code>1.5.0-4</code>,  </span></summary>
       
 
-      ``1.5.0-11``,  ``1.5.0-10``,  ``1.5.0-9``,  ``1.5.0-8``,  ``1.5.0-7``,  ``1.5.0-6``,  ``1.5.0-5``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.5.0-12``,  ``1.5.0-11``,  ``1.5.0-10``,  ``1.5.0-9``,  ``1.5.0-8``,  ``1.5.0-7``,  ``1.5.0-6``,  ``1.5.0-5``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-hgu133plus2frmavecs
       
 
    
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -28,10 +28,10 @@ bioconductor-genomewidesnp6crlmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-10</code>,  <code>1.0.7-9</code>,  <code>1.0.7-8</code>,  <code>1.0.7-7</code>,  <code>1.0.7-6</code>,  <code>1.0.7-5</code>,  <code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.7-11</code>,  <code>1.0.7-10</code>,  <code>1.0.7-9</code>,  <code>1.0.7-8</code>,  <code>1.0.7-7</code>,  <code>1.0.7-6</code>,  <code>1.0.7-5</code>,  <code>1.0.7-4</code>,  <code>1.0.7-3</code>,  </span></summary>
       
 
-      ``1.0.7-10``,  ``1.0.7-9``,  ``1.0.7-8``,  ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``
+      ``1.0.7-11``,  ``1.0.7-10``,  ``1.0.7-9``,  ``1.0.7-8``,  ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-genomewidesnp6crlmm
       
 
    
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
