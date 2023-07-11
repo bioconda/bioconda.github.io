@@ -29,10 +29,10 @@ bioconductor-genetclassifier
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-genetclassifier
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-ebarrays: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-minet: ``>=3.56.0,<3.57.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-ebarrays: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-minet: ``>=3.58.0,<3.59.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-e1071: 
    :requirements:
 
@@ -77,7 +77,7 @@ bioconductor-genetclassifier
 
     <script>
         var package = "bioconductor-genetclassifier";
-        var versions = ["1.38.0","1.34.0","1.32.0","1.30.0","1.30.0"];
+        var versions = ["1.40.0","1.38.0","1.34.0","1.32.0","1.30.0"];
     </script>
 
 

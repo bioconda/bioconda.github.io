@@ -35,8 +35,9 @@ bioconductor-mosbi
    :depends bioconductor-fabia: ``>=2.46.0,<2.47.0``
    :depends bioconductor-qubic: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-akmbiclust: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 

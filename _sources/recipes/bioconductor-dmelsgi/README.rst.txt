@@ -28,10 +28,10 @@ bioconductor-dmelsgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.29.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.29.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.29.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.32.0-0``,  ``1.29.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-dmelsgi
       
 
    
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
    :depends curl: 
    :depends r-abind: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gplots: 
    :depends r-igraph: 
    :depends r-knitr: 
@@ -81,7 +81,7 @@ bioconductor-dmelsgi
 
     <script>
         var package = "bioconductor-dmelsgi";
-        var versions = ["1.29.1","1.26.0","1.26.0","1.24.0","1.22.1"];
+        var versions = ["1.32.0","1.29.1","1.26.0","1.26.0","1.24.0"];
     </script>
 
 

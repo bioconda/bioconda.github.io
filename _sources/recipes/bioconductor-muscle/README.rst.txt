@@ -28,10 +28,10 @@ bioconductor-muscle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.36.0-2</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.42.0-0</code>,  <code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.36.0-2</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  </span></summary>
       
 
-      ``3.40.0-1``,  ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``
+      ``3.42.0-0``,  ``3.40.0-1``,  ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-muscle
       
 
    
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ bioconductor-muscle
 
     <script>
         var package = "bioconductor-muscle";
-        var versions = ["3.40.0","3.40.0","3.36.0","3.36.0","3.36.0"];
+        var versions = ["3.42.0","3.40.0","3.40.0","3.36.0","3.36.0"];
     </script>
 
 

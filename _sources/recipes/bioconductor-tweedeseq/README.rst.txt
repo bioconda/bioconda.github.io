@@ -45,6 +45,7 @@ bioconductor-tweedeseq
    :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
    :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-mass: 

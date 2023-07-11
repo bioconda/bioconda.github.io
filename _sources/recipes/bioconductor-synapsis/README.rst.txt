@@ -27,13 +27,13 @@ bioconductor-synapsis
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ebimage: ``>=4.40.0,<4.41.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ bioconductor-synapsis
 
     <script>
         var package = "bioconductor-synapsis";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

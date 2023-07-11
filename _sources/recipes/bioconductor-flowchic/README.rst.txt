@@ -26,15 +26,23 @@ bioconductor-flowchic
    :versions:
       
       
+      .. raw:: html
 
-      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  </span></summary>
+      
 
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-ebimage: ``>=4.40.0,<4.41.0``
-   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
+   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-hexbin: 
    :depends r-vegan: 
@@ -69,7 +77,7 @@ bioconductor-flowchic
 
     <script>
         var package = "bioconductor-flowchic";
-        var versions = ["1.32.0","1.28.0","1.26.0","1.24.0","1.24.0"];
+        var versions = ["1.34.0","1.32.0","1.28.0","1.26.0","1.24.0"];
     </script>
 
 

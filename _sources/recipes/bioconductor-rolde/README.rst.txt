@@ -27,15 +27,15 @@ bioconductor-rolde
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-rots: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rots: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-doparallel: 
    :depends r-dorng: 
    :depends r-foreach: 
@@ -73,7 +73,7 @@ bioconductor-rolde
 
     <script>
         var package = "bioconductor-rolde";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

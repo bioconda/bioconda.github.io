@@ -27,16 +27,16 @@ bioconductor-geoexplorer
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-geoquery: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dt: 
    :depends r-factoextra: 
    :depends r-ggplot2: 
@@ -83,7 +83,7 @@ bioconductor-geoexplorer
 
     <script>
         var package = "bioconductor-geoexplorer";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

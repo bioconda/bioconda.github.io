@@ -26,17 +26,25 @@ bioconductor-flowmerge
    :versions:
       
       
+      .. raw:: html
 
-      ``2.46.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  </span></summary>
+      
 
+      ``2.48.0-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-flowclust: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-flowclust: ``>=3.38.0,<3.39.0``
+   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-feature: 
    :depends r-foreach: 
    :depends r-rrcov: 
@@ -72,7 +80,7 @@ bioconductor-flowmerge
 
     <script>
         var package = "bioconductor-flowmerge";
-        var versions = ["2.46.0","2.42.0","2.40.0","2.38.0","2.38.0"];
+        var versions = ["2.48.0","2.46.0","2.42.0","2.40.0","2.38.0"];
     </script>
 
 

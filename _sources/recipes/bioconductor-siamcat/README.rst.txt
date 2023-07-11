@@ -26,14 +26,22 @@ bioconductor-siamcat
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
 
+      ``2.4.0-0``,  ``2.2.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-phyloseq: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-phyloseq: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-beanplot: 
    :depends r-corrplot: 
    :depends r-glmnet: 
@@ -85,7 +93,7 @@ bioconductor-siamcat
 
     <script>
         var package = "bioconductor-siamcat";
-        var versions = ["2.2.0","1.14.0","1.12.0","1.10.0","1.10.0"];
+        var versions = ["2.4.0","2.2.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

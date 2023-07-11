@@ -1,0 +1,88 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'fastlin'
+.. highlight: bash
+
+fastlin
+=======
+
+.. conda:recipe:: fastlin
+   :replaces_section_title:
+   :noindex:
+
+   fastlin\, ultra\-fast MTBC lineage typing
+
+   :homepage: https://github.com/rderelle/fastlin
+   :license: MIT
+   :recipe: /`fastlin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlin/meta.yaml>`_
+
+   
+
+
+.. conda:package:: fastlin
+
+   |downloads_fastlin| |docker_fastlin|
+
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
+   
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastlin
+
+   and update with::
+
+      conda update fastlin
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/fastlin:<tag>
+
+   (see `fastlin/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_fastlin| image:: https://img.shields.io/conda/dn/bioconda/fastlin.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastlin
+   :alt:   (downloads)
+.. |docker_fastlin| image:: https://quay.io/repository/biocontainers/fastlin/status
+   :target: https://quay.io/repository/biocontainers/fastlin
+.. _`fastlin/tags`: https://quay.io/repository/biocontainers/fastlin?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "fastlin";
+        var versions = ["0.1.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastlin/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastlin/README.html

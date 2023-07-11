@@ -27,24 +27,36 @@ bioconductor-cotan
       
       
 
-      ``1.2.0-0``
+      ``2.0.4-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends r-assertthat: 
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
+   :depends r-dendextend: 
    :depends r-dplyr: 
+   :depends r-factoextra: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
+   :depends r-ggthemes: 
    :depends r-irlba: 
    :depends r-matrix: 
+   :depends r-parallelly: 
+   :depends r-plyr: 
+   :depends r-rcolorbrewer: 
    :depends r-rfast: 
    :depends r-rlang: 
    :depends r-scales: 
+   :depends r-seurat: 
+   :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-umap: 
+   :depends r-withr: 
+   :depends r-zeallot: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +88,7 @@ bioconductor-cotan
 
     <script>
         var package = "bioconductor-cotan";
-        var versions = ["1.2.0"];
+        var versions = ["2.0.4","1.2.0"];
     </script>
 
 

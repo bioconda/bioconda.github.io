@@ -27,13 +27,13 @@ bioconductor-perfect
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-phyloseq: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-phyloseq: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-fitdistrplus: ``>=1.0.12``
    :depends r-ggplot2: ``>=3.0.0``
    :depends r-matrix: ``>=1.2.14``
@@ -71,7 +71,7 @@ bioconductor-perfect
 
     <script>
         var package = "bioconductor-perfect";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-complexheatmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.0-0</code>,  <code>2.4.2-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.0-0</code>,  <code>2.4.2-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.0-0``,  ``2.4.2-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.17.1-0``,  ``1.14.0-0``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.0-0``,  ``2.4.2-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.17.1-0``,  ``1.14.0-0``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-complexheatmap
       
 
    
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: ``>=0.4.14``
    :depends r-clue: 
    :depends r-codetools: 
@@ -86,7 +86,7 @@ bioconductor-complexheatmap
 
     <script>
         var package = "bioconductor-complexheatmap";
-        var versions = ["2.14.0","2.10.0","2.8.0","2.6.2","2.6.2"];
+        var versions = ["2.16.0","2.14.0","2.10.0","2.8.0","2.6.2"];
     </script>
 
 

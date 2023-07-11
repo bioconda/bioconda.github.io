@@ -28,10 +28,10 @@ bioconductor-cardinalworkflows
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.29.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.29.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.29.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.32.0-0``,  ``1.29.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-cardinalworkflows
       
 
    
-   :depends bioconductor-cardinal: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-cardinal: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ bioconductor-cardinalworkflows
 
     <script>
         var package = "bioconductor-cardinalworkflows";
-        var versions = ["1.29.0","1.26.0","1.26.0","1.24.0","1.22.0"];
+        var versions = ["1.32.0","1.29.0","1.26.0","1.26.0","1.24.0"];
     </script>
 
 

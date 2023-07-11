@@ -27,16 +27,16 @@ bioconductor-melissa
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-bprmeth: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-bprmeth: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -80,7 +80,7 @@ bioconductor-melissa
 
     <script>
         var package = "bioconductor-melissa";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["1.16.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

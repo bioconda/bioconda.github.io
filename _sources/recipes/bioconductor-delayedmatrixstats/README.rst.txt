@@ -28,10 +28,10 @@ bioconductor-delayedmatrixstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.3-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.1-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.3-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.22.1-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-delayedmatrixstats
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-sparsematrixstats: ``>=1.10.0,<1.11.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-sparsematrixstats: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: ``>=1.5-0``
-   :depends r-matrixstats: ``>=0.60.0``
+   :depends r-matrixstats: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ bioconductor-delayedmatrixstats
 
     <script>
         var package = "bioconductor-delayedmatrixstats";
-        var versions = ["1.20.0","1.16.0","1.14.0","1.12.3","1.12.0"];
+        var versions = ["1.22.1","1.20.0","1.16.0","1.14.0","1.12.3"];
     </script>
 
 

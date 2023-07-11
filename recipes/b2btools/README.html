@@ -93,7 +93,8 @@ List of available predictors:</p>
 <div><p>- Dynamine: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side-chain dynamics and secondary structure predictors using the same principle.
 - Disomine: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence, but instead from more generic predictions of key biophysical properties, here protein dynamics, secondary structure, and early folding.
 - EfoldMine: Predicts from the primary amino acid sequence of a protein, which amino acids are likely involved in early folding events.
-- AgMata: Single-sequence-based predictor of protein regions that are likely to cause beta-aggregation.</p>
+- AgMata: Single-sequence-based predictor of protein regions that are likely to cause beta-aggregation.
+- PSPer: PSP (Phase Separating Protein) predicts whether a protein is likely to phase-separate with a particular mechanism involving RNA interacts (FUS-like proteins).</p>
 </div></blockquote>
 </dd></dl>
 
@@ -103,27 +104,46 @@ List of available predictors:</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/b2btools"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/b2btools.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/b2btools"><img alt="docker_b2btools" src="https://quay.io/repository/biocontainers/b2btools/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.4-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/joblib-feedstock"><strong>joblib</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-base-feedstock"><strong>matplotlib-base</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/networkx-feedstock"><strong>networkx</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pillow-feedstock"><strong>pillow</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pomegranate-feedstock"><strong>pomegranate</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;3.6,&lt;3.10</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a> <code class="docutils literal notranslate"><span class="pre">1.81</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/certifi-feedstock"><strong>certifi</strong></a> <code class="docutils literal notranslate"><span class="pre">2023.5.7</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/charset-normalizer-feedstock"><strong>charset-normalizer</strong></a> <code class="docutils literal notranslate"><span class="pre">3.1.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cycler-feedstock"><strong>cycler</strong></a> <code class="docutils literal notranslate"><span class="pre">0.11.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/exceptiongroup-feedstock"><strong>exceptiongroup</strong></a> <code class="docutils literal notranslate"><span class="pre">1.1.1</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/fonttools-feedstock"><strong>fonttools</strong></a> <code class="docutils literal notranslate"><span class="pre">4.38.0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../hmmer/README.html#package-hmmer" title="hmmer package"><strong>hmmer</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/idna-feedstock"><strong>idna</strong></a> <code class="docutils literal notranslate"><span class="pre">3.4</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/importlib-metadata-feedstock"><strong>importlib-metadata</strong></a> <code class="docutils literal notranslate"><span class="pre">6.7.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/iniconfig-feedstock"><strong>iniconfig</strong></a> <code class="docutils literal notranslate"><span class="pre">2.0.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/joblib-feedstock"><strong>joblib</strong></a> <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/kiwisolver-feedstock"><strong>kiwisolver</strong></a> <code class="docutils literal notranslate"><span class="pre">1.4.4</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-base-feedstock"><strong>matplotlib-base</strong></a> <code class="docutils literal notranslate"><span class="pre">3.5.3</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/networkx-feedstock"><strong>networkx</strong></a> <code class="docutils literal notranslate"><span class="pre">2.6.3</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">1.24.4</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/packaging-feedstock"><strong>packaging</strong></a> <code class="docutils literal notranslate"><span class="pre">23.1</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.1,&lt;=1.2</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pillow-feedstock"><strong>pillow</strong></a> <code class="docutils literal notranslate"><span class="pre">9.5.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pluggy-feedstock"><strong>pluggy</strong></a> <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pomegranate-feedstock"><strong>pomegranate</strong></a> <code class="docutils literal notranslate"><span class="pre">0.14.8</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyparsing-feedstock"><strong>pyparsing</strong></a> <code class="docutils literal notranslate"><span class="pre">3.1.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-dateutil-feedstock"><strong>python-dateutil</strong></a> <code class="docutils literal notranslate"><span class="pre">2.8.2</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pytorch-feedstock"><strong>pytorch</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.8.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyyaml-feedstock"><strong>pyyaml</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.1</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/six-feedstock"><strong>six</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/threadpoolctl-feedstock"><strong>threadpoolctl</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/torchvision-feedstock"><strong>torchvision</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pytz-feedstock"><strong>pytz</strong></a> <code class="docutils literal notranslate"><span class="pre">2023.3</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyyaml-feedstock"><strong>pyyaml</strong></a> <code class="docutils literal notranslate"><span class="pre">6.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a> <code class="docutils literal notranslate"><span class="pre">2.31.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a> <code class="docutils literal notranslate"><span class="pre">1.0.1</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a> <code class="docutils literal notranslate"><span class="pre">1.10.1</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../t-coffee/README.html#package-t-coffee" title="t-coffee package"><strong>t-coffee</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/threadpoolctl-feedstock"><strong>threadpoolctl</strong></a> <code class="docutils literal notranslate"><span class="pre">3.1.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tomli-feedstock"><strong>tomli</strong></a> <code class="docutils literal notranslate"><span class="pre">2.0.1</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tqdm-feedstock"><strong>tqdm</strong></a> <code class="docutils literal notranslate"><span class="pre">4.65.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/typing_extensions-feedstock"><strong>typing_extensions</strong></a> <code class="docutils literal notranslate"><span class="pre">4.6.3</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/urllib3-feedstock"><strong>urllib3</strong></a> <code class="docutils literal notranslate"><span class="pre">1.26.6</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zipp-feedstock"><strong>zipp</strong></a> <code class="docutils literal notranslate"><span class="pre">3.15.0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By<span class="colon">:</span></dt>
@@ -149,7 +169,7 @@ List of available predictors:</p>
 
 <script>
     var package = "b2btools";
-    var versions = ["3.0.5","3.0.4"];
+    var versions = ["3.0.6","3.0.5","3.0.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

@@ -27,15 +27,14 @@ bioconductor-maaslin2
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.14.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-lpsymphony: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-metagenomeseq: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-metagenomeseq: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biglm: 
    :depends r-car: 
    :depends r-chemometrics: 
@@ -55,6 +54,7 @@ bioconductor-maaslin2
    :depends r-pheatmap: 
    :depends r-pscl: 
    :depends r-robustbase: 
+   :depends r-tibble: 
    :depends r-vegan: 
    :requirements:
 
@@ -87,7 +87,7 @@ bioconductor-maaslin2
 
     <script>
         var package = "bioconductor-maaslin2";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.14.1","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

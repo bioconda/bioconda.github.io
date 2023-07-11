@@ -28,10 +28,10 @@ bioconductor-liebermanaidenhic2009
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.35.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.38.0-0</code>,  <code>0.35.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  </span></summary>
       
 
-      ``0.35.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.38.0-0``,  ``0.35.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-liebermanaidenhic2009
       
 
    
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-kernsmooth: 
    :requirements:
 
@@ -76,7 +76,7 @@ bioconductor-liebermanaidenhic2009
 
     <script>
         var package = "bioconductor-liebermanaidenhic2009";
-        var versions = ["0.35.0","0.32.0","0.32.0","0.30.0","0.28.0"];
+        var versions = ["0.38.0","0.35.0","0.32.0","0.32.0","0.30.0"];
     </script>
 
 

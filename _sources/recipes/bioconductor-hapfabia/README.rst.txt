@@ -44,6 +44,7 @@ bioconductor-hapfabia
    :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
    :depends bioconductor-fabia: ``>=2.46.0,<2.47.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

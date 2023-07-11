@@ -26,14 +26,22 @@ bioconductor-flowtime
    :versions:
       
       
+      .. raw:: html
 
-      ``1.22.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  </span></summary>
+      
 
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=1.0.0``
    :depends r-magrittr: 
    :depends r-plyr: 
@@ -70,7 +78,7 @@ bioconductor-flowtime
 
     <script>
         var package = "bioconductor-flowtime";
-        var versions = ["1.22.0","1.17.0","1.16.0","1.14.0","1.14.0"];
+        var versions = ["1.24.0","1.22.0","1.17.0","1.16.0","1.14.0"];
     </script>
 
 

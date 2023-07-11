@@ -27,15 +27,15 @@ bioconductor-rcyjs
       
       
 
-      ``2.20.0-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``
+      ``2.22.0-0``,  ``2.20.0-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-browserviz: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-browserviz: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-base64enc: 
    :depends r-httpuv: ``>=1.5.0``
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-rcyjs
 
     <script>
         var package = "bioconductor-rcyjs";
-        var versions = ["2.20.0","2.16.0","2.12.0","2.12.0","2.10.0"];
+        var versions = ["2.22.0","2.20.0","2.16.0","2.12.0","2.12.0"];
     </script>
 
 
