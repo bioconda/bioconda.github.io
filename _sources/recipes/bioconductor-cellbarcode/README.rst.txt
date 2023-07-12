@@ -27,20 +27,19 @@ bioconductor-cellbarcode
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-shortread: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-zlibbioc: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-shortread: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 
    :depends r-ckmeans.1d.dp: 
    :depends r-data.table: ``>=1.12.6``
@@ -82,7 +81,7 @@ bioconductor-cellbarcode
 
     <script>
         var package = "bioconductor-cellbarcode";
-        var versions = ["1.4.0","1.4.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.4.0","1.0.0","1.0.0"];
     </script>
 
 

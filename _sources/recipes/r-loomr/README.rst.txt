@@ -32,13 +32,13 @@ r-loomr
       
       
 
-      ``0.2.0_beta-4``,  ``0.2.0_beta-3``,  ``0.2.0_beta-2``,  ``0.2.0_beta-1``,  ``0.2.0_beta-0``
+      ``0.2.0_beta-5``,  ``0.2.0_beta-4``,  ``0.2.0_beta-3``,  ``0.2.0_beta-2``,  ``0.2.0_beta-1``,  ``0.2.0_beta-0``
 
       
 
    
    :depends hdf5: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-hdf5r: 
    :depends r-iterators: 
    :depends r-itertools: 

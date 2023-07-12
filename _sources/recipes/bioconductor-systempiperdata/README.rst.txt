@@ -28,10 +28,10 @@ bioconductor-systempiperdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.22.3-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.17.4-0</code>,  <code>1.16.1-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>1.22.3-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.17.4-0</code>,  <code>1.16.1-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``1.22.3-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.17.4-0``,  ``1.16.1-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``1.22.3-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.17.4-0``,  ``1.16.1-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-systempiperdata
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-data-packages: ``>=20221106``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-jsonlite: 
    :depends r-remotes: 
    :requirements:
@@ -78,7 +78,7 @@ bioconductor-systempiperdata
 
     <script>
         var package = "bioconductor-systempiperdata";
-        var versions = ["2.2.0","1.22.3","1.22.0","1.20.0","1.18.1"];
+        var versions = ["2.4.0","2.2.0","1.22.3","1.22.0","1.20.0"];
     </script>
 
 

@@ -27,14 +27,15 @@ bioconductor-qmtools
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-mscoreutils: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-mscoreutils: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-heatmaply: 
    :depends r-igraph: 
@@ -73,7 +74,7 @@ bioconductor-qmtools
 
     <script>
         var package = "bioconductor-qmtools";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

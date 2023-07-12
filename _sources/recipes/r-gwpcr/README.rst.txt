@@ -28,10 +28,10 @@ r-gwpcr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-4</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0-0</code>,  <code>0.9.11-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-5</code>,  <code>1.0.4-4</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0-0</code>,  </span></summary>
       
 
-      ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0-0``,  ``0.9.11-2``,  ``0.9.11-1``,  ``0.9.11-0``,  ``0.9.10-4``,  ``0.9.10-3``,  ``0.9.10-2``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``
+      ``1.0.4-5``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0-0``,  ``0.9.11-2``,  ``0.9.11-1``,  ``0.9.11-0``,  ``0.9.10-4``,  ``0.9.10-3``,  ``0.9.10-2``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``
 
       
       .. raw:: html
@@ -40,9 +40,8 @@ r-gwpcr
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends r-akima: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-statmod: 
    :requirements:

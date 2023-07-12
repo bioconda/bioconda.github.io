@@ -28,15 +28,14 @@ r-cssam
       
       
 
-      ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``0-0``
+      ``1.4-6``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``0-0``
 
       
 
    
    :depends bioconductor-biobase: ``>=2.50.0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.0,<4.1``
+   :depends libcxx: ``>=15.0.7``
+   :depends r-base: ``>=4.0.5``
    :depends r-formula: ``>=1.2_4``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-pkgmaker: ``>=0.32.2``

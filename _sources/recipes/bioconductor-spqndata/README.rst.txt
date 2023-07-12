@@ -27,15 +27,15 @@ bioconductor-spqndata
       
       
 
-      ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221106``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-spqndata
 
     <script>
         var package = "bioconductor-spqndata";
-        var versions = ["1.10.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.10.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

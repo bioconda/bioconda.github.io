@@ -27,18 +27,18 @@ bioconductor-synapter
       
       
 
-      ``2.22.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.1-0``,  ``2.2.0-0``
+      ``2.24.0-0``,  ``2.22.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.1-0``,  ``2.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-cleaver: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-multtest: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-cleaver: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-multtest: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-lattice: 
    :depends r-rcolorbrewer: 
    :depends r-readr: ``>=0.2``
@@ -74,7 +74,7 @@ bioconductor-synapter
 
     <script>
         var package = "bioconductor-synapter";
-        var versions = ["2.22.0","2.14.0","2.14.0","2.12.0","2.10.0"];
+        var versions = ["2.24.0","2.22.0","2.14.0","2.14.0","2.12.0"];
     </script>
 
 

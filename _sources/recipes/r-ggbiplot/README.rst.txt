@@ -26,14 +26,21 @@ r-ggbiplot
    :versions:
       
       
+      .. raw:: html
 
-      ``0.55-9``,  ``0.55-8``,  ``0.55-7``,  ``0.55-6``,  ``0.55-5``,  ``0.55-4``,  ``0.55-3``,  ``0.55-2``,  ``0.55-1``
+         <details><summary><span class="truncated-version-list"><code>0.55-10</code>,  <code>0.55-9</code>,  <code>0.55-8</code>,  <code>0.55-7</code>,  <code>0.55-6</code>,  <code>0.55-5</code>,  <code>0.55-4</code>,  <code>0.55-3</code>,  <code>0.55-2</code>,  </span></summary>
+      
 
+      ``0.55-10``,  ``0.55-9``,  ``0.55-8``,  ``0.55-7``,  ``0.55-6``,  ``0.55-5``,  ``0.55-4``,  ``0.55-3``,  ``0.55-2``,  ``0.55-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-devtools: 
    :depends r-ggplot2: 
    :depends r-gridbase: 

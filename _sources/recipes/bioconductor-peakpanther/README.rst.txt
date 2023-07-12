@@ -27,20 +27,21 @@ bioconductor-peakpanther
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-mzr: ``>=2.34.0,<2.35.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bslib: 
    :depends r-doparallel: ``>=1.0.11``
    :depends r-dt: ``>=0.15``
    :depends r-foreach: ``>=1.4.4``
    :depends r-ggplot2: ``>=3.3.0``
    :depends r-gridextra: ``>=2.3``
+   :depends r-lubridate: 
    :depends r-minpack.lm: ``>=1.2.1``
    :depends r-pracma: ``>=2.2.3``
    :depends r-scales: ``>=0.5.0``
@@ -79,7 +80,7 @@ bioconductor-peakpanther
 
     <script>
         var package = "bioconductor-peakpanther";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

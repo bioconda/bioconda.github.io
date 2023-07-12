@@ -27,16 +27,16 @@ bioconductor-ucscrepeatmasker
       
       
 
-      ``3.15.2-0``
+      ``3.15.2-1``,  ``3.15.2-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rcurl: 
    :depends r-xml: 
    :requirements:
@@ -70,7 +70,7 @@ bioconductor-ucscrepeatmasker
 
     <script>
         var package = "bioconductor-ucscrepeatmasker";
-        var versions = ["3.15.2"];
+        var versions = ["3.15.2","3.15.2"];
     </script>
 
 

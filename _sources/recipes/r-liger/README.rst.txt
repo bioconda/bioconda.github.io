@@ -28,10 +28,10 @@ r-liger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0.9000-3</code>,  <code>0.5.0.9000-2</code>,  <code>0.5.0.9000-1</code>,  <code>0.5.0.9000-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0.9000-3</code>,  <code>0.5.0.9000-2</code>,  <code>0.5.0.9000-1</code>,  </span></summary>
       
 
-      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
       .. raw:: html
@@ -40,10 +40,9 @@ r-liger
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends openjdk: ``>=6``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cowplot: 
    :depends r-doparallel: 
    :depends r-dosnow: 

@@ -29,10 +29,10 @@ bioconductor-generegionscan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-1</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-1</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+      ``1.56.0-0``,  ``1.54.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-generegionscan
       
 
    
-   :depends bioconductor-affxparser: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-affxparser: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rcolorbrewer: 
    :requirements:
 
@@ -78,7 +78,7 @@ bioconductor-generegionscan
 
     <script>
         var package = "bioconductor-generegionscan";
-        var versions = ["1.54.0","1.50.0","1.48.0","1.46.0","1.46.0"];
+        var versions = ["1.56.0","1.54.0","1.50.0","1.48.0","1.46.0"];
     </script>
 
 

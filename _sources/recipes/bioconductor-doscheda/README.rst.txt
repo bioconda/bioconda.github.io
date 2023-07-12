@@ -26,16 +26,24 @@ bioconductor-doscheda
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-vsn: ``>=3.66.0,<3.67.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-vsn: ``>=3.68.0,<3.69.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-calibrate: 
    :depends r-corrgram: 
    :depends r-drc: 
@@ -82,7 +90,7 @@ bioconductor-doscheda
 
     <script>
         var package = "bioconductor-doscheda";
-        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
+        var versions = ["1.22.0","1.20.0","1.16.0","1.14.0","1.12.0"];
     </script>
 
 

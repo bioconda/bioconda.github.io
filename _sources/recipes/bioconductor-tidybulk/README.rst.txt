@@ -27,16 +27,16 @@ bioconductor-tidybulk
       
       
 
-      ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-crayon: 
    :depends r-dplyr: 
    :depends r-lifecycle: 
@@ -81,7 +81,7 @@ bioconductor-tidybulk
 
     <script>
         var package = "bioconductor-tidybulk";
-        var versions = ["1.10.0","1.6.1","1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.12.0","1.10.0","1.6.1","1.4.0","1.2.0"];
     </script>
 
 

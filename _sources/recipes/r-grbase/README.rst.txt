@@ -28,10 +28,10 @@ r-grbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.9-2</code>,  <code>1.8.9-1</code>,  <code>1.8.9-0</code>,  <code>1.8.8-1</code>,  <code>1.8.8-0</code>,  <code>1.8.7-1</code>,  <code>1.8.7-0</code>,  <code>1.8_6.7-2</code>,  <code>1.8_6.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.9-3</code>,  <code>1.8.9-2</code>,  <code>1.8.9-1</code>,  <code>1.8.9-0</code>,  <code>1.8.8-1</code>,  <code>1.8.8-0</code>,  <code>1.8.7-1</code>,  <code>1.8.7-0</code>,  <code>1.8_6.7-2</code>,  </span></summary>
       
 
-      ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8_6.7-2``,  ``1.8_6.7-1``,  ``1.8_6.7-0``,  ``1.8_3.4-6``,  ``1.8_3.4-5``,  ``1.8_3.4-4``,  ``1.8_3.4-3``,  ``1.8_3.4-2``,  ``1.8_3.4-1``,  ``1.8_3.4-0``
+      ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8_6.7-2``,  ``1.8_6.7-1``,  ``1.8_6.7-0``,  ``1.8_3.4-6``,  ``1.8_3.4-5``,  ``1.8_3.4-4``,  ``1.8_3.4-3``,  ``1.8_3.4-2``,  ``1.8_3.4-1``,  ``1.8_3.4-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ r-grbase
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biocmanager: 
    :depends r-igraph: 
    :depends r-magrittr: 
@@ -86,7 +86,7 @@ r-grbase
 
     <script>
         var package = "r-grbase";
-        var versions = ["1.8.9","1.8.9","1.8.9","1.8.8","1.8.8"];
+        var versions = ["1.8.9","1.8.9","1.8.9","1.8.9","1.8.8"];
     </script>
 
 

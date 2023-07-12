@@ -28,10 +28,10 @@ bioconductor-xcms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.16.1-1</code>,  <code>3.16.1-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.22.0-0</code>,  <code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.16.1-1</code>,  <code>3.16.1-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  </span></summary>
       
 
-      ``3.20.0-1``,  ``3.20.0-0``,  ``3.16.1-1``,  ``3.16.1-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.4-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.1-0``,  ``1.48.0-1``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``
+      ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.16.1-1``,  ``3.16.1-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.4-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.1-0``,  ``1.48.0-1``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``
 
       
       .. raw:: html
@@ -40,23 +40,24 @@ bioconductor-xcms
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-massspecwavelet: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-mscoreutils: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-msfeatures: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-protgenerics: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-massspecwavelet: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-mscoreutils: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-msfeatures: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-multtest: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-mzr: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-protgenerics: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-lattice: 
    :depends r-plyr: 
    :depends r-rann: 
@@ -93,7 +94,7 @@ bioconductor-xcms
 
     <script>
         var package = "bioconductor-xcms";
-        var versions = ["3.20.0","3.20.0","3.16.1","3.16.1","3.16.0"];
+        var versions = ["3.22.0","3.20.0","3.20.0","3.16.1","3.16.1"];
     </script>
 
 

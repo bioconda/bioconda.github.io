@@ -27,19 +27,19 @@ bioconductor-poma
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-mixomics: ``>=6.22.0,<6.23.0``
-   :depends bioconductor-rankprod: ``>=3.24.0,<3.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-mixomics: ``>=6.24.0,<6.25.0``
+   :depends bioconductor-rankprod: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-broom: 
    :depends r-caret: 
    :depends r-dbscan: 
@@ -86,7 +86,7 @@ bioconductor-poma
 
     <script>
         var package = "bioconductor-poma";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

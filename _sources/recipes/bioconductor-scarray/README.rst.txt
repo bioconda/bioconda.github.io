@@ -27,24 +27,25 @@ bioconductor-scarray
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-gdsfmt: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biocsingular: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-gdsfmt: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-matrix: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +77,7 @@ bioconductor-scarray
 
     <script>
         var package = "bioconductor-scarray";
-        var versions = ["1.6.0","1.6.0","1.2.1","1.2.1","1.2.0"];
+        var versions = ["1.8.2","1.6.0","1.6.0","1.2.1","1.2.1"];
     </script>
 
 

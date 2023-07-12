@@ -26,16 +26,24 @@ bioconductor-dapar
    :versions:
       
       
+      .. raw:: html
 
-      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.6-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.32.2-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.6-0</code>,  <code>1.22.0-0</code>,  <code>1.20.2-0</code>,  <code>1.18.1-0</code>,  <code>1.16.7-0</code>,  </span></summary>
+      
 
+      ``1.32.2-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.6-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-dapardata: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-dapardata: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-foreach: 
    :depends r-highcharter: 
    :requirements:
@@ -69,7 +77,7 @@ bioconductor-dapar
 
     <script>
         var package = "bioconductor-dapar";
-        var versions = ["1.30.0","1.26.0","1.24.3","1.22.6","1.22.0"];
+        var versions = ["1.32.2","1.30.0","1.26.0","1.24.3","1.22.6"];
     </script>
 
 

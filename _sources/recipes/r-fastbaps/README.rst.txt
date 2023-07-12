@@ -29,10 +29,10 @@ r-fastbaps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.8-2</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.8-3</code>,  <code>1.0.8-2</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  </span></summary>
       
 
-      ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.8-3``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ r-fastbaps
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends r-adegenet: 
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-clusteval: 
    :depends r-doparallel: 
    :depends r-fastcluster: 
@@ -91,7 +91,7 @@ r-fastbaps
 
     <script>
         var package = "r-fastbaps";
-        var versions = ["1.0.8","1.0.8","1.0.8","1.0.7","1.0.6"];
+        var versions = ["1.0.8","1.0.8","1.0.8","1.0.8","1.0.7"];
     </script>
 
 

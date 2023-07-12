@@ -27,15 +27,15 @@ bioconductor-mai
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-pcamethods: ``>=1.90.0,<1.91.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-pcamethods: ``>=1.92.0,<1.93.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
    :depends r-doparallel: 
    :depends r-e1071: 
@@ -75,7 +75,7 @@ bioconductor-mai
 
     <script>
         var package = "bioconductor-mai";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

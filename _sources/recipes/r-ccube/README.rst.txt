@@ -27,7 +27,7 @@ r-ccube
       
       
 
-      ``1.0_beta.1-4``,  ``1.0_beta.1-3``,  ``1.0_beta.1-2``,  ``1.0_beta.1-1``,  ``1.0_beta.1-0``
+      ``1.0_beta.1-5``,  ``1.0_beta.1-4``,  ``1.0_beta.1-3``,  ``1.0_beta.1-2``,  ``1.0_beta.1-1``,  ``1.0_beta.1-0``
 
       
 
@@ -35,7 +35,7 @@ r-ccube
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-foreach: 
    :depends r-matrix: 

@@ -26,15 +26,22 @@ r-whopgenome
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.7-8``,  ``0.9.7-7``,  ``0.9.7-6``,  ``0.9.7-5``,  ``0.9.7-4``,  ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.7-9</code>,  <code>0.9.7-8</code>,  <code>0.9.7-7</code>,  <code>0.9.7-6</code>,  <code>0.9.7-5</code>,  <code>0.9.7-4</code>,  <code>0.9.7-3</code>,  <code>0.9.7-2</code>,  <code>0.9.7-1</code>,  </span></summary>
+      
 
+      ``0.9.7-9``,  ``0.9.7-8``,  ``0.9.7-7``,  ``0.9.7-6``,  ``0.9.7-5``,  ``0.9.7-4``,  ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends libcxx: ``>=15.0.7``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

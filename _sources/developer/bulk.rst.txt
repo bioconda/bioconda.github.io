@@ -20,6 +20,32 @@ miniconda) from the ``bulk`` branch of `bioconda-common`.
 Anaconda.** As such, only the bioconda core team has the ability to push to
 this branch.
 
+Interacting with the bulk branch
+--------------------------------
+
+When changes are made on the bulk branch (committed and pushed), the CI system
+decides whether it will run its jobs or not.
+
+* If any of the pushed commit messages contains the substring ``[ci run]`` the CI jobs are executed.
+* If not, no CI jobs are executed.
+
+The reason for this behavior is that we want to avoid race conditions caused by multiple CI jobs
+spawned from different commits to be exectuted at the same time.
+
+In order to simplify interactions with the bulk CI, bioconda-utils offers therefore
+some dedicated subcommands:
+
+* **bulk-commit**: ``bioconda-utils bulk-commit <message>`` commits the changes on your 
+  local clone of https://github.com/bioconda/bioconda-recipes to the bulk branch while marking the commit
+  as being eligible for a CI run (by automatically prefixing the message with ``[ci run]``).
+  The **bulk-commit** subcommand does not push the commit. This enables you to do multiple fine-grained commits
+  and push them in one pass via a subsequent ``git push`` that triggers a single CI run.
+* **bulk-trigger-ci**: ``bioconda-utils bulk-trigger-ci`` creates an empty commit that is 
+  immediately pushed automatically to the bulk branch, thereby triggering a CI run. This can be used
+  to restart the CI run in case all of the previous runs are finished without build failures but there 
+  are still packages that need to be built (and haven't been before because the job runtime limits were
+  reached and the CI has terminated them (usually this happens after somewhat more than 5 hours)).
+
 Updating pinnings
 -----------------
 
@@ -64,44 +90,73 @@ example is updating pinnings to support Python 3.10.
    There may be a few remaining conflicts to fix; in all cases you should
    prefer what's on the master branch.
 
-5. Start a preliminary bulk run to build the cache. In :file:`.github/workflows/Bulk.yml`, set
-   the number of workers to 1 (so,
-   ``jobs:build-linux:strategy:matrix:runner:[0]``) and also set
-   ``--n-workers=1`` in the ``bioconda-utils`` call. This will allow building
-   the cache which will be used in subsequent (parallel) runs. Make sure you do
-   this for both the Linux and MacOS sections.
-
-6. Let the initial run finish. Fix anything obvious, and now that the cache is
-   built you can incrementally increase the workers and the ``--n-workers``
-   argument to allow parallel jobs.
-
-7. Once things largely settle down, run ``bioconda-utils update-pinnings`` in
+5. Run ``bioconda-utils update-pinnings`` in
    the bulk branch. This will go through all the pinnings, figure out what
    recipes they're used with, and bump the recipes' build numbers
-   appropriately. Then push to bulk to rebuild all of those.
+   appropriately.
 
-See :ref:`merge-bulk` for next steps.
+6. Then, **bulk-commit** and push the changes.
 
-.. _merge-bulk:
+7. Once the CI run has finished, inspect all build failures (see :ref:`handling-build-failues`).
+   For each failure, decide whether the recipe shall be skiplisted or whether you would like to fix it.
+   In general it is advisable to fix all libraries on which many recipes depend and anything else
+   that is obvious and easy. For the rest, mark the recipes as skiplisted in the build failure file.
+   It will be ignored by subsequent CI runs and put into a table in the bioconda-recipes wiki.
+   This strategy is good because the bulk branch update should be performed as fast as possible to avoid
+   redundant work between master and bulk. Also, skiplisting democratizes the update effort.
 
-Merging back to master
-----------------------
+8. If no untreated failure remains, **bulk-commit** (see above) and push the changes and visit
+   step 6-7 again. If the run has finished without any build failure and did not time out before checking all
+   recipes, you can go on with step 7.
 
-1. The goal on the bulk branch is to get all workers successfully passing, such
-   that there is nothing to do in the PR where bulk is merged into master. This
-   may require adding recipes to the ``build-fail-blacklist`` to skip building
-   them.
+9. Once all the packages have either been successfully built or skiplisted, merge in the master branch 
+   (after doing a git pull on it).
+   Usually, conflicts can occur here due to build-numbers having been increased in the master branch while you
+   did your changes in bulk. For such cases (which should be not so many) you can just increase the build number to
+   ``max(build_number_master, build_number_bulk)`` and **bulk-commit** all of those in a row.
+   Repeat this until master is merged without any conflicts. 
+   Ensure that `bioconda-common/common.sh <https://github.com/bioconda/bioconda-common/blob/master/common.sh>`_ points to the same version of
+   bioconda-utils that the ``bulk`` branch has been using. Then, merge bulk into master and push the changes.
 
-2. Merge the master branch into the bulk branch, dealing with any conflicts as
-   needed.
+10. Shortly afterwards, you will find all remaining build failures in the 
+   `bioconda-recipes wiki <https://github.com/bioconda/bioconda-recipes/wiki/build-failures>`_.
+   You can let your colleagues and the community know about the updated build failure table and ask for help.
+   In addition, any automatic or manual updates to recipes on this list that succeed will automatically
+   remove them from this list over time.
 
-3. Merge the bulk branch into the master branch.
+.. _handling-build-failues:
 
-4. Ensure that ``bioconda-common/common.sh`` points to the same version of
-   bioconda-utils that the ``bulk`` branch has been using.
+Handling build failures
+~~~~~~~~~~~~~~~~~~~~~~~
 
-5. Compile a list of packages that have been skipped or blacklisted during the
-   bulk migration, and open a new issue to ask for help from the community.
+Build failures are stored in a file ``build_failure.<arch>.yaml`` next to each failing recipe.
+You can list all build failures stored in the current branch of bioconda-recipes via the command
+``bioconda-utils list-build-failures recipes config.yaml``. The presented table will be sorted by 
+the number of dependencies and package downloads, which should help for prioritizing the fixing work.
+
+This file can look e.g. like this:
+
+.. code-block:: yaml
+
+    recipe_sha: 37fa4d78a2ee8b18065a0bd0f594ad1e9587bb4ac7edf1b4629a9f10fa45d0a5  # The shas256 hash of the recipe at which it failed to build.
+    skiplist: true # Set to true to skiplist this recipe so that it will be ignored as long as its latest commit is the one given above.
+    log: |2-
+      <the logging output of the failed build>
+
+Based on the log, you can decide whether and how the recipe can be fixed or whether it shall be skiplisted for
+fixing it later in the future.
+Notably, any update to the recipe automatically de-skiplists it, because the skiplist
+entry is only valid together with the hash listed in the first line.
+
+It is possible to further annotate and even manually create build failure records via the `bioconda-utils` CLI.
+Check out all possibilities in the corresponding help message:
+
+.. code-block:: bash
+
+    bioconda-utils annotate-build-failure --help
+
+Skiplisted recipes from the master branch are automatically displayed in a `wiki page <https://github.com/bioconda/bioconda-recipes/wiki/build-failures>`_,
+so that others can pick them up for providing a fix.
 
 
 Updating Bioconductor
@@ -113,22 +168,7 @@ requires updating the packages on Bioconda. This is a perfect use-case for the
 bulk branch. The process is generally the same as above but without the
 pinnings updates and with some Bioconductor-specific helper scripts.
 
-1. *(this is step 4 from the above section on updating pinnings)* In
-   bioconda-recipes, merge master into bulk to start with a clean slate. Since
-   bulk is infrequently updated, there may be substantial conflicts caused by
-   running the default ``git checkout bulk && git merge master``. This tends to
-   happen most with build numbers. But since we want to prefer using whatever
-   is in the master branch, we can merge master into bulk, while preferring
-   master version in any conflicts, with:
-
-   .. code-block:: bash
-
-     git checkout bulk
-     git merge master -s recursive -X theirs
-
-   There may be a few remaining conflicts to fix; in all cases you should
-   prefer what's on the master branch.
-
+1. Execute step 4 from above.
 
 2. Identify the latest BioConductor version, and update all BioConductor
    recipes with:
@@ -137,28 +177,20 @@ pinnings updates and with some Bioconductor-specific helper scripts.
 
         bioconda-utils bioconductor-skeleton update-all-packages --bioc-version $BIOC_VERSION
 
-3. *(this is step 5 from the above section on updating pinnings)* Start
-   a preliminary bulk run to build the cache. In
-   :file:`.github/workflows/Bulk.yml`, set the number of workers to 1 (so,
-   ``jobs:build-linux:strategy:matrix:runner:[0]``) and also set
-   ``--n-workers=1`` in the ``bioconda-utils`` call. This will allow building
-   the cache which will be used in subsequent (parallel) runs. Make sure you do
-   this for both the Linux and MacOS sections.
+3. Execute step 6 from above.
 
-4. Use the
+4. Execute step 7 from above.
+   Alternatively, use the
    [rootNodes.py](https://github.com/bioconda/bioconda-recipes/blob/master/scripts/bioconductor/rootNodes.py)
    from the bioconda-recipes repo to help figure out what the primary root
    nodes are for the currently-remaining packages to be built. This looks at
    recently-built packages, removes them from the DAG of recipes to be built,
    and then reports to stdout the remaining root nodes. This information can be
    used to strategically edit the ``build-fail-blacklist`` file to prioritize
-   the building of those root nodes.
-
-5. Once builds seem to be stabilizing, remove the temporary edits to the
+   the building of those root nodes. Once builds seem to be stabilizing, remove the temporary edits to the
    ``build-fail-blacklist``.
 
-6. Follow the :ref:`merge-bulk` instructions for merging bulk back into the
-   master branch.
+5. Execute step 8-10 from above.
 
 
 Notes on working with bulk branch

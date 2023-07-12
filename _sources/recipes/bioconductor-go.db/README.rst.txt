@@ -28,10 +28,10 @@ bioconductor-go.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.16.0-0</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.13.0-0</code>,  <code>3.12.1-1</code>,  <code>3.12.1-0</code>,  <code>3.11.4-0</code>,  <code>3.11.1-0</code>,  <code>3.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.17.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.13.0-0</code>,  <code>3.12.1-1</code>,  <code>3.12.1-0</code>,  <code>3.11.4-0</code>,  <code>3.11.1-0</code>,  </span></summary>
       
 
-      ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0-0``,  ``3.12.1-1``,  ``3.12.1-0``,  ``3.11.4-0``,  ``3.11.1-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.2-0``
+      ``3.17.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0-0``,  ``3.12.1-1``,  ``3.12.1-0``,  ``3.11.4-0``,  ``3.11.1-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.2-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-go.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ bioconductor-go.db
 
     <script>
         var package = "bioconductor-go.db";
-        var versions = ["3.16.0","3.14.0","3.14.0","3.13.0","3.12.1"];
+        var versions = ["3.17.0","3.16.0","3.14.0","3.14.0","3.13.0"];
     </script>
 
 

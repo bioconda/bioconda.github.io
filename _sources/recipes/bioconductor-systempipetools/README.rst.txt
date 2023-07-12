@@ -27,16 +27,16 @@ bioconductor-systempipetools
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-ggtree: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-ggtree: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggally: 
@@ -79,7 +79,7 @@ bioconductor-systempipetools
 
     <script>
         var package = "bioconductor-systempipetools";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

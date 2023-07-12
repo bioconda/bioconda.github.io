@@ -27,7 +27,7 @@ r-motifbinner
       
       
 
-      ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-7``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
@@ -35,9 +35,8 @@ r-motifbinner
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-biostrings: 
    :depends bioconductor-shortread: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends libcxx: ``>=15.0.7``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-domc: 
    :depends r-dplyr: 

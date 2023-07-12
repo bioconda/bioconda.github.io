@@ -26,29 +26,38 @@ bioconductor-glmgampoi
    :versions:
       
       
+      .. raw:: html
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.12.2-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.12.2-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-beachmat: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-beachmat: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrixstats: 
    :depends r-rcpp: 
    :depends r-rcpparmadillo: 
    :depends r-rlang: 
+   :depends r-vctrs: 
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +89,7 @@ bioconductor-glmgampoi
 
     <script>
         var package = "bioconductor-glmgampoi";
-        var versions = ["1.10.0","1.10.0","1.6.0","1.6.0","1.6.0"];
+        var versions = ["1.12.2","1.10.0","1.10.0","1.6.0","1.6.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-rrbgen
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.6-9</code>,  <code>0.0.6-8</code>,  <code>0.0.6-7</code>,  <code>0.0.6-6</code>,  <code>0.0.6-5</code>,  <code>0.0.6-4</code>,  <code>0.0.6-3</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.6-10</code>,  <code>0.0.6-9</code>,  <code>0.0.6-8</code>,  <code>0.0.6-7</code>,  <code>0.0.6-6</code>,  <code>0.0.6-5</code>,  <code>0.0.6-4</code>,  <code>0.0.6-3</code>,  <code>0.0.6-2</code>,  </span></summary>
       
 
-      ``0.0.6-9``,  ``0.0.6-8``,  ``0.0.6-7``,  ``0.0.6-6``,  ``0.0.6-5``,  ``0.0.6-4``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``
+      ``0.0.6-10``,  ``0.0.6-9``,  ``0.0.6-8``,  ``0.0.6-7``,  ``0.0.6-6``,  ``0.0.6-5``,  ``0.0.6-4``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-rrbgen
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``
    :depends r-testthat: ``>=2.0.0``

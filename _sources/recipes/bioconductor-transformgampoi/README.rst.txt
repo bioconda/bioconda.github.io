@@ -27,21 +27,20 @@ bioconductor-transformgampoi
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-glmgampoi: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-glmgampoi: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 
    :requirements:
@@ -75,7 +74,7 @@ bioconductor-transformgampoi
 
     <script>
         var package = "bioconductor-transformgampoi";
-        var versions = ["1.4.0","1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.4.0","1.0.0"];
     </script>
 
 

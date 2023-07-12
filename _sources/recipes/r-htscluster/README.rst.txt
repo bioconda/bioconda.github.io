@@ -27,13 +27,13 @@ r-htscluster
       
       
 
-      ``2.0.10-1``,  ``2.0.10-0``,  ``2.0.8-5``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-1``,  ``2.0.8-0``
+      ``2.0.10-2``,  ``2.0.10-1``,  ``2.0.10-0``,  ``2.0.8-5``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-1``,  ``2.0.8-0``
 
       
 
    
    :depends bioconductor-edger: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-capushe: 
    :depends r-plotrix: 
    :requirements:
@@ -67,7 +67,7 @@ r-htscluster
 
     <script>
         var package = "r-htscluster";
-        var versions = ["2.0.10","2.0.10","2.0.8","2.0.8","2.0.8"];
+        var versions = ["2.0.10","2.0.10","2.0.10","2.0.8","2.0.8"];
     </script>
 
 

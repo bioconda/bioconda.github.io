@@ -28,12 +28,12 @@ r-recetox-waveica
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-corpcor: 
    :depends r-jade: 
    :depends r-mgcv: 
@@ -69,7 +69,7 @@ r-recetox-waveica
 
     <script>
         var package = "r-recetox-waveica";
-        var versions = ["0.2.0","0.2.0","0.1.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.1.0"];
     </script>
 
 

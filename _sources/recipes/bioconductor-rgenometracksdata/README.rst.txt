@@ -27,15 +27,15 @@ bioconductor-rgenometracksdata
       
       
 
-      ``0.99.0-2``,  ``0.99.0-1``,  ``0.99.0-0``
+      ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-1``,  ``0.99.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-rgenometracksdata
 
     <script>
         var package = "bioconductor-rgenometracksdata";
-        var versions = ["0.99.0","0.99.0","0.99.0"];
+        var versions = ["0.99.0","0.99.0","0.99.0","0.99.0"];
     </script>
 
 

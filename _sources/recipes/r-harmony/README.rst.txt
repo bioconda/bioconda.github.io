@@ -27,7 +27,7 @@ r-harmony
       
       
 
-      ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-6``,  ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
@@ -35,7 +35,7 @@ r-harmony
    :depends bioconductor-singlecellexperiment: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

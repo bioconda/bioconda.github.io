@@ -26,14 +26,22 @@ r-phyext2
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.4-8``,  ``0.0.4-7``,  ``0.0.4-6``,  ``0.0.4-5``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.4-9</code>,  <code>0.0.4-8</code>,  <code>0.0.4-7</code>,  <code>0.0.4-6</code>,  <code>0.0.4-5</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  </span></summary>
+      
 
+      ``0.0.4-9``,  ``0.0.4-8``,  ``0.0.4-7``,  ``0.0.4-6``,  ``0.0.4-5``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-phylobase: 
    :requirements:
 

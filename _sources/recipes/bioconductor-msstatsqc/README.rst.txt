@@ -26,15 +26,23 @@ bioconductor-msstatsqc
    :versions:
       
       
+      .. raw:: html
 
-      ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  </span></summary>
+      
 
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-qcmetrics: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-qcmetrics: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggextra: 
    :depends r-ggplot2: 
@@ -70,7 +78,7 @@ bioconductor-msstatsqc
 
     <script>
         var package = "bioconductor-msstatsqc";
-        var versions = ["2.16.0","2.12.0","2.10.0","2.8.0","2.8.0"];
+        var versions = ["2.18.0","2.16.0","2.12.0","2.10.0","2.8.0"];
     </script>
 
 

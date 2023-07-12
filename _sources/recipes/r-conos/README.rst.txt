@@ -27,7 +27,7 @@ r-conos
       
       
 
-      ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``
+      ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``
 
       
 
@@ -36,7 +36,7 @@ r-conos
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends r-abind: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cowplot: 
    :depends r-dendextend: 
    :depends r-dplyr: 
@@ -89,7 +89,7 @@ r-conos
 
     <script>
         var package = "r-conos";
-        var versions = ["1.5.0","1.5.0","1.5.0","1.4.9","1.4.8"];
+        var versions = ["1.5.0","1.5.0","1.5.0","1.5.0","1.4.9"];
     </script>
 
 

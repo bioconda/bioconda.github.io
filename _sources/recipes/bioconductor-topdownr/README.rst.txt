@@ -26,20 +26,28 @@ bioconductor-topdownr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-protgenerics: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-mzr: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-protgenerics: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: ``>=2.2.1``
    :depends r-matrix: ``>=1.4-2``
    :requirements:
@@ -73,7 +81,7 @@ bioconductor-topdownr
 
     <script>
         var package = "bioconductor-topdownr";
-        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
+        var versions = ["1.22.0","1.20.0","1.16.0","1.14.0","1.12.0"];
     </script>
 
 

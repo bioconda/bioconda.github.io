@@ -27,19 +27,20 @@ bioconductor-differentialregulation
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``
+      ``1.4.2-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-bandits: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-bandits: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-tximport: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-dorng: 
@@ -80,7 +81,7 @@ bioconductor-differentialregulation
 
     <script>
         var package = "bioconductor-differentialregulation";
-        var versions = ["1.2.0","1.2.0"];
+        var versions = ["1.4.2","1.2.0","1.2.0"];
     </script>
 
 

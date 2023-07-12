@@ -27,15 +27,15 @@ bioconductor-cmapr
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-matrixstats: 
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-cmapr
 
     <script>
         var package = "bioconductor-cmapr";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

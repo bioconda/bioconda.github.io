@@ -27,19 +27,19 @@ bioconductor-vsclust
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrixstats: 
    :depends r-rcpp: 
    :depends r-shiny: 
@@ -74,7 +74,7 @@ bioconductor-vsclust
 
     <script>
         var package = "bioconductor-vsclust";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.2.0","1.0.0","1.0.0"];
     </script>
 
 

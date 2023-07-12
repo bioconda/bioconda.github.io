@@ -26,9 +26,17 @@ r-tailfindr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  </span></summary>
+      
 
+      ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,7 +44,7 @@ r-tailfindr
    :depends bioconductor-rsamtools: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-data.table: 
@@ -91,7 +99,7 @@ r-tailfindr
 
     <script>
         var package = "r-tailfindr";
-        var versions = ["1.4","1.4","1.3","1.3","1.3"];
+        var versions = ["1.4","1.4","1.4","1.3","1.3"];
     </script>
 
 

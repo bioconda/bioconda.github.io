@@ -28,10 +28,10 @@ r-tcr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.2-5</code>,  <code>2.3.2-4</code>,  <code>2.3.2-3</code>,  <code>2.3.2-2</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>2.2.4.1-1</code>,  <code>2.2.4.1-0</code>,  <code>2.2.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-6</code>,  <code>2.3.2-5</code>,  <code>2.3.2-4</code>,  <code>2.3.2-3</code>,  <code>2.3.2-2</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>2.2.4.1-1</code>,  <code>2.2.4.1-0</code>,  </span></summary>
       
 
-      ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.4.1-1``,  ``2.2.4.1-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.2-0``
+      ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.4.1-1``,  ``2.2.4.1-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.2-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-tcr
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: ``>=1.9.0``
    :depends r-dplyr: ``>=0.4.0``
    :depends r-ggplot2: ``>=1.0.0``

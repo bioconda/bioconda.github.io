@@ -26,16 +26,24 @@ bioconductor-flowtrans
    :versions:
       
       
+      .. raw:: html
 
-      ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  </span></summary>
+      
 
+      ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-flowclust: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-flowviz: ``>=1.62.0,<1.63.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-flowclust: ``>=3.38.0,<3.39.0``
+   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-flowviz: ``>=1.64.0,<1.65.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +75,7 @@ bioconductor-flowtrans
 
     <script>
         var package = "bioconductor-flowtrans";
-        var versions = ["1.50.0","1.46.0","1.44.0","1.42.0","1.42.0"];
+        var versions = ["1.52.0","1.50.0","1.46.0","1.44.0","1.42.0"];
     </script>
 
 

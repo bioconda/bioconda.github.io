@@ -27,14 +27,14 @@ bioconductor-neuca
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-e1071: 
    :depends r-keras: 
    :requirements:
@@ -68,7 +68,7 @@ bioconductor-neuca
 
     <script>
         var package = "bioconductor-neuca";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

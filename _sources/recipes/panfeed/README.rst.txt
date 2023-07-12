@@ -27,7 +27,7 @@ panfeed
       
       
 
-      ``1.5.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``
 
       
 
@@ -69,7 +69,7 @@ panfeed
 
     <script>
         var package = "panfeed";
-        var versions = ["1.5.0"];
+        var versions = ["1.5.1","1.5.0"];
     </script>
 
 

@@ -26,17 +26,25 @@ bioconductor-msmstests
    :versions:
       
       
+      .. raw:: html
 
-      ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+      
 
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-msmseda: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-msmseda: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ bioconductor-msmstests
 
     <script>
         var package = "bioconductor-msmstests";
-        var versions = ["1.36.0","1.32.0","1.30.0","1.28.0","1.28.0"];
+        var versions = ["1.38.0","1.36.0","1.32.0","1.30.0","1.28.0"];
     </script>
 
 

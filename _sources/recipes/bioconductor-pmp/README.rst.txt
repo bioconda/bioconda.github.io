@@ -27,16 +27,16 @@ bioconductor-pmp
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-pcamethods: ``>=1.90.0,<1.91.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-pcamethods: ``>=1.92.0,<1.93.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-matrixstats: 
    :depends r-missforest: 
@@ -72,7 +72,7 @@ bioconductor-pmp
 
     <script>
         var package = "bioconductor-pmp";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.1","1.2.0"];
+        var versions = ["1.12.0","1.10.0","1.6.0","1.4.0","1.2.1"];
     </script>
 
 

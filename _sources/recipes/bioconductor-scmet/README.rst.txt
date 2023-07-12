@@ -27,21 +27,20 @@ bioconductor-scmet
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: ``>=1.66.0``
    :depends r-coda: 
    :depends r-cowplot: 
@@ -91,7 +90,7 @@ bioconductor-scmet
 
     <script>
         var package = "bioconductor-scmet";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.2.0","1.0.0","1.0.0"];
     </script>
 
 

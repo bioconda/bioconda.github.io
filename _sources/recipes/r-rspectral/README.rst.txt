@@ -27,7 +27,7 @@ r-rspectral
       
       
 
-      ``1.0.0.10-1``,  ``1.0.0.10-0``,  ``1.0.0.9-0``
+      ``1.0.0.10-2``,  ``1.0.0.10-1``,  ``1.0.0.10-0``,  ``1.0.0.9-0``
 
       
 
@@ -35,7 +35,7 @@ r-rspectral
    :depends bioconductor-graph: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-igraph: 
    :depends r-rcpp: ``>=1.0.8.3``
    :depends r-rcpparmadillo: ``>=0.11.2.0.0``
@@ -71,7 +71,7 @@ r-rspectral
 
     <script>
         var package = "r-rspectral";
-        var versions = ["1.0.0.10","1.0.0.10","1.0.0.9"];
+        var versions = ["1.0.0.10","1.0.0.10","1.0.0.10","1.0.0.9"];
     </script>
 
 

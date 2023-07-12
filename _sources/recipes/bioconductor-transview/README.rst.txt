@@ -48,6 +48,7 @@ bioconductor-transview
    :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
    :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gplots: 

@@ -28,10 +28,10 @@ r-bisquerna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-bisquerna
 
    
    :depends bioconductor-biobase: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-limsolve: 
    :requirements:
 
@@ -74,7 +74,7 @@ r-bisquerna
 
     <script>
         var package = "r-bisquerna";
-        var versions = ["1.0.5","1.0.5","1.0.4","1.0.4","1.0.4"];
+        var versions = ["1.0.5","1.0.5","1.0.5","1.0.4","1.0.4"];
     </script>
 
 

@@ -26,18 +26,26 @@ bioconductor-ctrap
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-fgsea: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-binr: 
    :depends r-cowplot: 
    :depends r-data.table: 
@@ -91,7 +99,7 @@ bioconductor-ctrap
 
     <script>
         var package = "bioconductor-ctrap";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
+        var versions = ["1.18.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

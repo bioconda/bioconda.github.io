@@ -27,15 +27,15 @@ bioconductor-screpertoire
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-powertcr: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-powertcr: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-ggalluvial: 
@@ -81,7 +81,7 @@ bioconductor-screpertoire
 
     <script>
         var package = "bioconductor-screpertoire";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 
