@@ -27,16 +27,15 @@ bioconductor-csdr
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-glue: 
    :depends r-matrixstats: 
    :depends r-rcpp: 
@@ -73,7 +72,7 @@ bioconductor-csdr
 
     <script>
         var package = "bioconductor-csdr";
-        var versions = ["1.4.0","1.4.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.4.0","1.0.0","1.0.0"];
     </script>
 
 

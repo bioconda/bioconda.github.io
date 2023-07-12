@@ -28,17 +28,16 @@ r-crbhits
       
       
 
-      ``0.0.4-0``
+      ``0.0.4-1``,  ``0.0.4-0``
 
       
 
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-msa2dist: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-curl: 
    :depends r-devtools: 
    :depends r-doparallel: 
@@ -87,7 +86,7 @@ r-crbhits
 
     <script>
         var package = "r-crbhits";
-        var versions = ["0.0.4"];
+        var versions = ["0.0.4","0.0.4"];
     </script>
 
 

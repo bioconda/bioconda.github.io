@@ -45,12 +45,16 @@ bioconductor-sictools
    :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
    :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends ncurses: ``>=6.4,<7.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-doparallel: ``>=1.0.8``
    :depends r-matrixstats: ``>=0.10.0``
    :depends r-plyr: ``>=1.8.3``
    :depends r-stringr: ``>=0.6.2``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

@@ -27,15 +27,15 @@ bioconductor-ahlrbasedbs
       
       
 
-      ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.99.3-0``
+      ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.99.3-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-ahlrbasedbs
 
     <script>
         var package = "bioconductor-ahlrbasedbs";
-        var versions = ["1.5.0","1.2.0","1.2.0","0.99.3"];
+        var versions = ["1.6.0","1.5.0","1.2.0","1.2.0","0.99.3"];
     </script>
 
 

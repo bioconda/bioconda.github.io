@@ -28,10 +28,10 @@ bioconductor-illuminahumanmethylation450kprobe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.6-10</code>,  <code>2.0.6-9</code>,  <code>2.0.6-8</code>,  <code>2.0.6-7</code>,  <code>2.0.6-6</code>,  <code>2.0.6-5</code>,  <code>2.0.6-4</code>,  <code>2.0.6-3</code>,  <code>2.0.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.6-11</code>,  <code>2.0.6-10</code>,  <code>2.0.6-9</code>,  <code>2.0.6-8</code>,  <code>2.0.6-7</code>,  <code>2.0.6-6</code>,  <code>2.0.6-5</code>,  <code>2.0.6-4</code>,  <code>2.0.6-3</code>,  </span></summary>
       
 
-      ``2.0.6-10``,  ``2.0.6-9``,  ``2.0.6-8``,  ``2.0.6-7``,  ``2.0.6-6``,  ``2.0.6-5``,  ``2.0.6-4``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-0``
+      ``2.0.6-11``,  ``2.0.6-10``,  ``2.0.6-9``,  ``2.0.6-8``,  ``2.0.6-7``,  ``2.0.6-6``,  ``2.0.6-5``,  ``2.0.6-4``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-illuminahumanmethylation450kprobe
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

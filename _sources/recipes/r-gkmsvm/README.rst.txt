@@ -28,10 +28,10 @@ r-gkmsvm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.82.0-2</code>,  <code>0.82.0-1</code>,  <code>0.82.0-0</code>,  <code>0.81.0-4</code>,  <code>0.81.0-3</code>,  <code>0.81.0-2</code>,  <code>0.81.0-1</code>,  <code>0.81.0-0</code>,  <code>0.80.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.82.0-3</code>,  <code>0.82.0-2</code>,  <code>0.82.0-1</code>,  <code>0.82.0-0</code>,  <code>0.81.0-4</code>,  <code>0.81.0-3</code>,  <code>0.81.0-2</code>,  <code>0.81.0-1</code>,  <code>0.81.0-0</code>,  </span></summary>
       
 
-      ``0.82.0-2``,  ``0.82.0-1``,  ``0.82.0-0``,  ``0.81.0-4``,  ``0.81.0-3``,  ``0.81.0-2``,  ``0.81.0-1``,  ``0.81.0-0``,  ``0.80.0-1``,  ``0.80.0-0``,  ``0.79.0-1``,  ``0.79.0-0``,  ``0.71.0-0``
+      ``0.82.0-3``,  ``0.82.0-2``,  ``0.82.0-1``,  ``0.82.0-0``,  ``0.81.0-4``,  ``0.81.0-3``,  ``0.81.0-2``,  ``0.81.0-1``,  ``0.81.0-0``,  ``0.80.0-1``,  ``0.80.0-0``,  ``0.79.0-1``,  ``0.79.0-0``,  ``0.71.0-0``
 
       
       .. raw:: html
@@ -47,9 +47,8 @@ r-gkmsvm
    :depends bioconductor-iranges: 
    :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends libcxx: ``>=15.0.7``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-kernlab: 
    :depends r-rcpp: 
    :depends r-rocr: 
@@ -85,7 +84,7 @@ r-gkmsvm
 
     <script>
         var package = "r-gkmsvm";
-        var versions = ["0.82.0","0.82.0","0.82.0","0.81.0","0.81.0"];
+        var versions = ["0.82.0","0.82.0","0.82.0","0.82.0","0.81.0"];
     </script>
 
 

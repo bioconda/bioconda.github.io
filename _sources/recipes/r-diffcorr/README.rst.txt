@@ -26,15 +26,23 @@ r-diffcorr
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-6</code>,  <code>0.4.1-5</code>,  <code>0.4.1-4</code>,  <code>0.4.1-3</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  </span></summary>
+      
 
+      ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-multtest: 
    :depends bioconductor-pcamethods: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-fdrtool: 
    :depends r-igraph: 
    :requirements:
@@ -68,7 +76,7 @@ r-diffcorr
 
     <script>
         var package = "r-diffcorr";
-        var versions = ["0.4.2","0.4.2","0.4.1","0.4.1","0.4.1"];
+        var versions = ["0.4.2","0.4.2","0.4.2","0.4.1","0.4.1"];
     </script>
 
 

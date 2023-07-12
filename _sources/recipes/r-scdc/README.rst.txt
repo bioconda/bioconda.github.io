@@ -34,7 +34,8 @@ r-scdc
 
    
    :depends bioconductor-biobase: ``>=2.50.0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.0.5``
    :depends r-cowplot: ``>=1.1.1``
    :depends r-ggplot2: ``>=3.3.5``

@@ -26,14 +26,22 @@ bioconductor-omicplotr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-aldex2: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-aldex2: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-compositions: 
    :depends r-dt: 
    :depends r-jsonlite: 
@@ -74,7 +82,7 @@ bioconductor-omicplotr
 
     <script>
         var package = "bioconductor-omicplotr";
-        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
+        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

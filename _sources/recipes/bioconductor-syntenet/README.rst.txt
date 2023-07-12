@@ -27,28 +27,28 @@ bioconductor-syntenet
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.4-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggnetwork: 
    :depends r-ggplot2: 
    :depends r-igraph: 
    :depends r-intergraph: 
-   :depends r-labdsv: 
    :depends r-networkd3: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: ``>=1.0.8``
+   :depends r-rlang: 
    :depends r-testthat: 
    :requirements:
 
@@ -81,7 +81,7 @@ bioconductor-syntenet
 
     <script>
         var package = "bioconductor-syntenet";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.2.4","1.0.0","1.0.0"];
     </script>
 
 

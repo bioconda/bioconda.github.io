@@ -26,15 +26,23 @@ r-imputelcmd
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1-1``,  ``2.1-0``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.1-2</code>,  <code>2.1-1</code>,  <code>2.1-0</code>,  <code>2.0-6</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  <code>2.0-2</code>,  <code>2.0-1</code>,  </span></summary>
+      
 
+      ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-impute: 
    :depends bioconductor-pcamethods: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-norm: 
    :depends r-tmvtnorm: 
    :requirements:
@@ -68,7 +76,7 @@ r-imputelcmd
 
     <script>
         var package = "r-imputelcmd";
-        var versions = ["2.1","2.1","2.0","2.0","2.0"];
+        var versions = ["2.1","2.1","2.1","2.0","2.0"];
     </script>
 
 
