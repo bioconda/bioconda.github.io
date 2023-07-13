@@ -26,20 +26,27 @@ bioconductor-mnem
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.1-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.5-0</code>,  <code>1.6.1-0</code>,  </span></summary>
+      
 
+      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.1-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-linnorm: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-linnorm: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-e1071: 
@@ -84,7 +91,7 @@ bioconductor-mnem
 
     <script>
         var package = "bioconductor-mnem";
-        var versions = ["1.14.0","1.14.0","1.10.0","1.10.0","1.10.0"];
+        var versions = ["1.16.0","1.14.0","1.14.0","1.10.0","1.10.0"];
     </script>
 
 

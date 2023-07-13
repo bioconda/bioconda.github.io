@@ -29,10 +29,10 @@ r-acidmarkdown
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  </span></summary>
       
 
-      ``0.2.5-1``,  ``0.2.5-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-acidmarkdown
 
    
    :depends r-acidgenerics: ``>=0.6.4``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-goalie: ``>=0.6.6``
    :depends r-knitr: ``>=1.40``
    :requirements:
@@ -76,7 +76,7 @@ r-acidmarkdown
 
     <script>
         var package = "r-acidmarkdown";
-        var versions = ["0.2.5","0.2.5","0.1.6","0.1.6","0.1.5"];
+        var versions = ["0.2.5","0.2.5","0.2.5","0.1.6","0.1.6"];
     </script>
 
 

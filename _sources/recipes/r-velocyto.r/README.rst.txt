@@ -34,7 +34,8 @@ r-velocyto.r
    
    :depends bioconductor-pcamethods: 
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-abind: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 

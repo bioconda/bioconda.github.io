@@ -26,15 +26,23 @@ bioconductor-odseq
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-kebabs: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-msa: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-kebabs: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-msa: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-mclust: ``>=5.1``
    :requirements:
 
@@ -67,7 +75,7 @@ bioconductor-odseq
 
     <script>
         var package = "bioconductor-odseq";
-        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.18.0"];
+        var versions = ["1.28.0","1.26.0","1.22.0","1.20.0","1.18.0"];
     </script>
 
 

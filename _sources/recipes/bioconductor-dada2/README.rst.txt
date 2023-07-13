@@ -47,8 +47,9 @@ bioconductor-dada2
    :depends bioconductor-shortread: ``>=1.58.0,<1.59.0``
    :depends bioconductor-xvector: ``>=0.40.0,<0.41.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: ``>=2.1.0``
    :depends r-rcpp: ``>=0.12.0``

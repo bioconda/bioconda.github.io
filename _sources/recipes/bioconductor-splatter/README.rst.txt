@@ -28,10 +28,10 @@ bioconductor-splatter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.1-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.1-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.2.1-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -40,21 +40,21 @@ bioconductor-splatter
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-scater: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-scuttle: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: ``>=2.0.0``
    :depends r-crayon: 
    :depends r-fitdistrplus: 
-   :depends r-ggplot2: 
    :depends r-locfit: 
    :depends r-matrixstats: 
-   :depends r-scales: 
+   :depends r-rlang: 
+   :depends r-withr: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ bioconductor-splatter
 
     <script>
         var package = "bioconductor-splatter";
-        var versions = ["1.22.0","1.18.1","1.16.1","1.14.1","1.14.0"];
+        var versions = ["1.24.0","1.22.0","1.18.1","1.16.1","1.14.1"];
     </script>
 
 

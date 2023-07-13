@@ -29,10 +29,10 @@ bioconductor-tcgabiolinks
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.25.3-0</code>,  <code>2.22.1-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.3-0</code>,  <code>2.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.28.3-0</code>,  <code>2.25.3-0</code>,  <code>2.22.1-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.3-0</code>,  </span></summary>
       
 
-      ``2.25.3-0``,  ``2.22.1-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.3-0``,  ``2.10.0-0``,  ``2.8.4-0``,  ``2.6.11-0``
+      ``2.28.3-0``,  ``2.25.3-0``,  ``2.22.1-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.3-0``,  ``2.10.0-0``,  ``2.8.4-0``,  ``2.6.11-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-tcgabiolinks
       
 
    
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-tcgabiolinksgui.data: ``>=1.18.0,<1.19.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-tcgabiolinksgui.data: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-downloader: ``>=0.4``
    :depends r-dplyr: 
@@ -96,7 +96,7 @@ bioconductor-tcgabiolinks
 
     <script>
         var package = "bioconductor-tcgabiolinks";
-        var versions = ["2.25.3","2.22.1","2.20.0","2.18.0","2.18.0"];
+        var versions = ["2.28.3","2.25.3","2.22.1","2.20.0","2.18.0"];
     </script>
 
 

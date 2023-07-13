@@ -27,15 +27,15 @@ bioconductor-rifi
       
       
 
-      ``1.2.0-0``
+      ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-car: 
    :depends r-cowplot: 
    :depends r-domc: 
@@ -81,7 +81,7 @@ bioconductor-rifi
 
     <script>
         var package = "bioconductor-rifi";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.1","1.2.0"];
     </script>
 
 

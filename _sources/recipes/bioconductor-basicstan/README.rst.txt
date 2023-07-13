@@ -27,22 +27,21 @@ bioconductor-basicstan
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-basics: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-glmgampoi: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-scran: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-scuttle: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-basics: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-glmgampoi: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-scran: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-scuttle: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: ``>=1.66.0``
    :depends r-rcpp: ``>=0.12.0``
    :depends r-rcppeigen: ``>=0.3.3.3.0``
@@ -81,7 +80,7 @@ bioconductor-basicstan
 
     <script>
         var package = "bioconductor-basicstan";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.2.0","1.0.0","1.0.0"];
     </script>
 
 

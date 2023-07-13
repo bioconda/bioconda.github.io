@@ -27,7 +27,7 @@ r-tmae
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -38,7 +38,7 @@ r-tmae
    :depends bioconductor-genomicscores: 
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biocmanager: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -75,7 +75,7 @@ r-tmae
 
     <script>
         var package = "r-tmae";
-        var versions = ["1.0.4","1.0.4","1.0.2","1.0.0","1.0.0"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.2","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-genefu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.2-0</code>,  <code>2.22.1-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.2-0</code>,  <code>2.22.1-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  </span></summary>
       
 
-      ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+      ``2.32.0-0``,  ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-genefu
       
 
    
-   :depends bioconductor-aims: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-survcomp: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-aims: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-survcomp: ``>=1.50.0,<1.51.0``
    :depends r-amap: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ic10: 
    :depends r-mclust: 
    :requirements:
@@ -81,7 +81,7 @@ bioconductor-genefu
 
     <script>
         var package = "bioconductor-genefu";
-        var versions = ["2.30.0","2.26.0","2.24.2","2.22.1","2.22.0"];
+        var versions = ["2.32.0","2.30.0","2.26.0","2.24.2","2.22.1"];
     </script>
 
 

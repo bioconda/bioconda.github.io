@@ -27,19 +27,19 @@ bioconductor-genetonic
       
       
 
-      ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends r-backbone: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bs4dash: ``>=2.0.0``
    :depends r-circlize: 
    :depends r-colorspace: 
@@ -53,6 +53,7 @@ bioconductor-genetonic
    :depends r-ggforce: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
+   :depends r-ggridges: 
    :depends r-igraph: 
    :depends r-matrixstats: 
    :depends r-plotly: 
@@ -100,7 +101,7 @@ bioconductor-genetonic
 
     <script>
         var package = "bioconductor-genetonic";
-        var versions = ["2.2.0","1.6.0","1.4.0","1.2.0","1.2.0"];
+        var versions = ["2.4.0","2.2.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

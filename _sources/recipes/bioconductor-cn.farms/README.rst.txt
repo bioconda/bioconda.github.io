@@ -29,10 +29,10 @@ bioconductor-cn.farms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  </span></summary>
       
 
-      ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+      ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -41,17 +41,17 @@ bioconductor-cn.farms
       
 
    
-   :depends bioconductor-affxparser: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-dnacopy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-oligoclasses: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-affxparser: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-dnacopy: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-oligo: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-oligoclasses: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbi: 
    :depends r-ff: 
    :depends r-lattice: 
@@ -87,7 +87,7 @@ bioconductor-cn.farms
 
     <script>
         var package = "bioconductor-cn.farms";
-        var versions = ["1.46.0","1.46.0","1.42.0","1.42.0","1.42.0"];
+        var versions = ["1.48.0","1.46.0","1.46.0","1.42.0","1.42.0"];
     </script>
 
 

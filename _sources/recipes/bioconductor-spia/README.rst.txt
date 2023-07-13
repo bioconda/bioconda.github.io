@@ -29,10 +29,10 @@ bioconductor-spia
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.50.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.34.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  </span></summary>
       
 
-      ``2.50.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``
+      ``2.52.0-0``,  ``2.50.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-spia
       
 
    
-   :depends bioconductor-kegggraph: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-kegggraph: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ bioconductor-spia
 
     <script>
         var package = "bioconductor-spia";
-        var versions = ["2.50.0","2.46.0","2.44.0","2.42.0","2.42.0"];
+        var versions = ["2.52.0","2.50.0","2.46.0","2.44.0","2.42.0"];
     </script>
 
 

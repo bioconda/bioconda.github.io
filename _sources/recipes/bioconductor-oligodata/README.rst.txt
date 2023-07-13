@@ -28,10 +28,10 @@ bioconductor-oligodata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.0-10</code>,  <code>1.8.0-9</code>,  <code>1.8.0-8</code>,  <code>1.8.0-7</code>,  <code>1.8.0-6</code>,  <code>1.8.0-5</code>,  <code>1.8.0-4</code>,  <code>1.8.0-3</code>,  <code>1.8.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-11</code>,  <code>1.8.0-10</code>,  <code>1.8.0-9</code>,  <code>1.8.0-8</code>,  <code>1.8.0-7</code>,  <code>1.8.0-6</code>,  <code>1.8.0-5</code>,  <code>1.8.0-4</code>,  <code>1.8.0-3</code>,  </span></summary>
       
 
-      ``1.8.0-10``,  ``1.8.0-9``,  ``1.8.0-8``,  ``1.8.0-7``,  ``1.8.0-6``,  ``1.8.0-5``,  ``1.8.0-4``,  ``1.8.0-3``,  ``1.8.0-2``,  ``1.8.0-0``
+      ``1.8.0-11``,  ``1.8.0-10``,  ``1.8.0-9``,  ``1.8.0-8``,  ``1.8.0-7``,  ``1.8.0-6``,  ``1.8.0-5``,  ``1.8.0-4``,  ``1.8.0-3``,  ``1.8.0-2``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-oligodata
       
 
    
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-oligo: ``>=1.64.0,<1.65.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

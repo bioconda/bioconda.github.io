@@ -28,10 +28,10 @@ bioconductor-rmassbank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.0-1</code>,  <code>3.8.0-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.13.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.10.0-0</code>,  <code>3.8.0-1</code>,  <code>3.8.0-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``3.8.0-1``,  ``3.8.0-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+      ``3.10.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
 
       
       .. raw:: html
@@ -40,19 +40,18 @@ bioconductor-rmassbank
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-chemmineob: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-chemminer: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-mzr: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-chemmineob: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-chemminer: ``>=3.52.0,<3.53.0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-mzr: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends openbabel: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-envipat: 
@@ -98,7 +97,7 @@ bioconductor-rmassbank
 
     <script>
         var package = "bioconductor-rmassbank";
-        var versions = ["3.8.0","3.8.0","3.4.0","3.4.0","3.4.0"];
+        var versions = ["3.10.0","3.8.0","3.8.0","3.4.0","3.4.0"];
     </script>
 
 

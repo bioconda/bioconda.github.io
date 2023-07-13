@@ -45,8 +45,9 @@ bioconductor-genegeneinter
    :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
    :depends bioconductor-snpstats: ``>=1.50.0,<1.51.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-factominer: 

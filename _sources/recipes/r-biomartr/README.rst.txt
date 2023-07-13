@@ -27,14 +27,14 @@ r-biomartr
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``
 
       
 
    
    :depends bioconductor-biomart: 
    :depends bioconductor-biostrings: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-curl: 
    :depends r-data.table: ``>=1.9.4``
    :depends r-downloader: ``>=0.3``
@@ -82,7 +82,7 @@ r-biomartr
 
     <script>
         var package = "r-biomartr";
-        var versions = ["1.0.4","1.0.3","1.0.2","1.0.2","0.9.2"];
+        var versions = ["1.0.4","1.0.4","1.0.3","1.0.2","1.0.2"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-topgo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.50.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.41.0-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.41.0-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  </span></summary>
       
 
-      ``2.50.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.41.0-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-1``,  ``2.22.0-0``
+      ``2.52.0-0``,  ``2.50.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.41.0-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-1``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-topgo
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbi: 
    :depends r-lattice: 
    :depends r-matrixstats: 
@@ -82,7 +82,7 @@ bioconductor-topgo
 
     <script>
         var package = "bioconductor-topgo";
-        var versions = ["2.50.0","2.46.0","2.44.0","2.42.0","2.42.0"];
+        var versions = ["2.52.0","2.50.0","2.46.0","2.44.0","2.42.0"];
     </script>
 
 

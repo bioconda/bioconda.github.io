@@ -26,22 +26,29 @@ r-quilt
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  </span></summary>
+      
 
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.3.1,<2.0a0``
    :depends mpfr: ``>=4.2.0,<5.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``
@@ -83,7 +90,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["1.0.4","1.0.4","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.3"];
     </script>
 
 

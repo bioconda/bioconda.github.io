@@ -53,6 +53,7 @@ bioconductor-rtracklayer
    :depends bioconductor-xvector: ``>=0.40.0,<0.41.0``
    :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rcurl: ``>=1.4-2``

@@ -27,9 +27,17 @@ r-scpred
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``v1.9.0-2``,  ``v1.9.0-1``,  ``v1.9.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>v1.9.0-2</code>,  <code>v1.9.0-1</code>,  </span></summary>
+      
 
+      ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``v1.9.0-2``,  ``v1.9.0-1``,  ``v1.9.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -76,7 +84,7 @@ r-scpred
 
     <script>
         var package = "r-scpred";
-        var versions = ["1.9.2","1.9.2","1.9.0","1.0","1.0"];
+        var versions = ["1.9.2","1.9.2","1.9.2","1.9.0","1.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ r-ccqtl
       
       
 
-      ``0.0.1_beta.2-0``,  ``0.0.1_beta.1-0``
+      ``0.0.1_beta.2-1``,  ``0.0.1_beta.2-0``,  ``0.0.1_beta.1-0``
 
       
 
@@ -70,7 +70,7 @@ r-ccqtl
 
     <script>
         var package = "r-ccqtl";
-        var versions = ["0.0.1_beta.2","0.0.1_beta.1"];
+        var versions = ["0.0.1_beta.2","0.0.1_beta.2","0.0.1_beta.1"];
     </script>
 
 

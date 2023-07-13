@@ -28,10 +28,10 @@ bioconductor-pd.feinberg.mm8.me.hx1
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.3-10</code>,  <code>0.99.3-9</code>,  <code>0.99.3-8</code>,  <code>0.99.3-7</code>,  <code>0.99.3-6</code>,  <code>0.99.3-5</code>,  <code>0.99.3-4</code>,  <code>0.99.3-3</code>,  <code>0.99.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.3-11</code>,  <code>0.99.3-10</code>,  <code>0.99.3-9</code>,  <code>0.99.3-8</code>,  <code>0.99.3-7</code>,  <code>0.99.3-6</code>,  <code>0.99.3-5</code>,  <code>0.99.3-4</code>,  <code>0.99.3-3</code>,  </span></summary>
       
 
-      ``0.99.3-10``,  ``0.99.3-9``,  ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
+      ``0.99.3-11``,  ``0.99.3-10``,  ``0.99.3-9``,  ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-pd.feinberg.mm8.me.hx1
       
 
    
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-oligoclasses: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-oligo: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-oligoclasses: ``>=1.62.0,<1.63.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``
    :requirements:

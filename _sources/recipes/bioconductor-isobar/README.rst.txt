@@ -26,15 +26,23 @@ bioconductor-isobar
    :versions:
       
       
+      .. raw:: html
 
-      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  </span></summary>
+      
 
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-distr: 
    :depends r-ggplot2: 
    :depends r-plyr: 
@@ -69,7 +77,7 @@ bioconductor-isobar
 
     <script>
         var package = "bioconductor-isobar";
-        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.36.0"];
+        var versions = ["1.46.0","1.44.0","1.40.0","1.38.0","1.36.0"];
     </script>
 
 

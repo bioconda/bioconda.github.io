@@ -27,14 +27,14 @@ r-jetset
       
       
 
-      ``3.4.0-1``,  ``3.4.0-0``
+      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``
 
       
 
    
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-org.hs.eg.db: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ r-jetset
 
     <script>
         var package = "r-jetset";
-        var versions = ["3.4.0","3.4.0"];
+        var versions = ["3.4.0","3.4.0","3.4.0"];
     </script>
 
 
