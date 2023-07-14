@@ -27,26 +27,24 @@ bioconductor-nullranges
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.2-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-interactionset: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-plyranges: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-interactionset: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-plyranges: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-ggridges: 
-   :depends r-ks: 
    :depends r-progress: 
    :depends r-rlang: 
    :depends r-scales: 
-   :depends r-speedglm: 
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +76,7 @@ bioconductor-nullranges
 
     <script>
         var package = "bioconductor-nullranges";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.2","1.4.0","1.0.0"];
     </script>
 
 

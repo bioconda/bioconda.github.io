@@ -27,21 +27,21 @@ bioconductor-recount3
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.7-0``,  ``1.0.0-1``
+      ``1.10.2-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.7-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
+   :depends r-httr: 
    :depends r-matrix: 
    :depends r-r.utils: 
-   :depends r-rcurl: 
    :depends r-sessioninfo: 
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-recount3
 
     <script>
         var package = "bioconductor-recount3";
-        var versions = ["1.8.0","1.4.0","1.2.1","1.0.7","1.0.0"];
+        var versions = ["1.10.2","1.8.0","1.4.0","1.2.1","1.0.7"];
     </script>
 
 

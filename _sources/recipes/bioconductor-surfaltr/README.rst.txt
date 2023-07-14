@@ -27,15 +27,15 @@ bioconductor-surfaltr
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-msa: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-msa: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=1.0.6``
    :depends r-ggplot2: ``>=3.3.2``
    :depends r-httr: ``>=1.4.2``
@@ -76,7 +76,7 @@ bioconductor-surfaltr
 
     <script>
         var package = "bioconductor-surfaltr";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

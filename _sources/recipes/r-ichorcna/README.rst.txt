@@ -26,9 +26,17 @@ r-ichorcna
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.2.0-3</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
 
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,7 +46,7 @@ r-ichorcna
    :depends bioconductor-genomicranges: ``>=1.42.0``
    :depends bioconductor-hmmcopy: ``>=1.32.0``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-domc: ``>=1.3.6``
    :depends r-foreach: ``>=1.5.0``
    :depends r-ggplot2: ``>=3.3.5``
@@ -76,7 +84,7 @@ r-ichorcna
 
     <script>
         var package = "r-ichorcna";
-        var versions = ["0.5.0","0.3.2","0.3.2","0.3.2","0.2.0"];
+        var versions = ["0.5.0","0.5.0","0.3.2","0.3.2","0.3.2"];
     </script>
 
 

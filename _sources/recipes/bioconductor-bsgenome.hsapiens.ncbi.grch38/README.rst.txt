@@ -28,10 +28,10 @@ bioconductor-bsgenome.hsapiens.ncbi.grch38
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1000-10</code>,  <code>1.3.1000-9</code>,  <code>1.3.1000-8</code>,  <code>1.3.1000-7</code>,  <code>1.3.1000-6</code>,  <code>1.3.1000-5</code>,  <code>1.3.1000-4</code>,  <code>1.3.1000-3</code>,  <code>1.3.1000-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1000-11</code>,  <code>1.3.1000-10</code>,  <code>1.3.1000-9</code>,  <code>1.3.1000-8</code>,  <code>1.3.1000-7</code>,  <code>1.3.1000-6</code>,  <code>1.3.1000-5</code>,  <code>1.3.1000-4</code>,  <code>1.3.1000-3</code>,  </span></summary>
       
 
-      ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-6``,  ``1.3.1000-5``,  ``1.3.1000-4``,  ``1.3.1000-3``,  ``1.3.1000-2``,  ``1.3.1000-0``
+      ``1.3.1000-11``,  ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-6``,  ``1.3.1000-5``,  ``1.3.1000-4``,  ``1.3.1000-3``,  ``1.3.1000-2``,  ``1.3.1000-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-bsgenome.hsapiens.ncbi.grch38
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

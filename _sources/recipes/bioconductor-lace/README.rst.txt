@@ -27,14 +27,14 @@ bioconductor-lace
       
       
 
-      ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bsplus: 
    :depends r-callr: 
    :depends r-configr: 
@@ -44,8 +44,10 @@ bioconductor-lace
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-dt: 
+   :depends r-forcats: 
    :depends r-foreach: 
    :depends r-fs: 
+   :depends r-ggplot2: 
    :depends r-htmltools: 
    :depends r-htmlwidgets: 
    :depends r-igraph: 
@@ -66,6 +68,7 @@ bioconductor-lace
    :depends r-sortable: 
    :depends r-stringi: 
    :depends r-stringr: 
+   :depends r-svglite: 
    :depends r-tidyr: 
    :requirements:
 
@@ -98,7 +101,7 @@ bioconductor-lace
 
     <script>
         var package = "bioconductor-lace";
-        var versions = ["2.2.0","1.6.0","1.4.0","1.2.1","1.2.0"];
+        var versions = ["2.4.0","2.2.0","1.6.0","1.4.0","1.2.1"];
     </script>
 
 

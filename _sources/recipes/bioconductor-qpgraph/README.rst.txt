@@ -29,10 +29,10 @@ bioconductor-qpgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.2-0</code>,  <code>2.28.1-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.3-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.2-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.2-0</code>,  <code>2.28.1-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.3-0</code>,  <code>2.24.0-0</code>,  </span></summary>
       
 
-      ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.2-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.3-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``
+      ``2.34.2-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.2-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.3-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``
 
       
       .. raw:: html
@@ -41,21 +41,21 @@ bioconductor-qpgraph
       
 
    
-   :depends bioconductor-annotate: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: ``>=1.5-0``
    :depends r-mvtnorm: 
    :depends r-qtl: 
@@ -90,7 +90,7 @@ bioconductor-qpgraph
 
     <script>
         var package = "bioconductor-qpgraph";
-        var versions = ["2.32.0","2.32.0","2.28.2","2.28.1","2.28.0"];
+        var versions = ["2.34.2","2.32.0","2.32.0","2.28.2","2.28.1"];
     </script>
 
 

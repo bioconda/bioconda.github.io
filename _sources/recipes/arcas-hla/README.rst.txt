@@ -30,7 +30,7 @@ arcas-hla
       
       
 
-      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -46,7 +46,7 @@ arcas-hla
    :depends pigz: 
    :depends python: ``>=3.6.1``
    :depends samtools: ``>=1.9``
-   :depends scipy: 
+   :depends scipy: ``1.1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +78,7 @@ arcas-hla
 
     <script>
         var package = "arcas-hla";
-        var versions = ["0.5.0","0.5.0","0.4.0","0.3.0","0.2.5"];
+        var versions = ["0.5.0","0.5.0","0.5.0","0.4.0","0.3.0"];
     </script>
 
 

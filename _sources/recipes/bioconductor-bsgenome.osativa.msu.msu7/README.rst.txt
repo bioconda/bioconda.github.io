@@ -27,15 +27,15 @@ bioconductor-bsgenome.osativa.msu.msu7
       
       
 
-      ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``,  ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
+      ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``,  ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-bsgenome.osativa.msu.msu7
 
     <script>
         var package = "bioconductor-bsgenome.osativa.msu.msu7";
-        var versions = ["0.99.2","0.99.2","0.99.2","0.99.2","0.99.1"];
+        var versions = ["0.99.2","0.99.2","0.99.2","0.99.2","0.99.2"];
     </script>
 
 

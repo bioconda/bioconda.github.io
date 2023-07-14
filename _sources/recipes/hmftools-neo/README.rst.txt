@@ -27,11 +27,12 @@ hmftools-neo
       
       
 
-      
+      ``1.0.1-0``
 
       
 
    
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +64,7 @@ hmftools-neo
 
     <script>
         var package = "hmftools-neo";
-        var versions = [];
+        var versions = ["1.0.1"];
     </script>
 
 

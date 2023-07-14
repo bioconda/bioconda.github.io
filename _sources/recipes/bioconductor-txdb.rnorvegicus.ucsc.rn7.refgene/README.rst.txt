@@ -27,16 +27,16 @@ bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene
       
       
 
-      ``3.15.0-0``,  ``3.14.0-1``,  ``3.14.0-0``
+      ``3.15.0-1``,  ``3.15.0-0``,  ``3.14.0-1``,  ``3.14.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene
 
     <script>
         var package = "bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene";
-        var versions = ["3.15.0","3.14.0","3.14.0"];
+        var versions = ["3.15.0","3.15.0","3.14.0","3.14.0"];
     </script>
 
 

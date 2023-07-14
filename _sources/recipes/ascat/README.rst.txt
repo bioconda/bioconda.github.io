@@ -37,10 +37,10 @@ ascat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.5.2-4</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.5.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.5.2-4</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  </span></summary>
       
 
-      ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.5-0``
+      ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.5-0``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ ascat
    
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -89,7 +89,7 @@ ascat
 
     <script>
         var package = "ascat";
-        var versions = ["3.1.1","3.0.0","3.0.0","2.5.2","2.5.2"];
+        var versions = ["3.1.1","3.1.1","3.0.0","3.0.0","2.5.2"];
     </script>
 
 

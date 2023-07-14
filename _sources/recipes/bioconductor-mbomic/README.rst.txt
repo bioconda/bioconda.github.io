@@ -27,12 +27,12 @@ bioconductor-mbomic
       
       
 
-      ``1.2.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-clustersim: 
    :depends r-data.table: 
@@ -72,7 +72,7 @@ bioconductor-mbomic
 
     <script>
         var package = "bioconductor-mbomic";
-        var versions = ["1.2.0"];
+        var versions = ["1.3.0","1.2.0"];
     </script>
 
 

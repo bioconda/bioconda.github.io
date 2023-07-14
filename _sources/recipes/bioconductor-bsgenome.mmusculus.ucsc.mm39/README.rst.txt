@@ -27,15 +27,15 @@ bioconductor-bsgenome.mmusculus.ucsc.mm39
       
       
 
-      ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm39
 
     <script>
         var package = "bioconductor-bsgenome.mmusculus.ucsc.mm39";
-        var versions = ["1.4.3","1.4.3","1.4.3"];
+        var versions = ["1.4.3","1.4.3","1.4.3","1.4.3"];
     </script>
 
 

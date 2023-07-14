@@ -27,19 +27,19 @@ bioconductor-scpdata
       
       
 
-      ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-data-packages: ``>=20221108``
-   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-qfeatures: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-qfeatures: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ bioconductor-scpdata
 
     <script>
         var package = "bioconductor-scpdata";
-        var versions = ["1.6.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

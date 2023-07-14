@@ -27,14 +27,14 @@ bioconductor-adamgui
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-adam: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-adam: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-colorramps: ``>=2.3``
    :depends r-data.table: ``>=1.11.4``
    :depends r-dplyr: ``>=0.7.6``
@@ -84,7 +84,7 @@ bioconductor-adamgui
 
     <script>
         var package = "bioconductor-adamgui";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["1.16.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

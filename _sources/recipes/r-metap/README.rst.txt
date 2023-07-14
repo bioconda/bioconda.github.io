@@ -27,12 +27,12 @@ r-metap
       
       
 
-      ``1.4-2``,  ``1.4-1``,  ``1.4-0``
+      ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-lattice: 
    :depends r-mathjaxr: ``>=0.8_3``
    :depends r-mutoss: 
@@ -69,7 +69,7 @@ r-metap
 
     <script>
         var package = "r-metap";
-        var versions = ["1.4","1.4","1.4"];
+        var versions = ["1.4","1.4","1.4","1.4"];
     </script>
 
 

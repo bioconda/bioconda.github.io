@@ -29,10 +29,10 @@ bioconductor-globaltest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.52.0-0</code>,  <code>5.48.0-0</code>,  <code>5.46.0-0</code>,  <code>5.44.0-1</code>,  <code>5.44.0-0</code>,  <code>5.42.0-0</code>,  <code>5.40.0-0</code>,  <code>5.38.0-1</code>,  <code>5.36.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.54.0-0</code>,  <code>5.52.0-0</code>,  <code>5.48.0-0</code>,  <code>5.46.0-0</code>,  <code>5.44.0-1</code>,  <code>5.44.0-0</code>,  <code>5.42.0-0</code>,  <code>5.40.0-0</code>,  <code>5.38.0-1</code>,  </span></summary>
       
 
-      ``5.52.0-0``,  ``5.48.0-0``,  ``5.46.0-0``,  ``5.44.0-1``,  ``5.44.0-0``,  ``5.42.0-0``,  ``5.40.0-0``,  ``5.38.0-1``,  ``5.36.0-1``,  ``5.36.0-0``,  ``5.34.1-0``,  ``5.32.0-0``,  ``5.30.0-0``
+      ``5.54.0-0``,  ``5.52.0-0``,  ``5.48.0-0``,  ``5.46.0-0``,  ``5.44.0-1``,  ``5.44.0-0``,  ``5.42.0-0``,  ``5.40.0-0``,  ``5.38.0-1``,  ``5.36.0-1``,  ``5.36.0-0``,  ``5.34.1-0``,  ``5.32.0-0``,  ``5.30.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-globaltest
       
 
    
-   :depends bioconductor-annotate: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-survival: 
    :requirements:
 
@@ -77,7 +77,7 @@ bioconductor-globaltest
 
     <script>
         var package = "bioconductor-globaltest";
-        var versions = ["5.52.0","5.48.0","5.46.0","5.44.0","5.44.0"];
+        var versions = ["5.54.0","5.52.0","5.48.0","5.46.0","5.44.0"];
     </script>
 
 

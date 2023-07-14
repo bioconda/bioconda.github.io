@@ -27,16 +27,16 @@ bioconductor-muscdata
       
       
 
-      ``1.12.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221108``
-   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ bioconductor-muscdata
 
     <script>
         var package = "bioconductor-muscdata";
-        var versions = ["1.12.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.8.0","1.8.0","1.6.0"];
     </script>
 
 

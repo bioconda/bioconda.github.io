@@ -27,12 +27,12 @@ r-spring
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-huge: 
    :depends r-mixedcca: 
    :depends r-mvtnorm: 
@@ -70,7 +70,7 @@ r-spring
 
     <script>
         var package = "r-spring";
-        var versions = ["1.0.4","1.0.4"];
+        var versions = ["1.0.4","1.0.4","1.0.4"];
     </script>
 
 

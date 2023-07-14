@@ -27,7 +27,7 @@ r-rtassel
       
       
 
-      ``0.1.2019.07.25-4``,  ``0.1.2019.07.25-3``,  ``0.1.2019.07.25-2``,  ``0.1.2019.07.25-1``,  ``0.1.2019.07.25-0``
+      ``0.1.2019.07.25-5``,  ``0.1.2019.07.25-4``,  ``0.1.2019.07.25-3``,  ``0.1.2019.07.25-2``,  ``0.1.2019.07.25-1``,  ``0.1.2019.07.25-0``
 
       
 
@@ -35,13 +35,14 @@ r-rtassel
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-knitr: 
    :depends r-purrr: 
    :depends r-rjava: 
    :depends r-rlang: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

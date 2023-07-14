@@ -27,19 +27,19 @@ bioconductor-signaturesearchdata
       
       
 
-      ``1.12.0-0``,  ``1.8.4-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.14-1``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.4-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.14-1``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-data-packages: ``>=20221108``
-   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-r.utils: 
@@ -74,7 +74,7 @@ bioconductor-signaturesearchdata
 
     <script>
         var package = "bioconductor-signaturesearchdata";
-        var versions = ["1.12.0","1.8.4","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.8.4","1.8.0","1.6.0"];
     </script>
 
 

@@ -27,18 +27,17 @@ bioconductor-plotgardener
       
       
 
-      ``1.4.1-1``,  ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.6.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-plyranges: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-plyranges: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -48,6 +47,7 @@ bioconductor-plotgardener
    :depends r-rcpp: 
    :depends r-rlang: 
    :depends r-strawr: 
+   :depends r-withr: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ bioconductor-plotgardener
 
     <script>
         var package = "bioconductor-plotgardener";
-        var versions = ["1.4.1","1.4.1","1.0.17","1.0.14","1.0.1"];
+        var versions = ["1.6.2","1.4.1","1.4.1","1.0.17","1.0.14"];
     </script>
 
 

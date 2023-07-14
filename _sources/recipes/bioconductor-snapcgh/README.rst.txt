@@ -28,10 +28,10 @@ bioconductor-snapcgh
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  </span></summary>
       
 
-      ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``
+      ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``
 
       
       .. raw:: html
@@ -40,15 +40,14 @@ bioconductor-snapcgh
       
 
    
-   :depends bioconductor-acgh: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-dnacopy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-glad: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-tilingarray: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-acgh: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-dnacopy: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-glad: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-tilingarray: ``>=1.78.0,<1.79.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :requirements:
 
@@ -81,7 +80,7 @@ bioconductor-snapcgh
 
     <script>
         var package = "bioconductor-snapcgh";
-        var versions = ["1.68.0","1.68.0","1.64.0","1.64.0","1.64.0"];
+        var versions = ["1.70.0","1.68.0","1.68.0","1.64.0","1.64.0"];
     </script>
 
 

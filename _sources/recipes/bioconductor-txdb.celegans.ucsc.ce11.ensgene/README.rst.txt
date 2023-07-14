@@ -26,17 +26,25 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
    :versions:
       
       
+      .. raw:: html
 
-      ``3.15.0-0``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.0-0``,  ``3.4.6-2``,  ``3.4.6-1``
+         <details><summary><span class="truncated-version-list"><code>3.15.0-1</code>,  <code>3.15.0-0</code>,  <code>3.12.0-4</code>,  <code>3.12.0-3</code>,  <code>3.12.0-2</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.11.0-0</code>,  <code>3.4.6-2</code>,  </span></summary>
+      
 
+      ``3.15.0-1``,  ``3.15.0-0``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.0-0``,  ``3.4.6-2``,  ``3.4.6-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +76,7 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
 
     <script>
         var package = "bioconductor-txdb.celegans.ucsc.ce11.ensgene";
-        var versions = ["3.15.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+        var versions = ["3.15.0","3.15.0","3.12.0","3.12.0","3.12.0"];
     </script>
 
 
