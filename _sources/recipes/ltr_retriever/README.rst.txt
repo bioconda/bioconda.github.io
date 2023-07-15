@@ -27,15 +27,17 @@ ltr_retriever
       
       
 
-      ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
+      ``2.9.5-0``,  ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
 
       
 
    
    :depends cd-hit: 
+   :depends libstdcxx-ng: ``<13``
    :depends perl: 
    :depends perl-text-soundex: 
-   :depends repeatmasker: 
+   :depends repeatmasker: ``<4.1.5``
+   :depends rmblast: ``<2.11``
    :depends tesorter: 
    :requirements:
 
@@ -68,7 +70,7 @@ ltr_retriever
 
     <script>
         var package = "ltr_retriever";
-        var versions = ["2.9.4","2.9.0","2.9.0","2.9.0","2.9.0"];
+        var versions = ["2.9.5","2.9.4","2.9.0","2.9.0","2.9.0"];
     </script>
 
 

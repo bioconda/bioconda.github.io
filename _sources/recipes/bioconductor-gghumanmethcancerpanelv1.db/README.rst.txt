@@ -28,10 +28,10 @@ bioconductor-gghumanmethcancerpanelv1.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-10</code>,  <code>1.4.1-9</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-11</code>,  <code>1.4.1-10</code>,  <code>1.4.1-9</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  </span></summary>
       
 
-      ``1.4.1-10``,  ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``
+      ``1.4.1-11``,  ``1.4.1-10``,  ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-gghumanmethcancerpanelv1.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-annotationforge: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-data-packages: ``>=20221102``
-   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-annotationforge: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

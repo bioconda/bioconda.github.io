@@ -26,23 +26,31 @@ bioconductor-crossmeta
    :versions:
       
       
+      .. raw:: html
 
-      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.15.0-1``,  ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.15.0-1</code>,  <code>1.15.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+      
 
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.15.0-1``,  ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affxparser: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-geoquery: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-oligo: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-affxparser: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-geoquery: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-oligo: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biocmanager: ``>=1.30.4``
    :depends r-data.table: ``>=1.10.4``
    :depends r-dbi: ``>=1.0.0``
@@ -94,7 +102,7 @@ bioconductor-crossmeta
 
     <script>
         var package = "bioconductor-crossmeta";
-        var versions = ["1.24.0","1.20.0","1.18.0","1.15.0","1.15.0"];
+        var versions = ["1.26.0","1.24.0","1.20.0","1.18.0","1.15.0"];
     </script>
 
 

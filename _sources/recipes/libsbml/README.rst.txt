@@ -28,10 +28,10 @@ libsbml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.18.0-9</code>,  <code>5.18.0-8</code>,  <code>5.18.0-7</code>,  <code>5.18.0-6</code>,  <code>5.18.0-5</code>,  <code>5.18.0-4</code>,  <code>5.18.0-3</code>,  <code>5.18.0-2</code>,  <code>5.18.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.18.0-10</code>,  <code>5.18.0-9</code>,  <code>5.18.0-8</code>,  <code>5.18.0-7</code>,  <code>5.18.0-6</code>,  <code>5.18.0-5</code>,  <code>5.18.0-4</code>,  <code>5.18.0-3</code>,  <code>5.18.0-2</code>,  </span></summary>
       
 
-      ``5.18.0-9``,  ``5.18.0-8``,  ``5.18.0-7``,  ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
+      ``5.18.0-10``,  ``5.18.0-9``,  ``5.18.0-8``,  ``5.18.0-7``,  ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
 
       
       .. raw:: html

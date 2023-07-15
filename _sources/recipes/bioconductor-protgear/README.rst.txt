@@ -27,16 +27,16 @@ bioconductor-protgear
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-vsn: ``>=3.66.0,<3.67.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-vsn: ``>=3.68.0,<3.69.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: ``>=1.14.0``
    :depends r-dplyr: ``>=0.8.0``
    :depends r-factoextra: ``>=1.0.7``
@@ -47,7 +47,6 @@ bioconductor-protgear
    :depends r-ggpubr: ``>=0.4.0``
    :depends r-gtools: ``>=3.8.2``
    :depends r-htmltools: ``>=0.4.0``
-   :depends r-kableextra: ``>=1.3.4``
    :depends r-kendall: ``>=2.2``
    :depends r-knitr: ``>=1.33``
    :depends r-magrittr: ``>=1.5``
@@ -96,7 +95,7 @@ bioconductor-protgear
 
     <script>
         var package = "bioconductor-protgear";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

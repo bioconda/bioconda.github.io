@@ -29,10 +29,10 @@ bioconductor-sim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  </span></summary>
       
 
-      ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
+      ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-sim
       
 
    
-   :depends bioconductor-globaltest: ``>=5.52.0,<5.53.0``
-   :depends bioconductor-quantsmooth: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-globaltest: ``>=5.54.0,<5.55.0``
+   :depends bioconductor-quantsmooth: ``>=1.66.0,<1.67.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-quantreg: 
    :requirements:
 
@@ -79,7 +79,7 @@ bioconductor-sim
 
     <script>
         var package = "bioconductor-sim";
-        var versions = ["1.68.0","1.68.0","1.64.0","1.64.0","1.64.0"];
+        var versions = ["1.70.0","1.68.0","1.68.0","1.64.0","1.64.0"];
     </script>
 
 

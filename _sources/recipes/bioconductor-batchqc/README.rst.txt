@@ -29,10 +29,10 @@ bioconductor-batchqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-batchqc
       
 
    
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
    :depends pandoc: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-corpcor: 
    :depends r-ggvis: 
    :depends r-gplots: 
@@ -89,7 +89,7 @@ bioconductor-batchqc
 
     <script>
         var package = "bioconductor-batchqc";
-        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.18.0"];
+        var versions = ["1.28.0","1.26.0","1.22.0","1.20.0","1.18.0"];
     </script>
 
 

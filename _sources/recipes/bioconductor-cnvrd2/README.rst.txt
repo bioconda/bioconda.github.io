@@ -26,17 +26,25 @@ bioconductor-cnvrd2
    :versions:
       
       
+      .. raw:: html
 
-      ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+      
 
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-dnacopy: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-dnacopy: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-variantannotation: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-rjags: 
@@ -71,7 +79,7 @@ bioconductor-cnvrd2
 
     <script>
         var package = "bioconductor-cnvrd2";
-        var versions = ["1.36.0","1.32.0","1.30.0","1.28.0","1.28.0"];
+        var versions = ["1.38.0","1.36.0","1.32.0","1.30.0","1.28.0"];
     </script>
 
 

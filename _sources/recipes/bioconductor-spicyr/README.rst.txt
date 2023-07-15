@@ -27,19 +27,19 @@ bioconductor-spicyr
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-spatialexperiment: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-spatialexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-concaveman: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -51,7 +51,7 @@ bioconductor-spicyr
    :depends r-pheatmap: 
    :depends r-rlang: 
    :depends r-scam: 
-   :depends r-spatstat.core: 
+   :depends r-spatstat.explore: 
    :depends r-spatstat.geom: 
    :depends r-tidyr: 
    :requirements:
@@ -85,7 +85,7 @@ bioconductor-spicyr
 
     <script>
         var package = "bioconductor-spicyr";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.1","1.2.0"];
+        var versions = ["1.12.0","1.10.0","1.6.0","1.4.0","1.2.1"];
     </script>
 
 

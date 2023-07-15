@@ -26,23 +26,31 @@ bioconductor-sesame
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.4-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.3-0</code>,  <code>1.8.2-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.18.4-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-illuminaio: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-sesamedata: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-illuminaio: ``>=0.42.0,<0.43.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-sesamedata: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-mass: 
@@ -82,7 +90,7 @@ bioconductor-sesame
 
     <script>
         var package = "bioconductor-sesame";
-        var versions = ["1.16.0","1.12.0","1.10.3","1.8.2","1.8.0"];
+        var versions = ["1.18.4","1.16.0","1.12.0","1.10.3","1.8.2"];
     </script>
 
 

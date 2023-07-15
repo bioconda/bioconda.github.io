@@ -28,10 +28,10 @@ bioconductor-homo.sapiens
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-14</code>,  <code>1.3.1-13</code>,  <code>1.3.1-12</code>,  <code>1.3.1-11</code>,  <code>1.3.1-10</code>,  <code>1.3.1-9</code>,  <code>1.3.1-8</code>,  <code>1.3.1-7</code>,  <code>1.3.1-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-15</code>,  <code>1.3.1-14</code>,  <code>1.3.1-13</code>,  <code>1.3.1-12</code>,  <code>1.3.1-11</code>,  <code>1.3.1-10</code>,  <code>1.3.1-9</code>,  <code>1.3.1-8</code>,  <code>1.3.1-7</code>,  </span></summary>
       
 
-      ``1.3.1-14``,  ``1.3.1-13``,  ``1.3.1-12``,  ``1.3.1-11``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-15``,  ``1.3.1-14``,  ``1.3.1-13``,  ``1.3.1-12``,  ``1.3.1-11``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-homo.sapiens
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-data-packages: ``>=20221102``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-organismdbi: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-organismdbi: ``>=1.42.0,<1.43.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

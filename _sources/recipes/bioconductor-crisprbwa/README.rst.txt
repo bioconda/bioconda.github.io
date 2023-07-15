@@ -27,17 +27,17 @@ bioconductor-crisprbwa
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-crisprbase: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-rbwa: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-crisprbase: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-rbwa: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-readr: 
    :depends r-stringr: 
    :requirements:
@@ -71,7 +71,7 @@ bioconductor-crisprbwa
 
     <script>
         var package = "bioconductor-crisprbwa";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

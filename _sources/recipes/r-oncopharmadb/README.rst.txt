@@ -27,13 +27,21 @@ r-oncopharmadb
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``1.3.7-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-assertthat: 
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-googledrive: 
+   :depends r-lgr: 
    :depends r-magrittr: 
+   :depends r-rlang: 
+   :depends r-stringr: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +73,7 @@ r-oncopharmadb
 
     <script>
         var package = "r-oncopharmadb";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["1.3.7","0.0.1","0.0.1"];
     </script>
 
 

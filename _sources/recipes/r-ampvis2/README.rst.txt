@@ -28,10 +28,10 @@ r-ampvis2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.32-1</code>,  <code>2.7.32-0</code>,  <code>2.7.29-1</code>,  <code>2.7.29-0</code>,  <code>2.7.27-0</code>,  <code>2.7.26-0</code>,  <code>2.7.24-0</code>,  <code>2.7.22-0</code>,  <code>2.7.21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.32-2</code>,  <code>2.7.32-1</code>,  <code>2.7.32-0</code>,  <code>2.7.29-1</code>,  <code>2.7.29-0</code>,  <code>2.7.27-0</code>,  <code>2.7.26-0</code>,  <code>2.7.24-0</code>,  <code>2.7.22-0</code>,  </span></summary>
       
 
-      ``2.7.32-1``,  ``2.7.32-0``,  ``2.7.29-1``,  ``2.7.29-0``,  ``2.7.27-0``,  ``2.7.26-0``,  ``2.7.24-0``,  ``2.7.22-0``,  ``2.7.21-0``,  ``2.7.17-1``,  ``2.7.17-0``,  ``2.7.12-1``,  ``2.7.12-0``
+      ``2.7.32-2``,  ``2.7.32-1``,  ``2.7.32-0``,  ``2.7.29-1``,  ``2.7.29-0``,  ``2.7.27-0``,  ``2.7.26-0``,  ``2.7.24-0``,  ``2.7.22-0``,  ``2.7.21-0``,  ``2.7.17-1``,  ``2.7.17-0``,  ``2.7.12-1``,  ``2.7.12-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ r-ampvis2
    :depends bioconductor-biomformat: 
    :depends parallel: 
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-data.table: 
@@ -98,7 +98,7 @@ r-ampvis2
 
     <script>
         var package = "r-ampvis2";
-        var versions = ["2.7.32","2.7.32","2.7.29","2.7.29","2.7.27"];
+        var versions = ["2.7.32","2.7.32","2.7.32","2.7.29","2.7.29"];
     </script>
 
 

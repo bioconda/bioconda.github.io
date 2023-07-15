@@ -16,7 +16,7 @@ rgt
    :documentation: http://www.regulatory-genomics.org/rgt/tutorial/
    
    :developer docs: https://github.com/CostaLab/reg-gen
-   :license: GPL / GPL
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`rgt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgt/meta.yaml>`_
 
    
@@ -29,35 +29,43 @@ rgt
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-0``,  ``0.12.3-3``,  ``0.12.3-2``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.3-3</code>,  <code>0.12.3-2</code>,  <code>0.12.3-1</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.11.4-2</code>,  <code>0.11.4-1</code>,  </span></summary>
+      
 
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.3-3``,  ``0.12.3-2``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends adjusttext: 
-   :depends biopython: 
-   :depends fisher: 
+   :depends biopython: ``>=1.64``
+   :depends fisher: ``>=0.1.5``
    :depends hmmlearn: ``0.2.2``
    :depends htseq: 
    :depends joblib: 
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends logomaker: 
-   :depends matplotlib-base: 
+   :depends matplotlib-base: ``>=1.1.0``
    :depends matplotlib-venn: 
-   :depends moods: 
+   :depends moods: ``>=1.9.4.1``
    :depends mpmath: 
    :depends natsort: 
-   :depends numpy: 
+   :depends numpy: ``>=1.4.0``
    :depends pandas: 
    :depends pybigwig: 
    :depends pysam: ``>=0.20.0``
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``
    :depends pyx: 
-   :depends scikit-learn: 
-   :depends scipy: 
+   :depends scikit-learn: ``>=0.19.0``
+   :depends scipy: ``>=1.0.0``
    :depends seaborn: 
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-bedtobigbed: 
@@ -95,7 +103,7 @@ rgt
 
     <script>
         var package = "rgt";
-        var versions = ["1.0.0","0.12.3","0.12.3","0.12.3","0.12.3"];
+        var versions = ["1.0.1","1.0.0","0.12.3","0.12.3","0.12.3"];
     </script>
 
 

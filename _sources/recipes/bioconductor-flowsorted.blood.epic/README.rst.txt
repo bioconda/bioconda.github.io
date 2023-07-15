@@ -28,10 +28,10 @@ bioconductor-flowsorted.blood.epic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.2-0</code>,  <code>2.2.0-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``2.4.2-0``,  ``2.2.0-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-flowsorted.blood.epic
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-data-packages: ``>=20221110``
-   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-nlme: 
    :depends r-quadprog: 
    :requirements:
@@ -82,7 +82,7 @@ bioconductor-flowsorted.blood.epic
 
     <script>
         var package = "bioconductor-flowsorted.blood.epic";
-        var versions = ["2.2.0","1.12.1","1.12.1","1.10.0","1.8.0"];
+        var versions = ["2.4.2","2.2.0","1.12.1","1.12.1","1.10.0"];
     </script>
 
 

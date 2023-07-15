@@ -29,10 +29,10 @@ bioconductor-category
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.64.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-1</code>,  <code>2.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-1</code>,  </span></summary>
       
 
-      ``2.64.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.1-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``
+      ``2.66.0-0``,  ``2.64.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.1-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-category
       
 
    
-   :depends bioconductor-annotate: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-rbgl: ``>=1.74.0,<1.75.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rbgl: ``>=1.76.0,<1.77.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbi: 
    :depends r-matrix: 
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-category
 
     <script>
         var package = "bioconductor-category";
-        var versions = ["2.64.0","2.60.0","2.58.0","2.56.0","2.56.0"];
+        var versions = ["2.66.0","2.64.0","2.60.0","2.58.0","2.56.0"];
     </script>
 
 

@@ -26,16 +26,24 @@ bioconductor-gep2pep
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-digest: 
    :depends r-foreach: 
    :depends r-iterators: 
@@ -72,7 +80,7 @@ bioconductor-gep2pep
 
     <script>
         var package = "bioconductor-gep2pep";
-        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
+        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

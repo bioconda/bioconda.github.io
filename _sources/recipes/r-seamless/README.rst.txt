@@ -27,13 +27,13 @@ r-seamless
       
       
 
-      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends bioconductor-biobase: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-ggtern: 
    :depends r-music: 
@@ -70,7 +70,7 @@ r-seamless
 
     <script>
         var package = "r-seamless";
-        var versions = ["0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.0","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

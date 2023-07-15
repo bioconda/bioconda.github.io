@@ -27,16 +27,16 @@ bioconductor-shinyepico
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: ``>=1.13.0``
    :depends r-doparallel: ``>=1.0.0``
    :depends r-dplyr: ``>=1.0.9``
@@ -88,7 +88,7 @@ bioconductor-shinyepico
 
     <script>
         var package = "bioconductor-shinyepico";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -27,16 +27,17 @@ bioconductor-spasim
       
       
 
-      ``1.0.0-0``
+      ``1.2.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-spatialexperiment: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-spatialexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-rann: 
    :depends r-spatstat.geom: 
    :depends r-spatstat.random: 
    :requirements:
@@ -70,7 +71,7 @@ bioconductor-spasim
 
     <script>
         var package = "bioconductor-spasim";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.1","1.0.0"];
     </script>
 
 

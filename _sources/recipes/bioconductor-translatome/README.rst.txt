@@ -26,24 +26,31 @@ bioconductor-translatome
    :versions:
       
       
+      .. raw:: html
 
-      ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.5-0``,  ``1.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.5-0</code>,  </span></summary>
+      
 
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.5-0``,  ``1.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-anota: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-gosemsim: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-heatplus: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-rankprod: ``>=3.24.0,<3.25.0``
-   :depends bioconductor-sigpathway: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-anota: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-gosemsim: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-heatplus: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-rankprod: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-topgo: ``>=2.52.0,<2.53.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gplots: 
    :depends r-plotrix: 
    :requirements:
@@ -77,7 +84,7 @@ bioconductor-translatome
 
     <script>
         var package = "bioconductor-translatome";
-        var versions = ["1.36.0","1.32.0","1.30.0","1.26.0","1.24.0"];
+        var versions = ["1.38.0","1.36.0","1.32.0","1.30.0","1.26.0"];
     </script>
 
 
