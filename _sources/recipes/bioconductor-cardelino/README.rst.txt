@@ -27,18 +27,18 @@ bioconductor-cardelino
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-ggtree: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-snpstats: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-ggtree: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-snpstats: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-variantannotation: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-combinat: 
    :depends r-ggplot2: 
    :depends r-matrix: 
@@ -76,7 +76,7 @@ bioconductor-cardelino
 
     <script>
         var package = "bioconductor-cardelino";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

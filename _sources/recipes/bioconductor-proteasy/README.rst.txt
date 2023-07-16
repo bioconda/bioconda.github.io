@@ -27,18 +27,18 @@ bioconductor-proteasy
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationfilter: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-annotationfilter: ``>=1.24.0,<1.25.0``
    :depends bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
    :depends bioconductor-ensdb.mmusculus.v79: ``>=2.99.0,<2.100.0``
    :depends bioconductor-ensdb.rnorvegicus.v79: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-ensembldb: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rcpi: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-ensembldb: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-rcpi: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-stringr: 
    :requirements:
@@ -72,7 +72,7 @@ bioconductor-proteasy
 
     <script>
         var package = "bioconductor-proteasy";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

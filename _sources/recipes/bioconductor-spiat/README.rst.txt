@@ -27,39 +27,31 @@ bioconductor-spiat
       
       
 
-      ``1.0.0-0``
+      ``1.2.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-dittoseq: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-spatialexperiment: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-alphahull: 
+   :depends bioconductor-dittoseq: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-spatialexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends r-apcluster: ``>=1.4.7``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbscan: ``>=1.1-5``
    :depends r-dplyr: ``>=0.8.3``
-   :depends r-elsa: 
    :depends r-ggplot2: ``>=3.2.1``
    :depends r-gridextra: ``>=2.3``
    :depends r-gtools: ``>=3.8.1``
    :depends r-mmand: ``>=1.5.4``
-   :depends r-plotly: ``>=4.9.0``
    :depends r-pracma: ``>=2.2.5``
    :depends r-rann: ``>=2.6.1``
    :depends r-raster: 
    :depends r-reshape2: ``>=1.4.3``
-   :depends r-rlang: 
-   :depends r-rtsne: 
    :depends r-sp: 
-   :depends r-spatstat.core: 
+   :depends r-spatstat.explore: 
    :depends r-spatstat.geom: 
    :depends r-tibble: ``>=2.1.3``
-   :depends r-umap: 
    :depends r-vroom: 
-   :depends r-xroi: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +83,7 @@ bioconductor-spiat
 
     <script>
         var package = "bioconductor-spiat";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.2","1.0.0"];
     </script>
 
 

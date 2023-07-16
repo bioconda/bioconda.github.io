@@ -27,14 +27,14 @@ bioconductor-tnbc.cms
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-gsva: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-gsva: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-e1071: 
    :depends r-forestplot: 
    :depends r-ggally: 
@@ -77,7 +77,7 @@ bioconductor-tnbc.cms
 
     <script>
         var package = "bioconductor-tnbc.cms";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.6.0"];
+        var versions = ["1.16.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

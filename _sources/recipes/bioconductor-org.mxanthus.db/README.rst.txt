@@ -27,18 +27,18 @@ bioconductor-org.mxanthus.db
       
       
 
-      ``1.0.27-7``,  ``1.0.27-6``,  ``1.0.27-5``,  ``1.0.27-3``,  ``1.0.27-2``,  ``1.0.27-1``,  ``1.0.27-0``,  ``1.0.23-0``
+      ``1.0.27-8``,  ``1.0.27-7``,  ``1.0.27-6``,  ``1.0.27-5``,  ``1.0.27-3``,  ``1.0.27-2``,  ``1.0.27-1``,  ``1.0.27-0``,  ``1.0.23-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-data-packages: ``>=20221103``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

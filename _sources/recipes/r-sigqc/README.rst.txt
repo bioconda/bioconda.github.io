@@ -28,10 +28,10 @@ r-sigqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.23-0</code>,  <code>0.1.22-2</code>,  <code>0.1.22-1</code>,  <code>0.1.22-0</code>,  <code>0.1.21-4</code>,  <code>0.1.21-3</code>,  <code>0.1.21-2</code>,  <code>0.1.21-1</code>,  <code>0.1.21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.23-1</code>,  <code>0.1.23-0</code>,  <code>0.1.22-2</code>,  <code>0.1.22-1</code>,  <code>0.1.22-0</code>,  <code>0.1.21-4</code>,  <code>0.1.21-3</code>,  <code>0.1.21-2</code>,  <code>0.1.21-1</code>,  </span></summary>
       
 
-      ``0.1.23-0``,  ``0.1.22-2``,  ``0.1.22-1``,  ``0.1.22-0``,  ``0.1.21-4``,  ``0.1.21-3``,  ``0.1.21-2``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.14-0``
+      ``0.1.23-1``,  ``0.1.23-0``,  ``0.1.22-2``,  ``0.1.22-1``,  ``0.1.22-0``,  ``0.1.21-4``,  ``0.1.21-3``,  ``0.1.21-2``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.14-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-sigqc
    
    :depends bioconductor-complexheatmap: 
    :depends bioconductor-gsva: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biclust: 
    :depends r-circlize: 
    :depends r-class: 
@@ -87,7 +87,7 @@ r-sigqc
 
     <script>
         var package = "r-sigqc";
-        var versions = ["0.1.23","0.1.22","0.1.22","0.1.22","0.1.21"];
+        var versions = ["0.1.23","0.1.23","0.1.22","0.1.22","0.1.22"];
     </script>
 
 

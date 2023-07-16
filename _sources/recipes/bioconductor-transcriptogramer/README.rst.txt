@@ -26,18 +26,26 @@ bioconductor-transcriptogramer
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-reder: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-topgo: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-reder: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-topgo: ``>=2.52.0,<2.53.0``
    :depends openjdk: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dosnow: 
    :depends r-foreach: 
@@ -77,7 +85,7 @@ bioconductor-transcriptogramer
 
     <script>
         var package = "bioconductor-transcriptogramer";
-        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
+        var versions = ["1.22.0","1.20.0","1.16.0","1.14.0","1.12.0"];
     </script>
 
 

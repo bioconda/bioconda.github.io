@@ -26,25 +26,33 @@ bioconductor-enmix
    :versions:
       
       
+      .. raw:: html
 
-      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.26.8-0``,  ``1.26.0-0``,  ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.36.01-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.26.8-0</code>,  <code>1.26.0-0</code>,  <code>1.25.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.3-0</code>,  </span></summary>
+      
 
+      ``1.36.01-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.26.8-0``,  ``1.26.0-0``,  ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-geneplotter: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-illuminaio: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-geneplotter: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-illuminaio: ``>=0.42.0,<0.43.0``
+   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-doparallel: 
    :depends r-dynamictreecut: 
    :depends r-foreach: 
@@ -84,7 +92,7 @@ bioconductor-enmix
 
     <script>
         var package = "bioconductor-enmix";
-        var versions = ["1.34.0","1.30.0","1.28.2","1.26.8","1.26.0"];
+        var versions = ["1.36.01","1.34.0","1.30.0","1.28.2","1.26.8"];
     </script>
 
 

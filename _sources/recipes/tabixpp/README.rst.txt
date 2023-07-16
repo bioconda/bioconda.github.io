@@ -10,9 +10,9 @@ tabixpp
    :replaces_section_title:
    :noindex:
 
-   This is a C\+\+ wrapper around tabix project which abstracts some of the details of opening and jumping in tabix\-indexed files.
+   A C\+\+ wrapper around the tabix project\, a generic indexer for TAB\-delimited genome position files.
 
-   :homepage: https://github.com/ekg/tabixpp
+   :homepage: https://github.com/vcflib/tabixpp
    :license: MIT / MIT
    :recipe: /`tabixpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabixpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabixpp/meta.yaml>`_
    :links: biotools: :biotools:`tabixpp`
@@ -29,10 +29,10 @@ tabixpp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-13</code>,  <code>1.1.0-12</code>,  <code>1.1.0-11</code>,  <code>1.1.0-10</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.0-13</code>,  <code>1.1.0-12</code>,  <code>1.1.0-11</code>,  <code>1.1.0-10</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  </span></summary>
       
 
-      ``1.1.0-13``,  ``1.1.0-12``,  ``1.1.0-11``,  ``1.1.0-10``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.2-0``,  ``1.1.0-13``,  ``1.1.0-12``,  ``1.1.0-11``,  ``1.1.0-10``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ tabixpp
       
 
    
-   :depends bc: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
@@ -49,7 +48,6 @@ tabixpp
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends samtools: 
    :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +79,7 @@ tabixpp
 
     <script>
         var package = "tabixpp";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.1.2","1.1.0","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

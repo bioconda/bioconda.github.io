@@ -13,7 +13,7 @@ dysgu
    A collection of tools for calling structural variants using short or long reads
 
    :homepage: https://github.com/kcleal/dysgu
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`dysgu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ dysgu
       
       
 
-      ``1.4.0-0``,  ``1.3.16-0``
+      ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
 
@@ -43,7 +43,7 @@ dysgu
    :depends lightgbm: 
    :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.18``
-   :depends numpy: ``>=1.25.0,<2.0a0``
+   :depends numpy: ``>=1.25.1,<2.0a0``
    :depends openssl: ``>=3.1.1,<4.0a0``
    :depends pandas: 
    :depends pysam: 
@@ -87,7 +87,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.4.0","1.3.16"];
+        var versions = ["1.4.2","1.4.0","1.3.16"];
     </script>
 
 

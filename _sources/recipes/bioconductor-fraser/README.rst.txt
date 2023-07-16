@@ -29,10 +29,10 @@ bioconductor-fraser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,32 +41,32 @@ bioconductor-fraser
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-delayedarray: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicalignments: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-outrider: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-pcamethods: ``>=1.90.0,<1.91.0``
-   :depends bioconductor-rhdf5: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-rsubread: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicalignments: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-outrider: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-pcamethods: ``>=1.92.0,<1.93.0``
+   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-rsubread: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bbmisc: 
    :depends r-cowplot: 
    :depends r-data.table: 
@@ -115,7 +115,7 @@ bioconductor-fraser
 
     <script>
         var package = "bioconductor-fraser";
-        var versions = ["1.10.0","1.10.0","1.6.1","1.6.1","1.6.1"];
+        var versions = ["1.12.1","1.10.0","1.10.0","1.6.1","1.6.1"];
     </script>
 
 

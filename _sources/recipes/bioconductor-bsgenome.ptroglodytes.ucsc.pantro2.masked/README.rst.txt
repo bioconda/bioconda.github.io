@@ -28,10 +28,10 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.99-10</code>,  <code>1.3.99-9</code>,  <code>1.3.99-8</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  <code>1.3.99-5</code>,  <code>1.3.99-4</code>,  <code>1.3.99-3</code>,  <code>1.3.99-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.99-11</code>,  <code>1.3.99-10</code>,  <code>1.3.99-9</code>,  <code>1.3.99-8</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  <code>1.3.99-5</code>,  <code>1.3.99-4</code>,  <code>1.3.99-3</code>,  </span></summary>
       
 
-      ``1.3.99-10``,  ``1.3.99-9``,  ``1.3.99-8``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+      ``1.3.99-11``,  ``1.3.99-10``,  ``1.3.99-9``,  ``1.3.99-8``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
    :depends bioconductor-bsgenome.ptroglodytes.ucsc.pantro2: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-data-packages: ``>=20221102``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

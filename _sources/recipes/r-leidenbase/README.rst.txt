@@ -26,22 +26,30 @@ r-leidenbase
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.12-0``,  ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.18-0</code>,  <code>0.1.12-0</code>,  <code>0.1.3-3</code>,  <code>0.1.3-2</code>,  <code>0.1.3-1</code>,  <code>0.1.3-0</code>,  <code>0.1.0-3</code>,  <code>0.1.0-2</code>,  <code>0.1.0-1</code>,  </span></summary>
+      
 
+      ``0.1.18-0``,  ``0.1.12-0``,  ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends glpk: ``>=5.0,<5.1.0a0``
+   :depends glpk: ``>=5.0,<6.0a0``
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.4.0``
+   :depends libgfortran5: ``>=12.3.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends libxml2: ``>=2.9.14,<2.10.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends libxml2: ``>=2.11.4,<2.12.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-igraph: ``>=1.3.4``
    :requirements:
 
@@ -74,7 +82,7 @@ r-leidenbase
 
     <script>
         var package = "r-leidenbase";
-        var versions = ["0.1.12","0.1.3","0.1.3","0.1.3","0.1.3"];
+        var versions = ["0.1.18","0.1.12","0.1.3","0.1.3","0.1.3"];
     </script>
 
 

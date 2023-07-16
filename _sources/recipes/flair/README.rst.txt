@@ -28,7 +28,7 @@ flair
       
       
 
-      ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
 
       
 
@@ -40,7 +40,7 @@ flair
    :depends bioconductor-stager: 
    :depends mappy: ``2.24.*``
    :depends matplotlib-base: 
-   :depends minimap2: 
+   :depends minimap2: ``2.24.*``
    :depends ncls: 
    :depends pandas: 
    :depends pybedtools: 
@@ -85,7 +85,7 @@ flair
 
     <script>
         var package = "flair";
-        var versions = ["2.0.0","1.7.0","1.7.0","1.6.4","1.6.3"];
+        var versions = ["2.0.0","2.0.0","1.7.0","1.7.0","1.6.4"];
     </script>
 
 

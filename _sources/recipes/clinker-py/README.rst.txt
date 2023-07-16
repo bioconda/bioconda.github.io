@@ -29,10 +29,10 @@ clinker-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.27-0</code>,  <code>0.0.26-0</code>,  <code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  <code>0.0.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.28-0</code>,  <code>0.0.27-0</code>,  <code>0.0.26-0</code>,  <code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  </span></summary>
       
 
-      ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.12-0``
+      ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.12-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ clinker-py
 
     <script>
         var package = "clinker-py";
-        var versions = ["0.0.27","0.0.26","0.0.25","0.0.24","0.0.23"];
+        var versions = ["0.0.28","0.0.27","0.0.26","0.0.25","0.0.24"];
     </script>
 
 

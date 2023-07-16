@@ -26,21 +26,29 @@ bioconductor-redseq
    :versions:
       
       
+      .. raw:: html
 
-      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  </span></summary>
+      
 
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
    :depends bioconductor-bsgenome.celegans.ucsc.ce2: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-chippeakanno: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-multtest: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-chippeakanno: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-multtest: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +80,7 @@ bioconductor-redseq
 
     <script>
         var package = "bioconductor-redseq";
-        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.36.0"];
+        var versions = ["1.46.0","1.44.0","1.40.0","1.38.0","1.36.0"];
     </script>
 
 

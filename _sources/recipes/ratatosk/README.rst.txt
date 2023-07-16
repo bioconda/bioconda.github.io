@@ -15,6 +15,7 @@ ratatosk
    :homepage: https://github.com/DecodeGenetics/Ratatosk
    :license: BSD-2-Clause
    :recipe: /`ratatosk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ratatosk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ratatosk/meta.yaml>`_
+   :links: biotools: :biotools:`ratatosk`, doi: :doi:`10.1186/s13059-020-02244-4`
 
    
 
@@ -27,7 +28,7 @@ ratatosk
       
       
 
-      ``0.7.6.3-2``,  ``0.7.6.3-1``,  ``0.7.6.3-0``
+      ``0.9.0-0``,  ``0.7.6.3-2``,  ``0.7.6.3-1``,  ``0.7.6.3-0``
 
       
 
@@ -35,7 +36,6 @@ ratatosk
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ ratatosk
 
     <script>
         var package = "ratatosk";
-        var versions = ["0.7.6.3","0.7.6.3","0.7.6.3"];
+        var versions = ["0.9.0","0.7.6.3","0.7.6.3","0.7.6.3"];
     </script>
 
 

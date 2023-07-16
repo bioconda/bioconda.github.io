@@ -27,26 +27,24 @@ bioconductor-uncoverapplib
       
       
 
-      ``1.7.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.7.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
    :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
    :depends bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-gviz: ``>=1.44.0,<1.45.0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-organismdbi: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-organismdbi: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.16.0,<3.17.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.17.0,<3.18.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-condformat: 
    :depends r-dt: 
    :depends r-markdown: 
@@ -91,7 +89,7 @@ bioconductor-uncoverapplib
 
     <script>
         var package = "bioconductor-uncoverapplib";
-        var versions = ["1.7.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.0","1.7.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

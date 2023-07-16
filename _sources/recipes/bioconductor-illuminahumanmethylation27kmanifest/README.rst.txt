@@ -28,10 +28,10 @@ bioconductor-illuminahumanmethylation27kmanifest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-10</code>,  <code>0.4.0-9</code>,  <code>0.4.0-8</code>,  <code>0.4.0-7</code>,  <code>0.4.0-6</code>,  <code>0.4.0-5</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  <code>0.4.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-11</code>,  <code>0.4.0-10</code>,  <code>0.4.0-9</code>,  <code>0.4.0-8</code>,  <code>0.4.0-7</code>,  <code>0.4.0-6</code>,  <code>0.4.0-5</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  </span></summary>
       
 
-      ``0.4.0-10``,  ``0.4.0-9``,  ``0.4.0-8``,  ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
+      ``0.4.0-11``,  ``0.4.0-10``,  ``0.4.0-9``,  ``0.4.0-8``,  ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-illuminahumanmethylation27kmanifest
       
 
    
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

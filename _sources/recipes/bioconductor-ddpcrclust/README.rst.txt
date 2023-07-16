@@ -26,17 +26,25 @@ bioconductor-ddpcrclust
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-flowcore: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-flowdensity: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-flowpeaks: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-samspectral: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-flowdensity: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-flowpeaks: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-samspectral: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-clue: 
    :depends r-ggplot2: 
    :depends r-openxlsx: 
@@ -73,7 +81,7 @@ bioconductor-ddpcrclust
 
     <script>
         var package = "bioconductor-ddpcrclust";
-        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
+        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

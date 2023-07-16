@@ -13,6 +13,8 @@ phyml
    Phylogenetic estimation using \(Maximum\) Likelihood
 
    :homepage: http://www.atgc-montpellier.fr/phyml/
+   :documentation: https://github.com/stephaneguindon/phyml/blob/master/doc/phyml-manual.pdf
+   
    :developer docs: https://github.com/stephaneguindon/phyml/
    :license: GPL / GPL-3.0-only
    :recipe: /`phyml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml/meta.yaml>`_
@@ -40,10 +42,10 @@ phyml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.20211231-2</code>,  <code>3.3.20211231-1</code>,  <code>3.3.20211231-0</code>,  <code>3.3.20200621-2</code>,  <code>3.3.20200621-1</code>,  <code>3.3.20200621-0</code>,  <code>3.3.20190909-1</code>,  <code>3.3.20190909-0</code>,  <code>3.3.20190908-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.20220408-0</code>,  <code>3.3.20211231-2</code>,  <code>3.3.20211231-1</code>,  <code>3.3.20211231-0</code>,  <code>3.3.20200621-2</code>,  <code>3.3.20200621-1</code>,  <code>3.3.20200621-0</code>,  <code>3.3.20190909-1</code>,  <code>3.3.20190909-0</code>,  </span></summary>
       
 
-      ``3.3.20211231-2``,  ``3.3.20211231-1``,  ``3.3.20211231-0``,  ``3.3.20200621-2``,  ``3.3.20200621-1``,  ``3.3.20200621-0``,  ``3.3.20190909-1``,  ``3.3.20190909-0``,  ``3.3.20190908-0``,  ``3.3.20190321-1``,  ``3.3.20190321-0``,  ``3.3.20180621-0``,  ``3.3.20170530-0``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-0``
+      ``3.3.20220408-0``,  ``3.3.20211231-2``,  ``3.3.20211231-1``,  ``3.3.20211231-0``,  ``3.3.20200621-2``,  ``3.3.20200621-1``,  ``3.3.20200621-0``,  ``3.3.20190909-1``,  ``3.3.20190909-0``,  ``3.3.20190908-0``,  ``3.3.20190321-1``,  ``3.3.20190321-0``,  ``3.3.20180621-0``,  ``3.3.20170530-0``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-0``
 
       
       .. raw:: html
@@ -85,7 +87,7 @@ phyml
 
     <script>
         var package = "phyml";
-        var versions = ["3.3.20211231","3.3.20211231","3.3.20211231","3.3.20200621","3.3.20200621"];
+        var versions = ["3.3.20220408","3.3.20211231","3.3.20211231","3.3.20211231","3.3.20200621"];
     </script>
 
 

@@ -27,31 +27,31 @@ bioconductor-bionero
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.5-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-genie3: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-minet: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-genie3: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-minet: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dynamictreecut: 
+   :depends r-ggdendro: 
    :depends r-ggnetwork: 
-   :depends r-ggnewscale: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-igraph: 
    :depends r-intergraph: 
    :depends r-matrixstats: 
    :depends r-netrep: 
-   :depends r-networkd3: 
    :depends r-patchwork: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-rlang: 
    :depends r-wgcna: 
    :requirements:
 
@@ -84,7 +84,7 @@ bioconductor-bionero
 
     <script>
         var package = "bioconductor-bionero";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.8.5","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

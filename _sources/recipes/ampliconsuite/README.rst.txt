@@ -27,23 +27,23 @@ ampliconsuite
       
       
 
-      ``0.1555.2-0``
+      ``0.1555.2-1``,  ``0.1555.2-0``
 
       
 
    
    :depends bwa: 
-   :depends cnvkit: 
+   :depends cnvkit: ``>=0.9.10``
    :depends flask: 
-   :depends future: ``>=0.18.3``
+   :depends future: 
    :depends intervaltree: 
-   :depends matplotlib-base: ``>=3.5.1``
+   :depends matplotlib-base: 
    :depends mscorefonts: 
-   :depends numpy: ``>=1.22.4``
+   :depends numpy: 
    :depends pysam: 
    :depends python: ``>=3``
    :depends samtools: 
-   :depends scipy: ``>=1.7.3``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ ampliconsuite
 
     <script>
         var package = "ampliconsuite";
-        var versions = ["0.1555.2"];
+        var versions = ["0.1555.2","0.1555.2"];
     </script>
 
 

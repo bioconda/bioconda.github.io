@@ -27,20 +27,19 @@ bioconductor-rsbml
       
       
 
-      ``2.56.0-1``,  ``2.56.0-0``,  ``2.52.0-2``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``
+      ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.52.0-2``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libsbml: ``>=5.10.2``
    :depends libsbml: ``>=5.18.0,<5.19.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +71,7 @@ bioconductor-rsbml
 
     <script>
         var package = "bioconductor-rsbml";
-        var versions = ["2.56.0","2.56.0","2.52.0","2.52.0","2.52.0"];
+        var versions = ["2.58.0","2.56.0","2.56.0","2.52.0","2.52.0"];
     </script>
 
 

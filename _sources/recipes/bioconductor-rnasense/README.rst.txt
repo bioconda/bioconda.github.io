@@ -27,14 +27,14 @@ bioconductor-rnasense
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-nbpseq: 
    :requirements:
@@ -68,7 +68,7 @@ bioconductor-rnasense
 
     <script>
         var package = "bioconductor-rnasense";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

@@ -27,16 +27,16 @@ bioconductor-pwrewas
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-pwrewas.data: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-pwrewas.data: ``>=1.14.0,<1.15.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biocmanager: 
    :depends r-cpgassoc: 
    :depends r-doparallel: 
@@ -78,7 +78,7 @@ bioconductor-pwrewas
 
     <script>
         var package = "bioconductor-pwrewas";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

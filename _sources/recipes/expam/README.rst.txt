@@ -28,9 +28,17 @@ expam
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.2-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.2.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.2.2.1-0``,  ``1.2.2-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,7 +46,7 @@ expam
    :depends matplotlib-base: 
    :depends multiprocess: 
    :depends numpy: ``>=1.22.0``
-   :depends numpy: ``>=1.25.0,<2.0a0``
+   :depends numpy: ``>=1.25.1,<2.0a0``
    :depends pandas: 
    :depends psutil: 
    :depends pytables: 
@@ -76,7 +84,7 @@ expam
 
     <script>
         var package = "expam";
-        var versions = ["1.2.2","1.2.0","1.2.0","1.2.0","1.1.3"];
+        var versions = ["1.2.2.1","1.2.2","1.2.0","1.2.0","1.2.0"];
     </script>
 
 

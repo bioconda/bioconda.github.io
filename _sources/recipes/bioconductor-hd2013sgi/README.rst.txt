@@ -28,10 +28,10 @@ bioconductor-hd2013sgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-hd2013sgi
       
 
    
-   :depends bioconductor-data-packages: ``>=20221108``
-   :depends bioconductor-ebimage: ``>=4.40.0,<4.41.0``
-   :depends bioconductor-geneplotter: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-splots: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
+   :depends bioconductor-geneplotter: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-splots: ``>=1.66.0,<1.67.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gplots: 
    :depends r-lsd: 
    :depends r-rcolorbrewer: 
@@ -82,7 +82,7 @@ bioconductor-hd2013sgi
 
     <script>
         var package = "bioconductor-hd2013sgi";
-        var versions = ["1.38.0","1.34.0","1.34.0","1.32.0","1.30.0"];
+        var versions = ["1.40.0","1.38.0","1.34.0","1.34.0","1.32.0"];
     </script>
 
 

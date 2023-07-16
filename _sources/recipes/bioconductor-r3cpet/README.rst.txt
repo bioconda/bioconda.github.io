@@ -28,10 +28,10 @@ bioconductor-r3cpet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-3</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-3</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-3``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-3``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -40,17 +40,16 @@ bioconductor-r3cpet
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-ggbio: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-ggbio: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-clvalid: 
    :depends r-data.table: 
    :depends r-ggplot2: 
@@ -91,7 +90,7 @@ bioconductor-r3cpet
 
     <script>
         var package = "bioconductor-r3cpet";
-        var versions = ["1.30.0","1.30.0","1.26.0","1.26.0","1.26.0"];
+        var versions = ["1.32.0","1.30.0","1.30.0","1.26.0","1.26.0"];
     </script>
 
 

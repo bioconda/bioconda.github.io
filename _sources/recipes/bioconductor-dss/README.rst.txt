@@ -45,6 +45,7 @@ bioconductor-dss
    :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
    :depends bioconductor-bsseq: ``>=1.36.0,<1.37.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

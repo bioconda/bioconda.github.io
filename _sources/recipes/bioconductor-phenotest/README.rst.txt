@@ -26,24 +26,32 @@ bioconductor-phenotest
    :versions:
       
       
+      .. raw:: html
 
-      ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  </span></summary>
+      
 
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotate: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-category: ``>=2.64.0,<2.65.0``
-   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-gseabase: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-heatplus: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-category: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-heatplus: ``>=3.8.0,<3.9.0``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-hopach: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-hopach: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bma: 
    :depends r-ellipse: 
    :depends r-ggplot2: 
@@ -83,7 +91,7 @@ bioconductor-phenotest
 
     <script>
         var package = "bioconductor-phenotest";
-        var versions = ["1.46.0","1.42.0","1.40.0","1.38.0","1.38.0"];
+        var versions = ["1.48.0","1.46.0","1.42.0","1.40.0","1.38.0"];
     </script>
 
 

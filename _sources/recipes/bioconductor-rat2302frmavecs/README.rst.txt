@@ -26,17 +26,25 @@ bioconductor-rat2302frmavecs
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.11-9``,  ``0.99.11-8``,  ``0.99.11-7``,  ``0.99.11-6``,  ``0.99.11-5``,  ``0.99.11-4``,  ``0.99.11-3``,  ``0.99.11-2``,  ``0.99.11-1``
+         <details><summary><span class="truncated-version-list"><code>0.99.11-10</code>,  <code>0.99.11-9</code>,  <code>0.99.11-8</code>,  <code>0.99.11-7</code>,  <code>0.99.11-6</code>,  <code>0.99.11-5</code>,  <code>0.99.11-4</code>,  <code>0.99.11-3</code>,  <code>0.99.11-2</code>,  </span></summary>
+      
 
+      ``0.99.11-10``,  ``0.99.11-9``,  ``0.99.11-8``,  ``0.99.11-7``,  ``0.99.11-6``,  ``0.99.11-5``,  ``0.99.11-4``,  ``0.99.11-3``,  ``0.99.11-2``,  ``0.99.11-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-data-packages: ``>=20221103``
-   :depends bioconductor-frma: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-frma: ``>=1.52.0,<1.53.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation

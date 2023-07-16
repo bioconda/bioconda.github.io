@@ -26,20 +26,28 @@ bioconductor-ontoproc
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-rgraphviz: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-igraph: 
@@ -78,7 +86,7 @@ bioconductor-ontoproc
 
     <script>
         var package = "bioconductor-ontoproc";
-        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.12.0"];
+        var versions = ["1.22.0","1.20.0","1.16.0","1.14.0","1.12.0"];
     </script>
 
 
