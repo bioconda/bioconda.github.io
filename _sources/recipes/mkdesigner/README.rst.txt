@@ -27,7 +27,7 @@ mkdesigner
       
       
 
-      ``0.0.1-0``
+      ``0.1.1-0``,  ``0.0.1-0``
 
       
 
@@ -71,7 +71,7 @@ mkdesigner
 
     <script>
         var package = "mkdesigner";
-        var versions = ["0.0.1"];
+        var versions = ["0.1.1","0.0.1"];
     </script>
 
 

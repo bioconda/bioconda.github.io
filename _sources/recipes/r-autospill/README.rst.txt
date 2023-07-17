@@ -27,14 +27,14 @@ r-autospill
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends bioconductor-flowcore: 
    :depends bioconductor-flowworkspace: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-deldir: 
    :depends r-fields: 
    :depends r-ggplot2: 
@@ -75,7 +75,7 @@ r-autospill
 
     <script>
         var package = "r-autospill";
-        var versions = ["0.2.0","0.2.0","0.1.0","0.1.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.1.0","0.1.0"];
     </script>
 
 

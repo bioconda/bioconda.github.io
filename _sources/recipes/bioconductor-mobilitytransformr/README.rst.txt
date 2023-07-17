@@ -27,16 +27,16 @@ bioconductor-mobilitytransformr
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-metabocoreutils: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-msnbase: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-spectra: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-xcms: ``>=3.20.0,<3.21.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-metabocoreutils: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-spectra: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-xcms: ``>=3.22.0,<3.23.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ bioconductor-mobilitytransformr
 
     <script>
         var package = "bioconductor-mobilitytransformr";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

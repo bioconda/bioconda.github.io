@@ -40,8 +40,11 @@ deeptoolsintervals
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

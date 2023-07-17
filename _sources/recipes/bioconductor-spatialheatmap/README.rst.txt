@@ -27,23 +27,20 @@ bioconductor-spatialheatmap
       
       
 
-      ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-genefilter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-scater: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-scran: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-scuttle: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-scater: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-scran: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-scuttle: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dynamictreecut: 
@@ -58,7 +55,6 @@ bioconductor-spatialheatmap
    :depends r-igraph: 
    :depends r-matrix: 
    :depends r-plotly: 
-   :depends r-rappdirs: 
    :depends r-reshape2: 
    :depends r-rsvg: 
    :depends r-shiny: 
@@ -100,7 +96,7 @@ bioconductor-spatialheatmap
 
     <script>
         var package = "bioconductor-spatialheatmap";
-        var versions = ["2.4.0","2.0.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["2.6.0","2.4.0","2.0.0","1.2.0","1.0.0"];
     </script>
 
 

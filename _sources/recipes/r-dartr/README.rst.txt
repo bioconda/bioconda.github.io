@@ -28,10 +28,10 @@ r-dartr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.7-0</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>1.9.9.1-1</code>,  <code>1.9.9.1-0</code>,  <code>1.9.6-0</code>,  <code>1.9.4-0</code>,  <code>1.1.11-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.7-1</code>,  <code>2.9.7-0</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>1.9.9.1-1</code>,  <code>1.9.9.1-0</code>,  <code>1.9.6-0</code>,  <code>1.9.4-0</code>,  </span></summary>
       
 
-      ``2.9.7-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``1.9.9.1-1``,  ``1.9.9.1-0``,  ``1.9.6-0``,  ``1.9.4-0``,  ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
+      ``2.9.7-1``,  ``2.9.7-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``1.9.9.1-1``,  ``1.9.9.1-0``,  ``1.9.6-0``,  ``1.9.4-0``,  ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ r-dartr
    :depends bioconductor-snprelate: 
    :depends r-adegenet: ``>=2.0.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-crayon: 
    :depends r-dartr.data: 
    :depends r-data.table: 
@@ -95,7 +95,7 @@ r-dartr
 
     <script>
         var package = "r-dartr";
-        var versions = ["2.9.7","2.0.4","2.0.4","2.0.3","1.9.9.1"];
+        var versions = ["2.9.7","2.9.7","2.0.4","2.0.4","2.0.3"];
     </script>
 
 

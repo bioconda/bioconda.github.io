@@ -27,17 +27,17 @@ bioconductor-minfidataepic
       
       
 
-      ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20221110``
+   :depends bioconductor-data-packages: ``>=20230706``
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-illuminahumanmethylationepicmanifest: ``>=0.3.0,<0.4.0``
-   :depends bioconductor-minfi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ bioconductor-minfidataepic
 
     <script>
         var package = "bioconductor-minfidataepic";
-        var versions = ["1.24.0","1.18.0","1.16.0","1.16.0","1.14.0"];
+        var versions = ["1.26.0","1.24.0","1.18.0","1.16.0","1.16.0"];
     </script>
 
 

@@ -27,22 +27,22 @@ bioconductor-netzoor
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-gostats: ``>=2.64.0,<2.65.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-pandar: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-rcy3: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-stringdb: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-yarn: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-gostats: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-pandar: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rcy3: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-stringdb: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-yarn: ``>=1.26.0,<1.27.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -53,6 +53,7 @@ bioconductor-netzoor
    :depends r-igraph: 
    :depends r-mass: 
    :depends r-matrix: 
+   :depends r-matrixcalc: 
    :depends r-matrixstats: 
    :depends r-nnet: 
    :depends r-penalized: 
@@ -93,7 +94,7 @@ bioconductor-netzoor
 
     <script>
         var package = "bioconductor-netzoor";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

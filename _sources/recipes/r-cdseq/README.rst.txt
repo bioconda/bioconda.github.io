@@ -28,7 +28,7 @@ r-cdseq
       
       
 
-      ``0-3``,  ``0-2``,  ``0-1``,  ``0-0``
+      ``0-5``,  ``0-3``,  ``0-2``,  ``0-1``,  ``0-0``
 
       
 
@@ -36,7 +36,7 @@ r-cdseq
    :depends bioconductor-biobase: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-clue: 
    :depends r-dirmult: 
    :depends r-doparallel: 
@@ -88,7 +88,7 @@ r-cdseq
 
     <script>
         var package = "r-cdseq";
-        var versions = ["0","0","0","0"];
+        var versions = ["0","0","0","0","0"];
     </script>
 
 
