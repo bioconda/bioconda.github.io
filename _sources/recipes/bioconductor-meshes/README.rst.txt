@@ -29,10 +29,10 @@ bioconductor-meshes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-meshes
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-dose: ``>=3.24.0,<3.25.0``
-   :depends bioconductor-enrichplot: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-gosemsim: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-meshdbi: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-gosemsim: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-meshdbi: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-yulab.utils: 
    :requirements:
 
@@ -80,7 +80,7 @@ bioconductor-meshes
 
     <script>
         var package = "bioconductor-meshes";
-        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.16.0"];
+        var versions = ["1.26.0","1.24.0","1.20.0","1.18.0","1.16.0"];
     </script>
 
 

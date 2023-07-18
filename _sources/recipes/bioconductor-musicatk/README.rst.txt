@@ -27,38 +27,37 @@ bioconductor-musicatk
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm9: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-decomptumor2sig: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-maftools: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.25.0,<2.26.0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-decomptumor2sig: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-maftools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-variantannotation: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
-   :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-deconstructsigs: 
    :depends r-dplyr: 
    :depends r-factoextra: 
    :depends r-ggplot2: 
+   :depends r-ggpubr: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
    :depends r-gtools: 
@@ -71,20 +70,13 @@ bioconductor-musicatk
    :depends r-plotly: 
    :depends r-rlang: 
    :depends r-shiny: 
-   :depends r-shinyalert: 
-   :depends r-shinybs: 
-   :depends r-shinybusy: 
-   :depends r-shinydashboard: 
-   :depends r-shinyjqui: 
-   :depends r-shinyjs: 
-   :depends r-sortable: 
    :depends r-stringi: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyverse: 
    :depends r-topicmodels: 
    :depends r-uwot: 
-   :depends r-withr: 
    :requirements:
 
    .. rubric:: Installation
@@ -116,7 +108,7 @@ bioconductor-musicatk
 
     <script>
         var package = "bioconductor-musicatk";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

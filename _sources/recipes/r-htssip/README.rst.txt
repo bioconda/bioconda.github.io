@@ -26,16 +26,24 @@ r-htssip
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-3</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
 
+      ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-deseq2: ``>=1.16.1``
    :depends bioconductor-phyloseq: ``>=1.20.0``
    :depends r-ape: ``>=4.1``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-coenocliner: ``>=0.2.2``
    :depends r-dplyr: ``>=0.7.4``
    :depends r-ggplot2: ``>=2.2.1``

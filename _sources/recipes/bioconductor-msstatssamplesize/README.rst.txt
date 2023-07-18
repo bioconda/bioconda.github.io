@@ -27,14 +27,14 @@ bioconductor-msstatssamplesize
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.13.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-msstats: ``>=4.6.0,<4.7.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-msstats: ``>=4.8.0,<4.9.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
@@ -70,7 +70,7 @@ bioconductor-msstatssamplesize
 
     <script>
         var package = "bioconductor-msstatssamplesize";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.13.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

@@ -27,20 +27,20 @@ bioconductor-multisight
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.7.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biosigner: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
-   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-enrichplot: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-mixomics: ``>=6.22.0,<6.23.0``
-   :depends bioconductor-reactomepa: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rwikipathways: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biosigner: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-mixomics: ``>=6.24.0,<6.25.0``
+   :depends bioconductor-reactomepa: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rwikipathways: ``>=1.20.0,<1.21.0``
    :depends r-anylib: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
    :depends r-config: 
    :depends r-dplyr: 
@@ -90,7 +90,7 @@ bioconductor-multisight
 
     <script>
         var package = "bioconductor-multisight";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.7.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

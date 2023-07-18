@@ -43,6 +43,7 @@ bioconductor-gsean
    :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
    :depends bioconductor-ppinfer: ``>=1.26.0,<1.27.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

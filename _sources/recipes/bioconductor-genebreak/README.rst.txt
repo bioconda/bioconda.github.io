@@ -29,10 +29,10 @@ bioconductor-genebreak
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-genebreak
       
 
    
-   :depends bioconductor-cghbase: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-cghcall: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-qdnaseq: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-cghbase: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-cghcall: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-qdnaseq: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ bioconductor-genebreak
 
     <script>
         var package = "bioconductor-genebreak";
-        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.20.0"];
+        var versions = ["1.30.0","1.28.0","1.24.0","1.22.0","1.20.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-rnaseqsamplesize
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>1.17.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  </span></summary>
       
 
-      ``2.8.0-1``,  ``2.8.0-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``1.17.0-1``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-2``
+      ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``1.17.0-1``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-2``
 
       
       .. raw:: html
@@ -40,17 +40,17 @@ bioconductor-rnaseqsamplesize
       
 
    
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-keggrest: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-recount: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-rnaseqsamplesizedata: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-keggrest: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-recount: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-rnaseqsamplesizedata: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggpubr: 
@@ -90,7 +90,7 @@ bioconductor-rnaseqsamplesize
 
     <script>
         var package = "bioconductor-rnaseqsamplesize";
-        var versions = ["2.8.0","2.8.0","2.4.1","2.4.1","2.4.0"];
+        var versions = ["2.10.0","2.8.0","2.8.0","2.4.1","2.4.1"];
     </script>
 
 

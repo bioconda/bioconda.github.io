@@ -29,10 +29,10 @@ bioconductor-clusterprofiler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6.0-0</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.18.1-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.10.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.8.1-0</code>,  <code>4.6.0-0</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.18.1-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  </span></summary>
       
 
-      ``4.6.0-0``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.18.1-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.8.1-0``,  ``3.6.0-0``,  ``3.4.4-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``2.4.3-0``
+      ``4.8.1-0``,  ``4.6.0-0``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.18.1-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.8.1-0``,  ``3.6.0-0``,  ``3.4.4-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``2.4.3-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-clusterprofiler
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-dose: ``>=3.24.0,<3.25.0``
-   :depends bioconductor-enrichplot: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-go.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-gosemsim: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-qvalue: ``>=2.30.0,<2.31.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-gosemsim: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-downloader: 
    :depends r-dplyr: 
    :depends r-gson: ``>=0.0.7``
@@ -87,7 +87,7 @@ bioconductor-clusterprofiler
 
     <script>
         var package = "bioconductor-clusterprofiler";
-        var versions = ["4.6.0","4.2.0","4.0.0","3.18.1","3.18.0"];
+        var versions = ["4.8.1","4.6.0","4.2.0","4.0.0","3.18.1"];
     </script>
 
 

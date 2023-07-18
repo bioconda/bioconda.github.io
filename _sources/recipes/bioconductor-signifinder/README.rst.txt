@@ -27,23 +27,24 @@ bioconductor-signifinder
       
       
 
-      ``1.0.0-0``
+      ``1.2.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-consensusov: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-ensembldb: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-gsva: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-consensusov: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-ensembldb: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-gsva: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.16.0,<3.17.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.17.0,<3.18.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-cowplot: 
    :depends r-dgeobj.utils: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -88,7 +89,7 @@ bioconductor-signifinder
 
     <script>
         var package = "bioconductor-signifinder";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.1","1.0.0"];
     </script>
 
 

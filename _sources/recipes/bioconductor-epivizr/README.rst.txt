@@ -29,10 +29,10 @@ bioconductor-epivizr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.28.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  </span></summary>
       
 
-      ``2.28.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+      ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-epivizr
       
 
    
-   :depends bioconductor-bumphunter: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-epivizrdata: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-epivizrserver: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-bumphunter: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-epivizrdata: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-epivizrserver: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ bioconductor-epivizr
 
     <script>
         var package = "bioconductor-epivizr";
-        var versions = ["2.28.0","2.24.0","2.22.0","2.20.0","2.20.0"];
+        var versions = ["2.30.0","2.28.0","2.24.0","2.22.0","2.20.0"];
     </script>
 
 

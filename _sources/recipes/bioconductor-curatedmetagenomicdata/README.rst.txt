@@ -28,10 +28,10 @@ bioconductor-curatedmetagenomicdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.4.1-0</code>,  <code>3.2.3-0</code>,  <code>3.2.1-0</code>,  <code>3.0.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8.0-0</code>,  <code>3.6.0-0</code>,  <code>3.4.1-0</code>,  <code>3.2.3-0</code>,  <code>3.2.1-0</code>,  <code>3.0.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.3-0``,  ``3.2.1-0``,  ``3.0.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
+      ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.3-0``,  ``3.2.1-0``,  ``3.0.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-curatedmetagenomicdata
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-data-packages: ``>=20221108``
-   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-mia: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-mia: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.8.0,<2.9.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-purrr: 
@@ -88,7 +88,7 @@ bioconductor-curatedmetagenomicdata
 
     <script>
         var package = "bioconductor-curatedmetagenomicdata";
-        var versions = ["3.6.0","3.4.1","3.2.3","3.2.1","3.0.1"];
+        var versions = ["3.8.0","3.6.0","3.4.1","3.2.3","3.2.1"];
     </script>
 
 

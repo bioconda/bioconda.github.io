@@ -27,14 +27,14 @@ bioconductor-ggmanh
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-gdsfmt: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-seqarray: ``>=1.38.0,<1.39.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-gdsfmt: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-seqarray: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-rcolorbrewer: 
@@ -71,7 +71,7 @@ bioconductor-ggmanh
 
     <script>
         var package = "bioconductor-ggmanh";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

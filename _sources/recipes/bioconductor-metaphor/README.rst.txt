@@ -27,14 +27,14 @@ bioconductor-metaphor
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
-   :depends bioconductor-rcy3: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-rcy3: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-pheatmap: 
@@ -71,7 +71,7 @@ bioconductor-metaphor
 
     <script>
         var package = "bioconductor-metaphor";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

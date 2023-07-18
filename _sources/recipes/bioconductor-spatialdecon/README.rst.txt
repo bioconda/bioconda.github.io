@@ -27,14 +27,14 @@ bioconductor-spatialdecon
       
       
 
-      ``1.8.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-geomxtools: ``>=3.2.0,<3.3.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-geomxtools: ``>=3.4.0,<3.5.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-lognormreg: ``>=0.4``
    :depends r-matrix: 
    :depends r-repmis: 
@@ -70,7 +70,7 @@ bioconductor-spatialdecon
 
     <script>
         var package = "bioconductor-spatialdecon";
-        var versions = ["1.8.0","1.3.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.3.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ r-dgeclustering
       
       
 
-      ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -36,7 +36,7 @@ r-dgeclustering
    :depends bioconductor-clusterprofiler: 
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-gosemsim: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-factominer: 
    :depends r-ggplot2: 

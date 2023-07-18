@@ -27,25 +27,24 @@ bioconductor-cetf
       
       
 
-      ``1.9.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.12.0-0``,  ``1.9.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-deseq2: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-rcy3: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-rcy3: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
    :depends r-dplyr: 
-   :depends r-genomictools: 
    :depends r-genomictools.filehandler: 
    :depends r-ggally: 
    :depends r-ggnetwork: 
@@ -88,7 +87,7 @@ bioconductor-cetf
 
     <script>
         var package = "bioconductor-cetf";
-        var versions = ["1.9.0","1.6.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.12.0","1.9.0","1.6.0","1.6.0","1.6.0"];
     </script>
 
 

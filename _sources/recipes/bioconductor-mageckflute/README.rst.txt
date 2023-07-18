@@ -28,10 +28,10 @@ bioconductor-mageckflute
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.2-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.2-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-mageckflute
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
-   :depends bioconductor-depmap: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-dose: ``>=3.24.0,<3.25.0``
-   :depends bioconductor-enrichplot: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-pathview: ``>=1.38.0,<1.39.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-depmap: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-pathview: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
@@ -83,7 +83,7 @@ bioconductor-mageckflute
 
     <script>
         var package = "bioconductor-mageckflute";
-        var versions = ["2.2.0","1.14.0","1.12.0","1.10.0","1.10.0"];
+        var versions = ["2.4.0","2.2.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

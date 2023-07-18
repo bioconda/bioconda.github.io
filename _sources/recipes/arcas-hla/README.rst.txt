@@ -30,17 +30,17 @@ arcas-hla
       
       
 
-      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
    :depends bedtools: ``>=2.27.1``
-   :depends biopython: 
+   :depends biopython: ``<=1.77``
    :depends coreutils: 
    :depends git: 
    :depends git-lfs: 
-   :depends kallisto: ``>=0.44.0``
+   :depends kallisto: ``0.44.0``
    :depends numpy: 
    :depends pandas: 
    :depends pigz: 
@@ -78,7 +78,7 @@ arcas-hla
 
     <script>
         var package = "arcas-hla";
-        var versions = ["0.5.0","0.5.0","0.5.0","0.4.0","0.3.0"];
+        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0","0.4.0"];
     </script>
 
 

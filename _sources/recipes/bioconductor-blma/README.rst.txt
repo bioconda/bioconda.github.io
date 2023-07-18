@@ -26,18 +26,26 @@ bioconductor-blma
    :versions:
       
       
+      .. raw:: html
 
-      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  </span></summary>
+      
 
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-graph: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-padog: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-rontotools: ``>=2.26.0,<2.27.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-padog: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-rontotools: ``>=2.28.0,<2.29.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gsa: 
    :depends r-metafor: 
    :requirements:
@@ -71,7 +79,7 @@ bioconductor-blma
 
     <script>
         var package = "bioconductor-blma";
-        var versions = ["1.22.0","1.18.0","1.16.0","1.14.0","1.14.0"];
+        var versions = ["1.24.0","1.22.0","1.18.0","1.16.0","1.14.0"];
     </script>
 
 

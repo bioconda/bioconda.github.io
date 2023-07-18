@@ -27,7 +27,7 @@ r-qiime2r
       
       
 
-      ``0.99.20-0``
+      ``0.99.20-1``,  ``0.99.20-0``
 
       
 
@@ -36,7 +36,7 @@ r-qiime2r
    :depends bioconductor-phyloseq: ``>=1.22.3``
    :depends bioconductor-rhdf5: ``>=2.26.2``
    :depends r-ape: ``>=5.2``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: ``>=1.12.8``
    :depends r-dplyr: ``>=0.8.1``
    :depends r-dt: ``>=0.2``
@@ -78,7 +78,7 @@ r-qiime2r
 
     <script>
         var package = "r-qiime2r";
-        var versions = ["0.99.20"];
+        var versions = ["0.99.20","0.99.20"];
     </script>
 
 
