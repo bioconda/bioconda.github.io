@@ -27,16 +27,16 @@ bioconductor-easycelltype
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-clusterprofiler: ``>=4.6.0,<4.7.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.16.0,<3.17.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.17.0,<3.18.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggplot2: 
@@ -73,7 +73,7 @@ bioconductor-easycelltype
 
     <script>
         var package = "bioconductor-easycelltype";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

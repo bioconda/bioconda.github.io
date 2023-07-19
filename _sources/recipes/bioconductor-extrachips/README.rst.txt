@@ -27,37 +27,42 @@ bioconductor-extrachips
       
       
 
-      ``1.2.0-0``
+      ``1.4.5-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocio: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-csaw: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-enrichedheatmap: ``>=1.27.0,<1.28.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicinteractions: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-interactionset: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocio: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-csaw: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-enrichedheatmap: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicinteractions: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-gviz: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-interactionset: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-broom: 
    :depends r-complexupset: 
-   :depends r-dplyr: 
+   :depends r-dplyr: ``>=1.1.0``
    :depends r-forcats: 
    :depends r-ggforce: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: ``>=3.4.0``
    :depends r-ggrepel: 
    :depends r-ggside: 
    :depends r-glue: 
+   :depends r-matrixstats: 
+   :depends r-patchwork: 
    :depends r-rcolorbrewer: 
    :depends r-rlang: 
    :depends r-scales: 
@@ -98,7 +103,7 @@ bioconductor-extrachips
 
     <script>
         var package = "bioconductor-extrachips";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.5","1.2.0"];
     </script>
 
 

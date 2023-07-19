@@ -43,8 +43,9 @@ bioconductor-mait
    :depends bioconductor-camera: ``>=1.56.0,<1.57.0``
    :depends bioconductor-xcms: ``>=3.22.0,<3.23.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-agricolae: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 

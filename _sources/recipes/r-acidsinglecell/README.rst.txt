@@ -29,10 +29,10 @@ r-acidsinglecell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  </span></summary>
       
 
-      ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -59,7 +59,7 @@ r-acidsinglecell
    :depends r-acidgenerics: ``>=0.6.4``
    :depends r-acidgenomes: ``>=0.4.4``
    :depends r-acidplyr: ``>=0.3.2``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-goalie: ``>=0.6.6``
    :depends r-matrix: ``>=1.5.1``
    :depends r-pipette: ``>=0.10.0``
@@ -96,7 +96,7 @@ r-acidsinglecell
 
     <script>
         var package = "r-acidsinglecell";
-        var versions = ["0.3.5","0.3.5","0.3.4","0.3.4","0.3.3"];
+        var versions = ["0.3.5","0.3.5","0.3.5","0.3.4","0.3.4"];
     </script>
 
 

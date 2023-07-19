@@ -27,15 +27,15 @@ bioconductor-gesper
       
       
 
-      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.31.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biomart: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-cellhts2: ``>=2.62.0,<2.63.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-cellhts2: ``>=2.64.0,<2.65.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-foreach: 
@@ -74,7 +74,7 @@ bioconductor-gesper
 
     <script>
         var package = "bioconductor-gesper";
-        var versions = ["1.30.0","1.26.0","1.24.0","1.20.0","1.18.0"];
+        var versions = ["1.31.0","1.30.0","1.26.0","1.24.0","1.20.0"];
     </script>
 
 

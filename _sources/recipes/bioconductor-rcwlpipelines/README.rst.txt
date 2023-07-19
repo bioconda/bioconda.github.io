@@ -27,16 +27,16 @@ bioconductor-rcwlpipelines
       
       
 
-      ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-rcwl: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends nodejs: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-rcwl: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends nodejs: ``>=18``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-git2r: 
    :depends r-httr: 
    :depends r-rappdirs: 
@@ -71,7 +71,7 @@ bioconductor-rcwlpipelines
 
     <script>
         var package = "bioconductor-rcwlpipelines";
-        var versions = ["1.14.0","1.14.0","1.10.0","1.10.0","1.8.0"];
+        var versions = ["1.16.0","1.14.0","1.14.0","1.10.0","1.10.0"];
     </script>
 
 

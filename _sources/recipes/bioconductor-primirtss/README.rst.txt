@@ -26,25 +26,33 @@ bioconductor-primirtss
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicscores: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-gviz: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomicscores: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-gviz: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
    :depends bioconductor-jaspar2018: ``>=1.1.0,<1.2.0``
    :depends bioconductor-phastcons100way.ucsc.hg38: ``>=3.7.0,<3.8.0``
-   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-tfbstools: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-tfbstools: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=0.7.6``
    :depends r-purrr: ``>=0.2.5``
    :depends r-r.utils: ``>=2.6.0``
@@ -83,7 +91,7 @@ bioconductor-primirtss
 
     <script>
         var package = "bioconductor-primirtss";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
+        var versions = ["1.18.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

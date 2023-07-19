@@ -28,7 +28,7 @@ r-bseqsc
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -38,7 +38,7 @@ r-bseqsc
    :depends bioconductor-edger: ``>=3.28.0``
    :depends bioconductor-preprocesscore: ``>=1.48.0``
    :depends r-abind: ``>=1.4_5``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cssam: ``>=1.4``
    :depends r-dplyr: ``>=1.0.6``
    :depends r-e1071: ``>=1.7_7``
@@ -82,7 +82,7 @@ r-bseqsc
 
     <script>
         var package = "r-bseqsc";
-        var versions = ["1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ r-chromium
       
       
 
-      ``0.2.1-0``
+      ``0.2.1-1``,  ``0.2.1-0``
 
       
 
@@ -44,7 +44,7 @@ r-chromium
    :depends r-acidgenomes: ``>=0.4.7``
    :depends r-acidplyr: ``>=0.3.6``
    :depends r-acidsinglecell: ``>=0.3.4``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-goalie: ``>=0.6.8``
    :depends r-matrix: ``>=1.5.1``
    :depends r-pipette: ``>=0.10.3``
@@ -81,7 +81,7 @@ r-chromium
 
     <script>
         var package = "r-chromium";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.1","0.2.1"];
     </script>
 
 

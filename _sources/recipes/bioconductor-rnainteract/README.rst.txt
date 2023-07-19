@@ -26,19 +26,27 @@ bioconductor-rnainteract
    :versions:
       
       
+      .. raw:: html
 
-      ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+      
 
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-cellhts2: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-geneplotter: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-splots: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-cellhts2: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-geneplotter: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-splots: ``>=1.66.0,<1.67.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gplots: 
    :depends r-hwriter: 
    :depends r-ics: 
@@ -78,7 +86,7 @@ bioconductor-rnainteract
 
     <script>
         var package = "bioconductor-rnainteract";
-        var versions = ["1.46.0","1.42.0","1.40.0","1.36.0","1.34.0"];
+        var versions = ["1.48.0","1.46.0","1.42.0","1.40.0","1.36.0"];
     </script>
 
 

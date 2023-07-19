@@ -28,10 +28,10 @@ bioconductor-pth2o2lipids
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-pth2o2lipids
       
 
    
-   :depends bioconductor-camera: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-data-packages: ``>=20221106``
-   :depends bioconductor-lobstahs: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-xcms: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-camera: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-lobstahs: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-xcms: ``>=3.22.0,<3.23.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ bioconductor-pth2o2lipids
 
     <script>
         var package = "bioconductor-pth2o2lipids";
-        var versions = ["1.24.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.26.0","1.24.0","1.20.0","1.20.0","1.18.0"];
     </script>
 
 

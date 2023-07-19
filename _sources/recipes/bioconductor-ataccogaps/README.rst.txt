@@ -27,28 +27,28 @@ bioconductor-ataccogaps
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-chromvar: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-cogaps: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-fgsea: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-geneoverlap: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-chromvar: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-cogaps: ``>=3.19.0,<3.20.0``
+   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-geneoverlap: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-jaspar2016: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-motifmatchr: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-jaspar2016: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-motifmatchr: ``>=1.22.0,<1.23.0``
    :depends bioconductor-mus.musculus: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-projectr: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-rgreat: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-tfbstools: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-projectr: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-rgreat: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-tfbstools: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-gplots: 
    :depends r-gtools: 
@@ -86,7 +86,7 @@ bioconductor-ataccogaps
 
     <script>
         var package = "bioconductor-ataccogaps";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

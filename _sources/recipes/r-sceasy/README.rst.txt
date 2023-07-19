@@ -26,16 +26,24 @@ r-sceasy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+      
 
+      ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends anndata: 
    :depends bioconductor-loomexperiment: ``>=1.1.5``
    :depends bioconductor-singlecellexperiment: ``>=1.4.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-monocle3: ``>=1.0.0``
    :depends r-reticulate: 
    :depends r-seurat: ``>=3.0.1``
@@ -71,7 +79,7 @@ r-sceasy
 
     <script>
         var package = "r-sceasy";
-        var versions = ["0.0.7","0.0.7","0.0.6","0.0.6","0.0.6"];
+        var versions = ["0.0.7","0.0.7","0.0.7","0.0.6","0.0.6"];
     </script>
 
 

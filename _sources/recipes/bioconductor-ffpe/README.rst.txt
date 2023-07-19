@@ -29,10 +29,10 @@ bioconductor-ffpe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-ffpe
       
 
    
-   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-lumi: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-methylumi: ``>=2.44.0,<2.45.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-lumi: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-methylumi: ``>=2.46.0,<2.47.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-sfsmisc: 
    :depends r-ttr: 
    :requirements:
@@ -80,7 +80,7 @@ bioconductor-ffpe
 
     <script>
         var package = "bioconductor-ffpe";
-        var versions = ["1.42.0","1.38.0","1.36.0","1.34.0","1.34.0"];
+        var versions = ["1.44.0","1.42.0","1.38.0","1.36.0","1.34.0"];
     </script>
 
 

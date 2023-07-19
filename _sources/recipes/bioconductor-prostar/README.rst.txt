@@ -26,15 +26,23 @@ bioconductor-prostar
    :versions:
       
       
+      .. raw:: html
 
-      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
+         <details><summary><span class="truncated-version-list"><code>1.32.1-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.8-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.16.7-0</code>,  </span></summary>
+      
 
+      ``1.32.1-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-dapar: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-dapardata: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-dapar: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-dapardata: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-future: 
    :depends r-ggplot2: 
@@ -85,7 +93,7 @@ bioconductor-prostar
 
     <script>
         var package = "bioconductor-prostar";
-        var versions = ["1.30.0","1.26.0","1.24.3","1.22.8","1.22.0"];
+        var versions = ["1.32.1","1.30.0","1.26.0","1.24.3","1.22.8"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-desousa2013
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,19 +40,19 @@ bioconductor-desousa2013
       
 
    
-   :depends bioconductor-affy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-annotationdbi: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20221111``
-   :depends bioconductor-frma: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-frmatools: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-frma: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-frmatools: ``>=1.52.0,<1.53.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-hgu133plus2frmavecs: ``>=1.5.0,<1.6.0``
-   :depends bioconductor-siggenes: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-sva: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-siggenes: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
    :depends curl: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-gplots: 
    :depends r-pamr: 
@@ -90,7 +90,7 @@ bioconductor-desousa2013
 
     <script>
         var package = "bioconductor-desousa2013";
-        var versions = ["1.34.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.36.0","1.34.0","1.30.0","1.30.0","1.28.0"];
     </script>
 
 

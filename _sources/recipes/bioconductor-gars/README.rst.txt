@@ -27,15 +27,15 @@ bioconductor-gars
       
       
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-damirseq: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-mlseq: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-damirseq: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-mlseq: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-ggplot2: 
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-gars
 
     <script>
         var package = "bioconductor-gars";
-        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.10.0"];
+        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

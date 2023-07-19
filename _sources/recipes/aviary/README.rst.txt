@@ -31,7 +31,7 @@ aviary
       
       
 
-      ``0.5.7-0``,  ``0.5.4-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
+      ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.4-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
 
       
 
@@ -40,12 +40,12 @@ aviary
    :depends biopython: 
    :depends mamba: ``>=0.8.2``
    :depends numpy: 
-   :depends pandas: ``>=1.2``
+   :depends pandas: 
    :depends parallel: 
-   :depends pigz: ``>=2.6``
-   :depends python: ``>=3.8,<3.11``
+   :depends pigz: ``2.6.*``
+   :depends python: ``>=3.8``
    :depends ruamel.yaml: ``>=0.15.99``
-   :depends snakemake: ``>=6.0.6``
+   :depends snakemake: ``>=6.0.5,<=7.17``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ aviary
 
     <script>
         var package = "aviary";
-        var versions = ["0.5.7","0.5.4","0.5.0","0.4.3","0.4.1"];
+        var versions = ["0.6.0","0.5.7","0.5.4","0.5.0","0.4.3"];
     </script>
 
 
