@@ -12,11 +12,11 @@ bioconductor-scmerge
 
    scMerge\: Merging multiple batches of scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scMerge.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scMerge.html
    :license: GPL-3
    :recipe: /`bioconductor-scmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmerge/meta.yaml>`_
 
-   Like all gene expression data\, single\-cell RNA\-seq \(scRNA\-Seq\) data suffers from batch effects and other unwanted variations that makes accurate biological interpretations difficult. The scMerge method leverages factor analysis\, stably expressed genes \(SEGs\) and \(pseudo\-\) replicates to remove unwanted variations and merge multiple scRNA\-Seq data. This package contains all the necessary functions in the scMerge pipeline\, including the identification of SEGs\, replication\-identification methods\, and merging of scRNA\-Seq data.
+   Like all gene expression data\, single\-cell data suffers from batch effects and other unwanted variations that makes accurate biological interpretations difficult. The scMerge method leverages factor analysis\, stably expressed genes \(SEGs\) and \(pseudo\-\) replicates to remove unwanted variations and merge multiple single\-cell data. This package contains all the necessary functions in the scMerge pipeline\, including the identification of SEGs\, replication\-identification methods\, and merging of single\-cell data.
 
 
 .. conda:package:: bioconductor-scmerge

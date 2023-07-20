@@ -12,7 +12,7 @@ bioconductor-hgu95a.db
 
    Affymetrix Affymetrix HG U95A Array annotation data \(chip hgu95a\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hgu95a.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hgu95a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgu95a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95a.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pd.rice
 
    Platform Design Info for The Manufacturer\'s Name Rice
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.rice.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.rice.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rice/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
 
    Full genomic sequences for Homo sapiens \(UCSC genome hg38\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38/meta.yaml>`_
 

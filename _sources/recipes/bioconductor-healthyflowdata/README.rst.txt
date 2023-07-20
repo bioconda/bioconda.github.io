@@ -12,7 +12,7 @@ bioconductor-healthyflowdata
 
    Healthy dataset used by the flowMatch package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/healthyFlowData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/healthyFlowData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-healthyflowdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-healthyflowdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-healthyflowdata/meta.yaml>`_
 

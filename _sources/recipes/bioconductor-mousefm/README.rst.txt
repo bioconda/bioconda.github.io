@@ -12,7 +12,7 @@ bioconductor-mousefm
 
    In\-silico methods for genetic finemapping in inbred mice
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MouseFM.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MouseFM.html
    :license: GPL-3
    :recipe: /`bioconductor-mousefm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousefm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousefm/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-fcoex
 
    FCBF\-based Co\-Expression Networks for Single Cells
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/fcoex.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/fcoex.html
    :license: GPL-3
    :recipe: /`bioconductor-fcoex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcoex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcoex/meta.yaml>`_
 

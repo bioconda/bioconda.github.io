@@ -12,7 +12,7 @@ bioconductor-mbecs
 
    Evaluation and correction of batch effects in microbiome data\-sets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MBECS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MBECS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mbecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbecs/meta.yaml>`_
 

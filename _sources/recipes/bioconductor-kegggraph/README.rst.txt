@@ -12,7 +12,7 @@ bioconductor-kegggraph
 
    KEGGgraph\: A graph approach to KEGG PATHWAY in R and Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/KEGGgraph.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/KEGGgraph.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-kegggraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegggraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegggraph/meta.yaml>`_
    :links: biotools: :biotools:`kegggraph`

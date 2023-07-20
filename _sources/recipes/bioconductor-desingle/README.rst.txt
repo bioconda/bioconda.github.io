@@ -12,7 +12,7 @@ bioconductor-desingle
 
    DEsingle for detecting three types of differential expression in single\-cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DEsingle.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DEsingle.html
    :license: GPL-2
    :recipe: /`bioconductor-desingle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desingle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desingle/meta.yaml>`_
 

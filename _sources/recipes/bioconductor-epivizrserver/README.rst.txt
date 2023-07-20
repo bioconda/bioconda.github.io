@@ -12,7 +12,7 @@ bioconductor-epivizrserver
 
    WebSocket server infrastructure for epivizr apps and packages
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/epivizrServer.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/epivizrServer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epivizrserver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrserver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrserver/meta.yaml>`_
    :links: biotools: :biotools:`epivizrserver`, doi: :doi:`10.1038/nmeth.3252`

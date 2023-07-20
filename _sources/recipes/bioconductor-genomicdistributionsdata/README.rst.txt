@@ -12,7 +12,7 @@ bioconductor-genomicdistributionsdata
 
    Reference data for GenomicDistributions package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/GenomicDistributionsData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/GenomicDistributionsData.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-genomicdistributionsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicdistributionsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicdistributionsdata/meta.yaml>`_
 

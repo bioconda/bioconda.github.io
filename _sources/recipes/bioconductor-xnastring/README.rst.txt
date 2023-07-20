@@ -12,7 +12,7 @@ bioconductor-xnastring
 
    Efficient Manipulation of Modified Oligonucleotide Sequences
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/XNAString.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/XNAString.html
    :license: GPL-2
    :recipe: /`bioconductor-xnastring <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xnastring>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xnastring/meta.yaml>`_
 

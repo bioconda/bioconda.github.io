@@ -12,7 +12,7 @@ bioconductor-cellscore
 
    Tool for Evaluation of Cell Identity from Transcription Profiles
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CellScore.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CellScore.html
    :license: GPL-3
    :recipe: /`bioconductor-cellscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscore/meta.yaml>`_
 

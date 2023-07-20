@@ -12,7 +12,7 @@ bioconductor-targetscore
 
    TargetScore\: Infer microRNA targets using microRNA\-overexpression data and sequence information
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TargetScore.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TargetScore.html
    :license: GPL-2
    :recipe: /`bioconductor-targetscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscore/meta.yaml>`_
    :links: biotools: :biotools:`targetscore`, doi: :doi:`10.1093/bioinformatics/btt599`

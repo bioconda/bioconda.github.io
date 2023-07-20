@@ -12,7 +12,7 @@ bioconductor-transview
 
    Read density map construction and accession. Visualization of ChIPSeq and RNASeq data sets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TransView.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TransView.html
    :license: GPL-3
    :recipe: /`bioconductor-transview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transview/meta.yaml>`_
    :links: biotools: :biotools:`transview`, doi: :doi:`10.1038/nmeth.3252`

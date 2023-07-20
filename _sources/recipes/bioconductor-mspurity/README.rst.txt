@@ -12,7 +12,7 @@ bioconductor-mspurity
 
    Automated Evaluation of Precursor Ion Purity for Mass Spectrometry Based Fragmentation in Metabolomics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/msPurity.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/msPurity.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-mspurity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity/meta.yaml>`_
    :links: biotools: :biotools:`mspurity`, doi: :doi:`10.1021/acs.analchem.6b04358`

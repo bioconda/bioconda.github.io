@@ -12,7 +12,7 @@ bioconductor-basicstan
 
    Stan implementation of BASiCS
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BASiCStan.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BASiCStan.html
    :license: GPL-3
    :recipe: /`bioconductor-basicstan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basicstan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basicstan/meta.yaml>`_
 

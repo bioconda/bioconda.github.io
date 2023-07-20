@@ -12,7 +12,7 @@ bioconductor-weberdivechalcdata
 
    Spatially\-resolved transcriptomics and single\-nucleus RNA\-sequencing data from the locus coeruleus \(LC\) in postmortem human brain samples
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/WeberDivechaLCdata.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/WeberDivechaLCdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-weberdivechalcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weberdivechalcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weberdivechalcdata/meta.yaml>`_
 

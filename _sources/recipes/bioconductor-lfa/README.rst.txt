@@ -12,12 +12,12 @@ bioconductor-lfa
 
    Logistic Factor Analysis for Categorical Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/lfa.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/lfa.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-lfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lfa/meta.yaml>`_
    :links: biotools: :biotools:`lfa`, doi: :doi:`10.1093/bioinformatics/btv641`
 
-   LFA is a method for a PCA analogue on Binomial data via estimation of latent structure in the natural parameter.
+   Logistic Factor Analysis is a method for a PCA analogue on Binomial data via estimation of latent structure in the natural parameter.  The main method estimates genetic population structure from genotype data.  There are also methods for estimating individual\-specific allele frequencies using the population structure.  Lastly\, a structured Hardy\-Weinberg equilibrium \(HWE\) test is developed\, which quantifies the goodness of fit of the genotype data to the estimated population structure\, via the estimated individual\-specific allele frequencies \(all of which generalizes traditional HWE tests\).
 
 
 .. conda:package:: bioconductor-lfa

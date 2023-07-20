@@ -12,7 +12,7 @@ bioconductor-ringo
 
    R Investigation of ChIP\-chip Oligoarrays
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Ringo.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Ringo.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ringo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ringo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ringo/meta.yaml>`_
    :links: biotools: :biotools:`ringo`

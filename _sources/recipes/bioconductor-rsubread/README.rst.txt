@@ -12,7 +12,7 @@ bioconductor-rsubread
 
    Mapping\, quantification and variant analysis of sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Rsubread.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rsubread.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-rsubread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread/meta.yaml>`_
    :links: biotools: :biotools:`rsubread`

@@ -12,7 +12,7 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro3
 
    Full genome sequences for Pan troglodytes \(UCSC version panTro3\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro3.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.ptroglodytes.ucsc.pantro3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ptroglodytes.ucsc.pantro3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ptroglodytes.ucsc.pantro3/meta.yaml>`_
 

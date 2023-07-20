@@ -12,7 +12,7 @@ bioconductor-gwasurvivr
 
    gwasurvivr\: an R package for genome wide survival analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/gwasurvivr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/gwasurvivr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gwasurvivr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasurvivr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasurvivr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-confessdata
 
    Example dataset for CONFESS package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/CONFESSdata.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/CONFESSdata.html
    :license: GPL-2
    :recipe: /`bioconductor-confessdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confessdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confessdata/meta.yaml>`_
 

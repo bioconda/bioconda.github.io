@@ -12,12 +12,12 @@ bioconductor-specl
 
    specL \- Prepare Peptide Spectrum Matches for Use in Targeted Proteomics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/specL.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/specL.html
    :license: GPL-3
    :recipe: /`bioconductor-specl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specl/meta.yaml>`_
    :links: biotools: :biotools:`specl`
 
-   provides a functions for generating spectra libraries that can be used for MRM SRM MS workflows in proteomics. The package provides a BiblioSpec reader\, a function which can add the protein information using a FASTA formatted amino acid file\, and an export method for using the created library in the Spectronaut software. The package is developed\, tested and used at the Functional Genomics Center Zurich \<http\:\/\/www.fgcz.ethz.ch\>.
+   provides a functions for generating spectra libraries that can be used for MRM SRM MS workflows in proteomics. The package provides a BiblioSpec reader\, a function which can add the protein information using a FASTA formatted amino acid file\, and an export method for using the created library in the Spectronaut software. The package is developed\, tested and used at the Functional Genomics Center Zurich \<https\:\/\/fgcz.ch\>.
 
 
 .. conda:package:: bioconductor-specl

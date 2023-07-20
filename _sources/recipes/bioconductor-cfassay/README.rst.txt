@@ -12,7 +12,7 @@ bioconductor-cfassay
 
    Statistical analysis for the Colony Formation Assay
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CFAssay.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CFAssay.html
    :license: LGPL
    :recipe: /`bioconductor-cfassay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfassay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfassay/meta.yaml>`_
    :links: biotools: :biotools:`cfassay`, doi: :doi:`10.1186/s13014-015-0529-y`

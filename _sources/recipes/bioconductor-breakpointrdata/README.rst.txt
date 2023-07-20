@@ -12,7 +12,7 @@ bioconductor-breakpointrdata
 
    Strand\-seq data for demonstration purposes
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/breakpointRdata.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/breakpointRdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-breakpointrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointrdata/meta.yaml>`_
 

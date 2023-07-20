@@ -12,7 +12,7 @@ bioconductor-segmenter
 
    Perform Chromatin Segmentation Analysis in R by Calling ChromHMM
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/segmenter.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/segmenter.html
    :license: GPL-3
    :recipe: /`bioconductor-segmenter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmenter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmenter/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-segmenter
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bamsignals: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-chipseeker: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-bamsignals: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-chipseeker: ``>=1.36.0,<1.37.0``
    :depends bioconductor-chromhmmdata: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-complexheatmap: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ bioconductor-segmenter
 
     <script>
         var package = "bioconductor-segmenter";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

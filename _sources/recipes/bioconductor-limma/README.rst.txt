@@ -12,7 +12,7 @@ bioconductor-limma
 
    Linear Models for Microarray Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/limma.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/limma.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-limma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma/meta.yaml>`_
    :links: biotools: :biotools:`limma`, usegalaxy-eu: :usegalaxy-eu:`limma_voom`

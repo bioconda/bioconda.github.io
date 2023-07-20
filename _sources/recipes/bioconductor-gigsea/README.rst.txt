@@ -12,7 +12,7 @@ bioconductor-gigsea
 
    Genotype Imputed Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GIGSEA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GIGSEA.html
    :license: LGPL-3
    :recipe: /`bioconductor-gigsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gigsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gigsea/meta.yaml>`_
 

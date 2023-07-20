@@ -12,7 +12,7 @@ bioconductor-swfdr
 
    Estimation of the science\-wise false discovery rate and the false discovery rate conditional on covariates
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/swfdr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/swfdr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-swfdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swfdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swfdr/meta.yaml>`_
 

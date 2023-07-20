@@ -12,7 +12,7 @@ bioconductor-reactomegraph4r
 
    Interface for the Reactome Graph Database
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ReactomeGraph4R.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ReactomeGraph4R.html
    :license: Apache License (>= 2)
    :recipe: /`bioconductor-reactomegraph4r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegraph4r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegraph4r/meta.yaml>`_
 

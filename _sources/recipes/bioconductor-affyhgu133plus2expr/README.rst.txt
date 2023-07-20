@@ -12,7 +12,7 @@ bioconductor-affyhgu133plus2expr
 
    Affyhgu133Plus2Expr \(GPL570\) Expression Data Package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/Affyhgu133Plus2Expr.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/Affyhgu133Plus2Expr.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affyhgu133plus2expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133plus2expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133plus2expr/meta.yaml>`_
 

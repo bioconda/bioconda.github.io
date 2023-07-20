@@ -12,7 +12,7 @@ bioconductor-drugtargetinteractions
 
    Drug\-Target Interactions
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/drugTargetInteractions.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/drugTargetInteractions.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-drugtargetinteractions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugtargetinteractions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugtargetinteractions/meta.yaml>`_
 

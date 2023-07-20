@@ -1,0 +1,94 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-retrofit'
+.. highlight: bash
+
+bioconductor-retrofit
+=====================
+
+.. conda:recipe:: bioconductor-retrofit
+   :replaces_section_title:
+   :noindex:
+
+   RETROFIT\: Reference\-free deconvolution of cell mixtures in spatial transcriptomics
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/retrofit.html
+   :license: GPL-3
+   :recipe: /`bioconductor-retrofit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-retrofit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-retrofit/meta.yaml>`_
+
+   RETROFIT is a Bayesian non\-negative matrix factorization framework to decompose cell type mixtures in ST data without using external single\-cell expression references. RETROFIT outperforms existing reference\-based methods in estimating cell type proportions and reconstructing gene expressions in simulations with varying spot size and sample heterogeneity\, irrespective of the quality or availability of the single\-cell reference. RETROFIT recapitulates known cell\-type localization patterns in a Slide\-seq dataset of mouse cerebellum without using any single\-cell data.
+
+
+.. conda:package:: bioconductor-retrofit
+
+   |downloads_bioconductor-retrofit| |docker_bioconductor-retrofit|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-rcpp: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-retrofit
+
+   and update with::
+
+      conda update bioconductor-retrofit
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-retrofit:<tag>
+
+   (see `bioconductor-retrofit/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-retrofit| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-retrofit.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-retrofit
+   :alt:   (downloads)
+.. |docker_bioconductor-retrofit| image:: https://quay.io/repository/biocontainers/bioconductor-retrofit/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-retrofit
+.. _`bioconductor-retrofit/tags`: https://quay.io/repository/biocontainers/bioconductor-retrofit?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-retrofit";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-retrofit/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-retrofit/README.html

@@ -12,7 +12,7 @@ bioconductor-dexma
 
    Differential Expression Meta\-Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DExMA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DExMA.html
    :license: GPL-2
    :recipe: /`bioconductor-dexma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexma/meta.yaml>`_
 

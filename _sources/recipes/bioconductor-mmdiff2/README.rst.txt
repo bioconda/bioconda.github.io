@@ -12,7 +12,7 @@ bioconductor-mmdiff2
 
    Statistical Testing for ChIP\-Seq data sets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MMDiff2.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MMDiff2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mmdiff2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiff2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiff2/meta.yaml>`_
    :links: biotools: :biotools:`mmdiff2`, doi: :doi:`10.1038/nmeth.3252`

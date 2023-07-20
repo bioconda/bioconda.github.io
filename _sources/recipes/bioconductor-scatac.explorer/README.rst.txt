@@ -12,7 +12,7 @@ bioconductor-scatac.explorer
 
    A Collection of Single\-cell ATAC Sequencing Datasets and Corresponding Metadata
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/scATAC.Explorer.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/scATAC.Explorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scatac.explorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scatac.explorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scatac.explorer/meta.yaml>`_
 

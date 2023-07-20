@@ -12,7 +12,7 @@ bioconductor-normqpcr
 
    Functions for normalisation of RT\-qPCR data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/NormqPCR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/NormqPCR.html
    :license: LGPL-3
    :recipe: /`bioconductor-normqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normqpcr/meta.yaml>`_
 

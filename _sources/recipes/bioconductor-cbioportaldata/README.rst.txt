@@ -12,7 +12,7 @@ bioconductor-cbioportaldata
 
    Exposes and makes available data from the cBioPortal web resources
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cBioPortalData.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cBioPortalData.html
    :license: AGPL-3
    :recipe: /`bioconductor-cbioportaldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbioportaldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbioportaldata/meta.yaml>`_
 

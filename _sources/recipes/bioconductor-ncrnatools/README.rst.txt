@@ -12,7 +12,7 @@ bioconductor-ncrnatools
 
    An R toolkit for non\-coding RNA
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ncRNAtools.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ncRNAtools.html
    :license: GPL-3
    :recipe: /`bioconductor-ncrnatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncrnatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncrnatools/meta.yaml>`_
 

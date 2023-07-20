@@ -12,7 +12,7 @@ bioconductor-comethdmr
 
    Accurate identification of co\-methylated and differentially methylated regions in epigenome\-wide association studies
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/coMethDMR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/coMethDMR.html
    :license: GPL-3
    :recipe: /`bioconductor-comethdmr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comethdmr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comethdmr/meta.yaml>`_
 

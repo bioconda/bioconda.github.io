@@ -12,7 +12,7 @@ bioconductor-cbea
 
    Competitive Balances for Taxonomic Enrichment Analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CBEA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CBEA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cbea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbea/meta.yaml>`_
 

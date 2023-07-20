@@ -12,7 +12,7 @@ bioconductor-prebs
 
    Probe region expression estimation for RNA\-seq data for improved microarray comparability
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/prebs.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/prebs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prebs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebs/meta.yaml>`_
    :links: biotools: :biotools:`prebs`

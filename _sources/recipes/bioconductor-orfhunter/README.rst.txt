@@ -12,8 +12,8 @@ bioconductor-orfhunter
 
    Predict open reading frames in nucleotide sequences
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ORFhunteR.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ORFhunteR.html
+   :license: MIT License
    :recipe: /`bioconductor-orfhunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfhunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfhunter/meta.yaml>`_
 
    The ORFhunteR package is a R and C\+\+ library for an automatic determination and annotation of open reading frames \(ORF\) in a large set of RNA molecules. It efficiently implements the machine learning model based on vectorization of nucleotide sequences and the random forest classification algorithm. The ORFhunteR package consists of a set of functions written in the R language in conjunction with C\+\+. The efficiency of the package was confirmed by the examples of the analysis of RNA molecules from the NCBI RefSeq and Ensembl databases. The package can be used in basic and applied biomedical research related to the study of the transcriptome of normal as well as altered \(for example\, cancer\) human cells.

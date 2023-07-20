@@ -12,7 +12,7 @@ bioconductor-nxtirfcore
 
    Core Engine for NxtIRF\: a User\-Friendly Intron Retention and Alternative Splicing Analysis using the IRFinder Engine
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/NxtIRFcore.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/NxtIRFcore.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-nxtirfcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfcore/meta.yaml>`_
 

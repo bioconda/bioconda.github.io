@@ -12,7 +12,7 @@ bioconductor-decontam
 
    Identify Contaminants in Marker\-gene and Metagenomics Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/decontam.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/decontam.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-decontam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontam/meta.yaml>`_
 

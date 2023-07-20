@@ -12,7 +12,7 @@ bioconductor-sangeranalyser
 
    sangeranalyseR\: a suite of functions for the analysis of Sanger sequence data in R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sangeranalyseR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sangeranalyseR.html
    :license: GPL-2
    :recipe: /`bioconductor-sangeranalyser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sangeranalyser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sangeranalyser/meta.yaml>`_
 

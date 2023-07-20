@@ -12,7 +12,7 @@ bioconductor-pd.chicken
 
    Platform Design Info for The Manufacturer\'s Name Chicken
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.chicken.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.chicken.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.chicken <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.chicken>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.chicken/meta.yaml>`_
 

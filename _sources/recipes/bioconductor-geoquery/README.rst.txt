@@ -12,7 +12,7 @@ bioconductor-geoquery
 
    Get data from NCBI Gene Expression Omnibus \(GEO\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GEOquery.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GEOquery.html
    :license: MIT
    :recipe: /`bioconductor-geoquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoquery/meta.yaml>`_
    :links: biotools: :biotools:`geoquery`

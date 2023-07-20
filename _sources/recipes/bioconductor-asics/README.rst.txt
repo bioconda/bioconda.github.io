@@ -12,7 +12,7 @@ bioconductor-asics
 
    Automatic Statistical Identification in Complex Spectra
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ASICS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ASICS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-asics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asics/meta.yaml>`_
 

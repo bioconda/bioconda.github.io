@@ -12,7 +12,7 @@ bioconductor-stringdb
 
    STRINGdb \- Protein\-Protein Interaction Networks and Functional Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/STRINGdb.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/STRINGdb.html
    :license: GPL-2
    :recipe: /`bioconductor-stringdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stringdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stringdb/meta.yaml>`_
    :links: biotools: :biotools:`stringdb`

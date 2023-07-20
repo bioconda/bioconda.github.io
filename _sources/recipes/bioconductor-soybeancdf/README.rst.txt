@@ -12,7 +12,7 @@ bioconductor-soybeancdf
 
    soybeancdf
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/soybeancdf.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/soybeancdf.html
    :license: LGPL
    :recipe: /`bioconductor-soybeancdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeancdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeancdf/meta.yaml>`_
 

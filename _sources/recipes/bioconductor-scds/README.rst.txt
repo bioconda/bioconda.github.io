@@ -12,7 +12,7 @@ bioconductor-scds
 
    In\-Silico Annotation of Doublets for Single Cell RNA Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scds.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scds.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scds <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scds>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scds/meta.yaml>`_
 

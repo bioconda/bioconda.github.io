@@ -12,7 +12,7 @@ bioconductor-msqrob2
 
    Robust statistical inference for quantitative LC\-MS proteomics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/msqrob2.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/msqrob2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msqrob2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msqrob2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msqrob2/meta.yaml>`_
 

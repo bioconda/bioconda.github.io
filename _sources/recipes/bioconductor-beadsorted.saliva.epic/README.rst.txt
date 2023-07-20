@@ -12,7 +12,7 @@ bioconductor-beadsorted.saliva.epic
 
    Illumina EPIC data on BeadSorted child saliva cells
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/BeadSorted.Saliva.EPIC.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/BeadSorted.Saliva.EPIC.html
    :license: GPL-3
    :recipe: /`bioconductor-beadsorted.saliva.epic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadsorted.saliva.epic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadsorted.saliva.epic/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-proteodisco
 
    Generation of customized protein variant databases from genomic variants\, splice\-junctions and manual sequences
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ProteoDisco.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ProteoDisco.html
    :license: GPL-3
    :recipe: /`bioconductor-proteodisco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteodisco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteodisco/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-enmix
 
    Quality control and analysis tools for Illumina DNA methylation BeadChip
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ENmix.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ENmix.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmix/meta.yaml>`_
 
-   Tool kits for quanlity control\, analysis and visulization of Illumina DNA methylation arrays.
+   Tools for quanlity control\, analysis and visulization of Illumina DNA methylation array data.
 
 
 .. conda:package:: bioconductor-enmix

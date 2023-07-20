@@ -12,7 +12,7 @@ bioconductor-experimentsubset
 
    Manages subsets of data with Bioconductor Experiment objects
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ExperimentSubset.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ExperimentSubset.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-experimentsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimentsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimentsubset/meta.yaml>`_
 

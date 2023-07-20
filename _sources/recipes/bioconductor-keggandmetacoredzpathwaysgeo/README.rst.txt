@@ -12,7 +12,7 @@ bioconductor-keggandmetacoredzpathwaysgeo
 
    Disease Datasets from GEO
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
    :license: GPL-2
    :recipe: /`bioconductor-keggandmetacoredzpathwaysgeo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo/meta.yaml>`_
 

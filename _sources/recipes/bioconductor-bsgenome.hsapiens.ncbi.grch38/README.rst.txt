@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ncbi.grch38
 
    Full genome sequences for Homo sapiens \(GRCh38\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Hsapiens.NCBI.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Hsapiens.NCBI.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ncbi.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.grch38/meta.yaml>`_
 

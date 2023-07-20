@@ -12,7 +12,7 @@ bioconductor-htrat230pm.db
 
    Affymetrix Affymetrix HT\_Rat230\_PM Array annotation data \(chip htrat230pm\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/htrat230pm.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/htrat230pm.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htrat230pm.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pm.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pm.db/meta.yaml>`_
 

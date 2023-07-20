@@ -12,7 +12,7 @@ bioconductor-rbwa
 
    R wrapper for BWA\-backtrack and BWA\-MEM aligners
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Rbwa.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rbwa.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rbwa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbwa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbwa/meta.yaml>`_
 

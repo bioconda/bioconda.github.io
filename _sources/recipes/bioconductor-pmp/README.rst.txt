@@ -12,7 +12,7 @@ bioconductor-pmp
 
    Peak Matrix Processing and signal batch correction for metabolomics datasets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/pmp.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/pmp.html
    :license: GPL-3
    :recipe: /`bioconductor-pmp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pmp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pmp/meta.yaml>`_
 

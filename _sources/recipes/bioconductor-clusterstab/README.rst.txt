@@ -12,7 +12,7 @@ bioconductor-clusterstab
 
    Compute cluster stability scores for microarray data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/clusterStab.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/clusterStab.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterstab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterstab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterstab/meta.yaml>`_
    :links: biotools: :biotools:`clusterstab`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-anvilbilling
 
    Provide functions to retrieve and report on usage expenses in NHGRI AnVIL \(anvilproject.org\).
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/AnVILBilling.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/AnVILBilling.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvilbilling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilbilling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilbilling/meta.yaml>`_
 

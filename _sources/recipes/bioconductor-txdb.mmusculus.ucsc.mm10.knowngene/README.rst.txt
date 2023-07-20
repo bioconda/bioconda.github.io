@@ -12,7 +12,7 @@ bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/TxDb.Mmusculus.UCSC.mm10.knownGene.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/TxDb.Mmusculus.UCSC.mm10.knownGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.mmusculus.ucsc.mm10.knowngene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.knowngene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.knowngene/meta.yaml>`_
 

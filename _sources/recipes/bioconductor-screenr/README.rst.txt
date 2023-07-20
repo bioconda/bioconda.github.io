@@ -12,7 +12,7 @@ bioconductor-screenr
 
    Package to Perform High Throughput Biological Screening
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ScreenR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ScreenR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-screenr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screenr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screenr/meta.yaml>`_
 

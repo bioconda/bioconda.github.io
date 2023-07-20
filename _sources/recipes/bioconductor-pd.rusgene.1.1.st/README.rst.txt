@@ -12,7 +12,7 @@ bioconductor-pd.rusgene.1.1.st
 
    Platform Design Info for Affymetrix RUSGene\-1\_1\-st
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.rusgene.1.1.st.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.rusgene.1.1.st.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rusgene.1.1.st <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rusgene.1.1.st>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rusgene.1.1.st/meta.yaml>`_
 

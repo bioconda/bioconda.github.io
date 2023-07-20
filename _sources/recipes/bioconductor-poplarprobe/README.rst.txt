@@ -12,7 +12,7 @@ bioconductor-poplarprobe
 
    Probe sequence data for microarrays of type poplar
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/poplarprobe.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/poplarprobe.html
    :license: LGPL
    :recipe: /`bioconductor-poplarprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarprobe/meta.yaml>`_
 

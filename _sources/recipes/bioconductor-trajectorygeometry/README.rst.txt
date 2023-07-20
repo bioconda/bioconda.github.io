@@ -12,7 +12,7 @@ bioconductor-trajectorygeometry
 
    This Package Discovers Directionality in Time and Pseudo\-times Series of Gene Expression Patterns
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TrajectoryGeometry.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TrajectoryGeometry.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-trajectorygeometry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trajectorygeometry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trajectorygeometry/meta.yaml>`_
 

@@ -69,10 +69,10 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">bioconductor-meb</span></span></dt>
-<dd><p>A normalization-invariant minimum enclosing ball method to detect differentially expressed genes for RNA-seq data</p>
+<dd><p>A normalization-invariant minimum enclosing ball method to detect differentially expressed genes for RNA-seq and scRNA-seq data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.16/bioc/html/MEB.html">https://bioconductor.org/packages/3.16/bioc/html/MEB.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.17/bioc/html/MEB.html">https://bioconductor.org/packages/3.17/bioc/html/MEB.html</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
 <dd class="field-even"><p>GPL-2</p>
@@ -81,7 +81,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meb">bioconductor-meb</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meb/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Identifying differentially expressed genes between the same or different species is an urgent demand for biological and medical research. For RNA-seq data, systematic technical effects and different sequencing depths are usually encountered when conducting experiments. Normalization is regarded as an essential step in the discovery of biologically important changes in expression. The present methods usually involve normalization of the data with a scaling factor, followed by detection of significant genes. However, more than one scaling factor may exist because of the complexity of real data. Consequently, methods that normalize data by a single scaling factor may deliver suboptimal performance or may not even work. The development of modern machine learning techniques has provided a new perspective regarding discrimination between differentially expressed (DE) and non-DE genes. However, in reality, the non-DE genes comprise only a small set and may contain housekeeping genes (in same species) or conserved orthologous genes (in different species). Therefore, the process of detecting DE genes can be formulated as a one-class classification problem, where only non-DE genes are observed, while DE genes are completely absent from the training data. We transform the problem to an outlier detection problem by treating DE genes as outliers, and we propose a normalization-invariant minimum enclosing ball (NIMEB) method to construct a smallest possible ball to contain the known non-DE genes in a feature space. The genes outside the minimum enclosing ball can then be naturally considered to be DE genes. Compared with the existing methods, the proposed NIMEB method does not require data normalization, which is particularly attractive when the RNA-seq data include more than one scaling factor. Furthermore, the NIMEB method could be easily extended to different species without normalization.</p>
+<p>This package provides a method to identify differential expression genes in the same or different species. Given that non-DE genes have some similarities in features, a scaling-free minimum enclosing ball (SFMEB) model is built to cover those non-DE genes in feature space, then those DE genes, which are enormously different from non-DE genes, being regarded as outliers and rejected outside the ball. The method on this package is described in the article 'A minimum enclosing ball method to detect differential expression genes for RNA-seq data'. The SFMEB method is extended to the scMEB method that considering two or more potential types of cells or unknown labels scRNA-seq dataset DEGs identification.</p>
 </dd></dl>
 
 <dl class="conda package">

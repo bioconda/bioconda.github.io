@@ -12,7 +12,7 @@ bioconductor-bionar
 
    Biological Network Analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BioNAR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BioNAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bionar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionar/meta.yaml>`_
 

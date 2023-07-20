@@ -12,7 +12,7 @@ bioconductor-biocdockermanager
 
    Access Bioconductor docker images
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BiocDockerManager.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BiocDockerManager.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocdockermanager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocdockermanager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocdockermanager/meta.yaml>`_
 

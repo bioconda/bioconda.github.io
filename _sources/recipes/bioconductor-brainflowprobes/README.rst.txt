@@ -12,7 +12,7 @@ bioconductor-brainflowprobes
 
    Plots and annotation for choosing BrainFlow target probe sequence
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/brainflowprobes.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/brainflowprobes.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-brainflowprobes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainflowprobes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainflowprobes/meta.yaml>`_
 

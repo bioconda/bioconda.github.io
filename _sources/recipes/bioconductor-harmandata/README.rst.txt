@@ -12,7 +12,7 @@ bioconductor-harmandata
 
    Data for the Harman package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/HarmanData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/HarmanData.html
    :license: GPL-3
    :recipe: /`bioconductor-harmandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata/meta.yaml>`_
 

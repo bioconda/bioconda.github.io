@@ -12,7 +12,7 @@ bioconductor-compass
 
    Combinatorial Polyfunctionality Analysis of Single Cells
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/COMPASS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/COMPASS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-compass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compass/meta.yaml>`_
    :links: biotools: :biotools:`compass`, doi: :doi:`10.1038/nbt.3187`

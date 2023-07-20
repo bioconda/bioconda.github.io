@@ -12,7 +12,7 @@ bioconductor-dasper
 
    Detecting abberant splicing events from RNA\-sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/dasper.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/dasper.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dasper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dasper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dasper/meta.yaml>`_
 

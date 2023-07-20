@@ -12,7 +12,7 @@ bioconductor-harman
 
    The removal of batch effects from datasets using a PCA and constrained optimisation based technique
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Harman.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Harman.html
    :license: GPL-3 + file LICENCE
    :recipe: /`bioconductor-harman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harman/meta.yaml>`_
    :links: biotools: :biotools:`harman`

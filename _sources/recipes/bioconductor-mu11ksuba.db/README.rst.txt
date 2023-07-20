@@ -12,7 +12,7 @@ bioconductor-mu11ksuba.db
 
    Affymetrix Affymetrix Mu11KsubA Array annotation data \(chip mu11ksuba\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/mu11ksuba.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/mu11ksuba.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mu11ksuba.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksuba.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksuba.db/meta.yaml>`_
 

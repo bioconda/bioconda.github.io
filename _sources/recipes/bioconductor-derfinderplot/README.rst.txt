@@ -12,7 +12,7 @@ bioconductor-derfinderplot
 
    Plotting functions for derfinder
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/derfinderPlot.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/derfinderPlot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-derfinderplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderplot/meta.yaml>`_
    :links: biotools: :biotools:`derfinderplot`

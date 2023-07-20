@@ -1,0 +1,109 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-seqarchrplus'
+.. highlight: bash
+
+bioconductor-seqarchrplus
+=========================
+
+.. conda:recipe:: bioconductor-seqarchrplus
+   :replaces_section_title:
+   :noindex:
+
+   Downstream analyses of promoter sequence architectures and HTML report generation
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/seqArchRplus.html
+   :license: GPL-3
+   :recipe: /`bioconductor-seqarchrplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarchrplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarchrplus/meta.yaml>`_
+
+   seqArchRplus facilitates downstream analyses of promoter sequence architectures\/clusters identified by seqArchR \(or any other tool\/method\). With additional available information such as the TPM values and interquantile widths \(IQWs\) of the CAGE tag clusters\, seqArchRplus can order the input promoter clusters by their shape \(IQWs\)\, and write the cluster information as browser\/IGV track files. Provided visualizations are of two kind\: per sample\/stage and per cluster visualizations. Those of the first kind include\: plot panels for each sample showing per cluster shape\, TPM and other score distributions\, sequence logos\, and peak annotations. The second include per cluster chromosome\-wise and strand distributions\, motif occurrence heatmaps and GO term enrichments. Additionally\, seqArchRplus can also generate HTML reports for easy viewing and comparison of promoter architectures between samples\/stages \(future\).
+
+
+.. conda:package:: bioconductor-seqarchrplus
+
+   |downloads_bioconductor-seqarchrplus| |docker_bioconductor-seqarchrplus|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-chipseeker: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-heatmaps: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-seqarchr: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-seqpattern: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-cli: 
+   :depends r-cowplot: 
+   :depends r-factoextra: 
+   :depends r-forcats: 
+   :depends r-ggplot2: 
+   :depends r-gridextra: 
+   :depends r-rcolorbrewer: 
+   :depends r-scales: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-seqarchrplus
+
+   and update with::
+
+      conda update bioconductor-seqarchrplus
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-seqarchrplus:<tag>
+
+   (see `bioconductor-seqarchrplus/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-seqarchrplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqarchrplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqarchrplus
+   :alt:   (downloads)
+.. |docker_bioconductor-seqarchrplus| image:: https://quay.io/repository/biocontainers/bioconductor-seqarchrplus/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-seqarchrplus
+.. _`bioconductor-seqarchrplus/tags`: https://quay.io/repository/biocontainers/bioconductor-seqarchrplus?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-seqarchrplus";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-seqarchrplus/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-seqarchrplus/README.html

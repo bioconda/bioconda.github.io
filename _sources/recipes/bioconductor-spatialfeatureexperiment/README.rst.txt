@@ -12,7 +12,7 @@ bioconductor-spatialfeatureexperiment
 
    Integrating SpatialExperiment with Simple Features in sf
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SpatialFeatureExperiment.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SpatialFeatureExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spatialfeatureexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialfeatureexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialfeatureexperiment/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-coregx
 
    Classes and Functions to Serve as the Basis for Other \'Gx\' Packages
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CoreGx.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CoreGx.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-coregx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregx/meta.yaml>`_
 

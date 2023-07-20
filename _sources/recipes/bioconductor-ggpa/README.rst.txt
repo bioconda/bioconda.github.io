@@ -12,7 +12,7 @@ bioconductor-ggpa
 
    graph\-GPA\: A graphical model for prioritizing GWAS results and investigating pleiotropic architecture
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GGPA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GGPA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ggpa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggpa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggpa/meta.yaml>`_
 

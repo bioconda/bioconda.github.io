@@ -12,8 +12,8 @@ bioconductor-uniprot.ws
 
    R Interface to UniProt Web Services
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/UniProt.ws.html
-   :license: Artistic License 2.0
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/UniProt.ws.html
+   :license: Artistic-2.0
    :recipe: /`bioconductor-uniprot.ws <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws/meta.yaml>`_
    :links: biotools: :biotools:`uniprot.ws`, doi: :doi:`10.1038/nmeth.3252`
 

@@ -12,8 +12,8 @@ bioconductor-qsmooth
 
    Smooth quantile normalization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/qsmooth.html
-   :license: CC BY 4.0
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/qsmooth.html
+   :license: GPL-3
    :recipe: /`bioconductor-qsmooth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsmooth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsmooth/meta.yaml>`_
 
    Smooth quantile normalization is a generalization of quantile normalization\, which is average of the two types of assumptions about the data generation process\: quantile normalization and quantile normalization between groups.

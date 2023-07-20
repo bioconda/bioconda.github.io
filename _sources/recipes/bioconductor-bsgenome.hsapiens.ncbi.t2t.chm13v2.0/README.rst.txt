@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0
 
    T2T\-CHM13v2.0 assembly \(Homo sapiens\) wrapped in a BSgenome object
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0/meta.yaml>`_
 

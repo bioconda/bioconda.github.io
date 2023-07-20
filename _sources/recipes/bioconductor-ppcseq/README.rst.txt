@@ -12,7 +12,7 @@ bioconductor-ppcseq
 
    Probabilistic Outlier Identification for RNA Sequencing Generalized Linear Models
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ppcseq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ppcseq.html
    :license: GPL-3
    :recipe: /`bioconductor-ppcseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppcseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppcseq/meta.yaml>`_
 

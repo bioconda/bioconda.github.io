@@ -12,7 +12,7 @@ bioconductor-methylaid
 
    Visual and interactive quality control of large Illumina DNA Methylation array data sets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MethylAid.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MethylAid.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-methylaid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaid/meta.yaml>`_
 

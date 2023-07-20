@@ -12,7 +12,7 @@ bioconductor-oveseg
 
    OVESEG\-test to detect tissue\/cell\-specific markers
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/OVESEG.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OVESEG.html
    :license: GPL-2
    :recipe: /`bioconductor-oveseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oveseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oveseg/meta.yaml>`_
 

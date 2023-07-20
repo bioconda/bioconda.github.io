@@ -12,7 +12,7 @@ bioconductor-dyebiasexamples
 
    Example data for the dyebias package\, which implements the GASSCO method.
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/dyebiasexamples.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/dyebiasexamples.html
    :license: GPL-3
    :recipe: /`bioconductor-dyebiasexamples <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebiasexamples>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebiasexamples/meta.yaml>`_
 

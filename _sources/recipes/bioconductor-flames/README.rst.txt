@@ -12,7 +12,7 @@ bioconductor-flames
 
    FLAMES\: Full Length Analysis of Mutations and Splicing in long read RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/FLAMES.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FLAMES.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-flames <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flames>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flames/meta.yaml>`_
 

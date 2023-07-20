@@ -12,7 +12,7 @@ bioconductor-sbgnview
 
    \"SBGNview\: Data Analysis\, Integration and Visualization on SBGN Pathways\"
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SBGNview.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SBGNview.html
    :license: AGPL-3
    :recipe: /`bioconductor-sbgnview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview/meta.yaml>`_
 

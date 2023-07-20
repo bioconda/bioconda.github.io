@@ -12,7 +12,7 @@ bioconductor-sbmlr
 
    SBML\-R Interface and Analysis Tools
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SBMLR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SBMLR.html
    :license: GPL-2
    :recipe: /`bioconductor-sbmlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbmlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbmlr/meta.yaml>`_
 

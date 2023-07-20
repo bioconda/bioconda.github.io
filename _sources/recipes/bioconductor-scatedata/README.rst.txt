@@ -12,7 +12,7 @@ bioconductor-scatedata
 
    Data for SCATE \(Single\-cell ATAC\-seq Signal Extraction and Enhancement\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/SCATEData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/SCATEData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scatedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scatedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scatedata/meta.yaml>`_
 

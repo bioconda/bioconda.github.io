@@ -12,7 +12,7 @@ bioconductor-geoexplorer
 
    GEOexplorer\: an R\/Bioconductor package for gene expression analysis and visualisation
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GEOexplorer.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GEOexplorer.html
    :license: GPL-3
    :recipe: /`bioconductor-geoexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoexplorer/meta.yaml>`_
 

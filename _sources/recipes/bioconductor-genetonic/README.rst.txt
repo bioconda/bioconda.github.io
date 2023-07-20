@@ -12,11 +12,11 @@ bioconductor-genetonic
 
    Enjoy Analyzing And Integrating The Results From Differential Expression Analysis And Functional Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GeneTonic.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GeneTonic.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-genetonic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetonic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetonic/meta.yaml>`_
 
-   This package provides a Shiny application that aims to combine at different levels the existing pieces of the transcriptome data and results\, in a way that makes it easier to generate insightful observations and hypothesis \- combining the benefits of interactivity and reproducibility\, e.g. by capturing the features and gene sets of interest highlighted during the live session\, and creating an HTML report as an artifact where text\, code\, and output coexist.
+   This package provides functionality to combine the existing pieces of the transcriptome data and results\, making it easier to generate insightful observations and hypothesis. Its usage is made easy with a Shiny application\, combining the benefits of interactivity and reproducibility e.g. by capturing the features and gene sets of interest highlighted during the live session\, and creating an HTML report as an artifact where text\, code\, and output coexist. Using the GeneTonicList as a standardized container for all the required components\, it is possible to simplify the generation of multiple visualizations and summaries.
 
 
 .. conda:package:: bioconductor-genetonic

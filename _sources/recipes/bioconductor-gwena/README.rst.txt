@@ -12,7 +12,7 @@ bioconductor-gwena
 
    Pipeline for augmented co\-expression analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GWENA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GWENA.html
    :license: GPL-3
    :recipe: /`bioconductor-gwena <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwena>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwena/meta.yaml>`_
 

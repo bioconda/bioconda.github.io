@@ -12,7 +12,7 @@ bioconductor-biovizbase
 
    Basic graphic utilities for visualization of genomic data.
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/biovizBase.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biovizBase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biovizbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biovizbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biovizbase/meta.yaml>`_
    :links: biotools: :biotools:`biovizbase`, doi: :doi:`10.1038/nmeth.3252`

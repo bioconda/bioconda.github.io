@@ -12,7 +12,7 @@ bioconductor-scthi
 
    Indentification of significantly activated ligand\-receptor interactions across clusters of cells from single\-cell RNA sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scTHI.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scTHI.html
    :license: GPL-2
    :recipe: /`bioconductor-scthi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scthi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scthi/meta.yaml>`_
 

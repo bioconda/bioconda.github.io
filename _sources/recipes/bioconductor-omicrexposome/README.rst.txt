@@ -12,7 +12,7 @@ bioconductor-omicrexposome
 
    Exposome and omic data associatin and integration analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/omicRexposome.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/omicRexposome.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omicrexposome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicrexposome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicrexposome/meta.yaml>`_
 

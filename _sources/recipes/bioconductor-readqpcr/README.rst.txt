@@ -12,7 +12,7 @@ bioconductor-readqpcr
 
    Read qPCR data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ReadqPCR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ReadqPCR.html
    :license: LGPL-3
    :recipe: /`bioconductor-readqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-readqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-readqpcr/meta.yaml>`_
    :links: biotools: :biotools:`readqpcr`

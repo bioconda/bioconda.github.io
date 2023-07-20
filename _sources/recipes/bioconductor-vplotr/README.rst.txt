@@ -12,8 +12,8 @@ bioconductor-vplotr
 
    Set of tools to make V\-plots and compute footprint profiles
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/VplotR.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/VplotR.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-vplotr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vplotr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vplotr/meta.yaml>`_
 
    The pattern of digestion and protection from DNA nucleases such as DNAse I\, micrococcal nuclease\, and Tn5 transposase can be used to infer the location of associated proteins. This package contains useful functions to analyze patterns of paired\-end sequencing fragment density. VplotR facilitates the generation of V\-plots and footprint profiles over single or aggregated genomic loci of interest.

@@ -12,7 +12,7 @@ bioconductor-flowsorted.cordbloodnorway.450k
 
    Illumina HumanMethylation data on sorted cord blood cell populations
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/FlowSorted.CordBloodNorway.450k.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/FlowSorted.CordBloodNorway.450k.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowsorted.cordbloodnorway.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodnorway.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodnorway.450k/meta.yaml>`_
 

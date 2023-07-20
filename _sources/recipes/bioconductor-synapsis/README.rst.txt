@@ -12,7 +12,7 @@ bioconductor-synapsis
 
    An R package to automate the analysis of double\-strand break repair during meiosis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/synapsis.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/synapsis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-synapsis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapsis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapsis/meta.yaml>`_
 

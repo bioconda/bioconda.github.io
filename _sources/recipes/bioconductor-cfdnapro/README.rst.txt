@@ -12,7 +12,7 @@ bioconductor-cfdnapro
 
    cfDNAPro extracts and Visualises biological features from whole genome sequencing data of cell\-free DNA
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cfDNAPro.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cfDNAPro.html
    :license: GPL-3
    :recipe: /`bioconductor-cfdnapro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnapro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnapro/meta.yaml>`_
 

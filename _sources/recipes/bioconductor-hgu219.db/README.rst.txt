@@ -12,7 +12,7 @@ bioconductor-hgu219.db
 
    Affymetrix Human Genome 219 Plate annotation data \(chip hgu219\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hgu219.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hgu219.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgu219.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219.db/meta.yaml>`_
 

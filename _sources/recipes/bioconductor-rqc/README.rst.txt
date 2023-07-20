@@ -12,7 +12,7 @@ bioconductor-rqc
 
    Quality Control Tool for High\-Throughput Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Rqc.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rqc.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqc/meta.yaml>`_
 

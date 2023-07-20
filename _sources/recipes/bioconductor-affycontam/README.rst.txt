@@ -12,7 +12,7 @@ bioconductor-affycontam
 
    structured corruption of affymetrix cel file data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/affyContam.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/affyContam.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-affycontam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycontam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycontam/meta.yaml>`_
    :links: biotools: :biotools:`affycontam`, doi: :doi:`10.1038/nmeth.3252`

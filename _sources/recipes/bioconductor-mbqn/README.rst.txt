@@ -12,7 +12,7 @@ bioconductor-mbqn
 
    Mean\/Median\-balanced quantile normalization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MBQN.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MBQN.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-mbqn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqn/meta.yaml>`_
 

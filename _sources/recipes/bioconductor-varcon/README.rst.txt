@@ -12,7 +12,7 @@ bioconductor-varcon
 
    VarCon\: an R package for retrieving neighboring nucleotides of an SNV
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/VarCon.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/VarCon.html
    :license: GPL-3
    :recipe: /`bioconductor-varcon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varcon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varcon/meta.yaml>`_
 

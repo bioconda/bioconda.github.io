@@ -12,7 +12,7 @@ bioconductor-rae230aprobe
 
    Probe sequence data for microarrays of type rae230a
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/rae230aprobe.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/rae230aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-rae230aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230aprobe/meta.yaml>`_
 

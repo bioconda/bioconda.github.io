@@ -12,7 +12,7 @@ bioconductor-regsplice
 
    L1\-regularization based methods for detection of differential splicing
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/regsplice.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/regsplice.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-regsplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regsplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regsplice/meta.yaml>`_
    :links: biotools: :biotools:`regsplice`, doi: :doi:`10.1038/nmeth.3252`

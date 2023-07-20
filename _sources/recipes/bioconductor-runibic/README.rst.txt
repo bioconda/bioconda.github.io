@@ -12,7 +12,7 @@ bioconductor-runibic
 
    runibic\: row\-based biclustering algorithm for analysis of gene expression data in R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/runibic.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/runibic.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-runibic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-runibic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-runibic/meta.yaml>`_
 

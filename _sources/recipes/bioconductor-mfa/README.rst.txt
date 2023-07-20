@@ -12,7 +12,7 @@ bioconductor-mfa
 
    Bayesian hierarchical mixture of factor analyzers for modelling genomic bifurcations
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mfa.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mfa.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfa/meta.yaml>`_
 

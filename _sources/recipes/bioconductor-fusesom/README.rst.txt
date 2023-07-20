@@ -12,7 +12,7 @@ bioconductor-fusesom
 
    A Correlation Based Multiview Self Organizing Maps Clustering For IMC Datasets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/FuseSOM.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FuseSOM.html
    :license: GPL-2
    :recipe: /`bioconductor-fusesom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fusesom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fusesom/meta.yaml>`_
 

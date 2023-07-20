@@ -12,7 +12,7 @@ bioconductor-sclcbam
 
    Sequence data from chromosome 4 of a small\-cell lung tumor
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/SCLCBam.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/SCLCBam.html
    :license: GPL-2
    :recipe: /`bioconductor-sclcbam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sclcbam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sclcbam/meta.yaml>`_
 

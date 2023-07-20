@@ -12,7 +12,7 @@ bioconductor-screpertoire
 
    A toolkit for single\-cell immune receptor profiling
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scRepertoire.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scRepertoire.html
    :license: GPL-2
    :recipe: /`bioconductor-screpertoire <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire/meta.yaml>`_
 

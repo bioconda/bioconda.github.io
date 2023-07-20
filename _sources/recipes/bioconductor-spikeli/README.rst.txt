@@ -12,7 +12,7 @@ bioconductor-spikeli
 
    Affymetrix Spike\-in Langmuir Isotherm Data Analysis Tool
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/spikeLI.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/spikeLI.html
    :license: GPL-2
    :recipe: /`bioconductor-spikeli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeli/meta.yaml>`_
    :links: biotools: :biotools:`spikeli`, doi: :doi:`10.1038/nmeth.3252`

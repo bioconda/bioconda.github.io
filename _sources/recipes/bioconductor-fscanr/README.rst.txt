@@ -12,7 +12,7 @@ bioconductor-fscanr
 
    Detect Programmed Ribosomal Frameshifting Events from mRNA\/cDNA BLASTX Output
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/FScanR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FScanR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fscanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fscanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fscanr/meta.yaml>`_
 

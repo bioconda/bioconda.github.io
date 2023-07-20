@@ -10,13 +10,13 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.masked
    :replaces_section_title:
    :noindex:
 
-   Full masked genome sequences for Homo sapiens \(UCSC version hg38\, based on GRCh38.p13\)
+   Full masked genomic sequences for Homo sapiens \(UCSC version hg38\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.masked.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg38.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked/meta.yaml>`_
 
-   Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(genome hg38\, based on GRCh38.p13\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Hsapiens.UCSC.hg38\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
+   Full genomic sequences for Homo sapiens as provided by UCSC \(genome hg38\, based on assembly GRCh38.p14 since 2023\/01\/31\). The sequences are the same as in BSgenome.Hsapiens.UCSC.hg38\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default. The sequences are stored in MaskedDNAString objects.
 
 
 .. conda:package:: bioconductor-bsgenome.hsapiens.ucsc.hg38.masked

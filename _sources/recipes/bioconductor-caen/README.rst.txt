@@ -12,7 +12,7 @@ bioconductor-caen
 
    Category encoding method for selecting feature genes for the classification of single\-cell RNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CAEN.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CAEN.html
    :license: GPL-2
    :recipe: /`bioconductor-caen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caen/meta.yaml>`_
 

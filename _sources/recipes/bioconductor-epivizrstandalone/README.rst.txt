@@ -12,7 +12,7 @@ bioconductor-epivizrstandalone
 
    Run Epiviz Interactive Genomic Data Visualization App within R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/epivizrStandalone.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/epivizrStandalone.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epivizrstandalone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrstandalone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrstandalone/meta.yaml>`_
    :links: biotools: :biotools:`epivizrstandalone`, doi: :doi:`10.1038/nmeth.3252`

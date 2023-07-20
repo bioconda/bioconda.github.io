@@ -12,7 +12,7 @@ bioconductor-dir.expiry
 
    Managing Expiration for Cache Directories
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/dir.expiry.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/dir.expiry.html
    :license: GPL-3
    :recipe: /`bioconductor-dir.expiry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dir.expiry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dir.expiry/meta.yaml>`_
 

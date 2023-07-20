@@ -12,7 +12,7 @@ bioconductor-arraymvout
 
    multivariate outlier detection for expression array QA
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/arrayMvout.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/arrayMvout.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arraymvout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraymvout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraymvout/meta.yaml>`_
 

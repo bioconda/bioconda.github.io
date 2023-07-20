@@ -12,7 +12,7 @@ bioconductor-siamcat
 
    Statistical Inference of Associations between Microbial Communities And host phenoTypes
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SIAMCAT.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SIAMCAT.html
    :license: GPL-3
    :recipe: /`bioconductor-siamcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siamcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siamcat/meta.yaml>`_
 

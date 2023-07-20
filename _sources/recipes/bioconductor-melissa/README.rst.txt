@@ -12,7 +12,7 @@ bioconductor-melissa
 
    Bayesian clustering and imputationa of single cell methylomes
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Melissa.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Melissa.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-melissa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-melissa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-melissa/meta.yaml>`_
 

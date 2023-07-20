@@ -12,7 +12,7 @@ bioconductor-yarn
 
    YARN\: Robust Multi\-Condition RNA\-Seq Preprocessing and Normalization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/yarn.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/yarn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yarn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yarn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yarn/meta.yaml>`_
    :links: biotools: :biotools:`yarn`, doi: :doi:`10.1101/086587`

@@ -12,7 +12,7 @@ bioconductor-epimix
 
    EpiMix\: an integrative tool for the population\-level analysis of DNA methylation
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EpiMix.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EpiMix.html
    :license: GPL-3
    :recipe: /`bioconductor-epimix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimix/meta.yaml>`_
 

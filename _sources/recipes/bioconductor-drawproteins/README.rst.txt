@@ -12,7 +12,7 @@ bioconductor-drawproteins
 
    Package to Draw Protein Schematics from Uniprot API output
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/drawProteins.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/drawProteins.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-drawproteins <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drawproteins>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drawproteins/meta.yaml>`_
 

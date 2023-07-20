@@ -12,7 +12,7 @@ bioconductor-sparrow
 
    Take command of set enrichment analyses through a unified interface
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sparrow.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sparrow.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sparrow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparrow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparrow/meta.yaml>`_
 

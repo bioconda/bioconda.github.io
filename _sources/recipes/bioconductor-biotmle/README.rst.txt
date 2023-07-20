@@ -12,7 +12,7 @@ bioconductor-biotmle
 
    Targeted Learning with Moderated Statistics for Biomarker Discovery
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/biotmle.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biotmle.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biotmle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmle/meta.yaml>`_
 

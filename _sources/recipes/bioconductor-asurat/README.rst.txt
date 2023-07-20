@@ -12,7 +12,7 @@ bioconductor-asurat
 
    Functional annotation\-driven unsupervised clustering for single\-cell data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ASURAT.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ASURAT.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-asurat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asurat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asurat/meta.yaml>`_
 

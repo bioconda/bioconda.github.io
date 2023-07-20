@@ -12,7 +12,7 @@ bioconductor-cola
 
    A Framework for Consensus Partitioning
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cola.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cola.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cola <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cola>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cola/meta.yaml>`_
 

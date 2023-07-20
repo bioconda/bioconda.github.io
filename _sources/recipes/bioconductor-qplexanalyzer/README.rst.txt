@@ -12,7 +12,7 @@ bioconductor-qplexanalyzer
 
    Tools for quantitative proteomics data analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/qPLEXanalyzer.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/qPLEXanalyzer.html
    :license: GPL-2
    :recipe: /`bioconductor-qplexanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qplexanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qplexanalyzer/meta.yaml>`_
 

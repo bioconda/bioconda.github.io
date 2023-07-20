@@ -12,7 +12,7 @@ bioconductor-ropls
 
    PCA\, PLS\(\-DA\) and OPLS\(\-DA\) for multivariate analysis and feature selection of omics data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ropls.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ropls.html
    :license: CeCILL
    :recipe: /`bioconductor-ropls <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ropls>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ropls/meta.yaml>`_
    :links: biotools: :biotools:`ropls`

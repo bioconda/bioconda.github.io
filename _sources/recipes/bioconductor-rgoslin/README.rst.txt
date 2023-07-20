@@ -12,7 +12,7 @@ bioconductor-rgoslin
 
    Lipid Shorthand Name Parsing and Normalization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rgoslin.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rgoslin.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rgoslin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgoslin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgoslin/meta.yaml>`_
 

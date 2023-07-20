@@ -12,7 +12,7 @@ bioconductor-hellorangesdata
 
    Data for the HelloRanges tutorial vignette
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/HelloRangesData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/HelloRangesData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hellorangesdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hellorangesdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hellorangesdata/meta.yaml>`_
 

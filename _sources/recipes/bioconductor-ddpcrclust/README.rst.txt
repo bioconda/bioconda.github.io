@@ -12,7 +12,7 @@ bioconductor-ddpcrclust
 
    Clustering algorithm for ddPCR data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ddPCRclust.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ddPCRclust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ddpcrclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddpcrclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddpcrclust/meta.yaml>`_
 

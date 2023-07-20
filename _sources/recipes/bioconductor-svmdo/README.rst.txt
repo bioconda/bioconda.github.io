@@ -1,0 +1,107 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-svmdo'
+.. highlight: bash
+
+bioconductor-svmdo
+==================
+
+.. conda:recipe:: bioconductor-svmdo
+   :replaces_section_title:
+   :noindex:
+
+   Identification of Tumor\-Discriminating mRNA Signatures via Support Vector Machines Supported by Disease Ontology
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SVMDO.html
+   :license: GPL-3
+   :recipe: /`bioconductor-svmdo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svmdo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svmdo/meta.yaml>`_
+
+   It is an easy\-to\-use GUI using disease information for detecting tumor\/normal sample discriminating gene sets from differentially expressed genes. Our approach is based on an iterative algorithm filtering genes with disease ontology enrichment analysis and wilk’s lambda criterion connected to SVM classification model construction. Along with gene set extraction\, SVMDO also provides individual prognostic marker detection. The algorithm is designed for FPKM and RPKM normalized RNA\-Seq transcriptome datasets.
+
+
+.. conda:package:: bioconductor-svmdo
+
+   |downloads_bioconductor-svmdo| |docker_bioconductor-svmdo|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-bsda: ``>=1.2.1``
+   :depends r-caret: ``>=6.0-93``
+   :depends r-catools: ``>=1.18.2``
+   :depends r-data.table: ``>=1.14.6``
+   :depends r-dplyr: ``>=1.0.10``
+   :depends r-e1071: ``>=1.7-12``
+   :depends r-golem: ``>=0.3.5``
+   :depends r-klar: ``>=1.7-1``
+   :depends r-nortest: ``>=1.0-4``
+   :depends r-shiny: ``>=1.7.4``
+   :depends r-shinyfiles: ``>=0.9.3``
+   :depends r-shinytitle: ``>=0.1.0``
+   :depends r-sjmisc: ``>=2.8.9``
+   :depends r-survival: ``>=3.4-0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-svmdo
+
+   and update with::
+
+      conda update bioconductor-svmdo
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-svmdo:<tag>
+
+   (see `bioconductor-svmdo/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-svmdo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-svmdo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-svmdo
+   :alt:   (downloads)
+.. |docker_bioconductor-svmdo| image:: https://quay.io/repository/biocontainers/bioconductor-svmdo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-svmdo
+.. _`bioconductor-svmdo/tags`: https://quay.io/repository/biocontainers/bioconductor-svmdo?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-svmdo";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-svmdo/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-svmdo/README.html

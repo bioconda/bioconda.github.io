@@ -12,7 +12,7 @@ bioconductor-monalisa
 
    Binned Motif Enrichment Analysis and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/monaLisa.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/monaLisa.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-monalisa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-monalisa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-monalisa/meta.yaml>`_
 

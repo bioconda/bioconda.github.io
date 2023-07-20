@@ -12,7 +12,7 @@ bioconductor-scate
 
    SCATE\: Single\-cell ATAC\-seq Signal Extraction and Enhancement
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SCATE.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SCATE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scate/meta.yaml>`_
 

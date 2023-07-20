@@ -12,7 +12,7 @@ bioconductor-glmsparsenet
 
    Network Centrality Metrics for Elastic\-Net Regularized Models
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/glmSparseNet.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/glmSparseNet.html
    :license: GPL-3
    :recipe: /`bioconductor-glmsparsenet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glmsparsenet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glmsparsenet/meta.yaml>`_
 

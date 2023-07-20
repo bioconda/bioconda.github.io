@@ -12,7 +12,7 @@ bioconductor-htmg430b.db
 
    Affymetrix Affymetrix HT\_MG\-430B Array annotation data \(chip htmg430b\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/htmg430b.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/htmg430b.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htmg430b.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430b.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430b.db/meta.yaml>`_
 

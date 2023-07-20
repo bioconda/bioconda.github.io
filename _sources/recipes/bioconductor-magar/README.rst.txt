@@ -12,7 +12,7 @@ bioconductor-magar
 
    MAGAR\: R\-package to compute methylation Quantitative Trait Loci \(methQTL\) from DNA methylation and genotyping data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MAGAR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MAGAR.html
    :license: GPL-3
    :recipe: /`bioconductor-magar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-magar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-magar/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-magar
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-crlmm: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-hdf5array: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-impute: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-rnbeads: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-rnbeads.hg19: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-snpstats: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-crlmm: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-rnbeads: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-rnbeads.hg19: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-snpstats: ``>=1.50.0,<1.51.0``
    :depends r-argparse: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bigstatsr: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -81,7 +81,7 @@ bioconductor-magar
 
     <script>
         var package = "bioconductor-magar";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

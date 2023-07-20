@@ -12,7 +12,7 @@ bioconductor-surfaltr
 
    Rapid Comparison of Surface Protein Isoform Membrane Topologies Through surfaltr
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/surfaltr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/surfaltr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-surfaltr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-surfaltr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-surfaltr/meta.yaml>`_
 

@@ -1,0 +1,102 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-hicexperiment'
+.. highlight: bash
+
+bioconductor-hicexperiment
+==========================
+
+.. conda:recipe:: bioconductor-hicexperiment
+   :replaces_section_title:
+   :noindex:
+
+   Bioconductor class for interacting with Hi\-C files in R
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HiCExperiment.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-hicexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicexperiment/meta.yaml>`_
+
+   R generic interface to Hi\-C contact matrices in \`.\(m\)cool\`\, \`.hic\` or HiC\-Pro derived formats\, as well as other Hi\-C processed file formats. Contact matrices can be partially parsed using a random access method\, allowing a memory\-efficient representation of Hi\-C data in R. The \`HiCExperiment\` class stores the Hi\-C contacts parsed from local contact matrix files. \`HiCExperiment\` instances can be further investigated in R using the \`HiContacts\` analysis package.
+
+
+.. conda:package:: bioconductor-hicexperiment
+
+   |downloads_bioconductor-hicexperiment| |docker_bioconductor-hicexperiment|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocio: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-interactionset: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-dplyr: 
+   :depends r-matrix: 
+   :depends r-strawr: 
+   :depends r-vroom: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hicexperiment
+
+   and update with::
+
+      conda update bioconductor-hicexperiment
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-hicexperiment:<tag>
+
+   (see `bioconductor-hicexperiment/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-hicexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hicexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hicexperiment
+   :alt:   (downloads)
+.. |docker_bioconductor-hicexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-hicexperiment/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hicexperiment
+.. _`bioconductor-hicexperiment/tags`: https://quay.io/repository/biocontainers/bioconductor-hicexperiment?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hicexperiment";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hicexperiment/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hicexperiment/README.html

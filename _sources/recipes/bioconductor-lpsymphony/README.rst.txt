@@ -12,7 +12,7 @@ bioconductor-lpsymphony
 
    Symphony integer linear programming solver in R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/lpsymphony.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/lpsymphony.html
    :license: EPL
    :recipe: /`bioconductor-lpsymphony <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpsymphony>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpsymphony/meta.yaml>`_
    :links: biotools: :biotools:`lpsymphony`, doi: :doi:`10.1007/0-387-23529-9_5`

@@ -12,8 +12,8 @@ bioconductor-matrixqcvis
 
    Shiny\-based interactive data\-quality exploration for omics data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MatrixQCvis.html
-   :license: GPL (>= 3)
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MatrixQCvis.html
+   :license: GPL-3
    :recipe: /`bioconductor-matrixqcvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixqcvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixqcvis/meta.yaml>`_
 
    Data quality assessment is an integral part of preparatory data analysis to ensure sound biological information retrieval. We present here the MatrixQCvis package\, which provides shiny\-based interactive visualization of data quality metrics at the per\-sample and per\-feature level. It is broadly applicable to quantitative omics data types that come in matrix\-like format \(features x samples\). It enables the detection of low\-quality samples\, drifts\, outliers and batch effects in data sets. Visualizations include amongst others bar\- and violin plots of the \(count\/intensity\) values\, mean vs standard deviation plots\, MA plots\, empirical cumulative distribution function \(ECDF\) plots\, visualizations of the distances between samples\, and multiple types of dimension reduction plots. Furthermore\, MatrixQCvis allows for differential expression analysis based on the limma \(moderated t\-tests\) and proDA \(Wald tests\) packages. MatrixQCvis builds upon the popular Bioconductor SummarizedExperiment S4 class and enables thus the facile integration into existing workflows. The package is especially tailored towards metabolomics and proteomics mass spectrometry data\, but also allows to assess the data quality of other data types that can be represented in a SummarizedExperiment object.

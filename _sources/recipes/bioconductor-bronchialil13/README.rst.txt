@@ -12,7 +12,7 @@ bioconductor-bronchialil13
 
    time course experiment involving il13
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/bronchialIL13.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/bronchialIL13.html
    :license: GPL-2
    :recipe: /`bioconductor-bronchialil13 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bronchialil13>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bronchialil13/meta.yaml>`_
 

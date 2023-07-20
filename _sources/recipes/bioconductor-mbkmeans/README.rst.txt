@@ -12,7 +12,7 @@ bioconductor-mbkmeans
 
    Mini\-batch K\-means Clustering for Single\-Cell RNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mbkmeans.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mbkmeans.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mbkmeans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbkmeans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbkmeans/meta.yaml>`_
 

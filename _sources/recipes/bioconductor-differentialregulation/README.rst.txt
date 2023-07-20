@@ -12,11 +12,11 @@ bioconductor-differentialregulation
 
    Differentially regulated genes from scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DifferentialRegulation.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DifferentialRegulation.html
    :license: GPL-3
    :recipe: /`bioconductor-differentialregulation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-differentialregulation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-differentialregulation/meta.yaml>`_
 
-   DifferentialRegulation is a method for detecting differentially regulated genes between two groups of samples \(e.g.\, healthy vs. disease\, or treated vs. untreated samples\)\, by targeting differences in the balance of spliced and unspliced mRNA abundances\, obtained from single\-cell RNA\-sequencing \(scRNA\-seq\) data. DifferentialRegulation accounts for the sample\-to\-sample variability\, and embeds multiple samples in a Bayesian hierarchical model. In particular\, when reads are compatible with multiple genes or multiple splicing versions of a gene \(unspliced spliced or ambiguous\)\, the method allocates these multi\-mapping reads to the gene of origin and their splicing version. Parameters are inferred via Markov chain Monte Carlo \(MCMC\) techniques \(Metropolis\-within\-Gibbs\).
+   DifferentialRegulation is a method for detecting differentially regulated genes between two groups of samples \(e.g.\, healthy vs. disease\, or treated vs. untreated samples\)\, by targeting differences in the balance of spliced and unspliced mRNA abundances\, obtained from single\-cell RNA\-sequencing \(scRNA\-seq\) data. From a mathematical point of view\, DifferentialRegulation accounts for the sample\-to\-sample variability\, and embeds multiple samples in a Bayesian hierarchical model. Furthermore\, our method also deals with two major sources of mapping uncertainty\: i\) \'ambiguous\' reads\, compatible with both spliced and unspliced versions of a gene\, and ii\) reads mapping to multiple genes. In particular\, ambiguous reads are treated separately from spliced and unsplced reads\, while reads that are compatible with multiple genes are allocated to the gene of origin. Parameters are inferred via Markov chain Monte Carlo \(MCMC\) techniques \(Metropolis\-within\-Gibbs\).
 
 
 .. conda:package:: bioconductor-differentialregulation

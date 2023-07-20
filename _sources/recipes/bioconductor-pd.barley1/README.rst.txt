@@ -12,7 +12,7 @@ bioconductor-pd.barley1
 
    Platform Design Info for The Manufacturer\'s Name Barley1
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/pd.barley1.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.barley1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.barley1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.barley1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.barley1/meta.yaml>`_
 

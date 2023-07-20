@@ -12,7 +12,7 @@ bioconductor-sctreeviz
 
    R\/Bioconductor package to interactively explore and visualize single cell RNA\-seq datasets with hierarhical annotations
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scTreeViz.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scTreeViz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sctreeviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctreeviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctreeviz/meta.yaml>`_
 

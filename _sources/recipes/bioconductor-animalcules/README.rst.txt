@@ -12,7 +12,7 @@ bioconductor-animalcules
 
    Interactive microbiome analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/animalcules.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/animalcules.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-animalcules <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-animalcules>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-animalcules/meta.yaml>`_
 

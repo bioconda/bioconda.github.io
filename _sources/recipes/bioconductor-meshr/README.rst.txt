@@ -12,7 +12,7 @@ bioconductor-meshr
 
    Tools for conducting enrichment analysis of MeSH
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/meshr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/meshr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-meshr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshr/meta.yaml>`_
 

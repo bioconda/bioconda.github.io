@@ -12,7 +12,7 @@ bioconductor-macsquantifyr
 
    Fast treatment of MACSQuantify FACS data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MACSQuantifyR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MACSQuantifyR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-macsquantifyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsquantifyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsquantifyr/meta.yaml>`_
 

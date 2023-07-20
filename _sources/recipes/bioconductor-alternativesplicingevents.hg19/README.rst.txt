@@ -12,7 +12,7 @@ bioconductor-alternativesplicingevents.hg19
 
    Alternative splicing event annotation for Human \(hg19\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/alternativeSplicingEvents.hg19.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/alternativeSplicingEvents.hg19.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alternativesplicingevents.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alternativesplicingevents.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alternativesplicingevents.hg19/meta.yaml>`_
 

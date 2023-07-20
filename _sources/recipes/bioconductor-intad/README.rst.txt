@@ -12,7 +12,7 @@ bioconductor-intad
 
    Search for correlation between epigenetic signals and gene expression in TADs
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/InTAD.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/InTAD.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-intad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intad/meta.yaml>`_
 

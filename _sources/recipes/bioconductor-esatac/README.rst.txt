@@ -12,7 +12,7 @@ bioconductor-esatac
 
    An Easy\-to\-use Systematic pipeline for ATACseq data analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/esATAC.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/esATAC.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-esatac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-esatac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-esatac/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-geofastq
 
    Downloads ENA Fastqs With GEO Accessions
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GEOfastq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GEOfastq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-geofastq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geofastq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geofastq/meta.yaml>`_
 

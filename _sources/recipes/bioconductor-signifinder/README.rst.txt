@@ -12,11 +12,11 @@ bioconductor-signifinder
 
    Implementations of transcriptional cancer signatures
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/signifinder.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/signifinder.html
    :license: AGPL-3
    :recipe: /`bioconductor-signifinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signifinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signifinder/meta.yaml>`_
 
-   signifinder is an R package for computing and exploring a compendium of tumor signatures. It allows computing signatures scores providing the only gene expression values and returns a single\-sample score. Currently\, signifinder contains 46 distinct signatures collected from the literature.
+   signifinder is an R package for computing and exploring a compendium of tumor signatures. It allows to compute a variety of signatures\, based on gene expression values\, and return single\-sample scores. Currently\, signifinder contains 46 distinct signatures collected from the literature\, relating to multiple tumors and multiple cancer processes.
 
 
 .. conda:package:: bioconductor-signifinder

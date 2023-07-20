@@ -12,7 +12,7 @@ bioconductor-padog
 
    Pathway Analysis with Down\-weighting of Overlapping Genes \(PADOG\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PADOG.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PADOG.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-padog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-padog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-padog/meta.yaml>`_
    :links: biotools: :biotools:`padog`, doi: :doi:`10.1186/1471-2105-13-136`

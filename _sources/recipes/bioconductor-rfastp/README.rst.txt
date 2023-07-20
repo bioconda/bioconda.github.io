@@ -12,7 +12,7 @@ bioconductor-rfastp
 
    An Ultra\-Fast and All\-in\-One Fastq Preprocessor \(Quality Control\, Adapter\, low quality and polyX trimming\) and UMI Sequence Parsing\).
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Rfastp.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rfastp.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-rfastp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfastp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfastp/meta.yaml>`_
 

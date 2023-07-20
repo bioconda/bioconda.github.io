@@ -12,7 +12,7 @@ bioconductor-nxtirfdata
 
    Data for NxtIRF
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/NxtIRFdata.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/NxtIRFdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-nxtirfdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfdata/meta.yaml>`_
 

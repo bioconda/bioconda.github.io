@@ -12,7 +12,7 @@ bioconductor-regionereloaded
 
    RegioneReloaded\: Multiple Association for Genomic Region Sets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/regioneReloaded.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/regioneReloaded.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-regionereloaded <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionereloaded>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionereloaded/meta.yaml>`_
 

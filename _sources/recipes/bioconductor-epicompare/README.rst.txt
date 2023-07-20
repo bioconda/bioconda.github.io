@@ -12,7 +12,7 @@ bioconductor-epicompare
 
    Comparison\, Benchmarking \& QC of Epigenomic Datasets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EpiCompare.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EpiCompare.html
    :license: GPL-3
    :recipe: /`bioconductor-epicompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epicompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epicompare/meta.yaml>`_
 
@@ -27,22 +27,23 @@ bioconductor-epicompare
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-brgenomics: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-chipseeker: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomation: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-rtracklayer: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-brgenomics: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-chipseeker: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomation: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
+   :depends r-downloadthis: 
    :depends r-ggplot2: 
    :depends r-htmltools: 
    :depends r-plotly: 
@@ -80,7 +81,7 @@ bioconductor-epicompare
 
     <script>
         var package = "bioconductor-epicompare";
-        var versions = ["1.2.0"];
+        var versions = ["1.4.0","1.2.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-fishpond
 
    Fishpond\: downstream methods and tools for expression data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/fishpond.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/fishpond.html
    :license: GPL-2
    :recipe: /`bioconductor-fishpond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishpond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishpond/meta.yaml>`_
 

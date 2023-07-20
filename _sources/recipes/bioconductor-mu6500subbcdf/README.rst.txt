@@ -12,7 +12,7 @@ bioconductor-mu6500subbcdf
 
    mu6500subbcdf
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/mu6500subbcdf.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/mu6500subbcdf.html
    :license: LGPL
    :recipe: /`bioconductor-mu6500subbcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu6500subbcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu6500subbcdf/meta.yaml>`_
 

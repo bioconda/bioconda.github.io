@@ -12,7 +12,7 @@ bioconductor-slingshot
 
    Tools for ordering single\-cell sequencing
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/slingshot.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/slingshot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-slingshot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slingshot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slingshot/meta.yaml>`_
 

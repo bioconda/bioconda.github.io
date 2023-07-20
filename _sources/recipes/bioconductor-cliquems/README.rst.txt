@@ -12,7 +12,7 @@ bioconductor-cliquems
 
    Annotation of Isotopes\, Adducts and Fragmentation Adducts for in\-Source LC\/MS Metabolomics Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cliqueMS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cliqueMS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cliquems <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cliquems>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cliquems/meta.yaml>`_
 

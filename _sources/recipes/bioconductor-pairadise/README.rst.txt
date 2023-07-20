@@ -12,7 +12,7 @@ bioconductor-pairadise
 
    PAIRADISE\: Paired analysis of differential isoform expression
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PAIRADISE.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PAIRADISE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pairadise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pairadise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pairadise/meta.yaml>`_
 

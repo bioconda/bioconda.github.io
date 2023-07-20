@@ -12,7 +12,7 @@ bioconductor-pwmenrich.hsapiens.background
 
    H. sapiens background for PWMEnrich
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/PWMEnrich.Hsapiens.background.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/PWMEnrich.Hsapiens.background.html
    :license: GPL-3
    :recipe: /`bioconductor-pwmenrich.hsapiens.background <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background/meta.yaml>`_
 

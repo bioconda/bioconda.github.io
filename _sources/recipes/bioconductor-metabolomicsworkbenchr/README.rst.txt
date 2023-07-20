@@ -12,7 +12,7 @@ bioconductor-metabolomicsworkbenchr
 
    Metabolomics Workbench in R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/metabolomicsWorkbenchR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/metabolomicsWorkbenchR.html
    :license: GPL-3
    :recipe: /`bioconductor-metabolomicsworkbenchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabolomicsworkbenchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabolomicsworkbenchr/meta.yaml>`_
 

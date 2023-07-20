@@ -12,7 +12,7 @@ bioconductor-spidermir
 
    SpidermiR\: An R\/Bioconductor package for integrative network analysis with miRNA data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SpidermiR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SpidermiR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-spidermir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spidermir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spidermir/meta.yaml>`_
    :links: biotools: :biotools:`spidermir`, doi: :doi:`10.3390/ijms18020274`

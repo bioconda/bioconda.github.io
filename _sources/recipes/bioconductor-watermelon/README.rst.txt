@@ -12,7 +12,7 @@ bioconductor-watermelon
 
    Illumina 450 and EPIC methylation array normalization and metrics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/wateRmelon.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/wateRmelon.html
    :license: GPL-3
    :recipe: /`bioconductor-watermelon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-watermelon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-watermelon/meta.yaml>`_
    :links: biotools: :biotools:`watermelon`

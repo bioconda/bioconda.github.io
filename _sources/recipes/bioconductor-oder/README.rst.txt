@@ -12,7 +12,7 @@ bioconductor-oder
 
    Optimising the Definition of Expressed Regions
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ODER.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ODER.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-oder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oder/meta.yaml>`_
 

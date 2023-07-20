@@ -12,7 +12,7 @@ bioconductor-nnsvg
 
    Scalable identification of spatially variable genes in spatially\-resolved transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/nnSVG.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/nnSVG.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-nnsvg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nnsvg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nnsvg/meta.yaml>`_
 

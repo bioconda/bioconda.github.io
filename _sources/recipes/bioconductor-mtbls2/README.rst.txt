@@ -12,7 +12,7 @@ bioconductor-mtbls2
 
    MetaboLights MTBLS2\: Comparative LC\/MS\-based profiling of silver nitrate\-treated Arabidopsis thaliana leaves of wild\-type and cyp79B2 cyp79B3 double knockout plants. Böttcher et al. \(2004\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/mtbls2.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/mtbls2.html
    :license: CC0
    :recipe: /`bioconductor-mtbls2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2/meta.yaml>`_
 

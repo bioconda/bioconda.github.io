@@ -12,7 +12,7 @@ bioconductor-mosaicsexample
 
    Example data for the mosaics package\, which implements MOSAiCS and MOSAiCS\-HMM\, a statistical framework to analyze one\-sample or two\-sample ChIP\-seq data for transcription factor binding and histone modification
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/mosaicsExample.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/mosaicsExample.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mosaicsexample <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaicsexample>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaicsexample/meta.yaml>`_
 

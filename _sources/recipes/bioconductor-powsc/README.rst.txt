@@ -12,7 +12,7 @@ bioconductor-powsc
 
    Simulation\, power evaluation\, and sample size recommendation for single cell RNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/POWSC.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/POWSC.html
    :license: GPL-2
    :recipe: /`bioconductor-powsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powsc/meta.yaml>`_
 

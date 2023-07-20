@@ -27,13 +27,21 @@ r-epic
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.7-1</code>,  <code>1.1.7-0</code>,  <code>1.1.6-1</code>,  <code>1.1.6-0</code>,  <code>1.1-5</code>,  <code>1.1-4</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  </span></summary>
+      
 
+      ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +73,7 @@ r-epic
 
     <script>
         var package = "r-epic";
-        var versions = ["1.1.7","1.1.6","1.1.6","1.1","1.1"];
+        var versions = ["1.1.7","1.1.7","1.1.6","1.1.6","1.1"];
     </script>
 
 

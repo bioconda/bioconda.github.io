@@ -12,7 +12,7 @@ bioconductor-targetsearchdata
 
    Example GC\-MS data for TargetSearch Package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/TargetSearchData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/TargetSearchData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-targetsearchdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearchdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearchdata/meta.yaml>`_
 

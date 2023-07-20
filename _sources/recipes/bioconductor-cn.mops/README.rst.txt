@@ -12,7 +12,7 @@ bioconductor-cn.mops
 
    cn.mops \- Mixture of Poissons for CNV detection in NGS data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cn.mops.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cn.mops.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-cn.mops <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cn.mops>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cn.mops/meta.yaml>`_
    :links: biotools: :biotools:`cn.mops`

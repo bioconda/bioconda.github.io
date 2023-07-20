@@ -12,7 +12,7 @@ bioconductor-verso
 
    Viral Evolution ReconStructiOn \(VERSO\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/VERSO.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/VERSO.html
    :license: file LICENSE
    :recipe: /`bioconductor-verso <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-verso>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-verso/meta.yaml>`_
 

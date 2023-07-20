@@ -12,7 +12,7 @@ bioconductor-gdsfmt
 
    R Interface to CoreArray Genomic Data Structure \(GDS\) Files
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/gdsfmt.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/gdsfmt.html
    :license: LGPL-3
    :recipe: /`bioconductor-gdsfmt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsfmt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsfmt/meta.yaml>`_
 

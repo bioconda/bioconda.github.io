@@ -12,7 +12,7 @@ bioconductor-cghcall
 
    Calling aberrations for array CGH tumor profiles.
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CGHcall.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CGHcall.html
    :license: GPL (http://www.gnu.org/copyleft/gpl.html)
    :recipe: /`bioconductor-cghcall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghcall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghcall/meta.yaml>`_
    :links: biotools: :biotools:`cghcall`, doi: :doi:`10.1093/bioinformatics/btm030`

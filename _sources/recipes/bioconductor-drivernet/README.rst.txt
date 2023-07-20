@@ -12,7 +12,7 @@ bioconductor-drivernet
 
    Drivernet\: uncovering somatic driver mutations modulating transcriptional networks in cancer
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DriverNet.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DriverNet.html
    :license: GPL-3
    :recipe: /`bioconductor-drivernet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drivernet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drivernet/meta.yaml>`_
    :links: biotools: :biotools:`drivernet`, doi: :doi:`10.1186/gb-2012-13-12-r124`

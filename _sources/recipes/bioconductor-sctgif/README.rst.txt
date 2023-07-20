@@ -12,7 +12,7 @@ bioconductor-sctgif
 
    Cell type annotation for unannotated single\-cell RNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scTGIF.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scTGIF.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sctgif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctgif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctgif/meta.yaml>`_
 

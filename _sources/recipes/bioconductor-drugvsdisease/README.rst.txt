@@ -12,7 +12,7 @@ bioconductor-drugvsdisease
 
    Comparison of disease and drug profiles using Gene set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DrugVsDisease.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DrugVsDisease.html
    :license: GPL-3
    :recipe: /`bioconductor-drugvsdisease <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease/meta.yaml>`_
    :links: biotools: :biotools:`drugvsdisease`, doi: :doi:`10.1038/nmeth.3252`

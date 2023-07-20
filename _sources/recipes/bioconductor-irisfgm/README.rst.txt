@@ -12,7 +12,7 @@ bioconductor-irisfgm
 
    Comprehensive Analysis of Gene Interactivity Networks Based on Single\-Cell RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/IRISFGM.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/IRISFGM.html
    :license: GPL-2
    :recipe: /`bioconductor-irisfgm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-irisfgm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-irisfgm/meta.yaml>`_
 

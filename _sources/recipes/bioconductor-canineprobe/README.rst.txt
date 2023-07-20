@@ -12,7 +12,7 @@ bioconductor-canineprobe
 
    Probe sequence data for microarrays of type canine
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/canineprobe.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/canineprobe.html
    :license: LGPL
    :recipe: /`bioconductor-canineprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canineprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canineprobe/meta.yaml>`_
 

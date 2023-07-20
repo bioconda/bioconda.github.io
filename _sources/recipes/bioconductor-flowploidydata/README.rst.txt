@@ -12,7 +12,7 @@ bioconductor-flowploidydata
 
    Example Flow Cytometry Data
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/flowPloidyData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/flowPloidyData.html
    :license: GPL-3
    :recipe: /`bioconductor-flowploidydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowploidydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowploidydata/meta.yaml>`_
 

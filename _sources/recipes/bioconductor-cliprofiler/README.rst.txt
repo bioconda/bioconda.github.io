@@ -12,7 +12,7 @@ bioconductor-cliprofiler
 
    A package for the CLIP data visualization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cliProfiler.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cliProfiler.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cliprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cliprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cliprofiler/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-fletcher2013b
 
    Master regulators of FGFR2 signalling and breast cancer risk
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/Fletcher2013b.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/Fletcher2013b.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fletcher2013b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013b/meta.yaml>`_
 

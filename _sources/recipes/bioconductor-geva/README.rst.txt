@@ -12,7 +12,7 @@ bioconductor-geva
 
    Gene Expression Variation Analysis \(GEVA\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/geva.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/geva.html
    :license: LGPL-3
    :recipe: /`bioconductor-geva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geva/meta.yaml>`_
 

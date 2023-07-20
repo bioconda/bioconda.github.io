@@ -12,7 +12,7 @@ bioconductor-gviz
 
    Plotting data and annotation information along genomic coordinates
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Gviz.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Gviz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gviz/meta.yaml>`_
    :links: biotools: :biotools:`gviz`

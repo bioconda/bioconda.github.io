@@ -12,7 +12,7 @@ bioconductor-demand
 
    DeMAND
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DeMAND.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DeMAND.html
    :license: file LICENSE
    :recipe: /`bioconductor-demand <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demand>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demand/meta.yaml>`_
    :links: biotools: :biotools:`demand`, doi: :doi:`10.1038/nmeth.3252`

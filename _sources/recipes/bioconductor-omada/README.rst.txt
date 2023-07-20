@@ -12,7 +12,7 @@ bioconductor-omada
 
    Machine learning tools for automated transcriptome clustering analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/omada.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/omada.html
    :license: GPL-3
    :recipe: /`bioconductor-omada <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omada>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omada/meta.yaml>`_
 
@@ -27,7 +27,7 @@ bioconductor-omada
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-omada
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-clustercrit: ``>=1.2.8``
    :depends r-clvalid: ``>=0.7``
    :depends r-dicer: ``>=0.6.0``
@@ -79,7 +79,7 @@ bioconductor-omada
 
     <script>
         var package = "bioconductor-omada";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

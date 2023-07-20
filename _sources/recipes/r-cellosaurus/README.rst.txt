@@ -28,7 +28,7 @@ r-cellosaurus
       
       
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
 
       
 
@@ -40,7 +40,7 @@ r-cellosaurus
    :depends r-acidcli: ``>=0.2.7``
    :depends r-acidgenerics: ``>=0.6.7``
    :depends r-acidplyr: ``>=0.3.10``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: ``>=1.14.8``
    :depends r-goalie: ``>=0.6.9``
    :depends r-pipette: ``>=0.10.9``
@@ -77,7 +77,7 @@ r-cellosaurus
 
     <script>
         var package = "r-cellosaurus";
-        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.5.0"];
+        var versions = ["0.5.4","0.5.4","0.5.3","0.5.2","0.5.1"];
     </script>
 
 

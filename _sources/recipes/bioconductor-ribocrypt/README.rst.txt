@@ -12,7 +12,7 @@ bioconductor-ribocrypt
 
    Interactive visualization in genomics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RiboCrypt.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RiboCrypt.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ribocrypt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribocrypt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribocrypt/meta.yaml>`_
 
@@ -27,25 +27,38 @@ bioconductor-ribocrypt
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-orfik: ``>=1.18.0,<1.19.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-orfik: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-bslib: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-htmlwidgets: 
+   :depends r-httr: 
+   :depends r-jsonlite: 
+   :depends r-knitr: 
+   :depends r-markdown: 
+   :depends r-nglviewer: 
    :depends r-plotly: 
+   :depends r-rcurl: 
    :depends r-rlang: 
+   :depends r-shiny: 
+   :depends r-shinycssloaders: 
+   :depends r-shinyhelper: 
+   :depends r-shinyjqui: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +90,7 @@ bioconductor-ribocrypt
 
     <script>
         var package = "bioconductor-ribocrypt";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.0.0"];
     </script>
 
 

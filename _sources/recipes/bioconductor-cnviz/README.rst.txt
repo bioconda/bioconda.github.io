@@ -12,7 +12,7 @@ bioconductor-cnviz
 
    Copy Number Visualization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CNViz.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CNViz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cnviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnviz/meta.yaml>`_
 

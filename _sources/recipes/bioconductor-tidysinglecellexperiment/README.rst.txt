@@ -12,11 +12,11 @@ bioconductor-tidysinglecellexperiment
 
    Brings SingleCellExperiment to the Tidyverse
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/tidySingleCellExperiment.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tidySingleCellExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-tidysinglecellexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysinglecellexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysinglecellexperiment/meta.yaml>`_
 
-   tidySingleCellExperiment is an adapter that abstracts the \'SingleCellExperiment\' container in the form of tibble and allows the data manipulation\, plotting and nesting using \'tidyverse\'
+   tidySingleCellExperiment is an adapter that abstracts the \'SingleCellExperiment\' container in the form of a tibble and allows the data manipulation\, plotting and nesting using \'tidyverse\'.
 
 
 .. conda:package:: bioconductor-tidysinglecellexperiment

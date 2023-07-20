@@ -12,7 +12,7 @@ bioconductor-exomecopy
 
    Copy number variant detection from exome sequencing read depth
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/exomeCopy.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/exomeCopy.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-exomecopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomecopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomecopy/meta.yaml>`_
    :links: biotools: :biotools:`exomecopy`, doi: :doi:`10.2202/1544-6115.1732`

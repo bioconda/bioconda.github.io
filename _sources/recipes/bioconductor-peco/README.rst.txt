@@ -12,7 +12,7 @@ bioconductor-peco
 
    A Supervised Approach for \*\*P\*\*r\*\*e\*\*dicting \*\*c\*\*ell Cycle Pr\*\*o\*\*gression using scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/peco.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/peco.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-peco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peco/meta.yaml>`_
 

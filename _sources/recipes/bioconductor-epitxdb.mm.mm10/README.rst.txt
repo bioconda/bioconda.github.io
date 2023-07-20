@@ -12,7 +12,7 @@ bioconductor-epitxdb.mm.mm10
 
    Annotation package for EpiTxDb objects
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/EpiTxDb.Mm.mm10.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/EpiTxDb.Mm.mm10.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epitxdb.mm.mm10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.mm.mm10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.mm.mm10/meta.yaml>`_
 

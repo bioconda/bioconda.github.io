@@ -12,7 +12,7 @@ bioconductor-ihw
 
    Independent Hypothesis Weighting
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/IHW.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/IHW.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ihw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihw/meta.yaml>`_
    :links: biotools: :biotools:`IHW`, doi: :doi:`10.1038/nmeth.3885`

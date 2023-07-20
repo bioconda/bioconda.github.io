@@ -12,7 +12,7 @@ bioconductor-nullrangesdata
 
    ExperimentHub datasets for the nullranges package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/nullrangesData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/nullrangesData.html
    :license: GPL-3
    :recipe: /`bioconductor-nullrangesdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nullrangesdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nullrangesdata/meta.yaml>`_
 

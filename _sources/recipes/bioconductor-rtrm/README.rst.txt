@@ -12,7 +12,7 @@ bioconductor-rtrm
 
    Identification of Transcriptional Regulatory Modules from Protein\-Protein Interaction Networks
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rTRM.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rTRM.html
    :license: GPL-3
    :recipe: /`bioconductor-rtrm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrm/meta.yaml>`_
    :links: biotools: :biotools:`rtrm`

@@ -12,7 +12,7 @@ bioconductor-peca
 
    Probe\-level Expression Change Averaging
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PECA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PECA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-peca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peca/meta.yaml>`_
    :links: biotools: :biotools:`peca`, doi: :doi:`10.1007/978-1-4939-6518-2_11`

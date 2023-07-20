@@ -12,7 +12,7 @@ bioconductor-a4base
 
    Automated Affymetrix Array Analysis Base Package
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/a4Base.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/a4Base.html
    :license: GPL-3
    :recipe: /`bioconductor-a4base <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base/meta.yaml>`_
    :links: biotools: :biotools:`a4base`, doi: :doi:`10.1038/nmeth.3252`

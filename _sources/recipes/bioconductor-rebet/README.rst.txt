@@ -12,7 +12,7 @@ bioconductor-rebet
 
    The subREgion\-based BurdEn Test \(REBET\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/REBET.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/REBET.html
    :license: GPL-2
    :recipe: /`bioconductor-rebet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rebet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rebet/meta.yaml>`_
 

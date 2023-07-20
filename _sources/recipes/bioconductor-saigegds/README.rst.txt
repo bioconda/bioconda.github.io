@@ -12,11 +12,11 @@ bioconductor-saigegds
 
    Scalable Implementation of Generalized mixed models using GDS files in Phenome\-Wide Association Studies
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SAIGEgds.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SAIGEgds.html
    :license: GPL-3
    :recipe: /`bioconductor-saigegds <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saigegds>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saigegds/meta.yaml>`_
 
-   Scalable implementation of generalized mixed models with highly optimized C\+\+ implementation and integration with Genomic Data Structure \(GDS\) files. It is designed for single variant tests in large\-scale phenome\-wide association studies \(PheWAS\) with millions of variants and samples\, controlling for sample structure and case\-control imbalance. The implementation is based on the original SAIGE R package \(v0.29.4.4 for single variant tests\, Zhou et al. 2018\). SAIGEgds also implements some of the SPAtest functions in C to speed up the calculation of Saddlepoint approximation. Benchmarks show that SAIGEgds is 5 to 6 times faster than the original SAIGE R package.
+   Scalable implementation of generalized mixed models with highly optimized C\+\+ implementation and integration with Genomic Data Structure \(GDS\) files. It is designed for single variant tests and set\-based aggregate tests in large\-scale Phenome\-wide Association Studies \(PheWAS\) with millions of variants and samples\, controlling for sample structure and case\-control imbalance. The implementation is based on the SAIGE R package \(v0.45\, Zhou et al. 2018 and Zhou et al. 2020\)\, and it is extended to include the state\-of\-the\-art ACAT\-O set\-based tests. Benchmarks show that SAIGEgds is significantly faster than the SAIGE R package.
 
 
 .. conda:package:: bioconductor-saigegds

@@ -12,7 +12,7 @@ bioconductor-quantiseqr
 
    Quantification of the Tumor Immune contexture from RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/quantiseqr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/quantiseqr.html
    :license: GPL-3
    :recipe: /`bioconductor-quantiseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantiseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantiseqr/meta.yaml>`_
 

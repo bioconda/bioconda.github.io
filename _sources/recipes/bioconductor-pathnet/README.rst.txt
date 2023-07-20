@@ -12,7 +12,7 @@ bioconductor-pathnet
 
    An R package for pathway analysis using topological information
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PathNet.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PathNet.html
    :license: GPL-3
    :recipe: /`bioconductor-pathnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathnet/meta.yaml>`_
    :links: biotools: :biotools:`pathnet`

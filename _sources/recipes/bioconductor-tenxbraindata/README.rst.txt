@@ -12,7 +12,7 @@ bioconductor-tenxbraindata
 
    Data from the 10X 1.3 Million Brain Cell Study
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/TENxBrainData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/TENxBrainData.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-tenxbraindata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxbraindata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxbraindata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-huex10stprobeset.db
 
    Affymetrix huex10 annotation data \(chip huex10stprobeset\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/huex10stprobeset.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/huex10stprobeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-huex10stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huex10stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huex10stprobeset.db/meta.yaml>`_
 

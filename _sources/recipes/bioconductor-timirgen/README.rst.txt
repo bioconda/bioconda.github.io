@@ -12,7 +12,7 @@ bioconductor-timirgen
 
    Time sensitive microRNA\-mRNA integration\, analysis and network generation tool
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TimiRGeN.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TimiRGeN.html
    :license: GPL-3
    :recipe: /`bioconductor-timirgen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timirgen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timirgen/meta.yaml>`_
 

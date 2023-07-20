@@ -12,11 +12,11 @@ bioconductor-pdatk
 
    Pancreatic Ductal Adenocarcinoma Tool\-Kit
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PDATK.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PDATK.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pdatk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdatk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdatk/meta.yaml>`_
 
-   Pancreatic ductal adenocarcinoma \(PDA\) has a relatively poor prognosis and is one of the most lethal cancers. Molecular classification of gene expression profiles holds the potential to identify meaningful subtypes which can inform therapeutic strategy in the clinical setting. The Pancreatic Cancer Adenocarcinoma Tool\-Kit \(PDATK\) provides an S4 class\-based interface for performing unsupervised subtype discovery\, cross\-cohort meta\-clustering\, gene\-expression\-based classification\, and subsequent survival analysis to identify prognostically useful subtypes in pancreatic cancer and beyond. Two novel methods\, Consensus Subtypes in Pancreatic Cancer \(CSPC\) and Pancreatic Cancer Overall Survival Predictor \(PCOSP\) are included for consensus\-based meta\-clustering and overall\-survival prediction\, respectively. Additionally\, four published subtype classifiers and three published prognostic gene signatures are included to allow users to easily recreate published results\, apply existing classifiers to new data\, and benchmark the relative performance of new methods. The use of existing Bioconductor classes as input to all PDATK classes and methods enables integration with existing Bioconductor datasets\, including the 21 pancreatic cancer patient cohorts available in the MetaGxPancreas data package.
+   Pancreatic ductal adenocarcinoma \(PDA\) has a relatively poor prognosis and is one of the most lethal cancers. Molecular classification of gene expression profiles holds the potential to identify meaningful subtypes which can inform therapeutic strategy in the clinical setting. The Pancreatic Cancer Adenocarcinoma Tool\-Kit \(PDATK\) provides an S4 class\-based interface for performing unsupervised subtype discovery\, cross\-cohort meta\-clustering\, gene\-expression\-based classification\, and subsequent survival analysis to identify prognostically useful subtypes in pancreatic cancer and beyond. Two novel methods\, Consensus Subtypes in Pancreatic Cancer \(CSPC\) and Pancreatic Cancer Overall Survival Predictor \(PCOSP\) are included for consensus\-based meta\-clustering and overall\-survival prediction\, respectively. Additionally\, four published subtype classifiers and three published prognostic gene signatures are included to allow users to easily recreate published results\, apply existing classifiers to new data\, and benchmark the relative performance of new methods. The use of existing Bioconductor classes as input to all PDATK classes and methods enables integration with existing Bioconductor datasets\, including the 21 pancreatic cancer patient cohorts available in the MetaGxPancreas data package. PDATK has been used to replicate results from Sandhu et al \(2019\) and an additional paper is in the works using CSPC to validate subtypes from the included published classifiers\, both of which use the data available in MetaGxPancreas. The inclusion of subtype centroids and prognostic gene signatures from these and other publications will enable researchers and clinicians to classify novel patient gene expression data\, allowing the direct clinical application of the classifiers included in PDATK. Overall\, PDATK provides a rich set of tools to identify and validate useful prognostic and molecular subtypes based on gene\-expression data\, benchmark new classifiers against existing ones\, and apply discovered classifiers on novel patient data to inform clinical decision making.
 
 
 .. conda:package:: bioconductor-pdatk
@@ -27,24 +27,24 @@ bioconductor-pdatk
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-biocparallel: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-coregx: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-genefu: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-matrixgenerics: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-piano: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-survcomp: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-switchbox: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-coregx: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-genefu: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-piano: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-survcomp: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-switchbox: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
    :depends r-clusterrepro: 
    :depends r-data.table: 
@@ -93,7 +93,7 @@ bioconductor-pdatk
 
     <script>
         var package = "bioconductor-pdatk";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

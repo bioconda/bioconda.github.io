@@ -12,7 +12,7 @@ bioconductor-panviz
 
    Integrating Multi\-Omic Network Data With Summay\-Level GWAS Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PanViz.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PanViz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-panviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panviz/meta.yaml>`_
 

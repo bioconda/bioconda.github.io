@@ -12,7 +12,7 @@ bioconductor-netomics
 
    Multi\-Omics \(time\-course\) network\-based integration and interpretation
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/netOmics.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/netOmics.html
    :license: GPL-3
    :recipe: /`bioconductor-netomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netomics/meta.yaml>`_
 

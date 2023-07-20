@@ -12,7 +12,7 @@ bioconductor-ctdquerier
 
    Package for CTDbase data query\, visualization and downstream analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CTDquerier.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CTDquerier.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ctdquerier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctdquerier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctdquerier/meta.yaml>`_
 

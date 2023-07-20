@@ -1,0 +1,99 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-scvir'
+.. highlight: bash
+
+bioconductor-scvir
+==================
+
+.. conda:recipe:: bioconductor-scvir
+   :replaces_section_title:
+   :noindex:
+
+   experimental inferface from R to scvi\-tools
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scviR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-scvir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scvir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scvir/meta.yaml>`_
+
+   This package defines interfaces from R to scvi\-tools.  A vignette works through the totalVI tutorial for analyzing CITE\-seq data.  Another vignette compares outputs of Chapter 12 of the OSCA book with analogous outputs based on totalVI quantifications. Future work will address other components of scvi\-tools\, with a focus on building understanding of probabilistic methods based on variational autoencoders.
+
+
+.. conda:package:: bioconductor-scvir
+
+   |downloads_bioconductor-scvir| |docker_bioconductor-scvir|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-basilisk: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-scater: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-pheatmap: 
+   :depends r-reticulate: 
+   :depends r-shiny: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-scvir
+
+   and update with::
+
+      conda update bioconductor-scvir
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-scvir:<tag>
+
+   (see `bioconductor-scvir/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-scvir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scvir.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scvir
+   :alt:   (downloads)
+.. |docker_bioconductor-scvir| image:: https://quay.io/repository/biocontainers/bioconductor-scvir/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-scvir
+.. _`bioconductor-scvir/tags`: https://quay.io/repository/biocontainers/bioconductor-scvir?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-scvir";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-scvir/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-scvir/README.html

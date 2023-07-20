@@ -12,11 +12,11 @@ bioconductor-xeva
 
    Analysis of patient\-derived xenograft \(PDX\) data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Xeva.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Xeva.html
    :license: GPL-3
    :recipe: /`bioconductor-xeva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xeva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xeva/meta.yaml>`_
 
-   Contains set of functions to perform analysis of patient\-derived xenograft \(PDX\) data.
+   The Xeva package provides efficient and powerful functions for patient\-drived xenograft \(PDX\) based pharmacogenomic data analysis. This package contains a set of functions to perform analysis of patient\-derived xenograft data. This package was developed by the BHKLab\, for further information please see our documentation.
 
 
 .. conda:package:: bioconductor-xeva

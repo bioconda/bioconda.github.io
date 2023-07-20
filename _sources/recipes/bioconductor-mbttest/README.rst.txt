@@ -12,7 +12,7 @@ bioconductor-mbttest
 
    Multiple Beta t\-Tests
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MBttest.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MBttest.html
    :license: GPL-3
    :recipe: /`bioconductor-mbttest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbttest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbttest/meta.yaml>`_
    :links: biotools: :biotools:`mbttest`, doi: :doi:`10.1371/journal.pone.0123658`

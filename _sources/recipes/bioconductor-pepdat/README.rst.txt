@@ -12,7 +12,7 @@ bioconductor-pepdat
 
    Peptide microarray data package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/pepDat.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/pepDat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pepdat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepdat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepdat/meta.yaml>`_
 

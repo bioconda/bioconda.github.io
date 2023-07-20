@@ -12,11 +12,11 @@ bioconductor-msa2dist
 
    MSA2dist calculates pairwise distances between all sequences of a DNAStringSet or a AAStringSet using a custom score matrix and conducts codon based analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MSA2dist.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSA2dist.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-msa2dist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa2dist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa2dist/meta.yaml>`_
 
-   MSA2dist calculates pairwise distances between all sequences of a DNAStringSet or a AAStringSet using a custom score matrix and conducts codon based analysis. It uses scoring matrices to be used in these pairwise distance calcualtions which can be adapted to any scoring for DNA or AA characters. E.g. by using literal distances MSA2dist calcualtes pairwise IUPAC distances.
+   MSA2dist calculates pairwise distances between all sequences of a DNAStringSet or a AAStringSet using a custom score matrix and conducts codon based analysis. It uses scoring matrices to be used in these pairwise distance calcualtions which can be adapted to any scoring for DNA or AA characters. E.g. by using literal distances MSA2dist calculates pairwise IUPAC distances.
 
 
 .. conda:package:: bioconductor-msa2dist

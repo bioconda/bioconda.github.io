@@ -12,7 +12,7 @@ bioconductor-spasim
 
    Spatial point data simulator for tissue images
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/spaSim.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/spaSim.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spasim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spasim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spasim/meta.yaml>`_
 

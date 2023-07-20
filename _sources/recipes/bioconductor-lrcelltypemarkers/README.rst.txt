@@ -12,7 +12,7 @@ bioconductor-lrcelltypemarkers
 
    Marker gene information for LRcell R Bioconductor package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/LRcellTypeMarkers.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/LRcellTypeMarkers.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lrcelltypemarkers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrcelltypemarkers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrcelltypemarkers/meta.yaml>`_
 

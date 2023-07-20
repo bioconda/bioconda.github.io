@@ -12,7 +12,7 @@ bioconductor-hapmap100kxba
 
    Sample data \- Hapmap 100K XBA Affymetrix
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/hapmap100kxba.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/hapmap100kxba.html
    :license: GPL
    :recipe: /`bioconductor-hapmap100kxba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap100kxba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap100kxba/meta.yaml>`_
 

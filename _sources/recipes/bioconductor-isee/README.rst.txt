@@ -12,7 +12,7 @@ bioconductor-isee
 
    Interactive SummarizedExperiment Explorer
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/iSEE.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/iSEE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-isee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isee/meta.yaml>`_
 

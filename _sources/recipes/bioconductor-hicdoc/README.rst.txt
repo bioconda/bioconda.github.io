@@ -12,7 +12,7 @@ bioconductor-hicdoc
 
    A\/B compartment detection and differential analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/HiCDOC.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HiCDOC.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-hicdoc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdoc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdoc/meta.yaml>`_
 

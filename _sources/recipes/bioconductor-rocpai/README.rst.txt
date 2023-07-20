@@ -12,7 +12,7 @@ bioconductor-rocpai
 
    Receiver Operating Characteristic Partial Area Indexes for evaluating classifiers
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ROCpAI.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ROCpAI.html
    :license: GPL-3
    :recipe: /`bioconductor-rocpai <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rocpai>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rocpai/meta.yaml>`_
 

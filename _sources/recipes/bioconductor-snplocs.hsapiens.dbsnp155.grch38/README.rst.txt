@@ -12,7 +12,7 @@ bioconductor-snplocs.hsapiens.dbsnp155.grch38
 
    Human SNP locations and alleles extracted from dbSNP Build 155 and placed on the GRCh38\/hg38 assembly
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/SNPlocs.Hsapiens.dbSNP155.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/SNPlocs.Hsapiens.dbSNP155.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snplocs.hsapiens.dbsnp155.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp155.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp155.grch38/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pi
 
    Leveraging Genetic Evidence to Prioritise Drug Targets at the Gene and Pathway Level
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Pi.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Pi.html
    :license: GPL-3
    :recipe: /`bioconductor-pi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pi/meta.yaml>`_
 

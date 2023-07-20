@@ -12,7 +12,7 @@ bioconductor-structtoolbox
 
    Data processing \& analysis tools for Metabolomics and other omics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/structToolbox.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/structToolbox.html
    :license: GPL-3
    :recipe: /`bioconductor-structtoolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structtoolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structtoolbox/meta.yaml>`_
 

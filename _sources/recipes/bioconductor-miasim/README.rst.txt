@@ -12,11 +12,11 @@ bioconductor-miasim
 
    Microbiome Data Simulation
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/miaSim.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/miaSim.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-miasim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miasim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miasim/meta.yaml>`_
 
-   Microbiome time series simulation with generalized Lotka\-Volterra model\, Self\-Organized Instability \(SOI\)\, and other models. Hubbell\'s Neutral model is used to determine the abundance matrix. The resulting abundance matrix is applied to SummarizedExperiment or TreeSummarizedExperiment objects.
+   Microbiome time series simulation with generalized Lotka\-Volterra model\, Self\-Organized Instability \(SOI\)\, and other models. Hubbell\'s Neutral model is used to determine the abundance matrix. The resulting abundance matrix is applied to \(Tree\)SummarizedExperiment objects.
 
 
 .. conda:package:: bioconductor-miasim

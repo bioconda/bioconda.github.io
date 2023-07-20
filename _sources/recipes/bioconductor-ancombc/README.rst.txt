@@ -12,7 +12,7 @@ bioconductor-ancombc
 
    Microbiome differential abudance and correlation analyses with bias correction
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ANCOMBC.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ANCOMBC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ancombc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc/meta.yaml>`_
 

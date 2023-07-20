@@ -12,7 +12,7 @@ bioconductor-compartmap
 
    Higher\-order chromatin domain inference in single cells from scRNA\-seq and scATAC\-seq
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/compartmap.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/compartmap.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-compartmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compartmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compartmap/meta.yaml>`_
 

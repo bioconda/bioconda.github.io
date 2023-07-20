@@ -12,7 +12,7 @@ bioconductor-lintind
 
    Lineage tracing by indels
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/LinTInd.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/LinTInd.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lintind <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lintind>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lintind/meta.yaml>`_
 

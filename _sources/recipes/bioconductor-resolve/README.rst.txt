@@ -12,7 +12,7 @@ bioconductor-resolve
 
    RESOLVE\: An R package for the efficient analysis of mutational signatures from cancer genomes
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RESOLVE.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RESOLVE.html
    :license: file LICENSE
    :recipe: /`bioconductor-resolve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-resolve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-resolve/meta.yaml>`_
 
@@ -27,25 +27,25 @@ bioconductor-resolve
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
    :depends bioconductor-bsgenome.hsapiens.1000genomes.hs37d5: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-cluster: 
+   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-mutationalpatterns: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
    :depends r-gridextra: 
    :depends r-lsa: 
-   :depends r-nmf: 
    :depends r-nnls: 
    :depends r-reshape2: 
    :requirements:
@@ -79,7 +79,7 @@ bioconductor-resolve
 
     <script>
         var package = "bioconductor-resolve";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

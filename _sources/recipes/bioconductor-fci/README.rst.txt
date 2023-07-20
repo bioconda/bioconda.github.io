@@ -12,7 +12,7 @@ bioconductor-fci
 
    f\-divergence Cutoff Index for Differential Expression Analysis in Transcriptomics and Proteomics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/fCI.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/fCI.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fci <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fci>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fci/meta.yaml>`_
 

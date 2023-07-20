@@ -12,7 +12,7 @@ bioconductor-phastcons30way.ucsc.hg38
 
    phastCons30way.UCSC.hg38 AnnotationHub Resource Metadata
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/phastCons30way.UCSC.hg38.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/phastCons30way.UCSC.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-phastcons30way.ucsc.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons30way.ucsc.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons30way.ucsc.hg38/meta.yaml>`_
 

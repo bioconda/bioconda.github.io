@@ -12,7 +12,7 @@ bioconductor-amaretto
 
    Regulatory Network Inference and Driver Gene Evaluation using Integrative Multi\-Omics Analysis and Penalized Regression
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/AMARETTO.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/AMARETTO.html
    :license: Apache License (== 2.0) + file LICENSE
    :recipe: /`bioconductor-amaretto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amaretto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amaretto/meta.yaml>`_
 

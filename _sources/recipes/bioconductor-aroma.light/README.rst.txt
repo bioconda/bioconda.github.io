@@ -12,7 +12,7 @@ bioconductor-aroma.light
 
    Light\-Weight Methods for Normalization and Visualization of Microarray Data using Only Basic R Data Types
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/aroma.light.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/aroma.light.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-aroma.light <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aroma.light>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aroma.light/meta.yaml>`_
    :links: biotools: :biotools:`aroma.light`

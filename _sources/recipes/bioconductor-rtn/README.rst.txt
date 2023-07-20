@@ -12,7 +12,7 @@ bioconductor-rtn
 
    RTN\: Reconstruction of Transcriptional regulatory Networks and analysis of regulons
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RTN.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RTN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rtn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtn/meta.yaml>`_
 

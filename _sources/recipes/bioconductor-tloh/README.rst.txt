@@ -12,7 +12,7 @@ bioconductor-tloh
 
    Assessment of evidence for LOH in spatial transcriptomics pre\-processed data using Bayes factor calculations
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/tLOH.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tLOH.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tloh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tloh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tloh/meta.yaml>`_
 

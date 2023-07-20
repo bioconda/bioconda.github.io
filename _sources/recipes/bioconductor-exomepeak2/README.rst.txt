@@ -12,7 +12,7 @@ bioconductor-exomepeak2
 
    Peak Calling and differential analysis for MeRIP\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/exomePeak2.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/exomePeak2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-exomepeak2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomepeak2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomepeak2/meta.yaml>`_
 

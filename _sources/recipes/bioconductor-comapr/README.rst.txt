@@ -12,7 +12,7 @@ bioconductor-comapr
 
    Crossover analysis and genetic map construction
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/comapr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/comapr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-comapr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comapr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comapr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tekrabber
 
    An R package estimates the correlations of orthologs and transposable elements between two species
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TEKRABber.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TEKRABber.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-tekrabber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tekrabber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tekrabber/meta.yaml>`_
 

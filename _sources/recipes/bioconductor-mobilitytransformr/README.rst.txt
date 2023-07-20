@@ -12,7 +12,7 @@ bioconductor-mobilitytransformr
 
    Effective mobility scale transformation of CE\-MS\(\/MS\) data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MobilityTransformR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MobilityTransformR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mobilitytransformr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mobilitytransformr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mobilitytransformr/meta.yaml>`_
 

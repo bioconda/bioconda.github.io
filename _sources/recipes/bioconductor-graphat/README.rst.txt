@@ -12,7 +12,7 @@ bioconductor-graphat
 
    Graph Theoretic Association Tests
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GraphAT.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GraphAT.html
    :license: LGPL
    :recipe: /`bioconductor-graphat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphat/meta.yaml>`_
    :links: biotools: :biotools:`graphat`, doi: :doi:`10.1093/bioinformatics/bth405`

@@ -12,7 +12,7 @@ bioconductor-barcodetrackr
 
    Functions for Analyzing Cellular Barcoding Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/barcodetrackR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/barcodetrackR.html
    :license: file LICENSE
    :recipe: /`bioconductor-barcodetrackr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barcodetrackr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barcodetrackr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-syntenet
 
    Inference And Analysis Of Synteny Networks
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/syntenet.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/syntenet.html
    :license: GPL-3
    :recipe: /`bioconductor-syntenet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-syntenet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-syntenet/meta.yaml>`_
 

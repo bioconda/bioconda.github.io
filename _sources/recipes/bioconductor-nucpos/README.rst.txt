@@ -12,11 +12,11 @@ bioconductor-nucpos
 
    An R package for prediction of nucleosome positions
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/nuCpos.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/nuCpos.html
    :license: GPL-2
    :recipe: /`bioconductor-nucpos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucpos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucpos/meta.yaml>`_
 
-   nuCpos\, a derivative of NuPoP\, is an R package for prediction of nucleosome positions. In nuCpos\, a duration hidden Markov model is trained with a chemical map of nucleosomes either from budding yeast\, fission yeast\, or mouse embryonic stem cells. nuCpos outputs the Viterbi \(most probable\) path of nucleosome\-linker states\, predicted nucleosome occupancy scores and histone binding affinity \(HBA\) scores as NuPoP does. nuCpos can also calculate local and whole nucleosomal HBA scores for a given 147\-bp sequence. Note\: This package was designed to demonstrate the use of chemical maps in prediction. As the parental package NuPoP now provide chemical\-map\-based prediction\, users are strongly encouraged to use it for dHMM\-based prediction.
+   nuCpos\, a derivative of NuPoP\, is an R package for prediction of nucleosome positions. nuCpos calculates local and whole nucleosomal histone binding affinity \(HBA\) scores for a given 147\-bp sequence. Note\: This package was designed to demonstrate the use of chemical maps in prediction. As the parental package NuPoP now provides chemical\-map\-based prediction\, the function for dHMM\-based prediction was removed from this package. nuCpos continues to provide functions for HBA calculation.
 
 
 .. conda:package:: bioconductor-nucpos

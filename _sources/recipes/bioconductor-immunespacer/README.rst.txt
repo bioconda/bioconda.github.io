@@ -10,13 +10,13 @@ bioconductor-immunespacer
    :replaces_section_title:
    :noindex:
 
-   A Thin Wrapper around the ImmuneSpace Database
+   A Thin Wrapper around the ImmuneSpace Data and Tools Portal
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ImmuneSpaceR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ImmuneSpaceR.html
    :license: GPL-2
    :recipe: /`bioconductor-immunespacer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunespacer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunespacer/meta.yaml>`_
 
-   Provides a convenient API for accessing data sets within ImmuneSpace \(www.immunespace.org\)\, the data repository and analysis platform of the Human Immunology Project Consortium \(HIPC\).
+   Provides a convenient API for accessing data sets within ImmuneSpace Data and Tools Portal \(datatools.immunespace.org\)\, the data repository and analysis platform of the Human Immunology Project Consortium \(HIPC\).
 
 
 .. conda:package:: bioconductor-immunespacer

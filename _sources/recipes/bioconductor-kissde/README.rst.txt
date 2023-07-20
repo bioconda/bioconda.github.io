@@ -12,7 +12,7 @@ bioconductor-kissde
 
    Retrieves Condition\-Specific Variants in RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/kissDE.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/kissDE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-kissde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kissde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kissde/meta.yaml>`_
 

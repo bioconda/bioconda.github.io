@@ -12,7 +12,7 @@ bioconductor-seqc
 
    RNA\-seq data generated from SEQC \(MAQC\-III\) study
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/seqc.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/seqc.html
    :license: GPL-3
    :recipe: /`bioconductor-seqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqc/meta.yaml>`_
 

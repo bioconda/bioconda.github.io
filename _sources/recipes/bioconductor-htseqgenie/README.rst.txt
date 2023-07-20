@@ -12,7 +12,7 @@ bioconductor-htseqgenie
 
    A NGS analysis pipeline.
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/HTSeqGenie.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HTSeqGenie.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htseqgenie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htseqgenie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htseqgenie/meta.yaml>`_
 

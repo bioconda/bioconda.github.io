@@ -12,7 +12,7 @@ bioconductor-beadarrayexampledata
 
    Example data for the beadarray package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/beadarrayExampleData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/beadarrayExampleData.html
    :license: GPL-2
    :recipe: /`bioconductor-beadarrayexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayexampledata/meta.yaml>`_
 

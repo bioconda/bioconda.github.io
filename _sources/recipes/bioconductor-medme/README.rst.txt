@@ -12,7 +12,7 @@ bioconductor-medme
 
    Modelling Experimental Data from MeDIP Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MEDME.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MEDME.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-medme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme/meta.yaml>`_
    :links: biotools: :biotools:`medme`, doi: :doi:`10.1101/gr.080721.108`

@@ -12,7 +12,7 @@ bioconductor-receptloss
 
    Unsupervised Identification of Genes with Expression Loss in Subsets of Tumors
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/receptLoss.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/receptLoss.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-receptloss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-receptloss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-receptloss/meta.yaml>`_
 

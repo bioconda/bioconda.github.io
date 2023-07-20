@@ -1,0 +1,101 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-cytopipeline'
+.. highlight: bash
+
+bioconductor-cytopipeline
+=========================
+
+.. conda:recipe:: bioconductor-cytopipeline
+   :replaces_section_title:
+   :noindex:
+
+   Automation and visualization of flow cytometry data analysis pipelines
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CytoPipeline.html
+   :license: GPL-3
+   :recipe: /`bioconductor-cytopipeline <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipeline>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipeline/meta.yaml>`_
+
+   This package provides support for automation and visualization of flow cytometry data analysis pipelines. In the current state\, the package focuses on the preprocessing and quality control part. The framework is based on two main S4 classes\, i.e. CytoPipeline and CytoProcessingStep. The pipeline steps are linked to corresponding R functions \- that are either provided in the CytoPipeline package itself\, or exported from a third party package\, or coded by the user her\/himself. The processing steps need to be specified centrally and explicitly using either a json input file or through step by step creation of a CytoPipeline object with dedicated methods. After having run the pipeline\, obtained results at all steps can be retrieved and visualized thanks to file caching \(the running facility uses a BiocFileCache implementation\). The package provides also specific visualization tools like pipeline workflow summary display\, and 1D\/2D comparison plots of obtained flowFrames at various steps of the pipeline.
+
+
+.. conda:package:: bioconductor-cytopipeline
+
+   |downloads_bioconductor-cytopipeline| |docker_bioconductor-cytopipeline|
+
+   :versions:
+      
+      
+
+      ``1.0.2-0``
+
+      
+
+   
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-flowai: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-ggcyto: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-peacoqc: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-diagram: 
+   :depends r-ggplot2: ``>=3.4.1``
+   :depends r-jsonlite: 
+   :depends r-rlang: 
+   :depends r-scales: 
+   :depends r-withr: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cytopipeline
+
+   and update with::
+
+      conda update bioconductor-cytopipeline
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-cytopipeline:<tag>
+
+   (see `bioconductor-cytopipeline/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-cytopipeline| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cytopipeline.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cytopipeline
+   :alt:   (downloads)
+.. |docker_bioconductor-cytopipeline| image:: https://quay.io/repository/biocontainers/bioconductor-cytopipeline/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cytopipeline
+.. _`bioconductor-cytopipeline/tags`: https://quay.io/repository/biocontainers/bioconductor-cytopipeline?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cytopipeline";
+        var versions = ["1.0.2"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cytopipeline/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cytopipeline/README.html

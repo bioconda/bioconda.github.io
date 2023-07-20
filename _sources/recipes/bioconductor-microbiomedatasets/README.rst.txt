@@ -12,7 +12,7 @@ bioconductor-microbiomedatasets
 
    Experiment Hub based microbiome datasets
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/microbiomeDataSets.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/microbiomeDataSets.html
    :license: CC0
    :recipe: /`bioconductor-microbiomedatasets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomedatasets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomedatasets/meta.yaml>`_
 

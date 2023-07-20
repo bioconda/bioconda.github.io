@@ -12,7 +12,7 @@ bioconductor-beaddatapackr
 
    Compression of Illumina BeadArray data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BeadDataPackR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BeadDataPackR.html
    :license: GPL-2
    :recipe: /`bioconductor-beaddatapackr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beaddatapackr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beaddatapackr/meta.yaml>`_
    :links: biotools: :biotools:`beaddatapackr`

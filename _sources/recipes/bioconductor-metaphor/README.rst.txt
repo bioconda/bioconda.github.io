@@ -12,7 +12,7 @@ bioconductor-metaphor
 
    Metabolic Pathway Analysis of RNA
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MetaPhOR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MetaPhOR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metaphor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaphor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaphor/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-cnvmetrics
 
    Copy Number Variant Metrics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CNVMetrics.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CNVMetrics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cnvmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvmetrics/meta.yaml>`_
 

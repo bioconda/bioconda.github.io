@@ -12,7 +12,7 @@ bioconductor-hiannotator
 
    Functions for annotating GRanges objects
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/hiAnnotator.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/hiAnnotator.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hiannotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiannotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiannotator/meta.yaml>`_
    :links: biotools: :biotools:`hiannotator`, doi: :doi:`10.1038/nmeth.3252`

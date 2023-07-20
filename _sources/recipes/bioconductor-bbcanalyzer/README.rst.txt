@@ -12,7 +12,7 @@ bioconductor-bbcanalyzer
 
    BBCAnalyzer\: an R\/Bioconductor package for visualizing base counts
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BBCAnalyzer.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BBCAnalyzer.html
    :license: LGPL-3
    :recipe: /`bioconductor-bbcanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bbcanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bbcanalyzer/meta.yaml>`_
    :links: biotools: :biotools:`bbcanalyzer`, doi: :doi:`10.1186/s12859-017-1549-4`

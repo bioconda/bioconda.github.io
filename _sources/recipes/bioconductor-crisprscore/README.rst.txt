@@ -12,7 +12,7 @@ bioconductor-crisprscore
 
    On\-Target and Off\-Target Scoring Algorithms for CRISPR gRNAs
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/crisprScore.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/crisprScore.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprscore/meta.yaml>`_
 

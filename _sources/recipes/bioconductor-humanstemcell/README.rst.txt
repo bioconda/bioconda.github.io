@@ -12,7 +12,7 @@ bioconductor-humanstemcell
 
    Human Stem Cells time course experiment
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/humanStemCell.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/humanStemCell.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanstemcell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanstemcell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanstemcell/meta.yaml>`_
 

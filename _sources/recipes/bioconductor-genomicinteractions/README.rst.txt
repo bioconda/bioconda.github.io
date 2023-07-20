@@ -12,7 +12,7 @@ bioconductor-genomicinteractions
 
    Utilities for handling genomic interaction data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GenomicInteractions.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GenomicInteractions.html
    :license: GPL-3
    :recipe: /`bioconductor-genomicinteractions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinteractions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinteractions/meta.yaml>`_
    :links: biotools: :biotools:`genomicinteractions`, doi: :doi:`10.1186/s12864-015-2140-x`

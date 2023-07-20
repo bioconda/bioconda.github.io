@@ -12,7 +12,7 @@ bioconductor-human660quadv1acrlmm
 
    Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/human660quadv1aCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/human660quadv1aCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human660quadv1acrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human660quadv1acrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human660quadv1acrlmm/meta.yaml>`_
 

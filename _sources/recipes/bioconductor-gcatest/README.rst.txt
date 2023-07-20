@@ -12,12 +12,12 @@ bioconductor-gcatest
 
    Genotype Conditional Association TEST
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/gcatest.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/gcatest.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-gcatest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcatest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcatest/meta.yaml>`_
    :links: biotools: :biotools:`gcatest`, doi: :doi:`10.1101/012682`
 
-   GCAT is an association test for genome wide association studies that controls for population structure under a general class of trait. models.
+   GCAT is an association test for genome wide association studies that controls for population structure under a general class of trait models.  This test conditions on the trait\, which makes it immune to confounding by unmodeled environmental factors.  Population structure is modeled via logistic factors\, which are estimated using the \`lfa\` package.
 
 
 .. conda:package:: bioconductor-gcatest

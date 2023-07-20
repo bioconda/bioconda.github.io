@@ -12,7 +12,7 @@ bioconductor-dittoseq
 
    User Friendly Single\-Cell and Bulk RNA Sequencing Visualization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/dittoSeq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/dittoSeq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dittoseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dittoseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dittoseq/meta.yaml>`_
 

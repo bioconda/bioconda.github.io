@@ -12,8 +12,8 @@ bioconductor-rtcgatoolbox
 
    A new tool for exporting TCGA Firehose data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RTCGAToolbox.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RTCGAToolbox.html
+   :license: GPL-2
    :recipe: /`bioconductor-rtcgatoolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcgatoolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcgatoolbox/meta.yaml>`_
    :links: biotools: :biotools:`rtcgatoolbox`
 

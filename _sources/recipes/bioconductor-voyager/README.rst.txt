@@ -12,11 +12,11 @@ bioconductor-voyager
 
    From geospatial to spatial omics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Voyager.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Voyager.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-voyager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-voyager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-voyager/meta.yaml>`_
 
-   SpatialFeatureExperiment \(SFE\) is a new S4 class for working with spatial single\-cell genomics data. The voyager package implements basic exploratory spatial data analysis \(ESDA\) methods for SFE. This first version supports univariate global spatial ESDA methods such as Moran\'s I\, permutation testing for Moran\'s I\, and correlograms. The Voyager package also implements plotting functions to plot SFE data and ESDA results. Multivariate ESDA and univariate local metrics will be added in later versions.
+   SpatialFeatureExperiment \(SFE\) is a new S4 class for working with spatial single\-cell genomics data. The voyager package implements basic exploratory spatial data analysis \(ESDA\) methods for SFE. Univariate methods include univariate global spatial ESDA methods such as Moran\'s I\, permutation testing for Moran\'s I\, and correlograms. Bivariate methods include Lee\'s L and cross variogram. Multivariate methods include MULTISPATI PCA and multivariate local Geary\'s C recently developed by Anselin. The Voyager package also implements plotting functions to plot SFE data and ESDA results.
 
 
 .. conda:package:: bioconductor-voyager

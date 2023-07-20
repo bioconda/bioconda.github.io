@@ -12,7 +12,7 @@ bioconductor-geneexpressionsignature
 
    Gene Expression Signature based Similarity Metric
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GeneExpressionSignature.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GeneExpressionSignature.html
    :license: GPL-2
    :recipe: /`bioconductor-geneexpressionsignature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneexpressionsignature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneexpressionsignature/meta.yaml>`_
 

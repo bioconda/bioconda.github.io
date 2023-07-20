@@ -12,7 +12,7 @@ bioconductor-msstatssamplesize
 
    Simulation tool for optimal design of high\-dimensional MS\-based proteomics experiment
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MSstatsSampleSize.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstatsSampleSize.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatssamplesize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatssamplesize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatssamplesize/meta.yaml>`_
 

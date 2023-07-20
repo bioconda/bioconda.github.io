@@ -12,7 +12,7 @@ bioconductor-porcinecdf
 
    porcinecdf
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/porcinecdf.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/porcinecdf.html
    :license: LGPL
    :recipe: /`bioconductor-porcinecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcinecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcinecdf/meta.yaml>`_
 

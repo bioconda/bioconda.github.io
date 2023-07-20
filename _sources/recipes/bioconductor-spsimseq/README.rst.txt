@@ -12,7 +12,7 @@ bioconductor-spsimseq
 
    Semi\-parametric simulation tool for bulk and single\-cell RNA sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/SPsimSeq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SPsimSeq.html
    :license: GPL-2
    :recipe: /`bioconductor-spsimseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spsimseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spsimseq/meta.yaml>`_
 

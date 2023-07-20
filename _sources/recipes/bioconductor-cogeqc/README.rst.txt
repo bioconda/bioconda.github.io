@@ -12,11 +12,11 @@ bioconductor-cogeqc
 
    Systematic quality checks on comparative genomics analyses
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cogeqc.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cogeqc.html
    :license: GPL-3
    :recipe: /`bioconductor-cogeqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogeqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogeqc/meta.yaml>`_
 
-   cogeqc aims to facilitate systematic quality checks on standard comparative genomics analyses to help researchers detect issues and select the most suitable parameters for each data set. cogeqc can be used to asses\: i. genome assembly quality with BUSCOs\; ii. orthogroup inference using a protein domain\-based approach and\; iii. synteny detection using synteny network properties. There are also data visualization functions to explore QC summary statistics.
+   cogeqc aims to facilitate systematic quality checks on standard comparative genomics analyses to help researchers detect issues and select the most suitable parameters for each data set. cogeqc can be used to asses\: i. genome assembly and annotation quality with BUSCOs and comparisons of statistics with publicly available genomes on the NCBI\; ii. orthogroup inference using a protein domain\-based approach and\; iii. synteny detection using synteny network properties. There are also data visualization functions to explore QC summary statistics.
 
 
 .. conda:package:: bioconductor-cogeqc

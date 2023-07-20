@@ -12,7 +12,7 @@ bioconductor-phyloprofile
 
    PhyloProfile
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PhyloProfile.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PhyloProfile.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-phyloprofile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloprofile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloprofile/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-phyloprofile
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  <code>1.2.8-1</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.5-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  <code>1.2.8-1</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.14.5-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-phyloprofile
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-biodist: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-experimenthub: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-omadb: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-biodist: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-omadb: ``>=2.16.0,<2.17.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-colourpicker: 
    :depends r-data.table: 
    :depends r-dt: 
@@ -95,7 +95,7 @@ bioconductor-phyloprofile
 
     <script>
         var package = "bioconductor-phyloprofile";
-        var versions = ["1.12.0","1.8.0","1.6.1","1.4.9","1.4.0"];
+        var versions = ["1.14.5","1.12.0","1.8.0","1.6.1","1.4.9"];
     </script>
 
 

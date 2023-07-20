@@ -12,7 +12,7 @@ bioconductor-dose
 
    Disease Ontology Semantic and Enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DOSE.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DOSE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dose <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose/meta.yaml>`_
    :links: biotools: :biotools:`dose`

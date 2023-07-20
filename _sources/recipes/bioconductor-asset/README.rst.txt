@@ -12,7 +12,7 @@ bioconductor-asset
 
    An R package for subset\-based association analysis of heterogeneous traits and subtypes
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ASSET.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ASSET.html
    :license: GPL-2 + file LICENSE
    :recipe: /`bioconductor-asset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asset/meta.yaml>`_
 

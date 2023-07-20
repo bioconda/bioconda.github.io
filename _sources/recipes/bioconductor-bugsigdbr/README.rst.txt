@@ -12,7 +12,7 @@ bioconductor-bugsigdbr
 
    R\-side access to published microbial signatures from BugSigDB
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/bugsigdbr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/bugsigdbr.html
    :license: GPL-3
    :recipe: /`bioconductor-bugsigdbr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bugsigdbr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bugsigdbr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-vsclust
 
    Feature\-based variance\-sensitive quantitative clustering
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/vsclust.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/vsclust.html
    :license: GPL-2
    :recipe: /`bioconductor-vsclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vsclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vsclust/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-treg
 
    Tools for finding Total RNA Expression Genes in single nucleus RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TREG.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TREG.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-treg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treg/meta.yaml>`_
 

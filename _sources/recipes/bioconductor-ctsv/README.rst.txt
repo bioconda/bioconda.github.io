@@ -12,7 +12,7 @@ bioconductor-ctsv
 
    Identification of cell\-type\-specific spatially variable genes accounting for excess zeros
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CTSV.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CTSV.html
    :license: GPL-3
    :recipe: /`bioconductor-ctsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctsv/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-vitisviniferaprobe
 
    Probe sequence data for microarrays of type vitisvinifera
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/vitisviniferaprobe.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/vitisviniferaprobe.html
    :license: LGPL
    :recipe: /`bioconductor-vitisviniferaprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferaprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferaprobe/meta.yaml>`_
 

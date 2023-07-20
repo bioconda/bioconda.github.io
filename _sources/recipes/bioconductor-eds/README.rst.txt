@@ -12,7 +12,7 @@ bioconductor-eds
 
    eds\: Low\-level reader for Alevin EDS format
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/eds.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/eds.html
    :license: GPL-2
    :recipe: /`bioconductor-eds <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eds>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eds/meta.yaml>`_
 

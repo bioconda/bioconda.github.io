@@ -12,11 +12,11 @@ bioconductor-stjoincount
 
    stJoincount \- Join count statistic for quantifying spatial correlation between clusters
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/stJoincount.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/stJoincount.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-stjoincount <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjoincount>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjoincount/meta.yaml>`_
 
-   stJoincount\, the application of join count analysis to the spatial transcriptomics dataset. This tool converts the spatial map into a raster object \(a two\-dimensional image as a rectangular matrix or grid of square pixels\)\, where clusters labelled spots are converted to adjacent pixels with a calculated resolution. A neighbors\' list was created based on the rasterized sample\, which identifies adjacent and diagonal neighbors for each pixel. After adding binary spatial weights to the neighbors\' list\, a multi\-categorical join count analysis is then performed\, allowing all possible combinations of cluster pairings to be tabulated. The function returns the observed join counts\, the expected count under conditions of spatial randomness\, and the variance of observed to expected calculated under non\-free sampling. The z\-score is then calculated as the difference between observed and expected counts\, divided by the square root of the variance.
+   stJoincount facilitates the application of join count analysis to spatial transcriptomic data generated from the 10x Genomics Visium platform. This tool first converts a labeled spatial tissue map into a raster object\, in which each spatial feature is represented by a pixel coded by label assignment. This process includes automatic calculation of optimal raster resolution and extent for the sample. A neighbors list is then created from the rasterized sample\, in which adjacent and diagonal neighbors for each pixel are identified. After adding binary spatial weights to the neighbors list\, a multi\-categorical join count analysis is performed to tabulate \"joins\" between all possible combinations of label pairs. The function returns the observed join counts\, the expected count under conditions of spatial randomness\, and the variance calculated under non\-free sampling. The z\-score is then calculated as the difference between observed and expected counts\, divided by the square root of the variance.
 
 
 .. conda:package:: bioconductor-stjoincount

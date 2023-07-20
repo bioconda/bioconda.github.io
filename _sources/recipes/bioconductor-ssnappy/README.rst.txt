@@ -12,11 +12,11 @@ bioconductor-ssnappy
 
    Single Sample directioNAl Pathway Perturbation analYsis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sSNAPPY.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sSNAPPY.html
    :license: GPL-3
    :recipe: /`bioconductor-ssnappy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssnappy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssnappy/meta.yaml>`_
 
-   A single sample pathway perturbation testing method for RNA\-seq data. The method propagates changes in gene expression down gene\-set topologies to compute single\-sample directional pathway perturbation scores that reflect potential directions of changes.Perturbation scores can be used to test significance of pathway perturbation at both individual\-sample and treatment levels.
+   A single sample pathway perturbation testing method for RNA\-seq data. The method propagates changes in gene expression down gene\-set topologies to compute single\-sample directional pathway perturbation scores that reflect potential direction of change. Perturbation scores can be used to test significance of pathway perturbation at both individual\-sample and treatment levels.
 
 
 .. conda:package:: bioconductor-ssnappy

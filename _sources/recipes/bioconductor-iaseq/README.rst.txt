@@ -12,7 +12,7 @@ bioconductor-iaseq
 
    iASeq\: integrating multiple sequencing datasets for detecting allele\-specific events
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/iASeq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/iASeq.html
    :license: GPL-2
    :recipe: /`bioconductor-iaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iaseq/meta.yaml>`_
    :links: biotools: :biotools:`iaseq`, doi: :doi:`10.1186/1471-2164-13-681`

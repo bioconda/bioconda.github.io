@@ -12,7 +12,7 @@ bioconductor-atena
 
    Analysis of Transposable Elements
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/atena.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/atena.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-atena <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atena>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atena/meta.yaml>`_
 

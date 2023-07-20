@@ -12,7 +12,7 @@ bioconductor-eximir
 
    R functions for the normalization of Exiqon miRNA array data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ExiMiR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ExiMiR.html
    :license: GPL-2
    :recipe: /`bioconductor-eximir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eximir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eximir/meta.yaml>`_
    :links: biotools: :biotools:`eximir`, doi: :doi:`10.1186/1756-0500-7-302`

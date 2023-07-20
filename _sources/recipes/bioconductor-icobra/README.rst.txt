@@ -12,7 +12,7 @@ bioconductor-icobra
 
    Comparison and Visualization of Ranking and Assignment Methods
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/iCOBRA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/iCOBRA.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-icobra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icobra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icobra/meta.yaml>`_
    :links: biotools: :biotools:`icobra`

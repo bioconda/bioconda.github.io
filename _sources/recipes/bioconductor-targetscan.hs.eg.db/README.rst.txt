@@ -12,7 +12,7 @@ bioconductor-targetscan.hs.eg.db
 
    TargetScan miRNA target predictions for human
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/targetscan.Hs.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/targetscan.Hs.eg.db.html
    :license: file LICENSE
    :recipe: /`bioconductor-targetscan.hs.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.hs.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.hs.eg.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-sctensor
 
    Detection of cell\-cell interaction from single\-cell RNA\-seq dataset by tensor decomposition
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scTensor.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scTensor.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sctensor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctensor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctensor/meta.yaml>`_
 

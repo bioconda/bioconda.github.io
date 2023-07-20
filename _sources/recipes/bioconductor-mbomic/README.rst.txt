@@ -12,7 +12,7 @@ bioconductor-mbomic
 
    Integrative analysis of the microbiome and metabolome
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mbOmic.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mbOmic.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mbomic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbomic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbomic/meta.yaml>`_
 

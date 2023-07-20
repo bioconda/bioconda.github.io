@@ -12,7 +12,7 @@ bioconductor-probamr
 
    Generating SAM file for PSMs in shotgun proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/proBAMr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/proBAMr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-probamr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probamr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probamr/meta.yaml>`_
    :links: biotools: :biotools:`probamr`, doi: :doi:`10.1074/mcp.M115.052860`

@@ -12,7 +12,7 @@ bioconductor-chipcomp
 
    Quantitative comparison of multiple ChIP\-seq datasets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ChIPComp.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ChIPComp.html
    :license: GPL
    :recipe: /`bioconductor-chipcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipcomp/meta.yaml>`_
    :links: biotools: :biotools:`chipcomp`

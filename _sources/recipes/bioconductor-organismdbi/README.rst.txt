@@ -12,7 +12,7 @@ bioconductor-organismdbi
 
    Software to enable the smooth interfacing of different database packages
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/OrganismDbi.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OrganismDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-organismdbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi/meta.yaml>`_
    :links: biotools: :biotools:`organismdbi`, doi: :doi:`10.1038/nmeth.3252`

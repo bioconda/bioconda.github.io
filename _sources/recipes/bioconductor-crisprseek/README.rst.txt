@@ -12,7 +12,7 @@ bioconductor-crisprseek
 
    Design of target\-specific guide RNAs in CRISPR\-Cas9\, genome\-editing systems
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CRISPRseek.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CRISPRseek.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-crisprseek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek/meta.yaml>`_
    :links: biotools: :biotools:`crisprseek`

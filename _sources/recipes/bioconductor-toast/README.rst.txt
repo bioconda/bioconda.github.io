@@ -12,7 +12,7 @@ bioconductor-toast
 
    Tools for the analysis of heterogeneous tissues
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TOAST.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TOAST.html
    :license: GPL-2
    :recipe: /`bioconductor-toast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-toast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-toast/meta.yaml>`_
 

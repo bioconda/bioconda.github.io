@@ -12,7 +12,7 @@ bioconductor-ebimage
 
    Image processing and analysis toolbox for R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EBImage.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EBImage.html
    :license: LGPL
    :recipe: /`bioconductor-ebimage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebimage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebimage/meta.yaml>`_
    :links: biotools: :biotools:`ebimage`

@@ -12,7 +12,7 @@ bioconductor-msnbase
 
    Base Functions and Classes for Mass Spectrometry and Proteomics
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MSnbase.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSnbase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msnbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnbase/meta.yaml>`_
    :links: biotools: :biotools:`msnbase`

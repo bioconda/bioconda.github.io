@@ -12,7 +12,7 @@ bioconductor-mbamethyl
 
    Model\-based analysis of DNA methylation data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MBAmethyl.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MBAmethyl.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mbamethyl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbamethyl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbamethyl/meta.yaml>`_
    :links: biotools: :biotools:`mbamethyl`, doi: :doi:`10.1111/biom.12422`

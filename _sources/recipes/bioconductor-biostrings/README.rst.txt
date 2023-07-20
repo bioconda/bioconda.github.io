@@ -12,7 +12,7 @@ bioconductor-biostrings
 
    Efficient manipulation of biological strings
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Biostrings.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Biostrings.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biostrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biostrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biostrings/meta.yaml>`_
    :links: biotools: :biotools:`biostrings`, doi: :doi:`10.1038/nmeth.3252`

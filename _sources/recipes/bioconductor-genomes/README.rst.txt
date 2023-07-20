@@ -12,7 +12,7 @@ bioconductor-genomes
 
    Genome sequencing project metadata
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/genomes.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/genomes.html
    :license: GPL-3
    :recipe: /`bioconductor-genomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomes/meta.yaml>`_
 

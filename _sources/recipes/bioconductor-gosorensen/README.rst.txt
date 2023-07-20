@@ -12,7 +12,7 @@ bioconductor-gosorensen
 
    Statistical inference based on the Sorensen\-Dice dissimilarity and the Gene Ontology \(GO\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/goSorensen.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/goSorensen.html
    :license: GPL-3
    :recipe: /`bioconductor-gosorensen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosorensen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosorensen/meta.yaml>`_
 

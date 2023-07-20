@@ -12,11 +12,11 @@ bioconductor-epistack
 
    Heatmaps of Stack Profiles from Epigenetic Signals
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/epistack.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/epistack.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epistack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epistack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epistack/meta.yaml>`_
 
-   The epistack package main objective is the visualizations of stacks of genomic tracks \(such as\, but not restricted to\, ChIP\-seq\, ATAC\-seq\, DNA methyation or genomic conservation data\) centered at genomic regions of interest.
+   The epistack package main objective is the visualizations of stacks of genomic tracks \(such as\, but not restricted to\, ChIP\-seq\, ATAC\-seq\, DNA methyation or genomic conservation data\) centered at genomic regions of interest. epistack needs three different inputs\: 1\) a genomic score objects\, such as ChIP\-seq coverage or DNA methylation values\, provided as a \`GRanges\` \(easily obtained from \`bigwig\` or \`bam\` files\). 2\) a list of feature of interest\, such as peaks or transcription start sites\, provided as a \`GRanges\` \(easily obtained from \`gtf\` or \`bed\` files\). 3\) a score to sort the features\, such as peak height or gene expression value.
 
 
 .. conda:package:: bioconductor-epistack

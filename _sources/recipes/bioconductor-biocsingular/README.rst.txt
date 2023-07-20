@@ -12,7 +12,7 @@ bioconductor-biocsingular
 
    Singular Value Decomposition for Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BiocSingular.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BiocSingular.html
    :license: GPL-3
    :recipe: /`bioconductor-biocsingular <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsingular>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsingular/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-htmg430aprobe
 
    Probe sequence data for microarrays of type htmg430a
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/htmg430aprobe.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/htmg430aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-htmg430aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430aprobe/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-recount
 
    Explore and download data from the recount project
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/recount.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/recount.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-recount <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recount>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recount/meta.yaml>`_
 

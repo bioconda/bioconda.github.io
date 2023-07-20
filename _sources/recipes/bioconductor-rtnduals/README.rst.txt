@@ -12,7 +12,7 @@ bioconductor-rtnduals
 
    Analysis of co\-regulation and inference of \'dual regulons\'
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RTNduals.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RTNduals.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rtnduals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtnduals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtnduals/meta.yaml>`_
 

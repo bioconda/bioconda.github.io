@@ -12,7 +12,7 @@ bioconductor-marr
 
    Maximum rank reproducibility
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/marr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/marr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-marr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-basic4cseq
 
    Basic4Cseq\: an R\/Bioconductor package for analyzing 4C\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Basic4Cseq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Basic4Cseq.html
    :license: LGPL-3
    :recipe: /`bioconductor-basic4cseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basic4cseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basic4cseq/meta.yaml>`_
    :links: biotools: :biotools:`basic4cseq`, doi: :doi:`10.1093/bioinformatics/btu497`

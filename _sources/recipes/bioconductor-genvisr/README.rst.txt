@@ -12,7 +12,7 @@ bioconductor-genvisr
 
    Genomic Visualizations in R
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GenVisR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GenVisR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-genvisr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genvisr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genvisr/meta.yaml>`_
    :links: biotools: :biotools:`genvisr`

@@ -12,7 +12,7 @@ bioconductor-famat
 
    Functional analysis of metabolic and transcriptomic data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/famat.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/famat.html
    :license: GPL-3
    :recipe: /`bioconductor-famat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famat/meta.yaml>`_
 

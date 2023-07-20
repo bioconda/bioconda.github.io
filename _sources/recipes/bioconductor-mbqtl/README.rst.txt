@@ -1,0 +1,98 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-mbqtl'
+.. highlight: bash
+
+bioconductor-mbqtl
+==================
+
+.. conda:recipe:: bioconductor-mbqtl
+   :replaces_section_title:
+   :noindex:
+
+   mbQTL\: A package for SNP\-Taxa mGWAS analysis
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mbQTL.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-mbqtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqtl/meta.yaml>`_
+
+   mbQTL is a statistical R package for simultaneous 16srRNA\,16srDNA \(microbial\) and variant\, SNP\, SNV \(host\) relationship\, correlation\, regression studies. We apply linear\, logistic and correlation based statistics to identify the relationships of taxa\, genus\, species and variant\, SNP\, SNV in the infected host. We produce various statistical significance measures such as P values\, FDR\, BC and probability estimation to show significance of these relationships. Further we provide various visualization function for ease and clarification of the results of these analysis. The package is compatible with dataframe\, MRexperiment and text formats.
+
+
+.. conda:package:: bioconductor-mbqtl
+
+   |downloads_bioconductor-mbqtl| |docker_bioconductor-mbqtl|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-metagenomeseq: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-broom: 
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-matrixeqtl: 
+   :depends r-pheatmap: 
+   :depends r-readxl: 
+   :depends r-stringr: 
+   :depends r-tidyr: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mbqtl
+
+   and update with::
+
+      conda update bioconductor-mbqtl
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-mbqtl:<tag>
+
+   (see `bioconductor-mbqtl/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-mbqtl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mbqtl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mbqtl
+   :alt:   (downloads)
+.. |docker_bioconductor-mbqtl| image:: https://quay.io/repository/biocontainers/bioconductor-mbqtl/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mbqtl
+.. _`bioconductor-mbqtl/tags`: https://quay.io/repository/biocontainers/bioconductor-mbqtl?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mbqtl";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mbqtl/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mbqtl/README.html

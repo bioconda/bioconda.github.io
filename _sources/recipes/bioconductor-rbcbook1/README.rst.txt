@@ -12,7 +12,7 @@ bioconductor-rbcbook1
 
    Support for Springer monograph on Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RbcBook1.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RbcBook1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rbcbook1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbcbook1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbcbook1/meta.yaml>`_
    :links: biotools: :biotools:`rbcbook1`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-alpsnmr
 
    Automated spectraL Processing System for NMR
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/AlpsNMR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/AlpsNMR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alpsnmr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpsnmr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpsnmr/meta.yaml>`_
 

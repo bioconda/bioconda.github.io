@@ -12,7 +12,7 @@ bioconductor-dnabarcodes
 
    A tool for creating and analysing DNA barcodes used in Next Generation Sequencing multiplexing experiments
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DNABarcodes.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DNABarcodes.html
    :license: GPL-2
    :recipe: /`bioconductor-dnabarcodes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodes/meta.yaml>`_
    :links: biotools: :biotools:`dnabarcodes`

@@ -12,7 +12,7 @@ bioconductor-spatialdmelxsim
 
    Spatial allelic expression counts for fly cross embryo
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/spatialDmelxsim.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/spatialDmelxsim.html
    :license: GPL-3
    :recipe: /`bioconductor-spatialdmelxsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdmelxsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdmelxsim/meta.yaml>`_
 

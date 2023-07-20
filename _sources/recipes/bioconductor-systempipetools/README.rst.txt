@@ -12,7 +12,7 @@ bioconductor-systempipetools
 
    Tools for data visualization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/systemPipeTools.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/systemPipeTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-systempipetools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempipetools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempipetools/meta.yaml>`_
 

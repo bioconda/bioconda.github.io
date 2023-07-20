@@ -12,7 +12,7 @@ bioconductor-pickgene
 
    Adaptive Gene Picking for Microarray Expression Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/pickgene.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/pickgene.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pickgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pickgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pickgene/meta.yaml>`_
    :links: biotools: :biotools:`pickgene`, doi: :doi:`10.1007/0-387-21679-0_13`

@@ -12,7 +12,7 @@ bioconductor-ocplus
 
    Operating characteristics plus sample size and local fdr for microarray experiments
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/OCplus.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OCplus.html
    :license: LGPL
    :recipe: /`bioconductor-ocplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ocplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ocplus/meta.yaml>`_
 

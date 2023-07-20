@@ -12,7 +12,7 @@ bioconductor-porcineprobe
 
    Probe sequence data for microarrays of type porcine
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/porcineprobe.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/porcineprobe.html
    :license: LGPL
    :recipe: /`bioconductor-porcineprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcineprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcineprobe/meta.yaml>`_
 

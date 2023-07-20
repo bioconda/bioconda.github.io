@@ -12,7 +12,7 @@ bioconductor-msstatslobd
 
    Assay characterization\: estimation of limit of blanc\(LoB\) and limit of detection\(LOD\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MSstatsLOBD.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstatsLOBD.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatslobd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatslobd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatslobd/meta.yaml>`_
 

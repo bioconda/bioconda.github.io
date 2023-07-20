@@ -12,7 +12,7 @@ bioconductor-psmatch
 
    Handling and Managing Peptide Spectrum Matches
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PSMatch.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PSMatch.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-psmatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psmatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psmatch/meta.yaml>`_
 

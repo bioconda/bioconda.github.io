@@ -12,7 +12,7 @@ bioconductor-statial
 
    A package to identify changes in cell state relative to spatial associations
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Statial.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Statial.html
    :license: GPL-3
    :recipe: /`bioconductor-statial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-statial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-statial/meta.yaml>`_
 

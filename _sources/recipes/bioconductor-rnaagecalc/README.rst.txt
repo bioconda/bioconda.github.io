@@ -12,7 +12,7 @@ bioconductor-rnaagecalc
 
    A multi\-tissue transcriptional age calculator
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RNAAgeCalc.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RNAAgeCalc.html
    :license: GPL-2
    :recipe: /`bioconductor-rnaagecalc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaagecalc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaagecalc/meta.yaml>`_
 

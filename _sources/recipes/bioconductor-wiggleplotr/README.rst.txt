@@ -12,7 +12,7 @@ bioconductor-wiggleplotr
 
    Make read coverage plots from BigWig files
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/wiggleplotr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/wiggleplotr.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-wiggleplotr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wiggleplotr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wiggleplotr/meta.yaml>`_
 

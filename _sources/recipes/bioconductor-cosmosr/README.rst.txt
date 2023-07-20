@@ -12,7 +12,7 @@ bioconductor-cosmosr
 
    COSMOS \(Causal Oriented Search of Multi\-Omic Space\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/cosmosR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cosmosR.html
    :license: GPL-3
    :recipe: /`bioconductor-cosmosr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosmosr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosmosr/meta.yaml>`_
 

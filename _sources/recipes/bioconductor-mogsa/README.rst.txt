@@ -12,7 +12,7 @@ bioconductor-mogsa
 
    Multiple omics data integrative clustering and gene set analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mogsa.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mogsa.html
    :license: GPL-2
    :recipe: /`bioconductor-mogsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogsa/meta.yaml>`_
 

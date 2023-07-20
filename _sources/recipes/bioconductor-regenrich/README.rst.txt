@@ -12,7 +12,7 @@ bioconductor-regenrich
 
    Gene regulator enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RegEnrich.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RegEnrich.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-regenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regenrich/meta.yaml>`_
 

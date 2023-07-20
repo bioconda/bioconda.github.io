@@ -12,7 +12,7 @@ bioconductor-busparse
 
    kallisto \| bustools R utilities
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BUSpaRse.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BUSpaRse.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-busparse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-busparse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-busparse/meta.yaml>`_
 

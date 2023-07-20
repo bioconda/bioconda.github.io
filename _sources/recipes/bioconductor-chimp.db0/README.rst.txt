@@ -12,7 +12,7 @@ bioconductor-chimp.db0
 
    Base Level Annotation databases for chimp
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/chimp.db0.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/chimp.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chimp.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimp.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimp.db0/meta.yaml>`_
 

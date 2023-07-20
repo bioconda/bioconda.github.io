@@ -12,7 +12,7 @@ bioconductor-cellbarcode
 
    Cellular DNA Barcode Analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CellBarcode.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CellBarcode.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cellbarcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbarcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbarcode/meta.yaml>`_
 

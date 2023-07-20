@@ -12,7 +12,7 @@ bioconductor-phastcons100way.ucsc.hg19
 
    UCSC phastCons conservation scores for hg19
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/phastCons100way.UCSC.hg19.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/phastCons100way.UCSC.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-phastcons100way.ucsc.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons100way.ucsc.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons100way.ucsc.hg19/meta.yaml>`_
 

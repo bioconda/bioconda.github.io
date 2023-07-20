@@ -12,7 +12,7 @@ bioconductor-yeastgsdata
 
    Yeast Gold Standard Data
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/yeastGSData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/yeastGSData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeastgsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastgsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastgsdata/meta.yaml>`_
 

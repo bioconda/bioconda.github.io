@@ -12,7 +12,7 @@ bioconductor-rhdf5lib
 
    hdf5 library as an R package
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Rhdf5lib.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rhdf5lib.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rhdf5lib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5lib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5lib/meta.yaml>`_
 

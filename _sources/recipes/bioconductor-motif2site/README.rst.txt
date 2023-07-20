@@ -12,7 +12,7 @@ bioconductor-motif2site
 
    Detect binding sites from motifs and ChIP\-seq experiments\, and compare binding sites across conditions
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Motif2Site.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Motif2Site.html
    :license: GPL-2
    :recipe: /`bioconductor-motif2site <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motif2site>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motif2site/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-lola
 
    Locus overlap analysis for enrichment of genomic ranges
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/LOLA.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/LOLA.html
    :license: GPL-3
    :recipe: /`bioconductor-lola <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lola>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lola/meta.yaml>`_
    :links: biotools: :biotools:`lola`, doi: :doi:`10.1093/bioinformatics/btv612`

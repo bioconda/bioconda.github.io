@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.major
 
    Full genome sequences for Homo sapiens \(UCSC version hg38\, based on GRCh38.p12\) with injected major alleles \(dbSNP151\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.dbSNP151.major.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.dbSNP151.major.html
    :license: CC BY-NC-ND 4.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.major <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.major>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.major/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tfbstools
 
    Software Package for Transcription Factor Binding Site \(TFBS\) Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/TFBSTools.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TFBSTools.html
    :license: GPL-2
    :recipe: /`bioconductor-tfbstools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfbstools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfbstools/meta.yaml>`_
    :links: biotools: :biotools:`tfbstools`

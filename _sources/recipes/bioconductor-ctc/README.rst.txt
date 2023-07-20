@@ -12,7 +12,7 @@ bioconductor-ctc
 
    Cluster and Tree Conversion.
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ctc.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ctc.html
    :license: GPL-2
    :recipe: /`bioconductor-ctc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctc/meta.yaml>`_
    :links: biotools: :biotools:`ctc`, doi: :doi:`10.1038/nmeth.3252`

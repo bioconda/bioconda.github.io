@@ -12,11 +12,11 @@ bioconductor-qmtools
 
    Quantitative Metabolomics Data Processing Tools
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/qmtools.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/qmtools.html
    :license: GPL-3
    :recipe: /`bioconductor-qmtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qmtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qmtools/meta.yaml>`_
 
-   The qmtools \(quantitative metabolomics tools\) package provides basic tools for processing quantitative metabolomics data with the standard SummarizedExperiment class. This includes functions for imputation\, normalization\, feature filtering\, feature clustering\, dimension\-reduction\, and visualization to help users prepare data for statistical analysis. Several functions in this package could also be used in other types of omics data.
+   The qmtools \(quantitative metabolomics tools\) package provides basic tools for processing quantitative metabolomics data with the standard SummarizedExperiment class. This includes functions for imputation\, normalization\, feature filtering\, feature clustering\, dimension\-reduction\, and visualization to help users prepare data for statistical analysis. This package also offers a convenient way to compute empirical Bayes statistics for which metabolic features are different between two sets of study samples. Several functions in this package could also be used in other types of omics data.
 
 
 .. conda:package:: bioconductor-qmtools

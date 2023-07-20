@@ -12,7 +12,7 @@ bioconductor-diffcoexp
 
    Differential Co\-expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/diffcoexp.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/diffcoexp.html
    :license: GPL (>2)
    :recipe: /`bioconductor-diffcoexp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcoexp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcoexp/meta.yaml>`_
 

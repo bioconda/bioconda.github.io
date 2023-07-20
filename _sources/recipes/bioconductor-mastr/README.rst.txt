@@ -1,0 +1,105 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-mastr'
+.. highlight: bash
+
+bioconductor-mastr
+==================
+
+.. conda:recipe:: bioconductor-mastr
+   :replaces_section_title:
+   :noindex:
+
+   Markers Automated Screening Tool in R
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mastR.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-mastr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mastr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mastr/meta.yaml>`_
+
+   mastR is an R package designed for automated screening of signatures of interest for specific research questions. The package is developed for generating refined lists of signature genes from multiple group comparisons based on the results from edgeR and limma differential expression \(DE\) analysis workflow. It also takes into account the background noise of tissue\-specificity\, which is often ignored by other marker generation tools. This package is particularly useful for the identification of group markers in various biological and medical applications\, including cancer research and developmental biology.
+
+
+.. conda:package:: bioconductor-mastr
+
+   |downloads_bioconductor-mastr| |docker_bioconductor-mastr|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-msigdb: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-ggpubr: 
+   :depends r-matrix: 
+   :depends r-patchwork: 
+   :depends r-seuratobject: 
+   :depends r-tidyr: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mastr
+
+   and update with::
+
+      conda update bioconductor-mastr
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-mastr:<tag>
+
+   (see `bioconductor-mastr/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-mastr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mastr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mastr
+   :alt:   (downloads)
+.. |docker_bioconductor-mastr| image:: https://quay.io/repository/biocontainers/bioconductor-mastr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mastr
+.. _`bioconductor-mastr/tags`: https://quay.io/repository/biocontainers/bioconductor-mastr?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mastr";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mastr/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mastr/README.html

@@ -1,0 +1,107 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-spatialomicsoverlay'
+.. highlight: bash
+
+bioconductor-spatialomicsoverlay
+================================
+
+.. conda:recipe:: bioconductor-spatialomicsoverlay
+   :replaces_section_title:
+   :noindex:
+
+   Spatial Overlay for Omic Data from Nanostring GeoMx Data
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SpatialOmicsOverlay.html
+   :license: MIT
+   :recipe: /`bioconductor-spatialomicsoverlay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialomicsoverlay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialomicsoverlay/meta.yaml>`_
+
+   Tools for NanoString Technologies GeoMx Technology. Package to easily graph on top of an OME\-TIFF image. Plotting annotations can range from tissue segment to gene expression.
+
+
+.. conda:package:: bioconductor-spatialomicsoverlay
+
+   |downloads_bioconductor-spatialomicsoverlay| |docker_bioconductor-spatialomicsoverlay|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
+   :depends bioconductor-geomxtools: ``>=3.4.0,<3.5.0``
+   :depends bioconductor-rbioformats: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base64enc: 
+   :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-ggtext: 
+   :depends r-magick: 
+   :depends r-pbapply: 
+   :depends r-plotrix: 
+   :depends r-readxl: 
+   :depends r-scattermore: 
+   :depends r-stringr: 
+   :depends r-xml: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-spatialomicsoverlay
+
+   and update with::
+
+      conda update bioconductor-spatialomicsoverlay
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-spatialomicsoverlay:<tag>
+
+   (see `bioconductor-spatialomicsoverlay/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-spatialomicsoverlay| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spatialomicsoverlay.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spatialomicsoverlay
+   :alt:   (downloads)
+.. |docker_bioconductor-spatialomicsoverlay| image:: https://quay.io/repository/biocontainers/bioconductor-spatialomicsoverlay/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-spatialomicsoverlay
+.. _`bioconductor-spatialomicsoverlay/tags`: https://quay.io/repository/biocontainers/bioconductor-spatialomicsoverlay?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-spatialomicsoverlay";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-spatialomicsoverlay/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-spatialomicsoverlay/README.html

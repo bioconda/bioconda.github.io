@@ -12,7 +12,7 @@ bioconductor-mumosa
 
    Multi\-Modal Single\-Cell Analysis Methods
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/mumosa.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mumosa.html
    :license: GPL-3
    :recipe: /`bioconductor-mumosa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mumosa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mumosa/meta.yaml>`_
 

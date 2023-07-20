@@ -12,11 +12,11 @@ bioconductor-rawrr
 
    Direct Access to Orbitrap Data and Beyond
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rawrr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rawrr.html
    :license: GPL-3
    :recipe: /`bioconductor-rawrr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rawrr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rawrr/meta.yaml>`_
 
-   This package wraps the functionality of the RawFileReader .NET assembly. Within the R environment\, spectra and chromatograms are represented by S3 objects \(Kockmann T. et al. \(2020\) \<doi\:10.1101\/2020.10.30.362533\>\). The package provides basic functions to download and install the required third\-party libraries. The package is developed\, tested\, and used at the Functional Genomics Center Zurich\, Switzerland \<https\:\/\/fgcz.ch\>.
+   This package wraps the functionality of the RawFileReader .NET assembly. Within the R environment\, spectra and chromatograms are represented by S3 objects. The package provides basic functions to download and install the required third\-party libraries. The package is developed\, tested\, and used at the Functional Genomics Center Zurich\, Switzerland.
 
 
 .. conda:package:: bioconductor-rawrr

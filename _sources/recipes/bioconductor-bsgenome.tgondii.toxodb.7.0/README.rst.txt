@@ -12,7 +12,7 @@ bioconductor-bsgenome.tgondii.toxodb.7.0
 
    Toxoplasma gondii ME49 \(ToxoDB\-7.0\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Tgondii.ToxoDB.7.0.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Tgondii.ToxoDB.7.0.html
    :license: GPL 3
    :recipe: /`bioconductor-bsgenome.tgondii.toxodb.7.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tgondii.toxodb.7.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tgondii.toxodb.7.0/meta.yaml>`_
 

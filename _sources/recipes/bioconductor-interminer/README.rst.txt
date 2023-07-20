@@ -12,7 +12,7 @@ bioconductor-interminer
 
    R Interface with InterMine\-Powered Databases
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/InterMineR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/InterMineR.html
    :license: LGPL
    :recipe: /`bioconductor-interminer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interminer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interminer/meta.yaml>`_
 

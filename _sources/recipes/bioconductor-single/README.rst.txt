@@ -12,7 +12,7 @@ bioconductor-single
 
    Accurate consensus sequence from nanopore reads of a gene library
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/single.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/single.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-single <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-single>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-single/meta.yaml>`_
 

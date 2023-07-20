@@ -12,7 +12,7 @@ bioconductor-oncoscanr
 
    Secondary analyses of CNV data \(HRD and more\)
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/oncoscanR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/oncoscanR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-oncoscanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncoscanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncoscanr/meta.yaml>`_
 

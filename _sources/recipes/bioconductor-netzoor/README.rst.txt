@@ -12,7 +12,7 @@ bioconductor-netzoor
 
    Unified methods for the inference and analysis of gene regulatory networks
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/netZooR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/netZooR.html
    :license: GPL-3
    :recipe: /`bioconductor-netzoor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netzoor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netzoor/meta.yaml>`_
 

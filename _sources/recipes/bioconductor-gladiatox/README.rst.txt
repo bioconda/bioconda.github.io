@@ -12,7 +12,7 @@ bioconductor-gladiatox
 
    R Package for Processing High Content Screening data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GladiaTOX.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GladiaTOX.html
    :license: GPL-2
    :recipe: /`bioconductor-gladiatox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gladiatox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gladiatox/meta.yaml>`_
 

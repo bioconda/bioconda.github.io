@@ -12,7 +12,7 @@ bioconductor-methrix
 
    Fast and efficient summarization of generic bedGraph files from Bisufite sequencing
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/methrix.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/methrix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-methrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methrix/meta.yaml>`_
 

@@ -12,12 +12,12 @@ bioconductor-guideseq
 
    GUIDE\-seq and PEtag\-seq analysis pipeline
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GUIDEseq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GUIDEseq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-guideseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guideseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guideseq/meta.yaml>`_
    :links: biotools: :biotools:`guideseq`, doi: :doi:`10.1186/s12864-017-3746-y`
 
-   The package implements GUIDE\-seq and PEtag\-seq analysis workflow including functions for filtering UMI and reads with low coverage\, obtaining unique insertion sites \(proxy of cleavage sites\)\, estimating the locations of the insertion sites\, aka\, peaks\, merging estimated insertion sites from plus and minus strand\, and performing off target search of the extended regions around insertion sites.
+   The package implements GUIDE\-seq and PEtag\-seq analysis workflow including functions for filtering UMI and reads with low coverage\, obtaining unique insertion sites \(proxy of cleavage sites\)\, estimating the locations of the insertion sites\, aka\, peaks\, merging estimated insertion sites from plus and minus strand\, and performing off target search of the extended regions around insertion sites with mismatches and indels.
 
 
 .. conda:package:: bioconductor-guideseq

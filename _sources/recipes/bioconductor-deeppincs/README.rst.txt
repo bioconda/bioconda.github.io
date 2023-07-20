@@ -12,7 +12,7 @@ bioconductor-deeppincs
 
    Protein Interactions and Networks with Compounds based on Sequences using Deep Learning
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DeepPINCS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DeepPINCS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-deeppincs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deeppincs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deeppincs/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mugaexampledata
 
    Example \{M\}ouse \{U\}niversal \{G\}enotyping \{A\}rray data for genome reconstruction and quantitative trait locus mapping.
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/MUGAExampleData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/MUGAExampleData.html
    :license: GPL-3
    :recipe: /`bioconductor-mugaexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mugaexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mugaexampledata/meta.yaml>`_
 

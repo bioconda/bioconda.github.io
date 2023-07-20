@@ -12,7 +12,7 @@ bioconductor-flowgraph
 
    Identifying differential cell populations in flow cytometry data accounting for marker frequency
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/flowGraph.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/flowGraph.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowgraph/meta.yaml>`_
 

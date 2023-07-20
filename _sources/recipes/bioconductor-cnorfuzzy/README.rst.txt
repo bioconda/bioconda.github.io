@@ -12,7 +12,7 @@ bioconductor-cnorfuzzy
 
    Addon to CellNOptR\: Fuzzy Logic
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/CNORfuzzy.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CNORfuzzy.html
    :license: GPL-2
    :recipe: /`bioconductor-cnorfuzzy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfuzzy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfuzzy/meta.yaml>`_
    :links: biotools: :biotools:`cnorfuzzy`, doi: :doi:`10.1186/1752-0509-6-133`

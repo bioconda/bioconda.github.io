@@ -12,7 +12,7 @@ bioconductor-uniprotkeywords
 
    Keywords from UniProt Database
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/UniProtKeywords.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/UniProtKeywords.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-uniprotkeywords <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprotkeywords>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprotkeywords/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-msbackendrawfilereader
 
    Mass Spectrometry Backend for Reading Thermo Fisher Scientific raw Files
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MsBackendRawFileReader.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MsBackendRawFileReader.html
    :license: GPL-3
    :recipe: /`bioconductor-msbackendrawfilereader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msbackendrawfilereader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msbackendrawfilereader/meta.yaml>`_
 
-   implements a MsBackend for the Spectra package using Thermo Fisher Scientific\'s NewRawFileReader .Net libraries. The package is generalizing the functionality introduced by the rawrr package \(Kockmann T. et al. \(2020\) \<doi\:10.1101\/2020.10.30.362533\>\) Methods defined in this package are supposed to extend the Spectra Bioconductor package.
+   implements a MsBackend for the Spectra package using Thermo Fisher Scientific\'s NewRawFileReader .Net libraries. The package is generalizing the functionality introduced by the rawrr package Methods defined in this package are supposed to extend the Spectra Bioconductor package.
 
 
 .. conda:package:: bioconductor-msbackendrawfilereader

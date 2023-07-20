@@ -12,7 +12,7 @@ bioconductor-demuxmix
 
    Demultiplexing oligo\-barcoded scRNA\-seq data using regression mixture models
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/demuxmix.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/demuxmix.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-demuxmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demuxmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demuxmix/meta.yaml>`_
 

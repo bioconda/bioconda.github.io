@@ -12,7 +12,7 @@ bioconductor-islet
 
    Individual\-Specific ceLl typE referencing Tool
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ISLET.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ISLET.html
    :license: GPL-2
    :recipe: /`bioconductor-islet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-islet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-islet/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-u133x3pcdf
 
    u133x3pcdf
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/u133x3pcdf.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/u133x3pcdf.html
    :license: LGPL
    :recipe: /`bioconductor-u133x3pcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3pcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3pcdf/meta.yaml>`_
 

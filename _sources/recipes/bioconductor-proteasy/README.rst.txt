@@ -12,7 +12,7 @@ bioconductor-proteasy
 
    Protease Mapping
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/proteasy.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/proteasy.html
    :license: GPL-3
    :recipe: /`bioconductor-proteasy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteasy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteasy/meta.yaml>`_
 

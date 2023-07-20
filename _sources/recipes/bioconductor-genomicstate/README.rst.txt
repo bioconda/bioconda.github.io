@@ -12,7 +12,7 @@ bioconductor-genomicstate
 
    Build and access GenomicState objects for use with derfinder tools from sources like Gencode
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/GenomicState.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/GenomicState.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicstate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicstate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicstate/meta.yaml>`_
 

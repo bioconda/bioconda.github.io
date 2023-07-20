@@ -12,7 +12,7 @@ bioconductor-m3c
 
    Monte Carlo Reference\-based Consensus Clustering
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/M3C.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/M3C.html
    :license: AGPL-3
    :recipe: /`bioconductor-m3c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3c/meta.yaml>`_
 

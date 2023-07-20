@@ -12,7 +12,7 @@ bioconductor-ggtree
 
    an R package for visualization of tree and annotation data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ggtree.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ggtree.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree/meta.yaml>`_
    :links: biotools: :biotools:`ggtree`, doi: :doi:`10.1111/2041-210X.12628`

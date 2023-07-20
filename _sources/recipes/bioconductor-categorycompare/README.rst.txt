@@ -12,7 +12,7 @@ bioconductor-categorycompare
 
    Meta\-analysis of high\-throughput experiments using feature annotations
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/categoryCompare.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/categoryCompare.html
    :license: GPL-2
    :recipe: /`bioconductor-categorycompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-categorycompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-categorycompare/meta.yaml>`_
 

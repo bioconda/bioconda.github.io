@@ -12,7 +12,7 @@ bioconductor-hgc
 
    A fast hierarchical graph\-based clustering method
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/HGC.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HGC.html
    :license: GPL-3
    :recipe: /`bioconductor-hgc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgc/meta.yaml>`_
 

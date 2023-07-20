@@ -12,7 +12,7 @@ bioconductor-crisprdesign
 
    Comprehensive design of CRISPR gRNAs for nucleases and base editors
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/crisprDesign.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/crisprDesign.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprdesign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprdesign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprdesign/meta.yaml>`_
 

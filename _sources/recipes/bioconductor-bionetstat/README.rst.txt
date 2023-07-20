@@ -12,7 +12,7 @@ bioconductor-bionetstat
 
    Biological Network Analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BioNetStat.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BioNetStat.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-bionetstat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionetstat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionetstat/meta.yaml>`_
 

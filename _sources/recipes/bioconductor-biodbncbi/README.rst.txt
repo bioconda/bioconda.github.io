@@ -12,7 +12,7 @@ bioconductor-biodbncbi
 
    biodbNcbi\, a library for connecting to NCBI Databases.
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/biodbNcbi.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biodbNcbi.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbncbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbncbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbncbi/meta.yaml>`_
 

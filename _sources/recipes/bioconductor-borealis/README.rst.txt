@@ -12,7 +12,7 @@ bioconductor-borealis
 
    Bisulfite\-seq OutlieR mEthylation At singLe\-sIte reSolution
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/borealis.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/borealis.html
    :license: GPL-3
    :recipe: /`bioconductor-borealis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-borealis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-borealis/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-epimix.data
 
    Data for the EpiMix package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/EpiMix.data.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/EpiMix.data.html
    :license: GPL-3
    :recipe: /`bioconductor-epimix.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimix.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimix.data/meta.yaml>`_
 
-   Supporting data for the EpiMix R package. It include\: \- HM450\_lncRNA\_probes.rda \- HM450\_miRNA\_probes.rda \- EPIC\_lncRNA\_probes.rda \- EPIC\_miRNA\_probes.rda \- EpigenomeMap.rda \- LUAD.sample.annotation \- TCGA\_BatchData \- MET.data \- mRNA.data \- microRNA.data \- lncRNA.data \- Sample\_EpiMixResults\_lncRNA \- Sample\_EpiMixResults\_miRNA \- Sample\_EpiMixResults\_Regular \- lncRNA expression data of tumors from TCGA that are stored in the ExperimentHub.
+   Supporting data for the EpiMix R package. It include\: \- HM450\_lncRNA\_probes.rda \- HM450\_miRNA\_probes.rda \- EPIC\_lncRNA\_probes.rda \- EPIC\_miRNA\_probes.rda \- EpigenomeMap.rda \- LUAD.sample.annotation \- TCGA\_BatchData \- MET.data \- mRNA.data \- microRNA.data \- lncRNA.data \- Sample\_EpiMixResults\_lncRNA \- Sample\_EpiMixResults\_miRNA \- Sample\_EpiMixResults\_Regular \- Sample\_EpiMixResults\_Enhancer \- lncRNA expression data of tumors from TCGA that are stored in the ExperimentHub.
 
 
 .. conda:package:: bioconductor-epimix.data

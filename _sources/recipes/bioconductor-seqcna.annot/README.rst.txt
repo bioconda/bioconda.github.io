@@ -12,7 +12,7 @@ bioconductor-seqcna.annot
 
    Annotation for the copy number analysis of deep sequencing cancer data with seqCNA
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/seqCNA.annot.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/seqCNA.annot.html
    :license: GPL-3
    :recipe: /`bioconductor-seqcna.annot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcna.annot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcna.annot/meta.yaml>`_
 

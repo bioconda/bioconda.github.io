@@ -12,7 +12,7 @@ bioconductor-granie
 
    GRaNIE\: Reconstruction cell type specific gene regulatory networks including enhancers using chromatin accessibility and RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/GRaNIE.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GRaNIE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-granie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-granie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-granie/meta.yaml>`_
 

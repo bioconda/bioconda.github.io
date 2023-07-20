@@ -12,7 +12,7 @@ bioconductor-clusterprofiler
 
    A universal enrichment tool for interpreting omics data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/clusterProfiler.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/clusterProfiler.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler/meta.yaml>`_
    :links: biotools: :biotools:`clusterprofiler`

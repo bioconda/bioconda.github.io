@@ -12,7 +12,7 @@ bioconductor-divergence
 
    Divergence\: Functionality for assessing omics data by divergence with respect to a baseline
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/divergence.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/divergence.html
    :license: GPL-2
    :recipe: /`bioconductor-divergence <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-divergence>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-divergence/meta.yaml>`_
 

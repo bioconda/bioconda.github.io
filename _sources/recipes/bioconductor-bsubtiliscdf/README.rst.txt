@@ -12,7 +12,7 @@ bioconductor-bsubtiliscdf
 
    bsubtiliscdf
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/bsubtiliscdf.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/bsubtiliscdf.html
    :license: LGPL
    :recipe: /`bioconductor-bsubtiliscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsubtiliscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsubtiliscdf/meta.yaml>`_
 

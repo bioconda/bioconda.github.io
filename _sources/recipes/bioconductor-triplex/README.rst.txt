@@ -12,7 +12,7 @@ bioconductor-triplex
 
    Search and visualize intramolecular triplex\-forming sequences in DNA
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/triplex.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/triplex.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-triplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triplex/meta.yaml>`_
    :links: biotools: :biotools:`triplex`

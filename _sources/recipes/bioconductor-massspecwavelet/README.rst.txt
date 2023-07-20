@@ -12,7 +12,7 @@ bioconductor-massspecwavelet
 
    Peak Detection for Mass Spectrometry data using wavelet\-based algorithms
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MassSpecWavelet.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MassSpecWavelet.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-massspecwavelet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet/meta.yaml>`_
    :links: biotools: :biotools:`massspecwavelet`

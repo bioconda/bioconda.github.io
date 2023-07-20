@@ -10,13 +10,13 @@ bioconductor-hicontacts
    :replaces_section_title:
    :noindex:
 
-   HiContacts\: R interface to cool files
+   Analysing cool files in R with HiContacts
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/HiContacts.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HiContacts.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hicontacts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicontacts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicontacts/meta.yaml>`_
 
-   HiContacts\: R interface to \(m\)cool files and other Hi\-C processed file formats. HiContacts provides a collection of tools to analyse and visualize Hi\-C datasets. It can import data from pairs or \(m\)cool files.
+   HiContacts provides a collection of tools to analyse and visualize Hi\-C datasets imported in R by HiCExperiment.
 
 
 .. conda:package:: bioconductor-hicontacts

@@ -12,7 +12,7 @@ bioconductor-omicsviewer
 
    Interactive and explorative visualization of SummarizedExperssionSet or ExpressionSet using omicsViewer
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/omicsViewer.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/omicsViewer.html
    :license: GPL-2
    :recipe: /`bioconductor-omicsviewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsviewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsviewer/meta.yaml>`_
 

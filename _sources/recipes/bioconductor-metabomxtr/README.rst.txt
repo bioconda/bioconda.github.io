@@ -12,7 +12,7 @@ bioconductor-metabomxtr
 
    A package to run mixture models for truncated metabolomics data with normal or lognormal distributions
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/metabomxtr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/metabomxtr.html
    :license: GPL-2
    :recipe: /`bioconductor-metabomxtr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabomxtr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabomxtr/meta.yaml>`_
 

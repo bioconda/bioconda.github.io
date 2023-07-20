@@ -12,7 +12,7 @@ bioconductor-scbubbletree
 
    Quantitative visual exploration of scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/scBubbletree.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scBubbletree.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scbubbletree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbubbletree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbubbletree/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-dnafusion
 
    Identification of gene fusions using paired\-end sequencing
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DNAfusion.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DNAfusion.html
    :license: GPL-3
    :recipe: /`bioconductor-dnafusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnafusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnafusion/meta.yaml>`_
 
-   Paired\-end sequencing of cfDNA generated BAM files can be used as input to discover EML4\-ALK variants. This package was developed using position deduplicated BAM files generated with the AVENIO Oncology Analysis Software. These files are made using the AVENIO ctDNA surveillance kit and Illumina Nextseq 500 sequencing. This is a targeted hybridization NGS approach and includes ALK\-specific but not EML4\-specific probes.
+   DNAfusion can identify gene fusions such as EML4\-ALK based on paired\-end sequencing results. This package was developed using position deduplicated BAM files generated with the AVENIO Oncology Analysis Software. These files are made using the AVENIO ctDNA surveillance kit and Illumina Nextseq 500 sequencing. This is a targeted hybridization NGS approach and includes ALK\-specific but not EML4\-specific probes.
 
 
 .. conda:package:: bioconductor-dnafusion

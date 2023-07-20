@@ -12,7 +12,7 @@ bioconductor-ipath
 
    iPath pipeline for detecting perturbed pathways at individual level
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/iPath.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/iPath.html
    :license: GPL-2
    :recipe: /`bioconductor-ipath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipath/meta.yaml>`_
 

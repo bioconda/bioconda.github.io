@@ -12,7 +12,7 @@ bioconductor-crisprviz
 
    Visualization Functions for CRISPR gRNAs
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/crisprViz.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/crisprViz.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprviz/meta.yaml>`_
 

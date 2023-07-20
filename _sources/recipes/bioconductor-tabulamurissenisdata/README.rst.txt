@@ -12,7 +12,7 @@ bioconductor-tabulamurissenisdata
 
    Bulk and single\-cell RNA\-seq data from the Tabula Muris Senis project
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/TabulaMurisSenisData.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/TabulaMurisSenisData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tabulamurissenisdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurissenisdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurissenisdata/meta.yaml>`_
 

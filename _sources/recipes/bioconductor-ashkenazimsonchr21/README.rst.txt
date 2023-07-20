@@ -12,7 +12,7 @@ bioconductor-ashkenazimsonchr21
 
    Annotated variants on the chromosome 21\, human genome 19\, Ashkenazim Trio son sample
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/AshkenazimSonChr21.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/AshkenazimSonChr21.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ashkenazimsonchr21 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ashkenazimsonchr21>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ashkenazimsonchr21/meta.yaml>`_
 

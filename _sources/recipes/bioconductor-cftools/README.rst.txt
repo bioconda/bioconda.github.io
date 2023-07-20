@@ -1,0 +1,98 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-cftools'
+.. highlight: bash
+
+bioconductor-cftools
+====================
+
+.. conda:recipe:: bioconductor-cftools
+   :replaces_section_title:
+   :noindex:
+
+   Informatics Tools for Cell\-Free DNA Study
+
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cfTools.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-cftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cftools/meta.yaml>`_
+
+   The cfTools R package provides methods for cell\-free DNA \(cfDNA\) methylation data analysis to facilitate cfDNA\-based studies. Given the methylation sequencing data of a cfDNA sample\, for each cancer marker or tissue marker\, we deconvolve the tumor\-derived or tissue\-specific reads from all reads falling in the marker region. Our read\-based deconvolution algorithm exploits the pervasiveness of DNA methylation for signal enhancement\, therefore can sensitively identify a trace amount of tumor\-specific or tissue\-specific cfDNA in plasma. cfTools provides functions for \(1\) cancer detection\: sensitively detect tumor\-derived cfDNA and estimate the tumor\-derived cfDNA fraction \(tumor burden\)\; \(2\) tissue deconvolution\: infer the tissue type composition and the cfDNA fraction of multiple tissue types for a plasma cfDNA sample. These functions can serve as foundations for more advanced cfDNA\-based studies\, including cancer diagnosis and disease monitoring.
+
+
+.. conda:package:: bioconductor-cftools
+
+   |downloads_bioconductor-cftools| |docker_bioconductor-cftools|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends bioconductor-basilisk: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-bh: 
+   :depends r-r.utils: 
+   :depends r-rcpp: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cftools
+
+   and update with::
+
+      conda update bioconductor-cftools
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-cftools:<tag>
+
+   (see `bioconductor-cftools/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-cftools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cftools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cftools
+   :alt:   (downloads)
+.. |docker_bioconductor-cftools| image:: https://quay.io/repository/biocontainers/bioconductor-cftools/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cftools
+.. _`bioconductor-cftools/tags`: https://quay.io/repository/biocontainers/bioconductor-cftools?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cftools";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cftools/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cftools/README.html

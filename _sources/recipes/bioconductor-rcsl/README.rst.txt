@@ -12,7 +12,7 @@ bioconductor-rcsl
 
    Rank Constrained Similarity Learning for single cell RNA sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/RCSL.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RCSL.html
    :license: GPL-3
    :recipe: /`bioconductor-rcsl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcsl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcsl/meta.yaml>`_
 

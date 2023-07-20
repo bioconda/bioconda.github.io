@@ -12,7 +12,7 @@ bioconductor-emtdata
 
    An ExperimentHub Package for data sets with an Epithelial to Mesenchymal Transition \(EMT\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/emtdata.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/emtdata.html
    :license: GPL-3
    :recipe: /`bioconductor-emtdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-emtdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-emtdata/meta.yaml>`_
 

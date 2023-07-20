@@ -12,7 +12,7 @@ bioconductor-r3cpet
 
    3CPET\: Finding Co\-factor Complexes in Chia\-PET experiment using a Hierarchical Dirichlet Process
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/R3CPET.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/R3CPET.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-r3cpet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cpet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cpet/meta.yaml>`_
 

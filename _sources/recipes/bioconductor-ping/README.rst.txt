@@ -12,7 +12,7 @@ bioconductor-ping
 
    Probabilistic inference for Nucleosome Positioning with MNase\-based or Sonicated Short\-read Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/PING.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PING.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ping/meta.yaml>`_
    :links: biotools: :biotools:`ping`

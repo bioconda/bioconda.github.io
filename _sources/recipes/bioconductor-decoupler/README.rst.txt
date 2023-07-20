@@ -12,7 +12,7 @@ bioconductor-decoupler
 
    decoupleR\: Ensemble of computational methods to infer biological activities from omics data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/decoupleR.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/decoupleR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-decoupler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decoupler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decoupler/meta.yaml>`_
 

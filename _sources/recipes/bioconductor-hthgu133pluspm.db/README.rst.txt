@@ -12,7 +12,7 @@ bioconductor-hthgu133pluspm.db
 
    Affymetrix Affymetrix HT\_HG\-U133\_Plus\_PM Array annotation data \(chip hthgu133pluspm\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hthgu133pluspm.db.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hthgu133pluspm.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hthgu133pluspm.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspm.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspm.db/meta.yaml>`_
 

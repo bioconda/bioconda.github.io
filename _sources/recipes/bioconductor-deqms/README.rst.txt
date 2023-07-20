@@ -12,7 +12,7 @@ bioconductor-deqms
 
    a tool to perform statistical analysis of differential protein expression for quantitative proteomics data.
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DEqMS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DEqMS.html
    :license: LGPL
    :recipe: /`bioconductor-deqms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deqms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deqms/meta.yaml>`_
 

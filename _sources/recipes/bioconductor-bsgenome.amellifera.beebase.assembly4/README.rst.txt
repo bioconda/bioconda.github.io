@@ -12,7 +12,7 @@ bioconductor-bsgenome.amellifera.beebase.assembly4
 
    Full genome sequences for Apis mellifera \(BeeBase assembly4\)
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/BSgenome.Amellifera.BeeBase.assembly4.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Amellifera.BeeBase.assembly4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.amellifera.beebase.assembly4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.beebase.assembly4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.beebase.assembly4/meta.yaml>`_
 

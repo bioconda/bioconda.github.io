@@ -12,7 +12,7 @@ bioconductor-seqcombo
 
    Visualization Tool for Genetic Reassortment
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/seqcombo.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/seqcombo.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-seqcombo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo/meta.yaml>`_
 

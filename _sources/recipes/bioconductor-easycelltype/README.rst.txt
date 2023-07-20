@@ -12,7 +12,7 @@ bioconductor-easycelltype
 
    Annotate cell types for scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/EasyCellType.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EasyCellType.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-easycelltype <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easycelltype>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easycelltype/meta.yaml>`_
 

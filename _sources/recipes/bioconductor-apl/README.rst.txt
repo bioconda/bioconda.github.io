@@ -12,7 +12,7 @@ bioconductor-apl
 
    Association Plots
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/APL.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/APL.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-apl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apl/meta.yaml>`_
 

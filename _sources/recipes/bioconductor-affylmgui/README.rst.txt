@@ -12,7 +12,7 @@ bioconductor-affylmgui
 
    GUI for limma Package with Affymetrix Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/affylmGUI.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/affylmGUI.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affylmgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affylmgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affylmgui/meta.yaml>`_
 

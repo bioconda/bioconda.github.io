@@ -12,7 +12,7 @@ bioconductor-msstatsshiny
 
    MSstats GUI for Statistical Anaylsis of Proteomics Experiments
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MSstatsShiny.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstatsShiny.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatsshiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsshiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsshiny/meta.yaml>`_
 

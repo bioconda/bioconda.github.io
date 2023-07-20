@@ -12,7 +12,7 @@ bioconductor-medips
 
    DNA IP\-seq data analysis
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/MEDIPS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MEDIPS.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-medips <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medips>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medips/meta.yaml>`_
    :links: biotools: :biotools:`medips`

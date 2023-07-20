@@ -12,7 +12,7 @@ bioconductor-scannotatr.models
 
    Pretrained models for scAnnotatR package
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/scAnnotatR.models.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/scAnnotatR.models.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scannotatr.models <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scannotatr.models>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scannotatr.models/meta.yaml>`_
 

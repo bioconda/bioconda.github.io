@@ -12,7 +12,7 @@ bioconductor-metapod
 
    Meta\-Analyses on P\-Values of Differential Analyses
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/metapod.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/metapod.html
    :license: GPL-3
    :recipe: /`bioconductor-metapod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metapod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metapod/meta.yaml>`_
 

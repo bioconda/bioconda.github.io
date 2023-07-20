@@ -12,11 +12,11 @@ bioconductor-miaviz
 
    Microbiome Analysis Plotting and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/miaViz.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/miaViz.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-miaviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miaviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miaviz/meta.yaml>`_
 
-   The miaViz package implements plotting function to work with TreeSummarizedExperiment and related objects in a context of microbiome analysis. Among others this includes plotting tree\, graph and microbiome series data. The package is part of the broader miaverse framework.
+   The miaViz package implements functions to visualize TreeSummarizedExperiment objects especially in the context of microbiome analysis. Part of the mia family of R\/Bioconductor packages.
 
 
 .. conda:package:: bioconductor-miaviz

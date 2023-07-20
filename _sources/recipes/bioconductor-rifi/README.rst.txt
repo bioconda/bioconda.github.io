@@ -12,7 +12,7 @@ bioconductor-rifi
 
    \'rifi\' analyses data from rifampicin time series created by microarray or RNAseq
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/rifi.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rifi.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-rifi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rifi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rifi/meta.yaml>`_
 

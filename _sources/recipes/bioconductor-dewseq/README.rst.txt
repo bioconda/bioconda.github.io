@@ -12,7 +12,7 @@ bioconductor-dewseq
 
    Differential Expressed Windows Based on Negative Binomial Distribution
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/DEWSeq.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DEWSeq.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-dewseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dewseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dewseq/meta.yaml>`_
 

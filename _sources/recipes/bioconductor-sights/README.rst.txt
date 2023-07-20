@@ -12,7 +12,7 @@ bioconductor-sights
 
    Statistics and dIagnostic Graphs for HTS
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/sights.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sights.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-sights <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sights>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sights/meta.yaml>`_
    :links: biotools: :biotools:`sights`, doi: :doi:`10.1177/1087057114548853`

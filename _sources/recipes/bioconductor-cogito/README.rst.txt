@@ -12,7 +12,7 @@ bioconductor-cogito
 
    Compare genomic intervals tool \- Automated\, complete\, reproducible and clear report about genomic and epigenomic data sets
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/Cogito.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Cogito.html
    :license: LGPL-3
    :recipe: /`bioconductor-cogito <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogito>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogito/meta.yaml>`_
 

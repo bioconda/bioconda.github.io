@@ -12,7 +12,7 @@ bioconductor-primirtss
 
    Prediction of pri\-miRNA Transcription Start Site
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/primirTSS.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/primirTSS.html
    :license: GPL-2
    :recipe: /`bioconductor-primirtss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primirtss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primirtss/meta.yaml>`_
 

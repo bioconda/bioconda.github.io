@@ -12,7 +12,7 @@ bioconductor-switchbox
 
    Utilities to train and validate classifiers based on pair switching using the K\-Top\-Scoring\-Pair \(KTSP\) algorithm
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/switchBox.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/switchBox.html
    :license: GPL-2
    :recipe: /`bioconductor-switchbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchbox/meta.yaml>`_
    :links: biotools: :biotools:`switchbox`

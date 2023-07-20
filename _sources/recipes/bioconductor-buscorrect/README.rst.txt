@@ -12,7 +12,7 @@ bioconductor-buscorrect
 
    Batch Effects Correction with Unknown Subtypes
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/BUScorrect.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BUScorrect.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-buscorrect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-buscorrect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-buscorrect/meta.yaml>`_
 

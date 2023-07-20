@@ -12,7 +12,7 @@ bioconductor-anf
 
    Affinity Network Fusion for Complex Patient Clustering
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/ANF.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ANF.html
    :license: GPL-3
    :recipe: /`bioconductor-anf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anf/meta.yaml>`_
 

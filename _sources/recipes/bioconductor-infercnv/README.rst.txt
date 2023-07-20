@@ -12,7 +12,7 @@ bioconductor-infercnv
 
    Infer Copy Number Variation from Single\-Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/infercnv.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/infercnv.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-infercnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infercnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infercnv/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tomoseqr
 
    R Package for Analyzing Tomo\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/tomoseqr.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tomoseqr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tomoseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomoseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomoseqr/meta.yaml>`_
 

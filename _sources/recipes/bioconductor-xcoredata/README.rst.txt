@@ -12,7 +12,7 @@ bioconductor-xcoredata
 
    data package for xcore
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/xcoredata.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/xcoredata.html
    :license: GPL-2
    :recipe: /`bioconductor-xcoredata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcoredata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcoredata/meta.yaml>`_
 

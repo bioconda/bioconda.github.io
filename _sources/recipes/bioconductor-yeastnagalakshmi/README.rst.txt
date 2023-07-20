@@ -12,7 +12,7 @@ bioconductor-yeastnagalakshmi
 
    Yeast genome RNA sequencing data based on Nagalakshmi et. al.
 
-   :homepage: https://bioconductor.org/packages/3.16/data/experiment/html/yeastNagalakshmi.html
+   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/yeastNagalakshmi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeastnagalakshmi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastnagalakshmi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastnagalakshmi/meta.yaml>`_
 

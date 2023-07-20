@@ -12,7 +12,7 @@ bioconductor-hu35ksubbcdf
 
    hu35ksubbcdf
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/hu35ksubbcdf.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hu35ksubbcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hu35ksubbcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbcdf/meta.yaml>`_
 

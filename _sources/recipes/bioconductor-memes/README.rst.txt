@@ -12,7 +12,7 @@ bioconductor-memes
 
    motif matching\, comparison\, and de novo discovery using the MEME Suite
 
-   :homepage: https://bioconductor.org/packages/3.16/bioc/html/memes.html
+   :homepage: https://bioconductor.org/packages/3.17/bioc/html/memes.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-memes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-memes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-memes/meta.yaml>`_
 

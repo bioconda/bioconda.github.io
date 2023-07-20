@@ -12,7 +12,7 @@ bioconductor-ecoliasv2cdf
 
    ecoliasv2cdf
 
-   :homepage: https://bioconductor.org/packages/3.16/data/annotation/html/ecoliasv2cdf.html
+   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/ecoliasv2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-ecoliasv2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2cdf/meta.yaml>`_
 
