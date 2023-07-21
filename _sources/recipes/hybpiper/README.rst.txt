@@ -12,9 +12,8 @@ hybpiper
 
    HybPiper is a suite of Python scripts\/modules for targeted sequence capture
 
-
    :homepage: https://github.com/mossmatters/HybPiper
-   :license: GPL / GPL-3.0+
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`hybpiper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybpiper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybpiper/meta.yaml>`_
 
    
@@ -28,7 +27,7 @@ hybpiper
       
       
 
-      ``2.1.5-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-0``
+      ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-0``
 
       
 
@@ -83,7 +82,7 @@ hybpiper
 
     <script>
         var package = "hybpiper";
-        var versions = ["2.1.5","2.1.3","2.1.3","2.1.1"];
+        var versions = ["2.1.6","2.1.5","2.1.3","2.1.3","2.1.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ dysgu
       
       
 
-      ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
 
@@ -36,7 +36,7 @@ dysgu
    :depends click: ``>=8.0``
    :depends cython: 
    :depends htslib: ``>=1.17,<1.18.0a0``
-   :depends libcurl: ``>=8.1.2,<9.0a0``
+   :depends libcurl: ``>=8.2.0,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
@@ -87,7 +87,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.4.2","1.4.0","1.3.16"];
+        var versions = ["1.5.0","1.4.2","1.4.0","1.3.16"];
     </script>
 
 

@@ -30,10 +30,10 @@ biobb_cmip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.0-0</code>,  <code>3.7.8-0</code>,  <code>3.7.7-0</code>,  <code>3.7.6-1</code>,  <code>3.7.6-0</code>,  <code>3.7.5-1</code>,  <code>3.7.5-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.7.8-0</code>,  <code>3.7.7-0</code>,  <code>3.7.6-1</code>,  <code>3.7.6-0</code>,  <code>3.7.5-1</code>,  <code>3.7.5-0</code>,  <code>3.7.4-0</code>,  </span></summary>
       
 
-      ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
+      ``4.0.0-0``,  ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ biobb_cmip
       
 
    
-   :depends biobb_common: ``3.9.0``
-   :depends biobb_structure_checking: ``3.12.1``
+   :depends biobb_common: ``4.0.0``
+   :depends biobb_structure_checking: ``3.13.0``
    :depends cmip: ``2.7.0``
-   :depends mdanalysis: ``2.0.0``
+   :depends mdanalysis: ``>=2.0.0``
    :depends python: ``>=3.7``
    :requirements:
 
@@ -78,7 +78,7 @@ biobb_cmip
 
     <script>
         var package = "biobb_cmip";
-        var versions = ["3.9.0","3.7.8","3.7.7","3.7.6","3.7.6"];
+        var versions = ["4.0.0","3.9.0","3.7.8","3.7.7","3.7.6"];
     </script>
 
 
