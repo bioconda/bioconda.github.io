@@ -27,7 +27,7 @@ bioconductor-asurat
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -76,7 +76,7 @@ bioconductor-asurat
 
     <script>
         var package = "bioconductor-asurat";
-        var versions = ["1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.4.0","1.4.0","1.2.0","1.2.0"];
     </script>
 
 

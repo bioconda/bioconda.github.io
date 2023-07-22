@@ -18,8 +18,8 @@ gmwi2
 
    GMWI2 \(Gut Microbiome Wellness Index 2\) is a robust and biologically interpretable predictor of health status based on gut microbiome taxonomic profiles. 
    On a stool metagenome sample\, this command\-line tool performs three major steps\:
-   \(1\) Taxonomic profiling using MetaPhlAn3 \(v3.0.13\) with the mpa\_v30\_CHOCOPhlAn\_201901 marker database.
-   \(2\) Transformation of taxonomic relative abundances into a binary presence\/absence profile.
+   \(1\) Taxonomic profiling using MetaPhlAn3 \(v3.0.13\) with the mpa\\\_v30\\\_CHOCOPhlAn\_201901 marker database\;
+   \(2\) Transformation of taxonomic relative abundances into a binary presence\/absence profile\;
    \(3\) Computation of the GMWI2 score using a Lasso\-penalized logistic regression model trained on a meta\-dataset of 8\,069 health status labeled stool shotgun metagenomes.
 
 
@@ -31,7 +31,7 @@ gmwi2
       
       
 
-      ``1.3-0``
+      ``1.4-0``,  ``1.3-0``
 
       
 
@@ -39,7 +39,7 @@ gmwi2
    :depends halo: 
    :depends metaphlan: ``3.0.13.*``
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends scikit-learn: ``1.2.2.*``
    :requirements:
 
@@ -72,7 +72,7 @@ gmwi2
 
     <script>
         var package = "gmwi2";
-        var versions = ["1.3"];
+        var versions = ["1.4","1.3"];
     </script>
 
 

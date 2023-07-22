@@ -29,7 +29,7 @@ table2asn
       
       
 
-      ``1.27.792-0``
+      ``1.27.792-0``,  ``1.0.883-0``
 
       
 
@@ -67,7 +67,7 @@ table2asn
 
     <script>
         var package = "table2asn";
-        var versions = ["1.27.792"];
+        var versions = ["1.27.792","1.0.883"];
     </script>
 
 

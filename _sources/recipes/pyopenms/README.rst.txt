@@ -29,10 +29,10 @@ pyopenms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.1-3</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.9.1-3</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-6</code>,  </span></summary>
       
 
-      ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -45,10 +45,10 @@ pyopenms
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<1.1.0a0``
    :depends coinmp: ``>=1.8.4,<1.9.0a0``
-   :depends eigen: ``>=3.4.0,<3.5.0a0``
+   :depends eigen: ``>=3.4.1,<3.5.0a0``
    :depends hdf5: ``>=1.14.1,<1.15.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends libopenms: ``2.9.1.*``
+   :depends libopenms: ``3.0.0.*``
    :depends libstdcxx-ng: ``>=12``
    :depends libsvm: ``>=325,<326.0a0``
    :depends matplotlib-base: 
@@ -92,7 +92,7 @@ pyopenms
 
     <script>
         var package = "pyopenms";
-        var versions = ["2.9.1","2.9.1","2.9.1","2.8.0","2.8.0"];
+        var versions = ["3.0.0","2.9.1","2.9.1","2.9.1","2.8.0"];
     </script>
 
 

@@ -30,7 +30,7 @@ galaxy-upload
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -72,7 +72,7 @@ galaxy-upload
 
     <script>
         var package = "galaxy-upload";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 
