@@ -12,7 +12,10 @@ planemo
 
    Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject.org\/\).
 
-   :homepage: https://github.com/galaxyproject/planemo
+   :homepage: https://pypi.org/project/planemo/
+   :documentation: https://planemo.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/galaxyproject/planemo
    :license: MIT / MIT
    :recipe: /`planemo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo/meta.yaml>`_
 
@@ -28,10 +31,10 @@ planemo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.75.3-0</code>,  <code>0.74.11-0</code>,  <code>0.74.10-0</code>,  <code>0.74.9-0</code>,  <code>0.74.8-0</code>,  <code>0.74.7-0</code>,  <code>0.74.6-0</code>,  <code>0.74.5-0</code>,  <code>0.74.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.75.9-0</code>,  <code>0.75.3-0</code>,  <code>0.74.11-0</code>,  <code>0.74.10-0</code>,  <code>0.74.9-0</code>,  <code>0.74.8-0</code>,  <code>0.74.7-0</code>,  <code>0.74.6-0</code>,  <code>0.74.5-0</code>,  </span></summary>
       
 
-      ``0.75.3-0``,  ``0.74.11-0``,  ``0.74.10-0``,  ``0.74.9-0``,  ``0.74.8-0``,  ``0.74.7-0``,  ``0.74.6-0``,  ``0.74.5-0``,  ``0.74.4-1``,  ``0.74.4-0``,  ``0.74.3-0``,  ``0.74.2-0``,  ``0.74.1-0``,  ``0.74.0-0``,  ``0.73.0-0``,  ``0.72.0-0``,  ``0.70.0-1``,  ``0.70.0-0``,  ``0.62.1-2``,  ``0.62.1-1``,  ``0.62.1-0``,  ``0.61.0-0``,  ``0.60.0-0``,  ``0.59.0-0``,  ``0.57.1-1``,  ``0.57.1-0``,  ``0.57.0-0``,  ``0.56.0-0``,  ``0.55.0-1``,  ``0.55.0-0``,  ``0.54.0-1``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.1-0``,  ``0.40.1-0``,  ``0.38.1-1``,  ``0.34.1-2``,  ``0.34.1-1``,  ``0.34.1-0``,  ``0.33.2-0``,  ``0.29.1-0``,  ``0.23.0-1``,  ``0.23.0-0``
+      ``0.75.9-0``,  ``0.75.3-0``,  ``0.74.11-0``,  ``0.74.10-0``,  ``0.74.9-0``,  ``0.74.8-0``,  ``0.74.7-0``,  ``0.74.6-0``,  ``0.74.5-0``,  ``0.74.4-1``,  ``0.74.4-0``,  ``0.74.3-0``,  ``0.74.2-0``,  ``0.74.1-0``,  ``0.74.0-0``,  ``0.73.0-0``,  ``0.72.0-0``,  ``0.70.0-1``,  ``0.70.0-0``,  ``0.62.1-2``,  ``0.62.1-1``,  ``0.62.1-0``,  ``0.61.0-0``,  ``0.60.0-0``,  ``0.59.0-0``,  ``0.57.1-1``,  ``0.57.1-0``,  ``0.57.0-0``,  ``0.56.0-0``,  ``0.55.0-1``,  ``0.55.0-0``,  ``0.54.0-1``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.1-0``,  ``0.40.1-0``,  ``0.38.1-1``,  ``0.34.1-2``,  ``0.34.1-1``,  ``0.34.1-0``,  ``0.33.2-0``,  ``0.29.1-0``,  ``0.23.0-1``,  ``0.23.0-0``
 
       
       .. raw:: html
@@ -47,17 +50,17 @@ planemo
    :depends cwltool: ``>=1.0.20191225192155``
    :depends docutils: 
    :depends ephemeris: ``>=0.10.3``
-   :depends galaxy-containers: ``<22.5``
-   :depends galaxy-tool-util: ``>=21.1.1,<22.5``
-   :depends galaxy-util: ``>=20.5.0,<22.5``
+   :depends galaxy-containers: 
+   :depends galaxy-tool-util: ``>=23.0,<23.1``
+   :depends galaxy-util: ``>=23.0,<23.1``
    :depends glob2: 
-   :depends gxformat2: ``>=0.12.0``
+   :depends gxformat2: ``>=0.14.0``
    :depends h5py: 
    :depends jinja2: 
    :depends lxml: 
    :depends oyaml: 
-   :depends pyaml: 
-   :depends python: ``>=3.6``
+   :depends pathvalidate: 
+   :depends python: ``>=3.7``
    :depends pyyaml: 
    :depends six: ``>=1.7.0``
    :depends tabulate: 
@@ -93,7 +96,7 @@ planemo
 
     <script>
         var package = "planemo";
-        var versions = ["0.75.3","0.74.11","0.74.10","0.74.9","0.74.8"];
+        var versions = ["0.75.9","0.75.3","0.74.11","0.74.10","0.74.9"];
     </script>
 
 

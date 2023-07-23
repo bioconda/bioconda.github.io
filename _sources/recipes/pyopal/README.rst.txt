@@ -29,7 +29,7 @@ pyopal
       
       
 
-      ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -71,7 +71,7 @@ pyopal
 
     <script>
         var package = "pyopal";
-        var versions = ["0.3.0"];
+        var versions = ["0.4.0","0.3.0"];
     </script>
 
 

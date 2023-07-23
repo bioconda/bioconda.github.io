@@ -12,12 +12,13 @@ oakvar
 
    OakVar \- Genomic Variant Analysis Platform
 
-   :homepage: http://www.oakvar.com
-   :documentation: https://docs.oakvar.com
+   :homepage: https://github.com/rkimoakbioinformatics/oakvar
+   :documentation: https://rkimoakbioinformatics.github.io/oakvar/
    
-   :developer docs: https://docs.oakvar.com
-   :license: GPL / AGPL v3
+   :developer docs: https://pypi.org/project/oakvar/
+   :license: GPL / AGPL-3.0-or-later
    :recipe: /`oakvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oakvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oakvar/meta.yaml>`_
+   :links: biotools: :biotools:`oakvar`
 
    
 
@@ -31,10 +32,10 @@ oakvar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.3-0</code>,  <code>2.9.2-0</code>,  <code>2.9.1-0</code>,  <code>2.8.40-0</code>,  <code>2.8.38-0</code>,  <code>2.8.37-0</code>,  <code>2.8.36-0</code>,  <code>2.8.35-0</code>,  <code>2.8.28-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.34-0</code>,  <code>2.9.3-0</code>,  <code>2.9.2-0</code>,  <code>2.9.1-0</code>,  <code>2.8.40-0</code>,  <code>2.8.38-0</code>,  <code>2.8.37-0</code>,  <code>2.8.36-0</code>,  <code>2.8.35-0</code>,  </span></summary>
       
 
-      ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.40-0``,  ``2.8.38-0``,  ``2.8.37-0``,  ``2.8.36-0``,  ``2.8.35-0``,  ``2.8.28-0``,  ``2.7.40-0``
+      ``2.9.34-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.40-0``,  ``2.8.38-0``,  ``2.8.37-0``,  ``2.8.36-0``,  ``2.8.35-0``,  ``2.8.28-0``,  ``2.7.40-0``
 
       
       .. raw:: html
@@ -46,13 +47,16 @@ oakvar
    :depends aiohttp: 
    :depends aiohttp-cors: 
    :depends aiosqlite: 
-   :depends chardet: 
+   :depends chardet: ``>=3.0.4``
    :depends connectorx: 
    :depends download: 
+   :depends duckdb: 
    :depends gdown: 
    :depends intervaltree: 
+   :depends liftover: 
    :depends markdown: 
    :depends mpmath: 
+   :depends multiprocess: 
    :depends nest-asyncio: 
    :depends oyaml: 
    :depends packaging: 
@@ -61,13 +65,12 @@ oakvar
    :depends psutil: 
    :depends pyarrow: 
    :depends pyjwt: 
-   :depends pyliftover: 
-   :depends python: 
+   :depends python: ``>=3.8``
    :depends python-dateutil: 
-   :depends python-duckdb: 
    :depends requests: 
    :depends requests-toolbelt: 
    :depends rich: 
+   :depends split-file-reader: 
    :depends twobitreader: 
    :requirements:
 
@@ -100,7 +103,7 @@ oakvar
 
     <script>
         var package = "oakvar";
-        var versions = ["2.9.3","2.9.2","2.9.1","2.8.40","2.8.38"];
+        var versions = ["2.9.34","2.9.3","2.9.2","2.9.1","2.8.40"];
     </script>
 
 

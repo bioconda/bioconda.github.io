@@ -16,7 +16,7 @@ open-cravat
    :documentation: https://github.com/KarchinLab/open-cravat/wiki
    
    :developer docs: https://github.com/KarchinLab/open-cravat
-   :license: GPL / GPL v3
+   :license: MIT / MIT
    :recipe: /`open-cravat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/open-cravat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/open-cravat/meta.yaml>`_
 
    
@@ -31,10 +31,10 @@ open-cravat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.9-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.9-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.3-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
+      ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ open-cravat
 
     <script>
         var package = "open-cravat";
-        var versions = ["2.4.0","2.3.1","2.3.0","2.2.9","2.2.7"];
+        var versions = ["2.4.1","2.4.0","2.3.1","2.3.0","2.2.9"];
     </script>
 
 

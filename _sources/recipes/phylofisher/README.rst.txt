@@ -28,10 +28,10 @@ phylofisher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.10-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  </span></summary>
       
 
-      ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``
+      ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ phylofisher
    
    :depends astral-tree: ``5.7.8.*``
    :depends biopython: 
-   :depends blast: ``2.9.0.*``
+   :depends blast: 
    :depends cd-hit: ``4.8.1.*``
    :depends diamond: ``2.0.15.*``
    :depends dist_est: ``1.1.*``
@@ -87,7 +87,7 @@ phylofisher
 
     <script>
         var package = "phylofisher";
-        var versions = ["1.2.9","1.2.8","1.2.7","1.2.7","1.2.6"];
+        var versions = ["1.2.10","1.2.9","1.2.8","1.2.7","1.2.7"];
     </script>
 
 
