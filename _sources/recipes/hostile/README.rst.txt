@@ -13,7 +13,7 @@ hostile
    Hostile\: accurate host decontamination
 
    :homepage: https://github.com/bede/hostile
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`hostile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hostile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hostile/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.07.04.547735`
 
@@ -28,11 +28,12 @@ hostile
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
+   :depends bedtools: ``>=2.31.0``
    :depends bowtie2: ``>=2.5.1``
    :depends defopt: ``>=6.4.0``
    :depends gawk: ``>=5.1.0``
@@ -73,7 +74,7 @@ hostile
 
     <script>
         var package = "hostile";
-        var versions = ["0.0.3","0.0.2"];
+        var versions = ["0.1.0","0.0.3","0.0.2"];
     </script>
 
 
