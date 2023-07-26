@@ -27,7 +27,7 @@ flams
       
       
 
-      ``0.0.6-0``
+      ``0.0.8-0``,  ``0.0.6-0``
 
       
 
@@ -73,7 +73,7 @@ flams
 
     <script>
         var package = "flams";
-        var versions = ["0.0.6"];
+        var versions = ["0.0.8","0.0.6"];
     </script>
 
 

@@ -13,7 +13,7 @@ metaxa
    Improved Identification and Taxonomic Classification of Small and Large Subunit rRNA in Metagenomic Data.
 
    :homepage: http://microbiology.se/software/metaxa2/
-   :license: GPL3
+   :license: GPL / GPL-3.0
    :recipe: /`metaxa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaxa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaxa/meta.yaml>`_
    :links: biotools: :biotools:`metaxa`, doi: :doi:`10.1111/1755-0998.12399`, doi: :doi:`10.1093/bioinformatics/bty482`
 
@@ -28,12 +28,12 @@ metaxa
       
       
 
-      ``2.2.3-1``,  ``2.2.3-0``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.2.3-2``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
-   :depends blast: ``2.2.*``
+   :depends blast-legacy: ``2.2.*``
    :depends hmmer: ``3.1.*``
    :depends mafft: ``7.*``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
@@ -69,7 +69,7 @@ metaxa
 
     <script>
         var package = "metaxa";
-        var versions = ["2.2.3","2.2.3","2.2","2.2","2.2"];
+        var versions = ["2.2.3","2.2.3","2.2.3","2.2","2.2"];
     </script>
 
 
