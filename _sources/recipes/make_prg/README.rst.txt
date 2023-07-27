@@ -27,7 +27,7 @@ make_prg
       
       
 
-      ``0.4.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -35,9 +35,9 @@ make_prg
    :depends biopython: ``1.79``
    :depends intervaltree: ``>=3.1.0,<4.0.0``
    :depends loguru: ``>=0.6.0,<0.7.0``
-   :depends numpy: ``>=1.21.4,<2.0.0``
+   :depends numpy: ``>=1.24.4,<2.0.0``
    :depends python: ``>=3.8,<=3.11``
-   :depends scikit-learn: ``0.24.2``
+   :depends scikit-learn: ``>=1.3.0,<1.4.0``
    :depends setuptools: ``>=65,<66``
    :requirements:
 
@@ -70,7 +70,7 @@ make_prg
 
     <script>
         var package = "make_prg";
-        var versions = ["0.4.0","0.1.1","0.1.0"];
+        var versions = ["0.5.0","0.4.0","0.1.1","0.1.0"];
     </script>
 
 

@@ -49,7 +49,7 @@ biobb_godmd
       
       
 
-      ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
 
@@ -57,7 +57,7 @@ biobb_godmd
    :depends biobb_common: ``4.0.0``
    :depends emboss: 
    :depends godmd: ``1.0.0``
-   :depends python: ``>=3.7,<=3.10``
+   :depends python: ``>=3.7,<3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ biobb_godmd
 
     <script>
         var package = "biobb_godmd";
-        var versions = ["4.0.0","4.0.0","3.8.1","3.8.0"];
+        var versions = ["4.0.1","4.0.0","4.0.0","3.8.1","3.8.0"];
     </script>
 
 
