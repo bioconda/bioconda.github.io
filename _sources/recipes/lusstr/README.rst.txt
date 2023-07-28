@@ -13,7 +13,7 @@ lusstr
    Tool for converting NGS sequence data of forensic STR loci to various annotation styles
 
    :homepage: https://www.github.com/bioforensics/lusSTR
-   :license: BSD / BSD license
+   :license: BSD / BSD-3-Clause
    :recipe: /`lusstr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lusstr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lusstr/meta.yaml>`_
 
    
@@ -27,14 +27,16 @@ lusstr
       
       
 
-      ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.6.4-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
 
    
-   :depends openpyxl: 
-   :depends pandas: ``>=1``
+   :depends openpyxl: ``>=3.0.6``
+   :depends pandas: ``>=1.0,<2.0``
    :depends python: ``>=3``
+   :depends pyyaml: ``>=6.0``
+   :depends snakemake: ``>=7.22.0``
    :depends xlrd: ``>=1.0,<2.0``
    :requirements:
 
@@ -67,7 +69,7 @@ lusstr
 
     <script>
         var package = "lusstr";
-        var versions = ["0.5","0.4","0.3","0.2.1","0.1.1"];
+        var versions = ["0.6.4","0.5","0.4","0.3","0.2.1"];
     </script>
 
 

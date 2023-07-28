@@ -10,11 +10,13 @@ mob_suite
    :replaces_section_title:
    :noindex:
 
-   This package MOB\-suite\: software tools for clustering\, reconstruction and typing of plasmids from draft assemblies. The MOB\-suite is designed to be a modular set of tools for the typing and reconstruction of plasmid sequences from WGS assemblies.
+   MOB\-suite is a set of tools for finding\, typing and reconstruction of plasmids from draft and complete genome assemblies.
 
-   :homepage: https://github.com/phac-nml/mob-suite
+   :homepage: https://pypi.org/project/mob-suite/
+   :developer docs: https://github.com/phac-nml/mob-suite
    :license: Apache-2.0
    :recipe: /`mob_suite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mob_suite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mob_suite/meta.yaml>`_
+   :links: biotools: :biotools:`mob-suite`, usegalaxy-eu: :usegalaxy-eu:`mob_recon`, usegalaxy-eu: :usegalaxy-eu:`mob_typer`, doi: :doi:`10.1099/mgen.0.000206`, doi: :doi:`10.1099/mgen.0.000435`
 
    
 
@@ -28,10 +30,10 @@ mob_suite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.4-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-2</code>,  <code>3.0.0-1</code>,  </span></summary>
       
 
-      ``3.1.4-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.9.1-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.6-1``,  ``1.4.5-1``,  ``1.4.1-0``
+      ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.9.1-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.6-1``,  ``1.4.5-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -40,16 +42,17 @@ mob_suite
       
 
    
-   :depends biopython: ``>=1.70,<2``
-   :depends blast: ``>=2.9.0,<3``
-   :depends ete3: ``>=3.0,<4``
-   :depends mash: ``>=2.0,<3``
+   :depends biopython: 
+   :depends blast: ``>=2.9.0``
+   :depends ete3: 
+   :depends mash: ``>=2.0``
    :depends numpy: ``>=1.11.1,<1.23.5``
    :depends pandas: ``>=0.22.0,<=1.0.5``
-   :depends pycurl: ``>=7.43,<8``
-   :depends pytables: ``>=3.3,<4``
-   :depends python: ``>=3.7,<4``
-   :depends scipy: ``>=1.1,<2``
+   :depends pycurl: 
+   :depends pytables: 
+   :depends python: ``>=3.7``
+   :depends scipy: 
+   :depends six: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +84,7 @@ mob_suite
 
     <script>
         var package = "mob_suite";
-        var versions = ["3.1.4","3.1.2","3.1.0","3.0.3","3.0.2"];
+        var versions = ["3.1.5","3.1.4","3.1.2","3.1.0","3.0.3"];
     </script>
 
 
