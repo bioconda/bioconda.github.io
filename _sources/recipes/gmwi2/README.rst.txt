@@ -17,10 +17,11 @@ gmwi2
    :recipe: /`gmwi2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmwi2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmwi2/meta.yaml>`_
 
    GMWI2 \(Gut Microbiome Wellness Index 2\) is a robust and biologically interpretable predictor of health status based on gut microbiome taxonomic profiles. 
-   On a stool metagenome sample\, this command\-line tool performs three major steps\:
-   \(1\) Taxonomic profiling using MetaPhlAn3 \(v3.0.13\) with the mpa\\\_v30\\\_CHOCOPhlAn\_201901 marker database\;
-   \(2\) Transformation of taxonomic relative abundances into a binary presence\/absence profile\;
-   \(3\) Computation of the GMWI2 score using a Lasso\-penalized logistic regression model trained on a meta\-dataset of 8\,069 health status labeled stool shotgun metagenomes.
+   On a stool metagenome sample\, this command\-line tool performs four major steps\:
+   \(1\) Quality control\;
+   \(2\) Taxonomic profiling using MetaPhlAn3 \(v3.0.13\) with the mpa\\\_v30\\\_CHOCOPhlAn\_201901 marker database\;
+   \(3\) Transformation of taxonomic relative abundances into a binary presence\/absence profile\;
+   \(4\) Computation of the GMWI2 score using a Lasso\-penalized logistic regression model trained on a meta\-dataset of 8\,069 health status labeled stool shotgun metagenomes.
 
 
 .. conda:package:: gmwi2

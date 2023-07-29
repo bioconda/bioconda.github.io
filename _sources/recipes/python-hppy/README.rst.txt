@@ -12,7 +12,7 @@ python-hppy
 
    An intuitive HyPhy interface for Python
 
-   :homepage: https://github.com/veg/hppy
+   :homepage: http://github.com/veg/hppy
    :license: GPL-3
    :recipe: /`python-hppy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hppy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hppy/meta.yaml>`_
 
@@ -27,15 +27,15 @@ python-hppy
       
       
 
-      ``0.9.8-6``,  ``0.9.8-5``,  ``0.9.8-4``,  ``0.9.8-3``,  ``0.9.8-2``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.6-0``
+      ``0.9.9-0``,  ``0.9.8-6``,  ``0.9.8-5``,  ``0.9.8-4``,  ``0.9.8-3``,  ``0.9.8-2``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.6-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-fakemp: 
-   :depends python-hyphy-python: 
+   :depends python-fakemp: ``>=0.9.1``
+   :depends python-hyphy-python: ``>=0.1.8``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
@@ -68,7 +68,7 @@ python-hppy
 
     <script>
         var package = "python-hppy";
-        var versions = ["0.9.8","0.9.8","0.9.8","0.9.8","0.9.8"];
+        var versions = ["0.9.9","0.9.8","0.9.8","0.9.8","0.9.8"];
     </script>
 
 

@@ -10,10 +10,13 @@ pxblat
    :replaces_section_title:
    :noindex:
 
-   PxBLAT An Efficient and Ergonomics Python Binding Library for BLAT.
+   PxBLAT\: An Efficient and Ergonomics Python Binding Library for BLAT.
 
    :homepage: https://github.com/cauliyang/pxblat
-   :license: MIT
+   :documentation: https://pxblat.readthedocs.io/en/latest/
+   
+   :developer docs: https://pypi.org/project/pxblat/
+   :license: MIT / MIT
    :recipe: /`pxblat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat/meta.yaml>`_
 
    

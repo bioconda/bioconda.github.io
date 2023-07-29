@@ -26,16 +26,24 @@ python-hivclustering
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.5-0``,  ``1.5.6-0``,  ``1.5.3-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.6.7-0</code>,  <code>1.6.5-0</code>,  <code>1.5.6-0</code>,  <code>1.5.3-0</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+      
 
+      ``1.6.7-0``,  ``1.6.5-0``,  ``1.5.6-0``,  ``1.5.3-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends python: ``>=3``
-   :depends python-bioext: ``>=0.18.0``
-   :depends python-hppy: ``>=0.9.6``
-   :depends python-hyphy-python: ``>=0.1.6``
+   :depends python-bioext: ``>=0.19.0``
+   :depends python-hppy: ``>=0.9.9``
+   :depends python-hyphy-python: ``>=0.1.11``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +75,7 @@ python-hivclustering
 
     <script>
         var package = "python-hivclustering";
-        var versions = ["1.6.5","1.5.6","1.5.3","1.4.0","1.3.2"];
+        var versions = ["1.6.7","1.6.5","1.5.6","1.5.3","1.4.0"];
     </script>
 
 
