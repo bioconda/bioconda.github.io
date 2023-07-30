@@ -12,7 +12,6 @@ annonars
 
    Genome annotation based on Rust and RocksDB.
 
-
    :homepage: https://github.com/bihealth/annonars
    :license: Apache-2.0
    :recipe: /`annonars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annonars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annonars/meta.yaml>`_
