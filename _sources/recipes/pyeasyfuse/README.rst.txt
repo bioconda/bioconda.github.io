@@ -1,0 +1,92 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'pyeasyfuse'
+.. highlight: bash
+
+pyeasyfuse
+==========
+
+.. conda:recipe:: pyeasyfuse
+   :replaces_section_title:
+   :noindex:
+
+   EasyFuse is a pipeline to detect fusion transcripts from RNA\-seq data with high accuracy. The current version of EasyFuse uses two fusion gene detection tools\, STAR\-Fusion and Fusioncatcher along with a powerful read filtering strategy\, stringent re\-quantification of supporting reads and machine learning for highly accurate predictions.
+
+   :homepage: https://github.com/TRON-bioinformatics/easyfuse-src
+   :documentation: https://github.com/TRON-Bioinformatics/EasyFuse
+   
+   :developer docs: https://pypi.org/project/pyeasyfuse/
+   :license: GPL / GPL-3.0-only
+   :recipe: /`pyeasyfuse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyeasyfuse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyeasyfuse/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41587-022-01247-9`
+
+   
+
+
+.. conda:package:: pyeasyfuse
+
+   |downloads_pyeasyfuse| |docker_pyeasyfuse|
+
+   :versions:
+      
+      
+
+      
+
+      
+
+   
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyeasyfuse
+
+   and update with::
+
+      conda update pyeasyfuse
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/pyeasyfuse:<tag>
+
+   (see `pyeasyfuse/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pyeasyfuse| image:: https://img.shields.io/conda/dn/bioconda/pyeasyfuse.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyeasyfuse
+   :alt:   (downloads)
+.. |docker_pyeasyfuse| image:: https://quay.io/repository/biocontainers/pyeasyfuse/status
+   :target: https://quay.io/repository/biocontainers/pyeasyfuse
+.. _`pyeasyfuse/tags`: https://quay.io/repository/biocontainers/pyeasyfuse?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "pyeasyfuse";
+        var versions = [];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyeasyfuse/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyeasyfuse/README.html

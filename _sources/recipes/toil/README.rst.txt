@@ -12,8 +12,11 @@ toil
 
    A scalable\, efficient\, cross\-platform and easy\-to\-use workflow engine in pure Python
 
-   :homepage: https://github.com/BD2KGenomics/toil
-   :license: Apache 2.0
+   :homepage: http://toil.ucsc-cgl.org/
+   :documentation: https://toil.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/DataBiosphere/toil
+   :license: Apache-2.0
    :recipe: /`toil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toil/meta.yaml>`_
 
    
