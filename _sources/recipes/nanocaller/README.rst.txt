@@ -28,10 +28,10 @@ nanocaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  </span></summary>
       
 
-      ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -84,7 +84,7 @@ nanocaller
 
     <script>
         var package = "nanocaller";
-        var versions = ["3.3.0","3.2.0","3.2.0","3.1.0","3.0.1"];
+        var versions = ["3.4.0","3.3.0","3.2.0","3.2.0","3.1.0"];
     </script>
 
 

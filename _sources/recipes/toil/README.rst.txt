@@ -31,10 +31,10 @@ toil
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.11.0-0</code>,  <code>5.9.2-0</code>,  <code>5.7.1-0</code>,  <code>5.6.0-0</code>,  <code>5.5.0-1</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.12.0-0</code>,  <code>5.11.0-0</code>,  <code>5.9.2-0</code>,  <code>5.7.1-0</code>,  <code>5.6.0-0</code>,  <code>5.5.0-1</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  </span></summary>
       
 
-      ``5.11.0-0``,  ``5.9.2-0``,  ``5.7.1-0``,  ``5.6.0-0``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.21.0-0``,  ``3.20.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0a1-0``,  ``3.11.0-1``,  ``3.11.0-0``,  ``3.11.0a1-1``,  ``3.11.0a1-0``,  ``3.10.0-0``,  ``3.10.0a1-1``,  ``3.10.0a1-0``,  ``3.9.0a1-0``,  ``3.8.0a1-1``,  ``3.8.0a1-0``,  ``3.7.0a-1``,  ``3.7.0a-0``,  ``3.6.0-0``,  ``3.5.0a1-3``,  ``3.5.0a1-2``,  ``3.5.0a1-1``,  ``3.5.0a1-0``,  ``3.4.0a1-3``,  ``3.4.0a1-2``,  ``3.4.0a1-1``,  ``3.4.0a1-0``,  ``3.3.0a1-0``,  ``3.2.0a2-2``,  ``3.2.0a2-0``
+      ``5.12.0-0``,  ``5.11.0-0``,  ``5.9.2-0``,  ``5.7.1-0``,  ``5.6.0-0``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.21.0-0``,  ``3.20.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0a1-0``,  ``3.11.0-1``,  ``3.11.0-0``,  ``3.11.0a1-1``,  ``3.11.0a1-0``,  ``3.10.0-0``,  ``3.10.0a1-1``,  ``3.10.0a1-0``,  ``3.9.0a1-0``,  ``3.8.0a1-1``,  ``3.8.0a1-0``,  ``3.7.0a-1``,  ``3.7.0a-0``,  ``3.6.0-0``,  ``3.5.0a1-3``,  ``3.5.0a1-2``,  ``3.5.0a1-1``,  ``3.5.0a1-0``,  ``3.4.0a1-3``,  ``3.4.0a1-2``,  ``3.4.0a1-1``,  ``3.4.0a1-0``,  ``3.3.0a1-0``,  ``3.2.0a2-2``,  ``3.2.0a2-0``
 
       
       .. raw:: html
@@ -43,28 +43,31 @@ toil
       
 
    
-   :depends addict: ``>=2.2.1,<2.5``
-   :depends apache-libcloud: ``>=2.2.1,<3``
-   :depends cwltool: ``3.1.20230425144158``
-   :depends dill: ``>=0.3.2,<0.4``
+   :depends addict: ``>=2.2.1``
+   :depends apache-libcloud: ``>=2.2.1``
+   :depends cwltool: ``3.1.20230601100705``
+   :depends dill: ``>=0.3.2``
    :depends docker-py: ``>=3.7.2,<6``
+   :depends enlighten: ``>=1.5.2``
    :depends galaxy-tool-util: 
    :depends google-cloud-storage: ``>=2,<=2.8.0``
    :depends idna: ``>=2``
+   :depends mock: ``>=4.0.3``
    :depends networkx: ``>=2,<2.8.9``
-   :depends psutil: ``>=3.0.1,<6``
-   :depends pynacl: ``>=1.4.0,<2``
-   :depends pypubsub: ``>=4.0.3,<5``
+   :depends psutil: ``>=3.0.1``
+   :depends pynacl: ``>=1.4.0``
+   :depends pypubsub: ``>=4.0.3``
    :depends python: ``>=3.7``
    :depends python-dateutil: 
-   :depends python-htcondor: ``>=10.2.0.post1,<11``
+   :depends python-htcondor: ``>=10.2.0.post1``
    :depends python-kubernetes: ``>=12.0.1,<22``
    :depends pytz: ``>=2012``
-   :depends requests: ``>=2,<3``
+   :depends requests: ``>=2``
    :depends ruamel.yaml: ``>=0.15,<=0.17.21``
    :depends ruamel.yaml.clib: ``>=0.2.6``
-   :depends schema-salad: ``>=8.4.20230128170514,<9``
-   :depends urllib3: ``>=1.26.0,<2.0.0``
+   :depends schema-salad: ``>=8.4.20230128170514``
+   :depends typing-extensions: 
+   :depends urllib3: ``>=1.26.0``
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +99,7 @@ toil
 
     <script>
         var package = "toil";
-        var versions = ["5.11.0","5.9.2","5.7.1","5.6.0","5.5.0"];
+        var versions = ["5.12.0","5.11.0","5.9.2","5.7.1","5.6.0"];
     </script>
 
 

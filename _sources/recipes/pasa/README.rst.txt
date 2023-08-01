@@ -29,20 +29,28 @@ pasa
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.5.3-0</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  </span></summary>
+      
 
+      ``2.5.3-0``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends cdbtools: 
-   :depends fasta3: 
-   :depends gmap: ``>=2023.03.24``
+   :depends fasta3: ``>=36.3.8i``
+   :depends gmap: ``>=2021.08.25``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends lighttpd: 
-   :depends minimap2: 
-   :depends pblat: 
+   :depends minimap2: ``>=2.22``
+   :depends pblat: ``>=2.5``
    :depends perl: 
    :depends perl-cgi: 
    :depends perl-db_file: 
@@ -51,7 +59,7 @@ pasa
    :depends r-base: 
    :depends samtools: 
    :depends slclust: 
-   :depends transdecoder: ``>=5.7.0``
+   :depends transdecoder: 
    :depends ucsc-blat: 
    :requirements:
 
@@ -84,7 +92,7 @@ pasa
 
     <script>
         var package = "pasa";
-        var versions = ["2.5.2","2.5.2","2.5.2","2.5.2","2.4.1"];
+        var versions = ["2.5.3","2.5.2","2.5.2","2.5.2","2.5.2"];
     </script>
 
 

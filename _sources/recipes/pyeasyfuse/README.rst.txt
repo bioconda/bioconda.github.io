@@ -31,11 +31,31 @@ pyeasyfuse
       
       
 
-      
+      ``2.0.3-0``
 
       
 
    
+   :depends biopython: ``1.73.*``
+   :depends bx-python: ``0.8.*``
+   :depends gffutils: ``0.10.*``
+   :depends importlib-metadata: 
+   :depends logzero: ``1.7.*``
+   :depends numpy: ``1.21.*``
+   :depends pandas: ``>=1.0.0``
+   :depends pysam: ``>=0.15.3``
+   :depends python: ``>=3.7,<3.8``
+   :depends python-xxhash: ``1.4.*``
+   :depends pytz: ``2022.7.*``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-dplyr: 
+   :depends r-optparse: 
+   :depends r-randomforest: 
+   :depends r-readr: 
+   :depends r-stringr: 
+   :depends r-tidyr: 
+   :depends r-tidyselect: 
+   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +87,7 @@ pyeasyfuse
 
     <script>
         var package = "pyeasyfuse";
-        var versions = [];
+        var versions = ["2.0.3"];
     </script>
 
 

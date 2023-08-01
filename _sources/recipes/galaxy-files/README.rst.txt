@@ -31,7 +31,7 @@ galaxy-files
       
       
 
-      ``23.0.4-0``
+      ``23.0.5-0``,  ``23.0.4-0``
 
       
 
@@ -71,7 +71,7 @@ galaxy-files
 
     <script>
         var package = "galaxy-files";
-        var versions = ["23.0.4"];
+        var versions = ["23.0.5","23.0.4"];
     </script>
 
 

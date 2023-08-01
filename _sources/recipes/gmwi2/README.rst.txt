@@ -32,16 +32,21 @@ gmwi2
       
       
 
-      ``1.4-0``,  ``1.3-0``
+      ``1.5-0``,  ``1.4-0``,  ``1.3-0``
 
       
 
    
+   :depends bbmap: 
+   :depends bedtools: 
+   :depends fastqc: 
    :depends halo: 
    :depends metaphlan: ``3.0.13.*``
    :depends pandas: 
    :depends python: ``>=3.7``
+   :depends samtools: 
    :depends scikit-learn: ``1.2.2.*``
+   :depends trimmomatic: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +78,7 @@ gmwi2
 
     <script>
         var package = "gmwi2";
-        var versions = ["1.4","1.3"];
+        var versions = ["1.5","1.4","1.3"];
     </script>
 
 

@@ -27,11 +27,17 @@ ribotin
       
       
 
-      
+      ``1.0-0``
 
       
 
    
+   :depends graphaligner: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends liftoff: 
+   :depends mbg: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +69,7 @@ ribotin
 
     <script>
         var package = "ribotin";
-        var versions = [];
+        var versions = ["1.0"];
     </script>
 
 

@@ -30,13 +30,14 @@ pxblat
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
    :depends biopython: 
    :depends deprecated: 
+   :depends gevent: 
    :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -46,10 +47,11 @@ pxblat
    :depends numpy: ``>=1.24.3``
    :depends openssl: ``>=3.1.1,<4.0a0``
    :depends pysimdjson: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends rich: 
    :depends typer: 
+   :depends urllib3: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +83,7 @@ pxblat
 
     <script>
         var package = "pxblat";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

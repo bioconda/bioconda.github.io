@@ -31,10 +31,10 @@ rgt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.3-3</code>,  <code>0.12.3-2</code>,  <code>0.12.3-1</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.11.4-2</code>,  <code>0.11.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.3-3</code>,  <code>0.12.3-2</code>,  <code>0.12.3-1</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.11.4-2</code>,  </span></summary>
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.3-3``,  ``0.12.3-2``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.3-3``,  ``0.12.3-2``,  ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ rgt
 
     <script>
         var package = "rgt";
-        var versions = ["1.0.1","1.0.0","0.12.3","0.12.3","0.12.3"];
+        var versions = ["1.0.2","1.0.1","1.0.0","0.12.3","0.12.3"];
     </script>
 
 

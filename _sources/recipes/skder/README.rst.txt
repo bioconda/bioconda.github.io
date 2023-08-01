@@ -27,11 +27,20 @@ skder
       
       
 
-      
+      ``1.0-0``
 
       
 
    
+   :depends biopython: ``1.79.*``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends ncbi-genome-download: 
+   :depends pyfastx: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends setuptools: 
+   :depends skani: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +72,7 @@ skder
 
     <script>
         var package = "skder";
-        var versions = [];
+        var versions = ["1.0"];
     </script>
 
 
