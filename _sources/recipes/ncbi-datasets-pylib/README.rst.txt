@@ -31,10 +31,10 @@ ncbi-datasets-pylib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>14.27.0-0</code>,  <code>14.26.0-0</code>,  <code>14.25.1-0</code>,  <code>14.23.0-0</code>,  <code>14.22.1-0</code>,  <code>14.22.0-0</code>,  <code>14.21.0-0</code>,  <code>14.20.0-0</code>,  <code>14.19.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>15.12.0-0</code>,  <code>15.11.0-0</code>,  <code>14.27.0-0</code>,  <code>14.26.0-0</code>,  <code>14.25.1-0</code>,  <code>14.23.0-0</code>,  <code>14.22.1-0</code>,  <code>14.22.0-0</code>,  <code>14.21.0-0</code>,  </span></summary>
       
 
-      ``14.27.0-0``,  ``14.26.0-0``,  ``14.25.1-0``,  ``14.23.0-0``,  ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
+      ``15.12.0-0``,  ``15.11.0-0``,  ``14.27.0-0``,  ``14.26.0-0``,  ``14.25.1-0``,  ``14.23.0-0``,  ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
 
       
       .. raw:: html
@@ -49,7 +49,6 @@ ncbi-datasets-pylib
    :depends protobuf: ``3.20.*``
    :depends python: ``>=3.8``
    :depends python-dateutil: ``2.8.*``
-   :depends setuptools: ``>=21.0.0``
    :depends urllib3: ``1.26.*``
    :requirements:
 
@@ -82,7 +81,7 @@ ncbi-datasets-pylib
 
     <script>
         var package = "ncbi-datasets-pylib";
-        var versions = ["14.27.0","14.26.0","14.25.1","14.23.0","14.22.1"];
+        var versions = ["15.12.0","15.11.0","14.27.0","14.26.0","14.25.1"];
     </script>
 
 

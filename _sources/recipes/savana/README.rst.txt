@@ -27,14 +27,17 @@ savana
       
       
 
-      ``0.2.3-0``,  ``0.2.1-0``
+      ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.1-0``
 
       
 
    
+   :depends cyvcf2: ``>=0.30.16``
+   :depends pandas: ``>=2.0.0``
    :depends pybedtools: ``>=0.9.0``
-   :depends pysam: ``>=0.16.0``
+   :depends pysam: ``>=0.20.0``
    :depends python: ``>=3.9``
+   :depends scikit-learn: ``>=1.2.2``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +69,7 @@ savana
 
     <script>
         var package = "savana";
-        var versions = ["0.2.3","0.2.1"];
+        var versions = ["1.0.0","0.2.3","0.2.1"];
     </script>
 
 
