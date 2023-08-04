@@ -27,7 +27,7 @@ panoptes-ui
       
       
 
-      ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.0-0``
 
       
 
@@ -70,7 +70,7 @@ panoptes-ui
 
     <script>
         var package = "panoptes-ui";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.2","0.2.0"];
     </script>
 
 
