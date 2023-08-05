@@ -26,9 +26,17 @@ perl-module-scandeps
    :versions:
       
       
+      .. raw:: html
 
-      ``1.32-0``,  ``1.31-0``,  ``1.27-1``,  ``1.27-0``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.23-1``,  ``1.23-0``
+         <details><summary><span class="truncated-version-list"><code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.31-0</code>,  <code>1.27-1</code>,  <code>1.27-0</code>,  <code>1.26-1</code>,  <code>1.26-0</code>,  <code>1.25-0</code>,  <code>1.23-1</code>,  </span></summary>
+      
 
+      ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.27-1``,  ``1.27-0``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.23-1``,  ``1.23-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -69,7 +77,7 @@ perl-module-scandeps
 
     <script>
         var package = "perl-module-scandeps";
-        var versions = ["1.32","1.31","1.27","1.27","1.26"];
+        var versions = ["1.33","1.32","1.31","1.27","1.27"];
     </script>
 
 
