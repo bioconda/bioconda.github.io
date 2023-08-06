@@ -12,8 +12,9 @@ easypqp
 
    EasyPQP\: Simple library generation for OpenSWATH
 
-   :homepage: https://github.com/grosenberger/easypqp
-   :license: BSD / BSD License
+   :homepage: https://pypi.org/project/easypqp/
+   :developer docs: https://github.com/grosenberger/easypqp
+   :license: BSD / BSD-3-Clause
    :recipe: /`easypqp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/easypqp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/easypqp/meta.yaml>`_
 
    EasyPQP\: Simple library generation for OpenSWATH
@@ -72,10 +73,10 @@ easypqp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.37-0</code>,  <code>0.1.36-0</code>,  <code>0.1.35-0</code>,  <code>0.1.34-0</code>,  <code>0.1.33-0</code>,  <code>0.1.32-0</code>,  <code>0.1.30-0</code>,  <code>0.1.29-0</code>,  <code>0.1.28-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.39-0</code>,  <code>0.1.37-0</code>,  <code>0.1.36-0</code>,  <code>0.1.35-0</code>,  <code>0.1.34-0</code>,  <code>0.1.33-0</code>,  <code>0.1.32-0</code>,  <code>0.1.30-0</code>,  <code>0.1.29-0</code>,  </span></summary>
       
 
-      ``0.1.37-0``,  ``0.1.36-0``,  ``0.1.35-0``,  ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.32-0``,  ``0.1.30-0``,  ``0.1.29-0``,  ``0.1.28-0``,  ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.0-0``
+      ``0.1.39-0``,  ``0.1.37-0``,  ``0.1.36-0``,  ``0.1.35-0``,  ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.32-0``,  ``0.1.30-0``,  ``0.1.29-0``,  ``0.1.28-0``,  ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -87,14 +88,17 @@ easypqp
    :depends biopython: 
    :depends click: 
    :depends matplotlib-base: 
+   :depends numba: 
    :depends numpy: 
    :depends pandas: 
    :depends pyopenms: 
    :depends pyprophet: 
    :depends python: ``>=3.6``
+   :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
    :depends statsmodels: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -126,7 +130,7 @@ easypqp
 
     <script>
         var package = "easypqp";
-        var versions = ["0.1.37","0.1.36","0.1.35","0.1.34","0.1.33"];
+        var versions = ["0.1.39","0.1.37","0.1.36","0.1.35","0.1.34"];
     </script>
 
 
