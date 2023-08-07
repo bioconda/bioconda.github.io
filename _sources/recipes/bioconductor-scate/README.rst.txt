@@ -27,16 +27,16 @@ bioconductor-scate
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicalignments: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-preprocesscore: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-scatedata: ``>=1.8.0,<1.9.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-scatedata: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-mclust: 
    :depends r-rtsne: 
    :depends r-splines2: 
@@ -72,7 +72,7 @@ bioconductor-scate
 
     <script>
         var package = "bioconductor-scate";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 
