@@ -27,7 +27,7 @@ dnaapler
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -71,7 +71,7 @@ dnaapler
 
     <script>
         var package = "dnaapler";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

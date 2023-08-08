@@ -10,10 +10,10 @@ igvtools
    :replaces_section_title:
    :noindex:
 
-   command line tools for IGV
+   Command line tools for IGV
 
    :homepage: http://www.broadinstitute.org/igv/
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`igvtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igvtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igvtools/meta.yaml>`_
    :links: biotools: :biotools:`IGVtools`
 
@@ -28,12 +28,12 @@ igvtools
       
       
 
-      ``2.14.1-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.3.93-0``,  ``2.3.75-1``,  ``2.3.48-1``,  ``2.3.16-0``
+      ``2.16.2-0``,  ``2.14.1-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.3.93-0``,  ``2.3.75-1``,  ``2.3.48-1``,  ``2.3.16-0``
 
       
 
    
-   :depends openjdk: 
+   :depends openjdk: ``11.*``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ igvtools
 
     <script>
         var package = "igvtools";
-        var versions = ["2.14.1","2.5.3","2.5.3","2.3.93","2.3.75"];
+        var versions = ["2.16.2","2.14.1","2.5.3","2.5.3","2.3.93"];
     </script>
 
 

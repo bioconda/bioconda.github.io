@@ -27,12 +27,13 @@ savana
       
       
 
-      ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.1-0``
+      ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.1-0``
 
       
 
    
    :depends cyvcf2: ``>=0.30.16``
+   :depends matplotlib-base: ``>=3.7.1``
    :depends pandas: ``>=2.0.0``
    :depends pybedtools: ``>=0.9.0``
    :depends pysam: ``>=0.20.0``
@@ -69,7 +70,7 @@ savana
 
     <script>
         var package = "savana";
-        var versions = ["1.0.0","0.2.3","0.2.1"];
+        var versions = ["1.0.3","1.0.0","0.2.3","0.2.1"];
     </script>
 
 
