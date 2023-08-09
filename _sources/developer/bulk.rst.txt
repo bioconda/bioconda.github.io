@@ -68,7 +68,7 @@ example is updating pinnings to support Python 3.10.
 
 3. Update ``common.sh`` (see `here
    <https://github.com/bioconda/bioconda-common/blob/master/common.sh>`_) **only on the bulk
-   branch in bioconda-commont**, to match the newly-updated bioconda-utils
+   branch in bioconda-common**, to match the newly-updated bioconda-utils
    version. Changing the pinnings will likely trigger many recipes to require
    rebuilding. Since the bioconda-recipes/bulk branch reads from the
    bioconda-common/bulk branch, this allows bulk to run a different version of

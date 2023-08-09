@@ -523,7 +523,7 @@ for an example of this.
 
 Metapackages
 ------------
-`Metapackages <http://conda.pydata.org/docs/building/meta-pkg.html>`_ tie
+`Metapackages <https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/packages.html#metapackages>`_ tie
 together other packages. All they do is define dependencies. For example, the
 `hubward-all
 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward-all>`_
