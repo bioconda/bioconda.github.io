@@ -28,14 +28,14 @@ scepia
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``
+      ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
    
    :depends adjusttext: 
    :depends geosketch: 
-   :depends gimmemotifs: ``>=0.15.2``
+   :depends gimmemotifs: ``>=0.15.2,<=0.17.1``
    :depends leidenalg: 
    :depends loguru: 
    :depends louvain: 
@@ -72,7 +72,7 @@ scepia
 
     <script>
         var package = "scepia";
-        var versions = ["0.5.1","0.5.0","0.4.0"];
+        var versions = ["0.5.1","0.5.1","0.5.0","0.4.0"];
     </script>
 
 

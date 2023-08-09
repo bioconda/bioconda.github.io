@@ -27,11 +27,16 @@ perl-minion
       
       
 
-      
+      ``10.25-0``
 
       
 
    
+   :depends perl: ``>5.32*``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-mojo-pg: 
+   :depends perl-mojolicious: 
+   :depends perl-yaml-libyaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +68,7 @@ perl-minion
 
     <script>
         var package = "perl-minion";
-        var versions = [];
+        var versions = ["10.25"];
     </script>
 
 
