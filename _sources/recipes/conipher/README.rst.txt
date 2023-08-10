@@ -28,12 +28,13 @@ conipher
       
       
 
-      ``2.1.0-0``
+      ``2.1.0-1``,  ``2.1.0-0``
 
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends pyclone: 
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-beeswarm: 
    :depends r-biocmanager: 
    :depends r-boot: 
@@ -85,7 +86,7 @@ conipher
 
     <script>
         var package = "conipher";
-        var versions = ["2.1.0"];
+        var versions = ["2.1.0","2.1.0"];
     </script>
 
 
