@@ -29,10 +29,10 @@ tb_variant_filter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  </span></summary>
       
 
-      ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
+      ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -79,7 +79,7 @@ tb_variant_filter
 
     <script>
         var package = "tb_variant_filter";
-        var versions = ["0.3.6","0.3.5","0.3.0","0.2.0","0.2.0"];
+        var versions = ["0.4.0","0.3.6","0.3.5","0.3.0","0.2.0"];
     </script>
 
 

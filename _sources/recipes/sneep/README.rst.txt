@@ -27,7 +27,7 @@ sneep
       
       
 
-      ``0.4-1``,  ``0.4-0``
+      ``0.7-0``,  ``0.4-1``,  ``0.4-0``
 
       
 
@@ -72,7 +72,7 @@ sneep
 
     <script>
         var package = "sneep";
-        var versions = ["0.4","0.4"];
+        var versions = ["0.7","0.4","0.4"];
     </script>
 
 
