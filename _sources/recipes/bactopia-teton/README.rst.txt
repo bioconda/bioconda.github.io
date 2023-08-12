@@ -29,16 +29,16 @@ bactopia-teton
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bracken: ``>=2.7``
+   :depends bracken: ``>=2.8``
    :depends coreutils: 
    :depends fastq-scan: ``>=1.0.1``
    :depends gsl: ``2.6.*``
-   :depends kraken2: ``>=2.1.2``
+   :depends kraken2: ``>=2.1.3``
    :depends krakentools: ``>=1.2``
    :depends krona: ``>=2.8.1``
    :depends pandas: 
@@ -76,7 +76,7 @@ bactopia-teton
 
     <script>
         var package = "bactopia-teton";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

@@ -28,22 +28,21 @@ r-wormbase
       
       
 
-      ``0.4.1-0``
+      ``0.4.2-0``,  ``0.4.1-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0``
-   :depends bioconductor-iranges: ``>=2.32.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0``
-   :depends r-acidbase: ``>=0.6.16``
-   :depends r-acidcli: ``>=0.2.7``
+   :depends bioconductor-biocgenerics: ``>=0.46.0``
+   :depends bioconductor-iranges: ``>=2.34.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0``
+   :depends r-acidbase: ``>=0.6.18``
+   :depends r-acidcli: ``>=0.2.8``
    :depends r-acidgenerics: ``>=0.6.7``
-   :depends r-acidplyr: ``>=0.3.10``
-   :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-goalie: ``>=0.6.10``
-   :depends r-httr2: ``>=0.2.3``
-   :depends r-pipette: ``>=0.10.10``
+   :depends r-acidplyr: ``>=0.3.11``
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-goalie: ``>=0.6.14``
+   :depends r-pipette: ``>=0.11.1``
    :depends r-stringi: ``>=1.7.12``
    :depends r-syntactic: ``>=0.6.6``
    :requirements:
@@ -77,7 +76,7 @@ r-wormbase
 
     <script>
         var package = "r-wormbase";
-        var versions = ["0.4.1"];
+        var versions = ["0.4.2","0.4.1"];
     </script>
 
 

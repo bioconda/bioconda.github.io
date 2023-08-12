@@ -13,8 +13,12 @@ cptac
    Python packaging for CPTAC data
 
    :homepage: https://pypi.org/project/cptac/
+   :documentation: https://paynelab.github.io/cptac/
+   
+   :developer docs: https://github.com/PayneLab/cptac
    :license: Apache-2.0
    :recipe: /`cptac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cptac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cptac/meta.yaml>`_
+   :links: biotools: :biotools:`cptac`, doi: :doi:`10.1021/acs.jproteome.0c00919`
 
    
 
@@ -27,7 +31,7 @@ cptac
       
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0rc1-0``,  ``0.9.7-0``,  ``0.9.6-0``
+      ``1.5.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0rc1-0``,  ``0.9.7-0``,  ``0.9.6-0``
 
       
 
@@ -40,10 +44,12 @@ cptac
    :depends openpyxl: ``>=2.6.0``
    :depends packaging: ``>=19.2``
    :depends pandas: ``>=1.2.0``
+   :depends pyranges: 
    :depends python: ``>=3.6``
    :depends requests: ``>=2.21.0``
    :depends scipy: ``>=1.2.1``
    :depends statsmodels: ``>=0.10.0``
+   :depends tqdm: 
    :depends urllib3: ``>=1.24.2``
    :depends xlrd: ``>=2.0.1``
    :requirements:
@@ -77,7 +83,7 @@ cptac
 
     <script>
         var package = "cptac";
-        var versions = ["1.1.2","1.1.1","1.1.0","1.0.0rc1","0.9.7"];
+        var versions = ["1.5.0","1.1.2","1.1.1","1.1.0","1.0.0rc1"];
     </script>
 
 

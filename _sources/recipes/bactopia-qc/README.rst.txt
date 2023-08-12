@@ -29,7 +29,7 @@ bactopia-qc
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,17 +37,17 @@ bactopia-qc
    :depends bbmap: ``>=39.01``
    :depends biopython: ``1.77.*``
    :depends coreutils: 
-   :depends fastp: ``>=0.23.2``
+   :depends fastp: ``>=0.23.4``
    :depends fastq-scan: ``>=1.0.1``
-   :depends fastqc: ``>=0.11.9``
+   :depends fastqc: ``>=0.12.1``
    :depends gsl: ``2.6.*``
    :depends lighter: ``>=1.1.2``
-   :depends nanoplot: ``>=1.40.2``
-   :depends nanoq: ``>=0.9.0``
+   :depends nanoplot: ``>=1.41.6``
+   :depends nanoq: ``>=0.10.0``
    :depends pigz: 
    :depends porechop: ``>=0.2.4``
    :depends python: ``>=3.7,<3.11``
-   :depends rasusa: ``>=0.7.0``
+   :depends rasusa: ``>=0.7.1``
    :depends rename: 
    :depends sed: 
    :requirements:
@@ -81,7 +81,7 @@ bactopia-qc
 
     <script>
         var package = "bactopia-qc";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

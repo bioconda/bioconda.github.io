@@ -14,7 +14,7 @@ prscs
 
 
    :homepage: https://github.com/getian107/PRScs
-   :license: GPL 3
+   :license: MIT
    :recipe: /`prscs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prscs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prscs/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ prscs
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -67,7 +67,7 @@ prscs
 
     <script>
         var package = "prscs";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

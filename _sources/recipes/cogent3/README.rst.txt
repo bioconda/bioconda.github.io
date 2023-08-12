@@ -27,7 +27,7 @@ cogent3
       
       
 
-      ``2022.8.24a1-0``
+      ``2023.7.18a1-0``,  ``2022.8.24a1-0``
 
       
 
@@ -35,10 +35,12 @@ cogent3
    :depends chardet: 
    :depends numba: ``>0.48.0``
    :depends numpy: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.8,<3.12``
+   :depends scipy: 
    :depends scitrack: 
    :depends tinydb: 
    :depends tqdm: 
+   :depends typing_extensions: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +72,7 @@ cogent3
 
     <script>
         var package = "cogent3";
-        var versions = ["2022.8.24a1"];
+        var versions = ["2023.7.18a1","2022.8.24a1"];
     </script>
 
 

@@ -27,18 +27,18 @@ graphmb
       
       
 
-      ``0.2.3-0``
+      ``0.2.5-0``,  ``0.2.3-0``
 
       
 
    
    :depends importlib-resources: 
-   :depends mlflow: ``>=2.1.1``
+   :depends mlflow: ``>=2.3.1``
    :depends networkx: ``>=2.6.2``
    :depends python: 
    :depends pytorch: ``>=1.13.1``
    :depends requests: 
-   :depends tensorflow: ``>=2.11.0``
+   :depends tensorflow: ``>=2.11.1``
    :depends tqdm: ``>=4.61.2``
    :requirements:
 
@@ -71,7 +71,7 @@ graphmb
 
     <script>
         var package = "graphmb";
-        var versions = ["0.2.3"];
+        var versions = ["0.2.5","0.2.3"];
     </script>
 
 
