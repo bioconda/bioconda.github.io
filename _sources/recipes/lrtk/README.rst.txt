@@ -10,7 +10,7 @@ lrtk
    :replaces_section_title:
    :noindex:
 
-   This is a unified and versatile toolkit for analyzing Linked\-Read sequencing data.
+   This is a unified and versatile ToolKit for analyzing Linked\-Read sequencing data.
 
    :homepage: https://github.com/ericcombiolab/LRTK
    :license: MIT
@@ -27,22 +27,46 @@ lrtk
       
       
 
-      ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
    :depends aquila: 
+   :depends bam-readcount: 
    :depends bcftools: 
+   :depends bedtools: 
    :depends bwa: 
    :depends fastp: 
+   :depends flye: 
    :depends freebayes: 
    :depends gatk: 
    :depends hapcut2: 
+   :depends jellyfish: 
+   :depends megahit: 
+   :depends metabat2: 
+   :depends numpy: 
    :depends parallel: 
    :depends picard: 
+   :depends pigz: 
+   :depends pysam: 
    :depends python: 
+   :depends pytorch: 
+   :depends quickmerge: 
+   :depends r-base: 
+   :depends r-clustersim: 
+   :depends r-factoextra: 
+   :depends r-ggforce: 
+   :depends r-ggplot2: 
+   :depends r-proxy: 
+   :depends r-vegan: 
    :depends samtools: 
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seqtk: 
+   :depends snakemake: 
+   :depends sortedcontainers: 
+   :depends spades: 
    :depends vcflib: 
    :depends whatshap: 
    :requirements:
@@ -76,7 +100,7 @@ lrtk
 
     <script>
         var package = "lrtk";
-        var versions = ["1.5","1.3","1.2","1.1","1.0"];
+        var versions = ["1.6","1.5","1.3","1.2","1.1"];
     </script>
 
 

@@ -1,0 +1,90 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'irf'
+.. highlight: bash
+
+irf
+===
+
+.. conda:recipe:: irf
+   :replaces_section_title:
+   :noindex:
+
+   Inverted Repeats Finder is a program that detects approximate inverted repeats.
+
+   :homepage: https://github.com/Benson-Genomics-Lab/IRF
+   :license: GNU Affero General Public License, Version 3.0
+   :recipe: /`irf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irf/meta.yaml>`_
+
+   
+
+
+.. conda:package:: irf
+
+   |downloads_irf| |docker_irf|
+
+   :versions:
+      
+      
+
+      ``3.08-0``
+
+      
+
+   
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install irf
+
+   and update with::
+
+      conda update irf
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/irf:<tag>
+
+   (see `irf/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_irf| image:: https://img.shields.io/conda/dn/bioconda/irf.svg?style=flat
+   :target: https://anaconda.org/bioconda/irf
+   :alt:   (downloads)
+.. |docker_irf| image:: https://quay.io/repository/biocontainers/irf/status
+   :target: https://quay.io/repository/biocontainers/irf
+.. _`irf/tags`: https://quay.io/repository/biocontainers/irf?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "irf";
+        var versions = ["3.08"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/irf/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/irf/README.html
