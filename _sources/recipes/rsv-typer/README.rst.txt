@@ -27,7 +27,7 @@ rsv-typer
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -37,6 +37,7 @@ rsv-typer
    :depends muscle: ``3.8.*``
    :depends nextclade: ``2.14.0.*``
    :depends python: ``>=3``
+   :depends pyvcf: ``0.6.8 py36h9f0ad1d_1002``
    :depends samtools: ``>=1.10``
    :requirements:
 
@@ -69,7 +70,7 @@ rsv-typer
 
     <script>
         var package = "rsv-typer";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

@@ -10,10 +10,13 @@ sirius-csifingerid
    :replaces_section_title:
    :noindex:
 
-   SIRIUS LC\-MS\/MS data analyses framework. Includes\: SIRIUS\, ZODIAC\, CSI\:FingerID \(with COSMIC\) and CANOPUS
+   SIRIUS \(CLI \+ GUI\) LC\-MS\/MS data analyses framework. Includes\: SIRIUS\, ZODIAC\, CSI\:FingerID \(with COSMIC\) and CANOPUS
 
    :homepage: https://bio.informatik.uni-jena.de/software/sirius/
-   :license: AGPL-3.0-only
+   :documentation: https://boecker-lab.github.io/docs.sirius.github.io/
+   
+   :developer docs: https://github.com/boecker-lab/sirius
+   :license: AGPL-3.0-only AND OTHER
    :recipe: /`sirius-csifingerid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sirius-csifingerid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sirius-csifingerid/meta.yaml>`_
 
    SIRIUS is a java\-based software framework for the analysis of LC\-MS\/MS data of metabolites and other small molecules of biological interest. SIRIUS integrates a collection of our tools\, including CSI\:FingerID \(with COSMIC\)\, ZODIAC and CANOPUS.  In particular\, both the graphical user interface and the command line version of SIRIUS seamlessly integrate the CSI\:FingerID and CANOPUS web services.
@@ -28,10 +31,10 @@ sirius-csifingerid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  <code>4.9.15-0</code>,  <code>4.9.8-2</code>,  <code>4.9.8-1</code>,  <code>4.9.8-0</code>,  <code>4.9.4-0</code>,  <code>4.9.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.8.2-0</code>,  <code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  <code>4.9.15-0</code>,  <code>4.9.8-2</code>,  <code>4.9.8-1</code>,  <code>4.9.8-0</code>,  <code>4.9.4-0</code>,  </span></summary>
       
 
-      ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+      ``5.8.2-0``,  ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
 
       
       .. raw:: html
@@ -40,8 +43,8 @@ sirius-csifingerid
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends zlib: 
+   :depends coin-or-cbc: 
+   :depends openjdk: ``17.*``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +76,7 @@ sirius-csifingerid
 
     <script>
         var package = "sirius-csifingerid";
-        var versions = ["4.9.15","4.9.15","4.9.15","4.9.15","4.9.8"];
+        var versions = ["5.8.2","4.9.15","4.9.15","4.9.15","4.9.15"];
     </script>
 
 

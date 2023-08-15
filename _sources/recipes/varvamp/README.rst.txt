@@ -27,12 +27,13 @@ varvamp
       
       
 
-      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.3-0``,  ``0.4-0``
+      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.3-0``,  ``0.4-0``
 
       
 
    
    :depends biopython: ``>=1.79``
+   :depends blast: ``>=2.13.0``
    :depends matplotlib-base: ``>=3.5.1``
    :depends numpy: ``>=1.23.3``
    :depends pandas: ``>=1.4.4``
@@ -70,7 +71,7 @@ varvamp
 
     <script>
         var package = "varvamp";
-        var versions = ["0.9.2","0.9.1","0.9","0.8.3","0.4"];
+        var versions = ["0.9.2","0.9.2","0.9.1","0.9","0.8.3"];
     </script>
 
 
