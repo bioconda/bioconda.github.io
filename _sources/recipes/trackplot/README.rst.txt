@@ -29,7 +29,7 @@ trackplot
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.1-0``
+      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.1-0``
 
       
 
@@ -39,14 +39,14 @@ trackplot
    :depends click: 
    :depends click-option-group: 
    :depends filetype: ``>=1.2.0``
-   :depends flask: 
+   :depends flask: ``>=2.3.2``
    :depends hicmatrix: 
    :depends loguru: 
    :depends matplotlib-base: ``>=3.6.3``
    :depends numpy: ``>=1.24.1``
    :depends pandas: ``>=1.5.3``
    :depends pybigwig: ``>=0.3.18``
-   :depends pysam: ``>=0.20.0``
+   :depends pysam: ``>=0.21.0``
    :depends python: 
    :depends requests: 
    :depends scipy: ``>=1.10.0``
@@ -84,7 +84,7 @@ trackplot
 
     <script>
         var package = "trackplot";
-        var versions = ["0.3.2","0.3.1","0.2.6","0.2.4","0.2.1"];
+        var versions = ["0.3.3","0.3.2","0.3.1","0.2.6","0.2.4"];
     </script>
 
 

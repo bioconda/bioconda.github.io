@@ -30,11 +30,27 @@ sdeper
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends distinctipy: ``1.2.2``
+   :depends matplotlib-base: ``3.5.2``
+   :depends networkx: ``2.8.4``
+   :depends numba: ``0.55.2``
+   :depends numpy: ``1.22.4``
+   :depends openpyxl: ``3.0.10``
+   :depends pandas: ``1.4.3``
+   :depends python: ``>=3.9.12``
+   :depends reportlab: ``3.6.12``
+   :depends scanpy: ``1.9.1``
+   :depends scikit-learn: ``1.1.1``
+   :depends scikit-misc: ``0.1.4``
+   :depends scipy: ``1.8.1``
+   :depends seaborn: ``0.11.2``
+   :depends tensorflow: ``2.9.1``
+   :depends umap-learn: ``0.5.3``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +82,7 @@ sdeper
 
     <script>
         var package = "sdeper";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

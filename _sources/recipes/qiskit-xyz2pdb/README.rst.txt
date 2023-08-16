@@ -28,11 +28,12 @@ qiskit-xyz2pdb
       
       
 
-      ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.0-0``
 
       
 
    
+   :depends numpy: 
    :depends python: ``>=3.6``
    :requirements:
 
@@ -65,7 +66,7 @@ qiskit-xyz2pdb
 
     <script>
         var package = "qiskit-xyz2pdb";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.2","0.1.0"];
     </script>
 
 
