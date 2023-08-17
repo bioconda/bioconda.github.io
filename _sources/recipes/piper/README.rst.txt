@@ -13,6 +13,8 @@ piper
    A lightweight python toolkit for gluing together restartable\, robust command line pipelines
 
    :homepage: https://github.com/databio/pypiper/
+   :documentation: https://pypiper.databio.org/en/latest/
+   
    :license: BSD / BSD-2-Clause
    :recipe: /`piper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piper/meta.yaml>`_
 
@@ -27,7 +29,7 @@ piper
       
       
 
-      ``0.12.3-0``,  ``0.12.1-1``,  ``0.12.1-0``
+      ``0.13.2-0``,  ``0.12.3-0``,  ``0.12.1-1``,  ``0.12.1-0``
 
       
 
@@ -35,6 +37,7 @@ piper
    :depends attmap: ``>=0.12.5``
    :depends logmuse: ``>=0.2.4``
    :depends pandas: 
+   :depends pipestat: ``>=0.4.0``
    :depends psutil: 
    :depends python: ``>=3``
    :depends ubiquerg: ``>=0.4.5``
@@ -70,7 +73,7 @@ piper
 
     <script>
         var package = "piper";
-        var versions = ["0.12.3","0.12.1","0.12.1"];
+        var versions = ["0.13.2","0.12.3","0.12.1","0.12.1"];
     </script>
 
 

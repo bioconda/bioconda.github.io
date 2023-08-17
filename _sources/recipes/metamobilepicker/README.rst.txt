@@ -29,11 +29,12 @@ metamobilepicker
       
       
 
-      ``0.7.2-0``
+      ``0.7.3-0``,  ``0.7.2-0``
 
       
 
    
+   :depends biopython: 
    :depends click: 
    :depends mamba: 
    :depends python: ``>=3.10``
@@ -74,7 +75,7 @@ metamobilepicker
 
     <script>
         var package = "metamobilepicker";
-        var versions = ["0.7.2"];
+        var versions = ["0.7.3","0.7.2"];
     </script>
 
 

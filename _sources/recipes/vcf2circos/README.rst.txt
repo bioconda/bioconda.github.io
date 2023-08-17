@@ -27,7 +27,7 @@ vcf2circos
       
       
 
-      ``1.1-0``
+      ``1.1.1-0``,  ``1.1-0``
 
       
 
@@ -79,7 +79,7 @@ vcf2circos
 
     <script>
         var package = "vcf2circos";
-        var versions = ["1.1"];
+        var versions = ["1.1.1","1.1"];
     </script>
 
 

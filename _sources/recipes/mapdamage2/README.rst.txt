@@ -28,10 +28,10 @@ mapdamage2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.9-0</code>,  <code>2.0.8-0</code>,  <code>2.0.6-2</code>,  <code>2.0.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.9-0</code>,  <code>2.0.8-0</code>,  <code>2.0.6-2</code>,  </span></summary>
       
 
-      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``
+      ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ mapdamage2
    
    :depends pysam: 
    :depends python: ``>=3.5``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gam: 
    :depends r-ggplot2: ``>=2.1.0``
    :depends r-inline: 
@@ -80,7 +80,7 @@ mapdamage2
 
     <script>
         var package = "mapdamage2";
-        var versions = ["2.2.1","2.2.0","2.1.1","2.1.1","2.1.0"];
+        var versions = ["2.2.2","2.2.1","2.2.0","2.1.1","2.1.1"];
     </script>
 
 
