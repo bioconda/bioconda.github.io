@@ -28,7 +28,7 @@ rnaredprint
       
       
 
-      ``0.3pre-4``,  ``0.3pre-3``,  ``0.3pre-2``,  ``0.3pre-1``,  ``0.3pre-0``
+      ``0.3-0``,  ``0.3pre-4``,  ``0.3pre-3``,  ``0.3pre-2``,  ``0.3pre-1``,  ``0.3pre-0``
 
       
 
@@ -41,7 +41,7 @@ rnaredprint
    :depends python: ``>=3.10,<3.11.0a0``
    :depends scipy: 
    :depends viennarna: ``>=2.4``
-   :depends viennarna: ``>=2.5.1,<2.6.0a0``
+   :depends viennarna: ``>=2.6.3,<2.7.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ rnaredprint
 
     <script>
         var package = "rnaredprint";
-        var versions = ["0.3pre","0.3pre","0.3pre","0.3pre","0.3pre"];
+        var versions = ["0.3","0.3pre","0.3pre","0.3pre","0.3pre"];
     </script>
 
 

@@ -27,13 +27,13 @@ dnaapler
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends biopython: ``>=1.76``
-   :depends blast: ``>=2.9``
+   :depends blast: ``>=2.10``
    :depends click: ``>=8.0.0``
    :depends loguru: ``>=0.5.3``
    :depends pandas: ``>=1.4.2``
@@ -71,7 +71,7 @@ dnaapler
 
     <script>
         var package = "dnaapler";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.0"];
     </script>
 
 
