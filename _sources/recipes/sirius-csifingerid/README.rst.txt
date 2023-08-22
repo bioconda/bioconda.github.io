@@ -31,10 +31,10 @@ sirius-csifingerid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.8.2-0</code>,  <code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  <code>4.9.15-0</code>,  <code>4.9.8-2</code>,  <code>4.9.8-1</code>,  <code>4.9.8-0</code>,  <code>4.9.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.8.3-0</code>,  <code>5.8.2-0</code>,  <code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  <code>4.9.15-0</code>,  <code>4.9.8-2</code>,  <code>4.9.8-1</code>,  <code>4.9.8-0</code>,  </span></summary>
       
 
-      ``5.8.2-0``,  ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+      ``5.8.3-0``,  ``5.8.2-0``,  ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
 
       
       .. raw:: html
@@ -76,7 +76,7 @@ sirius-csifingerid
 
     <script>
         var package = "sirius-csifingerid";
-        var versions = ["5.8.2","4.9.15","4.9.15","4.9.15","4.9.15"];
+        var versions = ["5.8.3","5.8.2","4.9.15","4.9.15","4.9.15"];
     </script>
 
 
