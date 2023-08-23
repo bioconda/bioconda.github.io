@@ -29,7 +29,7 @@ condiga
       
       
 
-      ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -72,7 +72,7 @@ condiga
 
     <script>
         var package = "condiga";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.1","0.2.0"];
     </script>
 
 

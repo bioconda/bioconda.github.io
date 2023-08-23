@@ -31,7 +31,7 @@ ms2deepscore
       
       
 
-      ``0.4.0-0``,  ``0.3.0.1-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
 
       
 
@@ -74,7 +74,7 @@ ms2deepscore
 
     <script>
         var package = "ms2deepscore";
-        var versions = ["0.4.0","0.3.0.1"];
+        var versions = ["0.5.0","0.4.0","0.3.0.1"];
     </script>
 
 

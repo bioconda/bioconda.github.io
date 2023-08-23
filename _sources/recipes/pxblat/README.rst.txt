@@ -12,12 +12,13 @@ pxblat
 
    PxBLAT\: An Efficient and Ergonomics Python Binding Library for BLAT.
 
-   :homepage: https://github.com/cauliyang/pxblat
+   :homepage: https://github.com/ylab-hi/pxblat
    :documentation: https://pxblat.readthedocs.io/en/latest/
    
    :developer docs: https://pypi.org/project/pxblat/
    :license: MIT / MIT
    :recipe: /`pxblat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.08.02.551686`
 
    
 
@@ -30,7 +31,7 @@ pxblat
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -45,10 +46,10 @@ pxblat
    :depends loguru: 
    :depends mashumaro: 
    :depends numpy: ``>=1.24.3``
-   :depends openssl: ``>=3.1.1,<4.0a0``
+   :depends openssl: ``>=3.1.2,<4.0a0``
    :depends pysimdjson: 
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends rich: 
    :depends typer: 
    :depends urllib3: 
@@ -83,7 +84,7 @@ pxblat
 
     <script>
         var package = "pxblat";
-        var versions = ["0.3.0","0.2.0"];
+        var versions = ["0.3.1","0.3.0","0.2.0"];
     </script>
 
 

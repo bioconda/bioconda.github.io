@@ -12,9 +12,13 @@ mcl
 
    MCL \- a cluster algorithm for graphs
 
-   :homepage: http://micans.org/mcl/
-   :license: GPL3
+   :homepage: https://micans.org/mcl/
+   :documentation: https://micans.org/mcl/man/mcl.html
+   
+   :developer docs: https://github.com/micans/mcl
+   :license: GPL / GPL-3.0-only
    :recipe: /`mcl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mcl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mcl/meta.yaml>`_
+   :links: doi: :doi:`10.1137/040608635`, doi: :doi:`10.1093/nar/30.7.1575`, biotools: :biotools:`mcl`, usegalaxy-eu: :usegalaxy-eu:`mcl`
 
    
 
@@ -28,10 +32,10 @@ mcl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>14.137-9</code>,  <code>14.137-8</code>,  <code>14.137-7</code>,  <code>14.137-6</code>,  <code>14.137-5</code>,  <code>14.137-4</code>,  <code>14.137-3</code>,  <code>14.137-2</code>,  <code>14.137-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>22.282-0</code>,  <code>14.137-9</code>,  <code>14.137-8</code>,  <code>14.137-7</code>,  <code>14.137-6</code>,  <code>14.137-5</code>,  <code>14.137-4</code>,  <code>14.137-3</code>,  <code>14.137-2</code>,  </span></summary>
       
 
-      ``14.137-9``,  ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
+      ``22.282-0``,  ``14.137-9``,  ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
 
       
       .. raw:: html
@@ -74,7 +78,7 @@ mcl
 
     <script>
         var package = "mcl";
-        var versions = ["14.137","14.137","14.137","14.137","14.137"];
+        var versions = ["22.282","14.137","14.137","14.137","14.137"];
     </script>
 
 
