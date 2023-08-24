@@ -27,7 +27,7 @@ metasnek
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``
+      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``
 
       
 
@@ -64,7 +64,7 @@ metasnek
 
     <script>
         var package = "metasnek";
-        var versions = ["0.0.6","0.0.5"];
+        var versions = ["0.0.7","0.0.6","0.0.5"];
     </script>
 
 

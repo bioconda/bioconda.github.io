@@ -27,16 +27,19 @@ learnmsa
       
       
 
-      ``1.3.0-0``,  ``1.2.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
 
    
+   :depends biopython: ``>=1.69``
    :depends logomaker: 
    :depends networkx: 
-   :depends python: ``>=3.7``
+   :depends pyfamsa: 
+   :depends python: ``>=3.9``
    :depends seaborn: 
-   :depends tensorflow: ``>=2.7.0``
+   :depends tensorflow: ``>=2.7.0,<2.11``
+   :depends transformers: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +71,7 @@ learnmsa
 
     <script>
         var package = "learnmsa";
-        var versions = ["1.3.0","1.2.4","1.1.2","1.1.1","1.0.1"];
+        var versions = ["1.3.2","1.3.1","1.3.0","1.2.4","1.1.2"];
     </script>
 
 

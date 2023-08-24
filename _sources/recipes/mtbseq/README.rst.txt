@@ -29,7 +29,7 @@ mtbseq
       
       
 
-      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
@@ -41,7 +41,7 @@ mtbseq
    :depends perl-mce: ``>=1.836``
    :depends perl-number-format: 
    :depends perl-statistics-basic: ``>=1.6611``
-   :depends picard: ``>=2.17.0``
+   :depends picard: ``>=2.17.0,<3``
    :depends samtools: ``1.6``
    :requirements:
 
@@ -74,7 +74,7 @@ mtbseq
 
     <script>
         var package = "mtbseq";
-        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.3"];
+        var versions = ["1.1.0","1.0.4","1.0.4","1.0.4","1.0.3"];
     </script>
 
 

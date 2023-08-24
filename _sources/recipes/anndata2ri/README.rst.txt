@@ -26,9 +26,17 @@ anndata2ri
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2-0``,  ``1.1-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.3.1-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -68,7 +76,7 @@ anndata2ri
 
     <script>
         var package = "anndata2ri";
-        var versions = ["1.2","1.1","1.0.6","1.0.5","1.0.4"];
+        var versions = ["1.3.1","1.2","1.1","1.0.6","1.0.5"];
     </script>
 
 

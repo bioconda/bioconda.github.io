@@ -28,7 +28,7 @@ sativa
       
       
 
-      ``0.9.1-0``
+      ``0.9.1-1``,  ``0.9.1-0``
 
       
 
@@ -67,7 +67,7 @@ sativa
 
     <script>
         var package = "sativa";
-        var versions = ["0.9.1"];
+        var versions = ["0.9.1","0.9.1"];
     </script>
 
 

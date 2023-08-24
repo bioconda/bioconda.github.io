@@ -13,8 +13,9 @@ pyabpoa
    pyabpoa\: SIMD\-based partial order alignment using adaptive band
 
    :homepage: https://github.com/yangao07/abPOA
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pyabpoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyabpoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyabpoa/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaa963`, biotools: :biotools:`abpoa`
 
    
 
@@ -27,12 +28,13 @@ pyabpoa
       
       
 
-      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.4.1-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends cython: 
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -66,7 +68,7 @@ pyabpoa
 
     <script>
         var package = "pyabpoa";
-        var versions = ["1.4.0","1.4.0","1.4.0"];
+        var versions = ["1.4.1","1.4.0","1.4.0","1.4.0"];
     </script>
 
 

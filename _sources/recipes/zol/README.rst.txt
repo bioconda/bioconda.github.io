@@ -27,15 +27,17 @@ zol
       
       
 
-      ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
 
    
    :depends axel: 
+   :depends bioconductor-ggtree: 
    :depends biopython: ``1.79.*``
    :depends cd-hit: 
    :depends diamond: ``2.0.15.*``
+   :depends ete3: 
    :depends fasttree: ``>=2.0.0``
    :depends gzip: 
    :depends hmmer: ``>=3.0.0``
@@ -96,7 +98,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.3.6","1.3.5","1.3.4","1.3.3","1.3.2"];
+        var versions = ["1.3.7","1.3.6","1.3.5","1.3.4","1.3.3"];
     </script>
 
 

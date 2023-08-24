@@ -27,7 +27,7 @@ saccharis
       
       
 
-      ``2.0.0.dev18-0``
+      ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
 
@@ -41,6 +41,7 @@ saccharis
    :depends lxml: ``>=4.9.0``
    :depends modeltest-ng: ``>=0.1.7``
    :depends muscle: ``>=3.8``
+   :depends ncbi-datasets-pylib: ``>=14.*``
    :depends psutil: 
    :depends pyqt: ``>=5,<6``
    :depends pyqt5-sip: ``>=12.11``
@@ -80,7 +81,7 @@ saccharis
 
     <script>
         var package = "saccharis";
-        var versions = ["2.0.0.dev18"];
+        var versions = ["2.0.0.dev19","2.0.0.dev18"];
     </script>
 
 
