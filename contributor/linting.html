@@ -203,17 +203,18 @@ at preventing.</p>
 </li>
 <li><p><a class="reference internal" href="#build-helpers" id="id51">Build helpers</a></p>
 <ul>
-<li><p><a class="reference internal" href="#should-use-compilers" id="id52">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#uses-setuptools" id="id53">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#setup-py-install-args" id="id54">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#compilers-must-be-in-build" id="id55">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#cython-must-be-in-host" id="id56">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#cython-needs-compiler" id="id57">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#missing-run-exports" id="id52">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#should-use-compilers" id="id53">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-setuptools" id="id54">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#setup-py-install-args" id="id55">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#compilers-must-be-in-build" id="id56">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#cython-must-be-in-host" id="id57">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#cython-needs-compiler" id="id58">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#linter-errors" id="id58">Linter Errors</a></p>
+<li><p><a class="reference internal" href="#linter-errors" id="id59">Linter Errors</a></p>
 <ul>
-<li><p><a class="reference internal" href="#linter-failure" id="id59">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#linter-failure" id="id60">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a></p></li>
 </ul>
 </li>
 </ul>
@@ -926,8 +927,50 @@ which pulls in many other dependencies. In most cases, using
 </section>
 <section id="build-helpers">
 <h3><a class="toc-backref" href="#id51" role="doc-backlink">Build helpers</a><a class="headerlink" href="#build-helpers" title="Permalink to this heading">¶</a></h3>
+<section id="missing-run-exports">
+<h4><a class="toc-backref" href="#id52" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a><a class="headerlink" href="#missing-run-exports" title="Permalink to this heading">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">Recipe should have a run_export statement that ensures correct pinning in downstream packages</p>
+<p>This ensures that the package is automatically pinned to a compatible version if
+it is used as a dependency in another recipe.
+This is a conservative strategy to avoid breakage. We came to the 
+conclusion that it is better to require this little overhead instead
+of trying to fix things when they break later on.
+This holds for compiled packages (in particular those with shared
+libraries) but also for e.g. Python packages, as those might also
+introduce breaking changes in their APIs or command line interfaces.</p>
+<p>We distinguish between three cases. If the software follows semantic versioning (or it has at least a normal version string (like 1.2.3) and the actual strategy of the devs is unknown), add run_exports to the recipe like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
+  <span class="n">run_exports</span><span class="p">:</span>
+    <span class="o">-</span> <span class="p">{{</span> <span class="n">pin_subpackage</span><span class="p">(</span><span class="s1">&#39;myrecipe&#39;</span><span class="p">,</span> <span class="n">max_pin</span><span class="o">=</span><span class="s2">&quot;x&quot;</span><span class="p">)</span> <span class="p">}}</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">myrecipe</span></code> being the name of the recipe (you can also use the name variable).
+This will by default pin the package to <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0,&lt;2.0.0</span></code> where <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code> is the 
+version of the package at build time of the one depending on it and <code class="docutils literal notranslate"><span class="pre">&lt;2.0.0</span></code> constrains
+it to be less than the next major (i.e. potentially not backward compatible) version.</p>
+<p>If the software has a normal versioning (like 1.2.3) but does reportedly not follow semantic versioning, please choose the <code class="docutils literal notranslate"><span class="pre">max_pin</span></code> argument such that it captures the potential next version that will introduce a breaking change. E.g. if you expect breaking changes to occur with the next minor release, choose <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x&quot;</span></code>, if they even can occur with the next patch release, choose <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x.x&quot;</span></code>.</p>
+<p>If the software does have a non-standard versioning (e.g. calendar versioning like 20220602), we cannot really protect well against breakages. However, we can at least pin to the current version as a minimum and skip the max_pin constraint. This works by setting <code class="docutils literal notranslate"><span class="pre">max_pin=None</span></code>.</p>
+<p>In the recipe depending on this one, one just needs to specify the package name
+and no version at all.
+If you need a different pinning strategy for this particular recipe (e.g. because it does
+not follow semantic versioning), you can e.g. use <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x&quot;</span></code> to pin to the minor
+version (i.e. translating to <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0,&lt;1.3.0</span></code> ).</p>
+<p>Also check out the possible arguments of <code class="xref any docutils literal notranslate"><span class="pre">pin_subpackage</span></code> here:
+<a class="reference external" href="https://docs.conda.io/projects/conda-build/en/stable/resources/define-metadata.html#export-runtime-requirements">https://docs.conda.io/projects/conda-build/en/stable/resources/define-metadata.html#export-runtime-requirements</a></p>
+<p>Since this strategy can lead to potentially more conflicts in dependency pinnings between tools,
+it is advisable to additionally set a common version of very frequently used packages for all
+builds. This happens by specifying the version via a separate pull request in the project wide build
+configuration file here:
+<a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml</a></p>
+<p>Finally, note that conda is unable to conduct such pinnings in case the dependency and the depending recipe
+are updated within the same pull request. Hence, the pull request adding the run_export statement
+has to be merged before the one updating or creating the depending recipe is created.</p>
+</div>
+<p></p>
+</section>
 <section id="should-use-compilers">
-<h4><a class="toc-backref" href="#id52" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requires a compiler directly</p>
 <p>Since version 3, <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> uses a special syntax to require
@@ -967,7 +1010,7 @@ needs to be added manually if your package makes use of OpenMP.</p>
 </p>
 </section>
 <section id="uses-setuptools">
-<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools in run depends</p>
 <p>Most Python packages only need setuptools during installation.
@@ -990,7 +1033,7 @@ already include the required section.</p>
 </p>
 </section>
 <section id="setup-py-install-args">
-<h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools without required arguments</p>
 <p>Please use:</p>
@@ -1019,7 +1062,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="compilers-must-be-in-build">
-<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requests a compiler in a section other than build</p>
 <p>Please move the <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('language')</span> <span class="pre">}}</span></code> line into the
@@ -1031,7 +1074,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="cython-must-be-in-host">
-<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id57" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython should be in the host section</p>
 <p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
@@ -1046,7 +1089,7 @@ host section for now.</p>
 </p>
 </section>
 <section id="cython-needs-compiler">
-<h4><a class="toc-backref" href="#id57" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id58" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython generates C code, which will need to be compiled</p>
 <p>Add the compiler to the recipe:</p>
@@ -1063,9 +1106,9 @@ recipe.</p>
 </section>
 </section>
 <section id="linter-errors">
-<h3><a class="toc-backref" href="#id58" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id59" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Permalink to this heading">¶</a></h3>
 <section id="linter-failure">
-<h4><a class="toc-backref" href="#id59" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id60" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Permalink to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">An unexpected exception was raised during linting</p>
 <p>Please file an issue at the bioconda-utils repo</p>

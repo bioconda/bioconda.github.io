@@ -459,6 +459,8 @@ no longer work and need to be changed.
 Build helpers
 ~~~~~~~~~~~~~
 
+.. lint-check:: missing_run_exports
+
 .. lint-check:: should_use_compilers
 
    The recipe uses a compiler directly. Since version 3,
