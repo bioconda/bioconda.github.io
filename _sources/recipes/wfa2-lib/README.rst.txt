@@ -28,7 +28,7 @@ wfa2-lib
       
       
 
-      ``2.3.3-0``
+      ``2.3.3-1``,  ``2.3.3-0``
 
       
 
@@ -66,7 +66,7 @@ wfa2-lib
 
     <script>
         var package = "wfa2-lib";
-        var versions = ["2.3.3"];
+        var versions = ["2.3.3","2.3.3"];
     </script>
 
 
