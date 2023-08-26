@@ -27,13 +27,12 @@ cramino
       
       
 
-      ``0.9.9-0``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+      ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends openssl: ``>=3.1.1,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ cramino
 
     <script>
         var package = "cramino";
-        var versions = ["0.9.9","0.9.7","0.9.7","0.9.7"];
+        var versions = ["0.10.0","0.9.9","0.9.7","0.9.7","0.9.7"];
     </script>
 
 

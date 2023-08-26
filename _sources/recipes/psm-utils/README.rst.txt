@@ -17,6 +17,7 @@ psm-utils
    
    :license: APACHE / Apache-2.0
    :recipe: /`psm-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psm-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psm-utils/meta.yaml>`_
+   :links: doi: :doi:`10.1021/acs.jproteome.2c00609`, biotools: :biotools:`psm_utils`
 
    
 
@@ -29,7 +30,7 @@ psm-utils
       
       
 
-      ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.1-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -43,6 +44,7 @@ psm-utils
    :depends pyteomics: ``>=4``
    :depends python: ``>=3.7``
    :depends rich: 
+   :depends sqlalchemy: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +76,7 @@ psm-utils
 
     <script>
         var package = "psm-utils";
-        var versions = ["0.2.3","0.2.1","0.2.0","0.1.0"];
+        var versions = ["0.4.1","0.2.3","0.2.1","0.2.0","0.1.0"];
     </script>
 
 

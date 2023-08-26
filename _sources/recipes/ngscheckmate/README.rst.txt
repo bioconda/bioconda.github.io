@@ -16,7 +16,7 @@ ngscheckmate
    :license: MIT
    :recipe: /`ngscheckmate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngscheckmate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngscheckmate/meta.yaml>`_
 
-   
+   This version is built from a pull request which fixes a handful of known bugs.
 
 
 .. conda:package:: ngscheckmate
