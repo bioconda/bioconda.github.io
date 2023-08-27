@@ -27,14 +27,14 @@ taxtastic
       
       
 
-      ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.11-0``,  ``0.8.9-0``,  ``0.8.5-2``,  ``0.8.5-0``,  ``0.5.4-0``
+      ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.11-0``,  ``0.8.9-0``,  ``0.8.5-2``,  ``0.8.5-0``,  ``0.5.4-0``
 
       
 
    
    :depends biopython: 
    :depends decorator: 
-   :depends python: ``>3``
+   :depends python: ``>=3``
    :depends sqlalchemy: ``>=0.7``
    :depends xlrd: 
    :requirements:
@@ -68,7 +68,7 @@ taxtastic
 
     <script>
         var package = "taxtastic";
-        var versions = ["0.9.3","0.9.2","0.9.1","0.8.11","0.8.9"];
+        var versions = ["0.10.0","0.9.3","0.9.2","0.9.1","0.8.11"];
     </script>
 
 

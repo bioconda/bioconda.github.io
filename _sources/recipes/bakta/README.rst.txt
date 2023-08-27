@@ -29,10 +29,10 @@ bakta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -43,20 +43,20 @@ bakta
    
    :depends alive-progress: ``3.0.1``
    :depends aragorn: ``>=1.2.41``
-   :depends biopython: ``>=1.80``
+   :depends biopython: ``>=1.78``
    :depends blast: ``>=2.12.0``
    :depends circos: ``>=0.69.8``
    :depends diamond: ``>=2.0.14``
-   :depends hmmer: ``>=3.3.2``
    :depends infernal: ``>=1.1.4``
    :depends ncbi-amrfinderplus: ``>=3.11.2``
    :depends piler-cr: 
+   :depends pyhmmer: ``>=0.10.0``
    :depends pyrodigal: ``>=2.1.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.8,<3.11``
    :depends pyyaml: ``>=6.0``
    :depends requests: ``>=2.25.1``
    :depends trnascan-se: ``>=2.0.11``
-   :depends xopen: ``>=1.1.0``
+   :depends xopen: ``>=1.5.0``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ bakta
 
     <script>
         var package = "bakta";
-        var versions = ["1.8.1","1.8.0","1.7.0","1.7.0","1.6.1"];
+        var versions = ["1.8.2","1.8.1","1.8.0","1.7.0","1.7.0"];
     </script>
 
 

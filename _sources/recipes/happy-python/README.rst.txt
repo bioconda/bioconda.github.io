@@ -30,11 +30,20 @@ happy-python
       
       
 
-      
+      ``0.2.1rc0-0``
 
       
 
    
+   :depends docopt: 
+   :depends matplotlib-base: 
+   :depends minimap2: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``>=3.7``
+   :depends sambamba: 
+   :depends samtools: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +75,7 @@ happy-python
 
     <script>
         var package = "happy-python";
-        var versions = [];
+        var versions = ["0.2.1rc0"];
     </script>
 
 

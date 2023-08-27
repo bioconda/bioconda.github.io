@@ -27,11 +27,23 @@ binette
       
       
 
-      
+      ``0.1.6-0``
 
       
 
    
+   :depends checkm2: 
+   :depends diamond: ``2.0.4.*``
+   :depends networkx: 
+   :depends numpy: ``1.19.2.*``
+   :depends packaging: 
+   :depends pandas: ``1.4.0.*``
+   :depends prodigal: ``2.6.3.*``
+   :depends pyfastx: 
+   :depends pyrodigal: 
+   :depends python: ``>=3.7``
+   :depends requests: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +75,7 @@ binette
 
     <script>
         var package = "binette";
-        var versions = [];
+        var versions = ["0.1.6"];
     </script>
 
 

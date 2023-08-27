@@ -28,11 +28,14 @@ dnamarkmaker
       
       
 
-      
+      ``1.0-0``
 
       
 
    
+   :depends primer3-py: ``>=1.1.0``
+   :depends python: ``>=3.9.13``
+   :depends samtools: ``>=1.16``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +67,7 @@ dnamarkmaker
 
     <script>
         var package = "dnamarkmaker";
-        var versions = [];
+        var versions = ["1.0"];
     </script>
 
 

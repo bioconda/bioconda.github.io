@@ -27,7 +27,7 @@ metacerberus
       
       
 
-      ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+      ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -38,19 +38,15 @@ metacerberus
    :depends fastp: 
    :depends fastqc: 
    :depends flash2: 
-   :depends gcc: 
-   :depends git: 
-   :depends gitpython: 
    :depends grpcio: ``1.43.*``
    :depends hmmer: 
-   :depends make: 
    :depends metaomestats: 
    :depends pandas: 
    :depends plotly: 
    :depends porechop: 
    :depends prodigal: 
    :depends psutil: 
-   :depends python: ``<3.10``
+   :depends python: ``>=3.8``
    :depends python-kaleido: 
    :depends ray-core: 
    :depends ray-dashboard: 
@@ -88,7 +84,7 @@ metacerberus
 
     <script>
         var package = "metacerberus";
-        var versions = ["1.1","1.0","1.0","0.2","0.2"];
+        var versions = ["1.1","1.1","1.0","1.0","0.2"];
     </script>
 
 

@@ -29,7 +29,7 @@ gnparser
       
       
 
-      ``1.7.3-0``
+      ``1.7.4-0``,  ``1.7.3-0``
 
       
 
@@ -65,7 +65,7 @@ gnparser
 
     <script>
         var package = "gnparser";
-        var versions = ["1.7.3"];
+        var versions = ["1.7.4","1.7.3"];
     </script>
 
 

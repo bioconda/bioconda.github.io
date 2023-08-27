@@ -10,13 +10,16 @@ geno2phenotb
    :replaces_section_title:
    :noindex:
 
-   Machine learning based engine to predict Mycobacterium tuberculosis drug resistance using whole\-genome sequencing data
+   Prediction of Mycobacterium tuberculosis drug resistance from WGS data
 
    :homepage: https://github.com/msmdev/geno2phenoTB
+   :documentation: https://geno2phenotb.readthedocs.io/en/latest
+   
    :license: LGPL-3.0-only
    :recipe: /`geno2phenotb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geno2phenotb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geno2phenotb/meta.yaml>`_
 
-   
+   geno2phenoTB is a machine learning based tool to predict resistance of Mycobacterium tuberculosis against antibiotics using whole\-genome sequencing data.
+
 
 
 .. conda:package:: geno2phenotb
@@ -27,7 +30,7 @@ geno2phenotb
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,19 +39,20 @@ geno2phenotb
    :depends gatk: ``3.8.*``
    :depends imbalanced-learn: ``0.8.1.*``
    :depends importlib_metadata: 
-   :depends joblib: ``1.1.1.*``
+   :depends joblib: ``1.2.*``
    :depends mtbseq: ``1.0.4.*``
    :depends numpy: ``1.21.5.*``
-   :depends numpy-base: ``1.21.5.*``
-   :depends packaging: ``21.3.*``
+   :depends packaging: ``21.*``
    :depends pandas: ``0.25.3.*``
    :depends perl-base: ``2.23.*``
-   :depends python: ``3.7.15.*``
+   :depends python: ``3.8.17.*``
+   :depends requests: ``2.*``
    :depends samtools: ``1.6.*``
    :depends scikit-learn: ``0.24.2.*``
    :depends scipy: ``1.7.3.*``
-   :depends setuptools: ``65.5.0.*``
-   :depends wheel: ``0.37.1.*``
+   :depends setuptools: 
+   :depends tqdm: ``4.*``
+   :depends wheel: ``0.37.*``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +84,7 @@ geno2phenotb
 
     <script>
         var package = "geno2phenotb";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

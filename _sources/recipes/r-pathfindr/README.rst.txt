@@ -27,7 +27,7 @@ r-pathfindr
       
       
 
-      ``2.1.0-0``
+      ``2.2.0-0``,  ``2.1.0-0``
 
       
 
@@ -83,7 +83,7 @@ r-pathfindr
 
     <script>
         var package = "r-pathfindr";
-        var versions = ["2.1.0"];
+        var versions = ["2.2.0","2.1.0"];
     </script>
 
 

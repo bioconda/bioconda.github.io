@@ -29,10 +29,10 @@ andi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13-4</code>,  <code>0.13-3</code>,  <code>0.13-2</code>,  <code>0.13-1</code>,  <code>0.13-0</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-0</code>,  <code>0.11-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14-0</code>,  <code>0.13-4</code>,  <code>0.13-3</code>,  <code>0.13-2</code>,  <code>0.13-1</code>,  <code>0.13-0</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-0</code>,  </span></summary>
       
 
-      ``0.13-4``,  ``0.13-3``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``,  ``0.12-4``,  ``0.12-3``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``
+      ``0.14-0``,  ``0.13-4``,  ``0.13-3``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``,  ``0.12-4``,  ``0.12-3``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``
 
       
       .. raw:: html
@@ -77,7 +77,7 @@ andi
 
     <script>
         var package = "andi";
-        var versions = ["0.13","0.13","0.13","0.13","0.13"];
+        var versions = ["0.14","0.13","0.13","0.13","0.13"];
     </script>
 
 

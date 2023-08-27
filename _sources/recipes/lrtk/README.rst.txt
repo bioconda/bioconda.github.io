@@ -27,7 +27,7 @@ lrtk
       
       
 
-      ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -45,11 +45,9 @@ lrtk
    :depends jellyfish: 
    :depends megahit: 
    :depends metabat2: 
-   :depends numpy: 
    :depends parallel: 
    :depends picard: 
    :depends pigz: 
-   :depends pysam: 
    :depends python: 
    :depends pytorch: 
    :depends quickmerge: 
@@ -60,15 +58,11 @@ lrtk
    :depends r-ggplot2: 
    :depends r-proxy: 
    :depends r-vegan: 
-   :depends samtools: 
    :depends scikit-learn: 
-   :depends scipy: 
    :depends seqtk: 
-   :depends snakemake: 
    :depends sortedcontainers: 
    :depends spades: 
    :depends vcflib: 
-   :depends whatshap: 
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +94,7 @@ lrtk
 
     <script>
         var package = "lrtk";
-        var versions = ["1.6","1.5","1.3","1.2","1.1"];
+        var versions = ["1.7","1.6","1.5","1.3","1.2"];
     </script>
 
 
