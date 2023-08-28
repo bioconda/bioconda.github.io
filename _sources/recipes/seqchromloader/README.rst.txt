@@ -30,7 +30,7 @@ seqchromloader
       
       
 
-      ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
+      ``0.6.8-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
 
       
 
@@ -44,6 +44,7 @@ seqchromloader
    :depends python: ``>=3.7,<3.10``
    :depends pytorch: ``>=1.10.0``
    :depends pytorch-lightning: ``>=1.7.0,<1.8.0``
+   :depends torchmetrics: ``<=0.11.4``
    :depends webdataset: ``>=0.2.0``
    :requirements:
 
@@ -92,7 +93,7 @@ seqchromloader
 
     <script>
         var package = "seqchromloader";
-        var versions = ["0.6.5","0.6.3","0.6.2","0.5.3","0.4.0"];
+        var versions = ["0.6.8","0.6.5","0.6.3","0.6.2","0.5.3"];
     </script>
 
 
