@@ -97,43 +97,62 @@ to have an easier time to read and conclude about the results.</p>
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-m-party">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">m-party</span></span><a class="headerlink" href="#package-m-party" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/m-party"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/m-party.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/m-party"><img alt="docker_m-party" src="https://quay.io/repository/biocontainers/m-party/status" /></a></p>
+<dd><blockquote>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/m-party"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/m-party.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/m-party"><img alt="docker_m-party" src="https://quay.io/repository/biocontainers/m-party/status" /></a></p>
 <dl class="field-list simple">
-<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.2-0</span></code></p>
 </dd>
-<dt class="field-even">Depends<span class="colon">:</span></dt>
-<dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../cd-hit/README.html#package-cd-hit" title="cd-hit package"><strong>cd-hit</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/clint-feedstock"><strong>clint</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../hmmer/README.html#package-hmmer" title="hmmer package"><strong>hmmer</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openpyxl-feedstock"><strong>openpyxl</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyyaml-feedstock"><strong>pyyaml</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../snakemake/README.html#package-snakemake" title="snakemake package"><strong>snakemake</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../t-coffee/README.html#package-t-coffee" title="t-coffee package"><strong>t-coffee</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../upimapi/README.html#package-upimapi" title="upimapi package"><strong>upimapi</strong></a></p></li>
-</ul>
-</dd>
-<dt class="field-odd">Required By<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
-</dd>
+<dt class="field-even">depends cd-hit<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends clint<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends hmmer<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends openpyxl<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pyyaml<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends snakemake<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends t-coffee<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends upimapi<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
-<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">m</span><span class="o">-</span><span class="n">party</span>
+</div></blockquote>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micrpmamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
+<p>While any of above package managers is fine, it is currently recommended to use either
+micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
+We will show all commands using mamba below, but the arguments are the same for the two
+others.</p>
+<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">m</span><span class="o">-</span><span class="n">party</span>
+
+<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
+
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">m</span><span class="o">-</span><span class="n">party</span>
 </pre></div>
 </div>
-<p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">m</span><span class="o">-</span><span class="n">party</span>
+<p>To create a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">m</span><span class="o">-</span><span class="n">party</span>
 </pre></div>
 </div>
-<p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">m</span><span class="o">-</span><span class="n">party</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
+(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
+<p>Alternatively, use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/m-party:&lt;tag&gt;
+
+(see `m-party/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/m-party?tab=tags">m-party/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>

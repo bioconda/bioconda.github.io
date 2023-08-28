@@ -27,38 +27,61 @@ r-cellosaurus
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+      
 
+      ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.44.0``
-   :depends bioconductor-iranges: ``>=2.32.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0``
-   :depends r-acidbase: ``>=0.6.16``
-   :depends r-acidcli: ``>=0.2.7``
-   :depends r-acidgenerics: ``>=0.6.7``
-   :depends r-acidplyr: ``>=0.3.10``
+   :depends bioconductor-biocgenerics: ``>=0.46.0``
+   :depends bioconductor-iranges: ``>=2.34.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0``
+   :depends r-acidbase: ``>=0.6.19``
+   :depends r-acidcli: ``>=0.2.8``
+   :depends r-acidgenerics: ``>=0.6.8``
+   :depends r-acidplyr: ``>=0.4.2``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-data.table: ``>=1.14.8``
-   :depends r-goalie: ``>=0.6.9``
-   :depends r-pipette: ``>=0.10.9``
+   :depends r-goalie: ``>=0.6.15``
+   :depends r-pipette: ``>=0.12.0``
    :depends r-stringi: ``>=1.7.12``
    :depends r-syntactic: ``>=0.6.6``
    :requirements:
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install r-cellosaurus
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install r-cellosaurus
 
    and update with::
 
-      conda update r-cellosaurus
+      mamba update r-cellosaurus
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname r-cellosaurus
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/r-cellosaurus:<tag>
 
@@ -77,7 +100,7 @@ r-cellosaurus
 
     <script>
         var package = "r-cellosaurus";
-        var versions = ["0.5.4","0.5.4","0.5.3","0.5.2","0.5.1"];
+        var versions = ["0.6.0","0.5.4","0.5.4","0.5.3","0.5.2"];
     </script>
 
 

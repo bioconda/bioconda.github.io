@@ -86,15 +86,31 @@ arb-bio
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install arb-bio
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install arb-bio
 
    and update with::
 
-      conda update arb-bio
+      mamba update arb-bio
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname arb-bio
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/arb-bio:<tag>
 
@@ -138,15 +154,31 @@ arb-bio
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install arb-bio-devel
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install arb-bio-devel
 
    and update with::
 
-      conda update arb-bio-devel
+      mamba update arb-bio-devel
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname arb-bio-devel
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/arb-bio-devel:<tag>
 
@@ -190,15 +222,31 @@ arb-bio
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install arb-bio-tools
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install arb-bio-tools
 
    and update with::
 
-      conda update arb-bio-tools
+      mamba update arb-bio-tools
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname arb-bio-tools
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/arb-bio-tools:<tag>
 
@@ -242,15 +290,31 @@ arb-bio
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install libarbdb
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install libarbdb
 
    and update with::
 
-      conda update libarbdb
+      mamba update libarbdb
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname libarbdb
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/libarbdb:<tag>
 

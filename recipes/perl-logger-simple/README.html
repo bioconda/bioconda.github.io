@@ -86,43 +86,57 @@
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-perl-logger-simple">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">perl-logger-simple</span></span><a class="headerlink" href="#package-perl-logger-simple" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-logger-simple"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-logger-simple.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-logger-simple"><img alt="docker_perl-logger-simple" src="https://quay.io/repository/biocontainers/perl-logger-simple/status" /></a></p>
+<dd><blockquote>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/perl-logger-simple"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-logger-simple.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-logger-simple"><img alt="docker_perl-logger-simple" src="https://quay.io/repository/biocontainers/perl-logger-simple/status" /></a></p>
 <dl class="field-list simple">
-<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-0</span></code></p>
 </dd>
-<dt class="field-even">Depends<span class="colon">:</span></dt>
-<dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-carp-feedstock"><strong>perl-carp</strong></a></p></li>
-<li><p><strong>perl-object-insideout</strong></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-test-harness-feedstock"><strong>perl-test-harness</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-pod/README.html#package-perl-test-pod" title="perl-test-pod package"><strong>perl-test-pod</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-time-hires/README.html#package-perl-time-hires" title="perl-time-hires package"><strong>perl-time-hires</strong></a></p></li>
-</ul>
+<dt class="field-even">depends perl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p>
 </dd>
-<dt class="field-odd">Required By<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../braker2/README.html#braker2"><strong class="xref backref">braker2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../funannotate/README.html#funannotate"><strong class="xref backref">funannotate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../braker3/README.html#braker3"><strong class="xref backref">braker3</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">depends perl-carp<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends perl-object-insideout<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl-test-harness<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends perl-test-pod<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl-time-hires<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
-<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">perl</span><span class="o">-</span><span class="n">logger</span><span class="o">-</span><span class="n">simple</span>
+</div></blockquote>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micrpmamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
+<p>While any of above package managers is fine, it is currently recommended to use either
+micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
+We will show all commands using mamba below, but the arguments are the same for the two
+others.</p>
+<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">perl</span><span class="o">-</span><span class="n">logger</span><span class="o">-</span><span class="n">simple</span>
+
+<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
+
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">perl</span><span class="o">-</span><span class="n">logger</span><span class="o">-</span><span class="n">simple</span>
 </pre></div>
 </div>
-<p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">perl</span><span class="o">-</span><span class="n">logger</span><span class="o">-</span><span class="n">simple</span>
+<p>To create a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">perl</span><span class="o">-</span><span class="n">logger</span><span class="o">-</span><span class="n">simple</span>
 </pre></div>
 </div>
-<p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">perl</span><span class="o">-</span><span class="n">logger</span><span class="o">-</span><span class="n">simple</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
+(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
+<p>Alternatively, use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/perl-logger-simple:&lt;tag&gt;
+
+(see `perl-logger-simple/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-logger-simple?tab=tags">perl-logger-simple/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>

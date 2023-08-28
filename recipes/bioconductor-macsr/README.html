@@ -87,40 +87,61 @@
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-bioconductor-macsr">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">bioconductor-macsr</span></span><a class="headerlink" href="#package-bioconductor-macsr" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-macsr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-macsr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-macsr"><img alt="docker_bioconductor-macsr" src="https://quay.io/repository/biocontainers/bioconductor-macsr/status" /></a></p>
+<dd><blockquote>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-macsr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-macsr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-macsr"><img alt="docker_bioconductor-macsr" src="https://quay.io/repository/biocontainers/bioconductor-macsr/status" /></a></p>
 <dl class="field-list simple">
-<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
-<dt class="field-even">Depends<span class="colon">:</span></dt>
-<dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationhub/README.html#package-bioconductor-annotationhub" title="bioconductor-annotationhub package"><strong>bioconductor-annotationhub</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8.0,&lt;3.9.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-basilisk/README.html#package-bioconductor-basilisk" title="bioconductor-basilisk package"><strong>bioconductor-basilisk</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.12.0,&lt;1.13.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-experimenthub/README.html#package-bioconductor-experimenthub" title="bioconductor-experimenthub package"><strong>bioconductor-experimenthub</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.8.0,&lt;2.9.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.38.0,&lt;0.39.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-reticulate-feedstock"><strong>r-reticulate</strong></a></p></li>
-</ul>
+<dt class="field-even">depends bioconductor-annotationhub<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8.0,&lt;3.9.0</span></code></p>
 </dd>
-<dt class="field-odd">Required By<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">depends bioconductor-basilisk<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.12.0,&lt;1.13.0</span></code></p>
 </dd>
+<dt class="field-even">depends bioconductor-experimenthub<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.8.0,&lt;2.9.0</span></code></p>
+</dd>
+<dt class="field-odd">depends bioconductor-s4vectors<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.38.0,&lt;0.39.0</span></code></p>
+</dd>
+<dt class="field-even">depends r-base<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends r-reticulate<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
-<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">macsr</span>
+</div></blockquote>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micrpmamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
+<p>While any of above package managers is fine, it is currently recommended to use either
+micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
+We will show all commands using mamba below, but the arguments are the same for the two
+others.</p>
+<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">macsr</span>
+
+<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
+
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">macsr</span>
 </pre></div>
 </div>
-<p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">macsr</span>
+<p>To create a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">macsr</span>
 </pre></div>
 </div>
-<p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">macsr</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
+(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
+<p>Alternatively, use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/bioconductor-macsr:&lt;tag&gt;
+
+(see `bioconductor-macsr/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-macsr?tab=tags">bioconductor-macsr/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>

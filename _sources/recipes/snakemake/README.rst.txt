@@ -67,15 +67,31 @@ snakemake
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install snakemake
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install snakemake
 
    and update with::
 
-      conda update snakemake
+      mamba update snakemake
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname snakemake
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/snakemake:<tag>
 
@@ -147,15 +163,31 @@ snakemake
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install snakemake-minimal
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install snakemake-minimal
 
    and update with::
 
-      conda update snakemake-minimal
+      mamba update snakemake-minimal
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname snakemake-minimal
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/snakemake-minimal:<tag>
 

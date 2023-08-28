@@ -48,15 +48,31 @@ bioconductor-multiomicsviz
 
    .. rubric:: Installation
 
-   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+  You need a conda-compatible package manager
+  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
-      conda install bioconductor-multiomicsviz
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install bioconductor-multiomicsviz
 
    and update with::
 
-      conda update bioconductor-multiomicsviz
+      mamba update bioconductor-multiomicsviz
 
-   or use the docker container::
+  To create a new environment, run::
+
+      mamba create --name myenvname bioconductor-multiomicsviz
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
 
       docker pull quay.io/biocontainers/bioconductor-multiomicsviz:<tag>
 

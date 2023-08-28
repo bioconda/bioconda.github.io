@@ -89,39 +89,53 @@
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-r-consensustme">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">r-consensustme</span></span><a class="headerlink" href="#package-r-consensustme" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-consensustme"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-consensustme.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-consensustme"><img alt="docker_r-consensustme" src="https://quay.io/repository/biocontainers/r-consensustme/status" /></a></p>
+<dd><blockquote>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/r-consensustme"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-consensustme.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-consensustme"><img alt="docker_r-consensustme" src="https://quay.io/repository/biocontainers/r-consensustme/status" /></a></p>
 <dl class="field-list simple">
-<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.0.1.9000-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1.9000-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1.9000-0</span></code></p>
 </dd>
-<dt class="field-even">Depends<span class="colon">:</span></dt>
-<dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-gseabase/README.html#package-bioconductor-gseabase" title="bioconductor-gseabase package"><strong>bioconductor-gseabase</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gsva/README.html#package-bioconductor-gsva" title="bioconductor-gsva package"><strong>bioconductor-gsva</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-singscore/README.html#package-bioconductor-singscore" title="bioconductor-singscore package"><strong>bioconductor-singscore</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p></li>
-</ul>
+<dt class="field-even">depends bioconductor-gseabase<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends bioconductor-gsva<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends bioconductor-singscore<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
 </dd>
-<dt class="field-odd">Required By<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../r-immunedeconv/README.html#r-immunedeconv"><strong class="xref backref">r-immunedeconv</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
-<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">consensustme</span>
+</div></blockquote>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micrpmamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
+<p>While any of above package managers is fine, it is currently recommended to use either
+micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
+We will show all commands using mamba below, but the arguments are the same for the two
+others.</p>
+<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">consensustme</span>
+
+<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
+
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">consensustme</span>
 </pre></div>
 </div>
-<p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">consensustme</span>
+<p>To create a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">r</span><span class="o">-</span><span class="n">consensustme</span>
 </pre></div>
 </div>
-<p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">consensustme</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
+(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
+<p>Alternatively, use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/r-consensustme:&lt;tag&gt;
+
+(see `r-consensustme/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-consensustme?tab=tags">r-consensustme/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>

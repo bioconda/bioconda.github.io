@@ -86,42 +86,62 @@
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-phertilizer">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">phertilizer</span></span><a class="headerlink" href="#package-phertilizer" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/phertilizer"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/phertilizer.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/phertilizer"><img alt="docker_phertilizer" src="https://quay.io/repository/biocontainers/phertilizer/status" /></a></p>
+<dd><blockquote>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/phertilizer"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/phertilizer.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/phertilizer"><img alt="docker_phertilizer" src="https://quay.io/repository/biocontainers/phertilizer/status" /></a></p>
 <dl class="field-list simple">
-<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
 </dd>
-<dt class="field-even">Depends<span class="colon">:</span></dt>
-<dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/networkx-feedstock"><strong>networkx</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numba-feedstock"><strong>numba</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.54,&lt;0.55</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pygraphviz-feedstock"><strong>pygraphviz</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
-</ul>
+<dt class="field-even">depends networkx<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends numba<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.54,&lt;0.55</span></code></p>
 </dd>
-<dt class="field-odd">Required By<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pygraphviz<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
 </dd>
+<dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
-<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">phertilizer</span>
+</div></blockquote>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micrpmamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
+<p>While any of above package managers is fine, it is currently recommended to use either
+micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
+We will show all commands using mamba below, but the arguments are the same for the two
+others.</p>
+<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">phertilizer</span>
+
+<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
+
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">phertilizer</span>
 </pre></div>
 </div>
-<p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">phertilizer</span>
+<p>To create a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">phertilizer</span>
 </pre></div>
 </div>
-<p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">phertilizer</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
+(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
+<p>Alternatively, use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/phertilizer:&lt;tag&gt;
+
+(see `phertilizer/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/phertilizer?tab=tags">phertilizer/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>

@@ -89,50 +89,83 @@
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-connectome-workbench">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">connectome-workbench</span></span><a class="headerlink" href="#package-connectome-workbench" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/connectome-workbench"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/connectome-workbench.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/connectome-workbench"><img alt="docker_connectome-workbench" src="https://quay.io/repository/biocontainers/connectome-workbench/status" /></a></p>
+<dd><blockquote>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/connectome-workbench"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/connectome-workbench.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/connectome-workbench"><img alt="docker_connectome-workbench" src="https://quay.io/repository/biocontainers/connectome-workbench/status" /></a></p>
 <dl class="field-list simple">
-<dt class="field-odd">Versions<span class="colon">:</span></dt>
+<dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.1-0</span></code></p>
 </dd>
-<dt class="field-even">Depends<span class="colon">:</span></dt>
-<dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/freetype-feedstock"><strong>freetype</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.9.1,&lt;3.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.9</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libglu-feedstock"><strong>libglu</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libpng-feedstock"><strong>libpng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.6.34,&lt;1.7.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.9</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/mesa-feedstock"><strong>mesa</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openmp-feedstock"><strong>openmp</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openssl-feedstock"><strong>openssl</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.2p,&lt;1.0.3a</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.9.6,&lt;5.10.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xorg-libx11-feedstock"><strong>xorg-libx11</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xorg-libxau-feedstock"><strong>xorg-libxau</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xorg-libxcb-feedstock"><strong>xorg-libxcb</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xorg-libxdmcp-feedstock"><strong>xorg-libxdmcp</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xorg-libxext-feedstock"><strong>xorg-libxext</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xorg-libxfixes-feedstock"><strong>xorg-libxfixes</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11,&lt;1.3.0a0</span></code></p></li>
-</ul>
+<dt class="field-even">depends freetype<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.9.1,&lt;3.0a0</span></code></p>
 </dd>
-<dt class="field-odd">Required By<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.9</span></code></p>
 </dd>
+<dt class="field-even">depends libglu<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends libpng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.34,&lt;1.7.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends libstdcxx-ng<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.9</span></code></p>
+</dd>
+<dt class="field-odd">depends mesa<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends openmp<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends openssl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.2p,&lt;1.0.3a</span></code></p>
+</dd>
+<dt class="field-even">depends qt<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.9.6,&lt;5.10.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends xorg-libx11<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends xorg-libxau<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends xorg-libxcb<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends xorg-libxdmcp<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends xorg-libxext<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends xorg-libxfixes<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends zlib<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11,&lt;1.3.0a0</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
-<p>With an activated Bioconda channel (see <span class="xref std std-ref">set-up-channels</span>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">connectome</span><span class="o">-</span><span class="n">workbench</span>
+</div></blockquote>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micrpmamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
+<p>While any of above package managers is fine, it is currently recommended to use either
+micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
+We will show all commands using mamba below, but the arguments are the same for the two
+others.</p>
+<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">connectome</span><span class="o">-</span><span class="n">workbench</span>
+
+<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
+
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">connectome</span><span class="o">-</span><span class="n">workbench</span>
 </pre></div>
 </div>
-<p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">connectome</span><span class="o">-</span><span class="n">workbench</span>
+<p>To create a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">connectome</span><span class="o">-</span><span class="n">workbench</span>
 </pre></div>
 </div>
-<p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">connectome</span><span class="o">-</span><span class="n">workbench</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
+(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
+<p>Alternatively, use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/connectome-workbench:&lt;tag&gt;
+
+(see `connectome-workbench/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/connectome-workbench?tab=tags">connectome-workbench/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <script>
