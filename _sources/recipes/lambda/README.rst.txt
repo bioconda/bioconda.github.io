@@ -28,10 +28,10 @@ lambda
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-6</code>,  <code>2.0.0-5</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.3-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-6</code>,  <code>2.0.0-5</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ lambda
 
     <script>
         var package = "lambda";
-        var versions = ["2.0.1","2.0.0","2.0.0","2.0.0","2.0.0"];
+        var versions = ["3.0.0","2.0.1","2.0.0","2.0.0","2.0.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ ampliconsuite
    An end\-to\-end wrapper for focal amplification analysis from whole\-genome sequencing using AmpliconArchitect and associated tools.
 
    :homepage: https://github.com/AmpliconSuite
-   :license: BSD 2-Clause License
+   :license: BSD 2-Clause License (AmpliconSuite-pipeline and AmpliconClassifier) & University of California Software License (AmpliconArchitect). Please see https://github.com/AmpliconSuite/AmpliconSuite-pipeline for more details on licenses.
    :recipe: /`ampliconsuite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ampliconsuite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ampliconsuite/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ ampliconsuite
       
       
 
-      ``0.1555.2-1``,  ``0.1555.2-0``
+      ``1.0.0-0``,  ``0.1555.2-1``,  ``0.1555.2-0``
 
       
 
@@ -91,7 +91,7 @@ ampliconsuite
 
     <script>
         var package = "ampliconsuite";
-        var versions = ["0.1555.2","0.1555.2"];
+        var versions = ["1.0.0","0.1555.2","0.1555.2"];
     </script>
 
 
