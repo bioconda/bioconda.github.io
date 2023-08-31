@@ -13,8 +13,11 @@ haptools
    Ancestry and haplotype aware simulation of genotypes and phenotypes for complex trait analysis
 
    :homepage: https://github.com/cast-genomics/haptools
-   :license: MIT
+   :documentation: https://haptools.readthedocs.io
+   
+   :license: MIT / MIT
    :recipe: /`haptools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haptools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haptools/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btad104`, biotools: :biotools:`haptools`
 
    
 
@@ -27,7 +30,7 @@ haptools
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -85,7 +88,7 @@ haptools
 
     <script>
         var package = "haptools";
-        var versions = ["0.2.1","0.2.0","0.1.3","0.1.2","0.0.3"];
+        var versions = ["0.3.0","0.2.1","0.2.0","0.1.3","0.1.2"];
     </script>
 
 

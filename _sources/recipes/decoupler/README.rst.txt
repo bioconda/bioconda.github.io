@@ -27,7 +27,7 @@ decoupler
       
       
 
-      ``1.4.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``
 
       
 
@@ -35,6 +35,7 @@ decoupler
    :depends anndata: 
    :depends numba: 
    :depends python: ``>=3.6``
+   :depends seaborn: 
    :depends tqdm: 
    :depends typing-extensions: 
    :requirements:
@@ -84,7 +85,7 @@ decoupler
 
     <script>
         var package = "decoupler";
-        var versions = ["1.4.0"];
+        var versions = ["1.4.0","1.4.0"];
     </script>
 
 

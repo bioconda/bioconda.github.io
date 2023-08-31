@@ -13,6 +13,7 @@ gencove
    Gencove is a high\-throughput\, cost\-effective platform for genome sequencing and analysis. This command\-line interface can be used to easily access the Gencove API.
 
    :homepage: https://docs.gencove.com
+   :developer docs: https://github.com/gncv/gencove-cli
    :license: Apache-2.0
    :recipe: /`gencove <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gencove>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gencove/meta.yaml>`_
 
@@ -27,7 +28,7 @@ gencove
       
       
 
-      ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.3-0``
+      ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.3-0``
 
       
 
@@ -89,7 +90,7 @@ gencove
 
     <script>
         var package = "gencove";
-        var versions = ["2.6.0","2.5.2","2.5.1","2.5.0","2.4.7"];
+        var versions = ["2.7.0","2.6.0","2.5.2","2.5.1","2.5.0"];
     </script>
 
 

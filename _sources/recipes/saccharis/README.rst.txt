@@ -27,13 +27,14 @@ saccharis
       
       
 
-      ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
+      ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
 
    
    :depends beautifulsoup4: ``>=4.11.1``
    :depends biopython: ``>=1.79``
+   :depends blast: ``>=2.*``
    :depends dbcan: ``>=3.0.6,<4``
    :depends diamond: ``>=2.0.15``
    :depends fasttree: ``>=2.1.11``
@@ -97,7 +98,7 @@ saccharis
 
     <script>
         var package = "saccharis";
-        var versions = ["2.0.0.dev19","2.0.0.dev18"];
+        var versions = ["2.0.0.dev19","2.0.0.dev19","2.0.0.dev18"];
     </script>
 
 

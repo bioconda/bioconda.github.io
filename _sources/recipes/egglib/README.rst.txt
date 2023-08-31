@@ -31,13 +31,14 @@ egglib
       
       
 
-      ``3.1.0-3``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0b21-1``,  ``3.0.0b21-0``
+      ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0b21-1``,  ``3.0.0b21-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends platformdirs: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -87,7 +88,7 @@ egglib
 
     <script>
         var package = "egglib";
-        var versions = ["3.1.0","3.1.0","3.1.0","3.0.0b21","3.0.0b21"];
+        var versions = ["3.3.0","3.1.0","3.1.0","3.1.0","3.0.0b21"];
     </script>
 
 
