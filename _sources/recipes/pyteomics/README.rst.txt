@@ -29,10 +29,10 @@ pyteomics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6-0</code>,  <code>4.5.6-0</code>,  <code>4.5.5-0</code>,  <code>4.5.4-0</code>,  <code>4.5.3-0</code>,  <code>4.5.2-0</code>,  <code>4.5.1-0</code>,  <code>4.5-0</code>,  <code>4.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.6.1-0</code>,  <code>4.6-0</code>,  <code>4.5.6-0</code>,  <code>4.5.5-0</code>,  <code>4.5.4-0</code>,  <code>4.5.3-0</code>,  <code>4.5.2-0</code>,  <code>4.5.1-0</code>,  <code>4.5-0</code>,  </span></summary>
       
 
-      ``4.6-0``,  ``4.5.6-0``,  ``4.5.5-0``,  ``4.5.4-0``,  ``4.5.3-0``,  ``4.5.2-0``,  ``4.5.1-0``,  ``4.5-0``,  ``4.4.2-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.2-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.5.1-2``,  ``3.5.1-0``,  ``3.4-1``,  ``3.4-0``
+      ``4.6.1-0``,  ``4.6-0``,  ``4.5.6-0``,  ``4.5.5-0``,  ``4.5.4-0``,  ``4.5.3-0``,  ``4.5.2-0``,  ``4.5.1-0``,  ``4.5-0``,  ``4.4.2-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.2-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.5.1-2``,  ``3.5.1-0``,  ``3.4-1``,  ``3.4-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ pyteomics
    .. rubric:: Installation
 
   You need a conda-compatible package manager
-  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
   and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
   While any of above package managers is fine, it is currently recommended to use either
@@ -94,7 +94,7 @@ pyteomics
 
     <script>
         var package = "pyteomics";
-        var versions = ["4.6","4.5.6","4.5.5","4.5.4","4.5.3"];
+        var versions = ["4.6.1","4.6","4.5.6","4.5.5","4.5.4"];
     </script>
 
 

@@ -93,30 +93,32 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/xengsort"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/xengsort.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/xengsort"><img alt="docker_xengsort" src="https://quay.io/repository/biocontainers/xengsort/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.5.0.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.0.3-0</span></code></p>
 </dd>
-<dt class="field-even">depends numba<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.56</span></code></p>
-</dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22</span></code></p>
-</dd>
-<dt class="field-even">depends pytest<span class="colon">:</span></dt>
+<dt class="field-even">depends jsonargparse<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p>
+<dt class="field-odd">depends numba<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.56</span></code></p>
 </dd>
-<dt class="field-even">depends pyyaml<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends zarr<span class="colon">:</span></dt>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22</span></code></p>
+</dd>
+<dt class="field-odd">depends pytest<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p>
+</dd>
+<dt class="field-odd">depends pyyaml<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends zarr<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
 <p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micrpmamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
 and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
 <p>While any of above package managers is fine, it is currently recommended to use either
 micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
@@ -146,7 +148,7 @@ others.</p>
 
 <script>
     var package = "xengsort";
-    var versions = ["1.5.0.3"];
+    var versions = ["2.0.0","1.5.0.3"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

@@ -30,10 +30,10 @@ mob_suite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.6-1</code>,  <code>3.1.6-0</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.7-0</code>,  <code>3.1.6-1</code>,  <code>3.1.6-0</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  </span></summary>
       
 
-      ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.9.1-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.6-1``,  ``1.4.5-1``,  ``1.4.1-0``
+      ``3.1.7-0``,  ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.9.1-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.6-1``,  ``1.4.5-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -58,7 +58,7 @@ mob_suite
    .. rubric:: Installation
 
   You need a conda-compatible package manager
-  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
   and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
   While any of above package managers is fine, it is currently recommended to use either
@@ -100,7 +100,7 @@ mob_suite
 
     <script>
         var package = "mob_suite";
-        var versions = ["3.1.6","3.1.6","3.1.5","3.1.4","3.1.2"];
+        var versions = ["3.1.7","3.1.6","3.1.6","3.1.5","3.1.4"];
     </script>
 
 

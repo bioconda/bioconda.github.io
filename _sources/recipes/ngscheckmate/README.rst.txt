@@ -27,21 +27,23 @@ ngscheckmate
       
       
 
-      ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bcftools: 
-   :depends python: ``2.7.18.*``
-   :depends r: ``4.1.*``
-   :depends samtools: ``1.14.*``
+   :depends bowtie: 
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends python: ``2.*``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
 
   You need a conda-compatible package manager
-  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
   and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
   While any of above package managers is fine, it is currently recommended to use either
@@ -83,7 +85,7 @@ ngscheckmate
 
     <script>
         var package = "ngscheckmate";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

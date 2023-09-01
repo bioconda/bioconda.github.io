@@ -31,10 +31,10 @@ ncbi-datasets-pylib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>15.14.0-0</code>,  <code>15.13.1-0</code>,  <code>15.13.0-0</code>,  <code>15.12.0-0</code>,  <code>15.11.0-0</code>,  <code>14.27.0-0</code>,  <code>14.26.0-0</code>,  <code>14.25.1-0</code>,  <code>14.23.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>15.15.0-0</code>,  <code>15.14.0-0</code>,  <code>15.13.1-0</code>,  <code>15.13.0-0</code>,  <code>15.12.0-0</code>,  <code>15.11.0-0</code>,  <code>14.27.0-0</code>,  <code>14.26.0-0</code>,  <code>14.25.1-0</code>,  </span></summary>
       
 
-      ``15.14.0-0``,  ``15.13.1-0``,  ``15.13.0-0``,  ``15.12.0-0``,  ``15.11.0-0``,  ``14.27.0-0``,  ``14.26.0-0``,  ``14.25.1-0``,  ``14.23.0-0``,  ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
+      ``15.15.0-0``,  ``15.14.0-0``,  ``15.13.1-0``,  ``15.13.0-0``,  ``15.12.0-0``,  ``15.11.0-0``,  ``14.27.0-0``,  ``14.26.0-0``,  ``14.25.1-0``,  ``14.23.0-0``,  ``14.22.1-0``,  ``14.22.0-0``,  ``14.21.0-0``,  ``14.20.0-0``,  ``14.19.0-0``,  ``14.18.0-0``,  ``14.17.0-0``,  ``14.16.0-0``,  ``14.15.0-0``,  ``14.13.0-0``
 
       
       .. raw:: html
@@ -55,7 +55,7 @@ ncbi-datasets-pylib
    .. rubric:: Installation
 
   You need a conda-compatible package manager
-  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
   and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
   While any of above package managers is fine, it is currently recommended to use either
@@ -97,7 +97,7 @@ ncbi-datasets-pylib
 
     <script>
         var package = "ncbi-datasets-pylib";
-        var versions = ["15.14.0","15.13.1","15.13.0","15.12.0","15.11.0"];
+        var versions = ["15.15.0","15.14.0","15.13.1","15.13.0","15.12.0"];
     </script>
 
 

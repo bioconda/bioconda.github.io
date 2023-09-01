@@ -27,15 +27,20 @@ decoupler
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``
+      ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
    
+   :depends adjusttext: 
    :depends anndata: 
    :depends numba: 
+   :depends omnipath: 
    :depends python: ``>=3.6``
+   :depends scanpy: 
+   :depends scikit-learn: 
    :depends seaborn: 
+   :depends skranger: 
    :depends tqdm: 
    :depends typing-extensions: 
    :requirements:
@@ -43,7 +48,7 @@ decoupler
    .. rubric:: Installation
 
   You need a conda-compatible package manager
-  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
   and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
   While any of above package managers is fine, it is currently recommended to use either
@@ -85,7 +90,7 @@ decoupler
 
     <script>
         var package = "decoupler";
-        var versions = ["1.4.0","1.4.0"];
+        var versions = ["1.5.0","1.4.0","1.4.0"];
     </script>
 
 

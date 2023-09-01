@@ -28,11 +28,12 @@ xengsort
       
       
 
-      ``1.5.0.3-0``
+      ``2.0.0-0``,  ``1.5.0.3-0``
 
       
 
    
+   :depends jsonargparse: 
    :depends numba: ``>=0.56``
    :depends numpy: ``>=1.22``
    :depends pytest: 
@@ -44,7 +45,7 @@ xengsort
    .. rubric:: Installation
 
   You need a conda-compatible package manager
-  (currently either `micrpmamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
   and the Bioconda channel already activated (see :ref:`set-up-channels`).
 
   While any of above package managers is fine, it is currently recommended to use either
@@ -86,7 +87,7 @@ xengsort
 
     <script>
         var package = "xengsort";
-        var versions = ["1.5.0.3"];
+        var versions = ["2.0.0","1.5.0.3"];
     </script>
 
 
