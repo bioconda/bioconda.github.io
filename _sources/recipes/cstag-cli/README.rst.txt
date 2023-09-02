@@ -27,7 +27,7 @@ cstag-cli
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ cstag-cli
 
     <script>
         var package = "cstag-cli";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

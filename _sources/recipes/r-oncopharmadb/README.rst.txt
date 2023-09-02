@@ -27,7 +27,7 @@ r-oncopharmadb
       
       
 
-      ``1.3.7-0``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``1.4.4-0``,  ``1.3.7-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -89,7 +89,7 @@ r-oncopharmadb
 
     <script>
         var package = "r-oncopharmadb";
-        var versions = ["1.3.7","0.0.1","0.0.1"];
+        var versions = ["1.4.4","1.3.7","0.0.1","0.0.1"];
     </script>
 
 

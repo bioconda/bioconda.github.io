@@ -27,13 +27,14 @@ snakemake-interface-executor-plugins
       
       
 
-      ``1.0.1-0``
+      ``1.1.1-0``,  ``1.0.1-0``
 
       
 
    
    :depends argparse-dataclass: ``>=2.0.0,<3.0.0``
    :depends python: ``>=3.9.0,<4.0.0``
+   :depends snakemake-interface-common: 
    :depends throttler: ``>=1.2.2,<2.0.0``
    :requirements:
 
@@ -82,7 +83,7 @@ snakemake-interface-executor-plugins
 
     <script>
         var package = "snakemake-interface-executor-plugins";
-        var versions = ["1.0.1"];
+        var versions = ["1.1.1","1.0.1"];
     </script>
 
 
