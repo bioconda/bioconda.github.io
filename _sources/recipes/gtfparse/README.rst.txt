@@ -13,7 +13,7 @@ gtfparse
    GTF Parsing
 
    :homepage: https://github.com/openvax/gtfparse
-   :license: APACHE / Apache 2.0
+   :license: Apache / Apache-2.0
    :recipe: /`gtfparse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtfparse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtfparse/meta.yaml>`_
 
    
@@ -27,13 +27,14 @@ gtfparse
       
       
 
-      ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.7-1``,  ``1.0.7-0``
+      ``2.0.1-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.7-1``,  ``1.0.7-0``
 
       
 
    
-   :depends numpy: ``>=1.7,<2.0``
+   :depends numpy: ``>=1.7``
    :depends pandas: ``>=0.15``
+   :depends polars: 
    :depends python: 
    :requirements:
 
@@ -82,7 +83,7 @@ gtfparse
 
     <script>
         var package = "gtfparse";
-        var versions = ["1.2.1","1.2.0","1.2.0","1.0.7","1.0.7"];
+        var versions = ["2.0.1","1.2.1","1.2.0","1.2.0","1.0.7"];
     </script>
 
 

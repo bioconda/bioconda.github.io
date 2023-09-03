@@ -56,10 +56,10 @@ biobb_common
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -68,8 +68,8 @@ biobb_common
       
 
    
-   :depends biopython: ``1.79``
-   :depends python: ``>=3.7,<=3.10``
+   :depends biopython: 
+   :depends python: ``>=3.8.0``
    :depends pyyaml: 
    :depends requests: 
    :requirements:
@@ -119,7 +119,7 @@ biobb_common
 
     <script>
         var package = "biobb_common";
-        var versions = ["4.0.0","3.9.0","3.8.1","3.7.0","3.6.0"];
+        var versions = ["4.1.0","4.1.0","4.0.0","3.9.0","3.8.1"];
     </script>
 
 

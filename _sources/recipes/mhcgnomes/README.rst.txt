@@ -27,7 +27,7 @@ mhcgnomes
       
       
 
-      ``1.8.4-0``
+      ``1.8.6-0``,  ``1.8.4-0``
 
       
 
@@ -35,7 +35,7 @@ mhcgnomes
    :depends numpy: 
    :depends pandas: 
    :depends python: 
-   :depends pyyaml: ``5.4``
+   :depends pyyaml: ``>=5.4``
    :depends serializable: 
    :requirements:
 
@@ -84,7 +84,7 @@ mhcgnomes
 
     <script>
         var package = "mhcgnomes";
-        var versions = ["1.8.4"];
+        var versions = ["1.8.6","1.8.4"];
     </script>
 
 
