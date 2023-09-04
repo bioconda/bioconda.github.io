@@ -27,7 +27,7 @@ cialign
       
       
 
-      ``1.0.18-0``
+      ``1.1.0-0``,  ``1.0.18-0``
 
       
 
@@ -84,7 +84,7 @@ cialign
 
     <script>
         var package = "cialign";
-        var versions = ["1.0.18"];
+        var versions = ["1.1.0","1.0.18"];
     </script>
 
 

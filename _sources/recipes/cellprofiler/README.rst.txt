@@ -28,12 +28,12 @@ cellprofiler
       
       
 
-      ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
+      ``4.2.6-0``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
 
       
 
    
-   :depends cellprofiler-core: ``4.2.1.*``
+   :depends cellprofiler-core: ``4.2.6.*``
    :depends centrosome: 
    :depends docutils: 
    :depends h5py: ``>=2.10``
@@ -44,13 +44,13 @@ cellprofiler
    :depends mahotas: 
    :depends matplotlib-base: 
    :depends mysqlclient: 
-   :depends numpy: ``>=1.18.2,<=1.20.0``
+   :depends numpy: 
    :depends pillow: 
    :depends prokaryote: 
-   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-bioformats: 
    :depends python-javabridge: 
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends requests: 
    :depends scikit-image: ``>=0.17.2``
    :depends scikit-learn: ``>=0.20``
@@ -105,7 +105,7 @@ cellprofiler
 
     <script>
         var package = "cellprofiler";
-        var versions = ["4.2.1","4.2.1","4.2.1","4.2.1","4.2.0"];
+        var versions = ["4.2.6","4.2.1","4.2.1","4.2.1","4.2.1"];
     </script>
 
 

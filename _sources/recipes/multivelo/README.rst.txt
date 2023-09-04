@@ -13,7 +13,7 @@ multivelo
    Multi\-omic extension of single\-cell RNA velocity
 
    :homepage: https://github.com/welch-lab/MultiVelo
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`multivelo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multivelo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multivelo/meta.yaml>`_
 
    
@@ -27,14 +27,14 @@ multivelo
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
    :depends anndata: ``>=0.7.5``
    :depends h5py: ``>=2.10.0``
-   :depends ipywidgets: 
+   :depends ipywidgets: ``<=7.7.1``
    :depends joblib: 
    :depends loompy: ``>=2.0.12``
    :depends matplotlib-base: ``>=3.3.0``
@@ -96,7 +96,7 @@ multivelo
 
     <script>
         var package = "multivelo";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.3","0.1.2"];
     </script>
 
 

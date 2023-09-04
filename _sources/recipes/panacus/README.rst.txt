@@ -27,7 +27,7 @@ panacus
       
       
 
-      ``0.2.1-0``,  ``0.2-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
 
       
 
@@ -87,7 +87,7 @@ panacus
 
     <script>
         var package = "panacus";
-        var versions = ["0.2.1","0.2"];
+        var versions = ["0.2.2","0.2.1","0.2"];
     </script>
 
 
