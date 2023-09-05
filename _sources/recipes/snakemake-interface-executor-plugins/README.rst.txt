@@ -27,7 +27,7 @@ snakemake-interface-executor-plugins
       
       
 
-      ``1.1.1-0``,  ``1.0.1-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
 
@@ -83,7 +83,7 @@ snakemake-interface-executor-plugins
 
     <script>
         var package = "snakemake-interface-executor-plugins";
-        var versions = ["1.1.1","1.0.1"];
+        var versions = ["1.1.2","1.1.1","1.0.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ ngscheckmate
       
       
 
-      ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ ngscheckmate
    :depends bcftools: 
    :depends bowtie: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends python: ``2.*``
+   :depends python: ``2.7.*``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends samtools: 
    :requirements:
@@ -85,7 +85,7 @@ ngscheckmate
 
     <script>
         var package = "ngscheckmate";
-        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

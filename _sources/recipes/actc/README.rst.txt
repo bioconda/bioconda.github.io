@@ -27,7 +27,7 @@ actc
       
       
 
-      ``0.2.0-0``
+      ``0.5.0-0``,  ``0.2.0-0``
 
       
 
@@ -79,7 +79,7 @@ actc
 
     <script>
         var package = "actc";
-        var versions = ["0.2.0"];
+        var versions = ["0.5.0","0.2.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ chronumental
       
       
 
-      ``0.0.50-0``,  ``0.0.49-0``,  ``0.0.48-0``,  ``0.0.47-0``
+      ``0.0.61-0``,  ``0.0.50-0``,  ``0.0.49-0``,  ``0.0.48-0``,  ``0.0.47-0``
 
       
 
    
    :depends alive-progress: 
-   :depends numpyro: ``0.9.0``
+   :depends numpyro: 
    :depends pandas: 
    :depends python: ``>=3.6``
    :depends scipy: 
@@ -86,7 +86,7 @@ chronumental
 
     <script>
         var package = "chronumental";
-        var versions = ["0.0.50","0.0.49","0.0.48","0.0.47"];
+        var versions = ["0.0.61","0.0.50","0.0.49","0.0.48","0.0.47"];
     </script>
 
 

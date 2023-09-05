@@ -29,7 +29,7 @@ modlamp
       
       
 
-      ``4.2.1-0``,  ``4.1.2-0``
+      ``4.3.0-0``,  ``4.2.1-0``,  ``4.1.2-0``
 
       
 
@@ -91,7 +91,7 @@ modlamp
 
     <script>
         var package = "modlamp";
-        var versions = ["4.2.1","4.1.2"];
+        var versions = ["4.3.0","4.2.1","4.1.2"];
     </script>
 
 

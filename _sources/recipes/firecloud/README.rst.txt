@@ -28,14 +28,22 @@ firecloud
    :versions:
       
       
+      .. raw:: html
 
-      ``0.16.31-0``,  ``0.16.30-0``,  ``0.16.28-0``,  ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
+         <details><summary><span class="truncated-version-list"><code>0.16.35-0</code>,  <code>0.16.31-0</code>,  <code>0.16.30-0</code>,  <code>0.16.28-0</code>,  <code>0.16.27-1</code>,  <code>0.16.27-0</code>,  <code>0.16.26-1</code>,  <code>0.16.26-0</code>,  <code>0.16.25-0</code>,  </span></summary>
+      
 
+      ``0.16.35-0``,  ``0.16.31-0``,  ``0.16.30-0``,  ``0.16.28-0``,  ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends google-auth: ``>=1.6.3``
-   :depends google-cloud-sdk: 
+   :depends google-cloud-storage: 
    :depends pydot: 
    :depends python: 
    :depends requests: 
@@ -87,7 +95,7 @@ firecloud
 
     <script>
         var package = "firecloud";
-        var versions = ["0.16.31","0.16.30","0.16.28","0.16.27","0.16.27"];
+        var versions = ["0.16.35","0.16.31","0.16.30","0.16.28","0.16.27"];
     </script>
 
 

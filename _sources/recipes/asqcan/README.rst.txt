@@ -13,7 +13,7 @@ asqcan
    A combined pipeline for bacterial genome assembly\, quality control and annotation
 
    :homepage: https://github.com/bogemad/asqcan
-   :license: GPL / GPLv3
+   :license: GPL / GPL-3.0-only
    :recipe: /`asqcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asqcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asqcan/meta.yaml>`_
 
    
@@ -27,18 +27,22 @@ asqcan
       
       
 
-      ``0.2-2``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+      ``0.4-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
 
       
 
    
    :depends blast: 
    :depends blobtools: 
-   :depends fastqc: 
+   :depends bwa: 
+   :depends diamond: 
+   :depends fastp: 
    :depends parallel: 
    :depends prokka: 
-   :depends python: ``<3``
+   :depends python: 
    :depends quast: 
+   :depends requests: 
+   :depends samtools: 
    :depends spades: 
    :requirements:
 
@@ -87,7 +91,7 @@ asqcan
 
     <script>
         var package = "asqcan";
-        var versions = ["0.2","0.2","0.2","0.1"];
+        var versions = ["0.4","0.2","0.2","0.2","0.1"];
     </script>
 
 
