@@ -27,7 +27,7 @@ ms-entropy
       
       
 
-      ``0.9.11-0``
+      ``0.9.12-0``,  ``0.9.11-0``
 
       
 
@@ -83,7 +83,7 @@ ms-entropy
 
     <script>
         var package = "ms-entropy";
-        var versions = ["0.9.11"];
+        var versions = ["0.9.12","0.9.11"];
     </script>
 
 

@@ -13,7 +13,7 @@ truvari
    Structural variant comparison tool for VCFs
 
    :homepage: https://github.com/ACEnglish/truvari
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`truvari <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/truvari>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/truvari/meta.yaml>`_
 
    
@@ -27,20 +27,21 @@ truvari
       
       
 
-      ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+      ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
 
       
 
    
-   :depends bwapy: ``>=0.1.4``
+   :depends bwapy: 
    :depends intervaltree: ``>=3.0.2``
-   :depends joblib: ``>=1.0.1``
-   :depends numpy: ``>=1.23.3``
-   :depends pandas: ``>=1.4.4``
+   :depends joblib: ``>=1.2.0``
+   :depends numpy: 
+   :depends pandas: 
    :depends pysam: ``>=0.15.2``
-   :depends pytabix: ``>=0.1``
+   :depends pytabix: 
    :depends python: ``>=3.6``
-   :depends python-edlib: ``>=1.3.8.post2``
+   :depends python-edlib: ``>=1.3.9``
+   :depends pywfa: ``>=0.5.1``
    :depends rich: ``>=12.5.1``
    :requirements:
 
@@ -89,7 +90,7 @@ truvari
 
     <script>
         var package = "truvari";
-        var versions = ["4.0.0","3.5.0","3.4.0","3.3.0","3.2.0"];
+        var versions = ["4.1.0","4.0.0","3.5.0","3.4.0","3.3.0"];
     </script>
 
 

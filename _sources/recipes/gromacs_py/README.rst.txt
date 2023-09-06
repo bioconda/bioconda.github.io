@@ -30,13 +30,13 @@ gromacs_py
       
       
 
-      ``2.0.2-0``,  ``1.2.1-0``,  ``1.1.1-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``1.2.1-0``,  ``1.1.1-0``
 
       
 
    
-   :depends acpype: ``2020.10.*``
-   :depends gromacs: ``2019.1.*``
+   :depends acpype: 
+   :depends gromacs: ``>=2019.1``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends os_command_py: 
@@ -44,7 +44,7 @@ gromacs_py
    :depends pdb2pqr_htmd_propka30: 
    :depends pdb_manip_py: 
    :depends python: ``>=3.5``
-   :depends rdkit: ``2020.09.*``
+   :depends rdkit: 
    :depends scipy: 
    :depends tqdm: 
    :requirements:
@@ -94,7 +94,7 @@ gromacs_py
 
     <script>
         var package = "gromacs_py";
-        var versions = ["2.0.2","1.2.1","1.1.1"];
+        var versions = ["2.0.3","2.0.2","1.2.1","1.1.1"];
     </script>
 
 

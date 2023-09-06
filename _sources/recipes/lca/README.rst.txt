@@ -26,9 +26,17 @@ lca
    :versions:
       
       
+      .. raw:: html
 
-      ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
+         <details><summary><span class="truncated-version-list"><code>0.25-0</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  <code>0.24-0</code>,  <code>0.23-1</code>,  <code>0.23-0</code>,  <code>0.22-0</code>,  <code>0.21-1</code>,  <code>0.21-0</code>,  </span></summary>
+      
 
+      ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -83,7 +91,7 @@ lca
 
     <script>
         var package = "lca";
-        var versions = ["0.24","0.24","0.24","0.23","0.23"];
+        var versions = ["0.25","0.24","0.24","0.24","0.23"];
     </script>
 
 

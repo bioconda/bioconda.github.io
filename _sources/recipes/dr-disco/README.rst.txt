@@ -28,10 +28,10 @@ dr-disco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.14.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.18.3-0</code>,  <code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.14.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  </span></summary>
       
 
-      ``0.18.0-0``,  ``0.16.3-0``,  ``0.14.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.0-0``
+      ``0.18.3-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.14.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ dr-disco
 
    
    :depends click: 
-   :depends fuma: 
    :depends htseq: 
+   :depends numpy: 
    :depends pyfaidx: 
    :depends pysam: 
-   :depends python: ``<3``
+   :depends python: 
    :depends scipy: 
    :depends tqdm: 
    :requirements:
@@ -95,7 +95,7 @@ dr-disco
 
     <script>
         var package = "dr-disco";
-        var versions = ["0.18.0","0.16.3","0.14.0","0.11.0","0.10.0"];
+        var versions = ["0.18.3","0.18.0","0.16.3","0.14.0","0.11.0"];
     </script>
 
 

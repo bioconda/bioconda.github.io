@@ -27,7 +27,7 @@ hybkit
       
       
 
-      ``0.3.0-0``
+      ``0.3.3-0``,  ``0.3.0-0``
 
       
 
@@ -82,7 +82,7 @@ hybkit
 
     <script>
         var package = "hybkit";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.3","0.3.0"];
     </script>
 
 
