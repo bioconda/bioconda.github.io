@@ -12,7 +12,7 @@ poseidon-xerxes
 
    A tool \(xerxes\) to analyse genotype databases formatted using Poseidon.
 
-   :homepage: https://poseidon-framework.github.io/#/
+   :homepage: https://github.com/poseidon-framework/poseidon-analysis-hs
    :license: MIT
    :recipe: /`poseidon-xerxes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-xerxes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-xerxes/meta.yaml>`_
 
@@ -27,7 +27,7 @@ poseidon-xerxes
       
       
 
-      ``0.1.2.2-2``,  ``0.1.2.2-1``,  ``0.1.2.2-0``,  ``0.1.0.0-0``
+      ``0.3.4.0-0``,  ``0.1.2.2-2``,  ``0.1.2.2-1``,  ``0.1.2.2-0``,  ``0.1.0.0-0``
 
       
 
@@ -83,7 +83,7 @@ poseidon-xerxes
 
     <script>
         var package = "poseidon-xerxes";
-        var versions = ["0.1.2.2","0.1.2.2","0.1.2.2","0.1.0.0"];
+        var versions = ["0.3.4.0","0.1.2.2","0.1.2.2","0.1.2.2","0.1.0.0"];
     </script>
 
 

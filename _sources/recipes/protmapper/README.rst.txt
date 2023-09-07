@@ -15,7 +15,7 @@ protmapper
    :homepage: https://github.com/indralab/protmapper
    :documentation: https://protmapper.readthedocs.io
    
-   :license: BSD / BSD
+   :license: BSD / BSD-2-Clause
    :recipe: /`protmapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protmapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protmapper/meta.yaml>`_
 
    
@@ -29,12 +29,13 @@ protmapper
       
       
 
-      ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.14-0``,  ``0.0.13-0``
+      ``0.0.28-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.14-0``,  ``0.0.13-0``
 
       
 
    
    :depends boto3: 
+   :depends pystow: ``>=0.1.0``
    :depends python: ``>=3``
    :depends rdflib: 
    :depends requests: 
@@ -85,7 +86,7 @@ protmapper
 
     <script>
         var package = "protmapper";
-        var versions = ["0.0.21","0.0.20","0.0.19","0.0.17","0.0.16"];
+        var versions = ["0.0.28","0.0.21","0.0.20","0.0.19","0.0.17"];
     </script>
 
 

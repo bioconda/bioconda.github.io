@@ -49,17 +49,17 @@ biobb_flexdyn
       
       
 
-      ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
+      ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
 
       
 
    
-   :depends biobb_common: ``4.0.0``
+   :depends biobb_common: ``4.1.0``
    :depends concoord: 
    :depends imods: 
    :depends nolb: 
    :depends prody: 
-   :depends python: ``>=3.7,<3.10``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -107,7 +107,7 @@ biobb_flexdyn
 
     <script>
         var package = "biobb_flexdyn";
-        var versions = ["4.0.3","4.0.2","4.0.1","4.0.0","3.9.0"];
+        var versions = ["4.1.0","4.0.3","4.0.2","4.0.1","4.0.0"];
     </script>
 
 

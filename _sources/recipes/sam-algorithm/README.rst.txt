@@ -27,19 +27,21 @@ sam-algorithm
       
       
 
-      ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``
+      ``1.0.2-0``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``
 
       
 
    
    :depends anndata: ``>=0.7.4``
    :depends dill: 
-   :depends h5py: ``<=2.10.0``
+   :depends h5py: 
+   :depends harmonypy: 
+   :depends hnswlib: 
    :depends numba: ``>=0.50.1``
    :depends numpy: ``>=1.19.0``
-   :depends packaging: 
-   :depends pandas: ``1.0.0``
-   :depends python: ``>=3.7``
+   :depends packaging: ``>=0.20.0``
+   :depends pandas: ``>1.0.0``
+   :depends python: ``>=3.6``
    :depends scikit-learn: ``>=0.23.1``
    :depends scipy: ``>=1.3.1``
    :depends umap-learn: ``>=0.4.6``
@@ -90,7 +92,7 @@ sam-algorithm
 
     <script>
         var package = "sam-algorithm";
-        var versions = ["0.9.0","0.8.9","0.8.8","0.8.7","0.8.6"];
+        var versions = ["1.0.2","0.9.0","0.8.9","0.8.8","0.8.7"];
     </script>
 
 

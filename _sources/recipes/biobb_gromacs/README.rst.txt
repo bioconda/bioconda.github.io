@@ -51,14 +51,14 @@ biobb_gromacs
       
       
 
-      ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
 
    
-   :depends biobb_common: ``4.0.0``
+   :depends biobb_common: ``4.1.0``
    :depends gromacs: ``2022.2``
-   :depends python: ``>=3.7,<=3.10``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -106,7 +106,7 @@ biobb_gromacs
 
     <script>
         var package = "biobb_gromacs";
-        var versions = ["4.0.0","4.0.0","3.9.0","3.8.1","3.8.0"];
+        var versions = ["4.1.0","4.0.0","4.0.0","3.9.0","3.8.1"];
     </script>
 
 

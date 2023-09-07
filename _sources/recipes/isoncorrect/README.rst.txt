@@ -13,7 +13,7 @@ isoncorrect
    De novo error\-correction of long\-read transcriptome reads.
 
    :homepage: https://github.com/ksahlin/isONcorrect
-   :license: GPL / GPL-3.0
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`isoncorrect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoncorrect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoncorrect/meta.yaml>`_
 
    
@@ -27,13 +27,14 @@ isoncorrect
       
       
 
-      ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.1.3.5-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
    :depends numpy: ``>=1.16.2``
-   :depends python: ``>=3``
+   :depends parasail-python: 
+   :depends python: ``>=3.4``
    :depends python-edlib: ``>=1.1.2``
    :requirements:
 
@@ -82,7 +83,7 @@ isoncorrect
 
     <script>
         var package = "isoncorrect";
-        var versions = ["0.0.8","0.0.7","0.0.6","0.0.5","0.0.4"];
+        var versions = ["0.1.3.5","0.0.8","0.0.7","0.0.6","0.0.5"];
     </script>
 
 
