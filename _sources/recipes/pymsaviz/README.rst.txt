@@ -13,7 +13,8 @@ pymsaviz
    MSA visualization python package for sequence analysis
 
    :homepage: https://moshi4.github.io/pyMSAviz/
-   :license: MIT
+   :developer docs: https://github.com/moshi4/pyMSAviz/
+   :license: MIT / MIT
    :recipe: /`pymsaviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymsaviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymsaviz/meta.yaml>`_
 
    
@@ -27,14 +28,15 @@ pymsaviz
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends biopython: ``>=1.79,<2.0``
-   :depends matplotlib-base: ``>=3.5.2,<4.0.0``
-   :depends python: ``>=3.8,<4.0``
+   :depends biopython: ``>=1.79``
+   :depends matplotlib-base: ``>=3.5.2``
+   :depends pytest: 
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +84,7 @@ pymsaviz
 
     <script>
         var package = "pymsaviz";
-        var versions = ["0.4.0","0.3.0","0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.4.1","0.4.0","0.3.0","0.2.2","0.2.1"];
     </script>
 
 
