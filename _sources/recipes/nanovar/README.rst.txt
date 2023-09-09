@@ -28,10 +28,10 @@ nanovar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  </span></summary>
       
 
-      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
+      ``1.5.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -42,9 +42,6 @@ nanovar
    
    :depends bedtools: ``>=2.26.0``
    :depends biopython: ``>=1.78``
-   :depends blast: ``>=2.5.0``
-   :depends cytocad: ``>=1.0.3``
-   :depends hs-blastn: ``>=0.0.5``
    :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=2.2.3``
    :depends minimap2: ``>=2.17``
@@ -105,7 +102,7 @@ nanovar
 
     <script>
         var package = "nanovar";
-        var versions = ["1.4.1","1.4.1","1.4.1","1.4.0","1.3.9"];
+        var versions = ["1.5.0","1.4.1","1.4.1","1.4.1","1.4.0"];
     </script>
 
 

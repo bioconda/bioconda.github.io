@@ -27,7 +27,7 @@ emblmygff3
       
       
 
-      ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2-1``,  ``2-0``,  ``1.3-0``
+      ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2-1``,  ``2-0``,  ``1.3-0``
 
       
 
@@ -35,7 +35,7 @@ emblmygff3
    :depends bcbio-gff: ``>=0.6.4``
    :depends biopython: ``>=1.78``
    :depends numpy: ``>=1.22``
-   :depends python: ``>=3.8.0``
+   :depends python: ``>=3.9.0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ emblmygff3
 
     <script>
         var package = "emblmygff3";
-        var versions = ["2.2","2.2","2.1","2","2"];
+        var versions = ["2.3","2.2","2.2","2.1","2"];
     </script>
 
 

@@ -10,13 +10,13 @@ saccharis
    :replaces_section_title:
    :noindex:
 
-   A CAZyme discovery tool.
+   A CAZyme discovery tool. Easily create phylogenetic trees from FASTA files and CAZyme families.
 
    :homepage: https://github.com/saccharis/SACCHARIS_2
    :license: GPL v3
    :recipe: /`saccharis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saccharis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saccharis/meta.yaml>`_
 
-   Bioinformatics pipeline to automate phylogenetic analysis of CAZyme families in FASTA sequences
+   Bioinformatics pipeline to automate phylogenetic analysis of CAZyme families in FASTA sequences via creation of phylogenetic trees.
 
 
 .. conda:package:: saccharis
@@ -27,7 +27,7 @@ saccharis
       
       
 
-      ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
+      ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
 
@@ -98,7 +98,7 @@ saccharis
 
     <script>
         var package = "saccharis";
-        var versions = ["2.0.0.dev19","2.0.0.dev19","2.0.0.dev18"];
+        var versions = ["2.0.0.dev20","2.0.0.dev19","2.0.0.dev19","2.0.0.dev18"];
     </script>
 
 
