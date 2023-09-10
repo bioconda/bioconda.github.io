@@ -13,7 +13,7 @@ hmnillumina
    A parser for Illumina run
 
    :homepage: https://github.com/guillaume-gricourt/HmnIllumina
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`hmnillumina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmnillumina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmnillumina/meta.yaml>`_
 
    HmnIllumina\: parsing Illumina InterOp folder to keep useful information
@@ -27,7 +27,7 @@ hmnillumina
       
       
 
-      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.3-0``
+      ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.3-0``
 
       
 
@@ -39,7 +39,6 @@ hmnillumina
    :depends pytest: 
    :depends python: 
    :depends rapidjson: 
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +86,7 @@ hmnillumina
 
     <script>
         var package = "hmnillumina";
-        var versions = ["1.5.0","1.5.0","1.4.3"];
+        var versions = ["1.5.1","1.5.0","1.5.0","1.4.3"];
     </script>
 
 

@@ -27,14 +27,14 @@ microbecensus
       
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
    :depends biopython: 
    :depends numpy: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ microbecensus
 
     <script>
         var package = "microbecensus";
-        var versions = ["1.1.1","1.1.1","1.1.0"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0"];
     </script>
 
 

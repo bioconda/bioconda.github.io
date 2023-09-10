@@ -13,7 +13,7 @@ defense-finder
    Defense Finder\: allow for a systematic search of all known anti\-phage systems.
 
    :homepage: https://github.com/mdmparis/defense-finder
-   :license: GPL-3.0
+   :license: GPL-3.0-or-later
    :recipe: /`defense-finder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/defense-finder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/defense-finder/meta.yaml>`_
 
    
@@ -27,14 +27,14 @@ defense-finder
       
       
 
-      ``1.0.9-0``
+      ``1.1.1-0``,  ``1.0.9-0``
 
       
 
    
    :depends click: ``>=8.0.3``
    :depends colorlog: ``>=6.3.0a1``
-   :depends macsyfinder: ``>=2``
+   :depends macsyfinder: 
    :depends python: ``>=3.7``
    :requirements:
 
@@ -83,7 +83,7 @@ defense-finder
 
     <script>
         var package = "defense-finder";
-        var versions = ["1.0.9"];
+        var versions = ["1.1.1","1.0.9"];
     </script>
 
 

@@ -15,7 +15,7 @@ pyfastx
    FASTA\/Q file
 
    :homepage: https://github.com/lmdu/pyfastx
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pyfastx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfastx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfastx/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ pyfastx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-3</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>0.9.1-0</code>,  <code>0.8.4-1</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.1.0-3</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>0.9.1-0</code>,  <code>0.8.4-1</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  </span></summary>
       
 
-      ``1.1.0-3``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``0.9.1-0``,  ``0.8.4-1``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.16-0``,  ``0.6.15-0``,  ``0.6.14-0``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``
+      ``2.0.0-0``,  ``1.1.0-3``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``0.9.1-0``,  ``0.8.4-1``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.16-0``,  ``0.6.15-0``,  ``0.6.14-0``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``
 
       
       .. raw:: html
@@ -46,7 +46,6 @@ pyfastx
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +93,7 @@ pyfastx
 
     <script>
         var package = "pyfastx";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.0.1","0.9.1"];
+        var versions = ["2.0.0","1.1.0","1.1.0","1.1.0","1.0.1"];
     </script>
 
 

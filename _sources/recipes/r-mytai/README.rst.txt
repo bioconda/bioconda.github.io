@@ -10,10 +10,10 @@ r-mytai
    :replaces_section_title:
    :noindex:
 
-   Investigate the evolution of biological processes by capturing evolutionary signatures in transcriptomes \(Drost et al. \(2017\) \<doi\:10.1093\/bioinformatics\/btx835\>\). The aim of this tool is to provide a transcriptome analysis environment to quantify the average evolutionary age of genes contributing to a transcriptome of interest \(Drost et al. \(2016\) \<doi\:10.1101\/051565\>\).
+   Investigate the evolution of biological processes by capturing evolutionary signatures in transcriptomes \(Drost et al. \(2018\) doi\:10.1093\/bioinformatics\/btx835\). This package aims to provide a transcriptome analysis environment to quantify the average evolutionary age of genes contributing to a transcriptome of interest.
 
    :homepage: https://github.com/drostlab/myTAI
-   :license: GPL / GPLv3
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`r-mytai <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mytai>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mytai/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-mytai
       
       
 
-      ``0.9.3-0``
+      ``0.9.3-1``,  ``0.9.3-0``
 
       
 
@@ -102,7 +102,7 @@ r-mytai
 
     <script>
         var package = "r-mytai";
-        var versions = ["0.9.3"];
+        var versions = ["0.9.3","0.9.3"];
     </script>
 
 

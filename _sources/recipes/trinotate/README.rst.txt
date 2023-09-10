@@ -15,6 +15,7 @@ trinotate
    :homepage: https://trinotate.github.io/
    :license: BSD-3-Clause
    :recipe: /`trinotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinotate/meta.yaml>`_
+   :links: biotools: :biotools:`trinotate`, usegalaxy-eu: :usegalaxy-eu:`trinotate`
 
    
 
@@ -28,10 +29,10 @@ trinotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.1-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``4.0.1-0``,  ``4.0.0-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-7``,  ``3.1.1-6``,  ``3.1.1-5``,  ``3.1.1-4``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-7``,  ``3.1.1-6``,  ``3.1.1-5``,  ``3.1.1-4``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -99,7 +100,7 @@ trinotate
 
     <script>
         var package = "trinotate";
-        var versions = ["4.0.1","4.0.0","3.2.2","3.2.2","3.2.1"];
+        var versions = ["4.0.2","4.0.1","4.0.0","3.2.2","3.2.2"];
     </script>
 
 

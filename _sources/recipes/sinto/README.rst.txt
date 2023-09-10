@@ -13,6 +13,7 @@ sinto
    sinto\: tools for single\-cell data processing
 
    :homepage: https://timoast.github.io/sinto/
+   :developer docs: https://github.com/timoast/sinto
    :license: MIT / MIT
    :recipe: /`sinto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sinto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sinto/meta.yaml>`_
 
@@ -26,16 +27,25 @@ sinto
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  </span></summary>
+      
 
+      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends numpy: 
-   :depends pysam: ``>=0.14``
-   :depends python: 
+   :depends pysam: ``>=0.14,<0.21``
+   :depends python: ``>=3.8``
    :depends scipy: 
+   :depends umi_tools: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +93,7 @@ sinto
 
     <script>
         var package = "sinto";
-        var versions = ["0.9.0","0.8.4","0.8.3","0.8.1","0.8.0"];
+        var versions = ["0.10.0","0.9.0","0.8.4","0.8.3","0.8.1"];
     </script>
 
 
