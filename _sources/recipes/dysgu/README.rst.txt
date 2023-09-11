@@ -27,7 +27,7 @@ dysgu
       
       
 
-      ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
 
@@ -45,13 +45,13 @@ dysgu
    :depends numpy: ``>=1.18``
    :depends numpy: ``>=1.25.2,<2.0a0``
    :depends openssl: ``>=3.1.2,<4.0a0``
-   :depends pandas: 
-   :depends pysam: 
+   :depends pandas: ``>=1.2``
+   :depends pysam: ``>=0.19``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: 
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: ``>=0.22``
-   :depends scipy: 
+   :depends scipy: ``>1.7``
    :depends sortedcontainers: 
    :depends wheel: 
    :depends xz: ``>=5.2.6,<6.0a0``
@@ -103,7 +103,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.6.0","1.5.0","1.5.0","1.4.2","1.4.0"];
+        var versions = ["1.6.0","1.6.0","1.5.0","1.5.0","1.4.2"];
     </script>
 
 

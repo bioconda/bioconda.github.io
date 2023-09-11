@@ -16,7 +16,7 @@ harpy
    :documentation: https://pdimens.github.io/harpy/
    
    :developer docs: https://github.com/pdimens/harpy
-   :license: The MIT License (MIT)
+   :license: MIT
    :recipe: /`harpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy/meta.yaml>`_
 
    
