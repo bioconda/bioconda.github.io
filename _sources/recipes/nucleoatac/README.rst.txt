@@ -35,7 +35,7 @@ nucleoatac
       
 
    
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.14,<1.19.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends matplotlib-base: 

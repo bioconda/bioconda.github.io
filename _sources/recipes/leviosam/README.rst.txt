@@ -40,7 +40,7 @@ leviosam
       
 
    
-   :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends htslib: ``>=1.17,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends sdsl-lite: ``>=2.1.1``

@@ -36,7 +36,7 @@ abismal
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends htslib: ``>=1.17,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:

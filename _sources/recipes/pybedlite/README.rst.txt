@@ -13,7 +13,10 @@ pybedlite
    Lightweight python classes for interfacing with bed intervals
 
    :homepage: https://pypi.org/project/pybedlite/
-   :license: MIT
+   :documentation: https://pybedlite.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/fulcrumgenomics/pybedlite
+   :license: MIT / MIT
    :recipe: /`pybedlite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedlite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedlite/meta.yaml>`_
 
    
@@ -27,14 +30,16 @@ pybedlite
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends attrs: ``>=19.3.0``
+   :depends attrs: ``>=23.0.0``
    :depends cgranges: ``>=0.1``
-   :depends python: ``>=3.6``
+   :depends libgcc-ng: ``>=12``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends typing_extensions: ``>=3.7.4``
    :depends typing_inspect: ``>=0.3.1``
    :requirements:
@@ -84,7 +89,7 @@ pybedlite
 
     <script>
         var package = "pybedlite";
-        var versions = ["0.0.3","0.0.2","0.0.1","0.0.1"];
+        var versions = ["0.0.4","0.0.3","0.0.2","0.0.1","0.0.1"];
     </script>
 
 

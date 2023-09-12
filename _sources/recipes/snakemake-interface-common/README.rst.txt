@@ -27,7 +27,7 @@ snakemake-interface-common
       
       
 
-      ``1.3.2-0``
+      ``1.3.3-0``,  ``1.3.2-0``
 
       
 
@@ -80,7 +80,7 @@ snakemake-interface-common
 
     <script>
         var package = "snakemake-interface-common";
-        var versions = ["1.3.2"];
+        var versions = ["1.3.3","1.3.2"];
     </script>
 
 

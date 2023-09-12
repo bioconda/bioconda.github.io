@@ -28,10 +28,10 @@ r-quilt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>0.1.9-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
       
 
-      ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
       .. raw:: html
@@ -108,7 +108,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.3"];
+        var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.4"];
     </script>
 
 

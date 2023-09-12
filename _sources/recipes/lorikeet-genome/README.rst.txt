@@ -48,7 +48,7 @@ lorikeet-genome
    :depends dashing: 
    :depends fastani: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.16,<1.19.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

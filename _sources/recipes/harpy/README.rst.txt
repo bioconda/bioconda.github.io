@@ -30,7 +30,7 @@ harpy
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -38,16 +38,18 @@ harpy
    :depends bcftools: 
    :depends bioconductor-complexheatmap: 
    :depends bwa: 
-   :depends datamash: 
    :depends fastp: 
    :depends hapcut2: 
+   :depends icu: 
    :depends leviathan: 
    :depends libzlib: 
    :depends llvm-openmp: 
    :depends multiqc: 
    :depends naibr-plus: 
-   :depends python: ``>=3.7``
-   :depends r-base: ``>=4``
+   :depends pysam: 
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
+   :depends r-base: 
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -62,10 +64,10 @@ harpy
    :depends rich-click: 
    :depends sambamba: 
    :depends samtools: 
-   :depends seqfu: 
+   :depends seqtk: 
    :depends snakemake: ``>=7``
    :depends tabix: 
-   :depends zlib: 
+   :depends xz: 
    :requirements:
 
    .. rubric:: Installation
@@ -113,7 +115,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["0.3.0","0.2.0","0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.3.0","0.3.0","0.2.0","0.1.1","0.1.1"];
     </script>
 
 

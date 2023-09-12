@@ -40,7 +40,7 @@ bolt
       
 
    
-   :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends htslib: ``>=1.17,<1.19.0a0``
    :depends libcxx: ``>=15.0.7``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends tbb: ``>=2021.9.0``

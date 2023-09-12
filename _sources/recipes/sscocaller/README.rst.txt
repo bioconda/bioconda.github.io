@@ -35,7 +35,7 @@ sscocaller
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends htslib: ``>=1.17,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=10.4.0``

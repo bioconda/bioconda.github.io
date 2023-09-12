@@ -12,9 +12,11 @@ isatools
 
    Metadata tracking tools help to manage an increasingly diverse set of life science\, environmental and biomedical experiments
 
-   :homepage: https://github.com/ISA-tools/isa-api
-   :license: OTHER / CPAL
+   :homepage: https://isa-tools.org/
+   :developer docs: https://github.com/ISA-tools/isa-api
+   :license: MPL-2.0
    :recipe: /`isatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isatools/meta.yaml>`_
+   :links: doi: :doi:`10.1093/gigascience/giab060`
 
    
 
@@ -28,10 +30,10 @@ isatools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.2-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.0-1</code>,  </span></summary>
       
 
-      ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``
+      ``0.14.2-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -41,8 +43,20 @@ isatools
 
    
    :depends beautifulsoup4: 
+   :depends behave: ``1.2.6``
    :depends biopython: 
+   :depends bokeh: 
+   :depends certifi: ``2021.5.30``
    :depends chardet: 
+   :depends coveralls: 
+   :depends ddt: ``>=1.4.2``
+   :depends deepdiff: 
+   :depends flake8: ``3.9.2``
+   :depends flask: 
+   :depends flask-sqlalchemy: 
+   :depends graphene: ``3.1.1``
+   :depends graphql-core: ``3.2.3``
+   :depends httpretty: ``1.1.3``
    :depends iso8601: 
    :depends jinja2: 
    :depends jsonschema: 
@@ -50,11 +64,14 @@ isatools
    :depends mzml2isa: 
    :depends networkx: 
    :depends numpy: 
-   :depends pandas: 
+   :depends openpyxl: 
+   :depends pandas: ``1.5.0``
    :depends progressbar2: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :depends pyyaml: 
+   :depends rdflib: 
    :depends requests: 
+   :depends sure: ``2.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +119,7 @@ isatools
 
     <script>
         var package = "isatools";
-        var versions = ["0.12.2","0.12.1","0.12.0","0.11.0","0.10.3"];
+        var versions = ["0.14.2","0.12.2","0.12.1","0.12.0","0.11.0"];
     </script>
 
 

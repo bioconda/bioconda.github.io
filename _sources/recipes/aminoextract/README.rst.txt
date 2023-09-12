@@ -14,7 +14,7 @@ aminoextract
 
    :homepage: https://pypi.org/project/AminoExtract/
    :developer docs: https://github.com/RIVM-bioinformatics/AminoExtract
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`aminoextract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aminoextract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aminoextract/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ aminoextract
       
       
 
-      ``0.2.1-0``
+      ``0.3.0-0``,  ``0.2.1-0``
 
       
 
@@ -85,7 +85,7 @@ aminoextract
 
     <script>
         var package = "aminoextract";
-        var versions = ["0.2.1"];
+        var versions = ["0.3.0","0.2.1"];
     </script>
 
 
