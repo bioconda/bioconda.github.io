@@ -27,13 +27,13 @@ pbiotools
       
       
 
-      ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.0.0-0``
+      ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.0.0-0``
 
       
 
    
    :depends biopython: 
-   :depends dask: 
+   :depends dask-core: 
    :depends fastparquet: 
    :depends joblib: 
    :depends matplotlib-base: 
@@ -45,7 +45,7 @@ pbiotools
    :depends pandas: 
    :depends pyensembl: 
    :depends pysam: ``>0.9.1``
-   :depends python: 
+   :depends python: ``>=3.7,<3.11``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
@@ -97,7 +97,7 @@ pbiotools
 
     <script>
         var package = "pbiotools";
-        var versions = ["4.0.1","4.0.1","4.0.0","3.0.0","2.0.0"];
+        var versions = ["4.0.2","4.0.1","4.0.1","4.0.0","3.0.0"];
     </script>
 
 

@@ -47,10 +47,10 @@ biobb_structure_utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-0</code>,  <code>3.7.6-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-0</code>,  <code>3.7.6-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  </span></summary>
       
 
-      ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.6-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``
+      ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.6-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -59,9 +59,9 @@ biobb_structure_utils
       
 
    
-   :depends biobb_common: ``4.0.0``
-   :depends biobb_structure_checking: ``3.13.0``
-   :depends python: ``>=3.7,<3.10``
+   :depends biobb_common: ``4.1.0``
+   :depends biobb_structure_checking: ``3.13.4``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -109,7 +109,7 @@ biobb_structure_utils
 
     <script>
         var package = "biobb_structure_utils";
-        var versions = ["4.0.0","4.0.0","3.9.0","3.8.0","3.7.6"];
+        var versions = ["4.1.0","4.0.0","4.0.0","3.9.0","3.8.0"];
     </script>
 
 

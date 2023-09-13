@@ -13,7 +13,10 @@ capcruncher
    An end\-to\-end solution for processing Capture\-C\, Tri\-C and Tiled\-C data
 
    :homepage: https://github.com/sims-lab/CapCruncher.git
-   :license: GPL-3.0
+   :documentation: https://sims-lab.github.io/CapCruncher/
+   
+   :developer docs: https://github.com/sims-lab/CapCruncher
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`capcruncher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/capcruncher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/capcruncher/meta.yaml>`_
 
    
@@ -27,41 +30,38 @@ capcruncher
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
+      ``0.3.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
 
       
 
    
-   :depends bedtools: 
-   :depends bowtie2: ``>=2.4.4``
-   :depends cgatcore: 
-   :depends click: 
+   :depends click: ``<=8.2.0``
    :depends cooler: 
-   :depends cytoolz: ``<0.11``
-   :depends dask: 
-   :depends fastqc: 
-   :depends flash: 
-   :depends iced: 
-   :depends joblib: 
+   :depends duckdb: 
+   :depends h5py: 
+   :depends loguru: 
    :depends more-itertools: 
-   :depends multiqc: 
    :depends natsort: 
-   :depends pandas: 
-   :depends plotly: 
-   :depends pyarrow: 
+   :depends numpy: 
+   :depends pandas: ``<=2.0.1``
+   :depends plotly: ``>5.0.0,<=5.10.0``
+   :depends pyarrow: ``>8.0.0,<=9.0.0``
    :depends pybedtools: 
-   :depends pysam: 
-   :depends python: ``>=3.9``
+   :depends pyranges: 
+   :depends pysam: ``>0.15.0,<=0.19.1``
+   :depends python: ``>=3.10``
    :depends python-xxhash: 
-   :depends samtools: 
+   :depends pyyaml: ``>=6.0``
+   :depends quarto: 
+   :depends ray: 
    :depends seaborn: 
+   :depends sh: 
+   :depends snakemake: ``<=7.30.2``
    :depends tqdm: 
    :depends trackhub: 
-   :depends trim-galore: 
-   :depends ucsc-bedgraphtobigwig: 
-   :depends ucsc-bedtobigbed: 
-   :depends ucsc-fetchchromsizes: 
+   :depends tracknado: 
    :depends ujson: 
+   :depends xopen: 
    :requirements:
 
    .. rubric:: Installation
@@ -109,7 +109,7 @@ capcruncher
 
     <script>
         var package = "capcruncher";
-        var versions = ["0.2.3","0.2.2","0.1.1a1","0.1.0a2"];
+        var versions = ["0.3.4","0.2.3","0.2.2","0.1.1a1","0.1.0a2"];
     </script>
 
 

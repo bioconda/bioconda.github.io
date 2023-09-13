@@ -29,9 +29,17 @@ control-freec
    :versions:
       
       
+      .. raw:: html
 
-      ``11.6-3``,  ``11.6-2``,  ``11.6-1``,  ``11.6-0``,  ``11.5-1``,  ``11.5-0``,  ``11.4-0``,  ``10.6-0``,  ``10.5-0``
+         <details><summary><span class="truncated-version-list"><code>11.6-3</code>,  <code>11.6-2</code>,  <code>11.6-1</code>,  <code>11.6-0</code>,  <code>11.6b-0</code>,  <code>11.5-1</code>,  <code>11.5-0</code>,  <code>11.4-0</code>,  <code>10.6-0</code>,  </span></summary>
+      
 
+      ``11.6-3``,  ``11.6-2``,  ``11.6-1``,  ``11.6-0``,  ``11.6b-0``,  ``11.5-1``,  ``11.5-0``,  ``11.4-0``,  ``10.6-0``,  ``10.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -88,7 +96,7 @@ control-freec
 
     <script>
         var package = "control-freec";
-        var versions = ["11.6","11.6","11.6","11.6","11.5"];
+        var versions = ["11.6","11.6","11.6","11.6","11.6b"];
     </script>
 
 

@@ -13,6 +13,8 @@ phylofisher
    A package for the creation\, analysis\, and visualization of eukaryotic phylogenomic datasets.
 
    :homepage: https://github.com/TheBrownLab/PhyloFisher
+   :documentation: https://thebrownlab.github.io/phylofisher-pages/
+   
    :license: MIT / MIT
    :recipe: /`phylofisher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylofisher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylofisher/meta.yaml>`_
 
@@ -28,10 +30,10 @@ phylofisher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.11-0</code>,  <code>1.2.10-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.12-0</code>,  <code>1.2.11-0</code>,  <code>1.2.10-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  </span></summary>
       
 
-      ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``
+      ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -103,7 +105,7 @@ phylofisher
 
     <script>
         var package = "phylofisher";
-        var versions = ["1.2.11","1.2.10","1.2.9","1.2.8","1.2.7"];
+        var versions = ["1.2.12","1.2.11","1.2.10","1.2.9","1.2.8"];
     </script>
 
 

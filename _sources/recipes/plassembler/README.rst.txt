@@ -13,7 +13,7 @@ plassembler
    Quickly and accurately assemble plasmids in hybrid sequenced bacterial isolates
 
    :homepage: https://github.com/gbouras13/plassembler
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`plassembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plassembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plassembler/meta.yaml>`_
 
    
@@ -27,14 +27,17 @@ plassembler
       
       
 
-      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
+   :depends alive-progress: ``>=3.0.1``
    :depends biopython: ``>=1.76``
+   :depends canu: 
    :depends chopper: ``>=0.5.0``
    :depends click: ``>=8.0.0``
+   :depends dnaapler: 
    :depends fastp: ``>=0.18.0``
    :depends flye: ``>=2.9``
    :depends loguru: ``>=0.5.3``
@@ -45,6 +48,7 @@ plassembler
    :depends python: ``>=3.8,<3.10``
    :depends pyyaml: ``>=6.0``
    :depends raven-assembler: ``>=1.8``
+   :depends requests: ``>=2.25.1``
    :depends samtools: ``>=0.15.0``
    :depends unicycler: ``>=0.4.8``
    :requirements:
@@ -94,7 +98,7 @@ plassembler
 
     <script>
         var package = "plassembler";
-        var versions = ["1.1.0","1.0.0","1.0.0","0.1.5","0.1.4"];
+        var versions = ["1.2.0","1.1.0","1.0.0","1.0.0","0.1.5"];
     </script>
 
 
