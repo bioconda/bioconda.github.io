@@ -27,30 +27,26 @@ lrtk
       
       
 
-      ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
    :depends aquila: 
-   :depends bam-readcount: 
    :depends bcftools: 
    :depends bedtools: 
+   :depends bowtie2: 
    :depends bwa: 
    :depends fastp: 
-   :depends flye: 
    :depends freebayes: 
    :depends gatk: 
    :depends hapcut2: 
-   :depends jellyfish: 
    :depends megahit: 
    :depends metabat2: 
    :depends parallel: 
    :depends picard: 
-   :depends pigz: 
    :depends python: 
-   :depends pytorch: 
-   :depends quickmerge: 
+   :depends r-ade4: 
    :depends r-base: 
    :depends r-clustersim: 
    :depends r-factoextra: 
@@ -58,11 +54,9 @@ lrtk
    :depends r-ggplot2: 
    :depends r-proxy: 
    :depends r-vegan: 
-   :depends scikit-learn: 
-   :depends seqtk: 
-   :depends sortedcontainers: 
-   :depends spades: 
+   :depends tabix: 
    :depends vcflib: 
+   :depends vcftools: 
    :requirements:
 
    .. rubric:: Installation
@@ -110,7 +104,7 @@ lrtk
 
     <script>
         var package = "lrtk";
-        var versions = ["1.7","1.6","1.5","1.3","1.2"];
+        var versions = ["1.8","1.7","1.6","1.5","1.3"];
     </script>
 
 
