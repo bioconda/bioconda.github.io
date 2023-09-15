@@ -27,9 +27,17 @@ gencove
    :versions:
       
       
+      .. raw:: html
 
-      ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.7-0</code>,  <code>2.4.6-0</code>,  <code>2.4.5-0</code>,  </span></summary>
+      
 
+      ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -90,7 +98,7 @@ gencove
 
     <script>
         var package = "gencove";
-        var versions = ["2.7.0","2.6.0","2.5.2","2.5.1","2.5.0"];
+        var versions = ["2.7.1","2.7.0","2.6.0","2.5.2","2.5.1"];
     </script>
 
 

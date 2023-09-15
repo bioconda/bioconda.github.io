@@ -16,7 +16,7 @@ spaln
    :developer docs: https://github.com/ogotoh/spaln
    :license: GPL / GPL-2.0
    :recipe: /`spaln <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spaln>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spaln/meta.yaml>`_
-   :links: doi: :doi:`10.1093/nar/gks708`
+   :links: doi: :doi:`10.1093/nar/gks708`, usegalaxy-eu: :usegalaxy-eu:`spaln`
 
    Spaln \(space\-efficient spliced alignment\) is a stand\-alone program that maps
    and aligns a set of cDNA or protein sequences onto a whole genomic sequence
@@ -35,10 +35,10 @@ spaln
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.13-2</code>,  <code>2.4.13-1</code>,  <code>2.4.13-0</code>,  <code>2.4.13g-0</code>,  <code>2.4.13f-0</code>,  <code>2.4.9-0</code>,  <code>2.4.8-0</code>,  <code>2.4.7-2</code>,  <code>2.4.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.4.13-2</code>,  <code>2.4.13-1</code>,  <code>2.4.13-0</code>,  <code>2.4.13g-0</code>,  <code>2.4.13f-0</code>,  <code>2.4.9-0</code>,  <code>2.4.8-0</code>,  <code>2.4.7-2</code>,  </span></summary>
       
 
-      ``2.4.13-2``,  ``2.4.13-1``,  ``2.4.13-0``,  ``2.4.13g-0``,  ``2.4.13f-0``,  ``2.4.9-0``,  ``2.4.8-0``,  ``2.4.7-2``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.4.6-1``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.03-1``,  ``2.4.03-0``,  ``2.4.02-0``,  ``2.4.01-0``,  ``2.3.3-0``,  ``2.3.3c-0``,  ``2.3.3b-0``,  ``2.3.3a-0``,  ``2.3.2-0``
+      ``3.0.0-0``,  ``2.4.13-2``,  ``2.4.13-1``,  ``2.4.13-0``,  ``2.4.13g-0``,  ``2.4.13f-0``,  ``2.4.9-0``,  ``2.4.8-0``,  ``2.4.7-2``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.4.6-1``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.03-1``,  ``2.4.03-0``,  ``2.4.02-0``,  ``2.4.01-0``,  ``2.3.3-0``,  ``2.3.3c-0``,  ``2.3.3b-0``,  ``2.3.3a-0``,  ``2.3.2-0``
 
       
       .. raw:: html
@@ -49,8 +49,8 @@ spaln
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +98,7 @@ spaln
 
     <script>
         var package = "spaln";
-        var versions = ["2.4.13","2.4.13","2.4.13","2.4.13g","2.4.13f"];
+        var versions = ["3.0.0","2.4.13","2.4.13","2.4.13","2.4.13g"];
     </script>
 
 

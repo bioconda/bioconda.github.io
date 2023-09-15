@@ -13,7 +13,7 @@ olivar
    Olivar PCR tiling design
 
    :homepage: https://gitlab.com/treangenlab/olivar
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`olivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/olivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/olivar/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ olivar
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.0-0``
 
       
 
@@ -86,7 +86,7 @@ olivar
 
     <script>
         var package = "olivar";
-        var versions = ["1.1.1","1.1.0","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.2","1.0.1"];
     </script>
 
 
