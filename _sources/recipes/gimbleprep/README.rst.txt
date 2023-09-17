@@ -13,7 +13,7 @@ gimbleprep
    Preprocess fasta\, bam and vcf files ready to be used by gimble
 
    :homepage: https://github.com/LohseLab/gimbleprep
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`gimbleprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gimbleprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gimbleprep/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ gimbleprep
       
       
 
-      ``0.0.2b3-0``
+      ``0.0.2b4-0``,  ``0.0.2b3-0``
 
       
 
@@ -91,7 +91,7 @@ gimbleprep
 
     <script>
         var package = "gimbleprep";
-        var versions = ["0.0.2b3"];
+        var versions = ["0.0.2b4","0.0.2b3"];
     </script>
 
 

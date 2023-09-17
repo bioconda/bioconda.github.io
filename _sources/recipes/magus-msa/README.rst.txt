@@ -29,7 +29,7 @@ magus-msa
       
       
 
-      ``0.1.2a-0``
+      ``0.1.2-0``,  ``0.1.2a-0``
 
       
 
@@ -88,7 +88,7 @@ magus-msa
 
     <script>
         var package = "magus-msa";
-        var versions = ["0.1.2a"];
+        var versions = ["0.1.2","0.1.2a"];
     </script>
 
 

@@ -15,7 +15,7 @@ monsda
    :homepage: https://github.com/jfallmann/MONSDA
    :documentation: https://monsda.readthedocs.io/en/latest/
    
-   :license: GPL / GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`monsda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/monsda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/monsda/meta.yaml>`_
 
    
@@ -29,30 +29,27 @@ monsda
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends biopython: ``>=1.79``
-   :depends grep: ``>=3.4``
-   :depends libmamba: ``>=0.21.2``
-   :depends mamba: ``>=0.17.0``
+   :depends biopython: ``>=1.78``
+   :depends black: ``>=21.5b2``
+   :depends flake8: ``>=3.8.3``
+   :depends isort: ``>=5.9.2``
    :depends more-itertools: ``>=8.8.0``
    :depends natsort: ``>=7.1.1``
    :depends nextflow: 
    :depends numpy: ``>=1.21.0``
    :depends pandas: ``>=1.4.1``
    :depends perl: ``>=5.32.1``
-   :depends python: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :depends scipy: ``>=1.7.0``
-   :depends snakemake: ``>=6.5.3``
-   :depends snakemake-minimal: ``>=6.5.3``
+   :depends snakemake: ``>=7.32.3``
+   :depends sphinx: ``>=4.1.0``
    :depends versioneer: ``>=0.20``
    :depends yaml: ``>=0.2.5``
-   :depends zlib: ``>=1.2.11``
-   :depends zstd: ``>=1.5.0``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +97,7 @@ monsda
 
     <script>
         var package = "monsda";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

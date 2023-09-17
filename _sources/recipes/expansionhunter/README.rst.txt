@@ -13,7 +13,7 @@ expansionhunter
    A tool for estimating repeat sizes
 
    :homepage: https://github.com/Illumina/ExpansionHunter
-   :license: Apache / Apache v2.0
+   :license: APACHE
    :recipe: /`expansionhunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ expansionhunter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.8-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``4.0.2-0``,  ``4.0.1-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``
+      ``5.0.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``
 
       
       .. raw:: html
@@ -40,12 +40,19 @@ expansionhunter
       
 
    
-   :depends boost: ``>=1.70.0,<1.70.1.0a0``
-   :depends htslib: ``>=1.10.2,<1.19.0a0``
-   :depends icu: ``>=64.2,<65.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends abseil-cpp: ``>=20210324.2,<20210324.3.0a0``
+   :depends boost: ``>=1.82,<1.83.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends fmt: ``>=9.1.0,<10.0a0``
+   :depends gtest: ``>=1.14.0,<1.14.1.0a0``
+   :depends htslib: ``>=1.18,<1.19.0a0``
+   :depends libcurl: ``>=8.3.0,<9.0a0``
+   :depends libdeflate: ``>=1.18,<1.19.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends spdlog: ``>=1.12.0,<1.13.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +100,7 @@ expansionhunter
 
     <script>
         var package = "expansionhunter";
-        var versions = ["4.0.2","4.0.1","3.2.2","3.2.2","3.2.0"];
+        var versions = ["5.0.0","4.0.2","4.0.1","3.2.2","3.2.2"];
     </script>
 
 

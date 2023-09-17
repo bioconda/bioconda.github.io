@@ -29,7 +29,7 @@ repic
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.0-0``
 
       
 
@@ -39,7 +39,7 @@ repic
    :depends networkx: ``>=2.8.4``
    :depends numpy: ``>=1.24.2``
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.8.16``
    :depends scipy: ``>=1.10.0``
    :depends tqdm: 
    :requirements:
@@ -89,7 +89,7 @@ repic
 
     <script>
         var package = "repic";
-        var versions = ["0.2.0","0.1.0","0.0.0"];
+        var versions = ["0.2.1","0.2.0","0.1.0","0.0.0"];
     </script>
 
 
