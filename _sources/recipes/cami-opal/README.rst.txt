@@ -12,7 +12,8 @@ cami-opal
 
    OPAL assesses and compares the performance of taxonomic metagenome profilers.
 
-   :homepage: https://github.com/CAMI-challenge/OPAL
+   :homepage: http://cami-challenge.org
+   :developer docs: https://github.com/CAMI-challenge/OPAL
    :license: Apache-2.0
    :recipe: /`cami-opal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cami-opal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cami-opal/meta.yaml>`_
 
@@ -26,24 +27,33 @@ cami-opal
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8.post0-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+      
 
+      ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bokeh: ``0.13.0``
+   :depends bokeh: ``3.1.0``
    :depends dendropy: ``>=4.4.0``
-   :depends docker-py: ``>=4.0.2``
+   :depends docker-py: ``>=6.1.2``
    :depends h5py: ``>=2.9.0``
    :depends jinja2: ``<3.0.1``
    :depends markupsafe: ``<2.1``
-   :depends matplotlib-base: ``>=3.1.1``
-   :depends numpy: ``>=1.16.4``
-   :depends pandas: ``>=0.24.2``
-   :depends python: ``3.7``
+   :depends matplotlib-base: ``>=3.7.1``
+   :depends numpy: ``>=1.24.2``
+   :depends pandas: ``>=1.5.3``
+   :depends python: ``>=3.6``
    :depends scikit-bio: ``>=0.5.5``
-   :depends seaborn: ``>=0.9.0``
+   :depends scipy: ``>=1.10.1``
+   :depends seaborn: ``>=0.12.2``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +101,7 @@ cami-opal
 
     <script>
         var package = "cami-opal";
-        var versions = ["1.0.11","1.0.10","1.0.9","1.0.9","1.0.8.post0"];
+        var versions = ["1.0.12","1.0.11","1.0.10","1.0.9","1.0.9"];
     </script>
 
 

@@ -32,10 +32,10 @@ oakvar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.36-0</code>,  <code>2.9.34-0</code>,  <code>2.9.3-0</code>,  <code>2.9.2-0</code>,  <code>2.9.1-0</code>,  <code>2.8.40-0</code>,  <code>2.8.38-0</code>,  <code>2.8.37-0</code>,  <code>2.8.36-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.37-0</code>,  <code>2.9.36-0</code>,  <code>2.9.34-0</code>,  <code>2.9.3-0</code>,  <code>2.9.2-0</code>,  <code>2.9.1-0</code>,  <code>2.8.40-0</code>,  <code>2.8.38-0</code>,  <code>2.8.37-0</code>,  </span></summary>
       
 
-      ``2.9.36-0``,  ``2.9.34-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.40-0``,  ``2.8.38-0``,  ``2.8.37-0``,  ``2.8.36-0``,  ``2.8.35-0``,  ``2.8.28-0``,  ``2.7.40-0``
+      ``2.9.37-0``,  ``2.9.36-0``,  ``2.9.34-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.40-0``,  ``2.8.38-0``,  ``2.8.37-0``,  ``2.8.36-0``,  ``2.8.35-0``,  ``2.8.28-0``,  ``2.7.40-0``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ oakvar
 
     <script>
         var package = "oakvar";
-        var versions = ["2.9.36","2.9.34","2.9.3","2.9.2","2.9.1"];
+        var versions = ["2.9.37","2.9.36","2.9.34","2.9.3","2.9.2"];
     </script>
 
 
