@@ -28,11 +28,41 @@ pixelator
       
       
 
-      
+      ``0.13.1-0``
 
       
 
    
+   :depends anndata: ``>=0.8.0``
+   :depends click: 
+   :depends cssselect: 
+   :depends cutadapt: ``>=4.2``
+   :depends esda: 
+   :depends fastp: 
+   :depends igraph: ``>=0.10.2,<=0.11.0``
+   :depends importlib-resources: ``>=5.12.0,<6.0.0``
+   :depends leidenalg: 
+   :depends libpysal: 
+   :depends louvain: ``>=0.8.0,<=0.9.0``
+   :depends lxml: 
+   :depends numba: ``>=0.56.4``
+   :depends numpy: ``<1.24.0``
+   :depends pandas: ``>=2.0.0,<3.0.0``
+   :depends polars: ``>=0.17.12,<0.18.0``
+   :depends pyarrow: 
+   :depends pydantic: ``>=1.10.7,<2.0.0``
+   :depends pyfastx: 
+   :depends python: ``>=3.8,<3.11``
+   :depends python-annoy: ``<=1.17.0``
+   :depends ruamel.yaml: ``>=0.17.21,<0.18.0``
+   :depends scanpy: 
+   :depends scipy: 
+   :depends semver: ``>=3.0.0,<4.0.0``
+   :depends typing_extensions: 
+   :depends umi_tools: ``<=1.1.4``
+   :depends xopen: 
+   :depends yapf: 
+   :depends yappi: 
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +110,7 @@ pixelator
 
     <script>
         var package = "pixelator";
-        var versions = [];
+        var versions = ["0.13.1"];
     </script>
 
 

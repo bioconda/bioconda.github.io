@@ -27,19 +27,14 @@ opentargets-validator
       
       
 
-      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
+      ``1.0.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
 
    
-   :depends future: 
-   :depends jsonschema: ``3.0.0a3.*``
-   :depends opentargets-urlzsource: 
-   :depends pypeln: ``0.1.6.*``
-   :depends python: ``3.7.*``
-   :depends requests: 
-   :depends rfc3987: 
-   :depends simplejson: 
+   :depends pathos: ``>=0.3.1``
+   :depends python: ``>=3.8``
+   :depends python-fastjsonschema: ``>=2.18.0``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +82,7 @@ opentargets-validator
 
     <script>
         var package = "opentargets-validator";
-        var versions = ["0.8.0","0.7.0","0.6.0"];
+        var versions = ["1.0.0","0.8.0","0.7.0","0.6.0"];
     </script>
 
 

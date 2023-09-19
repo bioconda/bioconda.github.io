@@ -13,7 +13,9 @@ verticall
    A tool for building recombination\-free trees
 
    :homepage: https://github.com/rrwick/Verticall
-   :license: GPL-3.0
+   :documentation: https://github.com/rrwick/Verticall/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`verticall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verticall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verticall/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ verticall
       
       
 
-      ``0.4.1-0``
+      ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -87,7 +89,7 @@ verticall
 
     <script>
         var package = "verticall";
-        var versions = ["0.4.1"];
+        var versions = ["0.4.2","0.4.1"];
     </script>
 
 

@@ -35,7 +35,7 @@ hapog
    
    :depends biopython: 
    :depends bwa: 
-   :depends htslib: ``>=1.17,<1.18.0a0``
+   :depends htslib: ``>=1.17,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends minimap2: 
    :depends python: ``>=3.10,<3.11.0a0``

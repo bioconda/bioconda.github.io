@@ -13,7 +13,7 @@ cherri
    Accurate detection of functional RNA\-RNA Interactions sites
 
    :homepage: https://github.com/BackofenLab/Cherri
-   :license: GPL-3.0 license
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`cherri <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cherri>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cherri/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ cherri
       
       
 
-      ``0.7-1``,  ``0.7-0``,  ``0.6-0``
+      ``0.8-0``,  ``0.7-1``,  ``0.7-0``,  ``0.6-0``
 
       
 
@@ -41,7 +41,6 @@ cherri
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends pip: 
    :depends python: 
    :depends python-wget: 
    :depends scikit-learn: 
@@ -93,7 +92,7 @@ cherri
 
     <script>
         var package = "cherri";
-        var versions = ["0.7","0.7","0.6"];
+        var versions = ["0.8","0.7","0.7","0.6"];
     </script>
 
 

@@ -28,7 +28,7 @@ xengsort
       
       
 
-      ``2.0.0-0``,  ``1.5.0.3-0``
+      ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0.3-0``
 
       
 
@@ -87,7 +87,7 @@ xengsort
 
     <script>
         var package = "xengsort";
-        var versions = ["2.0.0","1.5.0.3"];
+        var versions = ["2.0.1","2.0.0","1.5.0.3"];
     </script>
 
 

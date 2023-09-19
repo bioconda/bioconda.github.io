@@ -27,17 +27,28 @@ seqverify
       
       
 
-      ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends bcftools: 
+   :depends blast: 
    :depends bwa: 
    :depends cnvpytor: 
+   :depends htslib: 
+   :depends idna: 
+   :depends igv: ``2.13.2.*``
    :depends kraken2: 
-   :depends python: ``>=3.9``
-   :depends regex: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends openjdk: ``11.*``
+   :depends pip: 
+   :depends python: ``3.10.*``
    :depends samtools: 
+   :depends scipy: 
+   :depends snpeff: ``5.1.*``
+   :depends snpsift: ``4.3.1t.*``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +96,7 @@ seqverify
 
     <script>
         var package = "seqverify";
-        var versions = ["0.1.0"];
+        var versions = ["1.0.0","0.1.0"];
     </script>
 
 

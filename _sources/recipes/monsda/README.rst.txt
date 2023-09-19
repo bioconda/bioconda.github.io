@@ -29,7 +29,7 @@ monsda
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -40,11 +40,11 @@ monsda
    :depends isort: ``>=5.9.2``
    :depends more-itertools: ``>=8.8.0``
    :depends natsort: ``>=7.1.1``
-   :depends nextflow: 
+   :depends nextflow: ``>=23.04.1``
    :depends numpy: ``>=1.21.0``
    :depends pandas: ``>=1.4.1``
    :depends perl: ``>=5.32.1``
-   :depends python: ``>=3.10``
+   :depends python: ``>=3.11``
    :depends scipy: ``>=1.7.0``
    :depends snakemake: ``>=7.32.3``
    :depends sphinx: ``>=4.1.0``
@@ -97,7 +97,7 @@ monsda
 
     <script>
         var package = "monsda";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0"];
     </script>
 
 
