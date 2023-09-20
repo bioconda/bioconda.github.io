@@ -30,7 +30,7 @@ kgwasflow
       
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
@@ -40,7 +40,7 @@ kgwasflow
    :depends numpy: ``1.23.5.*``
    :depends pandas: ``1.5.3.*``
    :depends python: ``>=3.10.10``
-   :depends snakemake: ``7.25.0.*``
+   :depends snakemake-minimal: ``7.25.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ kgwasflow
 
     <script>
         var package = "kgwasflow";
-        var versions = ["1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.2.4","1.2.3","1.2.2","1.2.1"];
     </script>
 
 
