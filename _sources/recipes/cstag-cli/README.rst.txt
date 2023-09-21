@@ -27,18 +27,18 @@ cstag-cli
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends bzip2: ``<2.0a0``
-   :depends cstag: 
+   :depends cstag: ``>=0.6.2``
    :depends libcurl: ``<8.0a0``
    :depends libdeflate: ``<1.11.0a0``
    :depends openssl: ``<1.1.2a``
    :depends pysam: ``0.19.1``
-   :depends python: 
+   :depends python: ``>=3.7.0,<4.0.0``
    :depends xz: ``<5.3.0a0``
    :depends zlib: ``<1.3.0a0``
    :requirements:
@@ -88,7 +88,7 @@ cstag-cli
 
     <script>
         var package = "cstag-cli";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["1.0.0","0.1.1","0.1.0"];
     </script>
 
 

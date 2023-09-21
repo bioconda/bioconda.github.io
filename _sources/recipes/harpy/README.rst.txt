@@ -30,7 +30,7 @@ harpy
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -54,6 +54,7 @@ harpy
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: 
+   :depends r-ggridges: 
    :depends r-knitr: 
    :depends r-magrittr: 
    :depends r-plotly: 
@@ -115,7 +116,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["0.3.0","0.3.0","0.2.0","0.1.1","0.1.1"];
+        var versions = ["0.3.0","0.3.0","0.3.0","0.2.0","0.1.1"];
     </script>
 
 

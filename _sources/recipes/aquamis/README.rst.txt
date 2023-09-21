@@ -27,38 +27,52 @@ aquamis
       
       
 
-      ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.0-0``
+      ``1.4.0-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.0-0``
 
       
 
    
-   :depends biopython: ``>=1.78``
-   :depends bracken: ``>=2.6.0``
-   :depends cerberus: ``>=1.3.2``
-   :depends confindr: ``>=0.7.4``
-   :depends fastp: ``>=0.20.1``
+   :depends bbmap: ``>=39``
+   :depends biopython: ``>=1.79``
+   :depends blast: ``>=2.14``
+   :depends bracken: ``>=2.8``
+   :depends bwa: ``>=0.7.17``
+   :depends cerberus: ``>=1.3.4``
+   :depends circos: ``>=0.69.9``
+   :depends confindr: ``0.7.4.*``
+   :depends entrez-direct: ``>=16.2``
+   :depends fastp: ``>=0.23.2``
    :depends genson: ``>=1.2.2``
-   :depends jsonschema: ``>=3.2``
-   :depends kmc: ``3.1.0.*``
-   :depends kraken2: ``>=2.1.1``
+   :depends jsonschema: ``>=4.17``
+   :depends kma: ``>=1.2``
+   :depends kmc: ``>=3.2.1``
+   :depends kraken2: ``>=2.1.3``
    :depends mash: ``>=2.3``
-   :depends mlst: ``>=2.19.0``
-   :depends numpy: ``>=1.19``
-   :depends pandas: ``>=1.2.3``
-   :depends pandoc: ``2.11.*``
-   :depends python: ``>=3.7``
-   :depends pyyaml: ``>=5.4.1``
-   :depends quast: ``>=5.0.2``
-   :depends r-base: ``3.6.3.*``
-   :depends r-dt: ``>=0.16``
-   :depends r-knitr: ``>=1.31``
-   :depends r-rmarkdown: ``<=2.7``
-   :depends r-rrapply: ``1.2.2.*``
-   :depends r-tidyverse: ``1.3.0.*``
-   :depends r-urltools: ``1.7.3.*``
+   :depends minimap2: ``>=2.26``
+   :depends mlst: ``>=2.23``
+   :depends numpy: ``>=1.21``
+   :depends pandas: ``>=1.3.5``
+   :depends pandoc: ``>=2.19``
+   :depends perl-bio-tools-run-alignment-tcoffee: ``1.7.4 pl5321hdfd78af_4``
+   :depends pilon: ``>=1.24``
+   :depends python: ``3.7.*``
+   :depends pyyaml: ``>=6``
+   :depends quast: ``>=5.2.0``
+   :depends r-base: ``4.0.*``
+   :depends r-dt: ``>=0.25``
+   :depends r-knitr: ``>=1.40``
+   :depends r-rmarkdown: ``>=2.16``
+   :depends r-rrapply: ``>=1.2.5``
+   :depends r-tidyverse: ``>=1.3.2``
+   :depends r-urltools: ``>=1.7.3``
+   :depends samtools: ``>=1.12``
+   :depends seqtk: ``>=1.4``
    :depends shovill: ``>=1.1.0``
-   :depends snakemake-minimal: ``>=6.0.0``
-   :depends taxonkit: ``>=0.6.2``
+   :depends snakemake-minimal: ``7.*``
+   :depends spades: ``>=3.15``
+   :depends taxonkit: ``>=0.15``
+   :depends trimmomatic: ``>=0.39``
+   :depends tzdata: 
    :requirements:
 
    .. rubric:: Installation
@@ -106,7 +120,7 @@ aquamis
 
     <script>
         var package = "aquamis";
-        var versions = ["1.3.7","1.3.6","1.3.5","1.3.4","1.3.3"];
+        var versions = ["1.4.0","1.3.7","1.3.6","1.3.5","1.3.4"];
     </script>
 
 

@@ -13,7 +13,9 @@ dnaapler
    Reorients assembled microbial sequences
 
    :homepage: https://github.com/gbouras13/dnaapler
-   :license: MIT
+   :documentation: https://dnaapler.readthedocs.io/en/latest/
+   
+   :license: MIT / MIT
    :recipe: /`dnaapler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnaapler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnaapler/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ dnaapler
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -37,7 +39,7 @@ dnaapler
    :depends click: ``>=8.0.0``
    :depends loguru: ``>=0.5.3``
    :depends pandas: ``>=1.4.2``
-   :depends pyrodigal: ``>=2.0.0``
+   :depends pyrodigal: ``>=3.0.0``
    :depends python: ``>=3.8,<4.0``
    :depends pyyaml: ``>=6.0``
    :requirements:
@@ -87,7 +89,7 @@ dnaapler
 
     <script>
         var package = "dnaapler";
-        var versions = ["0.3.1","0.3.0","0.2.0","0.1.0"];
+        var versions = ["0.3.2","0.3.1","0.3.0","0.2.0","0.1.0"];
     </script>
 
 

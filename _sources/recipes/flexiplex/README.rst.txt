@@ -31,7 +31,7 @@ flexiplex
       
       
 
-      ``0.97.1-0``,  ``0.97-0``
+      ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
 
       
 
@@ -90,7 +90,7 @@ flexiplex
 
     <script>
         var package = "flexiplex";
-        var versions = ["0.97.1","0.97"];
+        var versions = ["0.97.1","0.97.1","0.97"];
     </script>
 
 
