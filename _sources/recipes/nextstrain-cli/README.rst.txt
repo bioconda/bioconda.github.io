@@ -30,10 +30,10 @@ nextstrain-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.2.0-0</code>,  <code>7.1.0-0</code>,  <code>7.0.1-0</code>,  <code>7.0.0-0</code>,  <code>6.2.1-0</code>,  <code>6.2.0-1</code>,  <code>6.2.0-0</code>,  <code>6.1.0.post1-0</code>,  <code>6.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.4.0-0</code>,  <code>7.3.0.post1-0</code>,  <code>7.2.0-0</code>,  <code>7.1.0-0</code>,  <code>7.0.1-0</code>,  <code>7.0.0-0</code>,  <code>6.2.1-0</code>,  <code>6.2.0-1</code>,  <code>6.2.0-0</code>,  </span></summary>
       
 
-      ``7.2.0-0``,  ``7.1.0-0``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.2.1-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.0.post1-0``,  ``6.0.3-0``,  ``6.0.2-0``,  ``6.0.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
+      ``7.4.0-0``,  ``7.3.0.post1-0``,  ``7.2.0-0``,  ``7.1.0-0``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.2.1-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.0.post1-0``,  ``6.0.3-0``,  ``6.0.2-0``,  ``6.0.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
 
       
       .. raw:: html
@@ -45,14 +45,14 @@ nextstrain-cli
    :depends boto3: 
    :depends docutils: 
    :depends fasteners: 
-   :depends fsspec: 
+   :depends fsspec: ``!=2023.9.1``
    :depends importlib_resources: ``>=5.3.0``
    :depends packaging: ``>=3.0.0``
    :depends pyjwt: ``>=2.0.0``
    :depends pyparsing: 
    :depends python: ``>=3.6``
    :depends requests: 
-   :depends s3fs: ``>=2021.04.0``
+   :depends s3fs: ``>=2021.04.0,!=2023.9.1``
    :depends typing_extensions: ``>=3.6.4``
    :depends wcmatch: ``>=6.0``
    :depends wrapt: 
@@ -103,7 +103,7 @@ nextstrain-cli
 
     <script>
         var package = "nextstrain-cli";
-        var versions = ["7.2.0","7.1.0","7.0.1","7.0.0","6.2.1"];
+        var versions = ["7.4.0","7.3.0.post1","7.2.0","7.1.0","7.0.1"];
     </script>
 
 

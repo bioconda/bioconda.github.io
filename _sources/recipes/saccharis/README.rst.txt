@@ -27,7 +27,7 @@ saccharis
       
       
 
-      ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
+      ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
 
@@ -50,6 +50,7 @@ saccharis
    :depends python-dotenv: ``>=0.20.0``
    :depends python-wget: ``>=3.2``
    :depends raxml: ``>=8.2.12``
+   :depends raxml-ng: ``>=1.2``
    :depends requests: ``>=2.28.0``
    :requirements:
 
@@ -98,7 +99,7 @@ saccharis
 
     <script>
         var package = "saccharis";
-        var versions = ["2.0.0.dev20","2.0.0.dev19","2.0.0.dev19","2.0.0.dev18"];
+        var versions = ["2.0.0.dev21","2.0.0.dev20","2.0.0.dev19","2.0.0.dev19","2.0.0.dev18"];
     </script>
 
 
