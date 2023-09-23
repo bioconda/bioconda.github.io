@@ -30,7 +30,7 @@ harpy
       
       
 
-      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -39,6 +39,7 @@ harpy
    :depends bioconductor-complexheatmap: 
    :depends bwa: 
    :depends fastp: 
+   :depends fastqc: 
    :depends hapcut2: 
    :depends icu: 
    :depends leviathan: 
@@ -116,7 +117,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["0.3.0","0.3.0","0.3.0","0.2.0","0.1.1"];
+        var versions = ["0.3.0","0.3.0","0.3.0","0.3.0","0.2.0"];
     </script>
 
 

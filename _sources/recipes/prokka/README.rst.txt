@@ -13,7 +13,7 @@ prokka
    Rapid annotation of prokaryotic genomes
 
    :homepage: https://github.com/tseemann/prokka
-   :license: GPL / GPLv2
+   :license: GPL / GPL-3.0-only
    :recipe: /`prokka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka/meta.yaml>`_
    :links: biotools: :biotools:`prokka`, doi: :doi:`10.1093/bioinformatics/btu153`, usegalaxy-eu: :usegalaxy-eu:`prokka`
 
@@ -29,10 +29,10 @@ prokka
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.6-4</code>,  <code>1.14.6-3</code>,  <code>1.14.6-2</code>,  <code>1.14.6-1</code>,  <code>1.14.6-0</code>,  <code>1.14.5-1</code>,  <code>1.14.5-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.6-5</code>,  <code>1.14.6-4</code>,  <code>1.14.6-3</code>,  <code>1.14.6-2</code>,  <code>1.14.6-1</code>,  <code>1.14.6-0</code>,  <code>1.14.5-1</code>,  <code>1.14.5-0</code>,  <code>1.14.0-1</code>,  </span></summary>
       
 
-      ``1.14.6-4``,  ``1.14.6-3``,  ``1.14.6-2``,  ``1.14.6-1``,  ``1.14.6-0``,  ``1.14.5-1``,  ``1.14.5-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.7-0``,  ``1.13.4-0``,  ``1.13.3-0``,  ``1.13-4``,  ``1.13-3``,  ``1.13-2``,  ``1.13-1``,  ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``
+      ``1.14.6-5``,  ``1.14.6-4``,  ``1.14.6-3``,  ``1.14.6-2``,  ``1.14.6-1``,  ``1.14.6-0``,  ``1.14.5-1``,  ``1.14.5-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.7-0``,  ``1.13.4-0``,  ``1.13.3-0``,  ``1.13-4``,  ``1.13-3``,  ``1.13-2``,  ``1.13-1``,  ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``
 
       
       .. raw:: html

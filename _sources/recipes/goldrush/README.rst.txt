@@ -27,13 +27,13 @@ goldrush
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
+      ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends btllib: 
+   :depends btllib: ``>=1.6.2``
    :depends gperftools: 
    :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
    :depends libgcc-ng: ``>=12``
@@ -43,7 +43,7 @@ goldrush
    :depends ntlink: ``>=1.3.0``
    :depends python: ``>=3.8,<3.9.0a0``
    :depends python_abi: ``3.8.* *_cp38``
-   :depends tigmint: 
+   :depends tigmint: ``>=1.2.6``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +91,7 @@ goldrush
 
     <script>
         var package = "goldrush";
-        var versions = ["1.0.3","1.0.3","1.0.2","1.0.2","1.0.1"];
+        var versions = ["1.1.0","1.0.3","1.0.3","1.0.2","1.0.2"];
     </script>
 
 
