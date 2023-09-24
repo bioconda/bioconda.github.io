@@ -69,13 +69,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">metaprokka</span></span></dt>
-<dd><p>A specialized version of Prokka to quickly annotate metagenome assemblies.</p>
+<dd><p>A specialized version of Prokka using Prodigal-GV for phage annotation and metagenome/metavirome tweaks</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/telatin/metaprokka">https://github.com/telatin/metaprokka</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL / GPLv3</p>
+<dd class="field-even"><p>GPL / GPL-3.0-only</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaprokka">metaprokka</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaprokka/meta.yaml">meta.yaml</a></p>
@@ -93,10 +93,16 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/metaprokka"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/metaprokka.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/metaprokka"><img alt="docker_metaprokka" src="https://quay.io/repository/biocontainers/metaprokka/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.14.6_1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.6_1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.6_1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.14.6_1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.6_1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.6_1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.6_1-0</span></code></p>
 </dd>
 <dt class="field-even">depends perl<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p>
+</dd>
+<dt class="field-odd">depends perl-fastx-reader<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.11.0</span></code></p>
+</dd>
+<dt class="field-even">depends prodigal-gv<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.11.0</span></code></p>
 </dd>
 <dt class="field-odd">depends prokka<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.14.6.*</span></code></p>
@@ -137,7 +143,7 @@ others.</p>
 
 <script>
     var package = "metaprokka";
-    var versions = ["1.14.6_1","1.14.6_1","1.14.6_1"];
+    var versions = ["1.14.6_1","1.14.6_1","1.14.6_1","1.14.6_1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

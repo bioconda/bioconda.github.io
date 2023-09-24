@@ -28,7 +28,7 @@ metadmg
       
       
 
-      ``0.3-0``
+      ``0.3-1``,  ``0.3-0``
 
       
 
@@ -40,6 +40,7 @@ metadmg
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends openssl: ``>=3.1.3,<4.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :depends zlib: 
    :requirements:
@@ -89,7 +90,7 @@ metadmg
 
     <script>
         var package = "metadmg";
-        var versions = ["0.3"];
+        var versions = ["0.3","0.3"];
     </script>
 
 

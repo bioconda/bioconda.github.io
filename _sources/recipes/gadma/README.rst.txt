@@ -13,6 +13,8 @@ gadma
    Genetic Algorithm for Demographic Inference
 
    :homepage: https://github.com/ctlab/GADMA
+   :documentation: https://gadma.readthedocs.io/en/latest/
+   
    :license: LGPL / GNU General Public (GPL)
    :recipe: /`gadma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadma/meta.yaml>`_
    :links: doi: :doi:`10.1093/gigascience/giaa005`
@@ -29,10 +31,10 @@ gadma
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0rc26-0</code>,  <code>2.0.0rc25-0</code>,  <code>2.0.0rc23-0</code>,  <code>2.0.0rc22-0</code>,  <code>2.0.0rc21-0</code>,  <code>2.0.0rc20-0</code>,  <code>2.0.0rc19-0</code>,  <code>2.0.0rc18-2</code>,  <code>2.0.0rc18-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>2.0.0rc26-0</code>,  <code>2.0.0rc25-0</code>,  <code>2.0.0rc23-0</code>,  <code>2.0.0rc22-0</code>,  <code>2.0.0rc21-0</code>,  <code>2.0.0rc20-0</code>,  <code>2.0.0rc19-0</code>,  <code>2.0.0rc18-2</code>,  </span></summary>
       
 
-      ``2.0.0rc26-0``,  ``2.0.0rc25-0``,  ``2.0.0rc23-0``,  ``2.0.0rc22-0``,  ``2.0.0rc21-0``,  ``2.0.0rc20-0``,  ``2.0.0rc19-0``,  ``2.0.0rc18-2``,  ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
+      ``2.0.0-0``,  ``2.0.0rc26-0``,  ``2.0.0rc25-0``,  ``2.0.0rc23-0``,  ``2.0.0rc22-0``,  ``2.0.0rc21-0``,  ``2.0.0rc20-0``,  ``2.0.0rc19-0``,  ``2.0.0rc18-2``,  ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
 
       
       .. raw:: html
@@ -101,7 +103,7 @@ gadma
 
     <script>
         var package = "gadma";
-        var versions = ["2.0.0rc26","2.0.0rc25","2.0.0rc23","2.0.0rc22","2.0.0rc21"];
+        var versions = ["2.0.0","2.0.0rc26","2.0.0rc25","2.0.0rc23","2.0.0rc22"];
     </script>
 
 
