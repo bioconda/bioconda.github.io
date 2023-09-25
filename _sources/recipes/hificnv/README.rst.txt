@@ -13,7 +13,7 @@ hificnv
    Copy number variant caller and depth visualization utility for PacBio HiFi reads
 
    :homepage: https://github.com/PacificBiosciences/HiFiCNV
-   :license: BSD-3-Clause-Clear
+   :license: BSD / BSD-3-Clause-Clear
    :recipe: /`hificnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hificnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hificnv/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hificnv
       
       
 
-      ``0.1.6b-0``
+      ``0.1.7-0``,  ``0.1.6b-0``
 
       
 
@@ -79,7 +79,7 @@ hificnv
 
     <script>
         var package = "hificnv";
-        var versions = ["0.1.6b"];
+        var versions = ["0.1.7","0.1.6b"];
     </script>
 
 
