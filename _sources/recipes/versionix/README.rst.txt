@@ -1,38 +1,39 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'cramino'
+.. title:: Package Recipe 'versionix'
 .. highlight: bash
 
-cramino
-=======
+versionix
+=========
 
-.. conda:recipe:: cramino
+.. conda:recipe:: versionix
    :replaces_section_title:
    :noindex:
 
-   A tool for very fast quality assessment of long read cram\/bam files.
+   Get version of any tools
 
-   :homepage: https://github.com/wdecoster/cramino
-   :license: MIT
-   :recipe: /`cramino <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cramino>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cramino/meta.yaml>`_
+   :homepage: https://github.com/sequana/versionix
+   :license: BSD / BSD-3-Clause
+   :recipe: /`versionix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/versionix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/versionix/meta.yaml>`_
 
    
 
 
-.. conda:package:: cramino
+.. conda:package:: versionix
 
-   |downloads_cramino| |docker_cramino|
+   |downloads_versionix| |docker_versionix|
 
    :versions:
       
       
 
-      ``0.13.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+      ``0.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends click: ``>=8.1.7``
+   :depends python: ``>=3.8.0``
    :requirements:
 
    .. rubric:: Installation
@@ -48,39 +49,39 @@ cramino
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install cramino
+      mamba install versionix
 
    and update with::
 
-      mamba update cramino
+      mamba update versionix
 
   To create a new environment, run::
 
-      mamba create --name myenvname cramino
+      mamba create --name myenvname versionix
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/cramino:<tag>
+      docker pull quay.io/biocontainers/versionix:<tag>
 
-   (see `cramino/tags`_ for valid values for ``<tag>``)
+   (see `versionix/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_cramino| image:: https://img.shields.io/conda/dn/bioconda/cramino.svg?style=flat
-   :target: https://anaconda.org/bioconda/cramino
+.. |downloads_versionix| image:: https://img.shields.io/conda/dn/bioconda/versionix.svg?style=flat
+   :target: https://anaconda.org/bioconda/versionix
    :alt:   (downloads)
-.. |docker_cramino| image:: https://quay.io/repository/biocontainers/cramino/status
-   :target: https://quay.io/repository/biocontainers/cramino
-.. _`cramino/tags`: https://quay.io/repository/biocontainers/cramino?tab=tags
+.. |docker_versionix| image:: https://quay.io/repository/biocontainers/versionix/status
+   :target: https://quay.io/repository/biocontainers/versionix
+.. _`versionix/tags`: https://quay.io/repository/biocontainers/versionix?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "cramino";
-        var versions = ["0.13.0","0.11.1","0.11.0","0.10.0","0.9.9"];
+        var package = "versionix";
+        var versions = ["0.2.0"];
     </script>
 
 
@@ -99,7 +100,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cramino/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/versionix/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/cramino/README.html
+   :target: http://bioconda.github.io/recipes/versionix/README.html

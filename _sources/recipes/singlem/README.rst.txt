@@ -27,32 +27,43 @@ singlem
       
       
 
-      ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
+      ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
 
       
 
    
-   :depends biom-format: ``>=2.1.6``
-   :depends biopython: ``>=1.64``
-   :depends dendropy: ``>=0.4.0``
-   :depends diamond: ``>=0.9``
+   :depends biopython: 
+   :depends bird_tool_utils_python: ``>=0.4.1``
+   :depends cd-hit: 
+   :depends diamond: ``>=2.1.7``
    :depends expressbetadiversity: 
-   :depends extern: ``>=0.0.4``
-   :depends graftm: ``0.13.1.*``
-   :depends h5py: 
-   :depends hmmer: ``>=3.1b1``
-   :depends krona: ``>=2.4``
-   :depends matplotlib-base: ``>=2.0.2``
-   :depends mfqe: ``>=0.5.0``
-   :depends orator: ``>=0.9.7``
-   :depends orfm: ``>=0.2.0``
+   :depends extern: 
+   :depends fastalite: 
+   :depends fasttree: 
+   :depends graftm: ``>=0.14.0``
+   :depends hmmer: 
+   :depends jinja2: 
+   :depends krona: 
+   :depends mafft: 
+   :depends mfqe: 
+   :depends ncbi-ngs-sdk: 
+   :depends orfm: 
    :depends pandas: 
-   :depends pplacer: ``>=1.1.alpha17``
-   :depends python: ``>=3.6``
-   :depends smafa: ``>=0.5.0``
-   :depends squarify: ``>=0.3.0``
-   :depends tempdir: ``>=0.6``
-   :depends vsearch: 
+   :depends pip: 
+   :depends polars: ``>=0.19.3``
+   :depends pplacer: 
+   :depends prodigal: 
+   :depends pyarrow: 
+   :depends pyranges: 
+   :depends python: ``>=3.7``
+   :depends seqmagick: 
+   :depends smafa: ``>=0.7.0``
+   :depends sqlalchemy: 
+   :depends sqlite: 
+   :depends squarify: 
+   :depends sra-tools: 
+   :depends tqdm: 
+   :depends zenodo_backpack: 
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +111,7 @@ singlem
 
     <script>
         var package = "singlem";
-        var versions = ["0.13.2","0.13.2","0.13.2"];
+        var versions = ["0.14.0","0.13.2","0.13.2","0.13.2"];
     </script>
 
 

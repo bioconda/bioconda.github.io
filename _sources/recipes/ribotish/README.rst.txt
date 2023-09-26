@@ -13,8 +13,9 @@ ribotish
    Ribo TIS Hunter \(Ribo\-TISH\) identifies translation activities using ribosome profiling data.
 
    :homepage: https://github.com/zhpn1024/ribotish
-   :license: GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ribotish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotish/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-017-01981-8`
 
    
 
@@ -27,16 +28,16 @@ ribotish
       
       
 
-      ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.7-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends matplotlib-base: 
+   :depends matplotlib-base: ``>=1.4.3``
    :depends numpy: 
-   :depends pysam: 
-   :depends python: 
-   :depends scipy: 
+   :depends pysam: ``>=0.8.3``
+   :depends python: ``>=3``
+   :depends scipy: ``>=0.15.1``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +85,7 @@ ribotish
 
     <script>
         var package = "ribotish";
-        var versions = ["0.2.5","0.2.5","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.2.7","0.2.5","0.2.5","0.2.4","0.2.3"];
     </script>
 
 

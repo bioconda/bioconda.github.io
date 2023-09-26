@@ -10,7 +10,7 @@ metaprokka
    :replaces_section_title:
    :noindex:
 
-   A specialized version of Prokka using Prodigal\-GV for phage annotation and metagenome\/metavirome tweaks
+   A fork of Prokka using Prodigal\-GV for phage annotation and metagenome\/metavirome tweaks
 
    :homepage: https://github.com/telatin/metaprokka
    :license: GPL / GPL-3.0-only
@@ -28,7 +28,7 @@ metaprokka
       
       
 
-      ``1.14.6_1-3``,  ``1.14.6_1-2``,  ``1.14.6_1-1``,  ``1.14.6_1-0``
+      ``1.15.0-0``,  ``1.14.6_1-3``,  ``1.14.6_1-2``,  ``1.14.6_1-1``,  ``1.14.6_1-0``
 
       
 
@@ -84,7 +84,7 @@ metaprokka
 
     <script>
         var package = "metaprokka";
-        var versions = ["1.14.6_1","1.14.6_1","1.14.6_1","1.14.6_1"];
+        var versions = ["1.15.0","1.14.6_1","1.14.6_1","1.14.6_1","1.14.6_1"];
     </script>
 
 
