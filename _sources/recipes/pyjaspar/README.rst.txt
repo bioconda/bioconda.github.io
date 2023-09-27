@@ -15,7 +15,7 @@ pyjaspar
    :homepage: https://github.com/asntech/pyjaspar
    :documentation: https://pyjaspar.rtfd.io
    
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pyjaspar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyjaspar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyjaspar/meta.yaml>`_
 
    A serverless interface to Biopython to query and access JASPAR motifs from different releases of JASPAR database using sqlite3.
@@ -29,7 +29,7 @@ pyjaspar
       
       
 
-      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.5.5-0``,  ``1.5.0-0``,  ``1.0.0-0``
+      ``3.0.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.5.5-0``,  ``1.5.0-0``,  ``1.0.0-0``
 
       
 
@@ -83,7 +83,7 @@ pyjaspar
 
     <script>
         var package = "pyjaspar";
-        var versions = ["2.1.1","2.1.0","2.0.0","1.6.0","1.5.5"];
+        var versions = ["3.0.0","2.1.1","2.1.0","2.0.0","1.6.0"];
     </script>
 
 

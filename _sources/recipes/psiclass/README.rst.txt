@@ -27,7 +27,7 @@ psiclass
       
       
 
-      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -36,6 +36,7 @@ psiclass
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: 
+   :depends samtools: ``0.1.19.*``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +84,7 @@ psiclass
 
     <script>
         var package = "psiclass";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

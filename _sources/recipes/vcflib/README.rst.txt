@@ -29,10 +29,10 @@ vcflib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  </span></summary>
       
 
-      ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
+      ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ vcflib
    
    :depends _openmp_mutex: ``>=4.5``
    :depends eigen: 
-   :depends htslib: ``>=1.17,<1.19.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends jsoncpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -51,7 +51,7 @@ vcflib
    :depends perl: 
    :depends python: ``>=3``
    :depends tabixpp: ``>=1.1.2,<1.1.3.0a0``
-   :depends wfa2-lib: ``>=2.3.3,<3.0a0``
+   :depends wfa2-lib: ``>=2.3.4,<2.4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -99,7 +99,7 @@ vcflib
 
     <script>
         var package = "vcflib";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.3"];
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.9"];
     </script>
 
 
