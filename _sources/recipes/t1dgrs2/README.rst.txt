@@ -10,13 +10,22 @@ t1dgrs2
    :replaces_section_title:
    :noindex:
 
-   Generate a Type 1 Diabetes Genetic Risk Score that accounts for interactions between HLA\-DQ variants.
+   Generate a Type 1 Diabetes Genetic Risk Score \(T1D GRS\) that accounts for interactions between HLA DR\-DQ risk haplotypes.
 
    :homepage: https://github.com/t2diabetesgenes/t1dgrs2
    :license: GPL / GPLv3
    :recipe: /`t1dgrs2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1dgrs2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1dgrs2/meta.yaml>`_
 
-   
+   An improved T1D GRS \(by Sharp et al.\, 2019\) that incorporates both non\-HLA and HLA risk components in discriminating between cases and controls\, by accounting for interactions between HLA DR\-DQ haplotype combinations. This uses 67 T1D\-associated variants in either GRCh37 or GRCh38 to perform both a linear scoring of the genetic risk\, with the added HLA DR\-DQ interaction effect for the final GRS.
+   This Python package can be used on both imputed genotyping array and next generation sequencing \(e.g.\, whole genome sequencing\) input datasets\, but will require quality control procedures to be applied beforehand.
+   Required\: PLINK 1.9 fileset \(.bed\, .bim\, .fam\).
+
+   \#\#\# References
+   1. Oram RA\, Patel K\, Hill A\, et al. \(2016\) A Type 1 Diabetes Genetic Risk Score Can Aid Discrimination Between Type 1 and Type 2 Diabetes in Young Adults. Diabetes Care 39\(3\)\: 337\-344. \[10.2337\/dc15\-1111\]\(https\:\/\/doi.org\/10.2337\/dc15\-1111\).
+   2. Patel KA\, Oram RA\, Flanagan SE\, et al. \(2016\) Type 1 Diabetes Genetic Risk Score\: A Novel Tool to Discriminate Monogenic and Type 1 Diabetes. Diabetes 65\(7\)\: 2094\-2099. \[10.2337\/db15\-1690\]\(https\:\/\/doi.org\/10.2337\/db15\-1690\).
+   3. Sharp SA\, Rich SS\, Wood AR\, et al. \(2019\) Development and Standardization of an Improved Type 1 Diabetes Genetic Risk Score for Use in Newborn Screening and Incident Diagnosis. Diabetes Care 42\(2\)\: 200\-207. \[10.2337\/dc18\-1785\]\(https\:\/\/doi.org\/10.2337\/dc18\-1785\).
+
+
 
 
 .. conda:package:: t1dgrs2
@@ -27,7 +36,7 @@ t1dgrs2
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -87,7 +96,7 @@ t1dgrs2
 
     <script>
         var package = "t1dgrs2";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

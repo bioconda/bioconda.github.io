@@ -15,7 +15,8 @@ sequana
    :homepage: http://sequana.readthedocs.io/
    :documentation: https://sequana.readthedocs.io
    
-   :license: BSD / BSD 3-clause
+   :developer docs: https://github.com/sequana/sequana
+   :license: BSD / BSD-3-Clause
    :recipe: /`sequana <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana/meta.yaml>`_
 
    
@@ -30,10 +31,10 @@ sequana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  <code>0.8.2-2</code>,  </span></summary>
       
 
-      ``0.15.2-0``,  ``0.15.1-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -66,7 +67,7 @@ sequana
    :depends psutil: 
    :depends pykwalify: 
    :depends pysam: ``>=0.16``
-   :depends python: 
+   :depends python: ``>=3.8``
    :depends ruamel.yaml: ``>=0.16.0``
    :depends scikit-learn: 
    :depends scipy: 
@@ -124,7 +125,7 @@ sequana
 
     <script>
         var package = "sequana";
-        var versions = ["0.15.2","0.15.1","0.14.3","0.14.2","0.14.1"];
+        var versions = ["0.15.3","0.15.2","0.15.1","0.14.3","0.14.2"];
     </script>
 
 

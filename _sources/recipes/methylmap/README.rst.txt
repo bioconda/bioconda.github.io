@@ -15,6 +15,7 @@ methylmap
    :homepage: https://github.com/EliseCoopman/methylmap
    :license: MIT / MIT
    :recipe: /`methylmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methylmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methylmap/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2022.11.28.518239`
 
    
 
@@ -27,16 +28,18 @@ methylmap
       
       
 
-      ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``
+      ``0.4.6-0``,  ``0.4.5-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``
 
       
 
    
+   :depends dash: 
    :depends numpy: ``>=1.14.3``
    :depends pandas: ``>=0.23.4``
    :depends plotly: ``>=5.4.0``
    :depends pyranges: ``>=0.0.77``
    :depends python: ``>=3``
+   :depends scipy: 
    :depends tabix: 
    :requirements:
 
@@ -85,7 +88,7 @@ methylmap
 
     <script>
         var package = "methylmap";
-        var versions = ["0.3.5","0.3.4","0.2.3"];
+        var versions = ["0.4.6","0.4.5","0.3.5","0.3.4","0.2.3"];
     </script>
 
 
