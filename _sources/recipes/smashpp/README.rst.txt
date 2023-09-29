@@ -13,7 +13,7 @@ smashpp
    A fast tool to find and visualize rearrangements in DNA sequences
 
    :homepage: https://github.com/smortezah/smashpp
-   :license: GPL / GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`smashpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smashpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smashpp/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ smashpp
       
       
 
-      ``22.08-2``,  ``22.08-1``,  ``22.08-0``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``19.12-0``
+      ``23.09-0``,  ``22.08-2``,  ``22.08-1``,  ``22.08-0``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``19.12-0``
 
       
 
@@ -81,7 +81,7 @@ smashpp
 
     <script>
         var package = "smashpp";
-        var versions = ["22.08","22.08","22.08","20.04","20.04"];
+        var versions = ["23.09","22.08","22.08","22.08","20.04"];
     </script>
 
 

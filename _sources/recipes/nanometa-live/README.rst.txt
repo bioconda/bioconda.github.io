@@ -13,6 +13,8 @@ nanometa-live
    Workflow and GUI for real\-time species classification and pathogen characterization of nanopore sequence reads.
 
    :homepage: https://github.com/FOI-Bioinformatics/nanometa_live
+   :documentation: https://github.com/FOI-Bioinformatics/nanometa_live/wiki
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nanometa-live <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanometa-live>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanometa-live/meta.yaml>`_
 
@@ -27,21 +29,28 @@ nanometa-live
       
       
 
-      ``0.1.1-0``
+      ``0.3.0-0``,  ``0.1.1-0``
 
       
 
    
+   :depends biopython: ``>=1.80``
    :depends blast: ``>=2.13.0``
    :depends dash: ``>=2.8.1``
    :depends dash-bootstrap-components: ``>=1.3.1``
    :depends dash-daq: ``>=0.5.0``
+   :depends fastp: ``>=0.23.2``
+   :depends gzip: ``>=1.10``
+   :depends kraken2: ``>=2.1.2``
+   :depends ncbi-datasets-cli: ``>=15.20.0``
    :depends numpy: ``>=1.24.1``
    :depends pandas: ``>=1.5.3``
    :depends plotly: ``>=5.13.0``
-   :depends python: ``>3``
+   :depends pytest: ``>=7.2.1``
+   :depends python: ``>=3.9``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake: ``>=7.20.0``
+   :depends ruamel.yaml: ``>=0.17.32``
+   :depends snakemake-minimal: ``>=7.20.0``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +98,7 @@ nanometa-live
 
     <script>
         var package = "nanometa-live";
-        var versions = ["0.1.1"];
+        var versions = ["0.3.0","0.1.1"];
     </script>
 
 
