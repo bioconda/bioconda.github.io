@@ -10,7 +10,7 @@ skder
    :replaces_section_title:
    :noindex:
 
-   skDER\: efficient dynamic dereplication of genomes using skani
+   skDER\: efficient \& high\-resolution dereplication of microbial genomes
 
    :homepage: https://github.com/raufs/skDER
    :license: BSD / BSD-3-Clause license
@@ -27,7 +27,7 @@ skder
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -89,7 +89,7 @@ skder
 
     <script>
         var package = "skder";
-        var versions = ["1.0.5","1.0.4","1.0.3","1.0.1","1.0.1"];
+        var versions = ["1.0.6","1.0.5","1.0.4","1.0.3","1.0.1"];
     </script>
 
 
