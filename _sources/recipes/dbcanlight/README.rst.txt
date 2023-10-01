@@ -16,7 +16,9 @@ dbcanlight
    :license: MIT
    :recipe: /`dbcanlight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcanlight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcanlight/meta.yaml>`_
 
-   
+   dbcanlight uses the hmmsearch module in pyhmmer to discover CAZymes and 
+   potential substrates from a peptide sequences.
+
 
 
 .. conda:package:: dbcanlight
@@ -27,7 +29,7 @@ dbcanlight
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -83,7 +85,7 @@ dbcanlight
 
     <script>
         var package = "dbcanlight";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 
