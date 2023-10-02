@@ -27,15 +27,16 @@ vamos
       
       
 
-      ``1.2.6-0``
+      ``1.3.5.2-0``,  ``1.2.6-0``
 
       
 
    
-   :depends htslib: ``>=1.17,<1.19.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: ``1.2.*``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +84,7 @@ vamos
 
     <script>
         var package = "vamos";
-        var versions = ["1.2.6"];
+        var versions = ["1.3.5.2","1.2.6"];
     </script>
 
 

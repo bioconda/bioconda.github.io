@@ -29,7 +29,7 @@ nanometa-live
       
       
 
-      ``0.3.0-0``,  ``0.1.1-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.1-0``
 
       
 
@@ -98,7 +98,7 @@ nanometa-live
 
     <script>
         var package = "nanometa-live";
-        var versions = ["0.3.0","0.1.1"];
+        var versions = ["0.3.1","0.3.0","0.1.1"];
     </script>
 
 

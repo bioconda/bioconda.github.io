@@ -13,7 +13,7 @@ mkdesigner
    Genome\-wide design of markers for PCR\-based genotyping from NGS data.
 
    :homepage: https://github.com/KChigira/mkdesigner/
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`mkdesigner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mkdesigner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mkdesigner/meta.yaml>`_
 
    
