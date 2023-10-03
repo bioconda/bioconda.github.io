@@ -27,14 +27,19 @@ ncbi-fcs-gx
       
       
 
-      ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
+      ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
 
    
+   :depends aria2: ``1.36.0.*``
+   :depends grep: ``>=3.4``
+   :depends gzip: ``>=1.5``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends pv: ``>=1.4.6``
    :depends python: ``>=3.9``
+   :depends rclone: ``1.61.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +87,7 @@ ncbi-fcs-gx
 
     <script>
         var package = "ncbi-fcs-gx";
-        var versions = ["0.4.0","0.4.0","0.4.0"];
+        var versions = ["0.4.1","0.4.0","0.4.0","0.4.0"];
     </script>
 
 

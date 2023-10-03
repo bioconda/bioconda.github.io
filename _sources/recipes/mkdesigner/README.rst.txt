@@ -27,7 +27,7 @@ mkdesigner
       
       
 
-      ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.1-0``
+      ``0.3.1-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.1-0``
 
       
 
@@ -35,6 +35,7 @@ mkdesigner
    :depends bcftools: ``>=1.5,<2.0``
    :depends blast: ``>=2.14.0,<3.0.0``
    :depends gatk4: ``>=4.4.0.0,<5.0.0.0``
+   :depends matplotlib-base: 
    :depends pandas: ``>=2.0.2,<3.0.0``
    :depends picard: ``>=2.18.29,<3.0.0``
    :depends python: ``>=3.8,<4.0``
@@ -87,7 +88,7 @@ mkdesigner
 
     <script>
         var package = "mkdesigner";
-        var versions = ["0.2.1","0.1.1","0.0.1"];
+        var versions = ["0.3.1","0.2.1","0.1.1","0.0.1"];
     </script>
 
 

@@ -14,7 +14,7 @@ gnparser
 
    :homepage: https://parser.globalnames.org/
    :developer docs: https://github.com/gnames/gnparser
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`gnparser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnparser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnparser/meta.yaml>`_
    :links: doi: :doi:`https://doi.org/10.5281/zenodo.5111569`
 
@@ -29,7 +29,7 @@ gnparser
       
       
 
-      ``1.7.4-0``,  ``1.7.3-0``
+      ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``
 
       
 
@@ -81,7 +81,7 @@ gnparser
 
     <script>
         var package = "gnparser";
-        var versions = ["1.7.4","1.7.3"];
+        var versions = ["1.7.5","1.7.4","1.7.3"];
     </script>
 
 

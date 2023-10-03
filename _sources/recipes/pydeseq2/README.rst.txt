@@ -13,7 +13,7 @@ pydeseq2
    A python implementation of DESeq2.
 
    :homepage: https://github.com/owkin/PyDESeq2
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pydeseq2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydeseq2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydeseq2/meta.yaml>`_
    :links: doi: :doi:`10.1101/2022.12.14.520412`
 
@@ -28,7 +28,7 @@ pydeseq2
       
       
 
-      ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
@@ -90,7 +90,7 @@ pydeseq2
 
     <script>
         var package = "pydeseq2";
-        var versions = ["0.4.0","0.3.6","0.3.5","0.3.4","0.3.3"];
+        var versions = ["0.4.1","0.4.0","0.3.6","0.3.5","0.3.4"];
     </script>
 
 

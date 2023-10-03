@@ -13,8 +13,11 @@ clipkit
    Alignment trimming software for phylogenetics.
 
    :homepage: https://github.com/jlsteenwyk/clipkit
+   :documentation: https://jlsteenwyk.com/ClipKIT/
+   
    :license: MIT / MIT
    :recipe: /`clipkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clipkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clipkit/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pbio.3001007`
 
    
 
@@ -28,10 +31,10 @@ clipkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>1.4.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>1.4.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``1.4.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.4.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -42,7 +45,7 @@ clipkit
    
    :depends biopython: ``>=1.81``
    :depends numpy: ``>=1.24.0``
-   :depends python: ``>=3``
+   :depends python: ``>=3.9``
    :depends tqdm: ``>=4.45.0``
    :requirements:
 
@@ -91,7 +94,7 @@ clipkit
 
     <script>
         var package = "clipkit";
-        var versions = ["2.0.1","1.4.1","1.3.0","1.2.0","1.1.6"];
+        var versions = ["2.1.1","2.1.0","2.0.1","1.4.1","1.3.0"];
     </script>
 
 

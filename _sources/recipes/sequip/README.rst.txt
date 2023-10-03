@@ -27,7 +27,7 @@ sequip
       
       
 
-      ``0.09-0``,  ``0.08-0``
+      ``0.10-0``,  ``0.09-0``,  ``0.08-0``
 
       
 
@@ -81,7 +81,7 @@ sequip
 
     <script>
         var package = "sequip";
-        var versions = ["0.09","0.08"];
+        var versions = ["0.10","0.09","0.08"];
     </script>
 
 

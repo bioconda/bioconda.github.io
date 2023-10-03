@@ -13,7 +13,7 @@ t1k
    T1K is a versatile methods to genotype highly polymorphic genes \(e.g. KIR\, HLA\) with RNA\-seq\, WGS or WES data.
 
    :homepage: https://github.com/mourisl/T1K
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`t1k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1k/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ t1k
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -84,7 +84,7 @@ t1k
 
     <script>
         var package = "t1k";
-        var versions = ["1.0.2","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.2","1.0.2","1.0.1","1.0.0"];
     </script>
 
 
