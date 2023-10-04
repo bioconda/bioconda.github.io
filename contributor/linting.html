@@ -939,7 +939,8 @@ of trying to fix things when they break later on.
 This holds for compiled packages (in particular those with shared
 libraries) but also for e.g. Python packages, as those might also
 introduce breaking changes in their APIs or command line interfaces.</p>
-<p>We distinguish between three cases. If the software follows semantic versioning (or it has at least a normal version string (like 1.2.3) and the actual strategy of the devs is unknown), add run_exports to the recipe like this:</p>
+<p>We distinguish between four cases.</p>
+<p><strong>Case 1:</strong> If the software follows semantic versioning (or it has at least a normal version string (like 1.2.3) and the actual strategy of the devs is unknown), add run_exports to the recipe like this:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
   <span class="n">run_exports</span><span class="p">:</span>
     <span class="o">-</span> <span class="p">{{</span> <span class="n">pin_subpackage</span><span class="p">(</span><span class="s1">&#39;myrecipe&#39;</span><span class="p">,</span> <span class="n">max_pin</span><span class="o">=</span><span class="s2">&quot;x&quot;</span><span class="p">)</span> <span class="p">}}</span>
@@ -949,13 +950,17 @@ introduce breaking changes in their APIs or command line interfaces.</p>
 This will by default pin the package to <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0,&lt;2.0.0</span></code> where <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code> is the 
 version of the package at build time of the one depending on it and <code class="docutils literal notranslate"><span class="pre">&lt;2.0.0</span></code> constrains
 it to be less than the next major (i.e. potentially not backward compatible) version.</p>
-<p>If the software has a normal versioning (like 1.2.3) but does reportedly not follow semantic versioning, please choose the <code class="docutils literal notranslate"><span class="pre">max_pin</span></code> argument such that it captures the potential next version that will introduce a breaking change. E.g. if you expect breaking changes to occur with the next minor release, choose <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x&quot;</span></code>, if they even can occur with the next patch release, choose <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x.x&quot;</span></code>.</p>
-<p>If the software does have a non-standard versioning (e.g. calendar versioning like 20220602), we cannot really protect well against breakages. However, we can at least pin to the current version as a minimum and skip the max_pin constraint. This works by setting <code class="docutils literal notranslate"><span class="pre">max_pin=None</span></code>.</p>
+<p><strong>Case 2:</strong> If the software version starts with a 0 (e.g. <code class="docutils literal notranslate"><span class="pre">0.3.2</span></code>) semantic versioning allows breaking changes in minor releases. Hence, you should use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
+  <span class="n">run_exports</span><span class="p">:</span>
+    <span class="o">-</span> <span class="p">{{</span> <span class="n">pin_subpackage</span><span class="p">(</span><span class="s1">&#39;myrecipe&#39;</span><span class="p">,</span> <span class="n">max_pin</span><span class="o">=</span><span class="s2">&quot;x.x&quot;</span><span class="p">)</span> <span class="p">}}</span>
+</pre></div>
+</div>
+<p><strong>Case 3:</strong> If the software has a normal versioning (like 1.2.3) but does reportedly not follow semantic versioning, please choose the <code class="docutils literal notranslate"><span class="pre">max_pin</span></code> argument such that it captures the potential next version that will introduce a breaking change.
+E.g. if you expect breaking changes to occur with the next minor release, choose <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x&quot;</span></code>, if they even can occur with the next patch release, choose <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x.x&quot;</span></code>.</p>
+<p><strong>Case 4:</strong> If the software does have a non-standard versioning (e.g. calendar versioning like 20220602), we cannot really protect well against breakages. However, we can at least pin to the current version as a minimum and skip the max_pin constraint. This works by setting <code class="docutils literal notranslate"><span class="pre">max_pin=None</span></code>.</p>
 <p>In the recipe depending on this one, one just needs to specify the package name
-and no version at all.
-If you need a different pinning strategy for this particular recipe (e.g. because it does
-not follow semantic versioning), you can e.g. use <code class="docutils literal notranslate"><span class="pre">max_pin=&quot;x.x&quot;</span></code> to pin to the minor
-version (i.e. translating to <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0,&lt;1.3.0</span></code> ).</p>
+and no version at all.</p>
 <p>Also check out the possible arguments of <code class="xref any docutils literal notranslate"><span class="pre">pin_subpackage</span></code> here:
 <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/stable/resources/define-metadata.html#export-runtime-requirements">https://docs.conda.io/projects/conda-build/en/stable/resources/define-metadata.html#export-runtime-requirements</a></p>
 <p>Since this strategy can lead to potentially more conflicts in dependency pinnings between tools,
@@ -966,6 +971,10 @@ configuration file here:
 <p>Finally, note that conda is unable to conduct such pinnings in case the dependency and the depending recipe
 are updated within the same pull request. Hence, the pull request adding the run_export statement
 has to be merged before the one updating or creating the depending recipe is created.</p>
+<p><strong>Importantly</strong> note that this shall not be used to pin compatible versions of other recipes in the current recipe.
+Rather, those other recipes have to get their own run_exports sections.
+Usually, there is no need to use <code class="docutils literal notranslate"><span class="pre">pin_compatible</span></code>, just use <code class="docutils literal notranslate"><span class="pre">pin_subpackage</span></code> as shown above, and fix
+run_exports in upstream packages as well if needed.</p>
 </div>
 <p></p>
 </section>

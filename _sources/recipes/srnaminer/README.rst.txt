@@ -13,7 +13,7 @@ srnaminer
    sRNAminer\: a Multifunctional Toolkit for Next Generation Sequencing Small RNA Data Mining
 
    :homepage: https://github.com/kli28/sRNAminer
-   :license: GPL3
+   :license: CC BY-NC-SA 4.0
    :recipe: /`srnaminer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnaminer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnaminer/meta.yaml>`_
 
    sRNAminer\-A multifunctional toolkit for sRNA analysis.
@@ -27,7 +27,7 @@ srnaminer
       
       
 
-      ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -90,7 +90,7 @@ srnaminer
 
     <script>
         var package = "srnaminer";
-        var versions = ["1.1.0","1.0.9","1.0.8","1.0.7","1.0.6"];
+        var versions = ["1.1.1","1.1.0","1.0.9","1.0.8","1.0.7"];
     </script>
 
 

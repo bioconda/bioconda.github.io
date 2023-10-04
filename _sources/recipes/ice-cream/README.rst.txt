@@ -27,7 +27,7 @@ ice-cream
       
       
 
-      ``1.10-0``
+      ``1.10-1``,  ``1.10-0``
 
       
 
@@ -92,7 +92,7 @@ ice-cream
 
     <script>
         var package = "ice-cream";
-        var versions = ["1.10"];
+        var versions = ["1.10","1.10"];
     </script>
 
 

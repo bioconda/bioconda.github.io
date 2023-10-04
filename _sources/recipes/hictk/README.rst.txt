@@ -30,17 +30,20 @@ hictk
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends boost: ``>=1.82.0,<1.82.1.0a0``
    :depends hdf5: ``>=1.12``
-   :depends hdf5: ``>=1.14.1,<1.14.2.0a0``
+   :depends hdf5: ``>=1.14.2,<1.14.3.0a0``
    :depends libdeflate: ``>=1.18,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends xxhash: ``>=0.8.2,<0.8.3.0a0``
+   :depends zstd: ``>=1.5``
+   :depends zstd: ``>=1.5.5,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +91,7 @@ hictk
 
     <script>
         var package = "hictk";
-        var versions = ["0.0.2","0.0.1"];
+        var versions = ["0.0.3","0.0.2","0.0.1"];
     </script>
 
 

@@ -29,7 +29,7 @@ bactopia-sketcher
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -40,7 +40,7 @@ bactopia-sketcher
    :depends pigz: 
    :depends python: ``>=3.6,<3.11``
    :depends sed: 
-   :depends sourmash: ``>=4.8.2``
+   :depends sourmash: ``>=4.8.4``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ bactopia-sketcher
 
     <script>
         var package = "bactopia-sketcher";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 
