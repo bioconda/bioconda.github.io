@@ -31,10 +31,10 @@ raptor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -47,6 +47,7 @@ raptor
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends yaml-cpp: ``>=0.8.0,<0.9.0a0``
    :depends zlib: 
    :requirements:
 
@@ -95,7 +96,7 @@ raptor
 
     <script>
         var package = "raptor";
-        var versions = ["3.0.0","3.0.0","2.0.0","2.0.0","2.0.0"];
+        var versions = ["3.0.1","3.0.0","3.0.0","2.0.0","2.0.0"];
     </script>
 
 

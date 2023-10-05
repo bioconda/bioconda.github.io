@@ -13,7 +13,7 @@ sem
    A nucleosome calling package for nucleosome subtype detection
 
    :homepage: https://github.com/YenLab/SEM
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`sem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sem/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ sem
       
       
 
-      ``1.2.0-0``,  ``1.1.2-0``
+      ``1.2.3-0``,  ``1.2.0-0``,  ``1.1.2-0``
 
       
 
@@ -81,7 +81,7 @@ sem
 
     <script>
         var package = "sem";
-        var versions = ["1.2.0","1.1.2"];
+        var versions = ["1.2.3","1.2.0","1.1.2"];
     </script>
 
 

@@ -16,7 +16,7 @@ hafez
    :documentation: https://github.com/Chrisjrt/hafeZ/blob/master/README.md
    
    :developer docs: https://github.com/Chrisjrt/hafeZ/
-   :license: GPL-3 / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hafez <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hafez>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hafez/meta.yaml>`_
 
    
@@ -30,7 +30,7 @@ hafez
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -99,7 +99,7 @@ hafez
 
     <script>
         var package = "hafez";
-        var versions = ["1.0.3","1.0.2"];
+        var versions = ["1.0.4","1.0.3","1.0.2"];
     </script>
 
 

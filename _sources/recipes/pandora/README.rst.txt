@@ -13,7 +13,7 @@ pandora
    Pan\-genome inference and genotyping with long noisy or short accurate reads
 
    :homepage: https://github.com/rmcolq/pandora
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pandora <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pandora>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pandora/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pandora
       
       
 
-      ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``
+      ``0.9.2-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``
 
       
 
@@ -81,7 +81,7 @@ pandora
 
     <script>
         var package = "pandora";
-        var versions = ["0.9.1","0.9.1","0.9.1"];
+        var versions = ["0.9.2","0.9.1","0.9.1","0.9.1"];
     </script>
 
 

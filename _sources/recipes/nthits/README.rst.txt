@@ -13,7 +13,7 @@ nthits
    ntHits is a tool for efficiently counting and filtering k\-mers based on their frequencies
 
    :homepage: https://github.com/bcgsc/ntHits
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`nthits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nthits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nthits/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ nthits
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -83,7 +83,7 @@ nthits
 
     <script>
         var package = "nthits";
-        var versions = ["1.0.1","1.0.1","0.0.1","0.0.1","0.0.1"];
+        var versions = ["1.0.2","1.0.1","1.0.1","0.0.1","0.0.1"];
     </script>
 
 

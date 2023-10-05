@@ -13,7 +13,7 @@ squigulator
    A tool for simulating nanopore raw signal data
 
    :homepage: https://github.com/hasindu2008/squigulator
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`squigulator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squigulator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squigulator/meta.yaml>`_
 
    squigulator is a tool for simulating nanopore raw signal data.
@@ -27,7 +27,7 @@ squigulator
       
       
 
-      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -83,7 +83,7 @@ squigulator
 
     <script>
         var package = "squigulator";
-        var versions = ["0.2.0","0.2.0","0.2.0"];
+        var versions = ["0.2.1","0.2.0","0.2.0","0.2.0"];
     </script>
 
 
