@@ -27,7 +27,7 @@ crispector2
       
       
 
-      ``2.0.4-0``
+      ``2.0.6-0``,  ``2.0.4-0``
 
       
 
@@ -94,7 +94,7 @@ crispector2
 
     <script>
         var package = "crispector2";
-        var versions = ["2.0.4"];
+        var versions = ["2.0.6","2.0.4"];
     </script>
 
 

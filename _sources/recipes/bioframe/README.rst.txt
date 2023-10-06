@@ -29,19 +29,20 @@ bioframe
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.12-0``
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.12-0``
 
       
 
    
    :depends cytoolz: 
    :depends matplotlib-base: 
-   :depends numpy: ``>=1.9``
+   :depends numpy: ``>=1.10``
    :depends pairix: 
-   :depends pandas: ``>=0.17``
+   :depends pandas: ``>=1.3``
    :depends pyfaidx: 
    :depends pysam: 
    :depends python: ``>=3.7``
+   :depends pyyaml: 
    :depends requests: 
    :depends six: 
    :requirements:
@@ -91,7 +92,7 @@ bioframe
 
     <script>
         var package = "bioframe";
-        var versions = ["0.4.1","0.4.0","0.3.3","0.3.2","0.3.1"];
+        var versions = ["0.5.0","0.4.1","0.4.0","0.3.3","0.3.2"];
     </script>
 
 

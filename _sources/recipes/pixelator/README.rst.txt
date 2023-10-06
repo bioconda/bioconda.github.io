@@ -28,7 +28,7 @@ pixelator
       
       
 
-      ``0.13.1-0``
+      ``0.14.0-0``,  ``0.13.1-0``
 
       
 
@@ -39,6 +39,8 @@ pixelator
    :depends cutadapt: ``>=4.2``
    :depends esda: 
    :depends fastp: 
+   :depends fastparquet: ``>2023.8.0*``
+   :depends fsspec: ``>2023.9.0*``
    :depends igraph: ``>=0.10.2,<=0.11.0``
    :depends importlib-resources: ``>=5.12.0,<6.0.0``
    :depends leidenalg: 
@@ -49,7 +51,7 @@ pixelator
    :depends numpy: ``<1.24.0``
    :depends pandas: ``>=2.0.0,<3.0.0``
    :depends polars: ``>=0.17.12,<0.18.0``
-   :depends pyarrow: 
+   :depends pyarrow: ``>=13.0.0``
    :depends pydantic: ``>=1.10.7,<2.0.0``
    :depends pyfastx: 
    :depends python: ``>=3.8,<3.11``
@@ -110,7 +112,7 @@ pixelator
 
     <script>
         var package = "pixelator";
-        var versions = ["0.13.1"];
+        var versions = ["0.14.0","0.13.1"];
     </script>
 
 

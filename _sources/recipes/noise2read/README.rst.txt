@@ -28,7 +28,7 @@ noise2read
       
       
 
-      ``0.2.7-0``
+      ``0.2.10-0``,  ``0.2.7-0``
 
       
 
@@ -97,7 +97,7 @@ noise2read
 
     <script>
         var package = "noise2read";
-        var versions = ["0.2.7"];
+        var versions = ["0.2.10","0.2.7"];
     </script>
 
 
