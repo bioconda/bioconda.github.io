@@ -27,7 +27,7 @@ tcdemux
       
       
 
-      ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``
+      ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``
 
       
 
@@ -38,6 +38,10 @@ tcdemux
    :depends pandas: ``>=2.0.3``
    :depends pigz: 
    :depends python: ``>=3.10``
+   :depends r-bit64: ``>=4.0.5``
+   :depends r-data.table: ``>=1.14.8``
+   :depends r-ggplot2: ``>=3.4.3``
+   :depends r-viridis: ``>=0.6.4``
    :depends snakemake: ``>=7.31.0``
    :requirements:
 
@@ -86,7 +90,7 @@ tcdemux
 
     <script>
         var package = "tcdemux";
-        var versions = ["0.0.15","0.0.14","0.0.13"];
+        var versions = ["0.0.16","0.0.15","0.0.14","0.0.13"];
     </script>
 
 

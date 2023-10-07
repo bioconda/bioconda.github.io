@@ -29,10 +29,10 @@ r-acidexperiment
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.5.2-0``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
       .. raw:: html
@@ -41,27 +41,25 @@ r-acidexperiment
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0``
-   :depends bioconductor-biocgenerics: ``>=0.44.0``
-   :depends bioconductor-biostrings: ``>=2.66.0``
-   :depends bioconductor-genomeinfodb: ``>=1.34.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0``
-   :depends bioconductor-iranges: ``>=2.32.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.24.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0``
-   :depends r-acidbase: ``>=0.6.15``
-   :depends r-acidcli: ``>=0.2.7``
-   :depends r-acidgenerics: ``>=0.6.7``
-   :depends r-acidgenomes: ``>=0.5.0``
-   :depends r-acidplyr: ``>=0.3.10``
+   :depends bioconductor-biobase: ``>=2.60.0``
+   :depends bioconductor-biocgenerics: ``>=0.46.0``
+   :depends bioconductor-biostrings: ``>=2.68.0``
+   :depends bioconductor-genomeinfodb: ``>=1.36.0``
+   :depends bioconductor-genomicranges: ``>=1.52.0``
+   :depends bioconductor-iranges: ``>=2.34.0``
+   :depends bioconductor-s4vectors: ``>=0.38.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.30.0``
+   :depends r-acidbase: ``>=0.7.0``
+   :depends r-acidcli: ``>=0.3.0``
+   :depends r-acidgenerics: ``>=0.7.1``
+   :depends r-acidgenomes: ``>=0.6.0``
+   :depends r-acidplyr: ``>=0.5.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-goalie: ``>=0.6.9``
-   :depends r-matrix: ``>=1.5.4``
-   :depends r-pipette: ``>=0.10.9``
+   :depends r-goalie: ``>=0.7.0``
+   :depends r-matrix: ``>=1.6.1``
+   :depends r-pipette: ``>=0.14.0``
    :depends r-scales: ``>=1.2.1``
-   :depends r-stringi: ``>=1.7.12``
-   :depends r-syntactic: ``>=0.6.5``
+   :depends r-syntactic: ``>=0.7.0``
    :requirements:
 
    .. rubric:: Installation
@@ -109,7 +107,7 @@ r-acidexperiment
 
     <script>
         var package = "r-acidexperiment";
-        var versions = ["0.4.7","0.4.7","0.4.7","0.4.5","0.4.5"];
+        var versions = ["0.5.2","0.4.7","0.4.7","0.4.7","0.4.5"];
     </script>
 
 

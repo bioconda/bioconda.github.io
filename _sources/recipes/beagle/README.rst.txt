@@ -13,9 +13,9 @@ beagle
    Beagle is a software package for phasing genotypes and for imputing ungenotyped markers.
 
    :homepage: http://faculty.washington.edu/browning/beagle/beagle.html
-   :documentation: http://faculty.washington.edu/browning/beagle/beagle_5.1_12Aug19.pdf
+   :documentation: https://faculty.washington.edu/browning/beagle/beagle_5.4_18Mar22.pdf
    
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`beagle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beagle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beagle/meta.yaml>`_
    :links: biotools: :biotools:`BEAGLE`, doi: :doi:`10.1086/521987`, doi: :doi:`10.1016/j.ajhg.2018.07.015`
 
@@ -29,9 +29,17 @@ beagle
    :versions:
       
       
+      .. raw:: html
 
-      ``5.2_21Apr21.304-0``,  ``5.1_24Aug19.3e8-1``,  ``5.1_24Aug19.3e8-0``,  ``4.1_21Jan17.6cc.jar-1``,  ``4.1_21Jan17.6cc.jar-0``,  ``4.1_03May16.862.jar-0``,  ``4.0_06Jun17-3``,  ``4.0_06Jun17-2``,  ``4.0_06Jun17-1``
+         <details><summary><span class="truncated-version-list"><code>5.4_22Jul22.46e-0</code>,  <code>5.2_21Apr21.304-0</code>,  <code>5.1_24Aug19.3e8-1</code>,  <code>5.1_24Aug19.3e8-0</code>,  <code>4.1_21Jan17.6cc.jar-1</code>,  <code>4.1_21Jan17.6cc.jar-0</code>,  <code>4.1_03May16.862.jar-0</code>,  <code>4.0_06Jun17-3</code>,  <code>4.0_06Jun17-2</code>,  </span></summary>
+      
 
+      ``5.4_22Jul22.46e-0``,  ``5.2_21Apr21.304-0``,  ``5.1_24Aug19.3e8-1``,  ``5.1_24Aug19.3e8-0``,  ``4.1_21Jan17.6cc.jar-1``,  ``4.1_21Jan17.6cc.jar-0``,  ``4.1_03May16.862.jar-0``,  ``4.0_06Jun17-3``,  ``4.0_06Jun17-2``,  ``4.0_06Jun17-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -83,7 +91,7 @@ beagle
 
     <script>
         var package = "beagle";
-        var versions = ["5.2_21Apr21.304","5.1_24Aug19.3e8","5.1_24Aug19.3e8","4.1_21Jan17.6cc.jar","4.1_21Jan17.6cc.jar"];
+        var versions = ["5.4_22Jul22.46e","5.2_21Apr21.304","5.1_24Aug19.3e8","5.1_24Aug19.3e8","4.1_21Jan17.6cc.jar"];
     </script>
 
 
