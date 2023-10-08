@@ -13,7 +13,7 @@ scanorama
    Panoramic stitching of heterogeneous single\-cell transcriptomic data
 
    :homepage: https://github.com/brianhie/scanorama/
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`scanorama <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanorama>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanorama/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41587-019-0113-3`
 
@@ -28,7 +28,7 @@ scanorama
       
       
 
-      ``1.7.3-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``
+      ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``
 
       
 
@@ -89,7 +89,7 @@ scanorama
 
     <script>
         var package = "scanorama";
-        var versions = ["1.7.3","1.7.1","1.7","1.6","1.5.2"];
+        var versions = ["1.7.4","1.7.3","1.7.1","1.7","1.6"];
     </script>
 
 

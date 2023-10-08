@@ -13,6 +13,8 @@ asciigenome
    Command\-line genome browser running from terminal window and solely based on ASCII characters
 
    :homepage: https://github.com/dariober/ASCIIGenome
+   :documentation: https://asciigenome.readthedocs.io/en/latest/
+   
    :license: MIT / MIT
    :recipe: /`asciigenome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asciigenome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asciigenome/meta.yaml>`_
 
@@ -28,10 +30,10 @@ asciigenome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.17.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.17.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.6.4-0``,  ``0.2.0-0``
+      ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.6.4-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -89,7 +91,7 @@ asciigenome
 
     <script>
         var package = "asciigenome";
-        var versions = ["1.17.0","1.16.0","1.16.0","1.15.0","1.14.0"];
+        var versions = ["1.18.0","1.17.0","1.16.0","1.16.0","1.15.0"];
     </script>
 
 

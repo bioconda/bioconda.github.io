@@ -10,15 +10,13 @@ pneumo-typer
    :replaces_section_title:
    :noindex:
 
-   Pneumo\-Typer is a fast and simple\-to\-use tool for predicting serotype and determining sequence type \(St\/cgSt\) for Streptococcus pneumoniae.
+   Pneumo\-Typer is a comprehensive prediction and visualization of serotype and sequence type for streptococcus pneumoniae using assembled genomes.
 
    :homepage: https://www.microbialgenomic.cn/Pneumo-Typer.html
-   :documentation: How to install and use Pneumo-Typer at 'https://www.microbialgenomic.cn/Pneumo-Typer.html' and or https://github.com/Xiangyang1984/Pneumo-Typer.
-   
-   :license: perl_5
+   :license: GNU General Public License v3.0 or any later version (GPL-3.0-or-later)
    :recipe: /`pneumo-typer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumo-typer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumo-typer/meta.yaml>`_
 
-   Pneumo\-Typer is a stand\-alone perl application\, which requires blat\, prodigal\, NCBI BLASt\+\, boat and several perl Modules \(GD\, GD\:\:SVG\) to be installed before use.
+   
 
 
 .. conda:package:: pneumo-typer
@@ -29,7 +27,7 @@ pneumo-typer
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -88,7 +86,7 @@ pneumo-typer
 
     <script>
         var package = "pneumo-typer";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.1","1.0.1"];
     </script>
 
 

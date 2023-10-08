@@ -28,28 +28,25 @@ noise2read
       
       
 
-      ``0.2.10-0``,  ``0.2.7-0``
+      ``0.3.0-0``,  ``0.2.10-0``,  ``0.2.7-0``
 
       
 
    
    :depends bcool: 
    :depends biopython: ``1.79``
-   :depends editdistance: ``0.6.2``
-   :depends imbalanced-learn: ``0.9.1``
+   :depends editdistance: ``>=0.6.0``
+   :depends imbalanced-learn: ``>=0.9.1``
    :depends matplotlib-base: ``>=3.5.2``
    :depends mpire: ``>=2.8.0``
    :depends networkx: ``2.8.5``
    :depends optuna: ``>=3.1.1``
-   :depends pandas: ``2.1.0``
-   :depends psutil: ``5.9.5``
-   :depends python: 
-   :depends scikit-learn: ``1.3``
-   :depends seaborn: ``>=0.12.1``
+   :depends pandas: ``>=1.4.3``
+   :depends python: ``>=3.8``
+   :depends scikit-learn: ``>=1.1.1``
    :depends seqtk: 
-   :depends tqdm: ``4.66.1``
    :depends xgboost: ``1.6.1``
-   :depends xlsxwriter: ``3.0.3``
+   :depends xlsxwriter: ``>=3.0.3``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +94,7 @@ noise2read
 
     <script>
         var package = "noise2read";
-        var versions = ["0.2.10","0.2.7"];
+        var versions = ["0.3.0","0.2.10","0.2.7"];
     </script>
 
 
