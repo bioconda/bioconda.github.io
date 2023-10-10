@@ -32,10 +32,10 @@ genometools-genometools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.3-0</code>,  <code>1.6.2-6</code>,  <code>1.6.2-4</code>,  <code>1.6.2-3</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-6</code>,  <code>1.6.2-4</code>,  <code>1.6.2-3</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-2</code>,  </span></summary>
       
 
-      ``1.6.3-0``,  ``1.6.2-6``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
+      ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-6``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ genometools-genometools
 
     <script>
         var package = "genometools-genometools";
-        var versions = ["1.6.3","1.6.2","1.6.2","1.6.2","1.6.2"];
+        var versions = ["1.6.4","1.6.3","1.6.2","1.6.2","1.6.2"];
     </script>
 
 

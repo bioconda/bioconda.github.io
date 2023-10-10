@@ -30,7 +30,7 @@ phables
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.1.0b7-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.1.0b7-0``
 
       
 
@@ -39,9 +39,9 @@ phables
    :depends jinja2: ``>=3.0.2``
    :depends mamba: ``<1.4.2``
    :depends metasnek: ``>=0.0.5``
-   :depends python: ``>=3.8,<3.11``
+   :depends python: ``>=3.9``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake: ``>=7.14.0``
+   :depends snakemake-minimal: ``>=7.14.0``
    :depends snaketool-utils: ``>=0.0.3``
    :requirements:
 
@@ -90,7 +90,7 @@ phables
 
     <script>
         var package = "phables";
-        var versions = ["1.2.0","1.1.0","1.0.0","0.2.0","0.1.1"];
+        var versions = ["1.2.1","1.2.0","1.1.0","1.0.0","0.2.0"];
     </script>
 
 

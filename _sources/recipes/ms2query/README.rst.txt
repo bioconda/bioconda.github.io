@@ -28,7 +28,7 @@ ms2query
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
@@ -42,7 +42,7 @@ ms2query
    :depends onnxruntime: 
    :depends pandas: ``>=1.2.5,<2.0.0``
    :depends pubchempy: 
-   :depends python: ``3.8.*``
+   :depends python: ``>=3.7``
    :depends rdkit: 
    :depends scikit-learn: 
    :depends skl2onnx: 
@@ -96,7 +96,7 @@ ms2query
 
     <script>
         var package = "ms2query";
-        var versions = ["1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.2.3","1.2.2","1.2.1","1.2.0"];
     </script>
 
 
