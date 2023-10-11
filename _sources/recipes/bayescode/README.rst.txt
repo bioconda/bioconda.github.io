@@ -13,7 +13,7 @@ bayescode
    Mutation\-Selection phylogenetic codon models to detect site\-specific adaptive evolution or to infer long\-term effective population size
 
    :homepage: https://github.com/ThibaultLatrille/bayescode
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`bayescode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescode/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ bayescode
       
       
 
-      ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
 
       
 
@@ -86,7 +86,7 @@ bayescode
 
     <script>
         var package = "bayescode";
-        var versions = ["1.3.0","1.2.2","1.1.6","1.1.6","1.1.6"];
+        var versions = ["1.3.1","1.3.0","1.2.2","1.1.6","1.1.6"];
     </script>
 
 

@@ -16,7 +16,7 @@ rrmscorer
    :documentation: https://pypi.org/project/rrmscorer
    
    :developer docs: https://bitbucket.org/bio2byte/rrmscorer/
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: MIT / MIT
    :recipe: /`rrmscorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rrmscorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rrmscorer/meta.yaml>`_
    :links: doi: :doi:`10.1371/journal.pcbi.1010859`
 
@@ -46,20 +46,21 @@ rrmscorer
       
       
 
-      ``1.0.8-0``
+      ``1.0.9-0``,  ``1.0.8-0``
 
       
 
    
-   :depends biopython: ``1.79``
+   :depends biopython: 
    :depends hmmer: 
-   :depends logomaker: ``0.8``
+   :depends logomaker: 
    :depends matplotlib-base: 
-   :depends numpy: ``1.22.3``
-   :depends pandas: ``1.4.2``
+   :depends numpy: 
+   :depends pandas: 
    :depends python: ``>=3.9``
-   :depends requests: ``2.28.2``
-   :depends scikit-learn: ``1.1.1``
+   :depends requests: 
+   :depends scikit-learn: 
+   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation
@@ -107,7 +108,7 @@ rrmscorer
 
     <script>
         var package = "rrmscorer";
-        var versions = ["1.0.8"];
+        var versions = ["1.0.9","1.0.8"];
     </script>
 
 

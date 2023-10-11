@@ -1,44 +1,70 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 't_coffee'
+.. title:: Package Recipe 't-coffee'
 .. highlight: bash
 
-t_coffee
+t-coffee
 ========
 
 .. conda:recipe:: t_coffee
    :replaces_section_title:
    :noindex:
 
-   A collection of tools for Computing\, Evaluating and Manipulating Multiple Alignments of DNA\, RNA\, Protein Sequences and Structures.
+   A collection of tools for Multiple Alignments of DNA\, RNA\, Protein Sequence
 
    :homepage: http://www.tcoffee.org/Projects/tcoffee/
-   :license: GNU
+   :license: GPL-2.0-only
    :recipe: /`t_coffee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t_coffee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t_coffee/meta.yaml>`_
+   :links: doi: :doi:`10.1006/jmbi.2000.4042`
 
    
 
 
-.. conda:package:: t_coffee
+.. conda:package:: t-coffee
 
-   |downloads_t_coffee| |docker_t_coffee|
+   |downloads_t-coffee| |docker_t-coffee|
 
    :versions:
       
       
+      .. raw:: html
 
-      ``11.0.8-8``,  ``11.0.8-7``,  ``11.0.8-5``,  ``11.0.8-4``,  ``11.0.8-3``,  ``11.0.8-2``,  ``11.0.8-1``
+         <details><summary><span class="truncated-version-list"><code>13.46.0.919e8c6b-0</code>,  <code>13.45.0.4846264-7</code>,  <code>13.45.0.4846264-6</code>,  <code>13.45.0.4846264-5</code>,  <code>13.45.0.4846264-4</code>,  <code>13.45.0.4846264-3</code>,  <code>13.45.0.4846264-2</code>,  <code>13.45.0.4846264-1</code>,  <code>13.45.0.4846264-0</code>,  </span></summary>
+      
 
+      ``13.46.0.919e8c6b-0``,  ``13.45.0.4846264-7``,  ``13.45.0.4846264-6``,  ``13.45.0.4846264-5``,  ``13.45.0.4846264-4``,  ``13.45.0.4846264-3``,  ``13.45.0.4846264-2``,  ``13.45.0.4846264-1``,  ``13.45.0.4846264-0``,  ``13.39.0.d675aed-2``,  ``13.39.0.d675aed-1``,  ``13.39.0.d675aed-0``,  ``12.00.7fb08c2-2``,  ``12.00.7fb08c2-1``,  ``12.00.7fb08c2-0``,  ``11.00.8cbe486-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: ``>=7.64.1,<8.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends openssl: ``>=1.1.1a,<1.1.2a``
+   :depends blast: 
+   :depends clustalo: 
+   :depends clustalw: 
+   :depends consan: 
+   :depends dca: 
+   :depends dialign-tx: ``1.0.2.*``
+   :depends famsa: 
+   :depends kalign2: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends mafft: ``7.310.*``
+   :depends muscle: 
+   :depends mustang: ``3.2.3.*``
+   :depends pasta: 
    :depends perl: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends phylip: 
+   :depends poa: ``2.0.*``
+   :depends prank: 
+   :depends probcons: 
+   :depends probconsrna: 
+   :depends ruby: 
+   :depends sap: 
+   :depends tmalign: 
+   :depends viennarna: 
    :requirements:
 
    .. rubric:: Installation
@@ -54,39 +80,39 @@ t_coffee
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install t_coffee
+      mamba install t-coffee
 
    and update with::
 
-      mamba update t_coffee
+      mamba update t-coffee
 
   To create a new environment, run::
 
-      mamba create --name myenvname t_coffee
+      mamba create --name myenvname t-coffee
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/t_coffee:<tag>
+      docker pull quay.io/biocontainers/t-coffee:<tag>
 
-   (see `t_coffee/tags`_ for valid values for ``<tag>``)
+   (see `t-coffee/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_t_coffee| image:: https://img.shields.io/conda/dn/bioconda/t_coffee.svg?style=flat
-   :target: https://anaconda.org/bioconda/t_coffee
+.. |downloads_t-coffee| image:: https://img.shields.io/conda/dn/bioconda/t-coffee.svg?style=flat
+   :target: https://anaconda.org/bioconda/t-coffee
    :alt:   (downloads)
-.. |docker_t_coffee| image:: https://quay.io/repository/biocontainers/t_coffee/status
-   :target: https://quay.io/repository/biocontainers/t_coffee
-.. _`t_coffee/tags`: https://quay.io/repository/biocontainers/t_coffee?tab=tags
+.. |docker_t-coffee| image:: https://quay.io/repository/biocontainers/t-coffee/status
+   :target: https://quay.io/repository/biocontainers/t-coffee
+.. _`t-coffee/tags`: https://quay.io/repository/biocontainers/t-coffee?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "t_coffee";
-        var versions = ["11.0.8","11.0.8","11.0.8","11.0.8","11.0.8"];
+        var package = "t-coffee";
+        var versions = ["13.46.0.919e8c6b","13.45.0.4846264","13.45.0.4846264","13.45.0.4846264","13.45.0.4846264"];
     </script>
 
 
@@ -105,7 +131,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/t_coffee/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/t-coffee/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/t_coffee/README.html
+   :target: http://bioconda.github.io/recipes/t-coffee/README.html
