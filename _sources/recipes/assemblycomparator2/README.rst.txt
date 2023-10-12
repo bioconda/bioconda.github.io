@@ -27,7 +27,7 @@ assemblycomparator2
       
       
 
-      ``2.5.7-0``,  ``2.5.6-0``
+      ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``
 
       
 
@@ -81,7 +81,7 @@ assemblycomparator2
 
     <script>
         var package = "assemblycomparator2";
-        var versions = ["2.5.7","2.5.6"];
+        var versions = ["2.5.8","2.5.7","2.5.6"];
     </script>
 
 

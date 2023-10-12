@@ -27,7 +27,7 @@ beav
       
       
 
-      ``0.5.1-0``,  ``0.4.5-0``,  ``0.2-0``,  ``0.0.14-0``,  ``0.0.13-0``
+      ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.5-0``,  ``0.2-0``,  ``0.0.14-0``,  ``0.0.13-0``
 
       
 
@@ -45,7 +45,7 @@ beav
    :depends gzip: 
    :depends hmmer: ``>=3.3.2``
    :depends infernal: ``>=1.1.2``
-   :depends integron_finder: ``>=2.0.1``
+   :depends integron_finder: ``2.0rc6.*``
    :depends macsyfinder: 
    :depends numpy: ``>=1.19.4,<=1.22.1``
    :depends pandas: ``>=1.1.5,<=1.4.0``
@@ -109,7 +109,7 @@ beav
 
     <script>
         var package = "beav";
-        var versions = ["0.5.1","0.4.5","0.2","0.0.14","0.0.13"];
+        var versions = ["0.5.2","0.5.1","0.4.5","0.2","0.0.14"];
     </script>
 
 

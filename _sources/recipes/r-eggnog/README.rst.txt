@@ -28,7 +28,7 @@ r-eggnog
       
       
 
-      ``0.2.2-0``
+      ``0.3.0-0``,  ``0.2.2-0``
 
       
 
@@ -36,11 +36,10 @@ r-eggnog
    :depends bioconductor-biocgenerics: ``>=0.46.0``
    :depends bioconductor-iranges: ``>=2.34.0``
    :depends bioconductor-s4vectors: ``>=0.38.0``
-   :depends r-acidbase: ``>=0.6.18``
-   :depends r-acidplyr: ``>=0.3.11``
+   :depends r-acidbase: ``>=0.7.1``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-goalie: ``>=0.6.14``
-   :depends r-pipette: ``>=0.11.1``
+   :depends r-goalie: ``>=0.7.3``
+   :depends r-pipette: ``>=0.14.1``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +87,7 @@ r-eggnog
 
     <script>
         var package = "r-eggnog";
-        var versions = ["0.2.2"];
+        var versions = ["0.3.0","0.2.2"];
     </script>
 
 

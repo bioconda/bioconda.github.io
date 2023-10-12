@@ -29,10 +29,10 @@ r-cellosaurus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+      ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
 
       
       .. raw:: html
@@ -44,15 +44,14 @@ r-cellosaurus
    :depends bioconductor-biocgenerics: ``>=0.46.0``
    :depends bioconductor-iranges: ``>=2.34.0``
    :depends bioconductor-s4vectors: ``>=0.38.0``
-   :depends r-acidbase: ``>=0.6.19``
-   :depends r-acidcli: ``>=0.2.8``
-   :depends r-acidgenerics: ``>=0.6.8``
+   :depends r-acidbase: ``>=0.7.0``
+   :depends r-acidcli: ``>=0.3.0``
+   :depends r-acidgenerics: ``>=0.7.1``
    :depends r-acidplyr: ``>=0.4.2``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-goalie: ``>=0.6.15``
-   :depends r-pipette: ``>=0.12.0``
-   :depends r-stringi: ``>=1.7.12``
-   :depends r-syntactic: ``>=0.6.6``
+   :depends r-goalie: ``>=0.7.1``
+   :depends r-pipette: ``>=0.14.0``
+   :depends r-syntactic: ``>=0.7.0``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +99,7 @@ r-cellosaurus
 
     <script>
         var package = "r-cellosaurus";
-        var versions = ["0.7.2","0.7.1","0.7.0","0.6.0","0.5.4"];
+        var versions = ["0.8.1","0.7.2","0.7.1","0.7.0","0.6.0"];
     </script>
 
 

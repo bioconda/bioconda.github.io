@@ -13,8 +13,9 @@ tbpore
    Mycobacterium tuberculosis genomic analysis from Nanopore sequencing data
 
    :homepage: https://github.com/mbhall88/tbpore
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`tbpore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbpore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbpore/meta.yaml>`_
+   :links: doi: :doi:`10.1016/S2666-5247(22)00301-9`
 
    
 
@@ -28,10 +29,10 @@ tbpore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -50,8 +51,8 @@ tbpore
    :depends networkx: ``>=2.8,<3.0``
    :depends pandas: ``>=1.4.2,<2.0``
    :depends psdm: ``0.1.*``
-   :depends pysam: ``0.17.*``
-   :depends python: ``>=3.8,<3.10``
+   :depends pysam: ``<1.0``
+   :depends python: ``>=3.8``
    :depends pyyaml: ``>=6.0``
    :depends rasusa: 
    :depends samtools: ``1.13.*``
@@ -103,7 +104,7 @@ tbpore
 
     <script>
         var package = "tbpore";
-        var versions = ["0.6.0","0.5.0","0.4.1","0.4.0","0.4.0"];
+        var versions = ["0.7.0","0.6.0","0.5.0","0.4.1","0.4.0"];
     </script>
 
 

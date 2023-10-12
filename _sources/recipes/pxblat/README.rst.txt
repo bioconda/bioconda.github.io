@@ -31,7 +31,7 @@ pxblat
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -39,14 +39,14 @@ pxblat
    :depends biopython: 
    :depends deprecated: 
    :depends gevent: 
-   :depends htslib: ``>=1.17,<1.19.0a0``
+   :depends htslib: ``>=1.18,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends loguru: 
    :depends mashumaro: 
    :depends numpy: ``>=1.24.3``
-   :depends openssl: ``>=3.1.2,<4.0a0``
+   :depends openssl: ``>=3.1.3,<4.0a0``
    :depends pysimdjson: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -100,7 +100,7 @@ pxblat
 
     <script>
         var package = "pxblat";
-        var versions = ["0.3.2","0.3.1","0.3.0","0.2.0"];
+        var versions = ["0.3.4","0.3.2","0.3.1","0.3.0","0.2.0"];
     </script>
 
 

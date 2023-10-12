@@ -13,7 +13,9 @@ chewbbaca
    A complete suite for gene\-by\-gene schema creation and strain identification.
 
    :homepage: https://github.com/B-UMMI/chewBBACA
-   :license: GPL3 / GPL-3.0-only
+   :documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`chewbbaca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chewbbaca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chewbbaca/meta.yaml>`_
    :links: doi: :doi:`10.1099/mgen.0.000166`
 
@@ -29,10 +31,10 @@ chewbbaca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.8.5-1</code>,  <code>2.8.5-0</code>,  <code>2.8.4-0</code>,  <code>2.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.8.5-1</code>,  <code>2.8.5-0</code>,  <code>2.8.4-0</code>,  </span></summary>
       
 
-      ``3.2.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.17.2-0``,  ``2.0.17.1-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-2``,  ``2.0.8-2``,  ``2.0.8-0``,  ``2.0.6-0``,  ``1.0-0``
+      ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.17.2-0``,  ``2.0.17.1-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-2``,  ``2.0.8-2``,  ``2.0.8-0``,  ``2.0.6-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -48,7 +50,7 @@ chewbbaca
    :depends numpy: ``>=1.23.4``
    :depends pandas: ``>=1.5.1``
    :depends plotly: ``>=5.8.0``
-   :depends prodigal: ``>=2.6.3``
+   :depends pyrodigal: ``>=3.0.0``
    :depends python: ``>=3.7``
    :depends requests: ``>=2.27.1``
    :depends scipy: ``>=1.9.3``
@@ -100,7 +102,7 @@ chewbbaca
 
     <script>
         var package = "chewbbaca";
-        var versions = ["3.2.0","3.1.2","3.1.1","3.1.0","3.0.0"];
+        var versions = ["3.3.0","3.2.0","3.1.2","3.1.1","3.1.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ r-panther
       
       
 
-      ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -36,16 +36,15 @@ r-panther
    :depends bioconductor-biocgenerics: ``>=0.46.0``
    :depends bioconductor-iranges: ``>=2.34.0``
    :depends bioconductor-s4vectors: ``>=0.38.0``
-   :depends r-acidbase: ``>=0.6.18``
-   :depends r-acidcli: ``>=0.2.8``
-   :depends r-acidgenerics: ``>=0.6.7``
-   :depends r-acidgenomes: ``>=0.5.1``
-   :depends r-acidplyr: ``>=0.3.11``
+   :depends r-acidbase: ``>=0.7.0``
+   :depends r-acidcli: ``>=0.3.0``
+   :depends r-acidgenerics: ``>=0.7.3``
+   :depends r-acidgenomes: ``>=0.6.0``
+   :depends r-acidplyr: ``>=0.5.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-goalie: ``>=0.6.14``
-   :depends r-pipette: ``>=0.11.1``
-   :depends r-stringi: ``>=1.7.12``
-   :depends r-syntactic: ``>=0.6.6``
+   :depends r-goalie: ``>=0.7.3``
+   :depends r-pipette: ``>=0.14.1``
+   :depends r-syntactic: ``>=0.7.0``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +92,7 @@ r-panther
 
     <script>
         var package = "r-panther";
-        var versions = ["0.4.0"];
+        var versions = ["0.5.0","0.4.0"];
     </script>
 
 

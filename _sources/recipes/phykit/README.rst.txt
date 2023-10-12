@@ -13,8 +13,11 @@ phykit
    PhyKIT is a UNIX shell toolkit for processing and analyzing phylogenomic data.
 
    :homepage: https://github.com/jlsteenwyk/phykit
-   :license: MIT
+   :documentation: https://jlsteenwyk.com/PhyKIT/
+   
+   :license: MIT / MIT
    :recipe: /`phykit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phykit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phykit/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btab096`
 
    
 
@@ -27,7 +30,7 @@ phykit
       
       
 
-      ``1.11.15-0``,  ``1.11.14-0``,  ``1.11.13-0``,  ``1.11.12-0``,  ``1.11.10-0``,  ``1.11.7-0``,  ``1.11.5-0``
+      ``1.11.16-0``,  ``1.11.15-0``,  ``1.11.14-0``,  ``1.11.13-0``,  ``1.11.12-0``,  ``1.11.10-0``,  ``1.11.7-0``,  ``1.11.5-0``
 
       
 
@@ -83,7 +86,7 @@ phykit
 
     <script>
         var package = "phykit";
-        var versions = ["1.11.15","1.11.14","1.11.13","1.11.12","1.11.10"];
+        var versions = ["1.11.16","1.11.15","1.11.14","1.11.13","1.11.12"];
     </script>
 
 
