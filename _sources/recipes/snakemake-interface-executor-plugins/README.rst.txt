@@ -13,7 +13,7 @@ snakemake-interface-executor-plugins
    This package provides a stable interface for interactions between Snakemake and its executor plugins.
 
    :homepage: https://github.com/snakemake/snakemake-interface-executor-plugins
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-interface-executor-plugins <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-interface-executor-plugins>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-interface-executor-plugins/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ snakemake-interface-executor-plugins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
+      ``6.0.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ snakemake-interface-executor-plugins
 
    
    :depends argparse-dataclass: ``>=2.0.0,<3.0.0``
+   :depends configargparse: 
    :depends python: ``>=3.9.0,<4.0.0``
    :depends snakemake-interface-common: 
    :depends throttler: ``>=1.2.2,<2.0.0``
@@ -91,7 +92,7 @@ snakemake-interface-executor-plugins
 
     <script>
         var package = "snakemake-interface-executor-plugins";
-        var versions = ["5.0.2","5.0.1","5.0.0","4.0.0","3.0.2"];
+        var versions = ["6.0.0","5.0.2","5.0.1","5.0.0","4.0.0"];
     </script>
 
 

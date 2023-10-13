@@ -27,7 +27,7 @@ viralmsa
       
       
 
-      ``1.1.35-0``
+      ``1.1.36-0``,  ``1.1.35-0``
 
       
 
@@ -91,7 +91,7 @@ viralmsa
 
     <script>
         var package = "viralmsa";
-        var versions = ["1.1.35"];
+        var versions = ["1.1.36","1.1.35"];
     </script>
 
 

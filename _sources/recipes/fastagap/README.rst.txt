@@ -13,7 +13,7 @@ fastagap
    Count and remove missing data in fasta\-formatted sequence data
 
    :homepage: https://github.com/nylander/fastagap
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`fastagap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastagap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastagap/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ fastagap
       
       
 
-      ``1.0-0``
+      ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -81,7 +81,7 @@ fastagap
 
     <script>
         var package = "fastagap";
-        var versions = ["1.0"];
+        var versions = ["1.0.1","1.0"];
     </script>
 
 

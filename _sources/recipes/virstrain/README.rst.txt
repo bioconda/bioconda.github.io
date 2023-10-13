@@ -27,7 +27,7 @@ virstrain
       
       
 
-      ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``
+      ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``
 
       
 
@@ -37,7 +37,6 @@ virstrain
    :depends networkx: ``2.4``
    :depends numpy: ``1.17.3``
    :depends pandas: ``1.0.1``
-   :depends pip: 
    :depends plotly: ``3.10.0``
    :depends python: ``3.7.3``
    :requirements:
@@ -87,7 +86,7 @@ virstrain
 
     <script>
         var package = "virstrain";
-        var versions = ["1.13","1.12","1.11","1.10","1.9"];
+        var versions = ["1.14","1.13","1.12","1.11","1.10"];
     </script>
 
 

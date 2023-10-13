@@ -26,15 +26,24 @@ truvari
    :versions:
       
       
+      .. raw:: html
 
-      ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+         <details><summary><span class="truncated-version-list"><code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>0.1.2018.08.10-2</code>,  <code>0.1.2018.08.10-1</code>,  </span></summary>
+      
 
+      ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bwapy: 
    :depends intervaltree: ``>=3.0.2``
    :depends joblib: ``>=1.2.0``
+   :depends mafft: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: ``>=0.15.2``
@@ -90,7 +99,7 @@ truvari
 
     <script>
         var package = "truvari";
-        var versions = ["4.1.0","4.0.0","3.5.0","3.4.0","3.3.0"];
+        var versions = ["4.1.0","4.1.0","4.0.0","3.5.0","3.4.0"];
     </script>
 
 

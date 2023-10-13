@@ -26,9 +26,17 @@ ena-webin-cli
    :versions:
       
       
+      .. raw:: html
 
-      ``6.5.1-0``,  ``5.0.0-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.7.0-0``
+         <details><summary><span class="truncated-version-list"><code>6.6.0-0</code>,  <code>6.5.1-0</code>,  <code>5.0.0-0</code>,  <code>4.4.0-0</code>,  <code>4.3.0-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  </span></summary>
+      
 
+      ``6.6.0-0``,  ``6.5.1-0``,  ``5.0.0-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.7.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -81,7 +89,7 @@ ena-webin-cli
 
     <script>
         var package = "ena-webin-cli";
-        var versions = ["6.5.1","5.0.0","4.4.0","4.3.0","4.2.1"];
+        var versions = ["6.6.0","6.5.1","5.0.0","4.4.0","4.3.0"];
     </script>
 
 

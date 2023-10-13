@@ -16,7 +16,7 @@ oakvar
    :documentation: https://rkimoakbioinformatics.github.io/oakvar/
    
    :developer docs: https://pypi.org/project/oakvar/
-   :license: GPL / AGPL-3.0-or-later
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`oakvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oakvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oakvar/meta.yaml>`_
    :links: biotools: :biotools:`oakvar`
 
@@ -32,10 +32,10 @@ oakvar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.43-0</code>,  <code>2.9.41-0</code>,  <code>2.9.39-0</code>,  <code>2.9.37-0</code>,  <code>2.9.36-0</code>,  <code>2.9.34-0</code>,  <code>2.9.3-0</code>,  <code>2.9.2-0</code>,  <code>2.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.51-0</code>,  <code>2.9.49-0</code>,  <code>2.9.43-0</code>,  <code>2.9.41-0</code>,  <code>2.9.39-0</code>,  <code>2.9.37-0</code>,  <code>2.9.36-0</code>,  <code>2.9.34-0</code>,  <code>2.9.3-0</code>,  </span></summary>
       
 
-      ``2.9.43-0``,  ``2.9.41-0``,  ``2.9.39-0``,  ``2.9.37-0``,  ``2.9.36-0``,  ``2.9.34-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.40-0``,  ``2.8.38-0``,  ``2.8.37-0``,  ``2.8.36-0``,  ``2.8.35-0``,  ``2.8.28-0``,  ``2.7.40-0``
+      ``2.9.51-0``,  ``2.9.49-0``,  ``2.9.43-0``,  ``2.9.41-0``,  ``2.9.39-0``,  ``2.9.37-0``,  ``2.9.36-0``,  ``2.9.34-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.40-0``,  ``2.8.38-0``,  ``2.8.37-0``,  ``2.8.36-0``,  ``2.8.35-0``,  ``2.8.28-0``,  ``2.7.40-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ oakvar
       
 
    
-   :depends aiohttp: 
+   :depends aiohttp: ``<4.0.0``
    :depends aiohttp-cors: 
    :depends aiosqlite: 
    :depends chardet: ``>=3.0.4``
@@ -119,7 +119,7 @@ oakvar
 
     <script>
         var package = "oakvar";
-        var versions = ["2.9.43","2.9.41","2.9.39","2.9.37","2.9.36"];
+        var versions = ["2.9.51","2.9.49","2.9.43","2.9.41","2.9.39"];
     </script>
 
 
