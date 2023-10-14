@@ -30,10 +30,10 @@ psims
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.50-0``,  ``0.1.47-0``,  ``0.1.46-0``,  ``0.1.45-0``
+      ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.50-0``,  ``0.1.47-0``,  ``0.1.46-0``,  ``0.1.45-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ psims
    
    :depends lxml: 
    :depends numpy: 
-   :depends python: 
+   :depends python: ``>=3.9``
    :depends six: 
    :depends sqlalchemy: 
    :requirements:
@@ -94,7 +94,7 @@ psims
 
     <script>
         var package = "psims";
-        var versions = ["1.2.7","1.2.6","1.2.5","1.2.4","1.2.3"];
+        var versions = ["1.2.8","1.2.7","1.2.6","1.2.5","1.2.4"];
     </script>
 
 

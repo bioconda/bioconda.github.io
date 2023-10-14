@@ -13,7 +13,7 @@ scrnasim-toolz
    Tools used by scRNAsim workflow.
 
    :homepage: https://github.com/zavolanlab/scRNAsim-toolz
-   :license: MIT License
+   :license: MIT / MIT
    :recipe: /`scrnasim-toolz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scrnasim-toolz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scrnasim-toolz/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ scrnasim-toolz
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -39,6 +39,7 @@ scrnasim-toolz
    :depends packaging: 
    :depends pandas: ``>=1.4.4``
    :depends polars: ``0.16.17``
+   :depends pyarrow: 
    :depends python: ``<=3.10``
    :requirements:
 
@@ -87,7 +88,7 @@ scrnasim-toolz
 
     <script>
         var package = "scrnasim-toolz";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

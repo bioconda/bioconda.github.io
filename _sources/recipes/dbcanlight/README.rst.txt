@@ -29,7 +29,7 @@ dbcanlight
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -85,7 +85,7 @@ dbcanlight
 
     <script>
         var package = "dbcanlight";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

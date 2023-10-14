@@ -13,7 +13,7 @@ zdb
    zDB is both a bacterial comparative genomics pipeline and a tool to visualize the results
 
    :homepage: https://github.com/metagenlab/zDB/
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`zdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zdb/meta.yaml>`_
    :links: biotools: :biotools:`zDB`
 
@@ -28,7 +28,7 @@ zdb
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ zdb
 
     <script>
         var package = "zdb";
-        var versions = ["1.1.1","1.1.0","1.0.7","1.0.4","1.0.3"];
+        var versions = ["1.2.0","1.1.1","1.1.0","1.0.7","1.0.4"];
     </script>
 
 

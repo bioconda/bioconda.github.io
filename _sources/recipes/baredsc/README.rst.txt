@@ -13,7 +13,7 @@ baredsc
    baredSC \(Bayesian Approach to Retreive Expression Distribution of Single Cell\) is a tool that uses a Monte\-Carlo Markov Chain to estimate a confidence interval on the probability density function \(PDF\) of expression of one or two genes from single\-cell RNA\-seq data.
 
    :homepage: https://github.com/lldelisle/baredSC/
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`baredsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baredsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baredsc/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ baredsc
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -87,7 +87,7 @@ baredsc
 
     <script>
         var package = "baredsc";
-        var versions = ["1.1.1","1.1.0"];
+        var versions = ["1.1.2","1.1.1","1.1.0"];
     </script>
 
 

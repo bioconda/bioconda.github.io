@@ -27,7 +27,7 @@ mercat2
       
       
 
-      ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+      ``1.0-1``,  ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -36,7 +36,7 @@ mercat2
    :depends dominate: 
    :depends fastp: 
    :depends fastqc: 
-   :depends grpcio: 
+   :depends grpcio: ``1.43``
    :depends humanize: 
    :depends metaomestats: 
    :depends numpy: 
@@ -44,12 +44,13 @@ mercat2
    :depends plotly: 
    :depends prodigal: 
    :depends psutil: 
-   :depends python: ``<3.10``
+   :depends python: ``>=3.9``
    :depends python-kaleido: 
    :depends ray-core: 
    :depends ray-dashboard: 
    :depends ray-default: 
-   :depends scikit-bio: 
+   :depends ray-tune: 
+   :depends scikit-bio: ``0.5.7``
    :depends scikit-learn: 
    :depends scipy: ``1.8.1``
    :requirements:
@@ -99,7 +100,7 @@ mercat2
 
     <script>
         var package = "mercat2";
-        var versions = ["1.0","0.2","0.2","0.1"];
+        var versions = ["1.0","1.0","0.2","0.2","0.1"];
     </script>
 
 
