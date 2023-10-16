@@ -27,7 +27,7 @@ gdmicro
       
       
 
-      ``1.0.5-0``
+      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``
 
       
 
@@ -35,7 +35,7 @@ gdmicro
    :depends bioconductor-siamcat: ``1.6.0``
    :depends ipython: 
    :depends matplotlib-base: 
-   :depends networkx: 
+   :depends networkx: ``2.6.3``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``3.7.3``
@@ -92,7 +92,7 @@ gdmicro
 
     <script>
         var package = "gdmicro";
-        var versions = ["1.0.5"];
+        var versions = ["1.0.6","1.0.6","1.0.5"];
     </script>
 
 
