@@ -27,7 +27,7 @@ fiji-morpholibj
       
       
 
-      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.3.1-0``
+      ``1.6.1-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.3.1-0``
 
       
 
@@ -80,7 +80,7 @@ fiji-morpholibj
 
     <script>
         var package = "fiji-morpholibj";
-        var versions = ["1.5.1","1.5.0","1.4.3.1"];
+        var versions = ["1.6.1","1.5.1","1.5.0","1.4.3.1"];
     </script>
 
 

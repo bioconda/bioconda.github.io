@@ -27,7 +27,7 @@ r-ldweaver
       
       
 
-      ``1.1.1-0``
+      ``1.2-0``,  ``1.1.1-0``
 
       
 
@@ -104,7 +104,7 @@ r-ldweaver
 
     <script>
         var package = "r-ldweaver";
-        var versions = ["1.1.1"];
+        var versions = ["1.2","1.1.1"];
     </script>
 
 

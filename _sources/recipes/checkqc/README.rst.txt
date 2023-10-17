@@ -13,7 +13,7 @@ checkqc
    A simple program to parse Illumina NGS data and check it for quality criteria.
 
    :homepage: https://www.github.com/Molmed/checkQC
-   :license: GPL3 / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`checkqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkqc/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ checkqc
       
       
 
-      ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.6-0``,  ``3.6.5-0``,  ``3.6.4-0``,  ``3.6.3-0``,  ``3.6.1-0``
+      ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.6-0``,  ``3.6.5-0``,  ``3.6.4-0``,  ``3.6.3-0``,  ``3.6.1-0``
 
       
 
@@ -86,7 +86,7 @@ checkqc
 
     <script>
         var package = "checkqc";
-        var versions = ["3.8.1","3.8.0","3.7.0","3.6.6","3.6.5"];
+        var versions = ["3.8.2","3.8.1","3.8.0","3.7.0","3.6.6"];
     </script>
 
 

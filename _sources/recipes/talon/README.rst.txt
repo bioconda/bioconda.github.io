@@ -17,7 +17,7 @@ talon
    \(i.e. PacBio and Oxford Nanopore\) to be analyzed side by side.
 
    :homepage: https://github.com/mortazavilab/TALON
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`talon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/talon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/talon/meta.yaml>`_
 
    
@@ -31,16 +31,19 @@ talon
       
       
 
-      ``5.0-0``,  ``v5.0-1``,  ``v5.0-0``
+      ``6.0-0``,  ``5.0-0``,  ``v5.0-1``,  ``v5.0-0``
 
       
 
    
+   :depends bamread: ``>=0.0.11``
    :depends pandas: 
    :depends pybedtools: 
    :depends pyfaidx: 
+   :depends pyranges: 
    :depends pysam: ``>=0.15.4``
-   :depends python: ``>=3.6,<=3.7``
+   :depends python: ``>=3.6,<3.8``
+   :depends scanpy: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +91,7 @@ talon
 
     <script>
         var package = "talon";
-        var versions = ["5.0","v5.0","v5.0"];
+        var versions = ["6.0","5.0","v5.0","v5.0"];
     </script>
 
 

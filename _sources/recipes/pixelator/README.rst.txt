@@ -28,7 +28,7 @@ pixelator
       
       
 
-      ``0.14.0-0``,  ``0.13.1-0``
+      ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``
 
       
 
@@ -54,7 +54,7 @@ pixelator
    :depends pyarrow: ``>=13.0.0``
    :depends pydantic: ``>=1.10.7,<2.0.0``
    :depends pyfastx: 
-   :depends python: ``>=3.8,<3.11``
+   :depends python: ``>=3.8,<3.12``
    :depends python-annoy: ``<=1.17.0``
    :depends ruamel.yaml: ``>=0.17.21,<0.18.0``
    :depends scanpy: 
@@ -112,7 +112,7 @@ pixelator
 
     <script>
         var package = "pixelator";
-        var versions = ["0.14.0","0.13.1"];
+        var versions = ["0.15.0","0.14.0","0.13.1"];
     </script>
 
 
