@@ -27,16 +27,14 @@ deepdirect
       
       
 
-      ``0.2.4-0``
+      ``0.2.5-0``,  ``0.2.4-0``
 
       
 
    
-   :depends colorlog: ``6.7.0``
    :depends keras: ``>=2.4.0``
-   :depends python: 
+   :depends python: ``>=3.8``
    :depends tensorflow: ``>=2.4.0``
-   :depends tqdm: ``>=4.64.1``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +82,7 @@ deepdirect
 
     <script>
         var package = "deepdirect";
-        var versions = ["0.2.4"];
+        var versions = ["0.2.5","0.2.4"];
     </script>
 
 

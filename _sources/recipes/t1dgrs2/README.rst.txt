@@ -17,8 +17,20 @@ t1dgrs2
    :recipe: /`t1dgrs2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1dgrs2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1dgrs2/meta.yaml>`_
 
    An improved T1D GRS \(by Sharp et al.\, 2019\) that incorporates both non\-HLA and HLA risk components in discriminating between cases and controls\, by accounting for interactions between HLA DR\-DQ haplotype combinations. This uses 67 T1D\-associated variants in either GRCh37 or GRCh38 to perform both a linear scoring of the genetic risk\, with the added HLA DR\-DQ interaction effect for the final GRS.
+
    This Python package can be used on both imputed genotyping array and next generation sequencing \(e.g.\, whole genome sequencing\) input datasets\, but will require quality control procedures to be applied beforehand.
+
    Required\: PLINK 1.9 fileset \(.bed\, .bim\, .fam\).
+
+   Please download all configuration files under the \'data\' directory from the \[Github page\]\(https\:\/\/github.com\/t2diabetesgenes\/t1dgrs2\) and adjust paths in \'t1dgrs2\_setttings.yml\' accordingly.
+
+   \#\#\# Authors
+   \* Diane P Fraser \(\[email\]\(mailto\:d.p.fraser\@exeter.ac.uk\)\)
+   \* Seth A Sharp \(\[email\]\(mailto\:ssharp\@stanford.edu\)\)
+   \* Ankit M Arni \(\[email\]\(mailto\:a.m.arni\@exeter.ac.uk\)\)
+   \* Richard A Oram \(\[email\]\(mailto\:r.oram\@exeter.ac.uk\)\)
+   \* Michael N Weedon \(\[email\]\(mailto\:m.n.weedon\@exeter.ac.uk\)\)
+   \* Kashyap A Patel \(\[email\]\(mailto\:k.a.patel\@exeter.ac.uk\)\)
 
    \#\#\# References
    1. Oram RA\, Patel K\, Hill A\, et al. \(2016\) A Type 1 Diabetes Genetic Risk Score Can Aid Discrimination Between Type 1 and Type 2 Diabetes in Young Adults. Diabetes Care 39\(3\)\: 337\-344. \[10.2337\/dc15\-1111\]\(https\:\/\/doi.org\/10.2337\/dc15\-1111\).
@@ -36,7 +48,7 @@ t1dgrs2
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -96,7 +108,7 @@ t1dgrs2
 
     <script>
         var package = "t1dgrs2";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.2","0.1.1","0.1.0"];
     </script>
 
 

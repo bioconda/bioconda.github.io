@@ -29,10 +29,10 @@ snpsift
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1-0</code>,  <code>5.1d-0</code>,  <code>4.3.1t-3</code>,  <code>4.3.1t-2</code>,  <code>4.3.1t-1</code>,  <code>4.3.1t-0</code>,  <code>4.3.1r-0</code>,  <code>4.3.1p-0</code>,  <code>4.3.1o-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2-0</code>,  <code>5.1-0</code>,  <code>5.1d-0</code>,  <code>4.3.1t-3</code>,  <code>4.3.1t-2</code>,  <code>4.3.1t-1</code>,  <code>4.3.1t-0</code>,  <code>4.3.1r-0</code>,  <code>4.3.1p-0</code>,  </span></summary>
       
 
-      ``5.1-0``,  ``5.1d-0``,  ``4.3.1t-3``,  ``4.3.1t-2``,  ``4.3.1t-1``,  ``4.3.1t-0``,  ``4.3.1r-0``,  ``4.3.1p-0``,  ``4.3.1o-0``,  ``4.3.1m-0``,  ``4.3-2``,  ``4.3-1``,  ``4.2-5``,  ``4.2-4``,  ``4.2-3``,  ``4.2-2``,  ``4.2-1``,  ``4.1l-4``,  ``4.1l-3``,  ``4.1l-1``
+      ``5.2-0``,  ``5.1-0``,  ``5.1d-0``,  ``4.3.1t-3``,  ``4.3.1t-2``,  ``4.3.1t-1``,  ``4.3.1t-0``,  ``4.3.1r-0``,  ``4.3.1p-0``,  ``4.3.1o-0``,  ``4.3.1m-0``,  ``4.3-2``,  ``4.3-1``,  ``4.2-5``,  ``4.2-4``,  ``4.2-3``,  ``4.2-2``,  ``4.2-1``,  ``4.1l-4``,  ``4.1l-3``,  ``4.1l-1``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ snpsift
 
     <script>
         var package = "snpsift";
-        var versions = ["5.1","5.1d","4.3.1t","4.3.1t","4.3.1t"];
+        var versions = ["5.2","5.1","5.1d","4.3.1t","4.3.1t"];
     </script>
 
 
