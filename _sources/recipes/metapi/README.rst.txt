@@ -13,7 +13,7 @@ metapi
    A general metagenomics data mining system focus on robust microbiome research
 
    :homepage: https://github.com/ohmeta/metapi
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`metapi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metapi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metapi/meta.yaml>`_
    :links: biotools: :biotools:`metapi`
 
@@ -29,10 +29,10 @@ metapi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``3.0.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ metapi
 
    
    :depends biopython: ``>=1.73``
+   :depends executor: 
    :depends fd-find: 
    :depends matplotlib-base: 
    :depends natsort: 
@@ -54,7 +55,7 @@ metapi
    :depends seaborn: 
    :depends seqkit: 
    :depends seqtk: 
-   :depends snakemake: ``>=7.0``
+   :depends snakemake-minimal: ``>=7.0``
    :depends sra-tools: ``>=2.11.0``
    :requirements:
 
@@ -103,7 +104,7 @@ metapi
 
     <script>
         var package = "metapi";
-        var versions = ["2.5.0","2.4.0","2.3.0","2.2.0","2.1.4"];
+        var versions = ["3.0.0","2.5.0","2.4.0","2.3.0","2.2.0"];
     </script>
 
 

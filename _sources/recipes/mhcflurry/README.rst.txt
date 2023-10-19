@@ -13,7 +13,7 @@ mhcflurry
    MHC Binding Predictor
 
    :homepage: https://github.com/openvax/mhcflurry
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`mhcflurry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcflurry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcflurry/meta.yaml>`_
    :links: doi: :doi:`10.1016/j.cels.2018.05.014`
 
@@ -29,10 +29,10 @@ mhcflurry
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.6-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.6-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  </span></summary>
       
 
-      ``2.0.6-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``
+      ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ mhcflurry
    :depends pyyaml: 
    :depends scikit-learn: 
    :depends six: 
-   :depends tensorflow: ``>=2.2.0``
+   :depends tensorflow: ``>=2.12.0``
    :depends tqdm: 
    :requirements:
 
@@ -98,7 +98,7 @@ mhcflurry
 
     <script>
         var package = "mhcflurry";
-        var versions = ["2.0.6","2.0.1","2.0.0","1.6.1","1.6.0"];
+        var versions = ["2.1.0","2.0.6","2.0.1","2.0.0","1.6.1"];
     </script>
 
 

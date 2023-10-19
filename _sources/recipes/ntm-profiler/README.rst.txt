@@ -13,7 +13,7 @@ ntm-profiler
    Profiling tool for NTM to detect species and resistance from WGS data
 
    :homepage: https://github.com/jodyphelan/NTM-Profiler
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ntm-profiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntm-profiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntm-profiler/meta.yaml>`_
 
    
@@ -27,15 +27,16 @@ ntm-profiler
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends jinja2: 
    :depends mash: ``2.3.*``
-   :depends pathogen-profiler: ``2.0.4.*``
+   :depends pathogen-profiler: ``3.1.0.*``
    :depends python: ``>=3.7``
+   :depends sourmash: ``>=4.8.3``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +84,7 @@ ntm-profiler
 
     <script>
         var package = "ntm-profiler";
-        var versions = ["0.2.2","0.2.1","0.2.0","0.1.1","0.1.0"];
+        var versions = ["0.3.0","0.2.2","0.2.1","0.2.0","0.1.1"];
     </script>
 
 
