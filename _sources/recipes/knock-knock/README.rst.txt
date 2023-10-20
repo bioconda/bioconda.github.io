@@ -13,7 +13,7 @@ knock-knock
    toolkit for analyzing CRISPR knock\-in experiments
 
    :homepage: https://github.com/jeffhussmann/knock-knock
-   :license: GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`knock-knock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/knock-knock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/knock-knock/meta.yaml>`_
 
    
@@ -27,26 +27,27 @@ knock-knock
       
       
 
-      ``0.2.1-0``
+      ``0.4.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends biopython: ``>=1.70``
-   :depends blast: ``2.7.1``
-   :depends bokeh: ``>=0.12.14``
-   :depends hits: ``>=0.1``
+   :depends biopython: ``>=1.80``
+   :depends blast: ``>=2.7.1``
+   :depends bokeh: ``>=2.4.2``
+   :depends h5py: ``>=3.1.0``
+   :depends hits: ``>=0.4.0``
    :depends ipywidgets: ``>=7.1.2``
-   :depends matplotlib: ``>=2.1.2``
+   :depends matplotlib-base: ``>=2.1.2``
    :depends minimap2: ``2.16``
-   :depends nbconvert: ``>=5.3.1``
+   :depends nbconvert: ``>=6.0.7``
    :depends nbformat: ``>=4.4.0``
    :depends numpy: ``>=1.14.2``
    :depends pandas: ``>=0.22.0``
    :depends parallel: ``>=20190522``
    :depends pillow: ``>=5.0.0``
    :depends pysam: ``>=0.14``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends pyyaml: ``>=3.12``
    :depends samtools: ``>=1.9``
    :depends star: ``>=2.7.1``
@@ -98,7 +99,7 @@ knock-knock
 
     <script>
         var package = "knock-knock";
-        var versions = ["0.2.1"];
+        var versions = ["0.4.2","0.2.1"];
     </script>
 
 

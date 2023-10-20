@@ -10,11 +10,14 @@ semibin
    :replaces_section_title:
    :noindex:
 
-   Metagenomic binning with siamese neural networks
+   Metagenomic binning with semi\-supervised siamese neural networks
 
    :homepage: https://github.com/BigDataBiology/SemiBin
+   :documentation: https://semibin.readthedocs.io/en/latest/
+   
    :license: MIT / MIT
    :recipe: /`semibin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semibin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semibin/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-022-29843-y`, doi: :doi:`10.1093/bioinformatics/btad209`, biotools: :biotools:`semibin`
 
    
 
@@ -28,10 +31,10 @@ semibin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
       .. raw:: html
@@ -104,7 +107,7 @@ semibin
 
     <script>
         var package = "semibin";
-        var versions = ["1.5.1","1.5.0","1.5.0","1.4.0","1.3.1"];
+        var versions = ["2.0.0","2.0.0","1.5.1","1.5.0","1.5.0"];
     </script>
 
 
