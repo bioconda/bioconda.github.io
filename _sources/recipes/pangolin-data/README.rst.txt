@@ -13,7 +13,7 @@ pangolin-data
    Repository for storing latest model\, protobuf\, designation hash and alias files for pangolin assignments
 
    :homepage: https://github.com/cov-lineages/pangolin-data
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`pangolin-data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin-data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin-data/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pangolin-data
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22-0</code>,  <code>1.21-0</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  <code>1.18.1.1-0</code>,  <code>1.18.1-0</code>,  <code>1.18-0</code>,  <code>1.17-0</code>,  <code>1.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.23-0</code>,  <code>1.22-0</code>,  <code>1.21-0</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  <code>1.18.1.1-0</code>,  <code>1.18.1-0</code>,  <code>1.18-0</code>,  <code>1.17-0</code>,  </span></summary>
       
 
-      ``1.22-0``,  ``1.21-0``,  ``1.20-0``,  ``1.19-0``,  ``1.18.1.1-0``,  ``1.18.1-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15.1-0``,  ``1.14-0``,  ``1.13-1``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.9-0``,  ``1.8-0``,  ``1.6-0``,  ``1.3-0``,  ``1.2.133.2-0``,  ``1.2.133-0``
+      ``1.23-0``,  ``1.22-0``,  ``1.21-0``,  ``1.20-0``,  ``1.19-0``,  ``1.18.1.1-0``,  ``1.18.1-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15.1-0``,  ``1.14-0``,  ``1.13-1``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.9-0``,  ``1.8-0``,  ``1.6-0``,  ``1.3-0``,  ``1.2.133.2-0``,  ``1.2.133-0``
 
       
       .. raw:: html
@@ -88,7 +88,7 @@ pangolin-data
 
     <script>
         var package = "pangolin-data";
-        var versions = ["1.22","1.21","1.20","1.19","1.18.1.1"];
+        var versions = ["1.23","1.22","1.21","1.20","1.19"];
     </script>
 
 

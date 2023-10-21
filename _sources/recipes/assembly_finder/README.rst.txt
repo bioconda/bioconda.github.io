@@ -27,7 +27,7 @@ assembly_finder
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``
+      ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
 
@@ -37,7 +37,7 @@ assembly_finder
    :depends click: ``>=7``
    :depends ete3: ``>=3.1.3``
    :depends pandas: ``>=2.0.3``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.9,<3.12``
    :depends snakemake-minimal: ``>=7.32.4``
    :requirements:
 
@@ -86,7 +86,7 @@ assembly_finder
 
     <script>
         var package = "assembly_finder";
-        var versions = ["0.3.2","0.3.1"];
+        var versions = ["0.3.2","0.3.2","0.3.1"];
     </script>
 
 

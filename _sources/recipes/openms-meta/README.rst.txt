@@ -29,10 +29,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-1</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  </span></summary>
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
+      ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ openms-meta
    
    :depends __glibc: ``>=2.17,<3.0.a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends hdf5: ``>=1.14.1,<1.14.2.0a0``
+   :depends hdf5: ``>=1.14.2,<1.14.3.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends qt-main: ``>=5.15.8,<5.16.0a0``
    :depends xerces-c: ``>=3.2.4,<3.3.0a0``
@@ -94,7 +94,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["3.0.0","3.0.0","2.9.1","2.9.1","2.9.1"];
+        var versions = ["3.1.0","3.0.0","3.0.0","2.9.1","2.9.1"];
     </script>
 
 
@@ -107,10 +107,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-1</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  </span></summary>
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -125,9 +125,9 @@ openms-meta
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends coinmp: ``>=1.8.4,<1.9.0a0``
    :depends eigen: ``>=3.4.0,<3.5.0a0``
-   :depends hdf5: ``>=1.14.1,<1.14.2.0a0``
-   :depends hdf5: ``>=1.14.1,<1.15.0a0``
-   :depends libopenms: ``3.0.0 h8964181_1``
+   :depends hdf5: ``>=1.14.2,<1.14.3.0a0``
+   :depends hdf5: ``>=1.14.2,<1.15.0a0``
+   :depends libopenms: ``3.1.0 h8964181_1``
    :depends libsvm: ``>=325,<326.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends qt-main: ``>=5.15.8,<5.16.0a0``
@@ -180,7 +180,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["3.0.0","3.0.0","2.9.1","2.9.1","2.9.1"];
+        var versions = ["3.1.0","3.0.0","3.0.0","2.9.1","2.9.1"];
     </script>
 
 
@@ -257,10 +257,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  <code>2.8.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-1</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.9.1-4</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-4</code>,  <code>2.8.0-3</code>,  </span></summary>
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -270,16 +270,16 @@ openms-meta
 
    
    :depends comet-ms: ``2023010``
-   :depends fido: ``1.0``
    :depends gnuplot: 
    :depends luciphor2: ``2020_04_03``
-   :depends msgf_plus: ``2021.03.22``
-   :depends openms: ``3.0.0 h8964181_1``
+   :depends msgf_plus: ``2023.01.1202``
+   :depends openms: ``3.1.0 h8964181_1``
    :depends pepnovo: ``20101117``
    :depends percolator: ``3.5``
    :depends r-gplots: 
-   :depends sirius-csifingerid: ``4.9.*``
-   :depends thermorawfileparser: ``1.3.4``
+   :depends sage-proteomics: ``0.14.3``
+   :depends sirius-ms: ``5.8.2``
+   :depends thermorawfileparser: ``1.4.3``
    :depends xtandem: ``15.12.15.2``
    :requirements:
 
@@ -328,7 +328,7 @@ openms-meta
 
     <script>
         var package = "openms-meta";
-        var versions = ["3.0.0","3.0.0","2.9.1","2.9.1","2.9.1"];
+        var versions = ["3.1.0","3.0.0","3.0.0","2.9.1","2.9.1"];
     </script>
 
 

@@ -28,10 +28,10 @@ python-bioext
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.4-2</code>,  <code>0.20.4-1</code>,  <code>0.20.4-0</code>,  <code>0.20.2-0</code>,  <code>0.20.1-1</code>,  <code>0.20.1-0</code>,  <code>0.19.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21.2-0</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.4-2</code>,  <code>0.20.4-1</code>,  <code>0.20.4-0</code>,  <code>0.20.2-0</code>,  <code>0.20.1-1</code>,  <code>0.20.1-0</code>,  </span></summary>
       
 
-      ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.4-2``,  ``0.20.4-1``,  ``0.20.4-0``,  ``0.20.2-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
+      ``0.21.2-0``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.4-2``,  ``0.20.4-1``,  ``0.20.4-0``,  ``0.20.2-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ python-bioext
    :depends libstdcxx-ng: ``>=12``
    :depends numpy: ``>1.20.3``
    :depends numpy: ``>=1.26.0,<2.0a0``
-   :depends pysam: 
+   :depends pysam: ``>=0.22.0,<0.23.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
@@ -99,7 +99,7 @@ python-bioext
 
     <script>
         var package = "python-bioext";
-        var versions = ["0.21.1","0.21.0","0.20.4","0.20.4","0.20.4"];
+        var versions = ["0.21.2","0.21.1","0.21.0","0.20.4","0.20.4"];
     </script>
 
 
