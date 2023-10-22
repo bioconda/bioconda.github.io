@@ -27,7 +27,7 @@ tsebra
       
       
 
-      ``1.1.1-0``
+      ``1.1.2-0``,  ``1.1.1-0``
 
       
 
@@ -81,7 +81,7 @@ tsebra
 
     <script>
         var package = "tsebra";
-        var versions = ["1.1.1"];
+        var versions = ["1.1.2","1.1.1"];
     </script>
 
 
