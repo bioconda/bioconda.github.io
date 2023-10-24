@@ -31,13 +31,13 @@ galaxy-files
       
       
 
-      ``23.0.5-0``,  ``23.0.4-0``
+      ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``
 
       
 
    
    :depends fs: 
-   :depends galaxy-util: ``>=23.0``
+   :depends galaxy-util: ``>=23.1``
    :depends python: ``>=3.7``
    :depends typing-extensions: 
    :requirements:
@@ -87,7 +87,7 @@ galaxy-files
 
     <script>
         var package = "galaxy-files";
-        var versions = ["23.0.5","23.0.4"];
+        var versions = ["23.1.1","23.0.6","23.0.5","23.0.4"];
     </script>
 
 

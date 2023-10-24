@@ -29,10 +29,10 @@ dragonflye
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,14 +42,14 @@ dragonflye
 
    
    :depends any2fasta: ``>=0.4.2``
-   :depends assembly-scan: ``>=0.4.0``
+   :depends assembly-scan: ``>=1.0.0``
    :depends bwa: 
    :depends fastp: 
    :depends flye: ``>=2.9.2``
    :depends kmc: ``>=3.1``
-   :depends medaka: ``>=1.8.0``
+   :depends medaka: ``>=1.11.0``
    :depends miniasm: ``>=0.3_r179``
-   :depends nanoq: ``>=0.8.1``
+   :depends nanoq: ``>=0.10.0``
    :depends perl: ``>=5.26``
    :depends perl-file-spec: 
    :depends perl-findbin: 
@@ -57,12 +57,12 @@ dragonflye
    :depends pilon: 
    :depends polypolish: 
    :depends porechop: 
-   :depends racon: ``>=1.4.20``
-   :depends rasusa: ``>=0.6``
-   :depends raven-assembler: ``>=1.6.1``
+   :depends racon: ``>=1.5.0``
+   :depends rasusa: ``>=0.7.1``
+   :depends raven-assembler: ``>=1.8.3``
    :depends samclip: 
    :depends samtools: 
-   :depends seqtk: ``>=1.3``
+   :depends seqtk: ``>=1.4``
    :requirements:
 
    .. rubric:: Installation
@@ -110,7 +110,7 @@ dragonflye
 
     <script>
         var package = "dragonflye";
-        var versions = ["1.1.1","1.1.0","1.0.14","1.0.13","1.0.12"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.14","1.0.13"];
     </script>
 
 

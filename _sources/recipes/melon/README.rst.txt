@@ -10,7 +10,7 @@ melon
    :replaces_section_title:
    :noindex:
 
-   Melon\: long\-read targeting taxonomic profiling and genome copies estimation using phylogenetic marker genes
+   Melon\: metagenomic long\-read\-based taxonomic identification and quantification using marker genes
 
    :homepage: https://github.com/xinehc/melon
    :license: MIT / MIT
@@ -27,7 +27,7 @@ melon
       
       
 
-      ``0.0.1-0``
+      ``0.1.0-0``,  ``0.0.1-0``
 
       
 
@@ -85,7 +85,7 @@ melon
 
     <script>
         var package = "melon";
-        var versions = ["0.0.1"];
+        var versions = ["0.1.0","0.0.1"];
     </script>
 
 

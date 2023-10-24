@@ -27,11 +27,17 @@ bamdash
       
       
 
-      
+      ``0.2-0``
 
       
 
    
+   :depends biopython: ``>=1.79``
+   :depends pandas: ``>=1.4.4``
+   :depends plotly: ``>=5.17.0``
+   :depends pysam: ``>=0.21.0``
+   :depends python: ``>=3.9``
+   :depends python-kaleido: ``>=0.2.1``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +85,7 @@ bamdash
 
     <script>
         var package = "bamdash";
-        var versions = [];
+        var versions = ["0.2"];
     </script>
 
 

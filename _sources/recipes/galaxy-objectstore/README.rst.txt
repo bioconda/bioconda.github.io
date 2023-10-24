@@ -31,15 +31,15 @@ galaxy-objectstore
       
       
 
-      ``23.0.5-0``,  ``23.0.4-0``,  ``23.0.2-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-0``
+      ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``,  ``23.0.2-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-0``
 
       
 
    
-   :depends galaxy-util: ``>=23.0``
-   :depends python: ``>=3.6``
+   :depends galaxy-util: ``>=23.1``
+   :depends pydantic: 
+   :depends python: ``>=3.7``
    :depends pyyaml: 
-   :depends six: ``>=1.9.0``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +87,7 @@ galaxy-objectstore
 
     <script>
         var package = "galaxy-objectstore";
-        var versions = ["23.0.5","23.0.4","23.0.2","22.1.1","21.9.0"];
+        var versions = ["23.1.1","23.0.6","23.0.5","23.0.4","23.0.2"];
     </script>
 
 
