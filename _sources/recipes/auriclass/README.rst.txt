@@ -28,7 +28,7 @@ auriclass
       
       
 
-      ``0.5.2-0``,  ``0.5.1-0``
+      ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``
 
       
 
@@ -88,7 +88,7 @@ auriclass
 
     <script>
         var package = "auriclass";
-        var versions = ["0.5.2","0.5.1"];
+        var versions = ["0.5.2","0.5.2","0.5.1"];
     </script>
 
 

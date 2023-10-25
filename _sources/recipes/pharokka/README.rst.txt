@@ -15,7 +15,7 @@ pharokka
    :homepage: https://github.com/gbouras13/pharokka
    :documentation: https://pharokka.readthedocs.io
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pharokka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pharokka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pharokka/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ pharokka
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -46,15 +46,22 @@ pharokka
    :depends aragorn: ``>=1.2.41``
    :depends bcbio-gff: ``>=0.7.0``
    :depends biopython: ``>=1.78``
-   :depends dnaapler: ``>=0.3.0``
+   :depends black: ``>=22.3.0``
+   :depends dnaapler: ``>=0.3.2``
+   :depends isort: ``>=5.10.1``
+   :depends loguru: ``>=0.5.4``
    :depends mash: ``>=2.2``
    :depends minced: ``>=0.4.2``
    :depends mmseqs2: ``13.45111``
    :depends phanotate: ``>=1.5.0``
    :depends pycirclize: ``>=0.3.1``
    :depends pyhmmer: ``>=0.10.0``
-   :depends pyrodigal: ``>=2.0.1``
-   :depends python: 
+   :depends pyrodigal: ``>=3.0.0``
+   :depends pyrodigal-gv: ``>=0.2.0``
+   :depends pytest: ``>=6.2.5``
+   :depends pytest-cov: ``>=3.0.0``
+   :depends python: ``>=3.5``
+   :depends pyyaml: ``>=6.0``
    :depends requests: ``>=2.25.1``
    :depends trnascan-se: ``>=2.0.9``
    :requirements:
@@ -104,7 +111,7 @@ pharokka
 
     <script>
         var package = "pharokka";
-        var versions = ["1.4.1","1.4.0","1.3.2","1.3.1","1.3.0"];
+        var versions = ["1.5.0","1.4.1","1.4.0","1.3.2","1.3.1"];
     </script>
 
 

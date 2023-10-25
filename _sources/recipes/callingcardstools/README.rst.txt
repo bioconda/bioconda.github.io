@@ -30,18 +30,17 @@ callingcardstools
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: 
-   :depends edlib: ``>=1.3.9``
    :depends numpy: 
    :depends pandas: 
-   :depends poetry: 
    :depends pysam: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.8``
+   :depends python-edlib: ``>=1.3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +88,7 @@ callingcardstools
 
     <script>
         var package = "callingcardstools";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.1.0","1.0.0","1.0.0"];
     </script>
 
 

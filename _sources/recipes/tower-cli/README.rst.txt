@@ -27,7 +27,7 @@ tower-cli
       
       
 
-      ``0.8.0-0``
+      ``0.9.0-0``,  ``0.8.0-0``
 
       
 
@@ -79,7 +79,7 @@ tower-cli
 
     <script>
         var package = "tower-cli";
-        var versions = ["0.8.0"];
+        var versions = ["0.9.0","0.8.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ snakemake-interface-executor-plugins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.0.2-0</code>,  <code>7.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``7.0.1-0``,  ``6.0.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
+      ``7.0.2-0``,  ``7.0.1-0``,  ``6.0.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ snakemake-interface-executor-plugins
 
     <script>
         var package = "snakemake-interface-executor-plugins";
-        var versions = ["7.0.1","6.0.0","5.0.2","5.0.1","5.0.0"];
+        var versions = ["7.0.2","7.0.1","6.0.0","5.0.2","5.0.1"];
     </script>
 
 

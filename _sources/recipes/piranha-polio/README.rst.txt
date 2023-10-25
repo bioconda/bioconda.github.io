@@ -13,7 +13,7 @@ piranha-polio
    Poliovirus Investigation Resource Automating Nanopore Haplotype Analysis
 
    :homepage: https://github.com/polio-nanopore/piranha
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`piranha-polio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piranha-polio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piranha-polio/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ piranha-polio
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.10-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  </span></summary>
+      
 
+      ``1.1.1-0``,  ``1.1-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -39,6 +47,7 @@ piranha-polio
    :depends mako: ``>=1.2``
    :depends medaka: ``>=1.7.1``
    :depends minimap2: ``>=2.17``
+   :depends numpy: ``<=1.23.5``
    :depends pandas: 
    :depends pysam: 
    :depends python: ``<3.10``
@@ -93,7 +102,7 @@ piranha-polio
 
     <script>
         var package = "piranha-polio";
-        var versions = ["1.1","1.0.13","1.0.12","1.0.10","1.0.8"];
+        var versions = ["1.1.1","1.1","1.0.13","1.0.12","1.0.10"];
     </script>
 
 
