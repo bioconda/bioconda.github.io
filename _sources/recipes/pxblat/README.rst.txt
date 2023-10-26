@@ -16,7 +16,7 @@ pxblat
    :documentation: https://pxblat.readthedocs.io/en/latest/
    
    :developer docs: https://pypi.org/project/pxblat/
-   :license: MIT / MIT
+   :license: OTHER
    :recipe: /`pxblat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.08.02.551686`
 
@@ -30,9 +30,17 @@ pxblat
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+      
 
+      ``1.0.0-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -46,7 +54,7 @@ pxblat
    :depends loguru: 
    :depends mashumaro: 
    :depends numpy: ``>=1.24.3``
-   :depends openssl: ``>=3.1.3,<4.0a0``
+   :depends openssl: ``>=3.1.4,<4.0a0``
    :depends pysimdjson: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -100,7 +108,7 @@ pxblat
 
     <script>
         var package = "pxblat";
-        var versions = ["0.3.10","0.3.6","0.3.5","0.3.4","0.3.2"];
+        var versions = ["1.0.0","0.3.10","0.3.10","0.3.6","0.3.5"];
     </script>
 
 

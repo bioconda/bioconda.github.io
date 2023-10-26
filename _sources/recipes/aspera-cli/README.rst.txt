@@ -27,13 +27,11 @@ aspera-cli
       
       
 
-      ``4.14.0-0``
+      ``4.14.0-1``,  ``4.14.0-0``
 
       
 
    
-   :depends libgcc-ng: 
-   :depends libstdcxx-ng: 
    :depends ruby: ``>=3``
    :requirements:
 
@@ -82,7 +80,7 @@ aspera-cli
 
     <script>
         var package = "aspera-cli";
-        var versions = ["4.14.0"];
+        var versions = ["4.14.0","4.14.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ snakesv
    snakeSV\: Flexible framework for large\-scale SV discovery
 
    :homepage: https://github.com/RajLabMSSM/snakeSV/
-   :license: The MIT License (MIT)
+   :license: MIT / MIT
    :recipe: /`snakesv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakesv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakesv/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ snakesv
       
       
 
-      ``0.6-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3.1-0``,  ``0.2-0``
+      ``0.7-0``,  ``0.6-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3.1-0``,  ``0.2-0``
 
       
 
@@ -35,7 +35,7 @@ snakesv
    :depends bcftools: ``>=1.15.1``
    :depends mamba: ``>=0.22.0``
    :depends pandas: ``>=1.4.1``
-   :depends snakemake: ``>=7.0.1``
+   :depends snakemake-minimal: ``>=7.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ snakesv
 
     <script>
         var package = "snakesv";
-        var versions = ["0.6","0.4","0.4","0.3.1","0.2"];
+        var versions = ["0.7","0.6","0.4","0.4","0.3.1"];
     </script>
 
 

@@ -27,13 +27,13 @@ dajin2
       
       
 
-      ``0.3.1-0``
+      ``0.3.2-0``,  ``0.3.1-0``
 
       
 
    
    :depends bzip2: ``<2.0a0``
-   :depends cstag: ``0.4.1``
+   :depends cstag: ``>=0.4.1``
    :depends flask: ``>=2.2.0``
    :depends jinja2: ``>=3.1.0``
    :depends libcurl: ``<8.0a0``
@@ -103,7 +103,7 @@ dajin2
 
     <script>
         var package = "dajin2";
-        var versions = ["0.3.1"];
+        var versions = ["0.3.2","0.3.1"];
     </script>
 
 

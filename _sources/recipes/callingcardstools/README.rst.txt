@@ -30,7 +30,7 @@ callingcardstools
       
       
 
-      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -88,7 +88,7 @@ callingcardstools
 
     <script>
         var package = "callingcardstools";
-        var versions = ["1.1.0","1.0.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0","1.0.0"];
     </script>
 
 
