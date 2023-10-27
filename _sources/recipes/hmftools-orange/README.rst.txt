@@ -27,7 +27,7 @@ hmftools-orange
       
       
 
-      ``2.7.1-0``,  ``1.10.2-0``
+      ``3.0.0-0``,  ``2.7.1-0``,  ``1.10.2-0``
 
       
 
@@ -81,7 +81,7 @@ hmftools-orange
 
     <script>
         var package = "hmftools-orange";
-        var versions = ["2.7.1","1.10.2"];
+        var versions = ["3.0.0","2.7.1","1.10.2"];
     </script>
 
 

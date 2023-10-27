@@ -28,10 +28,10 @@ pyega3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  </span></summary>
       
 
-      ``5.0.2-0``,  ``5.0.1-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.1.0-0``,  ``3.0.44-0``,  ``3.0.40-0``,  ``3.0.39-0``,  ``3.0.38-0``,  ``3.0.21-1``,  ``3.0.21-0``
+      ``5.1.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.1.0-0``,  ``3.0.44-0``,  ``3.0.40-0``,  ``3.0.39-0``,  ``3.0.38-0``,  ``3.0.21-1``,  ``3.0.21-0``
 
       
       .. raw:: html
@@ -41,10 +41,11 @@ pyega3
 
    
    :depends psutil: 
-   :depends python: ``>3``
+   :depends python: ``>=3.6``
    :depends python-htsget: 
    :depends requests: 
    :depends tqdm: ``>=4.26.0``
+   :depends urllib3: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +93,7 @@ pyega3
 
     <script>
         var package = "pyega3";
-        var versions = ["5.0.2","5.0.1","4.0.5","4.0.4","4.0.3"];
+        var versions = ["5.1.0","5.0.2","5.0.1","4.0.5","4.0.4"];
     </script>
 
 

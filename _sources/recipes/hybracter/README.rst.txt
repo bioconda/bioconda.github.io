@@ -29,7 +29,7 @@ hybracter
       
       
 
-      ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.2-0``
 
       
 
@@ -87,7 +87,7 @@ hybracter
 
     <script>
         var package = "hybracter";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.0","0.1.2"];
     </script>
 
 

@@ -29,10 +29,10 @@ genomad
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  </span></summary>
       
 
-      ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ genomad
    :depends mmseqs2: ``14.7e284.*``
    :depends numba: ``>=0.57``
    :depends numpy: ``>=1.21``
-   :depends prodigal-gv: ``>=2.7.0``
+   :depends pyrodigal-gv: 
    :depends python: ``>=3.8``
    :depends python-crfsuite: 
    :depends rich-click: ``>=1.4``
@@ -100,7 +100,7 @@ genomad
 
     <script>
         var package = "genomad";
-        var versions = ["1.7.0","1.6.1","1.5.2","1.5.1","1.5.0"];
+        var versions = ["1.7.1","1.7.0","1.6.1","1.5.2","1.5.1"];
     </script>
 
 

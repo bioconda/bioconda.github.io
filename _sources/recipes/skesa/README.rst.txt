@@ -10,9 +10,9 @@ skesa
    :replaces_section_title:
    :noindex:
 
-   Strategic Kmer Extension for Scrupulous Assemblies
+   Strategic Kmer Extension for Scrupulous Assemblies \& Sequence Assembly Using Target Enrichment
 
-   :homepage: https://ftp.ncbi.nlm.nih.gov/pub/agarwala/skesa
+   :homepage: https://github.com/ncbi/SKESA
    :license: Public Domain
    :recipe: /`skesa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skesa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skesa/meta.yaml>`_
 
@@ -27,15 +27,14 @@ skesa
       
       
 
-      ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-0``
+      ``2.5.1-0``,  ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-0``
 
       
 
    
-   :depends boost: ``>=1.70.0,<1.70.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +82,7 @@ skesa
 
     <script>
         var package = "skesa";
-        var versions = ["2.4.0","2.3.0","2.3.0","2.3.0","2.2"];
+        var versions = ["2.5.1","2.4.0","2.3.0","2.3.0","2.3.0"];
     </script>
 
 
