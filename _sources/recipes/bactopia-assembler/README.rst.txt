@@ -29,21 +29,18 @@ bactopia-assembler
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends assembly-scan: ``>=1.0.0``
    :depends coreutils: 
-   :depends dragonflye: ``>=1.1.1``
+   :depends dragonflye: ``>=1.1.2``
    :depends importlib-metadata: ``<5``
-   :depends nanoq: ``>=0.9.0``
-   :depends pigz: 
-   :depends python: ``>3.6,<3.11``
    :depends sed: 
-   :depends shovill-se: ``>=1.1.0se``
-   :depends unicycler: 
+   :depends shovill-se: 
+   :depends skesa: ``>=2.5.1``
+   :depends unicycler: ``>=0.5.0``
    :depends wget: 
    :requirements:
 
@@ -92,7 +89,7 @@ bactopia-assembler
 
     <script>
         var package = "bactopia-assembler";
-        var versions = ["1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

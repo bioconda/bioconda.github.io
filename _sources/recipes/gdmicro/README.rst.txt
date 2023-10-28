@@ -13,7 +13,7 @@ gdmicro
    GDmicro \- Use GCN and Deep adaptation network to classify host disease status based on human gut microbiome data
 
    :homepage: https://github.com/liaoherui/GDmicro
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`gdmicro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdmicro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdmicro/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ gdmicro
       
       
 
-      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``
+      ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``
 
       
 
@@ -92,7 +92,7 @@ gdmicro
 
     <script>
         var package = "gdmicro";
-        var versions = ["1.0.6","1.0.6","1.0.5"];
+        var versions = ["1.0.10","1.0.9","1.0.6","1.0.6","1.0.5"];
     </script>
 
 

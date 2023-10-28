@@ -28,10 +28,10 @@ strainge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.8-0</code>,  <code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  </span></summary>
       
 
-      ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.8-0``,  ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -51,9 +51,9 @@ strainge
    :depends pysam: ``>=0.10``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends scikit-bio: ``>=0.5``
+   :depends scikit-bio: ``>=0.5.8``
    :depends scikit-learn: ``>=0.24``
-   :depends scipy: ``<1.9``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -101,7 +101,7 @@ strainge
 
     <script>
         var package = "strainge";
-        var versions = ["1.3.7","1.3.7","1.3.3","1.3.3","1.3.3"];
+        var versions = ["1.3.8","1.3.7","1.3.7","1.3.3","1.3.3"];
     </script>
 
 
