@@ -27,7 +27,7 @@ comebin
       
       
 
-      ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -112,7 +112,7 @@ comebin
 
     <script>
         var package = "comebin";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.3","1.0.2"];
     </script>
 
 
