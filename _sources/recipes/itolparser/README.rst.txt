@@ -27,7 +27,7 @@ itolparser
       
       
 
-      ``0.1.6-0``,  ``0.1.3-0``
+      ``0.2.1-0``,  ``0.1.6-0``,  ``0.1.3-0``
 
       
 
@@ -83,7 +83,7 @@ itolparser
 
     <script>
         var package = "itolparser";
-        var versions = ["0.1.6","0.1.3"];
+        var versions = ["0.2.1","0.1.6","0.1.3"];
     </script>
 
 

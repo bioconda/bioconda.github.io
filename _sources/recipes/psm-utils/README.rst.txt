@@ -30,7 +30,7 @@ psm-utils
       
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -41,6 +41,7 @@ psm-utils
    :depends pandas: 
    :depends psims: 
    :depends pydantic: 
+   :depends pyopenms: 
    :depends pyteomics: ``>=4``
    :depends python: ``>=3.7``
    :depends rich: 
@@ -92,7 +93,7 @@ psm-utils
 
     <script>
         var package = "psm-utils";
-        var versions = ["0.7.0","0.6.0","0.5.0","0.4.1","0.2.3"];
+        var versions = ["0.7.0","0.7.0","0.6.0","0.5.0","0.4.1"];
     </script>
 
 
