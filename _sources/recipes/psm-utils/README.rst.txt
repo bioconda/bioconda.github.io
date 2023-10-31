@@ -29,9 +29,17 @@ psm-utils
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.2.3-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
 
+      ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ psm-utils
 
     <script>
         var package = "psm-utils";
-        var versions = ["0.7.0","0.7.0","0.6.0","0.5.0","0.4.1"];
+        var versions = ["0.7.1","0.7.0","0.7.0","0.6.0","0.5.0"];
     </script>
 
 

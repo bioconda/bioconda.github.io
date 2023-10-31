@@ -13,7 +13,7 @@ ontime
    Extract subsets of ONT \(Nanopore\) reads based on time
 
    :homepage: https://github.com/mbhall88/ontime
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ontime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ontime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ontime/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ ontime
       
       
 
-      ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
 
@@ -80,7 +80,7 @@ ontime
 
     <script>
         var package = "ontime";
-        var versions = ["0.1.3","0.1.3","0.1.3"];
+        var versions = ["0.2.3","0.2.2","0.2.1","0.1.3","0.1.3"];
     </script>
 
 

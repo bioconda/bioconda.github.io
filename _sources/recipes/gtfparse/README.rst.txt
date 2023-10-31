@@ -27,14 +27,14 @@ gtfparse
       
       
 
-      ``2.0.1-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.7-1``,  ``1.0.7-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.7-1``,  ``1.0.7-0``
 
       
 
    
    :depends numpy: ``>=1.7``
    :depends pandas: ``>=0.15``
-   :depends polars: 
+   :depends polars: ``<0.17``
    :depends python: 
    :requirements:
 
@@ -83,7 +83,7 @@ gtfparse
 
     <script>
         var package = "gtfparse";
-        var versions = ["2.0.1","1.2.1","1.2.0","1.2.0","1.0.7"];
+        var versions = ["2.0.1","2.0.1","1.2.1","1.2.0","1.2.0"];
     </script>
 
 

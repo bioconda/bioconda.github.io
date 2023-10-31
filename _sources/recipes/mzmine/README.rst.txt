@@ -32,7 +32,7 @@ mzmine
       
       
 
-      ``3.6.0-0``
+      ``3.9.0-0``,  ``3.6.0-0``
 
       
 
@@ -86,7 +86,7 @@ mzmine
 
     <script>
         var package = "mzmine";
-        var versions = ["3.6.0"];
+        var versions = ["3.9.0","3.6.0"];
     </script>
 
 

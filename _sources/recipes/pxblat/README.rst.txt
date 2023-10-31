@@ -32,10 +32,10 @@ pxblat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.0.3-0</code>,  <code>1.0.0-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.8-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.3-0</code>,  <code>1.0.0-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``1.1.8-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -46,15 +46,11 @@ pxblat
    
    :depends biopython: 
    :depends deprecated: 
-   :depends gevent: 
-   :depends htslib: ``>=1.18,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends loguru: 
    :depends mashumaro: 
-   :depends numpy: ``>=1.24.3``
-   :depends openssl: ``>=3.1.4,<4.0a0``
+   :depends pybind11: ``>=2.10.4``
    :depends pysimdjson: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -108,7 +104,7 @@ pxblat
 
     <script>
         var package = "pxblat";
-        var versions = ["1.1.1","1.0.3","1.0.0","0.3.10","0.3.10"];
+        var versions = ["1.1.8","1.1.2","1.1.1","1.0.3","1.0.0"];
     </script>
 
 

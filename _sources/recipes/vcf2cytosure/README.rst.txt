@@ -27,7 +27,7 @@ vcf2cytosure
       
       
 
-      ``0.9.1-0``
+      ``0.9.1-1``,  ``0.9.1-0``
 
       
 
@@ -83,7 +83,7 @@ vcf2cytosure
 
     <script>
         var package = "vcf2cytosure";
-        var versions = ["0.9.1"];
+        var versions = ["0.9.1","0.9.1"];
     </script>
 
 
