@@ -28,7 +28,7 @@ reframed
       
       
 
-      ``1.4.0-0``
+      ``1.5.0-0``,  ``1.4.0-0``
 
       
 
@@ -85,7 +85,7 @@ reframed
 
     <script>
         var package = "reframed";
-        var versions = ["1.4.0"];
+        var versions = ["1.5.0","1.4.0"];
     </script>
 
 

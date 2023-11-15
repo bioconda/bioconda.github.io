@@ -28,10 +28,10 @@ dwgsim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.13-3</code>,  <code>1.1.13-2</code>,  <code>1.1.13-1</code>,  <code>1.1.13-0</code>,  <code>1.1.11-8</code>,  <code>1.1.11-7</code>,  <code>1.1.11-6</code>,  <code>1.1.11-5</code>,  <code>1.1.11-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.14-0</code>,  <code>1.1.13-3</code>,  <code>1.1.13-2</code>,  <code>1.1.13-1</code>,  <code>1.1.13-0</code>,  <code>1.1.11-8</code>,  <code>1.1.11-7</code>,  <code>1.1.11-6</code>,  <code>1.1.11-5</code>,  </span></summary>
       
 
-      ``1.1.13-3``,  ``1.1.13-2``,  ``1.1.13-1``,  ``1.1.13-0``,  ``1.1.11-8``,  ``1.1.11-7``,  ``1.1.11-6``,  ``1.1.11-5``,  ``1.1.11-4``,  ``1.1.11-3``,  ``1.1.11-2``,  ``1.1.11-1``
+      ``1.1.14-0``,  ``1.1.13-3``,  ``1.1.13-2``,  ``1.1.13-1``,  ``1.1.13-0``,  ``1.1.11-8``,  ``1.1.11-7``,  ``1.1.11-6``,  ``1.1.11-5``,  ``1.1.11-4``,  ``1.1.11-3``,  ``1.1.11-2``,  ``1.1.11-1``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ dwgsim
    
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends ncurses: ``>=6.3,<7.0a0``
+   :depends ncurses: ``>=6.4,<7.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +91,7 @@ dwgsim
 
     <script>
         var package = "dwgsim";
-        var versions = ["1.1.13","1.1.13","1.1.13","1.1.13","1.1.11"];
+        var versions = ["1.1.14","1.1.13","1.1.13","1.1.13","1.1.13"];
     </script>
 
 

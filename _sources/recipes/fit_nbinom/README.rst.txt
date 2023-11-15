@@ -13,7 +13,7 @@ fit_nbinom
    Script to fit negative binomial distributions via maximum likelihood estimation.
 
    :homepage: https://github.com/joachimwolff/fit_nbinom/
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`fit_nbinom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fit_nbinom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fit_nbinom/meta.yaml>`_
 
    
@@ -27,14 +27,14 @@ fit_nbinom
       
       
 
-      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
-   :depends numpy: ``>=1.15``
+   :depends numpy: ``>=1.19``
    :depends python: 
-   :depends scipy: ``>=1.2``
+   :depends scipy: ``>=1.10``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ fit_nbinom
 
     <script>
         var package = "fit_nbinom";
-        var versions = ["1.1","1.1","1.1","1.0"];
+        var versions = ["1.2","1.1","1.1","1.1","1.0"];
     </script>
 
 

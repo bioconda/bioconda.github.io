@@ -29,10 +29,10 @@ r-monocle3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  </span></summary>
       
 
-      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``1.3.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -46,6 +46,7 @@ r-monocle3
    :depends bioconductor-biocgenerics: ``>=0.28``
    :depends bioconductor-delayedarray: ``>=0.8``
    :depends bioconductor-delayedmatrixstats: ``>=1.4``
+   :depends bioconductor-hdf5array: 
    :depends bioconductor-limma: ``>=3.38.3``
    :depends bioconductor-s4vectors: 
    :depends bioconductor-singlecellexperiment: 
@@ -56,6 +57,7 @@ r-monocle3
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=0.8.0.1``
    :depends r-ggplot2: ``>=3.1.1``
+   :depends r-ggrastr: 
    :depends r-ggrepel: ``>=0.8.1``
    :depends r-grr: 
    :depends r-htmlwidgets: ``>=1.3``
@@ -63,6 +65,7 @@ r-monocle3
    :depends r-irlba: ``>=2.3.3``
    :depends r-knitr: 
    :depends r-leidenbase: 
+   :depends r-lme4: 
    :depends r-lmtest: ``>=0.9_36``
    :depends r-mass: ``>=7.3_51.4``
    :depends r-matrix: ``>=1.2_17``
@@ -143,7 +146,7 @@ r-monocle3
 
     <script>
         var package = "r-monocle3";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.3.1","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

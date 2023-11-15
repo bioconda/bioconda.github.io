@@ -27,7 +27,7 @@ ont-modkit
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -82,7 +82,7 @@ ont-modkit
 
     <script>
         var package = "ont-modkit";
-        var versions = ["0.2.1","0.2.0"];
+        var versions = ["0.2.2","0.2.1","0.2.0"];
     </script>
 
 

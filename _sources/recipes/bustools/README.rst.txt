@@ -10,10 +10,10 @@ bustools
    :replaces_section_title:
    :noindex:
 
-   bustools is a program for manipulating BUS files for single cell RNA\-Seq datasets.       
+   bustools is a program for manipulating BUS files for single cell RNA\-Seq datasets.
 
    :homepage: https://github.com/BUStools/bustools
-   :license: BSD 2-Clause "Simplified" License
+   :license: BSD / BSD-2-Clause "Simplified" License
    :recipe: /`bustools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bustools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bustools/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ bustools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.43.0-0</code>,  <code>0.42.0-2</code>,  <code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.41.0-2</code>,  <code>0.41.0-1</code>,  <code>0.41.0-0</code>,  <code>0.40.0-1</code>,  <code>0.40.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.43.1-0</code>,  <code>0.43.0-0</code>,  <code>0.42.0-2</code>,  <code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.41.0-2</code>,  <code>0.41.0-1</code>,  <code>0.41.0-0</code>,  <code>0.40.0-1</code>,  </span></summary>
       
 
-      ``0.43.0-0``,  ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.41.0-2``,  ``0.41.0-1``,  ``0.41.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.39.4-0``,  ``0.39.3-0``,  ``0.39.2-0``
+      ``0.43.1-0``,  ``0.43.0-0``,  ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.41.0-2``,  ``0.41.0-1``,  ``0.41.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.39.4-0``,  ``0.39.3-0``,  ``0.39.2-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ bustools
 
     <script>
         var package = "bustools";
-        var versions = ["0.43.0","0.42.0","0.42.0","0.42.0","0.41.0"];
+        var versions = ["0.43.1","0.43.0","0.42.0","0.42.0","0.42.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ rosella
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.5.0-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
       .. raw:: html
@@ -40,16 +40,33 @@ rosella
       
 
    
-   :depends bwa: 
+   :depends biopython: ``>=1.81``
+   :depends coverm: ``>=0.6.1``
+   :depends flight-genome: ``>=1.6.0``
+   :depends hdbscan: ``>=0.8.28``
+   :depends imageio: ``>=2.31``
+   :depends joblib: ``>=1.1.0,<=1.3``
+   :depends joblib: ``>=1.3.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends minimap2: 
-   :depends openssl: ``>=3.1.0,<4.0a0``
-   :depends parallel: 
-   :depends samtools: 
-   :depends starcode: 
+   :depends matplotlib-base: ``>=3.8``
+   :depends numba: ``>=0.53,<=0.57``
+   :depends numpy: ``<=1.24``
+   :depends openssl: ``>=3.1.4,<4.0a0``
+   :depends pandas: ``>=1.3``
+   :depends pebble: ``>=5.0``
+   :depends pynndescent: ``>=0.5.7``
+   :depends python: ``>=3.8,<=3.10``
+   :depends scikit-bio: ``>=0.5.7``
+   :depends scikit-learn: ``>=1.0.2,<=1.1``
+   :depends scipy: ``<=1.11``
+   :depends seaborn: ``>=0.12``
+   :depends tbb: ``>=2021.10.0``
+   :depends threadpoolctl: ``>=3.2.0``
+   :depends tqdm: ``>=4.66``
+   :depends umap-learn: ``>=0.5.3``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +114,7 @@ rosella
 
     <script>
         var package = "rosella";
-        var versions = ["0.4.2","0.4.2","0.4.2","0.4.1","0.4.1"];
+        var versions = ["0.5.0","0.4.2","0.4.2","0.4.2","0.4.1"];
     </script>
 
 

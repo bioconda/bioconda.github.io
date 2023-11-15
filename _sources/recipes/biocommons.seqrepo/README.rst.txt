@@ -13,7 +13,7 @@ biocommons.seqrepo
    Python package for writing and reading a local collection of biological sequences.
 
    :homepage: https://github.com/biocommons/biocommons.seqrepo
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`biocommons.seqrepo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biocommons.seqrepo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biocommons.seqrepo/meta.yaml>`_
 
    
@@ -27,15 +27,16 @@ biocommons.seqrepo
       
       
 
-      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
+      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
 
       
 
    
    :depends bioutils: ``>0.4``
    :depends coloredlogs: 
+   :depends ipython: 
    :depends pysam: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.9``
    :depends requests: 
    :depends requests-html: 
    :depends six: 
@@ -88,7 +89,7 @@ biocommons.seqrepo
 
     <script>
         var package = "biocommons.seqrepo";
-        var versions = ["0.6.5","0.6.4","0.6.3"];
+        var versions = ["0.6.6","0.6.5","0.6.4","0.6.3"];
     </script>
 
 

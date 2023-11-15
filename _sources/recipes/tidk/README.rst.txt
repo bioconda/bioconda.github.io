@@ -13,7 +13,7 @@ tidk
    Identify and find telomeres\, or telomeric repeats in a genome.
 
    :homepage: https://github.com/tolkit/telomeric-identifier
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`tidk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ tidk
       
       
 
-      ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
@@ -81,7 +81,7 @@ tidk
 
     <script>
         var package = "tidk";
-        var versions = ["0.2.31","0.2.31","0.2.31","0.2.1","0.2.1"];
+        var versions = ["0.2.41","0.2.31","0.2.31","0.2.31","0.2.1"];
     </script>
 
 

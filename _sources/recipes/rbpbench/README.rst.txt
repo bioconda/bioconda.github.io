@@ -27,7 +27,7 @@ rbpbench
       
       
 
-      ``0.1-0``
+      ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -39,9 +39,10 @@ rbpbench
    :depends matplotlib-venn: 
    :depends meme: 
    :depends plotly: 
-   :depends python: 
+   :depends python: ``<3.12``
    :depends scipy: 
    :depends textdistance: 
+   :depends upsetplot: 
    :depends venn: 
    :requirements:
 
@@ -90,7 +91,7 @@ rbpbench
 
     <script>
         var package = "rbpbench";
-        var versions = ["0.1"];
+        var versions = ["0.4","0.3","0.2","0.1"];
     </script>
 
 

@@ -28,13 +28,13 @@ hostile
       
       
 
-      ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
    :depends bedtools: ``>=2.31.0``
-   :depends bowtie2: ``>=2.5.1``
+   :depends bowtie2: ``2.4.5``
    :depends defopt: ``>=6.4.0``
    :depends gawk: ``>=5.1.0``
    :depends httpx: ``>=0.24.1``
@@ -90,7 +90,7 @@ hostile
 
     <script>
         var package = "hostile";
-        var versions = ["0.1.0","0.0.3","0.0.2"];
+        var versions = ["0.2.0","0.1.0","0.1.0","0.0.3","0.0.2"];
     </script>
 
 

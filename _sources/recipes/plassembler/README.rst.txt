@@ -28,10 +28,10 @@ plassembler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.5-0</code>,  </span></summary>
       
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ plassembler
    
    :depends alive-progress: ``>=3.0.1``
    :depends biopython: ``>=1.76``
-   :depends canu: 
+   :depends canu: ``2.2``
    :depends chopper: ``>=0.5.0``
    :depends click: ``>=8.0.0``
-   :depends dnaapler: 
+   :depends dnaapler: ``>=0.4.0``
    :depends fastp: ``>=0.18.0``
    :depends flye: ``>=2.9``
    :depends loguru: ``>=0.5.3``
@@ -106,7 +106,7 @@ plassembler
 
     <script>
         var package = "plassembler";
-        var versions = ["1.4.1","1.4.0","1.3.0","1.2.0","1.1.0"];
+        var versions = ["1.4.1","1.4.1","1.4.0","1.3.0","1.2.0"];
     </script>
 
 

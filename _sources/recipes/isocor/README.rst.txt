@@ -15,7 +15,7 @@ isocor
    :homepage: https://github.com/MetaSys-LISBP/IsoCor/
    :documentation: https://isocor.readthedocs.io/
    
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`isocor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isocor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isocor/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btz209`
 
@@ -30,14 +30,14 @@ isocor
       
       
 
-      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.0-1``,  ``2.1.0-0``
+      ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.0-1``,  ``2.1.0-0``
 
       
 
    
    :depends numpy: ``>=1.15``
    :depends pandas: ``>=0.17.1``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends scipy: ``>=0.12.1``
    :requirements:
 
@@ -86,7 +86,7 @@ isocor
 
     <script>
         var package = "isocor";
-        var versions = ["2.2.1","2.2.0","2.1.4","2.1.3","2.1.2"];
+        var versions = ["2.2.2","2.2.1","2.2.0","2.1.4","2.1.3"];
     </script>
 
 

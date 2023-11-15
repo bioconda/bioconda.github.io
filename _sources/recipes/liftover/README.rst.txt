@@ -14,7 +14,7 @@ liftover
 
    :homepage: https://github.com/jeremymcrae/liftover
    :developer docs: https://pypi.org/project/liftover/
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`liftover <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liftover>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liftover/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ liftover
       
       
 
-      ``1.1.16-0``
+      ``1.1.17-0``,  ``1.1.16-0``
 
       
 
@@ -86,7 +86,7 @@ liftover
 
     <script>
         var package = "liftover";
-        var versions = ["1.1.16"];
+        var versions = ["1.1.17","1.1.16"];
     </script>
 
 

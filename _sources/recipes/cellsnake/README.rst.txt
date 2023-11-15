@@ -27,7 +27,7 @@ cellsnake
       
       
 
-      ``0.2.0.11-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.2.0.dev9-0``
+      ``0.2.0.11-2``,  ``0.2.0.11-1``,  ``0.2.0.11-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.2.0.dev9-0``
 
       
 
@@ -65,6 +65,7 @@ cellsnake
    :depends r-clustree: ``0.5.0``
    :depends r-cowplot: 
    :depends r-curl: 
+   :depends r-dbplyr: ``<=2.3.2``
    :depends r-expm: 
    :depends r-fields: 
    :depends r-ggalluvial: 
@@ -74,6 +75,7 @@ cellsnake
    :depends r-hdf5r: 
    :depends r-igraph: ``1.3.4``
    :depends r-librarian: 
+   :depends r-matrix: ``<=1.5_4.1``
    :depends r-minqa: 
    :depends r-monocle3: 
    :depends r-nmf: 
@@ -86,6 +88,7 @@ cellsnake
    :depends r-reticulate: 
    :depends r-rsvd: 
    :depends r-seurat: ``4.3.0``
+   :depends r-seuratobject: ``4.1.3``
    :depends r-spdep: 
    :depends r-terra: 
    :depends r-tidyseurat: 
@@ -146,7 +149,7 @@ cellsnake
 
     <script>
         var package = "cellsnake";
-        var versions = ["0.2.0.11","0.2.0","0.2.0","0.2.0.dev9"];
+        var versions = ["0.2.0.11","0.2.0.11","0.2.0.11","0.2.0","0.2.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ annotsv
    Annotation and Ranking of Structural Variation
 
    :homepage: https://github.com/lgmgeo/AnnotSV
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`annotsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annotsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annotsv/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ annotsv
       
       
 
-      ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
+      ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
 
       
 
@@ -41,7 +41,7 @@ annotsv
    :depends pandas: ``>=1.5.2``
    :depends pyfaidx: ``>=0.7.1``
    :depends python: ``>=3.8``
-   :depends tk: ``>=8.6.12,<8.7.0a0``
+   :depends tk: ``>=8.5``
    :depends tqdm: ``>=4.64.1``
    :depends unzip: 
    :requirements:
@@ -91,7 +91,7 @@ annotsv
 
     <script>
         var package = "annotsv";
-        var versions = ["3.3.6","3.3.5","3.3.4","3.3.4"];
+        var versions = ["3.3.7","3.3.6","3.3.5","3.3.4","3.3.4"];
     </script>
 
 

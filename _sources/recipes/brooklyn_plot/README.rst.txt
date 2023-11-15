@@ -29,14 +29,14 @@ brooklyn_plot
       
       
 
-      ``0.0.3-0``
+      ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
    :depends numpy: ``<1.24``
    :depends pandas: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends scanpy: 
    :depends scipy: 
    :requirements:
@@ -86,7 +86,7 @@ brooklyn_plot
 
     <script>
         var package = "brooklyn_plot";
-        var versions = ["0.0.3"];
+        var versions = ["0.0.4","0.0.3"];
     </script>
 
 

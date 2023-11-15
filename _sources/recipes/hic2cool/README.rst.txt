@@ -10,7 +10,7 @@ hic2cool
    :replaces_section_title:
    :noindex:
 
-   A converter between .hic files \(from juicer\) and .cool files \(for cooler\).
+   A converter between .hic files \(from juicer\) and single\-resolution or multi\-resolution .cool files \(for cooler\).
 
    :homepage: https://github.com/4dn-dcic/hic2cool
    :license: MIT / MIT
@@ -28,10 +28,10 @@ hic2cool
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``1.0.1-0``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ hic2cool
 
     <script>
         var package = "hic2cool";
-        var versions = ["0.8.3","0.8.3","0.8.3","0.8.2","0.8.0"];
+        var versions = ["1.0.1","0.8.3","0.8.3","0.8.3","0.8.2"];
     </script>
 
 

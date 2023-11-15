@@ -13,7 +13,7 @@ trust4
    TCR and BCR assembly from bulk or single\-cell RNA\-seq data
 
    :homepage: https://github.com/liulab-dfci/TRUST4
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`trust4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trust4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trust4/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ trust4
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  </span></summary>
       
 
-      ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5.1-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5.1-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ trust4
 
     <script>
         var package = "trust4";
-        var versions = ["1.0.12","1.0.11","1.0.10","1.0.10","1.0.9"];
+        var versions = ["1.0.13","1.0.12","1.0.11","1.0.10","1.0.10"];
     </script>
 
 

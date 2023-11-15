@@ -13,7 +13,7 @@ nmrml2isa
    nmrml2isa \- nmrML to ISA\-Tab parsing tool
 
    :homepage: http://github.com/ISA-tools/nmrml2isa
-   :license: GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nmrml2isa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrml2isa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrml2isa/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ nmrml2isa
       
       
 
-      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -35,7 +35,7 @@ nmrml2isa
    :depends lxml: 
    :depends openpyxl: 
    :depends pronto: 
-   :depends python: ``>=3``
+   :depends python: ``<3.10``
    :depends six: 
    :requirements:
 
@@ -84,7 +84,7 @@ nmrml2isa
 
     <script>
         var package = "nmrml2isa";
-        var versions = ["0.3.1","0.3.0","0.3.0"];
+        var versions = ["0.3.3","0.3.1","0.3.0","0.3.0"];
     </script>
 
 

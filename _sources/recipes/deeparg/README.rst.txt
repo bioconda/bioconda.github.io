@@ -12,7 +12,7 @@ deeparg
 
    A deep learning based approach to predict Antibiotic Resistance Genes \(ARGs\) from metagenomes
 
-   :homepage: https://bitbucket.org/gusphdproj/deeparg-ss/
+   :homepage: https://github.com/gaarangoa/deeparg
    :license: MIT / MIT
    :recipe: /`deeparg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeparg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeparg/meta.yaml>`_
 
@@ -27,7 +27,7 @@ deeparg
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -44,7 +44,7 @@ deeparg
    :depends scikit-learn: ``>=0.19.2``
    :depends scipy: ``>=1.2.1``
    :depends theano: ``>=0.8.2``
-   :depends tqdm: ``>=4.62.3``
+   :depends tqdm: ``>=4.62.3,<4.65``
    :depends wget: ``>=1.20.3``
    :requirements:
 
@@ -93,7 +93,7 @@ deeparg
 
     <script>
         var package = "deeparg";
-        var versions = ["1.0.2","1.0.2"];
+        var versions = ["1.0.3","1.0.2","1.0.2"];
     </script>
 
 

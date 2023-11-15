@@ -29,7 +29,7 @@ bactopia-teton
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -38,6 +38,7 @@ bactopia-teton
    :depends coreutils: 
    :depends fastq-scan: ``>=1.0.1``
    :depends gsl: ``2.6.*``
+   :depends hostile: ``>=0.1.0``
    :depends kraken2: ``>=2.1.3``
    :depends krakentools: ``>=1.2``
    :depends krona: ``>=2.8.1``
@@ -45,6 +46,7 @@ bactopia-teton
    :depends pigz: 
    :depends python: ``>=3.6,<3.11``
    :depends sed: 
+   :depends sra-human-scrubber: ``>=2.2``
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +94,7 @@ bactopia-teton
 
     <script>
         var package = "bactopia-teton";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

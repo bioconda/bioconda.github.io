@@ -10,10 +10,13 @@ genomedata
    :replaces_section_title:
    :noindex:
 
-   tools for accessing large amounts of genomic data
+   Tools for accessing large amounts of genomic data
 
    :homepage: http://genomedata.hoffmanlab.org/
-   :license: GPL2
+   :documentation: https://genomedata.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/hoffmangroup/genomedata
+   :license: GPL2 / GPL-2.0
    :recipe: /`genomedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomedata/meta.yaml>`_
    :links: biotools: :biotools:`genomedata`, doi: :doi:`10.1093/bioinformatics/btq164`
 
@@ -29,10 +32,10 @@ genomedata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.4-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
+      ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
 
       
       .. raw:: html
@@ -101,7 +104,7 @@ genomedata
 
     <script>
         var package = "genomedata";
-        var versions = ["1.7.1","1.7.0","1.6.0","1.6.0","1.5.0"];
+        var versions = ["1.7.2","1.7.1","1.7.0","1.6.0","1.6.0"];
     </script>
 
 

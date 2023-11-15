@@ -27,7 +27,7 @@ r-ldweaver
       
       
 
-      ``1.2-0``,  ``1.1.1-0``
+      ``1.3.1-0``,  ``1.2-0``,  ``1.1.1-0``
 
       
 
@@ -37,6 +37,7 @@ r-ldweaver
    :depends bioconductor-ggtree: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends openjdk: 
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-chromomap: 
@@ -104,7 +105,7 @@ r-ldweaver
 
     <script>
         var package = "r-ldweaver";
-        var versions = ["1.2","1.1.1"];
+        var versions = ["1.3.1","1.2","1.1.1"];
     </script>
 
 

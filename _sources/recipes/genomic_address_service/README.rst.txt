@@ -28,7 +28,7 @@ genomic_address_service
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -37,9 +37,11 @@ genomic_address_service
    :depends numba: 
    :depends numpy: 
    :depends pandas: ``>=2.0.2``
+   :depends psutil: 
    :depends pyarrow: ``>=12.0.0``
    :depends pytables: ``>=3.8.0``
    :depends python: ``>=3.8,<4``
+   :depends scipy: 
    :depends six: ``>=1.16.0``
    :requirements:
 
@@ -88,7 +90,7 @@ genomic_address_service
 
     <script>
         var package = "genomic_address_service";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

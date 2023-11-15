@@ -13,7 +13,7 @@ blockclust
    Efficient clustering and classification of non\-coding RNAs from short read RNA\-seq profiles.
 
    :homepage: https://github.com/pavanvidem/blockclust
-   :license: GPL
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`blockclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockclust/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btu270`
 
@@ -29,10 +29,10 @@ blockclust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  </span></summary>
       
 
-      ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ blockclust
    :depends pysam: ``>=0.15.0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dendextend: ``>=1.8.0``
    :depends scikit-learn: ``>=0.20.0``
    :depends wget: 
@@ -100,7 +100,7 @@ blockclust
 
     <script>
         var package = "blockclust";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.1.1","1.1.0","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

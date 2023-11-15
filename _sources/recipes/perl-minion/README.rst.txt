@@ -27,7 +27,7 @@ perl-minion
       
       
 
-      ``10.25-0``
+      ``10.26-0``,  ``10.25-0``
 
       
 
@@ -84,7 +84,7 @@ perl-minion
 
     <script>
         var package = "perl-minion";
-        var versions = ["10.25"];
+        var versions = ["10.26","10.25"];
     </script>
 
 

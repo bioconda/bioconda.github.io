@@ -13,7 +13,7 @@ blastbesties
    Rapid discovery of reciprocal best blast pairs from BLAST output files.
 
    :homepage: https://github.com/Adamtaranto/blast-besties
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`blastbesties <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastbesties>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastbesties/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ blastbesties
       
       
 
-      ``1.1.1-2``,  ``1.1.1-0``
+      ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-0``
 
       
 
    
-   :depends python: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ blastbesties
 
     <script>
         var package = "blastbesties";
-        var versions = ["1.1.1","1.1.1"];
+        var versions = ["1.1.2","1.1.1","1.1.1"];
     </script>
 
 

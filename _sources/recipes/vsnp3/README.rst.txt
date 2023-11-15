@@ -28,10 +28,10 @@ vsnp3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.16-0</code>,  <code>3.15-0</code>,  <code>3.14-0</code>,  <code>3.13-0</code>,  <code>3.12-0</code>,  <code>3.11-0</code>,  <code>3.10-0</code>,  <code>3.09-0</code>,  <code>3.08-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.18-0</code>,  <code>3.17-0</code>,  <code>3.16-0</code>,  <code>3.15-0</code>,  <code>3.14-0</code>,  <code>3.13-0</code>,  <code>3.12-0</code>,  <code>3.11-0</code>,  <code>3.10-0</code>,  </span></summary>
       
 
-      ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
+      ``3.18-0``,  ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
       .. raw:: html
@@ -41,30 +41,30 @@ vsnp3
 
    
    :depends bcftools: 
-   :depends biopython: 
+   :depends biopython: ``>=1.79``
    :depends bwa: 
-   :depends cairosvg: 
-   :depends dask: 
-   :depends freebayes: 
-   :depends humanize: 
-   :depends minimap2: 
+   :depends cairosvg: ``>=2.5.2``
+   :depends dask: ``>=2022.01.1``
+   :depends freebayes: ``>=1.3.5``
+   :depends humanize: ``>=3.14.0``
+   :depends minimap2: ``>=2.24``
    :depends numpy: 
-   :depends openpyxl: 
+   :depends openpyxl: ``>=3.0.9``
    :depends pandas: 
    :depends parallel: 
    :depends pigz: 
    :depends py-cpuinfo: 
-   :depends python: ``>=3.8``
-   :depends raxml: 
-   :depends regex: 
-   :depends samtools: 
-   :depends seqkit: 
-   :depends sourmash: 
-   :depends spades: 
-   :depends svgwrite: 
-   :depends vcflib: 
-   :depends vcftools: 
-   :depends xlsxwriter: 
+   :depends python: ``>=3.8,<3.10``
+   :depends raxml: ``>=8.2.12``
+   :depends regex: ``>=2.5.110``
+   :depends samtools: ``>=1.14``
+   :depends seqkit: ``>=2.1.0``
+   :depends sourmash: ``>=4.2.4``
+   :depends spades: ``>=3.15.2``
+   :depends svgwrite: ``>=1.4.1``
+   :depends vcflib: ``1.0.1.*``
+   :depends vcftools: ``0.1.16.*``
+   :depends xlsxwriter: ``>=3.0.2``
    :requirements:
 
    .. rubric:: Installation
@@ -112,7 +112,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.16","3.15","3.14","3.13","3.12"];
+        var versions = ["3.18","3.17","3.16","3.15","3.14"];
     </script>
 
 

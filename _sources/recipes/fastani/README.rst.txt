@@ -28,10 +28,10 @@ fastani
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34-0</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.31-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34-1</code>,  <code>1.34-0</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.31-0</code>,  <code>1.3-0</code>,  </span></summary>
       
 
-      ``1.34-0``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
+      ``1.34-1``,  ``1.34-0``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ fastani
 
     <script>
         var package = "fastani";
-        var versions = ["1.34","1.33","1.33","1.33","1.33"];
+        var versions = ["1.34","1.34","1.33","1.33","1.33"];
     </script>
 
 

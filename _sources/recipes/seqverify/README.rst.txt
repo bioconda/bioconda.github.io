@@ -27,7 +27,7 @@ seqverify
       
       
 
-      ``1.0.0-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
 
@@ -96,7 +96,7 @@ seqverify
 
     <script>
         var package = "seqverify";
-        var versions = ["1.0.0","0.1.0"];
+        var versions = ["1.1.0","1.0.0","0.1.0"];
     </script>
 
 

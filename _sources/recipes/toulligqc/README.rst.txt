@@ -28,10 +28,10 @@ toulligqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  </span></summary>
       
 
-      ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
+      ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
 
       
       .. raw:: html
@@ -45,10 +45,12 @@ toulligqc
    :depends numpy: ``>=1.17.4``
    :depends pandas: ``>=0.25.3``
    :depends plotly: ``>=4.5.0``
+   :depends pysam: 
    :depends python: ``>=3.8``
    :depends scikit-learn: ``>=0.22``
    :depends scipy: ``>=1.3.3``
    :depends seaborn: ``>=0.10``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +98,7 @@ toulligqc
 
     <script>
         var package = "toulligqc";
-        var versions = ["2.4","2.3","2.2.3","2.2.2","2.2.1"];
+        var versions = ["2.5","2.4","2.3","2.2.3","2.2.2"];
     </script>
 
 

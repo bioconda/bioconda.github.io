@@ -13,8 +13,11 @@ bigscape
    Biosynthetic Genes Similarity Clustering and Prospecting Engine.
 
    :homepage: https://github.com/medema-group/BiG-SCAPE
-   :license: GNU Affero v3
+   :documentation: https://github.com/medema-group/BiG-SCAPE/wiki
+   
+   :license: AGPL-3.0-or-later
    :recipe: /`bigscape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigscape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigscape/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41589-019-0400-9`
 
    
 
@@ -27,7 +30,7 @@ bigscape
       
       
 
-      ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
@@ -36,8 +39,10 @@ bigscape
    :depends fasttree: 
    :depends hmmer: 
    :depends networkx: 
+   :depends numpy: 
    :depends python: ``3.7``
-   :depends scikit-learn: ``0.19.2``
+   :depends scikit-learn: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ bigscape
 
     <script>
         var package = "bigscape";
-        var versions = ["1.1.5","1.1.4","1.1.4","1.1.3"];
+        var versions = ["1.1.6","1.1.5","1.1.4","1.1.4","1.1.3"];
     </script>
 
 

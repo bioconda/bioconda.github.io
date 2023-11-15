@@ -32,17 +32,16 @@ curare
       
       
 
-      ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
+      ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
 
       
 
    
    :depends docopt: ``0.6.2.*``
-   :depends mamba: ``0.13.*``
-   :depends python: 
-   :depends python: ``3.9.*``
-   :depends pyyaml: ``5.4.1.*``
-   :depends snakemake: ``6.3.*``
+   :depends mamba: ``1.5.3.*``
+   :depends python: ``3.10.*``
+   :depends pyyaml: ``6.0.*``
+   :depends snakemake: ``7.32.3.*``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +89,7 @@ curare
 
     <script>
         var package = "curare";
-        var versions = ["0.4.5","0.4.4","0.4.3"];
+        var versions = ["0.5.0","0.4.5","0.4.4","0.4.3"];
     </script>
 
 

@@ -27,7 +27,7 @@ physiofit
       
       
 
-      ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``
+      ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``
 
       
 
@@ -35,7 +35,7 @@ physiofit
    :depends matplotlib-base: ``>=3.7.1``
    :depends numpy: ``>=1.24.2``
    :depends pandas: ``>=2.0.1``
-   :depends python: ``>=3.8,<3.9.7|>3.9.7``
+   :depends python: ``>=3.8,<3.9.7|>3.9.7,<3.12``
    :depends pyyaml: ``>=6.0.0``
    :depends scipy: ``>=1.10.1``
    :depends streamlit: ``>=1.20.0``
@@ -86,7 +86,7 @@ physiofit
 
     <script>
         var package = "physiofit";
-        var versions = ["3.3.0","3.2.0","3.1.1","3.1.0","3.1.0"];
+        var versions = ["3.3.1","3.3.0","3.2.0","3.1.1","3.1.0"];
     </script>
 
 
