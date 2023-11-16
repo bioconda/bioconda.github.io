@@ -28,10 +28,10 @@ r-liger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0.9000-3</code>,  <code>0.5.0.9000-2</code>,  <code>0.5.0.9000-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0.9000-3</code>,  <code>0.5.0.9000-2</code>,  </span></summary>
       
 
-      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
       .. raw:: html
@@ -67,8 +67,8 @@ r-liger
    :depends r-rcppeigen: 
    :depends r-rcppprogress: 
    :depends r-reticulate: 
-   :depends r-riverplot: 
    :depends r-rtsne: 
+   :depends r-scattermore: ``>=0.7``
    :depends r-snow: 
    :depends r-uwot: 
    :depends umap-learn: 
@@ -119,7 +119,7 @@ r-liger
 
     <script>
         var package = "r-liger";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 
