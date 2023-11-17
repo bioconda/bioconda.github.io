@@ -13,7 +13,7 @@ ribodetector
    Accurate and rapid RiboRNA sequences Detector based on deep learning
 
    :homepage: https://github.com/hzi-bifo/RiboDetector
-   :license: GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ribodetector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribodetector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribodetector/meta.yaml>`_
    :links: biotools: :biotools:`ribodetector`
 
@@ -28,7 +28,7 @@ ribodetector
       
       
 
-      ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -37,7 +37,7 @@ ribodetector
    :depends numpy: 
    :depends onnxruntime: 
    :depends pandas: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.8,<=3.10``
    :depends pytorch: 
    :depends tqdm: 
    :requirements:
@@ -87,7 +87,7 @@ ribodetector
 
     <script>
         var package = "ribodetector";
-        var versions = ["0.2.7","0.2.6","0.2.4","0.2.3"];
+        var versions = ["0.2.8","0.2.7","0.2.6","0.2.4","0.2.3"];
     </script>
 
 

@@ -15,7 +15,7 @@ ndex2
    :homepage: https://github.com/ndexbio/ndex2-client
    :documentation: https://github.com/ndexbio/ndex2-client/blob/master/README.rst
    
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`ndex2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ndex2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ndex2/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ ndex2
       
       
 
-      ``3.5.1-0``
+      ``3.6.0-0``,  ``3.5.1-0``
 
       
 
@@ -90,7 +90,7 @@ ndex2
 
     <script>
         var package = "ndex2";
-        var versions = ["3.5.1"];
+        var versions = ["3.6.0","3.5.1"];
     </script>
 
 

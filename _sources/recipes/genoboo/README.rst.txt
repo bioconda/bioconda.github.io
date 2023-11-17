@@ -26,9 +26,17 @@ genoboo
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+      
 
+      ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -86,7 +94,7 @@ genoboo
 
     <script>
         var package = "genoboo";
-        var versions = ["0.4.8","0.4.7","0.4.5","0.4.4","0.4.3"];
+        var versions = ["0.4.9","0.4.8","0.4.7","0.4.5","0.4.4"];
     </script>
 
 
