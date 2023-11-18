@@ -27,7 +27,7 @@ gapmm2
       
       
 
-      ``0.2.0-0``
+      ``23.11.3-0``,  ``0.2.0-0``
 
       
 
@@ -83,7 +83,7 @@ gapmm2
 
     <script>
         var package = "gapmm2";
-        var versions = ["0.2.0"];
+        var versions = ["23.11.3","0.2.0"];
     </script>
 
 
