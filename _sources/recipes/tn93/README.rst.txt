@@ -13,7 +13,7 @@ tn93
    This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance.
 
    :homepage: https://github.com/veg/tn93
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`tn93 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ tn93
       
       
 
-      ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
+      ``1.0.12-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
 
@@ -82,7 +82,7 @@ tn93
 
     <script>
         var package = "tn93";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.6","1.0.6"];
+        var versions = ["1.0.12","1.0.9","1.0.9","1.0.9","1.0.6"];
     </script>
 
 

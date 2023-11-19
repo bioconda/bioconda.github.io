@@ -13,7 +13,7 @@ flams
    Find Lysine Acylation \& other Modification Sites
 
    :homepage: https://github.com/hannelorelongin/FLAMS
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`flams <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flams>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flams/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ flams
       
       
 
-      ``1.0.1-0``,  ``0.0.8-0``,  ``0.0.6-0``
+      ``1.1.0-0``,  ``1.0.1-0``,  ``0.0.8-0``,  ``0.0.6-0``
 
       
 
@@ -39,8 +39,13 @@ flams
    :depends charset-normalizer: ``3.1.0``
    :depends idna: ``3.4``
    :depends numpy: ``1.24.3``
+   :depends pandas: ``2.1.2``
    :depends python: ``>=3.10``
+   :depends python-dateutil: ``2.8.2``
+   :depends pytz: ``2023.3.post1``
    :depends requests: ``2.31.0``
+   :depends six: ``1.16.0``
+   :depends tzdata: ``2023c``
    :depends urllib3: ``2.0.2``
    :requirements:
 
@@ -89,7 +94,7 @@ flams
 
     <script>
         var package = "flams";
-        var versions = ["1.0.1","0.0.8","0.0.6"];
+        var versions = ["1.1.0","1.0.1","0.0.8","0.0.6"];
     </script>
 
 
