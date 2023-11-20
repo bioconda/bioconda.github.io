@@ -15,7 +15,7 @@ hicexplorer
    :homepage: https://github.com/deeptools/HiCExplorer
    :license: GPL3
    :recipe: /`hicexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer/meta.yaml>`_
-   :links: doi: :doi:`10.1093/nar/gky504`, doi: :doi:`10.1093/nar/gkaa220`, usegalaxy-eu: :usegalaxy-eu:`hicexplorer_hicplotviewpoint`
+   :links: doi: :doi:`10.1093/nar/gky504`, doi: :doi:`10.1093/nar/gkaa220`, doi: :doi:`10.1093/gigascience/giac061`, usegalaxy-eu: :usegalaxy-eu:`hicexplorer_hicplotviewpoint`
 
    
 
@@ -29,10 +29,10 @@ hicexplorer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.2-1</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7-0</code>,  <code>3.6-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.1-0</code>,  <code>3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.3-0</code>,  <code>3.7.2-1</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7-0</code>,  <code>3.6-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.1-0</code>,  </span></summary>
       
 
-      ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
+      ``3.7.3-0``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -42,32 +42,32 @@ hicexplorer
 
    
    :depends biopython: 
-   :depends cleanlab: ``>=0.1``
-   :depends cooler: ``>=0.8.10``
-   :depends fit_nbinom: ``>=1.1``
+   :depends cleanlab: ``>=2.5``
+   :depends cooler: ``>=0.9.3``
+   :depends fit_nbinom: ``>=1.2``
    :depends future: 
    :depends hic2cool: ``>=0.8.3``
-   :depends hicmatrix: ``>=15``
-   :depends hyperopt: ``>=0.2.4``
-   :depends imbalanced-learn: ``>=0.7.*``
+   :depends hicmatrix: ``>=17``
+   :depends hyperopt: ``>=0.2.7``
+   :depends imbalanced-learn: ``>=0.11``
    :depends intervaltree: 
-   :depends ipykernel: ``>=5.3.0``
+   :depends ipykernel: ``>=6.25.2``
    :depends jinja2: 
    :depends krbalancing: ``>=0.0.5``
-   :depends matplotlib-base: ``>=3.1.*``
+   :depends matplotlib-base: ``>=3.6``
    :depends numpy: ``>=1.19``
-   :depends pandas: ``>=1.1.*``
+   :depends pandas: ``>=2.0``
    :depends psutil: 
-   :depends pybedtools: ``>=0.8``
+   :depends pybedtools: ``>=0.9``
    :depends pybigwig: 
-   :depends pygenometracks: ``>=3.5``
+   :depends pygenometracks: ``>=3.8``
    :depends pysam: 
    :depends pytables: 
-   :depends python: ``>=3.6``
-   :depends python-graphviz: ``>=0.14``
-   :depends scikit-learn: ``>=0.23.2``
-   :depends scipy: ``>=1.5``
-   :depends tqdm: ``>=4.50``
+   :depends python: ``>=3.8``
+   :depends python-graphviz: ``>=0.20``
+   :depends scikit-learn: ``>=1.3.1``
+   :depends scipy: ``>=1.10``
+   :depends tqdm: ``>=4.66``
    :depends unidecode: 
    :requirements:
 
@@ -116,7 +116,7 @@ hicexplorer
 
     <script>
         var package = "hicexplorer";
-        var versions = ["3.7.2","3.7.2","3.7.1","3.7","3.6"];
+        var versions = ["3.7.3","3.7.2","3.7.2","3.7.1","3.7"];
     </script>
 
 

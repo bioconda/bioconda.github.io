@@ -35,10 +35,10 @@ pantools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.3-1</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  </span></summary>
       
 
-      ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+      ``4.2.3-1``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,9 @@ pantools
 
    
    :depends aster: ``1.3.*``
+   :depends bcftools: ``>=1.12``
    :depends blast: 
+   :depends busco: ``5.*``
    :depends fastani: 
    :depends fasttree: 
    :depends graphviz: 
@@ -110,7 +112,7 @@ pantools
 
     <script>
         var package = "pantools";
-        var versions = ["4.2.3","4.2.2","4.2.1","4.2.0","4.1.1"];
+        var versions = ["4.2.3","4.2.3","4.2.2","4.2.1","4.2.0"];
     </script>
 
 
@@ -125,7 +127,6 @@ By default \"\-Xms512m \-Xmx1g\" is set in the wrapper.
 If you want to overwrite it you can specify these values directly after your binaries.
 If you have \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \"pantools \-Xms512m \-Xmx1g\".
-NB\: Both \`BUSCO\` and \`bcftools\` are dependencies of PanTools but they are not included in this recipe due to conflicts on MacOS.
 
 
 

@@ -10,7 +10,7 @@ gsearch
    :replaces_section_title:
    :noindex:
 
-   gsearch is an ultra\-fast and scalable microbial genome search program based on MinHash\-like metric and graph\-based approximate nearest neighbor search
+   gsearch is an ultra\-fast and scalable microbial genome search program based on MinHash\-like metrics and graph\-based approximate nearest neighbor search
 
    :homepage: https://github.com/jean-pierreBoth/gsearch
    :license: MIT
@@ -27,7 +27,7 @@ gsearch
       
       
 
-      ``0.1.4-0``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-0``,  ``0.0.12-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-0``,  ``0.0.12-0``
 
       
 
@@ -81,7 +81,7 @@ gsearch
 
     <script>
         var package = "gsearch";
-        var versions = ["0.1.4","0.1.2","0.1.2","0.1.2","0.0.12"];
+        var versions = ["0.1.5","0.1.4","0.1.2","0.1.2","0.1.2"];
     </script>
 
 
