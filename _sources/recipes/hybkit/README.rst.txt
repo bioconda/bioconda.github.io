@@ -13,7 +13,7 @@ hybkit
    Hybkit toolkit and Python3 API chimeric genomic data analysis from proximity ligation methods.
 
    :homepage: https://github.com/RenneLab/hybkit
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hybkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybkit/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hybkit
       
       
 
-      ``0.3.3-0``,  ``0.3.0-0``
+      ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.0-0``
 
       
 
@@ -35,6 +35,7 @@ hybkit
    :depends biopython: 
    :depends matplotlib-base: 
    :depends python: ``>=3.8``
+   :depends typing_extensions: 
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +83,7 @@ hybkit
 
     <script>
         var package = "hybkit";
-        var versions = ["0.3.3","0.3.0"];
+        var versions = ["0.3.4","0.3.3","0.3.0"];
     </script>
 
 

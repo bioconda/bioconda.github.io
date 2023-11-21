@@ -27,11 +27,33 @@ bacpage
       
       
 
-      
+      ``2023.11.10.1-0``
 
       
 
    
+   :depends abricate: 
+   :depends bc: 
+   :depends bcftools: ``1.17.*``
+   :depends bedtools: 
+   :depends biopython: 
+   :depends bwa: 
+   :depends emboss: 
+   :depends fastp: 
+   :depends fastqc: 
+   :depends flash: 
+   :depends iqtree: 
+   :depends lighter: 
+   :depends multiqc: 
+   :depends pandas: 
+   :depends prokka: 
+   :depends python: ``<3.12,>=3.9``
+   :depends qualimap: 
+   :depends quast: 
+   :depends samtools: ``1.17.*``
+   :depends snakemake-minimal: 
+   :depends snp-sites: 
+   :depends unicycler: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +101,7 @@ bacpage
 
     <script>
         var package = "bacpage";
-        var versions = [];
+        var versions = ["2023.11.10.1"];
     </script>
 
 

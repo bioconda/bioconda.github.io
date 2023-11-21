@@ -29,7 +29,7 @@ nanometa-live
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.1-0``
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.1-0``
 
       
 
@@ -51,6 +51,7 @@ nanometa-live
    :depends pyyaml: ``>=6.0``
    :depends ruamel.yaml: ``>=0.17.32``
    :depends snakemake-minimal: ``>=7.20.0``
+   :depends tqdm: ``>=4.62.3``
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +99,7 @@ nanometa-live
 
     <script>
         var package = "nanometa-live";
-        var versions = ["0.3.1","0.3.0","0.1.1"];
+        var versions = ["0.4.0","0.3.1","0.3.0","0.1.1"];
     </script>
 
 
