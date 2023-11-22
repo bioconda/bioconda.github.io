@@ -28,7 +28,7 @@ braker3
       
       
 
-      ``3.0.3-0``
+      ``3.0.6-0``,  ``3.0.3-0``
 
       
 
@@ -112,7 +112,7 @@ braker3
 
     <script>
         var package = "braker3";
-        var versions = ["3.0.3"];
+        var versions = ["3.0.6","3.0.3"];
     </script>
 
 
