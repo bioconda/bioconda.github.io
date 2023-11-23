@@ -12,8 +12,8 @@ spagrn
 
    A comprehensive tool to infer TF\-centered\, spatial gene regulatory networks for the spatially resolved transcriptomics \(SRT\) data.
 
-   :homepage: https://github.com/iprada/Circle-Map
-   :license: GPL3 / GNU General Public License v3.0
+   :homepage: https://github.com/BGI-Qingdao/SpaGRN
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`spagrn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spagrn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spagrn/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ spagrn
       
       
 
-      ``1.0.4-0``
+      ``1.0.7-0``,  ``1.0.4-0``
 
       
 
@@ -89,7 +89,7 @@ spagrn
 
     <script>
         var package = "spagrn";
-        var versions = ["1.0.4"];
+        var versions = ["1.0.7","1.0.4"];
     </script>
 
 

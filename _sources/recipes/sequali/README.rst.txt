@@ -27,7 +27,7 @@ sequali
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -85,7 +85,7 @@ sequali
 
     <script>
         var package = "sequali";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ pbsim3
       
       
 
-      ``3.0.0-0``
+      ``3.0.1-0``,  ``3.0.0-0``
 
       
 
@@ -82,7 +82,7 @@ pbsim3
 
     <script>
         var package = "pbsim3";
-        var versions = ["3.0.0"];
+        var versions = ["3.0.1","3.0.0"];
     </script>
 
 
