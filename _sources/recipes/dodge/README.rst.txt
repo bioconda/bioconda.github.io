@@ -1,40 +1,40 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'anansnake'
+.. title:: Package Recipe 'dodge'
 .. highlight: bash
 
-anansnake
-=========
+dodge
+=====
 
-.. conda:recipe:: anansnake
+.. conda:recipe:: dodge
    :replaces_section_title:
    :noindex:
 
-   Automated ANANSE analysis with seq2science \& snakemake\!
+   Dynamic Outbreak Detection for Genomic Epidemiology. Automated point source bacterial outbreak detection using cumulative long term genomic surveillance.
 
-   :homepage: https://github.com/vanheeringen-lab/anansnake
-   :license: Apache-2.0
-   :recipe: /`anansnake <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anansnake>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anansnake/meta.yaml>`_
-   :links: biotools: :biotools:`ananse`
+   :homepage: https://github.com/LanLab/dodge
+   :license: GPL-3.0-or-later
+   :recipe: /`dodge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dodge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dodge/meta.yaml>`_
 
    
 
 
-.. conda:package:: anansnake
+.. conda:package:: dodge
 
-   |downloads_anansnake| |docker_anansnake|
+   |downloads_dodge| |docker_dodge|
 
    :versions:
       
       
 
-      ``0.1.0-0``,  ``0.0.1-0``
+      ``0.1.0-0``
 
       
 
    
-   :depends python: 
-   :depends seq2science: ``1.2.1.*``
+   :depends pandas: ``>=1.3``
+   :depends python: ``>=3.8``
+   :depends scikit-learn: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -50,39 +50,39 @@ anansnake
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install anansnake
+      mamba install dodge
 
    and update with::
 
-      mamba update anansnake
+      mamba update dodge
 
   To create a new environment, run::
 
-      mamba create --name myenvname anansnake
+      mamba create --name myenvname dodge
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/anansnake:<tag>
+      docker pull quay.io/biocontainers/dodge:<tag>
 
-   (see `anansnake/tags`_ for valid values for ``<tag>``)
+   (see `dodge/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_anansnake| image:: https://img.shields.io/conda/dn/bioconda/anansnake.svg?style=flat
-   :target: https://anaconda.org/bioconda/anansnake
+.. |downloads_dodge| image:: https://img.shields.io/conda/dn/bioconda/dodge.svg?style=flat
+   :target: https://anaconda.org/bioconda/dodge
    :alt:   (downloads)
-.. |docker_anansnake| image:: https://quay.io/repository/biocontainers/anansnake/status
-   :target: https://quay.io/repository/biocontainers/anansnake
-.. _`anansnake/tags`: https://quay.io/repository/biocontainers/anansnake?tab=tags
+.. |docker_dodge| image:: https://quay.io/repository/biocontainers/dodge/status
+   :target: https://quay.io/repository/biocontainers/dodge
+.. _`dodge/tags`: https://quay.io/repository/biocontainers/dodge?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "anansnake";
-        var versions = ["0.1.0","0.0.1"];
+        var package = "dodge";
+        var versions = ["0.1.0"];
     </script>
 
 
@@ -101,7 +101,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/anansnake/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dodge/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/anansnake/README.html
+   :target: http://bioconda.github.io/recipes/dodge/README.html

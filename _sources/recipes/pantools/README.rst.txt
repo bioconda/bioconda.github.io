@@ -35,10 +35,10 @@ pantools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.3-1</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.0-0</code>,  <code>4.2.3-1</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  </span></summary>
       
 
-      ``4.2.3-1``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+      ``4.3.0-0``,  ``4.2.3-1``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -55,14 +55,17 @@ pantools
    :depends fasttree: 
    :depends graphviz: 
    :depends iqtree: 
-   :depends kmc: ``3.0.1.*``
+   :depends kmc: ``>=3.1.0``
    :depends mafft: 
    :depends mash: ``2.3.*``
    :depends mcl: 
    :depends openjdk: ``8.*``
+   :depends pal2nal: ``>=14.1``
+   :depends paml: ``>=4.10.6``
    :depends python: ``>=3.7``
    :depends r-ape: 
    :depends r-base: ``>=3.5.0``
+   :depends r-cowplot: ``>=1.1.1``
    :depends r-ggplot2: 
    :depends tabix: 
    :requirements:
@@ -112,7 +115,7 @@ pantools
 
     <script>
         var package = "pantools";
-        var versions = ["4.2.3","4.2.3","4.2.2","4.2.1","4.2.0"];
+        var versions = ["4.3.0","4.2.3","4.2.3","4.2.2","4.2.1"];
     </script>
 
 
