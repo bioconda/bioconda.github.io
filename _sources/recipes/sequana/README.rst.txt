@@ -31,10 +31,10 @@ sequana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.4-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.16.1-0</code>,  <code>0.15.4-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  </span></summary>
       
 
-      ``0.15.4-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.16.1-0``,  ``0.15.4-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -52,6 +52,7 @@ sequana
    :depends colormap: 
    :depends cookiecutter: ``<2``
    :depends cython: 
+   :depends deprecated: 
    :depends docutils: 
    :depends easydev: ``>=0.11.1``
    :depends gseapy: 
@@ -68,6 +69,7 @@ sequana
    :depends pykwalify: 
    :depends pysam: ``>=0.16``
    :depends python: ``>=3.8``
+   :depends rich-click: 
    :depends ruamel.yaml: ``>=0.16.0``
    :depends scikit-learn: 
    :depends scipy: 
@@ -126,7 +128,7 @@ sequana
 
     <script>
         var package = "sequana";
-        var versions = ["0.15.4","0.15.3","0.15.2","0.15.1","0.14.3"];
+        var versions = ["0.16.1","0.15.4","0.15.3","0.15.2","0.15.1"];
     </script>
 
 
