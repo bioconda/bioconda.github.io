@@ -27,25 +27,21 @@ dajin2
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
 
    
-   :depends bzip2: ``<2.0a0``
    :depends cstag: ``>=0.4.1``
    :depends flask: ``>=2.2.0``
    :depends jinja2: ``>=3.1.0``
-   :depends libcurl: ``<8.0a0``
-   :depends libdeflate: ``<1.11.0a0``
    :depends mappy: ``>=2.24``
    :depends midsv: ``>=0.10.1``
    :depends numpy: ``>=1.20.0``
    :depends openpyxl: ``>=3.0.0``
-   :depends openssl: ``<1.1.2a``
    :depends pandas: ``>=1.0.0``
    :depends plotly: ``>=5.0.0``
-   :depends pysam: ``0.19.1``
+   :depends pysam: ``>=0.19.0``
    :depends python: 
    :depends python-kaleido: ``>=0.2.0``
    :depends rapidfuzz: ``>=3.0.0``
@@ -54,8 +50,6 @@ dajin2
    :depends statsmodels: ``>=0.13.5``
    :depends waitress: ``>=2.1.0``
    :depends wslpath: ``>=0.3.0``
-   :depends xz: ``<5.3.0a0``
-   :depends zlib: ``<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -103,7 +97,7 @@ dajin2
 
     <script>
         var package = "dajin2";
-        var versions = ["0.3.3","0.3.2","0.3.1"];
+        var versions = ["0.3.3","0.3.3","0.3.2","0.3.1"];
     </script>
 
 

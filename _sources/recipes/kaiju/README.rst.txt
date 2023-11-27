@@ -12,8 +12,9 @@ kaiju
 
    Fast and sensitive taxonomic classification for metagenomics
 
-   :homepage: http://kaiju.binf.ku.dk/
-   :license: GNU GPL v3
+   :homepage: https://kaiju.binf.ku.dk/
+   :developer docs: https://github.com/bioinformatics-centre/kaiju
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kaiju <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaiju>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaiju/meta.yaml>`_
    :links: biotools: :biotools:`kaiju`, doi: :doi:`10.1038/ncomms11257`
 
@@ -29,10 +30,10 @@ kaiju
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.0-0</code>,  <code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  </span></summary>
       
 
-      ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.5-0``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.0-0``
+      ``1.10.0-0``,  ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.5-0``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -96,7 +97,7 @@ kaiju
 
     <script>
         var package = "kaiju";
-        var versions = ["1.9.2","1.9.2","1.9.2","1.9.2","1.9.0"];
+        var versions = ["1.10.0","1.9.2","1.9.2","1.9.2","1.9.2"];
     </script>
 
 

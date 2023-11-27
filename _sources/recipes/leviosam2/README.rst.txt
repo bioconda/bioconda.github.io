@@ -13,8 +13,11 @@ leviosam2
    Fast and accurate coordinate conversion between assemblies
 
    :homepage: https://github.com/milkschen/leviosam2
-   :license: MIT
+   :documentation: https://github.com/milkschen/leviosam2/blob/main/workflow/README.md
+   
+   :license: MIT / MIT
    :recipe: /`leviosam2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/leviosam2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/leviosam2/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btab396`, doi: :doi:`10.1101/2022.04.27.489683`
 
    
 
@@ -28,10 +31,10 @@ leviosam2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -93,7 +96,7 @@ leviosam2
 
     <script>
         var package = "leviosam2";
-        var versions = ["0.4.1","0.4.0","0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.4.2","0.4.1","0.4.0","0.3.0","0.3.0"];
     </script>
 
 

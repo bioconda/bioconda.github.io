@@ -27,13 +27,14 @@ versionix
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
    :depends click: ``>=8.1.7``
    :depends python: ``>=3.8.0``
+   :depends rich-click: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +82,7 @@ versionix
 
     <script>
         var package = "versionix";
-        var versions = ["0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.2.3","0.2.2","0.2.1","0.2.0"];
     </script>
 
 
