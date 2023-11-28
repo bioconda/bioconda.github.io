@@ -27,12 +27,12 @@ visor
       
       
 
-      ``1.1.2-0``
+      ``1.1.2.1-0``,  ``1.1.2-0``
 
       
 
    
-   :depends badread: ``>=0.2.0``
+   :depends badread: ``>=0.4.0``
    :depends mappy: ``>=2.17``
    :depends minimap2: ``>=2.17``
    :depends numpy: ``>=1.15.3``
@@ -90,7 +90,7 @@ visor
 
     <script>
         var package = "visor";
-        var versions = ["1.1.2"];
+        var versions = ["1.1.2.1","1.1.2"];
     </script>
 
 

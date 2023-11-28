@@ -27,14 +27,14 @@ pytrf
       
       
 
-      ``1.2.1-0``
+      ``1.2.1-1``,  ``1.2.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ pytrf
 
     <script>
         var package = "pytrf";
-        var versions = ["1.2.1"];
+        var versions = ["1.2.1","1.2.1"];
     </script>
 
 

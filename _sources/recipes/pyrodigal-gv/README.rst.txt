@@ -27,7 +27,7 @@ pyrodigal-gv
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -81,7 +81,7 @@ pyrodigal-gv
 
     <script>
         var package = "pyrodigal-gv";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 
