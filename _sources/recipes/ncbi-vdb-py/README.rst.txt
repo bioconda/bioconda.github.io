@@ -29,13 +29,21 @@ ncbi-vdb-py
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``
+         <details><summary><span class="truncated-version-list"><code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.2-0</code>,  <code>3.0.0-0</code>,  <code>2.11.0-0</code>,  <code>2.10.9-0</code>,  </span></summary>
+      
 
+      ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends ncbi-vdb: ``3.0.8.*``
+   :depends ncbi-vdb: ``3.0.9.*``
    :depends python: ``>=3.5``
    :requirements:
 
@@ -84,7 +92,7 @@ ncbi-vdb-py
 
     <script>
         var package = "ncbi-vdb-py";
-        var versions = ["3.0.8","3.0.7","3.0.6","3.0.5","3.0.2"];
+        var versions = ["3.0.9","3.0.8","3.0.7","3.0.6","3.0.5"];
     </script>
 
 

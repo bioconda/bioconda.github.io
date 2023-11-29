@@ -13,7 +13,7 @@ snipit
    Visualize snps relative to a reference sequence
 
    :homepage: https://github.com/aineniamh/snipit
-   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`snipit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snipit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snipit/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ snipit
       
       
 
-      ``1.1.2-0``,  ``1.1-0``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``
+      ``1.2-0``,  ``1.1.2-0``,  ``1.1-0``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``
 
       
 
@@ -82,7 +82,7 @@ snipit
 
     <script>
         var package = "snipit";
-        var versions = ["1.1.2","1.1","1.0.7","1.0.5","1.0.3"];
+        var versions = ["1.2","1.1.2","1.1","1.0.7","1.0.5"];
     </script>
 
 

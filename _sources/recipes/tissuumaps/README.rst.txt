@@ -29,7 +29,7 @@ tissuumaps
       
       
 
-      ``3.1.1.6-0``
+      ``3.2-0``,  ``3.1.1.6-0``
 
       
 
@@ -90,7 +90,7 @@ tissuumaps
 
     <script>
         var package = "tissuumaps";
-        var versions = ["3.1.1.6"];
+        var versions = ["3.2","3.1.1.6"];
     </script>
 
 

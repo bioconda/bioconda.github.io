@@ -12,7 +12,10 @@ guidemaker
 
    GuideMaker\: Software to design gRNAs pools in non\-model genomes and CRISPR\-Cas systems
 
-   :homepage: https://github.com/USDA-ARS-GBRU/GuideMaker
+   :homepage: https://guidemaker.app.scinet.usda.gov/
+   :documentation: https://guidemaker.org/
+   
+   :developer docs: https://github.com/USDA-ARS-GBRU/GuideMaker
    :license: PUBLIC-DOMAIN / CC0-1.0
    :recipe: /`guidemaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/guidemaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/guidemaker/meta.yaml>`_
    :links: biotools: :biotools:`GuideMaker`, doi: :doi:`10.5281/zenodo.4849258`
@@ -28,13 +31,14 @@ guidemaker
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.2.0-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.2.0-0``
 
       
 
    
    :depends altair: 
    :depends biopython: ``>=1.79``
+   :depends importlib-resources: ``>=6.0``
    :depends nmslib: ``>=2.0.6``
    :depends numpy: ``>=1.11``
    :depends onnxruntime: ``>=1.8.1``
@@ -44,7 +48,7 @@ guidemaker
    :depends pybedtools: ``>=0.8.2``
    :depends pytest: ``>=4.6``
    :depends pytest-cov: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.8,<3.12``
    :depends pyyaml: ``>=5.4.1``
    :depends regex: ``2020.11.13``
    :depends streamlit: ``>=0.81.0``
@@ -96,7 +100,7 @@ guidemaker
 
     <script>
         var package = "guidemaker";
-        var versions = ["0.4.1","0.4.0","0.3.6","0.3.4","0.2.0"];
+        var versions = ["0.4.2","0.4.1","0.4.0","0.3.6","0.3.4"];
     </script>
 
 

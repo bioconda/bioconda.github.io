@@ -14,7 +14,7 @@ synapseclient
 
    :homepage: https://www.synapse.org
    :developer docs: https://github.com/Sage-Bionetworks/synapsePythonClient
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`synapseclient <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient/meta.yaml>`_
 
    A client for Synapse\, a collaborative compute space  that allows
@@ -31,10 +31,10 @@ synapseclient
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.1-0</code>,  </span></summary>
       
 
-      ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.7.5-1``,  ``1.7.5-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``
+      ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.7.5-1``,  ``1.7.5-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``
 
       
       .. raw:: html
@@ -47,6 +47,9 @@ synapseclient
    :depends deprecated: ``>=1.2.4``
    :depends future: 
    :depends keyring: ``>=15.0.0``
+   :depends opentelemetry-api: 
+   :depends opentelemetry-exporter-otlp: 
+   :depends opentelemetry-sdk: 
    :depends python: ``>=3.8``
    :depends requests: ``>=2.22``
    :depends six: 
@@ -98,7 +101,7 @@ synapseclient
 
     <script>
         var package = "synapseclient";
-        var versions = ["3.1.1","3.1.0","3.0.0","2.7.2","2.7.1"];
+        var versions = ["3.2.0","3.1.1","3.1.0","3.0.0","2.7.2"];
     </script>
 
 

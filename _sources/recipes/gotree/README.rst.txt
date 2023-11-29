@@ -28,10 +28,10 @@ gotree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-2</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.2.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-2</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.4.4-0``,  ``0.4.3-2``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.10-1``,  ``0.2.10-0``
+      ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-2``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.10-1``,  ``0.2.10-0``
 
       
       .. raw:: html
@@ -87,7 +87,7 @@ gotree
 
     <script>
         var package = "gotree";
-        var versions = ["0.4.4","0.4.3","0.4.3","0.4.3","0.4.2"];
+        var versions = ["0.4.5","0.4.4","0.4.3","0.4.3","0.4.3"];
     </script>
 
 
