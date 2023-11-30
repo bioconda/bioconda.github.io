@@ -27,15 +27,20 @@ raiss
       
       
 
-      ``3.1-0``,  ``3.0-0``,  ``2.0-0``,  ``1.0-0``
+      ``4.0-0``,  ``3.1-0``,  ``3.0-0``,  ``2.0-0``,  ``1.0-0``
 
       
 
    
    :depends joblib: 
+   :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.8``
+   :depends python-dateutil: 
+   :depends pytz: 
    :depends scipy: 
+   :depends six: 
+   :depends tzdata: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +88,7 @@ raiss
 
     <script>
         var package = "raiss";
-        var versions = ["3.1","3.0","2.0","1.0"];
+        var versions = ["4.0","3.1","3.0","2.0","1.0"];
     </script>
 
 

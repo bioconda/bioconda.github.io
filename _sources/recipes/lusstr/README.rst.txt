@@ -27,16 +27,17 @@ lusstr
       
       
 
-      ``0.6.4-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.7-0``,  ``0.6.4-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
 
    
+   :depends matplotlib-base: ``>=3.5.3``
    :depends openpyxl: ``>=3.0.6``
    :depends pandas: ``>=1.0,<2.0``
-   :depends python: ``>=3``
+   :depends python: ``>=3,<3.12``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake: ``>=7.22.0``
+   :depends snakemake-minimal: ``>=7.22.0``
    :depends xlrd: ``>=1.0,<2.0``
    :requirements:
 
@@ -85,7 +86,7 @@ lusstr
 
     <script>
         var package = "lusstr";
-        var versions = ["0.6.4","0.5","0.4","0.3","0.2.1"];
+        var versions = ["0.7","0.6.4","0.5","0.4","0.3"];
     </script>
 
 

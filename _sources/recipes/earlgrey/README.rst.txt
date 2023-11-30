@@ -15,11 +15,13 @@ earlgrey
    :homepage: https://github.com/TobyBaril/EarlGrey
    :license: OSL-2.1
    :recipe: /`earlgrey <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/earlgrey>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/earlgrey/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2022.06.30.498289`
 
    Earl Grey is a full\-automated transposable element \(TE\) annotation pipeline\,
    leveraging the most widely\-used tools and combining these with a consensus
-   elongation process to better define de novo consensus sequences when
-   annotating new genome assemblies.
+   elongation process \(BEAT\) to better define de novo consensus sequences when
+   annotating new genome assemblies. 
+
 
 
 .. conda:package:: earlgrey
@@ -30,7 +32,7 @@ earlgrey
       
       
 
-      ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+      ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
 
       
 
@@ -110,7 +112,7 @@ earlgrey
 
     <script>
         var package = "earlgrey";
-        var versions = ["4.0","3.2.2","3.2.1","3.2","3.1"];
+        var versions = ["4.0.1","4.0","4.0","3.2.2","3.2.1"];
     </script>
 
 
