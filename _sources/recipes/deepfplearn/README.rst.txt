@@ -13,7 +13,7 @@ deepfplearn
    Link molecular structures of chemicals \(in form of topological fingerprints\) with multiple targets.
 
    :homepage: https://github.com/yigbt/deepFPlearn
-   :license: GPL
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`deepfplearn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepfplearn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepfplearn/meta.yaml>`_
 
    
@@ -27,20 +27,33 @@ deepfplearn
       
       
 
-      ``1.2-0``
+      ``2.0-0``,  ``1.2-0``
 
       
 
    
+   :depends chemprop: 
+   :depends descriptastorus: 
+   :depends flask: ``>=1.1.2``
+   :depends hyperopt: ``>=0.2.3``
    :depends jsonpickle: ``2.1.*``
    :depends keras: ``2.9.*``
-   :depends matplotlib-base: ``3.5.*``
+   :depends matplotlib-base: ``3.5.1.*``
    :depends numpy: ``1.22.*``
    :depends pandas: ``1.4.*``
+   :depends pandas-flavor: ``>=0.2.0``
    :depends python: 
+   :depends pytorch: ``>=1.5.1``
    :depends rdkit: ``2022.03.*``
    :depends scikit-learn: ``1.0.*``
+   :depends scipy: ``>=1.4.1``
+   :depends seaborn: ``0.12.2.*``
+   :depends sphinx: ``>=3.1.2``
+   :depends tensorboardx: ``>=2.0``
    :depends tensorflow-base: 
+   :depends tqdm: ``>=4.45.0``
+   :depends typed-argument-parser: ``>=1.6.1``
+   :depends umap-learn: ``0.5.3.*``
    :depends wandb: ``0.12.*``
    :requirements:
 
@@ -89,7 +102,7 @@ deepfplearn
 
     <script>
         var package = "deepfplearn";
-        var versions = ["1.2"];
+        var versions = ["2.0","1.2"];
     </script>
 
 

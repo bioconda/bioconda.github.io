@@ -28,7 +28,7 @@ ms2rescore
       
       
 
-      ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
 
@@ -103,7 +103,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.0.0b1","3.0.0b1"];
+        var versions = ["3.0.0","3.0.0b1","3.0.0b1"];
     </script>
 
 

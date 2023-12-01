@@ -32,11 +32,12 @@ earlgrey
       
       
 
-      ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+      ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
 
       
 
    
+   :depends bedtools: 
    :depends bioconductor-bsgenome: 
    :depends bioconductor-genomeinfodb: 
    :depends bioconductor-genomeinfodbdata: 
@@ -112,7 +113,7 @@ earlgrey
 
     <script>
         var package = "earlgrey";
-        var versions = ["4.0.1","4.0","4.0","3.2.2","3.2.1"];
+        var versions = ["4.0.2","4.0.1","4.0.1","4.0","4.0"];
     </script>
 
 

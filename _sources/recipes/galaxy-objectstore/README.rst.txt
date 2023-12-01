@@ -30,9 +30,17 @@ galaxy-objectstore
    :versions:
       
       
+      .. raw:: html
 
-      ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``,  ``23.0.2-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-0``
+         <details><summary><span class="truncated-version-list"><code>23.1.3-0</code>,  <code>23.1.2-0</code>,  <code>23.1.1-0</code>,  <code>23.0.6-0</code>,  <code>23.0.5-0</code>,  <code>23.0.4-0</code>,  <code>23.0.2-0</code>,  <code>22.1.1-0</code>,  <code>21.9.0-0</code>,  </span></summary>
+      
 
+      ``23.1.3-0``,  ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``,  ``23.0.2-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -87,7 +95,7 @@ galaxy-objectstore
 
     <script>
         var package = "galaxy-objectstore";
-        var versions = ["23.1.2","23.1.1","23.0.6","23.0.5","23.0.4"];
+        var versions = ["23.1.3","23.1.2","23.1.1","23.0.6","23.0.5"];
     </script>
 
 

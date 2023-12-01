@@ -27,7 +27,7 @@ rbpbench
       
       
 
-      ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
 
@@ -37,7 +37,8 @@ rbpbench
    :depends logomaker: 
    :depends markdown: 
    :depends matplotlib-venn: 
-   :depends meme: 
+   :depends meme: ``>=5.0``
+   :depends packaging: 
    :depends plotly: 
    :depends python: ``<3.12``
    :depends scipy: 
@@ -91,7 +92,7 @@ rbpbench
 
     <script>
         var package = "rbpbench";
-        var versions = ["0.4","0.3","0.2","0.1"];
+        var versions = ["0.6","0.6","0.5","0.4","0.3"];
     </script>
 
 
