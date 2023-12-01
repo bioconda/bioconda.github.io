@@ -85,11 +85,11 @@ Bioconda only supports 64-bit Linux and macOS. ARM is not currently supported.
 Python
 ~~~~~~
 
-Bioconda only supports python 2.7, 3.6, 3.7, 3.8 and 3.9.
+Bioconda only supports Python 3.8, 3.9 and 3.10.
 
 The exception to this is Bioconda packages which declare `noarch: python` and
 only depend on such packages - those packages can be installed in an
-environment with any version of python they say they can support. However many
+environment with any version of Python they say they can support. However many
 python packages in Bioconda depend on other Bioconda packages with architecture
 specific builds, such as `pysam`, and so do not meet this criteria.
 
