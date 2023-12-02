@@ -27,22 +27,87 @@ jass
       
       
 
-      ``2.2-0``,  ``2.0-0``,  ``1.0.1-0``
+      ``2.3-0``,  ``2.2-0``,  ``2.0-0``,  ``1.0.1-0``
 
       
 
    
    :depends aiohttp: 
+   :depends aiosignal: 
+   :depends amqp: 
+   :depends anyio: 
+   :depends apispec: 
+   :depends async-timeout: 
+   :depends attrs: 
+   :depends billiard: 
+   :depends blinker: 
+   :depends blosc: 
    :depends celery: 
+   :depends certifi: 
+   :depends charset-normalizer: 
+   :depends click: 
+   :depends click-didyoumean: 
+   :depends click-plugins: 
+   :depends click-repl: 
+   :depends contourpy: 
+   :depends cycler: 
+   :depends exceptiongroup: 
+   :depends fastapi: 
+   :depends flask: 
+   :depends flask-cors: 
    :depends flask-smorest: 
-   :depends h5py: 
+   :depends fonttools: 
+   :depends frozenlist: 
+   :depends h11: 
+   :depends httpcore: 
+   :depends httptools: 
+   :depends httpx: 
+   :depends idna: 
+   :depends importlib-metadata: 
+   :depends itsdangerous: 
+   :depends jinja2: 
+   :depends kiwisolver: 
+   :depends kombu: 
+   :depends markupsafe: 
+   :depends marshmallow: 
    :depends matplotlib-base: 
+   :depends msgpack-python: 
+   :depends multidict: 
+   :depends ndindex: 
+   :depends numexpr: 
    :depends numpy: 
+   :depends packaging: 
    :depends pandas: 
-   :depends pytables: 
-   :depends python: ``>=3``
+   :depends pillow: 
+   :depends prompt-toolkit: 
+   :depends py-cpuinfo: 
+   :depends pydantic: ``<2.0``
+   :depends pyparsing: 
+   :depends python: ``>=3.10``
    :depends python-dateutil: 
+   :depends python-dotenv: 
+   :depends pytz: 
+   :depends pyyaml: 
+   :depends requests: 
    :depends scipy: 
+   :depends seaborn: 
+   :depends six: 
+   :depends sniffio: 
+   :depends starlette: 
+   :depends tables: 
+   :depends typing_extensions: 
+   :depends tzdata: 
+   :depends urllib3: 
+   :depends uvicorn: 
+   :depends uvloop: 
+   :depends vine: 
+   :depends watchfiles: 
+   :depends wcwidth: 
+   :depends webargs: 
+   :depends websockets: 
+   :depends werkzeug: 
+   :depends yarl: 
+   :depends zipp: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +155,7 @@ jass
 
     <script>
         var package = "jass";
-        var versions = ["2.2","2.0","1.0.1"];
+        var versions = ["2.3","2.2","2.0","1.0.1"];
     </script>
 
 

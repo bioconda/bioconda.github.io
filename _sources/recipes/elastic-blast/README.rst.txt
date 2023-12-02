@@ -30,10 +30,10 @@ elastic-blast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  </span></summary>
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ elastic-blast
    :depends google-cloud-sdk: 
    :depends importlib-metadata: 
    :depends kubernetes-client: ``1.18.8``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<3.10``
    :depends tenacity: 
    :requirements:
 
@@ -98,7 +98,7 @@ elastic-blast
 
     <script>
         var package = "elastic-blast";
-        var versions = ["1.1.0","1.1.0","1.0.0","0.2.7","0.2.6"];
+        var versions = ["1.2.0","1.1.0","1.1.0","1.0.0","0.2.7"];
     </script>
 
 

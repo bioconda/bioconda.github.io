@@ -10,7 +10,7 @@ sphae
    :replaces_section_title:
    :noindex:
 
-   Sphae\: Assembling and annotating pure culture phages from both Illumina and Nanopore sequencing technology
+   Phage toolkit
 
    :homepage: https://github.com/linsalrob/sphae/
    :documentation: https://github.com/linsalrob/sphae
@@ -19,7 +19,7 @@ sphae
    :license: MIT / MIT
    :recipe: /`sphae <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sphae>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sphae/meta.yaml>`_
 
-   Phage toolkit
+   Assembling and annotating pure culture phages from both Illumina and Nanopore sequencing technology
 
 
 .. conda:package:: sphae
@@ -30,7 +30,7 @@ sphae
       
       
 
-      ``1.3.1-0``
+      ``1.3.1-0``,  ``1.3.1b-0``
 
       
 
@@ -93,7 +93,7 @@ sphae
 
     <script>
         var package = "sphae";
-        var versions = ["1.3.1"];
+        var versions = ["1.3.1","1.3.1b"];
     </script>
 
 
