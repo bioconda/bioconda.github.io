@@ -27,7 +27,7 @@ bioconductor-pfamanalyzer
       
       
 
-      ``1.0.1-0``
+      ``1.2.0-0``,  ``1.0.1-0``
 
       
 
@@ -85,7 +85,7 @@ bioconductor-pfamanalyzer
 
     <script>
         var package = "bioconductor-pfamanalyzer";
-        var versions = ["1.0.1"];
+        var versions = ["1.2.0","1.0.1"];
     </script>
 
 

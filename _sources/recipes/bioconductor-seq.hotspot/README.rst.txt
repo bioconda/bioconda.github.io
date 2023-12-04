@@ -27,7 +27,7 @@ bioconductor-seq.hotspot
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -82,7 +82,7 @@ bioconductor-seq.hotspot
 
     <script>
         var package = "bioconductor-seq.hotspot";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

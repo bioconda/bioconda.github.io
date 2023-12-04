@@ -28,10 +28,10 @@ bioconductor-mscoreutils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,8 @@ bioconductor-mscoreutils
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -96,7 +97,7 @@ bioconductor-mscoreutils
 
     <script>
         var package = "bioconductor-mscoreutils";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.6.2","1.6.1"];
+        var versions = ["1.14.1","1.12.0","1.10.0","1.10.0","1.6.2"];
     </script>
 
 

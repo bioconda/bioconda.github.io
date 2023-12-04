@@ -28,10 +28,10 @@ bioconductor-fgnet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.34.0-0</code>,  <code>3.32.0-0</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-1</code>,  <code>3.24.0-0</code>,  <code>3.23.1-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-0</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-1</code>,  <code>3.24.0-0</code>,  <code>3.23.1-0</code>,  </span></summary>
       
 
-      ``3.34.0-0``,  ``3.32.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-1``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``
+      ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-1``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ bioconductor-fgnet
 
     <script>
         var package = "bioconductor-fgnet";
-        var versions = ["3.34.0","3.32.0","3.28.0","3.26.0","3.24.0"];
+        var versions = ["3.36.0","3.36.0","3.34.0","3.32.0","3.28.0"];
     </script>
 
 

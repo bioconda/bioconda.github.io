@@ -26,24 +26,37 @@ bioconductor-projectr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-cogaps: ``>=3.19.0,<3.20.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
+   :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggalluvial: 
    :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-matrix: 
+   :depends r-matrixmodels: 
    :depends r-nmf: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
    :depends r-rocr: 
    :depends r-scales: 
+   :depends r-tsne: 
+   :depends r-umap: 
    :depends r-viridis: 
    :requirements:
 
@@ -92,7 +105,7 @@ bioconductor-projectr
 
     <script>
         var package = "bioconductor-projectr";
-        var versions = ["1.16.0","1.14.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.10.0","1.8.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-nparc
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-broom: 
    :depends r-dplyr: 
@@ -87,7 +87,7 @@ bioconductor-nparc
 
     <script>
         var package = "bioconductor-nparc";
-        var versions = ["1.12.0","1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
     </script>
 
 

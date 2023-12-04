@@ -28,10 +28,10 @@ bioconductor-phenstat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  </span></summary>
       
 
-      ``2.36.0-0``,  ``2.34.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.1-0``,  ``2.18.0-0``
+      ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.1-0``,  ``2.18.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-phenstat
       
 
    
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-car: 
    :depends r-corrplot: 
@@ -102,7 +102,7 @@ bioconductor-phenstat
 
     <script>
         var package = "bioconductor-phenstat";
-        var versions = ["2.36.0","2.34.0","2.30.0","2.28.0","2.26.0"];
+        var versions = ["2.38.0","2.36.0","2.34.0","2.30.0","2.28.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-ibmq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-3</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-3</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-3``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-3``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,8 @@ bioconductor-ibmq
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
@@ -94,7 +95,7 @@ bioconductor-ibmq
 
     <script>
         var package = "bioconductor-ibmq";
-        var versions = ["1.40.0","1.38.0","1.38.0","1.34.0","1.34.0"];
+        var versions = ["1.42.0","1.40.0","1.38.0","1.38.0","1.34.0"];
     </script>
 
 

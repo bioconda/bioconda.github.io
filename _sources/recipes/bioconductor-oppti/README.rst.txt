@@ -27,12 +27,12 @@ bioconductor-oppti
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-devtools: 
    :depends r-ggplot2: 
@@ -88,7 +88,7 @@ bioconductor-oppti
 
     <script>
         var package = "bioconductor-oppti";
-        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
     </script>
 
 

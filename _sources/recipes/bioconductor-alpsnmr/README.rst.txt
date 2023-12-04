@@ -27,13 +27,13 @@ bioconductor-alpsnmr
       
       
 
-      ``4.2.0-0``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.1.5-0``
+      ``4.4.0-0``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.1.5-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-mixomics: ``>=6.24.0,<6.25.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-mixomics: ``>=6.26.0,<6.27.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-baseline: ``>=1.2-1``
    :depends r-cli: 
@@ -107,7 +107,7 @@ bioconductor-alpsnmr
 
     <script>
         var package = "bioconductor-alpsnmr";
-        var versions = ["4.2.0","4.0.0","3.4.0","3.1.5"];
+        var versions = ["4.4.0","4.2.0","4.0.0","3.4.0","3.1.5"];
     </script>
 
 

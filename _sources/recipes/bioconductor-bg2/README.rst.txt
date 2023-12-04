@@ -27,7 +27,7 @@ bioconductor-bg2
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -85,7 +85,7 @@ bioconductor-bg2
 
     <script>
         var package = "bioconductor-bg2";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

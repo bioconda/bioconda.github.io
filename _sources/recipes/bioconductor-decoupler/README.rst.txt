@@ -27,7 +27,7 @@ bioconductor-decoupler
       
       
 
-      ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
+      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
 
       
 
@@ -91,7 +91,7 @@ bioconductor-decoupler
 
     <script>
         var package = "bioconductor-decoupler";
-        var versions = ["2.6.0","2.4.0","2.0.0","1.0.0"];
+        var versions = ["2.8.0","2.6.0","2.4.0","2.0.0","1.0.0"];
     </script>
 
 

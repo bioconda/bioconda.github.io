@@ -27,7 +27,7 @@ bioconductor-reactomecontentservice4r
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -86,7 +86,7 @@ bioconductor-reactomecontentservice4r
 
     <script>
         var package = "bioconductor-reactomecontentservice4r";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

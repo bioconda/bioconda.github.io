@@ -27,12 +27,13 @@ bioconductor-ipath
       
       
 
-      ``1.6.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -93,7 +94,7 @@ bioconductor-ipath
 
     <script>
         var package = "bioconductor-ipath";
-        var versions = ["1.6.1","1.4.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.6.1","1.4.0","1.4.0","1.0.0"];
     </script>
 
 

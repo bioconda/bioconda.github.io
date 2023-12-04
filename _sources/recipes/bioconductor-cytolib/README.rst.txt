@@ -28,10 +28,10 @@ bioconductor-cytolib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,14 +40,16 @@ bioconductor-cytolib
       
 
    
-   :depends bioconductor-rhdf5lib: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-rprotobuflib: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-rprotobuflib: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-rprotobuflib: ``>=2.14.0,<2.15.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-bh: ``>=1.75.0.0``
+   :depends r-bh: ``>=1.81.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +97,7 @@ bioconductor-cytolib
 
     <script>
         var package = "bioconductor-cytolib";
-        var versions = ["2.12.0","2.10.0","2.6.2","2.6.2","2.6.0"];
+        var versions = ["2.14.0","2.12.0","2.10.0","2.6.2","2.6.2"];
     </script>
 
 

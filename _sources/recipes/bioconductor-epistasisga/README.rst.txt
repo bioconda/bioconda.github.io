@@ -27,12 +27,13 @@ bioconductor-epistasisga
       
       
 
-      ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -96,7 +97,7 @@ bioconductor-epistasisga
 
     <script>
         var package = "bioconductor-epistasisga";
-        var versions = ["1.2.1","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.1","1.0.0","1.0.0"];
     </script>
 
 

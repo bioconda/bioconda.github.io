@@ -26,15 +26,23 @@ bioconductor-rcyjs
    :versions:
       
       
+      .. raw:: html
 
-      ``2.22.0-0``,  ``2.20.0-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  </span></summary>
+      
 
+      ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-browserviz: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-browserviz: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-base64enc: 
    :depends r-httpuv: ``>=1.5.0``
@@ -85,7 +93,7 @@ bioconductor-rcyjs
 
     <script>
         var package = "bioconductor-rcyjs";
-        var versions = ["2.22.0","2.20.0","2.16.0","2.12.0","2.12.0"];
+        var versions = ["2.24.0","2.22.0","2.20.0","2.16.0","2.12.0"];
     </script>
 
 

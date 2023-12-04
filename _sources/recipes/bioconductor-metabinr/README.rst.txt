@@ -27,7 +27,7 @@ bioconductor-metabinr
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -82,7 +82,7 @@ bioconductor-metabinr
 
     <script>
         var package = "bioconductor-metabinr";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

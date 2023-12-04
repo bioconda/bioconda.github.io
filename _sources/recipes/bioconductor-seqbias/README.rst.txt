@@ -28,10 +28,10 @@ bioconductor-seqbias
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  </span></summary>
       
 
-      ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,18 @@ bioconductor-seqbias
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rhtslib: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -96,7 +100,7 @@ bioconductor-seqbias
 
     <script>
         var package = "bioconductor-seqbias";
-        var versions = ["1.48.0","1.46.0","1.46.0","1.42.0","1.42.0"];
+        var versions = ["1.50.0","1.48.0","1.46.0","1.46.0","1.42.0"];
     </script>
 
 

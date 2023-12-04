@@ -28,10 +28,10 @@ bioconductor-martini
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,8 @@ bioconductor-martini
       
 
    
-   :depends bioconductor-snpstats: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-snpstats: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-snpstats: ``>=1.52.0,<1.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -98,7 +99,7 @@ bioconductor-martini
 
     <script>
         var package = "bioconductor-martini";
-        var versions = ["1.20.0","1.18.0","1.18.0","1.14.0","1.14.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.14.0"];
     </script>
 
 

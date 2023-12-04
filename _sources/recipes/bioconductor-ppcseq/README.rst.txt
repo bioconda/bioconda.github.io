@@ -27,32 +27,32 @@ bioconductor-ppcseq
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-edger: ``>=4.0.2,<4.1.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-benchmarkme: 
    :depends r-bh: ``>=1.66.0``
    :depends r-dplyr: 
    :depends r-foreach: 
-   :depends r-furrr: 
-   :depends r-future: ``<1.33``
    :depends r-ggplot2: 
    :depends r-lifecycle: 
    :depends r-magrittr: 
    :depends r-purrr: 
    :depends r-rcpp: ``>=0.12.0``
    :depends r-rcppeigen: ``>=0.3.3.3.0``
+   :depends r-rcppparallel: ``>=5.0.1``
    :depends r-rlang: 
    :depends r-rstan: ``>=2.18.1``
-   :depends r-rstantools: ``>=2.0.0``
+   :depends r-rstantools: ``>=2.1.1``
    :depends r-stanheaders: ``>=2.18.0``
    :depends r-tibble: 
    :depends r-tidybayes: 
@@ -104,7 +104,7 @@ bioconductor-ppcseq
 
     <script>
         var package = "bioconductor-ppcseq";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.2.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.2.0"];
     </script>
 
 

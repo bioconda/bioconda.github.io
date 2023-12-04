@@ -28,10 +28,10 @@ bioconductor-stattarget
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  <code>1.14.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-stattarget
       
 
    
-   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-roc: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-roc: ``>=1.78.0,<1.79.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-pdist: 
    :depends r-pls: 
@@ -95,7 +95,7 @@ bioconductor-stattarget
 
     <script>
         var package = "bioconductor-stattarget";
-        var versions = ["1.30.0","1.28.0","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.24.0","1.22.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-demuxmix
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -84,7 +84,7 @@ bioconductor-demuxmix
 
     <script>
         var package = "bioconductor-demuxmix";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

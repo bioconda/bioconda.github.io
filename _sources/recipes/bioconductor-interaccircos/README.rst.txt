@@ -27,7 +27,7 @@ bioconductor-interaccircos
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
@@ -83,7 +83,7 @@ bioconductor-interaccircos
 
     <script>
         var package = "bioconductor-interaccircos";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

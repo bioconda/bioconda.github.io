@@ -29,10 +29,10 @@ bioconductor-xvector
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.42.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-1</code>,  <code>0.38.0-0</code>,  <code>0.34.0-2</code>,  <code>0.34.0-1</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-1</code>,  <code>0.38.0-0</code>,  <code>0.34.0-2</code>,  <code>0.34.0-1</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  </span></summary>
       
 
-      ``0.42.0-0``,  ``0.40.0-0``,  ``0.38.0-1``,  ``0.38.0-0``,  ``0.34.0-2``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.1-0``,  ``0.12.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``
+      ``0.42.0-1``,  ``0.42.0-0``,  ``0.40.0-0``,  ``0.38.0-1``,  ``0.38.0-0``,  ``0.34.0-2``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.1-0``,  ``0.12.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -42,15 +42,14 @@ bioconductor-xvector
 
    
    :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
    :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<3.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
    :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<1.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<2.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -100,7 +99,7 @@ bioconductor-xvector
 
     <script>
         var package = "bioconductor-xvector";
-        var versions = ["0.42.0","0.40.0","0.38.0","0.38.0","0.34.0"];
+        var versions = ["0.42.0","0.42.0","0.40.0","0.38.0","0.38.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-systempipeshiny
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -58,7 +58,7 @@ bioconductor-systempipeshiny
    :depends r-shinyjs: 
    :depends r-shinytoastr: 
    :depends r-shinywidgets: 
-   :depends r-spscomps: ``>=0.3.2``
+   :depends r-spscomps: ``>=0.3.3``
    :depends r-spsutil: ``>=0.2.2``
    :depends r-stringr: 
    :depends r-styler: 
@@ -112,7 +112,7 @@ bioconductor-systempipeshiny
 
     <script>
         var package = "bioconductor-systempipeshiny";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

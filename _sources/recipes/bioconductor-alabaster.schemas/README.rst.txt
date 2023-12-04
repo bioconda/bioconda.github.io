@@ -27,7 +27,7 @@ bioconductor-alabaster.schemas
       
       
 
-      ``1.0.2-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
@@ -80,7 +80,7 @@ bioconductor-alabaster.schemas
 
     <script>
         var package = "bioconductor-alabaster.schemas";
-        var versions = ["1.0.2"];
+        var versions = ["1.2.0","1.2.0","1.0.2"];
     </script>
 
 

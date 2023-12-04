@@ -27,7 +27,7 @@ bioconductor-panviz
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -93,7 +93,7 @@ bioconductor-panviz
 
     <script>
         var package = "bioconductor-panviz";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

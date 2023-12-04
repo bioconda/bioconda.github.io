@@ -27,7 +27,7 @@ bioconductor-intact
       
       
 
-      ``1.0.1-0``
+      ``1.2.0-0``,  ``1.0.1-0``
 
       
 
@@ -83,7 +83,7 @@ bioconductor-intact
 
     <script>
         var package = "bioconductor-intact";
-        var versions = ["1.0.1"];
+        var versions = ["1.2.0","1.0.1"];
     </script>
 
 

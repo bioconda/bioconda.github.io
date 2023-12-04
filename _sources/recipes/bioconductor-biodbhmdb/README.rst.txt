@@ -27,20 +27,22 @@ bioconductor-biodbhmdb
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biodb: ``>=1.8.0,<1.9.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biodb: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biodb: ``>=1.10.0,<1.11.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-r6: 
    :depends r-rcpp: 
    :depends r-testthat: 
+   :depends r-zip: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +90,7 @@ bioconductor-biodbhmdb
 
     <script>
         var package = "bioconductor-biodbhmdb";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.0.3","1.0.3"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.0.3"];
     </script>
 
 

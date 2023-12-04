@@ -27,7 +27,7 @@ bioconductor-omada
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,11 +37,11 @@ bioconductor-omada
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-clustercrit: ``>=1.2.8``
    :depends r-clvalid: ``>=0.7``
    :depends r-dicer: ``>=0.6.0``
    :depends r-dplyr: ``>=1.0.7``
    :depends r-fpc: ``>=2.2-9``
+   :depends r-genieclust: ``>=1.1.3``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-glmnet: ``>=4.1.3``
    :depends r-kernlab: ``>=0.9-29``
@@ -95,7 +95,7 @@ bioconductor-omada
 
     <script>
         var package = "bioconductor-omada";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.4.0","1.4.0","1.1.0","1.0.0"];
     </script>
 
 

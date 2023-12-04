@@ -13,7 +13,7 @@ deeptoolsintervals
    A python module creating\/accessing GTF\-based interval trees with associated meta\-data
 
    :homepage: https://github.com/deeptools/deeptools_intervals
-   :license: GPL3
+   :license: MIT
    :recipe: /`deeptoolsintervals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptoolsintervals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptoolsintervals/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ deeptoolsintervals
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.9-5</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-2</code>,  <code>0.1.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.9-6</code>,  <code>0.1.9-5</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-2</code>,  </span></summary>
       
 
-      ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.9-6``,  ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
       .. raw:: html

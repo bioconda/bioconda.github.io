@@ -27,7 +27,7 @@ bioconductor-rcollectl
       
       
 
-      ``1.0.1-0``
+      ``1.2.0-0``,  ``1.0.1-0``
 
       
 
@@ -83,7 +83,7 @@ bioconductor-rcollectl
 
     <script>
         var package = "bioconductor-rcollectl";
-        var versions = ["1.0.1"];
+        var versions = ["1.2.0","1.0.1"];
     </script>
 
 

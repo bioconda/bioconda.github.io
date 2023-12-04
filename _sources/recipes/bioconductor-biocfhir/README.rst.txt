@@ -27,13 +27,13 @@ bioconductor-biocfhir
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocbaseutils: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biocbaseutils: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -88,7 +88,7 @@ bioconductor-biocfhir
 
     <script>
         var package = "bioconductor-biocfhir";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

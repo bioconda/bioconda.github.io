@@ -29,10 +29,10 @@ bioconductor-cnanorm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.1-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.1-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  </span></summary>
       
 
-      ``1.46.1-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``
+      ``1.48.0-0``,  ``1.46.1-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ bioconductor-cnanorm
       
 
    
-   :depends bioconductor-dnacopy: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
@@ -95,7 +96,7 @@ bioconductor-cnanorm
 
     <script>
         var package = "bioconductor-cnanorm";
-        var versions = ["1.46.1","1.44.0","1.44.0","1.40.0","1.40.0"];
+        var versions = ["1.48.0","1.46.1","1.44.0","1.44.0","1.40.0"];
     </script>
 
 

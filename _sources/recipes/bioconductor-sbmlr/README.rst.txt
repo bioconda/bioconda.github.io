@@ -28,10 +28,10 @@ bioconductor-sbmlr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.96.0-0</code>,  <code>1.94.0-0</code>,  <code>1.90.0-0</code>,  <code>1.88.0-0</code>,  <code>1.86.0-1</code>,  <code>1.86.0-0</code>,  <code>1.84.0-0</code>,  <code>1.82.0-0</code>,  <code>1.80.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.98.0-0</code>,  <code>1.96.0-0</code>,  <code>1.94.0-0</code>,  <code>1.90.0-0</code>,  <code>1.88.0-0</code>,  <code>1.86.0-1</code>,  <code>1.86.0-0</code>,  <code>1.84.0-0</code>,  <code>1.82.0-0</code>,  </span></summary>
       
 
-      ``1.96.0-0``,  ``1.94.0-0``,  ``1.90.0-0``,  ``1.88.0-0``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-0``,  ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``
+      ``1.98.0-0``,  ``1.96.0-0``,  ``1.94.0-0``,  ``1.90.0-0``,  ``1.88.0-0``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-0``,  ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ bioconductor-sbmlr
 
     <script>
         var package = "bioconductor-sbmlr";
-        var versions = ["1.96.0","1.94.0","1.90.0","1.88.0","1.86.0"];
+        var versions = ["1.98.0","1.96.0","1.94.0","1.90.0","1.88.0"];
     </script>
 
 

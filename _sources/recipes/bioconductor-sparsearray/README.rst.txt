@@ -27,23 +27,23 @@ bioconductor-sparsearray
       
       
 
-      ``1.2.2-0``,  ``1.0.10-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
 
       
 
    
    :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
    :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<3.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
    :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<2.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0a0``
    :depends bioconductor-s4arrays: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4arrays: ``>=1.2.0,<2.0a0``
+   :depends bioconductor-s4arrays: ``>=1.2.0,<1.3.0a0``
    :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<1.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
-   :depends bioconductor-xvector: ``>=0.42.0,<1.0a0``
+   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -96,7 +96,7 @@ bioconductor-sparsearray
 
     <script>
         var package = "bioconductor-sparsearray";
-        var versions = ["1.2.2","1.0.10"];
+        var versions = ["1.2.2","1.2.2","1.0.10"];
     </script>
 
 

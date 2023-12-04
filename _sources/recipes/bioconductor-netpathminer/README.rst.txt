@@ -29,10 +29,10 @@ bioconductor-netpathminer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-2</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-2</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-2``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``
+      ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-2``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``
 
       
       .. raw:: html
@@ -45,9 +45,9 @@ bioconductor-netpathminer
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends libxml2: ``>=2.11.4,<2.12.0a0``
+   :depends libxml2: ``>=2.11.6,<2.12.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-igraph: 
+   :depends r-igraph: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +95,7 @@ bioconductor-netpathminer
 
     <script>
         var package = "bioconductor-netpathminer";
-        var versions = ["1.36.0","1.34.0","1.34.0","1.30.0","1.30.0"];
+        var versions = ["1.38.0","1.38.0","1.36.0","1.34.0","1.34.0"];
     </script>
 
 

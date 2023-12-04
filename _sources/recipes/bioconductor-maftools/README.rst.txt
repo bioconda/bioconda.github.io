@@ -28,10 +28,10 @@ bioconductor-maftools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.05-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.05-0</code>,  <code>2.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.05-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.05-0</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.05-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.05-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.10-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.15-0``,  ``1.4.27-0``
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.05-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.05-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.10-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.15-0``,  ``1.4.27-0``
 
       
       .. raw:: html
@@ -40,9 +40,12 @@ bioconductor-maftools
       
 
    
-   :depends bioconductor-dnacopy: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-rhtslib: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0a0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<3.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -97,7 +100,7 @@ bioconductor-maftools
 
     <script>
         var package = "bioconductor-maftools";
-        var versions = ["2.16.0","2.14.0","2.14.0","2.10.05","2.10.0"];
+        var versions = ["2.18.0","2.16.0","2.14.0","2.14.0","2.10.05"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-msstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.8.3-0</code>,  <code>4.6.0-1</code>,  <code>4.6.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.22.1-1</code>,  <code>3.22.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10.0-0</code>,  <code>4.8.3-0</code>,  <code>4.6.0-1</code>,  <code>4.6.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.22.1-1</code>,  </span></summary>
       
 
-      ``4.8.3-0``,  ``4.6.0-1``,  ``4.6.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+      ``4.10.0-0``,  ``4.8.3-0``,  ``4.6.0-1``,  ``4.6.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,18 @@ bioconductor-msstats
       
 
    
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-marray: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-msstatsconvert: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
+   :depends bioconductor-marray: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-marray: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
@@ -108,7 +112,7 @@ bioconductor-msstats
 
     <script>
         var package = "bioconductor-msstats";
-        var versions = ["4.8.3","4.6.0","4.6.0","4.2.0","4.2.0"];
+        var versions = ["4.10.0","4.8.3","4.6.0","4.6.0","4.2.0"];
     </script>
 
 

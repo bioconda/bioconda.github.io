@@ -28,10 +28,10 @@ bioconductor-genomes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  </span></summary>
       
 
-      ``3.30.0-0``,  ``3.28.0-0``,  ``3.24.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``
+      ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.24.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ bioconductor-genomes
 
     <script>
         var package = "bioconductor-genomes";
-        var versions = ["3.30.0","3.28.0","3.24.0","3.22.0","3.20.0"];
+        var versions = ["3.32.0","3.32.0","3.30.0","3.28.0","3.24.0"];
     </script>
 
 

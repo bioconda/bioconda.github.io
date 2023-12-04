@@ -29,10 +29,10 @@ bioconductor-icobra
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-icobra
       
 
    
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -101,7 +101,7 @@ bioconductor-icobra
 
     <script>
         var package = "bioconductor-icobra";
-        var versions = ["1.28.0","1.26.0","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.20.0"];
     </script>
 
 

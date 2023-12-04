@@ -27,7 +27,7 @@ bioconductor-flowgraph
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -97,7 +97,7 @@ bioconductor-flowgraph
 
     <script>
         var package = "bioconductor-flowgraph";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 
