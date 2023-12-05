@@ -27,19 +27,23 @@ bioconductor-chihaya
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-rhdf5lib: ``>=1.22.0,<1.23.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0a0``
+   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
+   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 
@@ -90,7 +94,7 @@ bioconductor-chihaya
 
     <script>
         var package = "bioconductor-chihaya";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

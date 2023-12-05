@@ -28,10 +28,10 @@ bioconductor-lowmacaannotation
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.3-11</code>,  <code>0.99.3-10</code>,  <code>0.99.3-9</code>,  <code>0.99.3-8</code>,  <code>0.99.3-7</code>,  <code>0.99.3-6</code>,  <code>0.99.3-5</code>,  <code>0.99.3-4</code>,  <code>0.99.3-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.3-12</code>,  <code>0.99.3-11</code>,  <code>0.99.3-10</code>,  <code>0.99.3-9</code>,  <code>0.99.3-8</code>,  <code>0.99.3-7</code>,  <code>0.99.3-6</code>,  <code>0.99.3-5</code>,  <code>0.99.3-4</code>,  </span></summary>
       
 
-      ``0.99.3-11``,  ``0.99.3-10``,  ``0.99.3-9``,  ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-1``,  ``0.99.3-0``
+      ``0.99.3-12``,  ``0.99.3-11``,  ``0.99.3-10``,  ``0.99.3-9``,  ``0.99.3-8``,  ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-1``,  ``0.99.3-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-lowmacaannotation
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

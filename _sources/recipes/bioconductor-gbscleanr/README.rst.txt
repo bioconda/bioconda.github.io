@@ -27,17 +27,19 @@ bioconductor-gbscleanr
       
       
 
-      ``1.4.4-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.4-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-gdsfmt: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-seqarray: ``>=1.40.0,<1.41.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-gdsfmt: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-gdsfmt: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-seqarray: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-seqarray: ``>=1.42.0,<1.43.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-expm: 
    :depends r-ggplot2: 
@@ -91,7 +93,7 @@ bioconductor-gbscleanr
 
     <script>
         var package = "bioconductor-gbscleanr";
-        var versions = ["1.4.4","1.2.0","1.2.0"];
+        var versions = ["1.6.0","1.4.4","1.2.0","1.2.0"];
     </script>
 
 

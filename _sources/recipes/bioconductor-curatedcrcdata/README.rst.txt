@@ -28,10 +28,10 @@ bioconductor-curatedcrcdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-0</code>,  <code>2.29.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.21.0-0</code>,  <code>2.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.29.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.21.0-0</code>,  </span></summary>
       
 
-      ``2.32.0-0``,  ``2.29.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.21.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+      ``2.34.0-0``,  ``2.32.0-0``,  ``2.29.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.21.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-curatedcrcdata
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-nlme: 
@@ -92,7 +92,7 @@ bioconductor-curatedcrcdata
 
     <script>
         var package = "bioconductor-curatedcrcdata";
-        var versions = ["2.32.0","2.29.0","2.26.0","2.26.0","2.24.0"];
+        var versions = ["2.34.0","2.32.0","2.29.0","2.26.0","2.26.0"];
     </script>
 
 

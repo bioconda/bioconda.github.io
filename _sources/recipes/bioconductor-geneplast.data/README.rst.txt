@@ -27,14 +27,23 @@ bioconductor-geneplast.data
       
       
 
-      ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
+      ``0.99.7-0``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-geneplast: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-treeio: ``>=1.26.0,<1.27.0``
    :depends curl: 
+   :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-dplyr: 
+   :depends r-igraph: 
+   :depends r-purrr: 
+   :depends r-readr: 
+   :depends r-tibble: 
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +91,7 @@ bioconductor-geneplast.data
 
     <script>
         var package = "bioconductor-geneplast.data";
-        var versions = ["0.99.6","0.99.6","0.99.6","0.99.4","0.99.2"];
+        var versions = ["0.99.7","0.99.6","0.99.6","0.99.6","0.99.4"];
     </script>
 
 

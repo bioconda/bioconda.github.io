@@ -28,10 +28,10 @@ bioconductor-msstatstmt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.5-0``,  ``1.1.2-0``,  ``1.0.0-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.5-0``,  ``1.1.2-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-msstatstmt
       
 
    
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-msstats: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-msstatsconvert: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
@@ -96,7 +96,7 @@ bioconductor-msstatstmt
 
     <script>
         var package = "bioconductor-msstatstmt";
-        var versions = ["2.8.0","2.6.0","2.2.0","2.0.0","1.8.2"];
+        var versions = ["2.10.0","2.8.0","2.6.0","2.2.0","2.0.0"];
     </script>
 
 

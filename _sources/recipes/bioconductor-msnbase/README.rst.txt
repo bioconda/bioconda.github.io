@@ -29,10 +29,10 @@ bioconductor-msnbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.20.4-1</code>,  <code>2.20.4-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.1-0</code>,  <code>2.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.28.1-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.20.4-1</code>,  <code>2.20.4-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.1-0</code>,  </span></summary>
       
 
-      ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.20.4-1``,  ``2.20.4-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.28.1-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.20.4-1``,  ``2.20.4-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -41,23 +41,36 @@ bioconductor-msnbase
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-mscoreutils: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-mzid: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-mzr: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-pcamethods: ``>=1.92.0,<1.93.0``
-   :depends bioconductor-protgenerics: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-vsn: ``>=3.68.0,<3.69.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-mscoreutils: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-mscoreutils: ``>=1.14.1,<1.15.0a0``
+   :depends bioconductor-mzid: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-mzid: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0``
+   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0a0``
+   :depends bioconductor-protgenerics: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-protgenerics: ``>=1.34.0,<1.35.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
+   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-digest: 
    :depends r-ggplot2: 
@@ -115,7 +128,7 @@ bioconductor-msnbase
 
     <script>
         var package = "bioconductor-msnbase";
-        var versions = ["2.26.0","2.24.0","2.24.0","2.20.4","2.20.4"];
+        var versions = ["2.28.1","2.26.0","2.24.0","2.24.0","2.20.4"];
     </script>
 
 

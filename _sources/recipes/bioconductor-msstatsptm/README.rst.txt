@@ -26,20 +26,32 @@ bioconductor-msstatsptm
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.4-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-2``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>2.4.1-0</code>,  <code>2.2.4-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.0-0</code>,  <code>1.2.2-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+      
 
+      ``2.4.1-0``,  ``2.2.4-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-2``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-msstats: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-msstatsconvert: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-msstatstmt: ``>=2.8.0,<2.9.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0a0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0a0``
+   :depends bioconductor-msstatstmt: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-msstatstmt: ``>=2.10.0,<2.11.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
@@ -97,7 +109,7 @@ bioconductor-msstatsptm
 
     <script>
         var package = "bioconductor-msstatsptm";
-        var versions = ["2.2.4","2.0.0","2.0.0","1.4.2","1.4.2"];
+        var versions = ["2.4.1","2.2.4","2.0.0","2.0.0","1.4.2"];
     </script>
 
 

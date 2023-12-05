@@ -27,12 +27,12 @@ bioconductor-scbubbletree
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-future: 
@@ -90,7 +90,7 @@ bioconductor-scbubbletree
 
     <script>
         var package = "bioconductor-scbubbletree";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

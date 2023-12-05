@@ -30,10 +30,10 @@ macrel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2-0``
+      ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -48,8 +48,8 @@ macrel
    :depends ngless: 
    :depends paladin: 
    :depends pandas: 
-   :depends pyrodigal: ``>=0.7.3,<3.0.0``
-   :depends python: ``<3.11``
+   :depends pyrodigal: ``>=0.7.3``
+   :depends python: 
    :depends scikit-learn: ``<1.3.0``
    :depends tzlocal: 
    :requirements:
@@ -99,7 +99,7 @@ macrel
 
     <script>
         var package = "macrel";
-        var versions = ["1.2.0","1.2.0","1.1.0","1.1.0","1.0.1"];
+        var versions = ["1.3.0","1.2.0","1.2.0","1.1.0","1.1.0"];
     </script>
 
 

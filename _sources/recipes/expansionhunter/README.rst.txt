@@ -28,10 +28,10 @@ expansionhunter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``5.0.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``
+      ``5.0.0-1``,  ``5.0.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ expansionhunter
 
    
    :depends abseil-cpp: ``>=20210324.2,<20210324.3.0a0``
-   :depends boost: ``>=1.82,<1.83.0a0``
+   :depends boost: ``>=1.83,<1.84.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fmt: ``>=9.1.0,<10.0a0``
    :depends gtest: ``>=1.14.0,<1.14.1.0a0``
    :depends htslib: ``>=1.18,<1.19.0a0``
-   :depends libcurl: ``>=8.3.0,<9.0a0``
+   :depends libcurl: ``>=8.4.0,<9.0a0``
    :depends libdeflate: ``>=1.18,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -100,7 +100,7 @@ expansionhunter
 
     <script>
         var package = "expansionhunter";
-        var versions = ["5.0.0","4.0.2","4.0.1","3.2.2","3.2.2"];
+        var versions = ["5.0.0","5.0.0","4.0.2","4.0.1","3.2.2"];
     </script>
 
 

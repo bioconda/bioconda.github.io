@@ -28,10 +28,10 @@ bioconductor-rebet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,8 @@ bioconductor-rebet
       
 
    
-   :depends bioconductor-asset: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-asset: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-asset: ``>=2.20.0,<2.21.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -92,7 +93,7 @@ bioconductor-rebet
 
     <script>
         var package = "bioconductor-rebet";
-        var versions = ["1.18.0","1.16.0","1.16.0","1.12.0","1.12.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.12.0"];
     </script>
 
 

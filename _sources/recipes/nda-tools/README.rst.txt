@@ -27,13 +27,12 @@ nda-tools
       
       
 
-      ``0.2.25-0``,  ``0.2.24-0``,  ``0.2.23-0``
+      ``0.2.26-0``,  ``0.2.25-0``,  ``0.2.24-0``,  ``0.2.23-0``
 
       
 
    
    :depends boto3: 
-   :depends botocore: 
    :depends keyring: 
    :depends mock: 
    :depends packaging: 
@@ -89,7 +88,7 @@ nda-tools
 
     <script>
         var package = "nda-tools";
-        var versions = ["0.2.25","0.2.24","0.2.23"];
+        var versions = ["0.2.26","0.2.25","0.2.24","0.2.23"];
     </script>
 
 

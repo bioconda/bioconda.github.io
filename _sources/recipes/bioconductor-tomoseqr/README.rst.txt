@@ -27,12 +27,12 @@ bioconductor-tomoseqr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
    :depends r-animation: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
@@ -90,7 +90,7 @@ bioconductor-tomoseqr
 
     <script>
         var package = "bioconductor-tomoseqr";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0"];
     </script>
 
 

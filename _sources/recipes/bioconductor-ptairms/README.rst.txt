@@ -27,18 +27,21 @@ bioconductor-ptairms
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-msnbase: ``>=2.28.1,<2.29.0a0``
+   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bit64: 
    :depends r-chron: 
@@ -106,7 +109,7 @@ bioconductor-ptairms
 
     <script>
         var package = "bioconductor-ptairms";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.2.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.2.0"];
     </script>
 
 

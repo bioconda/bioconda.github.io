@@ -27,12 +27,12 @@ bioconductor-ggtreedendro
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-tidytree: 
@@ -83,7 +83,7 @@ bioconductor-ggtreedendro
 
     <script>
         var package = "bioconductor-ggtreedendro";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

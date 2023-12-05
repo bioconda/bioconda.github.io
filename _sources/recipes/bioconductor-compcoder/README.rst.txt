@@ -28,10 +28,10 @@ bioconductor-compcoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.2-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.1-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.2-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.1-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.36.2-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``
+      ``1.38.0-0``,  ``1.36.2-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-compcoder
       
 
    
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-catools: 
@@ -56,7 +56,10 @@ bioconductor-compcoder
    :depends r-matrixstats: 
    :depends r-modeest: 
    :depends r-phylolm: 
+   :depends r-rmarkdown: 
    :depends r-rocr: 
+   :depends r-shiny: 
+   :depends r-shinydashboard: 
    :depends r-sm: 
    :depends r-stringr: 
    :depends r-vioplot: 
@@ -107,7 +110,7 @@ bioconductor-compcoder
 
     <script>
         var package = "bioconductor-compcoder";
-        var versions = ["1.36.2","1.34.0","1.30.0","1.28.0","1.26.1"];
+        var versions = ["1.38.0","1.36.2","1.34.0","1.30.0","1.28.0"];
     </script>
 
 

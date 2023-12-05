@@ -29,10 +29,10 @@ bioconductor-rols
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.2-0</code>,  <code>2.18.0-0</code>,  <code>2.16.1-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.2-0</code>,  <code>2.18.0-0</code>,  <code>2.16.1-0</code>,  <code>2.14.0-0</code>,  </span></summary>
       
 
-      ``2.28.0-0``,  ``2.26.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.2-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.2-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-rols
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 
@@ -94,7 +94,7 @@ bioconductor-rols
 
     <script>
         var package = "bioconductor-rols";
-        var versions = ["2.28.0","2.26.0","2.22.0","2.20.0","2.18.2"];
+        var versions = ["2.30.0","2.28.0","2.26.0","2.22.0","2.20.0"];
     </script>
 
 

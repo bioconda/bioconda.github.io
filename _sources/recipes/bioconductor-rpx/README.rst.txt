@@ -29,10 +29,10 @@ bioconductor-rpx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.1.12-0</code>,  <code>2.0.0-0</code>,  <code>1.26.2-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.1.12-0</code>,  <code>2.0.0-0</code>,  <code>1.26.2-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.1.12-0``,  ``2.0.0-0``,  ``1.26.2-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.1.12-0``,  ``2.0.0-0``,  ``1.26.2-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-rpx
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-curl: 
    :depends r-jsonlite: 
@@ -94,7 +94,7 @@ bioconductor-rpx
 
     <script>
         var package = "bioconductor-rpx";
-        var versions = ["2.8.0","2.6.0","2.1.12","2.0.0","1.26.2"];
+        var versions = ["2.10.0","2.8.0","2.6.0","2.1.12","2.0.0"];
     </script>
 
 

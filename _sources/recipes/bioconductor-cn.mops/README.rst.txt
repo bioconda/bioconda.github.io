@@ -29,10 +29,10 @@ bioconductor-cn.mops
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  </span></summary>
       
 
-      ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.2-0``
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.2-0``
 
       
       .. raw:: html
@@ -41,18 +41,26 @@ bioconductor-cn.mops
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-exomecopy: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-exomecopy: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-exomecopy: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.1,<2.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -101,7 +109,7 @@ bioconductor-cn.mops
 
     <script>
         var package = "bioconductor-cn.mops";
-        var versions = ["1.46.0","1.44.0","1.44.0","1.40.0","1.40.0"];
+        var versions = ["1.48.0","1.46.0","1.44.0","1.44.0","1.40.0"];
     </script>
 
 

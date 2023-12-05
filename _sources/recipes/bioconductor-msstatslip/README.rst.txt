@@ -27,19 +27,23 @@ bioconductor-msstatslip
       
       
 
-      ``1.6.0-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.6.0-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-msstats: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-msstatsconvert: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-msstatsptm: ``>=2.2.0,<2.3.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0a0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0a0``
+   :depends bioconductor-msstatsptm: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-msstatsptm: ``>=2.4.1,<2.5.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
@@ -102,7 +106,7 @@ bioconductor-msstatslip
 
     <script>
         var package = "bioconductor-msstatslip";
-        var versions = ["1.6.0","1.3.1","1.3.1","1.0.0","1.0.0"];
+        var versions = ["1.8.1","1.6.0","1.3.1","1.3.1","1.0.0"];
     </script>
 
 

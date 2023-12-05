@@ -28,10 +28,10 @@ bioconductor-dlbcl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.1-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.42.1-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ bioconductor-dlbcl
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -91,7 +92,7 @@ bioconductor-dlbcl
 
     <script>
         var package = "bioconductor-dlbcl";
-        var versions = ["1.40.0","1.38.0","1.34.0","1.34.0","1.32.0"];
+        var versions = ["1.42.1","1.40.0","1.38.0","1.34.0","1.34.0"];
     </script>
 
 

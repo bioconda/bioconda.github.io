@@ -27,17 +27,20 @@ bioconductor-synextend
       
       
 
-      ``1.12.0-0``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-decipher: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-decipher: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-decipher: ``>=2.30.0,<2.31.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -87,7 +90,7 @@ bioconductor-synextend
 
     <script>
         var package = "bioconductor-synextend";
-        var versions = ["1.12.0","1.10.2","1.10.2","1.6.0","1.4.1"];
+        var versions = ["1.14.0","1.12.0","1.10.2","1.10.2","1.6.0"];
     </script>
 
 

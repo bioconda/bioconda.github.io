@@ -27,7 +27,7 @@ ribotin
       
       
 
-      ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -36,7 +36,7 @@ ribotin
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends liftoff: 
+   :depends liftoff: ``1.6.3.*``
    :depends mbg: 
    :requirements:
 
@@ -85,7 +85,7 @@ ribotin
 
     <script>
         var package = "ribotin";
-        var versions = ["1.2","1.1","1.0"];
+        var versions = ["1.2","1.2","1.1","1.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-variancepartition
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.2-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.2-0</code>,  <code>1.30.2-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.30.2-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-1``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.4-0``,  ``1.8.1-0``
+      ``1.32.2-0``,  ``1.30.2-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-1``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.4-0``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -41,24 +41,24 @@ bioconductor-variancepartition
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
    :depends r-aod: 
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-doparallel: 
-   :depends r-foreach: 
+   :depends r-corpcor: 
+   :depends r-fancova: 
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-iterators: 
-   :depends r-lme4: ``>=1.1-10``
+   :depends r-lme4: ``>=1.1.33``
    :depends r-lmertest: 
    :depends r-mass: 
    :depends r-matrix: ``>=1.4.0``
+   :depends r-matrixstats: 
    :depends r-pbkrtest: ``>=0.4-4``
-   :depends r-progress: 
    :depends r-rdpack: 
-   :depends r-remacor: ``>=0.0.11``
+   :depends r-remacor: ``>=0.0.15``
    :depends r-reshape2: 
    :depends r-rhpcblasctl: 
    :depends r-rlang: 
@@ -110,7 +110,7 @@ bioconductor-variancepartition
 
     <script>
         var package = "bioconductor-variancepartition";
-        var versions = ["1.30.2","1.28.0","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.32.2","1.30.2","1.28.0","1.24.0","1.22.0"];
     </script>
 
 
