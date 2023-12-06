@@ -27,13 +27,13 @@ bioconductor-lace
       
       
 
-      ``2.4.0-0``,  ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bsplus: 
    :depends r-callr: 
@@ -117,7 +117,7 @@ bioconductor-lace
 
     <script>
         var package = "bioconductor-lace";
-        var versions = ["2.4.0","2.2.0","1.6.0","1.4.0","1.2.1"];
+        var versions = ["2.6.0","2.4.0","2.2.0","1.6.0","1.4.0"];
     </script>
 
 

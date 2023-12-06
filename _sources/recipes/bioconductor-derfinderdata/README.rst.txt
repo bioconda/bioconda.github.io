@@ -28,10 +28,10 @@ bioconductor-derfinderdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.15.0-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-0</code>,  <code>2.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.15.0-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-0</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.15.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.15.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-derfinderdata
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -90,7 +90,7 @@ bioconductor-derfinderdata
 
     <script>
         var package = "bioconductor-derfinderdata";
-        var versions = ["2.18.0","2.15.0","2.12.0","2.12.0","2.10.0"];
+        var versions = ["2.20.0","2.18.0","2.15.0","2.12.0","2.12.0"];
     </script>
 
 

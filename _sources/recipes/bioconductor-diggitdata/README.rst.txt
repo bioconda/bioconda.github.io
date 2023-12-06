@@ -28,10 +28,10 @@ bioconductor-diggitdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.21.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.21.0-0</code>,  </span></summary>
       
 
-      ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.21.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.21.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-diggitdata
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-viper: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-viper: ``>=1.36.0,<1.37.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -92,7 +92,7 @@ bioconductor-diggitdata
 
     <script>
         var package = "bioconductor-diggitdata";
-        var versions = ["1.32.0","1.30.0","1.26.0","1.26.0","1.24.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.26.0","1.26.0"];
     </script>
 
 

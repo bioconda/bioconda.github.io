@@ -28,10 +28,10 @@ bioconductor-ppinfer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-ppinfer
       
 
    
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-stringdb: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-yeastexpdata: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-stringdb: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-yeastexpdata: ``>=0.48.0,<0.49.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-httr: 
@@ -96,7 +96,7 @@ bioconductor-ppinfer
 
     <script>
         var package = "bioconductor-ppinfer";
-        var versions = ["1.26.0","1.24.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.20.0","1.18.0"];
     </script>
 
 

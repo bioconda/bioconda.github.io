@@ -27,19 +27,23 @@ bioconductor-syntenet
       
       
 
-      ``1.2.4-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.4-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggnetwork: 
    :depends r-ggplot2: 
@@ -98,7 +102,7 @@ bioconductor-syntenet
 
     <script>
         var package = "bioconductor-syntenet";
-        var versions = ["1.2.4","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.4","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-mbqn
       
       
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-paireddata: 
@@ -90,7 +90,7 @@ bioconductor-mbqn
 
     <script>
         var package = "bioconductor-mbqn";
-        var versions = ["2.12.0","2.10.0","2.5.0","2.4.0","2.2.0"];
+        var versions = ["2.14.0","2.12.0","2.10.0","2.5.0","2.4.0"];
     </script>
 
 

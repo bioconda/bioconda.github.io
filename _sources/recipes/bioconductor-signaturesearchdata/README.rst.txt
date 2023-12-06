@@ -26,18 +26,26 @@ bioconductor-signaturesearchdata
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.4-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.14-1``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.4-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.4-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.14-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
@@ -90,7 +98,7 @@ bioconductor-signaturesearchdata
 
     <script>
         var package = "bioconductor-signaturesearchdata";
-        var versions = ["1.14.0","1.12.0","1.8.4","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.4","1.8.0"];
     </script>
 
 

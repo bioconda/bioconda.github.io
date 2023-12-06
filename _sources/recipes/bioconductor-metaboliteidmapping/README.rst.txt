@@ -27,13 +27,13 @@ bioconductor-metaboliteidmapping
       
       
 
-      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.99.8-1``,  ``0.99.8-0``
+      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.99.8-1``,  ``0.99.8-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

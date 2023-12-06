@@ -29,10 +29,10 @@ bioconductor-panp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  </span></summary>
       
 
-      ``1.70.0-0``,  ``1.68.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+      ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-panp
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -91,7 +91,7 @@ bioconductor-panp
 
     <script>
         var package = "bioconductor-panp";
-        var versions = ["1.70.0","1.68.0","1.64.0","1.62.0","1.60.0"];
+        var versions = ["1.72.0","1.70.0","1.68.0","1.64.0","1.62.0"];
     </script>
 
 

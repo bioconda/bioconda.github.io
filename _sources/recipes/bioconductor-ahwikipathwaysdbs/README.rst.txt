@@ -27,13 +27,13 @@ bioconductor-ahwikipathwaysdbs
       
       
 
-      ``0.99.4-4``,  ``0.99.4-3``,  ``0.99.4-2``,  ``0.99.4-1``,  ``0.99.4-0``
+      ``0.99.4-5``,  ``0.99.4-4``,  ``0.99.4-3``,  ``0.99.4-2``,  ``0.99.4-1``,  ``0.99.4-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

@@ -28,10 +28,10 @@ snakemake-interface-common
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.4-0</code>,  <code>1.14.3-0</code>,  <code>1.14.2-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.5-0</code>,  <code>1.14.4-0</code>,  <code>1.14.3-0</code>,  <code>1.14.2-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.14.4-0``,  ``1.14.3-0``,  ``1.14.2-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``
+      ``1.14.5-0``,  ``1.14.4-0``,  ``1.14.3-0``,  ``1.14.2-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``
 
       
       .. raw:: html
@@ -88,7 +88,7 @@ snakemake-interface-common
 
     <script>
         var package = "snakemake-interface-common";
-        var versions = ["1.14.4","1.14.3","1.14.2","1.14.1","1.14.0"];
+        var versions = ["1.14.5","1.14.4","1.14.3","1.14.2","1.14.1"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-customcmpdb
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-chemminer: ``>=3.52.0,<3.53.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-chemminer: ``>=3.54.0,<3.55.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rappdirs: 
    :depends r-rsqlite: 
@@ -86,7 +86,7 @@ bioconductor-customcmpdb
 
     <script>
         var package = "bioconductor-customcmpdb";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

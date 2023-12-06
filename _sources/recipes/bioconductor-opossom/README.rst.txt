@@ -28,10 +28,10 @@ bioconductor-opossom
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.12.0-2</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.12.0-2</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.0-0``
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,12 @@ bioconductor-opossom
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0a0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -107,7 +110,7 @@ bioconductor-opossom
 
     <script>
         var package = "bioconductor-opossom";
-        var versions = ["2.18.0","2.16.0","2.16.0","2.12.0","2.12.0"];
+        var versions = ["2.20.0","2.18.0","2.16.0","2.16.0","2.12.0"];
     </script>
 
 

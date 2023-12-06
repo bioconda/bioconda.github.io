@@ -28,10 +28,10 @@ bioconductor-experimenthub
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-experimenthub
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biocmanager: 
    :depends r-rappdirs: 
@@ -94,7 +94,7 @@ bioconductor-experimenthub
 
     <script>
         var package = "bioconductor-experimenthub";
-        var versions = ["2.8.0","2.6.0","2.2.0","2.0.0","1.16.0"];
+        var versions = ["2.10.0","2.8.0","2.6.0","2.2.0","2.0.0"];
     </script>
 
 

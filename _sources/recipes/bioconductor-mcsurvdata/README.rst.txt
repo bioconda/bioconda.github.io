@@ -28,10 +28,10 @@ bioconductor-mcsurvdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-mcsurvdata
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -93,7 +93,7 @@ bioconductor-mcsurvdata
 
     <script>
         var package = "bioconductor-mcsurvdata";
-        var versions = ["1.18.0","1.16.0","1.12.0","1.12.0","1.10.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.12.0"];
     </script>
 
 

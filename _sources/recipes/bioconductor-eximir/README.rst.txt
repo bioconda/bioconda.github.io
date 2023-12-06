@@ -29,10 +29,10 @@ bioconductor-eximir
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  </span></summary>
       
 
-      ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``
+      ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-eximir
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-affyio: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-affyio: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -94,7 +94,7 @@ bioconductor-eximir
 
     <script>
         var package = "bioconductor-eximir";
-        var versions = ["2.42.0","2.40.0","2.36.0","2.34.0","2.32.0"];
+        var versions = ["2.44.0","2.42.0","2.40.0","2.36.0","2.34.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-ontoproc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-ontoproc
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -102,7 +102,7 @@ bioconductor-ontoproc
 
     <script>
         var package = "bioconductor-ontoproc";
-        var versions = ["1.22.0","1.20.0","1.16.0","1.14.0","1.12.0"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
     </script>
 
 

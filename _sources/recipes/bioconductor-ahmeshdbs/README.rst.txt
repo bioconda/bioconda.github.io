@@ -27,13 +27,13 @@ bioconductor-ahmeshdbs
       
       
 
-      ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.99.6-0``
+      ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.99.6-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-ahmeshdbs
 
     <script>
         var package = "bioconductor-ahmeshdbs";
-        var versions = ["1.6.0","1.5.0","1.2.0","1.2.0","0.99.6"];
+        var versions = ["1.7.0","1.6.0","1.5.0","1.2.0","1.2.0"];
     </script>
 
 

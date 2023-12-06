@@ -27,13 +27,13 @@ bioconductor-alabaster.string
       
       
 
-      ``1.0.1-0``
+      ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -82,7 +82,7 @@ bioconductor-alabaster.string
 
     <script>
         var package = "bioconductor-alabaster.string";
-        var versions = ["1.0.1"];
+        var versions = ["1.2.0","1.0.1"];
     </script>
 
 

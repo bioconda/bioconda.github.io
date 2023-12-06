@@ -32,14 +32,14 @@ bioconductor-mosbi
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-fabia: ``>=2.48.0,<2.49.0``
    :depends bioconductor-fabia: ``>=2.48.0,<2.49.0a0``
    :depends bioconductor-qubic: ``>=1.30.0,<1.31.0``
    :depends bioconductor-qubic: ``>=1.30.0,<1.31.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-akmbiclust: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 

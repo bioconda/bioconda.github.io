@@ -27,12 +27,12 @@ bioconductor-gse159526
       
       
 
-      ``1.6.0-0``,  ``1.3.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -82,7 +82,7 @@ bioconductor-gse159526
 
     <script>
         var package = "bioconductor-gse159526";
-        var versions = ["1.6.0","1.3.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.3.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ gfftk
       
       
 
-      ``23.9.6-0``
+      ``23.12.5-0``,  ``23.9.6-0``
 
       
 
@@ -83,7 +83,7 @@ gfftk
 
     <script>
         var package = "gfftk";
-        var versions = ["23.9.6"];
+        var versions = ["23.12.5","23.9.6"];
     </script>
 
 

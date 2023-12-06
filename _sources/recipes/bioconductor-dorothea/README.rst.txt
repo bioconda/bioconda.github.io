@@ -27,14 +27,14 @@ bioconductor-dorothea
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bcellviper: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-decoupler: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-bcellviper: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-decoupler: ``>=2.8.0,<2.9.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
@@ -86,7 +86,7 @@ bioconductor-dorothea
 
     <script>
         var package = "bioconductor-dorothea";
-        var versions = ["1.12.0","1.10.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.6.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-easierdata
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -85,7 +85,7 @@ bioconductor-easierdata
 
     <script>
         var package = "bioconductor-easierdata";
-        var versions = ["1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
     </script>
 
 

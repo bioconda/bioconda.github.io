@@ -28,10 +28,10 @@ bioconductor-rtcga.mutations
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20151101.30.0-0</code>,  <code>20151101.27.0-0</code>,  <code>20151101.24.0-1</code>,  <code>20151101.24.0-0</code>,  <code>20151101.22.0-0</code>,  <code>20151101.20.0-1</code>,  <code>20151101.20.0-0</code>,  <code>20151101.18.0-0</code>,  <code>20151101.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20151101.32.0-0</code>,  <code>20151101.30.0-0</code>,  <code>20151101.27.0-0</code>,  <code>20151101.24.0-1</code>,  <code>20151101.24.0-0</code>,  <code>20151101.22.0-0</code>,  <code>20151101.20.0-1</code>,  <code>20151101.20.0-0</code>,  <code>20151101.18.0-0</code>,  </span></summary>
       
 
-      ``20151101.30.0-0``,  ``20151101.27.0-0``,  ``20151101.24.0-1``,  ``20151101.24.0-0``,  ``20151101.22.0-0``,  ``20151101.20.0-1``,  ``20151101.20.0-0``,  ``20151101.18.0-0``,  ``20151101.16.0-0``,  ``20151101.14.0-1``,  ``20151101.14.0-0``,  ``20151101.12.0-0``
+      ``20151101.32.0-0``,  ``20151101.30.0-0``,  ``20151101.27.0-0``,  ``20151101.24.0-1``,  ``20151101.24.0-0``,  ``20151101.22.0-0``,  ``20151101.20.0-1``,  ``20151101.20.0-0``,  ``20151101.18.0-0``,  ``20151101.16.0-0``,  ``20151101.14.0-1``,  ``20151101.14.0-0``,  ``20151101.12.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-rtcga.mutations
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-rtcga: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-rtcga: ``>=1.32.0,<1.33.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -91,7 +91,7 @@ bioconductor-rtcga.mutations
 
     <script>
         var package = "bioconductor-rtcga.mutations";
-        var versions = ["20151101.30.0","20151101.27.0","20151101.24.0","20151101.24.0","20151101.22.0"];
+        var versions = ["20151101.32.0","20151101.30.0","20151101.27.0","20151101.24.0","20151101.24.0"];
     </script>
 
 

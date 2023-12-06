@@ -40,7 +40,6 @@ bioconductor-bluster
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-biocneighbors: ``>=1.20.0,<1.21.0``
    :depends bioconductor-biocneighbors: ``>=1.20.0,<1.21.0a0``
    :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
@@ -48,8 +47,9 @@ bioconductor-bluster
    :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-igraph: 

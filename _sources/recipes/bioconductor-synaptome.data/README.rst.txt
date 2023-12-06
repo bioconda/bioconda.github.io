@@ -27,13 +27,13 @@ bioconductor-synaptome.data
       
       
 
-      ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.3-1``,  ``0.99.3-0``
+      ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.3-1``,  ``0.99.3-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-synaptome.data
 
     <script>
         var package = "bioconductor-synaptome.data";
-        var versions = ["0.99.6","0.99.6","0.99.3","0.99.3"];
+        var versions = ["0.99.6","0.99.6","0.99.6","0.99.3","0.99.3"];
     </script>
 
 

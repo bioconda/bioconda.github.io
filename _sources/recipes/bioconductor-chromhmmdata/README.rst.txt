@@ -27,12 +27,12 @@ bioconductor-chromhmmdata
       
       
 
-      ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
+      ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -82,7 +82,7 @@ bioconductor-chromhmmdata
 
     <script>
         var package = "bioconductor-chromhmmdata";
-        var versions = ["0.99.2","0.99.2","0.99.2","0.99.2"];
+        var versions = ["0.99.2","0.99.2","0.99.2","0.99.2","0.99.2"];
     </script>
 
 

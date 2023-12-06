@@ -28,10 +28,10 @@ bioconductor-amplican
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
       
 
-      ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+      ``1.24.0-0``,  ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -40,18 +40,26 @@ bioconductor-amplican
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-shortread: ``>=1.58.0,<1.59.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-shortread: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-shortread: ``>=1.60.0,<1.61.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: ``>=2.1.4``
    :depends r-data.table: ``>=1.10.4-3``
@@ -114,7 +122,7 @@ bioconductor-amplican
 
     <script>
         var package = "bioconductor-amplican";
-        var versions = ["1.22.1","1.20.0","1.20.0","1.16.0","1.16.0"];
+        var versions = ["1.24.0","1.22.1","1.20.0","1.20.0","1.16.0"];
     </script>
 
 
