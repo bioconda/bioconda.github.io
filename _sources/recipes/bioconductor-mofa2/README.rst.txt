@@ -27,15 +27,19 @@ bioconductor-mofa2
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-basilisk: ``>=1.14.1,<1.15.0a0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0a0``
+   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-corrplot: 
    :depends r-cowplot: 
@@ -99,7 +103,7 @@ bioconductor-mofa2
 
     <script>
         var package = "bioconductor-mofa2";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.1"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

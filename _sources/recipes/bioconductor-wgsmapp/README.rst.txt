@@ -27,13 +27,13 @@ bioconductor-wgsmapp
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-wgsmapp
 
     <script>
         var package = "bioconductor-wgsmapp";
-        var versions = ["1.12.0","1.10.0","1.6.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.6.0"];
     </script>
 
 

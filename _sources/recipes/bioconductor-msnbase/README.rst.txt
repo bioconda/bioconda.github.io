@@ -41,7 +41,6 @@ bioconductor-msnbase
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
    :depends bioconductor-affy: ``>=1.80.0,<1.81.0a0``
    :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
@@ -69,8 +68,9 @@ bioconductor-msnbase
    :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
    :depends bioconductor-vsn: ``>=3.70.0,<3.71.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-digest: 
    :depends r-ggplot2: 

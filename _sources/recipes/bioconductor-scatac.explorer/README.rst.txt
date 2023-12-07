@@ -27,15 +27,15 @@ bioconductor-scatac.explorer
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
@@ -87,7 +87,7 @@ bioconductor-scatac.explorer
 
     <script>
         var package = "bioconductor-scatac.explorer";
-        var versions = ["1.6.0","1.4.0","1.0.1","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.1","1.0.0"];
     </script>
 
 

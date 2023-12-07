@@ -29,10 +29,10 @@ bioconductor-bsgenome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.68.0-0</code>,  <code>1.66.3-0</code>,  <code>1.66.1-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.1-0</code>,  <code>1.68.0-0</code>,  <code>1.66.3-0</code>,  <code>1.66.1-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  </span></summary>
       
 
-      ``1.68.0-0``,  ``1.66.3-0``,  ``1.66.1-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-0``,  ``1.42.0-0``,  ``1.40.1-0``,  ``1.38.0-0``
+      ``1.70.1-0``,  ``1.68.0-0``,  ``1.66.3-0``,  ``1.66.1-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-0``,  ``1.42.0-0``,  ``1.40.1-0``,  ``1.38.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,16 @@ bioconductor-bsgenome
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-xvector: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocio: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrixstats: 
    :requirements:
@@ -99,7 +100,7 @@ bioconductor-bsgenome
 
     <script>
         var package = "bioconductor-bsgenome";
-        var versions = ["1.68.0","1.66.3","1.66.1","1.62.0","1.60.0"];
+        var versions = ["1.70.1","1.68.0","1.66.3","1.66.1","1.62.0"];
     </script>
 
 

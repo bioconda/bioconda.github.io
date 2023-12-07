@@ -29,10 +29,10 @@ bioconductor-genomicfeatures
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.52.1-0</code>,  <code>1.50.2-0</code>,  <code>1.46.1-0</code>,  <code>1.44.0-0</code>,  <code>1.42.2-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.1-0</code>,  <code>1.52.1-0</code>,  <code>1.50.2-0</code>,  <code>1.46.1-0</code>,  <code>1.44.0-0</code>,  <code>1.42.2-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
       
 
-      ``1.52.1-0``,  ``1.50.2-0``,  ``1.46.1-0``,  ``1.44.0-0``,  ``1.42.2-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.4-0``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.3-0``,  ``1.30.3-0``,  ``1.30.0-0``,  ``1.28.5-0``,  ``1.26.4-0``,  ``1.26.0-2``,  ``1.24.5-2``,  ``1.24.5-1``,  ``1.24.5-0``,  ``1.22.13-0``,  ``1.22.6-0``,  ``1.22.4-0``,  ``1.22.0-0``
+      ``1.54.1-0``,  ``1.52.1-0``,  ``1.50.2-0``,  ``1.46.1-0``,  ``1.44.0-0``,  ``1.42.2-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.4-0``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.3-0``,  ``1.30.3-0``,  ``1.30.0-0``,  ``1.28.5-0``,  ``1.26.4-0``,  ``1.26.0-2``,  ``1.24.5-2``,  ``1.24.5-1``,  ``1.24.5-0``,  ``1.22.13-0``,  ``1.22.6-0``,  ``1.22.4-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,18 +41,18 @@ bioconductor-genomicfeatures
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocio: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-xvector: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocio: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbi: 
    :depends r-rcurl: 
@@ -104,7 +104,7 @@ bioconductor-genomicfeatures
 
     <script>
         var package = "bioconductor-genomicfeatures";
-        var versions = ["1.52.1","1.50.2","1.46.1","1.44.0","1.42.2"];
+        var versions = ["1.54.1","1.52.1","1.50.2","1.46.1","1.44.0"];
     </script>
 
 

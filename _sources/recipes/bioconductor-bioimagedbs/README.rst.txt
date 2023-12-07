@@ -27,15 +27,15 @@ bioconductor-bioimagedbs
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
    :depends curl: 
    :depends r-animation: 
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -92,7 +92,7 @@ bioconductor-bioimagedbs
 
     <script>
         var package = "bioconductor-bioimagedbs";
-        var versions = ["1.8.0","1.6.0","1.2.2","1.2.0","1.0.2"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.2","1.2.0"];
     </script>
 
 

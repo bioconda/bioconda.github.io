@@ -26,13 +26,22 @@ bioconductor-densvis
    :versions:
       
       
+      .. raw:: html
 
-      ``1.10.2-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.6-0``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.2-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.00.6-0</code>,  </span></summary>
+      
 
+      ``1.12.0-0``,  ``1.10.2-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.6-0``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-basilisk: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-basilisk: ``>=1.14.1,<1.15.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -42,6 +51,7 @@ bioconductor-densvis
    :depends r-irlba: 
    :depends r-rcpp: 
    :depends r-reticulate: 
+   :depends r-rtsne: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +99,7 @@ bioconductor-densvis
 
     <script>
         var package = "bioconductor-densvis";
-        var versions = ["1.10.2","1.8.0","1.8.0","1.4.0","1.4.0"];
+        var versions = ["1.12.0","1.10.2","1.8.0","1.8.0","1.4.0"];
     </script>
 
 

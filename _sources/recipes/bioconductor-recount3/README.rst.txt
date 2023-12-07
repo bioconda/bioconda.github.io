@@ -27,16 +27,16 @@ bioconductor-recount3
       
       
 
-      ``1.10.2-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.7-0``,  ``1.0.0-1``
+      ``1.12.0-0``,  ``1.10.2-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.7-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-httr: 
@@ -90,7 +90,7 @@ bioconductor-recount3
 
     <script>
         var package = "bioconductor-recount3";
-        var versions = ["1.10.2","1.8.0","1.4.0","1.2.1","1.0.7"];
+        var versions = ["1.12.0","1.10.2","1.8.0","1.4.0","1.2.1"];
     </script>
 
 

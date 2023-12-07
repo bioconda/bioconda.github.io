@@ -29,10 +29,10 @@ bioconductor-rain
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-rain
       
 
    
-   :depends bioconductor-multtest: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gmp: 
    :requirements:
@@ -91,7 +91,7 @@ bioconductor-rain
 
     <script>
         var package = "bioconductor-rain";
-        var versions = ["1.34.0","1.32.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.36.0","1.34.0","1.32.0","1.28.0","1.26.0"];
     </script>
 
 

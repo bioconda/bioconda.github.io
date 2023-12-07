@@ -28,10 +28,10 @@ bioconductor-enrichedheatmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.27.2-1</code>,  <code>1.27.2-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.27.2-1</code>,  <code>1.27.2-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.27.2-1``,  ``1.27.2-0``,  ``1.24.0-2``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.27.2-1``,  ``1.27.2-0``,  ``1.24.0-2``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,12 @@ bioconductor-enrichedheatmap
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -100,7 +103,7 @@ bioconductor-enrichedheatmap
 
     <script>
         var package = "bioconductor-enrichedheatmap";
-        var versions = ["1.30.0","1.27.2","1.27.2","1.24.0","1.24.0"];
+        var versions = ["1.32.0","1.30.0","1.27.2","1.27.2","1.24.0"];
     </script>
 
 

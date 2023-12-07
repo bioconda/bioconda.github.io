@@ -27,25 +27,32 @@ bioconductor-statial
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.5-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-concaveman: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-magrittr: 
+   :depends r-plotly: 
+   :depends r-purrr: 
+   :depends r-ranger: 
    :depends r-spatstat.explore: 
    :depends r-spatstat.geom: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-tidyselect: 
-   :depends r-tidyverse: 
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +100,7 @@ bioconductor-statial
 
     <script>
         var package = "bioconductor-statial";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.5","1.2.0","1.0.0"];
     </script>
 
 

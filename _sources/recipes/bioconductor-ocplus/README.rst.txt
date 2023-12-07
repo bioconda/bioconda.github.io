@@ -28,10 +28,10 @@ bioconductor-ocplus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.76.0-0</code>,  <code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  </span></summary>
       
 
-      ``1.74.0-0``,  ``1.72.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``
+      ``1.76.0-0``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-ocplus
       
 
    
-   :depends bioconductor-multtest: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-interp: 
    :requirements:
@@ -90,7 +90,7 @@ bioconductor-ocplus
 
     <script>
         var package = "bioconductor-ocplus";
-        var versions = ["1.74.0","1.72.0","1.68.0","1.66.0","1.64.0"];
+        var versions = ["1.76.0","1.74.0","1.72.0","1.68.0","1.66.0"];
     </script>
 
 

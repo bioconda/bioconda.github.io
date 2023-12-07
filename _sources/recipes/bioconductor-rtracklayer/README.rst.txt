@@ -48,7 +48,7 @@ bioconductor-rtracklayer
    :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
    :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.1,<2.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
    :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
    :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0a0``
    :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
@@ -64,6 +64,7 @@ bioconductor-rtracklayer
    :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
    :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rcurl: ``>=1.4-2``

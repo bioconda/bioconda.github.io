@@ -28,10 +28,10 @@ bioconductor-mcseadata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.17.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.1-1</code>,  <code>1.10.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.17.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.1-1</code>,  </span></summary>
       
 
-      ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-1``,  ``1.10.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-1``,  ``1.10.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-mcseadata
       
 
    
-   :depends bioconductor-data-packages: ``>=20230717``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -91,7 +91,7 @@ bioconductor-mcseadata
 
     <script>
         var package = "bioconductor-mcseadata";
-        var versions = ["1.20.1","1.20.0","1.18.0","1.17.0","1.14.0"];
+        var versions = ["1.22.0","1.20.1","1.20.0","1.18.0","1.17.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ hicmatrix
    Library to manage Hi\-C matrices for HiCExplorer and pyGenomeTracks
 
    :homepage: https://github.com/deeptools/HiCMatrix
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hicmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicmatrix/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ hicmatrix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>17-0</code>,  <code>16-0</code>,  <code>15-0</code>,  <code>14-0</code>,  <code>13-0</code>,  <code>12-0</code>,  <code>11-0</code>,  <code>10-1</code>,  <code>10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>17.1-0</code>,  <code>17-0</code>,  <code>16-0</code>,  <code>15-0</code>,  <code>14-0</code>,  <code>13-0</code>,  <code>12-0</code>,  <code>11-0</code>,  <code>10-1</code>,  </span></summary>
       
 
-      ``17-0``,  ``16-0``,  ``15-0``,  ``14-0``,  ``13-0``,  ``12-0``,  ``11-0``,  ``10-1``,  ``10-0``,  ``9-0``,  ``8-0``,  ``7-0``,  ``6-1``,  ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2.2-1``,  ``2.2-0``
+      ``17.1-0``,  ``17-0``,  ``16-0``,  ``15-0``,  ``14-0``,  ``13-0``,  ``12-0``,  ``11-0``,  ``10-1``,  ``10-0``,  ``9-0``,  ``8-0``,  ``7-0``,  ``6-1``,  ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2.2-1``,  ``2.2-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ hicmatrix
 
     <script>
         var package = "hicmatrix";
-        var versions = ["17","16","15","14","13"];
+        var versions = ["17.1","17","16","15","14"];
     </script>
 
 

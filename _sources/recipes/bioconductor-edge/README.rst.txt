@@ -28,10 +28,10 @@ bioconductor-edge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.26.0-2</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.26.0-2</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  </span></summary>
       
 
-      ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+      ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,15 @@ bioconductor-edge
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-snm: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0a0``
+   :depends bioconductor-snm: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-snm: ``>=1.50.0,<1.51.0a0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-mass: 
@@ -96,7 +99,7 @@ bioconductor-edge
 
     <script>
         var package = "bioconductor-edge";
-        var versions = ["2.32.0","2.30.0","2.30.0","2.26.0","2.26.0"];
+        var versions = ["2.34.0","2.32.0","2.30.0","2.30.0","2.26.0"];
     </script>
 
 

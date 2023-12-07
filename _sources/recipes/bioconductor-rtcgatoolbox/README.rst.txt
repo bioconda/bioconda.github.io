@@ -29,10 +29,10 @@ bioconductor-rtcgatoolbox
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.32.1-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  </span></summary>
       
 
-      ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.1-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``
+      ``2.32.1-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.1-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -41,18 +41,17 @@ bioconductor-rtcgatoolbox
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-raggedexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-tcgautils: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-raggedexperiment: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-tcgautils: ``>=1.22.0,<1.23.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-httr: 
-   :depends r-rcircos: 
    :depends r-rcurl: 
    :depends r-rjsonio: 
    :depends r-rvest: 
@@ -104,7 +103,7 @@ bioconductor-rtcgatoolbox
 
     <script>
         var package = "bioconductor-rtcgatoolbox";
-        var versions = ["2.30.0","2.28.0","2.24.0","2.22.0","2.20.0"];
+        var versions = ["2.32.1","2.30.0","2.28.0","2.24.0","2.22.0"];
     </script>
 
 

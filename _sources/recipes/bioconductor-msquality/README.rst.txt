@@ -27,19 +27,21 @@ bioconductor-msquality
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-msexperiment: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-protgenerics: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-spectra: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-msdata: ``>=0.42.0,<0.43.0``
+   :depends bioconductor-msexperiment: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-protgenerics: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-spectra: ``>=1.12.0,<1.13.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-htmlwidgets: ``>=1.5.3``
    :depends r-plotly: ``>=4.9.4.1``
+   :depends r-rmzqc: ``>=0.5.0``
    :depends r-shiny: ``>=1.6.0``
    :depends r-shinydashboard: ``>=0.7.1``
    :depends r-stringr: ``>=1.4.0``
@@ -92,7 +94,7 @@ bioconductor-msquality
 
     <script>
         var package = "bioconductor-msquality";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

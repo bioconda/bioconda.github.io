@@ -27,7 +27,7 @@ fairease-source
       
       
 
-      ``1.4.1-0``
+      ``1.4.4-0``,  ``1.4.1-0``
 
       
 
@@ -36,7 +36,7 @@ fairease-source
    :depends numpy: 
    :depends pandas: 
    :depends pykml: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seawater: 
@@ -88,7 +88,7 @@ fairease-source
 
     <script>
         var package = "fairease-source";
-        var versions = ["1.4.1"];
+        var versions = ["1.4.4","1.4.1"];
     </script>
 
 

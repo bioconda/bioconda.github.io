@@ -29,10 +29,10 @@ bioconductor-flowdensity
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.1-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``
+      ``1.36.1-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -41,16 +41,13 @@ bioconductor-flowdensity
       
 
    
-   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-flowviz: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-flowworkspace: ``>=4.12.0,<4.13.0``
+   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-flowviz: ``>=1.66.0,<1.67.0``
    :depends libxml2: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-car: 
    :depends r-gplots: 
-   :depends r-rfoc: 
-   :depends r-rgeos: 
-   :depends r-sp: 
+   :depends r-polyclip: 
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +95,7 @@ bioconductor-flowdensity
 
     <script>
         var package = "bioconductor-flowdensity";
-        var versions = ["1.34.0","1.32.0","1.32.0","1.28.0","1.26.0"];
+        var versions = ["1.36.1","1.34.0","1.32.0","1.32.0","1.28.0"];
     </script>
 
 

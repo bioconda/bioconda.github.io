@@ -28,10 +28,10 @@ bioconductor-tilingarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.78.0-0</code>,  <code>1.76.0-1</code>,  <code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-1</code>,  <code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  </span></summary>
       
 
-      ``1.78.0-0``,  ``1.76.0-1``,  ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
+      ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,15 @@ bioconductor-tilingarray
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-vsn: ``>=3.68.0,<3.69.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
+   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-pixmap: 
@@ -98,7 +101,7 @@ bioconductor-tilingarray
 
     <script>
         var package = "bioconductor-tilingarray";
-        var versions = ["1.78.0","1.76.0","1.76.0","1.72.0","1.72.0"];
+        var versions = ["1.80.0","1.78.0","1.76.0","1.76.0","1.72.0"];
     </script>
 
 
