@@ -28,10 +28,10 @@ bioconductor-ddpcrclust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-ddpcrclust
       
 
    
-   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-flowdensity: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-flowpeaks: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-samspectral: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-flowdensity: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-flowpeaks: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-samspectral: ``>=1.56.0,<1.57.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-clue: 
    :depends r-ggplot2: 
@@ -97,7 +97,7 @@ bioconductor-ddpcrclust
 
     <script>
         var package = "bioconductor-ddpcrclust";
-        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.14.0","1.12.0"];
     </script>
 
 

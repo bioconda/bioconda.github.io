@@ -27,7 +27,7 @@ el_gato
       
       
 
-      ``1.14.4-0``
+      ``1.15.0-0``,  ``1.14.4-0``
 
       
 
@@ -86,7 +86,7 @@ el_gato
 
     <script>
         var package = "el_gato";
-        var versions = ["1.14.4"];
+        var versions = ["1.15.0","1.14.4"];
     </script>
 
 

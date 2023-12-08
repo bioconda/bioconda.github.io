@@ -30,10 +30,10 @@ lorikeet-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+      ``0.8.2-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -44,31 +44,24 @@ lorikeet-genome
    
    :depends bcftools: 
    :depends bwa: ``>=0.7.17``
-   :depends bwa-mem2: ``>=2.2.1``
-   :depends dashing: 
-   :depends fastani: 
-   :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.16,<1.19.0a0``
+   :depends bwa-mem2: 
+   :depends cmake: ``>=3.21``
+   :depends coreutils: 
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends matplotlib-base: 
-   :depends minimap2: 
-   :depends ngmlr: 
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends minimap2: ``>=2.24``
    :depends numpy: 
-   :depends openssl: ``>=1.1.1q,<1.1.2a``
-   :depends parallel: 
-   :depends polars: 
+   :depends openssl: ``>=3.2.0,<4.0a0``
+   :depends pip: 
+   :depends polars: ``>=0.18``
    :depends prodigal: 
-   :depends python: ``>=3.9``
+   :depends python: ``3.10``
    :depends samtools: ``>=1.9``
-   :depends scikit-allel: 
-   :depends scipy: 
-   :depends starcode: 
+   :depends scikit-allel: ``>=1.3.6``
+   :depends scipy: ``>=1.11``
    :depends svim: 
-   :depends vt: 
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -116,7 +109,7 @@ lorikeet-genome
 
     <script>
         var package = "lorikeet-genome";
-        var versions = ["0.7.3","0.7.3","0.7.2","0.7.2","0.7.1"];
+        var versions = ["0.8.2","0.7.3","0.7.3","0.7.2","0.7.2"];
     </script>
 
 

@@ -32,12 +32,12 @@ bioconductor-delayedrandomarray
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
    :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 
    :depends r-dqrng: 

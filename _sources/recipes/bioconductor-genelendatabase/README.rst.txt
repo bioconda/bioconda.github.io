@@ -28,10 +28,10 @@ bioconductor-genelendatabase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-genelendatabase
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -92,7 +92,7 @@ bioconductor-genelendatabase
 
     <script>
         var package = "bioconductor-genelendatabase";
-        var versions = ["1.36.0","1.34.0","1.30.0","1.30.0","1.28.0"];
+        var versions = ["1.38.0","1.36.0","1.34.0","1.30.0","1.30.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-cellbaser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-cellbaser
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -98,7 +98,7 @@ bioconductor-cellbaser
 
     <script>
         var package = "bioconductor-cellbaser";
-        var versions = ["1.24.0","1.22.0","1.18.0","1.16.0","1.14.0"];
+        var versions = ["1.26.0","1.24.0","1.22.0","1.18.0","1.16.0"];
     </script>
 
 

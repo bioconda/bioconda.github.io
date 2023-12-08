@@ -29,10 +29,10 @@ bioconductor-ipac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.0-0``
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-ipac
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-multtest: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gdata: 
    :depends r-scatterplot3d: 
@@ -93,7 +93,7 @@ bioconductor-ipac
 
     <script>
         var package = "bioconductor-ipac";
-        var versions = ["1.44.0","1.42.0","1.38.0","1.36.0","1.34.0"];
+        var versions = ["1.46.0","1.44.0","1.42.0","1.38.0","1.36.0"];
     </script>
 
 

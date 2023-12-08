@@ -26,15 +26,23 @@ bioconductor-cbaf
    :versions:
       
       
+      .. raw:: html
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-cbioportaldata: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-cbioportaldata: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gplots: 
    :depends r-openxlsx: 
@@ -86,7 +94,7 @@ bioconductor-cbaf
 
     <script>
         var package = "bioconductor-cbaf";
-        var versions = ["1.22.0","1.20.0","1.16.0","1.14.0","1.12.1"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
     </script>
 
 

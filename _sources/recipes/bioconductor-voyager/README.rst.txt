@@ -27,24 +27,24 @@ bioconductor-voyager
       
       
 
-      ``1.2.3-0``,  ``1.0.3-0``
+      ``1.4.0-0``,  ``1.2.3-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-bluster: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-sparsematrixstats: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-spatialexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-spatialfeatureexperiment: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-bluster: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-spatialfeatureexperiment: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggnewscale: 
    :depends r-ggplot2: ``>=3.4.0``
    :depends r-lifecycle: 
    :depends r-matrix: 
+   :depends r-matrixstats: 
    :depends r-patchwork: 
    :depends r-rlang: 
    :depends r-rspectra: 
@@ -100,7 +100,7 @@ bioconductor-voyager
 
     <script>
         var package = "bioconductor-voyager";
-        var versions = ["1.2.3","1.0.3"];
+        var versions = ["1.4.0","1.2.3","1.0.3"];
     </script>
 
 

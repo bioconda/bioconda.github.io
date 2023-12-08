@@ -27,7 +27,7 @@ haplotaglr
       
       
 
-      ``1.1.4-0``
+      ``1.1.5-0``,  ``1.1.4-0``
 
       
 
@@ -86,7 +86,7 @@ haplotaglr
 
     <script>
         var package = "haplotaglr";
-        var versions = ["1.1.4"];
+        var versions = ["1.1.5","1.1.4"];
     </script>
 
 

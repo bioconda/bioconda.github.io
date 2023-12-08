@@ -27,20 +27,20 @@ bioconductor-mafh5.gnomad.v3.1.2.grch38
       
       
 
-      ``3.15.0-1``,  ``3.15.0-0``
+      ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicscores: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicscores: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -90,7 +90,7 @@ bioconductor-mafh5.gnomad.v3.1.2.grch38
 
     <script>
         var package = "bioconductor-mafh5.gnomad.v3.1.2.grch38";
-        var versions = ["3.15.0","3.15.0"];
+        var versions = ["3.15.0","3.15.0","3.15.0"];
     </script>
 
 

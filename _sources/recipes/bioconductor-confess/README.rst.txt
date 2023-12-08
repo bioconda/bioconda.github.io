@@ -28,10 +28,10 @@ bioconductor-confess
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-confess
       
 
    
-   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
-   :depends bioconductor-flowclust: ``>=3.38.0,<3.39.0``
-   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-flowmeans: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-flowmerge: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-flowpeaks: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-samspectral: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
+   :depends bioconductor-flowclust: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-flowmeans: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-flowmerge: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-flowpeaks: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-samspectral: ``>=1.56.0,<1.57.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-changepoint: 
    :depends r-cluster: 
@@ -114,7 +114,7 @@ bioconductor-confess
 
     <script>
         var package = "bioconductor-confess";
-        var versions = ["1.28.0","1.26.0","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.20.0"];
     </script>
 
 

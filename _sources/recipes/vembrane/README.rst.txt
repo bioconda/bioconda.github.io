@@ -13,7 +13,7 @@ vembrane
    Filter VCF\/BCF files with Python expressions.
 
    :homepage: https://github.com/vembrane/vembrane
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`vembrane <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vembrane>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vembrane/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ vembrane
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  </span></summary>
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ vembrane
    :depends intervaltree: ``>=3.0,<4.0``
    :depends numpy: ``>=1.23,<2.0``
    :depends pysam: ``>=0.20,<0.21``
-   :depends python: ``>=3.8,<4``
+   :depends python: ``>=3.8``
    :depends pyyaml: ``>=6.0,<7``
    :requirements:
 
@@ -93,7 +93,7 @@ vembrane
 
     <script>
         var package = "vembrane";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0","0.14.0"];
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-weberdivechalcdata
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-spatialexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -85,7 +85,7 @@ bioconductor-weberdivechalcdata
 
     <script>
         var package = "bioconductor-weberdivechalcdata";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

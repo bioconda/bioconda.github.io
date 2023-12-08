@@ -28,10 +28,10 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-16</code>,  <code>3.4.0-15</code>,  <code>3.4.0-14</code>,  <code>3.4.0-13</code>,  <code>3.4.0-12</code>,  <code>3.4.0-11</code>,  <code>3.4.0-10</code>,  <code>3.4.0-9</code>,  <code>3.4.0-8</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-17</code>,  <code>3.4.0-16</code>,  <code>3.4.0-15</code>,  <code>3.4.0-14</code>,  <code>3.4.0-13</code>,  <code>3.4.0-12</code>,  <code>3.4.0-11</code>,  <code>3.4.0-10</code>,  <code>3.4.0-9</code>,  </span></summary>
       
 
-      ``3.4.0-16``,  ``3.4.0-15``,  ``3.4.0-14``,  ``3.4.0-13``,  ``3.4.0-12``,  ``3.4.0-11``,  ``3.4.0-10``,  ``3.4.0-9``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.2-0``
+      ``3.4.0-17``,  ``3.4.0-16``,  ``3.4.0-15``,  ``3.4.0-14``,  ``3.4.0-13``,  ``3.4.0-12``,  ``3.4.0-11``,  ``3.4.0-10``,  ``3.4.0-9``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.2-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

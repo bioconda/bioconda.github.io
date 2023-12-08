@@ -27,13 +27,13 @@ bioconductor-seqarchr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cli: 
    :depends r-cluster: 
@@ -94,7 +94,7 @@ bioconductor-seqarchr
 
     <script>
         var package = "bioconductor-seqarchr";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0"];
     </script>
 
 

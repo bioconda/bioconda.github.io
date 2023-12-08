@@ -15,7 +15,7 @@ pegs
    :homepage: https://github.com/fls-bioinformatics-core/pegs
    :documentation: https://pegs.readthedocs.io/en/latest/
    
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`pegs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegs/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ pegs
       
       
 
-      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
+      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
 
       
 
@@ -89,7 +89,7 @@ pegs
 
     <script>
         var package = "pegs";
-        var versions = ["0.6.5","0.6.4","0.6.3","0.6.2","0.6.1"];
+        var versions = ["0.6.6","0.6.5","0.6.4","0.6.3","0.6.2"];
     </script>
 
 

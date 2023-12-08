@@ -27,16 +27,16 @@ bioconductor-msbackendmsp
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-mscoreutils: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-spectra: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-mscoreutils: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-spectra: ``>=1.12.0,<1.13.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -85,7 +85,7 @@ bioconductor-msbackendmsp
 
     <script>
         var package = "bioconductor-msbackendmsp";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0"];
     </script>
 
 

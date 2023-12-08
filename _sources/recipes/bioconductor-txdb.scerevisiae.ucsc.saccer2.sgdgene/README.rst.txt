@@ -28,10 +28,10 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.2-18</code>,  <code>3.2.2-17</code>,  <code>3.2.2-16</code>,  <code>3.2.2-15</code>,  <code>3.2.2-14</code>,  <code>3.2.2-13</code>,  <code>3.2.2-12</code>,  <code>3.2.2-11</code>,  <code>3.2.2-10</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.2-19</code>,  <code>3.2.2-18</code>,  <code>3.2.2-17</code>,  <code>3.2.2-16</code>,  <code>3.2.2-15</code>,  <code>3.2.2-14</code>,  <code>3.2.2-13</code>,  <code>3.2.2-12</code>,  <code>3.2.2-11</code>,  </span></summary>
       
 
-      ``3.2.2-18``,  ``3.2.2-17``,  ``3.2.2-16``,  ``3.2.2-15``,  ``3.2.2-14``,  ``3.2.2-13``,  ``3.2.2-12``,  ``3.2.2-11``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-3``,  ``3.2.2-2``
+      ``3.2.2-19``,  ``3.2.2-18``,  ``3.2.2-17``,  ``3.2.2-16``,  ``3.2.2-15``,  ``3.2.2-14``,  ``3.2.2-13``,  ``3.2.2-12``,  ``3.2.2-11``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-3``,  ``3.2.2-2``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

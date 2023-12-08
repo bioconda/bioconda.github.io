@@ -26,13 +26,21 @@ bioconductor-selex
    :versions:
       
       
+      .. raw:: html
 
-      ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  </span></summary>
+      
 
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends openjdk: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rjava: ``>=0.5-0``
@@ -83,7 +91,7 @@ bioconductor-selex
 
     <script>
         var package = "bioconductor-selex";
-        var versions = ["1.32.0","1.30.0","1.26.0","1.24.0","1.22.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.26.0","1.24.0"];
     </script>
 
 

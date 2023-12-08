@@ -27,21 +27,21 @@ bioconductor-alabaster
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.bumpy: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.mae: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.matrix: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.ranges: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.sce: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.se: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.spatial: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.string: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-alabaster.vcf: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.bumpy: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.mae: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.matrix: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.ranges: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.sce: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.se: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.spatial: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.string: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-alabaster.vcf: ``>=1.2.0,<1.3.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -90,7 +90,7 @@ bioconductor-alabaster
 
     <script>
         var package = "bioconductor-alabaster";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

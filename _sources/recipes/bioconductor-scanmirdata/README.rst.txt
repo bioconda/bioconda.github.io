@@ -27,13 +27,13 @@ bioconductor-scanmirdata
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-scanmir: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-scanmir: ``>=1.8.0,<1.9.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-scanmirdata
 
     <script>
         var package = "bioconductor-scanmirdata";
-        var versions = ["1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
     </script>
 
 

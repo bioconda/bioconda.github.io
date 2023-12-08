@@ -27,17 +27,18 @@ bioconductor-rfarm
       
       
 
-      ``1.11.2-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.11.2-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-httr: 
+   :depends r-jsonlite: 
    :depends r-magick: 
    :depends r-rsvg: 
    :depends r-rvest: 
@@ -90,7 +91,7 @@ bioconductor-rfarm
 
     <script>
         var package = "bioconductor-rfarm";
-        var versions = ["1.11.2","1.10.0","1.6.0","1.4.0","1.2.1"];
+        var versions = ["1.14.0","1.11.2","1.10.0","1.6.0","1.4.0"];
     </script>
 
 

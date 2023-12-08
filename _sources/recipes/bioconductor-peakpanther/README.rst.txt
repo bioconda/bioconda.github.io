@@ -27,13 +27,13 @@ bioconductor-peakpanther
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-mzr: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bslib: 
    :depends r-doparallel: ``>=1.0.11``
@@ -96,7 +96,7 @@ bioconductor-peakpanther
 
     <script>
         var package = "bioconductor-peakpanther";
-        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
     </script>
 
 

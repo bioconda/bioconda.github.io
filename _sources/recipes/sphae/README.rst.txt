@@ -30,7 +30,7 @@ sphae
       
       
 
-      ``1.3.1-0``,  ``1.3.1b-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.1b-0``
 
       
 
@@ -39,7 +39,6 @@ sphae
    :depends biopython: ``>=1.8.1``
    :depends click: ``>=8.1.3``
    :depends jinja2: ``>=3.0.2``
-   :depends mamba: ``<1.4.2``
    :depends metasnek: ``>=0.0.4``
    :depends pandas: 
    :depends python: ``<=3.11``
@@ -93,7 +92,7 @@ sphae
 
     <script>
         var package = "sphae";
-        var versions = ["1.3.1","1.3.1b"];
+        var versions = ["1.3.2","1.3.1","1.3.1b"];
     </script>
 
 

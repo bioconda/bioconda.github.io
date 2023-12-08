@@ -28,10 +28,10 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.17.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.13.0-0</code>,  <code>3.10.0-3</code>,  <code>3.10.0-2</code>,  <code>3.10.0-1</code>,  <code>3.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.18.0-0</code>,  <code>3.17.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.13.0-0</code>,  <code>3.10.0-3</code>,  <code>3.10.0-2</code>,  <code>3.10.0-1</code>,  </span></summary>
       
 
-      ``3.17.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0-0``,  ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.6-1``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
+      ``3.18.0-0``,  ``3.17.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.13.0-0``,  ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.6-1``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -92,7 +92,7 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 
     <script>
         var package = "bioconductor-txdb.hsapiens.ucsc.hg38.knowngene";
-        var versions = ["3.17.0","3.16.0","3.14.0","3.14.0","3.13.0"];
+        var versions = ["3.18.0","3.17.0","3.16.0","3.14.0","3.14.0"];
     </script>
 
 

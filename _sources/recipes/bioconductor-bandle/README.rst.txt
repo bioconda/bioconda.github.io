@@ -27,22 +27,29 @@ bioconductor-bandle
       
       
 
-      ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-proloc: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-prolocdata: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0a0``
+   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-msnbase: ``>=2.28.1,<2.29.0a0``
+   :depends bioconductor-proloc: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-proloc: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-prolocdata: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-prolocdata: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 
    :depends r-circlize: 
@@ -105,7 +112,7 @@ bioconductor-bandle
 
     <script>
         var package = "bioconductor-bandle";
-        var versions = ["1.4.1","1.2.0","1.2.0"];
+        var versions = ["1.6.0","1.4.1","1.2.0","1.2.0"];
     </script>
 
 

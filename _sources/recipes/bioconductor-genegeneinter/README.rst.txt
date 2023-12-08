@@ -40,7 +40,6 @@ bioconductor-genegeneinter
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
    :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
    :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
@@ -50,8 +49,9 @@ bioconductor-genegeneinter
    :depends bioconductor-snpstats: ``>=1.52.0,<1.53.0``
    :depends bioconductor-snpstats: ``>=1.52.0,<1.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-factominer: 
