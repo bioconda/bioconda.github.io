@@ -30,7 +30,7 @@ yacht
       
       
 
-      ``1.0-0``
+      ``1.1.0-0``,  ``1.0-0``
 
       
 
@@ -97,7 +97,7 @@ yacht
 
     <script>
         var package = "yacht";
-        var versions = ["1.0"];
+        var versions = ["1.1.0","1.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-ahmassbank
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhubdata: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationhubdata: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -81,7 +81,7 @@ bioconductor-ahmassbank
 
     <script>
         var package = "bioconductor-ahmassbank";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

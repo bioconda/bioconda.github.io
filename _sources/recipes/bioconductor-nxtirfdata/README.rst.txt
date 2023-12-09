@@ -27,15 +27,15 @@ bioconductor-nxtirfdata
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-r.utils: 
@@ -86,7 +86,7 @@ bioconductor-nxtirfdata
 
     <script>
         var package = "bioconductor-nxtirfdata";
-        var versions = ["1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
     </script>
 
 

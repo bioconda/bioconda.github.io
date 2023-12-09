@@ -27,17 +27,17 @@ bioconductor-zygositypredictor
       
       
 
-      ``1.0.3-0``
+      ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-genomicalignments: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-variantannotation: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
@@ -91,7 +91,7 @@ bioconductor-zygositypredictor
 
     <script>
         var package = "bioconductor-zygositypredictor";
-        var versions = ["1.0.3"];
+        var versions = ["1.2.0","1.0.3"];
     </script>
 
 

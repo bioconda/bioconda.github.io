@@ -29,10 +29,10 @@ bioconductor-affyilm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
       
 
-      ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
+      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-affyilm
       
 
    
-   :depends bioconductor-affxparser: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-gcrma: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-affxparser: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-gcrma: ``>=2.74.0,<2.75.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -93,7 +93,7 @@ bioconductor-affyilm
 
     <script>
         var package = "bioconductor-affyilm";
-        var versions = ["1.52.0","1.50.0","1.46.0","1.44.0","1.42.0"];
+        var versions = ["1.54.0","1.52.0","1.50.0","1.46.0","1.44.0"];
     </script>
 
 

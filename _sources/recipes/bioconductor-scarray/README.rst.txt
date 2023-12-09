@@ -27,23 +27,31 @@ bioconductor-scarray
       
       
 
-      ``1.8.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biocsingular: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-gdsfmt: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-gdsfmt: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-gdsfmt: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :requirements:
@@ -93,7 +101,7 @@ bioconductor-scarray
 
     <script>
         var package = "bioconductor-scarray";
-        var versions = ["1.8.2","1.6.0","1.6.0","1.2.1","1.2.1"];
+        var versions = ["1.10.0","1.8.2","1.6.0","1.6.0","1.2.1"];
     </script>
 
 

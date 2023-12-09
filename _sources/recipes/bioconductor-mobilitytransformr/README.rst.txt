@@ -27,15 +27,15 @@ bioconductor-mobilitytransformr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-metabocoreutils: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-spectra: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-xcms: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-metabocoreutils: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-spectra: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-xcms: ``>=4.0.0,<4.1.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -84,7 +84,7 @@ bioconductor-mobilitytransformr
 
     <script>
         var package = "bioconductor-mobilitytransformr";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0"];
     </script>
 
 

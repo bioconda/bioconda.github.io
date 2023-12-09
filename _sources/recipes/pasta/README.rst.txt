@@ -13,7 +13,7 @@ pasta
    An implementation of the PASTA \(Practical Alignment using Sate and TrAnsitivity\) algorithm
 
    :homepage: https://github.com/smirarab/pasta
-   :license: GNU General Public License v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta/meta.yaml>`_
 
    
@@ -27,18 +27,24 @@ pasta
       
       
 
-      ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
+      ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
 
       
 
    
-   :depends dendropy: ``>=4.1.0``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends clustalw: 
+   :depends dendropy: ``<=4.5.1``
+   :depends fasttree: 
+   :depends hmmer: ``3.1b2``
+   :depends mafft: ``>=7.520,<8.0a0``
+   :depends muscle: ``<4``
    :depends openjdk: 
-   :depends pcre: ``>=8.44,<9.0a0``
+   :depends pcre: ``>=8.45,<9.0a0``
+   :depends prank: 
    :depends pymongo: ``>=3.3.0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends raxml: ``>=8.2.13,<9.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +92,7 @@ pasta
 
     <script>
         var package = "pasta";
-        var versions = ["1.7.8","1.7.8","1.7.8","1.7.8","0.2"];
+        var versions = ["1.9.0","1.7.8","1.7.8","1.7.8","1.7.8"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-transcriptogramer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-transcriptogramer
       
 
    
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-reder: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-topgo: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-reder: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
    :depends openjdk: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
@@ -101,7 +101,7 @@ bioconductor-transcriptogramer
 
     <script>
         var package = "bioconductor-transcriptogramer";
-        var versions = ["1.22.0","1.20.0","1.16.0","1.14.0","1.12.0"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
     </script>
 
 

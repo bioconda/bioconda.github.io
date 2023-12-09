@@ -27,14 +27,14 @@ bioconductor-multibac
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-pcamethods: ``>=1.92.0,<1.93.0``
-   :depends bioconductor-ropls: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0``
+   :depends bioconductor-ropls: ``>=1.34.0,<1.35.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-matrix: 
@@ -86,7 +86,7 @@ bioconductor-multibac
 
     <script>
         var package = "bioconductor-multibac";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

@@ -26,17 +26,25 @@ bioconductor-lipidr
    :versions:
       
       
+      .. raw:: html
 
-      ``2.14.1-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+      
 
+      ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-ropls: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-ropls: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -93,7 +101,7 @@ bioconductor-lipidr
 
     <script>
         var package = "bioconductor-lipidr";
-        var versions = ["2.14.1","2.12.0","2.8.0","2.6.0","2.4.0"];
+        var versions = ["2.16.0","2.14.1","2.12.0","2.8.0","2.6.0"];
     </script>
 
 

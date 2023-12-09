@@ -28,10 +28,10 @@ bioconductor-adsplit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  </span></summary>
       
 
-      ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+      ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,20 @@ bioconductor-adsplit
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-keggrest: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-multtest: ``>=2.56.0,<2.57.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: ``>=1.9.1``
    :requirements:
@@ -98,7 +103,7 @@ bioconductor-adsplit
 
     <script>
         var package = "bioconductor-adsplit";
-        var versions = ["1.70.0","1.68.0","1.68.0","1.64.0","1.64.0"];
+        var versions = ["1.72.0","1.70.0","1.68.0","1.68.0","1.64.0"];
     </script>
 
 

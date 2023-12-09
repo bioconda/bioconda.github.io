@@ -28,10 +28,10 @@ bioconductor-a4
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-a4
       
 
    
-   :depends bioconductor-a4base: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-a4classif: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-a4core: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-a4preproc: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-a4reporting: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-a4base: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-a4classif: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-a4core: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-a4preproc: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-a4reporting: ``>=1.50.0,<1.51.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -93,7 +93,7 @@ bioconductor-a4
 
     <script>
         var package = "bioconductor-a4";
-        var versions = ["1.48.0","1.46.0","1.42.0","1.40.0","1.38.0"];
+        var versions = ["1.50.0","1.48.0","1.46.0","1.42.0","1.40.0"];
     </script>
 
 

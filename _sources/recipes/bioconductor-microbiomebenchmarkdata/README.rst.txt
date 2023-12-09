@@ -27,16 +27,16 @@ bioconductor-microbiomebenchmarkdata
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.10.0,<2.11.0``
    :depends curl: 
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -87,7 +87,7 @@ bioconductor-microbiomebenchmarkdata
 
     <script>
         var package = "bioconductor-microbiomebenchmarkdata";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

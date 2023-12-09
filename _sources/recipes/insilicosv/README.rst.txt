@@ -27,7 +27,7 @@ insilicosv
       
       
 
-      ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
@@ -90,7 +90,7 @@ insilicosv
 
     <script>
         var package = "insilicosv";
-        var versions = ["0.0.5","0.0.4"];
+        var versions = ["0.0.6","0.0.5","0.0.4"];
     </script>
 
 

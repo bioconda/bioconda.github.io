@@ -26,14 +26,22 @@ bioconductor-reqon
    :versions:
       
       
+      .. raw:: html
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  </span></summary>
+      
 
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-seqbias: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-seqbias: ``>=1.50.0,<1.51.0``
    :depends openjdk: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rjava: 
@@ -84,7 +92,7 @@ bioconductor-reqon
 
     <script>
         var package = "bioconductor-reqon";
-        var versions = ["1.46.0","1.44.0","1.40.0","1.38.0","1.36.0"];
+        var versions = ["1.48.0","1.46.0","1.44.0","1.40.0","1.38.0"];
     </script>
 
 

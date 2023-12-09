@@ -29,10 +29,10 @@ bioconductor-camera
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.50.0-2</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.50.0-2</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  </span></summary>
       
 
-      ``1.56.0-0``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-1``,  ``1.22.0-0``
+      ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,14 @@ bioconductor-camera
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-rbgl: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-xcms: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0a0``
+   :depends bioconductor-xcms: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-xcms: ``>=4.0.0,<4.1.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -98,7 +102,7 @@ bioconductor-camera
 
     <script>
         var package = "bioconductor-camera";
-        var versions = ["1.56.0","1.54.0","1.54.0","1.50.0","1.50.0"];
+        var versions = ["1.58.0","1.56.0","1.54.0","1.54.0","1.50.0"];
     </script>
 
 

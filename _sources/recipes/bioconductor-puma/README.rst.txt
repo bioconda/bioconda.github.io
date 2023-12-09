@@ -29,10 +29,10 @@ bioconductor-puma
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.42.0-0</code>,  <code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.36.0-2</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.44.0-0</code>,  <code>3.42.0-0</code>,  <code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.36.0-2</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  </span></summary>
       
 
-      ``3.42.0-0``,  ``3.40.0-1``,  ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``,  ``3.22.0-0``,  ``3.20.0-0``
+      ``3.44.0-0``,  ``3.42.0-0``,  ``3.40.0-1``,  ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``,  ``3.22.0-0``,  ``3.20.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,17 @@ bioconductor-puma
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-affyio: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-oligo: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-oligoclasses: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-affyio: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-affyio: ``>=1.72.0,<1.73.0a0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-oligo: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-oligo: ``>=1.66.0,<1.67.0a0``
+   :depends bioconductor-oligoclasses: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-oligoclasses: ``>=1.64.0,<1.65.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-mclust: 
@@ -98,7 +102,7 @@ bioconductor-puma
 
     <script>
         var package = "bioconductor-puma";
-        var versions = ["3.42.0","3.40.0","3.40.0","3.36.0","3.36.0"];
+        var versions = ["3.44.0","3.42.0","3.40.0","3.40.0","3.36.0"];
     </script>
 
 

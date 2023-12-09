@@ -28,10 +28,10 @@ bioconductor-pcatools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,20 @@ bioconductor-pcatools
       
 
    
-   :depends bioconductor-beachmat: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biocsingular: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.22.0,<1.23.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-beachmat: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-beachmat: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 
    :depends r-cowplot: 
@@ -106,7 +111,7 @@ bioconductor-pcatools
 
     <script>
         var package = "bioconductor-pcatools";
-        var versions = ["2.12.0","2.10.0","2.10.0","2.6.0","2.6.0"];
+        var versions = ["2.14.0","2.12.0","2.10.0","2.10.0","2.6.0"];
     </script>
 
 

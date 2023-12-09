@@ -27,16 +27,16 @@ bioconductor-msstatsshiny
       
       
 
-      ``1.2.3-0``,  ``1.0.0-0``
+      ``1.4.1-0``,  ``1.2.3-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-marray: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-msstats: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-msstatsconvert: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-msstatsptm: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-msstatstmt: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-marray: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-msstatsptm: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-msstatstmt: ``>=2.10.0,<2.11.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -100,7 +100,7 @@ bioconductor-msstatsshiny
 
     <script>
         var package = "bioconductor-msstatsshiny";
-        var versions = ["1.2.3","1.0.0"];
+        var versions = ["1.4.1","1.2.3","1.0.0"];
     </script>
 
 

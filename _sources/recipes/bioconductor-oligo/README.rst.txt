@@ -29,10 +29,10 @@ bioconductor-oligo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.1-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.58.0-2</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.1-0</code>,  <code>1.54.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.66.0-0</code>,  <code>1.64.1-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.58.0-2</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.1-0</code>,  </span></summary>
       
 
-      ``1.64.1-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.58.0-2``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.1-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.40.1-0``
+      ``1.66.0-0``,  ``1.64.1-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.58.0-2``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.1-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.40.1-0``
 
       
       .. raw:: html
@@ -41,14 +41,22 @@ bioconductor-oligo
       
 
    
-   :depends bioconductor-affxparser: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-affyio: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-oligoclasses: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-affxparser: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-affxparser: ``>=1.74.0,<1.75.0a0``
+   :depends bioconductor-affyio: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-affyio: ``>=1.72.0,<1.73.0a0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-oligoclasses: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-oligoclasses: ``>=1.64.0,<1.65.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -103,7 +111,7 @@ bioconductor-oligo
 
     <script>
         var package = "bioconductor-oligo";
-        var versions = ["1.64.1","1.62.0","1.62.0","1.58.0","1.58.0"];
+        var versions = ["1.66.0","1.64.1","1.62.0","1.62.0","1.58.0"];
     </script>
 
 

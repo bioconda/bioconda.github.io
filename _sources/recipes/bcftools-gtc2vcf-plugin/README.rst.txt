@@ -27,18 +27,18 @@ bcftools-gtc2vcf-plugin
       
       
 
-      ``1.16-0``,  ``1.9-0``
+      ``1.18-0``,  ``1.16-0``,  ``1.9-0``
 
       
 
    
-   :depends bcftools: 
+   :depends bcftools: ``>=1.18,<1.19.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.16,<1.19.0a0``
+   :depends htslib: ``>=1.18,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ bcftools-gtc2vcf-plugin
 
     <script>
         var package = "bcftools-gtc2vcf-plugin";
-        var versions = ["1.16","1.9"];
+        var versions = ["1.18","1.16","1.9"];
     </script>
 
 

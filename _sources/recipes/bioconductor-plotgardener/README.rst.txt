@@ -27,17 +27,23 @@ bioconductor-plotgardener
       
       
 
-      ``1.6.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.6.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-plyranges: ``>=1.20.0,<1.21.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-curl: 
    :depends r-data.table: 
@@ -96,7 +102,7 @@ bioconductor-plotgardener
 
     <script>
         var package = "bioconductor-plotgardener";
-        var versions = ["1.6.2","1.4.1","1.4.1","1.0.17","1.0.14"];
+        var versions = ["1.8.1","1.6.2","1.4.1","1.4.1","1.0.17"];
     </script>
 
 

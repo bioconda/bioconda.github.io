@@ -29,10 +29,10 @@ bioconductor-msnid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.12.1-0``
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.12.1-0``
 
       
       .. raw:: html
@@ -41,17 +41,28 @@ bioconductor-msnid
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-msmstests: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-mzid: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-mzr: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-protgenerics: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0a0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0a0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-msmstests: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-msmstests: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-msnbase: ``>=2.28.1,<2.29.0a0``
+   :depends bioconductor-mzid: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-mzid: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-protgenerics: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-protgenerics: ``>=1.34.0,<1.35.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -119,7 +130,7 @@ bioconductor-msnid
 
     <script>
         var package = "bioconductor-msnid";
-        var versions = ["1.34.0","1.32.0","1.32.0","1.28.0","1.28.0"];
+        var versions = ["1.36.0","1.34.0","1.32.0","1.32.0","1.28.0"];
     </script>
 
 

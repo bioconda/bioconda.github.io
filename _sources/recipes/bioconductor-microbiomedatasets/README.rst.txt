@@ -27,18 +27,18 @@ bioconductor-microbiomedatasets
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.10.0,<2.11.0``
    :depends curl: 
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -89,7 +89,7 @@ bioconductor-microbiomedatasets
 
     <script>
         var package = "bioconductor-microbiomedatasets";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.2.0"];
     </script>
 
 

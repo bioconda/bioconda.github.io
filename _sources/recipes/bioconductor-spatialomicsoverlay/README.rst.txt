@@ -27,17 +27,17 @@ bioconductor-spatialomicsoverlay
       
       
 
-      ``1.0.0-0``
+      ``1.2.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
-   :depends bioconductor-geomxtools: ``>=3.4.0,<3.5.0``
-   :depends bioconductor-rbioformats: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
+   :depends bioconductor-geomxtools: ``>=3.5.0,<3.6.0``
+   :depends bioconductor-rbioformats: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-base64enc: 
    :depends r-data.table: 
@@ -98,7 +98,7 @@ bioconductor-spatialomicsoverlay
 
     <script>
         var package = "bioconductor-spatialomicsoverlay";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.1","1.0.0"];
     </script>
 
 

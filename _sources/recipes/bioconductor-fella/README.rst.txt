@@ -28,10 +28,10 @@ bioconductor-fella
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-fella
       
 
    
-   :depends bioconductor-keggrest: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
@@ -92,7 +92,7 @@ bioconductor-fella
 
     <script>
         var package = "bioconductor-fella";
-        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.14.0","1.12.0"];
     </script>
 
 
