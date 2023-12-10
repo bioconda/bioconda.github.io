@@ -13,7 +13,7 @@ fgbio-minimal
    A set of tools for working with genomic and high throughput sequencing data\, including UMIs
 
    :homepage: https://github.com/fulcrumgenomics/fgbio
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`fgbio-minimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgbio-minimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgbio-minimal/meta.yaml>`_
 
    A set of tools for working with genomic and high throughput sequencing data\, including UMIs. The \'fgbio\-minimal\' package offers an installation of fgbio without the \'r\-base\' dependency.
@@ -27,7 +27,7 @@ fgbio-minimal
       
       
 
-      ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-0``
+      ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-0``
 
       
 
@@ -81,7 +81,7 @@ fgbio-minimal
 
     <script>
         var package = "fgbio-minimal";
-        var versions = ["2.1.0","2.0.2","2.0.1","2.0.0","1.5.1"];
+        var versions = ["2.2.0","2.1.0","2.0.2","2.0.1","2.0.0"];
     </script>
 
 

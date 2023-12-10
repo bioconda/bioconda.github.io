@@ -27,13 +27,13 @@ bioconductor-visse
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-msigdb: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-msigdb: ``>=1.10.0,<1.11.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggforce: 
    :depends r-ggplot2: 
@@ -96,7 +96,7 @@ bioconductor-visse
 
     <script>
         var package = "bioconductor-visse";
-        var versions = ["1.8.0","1.6.0","1.2.2","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.2","1.0.0"];
     </script>
 
 

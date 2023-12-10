@@ -27,20 +27,20 @@ bioconductor-genomicdistributionsdata
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationfilter: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-ensembldb: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotationfilter: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
@@ -91,7 +91,7 @@ bioconductor-genomicdistributionsdata
 
     <script>
         var package = "bioconductor-genomicdistributionsdata";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.2.0"];
     </script>
 
 

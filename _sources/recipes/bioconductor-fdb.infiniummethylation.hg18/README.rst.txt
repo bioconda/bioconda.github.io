@@ -28,10 +28,10 @@ bioconductor-fdb.infiniummethylation.hg18
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-11</code>,  <code>2.2.0-10</code>,  <code>2.2.0-9</code>,  <code>2.2.0-8</code>,  <code>2.2.0-7</code>,  <code>2.2.0-6</code>,  <code>2.2.0-5</code>,  <code>2.2.0-4</code>,  <code>2.2.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-12</code>,  <code>2.2.0-11</code>,  <code>2.2.0-10</code>,  <code>2.2.0-9</code>,  <code>2.2.0-8</code>,  <code>2.2.0-7</code>,  <code>2.2.0-6</code>,  <code>2.2.0-5</code>,  <code>2.2.0-4</code>,  </span></summary>
       
 
-      ``2.2.0-11``,  ``2.2.0-10``,  ``2.2.0-9``,  ``2.2.0-8``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-0``
+      ``2.2.0-12``,  ``2.2.0-11``,  ``2.2.0-10``,  ``2.2.0-9``,  ``2.2.0-8``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-fdb.infiniummethylation.hg18
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``

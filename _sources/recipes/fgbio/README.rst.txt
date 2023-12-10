@@ -13,7 +13,7 @@ fgbio
    A set of tools for working with genomic and high throughput sequencing data\, including UMIs
 
    :homepage: https://github.com/fulcrumgenomics/fgbio
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`fgbio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgbio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgbio/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ fgbio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.0a-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.2.1b-0``,  ``0.2.1a-0``,  ``0.2.0-0``,  ``0.1.5a-0``,  ``0.1.3a-0``,  ``0.1.2a-0``
+      ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.0a-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.2.1b-0``,  ``0.2.1a-0``,  ``0.2.0-0``,  ``0.1.5a-0``,  ``0.1.3a-0``,  ``0.1.2a-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ fgbio
 
     <script>
         var package = "fgbio";
-        var versions = ["2.1.0","2.0.2","2.0.1","2.0.0","1.5.1"];
+        var versions = ["2.2.0","2.1.0","2.0.2","2.0.1","2.0.0"];
     </script>
 
 

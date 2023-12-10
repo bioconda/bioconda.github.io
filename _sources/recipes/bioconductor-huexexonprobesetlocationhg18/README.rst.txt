@@ -28,10 +28,10 @@ bioconductor-huexexonprobesetlocationhg18
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.2-11</code>,  <code>0.0.2-10</code>,  <code>0.0.2-9</code>,  <code>0.0.2-8</code>,  <code>0.0.2-7</code>,  <code>0.0.2-6</code>,  <code>0.0.2-5</code>,  <code>0.0.2-4</code>,  <code>0.0.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.2-12</code>,  <code>0.0.2-11</code>,  <code>0.0.2-10</code>,  <code>0.0.2-9</code>,  <code>0.0.2-8</code>,  <code>0.0.2-7</code>,  <code>0.0.2-6</code>,  <code>0.0.2-5</code>,  <code>0.0.2-4</code>,  </span></summary>
       
 
-      ``0.0.2-11``,  ``0.0.2-10``,  ``0.0.2-9``,  ``0.0.2-8``,  ``0.0.2-7``,  ``0.0.2-6``,  ``0.0.2-5``,  ``0.0.2-4``,  ``0.0.2-3``,  ``0.0.2-2``,  ``0.0.2-0``
+      ``0.0.2-12``,  ``0.0.2-11``,  ``0.0.2-10``,  ``0.0.2-9``,  ``0.0.2-8``,  ``0.0.2-7``,  ``0.0.2-6``,  ``0.0.2-5``,  ``0.0.2-4``,  ``0.0.2-3``,  ``0.0.2-2``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-huexexonprobesetlocationhg18
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
