@@ -28,10 +28,10 @@ bioconductor-pharmacogx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.4-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.4-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.4-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+      ``3.6.0-0``,  ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.4-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,20 @@ bioconductor-pharmacogx
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-coregx: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-coregx: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-coregx: ``>=2.6.0,<2.7.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -111,7 +118,7 @@ bioconductor-pharmacogx
 
     <script>
         var package = "bioconductor-pharmacogx";
-        var versions = ["3.4.0","3.2.0","3.2.0","2.6.0","2.4.0"];
+        var versions = ["3.6.0","3.4.0","3.2.0","3.2.0","2.6.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-qdnaseq.hg19
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.12.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-qdnaseq.hg19
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-qdnaseq: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-qdnaseq: ``>=1.38.0,<1.39.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -91,7 +91,7 @@ bioconductor-qdnaseq.hg19
 
     <script>
         var package = "bioconductor-qdnaseq.hg19";
-        var versions = ["1.30.0","1.28.0","1.24.0","1.24.0","1.22.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.24.0","1.24.0"];
     </script>
 
 

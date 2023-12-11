@@ -13,7 +13,7 @@ b2b-utils
    Genomics tools from BASE2BIO
 
    :homepage: https://github.com/jvolkening/b2b-utils
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`b2b-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2b-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2b-utils/meta.yaml>`_
 
    This package contains a set of programs and utilities for working with
@@ -35,18 +35,21 @@ b2b-utils
       
       
 
-      ``0.018-0``,  ``0.017-0``
+      ``0.019-0``,  ``0.018-0``,  ``0.017-0``
 
       
 
    
+   :depends mafft: ``>=7.520,<8.0a0``
+   :depends minimap2: ``>=2.26,<3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-biox-seq: ``>=0.008006``
    :depends perl-dbi: 
    :depends perl-list-moreutils: 
-   :depends perl-module-build: ``0.4232.*``
+   :depends perl-module-build: ``0.4234.*``
    :depends perl-perlio-gzip: 
+   :depends samtools: ``>=1.18,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +97,7 @@ b2b-utils
 
     <script>
         var package = "b2b-utils";
-        var versions = ["0.018","0.017"];
+        var versions = ["0.019","0.018","0.017"];
     </script>
 
 

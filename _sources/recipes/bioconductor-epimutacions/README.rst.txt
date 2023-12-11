@@ -27,41 +27,67 @@ bioconductor-epimutacions
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-bumphunter: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-ensembldb: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-epimutacionsdata: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-gviz: ``>=1.44.0,<1.45.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0a0``
+   :depends bioconductor-bumphunter: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-bumphunter: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0a0``
+   :depends bioconductor-epimutacionsdata: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-epimutacionsdata: ``>=1.6.0,<1.7.0a0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicfeatures: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-gviz: ``>=1.46.1,<1.47.0a0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
+   :depends bioconductor-homo.sapiens: ``>=1.3.1,<1.4.0a0``
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.1,<0.7.0a0``
    :depends bioconductor-illuminahumanmethylation450kmanifest: ``>=0.4.0,<0.5.0``
+   :depends bioconductor-illuminahumanmethylation450kmanifest: ``>=0.4.0,<0.5.0a0``
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: ``>=0.6.0,<0.7.0``
+   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: ``>=0.6.0,<0.7.0a0``
    :depends bioconductor-illuminahumanmethylationepicmanifest: ``>=0.3.0,<0.4.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-illuminahumanmethylationepicmanifest: ``>=0.3.0,<0.4.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.2,<3.3.0a0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.2,<3.3.0a0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.18.0,<3.19.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -119,7 +145,7 @@ bioconductor-epimutacions
 
     <script>
         var package = "bioconductor-epimutacions";
-        var versions = ["1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.6.1","1.4.0","1.2.0","1.2.0"];
     </script>
 
 

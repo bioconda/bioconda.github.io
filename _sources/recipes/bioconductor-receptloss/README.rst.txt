@@ -27,12 +27,12 @@ bioconductor-receptloss
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -85,7 +85,7 @@ bioconductor-receptloss
 
     <script>
         var package = "bioconductor-receptloss";
-        var versions = ["1.12.0","1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
     </script>
 
 

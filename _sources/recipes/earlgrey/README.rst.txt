@@ -31,9 +31,17 @@ earlgrey
    :versions:
       
       
+      .. raw:: html
 
-      ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>4.0-1</code>,  <code>4.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2-0</code>,  </span></summary>
+      
 
+      ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -113,7 +121,7 @@ earlgrey
 
     <script>
         var package = "earlgrey";
-        var versions = ["4.0.2","4.0.1","4.0.1","4.0","4.0"];
+        var versions = ["4.0.3","4.0.2","4.0.1","4.0.1","4.0"];
     </script>
 
 

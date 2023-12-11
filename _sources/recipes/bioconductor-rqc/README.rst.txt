@@ -40,7 +40,6 @@ bioconductor-rqc
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
    :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
    :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
@@ -64,8 +63,9 @@ bioconductor-rqc
    :depends bioconductor-shortread: ``>=1.60.0,<1.61.0``
    :depends bioconductor-shortread: ``>=1.60.0,<1.61.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-knitr: ``>=1.7``

@@ -28,10 +28,10 @@ bioconductor-gosim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -40,17 +40,24 @@ bioconductor-gosim
       
 
    
-   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-rbgl: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-topgo: ``>=2.52.0,<2.53.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0a0``
+   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-corpcor: 
@@ -104,7 +111,7 @@ bioconductor-gosim
 
     <script>
         var package = "bioconductor-gosim";
-        var versions = ["1.38.0","1.36.0","1.36.0","1.32.0","1.32.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.32.0"];
     </script>
 
 

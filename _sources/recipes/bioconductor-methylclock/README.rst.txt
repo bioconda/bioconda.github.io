@@ -27,18 +27,25 @@ bioconductor-methylclock
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-methylclockdata: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-planet: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-preprocesscore: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0a0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0a0``
+   :depends bioconductor-methylclockdata: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-methylclockdata: ``>=1.10.0,<1.11.0a0``
+   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-planet: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-planet: ``>=1.10.0,<1.11.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -105,7 +112,7 @@ bioconductor-methylclock
 
     <script>
         var package = "bioconductor-methylclock";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.0.1","1.0.1"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.0.1"];
     </script>
 
 

@@ -30,7 +30,7 @@ callingcardstools
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -41,6 +41,7 @@ callingcardstools
    :depends pysam: 
    :depends python: ``>=3.8``
    :depends python-edlib: ``>=1.3.9``
+   :depends scipy: ``>=1.11.4``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +89,7 @@ callingcardstools
 
     <script>
         var package = "callingcardstools";
-        var versions = ["1.2.0","1.1.0","1.0.0","1.0.0"];
+        var versions = ["1.3.0","1.2.0","1.1.0","1.0.0","1.0.0"];
     </script>
 
 

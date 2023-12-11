@@ -27,14 +27,14 @@ bioconductor-bobafit
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-ggbio: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-plyranges: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-ggbio: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggforce: 
@@ -90,7 +90,7 @@ bioconductor-bobafit
 
     <script>
         var package = "bioconductor-bobafit";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-14</code>,  <code>0.6.0-13</code>,  <code>0.6.0-12</code>,  <code>0.6.0-11</code>,  <code>0.6.0-10</code>,  <code>0.6.0-9</code>,  <code>0.6.0-8</code>,  <code>0.6.0-7</code>,  <code>0.6.0-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-15</code>,  <code>0.6.0-14</code>,  <code>0.6.0-13</code>,  <code>0.6.0-12</code>,  <code>0.6.0-11</code>,  <code>0.6.0-10</code>,  <code>0.6.0-9</code>,  <code>0.6.0-8</code>,  <code>0.6.0-7</code>,  </span></summary>
       
 
-      ``0.6.0-14``,  ``0.6.0-13``,  ``0.6.0-12``,  ``0.6.0-11``,  ``0.6.0-10``,  ``0.6.0-9``,  ``0.6.0-8``,  ``0.6.0-7``,  ``0.6.0-6``,  ``0.6.0-5``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-0``
+      ``0.6.0-15``,  ``0.6.0-14``,  ``0.6.0-13``,  ``0.6.0-12``,  ``0.6.0-11``,  ``0.6.0-10``,  ``0.6.0-9``,  ``0.6.0-8``,  ``0.6.0-7``,  ``0.6.0-6``,  ``0.6.0-5``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

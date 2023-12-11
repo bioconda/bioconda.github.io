@@ -26,22 +26,30 @@ bioconductor-copynumberplots
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-cn.mops: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-karyoploter: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-regioner: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-variantannotation: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-cn.mops: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-karyoploter: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-regioner: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -90,7 +98,7 @@ bioconductor-copynumberplots
 
     <script>
         var package = "bioconductor-copynumberplots";
-        var versions = ["1.16.0","1.14.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.10.0","1.8.0"];
     </script>
 
 

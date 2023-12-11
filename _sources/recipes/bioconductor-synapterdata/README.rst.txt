@@ -27,13 +27,13 @@ bioconductor-synapterdata
       
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-synapter: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-synapter: ``>=2.26.0,<2.27.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-synapterdata
 
     <script>
         var package = "bioconductor-synapterdata";
-        var versions = ["1.38.0","1.36.0","1.28.0","1.28.0","1.26.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.28.0","1.28.0"];
     </script>
 
 

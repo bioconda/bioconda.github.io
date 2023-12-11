@@ -27,15 +27,19 @@ bioconductor-mitoclone2
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deepsnv: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rhtslib: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-deepsnv: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-deepsnv: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -91,7 +95,7 @@ bioconductor-mitoclone2
 
     <script>
         var package = "bioconductor-mitoclone2";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.8.1","1.6.0","1.4.0","1.4.0","1.0.0"];
     </script>
 
 

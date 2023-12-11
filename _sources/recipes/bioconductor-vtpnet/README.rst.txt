@@ -28,10 +28,10 @@ bioconductor-vtpnet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  <code>0.30.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.42.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  <code>0.30.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  </span></summary>
       
 
-      ``0.40.0-0``,  ``0.38.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
+      ``0.42.0-0``,  ``0.40.0-0``,  ``0.38.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-vtpnet
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-gwascat: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-gwascat: ``>=2.34.0,<2.35.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -93,7 +93,7 @@ bioconductor-vtpnet
 
     <script>
         var package = "bioconductor-vtpnet";
-        var versions = ["0.40.0","0.38.0","0.34.0","0.32.0","0.30.0"];
+        var versions = ["0.42.0","0.40.0","0.38.0","0.34.0","0.32.0"];
     </script>
 
 

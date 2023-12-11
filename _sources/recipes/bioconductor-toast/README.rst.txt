@@ -27,14 +27,14 @@ bioconductor-toast
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-epidish: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-epidish: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-corpcor: 
    :depends r-doparallel: 
@@ -90,7 +90,7 @@ bioconductor-toast
 
     <script>
         var package = "bioconductor-toast";
-        var versions = ["1.14.0","1.12.0","1.7.1","1.6.0","1.4.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.7.1","1.6.0"];
     </script>
 
 

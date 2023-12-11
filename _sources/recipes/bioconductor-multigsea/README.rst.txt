@@ -27,14 +27,14 @@ bioconductor-multigsea
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-graphite: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
    :depends bioconductor-metaboliteidmapping: ``>=1.0.0,<1.1.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
@@ -89,7 +89,7 @@ bioconductor-multigsea
 
     <script>
         var package = "bioconductor-multigsea";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.1"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

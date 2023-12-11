@@ -27,20 +27,20 @@ bioconductor-methreg
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-sesame: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-sesamedata: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-sesame: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-sesamedata: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -103,7 +103,7 @@ bioconductor-methreg
 
     <script>
         var package = "bioconductor-methreg";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.1","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.1"];
     </script>
 
 

@@ -27,18 +27,18 @@ bioconductor-bioplex
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-geoquery: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -88,7 +88,7 @@ bioconductor-bioplex
 
     <script>
         var package = "bioconductor-bioplex";
-        var versions = ["1.6.0","1.4.0","1.0.1"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.1"];
     </script>
 
 
