@@ -27,15 +27,28 @@ bioconductor-somnibus
       
       
 
-      ``1.7.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-annotatr: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-bsseq: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-biocmanager: 
+   :depends r-data.table: 
+   :depends r-ggplot2: 
    :depends r-matrix: 
    :depends r-mgcv: 
+   :depends r-reshape2: 
+   :depends r-tidyr: 
    :depends r-vgam: 
+   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +96,7 @@ bioconductor-somnibus
 
     <script>
         var package = "bioconductor-somnibus";
-        var versions = ["1.7.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.7.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

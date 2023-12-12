@@ -29,10 +29,10 @@ bioconductor-metabosignal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.1-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.1-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.30.1-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.32.0-0``,  ``1.30.1-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-metabosignal
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
    :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-hpar: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-kegggraph: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-keggrest: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-mwastools: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-mygene: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-hpar: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-kegggraph: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-mwastools: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-mygene: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-igraph: 
    :depends r-rcurl: 
@@ -100,7 +100,7 @@ bioconductor-metabosignal
 
     <script>
         var package = "bioconductor-metabosignal";
-        var versions = ["1.30.1","1.28.0","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.32.0","1.30.1","1.28.0","1.24.0","1.22.0"];
     </script>
 
 

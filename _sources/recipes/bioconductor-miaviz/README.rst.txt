@@ -27,27 +27,29 @@ bioconductor-miaviz
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-dirichletmultinomial: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-ggtree: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-mia: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-scater: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-dirichletmultinomial: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-mia: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.10.0,<2.11.0``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggnewscale: 
    :depends r-ggplot2: 
    :depends r-ggraph: ``>=2.0``
+   :depends r-ggrepel: 
    :depends r-purrr: 
    :depends r-rlang: 
    :depends r-tibble: 
@@ -102,7 +104,7 @@ bioconductor-miaviz
 
     <script>
         var package = "bioconductor-miaviz";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

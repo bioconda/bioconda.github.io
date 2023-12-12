@@ -27,16 +27,16 @@ bioconductor-microbiotaprocess
       
       
 
-      ``1.12.2-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-ggtree: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-ggtreeextra: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-treeio: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-ggtreeextra: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-treeio: ``>=1.26.0,<1.27.0``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cli: 
@@ -45,6 +45,7 @@ bioconductor-microbiotaprocess
    :depends r-dplyr: 
    :depends r-dtplyr: 
    :depends r-foreach: 
+   :depends r-ggfun: ``>=0.1.1``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-ggsignif: 
@@ -108,7 +109,7 @@ bioconductor-microbiotaprocess
 
     <script>
         var package = "bioconductor-microbiotaprocess";
-        var versions = ["1.12.2","1.10.0","1.6.1","1.4.0","1.2.1"];
+        var versions = ["1.14.0","1.12.2","1.10.0","1.6.1","1.4.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-dnazoodata
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-hicexperiment: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-hicexperiment: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rjson: 
@@ -86,7 +86,7 @@ bioconductor-dnazoodata
 
     <script>
         var package = "bioconductor-dnazoodata";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

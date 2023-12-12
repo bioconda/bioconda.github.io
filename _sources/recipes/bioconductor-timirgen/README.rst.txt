@@ -27,17 +27,17 @@ bioconductor-timirgen
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-mfuzz: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-rcy3: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-rwikipathways: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-mfuzz: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-rcy3: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rwikipathways: ``>=1.22.0,<1.23.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=0.8.4``
    :depends r-freqprof: 
@@ -99,7 +99,7 @@ bioconductor-timirgen
 
     <script>
         var package = "bioconductor-timirgen";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.3"];
+        var versions = ["1.11.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

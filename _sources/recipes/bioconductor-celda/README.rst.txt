@@ -28,10 +28,10 @@ bioconductor-celda
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.1-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.1-0</code>,  <code>1.16.1-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  <code>1.6.1-1</code>,  </span></summary>
       
 
-      ``1.16.1-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.4.5-0``,  ``1.2.0-0``,  ``1.0.4-0``
+      ``1.18.1-0``,  ``1.16.1-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.4.5-0``,  ``1.2.0-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -40,17 +40,24 @@ bioconductor-celda
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-scater: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-scran: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-scater: ``>=1.30.1,<1.31.0a0``
+   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-scran: ``>=1.30.0,<1.31.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
    :depends r-data.table: 
@@ -61,11 +68,11 @@ bioconductor-celda
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
+   :depends r-gridextra: 
    :depends r-gtable: 
    :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-mcmcprecision: 
-   :depends r-multipanelfigure: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
@@ -123,7 +130,7 @@ bioconductor-celda
 
     <script>
         var package = "bioconductor-celda";
-        var versions = ["1.16.1","1.14.0","1.14.0","1.10.0","1.10.0"];
+        var versions = ["1.18.1","1.16.1","1.14.0","1.14.0","1.10.0"];
     </script>
 
 

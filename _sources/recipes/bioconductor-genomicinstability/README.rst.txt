@@ -27,12 +27,12 @@ bioconductor-genomicinstability
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: 
    :depends r-mixtools: 
@@ -83,7 +83,7 @@ bioconductor-genomicinstability
 
     <script>
         var package = "bioconductor-genomicinstability";
-        var versions = ["1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

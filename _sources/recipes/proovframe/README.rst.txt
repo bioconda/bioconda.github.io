@@ -16,7 +16,9 @@ proovframe
    :license: MIT / MIT
    :recipe: /`proovframe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proovframe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proovframe/meta.yaml>`_
 
-   
+   Gene prediction on long reads\, aka PacBio and Nanopore\, is often impaired by indels causing frameshift. 
+   Proovframe detects and corrects frameshifts in coding sequences from raw long reads or long\-read derived assemblies.
+
 
 
 .. conda:package:: proovframe
@@ -27,7 +29,7 @@ proovframe
       
       
 
-      ``0.9.7-0``
+      ``0.9.7-1``,  ``0.9.7-0``
 
       
 
@@ -39,7 +41,6 @@ proovframe
    :depends perl-file-path: 
    :depends perl-findbin: 
    :depends perl-getopt-long: 
-   :depends perl-list-util: 
    :depends perl-text-wrap: 
    :depends seqkit: 
    :requirements:
@@ -89,7 +90,7 @@ proovframe
 
     <script>
         var package = "proovframe";
-        var versions = ["0.9.7"];
+        var versions = ["0.9.7","0.9.7"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-rtn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  </span></summary>
       
 
-      ``2.24.0-0``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.3-0``,  ``2.6.0-0``
+      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.3-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-rtn
       
 
    
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-minet: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-reder: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-viper: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-minet: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-reder: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-viper: ``>=1.36.0,<1.37.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-car: 
    :depends r-data.table: 
@@ -102,7 +102,7 @@ bioconductor-rtn
 
     <script>
         var package = "bioconductor-rtn";
-        var versions = ["2.24.0","2.22.0","2.18.0","2.16.0","2.14.1"];
+        var versions = ["2.26.0","2.24.0","2.22.0","2.18.0","2.16.0"];
     </script>
 
 

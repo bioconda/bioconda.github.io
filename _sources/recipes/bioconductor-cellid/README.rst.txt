@@ -27,20 +27,25 @@ bioconductor-cellid
       
       
 
-      ``1.8.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-scater: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends __osx: ``>=10.9``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-scater: ``>=1.30.1,<1.31.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-fastmatch: 
@@ -105,7 +110,7 @@ bioconductor-cellid
 
     <script>
         var package = "bioconductor-cellid";
-        var versions = ["1.8.1","1.6.0","1.6.0","1.2.1","1.2.1"];
+        var versions = ["1.10.1","1.8.1","1.6.0","1.6.0","1.2.1"];
     </script>
 
 

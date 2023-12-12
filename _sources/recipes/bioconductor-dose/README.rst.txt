@@ -29,10 +29,10 @@ bioconductor-dose
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.26.1-0</code>,  <code>3.24.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-1</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.28.1-0</code>,  <code>3.26.1-0</code>,  <code>3.24.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-1</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  </span></summary>
       
 
-      ``3.26.1-0``,  ``3.24.0-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.10.7-0``,  ``2.10.6-0``,  ``2.8.3-0``,  ``2.8.2-0``
+      ``3.28.1-0``,  ``3.26.1-0``,  ``3.24.0-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.10.7-0``,  ``2.10.6-0``,  ``2.8.3-0``,  ``2.8.2-0``
 
       
       .. raw:: html
@@ -41,15 +41,16 @@ bioconductor-dose
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-gosemsim: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-gosemsim: ``>=2.28.0,<2.29.0``
    :depends bioconductor-hdo.db: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-reshape2: 
+   :depends r-yulab.utils: 
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +98,7 @@ bioconductor-dose
 
     <script>
         var package = "bioconductor-dose";
-        var versions = ["3.26.1","3.24.0","3.20.0","3.18.0","3.16.0"];
+        var versions = ["3.28.1","3.26.1","3.24.0","3.20.0","3.18.0"];
     </script>
 
 

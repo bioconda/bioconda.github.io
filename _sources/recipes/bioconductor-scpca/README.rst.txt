@@ -27,15 +27,15 @@ bioconductor-scpca
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-scaledmatrix: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-scaledmatrix: ``>=1.10.0,<1.11.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
@@ -99,7 +99,7 @@ bioconductor-scpca
 
     <script>
         var package = "bioconductor-scpca";
-        var versions = ["1.14.0","1.12.0","1.8.0","1.6.2","1.4.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.2"];
     </script>
 
 

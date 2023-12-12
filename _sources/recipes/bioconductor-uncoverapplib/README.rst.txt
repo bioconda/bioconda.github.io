@@ -27,23 +27,23 @@ bioconductor-uncoverapplib
       
       
 
-      ``1.10.0-0``,  ``1.7.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.7.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
    :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
    :depends bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-gviz: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-organismdbi: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-organismdbi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.18.0,<3.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-condformat: 
    :depends r-dt: 
@@ -105,7 +105,7 @@ bioconductor-uncoverapplib
 
     <script>
         var package = "bioconductor-uncoverapplib";
-        var versions = ["1.10.0","1.7.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.7.0","1.4.0","1.2.0"];
     </script>
 
 

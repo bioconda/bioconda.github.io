@@ -27,18 +27,18 @@ bioconductor-cbnplot
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-depmap: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-graphite: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-depmap: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bnlearn: ``>=4.7``
    :depends r-dplyr: 
@@ -105,7 +105,7 @@ bioconductor-cbnplot
 
     <script>
         var package = "bioconductor-cbnplot";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

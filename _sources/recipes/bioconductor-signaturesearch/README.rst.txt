@@ -28,10 +28,10 @@ bioconductor-signaturesearch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.3-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.3-0</code>,  </span></summary>
       
 
-      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,21 +40,36 @@ bioconductor-signaturesearch
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-reactome.db: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-rhdf5: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0a0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
+   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
+   :depends bioconductor-dose: ``>=3.28.1,<3.29.0a0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0a0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0a0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0a0``
+   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-reactome.db: ``>=1.86.2,<1.87.0a0``
+   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -120,7 +135,7 @@ bioconductor-signaturesearch
 
     <script>
         var package = "bioconductor-signaturesearch";
-        var versions = ["1.14.0","1.12.0","1.12.0","1.8.2","1.8.2"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.8.2"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-nullrangesdata
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-interactionset: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-interactionset: ``>=1.30.0,<1.31.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -85,7 +85,7 @@ bioconductor-nullrangesdata
 
     <script>
         var package = "bioconductor-nullrangesdata";
-        var versions = ["1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
     </script>
 
 
