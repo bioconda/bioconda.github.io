@@ -29,10 +29,10 @@ bioconductor-globalancova
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.18.0-0</code>,  <code>4.16.0-1</code>,  <code>4.16.0-0</code>,  <code>4.12.0-2</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  <code>4.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.20.0-0</code>,  <code>4.18.0-0</code>,  <code>4.16.0-1</code>,  <code>4.16.0-0</code>,  <code>4.12.0-2</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-1</code>,  </span></summary>
       
 
-      ``4.18.0-0``,  ``4.16.0-1``,  ``4.16.0-0``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
+      ``4.20.0-0``,  ``4.18.0-0``,  ``4.16.0-1``,  ``4.16.0-0``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,17 @@ bioconductor-globalancova
       
 
    
-   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-globaltest: ``>=5.54.0,<5.55.0``
-   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-globaltest: ``>=5.56.0,<5.57.0``
+   :depends bioconductor-globaltest: ``>=5.56.0,<5.57.0a0``
+   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-corpcor: 
@@ -100,7 +104,7 @@ bioconductor-globalancova
 
     <script>
         var package = "bioconductor-globalancova";
-        var versions = ["4.18.0","4.16.0","4.16.0","4.12.0","4.12.0"];
+        var versions = ["4.20.0","4.18.0","4.16.0","4.16.0","4.12.0"];
     </script>
 
 

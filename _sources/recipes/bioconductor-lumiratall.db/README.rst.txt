@@ -28,10 +28,10 @@ bioconductor-lumiratall.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-11</code>,  <code>1.22.0-10</code>,  <code>1.22.0-9</code>,  <code>1.22.0-8</code>,  <code>1.22.0-7</code>,  <code>1.22.0-6</code>,  <code>1.22.0-5</code>,  <code>1.22.0-4</code>,  <code>1.22.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-12</code>,  <code>1.22.0-11</code>,  <code>1.22.0-10</code>,  <code>1.22.0-9</code>,  <code>1.22.0-8</code>,  <code>1.22.0-7</code>,  <code>1.22.0-6</code>,  <code>1.22.0-5</code>,  <code>1.22.0-4</code>,  </span></summary>
       
 
-      ``1.22.0-11``,  ``1.22.0-10``,  ``1.22.0-9``,  ``1.22.0-8``,  ``1.22.0-7``,  ``1.22.0-6``,  ``1.22.0-5``,  ``1.22.0-4``,  ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-0``
+      ``1.22.0-12``,  ``1.22.0-11``,  ``1.22.0-10``,  ``1.22.0-9``,  ``1.22.0-8``,  ``1.22.0-7``,  ``1.22.0-6``,  ``1.22.0-5``,  ``1.22.0-4``,  ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-lumiratall.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-org.rn.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-org.rn.eg.db: ``>=3.18.0,<3.19.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

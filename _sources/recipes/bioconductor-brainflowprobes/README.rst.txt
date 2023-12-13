@@ -27,17 +27,17 @@ bioconductor-brainflowprobes
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-bumphunter: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-derfinder: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-derfinderplot: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-bumphunter: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-derfinder: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-derfinderplot: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
    :depends bioconductor-genomicstate: ``>=0.99.0,<0.100.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cowplot: ``>=1.0.0``
@@ -90,7 +90,7 @@ bioconductor-brainflowprobes
 
     <script>
         var package = "bioconductor-brainflowprobes";
-        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.1"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
     </script>
 
 

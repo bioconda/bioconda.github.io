@@ -40,7 +40,6 @@ bioconductor-psichomics
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
    :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
    :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
@@ -56,8 +55,9 @@ bioconductor-psichomics
    :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-colourpicker: 

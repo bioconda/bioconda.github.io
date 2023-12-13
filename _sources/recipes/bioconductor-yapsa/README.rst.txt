@@ -29,10 +29,10 @@ bioconductor-yapsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.25.0-0</code>,  <code>1.24.0-0</code>,  <code>1.19.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.25.0-0</code>,  <code>1.24.0-0</code>,  <code>1.19.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.25.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.28.0-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-yapsa
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-gtrellis: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-keggrest: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-somaticsignatures: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-variantannotation: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-gtrellis: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-somaticsignatures: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
    :depends r-corrplot: 
@@ -112,7 +112,7 @@ bioconductor-yapsa
 
     <script>
         var package = "bioconductor-yapsa";
-        var versions = ["1.25.0","1.24.0","1.19.0","1.18.0","1.16.0"];
+        var versions = ["1.28.0","1.25.0","1.24.0","1.19.0","1.18.0"];
     </script>
 
 

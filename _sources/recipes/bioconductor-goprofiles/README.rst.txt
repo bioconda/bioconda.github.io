@@ -28,10 +28,10 @@ bioconductor-goprofiles
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  </span></summary>
       
 
-      ``1.62.0-0``,  ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``
+      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-goprofiles
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-compquadform: 
    :depends r-stringr: 
@@ -93,7 +93,7 @@ bioconductor-goprofiles
 
     <script>
         var package = "bioconductor-goprofiles";
-        var versions = ["1.62.0","1.60.0","1.56.0","1.54.0","1.52.0"];
+        var versions = ["1.64.0","1.62.0","1.60.0","1.56.0","1.54.0"];
     </script>
 
 

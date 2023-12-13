@@ -29,10 +29,10 @@ bioconductor-epivizrstandalone
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-epivizrstandalone
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-epivizr: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-epivizrserver: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-epivizr: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-epivizrserver: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-git2r: 
    :requirements:
@@ -96,7 +96,7 @@ bioconductor-epivizrstandalone
 
     <script>
         var package = "bioconductor-epivizrstandalone";
-        var versions = ["1.28.0","1.26.0","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.20.0"];
     </script>
 
 

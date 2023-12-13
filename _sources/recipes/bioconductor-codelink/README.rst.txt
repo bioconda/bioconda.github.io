@@ -29,10 +29,10 @@ bioconductor-codelink
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  </span></summary>
       
 
-      ``1.68.0-0``,  ``1.66.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+      ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-codelink
       
 
    
-   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -93,7 +93,7 @@ bioconductor-codelink
 
     <script>
         var package = "bioconductor-codelink";
-        var versions = ["1.68.0","1.66.0","1.62.0","1.60.0","1.58.0"];
+        var versions = ["1.70.0","1.68.0","1.66.0","1.62.0","1.60.0"];
     </script>
 
 

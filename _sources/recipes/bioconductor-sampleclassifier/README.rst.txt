@@ -27,14 +27,14 @@ bioconductor-sampleclassifier
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-mgfm: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-mgfr: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-mgfm: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-mgfr: ``>=1.28.0,<1.29.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-e1071: 
    :depends r-ggplot2: 
@@ -85,7 +85,7 @@ bioconductor-sampleclassifier
 
     <script>
         var package = "bioconductor-sampleclassifier";
-        var versions = ["1.24.0","1.22.0","1.18.0","1.16.0","1.11.0"];
+        var versions = ["1.26.0","1.24.0","1.22.0","1.18.0","1.16.0"];
     </script>
 
 

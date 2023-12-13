@@ -28,10 +28,10 @@ bioconductor-cagefightr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,20 +40,20 @@ bioconductor-cagefightr
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicalignments: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicfiles: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicinteractions: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-gviz: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-interactionset: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicfiles: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicinteractions: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-interactionset: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-assertthat: ``>=0.2.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: ``>=1.2-12``
@@ -105,7 +105,7 @@ bioconductor-cagefightr
 
     <script>
         var package = "bioconductor-cagefightr";
-        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.14.0","1.12.0"];
     </script>
 
 

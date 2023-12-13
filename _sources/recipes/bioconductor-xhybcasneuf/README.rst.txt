@@ -28,10 +28,10 @@ bioconductor-xhybcasneuf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-xhybcasneuf
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
    :depends bioconductor-ath1121501cdf: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-tinesath1cdf: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-tinesath1cdf: ``>=1.40.0,<1.41.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-rcolorbrewer: 
@@ -94,7 +94,7 @@ bioconductor-xhybcasneuf
 
     <script>
         var package = "bioconductor-xhybcasneuf";
-        var versions = ["1.38.0","1.36.0","1.32.0","1.32.0","1.30.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.32.0","1.32.0"];
     </script>
 
 

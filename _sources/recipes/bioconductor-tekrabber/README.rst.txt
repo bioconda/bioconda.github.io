@@ -32,7 +32,6 @@ bioconductor-tekrabber
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0``
    :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0a0``
    :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
@@ -42,8 +41,9 @@ bioconductor-tekrabber
    :depends bioconductor-scbn: ``>=1.20.0,<1.21.0``
    :depends bioconductor-scbn: ``>=1.20.0,<1.21.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 

@@ -28,10 +28,10 @@ bioconductor-rmmquant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,24 @@ bioconductor-rmmquant
       
 
    
-   :depends bioconductor-apeglm: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-tbx20bamsubset: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0a0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-tbx20bamsubset: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-tbx20bamsubset: ``>=1.38.0,<1.39.0a0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: ``>=3.2.2,<3.3.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -103,7 +112,7 @@ bioconductor-rmmquant
 
     <script>
         var package = "bioconductor-rmmquant";
-        var versions = ["1.18.0","1.16.0","1.16.0","1.12.0","1.12.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.12.0"];
     </script>
 
 
