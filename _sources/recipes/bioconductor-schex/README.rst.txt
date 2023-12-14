@@ -27,12 +27,12 @@ bioconductor-schex
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
    :depends r-concaveman: 
@@ -91,7 +91,7 @@ bioconductor-schex
 
     <script>
         var package = "bioconductor-schex";
-        var versions = ["1.14.0","1.12.0","1.8.0","1.5.0","1.4.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.5.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-bsgenome.btaurus.ucsc.bostau9
       
       
 
-      ``1.4.2-7``,  ``1.4.2-6``,  ``1.4.2-5``,  ``1.4.2-4``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``
+      ``1.4.2-8``,  ``1.4.2-7``,  ``1.4.2-6``,  ``1.4.2-5``,  ``1.4.2-4``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

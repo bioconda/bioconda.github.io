@@ -10,7 +10,7 @@ melon
    :replaces_section_title:
    :noindex:
 
-   Melon\: metagenomic long\-read\-based taxonomic identification and quantification using marker genes
+   Melon\: metagenomic long\-read\-based taxonomic identification and quantification
 
    :homepage: https://github.com/xinehc/melon
    :license: MIT / MIT
@@ -27,7 +27,7 @@ melon
       
       
 
-      ``0.1.0-0``,  ``0.0.1-0``
+      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
 
       
 
@@ -37,6 +37,7 @@ melon
    :depends minimap2: ``>=2.26``
    :depends numpy: 
    :depends python: ``>=3.7``
+   :depends scipy: 
    :depends seqkit: 
    :requirements:
 
@@ -85,7 +86,7 @@ melon
 
     <script>
         var package = "melon";
-        var versions = ["0.1.0","0.0.1"];
+        var versions = ["0.1.1","0.1.0","0.0.1"];
     </script>
 
 

@@ -13,8 +13,11 @@ btllib
    Bioinformatics common code library in C\+\+ with Python wrappers\, from Bioinformatics Technology Lab
 
    :homepage: https://github.com/bcgsc/btllib
-   :license: GPL-3.0
+   :documentation: https://bcgsc.github.io/btllib/
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`btllib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/btllib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/btllib/meta.yaml>`_
+   :links: doi: :doi:`10.21105/joss.04720`, doi: :doi:`10.1093/bioadv/vbad162`
 
    
 
@@ -28,10 +31,10 @@ btllib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.10-0</code>,  <code>1.4.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.10-0</code>,  </span></summary>
       
 
-      ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -102,7 +105,7 @@ btllib
 
     <script>
         var package = "btllib";
-        var versions = ["1.6.2","1.6.1","1.6.0","1.6.0","1.5.1"];
+        var versions = ["1.7.0","1.6.2","1.6.1","1.6.0","1.6.0"];
     </script>
 
 

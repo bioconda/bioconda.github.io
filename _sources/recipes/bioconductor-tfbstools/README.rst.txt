@@ -70,6 +70,7 @@ bioconductor-tfbstools
    :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
    :depends bioconductor-xvector: ``>=0.42.0,<0.43.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-catools: ``>=1.17.1``

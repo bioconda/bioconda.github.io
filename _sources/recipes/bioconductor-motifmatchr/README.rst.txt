@@ -40,7 +40,6 @@ bioconductor-motifmatchr
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
    :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
@@ -60,8 +59,9 @@ bioconductor-motifmatchr
    :depends bioconductor-tfbstools: ``>=1.40.0,<1.41.0``
    :depends bioconductor-tfbstools: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 

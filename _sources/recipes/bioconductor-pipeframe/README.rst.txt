@@ -26,15 +26,23 @@ bioconductor-pipeframe
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-digest: 
    :depends r-magrittr: 
@@ -87,7 +95,7 @@ bioconductor-pipeframe
 
     <script>
         var package = "bioconductor-pipeframe";
-        var versions = ["1.16.0","1.14.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.10.0","1.8.0"];
     </script>
 
 

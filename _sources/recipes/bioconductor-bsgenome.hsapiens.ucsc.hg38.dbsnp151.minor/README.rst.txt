@@ -27,13 +27,13 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor
       
       
 
-      ``0.0.9999-3``,  ``0.0.9999-2``,  ``0.0.9999-1``,  ``0.0.9999-0``
+      ``0.0.9999-4``,  ``0.0.9999-3``,  ``0.0.9999-2``,  ``0.0.9999-1``,  ``0.0.9999-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor";
-        var versions = ["0.0.9999","0.0.9999","0.0.9999","0.0.9999"];
+        var versions = ["0.0.9999","0.0.9999","0.0.9999","0.0.9999","0.0.9999"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-bigmelon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-bigmelon
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-gdsfmt: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-geoquery: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-illuminaio: ``>=0.42.0,<0.43.0``
-   :depends bioconductor-methylumi: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-minfi: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-watermelon: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-gdsfmt: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-illuminaio: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-methylumi: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-watermelon: ``>=2.8.0,<2.9.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -96,7 +96,7 @@ bioconductor-bigmelon
 
     <script>
         var package = "bioconductor-bigmelon";
-        var versions = ["1.26.0","1.24.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.20.0","1.18.0"];
     </script>
 
 

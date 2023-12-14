@@ -13,7 +13,7 @@ sneep
    Identify regulatory non\-coding SNPs \(rSNPs\)
 
    :homepage: https://github.com/SchulzLab/SNEEP
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`sneep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sneep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sneep/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ sneep
       
       
 
-      ``0.7-0``,  ``0.4-1``,  ``0.4-0``
+      ``0.8-0``,  ``0.7-0``,  ``0.4-1``,  ``0.4-0``
 
       
 
@@ -88,7 +88,7 @@ sneep
 
     <script>
         var package = "sneep";
-        var versions = ["0.7","0.4","0.4"];
+        var versions = ["0.8","0.7","0.4","0.4"];
     </script>
 
 

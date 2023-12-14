@@ -27,13 +27,13 @@ bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -83,7 +83,7 @@ bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1
 
     <script>
         var package = "bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bbknn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.12-1</code>,  <code>1.3.12-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.12-1</code>,  <code>1.3.12-0</code>,  <code>1.3.9-1</code>,  </span></summary>
       
 
-      ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.3-0``
+      ``1.6.0-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.3-0``
 
       
       .. raw:: html
@@ -40,16 +40,16 @@ bbknn
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends numpy: ``>=1.13``
-   :depends packaging: 
+   :depends numpy: ``>=1.26.2,<2.0a0``
    :depends pandas: 
    :depends pynndescent: 
-   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-annoy: 
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends scikit-learn: 
-   :depends scipy: 
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends scikit-learn: ``>=1.0.2``
+   :depends scipy: ``>=1.6.0``
    :depends umap-learn: 
    :requirements:
 
@@ -98,7 +98,7 @@ bbknn
 
     <script>
         var package = "bbknn";
-        var versions = ["1.5.1","1.5.1","1.5.1","1.4.1","1.4.0"];
+        var versions = ["1.6.0","1.5.1","1.5.1","1.5.1","1.4.1"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-gostats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.68.0-0</code>,  <code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  </span></summary>
       
 
-      ``2.66.0-0``,  ``2.64.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.38.1-1``,  ``2.38.1-0``,  ``2.36.0-0``
+      ``2.68.0-0``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.38.1-1``,  ``2.38.1-0``,  ``2.36.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-gostats
       
 
    
-   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-annotationforge: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-category: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-rbgl: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationforge: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -98,7 +98,7 @@ bioconductor-gostats
 
     <script>
         var package = "bioconductor-gostats";
-        var versions = ["2.66.0","2.64.0","2.60.0","2.58.0","2.56.0"];
+        var versions = ["2.68.0","2.66.0","2.64.0","2.60.0","2.58.0"];
     </script>
 
 
