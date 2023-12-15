@@ -28,10 +28,10 @@ bioconductor-fletcher2013b
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-fletcher2013b
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-fletcher2013a: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-reder: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-rtn: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-fletcher2013a: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-reder: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-rtn: ``>=2.26.0,<2.27.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-igraph: 
@@ -95,7 +95,7 @@ bioconductor-fletcher2013b
 
     <script>
         var package = "bioconductor-fletcher2013b";
-        var versions = ["1.36.0","1.34.0","1.30.0","1.30.0","1.28.0"];
+        var versions = ["1.38.0","1.36.0","1.34.0","1.30.0","1.30.0"];
     </script>
 
 

@@ -27,18 +27,20 @@ bioconductor-orfhunter
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.5,<1.5.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-peptides: 
@@ -93,7 +95,7 @@ bioconductor-orfhunter
 
     <script>
         var package = "bioconductor-orfhunter";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.2.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.2.0"];
     </script>
 
 

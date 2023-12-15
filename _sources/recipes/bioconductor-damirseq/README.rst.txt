@@ -26,18 +26,26 @@ bioconductor-damirseq
    :versions:
       
       
+      .. raw:: html
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  </span></summary>
+      
 
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-edaseq: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-edaseq: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
    :depends r-arm: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
@@ -106,7 +114,7 @@ bioconductor-damirseq
 
     <script>
         var package = "bioconductor-damirseq";
-        var versions = ["2.12.0","2.10.0","2.6.0","2.4.0","2.2.0"];
+        var versions = ["2.14.0","2.12.0","2.10.0","2.6.0","2.4.0"];
     </script>
 
 

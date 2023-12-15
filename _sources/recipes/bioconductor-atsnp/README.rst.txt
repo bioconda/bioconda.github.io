@@ -28,10 +28,10 @@ bioconductor-atsnp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,10 +40,14 @@ bioconductor-atsnp
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-motifstack: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.1,<2.11.0a0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-bsgenome: ``>=1.70.1,<1.71.0a0``
+   :depends bioconductor-motifstack: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-motifstack: ``>=1.46.0,<1.47.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -102,7 +106,7 @@ bioconductor-atsnp
 
     <script>
         var package = "bioconductor-atsnp";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.10.0","1.10.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.10.0"];
     </script>
 
 

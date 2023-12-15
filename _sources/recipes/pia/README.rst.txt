@@ -34,12 +34,12 @@ pia
       
       
 
-      ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``
+      ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``
 
       
 
    
-   :depends openjdk: ``>=17``
+   :depends openjdk: ``>=21``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +87,7 @@ pia
 
     <script>
         var package = "pia";
-        var versions = ["1.4.10","1.4.9","1.4.8"];
+        var versions = ["1.4.10","1.4.10","1.4.9","1.4.8"];
     </script>
 
 

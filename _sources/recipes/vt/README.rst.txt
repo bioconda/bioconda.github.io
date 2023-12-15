@@ -40,7 +40,7 @@ vt
       
 
    
-   :depends htslib: ``>=1.10.2,<1.19.0a0``
+   :depends htslib: ``>=1.10.2,<1.20.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends pcre2: ``>=10.35,<10.36.0a0``

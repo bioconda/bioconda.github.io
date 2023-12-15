@@ -27,15 +27,15 @@ bioconductor-clustifyr
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.5.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.5.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
@@ -45,7 +45,6 @@ bioconductor-clustifyr
    :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-proxy: 
-   :depends r-readr: 
    :depends r-rlang: 
    :depends r-scales: 
    :depends r-stringr: 
@@ -98,7 +97,7 @@ bioconductor-clustifyr
 
     <script>
         var package = "bioconductor-clustifyr";
-        var versions = ["1.12.0","1.10.0","1.5.1","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.5.1","1.4.0"];
     </script>
 
 

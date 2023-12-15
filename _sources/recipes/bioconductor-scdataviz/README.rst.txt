@@ -27,14 +27,14 @@ bioconductor-scdataviz
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-corrplot: 
    :depends r-ggplot2: 
@@ -93,7 +93,7 @@ bioconductor-scdataviz
 
     <script>
         var package = "bioconductor-scdataviz";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

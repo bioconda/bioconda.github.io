@@ -27,13 +27,13 @@ bioconductor-edirquery
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-interactionset: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-interactionset: ``>=1.30.0,<1.31.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-readr: ``>=2.1.2``
    :depends r-tibble: ``>=3.1.6``
@@ -85,7 +85,7 @@ bioconductor-edirquery
 
     <script>
         var package = "bioconductor-edirquery";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

@@ -34,7 +34,7 @@ fusion-inspector
    
    :depends bzip2: 
    :depends gmap: ``>=2017.11.15``
-   :depends htslib: ``>=1.18,<1.19.0a0``
+   :depends htslib: ``>=1.18,<1.20.0a0``
    :depends perl: 
    :depends perl-db-file: 
    :depends perl-set-intervaltree: 

@@ -28,10 +28,10 @@ bioconductor-scpipe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.19.0-1</code>,  <code>1.19.0-0</code>,  <code>1.16.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.19.0-1</code>,  <code>1.19.0-0</code>,  <code>1.16.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.19.0-1``,  ``1.19.0-0``,  ``1.16.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``2.2.0-0``,  ``2.0.0-0``,  ``1.19.0-1``,  ``1.19.0-0``,  ``1.16.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,26 +40,46 @@ bioconductor-scpipe
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-basilisk: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biomart: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-dropletutils: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-genomicalignments: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-rhtslib: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-rsubread: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-basilisk: ``>=1.14.1,<1.15.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0a0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
+   :depends bioconductor-dropletutils: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-dropletutils: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0a0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-rsubread: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-rsubread: ``>=2.16.0,<2.17.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -87,6 +107,7 @@ bioconductor-scpipe
    :depends r-testthat: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-vctrs: ``>=0.5.2``
    :requirements:
 
    .. rubric:: Installation
@@ -134,7 +155,7 @@ bioconductor-scpipe
 
     <script>
         var package = "bioconductor-scpipe";
-        var versions = ["2.0.0","1.19.0","1.19.0","1.16.1","1.16.0"];
+        var versions = ["2.2.0","2.0.0","1.19.0","1.19.0","1.16.1"];
     </script>
 
 

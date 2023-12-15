@@ -27,15 +27,15 @@ bioconductor-zenith
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-enrichmentbrowser: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-variancepartition: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-enrichmentbrowser: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-variancepartition: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-msigdbr: ``>=7.5.1``
@@ -91,7 +91,7 @@ bioconductor-zenith
 
     <script>
         var package = "bioconductor-zenith";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.2","1.2.0","1.0.0"];
     </script>
 
 

@@ -27,19 +27,19 @@ bioconductor-mirlab
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-category: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-ctc: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-gostats: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-ctc: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.30.0,<2.31.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-energy: 
@@ -99,7 +99,7 @@ bioconductor-mirlab
 
     <script>
         var package = "bioconductor-mirlab";
-        var versions = ["1.30.0","1.28.0","1.24.0","1.22.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.24.0","1.22.0"];
     </script>
 
 

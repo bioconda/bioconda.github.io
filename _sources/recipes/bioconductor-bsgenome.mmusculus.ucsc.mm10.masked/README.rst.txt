@@ -28,10 +28,10 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  <code>1.3.99-5</code>,  <code>1.3.99-4</code>,  <code>1.3.99-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.3-4</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  <code>1.3.99-5</code>,  <code>1.3.99-4</code>,  </span></summary>
       
 
-      ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+      ``1.4.3-4``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -92,7 +92,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
 
     <script>
         var package = "bioconductor-bsgenome.mmusculus.ucsc.mm10.masked";
-        var versions = ["1.4.3","1.4.3","1.4.3","1.4.3","1.3.99"];
+        var versions = ["1.4.3","1.4.3","1.4.3","1.4.3","1.4.3"];
     </script>
 
 

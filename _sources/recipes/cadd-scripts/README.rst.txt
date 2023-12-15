@@ -35,7 +35,7 @@ cadd-scripts
       
       
 
-      ``1.6-1``,  ``1.6-0``
+      ``1.6.post1-0``,  ``1.6-1``,  ``1.6-0``
 
       
 
@@ -88,7 +88,7 @@ cadd-scripts
 
     <script>
         var package = "cadd-scripts";
-        var versions = ["1.6","1.6"];
+        var versions = ["1.6.post1","1.6","1.6"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-clusterexperiment
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.14.0-2</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.1-0</code>,  <code>2.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.14.0-2</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.1-0</code>,  </span></summary>
       
 
-      ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.0-0``
+      ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -40,21 +40,31 @@ bioconductor-clusterexperiment
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocsingular: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-hdf5array: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-mbkmeans: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-zinbwave: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-edger: ``>=4.0.2,<4.1.0a0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0a0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
+   :depends bioconductor-mbkmeans: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-mbkmeans: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-zinbwave: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-zinbwave: ``>=1.24.0,<1.25.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-ape: ``>=5.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
@@ -117,7 +127,7 @@ bioconductor-clusterexperiment
 
     <script>
         var package = "bioconductor-clusterexperiment";
-        var versions = ["2.20.0","2.18.0","2.18.0","2.14.0","2.14.0"];
+        var versions = ["2.22.0","2.20.0","2.18.0","2.18.0","2.14.0"];
     </script>
 
 
