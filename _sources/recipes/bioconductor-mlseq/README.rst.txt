@@ -29,10 +29,10 @@ bioconductor-mlseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.0.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.0.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-mlseq
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-sseq: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-sseq: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
    :depends r-foreach: 
@@ -103,7 +103,7 @@ bioconductor-mlseq
 
     <script>
         var package = "bioconductor-mlseq";
-        var versions = ["2.18.0","2.16.0","2.12.0","2.10.0","2.8.0"];
+        var versions = ["2.20.0","2.18.0","2.16.0","2.12.0","2.10.0"];
     </script>
 
 

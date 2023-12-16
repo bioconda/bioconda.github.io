@@ -26,14 +26,24 @@ bioconductor-rsbml
    :versions:
       
       
+      .. raw:: html
 
-      ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.52.0-2``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.52.0-2</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  </span></summary>
+      
 
+      ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.52.0-2``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -88,7 +98,7 @@ bioconductor-rsbml
 
     <script>
         var package = "bioconductor-rsbml";
-        var versions = ["2.58.0","2.56.0","2.56.0","2.52.0","2.52.0"];
+        var versions = ["2.60.0","2.58.0","2.56.0","2.56.0","2.52.0"];
     </script>
 
 

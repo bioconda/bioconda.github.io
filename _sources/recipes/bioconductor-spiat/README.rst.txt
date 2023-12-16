@@ -27,14 +27,14 @@ bioconductor-spiat
       
       
 
-      ``1.2.2-0``,  ``1.0.0-0``
+      ``1.4.1-0``,  ``1.2.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-dittoseq: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-spatialexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-dittoseq: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-apcluster: ``>=1.4.7``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbscan: ``>=1.1-5``
@@ -47,6 +47,7 @@ bioconductor-spiat
    :depends r-rann: ``>=2.6.1``
    :depends r-raster: 
    :depends r-reshape2: ``>=1.4.3``
+   :depends r-rlang: 
    :depends r-sp: 
    :depends r-spatstat.explore: 
    :depends r-spatstat.geom: 
@@ -99,7 +100,7 @@ bioconductor-spiat
 
     <script>
         var package = "bioconductor-spiat";
-        var versions = ["1.2.2","1.0.0"];
+        var versions = ["1.4.1","1.2.2","1.0.0"];
     </script>
 
 

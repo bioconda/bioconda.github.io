@@ -27,12 +27,12 @@ bioconductor-spotlight
       
       
 
-      ``1.4.1-0``,  ``1.2.0-0``
+      ``1.6.3-0``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-matrix: 
@@ -86,7 +86,7 @@ bioconductor-spotlight
 
     <script>
         var package = "bioconductor-spotlight";
-        var versions = ["1.4.1","1.2.0"];
+        var versions = ["1.6.3","1.4.1","1.2.0"];
     </script>
 
 

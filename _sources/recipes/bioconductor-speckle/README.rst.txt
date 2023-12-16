@@ -27,14 +27,14 @@ bioconductor-speckle
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-seurat: 
@@ -85,7 +85,7 @@ bioconductor-speckle
 
     <script>
         var package = "bioconductor-speckle";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

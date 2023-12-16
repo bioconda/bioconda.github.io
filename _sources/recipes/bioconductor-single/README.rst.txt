@@ -27,16 +27,16 @@ bioconductor-single
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genomicalignments: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-reshape2: 
@@ -90,7 +90,7 @@ bioconductor-single
 
     <script>
         var package = "bioconductor-single";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0"];
     </script>
 
 

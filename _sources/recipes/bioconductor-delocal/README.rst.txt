@@ -27,14 +27,14 @@ bioconductor-delocal
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -87,7 +87,7 @@ bioconductor-delocal
 
     <script>
         var package = "bioconductor-delocal";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

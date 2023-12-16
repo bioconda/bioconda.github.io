@@ -27,12 +27,12 @@ bioconductor-sipsic
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-matrix: 
    :requirements:
@@ -82,7 +82,7 @@ bioconductor-sipsic
 
     <script>
         var package = "bioconductor-sipsic";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

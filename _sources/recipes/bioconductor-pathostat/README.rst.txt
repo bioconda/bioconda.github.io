@@ -29,10 +29,10 @@ bioconductor-pathostat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.4-0``,  ``1.6.1-0``,  ``1.4.1-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.4-0``,  ``1.6.1-0``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-pathostat
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-phyloseq: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-phyloseq: ``>=1.46.0,<1.47.0``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-corpcor: 
@@ -118,7 +118,7 @@ bioconductor-pathostat
 
     <script>
         var package = "bioconductor-pathostat";
-        var versions = ["1.26.0","1.24.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.20.0","1.18.0"];
     </script>
 
 

@@ -27,11 +27,12 @@ tower-cli
       
       
 
-      ``0.9.0-0``,  ``0.8.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``
 
       
 
    
+   :depends openjdk: ``>=17``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +80,7 @@ tower-cli
 
     <script>
         var package = "tower-cli";
-        var versions = ["0.9.0","0.8.0"];
+        var versions = ["0.9.1","0.9.0","0.8.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-anaquin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  </span></summary>
       
 
-      ``2.24.0-0``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
+      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-anaquin
       
 
    
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-qvalue: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: ``>=2.2.0``
    :depends r-knitr: 
@@ -95,7 +95,7 @@ bioconductor-anaquin
 
     <script>
         var package = "bioconductor-anaquin";
-        var versions = ["2.24.0","2.22.0","2.18.0","2.16.0","2.14.0"];
+        var versions = ["2.26.0","2.24.0","2.22.0","2.18.0","2.16.0"];
     </script>
 
 

@@ -26,18 +26,26 @@ bioconductor-desubs
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.1-1</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-ebseq: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-rbgl: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-ebseq: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
    :depends r-ggplot2: 
@@ -94,7 +102,7 @@ bioconductor-desubs
 
     <script>
         var package = "bioconductor-desubs";
-        var versions = ["1.26.0","1.24.0","1.20.0","1.18.0","1.14.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.20.0","1.18.0"];
     </script>
 
 
