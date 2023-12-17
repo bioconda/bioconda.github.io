@@ -13,7 +13,7 @@ r-erah
    Automated compound deconvolution\, alignment across samples\, and identification of metabolites by spectral library matching in Gas Chromatography \- Mass spectrometry \(GC\-MS\) untargeted metabolomics.
 
    :homepage: https://CRAN.R-project.org/package=erah
-   :license: GPL-2 | GPL-3
+   :license: GPL-2.0-or-later
    :recipe: /`r-erah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-erah>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-erah/meta.yaml>`_
 
    Outputs a table with compound names\, matching scores and the integrated area of the compound for each sample. Package implementation is described in Domingo\-Almenara et al. \(2016\) \<doi\:10.1021\/acs.analchem.6b02927\>.
@@ -27,7 +27,7 @@ r-erah
       
       
 
-      ``1.1.2-0``
+      ``2.0.0-0``,  ``1.1.2-0``
 
       
 
@@ -35,13 +35,15 @@ r-erah
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-furrr: 
+   :depends r-future: 
+   :depends r-hiclimr: 
    :depends r-igraph: 
-   :depends r-ncdf4: 
-   :depends r-nnls: 
+   :depends r-osd: 
+   :depends r-progress: 
    :depends r-quantreg: 
-   :depends r-r.methodss3: 
    :depends r-signal: 
-   :depends r-xml: 
+   :depends r-tibble: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +91,7 @@ r-erah
 
     <script>
         var package = "r-erah";
-        var versions = ["1.1.2"];
+        var versions = ["2.0.0","1.1.2"];
     </script>
 
 

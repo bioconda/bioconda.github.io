@@ -13,7 +13,7 @@ illumina-utils
    A library and collection of scripts to work with Illumina paired\-end data \(for CASAVA 1.8\+\).
 
    :homepage: https://github.com/meren/illumina-utils
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`illumina-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-utils/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ illumina-utils
    :versions:
       
       
+      .. raw:: html
 
-      ``2.12-0``,  ``2.11-0``,  ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.13-0</code>,  <code>2.12-0</code>,  <code>2.11-0</code>,  <code>2.10-0</code>,  <code>2.9-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  </span></summary>
+      
 
+      ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -83,7 +91,7 @@ illumina-utils
 
     <script>
         var package = "illumina-utils";
-        var versions = ["2.12","2.11","2.10","2.9","2.8"];
+        var versions = ["2.13","2.12","2.11","2.10","2.9"];
     </script>
 
 

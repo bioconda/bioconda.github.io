@@ -35,7 +35,7 @@ orthoflow
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -100,7 +100,7 @@ orthoflow
 
     <script>
         var package = "orthoflow";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 
