@@ -13,7 +13,7 @@ searchgui
    User\-friendly graphical tool for using proteomics identification search engines
 
    :homepage: https://github.com/compomics/searchgui
-   :license: APACHE / Apache License 2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`searchgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui/meta.yaml>`_
    :links: biotools: :biotools:`searchgui`, usegalaxy-eu: :usegalaxy-eu:`search_gui`, doi: :doi:`10.1002/pmic.201000595`
 
@@ -29,10 +29,10 @@ searchgui
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.3-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.17-0</code>,  <code>4.2.14-0</code>,  <code>4.2.9-0</code>,  <code>4.1.24-0</code>,  <code>4.0.41-1</code>,  <code>4.0.41-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.5-0</code>,  <code>4.3.3-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.17-0</code>,  <code>4.2.14-0</code>,  <code>4.2.9-0</code>,  <code>4.1.24-0</code>,  <code>4.0.41-1</code>,  </span></summary>
       
 
-      ``4.3.3-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.17-0``,  ``4.2.14-0``,  ``4.2.9-0``,  ``4.1.24-0``,  ``4.0.41-1``,  ``4.0.41-0``,  ``4.0.33-0``,  ``4.0.32-0``,  ``4.0.25-2``,  ``4.0.25-0``,  ``4.0.22-1``,  ``4.0.22-0``,  ``4.0.12-0``,  ``4.0.7-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.1.alpha-0``,  ``3.3.10-0``,  ``3.3.9-1``,  ``3.3.9-0``,  ``3.3.6-1``,  ``3.3.5-1``,  ``3.3.3-1``,  ``3.3.1-1``,  ``3.3.1-0``,  ``3.2.26-0``,  ``3.2.24-0``,  ``3.2.20-0``,  ``3.2.13-1``,  ``3.2.13-0``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.8-1``,  ``3.2.8-0``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.1.4-2``,  ``3.1.4-1``,  ``3.1.4-0``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``
+      ``4.3.5-0``,  ``4.3.3-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.17-0``,  ``4.2.14-0``,  ``4.2.9-0``,  ``4.1.24-0``,  ``4.0.41-1``,  ``4.0.41-0``,  ``4.0.33-0``,  ``4.0.32-0``,  ``4.0.25-2``,  ``4.0.25-0``,  ``4.0.22-1``,  ``4.0.22-0``,  ``4.0.12-0``,  ``4.0.7-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.1.alpha-0``,  ``3.3.10-0``,  ``3.3.9-1``,  ``3.3.9-0``,  ``3.3.6-1``,  ``3.3.5-1``,  ``3.3.3-1``,  ``3.3.1-1``,  ``3.3.1-0``,  ``3.2.26-0``,  ``3.2.24-0``,  ``3.2.20-0``,  ``3.2.13-1``,  ``3.2.13-0``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.8-1``,  ``3.2.8-0``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.1.4-2``,  ``3.1.4-1``,  ``3.1.4-0``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ searchgui
    :depends blast: ``>=2.14.0``
    :depends fontconfig: 
    :depends fonts-conda-ecosystem: 
-   :depends metamorpheus: ``1.0.2``
+   :depends metamorpheus: ``1.0.5``
    :depends mono: ``>=6.0.0``
    :depends openjdk: ``>=17``
    :depends python: 
@@ -96,7 +96,7 @@ searchgui
 
     <script>
         var package = "searchgui";
-        var versions = ["4.3.3","4.3.1","4.3.0","4.2.17","4.2.14"];
+        var versions = ["4.3.5","4.3.3","4.3.1","4.3.0","4.2.17"];
     </script>
 
 

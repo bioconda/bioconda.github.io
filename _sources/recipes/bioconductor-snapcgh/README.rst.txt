@@ -28,10 +28,10 @@ bioconductor-snapcgh
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  </span></summary>
       
 
-      ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``
+      ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``
 
       
       .. raw:: html
@@ -40,13 +40,17 @@ bioconductor-snapcgh
       
 
    
-   :depends bioconductor-acgh: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-dnacopy: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-glad: ``>=2.64.0,<2.65.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-tilingarray: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-acgh: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-acgh: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0a0``
+   :depends bioconductor-glad: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-glad: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
+   :depends bioconductor-tilingarray: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-tilingarray: ``>=1.80.0,<1.81.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-cluster: 
@@ -97,7 +101,7 @@ bioconductor-snapcgh
 
     <script>
         var package = "bioconductor-snapcgh";
-        var versions = ["1.70.0","1.68.0","1.68.0","1.64.0","1.64.0"];
+        var versions = ["1.72.0","1.70.0","1.68.0","1.68.0","1.64.0"];
     </script>
 
 
