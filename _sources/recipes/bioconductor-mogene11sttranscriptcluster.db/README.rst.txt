@@ -28,10 +28,10 @@ bioconductor-mogene11sttranscriptcluster.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.8.0-3</code>,  <code>8.8.0-2</code>,  <code>8.8.0-1</code>,  <code>8.8.0-0</code>,  <code>8.7.0-7</code>,  <code>8.7.0-6</code>,  <code>8.7.0-5</code>,  <code>8.7.0-4</code>,  <code>8.7.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.8.0-4</code>,  <code>8.8.0-3</code>,  <code>8.8.0-2</code>,  <code>8.8.0-1</code>,  <code>8.8.0-0</code>,  <code>8.7.0-7</code>,  <code>8.7.0-6</code>,  <code>8.7.0-5</code>,  <code>8.7.0-4</code>,  </span></summary>
       
 
-      ``8.8.0-3``,  ``8.8.0-2``,  ``8.8.0-1``,  ``8.8.0-0``,  ``8.7.0-7``,  ``8.7.0-6``,  ``8.7.0-5``,  ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-2``,  ``8.7.0-0``
+      ``8.8.0-4``,  ``8.8.0-3``,  ``8.8.0-2``,  ``8.8.0-1``,  ``8.8.0-0``,  ``8.7.0-7``,  ``8.7.0-6``,  ``8.7.0-5``,  ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-2``,  ``8.7.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-mogene11sttranscriptcluster.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-org.mm.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -92,7 +92,7 @@ bioconductor-mogene11sttranscriptcluster.db
 
     <script>
         var package = "bioconductor-mogene11sttranscriptcluster.db";
-        var versions = ["8.8.0","8.8.0","8.8.0","8.8.0","8.7.0"];
+        var versions = ["8.8.0","8.8.0","8.8.0","8.8.0","8.8.0"];
     </script>
 
 

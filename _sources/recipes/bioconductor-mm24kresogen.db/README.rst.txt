@@ -28,10 +28,10 @@ bioconductor-mm24kresogen.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-11</code>,  <code>2.5.0-10</code>,  <code>2.5.0-9</code>,  <code>2.5.0-8</code>,  <code>2.5.0-7</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.0-12</code>,  <code>2.5.0-11</code>,  <code>2.5.0-10</code>,  <code>2.5.0-9</code>,  <code>2.5.0-8</code>,  <code>2.5.0-7</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  </span></summary>
       
 
-      ``2.5.0-11``,  ``2.5.0-10``,  ``2.5.0-9``,  ``2.5.0-8``,  ``2.5.0-7``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
+      ``2.5.0-12``,  ``2.5.0-11``,  ``2.5.0-10``,  ``2.5.0-9``,  ``2.5.0-8``,  ``2.5.0-7``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-mm24kresogen.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-org.mm.eg.db: ``>=3.17.0,<3.18.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

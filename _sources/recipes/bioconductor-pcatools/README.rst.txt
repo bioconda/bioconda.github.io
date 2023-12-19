@@ -40,7 +40,6 @@ bioconductor-pcatools
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-beachmat: ``>=2.18.0,<2.19.0``
    :depends bioconductor-beachmat: ``>=2.18.0,<2.19.0a0``
    :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
@@ -52,8 +51,9 @@ bioconductor-pcatools
    :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
    :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 
    :depends r-cowplot: 

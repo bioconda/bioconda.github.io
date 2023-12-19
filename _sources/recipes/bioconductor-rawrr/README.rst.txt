@@ -27,7 +27,7 @@ bioconductor-rawrr
       
       
 
-      ``1.8.1-0``,  ``1.6.0-0``,  ``1.2.0-0``
+      ``1.10.2-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.2.0-0``
 
       
 
@@ -81,7 +81,7 @@ bioconductor-rawrr
 
     <script>
         var package = "bioconductor-rawrr";
-        var versions = ["1.8.1","1.6.0","1.2.0"];
+        var versions = ["1.10.2","1.8.1","1.6.0","1.2.0"];
     </script>
 
 

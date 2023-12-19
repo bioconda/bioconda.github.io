@@ -27,19 +27,19 @@ bioconductor-metascope
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-rbowtie2: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-rbowtie2: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
@@ -48,7 +48,6 @@ bioconductor-metascope
    :depends r-magrittr: 
    :depends r-matrix: 
    :depends r-qlcmatrix: 
-   :depends r-r.utils: 
    :depends r-readr: 
    :depends r-rlang: 
    :depends r-stringr: 
@@ -101,7 +100,7 @@ bioconductor-metascope
 
     <script>
         var package = "bioconductor-metascope";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

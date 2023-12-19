@@ -27,13 +27,15 @@ bioconductor-chemmineob
       
       
 
-      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-zlibbioc: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends eigen: 
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
@@ -90,7 +92,7 @@ bioconductor-chemmineob
 
     <script>
         var package = "bioconductor-chemmineob";
-        var versions = ["1.38.0","1.36.0","1.36.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0"];
     </script>
 
 
