@@ -27,16 +27,16 @@ bioconductor-cageminer
       
       
 
-      ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bionero: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-ggbio: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-bionero: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-ggbio: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ggplot2: 
    :depends r-ggtext: 
@@ -89,7 +89,7 @@ bioconductor-cageminer
 
     <script>
         var package = "bioconductor-cageminer";
-        var versions = ["1.6.1","1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.6.1","1.4.0","1.0.0"];
     </script>
 
 

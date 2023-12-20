@@ -29,10 +29,10 @@ bioconductor-bgeedb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  </span></summary>
       
 
-      ``2.26.0-0``,  ``2.24.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-bgeedb
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-topgo: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-curl: 
    :depends r-data.table: 
@@ -100,7 +100,7 @@ bioconductor-bgeedb
 
     <script>
         var package = "bioconductor-bgeedb";
-        var versions = ["2.26.0","2.24.0","2.20.0","2.18.0","2.16.0"];
+        var versions = ["2.28.0","2.26.0","2.24.0","2.20.0","2.18.0"];
     </script>
 
 

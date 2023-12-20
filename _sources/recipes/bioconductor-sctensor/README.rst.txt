@@ -26,26 +26,34 @@ bioconductor-sctensor
    :versions:
       
       
+      .. raw:: html
 
-      ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-category: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
-   :depends bioconductor-gostats: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-meshdbi: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-meshr: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-reactome.db: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-reactomepa: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-schex: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
+   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
+   :depends bioconductor-meshdbi: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-meshr: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-reactomepa: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-schex: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-abind: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biocmanager: 
@@ -112,7 +120,7 @@ bioconductor-sctensor
 
     <script>
         var package = "bioconductor-sctensor";
-        var versions = ["2.10.0","2.8.0","2.4.0","2.2.0","2.0.0"];
+        var versions = ["2.12.0","2.10.0","2.8.0","2.4.0","2.2.0"];
     </script>
 
 

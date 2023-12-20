@@ -29,9 +29,17 @@ capcruncher
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+      
 
+      ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -109,7 +117,7 @@ capcruncher
 
     <script>
         var package = "capcruncher";
-        var versions = ["0.3.8","0.3.7","0.3.6","0.3.5","0.3.4"];
+        var versions = ["0.3.10","0.3.9","0.3.8","0.3.7","0.3.6"];
     </script>
 
 

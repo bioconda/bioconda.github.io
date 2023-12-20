@@ -68,8 +68,9 @@ bioconductor-diffbind
    :depends bioconductor-systempiper: ``>=2.8.0,<2.9.0``
    :depends bioconductor-systempiper: ``>=2.8.0,<2.9.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-amap: 
    :depends r-ashr: 
    :depends r-base: ``>=4.3,<4.4.0a0``

@@ -27,34 +27,34 @@ bioconductor-factr
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-drawproteins: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicfeatures: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-wiggleplotr: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-drawproteins: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-wiggleplotr: ``>=1.26.0,<1.27.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-crayon: 
+   :depends r-crayon: ``>=1.5``
    :depends r-data.table: ``>=1.14``
-   :depends r-dplyr: ``>=1.0``
-   :depends r-ggplot2: ``>=3.3``
-   :depends r-pbapply: ``>=1.5``
-   :depends r-purrr: ``>=0.3``
+   :depends r-dplyr: ``>=1.1``
+   :depends r-ggplot2: ``>=3.4``
+   :depends r-pbapply: ``>=1.7``
+   :depends r-purrr: ``>=1.0``
    :depends r-rcurl: ``>=1.98``
-   :depends r-rlang: ``>=1.0``
-   :depends r-stringr: ``>=1.4``
-   :depends r-tibble: ``>=3.1``
-   :depends r-tidyr: ``>=1.1``
+   :depends r-rlang: ``>=1.1``
+   :depends r-stringr: ``>=1.5``
+   :depends r-tibble: ``>=3.2``
+   :depends r-tidyr: ``>=1.3``
    :depends r-xml: ``>=3.99``
    :requirements:
 
@@ -103,7 +103,7 @@ bioconductor-factr
 
     <script>
         var package = "bioconductor-factr";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0"];
     </script>
 
 

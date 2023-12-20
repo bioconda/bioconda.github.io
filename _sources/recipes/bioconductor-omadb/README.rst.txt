@@ -28,10 +28,10 @@ bioconductor-omadb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-omadb
       
 
    
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-topgo: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-httr: ``>=1.2.1``
@@ -96,7 +96,7 @@ bioconductor-omadb
 
     <script>
         var package = "bioconductor-omadb";
-        var versions = ["2.16.0","2.14.0","2.10.0","2.8.0","2.6.1"];
+        var versions = ["2.18.0","2.16.0","2.14.0","2.10.0","2.8.0"];
     </script>
 
 

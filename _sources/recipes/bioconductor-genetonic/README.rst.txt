@@ -27,17 +27,17 @@ bioconductor-genetonic
       
       
 
-      ``2.4.0-0``,  ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-backbone: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bs4dash: ``>=2.0.0``
@@ -117,7 +117,7 @@ bioconductor-genetonic
 
     <script>
         var package = "bioconductor-genetonic";
-        var versions = ["2.4.0","2.2.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["2.6.0","2.4.0","2.2.0","1.6.0","1.4.0"];
     </script>
 
 

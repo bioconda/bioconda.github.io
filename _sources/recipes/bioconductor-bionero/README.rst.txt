@@ -27,17 +27,17 @@ bioconductor-bionero
       
       
 
-      ``1.8.5-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.5-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-complexheatmap: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-genie3: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-minet: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-genie3: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-minet: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dynamictreecut: 
    :depends r-ggdendro: 
@@ -100,7 +100,7 @@ bioconductor-bionero
 
     <script>
         var package = "bioconductor-bionero";
-        var versions = ["1.8.5","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.5","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

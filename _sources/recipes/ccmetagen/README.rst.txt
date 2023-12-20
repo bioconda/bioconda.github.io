@@ -27,7 +27,7 @@ ccmetagen
       
       
 
-      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.5-0``
+      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.5-0``
 
       
 
@@ -36,7 +36,7 @@ ccmetagen
    :depends kma: ``>=1.3``
    :depends krona: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.9,<3.12``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +84,7 @@ ccmetagen
 
     <script>
         var package = "ccmetagen";
-        var versions = ["1.4.2","1.4.1","1.4.0","1.2.5"];
+        var versions = ["1.4.2","1.4.2","1.4.1","1.4.0","1.2.5"];
     </script>
 
 

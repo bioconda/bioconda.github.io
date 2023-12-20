@@ -28,10 +28,10 @@ bioconductor-phyloprofile
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.5-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  <code>1.2.8-1</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.5-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  <code>1.2.8-1</code>,  <code>1.2.6-0</code>,  </span></summary>
       
 
-      ``1.14.5-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.16.0-0``,  ``1.14.5-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-phyloprofile
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-biodist: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-biostrings: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-experimenthub: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-omadb: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-biodist: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-omadb: ``>=2.18.0,<2.19.0``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-colourpicker: 
@@ -59,8 +59,10 @@ bioconductor-phyloprofile
    :depends r-rcurl: 
    :depends r-shiny: 
    :depends r-shinybs: 
+   :depends r-shinycssloaders: 
    :depends r-shinyfiles: 
    :depends r-shinyjs: 
+   :depends r-stringr: 
    :depends r-xml2: 
    :depends r-yaml: 
    :depends r-zoo: 
@@ -111,7 +113,7 @@ bioconductor-phyloprofile
 
     <script>
         var package = "bioconductor-phyloprofile";
-        var versions = ["1.14.5","1.12.0","1.8.0","1.6.1","1.4.9"];
+        var versions = ["1.16.0","1.14.5","1.12.0","1.8.0","1.6.1"];
     </script>
 
 
