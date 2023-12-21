@@ -27,34 +27,29 @@ bioconductor-ssnappy
       
       
 
-      ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-graphite: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=1.1``
    :depends r-ggforce: 
    :depends r-ggplot2: 
    :depends r-ggraph: 
+   :depends r-gtools: 
    :depends r-igraph: 
    :depends r-magrittr: 
    :depends r-pheatmap: 
-   :depends r-rcpp: 
-   :depends r-rcpparmadillo: 
    :depends r-reshape2: 
    :depends r-rlang: 
    :depends r-stringr: 
    :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +97,7 @@ bioconductor-ssnappy
 
     <script>
         var package = "bioconductor-ssnappy";
-        var versions = ["1.4.1","1.2.0","1.2.0"];
+        var versions = ["1.6.1","1.4.1","1.2.0","1.2.0"];
     </script>
 
 

@@ -13,7 +13,10 @@ fgpyo
    Python bioinformatics and genomics library
 
    :homepage: https://pypi.org/project/fgpyo/
-   :license: MIT
+   :documentation: https://fgpyo.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/fulcrumgenomics/fgpyo
+   :license: MIT / MIT
    :recipe: /`fgpyo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgpyo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgpyo/meta.yaml>`_
 
    
@@ -27,13 +30,14 @@ fgpyo
       
       
 
-      ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``
+      ``0.1.2-0``,  ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``
 
       
 
    
    :depends attrs: ``>=19.3.0``
    :depends pysam: ``>=0.20.0``
+   :depends pytest: ``>=7.4.0``
    :depends python: ``>=3.7``
    :requirements:
 
@@ -82,7 +86,7 @@ fgpyo
 
     <script>
         var package = "fgpyo";
-        var versions = ["0.1.0","0.0.8","0.0.7","0.0.6","0.0.5"];
+        var versions = ["0.1.2","0.1.0","0.0.8","0.0.7","0.0.6"];
     </script>
 
 

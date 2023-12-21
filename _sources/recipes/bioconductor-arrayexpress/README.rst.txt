@@ -28,10 +28,10 @@ bioconductor-arrayexpress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.60.0-0</code>,  <code>1.57.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.57.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  </span></summary>
       
 
-      ``1.60.0-0``,  ``1.57.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.1-0``
+      ``1.62.0-0``,  ``1.60.0-0``,  ``1.57.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.1-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-arrayexpress
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-oligo: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-oligo: ``>=1.66.0,<1.67.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 
@@ -94,7 +94,7 @@ bioconductor-arrayexpress
 
     <script>
         var package = "bioconductor-arrayexpress";
-        var versions = ["1.60.0","1.57.0","1.54.0","1.52.0","1.50.0"];
+        var versions = ["1.62.0","1.60.0","1.57.0","1.54.0","1.52.0"];
     </script>
 
 

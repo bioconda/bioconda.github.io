@@ -27,7 +27,7 @@ hlafreq
       
       
 
-      ``0.0.2-0``
+      ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -88,7 +88,7 @@ hlafreq
 
     <script>
         var package = "hlafreq";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.3","0.0.2"];
     </script>
 
 

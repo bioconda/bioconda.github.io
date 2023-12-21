@@ -27,18 +27,18 @@ bioconductor-dce
       
       
 
-      ``1.7.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-epinem: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-graphite: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-mnem: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-epinem: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-mnem: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
@@ -110,7 +110,7 @@ bioconductor-dce
 
     <script>
         var package = "bioconductor-dce";
-        var versions = ["1.7.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.7.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

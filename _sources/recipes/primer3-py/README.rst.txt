@@ -15,7 +15,7 @@ primer3-py
    :homepage: https://github.com/libnano/primer3-py
    :documentation: https://libnano.github.io/primer3-py/
    
-   :license: GPL / GPL-2.0-only
+   :license: GPL2 / GPL-2.0-only
    :recipe: /`primer3-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3-py/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ primer3-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-2</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.1-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.1-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ primer3-py
 
    
    :depends libgcc-ng: ``>=12``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +92,7 @@ primer3-py
 
     <script>
         var package = "primer3-py";
-        var versions = ["2.0.1","2.0.0","1.2.2","1.2.1","1.2.0"];
+        var versions = ["2.0.1","2.0.1","2.0.0","1.2.2","1.2.1"];
     </script>
 
 

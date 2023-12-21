@@ -26,9 +26,17 @@ methylartist
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.7-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.11-0</code>,  <code>1.2.7-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.2.11-0``,  ``1.2.7-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ methylartist
 
     <script>
         var package = "methylartist";
-        var versions = ["1.2.7","1.2.3","1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.2.11","1.2.7","1.2.3","1.2.2","1.2.1"];
     </script>
 
 

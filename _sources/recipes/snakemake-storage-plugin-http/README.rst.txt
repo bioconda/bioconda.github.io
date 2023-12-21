@@ -27,7 +27,7 @@ snakemake-storage-plugin-http
       
       
 
-      ``0.2.3-0``
+      ``0.2.3-1``,  ``0.2.3-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-storage-plugin-http
 
     <script>
         var package = "snakemake-storage-plugin-http";
-        var versions = ["0.2.3"];
+        var versions = ["0.2.3","0.2.3"];
     </script>
 
 

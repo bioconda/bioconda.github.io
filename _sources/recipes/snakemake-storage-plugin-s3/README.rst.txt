@@ -27,7 +27,7 @@ snakemake-storage-plugin-s3
       
       
 
-      ``0.2.8-0``
+      ``0.2.8-1``,  ``0.2.8-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-storage-plugin-s3
 
     <script>
         var package = "snakemake-storage-plugin-s3";
-        var versions = ["0.2.8"];
+        var versions = ["0.2.8","0.2.8"];
     </script>
 
 

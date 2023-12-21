@@ -10,10 +10,12 @@ hatchet
    :replaces_section_title:
    :noindex:
 
-   Holistic Allele\-specific Tumor Copy\-number Heterogeneity
+   A package to infer allele and clone\-specific copy\-number aberrations \(CNAs\).
 
    :homepage: https://github.com/raphael-group/hatchet
-   :license: BSD-3
+   :documentation: https://raphael-group.github.io/hatchet/
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`hatchet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hatchet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hatchet/meta.yaml>`_
 
    HATCHet is an algorithm to infer allele and clone\-specific copy\-number
@@ -31,10 +33,10 @@ hatchet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.4.14-0</code>,  <code>0.4.12-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.4.14-0</code>,  </span></summary>
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.4.14-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-3``,  ``0.2.9-1``,  ``0.2.9-0``
+      ``2.0.1-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.4.14-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-3``,  ``0.2.9-1``,  ``0.2.9-0``
 
       
       .. raw:: html
@@ -46,11 +48,12 @@ hatchet
    :depends bcftools: ``>=1.9``
    :depends biopython: 
    :depends hmmlearn: 
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends mosdepth: 
    :depends pandas: 
-   :depends picard: 
+   :depends picard-slim: 
    :depends psutil: 
    :depends pyomo: 
    :depends pysam: 
@@ -109,7 +112,7 @@ hatchet
 
     <script>
         var package = "hatchet";
-        var versions = ["1.1.1","1.1.1","1.1.0","1.0.3","1.0.2"];
+        var versions = ["2.0.1","1.1.1","1.1.1","1.1.0","1.0.3"];
     </script>
 
 
