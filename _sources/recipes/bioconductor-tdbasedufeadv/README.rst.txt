@@ -27,18 +27,18 @@ bioconductor-tdbasedufeadv
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
-   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rtcga: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-stringdb: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-tdbasedufe: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
+   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rtcga: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-stringdb: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-tdbasedufe: ``>=1.2.0,<1.3.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-enrichr: 
    :depends r-hash: 
@@ -91,7 +91,7 @@ bioconductor-tdbasedufeadv
 
     <script>
         var package = "bioconductor-tdbasedufeadv";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

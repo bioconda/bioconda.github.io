@@ -27,16 +27,16 @@ bioconductor-sbgnview
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-keggrest: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-pathview: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-sbgnview.data: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-pathview: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-sbgnview.data: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bookdown: 
    :depends r-httr: 
@@ -93,7 +93,7 @@ bioconductor-sbgnview
 
     <script>
         var package = "bioconductor-sbgnview";
-        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.1"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
     </script>
 
 

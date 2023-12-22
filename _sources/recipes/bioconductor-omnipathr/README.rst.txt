@@ -27,7 +27,7 @@ bioconductor-omnipathr
       
       
 
-      ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``3.10.1-0``,  ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,12 +37,13 @@ bioconductor-omnipathr
    :depends r-crayon: 
    :depends r-curl: 
    :depends r-digest: 
-   :depends r-dplyr: 
+   :depends r-dplyr: ``>=1.1.0``
    :depends r-httr: 
    :depends r-igraph: 
    :depends r-jsonlite: 
    :depends r-later: 
    :depends r-logger: 
+   :depends r-lubridate: 
    :depends r-magrittr: 
    :depends r-progress: 
    :depends r-purrr: 
@@ -52,6 +53,7 @@ bioconductor-omnipathr
    :depends r-rlang: 
    :depends r-rmarkdown: 
    :depends r-rvest: 
+   :depends r-stringi: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
@@ -106,7 +108,7 @@ bioconductor-omnipathr
 
     <script>
         var package = "bioconductor-omnipathr";
-        var versions = ["3.8.0","3.5.25","3.2.0","3.0.0","2.0.0"];
+        var versions = ["3.10.1","3.8.0","3.5.25","3.2.0","3.0.0"];
     </script>
 
 

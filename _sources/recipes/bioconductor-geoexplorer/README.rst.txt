@@ -27,31 +27,42 @@ bioconductor-geoexplorer
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-geoquery: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-impute: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-car: 
    :depends r-dt: 
+   :depends r-enrichr: 
    :depends r-factoextra: 
    :depends r-ggplot2: 
    :depends r-heatmaply: 
    :depends r-htmltools: 
-   :depends r-maptools: 
+   :depends r-httr: 
+   :depends r-knitr: 
+   :depends r-markdown: 
    :depends r-pheatmap: 
    :depends r-plotly: 
+   :depends r-r.utils: 
+   :depends r-readxl: 
    :depends r-scales: 
    :depends r-shiny: 
-   :depends r-shinybs: 
    :depends r-shinybusy: 
+   :depends r-shinycssloaders: 
    :depends r-shinyheatmaply: 
    :depends r-stringr: 
    :depends r-umap: 
+   :depends r-xfun: 
+   :depends r-xml: 
+   :depends r-xml2: 
    :requirements:
 
    .. rubric:: Installation
@@ -99,7 +110,7 @@ bioconductor-geoexplorer
 
     <script>
         var package = "bioconductor-geoexplorer";
-        var versions = ["1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

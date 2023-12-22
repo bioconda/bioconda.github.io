@@ -29,10 +29,10 @@ bioconductor-keggorthology
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  </span></summary>
       
 
-      ``2.52.0-0``,  ``2.50.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
+      ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-keggorthology
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
    :depends bioconductor-hgu95av2.db: ``>=3.13.0,<3.14.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dbi: 
@@ -93,7 +93,7 @@ bioconductor-keggorthology
 
     <script>
         var package = "bioconductor-keggorthology";
-        var versions = ["2.52.0","2.50.0","2.46.0","2.44.0","2.42.0"];
+        var versions = ["2.54.0","2.52.0","2.50.0","2.46.0","2.44.0"];
     </script>
 
 

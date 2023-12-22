@@ -27,16 +27,15 @@ bioconductor-bionar
       
       
 
-      ``1.2.4-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.4-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-fgsea: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-synaptome.db: ``>=0.99.0,<0.100.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-clustercons: 
    :depends r-cowplot: 
@@ -46,6 +45,7 @@ bioconductor-bionar
    :depends r-ggrepel: 
    :depends r-igraph: ``>=1.4.0``
    :depends r-latex2exp: 
+   :depends r-matrix: 
    :depends r-minpack.lm: 
    :depends r-powerlaw: 
    :depends r-rdpack: 
@@ -102,7 +102,7 @@ bioconductor-bionar
 
     <script>
         var package = "bioconductor-bionar";
-        var versions = ["1.2.4","1.0.0"];
+        var versions = ["1.4.0","1.2.4","1.0.0"];
     </script>
 
 

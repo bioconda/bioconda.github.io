@@ -40,7 +40,6 @@ bioconductor-celda
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
    :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
    :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
@@ -56,8 +55,9 @@ bioconductor-celda
    :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
    :depends r-data.table: 

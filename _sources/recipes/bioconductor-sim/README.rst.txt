@@ -46,6 +46,7 @@ bioconductor-sim
    :depends bioconductor-quantsmooth: ``>=1.68.0,<1.69.0``
    :depends bioconductor-quantsmooth: ``>=1.68.0,<1.69.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-quantreg: 

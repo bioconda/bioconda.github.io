@@ -27,15 +27,15 @@ bioconductor-miasim
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-matrixgenerics: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.10.0,<2.11.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-desolve: 
    :depends r-powerlaw: 
@@ -86,7 +86,7 @@ bioconductor-miasim
 
     <script>
         var package = "bioconductor-miasim";
-        var versions = ["1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-dapar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.2-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.6-0</code>,  <code>1.22.0-0</code>,  <code>1.20.2-0</code>,  <code>1.18.1-0</code>,  <code>1.16.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.2-0</code>,  <code>1.32.2-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.6-0</code>,  <code>1.22.0-0</code>,  <code>1.20.2-0</code>,  <code>1.18.1-0</code>,  </span></summary>
       
 
-      ``1.32.2-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.6-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
+      ``1.34.2-0``,  ``1.32.2-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.6-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
 
       
       .. raw:: html
@@ -40,12 +40,52 @@ bioconductor-dapar
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-dapardata: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-msnbase: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-dapardata: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-mfuzz: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
+   :depends r-apcluster: 
    :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-cluster: 
+   :depends r-cp4p: 
+   :depends r-dendextend: 
+   :depends r-diptest: 
+   :depends r-doparallel: 
+   :depends r-dplyr: 
+   :depends r-factoextra: 
+   :depends r-factominer: 
+   :depends r-forcats: 
    :depends r-foreach: 
+   :depends r-ggplot2: 
+   :depends r-gplots: 
    :depends r-highcharter: 
+   :depends r-igraph: 
+   :depends r-imp4p: 
+   :depends r-knitr: 
+   :depends r-lme4: 
+   :depends r-matrix: 
+   :depends r-multcomp: 
+   :depends r-norm: 
+   :depends r-openxlsx: 
+   :depends r-purrr: 
+   :depends r-rcolorbrewer: 
+   :depends r-readxl: 
+   :depends r-reshape2: 
+   :depends r-scales: 
+   :depends r-stringr: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
+   :depends r-tidyverse: 
+   :depends r-vioplot: 
+   :depends r-visnetwork: 
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +133,7 @@ bioconductor-dapar
 
     <script>
         var package = "bioconductor-dapar";
-        var versions = ["1.32.2","1.30.0","1.26.0","1.24.3","1.22.6"];
+        var versions = ["1.34.2","1.32.2","1.30.0","1.26.0","1.24.3"];
     </script>
 
 

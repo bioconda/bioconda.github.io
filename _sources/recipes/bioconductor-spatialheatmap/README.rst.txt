@@ -27,44 +27,36 @@ bioconductor-spatialheatmap
       
       
 
-      ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-scater: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-scran: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-scuttle: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-scuttle: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
-   :depends r-dynamictreecut: 
-   :depends r-flashclust: 
-   :depends r-ggdendro: 
    :depends r-ggplot2: 
    :depends r-ggplotify: 
    :depends r-gplots: 
    :depends r-gridextra: 
    :depends r-grimport: 
-   :depends r-htmlwidgets: 
    :depends r-igraph: 
    :depends r-matrix: 
-   :depends r-plotly: 
    :depends r-reshape2: 
    :depends r-rsvg: 
    :depends r-shiny: 
    :depends r-shinydashboard: 
+   :depends r-spscomps: ``>=0.3.3.0``
    :depends r-tibble: 
-   :depends r-upsetr: 
-   :depends r-visnetwork: 
-   :depends r-wgcna: 
    :depends r-xml2: 
-   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -112,7 +104,7 @@ bioconductor-spatialheatmap
 
     <script>
         var package = "bioconductor-spatialheatmap";
-        var versions = ["2.6.0","2.4.0","2.0.0","1.2.0","1.0.0"];
+        var versions = ["2.8.0","2.6.0","2.4.0","2.0.0","1.2.0"];
     </script>
 
 

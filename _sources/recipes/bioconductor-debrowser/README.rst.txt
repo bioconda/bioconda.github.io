@@ -26,30 +26,38 @@ bioconductor-debrowser
    :versions:
       
       
+      .. raw:: html
 
-      ``1.28.2-0``,  ``1.26.0-0``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.26.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.2-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+      
 
+      ``1.30.0-0``,  ``1.28.2-0``,  ``1.26.0-0``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotate: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-apeglm: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-harman: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-pathview: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-harman: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-pathview: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
    :depends r-ashr: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-colourpicker: 
@@ -115,7 +123,7 @@ bioconductor-debrowser
 
     <script>
         var package = "bioconductor-debrowser";
-        var versions = ["1.28.2","1.26.0","1.22.1","1.20.0","1.18.2"];
+        var versions = ["1.30.0","1.28.2","1.26.0","1.22.1","1.20.0"];
     </script>
 
 

@@ -26,16 +26,24 @@ bioconductor-rnainteractmapk
    :versions:
       
       
+      .. raw:: html
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.25.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+      
 
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genefilter: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-rnainteract: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-rnainteract: ``>=1.50.0,<1.51.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-fields: 
@@ -90,7 +98,7 @@ bioconductor-rnainteractmapk
 
     <script>
         var package = "bioconductor-rnainteractmapk";
-        var versions = ["1.38.0","1.36.0","1.32.0","1.32.0","1.30.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.32.0","1.32.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-hd2013sgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-hd2013sgi
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-ebimage: ``>=4.42.0,<4.43.0``
-   :depends bioconductor-geneplotter: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-splots: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
+   :depends bioconductor-geneplotter: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-splots: ``>=1.68.0,<1.69.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gplots: 
@@ -98,7 +98,7 @@ bioconductor-hd2013sgi
 
     <script>
         var package = "bioconductor-hd2013sgi";
-        var versions = ["1.40.0","1.38.0","1.34.0","1.34.0","1.32.0"];
+        var versions = ["1.42.0","1.40.0","1.38.0","1.34.0","1.34.0"];
     </script>
 
 

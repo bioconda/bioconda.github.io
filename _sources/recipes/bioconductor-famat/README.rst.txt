@@ -27,17 +27,17 @@ bioconductor-famat
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-keggrest: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-reactome.db: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-rwikipathways: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-rwikipathways: ``>=1.22.0,<1.23.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biasedurn: 
    :depends r-dplyr: 
@@ -99,7 +99,7 @@ bioconductor-famat
 
     <script>
         var package = "bioconductor-famat";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.1.1","1.0.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.1.1"];
     </script>
 
 

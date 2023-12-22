@@ -35,7 +35,7 @@ fiji-max_inscribed_circles
       
       
 
-      ``2.0.0-0``,  ``1.1.2-0``
+      ``2.1.0-0``,  ``2.0.0-0``,  ``1.1.2-0``
 
       
 
@@ -88,7 +88,7 @@ fiji-max_inscribed_circles
 
     <script>
         var package = "fiji-max_inscribed_circles";
-        var versions = ["2.0.0","1.1.2"];
+        var versions = ["2.1.0","2.0.0","1.1.2"];
     </script>
 
 

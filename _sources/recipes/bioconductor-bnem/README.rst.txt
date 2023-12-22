@@ -27,21 +27,21 @@ bioconductor-bnem
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-cellnoptr: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-epinem: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-mnem: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-rgraphviz: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-vsn: ``>=3.68.0,<3.69.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-cellnoptr: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-epinem: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-mnem: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-binom: 
    :depends r-cluster: 
@@ -97,7 +97,7 @@ bioconductor-bnem
 
     <script>
         var package = "bioconductor-bnem";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

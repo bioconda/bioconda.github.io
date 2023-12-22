@@ -27,13 +27,13 @@ bioconductor-plogo2
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-gostats: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-httr: 
    :depends r-lattice: 
@@ -86,7 +86,7 @@ bioconductor-plogo2
 
     <script>
         var package = "bioconductor-plogo2";
-        var versions = ["1.12.0","1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
     </script>
 
 

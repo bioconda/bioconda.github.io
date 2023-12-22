@@ -26,22 +26,30 @@ bioconductor-biocancer
    :versions:
       
       
+      .. raw:: html
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+      
 
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
-   :depends bioconductor-genetclassifier: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-org.bt.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-reactome.db: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-reactomepa: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
+   :depends bioconductor-genetclassifier: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.bt.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-reactomepa: ``>=1.46.0,<1.47.0``
    :depends r-algdesign: ``>=1.1.7.3``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-diagrammer: ``<=1.01``
@@ -106,7 +114,7 @@ bioconductor-biocancer
 
     <script>
         var package = "bioconductor-biocancer";
-        var versions = ["1.28.0","1.26.0","1.22.0","1.18.0","1.18.0"];
+        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.18.0"];
     </script>
 
 

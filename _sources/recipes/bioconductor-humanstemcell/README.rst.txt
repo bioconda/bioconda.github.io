@@ -28,10 +28,10 @@ bioconductor-humanstemcell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.34.0-1</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  <code>0.30.0-0</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.42.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.34.0-1</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  <code>0.30.0-0</code>,  <code>0.28.0-0</code>,  </span></summary>
       
 
-      ``0.40.0-0``,  ``0.38.0-0``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
+      ``0.42.0-0``,  ``0.40.0-0``,  ``0.38.0-0``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-humanstemcell
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-data-packages: ``>=20230706``
+   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-data-packages: ``>=20231203``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -92,7 +92,7 @@ bioconductor-humanstemcell
 
     <script>
         var package = "bioconductor-humanstemcell";
-        var versions = ["0.40.0","0.38.0","0.34.0","0.34.0","0.32.0"];
+        var versions = ["0.42.0","0.40.0","0.38.0","0.34.0","0.34.0"];
     </script>
 
 

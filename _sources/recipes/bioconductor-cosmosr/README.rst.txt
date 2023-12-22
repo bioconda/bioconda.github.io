@@ -27,14 +27,15 @@ bioconductor-cosmosr
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-carnival: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-dorothea: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-carnival: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-decoupler: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-dorothea: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
@@ -90,7 +91,7 @@ bioconductor-cosmosr
 
     <script>
         var package = "bioconductor-cosmosr";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

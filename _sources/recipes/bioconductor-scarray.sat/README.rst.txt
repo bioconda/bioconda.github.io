@@ -27,19 +27,19 @@ bioconductor-scarray.sat
       
       
 
-      ``1.0.2-0``
+      ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-biocsingular: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-gdsfmt: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-scarray: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-gdsfmt: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-scarray: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-seurat: ``>=4.0``
    :depends r-seuratobject: ``>=4.0``
@@ -90,7 +90,7 @@ bioconductor-scarray.sat
 
     <script>
         var package = "bioconductor-scarray.sat";
-        var versions = ["1.0.2"];
+        var versions = ["1.2.0","1.0.2"];
     </script>
 
 
