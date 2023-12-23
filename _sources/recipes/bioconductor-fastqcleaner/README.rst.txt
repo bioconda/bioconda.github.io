@@ -40,7 +40,6 @@ bioconductor-fastqcleaner
       
 
    
-   :depends __osx: ``>=10.9``
    :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
    :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
@@ -50,8 +49,9 @@ bioconductor-fastqcleaner
    :depends bioconductor-shortread: ``>=1.60.0,<1.61.0``
    :depends bioconductor-shortread: ``>=1.60.0,<1.61.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dt: 
    :depends r-htmltools: 

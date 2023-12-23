@@ -27,21 +27,21 @@ bioconductor-cfdnapro
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
    :depends bioconductor-bsgenome.hsapiens.ncbi.grch38: ``>=1.3.0,<1.4.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicalignments: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-plyranges: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-rsamtools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: ``>=0.8.3``
    :depends r-ggplot2: ``>=3.2.1``
@@ -97,7 +97,7 @@ bioconductor-cfdnapro
 
     <script>
         var package = "bioconductor-cfdnapro";
-        var versions = ["1.6.0","1.4.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
     </script>
 
 

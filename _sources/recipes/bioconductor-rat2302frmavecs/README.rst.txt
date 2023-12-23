@@ -28,10 +28,10 @@ bioconductor-rat2302frmavecs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.11-10</code>,  <code>0.99.11-9</code>,  <code>0.99.11-8</code>,  <code>0.99.11-7</code>,  <code>0.99.11-6</code>,  <code>0.99.11-5</code>,  <code>0.99.11-4</code>,  <code>0.99.11-3</code>,  <code>0.99.11-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.11-11</code>,  <code>0.99.11-10</code>,  <code>0.99.11-9</code>,  <code>0.99.11-8</code>,  <code>0.99.11-7</code>,  <code>0.99.11-6</code>,  <code>0.99.11-5</code>,  <code>0.99.11-4</code>,  <code>0.99.11-3</code>,  </span></summary>
       
 
-      ``0.99.11-10``,  ``0.99.11-9``,  ``0.99.11-8``,  ``0.99.11-7``,  ``0.99.11-6``,  ``0.99.11-5``,  ``0.99.11-4``,  ``0.99.11-3``,  ``0.99.11-2``,  ``0.99.11-1``
+      ``0.99.11-11``,  ``0.99.11-10``,  ``0.99.11-9``,  ``0.99.11-8``,  ``0.99.11-7``,  ``0.99.11-6``,  ``0.99.11-5``,  ``0.99.11-4``,  ``0.99.11-3``,  ``0.99.11-2``,  ``0.99.11-1``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-rat2302frmavecs
       
 
    
-   :depends bioconductor-affy: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-frma: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-frma: ``>=1.54.0,<1.55.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:

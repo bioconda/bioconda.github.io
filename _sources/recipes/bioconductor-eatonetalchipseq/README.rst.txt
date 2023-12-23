@@ -28,10 +28,10 @@ bioconductor-eatonetalchipseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.38.0-0</code>,  <code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  </span></summary>
       
 
-      ``0.38.0-0``,  ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-eatonetalchipseq
       
 
    
-   :depends bioconductor-data-packages: ``>=20230706``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-shortread: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-shortread: ``>=1.60.0,<1.61.0``
    :depends curl: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
@@ -93,7 +93,7 @@ bioconductor-eatonetalchipseq
 
     <script>
         var package = "bioconductor-eatonetalchipseq";
-        var versions = ["0.38.0","0.36.0","0.32.0","0.32.0","0.30.0"];
+        var versions = ["0.40.0","0.38.0","0.36.0","0.32.0","0.32.0"];
     </script>
 
 

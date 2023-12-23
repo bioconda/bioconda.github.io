@@ -27,13 +27,13 @@ bioconductor-microbiomeprofiler
       
       
 
-      ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-enrichplot: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-config: 
    :depends r-dt: 
@@ -92,7 +92,7 @@ bioconductor-microbiomeprofiler
 
     <script>
         var package = "bioconductor-microbiomeprofiler";
-        var versions = ["1.6.1","1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.6.1","1.4.0","1.0.0"];
     </script>
 
 

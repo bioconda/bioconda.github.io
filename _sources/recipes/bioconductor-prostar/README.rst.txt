@@ -28,10 +28,10 @@ bioconductor-prostar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.1-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.8-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.16.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.3-0</code>,  <code>1.32.1-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.8-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  </span></summary>
       
 
-      ``1.32.1-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
+      ``1.34.3-0``,  ``1.32.1-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
 
       
       .. raw:: html
@@ -40,18 +40,26 @@ bioconductor-prostar
       
 
    
-   :depends bioconductor-dapar: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-dapardata: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-dapar: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-dapardata: ``>=1.32.0,<1.33.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-colourpicker: 
    :depends r-data.table: 
+   :depends r-dt: 
    :depends r-future: 
    :depends r-ggplot2: 
    :depends r-gplots: 
+   :depends r-gtools: 
    :depends r-highcharter: 
    :depends r-htmlwidgets: 
+   :depends r-knitr: 
    :depends r-later: 
    :depends r-promises: 
+   :depends r-r.utils: 
+   :depends r-rclipboard: 
+   :depends r-rcolorbrewer: 
    :depends r-rhandsontable: 
+   :depends r-sass: 
    :depends r-shiny: 
    :depends r-shinyace: 
    :depends r-shinybs: 
@@ -59,9 +67,12 @@ bioconductor-prostar
    :depends r-shinyjqui: 
    :depends r-shinyjs: 
    :depends r-shinythemes: 
+   :depends r-shinytree: 
+   :depends r-shinywidgets: 
    :depends r-tibble: 
    :depends r-vioplot: 
    :depends r-webshot: 
+   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation
@@ -109,7 +120,7 @@ bioconductor-prostar
 
     <script>
         var package = "bioconductor-prostar";
-        var versions = ["1.32.1","1.30.0","1.26.0","1.24.3","1.22.8"];
+        var versions = ["1.34.3","1.32.1","1.30.0","1.26.0","1.24.3"];
     </script>
 
 

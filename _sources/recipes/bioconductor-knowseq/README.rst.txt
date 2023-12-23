@@ -27,15 +27,15 @@ bioconductor-knowseq
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.4-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.4-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-cqn: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-edger: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-cqn: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-caret: 
    :depends r-e1071: 
@@ -100,7 +100,7 @@ bioconductor-knowseq
 
     <script>
         var package = "bioconductor-knowseq";
-        var versions = ["1.14.0","1.12.0","1.8.0","1.6.0","1.4.4"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
     </script>
 
 

@@ -27,20 +27,22 @@ bioconductor-consica
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-go.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-graph: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-topgo: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-fastica: ``>=1.2.1``
+   :depends r-ggplot2: 
    :depends r-pheatmap: 
+   :depends r-rfast: 
    :depends r-sm: 
    :depends r-survival: 
    :requirements:
@@ -90,7 +92,7 @@ bioconductor-consica
 
     <script>
         var package = "bioconductor-consica";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["2.0.0","1.2.0","1.0.0"];
     </script>
 
 
