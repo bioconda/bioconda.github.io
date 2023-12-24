@@ -13,8 +13,9 @@ tantan
    tantan masks simple regions \(low complexity \& short\-period tandem repeats\) in biological sequences.
 
    :homepage: https://gitlab.com/mcfrith/tantan
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tantan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tantan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tantan/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkq1212`
 
    
 
@@ -28,10 +29,10 @@ tantan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>40-2</code>,  <code>40-1</code>,  <code>40-0</code>,  <code>39-0</code>,  <code>34-0</code>,  <code>32-0</code>,  <code>31-0</code>,  <code>26-2</code>,  <code>26-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>49-0</code>,  <code>40-2</code>,  <code>40-1</code>,  <code>40-0</code>,  <code>39-0</code>,  <code>34-0</code>,  <code>32-0</code>,  <code>31-0</code>,  <code>26-2</code>,  </span></summary>
       
 
-      ``40-2``,  ``40-1``,  ``40-0``,  ``39-0``,  ``34-0``,  ``32-0``,  ``31-0``,  ``26-2``,  ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
+      ``49-0``,  ``40-2``,  ``40-1``,  ``40-0``,  ``39-0``,  ``34-0``,  ``32-0``,  ``31-0``,  ``26-2``,  ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
 
       
       .. raw:: html
@@ -91,7 +92,7 @@ tantan
 
     <script>
         var package = "tantan";
-        var versions = ["40","40","40","39","34"];
+        var versions = ["49","40","40","40","39"];
     </script>
 
 
