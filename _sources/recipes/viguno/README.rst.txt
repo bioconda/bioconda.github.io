@@ -27,16 +27,16 @@ viguno
       
       
 
-      ``0.1.6-0``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.42.0,<4.0a0``
+   :depends libsqlite: ``>=3.44.2,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=3.1.1,<4.0a0``
+   :depends openssl: ``>=3.2.0,<4.0a0``
    :depends sqlite: 
    :requirements:
 
@@ -85,7 +85,7 @@ viguno
 
     <script>
         var package = "viguno";
-        var versions = ["0.1.6","0.1.1"];
+        var versions = ["0.2.0","0.1.6","0.1.1"];
     </script>
 
 

@@ -13,7 +13,7 @@ genoflu
    Influenza data pipeline to automate genotyping assignment.
 
    :homepage: https://github.com/USDA-VS/GenoFLU
-   :license: GPL3
+   :license: GPL-3.0-or-later
    :recipe: /`genoflu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genoflu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genoflu/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ genoflu
       
       
 
-      ``1.01-0``,  ``1.0-0``
+      ``1.02-0``,  ``1.01-0``,  ``1.0-0``
 
       
 
@@ -84,7 +84,7 @@ genoflu
 
     <script>
         var package = "genoflu";
-        var versions = ["1.01","1.0"];
+        var versions = ["1.02","1.01","1.0"];
     </script>
 
 
