@@ -12,7 +12,7 @@ bioconductor-mouse4302barcodevecs
 
    mouse4302 data for barcode
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/mouse4302barcodevecs.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/mouse4302barcodevecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mouse4302barcodevecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302barcodevecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302barcodevecs/meta.yaml>`_
 

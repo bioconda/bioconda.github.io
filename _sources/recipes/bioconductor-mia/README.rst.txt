@@ -12,7 +12,7 @@ bioconductor-mia
 
    Microbiome analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mia.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mia.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-mia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mia/meta.yaml>`_
 

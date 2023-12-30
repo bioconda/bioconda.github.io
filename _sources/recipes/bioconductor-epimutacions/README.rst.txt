@@ -12,7 +12,7 @@ bioconductor-epimutacions
 
    Robust outlier identification for DNA methylation data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/epimutacions.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epimutacions.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epimutacions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimutacions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimutacions/meta.yaml>`_
 

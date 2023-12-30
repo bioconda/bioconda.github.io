@@ -12,7 +12,7 @@ bioconductor-otubase
 
    Provides structure and functions for the analysis of OTU data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OTUbase.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OTUbase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-otubase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-otubase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-otubase/meta.yaml>`_
    :links: biotools: :biotools:`otubase`, doi: :doi:`10.1093/bioinformatics/btr196`

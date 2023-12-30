@@ -12,7 +12,7 @@ bioconductor-scope
 
    A normalization and copy number estimation method for single\-cell DNA sequencing
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SCOPE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SCOPE.html
    :license: GPL-2
    :recipe: /`bioconductor-scope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scope/meta.yaml>`_
 

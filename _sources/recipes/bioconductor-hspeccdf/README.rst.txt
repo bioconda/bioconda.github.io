@@ -12,7 +12,7 @@ bioconductor-hspeccdf
 
    hspeccdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hspeccdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/hspeccdf.html
    :license: LGPL
    :recipe: /`bioconductor-hspeccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspeccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspeccdf/meta.yaml>`_
 

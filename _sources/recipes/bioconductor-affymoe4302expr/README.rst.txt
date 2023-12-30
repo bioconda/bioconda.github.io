@@ -12,7 +12,7 @@ bioconductor-affymoe4302expr
 
    Affymetrix Mouse Genome 430 2.0 Array \(GPL1261\) Expression Data Package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/Affymoe4302Expr.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/Affymoe4302Expr.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affymoe4302expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymoe4302expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymoe4302expr/meta.yaml>`_
 

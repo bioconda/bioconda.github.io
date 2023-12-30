@@ -12,7 +12,7 @@ bioconductor-raresim
 
    Simulation of Rare Variant Genetic Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RAREsim.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RAREsim.html
    :license: GPL-3
    :recipe: /`bioconductor-raresim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raresim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raresim/meta.yaml>`_
 

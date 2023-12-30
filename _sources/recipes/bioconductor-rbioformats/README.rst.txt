@@ -12,7 +12,7 @@ bioconductor-rbioformats
 
    R interface to Bio\-Formats
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RBioFormats.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RBioFormats.html
    :license: GPL-3
    :recipe: /`bioconductor-rbioformats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbioformats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbioformats/meta.yaml>`_
 

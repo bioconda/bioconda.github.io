@@ -12,7 +12,7 @@ bioconductor-biodbexpasy
 
    biodbExpasy\, a library for connecting to Expasy ENZYME database.
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biodbExpasy.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodbExpasy.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbexpasy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbexpasy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbexpasy/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-alabaster
 
    Umbrella for the Alabaster Framework
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster/meta.yaml>`_
 

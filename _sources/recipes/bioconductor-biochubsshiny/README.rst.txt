@@ -12,7 +12,7 @@ bioconductor-biochubsshiny
 
    View AnnotationHub and ExperimentHub Resources Interactively
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BiocHubsShiny.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiocHubsShiny.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biochubsshiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biochubsshiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biochubsshiny/meta.yaml>`_
 

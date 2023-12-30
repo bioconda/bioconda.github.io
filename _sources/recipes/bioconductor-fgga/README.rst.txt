@@ -12,7 +12,7 @@ bioconductor-fgga
 
    Hierarchical ensemble method based on factor graph
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/fgga.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fgga.html
    :license: GPL-3
    :recipe: /`bioconductor-fgga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgga/meta.yaml>`_
 

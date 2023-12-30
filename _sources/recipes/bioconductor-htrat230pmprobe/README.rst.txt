@@ -12,7 +12,7 @@ bioconductor-htrat230pmprobe
 
    Probe sequence data for microarrays of type htrat230pm
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/htrat230pmprobe.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/htrat230pmprobe.html
    :license: LGPL
    :recipe: /`bioconductor-htrat230pmprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmprobe/meta.yaml>`_
 

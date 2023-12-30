@@ -12,7 +12,7 @@ bioconductor-methinheritsim
 
    Simulating Whole\-Genome Inherited Bisulphite Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/methInheritSim.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/methInheritSim.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methinheritsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methinheritsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methinheritsim/meta.yaml>`_
 

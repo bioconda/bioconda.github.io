@@ -12,7 +12,7 @@ bioconductor-spotlight
 
    \`SPOTlight\`\: Spatial Transcriptomics Deconvolution
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SPOTlight.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SPOTlight.html
    :license: GPL-3
    :recipe: /`bioconductor-spotlight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotlight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotlight/meta.yaml>`_
 

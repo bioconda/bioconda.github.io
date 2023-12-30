@@ -12,7 +12,7 @@ bioconductor-reactomepa
 
    Reactome Pathway Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ReactomePA.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ReactomePA.html
    :license: GPL-2
    :recipe: /`bioconductor-reactomepa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomepa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomepa/meta.yaml>`_
    :links: biotools: :biotools:`reactomepa`

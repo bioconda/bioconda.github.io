@@ -12,7 +12,7 @@ bioconductor-odseq
 
    Outlier detection in multiple sequence alignments
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/odseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/odseq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-odseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-odseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-odseq/meta.yaml>`_
 

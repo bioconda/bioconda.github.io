@@ -12,7 +12,7 @@ bioconductor-glmgampoi
 
    Fit a Gamma\-Poisson Generalized Linear Model
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/glmGamPoi.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/glmGamPoi.html
    :license: GPL-3
    :recipe: /`bioconductor-glmgampoi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glmgampoi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glmgampoi/meta.yaml>`_
 

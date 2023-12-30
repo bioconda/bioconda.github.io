@@ -12,7 +12,7 @@ bioconductor-pepsnmr
 
    Pre\-process 1H\-NMR FID signals
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PepsNMR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PepsNMR.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-pepsnmr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmr/meta.yaml>`_
 

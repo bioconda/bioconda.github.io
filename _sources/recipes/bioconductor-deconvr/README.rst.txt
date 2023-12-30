@@ -12,7 +12,7 @@ bioconductor-deconvr
 
    Simulation and Deconvolution of Omic Profiles
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/deconvR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/deconvR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-deconvr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deconvr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deconvr/meta.yaml>`_
 

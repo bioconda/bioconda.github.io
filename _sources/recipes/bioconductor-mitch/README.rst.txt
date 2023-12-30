@@ -12,7 +12,7 @@ bioconductor-mitch
 
    Multi\-Contrast Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mitch.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mitch.html
    :license: CC BY-SA 4.0 + file LICENSE
    :recipe: /`bioconductor-mitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitch/meta.yaml>`_
 

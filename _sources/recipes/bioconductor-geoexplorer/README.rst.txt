@@ -10,13 +10,13 @@ bioconductor-geoexplorer
    :replaces_section_title:
    :noindex:
 
-   GEOexplorer\: an R\/Bioconductor package for gene expression analysis and visualisation
+   GEOexplorer\: a webserver for gene expression analysis and visualisation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GEOexplorer.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GEOexplorer.html
    :license: GPL-3
    :recipe: /`bioconductor-geoexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoexplorer/meta.yaml>`_
 
-   GEOexplorer is a Shiny app that enables exploratory data analysis and differential gene expression of gene expression analysis on microarray gene expression datasets held on the GEO database. The outputs are interactive graphs that enable users to explore the results of the analysis. The development of GEOexplorer was made possible because of the excellent code provided by GEO2R \(https\: \/\/www.ncbi.nlm.nih.gov\/geo\/geo2r\/\).
+   GEOexplorer is a webserver and R\/Bioconductor package and web application that enables users to perform gene expression analysis. The development of GEOexplorer was made possible because of the excellent code provided by GEO2R \(https\: \/\/www.ncbi.nlm.nih.gov\/geo\/geo2r\/\).
 
 
 .. conda:package:: bioconductor-geoexplorer

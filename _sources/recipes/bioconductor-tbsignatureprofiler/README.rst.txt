@@ -12,7 +12,7 @@ bioconductor-tbsignatureprofiler
 
    Profile RNA\-Seq Data Using TB Pathway Signatures
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TBSignatureProfiler.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TBSignatureProfiler.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tbsignatureprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tbsignatureprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tbsignatureprofiler/meta.yaml>`_
 

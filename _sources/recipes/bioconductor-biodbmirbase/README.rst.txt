@@ -12,7 +12,7 @@ bioconductor-biodbmirbase
 
    biodbMirbase\, a library for connecting to miRBase mature database
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biodbMirbase.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodbMirbase.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbmirbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbmirbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbmirbase/meta.yaml>`_
 

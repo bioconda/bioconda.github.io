@@ -12,7 +12,7 @@ bioconductor-cafe
 
    Chromosmal Aberrations Finder in Expression data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CAFE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CAFE.html
    :license: GPL-3
    :recipe: /`bioconductor-cafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cafe/meta.yaml>`_
 

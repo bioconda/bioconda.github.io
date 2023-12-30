@@ -12,7 +12,7 @@ bioconductor-gaggle
 
    Broadcast data between R and Gaggle
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/gaggle.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gaggle.html
    :license: GPL version 2 or newer
    :recipe: /`bioconductor-gaggle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaggle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaggle/meta.yaml>`_
 

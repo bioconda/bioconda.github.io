@@ -12,7 +12,7 @@ bioconductor-scde
 
    Single Cell Differential Expression
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scde.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scde.html
    :license: GPL-2
    :recipe: /`bioconductor-scde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scde/meta.yaml>`_
    :links: biotools: :biotools:`scde`, doi: :doi:`10.1038/nmeth.2967`

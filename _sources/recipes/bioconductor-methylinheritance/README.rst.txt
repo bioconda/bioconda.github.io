@@ -12,7 +12,7 @@ bioconductor-methylinheritance
 
    Permutation\-Based Analysis associating Conserved Differentially Methylated Elements Across Multiple Generations to a Treatment Effect
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/methylInheritance.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/methylInheritance.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methylinheritance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylinheritance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylinheritance/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn7.refGene.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn7.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene/meta.yaml>`_
 

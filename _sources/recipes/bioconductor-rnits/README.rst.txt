@@ -12,7 +12,7 @@ bioconductor-rnits
 
    R Normalization and Inference of Time Series data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rnits.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rnits.html
    :license: GPL-3
    :recipe: /`bioconductor-rnits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnits/meta.yaml>`_
 

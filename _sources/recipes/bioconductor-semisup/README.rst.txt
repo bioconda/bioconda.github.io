@@ -12,7 +12,7 @@ bioconductor-semisup
 
    Semi\-Supervised Mixture Model
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/semisup.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/semisup.html
    :license: GPL-3
    :recipe: /`bioconductor-semisup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semisup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semisup/meta.yaml>`_
 

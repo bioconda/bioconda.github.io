@@ -12,7 +12,7 @@ bioconductor-rcwlpipelines
 
    Bioinformatics pipelines based on Rcwl
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RcwlPipelines.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RcwlPipelines.html
    :license: GPL-2
    :recipe: /`bioconductor-rcwlpipelines <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwlpipelines>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwlpipelines/meta.yaml>`_
 

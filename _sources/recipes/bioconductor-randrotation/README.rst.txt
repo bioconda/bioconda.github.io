@@ -12,7 +12,7 @@ bioconductor-randrotation
 
    Random Rotation Methods for High Dimensional Data with Batch Structure
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/randRotation.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/randRotation.html
    :license: GPL-3
    :recipe: /`bioconductor-randrotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randrotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randrotation/meta.yaml>`_
 

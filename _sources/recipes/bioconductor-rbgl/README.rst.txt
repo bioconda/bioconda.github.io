@@ -12,7 +12,7 @@ bioconductor-rbgl
 
    An interface to the BOOST graph library
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RBGL.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RBGL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rbgl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbgl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbgl/meta.yaml>`_
    :links: biotools: :biotools:`rbgl`, doi: :doi:`10.1093/bioinformatics/bth458`

@@ -12,7 +12,7 @@ bioconductor-lefser
 
    R implementation of the LEfSE method for microbiome biomarker discovery
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/lefser.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lefser.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lefser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lefser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lefser/meta.yaml>`_
 

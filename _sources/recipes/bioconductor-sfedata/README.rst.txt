@@ -12,7 +12,7 @@ bioconductor-sfedata
 
    Example SpatialFeatureExperiment datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/SFEData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/SFEData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sfedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sfedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sfedata/meta.yaml>`_
 

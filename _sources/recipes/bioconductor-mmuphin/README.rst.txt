@@ -12,7 +12,7 @@ bioconductor-mmuphin
 
    Meta\-analysis Methods with Uniform Pipeline for Heterogeneity in Microbiome Studies
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MMUPHin.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MMUPHin.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mmuphin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmuphin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmuphin/meta.yaml>`_
 

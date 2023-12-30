@@ -12,7 +12,7 @@ bioconductor-sc3
 
    Single\-Cell Consensus Clustering
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SC3.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SC3.html
    :license: GPL-3
    :recipe: /`bioconductor-sc3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sc3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sc3/meta.yaml>`_
    :links: biotools: :biotools:`sc3`

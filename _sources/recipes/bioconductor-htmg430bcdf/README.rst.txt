@@ -12,7 +12,7 @@ bioconductor-htmg430bcdf
 
    htmg430bcdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/htmg430bcdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/htmg430bcdf.html
    :license: LGPL
    :recipe: /`bioconductor-htmg430bcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bcdf/meta.yaml>`_
 

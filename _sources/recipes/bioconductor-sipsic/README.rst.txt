@@ -12,7 +12,7 @@ bioconductor-sipsic
 
    Calculate Pathway Scores for Each Cell in scRNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SiPSiC.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SiPSiC.html
    :license: file LICENSE
    :recipe: /`bioconductor-sipsic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sipsic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sipsic/meta.yaml>`_
 

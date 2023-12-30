@@ -12,7 +12,7 @@ bioconductor-lymphoseqdb
 
    LymphoSeq annotation databases
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/LymphoSeqDB.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/LymphoSeqDB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lymphoseqdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseqdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseqdb/meta.yaml>`_
 

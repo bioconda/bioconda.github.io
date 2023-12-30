@@ -12,7 +12,7 @@ bioconductor-rat2302frmavecs
 
    Vectors used by frma for microarrays of type rat2302rnentrezg
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/rat2302frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/rat2302frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rat2302frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302frmavecs/meta.yaml>`_
 

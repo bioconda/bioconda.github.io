@@ -12,7 +12,7 @@ bioconductor-pd.hg18.60mer.expr
 
    Platform Design Info for NimbleGen hg18\_60mer\_expr
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.hg18.60mer.expr.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.hg18.60mer.expr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hg18.60mer.expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg18.60mer.expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg18.60mer.expr/meta.yaml>`_
 

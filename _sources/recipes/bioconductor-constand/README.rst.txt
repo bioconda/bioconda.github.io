@@ -12,7 +12,7 @@ bioconductor-constand
 
    Data normalization by matrix raking
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CONSTANd.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CONSTANd.html
    :license: file LICENSE
    :recipe: /`bioconductor-constand <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-constand>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-constand/meta.yaml>`_
 

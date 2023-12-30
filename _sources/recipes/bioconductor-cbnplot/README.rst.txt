@@ -12,7 +12,7 @@ bioconductor-cbnplot
 
    plot bayesian network inferred from gene expression data based on enrichment analysis results
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CBNplot.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CBNplot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cbnplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbnplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbnplot/meta.yaml>`_
 

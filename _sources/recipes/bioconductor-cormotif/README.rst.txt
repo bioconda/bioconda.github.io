@@ -12,7 +12,7 @@ bioconductor-cormotif
 
    Correlation Motif Fit
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Cormotif.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Cormotif.html
    :license: GPL-2
    :recipe: /`bioconductor-cormotif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormotif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormotif/meta.yaml>`_
    :links: biotools: :biotools:`cormotif`

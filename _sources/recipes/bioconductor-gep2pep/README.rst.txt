@@ -12,7 +12,7 @@ bioconductor-gep2pep
 
    Creation and Analysis of Pathway Expression Profiles \(PEPs\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/gep2pep.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gep2pep.html
    :license: GPL-3
    :recipe: /`bioconductor-gep2pep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gep2pep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gep2pep/meta.yaml>`_
 

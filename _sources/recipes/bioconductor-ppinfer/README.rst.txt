@@ -12,7 +12,7 @@ bioconductor-ppinfer
 
    Inferring functionally related proteins using protein interaction networks
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PPInfer.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PPInfer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ppinfer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppinfer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppinfer/meta.yaml>`_
 

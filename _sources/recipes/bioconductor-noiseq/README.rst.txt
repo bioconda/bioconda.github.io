@@ -12,7 +12,7 @@ bioconductor-noiseq
 
    Exploratory analysis and differential expression for RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/NOISeq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NOISeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-noiseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-noiseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-noiseq/meta.yaml>`_
    :links: biotools: :biotools:`noiseq`

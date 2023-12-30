@@ -12,7 +12,7 @@ bioconductor-stjudem
 
    Microarray Data from Yeoh et al. in MACAT format
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/stjudem.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/stjudem.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-stjudem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjudem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjudem/meta.yaml>`_
 

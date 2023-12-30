@@ -12,7 +12,7 @@ bioconductor-remp
 
    Repetitive Element Methylation Prediction
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/REMP.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/REMP.html
    :license: GPL-3
    :recipe: /`bioconductor-remp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-remp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-remp/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mbqtl
 
    mbQTL\: A package for SNP\-Taxa mGWAS analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mbQTL.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mbQTL.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mbqtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqtl/meta.yaml>`_
 

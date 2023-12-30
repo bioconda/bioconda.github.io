@@ -12,7 +12,7 @@ bioconductor-ctrap
 
    Identification of candidate causal perturbations from differential gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cTRAP.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cTRAP.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ctrap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctrap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctrap/meta.yaml>`_
 

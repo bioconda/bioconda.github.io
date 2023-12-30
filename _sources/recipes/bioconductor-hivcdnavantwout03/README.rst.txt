@@ -12,7 +12,7 @@ bioconductor-hivcdnavantwout03
 
    T cell line infections with HIV\-1 LAI \(BRU\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/HIVcDNAvantWout03.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HIVcDNAvantWout03.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hivcdnavantwout03 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivcdnavantwout03>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivcdnavantwout03/meta.yaml>`_
 

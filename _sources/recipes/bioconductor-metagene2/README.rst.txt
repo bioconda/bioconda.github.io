@@ -12,7 +12,7 @@ bioconductor-metagene2
 
    A package to produce metagene plots
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/metagene2.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/metagene2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagene2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagene2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagene2/meta.yaml>`_
 

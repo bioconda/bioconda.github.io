@@ -12,7 +12,7 @@ bioconductor-ribocrypt
 
    Interactive visualization in genomics
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RiboCrypt.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RiboCrypt.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ribocrypt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribocrypt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribocrypt/meta.yaml>`_
 

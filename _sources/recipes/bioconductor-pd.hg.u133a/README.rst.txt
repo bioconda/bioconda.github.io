@@ -12,7 +12,7 @@ bioconductor-pd.hg.u133a
 
    Platform Design Info for The Manufacturer\'s Name HG\-U133A
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.hg.u133a.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.hg.u133a.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hg.u133a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u133a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u133a/meta.yaml>`_
 

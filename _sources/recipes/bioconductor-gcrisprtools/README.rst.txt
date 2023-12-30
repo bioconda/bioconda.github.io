@@ -12,7 +12,7 @@ bioconductor-gcrisprtools
 
    Suite of Functions for Pooled Crispr Screen QC and Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/gCrisprTools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gCrisprTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gcrisprtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrisprtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrisprtools/meta.yaml>`_
    :links: biotools: :biotools:`gcrisprtools`, doi: :doi:`10.1038/nmeth.3252`

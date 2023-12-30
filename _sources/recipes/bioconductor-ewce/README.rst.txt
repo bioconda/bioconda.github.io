@@ -12,7 +12,7 @@ bioconductor-ewce
 
    Expression Weighted Celltype Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EWCE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/EWCE.html
    :license: GPL-3
    :recipe: /`bioconductor-ewce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ewce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ewce/meta.yaml>`_
 

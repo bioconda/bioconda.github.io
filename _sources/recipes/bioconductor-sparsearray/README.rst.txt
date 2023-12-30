@@ -12,7 +12,7 @@ bioconductor-sparsearray
 
    Efficient in\-memory representation of multidimensional sparse arrays
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SparseArray.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SparseArray.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sparsearray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsearray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsearray/meta.yaml>`_
 

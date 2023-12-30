@@ -12,7 +12,7 @@ bioconductor-highlyreplicatedrnaseq
 
    Collection of Bulk RNA\-Seq Experiments With Many Replicates
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/HighlyReplicatedRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HighlyReplicatedRNASeq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-highlyreplicatedrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-highlyreplicatedrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-highlyreplicatedrnaseq/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-test3probe
 
    Probe sequence data for microarrays of type test3
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/test3probe.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/test3probe.html
    :license: LGPL
    :recipe: /`bioconductor-test3probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test3probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test3probe/meta.yaml>`_
 

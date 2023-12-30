@@ -12,7 +12,7 @@ bioconductor-redisparam
 
    Provide a \'redis\' back\-end for BiocParallel
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RedisParam.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RedisParam.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-redisparam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-redisparam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-redisparam/meta.yaml>`_
 

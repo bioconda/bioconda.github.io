@@ -12,7 +12,7 @@ bioconductor-screclassify
 
    scReClassify\: post hoc cell type classification of single\-cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scReClassify.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scReClassify.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-screclassify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screclassify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screclassify/meta.yaml>`_
 

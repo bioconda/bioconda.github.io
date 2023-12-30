@@ -12,7 +12,7 @@ bioconductor-graphalignment
 
    GraphAlignment
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GraphAlignment.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GraphAlignment.html
    :license: file LICENSE
    :recipe: /`bioconductor-graphalignment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphalignment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphalignment/meta.yaml>`_
 

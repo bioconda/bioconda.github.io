@@ -12,7 +12,7 @@ bioconductor-netactivitydata
 
    Data required for getting the gene set scores with NetActivity package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/NetActivityData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/NetActivityData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-netactivitydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netactivitydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netactivitydata/meta.yaml>`_
 

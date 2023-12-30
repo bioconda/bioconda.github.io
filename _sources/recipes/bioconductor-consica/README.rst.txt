@@ -12,7 +12,7 @@ bioconductor-consica
 
    consensus Independent Component Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/consICA.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/consICA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-consica <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consica>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consica/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pig.db0
 
    Base Level Annotation databases for pig
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pig.db0.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pig.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pig.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pig.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pig.db0/meta.yaml>`_
 

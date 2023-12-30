@@ -12,7 +12,7 @@ bioconductor-gseabenchmarker
 
    Reproducible GSEA Benchmarking
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GSEABenchmarkeR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GSEABenchmarkeR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gseabenchmarker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabenchmarker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabenchmarker/meta.yaml>`_
 

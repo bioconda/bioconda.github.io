@@ -12,7 +12,7 @@ bioconductor-plotgardener
 
    Coordinate\-Based Genomic Visualization Package for R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/plotgardener.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/plotgardener.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-plotgardener <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plotgardener>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plotgardener/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-consensusov
 
    Gene expression\-based subtype classification for high\-grade serous ovarian cancer
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/consensusOV.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/consensusOV.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-consensusov <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusov>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusov/meta.yaml>`_
 

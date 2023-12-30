@@ -12,7 +12,7 @@ bioconductor-delayedarray
 
    A unified framework for working transparently with on\-disk and in\-memory array\-like datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DelayedArray.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DelayedArray.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-delayedarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedarray/meta.yaml>`_
 

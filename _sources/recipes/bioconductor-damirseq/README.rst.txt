@@ -12,7 +12,7 @@ bioconductor-damirseq
 
    Data Mining for RNA\-seq data\: normalization\, feature selection and classification
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DaMiRseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DaMiRseq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-damirseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damirseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damirseq/meta.yaml>`_
 

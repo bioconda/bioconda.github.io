@@ -12,7 +12,7 @@ bioconductor-gse62944
 
    GEO accession data GSE62944 as a SummarizedExperiment
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/GSE62944.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/GSE62944.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gse62944 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse62944>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse62944/meta.yaml>`_
 

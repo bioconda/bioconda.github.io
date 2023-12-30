@@ -12,11 +12,11 @@ bioconductor-cellbarcode
 
    Cellular DNA Barcode Analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CellBarcode.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CellBarcode.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cellbarcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbarcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbarcode/meta.yaml>`_
 
-   This package performs Cellular DNA Barcode \(genetic lineage tracing\) analysis. The package can handle all kinds of DNA barcodes\, as long as the barcode within a single sequencing read and has a pattern which can be matched by a regular expression. This package can handle barcode with flexible length\, with or without UMI \(unique molecular identifier\). This tool also can be used for pre\-processing of some amplicon sequencing such as CRISPR gRNA screening\, immune repertoire sequencing and meta genome data.
+   The package CellBarcode performs Cellular DNA Barcode analysis. It can handle all kinds of DNA barcodes\, as long as the barcode is within a single sequencing read and has a pattern that can be matched by a regular expression. \\code\{CellBarcode\} can handle barcodes with flexible lengths\, with or without UMI \(unique molecular identifier\). This tool also can be used for pre\-processing some amplicon data such as CRISPR gRNA screening\, immune repertoire sequencing\, and metagenome data.
 
 
 .. conda:package:: bioconductor-cellbarcode

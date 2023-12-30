@@ -12,7 +12,7 @@ bioconductor-msstats
 
    Protein Significance Analysis in DDA\, SRM and DIA for Label\-free or Label\-based Proteomics Experiments
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstats.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstats/meta.yaml>`_
    :links: biotools: :biotools:`msstats`

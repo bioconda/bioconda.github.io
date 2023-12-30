@@ -12,7 +12,7 @@ bioconductor-dino
 
    Normalization of Single\-Cell mRNA Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Dino.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Dino.html
    :license: GPL-3
    :recipe: /`bioconductor-dino <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dino>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dino/meta.yaml>`_
 

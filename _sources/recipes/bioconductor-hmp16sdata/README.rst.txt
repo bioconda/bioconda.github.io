@@ -12,7 +12,7 @@ bioconductor-hmp16sdata
 
    16S rRNA Sequencing Data from the Human Microbiome Project
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/HMP16SData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HMP16SData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hmp16sdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp16sdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp16sdata/meta.yaml>`_
 

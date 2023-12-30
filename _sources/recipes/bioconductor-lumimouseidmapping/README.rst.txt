@@ -12,7 +12,7 @@ bioconductor-lumimouseidmapping
 
    Illumina Identifier mapping for Mouse
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/lumiMouseIDMapping.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/lumiMouseIDMapping.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-lumimouseidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumimouseidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumimouseidmapping/meta.yaml>`_
 

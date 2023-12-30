@@ -12,7 +12,7 @@ bioconductor-tabulamurisdata
 
    10x And SmartSeq2 Data From The Tabula Muris Consortium
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/TabulaMurisData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/TabulaMurisData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tabulamurisdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurisdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurisdata/meta.yaml>`_
 

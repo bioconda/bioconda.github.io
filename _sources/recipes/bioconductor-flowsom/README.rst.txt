@@ -12,7 +12,7 @@ bioconductor-flowsom
 
    Using self\-organizing maps for visualization and interpretation of cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FlowSOM.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FlowSOM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-flowsom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsom/meta.yaml>`_
    :links: biotools: :biotools:`flowsom`, doi: :doi:`10.1002/cyto.a.22625`

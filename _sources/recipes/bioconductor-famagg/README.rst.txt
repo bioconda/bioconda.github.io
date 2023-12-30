@@ -12,7 +12,7 @@ bioconductor-famagg
 
    Pedigree Analysis and Familial Aggregation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FamAgg.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FamAgg.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-famagg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famagg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famagg/meta.yaml>`_
 

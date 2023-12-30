@@ -12,7 +12,7 @@ bioconductor-octad.db
 
    Open Cancer TherApeutic Discovery \(OCTAD\) database
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/octad.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/octad.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-octad.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-octad.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-octad.db/meta.yaml>`_
 

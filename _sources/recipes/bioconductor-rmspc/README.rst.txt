@@ -12,7 +12,7 @@ bioconductor-rmspc
 
    Multiple Sample Peak Calling
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rmspc.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rmspc.html
    :license: GPL-3
    :recipe: /`bioconductor-rmspc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmspc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmspc/meta.yaml>`_
 

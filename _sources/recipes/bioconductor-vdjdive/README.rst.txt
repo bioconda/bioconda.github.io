@@ -12,7 +12,7 @@ bioconductor-vdjdive
 
    Analysis Tools for 10X V\(D\)J Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/VDJdive.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/VDJdive.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-vdjdive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vdjdive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vdjdive/meta.yaml>`_
 

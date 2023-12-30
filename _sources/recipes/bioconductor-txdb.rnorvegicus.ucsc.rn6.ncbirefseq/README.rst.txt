@@ -12,7 +12,7 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn6.ncbiRefSeq.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn6.ncbiRefSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq/meta.yaml>`_
 

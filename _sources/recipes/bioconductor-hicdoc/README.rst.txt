@@ -12,8 +12,8 @@ bioconductor-hicdoc
 
    A\/B compartment detection and differential analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HiCDOC.html
-   :license: LGPL (>= 3)
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HiCDOC.html
+   :license: file LICENSE
    :recipe: /`bioconductor-hicdoc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdoc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdoc/meta.yaml>`_
 
    HiCDOC normalizes intrachromosomal Hi\-C matrices\, uses unsupervised learning to predict A\/B compartments from multiple replicates\, and detects significant compartment changes between experiment conditions. It provides a collection of functions assembled into a pipeline to filter and normalize the data\, predict the compartments and visualize the results. It accepts several type of data\: tabular \`.tsv\` files\, Cooler \`.cool\` or \`.mcool\` files\, Juicer \`.hic\` files or HiC\-Pro \`.matrix\` and \`.bed\` files.

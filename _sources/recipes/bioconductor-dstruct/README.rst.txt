@@ -12,11 +12,11 @@ bioconductor-dstruct
 
    Identifying differentially reactive regions from RNA structurome profiling data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/dStruct.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/dStruct.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dstruct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dstruct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dstruct/meta.yaml>`_
 
-   dStruct identifies differentially reactive regions from RNA structurome profiling data. dStruct is compatible with a broad range of structurome profiling technologies\, e.g.\, SHAPE\-MaP\, DMS\-MaPseq\, Structure\-Seq\, SHAPE\-Seq\, etc. See Choudhary et al\, Genome Biology\, 2019 for the underlying method.
+   dStruct identifies differentially reactive regions from RNA structurome profiling data. dStruct is compatible with a broad range of structurome profiling technologies\, e.g.\, SHAPE\-MaP\, DMS\-MaPseq\, Structure\-Seq\, SHAPE\-Seq\, etc. See Choudhary et al.\, Genome Biology\, 2019 for the underlying method.
 
 
 .. conda:package:: bioconductor-dstruct

@@ -12,7 +12,7 @@ bioconductor-escher
 
    Unified multi\-dimensional visualizations with Gestalt principles
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/escheR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/escheR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-escher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escher/meta.yaml>`_
 

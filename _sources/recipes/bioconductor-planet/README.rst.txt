@@ -12,11 +12,11 @@ bioconductor-planet
 
    Placental DNA methylation analysis tools
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/planet.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/planet.html
    :license: GPL-2
    :recipe: /`bioconductor-planet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-planet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-planet/meta.yaml>`_
 
-   This package contains R functions to infer additional biological variables to supplemental DNA methylation analysis of placental data. This includes inferring ethnicity\/ancestry\, gestational age\, and cell composition from placental DNA methylation array \(450k\/850k\) data. The package comes with an example processed placental dataset.
+   This package contains R functions to predict biological variables to from placnetal DNA methylation data generated from infinium arrays. This includes inferring ethnicity\/ancestry\, gestational age\, and cell composition from placental DNA methylation array \(450k\/850k\) data.
 
 
 .. conda:package:: bioconductor-planet

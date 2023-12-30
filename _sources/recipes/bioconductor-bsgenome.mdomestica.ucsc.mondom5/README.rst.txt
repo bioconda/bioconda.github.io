@@ -12,7 +12,7 @@ bioconductor-bsgenome.mdomestica.ucsc.mondom5
 
    Full genome sequences for Monodelphis domestica \(UCSC version monDom5\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Mdomestica.UCSC.monDom5.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Mdomestica.UCSC.monDom5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mdomestica.ucsc.mondom5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mdomestica.ucsc.mondom5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mdomestica.ucsc.mondom5/meta.yaml>`_
 

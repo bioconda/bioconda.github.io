@@ -12,7 +12,7 @@ bioconductor-dmrseq
 
    Detection and inference of differentially methylated regions from Whole Genome Bisulfite Sequencing
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/dmrseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/dmrseq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dmrseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrseq/meta.yaml>`_
 

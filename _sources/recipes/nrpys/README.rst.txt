@@ -13,7 +13,7 @@ nrpys
    Python language bindings for nrps\-rs substrate specificity predictor.
 
    :homepage: https://github.com/kblin/nrpys
-   :license: GPL3
+   :license: AGPL-3.0-or-later
    :recipe: /`nrpys <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nrpys>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nrpys/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ nrpys
       
       
 
-      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ nrpys
 
     <script>
         var package = "nrpys";
-        var versions = ["0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1"];
     </script>
 
 

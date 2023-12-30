@@ -12,7 +12,7 @@ bioconductor-autonomics
 
    Generifying and intuifying cross\-platform omics analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/autonomics.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/autonomics.html
    :license: GPL-3
    :recipe: /`bioconductor-autonomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-autonomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-autonomics/meta.yaml>`_
 

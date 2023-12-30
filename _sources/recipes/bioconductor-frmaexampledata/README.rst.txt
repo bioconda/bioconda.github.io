@@ -12,7 +12,7 @@ bioconductor-frmaexampledata
 
    Frma Example Data
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/frmaExampleData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/frmaExampleData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-frmaexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmaexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmaexampledata/meta.yaml>`_
 

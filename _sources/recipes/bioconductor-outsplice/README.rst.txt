@@ -12,7 +12,7 @@ bioconductor-outsplice
 
    Comparison of Splicing Events between Tumor and Normal Samples
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OutSplice.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OutSplice.html
    :license: GPL-2
    :recipe: /`bioconductor-outsplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outsplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outsplice/meta.yaml>`_
 

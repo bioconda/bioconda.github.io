@@ -12,7 +12,7 @@ bioconductor-gdnainrnaseqdata
 
    RNA\-seq data with different levels of gDNA contamination
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/gDNAinRNAseqData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/gDNAinRNAseqData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdnainrnaseqdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdnainrnaseqdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdnainrnaseqdata/meta.yaml>`_
 

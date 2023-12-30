@@ -12,7 +12,7 @@ bioconductor-pwmenrich.mmusculus.background
 
    M. musculus background for PWMEnrich
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/PWMEnrich.Mmusculus.background.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/PWMEnrich.Mmusculus.background.html
    :license: GPL-3
    :recipe: /`bioconductor-pwmenrich.mmusculus.background <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.mmusculus.background>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.mmusculus.background/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-frgepistasis
 
    Epistasis Analysis for Quantitative Traits by Functional Regression Model
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FRGEpistasis.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FRGEpistasis.html
    :license: GPL-2
    :recipe: /`bioconductor-frgepistasis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frgepistasis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frgepistasis/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-synlet
 
    Hits Selection for Synthetic Lethal RNAi Screen Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/synlet.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/synlet.html
    :license: GPL-3
    :recipe: /`bioconductor-synlet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synlet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synlet/meta.yaml>`_
    :links: biotools: :biotools:`synlet`, doi: :doi:`10.1101/043570`

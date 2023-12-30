@@ -12,7 +12,7 @@ bioconductor-mi16cod.db
 
    Codelink Mouse Inflammation 16 Bioarray annotation data \(chip mi16cod\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/mi16cod.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/mi16cod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mi16cod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mi16cod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mi16cod.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-scanmirapp
 
    scanMiR shiny application
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scanMiRApp.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scanMiRApp.html
    :license: GPL-3
    :recipe: /`bioconductor-scanmirapp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scanmirapp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scanmirapp/meta.yaml>`_
 

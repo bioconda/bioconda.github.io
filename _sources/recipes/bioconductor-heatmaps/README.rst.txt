@@ -12,7 +12,7 @@ bioconductor-heatmaps
 
    Flexible Heatmaps for Functional Genomics and Sequence Features
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/heatmaps.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/heatmaps.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-heatmaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatmaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatmaps/meta.yaml>`_
 

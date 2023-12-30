@@ -12,7 +12,7 @@ bioconductor-pd.mirna.1.0
 
    Platform Design Info for The Manufacturer\'s Name miRNA\-1\_0
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.mirna.1.0.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.mirna.1.0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.mirna.1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mirna.1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mirna.1.0/meta.yaml>`_
 

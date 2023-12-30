@@ -12,7 +12,7 @@ bioconductor-sgseq
 
    Splice event prediction and quantification from RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SGSeq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SGSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sgseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgseq/meta.yaml>`_
    :links: biotools: :biotools:`sgseq`

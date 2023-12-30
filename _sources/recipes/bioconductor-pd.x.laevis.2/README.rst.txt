@@ -12,7 +12,7 @@ bioconductor-pd.x.laevis.2
 
    Platform Design Info for The Manufacturer\'s Name X\_laevis\_2
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/pd.x.laevis.2.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.x.laevis.2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.x.laevis.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.x.laevis.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.x.laevis.2/meta.yaml>`_
 

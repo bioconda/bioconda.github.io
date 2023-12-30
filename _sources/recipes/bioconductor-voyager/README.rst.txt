@@ -12,7 +12,7 @@ bioconductor-voyager
 
    From geospatial to spatial omics
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Voyager.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Voyager.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-voyager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-voyager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-voyager/meta.yaml>`_
 

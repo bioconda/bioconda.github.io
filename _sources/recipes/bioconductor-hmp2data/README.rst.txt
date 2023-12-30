@@ -12,7 +12,7 @@ bioconductor-hmp2data
 
    16s rRNA sequencing data from the Human Microbiome Project 2
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/HMP2Data.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HMP2Data.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hmp2data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp2data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp2data/meta.yaml>`_
 

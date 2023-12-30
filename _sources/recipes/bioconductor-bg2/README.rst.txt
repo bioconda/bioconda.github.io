@@ -12,7 +12,7 @@ bioconductor-bg2
 
    Performs Bayesian GWAS analysis for non\-Gaussian data using BG2
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BG2.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BG2.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-bg2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bg2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bg2/meta.yaml>`_
 

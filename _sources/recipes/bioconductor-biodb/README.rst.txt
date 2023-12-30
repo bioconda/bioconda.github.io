@@ -12,7 +12,7 @@ bioconductor-biodb
 
    biodb\, a library and a development framework for connecting to chemical and biological databases
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biodb.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodb.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodb/meta.yaml>`_
 

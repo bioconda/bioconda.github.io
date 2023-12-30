@@ -12,7 +12,7 @@ bioconductor-extrachips
 
    Additional functions for working with ChIP\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/extraChIPs.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/extraChIPs.html
    :license: GPL-3
    :recipe: /`bioconductor-extrachips <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-extrachips>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-extrachips/meta.yaml>`_
 

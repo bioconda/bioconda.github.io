@@ -12,7 +12,7 @@ bioconductor-concordexr
 
    Calculate the concordex coefficient
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/concordexR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/concordexR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-concordexr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-concordexr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-concordexr/meta.yaml>`_
 

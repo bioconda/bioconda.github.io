@@ -12,7 +12,7 @@ bioconductor-fobitools
 
    Tools For Manipulating FOBI Ontology
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/fobitools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fobitools.html
    :license: GPL-3
    :recipe: /`bioconductor-fobitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fobitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fobitools/meta.yaml>`_
 

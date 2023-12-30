@@ -12,7 +12,7 @@ bioconductor-motifmatchr
 
    Fast Motif Matching in R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/motifmatchr.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/motifmatchr.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-motifmatchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr/meta.yaml>`_
 

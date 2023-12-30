@@ -12,11 +12,11 @@ bioconductor-exomepeak2
 
    Peak Calling and differential analysis for MeRIP\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/exomePeak2.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/exomePeak2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-exomepeak2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomepeak2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomepeak2/meta.yaml>`_
 
-   exomePeak2 provides peak detection and differential methylation for Methylated RNA Immunoprecipitation Sequencing \(MeRIP\-Seq\) data. MeRIP\-Seq is a commonly applied sequencing assay that measures the location and abundance of RNA modification sites under specific cellular conditions. In practice\, the technique is sensitive to PCR amplification biases commonly found in NGS data. In addition\, the efficiency of immunoprecipitation often varies between different IP samples. exomePeak2 can perform peak calling and differential analysis independent of GC content bias and IP efficiency changes.
+   exomePeak2 provides peak detection and differential methylation for Methylated RNA Immunoprecipitation Sequencing \(MeRIP\-Seq\) data. MeRIP\-Seq is a commonly applied sequencing assay that measures the location and abundance of RNA modification sites under specific cellular conditions. The technique is sensitive to PCR amplification biases commonly found in NGS data. In addition\, the efficiency of immunoprecipitation often varies between different IP samples. exomePeak2 can perform peak calling and differential analysis independent of GC content bias and IP efficiency changes.
 
 
 .. conda:package:: bioconductor-exomepeak2

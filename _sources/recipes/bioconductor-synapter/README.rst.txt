@@ -12,7 +12,7 @@ bioconductor-synapter
 
    Label\-free data analysis pipeline for optimal identification and quantitation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/synapter.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/synapter.html
    :license: GPL-2
    :recipe: /`bioconductor-synapter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapter/meta.yaml>`_
 

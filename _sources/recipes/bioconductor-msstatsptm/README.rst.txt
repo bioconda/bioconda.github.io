@@ -12,7 +12,7 @@ bioconductor-msstatsptm
 
    Statistical Characterization of Post\-translational Modifications
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstatsPTM.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSstatsPTM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatsptm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsptm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsptm/meta.yaml>`_
 

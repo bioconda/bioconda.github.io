@@ -12,7 +12,7 @@ bioconductor-alabaster.vcf
 
    Save and Load Variant Data to\/from File
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.vcf.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.vcf.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.vcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.vcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.vcf/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-metabcombiner
 
    Method for Combining LC\-MS Metabolomics Feature Measurements
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/metabCombiner.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/metabCombiner.html
    :license: GPL-3
    :recipe: /`bioconductor-metabcombiner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabcombiner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabcombiner/meta.yaml>`_
 

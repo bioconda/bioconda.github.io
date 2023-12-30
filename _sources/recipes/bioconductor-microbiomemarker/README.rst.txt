@@ -12,7 +12,7 @@ bioconductor-microbiomemarker
 
    microbiome biomarker analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/microbiomeMarker.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/microbiomeMarker.html
    :license: GPL-3
    :recipe: /`bioconductor-microbiomemarker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomemarker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomemarker/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hpip
 
    Host\-Pathogen Interaction Prediction
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HPiP.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HPiP.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hpip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpip/meta.yaml>`_
 

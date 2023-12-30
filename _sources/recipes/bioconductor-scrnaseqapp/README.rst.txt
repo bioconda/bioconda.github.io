@@ -12,7 +12,7 @@ bioconductor-scrnaseqapp
 
    A single\-cell RNAseq Shiny app\-package
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scRNAseqApp.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scRNAseqApp.html
    :license: GPL-3
    :recipe: /`bioconductor-scrnaseqapp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseqapp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseqapp/meta.yaml>`_
 

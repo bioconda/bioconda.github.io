@@ -12,7 +12,7 @@ bioconductor-scpdata
 
    Single\-Cell Proteomics Data Package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/scpdata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/scpdata.html
    :license: GPL-2
    :recipe: /`bioconductor-scpdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpdata/meta.yaml>`_
 

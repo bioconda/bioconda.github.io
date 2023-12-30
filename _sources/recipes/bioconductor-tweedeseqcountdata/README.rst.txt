@@ -12,8 +12,8 @@ bioconductor-tweedeseqcountdata
 
    RNA\-seq count data employed in the vignette of the tweeDEseq package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/tweeDEseqCountData.html
-   :license: GPL (>=2)
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/tweeDEseqCountData.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-tweedeseqcountdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseqcountdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseqcountdata/meta.yaml>`_
 
    RNA\-seq count data from Pickrell et al. \(2010\) employed to illustrate the use of the Poisson\-Tweedie family of distributions with the tweeDEseq package.

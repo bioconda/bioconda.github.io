@@ -12,7 +12,7 @@ bioconductor-trajectoryutils
 
    Single\-Cell Trajectory Analysis Utilities
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TrajectoryUtils.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TrajectoryUtils.html
    :license: GPL-3
    :recipe: /`bioconductor-trajectoryutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trajectoryutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trajectoryutils/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-microbiomebenchmarkdata
 
    Datasets for benchmarking in microbiome research
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/MicrobiomeBenchmarkData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MicrobiomeBenchmarkData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-microbiomebenchmarkdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomebenchmarkdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomebenchmarkdata/meta.yaml>`_
 

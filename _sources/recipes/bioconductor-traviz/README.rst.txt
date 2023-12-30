@@ -12,7 +12,7 @@ bioconductor-traviz
 
    Trajectory functions for visualization and interpretation.
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/traviz.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/traviz.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-traviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-traviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-traviz/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-msbackendsql
 
    SQL\-based Mass Spectrometry Data Backend
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MsBackendSql.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MsBackendSql.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msbackendsql <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msbackendsql>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msbackendsql/meta.yaml>`_
 

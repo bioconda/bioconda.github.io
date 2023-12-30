@@ -12,12 +12,12 @@ bioconductor-tweedeseq
 
    RNA\-seq data analysis using the Poisson\-Tweedie family of distributions
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tweeDEseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tweeDEseq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-tweedeseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseq/meta.yaml>`_
    :links: biotools: :biotools:`tweedeseq`
 
-   Differential expression analysis of RNA\-seq using the Poisson\-Tweedie family of distributions.
+   Differential expression analysis of RNA\-seq using the Poisson\-Tweedie \(PT\) family of distributions. PT distributions are described by a mean\, a dispersion and a shape parameter and include Poisson and NB distributions\, among others\, as particular cases. An important feature of this family is that\, while the Negative Binomial \(NB\) distribution only allows a quadratic mean\-variance relationship\, the PT distributions generalizes this relationship to any orde.
 
 
 .. conda:package:: bioconductor-tweedeseq

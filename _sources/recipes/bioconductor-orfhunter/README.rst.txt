@@ -12,7 +12,7 @@ bioconductor-orfhunter
 
    Predict open reading frames in nucleotide sequences
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ORFhunteR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ORFhunteR.html
    :license: MIT License
    :recipe: /`bioconductor-orfhunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfhunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfhunter/meta.yaml>`_
 

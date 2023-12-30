@@ -12,7 +12,7 @@ bioconductor-mqmetrics
 
    Quality Control of Protemics Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MQmetrics.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MQmetrics.html
    :license: GPL-3
    :recipe: /`bioconductor-mqmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mqmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mqmetrics/meta.yaml>`_
 

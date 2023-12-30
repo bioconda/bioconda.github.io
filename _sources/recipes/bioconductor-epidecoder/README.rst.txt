@@ -12,7 +12,7 @@ bioconductor-epidecoder
 
    epidecodeR\: a functional exploration tool for epigenetic and epitranscriptomic regulation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/epidecodeR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epidecodeR.html
    :license: GPL-3
    :recipe: /`bioconductor-epidecoder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidecoder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidecoder/meta.yaml>`_
 

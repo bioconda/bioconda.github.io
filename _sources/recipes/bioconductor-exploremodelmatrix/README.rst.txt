@@ -12,7 +12,7 @@ bioconductor-exploremodelmatrix
 
    Graphical Exploration of Design Matrices
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ExploreModelMatrix.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ExploreModelMatrix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-exploremodelmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exploremodelmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exploremodelmatrix/meta.yaml>`_
 

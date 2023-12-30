@@ -12,7 +12,7 @@ bioconductor-alabaster.spatial
 
    Save and Load Spatial \'Omics Data to\/from File
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.spatial.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.spatial.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.spatial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.spatial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.spatial/meta.yaml>`_
 

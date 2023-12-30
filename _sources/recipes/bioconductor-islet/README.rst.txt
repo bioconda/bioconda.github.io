@@ -12,11 +12,11 @@ bioconductor-islet
 
    Individual\-Specific ceLl typE referencing Tool
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ISLET.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ISLET.html
    :license: GPL-2
    :recipe: /`bioconductor-islet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-islet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-islet/meta.yaml>`_
 
-   ISLET is a method to conduct signal deconvolution for general \-omics data. It can estimate the individual\-specific and cell\-type\-specific reference panels\, when there are multiple samples observed from each subject. It takes the input of the observed mixture data \(feature by sample matrix\)\, and the cell type mixture proportions \(sample by cell type matrix\)\, and the sample\-to\-subject information. It can solve for the reference panel on the individual\-basis. It can also conduct test to identify cell\-type\-specific differential expression \(csDE\) genes.
+   ISLET is a method to conduct signal deconvolution for general \-omics data. It can estimate the individual\-specific and cell\-type\-specific reference panels\, when there are multiple samples observed from each subject. It takes the input of the observed mixture data \(feature by sample matrix\)\, and the cell type mixture proportions \(sample by cell type matrix\)\, and the sample\-to\-subject information. It can solve for the reference panel on the individual\-basis and conduct test to identify cell\-type\-specific differential expression \(csDE\) genes. It also improves estimated cell type mixture proportions by integrating personalized reference panels.
 
 
 .. conda:package:: bioconductor-islet

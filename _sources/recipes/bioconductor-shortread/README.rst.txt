@@ -12,7 +12,7 @@ bioconductor-shortread
 
    FASTQ input and manipulation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ShortRead.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ShortRead.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-shortread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shortread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shortread/meta.yaml>`_
    :links: biotools: :biotools:`shortread`

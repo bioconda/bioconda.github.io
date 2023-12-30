@@ -12,7 +12,7 @@ bioconductor-lineagespot
 
    Detection of SARS\-CoV\-2 lineages in wastewater samples using next\-generation sequencing
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/lineagespot.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lineagespot.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lineagespot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lineagespot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lineagespot/meta.yaml>`_
 

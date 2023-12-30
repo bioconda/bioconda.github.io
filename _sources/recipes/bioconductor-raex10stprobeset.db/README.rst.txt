@@ -12,7 +12,7 @@ bioconductor-raex10stprobeset.db
 
    Affymetrix raex10 annotation data \(chip raex10stprobeset\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/raex10stprobeset.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/raex10stprobeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-raex10stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raex10stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raex10stprobeset.db/meta.yaml>`_
 

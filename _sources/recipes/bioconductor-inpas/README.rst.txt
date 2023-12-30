@@ -12,7 +12,7 @@ bioconductor-inpas
 
    Identify Novel Alternative PolyAdenylation Sites \(PAS\) from RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/InPAS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/InPAS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-inpas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpas/meta.yaml>`_
 

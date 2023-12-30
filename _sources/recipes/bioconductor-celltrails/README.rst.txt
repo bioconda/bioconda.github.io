@@ -12,7 +12,7 @@ bioconductor-celltrails
 
    Reconstruction\, visualization and analysis of branching trajectories
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CellTrails.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CellTrails.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-celltrails <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celltrails>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celltrails/meta.yaml>`_
 

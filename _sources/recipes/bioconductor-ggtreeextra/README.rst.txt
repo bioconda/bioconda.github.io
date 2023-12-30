@@ -12,7 +12,7 @@ bioconductor-ggtreeextra
 
    An R Package To Add Geometric Layers On Circular Or Other Layout Tree Of \"ggtree\"
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ggtreeExtra.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ggtreeExtra.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-ggtreeextra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtreeextra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtreeextra/meta.yaml>`_
 

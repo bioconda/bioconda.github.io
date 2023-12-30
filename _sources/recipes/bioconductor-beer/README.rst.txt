@@ -12,7 +12,7 @@ bioconductor-beer
 
    Bayesian Enrichment Estimation in R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/beer.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/beer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-beer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beer/meta.yaml>`_
 

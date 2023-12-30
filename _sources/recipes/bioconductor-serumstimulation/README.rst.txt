@@ -12,7 +12,7 @@ bioconductor-serumstimulation
 
    serumStimulation is a data package which is used by examples in package pcaGoPromoter
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/serumStimulation.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/serumStimulation.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-serumstimulation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-serumstimulation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-serumstimulation/meta.yaml>`_
 

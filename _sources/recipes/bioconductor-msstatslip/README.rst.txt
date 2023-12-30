@@ -12,7 +12,7 @@ bioconductor-msstatslip
 
    LiP Significance Analysis in shotgun mass spectrometry\-based proteomic experiments
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstatsLiP.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSstatsLiP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatslip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatslip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatslip/meta.yaml>`_
 

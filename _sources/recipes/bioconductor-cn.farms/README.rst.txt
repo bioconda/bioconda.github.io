@@ -12,7 +12,7 @@ bioconductor-cn.farms
 
    cn.FARMS \- factor analysis for copy number estimation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cn.farms.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cn.farms.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-cn.farms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cn.farms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cn.farms/meta.yaml>`_
    :links: biotools: :biotools:`cn.farms`, doi: :doi:`10.1093/nar/gkr197`

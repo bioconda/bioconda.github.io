@@ -12,7 +12,7 @@ bioconductor-censcyt
 
    Differential abundance analysis with a right censored covariate in high\-dimensional cytometry
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/censcyt.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/censcyt.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-censcyt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-censcyt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-censcyt/meta.yaml>`_
 

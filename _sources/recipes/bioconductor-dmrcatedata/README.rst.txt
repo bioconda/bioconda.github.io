@@ -12,7 +12,7 @@ bioconductor-dmrcatedata
 
    Data Package for DMRcate
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/DMRcatedata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/DMRcatedata.html
    :license: GPL-3
    :recipe: /`bioconductor-dmrcatedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcatedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcatedata/meta.yaml>`_
 

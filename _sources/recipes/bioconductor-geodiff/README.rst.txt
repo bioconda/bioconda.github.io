@@ -12,7 +12,7 @@ bioconductor-geodiff
 
    Count model based differential expression and normalization on GeoMx RNA data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GeoDiff.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeoDiff.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-geodiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geodiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geodiff/meta.yaml>`_
 

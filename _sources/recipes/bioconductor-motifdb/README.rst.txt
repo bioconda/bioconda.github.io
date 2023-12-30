@@ -12,7 +12,7 @@ bioconductor-motifdb
 
    An Annotated Collection of Protein\-DNA Binding Sequence Motifs
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MotifDb.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MotifDb.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-motifdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifdb/meta.yaml>`_
    :links: biotools: :biotools:`motifdb`, doi: :doi:`10.1038/nmeth.3252`

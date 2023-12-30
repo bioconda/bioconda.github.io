@@ -12,7 +12,7 @@ bioconductor-roseq
 
    Modeling expression ranks for noise\-tolerant differential expression analysis of scRNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ROSeq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ROSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-roseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roseq/meta.yaml>`_
 

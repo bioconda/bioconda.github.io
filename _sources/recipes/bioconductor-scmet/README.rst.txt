@@ -12,7 +12,7 @@ bioconductor-scmet
 
    Bayesian modelling of cell\-to\-cell DNA methylation heterogeneity
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scMET.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scMET.html
    :license: GPL-3
    :recipe: /`bioconductor-scmet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmet/meta.yaml>`_
 

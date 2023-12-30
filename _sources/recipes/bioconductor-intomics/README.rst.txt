@@ -12,7 +12,7 @@ bioconductor-intomics
 
    Integrative analysis of multi\-omics data to infer regulatory networks
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/IntOMICS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/IntOMICS.html
    :license: GPL-3
    :recipe: /`bioconductor-intomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intomics/meta.yaml>`_
 

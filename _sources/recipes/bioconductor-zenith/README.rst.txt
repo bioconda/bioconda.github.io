@@ -12,7 +12,7 @@ bioconductor-zenith
 
    Gene set analysis following differential expression using linear \(mixed\) modeling with dream
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/zenith.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/zenith.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-zenith <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zenith>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zenith/meta.yaml>`_
 

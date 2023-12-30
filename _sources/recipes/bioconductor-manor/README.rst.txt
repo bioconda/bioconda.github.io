@@ -12,7 +12,7 @@ bioconductor-manor
 
    CGH Micro\-Array NORmalization
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MANOR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MANOR.html
    :license: GPL-2
    :recipe: /`bioconductor-manor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-manor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-manor/meta.yaml>`_
 

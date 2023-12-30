@@ -12,7 +12,7 @@ bioconductor-biocgraph
 
    Graph examples and use cases in Bioinformatics
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biocGraph.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biocGraph.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgraph/meta.yaml>`_
    :links: biotools: :biotools:`biocgraph`, doi: :doi:`10.1038/nmeth.3252`

@@ -10,14 +10,14 @@ bioconductor-glimma
    :replaces_section_title:
    :noindex:
 
-   Interactive HTML graphics
+   Interactive visualizations for gene expression analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Glimma.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Glimma.html
    :license: GPL-3
    :recipe: /`bioconductor-glimma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glimma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glimma/meta.yaml>`_
    :links: biotools: :biotools:`glimma`, doi: :doi:`10.1101/096107`
 
-   This package generates interactive visualisations for analysis of RNA\-sequencing data using output from limma\, edgeR or DESeq2 packages in an HTML page. The interactions are built on top of the popular static representations of analysis results in order to provide additional information.
+   This package produces interactive visualizations for RNA\-seq data analysis\, utilizing output from limma\, edgeR\, or DESeq2. It produces interactive htmlwidgets versions of popular RNA\-seq analysis plots to enhance the exploration of analysis results by overlaying interactive features. The plots can be viewed in a web browser or embedded in notebook documents.
 
 
 .. conda:package:: bioconductor-glimma

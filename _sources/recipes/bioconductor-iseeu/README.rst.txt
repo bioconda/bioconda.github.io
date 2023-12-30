@@ -12,7 +12,7 @@ bioconductor-iseeu
 
    iSEE Universe
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/iSEEu.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iSEEu.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-iseeu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeu/meta.yaml>`_
 

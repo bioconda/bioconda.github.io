@@ -12,7 +12,7 @@ bioconductor-bsgenome.amellifera.ncbi.amelhav3.1
 
    Full genome sequences for Apis mellifera \(Amel\_HAv3.1\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Amellifera.NCBI.AmelHAv3.1.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Amellifera.NCBI.AmelHAv3.1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.amellifera.ncbi.amelhav3.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.ncbi.amelhav3.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.ncbi.amelhav3.1/meta.yaml>`_
 

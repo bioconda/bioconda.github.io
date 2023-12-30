@@ -12,7 +12,7 @@ bioconductor-methylseqdata
 
    Collection of Public DNA Methylation Sequencing Datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/MethylSeqData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MethylSeqData.html
    :license: CC0
    :recipe: /`bioconductor-methylseqdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylseqdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylseqdata/meta.yaml>`_
 

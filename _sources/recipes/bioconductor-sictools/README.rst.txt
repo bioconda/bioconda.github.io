@@ -12,7 +12,7 @@ bioconductor-sictools
 
    Find SNV\/Indel differences between two bam files with near relationship
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SICtools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SICtools.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-sictools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sictools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sictools/meta.yaml>`_
 

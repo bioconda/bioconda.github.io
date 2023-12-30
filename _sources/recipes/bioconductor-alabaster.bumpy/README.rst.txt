@@ -12,7 +12,7 @@ bioconductor-alabaster.bumpy
 
    Save and Load BumpyMatrices to\/from file
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.bumpy.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.bumpy.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.bumpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.bumpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.bumpy/meta.yaml>`_
 

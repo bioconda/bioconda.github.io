@@ -12,7 +12,7 @@ bioconductor-alabaster.ranges
 
    Load and Save Ranges\-related Artifacts from File
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.ranges.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.ranges.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.ranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.ranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.ranges/meta.yaml>`_
 

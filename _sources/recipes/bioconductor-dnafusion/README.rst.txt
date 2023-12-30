@@ -12,7 +12,7 @@ bioconductor-dnafusion
 
    Identification of gene fusions using paired\-end sequencing
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DNAfusion.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DNAfusion.html
    :license: GPL-3
    :recipe: /`bioconductor-dnafusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnafusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnafusion/meta.yaml>`_
 

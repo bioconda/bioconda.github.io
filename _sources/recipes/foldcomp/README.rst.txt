@@ -13,9 +13,9 @@ foldcomp
    Foldcomp\: a library and format for compressing and indexing large protein structure sets
 
    :homepage: https://github.com/steineggerlab/foldcomp
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`foldcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldcomp/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2022.12.09.519715`
+   :links: doi: :doi:`10.1093/bioinformatics/btad153`
 
    
 
@@ -28,7 +28,7 @@ foldcomp
       
       
 
-      ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -85,7 +85,7 @@ foldcomp
 
     <script>
         var package = "foldcomp";
-        var versions = ["0.0.5","0.0.5","0.0.5","0.0.4","0.0.3"];
+        var versions = ["0.0.6","0.0.5","0.0.5","0.0.5","0.0.4"];
     </script>
 
 

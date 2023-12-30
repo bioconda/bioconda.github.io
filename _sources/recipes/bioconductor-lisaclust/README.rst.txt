@@ -12,7 +12,7 @@ bioconductor-lisaclust
 
    lisaClust\: Clustering of Local Indicators of Spatial Association
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/lisaClust.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lisaClust.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-lisaclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lisaclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lisaclust/meta.yaml>`_
 

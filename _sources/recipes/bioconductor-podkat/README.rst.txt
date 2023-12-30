@@ -12,7 +12,7 @@ bioconductor-podkat
 
    Position\-Dependent Kernel Association Test
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/podkat.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/podkat.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-podkat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-podkat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-podkat/meta.yaml>`_
    :links: biotools: :biotools:`podkat`, doi: :doi:`10.1038/nmeth.3252`

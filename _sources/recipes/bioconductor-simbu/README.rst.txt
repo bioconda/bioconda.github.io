@@ -12,7 +12,7 @@ bioconductor-simbu
 
    Simulate Bulk RNA\-seq Datasets from Single\-Cell Datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SimBu.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SimBu.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-simbu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbu/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-nugomm1a520177cdf
 
    nugomm1a520177cdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/nugomm1a520177cdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/nugomm1a520177cdf.html
    :license: LGPL
    :recipe: /`bioconductor-nugomm1a520177cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177cdf/meta.yaml>`_
 

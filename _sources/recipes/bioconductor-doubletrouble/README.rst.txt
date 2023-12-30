@@ -12,11 +12,11 @@ bioconductor-doubletrouble
 
    Identification and classification of duplicated genes
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/doubletrouble.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/doubletrouble.html
    :license: GPL-3
    :recipe: /`bioconductor-doubletrouble <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doubletrouble>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doubletrouble/meta.yaml>`_
 
-   doubletrouble aims to identify duplicated genes from whole\-genome protein sequences and classify them based on their modes of duplication. The duplication modes are\: i. whole\-genome duplication \(WGD\)\; ii. tandem duplication \(TD\)\; iii. proximal duplication \(PD\)\; iv. transposed duplication \(TRD\) and\; v. dispersed duplication \(DD\). If users want a simpler classification scheme\, duplicates can also be classified into WGD\- and SSD\-derived \(small\-scale duplication\) gene pairs. Besides classifying gene pairs\, users can also classify genes\, so that each gene is assigned a unique mode of duplication. Users can also calculate substitution rates per substitution site \(i.e.\, Ka and Ks\) from duplicate pairs\, find peaks in Ks distributions with Gaussian Mixture Models \(GMMs\)\, and classify gene pairs into age groups based on Ks peaks.
+   doubletrouble aims to identify duplicated genes from whole\-genome protein sequences and classify them based on their modes of duplication. The duplication modes are i. segmental duplication \(SD\)\; ii. tandem duplication \(TD\)\; iii. proximal duplication \(PD\)\; iv. transposed duplication \(TRD\) and\; v. dispersed duplication \(DD\). Transposon\-derived duplicates \(TRD\) can be further subdivided into rTRD \(retrotransposon\-derived duplication\) and dTRD \(DNA transposon\-derived duplication\). If users want a simpler classification scheme\, duplicates can also be classified into SD\- and SSD\-derived \(small\-scale duplication\) gene pairs. Besides classifying gene pairs\, users can also classify genes\, so that each gene is assigned a unique mode of duplication. Users can also calculate substitution rates per substitution site \(i.e.\, Ka and Ks\) from duplicate pairs\, find peaks in Ks distributions with Gaussian Mixture Models \(GMMs\)\, and classify gene pairs into age groups based on Ks peaks.
 
 
 .. conda:package:: bioconductor-doubletrouble

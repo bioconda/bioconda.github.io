@@ -12,7 +12,7 @@ bioconductor-ataccogaps
 
    Analysis Tools for scATACseq Data with CoGAPS
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ATACCoGAPS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ATACCoGAPS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ataccogaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ataccogaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ataccogaps/meta.yaml>`_
 

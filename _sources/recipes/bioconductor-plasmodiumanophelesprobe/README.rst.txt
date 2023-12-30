@@ -12,7 +12,7 @@ bioconductor-plasmodiumanophelesprobe
 
    Probe sequence data for microarrays of type plasmodiumanopheles
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/plasmodiumanophelesprobe.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/plasmodiumanophelesprobe.html
    :license: LGPL
    :recipe: /`bioconductor-plasmodiumanophelesprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmodiumanophelesprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmodiumanophelesprobe/meta.yaml>`_
 

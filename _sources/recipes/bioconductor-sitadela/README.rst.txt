@@ -12,7 +12,7 @@ bioconductor-sitadela
 
    An R package for the easy provision of simple but complete tab\-delimited genomic annotation from a variety of sources and organisms
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sitadela.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sitadela.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sitadela <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitadela>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitadela/meta.yaml>`_
 

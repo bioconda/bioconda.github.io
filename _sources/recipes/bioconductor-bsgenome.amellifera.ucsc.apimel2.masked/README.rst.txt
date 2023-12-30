@@ -12,7 +12,7 @@ bioconductor-bsgenome.amellifera.ucsc.apimel2.masked
 
    Full masked genome sequences for Apis mellifera \(UCSC version apiMel2\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Amellifera.UCSC.apiMel2.masked.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Amellifera.UCSC.apiMel2.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.amellifera.ucsc.apimel2.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.ucsc.apimel2.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.ucsc.apimel2.masked/meta.yaml>`_
 

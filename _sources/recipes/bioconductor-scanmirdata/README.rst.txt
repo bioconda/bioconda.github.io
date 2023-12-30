@@ -12,7 +12,7 @@ bioconductor-scanmirdata
 
    miRNA Affinity models for the scanMiR package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/scanMiRData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/scanMiRData.html
    :license: GPL-3
    :recipe: /`bioconductor-scanmirdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scanmirdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scanmirdata/meta.yaml>`_
 

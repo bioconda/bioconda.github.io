@@ -12,11 +12,11 @@ bioconductor-tidysummarizedexperiment
 
    Brings SummarizedExperiment to the Tidyverse
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tidySummarizedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tidySummarizedExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-tidysummarizedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysummarizedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysummarizedexperiment/meta.yaml>`_
 
-   tidySummarizedExperiment is an adapter that abstracts the \'SummarizedExperiment\' container in the form of tibble and allows the data manipulation\, plotting and nesting using \'tidyverse\'
+   The tidySummarizedExperiment package provides a set of tools for creating and manipulating tidy data representations of SummarizedExperiment objects. SummarizedExperiment is a widely used data structure in bioinformatics for storing high\-throughput genomic data\, such as gene expression or DNA sequencing data. The tidySummarizedExperiment package introduces a tidy framework for working with SummarizedExperiment objects. It allows users to convert their data into a tidy format\, where each observation is a row and each variable is a column. This tidy representation simplifies data manipulation\, integration with other tidyverse packages\, and enables seamless integration with the broader ecosystem of tidy tools for data analysis.
 
 
 .. conda:package:: bioconductor-tidysummarizedexperiment

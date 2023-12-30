@@ -12,7 +12,7 @@ bioconductor-uniquorn
 
    Identification of cancer cell lines based on their weighted mutational\/ variational fingerprint
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Uniquorn.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Uniquorn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-uniquorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniquorn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniquorn/meta.yaml>`_
    :links: biotools: :biotools:`uniquorn`, doi: :doi:`10.18632/oncotarget.16110`

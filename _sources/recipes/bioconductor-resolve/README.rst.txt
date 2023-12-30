@@ -12,7 +12,7 @@ bioconductor-resolve
 
    RESOLVE\: An R package for the efficient analysis of mutational signatures from cancer genomes
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RESOLVE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RESOLVE.html
    :license: file LICENSE
    :recipe: /`bioconductor-resolve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-resolve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-resolve/meta.yaml>`_
 

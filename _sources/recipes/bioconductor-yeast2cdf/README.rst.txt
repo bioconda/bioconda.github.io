@@ -12,7 +12,7 @@ bioconductor-yeast2cdf
 
    yeast2cdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/yeast2cdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/yeast2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-yeast2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast2cdf/meta.yaml>`_
 

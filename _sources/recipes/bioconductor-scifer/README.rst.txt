@@ -12,7 +12,7 @@ bioconductor-scifer
 
    Scifer\: Single\-Cell Immunoglobulin Filtering of Sanger Sequences
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scifer.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scifer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scifer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scifer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scifer/meta.yaml>`_
 

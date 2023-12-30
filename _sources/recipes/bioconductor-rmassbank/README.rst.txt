@@ -12,7 +12,7 @@ bioconductor-rmassbank
 
    Workflow to process tandem MS files and build MassBank records
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RMassBank.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RMassBank.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rmassbank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbank/meta.yaml>`_
 

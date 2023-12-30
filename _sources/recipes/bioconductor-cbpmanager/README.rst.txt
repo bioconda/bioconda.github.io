@@ -12,7 +12,7 @@ bioconductor-cbpmanager
 
    Generate\, manage\, and edit data and metadata files suitable for the import in cBioPortal for Cancer Genomics
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cbpManager.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cbpManager.html
    :license: AGPL-3 + file LICENSE
    :recipe: /`bioconductor-cbpmanager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbpmanager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbpmanager/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rgu34c.db
 
    Affymetrix Affymetrix RG\_U34C Array annotation data \(chip rgu34c\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/rgu34c.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/rgu34c.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgu34c.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34c.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34c.db/meta.yaml>`_
 

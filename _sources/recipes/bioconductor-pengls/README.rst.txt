@@ -12,7 +12,7 @@ bioconductor-pengls
 
    Fit Penalised Generalised Least Squares models
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/pengls.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pengls.html
    :license: GPL-2
    :recipe: /`bioconductor-pengls <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pengls>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pengls/meta.yaml>`_
 

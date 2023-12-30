@@ -12,7 +12,7 @@ bioconductor-methylmix
 
    MethylMix\: Identifying methylation driven cancer genes
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MethylMix.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MethylMix.html
    :license: GPL-2
    :recipe: /`bioconductor-methylmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmix/meta.yaml>`_
 

@@ -16,9 +16,9 @@ antismash-lite
    :documentation: https://docs.antismash.secondarymetabolites.org
    
    :developer docs: https://github.com/antismash/antismash
-   :license: AGPL / AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`antismash-lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash-lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash-lite/meta.yaml>`_
-   :links: biotools: :biotools:`antismash`, doi: :doi:`10.1093/nar/gkr466`, doi: :doi:`10.1093/nar/gkt449`, doi: :doi:`10.1093/nar/gkv437`, doi: :doi:`10.1093/nar/gkx319`, doi: :doi:`10.1093/nar/gkz310`, doi: :doi:`10.1093/nar/gkab335`, usegalaxy-eu: :usegalaxy-eu:`antismash`
+   :links: biotools: :biotools:`antismash`, doi: :doi:`10.1093/nar/gkr466`, doi: :doi:`10.1093/nar/gkt449`, doi: :doi:`10.1093/nar/gkv437`, doi: :doi:`10.1093/nar/gkx319`, doi: :doi:`10.1093/nar/gkz310`, doi: :doi:`10.1093/nar/gkab335`, doi: :doi:`10.1093/nar/gkad344`, usegalaxy-eu: :usegalaxy-eu:`antismash`
 
    antiSMASH allows the rapid genome\-wide identification\,
    annotation and analysis of secondary metabolite biosynthesis gene clusters.
@@ -33,7 +33,7 @@ antismash-lite
       
       
 
-      ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``7.1.0-0``,  ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
 
@@ -41,26 +41,27 @@ antismash-lite
    :depends bcbio-gff: 
    :depends biopython: ``1.78.*``
    :depends blast: 
-   :depends diamond: ``>=0.9,<=2.0.15``
+   :depends brawn: ``>=1.0.1``
+   :depends diamond: 
    :depends fasttree: ``2.1.*``
    :depends glimmerhmm: ``3.0.*``
-   :depends helperlibs: ``>=0.2.0``
+   :depends helperlibs: ``>=0.2.1``
    :depends hmmer: ``>=3.1b2``
    :depends hmmer2: 
    :depends jinja2: 
    :depends joblib: 
    :depends jsonschema: 
-   :depends markupsafe: ``>=2.0``
+   :depends libsass: 
+   :depends markupsafe: ``>=2.1.0``
    :depends matplotlib-base: 
-   :depends meme: ``<=4.11.2``
-   :depends muscle: ``3.8.*``
+   :depends meme: ``4.11.2.*``
+   :depends moods: ``>=1.9.4``
+   :depends nrpys: ``>=0.1.1``
    :depends numpy: 
-   :depends openjdk: 
    :depends prodigal: 
-   :depends pyscss: 
    :depends pysvg-py3: 
-   :depends python: ``>=3.7``
-   :depends scikit-learn: ``>=0.19``
+   :depends python: ``>=3.9``
+   :depends scikit-learn: ``>=1.3.2``
    :depends scipy: 
    :requirements:
 
@@ -109,7 +110,7 @@ antismash-lite
 
     <script>
         var package = "antismash-lite";
-        var versions = ["6.1.1","6.1.1","6.1.0","6.0.1","6.0.1"];
+        var versions = ["7.1.0","6.1.1","6.1.1","6.1.0","6.0.1"];
     </script>
 
 

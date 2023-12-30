@@ -12,7 +12,7 @@ bioconductor-genesis
 
    GENetic EStimation and Inference in Structured samples \(GENESIS\)\: Statistical methods for analyzing genetic data from samples with population structure and\/or relatedness
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GENESIS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GENESIS.html
    :license: GPL-3
    :recipe: /`bioconductor-genesis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genesis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genesis/meta.yaml>`_
 

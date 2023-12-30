@@ -12,7 +12,7 @@ bioconductor-guitar
 
    Guitar
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Guitar.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Guitar.html
    :license: GPL-2
    :recipe: /`bioconductor-guitar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guitar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guitar/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gbscleanr
 
    Error correction tool for noisy genotyping by sequencing \(GBS\) data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GBScleanR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GBScleanR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-gbscleanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gbscleanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gbscleanr/meta.yaml>`_
 

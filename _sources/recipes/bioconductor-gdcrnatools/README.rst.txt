@@ -12,7 +12,7 @@ bioconductor-gdcrnatools
 
    GDCRNATools\: an R\/Bioconductor package for integrative analysis of lncRNA\, mRNA\, and miRNA data in GDC
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GDCRNATools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GDCRNATools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdcrnatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdcrnatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdcrnatools/meta.yaml>`_
 

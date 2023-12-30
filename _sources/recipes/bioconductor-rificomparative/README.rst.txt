@@ -10,13 +10,13 @@ bioconductor-rificomparative
    :replaces_section_title:
    :noindex:
 
-   \'rifiComparative\' compares the outputs of \'rifi\' under two different conditions.
+   \'rifiComparative\' compares the output of rifi from two different conditions.
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rifiComparative.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rifiComparative.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-rificomparative <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rificomparative>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rificomparative/meta.yaml>`_
 
-   \'rifiComparative\' is an extension of the \'rifi\' package. It is designed to compare the outputs of \'rifi\' under two different conditions by utilizing the half\-life and mRNA at time 0 segments. To perform the segmentation\, it takes into account the difference in half\-life between the two conditions and the log2FC \(fold change\) of the mRNA at time 0. This package offers various functionalities such as segmentation\, statistical analysis\, summary tables\, visualization of fragments\, and additional plots that can be helpful for further analysis.
+   \'rifiComparative\' is a continuation of rifi package. It compares two conditions output of rifi using half\-life and mRNA at time 0 segments. As an input for the segmentation\, the difference between half\-life of both condtions and log2FC of the mRNA at time 0 are used. The package provides segmentation\, statistics\, summary table\, fragments visualization and some additional useful plots for further anaylsis.
 
 
 .. conda:package:: bioconductor-rificomparative

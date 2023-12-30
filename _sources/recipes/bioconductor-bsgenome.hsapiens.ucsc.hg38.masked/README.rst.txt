@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.masked
 
    Full masked genomic sequences for Homo sapiens \(UCSC version hg38\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.masked.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg38.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked/meta.yaml>`_
 

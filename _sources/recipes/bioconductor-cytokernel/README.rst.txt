@@ -12,7 +12,7 @@ bioconductor-cytokernel
 
    Differential expression using kernel\-based score test
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cytoKernel.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cytoKernel.html
    :license: GPL-3
    :recipe: /`bioconductor-cytokernel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytokernel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytokernel/meta.yaml>`_
 

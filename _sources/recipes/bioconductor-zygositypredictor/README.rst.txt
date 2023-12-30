@@ -12,7 +12,7 @@ bioconductor-zygositypredictor
 
    Package for prediction of zygosity for variants\/genes in NGS data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ZygosityPredictor.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ZygosityPredictor.html
    :license: GPL-2
    :recipe: /`bioconductor-zygositypredictor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zygositypredictor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zygositypredictor/meta.yaml>`_
 

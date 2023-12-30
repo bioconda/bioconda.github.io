@@ -12,7 +12,7 @@ bioconductor-metaboannotation
 
    Utilities for Annotation of Metabolomics Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MetaboAnnotation.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MetaboAnnotation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metaboannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaboannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaboannotation/meta.yaml>`_
 

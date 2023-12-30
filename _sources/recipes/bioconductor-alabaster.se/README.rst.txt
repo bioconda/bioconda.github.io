@@ -12,7 +12,7 @@ bioconductor-alabaster.se
 
    Load and Save SummarizedExperiments from File
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.se.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.se.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.se <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.se>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.se/meta.yaml>`_
 

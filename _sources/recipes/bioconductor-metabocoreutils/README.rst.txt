@@ -12,7 +12,7 @@ bioconductor-metabocoreutils
 
    Core Utils for Metabolomics Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MetaboCoreUtils.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MetaboCoreUtils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metabocoreutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabocoreutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabocoreutils/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-oncoscore
 
    A tool to identify potentially oncogenic genes
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OncoScore.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OncoScore.html
    :license: file LICENSE
    :recipe: /`bioconductor-oncoscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncoscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncoscore/meta.yaml>`_
 

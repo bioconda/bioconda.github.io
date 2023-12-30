@@ -12,7 +12,7 @@ bioconductor-rgu34acdf
 
    rgu34acdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/rgu34acdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/rgu34acdf.html
    :license: LGPL
    :recipe: /`bioconductor-rgu34acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34acdf/meta.yaml>`_
 

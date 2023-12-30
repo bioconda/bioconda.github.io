@@ -12,7 +12,7 @@ bioconductor-mgu74av2.db
 
    Affymetrix Affymetrix MG\_U74Av2 Array annotation data \(chip mgu74av2\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/mgu74av2.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/mgu74av2.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mgu74av2.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74av2.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74av2.db/meta.yaml>`_
 

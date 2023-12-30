@@ -12,7 +12,7 @@ bioconductor-htsfilter
 
    Filter replicated high\-throughput transcriptome sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HTSFilter.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HTSFilter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htsfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsfilter/meta.yaml>`_
 

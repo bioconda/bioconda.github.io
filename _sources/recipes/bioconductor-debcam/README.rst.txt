@@ -12,7 +12,7 @@ bioconductor-debcam
 
    Deconvolution by Convex Analysis of Mixtures
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/debCAM.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/debCAM.html
    :license: GPL-2
    :recipe: /`bioconductor-debcam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-debcam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-debcam/meta.yaml>`_
 

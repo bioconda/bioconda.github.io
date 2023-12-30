@@ -12,7 +12,7 @@ bioconductor-mslp
 
    Predict synthetic lethal partners of tumour mutations
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mslp.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mslp.html
    :license: GPL-3
    :recipe: /`bioconductor-mslp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mslp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mslp/meta.yaml>`_
 

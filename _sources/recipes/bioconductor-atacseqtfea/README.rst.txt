@@ -12,7 +12,7 @@ bioconductor-atacseqtfea
 
    Transcription Factor Enrichment Analysis for ATAC\-seq
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ATACseqTFEA.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ATACseqTFEA.html
    :license: GPL-3
    :recipe: /`bioconductor-atacseqtfea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atacseqtfea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atacseqtfea/meta.yaml>`_
 

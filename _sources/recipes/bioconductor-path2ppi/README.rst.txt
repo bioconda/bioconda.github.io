@@ -12,7 +12,7 @@ bioconductor-path2ppi
 
    Prediction of pathway\-related protein\-protein interaction networks
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Path2PPI.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Path2PPI.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-path2ppi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-path2ppi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-path2ppi/meta.yaml>`_
    :links: biotools: :biotools:`path2ppi`

@@ -12,7 +12,7 @@ bioconductor-tress
 
    Toolbox for mRNA epigenetics sequencing analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TRESS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TRESS.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-tress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tress/meta.yaml>`_
 

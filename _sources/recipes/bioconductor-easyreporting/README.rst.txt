@@ -12,7 +12,7 @@ bioconductor-easyreporting
 
    Helps creating report for improving Reproducible Computational Research
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/easyreporting.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/easyreporting.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-easyreporting <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyreporting>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyreporting/meta.yaml>`_
 

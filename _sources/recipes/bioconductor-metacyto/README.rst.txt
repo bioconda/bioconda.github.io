@@ -12,7 +12,7 @@ bioconductor-metacyto
 
    MetaCyto\: A package for meta\-analysis of cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MetaCyto.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MetaCyto.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-metacyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacyto/meta.yaml>`_
 

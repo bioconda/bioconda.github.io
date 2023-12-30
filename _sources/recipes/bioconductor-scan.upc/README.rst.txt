@@ -12,7 +12,7 @@ bioconductor-scan.upc
 
    Single\-channel array normalization \(SCAN\) and Universal exPression Codes \(UPC\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SCAN.UPC.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SCAN.UPC.html
    :license: MIT
    :recipe: /`bioconductor-scan.upc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scan.upc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scan.upc/meta.yaml>`_
    :links: biotools: :biotools:`scan.upc`

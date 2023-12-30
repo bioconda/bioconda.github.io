@@ -12,7 +12,7 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked
 
    Full masked genome sequences for Pan troglodytes \(UCSC version panTro2\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.masked.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked/meta.yaml>`_
 

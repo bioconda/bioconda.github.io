@@ -12,7 +12,7 @@ bioconductor-alabaster.sce
 
    Load and Save SingleCellExperiment from File
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.sce.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.sce.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.sce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.sce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.sce/meta.yaml>`_
 

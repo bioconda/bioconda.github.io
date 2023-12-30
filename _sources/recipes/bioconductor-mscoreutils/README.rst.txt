@@ -12,7 +12,7 @@ bioconductor-mscoreutils
 
    Core Utils for Mass Spectrometry Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MsCoreUtils.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MsCoreUtils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mscoreutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mscoreutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mscoreutils/meta.yaml>`_
 

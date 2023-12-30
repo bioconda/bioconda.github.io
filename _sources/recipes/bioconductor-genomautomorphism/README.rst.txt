@@ -12,7 +12,7 @@ bioconductor-genomautomorphism
 
    Compute the automorphisms between DNA\'s Abelian group representations
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GenomAutomorphism.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GenomAutomorphism.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomautomorphism <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomautomorphism>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomautomorphism/meta.yaml>`_
 

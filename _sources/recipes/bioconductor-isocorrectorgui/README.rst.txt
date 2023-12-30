@@ -12,7 +12,7 @@ bioconductor-isocorrectorgui
 
    Graphical User Interface for IsoCorrectoR
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/IsoCorrectoRGUI.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/IsoCorrectoRGUI.html
    :license: GPL-3
    :recipe: /`bioconductor-isocorrectorgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isocorrectorgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isocorrectorgui/meta.yaml>`_
 

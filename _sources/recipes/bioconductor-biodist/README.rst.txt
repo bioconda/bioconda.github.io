@@ -12,7 +12,7 @@ bioconductor-biodist
 
    Different distance measures
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/bioDist.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/bioDist.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biodist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodist/meta.yaml>`_
    :links: biotools: :biotools:`biodist`, doi: :doi:`10.1038/nmeth.3252`

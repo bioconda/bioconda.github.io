@@ -12,7 +12,7 @@ bioconductor-dce
 
    Pathway Enrichment Based on Differential Causal Effects
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/dce.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/dce.html
    :license: GPL-3
    :recipe: /`bioconductor-dce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dce/meta.yaml>`_
 

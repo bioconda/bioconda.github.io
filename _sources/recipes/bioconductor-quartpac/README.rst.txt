@@ -12,7 +12,7 @@ bioconductor-quartpac
 
    Identification of mutational clusters in protein quaternary structures.
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/QuartPAC.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/QuartPAC.html
    :license: GPL-2
    :recipe: /`bioconductor-quartpac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quartpac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quartpac/meta.yaml>`_
    :links: biotools: :biotools:`quartpac`, doi: :doi:`10.1186/s12859-016-0963-3`

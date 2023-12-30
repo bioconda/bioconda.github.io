@@ -12,7 +12,7 @@ bioconductor-opossom
 
    Comprehensive analysis of transcriptome data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/oposSOM.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/oposSOM.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-opossom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opossom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opossom/meta.yaml>`_
 

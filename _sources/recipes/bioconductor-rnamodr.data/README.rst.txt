@@ -12,7 +12,7 @@ bioconductor-rnamodr.data
 
    Example data for the RNAmodR package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/RNAmodR.Data.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/RNAmodR.Data.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnamodr.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.data/meta.yaml>`_
 

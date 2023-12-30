@@ -12,7 +12,7 @@ bioconductor-seqarchr
 
    Identify Different Architectures of Sequence Elements
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/seqArchR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/seqArchR.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-seqarchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarchr/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-alevinqc
 
    Generate QC Reports For Alevin Output
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alevinQC.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alevinQC.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alevinqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alevinqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alevinqc/meta.yaml>`_
 
-   Generate QC reports summarizing the output from an alevin run. Reports can be generated as html or pdf files\, or as shiny applications.
+   Generate QC reports summarizing the output from an alevin\, alevin\-fry\, or simpleaf run. Reports can be generated as html or pdf files\, or as shiny applications.
 
 
 .. conda:package:: bioconductor-alevinqc

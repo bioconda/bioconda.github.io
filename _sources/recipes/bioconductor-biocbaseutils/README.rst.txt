@@ -12,7 +12,7 @@ bioconductor-biocbaseutils
 
    General utility functions for developing Bioconductor packages
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BiocBaseUtils.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiocBaseUtils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocbaseutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocbaseutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocbaseutils/meta.yaml>`_
 

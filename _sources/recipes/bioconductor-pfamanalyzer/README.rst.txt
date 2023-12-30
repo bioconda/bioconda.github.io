@@ -12,7 +12,7 @@ bioconductor-pfamanalyzer
 
    Identification of domain isotypes in pfam data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/pfamAnalyzeR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pfamAnalyzeR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pfamanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pfamanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pfamanalyzer/meta.yaml>`_
 

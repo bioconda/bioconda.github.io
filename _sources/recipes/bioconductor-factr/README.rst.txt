@@ -12,7 +12,7 @@ bioconductor-factr
 
    Functional Annotation of Custom Transcriptomes
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/factR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/factR.html
    :license: file LICENSE
    :recipe: /`bioconductor-factr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rnamodr.ribomethseq
 
    Detection of 2\'\-O methylations by RiboMethSeq
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RNAmodR.RiboMethSeq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RNAmodR.RiboMethSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnamodr.ribomethseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.ribomethseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.ribomethseq/meta.yaml>`_
 

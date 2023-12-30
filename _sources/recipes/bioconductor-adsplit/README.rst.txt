@@ -12,7 +12,7 @@ bioconductor-adsplit
 
    Annotation\-Driven Clustering
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/adSplit.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/adSplit.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-adsplit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adsplit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adsplit/meta.yaml>`_
 

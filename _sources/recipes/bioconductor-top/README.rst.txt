@@ -12,7 +12,7 @@ bioconductor-top
 
    TOP Constructs Transferable Model Across Gene Expression Platforms
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TOP.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TOP.html
    :license: GPL-3
    :recipe: /`bioconductor-top <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-top>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-top/meta.yaml>`_
 

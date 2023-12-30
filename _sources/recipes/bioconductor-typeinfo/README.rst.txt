@@ -12,7 +12,7 @@ bioconductor-typeinfo
 
    Optional Type Specification Prototype
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TypeInfo.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TypeInfo.html
    :license: BSD_2_clause
    :recipe: /`bioconductor-typeinfo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-typeinfo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-typeinfo/meta.yaml>`_
 

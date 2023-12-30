@@ -12,7 +12,7 @@ bioconductor-impcdata
 
    Retrieves data from IMPC database
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/IMPCdata.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/IMPCdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-impcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impcdata/meta.yaml>`_
 

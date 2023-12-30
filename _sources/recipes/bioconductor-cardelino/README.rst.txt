@@ -12,7 +12,7 @@ bioconductor-cardelino
 
    Clone Identification from Single Cell Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cardelino.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cardelino.html
    :license: GPL-3
    :recipe: /`bioconductor-cardelino <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardelino>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardelino/meta.yaml>`_
 

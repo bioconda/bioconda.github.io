@@ -12,7 +12,7 @@ bioconductor-standr
 
    Spatial transcriptome analyses of Nanostring\'s DSP data in R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/standR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/standR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-standr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-standr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-standr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-funtoonorm
 
    Normalization Procedure for Infinium HumanMethylation450 BeadChip Kit
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/funtooNorm.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/funtooNorm.html
    :license: GPL-3
    :recipe: /`bioconductor-funtoonorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funtoonorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funtoonorm/meta.yaml>`_
 

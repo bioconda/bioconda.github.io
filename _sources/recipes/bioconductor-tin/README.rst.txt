@@ -12,7 +12,7 @@ bioconductor-tin
 
    Transcriptome instability analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TIN.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TIN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin/meta.yaml>`_
    :links: biotools: :biotools:`tin`, doi: :doi:`10.4137/CIN.S31363`

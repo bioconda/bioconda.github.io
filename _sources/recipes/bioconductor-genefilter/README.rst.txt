@@ -12,7 +12,7 @@ bioconductor-genefilter
 
    genefilter\: methods for filtering genes from high\-throughput experiments
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/genefilter.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/genefilter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genefilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter/meta.yaml>`_
    :links: biotools: :biotools:`genefilter`, doi: :doi:`10.1038/nmeth.3252`

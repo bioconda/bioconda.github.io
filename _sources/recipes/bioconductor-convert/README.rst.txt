@@ -12,7 +12,7 @@ bioconductor-convert
 
    Convert Microarray Data Objects
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/convert.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/convert.html
    :license: LGPL
    :recipe: /`bioconductor-convert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-convert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-convert/meta.yaml>`_
    :links: biotools: :biotools:`convert`, doi: :doi:`10.1038/nmeth.3252`

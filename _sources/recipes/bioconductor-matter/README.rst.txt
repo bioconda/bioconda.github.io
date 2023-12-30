@@ -10,14 +10,14 @@ bioconductor-matter
    :replaces_section_title:
    :noindex:
 
-   A framework for rapid prototyping with file\-based data structures
+   Out\-of\-memory dense and sparse signal arrays
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/matter.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/matter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-matter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter/meta.yaml>`_
    :links: biotools: :biotools:`matter`, doi: :doi:`10.1038/nmeth.3252`
 
-   Memory\-efficient reading\, writing\, and manipulation of structured binary data as file\-based vectors\, matrices\, arrays\, lists\, and data frames.
+   Memory\-efficient file\-based data structures for dense and sparse vectors\, matrices\, arrays\, and lists with applications to nonuniformly sampled signals and spectra.
 
 
 .. conda:package:: bioconductor-matter

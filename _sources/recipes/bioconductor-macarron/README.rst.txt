@@ -12,7 +12,7 @@ bioconductor-macarron
 
    Prioritization of potentially bioactive metabolic features from epidemiological and environmental metabolomics datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Macarron.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Macarron.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-macarron <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macarron>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macarron/meta.yaml>`_
 

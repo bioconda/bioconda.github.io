@@ -12,7 +12,7 @@ bioconductor-txdb.athaliana.biomart.plantsmart51
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/TxDb.Athaliana.BioMart.plantsmart51.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Athaliana.BioMart.plantsmart51.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.athaliana.biomart.plantsmart51 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.athaliana.biomart.plantsmart51>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.athaliana.biomart.plantsmart51/meta.yaml>`_
 

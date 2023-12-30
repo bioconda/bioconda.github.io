@@ -12,7 +12,7 @@ bioconductor-hgu133a.db
 
    Affymetrix Affymetrix HG\-U133A Array annotation data \(chip hgu133a\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hgu133a.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/hgu133a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgu133a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a.db/meta.yaml>`_
 

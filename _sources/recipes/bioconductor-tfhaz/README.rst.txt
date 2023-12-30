@@ -12,7 +12,7 @@ bioconductor-tfhaz
 
    Transcription Factor High Accumulation Zones
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TFHAZ.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TFHAZ.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tfhaz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfhaz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfhaz/meta.yaml>`_
 

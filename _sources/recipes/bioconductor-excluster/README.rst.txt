@@ -12,7 +12,7 @@ bioconductor-excluster
 
    ExCluster robustly detects differentially expressed exons between two conditions of RNA\-seq data\, requiring at least two independent biological replicates per condition
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ExCluster.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ExCluster.html
    :license: GPL-3
    :recipe: /`bioconductor-excluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-excluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-excluster/meta.yaml>`_
 

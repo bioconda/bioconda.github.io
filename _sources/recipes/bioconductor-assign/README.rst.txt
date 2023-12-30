@@ -12,7 +12,7 @@ bioconductor-assign
 
    Adaptive Signature Selection and InteGratioN \(ASSIGN\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ASSIGN.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ASSIGN.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-assign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assign/meta.yaml>`_
 

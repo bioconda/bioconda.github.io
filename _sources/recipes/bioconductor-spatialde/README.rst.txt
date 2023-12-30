@@ -12,7 +12,7 @@ bioconductor-spatialde
 
    R wrapper for SpatialDE
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/spatialDE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/spatialDE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spatialde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialde/meta.yaml>`_
 

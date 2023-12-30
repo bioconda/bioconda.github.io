@@ -12,7 +12,7 @@ bioconductor-simpleseg
 
    A package to perform simple cell segmentation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/simpleSeg.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/simpleSeg.html
    :license: GPL-3
    :recipe: /`bioconductor-simpleseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpleseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpleseg/meta.yaml>`_
 

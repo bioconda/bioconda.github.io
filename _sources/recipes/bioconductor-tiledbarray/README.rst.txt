@@ -12,7 +12,7 @@ bioconductor-tiledbarray
 
    Using TileDB as a DelayedArray Backend
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TileDBArray.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TileDBArray.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tiledbarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tiledbarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tiledbarray/meta.yaml>`_
 

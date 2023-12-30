@@ -12,7 +12,7 @@ bioconductor-phylop35way.ucsc.mm39
 
    UCSC phyloP mm39 conservation scores AnnotationHub Resource Metadata
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/phyloP35way.UCSC.mm39.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/phyloP35way.UCSC.mm39.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-phylop35way.ucsc.mm39 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phylop35way.ucsc.mm39>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phylop35way.ucsc.mm39/meta.yaml>`_
 

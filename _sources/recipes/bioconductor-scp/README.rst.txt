@@ -12,7 +12,7 @@ bioconductor-scp
 
    Mass Spectrometry\-Based Single\-Cell Proteomics Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scp.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scp.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scp/meta.yaml>`_
 

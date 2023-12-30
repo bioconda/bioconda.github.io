@@ -12,7 +12,7 @@ bioconductor-oncosimulr
 
    Forward Genetic Simulation of Cancer Progression with Epistasis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OncoSimulR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OncoSimulR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-oncosimulr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr/meta.yaml>`_
    :links: biotools: :biotools:`oncosimulr`

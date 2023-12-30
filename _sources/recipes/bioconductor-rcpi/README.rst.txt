@@ -12,7 +12,7 @@ bioconductor-rcpi
 
    Molecular Informatics Toolkit for Compound\-Protein Interaction in Drug Discovery
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rcpi.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rcpi.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-rcpi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcpi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcpi/meta.yaml>`_
 

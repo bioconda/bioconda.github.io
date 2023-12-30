@@ -12,7 +12,7 @@ bioconductor-cqn
 
    Conditional quantile normalization
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cqn.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cqn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cqn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cqn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cqn/meta.yaml>`_
    :links: biotools: :biotools:`cqn`

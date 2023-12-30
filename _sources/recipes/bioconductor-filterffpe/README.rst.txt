@@ -12,7 +12,7 @@ bioconductor-filterffpe
 
    FFPE Artificial Chimeric Read Filter for NGS data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FilterFFPE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FilterFFPE.html
    :license: LGPL-3
    :recipe: /`bioconductor-filterffpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-filterffpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-filterffpe/meta.yaml>`_
 

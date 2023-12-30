@@ -12,7 +12,7 @@ bioconductor-tapseq
 
    Targeted scRNA\-seq primer design for TAP\-seq
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TAPseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TAPseq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tapseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tapseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tapseq/meta.yaml>`_
 

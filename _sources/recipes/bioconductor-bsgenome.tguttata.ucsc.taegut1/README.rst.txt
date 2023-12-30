@@ -12,7 +12,7 @@ bioconductor-bsgenome.tguttata.ucsc.taegut1
 
    Full genome sequences for Taeniopygia guttata \(UCSC version taeGut1\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut1.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.tguttata.ucsc.taegut1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tguttata.ucsc.taegut1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tguttata.ucsc.taegut1/meta.yaml>`_
 

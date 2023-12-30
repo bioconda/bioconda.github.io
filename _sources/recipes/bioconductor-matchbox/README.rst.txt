@@ -12,7 +12,7 @@ bioconductor-matchbox
 
    Utilities to compute\, compare\, and plot the agreement between ordered vectors of features \(ie. distinct genomic experiments\). The package includes Correspondence\-At\-the\-TOP \(CAT\) analysis.
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/matchBox.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/matchBox.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-matchbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matchbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matchbox/meta.yaml>`_
 

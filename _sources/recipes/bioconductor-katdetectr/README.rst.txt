@@ -12,7 +12,7 @@ bioconductor-katdetectr
 
    Detection\, Characterization and Visualization of Kataegis in Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/katdetectr.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/katdetectr.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-katdetectr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-katdetectr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-katdetectr/meta.yaml>`_
 

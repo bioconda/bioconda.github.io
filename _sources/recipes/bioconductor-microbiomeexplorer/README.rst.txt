@@ -12,7 +12,7 @@ bioconductor-microbiomeexplorer
 
    Microbiome Exploration App
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/microbiomeExplorer.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/microbiomeExplorer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-microbiomeexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomeexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomeexplorer/meta.yaml>`_
 

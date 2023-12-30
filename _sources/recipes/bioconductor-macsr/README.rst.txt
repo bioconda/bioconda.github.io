@@ -12,7 +12,7 @@ bioconductor-macsr
 
    MACS\: Model\-based Analysis for ChIP\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MACSr.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MACSr.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-macsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsr/meta.yaml>`_
 

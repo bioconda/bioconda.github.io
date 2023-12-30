@@ -12,7 +12,7 @@ bioconductor-precisetad
 
    preciseTAD\: A machine learning framework for precise TAD boundary prediction
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/preciseTAD.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/preciseTAD.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-precisetad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-precisetad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-precisetad/meta.yaml>`_
 

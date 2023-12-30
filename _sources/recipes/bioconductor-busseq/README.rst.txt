@@ -12,7 +12,7 @@ bioconductor-busseq
 
    Batch Effect Correction with Unknow Subtypes for scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BUSseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BUSseq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-busseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-busseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-busseq/meta.yaml>`_
 

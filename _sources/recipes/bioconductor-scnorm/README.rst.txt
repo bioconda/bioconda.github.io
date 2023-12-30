@@ -12,7 +12,7 @@ bioconductor-scnorm
 
    Normalization of single cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SCnorm.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SCnorm.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-scnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scnorm/meta.yaml>`_
 

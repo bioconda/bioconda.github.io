@@ -12,7 +12,7 @@ bioconductor-singler
 
    Reference\-Based Single\-Cell RNA\-Seq Annotation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SingleR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SingleR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-singler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singler/meta.yaml>`_
 

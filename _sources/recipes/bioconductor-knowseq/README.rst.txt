@@ -12,7 +12,7 @@ bioconductor-knowseq
 
    KnowSeq R\/Bioc package The Smart Transcriptomic Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/KnowSeq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/KnowSeq.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-knowseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-knowseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-knowseq/meta.yaml>`_
 

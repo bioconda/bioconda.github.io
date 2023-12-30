@@ -12,7 +12,7 @@ bioconductor-progeny
 
    Pathway RespOnsive GENes for activity inference from gene expression
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/progeny.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/progeny.html
    :license: Apache License (== 2.0) | file LICENSE
    :recipe: /`bioconductor-progeny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-progeny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-progeny/meta.yaml>`_
 

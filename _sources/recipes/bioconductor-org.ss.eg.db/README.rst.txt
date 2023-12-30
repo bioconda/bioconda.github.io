@@ -12,7 +12,7 @@ bioconductor-org.ss.eg.db
 
    Genome wide annotation for Pig
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/org.Ss.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/org.Ss.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.ss.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.ss.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.ss.eg.db/meta.yaml>`_
 

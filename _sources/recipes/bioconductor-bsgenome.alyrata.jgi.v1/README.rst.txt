@@ -12,7 +12,7 @@ bioconductor-bsgenome.alyrata.jgi.v1
 
    Arabidopsis lyrata full genome \(JGI version V1.0\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Alyrata.JGI.v1.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Alyrata.JGI.v1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.alyrata.jgi.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.alyrata.jgi.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.alyrata.jgi.v1/meta.yaml>`_
 

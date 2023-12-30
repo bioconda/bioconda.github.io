@@ -12,7 +12,7 @@ bioconductor-signifinder
 
    Implementations of transcriptional cancer signatures
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/signifinder.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/signifinder.html
    :license: AGPL-3
    :recipe: /`bioconductor-signifinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signifinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signifinder/meta.yaml>`_
 

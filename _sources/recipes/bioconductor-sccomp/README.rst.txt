@@ -12,7 +12,7 @@ bioconductor-sccomp
 
    Robust Outlier\-aware Estimation of Composition and Heterogeneity for Single\-cell Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sccomp.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sccomp.html
    :license: GPL-3
    :recipe: /`bioconductor-sccomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccomp/meta.yaml>`_
 

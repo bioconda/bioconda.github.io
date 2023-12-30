@@ -12,11 +12,11 @@ bioconductor-tximeta
 
    Transcript Quantification Import with Automatic Metadata
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tximeta.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tximeta.html
    :license: GPL-2
    :recipe: /`bioconductor-tximeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximeta/meta.yaml>`_
 
-   Transcript quantification import from Salmon and alevin with automatic attachment of transcript ranges and release information\, and other associated metadata. De novo transcriptomes can be linked to the appropriate sources with linkedTxomes and shared for computational reproducibility.
+   Transcript quantification import from Salmon and other quantifiers with automatic attachment of transcript ranges and release information\, and other associated metadata. De novo transcriptomes can be linked to the appropriate sources with linkedTxomes and shared for computational reproducibility.
 
 
 .. conda:package:: bioconductor-tximeta

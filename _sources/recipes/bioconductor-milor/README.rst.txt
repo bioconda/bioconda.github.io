@@ -12,7 +12,7 @@ bioconductor-milor
 
    Differential neighbourhood abundance testing on a graph
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/miloR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/miloR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-milor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-milor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-milor/meta.yaml>`_
 

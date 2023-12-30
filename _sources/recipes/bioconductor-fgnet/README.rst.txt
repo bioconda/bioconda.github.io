@@ -12,7 +12,7 @@ bioconductor-fgnet
 
    Functional Gene Networks derived from biological enrichment analyses
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/FGNet.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FGNet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fgnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgnet/meta.yaml>`_
 

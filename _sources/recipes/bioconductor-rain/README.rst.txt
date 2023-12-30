@@ -12,7 +12,7 @@ bioconductor-rain
 
    Rhythmicity Analysis Incorporating Non\-parametric Methods
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rain.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rain.html
    :license: GPL-2
    :recipe: /`bioconductor-rain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rain/meta.yaml>`_
    :links: biotools: :biotools:`rain`

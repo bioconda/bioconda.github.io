@@ -12,7 +12,7 @@ bioconductor-epistack
 
    Heatmaps of Stack Profiles from Epigenetic Signals
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/epistack.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epistack.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epistack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epistack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epistack/meta.yaml>`_
 

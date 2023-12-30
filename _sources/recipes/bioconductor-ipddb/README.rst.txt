@@ -12,7 +12,7 @@ bioconductor-ipddb
 
    IPD IMGT\/HLA and IPD KIR database for Homo sapiens
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ipdDb.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ipdDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ipddb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipddb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipddb/meta.yaml>`_
 

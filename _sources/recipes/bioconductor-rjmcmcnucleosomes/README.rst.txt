@@ -12,7 +12,7 @@ bioconductor-rjmcmcnucleosomes
 
    Bayesian hierarchical model for genome\-wide nucleosome positioning with high\-throughput short\-read data \(MNase\-Seq\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RJMCMCNucleosomes.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RJMCMCNucleosomes.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rjmcmcnucleosomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rjmcmcnucleosomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rjmcmcnucleosomes/meta.yaml>`_
 

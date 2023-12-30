@@ -12,7 +12,7 @@ bioconductor-les
 
    Identifying Differential Effects in Tiling Microarray Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/les.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/les.html
    :license: GPL-3
    :recipe: /`bioconductor-les <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-les>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-les/meta.yaml>`_
    :links: biotools: :biotools:`les`, doi: :doi:`10.1089/cmb.2008.0226`

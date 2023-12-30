@@ -12,7 +12,7 @@ bioconductor-compran
 
    Complexome Profiling Analysis package
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ComPrAn.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ComPrAn.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-compran <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compran>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compran/meta.yaml>`_
 

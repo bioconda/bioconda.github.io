@@ -12,7 +12,7 @@ bioconductor-sizepower
 
    Sample Size and Power Calculation in Micorarray Studies
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sizepower.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sizepower.html
    :license: LGPL
    :recipe: /`bioconductor-sizepower <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sizepower>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sizepower/meta.yaml>`_
    :links: biotools: :biotools:`sizepower`, doi: :doi:`10.1038/nmeth.3252`

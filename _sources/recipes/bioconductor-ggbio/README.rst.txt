@@ -12,7 +12,7 @@ bioconductor-ggbio
 
    Visualization tools for genomic data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ggbio.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ggbio.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggbio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbio/meta.yaml>`_
    :links: biotools: :biotools:`ggbio`

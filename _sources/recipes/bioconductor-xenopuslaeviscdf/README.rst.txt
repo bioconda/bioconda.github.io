@@ -12,7 +12,7 @@ bioconductor-xenopuslaeviscdf
 
    xenopuslaeviscdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/xenopuslaeviscdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/xenopuslaeviscdf.html
    :license: LGPL
    :recipe: /`bioconductor-xenopuslaeviscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xenopuslaeviscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xenopuslaeviscdf/meta.yaml>`_
 

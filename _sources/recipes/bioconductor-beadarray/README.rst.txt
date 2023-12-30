@@ -12,7 +12,7 @@ bioconductor-beadarray
 
    Quality assessment and low\-level analysis for Illumina BeadArray data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/beadarray.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/beadarray.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-beadarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarray/meta.yaml>`_
    :links: biotools: :biotools:`beadarray`

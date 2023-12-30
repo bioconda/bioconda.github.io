@@ -12,7 +12,7 @@ bioconductor-bsgenomeforge
 
    Forge BSgenome data packages
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BSgenomeForge.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BSgenomeForge.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenomeforge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenomeforge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenomeforge/meta.yaml>`_
 

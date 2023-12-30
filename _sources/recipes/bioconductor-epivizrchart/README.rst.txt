@@ -12,7 +12,7 @@ bioconductor-epivizrchart
 
    R interface to epiviz web components
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/epivizrChart.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epivizrChart.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epivizrchart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrchart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrchart/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mofa2
 
    Multi\-Omics Factor Analysis v2
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MOFA2.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MOFA2.html
    :license: file LICENSE
    :recipe: /`bioconductor-mofa2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa2/meta.yaml>`_
 

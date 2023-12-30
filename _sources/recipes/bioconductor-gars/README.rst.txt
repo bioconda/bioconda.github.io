@@ -12,7 +12,7 @@ bioconductor-gars
 
    GARS\: Genetic Algorithm for the identification of Robust Subsets of variables in high\-dimensional and challenging datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GARS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GARS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gars/meta.yaml>`_
 

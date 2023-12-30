@@ -12,7 +12,7 @@ bioconductor-s4vectors
 
    Foundation of vector\-like and list\-like containers in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/S4Vectors.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/S4Vectors.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-s4vectors <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4vectors>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4vectors/meta.yaml>`_
    :links: biotools: :biotools:`s4vectors`, doi: :doi:`10.1038/nmeth.3252`

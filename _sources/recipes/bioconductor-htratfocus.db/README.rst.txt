@@ -12,7 +12,7 @@ bioconductor-htratfocus.db
 
    Affymetrix Affymetrix HT\_Rat\-Focus Array annotation data \(chip htratfocus\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/htratfocus.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/htratfocus.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htratfocus.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocus.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocus.db/meta.yaml>`_
 

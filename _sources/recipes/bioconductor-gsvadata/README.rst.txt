@@ -12,7 +12,7 @@ bioconductor-gsvadata
 
    Data employed in the vignette of the GSVA package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/GSVAdata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/GSVAdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gsvadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsvadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsvadata/meta.yaml>`_
 

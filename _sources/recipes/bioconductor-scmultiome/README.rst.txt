@@ -12,7 +12,7 @@ bioconductor-scmultiome
 
    Collection of Public Single\-Cell Multiome \(scATAC \+ scRNAseq\) Datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/scMultiome.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/scMultiome.html
    :license: CC BY-SA 4.0
    :recipe: /`bioconductor-scmultiome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmultiome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmultiome/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rtcga.clinical
 
    Clinical datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/RTCGA.clinical.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/RTCGA.clinical.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.clinical <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.clinical>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.clinical/meta.yaml>`_
 

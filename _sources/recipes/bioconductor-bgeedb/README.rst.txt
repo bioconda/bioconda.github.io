@@ -12,7 +12,7 @@ bioconductor-bgeedb
 
    Annotation and gene expression data retrieval from Bgee database. TopAnat\, an anatomical entities Enrichment Analysis tool for UBERON ontology
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BgeeDB.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BgeeDB.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-bgeedb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb/meta.yaml>`_
    :links: biotools: :biotools:`bgeedb`, doi: :doi:`10.12688/f1000research.9973.1`

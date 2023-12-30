@@ -12,7 +12,7 @@ bioconductor-alabaster.base
 
    Save Bioconductor Objects To File
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.base.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.base.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.base <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.base>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.base/meta.yaml>`_
 

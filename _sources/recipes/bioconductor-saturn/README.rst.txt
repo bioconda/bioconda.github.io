@@ -12,7 +12,7 @@ bioconductor-saturn
 
    Scalable Analysis of Differential Transcript Usage for Bulk and Single\-Cell RNA\-sequencing Applications
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/satuRn.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/satuRn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-saturn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saturn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saturn/meta.yaml>`_
 

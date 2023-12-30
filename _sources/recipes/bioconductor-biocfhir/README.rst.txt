@@ -12,7 +12,7 @@ bioconductor-biocfhir
 
    Illustration of FHIR ingestion and transformation using R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BiocFHIR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiocFHIR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocfhir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocfhir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocfhir/meta.yaml>`_
 

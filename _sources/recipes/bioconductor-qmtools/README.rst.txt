@@ -12,7 +12,7 @@ bioconductor-qmtools
 
    Quantitative Metabolomics Data Processing Tools
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/qmtools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/qmtools.html
    :license: GPL-3
    :recipe: /`bioconductor-qmtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qmtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qmtools/meta.yaml>`_
 

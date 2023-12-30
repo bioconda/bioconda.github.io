@@ -12,7 +12,7 @@ bioconductor-bsgenome.ggallus.ucsc.galgal3
 
    Full genome sequences for Gallus gallus \(UCSC version galGal3\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Ggallus.UCSC.galGal3.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Ggallus.UCSC.galGal3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.ggallus.ucsc.galgal3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ggallus.ucsc.galgal3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ggallus.ucsc.galgal3/meta.yaml>`_
 

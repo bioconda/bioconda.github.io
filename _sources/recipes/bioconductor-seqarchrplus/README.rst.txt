@@ -12,11 +12,11 @@ bioconductor-seqarchrplus
 
    Downstream analyses of promoter sequence architectures and HTML report generation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/seqArchRplus.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/seqArchRplus.html
    :license: GPL-3
    :recipe: /`bioconductor-seqarchrplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarchrplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarchrplus/meta.yaml>`_
 
-   seqArchRplus facilitates downstream analyses of promoter sequence architectures\/clusters identified by seqArchR \(or any other tool\/method\). With additional available information such as the TPM values and interquantile widths \(IQWs\) of the CAGE tag clusters\, seqArchRplus can order the input promoter clusters by their shape \(IQWs\)\, and write the cluster information as browser\/IGV track files. Provided visualizations are of two kind\: per sample\/stage and per cluster visualizations. Those of the first kind include\: plot panels for each sample showing per cluster shape\, TPM and other score distributions\, sequence logos\, and peak annotations. The second include per cluster chromosome\-wise and strand distributions\, motif occurrence heatmaps and GO term enrichments. Additionally\, seqArchRplus can also generate HTML reports for easy viewing and comparison of promoter architectures between samples\/stages \(future\).
+   seqArchRplus facilitates downstream analyses of promoter sequence architectures\/clusters identified by seqArchR \(or any other tool\/method\). With additional available information such as the TPM values and interquantile widths \(IQWs\) of the CAGE tag clusters\, seqArchRplus can order the input promoter clusters by their shape \(IQWs\)\, and write the cluster information as browser\/IGV track files. Provided visualizations are of two kind\: per sample\/stage and per cluster visualizations. Those of the first kind include\: plot panels for each sample showing per cluster shape\, TPM and other score distributions\, sequence logos\, and peak annotations. The second include per cluster chromosome\-wise and strand distributions\, motif occurrence heatmaps and GO term enrichments. Additionally\, seqArchRplus can also generate HTML reports for easy viewing and comparison of promoter architectures between samples\/stages.
 
 
 .. conda:package:: bioconductor-seqarchrplus

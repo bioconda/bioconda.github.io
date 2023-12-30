@@ -12,7 +12,7 @@ bioconductor-rarr
 
    Read Zarr Files in R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rarr.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rarr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rarr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarr/meta.yaml>`_
 

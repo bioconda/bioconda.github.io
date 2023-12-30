@@ -12,7 +12,7 @@ bioconductor-macsdata
 
    Test datasets for the MACSr package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/MACSdata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MACSdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-macsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsdata/meta.yaml>`_
 

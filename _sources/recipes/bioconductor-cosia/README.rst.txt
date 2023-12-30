@@ -12,7 +12,7 @@ bioconductor-cosia
 
    An Investigation Across Different Species and Tissues
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CoSIA.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CoSIA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cosia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosia/meta.yaml>`_
 

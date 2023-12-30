@@ -12,7 +12,7 @@ bioconductor-svmdo
 
    Identification of Tumor\-Discriminating mRNA Signatures via Support Vector Machines Supported by Disease Ontology
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SVMDO.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SVMDO.html
    :license: GPL-3
    :recipe: /`bioconductor-svmdo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svmdo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svmdo/meta.yaml>`_
 

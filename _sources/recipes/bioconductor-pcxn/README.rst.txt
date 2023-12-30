@@ -12,7 +12,7 @@ bioconductor-pcxn
 
    Exploring\, analyzing and visualizing functions utilizing the pcxnData package
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/pcxn.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pcxn.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pcxn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxn/meta.yaml>`_
 

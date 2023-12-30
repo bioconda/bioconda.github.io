@@ -12,7 +12,7 @@ bioconductor-svm2crmdata
 
    An example dataset for use with the SVM2CRM package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/SVM2CRMdata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/SVM2CRMdata.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-svm2crmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svm2crmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svm2crmdata/meta.yaml>`_
 

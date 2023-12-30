@@ -12,7 +12,7 @@ bioconductor-edirquery
 
    Query the EDIR Database For Specific Gene
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EDIRquery.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/EDIRquery.html
    :license: GPL-3
    :recipe: /`bioconductor-edirquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edirquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edirquery/meta.yaml>`_
 

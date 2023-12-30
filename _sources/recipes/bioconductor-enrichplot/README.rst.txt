@@ -12,7 +12,7 @@ bioconductor-enrichplot
 
    Visualization of Functional Enrichment Result
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/enrichplot.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/enrichplot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enrichplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichplot/meta.yaml>`_
 

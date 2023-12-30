@@ -12,7 +12,7 @@ bioconductor-genomicinteractionnodes
 
    A R\/Bioconductor package to detect the interaction nodes from HiC\/HiChIP\/HiCAR data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GenomicInteractionNodes.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GenomicInteractionNodes.html
    :license: file LICENSE
    :recipe: /`bioconductor-genomicinteractionnodes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinteractionnodes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinteractionnodes/meta.yaml>`_
 

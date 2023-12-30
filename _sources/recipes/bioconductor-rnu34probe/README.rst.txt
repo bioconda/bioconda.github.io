@@ -12,7 +12,7 @@ bioconductor-rnu34probe
 
    Probe sequence data for microarrays of type rnu34
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/rnu34probe.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/rnu34probe.html
    :license: LGPL
    :recipe: /`bioconductor-rnu34probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34probe/meta.yaml>`_
 

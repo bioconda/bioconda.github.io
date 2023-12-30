@@ -12,7 +12,7 @@ bioconductor-hem
 
    Heterogeneous error model for identification of differentially expressed genes under multiple conditions
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HEM.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HEM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hem/meta.yaml>`_
    :links: biotools: :biotools:`hem`, doi: :doi:`10.1093/bioinformatics/bth192`

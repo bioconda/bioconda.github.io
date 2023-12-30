@@ -12,7 +12,7 @@ bioconductor-tenxvisiumdata
 
    Visium spatial gene expression data by 10X Genomics
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/TENxVisiumData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/TENxVisiumData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tenxvisiumdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxvisiumdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxvisiumdata/meta.yaml>`_
 

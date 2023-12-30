@@ -12,7 +12,7 @@ bioconductor-chihaya
 
    Save Delayed Operations to a HDF5 File
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/chihaya.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/chihaya.html
    :license: GPL-3
    :recipe: /`bioconductor-chihaya <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chihaya>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chihaya/meta.yaml>`_
 

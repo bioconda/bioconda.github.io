@@ -12,7 +12,7 @@ bioconductor-breastcancernki
 
    Genexpression dataset published by van\'t Veer et al. \[2002\] and van de Vijver et al. \[2002\] \(NKI\).
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/breastCancerNKI.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/breastCancerNKI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancernki <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancernki>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancernki/meta.yaml>`_
 

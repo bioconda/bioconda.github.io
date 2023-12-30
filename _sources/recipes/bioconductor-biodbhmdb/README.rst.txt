@@ -12,7 +12,7 @@ bioconductor-biodbhmdb
 
    biodbHmdb\, a library for connecting to the HMDB Database
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biodbHmdb.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodbHmdb.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbhmdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbhmdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbhmdb/meta.yaml>`_
 

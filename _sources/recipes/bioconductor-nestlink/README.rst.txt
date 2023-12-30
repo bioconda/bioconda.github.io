@@ -12,7 +12,7 @@ bioconductor-nestlink
 
    NestLink an R data package to guide through Engineered Peptide Barcodes for In\-Depth Analyzes of Binding Protein Ensembles
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/NestLink.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/NestLink.html
    :license: GPL
    :recipe: /`bioconductor-nestlink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nestlink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nestlink/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rgntx
 
    Colocalization analysis of transcriptome elements in the presence of isoform heterogeneity and ambiguity
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RgnTX.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RgnTX.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgntx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgntx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgntx/meta.yaml>`_
 

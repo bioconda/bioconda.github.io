@@ -12,7 +12,7 @@ bioconductor-scvir
 
    experimental inferface from R to scvi\-tools
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scviR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scviR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scvir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scvir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scvir/meta.yaml>`_
 

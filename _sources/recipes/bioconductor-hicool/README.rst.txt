@@ -12,7 +12,7 @@ bioconductor-hicool
 
    HiCool
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HiCool.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HiCool.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hicool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicool/meta.yaml>`_
 

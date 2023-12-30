@@ -12,7 +12,7 @@ bioconductor-wpm
 
    Well Plate Maker
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/wpm.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/wpm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-wpm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wpm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wpm/meta.yaml>`_
 

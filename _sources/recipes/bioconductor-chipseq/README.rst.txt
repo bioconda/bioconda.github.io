@@ -12,7 +12,7 @@ bioconductor-chipseq
 
    chipseq\: A package for analyzing chipseq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/chipseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/chipseq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chipseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseq/meta.yaml>`_
    :links: biotools: :biotools:`chipseq`, doi: :doi:`10.1038/nmeth.3252`

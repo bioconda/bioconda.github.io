@@ -12,7 +12,7 @@ bioconductor-ssnappy
 
    Single Sample directioNAl Pathway Perturbation analYsis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/sSNAPPY.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sSNAPPY.html
    :license: GPL-3
    :recipe: /`bioconductor-ssnappy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssnappy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssnappy/meta.yaml>`_
 

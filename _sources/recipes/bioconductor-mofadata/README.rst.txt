@@ -12,7 +12,7 @@ bioconductor-mofadata
 
    Data package for Multi\-Omics Factor Analysis \(MOFA\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/MOFAdata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MOFAdata.html
    :license: LGPL-3
    :recipe: /`bioconductor-mofadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofadata/meta.yaml>`_
 

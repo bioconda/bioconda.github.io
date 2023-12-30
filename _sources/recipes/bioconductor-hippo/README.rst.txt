@@ -12,7 +12,7 @@ bioconductor-hippo
 
    Heterogeneity\-Induced Pre\-Processing tOol
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/HIPPO.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HIPPO.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-hippo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hippo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hippo/meta.yaml>`_
 

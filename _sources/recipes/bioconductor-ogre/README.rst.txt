@@ -12,7 +12,7 @@ bioconductor-ogre
 
    Calculate\, visualize and analyse overlap between genomic regions
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OGRE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OGRE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ogre <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ogre>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ogre/meta.yaml>`_
 

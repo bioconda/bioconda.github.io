@@ -12,7 +12,7 @@ bioconductor-seqbias
 
    Estimation of per\-position bias in high\-throughput sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/seqbias.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/seqbias.html
    :license: LGPL-3
    :recipe: /`bioconductor-seqbias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqbias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqbias/meta.yaml>`_
 

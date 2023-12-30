@@ -12,7 +12,7 @@ bioconductor-blma
 
    BLMA\: A package for bi\-level meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BLMA.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BLMA.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-blma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blma/meta.yaml>`_
 

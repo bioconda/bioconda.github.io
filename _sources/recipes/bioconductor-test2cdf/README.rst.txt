@@ -12,7 +12,7 @@ bioconductor-test2cdf
 
    test2cdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/test2cdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/test2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-test2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test2cdf/meta.yaml>`_
 

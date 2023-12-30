@@ -12,7 +12,7 @@ bioconductor-rolde
 
    RolDE\: Robust longitudinal Differential Expression
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RolDE.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RolDE.html
    :license: GPL-3
    :recipe: /`bioconductor-rolde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rolde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rolde/meta.yaml>`_
 

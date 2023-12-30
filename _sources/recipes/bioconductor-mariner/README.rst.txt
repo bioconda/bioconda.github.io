@@ -12,7 +12,7 @@ bioconductor-mariner
 
    Mariner\: Explore the Hi\-Cs
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mariner.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mariner.html
    :license: GPL-3
    :recipe: /`bioconductor-mariner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mariner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mariner/meta.yaml>`_
 

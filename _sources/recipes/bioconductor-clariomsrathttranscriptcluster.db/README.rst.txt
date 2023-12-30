@@ -12,7 +12,7 @@ bioconductor-clariomsrathttranscriptcluster.db
 
    Affymetrix clariomsratht annotation data \(chip clariomsrathttranscriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/clariomsrathttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/clariomsrathttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clariomsrathttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomsrathttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomsrathttranscriptcluster.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-intact
 
    Integrate TWAS and Colocalization Analysis for Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/INTACT.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/INTACT.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-intact <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intact>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intact/meta.yaml>`_
 

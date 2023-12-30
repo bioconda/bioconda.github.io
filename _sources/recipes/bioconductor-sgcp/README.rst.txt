@@ -12,7 +12,7 @@ bioconductor-sgcp
 
    SGCP\: A semi\-supervised pipeline for gene clustering using self\-training approach in gene co\-expression networks
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SGCP.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SGCP.html
    :license: GPL-3
    :recipe: /`bioconductor-sgcp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgcp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgcp/meta.yaml>`_
 

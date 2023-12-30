@@ -12,7 +12,7 @@ bioconductor-ygs98cdf
 
    ygs98cdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/ygs98cdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/ygs98cdf.html
    :license: LGPL
    :recipe: /`bioconductor-ygs98cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98cdf/meta.yaml>`_
 

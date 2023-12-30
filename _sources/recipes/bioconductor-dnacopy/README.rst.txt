@@ -10,9 +10,9 @@ bioconductor-dnacopy
    :replaces_section_title:
    :noindex:
 
-   DNA copy number data analysis
+   DNA Copy Number Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DNAcopy.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DNAcopy.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dnacopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy/meta.yaml>`_
    :links: biotools: :biotools:`dnacopy`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-plyranges
 
    A fluent interface for manipulating GenomicRanges
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/plyranges.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/plyranges.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-plyranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plyranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plyranges/meta.yaml>`_
 

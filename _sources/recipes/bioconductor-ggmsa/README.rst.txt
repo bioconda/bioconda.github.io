@@ -12,7 +12,7 @@ bioconductor-ggmsa
 
    Plot Multiple Sequence Alignment using \'ggplot2\'
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ggmsa.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ggmsa.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggmsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggmsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggmsa/meta.yaml>`_
 

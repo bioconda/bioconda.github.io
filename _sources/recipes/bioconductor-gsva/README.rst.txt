@@ -10,9 +10,9 @@ bioconductor-gsva
    :replaces_section_title:
    :noindex:
 
-   Gene Set Variation Analysis for microarray and RNA\-seq data
+   Gene Set Variation Analysis for Microarray and RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GSVA.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GSVA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gsva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsva/meta.yaml>`_
    :links: biotools: :biotools:`gsva`

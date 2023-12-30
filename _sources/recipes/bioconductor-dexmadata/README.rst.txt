@@ -12,7 +12,7 @@ bioconductor-dexmadata
 
    Data package for DExMA package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/DExMAdata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/DExMAdata.html
    :license: GPL-2
    :recipe: /`bioconductor-dexmadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexmadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexmadata/meta.yaml>`_
 

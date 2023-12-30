@@ -12,7 +12,7 @@ bioconductor-splicewiz
 
    Easy\, optimized\, and accurate alternative splicing analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SpliceWiz.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SpliceWiz.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-splicewiz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicewiz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicewiz/meta.yaml>`_
 

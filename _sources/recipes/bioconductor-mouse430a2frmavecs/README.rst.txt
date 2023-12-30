@@ -12,7 +12,7 @@ bioconductor-mouse430a2frmavecs
 
    Vectors used by frma for microarrays of type mouse430a2
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/mouse430a2frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/mouse430a2frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mouse430a2frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2frmavecs/meta.yaml>`_
 

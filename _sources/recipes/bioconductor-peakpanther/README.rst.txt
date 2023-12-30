@@ -12,7 +12,7 @@ bioconductor-peakpanther
 
    Peak Picking and Annotation of High Resolution Experiments
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/peakPantheR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/peakPantheR.html
    :license: GPL-3
    :recipe: /`bioconductor-peakpanther <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peakpanther>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peakpanther/meta.yaml>`_
 

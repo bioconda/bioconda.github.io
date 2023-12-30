@@ -12,7 +12,7 @@ bioconductor-tvtb
 
    TVTB\: The VCF Tool Box
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TVTB.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TVTB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tvtb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tvtb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tvtb/meta.yaml>`_
 

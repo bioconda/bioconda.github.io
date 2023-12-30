@@ -12,7 +12,7 @@ bioconductor-tnbc.cms
 
    TNBC.CMS\: Prediction of TNBC Consensus Molecular Subtypes
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TNBC.CMS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TNBC.CMS.html
    :license: GPL-3
    :recipe: /`bioconductor-tnbc.cms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnbc.cms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnbc.cms/meta.yaml>`_
 

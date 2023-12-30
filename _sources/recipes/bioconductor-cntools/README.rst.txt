@@ -12,7 +12,7 @@ bioconductor-cntools
 
    Convert segment data into a region by sample matrix to allow for other high level computational analyses.
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CNTools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CNTools.html
    :license: LGPL
    :recipe: /`bioconductor-cntools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cntools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cntools/meta.yaml>`_
    :links: biotools: :biotools:`cntools`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-biochail
 
    basilisk and hail
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BiocHail.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiocHail.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biochail <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biochail>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biochail/meta.yaml>`_
 

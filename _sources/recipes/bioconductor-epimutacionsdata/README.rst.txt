@@ -12,7 +12,7 @@ bioconductor-epimutacionsdata
 
    Data for epimutacions package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/epimutacionsData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/epimutacionsData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epimutacionsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimutacionsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimutacionsdata/meta.yaml>`_
 

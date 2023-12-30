@@ -12,7 +12,7 @@ bioconductor-chromscape
 
    Analysis of single\-cell epigenomics datasets with a Shiny App
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ChromSCape.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ChromSCape.html
    :license: GPL-3
    :recipe: /`bioconductor-chromscape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromscape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromscape/meta.yaml>`_
 

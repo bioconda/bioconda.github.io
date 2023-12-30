@@ -12,7 +12,7 @@ bioconductor-hdo.db
 
    A set of annotation maps describing the entire Human Disease Ontology
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/HDO.db.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/HDO.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hdo.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdo.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdo.db/meta.yaml>`_
 

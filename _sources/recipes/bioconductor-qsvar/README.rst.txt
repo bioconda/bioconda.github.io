@@ -12,7 +12,7 @@ bioconductor-qsvar
 
    Generate Quality Surrogate Variable Analysis for Degradation Correction
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/qsvaR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/qsvaR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-qsvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsvar/meta.yaml>`_
 

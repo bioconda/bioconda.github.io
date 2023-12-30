@@ -12,7 +12,7 @@ bioconductor-gse103322
 
    GEO accession data GSE103322 as a SingleCellExperiment
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/GSE103322.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/GSE103322.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gse103322 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse103322>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse103322/meta.yaml>`_
 

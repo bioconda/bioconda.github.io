@@ -12,11 +12,11 @@ bioconductor-beachmat
 
    Compiling Bioconductor to Handle Each Matrix Type
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/beachmat.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/beachmat.html
    :license: GPL-3
    :recipe: /`bioconductor-beachmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beachmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beachmat/meta.yaml>`_
 
-   Provides a consistent C\+\+ class interface for reading from and writing data to a variety of commonly used matrix types. Ordinary matrices and several sparse\/dense Matrix classes are directly supported\, third\-party S4 classes may be supported by external linkage\, while all other matrices are handled by DelayedArray block processing.
+   Provides a consistent C\+\+ class interface for reading from a variety of commonly used matrix types. Ordinary matrices and several sparse\/dense Matrix classes are directly supported\, along with a subset of the delayed operations implemented in the DelayedArray package. All other matrix\-like objects are supported by calling back into R.
 
 
 .. conda:package:: bioconductor-beachmat

@@ -12,7 +12,7 @@ bioconductor-hummingbird
 
    Bayesian Hidden Markov Model for the detection of differentially methylated regions
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/hummingbird.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/hummingbird.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-hummingbird <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hummingbird>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hummingbird/meta.yaml>`_
 

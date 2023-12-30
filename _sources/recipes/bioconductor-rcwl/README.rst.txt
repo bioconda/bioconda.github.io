@@ -12,7 +12,7 @@ bioconductor-rcwl
 
    An R interface to the Common Workflow Language
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rcwl.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rcwl.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-rcwl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwl/meta.yaml>`_
 

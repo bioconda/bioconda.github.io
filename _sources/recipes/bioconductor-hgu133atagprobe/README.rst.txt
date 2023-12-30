@@ -12,7 +12,7 @@ bioconductor-hgu133atagprobe
 
    Probe sequence data for microarrays of type hgu133atag
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hgu133atagprobe.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/hgu133atagprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hgu133atagprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133atagprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133atagprobe/meta.yaml>`_
 

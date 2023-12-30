@@ -12,7 +12,7 @@ bioconductor-aneufinderdata
 
    WGSCS Data for Demonstration Purposes
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/AneuFinderData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/AneuFinderData.html
    :license: file LICENSE
    :recipe: /`bioconductor-aneufinderdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinderdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinderdata/meta.yaml>`_
 

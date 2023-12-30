@@ -12,7 +12,7 @@ bioconductor-deltagseg
 
    deltaGseg
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/deltaGseg.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/deltaGseg.html
    :license: GPL-2
    :recipe: /`bioconductor-deltagseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deltagseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deltagseg/meta.yaml>`_
 

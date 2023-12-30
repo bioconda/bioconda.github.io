@@ -12,7 +12,7 @@ bioconductor-bsgenome.gmax.ncbi.gmv40
 
    Full genome sequences for Glycine max \(Gmv40\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Gmax.NCBI.Gmv40.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Gmax.NCBI.Gmv40.html
    :license: Creative Commons Legal Code + file LICENSE
    :recipe: /`bioconductor-bsgenome.gmax.ncbi.gmv40 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gmax.ncbi.gmv40>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gmax.ncbi.gmv40/meta.yaml>`_
 

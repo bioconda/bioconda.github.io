@@ -12,7 +12,7 @@ bioconductor-seqcat
 
    High Throughput Sequencing Cell Authentication Toolkit
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/seqCAT.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/seqCAT.html
    :license: MIT + file LICENCE
    :recipe: /`bioconductor-seqcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat/meta.yaml>`_
 

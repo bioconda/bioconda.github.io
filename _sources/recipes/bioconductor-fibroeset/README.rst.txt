@@ -12,7 +12,7 @@ bioconductor-fibroeset
 
    exprSet for Karaman et al. \(2003\) fibroblasts data
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/fibroEset.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/fibroEset.html
    :license: LGPL
    :recipe: /`bioconductor-fibroeset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fibroeset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fibroeset/meta.yaml>`_
 

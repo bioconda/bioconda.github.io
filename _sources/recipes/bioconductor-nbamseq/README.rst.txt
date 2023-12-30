@@ -12,7 +12,7 @@ bioconductor-nbamseq
 
    Negative Binomial Additive Model for RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/NBAMSeq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NBAMSeq.html
    :license: GPL-2
    :recipe: /`bioconductor-nbamseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbamseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbamseq/meta.yaml>`_
 

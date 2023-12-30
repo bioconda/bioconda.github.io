@@ -12,7 +12,7 @@ bioconductor-genextender
 
    Optimized Functional Annotation Of ChIP\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/geneXtendeR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/geneXtendeR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-genextender <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genextender>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genextender/meta.yaml>`_
 

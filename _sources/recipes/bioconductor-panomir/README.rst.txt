@@ -12,7 +12,7 @@ bioconductor-panomir
 
    Detection of miRNAs that regulate interacting groups of pathways
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/PanomiR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PanomiR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-panomir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panomir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panomir/meta.yaml>`_
 

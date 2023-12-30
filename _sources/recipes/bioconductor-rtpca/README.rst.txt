@@ -12,7 +12,7 @@ bioconductor-rtpca
 
    Thermal proximity co\-aggregation with R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rtpca.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rtpca.html
    :license: GPL-3
    :recipe: /`bioconductor-rtpca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtpca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtpca/meta.yaml>`_
 

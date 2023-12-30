@@ -12,7 +12,7 @@ bioconductor-msquality
 
    MsQuality \- Quality metric calculation from Spectra and MsExperiment objects
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MsQuality.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MsQuality.html
    :license: GPL-3
    :recipe: /`bioconductor-msquality <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msquality>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msquality/meta.yaml>`_
 

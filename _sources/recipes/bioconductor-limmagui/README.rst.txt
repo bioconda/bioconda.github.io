@@ -12,7 +12,7 @@ bioconductor-limmagui
 
    GUI for limma Package With Two Color Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/limmaGUI.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/limmaGUI.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-limmagui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limmagui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limmagui/meta.yaml>`_
 

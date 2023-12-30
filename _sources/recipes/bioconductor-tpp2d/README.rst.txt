@@ -12,7 +12,7 @@ bioconductor-tpp2d
 
    Detection of ligand\-protein interactions from 2D thermal profiles \(DLPTP\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TPP2D.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TPP2D.html
    :license: GPL-3
    :recipe: /`bioconductor-tpp2d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tpp2d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tpp2d/meta.yaml>`_
 

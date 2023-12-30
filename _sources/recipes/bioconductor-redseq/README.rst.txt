@@ -12,7 +12,7 @@ bioconductor-redseq
 
    Analysis of high\-throughput sequencing data processed by restriction enzyme digestion
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/REDseq.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/REDseq.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-redseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-redseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-redseq/meta.yaml>`_
 

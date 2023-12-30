@@ -12,7 +12,7 @@ bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1
 
    Full Genome Sequence for Cryptococcus neoformans var. grubii KN99 \(ASM221672v1\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.CneoformansVarGrubiiKN99.NCBI.ASM221672v1.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.CneoformansVarGrubiiKN99.NCBI.ASM221672v1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-biodblipidmaps
 
    biodbLipidmaps\, a library for connecting to the Lipidmaps Structure database
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biodbLipidmaps.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodbLipidmaps.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodblipidmaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodblipidmaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodblipidmaps/meta.yaml>`_
 

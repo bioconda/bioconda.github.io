@@ -12,7 +12,7 @@ bioconductor-flowstats
 
    Statistical methods for the analysis of flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/flowStats.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/flowStats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats/meta.yaml>`_
 

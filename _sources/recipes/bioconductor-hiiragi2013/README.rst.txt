@@ -12,7 +12,7 @@ bioconductor-hiiragi2013
 
    Cell\-to\-cell expression variability followed by signal reinforcement progressively segregates early mouse lineages
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/Hiiragi2013.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/Hiiragi2013.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hiiragi2013 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiiragi2013>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiiragi2013/meta.yaml>`_
 

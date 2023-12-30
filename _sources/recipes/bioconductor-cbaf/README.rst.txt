@@ -12,7 +12,7 @@ bioconductor-cbaf
 
    Automated functions for comparing various omic data from cbioportal.org
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/cbaf.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cbaf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cbaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbaf/meta.yaml>`_
 

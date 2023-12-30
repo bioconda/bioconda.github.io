@@ -12,7 +12,7 @@ bioconductor-rscudo
 
    Signature\-based Clustering for Diagnostic Purposes
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rScudo.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rScudo.html
    :license: GPL-3
    :recipe: /`bioconductor-rscudo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rscudo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rscudo/meta.yaml>`_
 

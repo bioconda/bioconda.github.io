@@ -12,7 +12,7 @@ bioconductor-microstasis
 
    Microbiota STability ASsessment via Iterative cluStering
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/microSTASIS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/microSTASIS.html
    :license: GPL-3
    :recipe: /`bioconductor-microstasis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microstasis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microstasis/meta.yaml>`_
 

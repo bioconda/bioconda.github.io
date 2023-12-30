@@ -12,7 +12,7 @@ bioconductor-crisprbowtie
 
    Bowtie\-based alignment of CRISPR gRNA spacer sequences
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/crisprBowtie.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/crisprBowtie.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprbowtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprbowtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprbowtie/meta.yaml>`_
 

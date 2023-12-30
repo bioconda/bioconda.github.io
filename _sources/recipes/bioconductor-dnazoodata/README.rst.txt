@@ -12,7 +12,7 @@ bioconductor-dnazoodata
 
    DNA Zoo data package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/DNAZooData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/DNAZooData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dnazoodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnazoodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnazoodata/meta.yaml>`_
 

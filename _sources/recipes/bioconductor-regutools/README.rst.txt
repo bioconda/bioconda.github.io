@@ -12,7 +12,7 @@ bioconductor-regutools
 
    regutools\: an R package for data extraction from RegulonDB
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/regutools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/regutools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-regutools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regutools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regutools/meta.yaml>`_
 

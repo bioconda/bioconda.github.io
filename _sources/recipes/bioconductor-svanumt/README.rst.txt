@@ -12,7 +12,7 @@ bioconductor-svanumt
 
    NUMT detection from structural variant calls
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/svaNUMT.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/svaNUMT.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-svanumt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svanumt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svanumt/meta.yaml>`_
 

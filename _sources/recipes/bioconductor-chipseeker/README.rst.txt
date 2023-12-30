@@ -12,7 +12,7 @@ bioconductor-chipseeker
 
    ChIPseeker for ChIP peak Annotation\, Comparison\, and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ChIPseeker.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ChIPseeker.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chipseeker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseeker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseeker/meta.yaml>`_
    :links: biotools: :biotools:`chipseeker`

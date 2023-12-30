@@ -12,7 +12,7 @@ bioconductor-fmrs
 
    Variable Selection in Finite Mixture of AFT Regression and FMR Models
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/fmrs.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fmrs.html
    :license: GPL-3
    :recipe: /`bioconductor-fmrs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fmrs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fmrs/meta.yaml>`_
 

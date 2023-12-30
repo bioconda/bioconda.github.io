@@ -12,7 +12,7 @@ bioconductor-cnvranger
 
    Summarization and expression\/phenotype association of CNV ranges
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CNVRanger.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CNVRanger.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cnvranger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvranger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvranger/meta.yaml>`_
 

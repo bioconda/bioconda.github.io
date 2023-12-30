@@ -12,11 +12,11 @@ bioconductor-spicyr
 
    Spatial analysis of in situ cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/spicyR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/spicyR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-spicyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spicyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spicyr/meta.yaml>`_
 
-   spicyR provides a series of functions to aid in the analysis of both immunofluorescence and mass cytometry imaging data as well as other assays that can deeply phenotype individual cells and their spatial location.
+   The spicyR package provides a framework for performing inference on changes in spatial relationships between pairs of cell types for cell\-resolution spatial omics technologies. spicyR consists of three primary steps\: \(i\) summarizing the degree of spatial localization between pairs of cell types for each image\; \(ii\) modelling the variability in localization summary statistics as a function of cell counts and \(iii\) testing for changes in spatial localizations associated with a response variable.
 
 
 .. conda:package:: bioconductor-spicyr

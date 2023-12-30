@@ -12,7 +12,7 @@ bioconductor-homo.sapiens
 
    Annotation package for the Homo.sapiens object
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/Homo.sapiens.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/Homo.sapiens.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-homo.sapiens <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens/meta.yaml>`_
 

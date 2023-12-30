@@ -12,7 +12,7 @@ bioconductor-biodbchebi
 
    biodbChebi\, a library for connecting to the ChEBI Database
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/biodbChebi.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodbChebi.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbchebi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbchebi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbchebi/meta.yaml>`_
 

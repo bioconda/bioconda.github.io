@@ -12,7 +12,7 @@ bioconductor-mosbi
 
    Molecular Signature identification using Biclustering
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mosbi.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mosbi.html
    :license: AGPL-3 + file LICENSE
    :recipe: /`bioconductor-mosbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosbi/meta.yaml>`_
 

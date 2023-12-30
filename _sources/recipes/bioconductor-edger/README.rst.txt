@@ -12,7 +12,7 @@ bioconductor-edger
 
    Empirical Analysis of Digital Gene Expression Data in R
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/edgeR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/edgeR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-edger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger/meta.yaml>`_
    :links: biotools: :biotools:`edger`, usegalaxy-eu: :usegalaxy-eu:`edger`

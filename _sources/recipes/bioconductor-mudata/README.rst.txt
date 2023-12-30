@@ -12,7 +12,7 @@ bioconductor-mudata
 
    Serialization for MultiAssayExperiment Objects
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MuData.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MuData.html
    :license: GPL-3
    :recipe: /`bioconductor-mudata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mudata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mudata/meta.yaml>`_
 

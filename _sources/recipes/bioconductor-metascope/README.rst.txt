@@ -12,11 +12,11 @@ bioconductor-metascope
 
    Tools and functions for preprocessing 16S and metagenomic sequencing microbiome data
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/MetaScope.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MetaScope.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-metascope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metascope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metascope/meta.yaml>`_
 
-   This package contains tools and methods for preprocessing microbiome data. Functionality includes library generation\, demultiplexing\, alignment\, and microbe identification.  It is partly an R translation of the PathoScope 2.0 pipeline.
+   This package contains tools and methods for preprocessing microbiome data. Functionality includes library generation\, demultiplexing\, alignment\, and microbe identification.  It is in part an R translation of the PathoScope 2.0 pipeline.
 
 
 .. conda:package:: bioconductor-metascope

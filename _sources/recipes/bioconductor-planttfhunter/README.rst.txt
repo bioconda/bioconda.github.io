@@ -12,7 +12,7 @@ bioconductor-planttfhunter
 
    Identification and classification of plant transcription factors
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/planttfhunter.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/planttfhunter.html
    :license: GPL-3
    :recipe: /`bioconductor-planttfhunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-planttfhunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-planttfhunter/meta.yaml>`_
 

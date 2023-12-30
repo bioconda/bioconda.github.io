@@ -12,7 +12,7 @@ bioconductor-fourdndata
 
    4DN data package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/fourDNData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/fourDNData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fourdndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourdndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourdndata/meta.yaml>`_
 

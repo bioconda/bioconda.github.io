@@ -12,7 +12,7 @@ bioconductor-bobafit
 
    Refitting diploid region profiles using a clustering procedure
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/BOBaFIT.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BOBaFIT.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-bobafit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bobafit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bobafit/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-genomicranges
 
    Representation and manipulation of genomic intervals
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GenomicRanges.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GenomicRanges.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicranges/meta.yaml>`_
    :links: biotools: :biotools:`genomicranges`

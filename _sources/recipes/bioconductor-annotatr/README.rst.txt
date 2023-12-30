@@ -12,7 +12,7 @@ bioconductor-annotatr
 
    Annotation of Genomic Regions to Genomic Annotations
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/annotatr.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/annotatr.html
    :license: GPL-3
    :recipe: /`bioconductor-annotatr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotatr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotatr/meta.yaml>`_
 

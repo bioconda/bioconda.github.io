@@ -12,7 +12,7 @@ bioconductor-mirnameconverter
 
    Convert miRNA Names to Different miRBase Versions
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/miRNAmeConverter.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/miRNAmeConverter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mirnameconverter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnameconverter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnameconverter/meta.yaml>`_
    :links: biotools: :biotools:`mirnameconverter`

@@ -12,7 +12,7 @@ bioconductor-stdeconvolve
 
    Reference\-free Cell\-Type Deconvolution of Multi\-Cellular Spatially Resolved Transcriptomics Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/STdeconvolve.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/STdeconvolve.html
    :license: GPL-3
    :recipe: /`bioconductor-stdeconvolve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stdeconvolve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stdeconvolve/meta.yaml>`_
 

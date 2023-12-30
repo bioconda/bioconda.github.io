@@ -12,7 +12,7 @@ bioconductor-immunespacer
 
    A Thin Wrapper around the ImmuneSpace Data and Tools Portal
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ImmuneSpaceR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ImmuneSpaceR.html
    :license: GPL-2
    :recipe: /`bioconductor-immunespacer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunespacer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunespacer/meta.yaml>`_
 

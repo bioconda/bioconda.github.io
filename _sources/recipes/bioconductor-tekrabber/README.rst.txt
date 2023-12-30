@@ -12,8 +12,8 @@ bioconductor-tekrabber
 
    An R package estimates the correlations of orthologs and transposable elements between two species
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/TEKRABber.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TEKRABber.html
+   :license: LGPL (>=3)
    :recipe: /`bioconductor-tekrabber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tekrabber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tekrabber/meta.yaml>`_
 
    TEKRABber is made to provide a user\-friendly pipeline for comparing orthologs and transposable elements \(TEs\) between two species. It considers the orthology confidence between two species from BioMart to normalize expression counts and detect differentially expressed orthologs\/TEs. Then it provides one to one correlation analysis for desired orthologs and TEs. There is also an app function to have a first insight on the result. Users can prepare orthologs\/TEs RNA\-seq expression data by their own preference to run TEKRABber following the data structure mentioned in the vignettes.

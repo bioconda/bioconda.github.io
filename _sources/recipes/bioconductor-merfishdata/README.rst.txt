@@ -12,7 +12,7 @@ bioconductor-merfishdata
 
    Collection of public MERFISH datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/MerfishData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MerfishData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-merfishdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-merfishdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-merfishdata/meta.yaml>`_
 

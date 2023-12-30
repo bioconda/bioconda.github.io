@@ -12,7 +12,7 @@ bioconductor-differentialregulation
 
    Differentially regulated genes from scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DifferentialRegulation.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DifferentialRegulation.html
    :license: GPL-3
    :recipe: /`bioconductor-differentialregulation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-differentialregulation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-differentialregulation/meta.yaml>`_
 

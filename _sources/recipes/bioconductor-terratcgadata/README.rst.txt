@@ -12,7 +12,7 @@ bioconductor-terratcgadata
 
    OpenAccess TCGA Data on Terra as MultiAssayExperiment
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/terraTCGAdata.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/terraTCGAdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-terratcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-terratcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-terratcgadata/meta.yaml>`_
 

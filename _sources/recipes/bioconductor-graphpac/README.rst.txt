@@ -12,7 +12,7 @@ bioconductor-graphpac
 
    Identification of Mutational Clusters in Proteins via a Graph Theoretical Approach.
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GraphPAC.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GraphPAC.html
    :license: GPL-2
    :recipe: /`bioconductor-graphpac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphpac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphpac/meta.yaml>`_
    :links: biotools: :biotools:`graphpac`, doi: :doi:`10.1186/1471-2105-15-86`

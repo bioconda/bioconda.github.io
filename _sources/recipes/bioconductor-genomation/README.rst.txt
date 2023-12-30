@@ -12,7 +12,7 @@ bioconductor-genomation
 
    Summary\, annotation and visualization of genomic data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/genomation.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/genomation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation/meta.yaml>`_
    :links: biotools: :biotools:`genomation`

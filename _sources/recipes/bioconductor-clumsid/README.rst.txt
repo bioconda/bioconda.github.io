@@ -12,7 +12,7 @@ bioconductor-clumsid
 
    Clustering of MS2 Spectra for Metabolite Identification
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/CluMSID.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CluMSID.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-clumsid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsid/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rcx
 
    R package implementing the Cytoscape Exchange \(CX\) format
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RCX.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RCX.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rcx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcx/meta.yaml>`_
 

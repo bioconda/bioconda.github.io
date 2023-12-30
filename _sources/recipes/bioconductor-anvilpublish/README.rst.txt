@@ -12,7 +12,7 @@ bioconductor-anvilpublish
 
    Publish Packages and Other Resources to AnVIL Workspaces
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/AnVILPublish.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/AnVILPublish.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvilpublish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilpublish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilpublish/meta.yaml>`_
 

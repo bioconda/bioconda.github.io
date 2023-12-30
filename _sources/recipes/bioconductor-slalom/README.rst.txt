@@ -12,7 +12,7 @@ bioconductor-slalom
 
    Factorial Latent Variable Modeling of Single\-Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/slalom.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/slalom.html
    :license: GPL-2
    :recipe: /`bioconductor-slalom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom/meta.yaml>`_
 

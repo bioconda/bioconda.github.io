@@ -12,8 +12,8 @@ bioconductor-spiat
 
    Spatial Image Analysis of Tissues
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SPIAT.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SPIAT.html
+   :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-spiat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spiat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spiat/meta.yaml>`_
 
    SPIAT \(\*\*Sp\*\*atial \*\*I\*\*mage \*\*A\*\*nalysis of \*\*T\*\*issues\) is an R package with a suite of data processing\, quality control\, visualization and data analysis tools. SPIAT is compatible with data generated from single\-cell spatial proteomics platforms \(e.g. OPAL\, CODEX\, MIBI\, cellprofiler\). SPIAT reads spatial data in the form of X and Y coordinates of cells\, marker intensities and cell phenotypes. SPIAT includes six analysis modules that allow visualization\, calculation of cell colocalization\, categorization of the immune microenvironment relative to tumor areas\, analysis of cellular neighborhoods\, and the quantification of spatial heterogeneity\, providing a comprehensive toolkit for spatial data analysis.

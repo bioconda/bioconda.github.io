@@ -12,7 +12,7 @@ bioconductor-mvoutdata
 
    affy and illumina raw data for assessing outlier detector performance
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/mvoutData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/mvoutData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mvoutdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mvoutdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mvoutdata/meta.yaml>`_
 

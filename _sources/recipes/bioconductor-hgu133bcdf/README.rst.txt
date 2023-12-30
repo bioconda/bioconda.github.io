@@ -12,7 +12,7 @@ bioconductor-hgu133bcdf
 
    hgu133bcdf
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/hgu133bcdf.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/hgu133bcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgu133bcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133bcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133bcdf/meta.yaml>`_
 

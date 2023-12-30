@@ -12,7 +12,7 @@ bioconductor-cosiadata
 
    VST normalized RNA\-Sequencing data with annotations for multiple species samples from Bgee
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/CoSIAdata.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/CoSIAdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cosiadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosiadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosiadata/meta.yaml>`_
 

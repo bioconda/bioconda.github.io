@@ -12,7 +12,7 @@ bioconductor-humancytosnp12v2p1hcrlmm
 
    Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/humancytosnp12v2p1hCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/humancytosnp12v2p1hCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humancytosnp12v2p1hcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humancytosnp12v2p1hcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humancytosnp12v2p1hcrlmm/meta.yaml>`_
 

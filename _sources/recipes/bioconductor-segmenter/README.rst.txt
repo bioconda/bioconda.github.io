@@ -12,7 +12,7 @@ bioconductor-segmenter
 
    Perform Chromatin Segmentation Analysis in R by Calling ChromHMM
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/segmenter.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/segmenter.html
    :license: GPL-3
    :recipe: /`bioconductor-segmenter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmenter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmenter/meta.yaml>`_
 

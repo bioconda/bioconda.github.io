@@ -12,7 +12,7 @@ bioconductor-bioimagedbs
 
    Bio\- and biomedical imaging dataset for machine learning and deep learning \(for ExperimentHub\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/BioImageDbs.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/BioImageDbs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioimagedbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioimagedbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioimagedbs/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-gosorensen
 
    Statistical inference based on the Sorensen\-Dice dissimilarity and the Gene Ontology \(GO\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/goSorensen.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/goSorensen.html
    :license: GPL-3
    :recipe: /`bioconductor-gosorensen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosorensen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosorensen/meta.yaml>`_
 
-   This package implements inferential methods to compare gene lists \(in this first release\, to prove equivalence\) in terms of their biological meaning as expressed in the GO. The compared gene lists are characterized by cross\-tabulation frequency tables of enriched GO items. Dissimilarity between gene lists is evaluated using the Sorensen\-Dice index. The fundamental guiding principle is that two gene lists are taken as similar if they share a great proportion of common enriched GO items.
+   This package implements inferential methods to compare gene lists in terms of their biological meaning as expressed in the GO. The compared gene lists are characterized by cross\-tabulation frequency tables of enriched GO items. Dissimilarity between gene lists is evaluated using the Sorensen\-Dice index. The fundamental guiding principle is that two gene lists are taken as similar if they share a great proportion of common enriched GO items.
 
 
 .. conda:package:: bioconductor-gosorensen

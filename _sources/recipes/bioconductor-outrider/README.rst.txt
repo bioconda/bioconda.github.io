@@ -12,7 +12,7 @@ bioconductor-outrider
 
    OUTRIDER \- OUTlier in RNA\-Seq fInDER
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OUTRIDER.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OUTRIDER.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-outrider <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outrider>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outrider/meta.yaml>`_
 

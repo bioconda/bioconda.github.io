@@ -12,7 +12,7 @@ bioconductor-tilingarray
 
    Transcript mapping with high\-density oligonucleotide tiling arrays
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tilingArray.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tilingArray.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tilingarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tilingarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tilingarray/meta.yaml>`_
 

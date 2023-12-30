@@ -12,7 +12,7 @@ bioconductor-iseehub
 
    iSEE for the Bioconductor ExperimentHub
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/iSEEhub.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iSEEhub.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseehub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseehub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseehub/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-svaretro
 
    Retrotransposed transcript detection from structural variants
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/svaRetro.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/svaRetro.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-svaretro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svaretro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svaretro/meta.yaml>`_
 

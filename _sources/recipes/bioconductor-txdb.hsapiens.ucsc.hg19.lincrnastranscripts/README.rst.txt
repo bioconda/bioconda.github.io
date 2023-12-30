@@ -12,7 +12,7 @@ bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts/meta.yaml>`_
 

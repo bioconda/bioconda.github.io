@@ -12,7 +12,7 @@ bioconductor-scfeatures
 
    scFeatures\: Multi\-view representations of single\-cell and spatial data for disease outcome prediction
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scFeatures.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scFeatures.html
    :license: GPL-3
    :recipe: /`bioconductor-scfeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeatures/meta.yaml>`_
 

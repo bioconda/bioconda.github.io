@@ -12,7 +12,7 @@ bioconductor-mitoclone2
 
    Clonal Population Identification in Single\-Cell RNA\-Seq Data using Mitochondrial and Somatic Mutations
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mitoClone2.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mitoClone2.html
    :license: GPL-3
    :recipe: /`bioconductor-mitoclone2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoclone2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoclone2/meta.yaml>`_
 

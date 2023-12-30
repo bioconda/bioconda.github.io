@@ -12,7 +12,7 @@ bioconductor-gse159526
 
    Placental cell DNA methylation data from GEO accession GSE159526
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/GSE159526.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/GSE159526.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gse159526 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse159526>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse159526/meta.yaml>`_
 

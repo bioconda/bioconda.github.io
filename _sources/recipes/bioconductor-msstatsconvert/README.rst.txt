@@ -12,7 +12,7 @@ bioconductor-msstatsconvert
 
    Import Data from Various Mass Spectrometry Signal Processing Tools to MSstats Format
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstatsConvert.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSstatsConvert.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatsconvert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsconvert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsconvert/meta.yaml>`_
 

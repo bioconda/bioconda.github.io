@@ -12,7 +12,7 @@ bioconductor-mosaics
 
    MOSAiCS \(MOdel\-based one and two Sample Analysis and Inference for ChIP\-Seq\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/mosaics.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mosaics.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mosaics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaics/meta.yaml>`_
    :links: biotools: :biotools:`mosaics`, doi: :doi:`10.1198/jasa.2011.ap09706`

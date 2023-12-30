@@ -12,7 +12,7 @@ bioconductor-speckle
 
    Statistical methods for analysing single cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/speckle.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/speckle.html
    :license: GPL-3
    :recipe: /`bioconductor-speckle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-speckle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-speckle/meta.yaml>`_
 

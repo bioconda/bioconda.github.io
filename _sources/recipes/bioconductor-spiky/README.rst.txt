@@ -12,7 +12,7 @@ bioconductor-spiky
 
    Spike\-in calibration for cell\-free MeDIP
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/spiky.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/spiky.html
    :license: GPL-2
    :recipe: /`bioconductor-spiky <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spiky>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spiky/meta.yaml>`_
 

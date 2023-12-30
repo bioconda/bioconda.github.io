@@ -12,7 +12,7 @@ bioconductor-omixer
 
    Omixer\: multivariate and reproducible sample randomization to proactively counter batch effects in omics studies
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Omixer.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Omixer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omixer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omixer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omixer/meta.yaml>`_
 

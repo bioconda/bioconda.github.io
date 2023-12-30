@@ -12,11 +12,11 @@ bioconductor-biocancer
 
    Interactive Multi\-Omics Cancers Data Visualization and Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/bioCancer.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/bioCancer.html
    :license: AGPL-3 | file LICENSE
    :recipe: /`bioconductor-biocancer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocancer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocancer/meta.yaml>`_
 
-   bioCancer is a Shiny App to visualize and analyse interactively Multi\-Assays of Cancer Genomic Data.
+   This package is a Shiny App to visualize and analyse interactively Multi\-Assays of Cancer Genomic Data.
 
 
 .. conda:package:: bioconductor-biocancer

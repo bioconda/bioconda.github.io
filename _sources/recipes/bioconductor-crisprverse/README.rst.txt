@@ -12,7 +12,7 @@ bioconductor-crisprverse
 
    Easily install and load the crisprVerse ecosystem for CRISPR gRNA design
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/crisprVerse.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/crisprVerse.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprverse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprverse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprverse/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-crisprbwa
 
    BWA\-based alignment of CRISPR gRNA spacer sequences
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/crisprBwa.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/crisprBwa.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprbwa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprbwa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprbwa/meta.yaml>`_
 

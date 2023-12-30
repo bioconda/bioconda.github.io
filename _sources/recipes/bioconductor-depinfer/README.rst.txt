@@ -12,7 +12,7 @@ bioconductor-depinfer
 
    Inferring tumor\-specific cancer dependencies through integrating ex\-vivo drug response assays and drug\-protein profiling
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DepInfeR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DepInfeR.html
    :license: GPL-3
    :recipe: /`bioconductor-depinfer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depinfer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depinfer/meta.yaml>`_
 

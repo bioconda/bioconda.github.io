@@ -12,7 +12,7 @@ bioconductor-rmmquant
 
    RNA\-Seq multi\-mapping Reads Quantification Tool
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Rmmquant.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rmmquant.html
    :license: GPL-3
    :recipe: /`bioconductor-rmmquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmmquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmmquant/meta.yaml>`_
 

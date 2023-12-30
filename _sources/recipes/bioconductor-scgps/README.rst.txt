@@ -12,7 +12,7 @@ bioconductor-scgps
 
    A complete analysis of single cell subpopulations\, from identifying subpopulations to analysing their relationship \(scGPS \= single cell Global Predictions of Subpopulation\)
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scGPS.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scGPS.html
    :license: GPL-3
    :recipe: /`bioconductor-scgps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scgps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scgps/meta.yaml>`_
 

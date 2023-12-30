@@ -12,7 +12,7 @@ bioconductor-suitor
 
    Selecting the number of mutational signatures through cross\-validation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/SUITOR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SUITOR.html
    :license: GPL-2
    :recipe: /`bioconductor-suitor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-suitor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-suitor/meta.yaml>`_
 

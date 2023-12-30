@@ -12,7 +12,7 @@ bioconductor-tximport
 
    Import and summarize transcript\-level estimates for transcript\- and gene\-level analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/tximport.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tximport.html
    :license: LGPL (>=2)
    :recipe: /`bioconductor-tximport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximport/meta.yaml>`_
    :links: biotools: :biotools:`tximport`

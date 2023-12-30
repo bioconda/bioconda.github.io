@@ -12,7 +12,7 @@ bioconductor-meat
 
    Muscle Epigenetic Age Test
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MEAT.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MEAT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-meat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meat/meta.yaml>`_
 

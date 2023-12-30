@@ -12,7 +12,7 @@ bioconductor-scbfa
 
    A dimensionality reduction tool using gene detection pattern to mitigate noisy expression profile of scRNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/scBFA.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scBFA.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scbfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbfa/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hicontactsdata
 
    HiContacts companion data package
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/HiContactsData.html
+   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HiContactsData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hicontactsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicontactsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicontactsdata/meta.yaml>`_
 

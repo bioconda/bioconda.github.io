@@ -12,7 +12,7 @@ bioconductor-openprimer
 
    Multiplex PCR Primer Design and Analysis
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/openPrimeR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/openPrimeR.html
    :license: GPL-2
    :recipe: /`bioconductor-openprimer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimer/meta.yaml>`_
 

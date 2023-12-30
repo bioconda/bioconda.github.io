@@ -12,7 +12,7 @@ bioconductor-netactivity
 
    Compute gene set scores from a deep learning framework
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/NetActivity.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NetActivity.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-netactivity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netactivity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netactivity/meta.yaml>`_
 

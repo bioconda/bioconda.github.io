@@ -12,7 +12,7 @@ bioconductor-orderedlist
 
    Similarities of Ordered Gene Lists
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OrderedList.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OrderedList.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-orderedlist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orderedlist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orderedlist/meta.yaml>`_
    :links: biotools: :biotools:`orderedlist`, doi: :doi:`10.1093/bioinformatics/btl385`

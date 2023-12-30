@@ -12,7 +12,7 @@ bioconductor-alabaster.mae
 
    Load and Save MultiAssayExperiments
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/alabaster.mae.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.mae.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.mae <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.mae>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.mae/meta.yaml>`_
 

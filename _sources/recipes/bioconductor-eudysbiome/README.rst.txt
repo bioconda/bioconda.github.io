@@ -12,7 +12,7 @@ bioconductor-eudysbiome
 
    Cartesian plot and contingency test on 16S Microbial data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/eudysbiome.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/eudysbiome.html
    :license: GPL-2
    :recipe: /`bioconductor-eudysbiome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eudysbiome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eudysbiome/meta.yaml>`_
    :links: biotools: :biotools:`eudysbiome`, doi: :doi:`10.1186/s12918-016-0344-6`

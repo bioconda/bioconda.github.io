@@ -12,7 +12,7 @@ bioconductor-distinct
 
    distinct\: a method for differential analyses via hierarchical permutation tests
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/distinct.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/distinct.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-distinct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-distinct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-distinct/meta.yaml>`_
 

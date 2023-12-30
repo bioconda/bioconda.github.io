@@ -12,7 +12,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau6
 
    Full genome sequences for Bos taurus \(UCSC version bosTau6\)
 
-   :homepage: https://bioconductor.org/packages/3.17/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau6.html
+   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau6.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.btaurus.ucsc.bostau6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau6/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rawrr
 
    Direct Access to Orbitrap Data and Beyond
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/rawrr.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rawrr.html
    :license: GPL-3
    :recipe: /`bioconductor-rawrr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rawrr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rawrr/meta.yaml>`_
 

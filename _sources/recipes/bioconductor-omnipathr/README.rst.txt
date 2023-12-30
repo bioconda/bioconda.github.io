@@ -12,7 +12,7 @@ bioconductor-omnipathr
 
    OmniPath web service client and more
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/OmnipathR.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OmnipathR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omnipathr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr/meta.yaml>`_
 

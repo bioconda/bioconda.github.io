@@ -12,7 +12,7 @@ bioconductor-lrcell
 
    Differential cell type change analysis using Logistic\/linear Regression
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/LRcell.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/LRcell.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lrcell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrcell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrcell/meta.yaml>`_
 

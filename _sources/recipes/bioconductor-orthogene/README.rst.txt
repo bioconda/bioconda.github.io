@@ -12,7 +12,7 @@ bioconductor-orthogene
 
    Interspecies gene mapping
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/orthogene.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/orthogene.html
    :license: GPL-3
    :recipe: /`bioconductor-orthogene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthogene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthogene/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-msstatstmt
 
    Protein Significance Analysis in shotgun mass spectrometry\-based proteomic experiments with tandem mass tag \(TMT\) labeling
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/MSstatsTMT.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSstatsTMT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatstmt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatstmt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatstmt/meta.yaml>`_
 

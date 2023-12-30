@@ -14,7 +14,7 @@ deeplc
 
    :homepage: https://compomics.github.io/projects/DeepLC
    :developer docs: https://github.com/compomics/DeepLC
-   :license: APACHE
+   :license: APACHE / Apache-2.0
    :recipe: /`deeplc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeplc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeplc/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41592-021-01301-5`, biotools: :biotools:`deeplc`
 
@@ -30,10 +30,10 @@ deeplc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.22-0</code>,  <code>2.2.20-0</code>,  <code>2.2.18-0</code>,  <code>2.2.14-0</code>,  <code>2.2.12-0</code>,  <code>2.2.9-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.26-0</code>,  <code>2.2.22-0</code>,  <code>2.2.20-0</code>,  <code>2.2.18-0</code>,  <code>2.2.14-0</code>,  <code>2.2.12-0</code>,  <code>2.2.9-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  </span></summary>
       
 
-      ``2.2.22-0``,  ``2.2.20-0``,  ``2.2.18-0``,  ``2.2.14-0``,  ``2.2.12-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``1.1.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.36-0``,  ``0.1.35-0``,  ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.31-0``,  ``0.1.30-0``,  ``0.1.29-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``2.2.26-0``,  ``2.2.22-0``,  ``2.2.20-0``,  ``2.2.18-0``,  ``2.2.14-0``,  ``2.2.12-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``1.1.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.36-0``,  ``0.1.35-0``,  ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.31-0``,  ``0.1.30-0``,  ``0.1.29-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -52,6 +52,7 @@ deeplc
    :depends pandas: ``>=0.25,<2``
    :depends psm-utils: 
    :depends pygam: 
+   :depends pyopenms: 
    :depends python: ``>=3.7``
    :depends scikit-learn: 
    :depends scipy: 
@@ -103,7 +104,7 @@ deeplc
 
     <script>
         var package = "deeplc";
-        var versions = ["2.2.22","2.2.20","2.2.18","2.2.14","2.2.12"];
+        var versions = ["2.2.26","2.2.22","2.2.20","2.2.18","2.2.14"];
     </script>
 
 

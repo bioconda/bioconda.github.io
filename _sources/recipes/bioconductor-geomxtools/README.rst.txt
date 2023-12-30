@@ -12,7 +12,7 @@ bioconductor-geomxtools
 
    NanoString GeoMx Tools
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/GeomxTools.html
+   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeomxTools.html
    :license: MIT
    :recipe: /`bioconductor-geomxtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geomxtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geomxtools/meta.yaml>`_
 
