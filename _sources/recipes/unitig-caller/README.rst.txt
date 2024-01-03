@@ -28,10 +28,10 @@ unitig-caller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.0-0``
+      ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ unitig-caller
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends bifrost: ``>=1.2.0``
+   :depends bifrost: ``>=1.3.0``
+   :depends bifrost: ``>=1.3.1,<1.4.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -95,7 +96,7 @@ unitig-caller
 
     <script>
         var package = "unitig-caller";
-        var versions = ["1.3.0","1.3.0","1.3.0","1.2.1","1.2.1"];
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.2.1"];
     </script>
 
 

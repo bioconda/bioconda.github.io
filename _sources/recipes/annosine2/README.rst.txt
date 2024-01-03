@@ -27,7 +27,7 @@ annosine2
       
       
 
-      ``1.0.4-0``
+      ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -41,6 +41,7 @@ annosine2
    :depends minimap2: ``2.26``
    :depends nodejs: ``18.12.1``
    :depends numpy: 
+   :depends pandas: 
    :depends pillow: 
    :depends pyparsing: 
    :depends python: 
@@ -96,7 +97,7 @@ annosine2
 
     <script>
         var package = "annosine2";
-        var versions = ["1.0.4"];
+        var versions = ["1.0.4","1.0.4"];
     </script>
 
 

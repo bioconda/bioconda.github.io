@@ -28,7 +28,7 @@ viroconstrictor
       
       
 
-      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
 
@@ -44,7 +44,7 @@ viroconstrictor
    :depends python: ``>=3.10``
    :depends pyyaml: ``6.0``
    :depends rich: ``13.*``
-   :depends snakemake: ``>=7.15.2``
+   :depends snakemake: ``>=7.15.2,<8``
    :depends urllib3: 
    :requirements:
 
@@ -93,7 +93,7 @@ viroconstrictor
 
     <script>
         var package = "viroconstrictor";
-        var versions = ["1.4.0","1.3.1","1.3.0","1.2.6","1.2.5"];
+        var versions = ["1.4.0","1.4.0","1.3.1","1.3.0","1.2.6"];
     </script>
 
 

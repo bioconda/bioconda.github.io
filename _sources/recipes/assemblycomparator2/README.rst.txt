@@ -27,13 +27,13 @@ assemblycomparator2
       
       
 
-      ``2.5.14-0``,  ``2.5.13-0``,  ``2.5.12-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``
+      ``2.5.15-0``,  ``2.5.14-0``,  ``2.5.13-0``,  ``2.5.12-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``
 
       
 
    
    :depends mamba: ``>=1.4.9``
-   :depends snakemake: ``>=7.32.3``
+   :depends snakemake: ``7.32.4.*``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ assemblycomparator2
 
     <script>
         var package = "assemblycomparator2";
-        var versions = ["2.5.14","2.5.13","2.5.12","2.5.9","2.5.8"];
+        var versions = ["2.5.15","2.5.14","2.5.13","2.5.12","2.5.9"];
     </script>
 
 
