@@ -1,0 +1,58 @@
+Contribution using gitpod
++++++++++++++++++++++
+
+.. contents::
+   :local:
+   :backlinks: entry
+
+.. _open_gitpod:
+
+1. Open preconfigured Gitpod session
+~~~~~~~~~~~~~~~~~~
+
+To get started right away without needing to install any tools, you can launch a gitpod session
+on the following repository : ' bioconda_recipepod <https://github.com/FloWuenne/bioconda_recipepod>'.
+
+This will open a new Gitpod session with the following tools pre-installed:
+    - conda
+    - mamba
+    - grayskull
+    - bioconda-utils
+
+.. _create_branch:
+
+2. Create a branch in the bioconda-recipes folder
+~~~~~~~~~~~~~~~~~~
+
+The Gitpod environment by default enters a clone of the bioconda recipes repository, so you can directly get started with your recipe. Create a branch and either modify an existing recipe or create a new one using `conda skeleton` or `grayskull`.
+
+.. _lint_recipe:
+
+3. Lint your recipe
+~~~~~~~~~~~~~~~~~~
+
+To test if your recipe lints, run `bioconda-utils lint --git-range master` or `bioconda-utils lint --packages mypackage`.
+
+.. _test_recipe:
+
+4. Test your recipe
+~~~~~~~~~~~~~~~~~~
+
+To test if your recipe works, run `bioconda-utils build --docker --mulled-test --git-range master` or `bioconda-utils build --docker --mulled-test --packages mypackage`
+
+.. _add_fork:
+
+5. Add your fork as a remote
+~~~~~~~~~~~~~~~~~~
+
+Add your fork of bioconda recipes as a remote: `git remote add [name for your remote] [URL of your fork]`
+
+.. _push_to_remote:
+
+6. Push your changes to your fork
+~~~~~~~~~~~~~~~~~~
+
+Push your changes to your fork to open a Pull Request: `git push -u [name for your remote] [name of your branch]`
+
+
+That is it, your recipe should now be on your fork and branch for you to be able to open a pull request to the official bioconda recipes repo. 

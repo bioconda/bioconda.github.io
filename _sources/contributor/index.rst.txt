@@ -9,7 +9,7 @@ recipe you'd like to add.
 The basic workflow is:
 
 - Follow the :doc:`setup` instructions to get a local copy of the
-  recipes repository
+  recipes repository or use `Gitpod <https://www.gitpod.io/>` to develop your recipe in a preconfigured environment.
 
 - Write a recipe or modify an existing one. A recipe consists of a
   metadata file and (optionally) a shell script to install it. Here is
@@ -33,6 +33,7 @@ challenging to package. The topics below provide more details.
 
     setup
     workflow
+    gitpod
     building-locally
 
     troubleshooting
