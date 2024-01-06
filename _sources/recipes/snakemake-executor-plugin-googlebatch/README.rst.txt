@@ -10,10 +10,10 @@ snakemake-executor-plugin-googlebatch
    :replaces_section_title:
    :noindex:
 
-   
+   Snakemake executor plugin for Google Batch
 
    :homepage: https://github.com/snakemake/snakemake-executor-plugin-googlebatch
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-executor-plugin-googlebatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-googlebatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-googlebatch/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ snakemake-executor-plugin-googlebatch
       
       
 
-      ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -88,7 +88,7 @@ snakemake-executor-plugin-googlebatch
 
     <script>
         var package = "snakemake-executor-plugin-googlebatch";
-        var versions = ["0.1.1"];
+        var versions = ["0.2.0","0.1.1"];
     </script>
 
 

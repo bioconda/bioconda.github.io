@@ -12,10 +12,13 @@ dbcan
 
    Standalone version of dbCAN annotation tool for automated CAZyme annotation
 
-   :homepage: http://bcb.unl.edu/dbCAN2/
+   :homepage: https://bcb.unl.edu/dbCAN2/
+   :documentation: https://dbcan.readthedocs.io/en/latest/
+   
    :developer docs: https://github.com/linnabrown/run_dbcan
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dbcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcan/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkx894`, doi: :doi:`10.1093/nar/gky418`, doi: :doi:`10.1093/nar/gkad328`, biotools: :biotools:`dbcan2`
 
    
 
@@ -28,7 +31,7 @@ dbcan
       
       
 
-      ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+      ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
 
@@ -41,8 +44,9 @@ dbcan
    :depends pandas: 
    :depends prodigal: 
    :depends psutil: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends scipy: 
+   :depends session-info: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +94,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["4.0.0","3.0.7","3.0.6"];
+        var versions = ["4.1.0","4.0.0","3.0.7","3.0.6"];
     </script>
 
 

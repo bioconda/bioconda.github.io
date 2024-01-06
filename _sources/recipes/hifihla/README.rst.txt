@@ -27,7 +27,7 @@ hifihla
       
       
 
-      ``0.2.2-0``
+      ``0.2.3-0``,  ``0.2.2-0``
 
       
 
@@ -79,7 +79,7 @@ hifihla
 
     <script>
         var package = "hifihla";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.3","0.2.2"];
     </script>
 
 

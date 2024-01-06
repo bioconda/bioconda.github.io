@@ -27,7 +27,7 @@ metdatamodel
       
       
 
-      ``0.4.14-0``
+      ``0.5.5-0``,  ``0.4.14-0``
 
       
 
@@ -80,7 +80,7 @@ metdatamodel
 
     <script>
         var package = "metdatamodel";
-        var versions = ["0.4.14"];
+        var versions = ["0.5.5","0.4.14"];
     </script>
 
 
