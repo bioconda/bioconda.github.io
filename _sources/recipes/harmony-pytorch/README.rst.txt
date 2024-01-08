@@ -13,7 +13,7 @@ harmony-pytorch
    This is a Pytorch implementation of Harmony algorithm on single\-cell sequencing data integration.
 
    :homepage: https://github.com/lilab-bcb/harmony-pytorch
-   :license: BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`harmony-pytorch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmony-pytorch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmony-pytorch/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41592-019-0619-0`
 
@@ -28,7 +28,7 @@ harmony-pytorch
       
       
 
-      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
@@ -87,7 +87,7 @@ harmony-pytorch
 
     <script>
         var package = "harmony-pytorch";
-        var versions = ["0.1.7","0.1.7","0.1.6","0.1.5"];
+        var versions = ["0.1.8","0.1.7","0.1.7","0.1.6","0.1.5"];
     </script>
 
 

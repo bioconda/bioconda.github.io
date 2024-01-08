@@ -13,7 +13,7 @@ ribowaltz
    Calculation of optimal P\-site offsets\, diagnostic analysis and visual inspection of ribosome profiling data.
 
    :homepage: https://github.com/LabTranslationalArchitectomics/riboWaltz
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ribowaltz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribowaltz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribowaltz/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ ribowaltz
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``
+      ``2.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -37,7 +37,7 @@ ribowaltz
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-devtools: 
    :depends r-ggplot2: 
@@ -89,7 +89,7 @@ ribowaltz
 
     <script>
         var package = "ribowaltz";
-        var versions = ["1.2.0","1.2.0"];
+        var versions = ["2.0","1.2.0","1.2.0"];
     </script>
 
 

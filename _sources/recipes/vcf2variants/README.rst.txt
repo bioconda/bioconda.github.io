@@ -27,13 +27,15 @@ vcf2variants
       
       
 
-      ``0.3-0``,  ``0.2-0``
+      ``1.2-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
    
-   :depends cyvcf2: 
+   :depends natsort: 
+   :depends pysam: 
    :depends python: ``>=3.6``
+   :depends vcfphasesets: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +83,7 @@ vcf2variants
 
     <script>
         var package = "vcf2variants";
-        var versions = ["0.3","0.2"];
+        var versions = ["1.2","0.3","0.2"];
     </script>
 
 

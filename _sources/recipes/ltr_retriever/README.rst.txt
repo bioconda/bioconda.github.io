@@ -13,8 +13,9 @@ ltr_retriever
    Sensitive and accurate identification of LTR retrotransposons
 
    :homepage: https://github.com/oushujun/LTR_retriever
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ltr_retriever <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_retriever>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_retriever/meta.yaml>`_
+   :links: doi: :doi:`10.1104/pp.17.01310`, biotools: :biotools:`ltr_retriever`
 
    
 
@@ -27,17 +28,17 @@ ltr_retriever
       
       
 
-      ``2.9.5-0``,  ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
+      ``2.9.8-0``,  ``2.9.5-0``,  ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
 
       
 
    
    :depends cd-hit: 
-   :depends libstdcxx-ng: ``<13``
+   :depends libstdcxx-ng: 
    :depends perl: 
    :depends perl-text-soundex: 
    :depends repeatmasker: ``<4.1.5``
-   :depends rmblast: ``<2.11``
+   :depends rmblast: 
    :depends tesorter: 
    :requirements:
 
@@ -86,7 +87,7 @@ ltr_retriever
 
     <script>
         var package = "ltr_retriever";
-        var versions = ["2.9.5","2.9.4","2.9.0","2.9.0","2.9.0"];
+        var versions = ["2.9.8","2.9.5","2.9.4","2.9.0","2.9.0"];
     </script>
 
 

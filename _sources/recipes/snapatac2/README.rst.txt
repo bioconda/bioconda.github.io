@@ -13,7 +13,9 @@ snapatac2
    Python\/Rust package for single\-cell epigenomics analysis
 
    :homepage: https://github.com/kaizhang/SnapATAC2
-   :license: MIT
+   :documentation: https://kzhang.org/SnapATAC2/
+   
+   :license: MIT / MIT
    :recipe: /`snapatac2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2/meta.yaml>`_
    :links: biotools: :biotools:`snapatac`, doi: :doi:`10.1101/2023.09.11.557221`
 
@@ -28,7 +30,7 @@ snapatac2
       
       
 
-      ``2.5.1-0``
+      ``2.5.2-0``,  ``2.5.1-0``
 
       
 
@@ -49,6 +51,7 @@ snapatac2
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
+   :depends typing_extensions: 
    :depends umap-learn: 
    :requirements:
 
@@ -97,7 +100,7 @@ snapatac2
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.5.1"];
+        var versions = ["2.5.2","2.5.1"];
     </script>
 
 
