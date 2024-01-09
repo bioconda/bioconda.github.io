@@ -13,7 +13,7 @@ mitgard
    Mitochondrial Genome Assembly from RNA\-seq Data.
 
    :homepage: https://github.com/pedronachtigall/MITGARD
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mitgard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitgard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitgard/meta.yaml>`_
    :links: https: :https:`//doi.org/10.1093/bib/bbaa429`
 
@@ -28,16 +28,19 @@ mitgard
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends biopython: ``1.69.*``
-   :depends bowtie2: ``2.3.*``
-   :depends minimap2: ``2.17.*``
+   :depends biopython: 
+   :depends blast: 
+   :depends bowtie2: 
+   :depends canu: 
+   :depends hifiasm: 
+   :depends minimap2: 
    :depends python: ``>=3.6``
-   :depends samtools: ``1.9.*``
+   :depends samtools: 
    :depends spades: ``3.13.1.*``
    :depends trinity: ``2.8.5.*``
    :requirements:
@@ -87,7 +90,7 @@ mitgard
 
     <script>
         var package = "mitgard";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.1","1.0","1.0"];
     </script>
 
 

@@ -27,9 +27,17 @@ ltr_retriever
    :versions:
       
       
+      .. raw:: html
 
-      ``2.9.8-0``,  ``2.9.5-0``,  ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
+         <details><summary><span class="truncated-version-list"><code>2.9.9-0</code>,  <code>2.9.8-0</code>,  <code>2.9.5-0</code>,  <code>2.9.4-0</code>,  <code>2.9.0-3</code>,  <code>2.9.0-2</code>,  <code>2.9.0-1</code>,  <code>2.9.0-0</code>,  <code>2.8.7-0</code>,  </span></summary>
+      
 
+      ``2.9.9-0``,  ``2.9.8-0``,  ``2.9.5-0``,  ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -87,7 +95,7 @@ ltr_retriever
 
     <script>
         var package = "ltr_retriever";
-        var versions = ["2.9.8","2.9.5","2.9.4","2.9.0","2.9.0"];
+        var versions = ["2.9.9","2.9.8","2.9.5","2.9.4","2.9.0"];
     </script>
 
 
