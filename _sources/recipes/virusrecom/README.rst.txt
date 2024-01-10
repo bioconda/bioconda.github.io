@@ -28,7 +28,7 @@ virusrecom
       
       
 
-      ``1.1.3-0``,  ``1.1.2.2-0``
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2.2-0``
 
       
 
@@ -38,7 +38,7 @@ virusrecom
    :depends openpyxl: ``>=3.0.5``
    :depends pandas: ``>=1.1.5``
    :depends psutil: ``>=5.9.1``
-   :depends python: ``>=3.5,<3.8``
+   :depends python: ``>=3.5,!=3.8``
    :depends scipy: ``>=1.5.4``
    :requirements:
 
@@ -87,7 +87,7 @@ virusrecom
 
     <script>
         var package = "virusrecom";
-        var versions = ["1.1.3","1.1.2.2"];
+        var versions = ["1.1.3","1.1.3","1.1.2.2"];
     </script>
 
 

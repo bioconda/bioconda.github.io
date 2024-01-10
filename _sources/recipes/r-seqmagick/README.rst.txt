@@ -27,7 +27,7 @@ r-seqmagick
       
       
 
-      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.1.7-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
@@ -35,6 +35,7 @@ r-seqmagick
    :depends bioconductor-biostrings: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-magrittr: 
+   :depends r-yulab.utils: ``>0.1.1``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +83,7 @@ r-seqmagick
 
     <script>
         var package = "r-seqmagick";
-        var versions = ["0.1.6","0.1.6","0.1.5","0.1.5"];
+        var versions = ["0.1.7","0.1.6","0.1.6","0.1.5","0.1.5"];
     </script>
 
 

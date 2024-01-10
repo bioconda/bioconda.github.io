@@ -28,7 +28,7 @@ hisat2-pipeline
       
       
 
-      ``1.0.6-0``
+      ``1.0.7-0``,  ``1.0.6-0``
 
       
 
@@ -86,7 +86,7 @@ hisat2-pipeline
 
     <script>
         var package = "hisat2-pipeline";
-        var versions = ["1.0.6"];
+        var versions = ["1.0.7","1.0.6"];
     </script>
 
 

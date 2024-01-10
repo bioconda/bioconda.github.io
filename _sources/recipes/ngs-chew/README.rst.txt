@@ -27,20 +27,21 @@ ngs-chew
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``
+      ``0.9.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
 
    
    :depends attrs: 
    :depends bcftools: 
+   :depends cattrs: 
    :depends click: 
    :depends logzero: 
    :depends numpy: 
    :depends pandas: 
    :depends plotly: 
    :depends pysam: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :depends samtools: 
    :depends scipy: 
    :depends tqdm: 
@@ -92,7 +93,7 @@ ngs-chew
 
     <script>
         var package = "ngs-chew";
-        var versions = ["0.8.1","0.8.0","0.7.1","0.7.0","0.6.0"];
+        var versions = ["0.9.2","0.8.1","0.8.0","0.7.1","0.7.0"];
     </script>
 
 
