@@ -31,7 +31,7 @@ dbcan
       
       
 
-      ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+      ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
 
@@ -47,6 +47,7 @@ dbcan
    :depends python: ``>=3.6``
    :depends scipy: 
    :depends session-info: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +95,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["4.1.0","4.0.0","3.0.7","3.0.6"];
+        var versions = ["4.1.1","4.1.0","4.0.0","3.0.7","3.0.6"];
     </script>
 
 

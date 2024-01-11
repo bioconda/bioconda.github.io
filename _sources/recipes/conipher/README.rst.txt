@@ -15,7 +15,7 @@ conipher
    :homepage: https://github.com/McGranahanLab/CONIPHER/
    :license: BSD-3-Clause
    :recipe: /`conipher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/conipher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/conipher/meta.yaml>`_
-   :links: doi: :doi:`10.21203/rs.3.pex-2158/v1`
+   :links: doi: :doi:`10.1038/s41596-023-00913-9`
 
    
 
@@ -28,7 +28,7 @@ conipher
       
       
 
-      ``2.1.0-1``,  ``2.1.0-0``
+      ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``
 
       
 
@@ -102,7 +102,7 @@ conipher
 
     <script>
         var package = "conipher";
-        var versions = ["2.1.0","2.1.0"];
+        var versions = ["2.2.0","2.1.0","2.1.0"];
     </script>
 
 

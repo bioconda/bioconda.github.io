@@ -27,7 +27,7 @@ customtkinter
       
       
 
-      ``5.2.1-0``,  ``5.2.0-0``
+      ``5.2.2-0``,  ``5.2.1-0``,  ``5.2.0-0``
 
       
 
@@ -83,7 +83,7 @@ customtkinter
 
     <script>
         var package = "customtkinter";
-        var versions = ["5.2.1","5.2.0"];
+        var versions = ["5.2.2","5.2.1","5.2.0"];
     </script>
 
 

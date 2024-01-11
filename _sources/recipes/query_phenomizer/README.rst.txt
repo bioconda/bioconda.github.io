@@ -13,7 +13,7 @@ query_phenomizer
    Tool for query and parsing the phenomizer tool
 
    :homepage: https://www.github.com/moonso/query_phenomizer
-   :license: MIT License
+   :license: MIT / MIT
    :recipe: /`query_phenomizer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/query_phenomizer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/query_phenomizer/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ query_phenomizer
       
       
 
-      ``1.2-0``,  ``0.5-2``,  ``0.5-0``
+      ``1.2.1-0``,  ``1.2-0``,  ``0.5-2``,  ``0.5-0``
 
       
 
@@ -83,7 +83,7 @@ query_phenomizer
 
     <script>
         var package = "query_phenomizer";
-        var versions = ["1.2","0.5","0.5"];
+        var versions = ["1.2.1","1.2","0.5","0.5"];
     </script>
 
 
