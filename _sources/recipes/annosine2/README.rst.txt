@@ -10,9 +10,9 @@ annosine2
    :replaces_section_title:
    :noindex:
 
-   AnnoSINE2 \- SINE Annotation Tool for Plant and Animal Genomes
+   AnnoSINE\_v2 \- SINE Annotation Tool for Plant and Animal Genomes
 
-   :homepage: https://github.com/liaoherui/AnnoSINE
+   :homepage: https://github.com/liaoherui/AnnoSINE_v2
    :license: MIT / MIT
    :recipe: /`annosine2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annosine2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annosine2/meta.yaml>`_
 
@@ -27,29 +27,29 @@ annosine2
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
-   :depends cd-hit: ``4.8.1``
-   :depends cycler: ``0.10.0``
-   :depends hmmer: ``3.3.1``
-   :depends irf: ``3.08``
+   :depends cd-hit: 
+   :depends cycler: 
+   :depends hmmer: 
+   :depends irf: 
    :depends kiwisolver: 
    :depends matplotlib-base: 
-   :depends minimap2: ``2.26``
-   :depends nodejs: ``18.12.1``
+   :depends minimap2: 
+   :depends nodejs: 
    :depends numpy: 
    :depends pandas: 
    :depends pillow: 
    :depends pyparsing: 
    :depends python: 
    :depends python-dateutil: 
-   :depends repeatmasker: ``4.1.2.p1``
-   :depends seqtk: ``1.4``
+   :depends repeatmasker: 
+   :depends seqtk: 
    :depends six: 
-   :depends trf: ``4.09``
+   :depends trf: 
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +97,7 @@ annosine2
 
     <script>
         var package = "annosine2";
-        var versions = ["1.0.4","1.0.4"];
+        var versions = ["1.0.5","1.0.4","1.0.4"];
     </script>
 
 
