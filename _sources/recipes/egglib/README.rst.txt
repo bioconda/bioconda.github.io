@@ -16,9 +16,9 @@ egglib
    :documentation: https://www.egglib.org/index.html
    
    :developer docs: https://gitlab.com/demita/egglib/
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`egglib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egglib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egglib/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1111/1755-0998.13672`
+   :links: doi: :doi:`10.1111/1755-0998.13672`, biotools: :biotools:`egglib`
 
    
 
@@ -31,11 +31,12 @@ egglib
       
       
 
-      ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0b21-1``,  ``3.0.0b21-0``
+      ``3.3.1-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0b21-1``,  ``3.0.0b21-0``
 
       
 
    
+   :depends click: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends platformdirs: 
@@ -88,7 +89,7 @@ egglib
 
     <script>
         var package = "egglib";
-        var versions = ["3.3.0","3.1.0","3.1.0","3.1.0","3.0.0b21"];
+        var versions = ["3.3.1","3.3.0","3.1.0","3.1.0","3.1.0"];
     </script>
 
 

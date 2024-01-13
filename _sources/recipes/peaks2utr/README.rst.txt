@@ -28,7 +28,7 @@ peaks2utr
       
       
 
-      ``1.2.0-0``
+      ``1.2.2-0``,  ``1.2.0-0``
 
       
 
@@ -93,7 +93,7 @@ peaks2utr
 
     <script>
         var package = "peaks2utr";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.2","1.2.0"];
     </script>
 
 

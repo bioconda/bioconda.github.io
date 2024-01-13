@@ -27,7 +27,7 @@ snakemake-executor-plugin-slurm
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``
+      ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-executor-plugin-slurm
 
     <script>
         var package = "snakemake-executor-plugin-slurm";
-        var versions = ["0.1.5","0.1.4"];
+        var versions = ["0.2.0","0.1.5","0.1.4"];
     </script>
 
 

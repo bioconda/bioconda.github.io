@@ -27,19 +27,18 @@ r-corncob
       
       
 
-      ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.4.1-0``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
-   :depends bioconductor-phyloseq: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-detectseparation: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-numderiv: 
-   :depends r-optimr: 
+   :depends r-rlang: 
    :depends r-scales: 
    :depends r-trust: 
    :depends r-vgam: 
@@ -90,7 +89,7 @@ r-corncob
 
     <script>
         var package = "r-corncob";
-        var versions = ["0.3.2","0.3.1","0.3.1","0.3.1","0.3.0"];
+        var versions = ["0.4.1","0.3.2","0.3.1","0.3.1","0.3.1"];
     </script>
 
 

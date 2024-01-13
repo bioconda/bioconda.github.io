@@ -138,7 +138,7 @@ snakemake
    :depends nbformat: 
    :depends packaging: 
    :depends psutil: 
-   :depends pulp: ``>=2.0``
+   :depends pulp: ``>=2.0,<2.8.0``
    :depends python: ``>=3.11,<3.13``
    :depends pyyaml: 
    :depends requests: ``>=2.8.1``
