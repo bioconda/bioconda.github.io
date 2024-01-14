@@ -28,7 +28,7 @@ braker3
       
       
 
-      ``3.0.6-0``,  ``3.0.3-0``
+      ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.3-0``
 
       
 
@@ -38,6 +38,7 @@ braker3
    :depends biopython: 
    :depends blast: ``>=2.12.0``
    :depends cdbtools: ``>=0.99``
+   :depends compleasm: 
    :depends diamond: ``>=2.1.6``
    :depends exonerate: ``>=2.2.0``
    :depends genomethreader: ``>=1.7.0``
@@ -65,6 +66,7 @@ braker3
    :depends python: ``>=3.7``
    :depends samtools: ``>=1.14``
    :depends spaln: ``>=2.4.8``
+   :depends tsebra: 
    :requirements:
 
    .. rubric:: Installation
@@ -112,7 +114,7 @@ braker3
 
     <script>
         var package = "braker3";
-        var versions = ["3.0.6","3.0.3"];
+        var versions = ["3.0.7","3.0.6","3.0.3"];
     </script>
 
 

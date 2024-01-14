@@ -13,7 +13,7 @@ bellmans-gapc
    A language and compiler for algebraic dynamic programming.
 
    :homepage: https://bibiserv.cebitec.uni-bielefeld.de/gapc
-   :license: GPLv3+
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bellmans-gapc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bellmans-gapc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bellmans-gapc/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ bellmans-gapc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2023.07.05-0</code>,  <code>2022.07.04-2</code>,  <code>2022.07.04-1</code>,  <code>2022.07.04-0</code>,  <code>2021.04.28-2</code>,  <code>2021.04.28-1</code>,  <code>2021.04.28-0</code>,  <code>2020.12.08-1</code>,  <code>2020.12.08-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2024.01.12-0</code>,  <code>2023.07.05-0</code>,  <code>2022.07.04-2</code>,  <code>2022.07.04-1</code>,  <code>2022.07.04-0</code>,  <code>2021.04.28-2</code>,  <code>2021.04.28-1</code>,  <code>2021.04.28-0</code>,  <code>2020.12.08-1</code>,  </span></summary>
       
 
-      ``2023.07.05-0``,  ``2022.07.04-2``,  ``2022.07.04-1``,  ``2022.07.04-0``,  ``2021.04.28-2``,  ``2021.04.28-1``,  ``2021.04.28-0``,  ``2020.12.08-1``,  ``2020.12.08-0``,  ``2020.07.07-0``,  ``2020.01.08-1``,  ``2020.01.08-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``2024.01.12-0``,  ``2023.07.05-0``,  ``2022.07.04-2``,  ``2022.07.04-1``,  ``2022.07.04-0``,  ``2021.04.28-2``,  ``2021.04.28-1``,  ``2021.04.28-0``,  ``2020.12.08-1``,  ``2020.12.08-0``,  ``2020.07.07-0``,  ``2020.01.08-1``,  ``2020.01.08-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ bellmans-gapc
 
     <script>
         var package = "bellmans-gapc";
-        var versions = ["2023.07.05","2022.07.04","2022.07.04","2022.07.04","2021.04.28"];
+        var versions = ["2024.01.12","2023.07.05","2022.07.04","2022.07.04","2022.07.04"];
     </script>
 
 
