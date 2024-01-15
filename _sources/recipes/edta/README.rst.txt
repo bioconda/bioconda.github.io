@@ -13,8 +13,11 @@ edta
    Extensive de\-novo TE Annotator
 
    :homepage: https://github.com/oushujun/EDTA
-   :license: GPL / GPL-3.0-only
+   :documentation: https://github.com/oushujun/EDTA/wiki
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`edta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edta/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-019-1905-y`, doi: :doi:`10.1101/2022.10.09.511471`, biotools: :biotools:`EDTA`, usegalaxy-eu: :usegalaxy-eu:`edta`
 
    
 
@@ -28,10 +31,10 @@ edta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.6-2</code>,  <code>1.9.6-1</code>,  <code>1.9.6-0</code>,  <code>1.9.5-0</code>,  <code>1.9.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.6-2</code>,  <code>1.9.6-1</code>,  <code>1.9.6-0</code>,  <code>1.9.5-0</code>,  </span></summary>
       
 
-      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+      ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
 
       
       .. raw:: html
@@ -40,6 +43,8 @@ edta
       
 
    
+   :depends annosine2: 
+   :depends bedtools: 
    :depends biopython: 
    :depends blast: 
    :depends cd-hit: 
@@ -47,22 +52,29 @@ edta
    :depends genericrepeatfinder: 
    :depends genometools-genometools: 
    :depends glob2: 
-   :depends h5py: ``<3``
-   :depends keras: ``>=2.2.4``
+   :depends h5py: 
+   :depends hmmer: 
+   :depends irfinder: 
+   :depends keras: 
    :depends ltr_finder: 
    :depends ltr_retriever: 
+   :depends matplotlib-base: 
    :depends mdust: 
+   :depends minimap2: 
    :depends multiprocess: 
    :depends muscle: 
+   :depends nodejs: 
    :depends openjdk: 
    :depends pandas: 
    :depends perl: 
    :depends perl-text-soundex: 
-   :depends python: ``<3.7``
+   :depends python: ``>=3.8``
    :depends regex: 
    :depends repeatmodeler: 
-   :depends scikit-learn: ``>=0.19.0``
-   :depends tensorflow: ``1.14``
+   :depends scikit-learn: 
+   :depends seqtk: 
+   :depends swifter: 
+   :depends tensorflow: 
    :depends tesorter: 
    :requirements:
 
@@ -111,7 +123,7 @@ edta
 
     <script>
         var package = "edta";
-        var versions = ["2.1.0","2.1.0","2.0.1","2.0.0","1.9.6"];
+        var versions = ["2.2.0","2.1.0","2.1.0","2.0.1","2.0.0"];
     </script>
 
 

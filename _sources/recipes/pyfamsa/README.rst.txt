@@ -15,7 +15,7 @@ pyfamsa
    :homepage: https://github.com/althonos/pyfamsa
    :documentation: https://pyfamsa.readthedocs.org/
    
-   :license: GPL / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pyfamsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfamsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfamsa/meta.yaml>`_
 
    
