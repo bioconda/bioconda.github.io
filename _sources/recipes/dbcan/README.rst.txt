@@ -31,7 +31,7 @@ dbcan
       
       
 
-      ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+      ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
 
@@ -39,8 +39,10 @@ dbcan
    :depends biopython: 
    :depends diamond: 
    :depends hmmer: 
+   :depends matplotlib-base: 
    :depends natsort: 
    :depends numpy: ``>1.19``
+   :depends openpyxl: 
    :depends pandas: 
    :depends prodigal: 
    :depends psutil: 
@@ -95,7 +97,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["4.1.1","4.1.0","4.0.0","3.0.7","3.0.6"];
+        var versions = ["4.1.2","4.1.1","4.1.0","4.0.0","3.0.7"];
     </script>
 
 

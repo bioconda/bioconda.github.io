@@ -30,7 +30,7 @@ haptools
       
       
 
-      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -39,8 +39,9 @@ haptools
    :depends cyvcf2: ``>=0.30.14``
    :depends matplotlib-base: ``>=3.5.1``
    :depends numpy: ``>=1.20.0``
+   :depends pgenlib: ``>=0.90.1``
    :depends pysam: ``>=0.19.0``
-   :depends python: ``>=3.7,<3.11``
+   :depends python: ``>=3.7,<4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +89,7 @@ haptools
 
     <script>
         var package = "haptools";
-        var versions = ["0.3.0","0.2.1","0.2.0","0.1.3","0.1.2"];
+        var versions = ["0.4.0","0.3.0","0.2.1","0.2.0","0.1.3"];
     </script>
 
 

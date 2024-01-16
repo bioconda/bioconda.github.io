@@ -13,8 +13,11 @@ polypolish
    Polishing genome assemblies with short reads.
 
    :homepage: https://github.com/rrwick/Polypolish
-   :license: GPL / GPLv3
+   :documentation: https://github.com/rrwick/Polypolish/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`polypolish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/polypolish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/polypolish/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pcbi.1009802`, biotools: :biotools:`polypolish`
 
    
 
@@ -27,7 +30,7 @@ polypolish
       
       
 
-      ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.6.0-0``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
@@ -82,7 +85,7 @@ polypolish
 
     <script>
         var package = "polypolish";
-        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.6.0","0.5.0","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

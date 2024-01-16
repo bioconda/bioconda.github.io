@@ -32,7 +32,7 @@ evigene
       
       
 
-      ``23.7.15-0``
+      ``23.7.15-1``,  ``23.7.15-0``
 
       
 
@@ -88,7 +88,7 @@ evigene
 
     <script>
         var package = "evigene";
-        var versions = ["23.7.15"];
+        var versions = ["23.7.15","23.7.15"];
     </script>
 
 

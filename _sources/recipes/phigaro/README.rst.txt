@@ -12,7 +12,9 @@ phigaro
 
    Phigaro is a scalable command\-line tool for predicting phages and prophages.
 
-   :homepage: https://phigaro.readthedocs.io/
+   :homepage: https://github.com/bobeobibo/phigaro
+   :documentation: https://phigaro.readthedocs.io/
+   
    :license: MIT / MIT
    :recipe: /`phigaro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phigaro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phigaro/meta.yaml>`_
 
@@ -27,12 +29,11 @@ phigaro
       
       
 
-      ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.6-0``
+      ``2.4.0-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.6-0``
 
       
 
    
-   :depends argparse: 
    :depends beautifulsoup4: ``>=4.4.0``
    :depends biopython: 
    :depends bs4: 
@@ -43,7 +44,7 @@ phigaro
    :depends pandas: ``>=0.23.4``
    :depends plotly: 
    :depends prodigal: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.6,<=3.11.7``
    :depends pyyaml: ``>=5.1``
    :depends sh: 
    :depends six: ``>=1.7.0``
@@ -94,7 +95,7 @@ phigaro
 
     <script>
         var package = "phigaro";
-        var versions = ["2.3.0","2.3.0","2.2.6"];
+        var versions = ["2.4.0","2.3.0","2.3.0","2.2.6"];
     </script>
 
 
