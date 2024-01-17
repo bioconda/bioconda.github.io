@@ -27,14 +27,14 @@ snakemake-executor-plugin-slurm-jobstep
       
       
 
-      ``0.1.9-0``,  ``0.1.8-0``
+      ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``
 
       
 
    
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.13.0,<2.0.0``
-   :depends snakemake-interface-executor-plugins: ``>=8.0.2,<9.0.0``
+   :depends snakemake-interface-executor-plugins: ``>=8.2.0,<9.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ snakemake-executor-plugin-slurm-jobstep
 
     <script>
         var package = "snakemake-executor-plugin-slurm-jobstep";
-        var versions = ["0.1.9","0.1.8"];
+        var versions = ["0.1.10","0.1.9","0.1.8"];
     </script>
 
 

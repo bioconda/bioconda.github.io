@@ -27,15 +27,15 @@ snakemake-executor-plugin-slurm
       
       
 
-      ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends python: ``>=3.11.0,<4.0.0``
-   :depends snakemake-executor-plugin-slurm-jobstep: ``>=0.1.5,<0.2.0``
+   :depends snakemake-executor-plugin-slurm-jobstep: ``>=0.1.10,<0.2.0``
    :depends snakemake-interface-common: ``>=1.13.0,<2.0.0``
-   :depends snakemake-interface-executor-plugins: ``>=8.0.2,<9.0.0``
+   :depends snakemake-interface-executor-plugins: ``>=8.2.0,<9.0.0``
    :depends throttler: ``>=1.2.2,<2.0.0``
    :requirements:
 
@@ -84,7 +84,7 @@ snakemake-executor-plugin-slurm
 
     <script>
         var package = "snakemake-executor-plugin-slurm";
-        var versions = ["0.2.0","0.1.5","0.1.4"];
+        var versions = ["0.2.1","0.2.0","0.1.5","0.1.4"];
     </script>
 
 

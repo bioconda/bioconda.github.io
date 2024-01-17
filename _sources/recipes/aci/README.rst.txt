@@ -29,7 +29,7 @@ aci
       
       
 
-      ``1.2.20231229-0``
+      ``1.4.20240116-0``,  ``1.2.20231229-0``
 
       
 
@@ -38,7 +38,7 @@ aci
    :depends numpy: ``>=1.26.2``
    :depends pandas: ``>=2.1.4``
    :depends pysam: ``>=0.22.0``
-   :depends python: ``>=3.7,<4.0``
+   :depends python: ``>=3.8,<4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ aci
 
     <script>
         var package = "aci";
-        var versions = ["1.2.20231229"];
+        var versions = ["1.4.20240116","1.2.20231229"];
     </script>
 
 

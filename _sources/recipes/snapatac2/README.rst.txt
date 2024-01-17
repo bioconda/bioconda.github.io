@@ -30,7 +30,7 @@ snapatac2
       
       
 
-      ``2.5.2-0``,  ``2.5.1-0``
+      ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
 
       
 
@@ -100,7 +100,7 @@ snapatac2
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.5.2","2.5.1"];
+        var versions = ["2.5.3","2.5.2","2.5.1"];
     </script>
 
 
