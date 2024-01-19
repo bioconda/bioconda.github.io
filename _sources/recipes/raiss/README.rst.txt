@@ -27,7 +27,7 @@ raiss
       
       
 
-      ``4.0-0``,  ``3.1-0``,  ``3.0-0``,  ``2.0-0``,  ``1.0-0``
+      ``4.0.1-0``,  ``4.0-0``,  ``3.1-0``,  ``3.0-0``,  ``2.0-0``,  ``1.0-0``
 
       
 
@@ -38,7 +38,7 @@ raiss
    :depends python: ``>=3.8``
    :depends python-dateutil: 
    :depends pytz: 
-   :depends scipy: 
+   :depends scipy: ``>=1.7.0``
    :depends six: 
    :depends tzdata: 
    :requirements:
@@ -88,7 +88,7 @@ raiss
 
     <script>
         var package = "raiss";
-        var versions = ["4.0","3.1","3.0","2.0","1.0"];
+        var versions = ["4.0.1","4.0","3.1","3.0","2.0"];
     </script>
 
 

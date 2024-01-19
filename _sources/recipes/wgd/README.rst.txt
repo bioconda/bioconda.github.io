@@ -28,10 +28,10 @@ wgd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.24-0</code>,  <code>2.0.23-0</code>,  <code>2.0.22-0</code>,  <code>2.0.21-0</code>,  <code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.18-0</code>,  <code>2.0.16-0</code>,  <code>2.0.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.25-0</code>,  <code>2.0.24-0</code>,  <code>2.0.23-0</code>,  <code>2.0.22-0</code>,  <code>2.0.21-0</code>,  <code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.18-0</code>,  <code>2.0.16-0</code>,  </span></summary>
       
 
-      ``2.0.24-0``,  ``2.0.23-0``,  ``2.0.22-0``,  ``2.0.21-0``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-0``
+      ``2.0.25-0``,  ``2.0.24-0``,  ``2.0.23-0``,  ``2.0.22-0``,  ``2.0.21-0``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ wgd
 
     <script>
         var package = "wgd";
-        var versions = ["2.0.24","2.0.23","2.0.22","2.0.21","2.0.20"];
+        var versions = ["2.0.25","2.0.24","2.0.23","2.0.22","2.0.21"];
     </script>
 
 

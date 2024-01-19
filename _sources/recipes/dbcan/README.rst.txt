@@ -31,12 +31,13 @@ dbcan
       
       
 
-      ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+      ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
 
    
    :depends biopython: 
+   :depends blast: 
    :depends diamond: 
    :depends hmmer: 
    :depends matplotlib-base: 
@@ -97,7 +98,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["4.1.2","4.1.1","4.1.0","4.0.0","3.0.7"];
+        var versions = ["4.1.3","4.1.2","4.1.1","4.1.0","4.0.0"];
     </script>
 
 
