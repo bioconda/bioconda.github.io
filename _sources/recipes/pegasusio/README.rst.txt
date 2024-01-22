@@ -15,7 +15,7 @@ pegasusio
    :homepage: https://github.com/lilab-bcb/pegasusio
    :documentation: https://pegasusio.readthedocs.io
    
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`pegasusio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegasusio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegasusio/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ pegasusio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``0.8.1-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1.post1-2``,  ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
+      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1.post1-2``,  ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ pegasusio
 
     <script>
         var package = "pegasusio";
-        var versions = ["0.8.1","0.8.0","0.8.0","0.8.0","0.7.1"];
+        var versions = ["0.9.0","0.8.1","0.8.0","0.8.0","0.8.0"];
     </script>
 
 

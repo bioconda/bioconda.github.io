@@ -13,6 +13,8 @@ parsnp
    Parsnp is a command\-line\-tool for efficient microbial core genome alignment and SNP detection.
 
    :homepage: https://github.com/marbl/parsnp
+   :documentation: https://harvest.readthedocs.io/en/latest/content/parsnp/tutorial.html
+   
    :license: custom; see https://raw.githubusercontent.com/marbl/parsnp/master/LICENSE
    :recipe: /`parsnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parsnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parsnp/meta.yaml>`_
 
@@ -28,10 +30,10 @@ parsnp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.4-2</code>,  <code>1.7.4-1</code>,  <code>1.7.4-0</code>,  <code>1.7.3-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>1.7.4-2</code>,  <code>1.7.4-1</code>,  <code>1.7.4-0</code>,  <code>1.7.3-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  </span></summary>
       
 
-      ``1.7.4-2``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
+      ``2.0.2-0``,  ``1.7.4-2``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
 
       
       .. raw:: html
@@ -47,13 +49,14 @@ parsnp
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends mafft: 
    :depends mash: 
    :depends numpy: 
    :depends openmp: 
    :depends phipack: 
+   :depends pyspoa: 
    :depends python: ``>=3.7``
    :depends raxml: 
+   :depends tqdm: 
    :depends zlib: 
    :requirements:
 
@@ -102,7 +105,7 @@ parsnp
 
     <script>
         var package = "parsnp";
-        var versions = ["1.7.4","1.7.4","1.7.4","1.7.3","1.7.2"];
+        var versions = ["2.0.2","1.7.4","1.7.4","1.7.4","1.7.3"];
     </script>
 
 

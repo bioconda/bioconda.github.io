@@ -13,7 +13,7 @@ galah
    Galah aims to be a more scalable metagenome assembled genome \(MAG\) dereplication method.
 
    :homepage: https://github.com/wwood/galah
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`galah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galah>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galah/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ galah
       
       
 
-      ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -82,7 +82,7 @@ galah
 
     <script>
         var package = "galah";
-        var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.0"];
+        var versions = ["0.4.0","0.3.1","0.3.1","0.3.1","0.3.1"];
     </script>
 
 

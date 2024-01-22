@@ -27,7 +27,7 @@ massdash
       
       
 
-      ``0.0.5-0``
+      ``0.0.6-0``,  ``0.0.5-0``
 
       
 
@@ -94,7 +94,7 @@ massdash
 
     <script>
         var package = "massdash";
-        var versions = ["0.0.5"];
+        var versions = ["0.0.6","0.0.5"];
     </script>
 
 
