@@ -48,7 +48,7 @@ biobb_pdb_tools
       
       
 
-      ``4.1.0-0``
+      ``4.1.1-0``,  ``4.1.0-0``
 
       
 
@@ -103,7 +103,7 @@ biobb_pdb_tools
 
     <script>
         var package = "biobb_pdb_tools";
-        var versions = ["4.1.0"];
+        var versions = ["4.1.1","4.1.0"];
     </script>
 
 

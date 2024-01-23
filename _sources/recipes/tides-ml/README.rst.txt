@@ -27,7 +27,7 @@ tides-ml
       
       
 
-      ``1.1.2-0``
+      ``1.1.3-0``,  ``1.1.2-0``
 
       
 
@@ -90,7 +90,7 @@ tides-ml
 
     <script>
         var package = "tides-ml";
-        var versions = ["1.1.2"];
+        var versions = ["1.1.3","1.1.2"];
     </script>
 
 
