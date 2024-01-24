@@ -27,7 +27,7 @@ crispector
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2b9-0``,  ``1.0.2b7-0``,  ``1.0.2b6-0``
+      ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2b9-0``,  ``1.0.2b7-0``,  ``1.0.2b6-0``
 
       
 
@@ -37,6 +37,7 @@ crispector
    :depends fastp: 
    :depends jinja2: 
    :depends matplotlib-base: ``>=3.1.2``
+   :depends mpmath: ``>=1.3.0``
    :depends numpy: ``>=1.12.1``
    :depends pandas: ``>=0.24.2``
    :depends plotly: ``>=4.3.0``
@@ -93,7 +94,7 @@ crispector
 
     <script>
         var package = "crispector";
-        var versions = ["1.0.4","1.0.3","1.0.2b9","1.0.2b7","1.0.2b6"];
+        var versions = ["1.0.7","1.0.4","1.0.3","1.0.2b9","1.0.2b7"];
     </script>
 
 

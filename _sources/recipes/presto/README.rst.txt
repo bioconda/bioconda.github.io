@@ -12,8 +12,10 @@ presto
 
    A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data.
 
-   :homepage: https://presto.readthedocs.io
-   :license: AGPL / AGPL-3.0
+   :homepage: https://bitbucket.org/kleinstein/presto
+   :documentation: https://presto.readthedocs.io
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`presto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/presto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/presto/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ presto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.13-1</code>,  <code>0.5.13-0</code>,  <code>0.5.12-0</code>,  <code>0.5.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.13-1</code>,  <code>0.5.13-0</code>,  <code>0.5.12-0</code>,  </span></summary>
       
 
-      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.10-0``,  ``0.5.4-1``,  ``0.5.4-0``
+      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.10-0``,  ``0.5.4-1``,  ``0.5.4-0``
 
       
       .. raw:: html
@@ -44,6 +46,7 @@ presto
    :depends blast: ``>=2.5``
    :depends muscle: ``>=3.8``
    :depends numpy: ``>=1.8``
+   :depends packaging: 
    :depends pandas: ``>=0.24``
    :depends python: ``>=3``
    :depends scipy: ``>=0.14``
@@ -95,7 +98,7 @@ presto
 
     <script>
         var package = "presto";
-        var versions = ["0.7.1","0.7.0","0.6.2","0.6.1","0.6.0"];
+        var versions = ["0.7.2","0.7.1","0.7.0","0.6.2","0.6.1"];
     </script>
 
 

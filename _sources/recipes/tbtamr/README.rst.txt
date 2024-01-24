@@ -27,7 +27,7 @@ tbtamr
       
       
 
-      ``0.0.4-0``
+      ``0.0.4-1``,  ``0.0.4-0``
 
       
 
@@ -41,9 +41,12 @@ tbtamr
    :depends pandas: 
    :depends psutil: 
    :depends python: ``>=3.8``
+   :depends requests: 
    :depends samclip: 
    :depends samtools: ``1.12.*``
    :depends snpeff: ``5.0.*``
+   :depends tqdm: 
+   :depends xlsxwriter: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +94,7 @@ tbtamr
 
     <script>
         var package = "tbtamr";
-        var versions = ["0.0.4"];
+        var versions = ["0.0.4","0.0.4"];
     </script>
 
 
