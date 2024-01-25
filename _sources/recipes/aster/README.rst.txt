@@ -14,7 +14,7 @@ aster
    for species tree inference implemented in C\+\+
 
    :homepage: https://github.com/chaoszhang/ASTER
-   :license: AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`aster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aster/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ aster
       
       
 
-      ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
+      ``1.16-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
 
       
 
@@ -82,7 +82,7 @@ aster
 
     <script>
         var package = "aster";
-        var versions = ["1.15","1.15","1.15","1.13","1.13"];
+        var versions = ["1.16","1.15","1.15","1.15","1.13"];
     </script>
 
 

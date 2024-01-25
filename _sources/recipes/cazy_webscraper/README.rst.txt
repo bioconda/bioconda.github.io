@@ -14,7 +14,7 @@ cazy_webscraper
 
    :homepage: https://hobnobmancer.github.io/cazy_webscraper/
    :developer docs: https://github.com/HobnobMancer/cazy_webscraper
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`cazy_webscraper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cazy_webscraper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cazy_webscraper/meta.yaml>`_
    :links: doi: :doi:`10.1101/2022.12.02.518825`
 
@@ -28,9 +28,17 @@ cazy_webscraper
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.0-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.0.2-0</code>,  <code>2.3.0-0</code>,  <code>2.2.8-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3.1-0</code>,  </span></summary>
+      
 
+      ``2.3.0.2-0``,  ``2.3.0-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -95,7 +103,7 @@ cazy_webscraper
 
     <script>
         var package = "cazy_webscraper";
-        var versions = ["2.3.0","2.2.8","2.2.7","2.2.6","2.2.2"];
+        var versions = ["2.3.0.2","2.3.0","2.2.8","2.2.7","2.2.6"];
     </script>
 
 

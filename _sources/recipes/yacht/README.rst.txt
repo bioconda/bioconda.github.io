@@ -15,7 +15,7 @@ yacht
    :homepage: https://github.com/KoslickiLab/YACHT
    :documentation: https://github.com/KoslickiLab/YACHT/wiki
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`yacht <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.04.18.537298`
 
@@ -30,7 +30,7 @@ yacht
       
       
 
-      ``1.1.0-0``,  ``1.0-0``
+      ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
 
       
 
@@ -97,7 +97,7 @@ yacht
 
     <script>
         var package = "yacht";
-        var versions = ["1.1.0","1.0"];
+        var versions = ["1.2.1","1.1.0","1.0"];
     </script>
 
 

@@ -28,14 +28,14 @@ sativa
       
       
 
-      ``0.9.1-1``,  ``0.9.1-0``
+      ``0.9.3-0``,  ``0.9.1-1``,  ``0.9.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ sativa
 
     <script>
         var package = "sativa";
-        var versions = ["0.9.1","0.9.1"];
+        var versions = ["0.9.3","0.9.1","0.9.1"];
     </script>
 
 

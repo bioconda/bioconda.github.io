@@ -10,7 +10,7 @@ icescreen
    :replaces_section_title:
    :noindex:
 
-   ICEscreen detects and annotates ICEs \(Integrative and Conjugative Elements\) and IMEs \(Integrative and Mobilizable Elements\) in Firmicutes genomes.
+   ICEscreen detects and annotates ICEs \(Integrative and Conjugative Elements\) and IMEs \(Integrative and Mobilizable Elements\) in Bacillota genomes.
 
    :homepage: https://forgemia.inra.fr/ices_imes_analysis/icescreen
    :documentation: icescreen.migale.inrae.fr
@@ -30,10 +30,10 @@ icescreen
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,13 +42,13 @@ icescreen
       
 
    
-   :depends bcbio-gff: ``>=0.7.0``
-   :depends biopython: ``>=1.81``
+   :depends bcbio-gff: ``0.7.0.*``
+   :depends biopython: ``1.81.*``
    :depends blast: ``2.12.*``
    :depends hmmer: ``3.3.2.*``
-   :depends pandas: ``>=2.0.0``
+   :depends pandas: ``>=2.1.0``
    :depends python: 
-   :depends snakemake-minimal: ``>=7.25.0``
+   :depends snakemake-minimal: ``>=7.32``
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +96,7 @@ icescreen
 
     <script>
         var package = "icescreen";
-        var versions = ["1.2.0","1.1.1","1.1.0","1.0.4","1.0.4"];
+        var versions = ["1.3.1","1.2.0","1.1.1","1.1.0","1.0.4"];
     </script>
 
 

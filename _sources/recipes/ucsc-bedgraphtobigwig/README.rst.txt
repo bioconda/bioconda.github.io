@@ -28,10 +28,10 @@ ucsc-bedgraphtobigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>445-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-4</code>,  <code>357-3</code>,  <code>357-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>455-0</code>,  <code>445-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-4</code>,  <code>357-3</code>,  </span></summary>
       
 
-      ``445-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``,  ``308-1``,  ``308-0``
+      ``455-0``,  ``445-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``,  ``308-1``,  ``308-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ ucsc-bedgraphtobigwig
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=1.1.1t,<1.1.2a``
+   :depends openssl: ``>=3.2.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +94,7 @@ ucsc-bedgraphtobigwig
 
     <script>
         var package = "ucsc-bedgraphtobigwig";
-        var versions = ["445","377","377","377","377"];
+        var versions = ["455","445","377","377","377"];
     </script>
 
 

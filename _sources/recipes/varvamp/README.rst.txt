@@ -28,10 +28,10 @@ varvamp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0-0</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1-0</code>,  <code>1.0.1-0</code>,  <code>1.0-0</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  </span></summary>
       
 
-      ``1.0.1-0``,  ``1.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.3-0``,  ``0.4-0``
+      ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.3-0``,  ``0.4-0``
 
       
       .. raw:: html
@@ -95,7 +95,7 @@ varvamp
 
     <script>
         var package = "varvamp";
-        var versions = ["1.0.1","1.0","0.9.5","0.9.4","0.9.3"];
+        var versions = ["1.1","1.0.1","1.0","0.9.5","0.9.4"];
     </script>
 
 
