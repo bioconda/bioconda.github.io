@@ -27,11 +27,37 @@ memote
       
       
 
-      
+      ``0.17.0-0``
 
       
 
    
+   :depends click: 
+   :depends click-configfile: 
+   :depends click-log: 
+   :depends cobra: ``>=0.28``
+   :depends cookiecutter: 
+   :depends depinfo: ``>=2.2``
+   :depends future: 
+   :depends git: 
+   :depends gitpython: 
+   :depends importlib_resources: 
+   :depends jinja2: 
+   :depends jsonschema: 
+   :depends numpy: 
+   :depends numpydoc: 
+   :depends optlang: ``>=1.8``
+   :depends pandas: 
+   :depends pandera: 
+   :depends pygithub: ``<2``
+   :depends pylru: 
+   :depends pytest: 
+   :depends python: ``>=3.9,<=3.11``
+   :depends requests: 
+   :depends ruamel.yaml: 
+   :depends six: 
+   :depends sqlalchemy: 
+   :depends sympy: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +105,7 @@ memote
 
     <script>
         var package = "memote";
-        var versions = [];
+        var versions = ["0.17.0"];
     </script>
 
 
