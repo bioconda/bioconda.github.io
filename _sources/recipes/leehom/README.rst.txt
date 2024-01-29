@@ -33,7 +33,7 @@ leehom
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgab: ``>=1.0.5``
    :depends libgab: ``>=1.0.5,<1.1.0a0``
    :depends libgcc-ng: ``>=12``

@@ -40,7 +40,7 @@ perl-bio-db-hts
       
 
    
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``

@@ -51,7 +51,7 @@ nanosim
    :depends pysam: ``>=0.13``
    :depends python: 
    :depends samtools: 
-   :depends scikit-learn: ``>=0.20.0,<=0.22.1``
+   :depends scikit-learn: ``>=0.20.0``
    :depends scipy: ``>=1.0.0``
    :depends six: ``>=1.10.0``
    :requirements:

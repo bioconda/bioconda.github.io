@@ -41,7 +41,7 @@ mmult
    :depends r-gridextra: 
    :depends rapidjson: 
    :depends sundials: ``>=5.3.0,<5.4.0a0``
-   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends tbb: ``>=2020.2``
    :depends tbb-devel: 
    :requirements:
 

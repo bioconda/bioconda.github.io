@@ -45,7 +45,7 @@ expansionhunter
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fmt: ``>=9.1.0,<10.0a0``
    :depends gtest: ``>=1.14.0,<1.14.1.0a0``
-   :depends htslib: ``>=1.18,<1.20.0a0``
+   :depends htslib: ``>=1.18,<1.19.0a0``
    :depends libcurl: ``>=8.4.0,<9.0a0``
    :depends libdeflate: ``>=1.18,<1.19.0a0``
    :depends libgcc-ng: ``>=12``

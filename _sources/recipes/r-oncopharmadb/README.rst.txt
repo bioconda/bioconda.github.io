@@ -27,7 +27,7 @@ r-oncopharmadb
       
       
 
-      ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.7-0``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``1.5.1-0``,  ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.7-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -36,6 +36,7 @@ r-oncopharmadb
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
+   :depends r-ggplot2: 
    :depends r-googledrive: 
    :depends r-lgr: 
    :depends r-magrittr: 
@@ -89,7 +90,7 @@ r-oncopharmadb
 
     <script>
         var package = "r-oncopharmadb";
-        var versions = ["1.4.6","1.4.4","1.3.7","0.0.1","0.0.1"];
+        var versions = ["1.5.1","1.4.6","1.4.4","1.3.7","0.0.1"];
     </script>
 
 

@@ -46,7 +46,7 @@ smeg
    :depends bowtie2: 
    :depends libgenome: 
    :depends mauve: 
-   :depends openssl: ``>=1.1.0,<=1.1.1``
+   :depends openssl: 
    :depends parallel: 
    :depends prokka: 
    :depends r-ape: 

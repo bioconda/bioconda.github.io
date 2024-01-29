@@ -10,7 +10,7 @@ aletsch
    :replaces_section_title:
    :noindex:
 
-   Aletsch is a scalable\, accurate\, and versatile assembler for multiple RNA\-seq samples.
+   Aletsch is an accurate\, versatile assembler for multiple RNA\-seq samples.
 
    :homepage: https://github.com/Shao-Group/aletsch
    :license: BSD-3-Clause
@@ -26,14 +26,22 @@ aletsch
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
+      
 
+      ``1.1.0-0``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends htslib: ``>=1.19.1,<1.20.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -83,7 +91,7 @@ aletsch
 
     <script>
         var package = "aletsch";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.1.0","1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

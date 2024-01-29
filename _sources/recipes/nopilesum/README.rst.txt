@@ -32,7 +32,7 @@ nopilesum
       
 
    
-   :depends htslib: ``>=1.15,<1.20.0a0``
+   :depends htslib: ``>=1.15,<1.16.0a0``
    :depends ldc: ``>=1.28.1,<2.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :requirements:

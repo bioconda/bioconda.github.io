@@ -35,7 +35,7 @@ dysgu
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends click: ``>=8.0``
    :depends cython: 
-   :depends htslib: ``>=1.18,<1.20.0a0``
+   :depends htslib: ``>=1.18,<1.19.0a0``
    :depends libcurl: ``>=8.4.0,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

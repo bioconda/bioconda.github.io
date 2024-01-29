@@ -35,7 +35,7 @@ ucsc-expmatrixtobarchartbed
    :depends libpng: 
    :depends libuuid: 
    :depends mysql-connector-c: 
-   :depends openssl: ``>=1.1.0,<=1.1.1``
+   :depends openssl: 
    :depends python: 
    :depends zlib: 
    :requirements:

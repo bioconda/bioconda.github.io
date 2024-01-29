@@ -27,7 +27,7 @@ syri
       
       
 
-      ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
+      ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
 
       
 
@@ -35,16 +35,17 @@ syri
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends longestrunsubsequence: 
-   :depends numpy: ``>=1.20``
-   :depends numpy: ``>=1.24.3,<2.0a0``
-   :depends pandas: 
-   :depends psutil: 
+   :depends mummer4: 
+   :depends numpy: ``>=1.21.2``
+   :depends numpy: ``>=1.24.4,<2.0a0``
+   :depends pandas: ``>=1.2.4``
+   :depends psutil: ``>=5.8``
    :depends pulp: 
-   :depends pysam: 
+   :depends pysam: ``>=0.16.0.1``
    :depends python: ``>=3.8,<3.9.0a0``
-   :depends python-igraph: 
+   :depends python-igraph: ``>=0.9.1``
    :depends python_abi: ``3.8.* *_cp38``
-   :depends scipy: 
+   :depends scipy: ``>=1.6.2``
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +93,7 @@ syri
 
     <script>
         var package = "syri";
-        var versions = ["1.6.3","1.6.3","1.6","1.6","1.5.4"];
+        var versions = ["1.6.3","1.6.3","1.6.3","1.6","1.6"];
     </script>
 
 

@@ -43,7 +43,7 @@ reparation_blast
    :depends biopython: ``1.77.*``
    :depends blast: 
    :depends glimmer: 
-   :depends openssl: ``>=1.1.0,<=1.1.1``
+   :depends openssl: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bioperl: ``>=1.7.2``
    :depends perl-posix: 

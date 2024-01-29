@@ -27,7 +27,7 @@ pycov3
       
       
 
-      ``2.0.4b0-0``
+      ``2.1.0-0``,  ``2.0.4b0-0``
 
       
 
@@ -80,7 +80,7 @@ pycov3
 
     <script>
         var package = "pycov3";
-        var versions = ["2.0.4b0"];
+        var versions = ["2.1.0","2.0.4b0"];
     </script>
 
 
