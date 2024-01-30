@@ -12,7 +12,7 @@ annembed
 
    annembed is an ultra\-fast and scalable non\-linear dimension reduction algorithm \(similar to UMAP or t\-SNE\) for large\-scale biological data
 
-   :homepage: https://github.com/jean-pierreBoth/gsearch
+   :homepage: https://github.com/jianshu93/annembed
    :license: MIT
    :recipe: /`annembed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annembed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annembed/meta.yaml>`_
 

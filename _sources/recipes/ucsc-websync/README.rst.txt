@@ -35,7 +35,7 @@ ucsc-websync
    :depends libpng: 
    :depends libuuid: 
    :depends mysql-connector-c: 
-   :depends openssl: 
+   :depends openssl: ``>=1.1.0,<=1.1.1``
    :depends python: 
    :depends zlib: 
    :requirements:

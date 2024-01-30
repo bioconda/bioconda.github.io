@@ -29,10 +29,10 @@ locarna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>2.0.0RC10-1</code>,  <code>2.0.0RC10-0</code>,  <code>2.0.0RC8-2</code>,  <code>2.0.0RC8-1</code>,  <code>2.0.0RC8-0</code>,  <code>2.0.0RC6-2</code>,  <code>2.0.0RC6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>2.0.0RC10-1</code>,  <code>2.0.0RC10-0</code>,  <code>2.0.0RC8-2</code>,  <code>2.0.0RC8-1</code>,  <code>2.0.0RC8-0</code>,  <code>2.0.0RC6-2</code>,  </span></summary>
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``2.0.0RC10-1``,  ``2.0.0RC10-0``,  ``2.0.0RC8-2``,  ``2.0.0RC8-1``,  ``2.0.0RC8-0``,  ``2.0.0RC6-2``,  ``2.0.0RC6-1``,  ``2.0.0RC6-0``,  ``1.9.2.3-2``,  ``1.9.2.3-1``,  ``1.9.2.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-2``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.12-0``,  ``1.8.11-1``,  ``1.8.10-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.7-1``,  ``1.8.7-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``2.0.0RC10-1``,  ``2.0.0RC10-0``,  ``2.0.0RC8-2``,  ``2.0.0RC8-1``,  ``2.0.0RC8-0``,  ``2.0.0RC6-2``,  ``2.0.0RC6-1``,  ``2.0.0RC6-0``,  ``1.9.2.3-2``,  ``1.9.2.3-1``,  ``1.9.2.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-2``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.12-0``,  ``1.8.11-1``,  ``1.8.10-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.7-1``,  ``1.8.7-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ locarna
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends perl: 
-   :depends viennarna: ``2.5.1``
-   :depends viennarna: ``>=2.5.1,<2.6.0a0``
+   :depends viennarna: ``>=2.5.1,<3``
+   :depends viennarna: ``>=2.6.4,<2.7.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +93,7 @@ locarna
 
     <script>
         var package = "locarna";
-        var versions = ["2.0.0","2.0.0","2.0.0RC10","2.0.0RC10","2.0.0RC8"];
+        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0RC10","2.0.0RC10"];
     </script>
 
 

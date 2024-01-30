@@ -35,7 +35,7 @@ hmnqc
    :depends biopython: 
    :depends cnvkit: 
    :depends openpyxl: 
-   :depends openssl: 
+   :depends openssl: ``>=1.1.0,<=1.1.1``
    :depends pandas: 
    :depends pysam: 
    :depends python: 

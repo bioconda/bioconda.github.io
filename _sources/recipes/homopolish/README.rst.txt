@@ -89,7 +89,7 @@ homopolish
    :depends ncurses: ``>=6.3``
    :depends numpy: ``1.18.5.*``
    :depends numpy-base: ``1.18.5.*``
-   :depends openssl: ``>=1.1.1q``
+   :depends openssl: ``>=1.1.0,<=1.1.1``
    :depends pandas: ``>=0.23.4``
    :depends parquet-cpp: ``>=1.5.1``
    :depends pyarrow: ``>=0.15.1``

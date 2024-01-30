@@ -33,7 +33,7 @@ biobasehttptools
 
    
    :depends ca-certificates: 
-   :depends openssl: 
+   :depends openssl: ``>=1.1.0,<=1.1.1``
    :requirements:
 
    .. rubric:: Installation

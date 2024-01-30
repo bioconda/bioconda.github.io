@@ -47,7 +47,7 @@ cgat-apps
    :depends coreutils: 
    :depends future: 
    :depends grep: 
-   :depends htslib: ``>=1.16,<1.17.0a0``
+   :depends htslib: ``>=1.16,<1.20.0a0``
    :depends jinja2: 
    :depends libcxx: ``>=14.0.4``
    :depends matplotlib-base: 

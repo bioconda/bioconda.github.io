@@ -27,7 +27,7 @@ ccsmeth
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
 
@@ -40,7 +40,7 @@ ccsmeth
    :depends pysam: ``>=0.19.0``
    :depends pytabix: ``>=0.1``
    :depends python: ``>=3.8``
-   :depends pytorch: ``>=1.2.0,<=1.12.1``
+   :depends pytorch: ``>=1.2.0,<=2.1.0``
    :depends samtools: ``>=1.12``
    :depends scikit-learn: ``>=1.0.2``
    :depends setuptools: 
@@ -93,7 +93,7 @@ ccsmeth
 
     <script>
         var package = "ccsmeth";
-        var versions = ["0.4.1","0.4.0","0.3.4","0.3.2","0.3.1"];
+        var versions = ["0.5.0","0.4.1","0.4.0","0.3.4","0.3.2"];
     </script>
 
 

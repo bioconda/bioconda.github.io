@@ -13,6 +13,8 @@ binette
    A fast and accurate binning refinement tool to constructs high quality MAGs from the output of multiple binning tools.
 
    :homepage: https://github.com/genotoul-bioinfo/binette
+   :documentation: https://binette.readthedocs.io
+   
    :license: MIT / MIT
    :recipe: /`binette <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binette>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binette/meta.yaml>`_
 
@@ -27,20 +29,19 @@ binette
       
       
 
-      ``0.1.6-0``
+      ``0.1.7-0``,  ``0.1.6-0``
 
       
 
    
    :depends checkm2: 
    :depends diamond: ``2.0.4.*``
-   :depends networkx: 
+   :depends networkx: ``>=3``
    :depends numpy: ``1.19.2.*``
    :depends packaging: 
    :depends pandas: ``1.4.0.*``
-   :depends prodigal: ``2.6.3.*``
    :depends pyfastx: 
-   :depends pyrodigal: 
+   :depends pyrodigal: ``>=2``
    :depends python: ``>=3.7``
    :depends requests: 
    :depends tqdm: 
@@ -91,7 +92,7 @@ binette
 
     <script>
         var package = "binette";
-        var versions = ["0.1.6"];
+        var versions = ["0.1.7","0.1.6"];
     </script>
 
 

@@ -13,7 +13,7 @@ tksm
    Very modular\, very cool long\-read transcriptomic simulator
 
    :homepage: https://github.com/vpc-ccg/tksm
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`tksm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tksm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tksm/meta.yaml>`_
 
    
@@ -27,18 +27,18 @@ tksm
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.5.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
-   :depends fmt: ``>=10.0.0,<11.0a0``
+   :depends fmt: ``>=10.2.1,<11.0a0``
    :depends joblib: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends numpy: 
-   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: 
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: 
@@ -91,7 +91,7 @@ tksm
 
     <script>
         var package = "tksm";
-        var versions = ["0.3.2","0.3.1","0.3.0"];
+        var versions = ["0.5.0","0.3.2","0.3.1","0.3.0"];
     </script>
 
 

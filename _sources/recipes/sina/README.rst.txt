@@ -67,7 +67,7 @@ sina
    :depends libarbdb: ``6.0.6 haa8b8d8_8``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends tbb: ``>=2020.2``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
