@@ -15,7 +15,7 @@ mosca
    :homepage: https://github.com/iquasere/MOSCA
    :documentation: https://github.com/iquasere/MOSCA/wiki
    
-   :license: GPL / GNU General Public License v3 (GPL-3.0)
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`mosca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosca/meta.yaml>`_
 
    MOSCA \(portuguese for fly\) is a pipeline designed for performing metagenomics \(MG\)\,
@@ -42,10 +42,10 @@ mosca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ mosca
 
     <script>
         var package = "mosca";
-        var versions = ["2.2.1","2.2.0","2.1.0","1.3.5","1.3.4"];
+        var versions = ["2.3.0","2.2.1","2.2.0","2.1.0","1.3.5"];
     </script>
 
 

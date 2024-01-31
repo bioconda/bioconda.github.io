@@ -27,7 +27,7 @@ cellqc
       
       
 
-      ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -35,7 +35,7 @@ cellqc
    :depends anndata: ``0.7.8.*``
    :depends bioconductor-dropletutils: 
    :depends click: 
-   :depends graphviz: ``>=8.1.0,<9.0a0``
+   :depends graphviz: ``>=9.0.0,<10.0a0``
    :depends numpy: 
    :depends pygraphviz: 
    :depends python: 
@@ -96,7 +96,7 @@ cellqc
 
     <script>
         var package = "cellqc";
-        var versions = ["0.0.6","0.0.6","0.0.4","0.0.4","0.0.3"];
+        var versions = ["0.0.7","0.0.6","0.0.6","0.0.4","0.0.4"];
     </script>
 
 

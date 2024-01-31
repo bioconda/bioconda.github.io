@@ -12,7 +12,7 @@ viguno
 
    Lookup OMIM genes and HPO terms and compute similarities
 
-   :homepage: https://github.com/bihealth/viguno
+   :homepage: https://github.com/bihealth/varfish-org
    :license: MIT
    :recipe: /`viguno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viguno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viguno/meta.yaml>`_
 
@@ -27,7 +27,7 @@ viguno
       
       
 
-      ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.1-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.1-0``
 
       
 
@@ -36,7 +36,7 @@ viguno
    :depends libsqlite: ``>=3.44.2,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=3.2.0,<4.0a0``
+   :depends openssl: ``>=3.2.1,<4.0a0``
    :depends sqlite: 
    :requirements:
 
@@ -85,7 +85,7 @@ viguno
 
     <script>
         var package = "viguno";
-        var versions = ["0.2.0","0.1.6","0.1.1"];
+        var versions = ["0.2.0","0.2.0","0.1.6","0.1.1"];
     </script>
 
 
