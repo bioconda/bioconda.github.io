@@ -27,9 +27,17 @@ malt
    :versions:
       
       
+      .. raw:: html
 
-      ``0.61-0``,  ``0.53-0``,  ``0.41-1``,  ``0.41-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.62-0</code>,  <code>0.61-0</code>,  <code>0.53-0</code>,  <code>0.41-1</code>,  <code>0.41-0</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  </span></summary>
+      
 
+      ``0.62-0``,  ``0.61-0``,  ``0.53-0``,  ``0.41-1``,  ``0.41-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -81,7 +89,7 @@ malt
 
     <script>
         var package = "malt";
-        var versions = ["0.61","0.53","0.41","0.41","0.5.2"];
+        var versions = ["0.62","0.61","0.53","0.41","0.41"];
     </script>
 
 

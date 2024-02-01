@@ -1,41 +1,41 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'linearfold'
+.. title:: Package Recipe 'terrace'
 .. highlight: bash
 
-linearfold
-==========
+terrace
+=======
 
-.. conda:recipe:: linearfold
+.. conda:recipe:: terrace
    :replaces_section_title:
    :noindex:
 
-   Linear\-Time Prediction for RNA Secondary Structures
+   TERRACE is an assembler for circular RNAs.
 
-   :homepage: https://github.com/LinearFold/LinearFold
-   :license: custom
-   :recipe: /`linearfold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/linearfold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/linearfold/meta.yaml>`_
+   :homepage: https://github.com/Shao-Group/TERRACE
+   :license: BSD-3-Clause
+   :recipe: /`terrace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/terrace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/terrace/meta.yaml>`_
 
    
 
 
-.. conda:package:: linearfold
+.. conda:package:: terrace
 
-   |downloads_linearfold| |docker_linearfold|
+   |downloads_terrace| |docker_terrace|
 
    :versions:
       
       
 
-      ``1.0.1.dev20220829-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.1.1-0``
 
       
 
    
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends htslib: ``>=1.19.1,<1.20.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends python: ``>=3,<4``
-   :depends python-gflags: 
    :requirements:
 
    .. rubric:: Installation
@@ -51,39 +51,39 @@ linearfold
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install linearfold
+      mamba install terrace
 
    and update with::
 
-      mamba update linearfold
+      mamba update terrace
 
   To create a new environment, run::
 
-      mamba create --name myenvname linearfold
+      mamba create --name myenvname terrace
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/linearfold:<tag>
+      docker pull quay.io/biocontainers/terrace:<tag>
 
-   (see `linearfold/tags`_ for valid values for ``<tag>``)
+   (see `terrace/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_linearfold| image:: https://img.shields.io/conda/dn/bioconda/linearfold.svg?style=flat
-   :target: https://anaconda.org/bioconda/linearfold
+.. |downloads_terrace| image:: https://img.shields.io/conda/dn/bioconda/terrace.svg?style=flat
+   :target: https://anaconda.org/bioconda/terrace
    :alt:   (downloads)
-.. |docker_linearfold| image:: https://quay.io/repository/biocontainers/linearfold/status
-   :target: https://quay.io/repository/biocontainers/linearfold
-.. _`linearfold/tags`: https://quay.io/repository/biocontainers/linearfold?tab=tags
+.. |docker_terrace| image:: https://quay.io/repository/biocontainers/terrace/status
+   :target: https://quay.io/repository/biocontainers/terrace
+.. _`terrace/tags`: https://quay.io/repository/biocontainers/terrace?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "linearfold";
-        var versions = ["1.0.1.dev20220829","1.0","1.0","1.0","1.0"];
+        var package = "terrace";
+        var versions = ["1.1.1"];
     </script>
 
 
@@ -102,7 +102,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/linearfold/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/terrace/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/linearfold/README.html
+   :target: http://bioconda.github.io/recipes/terrace/README.html

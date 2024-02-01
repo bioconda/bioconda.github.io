@@ -27,16 +27,16 @@ chromograph
       
       
 
-      ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
-   :depends matplotlib-base: 
+   :depends matplotlib-base: ``3.5.3``
    :depends numpy: ``>=1.15``
    :depends pandas: 
    :depends pyaml: 
-   :depends python: ``>=3.7,<3.10``
+   :depends python: ``3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +84,7 @@ chromograph
 
     <script>
         var package = "chromograph";
-        var versions = ["1.3.1","1.3.1"];
+        var versions = ["1.3.1","1.3.1","1.3.1"];
     </script>
 
 

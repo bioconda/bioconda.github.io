@@ -13,7 +13,7 @@ varcode
    Variant annotation in Python
 
    :homepage: https://github.com/openvax/varcode
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`varcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varcode/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ varcode
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ varcode
 
     <script>
         var package = "varcode";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

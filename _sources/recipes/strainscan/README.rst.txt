@@ -27,7 +27,7 @@ strainscan
       
       
 
-      ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.10-0``,  ``1.0.3-0``
+      ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.10-0``,  ``1.0.3-0``
 
       
 
@@ -41,7 +41,7 @@ strainscan
    :depends r-base: ``4.0.2``
    :depends scikit-learn: ``0.23.1``
    :depends scipy: ``1.3.1``
-   :depends sibeliaz: ``1.2.2``
+   :depends sibeliaz: ``1.2.3``
    :depends treelib: ``1.6.1``
    :requirements:
 
@@ -90,7 +90,7 @@ strainscan
 
     <script>
         var package = "strainscan";
-        var versions = ["1.0.14","1.0.13","1.0.10","1.0.3"];
+        var versions = ["1.0.14","1.0.14","1.0.13","1.0.10","1.0.3"];
     </script>
 
 

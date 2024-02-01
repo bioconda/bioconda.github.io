@@ -31,17 +31,18 @@ hecatomb
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
 
       
 
    
    :depends click: ``>=8.1.3``
-   :depends jinja2: ``>=3.0.2``
-   :depends mamba: ``>=0.15.3``
-   :depends python: ``>=3.8,<3.11``
+   :depends metasnek: ``>=0.0.7``
+   :depends pulp: ``<2.8``
+   :depends python: ``>=3.9,<=3.12``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake: ``>=7.14.0``
+   :depends snakemake: ``>=7.14.0,<8``
+   :depends snaketool-utils: ``>=0.0.4``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +90,7 @@ hecatomb
 
     <script>
         var package = "hecatomb";
-        var versions = ["1.2.0","1.1.0","1.0.1","1.0.0.beta.5","1.0.0.beta.4"];
+        var versions = ["1.3.0","1.2.0","1.1.0","1.0.1","1.0.0.beta.5"];
     </script>
 
 

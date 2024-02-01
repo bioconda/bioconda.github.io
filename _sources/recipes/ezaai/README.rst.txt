@@ -32,7 +32,7 @@ ezaai
       
       
 
-      ``1.2.2-0``
+      ``1.2.3-0``,  ``1.2.2-0``
 
       
 
@@ -89,7 +89,7 @@ ezaai
 
     <script>
         var package = "ezaai";
-        var versions = ["1.2.2"];
+        var versions = ["1.2.3","1.2.2"];
     </script>
 
 
