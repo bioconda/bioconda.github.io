@@ -13,7 +13,9 @@ clonalframeml
    Efficient inferencing of recombination in bacterial genomes
 
    :homepage: https://github.com/xavierdidelot/ClonalFrameML
-   :license: GPLv3
+   :documentation: https://github.com/xavierdidelot/clonalframeml/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`clonalframeml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clonalframeml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clonalframeml/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ clonalframeml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12-4</code>,  <code>1.12-3</code>,  <code>1.12-2</code>,  <code>1.12-1</code>,  <code>1.12-0</code>,  <code>1.11-6</code>,  <code>1.11-5</code>,  <code>1.11-4</code>,  <code>1.11-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.13-0</code>,  <code>1.12-4</code>,  <code>1.12-3</code>,  <code>1.12-2</code>,  <code>1.12-1</code>,  <code>1.12-0</code>,  <code>1.11-6</code>,  <code>1.11-5</code>,  <code>1.11-4</code>,  </span></summary>
       
 
-      ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-6``,  ``1.11-5``,  ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
+      ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-6``,  ``1.11-5``,  ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
 
       
       .. raw:: html
@@ -89,7 +91,7 @@ clonalframeml
 
     <script>
         var package = "clonalframeml";
-        var versions = ["1.12","1.12","1.12","1.12","1.12"];
+        var versions = ["1.13","1.12","1.12","1.12","1.12"];
     </script>
 
 

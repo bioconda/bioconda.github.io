@@ -12,9 +12,13 @@ ucsc-cell-browser
 
    A browser for single\-cell data\, main site at http\:\/\/cells.ucsc.edu. UCSC Cellbrowser\, an interactive browser for single cell data. Includes importers and basic pipelines for text files\, Seurat\, Scanpy and Cellranger. All Javascript \- does not require a server backend.
 
-   :homepage: http://cells.ucsc.edu
-   :license: GPL
+   :homepage: https://cells.ucsc.edu
+   :documentation: https://cellbrowser.readthedocs.io/en/master/
+   
+   :developer docs: https://github.com/maximilianh/cellBrowser
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ucsc-cell-browser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-cell-browser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-cell-browser/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btab503`
 
    
 
@@ -28,10 +32,10 @@ ucsc-cell-browser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.7.15-0</code>,  <code>0.7.14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.7.15-0</code>,  </span></summary>
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.15-0``,  ``0.7.14-0``,  ``0.7.13-0``,  ``0.7.11-0``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7-0``,  ``0.5.49-0``,  ``0.5.46-0``,  ``0.5.45-0``,  ``0.5.43-1``,  ``0.5.43-0``,  ``0.5.38-0``,  ``0.5.37-0``,  ``0.5.21-0``,  ``0.4.56-0``,  ``0.4.38-0``,  ``0.4.35-0``,  ``0.4.23-1``,  ``0.4.23-0``
+      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.15-0``,  ``0.7.14-0``,  ``0.7.13-0``,  ``0.7.11-0``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7-0``,  ``0.5.49-0``,  ``0.5.46-0``,  ``0.5.45-0``,  ``0.5.43-1``,  ``0.5.43-0``,  ``0.5.38-0``,  ``0.5.37-0``,  ``0.5.21-0``,  ``0.4.56-0``,  ``0.4.38-0``,  ``0.4.35-0``,  ``0.4.23-1``,  ``0.4.23-0``
 
       
       .. raw:: html
@@ -42,7 +46,7 @@ ucsc-cell-browser
    
    :depends anndata: 
    :depends numpy: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.6,<3.12``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +94,7 @@ ucsc-cell-browser
 
     <script>
         var package = "ucsc-cell-browser";
-        var versions = ["1.2.3","1.2.2","1.1.1","1.1.1","1.1.0"];
+        var versions = ["1.2.4","1.2.3","1.2.2","1.1.1","1.1.1"];
     </script>
 
 

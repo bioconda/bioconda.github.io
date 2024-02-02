@@ -27,7 +27,7 @@ lusstr
       
       
 
-      ``0.8-0``,  ``0.7-0``,  ``0.6.4-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6.4-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
 
@@ -37,7 +37,7 @@ lusstr
    :depends pandas: ``>=1.0,<2.0``
    :depends python: ``>=3,<3.12``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake-minimal: ``>=7.22.0``
+   :depends snakemake-minimal: ``>=7.22.0,<8.0``
    :depends xlrd: ``>=1.0,<2.0``
    :requirements:
 
@@ -86,7 +86,7 @@ lusstr
 
     <script>
         var package = "lusstr";
-        var versions = ["0.8","0.7","0.6.4","0.5","0.4"];
+        var versions = ["0.8","0.8","0.7","0.6.4","0.5"];
     </script>
 
 

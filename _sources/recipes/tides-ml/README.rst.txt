@@ -13,7 +13,7 @@ tides-ml
    Tool for ORF\-calling and ORF\-classification using ML approaches
 
    :homepage: https://github.com/xxmalcala/TIdeS
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`tides-ml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tides-ml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tides-ml/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ tides-ml
       
       
 
-      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
 
@@ -40,7 +40,7 @@ tides-ml
    :depends kraken2: ``>=2.0.0``
    :depends optuna: ``>=3.0``
    :depends pandas: ``>=2.0``
-   :depends python: ``>=3.8``
+   :depends python: ``<3.12``
    :depends scikit-learn: ``>=1.3.0``
    :depends seaborn: ``>=0.12.2``
    :requirements:
@@ -90,7 +90,7 @@ tides-ml
 
     <script>
         var package = "tides-ml";
-        var versions = ["1.1.4","1.1.3","1.1.2"];
+        var versions = ["1.2.0","1.1.4","1.1.3","1.1.2"];
     </script>
 
 

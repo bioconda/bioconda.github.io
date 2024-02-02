@@ -27,17 +27,18 @@ trimnami
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends click: ``>=8.1.3``
    :depends metasnek: ``>=0.0.8``
-   :depends python: ``>=3.8``
+   :depends pulp: ``<2.8``
+   :depends python: ``>=3.9``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake: ``>=7.14.0``
-   :depends snaketool-utils: ``>=0.0.3``
+   :depends snakemake: ``>=7.14.0,<8``
+   :depends snaketool-utils: ``>=0.0.4``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +86,7 @@ trimnami
 
     <script>
         var package = "trimnami";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

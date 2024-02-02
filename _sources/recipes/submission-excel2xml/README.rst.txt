@@ -27,14 +27,13 @@ submission-excel2xml
       
       
 
-      ``2.0.0-0``
+      ``2.5-0``,  ``2.0.0-0``
 
       
 
    
-   :depends compilers: 
    :depends libxml2: 
-   :depends ruby: ``3.2.2.*``
+   :depends ruby: ``>=3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +81,7 @@ submission-excel2xml
 
     <script>
         var package = "submission-excel2xml";
-        var versions = ["2.0.0"];
+        var versions = ["2.5","2.0.0"];
     </script>
 
 

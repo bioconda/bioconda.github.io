@@ -30,10 +30,10 @@ ephemeris
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.9-0</code>,  <code>0.10.8-0</code>,  <code>0.10.7-0</code>,  <code>0.10.6-2</code>,  <code>0.10.6-1</code>,  <code>0.10.6-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  <code>0.10.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.10-0</code>,  <code>0.10.9-0</code>,  <code>0.10.8-0</code>,  <code>0.10.7-0</code>,  <code>0.10.6-2</code>,  <code>0.10.6-1</code>,  <code>0.10.6-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  </span></summary>
       
 
-      ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.7-0``,  ``0.10.6-2``,  ``0.10.6-1``,  ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-2``,  ``0.8.0-0``
+      ``0.10.10-0``,  ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.7-0``,  ``0.10.6-2``,  ``0.10.6-1``,  ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-2``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ ephemeris
 
     <script>
         var package = "ephemeris";
-        var versions = ["0.10.9","0.10.8","0.10.7","0.10.6","0.10.6"];
+        var versions = ["0.10.10","0.10.9","0.10.8","0.10.7","0.10.6"];
     </script>
 
 

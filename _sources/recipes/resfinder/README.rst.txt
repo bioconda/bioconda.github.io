@@ -13,8 +13,9 @@ resfinder
    ResFinder identifies acquired antimicrobial resistance genes in total or partial sequenced isolates of bacteria.
 
    :homepage: https://bitbucket.org/genomicepidemiology/resfinder
-   :license: APACHE / APACHE-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`resfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resfinder/meta.yaml>`_
+   :links: doi: :doi:`10.1093/jac/dkaa345`
 
    
 
@@ -27,20 +28,20 @@ resfinder
       
       
 
-      ``4.1.11-0``
+      ``4.4.2-0``,  ``4.1.11-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.79``
    :depends blast: ``>=2.8.1``
-   :depends cgecore: ``1.5.5.*``
-   :depends git: 
-   :depends gitpython: 
+   :depends cgecore: ``1.5.6``
+   :depends cgelib: ``>=0.7.3``
    :depends kma: 
-   :depends python: ``>=3``
+   :depends pandas: ``>=1.4.2``
+   :depends python: ``>=3.8``
    :depends python-dateutil: 
-   :depends tabulate: ``0.7.7.*``
+   :depends tabulate: ``>=0.8.9``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +89,7 @@ resfinder
 
     <script>
         var package = "resfinder";
-        var versions = ["4.1.11"];
+        var versions = ["4.4.2","4.1.11"];
     </script>
 
 
