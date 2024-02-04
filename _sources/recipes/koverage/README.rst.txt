@@ -27,7 +27,7 @@ koverage
       
       
 
-      ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
@@ -37,10 +37,10 @@ koverage
    :depends metasnek: ``>=0.0.8``
    :depends numpy: ``>=1.24.3``
    :depends plotly: ``>=5.15.0``
-   :depends py-spy: ``>=0.3.14``
-   :depends python: ``>=3.8``
+   :depends pulp: ``<2.8``
+   :depends python: ``>=3.10``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake: ``>=7.14.0``
+   :depends snakemake: ``>=7.14.0,<8``
    :depends snaketool-utils: ``>=0.0.4``
    :depends zstandard: ``>=0.21.0``
    :requirements:
@@ -90,7 +90,7 @@ koverage
 
     <script>
         var package = "koverage";
-        var versions = ["0.1.9","0.1.8","0.1.7","0.1.6"];
+        var versions = ["0.1.10","0.1.9","0.1.8","0.1.7","0.1.6"];
     </script>
 
 
