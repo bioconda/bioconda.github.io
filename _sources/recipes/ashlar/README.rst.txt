@@ -15,7 +15,7 @@ ashlar
    :homepage: https://github.com/sorgerlab/ashlar
    :documentation: https://labsyspharm.github.io/ashlar/
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ashlar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ashlar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ashlar/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ ashlar
       
       
 
-      ``1.17.0-0``,  ``1.16.0-0``
+      ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-0``
 
       
 
@@ -38,9 +38,8 @@ ashlar
    :depends matplotlib-base: ``>=3.1.2``
    :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.18.1``
-   :depends pip: 
    :depends pyjnius: ``>=1.2.1``
-   :depends python: 
+   :depends python: ``<3.12``
    :depends scikit-image: ``0.19``
    :depends scikit-learn: ``>=0.21.1``
    :depends scipy: ``>=1.4.1``
@@ -93,7 +92,7 @@ ashlar
 
     <script>
         var package = "ashlar";
-        var versions = ["1.17.0","1.16.0"];
+        var versions = ["1.18.0","1.17.0","1.16.0"];
     </script>
 
 

@@ -69,7 +69,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">vcfsim</span></span></dt>
-<dd><p>Script for generating simulated VCF's</p>
+<dd><p>Script for generating simulated VCF's leveraging a coalescent simulating backend.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/Pie115/VCFSimulator-SamukLab">https://github.com/Pie115/VCFSimulator-SamukLab</a></p>
@@ -81,7 +81,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsim">vcfsim</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsim/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>&quot;vcfsim is a new command-line tool for generating simulated VCF's(variant call format files for encoding genetic data). Leveraging a coalescent simulating backend and providing an interface from Msprime coalescent simulating package to pandas. VCF's can now be easily simulated with just a few command line arguments!&quot;</p>
+<p>&quot;VCFSim is a new command-line tool for generating simulated VCF's(variant call format files for encoding genetic data). Leveraging a coalescent simulating backend and providing an interface from Msprime coalescent simulating package to pandas. VCF's can now be easily simulated with just a few command line arguments!&quot;</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -91,9 +91,21 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/vcfsim"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/vcfsim.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/vcfsim"><img alt="docker_vcfsim" src="https://quay.io/repository/biocontainers/vcfsim/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.8.alpha-0</span></code></p>
+</dd>
+<dt class="field-even">depends ipython<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends msprime<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.6</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -128,7 +140,7 @@ others.</p>
 
 <script>
     var package = "vcfsim";
-    var versions = [];
+    var versions = ["1.0.8.alpha"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

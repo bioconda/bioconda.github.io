@@ -13,7 +13,7 @@ novoplasty
    The organelle assembler and heteroplasmy caller
 
    :homepage: https://github.com/ndierckx/NOVOPlasty
-   :license: other
+   :license: Other
    :recipe: /`novoplasty <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoplasty>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoplasty/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkw955`
 
@@ -30,10 +30,10 @@ novoplasty
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.3-0</code>,  <code>4.3.1-1</code>,  <code>4.3.1-0</code>,  <code>4.2-1</code>,  <code>4.2-0</code>,  <code>4.0-0</code>,  <code>3.8.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.5-0</code>,  <code>4.3.3-0</code>,  <code>4.3.1-1</code>,  <code>4.3.1-0</code>,  <code>4.2-1</code>,  <code>4.2-0</code>,  <code>4.0-0</code>,  <code>3.8.3-0</code>,  <code>3.7.2-0</code>,  </span></summary>
       
 
-      ``4.3.3-0``,  ``4.3.1-1``,  ``4.3.1-0``,  ``4.2-1``,  ``4.2-0``,  ``4.0-0``,  ``3.8.3-0``,  ``3.7.2-0``,  ``3.7-0``,  ``2.2.2-1``,  ``2.2.2-0``
+      ``4.3.5-0``,  ``4.3.3-0``,  ``4.3.1-1``,  ``4.3.1-0``,  ``4.2-1``,  ``4.2-0``,  ``4.0-0``,  ``3.8.3-0``,  ``3.7.2-0``,  ``3.7-0``,  ``2.2.2-1``,  ``2.2.2-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ novoplasty
 
     <script>
         var package = "novoplasty";
-        var versions = ["4.3.3","4.3.1","4.3.1","4.2","4.2"];
+        var versions = ["4.3.5","4.3.3","4.3.1","4.3.1","4.2"];
     </script>
 
 

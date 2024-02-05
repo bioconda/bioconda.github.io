@@ -10,13 +10,13 @@ vcfsim
    :replaces_section_title:
    :noindex:
 
-   Script for generating simulated VCF\'s
+   Script for generating simulated VCF\'s leveraging a coalescent simulating backend.
 
    :homepage: https://github.com/Pie115/VCFSimulator-SamukLab
    :license: MIT
    :recipe: /`vcfsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsim/meta.yaml>`_
 
-   \"vcfsim is a new command\-line tool for generating simulated VCF\'s\(variant call format files for encoding genetic data\). Leveraging a coalescent simulating backend and providing an interface from Msprime coalescent simulating package to pandas. VCF\'s can now be easily simulated with just a few command line arguments\!\"
+   \"VCFSim is a new command\-line tool for generating simulated VCF\'s\(variant call format files for encoding genetic data\). Leveraging a coalescent simulating backend and providing an interface from Msprime coalescent simulating package to pandas. VCF\'s can now be easily simulated with just a few command line arguments\!\"
 
 
 
@@ -28,11 +28,16 @@ vcfsim
       
       
 
-      
+      ``1.0.8.alpha-0``
 
       
 
    
+   :depends ipython: 
+   :depends msprime: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +85,7 @@ vcfsim
 
     <script>
         var package = "vcfsim";
-        var versions = [];
+        var versions = ["1.0.8.alpha"];
     </script>
 
 
