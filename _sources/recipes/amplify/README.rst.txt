@@ -27,7 +27,7 @@ amplify
       
       
 
-      ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -39,7 +39,7 @@ amplify
    :depends pandas: 
    :depends python: ``3.6.*``
    :depends scikit-learn: 
-   :depends tensorflow: ``1.12.*``
+   :depends tensorflow: ``>=1.10,<1.13``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +87,7 @@ amplify
 
     <script>
         var package = "amplify";
-        var versions = ["1.1.0","1.0.3","1.0.2","1.0.1","1.0.1"];
+        var versions = ["2.0.0","1.1.0","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

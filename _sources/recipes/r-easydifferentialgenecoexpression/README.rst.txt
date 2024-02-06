@@ -27,7 +27,7 @@ r-easydifferentialgenecoexpression
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.4-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -41,8 +41,6 @@ r-easydifferentialgenecoexpression
    :depends r-geneexpressionfromgeo: 
    :depends r-jetset: 
    :depends r-magrittr: 
-   :depends r-r.utils: 
-   :depends r-stringi: 
    :depends r-xml2: 
    :requirements:
 
@@ -91,7 +89,7 @@ r-easydifferentialgenecoexpression
 
     <script>
         var package = "r-easydifferentialgenecoexpression";
-        var versions = ["1.0","1.0","1.0"];
+        var versions = ["1.4","1.0","1.0","1.0"];
     </script>
 
 
