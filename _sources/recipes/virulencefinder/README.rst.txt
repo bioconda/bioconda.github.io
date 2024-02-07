@@ -28,7 +28,7 @@ virulencefinder
       
       
 
-      ``2.0.4-0``
+      ``2.0.4-1``,  ``2.0.4-0``
 
       
 
@@ -36,6 +36,7 @@ virulencefinder
    :depends biopython: 
    :depends blast: 
    :depends cgecore: 
+   :depends git: 
    :depends kma: 
    :depends python: ``>=3``
    :depends tabulate: 
@@ -86,7 +87,7 @@ virulencefinder
 
     <script>
         var package = "virulencefinder";
-        var versions = ["2.0.4"];
+        var versions = ["2.0.4","2.0.4"];
     </script>
 
 

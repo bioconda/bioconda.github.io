@@ -13,7 +13,7 @@ hmftools-sigs
    Fits sample SNV counts to trinucleotide signature definitions.
 
    :homepage: https://github.com/hartwigmedical/hmftools/blob/master/sigs/README.md
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hmftools-sigs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-sigs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-sigs/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hmftools-sigs
       
       
 
-      ``1.1-0``
+      ``1.2.1-0``,  ``1.1-0``
 
       
 
@@ -81,7 +81,7 @@ hmftools-sigs
 
     <script>
         var package = "hmftools-sigs";
-        var versions = ["1.1"];
+        var versions = ["1.2.1","1.1"];
     </script>
 
 

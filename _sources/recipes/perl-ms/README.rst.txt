@@ -13,7 +13,7 @@ perl-ms
    Namespace for mass spectrometry\-related libraries
 
    :homepage: http://metacpan.org/pod/MS
-   :license: gpl_3
+   :license: GPL-3.0-or-later
    :recipe: /`perl-ms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ms/meta.yaml>`_
 
    

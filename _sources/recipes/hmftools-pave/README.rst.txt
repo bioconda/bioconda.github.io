@@ -10,7 +10,7 @@ hmftools-pave
    :replaces_section_title:
    :noindex:
 
-   Pave annotates a somatic variant VCF with gene and transcript coding and protein effects.
+   PAVE annotates SNV\/MNV\/INDEL calls with consequence on corresponding genes\, transcripts\, and proteins.
 
    :homepage: https://github.com/hartwigmedical/hmftools/tree/master/pave
    :license: GPL / GPL-3.0-only
@@ -27,7 +27,7 @@ hmftools-pave
       
       
 
-      ``1.4.1-0``
+      ``1.6-0``,  ``1.4.1-0``
 
       
 
@@ -81,7 +81,7 @@ hmftools-pave
 
     <script>
         var package = "hmftools-pave";
-        var versions = ["1.4.1"];
+        var versions = ["1.6","1.4.1"];
     </script>
 
 

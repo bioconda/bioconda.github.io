@@ -27,7 +27,7 @@ mass2chem
       
       
 
-      ``0.4.9-0``,  ``0.4.4-0``
+      ``0.5.0-0``,  ``0.4.9-0``,  ``0.4.4-0``
 
       
 
@@ -83,7 +83,7 @@ mass2chem
 
     <script>
         var package = "mass2chem";
-        var versions = ["0.4.9","0.4.4"];
+        var versions = ["0.5.0","0.4.9","0.4.4"];
     </script>
 
 

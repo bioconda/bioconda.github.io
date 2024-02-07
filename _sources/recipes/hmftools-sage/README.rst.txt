@@ -10,7 +10,7 @@ hmftools-sage
    :replaces_section_title:
    :noindex:
 
-   SAGE is a somatic SNV\, MNV and small INDEL caller optimised to call narrow regions of the genome with high prior chance of a variant with very high sensitivity.
+   SAGE is a somatic SNV\, MNV and small INDEL caller optimised 100x tumor \/ 40x normal coverage\, but has a flexible set of filters that can be adapted to lower or higher depth coverage.
 
    :homepage: https://github.com/hartwigmedical/hmftools/tree/master/sage
    :license: GPL / GPL-3.0-only
@@ -28,10 +28,10 @@ hmftools-sage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.3-0</code>,  <code>3.1-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.8-1</code>,  <code>2.8-0</code>,  <code>2.7-1</code>,  <code>2.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4-0</code>,  <code>3.2.3-0</code>,  <code>3.1-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.8-1</code>,  <code>2.8-0</code>,  <code>2.7-1</code>,  </span></summary>
       
 
-      ``3.2.3-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.8-1``,  ``2.8-0``,  ``2.7-1``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``1.0-0``
+      ``3.4-0``,  ``3.2.3-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.8-1``,  ``2.8-0``,  ``2.7-1``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ hmftools-sage
 
     <script>
         var package = "hmftools-sage";
-        var versions = ["3.2.3","3.1","3.0.3","3.0.2","3.0.1"];
+        var versions = ["3.4","3.2.3","3.1","3.0.3","3.0.2"];
     </script>
 
 

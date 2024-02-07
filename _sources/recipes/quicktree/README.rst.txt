@@ -26,9 +26,17 @@ quicktree
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5-5``,  ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.2-1``,  ``2.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.5-6</code>,  <code>2.5-5</code>,  <code>2.5-4</code>,  <code>2.5-3</code>,  <code>2.5-2</code>,  <code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.2-1</code>,  </span></summary>
+      
 
+      ``2.5-6``,  ``2.5-5``,  ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.2-1``,  ``2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

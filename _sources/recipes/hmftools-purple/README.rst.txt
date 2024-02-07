@@ -10,10 +10,10 @@ hmftools-purple
    :replaces_section_title:
    :noindex:
 
-   Purity\/ploidy estimator. Leverages the read depth and tumor BAF to estimate the purity of a sample and generate a copy number profile
+   PURPLE is a purity ploidy estimator for tumor samples.
 
-   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/purity-ploidy-estimator
-   :license: MIT / MIT
+   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/purple
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hmftools-purple <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-purple>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-purple/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ hmftools-purple
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.1-0</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  <code>3.4-0</code>,  <code>3.2-0</code>,  <code>3.1-0</code>,  <code>2.54-0</code>,  <code>2.53-1</code>,  <code>2.53-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0-0</code>,  <code>3.7.1-0</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  <code>3.4-0</code>,  <code>3.2-0</code>,  <code>3.1-0</code>,  <code>2.54-0</code>,  <code>2.53-1</code>,  </span></summary>
       
 
-      ``3.7.1-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4-0``,  ``3.2-0``,  ``3.1-0``,  ``2.54-0``,  ``2.53-1``,  ``2.53-0``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.50-0``,  ``2.48-0``,  ``2.47-1``,  ``2.47-0``,  ``2.46-0``,  ``2.45-0``,  ``2.44-0``,  ``2.43-0``,  ``2.41-0``,  ``2.40-0``,  ``2.39-0``,  ``2.38-0``,  ``2.37-0``,  ``2.36-0``,  ``2.35-0``,  ``2.34-0``,  ``2.32-0``,  ``2.31-0``,  ``2.25-1``,  ``2.17-1``,  ``2.16-1``,  ``2.16-0``,  ``2.15-0``
+      ``4.0-0``,  ``3.7.1-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4-0``,  ``3.2-0``,  ``3.1-0``,  ``2.54-0``,  ``2.53-1``,  ``2.53-0``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.50-0``,  ``2.48-0``,  ``2.47-1``,  ``2.47-0``,  ``2.46-0``,  ``2.45-0``,  ``2.44-0``,  ``2.43-0``,  ``2.41-0``,  ``2.40-0``,  ``2.39-0``,  ``2.38-0``,  ``2.37-0``,  ``2.36-0``,  ``2.35-0``,  ``2.34-0``,  ``2.32-0``,  ``2.31-0``,  ``2.25-1``,  ``2.17-1``,  ``2.16-1``,  ``2.16-0``,  ``2.15-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ hmftools-purple
 
     <script>
         var package = "hmftools-purple";
-        var versions = ["3.7.1","3.6","3.5","3.4","3.2"];
+        var versions = ["4.0","3.7.1","3.6","3.5","3.4"];
     </script>
 
 

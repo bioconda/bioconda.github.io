@@ -27,7 +27,7 @@ nanomotif
       
       
 
-      ``0.1.13-0``,  ``0.1.7-0``
+      ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
 
       
 
@@ -89,7 +89,7 @@ nanomotif
 
     <script>
         var package = "nanomotif";
-        var versions = ["0.1.13","0.1.7"];
+        var versions = ["0.1.14","0.1.13","0.1.7"];
     </script>
 
 

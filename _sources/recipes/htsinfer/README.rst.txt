@@ -27,7 +27,7 @@ htsinfer
       
       
 
-      ``0.10.0-0``,  ``0.9.0-0``
+      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``
 
       
 
@@ -89,7 +89,7 @@ htsinfer
 
     <script>
         var package = "htsinfer";
-        var versions = ["0.10.0","0.9.0"];
+        var versions = ["0.11.0","0.10.0","0.9.0"];
     </script>
 
 

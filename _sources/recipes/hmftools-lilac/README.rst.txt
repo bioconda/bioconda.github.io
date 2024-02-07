@@ -13,7 +13,7 @@ hmftools-lilac
    LILAC is a WGS tool to determine HLA Class I types.
 
    :homepage: https://github.com/hartwigmedical/hmftools/blob/master/lilac/README.md
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hmftools-lilac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-lilac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-lilac/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hmftools-lilac
       
       
 
-      ``1.4.2-0``,  ``1.1-0``
+      ``1.6-0``,  ``1.4.2-0``,  ``1.1-0``
 
       
 
@@ -81,7 +81,7 @@ hmftools-lilac
 
     <script>
         var package = "hmftools-lilac";
-        var versions = ["1.4.2","1.1"];
+        var versions = ["1.6","1.4.2","1.1"];
     </script>
 
 

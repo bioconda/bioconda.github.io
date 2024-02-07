@@ -12,7 +12,7 @@ sonlib
 
    Small general purpose library for C and Python with focus on bioinformatics.
 
-   :homepage: https://github.com/benedictpaten/sonLib
+   :homepage: https://github.com/ComparativeGenomicsToolkit/sonLib
    :license: MIT
    :recipe: /`sonlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonlib/meta.yaml>`_
 
@@ -27,12 +27,17 @@ sonlib
       
       
 
-      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``2.0.dev88-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
-   :depends python: ``<3``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends networkx: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends quicktree: ``>=2.5,<3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +85,7 @@ sonlib
 
     <script>
         var package = "sonlib";
-        var versions = ["1.1.0","1.1.0","1.1.0"];
+        var versions = ["2.0.dev88","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

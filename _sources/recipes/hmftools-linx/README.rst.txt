@@ -10,7 +10,7 @@ hmftools-linx
    :replaces_section_title:
    :noindex:
 
-   Linx is an annotation\, interpretation and visualisation tool for structural variants
+   LINX is an annotation\, interpretation and visualisation tool for structural variants.
 
    :homepage: https://github.com/hartwigmedical/hmftools/tree/master/linx
    :license: GPL / GPL-3.0-only
@@ -28,10 +28,10 @@ hmftools-linx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.23.6-0</code>,  <code>1.22.1-0</code>,  <code>1.22-0</code>,  <code>1.21-0</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  <code>1.18-0</code>,  <code>1.17-0</code>,  <code>1.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.25-0</code>,  <code>1.23.6-0</code>,  <code>1.22.1-0</code>,  <code>1.22-0</code>,  <code>1.21-0</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  <code>1.18-0</code>,  <code>1.17-0</code>,  </span></summary>
       
 
-      ``1.23.6-0``,  ``1.22.1-0``,  ``1.22-0``,  ``1.21-0``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
+      ``1.25-0``,  ``1.23.6-0``,  ``1.22.1-0``,  ``1.22-0``,  ``1.21-0``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ hmftools-linx
 
     <script>
         var package = "hmftools-linx";
-        var versions = ["1.23.6","1.22.1","1.22","1.21","1.20"];
+        var versions = ["1.25","1.23.6","1.22.1","1.22","1.21"];
     </script>
 
 

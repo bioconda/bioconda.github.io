@@ -27,7 +27,7 @@ gimbleprep
       
       
 
-      ``0.0.2b5-0``,  ``0.0.2b4-0``,  ``0.0.2b3-0``
+      ``0.0.2b6-0``,  ``0.0.2b5-0``,  ``0.0.2b4-0``,  ``0.0.2b3-0``
 
       
 
@@ -91,7 +91,7 @@ gimbleprep
 
     <script>
         var package = "gimbleprep";
-        var versions = ["0.0.2b5","0.0.2b4","0.0.2b3"];
+        var versions = ["0.0.2b6","0.0.2b5","0.0.2b4","0.0.2b3"];
     </script>
 
 
