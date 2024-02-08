@@ -28,7 +28,7 @@ resfinder
       
       
 
-      ``4.4.2-0``,  ``4.1.11-0``
+      ``4.4.2-1``,  ``4.4.2-0``,  ``4.1.11-0``
 
       
 
@@ -37,6 +37,7 @@ resfinder
    :depends blast: ``>=2.8.1``
    :depends cgecore: ``1.5.6``
    :depends cgelib: ``>=0.7.3``
+   :depends git: 
    :depends kma: 
    :depends pandas: ``>=1.4.2``
    :depends python: ``>=3.8``
@@ -89,7 +90,7 @@ resfinder
 
     <script>
         var package = "resfinder";
-        var versions = ["4.4.2","4.1.11"];
+        var versions = ["4.4.2","4.4.2","4.1.11"];
     </script>
 
 
