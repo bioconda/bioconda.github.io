@@ -29,10 +29,10 @@ sepp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.5.1-3</code>,  <code>4.5.1-2</code>,  <code>4.5.1-1</code>,  <code>4.5.1-0</code>,  <code>4.4.0-0</code>,  <code>4.3.10-2</code>,  <code>4.3.10-0</code>,  <code>4.3.9-0</code>,  <code>4.3.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.5.1-4</code>,  <code>4.5.1-3</code>,  <code>4.5.1-2</code>,  <code>4.5.1-1</code>,  <code>4.5.1-0</code>,  <code>4.4.0-0</code>,  <code>4.3.10-2</code>,  <code>4.3.10-0</code>,  <code>4.3.9-0</code>,  </span></summary>
       
 
-      ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
+      ``4.5.1-4``,  ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ sepp
    :depends hmmer: ``3.1b2``
    :depends openjdk: 
    :depends pasta: 
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +94,7 @@ sepp
 
     <script>
         var package = "sepp";
-        var versions = ["4.5.1","4.5.1","4.5.1","4.5.1","4.4.0"];
+        var versions = ["4.5.1","4.5.1","4.5.1","4.5.1","4.5.1"];
     </script>
 
 

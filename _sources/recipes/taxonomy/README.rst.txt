@@ -13,7 +13,7 @@ taxonomy
    Python and Rust library for loading\, saving\, and manipulating taxonomic trees
 
    :homepage: https://github.com/onecodex/taxonomy/
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`taxonomy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonomy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonomy/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ taxonomy
       
       
 
-      ``0.9.0-0``,  ``0.8.3-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
+      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
 
       
 
@@ -83,7 +83,7 @@ taxonomy
 
     <script>
         var package = "taxonomy";
-        var versions = ["0.9.0","0.8.3","0.7.1","0.7.1","0.7.0"];
+        var versions = ["0.10.0","0.9.0","0.8.3","0.7.1","0.7.1"];
     </script>
 
 

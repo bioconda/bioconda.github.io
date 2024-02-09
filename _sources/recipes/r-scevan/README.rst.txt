@@ -27,11 +27,27 @@ r-scevan
       
       
 
-      
+      ``1.0.1-0``
 
       
 
    
+   :depends bioconductor-fgsea: 
+   :depends bioconductor-ggtree: 
+   :depends bioconductor-scran: 
+   :depends r-ape: 
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-cluster: 
+   :depends r-devtools: 
+   :depends r-dplyr: 
+   :depends r-forcats: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-optparse: 
+   :depends r-paralleldist: 
+   :depends r-pheatmap: 
+   :depends r-rtsne: 
+   :depends r-tidytree: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +95,7 @@ r-scevan
 
     <script>
         var package = "r-scevan";
-        var versions = [];
+        var versions = ["1.0.1"];
     </script>
 
 

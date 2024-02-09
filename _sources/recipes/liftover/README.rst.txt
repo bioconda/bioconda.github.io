@@ -28,7 +28,7 @@ liftover
       
       
 
-      ``1.1.17-0``,  ``1.1.16-0``
+      ``1.1.18-0``,  ``1.1.17-0``,  ``1.1.16-0``
 
       
 
@@ -86,7 +86,7 @@ liftover
 
     <script>
         var package = "liftover";
-        var versions = ["1.1.17","1.1.16"];
+        var versions = ["1.1.18","1.1.17","1.1.16"];
     </script>
 
 

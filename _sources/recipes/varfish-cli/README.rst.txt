@@ -28,10 +28,10 @@ varfish-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
       
 
-      ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+      ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ varfish-cli
    :depends jsonschema: 
    :depends logzero: 
    :depends polyleven: 
-   :depends pydantic: 
+   :depends pydantic: ``>=2.0,<3.0``
    :depends python: ``>=3``
    :depends python-dateutil: 
    :depends requests: 
@@ -102,7 +102,7 @@ varfish-cli
 
     <script>
         var package = "varfish-cli";
-        var versions = ["0.6.3","0.6.2","0.5.3","0.5.2","0.5.1"];
+        var versions = ["0.6.3","0.6.3","0.6.2","0.5.3","0.5.2"];
     </script>
 
 

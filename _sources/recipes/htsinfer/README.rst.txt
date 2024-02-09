@@ -27,7 +27,7 @@ htsinfer
       
       
 
-      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``
+      ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``
 
       
 
@@ -38,7 +38,7 @@ htsinfer
    :depends numpy: ``>=1.22,<1.25``
    :depends pandas: ``>=1.3.5,<1.4.0``
    :depends pyahocorasick: ``>=1.4.0``
-   :depends pydantic: ``>=1.8.1,<2``
+   :depends pydantic: ``>=2,<3``
    :depends pysam: ``>=0.16.0``
    :depends python: ``>=3.8,<=3.10``
    :depends star: ``>=2.7.6``
@@ -89,7 +89,7 @@ htsinfer
 
     <script>
         var package = "htsinfer";
-        var versions = ["0.11.0","0.10.0","0.9.0"];
+        var versions = ["0.11.0","0.11.0","0.10.0","0.9.0"];
     </script>
 
 
