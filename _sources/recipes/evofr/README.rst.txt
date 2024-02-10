@@ -28,10 +28,10 @@ evofr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.21-0</code>,  <code>0.1.20-1</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-0</code>,  <code>0.1.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-1</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-0</code>,  </span></summary>
       
 
-      ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
+      ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ evofr
 
    
    :depends blackjax: ``>=0.9.6,<0.10.0``
-   :depends jax: ``>=0.4.1,<0.5.0``
+   :depends jax: ``>=0.4.14,<0.5.0``
    :depends jaxlib: ``>=0.4.1,<0.5.0``
    :depends numpy: ``>=1.22.4``
-   :depends numpyro: ``>=0.12.0,<0.13.0``
+   :depends numpyro: ``>=0.13.2,<0.14.0``
    :depends pandas: ``>=1.4.2``
    :depends python: ``>=3.9,<4``
    :requirements:
@@ -94,7 +94,7 @@ evofr
 
     <script>
         var package = "evofr";
-        var versions = ["0.1.21","0.1.20","0.1.20","0.1.19","0.1.18"];
+        var versions = ["0.1.22","0.1.21","0.1.20","0.1.20","0.1.19"];
     </script>
 
 
