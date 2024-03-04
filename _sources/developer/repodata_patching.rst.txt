@@ -7,17 +7,22 @@ That wouldn't be a problem, except nanoqc doesn't restrict the range of `bokeh`
 that can be installed. Thus, you and everyone else in the world, will
 constantly get non-functional installs whenever creating new environments with
 nanoqc. Sure you can get around this with `conda create -n nanoqc nanoqc bokeh=2.4.3`,
-but that still leaves things broken for everyone else in the world. Wouldn't it
-be nice if you could just fix the nanoqc package, in place, such that it
-magically contains a restriction on the version of bokeh that it depends on? It
-turns out you **CAN** do this with repodata patching.
+but that still leaves things broken for everyone else in the world. Another
+option would be to update the nanoqc recipe in bioconda-recipes, and this
+should also be done if the latest version is problematic, but this would not
+solve all other existing, earlier versions of nanoqc packages that also do not
+restrict bokeh.
+
+Wouldn't it be nice if you could just fix the nanoqc package, in place, such
+that it magically contains a restriction on the version of bokeh that it
+depends on? It turns out you **CAN** do this with repodata patching.
 
 What is repodata?
 -----------------
 
 Repodata is a JSON file that contains a variety of information for each package
-in Bioconda. There is one for each architecture (linux-64, osx-64, noarch, etc.)
-and they're hosted by bioconda. For example, the noarch repodata.json file `is
+in Bioconda. There is one for each architecture (linux-64, linux-aarch64, osx-64, noarch, etc.)
+and they're hosted in the bioconda channel. For example, the noarch repodata.json file `is
 available here <https://conda.anaconda.org/bioconda/noarch/repodata.json>`_.
 Let's take a look at the what sorts of things are stored within this file for a
 single package:
@@ -60,9 +65,10 @@ This is what's used by `conda` and `mamba` for determining what packages exist
 and their dependencies. Note that the exact fields have changed over time, with
 older packages lacking things like the `timestamp` value.
 
-In order to add/remove/update a dependency, we need to modify the `depends` list
-in each package that should be modified. We can't directly modify these files,
-instead we need to patch them with the bioconda-repodata-patches package.
+In order to add/remove/update a dependency (like restricting the bokeh
+version), we need to modify the `depends` list in each package that should be
+modified. We can't directly modify these files, instead we need to patch them
+with the bioconda-repodata-patches package.
 
 The bioconda-repodata-patches package
 -------------------------------------
@@ -77,9 +83,11 @@ each architecture::
     │   └── patch_instructions.json
     └── osx-64
         └── patch_instructions.json
+..
+  TODO: update when bioconda-repodata-patches is updated with linux-aarch64
 
-For an individual package, the json file will contain the updated dependencies.
-For the `nanoqc` example above, that would look like::
+For an individual package, the json file will eventually contain the updated dependencies.
+For the `nanoqc` example above, that will eventually look like::
 
     "nanoqc-0.9.4-py_0.tar.bz2": {
       "depends": [
@@ -92,10 +100,14 @@ For the `nanoqc` example above, that would look like::
 
 Thankfully, you do not need to manually update each package and in fact if you
 do your changes will almost certainly be lost over time. Instead, within the
-`bioconda-repodata-patches` recipe, edit and run the `gen_patch_json.py` script.
+`bioconda-repodata-patches` recipe, edit and run the `gen_patch_json.py` script
+as described below.
 
 Modifying gen_patch_json.py
 ---------------------------
+
+We will be working in the `bioconda-repodata-patches recipe
+<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconda-repodata-patches>`_.
 
 The `gen_patch_json.py` file is borrowed from conda-forge and has one function
 that should typically be modified: `_gen_new_index`. Within this function, each

@@ -3,9 +3,11 @@
    To build the documentation locally, first create an environment using
    bioconda_utils/bioconda_utils-requirements.txt.
 
-   Then activate the env and run:
+   mamba create -p ./env --file https://raw.githubusercontent.com/bioconda/bioconda-utils/master/bioconda_utils/bioconda_utils-requirements.txt -y
 
-     make -C docs/ BIOCONDA_FILTER_RECIPES=2 SPHINXOPTS="-E" html
+   With that env activated, run:
+
+     make BIOCONDA_FILTER_RECIPES=2 SPHINXOPTS="-E" html
 
    This will only build 2 of the recipes pages, dramatically speeding up the
    build process.
@@ -18,7 +20,7 @@
 **Bioconda** lets you install thousands of software packages related to
 biomedical research using the `conda <https://conda.io>`_ package manager.
 
-**NOTE**: *Bioconda supports only 64-bit Linux and macOS*
+**NOTE**: *Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64)*
 
 Usage
 =====
@@ -142,7 +144,7 @@ system consists of the components illustrated in the diagram below.
 
 **Legend** (starting from the bottom):
 
-:circlednumber:`①` Over 1400 contributors who add,
+:circlednumber:`①` Over 1800 contributors who add,
 modify, update, and maintain recipes and packages
 
 .. details:: Details
@@ -185,9 +187,9 @@ package and a Docker container
     the process repeats until all tests pass.
 
     Our `build system`_, `bioconda-utils`, orchestrates the various building
-    and testing steps on Azure Pipelines. The output consists of both a `conda
-    package`_ and a `Biocontainer`_ that can be inspected before merging the
-    pull request.
+    and testing steps on CI infrastructure like CircleCI, Azure Pipelines, and
+    GitHub Actions. The output consists of both a `conda package`_ and
+    a `Biocontainer`_ that can be inspected before merging the pull request.
 
 
 :circlednumber:`④` A repository of packages and a registry of containers
@@ -279,6 +281,7 @@ Core
 * `Elmar Pruesse <https://github.com/epruesse>`_
 * `Robert A. Petit III <https://github.com/rpetit3>`_
 * `Christian Brueffer <https://github.com/cbrueffer>`_
+* `Alicia Evans <https://github.com/aliciaaevans>`_
 
 Former core members
 ~~~~~~~~~~~~~~~~~~~
@@ -291,10 +294,8 @@ Team
 ~~~~
 
 Bioconda would not exist without the continuous hard work and support of the
-wonderful community which includes over 1400 (as of 2022) `contributors
+wonderful community which includes over 1800 (as of 2023) `contributors
 <https://github.com/bioconda/bioconda-recipes/graphs/contributors>`_.
-
-
 
 
 Table of contents

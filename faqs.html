@@ -71,15 +71,21 @@
 <h1>FAQs<a class="headerlink" href="#faqs" title="Permalink to this heading">¶</a></h1>
 <nav class="contents local" id="contents">
 <ul class="simple">
-<li><p><a class="reference internal" href="#how-do-i-speed-up-package-installation" id="id2">How do I speed up package installation?</a></p></li>
-<li><p><a class="reference internal" href="#what-versions-are-supported" id="id3">What versions are supported?</a></p></li>
-<li><p><a class="reference internal" href="#how-do-i-keep-track-of-environments" id="id4">How do I keep track of environments?</a></p></li>
-<li><p><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba" id="id5">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></p></li>
-<li><p><a class="reference internal" href="#what-s-the-difference-between-a-recipe-and-a-package" id="id6">What’s the difference between a recipe and a package?</a></p></li>
-<li><p><a class="reference internal" href="#what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba" id="id7">What’s the difference between miniconda, miniforge, mambaforge, micromamba?</a></p></li>
-<li><p><a class="reference internal" href="#why-are-bioconductor-data-packages-failing-to-install" id="id8">Why are Bioconductor data packages failing to install?</a></p></li>
-<li><p><a class="reference internal" href="#what-s-the-difference-between-a-build-number-and-a-package-version" id="id9">What’s the difference between a build number and a package version?</a></p></li>
-<li><p><a class="reference internal" href="#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls" id="id10">Why shouldn’t I include build numbers in my environment YAMLs?</a></p></li>
+<li><p><a class="reference internal" href="#how-do-i-speed-up-package-installation" id="id6">How do I speed up package installation?</a></p></li>
+<li><p><a class="reference internal" href="#what-versions-are-supported" id="id7">What versions are supported?</a></p></li>
+<li><p><a class="reference internal" href="#how-do-i-keep-track-of-environments" id="id8">How do I keep track of environments?</a></p></li>
+<li><p><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-miniconda-mamba-mambaforge-micromamba" id="id9">What’s the difference between Anaconda, conda, Miniconda, mamba, Mambaforge, micromamba?</a></p></li>
+<li><p><a class="reference internal" href="#what-s-the-difference-between-a-recipe-and-a-package" id="id10">What’s the difference between a recipe and a package?</a></p></li>
+<li><p><a class="reference internal" href="#why-are-bioconductor-data-packages-failing-to-install" id="id11">Why are Bioconductor data packages failing to install?</a></p></li>
+<li><p><a class="reference internal" href="#what-s-the-difference-between-a-build-number-and-a-package-version" id="id12">What’s the difference between a build number and a package version?</a></p></li>
+<li><p><a class="reference internal" href="#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls" id="id13">Why shouldn’t I include build numbers in my environment YAMLs?</a></p></li>
+<li><p><a class="reference internal" href="#how-are-dependencies-pinned-to-particular-versions" id="id14">How are dependencies pinned to particular versions?</a></p></li>
+<li><p><a class="reference internal" href="#what-s-the-lifecycle-of-a-bioconda-package" id="id15">What’s the lifecycle of a bioconda package?</a></p></li>
+<li><p><a class="reference internal" href="#where-can-i-find-more-info-on-meta-yaml" id="id16">Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?</a></p></li>
+<li><p><a class="reference internal" href="#what-are-the-host-and-build-sections-of-a-recipe" id="id17">What are the <code class="docutils literal notranslate"><span class="pre">host</span></code> and <code class="docutils literal notranslate"><span class="pre">build</span></code> sections of a recipe?</a></p></li>
+<li><p><a class="reference internal" href="#compiler-tools" id="id18">Compiler tools</a></p></li>
+<li><p><a class="reference internal" href="#how-does-global-pinning-work" id="id19">How does global pinning work?</a></p></li>
+<li><p><a class="reference internal" href="#understanding-platform-nomenclature" id="id20">Understanding platform nomenclature</a></p></li>
 </ul>
 </nav>
 <section id="how-do-i-speed-up-package-installation">
@@ -110,74 +116,67 @@ environment you create.</p>
 <p>Here are several ways you can use environments to minimize the time spent on
 solving dependencies, which typically is what takes the longest amount of time:</p>
 <ol class="arabic">
-<li><p>Keep the <code class="docutils literal notranslate"><span class="pre">base</span></code> environment small.</p>
+<li><p><strong>Keep the base environment small.</strong></p>
 <p>If you install everything into the same environment (e.g. the <code class="docutils literal notranslate"><span class="pre">base</span></code>
 environment, which is used any time you don’t otherwise specify an
 environment), then whenever you add or update packages to it, the solver has
 to do a lot of work to make sure all of the many packages are mutually
 compatible with each other.</p>
 </li>
-<li><p>Use smaller environments.</p>
+<li><p><strong>Use smaller environments.</strong></p>
 <p>Fewer packages means less work for the solver. Try to use environments only
 containing what you need for a particular project or task.</p>
 </li>
-<li><p>Pin dependencies.</p>
+<li><p><strong>Pin dependencies.</strong></p>
 <p>Sometimes pinning dependencies to a specific version can speed up the
 solving, since it reduces the search space for the solver. In some cases
 this may backfire though. For example, you can’t pin an older version of
 R and also use newer R packages that don’t support that version of R.</p>
 </li>
-<li><p>Create an environment from a file with all dependencies.</p>
+<li><p><strong>Create an environment from a file with all dependencies.</strong></p>
 <p>Creating an environment with all dependencies at once can be faster than
 incrementally adding packages to an existing environment. For example
 <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span> <span class="pre">-n</span> <span class="pre">myenv</span> <span class="pre">--file</span> <span class="pre">requirements.txt</span></code>, or <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span>
 <span class="pre">--file</span> <span class="pre">env.yaml</span></code>.</p>
 </li>
-<li><p>Use strict channel priority.</p>
+<li><p><strong>Use strict channel priority.</strong></p>
 <p>Ensure that you’ve run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span> <span class="pre">--set</span> <span class="pre">channel_priority</span> <span class="pre">strict</span></code> to
-respect the configured channel order. This can also speed up the solving.</p>
+respect the configured channel order, as recommended in the setup
+instructions. This can also speed up the solving.</p>
 </li>
 </ol>
 </section>
 </section>
 <section id="what-versions-are-supported">
 <h2>What versions are supported?<a class="headerlink" href="#what-versions-are-supported" title="Permalink to this heading">¶</a></h2>
-<section id="operating-systems">
-<h3>Operating Systems<a class="headerlink" href="#operating-systems" title="Permalink to this heading">¶</a></h3>
-<p>Bioconda only supports 64-bit Linux and macOS. ARM is not currently supported.</p>
-</section>
-<section id="python">
-<h3>Python<a class="headerlink" href="#python" title="Permalink to this heading">¶</a></h3>
-<p>Bioconda only supports Python 3.8, 3.9 and 3.10.</p>
-<p>The exception to this is Bioconda packages which declare <code class="xref any docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> and
-only depend on such packages - those packages can be installed in an
-environment with any version of Python they say they can support. However many
-python packages in Bioconda depend on other Bioconda packages with architecture
-specific builds, such as <a class="conda-package reference internal" href="recipes/pysam/README.html#package-pysam" title="pysam package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">pysam</span></code></a>, and so do not meet this criteria.</p>
-</section>
-<section id="pinned-packages">
-<h3>Pinned packages<a class="headerlink" href="#pinned-packages" title="Permalink to this heading">¶</a></h3>
-<p>Some packages require <a class="reference external" href="https://en.wikipedia.org/wiki/Application_binary_interface">ABI</a> compatibility
-with underlying libraries. To ensure that packages can work together, there are
-some libraries that need to be <em>pinned</em>, or fixed to a particular version.
-Other packages are then built with that specific version (and therefore that
-specific ABI) to ensure they can all work together.</p>
-<p>The authoritative source for which packages are pinned and to which versions
-can be found in the <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">bioconda_utils-conda_build_config.yaml</a>
-file.</p>
-<p>This is <em>in addition to</em> the conda-forge specified versions,
-<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda_build_config.yaml</a>
-which pins versions of base dependencies like boost, zlib, and many others.</p>
-</section>
-<section id="unsupported-versions">
-<h3>Unsupported versions<a class="headerlink" href="#unsupported-versions" title="Permalink to this heading">¶</a></h3>
-<p>If there is a version of a dependency you wish to build against that Bioconda
+<p><strong>Operating Systems:</strong>
+Bioconda supports Linux (x86_64 and aarch64/arm64) and
+macOS (x86_64). ARM is not currently supported for macOS. Windows is not
+supported.</p>
+<p><strong>Python:</strong>
+Bioconda currently supports Python 3.8, 3.9, and 3.10 (see “pinned packages”
+below for where this is configured). There are still packages in the Bioconda
+channel for earlier versions of Python (2.7, 3.6, and 3.7), but new packages
+are not built for these versions.</p>
+<p>Packages which declare <code class="xref any docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> and only depend on packages that also
+declare <code class="xref any docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> can be installed in an environment with any version of
+Python they say they can support. However many Python packages in Bioconda
+depend on other Bioconda packages with architecture specific builds, such as
+<a class="conda-package reference internal" href="recipes/pysam/README.html#package-pysam" title="pysam package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">pysam</span></code></a>, and so do not meet this criteria.</p>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2022-09-01: </span>Python 3.10 support started in Aug 2022</p>
+</div>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2023-05-01: </span>Python 2.7, 3.6, 3.7 support were dropped for new recipes in May 2023.</p>
+</div>
+<p><strong>Globally-pinned versions:</strong> See <a class="reference internal" href="#global-pinning"><span class="std std-ref">How does global pinning work?</span></a> for details.</p>
+<p><strong>Unsupported versions:</strong>
+If there is a version of a dependency you wish to build against that Bioconda
 does not currently support, please reach out to the <a class="reference external" href="https://gitter.im/bioconda/Lobby">Bioconda Gitter</a> for more information about if supporting
 that version is feasible, if work on that is already being done, and how you
 can help.</p>
 <p>To find out against which version you can pin a package, e.g. x.y.* or x.*
 please use <a class="reference external" href="https://abi-laboratory.pro/tracker/">ABI-Laboratory</a>.</p>
-</section>
 </section>
 <section id="how-do-i-keep-track-of-environments">
 <h2>How do I keep track of environments?<a class="headerlink" href="#how-do-i-keep-track-of-environments" title="Permalink to this heading">¶</a></h2>
@@ -195,16 +194,28 @@ a project with the <code class="docutils literal notranslate"><span class="pre">
 <p>This also works quite well in a shared directory so everyone can use (and
 maintain) the same environment.</p>
 </section>
-<section id="what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">
-<span id="conda-anaconda-minconda"></span><h2>What’s the difference between Anaconda, conda, Miniconda, and mamba?<a class="headerlink" href="#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba" title="Permalink to this heading">¶</a></h2>
+<section id="what-s-the-difference-between-anaconda-conda-miniconda-mamba-mambaforge-micromamba">
+<span id="conda-anaconda-minconda"></span><h2>What’s the difference between Anaconda, conda, Miniconda, mamba, Mambaforge, micromamba?<a class="headerlink" href="#what-s-the-difference-between-anaconda-conda-miniconda-mamba-mambaforge-micromamba" title="Permalink to this heading">¶</a></h2>
+<p>This <a class="reference external" href="https://www.anaconda.com/blog/is-conda-free">blog post from Anaconda</a>
+gives a lot of context on the Anaconda/conda ecosystem.</p>
 <ul class="simple">
-<li><p>conda is the name of the package manager, which is what runs when you call,
+<li><p><strong>conda</strong> is the name of the package manager, which is what runs when you call,
 e.g., <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>.</p></li>
-<li><p>mamba is a drop-in replacement for conda (see above for details)</p></li>
-<li><p>Anaconda is a large installation including Python, conda, and a large number
+<li><p><strong>mamba</strong> is a drop-in replacement for conda</p></li>
+<li><p><strong>Anaconda</strong> is a large installation including Python, conda, and a large number
 of packages.</p></li>
-<li><p>Miniconda just has conda and its dependencies (in contrast to the larger
-Anaconda distribution).</p></li>
+<li><p><strong>Miniconda</strong> just has conda and its dependencies (in contrast to the larger
+Anaconda distribution)</p></li>
+<li><p><strong>Miniforge</strong> is like miniconda, but with the conda-forge channel
+preconfigured and all packages coming from the conda-forge and <em>not</em> the
+<code class="docutils literal notranslate"><span class="pre">defaults</span></code> channel. It also now has mamba and libmamba included.</p></li>
+<li><p><strong>Mambaforge</strong> is like miniforge, but has mamba installed into the base
+environment. While not strictly deprecated, its use is discouraged as of
+Sept 2023 (see <a class="reference external" href="https://github.com/conda-forge/miniforge">miniforge README</a>)&gt;</p></li>
+<li><p><strong>Micromamba</strong> is not a conda distribution. Rather, it is a minimal binary
+that has roughly the same commands as mamba, so that a single executable
+(rather than an entire Python installation required for conda itself) can be
+used to create environments. Micromamba is currently still experimental.</p></li>
 </ul>
 <p>The <a class="reference external" href="https://www.continuum.io/downloads">Anaconda Python distribution</a>
 started out as a bundle of scientific Python packages that were otherwise
@@ -222,8 +233,13 @@ code or running individual steps of a workflow. To avoid needing to install the
 This installs only what you need to run conda itself, which can then be used to
 create other environments. So the “mini” in Miniconda means that it’s
 a fraction of the size of the full Anaconda installation.</p>
-<p>So: conda is a package manager, Miniconda is the conda installer, and Anaconda
-is a scientific Python distribution that also includes conda.</p>
+<p>Then the conda-forge channel gained popularity. Miniforge was developed to
+quickly and easily get a conda-forge-ready conda installation. Then as mamba
+gained popularity, the Mambaforge variant was created.</p>
+<p>Even with those easier methods, sometimes the entire base Python installation that comes with conda/mamba was too much overhead. Micromamba has a single binary that is very fast to install, and is perfect for CI environments.</p>
+<p>So: conda is a package manager, Anaconda is a scientific Python distribution
+that also includes conda, and the rest are other flavors of getting
+a conda/mamba installation.</p>
 </section>
 <section id="what-s-the-difference-between-a-recipe-and-a-package">
 <h2>What’s the difference between a recipe and a package?<a class="headerlink" href="#what-s-the-difference-between-a-recipe-and-a-package" title="Permalink to this heading">¶</a></h2>
@@ -246,19 +262,6 @@ with <code class="docutils literal notranslate"><span class="pre">conda</span> <
 what a package contains and how it is installed into an
 environment.</p>
 </div>
-</section>
-<section id="what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba">
-<h2>What’s the difference between miniconda, miniforge, mambaforge, micromamba?<a class="headerlink" href="#what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba" title="Permalink to this heading">¶</a></h2>
-<p><strong>Miniconda</strong> is the slimmed-down version of the Anaconda distribution;
-miniconda only has conda and its dependencies.</p>
-<p><strong>Miniforge</strong> is like miniconda, but with the conda-forge channel preconfigured
-and all packages coming from the conda-forge and <em>not</em> the <code class="docutils literal notranslate"><span class="pre">defaults</span></code>
-channel.</p>
-<p><strong>Mambaforge</strong> is like miniforge, but has mamba installed into the base environment.</p>
-<p><strong>Micromamba</strong> is not a conda distribution. Rather, it is a minimal binary that
-has roughly the same commands as mamba, so that a single executable (rather
-than an entire Python installation required for conda itself) can be used to
-create environments. Micromamba is currently still experimental.</p>
 </section>
 <section id="why-are-bioconductor-data-packages-failing-to-install">
 <h2>Why are Bioconductor data packages failing to install?<a class="headerlink" href="#why-are-bioconductor-data-packages-failing-to-install" title="Permalink to this heading">¶</a></h2>
@@ -386,6 +389,169 @@ output, avoiding future errors when trying to rebuild the environment, and
 allowing the conda solver to identify the packages that can co-exist in the
 same environment.</p>
 </section>
+<section id="how-are-dependencies-pinned-to-particular-versions">
+<h2>How are dependencies pinned to particular versions?<a class="headerlink" href="#how-are-dependencies-pinned-to-particular-versions" title="Permalink to this heading">¶</a></h2>
+<p>In some cases a recipe may need to pin the version of a dependency.
+A global set of default versions to pin against is shared with conda-forge and
+can be found <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">here</a>.
+For new dependencies that are contained in conda-forge and not yet in this list,
+please update the list via a pull request.
+Local pinnings can be achieved by adding a file <code class="docutils literal notranslate"><span class="pre">conda_build_config.yaml</span></code> next
+to your <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
+<p>To find out against which version you can pin a package, e.g. x.y.* or x.* please use <a class="reference external" href="https://abi-laboratory.pro/tracker/">ABI-Laboratory</a>.</p>
+</section>
+<section id="what-s-the-lifecycle-of-a-bioconda-package">
+<h2>What’s the lifecycle of a bioconda package?<a class="headerlink" href="#what-s-the-lifecycle-of-a-bioconda-package" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Submit a pull request with a new recipe or an updated recipe</p></li>
+<li><p>CI (see <a class="reference internal" href="developer/ci-inventory.html#ci-inventory"><span class="std std-ref">CI Inventory</span></a>) automatically builds and tests the changed
+recipe[s] using conda-build. Test results are shown on the PR.</p></li>
+<li><p>If tests fail, push changes to PR until they pass.</p></li>
+<li><p>Once tests pass, merge into master branch</p></li>
+<li><p>CI tests again, but this time after testing the built packages are
+uploaded to the bioconda channel on anaconda.org.</p></li>
+<li><p>Users can now install the package just like any other conda package with
+<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>.</p></li>
+</ul>
+<p>Once uploaded to anaconda.org, it is our intention to never delete any old
+packages. Even if a recipe in the bioconda repo is updated to a new version,
+the old version will remain on anaconda.org. ContinuumIO has graciously agreed
+to sponsor the storage required by the bioconda channel.
+Nevertheless, it can sometimes happen that we have to mark packages as broken
+in order to avoid that they are accidentally pulled by the conda solver.
+In such a case it is only possible to install them by specifically considering
+the <code class="docutils literal notranslate"><span class="pre">broken</span></code> label, i.e.,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>-c<span class="w"> </span>bioconda<span class="w"> </span>-c<span class="w"> </span>defaults<span class="w"> </span>-c<span class="w"> </span>bioconda/label/broken<span class="w"> </span>my-package<span class="o">=</span>&lt;broken-version&gt;
+</pre></div>
+</div>
+</section>
+<section id="where-can-i-find-more-info-on-meta-yaml">
+<h2>Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?<a class="headerlink" href="#where-can-i-find-more-info-on-meta-yaml" title="Permalink to this heading">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file is conda’s metadata definition file for recipes.
+If you are developing a new recipe or are trying to update or improve an existing one, it can be helpful to know
+which elements and values can appear in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
+<p>Conda has this information available <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html">here</a>.
+Please check that you are looking at the correct version of the documentation
+for the current conda version used by bioconda.</p>
+</section>
+<section id="what-are-the-host-and-build-sections-of-a-recipe">
+<h2>What are the <code class="docutils literal notranslate"><span class="pre">host</span></code> and <code class="docutils literal notranslate"><span class="pre">build</span></code> sections of a recipe?<a class="headerlink" href="#what-are-the-host-and-build-sections-of-a-recipe" title="Permalink to this heading">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">requirements:build</span></code> section of a meta.yaml file is used to specify the
+tools for <em>building</em> the package, but not necessarily for <em>running</em> it. This is
+where compilers should go. The build section might also include tools like
+<code class="docutils literal notranslate"><span class="pre">make</span></code>, <code class="docutils literal notranslate"><span class="pre">automake</span></code>, <code class="docutils literal notranslate"><span class="pre">cmake</span></code>, or <code class="docutils literal notranslate"><span class="pre">git</span></code>. If there are no compilers or
+other build tools, there should be no <code class="docutils literal notranslate"><span class="pre">build:</span></code> section.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">requirements:host</span></code> section is used to specify <em>shared libraries</em>. It was
+originally introduced to support cross-compiling (e.g., build on linux-64 but
+output a package to be used on linux-aarch64) and the shared libraries here are
+what’s needed on the target (e.g. linux-aarch64 in this example). In practice,
+this is where the base interpreter <code class="docutils literal notranslate"><span class="pre">python</span></code> or <code class="docutils literal notranslate"><span class="pre">r-base</span></code> should go for
+Python and R packages. <code class="docutils literal notranslate"><span class="pre">pip</span></code> is usually here as well, and <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> if
+it is required for the build process. <code class="docutils literal notranslate"><span class="pre">cython</span></code> would go here. If a package
+<a class="reference external" href="https://conda-forge.org/docs/maintainer/knowledge_base.html#building-against-numpy">builds against numpy</a>,
+then <code class="docutils literal notranslate"><span class="pre">numpy</span></code> should go here (otherwise, it should go in the <code class="docutils literal notranslate"><span class="pre">run:</span></code>
+requirements). Shared libraries like <code class="docutils literal notranslate"><span class="pre">zlib</span></code>, <code class="docutils literal notranslate"><span class="pre">hdf5</span></code>, <code class="docutils literal notranslate"><span class="pre">libcurl</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">htslib</span></code> should go here in <code class="docutils literal notranslate"><span class="pre">requirements:host</span></code>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">requirements:run</span></code> section of a meta.yaml is used to specify the
+<em>runtime</em> dependencies of the package.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>See the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#requirements" title="(in conda-build v0.0.0.dev0+placeholder)"><code class="xref any docutils literal notranslate"><span class="pre">requirements</span> <span class="pre">section</span></code></a> of the
+conda docs for more info.</p>
+</div>
+</section>
+<section id="compiler-tools">
+<span id="id5"></span><h2>Compiler tools<a class="headerlink" href="#compiler-tools" title="Permalink to this heading">¶</a></h2>
+<p>Use the syntax <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('c')</span> <span class="pre">}}</span></code>, <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('cxx')</span> <span class="pre">}}</span></code>, and/or <code class="docutils literal notranslate"><span class="pre">{{</span>
+<span class="pre">compiler('fortran')</span> <span class="pre">}}</span></code>. These should go in the <code class="docutils literal notranslate"><span class="pre">build</span></code> section, and all
+other build dependencies should go in the <code class="docutils literal notranslate"><span class="pre">host</span></code> section.</p>
+<p>Anaconda provides platform-specific compilers that are automatically
+determined. The string <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('c')</span> <span class="pre">}}</span></code> will resolve to <code class="docutils literal notranslate"><span class="pre">gcc</span></code> on
+Linux, but <code class="docutils literal notranslate"><span class="pre">clang</span></code> on macOS (osx-64).</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/compiler-tools.html#compiler-tools" title="(in conda-build v0.0.0.dev0+placeholder)"><code class="xref any docutils literal notranslate"><span class="pre">compiler</span> <span class="pre">tools</span></code></a> section of the
+conda docs has much more info.</p></li>
+<li><p>The default compiler options are defined by conda-build in the
+<a class="reference external" href="https://github.com/conda/conda-build/blob/master/conda_build/variants.py#L42">variants.DEFAULT_COMPILERS</a>
+variable.</p></li>
+<li><p>More details on “strong” and “weak” exports (using examples of
+libpng and libgcc) can be found in the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#run-exports" title="(in conda-build v0.0.0.dev0+placeholder)"><code class="xref any docutils literal notranslate"><span class="pre">export</span> <span class="pre">runtime</span>
+<span class="pre">requirements</span></code></a> conda documentation.</p></li>
+</ul>
+</div>
+</section>
+<section id="how-does-global-pinning-work">
+<span id="global-pinning"></span><h2>How does global pinning work?<a class="headerlink" href="#how-does-global-pinning-work" title="Permalink to this heading">¶</a></h2>
+<p>We can have conflicts when the version of a common library used when the
+package is originally <em>built</em> differs from the version when the package is
+<em>installed</em>. All packages intending to be installed into the same environment
+should be built using the same versions of common libraries so that they can
+co-exist. <strong>Global pinning</strong> is the idea of making sure all recipes use the
+same versions of common libraries.</p>
+<p>For example, many bioinformatics tools have <code class="docutils literal notranslate"><span class="pre">zlib</span></code> as a dependency.
+The version of <code class="docutils literal notranslate"><span class="pre">zlib</span></code> used when building the package should be the same as the
+version used when installing the package into a new environment. This implies
+that we need to specify the <code class="docutils literal notranslate"><span class="pre">zlib</span></code> version in one place and have <em>all recipes
+intended to coexist in the same environment</em> use that version.</p>
+<p>This is configured with special build config files. Since we rely heavily on
+the conda-forge channel, the bioconda build system installs the conda-forge
+<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda_build_config.yaml</a>
+into our build environment so that it can be used for building all recipes.
+This is then combined with the bioconda-specific
+<a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">bioconda-Utils-conda_build_config.yaml</a>.
+Note that in some cases the bioconda config may override some of the
+conda-forge configs. For example, historically, we did this when we wanted to
+support older Python versions.</p>
+<p>The idea here is to specify that any time a dependency (<code class="docutils literal notranslate"><span class="pre">zlib</span></code>, in our
+running example) is used as a build dependency, it should also be automatically
+be installed as a run dependency without having to explicitly add it as such in
+the recipe. This specification is done in the <code class="docutils literal notranslate"><span class="pre">zlib</span></code> recipe itself (which is
+hosted by conda-forge), so in general bioconda collaborators can just add
+<code class="docutils literal notranslate"><span class="pre">zlib</span></code> as a build dependency.</p>
+<p>Note that we don’t have to specify the version of <code class="docutils literal notranslate"><span class="pre">zlib</span></code> in the recipe – it
+is pinned in that <code class="docutils literal notranslate"><span class="pre">conda_build_config.yaml</span></code> file we share with conda-forge.</p>
+<p>In a similar fashion, the reason that we don’t have to specify <code class="docutils literal notranslate"><span class="pre">libgcc</span></code> as
+a <em>run</em> dependency is that <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('c')</span> <span class="pre">}}</span></code> automatically exports
+<code class="docutils literal notranslate"><span class="pre">libgcc</span></code> as a run dependency of any package that uses the C compiler to
+build.</p>
+</section>
+<section id="understanding-platform-nomenclature">
+<span id="platform-nomenclature-faq"></span><h2>Understanding platform nomenclature<a class="headerlink" href="#understanding-platform-nomenclature" title="Permalink to this heading">¶</a></h2>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2024-03-04: </span>Added section</p>
+</div>
+<p>Different CPU chips use different architecture, so programs are written
+fundamentally differently for them. A package with compiled dependencies must
+therefore use platform-specific dependencies.</p>
+<p>There is a lot of confusing nomenclature surrounding them. Here is an attempt
+at clearing them up, or at least providing enough context that you can look up
+more details on your own:</p>
+<p><strong>ISA, instruction set, CISC, RISC, RISC-V</strong>: The <em>instruction set</em> is the assembly
+code commands that are possible for the chip. <em>CISC</em> is “complex instruction
+set computer” which prioritizes flexibility. <em>RISC</em> is “reduced instruction set
+computer” which prioritizing power consumption (this is an oversimplification,
+but that’s the general idea). Instruction sets can be proprietary. <a class="reference external" href="https://arm.com/company">Arm</a> is a company that licenses a widely-used
+proprietary reduced instruction set. RISC-V is an open (non-proprietary)
+reduced instruction set.</p>
+<p><strong>Arm vs ARM:</strong> Arm is the company that licenses the proprietary instruction
+set. For example, they license it to Apple to run on their M-series chips. ARM
+(in all caps) refers to the family of RISC instruction sets, and by extension
+chips that use the instruction sets. It is also an acronym for Advanced RISC
+Machines and the eariler Acorn RISC Machine. This <a class="reference external" href="https://nickdesaulniers.github.io/blog/2023/03/10/disambiguating-arm/">blog post</a> goes
+into lots more detail.</p>
+<p><code class="docutils literal notranslate"><span class="pre">x86_64</span></code>, <code class="docutils literal notranslate"><span class="pre">amd64</span></code>: These are synonyms for the original Intel/AMD
+architecture.</p>
+<p><code class="docutils literal notranslate"><span class="pre">linux/x86_64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux/arm64</span></code>, <code class="docutils literal notranslate"><span class="pre">darwin/amd64</span></code>: These are the platform
+designators when using Docker (see <a class="reference external" href="https://docs.docker.com/build/building/multi-platform/">multi-platform images</a> in the Docker
+documentation).</p>
+<p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code>: These are the
+platform designators used by conda in channels hosted by Anaconda.</p>
+<p><code class="docutils literal notranslate"><span class="pre">aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">arm64</span></code>: These are synonyms for ARM 64-bit architecture.</p>
+<p><strong>M1, M2, M3, Apple Silicon</strong>: These are chips made by Apple and used in Macs.
+Apple licenses the ARM RISC, so they are considered aarch64 or arm64.</p>
+</section>
 </section>
 
 
@@ -417,20 +583,20 @@ same environment.</p>
 <li class="toctree-l3"><a class="reference internal" href="#speedup-option-2-use-environments-strategically">Speedup option 2: use environments strategically</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#what-versions-are-supported">What versions are supported?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#operating-systems">Operating Systems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#python">Python</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#pinned-packages">Pinned packages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#unsupported-versions">Unsupported versions</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#what-versions-are-supported">What versions are supported?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-do-i-keep-track-of-environments">How do I keep track of environments?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-miniconda-and-mamba">What’s the difference between Anaconda, conda, Miniconda, and mamba?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-miniconda-mamba-mambaforge-micromamba">What’s the difference between Anaconda, conda, Miniconda, mamba, Mambaforge, micromamba?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-a-recipe-and-a-package">What’s the difference between a recipe and a package?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-miniconda-miniforge-mambaforge-micromamba">What’s the difference between miniconda, miniforge, mambaforge, micromamba?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#why-are-bioconductor-data-packages-failing-to-install">Why are Bioconductor data packages failing to install?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-a-build-number-and-a-package-version">What’s the difference between a build number and a package version?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls">Why shouldn’t I include build numbers in my environment YAMLs?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-are-dependencies-pinned-to-particular-versions">How are dependencies pinned to particular versions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-lifecycle-of-a-bioconda-package">What’s the lifecycle of a bioconda package?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#where-can-i-find-more-info-on-meta-yaml">Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-are-the-host-and-build-sections-of-a-recipe">What are the <code class="docutils literal notranslate"><span class="pre">host</span></code> and <code class="docutils literal notranslate"><span class="pre">build</span></code> sections of a recipe?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#compiler-tools">Compiler tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-does-global-pinning-work">How does global pinning work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#understanding-platform-nomenclature">Understanding platform nomenclature</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="contributor/index.html">Contributing to Bioconda</a></li>

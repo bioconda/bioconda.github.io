@@ -152,6 +152,7 @@ details div.details {
     font-style: italic;
 }
 
+/* Used on the front page to describe the workflow diagram */
 .circlednumber {
     font-size: 150%;
     font-weight: bold;
@@ -164,7 +165,71 @@ details div.details {
     margin-top: -15px;
 }
 
+/* If a details section includes an anchor, this styles the "¶" symbol */
 details a.headerlink {
     color: #ccc;
     visibility: visible;
+}
+
+/* when using .. datechanged:: directive, makes the whole thing italic and
+* a little smaller */
+div.datechanged {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* "conda green" for the .. datechanged:: label */
+.versionmodified {
+    color: #3eb049;
+}
+
+
+/* make the inventory tables (for ci and docker) fit a little better on screen */
+table.inventory {
+    overflow-x: scroll;
+    font-size: 0.8em;
+}
+
+table.inventory th, td {
+    min-width: 100px;
+}
+
+code.xref {
+    font-weight: normal;
+}
+
+/* for :program:`program-name` roles */
+.program {
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 0.9em;
+}
+/* for :command:`cmd here` roles */
+.command {
+    font-weight: normal;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 0.9em;
+}
+
+/* for :file:`path` roles */
+.file {
+    font-weight: normal;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 0.9em;
+    background-color: transparent;
+}
+
+/* Text under figures */ 
+.caption-text {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* add more space to lists */
+ol.simple p {
+    margin-bottom: 1em;
+}
+ul.simple p {
+    margin-bottom: 1em;
 }

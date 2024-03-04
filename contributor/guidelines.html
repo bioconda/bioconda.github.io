@@ -191,11 +191,13 @@ bioconda.</p>
 runs the tests listed in the <code class="docutils literal notranslate"><span class="pre">test</span></code> section of the recipe’s <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>
 file in an environment which does not have the dependencies listed in the
 <code class="docutils literal notranslate"><span class="pre">test:</span> <span class="pre">requires:</span></code> section. Because of this, all tests in that section
-must only rely on runtime dependencies or the build will fail.
-Tests that rely on the test-time dependencies listed in <code class="docutils literal notranslate"><span class="pre">test:</span> <span class="pre">requires:</span></code> should be put in
-the <code class="docutils literal notranslate"><span class="pre">run_test.sh</span></code> file in the same directory as the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file. This file is
-picked up and run by the standard build that occurs before the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>, but is
-not passed on to and run by the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>.</p>
+must only rely on runtime dependencies or the build will fail.</p>
+<p>If you do want to run tests that rely on dependencies listed in <code class="docutils literal notranslate"><span class="pre">test:</span>
+<span class="pre">requires:</span></code>, those tests should not be written directly in the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>
+file but instead put in a <code class="docutils literal notranslate"><span class="pre">run_test.sh</span></code> file in the same directory as the
+<code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file. This file is picked up and run by the standard conda build
+test that occurs before the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>, but is not passed on to and run
+by the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>.</p>
 </section>
 <section id="patching">
 <span id="id5"></span><h3>Patching<a class="headerlink" href="#patching" title="Permalink to this heading">¶</a></h3>
@@ -234,14 +236,14 @@ Packages containing only “built source” distributions produced with
 <p>Make sure you have a conda-build version 3.x when running
 <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span> <span class="pre">&lt;packagename&gt;</span></code>. If you are still using conda-build
 2.x, either update your conda-build package, or follow the migration
-guidelines in <a class="reference internal" href="cb3.html#cb3-main"><span class="std std-ref">Conda build v3</span></a>.</p>
+guidelines in <span class="xref std std-ref">cb3-main</span>.</p>
 </div>
 <ul class="simple">
 <li><p>typical <code class="docutils literal notranslate"><span class="pre">import</span></code> check: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysam">pysam</a></p></li>
 <li><p>import and command-line tests: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chanjo">chanjo</a></p></li>
 </ul>
 <p>By default, Python recipes (those that have <code class="docutils literal notranslate"><span class="pre">python</span></code> listed as a dependency)
-must be successfully built and tested on Python 2.7, 3.6, and 3.7 in order to
+must be successfully built and tested on all supported Python versions in order to
 pass. However, many Python packages are not fully compatible across all Python
 versions. Use the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#preprocess-selectors" title="(in conda-build v0.0.0.dev0+placeholder)"><code class="xref any docutils literal notranslate"><span class="pre">preprocessing</span> <span class="pre">selectors</span></code></a>
 in the meta.yaml file along with the <code class="docutils literal notranslate"><span class="pre">build/skip</span></code> entry to indicate that
@@ -376,6 +378,12 @@ A wrapper script should be placed here as well, and symlinked to
 <p>Use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cpan</span> <span class="pre">&lt;packagename&gt;</span></code> to build a recipe for Perl and
 place the recipe in the <code class="docutils literal notranslate"><span class="pre">recipes</span></code> dir. The recipe will have the
 <code class="docutils literal notranslate"><span class="pre">perl-</span></code> prefix.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Historically, before conda-forge hosted Perl packages, many
+non-bioinformatics-related Perl packages were hosted on Bioconda. These are
+slowly being migrated to conda-forge.</p>
+</div>
 <p>An example of such a package is
 <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build">perl-module-build</a>.</p>
 <p>Alternatively, you can additionally ensure the build requirements for
@@ -663,10 +671,8 @@ and others.</p>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="linting.html">Linting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="updating.html">Updating recipes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>

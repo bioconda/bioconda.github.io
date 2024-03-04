@@ -159,10 +159,13 @@ runs the tests listed in the ``test`` section of the recipe's ``meta.yaml``
 file in an environment which does not have the dependencies listed in the
 ``test: requires:`` section. Because of this, all tests in that section
 must only rely on runtime dependencies or the build will fail.
-Tests that rely on the test-time dependencies listed in ``test: requires:`` should be put in
-the ``run_test.sh`` file in the same directory as the ``meta.yaml`` file. This file is
-picked up and run by the standard build that occurs before the ``mulled-build``, but is
-not passed on to and run by the ``mulled-build``.
+
+If you do want to run tests that rely on dependencies listed in ``test:
+requires:``, those tests should not be written directly in the ``meta.yaml``
+file but instead put in a ``run_test.sh`` file in the same directory as the
+``meta.yaml`` file. This file is picked up and run by the standard conda build
+test that occurs before the ``mulled-build``, but is not passed on to and run
+by the ``mulled-build``.
 
 .. _patching:
 
@@ -215,7 +218,7 @@ a command-line tool, in which case that should be tested as well.
 
 
 By default, Python recipes (those that have ``python`` listed as a dependency)
-must be successfully built and tested on Python 2.7, 3.6, and 3.7 in order to
+must be successfully built and tested on all supported Python versions in order to
 pass. However, many Python packages are not fully compatible across all Python
 versions. Use the `preprocessing selectors <conda-build:preprocess-selectors>`
 in the meta.yaml file along with the ``build/skip`` entry to indicate that
@@ -377,6 +380,12 @@ Perl
 Use ``conda skeleton cpan <packagename>`` to build a recipe for Perl and
 place the recipe in the ``recipes`` dir. The recipe will have the
 ``perl-`` prefix.
+
+.. note::
+
+   Historically, before conda-forge hosted Perl packages, many
+   non-bioinformatics-related Perl packages were hosted on Bioconda. These are
+   slowly being migrated to conda-forge.
 
 An example of such a package is
 `perl-module-build <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build>`_.

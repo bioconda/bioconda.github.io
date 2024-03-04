@@ -69,7 +69,7 @@
   <img alt="_images/bioconda.png" src="_images/bioconda.png" />
 <p><strong>Bioconda</strong> lets you install thousands of software packages related to
 biomedical research using the <a class="reference external" href="https://conda.io">conda</a> package manager.</p>
-<p><strong>NOTE</strong>: <em>Bioconda supports only 64-bit Linux and macOS</em></p>
+<p><strong>NOTE</strong>: <em>Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64)</em></p>
 <section id="usage">
 <h1>Usage<a class="headerlink" href="#usage" title="Permalink to this heading">¶</a></h1>
 <p>First, <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">install conda</a>.</p>
@@ -157,7 +157,7 @@ contributors and additional infrastructure to make it all happen. The entire
 system consists of the components illustrated in the diagram below.</p>
 <a class="reference internal image-reference" href="_images/bioconda-dag.png"><img alt="_images/bioconda-dag.png" src="_images/bioconda-dag.png" style="width: 80%;" /></a>
 <p><strong>Legend</strong> (starting from the bottom):</p>
-<p><span class="circlednumber">①</span> Over 1400 contributors who add,
+<p><span class="circlednumber">①</span> Over 1800 contributors who add,
 modify, update, and maintain recipes and packages</p>
 <details><summary>Details</summary><div class="details"><p><i>Details</i></p><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">Contributors</a> to
 Bioconda add new recipes or update existing recipes by opening pull
@@ -185,9 +185,9 @@ and tested. The results are reported back to the GitHub pull request page.
 Contributors work together to fix any issues (which are tested again) and
 the process repeats until all tests pass.</p>
 <p>Our <a class="reference external" href="https://github.com/bioconda/bioconda-utils">build system</a>, <a class="conda-package reference internal" href="recipes/bioconda-utils/README.html#package-bioconda-utils" title="bioconda-utils package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a>, orchestrates the various building
-and testing steps on Azure Pipelines. The output consists of both a <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/packages.html">conda
-package</a> and a <a class="reference external" href="https://biocontainers.pro">Biocontainer</a> that can be inspected before merging the
-pull request.</p>
+and testing steps on CI infrastructure like CircleCI, Azure Pipelines, and
+GitHub Actions. The output consists of both a <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/packages.html">conda package</a> and
+a <a class="reference external" href="https://biocontainers.pro">Biocontainer</a> that can be inspected before merging the pull request.</p>
 </div></details><p><span class="circlednumber">④</span> A repository of packages and a registry of containers
 containing over 8000 bioinformatics packages</p>
 <details><summary>Details</summary><div class="details"><p><i>Details</i></p><p>When all tests pass and the pull request is merged into the main branch,
@@ -211,56 +211,91 @@ channel.</p>
 <div style="width: 100%" id="package_plot"></div>
 
 <script>
-window.onload = function() {
+  window.onload = function () {
     // Download download plot data
-    $.get( "https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda.json", function( data ) {
-    data = JSON.parse(data);
-    let bioconda_data = data["downloads_per_date"].slice(-30);
+    $.get("https://raw.githubusercontent.com/bioconda/bioconda-stats/data/package-downloads/anaconda.org/bioconda/channel.tsv", function (bioconda_data) {
 
-    let spec = {
-       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-       "description": "Total bioconda downloads.",
-       "title": "Total bioconda downloads",
-       "data": {"values": []},
-       "width": "container",
-       "mark": "line",
-       "encoding": {
-         "y": {"field": "total", "type": "quantitative", "title": "total downloads", "scale": {"domain": []}},
-         "x": {"field": "date", "timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
-         "color": {"value": "#43AF4E"},
-         "tooltip": {"field": "total"}
-       }
-    };
+      let spec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "Total bioconda downloads.",
+        "title": "Total bioconda downloads",
+        "data": {
+          "values": bioconda_data,
+          "format": { "type": "tsv", "parse": { "total": "number", "date": "date" } }
+        },
+        "transform": [
+          {
+            "window": [{ "op": "rank", "as": "rank" }],
+            "sort": [{ "field": "date", "order": "descending" }]
+          },
+          {
+            "filter": "datum.rank <= 30"
+          },
+          {
+            "joinaggregate": [
+              { "op": "max", "field": "total", "as": "max" },
+              { "op": "min", "field": "total", "as": "min" }
+            ]
+          }
+        ],
+        "params": [
+          { "name": "max", "expr": "data('data_0')[0]['max']" },
+          { "name": "min", "expr": "data('data_0')[0]['min']" }
+        ],
+        "width": "container",
+        "mark": "line",
+        "encoding": {
+          "y": {
+            "field": "total",
+            "type": "quantitative",
+            "title": "total downloads",
+            "scale": {
+              "domainMin": { "expr": "min-1000" },
+              "domainMax": { "expr": "max+1000" }
+            }
+          },
+          "x": { "field": "date", "timeUnit": "yearmonthdate", "title": "date", "axis": { "labelAngle": -15 } },
+          "color": { "value": "#43AF4E" },
+          "tooltip": { "field": "total" }
+        }
+      };
 
-    spec.data.values = bioconda_data;
-    spec.encoding.y.scale.domain = [bioconda_data[0].total - 1000, bioconda_data[bioconda_data.length - 1].total + 1000];
-    vegaEmbed('#download_plot', spec);
+      vegaEmbed('#download_plot', spec);
     });
 
     // Download download plot data
-    $.get( "https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda.json", function( p_data ) {
-    p_data = JSON.parse(p_data);
-    let package_data = p_data["downloads_per_package"].slice(-20);
+    $.get("https://raw.githubusercontent.com/bioconda/bioconda-stats/data/package-downloads/anaconda.org/bioconda/packages.tsv", function (package_data) {
 
-    let package_spec = {
-       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-       "description": "Top downloaded packages.",
-       "title": "Top 20 packages",
-       "data": {"values": []},
-       "width": "container",
-       "mark": "bar",
-       "encoding": {
-         "x": {"field": "total", "type": "quantitative", "title": "total downloads"},
-         "y": {"field": "package", "sort":"-x", "type":"nominal", "title": "package"},
-         "color": {"value": "#43AF4E"},
-         "tooltip": {"field": "total"}
-       }
-    };
+      let package_spec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "description": "Top downloaded packages.",
+        "title": "Top 20 packages",
+        "data": {
+          "values": package_data,
+          "format": { "type": "tsv", "parse": { "total": "number" } }
+        },
+        "transform": [
+          {
+            "window": [{ "op": "rank", "as": "rank" }],
+            "sort": [{ "field": "total", "order": "descending" }]
+          },
+          {
+            "filter": "datum.rank <= 20"
+          }
+        ],
+        "width": "container",
+        "mark": "bar",
+        "encoding": {
+          "x": { "field": "total", "type": "quantitative", "title": "total downloads" },
+          "y": { "field": "package", "sort": "-x", "type": "nominal", "title": "package" },
+          "color": { "value": "#43AF4E" },
+          "tooltip": { "field": "total" }
+        }
+      };
 
-    package_spec.data.values = package_data;
-    vegaEmbed('#package_plot', package_spec);
+      vegaEmbed('#package_plot', package_spec);
     });
-}
+  }
 </script>
 </section>
 </section>
@@ -306,6 +341,7 @@ Methods, 2018 doi:<a class="reference external" href="https://doi.org/10.1038/s4
 <li><p><a class="reference external" href="https://github.com/epruesse">Elmar Pruesse</a></p></li>
 <li><p><a class="reference external" href="https://github.com/rpetit3">Robert A. Petit III</a></p></li>
 <li><p><a class="reference external" href="https://github.com/cbrueffer">Christian Brueffer</a></p></li>
+<li><p><a class="reference external" href="https://github.com/aliciaaevans">Alicia Evans</a></p></li>
 </ul>
 </section>
 <section id="former-core-members">
@@ -319,7 +355,7 @@ Methods, 2018 doi:<a class="reference external" href="https://doi.org/10.1038/s4
 <section id="team">
 <h3>Team<a class="headerlink" href="#team" title="Permalink to this heading">¶</a></h3>
 <p>Bioconda would not exist without the continuous hard work and support of the
-wonderful community which includes over 1400 (as of 2022) <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">contributors</a>.</p>
+wonderful community which includes over 1800 (as of 2023) <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">contributors</a>.</p>
 </section>
 </section>
 </section>

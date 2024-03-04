@@ -22,7 +22,7 @@
     <script src="../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Tutorials" href="../tutorials/index.html" />
+    <link rel="next" title="Dockerfile inventory" href="dockerfile-inventory.html" />
     <link rel="prev" title="Repodata patching" href="repodata_patching.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
@@ -68,294 +68,200 @@
           <div class="body" role="main">
             
   <section id="ci-inventory">
-<h1>CI Inventory<a class="headerlink" href="#ci-inventory" title="Permalink to this heading">¶</a></h1>
+<span id="id1"></span><h1>CI Inventory<a class="headerlink" href="#ci-inventory" title="Permalink to this heading">¶</a></h1>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2023-05-02: </span>Use <a class="reference external" href="https://mergify.com/">mergify</a> instead of AutoMerge.yml GitHub Action</p>
+</div>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2023-06-06: </span>Start using build-failures workflow</p>
+</div>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2024-03-04: </span>Start using <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> in bulk and recipe tests</p>
+</div>
 <p>This page documents the various moving parts that, together, make Bioconda
 work. We rely on a mixture of free services to spread the workload and to
 maintain flexibility over the long term in case a service becomes unusable.</p>
-<section id="autobump-bot">
-<h2>Autobump bot<a class="headerlink" href="#autobump-bot" title="Permalink to this heading">¶</a></h2>
-<p>Checks upstream repository for version updates, if so, creates a new
-bioconda-recipes recipe with the updated version and an updated hash, and opens
-a new pull request with various templated info and with the “autobump” label
-applied.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>CircleCI</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-utils</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>hourly</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.circleci/config.yml#L65">config.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux</p>
-</dd>
-</dl>
-</section>
-<section id="documentation">
-<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading">¶</a></h2>
-<p>Build sphinx documentation (including updated READMEs for every recipe) and
-pushes the changes to
-[bioconda.github.io](<a class="reference external" href="https://github.com/bioconda/bioconda.github.io">https://github.com/bioconda/bioconda.github.io</a>).</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-docs</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>daily, or on push</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-docs/blob/main/.github/workflows/docs.yml">docs.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux</p>
-</dd>
-</dl>
-</section>
-<section id="bioconda-utils-tests">
-<h2>bioconda-utils tests<a class="headerlink" href="#bioconda-utils-tests" title="Permalink to this heading">¶</a></h2>
-<p>Unit tests and functional tests for bioconda-utils</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-utils</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>on push</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/GithubActionTests.yml">GithubActionTests.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux, macOS</p>
-</dd>
-</dl>
-</section>
-<section id="test-building-bioconda-utils-docker-image">
-<h2>Test building bioconda-utils docker image<a class="headerlink" href="#test-building-bioconda-utils-docker-image" title="Permalink to this heading">¶</a></h2>
-<p>Ensures that bioconda-utils can run inside a newly-built container.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-utils</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>on push</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/build-image.yml">build-image.yml</a>, <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/Dockerfile">Dockerfile</a></p>
-</dd>
-</dl>
-</section>
-<section id="ensure-biocontainers-are-public">
-<h2>Ensure Biocontainers are public<a class="headerlink" href="#ensure-biocontainers-are-public" title="Permalink to this heading">¶</a></h2>
-<p>Checks quay.io to see if any containers are mistakenly private; if so makes them public</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-utils</p>
-</dd>
-<dt class="field-odd">triggered<span class="colon">:</span></dt>
-<dd class="field-odd"><p>manually</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/changevisibility.yml">changevisibility.yml</a></p>
-</dd>
-</dl>
-</section>
-<section id="conventional-prs">
-<h2>conventional PRs<a class="headerlink" href="#conventional-prs" title="Permalink to this heading">¶</a></h2>
-<p>Enforces “conventional commit” tags in the title of PRs, like “docs:”, “fix:”, “ci:”, and so on.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-utils</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>PR open/reopen/edit/sync</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/conventional-prs.yml">conventional-prs.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux</p>
-</dd>
-</dl>
-</section>
-<section id="release-please">
-<h2>release-please<a class="headerlink" href="#release-please" title="Permalink to this heading">¶</a></h2>
-<p>Collects PRs that have been merged to master since the last release into
-a separate, special PR. Merging that special PR triggers a new release.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-utils</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>push to master on bioconda-utils</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/release-please.yml">release-please.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux</p>
-</dd>
-</dl>
-</section>
-<section id="recipe-tests">
-<h2>Recipe tests<a class="headerlink" href="#recipe-tests" title="Permalink to this heading">¶</a></h2>
-<p>Runs linting and tests for pull requests to bioconda-recipes.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Azure Pipelines</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-recipes</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>on push</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline.yml">azure-pipeline.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux, macOS</p>
-</dd>
-</dl>
-</section>
-<section id="master-branch-tests">
-<h2>master branch tests<a class="headerlink" href="#master-branch-tests" title="Permalink to this heading">¶</a></h2>
-<p>Runs the same tests as for PRs, but on the master branch. Note that when the
-bot merges, it uses [ci skip] in the commit comment and works with the
-already-built artifacts, so this doesn’t typically run.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Azure Pipelines</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-recipes</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>push to master</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml">azure-pipeline-master.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux, macOS</p>
-</dd>
-</dl>
-</section>
-<section id="nightly-maintenance">
-<h2>nightly maintenance<a class="headerlink" href="#nightly-maintenance" title="Permalink to this heading">¶</a></h2>
-<p>Various maintenance tasks:</p>
-<ul class="simple">
-<li><p>build and upload the bioconda-repodata-patches package</p></li>
-<li><p>try to build and upload any remaining packages (runs bioconda-utils build on <em>all</em> recipes)</p></li>
-</ul>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Azure Pipelines</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-recipes</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>daily</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml">azure-pipeline-nightly.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux, macOS</p>
-</dd>
-</dl>
-</section>
-<section id="automerge-automerge-trigger">
-<h2>automerge, automerge trigger<a class="headerlink" href="#automerge-automerge-trigger" title="Permalink to this heading">¶</a></h2>
-<p>This is intended to automatically merge PRs when all checks pass (including the
-review step). It will only be triggered if the AutoMergeTrigger workflow runs
-successfully. If a PR’s review is submitted or dismissed, or a PR is labeled
-with “automerge”, then this workflow fires, and needs to complete before the
-AutoMerge workflow will run.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-recipes</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>completed check suite</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/AutoMerge.yml">AutoMerge.yml</a>, <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/AutoMergeTrigger.yml">AutoMergeTrigger.yml</a></p>
-</dd>
-</dl>
-</section>
-<section id="bulk">
-<h2>Bulk<a class="headerlink" href="#bulk" title="Permalink to this heading">¶</a></h2>
-<p>If pushing to the special <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch, this workflow will run. It uses
-special bioconda-utils functionality to split the full DAG into sub-DAGs and
-submits them to independent parallel jobs. When recipes sucessfully build, they
-are <em>immediately</em> uploaded. Use with caution. Typically used when migrating
-(e.g., bioconductor updates, pinning updates)</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-recipes</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>push to <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch of bioconda-utils</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml">Bulk.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux, macOS</p>
-</dd>
-</dl>
-</section>
-<section id="comment-responder">
-<h2>comment responder<a class="headerlink" href="#comment-responder" title="Permalink to this heading">¶</a></h2>
-<p>Runs the bioconda-bot container (quay.io/bioconda/bot) with different image tags (merge, comment, update, repost) in response to comments.</p>
-<dl class="field-list simple">
-<dt class="field-odd">runs on<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Actions</p>
-</dd>
-<dt class="field-even">controlled from<span class="colon">:</span></dt>
-<dd class="field-even"><p>bioconda-recipes</p>
-</dd>
-<dt class="field-odd">trigger<span class="colon">:</span></dt>
-<dd class="field-odd"><p>&#64;bioconda-bot mentions</p>
-</dd>
-<dt class="field-even">code references<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/CommentResponder.yml">CommentResponder.yml</a></p>
-</dd>
-<dt class="field-odd">OS<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Linux</p>
-</dd>
-</dl>
-</section>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For the platform column, we use the conda designations when conda packages
+are built. Otherwise we use operating system.
+See <a class="reference internal" href="../faqs.html#platform-nomenclature-faq"><span class="std std-ref">Understanding platform nomenclature</span></a> for more info on this.</p>
+</div>
+<table class="inventory docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Runs on</p></th>
+<th class="head"><p>Controlled from</p></th>
+<th class="head"><p>Trigger</p></th>
+<th class="head"><p>Code references</p></th>
+<th class="head"><p>Platform</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Recipe tests</p></td>
+<td><p>Azure Pipelines, CircleCI</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
+<td><p>on push</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline.yml">azure-pipeline.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
+<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch</span></code></p></td>
+<td><p>These are the most-run tests: these are what run on every change on
+pull requests to bioconda-recipes, and they must pass before the recipe
+is merged into the master branch.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Comment responder</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
+<td><p>&#64;BiocondaBot mentions</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/CommentResponder.yml">CommentResponder.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Runs the bioconda-bot container (quay.io/bioconda/bot) with different
+image tags (merge, comment, update, repost) in response to comments.
+This allows fast response time (rather than, say, restoring a cache
+each time).</p></td>
+</tr>
+<tr class="row-even"><td><p>Master branch tests</p></td>
+<td><p>Azure Pipelines</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
+<td><p>push to master (bioconda-recipes)</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml">azure-pipeline-master.yml</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code></p></td>
+<td><p>Runs the same tests as for PRs, but on the master branch. Note that
+when the bot is doing the merge, it adds <code class="docutils literal notranslate"><span class="pre">[ci</span> <span class="pre">skip]</span></code> in the commit
+comment, and works with the already-built artifacts from the PR.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mergify</p></td>
+<td><p><a class="reference external" href="https://mergify.com/">mergify</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
+<td><p>Successful tests on an autobumped recipe</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.mergify.yml">.mergify.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>If a recipe was autobumped, the tests passed, and it’s been more than
+3 days, then automatically merge the updated recipe.</p></td>
+</tr>
+<tr class="row-even"><td><p>Autobump bot</p></td>
+<td><p>CircleCI</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></td>
+<td><p>hourly</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/8255afdd9e5c0fd3cb09cb11269f5ff3397c959e/.circleci/config.yml#L69">config.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Checks upstream repository for version updates, if so, creates a new
+bioconda-recipes recipe with the updated version and an updated hash,
+and opens a new pull request with various templated info and with the
+“autobump” label applied.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Build failures</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
+<td><p>daily</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/build-failures.yml">build-failures.yaml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Runs <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">list-build-failures</span></code> to generate and publish
+a <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/wiki/build-failures">wiki page listing prioritized failures</a>.</p></td>
+</tr>
+<tr class="row-even"><td><p>Docs</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-docs</span></code></p></td>
+<td><p>daily, or on push</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-docs/blob/main/.github/workflows/docs.yml">docs.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Build sphinx documentation (including updated READMEs for every recipe)
+and pushes the changes to
+[bioconda.github.io](<a class="reference external" href="https://github.com/bioconda/bioconda.github.io">https://github.com/bioconda/bioconda.github.io</a>).</p></td>
+</tr>
+<tr class="row-odd"><td><p>bioconda-utils tests</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></td>
+<td><p>on push</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/GithubActionTests.yml">GithubActionTests.yml</a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code></p></td>
+<td><p>Unit tests and functional tests for bioconda-utils.</p></td>
+</tr>
+<tr class="row-even"><td><p>Docker image test</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></td>
+<td><p>on push</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/build-image.yml">build-image.yml</a>,
+<a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/Dockerfile">Dockerfile</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Ensures that bioconda-utils can run inside a newly-built container.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Check public containers</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></td>
+<td><p>manually</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/changevisibility.yml">changevisibility.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Checks quay.io to see if any containers are mistakenly private; if so
+makes them public</p></td>
+</tr>
+<tr class="row-even"><td><p>Conventional PRs</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></td>
+<td><p>bioconda-utils PR open/reopen/edit/sync</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/conventional-prs.yml">conventional-prs.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Enforces “conventional commit” tags in the title of PRs, like “docs:”,
+“fix:”, “ci:”, and so on in bioconda-utils. This enables better
+automation of releases.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Release-please</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></td>
+<td><p>push to master on bioconda-utils</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/release-please.yml">release-please.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Collects PRs that have been merged to master since the last release
+into a separate, special PR. Merging that special PR is what triggers
+a new release.</p></td>
+</tr>
+<tr class="row-even"><td><p>Nightly maintenance</p></td>
+<td><p>Azure Pipelines</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
+<td><p>daily</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml">azure-pipeline-nightly.yml</a></p></td>
+<td><p>Linux, macOS</p></td>
+<td><p>Various maintenance tasks: build and upload the
+bioconda-repodata-patches package; try to build and upload any
+remaining packages (runs bioconda-utils build on <em>all</em> recipes)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bulk</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
+<td><p>push to <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch of bioconda-utils</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml">Bulk.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
+<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code></p></td>
+<td><p>If pushing to the special <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch, this workflow will run. It
+uses special bioconda-utils functionality to split the full DAG into
+sub-DAGs and submits them to independent parallel jobs. When recipes
+sucessfully build, they are <em>immediately</em> uploaded. Use with caution.
+Typically used when migrating (e.g., bioconductor updates, pinning
+updates)</p></td>
+</tr>
+<tr class="row-even"><td><p>Compile stats for plots</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-stats</span></code></p></td>
+<td><p>several times a day</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-stats/blob/main/.github/workflows/packages-anaconda-org.yml">packages-anaconda-org.yml</a></p></td>
+<td><p>Linux</p></td>
+<td><p>Builds a zip file containing TSVs for each package, which are inspected
+and compiled into json files in <code class="docutils literal notranslate"><span class="pre">bioconda-plots</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Generate plots</p></td>
+<td><p>GitHub Actions</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bioconda-plots</span></code></p></td>
+<td><p>daily</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-plots/blob/main/.github/workflows/generate-plots.yml">generate-plots.yml</a>;
+<a class="reference external" href="https://github.com/bioconda/bioconda-plots/blob/main/.github/workflows/test-plots.yml">test-plots.yml</a> runs minor tests on the plot-generating code.</p></td>
+<td><p>Linux</p></td>
+<td><p>Using stats compiled in <code class="docutils literal notranslate"><span class="pre">bioconda-stats</span></code>, builds json files for each
+package that are used by plotting code on bioconda.github.io recipe
+pages.</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 
 
@@ -387,22 +293,10 @@ are <em>immediately</em> uploaded. Use with caution. Typically used when migrati
 <li class="toctree-l2"><a class="reference internal" href="updating-bioconda-utils.html">Updating <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="bulk.html">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
 <li class="toctree-l2"><a class="reference internal" href="repodata_patching.html">Repodata patching</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">CI Inventory</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#autobump-bot">Autobump bot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#documentation">Documentation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#bioconda-utils-tests">bioconda-utils tests</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#test-building-bioconda-utils-docker-image">Test building bioconda-utils docker image</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ensure-biocontainers-are-public">Ensure Biocontainers are public</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#conventional-prs">conventional PRs</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#release-please">release-please</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#recipe-tests">Recipe tests</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#master-branch-tests">master branch tests</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#nightly-maintenance">nightly maintenance</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#automerge-automerge-trigger">automerge, automerge trigger</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#bulk">Bulk</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#comment-responder">comment responder</a></li>
-</ul>
-</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">CI Inventory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dockerfile-inventory.html">Dockerfile inventory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="repo-inventory.html">Repository inventory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aarch64.html"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> builds</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>

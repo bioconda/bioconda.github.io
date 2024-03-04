@@ -29,8 +29,9 @@ decides whether it will run its jobs or not.
 * If any of the pushed commit messages contains the substring ``[ci run]`` the CI jobs are executed.
 * If not, no CI jobs are executed.
 
-The reason for this behavior is that we want to avoid race conditions caused by multiple CI jobs
-spawned from different commits to be exectuted at the same time.
+The reason for this behavior is that we want to avoid race conditions caused by
+multiple CI jobs spawned from different commits, possibly from different
+people, to be exectuted at the same time.
 
 In order to simplify interactions with the bulk CI, bioconda-utils offers therefore
 some dedicated subcommands:
@@ -97,7 +98,7 @@ example is updating pinnings to support Python 3.10.
 
 6. Then, **bulk-commit** and push the changes.
 
-7. Once the CI run has finished, inspect all build failures (see :ref:`handling-build-failues`).
+7. Once the CI run has finished, inspect all build failures (see :ref:`handling-build-failures`).
    For each failure, decide whether the recipe shall be skiplisted or whether you would like to fix it.
    In general it is advisable to fix all libraries on which many recipes depend and anything else
    that is obvious and easy. For the rest, mark the recipes as skiplisted in the build failure file.
@@ -109,8 +110,7 @@ example is updating pinnings to support Python 3.10.
    step 6-7 again. If the run has finished without any build failure and did not time out before checking all
    recipes, you can go on with step 7.
 
-9. Once all the packages have either been successfully built or skiplisted, merge in the master branch 
-   (after doing a git pull on it).
+9. Once all the packages have either been successfully built or skiplisted, pull the master branch and merge it into bulk.
    Usually, conflicts can occur here due to build-numbers having been increased in the master branch while you
    did your changes in bulk. For such cases (which should be not so many) you can just increase the build number to
    ``max(build_number_master, build_number_bulk)`` and **bulk-commit** all of those in a row.
@@ -129,10 +129,12 @@ example is updating pinnings to support Python 3.10.
 Handling build failures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Build failures are stored in a file ``build_failure.<arch>.yaml`` next to each failing recipe.
-You can list all build failures stored in the current branch of bioconda-recipes via the command
-``bioconda-utils list-build-failures recipes config.yaml``. The presented table will be sorted by 
-the number of dependencies and package downloads, which should help for prioritizing the fixing work.
+Build failures are stored in a file ``build_failure.<arch>.yaml`` next to each
+failing recipe. You can list all build failures stored in the current branch of
+bioconda-recipes via the command ``bioconda-utils list-build-failures recipes
+config.yml``. This reads the yaml files from failing recipes, and prints
+a table on stdout that will be sorted by the number of dependencies and package
+downloads, which should help for prioritizing the fixing work.
 
 This file can look e.g. like this:
 
@@ -153,7 +155,7 @@ Check out all possibilities in the corresponding help message:
 
 .. code-block:: bash
 
-    bioconda-utils annotate-build-failure --help
+    bioconda-utils annotate-build-failures --help
 
 Skiplisted recipes from the master branch are automatically displayed in a `wiki page <https://github.com/bioconda/bioconda-recipes/wiki/build-failures>`_,
 so that others can pick them up for providing a fix.
@@ -230,5 +232,7 @@ Some unordered notes on working with the bulk branch:
   that don't need to be rebuilt, but that work needs to be done simply to
   figure out if a rebuild is needed, and so this is expected.
 
-- The bulk runs take place on GitHub Actions, and the configuration is in
-  :file:`.github/workflows/Bulk.yml`.
+- For ``linux-64`` and ``osx-64``,  the bulk runs take place on GitHub Actions,
+  and the configuration is in :file:`.github/workflows/Bulk.yml`. For
+  ``linux-aarch64``, the builds take place on CircleCI and the configuration is
+  in :file:`.circleci/config.yml`.

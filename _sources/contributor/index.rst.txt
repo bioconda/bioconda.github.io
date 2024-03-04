@@ -40,8 +40,4 @@ challenging to package. The topics below provide more details.
     guidelines
 
     linting
-    faqs
     updating
-    cb3
-
-

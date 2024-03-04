@@ -92,8 +92,9 @@ decides whether it will run its jobs or not.</p>
 <li><p>If any of the pushed commit messages contains the substring <code class="docutils literal notranslate"><span class="pre">[ci</span> <span class="pre">run]</span></code> the CI jobs are executed.</p></li>
 <li><p>If not, no CI jobs are executed.</p></li>
 </ul>
-<p>The reason for this behavior is that we want to avoid race conditions caused by multiple CI jobs
-spawned from different commits to be exectuted at the same time.</p>
+<p>The reason for this behavior is that we want to avoid race conditions caused by
+multiple CI jobs spawned from different commits, possibly from different
+people, to be exectuted at the same time.</p>
 <p>In order to simplify interactions with the bulk CI, bioconda-utils offers therefore
 some dedicated subcommands:</p>
 <ul class="simple">
@@ -150,7 +151,7 @@ the bulk branch. This will go through all the pinnings, figure out what
 recipes they’re used with, and bump the recipes’ build numbers
 appropriately.</p></li>
 <li><p>Then, <strong>bulk-commit</strong> and push the changes.</p></li>
-<li><p>Once the CI run has finished, inspect all build failures (see <a class="reference internal" href="#handling-build-failues"><span class="std std-ref">Handling build failures</span></a>).
+<li><p>Once the CI run has finished, inspect all build failures (see <span class="xref std std-ref">handling-build-failures</span>).
 For each failure, decide whether the recipe shall be skiplisted or whether you would like to fix it.
 In general it is advisable to fix all libraries on which many recipes depend and anything else
 that is obvious and easy. For the rest, mark the recipes as skiplisted in the build failure file.
@@ -160,8 +161,7 @@ redundant work between master and bulk. Also, skiplisting democratizes the updat
 <li><p>If no untreated failure remains, <strong>bulk-commit</strong> (see above) and push the changes and visit
 step 6-7 again. If the run has finished without any build failure and did not time out before checking all
 recipes, you can go on with step 7.</p></li>
-<li><p>Once all the packages have either been successfully built or skiplisted, merge in the master branch
-(after doing a git pull on it).
+<li><p>Once all the packages have either been successfully built or skiplisted, pull the master branch and merge it into bulk.
 Usually, conflicts can occur here due to build-numbers having been increased in the master branch while you
 did your changes in bulk. For such cases (which should be not so many) you can just increase the build number to
 <code class="docutils literal notranslate"><span class="pre">max(build_number_master,</span> <span class="pre">build_number_bulk)</span></code> and <strong>bulk-commit</strong> all of those in a row.
@@ -178,10 +178,12 @@ remove them from this list over time.</p>
 </div></blockquote>
 <section id="handling-build-failures">
 <span id="handling-build-failues"></span><h3>Handling build failures<a class="headerlink" href="#handling-build-failures" title="Permalink to this heading">¶</a></h3>
-<p>Build failures are stored in a file <code class="docutils literal notranslate"><span class="pre">build_failure.&lt;arch&gt;.yaml</span></code> next to each failing recipe.
-You can list all build failures stored in the current branch of bioconda-recipes via the command
-<code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">list-build-failures</span> <span class="pre">recipes</span> <span class="pre">config.yaml</span></code>. The presented table will be sorted by
-the number of dependencies and package downloads, which should help for prioritizing the fixing work.</p>
+<p>Build failures are stored in a file <code class="docutils literal notranslate"><span class="pre">build_failure.&lt;arch&gt;.yaml</span></code> next to each
+failing recipe. You can list all build failures stored in the current branch of
+bioconda-recipes via the command <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">list-build-failures</span> <span class="pre">recipes</span>
+<span class="pre">config.yml</span></code>. This reads the yaml files from failing recipes, and prints
+a table on stdout that will be sorted by the number of dependencies and package
+downloads, which should help for prioritizing the fixing work.</p>
 <p>This file can look e.g. like this:</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">recipe_sha</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">37fa4d78a2ee8b18065a0bd0f594ad1e9587bb4ac7edf1b4629a9f10fa45d0a5</span><span class="w">  </span><span class="c1"># The shas256 hash of the recipe at which it failed to build.</span>
 <span class="nt">skiplist</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"> </span><span class="c1"># Set to true to skiplist this recipe so that it will be ignored as long as its latest commit is the one given above.</span>
@@ -195,7 +197,7 @@ Notably, any update to the recipe automatically de-skiplists it, because the ski
 entry is only valid together with the hash listed in the first line.</p>
 <p>It is possible to further annotate and even manually create build failure records via the <a class="conda-package reference internal" href="../recipes/bioconda-utils/README.html#package-bioconda-utils" title="bioconda-utils package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a> CLI.
 Check out all possibilities in the corresponding help message:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>annotate-build-failure<span class="w"> </span>--help
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>annotate-build-failures<span class="w"> </span>--help
 </pre></div>
 </div>
 <p>Skiplisted recipes from the master branch are automatically displayed in a <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/wiki/build-failures">wiki page</a>,
@@ -264,8 +266,10 @@ all the dependencies to see which of them are pinned and then using those to
 calculate a hash. So it may appear that it’s doing a lot of work for packages
 that don’t need to be rebuilt, but that work needs to be done simply to
 figure out if a rebuild is needed, and so this is expected.</p></li>
-<li><p>The bulk runs take place on GitHub Actions, and the configuration is in
-<code class="file docutils literal notranslate"><span class="pre">.github/workflows/Bulk.yml</span></code>.</p></li>
+<li><p>For <code class="docutils literal notranslate"><span class="pre">linux-64</span></code> and <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>,  the bulk runs take place on GitHub Actions,
+and the configuration is in <code class="file docutils literal notranslate"><span class="pre">.github/workflows/Bulk.yml</span></code>. For
+<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, the builds take place on CircleCI and the configuration is
+in <code class="file docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code>.</p></li>
 </ul>
 </section>
 </section>
@@ -309,6 +313,9 @@ figure out if a rebuild is needed, and so this is expected.</p></li>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="repodata_patching.html">Repodata patching</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ci-inventory.html">CI Inventory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dockerfile-inventory.html">Dockerfile inventory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="repo-inventory.html">Repository inventory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aarch64.html"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> builds</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>
