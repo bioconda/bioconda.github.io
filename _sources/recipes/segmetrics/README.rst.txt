@@ -12,7 +12,7 @@ segmetrics
 
    A Python package implementing image segmentation and object detection performance measures\, for biomedical image analysis and beyond.
 
-   :homepage: https://github.com/BMCV/segmetrics.py
+   :homepage: https://github.com/BMCV/segmetrics
    :documentation: https://segmetrics.readthedocs.io
    
    :license: MIT
@@ -29,7 +29,7 @@ segmetrics
       
       
 
-      ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.11.3-0``
+      ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.11.3-0``
 
       
 
@@ -87,7 +87,7 @@ segmetrics
 
     <script>
         var package = "segmetrics";
-        var versions = ["1.4","1.3","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.4.1","1.4","1.3","1.2.3","1.2.2"];
     </script>
 
 

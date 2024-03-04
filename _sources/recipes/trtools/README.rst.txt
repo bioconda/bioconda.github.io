@@ -12,12 +12,12 @@ trtools
 
    Toolkit for genome\-wide analysis of tandem repeats
 
-   :homepage: http://github.com/gymreklab/TRTools
+   :homepage: https://github.com/gymreklab/TRTools
    :documentation: https://trtools.readthedocs.io/
    
-   :developer docs: https://github.com/gymreklab/TRTools
    :license: MIT / MIT
    :recipe: /`trtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trtools/meta.yaml>`_
+   :links: biotools: :biotools:`trtools`, doi: :doi:`10.1093/bioinformatics/btaa736`
 
    
 
@@ -31,10 +31,10 @@ trtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.2-0</code>,  </span></summary>
       
 
-      ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
+      ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
 
       
       .. raw:: html
@@ -44,17 +44,16 @@ trtools
 
    
    :depends art: ``>=2016.06.05``
-   :depends cyvcf2: ``>=0.30.1``
-   :depends matplotlib-base: ``>=3.2.2``
-   :depends numpy: ``>=1.18.5``
-   :depends pandas: ``>=1.0.5``
-   :depends pybedtools: ``>=0.8.1``
-   :depends pyfaidx: ``>=0.5.3``
-   :depends pysam: ``>=0.16.0.1``
-   :depends python: ``>=3.5``
+   :depends cyvcf2: ``>=0.30.4``
+   :depends matplotlib-base: ``>=3.1.2``
+   :depends numpy: ``>=1.17.3,<2.0``
+   :depends pandas: ``>=1.2.0``
+   :depends pyfaidx: ``>=0.5.6``
+   :depends pysam: ``>=0.15.4``
+   :depends python: ``>=3.7.1,<4.0``
    :depends scikit-learn: ``>=0.23.1``
-   :depends scipy: ``>=1.4.1``
-   :depends statsmodels: ``>=0.13.5``
+   :depends scipy: ``>=1.3.3``
+   :depends statsmodels: ``>=0.10.2``
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +101,7 @@ trtools
 
     <script>
         var package = "trtools";
-        var versions = ["5.1.1","5.1.0","5.0.2","5.0.1","4.2.1"];
+        var versions = ["6.0.1","6.0.0","5.1.1","5.1.0","5.0.2"];
     </script>
 
 

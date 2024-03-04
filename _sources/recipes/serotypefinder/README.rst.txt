@@ -28,17 +28,18 @@ serotypefinder
       
       
 
-      ``2.0.1-0``
+      ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``
 
       
 
    
-   :depends biopython: ``1.73.*``
+   :depends biopython: ``>=1.79``
    :depends blast: ``>=2.8.1``
    :depends cgecore: ``>=1.5.5``
+   :depends git: 
    :depends kma: 
-   :depends python: ``>=3``
-   :depends tabulate: ``>=0.7.7``
+   :depends python: ``>=3.8``
+   :depends tabulate: ``>=0.8.9``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +87,7 @@ serotypefinder
 
     <script>
         var package = "serotypefinder";
-        var versions = ["2.0.1"];
+        var versions = ["2.0.2","2.0.2","2.0.1"];
     </script>
 
 

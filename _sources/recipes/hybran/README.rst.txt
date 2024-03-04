@@ -28,12 +28,12 @@ hybran
       
       
 
-      ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
+      ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
 
       
 
    
-   :depends biopython: ``>=1.80``
+   :depends biopython: ``>=1.80,<1.82``
    :depends blast: 
    :depends cd-hit: 
    :depends diamond: 
@@ -94,7 +94,7 @@ hybran
 
     <script>
         var package = "hybran";
-        var versions = ["1.7.1","1.7","1.6.1","1.6","1.5.2"];
+        var versions = ["1.7.1","1.7.1","1.7","1.6.1","1.6"];
     </script>
 
 

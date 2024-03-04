@@ -28,10 +28,10 @@ scanpy-scripts
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.6-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.301-0</code>,  <code>1.9.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  </span></summary>
       
 
-      ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-3``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5.post1-0``,  ``0.2.5-0``,  ``0.2.4.post4-3``,  ``0.2.4.post4-2``,  ``0.2.4.post4-1``,  ``0.2.4.post4-0``,  ``0.2.4.post3-0``,  ``0.2.4.post1-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.0.5-5``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.3-1``,  ``0.0.2-0``
+      ``1.9.301-0``,  ``1.9.0-0``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-3``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5.post1-0``,  ``0.2.5-0``,  ``0.2.4.post4-3``,  ``0.2.4.post4-2``,  ``0.2.4.post4-1``,  ``0.2.4.post4-0``,  ``0.2.4.post3-0``,  ``0.2.4.post1-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.0.5-5``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.3-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -40,26 +40,27 @@ scanpy-scripts
       
 
    
-   :depends anndata: 
-   :depends bbknn: ``>=1.5.0``
+   :depends bats: 
+   :depends bbknn: ``>=1.5.0,<1.6.0``
+   :depends black: 
    :depends click: ``<8``
    :depends fa2: 
-   :depends h5py: ``<3.0.0``
+   :depends flit-core: 
    :depends harmonypy: ``>=0.0.5``
+   :depends igraph: 
    :depends leidenalg: 
    :depends loompy: 
    :depends louvain: 
-   :depends matplotlib-base: 
    :depends mnnpy: ``>=0.1.9.5``
    :depends packaging: 
-   :depends pandas: 
-   :depends python: 
-   :depends python: ``>=3.6``
-   :depends scanpy: ``1.8.1.*``
-   :depends scikit-misc: 
-   :depends scipy: 
+   :depends pytest: 
+   :depends python: ``<3.10``
+   :depends pytoml: 
+   :depends scanpy: ``1.9.3.*``
+   :depends scikit-learn: ``<1.3.0``
+   :depends scipy: ``<1.9.0``
    :depends scrublet: 
-   :depends umap-learn: 
+   :depends setuptools_scm: 
    :requirements:
 
    .. rubric:: Installation
@@ -107,7 +108,7 @@ scanpy-scripts
 
     <script>
         var package = "scanpy-scripts";
-        var versions = ["1.1.6","1.1.5","1.1.5","1.1.3","1.1.2"];
+        var versions = ["1.9.301","1.9.0","1.1.6","1.1.5","1.1.5"];
     </script>
 
 

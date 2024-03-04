@@ -13,7 +13,9 @@ humid
    HUMID \-\- High\-performance UMI Deduplicator
 
    :homepage: https://github.com/jfjlaros/HUMID
-   :license: MIT
+   :documentation: https://humid.readthedocs.io/en/latest/usage.html
+   
+   :license: MIT / MIT
    :recipe: /`humid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humid/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ humid
       
       
 
-      ``1.0.37-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.37-0``,  ``1.0.4-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -82,7 +84,7 @@ humid
 
     <script>
         var package = "humid";
-        var versions = ["1.0.37","1.0.2","1.0.2","1.0.2"];
+        var versions = ["1.0.37","1.0.4","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

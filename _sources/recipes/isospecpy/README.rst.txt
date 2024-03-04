@@ -27,7 +27,7 @@ isospecpy
       
       
 
-      ``2.2.1-0``
+      ``2.2.2-0``,  ``2.2.1-0``
 
       
 
@@ -84,7 +84,7 @@ isospecpy
 
     <script>
         var package = "isospecpy";
-        var versions = ["2.2.1"];
+        var versions = ["2.2.2","2.2.1"];
     </script>
 
 

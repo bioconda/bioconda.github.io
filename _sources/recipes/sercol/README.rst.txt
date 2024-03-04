@@ -13,7 +13,7 @@ sercol
    Rich collection class with grouping and filtering helpers
 
    :homepage: https://github.com/openvax/sercol
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`sercol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sercol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sercol/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ sercol
       
       
 
-      ``0.1.4-0``
+      ``1.0.0-0``,  ``0.1.4-0``
 
       
 
@@ -83,7 +83,7 @@ sercol
 
     <script>
         var package = "sercol";
-        var versions = ["0.1.4"];
+        var versions = ["1.0.0","0.1.4"];
     </script>
 
 

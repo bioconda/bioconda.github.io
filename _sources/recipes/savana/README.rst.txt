@@ -27,7 +27,7 @@ savana
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.1-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.1-0``
 
       
 
@@ -38,7 +38,7 @@ savana
    :depends pybedtools: ``>=0.9.0``
    :depends pysam: ``>=0.20.0``
    :depends python: ``>=3.9``
-   :depends scikit-learn: ``>=1.2.2``
+   :depends scikit-learn: ``>=1.2.2,<1.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ savana
 
     <script>
         var package = "savana";
-        var versions = ["1.0.4","1.0.3","1.0.0","0.2.3","0.2.1"];
+        var versions = ["1.0.5","1.0.4","1.0.3","1.0.0","0.2.3"];
     </script>
 
 

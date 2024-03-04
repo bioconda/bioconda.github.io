@@ -28,7 +28,7 @@ gcnvkernel
       
       
 
-      ``0.8-0``,  ``0.7-0``
+      ``0.8-1``,  ``0.8-0``,  ``0.7-0``
 
       
 
@@ -36,14 +36,14 @@ gcnvkernel
    :depends biopython: ``1.76.*``
    :depends dill: ``0.3.4.*``
    :depends h5py: ``2.10.0.*``
-   :depends intel-openmp: ``2019.4.*``
+   :depends intel-openmp: 
    :depends keras: ``2.2.4.*``
    :depends matplotlib: ``3.2.1.*``
    :depends mkl: ``2019.5.*``
    :depends mkl-service: ``2.3.0.*``
    :depends numpy: ``1.17.5.*``
    :depends pandas: ``1.0.3.*``
-   :depends pip: ``20.0.2.*``
+   :depends pip: ``21.3.1.*``
    :depends pymc3: ``3.1.*``
    :depends pysam: ``0.15.3.*``
    :depends python: ``3.6.10.*``
@@ -59,7 +59,7 @@ gcnvkernel
    :depends r-optparse: ``1.6.4.*``
    :depends scikit-learn: ``0.23.1.*``
    :depends scipy: ``1.0.0.*``
-   :depends tensorflow: ``1.15.0.*``
+   :depends tensorflow: ``<2``
    :depends theano: ``1.0.4.*``
    :depends typing_extensions: ``4.1.1.*``
    :requirements:
@@ -109,7 +109,7 @@ gcnvkernel
 
     <script>
         var package = "gcnvkernel";
-        var versions = ["0.8","0.7"];
+        var versions = ["0.8","0.8","0.7"];
     </script>
 
 

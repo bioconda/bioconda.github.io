@@ -26,14 +26,22 @@ galah
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
 
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends dashing: ``0.4.0``
-   :depends fastani: ``1.31``
+   :depends fastani: ``>=1.31``
    :depends libgcc-ng: ``>=12``
    :requirements:
 
@@ -82,7 +90,7 @@ galah
 
     <script>
         var package = "galah";
-        var versions = ["0.4.0","0.3.1","0.3.1","0.3.1","0.3.1"];
+        var versions = ["0.4.0","0.4.0","0.3.1","0.3.1","0.3.1"];
     </script>
 
 

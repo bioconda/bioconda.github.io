@@ -27,7 +27,7 @@ submission-excel2xml
       
       
 
-      ``2.5-0``,  ``2.0.0-0``
+      ``2.6-0``,  ``2.5-0``,  ``2.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ submission-excel2xml
 
     <script>
         var package = "submission-excel2xml";
-        var versions = ["2.5","2.0.0"];
+        var versions = ["2.6","2.5","2.0.0"];
     </script>
 
 

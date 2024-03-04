@@ -27,21 +27,21 @@ strainr2
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bbmap: ``>=39.01``
-   :depends fastp: ``>=0.23.4``
+   :depends bbmap: 
+   :depends fastp: 
    :depends libgcc-ng: ``>=12``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-optparse: ``>=1.7.3``
-   :depends r-tidyverse: ``>=2.0.0``
-   :depends samtools: ``>=1.18``
-   :depends sourmash: ``>=4.8.4``
+   :depends r-optparse: 
+   :depends r-tidyverse: 
+   :depends samtools: 
+   :depends sourmash: ``>=4.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ strainr2
 
     <script>
         var package = "strainr2";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

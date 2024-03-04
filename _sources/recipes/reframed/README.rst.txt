@@ -28,14 +28,16 @@ reframed
       
       
 
-      ``1.5.0-0``,  ``1.4.0-0``
+      ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
 
       
 
    
    :depends numpy: 
+   :depends pyscipopt: 
    :depends python: ``>=3.6``
    :depends python-libsbml: 
+   :depends scip: 
    :depends scipy: 
    :depends sympy: 
    :requirements:
@@ -85,7 +87,7 @@ reframed
 
     <script>
         var package = "reframed";
-        var versions = ["1.5.0","1.4.0"];
+        var versions = ["1.5.1","1.5.1","1.5.0","1.4.0"];
     </script>
 
 

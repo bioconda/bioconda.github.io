@@ -16,7 +16,7 @@ pastml
    :documentation: https://pastml.pasteur.fr/help
    
    :developer docs: https://github.com/evolbioinfo/pastml
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pastml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastml/meta.yaml>`_
 
    PastML provides fast methods for Ancestral Character Reconstruction \(ACR\)
@@ -36,7 +36,7 @@ pastml
       
       
 
-      ``1.9.40-0``,  ``1.9.39-0``
+      ``1.9.43-0``,  ``1.9.40-0``,  ``1.9.39-0``
 
       
 
@@ -47,7 +47,7 @@ pastml
    :depends jinja2: ``>=2.11.0``
    :depends numpy: ``>=1.22``
    :depends pandas: ``>=1.0.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :depends scipy: ``>=1.5.0``
    :requirements:
 
@@ -96,7 +96,7 @@ pastml
 
     <script>
         var package = "pastml";
-        var versions = ["1.9.40","1.9.39"];
+        var versions = ["1.9.43","1.9.40","1.9.39"];
     </script>
 
 

@@ -28,7 +28,7 @@ ms2rescore
       
       
 
-      ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
 
@@ -37,7 +37,7 @@ ms2rescore
    :depends click: ``>=7``
    :depends customtkinter: ``>=5,<6``
    :depends deeplc: ``>=2.2``
-   :depends deeplcretrainer: ``0.1.17``
+   :depends deeplcretrainer: ``>=0.2``
    :depends jinja2: ``>=3``
    :depends lxml: ``>=4.5``
    :depends matplotlib-base: 
@@ -45,7 +45,7 @@ ms2rescore
    :depends ms2pip: ``>=4.0.0-dev4``
    :depends numpy: ``>=1.16.0``
    :depends pandas: ``>=1.0``
-   :depends plotly: 
+   :depends plotly: ``>=5``
    :depends psm-utils: ``>=0.4``
    :depends pydantic: ``>=1.8.2,<2``
    :depends pyopenms: 
@@ -56,6 +56,7 @@ ms2rescore
    :depends sqlalchemy: ``<2,>=1.3``
    :depends statsmodels: 
    :depends tomli: ``>=2``
+   :depends xgboost: ``<2,>=1.3``
    :requirements:
 
    .. rubric:: Installation
@@ -103,7 +104,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.0.0","3.0.0b1","3.0.0b1"];
+        var versions = ["3.0.1","3.0.0","3.0.0b1","3.0.0b1"];
     </script>
 
 

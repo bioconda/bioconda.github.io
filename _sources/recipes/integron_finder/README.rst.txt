@@ -10,11 +10,14 @@ integron_finder
    :replaces_section_title:
    :noindex:
 
-   Finds integrons in DNA sequences
+   Integron Finder aims at detecting integrons in DNA sequences
 
-   :homepage: https://github.com/gem-pasteur/Integron_Finder
-   :license: GPLv3
+   :homepage: https://github.com/gem-pasteur/Integron_Finder/
+   :documentation: https://integronfinder.readthedocs.io/en/latest/
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`integron_finder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/integron_finder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/integron_finder/meta.yaml>`_
+   :links: doi: :doi:`10.3390/microorganisms10040700`
 
    
 
@@ -27,20 +30,20 @@ integron_finder
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc6-0``
+      ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc6-0``
 
       
 
    
-   :depends biopython: ``1.78``
-   :depends colorlog: ``<=6.6.0``
+   :depends biopython: ``>=1.82``
+   :depends colorlog: 
    :depends hmmer: ``>=3.1b2,<=3.3.2``
    :depends infernal: ``>=1.1.2,<=1.1.4``
-   :depends matplotlib-base: ``3.3.3``
-   :depends numpy: ``1.19.4``
-   :depends pandas: ``1.1.5``
+   :depends matplotlib-base: ``>=3.8``
+   :depends numpy: ``>=1.26``
+   :depends pandas: ``>=2``
    :depends prodigal: ``>=2.6.3``
-   :depends python: ``>=3.7,<=3.10``
+   :depends python: ``>=3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +91,7 @@ integron_finder
 
     <script>
         var package = "integron_finder";
-        var versions = ["2.0.2","2.0.1","2.0","2.0rc6"];
+        var versions = ["2.0.3","2.0.3","2.0.2","2.0.1","2.0"];
     </script>
 
 

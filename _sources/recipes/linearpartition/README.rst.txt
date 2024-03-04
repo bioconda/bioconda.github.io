@@ -27,7 +27,7 @@ linearpartition
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.1.dev20240123-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -37,7 +37,7 @@ linearpartition
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``2.7.*``
+   :depends python: ``>=3,<4``
    :depends python-gflags: 
    :depends seaborn: 
    :requirements:
@@ -87,7 +87,7 @@ linearpartition
 
     <script>
         var package = "linearpartition";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.0.1.dev20240123","1.0","1.0","1.0","1.0"];
     </script>
 
 

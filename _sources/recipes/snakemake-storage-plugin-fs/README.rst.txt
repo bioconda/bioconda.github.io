@@ -13,7 +13,7 @@ snakemake-storage-plugin-fs
    A Snakemake storage plugin that reads and writes from a locally mounted filesystem using rsync
 
    :homepage: https://github.com/snakemake/snakemake-storage-plugin-fs
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-storage-plugin-fs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-fs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-fs/meta.yaml>`_
 
    
@@ -27,14 +27,15 @@ snakemake-storage-plugin-fs
       
       
 
-      ``0.1.5-0``
+      ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
    
    :depends python: ``>=3.11.0,<4.0.0``
-   :depends snakemake-interface-common: ``>=1.14.2,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
+   :depends reretry: ``>=0.11.8,<0.12.0``
+   :depends snakemake-interface-common: ``>=1.17.0,<2.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=3.1.0,<4.0.0``
    :depends sysrsync: ``>=1.1.1,<2.0.0``
    :requirements:
 
@@ -83,7 +84,7 @@ snakemake-storage-plugin-fs
 
     <script>
         var package = "snakemake-storage-plugin-fs";
-        var versions = ["0.1.5"];
+        var versions = ["1.0.0","0.2.0","0.1.5"];
     </script>
 
 

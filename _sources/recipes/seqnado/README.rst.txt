@@ -27,7 +27,7 @@ seqnado
       
       
 
-      ``0.4.1-0``
+      ``0.4.3-0``,  ``0.4.1-0``
 
       
 
@@ -43,7 +43,7 @@ seqnado
    :depends seaborn: 
    :depends setuptools-scm: 
    :depends singularity: 
-   :depends snakemake: ``<=7.3.2``
+   :depends snakemake: ``>=7.32.4,<8.0.0``
    :depends snakemake-wrapper-utils: 
    :depends tracknado: 
    :depends wget: 
@@ -94,7 +94,7 @@ seqnado
 
     <script>
         var package = "seqnado";
-        var versions = ["0.4.1"];
+        var versions = ["0.4.3","0.4.1"];
     </script>
 
 

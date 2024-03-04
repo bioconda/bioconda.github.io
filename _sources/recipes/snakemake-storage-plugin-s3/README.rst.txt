@@ -13,7 +13,9 @@ snakemake-storage-plugin-s3
    A Snakemake storage plugin for S3 API storage \(AWS S3\, MinIO\, etc.\)
 
    :homepage: https://github.com/snakemake/snakemake-storage-plugin-s3
-   :license: MIT
+   :documentation: https://snakemake.github.io/snakemake-plugin-catalog/plugins/storage/s3.html
+   
+   :license: MIT / MIT
    :recipe: /`snakemake-storage-plugin-s3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-s3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-s3/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ snakemake-storage-plugin-s3
       
       
 
-      ``0.2.8-1``,  ``0.2.8-0``
+      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
 
       
 
@@ -84,7 +86,7 @@ snakemake-storage-plugin-s3
 
     <script>
         var package = "snakemake-storage-plugin-s3";
-        var versions = ["0.2.8","0.2.8"];
+        var versions = ["0.2.10","0.2.9","0.2.8","0.2.8"];
     </script>
 
 

@@ -10,11 +10,12 @@ dudes
    :replaces_section_title:
    :noindex:
 
-   DUDes\: a top\-down taxonomic profiler for metagenomics
+   DUDes\: a top\-down taxonomic profiler for metagenomics and metaproteomics
 
-   :homepage: https://github.com/pirovc/dudes/
-   :license: The MIT License (MIT)
+   :homepage: https://github.com/pirovc/dudes
+   :license: MIT / MIT License
    :recipe: /`dudes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dudes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dudes/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw150`
 
    
 
@@ -26,15 +27,24 @@ dudes
    :versions:
       
       
+      .. raw:: html
 
-      ``0.08-2``,  ``0.08-1``,  ``0.08-0``,  ``0.07-1``,  ``0.07-0``,  ``0.06-3``,  ``0.06-2``,  ``0.06-1``,  ``0.06-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.08-2</code>,  <code>0.08-1</code>,  <code>0.08-0</code>,  <code>0.07-1</code>,  <code>0.07-0</code>,  <code>0.06-3</code>,  <code>0.06-2</code>,  <code>0.06-1</code>,  </span></summary>
+      
 
+      ``0.10.0-0``,  ``0.08-2``,  ``0.08-1``,  ``0.08-0``,  ``0.07-1``,  ``0.07-0``,  ``0.06-3``,  ``0.06-2``,  ``0.06-1``,  ``0.06-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3``
+   :depends matplotlib-base: ``>=3.5.1``
+   :depends numpy: ``>=1.21.0``
+   :depends pandas: ``>=1.4.1``
+   :depends python: ``>=3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +92,7 @@ dudes
 
     <script>
         var package = "dudes";
-        var versions = ["0.08","0.08","0.08","0.07","0.07"];
+        var versions = ["0.10.0","0.08","0.08","0.08","0.07"];
     </script>
 
 

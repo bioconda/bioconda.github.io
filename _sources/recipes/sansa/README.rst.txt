@@ -13,7 +13,7 @@ sansa
    Structural variant annotation
 
    :homepage: https://github.com/dellytools/sansa
-   :license: BSD / BSD License
+   :license: BSD / BSD-3-Clause
    :recipe: /`sansa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sansa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sansa/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ sansa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.8-6</code>,  <code>0.0.8-5</code>,  <code>0.0.8-4</code>,  <code>0.0.8-3</code>,  <code>0.0.8-2</code>,  <code>0.0.8-1</code>,  <code>0.0.8-0</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.1-0</code>,  <code>0.0.8-6</code>,  <code>0.0.8-5</code>,  <code>0.0.8-4</code>,  <code>0.0.8-3</code>,  <code>0.0.8-2</code>,  <code>0.0.8-1</code>,  <code>0.0.8-0</code>,  <code>0.0.7-1</code>,  </span></summary>
       
 
-      ``0.0.8-6``,  ``0.0.8-5``,  ``0.0.8-4``,  ``0.0.8-3``,  ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
+      ``0.1.1-0``,  ``0.0.8-6``,  ``0.0.8-5``,  ``0.0.8-4``,  ``0.0.8-3``,  ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
 
       
       .. raw:: html
@@ -40,10 +40,16 @@ sansa
       
 
    
+   :depends _openmp_mutex: ``* *_llvm``
+   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends htslib: ``>=1.19.1,<1.20.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends llvm-openmp: ``>=17.0.6``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +97,7 @@ sansa
 
     <script>
         var package = "sansa";
-        var versions = ["0.0.8","0.0.8","0.0.8","0.0.8","0.0.8"];
+        var versions = ["0.1.1","0.0.8","0.0.8","0.0.8","0.0.8"];
     </script>
 
 

@@ -10,7 +10,7 @@ pcst-fast
    :replaces_section_title:
    :noindex:
 
-   Implementation for PCST
+   A fast implementation of the Goemans\-Williamson scheme for the PCST \(prize\-collecting Steiner tree\/forest\) problem.
 
    :homepage: https://github.com/fraenkel-lab/pcst_fast
    :license: MIT / MIT
@@ -27,7 +27,7 @@ pcst-fast
       
       
 
-      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7.1-1``,  ``1.0.7.1-0``,  ``1.0.7-0``
+      ``1.0.10-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7.1-1``,  ``1.0.7.1-0``,  ``1.0.7-0``
 
       
 
@@ -35,8 +35,8 @@ pcst-fast
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends pybind11: ``>=2.4``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +84,7 @@ pcst-fast
 
     <script>
         var package = "pcst-fast";
-        var versions = ["1.0.8","1.0.8","1.0.7.1","1.0.7.1","1.0.7"];
+        var versions = ["1.0.10","1.0.8","1.0.8","1.0.7.1","1.0.7.1"];
     </script>
 
 

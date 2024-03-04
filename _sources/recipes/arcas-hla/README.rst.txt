@@ -10,14 +10,14 @@ arcas-hla
    :replaces_section_title:
    :noindex:
 
-   high resolution HLA typing from RNA seq
+   high\-resolution HLA typing from RNA seq
 
    :homepage: https://github.com/RabadanLab/arcasHLA
-   :license: GPL-3.0
+   :license: GPL-3.0-only
    :recipe: /`arcas-hla <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arcas-hla>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arcas-hla/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btz474`
 
-   arcasHLA performs high resolution genotyping for HLA class I and class II
+   arcasHLA performs high\-resolution genotyping for HLA class I and class II
    genes from RNA sequencing\, supporting both paired and single\-end samples.
 
 
@@ -29,24 +29,35 @@ arcas-hla
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.0-1``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.0-3</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.0-1</code>,  </span></summary>
+      
 
+      ``0.6.0-0``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.0-1``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bedtools: ``>=2.27.1``
-   :depends biopython: ``<=1.77``
+   :depends bedtools: 
+   :depends biopython: 
    :depends coreutils: 
    :depends git: 
    :depends git-lfs: 
-   :depends kallisto: ``0.44.0``
+   :depends kallisto: ``0.44``
    :depends numpy: 
    :depends pandas: 
    :depends pigz: 
-   :depends python: ``>=3.6.1``
-   :depends samtools: ``>=1.9``
-   :depends scipy: ``1.1.0``
+   :depends pip: 
+   :depends pyarrow: 
+   :depends pytest: 
+   :depends python: 
+   :depends samtools: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +105,7 @@ arcas-hla
 
     <script>
         var package = "arcas-hla";
-        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0","0.4.0"];
+        var versions = ["0.6.0","0.5.0","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

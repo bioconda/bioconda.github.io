@@ -12,7 +12,7 @@ mehari
 
    VEP\-like tool for sequence ontology and HGVS annotation of VCF files written in Rust.
 
-   :homepage: https://github.com/bihealth/varfish-org
+   :homepage: https://github.com/varfish-org/mehari
    :license: MIT
    :recipe: /`mehari <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mehari>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mehari/meta.yaml>`_
 
@@ -28,10 +28,10 @@ mehari
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.21.2-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.18.1-0</code>,  <code>0.18.0-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.23.2-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-0</code>,  <code>0.22.0-0</code>,  <code>0.21.2-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  </span></summary>
       
 
-      ``0.21.2-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.24.2-0``,  ``0.24.1-0``,  ``0.23.2-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.0-0``,  ``0.21.2-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ mehari
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.44.2,<4.0a0``
+   :depends libsqlite: ``>=3.45.1,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends openssl: ``>=3.2.1,<4.0a0``
@@ -93,7 +93,7 @@ mehari
 
     <script>
         var package = "mehari";
-        var versions = ["0.21.2","0.21.1","0.21.1","0.21.0","0.20.0"];
+        var versions = ["0.24.2","0.24.1","0.23.2","0.23.1","0.23.0"];
     </script>
 
 

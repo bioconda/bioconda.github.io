@@ -27,7 +27,7 @@ hmftools-bam-tools
       
       
 
-      ``1.2-0``
+      ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -80,7 +80,7 @@ hmftools-bam-tools
 
     <script>
         var package = "hmftools-bam-tools";
-        var versions = ["1.2"];
+        var versions = ["1.2.1","1.2","1.2"];
     </script>
 
 

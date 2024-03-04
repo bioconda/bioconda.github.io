@@ -16,7 +16,7 @@ pgenlib
    :documentation: https://github.com/chrchang/plink-ng/blob/master/2.0/Python/README.md
    
    :developer docs: https://github.com/chrchang/plink-ng/tree/master/2.0/Python
-   :license: LGPL / GNU Lesser General Public v3 (LGPLv3)
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`pgenlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgenlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgenlib/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13742-015-0047-8`
 
@@ -31,7 +31,7 @@ pgenlib
       
       
 
-      ``0.90.1-0``
+      ``0.90.2-0``,  ``0.90.1-0``
 
       
 
@@ -42,7 +42,6 @@ pgenlib
    :depends numpy: ``>=1.21.6,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +89,7 @@ pgenlib
 
     <script>
         var package = "pgenlib";
-        var versions = ["0.90.1"];
+        var versions = ["0.90.2","0.90.1"];
     </script>
 
 

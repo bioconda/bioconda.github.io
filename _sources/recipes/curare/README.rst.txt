@@ -32,13 +32,15 @@ curare
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
 
       
 
    
+   :depends biopython: ``1.83.*``
    :depends docopt: ``0.6.2.*``
    :depends mamba: ``1.5.3.*``
+   :depends progressbar2: ``4.3.2.*``
    :depends python: ``3.10.*``
    :depends pyyaml: ``6.0.*``
    :depends snakemake: ``7.32.3.*``
@@ -89,7 +91,7 @@ curare
 
     <script>
         var package = "curare";
-        var versions = ["0.5.1","0.5.0","0.4.5","0.4.4","0.4.3"];
+        var versions = ["0.6.0","0.5.1","0.5.0","0.4.5","0.4.4"];
     </script>
 
 

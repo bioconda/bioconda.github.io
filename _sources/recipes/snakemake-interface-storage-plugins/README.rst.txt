@@ -27,7 +27,7 @@ snakemake-interface-storage-plugins
       
       
 
-      ``3.0.0-0``
+      ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-interface-storage-plugins
 
     <script>
         var package = "snakemake-interface-storage-plugins";
-        var versions = ["3.0.0"];
+        var versions = ["3.1.0","3.0.0"];
     </script>
 
 

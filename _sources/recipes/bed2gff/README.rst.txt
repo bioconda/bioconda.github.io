@@ -27,7 +27,7 @@ bed2gff
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -81,7 +81,7 @@ bed2gff
 
     <script>
         var package = "bed2gff";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 

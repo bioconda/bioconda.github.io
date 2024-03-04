@@ -27,9 +27,17 @@ pydeseq2
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.6-0</code>,  </span></summary>
+      
 
+      ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -39,10 +47,9 @@ pydeseq2
    :depends matplotlib-base: ``>=3.6.2``
    :depends numpy: ``>=1.23.0``
    :depends pandas: ``>=1.4.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :depends scikit-learn: ``>=1.1.0``
-   :depends scipy: ``>=1.8.0``
-   :depends statsmodels: 
+   :depends scipy: ``>=1.11.0``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +97,7 @@ pydeseq2
 
     <script>
         var package = "pydeseq2";
-        var versions = ["0.4.4","0.4.3","0.4.2","0.4.1","0.4.0"];
+        var versions = ["0.4.7","0.4.6","0.4.5","0.4.4","0.4.3"];
     </script>
 
 

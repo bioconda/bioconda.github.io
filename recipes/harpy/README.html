@@ -81,12 +81,18 @@
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/pdimens/harpy">https://github.com/pdimens/harpy</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy">harpy</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>Harpy is a command-line tool to easily process haplotag or 10x linked-read data. It uses
+Snakemake under the hood to execute different workflows (quality control, trimming,
+alignment, variant calling, phasing, etc.), but the user is rarely, if ever, exposed
+to Snakemake directly. With an emphasis on user-friendliness, parallelization, transparency,
+and reproducibility, Harpy aims to quickly handle data processing so that you can focus more
+on analyzing your data.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -94,82 +100,35 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">harpy</span></span><a class="headerlink" href="#package-harpy" title="Permalink to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/harpy"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/harpy.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/harpy"><img alt="docker_harpy" src="https://quay.io/repository/biocontainers/harpy/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
-</dd>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.7.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
+</details></dd>
 <dt class="field-even">depends bcftools<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends bioconductor-complexheatmap<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends bwa<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends fastp<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends fastqc<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends hapcut2<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends icu<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends leviathan<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends llvm-openmp<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends multiqc<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends naibr-plus<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pysam<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.10.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.19.*</span></code></p>
 </dd>
-<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.9.* *_cp39</span></code></p>
+<dt class="field-odd">depends multiqc<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pysam<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.22.*</span></code></p>
 </dd>
-<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-circlize<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-dplyr<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-dt<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-ggplot2<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-ggridges<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-knitr<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-magrittr<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-plotly<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-rmarkdown<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-stitch<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-tidyr<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-viridislite<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
+</dd>
 <dt class="field-even">depends rich-click<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends sambamba<span class="colon">:</span></dt>
+<dt class="field-odd">depends samtools<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends samtools<span class="colon">:</span></dt>
+<dt class="field-even">depends seqtk<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends seqtk<span class="colon">:</span></dt>
+<dt class="field-odd">depends snakemake-minimal<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends snakemake<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7</span></code></p>
-</dd>
-<dt class="field-odd">depends tabix<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends xz<span class="colon">:</span></dt>
+<dt class="field-even">depends tabix<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -207,7 +166,7 @@ others.</p>
 
 <script>
     var package = "harpy";
-    var versions = ["0.4.0","0.3.0","0.3.0","0.3.0","0.3.0"];
+    var versions = ["0.7.3","0.7.0","0.6.1","0.6.0","0.5.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

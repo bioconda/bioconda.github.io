@@ -33,10 +33,10 @@ metaphlan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.1.0-0</code>,  </span></summary>
       
 
-      ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.14-0``,  ``3.0.13-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``3.0.0.alpha-1``,  ``3.0.0.alpha-0``,  ``2.8.1-1``,  ``2.8.1-0``
+      ``4.1.0-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.14-0``,  ``3.0.13-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``3.0.0.alpha-1``,  ``3.0.0.alpha-0``,  ``2.8.1-1``,  ``2.8.1-0``
 
       
       .. raw:: html
@@ -45,19 +45,27 @@ metaphlan
       
 
    
+   :depends bioconductor-microbiome: 
    :depends biom-format: 
    :depends biopython: 
    :depends blast: ``>=2.6.0``
    :depends bowtie2: ``>=2.3.0``
-   :depends cmseq: 
    :depends dendropy: 
+   :depends hclust2: 
    :depends matplotlib-base: 
    :depends muscle: ``>=3.8.1551``
    :depends numpy: 
    :depends pandas: 
-   :depends phylophlan: 
+   :depends phylophlan: ``>=3.1``
    :depends pysam: 
    :depends python: ``>=3.7``
+   :depends r-ape: 
+   :depends r-base: ``>=4``
+   :depends r-biocmanager: 
+   :depends r-compositions: 
+   :depends r-essentials: 
+   :depends r-optparse: 
+   :depends r-rbiom: 
    :depends raxml: ``>=8.2.10``
    :depends requests: 
    :depends samtools: ``>=1.9``
@@ -109,7 +117,7 @@ metaphlan
 
     <script>
         var package = "metaphlan";
-        var versions = ["4.0.6","4.0.5","4.0.4","4.0.3","4.0.2"];
+        var versions = ["4.1.0","4.0.6","4.0.5","4.0.4","4.0.3"];
     </script>
 
 

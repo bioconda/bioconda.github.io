@@ -16,10 +16,16 @@ harpy
    :documentation: https://pdimens.github.io/harpy/
    
    :developer docs: https://github.com/pdimens/harpy
-   :license: MIT
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`harpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy/meta.yaml>`_
 
-   
+   Harpy is a command\-line tool to easily process haplotag or 10x linked\-read data. It uses
+   Snakemake under the hood to execute different workflows \(quality control\, trimming\, 
+   alignment\, variant calling\, phasing\, etc.\)\, but the user is rarely\, if ever\, exposed
+   to Snakemake directly. With an emphasis on user\-friendliness\, parallelization\, transparency\,
+   and reproducibility\, Harpy aims to quickly handle data processing so that you can focus more
+   on analyzing your data. 
+
 
 
 .. conda:package:: harpy
@@ -29,47 +35,31 @@ harpy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  </span></summary>
+      
 
+      ``0.7.3-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bcftools: 
-   :depends bioconductor-complexheatmap: 
-   :depends bwa: 
-   :depends fastp: 
-   :depends fastqc: 
-   :depends hapcut2: 
-   :depends icu: 
-   :depends leviathan: 
-   :depends libzlib: 
-   :depends llvm-openmp: 
+   :depends bcftools: ``1.19.*``
    :depends multiqc: 
-   :depends naibr-plus: 
-   :depends pysam: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
-   :depends r-base: 
-   :depends r-circlize: 
-   :depends r-dplyr: 
-   :depends r-dt: 
-   :depends r-ggplot2: 
-   :depends r-ggridges: 
-   :depends r-knitr: 
-   :depends r-magrittr: 
-   :depends r-plotly: 
-   :depends r-rmarkdown: 
-   :depends r-stitch: 
-   :depends r-tidyr: 
-   :depends r-viridislite: 
+   :depends pandas: 
+   :depends pysam: ``0.22.*``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends rich-click: 
-   :depends sambamba: 
    :depends samtools: 
    :depends seqtk: 
-   :depends snakemake: ``>=7``
+   :depends snakemake-minimal: 
    :depends tabix: 
-   :depends xz: 
    :requirements:
 
    .. rubric:: Installation
@@ -117,7 +107,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["0.4.0","0.3.0","0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.7.3","0.7.0","0.6.1","0.6.0","0.5.0"];
     </script>
 
 

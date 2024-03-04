@@ -13,7 +13,7 @@ r-pscbs
    Segmentation of allele\-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome.  Both tumor\-normal paired and tumor\-only analyses are supported.
 
    :homepage: https://github.com/HenrikBengtsson/PSCBS
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`r-pscbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pscbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pscbs/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ r-pscbs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.66.0-2</code>,  <code>0.66.0-1</code>,  <code>0.66.0-0</code>,  <code>0.65.0-5</code>,  <code>0.65.0-4</code>,  <code>0.65.0-3</code>,  <code>0.65.0-2</code>,  <code>0.65.0-1</code>,  <code>0.65.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.67.0-0</code>,  <code>0.66.0-2</code>,  <code>0.66.0-1</code>,  <code>0.66.0-0</code>,  <code>0.65.0-5</code>,  <code>0.65.0-4</code>,  <code>0.65.0-3</code>,  <code>0.65.0-2</code>,  <code>0.65.0-1</code>,  </span></summary>
       
 
-      ``0.66.0-2``,  ``0.66.0-1``,  ``0.66.0-0``,  ``0.65.0-5``,  ``0.65.0-4``,  ``0.65.0-3``,  ``0.65.0-2``,  ``0.65.0-1``,  ``0.65.0-0``,  ``0.64.0-2``,  ``0.64.0-1``,  ``0.64.0-0``,  ``0.63.0-0``,  ``0.61.0-0``,  ``0.60.3-0``,  ``0.60.0-2``,  ``0.60.0-0``
+      ``0.67.0-0``,  ``0.66.0-2``,  ``0.66.0-1``,  ``0.66.0-0``,  ``0.65.0-5``,  ``0.65.0-4``,  ``0.65.0-3``,  ``0.65.0-2``,  ``0.65.0-1``,  ``0.65.0-0``,  ``0.64.0-2``,  ``0.64.0-1``,  ``0.64.0-0``,  ``0.63.0-0``,  ``0.61.0-0``,  ``0.60.3-0``,  ``0.60.0-2``,  ``0.60.0-0``
 
       
       .. raw:: html
@@ -40,16 +40,16 @@ r-pscbs
       
 
    
-   :depends bioconductor-aroma.light: 
-   :depends bioconductor-dnacopy: 
+   :depends bioconductor-aroma.light: ``>=2.4.0``
+   :depends bioconductor-dnacopy: ``>=1.42.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-future: ``>=1.12.0``
-   :depends r-listenv: ``>=0.7.0``
-   :depends r-matrixstats: ``>=0.54.0``
-   :depends r-r.cache: ``>=0.13.0``
-   :depends r-r.methodss3: ``>=1.7.1``
-   :depends r-r.oo: ``>=1.22.0``
-   :depends r-r.utils: ``>=2.8.0``
+   :depends r-future: ``>=1.28.0``
+   :depends r-listenv: ``>=0.8.0``
+   :depends r-matrixstats: ``>=0.62.0``
+   :depends r-r.cache: ``>=0.16.0``
+   :depends r-r.methodss3: ``>=1.8.2``
+   :depends r-r.oo: ``>=1.25.0``
+   :depends r-r.utils: ``>=2.12.0``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +97,7 @@ r-pscbs
 
     <script>
         var package = "r-pscbs";
-        var versions = ["0.66.0","0.66.0","0.66.0","0.65.0","0.65.0"];
+        var versions = ["0.67.0","0.66.0","0.66.0","0.66.0","0.65.0"];
     </script>
 
 

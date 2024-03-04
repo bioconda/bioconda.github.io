@@ -28,7 +28,7 @@ cobra-meta
       
       
 
-      ``1.2.2-0``
+      ``1.2.3-0``,  ``1.2.2-0``
 
       
 
@@ -85,7 +85,7 @@ cobra-meta
 
     <script>
         var package = "cobra-meta";
-        var versions = ["1.2.2"];
+        var versions = ["1.2.3","1.2.2"];
     </script>
 
 

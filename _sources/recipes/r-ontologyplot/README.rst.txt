@@ -13,7 +13,7 @@ r-ontologyplot
    Functions for visualising sets of ontological terms using the \'graphviz\' layout system.
 
    :homepage: https://CRAN.R-project.org/package=ontologyPlot
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`r-ontologyplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ontologyplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ontologyplot/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-ontologyplot
       
       
 
-      ``1.6-4``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``,  ``1.4-1``,  ``1.4-0``
+      ``1.7-0``,  ``1.6-4``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``,  ``1.4-1``,  ``1.4-0``
 
       
 
@@ -83,7 +83,7 @@ r-ontologyplot
 
     <script>
         var package = "r-ontologyplot";
-        var versions = ["1.6","1.6","1.6","1.6","1.6"];
+        var versions = ["1.7","1.6","1.6","1.6","1.6"];
     </script>
 
 

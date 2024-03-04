@@ -29,10 +29,10 @@ gecco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.10-0</code>,  <code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  </span></summary>
       
 
-      ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
+      ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
 
       
       .. raw:: html
@@ -49,8 +49,8 @@ gecco
    :depends numpy: ``>=1.16``
    :depends polars: ``>=0.16.1``
    :depends psutil: ``>=5.8``
-   :depends pyhmmer: ``>=0.8.0``
-   :depends pyrodigal: ``>=2.1.0``
+   :depends pyhmmer: ``>=0.10.0``
+   :depends pyrodigal: ``>=3.0``
    :depends python: ``>=3.7``
    :depends rich: ``>=12.4.0``
    :depends scikit-learn: ``>=1.0``
@@ -104,7 +104,7 @@ gecco
 
     <script>
         var package = "gecco";
-        var versions = ["0.9.8","0.9.6","0.9.5","0.9.2","0.9.1"];
+        var versions = ["0.9.10","0.9.8","0.9.6","0.9.5","0.9.2"];
     </script>
 
 

@@ -27,12 +27,12 @@ crispector2
       
       
 
-      ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.4-0``
+      ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.4-0``
 
       
 
    
-   :depends biopython: ``>=1.74``
+   :depends biopython: ``>=1.74,<=1.79``
    :depends click: ``>=7.0``
    :depends fastp: 
    :depends jinja2: 
@@ -41,7 +41,7 @@ crispector2
    :depends numpy: ``>=1.12.1``
    :depends pandas: ``>=0.24.2``
    :depends plotly: ``>=4.3.0``
-   :depends python: ``3.7.*``
+   :depends python: ``>=3.8``
    :depends python-edlib: 
    :depends pyyaml: ``>=5.1.2``
    :depends scipy: ``>=1.2.1``
@@ -95,7 +95,7 @@ crispector2
 
     <script>
         var package = "crispector2";
-        var versions = ["2.0.7","2.0.6","2.0.4"];
+        var versions = ["2.0.8","2.0.7","2.0.6","2.0.4"];
     </script>
 
 

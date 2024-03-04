@@ -13,7 +13,7 @@ segzoo
    System for turnkey analysis of semi\-automated genome annotations
 
    :homepage: https://github.com/hoffmangroup/segzoo
-   :license: GPL2 / GNU General Public v2 (GPLv2)
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`segzoo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segzoo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segzoo/meta.yaml>`_
 
    
@@ -27,17 +27,17 @@ segzoo
       
       
 
-      ``1.0.11-0``,  ``1.0.7-0``
+      ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.7-0``
 
       
 
    
    :depends ggd: 
    :depends pybedtools: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.7``
    :depends seaborn: 
    :depends segtools: 
-   :depends snakemake: 
+   :depends snakemake-minimal: 
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ segzoo
 
     <script>
         var package = "segzoo";
-        var versions = ["1.0.11","1.0.7"];
+        var versions = ["1.0.12","1.0.11","1.0.7"];
     </script>
 
 

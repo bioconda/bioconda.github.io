@@ -27,22 +27,22 @@ mira-multiome
       
       
 
-      ``2.1.0-0``
+      ``2.1.1-0``,  ``2.1.0-0``
 
       
 
    
-   :depends anndata: ``<1,>=0.7.6``
+   :depends anndata: ``>=0.7.6,<1``
    :depends lisa2: ``>=2.3.0``
-   :depends matplotlib-base: ``<4,>=3.4``
+   :depends matplotlib-base: ``>=3.4,<4``
    :depends moods: ``>=1.9.4.1``
-   :depends networkx: ``<3,>=2.3``
-   :depends optuna: ``<3,>=2.8``
-   :depends pyfaidx: ``<1,>=0.5``
-   :depends pyro-ppl: ``<2,>=1.5.2``
-   :depends python: ``>=3.7``
-   :depends pytorch: ``<2,>=1.8.0``
-   :depends requests: ``<3,>=2``
+   :depends networkx: ``>=2.3,<3``
+   :depends optuna: ``>=2.8,<3``
+   :depends pyfaidx: ``>=0.5,<1``
+   :depends pyro-ppl: ``>=1.5.2,<2``
+   :depends python: ``>=3.7,<3.12``
+   :depends pytorch: ``>=1.8.0,<2``
+   :depends requests: ``>=2,<3``
    :depends tensorboard: 
    :depends tqdm: 
    :requirements:
@@ -92,7 +92,7 @@ mira-multiome
 
     <script>
         var package = "mira-multiome";
-        var versions = ["2.1.0"];
+        var versions = ["2.1.1","2.1.0"];
     </script>
 
 

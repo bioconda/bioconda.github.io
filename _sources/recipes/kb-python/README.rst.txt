@@ -30,10 +30,10 @@ kb-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.28.2-0</code>,  <code>0.28.1-0</code>,  <code>0.28.0-0</code>,  <code>0.27.3-1</code>,  <code>0.27.3-0</code>,  <code>0.27.2-0</code>,  <code>0.27.1-0</code>,  <code>0.27.0-0</code>,  <code>0.26.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.28.2-2</code>,  <code>0.28.2-1</code>,  <code>0.28.2-0</code>,  <code>0.28.1-0</code>,  <code>0.28.0-0</code>,  <code>0.27.3-1</code>,  <code>0.27.3-0</code>,  <code>0.27.2-0</code>,  <code>0.27.1-0</code>,  </span></summary>
       
 
-      ``0.28.2-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.27.3-1``,  ``0.27.3-0``,  ``0.27.2-0``,  ``0.27.1-0``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.26.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
+      ``0.28.2-2``,  ``0.28.2-1``,  ``0.28.2-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.27.3-1``,  ``0.27.3-0``,  ``0.27.2-0``,  ``0.27.1-0``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.26.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
 
       
       .. raw:: html
@@ -43,18 +43,16 @@ kb-python
 
    
    :depends anndata: ``>=0.6.22.post1``
-   :depends bustools: ``>=0.40.0``
    :depends h5py: ``>=2.10.0``
    :depends jinja2: ``>2.10.1``
-   :depends kallisto: ``>=0.46.2``
    :depends loompy: ``>=3.0.6``
    :depends nbconvert: ``>=5.6.0``
    :depends nbformat: ``>=4.4.0``
    :depends ngs-tools: ``>=1.5.11``
    :depends numpy: ``>=1.17.2``
-   :depends pandas: ``>=1.0.0``
+   :depends pandas: ``>=1.0.0,<2``
    :depends plotly: ``>=4.5.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<3.9``
    :depends requests: ``>=2.22.0``
    :depends scanpy: ``>=1.4.4.post1``
    :depends scikit-learn: ``>=0.21.3``
@@ -107,7 +105,7 @@ kb-python
 
     <script>
         var package = "kb-python";
-        var versions = ["0.28.2","0.28.1","0.28.0","0.27.3","0.27.3"];
+        var versions = ["0.28.2","0.28.2","0.28.2","0.28.1","0.28.0"];
     </script>
 
 

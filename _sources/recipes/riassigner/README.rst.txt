@@ -13,7 +13,7 @@ riassigner
    GC\-MS retention index calculation
 
    :homepage: https://github.com/RECETOX/RIAssigner
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`riassigner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riassigner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riassigner/meta.yaml>`_
 
    RIAssigner is a python tool for retention index \(RI\) computation for GC\-MS data
@@ -29,10 +29,10 @@ riassigner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-4</code>,  <code>0.3.4-3</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.4-4</code>,  <code>0.3.4-3</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.4.0-0``,  ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,14 @@ riassigner
       
 
    
-   :depends matchms: ``>=0.14.0,<0.18.0``
-   :depends numpy: ``<=1.23``
+   :depends fastparquet: ``>=2023.10.1,<2024.0.0``
+   :depends matchms: ``>=0.24.1,<0.25.0``
+   :depends numpy: 
    :depends pandas: 
-   :depends pint: ``>=0.17,<0.20``
-   :depends python: ``>=3.7,<3.9``
+   :depends pint: ``>=0.23.0,<0.24.0``
+   :depends python: ``>=3.10,<3.13``
    :depends scipy: 
+   :depends urllib3: ``1.26.15.*``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +96,7 @@ riassigner
 
     <script>
         var package = "riassigner";
-        var versions = ["0.3.4","0.3.4","0.3.4","0.3.4","0.3.4"];
+        var versions = ["0.4.0","0.3.4","0.3.4","0.3.4","0.3.4"];
     </script>
 
 

@@ -14,7 +14,7 @@ samestr
 
    :homepage: https://github.com/danielpodlesny/samestr/
    :developer docs: https://github.com/danielpodlesny/samestr
-   :license: AGPL / GNU Affero General Public License v3
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`samestr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samestr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samestr/meta.yaml>`_
    :links: doi: :doi:`10.1186/s40168-022-01251-w`
 
@@ -29,7 +29,7 @@ samestr
       
       
 
-      ``1.2023.4-0``,  ``1.2023.3-0``
+      ``1.2024.2.post1-0``,  ``1.2023.4-0``,  ``1.2023.3-0``
 
       
 
@@ -91,7 +91,7 @@ samestr
 
     <script>
         var package = "samestr";
-        var versions = ["1.2023.4","1.2023.3"];
+        var versions = ["1.2024.2.post1","1.2023.4","1.2023.3"];
     </script>
 
 

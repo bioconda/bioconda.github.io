@@ -27,7 +27,7 @@ terrace
       
       
 
-      ``1.1.1-0``
+      ``1.1.2-0``,  ``1.1.1-0``
 
       
 
@@ -83,7 +83,7 @@ terrace
 
     <script>
         var package = "terrace";
-        var versions = ["1.1.1"];
+        var versions = ["1.1.2","1.1.1"];
     </script>
 
 

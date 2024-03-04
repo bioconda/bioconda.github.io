@@ -30,20 +30,21 @@ phanotate
       
       
 
-      ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.6.5-0``,  ``1.6.4-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
 
    
    :depends backports.tempfile: 
    :depends fastpath: 
+   :depends genbank: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :depends seaborn: 
-   :depends setuptools: 
    :depends statsmodels: 
    :depends textwrap3: 
    :depends trnascan-se: 
@@ -94,7 +95,7 @@ phanotate
 
     <script>
         var package = "phanotate";
-        var versions = ["1.5.1","1.5.1","1.5.0","1.5.0","1.5.0"];
+        var versions = ["1.6.5","1.6.4","1.5.1","1.5.1","1.5.0"];
     </script>
 
 

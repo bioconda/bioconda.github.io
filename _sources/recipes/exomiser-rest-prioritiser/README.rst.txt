@@ -13,8 +13,11 @@ exomiser-rest-prioritiser
    Exomiser prioritiser REST API
 
    :homepage: https://github.com/exomiser/Exomiser
-   :license: AGPL3
+   :documentation: https://exomiser.readthedocs.io/en/latest/
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`exomiser-rest-prioritiser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exomiser-rest-prioritiser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exomiser-rest-prioritiser/meta.yaml>`_
+   :links: biotools: :biotools:`exomiser`
 
    
 
@@ -27,12 +30,12 @@ exomiser-rest-prioritiser
       
       
 
-      ``13.3.0-0``,  ``13.2.1-0``,  ``13.2.0-0``,  ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
+      ``14.0.0-0``,  ``13.3.0-0``,  ``13.2.1-0``,  ``13.2.0-0``,  ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=17``
    :depends zlib: 
    :requirements:
 
@@ -81,7 +84,7 @@ exomiser-rest-prioritiser
 
     <script>
         var package = "exomiser-rest-prioritiser";
-        var versions = ["13.3.0","13.2.1","13.2.0","12.1.0","12.1.0"];
+        var versions = ["14.0.0","13.3.0","13.2.1","13.2.0","12.1.0"];
     </script>
 
 
