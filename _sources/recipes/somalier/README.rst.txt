@@ -28,12 +28,12 @@ somalier
       
       
 
-      ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.15-1``,  ``0.2.15-0``
+      ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.15-1``,  ``0.2.15-0``
 
       
 
    
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends htslib: ``>=1.19.1,<1.20.0a0``
    :depends libgcc-ng: ``>=12``
    :depends openblas: 
    :requirements:
@@ -83,7 +83,7 @@ somalier
 
     <script>
         var package = "somalier";
-        var versions = ["0.2.18","0.2.17","0.2.15","0.2.15"];
+        var versions = ["0.2.19","0.2.18","0.2.17","0.2.15","0.2.15"];
     </script>
 
 

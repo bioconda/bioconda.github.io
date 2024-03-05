@@ -10,7 +10,7 @@ biodigest
    :replaces_section_title:
    :noindex:
 
-   In silico Validation of Disease and Gene Sets\, Clusterings or Subnetworks \(DIGEST\)
+   In silico Validation of Disease and Gene sets\, Clusterings or Subnetworks \(DIGEST\)
 
    :homepage: http://pypi.python.org/pypi/biodigest/
    :license: GPL3 / GPL-3.0-or-later
@@ -27,19 +27,19 @@ biodigest
       
       
 
-      ``0.2.16-1``,  ``0.2.16-0``
+      ``0.2.16-2``,  ``0.2.16-1``,  ``0.2.16-0``
 
       
 
    
    :depends biothings_client: ``0.2.6``
-   :depends graph-tool: 
+   :depends graph-tool: ``>=2.58``
    :depends gseapy: ``0.10.5``
    :depends numpy: ``1.24.3``
    :depends pandas: ``1.5.2``
    :depends psutil: ``5.9.0``
    :depends pycairo: ``>=1.21.0``
-   :depends python: ``>=3.7,<=3.9``
+   :depends python: ``>=3.7``
    :depends requests: ``>=2.28.2``
    :depends scipy: ``1.8.0``
    :depends seaborn: ``>=0.12.2``
@@ -90,7 +90,7 @@ biodigest
 
     <script>
         var package = "biodigest";
-        var versions = ["0.2.16","0.2.16"];
+        var versions = ["0.2.16","0.2.16","0.2.16"];
     </script>
 
 
