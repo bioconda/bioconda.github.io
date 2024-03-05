@@ -25,4 +25,4 @@ commit range (typically for the PR) includes the above additional
 platform.
 
 Support for building and uploading ``linux-aarch64`` containers is planned but
-not yet implemented (as of March 2023).
+not yet implemented (as of March 2024).
