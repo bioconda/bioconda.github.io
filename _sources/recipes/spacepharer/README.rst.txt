@@ -29,10 +29,10 @@ spacepharer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.c2e680a-3</code>,  <code>5.c2e680a-2</code>,  <code>5.c2e680a-1</code>,  <code>5.c2e680a-0</code>,  <code>4.228b9e5-2</code>,  <code>4.228b9e5-1</code>,  <code>4.228b9e5-0</code>,  <code>3.5b8c86d-0</code>,  <code>2.fc5e668-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.c2e680a-4</code>,  <code>5.c2e680a-3</code>,  <code>5.c2e680a-2</code>,  <code>5.c2e680a-1</code>,  <code>5.c2e680a-0</code>,  <code>4.228b9e5-2</code>,  <code>4.228b9e5-1</code>,  <code>4.228b9e5-0</code>,  <code>3.5b8c86d-0</code>,  </span></summary>
       
 
-      ``5.c2e680a-3``,  ``5.c2e680a-2``,  ``5.c2e680a-1``,  ``5.c2e680a-0``,  ``4.228b9e5-2``,  ``4.228b9e5-1``,  ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
+      ``5.c2e680a-4``,  ``5.c2e680a-3``,  ``5.c2e680a-2``,  ``5.c2e680a-1``,  ``5.c2e680a-0``,  ``4.228b9e5-2``,  ``4.228b9e5-1``,  ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ spacepharer
 
     <script>
         var package = "spacepharer";
-        var versions = ["5.c2e680a","5.c2e680a","5.c2e680a","5.c2e680a","4.228b9e5"];
+        var versions = ["5.c2e680a","5.c2e680a","5.c2e680a","5.c2e680a","5.c2e680a"];
     </script>
 
 

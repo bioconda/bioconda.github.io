@@ -13,7 +13,7 @@ varfish-server-worker
    Rust\-based tool for the heavy lifting in varfish\-server.
 
 
-   :homepage: https://github.com/bihealth/varfish-server-worker
+   :homepage: https://github.com/varfish-org/varfish-server-worker
    :license: MIT
    :recipe: /`varfish-server-worker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varfish-server-worker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varfish-server-worker/meta.yaml>`_
 
@@ -29,10 +29,10 @@ varfish-server-worker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.2-1</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-1</code>,  </span></summary>
       
 
-      ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.10.2-1``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ varfish-server-worker
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.43.0,<4.0a0``
+   :depends libsqlite: ``>=3.45.1,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=3.1.3,<4.0a0``
+   :depends openssl: ``>=3.2.1,<4.0a0``
    :depends sqlite: 
    :requirements:
 
@@ -94,7 +94,7 @@ varfish-server-worker
 
     <script>
         var package = "varfish-server-worker";
-        var versions = ["0.10.2","0.10.1","0.10.0","0.9.0","0.8.0"];
+        var versions = ["0.10.2","0.10.2","0.10.1","0.10.0","0.9.0"];
     </script>
 
 

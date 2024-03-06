@@ -10,10 +10,10 @@ snakemake-executor-plugin-cluster-generic
    :replaces_section_title:
    :noindex:
 
-   
+   Generic cluster executor for Snakemake
 
    :homepage: https://github.com/snakemake/snakemake-executor-plugin-cluster-generic
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-executor-plugin-cluster-generic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-cluster-generic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-cluster-generic/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ snakemake-executor-plugin-cluster-generic
       
       
 
-      ``1.0.7-0``
+      ``1.0.8-0``,  ``1.0.7-0``
 
       
 
@@ -82,7 +82,7 @@ snakemake-executor-plugin-cluster-generic
 
     <script>
         var package = "snakemake-executor-plugin-cluster-generic";
-        var versions = ["1.0.7"];
+        var versions = ["1.0.8","1.0.7"];
     </script>
 
 

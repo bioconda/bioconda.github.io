@@ -28,7 +28,7 @@ ms2rescore
       
       
 
-      ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
 
@@ -42,7 +42,7 @@ ms2rescore
    :depends lxml: ``>=4.5``
    :depends matplotlib-base: 
    :depends mokapot: ``>=0.9``
-   :depends ms2pip: ``>=4.0.0-dev4``
+   :depends ms2pip: ``>=4.0.0-dev8``
    :depends numpy: ``>=1.16.0``
    :depends pandas: ``>=1.0``
    :depends plotly: ``>=5``
@@ -104,7 +104,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.0.1","3.0.0","3.0.0b1","3.0.0b1"];
+        var versions = ["3.0.1","3.0.1","3.0.0","3.0.0b1","3.0.0b1"];
     </script>
 
 

@@ -27,7 +27,7 @@ screadcounts
       
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-0``
+      ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-0``
 
       
 
@@ -85,7 +85,7 @@ screadcounts
 
     <script>
         var package = "screadcounts";
-        var versions = ["1.3.2","1.3.1","1.2.0"];
+        var versions = ["1.4.0","1.3.2","1.3.1","1.2.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ hhsuite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.0-9</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-2</code>,  <code>3.3.0-1</code>,  <code>3.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-10</code>,  <code>3.3.0-9</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-2</code>,  <code>3.3.0-1</code>,  </span></summary>
       
 
-      ``3.3.0-9``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
+      ``3.3.0-10``,  ``3.3.0-9``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
 
       
       .. raw:: html

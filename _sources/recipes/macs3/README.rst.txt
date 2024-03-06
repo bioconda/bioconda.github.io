@@ -31,7 +31,7 @@ macs3
       
       
 
-      ``3.0.1-0``
+      ``3.0.1-1``,  ``3.0.1-0``
 
       
 
@@ -42,8 +42,8 @@ macs3
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends numpy: ``>=1.25``
    :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: ``>=1.3``
    :depends scipy: ``>=1.12``
    :requirements:
@@ -93,7 +93,7 @@ macs3
 
     <script>
         var package = "macs3";
-        var versions = ["3.0.1"];
+        var versions = ["3.0.1","3.0.1"];
     </script>
 
 

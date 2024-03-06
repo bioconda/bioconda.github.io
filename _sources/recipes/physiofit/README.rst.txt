@@ -13,8 +13,11 @@ physiofit
    Calculate extracellular fluxes from metabolite concentrations and biomass data
 
    :homepage: https://github.com/MetaSys-LISBP/PhysioFit
-   :license: GPL-3.0-only
+   :documentation: https://physiofit.readthedocs.io/en/latest/
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`physiofit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/physiofit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/physiofit/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.10.12.561695`
 
    
 
@@ -27,7 +30,7 @@ physiofit
       
       
 
-      ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``
+      ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``
 
       
 
@@ -35,6 +38,7 @@ physiofit
    :depends matplotlib-base: ``>=3.7.1``
    :depends numpy: ``>=1.24.2``
    :depends pandas: ``>=2.0.1``
+   :depends pyarrow: ``>=14.0.1,<15.0.0``
    :depends python: ``>=3.8,<3.9.7|>3.9.7,<3.12``
    :depends pyyaml: ``>=6.0.0``
    :depends scipy: ``>=1.10.1``
@@ -86,7 +90,7 @@ physiofit
 
     <script>
         var package = "physiofit";
-        var versions = ["3.3.2","3.3.1","3.3.0","3.2.0","3.1.1"];
+        var versions = ["3.3.3","3.3.2","3.3.1","3.3.0","3.2.0"];
     </script>
 
 

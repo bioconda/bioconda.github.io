@@ -27,14 +27,13 @@ straindesign
       
       
 
-      ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
    
    :depends biopython: 
    :depends blessings: 
-   :depends click: 
    :depends cobra: ``>=0.24``
    :depends escher: 
    :depends future: 
@@ -42,18 +41,15 @@ straindesign
    :depends inspyred: 
    :depends iprogress: 
    :depends lazy-object-proxy: 
-   :depends markupsafe: 
    :depends networkx: 
    :depends numexpr: 
-   :depends numpy: ``<1.24``
    :depends openbabel: 
    :depends openpyxl: 
-   :depends optlang: 
    :depends ordered-set: 
    :depends palettable: 
    :depends pandas: 
    :depends plotly: 
-   :depends python: 
+   :depends python: ``>=3.8``
    :depends redis-py: 
    :depends requests: 
    :depends scipy: 
@@ -105,7 +101,7 @@ straindesign
 
     <script>
         var package = "straindesign";
-        var versions = ["3.2.2","3.2.0","3.1.0","3.0.0"];
+        var versions = ["3.2.3","3.2.2","3.2.0","3.1.0","3.0.0"];
     </script>
 
 
