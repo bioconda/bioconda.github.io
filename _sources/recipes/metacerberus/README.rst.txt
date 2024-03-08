@@ -26,9 +26,17 @@ metacerberus
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.1-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.2-1</code>,  <code>0.2-0</code>,  </span></summary>
+      
 
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,9 +50,11 @@ metacerberus
    :depends hmmer: 
    :depends metaomestats: 
    :depends pandas: 
+   :depends phanotate: 
    :depends plotly: 
    :depends porechop: 
    :depends prodigal: 
+   :depends prodigal-gv: 
    :depends psutil: 
    :depends python: ``>=3.8``
    :depends python-kaleido: 
@@ -53,6 +63,7 @@ metacerberus
    :depends ray-default: 
    :depends ray-tune: 
    :depends scikit-learn: 
+   :depends trnascan-se: 
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +111,7 @@ metacerberus
 
     <script>
         var package = "metacerberus";
-        var versions = ["1.2.1","1.2","1.1","1.1","1.0"];
+        var versions = ["1.2.1","1.2.1","1.2","1.1","1.1"];
     </script>
 
 

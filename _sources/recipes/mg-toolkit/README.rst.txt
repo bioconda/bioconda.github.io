@@ -12,9 +12,11 @@ mg-toolkit
 
    Metagenomics toolkit.
 
-   :homepage: https://github.com/EBI-metagenomics/emg-toolkit
+   :homepage: https://www.ebi.ac.uk/metagenomics
+   :developer docs: https://github.com/EBI-metagenomics/emg-toolkit
    :license: APACHE / Apache-2.0
    :recipe: /`mg-toolkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mg-toolkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mg-toolkit/meta.yaml>`_
+   :links: biotools: :biotools:`MGnify`
 
    
 
@@ -27,16 +29,17 @@ mg-toolkit
       
       
 
-      ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``
+      ``0.10.4-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``
 
       
 
    
    :depends jsonapi-client: ``>=0.9.9``
-   :depends pandas: ``>=0.25.3``
-   :depends python: ``>=3.5``
-   :depends requests: ``>=2.24.0``
+   :depends pandas: ``2.0.3``
+   :depends python: ``>=3.8``
+   :depends requests: ``>=2.31.0``
    :depends tqdm: ``>=4.49.0``
+   :depends urllib3: ``>=2.2.1``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +87,7 @@ mg-toolkit
 
     <script>
         var package = "mg-toolkit";
-        var versions = ["0.10.1","0.10.0","0.9.1"];
+        var versions = ["0.10.4","0.10.1","0.10.0","0.9.1"];
     </script>
 
 
