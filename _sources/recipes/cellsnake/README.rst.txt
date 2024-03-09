@@ -27,26 +27,16 @@ cellsnake
       
       
 
-      ``0.2.0.11-2``,  ``0.2.0.11-1``,  ``0.2.0.11-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.2.0.dev9-0``
+      ``0.2.0.12-0``,  ``0.2.0.11-2``,  ``0.2.0.11-1``,  ``0.2.0.11-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.2.0.dev9-0``
 
       
 
    
    :depends bedtools: 
-   :depends bioconductor-celldex: 
-   :depends bioconductor-clusterprofiler: ``4.6.0``
-   :depends bioconductor-complexheatmap: 
-   :depends bioconductor-enhancedvolcano: 
-   :depends bioconductor-limma: 
-   :depends bioconductor-miqc: 
-   :depends bioconductor-org.hs.eg.db: 
-   :depends bioconductor-rhdf5lib: 
-   :depends bioconductor-scater: ``1.26.0``
-   :depends bioconductor-singler: 
-   :depends bioconductor-topgo: 
    :depends celltypist: ``1.3.0``
    :depends cmake: 
    :depends docopt: 
+   :depends fastp: 
    :depends fuzzywuzzy: 
    :depends geos: ``3.11.1``
    :depends hdf5: 
@@ -56,12 +46,9 @@ cellsnake
    :depends numba: ``>=0.56.4``
    :depends openblas: ``0.3.21``
    :depends pandas: ``<=1.5.3``
-   :depends pandoc: 
    :depends plotly: 
    :depends pysam: ``>=0.16.0.1``
    :depends python: 
-   :depends python-kaleido: 
-   :depends r-base: ``4.2.2``
    :depends r-clustree: ``0.5.0``
    :depends r-cowplot: 
    :depends r-curl: 
@@ -72,12 +59,12 @@ cellsnake
    :depends r-ggpubr: 
    :depends r-ggraph: ``2.1.0``
    :depends r-ggthemes: 
+   :depends r-gplots: 
    :depends r-hdf5r: 
-   :depends r-igraph: ``1.3.4``
+   :depends r-igraph: 
    :depends r-librarian: 
    :depends r-matrix: ``<=1.5_4.1``
    :depends r-minqa: 
-   :depends r-monocle3: 
    :depends r-nmf: 
    :depends r-openxlsx: 
    :depends r-optparse: 
@@ -98,9 +85,9 @@ cellsnake
    :depends r-xml: 
    :depends regex: ``>=2021.4.4``
    :depends samtools: 
-   :depends scanpy: ``>=1.9.1``
+   :depends scanpy: ``1.9.1``
    :depends scipy: 
-   :depends snakemake: ``>=7.22.0``
+   :depends snakemake-minimal: ``7.22.0``
    :depends umap-learn: 
    :requirements:
 
@@ -149,7 +136,7 @@ cellsnake
 
     <script>
         var package = "cellsnake";
-        var versions = ["0.2.0.11","0.2.0.11","0.2.0.11","0.2.0","0.2.0"];
+        var versions = ["0.2.0.12","0.2.0.11","0.2.0.11","0.2.0.11","0.2.0"];
     </script>
 
 

@@ -13,9 +13,11 @@ deeptools
    A set of user\-friendly tools for normalization and visualzation of deep\-sequencing data
 
    :homepage: https://github.com/deeptools/deepTools
-   :license: GPL3
+   :documentation: https://deeptools.readthedocs.io/en/latest/
+   
+   :license: MIT / MIT
    :recipe: /`deeptools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptools/meta.yaml>`_
-   :links: biotools: :biotools:`deeptools`, doi: :doi:`10.1093/nar/gkw257`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_heatmap`
+   :links: biotools: :biotools:`deeptools`, doi: :doi:`10.1093/nar/gkw257`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_heatmap`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_pca`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_profile`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_correlation`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_coverage`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_fingerprint`, usegalaxy-eu: :usegalaxy-eu:`deeptools_plot_enrichment`, usegalaxy-eu: :usegalaxy-eu:`deeptools_bam_compare`, usegalaxy-eu: :usegalaxy-eu:`deeptools_bam_pe_fragmentsize`, usegalaxy-eu: :usegalaxy-eu:`deeptools_bigwig_compare`, usegalaxy-eu: :usegalaxy-eu:`deeptools_correct_gc_bias`, usegalaxy-eu: :usegalaxy-eu:`deeptools_multi_bam_summary`, usegalaxy-eu: :usegalaxy-eu:`deeptools_compute_matrix`, usegalaxy-eu: :usegalaxy-eu:`deeptools_compute_gc_bias`, usegalaxy-eu: :usegalaxy-eu:`deeptools_multi_bigwig_summary`, usegalaxy-eu: :usegalaxy-eu:`deeptools_compute_matrix_operations`, usegalaxy-eu: :usegalaxy-eu:`deeptools_alignmentsieve`, usegalaxy-eu: :usegalaxy-eu:`deeptools_estimatereadfiltering`, usegalaxy-eu: :usegalaxy-eu:`hicup_deduplicator`, usegalaxy-eu: :usegalaxy-eu:`deeptools_bigwig_average`
 
    
 
@@ -29,10 +31,10 @@ deeptools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.4-1</code>,  <code>3.5.3-0</code>,  <code>3.5.2-1</code>,  <code>3.5.2-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.5-0</code>,  <code>3.5.4-1</code>,  <code>3.5.3-0</code>,  <code>3.5.2-1</code>,  <code>3.5.2-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.4.3-0</code>,  </span></summary>
       
 
-      ``3.5.4-1``,  ``3.5.3-0``,  ``3.5.2-1``,  ``3.5.2-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.9.1-0``,  ``1.5.8.2-0``
+      ``3.5.5-0``,  ``3.5.4-1``,  ``3.5.3-0``,  ``3.5.2-1``,  ``3.5.2-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.9.1-0``,  ``1.5.8.2-0``
 
       
       .. raw:: html
@@ -45,11 +47,12 @@ deeptools
    :depends importlib-metadata: 
    :depends matplotlib-base: ``>=3.5.0``
    :depends numpy: ``>=1.9.0``
+   :depends numpydoc: ``>=0.5``
    :depends plotly: ``>=4.9``
    :depends py2bit: ``>=0.2.0``
    :depends pybigwig: ``>=0.2.3``
    :depends pysam: ``>=0.14.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :depends scipy: ``>=0.17.0``
    :requirements:
 
@@ -98,7 +101,7 @@ deeptools
 
     <script>
         var package = "deeptools";
-        var versions = ["3.5.4","3.5.3","3.5.2","3.5.2","3.5.1"];
+        var versions = ["3.5.5","3.5.4","3.5.3","3.5.2","3.5.2"];
     </script>
 
 
