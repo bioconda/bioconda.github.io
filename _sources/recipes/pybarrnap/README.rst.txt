@@ -27,7 +27,7 @@ pybarrnap
       
       
 
-      ``0.3.0-0``
+      ``0.4.1-0``,  ``0.3.0-0``
 
       
 
@@ -82,7 +82,7 @@ pybarrnap
 
     <script>
         var package = "pybarrnap";
-        var versions = ["0.3.0"];
+        var versions = ["0.4.1","0.3.0"];
     </script>
 
 

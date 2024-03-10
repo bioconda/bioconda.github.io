@@ -28,7 +28,7 @@ colabfold
       
       
 
-      ``1.5.5-0``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
 
@@ -36,12 +36,12 @@ colabfold
    :depends absl-py: 
    :depends appdirs: 
    :depends biopython: ``<=1.82``
-   :depends dm-haiku: ``0.0.10``
+   :depends dm-haiku: ``>=0.0.12``
    :depends dm-tree: 
    :depends hhsuite: ``>=3.3.0``
    :depends importlib-metadata: 
-   :depends jax: ``>=0.4.14``
-   :depends jaxlib: ``>=0.4.14``
+   :depends jax: ``>=0.4.23``
+   :depends jaxlib: ``>=0.4.23``
    :depends kalign2: ``>=2.04``
    :depends matplotlib-base: 
    :depends ml-collections: 
@@ -54,7 +54,7 @@ colabfold
    :depends python: 
    :depends requests: 
    :depends scipy: 
-   :depends tensorflow: ``>=2.12.1 cpu*``
+   :depends tensorflow-base: ``>=2.12.1 cpu*``
    :depends tqdm: 
    :requirements:
 
@@ -103,7 +103,7 @@ colabfold
 
     <script>
         var package = "colabfold";
-        var versions = ["1.5.5","1.5.3","1.5.3"];
+        var versions = ["1.5.5","1.5.5","1.5.3","1.5.3"];
     </script>
 
 
