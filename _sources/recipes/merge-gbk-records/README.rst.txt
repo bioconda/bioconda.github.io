@@ -31,11 +31,13 @@ merge-gbk-records
       
       
 
-      
+      ``0.2.0-0``
 
       
 
    
+   :depends biopython: ``>=1.79``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +85,7 @@ merge-gbk-records
 
     <script>
         var package = "merge-gbk-records";
-        var versions = [];
+        var versions = ["0.2.0"];
     </script>
 
 

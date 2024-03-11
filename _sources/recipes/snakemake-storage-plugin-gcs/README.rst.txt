@@ -13,7 +13,7 @@ snakemake-storage-plugin-gcs
    A Snakemake storage plugin for Google Cloud Storage
 
    :homepage: https://github.com/snakemake/snakemake-storage-plugin-gcs
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-storage-plugin-gcs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-gcs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-gcs/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ snakemake-storage-plugin-gcs
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -35,6 +35,8 @@ snakemake-storage-plugin-gcs
    :depends google-cloud-storage: ``>=2.12.0,<3.0.0``
    :depends google-crc32c: ``>=1.1.2,<2.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
+   :depends snakemake-interface-common: ``>=1.14.2,<2.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +84,7 @@ snakemake-storage-plugin-gcs
 
     <script>
         var package = "snakemake-storage-plugin-gcs";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 

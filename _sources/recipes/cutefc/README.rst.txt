@@ -27,11 +27,19 @@ cutefc
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends biopython: 
+   :depends cigar: 
+   :depends numpy: 
+   :depends pysam: 
+   :depends python: ``>=3``
+   :depends pyvcf3: 
+   :depends scikit-learn: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +87,7 @@ cutefc
 
     <script>
         var package = "cutefc";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

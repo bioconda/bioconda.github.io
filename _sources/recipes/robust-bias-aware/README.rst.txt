@@ -27,11 +27,17 @@ robust-bias-aware
       
       
 
-      
+      ``0.0.1-0``
 
       
 
    
+   :depends matplotlib-base: ``>=3.2.2``
+   :depends networkx: ``>=2.6.3``
+   :depends numpy: ``>=1.26.4``
+   :depends pandas: ``>=1.3.5``
+   :depends pcst-fast: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +85,7 @@ robust-bias-aware
 
     <script>
         var package = "robust-bias-aware";
-        var versions = [];
+        var versions = ["0.0.1"];
     </script>
 
 

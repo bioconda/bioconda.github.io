@@ -27,12 +27,13 @@ virstrain
       
       
 
-      ``1.17-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``
+      ``1.17-1``,  ``1.17-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``
 
       
 
    
    :depends biopython: ``1.74``
+   :depends bowtie2: 
    :depends matplotlib-base: ``3.1.2``
    :depends networkx: ``2.4``
    :depends numpy: ``1.17.3``
@@ -86,7 +87,7 @@ virstrain
 
     <script>
         var package = "virstrain";
-        var versions = ["1.17","1.14","1.13","1.12","1.11"];
+        var versions = ["1.17","1.17","1.14","1.13","1.12"];
     </script>
 
 

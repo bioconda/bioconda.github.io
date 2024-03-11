@@ -41,11 +41,15 @@ fragpipe
       
       
 
-      
+      ``20.0-0``
 
       
 
    
+   :depends ionquant: ``>=1.10.12``
+   :depends msfragger: ``>=4.0``
+   :depends openjdk: ``>=9``
+   :depends python: ``3.9.*``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +97,7 @@ fragpipe
 
     <script>
         var package = "fragpipe";
-        var versions = [];
+        var versions = ["20.0"];
     </script>
 
 
