@@ -15,6 +15,7 @@ viralmsa
    :homepage: https://github.com/niemasd/ViralMSA
    :license: GNU General Public License v3 (GPLv3)
    :recipe: /`viralmsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viralmsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viralmsa/meta.yaml>`_
+   :links: biotools: :biotools:`viralmsa`, doi: :doi:`10.1093/bioinformatics/btaa743`
 
    
 
@@ -26,9 +27,17 @@ viralmsa
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.44-0``,  ``1.1.43-0``,  ``1.1.42-0``,  ``1.1.41-0``,  ``1.1.40-0``,  ``1.1.39-0``,  ``1.1.38-0``,  ``1.1.36-0``,  ``1.1.35-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.44-1</code>,  <code>1.1.44-0</code>,  <code>1.1.43-0</code>,  <code>1.1.42-0</code>,  <code>1.1.41-0</code>,  <code>1.1.40-0</code>,  <code>1.1.39-0</code>,  <code>1.1.38-0</code>,  <code>1.1.36-0</code>,  </span></summary>
+      
 
+      ``1.1.44-1``,  ``1.1.44-0``,  ``1.1.43-0``,  ``1.1.42-0``,  ``1.1.41-0``,  ``1.1.40-0``,  ``1.1.39-0``,  ``1.1.38-0``,  ``1.1.36-0``,  ``1.1.35-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -91,7 +100,7 @@ viralmsa
 
     <script>
         var package = "viralmsa";
-        var versions = ["1.1.44","1.1.43","1.1.42","1.1.41","1.1.40"];
+        var versions = ["1.1.44","1.1.44","1.1.43","1.1.42","1.1.41"];
     </script>
 
 

@@ -27,7 +27,7 @@ taxor
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -38,8 +38,6 @@ taxor
    :depends curl: 
    :depends diffutils: 
    :depends grep: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
@@ -88,7 +86,7 @@ taxor
 
     <script>
         var package = "taxor";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

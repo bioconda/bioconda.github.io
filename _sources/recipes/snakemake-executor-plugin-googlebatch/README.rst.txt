@@ -27,7 +27,7 @@ snakemake-executor-plugin-googlebatch
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -40,7 +40,7 @@ snakemake-executor-plugin-googlebatch
    :depends python: ``>=3.11.0,<4.0.0``
    :depends requests: ``>=2.31.0,<3.0.0``
    :depends snakemake-interface-common: ``>=1.14.0,<2.0.0``
-   :depends snakemake-interface-executor-plugins: ``>=8.1.1,<9.0.0``
+   :depends snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ snakemake-executor-plugin-googlebatch
 
     <script>
         var package = "snakemake-executor-plugin-googlebatch";
-        var versions = ["0.3.0","0.2.0","0.1.1"];
+        var versions = ["0.3.1","0.3.0","0.2.0","0.1.1"];
     </script>
 
 

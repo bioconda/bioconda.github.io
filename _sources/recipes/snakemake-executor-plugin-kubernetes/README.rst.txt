@@ -27,7 +27,7 @@ snakemake-executor-plugin-kubernetes
       
       
 
-      ``0.1.4-0``
+      ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -35,7 +35,7 @@ snakemake-executor-plugin-kubernetes
    :depends python: ``>=3.11.0,<4.0.0``
    :depends python-kubernetes: ``>=27.2.0,<28.0.0``
    :depends snakemake-interface-common: ``>=1.14.1,<2.0.0``
-   :depends snakemake-interface-executor-plugins: ``>=8.0.2,<9.0.0``
+   :depends snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ snakemake-executor-plugin-kubernetes
 
     <script>
         var package = "snakemake-executor-plugin-kubernetes";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.5","0.1.4"];
     </script>
 
 

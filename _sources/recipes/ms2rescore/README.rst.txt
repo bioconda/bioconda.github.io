@@ -28,7 +28,7 @@ ms2rescore
       
       
 
-      ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
 
@@ -49,7 +49,7 @@ ms2rescore
    :depends psm-utils: ``>=0.4``
    :depends pydantic: ``>=1.8.2,<2``
    :depends pyopenms: 
-   :depends pyteomics: ``>=4.1.0``
+   :depends pyteomics: ``>=4.1.0,<=4.6.3``
    :depends python: ``>=3.8``
    :depends rich: ``>=12``
    :depends seaborn: 
@@ -104,7 +104,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.0.1","3.0.1","3.0.0","3.0.0b1","3.0.0b1"];
+        var versions = ["3.0.1","3.0.1","3.0.1","3.0.0","3.0.0b1"];
     </script>
 
 

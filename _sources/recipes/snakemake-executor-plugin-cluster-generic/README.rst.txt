@@ -27,14 +27,14 @@ snakemake-executor-plugin-cluster-generic
       
       
 
-      ``1.0.8-0``,  ``1.0.7-0``
+      ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``
 
       
 
    
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.13.0,<2.0.0``
-   :depends snakemake-interface-executor-plugins: ``>=8.1.0,<9.0.0``
+   :depends snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ snakemake-executor-plugin-cluster-generic
 
     <script>
         var package = "snakemake-executor-plugin-cluster-generic";
-        var versions = ["1.0.8","1.0.7"];
+        var versions = ["1.0.9","1.0.8","1.0.7"];
     </script>
 
 

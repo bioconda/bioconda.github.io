@@ -15,7 +15,7 @@ aviary
    :homepage: https://github.com/rhysnewell/aviary/
    :documentation: https://rhysnewell.github.io/aviary/
    
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`aviary <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aviary>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aviary/meta.yaml>`_
 
    Aviary is an easy to use hybrid assembler and metagenomic pipeline
@@ -32,10 +32,10 @@ aviary
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.7-0</code>,  <code>0.5.4-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.7-0</code>,  <code>0.5.4-0</code>,  </span></summary>
       
 
-      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.4-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
+      ``0.9.0-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.4-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -52,9 +52,9 @@ aviary
    :depends pandas: 
    :depends parallel: 
    :depends pigz: ``2.6.*``
-   :depends python: ``>=3.8,<=3.11``
+   :depends python: ``>=3.8,<3.12``
    :depends ruamel.yaml: ``>=0.15.99``
-   :depends snakemake: ``>=7.0.0,<=7.32.3``
+   :depends snakemake-minimal: ``>=7.0.0,<=7.32.3``
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +102,7 @@ aviary
 
     <script>
         var package = "aviary";
-        var versions = ["0.8.3","0.8.2","0.8.1","0.7.2","0.7.0"];
+        var versions = ["0.9.0","0.8.3","0.8.2","0.8.1","0.7.2"];
     </script>
 
 

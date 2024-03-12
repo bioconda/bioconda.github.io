@@ -16,6 +16,7 @@ viral_consensus
    :developer docs: https://github.com/niemasd/ViralConsensus
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`viral_consensus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viral_consensus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viral_consensus/meta.yaml>`_
+   :links: biotools: :biotools:`viral_consensus`, doi: :doi:`10.1093/bioinformatics/btad317`, doi: :doi:`10.1093/bioinformatics/btae018`
 
    
 
@@ -28,7 +29,7 @@ viral_consensus
       
       
 
-      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -84,7 +85,7 @@ viral_consensus
 
     <script>
         var package = "viral_consensus";
-        var versions = ["0.0.5","0.0.4","0.0.3"];
+        var versions = ["0.0.5","0.0.5","0.0.4","0.0.3"];
     </script>
 
 

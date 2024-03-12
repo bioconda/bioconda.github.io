@@ -15,6 +15,7 @@ tn93
    :homepage: https://github.com/veg/tn93
    :license: MIT / MIT
    :recipe: /`tn93 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93/meta.yaml>`_
+   :links: biotools: :biotools:`tn93`, doi: :doi:`10.1093/molbev/msy016`
 
    
 
@@ -28,10 +29,10 @@ tn93
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.13-1</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  </span></summary>
       
 
-      ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
+      ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -90,7 +91,7 @@ tn93
 
     <script>
         var package = "tn93";
-        var versions = ["1.0.13","1.0.12","1.0.9","1.0.9","1.0.9"];
+        var versions = ["1.0.13","1.0.13","1.0.12","1.0.9","1.0.9"];
     </script>
 
 

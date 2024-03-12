@@ -27,7 +27,7 @@ plannotate
       
       
 
-      ``1.2.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -40,7 +40,7 @@ plannotate
    :depends curl: 
    :depends diamond: ``>=2.0.13``
    :depends numpy: 
-   :depends pandas: ``>=1.3.5``
+   :depends pandas: ``>=1.3.5,<2.0.0``
    :depends python: ``>=3.9``
    :depends ripgrep: ``>=13.0.0``
    :depends streamlit: ``1.8.1.*``
@@ -93,7 +93,7 @@ plannotate
 
     <script>
         var package = "plannotate";
-        var versions = ["1.2.1","1.2.0","1.2.0","1.2.0","1.2.0"];
+        var versions = ["1.2.2","1.2.1","1.2.0","1.2.0","1.2.0"];
     </script>
 
 

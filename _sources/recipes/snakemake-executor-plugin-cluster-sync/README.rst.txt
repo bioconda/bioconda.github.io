@@ -27,14 +27,14 @@ snakemake-executor-plugin-cluster-sync
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.14.0,<2.0.0``
-   :depends snakemake-interface-executor-plugins: ``>=8.1.0,<9.0.0``
+   :depends snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ snakemake-executor-plugin-cluster-sync
 
     <script>
         var package = "snakemake-executor-plugin-cluster-sync";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 
