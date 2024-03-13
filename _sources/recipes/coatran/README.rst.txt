@@ -10,12 +10,12 @@ coatran
    :replaces_section_title:
    :noindex:
 
-   CoaTran\: Coalescent tree simulation along a transmission network
+   Coalescent tree simulation along a transmission network
 
    :homepage: https://github.com/niemasd/CoaTran
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`coatran <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coatran>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coatran/meta.yaml>`_
-   :links: biotools: :biotools:`coatran`
+   :links: biotools: :biotools:`coatran`, doi: :doi:`10.1101/2020.11.10.377499`
 
    
 
@@ -28,7 +28,7 @@ coatran
       
       
 
-      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.4-0``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -82,7 +82,7 @@ coatran
 
     <script>
         var package = "coatran";
-        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.0.4","0.0.1","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

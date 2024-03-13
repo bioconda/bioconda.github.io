@@ -13,7 +13,7 @@ blosum
    A small module for easy access to BLOSUM matrices without dependencies.
 
    :homepage: https://github.com/not-a-feature/blosum
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`blosum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blosum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blosum/meta.yaml>`_
 
    The BLOcks SUbstitution Matrices \(BLOSUM\) are used to score alignments between protein sequences and are therefore mainly used in bioinformatics. Reading such matrices is not particularly difficult\, yet most off the shelf packages are overloaded with strange dependencies. And why do we need to implement the same reader again if there is a simple module for that. blosum offers a robust and easy\-to\-expand implementation without relying on third\-party libraries.
@@ -28,7 +28,7 @@ blosum
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``
 
       
 
@@ -81,7 +81,7 @@ blosum
 
     <script>
         var package = "blosum";
-        var versions = ["2.0.2","2.0.1","1.2.2","1.2.1","1.2.0"];
+        var versions = ["2.0.3","2.0.2","2.0.1","1.2.2","1.2.1"];
     </script>
 
 

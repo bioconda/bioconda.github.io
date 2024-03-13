@@ -13,9 +13,9 @@ ms2deepscore
    Deep learning similarity measure for comparing MS\/MS spectra with respect to their chemical similarity
 
    :homepage: https://github.com/matchms/ms2deepscore
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`ms2deepscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2deepscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2deepscore/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.1186/s13321-021-00558-4`
+   :links: doi: :doi:`10.1186/s13321-021-00558-4`, biotools: :biotools:`ms2deepscore`
 
    ms2deepscore provides a Siamese neural network that is trained to predict
    molecular structural similarities \(Tanimoto scores\) from pairs of mass
@@ -31,17 +31,17 @@ ms2deepscore
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
+      ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
 
       
 
    
-   :depends matchms: ``>=0.14``
+   :depends matchms: ``>=0.14.0``
    :depends numba: 
    :depends numpy: ``>=1.20.3``
    :depends pandas: 
    :depends python: ``>=3.8``
-   :depends tensorflow: 
+   :depends tensorflow: ``<2.14``
    :depends tqdm: 
    :requirements:
 
@@ -90,7 +90,7 @@ ms2deepscore
 
     <script>
         var package = "ms2deepscore";
-        var versions = ["0.5.0","0.4.0","0.3.0.1"];
+        var versions = ["1.0.0","0.5.0","0.4.0","0.3.0.1"];
     </script>
 
 

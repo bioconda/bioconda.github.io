@@ -13,7 +13,7 @@ fastq
    A simple FASTQ toolbox for small to medium size projects without dependencies.
 
    :homepage: https://github.com/not-a-feature/fastq
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`fastq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq/meta.yaml>`_
 
    FASTQ files are text\-based files for storing nucleotide sequences and its corresponding quality scores. Reading such files is not particularly difficult\, yet most off the shelf packages are overloaded with strange dependencies. fastq offers an alternative to this and brings many useful functions without relying on third party packages.
@@ -28,13 +28,13 @@ fastq
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``
+      ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``
 
       
 
    
-   :depends minifasta: ``>=2.1``
-   :depends python: ``>=3.7``
+   :depends minifasta: ``>=3.0.1``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ fastq
 
     <script>
         var package = "fastq";
-        var versions = ["2.0.2","2.0.1","1.2.2"];
+        var versions = ["2.0.4","2.0.2","2.0.1","1.2.2"];
     </script>
 
 

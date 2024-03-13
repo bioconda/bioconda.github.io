@@ -13,7 +13,7 @@ snakemake-executor-plugin-drmaa
    A snakemake executor plugin for submission of jobs via DRMAA.
 
    :homepage: https://github.com/snakemake/snakemake-executor-plugin-drmaa
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-executor-plugin-drmaa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-drmaa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-drmaa/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ snakemake-executor-plugin-drmaa
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -35,7 +35,7 @@ snakemake-executor-plugin-drmaa
    :depends drmaa: ``>=0.7.9,<0.8.0``
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.13.0,<2.0.0``
-   :depends snakemake-interface-executor-plugins: ``>=8.1.0,<9.0.0``
+   :depends snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ snakemake-executor-plugin-drmaa
 
     <script>
         var package = "snakemake-executor-plugin-drmaa";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 

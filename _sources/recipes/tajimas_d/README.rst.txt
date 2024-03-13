@@ -13,7 +13,7 @@ tajimas_d
    Computes Tajimas D\, the Pi\- or Watterson\-Estimator for multiple sequences.
 
    :homepage: https://github.com/not-a-feature/tajimas_d
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tajimas_d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tajimas_d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tajimas_d/meta.yaml>`_
 
    Tajima\'s D is a population genetic test statistic that computes the difference between the mean number of pairwise differences and the number of segregating sites. It is used to determine whether a population is expanding or shrinking.
@@ -28,7 +28,7 @@ tajimas_d
       
       
 
-      ``2.0.0-0``
+      ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ tajimas_d
 
     <script>
         var package = "tajimas_d";
-        var versions = ["2.0.0"];
+        var versions = ["2.0.1","2.0.0"];
     </script>
 
 
