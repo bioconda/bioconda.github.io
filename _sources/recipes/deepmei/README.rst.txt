@@ -10,9 +10,9 @@ deepmei
    :replaces_section_title:
    :noindex:
 
-   A pipeline to detect mobile elements insertion in human genome
+   A tool to detect mobile elements insertion
 
-   :homepage: https://github.com/Kanglu123/deepmei
+   :homepage: https://github.com/Kanglu123/deepmei/tree/deepmei-v1.6.24
    :license: GPL-3.0
    :recipe: /`deepmei <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepmei>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepmei/meta.yaml>`_
 
@@ -27,7 +27,7 @@ deepmei
       
       
 
-      ``1.0.0-0``
+      ``1.6.24-0``,  ``1.0.0-0``
 
       
 
@@ -87,7 +87,7 @@ deepmei
 
     <script>
         var package = "deepmei";
-        var versions = ["1.0.0"];
+        var versions = ["1.6.24","1.0.0"];
     </script>
 
 
