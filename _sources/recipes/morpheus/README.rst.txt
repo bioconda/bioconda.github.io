@@ -13,9 +13,11 @@ morpheus
    mass spectrometry–based proteomics database search algorithm
 
    :homepage: https://github.com/cwenger/Morpheus/
+   :documentation: https://cwenger.github.io/Morpheus/
+   
    :license: MIT / MIT
    :recipe: /`morpheus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/morpheus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/morpheus/meta.yaml>`_
-   :links: doi: :doi:`10.1021/pr301024c`
+   :links: doi: :doi:`10.1021/pr301024c`, biotools: :biotools:`morpheus`
 
    
 
@@ -28,7 +30,7 @@ morpheus
       
       
 
-      ``287-1``,  ``287-0``,  ``272-1``,  ``272-0``,  ``255-0``
+      ``288-0``,  ``287-1``,  ``287-0``,  ``272-1``,  ``272-0``,  ``255-0``
 
       
 
@@ -81,7 +83,7 @@ morpheus
 
     <script>
         var package = "morpheus";
-        var versions = ["287","287","272","272","255"];
+        var versions = ["288","287","287","272","272"];
     </script>
 
 

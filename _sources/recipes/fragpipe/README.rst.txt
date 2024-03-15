@@ -41,12 +41,14 @@ fragpipe
       
       
 
-      ``20.0-0``
+      ``20.0-1``,  ``20.0-0``
 
       
 
    
+   :depends easypqp: ``>=0.1.34``
    :depends ionquant: ``>=1.10.12``
+   :depends lxml: 
    :depends msfragger: ``>=4.0``
    :depends openjdk: ``>=9``
    :depends python: ``3.9.*``
@@ -97,7 +99,7 @@ fragpipe
 
     <script>
         var package = "fragpipe";
-        var versions = ["20.0"];
+        var versions = ["20.0","20.0"];
     </script>
 
 

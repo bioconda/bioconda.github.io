@@ -13,10 +13,12 @@ iqtree
    Efficient phylogenomic software by maximum likelihood.
 
    :homepage: http://www.iqtree.org/
+   :documentation: http://www.iqtree.org/doc/
+   
    :developer docs: https://github.com/iqtree/iqtree2
    :license: GPL2 / GPL-2.0-or-later
    :recipe: /`iqtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree/meta.yaml>`_
-   :links: biotools: :biotools:`iq-tree`, doi: :doi:`10.1093/molbev/msu300`, doi: :doi:`10.1038/nmeth.4285`, doi: :doi:`10.1093/molbev/msx281`, usegalaxy-eu: :usegalaxy-eu:`iqtree`
+   :links: biotools: :biotools:`iq-tree`, doi: :doi:`10.1093/molbev/msu300`, doi: :doi:`10.1038/nmeth.4285`, doi: :doi:`10.1093/molbev/msx281`, doi: :doi:`10.1093/sysbio/syae008`, usegalaxy-eu: :usegalaxy-eu:`iqtree`
 
    
 
@@ -30,10 +32,10 @@ iqtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2.9-0</code>,  <code>2.2.2.7-2</code>,  <code>2.2.2.7-0</code>,  <code>2.2.2.3-2</code>,  <code>2.2.2.3-1</code>,  <code>2.2.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2.9-0</code>,  <code>2.2.2.7-2</code>,  <code>2.2.2.7-0</code>,  <code>2.2.2.3-2</code>,  <code>2.2.2.3-1</code>,  </span></summary>
       
 
-      ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2.9-0``,  ``2.2.2.7-2``,  ``2.2.2.7-0``,  ``2.2.2.3-2``,  ``2.2.2.3-1``,  ``2.2.2.3-0``,  ``2.2.0.3-1``,  ``2.2.0.3-0``,  ``2.2.0_beta-1``,  ``2.2.0_beta-0``,  ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``2.3.0-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2.9-0``,  ``2.2.2.7-2``,  ``2.2.2.7-0``,  ``2.2.2.3-2``,  ``2.2.2.3-1``,  ``2.2.2.3-0``,  ``2.2.0.3-1``,  ``2.2.0.3-0``,  ``2.2.0_beta-1``,  ``2.2.0_beta-0``,  ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
       .. raw:: html
@@ -92,7 +94,7 @@ iqtree
 
     <script>
         var package = "iqtree";
-        var versions = ["2.2.6","2.2.5","2.2.3","2.2.2.9","2.2.2.7"];
+        var versions = ["2.3.0","2.2.6","2.2.5","2.2.3","2.2.2.9"];
     </script>
 
 

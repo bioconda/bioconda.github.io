@@ -12,9 +12,11 @@ sistr_cmd
 
    Salmonella In Silico Typing Resource \(SISTR\) commandline tool for serovar prediction
 
-   :homepage: https://github.com/peterk87/sistr_cmd/
+   :homepage: https://github.com/phac-nml/sistr_cmd/
+   :developer docs: https://github.com/phac-nml/sistr_cmd
    :license: APACHE / Apache-2.0
    :recipe: /`sistr_cmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sistr_cmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sistr_cmd/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`sistr_cmd`, doi: :doi:`10.1371/journal.pone.0147101`, biotools: :biotools:`SISTR`
 
    
 
@@ -28,10 +30,10 @@ sistr_cmd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-5</code>,  <code>1.0.2-4</code>,  <code>1.0.2-3</code>,  <code>1.0.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-5</code>,  <code>1.0.2-4</code>,  <code>1.0.2-3</code>,  </span></summary>
       
 
-      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``
+      ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -40,16 +42,16 @@ sistr_cmd
       
 
    
-   :depends blast: 
+   :depends blast: ``>=2.9.0``
    :depends mafft: 
-   :depends mash: 
-   :depends numpy: ``>=1.11.1,<1.23.5``
-   :depends pandas: ``>=0.18.1,<=1.0.5``
-   :depends pycurl: ``>=7.43.0,<8``
+   :depends mash: ``>=2.0``
+   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends pandas: ``>=0.22,<3``
+   :depends pycurl: ``>=7.45.3,<8.0a0``
    :depends pytables: ``>=3.3.0``
-   :depends python: 
+   :depends python: ``>=3.4``
    :depends python-dateutil: 
-   :depends scipy: ``>=1.1.0,<2``
+   :depends scipy: ``>=1.11.2,<1.12.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +99,7 @@ sistr_cmd
 
     <script>
         var package = "sistr_cmd";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.0"];
+        var versions = ["1.1.2","1.1.1","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

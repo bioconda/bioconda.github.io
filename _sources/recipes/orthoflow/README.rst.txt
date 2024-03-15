@@ -15,7 +15,7 @@ orthoflow
    :homepage: https://github.com/rbturnbull/orthoflow
    :documentation: https://rbturnbull.github.io/orthoflow/
    
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`orthoflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthoflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthoflow/meta.yaml>`_
 
    
@@ -35,7 +35,7 @@ orthoflow
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.3.4-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -46,9 +46,10 @@ orthoflow
    :depends jinja2: ``>=3.1.2``
    :depends joblib: ``>=1.2.0``
    :depends pandas: ``>=1.2.5,<2.0.0``
-   :depends phytest: ``>=1.2.0``
+   :depends phytest: ``>=1.4.1``
+   :depends pulp: ``2.7.0.*``
    :depends pydot: ``>=1.4.2``
-   :depends python: 
+   :depends python: ``>=3.8,<3.12``
    :depends rich: ``>=13.3.3``
    :depends snakemake-minimal: ``>=7.0.0``
    :depends toml: ``>=0.10.2``
@@ -100,7 +101,7 @@ orthoflow
 
     <script>
         var package = "orthoflow";
-        var versions = ["0.3.1","0.3.0","0.2.0"];
+        var versions = ["0.3.4","0.3.1","0.3.0","0.2.0"];
     </script>
 
 

@@ -29,15 +29,24 @@ callingcardstools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends biopython: 
    :depends numpy: 
    :depends pandas: 
+   :depends pyranges: ``>=0.0.129``
    :depends pysam: 
    :depends python: ``>=3.8``
    :depends python-edlib: ``>=1.3.9``
@@ -89,7 +98,7 @@ callingcardstools
 
     <script>
         var package = "callingcardstools";
-        var versions = ["1.4.1","1.4.0","1.3.0","1.2.0","1.1.0"];
+        var versions = ["1.5.1","1.5.0","1.4.1","1.4.1","1.4.0"];
     </script>
 
 

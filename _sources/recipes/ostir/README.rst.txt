@@ -13,7 +13,9 @@ ostir
    Open Source Transcription Initiation Rates
 
    :homepage: https://github.com/barricklab/ostir
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :documentation: https://github.com/barricklab/ostir/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ostir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ostir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ostir/meta.yaml>`_
 
    
@@ -27,13 +29,13 @@ ostir
       
       
 
-      ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
    :depends numpy: ``>=1.20.1``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :depends viennarna: ``>=2.4.18``
    :requirements:
 
@@ -82,7 +84,7 @@ ostir
 
     <script>
         var package = "ostir";
-        var versions = ["1.1.0","1.0.6","1.0.5","1.0.4","1.0.3"];
+        var versions = ["1.1.2","1.1.0","1.0.6","1.0.5","1.0.4"];
     </script>
 
 

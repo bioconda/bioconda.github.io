@@ -15,8 +15,9 @@ msmetaenhancer
    :homepage: https://github.com/RECETOX/MSMetaEnhancer
    :documentation: https://msmetaenhancer.readthedocs.io/
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`msmetaenhancer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msmetaenhancer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msmetaenhancer/meta.yaml>`_
+   :links: biotools: :biotools:`msmetaenhancer`, doi: :doi:`10.21105/joss.04494`
 
    
 
@@ -30,10 +31,10 @@ msmetaenhancer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -55,6 +56,7 @@ msmetaenhancer
    :depends requests: 
    :depends scipy: 
    :depends tabulate: 
+   :depends twine: 
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +104,7 @@ msmetaenhancer
 
     <script>
         var package = "msmetaenhancer";
-        var versions = ["0.3.0","0.3.0","0.2.5","0.2.4","0.2.4"];
+        var versions = ["0.4.0","0.3.0","0.3.0","0.2.5","0.2.4"];
     </script>
 
 
