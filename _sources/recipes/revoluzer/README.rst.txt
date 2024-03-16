@@ -27,7 +27,7 @@ revoluzer
       
       
 
-      ``0.1.2-0``
+      ``0.1.5-0``,  ``0.1.2-0``
 
       
 
@@ -83,7 +83,7 @@ revoluzer
 
     <script>
         var package = "revoluzer";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.5","0.1.2"];
     </script>
 
 

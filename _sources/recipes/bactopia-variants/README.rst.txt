@@ -29,7 +29,7 @@ bactopia-variants
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -43,6 +43,7 @@ bactopia-variants
    :depends sed: 
    :depends snippy: ``>=4.6.0``
    :depends snpeff: ``>=4.3,<5``
+   :depends tabixpp: ``1.1.0.*``
    :depends vcf-annotator: ``>=0.7``
    :depends vcflib: ``>=1.0.0_rc3,<=1.0.2``
    :requirements:
@@ -92,7 +93,7 @@ bactopia-variants
 
     <script>
         var package = "bactopia-variants";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 
