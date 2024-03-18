@@ -13,8 +13,11 @@ star-fusion
    STAR\-Fusion fusion variant caller. All dependencies required to run FusionInspector and FusionAnnotator are included.
 
    :homepage: https://github.com/STAR-Fusion/STAR-Fusion
+   :documentation: https://github.com/STAR-Fusion/STAR-Fusion/wiki
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`star-fusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-019-1842-9`, biotools: :biotools:`star-fusion`, usegalaxy-eu: :usegalaxy-eu:`star_fusion`
 
    
 
@@ -28,10 +31,10 @@ star-fusion
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.11.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.1-1</code>,  <code>1.9.1-0</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.13.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.11.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.1-1</code>,  <code>1.9.1-0</code>,  <code>1.9.0-1</code>,  </span></summary>
       
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.11.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.4.0-0``
+      ``1.13.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.11.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -106,7 +109,7 @@ star-fusion
 
     <script>
         var package = "star-fusion";
-        var versions = ["1.12.0","1.12.0","1.11.1","1.10.0","1.10.0"];
+        var versions = ["1.13.0","1.12.0","1.12.0","1.11.1","1.10.0"];
     </script>
 
 

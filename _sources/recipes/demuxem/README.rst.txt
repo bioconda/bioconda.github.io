@@ -15,7 +15,7 @@ demuxem
    :homepage: https://github.com/lilab-bcb/demuxEM
    :documentation: https://demuxEM.readthedocs.io
    
-   :license: BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`demuxem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/demuxem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/demuxem/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41467-019-10756-2`
 
@@ -30,15 +30,16 @@ demuxem
       
       
 
-      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.post1-0``
+      ``0.1.7.post1-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.post1-0``
 
       
 
    
+   :depends docopt: 
    :depends numpy: 
    :depends pandas: 
    :depends pegasusio: ``>=0.2.12``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
@@ -89,7 +90,7 @@ demuxem
 
     <script>
         var package = "demuxem";
-        var versions = ["0.1.7","0.1.7","0.1.6","0.1.5.post1"];
+        var versions = ["0.1.7.post1","0.1.7","0.1.7","0.1.6","0.1.5.post1"];
     </script>
 
 

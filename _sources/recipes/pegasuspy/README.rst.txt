@@ -31,9 +31,17 @@ pegasuspy
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.0-0``,  ``1.8.1-0``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.1.post1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.7.1-2</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.9.1.post1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -119,7 +127,7 @@ pegasuspy
 
     <script>
         var package = "pegasuspy";
-        var versions = ["1.9.0","1.8.1","1.7.1","1.7.1","1.7.1"];
+        var versions = ["1.9.1.post1","1.9.0","1.8.1","1.7.1","1.7.1"];
     </script>
 
 

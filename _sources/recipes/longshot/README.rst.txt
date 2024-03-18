@@ -13,8 +13,9 @@ longshot
    Diploid SNV caller for error\-prone reads.
 
    :homepage: https://github.com/pjedge/longshot
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`longshot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longshot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longshot/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-019-12493-y`, biotools: :biotools:`longshot`
 
    
 
@@ -28,10 +29,10 @@ longshot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.5-2</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>v0.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.4.5-2</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``v0.3.5-0``,  ``v0.3.4-0``,  ``v0.3.3-0``,  ``v0.3.2-0``
+      ``1.0.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``v0.3.5-0``,  ``v0.3.4-0``,  ``v0.3.3-0``,  ``v0.3.2-0``
 
       
       .. raw:: html
@@ -91,7 +92,7 @@ longshot
 
     <script>
         var package = "longshot";
-        var versions = ["0.4.5","0.4.5","0.4.5","0.4.1","0.4.1"];
+        var versions = ["1.0.0","0.4.5","0.4.5","0.4.5","0.4.1"];
     </script>
 
 
