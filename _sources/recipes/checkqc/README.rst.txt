@@ -13,6 +13,8 @@ checkqc
    A simple program to parse Illumina NGS data and check it for quality criteria.
 
    :homepage: https://www.github.com/Molmed/checkQC
+   :documentation: https://checkqc.readthedocs.io/en/latest/
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`checkqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkqc/meta.yaml>`_
 
@@ -28,10 +30,10 @@ checkqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.2-1</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.6.6-0</code>,  <code>3.6.5-0</code>,  <code>3.6.4-0</code>,  <code>3.6.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>3.8.2-1</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.6.6-0</code>,  <code>3.6.5-0</code>,  <code>3.6.4-0</code>,  </span></summary>
       
 
-      ``3.8.2-1``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.6-0``,  ``3.6.5-0``,  ``3.6.4-0``,  ``3.6.3-0``,  ``3.6.1-0``
+      ``4.0.1-0``,  ``3.8.2-1``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.6-0``,  ``3.6.5-0``,  ``3.6.4-0``,  ``3.6.3-0``,  ``3.6.1-0``
 
       
       .. raw:: html
@@ -42,7 +44,7 @@ checkqc
    
    :depends click: ``>=8.1.1``
    :depends illumina-interop: ``>=1.2.4``
-   :depends python: 
+   :depends python: ``>=3.6,<3.11``
    :depends pyyaml: ``>=6.0``
    :depends sample-sheet: ``>=0.13.0``
    :depends tornado: ``>=6.3.2``
@@ -94,7 +96,7 @@ checkqc
 
     <script>
         var package = "checkqc";
-        var versions = ["3.8.2","3.8.2","3.8.1","3.8.0","3.7.0"];
+        var versions = ["4.0.1","3.8.2","3.8.2","3.8.1","3.8.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ maegatk
       
       
 
-      ``0.2.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -41,6 +41,7 @@ maegatk
    :depends freebayes: 
    :depends openjdk: 
    :depends optparse-pretty: 
+   :depends pulp: ``<2.8``
    :depends pysam: 
    :depends pytest: 
    :depends python: ``>=3``
@@ -51,7 +52,7 @@ maegatk
    :depends regex: 
    :depends ruamel.yaml: 
    :depends samtools: 
-   :depends snakemake-minimal: 
+   :depends snakemake-minimal: ``<8``
    :requirements:
 
    .. rubric:: Installation
@@ -99,7 +100,7 @@ maegatk
 
     <script>
         var package = "maegatk";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.0","0.2.0"];
     </script>
 
 

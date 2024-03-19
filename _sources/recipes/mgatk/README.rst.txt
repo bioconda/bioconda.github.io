@@ -29,7 +29,7 @@ mgatk
       
       
 
-      ``0.7.0-0``
+      ``0.7.0-1``,  ``0.7.0-0``
 
       
 
@@ -43,6 +43,7 @@ mgatk
    :depends optparse-pretty: 
    :depends pandas: 
    :depends picard-slim: 
+   :depends pulp: ``<2.8``
    :depends pysam: 
    :depends pytest: 
    :depends python: ``>=3``
@@ -52,7 +53,7 @@ mgatk
    :depends r-matrix: 
    :depends regex: 
    :depends ruamel.yaml: 
-   :depends snakemake-minimal: 
+   :depends snakemake-minimal: ``<8``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +101,7 @@ mgatk
 
     <script>
         var package = "mgatk";
-        var versions = ["0.7.0"];
+        var versions = ["0.7.0","0.7.0"];
     </script>
 
 

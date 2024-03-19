@@ -29,9 +29,17 @@ physiofit
    :versions:
       
       
+      .. raw:: html
 
-      ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-1</code>,  </span></summary>
+      
 
+      ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -90,7 +98,7 @@ physiofit
 
     <script>
         var package = "physiofit";
-        var versions = ["3.3.4","3.3.3","3.3.2","3.3.1","3.3.0"];
+        var versions = ["3.3.5","3.3.4","3.3.3","3.3.2","3.3.1"];
     </script>
 
 
