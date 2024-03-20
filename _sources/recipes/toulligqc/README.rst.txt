@@ -28,10 +28,10 @@ toulligqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.2-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  </span></summary>
       
 
-      ``2.5.2-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
+      ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
 
       
       .. raw:: html
@@ -40,17 +40,16 @@ toulligqc
       
 
    
-   :depends h5py: ``>=2.10``
-   :depends matplotlib-base: ``>=3.1.2``
-   :depends numpy: ``>=1.17.4``
-   :depends pandas: ``>=0.25.3``
-   :depends plotly: ``>=4.5.0``
-   :depends pysam: 
-   :depends python: ``>=3.8``
-   :depends scikit-learn: ``>=0.22``
-   :depends scipy: ``>=1.3.3``
-   :depends seaborn: ``>=0.10``
-   :depends tqdm: 
+   :depends h5py: ``>=3.7.0``
+   :depends matplotlib-base: ``>=3.6.3``
+   :depends numpy: ``>=1.24.2``
+   :depends pandas: ``>=1.5.3``
+   :depends plotly: ``>=5.15.0``
+   :depends pysam: ``>=0.21.0``
+   :depends python: ``>=3.10.0``
+   :depends scikit-learn: ``>=1.2.1``
+   :depends scipy: ``>=1.10.1``
+   :depends tqdm: ``>=4.64.1``
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +97,7 @@ toulligqc
 
     <script>
         var package = "toulligqc";
-        var versions = ["2.5.2","2.5","2.4","2.3","2.2.3"];
+        var versions = ["2.5.3","2.5.2","2.5","2.4","2.3"];
     </script>
 
 

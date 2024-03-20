@@ -13,7 +13,7 @@ diffacto
    A protein summarization method for shotgun proteomics experiments
 
    :homepage: https://github.com/statisticalbiotechnology/diffacto
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`diffacto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diffacto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diffacto/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ diffacto
       
       
 
-      ``1.0.6-0``
+      ``1.0.7-0``,  ``1.0.6-0``
 
       
 
@@ -86,7 +86,7 @@ diffacto
 
     <script>
         var package = "diffacto";
-        var versions = ["1.0.6"];
+        var versions = ["1.0.7","1.0.6"];
     </script>
 
 

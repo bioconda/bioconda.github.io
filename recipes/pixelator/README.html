@@ -69,13 +69,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">pixelator</span></span></dt>
-<dd><p>A commandline tool and library to process and analyze sequencing data from Molecular Pixelation (MPX) assays.</p>
+<dd><p>A command-line tool and library to process and analyze sequencing data from Molecular Pixelation (MPX) assays.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/PixelgenTechnologies/pixelator">https://github.com/PixelgenTechnologies/pixelator</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL / GPL-2.0</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pixelator">pixelator</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pixelator/meta.yaml">meta.yaml</a></p>
@@ -90,7 +90,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/pixelator"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pixelator.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pixelator"><img alt="docker_pixelator" src="https://quay.io/repository/biocontainers/pixelator/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.15.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.15.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.13.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.16.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.15.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.15.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.13.1-0</span></code></p>
 </dd>
 <dt class="field-even">depends anndata<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.8.0</span></code></p>
@@ -107,23 +107,19 @@
 <dt class="field-odd">depends fastp<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends fastparquet<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;2023.8.0*</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2023.8.0,&lt;2024.0.0</span></code></p>
 </dd>
 <dt class="field-odd">depends fsspec<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;2023.9.0*</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2023.9.0,&lt;2024.0.0</span></code></p>
 </dd>
-<dt class="field-even">depends igraph<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.10.2,&lt;=0.11.0</span></code></p>
+<dt class="field-even">depends graspologic<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.3.0,&lt;4.0.0</span></code></p>
 </dd>
 <dt class="field-odd">depends importlib-resources<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.12.0,&lt;6.0.0</span></code></p>
 </dd>
-<dt class="field-even">depends leidenalg<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends libpysal<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends louvain<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.8.0,&lt;=0.9.0</span></code></p>
+<dt class="field-even">depends libpysal<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.9.2</span></code></p>
 </dd>
 <dt class="field-odd">depends lxml<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -137,10 +133,10 @@
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0,&lt;3.0.0</span></code></p>
 </dd>
 <dt class="field-odd">depends polars<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.17.12,&lt;0.18.0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.19.0,&lt;0.20.0</span></code></p>
 </dd>
 <dt class="field-even">depends pyarrow<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13.0.0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13,&lt;15</span></code></p>
 </dd>
 <dt class="field-odd">depends pydantic<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.10.7,&lt;2.0.0</span></code></p>
@@ -148,7 +144,7 @@
 <dt class="field-even">depends pyfastx<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8,&lt;3.12</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.12</span></code></p>
 </dd>
 <dt class="field-even">depends python-annoy<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.17.0</span></code></p>
@@ -169,7 +165,8 @@
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.1.4</span></code></p>
 </dd>
 <dt class="field-odd">depends xopen<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;1.9.0</span></code></p>
+</dd>
 <dt class="field-even">depends yapf<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends yappi<span class="colon">:</span></dt>
@@ -210,7 +207,7 @@ others.</p>
 
 <script>
     var package = "pixelator";
-    var versions = ["0.15.2","0.15.0","0.14.0","0.13.1"];
+    var versions = ["0.16.2","0.15.2","0.15.0","0.14.0","0.13.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
