@@ -28,10 +28,10 @@ addrg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.1-11</code>,  <code>0.2.1-10</code>,  <code>0.2.1-9</code>,  <code>0.2.1-8</code>,  <code>0.2.1-7</code>,  <code>0.2.1-6</code>,  <code>0.2.1-5</code>,  <code>0.2.1-4</code>,  <code>0.2.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.1-12</code>,  <code>0.2.1-11</code>,  <code>0.2.1-10</code>,  <code>0.2.1-9</code>,  <code>0.2.1-8</code>,  <code>0.2.1-7</code>,  <code>0.2.1-6</code>,  <code>0.2.1-5</code>,  <code>0.2.1-4</code>,  </span></summary>
       
 
-      ``0.2.1-11``,  ``0.2.1-10``,  ``0.2.1-9``,  ``0.2.1-8``,  ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.2.1-12``,  ``0.2.1-11``,  ``0.2.1-10``,  ``0.2.1-9``,  ``0.2.1-8``,  ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ addrg
       
 
    
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends htslib: ``>=1.19.1,<1.20.0a0``
    :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

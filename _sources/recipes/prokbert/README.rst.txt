@@ -30,7 +30,7 @@ prokbert
       
       
 
-      ``0.0.40-0``
+      ``0.0.44-0``,  ``0.0.40-0``
 
       
 
@@ -93,7 +93,7 @@ prokbert
 
     <script>
         var package = "prokbert";
-        var versions = ["0.0.40"];
+        var versions = ["0.0.44","0.0.40"];
     </script>
 
 

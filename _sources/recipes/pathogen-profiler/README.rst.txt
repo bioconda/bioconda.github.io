@@ -28,10 +28,10 @@ pathogen-profiler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``4.1.0-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
       .. raw:: html
@@ -43,10 +43,9 @@ pathogen-profiler
    :depends bcftools: ``>=1.12``
    :depends bedtools: 
    :depends bwa: 
-   :depends cryptography: ``>=39.0.1``
    :depends delly: ``>=0.8.7``
    :depends dsk: ``>=2.2``
-   :depends freebayes: ``>=1.3.5,<1.3.7``
+   :depends freebayes: ``1.3.6.*``
    :depends gatk4: 
    :depends git: 
    :depends itol-config: 
@@ -59,7 +58,7 @@ pathogen-profiler
    :depends pilon: ``>=1.24``
    :depends pydantic: ``>=2.6``
    :depends pysam: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.10``
    :depends requests: 
    :depends rich-argparse: 
    :depends samclip: 
@@ -117,7 +116,7 @@ pathogen-profiler
 
     <script>
         var package = "pathogen-profiler";
-        var versions = ["4.0.0","3.1.0","3.0.0","2.0.4","2.0.4"];
+        var versions = ["4.1.0","4.0.0","3.1.0","3.0.0","2.0.4"];
     </script>
 
 
