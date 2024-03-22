@@ -28,12 +28,12 @@ ltr_finder_parallel
       
       
 
-      ``1.1-0``
+      ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends ltr_finder: ``1.07``
+   :depends ltr_finder: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ ltr_finder_parallel
 
     <script>
         var package = "ltr_finder_parallel";
-        var versions = ["1.1"];
+        var versions = ["1.1","1.1"];
     </script>
 
 

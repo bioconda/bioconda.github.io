@@ -31,17 +31,19 @@ ms2deepscore
       
       
 
-      ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
+      ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
 
       
 
    
-   :depends matchms: ``>=0.14.0``
+   :depends matchms: ``>=0.18.0``
+   :depends matplotlib-base: ``3.7.2``
    :depends numba: 
    :depends numpy: ``>=1.20.3``
    :depends pandas: 
-   :depends python: ``>=3.8``
-   :depends tensorflow: ``<2.14``
+   :depends python: ``>=3.9``
+   :depends pytorch: 
+   :depends scikit-learn: 
    :depends tqdm: 
    :requirements:
 
@@ -90,7 +92,7 @@ ms2deepscore
 
     <script>
         var package = "ms2deepscore";
-        var versions = ["1.0.0","0.5.0","0.4.0","0.3.0.1"];
+        var versions = ["2.0.0","1.0.0","0.5.0","0.4.0","0.3.0.1"];
     </script>
 
 

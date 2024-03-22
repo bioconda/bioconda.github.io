@@ -13,8 +13,11 @@ r-liger
    Uses an extension of nonnegative matrix factorization to identify shared and dataset\-specific factors. See Welch J\, Kozareva V\, et al \(2019\) \<doi\:10.1016\/j.cell.2019.05.006\>\, and Liu J\, Gao C\, Sodicoff J\, et al \(2020\) \<doi\:10.1038\/s41596\-020\-0391\-8\> for more details.
 
    :homepage: https://github.com/MacoskoLab/liger
-   :license: GPL3 / GPL-3
+   :documentation: https://welch-lab.github.io/liger/index.html
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-liger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-liger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-liger/meta.yaml>`_
+   :links: doi: :doi:`10.1016/j.cell.2019.05.006`
 
    
 
@@ -28,10 +31,10 @@ r-liger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0.9000-3</code>,  <code>0.5.0.9000-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0.9000-3</code>,  </span></summary>
       
 
-      ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
       .. raw:: html
@@ -40,10 +43,13 @@ r-liger
       
 
    
+   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends openjdk: ``>=6``
    :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-circlize: 
    :depends r-cowplot: 
    :depends r-doparallel: 
    :depends r-dosnow: 
@@ -56,6 +62,7 @@ r-liger
    :depends r-hmisc: 
    :depends r-ica: 
    :depends r-irlba: 
+   :depends r-leidenalg: ``>=1.1.1``
    :depends r-mclust: 
    :depends r-patchwork: 
    :depends r-plyr: 
@@ -119,7 +126,7 @@ r-liger
 
     <script>
         var package = "r-liger";
-        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["2.0.0","1.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

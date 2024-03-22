@@ -28,12 +28,12 @@ ltr_harvest_parallel
       
       
 
-      ``1.1-0``
+      ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends genometools-genometools: ``1.6.5``
+   :depends genometools-genometools: 
    :depends perl: 
    :requirements:
 
@@ -82,7 +82,7 @@ ltr_harvest_parallel
 
     <script>
         var package = "ltr_harvest_parallel";
-        var versions = ["1.1"];
+        var versions = ["1.1","1.1"];
     </script>
 
 

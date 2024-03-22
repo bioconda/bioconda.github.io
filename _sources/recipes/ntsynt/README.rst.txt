@@ -27,13 +27,13 @@ ntsynt
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends btllib: ``>=1.7.0,<2.0a0``
+   :depends btllib: ``<1.7.0``
    :depends intervaltree: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -92,7 +92,7 @@ ntsynt
 
     <script>
         var package = "ntsynt";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

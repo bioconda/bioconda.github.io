@@ -27,11 +27,13 @@ tree-qmc
       
       
 
-      
+      ``3.0.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +81,7 @@ tree-qmc
 
     <script>
         var package = "tree-qmc";
-        var versions = [];
+        var versions = ["3.0.0"];
     </script>
 
 
