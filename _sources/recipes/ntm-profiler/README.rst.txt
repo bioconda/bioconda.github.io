@@ -27,14 +27,14 @@ ntm-profiler
       
       
 
-      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends jinja2: 
    :depends mash: ``2.3.*``
-   :depends pathogen-profiler: ``3.1.0.*``
+   :depends pathogen-profiler: ``4.1.0.*``
    :depends python: ``>=3.7``
    :depends sourmash: ``>=4.8.3``
    :requirements:
@@ -84,7 +84,7 @@ ntm-profiler
 
     <script>
         var package = "ntm-profiler";
-        var versions = ["0.3.0","0.2.2","0.2.1","0.2.0","0.1.1"];
+        var versions = ["0.4.0","0.3.0","0.2.2","0.2.1","0.2.0"];
     </script>
 
 
