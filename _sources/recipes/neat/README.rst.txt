@@ -27,7 +27,7 @@ neat
       
       
 
-      ``4.0-0``
+      ``4.1.1-0``,  ``4.0-0``
 
       
 
@@ -92,7 +92,7 @@ neat
 
     <script>
         var package = "neat";
-        var versions = ["4.0"];
+        var versions = ["4.1.1","4.0"];
     </script>
 
 
