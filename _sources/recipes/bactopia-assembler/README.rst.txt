@@ -29,13 +29,13 @@ bactopia-assembler
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends coreutils: 
-   :depends dragonflye: ``>=1.1.2``
+   :depends dragonflye: ``>=1.2.0``
    :depends importlib-metadata: ``<5``
    :depends sed: 
    :depends shovill-se: 
@@ -89,7 +89,7 @@ bactopia-assembler
 
     <script>
         var package = "bactopia-assembler";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

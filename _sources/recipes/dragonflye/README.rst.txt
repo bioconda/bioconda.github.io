@@ -29,10 +29,10 @@ dragonflye
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  </span></summary>
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ dragonflye
    :depends any2fasta: ``>=0.4.2``
    :depends assembly-scan: ``>=1.0.0``
    :depends bwa: 
+   :depends dnaapler: 
    :depends fastp: 
    :depends flye: ``>=2.9.2``
    :depends kmc: ``>=3.1``
@@ -55,7 +56,7 @@ dragonflye
    :depends perl-findbin: 
    :depends pigz: ``>=2.6``
    :depends pilon: 
-   :depends polypolish: 
+   :depends polypolish: ``>=0.6.0``
    :depends porechop: 
    :depends racon: ``>=1.5.0``
    :depends rasusa: ``>=0.7.1``
@@ -110,7 +111,7 @@ dragonflye
 
     <script>
         var package = "dragonflye";
-        var versions = ["1.1.2","1.1.1","1.1.0","1.0.14","1.0.13"];
+        var versions = ["1.2.0","1.1.2","1.1.1","1.1.0","1.0.14"];
     </script>
 
 
