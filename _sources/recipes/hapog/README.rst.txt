@@ -13,6 +13,8 @@ hapog
    Haplotype\-Aware Polishing of Genomes
 
    :homepage: https://github.com/institut-de-genomique/HAPO-G
+   :documentation: https://www.genoscope.cns.fr/hapog/
+   
    :license: OTHER / CECILL-2.1
    :recipe: /`hapog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapog/meta.yaml>`_
    :links: doi: :doi:`10.1093/nargab/lqab034`

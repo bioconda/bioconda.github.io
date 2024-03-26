@@ -13,7 +13,7 @@ treeqmc
    TREE\-QMC is a quartet\-based method for estimating species trees from gene trees.
 
    :homepage: https://github.com/molloy-lab/TREE-QMC
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`treeqmc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeqmc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeqmc/meta.yaml>`_
 
    

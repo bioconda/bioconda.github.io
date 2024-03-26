@@ -12,10 +12,13 @@ anvio-minimal
 
    An interactive analysis and visualization platform for omics data
 
-   :homepage: http://merenlab.org/software/anvio/
+   :homepage: https://merenlab.org/software/anvio/
+   :documentation: https://anvio.org/learn/
+   
    :developer docs: https://github.com/merenlab/anvio
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`anvio-minimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio-minimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio-minimal/meta.yaml>`_
+   :links: biotools: :biotools:`anvio`, doi: :doi:`10.1038/s41564-020-00834-3`
 
    
 
@@ -29,10 +32,10 @@ anvio-minimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.1-0</code>,  <code>7-0</code>,  <code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8-0</code>,  <code>7.1-0</code>,  <code>7-0</code>,  <code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  </span></summary>
       
 
-      ``7.1-0``,  ``7-0``,  ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
+      ``8-0``,  ``7.1-0``,  ``7-0``,  ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
 
       
       .. raw:: html
@@ -48,20 +51,24 @@ anvio-minimal
    :depends illumina-utils: 
    :depends matplotlib-base: 
    :depends mistune: 
+   :depends multiprocess: 
+   :depends networkx: 
    :depends numba: 
-   :depends numpy: 
-   :depends pandas: ``0.25.1``
+   :depends numpy: ``<=1.24``
+   :depends pandas: ``1.4.4``
    :depends paste: 
-   :depends psutil: ``5.4.3``
+   :depends plotext: 
+   :depends psutil: 
    :depends pyani: ``0.2.10``
    :depends pysam: 
    :depends python: ``>=3``
    :depends requests: 
-   :depends scikit-learn: ``<0.21``
+   :depends rich-argparse: 
+   :depends scikit-learn: ``1.2.2``
    :depends scipy: 
    :depends six: 
    :depends snakemake-minimal: ``5.10.0``
-   :depends sqlite: ``>=3.36.0,<4.0a0``
+   :depends sqlite: ``>=3.31.1``
    :depends statsmodels: 
    :depends tabulate: 
    :requirements:
@@ -111,7 +118,7 @@ anvio-minimal
 
     <script>
         var package = "anvio-minimal";
-        var versions = ["7.1","7","6.2","6.2","6.1"];
+        var versions = ["8","7.1","7","6.2","6.2"];
     </script>
 
 

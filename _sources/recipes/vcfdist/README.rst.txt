@@ -30,7 +30,7 @@ vcfdist
       
       
 
-      ``2.5.0-0``,  ``2.4.0-0``
+      ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``
 
       
 
@@ -85,7 +85,7 @@ vcfdist
 
     <script>
         var package = "vcfdist";
-        var versions = ["2.5.0","2.4.0"];
+        var versions = ["2.5.1","2.5.0","2.4.0"];
     </script>
 
 

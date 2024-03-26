@@ -30,10 +30,10 @@ cazy_webscraper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0.2-0</code>,  <code>2.3.0-0</code>,  <code>2.2.8-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0.3-0</code>,  <code>2.3.0.2-0</code>,  <code>2.3.0-0</code>,  <code>2.2.8-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.3.0.2-0``,  ``2.3.0-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
+      ``2.3.0.3-0``,  ``2.3.0.2-0``,  ``2.3.0-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ cazy_webscraper
 
     <script>
         var package = "cazy_webscraper";
-        var versions = ["2.3.0.2","2.3.0","2.2.8","2.2.7","2.2.6"];
+        var versions = ["2.3.0.3","2.3.0.2","2.3.0","2.2.8","2.2.7"];
     </script>
 
 

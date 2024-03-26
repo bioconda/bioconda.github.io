@@ -28,7 +28,7 @@ locidex
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -39,7 +39,7 @@ locidex
    :depends numba: ``>=0.57.1``
    :depends numpy: 
    :depends pandas: ``>=2.0.2``
-   :depends pyrodigal: 
+   :depends pyrodigal: ``>=3.0``
    :depends pytables: ``>=3.8``
    :depends python: ``>=3.8,<4``
    :depends six: ``>=1.16``
@@ -90,7 +90,7 @@ locidex
 
     <script>
         var package = "locidex";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

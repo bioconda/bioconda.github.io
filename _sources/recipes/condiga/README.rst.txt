@@ -29,7 +29,7 @@ condiga
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -37,7 +37,7 @@ condiga
    :depends biopython: 
    :depends click: 
    :depends minimap2: 
-   :depends python: 
+   :depends python: ``>=3.8``
    :depends taxonkit: 
    :depends tqdm: 
    :depends xlsxwriter: 
@@ -88,7 +88,7 @@ condiga
 
     <script>
         var package = "condiga";
-        var versions = ["0.2.1","0.2.0"];
+        var versions = ["0.2.2","0.2.1","0.2.0"];
     </script>
 
 

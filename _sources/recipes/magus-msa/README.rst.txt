@@ -15,8 +15,9 @@ magus-msa
    :homepage: https://github.com/vlasmirnov/MAGUS
    :documentation: https://github.com/vlasmirnov/MAGUS/blob/master/README.md
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`magus-msa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magus-msa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magus-msa/meta.yaml>`_
+   :links: biotools: :biotools:`magus`, doi: :doi:`10.1093/bioinformatics/btaa992`
 
    
 

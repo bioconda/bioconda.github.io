@@ -10,7 +10,7 @@ dimet
    :replaces_section_title:
    :noindex:
 
-   A tool for Differential Isotope\-labeled targeted Metabolomics
+   A tool for Differential Isotope\-labeled targeted Metabolomics data
 
    :homepage: https://github.com/cbib/DIMet.git
    :license: MIT
@@ -27,7 +27,7 @@ dimet
       
       
 
-      ``0.2.4-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -36,16 +36,16 @@ dimet
    :depends coverage: 
    :depends hydra-colorlog: ``>=1.2.0,<1.3.0``
    :depends hydra-core: ``>=1.3.2,<1.4.0``
-   :depends matplotlib-base: ``>=3.7.1,<3.8.0``
-   :depends numpy: ``>=1.23.1,<1.24.0``
-   :depends pandas: ``>=1.5.3,<1.6.0``
-   :depends pydantic: ``>=1.10.8,<2.0.0``
+   :depends matplotlib-base: ``>=3.8.3``
+   :depends numpy: ``>=1.26.4``
+   :depends pandas: ``>=2.2.0``
+   :depends pydantic: ``>=2.6.1``
    :depends python: ``>=3.9,<4.0``
    :depends python-dotenv: ``>=1.0,<2.0``
    :depends pyyaml: ``>=6.0,<7.0``
-   :depends scikit-learn: ``>=1.1.1,<1.2.0``
+   :depends scikit-learn: ``>=1.4.0``
    :depends scipy: ``>=1.9.1,<1.10.0``
-   :depends seaborn: ``>=0.11.2,<0.12.0``
+   :depends seaborn: ``>=0.13.2``
    :depends statsmodels: ``>=0.13.5,<0.14.0``
    :requirements:
 
@@ -94,7 +94,7 @@ dimet
 
     <script>
         var package = "dimet";
-        var versions = ["0.2.4","0.2.2","0.2.1","0.2.0","0.1.4"];
+        var versions = ["0.2.4","0.2.4","0.2.2","0.2.1","0.2.0"];
     </script>
 
 

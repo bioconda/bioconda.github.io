@@ -13,8 +13,11 @@ scib
    Evaluating single\-cell data integration methods
 
    :homepage: https://github.com/theislab/scib
-   :license: MIT
+   :documentation: https://scib.readthedocs.io/en/latest/
+   
+   :license: MIT / MIT
    :recipe: /`scib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scib/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-021-01336-8`
 
    
 

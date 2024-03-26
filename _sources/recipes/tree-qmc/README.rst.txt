@@ -27,7 +27,7 @@ tree-qmc
       
       
 
-      ``3.0.0-0``
+      ``3.0.1-0``,  ``3.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ tree-qmc
 
     <script>
         var package = "tree-qmc";
-        var versions = ["3.0.0"];
+        var versions = ["3.0.1","3.0.0"];
     </script>
 
 
