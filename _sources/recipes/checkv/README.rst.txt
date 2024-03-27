@@ -29,10 +29,10 @@ checkv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  </span></summary>
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ checkv
 
    
    :depends biopython: 
-   :depends diamond: 
+   :depends diamond: ``<=2.1.8``
    :depends hmmer: 
    :depends importlib-metadata: ``>=0.12``
    :depends kcounter: 
@@ -50,6 +50,7 @@ checkv
    :depends prodigal-gv: 
    :depends psutil: 
    :depends python: ``>=3.6``
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +98,7 @@ checkv
 
     <script>
         var package = "checkv";
-        var versions = ["1.0.1","1.0.0","0.9.0","0.8.1","0.8.1"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0","0.9.0"];
     </script>
 
 

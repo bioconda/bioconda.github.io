@@ -27,11 +27,13 @@ treeqmc
       
       
 
-      
+      ``3.0.1-0``
 
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +81,7 @@ treeqmc
 
     <script>
         var package = "treeqmc";
-        var versions = [];
+        var versions = ["3.0.1"];
     </script>
 
 

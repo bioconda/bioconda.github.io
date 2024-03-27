@@ -29,10 +29,10 @@ prodigal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.3-7</code>,  <code>2.6.3-6</code>,  <code>2.6.3-5</code>,  <code>2.6.3-4</code>,  <code>2.6.3-3</code>,  <code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.3-8</code>,  <code>2.6.3-7</code>,  <code>2.6.3-6</code>,  <code>2.6.3-5</code>,  <code>2.6.3-4</code>,  <code>2.6.3-3</code>,  <code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  </span></summary>
       
 
-      ``2.6.3-7``,  ``2.6.3-6``,  ``2.6.3-5``,  ``2.6.3-4``,  ``2.6.3-3``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-3``,  ``2.6.2-2``,  ``2.6.2-1``
+      ``2.6.3-8``,  ``2.6.3-7``,  ``2.6.3-6``,  ``2.6.3-5``,  ``2.6.3-4``,  ``2.6.3-3``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-3``,  ``2.6.2-2``,  ``2.6.2-1``
 
       
       .. raw:: html

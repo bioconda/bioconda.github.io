@@ -37,10 +37,10 @@ harpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-3</code>,  </span></summary>
       
 
-      ``0.7.3-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -50,15 +50,13 @@ harpy
 
    
    :depends bcftools: ``1.19.*``
-   :depends multiqc: 
    :depends pandas: 
-   :depends pysam: ``0.22.*``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
    :depends rich-click: 
    :depends samtools: 
    :depends seqtk: 
-   :depends snakemake-minimal: 
+   :depends snakemake-minimal: ``>7``
    :depends tabix: 
    :requirements:
 
@@ -107,7 +105,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["0.7.3","0.7.0","0.6.1","0.6.0","0.5.0"];
+        var versions = ["0.8.0","0.7.3","0.7.0","0.6.1","0.6.0"];
     </script>
 
 

@@ -30,7 +30,7 @@ scib
       
       
 
-      ``1.1.4-0``
+      ``1.1.4-1``,  ``1.1.4-0``
 
       
 
@@ -45,7 +45,7 @@ scib
    :depends llvmlite: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: ``<2``
    :depends pydot: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -102,7 +102,7 @@ scib
 
     <script>
         var package = "scib";
-        var versions = ["1.1.4"];
+        var versions = ["1.1.4","1.1.4"];
     </script>
 
 

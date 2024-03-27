@@ -28,11 +28,12 @@ wfa2-lib
       
       
 
-      ``2.3.4-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+      ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -82,7 +83,7 @@ wfa2-lib
 
     <script>
         var package = "wfa2-lib";
-        var versions = ["2.3.4","2.3.3","2.3.3","2.3.3"];
+        var versions = ["2.3.4","2.3.4","2.3.3","2.3.3","2.3.3"];
     </script>
 
 
