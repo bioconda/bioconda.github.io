@@ -27,11 +27,21 @@ eva-sub-cli
       
       
 
-      
+      ``0.2-0``
 
       
 
    
+   :depends ebi-eva-common-pyutils: ``>=0.6.1``
+   :depends jinja2: 
+   :depends jsonschema: 
+   :depends nextflow: ``>=21.10.0``
+   :depends nodejs: ``>=10.19.1``
+   :depends openpyxl: 
+   :depends python: ``>=3.8``
+   :depends pyyaml: 
+   :depends requests: 
+   :depends vcf-validator: ``>=0.9.6``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +89,7 @@ eva-sub-cli
 
     <script>
         var package = "eva-sub-cli";
-        var versions = [];
+        var versions = ["0.2"];
     </script>
 
 

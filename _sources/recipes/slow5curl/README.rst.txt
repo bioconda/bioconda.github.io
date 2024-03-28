@@ -27,7 +27,7 @@ slow5curl
       
       
 
-      ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -83,7 +83,7 @@ slow5curl
 
     <script>
         var package = "slow5curl";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.1","0.2.0"];
     </script>
 
 

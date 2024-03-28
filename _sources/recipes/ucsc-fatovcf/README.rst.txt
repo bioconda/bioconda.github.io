@@ -27,18 +27,18 @@ ucsc-fatovcf
       
       
 
-      ``448-0``,  ``426-0``,  ``407-0``
+      ``448-1``,  ``448-0``,  ``426-0``,  ``407-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libpng: ``>=1.6.39,<1.7.0a0``
+   :depends libpng: ``>=1.6.43,<1.7.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends mysql-connector-c: 
-   :depends openssl: ``>=3.1.1,<4.0a0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends openssl: ``>=3.2.1,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ ucsc-fatovcf
 
     <script>
         var package = "ucsc-fatovcf";
-        var versions = ["448","426","407"];
+        var versions = ["448","448","426","407"];
     </script>
 
 
