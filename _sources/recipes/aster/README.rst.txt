@@ -13,6 +13,7 @@ aster
    Accurate Species Tree EstimatoR series\; a family of optimation algorithms
    for species tree inference implemented in C\+\+
 
+
    :homepage: https://github.com/chaoszhang/ASTER
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`aster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aster/meta.yaml>`_
@@ -29,10 +30,10 @@ aster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16-1</code>,  <code>1.16-0</code>,  <code>1.15-2</code>,  <code>1.15-1</code>,  <code>1.15-0</code>,  <code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.10-0</code>,  <code>1.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16-2</code>,  <code>1.16-1</code>,  <code>1.16-0</code>,  <code>1.15-2</code>,  <code>1.15-1</code>,  <code>1.15-0</code>,  <code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.10-0</code>,  </span></summary>
       
 
-      ``1.16-1``,  ``1.16-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
+      ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
 
       
       .. raw:: html
@@ -90,7 +91,7 @@ aster
 
     <script>
         var package = "aster";
-        var versions = ["1.16","1.16","1.15","1.15","1.15"];
+        var versions = ["1.16","1.16","1.16","1.15","1.15"];
     </script>
 
 

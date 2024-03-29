@@ -27,7 +27,7 @@ bcftools-gtc2vcf-plugin
       
       
 
-      ``1.19-0``,  ``1.18-0``,  ``1.16-0``,  ``1.9-0``
+      ``1.19-1``,  ``1.19-0``,  ``1.18-0``,  ``1.16-0``,  ``1.9-0``
 
       
 
@@ -86,7 +86,7 @@ bcftools-gtc2vcf-plugin
 
     <script>
         var package = "bcftools-gtc2vcf-plugin";
-        var versions = ["1.19","1.18","1.16","1.9"];
+        var versions = ["1.19","1.19","1.18","1.16","1.9"];
     </script>
 
 

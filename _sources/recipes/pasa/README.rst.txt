@@ -15,7 +15,7 @@ pasa
    :homepage: https://github.com/PASApipeline/PASApipeline
    :documentation: https://github.com/PASApipeline/PASApipeline/wiki
    
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`pasa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa/meta.yaml>`_
    :links: biotools: :biotools:`PASA`, doi: :doi:`10.1093/nar/gkg770`, doi: :doi:`10.1186/gb-2008-9-1-r7`
 
@@ -31,10 +31,10 @@ pasa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.3-0</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.3.3-2</code>,  </span></summary>
       
 
-      ``2.5.3-0``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+      ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ pasa
    
    :depends cdbtools: 
    :depends fasta3: ``>=36.3.8i``
-   :depends gmap: ``>=2021.08.25``
+   :depends gmap: ``>=2023.10.10``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends lighttpd: 
@@ -108,7 +108,7 @@ pasa
 
     <script>
         var package = "pasa";
-        var versions = ["2.5.3","2.5.2","2.5.2","2.5.2","2.5.2"];
+        var versions = ["2.5.3","2.5.3","2.5.2","2.5.2","2.5.2"];
     </script>
 
 

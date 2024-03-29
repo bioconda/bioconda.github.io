@@ -29,17 +29,17 @@ soda-gallery
       
       
 
-      ``1.0.1-0``
+      ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
    :depends beautifulsoup4: ``>=4.9.3``
-   :depends certifi: ``>=2021.5.30``
+   :depends certifi: ``>=2024.2.2``
    :depends jinja2: ``>=3.0.1``
    :depends pdfminer: ``>=20191125``
    :depends pdfrw: ``>=0.4``
-   :depends python: 
+   :depends python: ``>=3``
    :depends requests: ``>=2.25.1``
    :depends requests-kerberos: ``>=0.12.0``
    :requirements:
@@ -89,7 +89,7 @@ soda-gallery
 
     <script>
         var package = "soda-gallery";
-        var versions = ["1.0.1"];
+        var versions = ["1.2.0","1.0.1"];
     </script>
 
 

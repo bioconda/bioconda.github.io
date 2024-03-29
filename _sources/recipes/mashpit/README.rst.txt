@@ -27,20 +27,25 @@ mashpit
       
       
 
-      ``0.9.2-0``
+      ``0.9.6-0``,  ``0.9.2-0``
 
       
 
    
    :depends biopython: ``1.78.*``
+   :depends dask: ``>=2024.1``
+   :depends flask: ``>=3.0``
+   :depends ncbi-datasets-cli: ``>=16.10``
+   :depends ncbi-datasets-pylib: ``>=16.6.0``
    :depends numpy: ``>=1.19.5``
    :depends pandas: ``>=1.1.5``
    :depends python: ``>=3.8``
-   :depends python-dotenv: 
-   :depends scipy: ``1.7.3.*``
+   :depends requests: 
+   :depends scikit-bio: 
+   :depends scipy: ``>=1.0``
    :depends screed: ``>=1.0.5``
-   :depends sourmash: ``>=4.2.2``
-   :depends sra-tools: ``>=2.10.8``
+   :depends sourmash: ``>=4.6.1``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +93,7 @@ mashpit
 
     <script>
         var package = "mashpit";
-        var versions = ["0.9.2"];
+        var versions = ["0.9.6","0.9.2"];
     </script>
 
 

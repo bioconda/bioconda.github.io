@@ -30,7 +30,7 @@ hictkpy
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -45,7 +45,6 @@ hictkpy
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
-   :depends xxhash: ``>=0.8.2,<0.8.3.0a0``
    :depends zstd: ``>=1.5``
    :depends zstd: ``>=1.5.5,<1.6.0a0``
    :requirements:
@@ -95,7 +94,7 @@ hictkpy
 
     <script>
         var package = "hictkpy";
-        var versions = ["0.0.3","0.0.2","0.0.1"];
+        var versions = ["0.0.4","0.0.3","0.0.2","0.0.1"];
     </script>
 
 

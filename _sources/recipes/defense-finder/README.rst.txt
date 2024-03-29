@@ -27,14 +27,14 @@ defense-finder
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.9-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.9-0``
 
       
 
    
    :depends click: ``>=8.0.3``
    :depends colorlog: ``>=6.3.0a1``
-   :depends macsyfinder: 
+   :depends macsyfinder: ``2.1.1.*``
    :depends pyhmmer: 
    :depends pyrodigal: 
    :depends python: ``>=3.7``
@@ -85,7 +85,7 @@ defense-finder
 
     <script>
         var package = "defense-finder";
-        var versions = ["1.2.2","1.2.1","1.2.0","1.1.1","1.0.9"];
+        var versions = ["1.2.2","1.2.2","1.2.1","1.2.0","1.1.1"];
     </script>
 
 

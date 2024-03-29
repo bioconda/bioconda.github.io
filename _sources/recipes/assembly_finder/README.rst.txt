@@ -10,10 +10,12 @@ assembly_finder
    :replaces_section_title:
    :noindex:
 
-   Snakemake pipeline to download assemblies from NCBI.
+   Snakemake\-powered cli pipeline to download genomes with NCBI datasets
 
    :homepage: https://github.com/metagenlab/assembly_finder
-   :license: GPL-3.0-or-later
+   :documentation: https://metagenlab.github.io/assembly_finder
+   
+   :license: MIT / MIT
    :recipe: /`assembly_finder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly_finder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly_finder/meta.yaml>`_
 
    
@@ -27,18 +29,17 @@ assembly_finder
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
 
    
-   :depends aspera-cli: ``>=4.14.0``
-   :depends biopython: ``>=1.78``
-   :depends click: ``>=7``
-   :depends ete3: ``>=3.1.3``
-   :depends pandas: ``>=2.0.3``
-   :depends python: ``>=3.9,<3.12``
-   :depends snakemake-minimal: ``>=7.32.4``
+   :depends ncbi-datasets-cli: ``>=16.10.1``
+   :depends pandas: ``>=2.2.1``
+   :depends pulp: ``<2.8``
+   :depends python: ``>=3.9,<=3.12``
+   :depends rich-click: ``>=1.7.4``
+   :depends snakemake-minimal: ``>=7.32.4,<8``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +87,7 @@ assembly_finder
 
     <script>
         var package = "assembly_finder";
-        var versions = ["0.4.2","0.4.1","0.4.0","0.3.3","0.3.3"];
+        var versions = ["0.6.0","0.4.2","0.4.1","0.4.0","0.3.3"];
     </script>
 
 

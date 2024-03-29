@@ -27,7 +27,7 @@ trycycler
       
       
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``
+      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``
 
       
 
@@ -38,7 +38,7 @@ trycycler
    :depends muscle: ``<4``
    :depends numpy: 
    :depends pillow: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.6,<3.11``
    :depends python-edlib: 
    :depends r-ape: 
    :depends r-base: 
@@ -91,7 +91,7 @@ trycycler
 
     <script>
         var package = "trycycler";
-        var versions = ["0.5.4","0.5.3","0.5.1","0.5.0","0.4.2"];
+        var versions = ["0.5.5","0.5.4","0.5.3","0.5.1","0.5.0"];
     </script>
 
 

@@ -31,10 +31,10 @@ r-liger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0.9000-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
       .. raw:: html
@@ -47,38 +47,30 @@ r-liger
    :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openjdk: ``>=6``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
+   :depends r-cli: 
    :depends r-cowplot: 
-   :depends r-doparallel: 
-   :depends r-dosnow: 
    :depends r-dplyr: 
-   :depends r-fnn: 
-   :depends r-foreach: 
    :depends r-ggplot2: 
-   :depends r-ggrepel: 
    :depends r-hdf5r: 
-   :depends r-hmisc: 
    :depends r-ica: 
    :depends r-irlba: 
    :depends r-leidenalg: ``>=1.1.1``
+   :depends r-lifecycle: 
+   :depends r-magrittr: 
+   :depends r-matrix: 
    :depends r-mclust: 
-   :depends r-patchwork: 
-   :depends r-plyr: 
-   :depends r-psych: 
    :depends r-rann: 
-   :depends r-rann.l1: 
+   :depends r-rcolorbrewer: 
    :depends r-rcpp: ``>=0.12.10``
    :depends r-rcpparmadillo: 
-   :depends r-rcppeigen: 
    :depends r-rcppprogress: 
-   :depends r-reticulate: 
+   :depends r-rlang: 
    :depends r-rtsne: 
-   :depends r-scattermore: ``>=0.7``
-   :depends r-snow: 
+   :depends r-scales: 
    :depends r-uwot: 
-   :depends umap-learn: 
+   :depends r-viridis: 
    :requirements:
 
    .. rubric:: Installation
@@ -126,7 +118,7 @@ r-liger
 
     <script>
         var package = "r-liger";
-        var versions = ["2.0.0","1.0.1","1.0.0","1.0.0","1.0.0"];
+        var versions = ["2.0.0","2.0.0","1.0.1","1.0.0","1.0.0"];
     </script>
 
 

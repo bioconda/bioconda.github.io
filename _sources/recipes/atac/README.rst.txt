@@ -28,7 +28,7 @@ atac
       
       
 
-      ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
+      ``2008-5``,  ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
 
       
 
@@ -37,8 +37,8 @@ atac
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation

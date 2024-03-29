@@ -91,10 +91,22 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/mashpit"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mashpit.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mashpit"><img alt="docker_mashpit" src="https://quay.io/repository/biocontainers/mashpit/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.9.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.2-0</span></code></p>
 </dd>
 <dt class="field-even">depends biopython<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.78.*</span></code></p>
+</dd>
+<dt class="field-odd">depends dask<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2024.1</span></code></p>
+</dd>
+<dt class="field-even">depends flask<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0</span></code></p>
+</dd>
+<dt class="field-odd">depends ncbi-datasets-cli<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=16.10</span></code></p>
+</dd>
+<dt class="field-even">depends ncbi-datasets-pylib<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=16.6.0</span></code></p>
 </dd>
 <dt class="field-odd">depends numpy<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.19.5</span></code></p>
@@ -105,22 +117,23 @@
 <dt class="field-odd">depends python<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p>
 </dd>
-<dt class="field-even">depends python-dotenv<span class="colon">:</span></dt>
+<dt class="field-even">depends requests<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.7.3.*</span></code></p>
-</dd>
-<dt class="field-even">depends screed<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.5</span></code></p>
-</dd>
-<dt class="field-odd">depends sourmash<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.2.2</span></code></p>
-</dd>
-<dt class="field-even">depends sra-tools<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.10.8</span></code></p>
-</dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dt class="field-odd">depends scikit-bio<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0</span></code></p>
+</dd>
+<dt class="field-odd">depends screed<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.5</span></code></p>
+</dd>
+<dt class="field-even">depends sourmash<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.6.1</span></code></p>
+</dd>
+<dt class="field-odd">depends tqdm<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -155,7 +168,7 @@ others.</p>
 
 <script>
     var package = "mashpit";
-    var versions = ["0.9.2"];
+    var versions = ["0.9.6","0.9.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

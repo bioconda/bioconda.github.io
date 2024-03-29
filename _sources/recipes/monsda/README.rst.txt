@@ -10,7 +10,7 @@ monsda
    :replaces_section_title:
    :noindex:
 
-   MONSDA\, Modular Organizer of Nextflow and Snakemake driven hts Data Analysis
+   MONSDA\, Modular Organizer of Nextflow and Snakemake driven HTS Data Analysis
 
    :homepage: https://github.com/jfallmann/MONSDA
    :documentation: https://monsda.readthedocs.io/en/latest/
@@ -29,27 +29,31 @@ monsda
       
       
 
-      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.4-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends biopython: ``>=1.78``
+   :depends biopython: ``>=1.83``
    :depends black: ``>=21.5b2``
    :depends flake8: ``>=3.8.3``
-   :depends isort: ``>=5.9.2``
-   :depends more-itertools: ``>=8.8.0``
-   :depends natsort: ``>=7.1.1``
-   :depends nextflow: ``>=23.04.1``
-   :depends numpy: ``>=1.21.0``
-   :depends pandas: ``>=1.4.1``
-   :depends perl: ``>=5.32.1``
-   :depends python: ``>=3.11``
-   :depends scipy: ``>=1.7.0``
-   :depends snakemake: ``>=7.32.3,<8.0.0``
-   :depends sphinx: ``>=4.1.0``
+   :depends natsort: ``>=8.4.0``
+   :depends nextflow: ``>=23.10.1``
+   :depends numpy: ``>=1.26.4``
+   :depends pandas: ``>=2.2.1``
+   :depends perl: ``>=5.32.0``
+   :depends python: ``>=3.12``
+   :depends pyyaml: ``>=6.0.1``
+   :depends scipy: ``>=1.12.0``
+   :depends snakemake: ``>=8.10.0``
+   :depends snakemake-executor-plugin-cluster-generic: ``1.0.9.*``
+   :depends snakemake-executor-plugin-slurm: ``0.4.2.*``
+   :depends snakemake-interface-common: ``1.17.1.*``
+   :depends snakemake-interface-executor-plugins: ``9.0.2.*``
+   :depends snakemake-interface-report-plugins: ``1.0.0.*``
+   :depends snakemake-interface-storage-plugins: ``3.1.1.*``
+   :depends snakemake-storage-plugin-s3: ``0.2.10.*``
    :depends versioneer: ``>=0.20``
-   :depends yaml: ``>=0.2.5``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +101,7 @@ monsda
 
     <script>
         var package = "monsda";
-        var versions = ["1.2.2","1.2.2","1.2.1","1.2.0","1.1.1"];
+        var versions = ["1.2.4","1.2.2","1.2.2","1.2.1","1.2.0"];
     </script>
 
 
