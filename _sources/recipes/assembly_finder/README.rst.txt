@@ -28,9 +28,17 @@ assembly_finder
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
+      
 
+      ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -87,7 +95,7 @@ assembly_finder
 
     <script>
         var package = "assembly_finder";
-        var versions = ["0.6.0","0.4.2","0.4.1","0.4.0","0.3.3"];
+        var versions = ["0.6.1","0.6.0","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

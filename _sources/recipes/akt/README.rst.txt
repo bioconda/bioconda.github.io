@@ -29,10 +29,10 @@ akt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.3-4</code>,  <code>0.3.3-3</code>,  <code>0.3.3-2</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-4</code>,  <code>0.3.2-3</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.3-5</code>,  <code>0.3.3-4</code>,  <code>0.3.3-3</code>,  <code>0.3.3-2</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-4</code>,  <code>0.3.2-3</code>,  <code>0.3.2-2</code>,  </span></summary>
       
 
-      ``0.3.3-4``,  ``0.3.3-3``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-4``,  ``0.3.2-3``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-0``
+      ``0.3.3-5``,  ``0.3.3-4``,  ``0.3.3-3``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-4``,  ``0.3.2-3``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-0``
 
       
       .. raw:: html
