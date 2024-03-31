@@ -10,7 +10,7 @@ hybran
    :replaces_section_title:
    :noindex:
 
-   Hybrid reference transfer and ab initio prokaryotic genome annotation
+   Comparative prokaryotic genome annotation
 
    :homepage: https://lpcdrp.gitlab.io/hybran
    :developer docs: https://gitlab.com/LPCDRP/hybran
@@ -28,12 +28,12 @@ hybran
       
       
 
-      ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
+      ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
 
       
 
    
-   :depends biopython: ``>=1.80,<1.82``
+   :depends biopython: ``>=1.80``
    :depends blast: 
    :depends cd-hit: 
    :depends diamond: 
@@ -41,8 +41,10 @@ hybran
    :depends eggnog-mapper: 
    :depends emboss: 
    :depends entrez-direct: 
+   :depends intervaltree: 
    :depends mcl: 
    :depends multiprocess: 
+   :depends networkx: 
    :depends prokka: ``>=1.14``
    :depends python: ``>=3.9``
    :depends ratt: 
@@ -94,7 +96,7 @@ hybran
 
     <script>
         var package = "hybran";
-        var versions = ["1.7.1","1.7.1","1.7","1.6.1","1.6"];
+        var versions = ["1.8","1.7.1","1.7.1","1.7","1.6.1"];
     </script>
 
 

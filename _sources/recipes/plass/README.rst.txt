@@ -10,12 +10,12 @@ plass
    :replaces_section_title:
    :noindex:
 
-   Plass \(Protein\-Level ASSembler\) is a software to assemble short read sequencing data on a protein level
+   Plass \(Protein\-Level ASSembler\) and PenguiN \(Protein\-guided Nucleotide assembler\) are methods to assemble short read sequencing data on a protein level to proteins or DNA contigs
 
    :homepage: https://github.com/soedinglab/plass
    :license: GPLv3
    :recipe: /`plass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plass/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s41592-019-0437-4`, biotools: :biotools:`plass`
+   :links: doi: :doi:`10.1038/s41592-019-0437-4`, doi: :doi:`10.1101/2024.03.29.587318`, biotools: :biotools:`plass`
 
    
 
@@ -28,7 +28,7 @@ plass
       
       
 
-      ``4.687d7-5``,  ``4.687d7-4``,  ``4.687d7-3``,  ``4.687d7-2``,  ``4.687d7-1``,  ``4.687d7-0``,  ``3.764a3-0``,  ``2.c7e35-1``
+      ``5.cf8933-0``,  ``4.687d7-5``,  ``4.687d7-4``,  ``4.687d7-3``,  ``4.687d7-2``,  ``4.687d7-1``,  ``4.687d7-0``,  ``3.764a3-0``,  ``2.c7e35-1``
 
       
 
@@ -88,7 +88,7 @@ plass
 
     <script>
         var package = "plass";
-        var versions = ["4.687d7","4.687d7","4.687d7","4.687d7","4.687d7"];
+        var versions = ["5.cf8933","4.687d7","4.687d7","4.687d7","4.687d7"];
     </script>
 
 
