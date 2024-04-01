@@ -27,17 +27,17 @@ sequali
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends pygal: ``>=3.0.0``
+   :depends pygal: ``>=3.0.4``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends tqdm: 
-   :depends xopen: ``>=1.8.0``
+   :depends xopen: ``>=2.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ sequali
 
     <script>
         var package = "sequali";
-        var versions = ["0.5.1","0.5.0","0.4.1","0.4.0","0.3.0"];
+        var versions = ["0.6.0","0.5.1","0.5.0","0.4.1","0.4.0"];
     </script>
 
 
