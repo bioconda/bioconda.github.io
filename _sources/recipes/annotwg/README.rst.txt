@@ -27,7 +27,7 @@ annotwg
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
@@ -85,7 +85,7 @@ annotwg
 
     <script>
         var package = "annotwg";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

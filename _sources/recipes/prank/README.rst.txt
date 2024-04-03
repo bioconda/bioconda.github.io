@@ -13,7 +13,7 @@ prank
    PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences.
 
    :homepage: http://wasabiapp.org/software/prank/
-   :license: GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`prank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prank/meta.yaml>`_
    :links: biotools: :biotools:`prank`, doi: :doi:`10.1007/978-1-62703-646-7_10`
 
@@ -27,9 +27,17 @@ prank
    :versions:
       
       
+      .. raw:: html
 
-      ``v.170427-7``,  ``v.170427-6``,  ``v.170427-5``,  ``v.170427-4``,  ``v.170427-3``,  ``v.170427-2``,  ``v.170427-1``,  ``v.170427-0``,  ``v.150803-0``
+         <details><summary><span class="truncated-version-list"><code>170427-0</code>,  <code>v.170427-7</code>,  <code>v.170427-6</code>,  <code>v.170427-5</code>,  <code>v.170427-4</code>,  <code>v.170427-3</code>,  <code>v.170427-2</code>,  <code>v.170427-1</code>,  <code>v.170427-0</code>,  </span></summary>
+      
 
+      ``170427-0``,  ``v.170427-7``,  ``v.170427-6``,  ``v.170427-5``,  ``v.170427-4``,  ``v.170427-3``,  ``v.170427-2``,  ``v.170427-1``,  ``v.170427-0``,  ``v.150803-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -82,7 +90,7 @@ prank
 
     <script>
         var package = "prank";
-        var versions = ["v.170427","v.170427","v.170427","v.170427","v.170427"];
+        var versions = ["170427","v.170427","v.170427","v.170427","v.170427"];
     </script>
 
 

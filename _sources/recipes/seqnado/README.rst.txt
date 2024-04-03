@@ -27,7 +27,7 @@ seqnado
       
       
 
-      ``0.4.3-0``,  ``0.4.1-0``
+      ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
 
       
 
@@ -94,7 +94,7 @@ seqnado
 
     <script>
         var package = "seqnado";
-        var versions = ["0.4.3","0.4.1"];
+        var versions = ["0.5.0","0.4.3","0.4.1"];
     </script>
 
 

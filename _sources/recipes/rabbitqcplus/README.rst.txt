@@ -27,7 +27,7 @@ rabbitqcplus
       
       
 
-      ``2.2.7-0``
+      ``2.2.8-0``,  ``2.2.7-0``
 
       
 
@@ -83,7 +83,7 @@ rabbitqcplus
 
     <script>
         var package = "rabbitqcplus";
-        var versions = ["2.2.7"];
+        var versions = ["2.2.8","2.2.7"];
     </script>
 
 

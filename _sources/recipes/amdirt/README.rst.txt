@@ -27,13 +27,14 @@ amdirt
       
       
 
-      ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
 
       
 
    
    :depends click: 
    :depends colorlog: 
+   :depends defusedxml: 
    :depends jsonschema: 
    :depends numpy: 
    :depends pandas: 
@@ -90,7 +91,7 @@ amdirt
 
     <script>
         var package = "amdirt";
-        var versions = ["1.5.0","1.4.6","1.4.5","1.4.4","1.4.3"];
+        var versions = ["1.5.0","1.5.0","1.4.6","1.4.5","1.4.4"];
     </script>
 
 
