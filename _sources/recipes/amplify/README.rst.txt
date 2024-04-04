@@ -26,12 +26,21 @@ amplify
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends absl-py: ``<2``
    :depends biopython: 
    :depends h5py: ``<3``
    :depends keras: ``2.2.4.*``
@@ -87,7 +96,7 @@ amplify
 
     <script>
         var package = "amplify";
-        var versions = ["2.0.0","1.1.0","1.0.3","1.0.2","1.0.1"];
+        var versions = ["2.0.0","2.0.0","1.1.0","1.0.3","1.0.2"];
     </script>
 
 

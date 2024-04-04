@@ -13,7 +13,7 @@ apscale
    Advanced Pipeline for Simple yet Comprehensive AnaLysEs of DNA metabarcoding data
 
    :homepage: https://github.com/DominikBuchner/apscale
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`apscale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apscale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apscale/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ apscale
       
       
 
-      ``1.6.3-0``,  ``1.5.5-0``
+      ``1.7.1-0``,  ``1.6.3-0``,  ``1.5.5-0``
 
       
 
@@ -91,7 +91,7 @@ apscale
 
     <script>
         var package = "apscale";
-        var versions = ["1.6.3","1.5.5"];
+        var versions = ["1.7.1","1.6.3","1.5.5"];
     </script>
 
 

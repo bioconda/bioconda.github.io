@@ -29,10 +29,10 @@ paml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.10.7-0</code>,  <code>4.10.6-2</code>,  <code>4.10.6-1</code>,  <code>4.10.6-0</code>,  <code>4.9-7</code>,  <code>4.9-6</code>,  <code>4.9-5</code>,  <code>4.9-4</code>,  <code>4.9-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10.7-1</code>,  <code>4.10.7-0</code>,  <code>4.10.6-2</code>,  <code>4.10.6-1</code>,  <code>4.10.6-0</code>,  <code>4.9-7</code>,  <code>4.9-6</code>,  <code>4.9-5</code>,  <code>4.9-4</code>,  </span></summary>
       
 
-      ``4.10.7-0``,  ``4.10.6-2``,  ``4.10.6-1``,  ``4.10.6-0``,  ``4.9-7``,  ``4.9-6``,  ``4.9-5``,  ``4.9-4``,  ``4.9-3``,  ``4.9-2``,  ``4.9-1``,  ``4.9-0``
+      ``4.10.7-1``,  ``4.10.7-0``,  ``4.10.6-2``,  ``4.10.6-1``,  ``4.10.6-0``,  ``4.9-7``,  ``4.9-6``,  ``4.9-5``,  ``4.9-4``,  ``4.9-3``,  ``4.9-2``,  ``4.9-1``,  ``4.9-0``
 
       
       .. raw:: html
@@ -89,7 +89,7 @@ paml
 
     <script>
         var package = "paml";
-        var versions = ["4.10.7","4.10.6","4.10.6","4.10.6","4.9"];
+        var versions = ["4.10.7","4.10.7","4.10.6","4.10.6","4.10.6"];
     </script>
 
 

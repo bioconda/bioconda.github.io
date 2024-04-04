@@ -1,40 +1,41 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'ezomero'
+.. title:: Package Recipe 'physher'
 .. highlight: bash
 
-ezomero
+physher
 =======
 
-.. conda:recipe:: ezomero
+.. conda:recipe:: physher
    :replaces_section_title:
    :noindex:
 
-   A module with convenience functions for writing Python code that interacts with OMERO
+   A multi\-algorithmic framework for phylogenetic inference
 
-   :homepage: https://github.com/TheJacksonLaboratory/ezomero
-   :license: GPL-2.0-only
-   :recipe: /`ezomero <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ezomero>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ezomero/meta.yaml>`_
+   :homepage: https://github.com/4ment/physher
+   :license: GPL2 / GPL-2.0-or-later
+   :recipe: /`physher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/physher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/physher/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12862-014-0163-6`, biotools: :biotools:`physher`
 
    
 
 
-.. conda:package:: ezomero
+.. conda:package:: physher
 
-   |downloads_ezomero| |docker_ezomero|
+   |downloads_physher| |docker_physher|
 
    :versions:
       
       
 
-      ``3.0.0-0``,  ``2.1.0-0``
+      ``2.0.0-0``
 
       
 
    
-   :depends numpy: ``>=1.22,<2.0``
-   :depends omero-py: ``5.16.*``
-   :depends python: ``>=3.8``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -50,39 +51,39 @@ ezomero
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install ezomero
+      mamba install physher
 
    and update with::
 
-      mamba update ezomero
+      mamba update physher
 
   To create a new environment, run::
 
-      mamba create --name myenvname ezomero
+      mamba create --name myenvname physher
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/ezomero:<tag>
+      docker pull quay.io/biocontainers/physher:<tag>
 
-   (see `ezomero/tags`_ for valid values for ``<tag>``)
+   (see `physher/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_ezomero| image:: https://img.shields.io/conda/dn/bioconda/ezomero.svg?style=flat
-   :target: https://anaconda.org/bioconda/ezomero
+.. |downloads_physher| image:: https://img.shields.io/conda/dn/bioconda/physher.svg?style=flat
+   :target: https://anaconda.org/bioconda/physher
    :alt:   (downloads)
-.. |docker_ezomero| image:: https://quay.io/repository/biocontainers/ezomero/status
-   :target: https://quay.io/repository/biocontainers/ezomero
-.. _`ezomero/tags`: https://quay.io/repository/biocontainers/ezomero?tab=tags
+.. |docker_physher| image:: https://quay.io/repository/biocontainers/physher/status
+   :target: https://quay.io/repository/biocontainers/physher
+.. _`physher/tags`: https://quay.io/repository/biocontainers/physher?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "ezomero";
-        var versions = ["3.0.0","2.1.0"];
+        var package = "physher";
+        var versions = ["2.0.0"];
     </script>
 
 
@@ -101,7 +102,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ezomero/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/physher/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/ezomero/README.html
+   :target: http://bioconda.github.io/recipes/physher/README.html

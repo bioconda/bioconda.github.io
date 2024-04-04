@@ -1,38 +1,44 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'tower-cli'
+.. title:: Package Recipe 'phava'
 .. highlight: bash
 
-tower-cli
-=========
+phava
+=====
 
-.. conda:recipe:: tower-cli
+.. conda:recipe:: phava
    :replaces_section_title:
    :noindex:
 
-   The Tower CLI an interface to Nextflow Tower via the CLI
+   Detection of invertons from long\-read sequencing datasets
 
-   :homepage: https://github.com/seqeralabs/tower-cli
-   :license: MPL-2.0
-   :recipe: /`tower-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tower-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tower-cli/meta.yaml>`_
+   :homepage: https://github.com/patrickwest/PhaVa
+   :license: MIT / MIT
+   :recipe: /`phava <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phava>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phava/meta.yaml>`_
 
    
 
 
-.. conda:package:: tower-cli
+.. conda:package:: phava
 
-   |downloads_tower-cli| |docker_tower-cli|
+   |downloads_phava| |docker_phava|
 
    :versions:
       
       
 
-      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``
+      ``0.2.3-0``
 
       
 
    
-   :depends openjdk: ``>=17``
+   :depends biopython: ``>=1.81``
+   :depends emboss: ``>=6.5.7``
+   :depends minimap2: ``>=2.17``
+   :depends mmseqs2: 
+   :depends pysam: ``>=0.17.0``
+   :depends python: ``>=3.9``
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
@@ -48,39 +54,39 @@ tower-cli
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install tower-cli
+      mamba install phava
 
    and update with::
 
-      mamba update tower-cli
+      mamba update phava
 
   To create a new environment, run::
 
-      mamba create --name myenvname tower-cli
+      mamba create --name myenvname phava
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/tower-cli:<tag>
+      docker pull quay.io/biocontainers/phava:<tag>
 
-   (see `tower-cli/tags`_ for valid values for ``<tag>``)
+   (see `phava/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_tower-cli| image:: https://img.shields.io/conda/dn/bioconda/tower-cli.svg?style=flat
-   :target: https://anaconda.org/bioconda/tower-cli
+.. |downloads_phava| image:: https://img.shields.io/conda/dn/bioconda/phava.svg?style=flat
+   :target: https://anaconda.org/bioconda/phava
    :alt:   (downloads)
-.. |docker_tower-cli| image:: https://quay.io/repository/biocontainers/tower-cli/status
-   :target: https://quay.io/repository/biocontainers/tower-cli
-.. _`tower-cli/tags`: https://quay.io/repository/biocontainers/tower-cli?tab=tags
+.. |docker_phava| image:: https://quay.io/repository/biocontainers/phava/status
+   :target: https://quay.io/repository/biocontainers/phava
+.. _`phava/tags`: https://quay.io/repository/biocontainers/phava?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "tower-cli";
-        var versions = ["0.9.2","0.9.2","0.9.1","0.9.0","0.8.0"];
+        var package = "phava";
+        var versions = ["0.2.3"];
     </script>
 
 
@@ -99,7 +105,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tower-cli/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/phava/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/tower-cli/README.html
+   :target: http://bioconda.github.io/recipes/phava/README.html

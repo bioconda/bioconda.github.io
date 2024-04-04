@@ -41,7 +41,7 @@ fragpipe
       
       
 
-      ``20.0-1``,  ``20.0-0``
+      ``20.0-2``,  ``20.0-1``,  ``20.0-0``
 
       
 
@@ -99,7 +99,7 @@ fragpipe
 
     <script>
         var package = "fragpipe";
-        var versions = ["20.0","20.0"];
+        var versions = ["20.0","20.0","20.0"];
     </script>
 
 
