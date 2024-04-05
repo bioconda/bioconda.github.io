@@ -30,7 +30,7 @@ scib
       
       
 
-      ``1.1.4-1``,  ``1.1.4-0``
+      ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``
 
       
 
@@ -49,7 +49,7 @@ scib
    :depends pydot: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends scanpy: ``>=1.5``
+   :depends scanpy: ``>=1.5,<1.10``
    :depends scikit-learn: 
    :depends scikit-misc: 
    :depends scipy: 
@@ -102,7 +102,7 @@ scib
 
     <script>
         var package = "scib";
-        var versions = ["1.1.4","1.1.4"];
+        var versions = ["1.1.5","1.1.4","1.1.4"];
     </script>
 
 

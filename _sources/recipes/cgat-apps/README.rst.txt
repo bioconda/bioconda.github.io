@@ -28,10 +28,10 @@ cgat-apps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.5-3</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.5-3</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  </span></summary>
       
 
-      ``0.7.0-0``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
       .. raw:: html
@@ -43,12 +43,10 @@ cgat-apps
    :depends alignlib-lite: 
    :depends bedtools: 
    :depends biopython: 
-   :depends cgatcore: ``>=0.6.5``
+   :depends cgatcore: 
    :depends coreutils: 
-   :depends future: 
    :depends grep: 
    :depends htslib: ``>=1.19.1,<1.20.0a0``
-   :depends jinja2: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
@@ -64,7 +62,6 @@ cgat-apps
    :depends quicksect: 
    :depends scikit-learn: 
    :depends scipy: 
-   :depends six: 
    :depends sortedcontainers: 
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-wigtobigwig: 
@@ -116,7 +113,7 @@ cgat-apps
 
     <script>
         var package = "cgat-apps";
-        var versions = ["0.7.0","0.6.5","0.6.5","0.6.5","0.6.5"];
+        var versions = ["0.7.2","0.7.0","0.6.5","0.6.5","0.6.5"];
     </script>
 
 

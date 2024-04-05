@@ -28,7 +28,7 @@ locidex
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -90,7 +90,7 @@ locidex
 
     <script>
         var package = "locidex";
-        var versions = ["0.1.1","0.1.1"];
+        var versions = ["0.1.2","0.1.1","0.1.1"];
     </script>
 
 

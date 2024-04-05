@@ -13,7 +13,7 @@ seqsero2
    Salmonella serotype prediction from genome sequencing data
 
    :homepage: https://github.com/denglab/SeqSero2
-   :license: GPL / GPLv2
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`seqsero2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqsero2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqsero2/meta.yaml>`_
    :links: doi: :doi:`10.1128/AEM.01746-19`
 
@@ -28,7 +28,7 @@ seqsero2
       
       
 
-      ``1.2.1-0``,  ``1.1.1-0``,  ``1.01-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.3.1-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.01-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -89,7 +89,7 @@ seqsero2
 
     <script>
         var package = "seqsero2";
-        var versions = ["1.2.1","1.1.1","1.01","1.1.0","1.0.2"];
+        var versions = ["1.3.1","1.2.1","1.1.1","1.1.0","1.01"];
     </script>
 
 

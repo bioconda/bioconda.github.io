@@ -27,7 +27,7 @@ perl-uri-db
       
       
 
-      ``0.21-0``
+      ``0.22-0``,  ``0.21-0``
 
       
 
@@ -83,7 +83,7 @@ perl-uri-db
 
     <script>
         var package = "perl-uri-db";
-        var versions = ["0.21"];
+        var versions = ["0.22","0.21"];
     </script>
 
 

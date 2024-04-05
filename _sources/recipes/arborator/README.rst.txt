@@ -28,7 +28,7 @@ arborator
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -42,6 +42,7 @@ arborator
    :depends pyarrow: ``12.0.0``
    :depends pytables: 
    :depends python: ``>=3.8,<3.10``
+   :depends scipy: ``>=1.0.0``
    :depends six: 
    :requirements:
 
@@ -90,7 +91,7 @@ arborator
 
     <script>
         var package = "arborator";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

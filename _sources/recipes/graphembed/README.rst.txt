@@ -10,7 +10,7 @@ graphembed
    :replaces_section_title:
    :noindex:
 
-   Efficient Graph Embedding via Recursive Sketching or High\-order Transitivity Preserving
+   Efficient Graph Embedding via Recursive Sketching or High\-order Transitivity Preserving with Benchmarking
 
    :homepage: https://github.com/jean-pierreBoth/graphembed
    :license: MIT
@@ -27,7 +27,7 @@ graphembed
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -81,7 +81,7 @@ graphembed
 
     <script>
         var package = "graphembed";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0"];
     </script>
 
 
