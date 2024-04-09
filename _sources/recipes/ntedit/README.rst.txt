@@ -10,11 +10,14 @@ ntedit
    :replaces_section_title:
    :noindex:
 
-   ultra fast\, scalable genome assembly polishing and snv detection
+   Ultrafast\, lightweight\, scalable genome assembly polishing\, and SNV detection \& annotation
 
    :homepage: https://github.com/bcgsc/ntEdit
-   :license: GPL-3.0
+   :documentation: https://github.com/bcgsc/ntEdit/blob/master/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ntedit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntedit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntedit/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btz400`, biotools: :biotools:`ntEdit`
 
    
 
@@ -28,10 +31,10 @@ ntedit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.3-0</code>,  <code>1.3.5-4</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.4.3-0</code>,  <code>1.3.5-4</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  </span></summary>
       
 
-      ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -40,11 +43,15 @@ ntedit
       
 
    
+   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends btllib: ``>=1.7.1,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends nthits: ``0.0.1``
-   :depends zlib: 
+   :depends ntcard: 
+   :depends nthits: ``>=1.0.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends snakemake-minimal: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +99,7 @@ ntedit
 
     <script>
         var package = "ntedit";
-        var versions = ["1.4.3","1.3.5","1.3.5","1.3.5","1.3.5"];
+        var versions = ["2.0.0","1.4.3","1.3.5","1.3.5","1.3.5"];
     </script>
 
 

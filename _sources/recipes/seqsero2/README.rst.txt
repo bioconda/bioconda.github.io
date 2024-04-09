@@ -28,7 +28,7 @@ seqsero2
       
       
 
-      ``1.3.1-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.01-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.01-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -40,7 +40,8 @@ seqsero2
    :depends python: ``>=3``
    :depends salmid: ``0.1.23.*``
    :depends samtools: ``>=1.8``
-   :depends spades: ``>=3.9.0``
+   :depends seqtk: ``>=1.3``
+   :depends spades: ``>=3.15.5``
    :depends sra-tools: ``>=2.8.0``
    :requirements:
 
@@ -89,7 +90,7 @@ seqsero2
 
     <script>
         var package = "seqsero2";
-        var versions = ["1.3.1","1.2.1","1.1.1","1.01","1.1.0"];
+        var versions = ["1.3.1","1.3.1","1.2.1","1.1.1","1.1.0"];
     </script>
 
 

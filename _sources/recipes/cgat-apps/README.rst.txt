@@ -28,10 +28,10 @@ cgat-apps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.5-3</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.5-3</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  </span></summary>
       
 
-      ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
       .. raw:: html
@@ -54,7 +54,6 @@ cgat-apps
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
-   :depends pysam: ``>=0.17.0``
    :depends pysam: ``>=0.22.0,<0.23.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -113,7 +112,7 @@ cgat-apps
 
     <script>
         var package = "cgat-apps";
-        var versions = ["0.7.2","0.7.0","0.6.5","0.6.5","0.6.5"];
+        var versions = ["0.7.2","0.7.2","0.7.0","0.6.5","0.6.5"];
     </script>
 
 

@@ -28,7 +28,7 @@ checkatlas
       
       
 
-      ``0.4.2-0``
+      ``0.4.13-0``,  ``0.4.7-0``,  ``0.4.2-0``
 
       
 
@@ -36,7 +36,6 @@ checkatlas
    :depends llvmlite: ``>=0.39.1,<0.40.0``
    :depends numba: ``>=0.56.4,<0.57.0``
    :depends numpy: ``>=1.23.5,<2.0.0``
-   :depends poetry: ``>=1.5.1,<2.0.0``
    :depends python: ``>=3.10``
    :depends rpy2: ``3.5.10``
    :depends scanpy: ``>=1.9.1,<2.0.0``
@@ -89,7 +88,7 @@ checkatlas
 
     <script>
         var package = "checkatlas";
-        var versions = ["0.4.2"];
+        var versions = ["0.4.13","0.4.7","0.4.2"];
     </script>
 
 

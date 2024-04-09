@@ -29,15 +29,15 @@ argnorm
       
       
 
-      ``0.2.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
    :depends pandas: 
-   :depends pronto: 
+   :depends pronto: ``>=2.5.6``
    :depends pytest: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends setuptools: 
    :requirements:
 
@@ -86,7 +86,7 @@ argnorm
 
     <script>
         var package = "argnorm";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.0","0.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ severus
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``1.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -37,6 +37,7 @@ severus
    :depends networkx: ``>=2.6``
    :depends numpy: 
    :depends pip: 
+   :depends plotly: 
    :depends pydot: 
    :depends pygraphviz: 
    :depends pysam: 
@@ -90,7 +91,7 @@ severus
 
     <script>
         var package = "severus";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["1.0","0.1.2","0.1.1"];
     </script>
 
 

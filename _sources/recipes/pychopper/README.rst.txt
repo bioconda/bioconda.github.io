@@ -12,8 +12,8 @@ pychopper
 
    A tool to identify\, orient and rescue full length cDNA reads from nanopore data.
 
-   :homepage: https://github.com/nanoporetech/pychopper
-   :license: MPL2
+   :homepage: https://github.com/epi2me-labs/pychopper
+   :license: Mozilla Public License 2.0
    :recipe: /`pychopper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pychopper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pychopper/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pychopper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.9-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.0-0``
+      ``2.7.9-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,10 @@ pychopper
    
    :depends hmmer: ``>=3.2``
    :depends matplotlib-base: 
+   :depends numpy: 
    :depends pandas: 
    :depends parasail-python: 
+   :depends pysam: 
    :depends python: ``>=3``
    :depends python-edlib: 
    :depends seaborn: 
@@ -96,7 +98,7 @@ pychopper
 
     <script>
         var package = "pychopper";
-        var versions = ["2.5.0","2.4.0","2.3.1","2.3.1","2.3.0"];
+        var versions = ["2.7.9","2.5.0","2.4.0","2.3.1","2.3.1"];
     </script>
 
 
