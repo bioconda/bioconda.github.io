@@ -13,6 +13,8 @@ ncbi-vdb
    SRA tools database engine
 
    :homepage: https://github.com/ncbi/ncbi-vdb
+   :documentation: https://github.com/ncbi/ncbi-vdb/wiki
+   
    :license: Public Domain
    :recipe: /`ncbi-vdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-vdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-vdb/meta.yaml>`_
 
@@ -30,10 +32,10 @@ ncbi-vdb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-2</code>,  <code>3.0.5-0</code>,  <code>3.0.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-2</code>,  <code>3.0.5-0</code>,  </span></summary>
       
 
-      ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-2``,  ``3.0.5-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-0``,  ``2.10.6-0``,  ``2.10.5-0``,  ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
+      ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-2``,  ``3.0.5-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-0``,  ``2.10.6-0``,  ``2.10.5-0``,  ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
 
       
       .. raw:: html
@@ -42,14 +44,8 @@ ncbi-vdb
       
 
    
-   :depends ca-certificates: 
-   :depends curl: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends ossuuid: 
-   :depends perl: 
-   :depends perl-uri: 
-   :depends perl-xml-libxml: 
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +93,7 @@ ncbi-vdb
 
     <script>
         var package = "ncbi-vdb";
-        var versions = ["3.1.0","3.0.10","3.0.9","3.0.8","3.0.7"];
+        var versions = ["3.1.0","3.1.0","3.0.10","3.0.9","3.0.8"];
     </script>
 
 

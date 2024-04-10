@@ -12,9 +12,12 @@ getorganelle
 
    Get organelle genomes from genome skimming data
 
-   :homepage: http://github.com/Kinggerm/GetOrganelle
-   :license: GPL3
+   :homepage: https://github.com/Kinggerm/GetOrganelle
+   :documentation: https://github.com/Kinggerm/GetOrganelle/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`getorganelle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/getorganelle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/getorganelle/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-020-02154-5`, biotools: :biotools:`getorganelle`, usegalaxy-eu: :usegalaxy-eu:`get_organelle_from_reads`, usegalaxy-eu: :usegalaxy-eu:`get_annotated_regions_from_gb`
 
    
 
@@ -28,10 +31,10 @@ getorganelle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.7.0-0</code>,  <code>1.7.6.1-0</code>,  <code>1.7.5.3-0</code>,  <code>1.7.5.0-1</code>,  <code>1.7.5.0-0</code>,  <code>1.7.4.1-0</code>,  <code>1.7.4-0</code>,  <code>1.7.3.5-0</code>,  <code>1.7.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.7.1-0</code>,  <code>1.7.7.0-0</code>,  <code>1.7.6.1-0</code>,  <code>1.7.5.3-0</code>,  <code>1.7.5.0-1</code>,  <code>1.7.5.0-0</code>,  <code>1.7.4.1-0</code>,  <code>1.7.4-0</code>,  <code>1.7.3.5-0</code>,  </span></summary>
       
 
-      ``1.7.7.0-0``,  ``1.7.6.1-0``,  ``1.7.5.3-0``,  ``1.7.5.0-1``,  ``1.7.5.0-0``,  ``1.7.4.1-0``,  ``1.7.4-0``,  ``1.7.3.5-0``,  ``1.7.3.4-0``,  ``1.7.3.2-0``,  ``1.7.3.1-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-1``,  ``1.6.4-0``
+      ``1.7.7.1-0``,  ``1.7.7.0-0``,  ``1.7.6.1-0``,  ``1.7.5.3-0``,  ``1.7.5.0-1``,  ``1.7.5.0-0``,  ``1.7.4.1-0``,  ``1.7.4-0``,  ``1.7.3.5-0``,  ``1.7.3.4-0``,  ``1.7.3.2-0``,  ``1.7.3.1-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-1``,  ``1.6.4-0``
 
       
       .. raw:: html
@@ -45,7 +48,7 @@ getorganelle
    :depends numpy: ``>=1.16.4``
    :depends perl: 
    :depends pigz: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends requests: 
    :depends scipy: ``>=1.3.0``
    :depends spades: ``>=3.9``
@@ -98,7 +101,7 @@ getorganelle
 
     <script>
         var package = "getorganelle";
-        var versions = ["1.7.7.0","1.7.6.1","1.7.5.3","1.7.5.0","1.7.5.0"];
+        var versions = ["1.7.7.1","1.7.7.0","1.7.6.1","1.7.5.3","1.7.5.0"];
     </script>
 
 

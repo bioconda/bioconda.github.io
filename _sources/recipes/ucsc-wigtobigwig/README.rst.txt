@@ -28,10 +28,10 @@ ucsc-wigtobigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>447-1</code>,  <code>447-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-4</code>,  <code>357-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>447-2</code>,  <code>447-1</code>,  <code>447-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-4</code>,  </span></summary>
       
 
-      ``447-1``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``447-2``,  ``447-1``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ ucsc-wigtobigwig
    :depends libstdcxx-ng: ``>=12``
    :depends libuuid: 
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends mysql-connector-c: 
-   :depends openssl: ``>=3.1.1,<4.0a0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends openssl: ``>=3.2.1,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +94,7 @@ ucsc-wigtobigwig
 
     <script>
         var package = "ucsc-wigtobigwig";
-        var versions = ["447","447","377","377","377"];
+        var versions = ["447","447","447","377","377"];
     </script>
 
 

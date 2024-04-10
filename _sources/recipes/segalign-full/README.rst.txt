@@ -32,7 +32,7 @@ segalign-full
       
       
 
-      ``0.1.2-1``,  ``0.1.2-0``
+      ``0.1.2.1-0``,  ``0.1.2-1``,  ``0.1.2-0``
 
       
 
@@ -87,7 +87,7 @@ segalign-full
 
     <script>
         var package = "segalign-full";
-        var versions = ["0.1.2","0.1.2"];
+        var versions = ["0.1.2.1","0.1.2","0.1.2"];
     </script>
 
 
