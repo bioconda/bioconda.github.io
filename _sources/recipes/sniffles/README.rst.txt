@@ -13,6 +13,8 @@ sniffles
    Sniffles is a structural variation caller using third generation sequencing \(PacBio or Oxford Nanopore\)
 
    :homepage: https://github.com/fritzsedlazeck/Sniffles
+   :documentation: https://github.com/fritzsedlazeck/Sniffles/wiki
+   
    :license: MIT / MIT
    :recipe: /`sniffles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sniffles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sniffles/meta.yaml>`_
 
@@ -28,10 +30,10 @@ sniffles
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>1.0.12-1</code>,  <code>1.0.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.2-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>1.0.12-1</code>,  </span></summary>
       
 
-      ``2.2-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
+      ``2.3.2-0``,  ``2.2-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -40,8 +42,8 @@ sniffles
       
 
    
-   :depends pysam: 
-   :depends python: ``>=3.7``
+   :depends pysam: ``>=0.21.0``
+   :depends python: ``>=3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +91,7 @@ sniffles
 
     <script>
         var package = "sniffles";
-        var versions = ["2.2","2.0.7","2.0.6","2.0.5","2.0.4"];
+        var versions = ["2.3.2","2.2","2.0.7","2.0.6","2.0.5"];
     </script>
 
 

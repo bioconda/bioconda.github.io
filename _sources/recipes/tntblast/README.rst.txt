@@ -30,7 +30,7 @@ tntblast
       
       
 
-      ``2.61-0``
+      ``2.61-0``,  ``2.4-0``
 
       
 
@@ -87,7 +87,7 @@ tntblast
 
     <script>
         var package = "tntblast";
-        var versions = ["2.61"];
+        var versions = ["2.61","2.4"];
     </script>
 
 

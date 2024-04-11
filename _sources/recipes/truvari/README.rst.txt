@@ -28,10 +28,10 @@ truvari
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>0.1.2018.08.10-2</code>,  <code>0.1.2018.08.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.2-0</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>0.1.2018.08.10-2</code>,  </span></summary>
       
 
-      ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+      ``4.2.2-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ truvari
       
 
    
-   :depends bwapy: 
-   :depends intervaltree: ``>=3.0.2``
+   :depends bwapy: ``>=0.1.4``
+   :depends intervaltree: ``>=3.1``
    :depends joblib: ``>=1.2.0``
-   :depends mafft: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends pysam: ``>=0.15.2``
-   :depends pytabix: 
-   :depends python: ``>=3.6``
+   :depends mafft: ``>=7.515``
+   :depends pandas: ``>=1.5.3``
+   :depends pyabpoa: ``>=1.4.3``
+   :depends pysam: ``>=0.22``
+   :depends pytabix: ``>=0.1``
+   :depends python: ``>=3.8``
    :depends python-edlib: ``>=1.3.9``
    :depends pywfa: ``>=0.5.1``
    :depends rich: ``>=12.5.1``
@@ -99,7 +99,7 @@ truvari
 
     <script>
         var package = "truvari";
-        var versions = ["4.1.0","4.1.0","4.0.0","3.5.0","3.4.0"];
+        var versions = ["4.2.2","4.1.0","4.1.0","4.0.0","3.5.0"];
     </script>
 
 

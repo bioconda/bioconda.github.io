@@ -1,40 +1,38 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'panisa'
+.. title:: Package Recipe 'galitime'
 .. highlight: bash
 
-panisa
-======
+galitime
+========
 
-.. conda:recipe:: panisa
+.. conda:recipe:: galitime
    :replaces_section_title:
    :noindex:
 
-   panISa is a software to search insertion sequence \(IS\) on resequencing data \(bam file\)
+   benchmarking of scientific computaional experiments
 
-   :homepage: https://github.com/bvalot/panISa
-   :license: GPL3 / GPL-3.0-or-later
-   :recipe: /`panisa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panisa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panisa/meta.yaml>`_
+   :homepage: https://github.com/karel-brinda/galitime
+   :license: MIT / MIT
+   :recipe: /`galitime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galitime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galitime/meta.yaml>`_
 
    
 
 
-.. conda:package:: panisa
+.. conda:package:: galitime
 
-   |downloads_panisa| |docker_panisa|
+   |downloads_galitime| |docker_galitime|
 
    :versions:
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends pysam: ``>=0.9``
-   :depends python: ``>=3.7``
-   :depends requests: ``>=2.12``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation
@@ -50,39 +48,39 @@ panisa
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install panisa
+      mamba install galitime
 
    and update with::
 
-      mamba update panisa
+      mamba update galitime
 
   To create a new environment, run::
 
-      mamba create --name myenvname panisa
+      mamba create --name myenvname galitime
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/panisa:<tag>
+      docker pull quay.io/biocontainers/galitime:<tag>
 
-   (see `panisa/tags`_ for valid values for ``<tag>``)
+   (see `galitime/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_panisa| image:: https://img.shields.io/conda/dn/bioconda/panisa.svg?style=flat
-   :target: https://anaconda.org/bioconda/panisa
+.. |downloads_galitime| image:: https://img.shields.io/conda/dn/bioconda/galitime.svg?style=flat
+   :target: https://anaconda.org/bioconda/galitime
    :alt:   (downloads)
-.. |docker_panisa| image:: https://quay.io/repository/biocontainers/panisa/status
-   :target: https://quay.io/repository/biocontainers/panisa
-.. _`panisa/tags`: https://quay.io/repository/biocontainers/panisa?tab=tags
+.. |docker_galitime| image:: https://quay.io/repository/biocontainers/galitime/status
+   :target: https://quay.io/repository/biocontainers/galitime
+.. _`galitime/tags`: https://quay.io/repository/biocontainers/galitime?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "panisa";
-        var versions = ["0.1.7","0.1.6"];
+        var package = "galitime";
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 
@@ -101,7 +99,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/panisa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/galitime/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/panisa/README.html
+   :target: http://bioconda.github.io/recipes/galitime/README.html
