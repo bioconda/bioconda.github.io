@@ -28,13 +28,13 @@ prosampler
       
       
 
-      ``1.0-0``
+      ``1.5-0``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ prosampler
 
     <script>
         var package = "prosampler";
-        var versions = ["1.0"];
+        var versions = ["1.5","1.0"];
     </script>
 
 

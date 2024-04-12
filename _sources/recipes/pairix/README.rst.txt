@@ -28,10 +28,10 @@ pairix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.7-5</code>,  <code>0.3.7-4</code>,  <code>0.3.7-3</code>,  <code>0.3.7-2</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.8-0</code>,  <code>0.3.7-5</code>,  <code>0.3.7-4</code>,  <code>0.3.7-3</code>,  <code>0.3.7-2</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-2</code>,  </span></summary>
       
 
-      ``0.3.7-5``,  ``0.3.7-4``,  ``0.3.7-3``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-4``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.1.6-0``
+      ``0.3.8-0``,  ``0.3.7-5``,  ``0.3.7-4``,  ``0.3.7-3``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-4``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -43,8 +43,10 @@ pairix
    :depends htslib: 
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends perl: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +94,7 @@ pairix
 
     <script>
         var package = "pairix";
-        var versions = ["0.3.7","0.3.7","0.3.7","0.3.7","0.3.7"];
+        var versions = ["0.3.8","0.3.7","0.3.7","0.3.7","0.3.7"];
     </script>
 
 
