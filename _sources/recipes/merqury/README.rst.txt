@@ -27,12 +27,13 @@ merqury
       
       
 
-      ``1.3-1``,  ``1.3-0``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
+      ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
 
       
 
    
    :depends bedtools: ``>=2.29.2``
+   :depends gawk: 
    :depends meryl: ``1.3.*``
    :depends mscorefonts: 
    :depends openjdk: ``>=11.0.1``
@@ -41,6 +42,7 @@ merqury
    :depends r-ggplot2: ``>=3.3.2``
    :depends r-scales: ``>=1.1.1``
    :depends samtools: ``>=1.10``
+   :depends sed: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +90,7 @@ merqury
 
     <script>
         var package = "merqury";
-        var versions = ["1.3","1.3","1.1","1.1","1.1"];
+        var versions = ["1.3","1.3","1.3","1.1","1.1"];
     </script>
 
 

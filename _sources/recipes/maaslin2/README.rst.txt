@@ -27,20 +27,21 @@ maaslin2
       
       
 
-      ``0.99.12-0``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.3.0-0``
+      ``1.16.0-0``,  ``0.99.12-0``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.3.0-0``
 
       
 
    
    :depends bioconductor-edger: 
    :depends bioconductor-metagenomeseq: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-car: 
    :depends r-chemometrics: 
    :depends r-cplm: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-glmmtmb: 
    :depends r-hash: 
    :depends r-lmertest: 
    :depends r-logging: 
@@ -98,7 +99,7 @@ maaslin2
 
     <script>
         var package = "maaslin2";
-        var versions = ["0.99.12","0.99.2","0.99.1","0.3.0"];
+        var versions = ["1.16.0","0.99.12","0.99.2","0.99.1","0.3.0"];
     </script>
 
 
