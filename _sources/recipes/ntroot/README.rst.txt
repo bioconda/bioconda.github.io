@@ -27,20 +27,14 @@ ntroot
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends btllib: ``>=1.7.0,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends ntcard: 
-   :depends nthits: ``>=1.0.2``
-   :depends perl: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends ntedit: ``>=2.0.1``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends python: 
    :depends samtools: 
    :depends snakemake: 
    :requirements:
@@ -90,7 +84,7 @@ ntroot
 
     <script>
         var package = "ntroot";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

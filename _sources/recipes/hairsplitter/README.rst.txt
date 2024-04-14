@@ -27,7 +27,7 @@ hairsplitter
       
       
 
-      ``1.7.14-0``,  ``1.7.13-0``
+      ``1.7.15-0``,  ``1.7.14-0``,  ``1.7.13-0``
 
       
 
@@ -90,7 +90,7 @@ hairsplitter
 
     <script>
         var package = "hairsplitter";
-        var versions = ["1.7.14","1.7.13"];
+        var versions = ["1.7.15","1.7.14","1.7.13"];
     </script>
 
 

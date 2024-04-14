@@ -13,8 +13,10 @@ ms2rescore
    MS²Rescore\: Sensitive PSM rescoring with predicted MS² peak intensities and retention times.
 
    :homepage: https://compomics.github.io/projects/ms2rescore/
+   :documentation: https://ms2rescore.readthedocs.io/en/stable/
+   
    :developer docs: https://github.com/compomics/ms2rescore
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`ms2rescore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2rescore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2rescore/meta.yaml>`_
 
    
@@ -28,7 +30,7 @@ ms2rescore
       
       
 
-      ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
 
@@ -43,6 +45,7 @@ ms2rescore
    :depends matplotlib-base: 
    :depends mokapot: ``>=0.9``
    :depends ms2pip: ``>=4.0.0-dev8``
+   :depends ms2rescore-rs: 
    :depends numpy: ``>=1.16.0``
    :depends pandas: ``>=1.0``
    :depends plotly: ``>=5``
@@ -104,7 +107,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.0.2","3.0.1","3.0.1","3.0.1","3.0.0"];
+        var versions = ["3.0.3","3.0.2","3.0.1","3.0.1","3.0.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ sigprofilerplotting
       
       
 
-      ``1.3.21-0``
+      ``1.3.22-0``,  ``1.3.21-0``
 
       
 
@@ -84,7 +84,7 @@ sigprofilerplotting
 
     <script>
         var package = "sigprofilerplotting";
-        var versions = ["1.3.21"];
+        var versions = ["1.3.22","1.3.21"];
     </script>
 
 

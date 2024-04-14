@@ -27,12 +27,13 @@ xxmotif
       
       
 
-      ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+      ``1.6-4``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +81,7 @@ xxmotif
 
     <script>
         var package = "xxmotif";
-        var versions = ["1.6","1.6","1.6"];
+        var versions = ["1.6","1.6","1.6","1.6"];
     </script>
 
 

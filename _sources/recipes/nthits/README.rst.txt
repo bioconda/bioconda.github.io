@@ -27,13 +27,14 @@ nthits
       
       
 
-      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends btllib: ``>=1.5.0``
+   :depends btllib: ``>=1.7.2,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -83,7 +84,7 @@ nthits
 
     <script>
         var package = "nthits";
-        var versions = ["1.0.2","1.0.1","1.0.1","0.0.1","0.0.1"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.1","0.0.1"];
     </script>
 
 
