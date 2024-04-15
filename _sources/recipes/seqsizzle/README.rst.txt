@@ -27,11 +27,16 @@ seqsizzle
       
       
 
-      
+      ``0.1.4-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +84,7 @@ seqsizzle
 
     <script>
         var package = "seqsizzle";
-        var versions = [];
+        var versions = ["0.1.4"];
     </script>
 
 
