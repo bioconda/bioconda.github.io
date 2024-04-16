@@ -45,7 +45,7 @@ gw
    :depends freetype: ``>=2.12.1,<3.0a0``
    :depends glfw: ``>=3.3``
    :depends glfw: ``>=3.4,<4.0a0``
-   :depends htslib: ``>=1.19,<1.20.0a0``
+   :depends htslib: ``>=1.19,<1.21.0a0``
    :depends libcurl: ``>=8.5.0,<9.0a0``
    :depends libdeflate: ``>=1.19,<1.20.0a0``
    :depends libgcc-ng: ``>=12``

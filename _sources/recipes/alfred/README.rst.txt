@@ -42,7 +42,7 @@ alfred
    
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.19.1,<1.20.0a0``
+   :depends htslib: ``>=1.19.1,<1.21.0a0``
    :depends libdeflate: ``>=1.18,<1.19.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

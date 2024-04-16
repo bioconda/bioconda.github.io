@@ -27,7 +27,7 @@ poly-qtlseq
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -85,7 +85,7 @@ poly-qtlseq
 
     <script>
         var package = "poly-qtlseq";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

@@ -13,9 +13,11 @@ cnvkit
    Copy number variant detection from high\-throughput sequencing
 
    :homepage: https://github.com/etal/cnvkit
-   :license: Apache-2.0
+   :documentation: https://cnvkit.readthedocs.io/en/stable/
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`cnvkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvkit/meta.yaml>`_
-   :links: biotools: :biotools:`cnvkit`, doi: :doi:`10.1371/journal.pcbi.1004873`
+   :links: biotools: :biotools:`cnvkit`, doi: :doi:`10.1371/journal.pcbi.1004873`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_access`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_antitarget`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_autobin`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_batch`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_call`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_coverage`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_diagram`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_fix`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_heatmap`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_reference`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_scatter`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_segment`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_target`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_breaks`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_genemetrics`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_segmetrics`, usegalaxy-eu: :usegalaxy-eu:`cnvkit_sex`
 
    
 
@@ -29,10 +31,10 @@ cnvkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.10-0</code>,  <code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-1</code>,  <code>0.9.7-0</code>,  <code>0.9.6-2</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  <code>0.9.6a0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.11-0</code>,  <code>0.9.10-0</code>,  <code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-1</code>,  <code>0.9.7-0</code>,  <code>0.9.6-2</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  </span></summary>
       
 
-      ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.6a0-2``,  ``0.9.6a0-1``,  ``0.9.6a0-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4a0-0``,  ``0.9.3-2``,  ``0.9.2-2``,  ``0.9.2a0-2``,  ``0.9.2a0-1``,  ``0.9.2a0-0``,  ``0.9.1-0``,  ``0.9.1a0-0``,  ``0.9.0-0``,  ``0.8.6a0-2``,  ``0.8.6a0-1``,  ``0.8.6a0-0``,  ``0.8.5-0``,  ``0.8.5dev0-1``,  ``0.8.5dev0-0``,  ``0.8.4-0``,  ``0.8.3a0-1``,  ``0.8.3a0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``
+      ``0.9.11-0``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.6a0-2``,  ``0.9.6a0-1``,  ``0.9.6a0-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4a0-0``,  ``0.9.3-2``,  ``0.9.2-2``,  ``0.9.2a0-2``,  ``0.9.2a0-1``,  ``0.9.2a0-0``,  ``0.9.1-0``,  ``0.9.1a0-0``,  ``0.9.0-0``,  ``0.8.6a0-2``,  ``0.8.6a0-1``,  ``0.8.6a0-0``,  ``0.8.5-0``,  ``0.8.5dev0-1``,  ``0.8.5dev0-0``,  ``0.8.4-0``,  ``0.8.3a0-1``,  ``0.8.3a0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``
 
       
       .. raw:: html
@@ -42,20 +44,20 @@ cnvkit
 
    
    :depends bioconductor-dnacopy: 
-   :depends biopython: ``>=1.62``
-   :depends joblib: ``<1.0``
-   :depends matplotlib-base: ``>=1.3.1``
+   :depends biopython: ``>=1.80``
+   :depends matplotlib-base: ``>=3.5.2``
    :depends networkx: ``>=2.4``
-   :depends numpy: ``>=1.9``
-   :depends pandas: ``>=0.23.3``
-   :depends pomegranate: ``>=0.9.0``
-   :depends pyfaidx: ``>=0.4.7``
-   :depends pysam: ``>=0.16.0``
-   :depends python: ``>=3.5``
+   :depends numpy: ``>=1.24.2``
+   :depends pandas: ``>=1.5.3``
+   :depends pomegranate: ``>=0.14.8,<=0.14.9``
+   :depends pyfaidx: ``>=0.7.1``
+   :depends pysam: ``>=0.20.0``
+   :depends python: ``>=3.8``
    :depends r-base: ``>=3.4.1``
    :depends r-cghflasso: 
-   :depends reportlab: ``>=3.0``
-   :depends scipy: ``>=0.15.0``
+   :depends reportlab: ``>=3.6.12``
+   :depends scikit-learn: ``>=1.1.0``
+   :depends scipy: ``>=1.10.1``
    :requirements:
 
    .. rubric:: Installation
@@ -103,7 +105,7 @@ cnvkit
 
     <script>
         var package = "cnvkit";
-        var versions = ["0.9.10","0.9.9","0.9.8","0.9.7","0.9.7"];
+        var versions = ["0.9.11","0.9.10","0.9.9","0.9.8","0.9.7"];
     </script>
 
 

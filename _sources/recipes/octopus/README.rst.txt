@@ -43,7 +43,7 @@ octopus
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gmp: ``>=6.2.1,<7.0a0``
-   :depends htslib: ``>=1.14,<1.20.0a0``
+   :depends htslib: ``>=1.14,<1.21.0a0``
    :depends icu: ``>=69.1,<70.0a0``
    :depends libgcc-ng: ``>=10.3.0``
    :depends libstdcxx-ng: ``>=10.3.0``

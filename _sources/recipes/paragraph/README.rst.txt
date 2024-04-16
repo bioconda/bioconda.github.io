@@ -33,7 +33,7 @@ paragraph
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.10.2,<1.20.0a0``
+   :depends htslib: ``>=1.10.2,<1.21.0a0``
    :depends intervaltree: 
    :depends jsonschema: 
    :depends libgcc-ng: ``>=7.5.0``

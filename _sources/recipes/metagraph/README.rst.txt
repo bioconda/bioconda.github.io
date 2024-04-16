@@ -45,7 +45,7 @@ metagraph
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends htslib: ``>=1.17,<1.21.0a0``
    :depends jemalloc: 
    :depends libgcc-ng: ``>=12``
    :depends libgomp: 

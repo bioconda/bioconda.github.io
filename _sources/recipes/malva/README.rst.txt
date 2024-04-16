@@ -41,7 +41,7 @@ malva
       
 
    
-   :depends htslib: ``>=1.17,<1.20.0a0``
+   :depends htslib: ``>=1.17,<1.21.0a0``
    :depends kmc: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

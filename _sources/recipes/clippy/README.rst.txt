@@ -27,7 +27,7 @@ clippy
       
       
 
-      ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-0``
 
       
 
@@ -37,11 +37,12 @@ clippy
    :depends dash-bootstrap-components: ``0.11.3.*``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.19.0,<1.20.3``
-   :depends numpy-base: ``>=1.19.0,<1.20.3``
    :depends numpydoc: 
+   :depends openssl: 
    :depends pandas: 
    :depends pybedtools: 
    :depends python: ``>=3.8``
+   :depends samtools: ``1.9.*``
    :depends scipy: 
    :depends werkzeug: ``2.0.0.*``
    :requirements:
@@ -91,7 +92,7 @@ clippy
 
     <script>
         var package = "clippy";
-        var versions = ["1.5.0","1.4.1","1.4.1","1.3.3","1.3.2"];
+        var versions = ["1.5.0","1.5.0","1.4.1","1.4.1","1.3.3"];
     </script>
 
 
