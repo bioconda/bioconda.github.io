@@ -13,7 +13,7 @@ straglr
    Short\-tandem repeat genotyping using long reads 
 
    :homepage: https://github.com/bcgsc/straglr
-   :license: GPL3 / MIT License
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`straglr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/straglr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/straglr/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-021-02447-3`
 
@@ -28,20 +28,20 @@ straglr
       
       
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``
+      ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``
 
       
 
    
    :depends blast: 
    :depends intspan: ``>=1.5.8``
-   :depends numpy: ``>=1.14.2``
+   :depends numpy: ``>=1.22.3``
    :depends pathos: ``>=0.2.3``
-   :depends pybedtools: ``>=0.7.9``
+   :depends pybedtools: ``>=0.9.0``
    :depends pysam: ``>=0.14.0``
-   :depends python: 
-   :depends scikit-learn: ``>=0.19.0``
-   :depends scipy: ``>=1.0.1``
+   :depends python: ``>=3.7``
+   :depends scikit-learn: ``>=1.1``
+   :depends scipy: ``>=1.8.0``
    :depends trf: 
    :requirements:
 
@@ -90,7 +90,7 @@ straglr
 
     <script>
         var package = "straglr";
-        var versions = ["1.4.1","1.4.0","1.3.0","1.2.0","1.1.1"];
+        var versions = ["1.5.0","1.4.1","1.4.0","1.3.0","1.2.0"];
     </script>
 
 
