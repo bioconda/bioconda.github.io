@@ -27,7 +27,7 @@ snakemake-storage-plugin-fs
       
       
 
-      ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-storage-plugin-fs
 
     <script>
         var package = "snakemake-storage-plugin-fs";
-        var versions = ["1.0.0","0.2.0","0.1.5"];
+        var versions = ["1.0.3","1.0.0","0.2.0","0.1.5"];
     </script>
 
 

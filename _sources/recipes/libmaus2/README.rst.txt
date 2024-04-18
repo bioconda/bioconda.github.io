@@ -28,10 +28,10 @@ libmaus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  <code>2.0.774-1</code>,  <code>2.0.774-0</code>,  <code>2.0.772-1</code>,  <code>2.0.772-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.810-5</code>,  <code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  <code>2.0.774-1</code>,  <code>2.0.774-0</code>,  <code>2.0.772-1</code>,  </span></summary>
       
 
-      ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
+      ``2.0.810-5``,  ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ libmaus2
 
    
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends libcurl: ``>=8.0.1,<9.0a0``
+   :depends libcurl: ``>=8.7.1,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends snappy: ``1.1.8.*``
@@ -95,7 +95,7 @@ libmaus2
 
     <script>
         var package = "libmaus2";
-        var versions = ["2.0.810","2.0.810","2.0.810","2.0.777","2.0.777"];
+        var versions = ["2.0.810","2.0.810","2.0.810","2.0.810","2.0.777"];
     </script>
 
 

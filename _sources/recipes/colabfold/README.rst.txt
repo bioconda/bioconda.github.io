@@ -28,7 +28,7 @@ colabfold
       
       
 
-      ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
 
@@ -40,8 +40,8 @@ colabfold
    :depends dm-tree: 
    :depends hhsuite: ``>=3.3.0``
    :depends importlib-metadata: 
-   :depends jax: ``>=0.4.23``
-   :depends jaxlib: ``>=0.4.23``
+   :depends jax: ``>=0.4.23,<0.4.26``
+   :depends jaxlib: ``>=0.4.23,<0.4.26``
    :depends kalign2: ``>=2.04``
    :depends matplotlib-base: 
    :depends ml-collections: 
@@ -103,7 +103,7 @@ colabfold
 
     <script>
         var package = "colabfold";
-        var versions = ["1.5.5","1.5.5","1.5.3","1.5.3"];
+        var versions = ["1.5.5","1.5.5","1.5.5","1.5.3","1.5.3"];
     </script>
 
 

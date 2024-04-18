@@ -27,7 +27,7 @@ robust-bias-aware
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -85,7 +85,7 @@ robust-bias-aware
 
     <script>
         var package = "robust-bias-aware";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.1","0.0.1"];
     </script>
 
 

@@ -29,16 +29,17 @@ snakemake-storage-plugin-s3
       
       
 
-      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
+      ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
 
       
 
    
-   :depends boto3: ``>=1.28.55,<2.0.0``
-   :depends botocore: ``>=1.31.55,<2.0.0``
+   :depends boto3: ``>=1.33.0,<2.0.0``
+   :depends botocore: ``>=1.33.0,<2.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.14.0,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=3.2.2,<4.0.0``
+   :depends urllib3: ``>=2.0,<2.2``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +87,7 @@ snakemake-storage-plugin-s3
 
     <script>
         var package = "snakemake-storage-plugin-s3";
-        var versions = ["0.2.10","0.2.9","0.2.8","0.2.8"];
+        var versions = ["0.2.11","0.2.10","0.2.9","0.2.8","0.2.8"];
     </script>
 
 
