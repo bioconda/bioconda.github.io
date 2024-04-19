@@ -27,7 +27,7 @@ jolytree
       
       
 
-      ``1.1b-1``,  ``1.1b-0``
+      ``2.1-0``,  ``1.1b-1``,  ``1.1b-0``
 
       
 
@@ -35,7 +35,7 @@ jolytree
    :depends fastme: ``>=2.1.5``
    :depends gawk: ``>=4.1.3``
    :depends mash: ``>=1.0.2``
-   :depends req: ``>=v1.3.190304ac``
+   :depends req: ``>=1.2``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ jolytree
 
     <script>
         var package = "jolytree";
-        var versions = ["1.1b","1.1b"];
+        var versions = ["2.1","1.1b","1.1b"];
     </script>
 
 

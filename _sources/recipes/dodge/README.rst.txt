@@ -27,7 +27,7 @@ dodge
       
       
 
-      ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.0-0``
 
       
 
@@ -82,7 +82,7 @@ dodge
 
     <script>
         var package = "dodge";
-        var versions = ["0.1.0"];
+        var versions = ["1.0.0","0.1.0"];
     </script>
 
 

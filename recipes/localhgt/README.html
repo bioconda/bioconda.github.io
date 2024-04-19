@@ -70,10 +70,10 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">localhgt</span></span></dt>
-<dd><p>Tools for dealing with SAM, BAM and CRAM files</p>
+<dd><p>An ultrafast horizontal gene transfer detection method from large microbial communities</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/samtools/samtools">https://github.com/samtools/samtools</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/deepomicslab/LocalHGT">https://github.com/deepomicslab/LocalHGT</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
 <dd class="field-even"><p>MIT</p>
@@ -94,7 +94,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/localhgt"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/localhgt.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/localhgt"><img alt="docker_localhgt" src="https://quay.io/repository/biocontainers/localhgt/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">depends biopython<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -104,33 +104,42 @@
 <dt class="field-even">depends fastp<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.23.2</span></code></p>
 </dd>
-<dt class="field-odd">depends libcxx<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p>
+<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-even">depends networkx<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pyfaidx<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pysam<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7.12</span></code></p>
+<dt class="field-even">depends libstdcxx-ng<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-even">depends samtools<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.11</span></code></p>
+<dt class="field-odd">depends networkx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.6.3</span></code></p>
 </dd>
-<dt class="field-odd">depends scikit-bio<span class="colon">:</span></dt>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.24</span></code></p>
+</dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
+<dt class="field-even">depends pyfaidx<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dt class="field-odd">depends pysam<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends seqkit<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.6.1</span></code></p>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7.12</span></code></p>
+</dd>
+<dt class="field-odd">depends samtools<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.11</span></code></p>
+</dd>
+<dt class="field-even">depends scikit-bio<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.5.6</span></code></p>
+</dd>
+<dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends seqkit<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.6.1</span></code></p>
+</dd>
+<dt class="field-even">depends typing-extensions<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.11.0</span></code></p>
 </dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -168,7 +177,7 @@ others.</p>
 
 <script>
     var package = "localhgt";
-    var versions = ["1.0.6","1.0.1"];
+    var versions = ["1.0.1","1.0.1","1.0.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

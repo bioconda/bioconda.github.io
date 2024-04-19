@@ -27,7 +27,7 @@ haddock_biobb
       
       
 
-      ``3.0.1-0``,  ``3.0.0-0``
+      ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
 
@@ -100,7 +100,7 @@ haddock_biobb
 
     <script>
         var package = "haddock_biobb";
-        var versions = ["3.0.1","3.0.0"];
+        var versions = ["3.0.2","3.0.1","3.0.0"];
     </script>
 
 

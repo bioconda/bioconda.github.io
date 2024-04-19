@@ -28,10 +28,10 @@ assemblycomparator2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.1-0</code>,  <code>2.5.18-0</code>,  <code>2.5.17-0</code>,  <code>2.5.16-0</code>,  <code>2.5.15-0</code>,  <code>2.5.14-0</code>,  <code>2.5.13-0</code>,  <code>2.5.12-0</code>,  <code>2.5.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.5.18-0</code>,  <code>2.5.17-0</code>,  <code>2.5.16-0</code>,  <code>2.5.15-0</code>,  <code>2.5.14-0</code>,  <code>2.5.13-0</code>,  <code>2.5.12-0</code>,  </span></summary>
       
 
-      ``2.6.1-0``,  ``2.5.18-0``,  ``2.5.17-0``,  ``2.5.16-0``,  ``2.5.15-0``,  ``2.5.14-0``,  ``2.5.13-0``,  ``2.5.12-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``
+      ``2.6.2-0``,  ``2.6.1-0``,  ``2.5.18-0``,  ``2.5.17-0``,  ``2.5.16-0``,  ``2.5.15-0``,  ``2.5.14-0``,  ``2.5.13-0``,  ``2.5.12-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``
 
       
       .. raw:: html
@@ -89,7 +89,7 @@ assemblycomparator2
 
     <script>
         var package = "assemblycomparator2";
-        var versions = ["2.6.1","2.5.18","2.5.17","2.5.16","2.5.15"];
+        var versions = ["2.6.2","2.6.1","2.5.18","2.5.17","2.5.16"];
     </script>
 
 

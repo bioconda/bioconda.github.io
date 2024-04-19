@@ -27,7 +27,7 @@ primerforge
       
       
 
-      ``0.7.4-0``
+      ``1.0.0-0``,  ``0.7.4-0``
 
       
 
@@ -85,7 +85,7 @@ primerforge
 
     <script>
         var package = "primerforge";
-        var versions = ["0.7.4"];
+        var versions = ["1.0.0","0.7.4"];
     </script>
 
 

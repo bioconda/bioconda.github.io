@@ -28,10 +28,10 @@ tcdemux
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.25-1</code>,  <code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  </span></summary>
       
 
-      ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``
+      ``0.0.25-1``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``
 
       
       .. raw:: html
@@ -40,17 +40,17 @@ tcdemux
       
 
    
-   :depends bbmap: 
+   :depends bbmap: ``<=38.95``
    :depends biopython: ``>=1.81``
-   :depends cutadapt: ``>=4.4``
-   :depends pandas: ``>=2.0.3``
+   :depends cutadapt: ``>=4.5``
+   :depends pandas: ``>=2.1.1``
    :depends pigz: 
    :depends python: ``>=3.10``
    :depends r-bit64: ``>=4.0.5``
    :depends r-data.table: ``>=1.14.8``
    :depends r-ggplot2: ``>=3.4.3``
    :depends r-viridis: ``>=0.6.4``
-   :depends snakemake: ``>=7.31.0``
+   :depends snakemake: ``>=7.32.4``
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +98,7 @@ tcdemux
 
     <script>
         var package = "tcdemux";
-        var versions = ["0.0.25","0.0.24","0.0.22","0.0.21","0.0.20"];
+        var versions = ["0.0.25","0.0.25","0.0.24","0.0.22","0.0.21"];
     </script>
 
 

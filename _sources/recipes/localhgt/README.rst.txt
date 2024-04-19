@@ -10,9 +10,9 @@ localhgt
    :replaces_section_title:
    :noindex:
 
-   Tools for dealing with SAM\, BAM and CRAM files
+   An ultrafast horizontal gene transfer detection method from large microbial communities
 
-   :homepage: https://github.com/samtools/samtools
+   :homepage: https://github.com/deepomicslab/LocalHGT
    :license: MIT
    :recipe: /`localhgt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/localhgt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/localhgt/meta.yaml>`_
    :links: biotools: :biotools:`localhgt`
@@ -28,7 +28,7 @@ localhgt
       
       
 
-      ``1.0.6-0``,  ``1.0.1-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -36,18 +36,20 @@ localhgt
    :depends biopython: 
    :depends bwa: ``>=0.7.17``
    :depends fastp: ``>=0.23.2``
-   :depends libcxx: ``>=14``
-   :depends networkx: 
-   :depends numpy: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends networkx: ``>=2.6.3``
+   :depends numpy: ``<=1.24``
    :depends pandas: 
    :depends pyfaidx: 
    :depends pysam: 
    :depends python: ``>=3.7.12``
    :depends samtools: ``>=1.11``
-   :depends scikit-bio: 
+   :depends scikit-bio: ``>=0.5.6``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seqkit: ``>=2.6.1``
+   :depends typing-extensions: ``>=4.11.0``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +97,7 @@ localhgt
 
     <script>
         var package = "localhgt";
-        var versions = ["1.0.6","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1"];
     </script>
 
 
