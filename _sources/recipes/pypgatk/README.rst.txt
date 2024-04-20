@@ -31,10 +31,10 @@ pypgatk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.19-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.24-0</code>,  <code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.19-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  </span></summary>
       
 
-      ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.4-0``
+      ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -48,6 +48,8 @@ pypgatk
    :depends gffutils: 
    :depends numpy: 
    :depends pandas: 
+   :depends pathos: 
+   :depends pyahocorasick: 
    :depends pybedtools: 
    :depends pyopenms: ``2.7.0``
    :depends pysam: ``>=0.16``
@@ -58,6 +60,7 @@ pypgatk
    :depends ratelimit: 
    :depends requests: 
    :depends simplejson: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -105,7 +108,7 @@ pypgatk
 
     <script>
         var package = "pypgatk";
-        var versions = ["0.0.23","0.0.22","0.0.19","0.0.18","0.0.17"];
+        var versions = ["0.0.24","0.0.23","0.0.22","0.0.19","0.0.18"];
     </script>
 
 
