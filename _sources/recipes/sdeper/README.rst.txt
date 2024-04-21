@@ -19,7 +19,7 @@ sdeper
    :license: MIT / MIT
    :recipe: /`sdeper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdeper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdeper/meta.yaml>`_
 
-   
+   SDePER \(Spatial Deconvolution method with Platform Effect Removal\) is a hybrid machine learning and regression method to deconvolve Spatial barcoding\-based transcriptomic data using reference single\-cell RNA sequencing data\, considering platform effects removal\, sparsity of cell types per capture spot and across\-spots spatial correlation in cell type compositions. SDePER is also able to impute cell type compositions and gene expression at unmeasured locations in a tissue map with enhanced resolution.
 
 
 .. conda:package:: sdeper
@@ -30,26 +30,29 @@ sdeper
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends distinctipy: ``1.2.2``
+   :depends libopencv: ``4.6.0``
    :depends matplotlib-base: ``3.5.2``
    :depends networkx: ``2.8.4``
    :depends numba: ``0.55.2``
    :depends numpy: ``1.22.4``
+   :depends opencv: ``4.6.0``
    :depends openpyxl: ``3.0.10``
    :depends pandas: ``1.4.3``
-   :depends python: ``>=3.9.12``
-   :depends reportlab: ``3.6.12``
+   :depends py-opencv: ``4.6.0``
+   :depends python: ``>=3.9.12,<=3.11``
+   :depends reportlab: ``4.1.0``
    :depends scanpy: ``1.9.1``
    :depends scikit-learn: ``1.1.1``
    :depends scikit-misc: ``0.1.4``
    :depends scipy: ``1.8.1``
    :depends seaborn: ``0.11.2``
-   :depends tensorflow: ``2.9.1``
+   :depends tensorflow-base: ``2.9.1 cpu_*``
    :depends umap-learn: ``0.5.3``
    :requirements:
 
@@ -98,7 +101,7 @@ sdeper
 
     <script>
         var package = "sdeper";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

@@ -88,6 +88,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdeper">sdeper</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdeper/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>SDePER (Spatial Deconvolution method with Platform Effect Removal) is a hybrid machine learning and regression method to deconvolve Spatial barcoding-based transcriptomic data using reference single-cell RNA sequencing data, considering platform effects removal, sparsity of cell types per capture spot and across-spots spatial correlation in cell type compositions. SDePER is also able to impute cell type compositions and gene expression at unmeasured locations in a tissue map with enhanced resolution.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -97,22 +98,28 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/sdeper"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/sdeper.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/sdeper"><img alt="docker_sdeper" src="https://quay.io/repository/biocontainers/sdeper/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends distinctipy<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.2.2</span></code></p>
 </dd>
-<dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.5.2</span></code></p>
+<dt class="field-odd">depends libopencv<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.6.0</span></code></p>
 </dd>
-<dt class="field-even">depends networkx<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">2.8.4</span></code></p>
+<dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.5.2</span></code></p>
 </dd>
-<dt class="field-odd">depends numba<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.55.2</span></code></p>
+<dt class="field-odd">depends networkx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.8.4</span></code></p>
 </dd>
-<dt class="field-even">depends numpy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.22.4</span></code></p>
+<dt class="field-even">depends numba<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.55.2</span></code></p>
+</dd>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.22.4</span></code></p>
+</dd>
+<dt class="field-even">depends opencv<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4.6.0</span></code></p>
 </dd>
 <dt class="field-odd">depends openpyxl<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.0.10</span></code></p>
@@ -120,35 +127,38 @@
 <dt class="field-even">depends pandas<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.4.3</span></code></p>
 </dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.12</span></code></p>
+<dt class="field-odd">depends py-opencv<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.6.0</span></code></p>
 </dd>
-<dt class="field-even">depends reportlab<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.6.12</span></code></p>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.12,&lt;=3.11</span></code></p>
 </dd>
-<dt class="field-odd">depends scanpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.9.1</span></code></p>
+<dt class="field-odd">depends reportlab<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.1.0</span></code></p>
 </dd>
-<dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.1.1</span></code></p>
+<dt class="field-even">depends scanpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.9.1</span></code></p>
 </dd>
-<dt class="field-odd">depends scikit-misc<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.1.4</span></code></p>
+<dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.1</span></code></p>
 </dd>
-<dt class="field-even">depends scipy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.8.1</span></code></p>
+<dt class="field-even">depends scikit-misc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.1.4</span></code></p>
 </dd>
-<dt class="field-odd">depends seaborn<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.11.2</span></code></p>
+<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.8.1</span></code></p>
 </dd>
-<dt class="field-even">depends tensorflow<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">2.9.1</span></code></p>
+<dt class="field-even">depends seaborn<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.11.2</span></code></p>
 </dd>
-<dt class="field-odd">depends umap-learn<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.5.3</span></code></p>
+<dt class="field-odd">depends tensorflow-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.9.1 cpu_*</span></code></p>
 </dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dt class="field-even">depends umap-learn<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.5.3</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -183,7 +193,7 @@ others.</p>
 
 <script>
     var package = "sdeper";
-    var versions = ["1.0.0"];
+    var versions = ["1.1.0","1.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

@@ -27,18 +27,20 @@ shiver
       
       
 
-      ``1.7.0-0``,  ``1.3.5-0``,  ``1.2.1-0``,  ``1.1.0-4``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.7.2-0``,  ``1.7.0-0``,  ``1.3.5-0``,  ``1.2.1-0``,  ``1.1.0-4``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
+   :depends bc: 
    :depends biopython: 
    :depends blast: ``>=2.2.28``
    :depends mafft: 
-   :depends picard: 
+   :depends pandas: 
    :depends pyfastaq: 
    :depends python: ``>=3``
    :depends samtools: 
+   :depends six: 
    :depends smalt: 
    :depends trimmomatic: 
    :requirements:
@@ -88,7 +90,7 @@ shiver
 
     <script>
         var package = "shiver";
-        var versions = ["1.7.0","1.3.5","1.2.1","1.1.0","1.1.0"];
+        var versions = ["1.7.2","1.7.0","1.3.5","1.2.1","1.1.0"];
     </script>
 
 

@@ -27,13 +27,17 @@ trackhub
       
       
 
-      ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.1.2019.12.24-1``,  ``0.1.2019.12.24-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.0-0``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.1.2019.12.24-1``,  ``0.1.2019.12.24-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
+   :depends beautifulsoup4: 
    :depends docutils: 
+   :depends html5lib: 
+   :depends openpyxl: 
    :depends python: 
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +85,7 @@ trackhub
 
     <script>
         var package = "trackhub";
-        var versions = ["0.2.4","0.2.4","0.2.4","0.1.2019.12.24","0.1.2019.12.24"];
+        var versions = ["1.0","0.2.4","0.2.4","0.2.4","0.1.2019.12.24"];
     </script>
 
 
