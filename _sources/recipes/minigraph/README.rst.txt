@@ -13,7 +13,9 @@ minigraph
    Proof\-of\-concept seq\-to\-graph mapper and graph generator
 
    :homepage: https://github.com/lh3/minigraph
-   :license: MIT
+   :documentation: https://lh3.github.io/minigraph/minigraph.html
+   
+   :license: MIT / MIT
    :recipe: /`minigraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minigraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minigraph/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-020-02168-z`
 
@@ -29,10 +31,10 @@ minigraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-1</code>,  <code>0.19-0</code>,  <code>0.18-0</code>,  <code>0.17-0</code>,  <code>0.16-1</code>,  <code>0.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21-0</code>,  <code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-1</code>,  <code>0.19-0</code>,  <code>0.18-0</code>,  <code>0.17-0</code>,  <code>0.16-1</code>,  </span></summary>
       
 
-      ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-1``,  ``0.19-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
+      ``0.21-0``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-1``,  ``0.19-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
 
       
       .. raw:: html
@@ -90,7 +92,7 @@ minigraph
 
     <script>
         var package = "minigraph";
-        var versions = ["0.20","0.20","0.20","0.19","0.19"];
+        var versions = ["0.21","0.20","0.20","0.20","0.19"];
     </script>
 
 
