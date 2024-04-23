@@ -27,16 +27,16 @@ primerforge
       
       
 
-      ``1.0.0-0``,  ``0.7.4-0``
+      ``1.0.2-0``,  ``1.0.0-0``,  ``0.7.4-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``1.81``
    :depends matplotlib-base: ``>=3.7``
    :depends numpy: 
    :depends primer3-py: ``>=2.0``
-   :depends python: 
+   :depends python: ``>=3.11``
    :depends scipy: ``>=1.10``
    :requirements:
 
@@ -85,7 +85,7 @@ primerforge
 
     <script>
         var package = "primerforge";
-        var versions = ["1.0.0","0.7.4"];
+        var versions = ["1.0.2","1.0.0","0.7.4"];
     </script>
 
 
