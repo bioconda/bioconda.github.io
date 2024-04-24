@@ -27,7 +27,7 @@ tracknado
       
       
 
-      ``0.2.3-0``
+      ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -87,7 +87,7 @@ tracknado
 
     <script>
         var package = "tracknado";
-        var versions = ["0.2.3"];
+        var versions = ["0.2.4","0.2.3"];
     </script>
 
 

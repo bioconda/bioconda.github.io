@@ -27,18 +27,18 @@ phynteny
       
       
 
-      ``0.1.11-0``
+      ``0.1.13-0``,  ``0.1.11-0``
 
       
 
    
+   :depends alive-progress: 
    :depends biopython: ``>=1.79``
    :depends click: 
    :depends joblib: 
    :depends loguru: 
    :depends numpy: 
    :depends pandas: 
-   :depends pickle5: ``>=0.0.10``
    :depends python: ``<3.11``
    :depends python_abi: 
    :depends scikit-learn: ``<=1.2.2``
@@ -90,7 +90,7 @@ phynteny
 
     <script>
         var package = "phynteny";
-        var versions = ["0.1.11"];
+        var versions = ["0.1.13","0.1.11"];
     </script>
 
 
