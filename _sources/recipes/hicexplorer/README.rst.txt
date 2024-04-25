@@ -13,9 +13,11 @@ hicexplorer
    Set of programs to process\, analyze and visualize Hi\-C and capture Hi\-C data
 
    :homepage: https://github.com/deeptools/HiCExplorer
-   :license: GPL3
+   :documentation: https://hicexplorer.readthedocs.org/
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hicexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer/meta.yaml>`_
-   :links: doi: :doi:`10.1093/nar/gky504`, doi: :doi:`10.1093/nar/gkaa220`, doi: :doi:`10.1093/gigascience/giac061`, usegalaxy-eu: :usegalaxy-eu:`hicexplorer_hicplotviewpoint`
+   :links: doi: :doi:`10.1093/nar/gky504`, doi: :doi:`10.1093/nar/gkaa220`, doi: :doi:`10.1093/gigascience/giac061`, usegalaxy-eu: :usegalaxy-eu:`hicexplorer_hicplotviewpoint`, biotools: :biotools:`hicexplorer`
 
    
 
@@ -29,10 +31,10 @@ hicexplorer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.3-1</code>,  <code>3.7.3-0</code>,  <code>3.7.2-1</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7-0</code>,  <code>3.6-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.4-0</code>,  <code>3.7.3-1</code>,  <code>3.7.3-0</code>,  <code>3.7.2-1</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7-0</code>,  <code>3.6-0</code>,  <code>3.5.3-0</code>,  </span></summary>
       
 
-      ``3.7.3-1``,  ``3.7.3-0``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
+      ``3.7.4-0``,  ``3.7.3-1``,  ``3.7.3-0``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -65,7 +67,7 @@ hicexplorer
    :depends pytables: 
    :depends python: ``>=3.8``
    :depends python-graphviz: ``>=0.20``
-   :depends scikit-learn: ``<=1.3``
+   :depends scikit-learn: ``>=1.3,<1.4``
    :depends scipy: ``>=1.10``
    :depends tqdm: ``>=4.66``
    :depends unidecode: 
@@ -116,7 +118,7 @@ hicexplorer
 
     <script>
         var package = "hicexplorer";
-        var versions = ["3.7.3","3.7.3","3.7.2","3.7.2","3.7.1"];
+        var versions = ["3.7.4","3.7.3","3.7.3","3.7.2","3.7.2"];
     </script>
 
 

@@ -75,11 +75,17 @@
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/Nextomics/NextDenovo">https://github.com/Nextomics/NextDenovo</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GNU General Public License v3.0</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://nextdenovo.readthedocs.io/en/latest">https://nextdenovo.readthedocs.io/en/latest</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextdenovo">nextdenovo</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextdenovo/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextdenovo">nextdenovo</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextdenovo/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="reference external" href="https://doi.org/10.1101/2023.03.09.531669">10.1101/2023.03.09.531669</a>, biotools: <a class="reference external" href="https://bio.tools/nextdenovo">nextdenovo</a>, usegalaxy-eu: <a class="reference external" href="https://usegalaxy.eu/?tool_id=nextdenovo">nextdenovo</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -91,36 +97,24 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/nextdenovo"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/nextdenovo.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/nextdenovo"><img alt="docker_nextdenovo" src="https://quay.io/repository/biocontainers/nextdenovo/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.2-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.2-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends bzip2<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libzlib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;1.3.0a0</span></code></p>
+<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-even">depends ncurses<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.3,&lt;7.0a0</span></code></p>
+<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;1.3.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends openssl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1.0,&lt;4.0a0</span></code></p>
+<dt class="field-odd">depends paralleltask<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends paralleltask<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
-</dd>
-<dt class="field-odd">depends readline<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.2,&lt;9.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends tk<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.6.12,&lt;8.7.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends xz<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.2.6,&lt;6.0a0</span></code></p>
+<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
 </dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -158,7 +152,7 @@ others.</p>
 
 <script>
     var package = "nextdenovo";
-    var versions = ["2.5.2","2.5.2","2.5.2","2.5.0"];
+    var versions = ["2.5.2","2.5.2","2.5.2","2.5.2","2.5.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

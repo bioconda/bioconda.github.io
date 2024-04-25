@@ -13,7 +13,7 @@ rtk2
    rtk2 \- a CLI rarefaction toolkit for OTU tables
 
    :homepage: https://github.com/hildebra/rtk2/
-   :license: GPLv2
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`rtk2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtk2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtk2/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ rtk2
       
       
 
-      ``2.10-0``
+      ``2.11.1-0``,  ``2.10-0``
 
       
 
@@ -35,7 +35,6 @@ rtk2
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +82,7 @@ rtk2
 
     <script>
         var package = "rtk2";
-        var versions = ["2.10"];
+        var versions = ["2.11.1","2.10"];
     </script>
 
 

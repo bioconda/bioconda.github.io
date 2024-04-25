@@ -13,8 +13,11 @@ nextdenovo
    String graph\-based de novo assembler for long reads \(CLR\, HiFi and ONT\)
 
    :homepage: https://github.com/Nextomics/NextDenovo
-   :license: GNU General Public License v3.0
+   :documentation: https://nextdenovo.readthedocs.io/en/latest
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nextdenovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextdenovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextdenovo/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.03.09.531669`, biotools: :biotools:`nextdenovo`, usegalaxy-eu: :usegalaxy-eu:`nextdenovo`
 
    
 
@@ -27,21 +30,17 @@ nextdenovo
       
       
 
-      ``2.5.2-3``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.0-0``
+      ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends ncurses: ``>=6.3,<7.0a0``
-   :depends openssl: ``>=3.1.0,<4.0a0``
    :depends paralleltask: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends readline: ``>=8.2,<9.0a0``
-   :depends tk: ``>=8.6.12,<8.7.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +88,7 @@ nextdenovo
 
     <script>
         var package = "nextdenovo";
-        var versions = ["2.5.2","2.5.2","2.5.2","2.5.0"];
+        var versions = ["2.5.2","2.5.2","2.5.2","2.5.2","2.5.0"];
     </script>
 
 

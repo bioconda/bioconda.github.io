@@ -27,7 +27,7 @@ primers
       
       
 
-      ``0.5.4-0``
+      ``0.5.10-0``,  ``0.5.4-0``
 
       
 
@@ -81,7 +81,7 @@ primers
 
     <script>
         var package = "primers";
-        var versions = ["0.5.4"];
+        var versions = ["0.5.10","0.5.4"];
     </script>
 
 

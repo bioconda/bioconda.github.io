@@ -15,7 +15,7 @@ metacoag
    :homepage: https://github.com/metagentools/MetaCoAG
    :documentation: https://metacoag.readthedocs.io/
    
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`metacoag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacoag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacoag/meta.yaml>`_
    :links: doi: :doi:`10.1007/978-3-031-04749-7_5`
 

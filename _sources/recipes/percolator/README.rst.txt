@@ -13,9 +13,11 @@ percolator
    Semi\-supervised learning for peptide identification from shotgun proteomics datasets
 
    :homepage: https://github.com/percolator/percolator
-   :license: Apache 2.0
+   :documentation: http://percolator.ms/
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`percolator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator/meta.yaml>`_
-   :links: biotools: :biotools:`Percolator`, doi: :doi:`10.1007/s13361-016-1460-7`
+   :links: biotools: :biotools:`Percolator`, doi: :doi:`10.1007/s13361-016-1460-7`, usegalaxy-eu: :usegalaxy-eu:`percolator`
 
    
 
@@ -27,16 +29,25 @@ percolator
    :versions:
       
       
+      .. raw:: html
 
-      ``3.5-1``,  ``3.5-0``,  ``3.4-1``,  ``3.4-0``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.0-1``,  ``3.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.6.5-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.1-4</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.0-1</code>,  </span></summary>
+      
 
+      ``3.6.5-0``,  ``3.5-1``,  ``3.5-0``,  ``3.4-1``,  ``3.4-0``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.0-1``,  ``3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends sqlite: ``>=3.33.0,<4.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libsqlite: ``>=3.45.3,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
+   :depends sqlite: 
    :depends xerces-c: ``>=3.2.3,<3.3.0a0``
    :depends xsd: 
    :requirements:
@@ -86,7 +97,7 @@ percolator
 
     <script>
         var package = "percolator";
-        var versions = ["3.5","3.5","3.4","3.4","3.1"];
+        var versions = ["3.6.5","3.5","3.5","3.4","3.4"];
     </script>
 
 

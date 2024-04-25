@@ -31,10 +31,10 @@ open-cravat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.9-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.9-0</code>,  <code>2.2.7-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
+      ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -43,8 +43,9 @@ open-cravat
       
 
    
-   :depends aiohttp: 
+   :depends aiohttp: ``<4.0.0``
    :depends aiosqlite: 
+   :depends biopython: 
    :depends chardet: ``>=3.0.4``
    :depends intervaltree: 
    :depends markdown: 
@@ -54,7 +55,7 @@ open-cravat
    :depends oyaml: 
    :depends psutil: 
    :depends pyliftover: 
-   :depends python: ``>=3.8,<3.12``
+   :depends python: ``>=3.8``
    :depends pyvcf3: 
    :depends pyyaml: 
    :depends requests: 
@@ -109,7 +110,7 @@ open-cravat
 
     <script>
         var package = "open-cravat";
-        var versions = ["2.5.0","2.4.2","2.4.1","2.4.0","2.3.1"];
+        var versions = ["2.6.0","2.5.0","2.4.2","2.4.1","2.4.0"];
     </script>
 
 

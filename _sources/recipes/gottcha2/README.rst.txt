@@ -12,8 +12,8 @@ gottcha2
 
    Genomic Origin Through Taxonomic CHAllenge \(GOTTCHA\) v2
 
-   :homepage: https://github.com/poeli/gottcha2
-   :license: BSD 3-clause
+   :homepage: https://github.com/poeli/GOTTCHA2
+   :license: BSD / BSD-3-Clause
    :recipe: /`gottcha2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha2/meta.yaml>`_
    :links: biotools: :biotools:`gottcha2`
 
@@ -28,7 +28,7 @@ gottcha2
       
       
 
-      ``2.1.8.5p1-0``
+      ``2.1.8.6-0``,  ``2.1.8.5p1-0``
 
       
 
@@ -36,7 +36,9 @@ gottcha2
    :depends biom-format: ``>=2.1.7``
    :depends gawk: 
    :depends minimap2: ``>=2.17``
-   :depends python: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``>=3.6``
    :depends requests: 
    :depends tqdm: 
    :requirements:
@@ -86,7 +88,7 @@ gottcha2
 
     <script>
         var package = "gottcha2";
-        var versions = ["2.1.8.5p1"];
+        var versions = ["2.1.8.6","2.1.8.5p1"];
     </script>
 
 
