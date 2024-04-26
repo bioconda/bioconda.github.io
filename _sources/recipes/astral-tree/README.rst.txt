@@ -36,7 +36,7 @@ astral-tree
       
       
 
-      ``5.7.8-0``
+      ``5.7.8-1``,  ``5.7.8-0``
 
       
 
@@ -90,7 +90,7 @@ astral-tree
 
     <script>
         var package = "astral-tree";
-        var versions = ["5.7.8"];
+        var versions = ["5.7.8","5.7.8"];
     </script>
 
 

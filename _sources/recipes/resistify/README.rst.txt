@@ -27,7 +27,7 @@ resistify
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -84,7 +84,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

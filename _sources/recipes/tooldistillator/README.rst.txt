@@ -30,7 +30,7 @@ tooldistillator
       
       
 
-      ``0.8.4.0-0``
+      ``0.8.4.1-0``,  ``0.8.4.0-0``
 
       
 
@@ -118,7 +118,7 @@ tooldistillator
 
     <script>
         var package = "tooldistillator";
-        var versions = ["0.8.4.0"];
+        var versions = ["0.8.4.1","0.8.4.0"];
     </script>
 
 

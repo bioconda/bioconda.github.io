@@ -28,7 +28,7 @@ tajimas_d
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``
+      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ tajimas_d
 
     <script>
         var package = "tajimas_d";
-        var versions = ["2.0.1","2.0.0"];
+        var versions = ["2.0.2","2.0.1","2.0.0"];
     </script>
 
 

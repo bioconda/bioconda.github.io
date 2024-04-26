@@ -31,7 +31,7 @@ metacoag
       
       
 
-      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``
+      ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``
 
       
 
@@ -44,7 +44,7 @@ metacoag
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.9,<3.13``
    :depends python-igraph: 
    :depends scipy: 
    :depends tqdm: 
@@ -95,7 +95,7 @@ metacoag
 
     <script>
         var package = "metacoag";
-        var versions = ["1.1.4","1.1.3","1.1.2","1.1.1","1.1"];
+        var versions = ["1.2.0","1.1.4","1.1.3","1.1.2","1.1.1"];
     </script>
 
 

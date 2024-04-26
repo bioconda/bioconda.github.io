@@ -27,13 +27,13 @@ sequenoscope
       
       
 
-      ``0.0.5-0``
+      ``0.0.5-1``,  ``0.0.5-0``
 
       
 
    
    :depends biopython: ``>=1.7``
-   :depends fastp: ``>=0.22.0``
+   :depends fastp: ``>=0.22.0,<=0.23.2``
    :depends mash: ``>=2.3``
    :depends minimap2: ``>=2.26``
    :depends numpy: 
@@ -92,7 +92,7 @@ sequenoscope
 
     <script>
         var package = "sequenoscope";
-        var versions = ["0.0.5"];
+        var versions = ["0.0.5","0.0.5"];
     </script>
 
 

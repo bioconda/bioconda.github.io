@@ -29,10 +29,10 @@ gemini
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.30.2-5</code>,  <code>0.30.2-4</code>,  <code>0.30.2-3</code>,  <code>0.30.2-2</code>,  <code>0.30.2-1</code>,  <code>0.30.2-0</code>,  <code>0.30.1-0</code>,  <code>0.20.1-7</code>,  <code>0.20.1-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.30.2-6</code>,  <code>0.30.2-5</code>,  <code>0.30.2-4</code>,  <code>0.30.2-3</code>,  <code>0.30.2-2</code>,  <code>0.30.2-1</code>,  <code>0.30.2-0</code>,  <code>0.30.1-0</code>,  <code>0.20.1-7</code>,  </span></summary>
       
 
-      ``0.30.2-5``,  ``0.30.2-4``,  ``0.30.2-3``,  ``0.30.2-2``,  ``0.30.2-1``,  ``0.30.2-0``,  ``0.30.1-0``,  ``0.20.1-7``,  ``0.20.1-6``,  ``0.20.1-5``,  ``0.20.1-4``,  ``0.20.1-3``,  ``0.20.1-2``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.20.0a0-0``,  ``0.19.2a-2``,  ``0.19.2a-1``,  ``0.19.2a-0``,  ``0.19.1-3``,  ``0.19.1-2``,  ``0.19.1-1``,  ``0.19.1-0``,  ``0.19.0-0``,  ``0.18.3-1``,  ``0.18.2-1``,  ``0.18.1-3``,  ``0.18.1-2``,  ``0.18.1-1``,  ``0.18.0-8``,  ``0.18.0-7``,  ``0.18.0-6``,  ``0.18.0-5``,  ``0.18.0-4``,  ``0.18a-4``,  ``0.17.3dev1-4``,  ``0.17.3dev1-3``,  ``0.17.3dev0-2``,  ``0.17.3dev0-1``
+      ``0.30.2-6``,  ``0.30.2-5``,  ``0.30.2-4``,  ``0.30.2-3``,  ``0.30.2-2``,  ``0.30.2-1``,  ``0.30.2-0``,  ``0.30.1-0``,  ``0.20.1-7``,  ``0.20.1-6``,  ``0.20.1-5``,  ``0.20.1-4``,  ``0.20.1-3``,  ``0.20.1-2``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.20.0a0-0``,  ``0.19.2a-2``,  ``0.19.2a-1``,  ``0.19.2a-0``,  ``0.19.1-3``,  ``0.19.1-2``,  ``0.19.1-1``,  ``0.19.1-0``,  ``0.19.0-0``,  ``0.18.3-1``,  ``0.18.2-1``,  ``0.18.1-3``,  ``0.18.1-2``,  ``0.18.1-1``,  ``0.18.0-8``,  ``0.18.0-7``,  ``0.18.0-6``,  ``0.18.0-5``,  ``0.18.0-4``,  ``0.18a-4``,  ``0.17.3dev1-4``,  ``0.17.3dev1-3``,  ``0.17.3dev0-2``,  ``0.17.3dev0-1``
 
       
       .. raw:: html
@@ -43,29 +43,30 @@ gemini
    
    :depends bcolz: 
    :depends bottle: 
-   :depends bx-python: 
-   :depends cyordereddict: 
+   :depends bx-python: ``>=0.11.0,<0.12.0a0``
    :depends cyvcf2: ``>0.6.5``
+   :depends cyvcf2: ``>=0.30.28,<0.31.0a0``
    :depends geneimpacts: 
    :depends grabix: 
    :depends inheritance: 
    :depends ipyparallel: 
    :depends ipython-cluster-helper: 
    :depends jinja2: 
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends networkx: 
    :depends numexpr: 
-   :depends numpy: 
+   :depends numpy: ``>=1.21.6,<2.0a0``
    :depends openpyxl: 
    :depends pandas: 
-   :depends pybedtools: 
-   :depends pysam: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends pybedtools: ``>=0.10.0,<0.11.0a0``
+   :depends pysam: ``>=0.22``
+   :depends pysam: ``>=0.22.0,<0.23.0a0``
+   :depends python: ``>=3.8,<3.9.0a0``
    :depends python-snappy: 
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends pyyaml: 
    :depends scipy: 
-   :depends snappy: ``>=1.1.8,<2.0a0``
+   :depends snappy: ``>=1.2.0,<1.3.0a0``
    :depends sqlalchemy: 
    :depends unidecode: 
    :depends wget: 
