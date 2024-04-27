@@ -29,7 +29,7 @@ mgnify-pipelines-toolkit
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
 
       
 
@@ -86,7 +86,7 @@ mgnify-pipelines-toolkit
 
     <script>
         var package = "mgnify-pipelines-toolkit";
-        var versions = ["0.1.1","0.1.0","0.0.9"];
+        var versions = ["0.1.2","0.1.1","0.1.0","0.0.9"];
     </script>
 
 
