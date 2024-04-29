@@ -27,7 +27,7 @@ sigprofilermatrixgenerator
       
       
 
-      ``1.2.25-0``
+      ``1.2.26-0``,  ``1.2.25-0``
 
       
 
@@ -86,7 +86,7 @@ sigprofilermatrixgenerator
 
     <script>
         var package = "sigprofilermatrixgenerator";
-        var versions = ["1.2.25"];
+        var versions = ["1.2.26","1.2.25"];
     </script>
 
 

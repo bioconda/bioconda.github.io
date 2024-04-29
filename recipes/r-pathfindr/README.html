@@ -73,13 +73,16 @@
 <dd><p>Enrichment analysis enables researchers to uncover mechanisms underlying a phenotype. However, conventional methods for enrichment analysis do not take into account protein-protein interaction information, resulting in incomplete conclusions. pathfindR is a tool for enrichment analysis utilizing active subnetworks. The main function identifies active subnetworks in a protein-protein interaction network using a user-provided list of genes and associated p values. It then performs enrichment analyses on the identified subnetworks, identifying enriched terms (i.e. pathways or, more broadly, gene sets) that possibly underlie the phenotype of interest. pathfindR also offers functionalities to cluster the enriched terms and identify representative terms in each cluster, to score the enriched terms per sample and to visualize analysis results. The enrichment, clustering and other methods implemented in pathfindR are described in detail in Ulgen E, Ozisik O, Sezerman OU. 2019. pathfindR: An R Package for Comprehensive Identification of Enriched Pathways in Omics Data Through Active Subnetworks. Front. Genet. &lt;doi:10.3389/fgene.2019.00858&gt;.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://egeulgen.github.io/pathfindR/">https://egeulgen.github.io/pathfindR/</a>, <a class="reference external" href="https://github.com/egeulgen/pathfindR">https://github.com/egeulgen/pathfindR</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/egeulgen/pathfindR">https://github.com/egeulgen/pathfindR</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://egeulgen.github.io/pathfindR/">https://egeulgen.github.io/pathfindR/</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pathfindr">r-pathfindr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pathfindr/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pathfindr">r-pathfindr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pathfindr/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -91,35 +94,39 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/r-pathfindr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-pathfindr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-pathfindr"><img alt="docker_r-pathfindr" src="https://quay.io/repository/biocontainers/r-pathfindr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-annotationdbi<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends bioconductor-kegggraph<span class="colon">:</span></dt>
+<dt class="field-odd">depends bioconductor-ggkegg<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends bioconductor-keggrest<span class="colon">:</span></dt>
+<dt class="field-even">depends bioconductor-kegggraph<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends bioconductor-org.hs.eg.db<span class="colon">:</span></dt>
+<dt class="field-odd">depends bioconductor-keggrest<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends openjdk<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">8.*</span></code></p>
+<dt class="field-even">depends bioconductor-org.hs.eg.db<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends openjdk<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">8.*</span></code></p>
 </dd>
-<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
+<dt class="field-even">depends r-base<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends r-dbi<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-doparallel<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-dbi<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-foreach<span class="colon">:</span></dt>
+<dt class="field-even">depends r-doparallel<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-fpc<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-foreach<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-ggplot2<span class="colon">:</span></dt>
+<dt class="field-even">depends r-fpc<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-ggraph<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-ggplot2<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-ggupset<span class="colon">:</span></dt>
+<dt class="field-even">depends r-ggraph<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-ggupset<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-httr<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-igraph<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -172,7 +179,7 @@ others.</p>
 
 <script>
     var package = "r-pathfindr";
-    var versions = ["2.3.1","2.3.0","2.2.0","2.1.0"];
+    var versions = ["2.4.0","2.3.1","2.3.0","2.2.0","2.1.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

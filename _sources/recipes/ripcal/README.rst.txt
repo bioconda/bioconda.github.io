@@ -1,0 +1,112 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'ripcal'
+.. highlight: bash
+
+ripcal
+======
+
+.. conda:recipe:: ripcal
+   :replaces_section_title:
+   :noindex:
+
+   RIPCAL is used for the bioinformatic analysis of repeat\-induced point mutation \(RIP\) in fungal genome sequences
+
+   :homepage: https://sourceforge.net/projects/ripcal
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`ripcal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ripcal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ripcal/meta.yaml>`_
+   :links: https: :https:`//doi.org/10.1186/1471-2105-9-478`
+
+   
+
+
+.. conda:package:: ripcal
+
+   |downloads_ripcal| |docker_ripcal|
+
+   :versions:
+      
+      
+
+      ``2.0-0``
+
+      
+
+   
+   :depends perl: ``>=5.32.1``
+   :depends perl-bioperl: ``>=1.7.2``
+   :depends perl-bioperl-core: ``>=1.7.2``
+   :depends perl-gd: 
+   :depends perl-getopt-long: 
+   :depends perl-math-round: 
+   :depends perl-mime-base64: 
+   :requirements:
+
+   .. rubric:: Installation
+
+  You need a conda-compatible package manager
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install ripcal
+
+   and update with::
+
+      mamba update ripcal
+
+  To create a new environment, run::
+
+      mamba create --name myenvname ripcal
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
+
+      docker pull quay.io/biocontainers/ripcal:<tag>
+
+   (see `ripcal/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_ripcal| image:: https://img.shields.io/conda/dn/bioconda/ripcal.svg?style=flat
+   :target: https://anaconda.org/bioconda/ripcal
+   :alt:   (downloads)
+.. |docker_ripcal| image:: https://quay.io/repository/biocontainers/ripcal/status
+   :target: https://quay.io/repository/biocontainers/ripcal
+.. _`ripcal/tags`: https://quay.io/repository/biocontainers/ripcal?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "ripcal";
+        var versions = ["2.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ripcal/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ripcal/README.html

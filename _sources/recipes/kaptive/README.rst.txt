@@ -10,10 +10,11 @@ kaptive
    :replaces_section_title:
    :noindex:
 
-   Reports information about surface polysaccharide loci for Klebsiella and Acinetobacter baumannii genome assemblies
+   Reports information about surface polysaccharide loci for Klebsiella pneumoniae species complex and Acinetobacter baumannii genome assemblies.
 
-   :homepage: https://github.com/katholt/Kaptive
-   :license: GPL3
+   :homepage: https://kaptive.readthedocs.io/en/latest
+   :developer docs: https://github.com/klebgenomics/Kaptive
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kaptive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive/meta.yaml>`_
 
    
@@ -28,10 +29,10 @@ kaptive
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0b1-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
+      ``3.0.0b1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -40,10 +41,9 @@ kaptive
       
 
    
-   :depends biopython: ``<1.78``
-   :depends blast: ``>=2.3.0``
-   :depends numpy: 
-   :depends python: ``>=3``
+   :depends biopython: 
+   :depends dna_features_viewer: 
+   :depends python: ``>=3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +91,7 @@ kaptive
 
     <script>
         var package = "kaptive";
-        var versions = ["2.0.6","2.0.5","2.0.4","2.0.0","0.7.3"];
+        var versions = ["3.0.0b1","2.0.6","2.0.5","2.0.4","2.0.0"];
     </script>
 
 

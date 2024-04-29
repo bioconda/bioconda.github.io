@@ -30,10 +30,10 @@ assembly_finder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  </span></summary>
       
 
-      ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ assembly_finder
 
     <script>
         var package = "assembly_finder";
-        var versions = ["0.7.1","0.6.2","0.6.1","0.6.0","0.4.2"];
+        var versions = ["0.7.2","0.7.1","0.6.2","0.6.1","0.6.0"];
     </script>
 
 

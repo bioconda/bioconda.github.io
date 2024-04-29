@@ -29,10 +29,10 @@ raxml-ng
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  </span></summary>
       
 
-      ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ raxml-ng
 
     <script>
         var package = "raxml-ng";
-        var versions = ["1.2.1","1.2.0","1.2.0","1.1.0","1.1.0"];
+        var versions = ["1.2.1","1.2.1","1.2.0","1.2.0","1.1.0"];
     </script>
 
 

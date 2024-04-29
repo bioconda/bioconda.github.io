@@ -12,7 +12,9 @@ r-pathfindr
 
    Enrichment analysis enables researchers to uncover mechanisms underlying a phenotype. However\, conventional methods for enrichment analysis do not take into account protein\-protein interaction information\, resulting in incomplete conclusions. pathfindR is a tool for enrichment analysis utilizing active subnetworks. The main function identifies active subnetworks in a protein\-protein interaction network using a user\-provided list of genes and associated p values. It then performs enrichment analyses on the identified subnetworks\, identifying enriched terms \(i.e. pathways or\, more broadly\, gene sets\) that possibly underlie the phenotype of interest. pathfindR also offers functionalities to cluster the enriched terms and identify representative terms in each cluster\, to score the enriched terms per sample and to visualize analysis results. The enrichment\, clustering and other methods implemented in pathfindR are described in detail in Ulgen E\, Ozisik O\, Sezerman OU. 2019. pathfindR\: An R Package for Comprehensive Identification of Enriched Pathways in Omics Data Through Active Subnetworks. Front. Genet. \<doi\:10.3389\/fgene.2019.00858\>.
 
-   :homepage: https://egeulgen.github.io/pathfindR/, https://github.com/egeulgen/pathfindR
+   :homepage: https://github.com/egeulgen/pathfindR
+   :documentation: https://egeulgen.github.io/pathfindR/
+   
    :license: MIT / MIT
    :recipe: /`r-pathfindr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pathfindr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pathfindr/meta.yaml>`_
 
@@ -27,12 +29,13 @@ r-pathfindr
       
       
 
-      ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
 
    
    :depends bioconductor-annotationdbi: 
+   :depends bioconductor-ggkegg: 
    :depends bioconductor-kegggraph: 
    :depends bioconductor-keggrest: 
    :depends bioconductor-org.hs.eg.db: 
@@ -45,6 +48,7 @@ r-pathfindr
    :depends r-ggplot2: 
    :depends r-ggraph: 
    :depends r-ggupset: 
+   :depends r-httr: 
    :depends r-igraph: 
    :depends r-knitr: 
    :depends r-magick: 
@@ -99,7 +103,7 @@ r-pathfindr
 
     <script>
         var package = "r-pathfindr";
-        var versions = ["2.3.1","2.3.0","2.2.0","2.1.0"];
+        var versions = ["2.4.0","2.3.1","2.3.0","2.2.0","2.1.0"];
     </script>
 
 
