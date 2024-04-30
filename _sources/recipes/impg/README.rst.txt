@@ -1,38 +1,37 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'bedgovcf'
+.. title:: Package Recipe 'impg'
 .. highlight: bash
 
-bedgovcf
-========
+impg
+====
 
-.. conda:recipe:: bedgovcf
+.. conda:recipe:: impg
    :replaces_section_title:
    :noindex:
 
-   A simple tool to convert BED files to VCF files
+   impg\: implicit pangenome graphs
 
-   :homepage: https://github.com/nvnieuwk/bedgovcf
-   :license: MIT
-   :recipe: /`bedgovcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedgovcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedgovcf/meta.yaml>`_
+   :homepage: https://github.com/pangenome/impg
+   :license: MIT / MIT
+   :recipe: /`impg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impg/meta.yaml>`_
 
    
 
 
-.. conda:package:: bedgovcf
+.. conda:package:: impg
 
-   |downloads_bedgovcf| |docker_bedgovcf|
+   |downloads_impg| |docker_impg|
 
    :versions:
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.0-0``
 
       
 
    
-   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation
@@ -48,39 +47,39 @@ bedgovcf
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install bedgovcf
+      mamba install impg
 
    and update with::
 
-      mamba update bedgovcf
+      mamba update impg
 
   To create a new environment, run::
 
-      mamba create --name myenvname bedgovcf
+      mamba create --name myenvname impg
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/bedgovcf:<tag>
+      docker pull quay.io/biocontainers/impg:<tag>
 
-   (see `bedgovcf/tags`_ for valid values for ``<tag>``)
+   (see `impg/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_bedgovcf| image:: https://img.shields.io/conda/dn/bioconda/bedgovcf.svg?style=flat
-   :target: https://anaconda.org/bioconda/bedgovcf
+.. |downloads_impg| image:: https://img.shields.io/conda/dn/bioconda/impg.svg?style=flat
+   :target: https://anaconda.org/bioconda/impg
    :alt:   (downloads)
-.. |docker_bedgovcf| image:: https://quay.io/repository/biocontainers/bedgovcf/status
-   :target: https://quay.io/repository/biocontainers/bedgovcf
-.. _`bedgovcf/tags`: https://quay.io/repository/biocontainers/bedgovcf?tab=tags
+.. |docker_impg| image:: https://quay.io/repository/biocontainers/impg/status
+   :target: https://quay.io/repository/biocontainers/impg
+.. _`impg/tags`: https://quay.io/repository/biocontainers/impg?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "bedgovcf";
-        var versions = ["0.1.1","0.1.0"];
+        var package = "impg";
+        var versions = ["0.2.0"];
     </script>
 
 
@@ -99,7 +98,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bedgovcf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/impg/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/bedgovcf/README.html
+   :target: http://bioconda.github.io/recipes/impg/README.html
