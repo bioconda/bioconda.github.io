@@ -27,11 +27,12 @@ camlhmp
       
       
 
-      ``0.0.1-0``
+      ``0.1.0-0``,  ``0.0.1-0``
 
       
 
    
+   :depends biopython: 
    :depends blast: 
    :depends executor: 
    :depends pigz: 
@@ -85,7 +86,7 @@ camlhmp
 
     <script>
         var package = "camlhmp";
-        var versions = ["0.0.1"];
+        var versions = ["0.1.0","0.0.1"];
     </script>
 
 
