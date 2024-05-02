@@ -13,8 +13,11 @@ tesorter
    Lineage\-level classification of transposable elements using conserved protein domains.
 
    :homepage: https://github.com/zhangrengang/TEsorter
-   :license: GPL / GPLv3
+   :documentation: https://github.com/zhangrengang/TEsorter/blob/master/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tesorter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesorter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesorter/meta.yaml>`_
+   :links: doi: :doi:`10.1093/hr/uhac017`
 
    
 
@@ -27,7 +30,7 @@ tesorter
       
       
 
-      ``1.4.6-0``,  ``1.3.0-0``,  ``1.2.5.2-0``
+      ``1.4.6-1``,  ``1.4.6-0``,  ``1.3.0-0``,  ``1.2.5.2-0``
 
       
 
@@ -86,7 +89,7 @@ tesorter
 
     <script>
         var package = "tesorter";
-        var versions = ["1.4.6","1.3.0","1.2.5.2"];
+        var versions = ["1.4.6","1.4.6","1.3.0","1.2.5.2"];
     </script>
 
 

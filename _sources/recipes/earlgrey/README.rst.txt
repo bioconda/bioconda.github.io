@@ -13,14 +13,16 @@ earlgrey
    Earl Grey\: A fully automated TE curation and annotation pipeline
 
    :homepage: https://github.com/TobyBaril/EarlGrey
+   :documentation: https://github.com/TobyBaril/EarlGrey/blob/main/README.md
+   
    :license: OSL-2.1
    :recipe: /`earlgrey <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/earlgrey>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/earlgrey/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2022.06.30.498289`
+   :links: doi: :doi:`10.1093/molbev/msae068`
 
    Earl Grey is a full\-automated transposable element \(TE\) annotation pipeline\,
    leveraging the most widely\-used tools and combining these with a consensus
    elongation process \(BEAT\) to better define de novo consensus sequences when
-   annotating new genome assemblies. 
+   annotating new genome assemblies.
 
 
 
@@ -33,10 +35,10 @@ earlgrey
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.8-0</code>,  <code>4.0.7-0</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.3-0</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.8-0</code>,  <code>4.0.7-0</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  </span></summary>
       
 
-      ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+      ``4.2.3-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -51,6 +53,7 @@ earlgrey
    :depends bioconductor-genomeinfodbdata: 
    :depends bioconductor-plyranges: 
    :depends cd-hit: 
+   :depends emboss: 
    :depends genometools-genometools: 
    :depends hmmer: 
    :depends libgcc-ng: ``>=12``
@@ -62,13 +65,17 @@ earlgrey
    :depends ninja-nj: 
    :depends pandas: 
    :depends parallel: 
+   :depends pybedtools: 
    :depends pyfaidx: 
    :depends pyranges: 
-   :depends python: ``3.8.*``
+   :depends python: ``3.9.*``
    :depends r-ape: 
+   :depends r-cowplot: 
+   :depends r-ggtext: 
    :depends r-optparse: 
    :depends r-plyr: 
    :depends r-tidyverse: 
+   :depends r-viridis: 
    :depends recon: 
    :depends repeatmasker: ``>=4.1.4``
    :depends repeatmodeler: ``>=2.0.4``
@@ -121,7 +128,7 @@ earlgrey
 
     <script>
         var package = "earlgrey";
-        var versions = ["4.1.1","4.1.0","4.0.8","4.0.7","4.0.6"];
+        var versions = ["4.2.3","4.1.1","4.1.1","4.1.0","4.0.8"];
     </script>
 
 

@@ -27,12 +27,12 @@ ntroot
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends ntedit: ``>=2.0.1``
+   :depends ntedit: ``>=2.0.2``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends python: ``>=3.9``
    :depends samtools: 
@@ -84,7 +84,7 @@ ntroot
 
     <script>
         var package = "ntroot";
-        var versions = ["1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

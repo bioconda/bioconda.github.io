@@ -27,7 +27,7 @@ cialign
       
       
 
-      ``1.1.0-0``,  ``1.0.18-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``
 
       
 
@@ -35,6 +35,7 @@ cialign
    :depends configargparse: 
    :depends matplotlib-base: 
    :depends numpy: 
+   :depends pandas: 
    :depends pillow: 
    :depends python: ``>=3.6``
    :requirements:
@@ -84,7 +85,7 @@ cialign
 
     <script>
         var package = "cialign";
-        var versions = ["1.1.0","1.0.18"];
+        var versions = ["1.1.0","1.1.0","1.0.18"];
     </script>
 
 

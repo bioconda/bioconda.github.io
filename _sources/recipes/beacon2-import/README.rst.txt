@@ -27,7 +27,7 @@ beacon2-import
       
       
 
-      ``1.0.6-0``
+      ``1.0.7-0``,  ``1.0.6-0``
 
       
 
@@ -37,7 +37,7 @@ beacon2-import
    :depends dataclasses: 
    :depends jsonschema: 
    :depends pymongo: 
-   :depends python: ``3.6.15.*``
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ beacon2-import
 
     <script>
         var package = "beacon2-import";
-        var versions = ["1.0.6"];
+        var versions = ["1.0.7","1.0.6"];
     </script>
 
 

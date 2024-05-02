@@ -27,7 +27,7 @@ bedgovcf
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -80,7 +80,7 @@ bedgovcf
 
     <script>
         var package = "bedgovcf";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0"];
     </script>
 
 

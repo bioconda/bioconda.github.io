@@ -26,9 +26,17 @@ npstructures
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.18-0</code>,  <code>0.2.17-0</code>,  <code>0.2.16-0</code>,  <code>0.2.15-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  </span></summary>
+      
 
+      ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -81,7 +89,7 @@ npstructures
 
     <script>
         var package = "npstructures";
-        var versions = ["0.2.17","0.2.16","0.2.15","0.2.14","0.2.13"];
+        var versions = ["0.2.18","0.2.17","0.2.16","0.2.15","0.2.14"];
     </script>
 
 
