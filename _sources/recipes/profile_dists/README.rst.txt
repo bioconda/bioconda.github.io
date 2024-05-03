@@ -28,7 +28,7 @@ profile_dists
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -40,7 +40,7 @@ profile_dists
    :depends psutil: 
    :depends pyarrow: ``>=12.0.0``
    :depends pytables: ``>=3.8.0``
-   :depends python: ``>=3.8,<4``
+   :depends python: ``>=3.8,<3.12``
    :depends six: ``>=1.16.0``
    :requirements:
 
@@ -89,7 +89,7 @@ profile_dists
 
     <script>
         var package = "profile_dists";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

@@ -10,7 +10,7 @@ beagle-lib
    :replaces_section_title:
    :noindex:
 
-   general purpose library for evaluating the likelihood of sequence evolution on trees
+   A general purpose library for evaluating the likelihood of sequence evolution on phylogenetic trees.
 
    :homepage: https://github.com/beagle-dev/beagle-lib
    :license: GPL3 / GPL-3.0-or-later
@@ -28,10 +28,10 @@ beagle-lib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.2-4</code>,  <code>3.1.2-3</code>,  <code>3.1.2-2</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.2-4</code>,  <code>3.1.2-3</code>,  <code>3.1.2-2</code>,  <code>3.1.2-1</code>,  </span></summary>
       
 
-      ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.2-4``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``2.1.2-7``,  ``2.1.2-6``,  ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+      ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.2-4``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``2.1.2-7``,  ``2.1.2-6``,  ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
 
       
       .. raw:: html
@@ -42,8 +42,6 @@ beagle-lib
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libtool: 
-   :depends openjdk: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +89,7 @@ beagle-lib
 
     <script>
         var package = "beagle-lib";
-        var versions = ["4.0.1","4.0.0","4.0.0","4.0.0","3.1.2"];
+        var versions = ["4.0.1","4.0.1","4.0.0","4.0.0","4.0.0"];
     </script>
 
 

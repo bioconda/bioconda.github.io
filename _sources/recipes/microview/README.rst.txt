@@ -27,7 +27,7 @@ microview
       
       
 
-      ``0.10.1-0``
+      ``0.11.0-0``,  ``0.10.1-0``
 
       
 
@@ -94,7 +94,7 @@ microview
 
     <script>
         var package = "microview";
-        var versions = ["0.10.1"];
+        var versions = ["0.11.0","0.10.1"];
     </script>
 
 
