@@ -13,11 +13,11 @@ phykit
    PhyKIT is a UNIX shell toolkit for processing and analyzing phylogenomic data.
 
    :homepage: https://github.com/jlsteenwyk/phykit
-   :documentation: https://jlsteenwyk.com/PhyKIT/
+   :documentation: https://jlsteenwyk.com/PhyKIT
    
    :license: MIT / MIT
    :recipe: /`phykit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phykit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phykit/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btab096`
+   :links: doi: :doi:`10.1093/bioinformatics/btab096`, biotools: :biotools:`phykit`
 
    
 
@@ -31,10 +31,10 @@ phykit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.19.3-0</code>,  <code>1.19.2-0</code>,  <code>1.19.1-0</code>,  <code>1.19.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.13.1-0</code>,  <code>1.13.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.19.4-0</code>,  <code>1.19.3-0</code>,  <code>1.19.2-0</code>,  <code>1.19.1-0</code>,  <code>1.19.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.13.1-0</code>,  </span></summary>
       
 
-      ``1.19.3-0``,  ``1.19.2-0``,  ``1.19.1-0``,  ``1.19.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.13.1-0``,  ``1.13.0-0``,  ``1.12.5-0``,  ``1.12.4-0``,  ``1.12.3-0``,  ``1.12.2-0``,  ``1.12.0-0``,  ``1.11.16-0``,  ``1.11.15-0``,  ``1.11.14-0``,  ``1.11.13-0``,  ``1.11.12-0``,  ``1.11.10-0``,  ``1.11.7-0``,  ``1.11.5-0``
+      ``1.19.4-0``,  ``1.19.3-0``,  ``1.19.2-0``,  ``1.19.1-0``,  ``1.19.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.13.1-0``,  ``1.13.0-0``,  ``1.12.5-0``,  ``1.12.4-0``,  ``1.12.3-0``,  ``1.12.2-0``,  ``1.12.0-0``,  ``1.11.16-0``,  ``1.11.15-0``,  ``1.11.14-0``,  ``1.11.13-0``,  ``1.11.12-0``,  ``1.11.10-0``,  ``1.11.7-0``,  ``1.11.5-0``
 
       
       .. raw:: html
@@ -43,10 +43,11 @@ phykit
       
 
    
-   :depends biopython: ``>=1.79``
-   :depends numpy: ``>=1.18.2``
+   :depends biopython: ``>=1.81``
+   :depends numpy: ``>=1.24.0``
    :depends python: ``>=3``
-   :depends scipy: ``>=1.4.1``
+   :depends scikit-learn: ``>=1.4.2``
+   :depends scipy: ``>=1.11.3``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +95,7 @@ phykit
 
     <script>
         var package = "phykit";
-        var versions = ["1.19.3","1.19.2","1.19.1","1.19.0","1.17.0"];
+        var versions = ["1.19.4","1.19.3","1.19.2","1.19.1","1.19.0"];
     </script>
 
 

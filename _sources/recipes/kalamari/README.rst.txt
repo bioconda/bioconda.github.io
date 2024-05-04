@@ -35,7 +35,7 @@ kalamari
       
       
 
-      ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
+      ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
 
       
 
@@ -43,8 +43,8 @@ kalamari
    :depends entrez-direct: 
    :depends kraken: ``>=1,<2``
    :depends kraken2: 
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-module-build: ``0.4234.*``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-module-build: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +92,7 @@ kalamari
 
     <script>
         var package = "kalamari";
-        var versions = ["5.3.3","5.3.2","5.2.1"];
+        var versions = ["5.4.0","5.3.3","5.3.2","5.2.1"];
     </script>
 
 

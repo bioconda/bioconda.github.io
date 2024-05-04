@@ -13,7 +13,7 @@ seqlogo
    Python port of the R Bioconductor \`seqlogo\` package
 
    :homepage: https://github.com/betteridiot/seqlogo
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`seqlogo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqlogo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqlogo/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ seqlogo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.29.8-0</code>,  <code>5.29.7-0</code>,  <code>5.29.6-0</code>,  <code>5.29.5-0</code>,  <code>5.29.4-0</code>,  <code>5.29.1-0</code>,  <code>5.2.9-1</code>,  <code>0.2.0-0</code>,  <code>0.1.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.29.9-0</code>,  <code>5.29.8-0</code>,  <code>5.29.7-0</code>,  <code>5.29.6-0</code>,  <code>5.29.5-0</code>,  <code>5.29.4-0</code>,  <code>5.29.1-0</code>,  <code>5.2.9-1</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``5.29.8-0``,  ``5.29.7-0``,  ``5.29.6-0``,  ``5.29.5-0``,  ``5.29.4-0``,  ``5.29.1-0``,  ``5.2.9-1``,  ``0.2.0-0``,  ``0.1.13-0``,  ``0.1.12-0``
+      ``5.29.9-0``,  ``5.29.8-0``,  ``5.29.7-0``,  ``5.29.6-0``,  ``5.29.5-0``,  ``5.29.4-0``,  ``5.29.1-0``,  ``5.2.9-1``,  ``0.2.0-0``,  ``0.1.13-0``,  ``0.1.12-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ seqlogo
 
     <script>
         var package = "seqlogo";
-        var versions = ["5.29.8","5.29.7","5.29.6","5.29.5","5.29.4"];
+        var versions = ["5.29.9","5.29.8","5.29.7","5.29.6","5.29.5"];
     </script>
 
 

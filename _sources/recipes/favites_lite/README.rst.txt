@@ -27,7 +27,7 @@ favites_lite
       
       
 
-      ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -88,7 +88,7 @@ favites_lite
 
     <script>
         var package = "favites_lite";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.3","1.0.1"];
     </script>
 
 

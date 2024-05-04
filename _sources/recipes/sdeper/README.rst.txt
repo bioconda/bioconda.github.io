@@ -30,7 +30,7 @@ sdeper
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -45,7 +45,7 @@ sdeper
    :depends openpyxl: ``3.0.10``
    :depends pandas: ``1.4.3``
    :depends py-opencv: ``4.6.0``
-   :depends python: ``>=3.9.12,<=3.11``
+   :depends python: ``>=3.9.12,<3.11``
    :depends reportlab: ``4.1.0``
    :depends scanpy: ``1.9.1``
    :depends scikit-learn: ``1.1.1``
@@ -101,7 +101,7 @@ sdeper
 
     <script>
         var package = "sdeper";
-        var versions = ["1.2.0","1.1.0","1.0.0"];
+        var versions = ["1.2.1","1.2.0","1.1.0","1.0.0"];
     </script>
 
 

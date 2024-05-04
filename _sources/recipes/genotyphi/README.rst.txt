@@ -12,7 +12,7 @@ genotyphi
 
    Assign genotypes to Salmonella Typhi genomes based on VCF files \(mapped to Typhi CT18 reference genome\)
 
-   :homepage: https://github.com/katholt/genotyphi
+   :homepage: https://github.com/typhoidgenomics/genotyphi
    :license: GPL3
    :recipe: /`genotyphi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genotyphi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genotyphi/meta.yaml>`_
 
@@ -27,7 +27,7 @@ genotyphi
       
       
 
-      ``2.0-0``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.1-0``
+      ``2.0-1``,  ``2.0-0``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.1-0``
 
       
 
@@ -83,7 +83,7 @@ genotyphi
 
     <script>
         var package = "genotyphi";
-        var versions = ["2.0","1.9.1","1.9.1","1.9.0","1.8.0"];
+        var versions = ["2.0","2.0","1.9.1","1.9.1","1.9.0"];
     </script>
 
 
