@@ -13,7 +13,9 @@ bacpage
    An easy\-to\-use pipeline for the assembly and analysis of bacterial genomes
 
    :homepage: https://github.com/CholGen/bacpage
-   :license: GPL-3.0-or-later
+   :documentation: https://cholgen.github.io/sequencing-resources/bacpage-command.html
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bacpage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bacpage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bacpage/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ bacpage
       
       
 
-      ``2023.11.10.1-0``
+      ``2024.03.08-0``,  ``2023.11.10.1-0``
 
       
 
@@ -47,7 +49,7 @@ bacpage
    :depends multiqc: 
    :depends pandas: 
    :depends prokka: 
-   :depends python: ``<3.12,>=3.9``
+   :depends python: ``>=3.9,<3.12``
    :depends qualimap: 
    :depends quast: 
    :depends samtools: ``1.17.*``
@@ -101,7 +103,7 @@ bacpage
 
     <script>
         var package = "bacpage";
-        var versions = ["2023.11.10.1"];
+        var versions = ["2024.03.08","2023.11.10.1"];
     </script>
 
 

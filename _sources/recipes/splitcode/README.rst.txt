@@ -30,7 +30,7 @@ splitcode
       
       
 
-      ``0.29.4-0``
+      ``0.30.0-0``,  ``0.29.4-0``
 
       
 
@@ -86,7 +86,7 @@ splitcode
 
     <script>
         var package = "splitcode";
-        var versions = ["0.29.4"];
+        var versions = ["0.30.0","0.29.4"];
     </script>
 
 

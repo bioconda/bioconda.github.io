@@ -28,7 +28,7 @@ bandage_ng
       
       
 
-      ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
+      ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
 
       
 
@@ -36,10 +36,10 @@ bandage_ng
    :depends fonts-conda-ecosystem: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends qt6-main: ``>=6.6.0,<6.7.0a0``
+   :depends qt6-main: ``>=6.7.1,<6.8.0a0``
    :depends xorg-libice: ``>=1.1.1,<2.0a0``
    :depends xorg-libsm: ``>=1.2.4,<2.0a0``
-   :depends xorg-libx11: ``>=1.8.7,<2.0a0``
+   :depends xorg-libx11: ``>=1.8.9,<2.0a0``
    :depends xorg-libxext: ``>=1.3.4,<2.0a0``
    :requirements:
 
@@ -88,7 +88,7 @@ bandage_ng
 
     <script>
         var package = "bandage_ng";
-        var versions = ["2022.09","2022.09","2022.09","2022.09"];
+        var versions = ["2022.09","2022.09","2022.09","2022.09","2022.09"];
     </script>
 
 

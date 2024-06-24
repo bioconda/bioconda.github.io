@@ -13,6 +13,8 @@ ont-modkit
    A bioinformatics tool for working with modified bases in Oxford Nanopore sequencing data.
 
    :homepage: https://github.com/nanoporetech/modkit
+   :documentation: https://nanoporetech.github.io/modkit/
+   
    :license: PROPRIETARY / Oxford Nanopore Technologies PLC. Public License Version 1.0
    :recipe: /`ont-modkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-modkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-modkit/meta.yaml>`_
 
@@ -26,15 +28,23 @@ ont-modkit
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+      
 
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +92,7 @@ ont-modkit
 
     <script>
         var package = "ont-modkit";
-        var versions = ["0.2.7","0.2.6","0.2.5","0.2.4","0.2.3"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.7","0.2.6"];
     </script>
 
 

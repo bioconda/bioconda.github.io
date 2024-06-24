@@ -26,9 +26,17 @@ idba_subasm
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.3a2-7``,  ``1.1.3a2-6``,  ``1.1.3a2-5``,  ``1.1.3a2-4``,  ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.3a2-8</code>,  <code>1.1.3a2-7</code>,  <code>1.1.3a2-6</code>,  <code>1.1.3a2-5</code>,  <code>1.1.3a2-4</code>,  <code>1.1.3a2-3</code>,  <code>1.1.3a2-2</code>,  <code>1.1.3a2-1</code>,  <code>1.1.3a2-0</code>,  </span></summary>
+      
 
+      ``1.1.3a2-8``,  ``1.1.3a2-7``,  ``1.1.3a2-6``,  ``1.1.3a2-5``,  ``1.1.3a2-4``,  ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

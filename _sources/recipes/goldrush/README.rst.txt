@@ -28,10 +28,10 @@ goldrush
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
+      ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ goldrush
    :depends _openmp_mutex: ``>=4.5``
    :depends bc: 
    :depends btllib: ``>=1.6.2``
-   :depends btllib: ``>=1.7.0,<2.0a0``
+   :depends btllib: ``>=1.7.2,<2.0a0``
    :depends gperftools: 
    :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
    :depends libgcc-ng: ``>=12``
@@ -101,7 +101,7 @@ goldrush
 
     <script>
         var package = "goldrush";
-        var versions = ["1.1.1","1.1.0","1.1.0","1.0.3","1.0.3"];
+        var versions = ["1.1.2","1.1.1","1.1.1","1.1.1","1.1.0"];
     </script>
 
 

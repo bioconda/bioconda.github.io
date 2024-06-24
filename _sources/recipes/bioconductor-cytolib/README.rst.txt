@@ -13,8 +13,9 @@ bioconductor-cytolib
    C\+\+ infrastructure for representing and interacting with the gated cytometry data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/cytolib.html
-   :license: AGPL-3.0-only
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-cytolib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytolib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytolib/meta.yaml>`_
+   :links: biotools: :biotools:`cytolib`
 
    This package provides the core data structure and API to represent and interact with the gated cytometry data.
 
@@ -28,10 +29,10 @@ bioconductor-cytolib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.1-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-1</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``2.14.1-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -97,7 +98,7 @@ bioconductor-cytolib
 
     <script>
         var package = "bioconductor-cytolib";
-        var versions = ["2.14.0","2.12.0","2.10.0","2.6.2","2.6.2"];
+        var versions = ["2.14.1","2.14.0","2.12.0","2.10.0","2.6.2"];
     </script>
 
 

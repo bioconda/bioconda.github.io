@@ -13,8 +13,9 @@ bioconductor-diffhic
    Differential Analyis of Hi\-C Data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/diffHic.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-diffhic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffhic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffhic/meta.yaml>`_
+   :links: biotools: :biotools:`diffhic`
 
    Detects differential interactions across biological conditions in a Hi\-C experiment. Methods are provided for read alignment and data pre\-processing into interaction counts. Statistical analysis is based on edgeR and supports normalization and filtering. Several visualization options are also available.
 
@@ -28,10 +29,10 @@ bioconductor-diffhic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -49,7 +50,7 @@ bioconductor-diffhic
    :depends bioconductor-csaw: ``>=1.36.0,<1.37.0``
    :depends bioconductor-csaw: ``>=1.36.0,<1.37.0a0``
    :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-edger: ``>=4.0.2,<4.1.0a0``
+   :depends bioconductor-edger: ``>=4.0.16,<4.1.0a0``
    :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
    :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
    :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
@@ -128,7 +129,7 @@ bioconductor-diffhic
 
     <script>
         var package = "bioconductor-diffhic";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.26.0"];
+        var versions = ["1.34.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

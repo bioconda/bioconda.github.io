@@ -28,7 +28,7 @@ meteor
       
       
 
-      ``2.0.9-0``
+      ``2.0.11-0``,  ``2.0.9-0``
 
       
 
@@ -92,7 +92,7 @@ meteor
 
     <script>
         var package = "meteor";
-        var versions = ["2.0.9"];
+        var versions = ["2.0.11","2.0.9"];
     </script>
 
 

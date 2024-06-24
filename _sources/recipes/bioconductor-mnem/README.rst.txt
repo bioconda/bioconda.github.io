@@ -13,8 +13,9 @@ bioconductor-mnem
    Mixture Nested Effects Models
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/mnem.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-mnem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mnem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mnem/meta.yaml>`_
+   :links: biotools: :biotools:`mnem`
 
    Mixture Nested Effects Models \(mnem\) is an extension of Nested Effects Models and allows for the analysis of single cell perturbation data provided by methods like Perturb\-Seq \(Dixit et al.\, 2016\) or Crop\-Seq \(Datlinger et al.\, 2017\). In those experiments each of many cells is perturbed by a knock\-down of a specific gene\, i.e. several cells are perturbed by a knock\-down of gene A\, several by a knock\-down of gene B\, ... and so forth. The observed read\-out has to be multi\-trait and in the case of the Perturb\-\/Crop\-Seq gene are expression profiles for each cell. mnem uses a mixture model to simultaneously cluster the cell population into k clusters and and infer k networks causally linking the perturbed genes for each cluster. The mixture components are inferred via an expectation maximization algorithm.
 
@@ -28,10 +29,10 @@ bioconductor-mnem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.1-0``,  ``1.4.0-0``
+      ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.1-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -111,7 +112,7 @@ bioconductor-mnem
 
     <script>
         var package = "bioconductor-mnem";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.10.0"];
+        var versions = ["1.18.0","1.18.0","1.16.0","1.14.0","1.14.0"];
     </script>
 
 

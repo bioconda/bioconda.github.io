@@ -13,7 +13,7 @@ bioconductor-cohcap
    CpG Island Analysis Pipeline for Illumina Methylation Array and Targeted BS\-Seq Data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/COHCAP.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-cohcap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap/meta.yaml>`_
    :links: biotools: :biotools:`cohcap`
 
@@ -29,10 +29,10 @@ bioconductor-cohcap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-3</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-3</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-3``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-0``,  ``1.24.0-0``
+      ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-3``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-0``,  ``1.24.0-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ bioconductor-cohcap
 
     <script>
         var package = "bioconductor-cohcap";
-        var versions = ["1.48.0","1.46.0","1.44.0","1.44.0","1.40.0"];
+        var versions = ["1.48.0","1.48.0","1.46.0","1.44.0","1.44.0"];
     </script>
 
 

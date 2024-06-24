@@ -27,7 +27,7 @@ mtgrasp
       
       
 
-      ``1.1.3-0``
+      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
 
@@ -91,7 +91,7 @@ mtgrasp
 
     <script>
         var package = "mtgrasp";
-        var versions = ["1.1.3"];
+        var versions = ["1.1.4","1.1.4","1.1.3","1.1.3"];
     </script>
 
 

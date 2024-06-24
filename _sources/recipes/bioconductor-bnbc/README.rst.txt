@@ -15,6 +15,7 @@ bioconductor-bnbc
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/bnbc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bnbc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc/meta.yaml>`_
+   :links: biotools: :biotools:`bnbc`
 
    Tools to normalize \(several\) Hi\-C data from replicates.
 
@@ -28,10 +29,10 @@ bioconductor-bnbc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.23.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.23.0-1</code>,  <code>1.23.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.23.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.23.0-1``,  ``1.23.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -115,7 +116,7 @@ bioconductor-bnbc
 
     <script>
         var package = "bioconductor-bnbc";
-        var versions = ["1.23.0","1.22.0","1.20.0","1.20.0","1.16.0"];
+        var versions = ["1.23.0","1.23.0","1.22.0","1.20.0","1.20.0"];
     </script>
 
 

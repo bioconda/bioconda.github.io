@@ -15,6 +15,7 @@ segalign-full
    :homepage: https://github.com/gsneha26/SegAlign
    :documentation: https://github.com/gsneha26/SegAlign/blob/main/README.md
    
+   :developer docs: https://github.com/richard-burhans/SegAlign/blob/scoring/README.md
    :license: `MIT / MIT <https://github.com/gsneha26/SegAlign/blob/main/LICENSE>`_
    :recipe: /`segalign-full <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segalign-full>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segalign-full/meta.yaml>`_
    :links: doi: :doi:`10.1109/SC41405.2020.00043`, doi: :doi:`10.5281/zenodo.3880947`
@@ -32,13 +33,13 @@ segalign-full
       
       
 
-      ``0.1.2.1-0``,  ``0.1.2-1``,  ``0.1.2-0``
+      ``0.1.2.7-0``,  ``0.1.2.6-0``,  ``0.1.2.4-0``,  ``0.1.2.3-0``,  ``0.1.2.2-0``,  ``0.1.2.1-0``,  ``0.1.2-1``,  ``0.1.2-0``
 
       
 
    
    :depends lastz: 
-   :depends segalign: 
+   :depends segalign: ``0.1.2.7.*``
    :depends ucsc-fatotwobit: 
    :requirements:
 
@@ -87,7 +88,7 @@ segalign-full
 
     <script>
         var package = "segalign-full";
-        var versions = ["0.1.2.1","0.1.2","0.1.2"];
+        var versions = ["0.1.2.7","0.1.2.6","0.1.2.4","0.1.2.3","0.1.2.2"];
     </script>
 
 

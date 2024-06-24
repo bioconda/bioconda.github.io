@@ -10,15 +10,15 @@ multiqc
    :replaces_section_title:
    :noindex:
 
-   Create aggregate bioinformatics analysis reports across many samples and tools
+   Create aggregate bioinformatics analysis reports across many samples and tools.
 
-   :homepage: http://multiqc.info
-   :documentation: http://multiqc.info/docs/
+   :homepage: https://multiqc.info
+   :documentation: https://multiqc.info/docs
    
    :developer docs: https://github.com/ewels/MultiQC
-   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`multiqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multiqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multiqc/meta.yaml>`_
-   :links: biotools: :biotools:`multiqc`, doi: :doi:`https://doi.org/10.1093/bioinformatics/btw354`
+   :links: biotools: :biotools:`multiqc`, usegalaxy-eu: :usegalaxy-eu:`multiqc`, doi: :doi:`10.1093/bioinformatics/btw354`
 
    
 
@@ -32,10 +32,10 @@ multiqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.21-0</code>,  <code>1.20-2</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  <code>1.18-0</code>,  <code>1.17-1</code>,  <code>1.17-0</code>,  <code>1.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.3-0</code>,  <code>1.22.2-0</code>,  <code>1.22.1-0</code>,  <code>1.22-0</code>,  <code>1.21-0</code>,  <code>1.20-2</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  </span></summary>
       
 
-      ``1.21-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-1``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-0``,  ``1.13-0``,  ``1.13a-1``,  ``1.13a-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.1-1``,  ``1.10.1-0``,  ``1.10-1``,  ``1.10-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7-4``,  ``1.7-3``,  ``1.7-2``,  ``1.7-1``,  ``1.7-0``,  ``1.6-0``,  ``1.6a0-2``,  ``1.6a0-1``,  ``1.6a0-0``,  ``1.5-0``,  ``1.5a-0``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-4``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1a0-4``,  ``0.9.1a0-3``,  ``0.9.1a0-2``,  ``0.9.1a0-1``,  ``0.9.1a0-0``,  ``0.9-0``,  ``0.9a-0``,  ``0.8-0``,  ``0.8dev0-0``,  ``0.7.1dev0-1``,  ``0.7.1dev0-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``
+      ``1.22.3-0``,  ``1.22.2-0``,  ``1.22.1-0``,  ``1.22-0``,  ``1.21-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-1``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-0``,  ``1.13-0``,  ``1.13a-1``,  ``1.13a-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.1-1``,  ``1.10.1-0``,  ``1.10-1``,  ``1.10-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7-4``,  ``1.7-3``,  ``1.7-2``,  ``1.7-1``,  ``1.7-0``,  ``1.6-0``,  ``1.6a0-2``,  ``1.6a0-1``,  ``1.6a0-0``,  ``1.5-0``,  ``1.5a-0``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-4``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1a0-4``,  ``0.9.1a0-3``,  ``0.9.1a0-2``,  ``0.9.1a0-1``,  ``0.9.1a0-0``,  ``0.9-0``,  ``0.9a-0``,  ``0.8-0``,  ``0.8dev0-0``,  ``0.7.1dev0-1``,  ``0.7.1dev0-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``
 
       
       .. raw:: html
@@ -46,28 +46,25 @@ multiqc
    
    :depends click: 
    :depends coloredlogs: 
-   :depends future: ``>0.14.0``
    :depends humanize: 
    :depends importlib-metadata: 
    :depends jinja2: ``>=3.0.0``
-   :depends lzstring: 
    :depends markdown: 
-   :depends matplotlib-base: ``>=2.1.1``
-   :depends networkx: ``>=2.5.1``
    :depends numpy: 
    :depends packaging: 
    :depends pillow: ``>=10.2.0``
    :depends plotly: ``>=5.18``
    :depends pyaml-env: 
+   :depends pydantic: ``>=2.7.1``
    :depends python: ``>=3.8``
    :depends python-kaleido: 
    :depends pyyaml: ``>=4``
    :depends requests: 
    :depends rich: ``>=10``
    :depends rich-click: 
-   :depends setuptools: 
-   :depends simplejson: 
    :depends spectra: ``>=0.0.10``
+   :depends tqdm: 
+   :depends typeguard: 
    :requirements:
 
    .. rubric:: Installation
@@ -115,7 +112,7 @@ multiqc
 
     <script>
         var package = "multiqc";
-        var versions = ["1.21","1.20","1.20","1.20","1.19"];
+        var versions = ["1.22.3","1.22.2","1.22.1","1.22","1.21"];
     </script>
 
 

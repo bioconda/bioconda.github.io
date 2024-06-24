@@ -13,8 +13,9 @@ bioconductor-geneselectmmd
    Gene selection based on the marginal distributions of gene profiles that characterized by a mixture of three\-component multivariate distributions
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeneSelectMMD.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-geneselectmmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd/meta.yaml>`_
+   :links: biotools: :biotools:`geneselectmmd`, usegalaxy-eu: :usegalaxy-eu:`geneselectmmd`
 
    Gene selection based on a mixture of marginal distributions.
 
@@ -28,10 +29,10 @@ bioconductor-geneselectmmd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.46.0-0</code>,  <code>2.44.1-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.38.0-2</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.46.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.1-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.38.0-2</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  </span></summary>
       
 
-      ``2.46.0-0``,  ``2.44.1-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.26.0-0``
+      ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.1-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -98,7 +99,7 @@ bioconductor-geneselectmmd
 
     <script>
         var package = "bioconductor-geneselectmmd";
-        var versions = ["2.46.0","2.44.1","2.42.0","2.42.0","2.38.0"];
+        var versions = ["2.46.0","2.46.0","2.44.1","2.42.0","2.42.0"];
     </script>
 
 

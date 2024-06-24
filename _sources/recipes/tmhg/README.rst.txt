@@ -12,8 +12,8 @@ tmhg
 
    tMHG\-Finder is a tree\-guided tool to partition whole genomes into maximal homologous groups.
 
-   :homepage: https://github.com/yongze-yin/tMHG-Finder/
-   :license: MIT
+   :homepage: https://github.com/yongze-yin/tMHG-Finder
+   :license: MIT / MIT
    :recipe: /`tmhg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmhg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmhg/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ tmhg
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -42,7 +42,7 @@ tmhg
    :depends numpy: ``>=1.11``
    :depends pandas: ``>=1.1.3``
    :depends pathos: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ tmhg
 
     <script>
         var package = "tmhg";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.2","1.0.1"];
     </script>
 
 

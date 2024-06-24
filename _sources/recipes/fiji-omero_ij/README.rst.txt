@@ -28,7 +28,7 @@ fiji-omero_ij
       
       
 
-      ``5.8.3-0``,  ``5.8.0-0``
+      ``5.8.4-0``,  ``5.8.3-0``,  ``5.8.0-0``
 
       
 
@@ -81,7 +81,7 @@ fiji-omero_ij
 
     <script>
         var package = "fiji-omero_ij";
-        var versions = ["5.8.3","5.8.0"];
+        var versions = ["5.8.4","5.8.3","5.8.0"];
     </script>
 
 

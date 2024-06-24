@@ -28,10 +28,10 @@ snp-pileup
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.2-5</code>,  <code>0.6.2-4</code>,  <code>0.6.2-3</code>,  <code>0.6.2-2</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.5.14-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.2-6</code>,  <code>0.6.2-5</code>,  <code>0.6.2-4</code>,  <code>0.6.2-3</code>,  <code>0.6.2-2</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``0.6.2-5``,  ``0.6.2-4``,  ``0.6.2-3``,  ``0.6.2-2``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``,  ``v0.5.14-0``
+      ``0.6.2-6``,  ``0.6.2-5``,  ``0.6.2-4``,  ``0.6.2-3``,  ``0.6.2-2``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``,  ``v0.5.14-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ snp-pileup
       
 
    
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:

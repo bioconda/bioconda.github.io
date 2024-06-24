@@ -13,6 +13,8 @@ python-crypt4gh
    GA4GH cryptographic tools
 
    :homepage: https://github.com/EGA-archive/crypt4gh
+   :documentation: http://crypt4gh.readthedocs.io
+   
    :license: APACHE / Apache-2.0
    :recipe: /`python-crypt4gh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-crypt4gh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-crypt4gh/meta.yaml>`_
 
@@ -27,7 +29,7 @@ python-crypt4gh
       
       
 
-      ``1.6-0``,  ``1.5-0``
+      ``1.7-0``,  ``1.6-0``,  ``1.5-0``
 
       
 
@@ -36,7 +38,7 @@ python-crypt4gh
    :depends cryptography: 
    :depends docopt: 
    :depends pynacl: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :depends pyyaml: 
    :requirements:
 
@@ -85,7 +87,7 @@ python-crypt4gh
 
     <script>
         var package = "python-crypt4gh";
-        var versions = ["1.6","1.5"];
+        var versions = ["1.7","1.6","1.5"];
     </script>
 
 

@@ -13,9 +13,11 @@ clinker-py
    Gene cluster comparison figure generator
 
    :homepage: https://github.com/gamcil/clinker
+   :documentation: https://github.com/gamcil/clinker/blob/master/README.md
+   
    :license: MIT / MIT
    :recipe: /`clinker-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clinker-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clinker-py/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.4326585`
+   :links: doi: :doi:`10.1093/bioinformatics/btab007`, biotools: :biotools:`clinker`
 
    
 
@@ -29,10 +31,10 @@ clinker-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.28-0</code>,  <code>0.0.27-0</code>,  <code>0.0.26-0</code>,  <code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.29-0</code>,  <code>0.0.28-0</code>,  <code>0.0.27-0</code>,  <code>0.0.26-0</code>,  <code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  </span></summary>
       
 
-      ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.12-0``
+      ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.12-0``
 
       
       .. raw:: html
@@ -45,7 +47,7 @@ clinker-py
    :depends disjoint-set: ``>=0.7.1``
    :depends gffutils: 
    :depends numpy: ``>=1.13.3``
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends scipy: ``>=1.3.3``
    :requirements:
 
@@ -94,7 +96,7 @@ clinker-py
 
     <script>
         var package = "clinker-py";
-        var versions = ["0.0.28","0.0.27","0.0.26","0.0.25","0.0.24"];
+        var versions = ["0.0.29","0.0.28","0.0.27","0.0.26","0.0.25"];
     </script>
 
 

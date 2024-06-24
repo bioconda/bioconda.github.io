@@ -31,14 +31,15 @@ macs3
       
       
 
-      ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
    
    :depends cykhash: ``>=2.0,<3.0``
    :depends hmmlearn: ``0.3.*``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends numpy: ``>=1.25``
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -92,7 +93,7 @@ macs3
 
     <script>
         var package = "macs3";
-        var versions = ["3.0.1","3.0.1","3.0.1"];
+        var versions = ["3.0.1","3.0.1","3.0.1","3.0.1"];
     </script>
 
 

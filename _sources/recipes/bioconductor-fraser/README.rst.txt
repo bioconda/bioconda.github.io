@@ -29,10 +29,10 @@ bioconductor-fraser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.99.4-0</code>,  <code>1.99.3-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  </span></summary>
       
 
-      ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.99.4-0``,  ``1.99.3-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ bioconductor-fraser
    :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
    :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
    :depends bioconductor-rsubread: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-rsubread: ``>=2.16.0,<2.17.0a0``
+   :depends bioconductor-rsubread: ``>=2.16.1,<3.0a0``
    :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
@@ -152,7 +152,7 @@ bioconductor-fraser
 
     <script>
         var package = "bioconductor-fraser";
-        var versions = ["1.14.0","1.12.1","1.10.0","1.10.0","1.6.1"];
+        var versions = ["1.99.4","1.99.3","1.14.0","1.12.1","1.10.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ bioconductor-chromdraw
    chromDraw is a R package for drawing the schemes of karyotypes in the linear and circular fashion.
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/chromDraw.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-chromdraw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromdraw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromdraw/meta.yaml>`_
    :links: biotools: :biotools:`chromdraw`
 
@@ -29,10 +29,10 @@ bioconductor-chromdraw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.24.0-2</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.24.0-2</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  </span></summary>
       
 
-      ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.24.0-2``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``
+      ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.24.0-2``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ bioconductor-chromdraw
 
     <script>
         var package = "bioconductor-chromdraw";
-        var versions = ["2.32.0","2.30.0","2.28.0","2.28.0","2.24.0"];
+        var versions = ["2.32.0","2.32.0","2.30.0","2.28.0","2.28.0"];
     </script>
 
 

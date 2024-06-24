@@ -33,10 +33,10 @@ pegasuspy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.1.post1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.7.1-2</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.1.post1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.7.1-2</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.9.1.post1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.1.post1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -58,12 +58,12 @@ pegasuspy
    :depends lightgbm: ``>=2.2.1``
    :depends loompy: ``>=3``
    :depends louvain: ``>=0.7.0``
-   :depends matplotlib-base: ``>=2.0.0``
+   :depends matplotlib-base: ``>=3.7.0``
    :depends natsort: 
    :depends numba: 
    :depends numpy: 
    :depends pandas: ``>=1.2.0``
-   :depends pegasusio: ``>=0.9.0``
+   :depends pegasusio: ``>=0.9.1``
    :depends psutil: 
    :depends pybind11: 
    :depends pyfit-sne: ``>=1.1.1``
@@ -127,7 +127,7 @@ pegasuspy
 
     <script>
         var package = "pegasuspy";
-        var versions = ["1.9.1.post1","1.9.0","1.8.1","1.7.1","1.7.1"];
+        var versions = ["1.10.0","1.10.0","1.9.1.post1","1.9.0","1.8.1"];
     </script>
 
 

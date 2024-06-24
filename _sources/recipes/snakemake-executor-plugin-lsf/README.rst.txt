@@ -27,7 +27,7 @@ snakemake-executor-plugin-lsf
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-executor-plugin-lsf
 
     <script>
         var package = "snakemake-executor-plugin-lsf";
-        var versions = ["0.2.4","0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.2.6","0.2.5","0.2.4","0.2.3","0.2.2"];
     </script>
 
 

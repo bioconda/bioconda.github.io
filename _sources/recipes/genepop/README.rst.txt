@@ -10,10 +10,11 @@ genepop
    :replaces_section_title:
    :noindex:
 
-   The Genepop population genetics package.
+   Population Genetic Data Analysis package.
 
-   :homepage: http://kimura.univ-montp2.fr/~rousset/Genepop.htm
-   :license: CeCILL
+   :homepage: https://f-rousset.r-universe.dev/genepop
+   :developer docs: https://github.com/cran/genepop
+   :license: CeCILL-2
    :recipe: /`genepop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepop/meta.yaml>`_
 
    
@@ -27,12 +28,13 @@ genepop
       
       
 
-      ``4.6-0``,  ``4.5.1-0``
+      ``4.8.2-0``,  ``4.6-0``,  ``4.5.1-0``
 
       
 
    
-   :depends libgcc: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +82,7 @@ genepop
 
     <script>
         var package = "genepop";
-        var versions = ["4.6","4.5.1"];
+        var versions = ["4.8.2","4.6","4.5.1"];
     </script>
 
 

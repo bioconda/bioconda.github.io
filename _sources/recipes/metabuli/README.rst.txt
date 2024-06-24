@@ -27,7 +27,7 @@ metabuli
       
       
 
-      ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ metabuli
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 
@@ -89,7 +89,7 @@ metabuli
 
     <script>
         var package = "metabuli";
-        var versions = ["1.0.5","1.0.3","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.5","1.0.5","1.0.3","1.0.3","1.0.2"];
     </script>
 
 

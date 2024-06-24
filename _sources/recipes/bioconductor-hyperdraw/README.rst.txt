@@ -29,10 +29,10 @@ bioconductor-hyperdraw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+      ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ bioconductor-hyperdraw
    :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
    :depends bioconductor-hypergraph: ``>=1.74.0,<1.75.0``
    :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
-   :depends graphviz: ``>=8.1.0,<9.0a0``
+   :depends graphviz: ``>=9.0.0,<10.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
@@ -93,7 +93,7 @@ bioconductor-hyperdraw
 
     <script>
         var package = "bioconductor-hyperdraw";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.50.0","1.46.0"];
+        var versions = ["1.54.0","1.54.0","1.52.0","1.50.0","1.50.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ bioconductor-bamsignals
    Extract read count signals from bam files
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/bamsignals.html
-   :license: GPL-2
+   :license: GPL-2.0-only
    :recipe: /`bioconductor-bamsignals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bamsignals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bamsignals/meta.yaml>`_
    :links: biotools: :biotools:`bamsignals`, doi: :doi:`10.1038/nmeth.3252`
 
@@ -29,10 +29,10 @@ bioconductor-bamsignals
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``
+      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ bioconductor-bamsignals
 
     <script>
         var package = "bioconductor-bamsignals";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.26.0"];
+        var versions = ["1.34.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

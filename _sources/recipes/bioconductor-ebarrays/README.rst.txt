@@ -13,7 +13,7 @@ bioconductor-ebarrays
    Unified Approach for Simultaneous Gene Clustering and Differential Expression Identification
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/EBarrays.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-ebarrays <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays/meta.yaml>`_
    :links: biotools: :biotools:`ebarrays`, doi: :doi:`10.1111/j.1541-0420.2006.00611.x`
 
@@ -29,10 +29,10 @@ bioconductor-ebarrays
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.62.0-1</code>,  <code>2.62.0-0</code>,  <code>2.58.0-2</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.62.0-1</code>,  <code>2.62.0-0</code>,  <code>2.58.0-2</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  </span></summary>
       
 
-      ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.58.0-2``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+      ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.58.0-2``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ bioconductor-ebarrays
 
     <script>
         var package = "bioconductor-ebarrays";
-        var versions = ["2.66.0","2.64.0","2.62.0","2.62.0","2.58.0"];
+        var versions = ["2.66.0","2.66.0","2.64.0","2.62.0","2.62.0"];
     </script>
 
 

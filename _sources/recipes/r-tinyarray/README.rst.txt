@@ -26,9 +26,17 @@ r-tinyarray
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-1``,  ``2.2.7-0``
+         <details><summary><span class="truncated-version-list"><code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.9-0</code>,  </span></summary>
+      
 
+      ``2.4.2-0``,  ``2.4.1-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-1``,  ``2.2.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,6 +46,7 @@ r-tinyarray
    :depends r-biocmanager: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-hmisc: 
    :depends r-patchwork: 
    :depends r-pheatmap: 
    :depends r-stringr: 
@@ -91,7 +100,7 @@ r-tinyarray
 
     <script>
         var package = "r-tinyarray";
-        var versions = ["2.3.3","2.3.2","2.3.1","2.3.1","2.3.0"];
+        var versions = ["2.4.2","2.4.1","2.3.3","2.3.2","2.3.1"];
     </script>
 
 

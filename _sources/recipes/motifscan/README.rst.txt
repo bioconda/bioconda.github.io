@@ -28,10 +28,10 @@ motifscan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.1.2-1</code>,  </span></summary>
       
 
-      ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1-1``,  ``1.1-0``
+      ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ motifscan
 
     <script>
         var package = "motifscan";
-        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.2.2"];
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.3.0"];
     </script>
 
 

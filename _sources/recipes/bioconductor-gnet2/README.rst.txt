@@ -15,6 +15,7 @@ bioconductor-gnet2
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/GNET2.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-gnet2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnet2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnet2/meta.yaml>`_
+   :links: biotools: :biotools:`gnet2`
 
    Cluster genes to functional groups with E\-M process. Iteratively perform TF assigning and Gene assigning\, until the assignment of genes did not change\, or max number of iterations is reached.
 
@@ -28,10 +29,10 @@ bioconductor-gnet2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -102,7 +103,7 @@ bioconductor-gnet2
 
     <script>
         var package = "bioconductor-gnet2";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.10.0"];
+        var versions = ["1.18.0","1.18.0","1.16.0","1.14.0","1.14.0"];
     </script>
 
 

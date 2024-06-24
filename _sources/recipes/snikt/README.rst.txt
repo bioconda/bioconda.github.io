@@ -27,12 +27,12 @@ snikt
       
       
 
-      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.0-0``
+      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.0-0``
 
       
 
    
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-docopt: 
    :depends r-gridextra: 
    :depends r-lubridate: 
@@ -85,7 +85,7 @@ snikt
 
     <script>
         var package = "snikt";
-        var versions = ["0.5.0","0.5.0","0.4.2","0.4.0"];
+        var versions = ["0.5.0","0.5.0","0.5.0","0.4.2","0.4.0"];
     </script>
 
 

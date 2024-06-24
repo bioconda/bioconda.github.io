@@ -13,7 +13,7 @@ bioconductor-bcrank
    Predicting binding site consensus from ranked DNA sequences
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/BCRANK.html
-   :license: GPL-2
+   :license: GPL-2.0-only
    :recipe: /`bioconductor-bcrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank/meta.yaml>`_
    :links: biotools: :biotools:`bcrank`, doi: :doi:`10.1093/nar/gkp381`
 
@@ -29,10 +29,10 @@ bioconductor-bcrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.56.0-2</code>,  <code>1.56.0-1</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.56.0-2</code>,  <code>1.56.0-1</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  </span></summary>
       
 
-      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.56.0-2``,  ``1.56.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
+      ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.56.0-2``,  ``1.56.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ bioconductor-bcrank
 
     <script>
         var package = "bioconductor-bcrank";
-        var versions = ["1.64.0","1.62.0","1.60.0","1.60.0","1.56.0"];
+        var versions = ["1.64.0","1.64.0","1.62.0","1.60.0","1.60.0"];
     </script>
 
 

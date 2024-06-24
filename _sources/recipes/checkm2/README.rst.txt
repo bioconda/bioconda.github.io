@@ -10,10 +10,10 @@ checkm2
    :replaces_section_title:
    :noindex:
 
-   CheckM2 \- Predicting the quality of metagenome\-recovered bins
+   Assessing the quality of metagenome\-derived genome bins using machine learning.
 
    :homepage: https://github.com/chklovski/CheckM2
-   :license: GPL-3.0
+   :license: GPL / GPL-3.0-only
    :recipe: /`checkm2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm2/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ checkm2
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -93,12 +93,16 @@ checkm2
 
     <script>
         var package = "checkm2";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.2","1.0.1"];
     </script>
 
 
 
 
+
+Notes
+-----
+CheckM2 requries the DIAMOND database that can be downloaded with \`checkm2 database \-\-download\`.
 
 
 Download stats

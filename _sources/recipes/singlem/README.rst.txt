@@ -13,7 +13,9 @@ singlem
    SingleM is a tool to find the abundances of discrete operational taxonomic units \(OTUs\) directly from shotgun metagenome data\, without heavy reliance on reference sequence databases. It is able to differentiate closely related species even if those species are from lineages new to science.
 
    :homepage: https://github.com/wwood/singlem
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :documentation: https://wwood.github.io/singlem/
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`singlem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singlem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singlem/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ singlem
       
       
 
-      ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
+      ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
 
       
 
@@ -111,7 +113,7 @@ singlem
 
     <script>
         var package = "singlem";
-        var versions = ["0.16.0","0.15.1","0.15.0","0.14.0","0.13.2"];
+        var versions = ["0.18.0","0.17.0","0.16.0","0.15.1","0.15.0"];
     </script>
 
 

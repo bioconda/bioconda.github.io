@@ -30,15 +30,16 @@ gargammel-slim
       
       
 
-      ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
+      ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
 
       
 
    
+   :depends bamtools: ``>=2.5.2,<2.6.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation

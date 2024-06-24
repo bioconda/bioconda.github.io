@@ -13,7 +13,7 @@ bioconductor-multtest
    Resampling\-based multiple hypothesis testing
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/multtest.html
-   :license: LGPL
+   :license: LGPL-3-only
    :recipe: /`bioconductor-multtest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest/meta.yaml>`_
    :links: biotools: :biotools:`multtest`, doi: :doi:`10.1007/0-387-29362-0_15`
 
@@ -29,10 +29,10 @@ bioconductor-multtest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.50.0-2</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.50.0-2</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  </span></summary>
       
 
-      ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.50.0-2``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``
+      ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.50.0-2``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ bioconductor-multtest
 
     <script>
         var package = "bioconductor-multtest";
-        var versions = ["2.58.0","2.56.0","2.54.0","2.54.0","2.50.0"];
+        var versions = ["2.58.0","2.58.0","2.56.0","2.54.0","2.54.0"];
     </script>
 
 

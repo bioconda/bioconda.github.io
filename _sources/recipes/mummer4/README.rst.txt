@@ -28,10 +28,10 @@ mummer4
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0rc1-6</code>,  <code>4.0.0rc1-5</code>,  <code>4.0.0rc1-4</code>,  <code>4.0.0rc1-3</code>,  <code>4.0.0rc1-2</code>,  <code>4.0.0rc1-1</code>,  <code>4.0.0rc1-0</code>,  <code>4.0.0beta2-5</code>,  <code>4.0.0beta2-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0rc1-7</code>,  <code>4.0.0rc1-6</code>,  <code>4.0.0rc1-5</code>,  <code>4.0.0rc1-4</code>,  <code>4.0.0rc1-3</code>,  <code>4.0.0rc1-2</code>,  <code>4.0.0rc1-1</code>,  <code>4.0.0rc1-0</code>,  <code>4.0.0beta2-5</code>,  </span></summary>
       
 
-      ``4.0.0rc1-6``,  ``4.0.0rc1-5``,  ``4.0.0rc1-4``,  ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
+      ``4.0.0rc1-7``,  ``4.0.0rc1-6``,  ``4.0.0rc1-5``,  ``4.0.0rc1-4``,  ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
 
       
       .. raw:: html

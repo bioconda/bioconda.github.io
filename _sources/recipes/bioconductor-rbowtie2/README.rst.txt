@@ -13,8 +13,9 @@ bioconductor-rbowtie2
    An R Wrapper for Bowtie2 and AdapterRemoval
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rbowtie2.html
-   :license: GPL (>= 3)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-rbowtie2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2/meta.yaml>`_
+   :links: biotools: :biotools:`rbowtie2`
 
    This package provides an R wrapper of the popular bowtie2 sequencing reads aligner and AdapterRemoval\, a convenient tool for rapid adapter trimming\, identification\, and read merging. The package contains wrapper functions that allow for genome indexing and alignment to those indexes. The package also allows for the creation of .bam files via Rsamtools.
 
@@ -28,10 +29,10 @@ bioconductor-rbowtie2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -95,7 +96,7 @@ bioconductor-rbowtie2
 
     <script>
         var package = "bioconductor-rbowtie2";
-        var versions = ["2.8.0","2.6.0","2.4.0","2.4.0","2.0.0"];
+        var versions = ["2.8.0","2.8.0","2.6.0","2.4.0","2.4.0"];
     </script>
 
 

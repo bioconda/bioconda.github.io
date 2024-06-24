@@ -29,7 +29,7 @@ binette
       
       
 
-      ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
@@ -40,7 +40,7 @@ binette
    :depends numpy: ``1.19.2.*``
    :depends packaging: 
    :depends pandas: ``1.4.0.*``
-   :depends pyfastx: 
+   :depends pyfastx: ``>=2``
    :depends pyrodigal: ``>=2``
    :depends python: ``>=3.7``
    :depends requests: 
@@ -92,7 +92,7 @@ binette
 
     <script>
         var package = "binette";
-        var versions = ["1.0.0","0.1.7","0.1.6"];
+        var versions = ["1.0.1","1.0.0","1.0.0","0.1.7","0.1.6"];
     </script>
 
 

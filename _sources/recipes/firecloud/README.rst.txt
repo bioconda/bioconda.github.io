@@ -10,10 +10,10 @@ firecloud
    :replaces_section_title:
    :noindex:
 
-   API and CLI for Broad Institute\'s Firecloud workspace\/workflow management service
+   API and CLI for Broad Institute\'s Firecloud workspace\/workflow management service.
 
    :homepage: https://github.com/broadinstitute/fiss
-   :documentation: https://software.broadinstitute.org/firecloud/
+   :documentation: https://software.broadinstitute.org/firecloud
    
    :license: BSD / BSD-3-Clause
    :recipe: /`firecloud <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/firecloud>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/firecloud/meta.yaml>`_
@@ -30,10 +30,10 @@ firecloud
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.35-0</code>,  <code>0.16.31-0</code>,  <code>0.16.30-0</code>,  <code>0.16.28-0</code>,  <code>0.16.27-1</code>,  <code>0.16.27-0</code>,  <code>0.16.26-1</code>,  <code>0.16.26-0</code>,  <code>0.16.25-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.16.37-0</code>,  <code>0.16.35-0</code>,  <code>0.16.31-0</code>,  <code>0.16.30-0</code>,  <code>0.16.28-0</code>,  <code>0.16.27-1</code>,  <code>0.16.27-0</code>,  <code>0.16.26-1</code>,  <code>0.16.26-0</code>,  </span></summary>
       
 
-      ``0.16.35-0``,  ``0.16.31-0``,  ``0.16.30-0``,  ``0.16.28-0``,  ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
+      ``0.16.37-0``,  ``0.16.35-0``,  ``0.16.31-0``,  ``0.16.30-0``,  ``0.16.28-0``,  ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
 
       
       .. raw:: html
@@ -44,8 +44,10 @@ firecloud
    
    :depends google-auth: ``>=1.6.3``
    :depends google-cloud-storage: 
+   :depends nose: 
    :depends pydot: 
-   :depends python: 
+   :depends pylint: ``>=1.9.5``
+   :depends python: ``<3.12``
    :depends requests: 
    :depends six: 
    :requirements:
@@ -95,7 +97,7 @@ firecloud
 
     <script>
         var package = "firecloud";
-        var versions = ["0.16.35","0.16.31","0.16.30","0.16.28","0.16.27"];
+        var versions = ["0.16.37","0.16.35","0.16.31","0.16.30","0.16.28"];
     </script>
 
 

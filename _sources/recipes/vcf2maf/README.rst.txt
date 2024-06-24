@@ -10,11 +10,12 @@ vcf2maf
    :replaces_section_title:
    :noindex:
 
-   Convert a VCF into a MAF where each variant is annotated to only one of all possible gene isoforms
+   Convert a VCF into a MAF where each variant is annotated to only one of all possible gene isoforms.
 
    :homepage: https://github.com/mskcc/vcf2maf
-   :license: Apache / Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`vcf2maf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2maf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2maf/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.593251`
 
    
 
@@ -28,10 +29,10 @@ vcf2maf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.21-0</code>,  <code>1.6.20-1</code>,  <code>1.6.20-0</code>,  <code>1.6.19-1</code>,  <code>1.6.19-0</code>,  <code>1.6.18-2</code>,  <code>1.6.18-1</code>,  <code>1.6.18-0</code>,  <code>1.6.17-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.22-0</code>,  <code>1.6.21-0</code>,  <code>1.6.20-1</code>,  <code>1.6.20-0</code>,  <code>1.6.19-1</code>,  <code>1.6.19-0</code>,  <code>1.6.18-2</code>,  <code>1.6.18-1</code>,  <code>1.6.18-0</code>,  </span></summary>
       
 
-      ``1.6.21-0``,  ``1.6.20-1``,  ``1.6.20-0``,  ``1.6.19-1``,  ``1.6.19-0``,  ``1.6.18-2``,  ``1.6.18-1``,  ``1.6.18-0``,  ``1.6.17-2``,  ``1.6.17-1``,  ``1.6.17-0``,  ``1.6.16-4``,  ``1.6.16-3``,  ``1.6.16-0``,  ``1.6.15-1``,  ``1.6.15-0``,  ``1.6.14-0``,  ``1.6.12-0``,  ``1.6.8-0``
+      ``1.6.22-0``,  ``1.6.21-0``,  ``1.6.20-1``,  ``1.6.20-0``,  ``1.6.19-1``,  ``1.6.19-0``,  ``1.6.18-2``,  ``1.6.18-1``,  ``1.6.18-0``,  ``1.6.17-2``,  ``1.6.17-1``,  ``1.6.17-0``,  ``1.6.16-4``,  ``1.6.16-3``,  ``1.6.16-0``,  ``1.6.15-1``,  ``1.6.15-0``,  ``1.6.14-0``,  ``1.6.12-0``,  ``1.6.8-0``
 
       
       .. raw:: html
@@ -90,7 +91,7 @@ vcf2maf
 
     <script>
         var package = "vcf2maf";
-        var versions = ["1.6.21","1.6.20","1.6.20","1.6.19","1.6.19"];
+        var versions = ["1.6.22","1.6.21","1.6.20","1.6.20","1.6.19"];
     </script>
 
 

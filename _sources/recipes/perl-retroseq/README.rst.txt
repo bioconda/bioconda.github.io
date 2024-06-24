@@ -27,16 +27,19 @@ perl-retroseq
       
       
 
-      ``1.5-1``,  ``1.5-0``
+      ``1.5-2``,  ``1.5-1``,  ``1.5-0``
 
       
 
    
+   :depends bcftools: 
    :depends bedtools: 
-   :depends exonerate: 
+   :depends exonerate: ``2.2.0``
+   :depends ncurses: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
-   :depends samtools: ``0.1.16.*``
+   :depends samtools: ``0.1.19``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +87,7 @@ perl-retroseq
 
     <script>
         var package = "perl-retroseq";
-        var versions = ["1.5","1.5"];
+        var versions = ["1.5","1.5","1.5"];
     </script>
 
 

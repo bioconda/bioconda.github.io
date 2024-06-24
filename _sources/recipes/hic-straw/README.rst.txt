@@ -27,14 +27,14 @@ hic-straw
       
       
 
-      ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends pybind11: ``>=2.4``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -85,7 +85,7 @@ hic-straw
 
     <script>
         var package = "hic-straw";
-        var versions = ["1.3.1","1.3.1","1.3.1"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1"];
     </script>
 
 

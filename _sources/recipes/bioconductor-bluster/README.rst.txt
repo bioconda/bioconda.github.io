@@ -13,8 +13,9 @@ bioconductor-bluster
    Clustering Algorithms for Bioconductor
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/bluster.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-bluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bluster/meta.yaml>`_
+   :links: biotools: :biotools:`bluster`
 
    Wraps common clustering algorithms in an easily extended S4 framework. Backends are implemented for hierarchical\, k\-means and graph\-based clustering. Several utilities are also provided to compare and evaluate clustering results.
 
@@ -28,10 +29,10 @@ bioconductor-bluster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -102,7 +103,7 @@ bioconductor-bluster
 
     <script>
         var package = "bioconductor-bluster";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.4.0"];
+        var versions = ["1.12.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

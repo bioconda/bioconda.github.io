@@ -13,7 +13,7 @@ bioconductor-ebimage
    Image processing and analysis toolbox for R
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/EBImage.html
-   :license: LGPL
+   :license: LGPL-3.0-only
    :recipe: /`bioconductor-ebimage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebimage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebimage/meta.yaml>`_
    :links: biotools: :biotools:`ebimage`
 
@@ -29,10 +29,10 @@ bioconductor-ebimage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.44.0-0</code>,  <code>4.42.0-0</code>,  <code>4.40.0-1</code>,  <code>4.40.0-0</code>,  <code>4.36.0-2</code>,  <code>4.36.0-1</code>,  <code>4.36.0-0</code>,  <code>4.34.0-0</code>,  <code>4.32.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.44.0-1</code>,  <code>4.44.0-0</code>,  <code>4.42.0-0</code>,  <code>4.40.0-1</code>,  <code>4.40.0-0</code>,  <code>4.36.0-2</code>,  <code>4.36.0-1</code>,  <code>4.36.0-0</code>,  <code>4.34.0-0</code>,  </span></summary>
       
 
-      ``4.44.0-0``,  ``4.42.0-0``,  ``4.40.0-1``,  ``4.40.0-0``,  ``4.36.0-2``,  ``4.36.0-1``,  ``4.36.0-0``,  ``4.34.0-0``,  ``4.32.0-1``,  ``4.32.0-0``,  ``4.30.0-0``,  ``4.28.0-0``,  ``4.26.0-1``,  ``4.24.0-0``,  ``4.22.1-0``,  ``4.20.0-0``,  ``4.18.3-0``,  ``4.13.0-0``,  ``4.12.2-0``
+      ``4.44.0-1``,  ``4.44.0-0``,  ``4.42.0-0``,  ``4.40.0-1``,  ``4.40.0-0``,  ``4.36.0-2``,  ``4.36.0-1``,  ``4.36.0-0``,  ``4.34.0-0``,  ``4.32.0-1``,  ``4.32.0-0``,  ``4.30.0-0``,  ``4.28.0-0``,  ``4.26.0-1``,  ``4.24.0-0``,  ``4.22.1-0``,  ``4.20.0-0``,  ``4.18.3-0``,  ``4.13.0-0``,  ``4.12.2-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ bioconductor-ebimage
 
     <script>
         var package = "bioconductor-ebimage";
-        var versions = ["4.44.0","4.42.0","4.40.0","4.40.0","4.36.0"];
+        var versions = ["4.44.0","4.44.0","4.42.0","4.40.0","4.40.0"];
     </script>
 
 

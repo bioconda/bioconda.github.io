@@ -26,14 +26,22 @@ ropebwt2
    :versions:
       
       
+      .. raw:: html
 
-      ``r187-8``,  ``r187-7``,  ``r187-6``,  ``r187-5``,  ``r187-4``,  ``r187-3``,  ``r187-2``,  ``r187-1``,  ``r187-0``
+         <details><summary><span class="truncated-version-list"><code>r187-9</code>,  <code>r187-8</code>,  <code>r187-7</code>,  <code>r187-6</code>,  <code>r187-5</code>,  <code>r187-4</code>,  <code>r187-3</code>,  <code>r187-2</code>,  <code>r187-1</code>,  </span></summary>
+      
 
+      ``r187-9``,  ``r187-8``,  ``r187-7``,  ``r187-6``,  ``r187-5``,  ``r187-4``,  ``r187-3``,  ``r187-2``,  ``r187-1``,  ``r187-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 

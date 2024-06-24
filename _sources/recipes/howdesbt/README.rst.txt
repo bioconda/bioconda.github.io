@@ -28,10 +28,10 @@ howdesbt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.00.13-1</code>,  <code>2.00.13-0</code>,  <code>2.00.10-1</code>,  <code>2.00.10-0</code>,  <code>2.00.07-0</code>,  <code>2.00.02-2</code>,  <code>2.00.02-1</code>,  <code>2.00.02-0</code>,  <code>1.00.03-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.00.15-0</code>,  <code>2.00.13-1</code>,  <code>2.00.13-0</code>,  <code>2.00.10-1</code>,  <code>2.00.10-0</code>,  <code>2.00.07-0</code>,  <code>2.00.02-2</code>,  <code>2.00.02-1</code>,  <code>2.00.02-0</code>,  </span></summary>
       
 
-      ``2.00.13-1``,  ``2.00.13-0``,  ``2.00.10-1``,  ``2.00.10-0``,  ``2.00.07-0``,  ``2.00.02-2``,  ``2.00.02-1``,  ``2.00.02-0``,  ``1.00.03-1``,  ``1.00.03-0``,  ``1.00.00-0``
+      ``2.00.15-0``,  ``2.00.13-1``,  ``2.00.13-0``,  ``2.00.10-1``,  ``2.00.10-0``,  ``2.00.07-0``,  ``2.00.02-2``,  ``2.00.02-1``,  ``2.00.02-0``,  ``1.00.03-1``,  ``1.00.03-0``,  ``1.00.00-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ howdesbt
    
    :depends croaring: ``>=0.2.66,<0.2.67.0a0``
    :depends kmer-jellyfish: ``>=2.2``
+   :depends kmer-jellyfish: ``>=2.3.1,<3.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends sdsl-lite: 
@@ -92,7 +93,7 @@ howdesbt
 
     <script>
         var package = "howdesbt";
-        var versions = ["2.00.13","2.00.13","2.00.10","2.00.10","2.00.07"];
+        var versions = ["2.00.15","2.00.13","2.00.13","2.00.10","2.00.10"];
     </script>
 
 

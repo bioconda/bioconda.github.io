@@ -10,13 +10,15 @@ kmer-jellyfish
    :replaces_section_title:
    :noindex:
 
-   Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA. A k\-mer is a substring of length k\, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+   Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA. A k\-mer is a substring of length k\, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence.
 
-   :homepage: http://www.genome.umd.edu/jellyfish.html
+   :homepage: https://genome.umd.edu/jellyfish.html
+   :documentation: https://genome.umd.edu/docs/JellyfishUserGuide.pdf
+   
    :developer docs: https://github.com/gmarcais/Jellyfish
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kmer-jellyfish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmer-jellyfish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmer-jellyfish/meta.yaml>`_
-   :links: biotools: :biotools:`jellyfish`, doi: :doi:`10.1093/bioinformatics/btr011`
+   :links: biotools: :biotools:`jellyfish`, doi: :doi:`10.1093/bioinformatics/btr011`, usegalaxy-eu: :usegalaxy-eu:`jellyfish`
 
    
 
@@ -28,9 +30,17 @@ kmer-jellyfish
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.1-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``1.1.12-2``,  ``1.1.12-1``,  ``1.1.12-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>1.1.12-2</code>,  <code>1.1.12-1</code>,  </span></summary>
+      
 
+      ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``1.1.12-2``,  ``1.1.12-1``,  ``1.1.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -83,7 +93,7 @@ kmer-jellyfish
 
     <script>
         var package = "kmer-jellyfish";
-        var versions = ["2.3.1","2.3.0","2.3.0","2.3.0","2.3.0"];
+        var versions = ["2.3.1","2.3.1","2.3.1","2.3.0","2.3.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ kitsune
    kitsune
 
    :homepage: https://github.com/natapol/kitsune
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`kitsune <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kitsune>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kitsune/meta.yaml>`_
 
    K\-mer\-length Iterative Selection for UNbiased Ecophylogenomics
@@ -28,7 +28,7 @@ kitsune
       
       
 
-      ``1.3.3-0``
+      ``1.3.5-0``,  ``1.3.3-0``
 
       
 
@@ -85,7 +85,7 @@ kitsune
 
     <script>
         var package = "kitsune";
-        var versions = ["1.3.3"];
+        var versions = ["1.3.5","1.3.3"];
     </script>
 
 

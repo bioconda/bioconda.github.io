@@ -13,6 +13,8 @@ libcifpp
    Library containing code to manipulate mmCIF and PDB files
 
    :homepage: https://github.com/PDB-REDO/libcifpp
+   :documentation: https://pdb-redo.github.io/libcifpp/
+   
    :license: BSD / BSD-2-Clause
    :recipe: /`libcifpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcifpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcifpp/meta.yaml>`_
 
@@ -28,10 +30,10 @@ libcifpp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.2-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.0.0-0</code>,  <code>3.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.0.4-1</code>,  <code>7.0.4-0</code>,  <code>7.0.3-0</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.2-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  </span></summary>
       
 
-      ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
+      ``7.0.4-1``,  ``7.0.4-0``,  ``7.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -40,8 +42,11 @@ libcifpp
       
 
    
+   :depends boost-cpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +94,7 @@ libcifpp
 
     <script>
         var package = "libcifpp";
-        var versions = ["5.0.0","5.0.0","5.0.0","4.2.2","4.2.0"];
+        var versions = ["7.0.4","7.0.4","7.0.3","5.0.0","5.0.0"];
     </script>
 
 

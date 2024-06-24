@@ -13,8 +13,9 @@ bioconductor-grohmm
    GRO\-seq Analysis Pipeline
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/groHMM.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-grohmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grohmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grohmm/meta.yaml>`_
+   :links: biotools: :biotools:`grohmm`
 
    A pipeline for the analysis of GRO\-seq data.
 
@@ -28,10 +29,10 @@ bioconductor-grohmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
+      ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -104,7 +105,7 @@ bioconductor-grohmm
 
     <script>
         var package = "bioconductor-grohmm";
-        var versions = ["1.36.0","1.34.0","1.32.0","1.32.0","1.28.0"];
+        var versions = ["1.36.0","1.36.0","1.34.0","1.32.0","1.32.0"];
     </script>
 
 

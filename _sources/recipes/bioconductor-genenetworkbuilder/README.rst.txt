@@ -13,8 +13,9 @@ bioconductor-genenetworkbuilder
    GeneNetworkBuilder\: a bioconductor package for building regulatory network using ChIP\-chip\/ChIP\-seq data and Gene Expression Data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeneNetworkBuilder.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-genenetworkbuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder/meta.yaml>`_
+   :links: biotools: :biotools:`genenetworkbuilder`
 
    Appliation for discovering direct or indirect targets of transcription factors using ChIP\-chip or ChIP\-seq\, and microarray or RNA\-seq gene expression data. Inputting a list of genes of potential targets of one TF from ChIP\-chip or ChIP\-seq\, and the gene expression results\, GeneNetworkBuilder generates a regulatory network of the TF.
 
@@ -28,10 +29,10 @@ bioconductor-genenetworkbuilder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.36.1-1</code>,  <code>1.36.1-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.36.1-1</code>,  <code>1.36.1-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.36.1-1``,  ``1.36.1-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.24.1-0``,  ``1.24.0-0``
+      ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.36.1-1``,  ``1.36.1-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.24.1-0``,  ``1.24.0-0``
 
       
       .. raw:: html
@@ -101,7 +102,7 @@ bioconductor-genenetworkbuilder
 
     <script>
         var package = "bioconductor-genenetworkbuilder";
-        var versions = ["1.44.0","1.42.0","1.40.0","1.40.0","1.36.1"];
+        var versions = ["1.44.0","1.44.0","1.42.0","1.40.0","1.40.0"];
     </script>
 
 

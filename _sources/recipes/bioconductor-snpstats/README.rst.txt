@@ -13,7 +13,7 @@ bioconductor-snpstats
    SnpMatrix and XSnpMatrix classes and methods
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/snpStats.html
-   :license: GPL-3
+   :license: GPL-3-only
    :recipe: /`bioconductor-snpstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpstats/meta.yaml>`_
    :links: biotools: :biotools:`snpstats`, doi: :doi:`10.1038/nmeth.3252`
 
@@ -29,10 +29,10 @@ bioconductor-snpstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.44.0-2</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.44.0-2</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  </span></summary>
       
 
-      ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.44.0-2``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``
+      ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.44.0-2``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ bioconductor-snpstats
 
     <script>
         var package = "bioconductor-snpstats";
-        var versions = ["1.52.0","1.50.0","1.48.0","1.48.0","1.44.0"];
+        var versions = ["1.52.0","1.52.0","1.50.0","1.48.0","1.48.0"];
     </script>
 
 

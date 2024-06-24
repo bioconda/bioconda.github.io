@@ -30,7 +30,7 @@ orthofisher
       
       
 
-      ``1.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -86,7 +86,7 @@ orthofisher
 
     <script>
         var package = "orthofisher";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.1","1.1.0"];
     </script>
 
 

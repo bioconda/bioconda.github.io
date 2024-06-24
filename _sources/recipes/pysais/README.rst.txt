@@ -27,13 +27,13 @@ pysais
       
       
 
-      ``1.1.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pytables: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -84,7 +84,7 @@ pysais
 
     <script>
         var package = "pysais";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.0","1.1.0"];
     </script>
 
 

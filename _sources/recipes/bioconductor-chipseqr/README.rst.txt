@@ -13,8 +13,9 @@ bioconductor-chipseqr
    Identifying Protein Binding Sites in High\-Throughput Sequencing Data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/ChIPseqR.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-chipseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqr/meta.yaml>`_
+   :links: biotools: :biotools:`chipseqr`
 
    ChIPseqR identifies protein binding sites from ChIP\-seq and nucleosome positioning experiments. The model used to describe binding events was developed to locate nucleosomes but should flexible enough to handle other types of experiments as well.
 
@@ -28,10 +29,10 @@ bioconductor-chipseqr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.56.0-1</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  </span></summary>
       
 
-      ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-1``,  ``1.36.0-0``
+      ``1.56.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-1``,  ``1.36.0-0``
 
       
       .. raw:: html
@@ -107,7 +108,7 @@ bioconductor-chipseqr
 
     <script>
         var package = "bioconductor-chipseqr";
-        var versions = ["1.56.0","1.54.0","1.52.0","1.52.0","1.48.0"];
+        var versions = ["1.56.0","1.56.0","1.54.0","1.52.0","1.52.0"];
     </script>
 
 

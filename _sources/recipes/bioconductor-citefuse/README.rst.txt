@@ -13,8 +13,9 @@ bioconductor-citefuse
    CiteFuse\: multi\-modal analysis of CITE\-seq data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/CiteFuse.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-citefuse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citefuse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citefuse/meta.yaml>`_
+   :links: biotools: :biotools:`citefuse`
 
    CiteFuse pacakage implements a suite of methods and tools for CITE\-seq data from pre\-processing to integrative analytics\, including doublet detection\, network\-based modality integration\, cell type clustering\, differential RNA and protein expression analysis\, ADT evaluation\, ligand\-receptor interaction analysis\, and interactive web\-based visualisation of the analyses.
 
@@ -27,7 +28,7 @@ bioconductor-citefuse
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -112,7 +113,7 @@ bioconductor-citefuse
 
     <script>
         var package = "bioconductor-citefuse";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.14.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

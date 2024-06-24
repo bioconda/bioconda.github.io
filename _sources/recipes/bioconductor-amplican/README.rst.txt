@@ -13,8 +13,9 @@ bioconductor-amplican
    Automated analysis of CRISPR experiments
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/amplican.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-amplican <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican/meta.yaml>`_
+   :links: biotools: :biotools:`amplican`
 
    \`amplican\` performs alignment of the amplicon reads\, normalizes gathered data\, calculates multiple statistics \(e.g. cut rates\, frameshifts\) and presents results in form of aggregated reports. Data and statistics can be broken down by experiments\, barcodes\, user defined groups\, guides and amplicons allowing for quick identification of potential problems.
 
@@ -28,10 +29,10 @@ bioconductor-amplican
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+      ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -122,7 +123,7 @@ bioconductor-amplican
 
     <script>
         var package = "bioconductor-amplican";
-        var versions = ["1.24.0","1.22.1","1.20.0","1.20.0","1.16.0"];
+        var versions = ["1.24.0","1.24.0","1.22.1","1.20.0","1.20.0"];
     </script>
 
 

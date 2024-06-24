@@ -30,12 +30,12 @@ haploflow
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.1-1``,  ``0.1-0``
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -85,7 +85,7 @@ haploflow
 
     <script>
         var package = "haploflow";
-        var versions = ["1.0","1.0","1.0","1.0","0.1"];
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ ngs-smap
    SMAP is an analysis tool for stack\-based NGS read mapping
 
    :homepage: https://gitlab.com/truttink/smap
-   :license: CC / CC BY-NC-SA 4.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ngs-smap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-smap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-smap/meta.yaml>`_
 
    
@@ -27,17 +27,30 @@ ngs-smap
       
       
 
-      ``4.6.5-0``,  ``4.6.4-0``,  ``4.6.2-0``,  ``4.6.1-0``,  ``4.6.0-0``,  ``4.5.1-0``,  ``4.5.0-0``
+      ``5.0.1-0``,  ``4.6.5-0``,  ``4.6.4-0``,  ``4.6.2-0``,  ``4.6.1-0``,  ``4.6.0-0``,  ``4.5.1-0``,  ``4.5.0-0``
 
       
 
    
+   :depends biopython: ``>=1.8``
    :depends colorlog: ``>=6.6.0,<6.7``
+   :depends cutadapt: ``4.4``
+   :depends gffpandas: ``1.2.*``
+   :depends gffutils: 
    :depends matplotlib-base: ``>=3.5.1,<3.6``
-   :depends pandas: ``>=1.4.0,<1.5``
+   :depends natsort: ``8.2.0``
+   :depends numexpr: 
+   :depends openpyxl: ``>=3.0.9,<3.1.0``
+   :depends pandas: ``>=2.0.3,<2.1.0``
+   :depends plotly: ``>=5.5``
+   :depends primer3-py: 
    :depends pybedtools: ``>=0.9.0,<0.10``
-   :depends pysam: ``>=0.18.0,<0.19``
-   :depends python: ``>=3.8.1``
+   :depends pysam: ``>=0.22.0,<0.23.0``
+   :depends python: ``>=3.8.1,!=3.11``
+   :depends scipy: 
+   :depends seaborn: ``0.12.1``
+   :depends tqdm: 
+   :depends typing-extensions: ``>=4.0.0,<4.1.1``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +98,7 @@ ngs-smap
 
     <script>
         var package = "ngs-smap";
-        var versions = ["4.6.5","4.6.4","4.6.2","4.6.1","4.6.0"];
+        var versions = ["5.0.1","4.6.5","4.6.4","4.6.2","4.6.1"];
     </script>
 
 

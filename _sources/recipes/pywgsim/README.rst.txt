@@ -27,7 +27,7 @@ pywgsim
       
       
 
-      ``0.5.2-1``,  ``0.5.2-0``
+      ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``
 
       
 
@@ -82,7 +82,7 @@ pywgsim
 
     <script>
         var package = "pywgsim";
-        var versions = ["0.5.2","0.5.2"];
+        var versions = ["0.5.2","0.5.2","0.5.2"];
     </script>
 
 

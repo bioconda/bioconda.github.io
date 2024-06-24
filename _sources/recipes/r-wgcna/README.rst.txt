@@ -13,7 +13,7 @@ r-wgcna
    Functions necessary to perform Weighted Correlation Network Analysis on high\-dimensional data as originally described in Horvath and Zhang \(2005\) \<doi\:10.2202\/1544\-6115.1128\> and Langfelder and Horvath \(2008\) \<doi\:10.1186\/1471\-2105\-9\-559\>. Includes functions for rudimentary data cleaning\, construction of correlation networks\, module identification\, summarization\, and relating of variables and modules to sample traits. Also includes a number of utility functions for data manipulation and visualization.
 
    :homepage: http://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-wgcna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wgcna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wgcna/meta.yaml>`_
    :links: biotools: :biotools:`wgcna`, doi: :doi:`10.1186/1471-2105-9-559`
 
@@ -29,10 +29,10 @@ r-wgcna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.71-4</code>,  <code>1.71-3</code>,  <code>1.71-2</code>,  <code>1.71-0</code>,  <code>1.69-5</code>,  <code>1.69-4</code>,  <code>1.69-3</code>,  <code>1.69-2</code>,  <code>1.69-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.71-5</code>,  <code>1.71-4</code>,  <code>1.71-3</code>,  <code>1.71-2</code>,  <code>1.71-0</code>,  <code>1.69-5</code>,  <code>1.69-4</code>,  <code>1.69-3</code>,  <code>1.69-2</code>,  </span></summary>
       
 
-      ``1.71-4``,  ``1.71-3``,  ``1.71-2``,  ``1.71-0``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``,  ``1.68-1``,  ``1.68-0``,  ``1.67-0``,  ``1.66-1``,  ``1.66-0``,  ``1.64_1-0``,  ``1.61-0``,  ``1.51-1``,  ``1.51-0``
+      ``1.71-5``,  ``1.71-4``,  ``1.71-3``,  ``1.71-2``,  ``1.71-0``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``,  ``1.68-1``,  ``1.68-0``,  ``1.67-0``,  ``1.66-1``,  ``1.66-0``,  ``1.64_1-0``,  ``1.61-0``,  ``1.51-1``,  ``1.51-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ r-wgcna
       
 
    
-   :depends bioconductor-annotationdbi: 
-   :depends bioconductor-go.db: 
-   :depends bioconductor-impute: 
-   :depends bioconductor-preprocesscore: 
+   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
+   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-impute: ``>=1.76.0,<1.77.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -104,7 +104,7 @@ r-wgcna
 
     <script>
         var package = "r-wgcna";
-        var versions = ["1.71","1.71","1.71","1.71","1.69"];
+        var versions = ["1.71","1.71","1.71","1.71","1.71"];
     </script>
 
 

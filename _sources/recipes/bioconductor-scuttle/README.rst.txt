@@ -13,8 +13,9 @@ bioconductor-scuttle
    Single\-Cell RNA\-Seq Analysis Utilities
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/scuttle.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-scuttle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scuttle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scuttle/meta.yaml>`_
+   :links: biotools: :biotools:`scuttle`
 
    Provides basic utility functions for performing single\-cell analyses\, focusing on simple normalization\, quality control and data transformations. Also provides some helper functions to assist development of other packages.
 
@@ -28,10 +29,10 @@ bioconductor-scuttle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.4-0``,  ``1.0.0-0``
+      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.4-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -112,7 +113,7 @@ bioconductor-scuttle
 
     <script>
         var package = "bioconductor-scuttle";
-        var versions = ["1.12.0","1.10.1","1.8.0","1.8.0","1.4.0"];
+        var versions = ["1.12.0","1.12.0","1.10.1","1.8.0","1.8.0"];
     </script>
 
 

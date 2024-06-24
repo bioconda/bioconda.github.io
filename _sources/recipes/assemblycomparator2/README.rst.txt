@@ -10,10 +10,12 @@ assemblycomparator2
    :replaces_section_title:
    :noindex:
 
-   assemblycomparator2\: Compare prokaryotic genomic assemblies
+   Assemblycomparator2\: Genomes to report pipeline
 
    :homepage: https://github.com/cmkobel/assemblycomparator2
-   :license: GPL / GPL-3.0
+   :documentation: https://assemblycomparator2.readthedocs.io/
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`assemblycomparator2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblycomparator2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblycomparator2/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ assemblycomparator2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.5.18-0</code>,  <code>2.5.17-0</code>,  <code>2.5.16-0</code>,  <code>2.5.15-0</code>,  <code>2.5.14-0</code>,  <code>2.5.13-0</code>,  <code>2.5.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.1-2</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.5.18-0</code>,  <code>2.5.17-0</code>,  <code>2.5.16-0</code>,  <code>2.5.15-0</code>,  </span></summary>
       
 
-      ``2.6.2-0``,  ``2.6.1-0``,  ``2.5.18-0``,  ``2.5.17-0``,  ``2.5.16-0``,  ``2.5.15-0``,  ``2.5.14-0``,  ``2.5.13-0``,  ``2.5.12-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``
+      ``2.7.1-2``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.5.18-0``,  ``2.5.17-0``,  ``2.5.16-0``,  ``2.5.15-0``,  ``2.5.14-0``,  ``2.5.13-0``,  ``2.5.12-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``
 
       
       .. raw:: html
@@ -40,8 +42,10 @@ assemblycomparator2
       
 
    
-   :depends mamba: ``>=1.4.9``
-   :depends snakemake: ``7.32.4.*``
+   :depends mamba: 
+   :depends pandas: 
+   :depends pulp: ``<2.8``
+   :depends snakemake-minimal: ``<8``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +93,7 @@ assemblycomparator2
 
     <script>
         var package = "assemblycomparator2";
-        var versions = ["2.6.2","2.6.1","2.5.18","2.5.17","2.5.16"];
+        var versions = ["2.7.1","2.7.1","2.7.1","2.6.2","2.6.1"];
     </script>
 
 

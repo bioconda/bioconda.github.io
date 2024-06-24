@@ -28,9 +28,17 @@ monsda
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.4-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.4-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  </span></summary>
+      
 
+      ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -45,14 +53,14 @@ monsda
    :depends python: ``>=3.12``
    :depends pyyaml: ``>=6.0.1``
    :depends scipy: ``>=1.12.0``
-   :depends snakemake: ``>=8.10.0``
+   :depends snakemake: ``>=8.11.3``
    :depends snakemake-executor-plugin-cluster-generic: ``1.0.9.*``
-   :depends snakemake-executor-plugin-slurm: ``0.4.2.*``
-   :depends snakemake-interface-common: ``1.17.1.*``
-   :depends snakemake-interface-executor-plugins: ``9.0.2.*``
+   :depends snakemake-executor-plugin-slurm: ``0.5.0.*``
+   :depends snakemake-interface-common: ``1.17.2.*``
+   :depends snakemake-interface-executor-plugins: ``9.1.1.*``
    :depends snakemake-interface-report-plugins: ``1.0.0.*``
-   :depends snakemake-interface-storage-plugins: ``3.1.1.*``
-   :depends snakemake-storage-plugin-s3: ``0.2.10.*``
+   :depends snakemake-interface-storage-plugins: ``3.2.2.*``
+   :depends snakemake-storage-plugin-s3: ``0.2.11.*``
    :depends versioneer: ``>=0.20``
    :requirements:
 
@@ -101,7 +109,7 @@ monsda
 
     <script>
         var package = "monsda";
-        var versions = ["1.2.4","1.2.2","1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.2.7","1.2.6","1.2.4","1.2.2","1.2.2"];
     </script>
 
 

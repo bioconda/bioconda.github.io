@@ -28,11 +28,12 @@ kpop
       
       
 
-      ``1.1.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``
 
       
 
    
+   :depends bash: ``>=4.4.20``
    :depends r-ca: 
    :depends r-data.table: 
    :requirements:
@@ -82,7 +83,7 @@ kpop
 
     <script>
         var package = "kpop";
-        var versions = ["1.1.1"];
+        var versions = ["1.1.1","1.1.1"];
     </script>
 
 

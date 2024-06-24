@@ -26,13 +26,22 @@ extract-sv-reads
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.2-0``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.0-5</code>,  <code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+      
 
+      ``1.3.0-5``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.2-0``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
+   :depends htslib: ``1.9.*``
    :depends htslib: ``>=1.9,<1.10.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

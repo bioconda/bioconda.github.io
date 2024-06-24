@@ -13,7 +13,7 @@ bioconductor-acme
    Algorithms for Calculating Microarray Enrichment \(ACME\)
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/ACME.html
-   :license: GPL (>= 2)
+   :license: GPL-3-only
    :recipe: /`bioconductor-acme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme/meta.yaml>`_
    :links: biotools: :biotools:`acme`
 
@@ -29,10 +29,10 @@ bioconductor-acme
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.50.0-2</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.50.0-2</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  </span></summary>
       
 
-      ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.50.0-2``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``
+      ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.50.0-2``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ bioconductor-acme
 
     <script>
         var package = "bioconductor-acme";
-        var versions = ["2.58.0","2.56.0","2.54.0","2.54.0","2.50.0"];
+        var versions = ["2.58.0","2.58.0","2.56.0","2.54.0","2.54.0"];
     </script>
 
 

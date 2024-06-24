@@ -12,8 +12,11 @@ ucsc-bigwiginfo
 
    Print out information about bigWig file.
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-bigwiginfo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwiginfo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwiginfo/meta.yaml>`_
 
    
@@ -26,19 +29,26 @@ ucsc-bigwiginfo
    :versions:
       
       
+      .. raw:: html
 
-      ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+         <details><summary><span class="truncated-version-list"><code>466-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-1</code>,  <code>357-0</code>,  <code>332-0</code>,  </span></summary>
+      
 
+      ``466-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libpng: ``>=1.6.37,<1.7.0a0``
-   :depends libuuid: ``>=2.32.1,<3.0a0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libopenssl-static: 
+   :depends libpng: ``>=1.6.43,<1.7.0a0``
+   :depends libuuid: ``>=2.38.1,<3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +96,7 @@ ucsc-bigwiginfo
 
     <script>
         var package = "ucsc-bigwiginfo";
-        var versions = ["377","377","377","377","366"];
+        var versions = ["466","377","377","377","377"];
     </script>
 
 

@@ -26,23 +26,31 @@ cnvnator
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.1-8``,  ``0.4.1-7``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.1-9</code>,  <code>0.4.1-8</code>,  <code>0.4.1-7</code>,  <code>0.4.1-6</code>,  <code>0.4.1-5</code>,  <code>0.4.1-4</code>,  <code>0.4.1-3</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  </span></summary>
+      
 
+      ``0.4.1-9``,  ``0.4.1-8``,  ``0.4.1-7``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends matplotlib-base: 
-   :depends ncurses: ``>=6.3,<7.0a0``
+   :depends ncurses: ``>=6.5,<7.0a0``
    :depends numpy: 
    :depends perl-getopt-long: 
    :depends python: ``>=3.11,<3.12.0a0``
-   :depends root_base: ``>=6.26.10,<6.26.11.0a0``
+   :depends root_base: ``>=6.30.2,<6.30.3.0a0``
    :requirements:
 
    .. rubric:: Installation

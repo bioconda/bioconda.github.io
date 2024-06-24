@@ -28,7 +28,7 @@ msweep
       
       
 
-      ``2.0.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``
+      ``2.1.0-0``,  ``2.0.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``
 
       
 
@@ -37,7 +37,7 @@ msweep
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
@@ -86,7 +86,7 @@ msweep
 
     <script>
         var package = "msweep";
-        var versions = ["2.0.0","1.6.3","1.6.3","1.6.3"];
+        var versions = ["2.1.0","2.0.0","1.6.3","1.6.3","1.6.3"];
     </script>
 
 

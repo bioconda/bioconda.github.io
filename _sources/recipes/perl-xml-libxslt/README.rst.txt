@@ -28,10 +28,10 @@ perl-xml-libxslt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.002001-2</code>,  <code>2.002001-1</code>,  <code>2.002001-0</code>,  <code>2.002000-1</code>,  <code>2.002000-0</code>,  <code>2.001000-0</code>,  <code>2.000000-0</code>,  <code>1.99-1</code>,  <code>1.99-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.003000-0</code>,  <code>2.002001-2</code>,  <code>2.002001-1</code>,  <code>2.002001-0</code>,  <code>2.002000-1</code>,  <code>2.002000-0</code>,  <code>2.001000-0</code>,  <code>2.000000-0</code>,  <code>1.99-1</code>,  </span></summary>
       
 
-      ``2.002001-2``,  ``2.002001-1``,  ``2.002001-0``,  ``2.002000-1``,  ``2.002000-0``,  ``2.001000-0``,  ``2.000000-0``,  ``1.99-1``,  ``1.99-0``,  ``1.94-2``,  ``1.94-1``,  ``1.94-0``
+      ``2.003000-0``,  ``2.002001-2``,  ``2.002001-1``,  ``2.002001-0``,  ``2.002000-1``,  ``2.002000-0``,  ``2.001000-0``,  ``2.000000-0``,  ``1.99-1``,  ``1.99-0``,  ``1.94-2``,  ``1.94-1``,  ``1.94-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ perl-xml-libxslt
 
     <script>
         var package = "perl-xml-libxslt";
-        var versions = ["2.002001","2.002001","2.002001","2.002000","2.002000"];
+        var versions = ["2.003000","2.002001","2.002001","2.002001","2.002000"];
     </script>
 
 

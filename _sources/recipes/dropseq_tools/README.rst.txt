@@ -13,7 +13,10 @@ dropseq_tools
    Package for the analysis of Drop\-seq data developed by Jim Nemesh in the McCarroll Lab
 
 
-   :homepage: http://mccarrolllab.com/dropseq/
+   :homepage: https://mccarrolllab.com/dropseq
+   :documentation: https://github.com/broadinstitute/Drop-seq/blob/v3.0.1/README.md
+   
+   :developer docs: https://github.com/broadinstitute/Drop-seq
    :license: MIT / MIT
    :recipe: /`dropseq_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropseq_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropseq_tools/meta.yaml>`_
 
@@ -28,12 +31,12 @@ dropseq_tools
       
       
 
-      ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.0.0-0``,  ``1.13-0``
+      ``3.0.1-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.0.0-0``,  ``1.13-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=21``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +84,7 @@ dropseq_tools
 
     <script>
         var package = "dropseq_tools";
-        var versions = ["2.5.1","2.5.0","2.4.1","2.4.0","2.4.0"];
+        var versions = ["3.0.1","2.5.1","2.5.0","2.4.1","2.4.0"];
     </script>
 
 

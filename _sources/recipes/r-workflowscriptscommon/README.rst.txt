@@ -13,7 +13,7 @@ r-workflowscriptscommon
    Common functions for making R function wapper scripts. Functions in R packages are hard to call when building workflows outside of R\, so this package is used by other packages \(e.g. r\-seurat\-scripts\) to add sets of simple wrappers with robust argument parsing.
 
    :homepage: https://github.com/ebi-gene-expression-group/workflowscriptscommon
-   :license: GPL / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-workflowscriptscommon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-workflowscriptscommon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-workflowscriptscommon/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ r-workflowscriptscommon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.8-4</code>,  <code>0.0.8-3</code>,  <code>0.0.8-2</code>,  <code>0.0.8-1</code>,  <code>0.0.8-0</code>,  <code>0.0.7-3</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.8-5</code>,  <code>0.0.8-4</code>,  <code>0.0.8-3</code>,  <code>0.0.8-2</code>,  <code>0.0.8-1</code>,  <code>0.0.8-0</code>,  <code>0.0.7-3</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  </span></summary>
       
 
-      ``0.0.8-4``,  ``0.0.8-3``,  ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-3``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.8-5``,  ``0.0.8-4``,  ``0.0.8-3``,  ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-3``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ r-workflowscriptscommon
       
 
    
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-optparse: 
    :requirements:
 

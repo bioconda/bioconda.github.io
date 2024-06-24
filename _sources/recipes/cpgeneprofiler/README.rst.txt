@@ -27,7 +27,7 @@ cpgeneprofiler
       
       
 
-      ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
+      ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
 
       
 
@@ -35,7 +35,7 @@ cpgeneprofiler
    :depends bioconductor-biostrings: 
    :depends blast: ``>=2.9.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-biocmanager: 
    :depends r-gridextra: 
    :depends r-jpeg: 
@@ -94,7 +94,7 @@ cpgeneprofiler
 
     <script>
         var package = "cpgeneprofiler";
-        var versions = ["2.1.1","2.1.1","2.1.1","2.1.1"];
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1.1","2.1.1"];
     </script>
 
 

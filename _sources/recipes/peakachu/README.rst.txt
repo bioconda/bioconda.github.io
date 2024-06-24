@@ -26,9 +26,17 @@ peakachu
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.0-4</code>,  <code>0.2.0-3</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.0-5</code>,  <code>0.1.0-4</code>,  <code>0.1.0-3</code>,  <code>0.1.0-1</code>,  </span></summary>
+      
 
+      ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ peakachu
 
     <script>
         var package = "peakachu";
-        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.1.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.2.0"];
     </script>
 
 

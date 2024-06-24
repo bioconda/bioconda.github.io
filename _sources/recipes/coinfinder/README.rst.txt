@@ -29,10 +29,10 @@ coinfinder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  </span></summary>
       
 
-      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ coinfinder
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bioconductor-ggtree: ``>=2.0.0,<2.1.0``
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends boost-cpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -114,7 +114,7 @@ coinfinder
 
     <script>
         var package = "coinfinder";
-        var versions = ["1.2.1","1.2.1","1.2.0","1.2.0","1.1.0"];
+        var versions = ["1.2.1","1.2.1","1.2.1","1.2.0","1.2.0"];
     </script>
 
 

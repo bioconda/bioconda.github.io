@@ -33,21 +33,21 @@ autometa
       
       
 
-      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
    
    :depends attrs: 
    :depends bedtools: 
-   :depends biopython: 
+   :depends biopython: ``>=1.82``
    :depends bowtie2: 
    :depends diamond: ``>=2.0``
    :depends gdown: 
    :depends hmmer: 
    :depends numba: ``>=0.47``
    :depends numpy: ``>=1.13``
-   :depends pandas: ``>=1.1``
+   :depends pandas: ``>=1.5``
    :depends parallel: 
    :depends prodigal: ``>=2.5``
    :depends python: ``>=3.7``
@@ -109,7 +109,7 @@ autometa
 
     <script>
         var package = "autometa";
-        var versions = ["2.2.1","2.2.0","2.1.0","2.0.3","2.0.2"];
+        var versions = ["2.2.3","2.2.2","2.2.1","2.2.0","2.1.0"];
     </script>
 
 

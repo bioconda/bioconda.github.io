@@ -26,14 +26,22 @@ scallop-lr
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.2-8``,  ``0.9.2-7``,  ``0.9.2-6``,  ``0.9.2-5``,  ``0.9.2-4``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.2-9</code>,  <code>0.9.2-8</code>,  <code>0.9.2-7</code>,  <code>0.9.2-6</code>,  <code>0.9.2-5</code>,  <code>0.9.2-4</code>,  <code>0.9.2-3</code>,  <code>0.9.2-2</code>,  <code>0.9.2-1</code>,  </span></summary>
+      
 
+      ``0.9.2-9``,  ``0.9.2-8``,  ``0.9.2-7``,  ``0.9.2-6``,  ``0.9.2-5``,  ``0.9.2-4``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends boost-cpp: 
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:

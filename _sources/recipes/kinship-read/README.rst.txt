@@ -10,12 +10,13 @@ kinship-read
    :replaces_section_title:
    :noindex:
 
-   READ is a method to infer the degree of relationship for a pair of low\-coverage individuals.
+   Relationship Estimation from Ancient DNA version 2 \(READv2\)
 
-   :homepage: https://bitbucket.org/tguenther/read/src/master/
+   :homepage: https://github.com/GuntherLab/READv2
+   :documentation: https://github.com/GuntherLab/READv2?tab=readme-ov-file
+   
    :license: GPL-3.0-only
    :recipe: /`kinship-read <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kinship-read>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kinship-read/meta.yaml>`_
-   :links: doi: :doi:`10.1371/journal.pone.0195491`
 
    
 
@@ -28,13 +29,16 @@ kinship-read
       
       
 
-      ``1.0-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``1.0-0``
 
       
 
    
-   :depends python: ``>=2.7,<3``
-   :depends r-base: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends plinkio: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +86,7 @@ kinship-read
 
     <script>
         var package = "kinship-read";
-        var versions = ["1.0"];
+        var versions = ["2.1.1","2.1.0","1.0"];
     </script>
 
 

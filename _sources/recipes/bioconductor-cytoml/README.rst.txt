@@ -28,10 +28,10 @@ bioconductor-cytoml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.2-0</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+      ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ bioconductor-cytoml
    :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
    :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
    :depends bioconductor-cytolib: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-cytolib: ``>=2.14.0,<2.15.0a0``
+   :depends bioconductor-cytolib: ``>=2.14.1,<2.15.0a0``
    :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
    :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0a0``
    :depends bioconductor-flowworkspace: ``>=4.14.0,<4.15.0``
@@ -66,7 +66,7 @@ bioconductor-cytoml
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends libxml2: ``>=2.11.6,<2.12.0a0``
+   :depends libxml2: ``>=2.12.7,<3.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: ``>=1.62.0-1``
    :depends r-cpp11: 
@@ -123,7 +123,7 @@ bioconductor-cytoml
 
     <script>
         var package = "bioconductor-cytoml";
-        var versions = ["2.14.0","2.12.0","2.10.0","2.6.0","2.6.0"];
+        var versions = ["2.14.0","2.14.0","2.12.0","2.10.0","2.6.0"];
     </script>
 
 

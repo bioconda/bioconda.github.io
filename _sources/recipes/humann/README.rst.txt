@@ -12,10 +12,13 @@ humann
 
    HUMAnN\: The HMP Unified Metabolic Analysis Network\, version 3
 
-   :homepage: http://huttenhower.sph.harvard.edu/humann
+   :homepage: https://huttenhower.sph.harvard.edu/humann
+   :documentation: http://huttenhower.sph.harvard.edu/humann
+   
    :developer docs: https://github.com/biobakery/humann
    :license: MIT / MIT
    :recipe: /`humann <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humann>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humann/meta.yaml>`_
+   :links: doi: :doi:`10.7554/eLife.65088`, biotools: :biotools:`humann`
 
    
 
@@ -29,10 +32,10 @@ humann
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8-0</code>,  <code>3.7-1</code>,  <code>3.7-0</code>,  <code>3.6.1-1</code>,  <code>3.6.1-0</code>,  <code>3.6-2</code>,  <code>3.6-1</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9-0</code>,  <code>3.8-0</code>,  <code>3.7-1</code>,  <code>3.7-0</code>,  <code>3.6.1-1</code>,  <code>3.6.1-0</code>,  <code>3.6-2</code>,  <code>3.6-1</code>,  <code>3.6-0</code>,  </span></summary>
       
 
-      ``3.8-0``,  ``3.7-1``,  ``3.7-0``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6-2``,  ``3.6-1``,  ``3.6-0``,  ``3.5-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``3.0.0a4-0``
+      ``3.9-0``,  ``3.8-0``,  ``3.7-1``,  ``3.7-0``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6-2``,  ``3.6-1``,  ``3.6-0``,  ``3.5-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``3.0.0a4-0``
 
       
       .. raw:: html
@@ -45,7 +48,7 @@ humann
    :depends diamond: ``>=0.9.36``
    :depends glpk: 
    :depends metaphlan: ``>=4.0``
-   :depends python: 
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +96,7 @@ humann
 
     <script>
         var package = "humann";
-        var versions = ["3.8","3.7","3.7","3.6.1","3.6.1"];
+        var versions = ["3.9","3.8","3.7","3.7","3.6.1"];
     </script>
 
 

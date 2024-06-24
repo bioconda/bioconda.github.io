@@ -15,6 +15,7 @@ bioconductor-sparsematrixstats
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/sparseMatrixStats.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sparsematrixstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsematrixstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsematrixstats/meta.yaml>`_
+   :links: biotools: :biotools:`sparseMatrixStats`
 
    High performance functions for row and column operations on sparse matrices. For example\: col \/ rowMeans2\, col \/ rowMedians\, col \/ rowVars etc. Currently\, the optimizations are limited to data in the column sparse format. This package is inspired by the matrixStats package by Henrik Bengtsson.
 
@@ -28,10 +29,10 @@ bioconductor-sparsematrixstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.2-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.2-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -97,7 +98,7 @@ bioconductor-sparsematrixstats
 
     <script>
         var package = "bioconductor-sparsematrixstats";
-        var versions = ["1.14.0","1.12.2","1.10.0","1.10.0","1.6.0"];
+        var versions = ["1.14.0","1.14.0","1.12.2","1.10.0","1.10.0"];
     </script>
 
 

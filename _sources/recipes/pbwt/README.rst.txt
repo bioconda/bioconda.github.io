@@ -29,10 +29,10 @@ pbwt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0-9</code>,  <code>3.0-8</code>,  <code>3.0-7</code>,  <code>3.0-6</code>,  <code>3.0-5</code>,  <code>3.0-4</code>,  <code>3.0-3</code>,  <code>3.0-2</code>,  <code>3.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0-10</code>,  <code>3.0-9</code>,  <code>3.0-8</code>,  <code>3.0-7</code>,  <code>3.0-6</code>,  <code>3.0-5</code>,  <code>3.0-4</code>,  <code>3.0-3</code>,  <code>3.0-2</code>,  </span></summary>
       
 
-      ``3.0-9``,  ``3.0-8``,  ``3.0-7``,  ``3.0-6``,  ``3.0-5``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+      ``3.0-10``,  ``3.0-9``,  ``3.0-8``,  ``3.0-7``,  ``3.0-6``,  ``3.0-5``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ pbwt
       
 
    
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 

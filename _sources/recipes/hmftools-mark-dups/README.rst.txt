@@ -27,13 +27,13 @@ hmftools-mark-dups
       
       
 
-      ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``
+      ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``
 
       
 
    
    :depends openjdk: ``>=8``
-   :depends sambamba: ``>=1.0``
+   :depends sambamba: ``>=1.0.1``
    :depends samtools: ``>=1.17``
    :requirements:
 
@@ -82,7 +82,7 @@ hmftools-mark-dups
 
     <script>
         var package = "hmftools-mark-dups";
-        var versions = ["1.1.5","1.1.4","1.1.3","1.1.2","1.1.1"];
+        var versions = ["1.1.7","1.1.6","1.1.5","1.1.5","1.1.4"];
     </script>
 
 

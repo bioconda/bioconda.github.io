@@ -1,25 +1,22 @@
-
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="../">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Linting &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/vega.min.js"></script>
-    <script src="../_static/vega-lite.min.js"></script>
-    <script src="../_static/vega-embed.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=39de963d" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=48720263" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/vega.min.js?v=d54ef115"></script>
+    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
+    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Updating recipes" href="updating.html" />
@@ -47,7 +44,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
 
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
    
@@ -69,18 +66,18 @@
           <div class="body" role="main">
             
   <section id="linting">
-<h1>Linting<a class="headerlink" href="#linting" title="Permalink to this heading">¶</a></h1>
+<h1>Linting<a class="headerlink" href="#linting" title="Link to this heading">¶</a></h1>
 <p>In order to ensure high-quality packages, we now perform routine
 checks on each recipe (called <a class="reference external" href="http://stackoverflow.com/questions/8503559/what-is-linting">linting</a>).</p>
 <p>Linting is executed as a GitHub Check on all PRs and as a guarding
 stage on all builds. It can also be executed locally using the
 <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">lint</span></code> commeand.</p>
 <section id="skipping-a-lint-check">
-<h2>Skipping a lint check<a class="headerlink" href="#skipping-a-lint-check" title="Permalink to this heading">¶</a></h2>
+<h2>Skipping a lint check<a class="headerlink" href="#skipping-a-lint-check" title="Link to this heading">¶</a></h2>
 <p>The linter may occasionally create false positives. Lint checks can
 therefore be disabled individually if there is good reason to do so.</p>
 <section id="skipping-persistently-on-a-per-recipe-basis">
-<h3>Skipping persistently on a per-recipe basis<a class="headerlink" href="#skipping-persistently-on-a-per-recipe-basis" title="Permalink to this heading">¶</a></h3>
+<h3>Skipping persistently on a per-recipe basis<a class="headerlink" href="#skipping-persistently-on-a-per-recipe-basis" title="Link to this heading">¶</a></h3>
 <p>Recipes may contain a section listing lint checks to be disabled:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
   <span class="n">skip</span><span class="o">-</span><span class="n">lints</span><span class="p">:</span>
@@ -97,7 +94,7 @@ shown above and add a comment describing why the recipe needs to
 ignore that particular lint check.</p>
 </section>
 <section id="skipping-on-a-per-commit-basis">
-<h3>Skipping on a per-commit basis<a class="headerlink" href="#skipping-on-a-per-commit-basis" title="Permalink to this heading">¶</a></h3>
+<h3>Skipping on a per-commit basis<a class="headerlink" href="#skipping-on-a-per-commit-basis" title="Link to this heading">¶</a></h3>
 <p>While only recommended in very special cases, it is possible to skip
 specific linting tests on a commit by using special text in the commit
 message, <code class="docutils literal notranslate"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">$FUNCTION</span> <span class="pre">for</span> <span class="pre">$RECIPE]</span></code> where <code class="docutils literal notranslate"><span class="pre">$FUNCTION</span></code> is
@@ -125,7 +122,7 @@ like this without having to make a commit:</p>
 </section>
 </section>
 <section id="lint-checks">
-<h2>Lint Checks<a class="headerlink" href="#lint-checks" title="Permalink to this heading">¶</a></h2>
+<h2>Lint Checks<a class="headerlink" href="#lint-checks" title="Link to this heading">¶</a></h2>
 <p>Below, each lint check executed is shown and described. Lints are
 grouped into a few sections, depending on what type of issue they aim
 at preventing.</p>
@@ -221,11 +218,11 @@ at preventing.</p>
 </ul>
 </nav>
 <section id="incomplete-recipe">
-<h3><a class="toc-backref" href="#id2" role="doc-backlink">Incomplete Recipe</a><a class="headerlink" href="#incomplete-recipe" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id2" role="doc-backlink">Incomplete Recipe</a><a class="headerlink" href="#incomplete-recipe" title="Link to this heading">¶</a></h3>
 <p>These are basic checks, making sure that the recipe is not missing
 anything essential.</p>
 <section id="missing-home">
-<h4><a class="toc-backref" href="#id3" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_home</span></code>”</a><a class="headerlink" href="#missing-home" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id3" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_home</span></code>”</a><a class="headerlink" href="#missing-home" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a homepage URL</p>
 <p>Please add:</p>
@@ -241,7 +238,7 @@ conda channel and the homepage is an unambiguous original source.</p>
 </p>
 </section>
 <section id="missing-summary">
-<h4><a class="toc-backref" href="#id4" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_summary</span></code>”</a><a class="headerlink" href="#missing-summary" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id4" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_summary</span></code>”</a><a class="headerlink" href="#missing-summary" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a summary</p>
 <p>Please add:</p>
@@ -256,7 +253,7 @@ mean one line on a landscape poster.</p>
 </p>
 </section>
 <section id="missing-license">
-<h4><a class="toc-backref" href="#id5" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_license</span></code>”</a><a class="headerlink" href="#missing-license" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id5" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_license</span></code>”</a><a class="headerlink" href="#missing-license" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing the <code class="docutils literal notranslate"><span class="pre">about/license</span></code> key</p>
 <p>Please add:</p>
@@ -274,7 +271,7 @@ software.</p>
 </p>
 </section>
 <section id="missing-tests">
-<h4><a class="toc-backref" href="#id6" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_tests</span></code>”</a><a class="headerlink" href="#missing-tests" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id6" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_tests</span></code>”</a><a class="headerlink" href="#missing-tests" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing tests</p>
 <p>Please add:</p>
@@ -304,7 +301,7 @@ can also use a script (<code class="docutils literal notranslate"><span class="p
 </p>
 </section>
 <section id="missing-hash">
-<h4><a class="toc-backref" href="#id7" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_hash</span></code>”</a><a class="headerlink" href="#missing-hash" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id7" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_hash</span></code>”</a><a class="headerlink" href="#missing-hash" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a checksum for a source file</p>
 <p>Please add:</p>
@@ -322,7 +319,7 @@ prefer the latter.</p>
 </p>
 </section>
 <section id="missing-version-or-name">
-<h4><a class="toc-backref" href="#id8" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_version_or_name</span></code>”</a><a class="headerlink" href="#missing-version-or-name" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id8" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_version_or_name</span></code>”</a><a class="headerlink" href="#missing-version-or-name" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing name and/or version</p>
 <p>Please make sure the recipe has at least:</p>
@@ -337,7 +334,7 @@ version.</p>
 </p>
 </section>
 <section id="empty-meta-yaml">
-<h4><a class="toc-backref" href="#id9" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">empty_meta_yaml</span></code>”</a><a class="headerlink" href="#empty-meta-yaml" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id9" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">empty_meta_yaml</span></code>”</a><a class="headerlink" href="#empty-meta-yaml" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe has an empty meta.yaml!?</p>
 <p>Please check if you forgot to commit its contents.</p>
@@ -346,7 +343,7 @@ version.</p>
 </p>
 </section>
 <section id="missing-meta-yaml">
-<h4><a class="toc-backref" href="#id10" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_meta_yaml</span></code>”</a><a class="headerlink" href="#missing-meta-yaml" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id10" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_meta_yaml</span></code>”</a><a class="headerlink" href="#missing-meta-yaml" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a meta.yaml file</p>
 <p>Most commonly, this is because the file was accidentally
@@ -355,7 +352,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
 <p></p>
 </section>
 <section id="missing-build">
-<h4><a class="toc-backref" href="#id11" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build</span></code>”</a><a class="headerlink" href="#missing-build" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id11" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build</span></code>”</a><a class="headerlink" href="#missing-build" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a build section</p>
 <p>Please add:</p>
@@ -367,7 +364,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
 <p></p>
 </section>
 <section id="missing-build-number">
-<h4><a class="toc-backref" href="#id12" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build_number</span></code>”</a><a class="headerlink" href="#missing-build-number" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id12" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build_number</span></code>”</a><a class="headerlink" href="#missing-build-number" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a build number</p>
 <p>Please add:</p>
@@ -382,7 +379,7 @@ incremented with each revised build published.</p>
 </section>
 </section>
 <section id="noarch-or-not-noarch">
-<h3><a class="toc-backref" href="#id13" role="doc-backlink">Noarch or not noarch</a><a class="headerlink" href="#noarch-or-not-noarch" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">Noarch or not noarch</a><a class="headerlink" href="#noarch-or-not-noarch" title="Link to this heading">¶</a></h3>
 <p>Not all packages are platform specific. Pure Python packages for
 example will usually work on any platform without modification. For
 this reason, we have a third “subdir” (in conda lingo) in addition to
@@ -399,7 +396,7 @@ as noarch:</p>
 Python (it will simply not work as expected).</p></li>
 </ul>
 <section id="should-be-noarch-python">
-<h4><a class="toc-backref" href="#id14" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_python</span></code>”</a><a class="headerlink" href="#should-be-noarch-python" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id14" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_python</span></code>”</a><a class="headerlink" href="#should-be-noarch-python" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe should be build as <code class="docutils literal notranslate"><span class="pre">noarch</span></code></p>
 <p>Please add:</p>
@@ -417,7 +414,7 @@ built (packaged) once, saving time and space.</p>
 </p>
 </section>
 <section id="should-be-noarch-generic">
-<h4><a class="toc-backref" href="#id15" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_generic</span></code>”</a><a class="headerlink" href="#should-be-noarch-generic" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id15" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_generic</span></code>”</a><a class="headerlink" href="#should-be-noarch-generic" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe should be build as <code class="docutils literal notranslate"><span class="pre">noarch</span></code></p>
 <p>Please add:</p>
@@ -436,7 +433,7 @@ hosters.</p>
 </p>
 </section>
 <section id="should-not-be-noarch-compiler">
-<h4><a class="toc-backref" href="#id16" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_compiler</span></code>”</a><a class="headerlink" href="#should-not-be-noarch-compiler" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id16" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_compiler</span></code>”</a><a class="headerlink" href="#should-not-be-noarch-compiler" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses a compiler but is marked noarch</p>
 <p>Recipes using a compiler should not be marked noarch.</p>
@@ -448,7 +445,7 @@ generally indicates that platform specific binaries were built.</p>
 </p>
 </section>
 <section id="should-not-be-noarch-source">
-<h4><a class="toc-backref" href="#id17" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_source</span></code>”</a><a class="headerlink" href="#should-not-be-noarch-source" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id17" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_source</span></code>”</a><a class="headerlink" href="#should-not-be-noarch-source" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses per platform sources and cannot be noarch</p>
 <p>You are downloading different upstream sources for each
@@ -460,7 +457,7 @@ marked <code class="docutils literal notranslate"><span class="pre">noarch</span
 </p>
 </section>
 <section id="should-not-be-noarch-skip">
-<h4><a class="toc-backref" href="#id18" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_skip</span></code>”</a><a class="headerlink" href="#should-not-be-noarch-skip" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id18" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_skip</span></code>”</a><a class="headerlink" href="#should-not-be-noarch-skip" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">skip:</span> <span class="pre">True</span></code> but is marked noarch</p>
 <p>Recipes marked as <code class="docutils literal notranslate"><span class="pre">noarch</span></code> cannot use skip.</p>
@@ -468,7 +465,7 @@ marked <code class="docutils literal notranslate"><span class="pre">noarch</span
 <p></p>
 </section>
 <section id="should-not-use-skip-python">
-<h4><a class="toc-backref" href="#id19" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_skip_python</span></code>”</a><a class="headerlink" href="#should-not-use-skip-python" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id19" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_skip_python</span></code>”</a><a class="headerlink" href="#should-not-use-skip-python" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe should be noarch and not use python based skipping</p>
 <p>Please use:</p>
@@ -498,11 +495,11 @@ therefore does not work in conjunction with <code class="docutils literal notran
 </section>
 </section>
 <section id="policy">
-<h3><a class="toc-backref" href="#id20" role="doc-backlink">Policy</a><a class="headerlink" href="#policy" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id20" role="doc-backlink">Policy</a><a class="headerlink" href="#policy" title="Link to this heading">¶</a></h3>
 <p>These checks enforce some of our “policy” decisions for keeping
 Bioconda and it’s recipe repository consistent and clean.</p>
 <section id="uses-vcs-url">
-<h4><a class="toc-backref" href="#id21" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_vcs_url</span></code>”</a><a class="headerlink" href="#uses-vcs-url" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id21" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_vcs_url</span></code>”</a><a class="headerlink" href="#uses-vcs-url" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe downloads source from a VCS</p>
 <p>Please build from source archives and don’t use the <code class="docutils literal notranslate"><span class="pre">git_url</span></code>,
@@ -531,7 +528,7 @@ process simple.</p>
 </p>
 </section>
 <section id="folder-and-package-name-must-match">
-<h4><a class="toc-backref" href="#id22" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">folder_and_package_name_must_match</span></code>”</a><a class="headerlink" href="#folder-and-package-name-must-match" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id22" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">folder_and_package_name_must_match</span></code>”</a><a class="headerlink" href="#folder-and-package-name-must-match" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe folder and package name do not match</p>
 <p>For clarity, the name of the folder the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> resides,
@@ -546,7 +543,7 @@ package name contains the name of the tool you are packaging</p>
 </p>
 </section>
 <section id="gpl-requires-license-distributed">
-<h4><a class="toc-backref" href="#id23" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">gpl_requires_license_distributed</span></code>”</a><a class="headerlink" href="#gpl-requires-license-distributed" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id23" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">gpl_requires_license_distributed</span></code>”</a><a class="headerlink" href="#gpl-requires-license-distributed" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe packages GPL software but is missing copy of license</p>
 <p>The GPL requires that a copy of the license accompany all distributions
@@ -566,7 +563,7 @@ what we must do to be permitted to distribute the software.</p>
 </p>
 </section>
 <section id="should-not-use-fn">
-<h4><a class="toc-backref" href="#id24" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>”</a><a class="headerlink" href="#should-not-use-fn" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id24" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>”</a><a class="headerlink" href="#should-not-use-fn" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses source/fn</p>
 <p>There is no need to specify the filename as the URL should give a name
@@ -577,7 +574,7 @@ share a filename, which is a somewhat constructed scenario.</p>
 </p>
 </section>
 <section id="has-windows-bat-file">
-<h4><a class="toc-backref" href="#id25" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>”</a><a class="headerlink" href="#has-windows-bat-file" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id25" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>”</a><a class="headerlink" href="#has-windows-bat-file" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe directory contains a <code class="docutils literal notranslate"><span class="pre">bat</span></code> file</p>
 <p>Bioconda does not currently build packages for Windows (and has at
@@ -593,7 +590,7 @@ repository.</p>
 </p>
 </section>
 <section id="long-summary">
-<h4><a class="toc-backref" href="#id26" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">long_summary</span></code>”</a><a class="headerlink" href="#long-summary" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id26" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">long_summary</span></code>”</a><a class="headerlink" href="#long-summary" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The summary line is rather long</p>
 <p>Consider using the description field for longer text:</p>
@@ -620,7 +617,7 @@ used for package listings with only one row per package.</p>
 </p>
 </section>
 <section id="cran-packages-to-conda-forge">
-<h4><a class="toc-backref" href="#id27" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cran_packages_to_conda_forge</span></code>”</a><a class="headerlink" href="#cran-packages-to-conda-forge" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id27" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cran_packages_to_conda_forge</span></code>”</a><a class="headerlink" href="#cran-packages-to-conda-forge" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">CRAN packages not depending on Bioconda should go to Conda-Forge</p>
 <p>This recipe builds a CRAN package and does not depend on packages
@@ -632,7 +629,7 @@ on Bioconda if they depend on other Bioconda packages.</p>
 </p>
 </section>
 <section id="version-starts-with-v">
-<h4><a class="toc-backref" href="#id28" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_starts_with_v</span></code>”</a><a class="headerlink" href="#version-starts-with-v" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id28" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_starts_with_v</span></code>”</a><a class="headerlink" href="#version-starts-with-v" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The version string should not start with a “v” character</p>
 <p>Version numbers in Conda recipes need to follow PEP 386</p>
@@ -644,11 +641,11 @@ incorrectly on the Anaconda website.</p>
 </section>
 </section>
 <section id="syntax">
-<h3><a class="toc-backref" href="#id29" role="doc-backlink">Syntax</a><a class="headerlink" href="#syntax" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id29" role="doc-backlink">Syntax</a><a class="headerlink" href="#syntax" title="Link to this heading">¶</a></h3>
 <p>These checks ensure that the <code class="docutils literal notranslate"><span class="pre">extra</span></code> section conforms to our
 “schema”.</p>
 <section id="extra-identifiers-not-list">
-<h4><a class="toc-backref" href="#id30" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code>”</a><a class="headerlink" href="#extra-identifiers-not-list" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id30" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code>”</a><a class="headerlink" href="#extra-identifiers-not-list" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The extra/identifiers section must be a list</p>
 <p>Example:</p>
@@ -661,7 +658,7 @@ incorrectly on the Anaconda website.</p>
 <p></p>
 </section>
 <section id="extra-identifiers-not-string">
-<h4><a class="toc-backref" href="#id31" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”</a><a class="headerlink" href="#extra-identifiers-not-string" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id31" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”</a><a class="headerlink" href="#extra-identifiers-not-string" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Each item in the extra/identifiers section must be a string</p>
 <p>Example:</p>
@@ -675,7 +672,7 @@ incorrectly on the Anaconda website.</p>
 <p></p>
 </section>
 <section id="extra-identifiers-missing-colon">
-<h4><a class="toc-backref" href="#id32" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”</a><a class="headerlink" href="#extra-identifiers-missing-colon" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id32" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”</a><a class="headerlink" href="#extra-identifiers-missing-colon" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Each item in the extra/identifiers section must be of form <code class="docutils literal notranslate"><span class="pre">type:value</span></code></p>
 <p>Example:</p>
@@ -698,7 +695,7 @@ identifier.  Whitespace is not allowed.</p>
 </p>
 </section>
 <section id="extra-skip-lints-not-list">
-<h4><a class="toc-backref" href="#id33" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_skip_lints_not_list</span></code>”</a><a class="headerlink" href="#extra-skip-lints-not-list" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id33" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_skip_lints_not_list</span></code>”</a><a class="headerlink" href="#extra-skip-lints-not-list" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The extra/skip-lints section must contain a list</p>
 <p>Example:</p>
@@ -713,7 +710,7 @@ the list here for the correct name.</p>
 </p>
 </section>
 <section id="version-constraints-missing-whitespace">
-<h4><a class="toc-backref" href="#id34" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_constraints_missing_whitespace</span></code>”</a><a class="headerlink" href="#version-constraints-missing-whitespace" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id34" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">version_constraints_missing_whitespace</span></code>”</a><a class="headerlink" href="#version-constraints-missing-whitespace" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Packages and their version constraints must be space separated</p>
 <p>Example:</p>
@@ -728,11 +725,11 @@ name and the constraint.</p>
 </section>
 </section>
 <section id="recipe-parsing">
-<h3><a class="toc-backref" href="#id35" role="doc-backlink">Recipe Parsing</a><a class="headerlink" href="#recipe-parsing" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id35" role="doc-backlink">Recipe Parsing</a><a class="headerlink" href="#recipe-parsing" title="Link to this heading">¶</a></h3>
 <p>These lints happen implicitly during recipe parsing. They cannot be
 skipped!</p>
 <section id="duplicate-key-in-meta-yaml">
-<h4><a class="toc-backref" href="#id36" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”</a><a class="headerlink" href="#duplicate-key-in-meta-yaml" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id36" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”</a><a class="headerlink" href="#duplicate-key-in-meta-yaml" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe meta.yaml contains a duplicate key</p>
 <p>This is invalid YAML, as it’s unclear what the structure should
@@ -748,7 +745,7 @@ don’t.</p>
 </p>
 </section>
 <section id="unknown-selector">
-<h4><a class="toc-backref" href="#id37" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”</a><a class="headerlink" href="#unknown-selector" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id37" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”</a><a class="headerlink" href="#unknown-selector" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe failed to parse due to selector lines</p>
 <p>Please request help from &#64;bioconda/core.</p>
@@ -759,7 +756,7 @@ bioconda-utils. If you actually do encounter this, ping
 </p>
 </section>
 <section id="conda-render-failure">
-<h4><a class="toc-backref" href="#id38" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”</a><a class="headerlink" href="#conda-render-failure" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id38" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”</a><a class="headerlink" href="#conda-render-failure" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe was not understood by conda-build</p>
 <p>Please request help from &#64;bioconda/core.</p>
@@ -769,7 +766,7 @@ recipe. Please contact <code class="docutils literal notranslate"><span class="p
 </p>
 </section>
 <section id="jinja-render-failure">
-<h4><a class="toc-backref" href="#id39" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”</a><a class="headerlink" href="#jinja-render-failure" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id39" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”</a><a class="headerlink" href="#jinja-render-failure" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe could not be rendered by Jinja2</p>
 <p>Check if you are missing quotes or curly braces in Jinja2 template
@@ -784,7 +781,7 @@ parentheses or quotes.</p>
 </p>
 </section>
 <section id="unknown-check">
-<h4><a class="toc-backref" href="#id40" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”</a><a class="headerlink" href="#unknown-check" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id40" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”</a><a class="headerlink" href="#unknown-check" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Something went wrong inside the linter</p>
 <p>Please request help from &#64;bioconda/core</p>
@@ -795,9 +792,9 @@ linter. Ping &#64;bioconda/core to figure out what’s going on.</p>
 </section>
 </section>
 <section id="repository">
-<h3><a class="toc-backref" href="#id41" role="doc-backlink">Repository</a><a class="headerlink" href="#repository" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id41" role="doc-backlink">Repository</a><a class="headerlink" href="#repository" title="Link to this heading">¶</a></h3>
 <section id="in-other-channels">
-<h4><a class="toc-backref" href="#id42" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a><a class="headerlink" href="#in-other-channels" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id42" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a><a class="headerlink" href="#in-other-channels" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">A package of the same name already exists in another channel</p>
 <p>Bioconda and Conda-Forge occupy the same name space and have
@@ -834,7 +831,7 @@ recipe.  In that PR, reference the conda-forge/staged-recipes PR.</p></li>
 </p>
 </section>
 <section id="build-number-needs-bump">
-<h4><a class="toc-backref" href="#id43" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a><a class="headerlink" href="#build-number-needs-bump" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id43" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a><a class="headerlink" href="#build-number-needs-bump" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe build number should be incremented</p>
 <p>A package with the same name and version and a build number at
@@ -848,7 +845,7 @@ might happen only on one architecture and not the other).</p>
 </p>
 </section>
 <section id="build-number-needs-reset">
-<h4><a class="toc-backref" href="#id44" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a><a class="headerlink" href="#build-number-needs-reset" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id44" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a><a class="headerlink" href="#build-number-needs-reset" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe build number should be reset to 0</p>
 <p>No previous build of a package of this name and this version exists,
@@ -859,7 +856,7 @@ build number should be 0.</p>
 </p>
 </section>
 <section id="recipe-is-blacklisted">
-<h4><a class="toc-backref" href="#id45" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a><a class="headerlink" href="#recipe-is-blacklisted" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id45" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a><a class="headerlink" href="#recipe-is-blacklisted" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is currently blacklisted and will not be built</p>
 <p>If you are intending to repair this recipe, remove it from
@@ -874,11 +871,11 @@ recipe on the blacklist!</p>
 </section>
 </section>
 <section id="deprecations">
-<h3><a class="toc-backref" href="#id46" role="doc-backlink">Deprecations</a><a class="headerlink" href="#deprecations" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id46" role="doc-backlink">Deprecations</a><a class="headerlink" href="#deprecations" title="Link to this heading">¶</a></h3>
 <p>These checks catch packages or recipe idioms we no longer use or that
 no longer work and need to be changed.</p>
 <section id="uses-perl-threaded">
-<h4><a class="toc-backref" href="#id47" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a><a class="headerlink" href="#uses-perl-threaded" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id47" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a><a class="headerlink" href="#uses-perl-threaded" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p>
 <p>Please use <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead.</p>
@@ -889,7 +886,7 @@ these older recipes is updated, it will fail this check.</p>
 </p>
 </section>
 <section id="uses-javajdk">
-<h4><a class="toc-backref" href="#id48" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a><a class="headerlink" href="#uses-javajdk" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id48" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a><a class="headerlink" href="#uses-javajdk" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code></p>
 <p>Please use <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead.</p>
@@ -900,7 +897,7 @@ those older recipes is updated, it will fail this check.</p>
 </p>
 </section>
 <section id="deprecated-numpy-spec">
-<h4><a class="toc-backref" href="#id49" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a><a class="headerlink" href="#deprecated-numpy-spec" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id49" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a><a class="headerlink" href="#deprecated-numpy-spec" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe contains a deprecated numpy spec</p>
 <p>Please remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code> - pinning is now handled automatically.</p>
@@ -912,7 +909,7 @@ now just write <code class="docutils literal notranslate"><span class="pre">nump
 </p>
 </section>
 <section id="uses-matplotlib">
-<h4><a class="toc-backref" href="#id50" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a><a class="headerlink" href="#uses-matplotlib" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id50" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a><a class="headerlink" href="#uses-matplotlib" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>, but <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code> is recommended</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> dependency should be replaced with <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code>
@@ -927,9 +924,9 @@ which pulls in many other dependencies. In most cases, using
 </section>
 </section>
 <section id="build-helpers">
-<h3><a class="toc-backref" href="#id51" role="doc-backlink">Build helpers</a><a class="headerlink" href="#build-helpers" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id51" role="doc-backlink">Build helpers</a><a class="headerlink" href="#build-helpers" title="Link to this heading">¶</a></h3>
 <section id="missing-run-exports">
-<h4><a class="toc-backref" href="#id52" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a><a class="headerlink" href="#missing-run-exports" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id52" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a><a class="headerlink" href="#missing-run-exports" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Recipe should have a run_exports statement that ensures correct pinning in downstream packages</p>
 <p>This ensures that the package is automatically pinned to a compatible version if
@@ -980,7 +977,7 @@ run_exports in upstream packages as well if needed.</p>
 <p></p>
 </section>
 <section id="should-use-compilers">
-<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requires a compiler directly</p>
 <p>Since version 3, <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> uses a special syntax to require
@@ -1020,7 +1017,7 @@ needs to be added manually if your package makes use of OpenMP.</p>
 </p>
 </section>
 <section id="uses-setuptools">
-<h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools in run depends</p>
 <p>Most Python packages only need setuptools during installation.
@@ -1043,7 +1040,7 @@ already include the required section.</p>
 </p>
 </section>
 <section id="setup-py-install-args">
-<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools without required arguments</p>
 <p>Please use:</p>
@@ -1072,7 +1069,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="compilers-must-be-in-build">
-<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requests a compiler in a section other than build</p>
 <p>Please move the <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('language')</span> <span class="pre">}}</span></code> line into the
@@ -1084,7 +1081,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="cython-must-be-in-host">
-<h4><a class="toc-backref" href="#id57" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id57" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython should be in the host section</p>
 <p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
@@ -1099,7 +1096,7 @@ host section for now.</p>
 </p>
 </section>
 <section id="cython-needs-compiler">
-<h4><a class="toc-backref" href="#id58" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id58" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython generates C code, which will need to be compiled</p>
 <p>Add the compiler to the recipe:</p>
@@ -1116,9 +1113,9 @@ recipe.</p>
 </section>
 </section>
 <section id="linter-errors">
-<h3><a class="toc-backref" href="#id59" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id59" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Link to this heading">¶</a></h3>
 <section id="linter-failure">
-<h4><a class="toc-backref" href="#id60" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Permalink to this heading">¶</a></h4>
+<h4><a class="toc-backref" href="#id60" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">An unexpected exception was raised during linting</p>
 <p>Please file an issue at the bioconda-utils repo</p>
@@ -1128,7 +1125,7 @@ recipe.</p>
 </section>
 </section>
 <section id="developer-docs">
-<h2>Developer docs<a class="headerlink" href="#developer-docs" title="Permalink to this heading">¶</a></h2>
+<h2>Developer docs<a class="headerlink" href="#developer-docs" title="Link to this heading">¶</a></h2>
 <p>See <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.lint</span></code> for information on how to write additional checks.</p>
 </section>
 </section>
@@ -1224,7 +1221,7 @@ recipe.</p>
     if (elem != null) {
         // Get the closest "details" element and open it
         closest = elem.closest("details");
-        closest.open = true;
+        if (closest) closest.open = true;
     }
 </script>
 
@@ -1233,7 +1230,7 @@ recipe.</p>
       &#169;2016-2024, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 5.1.1</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |

@@ -13,7 +13,7 @@ pyclone-vi
    A fast method for inferring clonal population structure
 
    :homepage: https://github.com/Roth-Lab/pyclone-vi
-   :license: GPL3 / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pyclone-vi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyclone-vi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyclone-vi/meta.yaml>`_
    :links: doi: :doi:`10.1186/s12859-020-03919-2`
 
@@ -28,7 +28,7 @@ pyclone-vi
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -87,7 +87,7 @@ pyclone-vi
 
     <script>
         var package = "pyclone-vi";
-        var versions = ["0.1.3","0.1.2","0.1.1"];
+        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1"];
     </script>
 
 

@@ -28,7 +28,7 @@ crussmap
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -37,7 +37,7 @@ crussmap
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openssl: ``>=1.1.1t,<1.1.2a``
+   :depends openssl: ``>=3.3.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ crussmap
 
     <script>
         var package = "crussmap";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

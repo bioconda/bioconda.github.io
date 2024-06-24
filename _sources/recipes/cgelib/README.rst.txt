@@ -28,7 +28,7 @@ cgelib
       
       
 
-      ``0.7.4-0``
+      ``0.7.5-0``,  ``0.7.4-0``
 
       
 
@@ -83,7 +83,7 @@ cgelib
 
     <script>
         var package = "cgelib";
-        var versions = ["0.7.4"];
+        var versions = ["0.7.5","0.7.4"];
     </script>
 
 

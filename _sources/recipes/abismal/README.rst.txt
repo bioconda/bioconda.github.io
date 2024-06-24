@@ -31,10 +31,10 @@ abismal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,9 +44,10 @@ abismal
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends htslib: ``>=1.18,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +95,7 @@ abismal
 
     <script>
         var package = "abismal";
-        var versions = ["3.2.2","3.2.0","3.1.1","3.1.1","3.1.1"];
+        var versions = ["3.2.3","3.2.2","3.2.0","3.1.1","3.1.1"];
     </script>
 
 

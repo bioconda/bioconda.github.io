@@ -15,7 +15,7 @@ mockinbird
    :homepage: https://github.com/soedinglab/mockinbird
    :documentation: http://wwwuser.gwdg.de/~compbiol/mockinbird/doc/
    
-   :license: GPL3 / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mockinbird <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mockinbird>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mockinbird/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ mockinbird
       
       
 
-      ``1.0.0a1-6``,  ``1.0.0a1-5``,  ``1.0.0a1-4``,  ``1.0.0a1-3``,  ``1.0.0a1-2``,  ``1.0.0a1-1``,  ``1.0.0a1-0``
+      ``1.0.0a1-7``,  ``1.0.0a1-6``,  ``1.0.0a1-5``,  ``1.0.0a1-4``,  ``1.0.0a1-3``,  ``1.0.0a1-2``,  ``1.0.0a1-1``,  ``1.0.0a1-0``
 
       
 
@@ -42,8 +42,8 @@ mockinbird
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: 
    :depends r-base: 
    :depends r-lsd: 

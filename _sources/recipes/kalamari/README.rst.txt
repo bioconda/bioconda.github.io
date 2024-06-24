@@ -34,15 +34,21 @@ kalamari
    :versions:
       
       
+      .. raw:: html
 
-      ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>5.7.0-0</code>,  <code>5.6.3-0</code>,  <code>5.6.2-0</code>,  <code>5.6.1-0</code>,  <code>5.6.0-2</code>,  <code>5.6.0-0</code>,  <code>5.5.0-0</code>,  <code>5.4.1-1</code>,  <code>5.4.1-0</code>,  </span></summary>
+      
 
+      ``5.7.0-0``,  ``5.6.3-0``,  ``5.6.2-0``,  ``5.6.1-0``,  ``5.6.0-2``,  ``5.6.0-0``,  ``5.5.0-0``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends entrez-direct: 
-   :depends kraken: ``>=1,<2``
-   :depends kraken2: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-module-build: 
    :requirements:
@@ -92,7 +98,7 @@ kalamari
 
     <script>
         var package = "kalamari";
-        var versions = ["5.4.1","5.4.0","5.3.3","5.3.2","5.2.1"];
+        var versions = ["5.7.0","5.6.3","5.6.2","5.6.1","5.6.0"];
     </script>
 
 

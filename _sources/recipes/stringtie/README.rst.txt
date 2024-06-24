@@ -10,13 +10,15 @@ stringtie
    :replaces_section_title:
    :noindex:
 
-   StringTie is a fast and highly efficient assembler of RNA\-Seq alignments into potential transcripts.
+   StringTie employs efficient algorithms for transcript structure recovery and abundance estimation from bulk RNA\-Seq reads aligned to a reference genome.
 
-   :homepage: https://ccb.jhu.edu/software/stringtie/
+   :homepage: https://ccb.jhu.edu/software/stringtie
+   :documentation: https://ccb.jhu.edu/software/stringtie/index.shtml?t=manual
+   
    :developer docs: https://github.com/gpertea/stringtie
    :license: MIT / MIT
    :recipe: /`stringtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie/meta.yaml>`_
-   :links: biotools: :biotools:`StringTie`, usegalaxy-eu: :usegalaxy-eu:`stringtie`, doi: :doi:`10.1038/nbt.3122`, doi: :doi:`10.1038/nprot.2016.095`, doi: :doi:`10.1186/s13059-019-1910-1`
+   :links: biotools: :biotools:`stringtie`, usegalaxy-eu: :usegalaxy-eu:`stringtie`, doi: :doi:`10.1038/nbt.3122`, doi: :doi:`10.1038/nprot.2016.095`, doi: :doi:`10.1186/s13059-019-1910-1`
 
    
 
@@ -30,10 +32,10 @@ stringtie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.1-6</code>,  <code>2.2.1-4</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-6</code>,  <code>2.2.1-4</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  </span></summary>
       
 
-      ``2.2.2-0``,  ``2.2.1-6``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3b-1``,  ``1.3.3b-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``,  ``0.97-0``
+      ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-6``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3b-1``,  ``1.3.3b-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``,  ``0.97-0``
 
       
       .. raw:: html
@@ -93,7 +95,7 @@ stringtie
 
     <script>
         var package = "stringtie";
-        var versions = ["2.2.2","2.2.1","2.2.1","2.2.1","2.2.1"];
+        var versions = ["2.2.3","2.2.2","2.2.1","2.2.1","2.2.1"];
     </script>
 
 

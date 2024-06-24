@@ -15,6 +15,7 @@ bioconductor-csar
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/CSAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-csar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csar/meta.yaml>`_
+   :links: biotools: :biotools:`csar`
 
    Statistical tools for ChIP\-seq data analysis. The package includes the statistical method described in Kaufmann et al. \(2009\) PLoS Biology\: 7\(4\)\:e1000090. Briefly\, Taking the average DNA fragment size subjected to sequencing into account\, the software calculates genomic single\-nucleotide read\-enrichment values. After normalization\, sample and control are compared using a test based on the Poisson distribution. Test statistic thresholds to control the false discovery rate are obtained through random permutation.
 
@@ -28,10 +29,10 @@ bioconductor-csar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.46.0-2</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.46.0-2</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.46.0-2``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-1``,  ``1.34.0-0``
+      ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.46.0-2``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-1``,  ``1.34.0-0``
 
       
       .. raw:: html
@@ -99,7 +100,7 @@ bioconductor-csar
 
     <script>
         var package = "bioconductor-csar";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.50.0","1.46.0"];
+        var versions = ["1.54.0","1.54.0","1.52.0","1.50.0","1.50.0"];
     </script>
 
 

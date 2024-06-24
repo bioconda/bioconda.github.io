@@ -30,8 +30,8 @@ biobb_godmd
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(https\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(https\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2023 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2023 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2024 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2024 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -49,12 +49,12 @@ biobb_godmd
       
       
 
-      ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
 
    
-   :depends biobb_common: ``4.1.0``
+   :depends biobb_common: ``4.2.0``
    :depends emboss: 
    :depends godmd: ``1.0.0``
    :depends python: ``>=3.8``
@@ -105,7 +105,7 @@ biobb_godmd
 
     <script>
         var package = "biobb_godmd";
-        var versions = ["4.1.0","4.0.2","4.0.1","4.0.0","4.0.0"];
+        var versions = ["4.2.0","4.1.0","4.0.2","4.0.1","4.0.0"];
     </script>
 
 

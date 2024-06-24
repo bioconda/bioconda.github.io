@@ -28,10 +28,10 @@ selene-sdk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.8-3</code>,  <code>0.4.8-2</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-5</code>,  <code>0.5.0-4</code>,  <code>0.5.0-3</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.8-3</code>,  <code>0.4.8-2</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  </span></summary>
       
 
-      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.1-0``
+      ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -42,15 +42,15 @@ selene-sdk
    
    :depends click: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pandas: 
    :depends plotly: 
    :depends pyfaidx: 
    :depends pytabix: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=5.1``
    :depends scikit-learn: 
    :depends scipy: 
@@ -104,7 +104,7 @@ selene-sdk
 
     <script>
         var package = "selene-sdk";
-        var versions = ["0.5.0","0.5.0","0.4.8","0.4.8","0.4.8"];
+        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

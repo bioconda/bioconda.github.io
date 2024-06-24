@@ -27,7 +27,7 @@ stranger
       
       
 
-      ``0.8.1-0``
+      ``0.9.0-0``,  ``0.8.1-0``
 
       
 
@@ -83,7 +83,7 @@ stranger
 
     <script>
         var package = "stranger";
-        var versions = ["0.8.1"];
+        var versions = ["0.9.0","0.8.1"];
     </script>
 
 

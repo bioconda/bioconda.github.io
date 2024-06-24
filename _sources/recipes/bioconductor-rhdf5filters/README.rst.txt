@@ -15,6 +15,7 @@ bioconductor-rhdf5filters
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/rhdf5filters.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-rhdf5filters <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters/meta.yaml>`_
+   :links: biotools: :biotools:`rhdf5filters`
 
    Provides a collection of additional compression filters for HDF5 datasets. The package is intended to provide seemless integration with rhdf5\, however the compiled filters can also be used with external applications.
 
@@ -28,10 +29,10 @@ bioconductor-rhdf5filters
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.1-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.1-1</code>,  <code>1.14.1-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.14.1-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.1-1``,  ``1.14.1-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -94,7 +95,7 @@ bioconductor-rhdf5filters
 
     <script>
         var package = "bioconductor-rhdf5filters";
-        var versions = ["1.14.1","1.12.1","1.12.1","1.10.0","1.10.0"];
+        var versions = ["1.14.1","1.14.1","1.12.1","1.12.1","1.10.0"];
     </script>
 
 

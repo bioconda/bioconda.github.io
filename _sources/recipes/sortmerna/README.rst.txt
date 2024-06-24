@@ -12,8 +12,10 @@ sortmerna
 
    SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU\-picking NGS reads.
 
-   :homepage: http://bioinfo.lifl.fr/RNA/sortmerna
-   :license: LGPL
+   :homepage: https://github.com/sortmerna/sortmerna
+   :documentation: https://sortmerna.readthedocs.io
+   
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`sortmerna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/meta.yaml>`_
    :links: biotools: :biotools:`sortmerna`, doi: :doi:`10.1093/bioinformatics/bts611`, usegalaxy-eu: :usegalaxy-eu:`bg_sortmerna`
 
@@ -29,10 +31,10 @@ sortmerna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.6-0</code>,  <code>4.3.4-0</code>,  <code>4.3.3-0</code>,  <code>4.3.2-1</code>,  <code>4.3.2-0</code>,  <code>4.3.1-1</code>,  <code>4.3.1-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.7-1</code>,  <code>4.3.7-0</code>,  <code>4.3.6-0</code>,  <code>4.3.4-0</code>,  <code>4.3.3-0</code>,  <code>4.3.2-1</code>,  <code>4.3.2-0</code>,  <code>4.3.1-1</code>,  <code>4.3.1-0</code>,  </span></summary>
       
 
-      ``4.3.6-0``,  ``4.3.4-0``,  ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.3.1-1``,  ``4.3.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``2.1b-4``,  ``2.1b-3``,  ``2.1b-2``,  ``2.1b-1``,  ``2.1b-0``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``4.3.7-1``,  ``4.3.7-0``,  ``4.3.6-0``,  ``4.3.4-0``,  ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.3.1-1``,  ``4.3.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``2.1b-4``,  ``2.1b-3``,  ``2.1b-2``,  ``2.1b-1``,  ``2.1b-0``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -41,6 +43,11 @@ sortmerna
       
 
    
+   :depends jinja2: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends pyyaml: 
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +95,7 @@ sortmerna
 
     <script>
         var package = "sortmerna";
-        var versions = ["4.3.6","4.3.4","4.3.3","4.3.2","4.3.2"];
+        var versions = ["4.3.7","4.3.7","4.3.6","4.3.4","4.3.3"];
     </script>
 
 

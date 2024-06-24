@@ -27,7 +27,7 @@ rmath4
       
       
 
-      ``4.3.1-0``
+      ``4.3.1-1``,  ``4.3.1-0``
 
       
 
@@ -82,7 +82,7 @@ rmath4
 
     <script>
         var package = "rmath4";
-        var versions = ["4.3.1"];
+        var versions = ["4.3.1","4.3.1"];
     </script>
 
 

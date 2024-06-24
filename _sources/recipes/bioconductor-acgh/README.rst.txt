@@ -13,7 +13,7 @@ bioconductor-acgh
    Classes and functions for Array Comparative Genomic Hybridization data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/aCGH.html
-   :license: GPL-2
+   :license: GPL-2.0-only
    :recipe: /`bioconductor-acgh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh/meta.yaml>`_
    :links: biotools: :biotools:`acgh`, doi: :doi:`10.1093/bioinformatics/bti677`
 
@@ -29,10 +29,10 @@ bioconductor-acgh
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-1</code>,  <code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.80.0-1</code>,  <code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-1</code>,  <code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  </span></summary>
       
 
-      ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``
+      ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``
 
       
       .. raw:: html
@@ -99,7 +99,7 @@ bioconductor-acgh
 
     <script>
         var package = "bioconductor-acgh";
-        var versions = ["1.80.0","1.78.0","1.76.0","1.76.0","1.72.0"];
+        var versions = ["1.80.0","1.80.0","1.78.0","1.76.0","1.76.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ orientagraph
       
       
 
-      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -36,7 +36,7 @@ orientagraph
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation

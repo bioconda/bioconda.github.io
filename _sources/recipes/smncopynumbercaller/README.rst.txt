@@ -27,7 +27,7 @@ smncopynumbercaller
       
       
 
-      ``1.1.2-0``
+      ``1.1.2-1``,  ``1.1.2-0``
 
       
 
@@ -85,7 +85,7 @@ smncopynumbercaller
 
     <script>
         var package = "smncopynumbercaller";
-        var versions = ["1.1.2"];
+        var versions = ["1.1.2","1.1.2"];
     </script>
 
 

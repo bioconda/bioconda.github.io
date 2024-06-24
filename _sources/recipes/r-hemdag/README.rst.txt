@@ -43,10 +43,10 @@ r-hemdag
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.4-6</code>,  <code>2.7.4-5</code>,  <code>2.7.4-4</code>,  <code>2.7.4-3</code>,  <code>2.7.4-2</code>,  <code>2.7.4-1</code>,  <code>2.7.4-0</code>,  <code>2.7.3-2</code>,  <code>2.7.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.4-7</code>,  <code>2.7.4-6</code>,  <code>2.7.4-5</code>,  <code>2.7.4-4</code>,  <code>2.7.4-3</code>,  <code>2.7.4-2</code>,  <code>2.7.4-1</code>,  <code>2.7.4-0</code>,  <code>2.7.3-2</code>,  </span></summary>
       
 
-      ``2.7.4-6``,  ``2.7.4-5``,  ``2.7.4-4``,  ``2.7.4-3``,  ``2.7.4-2``,  ``2.7.4-1``,  ``2.7.4-0``,  ``2.7.3-2``,  ``2.7.3-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.9-0``,  ``2.4.8-0``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.0.1-0``
+      ``2.7.4-7``,  ``2.7.4-6``,  ``2.7.4-5``,  ``2.7.4-4``,  ``2.7.4-3``,  ``2.7.4-2``,  ``2.7.4-1``,  ``2.7.4-0``,  ``2.7.3-2``,  ``2.7.3-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.9-0``,  ``2.4.8-0``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.0.1-0``
 
       
       .. raw:: html
@@ -55,9 +55,9 @@ r-hemdag
       
 
    
-   :depends bioconductor-graph: 
-   :depends bioconductor-preprocesscore: 
-   :depends bioconductor-rbgl: 
+   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
+   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``

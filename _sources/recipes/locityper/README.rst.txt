@@ -13,7 +13,7 @@ locityper
    Targeted genotyper for complex polymorphic loci from short and long read WGS.
 
    :homepage: https://github.com/tprodanov/locityper
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`locityper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locityper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locityper/meta.yaml>`_
 
    
@@ -27,17 +27,15 @@ locityper
       
       
 
-      ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.13.4-0``
+      ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.13.4-0``
 
       
 
    
-   :depends _openmp_mutex: ``* *_llvm``
    :depends _openmp_mutex: ``>=4.5``
-   :depends jellyfish: ``>=1.0``
+   :depends kmer-jellyfish: ``>=1.0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends llvm-openmp: ``>=18.1.3``
    :depends minimap2: ``>=2.25``
    :depends pysam: 
    :depends python: 
@@ -90,7 +88,7 @@ locityper
 
     <script>
         var package = "locityper";
-        var versions = ["0.15.1","0.15.0","0.14.5","0.14.4","0.13.4"];
+        var versions = ["0.15.3","0.15.2","0.15.1","0.15.0","0.14.5"];
     </script>
 
 

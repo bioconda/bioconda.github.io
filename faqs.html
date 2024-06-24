@@ -1,25 +1,22 @@
-
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>FAQs &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
-    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
-    <link rel="stylesheet" type="text/css" href="_static/style.css" />
-    <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/vega.min.js"></script>
-    <script src="_static/vega-lite.min.js"></script>
-    <script src="_static/vega-embed.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=39de963d" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=fd3f3429" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css?v=48720263" />
+    <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/vega.min.js?v=d54ef115"></script>
+    <script src="_static/vega-lite.min.js?v=4fab2bf4"></script>
+    <script src="_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Contributing to Bioconda" href="contributor/index.html" />
@@ -47,7 +44,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="_static/ms-icon-144x144.png">
 
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
    
@@ -69,7 +66,7 @@
           <div class="body" role="main">
             
   <section id="faqs">
-<h1>FAQs<a class="headerlink" href="#faqs" title="Permalink to this heading">¶</a></h1>
+<h1>FAQs<a class="headerlink" href="#faqs" title="Link to this heading">¶</a></h1>
 <nav class="contents local" id="contents">
 <ul class="simple">
 <li><p><a class="reference internal" href="#how-do-i-speed-up-package-installation" id="id6">How do I speed up package installation?</a></p></li>
@@ -90,9 +87,9 @@
 </ul>
 </nav>
 <section id="how-do-i-speed-up-package-installation">
-<span id="speedup"></span><h2>How do I speed up package installation?<a class="headerlink" href="#how-do-i-speed-up-package-installation" title="Permalink to this heading">¶</a></h2>
+<span id="speedup"></span><h2>How do I speed up package installation?<a class="headerlink" href="#how-do-i-speed-up-package-installation" title="Link to this heading">¶</a></h2>
 <section id="speedup-option-1-use-mamba">
-<h3>Speedup option 1: use <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#speedup-option-1-use-mamba" title="Permalink to this heading">¶</a></h3>
+<h3>Speedup option 1: use <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#speedup-option-1-use-mamba" title="Link to this heading">¶</a></h3>
 <p><a class="reference external" href="https://github.com/mamba-org/mamba">mamba</a> is a drop-in replacement for
 conda that uses a faster dependency solving library and parts reimplemented in
 C++ for speed. Install it just into the base environment so that it’s always
@@ -113,7 +110,7 @@ environment you create.</p>
 </div>
 </section>
 <section id="speedup-option-2-use-environments-strategically">
-<h3>Speedup option 2: use environments strategically<a class="headerlink" href="#speedup-option-2-use-environments-strategically" title="Permalink to this heading">¶</a></h3>
+<h3>Speedup option 2: use environments strategically<a class="headerlink" href="#speedup-option-2-use-environments-strategically" title="Link to this heading">¶</a></h3>
 <p>Here are several ways you can use environments to minimize the time spent on
 solving dependencies, which typically is what takes the longest amount of time:</p>
 <ol class="arabic">
@@ -149,7 +146,7 @@ instructions. This can also speed up the solving.</p>
 </section>
 </section>
 <section id="what-versions-are-supported">
-<h2>What versions are supported?<a class="headerlink" href="#what-versions-are-supported" title="Permalink to this heading">¶</a></h2>
+<h2>What versions are supported?<a class="headerlink" href="#what-versions-are-supported" title="Link to this heading">¶</a></h2>
 <p><strong>Operating Systems:</strong>
 Bioconda supports Linux (x86_64 and aarch64/arm64) and
 macOS (x86_64). ARM is not currently supported for macOS. Windows is not
@@ -180,7 +177,7 @@ can help.</p>
 please use <a class="reference external" href="https://abi-laboratory.pro/tracker/">ABI-Laboratory</a>.</p>
 </section>
 <section id="how-do-i-keep-track-of-environments">
-<h2>How do I keep track of environments?<a class="headerlink" href="#how-do-i-keep-track-of-environments" title="Permalink to this heading">¶</a></h2>
+<h2>How do I keep track of environments?<a class="headerlink" href="#how-do-i-keep-track-of-environments" title="Link to this heading">¶</a></h2>
 <p>You can view your created environments with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>.</p>
 <p>Note that if keeping track of different environment names
 becomes a burden, you can create an environment in the same directory as
@@ -196,23 +193,23 @@ a project with the <code class="docutils literal notranslate"><span class="pre">
 maintain) the same environment.</p>
 </section>
 <section id="what-s-the-difference-between-anaconda-conda-miniconda-mamba-mambaforge-micromamba">
-<span id="conda-anaconda-minconda"></span><h2>What’s the difference between Anaconda, conda, Miniconda, mamba, Mambaforge, micromamba?<a class="headerlink" href="#what-s-the-difference-between-anaconda-conda-miniconda-mamba-mambaforge-micromamba" title="Permalink to this heading">¶</a></h2>
+<span id="conda-anaconda-minconda"></span><h2>What’s the difference between Anaconda, conda, Miniconda, mamba, Mambaforge, micromamba?<a class="headerlink" href="#what-s-the-difference-between-anaconda-conda-miniconda-mamba-mambaforge-micromamba" title="Link to this heading">¶</a></h2>
 <p>This <a class="reference external" href="https://www.anaconda.com/blog/is-conda-free">blog post from Anaconda</a>
 gives a lot of context on the Anaconda/conda ecosystem.</p>
 <ul class="simple">
 <li><p><strong>conda</strong> is the name of the package manager, which is what runs when you call,
 e.g., <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>.</p></li>
-<li><p><strong>mamba</strong> is a drop-in replacement for conda</p></li>
+<li><p><strong>mamba</strong> is a drop-in replacement for conda.</p></li>
 <li><p><strong>Anaconda</strong> is a large installation including Python, conda, and a large number
 of packages.</p></li>
 <li><p><strong>Miniconda</strong> just has conda and its dependencies (in contrast to the larger
-Anaconda distribution)</p></li>
+Anaconda distribution).</p></li>
 <li><p><strong>Miniforge</strong> is like miniconda, but with the conda-forge channel
 preconfigured and all packages coming from the conda-forge and <em>not</em> the
 <code class="docutils literal notranslate"><span class="pre">defaults</span></code> channel. It also now has mamba and libmamba included.</p></li>
 <li><p><strong>Mambaforge</strong> is like miniforge, but has mamba installed into the base
 environment. While not strictly deprecated, its use is discouraged as of
-Sept 2023 (see <a class="reference external" href="https://github.com/conda-forge/miniforge">miniforge README</a>)&gt;</p></li>
+Sept 2023 (see <a class="reference external" href="https://github.com/conda-forge/miniforge">miniforge README</a>).</p></li>
 <li><p><strong>Micromamba</strong> is not a conda distribution. Rather, it is a minimal binary
 that has roughly the same commands as mamba, so that a single executable
 (rather than an entire Python installation required for conda itself) can be
@@ -243,7 +240,7 @@ that also includes conda, and the rest are other flavors of getting
 a conda/mamba installation.</p>
 </section>
 <section id="what-s-the-difference-between-a-recipe-and-a-package">
-<h2>What’s the difference between a recipe and a package?<a class="headerlink" href="#what-s-the-difference-between-a-recipe-and-a-package" title="Permalink to this heading">¶</a></h2>
+<h2>What’s the difference between a recipe and a package?<a class="headerlink" href="#what-s-the-difference-between-a-recipe-and-a-package" title="Link to this heading">¶</a></h2>
 <p>A <em>recipe</em> is a directory containing small set of files that defines name,
 version, dependencies, and URL for source code. A recipe typically contains
 a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file that defines these settings and a <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script that
@@ -265,7 +262,7 @@ environment.</p>
 </div>
 </section>
 <section id="why-are-bioconductor-data-packages-failing-to-install">
-<h2>Why are Bioconductor data packages failing to install?<a class="headerlink" href="#why-are-bioconductor-data-packages-failing-to-install" title="Permalink to this heading">¶</a></h2>
+<h2>Why are Bioconductor data packages failing to install?<a class="headerlink" href="#why-are-bioconductor-data-packages-failing-to-install" title="Link to this heading">¶</a></h2>
 <p>When creating an environment containing Bioconductor data packages, you may get
 errors like this:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ne">ValueError</span><span class="p">:</span> <span class="n">unsupported</span> <span class="nb">format</span> <span class="n">character</span> <span class="s1">&#39;T&#39;</span> <span class="p">(</span><span class="mh">0x54</span><span class="p">)</span> <span class="n">at</span> <span class="n">index</span> <span class="mi">648</span>
@@ -336,7 +333,7 @@ Hopefully we are guarding better against this particular issue, but see
 your own work.</p>
 </section>
 <section id="what-s-the-difference-between-a-build-number-and-a-package-version">
-<span id="version-vs-build"></span><h2>What’s the difference between a build number and a package version?<a class="headerlink" href="#what-s-the-difference-between-a-build-number-and-a-package-version" title="Permalink to this heading">¶</a></h2>
+<span id="version-vs-build"></span><h2>What’s the difference between a build number and a package version?<a class="headerlink" href="#what-s-the-difference-between-a-build-number-and-a-package-version" title="Link to this heading">¶</a></h2>
 <p>A <em>package version</em> is the version of the tool. A tool can possibly be packaged
 multiple times, even though the underlying tool doesn’t change. In such a case,
 the package version remains unchanged, but the <em>build number</em> chances.</p>
@@ -373,7 +370,7 @@ the build number in your environment specifications – see <a class="reference 
 more information on this.</p>
 </section>
 <section id="why-shouldn-t-i-include-build-numbers-in-my-environment-yamls">
-<span id="no-builds"></span><h2>Why shouldn’t I include build numbers in my environment YAMLs?<a class="headerlink" href="#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls" title="Permalink to this heading">¶</a></h2>
+<span id="no-builds"></span><h2>Why shouldn’t I include build numbers in my environment YAMLs?<a class="headerlink" href="#why-shouldn-t-i-include-build-numbers-in-my-environment-yamls" title="Link to this heading">¶</a></h2>
 <p>As described at <a class="reference internal" href="#version-vs-build"><span class="std std-ref">What’s the difference between a build number and a package version?</span></a>, build numbers may change over time,
 independently of the actual package version. This means that when you are
 recording the packages installed in an environment, it is not useful to record
@@ -391,7 +388,7 @@ allowing the conda solver to identify the packages that can co-exist in the
 same environment.</p>
 </section>
 <section id="how-are-dependencies-pinned-to-particular-versions">
-<h2>How are dependencies pinned to particular versions?<a class="headerlink" href="#how-are-dependencies-pinned-to-particular-versions" title="Permalink to this heading">¶</a></h2>
+<h2>How are dependencies pinned to particular versions?<a class="headerlink" href="#how-are-dependencies-pinned-to-particular-versions" title="Link to this heading">¶</a></h2>
 <p>In some cases a recipe may need to pin the version of a dependency.
 A global set of default versions to pin against is shared with conda-forge and
 can be found <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">here</a>.
@@ -402,7 +399,7 @@ to your <code class="docutils literal notranslate"><span class="pre">meta.yaml</
 <p>To find out against which version you can pin a package, e.g. x.y.* or x.* please use <a class="reference external" href="https://abi-laboratory.pro/tracker/">ABI-Laboratory</a>.</p>
 </section>
 <section id="what-s-the-lifecycle-of-a-bioconda-package">
-<h2>What’s the lifecycle of a bioconda package?<a class="headerlink" href="#what-s-the-lifecycle-of-a-bioconda-package" title="Permalink to this heading">¶</a></h2>
+<h2>What’s the lifecycle of a bioconda package?<a class="headerlink" href="#what-s-the-lifecycle-of-a-bioconda-package" title="Link to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>Submit a pull request with a new recipe or an updated recipe</p></li>
 <li><p>CI (see <a class="reference internal" href="developer/ci-inventory.html#ci-inventory"><span class="std std-ref">CI Inventory</span></a>) automatically builds and tests the changed
@@ -427,7 +424,7 @@ the <code class="docutils literal notranslate"><span class="pre">broken</span></
 </div>
 </section>
 <section id="where-can-i-find-more-info-on-meta-yaml">
-<h2>Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?<a class="headerlink" href="#where-can-i-find-more-info-on-meta-yaml" title="Permalink to this heading">¶</a></h2>
+<h2>Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?<a class="headerlink" href="#where-can-i-find-more-info-on-meta-yaml" title="Link to this heading">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file is conda’s metadata definition file for recipes.
 If you are developing a new recipe or are trying to update or improve an existing one, it can be helpful to know
 which elements and values can appear in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
@@ -436,7 +433,7 @@ Please check that you are looking at the correct version of the documentation
 for the current conda version used by bioconda.</p>
 </section>
 <section id="what-are-the-host-and-build-sections-of-a-recipe">
-<h2>What are the <code class="docutils literal notranslate"><span class="pre">host</span></code> and <code class="docutils literal notranslate"><span class="pre">build</span></code> sections of a recipe?<a class="headerlink" href="#what-are-the-host-and-build-sections-of-a-recipe" title="Permalink to this heading">¶</a></h2>
+<h2>What are the <code class="docutils literal notranslate"><span class="pre">host</span></code> and <code class="docutils literal notranslate"><span class="pre">build</span></code> sections of a recipe?<a class="headerlink" href="#what-are-the-host-and-build-sections-of-a-recipe" title="Link to this heading">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">requirements:build</span></code> section of a meta.yaml file is used to specify the
 tools for <em>building</em> the package, but not necessarily for <em>running</em> it. This is
 where compilers should go. The build section might also include tools like
@@ -462,7 +459,7 @@ conda docs for more info.</p>
 </div>
 </section>
 <section id="compiler-tools">
-<span id="id5"></span><h2>Compiler tools<a class="headerlink" href="#compiler-tools" title="Permalink to this heading">¶</a></h2>
+<span id="id5"></span><h2>Compiler tools<a class="headerlink" href="#compiler-tools" title="Link to this heading">¶</a></h2>
 <p>Use the syntax <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('c')</span> <span class="pre">}}</span></code>, <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('cxx')</span> <span class="pre">}}</span></code>, and/or <code class="docutils literal notranslate"><span class="pre">{{</span>
 <span class="pre">compiler('fortran')</span> <span class="pre">}}</span></code>. These should go in the <code class="docutils literal notranslate"><span class="pre">build</span></code> section, and all
 other build dependencies should go in the <code class="docutils literal notranslate"><span class="pre">host</span></code> section.</p>
@@ -484,7 +481,7 @@ libpng and libgcc) can be found in the <a class="reference external" href="https
 </div>
 </section>
 <section id="how-does-global-pinning-work">
-<span id="global-pinning"></span><h2>How does global pinning work?<a class="headerlink" href="#how-does-global-pinning-work" title="Permalink to this heading">¶</a></h2>
+<span id="global-pinning"></span><h2>How does global pinning work?<a class="headerlink" href="#how-does-global-pinning-work" title="Link to this heading">¶</a></h2>
 <p>We can have conflicts when the version of a common library used when the
 package is originally <em>built</em> differs from the version when the package is
 <em>installed</em>. All packages intending to be installed into the same environment
@@ -519,7 +516,7 @@ a <em>run</em> dependency is that <code class="docutils literal notranslate"><sp
 build.</p>
 </section>
 <section id="understanding-platform-nomenclature">
-<span id="platform-nomenclature-faq"></span><h2>Understanding platform nomenclature<a class="headerlink" href="#understanding-platform-nomenclature" title="Permalink to this heading">¶</a></h2>
+<span id="platform-nomenclature-faq"></span><h2>Understanding platform nomenclature<a class="headerlink" href="#understanding-platform-nomenclature" title="Link to this heading">¶</a></h2>
 <div class="datechanged">
 <p><span class="versionmodified changed">Changed on 2024-03-04: </span>Added section</p>
 </div>
@@ -636,7 +633,7 @@ Apple licenses the ARM RISC, so they are considered aarch64 or arm64.</p>
     if (elem != null) {
         // Get the closest "details" element and open it
         closest = elem.closest("details");
-        closest.open = true;
+        if (closest) closest.open = true;
     }
 </script>
 
@@ -645,7 +642,7 @@ Apple licenses the ARM RISC, so they are considered aarch64 or arm64.</p>
       &#169;2016-2024, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 5.1.1</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |

@@ -13,7 +13,7 @@ bioconductor-beclear
    Correction of batch effects in DNA methylation data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/BEclear.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-beclear <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beclear>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beclear/meta.yaml>`_
    :links: biotools: :biotools:`beclear`, doi: :doi:`10.1371/journal.pone.0159921`
 
@@ -29,10 +29,10 @@ bioconductor-beclear
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ bioconductor-beclear
 
     <script>
         var package = "bioconductor-beclear";
-        var versions = ["2.18.0","2.16.0","2.14.0","2.14.0","2.10.0"];
+        var versions = ["2.18.0","2.18.0","2.16.0","2.14.0","2.14.0"];
     </script>
 
 

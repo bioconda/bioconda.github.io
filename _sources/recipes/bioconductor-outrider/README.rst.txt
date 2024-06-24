@@ -28,10 +28,10 @@ bioconductor-outrider
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.12.0-2</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -67,6 +67,7 @@ bioconductor-outrider
    :depends r-data.table: 
    :depends r-generics: 
    :depends r-ggplot2: 
+   :depends r-ggrepel: 
    :depends r-heatmaply: 
    :depends r-matrixstats: 
    :depends r-pheatmap: 
@@ -125,7 +126,7 @@ bioconductor-outrider
 
     <script>
         var package = "bioconductor-outrider";
-        var versions = ["1.20.0","1.18.1","1.16.0","1.16.0","1.12.0"];
+        var versions = ["1.20.1","1.20.0","1.18.1","1.16.0","1.16.0"];
     </script>
 
 

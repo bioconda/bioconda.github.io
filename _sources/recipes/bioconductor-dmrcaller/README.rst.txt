@@ -13,8 +13,9 @@ bioconductor-dmrcaller
    Differentially Methylated Regions caller
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/DMRcaller.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-dmrcaller <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcaller>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcaller/meta.yaml>`_
+   :links: biotools: :biotools:`dmrcaller`
 
    Uses Bisulfite sequencing data in two conditions and identifies differentially methylated regions between the conditions in CG and non\-CG context. The input is the CX report files produced by Bismark and the output is a list of DMRs stored as GRanges objects.
 
@@ -28,10 +29,10 @@ bioconductor-dmrcaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -101,7 +102,7 @@ bioconductor-dmrcaller
 
     <script>
         var package = "bioconductor-dmrcaller";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.26.0"];
+        var versions = ["1.34.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

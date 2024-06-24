@@ -13,7 +13,9 @@ porechop
    Adapter removal and demultiplexing of Oxford Nanopore reads
 
    :homepage: https://github.com/rrwick/Porechop
-   :license: GPL3
+   :documentation: https://github.com/rrwick/Porechop?tab=readme-ov-file#how-it-works
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`porechop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/porechop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/porechop/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ porechop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.4-6</code>,  <code>0.2.4-4</code>,  <code>0.2.4-3</code>,  <code>0.2.4-2</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3_seqan2.1.1-3</code>,  <code>0.2.3_seqan2.1.1-2</code>,  <code>0.2.3_seqan2.1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.4-8</code>,  <code>0.2.4-7</code>,  <code>0.2.4-6</code>,  <code>0.2.4-4</code>,  <code>0.2.4-3</code>,  <code>0.2.4-2</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3_seqan2.1.1-3</code>,  </span></summary>
       
 
-      ``0.2.4-6``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3_seqan2.1.1-3``,  ``0.2.3_seqan2.1.1-2``,  ``0.2.3_seqan2.1.1-1``,  ``0.2.3_seqan2.1.1-0``
+      ``0.2.4-8``,  ``0.2.4-7``,  ``0.2.4-6``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3_seqan2.1.1-3``,  ``0.2.3_seqan2.1.1-2``,  ``0.2.3_seqan2.1.1-1``,  ``0.2.3_seqan2.1.1-0``
 
       
       .. raw:: html

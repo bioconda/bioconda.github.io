@@ -27,22 +27,22 @@ nanomonsv
       
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
-   :depends bedtools: ``2.30.0.*``
-   :depends bwa: ``0.7.17.*``
-   :depends htslib: ``1.15.*``
-   :depends mafft: ``7.407.*``
-   :depends minimap2: ``2.24.*``
-   :depends numpy: ``1.23.0.*``
-   :depends parasail-python: ``1.2.4.*``
-   :depends pysam: ``0.19.1.*``
+   :depends bedtools: ``>=2.30.0``
+   :depends bwa: ``>=0.7.17``
+   :depends htslib: 
+   :depends mafft: ``>=7.407``
+   :depends minimap2: ``>=2.24``
+   :depends numpy: ``>=1.23.0``
+   :depends parasail-python: ``>=1.2.4``
+   :depends pysam: ``>=0.19.1``
    :depends python: ``>=3.6``
-   :depends racon: ``1.4.3.*``
-   :depends repeatmasker: ``4.1.1.*``
+   :depends racon: ``>=1.4.3``
+   :depends repeatmasker: ``>=4.1.1``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ nanomonsv
 
     <script>
         var package = "nanomonsv";
-        var versions = ["0.7.0","0.6.0","0.5.1","0.5.0"];
+        var versions = ["0.7.2","0.7.0","0.6.0","0.5.1","0.5.0"];
     </script>
 
 

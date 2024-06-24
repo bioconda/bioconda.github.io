@@ -28,10 +28,10 @@ nmrglue
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9-0</code>,  <code>0.8-5</code>,  <code>0.8-3</code>,  <code>0.8-2</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-2</code>,  <code>0.7-1</code>,  <code>0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9-1</code>,  <code>0.9-0</code>,  <code>0.8-5</code>,  <code>0.8-3</code>,  <code>0.8-2</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-2</code>,  <code>0.7-1</code>,  </span></summary>
       
 
-      ``0.9-0``,  ``0.8-5``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-0``,  ``0.5-1``,  ``0.5-0``
+      ``0.9-1``,  ``0.9-0``,  ``0.8-5``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-0``,  ``0.5-1``,  ``0.5-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ nmrglue
 
     <script>
         var package = "nmrglue";
-        var versions = ["0.9","0.8","0.8","0.8","0.8"];
+        var versions = ["0.9","0.9","0.8","0.8","0.8"];
     </script>
 
 

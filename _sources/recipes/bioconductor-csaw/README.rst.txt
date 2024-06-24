@@ -13,7 +13,7 @@ bioconductor-csaw
    ChIP\-Seq Analysis with Windows
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/csaw.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-csaw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csaw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csaw/meta.yaml>`_
    :links: biotools: :biotools:`csaw`
 
@@ -29,10 +29,10 @@ bioconductor-csaw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``
+      ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ bioconductor-csaw
    :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
    :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
    :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-edger: ``>=4.0.2,<4.1.0a0``
+   :depends bioconductor-edger: ``>=4.0.16,<4.1.0a0``
    :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
    :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
    :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
@@ -121,7 +121,7 @@ bioconductor-csaw
 
     <script>
         var package = "bioconductor-csaw";
-        var versions = ["1.36.0","1.34.0","1.32.0","1.32.0","1.28.0"];
+        var versions = ["1.36.0","1.36.0","1.34.0","1.32.0","1.32.0"];
     </script>
 
 

@@ -27,19 +27,17 @@ rsv-typer
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends absl-py: ``1.4.0.*``
-   :depends artic: ``1.2.1.*``
-   :depends longshot: ``0.4.5.*``
+   :depends artic: ``1.2.4.*``
+   :depends gsl: ``2.7 he838d99_0``
    :depends minimap2: ``>=2.17``
    :depends muscle: ``3.8.*``
-   :depends nextclade: ``2.14.0.*``
+   :depends nextclade: ``3.7.0.*``
    :depends python: ``>=3``
-   :depends pyvcf: ``0.6.8 py36h9f0ad1d_1002``
    :depends samtools: ``>=1.10``
    :requirements:
 
@@ -88,7 +86,7 @@ rsv-typer
 
     <script>
         var package = "rsv-typer";
-        var versions = ["0.3.0","0.3.0","0.2.0","0.1.0"];
+        var versions = ["0.4.0","0.4.0","0.3.0","0.3.0","0.2.0"];
     </script>
 
 

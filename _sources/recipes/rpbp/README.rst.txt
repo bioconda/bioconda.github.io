@@ -13,8 +13,11 @@ rpbp
    Ribosome profiling with Bayesian predictions \(Rp\-Bp\)
 
    :homepage: https://github.com/dieterich-lab/rp-bp
+   :documentation: https://rp-bp.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`rpbp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpbp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpbp/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkw1350`
 
    
 
@@ -27,7 +30,7 @@ rpbp
       
       
 
-      ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
@@ -45,7 +48,7 @@ rpbp
    :depends libstdcxx-ng: ``>=12``
    :depends numpy: 
    :depends pandas: 
-   :depends pbiotools: ``>=4.0.1``
+   :depends pbiotools: ``>=4.0.2``
    :depends pysam: ``>0.9.1``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -101,7 +104,7 @@ rpbp
 
     <script>
         var package = "rpbp";
-        var versions = ["3.0.2","3.0.2","3.0.1","3.0.1"];
+        var versions = ["3.0.4","3.0.4","3.0.2","3.0.2","3.0.2"];
     </script>
 
 

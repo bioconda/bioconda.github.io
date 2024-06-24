@@ -30,10 +30,10 @@ meraculous
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.6-6</code>,  <code>2.2.6-5</code>,  <code>2.2.6-4</code>,  <code>2.2.6-3</code>,  <code>2.2.6-2</code>,  <code>2.2.6-1</code>,  <code>2.2.6-0</code>,  <code>2.2.5.1.1.ga103cd6-0</code>,  <code>2.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.6-7</code>,  <code>2.2.6-6</code>,  <code>2.2.6-5</code>,  <code>2.2.6-4</code>,  <code>2.2.6-3</code>,  <code>2.2.6-2</code>,  <code>2.2.6-1</code>,  <code>2.2.6-0</code>,  <code>2.2.5.1.1.ga103cd6-0</code>,  </span></summary>
       
 
-      ``2.2.6-6``,  ``2.2.6-5``,  ``2.2.6-4``,  ``2.2.6-3``,  ``2.2.6-2``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5.1.1.ga103cd6-0``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``
+      ``2.2.6-7``,  ``2.2.6-6``,  ``2.2.6-5``,  ``2.2.6-4``,  ``2.2.6-3``,  ``2.2.6-2``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5.1.1.ga103cd6-0``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ meraculous
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends gnuplot: ``>=3.7``
    :depends libgcc-ng: ``>=12``
    :depends libgd: ``>=2.0``

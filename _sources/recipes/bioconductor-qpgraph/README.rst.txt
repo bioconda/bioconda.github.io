@@ -13,7 +13,7 @@ bioconductor-qpgraph
    Estimation of genetic and molecular regulatory networks from high\-throughput genomics data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/qpgraph.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-qpgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpgraph/meta.yaml>`_
    :links: biotools: :biotools:`qpgraph`
 
@@ -29,10 +29,10 @@ bioconductor-qpgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.36.0-0</code>,  <code>2.34.2-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.2-0</code>,  <code>2.28.1-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.2-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.2-0</code>,  <code>2.28.1-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  </span></summary>
       
 
-      ``2.36.0-0``,  ``2.34.2-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.2-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.3-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``
+      ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.2-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.2-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.3-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``
 
       
       .. raw:: html
@@ -117,7 +117,7 @@ bioconductor-qpgraph
 
     <script>
         var package = "bioconductor-qpgraph";
-        var versions = ["2.36.0","2.34.2","2.32.0","2.32.0","2.28.2"];
+        var versions = ["2.36.0","2.36.0","2.34.2","2.32.0","2.32.0"];
     </script>
 
 

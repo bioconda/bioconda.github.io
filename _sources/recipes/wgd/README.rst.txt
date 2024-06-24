@@ -10,11 +10,14 @@ wgd
    :replaces_section_title:
    :noindex:
 
-   a suite tool of WGD inference and timing
+   wgd v2\: a suite of tools to uncover and date ancient polyploidy and whole\-genome duplication
 
    :homepage: https://github.com/heche-psb/wgd
-   :license: GPL-3.0
+   :documentation: https://wgdv2.readthedocs.io/en/latest/
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`wgd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgd/meta.yaml>`_
+   :links: biotools: :biotools:`wgd`, doi: :doi:`10.1007/978-1-0716-2561-3_1`, doi: :doi:`10.1093/bioinformatics/btae272`
 
    
 
@@ -28,10 +31,10 @@ wgd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.35-0</code>,  <code>2.0.34-0</code>,  <code>2.0.33-0</code>,  <code>2.0.32-0</code>,  <code>2.0.31-0</code>,  <code>2.0.30-0</code>,  <code>2.0.29-0</code>,  <code>2.0.28-0</code>,  <code>2.0.27-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.38-0</code>,  <code>2.0.37-0</code>,  <code>2.0.35-0</code>,  <code>2.0.34-0</code>,  <code>2.0.33-0</code>,  <code>2.0.32-0</code>,  <code>2.0.31-0</code>,  <code>2.0.30-0</code>,  <code>2.0.29-0</code>,  </span></summary>
       
 
-      ``2.0.35-0``,  ``2.0.34-0``,  ``2.0.33-0``,  ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-0``,  ``2.0.26-0``,  ``2.0.25-0``,  ``2.0.24-0``,  ``2.0.23-0``,  ``2.0.22-0``,  ``2.0.21-0``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-0``
+      ``2.0.38-0``,  ``2.0.37-0``,  ``2.0.35-0``,  ``2.0.34-0``,  ``2.0.33-0``,  ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-0``,  ``2.0.26-0``,  ``2.0.25-0``,  ``2.0.24-0``,  ``2.0.23-0``,  ``2.0.22-0``,  ``2.0.21-0``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-0``
 
       
       .. raw:: html
@@ -44,7 +47,7 @@ wgd
    :depends mafft: 
    :depends mcl: 
    :depends paml: 
-   :depends python: ``>=3.6,<=3.9``
+   :depends python: ``>=3.6,<3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +95,7 @@ wgd
 
     <script>
         var package = "wgd";
-        var versions = ["2.0.35","2.0.34","2.0.33","2.0.32","2.0.31"];
+        var versions = ["2.0.38","2.0.37","2.0.35","2.0.34","2.0.33"];
     </script>
 
 

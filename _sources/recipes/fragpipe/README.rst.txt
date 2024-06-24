@@ -41,7 +41,7 @@ fragpipe
       
       
 
-      ``20.0-2``,  ``20.0-1``,  ``20.0-0``
+      ``20.0-3``,  ``20.0-2``,  ``20.0-1``,  ``20.0-0``
 
       
 
@@ -52,6 +52,7 @@ fragpipe
    :depends msfragger: ``>=4.0``
    :depends openjdk: ``>=9``
    :depends python: ``3.9.*``
+   :depends zlib: ``>=1.2.13``
    :requirements:
 
    .. rubric:: Installation
@@ -99,7 +100,7 @@ fragpipe
 
     <script>
         var package = "fragpipe";
-        var versions = ["20.0","20.0","20.0"];
+        var versions = ["20.0","20.0","20.0","20.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ ebi-eva-common-pyutils
       
       
 
-      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
+      ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
 
       
 
@@ -85,7 +85,7 @@ ebi-eva-common-pyutils
 
     <script>
         var package = "ebi-eva-common-pyutils";
-        var versions = ["0.6.6","0.6.5","0.6.4","0.6.3"];
+        var versions = ["0.6.7","0.6.6","0.6.5","0.6.4","0.6.3"];
     </script>
 
 

@@ -52,7 +52,7 @@ ffgc
       
       
 
-      ``2.4.2-0``,  ``2.4.1-0``
+      ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-0``
 
       
 
@@ -63,7 +63,7 @@ ffgc
    :depends lxml: ``>=4.9.1``
    :depends mcl: ``>=14.137``
    :depends networkx: ``>=2.4``
-   :depends python: ``>=3.7``
+   :depends python: 
    :depends ruamel.yaml: ``>=0.15``
    :depends snakemake: ``>=7.24``
    :requirements:
@@ -113,7 +113,7 @@ ffgc
 
     <script>
         var package = "ffgc";
-        var versions = ["2.4.2","2.4.1"];
+        var versions = ["2.4.2","2.4.2","2.4.1"];
     </script>
 
 

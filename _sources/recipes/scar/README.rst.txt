@@ -10,7 +10,7 @@ scar
    :replaces_section_title:
    :noindex:
 
-   scAR \(single cell Ambient Remover\) is a package for denoising multiple single cell omics data.
+   scAR \(single\-cell Ambient Remover\) is a deep learning model for ambient signal removal in droplet\-based single cell omicsis.
 
    :homepage: https://github.com/Novartis/scar
    :license: MIT
@@ -28,10 +28,10 @@ scar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  </span></summary>
       
 
-      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.6.0-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -40,17 +40,13 @@ scar
       
 
    
-   :depends anndata: 
-   :depends cudatoolkit: ``>=11.1``
-   :depends numpy: ``<=1.21``
-   :depends pandas: ``>=1.3.4``
    :depends pyro-ppl: ``>=1.8.0``
-   :depends python: ``>=3.8.6``
+   :depends python: ``>=3.10``
    :depends pytorch: ``>=1.10.0``
    :depends scanpy: 
    :depends scikit-learn: ``>=1.0.1``
    :depends seaborn: ``>=0.11.2``
-   :depends setuptools: ``<=59.5.0``
+   :depends setuptools: ``>=68.1.2``
    :depends tensorboard: ``>=2.2.1``
    :depends torchvision: ``>=0.9.0``
    :depends tqdm: ``>=4.62.3``
@@ -101,7 +97,7 @@ scar
 
     <script>
         var package = "scar";
-        var versions = ["0.5.2","0.5.1","0.5.0","0.4.4","0.4.3"];
+        var versions = ["0.6.0","0.5.5","0.5.4","0.5.2","0.5.1"];
     </script>
 
 

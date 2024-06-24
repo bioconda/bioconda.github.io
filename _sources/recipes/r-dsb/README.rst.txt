@@ -27,7 +27,7 @@ r-dsb
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -83,7 +83,7 @@ r-dsb
 
     <script>
         var package = "r-dsb";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 

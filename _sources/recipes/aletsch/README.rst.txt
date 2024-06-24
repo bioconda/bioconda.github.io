@@ -28,10 +28,10 @@ aletsch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ aletsch
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends htslib: ``>=1.19.1,<1.21.0a0``
+   :depends boost-cpp: 
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -91,7 +91,7 @@ aletsch
 
     <script>
         var package = "aletsch";
-        var versions = ["1.1.1","1.1.0","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.1.1","1.1.1","1.1.0","1.0.3","1.0.3"];
     </script>
 
 

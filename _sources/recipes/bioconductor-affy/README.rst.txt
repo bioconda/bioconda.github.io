@@ -13,7 +13,7 @@ bioconductor-affy
    Methods for Affymetrix Oligonucleotide Arrays
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/affy.html
-   :license: LGPL (>= 2.0)
+   :license: LGPL-3-only
    :recipe: /`bioconductor-affy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affy/meta.yaml>`_
    :links: biotools: :biotools:`affy`
 
@@ -29,10 +29,10 @@ bioconductor-affy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.80.0-0</code>,  <code>1.78.0-1</code>,  <code>1.78.0-0</code>,  <code>1.76.0-2</code>,  <code>1.76.0-1</code>,  <code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  <code>1.72.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.80.0-1</code>,  <code>1.80.0-0</code>,  <code>1.78.0-1</code>,  <code>1.78.0-0</code>,  <code>1.76.0-2</code>,  <code>1.76.0-1</code>,  <code>1.76.0-0</code>,  <code>1.72.0-2</code>,  <code>1.72.0-1</code>,  </span></summary>
       
 
-      ``1.80.0-0``,  ``1.78.0-1``,  ``1.78.0-0``,  ``1.76.0-2``,  ``1.76.0-1``,  ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
+      ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-1``,  ``1.78.0-0``,  ``1.76.0-2``,  ``1.76.0-1``,  ``1.76.0-0``,  ``1.72.0-2``,  ``1.72.0-1``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ bioconductor-affy
 
     <script>
         var package = "bioconductor-affy";
-        var versions = ["1.80.0","1.78.0","1.78.0","1.76.0","1.76.0"];
+        var versions = ["1.80.0","1.80.0","1.78.0","1.78.0","1.76.0"];
     </script>
 
 

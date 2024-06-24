@@ -28,10 +28,10 @@ msisensor-pro
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-6</code>,  <code>1.2.0-5</code>,  <code>1.2.0-4</code>,  <code>1.2.0-3</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.a-1</code>,  <code>1.1.a-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-7</code>,  <code>1.2.0-6</code>,  <code>1.2.0-5</code>,  <code>1.2.0-4</code>,  <code>1.2.0-3</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.a-1</code>,  </span></summary>
       
 
-      ``1.2.0-6``,  ``1.2.0-5``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.a-1``,  ``1.1.a-0``,  ``1.0.a-8``,  ``1.0.a-7``,  ``1.0.a-3``,  ``1.0.a-2``,  ``1.0.a-1``,  ``1.0.a-0``,  ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-0``,  ``0.0.1-0``,  ``v1.2.0-0``
+      ``1.2.0-7``,  ``1.2.0-6``,  ``1.2.0-5``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.a-1``,  ``1.1.a-0``,  ``1.0.a-8``,  ``1.0.a-7``,  ``1.0.a-3``,  ``1.0.a-2``,  ``1.0.a-1``,  ``1.0.a-0``,  ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-0``,  ``0.0.1-0``,  ``v1.2.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ msisensor-pro
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends htslib: ``>=1.17,<1.21.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.20,<1.21.0a0``
+   :depends libcxx: ``>=16``
+   :depends llvm-openmp: ``>=16.0.6``
+   :depends llvm-openmp: ``>=18.1.7``
    :requirements:
 
    .. rubric:: Installation

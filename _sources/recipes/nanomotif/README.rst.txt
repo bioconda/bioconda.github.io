@@ -26,21 +26,32 @@ nanomotif
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  <code>0.1.18-0</code>,  </span></summary>
+      
 
+      ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends networkx: ``3.1``
-   :depends numpy: ``1.24.4``
-   :depends pandas: ``2.0.2``
+   :depends biopython: ``>=1.6.2``
+   :depends networkx: ``>=3.1``
+   :depends numpy: ``>=1.24.4``
+   :depends pandas: ``>=2.0.2``
    :depends polars: ``>=0.19``
-   :depends progressbar2: ``3.53.1``
+   :depends progressbar2: ``>=3.53.1``
+   :depends pyarrow: ``>=15.0.2``
    :depends python: 
    :depends requests: 
-   :depends scipy: ``1.10.1``
-   :depends seaborn: ``0.12.2``
+   :depends scipy: ``>=1.10.1``
+   :depends seaborn: ``>=0.12.2``
+   :depends snakemake: ``>=7.32.4``
    :depends wheel: 
    :requirements:
 
@@ -89,7 +100,7 @@ nanomotif
 
     <script>
         var package = "nanomotif";
-        var versions = ["0.1.20","0.1.19","0.1.18","0.1.17","0.1.15"];
+        var versions = ["0.4.8","0.4.7","0.4.6","0.4.5","0.4.4"];
     </script>
 
 

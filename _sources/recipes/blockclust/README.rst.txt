@@ -29,10 +29,10 @@ blockclust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ blockclust
 
     <script>
         var package = "blockclust";
-        var versions = ["1.1.1","1.1.0","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.1.1","1.1.1","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

@@ -27,17 +27,17 @@ repdenovo
       
       
 
-      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends bamtools: ``>=2.5.2,<2.6.0a0``
    :depends bwa: 
    :depends kmer-jellyfish: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends python: 
    :depends velvet: 
    :depends zlib: 
@@ -88,7 +88,7 @@ repdenovo
 
     <script>
         var package = "repdenovo";
-        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

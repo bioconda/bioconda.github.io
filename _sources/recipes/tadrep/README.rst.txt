@@ -10,10 +10,12 @@ tadrep
    :replaces_section_title:
    :noindex:
 
-   Targeted Detection and Reconstruction of Plasmids.
+   TaDRep\: Targeted Detection and Reconstruction of Plasmids
 
    :homepage: https://github.com/oschwengers/tadrep
-   :license: GPL / GPL-3.0-only
+   :documentation: https://github.com/oschwengers/tadrep/blob/main/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tadrep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadrep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadrep/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ tadrep
       
       
 
-      ``0.9.1-0``
+      ``0.9.2-0``,  ``0.9.1-0``
 
       
 
@@ -87,7 +89,7 @@ tadrep
 
     <script>
         var package = "tadrep";
-        var versions = ["0.9.1"];
+        var versions = ["0.9.2","0.9.1"];
     </script>
 
 

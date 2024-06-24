@@ -27,16 +27,24 @@ peakranger
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18-8``,  ``1.18-7``,  ``1.18-6``,  ``1.18-5``,  ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
+         <details><summary><span class="truncated-version-list"><code>1.18-9</code>,  <code>1.18-8</code>,  <code>1.18-7</code>,  <code>1.18-6</code>,  <code>1.18-5</code>,  <code>1.18-4</code>,  <code>1.18-3</code>,  <code>1.18-2</code>,  <code>1.18-1</code>,  </span></summary>
+      
 
+      ``1.18-9``,  ``1.18-8``,  ``1.18-7``,  ``1.18-6``,  ``1.18-5``,  ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends r-base: 
    :depends zlib: 
    :requirements:

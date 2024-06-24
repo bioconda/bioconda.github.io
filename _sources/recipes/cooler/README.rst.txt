@@ -10,9 +10,11 @@ cooler
    :replaces_section_title:
    :noindex:
 
-   Sparse binary format for genomic interaction matrices
+   Sparse binary format for genomic interaction matrices.
 
    :homepage: https://github.com/open2c/cooler
+   :documentation: https://open2c.github.io/cooler
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`cooler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cooler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cooler/meta.yaml>`_
    :links: doi: :doi:`0.1093/bioinformatics/btz540`
@@ -29,10 +31,10 @@ cooler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.11-2</code>,  <code>0.8.11-1</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.2-0</code>,  <code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.11-2</code>,  <code>0.8.11-1</code>,  <code>0.8.11-0</code>,  </span></summary>
       
 
-      ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.11-2``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-4``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.0-0``
+      ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.11-2``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-4``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.0-0``
 
       
       .. raw:: html
@@ -42,18 +44,17 @@ cooler
 
    
    :depends asciitree: 
-   :depends click: ``>7``
+   :depends click: ``>=7``
    :depends cytoolz: 
    :depends dask: 
    :depends h5py: ``>=2.5``
-   :depends hdf5: 
    :depends multiprocess: 
-   :depends numpy: ``>=1.9``
+   :depends numpy: ``<2``
    :depends pairix: 
-   :depends pandas: ``>1.0``
+   :depends pandas: ``>1.5``
    :depends pyfaidx: 
-   :depends pysam: ``>0.8``
-   :depends python: ``>=3.6``
+   :depends pysam: 
+   :depends python: ``>=3.8``
    :depends pyyaml: 
    :depends scipy: 
    :depends simplejson: 
@@ -104,7 +105,7 @@ cooler
 
     <script>
         var package = "cooler";
-        var versions = ["0.9.3","0.9.2","0.9.1","0.9.0","0.8.11"];
+        var versions = ["0.10.2","0.10.0","0.9.3","0.9.2","0.9.1"];
     </script>
 
 

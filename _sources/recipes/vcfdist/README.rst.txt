@@ -30,12 +30,12 @@ vcfdist
       
       
 
-      ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``
+      ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``
 
       
 
    
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends htslib: ``>=1.17,<1.18.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -85,7 +85,7 @@ vcfdist
 
     <script>
         var package = "vcfdist";
-        var versions = ["2.5.1","2.5.0","2.4.0"];
+        var versions = ["2.5.3","2.5.2","2.5.1","2.5.0","2.4.0"];
     </script>
 
 

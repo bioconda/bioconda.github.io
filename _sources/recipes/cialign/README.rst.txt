@@ -27,7 +27,7 @@ cialign
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``
+      ``1.1.4-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``
 
       
 
@@ -38,6 +38,7 @@ cialign
    :depends pandas: 
    :depends pillow: 
    :depends python: ``>=3.6``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +86,7 @@ cialign
 
     <script>
         var package = "cialign";
-        var versions = ["1.1.0","1.1.0","1.0.18"];
+        var versions = ["1.1.4","1.1.0","1.1.0","1.1.0","1.0.18"];
     </script>
 
 

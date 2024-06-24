@@ -10,9 +10,9 @@ vvv2_display
    :replaces_section_title:
    :noindex:
 
-   Creates png image file with all \[vardict\] variants proportions along genome\/assembly with annotations from \[vadr\].
+   Creates png image file with all \[vardict\] variants proportions alongside genome\/assembly with annotations from \[vadr\].
 
-   :homepage: https://github.com/ANSES_Ploufragan/vvv2_display/
+   :homepage: https://github.com/ANSES-Ploufragan/vvv2_display/
    :license: GPL / GPL-3.0-only
    :recipe: /`vvv2_display <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vvv2_display>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vvv2_display/meta.yaml>`_
 
@@ -27,7 +27,7 @@ vvv2_display
       
       
 
-      ``0.1.10-0``
+      ``0.2.1-0``,  ``0.1.10-0``
 
       
 
@@ -36,7 +36,11 @@ vvv2_display
    :depends pip: 
    :depends pysam: ``>=0.19.1``
    :depends python: ``>=3.9``
-   :depends r-ggplot2: ``>=3.3.6``
+   :depends r-cowplot: ``>=1.1.1``
+   :depends r-ggplot2: ``>=3.4.4``
+   :depends r-gridextra: ``>=2.3``
+   :depends r-jsonlite: ``>=1.8.8``
+   :depends r-stringr: ``>=1.5.1``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ vvv2_display
 
     <script>
         var package = "vvv2_display";
-        var versions = ["0.1.10"];
+        var versions = ["0.2.1","0.1.10"];
     </script>
 
 

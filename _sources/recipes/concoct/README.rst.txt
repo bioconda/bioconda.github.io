@@ -29,10 +29,10 @@ concoct
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  </span></summary>
       
 
-      ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
+      ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -45,14 +45,16 @@ concoct
    :depends cython: ``>=0.28.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc-ng: ``>=12``
+   :depends libopenblas: ``* *openmp*``
    :depends nose: ``>=1.3.0``
-   :depends numpy: ``>=1.25.2,<2.0a0``
+   :depends numpy: ``>=1.19,<3``
+   :depends numpy: ``>=2.0.0,<3.0a0``
    :depends pandas: ``>=0.11.0``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
    :depends pytz: ``>=2013.9``
    :depends samtools: 
-   :depends scikit-learn: ``1.1.3``
+   :depends scikit-learn: ``>=1.1.3``
    :depends scipy: ``>=0.13.3``
    :depends setuptools: 
    :requirements:

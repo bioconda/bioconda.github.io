@@ -10,7 +10,7 @@ unikmer
    :replaces_section_title:
    :noindex:
 
-   toolkit for k\-mer with taxonomic information
+   A versatile toolkit for k\-mers with taxonomic information
 
    :homepage: https://github.com/shenwei356/unikmer
    :license: MIT
@@ -27,7 +27,7 @@ unikmer
       
       
 
-      ``0.19.1-0``,  ``0.19.0-0``
+      ``0.20.0-0``,  ``0.19.1-0``,  ``0.19.0-0``
 
       
 
@@ -79,7 +79,7 @@ unikmer
 
     <script>
         var package = "unikmer";
-        var versions = ["0.19.1","0.19.0"];
+        var versions = ["0.20.0","0.19.1","0.19.0"];
     </script>
 
 

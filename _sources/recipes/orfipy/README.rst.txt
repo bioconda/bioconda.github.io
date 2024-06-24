@@ -27,7 +27,7 @@ orfipy
       
       
 
-      ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -37,7 +37,7 @@ orfipy
    :depends libstdcxx-ng: ``>=12``
    :depends psutil: 
    :depends pyahocorasick: 
-   :depends pyfastx: 
+   :depends pyfastx: ``>=2.1.0,<3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -87,7 +87,7 @@ orfipy
 
     <script>
         var package = "orfipy";
-        var versions = ["0.0.4","0.0.4","0.0.4","0.0.3","0.0.3"];
+        var versions = ["0.0.4","0.0.4","0.0.4","0.0.4","0.0.3"];
     </script>
 
 

@@ -28,16 +28,16 @@ ngsngs
       
       
 
-      ``0.9.2-0``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :depends zlib: 
    :requirements:
@@ -87,7 +87,7 @@ ngsngs
 
     <script>
         var package = "ngsngs";
-        var versions = ["0.9.2","0.9.0","0.9.0"];
+        var versions = ["0.9.2","0.9.2","0.9.0","0.9.0"];
     </script>
 
 

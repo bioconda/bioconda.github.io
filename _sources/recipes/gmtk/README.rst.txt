@@ -28,10 +28,10 @@ gmtk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.4-14</code>,  <code>1.4.4-13</code>,  <code>1.4.4-12</code>,  <code>1.4.4-11</code>,  <code>1.4.4-10</code>,  <code>1.4.4-9</code>,  <code>1.4.4-8</code>,  <code>1.4.4-7</code>,  <code>1.4.4-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.4-15</code>,  <code>1.4.4-14</code>,  <code>1.4.4-13</code>,  <code>1.4.4-12</code>,  <code>1.4.4-11</code>,  <code>1.4.4-10</code>,  <code>1.4.4-9</code>,  <code>1.4.4-8</code>,  <code>1.4.4-7</code>,  </span></summary>
       
 
-      ``1.4.4-14``,  ``1.4.4-13``,  ``1.4.4-12``,  ``1.4.4-11``,  ``1.4.4-10``,  ``1.4.4-9``,  ``1.4.4-8``,  ``1.4.4-7``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
+      ``1.4.4-15``,  ``1.4.4-14``,  ``1.4.4-13``,  ``1.4.4-12``,  ``1.4.4-11``,  ``1.4.4-10``,  ``1.4.4-9``,  ``1.4.4-8``,  ``1.4.4-7``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ gmtk
 
    
    :depends gxx_linux-64: ``10.*``
-   :depends hdf5: ``>=1.12.2,<1.12.3.0a0``
+   :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 

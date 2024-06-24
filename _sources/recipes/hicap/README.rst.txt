@@ -13,9 +13,11 @@ hicap
    In silico typing of the H. influenzae capsule locus
 
    :homepage: https://github.com/scwatts/hicap
-   :license: GPL / GPL-3.0
+   :documentation: https://github.com/scwatts/hicap/blob/main/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hicap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicap/meta.yaml>`_
-   :links: doi: :doi:`10.1128/JCM.00190-19`
+   :links: doi: :doi:`10.1128/jcm.00190-19`
 
    
 
@@ -28,7 +30,7 @@ hicap
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -85,7 +87,7 @@ hicap
 
     <script>
         var package = "hicap";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

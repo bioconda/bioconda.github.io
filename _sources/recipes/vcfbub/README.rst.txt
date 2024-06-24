@@ -10,10 +10,10 @@ vcfbub
    :replaces_section_title:
    :noindex:
 
-   popping bubbles in vg deconstruct VCFs
+   Popping bubbles in vg deconstruct VCFs
 
    :homepage: https://github.com/pangenome/vcfbub
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`vcfbub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfbub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfbub/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ vcfbub
       
       
 
-      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -80,7 +80,7 @@ vcfbub
 
     <script>
         var package = "vcfbub";
-        var versions = ["0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.1","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

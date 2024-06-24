@@ -1,25 +1,22 @@
-
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="../../">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Package Recipe &#39;revbayes&#39; &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/vega.min.js"></script>
-    <script src="../../_static/vega-lite.min.js"></script>
-    <script src="../../_static/vega-embed.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=fd3f3429" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=48720263" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/vega.min.js?v=d54ef115"></script>
+    <script src="../../_static/vega-lite.min.js?v=4fab2bf4"></script>
+    <script src="../../_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -45,7 +42,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
 
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="../../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
    
@@ -86,7 +83,7 @@
 
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-revbayes">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">revbayes</span></span><a class="headerlink" href="#package-revbayes" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">revbayes</span></span><a class="headerlink" href="#package-revbayes" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/revbayes"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/revbayes.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/revbayes"><img alt="docker_revbayes" src="https://quay.io/repository/biocontainers/revbayes/status" /></a></p>
 <dl class="field-list simple">
@@ -143,35 +140,61 @@ others.</p>
     var package = "revbayes";
     var versions = ["1.0.13","1.0.13","1.0.13","1.0.13","1.0.13"];
 </script><section id="download-stats">
-<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this heading">¶</a></h2>
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
 <div style="width: 100%" id="cdf_plot"></div>
 
 <script>
     window.onload = async function() {
-        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
-            let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
-                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
-                    spec.data.values = JSON.parse(plot_data);
-                    spec.data.values.push(JSON.parse(single_point).pop());
-                    vegaEmbed('#cdf_plot', spec);
-                });
-            });
-        });
-
-        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json`, function( data ) {
-            let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#download_plot', spec);
-            });
-        });
+  
+        // Build cdf plot
+        try {
+            const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+            if (!cdf_spec_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+            }
+            const cdf_spec = await cdf_spec_resp.json();
+            const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+            if (!cdf_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+            }
+            const cdf_plot_data = await cdf_data_resp.json();
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`)
+            if (!point_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+            }
+            const single_point = await point_data_resp.json();
+  
+            cdf_spec.data.values = cdf_plot_data;
+            cdf_spec.data.values.push(single_point.pop());
+            vegaEmbed('#cdf_plot', cdf_spec);
+        } catch (err) {
+            console.error("An error occurred while building CDF plot: ", err)
+        }
+  
+        // Build download plot
+        try {
+            const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+            if (!spec_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+            }
+            const spec = await spec_resp.json();
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`)
+            if (!version_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+            }
+            const plot_data = await version_data_resp.json();
+            spec.data.values = plot_data;
+            vegaEmbed('#download_plot', spec);
+        } catch (err) {
+            console.error("An error occurred while building downloads plot: ", err)
+        }
+  
     }
 </script>
 </section>
 <section id="link-to-this-page">
-<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this heading">¶</a></h2>
+<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/revbayes/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/revbayes/README.html)
 </pre></div>
@@ -239,7 +262,7 @@ others.</p>
     if (elem != null) {
         // Get the closest "details" element and open it
         closest = elem.closest("details");
-        closest.open = true;
+        if (closest) closest.open = true;
     }
 </script>
 
@@ -248,7 +271,7 @@ others.</p>
       &#169;2016-2024, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 5.1.1</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |

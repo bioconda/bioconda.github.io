@@ -13,7 +13,7 @@ allo
    Multi\-mapped read rescue strategy for gene regulatory analyses
 
    :homepage: https://github.com/seqcode/allo
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`allo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/allo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/allo/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ allo
       
       
 
-      ``1.0.5-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.5-0``
 
       
 
@@ -35,7 +35,7 @@ allo
    :depends joblib: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.10``
    :depends tensorflow: ``>=2.11``
    :requirements:
 
@@ -84,7 +84,7 @@ allo
 
     <script>
         var package = "allo";
-        var versions = ["1.0.5"];
+        var versions = ["1.1.1","1.1.1","1.0.5"];
     </script>
 
 

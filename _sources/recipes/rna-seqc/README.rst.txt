@@ -28,10 +28,10 @@ rna-seqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.5-5</code>,  <code>2.3.5-4</code>,  <code>2.3.5-3</code>,  <code>2.3.5-2</code>,  <code>2.3.5-1</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>1.1.8-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.5-6</code>,  <code>2.3.5-5</code>,  <code>2.3.5-4</code>,  <code>2.3.5-3</code>,  <code>2.3.5-2</code>,  <code>2.3.5-1</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  </span></summary>
       
 
-      ``2.3.5-5``,  ``2.3.5-4``,  ``2.3.5-3``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``1.1.8-2``,  ``1.1.8-1``
+      ``2.3.5-6``,  ``2.3.5-5``,  ``2.3.5-4``,  ``2.3.5-3``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``1.1.8-2``,  ``1.1.8-1``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ rna-seqc
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :depends zlib: 
    :requirements:

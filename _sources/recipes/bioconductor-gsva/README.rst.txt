@@ -13,7 +13,7 @@ bioconductor-gsva
    Gene Set Variation Analysis for Microarray and RNA\-Seq Data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/GSVA.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-gsva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsva/meta.yaml>`_
    :links: biotools: :biotools:`gsva`
 
@@ -29,10 +29,10 @@ bioconductor-gsva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.2-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.2-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.48.2-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.24.1-0``
+      ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.2-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.24.1-0``
 
       
       .. raw:: html
@@ -117,7 +117,7 @@ bioconductor-gsva
 
     <script>
         var package = "bioconductor-gsva";
-        var versions = ["1.50.0","1.48.2","1.46.0","1.46.0","1.42.0"];
+        var versions = ["1.50.0","1.50.0","1.48.2","1.46.0","1.46.0"];
     </script>
 
 

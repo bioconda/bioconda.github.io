@@ -27,7 +27,7 @@ paragone
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -43,7 +43,7 @@ paragone
    :depends openmp: ``>=8.0.1``
    :depends perl: ``>=5.32``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-moose: ``2.2203.*``
+   :depends perl-moose: ``2.2207.*``
    :depends perl-moose: ``>=2.2202``
    :depends python_abi: ``3.9.* *_cp39``
    :depends r-base: ``>=4.0.3``
@@ -96,7 +96,7 @@ paragone
 
     <script>
         var package = "paragone";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

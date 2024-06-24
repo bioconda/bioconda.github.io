@@ -12,8 +12,8 @@ bigtools
 
    Bigtools provides a high\-level\, performant API for reading and writing bigWig and bigBed files.
 
-   :homepage: https://github.com/jackh726/bigtools/
-   :documentation: https://docs.rs/bigtools/latest/bigtools/
+   :homepage: https://github.com/jackh726/bigtools
+   :documentation: https://docs.rs/bigtools/latest/bigtools
    
    :license: MIT / MIT
    :recipe: /`bigtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigtools/meta.yaml>`_
@@ -30,7 +30,7 @@ bigtools
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``
+      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -83,7 +83,7 @@ bigtools
 
     <script>
         var package = "bigtools";
-        var versions = ["0.4.2","0.4.1"];
+        var versions = ["0.4.3","0.4.2","0.4.1"];
     </script>
 
 

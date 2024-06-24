@@ -27,7 +27,7 @@ cogent3
       
       
 
-      ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
+      ``2024.5.7a1-0``,  ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
 
       
 
@@ -38,6 +38,7 @@ cogent3
    :depends python: ``>=3.9,<3.12``
    :depends scipy: 
    :depends scitrack: 
+   :depends stevedore: 
    :depends tinydb: 
    :depends tqdm: 
    :depends typing_extensions: 
@@ -88,7 +89,7 @@ cogent3
 
     <script>
         var package = "cogent3";
-        var versions = ["2024.2.5a1","2023.12.15a1","2023.9.22a1","2023.7.18a1","2022.8.24a1"];
+        var versions = ["2024.5.7a1","2024.2.5a1","2023.12.15a1","2023.9.22a1","2023.7.18a1"];
     </script>
 
 

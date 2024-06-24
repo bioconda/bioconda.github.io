@@ -13,7 +13,9 @@ handyreadgenotyper
    Tool for training model and classifying reads from environmental ONT amplicon sequencing.
 
    :homepage: https://github.com/AntonS-bio/HandyReadGenotyper
-   :license: GPL-3.0
+   :documentation: https://github.com/AntonS-bio/HandyAmpliconTool/blob/main/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`handyreadgenotyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/handyreadgenotyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/handyreadgenotyper/meta.yaml>`_
 
    Tool for training model and classifying reads from environmental ONT amplicon sequencing. 
@@ -28,16 +30,18 @@ handyreadgenotyper
       
       
 
-      ``0.1.9-0``
+      ``0.1.18-0``,  ``0.1.14-1``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.9-0``
 
       
 
    
    :depends biopython: ``>=1.78``
+   :depends minimap2: 
    :depends numpy: ``>=1.20.*``
    :depends pandas: ``>=2.0.0``
    :depends pysam: ``>=0.22.0``
-   :depends python: ``<3.9.0a0,>=3.8``
+   :depends python: ``>=3.8,<3.9``
+   :depends samtools: 
    :depends scikit-learn: ``>=1.3.*``
    :depends tqdm: ``>=4.66.*``
    :requirements:
@@ -87,7 +91,7 @@ handyreadgenotyper
 
     <script>
         var package = "handyreadgenotyper";
-        var versions = ["0.1.9"];
+        var versions = ["0.1.18","0.1.14","0.1.14","0.1.13","0.1.9"];
     </script>
 
 

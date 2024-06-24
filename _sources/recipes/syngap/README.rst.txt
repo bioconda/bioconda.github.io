@@ -10,7 +10,7 @@ syngap
    :replaces_section_title:
    :noindex:
 
-   SynGAP\: Synteny\-based Genome Annotations Polisher
+   SynGAP\: Synteny\-based Gene structure Annotation Polisher
 
    :homepage: https://github.com/yanyew/SynGAP
    :license: CC-BY-NC-SA-4.0
@@ -27,7 +27,7 @@ syngap
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -101,7 +101,7 @@ syngap
 
     <script>
         var package = "syngap";
-        var versions = ["1.1.1","1.1.0","1.0.1","1.0.0"];
+        var versions = ["1.2.3","1.2.3","1.2.2","1.1.1","1.1.1"];
     </script>
 
 

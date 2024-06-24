@@ -28,10 +28,10 @@ fastqpuri
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-7</code>,  <code>1.0.7-6</code>,  <code>1.0.7-5</code>,  <code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.6-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.7-8</code>,  <code>1.0.7-7</code>,  <code>1.0.7-6</code>,  <code>1.0.7-5</code>,  <code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  </span></summary>
       
 
-      ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-6``,  ``1.0.6b-7``,  ``1.0.5-5``,  ``1.0.5-3``
+      ``1.0.7-8``,  ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-6``,  ``1.0.6b-7``,  ``1.0.5-5``,  ``1.0.5-3``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ fastqpuri
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends pandoc: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends zlib: 
    :requirements:
 

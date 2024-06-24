@@ -26,19 +26,31 @@ annotsv
    :versions:
       
       
+      .. raw:: html
 
-      ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
+         <details><summary><span class="truncated-version-list"><code>3.4.2-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  </span></summary>
+      
 
+      ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends appdirs: 
    :depends bcftools: ``>=1.10``
    :depends bedtools: ``>=2.25``
    :depends coreutils: 
    :depends curl: 
+   :depends git: 
+   :depends make: 
    :depends natsort: ``>=7.1.1``
    :depends openjdk: ``>=8``
    :depends pandas: ``>=1.5.2``
+   :depends polars: ``>=0.16.5``
    :depends pyfaidx: ``>=0.7.1``
    :depends python: ``>=3.8``
    :depends tk: ``>=8.5``
@@ -91,7 +103,7 @@ annotsv
 
     <script>
         var package = "annotsv";
-        var versions = ["3.4","3.4","3.3.9","3.3.8","3.3.7"];
+        var versions = ["3.4.2","3.4.1","3.4.1","3.4","3.4"];
     </script>
 
 

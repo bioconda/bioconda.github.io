@@ -27,7 +27,7 @@ eva-sub-cli
       
       
 
-      ``0.2-0``
+      ``0.3-0``,  ``0.2-0``
 
       
 
@@ -89,7 +89,7 @@ eva-sub-cli
 
     <script>
         var package = "eva-sub-cli";
-        var versions = ["0.2"];
+        var versions = ["0.3","0.2"];
     </script>
 
 

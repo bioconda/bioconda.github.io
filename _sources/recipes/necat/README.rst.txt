@@ -10,11 +10,14 @@ necat
    :replaces_section_title:
    :noindex:
 
-   Nanopore data assembler
+   NECAT is an error correction and de\-novo assembly tool for Nanopore long noisy reads.
 
    :homepage: https://github.com/xiaochuanle/NECAT
-   :license: Unknow
+   :documentation: https://github.com/xiaochuanle/NECAT/blob/master/README.md
+   
+   :license: Unknown
    :recipe: /`necat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/necat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/necat/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-020-20236-7`, biotools: :biotools:`necat`, usegalaxy-eu: :usegalaxy-eu:`necat`
 
    
 
@@ -27,7 +30,7 @@ necat
       
       
 
-      ``0.0.1_update20200803-4``,  ``0.0.1_update20200803-3``,  ``0.0.1_update20200803-2``,  ``0.0.1_update20200803-1``,  ``0.0.1_update20200803-0``
+      ``0.0.1_update20200803-5``,  ``0.0.1_update20200803-4``,  ``0.0.1_update20200803-3``,  ``0.0.1_update20200803-2``,  ``0.0.1_update20200803-1``,  ``0.0.1_update20200803-0``
 
       
 

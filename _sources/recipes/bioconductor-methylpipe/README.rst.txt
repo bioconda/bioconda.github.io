@@ -13,7 +13,7 @@ bioconductor-methylpipe
    Base resolution DNA methylation data analysis
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/methylPipe.html
-   :license: GPL(>=2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-methylpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylpipe/meta.yaml>`_
    :links: biotools: :biotools:`methylpipe`
 
@@ -29,10 +29,10 @@ bioconductor-methylpipe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.1-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.27.0-1</code>,  <code>1.27.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.1-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.27.0-1</code>,  <code>1.27.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.27.0-1``,  ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.27.0-1``,  ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ bioconductor-methylpipe
 
     <script>
         var package = "bioconductor-methylpipe";
-        var versions = ["1.36.0","1.34.1","1.32.0","1.32.0","1.27.0"];
+        var versions = ["1.36.0","1.36.0","1.34.1","1.32.0","1.32.0"];
     </script>
 
 

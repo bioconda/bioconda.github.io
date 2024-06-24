@@ -27,18 +27,18 @@ metabat2
       
       
 
-      ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
+      ``2.17-0``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends htslib: ``>=1.16,<1.21.0a0``
-   :depends libdeflate: ``>=1.13,<1.14.0a0``
+   :depends boost-cpp: 
+   :depends htslib: ``>=1.20,<1.21.0a0``
+   :depends libdeflate: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5``
    :requirements:
 
@@ -87,7 +87,7 @@ metabat2
 
     <script>
         var package = "metabat2";
-        var versions = ["2.15","2.15","2.15","2.14","2.13"];
+        var versions = ["2.17","2.15","2.15","2.15","2.14"];
     </script>
 
 

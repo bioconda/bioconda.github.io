@@ -13,7 +13,7 @@ k8
    Lightweight JavaScript shell based on Google\'s V8 JavaScript engine
 
    :homepage: https://github.com/attractivechaos/k8
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`k8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k8/meta.yaml>`_
 
    
@@ -27,15 +27,17 @@ k8
       
       
 
-      ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
+   :depends sysroot_linux-64: ``>=2.17``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +85,7 @@ k8
 
     <script>
         var package = "k8";
-        var versions = ["0.2.5","0.2.5","0.2.5","0.2.5","0.2.5"];
+        var versions = ["1.2","1.2","1.1","1.0","0.2.5"];
     </script>
 
 

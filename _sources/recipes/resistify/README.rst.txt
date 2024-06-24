@@ -27,7 +27,7 @@ resistify
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -36,6 +36,8 @@ resistify
    :depends hmmer: 
    :depends numpy: 
    :depends python: ``>=3.9``
+   :depends rich: 
+   :depends rich-argparse: 
    :depends scikit-learn: ``0.24.2``
    :requirements:
 
@@ -84,7 +86,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.2.2","0.2.1","0.1.1","0.1.0"];
     </script>
 
 

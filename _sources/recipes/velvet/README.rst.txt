@@ -12,8 +12,11 @@ velvet
 
    Sequence Assembler for short reads
 
-   :homepage: https://www.ebi.ac.uk/~zerbino/velvet/
-   :license: GPL
+   :homepage: https://europepmc.org/article/pmc/2336801
+   :documentation: https://europepmc.org/article/pmc/2336801#free-full-text
+   
+   :developer docs: https://github.com/dzerbino/velvet
+   :license: GPL / GPL-2.0-only
    :recipe: /`velvet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet/meta.yaml>`_
    :links: biotools: :biotools:`velvet`
 
@@ -28,13 +31,13 @@ velvet
       
       
 
-      ``1.2.10-6``,  ``1.2.10-5``,  ``1.2.10-4``,  ``1.2.10-3``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``
+      ``1.2.10-7``,  ``1.2.10-6``,  ``1.2.10-5``,  ``1.2.10-4``,  ``1.2.10-3``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 

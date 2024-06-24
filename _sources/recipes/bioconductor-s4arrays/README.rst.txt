@@ -27,7 +27,7 @@ bioconductor-s4arrays
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
 
       
 
@@ -92,7 +92,7 @@ bioconductor-s4arrays
 
     <script>
         var package = "bioconductor-s4arrays";
-        var versions = ["1.2.0","1.2.0","1.0.4"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.0.4"];
     </script>
 
 

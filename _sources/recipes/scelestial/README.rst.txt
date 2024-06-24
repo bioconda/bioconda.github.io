@@ -27,13 +27,13 @@ scelestial
       
       
 
-      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends boost: ``>=1.78.0,<1.78.1.0a0``
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost: 
+   :depends boost-cpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
@@ -83,7 +83,7 @@ scelestial
 
     <script>
         var package = "scelestial";
-        var versions = ["1.2","1.2","1.2"];
+        var versions = ["1.2","1.2","1.2","1.2"];
     </script>
 
 

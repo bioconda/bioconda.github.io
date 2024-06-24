@@ -27,15 +27,12 @@ haddock_biobb
       
       
 
-      ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
 
    
    :depends biopython: 
-   :depends boost-cpp: 
-   :depends c-compiler: 
-   :depends cxx-compiler: 
    :depends freesasa: 
    :depends git: 
    :depends jsonpickle: 
@@ -47,8 +44,7 @@ haddock_biobb
    :depends pdb-tools: 
    :depends pip: 
    :depends plotly: 
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends pyyaml: 
    :depends scipy: 
    :depends toml: 
@@ -100,7 +96,7 @@ haddock_biobb
 
     <script>
         var package = "haddock_biobb";
-        var versions = ["3.0.4","3.0.3","3.0.2","3.0.1","3.0.0"];
+        var versions = ["3.0.6","3.0.6","3.0.5","3.0.5","3.0.4"];
     </script>
 
 

@@ -13,7 +13,7 @@ mgems
    mGEMS \- sequencing data binning based on probabilistic classification
 
    :homepage: https://github.com/PROBIC/mGEMS
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`mgems <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgems>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgems/meta.yaml>`_
    :links: doi: :doi:`10.1099/mgen.0.000691`
 
@@ -28,7 +28,7 @@ mgems
       
       
 
-      ``1.3.1-0``
+      ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
@@ -37,8 +37,8 @@ mgems
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends xz: ``>=5.2.6,<5.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ mgems
 
     <script>
         var package = "mgems";
-        var versions = ["1.3.1"];
+        var versions = ["1.3.2","1.3.2","1.3.1","1.3.1"];
     </script>
 
 

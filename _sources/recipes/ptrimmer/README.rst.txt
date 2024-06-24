@@ -13,8 +13,9 @@ ptrimmer
    Used to trim off the primer sequence from mutiplex amplicon sequencing
 
    :homepage: https://github.com/DMU-lilab/pTrimmer
-   :license: GPL / GNU General Public License v3 (GPL-3.0)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ptrimmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ptrimmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ptrimmer/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-019-2854-x`
 
    
 
@@ -27,15 +28,14 @@ ptrimmer
       
       
 
-      ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``1.4.0-0``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends ncurses: ``>=6.3,<7.0a0``
-   :depends zlib: 
+   :depends ncurses: ``>=6.4.20240210,<7.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ ptrimmer
 
     <script>
         var package = "ptrimmer";
-        var versions = ["1.3.3","1.3.3","1.3.3","1.3.3","1.3.3"];
+        var versions = ["1.4.0","1.3.3","1.3.3","1.3.3","1.3.3"];
     </script>
 
 

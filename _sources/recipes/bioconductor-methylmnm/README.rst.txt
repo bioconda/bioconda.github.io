@@ -13,7 +13,7 @@ bioconductor-methylmnm
    detect different methylation level \(DMR\)
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/methylMnM.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-methylmnm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm/meta.yaml>`_
    :links: biotools: :biotools:`methylmnm`, doi: :doi:`10.1101/gr.156539.113`
 
@@ -29,10 +29,10 @@ bioconductor-methylmnm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ bioconductor-methylmnm
 
    
    :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-edger: ``>=4.0.2,<4.1.0a0``
+   :depends bioconductor-edger: ``>=4.0.16,<4.1.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -95,7 +95,7 @@ bioconductor-methylmnm
 
     <script>
         var package = "bioconductor-methylmnm";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.32.0"];
+        var versions = ["1.40.0","1.40.0","1.38.0","1.36.0","1.36.0"];
     </script>
 
 

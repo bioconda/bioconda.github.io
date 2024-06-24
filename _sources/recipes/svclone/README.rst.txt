@@ -19,7 +19,7 @@ svclone
 
    A computational method for inferring the cancer cell
    fraction of tumour structural variation from whole\-genome
-   sequencing data. 
+   sequencing data.
 
 
 
@@ -31,7 +31,7 @@ svclone
       
       
 
-      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``v1.1.0-0``
+      ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``v1.1.0-0``
 
       
 
@@ -41,7 +41,7 @@ svclone
    :depends pysam: 
    :depends python: ``>=3``
    :depends pyvcf: 
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-ccube: 
    :depends r-doparallel: 
    :requirements:
@@ -91,7 +91,7 @@ svclone
 
     <script>
         var package = "svclone";
-        var versions = ["1.1.2","1.1.2","1.1.1","1.1.0","v1.1.0"];
+        var versions = ["1.1.3","1.1.2","1.1.2","1.1.1","1.1.0"];
     </script>
 
 

@@ -15,7 +15,7 @@ foldseek
    :homepage: https://github.com/steineggerlab/foldseek
    :license: GPL / GPL-3
    :recipe: /`foldseek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldseek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldseek/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s41587-023-01773-0`, biotools: :biotools:`foldseek`
+   :links: doi: :doi:`10.1038/s41587-023-01773-0`, doi: :doi:`10.1038/s41586-023-06510-w`, doi: :doi:`10.1101/2024.04.14.589414`, biotools: :biotools:`foldseek`
 
    
 
@@ -29,10 +29,10 @@ foldseek
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.ef4e960-1</code>,  <code>8.ef4e960-0</code>,  <code>7.04e0ec8-0</code>,  <code>6.29e2557-2</code>,  <code>6.29e2557-1</code>,  <code>6.29e2557-0</code>,  <code>5.53465f0-0</code>,  <code>4.645b789-0</code>,  <code>3.915ef7d-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>9.427df8a-0</code>,  <code>8.ef4e960-1</code>,  <code>8.ef4e960-0</code>,  <code>7.04e0ec8-0</code>,  <code>6.29e2557-2</code>,  <code>6.29e2557-1</code>,  <code>6.29e2557-0</code>,  <code>5.53465f0-0</code>,  <code>4.645b789-0</code>,  </span></summary>
       
 
-      ``8.ef4e960-1``,  ``8.ef4e960-0``,  ``7.04e0ec8-0``,  ``6.29e2557-2``,  ``6.29e2557-1``,  ``6.29e2557-0``,  ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
+      ``9.427df8a-0``,  ``8.ef4e960-1``,  ``8.ef4e960-0``,  ``7.04e0ec8-0``,  ``6.29e2557-2``,  ``6.29e2557-1``,  ``6.29e2557-0``,  ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ foldseek
 
     <script>
         var package = "foldseek";
-        var versions = ["8.ef4e960","8.ef4e960","7.04e0ec8","6.29e2557","6.29e2557"];
+        var versions = ["9.427df8a","8.ef4e960","8.ef4e960","7.04e0ec8","6.29e2557"];
     </script>
 
 

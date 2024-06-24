@@ -10,7 +10,7 @@ batch_brb
    :replaces_section_title:
    :noindex:
 
-   A tool for the automation of best reciprocal BLAST and phylogenetic analysis using FastTree
+   A tool for the automation of best reciprocal BLAST and phylogenetic analysis using FastTree.
 
    :homepage: https://github.com/erin-r-butterfield/batch_brb
    :license: GPL3
@@ -27,7 +27,7 @@ batch_brb
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.1.1-0``,  ``1.1-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -91,7 +91,7 @@ batch_brb
 
     <script>
         var package = "batch_brb";
-        var versions = ["1.0.1","1.0.1","1.0"];
+        var versions = ["1.1.1","1.1","1.0.1","1.0.1","1.0"];
     </script>
 
 

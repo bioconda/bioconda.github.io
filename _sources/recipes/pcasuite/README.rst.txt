@@ -27,7 +27,7 @@ pcasuite
       
       
 
-      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -37,9 +37,9 @@ pcasuite
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
+   :depends libgfortran5: ``>=12.3.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libnetcdf: ``>=4.8.1,<4.8.2.0a0``
+   :depends libnetcdf: ``>=4.9.2,<4.9.3.0a0``
    :depends libstdcxx-ng: ``>=12``
    :requirements:
 
@@ -88,7 +88,7 @@ pcasuite
 
     <script>
         var package = "pcasuite";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

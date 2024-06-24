@@ -28,10 +28,10 @@ quicksect
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-8</code>,  <code>0.2.2-6</code>,  <code>0.2.2-5</code>,  <code>0.2.2-4</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.2-9</code>,  <code>0.2.2-8</code>,  <code>0.2.2-6</code>,  <code>0.2.2-5</code>,  <code>0.2.2-4</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.2.2-8``,  ``0.2.2-6``,  ``0.2.2-5``,  ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.2-9``,  ``0.2.2-8``,  ``0.2.2-6``,  ``0.2.2-5``,  ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html

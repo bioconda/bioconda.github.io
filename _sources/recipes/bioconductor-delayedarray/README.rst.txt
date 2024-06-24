@@ -28,10 +28,10 @@ bioconductor-delayedarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.6-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.20.0-2</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.28.0-2</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.6-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.20.0-2</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  </span></summary>
       
 
-      ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.6-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.20.0-2``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
+      ``0.28.0-2``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.6-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.20.0-2``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ bioconductor-delayedarray
    :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
    :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0a0``
    :depends bioconductor-s4arrays: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4arrays: ``>=1.2.0,<2.0a0``
+   :depends bioconductor-s4arrays: ``>=1.2.0,<1.3.0a0``
    :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends bioconductor-sparsearray: ``>=1.2.0,<1.3.0``
@@ -104,7 +104,7 @@ bioconductor-delayedarray
 
     <script>
         var package = "bioconductor-delayedarray";
-        var versions = ["0.28.0","0.28.0","0.26.6","0.24.0","0.24.0"];
+        var versions = ["0.28.0","0.28.0","0.28.0","0.26.6","0.24.0"];
     </script>
 
 

@@ -27,16 +27,25 @@ squid
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5-7``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.5-8</code>,  <code>1.5-7</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  <code>1.5-1</code>,  <code>1.5-0</code>,  </span></summary>
+      
 
+      ``1.5-8``,  ``1.5-7``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends bamtools: ``>=2.5.2,<2.6.0a0``
    :depends glpk: ``>=5.0,<6.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 

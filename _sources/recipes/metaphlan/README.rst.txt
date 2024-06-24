@@ -13,7 +13,9 @@ metaphlan
    Metagenomic Phylogenetic Analysis
 
    :homepage: https://github.com/biobakery/metaphlan
-   :license: MIT / MIT License
+   :documentation: https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4
+   
+   :license: MIT / MIT
    :recipe: /`metaphlan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan/meta.yaml>`_
 
    MetaPhlAn is a computational tool for profiling the composition of microbial
@@ -22,6 +24,7 @@ metaphlan
    MetaPhlAn is also able to identify specific strains \(in the not\-so\-frequent
    cases in which the sample contains a previously sequenced strains\) and to
    track strains across samples for all species.
+
 
 
 .. conda:package:: metaphlan
@@ -33,10 +36,10 @@ metaphlan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  </span></summary>
       
 
-      ``4.1.0-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.14-0``,  ``3.0.13-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``3.0.0.alpha-1``,  ``3.0.0.alpha-0``,  ``2.8.1-1``,  ``2.8.1-0``
+      ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.14-0``,  ``3.0.13-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``3.0.0.alpha-1``,  ``3.0.0.alpha-0``,  ``2.8.1-1``,  ``2.8.1-0``
 
       
       .. raw:: html
@@ -51,6 +54,7 @@ metaphlan
    :depends blast: ``>=2.6.0``
    :depends bowtie2: ``>=2.3.0``
    :depends dendropy: 
+   :depends h5py: 
    :depends hclust2: 
    :depends matplotlib-base: 
    :depends muscle: ``>=3.8.1551``
@@ -117,7 +121,7 @@ metaphlan
 
     <script>
         var package = "metaphlan";
-        var versions = ["4.1.0","4.0.6","4.0.5","4.0.4","4.0.3"];
+        var versions = ["4.1.1","4.1.0","4.0.6","4.0.5","4.0.4"];
     </script>
 
 

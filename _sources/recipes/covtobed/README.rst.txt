@@ -28,10 +28,10 @@ covtobed
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.5-4</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
       
 
-      ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6-0``,  ``0.4-0``,  ``0.3-0``,  ``0.1-0``
+      ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6-0``,  ``0.4-0``,  ``0.3-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ covtobed
       
 
    
-   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends bamtools: ``>=2.5.2,<2.6.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -92,7 +92,7 @@ covtobed
 
     <script>
         var package = "covtobed";
-        var versions = ["1.3.5","1.3.5","1.3.5","1.3.3","1.3.1"];
+        var versions = ["1.3.5","1.3.5","1.3.5","1.3.5","1.3.5"];
     </script>
 
 

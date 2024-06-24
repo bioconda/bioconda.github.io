@@ -26,13 +26,21 @@ livekraken
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0-9``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0-10</code>,  <code>1.0-9</code>,  <code>1.0-8</code>,  <code>1.0-7</code>,  <code>1.0-6</code>,  <code>1.0-5</code>,  <code>1.0-4</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  </span></summary>
+      
 
+      ``1.0-10``,  ``1.0-9``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends kmer-jellyfish: ``1.*``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

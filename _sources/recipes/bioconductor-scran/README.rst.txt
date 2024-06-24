@@ -13,7 +13,7 @@ bioconductor-scran
    Methods for Single\-Cell RNA\-Seq Data Analysis
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/scran.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-scran <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scran>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scran/meta.yaml>`_
    :links: biotools: :biotools:`scran`
 
@@ -29,10 +29,10 @@ bioconductor-scran
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.1-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.18.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.1-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ bioconductor-scran
    :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
    :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0a0``
    :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-edger: ``>=4.0.2,<4.1.0a0``
+   :depends bioconductor-edger: ``>=4.0.16,<4.1.0a0``
    :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
    :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
    :depends bioconductor-metapod: ``>=1.10.0,<1.11.0``
@@ -127,7 +127,7 @@ bioconductor-scran
 
     <script>
         var package = "bioconductor-scran";
-        var versions = ["1.30.0","1.28.1","1.26.0","1.26.0","1.22.1"];
+        var versions = ["1.30.0","1.30.0","1.28.1","1.26.0","1.26.0"];
     </script>
 
 

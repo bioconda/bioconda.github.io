@@ -13,7 +13,7 @@ smafa
    smafa is a tool for querying and clustering pre\-aligned small pre\-aligned sequences.
 
    :homepage: https://github.com/wwood/smafa
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`smafa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smafa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smafa/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ smafa
       
       
 
-      ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
@@ -80,7 +80,7 @@ smafa
 
     <script>
         var package = "smafa";
-        var versions = ["0.7.1","0.7.0","0.7.0","0.7.0","0.6.1"];
+        var versions = ["0.8.0","0.7.1","0.7.0","0.7.0","0.7.0"];
     </script>
 
 

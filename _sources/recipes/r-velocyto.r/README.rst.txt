@@ -27,13 +27,13 @@ r-velocyto.r
       
       
 
-      ``0.6-7``,  ``0.6-6``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``
+      ``0.6-8``,  ``0.6-7``,  ``0.6-6``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``
 
       
 
    
-   :depends bioconductor-pcamethods: 
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0a0``
+   :depends boost-cpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends r-abind: 

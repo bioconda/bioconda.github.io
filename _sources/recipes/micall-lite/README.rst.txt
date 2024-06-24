@@ -27,9 +27,17 @@ micall-lite
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1rc5-4``,  ``0.1rc5-3``,  ``0.1rc5-2``,  ``0.1rc5-1``,  ``0.1rc5-0``,  ``0.1rc4-0``,  ``0.1rc3-0``,  ``0.1rc2-0``,  ``0.1rc-0``
+         <details><summary><span class="truncated-version-list"><code>0.1rc5-5</code>,  <code>0.1rc5-4</code>,  <code>0.1rc5-3</code>,  <code>0.1rc5-2</code>,  <code>0.1rc5-1</code>,  <code>0.1rc5-0</code>,  <code>0.1rc4-0</code>,  <code>0.1rc3-0</code>,  <code>0.1rc2-0</code>,  </span></summary>
+      
 
+      ``0.1rc5-5``,  ``0.1rc5-4``,  ``0.1rc5-3``,  ``0.1rc5-2``,  ``0.1rc5-1``,  ``0.1rc5-0``,  ``0.1rc4-0``,  ``0.1rc3-0``,  ``0.1rc2-0``,  ``0.1rc-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

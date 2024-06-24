@@ -13,7 +13,7 @@ nanomath
    A few simple math function for other Oxford Nanopore processing scripts
 
    :homepage: https://github.com/wdecoster/nanomath
-   :license: MIT / MIT License
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nanomath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomath/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ nanomath
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  <code>0.23.3-0</code>,  <code>0.23.2-0</code>,  <code>0.23.1-1</code>,  <code>0.23.1-0</code>,  <code>0.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  <code>0.23.3-0</code>,  <code>0.23.2-0</code>,  <code>0.23.1-1</code>,  <code>0.23.1-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.23.3-0``,  ``0.23.2-0``,  ``0.23.1-1``,  ``0.23.1-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.21.0-2``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.18.1-0``,  ``0.16.2-0``,  ``0.14.2-0``,  ``0.12.5-0``
+      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.23.3-0``,  ``0.23.2-0``,  ``0.23.1-1``,  ``0.23.1-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.21.0-2``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.18.1-0``,  ``0.16.2-0``,  ``0.14.2-0``,  ``0.12.5-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ nanomath
 
     <script>
         var package = "nanomath";
-        var versions = ["1.3.0","1.2.1","1.2.0","1.0.0","0.23.3"];
+        var versions = ["1.4.0","1.3.0","1.2.1","1.2.0","1.0.0"];
     </script>
 
 

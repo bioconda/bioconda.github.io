@@ -27,7 +27,7 @@ haslr
       
       
 
-      ``0.8a1-4``,  ``0.8a1-3``,  ``0.8a1-2``,  ``0.8a1-1``,  ``0.8a1-0``
+      ``0.8a1-5``,  ``0.8a1-4``,  ``0.8a1-3``,  ``0.8a1-2``,  ``0.8a1-1``,  ``0.8a1-0``
 
       
 
@@ -35,9 +35,10 @@ haslr
    :depends fastutils: ``>=0.2``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minia: ``>=3.2.1``
    :depends minimap2: ``>=2.17``
+   :depends minimap2: ``>=2.28,<3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends zlib: 

@@ -27,7 +27,7 @@ gametes
       
       
 
-      ``2.1-0``
+      ``2.1-1``,  ``2.1-0``
 
       
 
@@ -81,7 +81,7 @@ gametes
 
     <script>
         var package = "gametes";
-        var versions = ["2.1"];
+        var versions = ["2.1","2.1"];
     </script>
 
 

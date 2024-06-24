@@ -26,9 +26,17 @@ tinyalign
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.2-0``,  ``0.2.1-5``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-5</code>,  <code>0.2.1-3</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2-2</code>,  <code>0.2-1</code>,  </span></summary>
+      
 
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-5``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -82,7 +90,7 @@ tinyalign
 
     <script>
         var package = "tinyalign";
-        var versions = ["0.2.2","0.2.1","0.2.1","0.2.1","0.2.1"];
+        var versions = ["0.2.2","0.2.2","0.2.1","0.2.1","0.2.1"];
     </script>
 
 

@@ -13,8 +13,9 @@ bioconductor-netresponse
    Functional Network Analysis
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/netresponse.html
-   :license: GPL (>=2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-netresponse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netresponse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netresponse/meta.yaml>`_
+   :links: biotools: :biotools:`netresponse`
 
    Algorithms for functional network analysis. Includes an implementation of a variational Dirichlet process Gaussian mixture model for nonparametric mixture modeling.
 
@@ -28,10 +29,10 @@ bioconductor-netresponse
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.54.0-2</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.54.0-2</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  </span></summary>
       
 
-      ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.54.0-2``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
+      ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.54.0-2``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
 
       
       .. raw:: html
@@ -108,7 +109,7 @@ bioconductor-netresponse
 
     <script>
         var package = "bioconductor-netresponse";
-        var versions = ["1.62.0","1.60.0","1.58.0","1.58.0","1.54.0"];
+        var versions = ["1.62.0","1.62.0","1.60.0","1.58.0","1.58.0"];
     </script>
 
 

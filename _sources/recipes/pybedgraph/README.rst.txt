@@ -28,10 +28,10 @@ pybedgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.43-4</code>,  <code>0.5.43-3</code>,  <code>0.5.43-2</code>,  <code>0.5.43-1</code>,  <code>0.5.43-0</code>,  <code>0.5.42-0</code>,  <code>0.5.39-0</code>,  <code>0.5.38-0</code>,  <code>0.5.37-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.43-5</code>,  <code>0.5.43-4</code>,  <code>0.5.43-3</code>,  <code>0.5.43-2</code>,  <code>0.5.43-1</code>,  <code>0.5.43-0</code>,  <code>0.5.42-0</code>,  <code>0.5.39-0</code>,  <code>0.5.38-0</code>,  </span></summary>
       
 
-      ``0.5.43-4``,  ``0.5.43-3``,  ``0.5.43-2``,  ``0.5.43-1``,  ``0.5.43-0``,  ``0.5.42-0``,  ``0.5.39-0``,  ``0.5.38-0``,  ``0.5.37-0``,  ``0.5.36-0``,  ``0.5.35-0``
+      ``0.5.43-5``,  ``0.5.43-4``,  ``0.5.43-3``,  ``0.5.43-2``,  ``0.5.43-1``,  ``0.5.43-0``,  ``0.5.42-0``,  ``0.5.39-0``,  ``0.5.38-0``,  ``0.5.37-0``,  ``0.5.36-0``,  ``0.5.35-0``
 
       
       .. raw:: html

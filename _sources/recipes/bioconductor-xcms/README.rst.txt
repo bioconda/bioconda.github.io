@@ -13,8 +13,9 @@ bioconductor-xcms
    LC\-MS and GC\-MS Data Analysis
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/xcms.html
-   :license: GPL (>= 2) + file LICENSE
+   :license: GPL-2.0-or-later + file LICENSE
    :recipe: /`bioconductor-xcms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms/meta.yaml>`_
+   :links: biotools: :biotools:`xcms`
 
    Framework for processing and visualization of chromatographically separated and single\-spectra mass spectral data. Imports from AIA\/ANDI NetCDF\, mzXML\, mzData and mzML files. Preprocesses data for high\-throughput\, untargeted analyte profiling.
 
@@ -28,10 +29,10 @@ bioconductor-xcms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.16.1-1</code>,  <code>3.16.1-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.16.1-1</code>,  <code>3.16.1-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.16.1-1``,  ``3.16.1-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.4-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.1-0``,  ``1.48.0-1``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.16.1-1``,  ``3.16.1-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.4-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.1-0``,  ``1.48.0-1``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``
 
       
       .. raw:: html
@@ -128,7 +129,7 @@ bioconductor-xcms
 
     <script>
         var package = "bioconductor-xcms";
-        var versions = ["4.0.0","3.22.0","3.20.0","3.20.0","3.16.1"];
+        var versions = ["4.0.0","4.0.0","3.22.0","3.20.0","3.20.0"];
     </script>
 
 

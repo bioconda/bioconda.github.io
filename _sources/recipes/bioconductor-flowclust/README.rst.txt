@@ -15,6 +15,7 @@ bioconductor-flowclust
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/flowClust.html
    :license: MIT
    :recipe: /`bioconductor-flowclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclust/meta.yaml>`_
+   :links: biotools: :biotools:`flowclust`
 
    Robust model\-based clustering using a t\-mixture model with Box\-Cox transformation. Note\: users should have GSL installed. Windows users\: \'consult the README file available in the inst directory of the source distribution for necessary configuration instructions\'.
 
@@ -28,10 +29,10 @@ bioconductor-flowclust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.32.0-2</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.32.0-2</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  </span></summary>
       
 
-      ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.32.0-2``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
+      ``3.40.0-1``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.32.0-2``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
 
       
       .. raw:: html
@@ -99,7 +100,7 @@ bioconductor-flowclust
 
     <script>
         var package = "bioconductor-flowclust";
-        var versions = ["3.40.0","3.38.0","3.36.0","3.36.0","3.32.0"];
+        var versions = ["3.40.0","3.40.0","3.38.0","3.36.0","3.36.0"];
     </script>
 
 

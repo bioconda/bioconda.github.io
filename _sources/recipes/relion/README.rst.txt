@@ -27,17 +27,17 @@ relion
       
       
 
-      ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
+      ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
 
       
 
    
    :depends fftw: ``>=3.3.10,<4.0a0``
    :depends libgcc-ng: ``>=12``
-   :depends libpng: ``>=1.6.39,<1.7.0a0``
+   :depends libpng: ``>=1.6.43,<1.7.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends libtiff: ``>=4.4.0,<4.5.0a0``
-   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends libtiff: ``>=4.6.0,<4.7.0a0``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ relion
 
     <script>
         var package = "relion";
-        var versions = ["4.0.1","4.0.1","4.0.1","4.0.0","3.1.3"];
+        var versions = ["4.0.1","4.0.1","4.0.1","4.0.1","4.0.0"];
     </script>
 
 

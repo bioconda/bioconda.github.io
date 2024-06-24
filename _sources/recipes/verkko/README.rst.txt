@@ -10,11 +10,14 @@ verkko
    :replaces_section_title:
    :noindex:
 
-   Assembler for hybrid combinations of long reads
+   A hybrid genome assembly pipeline developed for telomere\-to\-telomere assembly of PacBio HiFi or Oxford Nanopore Duplex and Oxford Nanopore simplex reads.
 
    :homepage: https://github.com/marbl/verkko
+   :documentation: https://github.com/marbl/verkko/blob/master/README.md
+   
    :license: CC0
    :recipe: /`verkko <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verkko>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verkko/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41587-023-01662-6`, usegalaxy-eu: :usegalaxy-eu:`verkko`
 
    
 
@@ -28,10 +31,10 @@ verkko
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  </span></summary>
       
 
-      ``2.0-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``2.1-0``,  ``2.0-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -50,6 +53,7 @@ verkko
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mashmap: ``>=3.0.6``
+   :depends minimap2: ``>=2.28``
    :depends networkx: ``>=2.6.3``
    :depends parasail-python: ``>=1.3.3``
    :depends perl: ``>=5.6``
@@ -105,7 +109,7 @@ verkko
 
     <script>
         var package = "verkko";
-        var versions = ["2.0","1.4.1","1.4","1.3.1","1.3"];
+        var versions = ["2.1","2.0","1.4.1","1.4","1.3.1"];
     </script>
 
 

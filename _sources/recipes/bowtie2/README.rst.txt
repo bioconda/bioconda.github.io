@@ -10,9 +10,12 @@ bowtie2
    :replaces_section_title:
    :noindex:
 
-   Fast and sensitive gapped read alignment
+   A fast and sensitive gapped read aligner.
 
-   :homepage: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+   :homepage: https://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+   :documentation: https://github.com/BenLangmead/bowtie2/blob/master/README.md
+   
+   :developer docs: https://github.com/BenLangmead/bowtie2
    :license: GPL3 / GPL-3.0-only
    :recipe: /`bowtie2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2/meta.yaml>`_
    :links: biotools: :biotools:`bowtie2`, doi: :doi:`10.1038/nmeth.1923`, debian: :debian:`bowtie2`, usegalaxy-eu: :usegalaxy-eu:`bowtie2`
@@ -29,10 +32,10 @@ bowtie2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.5-4</code>,  <code>2.4.5-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.4-1</code>,  <code>2.5.4-0</code>,  <code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
       
 
-      ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.5-4``,  ``2.4.5-3``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``,  ``2.4.4-1``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.5.1-0``,  ``2.3.5-0``,  ``2.3.4.3-1``,  ``2.3.4.3-0``,  ``2.3.4.2-0``,  ``2.3.4.1-1``,  ``2.3.4.1-0``,  ``2.3.4-0``,  ``2.3.3.1-0``,  ``2.3.2-1``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.8-2``,  ``2.2.8-1``,  ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-8``,  ``2.2.5-7``,  ``2.2.5-6``,  ``2.2.5-5``,  ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-2``,  ``2.2.5-1``,  ``2.2.4-8``,  ``2.2.4-7``,  ``2.2.4-6``,  ``2.2.4-5``,  ``2.2.4-4``,  ``2.2.4-3``,  ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-5``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
+      ``2.5.4-1``,  ``2.5.4-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.5-4``,  ``2.4.5-3``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``,  ``2.4.4-1``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.5.1-0``,  ``2.3.5-0``,  ``2.3.4.3-1``,  ``2.3.4.3-0``,  ``2.3.4.2-0``,  ``2.3.4.1-1``,  ``2.3.4.1-0``,  ``2.3.4-0``,  ``2.3.3.1-0``,  ``2.3.2-1``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.8-2``,  ``2.2.8-1``,  ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-8``,  ``2.2.5-7``,  ``2.2.5-6``,  ``2.2.5-5``,  ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-2``,  ``2.2.5-1``,  ``2.2.4-8``,  ``2.2.4-7``,  ``2.2.4-6``,  ``2.2.4-5``,  ``2.2.4-4``,  ``2.2.4-3``,  ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-5``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -41,15 +44,15 @@ bowtie2
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends tbb: ``>=2021.11.0``
-   :depends zlib: 
-   :depends zstd: ``>=1.5.5,<1.6.0a0``
+   :depends python: 
+   :depends tbb: ``>=2021.12.0``
+   :depends zstd: ``>=1.5.6,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +100,7 @@ bowtie2
 
     <script>
         var package = "bowtie2";
-        var versions = ["2.5.3","2.5.3","2.5.2","2.5.1","2.5.1"];
+        var versions = ["2.5.4","2.5.4","2.5.3","2.5.3","2.5.2"];
     </script>
 
 

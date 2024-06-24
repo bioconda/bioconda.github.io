@@ -28,10 +28,10 @@ pcaone
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.9-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.9-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.0.0-0``
+      ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.0.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ pcaone
 
    
    :depends __glibc: ``>=2.17,<3.0.a0``
-   :depends intel-openmp: 
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mkl: 
    :requirements:
 
@@ -93,7 +93,7 @@ pcaone
 
     <script>
         var package = "pcaone";
-        var versions = ["0.4.4","0.4.3","0.4.2","0.4.1","0.4.0"];
+        var versions = ["0.4.4","0.4.4","0.4.3","0.4.2","0.4.1"];
     </script>
 
 

@@ -30,10 +30,10 @@ cortexpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.46.5-4</code>,  <code>0.46.5-3</code>,  <code>0.46.5-2</code>,  <code>0.46.5-1</code>,  <code>0.46.5-0</code>,  <code>0.46.4-0</code>,  <code>0.45.7-0</code>,  <code>0.45.6-0</code>,  <code>0.44.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.46.5-5</code>,  <code>0.46.5-4</code>,  <code>0.46.5-3</code>,  <code>0.46.5-2</code>,  <code>0.46.5-1</code>,  <code>0.46.5-0</code>,  <code>0.46.4-0</code>,  <code>0.45.7-0</code>,  <code>0.45.6-0</code>,  </span></summary>
       
 
-      ``0.46.5-4``,  ``0.46.5-3``,  ``0.46.5-2``,  ``0.46.5-1``,  ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
+      ``0.46.5-5``,  ``0.46.5-4``,  ``0.46.5-3``,  ``0.46.5-2``,  ``0.46.5-1``,  ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
 
       
       .. raw:: html

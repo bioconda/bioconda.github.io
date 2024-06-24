@@ -29,7 +29,7 @@ cblaster
       
       
 
-      ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.9-0``
+      ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.9-0``
 
       
 
@@ -37,6 +37,7 @@ cblaster
    :depends appdirs: 
    :depends biopython: 
    :depends clinker-py: ``>=0.0.15``
+   :depends defusedxml: 
    :depends diamond: 
    :depends gffutils: 
    :depends numpy: 
@@ -91,7 +92,7 @@ cblaster
 
     <script>
         var package = "cblaster";
-        var versions = ["1.3.18","1.3.17","1.3.16","1.3.15","1.3.12"];
+        var versions = ["1.3.19","1.3.18","1.3.17","1.3.16","1.3.15"];
     </script>
 
 

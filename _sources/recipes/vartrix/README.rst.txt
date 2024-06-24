@@ -14,7 +14,7 @@ vartrix
    from 10x Genomics single cell data.
 
    :homepage: https://github.com/10XGenomics/vartrix
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`vartrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartrix/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ vartrix
       
       
 
-      ``1.1.22-3``,  ``1.1.22-2``,  ``1.1.22-1``,  ``1.1.22-0``
+      ``1.1.22-4``,  ``1.1.22-3``,  ``1.1.22-2``,  ``1.1.22-1``,  ``1.1.22-0``
 
       
 
@@ -36,7 +36,7 @@ vartrix
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
@@ -85,7 +85,7 @@ vartrix
 
     <script>
         var package = "vartrix";
-        var versions = ["1.1.22","1.1.22","1.1.22","1.1.22"];
+        var versions = ["1.1.22","1.1.22","1.1.22","1.1.22","1.1.22"];
     </script>
 
 

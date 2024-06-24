@@ -29,10 +29,10 @@ cami-opal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8.post0-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.12-1</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8.post0-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-0</code>,  </span></summary>
       
 
-      ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ cami-opal
    :depends dendropy: ``>=4.4.0``
    :depends docker-py: ``>=6.1.2``
    :depends h5py: ``>=2.9.0``
-   :depends jinja2: ``<3.0.1``
+   :depends jinja2: ``>=3.1.2``
    :depends markupsafe: ``<2.1``
    :depends matplotlib-base: ``>=3.7.1``
    :depends numpy: ``>=1.24.2``
@@ -101,7 +101,7 @@ cami-opal
 
     <script>
         var package = "cami-opal";
-        var versions = ["1.0.12","1.0.11","1.0.10","1.0.9","1.0.9"];
+        var versions = ["1.0.12","1.0.12","1.0.11","1.0.10","1.0.9"];
     </script>
 
 

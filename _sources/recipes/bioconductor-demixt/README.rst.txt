@@ -13,8 +13,9 @@ bioconductor-demixt
    Cell type\-specific deconvolution of heterogeneous tumor samples with two or three components using expression data from RNAseq or microarray platforms
 
    :homepage: https://bioconductor.org/packages/3.17/bioc/html/DeMixT.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-demixt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demixt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demixt/meta.yaml>`_
+   :links: biotools: :biotools:`DeMixT`
 
    DeMixT is a software package that performs deconvolution on transcriptome data from a mixture of two or three components.
 
@@ -28,10 +29,10 @@ bioconductor-demixt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
       
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -41,8 +42,10 @@ bioconductor-demixt
 
    
    :depends bioconductor-dss: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-sva: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-sva: ``>=3.50.0,<3.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -106,7 +109,7 @@ bioconductor-demixt
 
     <script>
         var package = "bioconductor-demixt";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.10.0","1.10.0"];
+        var versions = ["1.16.0","1.16.0","1.14.0","1.14.0","1.10.0"];
     </script>
 
 

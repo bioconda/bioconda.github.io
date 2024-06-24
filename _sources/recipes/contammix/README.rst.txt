@@ -27,14 +27,14 @@ contammix
       
       
 
-      ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``
+      ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-coda: 
    :depends r-getopt: 
    :depends samtools: 
@@ -85,7 +85,7 @@ contammix
 
     <script>
         var package = "contammix";
-        var versions = ["1.0.11","1.0.11","1.0.11","1.0.10","1.0.10"];
+        var versions = ["1.0.11","1.0.11","1.0.11","1.0.11","1.0.10"];
     </script>
 
 

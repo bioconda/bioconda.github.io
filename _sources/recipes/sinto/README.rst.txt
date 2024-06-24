@@ -29,10 +29,10 @@ sinto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  </span></summary>
       
 
-      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3.1-0``
+      ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3.1-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ sinto
 
     <script>
         var package = "sinto";
-        var versions = ["0.10.0","0.9.0","0.8.4","0.8.3","0.8.1"];
+        var versions = ["0.10.1","0.10.0","0.9.0","0.8.4","0.8.3"];
     </script>
 
 

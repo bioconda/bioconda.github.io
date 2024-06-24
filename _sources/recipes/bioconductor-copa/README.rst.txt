@@ -15,6 +15,7 @@ bioconductor-copa
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/copa.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-copa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copa/meta.yaml>`_
+   :links: biotools: :biotools:`copa`, usegalaxy-eu: :usegalaxy-eu:`copa`
 
    COPA is a method to find genes that undergo recurrent fusion in a given cancer type by finding pairs of genes that have mutually exclusive outlier profiles.
 
@@ -28,10 +29,10 @@ bioconductor-copa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.62.0-2</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.0-1</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.62.0-2</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  </span></summary>
       
 
-      ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.62.0-2``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``
+      ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.62.0-2``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``
 
       
       .. raw:: html
@@ -93,7 +94,7 @@ bioconductor-copa
 
     <script>
         var package = "bioconductor-copa";
-        var versions = ["1.70.0","1.68.0","1.66.0","1.66.0","1.62.0"];
+        var versions = ["1.70.0","1.70.0","1.68.0","1.66.0","1.66.0"];
     </script>
 
 

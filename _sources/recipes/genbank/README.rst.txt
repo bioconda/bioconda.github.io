@@ -27,7 +27,7 @@ genbank
       
       
 
-      ``0.110-0``
+      ``0.110-1``,  ``0.110-0``
 
       
 
@@ -82,7 +82,7 @@ genbank
 
     <script>
         var package = "genbank";
-        var versions = ["0.110"];
+        var versions = ["0.110","0.110"];
     </script>
 
 

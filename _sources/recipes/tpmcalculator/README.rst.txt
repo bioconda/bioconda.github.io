@@ -27,15 +27,15 @@ tpmcalculator
       
       
 
-      ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.5-0``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
-   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends bamtools: ``>=2.5.2,<2.6.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -84,7 +84,7 @@ tpmcalculator
 
     <script>
         var package = "tpmcalculator";
-        var versions = ["0.0.4","0.0.4","0.0.4","0.0.4","0.0.3"];
+        var versions = ["0.0.5","0.0.4","0.0.4","0.0.4","0.0.4"];
     </script>
 
 

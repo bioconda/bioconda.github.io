@@ -149,17 +149,17 @@ gives a lot of context on the Anaconda/conda ecosystem.
 
 - **conda** is the name of the package manager, which is what runs when you call,
   e.g., ``conda install``.
-- **mamba** is a drop-in replacement for conda
+- **mamba** is a drop-in replacement for conda.
 - **Anaconda** is a large installation including Python, conda, and a large number
   of packages.
 - **Miniconda** just has conda and its dependencies (in contrast to the larger
-  Anaconda distribution)
+  Anaconda distribution).
 - **Miniforge** is like miniconda, but with the conda-forge channel
   preconfigured and all packages coming from the conda-forge and *not* the
   ``defaults`` channel. It also now has mamba and libmamba included.
 - **Mambaforge** is like miniforge, but has mamba installed into the base
   environment. While not strictly deprecated, its use is discouraged as of
-  Sept 2023 (see `miniforge README <https://github.com/conda-forge/miniforge>`_)>
+  Sept 2023 (see `miniforge README <https://github.com/conda-forge/miniforge>`_).
 - **Micromamba** is not a conda distribution. Rather, it is a minimal binary
   that has roughly the same commands as mamba, so that a single executable
   (rather than an entire Python installation required for conda itself) can be

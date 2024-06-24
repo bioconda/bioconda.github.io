@@ -12,7 +12,7 @@ ggcaller
 
    A de Bruijn graph\-based gene\-caller and pangenome analysis tool
 
-   :homepage: https://github.com/samhorsfield96/ggCaller
+   :homepage: https://github.com/bacpop/ggCaller
    :license: MIT / MIT
    :recipe: /`ggcaller <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ggcaller>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ggcaller/meta.yaml>`_
 
@@ -28,10 +28,10 @@ ggcaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,9 @@ ggcaller
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bcbio-gff: 
-   :depends bifrost: 
-   :depends biopython: ``>=1.8.0``
+   :depends bifrost: ``>=1.2``
+   :depends bifrost: ``>=1.3.5,<1.4.0a0``
+   :depends biopython: ``1.80.*``
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cd-hit: 
@@ -54,7 +55,7 @@ ggcaller
    :depends joblib: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mafft: 
    :depends matplotlib-base: 
    :depends mkl: ``>=2022.2.1,<2023.0a0``
@@ -62,16 +63,18 @@ ggcaller
    :depends numpy: 
    :depends pandas: 
    :depends pthread-stubs: 
-   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python: ``>=3.9,<3.10.0a0``
    :depends python-edlib: 
    :depends python-wget: 
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends pytorch: ``>=1.13.1,<1.14.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
+   :depends pytorch: ``1.10.*``
+   :depends pytorch: ``>=1.10.2,<1.11.0a0``
+   :depends pytorch-cpu: ``1.10.*``
    :depends rapidnj: 
    :depends scipy: 
    :depends seaborn: 
    :depends snp-sites: 
-   :depends tbb: ``>=2021.9.0``
+   :depends tbb: ``>=2021.12.0``
    :depends tqdm: 
    :depends uncertainties: 
    :depends xorg-libxaw: 
@@ -131,7 +134,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.3.4","1.3.3","1.3.3","1.3.2","1.3.1"];
+        var versions = ["1.3.6","1.3.5","1.3.4","1.3.3","1.3.3"];
     </script>
 
 

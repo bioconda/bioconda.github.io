@@ -13,8 +13,9 @@ bioconductor-ebcoexpress
    EBcoexpress for Differential Co\-Expression Analysis
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/EBcoexpress.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-ebcoexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress/meta.yaml>`_
+   :links: biotools: :biotools:`ebcoexpress`
 
    An Empirical Bayesian Approach to Differential Co\-Expression Analysis at the Gene\-Pair Level
 
@@ -28,10 +29,10 @@ bioconductor-ebcoexpress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.38.0-2</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.38.0-2</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  </span></summary>
       
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.38.0-2``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+      ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.38.0-2``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -95,7 +96,7 @@ bioconductor-ebcoexpress
 
     <script>
         var package = "bioconductor-ebcoexpress";
-        var versions = ["1.46.0","1.44.0","1.42.0","1.42.0","1.38.0"];
+        var versions = ["1.46.0","1.46.0","1.44.0","1.42.0","1.42.0"];
     </script>
 
 

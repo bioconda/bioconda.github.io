@@ -29,10 +29,10 @@ metaeuk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.a5d39d9-4</code>,  <code>6.a5d39d9-3</code>,  <code>6.a5d39d9-2</code>,  <code>6.a5d39d9-1</code>,  <code>6.a5d39d9-0</code>,  <code>5.34c21f2-1</code>,  <code>5.34c21f2-0</code>,  <code>4.a0f584d-2</code>,  <code>4.a0f584d-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.bba0d80-0</code>,  <code>6.a5d39d9-4</code>,  <code>6.a5d39d9-3</code>,  <code>6.a5d39d9-2</code>,  <code>6.a5d39d9-1</code>,  <code>6.a5d39d9-0</code>,  <code>5.34c21f2-1</code>,  <code>5.34c21f2-0</code>,  <code>4.a0f584d-2</code>,  </span></summary>
       
 
-      ``6.a5d39d9-4``,  ``6.a5d39d9-3``,  ``6.a5d39d9-2``,  ``6.a5d39d9-1``,  ``6.a5d39d9-0``,  ``5.34c21f2-1``,  ``5.34c21f2-0``,  ``4.a0f584d-2``,  ``4.a0f584d-1``,  ``4.a0f584d-0``,  ``3.8dc7e0b-0``,  ``2.ddf2742-0``,  ``1.ea903e5-0``
+      ``7.bba0d80-0``,  ``6.a5d39d9-4``,  ``6.a5d39d9-3``,  ``6.a5d39d9-2``,  ``6.a5d39d9-1``,  ``6.a5d39d9-0``,  ``5.34c21f2-1``,  ``5.34c21f2-0``,  ``4.a0f584d-2``,  ``4.a0f584d-1``,  ``4.a0f584d-0``,  ``3.8dc7e0b-0``,  ``2.ddf2742-0``,  ``1.ea903e5-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ metaeuk
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 
@@ -97,7 +97,7 @@ metaeuk
 
     <script>
         var package = "metaeuk";
-        var versions = ["6.a5d39d9","6.a5d39d9","6.a5d39d9","6.a5d39d9","6.a5d39d9"];
+        var versions = ["7.bba0d80","6.a5d39d9","6.a5d39d9","6.a5d39d9","6.a5d39d9"];
     </script>
 
 

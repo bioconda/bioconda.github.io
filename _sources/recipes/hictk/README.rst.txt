@@ -31,10 +31,10 @@ hictk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.0.12-1</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  </span></summary>
       
 
-      ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``1.0.0-0``,  ``0.0.12-1``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -45,11 +45,13 @@ hictk
    
    :depends hdf5: ``>=1.12``
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libdeflate: ``>=1.18,<1.19.0a0``
+   :depends libarrow: ``>=16``
+   :depends libarrow: ``>=16.1.0,<16.2.0a0``
+   :depends libdeflate: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends zstd: ``>=1.5``
-   :depends zstd: ``>=1.5.5,<1.6.0a0``
+   :depends zstd: ``>=1.5.6,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +99,7 @@ hictk
 
     <script>
         var package = "hictk";
-        var versions = ["0.0.12","0.0.11","0.0.10","0.0.9","0.0.8"];
+        var versions = ["1.0.0","0.0.12","0.0.12","0.0.11","0.0.10"];
     </script>
 
 

@@ -12,8 +12,8 @@ iqtree
 
    Efficient phylogenomic software by maximum likelihood.
 
-   :homepage: http://www.iqtree.org/
-   :documentation: http://www.iqtree.org/doc/
+   :homepage: http://www.iqtree.org
+   :documentation: http://www.iqtree.org/doc
    
    :developer docs: https://github.com/iqtree/iqtree2
    :license: GPL2 / GPL-2.0-or-later
@@ -32,10 +32,10 @@ iqtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.3-0</code>,  <code>2.3.0-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2.9-0</code>,  <code>2.2.2.7-2</code>,  <code>2.2.2.7-0</code>,  <code>2.2.2.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>2.3.0-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2.9-0</code>,  </span></summary>
       
 
-      ``2.3.3-0``,  ``2.3.0-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2.9-0``,  ``2.2.2.7-2``,  ``2.2.2.7-0``,  ``2.2.2.3-2``,  ``2.2.2.3-1``,  ``2.2.2.3-0``,  ``2.2.0.3-1``,  ``2.2.0.3-0``,  ``2.2.0_beta-1``,  ``2.2.0_beta-0``,  ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.0-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2.9-0``,  ``2.2.2.7-2``,  ``2.2.2.7-0``,  ``2.2.2.3-2``,  ``2.2.2.3-1``,  ``2.2.2.3-0``,  ``2.2.0.3-1``,  ``2.2.0.3-0``,  ``2.2.0_beta-1``,  ``2.2.0_beta-0``,  ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ iqtree
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +95,7 @@ iqtree
 
     <script>
         var package = "iqtree";
-        var versions = ["2.3.3","2.3.0","2.2.6","2.2.5","2.2.3"];
+        var versions = ["2.3.4","2.3.4","2.3.4","2.3.3","2.3.0"];
     </script>
 
 

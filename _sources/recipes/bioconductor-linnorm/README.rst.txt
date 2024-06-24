@@ -15,6 +15,7 @@ bioconductor-linnorm
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/Linnorm.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-linnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linnorm/meta.yaml>`_
+   :links: biotools: :biotools:`linnorm`
 
    Linnorm is an algorithm for normalizing and transforming RNA\-seq\, single cell RNA\-seq\, ChIP\-seq count data or any large scale count data. It has been independently reviewed by Tian et al. on Nature Methods \(https\:\/\/doi.org\/10.1038\/s41592\-019\-0425\-8\). Linnorm can work with raw count\, CPM\, RPKM\, FPKM and TPM.
 
@@ -28,10 +29,10 @@ bioconductor-linnorm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.1-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.18.0-2</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.1-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.18.0-2</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  </span></summary>
       
 
-      ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-2``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``
+      ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-2``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -111,7 +112,7 @@ bioconductor-linnorm
 
     <script>
         var package = "bioconductor-linnorm";
-        var versions = ["2.26.0","2.24.1","2.22.0","2.22.0","2.18.0"];
+        var versions = ["2.26.0","2.26.0","2.24.1","2.22.0","2.22.0"];
     </script>
 
 

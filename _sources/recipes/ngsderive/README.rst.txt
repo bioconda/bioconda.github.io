@@ -30,10 +30,10 @@ ngsderive
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.1-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.1-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  </span></summary>
       
 
-      ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``4.0.0-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,9 +44,10 @@ ngsderive
    
    :depends colorlog: ``>=6.6.0``
    :depends gtfparse: ``>=1.2.1``
+   :depends pygtrie: ``>=2.5.0``
    :depends pysam: ``>=0.21``
    :depends pytabix: ``>=0.1``
-   :depends python: ``>=3.8,<3.10``
+   :depends python: ``>=3.8``
    :depends rstr: ``>=3.0.0``
    :depends sortedcontainers: ``>=2.4.0``
    :depends tabix: ``>=1.11``
@@ -97,7 +98,7 @@ ngsderive
 
     <script>
         var package = "ngsderive";
-        var versions = ["3.3.2","3.3.1","3.3.0","3.2.1","3.1.1"];
+        var versions = ["4.0.0","3.3.2","3.3.1","3.3.0","3.2.1"];
     </script>
 
 

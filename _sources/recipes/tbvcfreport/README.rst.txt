@@ -29,7 +29,7 @@ tbvcfreport
       
       
 
-      ``0.1.10-0``,  ``0.1.8-0``,  ``0.1.7-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.10-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
 
@@ -37,8 +37,8 @@ tbvcfreport
    :depends click: 
    :depends jinja2: 
    :depends neo4j-python-driver: 
-   :depends python: ``>=3.6``
-   :depends pyvcf: 
+   :depends python: ``>=3.10``
+   :depends vcfpy: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ tbvcfreport
 
     <script>
         var package = "tbvcfreport";
-        var versions = ["0.1.10","0.1.8","0.1.7"];
+        var versions = ["1.0.1","1.0.0","0.1.10","0.1.8","0.1.7"];
     </script>
 
 

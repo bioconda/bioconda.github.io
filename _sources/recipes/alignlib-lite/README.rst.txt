@@ -12,8 +12,8 @@ alignlib-lite
 
    Simple wrapper around alignlib C\+\+ library for sequence alignment
 
-   :homepage: http://sourceforge.net/projects/alignlib/
-   :license: GPL-2.0-or-later
+   :homepage: https://github.com/AndreasHeger/alignlib
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`alignlib-lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignlib-lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignlib-lite/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ alignlib-lite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3-6</code>,  <code>0.3-5</code>,  <code>0.3-4</code>,  <code>0.3-3</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3-8</code>,  <code>0.3-6</code>,  <code>0.3-5</code>,  <code>0.3-4</code>,  <code>0.3-3</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.2.3-2</code>,  </span></summary>
       
 
-      ``0.3-6``,  ``0.3-5``,  ``0.3-4``,  ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
+      ``0.3-8``,  ``0.3-6``,  ``0.3-5``,  ``0.3-4``,  ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
 
       
       .. raw:: html

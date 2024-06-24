@@ -27,7 +27,7 @@ hmftools-cuppa
       
       
 
-      ``1.8.1-0``
+      ``2.1.1-0``,  ``1.8.1-0``
 
       
 
@@ -91,7 +91,7 @@ hmftools-cuppa
 
     <script>
         var package = "hmftools-cuppa";
-        var versions = ["1.8.1"];
+        var versions = ["2.1.1","1.8.1"];
     </script>
 
 

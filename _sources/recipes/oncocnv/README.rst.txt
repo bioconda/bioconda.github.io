@@ -27,7 +27,7 @@ oncocnv
       
       
 
-      ``7.0-0``
+      ``7.0-1``,  ``7.0-0``
 
       
 
@@ -35,7 +35,7 @@ oncocnv
    :depends bedtools: ``>=2.27.1``
    :depends bioconductor-dnacopy: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-digest: 
    :depends r-fastica: 
    :depends r-mass: 
@@ -91,7 +91,7 @@ oncocnv
 
     <script>
         var package = "oncocnv";
-        var versions = ["7.0"];
+        var versions = ["7.0","7.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ bioconductor-deseq2
    Differential gene expression analysis based on the negative binomial distribution
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/DESeq2.html
-   :license: LGPL (>= 3)
+   :license: LGPL-3.0-or-later
    :recipe: /`bioconductor-deseq2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq2/meta.yaml>`_
    :links: biotools: :biotools:`deseq2`, doi: :doi:`10.1186/s13059-014-0550-8`, usegalaxy-eu: :usegalaxy-eu:`deseq2`
 
@@ -29,10 +29,10 @@ bioconductor-deseq2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.2-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-3</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-2</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.2-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-3</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  </span></summary>
       
 
-      ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-3``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.1-1``,  ``1.18.0-0``,  ``1.16.1-3``,  ``1.16.1-2``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.12.4-5``,  ``1.12.4-4``,  ``1.12.4-3``,  ``1.12.4-2``,  ``1.12.4-1``,  ``1.10.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.2-0``
+      ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-3``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.1-1``,  ``1.18.0-0``,  ``1.16.1-3``,  ``1.16.1-2``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.12.4-5``,  ``1.12.4-4``,  ``1.12.4-3``,  ``1.12.4-2``,  ``1.12.4-1``,  ``1.10.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.2-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ bioconductor-deseq2
 
     <script>
         var package = "bioconductor-deseq2";
-        var versions = ["1.42.0","1.42.0","1.40.2","1.38.0","1.38.0"];
+        var versions = ["1.42.0","1.42.0","1.42.0","1.40.2","1.38.0"];
     </script>
 
 

@@ -10,7 +10,7 @@ sra-tools
    :replaces_section_title:
    :noindex:
 
-   SRA Toolkit and SDK from NCBI
+   The SRA Toolkit and SDK from NCBI.
 
    :homepage: https://github.com/ncbi/sra-tools
    :documentation: https://github.com/ncbi/sra-tools/wiki
@@ -32,10 +32,10 @@ sra-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.1-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  </span></summary>
       
 
-      ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-2``,  ``2.10.7-1``,  ``2.10.7-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.1_1-0``,  ``2.9.1-0``,  ``2.9.0-1``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``
+      ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-2``,  ``2.10.7-1``,  ``2.10.7-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.1_1-0``,  ``2.9.1-0``,  ``2.9.0-1``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``
 
       
       .. raw:: html
@@ -48,8 +48,8 @@ sra-tools
    :depends curl: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends ncbi-vdb: ``>=3.1.0``
-   :depends ncbi-vdb: ``>=3.1.0,<4.0a0``
+   :depends ncbi-vdb: ``>=3.1.1``
+   :depends ncbi-vdb: ``>=3.1.1,<4.0a0``
    :depends ossuuid: 
    :depends perl: 
    :depends perl-uri: 
@@ -101,7 +101,7 @@ sra-tools
 
     <script>
         var package = "sra-tools";
-        var versions = ["3.1.0","3.1.0","3.0.10","3.0.9","3.0.8"];
+        var versions = ["3.1.1","3.1.0","3.1.0","3.0.10","3.0.9"];
     </script>
 
 

@@ -26,9 +26,17 @@ python-hppy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.9-0``,  ``0.9.8-6``,  ``0.9.8-5``,  ``0.9.8-4``,  ``0.9.8-3``,  ``0.9.8-2``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.6-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.9-1</code>,  <code>0.9.9-0</code>,  <code>0.9.8-6</code>,  <code>0.9.8-5</code>,  <code>0.9.8-4</code>,  <code>0.9.8-3</code>,  <code>0.9.8-2</code>,  <code>0.9.8-1</code>,  <code>0.9.8-0</code>,  </span></summary>
+      
 
+      ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-6``,  ``0.9.8-5``,  ``0.9.8-4``,  ``0.9.8-3``,  ``0.9.8-2``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -84,7 +92,7 @@ python-hppy
 
     <script>
         var package = "python-hppy";
-        var versions = ["0.9.9","0.9.8","0.9.8","0.9.8","0.9.8"];
+        var versions = ["0.9.9","0.9.9","0.9.8","0.9.8","0.9.8"];
     </script>
 
 

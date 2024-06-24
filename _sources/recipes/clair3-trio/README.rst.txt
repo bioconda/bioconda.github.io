@@ -26,9 +26,17 @@ clair3-trio
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.7-1</code>,  <code>0.7-0</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
+      
 
+      ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,7 +44,7 @@ clair3-trio
    :depends cffi: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends numpy: 
    :depends parallel: ``20191122.*``
    :depends pigz: 
@@ -96,7 +104,7 @@ clair3-trio
 
     <script>
         var package = "clair3-trio";
-        var versions = ["0.7","0.6","0.6","0.5","0.3"];
+        var versions = ["0.7","0.7","0.6","0.6","0.5"];
     </script>
 
 

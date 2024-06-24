@@ -13,8 +13,9 @@ bioconductor-batchelor
    Single\-Cell Batch Correction Methods
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/batchelor.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-batchelor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchelor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchelor/meta.yaml>`_
+   :links: biotools: :biotools:`batchelor`
 
    Implements a variety of methods for batch correction of single\-cell \(RNA sequencing\) data. This includes methods based on detecting mutually nearest neighbors\, as well as several efficient variants of linear regression of the log\-expression values. Functions are also provided to perform global rescaling to remove differences in depth between batches\, and to perform a principal components analysis that is robust to differences in the numbers of cells across batches.
 
@@ -28,10 +29,10 @@ bioconductor-batchelor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
+      ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -121,7 +122,7 @@ bioconductor-batchelor
 
     <script>
         var package = "bioconductor-batchelor";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.10.0"];
+        var versions = ["1.18.0","1.18.0","1.16.0","1.14.0","1.14.0"];
     </script>
 
 

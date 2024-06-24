@@ -13,7 +13,9 @@ clever-toolkit
    The CLEVER Toolkit
 
    :homepage: https://bitbucket.org/tobiasmarschall/clever-toolkit
-   :license: GPL3
+   :documentation: https://bitbucket.org/tobiasmarschall/clever-toolkit/wiki/Home
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`clever-toolkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clever-toolkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clever-toolkit/meta.yaml>`_
 
    CTK is a suite of tools to analyze next\-generation sequencing data and\, in particular\, to discover and genotype insertions and deletions from paired\-end reads.
@@ -28,10 +30,10 @@ clever-toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4-12</code>,  <code>2.4-11</code>,  <code>2.4-10</code>,  <code>2.4-9</code>,  <code>2.4-8</code>,  <code>2.4-7</code>,  <code>2.4-6</code>,  <code>2.4-5</code>,  <code>2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4-13</code>,  <code>2.4-12</code>,  <code>2.4-11</code>,  <code>2.4-10</code>,  <code>2.4-9</code>,  <code>2.4-8</code>,  <code>2.4-7</code>,  <code>2.4-6</code>,  <code>2.4-5</code>,  </span></summary>
       
 
-      ``2.4-12``,  ``2.4-11``,  ``2.4-10``,  ``2.4-9``,  ``2.4-8``,  ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.1-3``,  ``2.0rc4-3``,  ``2.0rc4-2``,  ``2.0rc3-1``,  ``2.0rc3-0``
+      ``2.4-13``,  ``2.4-12``,  ``2.4-11``,  ``2.4-10``,  ``2.4-9``,  ``2.4-8``,  ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.1-3``,  ``2.0rc4-3``,  ``2.0rc4-2``,  ``2.0rc3-1``,  ``2.0rc3-0``
 
       
       .. raw:: html
@@ -44,7 +46,7 @@ clever-toolkit
    :depends bwa: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends matplotlib-base: 
    :depends python: ``3.*``
    :depends samtools: 

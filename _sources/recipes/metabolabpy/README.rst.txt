@@ -10,10 +10,12 @@ metabolabpy
    :replaces_section_title:
    :noindex:
 
-   Python package for data processing of NMR 1D and 2D metabolomics and metabolism tracing data
+   Python package to process 1D and 2D NMR spectroscopic data for metabolomics and tracer\-based metabolism analysis.
 
    :homepage: https://github.com/ludwigc/metabolabpy
-   :license: GPL3" / GNU General Public v3 (GPLv3)
+   :documentation: https://ludwigc.github.io/metabolabpy
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`metabolabpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolabpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolabpy/meta.yaml>`_
 
    
@@ -27,18 +29,23 @@ metabolabpy
       
       
 
-      ``0.6.53-0``,  ``0.6.51-0``,  ``0.6.50-0``,  ``0.6.49-0``,  ``0.6.48-0``,  ``0.6.46-0``
+      ``0.9.43-0``,  ``0.9.42-0``,  ``0.9.41-0``,  ``0.6.53-0``,  ``0.6.51-0``,  ``0.6.50-0``,  ``0.6.49-0``,  ``0.6.48-0``,  ``0.6.46-0``
 
       
 
    
+   :depends darkdetect: 
+   :depends mat73: 
    :depends matplotlib-base: 
+   :depends multiprocess: 
+   :depends numba: 
    :depends numpy: 
    :depends openpyxl: 
-   :depends pyautogui: 
-   :depends pyside2: 
-   :depends python: ``>3.7``
-   :depends qtmodern: 
+   :depends pandas: 
+   :depends pybaselines: 
+   :depends python: ``>=3.9``
+   :depends pywavelets: 
+   :depends scikit-learn: 
    :depends scipy: 
    :depends xlsxwriter: 
    :requirements:
@@ -88,7 +95,7 @@ metabolabpy
 
     <script>
         var package = "metabolabpy";
-        var versions = ["0.6.53","0.6.51","0.6.50","0.6.49","0.6.48"];
+        var versions = ["0.9.43","0.9.42","0.9.41","0.6.53","0.6.51"];
     </script>
 
 

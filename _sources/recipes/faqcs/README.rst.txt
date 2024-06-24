@@ -29,10 +29,10 @@ faqcs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.10-6</code>,  <code>2.10-5</code>,  <code>2.10-4</code>,  <code>2.10-3</code>,  <code>2.10-2</code>,  <code>2.10-1</code>,  <code>2.10-0</code>,  <code>2.09-3</code>,  <code>2.09-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10-7</code>,  <code>2.10-6</code>,  <code>2.10-5</code>,  <code>2.10-4</code>,  <code>2.10-3</code>,  <code>2.10-2</code>,  <code>2.10-1</code>,  <code>2.10-0</code>,  <code>2.09-3</code>,  </span></summary>
       
 
-      ``2.10-6``,  ``2.10-5``,  ``2.10-4``,  ``2.10-3``,  ``2.10-2``,  ``2.10-1``,  ``2.10-0``,  ``2.09-3``,  ``2.09-2``,  ``2.09-1``,  ``2.09-0``,  ``2.08-0``
+      ``2.10-7``,  ``2.10-6``,  ``2.10-5``,  ``2.10-4``,  ``2.10-3``,  ``2.10-2``,  ``2.10-1``,  ``2.10-0``,  ``2.09-3``,  ``2.09-2``,  ``2.09-1``,  ``2.09-0``,  ``2.08-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ faqcs
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends zlib: 
    :requirements:
 

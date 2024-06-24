@@ -15,8 +15,9 @@ gambit
    :homepage: https://github.com/jlumpe/gambit
    :documentation: https://gambit-genomics.readthedocs.io/en/latest
    
-   :license: AGPL-3.0-or-later
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`gambit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gambit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gambit/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pone.0277575`, biotools: :biotools:`gambit_bacterial`
 
    GAMBIT \(Genomic Approximation Method for Bacterial Identification and Tracking\)
    is a tool for rapid taxonomic identification of microbial pathogens. It uses an
@@ -34,7 +35,7 @@ gambit
       
       
 
-      ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -46,13 +47,12 @@ gambit
    :depends click: ``>=7.0``
    :depends h5py: ``>=3.0``
    :depends libgcc-ng: ``>=12``
-   :depends numpy: ``>=1.13``
-   :depends numpy: ``>=1.23.3,<2.0a0``
+   :depends numpy: ``>=1.26.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: ``>=1.7``
    :depends setuptools: 
-   :depends sqlalchemy: ``>=1.1``
+   :depends sqlalchemy: ``>=1.1,<2.dev0``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +100,7 @@ gambit
 
     <script>
         var package = "gambit";
-        var versions = ["1.0.0","0.5.1","0.5.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0","0.5.1","0.5.0"];
     </script>
 
 

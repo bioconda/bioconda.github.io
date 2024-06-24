@@ -27,7 +27,7 @@ mp-est
       
       
 
-      ``3.0.0-0``
+      ``3.0.0-1``,  ``3.0.0-0``
 
       
 
@@ -80,7 +80,7 @@ mp-est
 
     <script>
         var package = "mp-est";
-        var versions = ["3.0.0"];
+        var versions = ["3.0.0","3.0.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ swarm
    A robust and fast clustering method for amplicon\-based studies.
 
    :homepage: https://github.com/torognes/swarm
-   :license: Affero GPL
+   :license: GPL / Affero GPL
    :recipe: /`swarm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swarm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swarm/meta.yaml>`_
    :links: biotools: :biotools:`swarm`, doi: :doi:`10.7717/peerj.593`
 
@@ -29,10 +29,10 @@ swarm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.3-2</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-2</code>,  <code>3.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.3-2</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-2</code>,  </span></summary>
       
 
-      ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.1.13-0``,  ``2.1.10-0``,  ``2.1.5-0``,  ``1.2.19-1``,  ``1.2.19-0``
+      ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.1.13-0``,  ``2.1.10-0``,  ``2.1.5-0``,  ``1.2.19-1``,  ``1.2.19-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ swarm
 
     <script>
         var package = "swarm";
-        var versions = ["3.1.5","3.1.4","3.1.3","3.1.3","3.1.3"];
+        var versions = ["3.1.5","3.1.5","3.1.4","3.1.3","3.1.3"];
     </script>
 
 

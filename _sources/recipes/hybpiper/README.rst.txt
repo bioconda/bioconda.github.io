@@ -10,10 +10,12 @@ hybpiper
    :replaces_section_title:
    :noindex:
 
-   HybPiper is a suite of Python scripts\/modules for targeted sequence capture
+   HybPiper is a suite of Python scripts\/modules for targeted sequence capture.
 
    :homepage: https://github.com/mossmatters/HybPiper
-   :license: GPL / GPL-3.0-or-later
+   :documentation: https://github.com/mossmatters/HybPiper/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hybpiper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybpiper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybpiper/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ hybpiper
       
       
 
-      ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-0``
+      ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-0``
 
       
 
@@ -38,7 +40,6 @@ hybpiper
    :depends bwa: ``>=0.7.17``
    :depends diamond: ``>=2.0.11``
    :depends exonerate: ``>=2.4.0``
-   :depends libgcc-ng: ``>=12``
    :depends mafft: ``>=7.487``
    :depends matplotlib-base: ``>=3.3.2``
    :depends numpy: 
@@ -46,9 +47,9 @@ hybpiper
    :depends pebble: ``>=4.6.3``
    :depends progressbar2: ``>=3.38.0``
    :depends psutil: ``>=5.9.0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: 
    :depends samtools: ``>=1.14``
-   :depends seaborn: ``>=0.11.1``
+   :depends seaborn-base: ``>=0.11.1``
    :depends spades: ``>=3.15.4``
    :depends trimmomatic: 
    :requirements:
@@ -98,7 +99,7 @@ hybpiper
 
     <script>
         var package = "hybpiper";
-        var versions = ["2.1.6","2.1.5","2.1.3","2.1.3","2.1.1"];
+        var versions = ["2.1.7","2.1.6","2.1.5","2.1.3","2.1.3"];
     </script>
 
 

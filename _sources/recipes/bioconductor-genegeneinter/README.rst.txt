@@ -13,8 +13,9 @@ bioconductor-genegeneinter
    Tools for Testing Gene\-Gene Interaction at the Gene Level
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeneGeneInteR.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0.-or-later
    :recipe: /`bioconductor-genegeneinter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter/meta.yaml>`_
+   :links: biotools: :biotools:`genegeneinter`
 
    The aim of this package is to propose several methods for testing gene\-gene interaction in case\-control association studies. Such a test can be done by aggregating SNP\-SNP interaction tests performed at the SNP level \(SSI\) or by using gene\-gene multidimensionnal methods \(GGI\) methods. The package also proposes tools for a graphic display of the results. \<doi\:10.18637\/jss.v095.i12\>.
 
@@ -28,10 +29,10 @@ bioconductor-genegeneinter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -105,7 +106,7 @@ bioconductor-genegeneinter
 
     <script>
         var package = "bioconductor-genegeneinter";
-        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.20.0"];
+        var versions = ["1.28.0","1.28.0","1.26.0","1.24.0","1.24.0"];
     </script>
 
 

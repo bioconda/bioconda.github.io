@@ -27,7 +27,7 @@ megapath
       
       
 
-      ``2-3``,  ``2-2``,  ``2-1``,  ``2-0``,  ``1.0-0``
+      ``2-4``,  ``2-3``,  ``2-2``,  ``2-1``,  ``2-0``,  ``1.0-0``
 
       
 
@@ -37,7 +37,7 @@ megapath
    :depends gatk4: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends megahit: ``1.1.*``
    :depends minimap2: 
    :depends pandas: 
@@ -94,7 +94,7 @@ megapath
 
     <script>
         var package = "megapath";
-        var versions = ["2","2","2","2","1.0"];
+        var versions = ["2","2","2","2","2"];
     </script>
 
 

@@ -13,7 +13,7 @@ bioconductor-camera
    Collection of annotation related methods for mass spectrometry data
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/CAMERA.html
-   :license: GPL (>= 2)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-camera <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camera>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camera/meta.yaml>`_
    :links: biotools: :biotools:`camera`
 
@@ -29,10 +29,10 @@ bioconductor-camera
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.50.0-2</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.50.0-2</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  </span></summary>
       
 
-      ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-1``,  ``1.22.0-0``
+      ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ bioconductor-camera
 
     <script>
         var package = "bioconductor-camera";
-        var versions = ["1.58.0","1.56.0","1.54.0","1.54.0","1.50.0"];
+        var versions = ["1.58.0","1.58.0","1.56.0","1.54.0","1.54.0"];
     </script>
 
 

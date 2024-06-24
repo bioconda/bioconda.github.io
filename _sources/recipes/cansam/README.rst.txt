@@ -27,14 +27,14 @@ cansam
       
       
 
-      ``21d64bb-7``,  ``21d64bb-6``,  ``21d64bb-5``,  ``21d64bb-4``,  ``21d64bb-3``,  ``21d64bb-2``,  ``21d64bb-1``,  ``21d64bb-0``
+      ``21d64bb-8``,  ``21d64bb-7``,  ``21d64bb-6``,  ``21d64bb-5``,  ``21d64bb-4``,  ``21d64bb-3``,  ``21d64bb-2``,  ``21d64bb-1``,  ``21d64bb-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 

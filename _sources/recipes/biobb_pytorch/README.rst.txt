@@ -46,12 +46,12 @@ biobb_pytorch
       
       
 
-      ``4.1.0-0``
+      ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``
 
       
 
    
-   :depends biobb_common: ``4.1.0``
+   :depends biobb_common: ``4.2.0``
    :depends python: ``>=3.8``
    :depends pytorch: 
    :requirements:
@@ -101,7 +101,7 @@ biobb_pytorch
 
     <script>
         var package = "biobb_pytorch";
-        var versions = ["4.1.0"];
+        var versions = ["4.2.1","4.2.0","4.1.3","4.1.2","4.1.1"];
     </script>
 
 

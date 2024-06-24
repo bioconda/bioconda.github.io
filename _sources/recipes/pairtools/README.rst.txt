@@ -30,10 +30,10 @@ pairtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -49,11 +49,11 @@ pairtools
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends lz4-c: 
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pandas: 
    :depends pbgzip: 
    :depends pysam: ``>=0.19``
-   :depends pysam: ``>=0.22.0,<0.23.0a0``
+   :depends pysam: ``>=0.22.1,<0.23.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: 
@@ -106,7 +106,7 @@ pairtools
 
     <script>
         var package = "pairtools";
-        var versions = ["1.1.0","1.0.3","1.0.2","1.0.2","1.0.1"];
+        var versions = ["1.1.0","1.1.0","1.0.3","1.0.2","1.0.2"];
     </script>
 
 

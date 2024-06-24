@@ -13,7 +13,7 @@ bioconductor-tfbstools
    Software Package for Transcription Factor Binding Site \(TFBS\) Analysis
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/TFBSTools.html
-   :license: GPL-2
+   :license: GPL-2.0-only
    :recipe: /`bioconductor-tfbstools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfbstools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfbstools/meta.yaml>`_
    :links: biotools: :biotools:`tfbstools`
 
@@ -29,10 +29,10 @@ bioconductor-tfbstools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.15.7-0``,  ``1.14.2-0``,  ``1.12.2-0``
+      ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.15.7-0``,  ``1.14.2-0``,  ``1.12.2-0``
 
       
       .. raw:: html
@@ -126,7 +126,7 @@ bioconductor-tfbstools
 
     <script>
         var package = "bioconductor-tfbstools";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.32.0"];
+        var versions = ["1.40.0","1.40.0","1.38.0","1.36.0","1.36.0"];
     </script>
 
 

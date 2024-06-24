@@ -29,10 +29,10 @@ parasail-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2.4-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.4-2</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  </span></summary>
       
 
-      ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.19-0``,  ``1.1.17-1``,  ``1.1.17-0``,  ``1.1.16-0``,  ``1.1.12-2``,  ``1.1.12-1``
+      ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.19-0``,  ``1.1.17-1``,  ``1.1.17-0``,  ``1.1.16-0``,  ``1.1.12-2``,  ``1.1.12-1``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ parasail-python
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends numpy: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -94,7 +94,7 @@ parasail-python
 
     <script>
         var package = "parasail-python";
-        var versions = ["1.3.4","1.3.4","1.3.3","1.3.3","1.3.3"];
+        var versions = ["1.3.4","1.3.4","1.3.4","1.3.3","1.3.3"];
     </script>
 
 

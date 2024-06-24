@@ -31,7 +31,7 @@ contatester
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -39,11 +39,11 @@ contatester
    :depends bcftools: ``>=1.9``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-pegasus-wms: ``>=4.8.2``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-gridbase: 
    :depends r-gridextra: 
    :depends r-optparse: 
@@ -94,7 +94,7 @@ contatester
 
     <script>
         var package = "contatester";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -15,6 +15,7 @@ bioconductor-msa
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/msa.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-msa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa/meta.yaml>`_
+   :links: biotools: :biotools:`msa`
 
    The \'msa\' package provides a unified R\/Bioconductor interface to the multiple sequence alignment algorithms ClustalW\, ClustalOmega\, and Muscle. All three algorithms are integrated in the package\, therefore\, they do not depend on any external software tools and are available for all major platforms. The multiple sequence alignment algorithms are complemented by a function for pretty\-printing multiple sequence alignments using the LaTeX package TeXshade.
 
@@ -28,10 +29,10 @@ bioconductor-msa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -101,7 +102,7 @@ bioconductor-msa
 
     <script>
         var package = "bioconductor-msa";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.26.0"];
+        var versions = ["1.34.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

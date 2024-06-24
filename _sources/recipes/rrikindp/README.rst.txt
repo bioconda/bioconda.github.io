@@ -34,18 +34,18 @@ rrikindp
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends _openmp_mutex: ``* *_llvm``
    :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends intarna: ``>=3.4.0,<3.5.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends llvm-openmp: ``>=17.0.6``
+   :depends llvm-openmp: ``>=18.1.6``
    :depends matplotlib-base: ``>=3.7.0``
    :depends pandas: ``>=2.0.0``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -100,7 +100,7 @@ rrikindp
 
     <script>
         var package = "rrikindp";
-        var versions = ["0.0.2","0.0.1"];
+        var versions = ["0.0.2","0.0.2","0.0.1"];
     </script>
 
 

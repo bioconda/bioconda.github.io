@@ -13,8 +13,9 @@ bioconductor-seqarray
    Data Management of Large\-Scale Whole\-Genome Sequence Variant Calls
 
    :homepage: https://bioconductor.org/packages/3.18/bioc/html/SeqArray.html
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`bioconductor-seqarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarray/meta.yaml>`_
+   :links: biotools: :biotools:`seqarray`
 
    Data management of large\-scale whole\-genome sequencing variant calls with thousands of individuals\: genotypic data \(e.g.\, SNVs\, indels and structural variation calls\) and annotations in SeqArray GDS files are stored in an array\-oriented and compressed manner\, with efficient data access using the R programming language.
 
@@ -28,10 +29,10 @@ bioconductor-seqarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.1-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.4-1</code>,  <code>1.42.0-0</code>,  <code>1.40.1-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.40.1-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.2-0``
+      ``1.42.4-1``,  ``1.42.0-0``,  ``1.40.1-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.2-0``
 
       
       .. raw:: html
@@ -104,7 +105,7 @@ bioconductor-seqarray
 
     <script>
         var package = "bioconductor-seqarray";
-        var versions = ["1.42.0","1.40.1","1.38.0","1.38.0","1.34.0"];
+        var versions = ["1.42.4","1.42.0","1.40.1","1.38.0","1.38.0"];
     </script>
 
 

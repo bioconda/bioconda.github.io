@@ -12,10 +12,9 @@ influx_si
 
    Metabolic flux and concentration estimation based on stable isotope labeling
 
-   :homepage: https://metasys.insa-toulouse.fr/software/influx/
-   :documentation: https://metasys.insa-toulouse.fr/software/influx/doc/
+   :homepage: https://github.com/sgsokol/influx/
+   :documentation: https://influx-si.readthedocs.io/
    
-   :developer docs: https://github.com/sgsokol/influx/
    :license: GPL2 / GPL-2.0-or-later
    :recipe: /`influx_si <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/influx_si>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/influx_si/meta.yaml>`_
 
@@ -33,10 +32,10 @@ influx_si
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.0.3-0</code>,  <code>7.0.2-0</code>,  <code>7.0.1-0</code>,  <code>7.0-0</code>,  <code>6.1-0</code>,  <code>6.0.4-1</code>,  <code>6.0.4-0</code>,  <code>6.0.1-0</code>,  <code>6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.0.4-0</code>,  <code>7.0.3-0</code>,  <code>7.0.2-0</code>,  <code>7.0.1-0</code>,  <code>7.0-0</code>,  <code>6.1-0</code>,  <code>6.0.4-1</code>,  <code>6.0.4-0</code>,  <code>6.0.1-0</code>,  </span></summary>
       
 
-      ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-0``,  ``7.0-0``,  ``6.1-0``,  ``6.0.4-1``,  ``6.0.4-0``,  ``6.0.1-0``,  ``6.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``
+      ``7.0.4-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-0``,  ``7.0-0``,  ``6.1-0``,  ``6.0.4-1``,  ``6.0.4-0``,  ``6.0.1-0``,  ``6.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``
 
       
       .. raw:: html
@@ -51,6 +50,7 @@ influx_si
    :depends python-libsbml: 
    :depends r-arrapply: 
    :depends r-base: 
+   :depends r-bitops: 
    :depends r-kvh: 
    :depends r-limsolve: 
    :depends r-multbxxc: 
@@ -107,7 +107,7 @@ influx_si
 
     <script>
         var package = "influx_si";
-        var versions = ["7.0.3","7.0.2","7.0.1","7.0","6.1"];
+        var versions = ["7.0.4","7.0.3","7.0.2","7.0.1","7.0"];
     </script>
 
 

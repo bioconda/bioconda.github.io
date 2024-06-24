@@ -13,7 +13,7 @@ panfeed
    Compute gene\-cluster specific k\-mers over a pangenome
 
    :homepage: https://github.com/microbial-pangenomes-lab/panfeed
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`panfeed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panfeed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panfeed/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ panfeed
       
       
 
-      ``1.5.1-0``,  ``1.5.0-0``
+      ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``
 
       
 
@@ -37,7 +37,7 @@ panfeed
    :depends pandas: 
    :depends pyfaidx: 
    :depends python: ``>=3.6``
-   :depends seaborn: 
+   :depends seaborn-base: 
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ panfeed
 
     <script>
         var package = "panfeed";
-        var versions = ["1.5.1","1.5.0"];
+        var versions = ["1.6.1","1.6.0","1.5.1","1.5.0"];
     </script>
 
 
