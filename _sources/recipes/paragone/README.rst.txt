@@ -13,7 +13,9 @@ paragone
    Identify ortholog groups from a set of paralog sequences from multiple taxa.
 
    :homepage: https://github.com/chrisjackson-pellicle/ParaGone
-   :license: GPL / GPL-3.0-or-later
+   :documentation: https://github.com/chrisjackson-pellicle/ParaGone/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`paragone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paragone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paragone/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ paragone
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,13 +40,10 @@ paragone
    :depends fasttree: 
    :depends hmmer: ``>=3.3.2``
    :depends iqtree: ``>=2.2.0.3``
-   :depends libgcc-ng: ``>=12``
+   :depends julia: 
    :depends mafft: ``>=7.245``
    :depends openmp: ``>=8.0.1``
-   :depends perl: ``>=5.32``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-moose: ``2.2207.*``
-   :depends perl-moose: ``>=2.2202``
+   :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
    :depends r-base: ``>=4.0.3``
    :depends treeshrink: 
@@ -96,7 +95,7 @@ paragone
 
     <script>
         var package = "paragone";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0"];
     </script>
 
 

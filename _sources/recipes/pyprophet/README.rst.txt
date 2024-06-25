@@ -28,10 +28,10 @@ pyprophet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.5-1</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-2</code>,  <code>2.1.10-1</code>,  <code>2.1.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.5-3</code>,  <code>2.2.5-1</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-2</code>,  <code>2.1.10-1</code>,  </span></summary>
       
 
-      ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-2``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
+      ``2.2.5-3``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-2``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,8 @@ pyprophet
    :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numexpr: ``>=2.1``
-   :depends numpy: ``>=1.24.3,<2.0a0``
+   :depends numpy: ``>=1.19,<3``
+   :depends numpy: ``>=2.0.0,<3.0a0``
    :depends pandas: ``>=0.17``
    :depends pypdf2: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -56,6 +57,7 @@ pyprophet
    :depends seaborn: 
    :depends statsmodels: ``>=0.8.0``
    :depends tabulate: 
+   :depends typing-extensions: 
    :depends xgboost: 
    :requirements:
 
@@ -104,7 +106,7 @@ pyprophet
 
     <script>
         var package = "pyprophet";
-        var versions = ["2.2.5","2.2.5","2.2.4","2.2.3","2.1.12"];
+        var versions = ["2.2.5","2.2.5","2.2.5","2.2.4","2.2.3"];
     </script>
 
 
