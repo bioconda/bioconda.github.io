@@ -29,10 +29,10 @@ idr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.4.2-11</code>,  <code>2.0.4.2-10</code>,  <code>2.0.4.2-9</code>,  <code>2.0.4.2-8</code>,  <code>2.0.4.2-7</code>,  <code>2.0.4.2-6</code>,  <code>2.0.4.2-5</code>,  <code>2.0.4.2-4</code>,  <code>2.0.4.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.4.2-12</code>,  <code>2.0.4.2-11</code>,  <code>2.0.4.2-10</code>,  <code>2.0.4.2-9</code>,  <code>2.0.4.2-8</code>,  <code>2.0.4.2-7</code>,  <code>2.0.4.2-6</code>,  <code>2.0.4.2-5</code>,  <code>2.0.4.2-4</code>,  </span></summary>
       
 
-      ``2.0.4.2-11``,  ``2.0.4.2-10``,  ``2.0.4.2-9``,  ``2.0.4.2-8``,  ``2.0.4.2-7``,  ``2.0.4.2-6``,  ``2.0.4.2-5``,  ``2.0.4.2-4``,  ``2.0.4.2-3``,  ``2.0.4.2-2``,  ``2.0.4.2-1``,  ``2.0.4.2-0``,  ``2.0.3-5``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-0``,  ``2.0.2-0``
+      ``2.0.4.2-12``,  ``2.0.4.2-11``,  ``2.0.4.2-10``,  ``2.0.4.2-9``,  ``2.0.4.2-8``,  ``2.0.4.2-7``,  ``2.0.4.2-6``,  ``2.0.4.2-5``,  ``2.0.4.2-4``,  ``2.0.4.2-3``,  ``2.0.4.2-2``,  ``2.0.4.2-1``,  ``2.0.4.2-0``,  ``2.0.3-5``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-0``,  ``2.0.2-0``
 
       
       .. raw:: html
@@ -41,12 +41,13 @@ idr
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: ``<1.20``
    :depends numpy: ``>=1.19.5,<2.0a0``
    :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
-   :depends scipy: 
+   :depends scipy: ``<1.10``
    :requirements:
 
    .. rubric:: Installation

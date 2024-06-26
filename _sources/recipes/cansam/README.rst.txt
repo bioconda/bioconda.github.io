@@ -26,16 +26,23 @@ cansam
    :versions:
       
       
+      .. raw:: html
 
-      ``21d64bb-8``,  ``21d64bb-7``,  ``21d64bb-6``,  ``21d64bb-5``,  ``21d64bb-4``,  ``21d64bb-3``,  ``21d64bb-2``,  ``21d64bb-1``,  ``21d64bb-0``
+         <details><summary><span class="truncated-version-list"><code>3489bc1-0</code>,  <code>21d64bb-8</code>,  <code>21d64bb-7</code>,  <code>21d64bb-6</code>,  <code>21d64bb-5</code>,  <code>21d64bb-4</code>,  <code>21d64bb-3</code>,  <code>21d64bb-2</code>,  <code>21d64bb-1</code>,  </span></summary>
+      
 
+      ``3489bc1-0``,  ``21d64bb-8``,  ``21d64bb-7``,  ``21d64bb-6``,  ``21d64bb-5``,  ``21d64bb-4``,  ``21d64bb-3``,  ``21d64bb-2``,  ``21d64bb-1``,  ``21d64bb-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +90,7 @@ cansam
 
     <script>
         var package = "cansam";
-        var versions = ["21d64bb","21d64bb","21d64bb","21d64bb","21d64bb"];
+        var versions = ["3489bc1","21d64bb","21d64bb","21d64bb","21d64bb"];
     </script>
 
 

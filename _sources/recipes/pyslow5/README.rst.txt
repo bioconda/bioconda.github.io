@@ -13,7 +13,7 @@ pyslow5
    slow5lib Python binding
 
    :homepage: https://github.com/hasindu2008/slow5lib
-   :license: MIT
+   :license: APACHE / Apache-2.0
    :recipe: /`pyslow5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyslow5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyslow5/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pyslow5
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -45,7 +45,6 @@ pyslow5
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +92,7 @@ pyslow5
 
     <script>
         var package = "pyslow5";
-        var versions = ["1.1.0","1.1.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.1.0","1.0.0","1.0.0"];
     </script>
 
 

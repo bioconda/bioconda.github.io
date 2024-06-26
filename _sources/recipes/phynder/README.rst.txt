@@ -13,7 +13,7 @@ phynder
    Efficient likelihood calculations to place samples into a phylogenetic tree.
 
    :homepage: https://github.com/richarddurbin/phynder
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`phynder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phynder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phynder/meta.yaml>`_
 
    Efficient likelihood calculations to place samples into a phylogenetic tree. 
@@ -32,7 +32,7 @@ phynder
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -42,7 +42,7 @@ phynder
    :depends libdeflate: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends openssl: ``>=3.3.0,<4.0a0``
+   :depends openssl: ``>=3.3.1,<4.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
@@ -91,7 +91,7 @@ phynder
 
     <script>
         var package = "phynder";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0"];
     </script>
 
 

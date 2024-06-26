@@ -12,9 +12,10 @@ rnaquast
 
    rnaQUAST is a tool for evaluating RNA\-Seq assemblies using reference genome and gene database. In addition\, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third\-party software.
 
-   :homepage: http://cab.spbu.ru/software/rnaquast/
-   :license: GPLv2
+   :homepage: https://github.com/ablab/rnaquast
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`rnaquast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaquast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaquast/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw218`, biotools: :biotools:`rnaQUAST`, usegalaxy-eu: :usegalaxy-eu:`rna_quast`
 
    
 
@@ -28,10 +29,10 @@ rnaquast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.2.3-0``,  ``2.2.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``
+      ``2.3.0-0``,  ``2.2.3-0``,  ``2.2.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``
 
       
       .. raw:: html
@@ -41,16 +42,16 @@ rnaquast
 
    
    :depends blast: 
-   :depends blat: 
    :depends busco: ``>=5``
    :depends emboss: 
    :depends gffutils: 
-   :depends gmap: ``<2021.02.22,>=2020.03.12``
+   :depends gmap: ``>=2020.03.12``
    :depends joblib: 
    :depends matplotlib-base: 
    :depends python: 
    :depends samtools: 
    :depends star: 
+   :depends ucsc-blat: 
    :depends ucsc-pslsort: 
    :requirements:
 
@@ -99,7 +100,7 @@ rnaquast
 
     <script>
         var package = "rnaquast";
-        var versions = ["2.2.3","2.2.1","2.2.0","2.2.0","2.2.0"];
+        var versions = ["2.3.0","2.2.3","2.2.1","2.2.0","2.2.0"];
     </script>
 
 
