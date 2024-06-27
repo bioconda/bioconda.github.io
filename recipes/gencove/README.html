@@ -76,7 +76,7 @@
 <dd class="field-even"><p><a class="reference external" href="https://github.com/gncv/gencove-cli">https://github.com/gncv/gencove-cli</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Apache-2.0</p>
+<dd class="field-odd"><p>APACHE / Apache-2.0</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gencove">gencove</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gencove/meta.yaml">meta.yaml</a></p>
@@ -91,10 +91,10 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/gencove"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gencove.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/gencove"><img alt="docker_gencove" src="https://quay.io/repository/biocontainers/gencove/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.3-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.3-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.17.1-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.3-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.2-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.17.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.3-0</span></code></p>
 </details></dd>
 <dt class="field-even">depends backoff<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.11.0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;=2.2.1</span></code></p>
 </dd>
 <dt class="field-odd">depends boto3<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.17.97</span></code></p>
@@ -102,14 +102,15 @@
 <dt class="field-even">depends click<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.0</span></code></p>
 </dd>
-<dt class="field-odd">depends progressbar2<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.55.0</span></code></p>
+<dt class="field-odd">depends click-default-group<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.4</span></code></p>
 </dd>
-<dt class="field-even">depends pydantic<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.9.2</span></code></p>
+<dt class="field-even">depends progressbar2<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.55.0</span></code></p>
 </dd>
-<dt class="field-odd">depends pytest-runner<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-odd">depends pydantic<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.10.13</span></code></p>
+</dd>
 <dt class="field-even">depends python<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
 </dd>
@@ -119,11 +120,14 @@
 <dt class="field-even">depends requests<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.19.1</span></code></p>
 </dd>
-<dt class="field-odd">depends six<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.5</span></code></p>
+<dt class="field-odd">depends sh<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.14.3</span></code></p>
 </dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dt class="field-even">depends six<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.5</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -158,7 +162,7 @@ others.</p>
 
 <script>
     var package = "gencove";
-    var versions = ["2.8.1","2.8.0","2.7.3","2.7.2","2.7.1"];
+    var versions = ["2.17.1","2.8.1","2.8.0","2.7.3","2.7.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
