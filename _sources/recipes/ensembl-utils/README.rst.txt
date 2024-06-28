@@ -31,18 +31,16 @@ ensembl-utils
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``
+      ``0.2.0-0``
 
       
 
    
-   :depends pytest: 
    :depends python: ``>=3.10``
    :depends python-dotenv: ``>=0.19.2``
    :depends pyyaml: ``>=6.0,<7.0``
    :depends requests: ``>=2.22.0``
    :depends sqlalchemy: ``>=1.4.0,<2.0``
-   :depends sqlalchemy-utils: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +88,7 @@ ensembl-utils
 
     <script>
         var package = "ensembl-utils";
-        var versions = ["0.3.0","0.2.0"];
+        var versions = ["0.2.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ olivar
    Olivar PCR tiling design
 
    :homepage: https://github.com/treangenlab/Olivar
-   :license: MIT / MIT
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`olivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/olivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/olivar/meta.yaml>`_
 
    

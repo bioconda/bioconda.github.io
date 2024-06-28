@@ -27,21 +27,11 @@ metabolights-utils
       
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      
 
       
 
    
-   :depends beautifulsoup4: ``>=4.12.3,<5.0.0``
-   :depends click: ``>=8.1.7,<9.0.0``
-   :depends httpx: ``>=0.27.0,<0.28.0``
-   :depends jsonpath-ng: ``>=1.6.1,<2.0.0``
-   :depends jsonschema: ``>=4.22.0,<5.0.0``
-   :depends pydantic: ``>=2.0.0,<3.0.0``
-   :depends pydantic-settings: ``>=2.0.3,<3.0.0``
-   :depends python: ``>=3.8,<4.0``
-   :depends python-dateutil: ``>=2.9.0,<3.0.0``
-   :depends unidecode: ``>=1.3.8,<2.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +79,7 @@ metabolights-utils
 
     <script>
         var package = "metabolights-utils";
-        var versions = ["1.1.2","1.1.1","1.1.0"];
+        var versions = [];
     </script>
 
 

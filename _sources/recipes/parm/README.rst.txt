@@ -27,24 +27,11 @@ parm
       
       
 
-      ``0.0.2-0``
+      
 
       
 
    
-   :depends biopython: 
-   :depends einops: 
-   :depends h5py: 
-   :depends logomaker: 
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends optuna: 
-   :depends pandas: 
-   :depends python: ``>=3.10.8``
-   :depends pytorch: 
-   :depends scikit-learn: 
-   :depends seaborn: 
-   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +79,7 @@ parm
 
     <script>
         var package = "parm";
-        var versions = ["0.0.2"];
+        var versions = [];
     </script>
 
 

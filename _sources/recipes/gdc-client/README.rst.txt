@@ -30,13 +30,12 @@ gdc-client
       
       
 
-      ``2.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-3``,  ``1.3.0-1``,  ``1.3.0-0``
+      ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-3``,  ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
-   :depends cryptography: ``>=2.8``
-   :depends importlib-metadata: 
+   :depends cryptography: ``>=2.8,<2.9``
    :depends intervaltree: ``>=3.0.2``
    :depends jsonschema: ``>=2.6``
    :depends lxml: ``>=4.4.2``
@@ -45,7 +44,7 @@ gdc-client
    :depends pyasn1: ``>=0.4.3,<1``
    :depends pyopenssl: ``>=18,<19``
    :depends python: ``>=3.5``
-   :depends pyyaml: ``>=5.1``
+   :depends pyyaml: ``>=3.13,<4``
    :depends requests: ``>=2.22.0``
    :depends termcolor: ``>=1.1.0``
    :requirements:
@@ -95,7 +94,7 @@ gdc-client
 
     <script>
         var package = "gdc-client";
-        var versions = ["2.0","1.6.1","1.6.0","1.5.0","1.4.0"];
+        var versions = ["1.6.1","1.6.0","1.5.0","1.4.0","1.3.0"];
     </script>
 
 

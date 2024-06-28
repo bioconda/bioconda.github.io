@@ -28,10 +28,10 @@ tandem-genotypes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.2-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.2-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.2-0</code>,  <code>1.6.0-0</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ tandem-genotypes
 
     <script>
         var package = "tandem-genotypes";
-        var versions = ["1.9.2","1.9.1","1.9.0","1.8.3","1.8.2"];
+        var versions = ["1.9.1","1.9.0","1.8.3","1.8.2","1.8.1"];
     </script>
 
 

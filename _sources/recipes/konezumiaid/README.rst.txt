@@ -27,17 +27,11 @@ konezumiaid
       
       
 
-      ``0.2.2-0``
+      
 
       
 
    
-   :depends bedtools: 
-   :depends bowtie: 
-   :depends numpy: ``1.26.0.*``
-   :depends pandas: ``2.2.2.*``
-   :depends primer3-py: ``>=2.0.1,<3.0.0``
-   :depends python: ``>=3.9.0,<4.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +79,7 @@ konezumiaid
 
     <script>
         var package = "konezumiaid";
-        var versions = ["0.2.2"];
+        var versions = [];
     </script>
 
 

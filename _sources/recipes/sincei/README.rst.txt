@@ -28,7 +28,7 @@ sincei
       
       
 
-      ``0.4-0``,  ``0.3.1-0``
+      ``0.3.1-0``
 
       
 
@@ -91,7 +91,7 @@ sincei
 
     <script>
         var package = "sincei";
-        var versions = ["0.4","0.3.1"];
+        var versions = ["0.3.1"];
     </script>
 
 

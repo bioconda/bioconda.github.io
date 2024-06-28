@@ -28,7 +28,7 @@ tir-learner
       
       
 
-      ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``3.0.2-0``,  ``3.0.1-0``
 
       
 
@@ -38,13 +38,13 @@ tir-learner
    :depends genericrepeatfinder: 
    :depends genometools-genometools: 
    :depends glob2: 
-   :depends keras: ``>=3.3.3``
+   :depends keras: 
    :depends multiprocess: 
    :depends pandas: 
    :depends regex: 
-   :depends scikit-learn: ``>=1.3``
+   :depends scikit-learn: 
    :depends swifter: 
-   :depends tensorflow: ``>=2.11``
+   :depends tensorflow: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +92,7 @@ tir-learner
 
     <script>
         var package = "tir-learner";
-        var versions = ["3.0.2","3.0.2","3.0.1"];
+        var versions = ["3.0.2","3.0.1"];
     </script>
 
 
