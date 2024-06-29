@@ -29,11 +29,33 @@ r-cleangeostreamr
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-devtools: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-ggplot2: 
+   :depends r-jsonlite: 
+   :depends r-leaflet: 
+   :depends r-lubridate: 
+   :depends r-magrittr: 
+   :depends r-optparse: 
+   :depends r-r.utils: 
+   :depends r-readr: 
+   :depends r-rnaturalearth: 
+   :depends r-rnaturalearthdata: 
+   :depends r-sf: 
+   :depends r-sp: 
+   :depends r-stringi: 
+   :depends r-stringr: 
+   :depends r-tibble: 
+   :depends r-tidygeocoder: 
+   :depends r-tidyr: 
+   :depends r-tidyverse: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +103,7 @@ r-cleangeostreamr
 
     <script>
         var package = "r-cleangeostreamr";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

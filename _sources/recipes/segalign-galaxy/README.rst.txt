@@ -33,11 +33,14 @@ segalign-galaxy
       
       
 
-      
+      ``0.1.2.7-0``
 
       
 
    
+   :depends bashlex: 
+   :depends python: ``3.12.*``
+   :depends segalign-full: ``0.1.2.7.*``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +88,7 @@ segalign-galaxy
 
     <script>
         var package = "segalign-galaxy";
-        var versions = [];
+        var versions = ["0.1.2.7"];
     </script>
 
 

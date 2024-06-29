@@ -10,11 +10,10 @@ telometer
    :replaces_section_title:
    :noindex:
 
-   Tool for measuring telomeres from long\-read data.
+   A simple regular expression based method for measuring individual\, chromosome\-specific telomere lengths from long\-read sequencing data.
 
    :homepage: https://github.com/santiago-es/Telometer
-   :developer docs: https://github.com/santiago-es
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`telometer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/telometer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/telometer/meta.yaml>`_
 
    
@@ -28,14 +27,15 @@ telometer
       
       
 
-      ``0.5-0``
+      ``0.81-0``,  ``0.5-0``
 
       
 
    
    :depends pandas: 
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3.7``
+   :depends regex: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ telometer
 
     <script>
         var package = "telometer";
-        var versions = ["0.5"];
+        var versions = ["0.81","0.5"];
     </script>
 
 

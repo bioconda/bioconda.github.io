@@ -27,11 +27,45 @@ tetrimmer
       
       
 
-      
+      ``1.4.0-0``
 
       
 
    
+   :depends bedtools: ``>=2.31.1``
+   :depends biopython: 
+   :depends blast: 
+   :depends cd-hit: 
+   :depends click: 
+   :depends dataclasses: 
+   :depends dill: 
+   :depends emboss: 
+   :depends ghostscript: 
+   :depends hmmer: 
+   :depends iqtree: 
+   :depends joblib: 
+   :depends mafft: 
+   :depends matplotlib-base: 
+   :depends multiprocess: 
+   :depends nseg: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends perl: 
+   :depends pfam_scan: 
+   :depends plotly: 
+   :depends pypdf2: 
+   :depends python: ``>=3.8,<3.11``
+   :depends r-base: 
+   :depends recon: 
+   :depends regex: 
+   :depends repeatmasker: 
+   :depends repeatmodeler: 
+   :depends requests: 
+   :depends samtools: 
+   :depends scikit-learn: 
+   :depends tk: 
+   :depends trf: 
+   :depends urllib3: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +113,7 @@ tetrimmer
 
     <script>
         var package = "tetrimmer";
-        var versions = [];
+        var versions = ["1.4.0"];
     </script>
 
 

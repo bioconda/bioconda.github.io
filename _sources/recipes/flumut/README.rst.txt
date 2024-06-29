@@ -13,7 +13,7 @@ flumut
    A tool to search for molecular markers with potential impact on the biological characteristics of Influenza A viruses of the A\(H5N1\) subtype.
 
    :homepage: https://github.com/izsvenezie-virology/FluMut
-   :license: AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`flumut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flumut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flumut/meta.yaml>`_
 
    
@@ -27,11 +27,16 @@ flumut
       
       
 
-      
+      ``0.6.0-0``,  ``0.5.3-0``
 
       
 
    
+   :depends biopython: ``>=1.81``
+   :depends click: ``>=8.0.0``
+   :depends importlib-resources: ``>=1.3``
+   :depends openpyxl: ``>=3.1.2``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +84,7 @@ flumut
 
     <script>
         var package = "flumut";
-        var versions = [];
+        var versions = ["0.6.0","0.5.3"];
     </script>
 
 

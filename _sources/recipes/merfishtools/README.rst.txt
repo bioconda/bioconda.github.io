@@ -28,10 +28,10 @@ merfishtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.2.0-1</code>,  <code>1.1.0-1</code>,  <code>1.0.0-1</code>,  <code>0.9.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-2</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.2.0-1</code>,  <code>1.1.0-1</code>,  <code>1.0.0-1</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.2.0-1``,  ``1.1.0-1``,  ``1.0.0-1``,  ``0.9.1-1``,  ``0.9.1-0``
+      ``1.5.0-2``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.2.0-1``,  ``1.1.0-1``,  ``1.0.0-1``,  ``0.9.1-1``,  ``0.9.1-0``
 
       
       .. raw:: html
@@ -40,13 +40,14 @@ merfishtools
       
 
    
-   :depends gsl: ``>=2.2.1,<2.3.0a0``
-   :depends libgcc-ng: ``>=4.9``
-   :depends matplotlib: 
-   :depends numpy: 
-   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends matplotlib-base: 
+   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends openblas: 
    :depends pandas: 
-   :depends python: ``>=3.5,<3.6.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +95,7 @@ merfishtools
 
     <script>
         var package = "merfishtools";
-        var versions = ["1.5.0","1.4.0","1.3.0","1.3.0","1.3.0"];
+        var versions = ["1.5.0","1.5.0","1.4.0","1.3.0","1.3.0"];
     </script>
 
 

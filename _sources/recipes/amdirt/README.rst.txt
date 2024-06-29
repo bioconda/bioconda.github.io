@@ -13,7 +13,7 @@ amdirt
    AMDirT\: AncientMetagenomeDir Toolkit
 
    :homepage: https://github.com/SPAAM-community/AMDirT
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`amdirt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amdirt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amdirt/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ amdirt
       
       
 
-      ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
+      ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
 
       
 
@@ -41,7 +41,7 @@ amdirt
    :depends python: ``>=3.9``
    :depends requests: 
    :depends rich: 
-   :depends streamlit: ``>=1.21.0``
+   :depends streamlit: 
    :depends streamlit-aggrid: 
    :depends tabulate: 
    :requirements:
@@ -91,7 +91,7 @@ amdirt
 
     <script>
         var package = "amdirt";
-        var versions = ["1.6.0","1.5.0","1.5.0","1.4.6","1.4.5"];
+        var versions = ["1.6.1","1.6.0","1.5.0","1.5.0","1.4.6"];
     </script>
 
 

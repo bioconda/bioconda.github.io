@@ -27,11 +27,35 @@ mvip
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bowtie2: 
+   :depends checkv: 
+   :depends coverm: 
+   :depends dos2unix: 
+   :depends fasttree: 
+   :depends flit: 
+   :depends genomad: 
+   :depends importlib_resources: 
+   :depends mafft: 
+   :depends minimap2: 
+   :depends mmseqs2: 
+   :depends numpy: ``1.23``
+   :depends pandas: 
+   :depends parallel: 
+   :depends python: ``>=3.7``
+   :depends rpy2: 
+   :depends samtools: 
+   :depends scikit-learn: ``0.23``
+   :depends seqtk: 
+   :depends table2asn: 
+   :depends taxopy: 
+   :depends tqdm: 
+   :depends trimal: 
+   :depends vrhyme: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +103,7 @@ mvip
 
     <script>
         var package = "mvip";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

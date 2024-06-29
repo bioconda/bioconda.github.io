@@ -32,11 +32,18 @@ pathphynder
       
       
 
-      
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
+   :depends phynder: 
+   :depends python: 
+   :depends r-base: 
+   :depends r-optparse: 
+   :depends r-phytools: 
+   :depends r-scales: 
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +91,7 @@ pathphynder
 
     <script>
         var package = "pathphynder";
-        var versions = [];
+        var versions = ["1.2.1","1.2.1","1.2.0"];
     </script>
 
 

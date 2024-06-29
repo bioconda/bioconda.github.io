@@ -10,12 +10,14 @@ sonicparanoid
    :replaces_section_title:
    :noindex:
 
-   SonicParanoid\: fast\, easy and accurate orthology inference
+   SonicParanoid\: fast\, accurate\, and comprehensive orthology inference with machine learning and language models
 
-   :homepage: http://iwasakilab.bs.s.u-tokyo.ac.jp/sonicparanoid/
-   :license: GPL3 / GNU General Public License v3
+   :homepage: https://gitlab.com/salvo981/sonicparanoid2
+   :documentation: https://gitlab.com/salvo981/sonicparanoid2/-/wikis/home
+   
+   :license: GPL / GPL-3.0-only
    :recipe: /`sonicparanoid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonicparanoid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonicparanoid/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/bty631`
+   :links: doi: :doi:`10.1101/2023.05.14.540736`, doi: :doi:`10.1093/bioinformatics/bty631`, biotools: :biotools:`SonicParanoid`
 
    
 
@@ -29,10 +31,10 @@ sonicparanoid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.8-4</code>,  <code>1.3.8-3</code>,  <code>1.3.8-2</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-1</code>,  <code>1.3.6-0</code>,  <code>1.0.14-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.7-0</code>,  <code>1.3.8-4</code>,  <code>1.3.8-3</code>,  <code>1.3.8-2</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-1</code>,  <code>1.3.6-0</code>,  </span></summary>
       
 
-      ``1.3.8-4``,  ``1.3.8-3``,  ``1.3.8-2``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
+      ``2.0.7-0``,  ``1.3.8-4``,  ``1.3.8-3``,  ``1.3.8-2``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
 
       
       .. raw:: html
@@ -41,21 +43,25 @@ sonicparanoid
       
 
    
-   :depends biopython: ``>=1.79``
+   :depends biopython: ``>=1.83``
    :depends blast: ``>=2.12.0``
    :depends diamond: ``>=2.0.12``
-   :depends filetype: ``>=1.0.7``
+   :depends filetype: ``>=1.2.0``
+   :depends gdown: ``>=5.2.0``
+   :depends gensim: ``>=4.2.0``
    :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
    :depends mcl: ``>=14.137``
    :depends mmseqs2: ``>=13.45111``
-   :depends numpy: ``>=1.21``
-   :depends pandas: ``>=1.3.2``
-   :depends psutil: ``>=5.8.0``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
-   :depends scikit-learn: ``>=0.24.2``
-   :depends scipy: ``>=1.7.1``
+   :depends mypy: ``>=1.10.0``
+   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends pandas: ``>=2.2.0``
+   :depends psutil: ``>=6.0.0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends scikit-learn: ``>=1.5.0``
+   :depends scipy: ``<1.13``
+   :depends smart-open: ``>=7.0.1``
+   :depends tqdm: ``>=4.66.0``
    :requirements:
 
    .. rubric:: Installation
@@ -103,7 +109,7 @@ sonicparanoid
 
     <script>
         var package = "sonicparanoid";
-        var versions = ["1.3.8","1.3.8","1.3.8","1.3.8","1.3.8"];
+        var versions = ["2.0.7","1.3.8","1.3.8","1.3.8","1.3.8"];
     </script>
 
 

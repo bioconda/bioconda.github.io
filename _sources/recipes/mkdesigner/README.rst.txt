@@ -27,7 +27,7 @@ mkdesigner
       
       
 
-      ``0.3.4-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.1-0``
+      ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.4-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.1-0``
 
       
 
@@ -37,9 +37,9 @@ mkdesigner
    :depends gatk4: ``>=4.4.0.0,<5.0.0.0``
    :depends matplotlib-base: 
    :depends pandas: ``>=2.0.2,<3.0.0``
-   :depends picard: ``>=2.18.29,<3.0.0``
+   :depends picard-slim: ``>=2.18.29,<3.0.0``
+   :depends primer3: ``>=2.6.1,<3.0.0``
    :depends python: ``>=3.8,<4.0``
-   :depends r-base: ``>=4.2.3,<5.0.0``
    :depends samtools: ``>=1.6,<2.0``
    :requirements:
 
@@ -88,7 +88,7 @@ mkdesigner
 
     <script>
         var package = "mkdesigner";
-        var versions = ["0.3.4","0.3.1","0.2.1","0.1.1","0.0.1"];
+        var versions = ["0.4.1","0.4.1","0.3.4","0.3.1","0.2.1"];
     </script>
 
 

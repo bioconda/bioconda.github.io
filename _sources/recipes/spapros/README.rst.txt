@@ -27,11 +27,33 @@ spapros
       
       
 
-      
+      ``0.1.5-0``
 
       
 
    
+   :depends bandit: ``>=1.7.6``
+   :depends click: ``>=8.0.1``
+   :depends jinja2: ``>=3.0.1``
+   :depends jupyter-sphinx: ``>=0.3.2``
+   :depends leidenalg: ``>=0.8.7``
+   :depends matplotlib-base: ``>=3.6.3``
+   :depends nox: ``>=2023.04.22``
+   :depends nox-poetry: ``>=1.0.3``
+   :depends numpy: ``1.26.4``
+   :depends pandas: ``>=1.3.0,<2.0.0``
+   :depends pandoc: ``>=2.1``
+   :depends pillow: ``>=10.0.2``
+   :depends python: ``>=3.9,<3.10``
+   :depends pyyaml: ``>=6.0.1``
+   :depends questionary: ``>=1.10.0``
+   :depends rich: ``>=10.1.0``
+   :depends ruamel.yaml: ``>=0.17.10``
+   :depends scanpy: ``>=1.9.8``
+   :depends seaborn: ``>=0.11.1``
+   :depends upsetplot: ``>=0.7.0``
+   :depends venndata: ``>=0.1.0``
+   :depends xgboost: ``>=1.6.1``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +101,7 @@ spapros
 
     <script>
         var package = "spapros";
-        var versions = [];
+        var versions = ["0.1.5"];
     </script>
 
 

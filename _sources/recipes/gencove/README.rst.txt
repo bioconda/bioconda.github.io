@@ -29,10 +29,10 @@ gencove
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.3-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.17.1-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.3-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.2-0</code>,  </span></summary>
       
 
-      ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.3-0``
+      ``2.17.1-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.3-0``
 
       
       .. raw:: html
@@ -41,15 +41,16 @@ gencove
       
 
    
-   :depends backoff: ``1.11.0``
+   :depends backoff: ``<=2.2.1``
    :depends boto3: ``>=1.17.97``
    :depends click: ``>=7.0``
+   :depends click-default-group: ``>=1.2.4``
    :depends progressbar2: ``3.55.0``
-   :depends pydantic: ``1.9.2``
-   :depends pytest-runner: 
+   :depends pydantic: ``1.10.13``
    :depends python: ``>=3.7``
    :depends python-dateutil: ``>=2.2.0``
    :depends requests: ``>=2.19.1``
+   :depends sh: ``>=1.14.3``
    :depends six: ``>=1.5``
    :requirements:
 
@@ -98,7 +99,7 @@ gencove
 
     <script>
         var package = "gencove";
-        var versions = ["2.8.1","2.8.0","2.7.3","2.7.2","2.7.1"];
+        var versions = ["2.17.1","2.8.1","2.8.0","2.7.3","2.7.2"];
     </script>
 
 

@@ -27,12 +27,13 @@ bmtool
       
       
 
-      ``3.101-4``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
+      ``3.101-5``,  ``3.101-4``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
 
       
 
    
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +81,7 @@ bmtool
 
     <script>
         var package = "bmtool";
-        var versions = ["3.101","3.101","3.101","3.101"];
+        var versions = ["3.101","3.101","3.101","3.101","3.101"];
     </script>
 
 

@@ -29,7 +29,7 @@ piper
       
       
 
-      ``0.14.0-0``,  ``0.13.2-0``,  ``0.12.3-0``,  ``0.12.1-1``,  ``0.12.1-0``
+      ``0.14.2-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.12.3-0``,  ``0.12.1-1``,  ``0.12.1-0``
 
       
 
@@ -37,11 +37,11 @@ piper
    :depends attmap: ``>=0.12.5``
    :depends logmuse: ``>=0.2.4``
    :depends pandas: 
-   :depends pipestat: ``>=0.4.0``
+   :depends pipestat: ``>=0.9.a1``
    :depends psutil: 
    :depends python: ``>=3``
-   :depends ubiquerg: ``>=0.4.5``
-   :depends yacman: 
+   :depends ubiquerg: ``>=0.8.0``
+   :depends yacman: ``>=0.9.3``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ piper
 
     <script>
         var package = "piper";
-        var versions = ["0.14.0","0.13.2","0.12.3","0.12.1","0.12.1"];
+        var versions = ["0.14.2","0.14.0","0.13.2","0.12.3","0.12.1"];
     </script>
 
 

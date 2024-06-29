@@ -13,7 +13,7 @@ cgpbigwig
    BigWig manpulation tools using libBigWig and htslib
 
    :homepage: https://github.com/cancerit/cgpBigWig
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`cgpbigwig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgpbigwig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgpbigwig/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ cgpbigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-8</code>,  <code>1.6.0-7</code>,  <code>1.6.0-6</code>,  <code>1.6.0-5</code>,  <code>1.6.0-4</code>,  <code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-9</code>,  <code>1.6.0-8</code>,  <code>1.6.0-7</code>,  <code>1.6.0-6</code>,  <code>1.6.0-5</code>,  <code>1.6.0-4</code>,  <code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  </span></summary>
       
 
-      ``1.6.0-8``,  ``1.6.0-7``,  ``1.6.0-6``,  ``1.6.0-5``,  ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.6.0-9``,  ``1.6.0-8``,  ``1.6.0-7``,  ``1.6.0-6``,  ``1.6.0-5``,  ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
       .. raw:: html

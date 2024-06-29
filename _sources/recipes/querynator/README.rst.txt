@@ -31,26 +31,27 @@ querynator
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``
+      ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``
 
       
 
    
-   :depends civicpy: ``3.0.0.*``
+   :depends civicpy: ``>=3.0.0``
    :depends click: ``>=8.1.3``
    :depends httplib2: 
-   :depends matplotlib-base: ``3.6.1.*``
-   :depends numpy: ``1.24.3.*``
-   :depends pandas: ``1.5.1.*``
-   :depends pretty_html_table: ``0.9.16.*``
+   :depends matplotlib-base: ``>=3.6.1``
+   :depends numpy: ``1.24.4``
+   :depends pandas: ``>=1.5.1``
+   :depends pretty_html_table: ``>=0.9.16``
    :depends pytest: ``>=6.2.4``
-   :depends python: 
+   :depends python: ``>=3.8,<3.11``
    :depends pyvcf3: ``>=1.0.3``
    :depends requests: 
    :depends requests-cache: 
    :depends sphinx: ``>=5.3.0``
    :depends sphinx-rtd-theme: 
-   :depends upsetplot: ``0.8.0.*``
+   :depends upsetplot: ``>=0.8.0``
+   :depends urllib3: ``<2``
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +99,7 @@ querynator
 
     <script>
         var package = "querynator";
-        var versions = ["0.4.2","0.4.1","0.4.0","0.3.3","0.2.2"];
+        var versions = ["0.5.0","0.4.2","0.4.1","0.4.0","0.3.3"];
     </script>
 
 
