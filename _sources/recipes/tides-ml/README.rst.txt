@@ -27,7 +27,7 @@ tides-ml
       
       
 
-      ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
 
@@ -40,7 +40,7 @@ tides-ml
    :depends kraken2: ``>=2.0.0``
    :depends optuna: ``>=3.0``
    :depends pandas: ``>=2.0``
-   :depends python: ``<3.12``
+   :depends python: ``<=3.11.7``
    :depends scikit-learn: ``>=1.3.0``
    :depends seaborn: ``>=0.12.2``
    :requirements:
@@ -90,7 +90,7 @@ tides-ml
 
     <script>
         var package = "tides-ml";
-        var versions = ["1.2.0","1.1.4","1.1.3","1.1.2"];
+        var versions = ["1.3.0","1.2.0","1.1.4","1.1.3","1.1.2"];
     </script>
 
 

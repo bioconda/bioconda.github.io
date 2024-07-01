@@ -27,13 +27,14 @@ flumut
       
       
 
-      ``0.6.0-0``,  ``0.5.3-0``
+      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.3-0``
 
       
 
    
    :depends biopython: ``>=1.81``
    :depends click: ``>=8.0.0``
+   :depends flumutdb: ``>=6.0``
    :depends importlib-resources: ``>=1.3``
    :depends openpyxl: ``>=3.1.2``
    :depends python: ``>=3.7``
@@ -84,7 +85,7 @@ flumut
 
     <script>
         var package = "flumut";
-        var versions = ["0.6.0","0.5.3"];
+        var versions = ["0.6.0","0.6.0","0.5.3"];
     </script>
 
 

@@ -28,10 +28,10 @@ expansionhunter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.0-3</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``
+      ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.6-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ expansionhunter
 
     <script>
         var package = "expansionhunter";
-        var versions = ["5.0.0","5.0.0","5.0.0","4.0.2","4.0.1"];
+        var versions = ["5.0.0","5.0.0","5.0.0","5.0.0","4.0.2"];
     </script>
 
 
