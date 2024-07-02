@@ -27,7 +27,7 @@ mvip
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -103,7 +103,7 @@ mvip
 
     <script>
         var package = "mvip";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

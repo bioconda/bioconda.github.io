@@ -27,11 +27,13 @@ extract_fullseq
       
       
 
-      ``3.101-4``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
+      ``3.101-5``,  ``3.101-4``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
 
       
 
    
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +81,7 @@ extract_fullseq
 
     <script>
         var package = "extract_fullseq";
-        var versions = ["3.101","3.101","3.101","3.101"];
+        var versions = ["3.101","3.101","3.101","3.101","3.101"];
     </script>
 
 

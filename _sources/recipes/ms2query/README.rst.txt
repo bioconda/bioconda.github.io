@@ -10,7 +10,7 @@ ms2query
    :replaces_section_title:
    :noindex:
 
-   Reliable and fast MS\/MS spectral\-based analogue search
+   Reliable and fast MS\/MS spectral based analogue search
 
    :homepage: https://github.com/iomega/ms2query
    :license: Apache-2.0
@@ -28,27 +28,26 @@ ms2query
       
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.5.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends gensim: ``>=4.0.0``
-   :depends h5py: ``>=3.8.0``
-   :depends matchms: ``>=0.14.0,<=0.17.0``
-   :depends matchmsextras: ``0.4.1.*``
+   :depends h5py: ``3.11.0.*``
+   :depends matchms: ``0.26.4.*``
    :depends matplotlib-base: 
-   :depends ms2deepscore: 
-   :depends onnxruntime: 
-   :depends pandas: ``>=1.2.5,<2.0.0``
-   :depends pubchempy: 
-   :depends python: ``>=3.7``
+   :depends ms2deepscore: ``2.0.0.*``
+   :depends numpy: ``1.24.4.*``
+   :depends onnxruntime: ``1.17.0.*``
+   :depends pandas: ``2.2.2.*``
+   :depends pyarrow: ``16.1.0.*``
+   :depends pytest: ``8.2.2.*``
+   :depends pytest-cov: ``5.0.0.*``
+   :depends python: ``>=3.9``
    :depends rdkit: 
-   :depends scikit-learn: 
-   :depends skl2onnx: 
-   :depends spec2vec: ``>=0.6.0``
-   :depends tensorflow: ``<2.9``
-   :depends tqdm: 
+   :depends scikit-learn: ``1.5.0.*``
+   :depends skl2onnx: ``1.16.0.*``
+   :depends spec2vec: ``0.8.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +95,7 @@ ms2query
 
     <script>
         var package = "ms2query";
-        var versions = ["1.2.3","1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.5.0","1.2.3","1.2.2","1.2.1","1.2.0"];
     </script>
 
 

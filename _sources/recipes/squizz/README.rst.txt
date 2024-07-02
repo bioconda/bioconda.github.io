@@ -13,7 +13,7 @@ squizz
    Squizz is a sequence\/alignment format checker\, but it has some conversion capabilities too.
 
    :homepage: http://ftp.pasteur.fr/pub/gensoft/projects/squizz/
-   :license: GPL 2
+   :license: GPL / GPL-2.0-only
    :recipe: /`squizz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ squizz
       
       
 
-      ``0.99d-6``,  ``0.99d-5``,  ``0.99d-4``,  ``0.99d-3``,  ``0.99d-2``,  ``0.99d-1``,  ``0.99d-0``
+      ``0.99d-7``,  ``0.99d-6``,  ``0.99d-5``,  ``0.99d-4``,  ``0.99d-3``,  ``0.99d-2``,  ``0.99d-1``,  ``0.99d-0``
 
       
 
