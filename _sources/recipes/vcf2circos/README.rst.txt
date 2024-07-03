@@ -13,7 +13,7 @@ vcf2circos
    A python package based on Plotly to help generate Circos plots from a VCF file or a JSON configuration file.
 
    :homepage: https://github.com/bioinfo-chru-strasbourg/vcf2circos
-   :license: AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`vcf2circos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2circos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2circos/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ vcf2circos
       
       
 
-      ``1.1.1-0``,  ``1.1-0``
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``
 
       
 
@@ -47,7 +47,7 @@ vcf2circos
    :depends pyvcf3: 
    :depends scipy: 
    :depends tqdm: 
-   :depends webcolors: 
+   :depends webcolors: ``<=1.13``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +95,7 @@ vcf2circos
 
     <script>
         var package = "vcf2circos";
-        var versions = ["1.1.1","1.1"];
+        var versions = ["1.2.0","1.1.1","1.1"];
     </script>
 
 

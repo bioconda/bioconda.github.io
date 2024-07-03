@@ -28,10 +28,10 @@ skder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.1.1-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,18 @@ skder
       
 
    
-   :depends biopython: ``1.79.*``
+   :depends biopython: 
+   :depends cd-hit: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends matplotlib-base: 
    :depends ncbi-genome-download: 
+   :depends pandas: 
    :depends pyfastx: 
+   :depends pyrodigal: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends seaborn: 
    :depends setuptools: 
    :depends skani: 
    :depends wget: 
@@ -97,7 +102,7 @@ skder
 
     <script>
         var package = "skder";
-        var versions = ["1.1.1","1.0.10","1.0.9","1.0.8","1.0.7"];
+        var versions = ["1.2.1","1.1.1","1.0.10","1.0.9","1.0.8"];
     </script>
 
 
