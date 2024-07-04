@@ -27,7 +27,7 @@ icfree-ml
       
       
 
-      ``2.3.0-0``
+      ``2.3.1-0``,  ``2.3.0-0``
 
       
 
@@ -83,7 +83,7 @@ icfree-ml
 
     <script>
         var package = "icfree-ml";
-        var versions = ["2.3.0"];
+        var versions = ["2.3.1","2.3.0"];
     </script>
 
 

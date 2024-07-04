@@ -27,15 +27,15 @@ codoff
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends biopython: ``1.79.*``
+   :depends biopython: 
    :depends matplotlib-base: 
    :depends pyrodigal: 
-   :depends python: ``3.10.*``
+   :depends python: ``>=3.10``
    :depends scipy: 
    :depends seaborn: 
    :depends setuptools: 
@@ -86,7 +86,7 @@ codoff
 
     <script>
         var package = "codoff";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.0.0"];
     </script>
 
 

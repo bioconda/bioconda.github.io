@@ -27,7 +27,7 @@ kegg-pathways-completeness
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -83,7 +83,7 @@ kegg-pathways-completeness
 
     <script>
         var package = "kegg-pathways-completeness";
-        var versions = ["1.0.3","1.0.2"];
+        var versions = ["1.0.4","1.0.3","1.0.2"];
     </script>
 
 
