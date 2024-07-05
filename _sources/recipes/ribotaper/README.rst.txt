@@ -13,7 +13,7 @@ ribotaper
    RiboTaper is a new analysis pipeline for Ribosome Profiling \(Ribo\-seq\) experiments\, which exploits the triplet periodicity of ribosomal footprints to call translated regions.
 
    :homepage: https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/
-   :license: GPL
+   :license: GPL-3.0-or-later
    :recipe: /`ribotaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotaper/meta.yaml>`_
    :links: biotools: :biotools:`ribotaper`, doi: :doi:`10.1038/nmeth.3688`
 
@@ -27,9 +27,17 @@ ribotaper
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-0``,  ``1.3.1a-6``,  ``1.3.1a-5``,  ``1.3.1a-4``,  ``1.3.1a-3``,  ``1.3.1a-2``,  ``1.3.1a-1``,  ``1.3.1a-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.1a-8</code>,  <code>1.3.1a-7</code>,  <code>1.3.1a-6</code>,  <code>1.3.1a-5</code>,  <code>1.3.1a-4</code>,  <code>1.3.1a-3</code>,  <code>1.3.1a-2</code>,  <code>1.3.1a-1</code>,  </span></summary>
+      
 
+      ``1.3.1-0``,  ``1.3.1a-8``,  ``1.3.1a-7``,  ``1.3.1a-6``,  ``1.3.1a-5``,  ``1.3.1a-4``,  ``1.3.1a-3``,  ``1.3.1a-2``,  ``1.3.1a-1``,  ``1.3.1a-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

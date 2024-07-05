@@ -19,6 +19,7 @@ decifer
    DeCiFer is an algorithm that simultaneously selects mutation multiplicities and clusters SNVs by their corresponding descendant cell fractions \(DCF\)\, a statistic that quantifies the proportion of cells which acquired the SNV or whose ancestors acquired the SNV. DCF is related to the commonly used cancer cell fraction \(CCF\) but further accounts for SNVs which are lost due to deleterious somatic copy\-number aberrations \(CNAs\)\, identifying clusters of SNVs which occur in the same phylogenetic branch of tumour evolution.
 
 
+
 .. conda:package:: decifer
 
    |downloads_decifer| |docker_decifer|
@@ -28,10 +29,10 @@ decifer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.4-2</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.5-1</code>,  </span></summary>
       
 
-      ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -96,7 +97,7 @@ decifer
 
     <script>
         var package = "decifer";
-        var versions = ["2.1.4","2.1.4","2.1.3","2.1.2","2.1.2"];
+        var versions = ["2.1.4","2.1.4","2.1.4","2.1.3","2.1.2"];
     </script>
 
 

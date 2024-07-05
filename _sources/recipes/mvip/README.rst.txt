@@ -27,7 +27,7 @@ mvip
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ mvip
    :depends dos2unix: 
    :depends fasttree: 
    :depends flit: 
-   :depends genomad: ``>=1.5``
+   :depends genomad: ``1.7.4``
    :depends importlib_resources: 
    :depends mafft: 
    :depends minimap2: 
@@ -103,7 +103,7 @@ mvip
 
     <script>
         var package = "mvip";
-        var versions = ["1.1.0","1.1.0","1.0.0"];
+        var versions = ["1.1.1","1.1.0","1.1.0","1.0.0"];
     </script>
 
 

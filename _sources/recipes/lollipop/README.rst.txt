@@ -28,7 +28,7 @@ lollipop
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -38,8 +38,8 @@ lollipop
    :depends click-option-group: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3``
-   :depends ruamel.yaml: ``<0.18``
+   :depends python: ``>=3.10``
+   :depends ruamel.yaml: ``>=0.18``
    :depends scipy: 
    :depends strictyaml: 
    :depends tqdm: 
@@ -91,7 +91,7 @@ lollipop
 
     <script>
         var package = "lollipop";
-        var versions = ["0.3.0","0.3.0","0.2.0","0.1.0"];
+        var versions = ["0.4.0","0.3.0","0.3.0","0.2.0","0.1.0"];
     </script>
 
 

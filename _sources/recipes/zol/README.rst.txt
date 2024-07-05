@@ -28,10 +28,10 @@ zol
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.20-0</code>,  <code>1.3.19-0</code>,  <code>1.3.18-0</code>,  <code>1.3.17-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.20-0</code>,  <code>1.3.19-0</code>,  </span></summary>
       
 
-      ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
       .. raw:: html
@@ -42,15 +42,15 @@ zol
    
    :depends axel: 
    :depends bioconductor-ggtree: 
-   :depends biopython: ``1.79.*``
+   :depends biopython: 
    :depends cd-hit: 
    :depends codoff: 
-   :depends diamond: ``2.0.15.*``
+   :depends diamond: 
    :depends ete3: 
-   :depends fasttree: ``>=2.0.0``
+   :depends fasttree: 
    :depends gzip: 
    :depends hmmer: ``>=3.0.0``
-   :depends hyphy: ``2.5.14.*``
+   :depends hyphy: ``>=2.5.14``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends mcl: 
@@ -59,13 +59,13 @@ zol
    :depends ncbi-genome-download: 
    :depends pal2nal: ``>=14.1``
    :depends pandas: ``>=2.0``
-   :depends pomegranate: ``>0.13,<=0.14.8``
+   :depends pomegranate: ``>=1.0.0``
    :depends prodigal: 
    :depends prodigal-gv: 
    :depends pyhmmer: 
    :depends pyrodigal: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
    :depends r-base: 
    :depends r-cowplot: 
    :depends r-gggenes: 
@@ -124,7 +124,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.4.5","1.4.4","1.4.3","1.4.2","1.4.1"];
+        var versions = ["1.4.8","1.4.7","1.4.5","1.4.4","1.4.3"];
     </script>
 
 

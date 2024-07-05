@@ -10,22 +10,25 @@ b2btools
    :replaces_section_title:
    :noindex:
 
-   bio2Byte software suite to predict protein biophysical properties from their amino\-acid sequences
+   The bio2Byte software suite to predict protein biophysical properties
 
-   :homepage: https://bio2byte.be/
-   :documentation: https://bio2byte.be/b2btools/package-documentation
+   :homepage: https://bio2byte.be/b2btools
+   :documentation: https://pypi.org/project/b2bTools/
    
-   :developer docs: https://pypi.org/project/b2bTools/
+   :developer docs: http://bitbucket.org/bio2byte/b2btools_releases
    :license: GPL3 / GNU General Public License v3 (GPLv3)
    :recipe: /`b2btools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools/meta.yaml>`_
+   :links: doi: :doi:`10.48550/arXiv.2405.02136`, biotools: :biotools:`b2btools`
 
    This package provides you with structural predictions for protein sequences made by the Bio2Byte group which researches the relation between protein sequence and biophysical behavior.
+
    List of available predictors\:
-     \- Dynamine\: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side\-chain dynamics and secondary structure predictors using the same principle.
-     \- Disomine\: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence\, but instead from more generic predictions of key biophysical properties\, here protein dynamics\, secondary structure\, and early folding.
-     \- EfoldMine\: Predicts from the primary amino acid sequence of a protein\, which amino acids are likely involved in early folding events.
-     \- AgMata\: Single\-sequence\-based predictor of protein regions that are likely to cause beta\-aggregation.
-     \- PSPer\: PSP \(Phase Separating Protein\) predicts whether a protein is likely to phase\-separate with a particular mechanism involving RNA interacts \(FUS\-like proteins\).
+   1. Dynamine\: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side\-chain dynamics and secondary structure predictors using the same principle.
+   2. Disomine\: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence\, but instead from more generic predictions of key biophysical properties\, here protein dynamics\, secondary structure\, and early folding.
+   3. EfoldMine\: Predicts from the primary amino acid sequence of a protein\, which amino acids are likely involved in early folding events.
+   4. AgMata\: Single\-sequence\-based predictor of protein regions that are likely to cause beta\-aggregation.
+   5. PSPer\: PSP \(Phase Separating Protein\) predicts whether a protein is likely to phase\-separate with a particular mechanism involving RNA interacts \(FUS\-like proteins\).
+   6. ShiftCrypt\: Auto\-encoding NMR chemical shifts from their native vector space to a residue\-level biophysical index.
 
 
 
