@@ -28,10 +28,10 @@ dysgu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.5-0</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  </span></summary>
       
 
-      ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
       .. raw:: html
@@ -113,7 +113,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.6.5","1.6.4","1.6.4","1.6.2","1.6.1"];
+        var versions = ["1.6.5","1.6.5","1.6.4","1.6.4","1.6.2"];
     </script>
 
 

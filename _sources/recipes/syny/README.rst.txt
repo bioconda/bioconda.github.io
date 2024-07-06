@@ -27,7 +27,7 @@ syny
       
       
 
-      ``1.1b-0``,  ``1.1a-0``
+      ``1.2-0``,  ``1.1b-0``,  ``1.1a-0``
 
       
 
@@ -109,7 +109,7 @@ syny
 
     <script>
         var package = "syny";
-        var versions = ["1.1b","1.1a"];
+        var versions = ["1.2","1.1b","1.1a"];
     </script>
 
 
