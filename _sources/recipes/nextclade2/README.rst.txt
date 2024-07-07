@@ -17,6 +17,7 @@ nextclade2
    
    :license: MIT / MIT
    :recipe: /`nextclade2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextclade2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextclade2/meta.yaml>`_
+   :links: doi: :doi:`10.21105/joss.03773`
 
    
 
@@ -29,7 +30,7 @@ nextclade2
       
       
 
-      ``2.14.0-0``
+      ``2.14.0-1``,  ``2.14.0-0``
 
       
 
@@ -81,7 +82,7 @@ nextclade2
 
     <script>
         var package = "nextclade2";
-        var versions = ["2.14.0"];
+        var versions = ["2.14.0","2.14.0"];
     </script>
 
 

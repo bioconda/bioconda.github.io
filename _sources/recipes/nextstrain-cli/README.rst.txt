@@ -16,6 +16,7 @@ nextstrain-cli
    :developer docs: https://github.com/nextstrain/cli
    :license: MIT / MIT
    :recipe: /`nextstrain-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextstrain-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextstrain-cli/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty407`
 
    The Nextstrain command\-line interface \(CLI\)—a program called nextstrain—aims to provide a consistent way to run and visualize pathogen builds and access Nextstrain components like Augur and Auspice across computing environments such as Docker\, Conda\, and AWS Batch.
 
@@ -30,10 +31,10 @@ nextstrain-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.2.0-0</code>,  <code>8.0.1-0</code>,  <code>8.0.0-0</code>,  <code>7.4.0-1</code>,  <code>7.4.0-0</code>,  <code>7.3.0.post1-0</code>,  <code>7.2.0-0</code>,  <code>7.1.0-0</code>,  <code>7.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.5.0-0</code>,  <code>8.2.0-0</code>,  <code>8.0.1-0</code>,  <code>8.0.0-0</code>,  <code>7.4.0-1</code>,  <code>7.4.0-0</code>,  <code>7.3.0.post1-0</code>,  <code>7.2.0-0</code>,  <code>7.1.0-0</code>,  </span></summary>
       
 
-      ``8.2.0-0``,  ``8.0.1-0``,  ``8.0.0-0``,  ``7.4.0-1``,  ``7.4.0-0``,  ``7.3.0.post1-0``,  ``7.2.0-0``,  ``7.1.0-0``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.2.1-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.0.post1-0``,  ``6.0.3-0``,  ``6.0.2-0``,  ``6.0.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
+      ``8.5.0-0``,  ``8.2.0-0``,  ``8.0.1-0``,  ``8.0.0-0``,  ``7.4.0-1``,  ``7.4.0-0``,  ``7.3.0.post1-0``,  ``7.2.0-0``,  ``7.1.0-0``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.2.1-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.0.post1-0``,  ``6.0.3-0``,  ``6.0.2-0``,  ``6.0.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-0``
 
       
       .. raw:: html
@@ -46,7 +47,6 @@ nextstrain-cli
    :depends docutils: 
    :depends fasteners: 
    :depends fsspec: ``!=2023.9.1``
-   :depends importlib_resources: ``>=5.3.0``
    :depends packaging: ``>=3.0.0``
    :depends pyjwt: ``>=2.0.0``
    :depends pyparsing: 
@@ -103,7 +103,7 @@ nextstrain-cli
 
     <script>
         var package = "nextstrain-cli";
-        var versions = ["8.2.0","8.0.1","8.0.0","7.4.0","7.4.0"];
+        var versions = ["8.5.0","8.2.0","8.0.1","8.0.0","7.4.0"];
     </script>
 
 

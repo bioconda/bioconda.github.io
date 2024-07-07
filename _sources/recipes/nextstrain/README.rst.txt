@@ -19,6 +19,7 @@ nextstrain
    :license: The license for this meta-package is MIT; individual tools vary.
 
    :recipe: /`nextstrain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextstrain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextstrain/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty407`
 
    Nextstrain is an open\-source project to harness the scientific and public health potential of pathogen genome data.  It includes a collection of open\-source tools to aid in our understanding of pathogen spread and evolution\, especially in outbreak scenarios.  These tools are designed to be used with a wide range of data sources and designed to be modular so they can be replaced with your own tooling when necessary.
 
@@ -32,7 +33,7 @@ nextstrain
       
       
 
-      ``20200304-1``,  ``20200304-0``
+      ``20200304-2``,  ``20200304-1``,  ``20200304-0``
 
       
 
@@ -41,7 +42,7 @@ nextstrain
    :depends auspice: 
    :depends awscli: 
    :depends git: 
-   :depends nextalign: 
+   :depends nextclade: 
    :depends nextstrain-cli: 
    :depends pip: 
    :requirements:
@@ -91,7 +92,7 @@ nextstrain
 
     <script>
         var package = "nextstrain";
-        var versions = ["20200304","20200304"];
+        var versions = ["20200304","20200304","20200304"];
     </script>
 
 

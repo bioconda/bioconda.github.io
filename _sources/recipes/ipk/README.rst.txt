@@ -27,16 +27,16 @@ ipk
       
       
 
-      ``0.5.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.84.0,<1.84.1.0a0``
+   :depends boost-cpp: ``>=1.67``
    :depends click: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends phyml: 
    :depends python: 
    :depends raxml-ng: 
@@ -87,7 +87,7 @@ ipk
 
     <script>
         var package = "ipk";
-        var versions = ["0.5.0"];
+        var versions = ["0.5.1","0.5.0"];
     </script>
 
 
