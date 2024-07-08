@@ -27,7 +27,7 @@ orthanq
       
       
 
-      ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -40,11 +40,15 @@ orthanq
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends hdf5: ``1.10.5.*``
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends openssl: ``>=3.3.1,<4.0a0``
+   :depends samtools: ``>=1.19.2,<2.0a0``
+   :depends varlociraptor: ``>=8.4.7,<9.0a0``
+   :depends vg: ``>=1.56.0,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :depends zlib: 
    :requirements:
@@ -94,7 +98,7 @@ orthanq
 
     <script>
         var package = "orthanq";
-        var versions = ["1.5.0","1.4.0","1.4.0","1.3.2","1.3.0"];
+        var versions = ["1.5.0","1.5.0","1.4.0","1.4.0","1.3.2"];
     </script>
 
 

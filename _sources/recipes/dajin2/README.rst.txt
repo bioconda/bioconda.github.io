@@ -28,10 +28,10 @@ dajin2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ dajin2
    :depends pandas: ``>=1.0.0``
    :depends plotly: ``>=5.19.0``
    :depends pysam: ``>=0.21.0``
-   :depends python: ``>=3.8,<3.11``
+   :depends python: ``>=3.8.0,<4.0.0``
    :depends python-kaleido: ``>=0.2.0``
    :depends rapidfuzz: ``>=3.6.0``
    :depends ruptures: ``>=1.1.8``
@@ -105,7 +105,7 @@ dajin2
 
     <script>
         var package = "dajin2";
-        var versions = ["0.5.1","0.5.0","0.4.6","0.4.5","0.4.3"];
+        var versions = ["0.5.2","0.5.1","0.5.0","0.4.6","0.4.5"];
     </script>
 
 

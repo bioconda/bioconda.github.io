@@ -12,7 +12,7 @@ narfmap
 
    NARFMAP is a fork of the Dragen mapper\/aligner Open Source Software.
 
-   :homepage: https://github.com/Emiller88/NARFMAP
+   :homepage: https://github.com/bioinformaticsorphanage/NARFMAP
    :license: GPL-3
    :recipe: /`narfmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/narfmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/narfmap/meta.yaml>`_
 
@@ -27,16 +27,16 @@ narfmap
       
       
 
-      ``1.4.0-0``
+      ``1.4.2-0``,  ``1.4.0-0``
 
       
 
    
-   :depends boost: ``>=1.78.0,<1.78.1.0a0``
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost: 
+   :depends boost-cpp: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -85,7 +85,7 @@ narfmap
 
     <script>
         var package = "narfmap";
-        var versions = ["1.4.0"];
+        var versions = ["1.4.2","1.4.0"];
     </script>
 
 
