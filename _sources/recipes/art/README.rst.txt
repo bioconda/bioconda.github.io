@@ -13,7 +13,7 @@ art
    Illumina\, 454 and Solid read simulator
 
    :homepage: http://www.niehs.nih.gov/research/resources/software/biostatistics/art/
-   :license: GPLv2
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`art <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ art
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2016.06.05-9</code>,  <code>2016.06.05-8</code>,  <code>2016.06.05-7</code>,  <code>2016.06.05-6</code>,  <code>2016.06.05-5</code>,  <code>2016.06.05-4</code>,  <code>2016.06.05-3</code>,  <code>2016.06.05-2</code>,  <code>2016.06.05-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2016.06.05-11</code>,  <code>2016.06.05-9</code>,  <code>2016.06.05-8</code>,  <code>2016.06.05-7</code>,  <code>2016.06.05-6</code>,  <code>2016.06.05-5</code>,  <code>2016.06.05-4</code>,  <code>2016.06.05-3</code>,  <code>2016.06.05-2</code>,  </span></summary>
       
 
-      ``2016.06.05-9``,  ``2016.06.05-8``,  ``2016.06.05-7``,  ``2016.06.05-6``,  ``2016.06.05-5``,  ``2016.06.05-4``,  ``2016.06.05-3``,  ``2016.06.05-2``,  ``2016.06.05-1``,  ``2016.06.05-0``,  ``3.19.15-1``,  ``3.11.14-1``,  ``3.11.14-0``
+      ``2016.06.05-11``,  ``2016.06.05-9``,  ``2016.06.05-8``,  ``2016.06.05-7``,  ``2016.06.05-6``,  ``2016.06.05-5``,  ``2016.06.05-4``,  ``2016.06.05-3``,  ``2016.06.05-2``,  ``2016.06.05-1``,  ``2016.06.05-0``,  ``3.19.15-1``,  ``3.11.14-1``,  ``3.11.14-0``
 
       
       .. raw:: html

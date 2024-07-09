@@ -27,7 +27,7 @@ narfmap
       
       
 
-      ``1.4.2-0``,  ``1.4.0-0``
+      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-0``
 
       
 
@@ -85,7 +85,7 @@ narfmap
 
     <script>
         var package = "narfmap";
-        var versions = ["1.4.2","1.4.0"];
+        var versions = ["1.4.2","1.4.2","1.4.0"];
     </script>
 
 
