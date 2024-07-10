@@ -27,12 +27,12 @@ ipk
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``
+      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.67``
+   :depends boost-cpp: ``1.85.*``
    :depends click: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
@@ -87,7 +87,7 @@ ipk
 
     <script>
         var package = "ipk";
-        var versions = ["0.5.1","0.5.0"];
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.0"];
     </script>
 
 

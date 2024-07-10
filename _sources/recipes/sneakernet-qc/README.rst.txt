@@ -28,7 +28,7 @@ sneakernet-qc
       
       
 
-      ``0.26.0-0``,  ``0.25.0-0``
+      ``0.27.0-0``,  ``0.26.0-0``,  ``0.25.0-0``
 
       
 
@@ -60,6 +60,7 @@ sneakernet-qc
    :depends perl-list-moreutils: 
    :depends perl-moo: 
    :depends perl-statistics-descriptive: 
+   :depends perl-text-levenshtein: ``>=0.15``
    :depends pilon: 
    :depends prodigal: 
    :depends python: ``>=3.7``
@@ -119,7 +120,7 @@ sneakernet-qc
 
     <script>
         var package = "sneakernet-qc";
-        var versions = ["0.26.0","0.25.0"];
+        var versions = ["0.27.0","0.26.0","0.25.0"];
     </script>
 
 

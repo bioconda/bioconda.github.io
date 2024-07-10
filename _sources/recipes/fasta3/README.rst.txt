@@ -28,10 +28,10 @@ fasta3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>36.3.8-7</code>,  <code>36.3.8-6</code>,  <code>36.3.8-5</code>,  <code>36.3.8-4</code>,  <code>36.3.8-3</code>,  <code>36.3.8-2</code>,  <code>36.3.8-1</code>,  <code>36.3.8-0</code>,  <code>36.3.8i-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>36.3.8-7</code>,  <code>36.3.8-6</code>,  <code>36.3.8-5</code>,  <code>36.3.8-4</code>,  <code>36.3.8-3</code>,  <code>36.3.8-2</code>,  <code>36.3.8-1</code>,  <code>36.3.8-0</code>,  <code>36.3.8i-1</code>,  </span></summary>
       
 
-      ``36.3.8-7``,  ``36.3.8-6``,  ``36.3.8-5``,  ``36.3.8-4``,  ``36.3.8-3``,  ``36.3.8-2``,  ``36.3.8-1``,  ``36.3.8-0``,  ``36.3.8i-0``,  ``36.3.8h-2``,  ``36.3.8h-1``,  ``36.3.8h-0``
+      ``36.3.8-7``,  ``36.3.8-6``,  ``36.3.8-5``,  ``36.3.8-4``,  ``36.3.8-3``,  ``36.3.8-2``,  ``36.3.8-1``,  ``36.3.8-0``,  ``36.3.8i-1``,  ``36.3.8i-0``,  ``36.3.8h-2``,  ``36.3.8h-1``,  ``36.3.8h-0``
 
       
       .. raw:: html

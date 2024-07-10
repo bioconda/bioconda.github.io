@@ -27,13 +27,14 @@ phylornn
       
       
 
-      ``1.0-0``
+      ``1.1-0``,  ``1.0-0``
 
       
 
    
    :depends biopython: ``>=1.81,<2``
    :depends dendropy: ``>=4.5.2,<4.6``
+   :depends ete3: 
    :depends keras: ``>=2.9.0,<2.10``
    :depends matplotlib-base: ``>=3.5.2,<3.6``
    :depends numpy: ``>=1.23.1,<1.24``
@@ -41,7 +42,7 @@ phylornn
    :depends phyml: ``>=3.3.0,<3.4``
    :depends python: ``>=3.8``
    :depends scipy: ``>=1.8.1,<1.9``
-   :depends seaborn: ``>=0.11.2,<0.12``
+   :depends seaborn-base: ``>=0.11.2,<0.12``
    :depends seq-gen: ``>=1.3.0,<1.4``
    :depends tensorflow: ``>=2.9.1,<3``
    :requirements:
@@ -91,7 +92,7 @@ phylornn
 
     <script>
         var package = "phylornn";
-        var versions = ["1.0"];
+        var versions = ["1.1","1.0"];
     </script>
 
 

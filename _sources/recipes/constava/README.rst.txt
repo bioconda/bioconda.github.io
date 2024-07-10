@@ -78,11 +78,17 @@ constava
       
       
 
-      
+      ``1.1.0-0``
 
       
 
    
+   :depends matplotlib-base: 
+   :depends mdanalysis: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``>=3.8``
+   :depends scikit-learn: 
    :requirements:
 
    .. rubric:: Installation
@@ -130,7 +136,7 @@ constava
 
     <script>
         var package = "constava";
-        var versions = [];
+        var versions = ["1.1.0"];
     </script>
 
 

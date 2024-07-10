@@ -27,7 +27,7 @@ amdirt
       
       
 
-      ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
+      ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
 
       
 
@@ -41,8 +41,8 @@ amdirt
    :depends python: ``>=3.9``
    :depends requests: 
    :depends rich: 
-   :depends streamlit: 
-   :depends streamlit-aggrid: 
+   :depends streamlit: ``<=1.35.0``
+   :depends streamlit-aggrid: ``<=0.3.5``
    :depends tabulate: 
    :requirements:
 
@@ -91,7 +91,7 @@ amdirt
 
     <script>
         var package = "amdirt";
-        var versions = ["1.6.1","1.6.0","1.5.0","1.5.0","1.4.6"];
+        var versions = ["1.6.1","1.6.1","1.6.0","1.5.0","1.5.0"];
     </script>
 
 

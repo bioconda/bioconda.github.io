@@ -13,7 +13,7 @@ generax
    GeneRax\: a parallel tool for species tree\-aware maximum likelihood based gene tree inference under gene duplication\, transfer\, and loss.
 
    :homepage: https://github.com/benoitmorel/generax
-   :license: AGPL / AGPL-3
+   :license: AGPL / AGPL-3.0-only
    :recipe: /`generax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/generax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/generax/meta.yaml>`_
    :links: doi: :doi:`10.1101/779066`
 
@@ -29,10 +29,10 @@ generax
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.3-0</code>,  <code>2.0.4-3</code>,  <code>2.0.4-2</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.0.4-3</code>,  <code>2.0.4-2</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.3-0</code>,  </span></summary>
       
 
-      ``2.1.3-0``,  ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``2.1.3-1``,  ``2.1.3-0``,  ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ generax
 
     <script>
         var package = "generax";
-        var versions = ["2.1.3","2.0.4","2.0.4","2.0.4","2.0.4"];
+        var versions = ["2.1.3","2.1.3","2.0.4","2.0.4","2.0.4"];
     </script>
 
 

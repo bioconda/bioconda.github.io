@@ -27,23 +27,21 @@ hmftools-cuppa
       
       
 
-      ``2.1.1-0``,  ``1.8.1-0``
+      ``2.2.1-0``,  ``2.1.1-0``,  ``1.8.1-0``
 
       
 
    
-   :depends matplotlib-base: ``>=3.3,<4``
-   :depends numpy: ``>=1.19,<2``
+   :depends numpy: ``>=1.24``
    :depends openjdk: ``>=8``
-   :depends pandas: ``>=1.1,<2``
-   :depends r-base: ``>=4``
-   :depends r-cowplot: 
-   :depends r-ggplot2: 
-   :depends r-gridextra: 
-   :depends r-stringi: 
-   :depends r-tidyr: 
-   :depends scipy: ``>=1,<2``
-   :depends seaborn: ``>=0.11,<1``
+   :depends pandas: ``2.0.*``
+   :depends python: ``3.11``
+   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends r-ggh4x: ``>=0.2``
+   :depends r-ggplot2: ``>=3.5``
+   :depends r-patchwork: ``>=1.2``
+   :depends r-stringr: ``>=1.5``
+   :depends scikit-learn: ``1.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +89,7 @@ hmftools-cuppa
 
     <script>
         var package = "hmftools-cuppa";
-        var versions = ["2.1.1","1.8.1"];
+        var versions = ["2.2.1","2.1.1","1.8.1"];
     </script>
 
 

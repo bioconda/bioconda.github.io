@@ -13,7 +13,7 @@ cpstools
    CPStools is a package for analyzing chloroplast genome sequences.
 
    :homepage: https://github.com/Xwb7533/CPStools
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`cpstools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpstools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpstools/meta.yaml>`_
 
    CPStools is a package for analyzing chloroplast genome sequences.
@@ -27,14 +27,14 @@ cpstools
       
       
 
-      ``1.0.0-0``
+      ``1.0.11-0``,  ``1.0.0-0``
 
       
 
    
-   :depends biopython: ``>=1.83``
-   :depends numpy: ``>=1.24``
-   :depends python: ``>=3.8``
+   :depends biopython: ``>=1.84.0``
+   :depends numpy: ``>=1.26.4``
+   :depends python: ``>=3.10.0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ cpstools
 
     <script>
         var package = "cpstools";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.11","1.0.0"];
     </script>
 
 
