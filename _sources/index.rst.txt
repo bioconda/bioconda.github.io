@@ -20,7 +20,7 @@
 **Bioconda** lets you install thousands of software packages related to
 biomedical research using the `conda <https://conda.io>`_ package manager.
 
-**NOTE**: *Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64)*
+**NOTE**: *Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64 and ARM64)*
 
 Usage
 =====

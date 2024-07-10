@@ -82,8 +82,7 @@ What versions are supported?
 
 **Operating Systems:**
 Bioconda supports Linux (x86_64 and aarch64/arm64) and
-macOS (x86_64). ARM is not currently supported for macOS. Windows is not
-supported.
+macOS (x86_64 and arm64). Windows is not supported.
 
 **Python:**
 Bioconda currently supports Python 3.8, 3.9, and 3.10 (see "pinned packages"

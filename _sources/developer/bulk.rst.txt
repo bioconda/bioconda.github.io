@@ -232,7 +232,7 @@ Some unordered notes on working with the bulk branch:
   that don't need to be rebuilt, but that work needs to be done simply to
   figure out if a rebuild is needed, and so this is expected.
 
-- For ``linux-64`` and ``osx-64``,  the bulk runs take place on GitHub Actions,
+- For ``linux-64``, ``osx-64``, and ``osx-arm64`` the bulk runs take place on GitHub Actions,
   and the configuration is in :file:`.github/workflows/Bulk.yml`. For
   ``linux-aarch64``, the builds take place on CircleCI and the configuration is
   in :file:`.circleci/config.yml`.

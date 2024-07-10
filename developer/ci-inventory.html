@@ -76,6 +76,9 @@
 <div class="datechanged">
 <p><span class="versionmodified changed">Changed on 2024-03-04: </span>Start using <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> in bulk and recipe tests</p>
 </div>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2024-07-05: </span>Start using <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> in bulk and recipe tests</p>
+</div>
 <p>This page documents the various moving parts that, together, make Bioconda
 work. We rely on a mixture of free services to spread the workload and to
 maintain flexibility over the long term in case a service becomes unusable.</p>
@@ -102,8 +105,8 @@ See <a class="reference internal" href="../faqs.html#platform-nomenclature-faq">
 <td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
 <td><p>on push</p></td>
 <td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline.yml">azure-pipeline.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
-<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>)</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code></p></td>
+<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code></p></td>
 <td><p>These are the most-run tests: these are what run on every change on
 pull requests to bioconda-recipes, and they must pass before the recipe
 is merged into the master branch.</p></td>
@@ -120,14 +123,15 @@ This allows fast response time (rather than, say, restoring a cache
 each time).</p></td>
 </tr>
 <tr class="row-even"><td><p>Master branch tests</p></td>
-<td><p>Azure Pipelines</p></td>
+<td><p>Azure Pipelines, CircleCI</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
 <td><p>push to master (bioconda-recipes)</p></td>
-<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml">azure-pipeline-master.yml</a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code></p></td>
-<td><p>Runs the same tests as for PRs, but on the master branch. Note that
-when the bot is doing the merge, it adds <code class="docutils literal notranslate"><span class="pre">[ci</span> <span class="pre">skip]</span></code> in the commit
-comment, and works with the already-built artifacts from the PR.</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml">azure-pipeline-master.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
+<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code></p></td>
+<td><p>Runs when a PR is merged to the master branch. The already-built artifacts are retrieved from the PR and uploaded to the <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> channel.
+Container(s) are uploaded to quay.io/biocontainers.
+If artifacts are not found, it will build the recipe(s) as a fallback.</p></td>
 </tr>
 <tr class="row-odd"><td><p>Mergify</p></td>
 <td><p><a class="reference external" href="https://mergify.com/">mergify</a></p></td>
@@ -228,9 +232,9 @@ remaining packages (runs bioconda-utils build on <em>all</em> recipes)</p></td>
 <td><p>GitHub Actions</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
 <td><p>push to <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch of bioconda-utils</p></td>
-<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml">Bulk.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml">Bulk.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code>);
 <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>)</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code></p></td>
 <td><p>If pushing to the special <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch, this workflow will run. It
 uses special bioconda-utils functionality to split the full DAG into
 sub-DAGs and submits them to independent parallel jobs. When recipes
@@ -294,7 +298,7 @@ pages.</p></td>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">CI Inventory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dockerfile-inventory.html">Dockerfile inventory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="repo-inventory.html">Repository inventory</a></li>
-<li class="toctree-l2"><a class="reference internal" href="aarch64.html"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> builds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aarch64.html"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> and <code class="docutils literal notranslate"><span class="pre">arm64</span></code> builds</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>

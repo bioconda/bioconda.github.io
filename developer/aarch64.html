@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>aarch64 builds &#8212; Bioconda  documentation</title>
+    <title>aarch64 and arm64 builds &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=fd3f3429" />
@@ -65,29 +65,32 @@
 
           <div class="body" role="main">
             
-  <section id="aarch64-builds">
-<h1><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> builds<a class="headerlink" href="#aarch64-builds" title="Link to this heading">¶</a></h1>
+  <section id="aarch64-and-arm64-builds">
+<h1><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> and <code class="docutils literal notranslate"><span class="pre">arm64</span></code> builds<a class="headerlink" href="#aarch64-and-arm64-builds" title="Link to this heading">¶</a></h1>
 <div class="datechanged">
 <p><span class="versionmodified changed">Changed on 2024-03-04: </span>Added this section as initial linux-aarch64 builds are starting</p>
 </div>
-<p>While we do not yet have builds for <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> (see
-<a class="reference internal" href="../faqs.html#platform-nomenclature-faq"><span class="std std-ref">Understanding platform nomenclature</span></a>), we are starting to roll out
-<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> builds. These run on CircleCI, which offers the
-infrastructure for this.</p>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2024-04-04: </span>Information about osx-arm64 builds</p>
+</div>
+<p>We are starting to roll out <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> and <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> (see
+<a class="reference internal" href="../faqs.html#platform-nomenclature-faq"><span class="std std-ref">Understanding platform nomenclature</span></a>) on CircleCI and GitHub Actions, respectively.
+These additional CI platforms offer the runner types needed for these architectures.</p>
 <p>This is being initially approached as an opt-in process as we make sure
 all the moving parts are working correctly. A recipe can be flagged for
-building on <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> by adding the following to the
+building on <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> and/or <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> by adding the following to the
 <code class="file docutils literal notranslate"><span class="pre">meta.yaml</span></code> file:</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">extra</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">additional-platforms</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">linux-aarch64</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">osx-arm64</span>
 </pre></div>
 </div>
 <p>The current CircleCI config will only run if at least one recipe in the
 commit range (typically for the PR) includes the above additional
 platform.</p>
 <p>Support for building and uploading <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> containers is planned but
-not yet implemented (as of March 2024).</p>
+not yet implemented (as of July 2024).</p>
 </section>
 
 
@@ -122,7 +125,7 @@ not yet implemented (as of March 2024).</p>
 <li class="toctree-l2"><a class="reference internal" href="ci-inventory.html">CI Inventory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dockerfile-inventory.html">Dockerfile inventory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="repo-inventory.html">Repository inventory</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> builds</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> and <code class="docutils literal notranslate"><span class="pre">arm64</span></code> builds</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>

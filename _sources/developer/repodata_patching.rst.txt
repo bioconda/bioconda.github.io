@@ -21,7 +21,7 @@ What is repodata?
 -----------------
 
 Repodata is a JSON file that contains a variety of information for each package
-in Bioconda. There is one for each architecture (linux-64, linux-aarch64, osx-64, noarch, etc.)
+in Bioconda. There is one for each architecture (``linux-64``, ``linux-aarch64``, ``osx-64``, ``osx-arm64``, ``noarch``, etc.)
 and they're hosted in the bioconda channel. For example, the noarch repodata.json file `is
 available here <https://conda.anaconda.org/bioconda/noarch/repodata.json>`_.
 Let's take a look at the what sorts of things are stored within this file for a

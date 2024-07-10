@@ -264,7 +264,7 @@ all the dependencies to see which of them are pinned and then using those to
 calculate a hash. So it may appear that it’s doing a lot of work for packages
 that don’t need to be rebuilt, but that work needs to be done simply to
 figure out if a rebuild is needed, and so this is expected.</p></li>
-<li><p>For <code class="docutils literal notranslate"><span class="pre">linux-64</span></code> and <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>,  the bulk runs take place on GitHub Actions,
+<li><p>For <code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, and <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> the bulk runs take place on GitHub Actions,
 and the configuration is in <code class="file docutils literal notranslate"><span class="pre">.github/workflows/Bulk.yml</span></code>. For
 <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, the builds take place on CircleCI and the configuration is
 in <code class="file docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code>.</p></li>
@@ -313,7 +313,7 @@ in <code class="file docutils literal notranslate"><span class="pre">.circleci/c
 <li class="toctree-l2"><a class="reference internal" href="ci-inventory.html">CI Inventory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dockerfile-inventory.html">Dockerfile inventory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="repo-inventory.html">Repository inventory</a></li>
-<li class="toctree-l2"><a class="reference internal" href="aarch64.html"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> builds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aarch64.html"><code class="docutils literal notranslate"><span class="pre">aarch64</span></code> and <code class="docutils literal notranslate"><span class="pre">arm64</span></code> builds</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>

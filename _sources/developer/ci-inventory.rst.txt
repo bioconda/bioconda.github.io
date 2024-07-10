@@ -12,6 +12,9 @@ CI Inventory
 .. datechanged:: 2024-03-04
    Start using ``linux-aarch64`` in bulk and recipe tests
 
+.. datechanged:: 2024-07-05
+   Start using ``osx-arm64`` in bulk and recipe tests
+
 This page documents the various moving parts that, together, make Bioconda
 work. We rely on a mixture of free services to spread the workload and to
 maintain flexibility over the long term in case a service becomes unusable.
@@ -70,8 +73,8 @@ maintain flexibility over the long term in case a service becomes unusable.
       - ``bioconda-recipes``
       - on push
       - `azure-pipeline.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline.yml>`_ (``linux-64``, ``osx-64``);
-        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``)
-      - ``linux-64``, ``osx-64``, ``linux-aarch64``
+        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``, ``osx-arm64``)
+      - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - These are the most-run tests: these are what run on every change on
         pull requests to bioconda-recipes, and they must pass before the recipe
         is merged into the master branch.
@@ -90,14 +93,15 @@ maintain flexibility over the long term in case a service becomes unusable.
 
 
     * - Master branch tests
-      - Azure Pipelines
+      - Azure Pipelines, CircleCI
       - ``bioconda-recipes``
       - push to master (bioconda-recipes)
-      - `azure-pipeline-master.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml>`_
-      - ``linux-64``, ``osx-64``, ``linux-aarch64``
-      - Runs the same tests as for PRs, but on the master branch. Note that
-        when the bot is doing the merge, it adds ``[ci skip]`` in the commit
-        comment, and works with the already-built artifacts from the PR.
+      - `azure-pipeline-master.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml>`_ (``linux-64``, ``osx-64``);
+        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``, ``osx-arm64``)
+      - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
+      - Runs when a PR is merged to the master branch. The already-built artifacts are retrieved from the PR and uploaded to the ``bioconda`` channel.
+        Container(s) are uploaded to quay.io/biocontainers.
+        If artifacts are not found, it will build the recipe(s) as a fallback.
 
 
     * - Mergify
@@ -210,9 +214,9 @@ maintain flexibility over the long term in case a service becomes unusable.
       - GitHub Actions
       - ``bioconda-recipes``
       - push to ``bulk`` branch of bioconda-utils
-      - `Bulk.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml>`_ (``linux-64``, ``osx-64``);
+      - `Bulk.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml>`_ (``linux-64``, ``osx-64``, ``osx-arm64``);
         `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``)
-      - ``linux-64``, ``osx-64``, ``linux-aarch64``
+      - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - If pushing to the special ``bulk`` branch, this workflow will run. It
         uses special bioconda-utils functionality to split the full DAG into
         sub-DAGs and submits them to independent parallel jobs. When recipes
