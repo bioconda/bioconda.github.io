@@ -27,7 +27,7 @@ clermontyping
       
       
 
-      ``1.0.2-0``
+      ``24.02-0``,  ``1.0.2-0``
 
       
 
@@ -91,7 +91,7 @@ clermontyping
 
     <script>
         var package = "clermontyping";
-        var versions = ["1.0.2"];
+        var versions = ["24.02","1.0.2"];
     </script>
 
 

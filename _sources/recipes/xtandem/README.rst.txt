@@ -27,17 +27,25 @@ xtandem
    :versions:
       
       
+      .. raw:: html
 
-      ``15.12.15.2-8``,  ``15.12.15.2-7``,  ``15.12.15.2-6``,  ``15.12.15.2-5``,  ``15.12.15.2-4``,  ``15.12.15.2-3``,  ``15.12.15.2-2``,  ``15.12.15.2-1``,  ``15.12.15.2-0``
+         <details><summary><span class="truncated-version-list"><code>15.12.15.2-9</code>,  <code>15.12.15.2-8</code>,  <code>15.12.15.2-7</code>,  <code>15.12.15.2-6</code>,  <code>15.12.15.2-5</code>,  <code>15.12.15.2-4</code>,  <code>15.12.15.2-3</code>,  <code>15.12.15.2-2</code>,  <code>15.12.15.2-1</code>,  </span></summary>
+      
 
+      ``15.12.15.2-9``,  ``15.12.15.2-8``,  ``15.12.15.2-7``,  ``15.12.15.2-6``,  ``15.12.15.2-5``,  ``15.12.15.2-4``,  ``15.12.15.2-3``,  ``15.12.15.2-2``,  ``15.12.15.2-1``,  ``15.12.15.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends expat: 
-   :depends libexpat: ``>=2.5.0,<3.0a0``
+   :depends libexpat: ``>=2.6.2,<3.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 

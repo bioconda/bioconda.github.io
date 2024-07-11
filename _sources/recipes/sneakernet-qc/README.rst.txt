@@ -28,7 +28,7 @@ sneakernet-qc
       
       
 
-      ``0.27.0-0``,  ``0.26.0-0``,  ``0.25.0-0``
+      ``0.27.0-1``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.25.0-0``
 
       
 
@@ -36,6 +36,7 @@ sneakernet-qc
    :depends blast: 
    :depends bowtie2: 
    :depends chewbbaca: 
+   :depends colorid_bv: 
    :depends fastqc: 
    :depends flash: 
    :depends kalamari: 
@@ -120,7 +121,7 @@ sneakernet-qc
 
     <script>
         var package = "sneakernet-qc";
-        var versions = ["0.27.0","0.26.0","0.25.0"];
+        var versions = ["0.27.0","0.27.0","0.26.0","0.25.0"];
     </script>
 
 

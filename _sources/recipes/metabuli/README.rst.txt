@@ -15,6 +15,7 @@ metabuli
    :homepage: https://github.com/steineggerlab/Metabuli
    :license: GPLv3
    :recipe: /`metabuli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabuli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabuli/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-024-02273-y`, biotools: :biotools:`metabuli`
 
    
 
@@ -27,7 +28,7 @@ metabuli
       
       
 
-      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -89,7 +90,7 @@ metabuli
 
     <script>
         var package = "metabuli";
-        var versions = ["1.0.5","1.0.5","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.0.5","1.0.5","1.0.5","1.0.3","1.0.3"];
     </script>
 
 

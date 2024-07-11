@@ -29,10 +29,10 @@ spacepharer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.c2e680a-4</code>,  <code>5.c2e680a-3</code>,  <code>5.c2e680a-2</code>,  <code>5.c2e680a-1</code>,  <code>5.c2e680a-0</code>,  <code>4.228b9e5-2</code>,  <code>4.228b9e5-1</code>,  <code>4.228b9e5-0</code>,  <code>3.5b8c86d-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.c2e680a-5</code>,  <code>5.c2e680a-4</code>,  <code>5.c2e680a-3</code>,  <code>5.c2e680a-2</code>,  <code>5.c2e680a-1</code>,  <code>5.c2e680a-0</code>,  <code>4.228b9e5-2</code>,  <code>4.228b9e5-1</code>,  <code>4.228b9e5-0</code>,  </span></summary>
       
 
-      ``5.c2e680a-4``,  ``5.c2e680a-3``,  ``5.c2e680a-2``,  ``5.c2e680a-1``,  ``5.c2e680a-0``,  ``4.228b9e5-2``,  ``4.228b9e5-1``,  ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
+      ``5.c2e680a-5``,  ``5.c2e680a-4``,  ``5.c2e680a-3``,  ``5.c2e680a-2``,  ``5.c2e680a-1``,  ``5.c2e680a-0``,  ``4.228b9e5-2``,  ``4.228b9e5-1``,  ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ spacepharer
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 

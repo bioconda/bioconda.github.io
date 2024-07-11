@@ -28,7 +28,7 @@ mmseqs2-server
       
       
 
-      ``8.c4b9644-0``
+      ``8.c4b9644-1``,  ``8.c4b9644-0``
 
       
 
@@ -82,7 +82,7 @@ mmseqs2-server
 
     <script>
         var package = "mmseqs2-server";
-        var versions = ["8.c4b9644"];
+        var versions = ["8.c4b9644","8.c4b9644"];
     </script>
 
 

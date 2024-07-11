@@ -30,7 +30,7 @@ nextclade2
       
       
 
-      ``2.14.0-1``,  ``2.14.0-0``
+      ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``
 
       
 
@@ -82,7 +82,7 @@ nextclade2
 
     <script>
         var package = "nextclade2";
-        var versions = ["2.14.0","2.14.0"];
+        var versions = ["2.14.0","2.14.0","2.14.0"];
     </script>
 
 

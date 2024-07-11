@@ -27,9 +27,17 @@ plass
    :versions:
       
       
+      .. raw:: html
 
-      ``5.cf8933-0``,  ``4.687d7-5``,  ``4.687d7-4``,  ``4.687d7-3``,  ``4.687d7-2``,  ``4.687d7-1``,  ``4.687d7-0``,  ``3.764a3-0``,  ``2.c7e35-1``
+         <details><summary><span class="truncated-version-list"><code>5.cf8933-1</code>,  <code>5.cf8933-0</code>,  <code>4.687d7-5</code>,  <code>4.687d7-4</code>,  <code>4.687d7-3</code>,  <code>4.687d7-2</code>,  <code>4.687d7-1</code>,  <code>4.687d7-0</code>,  <code>3.764a3-0</code>,  </span></summary>
+      
 
+      ``5.cf8933-1``,  ``5.cf8933-0``,  ``4.687d7-5``,  ``4.687d7-4``,  ``4.687d7-3``,  ``4.687d7-2``,  ``4.687d7-1``,  ``4.687d7-0``,  ``3.764a3-0``,  ``2.c7e35-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,7 +46,7 @@ plass
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: 
    :requirements:
@@ -88,7 +96,7 @@ plass
 
     <script>
         var package = "plass";
-        var versions = ["5.cf8933","4.687d7","4.687d7","4.687d7","4.687d7"];
+        var versions = ["5.cf8933","5.cf8933","4.687d7","4.687d7","4.687d7"];
     </script>
 
 

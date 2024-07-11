@@ -27,7 +27,7 @@ colorid_bv
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -81,7 +81,7 @@ colorid_bv
 
     <script>
         var package = "colorid_bv";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

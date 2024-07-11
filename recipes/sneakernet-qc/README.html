@@ -91,7 +91,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/sneakernet-qc"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/sneakernet-qc.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/sneakernet-qc"><img alt="docker_sneakernet-qc" src="https://quay.io/repository/biocontainers/sneakernet-qc/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.27.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.26.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.27.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.27.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.26.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends blast<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -99,89 +99,91 @@
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends chewbbaca<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends fastqc<span class="colon">:</span></dt>
+<dt class="field-odd">depends colorid_bv<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends flash<span class="colon">:</span></dt>
+<dt class="field-even">depends fastqc<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends kalamari<span class="colon">:</span></dt>
+<dt class="field-odd">depends flash<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends kma<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p>
+<dt class="field-even">depends kalamari<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends kma<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p>
 </dd>
-<dt class="field-odd">depends kmc<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends kraken<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1,&lt;2</span></code></p>
+<dt class="field-even">depends kmc<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends kraken<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1,&lt;2</span></code></p>
 </dd>
-<dt class="field-odd">depends krona<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends lighter<span class="colon">:</span></dt>
+<dt class="field-even">depends krona<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends make<span class="colon">:</span></dt>
+<dt class="field-odd">depends lighter<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends mash<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2</span></code></p>
+<dt class="field-even">depends make<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends mash<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2</span></code></p>
 </dd>
-<dt class="field-odd">depends megahit<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends mlst<span class="colon">:</span></dt>
+<dt class="field-even">depends megahit<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends multiqc<span class="colon">:</span></dt>
+<dt class="field-odd">depends mlst<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p>
+<dt class="field-even">depends multiqc<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p>
 </dd>
-<dt class="field-odd">depends perl-app-cpanminus<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-bioperl<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-app-cpanminus<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-cg-pipeline<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-bioperl<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-config-simple<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-cg-pipeline<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-file-slurp<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-config-simple<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-gd<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-file-slurp<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-gdgraph<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-gd<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-list-moreutils<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-gdgraph<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-moo<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-list-moreutils<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-statistics-descriptive<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-moo<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-text-levenshtein<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15</span></code></p>
+<dt class="field-odd">depends perl-statistics-descriptive<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends perl-text-levenshtein<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15</span></code></p>
 </dd>
-<dt class="field-even">depends pilon<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends prodigal<span class="colon">:</span></dt>
+<dt class="field-odd">depends pilon<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
+<dt class="field-even">depends prodigal<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
 </dd>
-<dt class="field-odd">depends quast<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends salmid<span class="colon">:</span></dt>
+<dt class="field-even">depends quast<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends samclip<span class="colon">:</span></dt>
+<dt class="field-odd">depends salmid<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends seqtk<span class="colon">:</span></dt>
+<dt class="field-even">depends samclip<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends shovill<span class="colon">:</span></dt>
+<dt class="field-odd">depends seqtk<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends skesa<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.4</span></code></p>
+<dt class="field-even">depends shovill<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends skesa<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.4</span></code></p>
 </dd>
-<dt class="field-odd">depends spades<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends staramr<span class="colon">:</span></dt>
+<dt class="field-even">depends spades<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends trimmomatic<span class="colon">:</span></dt>
+<dt class="field-odd">depends staramr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends trimmomatic<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -216,7 +218,7 @@ others.</p>
 
 <script>
     var package = "sneakernet-qc";
-    var versions = ["0.27.0","0.26.0","0.25.0"];
+    var versions = ["0.27.0","0.27.0","0.26.0","0.25.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
