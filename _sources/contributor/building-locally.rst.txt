@@ -51,6 +51,9 @@ The above commands do the following:
      the recipes test in a clean, freshly created docker container to
      ensure that the package does not depend on anything that happens
      to be included in the build container.
+   - Make sure you have `bioconda` and `conda-forge` channels explicitly
+     added to your environment or your `.condarc`. It is not sufficient
+     to have those channels specified in `.mambarc`.
 
 If you do not have access to Docker, you can still run the basic test by
 omitting the ``--docker`` and ``--mulled-test`` options.
