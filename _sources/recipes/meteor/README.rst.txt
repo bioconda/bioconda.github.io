@@ -28,12 +28,12 @@ meteor
       
       
 
-      ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
+      ``2.0.14-1``,  ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
 
       
 
    
-   :depends bcftools: 
+   :depends bcftools: ``>=1.19``
    :depends bedtools: ``>=2.18.0``
    :depends biom-format: 
    :depends bowtie2: ``>=2.3.5``
@@ -92,7 +92,7 @@ meteor
 
     <script>
         var package = "meteor";
-        var versions = ["2.0.14","2.0.13","2.0.11","2.0.9"];
+        var versions = ["2.0.14","2.0.14","2.0.13","2.0.11","2.0.9"];
     </script>
 
 

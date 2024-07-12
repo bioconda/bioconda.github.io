@@ -1,40 +1,38 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'skesa'
+.. title:: Package Recipe 'segul'
 .. highlight: bash
 
-skesa
+segul
 =====
 
-.. conda:recipe:: skesa
+.. conda:recipe:: segul
    :replaces_section_title:
    :noindex:
 
-   Strategic Kmer Extension for Scrupulous Assemblies \& Sequence Assembly Using Target Enrichment
+   An ultrafast and memory efficient tool for phylogenomics
 
-   :homepage: https://github.com/ncbi/SKESA
-   :license: Public Domain
-   :recipe: /`skesa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skesa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skesa/meta.yaml>`_
+   :homepage: https://github.com/hhandika/segul
+   :license: MIT / MIT
+   :recipe: /`segul <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segul>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segul/meta.yaml>`_
 
    
 
 
-.. conda:package:: skesa
+.. conda:package:: segul
 
-   |downloads_skesa| |docker_skesa|
+   |downloads_segul| |docker_segul|
 
    :versions:
       
       
 
-      ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-0``
+      ``0.21.3-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -50,39 +48,39 @@ skesa
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install skesa
+      mamba install segul
 
    and update with::
 
-      mamba update skesa
+      mamba update segul
 
   To create a new environment, run::
 
-      mamba create --name myenvname skesa
+      mamba create --name myenvname segul
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/skesa:<tag>
+      docker pull quay.io/biocontainers/segul:<tag>
 
-   (see `skesa/tags`_ for valid values for ``<tag>``)
+   (see `segul/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_skesa| image:: https://img.shields.io/conda/dn/bioconda/skesa.svg?style=flat
-   :target: https://anaconda.org/bioconda/skesa
+.. |downloads_segul| image:: https://img.shields.io/conda/dn/bioconda/segul.svg?style=flat
+   :target: https://anaconda.org/bioconda/segul
    :alt:   (downloads)
-.. |docker_skesa| image:: https://quay.io/repository/biocontainers/skesa/status
-   :target: https://quay.io/repository/biocontainers/skesa
-.. _`skesa/tags`: https://quay.io/repository/biocontainers/skesa?tab=tags
+.. |docker_segul| image:: https://quay.io/repository/biocontainers/segul/status
+   :target: https://quay.io/repository/biocontainers/segul
+.. _`segul/tags`: https://quay.io/repository/biocontainers/segul?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "skesa";
-        var versions = ["2.5.1","2.5.1","2.4.0","2.3.0","2.3.0"];
+        var package = "segul";
+        var versions = ["0.21.3"];
     </script>
 
 
@@ -101,7 +99,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/skesa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/segul/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/skesa/README.html
+   :target: http://bioconda.github.io/recipes/segul/README.html

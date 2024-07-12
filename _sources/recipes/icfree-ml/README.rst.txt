@@ -27,7 +27,7 @@ icfree-ml
       
       
 
-      ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
+      ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
 
       
 
@@ -35,7 +35,7 @@ icfree-ml
    :depends biopython: 
    :depends blast: 
    :depends pysbol2: 
-   :depends python: ``>3.6``
+   :depends python: ``>3.8,<3.12``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ icfree-ml
 
     <script>
         var package = "icfree-ml";
-        var versions = ["2.3.2","2.3.1","2.3.0"];
+        var versions = ["2.3.2","2.3.2","2.3.1","2.3.0"];
     </script>
 
 

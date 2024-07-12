@@ -28,10 +28,10 @@ gap2seq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.1a-3</code>,  <code>3.1.1a-2</code>,  <code>3.1.1a-1</code>,  <code>3.1.1a-0</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1-0</code>,  <code>2.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.1a-4</code>,  <code>3.1.1a-3</code>,  <code>3.1.1a-2</code>,  <code>3.1.1a-1</code>,  <code>3.1.1a-0</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1-0</code>,  </span></summary>
       
 
-      ``3.1.1a-3``,  ``3.1.1a-2``,  ``3.1.1a-1``,  ``3.1.1a-0``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``
+      ``3.1.1a-4``,  ``3.1.1a-3``,  ``3.1.1a-2``,  ``3.1.1a-1``,  ``3.1.1a-0``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``
 
       
       .. raw:: html
@@ -94,16 +94,12 @@ gap2seq
 
     <script>
         var package = "gap2seq";
-        var versions = ["3.1.1a","3.1.1a","3.1.1a","3.1.1a","3.1"];
+        var versions = ["3.1.1a","3.1.1a","3.1.1a","3.1.1a","3.1.1a"];
     </script>
 
 
 
 
-
-Notes
------
-Gap2Seq is only tested on Linux x86\_64 by its author.
 
 
 Download stats
