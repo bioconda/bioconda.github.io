@@ -28,10 +28,10 @@ pbstarphase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  </span></summary>
       
 
-      ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``
+      ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``
 
       
       .. raw:: html
@@ -87,7 +87,7 @@ pbstarphase
 
     <script>
         var package = "pbstarphase";
-        var versions = ["0.11.1","0.11.0","0.10.2","0.10.1","0.10.0"];
+        var versions = ["0.11.2","0.11.1","0.11.0","0.10.2","0.10.1"];
     </script>
 
 

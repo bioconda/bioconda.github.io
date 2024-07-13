@@ -28,10 +28,10 @@ zol
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.9-1</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.10-0</code>,  <code>1.4.9-1</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  </span></summary>
       
 
-      ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.4.10-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
       .. raw:: html
@@ -55,7 +55,7 @@ zol
    :depends libstdcxx-ng: ``>=12``
    :depends mcl: 
    :depends miniprot: ``0.7.*``
-   :depends muscle: 
+   :depends muscle: ``>=5.0``
    :depends ncbi-genome-download: 
    :depends pal2nal: ``>=14.1``
    :depends pandas: ``>=2.0``
@@ -73,7 +73,7 @@ zol
    :depends r-gridextra: 
    :depends scikit-learn: 
    :depends setuptools: 
-   :depends skani: 
+   :depends skani: ``>=0.2.2``
    :depends slclust: 
    :depends trimal: 
    :depends xlsxwriter: ``>=3.0.3``
@@ -124,7 +124,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.4.9","1.4.9","1.4.8","1.4.7","1.4.5"];
+        var versions = ["1.4.10","1.4.9","1.4.9","1.4.8","1.4.7"];
     </script>
 
 

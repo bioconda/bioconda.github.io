@@ -27,7 +27,7 @@ pixelator
       
       
 
-      ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.2-0``,  ``0.15.2-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``
+      ``0.18.1-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.2-0``,  ``0.15.2-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``
 
       
 
@@ -57,7 +57,7 @@ pixelator
    :depends scipy: ``<1.13.0``
    :depends semver: ``>=3.0.0,<4.0.0``
    :depends typing_extensions: 
-   :depends umi_tools: ``<=1.1.4``
+   :depends umi_tools: ``>=1.1.4,<2.0.0``
    :depends xopen: ``<1.9.0``
    :depends yapf: 
    :depends yappi: 
@@ -108,7 +108,7 @@ pixelator
 
     <script>
         var package = "pixelator";
-        var versions = ["0.17.1","0.17.0","0.16.2","0.15.2","0.15.0"];
+        var versions = ["0.18.1","0.17.1","0.17.0","0.16.2","0.15.2"];
     </script>
 
 

@@ -13,7 +13,7 @@ icfree-ml
    Design of experiments \(DoE\) and machine learning packages for the iCFree project
 
    :homepage: https://github.com/brsynth/icfree-ml
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`icfree-ml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/icfree-ml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/icfree-ml/meta.yaml>`_
 
    
@@ -27,13 +27,15 @@ icfree-ml
       
       
 
-      ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
+      ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
 
       
 
    
    :depends biopython: 
    :depends blast: 
+   :depends pandas: 
+   :depends pydoe2: 
    :depends pysbol2: 
    :depends python: ``>3.8,<3.12``
    :requirements:
@@ -83,7 +85,7 @@ icfree-ml
 
     <script>
         var package = "icfree-ml";
-        var versions = ["2.3.2","2.3.2","2.3.1","2.3.0"];
+        var versions = ["2.3.3","2.3.2","2.3.2","2.3.1","2.3.0"];
     </script>
 
 

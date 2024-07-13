@@ -13,7 +13,7 @@ knotinframe
    Predicts \-1 frameshift sites with simple pseudoknots
 
    :homepage: https://bibiserv.cebitec.uni-bielefeld.de/knotinframe
-   :license: GPLv3+
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`knotinframe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/knotinframe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/knotinframe/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkn578`, doi: :doi:`10.1093/bioinformatics/btu649`
 
@@ -28,15 +28,16 @@ knotinframe
       
       
 
-      ``2.2.14-1``,  ``2.2.14-0``
+      ``2.3.0-0``,  ``2.2.14-1``,  ``2.2.14-0``
 
       
 
    
    :depends bellmans-gapc: ``>=2020.12.08``
+   :depends bellmans-gapc: ``>=2024.1.12``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +85,7 @@ knotinframe
 
     <script>
         var package = "knotinframe";
-        var versions = ["2.2.14","2.2.14"];
+        var versions = ["2.3.0","2.2.14","2.2.14"];
     </script>
 
 
