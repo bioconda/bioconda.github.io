@@ -85,7 +85,7 @@ Bioconda supports Linux (x86_64 and aarch64/arm64) and
 macOS (x86_64 and arm64). Windows is not supported.
 
 **Python:**
-Bioconda currently supports Python 3.8, 3.9, and 3.10 (see "pinned packages"
+Bioconda currently supports Python 3.8, 3.9, 3.10, 3.11, and 3.12 (see "pinned packages"
 below for where this is configured). There are still packages in the Bioconda
 channel for earlier versions of Python (2.7, 3.6, and 3.7), but new packages
 are not built for these versions.
@@ -99,9 +99,11 @@ depend on other Bioconda packages with architecture specific builds, such as
 .. datechanged:: 2022-09-01
    Python 3.10 support started in Aug 2022
 
-
 .. datechanged:: 2023-05-01
-   Python 2.7, 3.6, 3.7 support were dropped for new recipes in May 2023.
+   Python 2.7, 3.6, 3.7 support were dropped for new recipes in May 2023
+
+.. datechanged:: 2024-06-15
+   Python 3.11, 3.12 support started in June 2024
 
 **Globally-pinned versions:** See :ref:`global-pinning` for details.
 

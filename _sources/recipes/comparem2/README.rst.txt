@@ -29,7 +29,7 @@ comparem2
       
       
 
-      ``2.8.1-0``
+      ``2.8.2-0``,  ``2.8.1-0``
 
       
 
@@ -86,7 +86,7 @@ comparem2
 
     <script>
         var package = "comparem2";
-        var versions = ["2.8.1"];
+        var versions = ["2.8.2","2.8.1"];
     </script>
 
 

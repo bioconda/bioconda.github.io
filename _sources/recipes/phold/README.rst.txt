@@ -29,7 +29,7 @@ phold
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -38,7 +38,8 @@ phold
    :depends biopython: ``>=1.76``
    :depends click: ``>=8.0.0``
    :depends datasets: ``>=2.15``
-   :depends foldseek: ``8.ef4e960``
+   :depends foldseek: ``9.427df8a``
+   :depends h5py: ``>=3.5``
    :depends loguru: ``>=0.5.3``
    :depends numpy: ``>=1.20``
    :depends pandas: ``>=1.4.2``
@@ -98,7 +99,7 @@ phold
 
     <script>
         var package = "phold";
-        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1"];
+        var versions = ["0.2.0","0.1.4","0.1.3","0.1.2","0.1.1"];
     </script>
 
 
