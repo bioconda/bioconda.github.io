@@ -30,14 +30,22 @@ galaxy-files
    :versions:
       
       
+      .. raw:: html
 
-      ``24.0.0-0``,  ``23.2.1-0``,  ``23.1.4-0``,  ``23.1.3-0``,  ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>24.1.1-0</code>,  <code>24.0.0-0</code>,  <code>23.2.1-0</code>,  <code>23.1.4-0</code>,  <code>23.1.3-0</code>,  <code>23.1.2-0</code>,  <code>23.1.1-0</code>,  <code>23.0.6-0</code>,  <code>23.0.5-0</code>,  </span></summary>
+      
 
+      ``24.1.1-0``,  ``24.0.0-0``,  ``23.2.1-0``,  ``23.1.4-0``,  ``23.1.3-0``,  ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends fs: 
-   :depends galaxy-util: ``>=24.0``
+   :depends galaxy-util: ``>=24.1``
    :depends python: ``>=3.7``
    :depends typing-extensions: 
    :requirements:
@@ -87,7 +95,7 @@ galaxy-files
 
     <script>
         var package = "galaxy-files";
-        var versions = ["24.0.0","23.2.1","23.1.4","23.1.3","23.1.2"];
+        var versions = ["24.1.1","24.0.0","23.2.1","23.1.4","23.1.3"];
     </script>
 
 

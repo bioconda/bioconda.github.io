@@ -27,7 +27,7 @@ jms-metabolite-services
       
       
 
-      ``0.5.7-0``
+      ``0.5.8-0``,  ``0.5.7-0``
 
       
 
@@ -81,7 +81,7 @@ jms-metabolite-services
 
     <script>
         var package = "jms-metabolite-services";
-        var versions = ["0.5.7"];
+        var versions = ["0.5.8","0.5.7"];
     </script>
 
 

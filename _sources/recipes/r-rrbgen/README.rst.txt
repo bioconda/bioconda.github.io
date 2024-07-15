@@ -28,10 +28,10 @@ r-rrbgen
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.6-10</code>,  <code>0.0.6-9</code>,  <code>0.0.6-8</code>,  <code>0.0.6-7</code>,  <code>0.0.6-6</code>,  <code>0.0.6-5</code>,  <code>0.0.6-4</code>,  <code>0.0.6-3</code>,  <code>0.0.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.6-11</code>,  <code>0.0.6-10</code>,  <code>0.0.6-9</code>,  <code>0.0.6-8</code>,  <code>0.0.6-7</code>,  <code>0.0.6-6</code>,  <code>0.0.6-5</code>,  <code>0.0.6-4</code>,  <code>0.0.6-3</code>,  </span></summary>
       
 
-      ``0.0.6-10``,  ``0.0.6-9``,  ``0.0.6-8``,  ``0.0.6-7``,  ``0.0.6-6``,  ``0.0.6-5``,  ``0.0.6-4``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``
+      ``0.0.6-11``,  ``0.0.6-10``,  ``0.0.6-9``,  ``0.0.6-8``,  ``0.0.6-7``,  ``0.0.6-6``,  ``0.0.6-5``,  ``0.0.6-4``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``
 
       
       .. raw:: html

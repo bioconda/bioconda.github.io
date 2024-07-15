@@ -26,9 +26,17 @@ galaxy_sequence_utils
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -81,7 +89,7 @@ galaxy_sequence_utils
 
     <script>
         var package = "galaxy_sequence_utils";
-        var versions = ["1.1.5","1.1.4","1.1.3","1.1.2","1.1.1"];
+        var versions = ["1.1.5","1.1.5","1.1.4","1.1.3","1.1.2"];
     </script>
 
 

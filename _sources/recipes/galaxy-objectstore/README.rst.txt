@@ -32,10 +32,10 @@ galaxy-objectstore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>24.0.0-0</code>,  <code>23.2.1-0</code>,  <code>23.1.4-0</code>,  <code>23.1.3-0</code>,  <code>23.1.2-0</code>,  <code>23.1.1-0</code>,  <code>23.0.6-0</code>,  <code>23.0.5-0</code>,  <code>23.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>24.1.1-0</code>,  <code>24.0.0-0</code>,  <code>23.2.1-0</code>,  <code>23.1.4-0</code>,  <code>23.1.3-0</code>,  <code>23.1.2-0</code>,  <code>23.1.1-0</code>,  <code>23.0.6-0</code>,  <code>23.0.5-0</code>,  </span></summary>
       
 
-      ``24.0.0-0``,  ``23.2.1-0``,  ``23.1.4-0``,  ``23.1.3-0``,  ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``,  ``23.0.2-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-0``
+      ``24.1.1-0``,  ``24.0.0-0``,  ``23.2.1-0``,  ``23.1.4-0``,  ``23.1.3-0``,  ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``,  ``23.0.2-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ galaxy-objectstore
       
 
    
-   :depends galaxy-util: ``>=24.0``
+   :depends galaxy-util: ``>=24.1``
    :depends pydantic: 
    :depends python: ``>=3.7``
    :depends pyyaml: 
@@ -95,7 +95,7 @@ galaxy-objectstore
 
     <script>
         var package = "galaxy-objectstore";
-        var versions = ["24.0.0","23.2.1","23.1.4","23.1.3","23.1.2"];
+        var versions = ["24.1.1","24.0.0","23.2.1","23.1.4","23.1.3"];
     </script>
 
 
