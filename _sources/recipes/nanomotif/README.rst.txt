@@ -28,10 +28,10 @@ nanomotif
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  <code>0.1.18-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  </span></summary>
       
 
-      ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
+      ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ nanomotif
 
     <script>
         var package = "nanomotif";
-        var versions = ["0.4.8","0.4.7","0.4.6","0.4.5","0.4.4"];
+        var versions = ["0.4.9","0.4.8","0.4.7","0.4.6","0.4.5"];
     </script>
 
 

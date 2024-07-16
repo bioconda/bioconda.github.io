@@ -27,7 +27,7 @@ orfanage
       
       
 
-      ``1.1.0-0``,  ``1.0.4_9f713d2-0``,  ``1.0.4-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4_9f713d2-0``,  ``1.0.4-0``
 
       
 
@@ -38,7 +38,7 @@ orfanage
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ orfanage
 
     <script>
         var package = "orfanage";
-        var versions = ["1.1.0","1.0.4_9f713d2","1.0.4"];
+        var versions = ["1.2.0","1.2.0","1.1.0","1.0.4_9f713d2","1.0.4"];
     </script>
 
 

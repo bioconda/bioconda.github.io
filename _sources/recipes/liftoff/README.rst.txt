@@ -28,10 +28,10 @@ liftoff
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-0``
+      ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ liftoff
    :depends biopython: ``>=1.76``
    :depends gffutils: ``>=0.10.1``
    :depends interlap: ``>=0.2.6``
-   :depends minimap2: 
+   :depends minimap2: ``2.24``
    :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.21.0``
    :depends parasail-python: ``>=1.2.1``
@@ -98,7 +98,7 @@ liftoff
 
     <script>
         var package = "liftoff";
-        var versions = ["1.6.3","1.6.2","1.6.1","1.6.0","1.6.0"];
+        var versions = ["1.6.3","1.6.3","1.6.2","1.6.1","1.6.0"];
     </script>
 
 

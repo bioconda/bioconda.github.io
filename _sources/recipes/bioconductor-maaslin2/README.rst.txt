@@ -12,7 +12,7 @@ bioconductor-maaslin2
 
    \"Multivariable Association Discovery in Population\-scale Meta\-omics Studies\"
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Maaslin2.html
+   :homepage: https://bioconductor.org/packages/3.19/bioc/html/Maaslin2.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-maaslin2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maaslin2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maaslin2/meta.yaml>`_
 
@@ -26,9 +26,17 @@ bioconductor-maaslin2
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -103,7 +111,7 @@ bioconductor-maaslin2
 
     <script>
         var package = "bioconductor-maaslin2";
-        var versions = ["1.16.0","1.16.0","1.14.1","1.12.0","1.8.0"];
+        var versions = ["1.18.0","1.16.0","1.16.0","1.14.1","1.12.0"];
     </script>
 
 

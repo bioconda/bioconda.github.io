@@ -14,7 +14,7 @@ dropseq_tools
 
 
    :homepage: https://mccarrolllab.com/dropseq
-   :documentation: https://github.com/broadinstitute/Drop-seq/blob/v3.0.1/README.md
+   :documentation: https://github.com/broadinstitute/Drop-seq/blob/v3.0.2/README.md
    
    :developer docs: https://github.com/broadinstitute/Drop-seq
    :license: MIT / MIT
@@ -30,9 +30,17 @@ dropseq_tools
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.1-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.0.0-0``,  ``1.13-0``
+         <details><summary><span class="truncated-version-list"><code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+      
 
+      ``3.0.2-0``,  ``3.0.1-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.0.0-0``,  ``1.13-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -84,7 +92,7 @@ dropseq_tools
 
     <script>
         var package = "dropseq_tools";
-        var versions = ["3.0.1","2.5.1","2.5.0","2.4.1","2.4.0"];
+        var versions = ["3.0.2","3.0.1","2.5.1","2.5.0","2.4.1"];
     </script>
 
 

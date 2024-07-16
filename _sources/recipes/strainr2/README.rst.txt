@@ -10,7 +10,7 @@ strainr2
    :replaces_section_title:
    :noindex:
 
-   strainr2\: get high accuracy metagenomic strain abundance.
+   StrainR2 accurately deconvolutes strain\-level abundances in synthetic microbial communities using metagenomic sequencing reads
 
    :homepage: https://github.com/BisanzLab/StrainR2
    :license: MIT / MIT
@@ -27,7 +27,7 @@ strainr2
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -35,13 +35,10 @@ strainr2
    :depends bbmap: 
    :depends fastp: 
    :depends libgcc-ng: ``>=12``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-optparse: 
    :depends r-tidyverse: 
    :depends samtools: 
-   :depends sourmash: ``>=4.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +86,7 @@ strainr2
 
     <script>
         var package = "strainr2";
-        var versions = ["1.0.1","1.0.1","1.0.0","1.0.0"];
+        var versions = ["2.0.0","1.0.1","1.0.1","1.0.0","1.0.0"];
     </script>
 
 
