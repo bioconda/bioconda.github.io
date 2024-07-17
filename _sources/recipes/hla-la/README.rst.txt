@@ -29,10 +29,10 @@ hla-la
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.1-6</code>,  <code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.1-6</code>,  <code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0-2</code>,  </span></summary>
       
 
-      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ hla-la
       
 
    
-   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends bamtools: ``2.5.1``
+   :depends boost-cpp: ``1.74.00``
    :depends bwa: ``0.7.12``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mummer: 
-   :depends perl-bio-db-hts: 
+   :depends perl-bio-db-hts: ``>=3.1,<4.0a0``
    :depends perl-bio-featureio: 
    :depends perl-bioperl: 
    :depends perl-bioperl-core: ``1.7.8.*``
@@ -104,7 +104,7 @@ hla-la
 
     <script>
         var package = "hla-la";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.1","1.0.1"];
+        var versions = ["1.0.4","1.0.3","1.0.3","1.0.3","1.0.1"];
     </script>
 
 

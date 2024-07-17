@@ -28,10 +28,10 @@ rosella
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  </span></summary>
       
 
-      ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
       .. raw:: html
@@ -50,11 +50,11 @@ rosella
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends matplotlib-base: ``>=3.8``
    :depends numba: ``>=0.53,<=0.57``
    :depends numpy: ``<=1.24``
-   :depends openssl: ``>=3.2.0,<4.0a0``
+   :depends openssl: ``>=3.3.1,<4.0a0``
    :depends pandas: ``>=1.3``
    :depends pebble: ``>=5.0``
    :depends pynndescent: ``>=0.5.7``
@@ -114,7 +114,7 @@ rosella
 
     <script>
         var package = "rosella";
-        var versions = ["0.5.3","0.5.2","0.5.1","0.5.0","0.4.2"];
+        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.5.0"];
     </script>
 
 

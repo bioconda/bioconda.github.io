@@ -27,7 +27,7 @@ hmftools-neo
       
       
 
-      ``1.0.1-0``
+      ``1.2_beta-0``,  ``1.0.1-0``
 
       
 
@@ -80,7 +80,7 @@ hmftools-neo
 
     <script>
         var package = "hmftools-neo";
-        var versions = ["1.0.1"];
+        var versions = ["1.2_beta","1.0.1"];
     </script>
 
 

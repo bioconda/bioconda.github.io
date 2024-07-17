@@ -13,7 +13,7 @@ phylodm
    Efficient calculation of phylogenetic distance matrices.
 
    :homepage: https://github.com/aaronmussig/PhyloDM
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`phylodm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodm/meta.yaml>`_
    :links: doi: :doi:`10.5281/zenodo.3998716`
 
@@ -29,10 +29,10 @@ phylodm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-0</code>,  <code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  </span></summary>
       
 
-      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``3.1.0-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ phylodm
 
     <script>
         var package = "phylodm";
-        var versions = ["3.0.0","3.0.0","3.0.0","2.2.1","2.2.1"];
+        var versions = ["3.1.0","3.0.0","3.0.0","3.0.0","2.2.1"];
     </script>
 
 
