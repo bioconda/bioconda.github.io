@@ -30,10 +30,10 @@ singlem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.18.2-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  </span></summary>
       
 
-      ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
+      ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
 
       
       .. raw:: html
@@ -120,7 +120,7 @@ singlem
 
     <script>
         var package = "singlem";
-        var versions = ["0.18.1","0.18.1","0.18.0","0.17.0","0.16.0"];
+        var versions = ["0.18.2","0.18.1","0.18.1","0.18.0","0.17.0"];
     </script>
 
 

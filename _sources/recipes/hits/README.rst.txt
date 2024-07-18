@@ -10,10 +10,10 @@ hits
    :replaces_section_title:
    :noindex:
 
-   utilities for processing high\-throughput sequencing experiments
+   Utilities for processing high\-throughput sequencing experiments.
 
    :homepage: https://github.com/jeffhussmann/hits
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hits/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ hits
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.0-0</code>,  <code>0.1-2</code>,  <code>0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ hits
 
    
    :depends biopython: ``>=1.72``
-   :depends bokeh: 
+   :depends bokeh: ``>=2.4.2``
    :depends ipython: ``>=7.8.0``
    :depends ipywidgets: ``>=7.4.2``
    :depends libgcc-ng: ``>=12``
@@ -50,11 +50,11 @@ hits
    :depends pandas: ``>=0.23.4``
    :depends pillow: ``>=5.3.0``
    :depends pysam: ``>=0.15.1``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=3.13``
    :depends scipy: ``>=1.2.1``
-   :depends seaborn: ``>=0.11.0``
+   :depends seaborn-base: ``>=0.11.0``
    :depends statsmodels: ``>=0.12.1``
    :requirements:
 
@@ -103,7 +103,7 @@ hits
 
     <script>
         var package = "hits";
-        var versions = ["0.4.0","0.4.0","0.4.0","0.3.3","0.3.3"];
+        var versions = ["0.4.2","0.4.2","0.4.0","0.4.0","0.4.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ kalign3
    Kalign is a fast and accurate multiple sequence alignment algorithm.
 
    :homepage: https://github.com/TimoLassmann/kalign
-   :license: GPL3
+   :license: GPL-3.0-only
    :recipe: /`kalign3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign3/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btz795`
 
@@ -27,9 +27,17 @@ kalign3
    :versions:
       
       
+      .. raw:: html
 
-      ``3.4.0-0``,  ``3.3.5-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
+         <details><summary><span class="truncated-version-list"><code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.5-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.2.2-3</code>,  <code>3.2.2-2</code>,  <code>3.2.2-1</code>,  </span></summary>
+      
 
+      ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.5-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -82,7 +90,7 @@ kalign3
 
     <script>
         var package = "kalign3";
-        var versions = ["3.4.0","3.3.5","3.3.2","3.3.2","3.3.2"];
+        var versions = ["3.4.0","3.4.0","3.3.5","3.3.2","3.3.2"];
     </script>
 
 
