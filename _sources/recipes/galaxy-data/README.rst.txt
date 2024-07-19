@@ -31,29 +31,41 @@ galaxy-data
       
       
 
-      ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
+      ``24.1.1-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
 
       
 
    
-   :depends bdbag: 
+   :depends alembic: 
+   :depends alembic-utils: 
+   :depends bdbag: ``>=1.6.3``
    :depends bx-python: 
-   :depends galaxy-objectstore: ``>=22.1``
-   :depends galaxy-util: ``>=22.1``
+   :depends dnspython: 
+   :depends email-validator: 
+   :depends galaxy-files: ``>=24.1``
+   :depends galaxy-objectstore: ``>=24.1``
+   :depends galaxy-schema: ``>=24.1``
+   :depends galaxy-tool-util: ``>=24.1``
+   :depends galaxy-util: ``>=24.1``
    :depends galaxy_sequence_utils: 
+   :depends h5grove: ``>=1.2.1``
    :depends h5py: 
-   :depends isa-rwval: 
+   :depends isa-rwval: ``>=0.10.10``
+   :depends markupsafe: 
+   :depends mrcfile: 
+   :depends msal: 
    :depends numpy: 
    :depends parsley: 
    :depends pycryptodome: 
-   :depends pydantic: 
-   :depends pysam: ``>=0.15``
-   :depends python: ``>=3.6``
-   :depends six: ``>=1.9.0``
-   :depends social-auth-core: 
-   :depends sqlalchemy: 
-   :depends sqlalchemy-migrate: 
-   :depends sqlalchemy-utils: 
+   :depends pydantic: ``>=2.7.4``
+   :depends pysam: ``>=0.21``
+   :depends python: ``>=3.8``
+   :depends python-isal: 
+   :depends python-magic: 
+   :depends social-auth-core: ``4.0.3``
+   :depends sqlalchemy: ``>=2.0,<2.1``
+   :depends tifffile: 
+   :depends typing-extensions: 
    :depends webob: 
    :requirements:
 
@@ -102,7 +114,7 @@ galaxy-data
 
     <script>
         var package = "galaxy-data";
-        var versions = ["22.1.1","21.9.0","20.9.1","20.9.1","20.9.1"];
+        var versions = ["24.1.1","22.1.1","21.9.0","20.9.1","20.9.1"];
     </script>
 
 

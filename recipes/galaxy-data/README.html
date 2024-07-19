@@ -97,48 +97,80 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/galaxy-data"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/galaxy-data.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/galaxy-data"><img alt="docker_galaxy-data" src="https://quay.io/repository/biocontainers/galaxy-data/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">22.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">21.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">20.9.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">20.9.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">20.9.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">24.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">22.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">21.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">20.9.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">20.9.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">20.9.1-0</span></code></p>
 </dd>
-<dt class="field-even">depends bdbag<span class="colon">:</span></dt>
+<dt class="field-even">depends alembic<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends alembic-utils<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends bdbag<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.3</span></code></p>
+</dd>
 <dt class="field-odd">depends bx-python<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends galaxy-objectstore<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=22.1</span></code></p>
-</dd>
-<dt class="field-odd">depends galaxy-util<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=22.1</span></code></p>
-</dd>
-<dt class="field-even">depends galaxy_sequence_utils<span class="colon">:</span></dt>
+<dt class="field-even">depends dnspython<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends email-validator<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends galaxy-files<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=24.1</span></code></p>
+</dd>
+<dt class="field-odd">depends galaxy-objectstore<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=24.1</span></code></p>
+</dd>
+<dt class="field-even">depends galaxy-schema<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=24.1</span></code></p>
+</dd>
+<dt class="field-odd">depends galaxy-tool-util<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=24.1</span></code></p>
+</dd>
+<dt class="field-even">depends galaxy-util<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=24.1</span></code></p>
+</dd>
+<dt class="field-odd">depends galaxy_sequence_utils<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends h5grove<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.1</span></code></p>
+</dd>
 <dt class="field-odd">depends h5py<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends isa-rwval<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.10.10</span></code></p>
+</dd>
+<dt class="field-odd">depends markupsafe<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends parsley<span class="colon">:</span></dt>
+<dt class="field-even">depends mrcfile<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pycryptodome<span class="colon">:</span></dt>
+<dt class="field-odd">depends msal<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pydantic<span class="colon">:</span></dt>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pysam<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15</span></code></p>
+<dt class="field-odd">depends parsley<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pycryptodome<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pydantic<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.7.4</span></code></p>
 </dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.6</span></code></p>
+<dt class="field-even">depends pysam<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.21</span></code></p>
 </dd>
-<dt class="field-odd">depends six<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.9.0</span></code></p>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p>
 </dd>
+<dt class="field-even">depends python-isal<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends python-magic<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends social-auth-core<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4.0.3</span></code></p>
+</dd>
 <dt class="field-odd">depends sqlalchemy<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends sqlalchemy-migrate<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0,&lt;2.1</span></code></p>
+</dd>
+<dt class="field-even">depends tifffile<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends sqlalchemy-utils<span class="colon">:</span></dt>
+<dt class="field-odd">depends typing-extensions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends webob<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -178,7 +210,7 @@ others.</p>
 
 <script>
     var package = "galaxy-data";
-    var versions = ["22.1.1","21.9.0","20.9.1","20.9.1","20.9.1"];
+    var versions = ["24.1.1","22.1.1","21.9.0","20.9.1","20.9.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

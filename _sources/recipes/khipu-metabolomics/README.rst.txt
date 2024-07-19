@@ -27,7 +27,7 @@ khipu-metabolomics
       
       
 
-      ``2.0.1-0``,  ``0.7.5-0``
+      ``2.0.2-0``,  ``2.0.1-0``,  ``0.7.5-0``
 
       
 
@@ -35,7 +35,7 @@ khipu-metabolomics
    :depends intervaltree: 
    :depends isocor: 
    :depends mass2chem: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
@@ -90,7 +90,7 @@ khipu-metabolomics
 
     <script>
         var package = "khipu-metabolomics";
-        var versions = ["2.0.1","0.7.5"];
+        var versions = ["2.0.2","2.0.1","0.7.5"];
     </script>
 
 

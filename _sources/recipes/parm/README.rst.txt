@@ -27,7 +27,7 @@ parm
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -37,7 +37,7 @@ parm
    :depends h5py: 
    :depends logomaker: 
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.26.0``
    :depends optuna: 
    :depends pandas: 
    :depends python: ``>=3.10.8``
@@ -92,7 +92,7 @@ parm
 
     <script>
         var package = "parm";
-        var versions = ["0.0.3","0.0.2"];
+        var versions = ["0.0.4","0.0.3","0.0.2"];
     </script>
 
 

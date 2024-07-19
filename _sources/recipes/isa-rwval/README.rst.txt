@@ -27,7 +27,7 @@ isa-rwval
       
       
 
-      ``0.10.9-0``
+      ``0.10.10-0``,  ``0.10.9-0``
 
       
 
@@ -36,8 +36,7 @@ isa-rwval
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.5``
-   :depends six: 
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +84,7 @@ isa-rwval
 
     <script>
         var package = "isa-rwval";
-        var versions = ["0.10.9"];
+        var versions = ["0.10.10","0.10.9"];
     </script>
 
 
