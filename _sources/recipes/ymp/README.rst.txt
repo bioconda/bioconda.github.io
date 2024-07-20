@@ -39,22 +39,24 @@ ymp
       
       
 
-      ``0.2.1-0``,  ``0.1.0-0``
+      ``0.3.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends aiohttp: 
-   :depends click: 
+   :depends click: ``>8``
    :depends click-completion: 
    :depends coloredlogs: 
    :depends conda: 
    :depends drmaa: 
+   :depends mamba: 
    :depends networkx: ``>=2``
+   :depends openpyxl: 
    :depends pandas: ``>=0.20``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.10``
    :depends ruamel.yaml: ``>0.15``
-   :depends snakemake: ``>=5.20.1,<5.21.0a0``
+   :depends snakemake: ``>=7.32.1,<8.0a0``
    :depends tqdm: ``>=4.21.0``
    :depends xdg: 
    :depends xlrd: 
@@ -105,7 +107,7 @@ ymp
 
     <script>
         var package = "ymp";
-        var versions = ["0.2.1","0.1.0"];
+        var versions = ["0.3.1","0.2.1","0.1.0"];
     </script>
 
 

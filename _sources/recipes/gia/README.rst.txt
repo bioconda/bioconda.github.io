@@ -27,7 +27,7 @@ gia
       
       
 
-      ``0.2-0``
+      ``0.2.23-0``,  ``0.2-0``
 
       
 
@@ -88,7 +88,7 @@ gia
 
     <script>
         var package = "gia";
-        var versions = ["0.2"];
+        var versions = ["0.2.23","0.2"];
     </script>
 
 

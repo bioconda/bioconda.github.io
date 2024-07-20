@@ -32,10 +32,10 @@ querynator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``
+      ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ querynator
    :depends httplib2: 
    :depends matplotlib-base: ``>=3.6.1``
    :depends numpy: ``1.24.4``
-   :depends pandas: ``>=1.5.1``
+   :depends pandas: ``1.5.3``
    :depends pretty_html_table: ``>=0.9.16``
    :depends pytest: ``>=6.2.4``
    :depends python: ``>=3.8,<3.11``
@@ -107,7 +107,7 @@ querynator
 
     <script>
         var package = "querynator";
-        var versions = ["0.5.2","0.5.1","0.5.0","0.4.2","0.4.1"];
+        var versions = ["0.5.2","0.5.2","0.5.1","0.5.0","0.4.2"];
     </script>
 
 

@@ -10,7 +10,7 @@ pydna
    :replaces_section_title:
    :noindex:
 
-   Representing double stranded DNA and simulating cloning\, homologous recombination\, Gibson assembly\, Gel electrophoresis etc.
+   Representing double stranded DNA and functions for simulating cloning and homologous recombination between DNA molecules.
 
    :homepage: https://github.com/BjornFJohansson/pydna
    :license: BSD / BSD-3-Clause
@@ -27,19 +27,20 @@ pydna
       
       
 
-      ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0a3-0``
+      ``5.2.0-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0a3-0``
 
       
 
    
-   :depends appdirs: ``>=1.3.0``
-   :depends biopython: ``>=1.65``
-   :depends networkx: ``>=1.8.1``
-   :depends ordered-set: ``>=2.0.1``
-   :depends prettytable: ``>=0.7.2``
-   :depends pyparsing: ``>=2.1.10``
-   :depends python: ``>=3``
-   :depends requests: ``>=2.12``
+   :depends appdirs: ``>=1.4.4``
+   :depends biopython: ``>=1.80``
+   :depends networkx: ``>=2.8.8``
+   :depends prettytable: ``>=3.5.0``
+   :depends pyfiglet: ``>=0.8.post1``
+   :depends pyparsing: ``>=2.4.7``
+   :depends pyperclip: ``>=1.8.2``
+   :depends python: ``>=3.8``
+   :depends requests: ``>=2.26.0``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +88,7 @@ pydna
 
     <script>
         var package = "pydna";
-        var versions = ["3.1.0","3.0.2","3.0.1","2.0.1","2.0.1"];
+        var versions = ["5.2.0","3.1.0","3.0.2","3.0.1","2.0.1"];
     </script>
 
 

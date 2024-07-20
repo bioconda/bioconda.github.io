@@ -13,7 +13,7 @@ r-ic10
    Implementation of the classifier described in the paper \'Genome\-driven integrated classification of breast cancer validated in over 7\,500 samples\' \(Ali HR et al.\, Genome Biology 2014\). It uses copy number and\/or expression form breast cancer data\, trains a pamr classifier \(Tibshirani et al.\) with the features available and predicts the iC10 group.
 
    :homepage: https://CRAN.R-project.org/package=iC10
-   :license: GPL3 / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-ic10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ic10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ic10/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ r-ic10
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  <code>1.5-1</code>,  <code>1.5-0</code>,  <code>1.4.2-2</code>,  <code>1.4.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  <code>1.5-1</code>,  <code>1.5-0</code>,  <code>1.4.2-2</code>,  </span></summary>
       
 
-      ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.1.3-0``
+      ``2.0.2-0``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ r-ic10
 
     <script>
         var package = "r-ic10";
-        var versions = ["1.5","1.5","1.5","1.5","1.5"];
+        var versions = ["2.0.2","1.5","1.5","1.5","1.5"];
     </script>
 
 
