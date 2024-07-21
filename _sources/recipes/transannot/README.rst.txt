@@ -10,7 +10,7 @@ transannot
    :replaces_section_title:
    :noindex:
 
-   TransAnnot\: fast and all\-in\-one transcriptome annotation pipeline
+   TransAnnot\: a fast transcriptome annotation pipeline
 
    :homepage: https://github.com/soedinglab/transannot
    :license: GPL / GPL-3.0-or-later
@@ -28,7 +28,7 @@ transannot
       
       
 
-      ``1.fa9ebab-0``
+      ``3.7f1c8e1-0``,  ``1.fa9ebab-0``
 
       
 
@@ -39,7 +39,7 @@ transannot
    :depends gawk: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 
@@ -90,7 +90,7 @@ transannot
 
     <script>
         var package = "transannot";
-        var versions = ["1.fa9ebab"];
+        var versions = ["3.7f1c8e1","1.fa9ebab"];
     </script>
 
 
