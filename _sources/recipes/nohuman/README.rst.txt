@@ -27,14 +27,14 @@ nohuman
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends kraken2: ``2.1.*``
    :depends libgcc-ng: ``>=12``
-   :depends openssl: ``>=3.2.0,<4.0a0``
+   :depends openssl: ``>=3.3.1,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ nohuman
 
     <script>
         var package = "nohuman";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

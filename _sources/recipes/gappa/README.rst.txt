@@ -13,11 +13,17 @@ gappa
    Genesis Applications for Phylogenetic Placement Analysis
 
    :homepage: https://github.com/lczech/gappa
+   :documentation: https://github.com/lczech/gappa/wiki
+   
    :license: GPL-3.0-only
    :recipe: /`gappa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gappa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gappa/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/bty767`
+   :links: doi: :doi:`10.1093/bioinformatics/btaa070`, doi: :doi:`10.3389/fbinf.2022.871393`, doi: :doi:`10.1093/bioinformatics/bty767`, doi: :doi:`10.1371/journal.pone.0217050`
 
-   
+   gappa is a collection of commands for working with phylogenetic data.
+   Its main focus are evolutionary placements of short environmental sequences
+   on a reference phylogenetic tree. Such data are typically produced by tools
+   such as EPA\-ng\, RAxML\-EPA or pplacer\, and usually stored in jplace files.
+
 
 
 .. conda:package:: gappa
@@ -29,10 +35,10 @@ gappa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.5-0</code>,  <code>0.8.4-1</code>,  <code>0.8.4-0</code>,  <code>0.8.0-3</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.5-1</code>,  <code>0.8.5-0</code>,  <code>0.8.4-1</code>,  <code>0.8.4-0</code>,  <code>0.8.0-3</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.1-1</code>,  </span></summary>
       
 
-      ``0.8.5-0``,  ``0.8.4-1``,  ``0.8.4-0``,  ``0.8.0-3``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-1``,  ``0.8.4-0``,  ``0.8.0-3``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -91,7 +97,7 @@ gappa
 
     <script>
         var package = "gappa";
-        var versions = ["0.8.5","0.8.4","0.8.4","0.8.0","0.8.0"];
+        var versions = ["0.8.5","0.8.5","0.8.4","0.8.4","0.8.0"];
     </script>
 
 

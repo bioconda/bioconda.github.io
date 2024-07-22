@@ -27,7 +27,7 @@ konezumiaid
       
       
 
-      ``0.3.0-0``,  ``0.2.2-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
 
@@ -85,7 +85,7 @@ konezumiaid
 
     <script>
         var package = "konezumiaid";
-        var versions = ["0.3.0","0.2.2"];
+        var versions = ["0.3.1","0.3.0","0.2.2"];
     </script>
 
 
