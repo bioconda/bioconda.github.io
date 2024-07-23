@@ -28,10 +28,10 @@ staden_io_lib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.14-9</code>,  <code>1.14.14-8</code>,  <code>1.14.14-7</code>,  <code>1.14.14-6</code>,  <code>1.14.14-5</code>,  <code>1.14.14-4</code>,  <code>1.14.14-3</code>,  <code>1.14.14-2</code>,  <code>1.14.14-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.14.14-9</code>,  <code>1.14.14-8</code>,  <code>1.14.14-7</code>,  <code>1.14.14-6</code>,  <code>1.14.14-5</code>,  <code>1.14.14-4</code>,  <code>1.14.14-3</code>,  <code>1.14.14-2</code>,  </span></summary>
       
 
-      ``1.14.14-9``,  ``1.14.14-8``,  ``1.14.14-7``,  ``1.14.14-6``,  ``1.14.14-5``,  ``1.14.14-4``,  ``1.14.14-3``,  ``1.14.14-2``,  ``1.14.14-1``,  ``1.14.14-0``,  ``1.14.13-1``,  ``1.14.13-0``,  ``1.14.12-1``,  ``1.14.12-0``,  ``1.14.11-1``,  ``1.14.11-0``
+      ``1.15.0-0``,  ``1.14.14-9``,  ``1.14.14-8``,  ``1.14.14-7``,  ``1.14.14-6``,  ``1.14.14-5``,  ``1.14.14-4``,  ``1.14.14-3``,  ``1.14.14-2``,  ``1.14.14-1``,  ``1.14.14-0``,  ``1.14.13-1``,  ``1.14.13-0``,  ``1.14.12-1``,  ``1.14.12-0``,  ``1.14.11-1``,  ``1.14.11-0``
 
       
       .. raw:: html
@@ -41,12 +41,11 @@ staden_io_lib
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends curl: 
+   :depends libcurl: ``>=8.8.0,<9.0a0``
    :depends libdeflate: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +93,7 @@ staden_io_lib
 
     <script>
         var package = "staden_io_lib";
-        var versions = ["1.14.14","1.14.14","1.14.14","1.14.14","1.14.14"];
+        var versions = ["1.15.0","1.14.14","1.14.14","1.14.14","1.14.14"];
     </script>
 
 

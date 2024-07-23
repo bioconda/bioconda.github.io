@@ -27,7 +27,7 @@ fraposa-pgsc
       
       
 
-      ``0.1.1-0``
+      ``1.0.0-0``,  ``0.1.1-0``
 
       
 
@@ -85,7 +85,7 @@ fraposa-pgsc
 
     <script>
         var package = "fraposa-pgsc";
-        var versions = ["0.1.1"];
+        var versions = ["1.0.0","0.1.1"];
     </script>
 
 

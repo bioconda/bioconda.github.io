@@ -28,10 +28,10 @@ dajin2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  </span></summary>
       
 
-      ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -45,9 +45,9 @@ dajin2
    :depends jinja2: ``>=3.1.0``
    :depends mappy: ``>=2.24``
    :depends midsv: ``>=0.11.0``
+   :depends networkx: ``>=3.0``
    :depends numpy: ``>=1.24.0``
    :depends openpyxl: ``>=3.1.0``
-   :depends ortools-python: ``>=9.0``
    :depends pandas: ``>=1.0.0``
    :depends plotly: ``>=5.19.0``
    :depends pysam: ``>=0.21.0``
@@ -106,7 +106,7 @@ dajin2
 
     <script>
         var package = "dajin2";
-        var versions = ["0.5.3","0.5.2","0.5.1","0.5.0","0.4.6"];
+        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.5.0"];
     </script>
 
 

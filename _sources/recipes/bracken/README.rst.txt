@@ -13,9 +13,11 @@ bracken
    Bracken \(Bayesian Reestimation of Abundance with KrakEN\) is a highly accurate statistical method that computes the abundance of species in DNA sequences from a metagenomics sample.
 
    :homepage: https://github.com/jenniferlu717/Bracken
-   :license: GPL-3.0
+   :documentation: https://github.com/jenniferlu717/Bracken/blob/v3.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bracken <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bracken>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bracken/meta.yaml>`_
-   :links: biotools: :biotools:`Bracken`, doi: :doi:`10.7717/peerj-cs.104`
+   :links: biotools: :biotools:`Bracken`, usegalaxy-eu: :usegalaxy-eu:`est_abundance`, doi: :doi:`10.7717/peerj-cs.104`
 
    
 
@@ -29,10 +31,10 @@ bracken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9-1</code>,  <code>2.9-0</code>,  <code>2.8-1</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-3</code>,  <code>2.6.1-2</code>,  <code>2.6.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0-0</code>,  <code>2.9-1</code>,  <code>2.9-0</code>,  <code>2.8-1</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-3</code>,  <code>2.6.1-2</code>,  </span></summary>
       
 
-      ``2.9-1``,  ``2.9-0``,  ``2.8-1``,  ``2.8-0``,  ``2.7-0``,  ``2.6.2-0``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.2-1``,  ``2.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.0-0``,  ``2.9-1``,  ``2.9-0``,  ``2.8-1``,  ``2.8-0``,  ``2.7-0``,  ``2.6.2-0``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.2-1``,  ``2.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -45,8 +47,7 @@ bracken
    :depends kraken2: 
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +95,7 @@ bracken
 
     <script>
         var package = "bracken";
-        var versions = ["2.9","2.9","2.8","2.8","2.7"];
+        var versions = ["3.0","2.9","2.9","2.8","2.8"];
     </script>
 
 
