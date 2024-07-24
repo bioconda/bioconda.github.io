@@ -10,10 +10,10 @@ metav
    :replaces_section_title:
    :noindex:
 
-   rapid detection and classification of viruses in metagenomics sequencing.
+   Rapid detection and classification of viruses in metagenomics sequencing.
 
    :homepage: https://github.com/ZhijianZhou01/metav
-   :license: LGPL / LGPL-2.1-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`metav <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metav>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metav/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ metav
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -86,7 +86,7 @@ metav
 
     <script>
         var package = "metav";
-        var versions = ["1.0.4","1.0.4"];
+        var versions = ["1.0.5","1.0.4","1.0.4"];
     </script>
 
 

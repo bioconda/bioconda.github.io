@@ -13,7 +13,9 @@ zdb
    zDB is both a bacterial comparative genomics pipeline and a tool to visualize the results
 
    :homepage: https://github.com/metagenlab/zDB/
-   :license: MIT
+   :documentation: https://zdb.readthedocs.io/en/latest/
+   
+   :license: MIT / MIT
    :recipe: /`zdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zdb/meta.yaml>`_
    :links: biotools: :biotools:`zDB`
 
@@ -29,10 +31,10 @@ zdb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,7 +44,7 @@ zdb
 
    
    :depends mamba: 
-   :depends nextflow: ``>=21.04.0,<=22.10.8``
+   :depends nextflow: ``>=21.04.0``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +92,7 @@ zdb
 
     <script>
         var package = "zdb";
-        var versions = ["1.3.1","1.3.0","1.2.3","1.2.1","1.2.1"];
+        var versions = ["1.3.1","1.3.1","1.3.0","1.2.3","1.2.1"];
     </script>
 
 

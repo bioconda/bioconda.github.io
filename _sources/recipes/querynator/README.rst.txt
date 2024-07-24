@@ -32,10 +32,10 @@ querynator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-0</code>,  </span></summary>
       
 
-      ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``
+      ``0.5.3-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -107,7 +107,7 @@ querynator
 
     <script>
         var package = "querynator";
-        var versions = ["0.5.2","0.5.2","0.5.1","0.5.0","0.4.2"];
+        var versions = ["0.5.3","0.5.2","0.5.2","0.5.1","0.5.0"];
     </script>
 
 

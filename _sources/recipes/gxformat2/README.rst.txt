@@ -13,7 +13,7 @@ gxformat2
    Galaxy Workflow Format 2 Descriptions
 
    :homepage: https://github.com/jmchilton/gxformat2
-   :license: OTHER / AFL-3.0-only
+   :license: MIT / MIT
    :recipe: /`gxformat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gxformat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gxformat2/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ gxformat2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  </span></summary>
       
 
-      ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.0-2``,  ``0.2.0-0``
+      ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.0-2``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,9 @@ gxformat2
 
    
    :depends bioblend: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends pyyaml: 
+   :depends schema-salad: ``>=8.2``
    :depends six: ``>=1.9.0``
    :requirements:
 
@@ -91,7 +92,7 @@ gxformat2
 
     <script>
         var package = "gxformat2";
-        var versions = ["0.18.0","0.17.0","0.16.0","0.15.0","0.14.0"];
+        var versions = ["0.19.0","0.18.0","0.17.0","0.16.0","0.15.0"];
     </script>
 
 

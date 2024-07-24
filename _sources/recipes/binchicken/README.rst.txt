@@ -13,7 +13,9 @@ binchicken
    Targeted recovery of low abundance metagenome assembled genomes through intelligent coassembly
 
    :homepage: https://github.com/aroneys/binchicken
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :documentation: https://aroneys.github.io/binchicken
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`binchicken <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binchicken>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binchicken/meta.yaml>`_
 
    
@@ -27,23 +29,25 @@ binchicken
       
       
 
-      ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
+      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
 
       
 
    
-   :depends bird_tool_utils_python: ``0.4.*``
-   :depends extern: ``0.4.*``
-   :depends mamba: ``1.4.*``
-   :depends networkx: ``3.1.*``
-   :depends parallel: ``20230522.*``
-   :depends pigz: ``2.3.*``
-   :depends polars: ``0.20.*``
-   :depends pyarrow: ``12.0.*``
+   :depends bird_tool_utils_python: 
+   :depends extern: 
+   :depends mamba: 
+   :depends networkx: 
+   :depends parallel: 
+   :depends pigz: 
+   :depends polars: 
+   :depends pyarrow: 
    :depends pyopenssl: ``>22.1.0``
-   :depends python: ``3.10.*``
-   :depends ruamel.yaml: ``0.17.*``
-   :depends snakemake: ``7.32.*``
+   :depends python: ``>=3.10``
+   :depends ruamel.yaml: ``>=0.15.99``
+   :depends snakemake-minimal: ``>=6.0.5,<8``
+   :depends sourmash: ``4.8.*``
+   :depends sourmash_plugin_branchwater: ``0.9.*``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +95,7 @@ binchicken
 
     <script>
         var package = "binchicken";
-        var versions = ["0.11.0","0.10.5","0.10.4","0.10.3","0.10.0"];
+        var versions = ["0.12.0","0.11.0","0.10.5","0.10.4","0.10.3"];
     </script>
 
 

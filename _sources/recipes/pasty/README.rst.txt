@@ -27,15 +27,12 @@ pasty
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends blast: 
-   :depends executor: 
-   :depends python: ``>=3.7``
-   :depends rich-click: 
+   :depends camlhmp: ``>=0.2.2``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +80,7 @@ pasty
 
     <script>
         var package = "pasty";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["2.0.0","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

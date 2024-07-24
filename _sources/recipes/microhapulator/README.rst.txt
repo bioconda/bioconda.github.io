@@ -13,7 +13,7 @@ microhapulator
    Tools for empirical microhaplotype calling\, forensic interpretation\, and simulation.
 
    :homepage: https://github.com/bioforensics/MicroHapulator/
-   :license: BSD / BSD License
+   :license: BSD / BSD-3-Clause
    :recipe: /`microhapulator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/microhapulator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/microhapulator/meta.yaml>`_
 
    
@@ -26,27 +26,40 @@ microhapulator
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.8-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.4.1-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
+      
 
+      ``0.8-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: ``1.78``
+   :depends biopython: 
    :depends bwa: ``>=0.7.17``
    :depends fastqc: ``>=0.11.9``
    :depends flash: ``>=1.2``
    :depends happer: ``>=0.1``
-   :depends insilicoseq: ``>=1.5.4``
-   :depends jsonschema: ``>=3.1``
+   :depends insilicoseq: ``>=1.5.4,<2.0``
+   :depends jsonschema: ``>=4.0``
    :depends matplotlib-base: ``>=3.0``
-   :depends numpy: ``>=1.15.4``
-   :depends pandas: ``>=1.0``
+   :depends microhapdb: ``>=0.10.1``
+   :depends multiqc: ``>=1.14``
+   :depends nbformat: ``>=5.0,<5.6``
+   :depends numpy: ``>=1.19``
+   :depends pandas: ``>1.0``
+   :depends pulp: ``2.3.1``
    :depends pysam: ``>=0.15.2``
-   :depends python: ``>=3``
+   :depends python: ``<3.12``
    :depends samtools: ``>=1.12``
    :depends scipy: ``>=1.7``
-   :depends snakemake: ``>=6.0``
+   :depends seaborn-base: ``>=0.13.2``
+   :depends snakemake-minimal: ``>=7.15.2,<8.0``
    :depends termgraph: ``>=0.5``
    :depends tqdm: ``>=4.0``
    :requirements:
@@ -96,7 +109,7 @@ microhapulator
 
     <script>
         var package = "microhapulator";
-        var versions = ["0.7.2","0.7.1","0.6.1","0.5","0.5"];
+        var versions = ["0.8","0.7.2","0.7.1","0.6.1","0.5"];
     </script>
 
 

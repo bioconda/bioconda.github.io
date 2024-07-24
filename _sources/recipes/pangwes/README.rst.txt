@@ -28,7 +28,7 @@ pangwes
       
       
 
-      ``0.2.0_alpha-0``
+      ``0.3.0_alpha-0``,  ``0.2.0_alpha-0``
 
       
 
@@ -85,7 +85,7 @@ pangwes
 
     <script>
         var package = "pangwes";
-        var versions = ["0.2.0_alpha"];
+        var versions = ["0.3.0_alpha","0.2.0_alpha"];
     </script>
 
 
