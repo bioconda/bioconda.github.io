@@ -27,13 +27,13 @@ narfmap
       
       
 
-      ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-0``
+      ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-0``
 
       
 
    
-   :depends boost: 
-   :depends boost-cpp: 
+   :depends boost: ``>=1.69,<=1.71``
+   :depends boost-cpp: ``>=1.69,<=1.71``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
@@ -85,7 +85,7 @@ narfmap
 
     <script>
         var package = "narfmap";
-        var versions = ["1.4.2","1.4.2","1.4.2","1.4.0"];
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.2","1.4.0"];
     </script>
 
 

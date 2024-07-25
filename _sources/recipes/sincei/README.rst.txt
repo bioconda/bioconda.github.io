@@ -28,11 +28,12 @@ sincei
       
       
 
-      ``0.4-0``,  ``0.3.1-0``
+      ``0.4-1``,  ``0.4-0``,  ``0.3.1-0``
 
       
 
    
+   :depends anndata: 
    :depends deeptools: 
    :depends gensim: 
    :depends importlib-metadata: 
@@ -42,7 +43,9 @@ sincei
    :depends pandas: 
    :depends python: ``>=3.8``
    :depends python-igraph: 
+   :depends pytorch: 
    :depends scanpy: 
+   :depends session-info: 
    :depends umap-learn: 
    :requirements:
 
@@ -91,7 +94,7 @@ sincei
 
     <script>
         var package = "sincei";
-        var versions = ["0.4","0.3.1"];
+        var versions = ["0.4","0.4","0.3.1"];
     </script>
 
 

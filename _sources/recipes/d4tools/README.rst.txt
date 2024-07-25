@@ -14,7 +14,7 @@ d4tools
 
 
    :homepage: https://github.com/38/d4-format
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`d4tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ d4tools
       
       
 
-      ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
+      ``0.3.10-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
 
       
 
@@ -83,7 +83,7 @@ d4tools
 
     <script>
         var package = "d4tools";
-        var versions = ["0.3.8","0.3.8","0.3.7","0.3.4"];
+        var versions = ["0.3.10","0.3.8","0.3.8","0.3.7","0.3.4"];
     </script>
 
 

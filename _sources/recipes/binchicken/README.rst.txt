@@ -29,7 +29,7 @@ binchicken
       
       
 
-      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
+      ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
 
       
 
@@ -40,10 +40,10 @@ binchicken
    :depends networkx: 
    :depends parallel: 
    :depends pigz: 
-   :depends polars: 
+   :depends polars: ``0.20.31.*``
    :depends pyarrow: 
    :depends pyopenssl: ``>22.1.0``
-   :depends python: ``>=3.10``
+   :depends python: ``3.10.*``
    :depends ruamel.yaml: ``>=0.15.99``
    :depends snakemake-minimal: ``>=6.0.5,<8``
    :depends sourmash: ``4.8.*``
@@ -95,7 +95,7 @@ binchicken
 
     <script>
         var package = "binchicken";
-        var versions = ["0.12.0","0.11.0","0.10.5","0.10.4","0.10.3"];
+        var versions = ["0.12.1","0.12.0","0.12.0","0.11.0","0.10.5"];
     </script>
 
 

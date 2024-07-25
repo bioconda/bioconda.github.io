@@ -27,7 +27,7 @@ el_gato
       
       
 
-      ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
+      ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
 
       
 
@@ -37,6 +37,7 @@ el_gato
    :depends ispcr: ``>=33.0``
    :depends minimap2: ``>=2.24``
    :depends nextflow: 
+   :depends packaging: 
    :depends python: ``>=3.8,<3.12``
    :depends samtools: ``>=1.15.1``
    :requirements:
@@ -86,7 +87,7 @@ el_gato
 
     <script>
         var package = "el_gato";
-        var versions = ["1.15.2","1.15.0","1.14.4"];
+        var versions = ["1.18.0","1.15.2","1.15.0","1.14.4"];
     </script>
 
 
