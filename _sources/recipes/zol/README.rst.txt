@@ -28,10 +28,10 @@ zol
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.10-0</code>,  <code>1.4.9-1</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.10-1</code>,  <code>1.4.10-0</code>,  <code>1.4.9-1</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  </span></summary>
       
 
-      ``1.4.10-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
       .. raw:: html
@@ -64,15 +64,14 @@ zol
    :depends prodigal-gv: 
    :depends pyhmmer: 
    :depends pyrodigal: 
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: 
    :depends r-cowplot: 
    :depends r-gggenes: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends scikit-learn: 
-   :depends setuptools: 
    :depends skani: ``>=0.2.2``
    :depends slclust: 
    :depends trimal: 
@@ -124,7 +123,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.4.10","1.4.9","1.4.9","1.4.8","1.4.7"];
+        var versions = ["1.4.10","1.4.10","1.4.9","1.4.9","1.4.8"];
     </script>
 
 

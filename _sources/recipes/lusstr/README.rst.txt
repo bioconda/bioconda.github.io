@@ -28,10 +28,10 @@ lusstr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6.4-0</code>,  <code>0.5-0</code>,  <code>0.4-0</code>,  <code>0.3-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10-0</code>,  <code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6.4-0</code>,  <code>0.5-0</code>,  <code>0.4-0</code>,  <code>0.3-0</code>,  </span></summary>
       
 
-      ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6.4-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.10-0``,  ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6.4-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,11 +41,14 @@ lusstr
 
    
    :depends matplotlib-base: ``>=3.5.3``
+   :depends numpy: ``1.26.4``
    :depends openpyxl: ``>=3.0.6``
    :depends pandas: ``>=1.0,<2.0``
    :depends python: ``>=3,<3.12``
    :depends pyyaml: ``>=6.0``
    :depends snakemake-minimal: ``>=7.22.0,<8.0``
+   :depends streamlit: ``>=1.31.0``
+   :depends streamlit_option_menu: ``>=0.3.13``
    :depends xlrd: ``>=1.0,<2.0``
    :requirements:
 
@@ -94,7 +97,7 @@ lusstr
 
     <script>
         var package = "lusstr";
-        var versions = ["0.9","0.8","0.8","0.7","0.6.4"];
+        var versions = ["0.10","0.9","0.8","0.8","0.7"];
     </script>
 
 

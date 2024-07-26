@@ -13,7 +13,7 @@ deepmei
    A tool to detect mobile elements insertion
 
    :homepage: https://github.com/Kanglu123/deepmei/tree/deepmei-v1.6.24
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`deepmei <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepmei>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepmei/meta.yaml>`_
 
    
@@ -27,19 +27,19 @@ deepmei
       
       
 
-      ``1.6.24-0``,  ``1.0.0-0``
+      ``1.6.24-1``,  ``1.6.24-0``,  ``1.0.0-0``
 
       
 
    
    :depends bedtools: ``2.30.0.*``
-   :depends bwa: 
+   :depends bwa: ``0.7.17.*``
    :depends perl: ``5.32.1.*``
    :depends pysam: ``0.17.0.*``
    :depends python: ``>=3.8,<=3.9``
-   :depends repeatmasker: 
-   :depends samtools: 
-   :depends tensorflow: ``2.7.0.*``
+   :depends repeatmasker: ``4.1.2.p1.*``
+   :depends samtools: ``1.18.*``
+   :depends tensorflow: ``>=2.7.0,<=2.10.0``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +87,7 @@ deepmei
 
     <script>
         var package = "deepmei";
-        var versions = ["1.6.24","1.0.0"];
+        var versions = ["1.6.24","1.6.24","1.0.0"];
     </script>
 
 

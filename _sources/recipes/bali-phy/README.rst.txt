@@ -29,7 +29,7 @@ bali-phy
       
       
 
-      ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
+      ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
 
       
 
@@ -40,7 +40,7 @@ bali-phy
    :depends glib: 
    :depends gnuplot: 
    :depends libgcc-ng: ``>=12``
-   :depends libglib: ``>=2.80.2,<3.0a0``
+   :depends libglib: ``>=2.80.3,<3.0a0``
    :depends libstdcxx-ng: ``>=12``
    :depends pandoc: 
    :depends perl: 
@@ -93,7 +93,7 @@ bali-phy
 
     <script>
         var package = "bali-phy";
-        var versions = ["4.0beta14","4.0beta13","3.6.0","3.6.0","3.6.0"];
+        var versions = ["4.0beta15","4.0beta15","4.0beta14","4.0beta13","3.6.0"];
     </script>
 
 
