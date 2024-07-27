@@ -27,7 +27,7 @@ metacerberus-lite
       
       
 
-      ``1.3.1-0``
+      ``1.3.2-0``,  ``1.3.1-0``
 
       
 
@@ -35,7 +35,6 @@ metacerberus-lite
    :depends configargparse: 
    :depends dominate: 
    :depends flash2: 
-   :depends grpcio: ``1.43.*``
    :depends metaomestats: 
    :depends pandas: 
    :depends plotly: 
@@ -45,10 +44,6 @@ metacerberus-lite
    :depends pyrodigal-gv: 
    :depends python: ``>=3.8``
    :depends python-kaleido: 
-   :depends ray-core: ``<=2.6.3``
-   :depends ray-dashboard: ``<=2.6.3``
-   :depends ray-default: ``<=2.6.3``
-   :depends ray-tune: ``<=2.6.3``
    :depends scikit-learn: 
    :depends setuptools: ``<70.0.0``
    :requirements:
@@ -98,7 +93,7 @@ metacerberus-lite
 
     <script>
         var package = "metacerberus-lite";
-        var versions = ["1.3.1"];
+        var versions = ["1.3.2","1.3.1"];
     </script>
 
 
