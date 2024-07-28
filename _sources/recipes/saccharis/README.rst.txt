@@ -13,7 +13,7 @@ saccharis
    A CAZyme discovery tool. Easily create phylogenetic trees from FASTA files and CAZyme families.
 
    :homepage: https://github.com/saccharis/SACCHARIS_2
-   :license: GPL v3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`saccharis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saccharis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saccharis/meta.yaml>`_
 
    Bioinformatics pipeline to automate phylogenetic analysis of CAZyme families in FASTA sequences via creation of phylogenetic trees.
@@ -27,7 +27,7 @@ saccharis
       
       
 
-      ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
+      ``2.0.1-0``,  ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
 
@@ -35,7 +35,7 @@ saccharis
    :depends beautifulsoup4: ``>=4.11.1``
    :depends biopython: ``>=1.79``
    :depends blast: ``>=2.*``
-   :depends dbcan: ``>=3.0.6,<4``
+   :depends dbcan: ``<4``
    :depends diamond: ``>=2.0.15``
    :depends fasttree: ``>=2.1.11``
    :depends hmmer: ``>=3.3``
@@ -99,7 +99,7 @@ saccharis
 
     <script>
         var package = "saccharis";
-        var versions = ["2.0.0.dev21","2.0.0.dev21","2.0.0.dev20","2.0.0.dev19","2.0.0.dev19"];
+        var versions = ["2.0.1","2.0.0.dev21","2.0.0.dev21","2.0.0.dev20","2.0.0.dev19"];
     </script>
 
 

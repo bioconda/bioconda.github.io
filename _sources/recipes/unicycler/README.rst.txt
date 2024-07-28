@@ -10,12 +10,14 @@ unicycler
    :replaces_section_title:
    :noindex:
 
-   Hybrid assembly pipeline for bacterial genomes
+   Hybrid assembly pipeline for bacterial genomes.
 
    :homepage: https://github.com/rrwick/Unicycler
-   :license: GPL / GPL-3.0
+   :documentation: https://github.com/rrwick/Unicycler/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`unicycler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unicycler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unicycler/meta.yaml>`_
-   :links: biotools: :biotools:`unicycler`, usegalaxy-eu: :usegalaxy-eu:`unicycler`
+   :links: biotools: :biotools:`unicycler`, usegalaxy-eu: :usegalaxy-eu:`unicycler`, doi: :doi:`10.1371/journal.pcbi.1005595`
 
    
 
@@ -29,10 +31,10 @@ unicycler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-5</code>,  <code>0.5.0-4</code>,  <code>0.5.0-3</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.8-5</code>,  <code>0.4.8-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-5</code>,  <code>0.5.0-4</code>,  <code>0.5.0-3</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.8-5</code>,  </span></summary>
       
 
-      ``0.5.1-0``,  ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-7``,  ``0.4.4-6``,  ``0.4.4-5``,  ``0.4.4-4``,  ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
+      ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-7``,  ``0.4.4-6``,  ``0.4.4-5``,  ``0.4.4-4``,  ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -49,7 +51,7 @@ unicycler
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends racon: 
-   :depends spades: ``>=3.15.4,<4``
+   :depends spades: ``>=3.15.4``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +99,7 @@ unicycler
 
     <script>
         var package = "unicycler";
-        var versions = ["0.5.1","0.5.0","0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.5.1","0.5.1","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

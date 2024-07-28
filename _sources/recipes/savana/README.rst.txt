@@ -13,7 +13,7 @@ savana
    SAVANA\: a somatic structural variant caller for long\-read data
 
    :homepage: https://github.com/cortes-ciriano-lab/savana
-   :license: Free for Academic Use
+   :license: Apache-2.0
    :recipe: /`savana <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savana>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savana/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ savana
       
       
 
-      ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.1-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.1-0``
 
       
 
@@ -38,7 +38,7 @@ savana
    :depends pybedtools: ``>=0.9.0``
    :depends pysam: ``>=0.20.0``
    :depends python: ``>=3.9``
-   :depends scikit-learn: ``>=1.2.2,<1.3.0``
+   :depends scikit-learn: ``1.2.2.*``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ savana
 
     <script>
         var package = "savana";
-        var versions = ["1.2.0","1.0.5","1.0.4","1.0.3","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.0.5","1.0.4","1.0.3"];
     </script>
 
 
