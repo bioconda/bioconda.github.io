@@ -30,7 +30,7 @@ scmidas
       
       
 
-      ``0.0.17-0``
+      ``0.0.18-0``,  ``0.0.17-0``
 
       
 
@@ -96,7 +96,7 @@ scmidas
 
     <script>
         var package = "scmidas";
-        var versions = ["0.0.17"];
+        var versions = ["0.0.18","0.0.17"];
     </script>
 
 

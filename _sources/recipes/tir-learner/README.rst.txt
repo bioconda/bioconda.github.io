@@ -13,7 +13,7 @@ tir-learner
    An ensemble pipeline for terminal inverted repeat \(TIR\) transposable elements annotation
 
    :homepage: https://github.com/lutianyu2001/TIR-Learner
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tir-learner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tir-learner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tir-learner/meta.yaml>`_
    :links: doi: :doi:`10.6084/m9.figshare.26082574.v1`
 
@@ -28,7 +28,7 @@ tir-learner
       
       
 
-      ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
 
@@ -37,14 +37,13 @@ tir-learner
    :depends blast: 
    :depends genericrepeatfinder: 
    :depends genometools-genometools: 
-   :depends glob2: 
    :depends keras: ``>=3.3.3``
    :depends multiprocess: 
    :depends pandas: 
+   :depends pytorch: 
    :depends regex: 
    :depends scikit-learn: ``>=1.3``
    :depends swifter: 
-   :depends tensorflow: ``>=2.11``
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +91,7 @@ tir-learner
 
     <script>
         var package = "tir-learner";
-        var versions = ["3.0.2","3.0.2","3.0.1"];
+        var versions = ["3.0.3","3.0.2","3.0.2","3.0.1"];
     </script>
 
 
