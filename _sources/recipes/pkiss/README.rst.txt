@@ -13,7 +13,7 @@ pkiss
    RNA secondary structure prediction including K\-type and kissing hairpin\- pseudoknots.
 
    :homepage: https://bibiserv.cebitec.uni-bielefeld.de/pkiss
-   :license: GPLv3+
+   :license: GPL-3.0-or-later
    :recipe: /`pkiss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pkiss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pkiss/meta.yaml>`_
    :links: doi: :doi:`10.1007/978-3-642-15294-8_5`, doi: :doi:`10.1093/bioinformatics/btu649`
 
@@ -27,13 +27,22 @@ pkiss
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.14-3``,  ``2.2.14-2``,  ``2.2.14-1``,  ``2.2.14-0``,  ``2.2.12-5``,  ``2.2.12-4``,  ``2.2.12-3``,  ``2.2.12-1``,  ``2.2.12-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.14-3</code>,  <code>2.2.14-2</code>,  <code>2.2.14-1</code>,  <code>2.2.14-0</code>,  <code>2.2.12-5</code>,  <code>2.2.12-4</code>,  <code>2.2.12-3</code>,  <code>2.2.12-1</code>,  </span></summary>
+      
 
+      ``2.3.0-0``,  ``2.2.14-3``,  ``2.2.14-2``,  ``2.2.14-1``,  ``2.2.14-0``,  ``2.2.12-5``,  ``2.2.12-4``,  ``2.2.12-3``,  ``2.2.12-1``,  ``2.2.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bellmans-gapc: ``>=2020.12.08``
+   :depends bellmans-gapc: ``>=2024.01.12``
+   :depends bellmans-gapc: ``>=2024.1.12``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -84,7 +93,7 @@ pkiss
 
     <script>
         var package = "pkiss";
-        var versions = ["2.2.14","2.2.14","2.2.14","2.2.14","2.2.12"];
+        var versions = ["2.3.0","2.2.14","2.2.14","2.2.14","2.2.14"];
     </script>
 
 

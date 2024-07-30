@@ -27,7 +27,7 @@ pgscatalog.core
       
       
 
-      ``0.2.1-0``
+      ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -87,7 +87,7 @@ pgscatalog.core
 
     <script>
         var package = "pgscatalog.core";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.2","0.2.1"];
     </script>
 
 

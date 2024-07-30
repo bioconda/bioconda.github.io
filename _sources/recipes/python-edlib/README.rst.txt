@@ -13,7 +13,7 @@ python-edlib
    Lightweight\, super fast C\/C\+\+ \(\& Python\) library for sequence alignment using edit \(Levenshtein\) distance.
 
    :homepage: https://github.com/Martinsos/edlib
-   :documentation: https://martinsos.github.io/edlib/
+   :documentation: https://martinsos.github.io/edlib
    
    :license: MIT / MIT
    :recipe: /`python-edlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-edlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-edlib/meta.yaml>`_
@@ -31,10 +31,10 @@ python-edlib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.9-7</code>,  <code>1.3.9-6</code>,  <code>1.3.9-5</code>,  <code>1.3.9-4</code>,  <code>1.3.9-3</code>,  <code>1.3.9-2</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8.post2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.9-8</code>,  <code>1.3.9-7</code>,  <code>1.3.9-6</code>,  <code>1.3.9-5</code>,  <code>1.3.9-4</code>,  <code>1.3.9-3</code>,  <code>1.3.9-2</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  </span></summary>
       
 
-      ``1.3.9-7``,  ``1.3.9-6``,  ``1.3.9-5``,  ``1.3.9-4``,  ``1.3.9-3``,  ``1.3.9-2``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8.post2-1``,  ``1.3.8.post2-0``,  ``1.3.8.post1-2``,  ``1.3.8.post1-1``,  ``1.3.8.post1-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.2.4.post1-0``,  ``1.2.4-0``,  ``1.2.3.post1-0``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.3.9-8``,  ``1.3.9-7``,  ``1.3.9-6``,  ``1.3.9-5``,  ``1.3.9-4``,  ``1.3.9-3``,  ``1.3.9-2``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8.post2-1``,  ``1.3.8.post2-0``,  ``1.3.8.post1-2``,  ``1.3.8.post1-1``,  ``1.3.8.post1-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.2.4.post1-0``,  ``1.2.4-0``,  ``1.2.3.post1-0``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
       .. raw:: html

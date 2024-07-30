@@ -12,8 +12,10 @@ r-recetox-aplcms
 
    apLCMS is a software which generates a feature table from a batch of LC\/MS spectra. A modified fork of the original apLCMS by Tianwei Yu.
 
-   :homepage: https://github.com/RECETOX
-   :license: GPL-2.0
+   :homepage: https://github.com/RECETOX/recetox-aplcms
+   :documentation: https://mypage.cuhk.edu.cn/academics/yutianwei/apLCMS
+   
+   :license: GPL-2.0-or-later
    :recipe: /`r-recetox-aplcms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-aplcms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-aplcms/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btp291`, doi: :doi:`10.1186/1471-2105-11-559`, doi: :doi:`10.1021/pr301053d`, doi: :doi:`10.1093/bioinformatics/btu430`, doi: :doi:`10.1038/s41598-020-70850-0`
 
@@ -29,10 +31,10 @@ r-recetox-aplcms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.3-2</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.0-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.3-2</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-1</code>,  </span></summary>
       
 
-      ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
+      ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
 
       
       .. raw:: html
@@ -41,18 +43,19 @@ r-recetox-aplcms
       
 
    
-   :depends bioconductor-mzr: 
-   :depends r-arrow: ``>=7.0.0,<10.0.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-mzr: ``2.36.0``
+   :depends r-arrow: 
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-foreach: 
    :depends r-iterators: 
    :depends r-mass: 
+   :depends r-plyr: 
    :depends r-rcpp: 
    :depends r-snow: 
    :depends r-splines2: 
-   :depends r-stringi: ``>=1.7.12``
+   :depends r-stringi: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
@@ -103,7 +106,7 @@ r-recetox-aplcms
 
     <script>
         var package = "r-recetox-aplcms";
-        var versions = ["0.12.0","0.12.0","0.11.0","0.11.0","0.10.3"];
+        var versions = ["0.13.0","0.12.0","0.12.0","0.11.0","0.11.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ pacu_snp
       
       
 
-      ``0.0.3-0``
+      ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -99,7 +99,7 @@ pacu_snp
 
     <script>
         var package = "pacu_snp";
-        var versions = ["0.0.3"];
+        var versions = ["0.0.4","0.0.3"];
     </script>
 
 

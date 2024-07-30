@@ -10,10 +10,12 @@ cellprofiler-core
    :replaces_section_title:
    :noindex:
 
-   Dependency for CellProfiler v4
+   Dependency for CellProfiler v4.
 
    :homepage: https://github.com/CellProfiler/core
-   :license: BSD-3-Clause
+   :documentation: https://github.com/CellProfiler/CellProfiler/wiki
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`cellprofiler-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellprofiler-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellprofiler-core/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ cellprofiler-core
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.6-0</code>,  <code>4.2.5-0</code>,  <code>4.2.4-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.3-1</code>,  <code>4.1.3-0</code>,  <code>4.0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.7-0</code>,  <code>4.2.6-0</code>,  <code>4.2.5-0</code>,  <code>4.2.4-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.3-1</code>,  <code>4.1.3-0</code>,  </span></summary>
       
 
-      ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.0.7-0``,  ``4.0.6-0``
+      ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.0.7-0``,  ``4.0.6-0``
 
       
       .. raw:: html
@@ -41,18 +43,18 @@ cellprofiler-core
 
    
    :depends boto3: ``>=1.12.28``
-   :depends centrosome: ``1.2.1``
+   :depends centrosome: ``>=1.2.3,<1.3``
    :depends docutils: ``0.15.2``
-   :depends h5py: ``3.6.0.*``
+   :depends h5py: ``>=3.6.0,<3.7.dev0``
    :depends matplotlib-base: ``>=3.1.3``
    :depends numpy: ``>=1.18.2``
    :depends prokaryote: ``2.4.4``
    :depends psutil: ``>=5.7.0``
-   :depends python: ``>=3.6``
-   :depends python-bioformats: ``4.0.6``
+   :depends python: ``>=3.8``
+   :depends python-bioformats: ``4.0.7``
    :depends python-javabridge: ``4.0.3``
-   :depends pyzmq: ``22.3.*``
-   :depends scikit-image: ``>=0.16.2``
+   :depends pyzmq: ``>=22.3,<23.dev0``
+   :depends scikit-image: ``0.18.3``
    :depends scipy: ``>=1.4.1``
    :requirements:
 
@@ -101,7 +103,7 @@ cellprofiler-core
 
     <script>
         var package = "cellprofiler-core";
-        var versions = ["4.2.6","4.2.5","4.2.4","4.2.2","4.2.1"];
+        var versions = ["4.2.7","4.2.6","4.2.5","4.2.4","4.2.2"];
     </script>
 
 

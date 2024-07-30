@@ -29,7 +29,7 @@ pgscatalog-utils
       
       
 
-      ``1.1.2-0``,  ``1.1.1-0``
+      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
 
@@ -85,7 +85,7 @@ pgscatalog-utils
 
     <script>
         var package = "pgscatalog-utils";
-        var versions = ["1.1.2","1.1.1"];
+        var versions = ["1.2.0","1.1.2","1.1.1"];
     </script>
 
 

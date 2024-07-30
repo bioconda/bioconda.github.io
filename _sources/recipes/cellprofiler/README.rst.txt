@@ -10,10 +10,12 @@ cellprofiler
    :replaces_section_title:
    :noindex:
 
-   CellProfiler is free\, open\-source software for quantitative analysis of biological images
+   CellProfiler is free\, open\-source software for quantitative analysis of biological images.
 
    :homepage: https://github.com/CellProfiler/CellProfiler
-   :license: BSD / 3-clause BSD
+   :documentation: https://cellprofiler-manual.s3.amazonaws.com/CellProfiler-4.2.7/index.html
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`cellprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellprofiler/meta.yaml>`_
 
    CellProfiler is free\, open\-source software for quantitative analysis of biological images.No prior experience in programming or computer vision is required.
@@ -28,35 +30,37 @@ cellprofiler
       
       
 
-      ``4.2.6-0``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
+      ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
 
       
 
    
-   :depends cellprofiler-core: ``4.2.6.*``
+   :depends boto3: ``>=1.12.28``
+   :depends cellprofiler-core: ``4.2.7``
    :depends centrosome: 
    :depends docutils: 
-   :depends h5py: ``>=2.10``
+   :depends h5py: ``>=3.6.0,<3.7.dev0,<4``
+   :depends imageio: ``>=2.5``
    :depends inflect: 
    :depends jinja2: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=12``
    :depends mahotas: 
    :depends matplotlib-base: 
    :depends mysqlclient: 
    :depends numpy: 
    :depends pillow: 
    :depends prokaryote: 
-   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python: ``>=3.8``
    :depends python-bioformats: 
    :depends python-javabridge: 
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends pyzmq: ``>=22.3,<23.dev0``
    :depends requests: 
-   :depends scikit-image: ``>=0.17.2``
-   :depends scikit-learn: ``>=0.20``
-   :depends scipy: ``>=1.4.1``
+   :depends scikit-image: ``0.18.3``
+   :depends scikit-learn: ``>=0.20,<1``
+   :depends scipy: ``1.9.0``
    :depends sentry-sdk: 
    :depends six: 
+   :depends tifffile: ``<2022.4.22``
    :depends wxpython: 
    :requirements:
 
@@ -105,7 +109,7 @@ cellprofiler
 
     <script>
         var package = "cellprofiler";
-        var versions = ["4.2.6","4.2.1","4.2.1","4.2.1","4.2.1"];
+        var versions = ["4.2.7","4.2.6","4.2.1","4.2.1","4.2.1"];
     </script>
 
 

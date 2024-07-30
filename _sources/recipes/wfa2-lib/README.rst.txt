@@ -13,7 +13,7 @@ wfa2-lib
    Wavefront alignment algorithm library v2
 
    :homepage: https://github.com/smarco/WFA2-lib
-   :documentation: https://github.com/smarco/WFA2-lib/blob/main/README.md
+   :documentation: https://github.com/smarco/WFA2-lib/blob/v2.3.5/README.md
    
    :license: MIT / MIT
    :recipe: /`wfa2-lib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wfa2-lib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wfa2-lib/meta.yaml>`_
@@ -30,7 +30,7 @@ wfa2-lib
       
       
 
-      ``2.3.5-0``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+      ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
 
       
 
@@ -85,7 +85,7 @@ wfa2-lib
 
     <script>
         var package = "wfa2-lib";
-        var versions = ["2.3.5","2.3.4","2.3.4","2.3.3","2.3.3"];
+        var versions = ["2.3.5","2.3.5","2.3.4","2.3.4","2.3.3"];
     </script>
 
 
