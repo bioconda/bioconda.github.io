@@ -10,10 +10,10 @@ ucsc-blat
    :replaces_section_title:
    :noindex:
 
-   Standalone BLAT v. 37x1 fast sequence search command line tool
+   Standalone BLAT v. 39x1 fast sequence search command line tool
 
    :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v468_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see https://genome.ucsc.edu/license
@@ -31,10 +31,10 @@ ucsc-blat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>466-1</code>,  <code>466-0</code>,  <code>445-1</code>,  <code>445-0</code>,  <code>377-4</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>468-0</code>,  <code>466-1</code>,  <code>466-0</code>,  <code>445-1</code>,  <code>445-0</code>,  <code>377-4</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  </span></summary>
       
 
-      ``466-1``,  ``466-0``,  ``445-1``,  ``445-0``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
+      ``468-0``,  ``466-1``,  ``466-0``,  ``445-1``,  ``445-0``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ ucsc-blat
 
     <script>
         var package = "ucsc-blat";
-        var versions = ["466","466","445","445","377"];
+        var versions = ["468","466","466","445","445"];
     </script>
 
 

@@ -27,13 +27,14 @@ pacu_snp
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
    :depends bcftools: ``>=1.17``
    :depends beautifulsoup4: ``>=4.12.2``
+   :depends bedtools: ``>=2.31.0``
    :depends biopython: ``>=1.84``
    :depends bowtie2: ``>=2.5.1``
    :depends figtree: ``>=1.4.4``
@@ -99,7 +100,7 @@ pacu_snp
 
     <script>
         var package = "pacu_snp";
-        var versions = ["0.0.4","0.0.3"];
+        var versions = ["0.0.4","0.0.4","0.0.3"];
     </script>
 
 

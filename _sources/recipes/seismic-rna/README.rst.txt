@@ -27,7 +27,7 @@ seismic-rna
       
       
 
-      ``0.19.2-0``
+      ``0.20.0-0``,  ``0.19.2-0``
 
       
 
@@ -96,7 +96,7 @@ seismic-rna
 
     <script>
         var package = "seismic-rna";
-        var versions = ["0.19.2"];
+        var versions = ["0.20.0","0.19.2"];
     </script>
 
 

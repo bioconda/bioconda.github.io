@@ -12,8 +12,8 @@ perl-json-xs
 
    JSON serialising\/deserialising\, done correctly and fast
 
-   :homepage: http://metacpan.org/pod/JSON::XS
-   :license: unknown
+   :homepage: https://metacpan.org/pod/JSON::XS
+   :license: GPL-1.0-or-later OR Artistic-1.0-Perl
    :recipe: /`perl-json-xs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-xs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-xs/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-json-xs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.03-2</code>,  <code>4.03-1</code>,  <code>4.03-0</code>,  <code>4.02-3</code>,  <code>4.02-2</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  <code>4.0-0</code>,  <code>3.04-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.03-3</code>,  <code>4.03-2</code>,  <code>4.03-1</code>,  <code>4.03-0</code>,  <code>4.02-3</code>,  <code>4.02-2</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  <code>4.0-0</code>,  </span></summary>
       
 
-      ``4.03-2``,  ``4.03-1``,  ``4.03-0``,  ``4.02-3``,  ``4.02-2``,  ``4.02-1``,  ``4.02-0``,  ``4.0-0``,  ``3.04-0``,  ``2.34-6``,  ``2.34-5``,  ``2.34-4``,  ``2.34-3``,  ``2.34-2``,  ``2.34-1``,  ``2.34-0``
+      ``4.03-3``,  ``4.03-2``,  ``4.03-1``,  ``4.03-0``,  ``4.02-3``,  ``4.02-2``,  ``4.02-1``,  ``4.02-0``,  ``4.0-0``,  ``3.04-0``,  ``2.34-6``,  ``2.34-5``,  ``2.34-4``,  ``2.34-3``,  ``2.34-2``,  ``2.34-1``,  ``2.34-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ perl-json-xs
 
     <script>
         var package = "perl-json-xs";
-        var versions = ["4.03","4.03","4.03","4.02","4.02"];
+        var versions = ["4.03","4.03","4.03","4.03","4.02"];
     </script>
 
 

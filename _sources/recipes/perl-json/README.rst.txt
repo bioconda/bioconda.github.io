@@ -12,8 +12,9 @@ perl-json
 
    JSON \(JavaScript Object Notation\) encoder\/decoder
 
-   :homepage: http://metacpan.org/pod/JSON
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/JSON
+   :developer docs: https://github.com/makamaka/JSON
+   :license: GPL-1.0-or-later OR Artistic-1.0-Perl
    :recipe: /`perl-json <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json/meta.yaml>`_
 
    
@@ -28,10 +29,10 @@ perl-json
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.10-0</code>,  <code>4.09-0</code>,  <code>4.08-0</code>,  <code>4.07-0</code>,  <code>4.06-0</code>,  <code>4.05-0</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  <code>4.00-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10-1</code>,  <code>4.10-0</code>,  <code>4.09-0</code>,  <code>4.08-0</code>,  <code>4.07-0</code>,  <code>4.06-0</code>,  <code>4.05-0</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  </span></summary>
       
 
-      ``4.10-0``,  ``4.09-0``,  ``4.08-0``,  ``4.07-0``,  ``4.06-0``,  ``4.05-0``,  ``4.02-1``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
+      ``4.10-1``,  ``4.10-0``,  ``4.09-0``,  ``4.08-0``,  ``4.07-0``,  ``4.06-0``,  ``4.05-0``,  ``4.02-1``,  ``4.02-0``,  ``4.00-0``,  ``2.97001-0``,  ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
 
       
       .. raw:: html
@@ -41,7 +42,7 @@ perl-json
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-json-xs: ``<3``
+   :depends perl-json-xs: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +90,7 @@ perl-json
 
     <script>
         var package = "perl-json";
-        var versions = ["4.10","4.09","4.08","4.07","4.06"];
+        var versions = ["4.10","4.10","4.09","4.08","4.07"];
     </script>
 
 

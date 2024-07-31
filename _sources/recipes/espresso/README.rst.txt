@@ -27,13 +27,17 @@ espresso
       
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
 
    
    :depends blast: ``>=2.8.1``
    :depends hmmer: ``>=3.3.1``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl: ``>=5.8``
    :depends perl-storable: ``>=3.0``
    :depends samtools: ``>=1.6``
@@ -84,7 +88,7 @@ espresso
 
     <script>
         var package = "espresso";
-        var versions = ["1.5.0","1.4.0","1.3.2","1.3.1"];
+        var versions = ["1.5.0","1.5.0","1.4.0","1.3.2","1.3.1"];
     </script>
 
 

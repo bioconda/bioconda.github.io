@@ -10,10 +10,10 @@ dbcan
    :replaces_section_title:
    :noindex:
 
-   Standalone version of dbCAN annotation tool for automated CAZyme annotation
+   Standalone version of dbCAN annotation tool for automated CAZyme annotation.
 
-   :homepage: https://bcb.unl.edu/dbCAN2/
-   :documentation: https://dbcan.readthedocs.io/en/latest/
+   :homepage: https://bcb.unl.edu/dbCAN2
+   :documentation: https://dbcan.readthedocs.io/en/latest
    
    :developer docs: https://github.com/linnabrown/run_dbcan
    :license: GPL3 / GPL-3.0-or-later
@@ -31,7 +31,7 @@ dbcan
       
       
 
-      ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+      ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
 
@@ -47,7 +47,9 @@ dbcan
    :depends pandas: 
    :depends prodigal: 
    :depends psutil: 
+   :depends pyhmmer: 
    :depends python: ``>=3.6``
+   :depends requests: 
    :depends scipy: 
    :depends session-info: 
    :depends tqdm: 
@@ -98,7 +100,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["4.1.4","4.1.3","4.1.2","4.1.1","4.1.0"];
+        var versions = ["4.1.4","4.1.4","4.1.3","4.1.2","4.1.1"];
     </script>
 
 

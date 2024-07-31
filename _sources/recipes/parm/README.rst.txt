@@ -27,7 +27,7 @@ parm
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.6-2``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -40,7 +40,7 @@ parm
    :depends numpy: ``>=1.26.0``
    :depends optuna: 
    :depends pandas: 
-   :depends python: ``>=3.10.8``
+   :depends python: 
    :depends pytorch: 
    :depends scikit-learn: 
    :depends seaborn: 
@@ -92,7 +92,7 @@ parm
 
     <script>
         var package = "parm";
-        var versions = ["0.0.6","0.0.5","0.0.4","0.0.3","0.0.2"];
+        var versions = ["0.0.6","0.0.6","0.0.5","0.0.4","0.0.3"];
     </script>
 
 
