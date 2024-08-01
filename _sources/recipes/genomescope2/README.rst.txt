@@ -13,7 +13,7 @@ genomescope2
    Reference\-free profiling of polyploid genomes
 
    :homepage: https://github.com/tbenavi1/genomescope2.0
-   :license: Apache License, Version 2.0 (Apache-2.0)
+   :license: Apache-2.0
    :recipe: /`genomescope2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomescope2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomescope2/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ genomescope2
       
       
 
-      ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0.1-0``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
@@ -84,7 +84,7 @@ genomescope2
 
     <script>
         var package = "genomescope2";
-        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+        var versions = ["2.0.1","2.0","2.0","2.0","2.0"];
     </script>
 
 

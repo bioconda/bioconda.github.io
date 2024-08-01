@@ -32,13 +32,11 @@ reduce
       
       
 
-      ``4.14-0``
+      ``4.14-2``,  ``4.14-1``,  ``4.14-0``
 
       
 
    
-   :depends libboost: ``>=1.82.0,<1.83.0a0``
-   :depends libboost-python: ``>=1.82.0,<1.83.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -90,7 +88,7 @@ reduce
 
     <script>
         var package = "reduce";
-        var versions = ["4.14"];
+        var versions = ["4.14","4.14","4.14"];
     </script>
 
 

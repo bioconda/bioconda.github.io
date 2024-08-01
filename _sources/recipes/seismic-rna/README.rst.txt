@@ -27,13 +27,12 @@ seismic-rna
       
       
 
-      ``0.20.0-0``,  ``0.19.2-0``
+      ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
 
       
 
    
    :depends bowtie2: ``>=2.5.1``
-   :depends brotli: ``>=1.0``
    :depends brotli-python: ``>=1.0``
    :depends click: ``>=8.1``
    :depends cutadapt: ``>=4.4``
@@ -96,7 +95,7 @@ seismic-rna
 
     <script>
         var package = "seismic-rna";
-        var versions = ["0.20.0","0.19.2"];
+        var versions = ["0.20.0","0.20.0","0.19.2"];
     </script>
 
 

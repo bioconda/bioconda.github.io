@@ -28,10 +28,10 @@ orthanq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-2</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  </span></summary>
       
 
-      ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ orthanq
       
 
    
+   :depends bwa: ``>=0.7.18,<0.8.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends clangdev: 
    :depends coincbc: 
@@ -53,6 +54,7 @@ orthanq
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends minimap2: ``>=2.28,<3.0a0``
    :depends openssl: ``>=3.3.1,<4.0a0``
    :depends samtools: ``>=1.19.2,<2.0a0``
    :depends varlociraptor: ``>=8.4.7,<9.0a0``
@@ -106,7 +108,7 @@ orthanq
 
     <script>
         var package = "orthanq";
-        var versions = ["1.7.0","1.6.0","1.5.0","1.5.0","1.4.0"];
+        var versions = ["1.7.0","1.7.0","1.7.0","1.6.0","1.5.0"];
     </script>
 
 

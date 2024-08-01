@@ -30,35 +30,26 @@ neofox
       
       
 
-      ``1.1.0-0``
+      ``1.2.2-0``,  ``1.1.0-0``
 
       
 
    
    :depends betterproto: ``>=1.2.5,<1.3.0``
-   :depends bioconductor-biostrings: 
-   :depends biopython: ``1.76``
+   :depends biopython: ``>1.80``
    :depends blast: 
-   :depends dask: ``>=2022.2.0,<2023.0.0``
-   :depends distributed: ``>=2022.2.0,<2023.0.0``
+   :depends dask: ``>=2024.0.0,<=2024.6.3``
+   :depends distributed: ``>=2024.0.0,<=2024.6.2``
    :depends faker: ``>=13.13.0,<13.14.0``
    :depends logzero: ``>=1.5.0``
-   :depends mock: ``>=4.0.3,<5.0.0``
-   :depends numpy: ``>=1.21,<1.22``
-   :depends orjson: ``>=3.5.2,<4.0.0``
-   :depends pandas: ``>=1.3.5,<1.4``
-   :depends pysam: 
-   :depends python: ``>=3.7,<=3.8``
+   :depends mock: ``>=4.0.3,<4.1.0``
+   :depends numpy: ``>=1.24,<1.27``
+   :depends pandas: ``>=2.1,<2.3``
+   :depends poetry: ``1.8.2``
+   :depends pysam: ``>0.20``
+   :depends python: ``3.11``
    :depends python-dotenv: ``>=0.12.0,<0.13.0``
-   :depends r-base: 
-   :depends r-caret: 
-   :depends r-doparallel: 
-   :depends r-gbm: 
-   :depends r-ggplot2: 
-   :depends r-lattice: 
-   :depends r-peptides: 
-   :depends scikit-learn: ``0.22.1``
-   :depends scipy: ``>=1.7.3,<1.8``
+   :depends scipy: ``>=1.10.0``
    :depends xmltodict: ``>=0.12.0,<0.13.0``
    :requirements:
 
@@ -107,7 +98,7 @@ neofox
 
     <script>
         var package = "neofox";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.2","1.1.0"];
     </script>
 
 

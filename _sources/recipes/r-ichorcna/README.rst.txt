@@ -28,10 +28,10 @@ r-ichorcna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.2.0-3</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.2.0-3</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  </span></summary>
       
 
-      ``0.5.0-1``,  ``0.5.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
+      ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
 
       
       .. raw:: html
@@ -41,18 +41,17 @@ r-ichorcna
 
    
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.3,<1.5.0``
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.4,<1.5.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.7``
-   :depends bioconductor-genomicranges: ``>=1.42.0``
-   :depends bioconductor-hmmcopy: ``>=1.32.0``
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.5,<1.5.0``
+   :depends bioconductor-genomeinfodb: ``>=1.34.9``
+   :depends bioconductor-genomicranges: ``>=1.50.2``
+   :depends bioconductor-hmmcopy: ``>=1.40``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-domc: ``>=1.3.6``
-   :depends r-foreach: ``>=1.5.0``
-   :depends r-ggplot2: ``>=3.3.5``
-   :depends r-optparse: 
-   :depends r-plyr: 
-   :depends r-stringr: ``>=1.4.0``
+   :depends r-data.table: ``>=1.14``
+   :depends r-domc: ``>=1.3.8``
+   :depends r-foreach: ``>=1.5.2``
+   :depends r-ggplot2: ``>=3.4.3``
+   :depends r-plyr: ``>=1.8``
+   :depends r-stringr: ``>=1.5.0``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +99,7 @@ r-ichorcna
 
     <script>
         var package = "r-ichorcna";
-        var versions = ["0.5.0","0.5.0","0.3.2","0.3.2","0.3.2"];
+        var versions = ["0.5.1","0.5.0","0.5.0","0.3.2","0.3.2"];
     </script>
 
 
