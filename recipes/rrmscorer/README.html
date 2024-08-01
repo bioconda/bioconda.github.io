@@ -183,6 +183,7 @@ PLOS Computational Biology 19(1): e1010859.</p>
 <section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
+<div style="width: 100%" id="platform_plot"></div>
 <div style="width: 100%" id="cdf_plot"></div>
 
 <script>
@@ -229,6 +230,24 @@ PLOS Computational Biology 19(1): e1010859.</p>
             vegaEmbed('#download_plot', spec);
         } catch (err) {
             console.error("An error occurred while building downloads plot: ", err)
+        }
+
+        // Build platform download plot
+        try {
+            const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+            if (!spec_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+            }
+            const spec = await spec_resp.json();
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/platforms.json`)
+            if (!platform_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+            }
+            const plot_data = await platform_data_resp.json();
+            spec.data.values = plot_data;
+            vegaEmbed('#platform_plot', spec);
+        } catch (err) {
+            console.error("An error occurred while building platform downloads plot: ", err)
         }
   
     }

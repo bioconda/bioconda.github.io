@@ -16,7 +16,7 @@ ataqv
    :documentation: https://github.com/ParkerLab/ataqv/blob/master/README.rst
    
    :developer docs: https://github.com/ParkerLab/ataqv
-   :license: GPL3
+   :license: GPL-3.0-only
    :recipe: /`ataqv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ataqv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ataqv/meta.yaml>`_
 
    
@@ -31,10 +31,10 @@ ataqv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-4</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.3.1-4``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,13 +43,13 @@ ataqv
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends coreutils: 
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends ncurses: ``>=6.3,<7.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends ncurses: ``>=6.5,<7.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends zlib: 
@@ -100,7 +100,7 @@ ataqv
 
     <script>
         var package = "ataqv";
-        var versions = ["1.3.1","1.3.1","1.3.1","1.3.0","1.3.0"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.0"];
     </script>
 
 
