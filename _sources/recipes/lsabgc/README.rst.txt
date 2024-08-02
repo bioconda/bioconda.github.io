@@ -27,7 +27,7 @@ lsabgc
       
       
 
-      ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ lsabgc
    :depends axel: 
    :depends bioconductor-ggtree: 
    :depends biopython: 
-   :depends gecco: 
+   :depends gecco: ``0.9.6.*``
    :depends numpy: 
    :depends orthofinder: ``2.5.5.*``
    :depends pandas: 
@@ -104,7 +104,7 @@ lsabgc
 
     <script>
         var package = "lsabgc";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.3","1.0.0"];
     </script>
 
 

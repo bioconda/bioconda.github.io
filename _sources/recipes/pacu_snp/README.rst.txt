@@ -13,7 +13,7 @@ pacu_snp
    PACU is a workflow for whole genome sequencing based phylogeny of Illumina and ONT R9\/R10 data.
 
    :homepage: https://github.com/BioinformaticsPlatformWIV-ISP/PACU
-   :license: GPL / GPL-3.0
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`pacu_snp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pacu_snp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pacu_snp/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pacu_snp
       
       
 
-      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -48,7 +48,7 @@ pacu_snp
    :depends pyyaml: ``>=6.0.1``
    :depends samtools: ``>=1.17``
    :depends seqkit: ``>=2.3.1``
-   :depends snakemake: ``7.32.4``
+   :depends snakemake-minimal: ``7.32.4``
    :depends snp-dists: ``>=0.8.2``
    :depends trimmomatic: ``>=0.39``
    :depends upsetplot: ``>=0.8.0``
@@ -100,7 +100,7 @@ pacu_snp
 
     <script>
         var package = "pacu_snp";
-        var versions = ["0.0.4","0.0.4","0.0.3"];
+        var versions = ["0.0.5","0.0.4","0.0.4","0.0.3"];
     </script>
 
 

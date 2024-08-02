@@ -13,6 +13,8 @@ carveme
    CarveMe\: automated genome\-scale metabolic model reconstruction
 
    :homepage: https://github.com/cdanielmachado/carveme
+   :documentation: https://carveme.readthedocs.io/en/latest
+   
    :license: APACHE / Apache-2.0
    :recipe: /`carveme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carveme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carveme/meta.yaml>`_
 
@@ -27,7 +29,7 @@ carveme
       
       
 
-      ``1.6.1-0``
+      ``1.6.2-0``,  ``1.6.1-0``
 
       
 
@@ -87,7 +89,7 @@ carveme
 
     <script>
         var package = "carveme";
-        var versions = ["1.6.1"];
+        var versions = ["1.6.2","1.6.1"];
     </script>
 
 

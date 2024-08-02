@@ -12,7 +12,9 @@ nanomotif
 
    Identifying methlyation motifs in nanopore data
 
-   :homepage: https://pypi.org/project/nanomotif/
+   :homepage: https://github.com/MicrobialDarkMatter/nanomotif
+   :documentation: https://nanomotif.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`nanomotif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomotif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomotif/meta.yaml>`_
 
@@ -28,10 +30,10 @@ nanomotif
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  </span></summary>
       
 
-      ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
+      ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -40,6 +42,7 @@ nanomotif
       
 
    
+   :depends bio: ``>=1.6.2``
    :depends biopython: ``>=1.6.2``
    :depends networkx: ``>=3.1``
    :depends numpy: ``>=1.24.4``
@@ -50,8 +53,8 @@ nanomotif
    :depends python: 
    :depends requests: 
    :depends scipy: ``>=1.10.1``
-   :depends seaborn: ``>=0.12.2``
-   :depends snakemake: ``>=7.32.4``
+   :depends seaborn-base: ``>=0.12.2``
+   :depends snakemake-minimal: ``>=7.32.4``
    :depends wheel: 
    :requirements:
 
@@ -100,7 +103,7 @@ nanomotif
 
     <script>
         var package = "nanomotif";
-        var versions = ["0.4.9","0.4.8","0.4.7","0.4.6","0.4.5"];
+        var versions = ["0.4.11","0.4.10","0.4.9","0.4.8","0.4.7"];
     </script>
 
 

@@ -10,10 +10,10 @@ reframed
    :replaces_section_title:
    :noindex:
 
-   metabolic modeling package
+   Metabolic modeling package.
 
    :homepage: https://github.com/cdanielmachado/reframed
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`reframed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reframed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reframed/meta.yaml>`_
    :links: biotools: :biotools:`reframed`, doi: :doi:`10.5281/zenodo.7955995`
 
@@ -28,7 +28,7 @@ reframed
       
       
 
-      ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
+      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
 
       
 
@@ -87,7 +87,7 @@ reframed
 
     <script>
         var package = "reframed";
-        var versions = ["1.5.2","1.5.1","1.5.1","1.5.0","1.4.0"];
+        var versions = ["1.5.3","1.5.2","1.5.1","1.5.1","1.5.0"];
     </script>
 
 
