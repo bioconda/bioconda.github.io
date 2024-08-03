@@ -12,8 +12,10 @@ snapgene-reader
 
    Convert Snapgene \*.dna files dict\/json\/biopython.
 
-   :homepage: https://pypi.org/project/snapgene-reader/
-   :license: MIT
+   :homepage: https://github.com/Edinburgh-Genome-Foundry/SnapGeneReader
+   :documentation: https://github.com/Edinburgh-Genome-Foundry/SnapGeneReader/blob/v0.1.21/README.rst
+   
+   :license: MIT / MIT
    :recipe: /`snapgene-reader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapgene-reader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapgene-reader/meta.yaml>`_
 
    
@@ -27,14 +29,14 @@ snapgene-reader
       
       
 
-      ``0.1.20-0``
+      ``0.1.21-0``,  ``0.1.20-0``
 
       
 
    
    :depends biopython: 
    :depends html2text: 
-   :depends python: 
+   :depends python: ``>=3``
    :depends xmltodict: 
    :requirements:
 
@@ -83,7 +85,7 @@ snapgene-reader
 
     <script>
         var package = "snapgene-reader";
-        var versions = ["0.1.20"];
+        var versions = ["0.1.21","0.1.20"];
     </script>
 
 
