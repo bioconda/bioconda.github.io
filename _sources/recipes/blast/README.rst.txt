@@ -13,11 +13,21 @@ blast
    BLAST\+ is a new suite of BLAST tools that utilizes the NCBI C\+\+ Toolkit.
 
    :homepage: https://blast.ncbi.nlm.nih.gov/doc/blast-help/
-   :license: Public Domain
+   :license: NCBI-PD
    :recipe: /`blast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast/meta.yaml>`_
    :links: biotools: :biotools:`blast`, doi: :doi:`10.1016/S0022-2836(05)80360-2`, usegalaxy-eu: :usegalaxy-eu:`ncbi_blastx_wrapper`
 
-   
+   BLAST Command Line Applications.
+
+   The NCBI Basic Local Alignment Search Tool \(BLAST\) finds regions of
+   local similarity between sequences. The program compares nucleotide or
+   protein sequences to sequence databases and calculates the statistical
+   significance of matches. BLAST can be used to infer functional and
+   evolutionary relationships between sequences as well as help identify
+   members of gene families.
+
+   For more information\, visit https\:\/\/blast.ncbi.nlm.nih.gov
+
 
 
 .. conda:package:: blast

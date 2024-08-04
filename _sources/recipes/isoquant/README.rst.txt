@@ -13,7 +13,7 @@ isoquant
    IsoQuant is a tool for reference\-based analysis of long RNA reads\, such as gene\/transcript quantification and discovery.
 
    :homepage: https://github.com/ablab/IsoQuant
-   :documentation: https://github.com/ablab/IsoQuant/blob/master/README.md
+   :documentation: https://ablab.github.io/IsoQuant
    
    :license: GPL2 / GPL-2.0-or-later
    :recipe: /`isoquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoquant/meta.yaml>`_
@@ -31,10 +31,10 @@ isoquant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  </span></summary>
       
 
-      ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -48,6 +48,7 @@ isoquant
    :depends biopython: ``>=1.76``
    :depends gffutils: ``>=0.10.1``
    :depends minimap2: ``>=2.18``
+   :depends numpy: ``>=1.18.1``
    :depends packaging: 
    :depends pandas: ``>=1.0.1``
    :depends pybedtools: ``>=0.8.1``
@@ -56,6 +57,8 @@ isoquant
    :depends python: ``>=3.8``
    :depends pyyaml: ``>=5.4``
    :depends samtools: ``>=1.14``
+   :depends scipy: ``>=1.4.1``
+   :depends seaborn: ``>=0.10.0``
    :depends simplejson: ``>=3.17.0``
    :depends six: ``>=1.14.0``
    :requirements:
@@ -105,7 +108,7 @@ isoquant
 
     <script>
         var package = "isoquant";
-        var versions = ["3.4.2","3.4.1","3.4.0","3.3.1","3.3.0"];
+        var versions = ["3.5.0","3.4.2","3.4.1","3.4.0","3.3.1"];
     </script>
 
 

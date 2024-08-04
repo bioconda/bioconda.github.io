@@ -13,8 +13,9 @@ insurveyor
    An insertion caller for Illumina paired\-end WGS data.
 
    :homepage: https://github.com/kensung-lab/INSurVeyor
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`insurveyor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/insurveyor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/insurveyor/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-023-38870-2`
 
    INSurVeyor is a fast and accurate SV insertion caller for Illumina paired\-end WGS data.
 
@@ -28,17 +29,18 @@ insurveyor
       
       
 
-      ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
 
    
-   :depends htslib: ``>=1.17,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends numpy: 
-   :depends pyfaidx: ``>=0.5.9.1,<0.8``
-   :depends pysam: ``>=0.16.0.1,<0.21``
+   :depends pyfaidx: ``>=0.5.9.1``
+   :depends pysam: ``>=0.16.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +88,7 @@ insurveyor
 
     <script>
         var package = "insurveyor";
-        var versions = ["1.1.2","1.1.1","1.1.1","1.0.2"];
+        var versions = ["1.1.3","1.1.2","1.1.1","1.1.1","1.0.2"];
     </script>
 
 

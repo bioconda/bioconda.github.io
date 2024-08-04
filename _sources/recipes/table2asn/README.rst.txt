@@ -12,7 +12,7 @@ table2asn
 
    table2asn is a command\-line program that creates sequence records for submission to GenBank \- replaces tbl2asn.
 
-   :homepage: https://www.ncbi.nlm.nih.gov/genbank/table2asn/
+   :homepage: https://www.ncbi.nlm.nih.gov/genbank/table2asn
    :documentation: https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn/DOCUMENTATION/table2asn_readme.txt
    
    :license: Public Domain
@@ -29,13 +29,13 @@ table2asn
       
       
 
-      ``1.28.943-0``,  ``1.27.792-0``,  ``1.0.883-0``
+      ``1.28.1111-0``,  ``1.28.943-0``,  ``1.27.792-0``,  ``1.0.883-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ table2asn
 
     <script>
         var package = "table2asn";
-        var versions = ["1.28.943","1.27.792","1.0.883"];
+        var versions = ["1.28.1111","1.28.943","1.27.792","1.0.883"];
     </script>
 
 
