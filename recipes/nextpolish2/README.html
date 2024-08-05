@@ -67,16 +67,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">nextpolish2</span></span></dt>
-<dd><p>Repeat-aware polishing genomes assembled using HiFi long reads</p>
+<dd><p>Repeat-aware polishing genomes assembled using HiFi long reads.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/Nextomics/NextPolish2">https://github.com/Nextomics/NextPolish2</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GBPL</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/Nextomics/NextPolish2/blob/0.2.1/README.md">https://github.com/Nextomics/NextPolish2/blob/0.2.1/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2">nextpolish2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GBPL</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2">nextpolish2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/gpbjnl/qzad009">10.1093/gpbjnl/qzad009</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,7 +94,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/nextpolish2"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/nextpolish2.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/nextpolish2"><img alt="docker_nextpolish2" src="https://quay.io/repository/biocontainers/nextpolish2/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
@@ -96,11 +102,14 @@
 <dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-even">depends yak<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1</span></code></p>
+<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-odd">depends yak<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -135,7 +144,7 @@ others.</p>
 
 <script>
     var package = "nextpolish2";
-    var versions = ["0.2.0","0.1.0"];
+    var versions = ["0.2.1","0.2.0","0.1.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

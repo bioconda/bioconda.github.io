@@ -10,11 +10,14 @@ umi_tools
    :replaces_section_title:
    :noindex:
 
-   Tools for dealing with Unique Molecular Identifiers \(UMIs\) \/ Random Molecular Tags \(RMTs\)
+   Tools for dealing with Unique Molecular Identifiers \(UMIs\) \/ Random Molecular Tags \(RMTs\).
 
    :homepage: https://github.com/CGATOxford/UMI-tools
-   :license: MIT / MIT License
+   :documentation: https://umi-tools.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`umi_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umi_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umi_tools/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.209601.116`, usegalaxy-eu: :usegalaxy-eu:`umi_tools_count`, usegalaxy-eu: :usegalaxy-eu:`umi_tools_extract`, usegalaxy-eu: :usegalaxy-eu:`umi_tools_group`, usegalaxy-eu: :usegalaxy-eu:`umi_tools_whitelist`, usegalaxy-eu: :usegalaxy-eu:`umi_tools_dedup`
 
    
 
@@ -28,10 +31,10 @@ umi_tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.5-2</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-2</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.5-3</code>,  <code>1.1.5-2</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-2</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  </span></summary>
       
 
-      ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.0-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
+      ``1.1.5-3``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.0-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
 
       
       .. raw:: html
@@ -98,7 +101,7 @@ umi_tools
 
     <script>
         var package = "umi_tools";
-        var versions = ["1.1.5","1.1.5","1.1.5","1.1.4","1.1.4"];
+        var versions = ["1.1.5","1.1.5","1.1.5","1.1.5","1.1.4"];
     </script>
 
 

@@ -30,7 +30,7 @@ bam-readcount
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``0.8-4``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.8-4``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``
 
       
 
@@ -38,7 +38,6 @@ bam-readcount
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends pthread-stubs: 
    :depends python: 
    :requirements:
 
@@ -87,7 +86,7 @@ bam-readcount
 
     <script>
         var package = "bam-readcount";
-        var versions = ["1.0.1","1.0.1","0.8","0.8","0.8"];
+        var versions = ["1.0.1","1.0.1","1.0.1","0.8","0.8"];
     </script>
 
 

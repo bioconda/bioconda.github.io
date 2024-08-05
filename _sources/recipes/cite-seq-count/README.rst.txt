@@ -10,13 +10,13 @@ cite-seq-count
    :replaces_section_title:
    :noindex:
 
-   A python package to map reads from CITE\-seq or hashing data for single cell experiments
+   A python package to map reads from CITE\-seq or hashing data for single cell experiments.
 
-   :homepage: https://hoohm.github.io/CITE-seq-Count/
-   :developer docs: https://github.com/Hoohm/CITE-seq-Count/
+   :homepage: https://hoohm.github.io/CITE-seq-Count
+   :developer docs: https://github.com/Hoohm/CITE-seq-Count
    :license: MIT / MIT
    :recipe: /`cite-seq-count <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cite-seq-count>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cite-seq-count/meta.yaml>`_
-   :links: biotools: :biotools:`CITE-seq-Count`, doi: :doi:`10.5281/zenodo.2590196`
+   :links: biotools: :biotools:`CITE-seq-Count`, usegalaxy-eu: :usegalaxy-eu:`cite_seq_count`, doi: :doi:`10.5281/zenodo.2590196`
 
    
 
@@ -29,7 +29,7 @@ cite-seq-count
       
       
 
-      ``1.4.4-0``
+      ``1.4.5-0``,  ``1.4.4-0``
 
       
 
@@ -42,7 +42,7 @@ cite-seq-count
    :depends python: ``>=3.6``
    :depends python-levenshtein: ``>=0.12.0``
    :depends scipy: ``>=1.1.0``
-   :depends umi_tools: ``1.0.0``
+   :depends umi_tools: ``>=1.1.5``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ cite-seq-count
 
     <script>
         var package = "cite-seq-count";
-        var versions = ["1.4.4"];
+        var versions = ["1.4.5","1.4.4"];
     </script>
 
 

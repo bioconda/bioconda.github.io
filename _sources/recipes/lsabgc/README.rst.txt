@@ -27,7 +27,7 @@ lsabgc
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
@@ -56,7 +56,7 @@ lsabgc
    :depends scikit-learn: 
    :depends tar: 
    :depends xlsxwriter: ``>=3.0.3``
-   :depends zol: ``>=1.4.11``
+   :depends zol: ``>=1.4.12``
    :requirements:
 
    .. rubric:: Installation
@@ -104,7 +104,7 @@ lsabgc
 
     <script>
         var package = "lsabgc";
-        var versions = ["1.0.4","1.0.3","1.0.0"];
+        var versions = ["1.0.5","1.0.4","1.0.3","1.0.0"];
     </script>
 
 

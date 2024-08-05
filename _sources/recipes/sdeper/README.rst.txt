@@ -10,10 +10,10 @@ sdeper
    :replaces_section_title:
    :noindex:
 
-   Spatial Deconvolution method with Platform Effect Removal
+   Spatial Deconvolution method with Platform Effect Removal.
 
-   :homepage: https://az7jh2.github.io/SDePER/
-   :documentation: https://sdeper.readthedocs.io/en/latest/
+   :homepage: https://az7jh2.github.io/SDePER
+   :documentation: https://sdeper.readthedocs.io/en/latest
    
    :developer docs: https://github.com/az7jh2/SDePER
    :license: MIT / MIT
@@ -30,7 +30,7 @@ sdeper
       
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -51,7 +51,7 @@ sdeper
    :depends scikit-learn: ``1.1.1``
    :depends scikit-misc: ``0.1.4``
    :depends scipy: ``1.8.1``
-   :depends seaborn: ``0.11.2``
+   :depends seaborn-base: ``0.11.2``
    :depends tensorflow-base: ``2.9.1 cpu_*``
    :depends umap-learn: ``0.5.3``
    :requirements:
@@ -101,7 +101,7 @@ sdeper
 
     <script>
         var package = "sdeper";
-        var versions = ["1.5.0","1.4.0","1.3.1","1.3.0","1.2.1"];
+        var versions = ["1.6.1","1.5.0","1.4.0","1.3.1","1.3.0"];
     </script>
 
 
