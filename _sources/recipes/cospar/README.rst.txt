@@ -10,7 +10,7 @@ cospar
    :replaces_section_title:
    :noindex:
 
-   CoSpar\: integrating state and lineage information for dynamic inference
+   A toolkit for dynamic inference of cell fate by integrating state and lineage information.
 
    :homepage: https://github.com/ShouWenWang-Lab/cospar
    :license: MIT

@@ -27,7 +27,7 @@ segul
       
       
 
-      ``0.21.3-0``
+      ``0.22.0-0``,  ``0.21.3-0``
 
       
 
@@ -80,7 +80,7 @@ segul
 
     <script>
         var package = "segul";
-        var versions = ["0.21.3"];
+        var versions = ["0.22.0","0.21.3"];
     </script>
 
 

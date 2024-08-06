@@ -27,19 +27,17 @@ metamdbg
       
       
 
-      ``0.3-0``
+      ``1.0-0``,  ``0.3-0``
 
       
 
    
-   :depends gsl: ``2.7 he838d99_0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minimap2: ``2.24.*``
    :depends openmp: 
-   :depends samtools: ``1.6.*``
-   :depends wfmash: ``0.8.2.*``
+   :depends time: ``1.8.*``
    :depends zlib: 
    :requirements:
 
@@ -88,7 +86,7 @@ metamdbg
 
     <script>
         var package = "metamdbg";
-        var versions = ["0.3"];
+        var versions = ["1.0","0.3"];
     </script>
 
 

@@ -27,16 +27,12 @@ pbptyper
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends blast: 
-   :depends executor: 
-   :depends fastani: 
-   :depends python: ``>=3.7``
-   :depends rich-click: 
+   :depends camlhmp: ``>=0.3.1``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +80,7 @@ pbptyper
 
     <script>
         var package = "pbptyper";
-        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["2.0.0","1.0.4","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

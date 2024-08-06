@@ -10,10 +10,10 @@ sdeper
    :replaces_section_title:
    :noindex:
 
-   Spatial Deconvolution method with Platform Effect Removal.
+   Spatial Deconvolution method with Platform Effect Removal
 
-   :homepage: https://az7jh2.github.io/SDePER
-   :documentation: https://sdeper.readthedocs.io/en/latest
+   :homepage: https://az7jh2.github.io/SDePER/
+   :documentation: https://sdeper.readthedocs.io/en/latest/
    
    :developer docs: https://github.com/az7jh2/SDePER
    :license: MIT / MIT
@@ -29,30 +29,38 @@ sdeper
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends distinctipy: ``1.2.2``
-   :depends libopencv: ``4.6.0``
+   :depends libopencv: ``==4.9.0 headless_*``
    :depends matplotlib-base: ``3.5.2``
    :depends networkx: ``2.8.4``
-   :depends numba: ``0.55.2``
-   :depends numpy: ``1.22.4``
-   :depends opencv: ``4.6.0``
+   :depends numba: ``0.59.1``
+   :depends numpy: ``1.26.4``
+   :depends opencv: ``4.9.0``
    :depends openpyxl: ``3.0.10``
    :depends pandas: ``1.4.3``
-   :depends py-opencv: ``4.6.0``
-   :depends python: ``>=3.9.12,<3.11``
+   :depends py-opencv: ``4.9.0``
+   :depends python: ``>=3.9,<=3.10``
    :depends reportlab: ``4.1.0``
    :depends scanpy: ``1.9.1``
    :depends scikit-learn: ``1.1.1``
    :depends scikit-misc: ``0.1.4``
-   :depends scipy: ``1.8.1``
-   :depends seaborn-base: ``0.11.2``
-   :depends tensorflow-base: ``2.9.1 cpu_*``
+   :depends scipy: ``1.11.4``
+   :depends seaborn: ``0.13.2``
+   :depends tensorflow-base: ``2.15.0 cpu_*``
    :depends umap-learn: ``0.5.3``
    :requirements:
 
@@ -101,7 +109,7 @@ sdeper
 
     <script>
         var package = "sdeper";
-        var versions = ["1.6.1","1.5.0","1.4.0","1.3.1","1.3.0"];
+        var versions = ["1.6.2","1.6.1","1.5.0","1.4.0","1.3.1"];
     </script>
 
 

@@ -27,14 +27,22 @@ fastool
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.4-8``,  ``0.1.4-7``,  ``0.1.4-6``,  ``0.1.4-5``,  ``0.1.4-4``,  ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.4-9</code>,  <code>0.1.4-8</code>,  <code>0.1.4-7</code>,  <code>0.1.4-6</code>,  <code>0.1.4-5</code>,  <code>0.1.4-4</code>,  <code>0.1.4-3</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  </span></summary>
+      
 
+      ``0.1.4-9``,  ``0.1.4-8``,  ``0.1.4-7``,  ``0.1.4-6``,  ``0.1.4-5``,  ``0.1.4-4``,  ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
