@@ -27,7 +27,7 @@ phylodeep_data_bdss
       
       
 
-      ``0.3-0``
+      ``0.4-0``,  ``0.3-0``
 
       
 
@@ -81,7 +81,7 @@ phylodeep_data_bdss
 
     <script>
         var package = "phylodeep_data_bdss";
-        var versions = ["0.3"];
+        var versions = ["0.4","0.3"];
     </script>
 
 

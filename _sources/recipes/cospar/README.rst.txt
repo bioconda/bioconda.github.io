@@ -27,28 +27,27 @@ cospar
       
       
 
-      ``0.3.3-0``
+      ``0.4.1-0``,  ``0.3.3-0``
 
       
 
    
-   :depends anndata: ``>=0.7.5``
-   :depends ete3: ``>=3.1.2``
-   :depends fastcluster: ``>=1.1.26``
-   :depends gseapy: ``>=0.9.13``
-   :depends ipywidgets: 
-   :depends leidenalg: ``>=0.7.0``
-   :depends matplotlib-base: ``<3.8.0``
-   :depends numba: ``>=0.52.0``
-   :depends numpy: ``>=1.19.4``
-   :depends pandas: ``>=1.1.4``
-   :depends plotnine: ``>=0.7.1``
-   :depends python: ``>=3.8``
-   :depends scanpy: ``>=1.6.0``
-   :depends scikit-learn: ``>=1.1.1``
-   :depends scikit-misc: ``>=0.1.3``
-   :depends scipy: ``>=1.5.4``
-   :depends statsmodels: ``>=0.14.0``
+   :depends anndata: ``>=0.9.2,<0.10.0``
+   :depends ete3: ``>=3.1.3,<4.0.0``
+   :depends fastcluster: ``>=1.2.6,<2.0.0``
+   :depends gseapy: ``>=1.1.3,<2.0.0``
+   :depends leidenalg: ``>=0.10.2,<0.11.0``
+   :depends matplotlib-base: ``>=3.7.3,<3.8.0``
+   :depends numpy: ``>=1.24.4,<2.0.0``
+   :depends pandas: ``>=2.0.3,<3.0.0``
+   :depends plotnine: ``>=0.12.4,<0.13.0``
+   :depends python: ``>=3.9,<3.12``
+   :depends scanpy: ``>=1.9.8,<2.0.0``
+   :depends scikit-learn: ``>=1.1.3,<1.2.0``
+   :depends scikit-misc: ``>=0.1.4,<0.3.0``
+   :depends scipy: ``>=1.10.1,<2.0.0``
+   :depends statsmodels: ``>=0.14.2,<0.15.0``
+   :depends tqdm: ``>=4.66.5,<5.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +95,7 @@ cospar
 
     <script>
         var package = "cospar";
-        var versions = ["0.3.3"];
+        var versions = ["0.4.1","0.3.3"];
     </script>
 
 

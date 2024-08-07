@@ -26,9 +26,17 @@ snakemake-storage-plugin-azure
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+      
 
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -85,7 +93,7 @@ snakemake-storage-plugin-azure
 
     <script>
         var package = "snakemake-storage-plugin-azure";
-        var versions = ["0.4.1","0.4.0","0.3.0","0.2.2","0.2.1"];
+        var versions = ["0.4.2","0.4.1","0.4.0","0.3.0","0.2.2"];
     </script>
 
 
