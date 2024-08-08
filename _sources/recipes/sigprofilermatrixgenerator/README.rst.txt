@@ -10,10 +10,10 @@ sigprofilermatrixgenerator
    :replaces_section_title:
    :noindex:
 
-   SigProfiler matrix generator tool
+   SigProfiler matrix generator tool.
 
-   :homepage: https://github.com/AlexandrovLab/SigProfilerMatrixGenerator.git
-   :license: BSD-2-Clause
+   :homepage: https://github.com/AlexandrovLab/SigProfilerMatrixGenerator
+   :license: BSD / BSD-2-Clause
    :recipe: /`sigprofilermatrixgenerator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sigprofilermatrixgenerator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sigprofilermatrixgenerator/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ sigprofilermatrixgenerator
       
       
 
-      ``1.2.27-0``,  ``1.2.26-0``,  ``1.2.25-0``
+      ``1.2.28-0``,  ``1.2.27-0``,  ``1.2.26-0``,  ``1.2.25-0``
 
       
 
@@ -86,7 +86,7 @@ sigprofilermatrixgenerator
 
     <script>
         var package = "sigprofilermatrixgenerator";
-        var versions = ["1.2.27","1.2.26","1.2.25"];
+        var versions = ["1.2.28","1.2.27","1.2.26","1.2.25"];
     </script>
 
 

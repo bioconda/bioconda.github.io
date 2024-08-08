@@ -10,12 +10,14 @@ meme
    :replaces_section_title:
    :noindex:
 
-   Motif\-based sequence analysis tools
+   Motif\-based sequence analysis tools.
 
    :homepage: https://meme-suite.org
+   :documentation: https://meme-suite.org/meme/doc/overview.html
+   
    :license: Custom
    :recipe: /`meme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meme/meta.yaml>`_
-   :links: biotools: :biotools:`meme_suite`, usegalaxy-eu: :usegalaxy-eu:`meme_dreme`
+   :links: biotools: :biotools:`meme_suite`, usegalaxy-eu: :usegalaxy-eu:`meme_dreme`, doi: :doi:`10.1093/nar/gkv416`
 
    
 
@@ -29,10 +31,10 @@ meme
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.5.5-1</code>,  <code>5.5.5-0</code>,  <code>5.5.4-0</code>,  <code>5.5.3-0</code>,  <code>5.5.2-1</code>,  <code>5.5.2-0</code>,  <code>5.4.1-2</code>,  <code>5.4.1-1</code>,  <code>5.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.5.6-0</code>,  <code>5.5.5-1</code>,  <code>5.5.5-0</code>,  <code>5.5.4-0</code>,  <code>5.5.3-0</code>,  <code>5.5.2-1</code>,  <code>5.5.2-0</code>,  <code>5.4.1-2</code>,  <code>5.4.1-1</code>,  </span></summary>
       
 
-      ``5.5.5-1``,  ``5.5.5-0``,  ``5.5.4-0``,  ``5.5.3-0``,  ``5.5.2-1``,  ``5.5.2-0``,  ``5.4.1-2``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.3.0-2``,  ``5.3.0-0``,  ``5.1.1-3``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.2-5``,  ``5.0.2-3``,  ``5.0.2-2``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.11.2-8``,  ``4.11.2-6``,  ``4.11.2-5``,  ``4.11.2-4``,  ``4.11.2-3``,  ``4.11.2-2``,  ``4.11.2-1``,  ``4.11.2-0``,  ``4.11.1-7``,  ``4.11.1-6``,  ``4.11.1-5``,  ``4.11.1-4``,  ``4.11.1-3``,  ``4.11.1-2``,  ``4.11.1-1``,  ``4.11.1-0``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``
+      ``5.5.6-0``,  ``5.5.5-1``,  ``5.5.5-0``,  ``5.5.4-0``,  ``5.5.3-0``,  ``5.5.2-1``,  ``5.5.2-0``,  ``5.4.1-2``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.3.0-2``,  ``5.3.0-0``,  ``5.1.1-3``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.2-5``,  ``5.0.2-3``,  ``5.0.2-2``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.11.2-8``,  ``4.11.2-6``,  ``4.11.2-5``,  ``4.11.2-4``,  ``4.11.2-3``,  ``4.11.2-2``,  ``4.11.2-1``,  ``4.11.2-0``,  ``4.11.1-7``,  ``4.11.1-6``,  ``4.11.1-5``,  ``4.11.1-4``,  ``4.11.1-3``,  ``4.11.1-2``,  ``4.11.1-1``,  ``4.11.1-0``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``
 
       
       .. raw:: html
@@ -41,6 +43,7 @@ meme
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends icu: ``>=72.1,<73.0a0``
    :depends libexpat: ``>=2.6.2,<3.0a0``
    :depends libgcc-ng: ``>=12``
@@ -48,7 +51,6 @@ meme
    :depends libxslt: ``>=1.1.37,<2.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends nodejs: ``>=20.5.1,<21.0a0``
-   :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-cgi: 
@@ -114,7 +116,7 @@ meme
 
     <script>
         var package = "meme";
-        var versions = ["5.5.5","5.5.5","5.5.4","5.5.3","5.5.2"];
+        var versions = ["5.5.6","5.5.5","5.5.5","5.5.4","5.5.3"];
     </script>
 
 

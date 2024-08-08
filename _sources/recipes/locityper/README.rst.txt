@@ -28,10 +28,10 @@ locityper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.8-0</code>,  <code>0.16.7-0</code>,  <code>0.16.6-0</code>,  <code>0.16.5-0</code>,  <code>0.16.0-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.15.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.16.9-0</code>,  <code>0.16.8-0</code>,  <code>0.16.7-0</code>,  <code>0.16.6-0</code>,  <code>0.16.5-0</code>,  <code>0.16.0-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  </span></summary>
       
 
-      ``0.16.8-0``,  ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.0-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.13.4-0``
+      ``0.16.9-0``,  ``0.16.8-0``,  ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.0-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.13.4-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ locityper
 
     <script>
         var package = "locityper";
-        var versions = ["0.16.8","0.16.7","0.16.6","0.16.5","0.16.0"];
+        var versions = ["0.16.9","0.16.8","0.16.7","0.16.6","0.16.5"];
     </script>
 
 

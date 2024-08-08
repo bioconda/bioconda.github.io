@@ -10,10 +10,12 @@ sigprofilerplotting
    :replaces_section_title:
    :noindex:
 
-   SigProfiler plotting tool
+   SigProfiler plotting tool.
 
    :homepage: https://github.com/alexandrovlab/SigProfilerPlotting
-   :license: BSD-2-Clause
+   :documentation: https://osf.io/2aj6t/wiki/home
+   
+   :license: BSD / BSD-2-Clause
    :recipe: /`sigprofilerplotting <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sigprofilerplotting>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sigprofilerplotting/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ sigprofilerplotting
       
       
 
-      ``1.3.23-0``,  ``1.3.22-0``,  ``1.3.21-0``
+      ``1.3.24-0``,  ``1.3.23-0``,  ``1.3.22-0``,  ``1.3.21-0``
 
       
 
@@ -35,7 +37,7 @@ sigprofilerplotting
    :depends matplotlib-base: ``>=3.4.3``
    :depends pandas: ``>=1.2.4,<2.0.0``
    :depends pillow: ``>=10.0.0``
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends scikit-learn: ``>=1.1.3``
    :requirements:
 
@@ -84,7 +86,7 @@ sigprofilerplotting
 
     <script>
         var package = "sigprofilerplotting";
-        var versions = ["1.3.23","1.3.22","1.3.21"];
+        var versions = ["1.3.24","1.3.23","1.3.22","1.3.21"];
     </script>
 
 

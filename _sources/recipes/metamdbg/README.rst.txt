@@ -27,16 +27,17 @@ metamdbg
       
       
 
-      ``1.0-0``,  ``0.3-0``
+      ``1.0-1``,  ``1.0-0``,  ``0.3-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends minimap2: ``2.24.*``
-   :depends openmp: 
+   :depends minimap2: ``2.28.*``
    :depends time: ``1.8.*``
    :depends zlib: 
    :requirements:
@@ -86,7 +87,7 @@ metamdbg
 
     <script>
         var package = "metamdbg";
-        var versions = ["1.0","0.3"];
+        var versions = ["1.0","1.0","0.3"];
     </script>
 
 

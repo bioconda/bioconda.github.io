@@ -10,10 +10,12 @@ yak
    :replaces_section_title:
    :noindex:
 
-   Yet another k\-mer analyzer
+   Yet another k\-mer analyzer.
 
    :homepage: https://github.com/lh3/yak
-   :license: MIT
+   :documentation: https://github.com/lh3/yak/blob/v0.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`yak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yak/meta.yaml>`_
 
    
@@ -27,14 +29,13 @@ yak
       
       
 
-      ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
