@@ -29,22 +29,35 @@ pyani
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.3-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.13.1-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.7-1</code>,  <code>0.2.7-0</code>,  <code>0.2.3-0</code>,  </span></summary>
+      
 
+      ``0.2.13.1-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.3-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends biopython: 
    :depends blast: 
    :depends blast-legacy: 
+   :depends intervaltree: 
    :depends matplotlib-base: 
    :depends mummer: 
+   :depends namedlist: 
+   :depends networkx: 
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.7``
    :depends scipy: 
    :depends seaborn-base: 
+   :depends sqlalchemy: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +105,7 @@ pyani
 
     <script>
         var package = "pyani";
-        var versions = ["0.2.13","0.2.12","0.2.11","0.2.10","0.2.9"];
+        var versions = ["0.2.13.1","0.2.13","0.2.12","0.2.11","0.2.10"];
     </script>
 
 
