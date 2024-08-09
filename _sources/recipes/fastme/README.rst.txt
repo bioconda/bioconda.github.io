@@ -13,7 +13,10 @@ fastme
    a comprehensive\, accurate and fast distance\-based phylogeny inference program.
 
    :homepage: http://www.atgc-montpellier.fr/fastme/binaries.php
-   :license: GPL / GPLv3
+   :documentation: http://www.atgc-montpellier.fr/fastme/usersguide.php
+   
+   :developer docs: https://gite.lirmm.fr/atgc/FastME/
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`fastme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastme/meta.yaml>`_
    :links: biotools: :biotools:`fastme`, doi: :doi:`10.1093/molbev/msv150`
 
@@ -28,7 +31,7 @@ fastme
       
       
 
-      ``2.1.6.1-3``,  ``2.1.6.1-2``,  ``2.1.6.1-1``,  ``2.1.6.1-0``,  ``2.1.5-0``
+      ``2.1.6.3-0``,  ``2.1.6.1-3``,  ``2.1.6.1-2``,  ``2.1.6.1-1``,  ``2.1.6.1-0``,  ``2.1.5-0``
 
       
 
@@ -81,7 +84,7 @@ fastme
 
     <script>
         var package = "fastme";
-        var versions = ["2.1.6.1","2.1.6.1","2.1.6.1","2.1.6.1","2.1.5"];
+        var versions = ["2.1.6.3","2.1.6.1","2.1.6.1","2.1.6.1","2.1.6.1"];
     </script>
 
 

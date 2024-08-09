@@ -10,9 +10,11 @@ bifrost
    :replaces_section_title:
    :noindex:
 
-   Highly parallel construction and indexing of colored and compacted de Bruijn graphs
+   Highly parallel construction and indexing of colored and compacted de Bruijn graphs.
 
    :homepage: https://github.com/pmelsted/bifrost
+   :documentation: https://github.com/pmelsted/bifrost/blob/v1.3.5/README.md
+   
    :license: BSD / BSD-2-Clause
    :recipe: /`bifrost <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost/meta.yaml>`_
    :links: doi: :doi:`10.1101/695338`, biotools: :biotools:`bifrost`
@@ -29,10 +31,10 @@ bifrost
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.5-0</code>,  <code>1.3.1-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.6.5-1</code>,  <code>1.0.6.5-0</code>,  <code>1.0.6.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.1-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.6.5-1</code>,  <code>1.0.6.5-0</code>,  </span></summary>
       
 
-      ``1.3.5-0``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.6.5-1``,  ``1.0.6.5-0``,  ``1.0.6.4-1``,  ``1.0.6.4-0``,  ``1.0.6.2-1``,  ``1.0.6.2-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.6.5-1``,  ``1.0.6.5-0``,  ``1.0.6.4-1``,  ``1.0.6.4-0``,  ``1.0.6.2-1``,  ``1.0.6.2-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -43,9 +45,7 @@ bifrost
    
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends pthread-stubs: 
-   :depends zlib: 
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +93,7 @@ bifrost
 
     <script>
         var package = "bifrost";
-        var versions = ["1.3.5","1.3.1","1.2.1","1.2.0","1.2.0"];
+        var versions = ["1.3.5","1.3.5","1.3.1","1.2.1","1.2.0"];
     </script>
 
 

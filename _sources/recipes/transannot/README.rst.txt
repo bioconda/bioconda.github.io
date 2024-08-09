@@ -10,10 +10,12 @@ transannot
    :replaces_section_title:
    :noindex:
 
-   TransAnnot\: a fast transcriptome annotation pipeline
+   TransAnnot\: a fast transcriptome annotation pipeline.
 
    :homepage: https://github.com/soedinglab/transannot
-   :license: GPL / GPL-3.0-or-later
+   :documentation: https://github.com/soedinglab/transannot/blob/master/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`transannot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transannot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transannot/meta.yaml>`_
    :links: biotools: :biotools:`transannot`
 
@@ -28,7 +30,7 @@ transannot
       
       
 
-      ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``1.fa9ebab-0``
+      ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``3.0.0-0``,  ``1.fa9ebab-0``
 
       
 
@@ -90,7 +92,7 @@ transannot
 
     <script>
         var package = "transannot";
-        var versions = ["3.70b2a60","3.70b2a60","3.7f1c8e1","1.fa9ebab"];
+        var versions = ["3.70b2a60","3.70b2a60","3.7f1c8e1","3.0.0","1.fa9ebab"];
     </script>
 
 

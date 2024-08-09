@@ -12,8 +12,10 @@ cogent3
 
    COmparative GENomics Toolkit 3\: genomic sequence analysis within notebooks or on compute systems with 1000s of CPUs.
 
-   :homepage: https://pypi.org/project/cogent3/
-   :license: BSD-3-Clause
+   :homepage: https://github.com/cogent3/cogent3
+   :documentation: https://github.com/cogent3/cogent3/blob/2024.7.19a3/README.md
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`cogent3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent3/meta.yaml>`_
 
    
@@ -27,15 +29,16 @@ cogent3
       
       
 
-      ``2024.7.19a1-0``,  ``2024.5.7a1-0``,  ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
+      ``2024.7.19a3-0``,  ``2024.7.19a1-0``,  ``2024.5.7a1-0``,  ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
 
       
 
    
    :depends chardet: 
+   :depends charset-normalizer: 
    :depends numba: ``>0.53.0``
    :depends numpy: 
-   :depends python: ``>=3.9,<3.12``
+   :depends python: ``>=3.9,<3.13``
    :depends scipy: 
    :depends scitrack: 
    :depends stevedore: 
@@ -89,7 +92,7 @@ cogent3
 
     <script>
         var package = "cogent3";
-        var versions = ["2024.7.19a1","2024.5.7a1","2024.2.5a1","2023.12.15a1","2023.9.22a1"];
+        var versions = ["2024.7.19a3","2024.7.19a1","2024.5.7a1","2024.2.5a1","2023.12.15a1"];
     </script>
 
 

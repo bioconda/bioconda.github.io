@@ -27,7 +27,7 @@ quantms-utils
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -88,7 +88,7 @@ quantms-utils
 
     <script>
         var package = "quantms-utils";
-        var versions = ["0.0.3","0.0.2"];
+        var versions = ["0.0.4","0.0.3","0.0.2"];
     </script>
 
 

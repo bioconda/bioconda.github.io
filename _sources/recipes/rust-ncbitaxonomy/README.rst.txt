@@ -12,6 +12,7 @@ rust-ncbitaxonomy
 
    A Rust crate for working with a local copy of the NCBI Taxonomy database\, which provides utilities for taxonomic filtering.
 
+
    :homepage: https://github.com/pvanheus/ncbitaxonomy
    :documentation: https://docs.rs/crate/ncbitaxonomy/1.0.7
    
@@ -30,10 +31,10 @@ rust-ncbitaxonomy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.7-5</code>,  <code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -43,7 +44,7 @@ rust-ncbitaxonomy
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.41.2,<4.0a0``
+   :depends libsqlite: ``>=3.46.0,<4.0a0``
    :depends sqlite: 
    :requirements:
 
