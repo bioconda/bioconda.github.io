@@ -27,7 +27,7 @@ poolsnp
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ poolsnp
 
     <script>
         var package = "poolsnp";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 
