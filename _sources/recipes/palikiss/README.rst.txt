@@ -28,7 +28,7 @@ palikiss
       
       
 
-      ``1.1.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -86,7 +86,7 @@ palikiss
 
     <script>
         var package = "palikiss";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.0","1.1.0"];
     </script>
 
 

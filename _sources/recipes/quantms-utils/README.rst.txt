@@ -27,20 +27,22 @@ quantms-utils
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
    :depends click: ``>=7.0``
-   :depends ms2rescore: ``3.0.2``
+   :depends deeplc: ``2.2.38``
+   :depends ms2pip: ``4.0.0.dev8``
+   :depends ms2rescore: ``3.0.3``
    :depends numpy: 
    :depends pandas: ``>=1.0.0``
-   :depends psm-utils: ``0.8.0``
+   :depends psm-utils: ``0.8.2``
    :depends pydantic: ``>=1.10,<2``
-   :depends pyopenms: ``>=2.6.0``
+   :depends pyopenms: ``>=2.9.1``
    :depends python: ``>=3.7.0,<4.0.0``
-   :depends sdrf-pipelines: ``>=0.0.26``
+   :depends sdrf-pipelines: ``>=0.0.29``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +90,7 @@ quantms-utils
 
     <script>
         var package = "quantms-utils";
-        var versions = ["0.0.4","0.0.3","0.0.2"];
+        var versions = ["0.0.5","0.0.4","0.0.3","0.0.2"];
     </script>
 
 

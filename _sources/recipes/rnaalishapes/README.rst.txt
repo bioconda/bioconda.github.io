@@ -28,7 +28,7 @@ rnaalishapes
       
       
 
-      ``2.5.0-0``
+      ``2.5.0-1``,  ``2.5.0-0``
 
       
 
@@ -86,7 +86,7 @@ rnaalishapes
 
     <script>
         var package = "rnaalishapes";
-        var versions = ["2.5.0"];
+        var versions = ["2.5.0","2.5.0"];
     </script>
 
 
