@@ -28,7 +28,7 @@ rapidshapes
       
       
 
-      ``2.1.0-0``
+      ``2.1.0-1``,  ``2.1.0-0``
 
       
 
@@ -86,7 +86,7 @@ rapidshapes
 
     <script>
         var package = "rapidshapes";
-        var versions = ["2.1.0"];
+        var versions = ["2.1.0","2.1.0"];
     </script>
 
 
