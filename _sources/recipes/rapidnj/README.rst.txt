@@ -13,7 +13,8 @@ rapidnj
    RapidNJ is an algorithmic engineered implementation of canonical neighbour\-joining. It uses an efficient search heuristic to speed\-up the core computations of the neighbour\-joining method that enables RapidNJ to outperform other state\-of\-the\-art neighbour\-joining implementations.
 
    :homepage: http://birc.au.dk/software/rapidnj/
-   :license: GPL / GPL-2
+   :developer docs: https://github.com/johnlees/rapidnj
+   :license: GPL / GPL-2-only
    :recipe: /`rapidnj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapidnj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapidnj/meta.yaml>`_
    :links: doi: :doi:`10.1007/978-3-540-87361-7_10`
 
@@ -28,7 +29,7 @@ rapidnj
       
       
 
-      ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``v2.3.2-2``,  ``v2.3.2-1``,  ``v2.3.2-0``
+      ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``v2.3.2-2``,  ``v2.3.2-1``,  ``v2.3.2-0``
 
       
 

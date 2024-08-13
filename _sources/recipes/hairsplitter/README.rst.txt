@@ -27,17 +27,18 @@ hairsplitter
       
       
 
-      ``1.9.10-0``,  ``1.9.9-0``,  ``1.9.5-0``,  ``1.8.0-0``,  ``1.7.15-0``,  ``1.7.14-0``,  ``1.7.13-0``
+      ``1.9.10-1``,  ``1.9.10-0``,  ``1.9.9-0``,  ``1.9.5-0``,  ``1.8.0-0``,  ``1.7.15-0``,  ``1.7.14-0``,  ``1.7.13-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx-ng: ``>=12``
    :depends minigraph: ``>=0.20``
    :depends minimap2: 
    :depends numpy: 
-   :depends openmp: 
    :depends python: 
    :depends racon: 
    :depends raven-assembler: 
@@ -90,7 +91,7 @@ hairsplitter
 
     <script>
         var package = "hairsplitter";
-        var versions = ["1.9.10","1.9.9","1.9.5","1.8.0","1.7.15"];
+        var versions = ["1.9.10","1.9.10","1.9.9","1.9.5","1.8.0"];
     </script>
 
 

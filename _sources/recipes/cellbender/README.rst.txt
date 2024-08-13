@@ -13,7 +13,7 @@ cellbender
    A software package for eliminating technical artifacts from high\-throughput single\-cell RNA sequencing \(scRNA\-seq\) data
 
    :homepage: https://github.com/broadinstitute/CellBender
-   :documentation: https://cellbender.readthedocs.io/en/latest/
+   :documentation: https://cellbender.readthedocs.io/en/latest
    
    :license: BSD / BSD-3-Clause
    :recipe: /`cellbender <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellbender>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellbender/meta.yaml>`_
@@ -30,7 +30,7 @@ cellbender
       
       
 
-      ``0.3.0-0``
+      ``0.3.2-0``,  ``0.3.0-0``
 
       
 
@@ -98,7 +98,7 @@ cellbender
 
     <script>
         var package = "cellbender";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.2","0.3.0"];
     </script>
 
 

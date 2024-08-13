@@ -27,7 +27,7 @@ sdust
       
       
 
-      ``0.1-0``
+      ``0.1-1``,  ``0.1-0``
 
       
 
@@ -82,7 +82,7 @@ sdust
 
     <script>
         var package = "sdust";
-        var versions = ["0.1"];
+        var versions = ["0.1","0.1"];
     </script>
 
 

@@ -17,6 +17,7 @@ assembly_finder
    
    :license: MIT / MIT
    :recipe: /`assembly_finder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly_finder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly_finder/meta.yaml>`_
+   :links: biotools: :biotools:`assembly_finder`
 
    
 
@@ -30,10 +31,10 @@ assembly_finder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.5-1</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.7.5-1``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -43,13 +44,13 @@ assembly_finder
 
    
    :depends attrmap: ``>=0.0.7``
+   :depends mamba: ``>=1.5.8``
    :depends pandas: ``>=2.2.1``
-   :depends pulp: ``<2.8``
    :depends python: ``>=3.10``
    :depends pyyaml: ``>=6.0``
    :depends rich-click: ``>=1.7.4``
-   :depends snakemake-minimal: ``>=7.32.4``
-   :depends snaketool-utils: ``>=0.0.4``
+   :depends snakemake-minimal: ``>=8.0.0``
+   :depends snaketool-utils: ``>=0.0.5``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +98,7 @@ assembly_finder
 
     <script>
         var package = "assembly_finder";
-        var versions = ["0.7.5","0.7.4","0.7.3","0.7.2","0.7.1"];
+        var versions = ["0.7.5","0.7.5","0.7.4","0.7.3","0.7.2"];
     </script>
 
 

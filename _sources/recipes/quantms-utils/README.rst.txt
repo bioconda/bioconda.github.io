@@ -27,13 +27,14 @@ quantms-utils
       
       
 
-      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
    :depends click: ``>=7.0``
    :depends deeplc: ``2.2.38``
+   :depends deeplcretrainer: 
    :depends ms2pip: ``4.0.0.dev8``
    :depends ms2rescore: ``3.0.3``
    :depends numpy: 
@@ -42,6 +43,8 @@ quantms-utils
    :depends pydantic: ``>=1.10,<2``
    :depends pyopenms: ``>=2.9.1``
    :depends python: ``>=3.7.0,<4.0.0``
+   :depends scikit-learn: 
+   :depends scipy: ``1.13.1``
    :depends sdrf-pipelines: ``>=0.0.29``
    :requirements:
 
@@ -90,7 +93,7 @@ quantms-utils
 
     <script>
         var package = "quantms-utils";
-        var versions = ["0.0.5","0.0.4","0.0.3","0.0.2"];
+        var versions = ["0.0.6","0.0.5","0.0.4","0.0.3","0.0.2"];
     </script>
 
 

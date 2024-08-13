@@ -17,6 +17,7 @@ mess
    
    :license: MIT / MIT
    :recipe: /`mess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mess/meta.yaml>`_
+   :links: biotools: :biotools:`mess`
 
    
 
@@ -29,19 +30,19 @@ mess
       
       
 
-      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.2-0``,  ``v0.2.1-0``
+      ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.2-0``,  ``v0.2.1-0``
 
       
 
    
    :depends attrmap: ``>=0.0.7``
    :depends biopython: ``>=1.83``
+   :depends mamba: ``>=1.5.8``
    :depends pandas: ``>=2.2.1``
-   :depends pulp: ``<2.8``
    :depends python: ``>=3.10``
    :depends pyyaml: ``>=6.0.1``
    :depends rich-click: ``>=1.7.4``
-   :depends snakemake-minimal: ``>=7.32.4``
+   :depends snakemake-minimal: ``>=8.0.0``
    :depends snaketool-utils: ``>=0.0.5``
    :requirements:
 
@@ -90,7 +91,7 @@ mess
 
     <script>
         var package = "mess";
-        var versions = ["0.8.3","0.8.2","0.8.0","0.2.2","v0.2.1"];
+        var versions = ["0.8.3","0.8.3","0.8.2","0.8.0","0.2.2"];
     </script>
 
 
