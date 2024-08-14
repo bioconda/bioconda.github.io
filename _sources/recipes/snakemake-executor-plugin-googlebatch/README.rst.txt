@@ -27,7 +27,7 @@ snakemake-executor-plugin-googlebatch
       
       
 
-      ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -88,7 +88,7 @@ snakemake-executor-plugin-googlebatch
 
     <script>
         var package = "snakemake-executor-plugin-googlebatch";
-        var versions = ["0.4.0","0.3.3","0.3.1","0.3.0","0.2.0"];
+        var versions = ["0.5.0","0.4.0","0.3.3","0.3.1","0.3.0"];
     </script>
 
 

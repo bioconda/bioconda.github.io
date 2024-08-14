@@ -27,20 +27,20 @@ pasta
       
       
 
-      ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
+      ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
 
       
 
    
-   :depends clustalw: 
+   :depends clustalw: ``>=2.1,<2.2.0a0``
    :depends dendropy: ``<=4.5.1``
-   :depends fasttree: 
+   :depends fasttree: ``>=2.1.11,<3.0a0``
    :depends hmmer: ``3.1b2``
-   :depends mafft: ``>=7.520,<8.0a0``
+   :depends mafft: ``>=7.526,<8.0a0``
    :depends muscle: ``<4``
    :depends openjdk: 
    :depends pcre: ``>=8.45,<9.0a0``
-   :depends prank: 
+   :depends prank: ``>=170427,<170428.0a0``
    :depends pymongo: ``>=3.3.0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -92,7 +92,7 @@ pasta
 
     <script>
         var package = "pasta";
-        var versions = ["1.9.0","1.7.8","1.7.8","1.7.8","1.7.8"];
+        var versions = ["1.9.2","1.9.0","1.7.8","1.7.8","1.7.8"];
     </script>
 
 

@@ -27,7 +27,7 @@ pymochi
       
       
 
-      ``1.0-0``,  ``0.9-0``
+      ``1.1-0``,  ``1.0-0``,  ``0.9-0``
 
       
 
@@ -88,7 +88,7 @@ pymochi
 
     <script>
         var package = "pymochi";
-        var versions = ["1.0","0.9"];
+        var versions = ["1.1","1.0","0.9"];
     </script>
 
 
