@@ -27,7 +27,7 @@ diphase
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -91,7 +91,7 @@ diphase
 
     <script>
         var package = "diphase";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 
