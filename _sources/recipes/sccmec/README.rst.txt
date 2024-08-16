@@ -27,12 +27,12 @@ sccmec
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends camlhmp: ``>=0.1.0``
+   :depends camlhmp: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ sccmec
 
     <script>
         var package = "sccmec";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

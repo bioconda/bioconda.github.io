@@ -41,7 +41,6 @@ comet-ms
       
 
    
-   :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :requirements:

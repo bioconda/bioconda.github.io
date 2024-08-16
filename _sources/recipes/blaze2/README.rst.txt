@@ -13,7 +13,7 @@ blaze2
    Barcode identification from \(Nanopore\) Long reads for AnalyZing single\-cell gene Expression.
 
    :homepage: https://github.com/shimlab/BLAZE
-   :documentation: https://github.com/shimlab/BLAZE/blob/v2.2.1/README.md
+   :documentation: https://github.com/shimlab/BLAZE/blob/v2.4.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`blaze2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blaze2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blaze2/meta.yaml>`_
@@ -30,7 +30,7 @@ blaze2
       
       
 
-      ``2.2.1-0``
+      ``2.4.0-0``,  ``2.2.1-0``
 
       
 
@@ -88,7 +88,7 @@ blaze2
 
     <script>
         var package = "blaze2";
-        var versions = ["2.2.1"];
+        var versions = ["2.4.0","2.2.1"];
     </script>
 
 
