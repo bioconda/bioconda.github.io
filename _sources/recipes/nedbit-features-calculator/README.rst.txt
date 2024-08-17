@@ -27,7 +27,7 @@ nedbit-features-calculator
       
       
 
-      ``1.2-0``
+      ``1.2-1``,  ``1.2-0``
 
       
 
@@ -80,7 +80,7 @@ nedbit-features-calculator
 
     <script>
         var package = "nedbit-features-calculator";
-        var versions = ["1.2"];
+        var versions = ["1.2","1.2"];
     </script>
 
 

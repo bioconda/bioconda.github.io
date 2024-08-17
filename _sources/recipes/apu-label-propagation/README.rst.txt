@@ -27,7 +27,7 @@ apu-label-propagation
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -80,7 +80,7 @@ apu-label-propagation
 
     <script>
         var package = "apu-label-propagation";
-        var versions = ["1.2","1.2"];
+        var versions = ["1.2","1.2","1.2"];
     </script>
 
 

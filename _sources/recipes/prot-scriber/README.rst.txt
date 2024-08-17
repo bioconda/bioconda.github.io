@@ -13,7 +13,7 @@ prot-scriber
    Assigns short human readable descriptions \(HRD\) to query biological sequences using reference candidate descriptions.
 
    :homepage: https://github.com/usadellab/prot-scriber
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`prot-scriber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prot-scriber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prot-scriber/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ prot-scriber
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+      
 
+      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -80,7 +88,7 @@ prot-scriber
 
     <script>
         var package = "prot-scriber";
-        var versions = ["0.1.6","0.1.5","0.1.4","0.1.4","0.1.4"];
+        var versions = ["0.1.6","0.1.6","0.1.5","0.1.4","0.1.4"];
     </script>
 
 
