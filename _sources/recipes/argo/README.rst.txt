@@ -27,7 +27,7 @@ argo
       
       
 
-      ``0.0.1-0``
+      ``0.1.0-0``,  ``0.0.1-0``
 
       
 
@@ -83,7 +83,7 @@ argo
 
     <script>
         var package = "argo";
-        var versions = ["0.0.1"];
+        var versions = ["0.1.0","0.0.1"];
     </script>
 
 
