@@ -10,7 +10,7 @@ r-stitch
    :replaces_section_title:
    :noindex:
 
-   STITCH \- Sequencing To Imputation Through Constructing Haplotypes
+   STITCH \- Sequencing To Imputation Through Constructing Haplotypes.
 
    :homepage: https://github.com/rwdavies/stitch
    :license: GPL3 / GPL-3.0-only
@@ -28,10 +28,10 @@ r-stitch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.11-0</code>,  <code>1.6.10-0</code>,  <code>1.6.8-2</code>,  <code>1.6.8-1</code>,  <code>1.6.8-0</code>,  <code>1.6.6-4</code>,  <code>1.6.6-3</code>,  <code>1.6.6-2</code>,  <code>1.6.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.11-0</code>,  <code>1.6.10-0</code>,  <code>1.6.8-2</code>,  <code>1.6.8-1</code>,  <code>1.6.8-0</code>,  <code>1.6.6-4</code>,  <code>1.6.6-3</code>,  <code>1.6.6-2</code>,  </span></summary>
       
 
-      ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.8-2``,  ``1.6.8-1``,  ``1.6.8-0``,  ``1.6.6-4``,  ``1.6.6-3``,  ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
+      ``1.7.0-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.8-2``,  ``1.6.8-1``,  ``1.6.8-0``,  ``1.6.6-4``,  ``1.6.6-3``,  ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
 
       
       .. raw:: html
@@ -46,7 +46,6 @@ r-stitch
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.3.1,<2.0a0``
    :depends mpfr: ``>=4.2.1,<5.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -60,7 +59,6 @@ r-stitch
    :depends rsync: 
    :depends samtools: ``>=1.4``
    :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -108,7 +106,7 @@ r-stitch
 
     <script>
         var package = "r-stitch";
-        var versions = ["1.6.11","1.6.10","1.6.8","1.6.8","1.6.8"];
+        var versions = ["1.7.0","1.6.11","1.6.10","1.6.8","1.6.8"];
     </script>
 
 

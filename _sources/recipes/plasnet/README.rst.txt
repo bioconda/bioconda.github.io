@@ -27,7 +27,7 @@ plasnet
       
       
 
-      ``0.5.1-0``
+      ``0.6.0-0``,  ``0.5.1-0``
 
       
 
@@ -83,7 +83,7 @@ plasnet
 
     <script>
         var package = "plasnet";
-        var versions = ["0.5.1"];
+        var versions = ["0.6.0","0.5.1"];
     </script>
 
 

@@ -28,7 +28,7 @@ vcfsim
       
       
 
-      ``1.0.13.alpha-0``,  ``1.0.12.alpha-0``,  ``1.0.11.alpha-0``,  ``1.0.10.alpha-0``,  ``1.0.9.alpha-0``,  ``1.0.8.alpha-0``
+      ``1.0.15.alpha-0``,  ``1.0.13.alpha-0``,  ``1.0.12.alpha-0``,  ``1.0.11.alpha-0``,  ``1.0.10.alpha-0``,  ``1.0.9.alpha-0``,  ``1.0.8.alpha-0``
 
       
 
@@ -85,7 +85,7 @@ vcfsim
 
     <script>
         var package = "vcfsim";
-        var versions = ["1.0.13.alpha","1.0.12.alpha","1.0.11.alpha","1.0.10.alpha","1.0.9.alpha"];
+        var versions = ["1.0.15.alpha","1.0.13.alpha","1.0.12.alpha","1.0.11.alpha","1.0.10.alpha"];
     </script>
 
 

@@ -15,7 +15,7 @@ graphbin
    :homepage: https://github.com/Vini2/GraphBin
    :documentation: https://graphbin.readthedocs.io/
    
-   :license: BSD-3
+   :license: BSD / BSD-3
    :recipe: /`graphbin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphbin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphbin/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btaa180`
 
@@ -31,7 +31,7 @@ graphbin
       
       
 
-      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5-0``
+      ``1.7.4-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5-0``
 
       
 
@@ -39,7 +39,7 @@ graphbin
    :depends cairocffi: 
    :depends click: 
    :depends cogent3: 
-   :depends python: ``>=3.7.1,<3.11``
+   :depends python: ``>=3.7,<3.11``
    :depends python-igraph: 
    :depends tqdm: 
    :requirements:
@@ -89,7 +89,7 @@ graphbin
 
     <script>
         var package = "graphbin";
-        var versions = ["1.7.1","1.7.0","1.6.1","1.5"];
+        var versions = ["1.7.4","1.7.1","1.7.0","1.6.1","1.5"];
     </script>
 
 

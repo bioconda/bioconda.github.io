@@ -27,7 +27,7 @@ snakemake-storage-plugin-gcs
       
       
 
-      ``1.0.0-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-storage-plugin-gcs
 
     <script>
         var package = "snakemake-storage-plugin-gcs";
-        var versions = ["1.0.0","0.1.4","0.1.3"];
+        var versions = ["1.1.0","1.0.0","0.1.4","0.1.3"];
     </script>
 
 
