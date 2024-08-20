@@ -10,10 +10,10 @@ cloci
    :replaces_section_title:
    :noindex:
 
-   Co\-occurrence Locus and Orthologous Cluster Identifier
+   Co\-occurrence Locus and Orthologous Cluster Identifier.
 
    :homepage: https://github.com/xonq/cloci
-   :license: AGPL-3.0-only
+   :license: AGPL / AGPL-3.0-only
    :recipe: /`cloci <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cloci>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cloci/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ cloci
       
       
 
-      ``0.3.0-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -36,7 +36,7 @@ cloci
    :depends graph-tool: 
    :depends mycotools: 
    :depends plotly: 
-   :depends python: ``>=3.0,<4.0``
+   :depends python: ``>=3``
    :depends tqdm: 
    :requirements:
 
@@ -85,7 +85,7 @@ cloci
 
     <script>
         var package = "cloci";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.1","0.3.1","0.3.0"];
     </script>
 
 

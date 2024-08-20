@@ -13,7 +13,7 @@ python-bioext
    A few handy bioinformatics tools not already in BioPython
 
    :homepage: https://github.com/veg/BioExt.git
-   :license: GPL3 / GPL-3
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`python-bioext <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioext>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioext/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ python-bioext
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.21.8-0</code>,  <code>0.21.7-1</code>,  <code>0.21.7-0</code>,  <code>0.21.2-0</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.4-2</code>,  <code>0.20.4-1</code>,  <code>0.20.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21.8-1</code>,  <code>0.21.8-0</code>,  <code>0.21.7-1</code>,  <code>0.21.7-0</code>,  <code>0.21.2-0</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.4-2</code>,  <code>0.20.4-1</code>,  </span></summary>
       
 
-      ``0.21.8-0``,  ``0.21.7-1``,  ``0.21.7-0``,  ``0.21.2-0``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.4-2``,  ``0.20.4-1``,  ``0.20.4-0``,  ``0.20.2-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
+      ``0.21.8-1``,  ``0.21.8-0``,  ``0.21.7-1``,  ``0.21.7-0``,  ``0.21.2-0``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.4-2``,  ``0.20.4-1``,  ``0.20.4-0``,  ``0.20.2-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ python-bioext
 
     <script>
         var package = "python-bioext";
-        var versions = ["0.21.8","0.21.7","0.21.7","0.21.2","0.21.1"];
+        var versions = ["0.21.8","0.21.8","0.21.7","0.21.7","0.21.2"];
     </script>
 
 

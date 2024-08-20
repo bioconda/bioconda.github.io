@@ -10,11 +10,14 @@ cellsnp-lite
    :replaces_section_title:
    :noindex:
 
-   Efficient genotyping bi\-allelic SNPs on single cells
+   Efficient genotyping bi\-allelic SNPs on single cells.
 
    :homepage: https://github.com/single-cell-genetics/cellsnp-lite
-   :license: Apache-2.0
+   :documentation: https://cellsnp-lite.readthedocs.io/en/latest
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`cellsnp-lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellsnp-lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellsnp-lite/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btab358`, biotools: :biotools:`cellsnp-lite`
 
    
 
@@ -28,10 +31,10 @@ cellsnp-lite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.3-3</code>,  <code>1.2.3-2</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.3-4</code>,  <code>1.2.3-3</code>,  <code>1.2.3-2</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``1.2.3-3``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.1-1``,  ``0.3.1-0``
+      ``1.2.3-4``,  ``1.2.3-3``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.1-1``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -40,10 +43,11 @@ cellsnp-lite
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.20,<1.21.0a0``
+   :depends libcurl: ``>=8.8.0,<9.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +95,7 @@ cellsnp-lite
 
     <script>
         var package = "cellsnp-lite";
-        var versions = ["1.2.3","1.2.3","1.2.3","1.2.3","1.2.2"];
+        var versions = ["1.2.3","1.2.3","1.2.3","1.2.3","1.2.3"];
     </script>
 
 

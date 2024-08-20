@@ -10,7 +10,7 @@ r-quilt
    :replaces_section_title:
    :noindex:
 
-   Read aware low coverage whole genome sequence imputation from a reference panel
+   Rapid and accurate genotype imputation from low coverage short read\, long read\, and cell free DNA sequence
 
    :homepage: https://github.com/rwdavies/quilt
    :license: GPL3 / GPL-3.0-only
@@ -28,10 +28,10 @@ r-quilt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  </span></summary>
       
 
-      ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
       .. raw:: html
@@ -40,27 +40,18 @@ r-quilt
       
 
    
-   :depends gmp: ``>=6.2.1,<7.0a0``
-   :depends htslib: ``>=1.18,<1.21.0a0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends mpc: ``>=1.1.0``
-   :depends mpc: ``>=1.3.1,<2.0a0``
-   :depends mpfr: ``>=4.2.0,<5.0a0``
    :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-data.table: ``>=1.11.8``
+   :depends r-mspbwt: ``>=0.1.0``
+   :depends r-mspbwt: ``>=0.1.0,<0.2.0a0``
    :depends r-optparse: 
-   :depends r-rcpp: ``>=0.12.18``
-   :depends r-rcpparmadillo: ``>=0.8.600.0.0``
+   :depends r-rcpp: ``<=1.0.12``
+   :depends r-rcppeigen: 
    :depends r-rrbgen: ``>=0.0.6``
-   :depends r-stitch: ``>=1.6.6``
-   :depends r-testthat: ``>=2.0.0``
-   :depends rsync: 
-   :depends samtools: ``>=1.4``
-   :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
+   :depends r-rrbgen: ``>=0.0.6,<0.1.0a0``
+   :depends r-stitch: ``>=1.7.0``
+   :depends r-stitch: ``>=1.7.0,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -108,7 +99,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.4"];
+        var versions = ["2.0.0","2.0.0","1.0.5","1.0.4","1.0.4"];
     </script>
 
 

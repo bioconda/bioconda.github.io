@@ -13,7 +13,9 @@ fqtk
    A toolkit for working with FASTQ files.
 
    :homepage: https://github.com/fulcrumgenomics/fqtk
-   :license: MIT
+   :documentation: https://github.com/fulcrumgenomics/fqtk/blob/v0.3.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`fqtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtk/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ fqtk
       
       
 
-      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -81,7 +83,7 @@ fqtk
 
     <script>
         var package = "fqtk";
-        var versions = ["0.3.0","0.2.2","0.2.1","0.2.1","0.2.1"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.2","0.2.1"];
     </script>
 
 

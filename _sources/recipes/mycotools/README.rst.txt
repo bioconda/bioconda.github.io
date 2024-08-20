@@ -10,10 +10,12 @@ mycotools
    :replaces_section_title:
    :noindex:
 
-   Comparative genomics automation and standardization software
+   Comparative genomics automation and standardization software.
 
    :homepage: https://github.com/xonq/mycotools
-   :license: BSD-3-Clause
+   :documentation: https://github.com/xonq/mycotools/wiki
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`mycotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mycotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mycotools/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ mycotools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.31.48-0</code>,  <code>0.31.46-0</code>,  <code>0.31.45-0</code>,  <code>0.31.44-0</code>,  <code>0.31.43-0</code>,  <code>0.31.42-0</code>,  <code>0.31.41-0</code>,  <code>0.31.40-0</code>,  <code>0.31.39-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.32.1-1</code>,  <code>0.32.1-0</code>,  <code>0.31.48-0</code>,  <code>0.31.46-0</code>,  <code>0.31.45-0</code>,  <code>0.31.44-0</code>,  <code>0.31.43-0</code>,  <code>0.31.42-0</code>,  <code>0.31.41-0</code>,  </span></summary>
       
 
-      ``0.31.48-0``,  ``0.31.46-0``,  ``0.31.45-0``,  ``0.31.44-0``,  ``0.31.43-0``,  ``0.31.42-0``,  ``0.31.41-0``,  ``0.31.40-0``,  ``0.31.39-0``,  ``0.31.38-0``,  ``0.31.37-0``,  ``0.31.36-0``,  ``0.31.35-0``,  ``0.31.34-0``
+      ``0.32.1-1``,  ``0.32.1-0``,  ``0.31.48-0``,  ``0.31.46-0``,  ``0.31.45-0``,  ``0.31.44-0``,  ``0.31.43-0``,  ``0.31.42-0``,  ``0.31.41-0``,  ``0.31.40-0``,  ``0.31.39-0``,  ``0.31.38-0``,  ``0.31.37-0``,  ``0.31.36-0``,  ``0.31.35-0``,  ``0.31.34-0``
 
       
       .. raw:: html
@@ -50,9 +52,10 @@ mycotools
    :depends iqtree: 
    :depends mafft: 
    :depends mmseqs2: 
+   :depends ncbi-datasets-cli: 
    :depends openpyxl: 
    :depends pandas: 
-   :depends python: ``>=3.0,<4.0``
+   :depends python: ``>=3``
    :depends requests: 
    :depends scipy: 
    :depends tqdm: 
@@ -103,7 +106,7 @@ mycotools
 
     <script>
         var package = "mycotools";
-        var versions = ["0.31.48","0.31.46","0.31.45","0.31.44","0.31.43"];
+        var versions = ["0.32.1","0.32.1","0.31.48","0.31.46","0.31.45"];
     </script>
 
 

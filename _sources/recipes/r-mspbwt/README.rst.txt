@@ -27,7 +27,7 @@ r-mspbwt
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ r-mspbwt
 
     <script>
         var package = "r-mspbwt";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

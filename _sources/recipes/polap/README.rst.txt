@@ -29,7 +29,7 @@ polap
       
       
 
-      ``0.2.4-0``
+      ``0.2.6-0``,  ``0.2.4-0``
 
       
 
@@ -45,7 +45,7 @@ polap
    :depends flye: ``>=2.9.2``
    :depends gfastats: 
    :depends icu: 
-   :depends jellyfish: 
+   :depends kmer-jellyfish: 
    :depends libxml2: 
    :depends minimap2: ``>=2.24``
    :depends orthofinder: 
@@ -110,7 +110,7 @@ polap
 
     <script>
         var package = "polap";
-        var versions = ["0.2.4"];
+        var versions = ["0.2.6","0.2.4"];
     </script>
 
 

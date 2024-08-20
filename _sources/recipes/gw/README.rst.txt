@@ -28,10 +28,10 @@ gw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.3-1</code>,  <code>0.9.3-0</code>,  <code>0.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.3-1</code>,  <code>0.9.3-0</code>,  </span></summary>
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.1-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.1-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -47,18 +47,16 @@ gw
    :depends glfw: ``>=3.4,<4.0a0``
    :depends htslib: ``>=1.12``
    :depends htslib: ``>=1.20,<1.21.0a0``
-   :depends libcurl: ``>=8.9.1,<9.0a0``
-   :depends libdeflate: ``>=1.21,<1.22.0a0``
-   :depends libexpat: ``>=2.6.2,<3.0a0``
+   :depends libcurl: ``>=8.8.0,<9.0a0``
    :depends libgcc-ng: ``>=12``
+   :depends libgl: ``>=1.7.0,<2.0a0``
    :depends libstdcxx-ng: ``>=12``
-   :depends libuuid: ``>=2.38.1,<3.0a0``
-   :depends mesa-dri-drivers-cos6-x86_64: 
-   :depends mesa-libegl-devel-cos6-x86_64: 
-   :depends mesa-libgl-devel-cos6-x86_64: 
-   :depends xorg-libx11: ``>=1.8.9,<2.0a0``
-   :depends xorg-libxcb: 
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends xorg-libxau: 
+   :depends xorg-libxdamage: 
    :depends xorg-libxfixes: 
+   :depends xorg-libxt: 
+   :depends xorg-libxxf86vm: 
    :requirements:
 
    .. rubric:: Installation
@@ -106,7 +104,7 @@ gw
 
     <script>
         var package = "gw";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0","0.10.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

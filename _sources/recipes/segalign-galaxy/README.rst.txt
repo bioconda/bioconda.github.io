@@ -12,11 +12,10 @@ segalign-galaxy
 
    SegAlign\: A Scalable GPU\-Based Whole Genome Aligner
 
-   :homepage: https://github.com/gsneha26/SegAlign
-   :documentation: https://github.com/gsneha26/SegAlign/blob/main/README.md
+   :homepage: https://github.com/galaxyproject/SegAlign
+   :documentation: https://github.com/galaxyproject/SegAlign/blob/main/README.md
    
-   :developer docs: https://github.com/richard-burhans/SegAlign/blob/scoring/README.md
-   :license: `MIT / MIT <https://github.com/gsneha26/SegAlign/blob/main/LICENSE>`_
+   :license: `MIT / MIT <https://github.com/galaxyproject/SegAlign/blob/main/LICENSE>`_
    :recipe: /`segalign-galaxy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segalign-galaxy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segalign-galaxy/meta.yaml>`_
    :links: doi: :doi:`10.1109/SC41405.2020.00043`, doi: :doi:`10.5281/zenodo.3880947`
 
@@ -33,7 +32,7 @@ segalign-galaxy
       
       
 
-      ``0.1.2.7-1``,  ``0.1.2.7-0``
+      ``0.1.2.7-2``,  ``0.1.2.7-1``,  ``0.1.2.7-0``
 
       
 
@@ -89,7 +88,7 @@ segalign-galaxy
 
     <script>
         var package = "segalign-galaxy";
-        var versions = ["0.1.2.7","0.1.2.7"];
+        var versions = ["0.1.2.7","0.1.2.7","0.1.2.7"];
     </script>
 
 

@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">r-quilt</span></span></dt>
-<dd><p>Read aware low coverage whole genome sequence imputation from a reference panel</p>
+<dd><p>Rapid and accurate genotype imputation from low coverage short read, long read, and cell free DNA sequence</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/rwdavies/quilt">https://github.com/rwdavies/quilt</a></p>
@@ -88,70 +88,44 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/r-quilt"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-quilt.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-quilt"><img alt="docker_r-quilt" src="https://quay.io/repository/biocontainers/r-quilt/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.9-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.9-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.9-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.9-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.9-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.9-0</span></code></p>
 </details></dd>
-<dt class="field-even">depends gmp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.2.1,&lt;7.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends htslib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.18,&lt;1.21.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends libblas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.0,&lt;4.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
-</dd>
-<dt class="field-even">depends libstdcxx-ng<span class="colon">:</span></dt>
+<dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-odd">depends libzlib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;1.3.0a0</span></code></p>
+<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-even">depends mpc<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.0</span></code></p>
+<dt class="field-even">depends r-base<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends mpc<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
+<dt class="field-odd">depends r-mspbwt<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.0</span></code></p>
 </dd>
-<dt class="field-even">depends mpfr<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.2.0,&lt;5.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends r-data.table<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.11.8</span></code></p>
+<dt class="field-even">depends r-mspbwt<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.0,&lt;0.2.0a0</span></code></p>
 </dd>
 <dt class="field-odd">depends r-optparse<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-rcpp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.12.18</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.0.12</span></code></p>
 </dd>
-<dt class="field-odd">depends r-rcpparmadillo<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.8.600.0.0</span></code></p>
-</dd>
+<dt class="field-odd">depends r-rcppeigen<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-rrbgen<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.0.6</span></code></p>
 </dd>
+<dt class="field-odd">depends r-rrbgen<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.0.6,&lt;0.1.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends r-stitch<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0</span></code></p>
+</dd>
 <dt class="field-odd">depends r-stitch<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.6</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends r-testthat<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0</span></code></p>
-</dd>
-<dt class="field-odd">depends rsync<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends samtools<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p>
-</dd>
-<dt class="field-odd">depends xz<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.2.6,&lt;6.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends zlib<span class="colon">:</span></dt>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -186,7 +160,7 @@ others.</p>
 
 <script>
     var package = "r-quilt";
-    var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.4"];
+    var versions = ["2.0.0","2.0.0","1.0.5","1.0.4","1.0.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
