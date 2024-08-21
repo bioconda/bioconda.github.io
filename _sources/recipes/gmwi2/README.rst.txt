@@ -32,7 +32,7 @@ gmwi2
       
       
 
-      ``1.5-0``
+      ``1.6-0``,  ``1.5-0``
 
       
 
@@ -94,7 +94,7 @@ gmwi2
 
     <script>
         var package = "gmwi2";
-        var versions = ["1.5"];
+        var versions = ["1.6","1.5"];
     </script>
 
 

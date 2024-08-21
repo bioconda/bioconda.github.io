@@ -15,6 +15,7 @@ python-hyphy-python
    :homepage: https://github.com/veg/hyphy-python
    :license: MIT / MIT
    :recipe: /`python-hyphy-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python/meta.yaml>`_
+   :links: biotools: :biotools:`HyPhy`
 
    
 
@@ -28,10 +29,10 @@ python-hyphy-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.12-1</code>,  <code>0.1.12-0</code>,  <code>0.1.11-1</code>,  <code>0.1.11-0</code>,  <code>0.1.10-5</code>,  <code>0.1.10-3</code>,  <code>0.1.10-2</code>,  <code>0.1.10-1</code>,  <code>0.1.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.12-2</code>,  <code>0.1.12-1</code>,  <code>0.1.12-0</code>,  <code>0.1.11-1</code>,  <code>0.1.11-0</code>,  <code>0.1.10-5</code>,  <code>0.1.10-3</code>,  <code>0.1.10-2</code>,  <code>0.1.10-1</code>,  </span></summary>
       
 
-      ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-5``,  ``0.1.10-3``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.3-0``
+      ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-5``,  ``0.1.10-3``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -41,8 +42,9 @@ python-hyphy-python
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libcurl: ``>=8.8.0,<9.0a0``
+   :depends libcurl: ``>=8.9.1,<9.0a0``
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -93,7 +95,7 @@ python-hyphy-python
 
     <script>
         var package = "python-hyphy-python";
-        var versions = ["0.1.12","0.1.12","0.1.11","0.1.11","0.1.10"];
+        var versions = ["0.1.12","0.1.12","0.1.12","0.1.11","0.1.11"];
     </script>
 
 

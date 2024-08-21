@@ -13,6 +13,8 @@ fast-edit-distance
    A implementation of edit distance with improved runtime.
 
    :homepage: https://github.com/youyupei/fast_edit_distance
+   :documentation: https://github.com/youyupei/fast_edit_distance/blob/v1.2.1/README.md
+   
    :license: MIT / MIT
    :recipe: /`fast-edit-distance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast-edit-distance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast-edit-distance/meta.yaml>`_
 
@@ -27,7 +29,7 @@ fast-edit-distance
       
       
 
-      ``1.2.1-1``,  ``1.2.1-0``
+      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
 
       
 
@@ -82,7 +84,7 @@ fast-edit-distance
 
     <script>
         var package = "fast-edit-distance";
-        var versions = ["1.2.1","1.2.1"];
+        var versions = ["1.2.1","1.2.1","1.2.1"];
     </script>
 
 
