@@ -28,10 +28,10 @@ perl-mce-shared
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.891-0</code>,  <code>1.890-0</code>,  <code>1.889-0</code>,  <code>1.888-0</code>,  <code>1.840-1</code>,  <code>1.840-0</code>,  <code>1.839-0</code>,  <code>1.838-0</code>,  <code>1.836-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.892-0</code>,  <code>1.891-0</code>,  <code>1.890-0</code>,  <code>1.889-0</code>,  <code>1.888-0</code>,  <code>1.840-1</code>,  <code>1.840-0</code>,  <code>1.839-0</code>,  <code>1.838-0</code>,  </span></summary>
       
 
-      ``1.891-0``,  ``1.890-0``,  ``1.889-0``,  ``1.888-0``,  ``1.840-1``,  ``1.840-0``,  ``1.839-0``,  ``1.838-0``,  ``1.836-1``,  ``1.836-0``
+      ``1.892-0``,  ``1.891-0``,  ``1.890-0``,  ``1.889-0``,  ``1.888-0``,  ``1.840-1``,  ``1.840-0``,  ``1.839-0``,  ``1.838-0``,  ``1.836-1``,  ``1.836-0``
 
       
       .. raw:: html
@@ -95,7 +95,7 @@ perl-mce-shared
 
     <script>
         var package = "perl-mce-shared";
-        var versions = ["1.891","1.890","1.889","1.888","1.840"];
+        var versions = ["1.892","1.891","1.890","1.889","1.888"];
     </script>
 
 

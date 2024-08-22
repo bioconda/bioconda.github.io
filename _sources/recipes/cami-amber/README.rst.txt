@@ -13,7 +13,7 @@ cami-amber
    AMBER\: Assessment of Metagenome BinnERs
 
    :homepage: https://github.com/CAMI-challenge/AMBER
-   :license: GPL v3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`cami-amber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cami-amber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cami-amber/meta.yaml>`_
 
    
@@ -27,20 +27,20 @@ cami-amber
       
       
 
-      ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
+      ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
 
       
 
    
-   :depends biopython: ``>=1.81``
-   :depends bokeh: ``>=3.1.0``
-   :depends jinja2: ``>=3.1.2``
-   :depends matplotlib-base: ``>=3.7.1``
-   :depends numpy: ``>=1.24.2``
-   :depends pandas: ``>=1.5.3``
-   :depends pyarrow: ``>=11.0.0``
+   :depends biopython: ``>=1.84``
+   :depends bokeh: ``>=3.5.1``
+   :depends jinja2: ``>=3.1.4``
+   :depends matplotlib-base: ``>=3.8.4``
+   :depends numpy: ``>=2.0.1``
+   :depends pandas: ``>=2.2.2``
+   :depends pyarrow: ``>=17.0.0``
    :depends python: ``>=3.6``
-   :depends seaborn: ``>=0.12.2``
+   :depends seaborn-base: ``>=0.13.2``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ cami-amber
 
     <script>
         var package = "cami-amber";
-        var versions = ["2.0.4","2.0.4","2.0.3","2.0.2","2.0.1"];
+        var versions = ["2.0.5","2.0.4","2.0.4","2.0.3","2.0.2"];
     </script>
 
 
