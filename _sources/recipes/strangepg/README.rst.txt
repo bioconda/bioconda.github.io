@@ -27,7 +27,7 @@ strangepg
       
       
 
-      ``0.8.0-0``
+      ``0.8.1-0``,  ``0.8.0-0``
 
       
 
@@ -84,7 +84,7 @@ strangepg
 
     <script>
         var package = "strangepg";
-        var versions = ["0.8.0"];
+        var versions = ["0.8.1","0.8.0"];
     </script>
 
 

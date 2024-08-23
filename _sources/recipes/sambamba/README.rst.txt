@@ -43,9 +43,12 @@ sambamba
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends ldc: ``>=1.38.0,<1.39.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends lz4-c: ``>=1.9.3,<1.10.0a0``
+   :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
    .. rubric:: Installation
