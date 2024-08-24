@@ -27,7 +27,7 @@ r-mutsigextractor
       
       
 
-      ``1.28-0``,  ``1.14-0``
+      ``1.29-0``,  ``1.28-0``,  ``1.14-0``
 
       
 
@@ -84,7 +84,7 @@ r-mutsigextractor
 
     <script>
         var package = "r-mutsigextractor";
-        var versions = ["1.28","1.14"];
+        var versions = ["1.29","1.28","1.14"];
     </script>
 
 

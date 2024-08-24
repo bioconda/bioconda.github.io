@@ -27,7 +27,7 @@ gapseq
       
       
 
-      ``1.2-0``
+      ``1.3-0``,  ``1.2-0``
 
       
 
@@ -113,7 +113,7 @@ gapseq
 
     <script>
         var package = "gapseq";
-        var versions = ["1.2"];
+        var versions = ["1.3","1.2"];
     </script>
 
 

@@ -30,7 +30,7 @@ yacht
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
 
       
 
@@ -38,6 +38,7 @@ yacht
    :depends biom-format: 
    :depends codecov: 
    :depends loguru: 
+   :depends maturin: ``>=1,<2``
    :depends numpy: 
    :depends openpyxl: 
    :depends pandas: 
@@ -45,6 +46,9 @@ yacht
    :depends pytest: 
    :depends pytest-cov: 
    :depends python: ``>3.6``
+   :depends requests: 
+   :depends ruff: 
+   :depends rust: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends sourmash: ``>=4.8.3,<5``
@@ -97,7 +101,7 @@ yacht
 
     <script>
         var package = "yacht";
-        var versions = ["1.2.2","1.2.1","1.1.0","1.0"];
+        var versions = ["1.2.3","1.2.2","1.2.1","1.1.0","1.0"];
     </script>
 
 
