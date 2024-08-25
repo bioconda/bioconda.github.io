@@ -27,7 +27,7 @@ metacerberus-lite
       
       
 
-      ``1.3.2-0``,  ``1.3.1-0``
+      ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
 
@@ -35,6 +35,7 @@ metacerberus-lite
    :depends configargparse: 
    :depends dominate: 
    :depends flash2: 
+   :depends hydrampp: 
    :depends metaomestats: 
    :depends pandas: 
    :depends plotly: 
@@ -93,7 +94,7 @@ metacerberus-lite
 
     <script>
         var package = "metacerberus-lite";
-        var versions = ["1.3.2","1.3.1"];
+        var versions = ["1.4.0","1.3.2","1.3.1"];
     </script>
 
 
