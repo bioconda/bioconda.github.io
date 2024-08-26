@@ -13,7 +13,7 @@ cogent3
    COmparative GENomics Toolkit 3\: genomic sequence analysis within notebooks or on compute systems with 1000s of CPUs.
 
    :homepage: https://github.com/cogent3/cogent3
-   :documentation: https://github.com/cogent3/cogent3/blob/2024.7.19a4/README.md
+   :documentation: https://github.com/cogent3/cogent3/blob/2024.7.19a5/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`cogent3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent3/meta.yaml>`_
@@ -28,9 +28,17 @@ cogent3
    :versions:
       
       
+      .. raw:: html
 
-      ``2024.7.19a4-0``,  ``2024.7.19a3-0``,  ``2024.7.19a1-0``,  ``2024.5.7a1-0``,  ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
+         <details><summary><span class="truncated-version-list"><code>2024.7.19a5-0</code>,  <code>2024.7.19a4-0</code>,  <code>2024.7.19a3-0</code>,  <code>2024.7.19a1-0</code>,  <code>2024.5.7a1-0</code>,  <code>2024.2.5a1-0</code>,  <code>2023.12.15a1-0</code>,  <code>2023.9.22a1-0</code>,  <code>2023.7.18a1-0</code>,  </span></summary>
+      
 
+      ``2024.7.19a5-0``,  ``2024.7.19a4-0``,  ``2024.7.19a3-0``,  ``2024.7.19a1-0``,  ``2024.5.7a1-0``,  ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -92,7 +100,7 @@ cogent3
 
     <script>
         var package = "cogent3";
-        var versions = ["2024.7.19a4","2024.7.19a3","2024.7.19a1","2024.5.7a1","2024.2.5a1"];
+        var versions = ["2024.7.19a5","2024.7.19a4","2024.7.19a3","2024.7.19a1","2024.5.7a1"];
     </script>
 
 
