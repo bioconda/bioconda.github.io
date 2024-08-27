@@ -29,11 +29,12 @@ kmertools
       
       
 
-      ``0.1.0-0``
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
 
       
 
    
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +82,7 @@ kmertools
 
     <script>
         var package = "kmertools";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.2","0.1.2","0.1.0"];
     </script>
 
 

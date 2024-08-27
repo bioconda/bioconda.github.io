@@ -27,7 +27,7 @@ squirrel
       
       
 
-      ``1.0.7-0``
+      ``1.0.8-0``,  ``1.0.7-0``
 
       
 
@@ -91,7 +91,7 @@ squirrel
 
     <script>
         var package = "squirrel";
-        var versions = ["1.0.7"];
+        var versions = ["1.0.8","1.0.7"];
     </script>
 
 

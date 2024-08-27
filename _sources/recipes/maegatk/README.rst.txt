@@ -10,11 +10,14 @@ maegatk
    :replaces_section_title:
    :noindex:
 
-   Mitochondrial Alteration Enrichment and Genome Analysis Toolkit
+   Mitochondrial Alteration Enrichment and Genome Analysis Toolkit.
 
    :homepage: https://github.com/caleblareau/maegatk
+   :documentation: https://github.com/caleblareau/maegatk/wiki
+   
    :license: MIT / MIT
    :recipe: /`maegatk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maegatk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maegatk/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41587-022-01210-8`
 
    Processing and quality control of mitochondrial genome variants from MAESTER data.
 
@@ -27,7 +30,7 @@ maegatk
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -37,7 +40,7 @@ maegatk
    :depends biopython: 
    :depends bwa: 
    :depends click: 
-   :depends fgbio: 
+   :depends fgbio-minimal: 
    :depends freebayes: 
    :depends openjdk: 
    :depends optparse-pretty: 
@@ -50,7 +53,7 @@ maegatk
    :depends r-dplyr: 
    :depends r-matrix: 
    :depends regex: 
-   :depends ruamel.yaml: 
+   :depends ruamel.yaml: ``0.16.12.*``
    :depends samtools: 
    :depends snakemake-minimal: ``<8``
    :requirements:
@@ -100,7 +103,7 @@ maegatk
 
     <script>
         var package = "maegatk";
-        var versions = ["0.2.0","0.2.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0"];
     </script>
 
 
