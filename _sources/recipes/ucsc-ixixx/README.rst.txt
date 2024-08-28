@@ -29,19 +29,27 @@ ucsc-ixixx
    :versions:
       
       
+      .. raw:: html
 
-      ``466-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
+         <details><summary><span class="truncated-version-list"><code>469-0</code>,  <code>466-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  </span></summary>
+      
 
+      ``469-0``,  ``466-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=12``
    :depends libopenssl-static: 
    :depends libpng: ``>=1.6.43,<1.7.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +97,7 @@ ucsc-ixixx
 
     <script>
         var package = "ucsc-ixixx";
-        var versions = ["466","377","377","377","377"];
+        var versions = ["469","466","377","377","377"];
     </script>
 
 

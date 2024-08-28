@@ -12,8 +12,11 @@ ucsc-bigwigsummary
 
    Extract summary information from a bigWig file.
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v469_base/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-bigwigsummary <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigsummary>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigsummary/meta.yaml>`_
 
    
@@ -28,10 +31,10 @@ ucsc-bigwigsummary
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>448-1</code>,  <code>448-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>469-1</code>,  <code>469-0</code>,  <code>448-1</code>,  <code>448-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  </span></summary>
       
 
-      ``448-1``,  ``448-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``469-1``,  ``469-0``,  ``448-1``,  ``448-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -40,13 +43,16 @@ ucsc-bigwigsummary
       
 
    
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libopenssl-static: 
    :depends libpng: ``>=1.6.43,<1.7.0a0``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends libuuid: ``>=2.38.1,<3.0a0``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends mariadb-connector-c: 
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=3.2.1,<4.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +100,7 @@ ucsc-bigwigsummary
 
     <script>
         var package = "ucsc-bigwigsummary";
-        var versions = ["448","448","377","377","377"];
+        var versions = ["469","469","448","448","377"];
     </script>
 
 

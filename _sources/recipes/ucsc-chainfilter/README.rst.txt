@@ -28,10 +28,10 @@ ucsc-chainfilter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>455-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  <code>357-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>469-0</code>,  <code>455-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  </span></summary>
       
 
-      ``455-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``469-0``,  ``455-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -41,12 +41,11 @@ ucsc-chainfilter
 
    
    :depends libgcc-ng: ``>=12``
-   :depends libpng: ``>=1.6.39,<1.7.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libopenssl-static: 
+   :depends libpng: ``>=1.6.43,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=3.1.4,<4.0a0``
    :depends zlib: 
    :requirements:
 
@@ -95,7 +94,7 @@ ucsc-chainfilter
 
     <script>
         var package = "ucsc-chainfilter";
-        var versions = ["455","377","377","377","377"];
+        var versions = ["469","455","377","377","377"];
     </script>
 
 

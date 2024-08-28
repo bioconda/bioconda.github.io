@@ -31,10 +31,10 @@ ucsc-bedsort
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>466-0</code>,  <code>377-4</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>469-0</code>,  <code>466-0</code>,  <code>377-4</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  </span></summary>
       
 
-      ``466-0``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``469-0``,  ``466-0``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ ucsc-bedsort
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +97,7 @@ ucsc-bedsort
 
     <script>
         var package = "ucsc-bedsort";
-        var versions = ["466","377","377","377","377"];
+        var versions = ["469","466","377","377","377"];
     </script>
 
 

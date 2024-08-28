@@ -27,17 +27,18 @@ ucsc-pslmap
       
       
 
-      ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``469-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends libpng: ``>=1.6.34,<1.7.0a0``
-   :depends libuuid: 
-   :depends mysql-connector-c: 
-   :depends openssl: ``>=1.0.2o,<1.0.3a``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=12``
+   :depends libopenssl-static: 
+   :depends libpng: ``>=1.6.43,<1.7.0a0``
+   :depends libuuid: ``>=2.38.1,<3.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +86,7 @@ ucsc-pslmap
 
     <script>
         var package = "ucsc-pslmap";
-        var versions = ["366","357","357","357","332"];
+        var versions = ["469","366","357","357","357"];
     </script>
 
 

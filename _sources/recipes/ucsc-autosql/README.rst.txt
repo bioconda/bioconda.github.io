@@ -29,9 +29,17 @@ ucsc-autosql
    :versions:
       
       
+      .. raw:: html
 
-      ``466-0``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``
+         <details><summary><span class="truncated-version-list"><code>469-0</code>,  <code>466-0</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  <code>357-0</code>,  </span></summary>
+      
 
+      ``469-0``,  ``466-0``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ ucsc-autosql
 
     <script>
         var package = "ucsc-autosql";
-        var versions = ["466","377","377","377","366"];
+        var versions = ["469","466","377","377","377"];
     </script>
 
 
