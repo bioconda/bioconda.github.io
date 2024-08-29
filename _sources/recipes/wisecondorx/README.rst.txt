@@ -28,10 +28,10 @@ wisecondorx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.5-1</code>,  </span></summary>
       
 
-      ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,16 +40,16 @@ wisecondorx
       
 
    
-   :depends bioconductor-dnacopy: 
-   :depends matplotlib-base: 
-   :depends numpy: 
+   :depends bioconductor-dnacopy: ``1.76``
+   :depends matplotlib-base: ``3.8.4``
+   :depends numpy: ``1.26``
    :depends pandas: 
-   :depends pysam: 
+   :depends pysam: ``0.22``
    :depends python: ``>=3.6``
-   :depends r-jsonlite: ``>=1.5``
+   :depends r-jsonlite: ``1.8.8``
    :depends r-png: 
-   :depends scikit-learn: 
-   :depends scipy: 
+   :depends scikit-learn: ``1.4``
+   :depends scipy: ``1.13``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +97,7 @@ wisecondorx
 
     <script>
         var package = "wisecondorx";
-        var versions = ["1.2.8","1.2.7","1.2.6","1.2.5","1.2.4"];
+        var versions = ["1.2.9","1.2.8","1.2.7","1.2.6","1.2.5"];
     </script>
 
 

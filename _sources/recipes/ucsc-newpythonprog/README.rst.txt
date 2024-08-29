@@ -12,9 +12,13 @@ ucsc-newpythonprog
 
    Make a skeleton for a new python program
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-newpythonprog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-newpythonprog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-newpythonprog/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

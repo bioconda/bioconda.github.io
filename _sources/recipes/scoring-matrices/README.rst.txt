@@ -13,7 +13,7 @@ scoring-matrices
    Dependency free\, Cython\-compatible scoring matrices to use with biological sequences.
 
    :homepage: https://github.com/althonos/scoring-matrices
-   :documentation: https://scoring-matrices.readthedocs.org/
+   :documentation: https://scoring-matrices.readthedocs.org
    
    :license: MIT / MIT
    :recipe: /`scoring-matrices <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoring-matrices>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoring-matrices/meta.yaml>`_
@@ -29,11 +29,12 @@ scoring-matrices
       
       
 
-      ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -84,7 +85,7 @@ scoring-matrices
 
     <script>
         var package = "scoring-matrices";
-        var versions = ["0.2.2","0.2.1","0.2.1","0.2.0","0.2.0"];
+        var versions = ["0.2.2","0.2.2","0.2.1","0.2.1","0.2.0"];
     </script>
 
 

@@ -12,9 +12,13 @@ ucsc-sqltoxml
 
    dump out all or part of a relational database to XML\, guided
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-sqltoxml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-sqltoxml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-sqltoxml/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

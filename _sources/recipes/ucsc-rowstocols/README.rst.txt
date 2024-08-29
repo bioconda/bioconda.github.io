@@ -12,9 +12,13 @@ ucsc-rowstocols
 
    Convert rows to columns and vice versa in a text file.
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-rowstocols <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-rowstocols>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-rowstocols/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

@@ -18,6 +18,7 @@ ucsc-pslmrnacover
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-pslmrnacover <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmrnacover>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmrnacover/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

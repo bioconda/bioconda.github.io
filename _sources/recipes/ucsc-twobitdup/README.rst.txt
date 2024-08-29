@@ -12,9 +12,13 @@ ucsc-twobitdup
 
    check to see if a twobit file has any identical sequences in it
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-twobitdup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-twobitdup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-twobitdup/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

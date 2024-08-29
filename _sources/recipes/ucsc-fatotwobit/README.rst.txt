@@ -10,14 +10,15 @@ ucsc-fatotwobit
    :replaces_section_title:
    :noindex:
 
-   Convert DNA from fasta to 2bit format.
+   Convert DNA from fasta to 2bit format
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v469_base/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-fatotwobit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatotwobit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatotwobit/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 
@@ -31,10 +32,10 @@ ucsc-fatotwobit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>469-1</code>,  <code>469-0</code>,  <code>455-2</code>,  <code>455-1</code>,  <code>455-0</code>,  <code>447-0</code>,  <code>377-5</code>,  <code>377-4</code>,  <code>377-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>469-2</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>455-2</code>,  <code>455-1</code>,  <code>455-0</code>,  <code>447-0</code>,  <code>377-5</code>,  <code>377-4</code>,  </span></summary>
       
 
-      ``469-1``,  ``469-0``,  ``455-2``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-5``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``366-1``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``353-0``,  ``332-0``,  ``324-2``,  ``324-0``
+      ``469-2``,  ``469-1``,  ``469-0``,  ``455-2``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-5``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``366-1``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``353-0``,  ``332-0``,  ``324-2``,  ``324-0``
 
       
       .. raw:: html
@@ -52,6 +53,7 @@ ucsc-fatotwobit
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -99,7 +101,7 @@ ucsc-fatotwobit
 
     <script>
         var package = "ucsc-fatotwobit";
-        var versions = ["469","469","455","455","455"];
+        var versions = ["469","469","469","455","455"];
     </script>
 
 

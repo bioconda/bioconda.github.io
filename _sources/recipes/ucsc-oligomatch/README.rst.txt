@@ -12,12 +12,13 @@ ucsc-oligomatch
 
    find perfect matches in sequence.
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
    :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: varies; see http://genome.ucsc.edu/license
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-oligomatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-oligomatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-oligomatch/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

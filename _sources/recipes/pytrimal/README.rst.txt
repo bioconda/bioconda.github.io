@@ -13,9 +13,9 @@ pytrimal
    Cython bindings and Python interface to trimAl\, a tool for automated alignment trimming.
 
    :homepage: https://github.com/althonos/pytrimal
-   :documentation: https://pytrimal.readthedocs.org/
+   :documentation: https://pytrimal.readthedocs.org
    
-   :license: GPL / GPL-3
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`pytrimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytrimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytrimal/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ pytrimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.5-2</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.5-2</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.5-2``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``
+      ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.5-2``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -42,12 +42,14 @@ pytrimal
       
 
    
-   :depends archspec: 
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends setuptools: 
+   :depends scoring-matrices: ``>=0.2.0``
+   :depends scoring-matrices: ``>=0.2.2,<0.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +97,7 @@ pytrimal
 
     <script>
         var package = "pytrimal";
-        var versions = ["0.7.0","0.7.0","0.6.0","0.5.5","0.5.5"];
+        var versions = ["0.8.0","0.7.0","0.7.0","0.6.0","0.5.5"];
     </script>
 
 

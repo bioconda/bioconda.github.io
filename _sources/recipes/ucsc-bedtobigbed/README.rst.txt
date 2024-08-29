@@ -10,11 +10,15 @@ ucsc-bedtobigbed
    :replaces_section_title:
    :noindex:
 
-   Convert bed file to bigBed. \(bbi version\: 4\)
+   Convert bed file to bigBed. \(BigBed version\: 4\)
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-bedtobigbed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedtobigbed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedtobigbed/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

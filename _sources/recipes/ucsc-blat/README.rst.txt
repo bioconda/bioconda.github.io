@@ -10,14 +10,15 @@ ucsc-blat
    :replaces_section_title:
    :noindex:
 
-   Standalone BLAT v. 39x1 fast sequence search command line tool
+   Standalone BLAT v. 36x2 fast sequence search command line tool
 
    :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v468_base/README
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see https://genome.ucsc.edu/license
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-blat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-blat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-blat/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

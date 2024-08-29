@@ -18,6 +18,7 @@ ucsc-bedremoveoverlap
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-bedremoveoverlap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedremoveoverlap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedremoveoverlap/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

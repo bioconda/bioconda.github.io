@@ -13,9 +13,10 @@ trimal
    A tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment
 
    :homepage: https://trimal.readthedocs.io
-   :license: GNU General Public License v3 or later (GPLv3+)
+   :developer docs: https://github.com/inab/trimal
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`trimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimal/meta.yaml>`_
-   :links: biotools: :biotools:`trimAl`
+   :links: biotools: :biotools:`trimAl`, doi: :doi:`10.1093/bioinformatics/btp348`
 
    
 
@@ -29,10 +30,10 @@ trimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.1-9</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.1-9</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -90,7 +91,7 @@ trimal
 
     <script>
         var package = "trimal";
-        var versions = ["1.5.0","1.4.1","1.4.1","1.4.1","1.4.1"];
+        var versions = ["1.5.0","1.5.0","1.4.1","1.4.1","1.4.1"];
     </script>
 
 

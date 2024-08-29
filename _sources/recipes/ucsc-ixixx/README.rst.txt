@@ -16,8 +16,9 @@ ucsc-ixixx
    :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see https://genome.ucsc.edu/license
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-ixixx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ixixx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ixixx/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

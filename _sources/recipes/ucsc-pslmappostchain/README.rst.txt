@@ -12,9 +12,13 @@ ucsc-pslmappostchain
 
     Post genomic pslMap \(TransMap\) chaining.  This takes transcripts that have been mapped via genomic chains adds back in blocks that didn\'t get include in genomic chains due to complex rearrangements or other issues. 
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-pslmappostchain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmappostchain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmappostchain/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

@@ -12,12 +12,13 @@ ucsc-xmlcat
 
    Concatenate xml files together\, stuffing all records inside a single outer tag. 
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
    :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: varies; see http://genome.ucsc.edu/license
+   :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-xmlcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-xmlcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-xmlcat/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 

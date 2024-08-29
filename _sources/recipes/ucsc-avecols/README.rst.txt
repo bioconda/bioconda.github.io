@@ -18,6 +18,7 @@ ucsc-avecols
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see http://genome.ucsc.edu/license
    :recipe: /`ucsc-avecols <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-avecols>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-avecols/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 
