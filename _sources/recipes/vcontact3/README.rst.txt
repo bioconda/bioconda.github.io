@@ -29,7 +29,7 @@ vcontact3
       
       
 
-      ``3.0.0.b38-0``
+      ``3.0.0.b65-0``,  ``3.0.0.b38-0``
 
       
 
@@ -44,6 +44,7 @@ vcontact3
    :depends markupsafe: ``>=2.0.1``
    :depends matplotlib-base: ``>=3.7.1``
    :depends mmseqs2: ``>=15.6f452``
+   :depends networkit: ``>=11.0``
    :depends networkx: ``>=3.1``
    :depends numpy: ``>=1.23.5``
    :depends pandas: ``>=2.1.1``
@@ -108,7 +109,7 @@ vcontact3
 
     <script>
         var package = "vcontact3";
-        var versions = ["3.0.0.b38"];
+        var versions = ["3.0.0.b65","3.0.0.b38"];
     </script>
 
 

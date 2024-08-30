@@ -27,7 +27,7 @@ evidencemodeler
       
       
 
-      ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
+      ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
 
       
 
@@ -37,6 +37,7 @@ evidencemodeler
    :depends libstdcxx-ng: ``>=12``
    :depends perl: 
    :depends perl-carp: 
+   :depends perl-db_file: 
    :depends perl-dbi: 
    :depends perl-uri: 
    :requirements:
@@ -86,7 +87,7 @@ evidencemodeler
 
     <script>
         var package = "evidencemodeler";
-        var versions = ["2.1.0","2.1.0","2.1.0","1.1.1","1.1.1"];
+        var versions = ["2.1.0","2.1.0","2.1.0","2.1.0","1.1.1"];
     </script>
 
 

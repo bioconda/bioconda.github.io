@@ -27,17 +27,19 @@ inspector
       
       
 
-      ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
 
       
 
    
-   :depends flye: ``2.8.3.*``
-   :depends minimap2: ``2.15.*``
-   :depends pysam: ``0.16.0.1.*``
+   :depends flye: ``>=2.9.5``
+   :depends minimap2: ``>=2.28``
+   :depends numpy: ``>=2.1.0``
+   :depends pandas: ``>=2.2.2``
+   :depends pysam: ``>=0.22.1``
    :depends python: 
-   :depends samtools: ``1.9.*``
-   :depends statsmodels: ``0.10.1.*``
+   :depends samtools: ``>=1.20``
+   :depends statsmodels: ``>=0.14.2``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +87,7 @@ inspector
 
     <script>
         var package = "inspector";
-        var versions = ["1.3.1","1.3","1.2"];
+        var versions = ["1.3.1","1.3.1","1.3","1.2"];
     </script>
 
 
