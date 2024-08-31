@@ -29,14 +29,14 @@ samestr
       
       
 
-      ``1.2024.2.post1-0``,  ``1.2023.4-0``,  ``1.2023.3-0``
+      ``1.2024.8-0``,  ``1.2024.2.post1-0``,  ``1.2023.4-0``,  ``1.2023.3-0``
 
       
 
    
    :depends biopython: ``1.81``
    :depends blast: ``>=2.6.0``
-   :depends mafft: ``7.515``
+   :depends mafft: ``7.525``
    :depends muscle: ``3.8.1551``
    :depends numpy: ``1.24.2``
    :depends pandas: ``1.5.3``
@@ -91,7 +91,7 @@ samestr
 
     <script>
         var package = "samestr";
-        var versions = ["1.2024.2.post1","1.2023.4","1.2023.3"];
+        var versions = ["1.2024.8","1.2024.2.post1","1.2023.4","1.2023.3"];
     </script>
 
 

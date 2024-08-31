@@ -10,14 +10,27 @@ dbcanlight
    :replaces_section_title:
    :noindex:
 
-   A lightweight rewrite of run\_dbcan
+   A lightweight CAZyme annotation tool
 
-   :homepage: https://github.com/chtsai0105/dbcanLight/tree/main
-   :license: MIT
+   :homepage: https://github.com/chtsai0105/dbcanlight
+   :documentation: https://github.com/chtsai0105/dbcanlight/blob/v1.1.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`dbcanlight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcanlight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcanlight/meta.yaml>`_
 
-   dbcanlight uses the hmmsearch module in pyhmmer to discover CAZymes and 
-   potential substrates from a peptide sequences.
+   Dbcanlight is a lightweight rewrite of a widely used CAZyme annotation tool run\_dbcan. It uses pyhmmer\, a Cython bindings to
+   HMMER3\, to instead the cli version of HMMER3 suite as the backend for the search processes\, which improves the multithreading
+   performance. In addition\, it also solves the inconvenience process in the run dbcan that the large sequence file required
+   manual splitting beforehand.
+
+   The main program dbcanlight comprises 3 modules \- build\, search and conclude. The build module help to download the required
+   databases from dbcan website\; the search module searches against protein HMM\, substrate HMM or diamond databases and reports
+   the hits separately\; and the conclude module gathers all the results made by each module and provides a brief overview. The
+   output of dbcanlight is resemble to run\_dbcan with slight cleanup. Run\_dbcan output the same substrate several times for a
+   gene that hits multiple profiles with the same substrate\; in dbcanlight we only report it once.
+
+   Dbcanlight only re\-implemented the core features of run\_dbcan\, that is searching for CAZyme and substrate matches by
+   hmmer\/diamond\/dbcansub. Submodules like signalP\, CGCFinder\, etc. are not implemented.
 
 
 
@@ -29,14 +42,14 @@ dbcanlight
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends biopython: ``>=1.79``
-   :depends importlib_metadata: 
-   :depends pyhmmer: ``>=0.10.2``
+   :depends biopython: ``>=1.81``
+   :depends importlib-metadata: 
+   :depends pyhmmer: ``>=0.10.4``
    :depends python: ``>=3.7``
    :requirements:
 
@@ -85,7 +98,7 @@ dbcanlight
 
     <script>
         var package = "dbcanlight";
-        var versions = ["1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.1.0","1.0.2","1.0.1","1.0.0"];
     </script>
 
 
