@@ -28,10 +28,10 @@ perl-graph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9731-0</code>,  <code>0.9730-0</code>,  <code>0.9729-0</code>,  <code>0.9728-0</code>,  <code>0.9727-0</code>,  <code>0.9726-0</code>,  <code>0.9725-0</code>,  <code>0.9704-2</code>,  <code>0.9704-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9732-0</code>,  <code>0.9731-0</code>,  <code>0.9730-0</code>,  <code>0.9729-0</code>,  <code>0.9728-0</code>,  <code>0.9727-0</code>,  <code>0.9726-0</code>,  <code>0.9725-0</code>,  <code>0.9704-2</code>,  </span></summary>
       
 
-      ``0.9731-0``,  ``0.9730-0``,  ``0.9729-0``,  ``0.9728-0``,  ``0.9727-0``,  ``0.9726-0``,  ``0.9725-0``,  ``0.9704-2``,  ``0.9704-1``,  ``0.9704-0``
+      ``0.9732-0``,  ``0.9731-0``,  ``0.9730-0``,  ``0.9729-0``,  ``0.9728-0``,  ``0.9727-0``,  ``0.9726-0``,  ``0.9725-0``,  ``0.9704-2``,  ``0.9704-1``,  ``0.9704-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ perl-graph
 
     <script>
         var package = "perl-graph";
-        var versions = ["0.9731","0.9730","0.9729","0.9728","0.9727"];
+        var versions = ["0.9732","0.9731","0.9730","0.9729","0.9728"];
     </script>
 
 

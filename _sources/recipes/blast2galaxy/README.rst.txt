@@ -13,7 +13,7 @@ blast2galaxy
    A Python package with a CLI and API to perform BLAST queries against Galaxy servers
 
    :homepage: https://github.com/IPK-BIT/blast2galaxy
-   :documentation: https://ipk-bit.github.io/blast2galaxy/
+   :documentation: https://blast2galaxy.readthedocs.io/
    
    :license: MIT
    :recipe: /`blast2galaxy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast2galaxy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast2galaxy/meta.yaml>`_
@@ -29,7 +29,7 @@ blast2galaxy
       
       
 
-      ``0.1.0a1-0``
+      ``1.0.0-0``,  ``0.1.0a1-0``
 
       
 
@@ -86,7 +86,7 @@ blast2galaxy
 
     <script>
         var package = "blast2galaxy";
-        var versions = ["0.1.0a1"];
+        var versions = ["1.0.0","0.1.0a1"];
     </script>
 
 

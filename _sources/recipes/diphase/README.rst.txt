@@ -27,7 +27,7 @@ diphase
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,8 +36,8 @@ diphase
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libcurl: ``>=7.87.0,<8.0a0``
    :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends openssl: ``>=1.1.1w,<1.1.2a``
    :depends python: ``3.9.0.*``
@@ -91,7 +91,7 @@ diphase
 
     <script>
         var package = "diphase";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 
