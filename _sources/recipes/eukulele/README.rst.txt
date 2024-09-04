@@ -10,10 +10,12 @@ eukulele
    :replaces_section_title:
    :noindex:
 
-   Easy taxonomic annotation for eukaryotic microbes
+   Easy taxonomic annotation for eukaryotic microbes.
 
    :homepage: https://github.com/AlexanderLabWHOI/EUKulele
-   :license: MIT
+   :documentation: https://github.com/AlexanderLabWHOI/EUKulele/blob/2.0.9/README.md
+   
+   :license: MIT / MIT
    :recipe: /`eukulele <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukulele>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukulele/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ eukulele
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>1.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-3``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.0.9-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-3``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -40,18 +42,23 @@ eukulele
       
 
    
-   :depends biopython: ``1.78``
-   :depends blast: ``2.2.31``
+   :depends biopython: 
+   :depends blast: 
    :depends boost-cpp: 
    :depends chardet: 
-   :depends diamond: ``0.9.24``
+   :depends diamond: 
    :depends joblib: 
-   :depends matplotlib-base: ``3.3.3``
-   :depends numpy: ``1.19.5``
-   :depends pandas: ``1.2.0``
+   :depends matplotlib-base: 
+   :depends multiprocess: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends pytest-cov: 
+   :depends pytest-xdist: 
    :depends python: ``>=3.6``
+   :depends python-coveralls: 
    :depends pyyaml: 
    :depends seaborn-base: 
+   :depends sphinxcontrib-bibtex: ``1.0.0``
    :depends ujson: 
    :requirements:
 
@@ -100,7 +107,7 @@ eukulele
 
     <script>
         var package = "eukulele";
-        var versions = ["2.0.7","2.0.6","2.0.5","2.0.3","2.0.3"];
+        var versions = ["2.0.9","2.0.7","2.0.6","2.0.5","2.0.3"];
     </script>
 
 
