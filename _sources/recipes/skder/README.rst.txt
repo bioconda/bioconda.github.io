@@ -10,7 +10,7 @@ skder
    :replaces_section_title:
    :noindex:
 
-   skDER\: efficient \& high\-resolution dereplication of microbial genomes
+   skDER \& CiDDER\: efficient \& high\-resolution dereplication methods for microbial genomes
 
    :homepage: https://github.com/raufs/skDER
    :license: BSD / BSD-3-Clause license
@@ -28,10 +28,10 @@ skder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.1-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.1-0</code>,  <code>1.0.10-0</code>,  </span></summary>
       
 
-      ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ skder
    :depends pandas: 
    :depends pyrodigal: 
    :depends python: ``>=3.10,<3.11.0a0``
+   :depends python-igraph: 
    :depends python_abi: ``3.10.* *_cp310``
    :depends seaborn: 
    :depends setuptools: 
@@ -101,7 +102,7 @@ skder
 
     <script>
         var package = "skder";
-        var versions = ["1.2.5","1.2.4","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.2.6","1.2.5","1.2.4","1.2.3","1.2.2"];
     </script>
 
 

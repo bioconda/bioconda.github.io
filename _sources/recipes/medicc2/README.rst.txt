@@ -13,11 +13,13 @@ medicc2
    Whole\-genome doubling\-aware copy number phylogenies for cancer evolution
 
    :homepage: https://bitbucket.org/schwarzlab/medicc2
-   :license: GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`medicc2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medicc2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medicc2/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-022-02794-9`
 
    For more information see the accompanying biorxiv preprint \"Kaufmann et al. Whole\-genome 
    doubling\-aware copy number phylogenies for cancer evolution with MEDICC2.\"
+
 
 
 .. conda:package:: medicc2
@@ -29,10 +31,10 @@ medicc2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-1</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
 
       
       .. raw:: html
@@ -45,11 +47,11 @@ medicc2
    :depends joblib: ``>=1.0.1``
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
-   :depends matplotlib-base: ``>=3.3``
+   :depends matplotlib-base: ``>=3.3.4``
    :depends numpy: ``>=1.20.1,<2.0``
    :depends numpy: ``>=1.21,<3``
    :depends openfst: ``>=1.8.2,<1.8.3.0a0``
-   :depends pandas: ``>=1.2.2,<2.1``
+   :depends pandas: ``>=1.2,<2.1``
    :depends pyranges: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -102,7 +104,7 @@ medicc2
 
     <script>
         var package = "medicc2";
-        var versions = ["1.1.1","1.0.4","1.0.2","1.0.2","1.0.0"];
+        var versions = ["1.1.2","1.1.1","1.0.4","1.0.2","1.0.2"];
     </script>
 
 

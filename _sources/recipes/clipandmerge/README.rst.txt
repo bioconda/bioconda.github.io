@@ -27,7 +27,7 @@ clipandmerge
       
       
 
-      ``1.7.8-2``,  ``1.7.8-1``,  ``1.7.8-0``
+      ``1.7.9-0``,  ``1.7.8-2``,  ``1.7.8-1``,  ``1.7.8-0``
 
       
 
@@ -81,7 +81,7 @@ clipandmerge
 
     <script>
         var package = "clipandmerge";
-        var versions = ["1.7.8","1.7.8","1.7.8"];
+        var versions = ["1.7.9","1.7.8","1.7.8","1.7.8"];
     </script>
 
 

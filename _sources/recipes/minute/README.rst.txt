@@ -27,7 +27,7 @@ minute
       
       
 
-      ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
+      ``0.8.0-0``,  ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
 
       
 
@@ -39,9 +39,9 @@ minute
    :depends fastqc: ``>=0.11.9``
    :depends igvtools: ``>=2.5.3``
    :depends je-suite: ``>=2.0.RC``
-   :depends multiqc: ``1.13.*``
+   :depends multiqc: ``1.17.*``
    :depends picard: ``>=2.26.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :depends r-base: ``>=4.0.0``
    :depends r-dplyr: ``>=1.0.0``
    :depends r-ggplot2: ``>=3.3.0``
@@ -97,7 +97,7 @@ minute
 
     <script>
         var package = "minute";
-        var versions = ["0.6.0","0.4.0","0.3.3","0.2.0"];
+        var versions = ["0.8.0","0.6.0","0.4.0","0.3.3","0.2.0"];
     </script>
 
 
