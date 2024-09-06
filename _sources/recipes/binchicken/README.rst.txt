@@ -30,10 +30,10 @@ binchicken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.4-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  <code>0.10.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.5-0</code>,  <code>0.12.4-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  </span></summary>
       
 
-      ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
+      ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ binchicken
 
     <script>
         var package = "binchicken";
-        var versions = ["0.12.4","0.12.2","0.12.1","0.12.0","0.12.0"];
+        var versions = ["0.12.5","0.12.4","0.12.2","0.12.1","0.12.0"];
     </script>
 
 

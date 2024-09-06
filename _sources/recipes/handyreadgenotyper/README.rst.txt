@@ -27,9 +27,17 @@ handyreadgenotyper
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.22-0``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.18-0``,  ``0.1.14-1``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.9-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.24-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-1</code>,  <code>0.1.21-0</code>,  <code>0.1.20-0</code>,  <code>0.1.18-0</code>,  <code>0.1.14-1</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  </span></summary>
+      
 
+      ``0.1.24-0``,  ``0.1.22-0``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.18-0``,  ``0.1.14-1``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ handyreadgenotyper
 
     <script>
         var package = "handyreadgenotyper";
-        var versions = ["0.1.22","0.1.21","0.1.21","0.1.20","0.1.18"];
+        var versions = ["0.1.24","0.1.22","0.1.21","0.1.21","0.1.20"];
     </script>
 
 

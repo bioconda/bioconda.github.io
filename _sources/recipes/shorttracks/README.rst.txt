@@ -27,7 +27,7 @@ shorttracks
       
       
 
-      ``1.1-0``,  ``0.1-0``
+      ``1.2-0``,  ``1.1-0``,  ``0.1-0``
 
       
 
@@ -82,7 +82,7 @@ shorttracks
 
     <script>
         var package = "shorttracks";
-        var versions = ["1.1","0.1"];
+        var versions = ["1.2","1.1","0.1"];
     </script>
 
 

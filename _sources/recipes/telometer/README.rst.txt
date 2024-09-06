@@ -27,15 +27,18 @@ telometer
       
       
 
-      ``0.81-0``,  ``0.5-0``
+      ``1.0-0``,  ``0.81-0``,  ``0.5-0``
 
       
 
    
+   :depends minimap2: 
    :depends pandas: 
    :depends pysam: 
    :depends python: ``>=3.7``
    :depends regex: 
+   :depends samtools: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +86,7 @@ telometer
 
     <script>
         var package = "telometer";
-        var versions = ["0.81","0.5"];
+        var versions = ["1.0","0.81","0.5"];
     </script>
 
 
