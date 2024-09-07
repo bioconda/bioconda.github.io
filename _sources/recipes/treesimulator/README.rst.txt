@@ -30,7 +30,7 @@ treesimulator
       
       
 
-      ``0.1.22-0``
+      ``0.2.0-0``,  ``0.1.22-0``
 
       
 
@@ -87,7 +87,7 @@ treesimulator
 
     <script>
         var package = "treesimulator";
-        var versions = ["0.1.22"];
+        var versions = ["0.2.0","0.1.22"];
     </script>
 
 

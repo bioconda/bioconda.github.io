@@ -31,12 +31,13 @@ orthologer
       
       
 
-      ``3.3.1-0``
+      ``3.3.2-0``,  ``3.3.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends bash: ``>=4.1``
    :depends biopython: 
    :depends blast: 
    :depends cd-hit: 
@@ -96,7 +97,7 @@ orthologer
 
     <script>
         var package = "orthologer";
-        var versions = ["3.3.1"];
+        var versions = ["3.3.2","3.3.1"];
     </script>
 
 

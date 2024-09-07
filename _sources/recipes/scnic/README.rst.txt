@@ -13,7 +13,7 @@ scnic
    SCNIC\: Sparse Cooccurence Network Investigation for Compositional data
 
    :homepage: https://github.com/lozuponelab/SCNIC
-   :license: BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`scnic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scnic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scnic/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ scnic
       
       
 
-      ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.1-0``
+      ``0.6.6-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.1-0``
 
       
 
@@ -36,13 +36,13 @@ scnic
    :depends fastspar: 
    :depends h5py: 
    :depends matplotlib-base: 
-   :depends networkx: ``>2``
+   :depends networkx: ``>=2``
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: ``>=1``
    :depends python: ``>=3``
    :depends scikit-bio: 
-   :depends scipy: 
-   :depends seaborn: 
+   :depends scipy: ``>=1.9.0,<=1.10.1``
+   :depends seaborn-base: 
    :depends statsmodels: 
    :depends tqdm: 
    :requirements:
@@ -92,7 +92,7 @@ scnic
 
     <script>
         var package = "scnic";
-        var versions = ["0.6.3","0.6.2","0.6.1","0.6.0","0.5.3"];
+        var versions = ["0.6.6","0.6.3","0.6.2","0.6.1","0.6.0"];
     </script>
 
 

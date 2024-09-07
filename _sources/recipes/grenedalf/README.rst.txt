@@ -34,14 +34,14 @@ grenedalf
       
       
 
-      ``0.6.0-0``,  ``0.5.2-0``
+      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
    :depends zlib: 
@@ -92,7 +92,7 @@ grenedalf
 
     <script>
         var package = "grenedalf";
-        var versions = ["0.6.0","0.5.2"];
+        var versions = ["0.6.1","0.6.0","0.5.2"];
     </script>
 
 
