@@ -27,18 +27,18 @@ strangepg
       
       
 
-      ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libxcb: 
    :depends xorg-libx11: ``>=1.8.9,<2.0a0``
-   :depends xorg-libxau: ``>=1.0.11,<2.0a0``
-   :depends xorg-libxcb: 
+   :depends xorg-libxau: 
    :depends xorg-libxcursor: 
    :depends xorg-libxdmcp: 
-   :depends xorg-libxext: ``>=1.3.4,<2.0a0``
+   :depends xorg-libxext: 
    :depends xorg-libxfixes: 
    :depends xorg-libxi: ``>=1.7.10,<2.0a0``
    :depends xorg-libxrandr: 
@@ -89,7 +89,7 @@ strangepg
 
     <script>
         var package = "strangepg";
-        var versions = ["0.8.2","0.8.1","0.8.0"];
+        var versions = ["0.8.3","0.8.2","0.8.1","0.8.0"];
     </script>
 
 

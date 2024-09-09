@@ -27,7 +27,7 @@ snakemake-executor-plugin-kubernetes
       
       
 
-      ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -83,7 +83,7 @@ snakemake-executor-plugin-kubernetes
 
     <script>
         var package = "snakemake-executor-plugin-kubernetes";
-        var versions = ["0.2.0","0.1.5","0.1.4"];
+        var versions = ["0.2.1","0.2.0","0.1.5","0.1.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ snakemake-executor-plugin-drmaa
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -83,7 +83,7 @@ snakemake-executor-plugin-drmaa
 
     <script>
         var package = "snakemake-executor-plugin-drmaa";
-        var versions = ["0.1.4","0.1.3"];
+        var versions = ["0.1.5","0.1.4","0.1.3"];
     </script>
 
 

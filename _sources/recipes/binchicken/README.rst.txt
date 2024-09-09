@@ -30,10 +30,10 @@ binchicken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.5-0</code>,  <code>0.12.4-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.5-1</code>,  <code>0.12.5-0</code>,  <code>0.12.4-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.5-0</code>,  </span></summary>
       
 
-      ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
+      ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ binchicken
    :depends networkx: 
    :depends parallel: 
    :depends pigz: 
-   :depends polars: ``0.20.31.*``
+   :depends polars: ``1.2.*``
    :depends pyarrow: 
    :depends pyopenssl: ``>22.1.0``
    :depends python: ``3.10.*``
@@ -103,7 +103,7 @@ binchicken
 
     <script>
         var package = "binchicken";
-        var versions = ["0.12.5","0.12.4","0.12.2","0.12.1","0.12.0"];
+        var versions = ["0.12.5","0.12.5","0.12.4","0.12.2","0.12.1"];
     </script>
 
 
