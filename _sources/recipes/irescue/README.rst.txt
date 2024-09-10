@@ -13,8 +13,11 @@ irescue
    A tool to quantify transposable elements expression in scRNA\-seq.
 
    :homepage: https://github.com/bodegalab/irescue
-   :license: MIT
+   :documentation: https://pypi.org/project/IRescue
+   
+   :license: MIT / MIT
    :recipe: /`irescue <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irescue>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irescue/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2022.09.16.508229`
 
    
 
@@ -27,7 +30,7 @@ irescue
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -36,6 +39,7 @@ irescue
    :depends coreutils: ``>=9.3``
    :depends gawk: ``>=5.0.1``
    :depends gzip: ``>=1.12``
+   :depends networkx: ``>=3.1``
    :depends numpy: ``>=1.20.2``
    :depends pysam: ``>=0.16.0.1``
    :depends python: ``>=3.7``
@@ -88,7 +92,7 @@ irescue
 
     <script>
         var package = "irescue";
-        var versions = ["1.0.3","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.1.1","1.1.0","1.0.3","1.0.3","1.0.2"];
     </script>
 
 

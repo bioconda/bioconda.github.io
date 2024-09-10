@@ -13,7 +13,7 @@ mashpit
    Sketch\-based surveillance platform
 
    :homepage: https://github.com/tongzhouxu/mashpit
-   :license: GPL / GPL-2
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`mashpit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashpit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashpit/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ mashpit
       
       
 
-      ``0.9.6-0``,  ``0.9.2-0``
+      ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
 
       
 
@@ -39,6 +39,7 @@ mashpit
    :depends ncbi-datasets-pylib: ``>=16.6.0``
    :depends numpy: ``>=1.19.5``
    :depends pandas: ``>=1.1.5``
+   :depends phytreeviz: 
    :depends python: ``>=3.8``
    :depends requests: 
    :depends scikit-bio: 
@@ -93,7 +94,7 @@ mashpit
 
     <script>
         var package = "mashpit";
-        var versions = ["0.9.6","0.9.2"];
+        var versions = ["0.9.7","0.9.6","0.9.2"];
     </script>
 
 

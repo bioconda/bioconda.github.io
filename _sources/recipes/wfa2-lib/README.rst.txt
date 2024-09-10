@@ -10,7 +10,7 @@ wfa2-lib
    :replaces_section_title:
    :noindex:
 
-   Wavefront alignment algorithm library v2
+   Wavefront alignment algorithm library v2.
 
    :homepage: https://github.com/smarco/WFA2-lib
    :documentation: https://github.com/smarco/WFA2-lib/blob/v2.3.5/README.md
@@ -30,14 +30,14 @@ wfa2-lib
       
       
 
-      ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+      ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ wfa2-lib
 
     <script>
         var package = "wfa2-lib";
-        var versions = ["2.3.5","2.3.5","2.3.4","2.3.4","2.3.3"];
+        var versions = ["2.3.5","2.3.5","2.3.5","2.3.4","2.3.4"];
     </script>
 
 

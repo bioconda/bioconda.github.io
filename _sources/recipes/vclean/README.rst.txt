@@ -13,7 +13,7 @@ vclean
    vClean\: Assessing the contamination of viral genomes
 
    :homepage: https://github.com/TsumaR/vclean
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`vclean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vclean>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vclean/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ vclean
       
       
 
-      ``0.0.2-0``
+      ``0.1.2-0``,  ``0.0.2-0``
 
       
 
@@ -43,7 +43,7 @@ vclean
    :depends prodigal: 
    :depends python: ``>=3.9``
    :depends scikit-learn: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends seqkit: 
    :requirements:
 
@@ -92,7 +92,7 @@ vclean
 
     <script>
         var package = "vclean";
-        var versions = ["0.0.2"];
+        var versions = ["0.1.2","0.0.2"];
     </script>
 
 

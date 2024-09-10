@@ -13,6 +13,8 @@ graphmap
    A highly sensitive and accurate mapper for long\, error\-prone reads.
 
    :homepage: https://github.com/lbcb-sci/graphmap2
+   :documentation: https://www.nature.com/articles/ncomms11307
+   
    :license: MIT
    :recipe: /`graphmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap/meta.yaml>`_
 
@@ -28,10 +30,10 @@ graphmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.3-4</code>,  <code>0.6.3-3</code>,  <code>0.6.3-2</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.5.2-2</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.4-0</code>,  <code>0.6.3-4</code>,  <code>0.6.3-3</code>,  <code>0.6.3-2</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.5.2-2</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.6.3-4``,  ``0.6.3-3``,  ``0.6.3-2``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.4.0-0``,  ``0.3.1p1-1``,  ``0.3.1p1-0``
+      ``0.6.4-0``,  ``0.6.3-4``,  ``0.6.3-3``,  ``0.6.3-2``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.4.0-0``,  ``0.3.1p1-1``,  ``0.3.1p1-0``
 
       
       .. raw:: html
@@ -40,9 +42,9 @@ graphmap
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +93,7 @@ graphmap
 
     <script>
         var package = "graphmap";
-        var versions = ["0.6.3","0.6.3","0.6.3","0.6.3","0.6.3"];
+        var versions = ["0.6.4","0.6.3","0.6.3","0.6.3","0.6.3"];
     </script>
 
 

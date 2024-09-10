@@ -28,7 +28,7 @@ xengsort
       
       
 
-      ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0.3-0``
+      ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0.3-0``
 
       
 
@@ -37,7 +37,7 @@ xengsort
    :depends numba: ``>=0.56``
    :depends numpy: ``>=1.22``
    :depends pytest: 
-   :depends python: ``3.11``
+   :depends python: ``>=3.12``
    :depends pyyaml: 
    :depends zarr: 
    :requirements:
@@ -87,7 +87,7 @@ xengsort
 
     <script>
         var package = "xengsort";
-        var versions = ["2.0.5","2.0.3","2.0.2","2.0.1","2.0.0"];
+        var versions = ["2.0.8","2.0.7","2.0.5","2.0.3","2.0.2"];
     </script>
 
 

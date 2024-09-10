@@ -28,10 +28,10 @@ shortstack
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.8.5-4</code>,  <code>3.8.5-3</code>,  <code>3.8.5-2</code>,  <code>3.8.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.4-1</code>,  <code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.8.5-4</code>,  <code>3.8.5-3</code>,  </span></summary>
       
 
-      ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.8.5-4``,  ``3.8.5-3``,  ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-1``,  ``3.6-0``
+      ``4.1.0-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.8.5-4``,  ``3.8.5-3``,  ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-1``,  ``3.6-0``
 
       
       .. raw:: html
@@ -45,10 +45,10 @@ shortstack
    :depends bowtie: ``>=1.3.1``
    :depends cutadapt: 
    :depends numpy: 
-   :depends python: ``>=3.10.8``
-   :depends samtools: ``>=1.16``
-   :depends shorttracks: 
-   :depends strucvis: 
+   :depends python: ``>=3.12.3``
+   :depends samtools: ``>=1.20``
+   :depends shorttracks: ``>=1.2``
+   :depends strucvis: ``>=0.9``
    :depends tqdm: 
    :depends viennarna: ``2.*``
    :requirements:
@@ -98,7 +98,7 @@ shortstack
 
     <script>
         var package = "shortstack";
-        var versions = ["4.0.4","4.0.3","4.0.2","4.0.1","4.0.0"];
+        var versions = ["4.1.0","4.0.4","4.0.4","4.0.3","4.0.2"];
     </script>
 
 

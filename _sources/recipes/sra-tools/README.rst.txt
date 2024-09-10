@@ -17,9 +17,10 @@ sra-tools
    
    :license: Public Domain
    :recipe: /`sra-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools/meta.yaml>`_
+   :links: biotools: :biotools:`sra-tools`
 
-   The SRA Toolkit and SDK from NCBI is a collection of tools and libraries
-   for using data in the INSDC Sequence Read Archives.
+   \"The SRA Toolkit and SDK from NCBI is a collection of tools and libraries
+   for using data in the INSDC Sequence Read Archives.\"
 
 
 
@@ -32,10 +33,10 @@ sra-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.1-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.1-2</code>,  <code>3.1.1-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  </span></summary>
       
 
-      ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-2``,  ``2.10.7-1``,  ``2.10.7-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.1_1-0``,  ``2.9.1-0``,  ``2.9.0-1``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``
+      ``3.1.1-2``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``,  ``2.10.7-2``,  ``2.10.7-1``,  ``2.10.7-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.1_1-0``,  ``2.9.1-0``,  ``2.9.0-1``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``
 
       
       .. raw:: html
@@ -46,7 +47,9 @@ sra-tools
    
    :depends ca-certificates: 
    :depends curl: 
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends ncbi-vdb: ``>=3.1.1``
    :depends ncbi-vdb: ``>=3.1.1,<4.0a0``
@@ -101,7 +104,7 @@ sra-tools
 
     <script>
         var package = "sra-tools";
-        var versions = ["3.1.1","3.1.0","3.1.0","3.0.10","3.0.9"];
+        var versions = ["3.1.1","3.1.1","3.1.0","3.1.0","3.0.10"];
     </script>
 
 

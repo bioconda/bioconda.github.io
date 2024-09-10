@@ -29,7 +29,7 @@ gempipe
       
       
 
-      ``1.34.2-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.33.4-0``,  ``1.33.3-0``,  ``1.33.2-0``,  ``1.33.1-0``,  ``1.33.0-0``
+      ``1.35.0-0``,  ``1.34.2-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.33.4-0``,  ``1.33.3-0``,  ``1.33.2-0``,  ``1.33.1-0``,  ``1.33.0-0``
 
       
 
@@ -42,6 +42,7 @@ gempipe
    :depends diamond: ``>=2.0.15``
    :depends eggnog-mapper: ``>=2.1.7``
    :depends ipython: ``>=8.7.0``
+   :depends matplotlib-base: ``>=3.7.0``
    :depends ncbi-genome-download: ``>=0.3.3``
    :depends openpyxl: ``>=3.1.0``
    :depends pandas: ``>=2.0.0``
@@ -49,6 +50,7 @@ gempipe
    :depends prodigal: ``>=2.6.3``
    :depends prokka: ``>=1.14.6``
    :depends python: ``>=3.9``
+   :depends seaborn: ``>=0.13.0``
    :depends seqkit: ``>=2.2.0``
    :requirements:
 
@@ -97,7 +99,7 @@ gempipe
 
     <script>
         var package = "gempipe";
-        var versions = ["1.34.2","1.34.1","1.34.0","1.33.4","1.33.3"];
+        var versions = ["1.35.0","1.34.2","1.34.1","1.34.0","1.33.4"];
     </script>
 
 

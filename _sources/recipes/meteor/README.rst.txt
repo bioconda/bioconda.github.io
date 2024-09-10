@@ -28,23 +28,22 @@ meteor
       
       
 
-      ``2.0.14-1``,  ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
+      ``2.0.16-0``,  ``2.0.14-2``,  ``2.0.14-1``,  ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
 
       
 
    
-   :depends bcftools: ``>=1.19``
-   :depends bedtools: ``>=2.18.0``
    :depends biom-format: 
    :depends bowtie2: ``>=2.3.5``
    :depends cogent3: 
    :depends ete3: 
+   :depends freebayes: ``>=1.3.6``
    :depends packaging: 
    :depends pandas: 
+   :depends py-bgzip: 
    :depends pyarrow: 
    :depends pysam: 
    :depends python: ``>=3.10``
-   :depends raxml-ng: ``>=1.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -92,7 +91,7 @@ meteor
 
     <script>
         var package = "meteor";
-        var versions = ["2.0.14","2.0.14","2.0.13","2.0.11","2.0.9"];
+        var versions = ["2.0.16","2.0.14","2.0.14","2.0.14","2.0.13"];
     </script>
 
 

@@ -10,12 +10,14 @@ vcflib
    :replaces_section_title:
    :noindex:
 
-   Command\-line tools for manipulating VCF files
+   Command\-line tools for manipulating VCF files.
 
    :homepage: https://github.com/vcflib/vcflib
+   :documentation: https://github.com/vcflib/vcflib/blob/v1.0.10/README.md
+   
    :license: MIT / MIT
    :recipe: /`vcflib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcflib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcflib/meta.yaml>`_
-   :links: biotools: :biotools:`vcflib`, doi: :doi:`10.1371/journal.pcbi.1009123`, usegalaxy-eu: :usegalaxy-eu:`vcfsort`
+   :links: biotools: :biotools:`vcflib`, doi: :doi:`10.1371/journal.pcbi.1009123`, usegalaxy-eu: :usegalaxy-eu:`vcfsort`, usegalaxy-eu: :usegalaxy-eu:`vcfallelicprimitives`, usegalaxy-eu: :usegalaxy-eu:`vcfbreakcreatemulti`, usegalaxy-eu: :usegalaxy-eu:`vcffilter2`, usegalaxy-eu: :usegalaxy-eu:`vcfcheck`, usegalaxy-eu: :usegalaxy-eu:`vcfcombine`, usegalaxy-eu: :usegalaxy-eu:`vcfaddinfo`, usegalaxy-eu: :usegalaxy-eu:`vcf2tsv`, usegalaxy-eu: :usegalaxy-eu:`vcfleftalign`, usegalaxy-eu: :usegalaxy-eu:`vcfhethom`, usegalaxy-eu: :usegalaxy-eu:`vcfrandomsample`, usegalaxy-eu: :usegalaxy-eu:`vcfbedintersect`, usegalaxy-eu: :usegalaxy-eu:`vcfgenotypes`, usegalaxy-eu: :usegalaxy-eu:`vcffixup`, usegalaxy-eu: :usegalaxy-eu:`vcfgeno2haplo`, usegalaxy-eu: :usegalaxy-eu:`vcfvcfintersect`, usegalaxy-eu: :usegalaxy-eu:`vcfanno`, usegalaxy-eu: :usegalaxy-eu:`vcfannotate`, usegalaxy-eu: :usegalaxy-eu:`vcfcommonsamples`, usegalaxy-eu: :usegalaxy-eu:`vcfflatten2`, usegalaxy-eu: :usegalaxy-eu:`vcfdistance`, usegalaxy-eu: :usegalaxy-eu:`vcfannotategenotypes`, usegalaxy-eu: :usegalaxy-eu:`vcfselectsamples`
 
    
 
@@ -29,10 +31,10 @@ vcflib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9-7</code>,  <code>1.0.9-6</code>,  <code>1.0.9-5</code>,  <code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.3-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.10-0</code>,  <code>1.0.9-8</code>,  <code>1.0.9-7</code>,  <code>1.0.9-6</code>,  <code>1.0.9-5</code>,  <code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  </span></summary>
       
 
-      ``1.0.9-7``,  ``1.0.9-6``,  ``1.0.9-5``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
+      ``1.0.10-0``,  ``1.0.9-8``,  ``1.0.9-7``,  ``1.0.9-6``,  ``1.0.9-5``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
 
       
       .. raw:: html
@@ -52,6 +54,7 @@ vcflib
    :depends python: ``>=3``
    :depends tabixpp: ``>=1.1.2,<1.1.3.0a0``
    :depends wfa2-lib: ``>=2.3.5,<3.0a0``
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
@@ -99,7 +102,7 @@ vcflib
 
     <script>
         var package = "vcflib";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.9"];
+        var versions = ["1.0.10","1.0.9","1.0.9","1.0.9","1.0.9"];
     </script>
 
 

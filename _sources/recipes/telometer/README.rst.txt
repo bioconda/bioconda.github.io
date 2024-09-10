@@ -27,7 +27,7 @@ telometer
       
       
 
-      ``1.0-0``,  ``0.81-0``,  ``0.5-0``
+      ``1.1-0``,  ``1.0-0``,  ``0.81-0``,  ``0.5-0``
 
       
 
@@ -86,7 +86,7 @@ telometer
 
     <script>
         var package = "telometer";
-        var versions = ["1.0","0.81","0.5"];
+        var versions = ["1.1","1.0","0.81","0.5"];
     </script>
 
 
