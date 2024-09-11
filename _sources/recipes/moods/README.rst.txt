@@ -12,7 +12,9 @@ moods
 
    MOODS\: Motif Occurrence Detection Suite
 
-   :homepage: https://www.cs.helsinki.fi/group/pssmfind/
+   :homepage: https://www.cs.helsinki.fi/group/pssmfind
+   :documentation: https://github.com/jhkorhonen/MOODS/wiki
+   
    :developer docs: https://github.com/jhkorhonen/MOODS
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`moods <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moods>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moods/meta.yaml>`_
@@ -30,10 +32,10 @@ moods
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.4.2-1</code>,  <code>1.9.4.2-0</code>,  <code>1.9.4.1-4</code>,  <code>1.9.4.1-3</code>,  <code>1.9.4.1-2</code>,  <code>1.9.4.1-1</code>,  <code>1.9.4.1-0</code>,  <code>1.9.3-4</code>,  <code>1.9.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.4.2-2</code>,  <code>1.9.4.2-1</code>,  <code>1.9.4.2-0</code>,  <code>1.9.4.1-4</code>,  <code>1.9.4.1-3</code>,  <code>1.9.4.1-2</code>,  <code>1.9.4.1-1</code>,  <code>1.9.4.1-0</code>,  <code>1.9.3-4</code>,  </span></summary>
       
 
-      ``1.9.4.2-1``,  ``1.9.4.2-0``,  ``1.9.4.1-4``,  ``1.9.4.1-3``,  ``1.9.4.1-2``,  ``1.9.4.1-1``,  ``1.9.4.1-0``,  ``1.9.3-4``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.0-0``
+      ``1.9.4.2-2``,  ``1.9.4.2-1``,  ``1.9.4.2-0``,  ``1.9.4.1-4``,  ``1.9.4.1-3``,  ``1.9.4.1-2``,  ``1.9.4.1-1``,  ``1.9.4.1-0``,  ``1.9.3-4``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.0-0``
 
       
       .. raw:: html
@@ -42,8 +44,8 @@ moods
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -93,7 +95,7 @@ moods
 
     <script>
         var package = "moods";
-        var versions = ["1.9.4.2","1.9.4.2","1.9.4.1","1.9.4.1","1.9.4.1"];
+        var versions = ["1.9.4.2","1.9.4.2","1.9.4.2","1.9.4.1","1.9.4.1"];
     </script>
 
 

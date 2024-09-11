@@ -27,20 +27,20 @@ hlafreq
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
    :depends arviz: 
    :depends bs4: 
-   :depends matplotlib-base: 
-   :depends numpy: 
+   :depends matplotlib-base: ``>=3.6.0``
+   :depends numpy: ``>=1.24.0``
    :depends pandas: 
    :depends pymc: ``>=3``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.10``
    :depends requests: 
-   :depends scipy: 
+   :depends scipy: ``>=1.10.0``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ hlafreq
 
     <script>
         var package = "hlafreq";
-        var versions = ["0.0.3","0.0.2"];
+        var versions = ["0.0.4","0.0.3","0.0.2"];
     </script>
 
 

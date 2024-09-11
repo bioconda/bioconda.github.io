@@ -10,10 +10,12 @@ duplex-tools
    :replaces_section_title:
    :noindex:
 
-   Duplex Tools contains a set of utilities for dealing with ONT Duplex sequencing data
+   Duplex Tools contains a set of utilities for dealing with ONT Duplex sequencing data.
 
    :homepage: https://github.com/nanoporetech/duplex-tools
-   :license: MPL-2.0
+   :documentation: https://github.com/nanoporetech/duplex-tools/blob/v0.3.3/README.md
+   
+   :license: OTHER / MPL-2.0
    :recipe: /`duplex-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/duplex-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/duplex-tools/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ duplex-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.17-0</code>,  <code>0.2.15-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.3-0</code>,  <code>0.2.17-0</code>,  <code>0.2.15-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  </span></summary>
       
 
-      ``0.2.17-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``0.3.3-0``,  ``0.2.17-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
       .. raw:: html
@@ -40,15 +42,17 @@ duplex-tools
       
 
    
+   :depends mappy: 
+   :depends matplotlib-base: 
    :depends more-itertools: 
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends parasail-python: 
-   :depends pathlib: 
-   :depends pyfastx: 
+   :depends pod5: 
+   :depends pyfastx: ``>=0.9.0``
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends python-edlib: 
    :depends tqdm: 
    :requirements:
@@ -98,7 +102,7 @@ duplex-tools
 
     <script>
         var package = "duplex-tools";
-        var versions = ["0.2.17","0.2.15","0.2.14","0.2.13","0.2.12"];
+        var versions = ["0.3.3","0.2.17","0.2.15","0.2.14","0.2.13"];
     </script>
 
 

@@ -10,9 +10,9 @@ mcl
    :replaces_section_title:
    :noindex:
 
-   MCL \- a cluster algorithm for graphs
+   MCL \- a cluster algorithm for graphs.
 
-   :homepage: https://micans.org/mcl/
+   :homepage: https://micans.org/mcl
    :documentation: https://micans.org/mcl/man/mcl.html
    
    :developer docs: https://github.com/micans/mcl
@@ -32,10 +32,10 @@ mcl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>22.282-1</code>,  <code>22.282-0</code>,  <code>14.137-9</code>,  <code>14.137-8</code>,  <code>14.137-7</code>,  <code>14.137-6</code>,  <code>14.137-5</code>,  <code>14.137-4</code>,  <code>14.137-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>22.282-2</code>,  <code>22.282-1</code>,  <code>22.282-0</code>,  <code>14.137-9</code>,  <code>14.137-8</code>,  <code>14.137-7</code>,  <code>14.137-6</code>,  <code>14.137-5</code>,  <code>14.137-4</code>,  </span></summary>
       
 
-      ``22.282-1``,  ``22.282-0``,  ``14.137-9``,  ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
+      ``22.282-2``,  ``22.282-1``,  ``22.282-0``,  ``14.137-9``,  ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
 
       
       .. raw:: html
@@ -44,8 +44,7 @@ mcl
       
 
    
-   :depends blast: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -94,7 +93,7 @@ mcl
 
     <script>
         var package = "mcl";
-        var versions = ["22.282","22.282","14.137","14.137","14.137"];
+        var versions = ["22.282","22.282","22.282","14.137","14.137"];
     </script>
 
 

@@ -27,31 +27,40 @@ ms2pip
    :versions:
       
       
+      .. raw:: html
 
-      ``4.0.0.dev8-0``,  ``4.0.0.dev4-0``,  ``3.11.0-2``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>4.0.0.dev8-0</code>,  <code>4.0.0.dev4-0</code>,  <code>3.11.0-2</code>,  <code>3.11.0-0</code>,  <code>3.10.0-0</code>,  <code>3.9.0-0</code>,  <code>3.6.3-1</code>,  <code>3.6.3-0</code>,  </span></summary>
+      
 
+      ``4.0.0-0``,  ``4.0.0.dev8-0``,  ``4.0.0.dev4-0``,  ``3.11.0-2``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends click: ``>=7``
-   :depends libgcc-ng: ``>=12``
+   :depends click: ``>=7,<9``
+   :depends libgcc: ``>=12``
    :depends lxml: ``>=4``
    :depends matplotlib-base: ``>=3.0``
-   :depends numpy: ``>=1.21.6,<2.0a0``
-   :depends pandas: ``>=1.0``
-   :depends psm-utils: 
+   :depends ms2rescore-rs: 
+   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends pandas: ``>=1.0,<2``
+   :depends psm-utils: ``>=0.9``
    :depends pyarrow: 
-   :depends pydantic: ``>=1.10,<2``
+   :depends pydantic: ``>=2``
    :depends pyopenms: 
    :depends pytables: ``>=3.4``
-   :depends pyteomics: ``>=3.5``
+   :depends pyteomics: ``>=3.5,<5``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends rich: ``>=13``
-   :depends tomlkit: ``>=0.5``
+   :depends tomlkit: ``>=0.5,<1``
    :depends tqdm: ``>=4``
    :depends werkzeug: ``>=2``
-   :depends xgboost: ``>=1.3``
+   :depends xgboost: ``>=1.3,<2``
    :requirements:
 
    .. rubric:: Installation
@@ -99,7 +108,7 @@ ms2pip
 
     <script>
         var package = "ms2pip";
-        var versions = ["4.0.0.dev8","4.0.0.dev4","3.11.0","3.11.0","3.10.0"];
+        var versions = ["4.0.0","4.0.0.dev8","4.0.0.dev4","3.11.0","3.11.0"];
     </script>
 
 

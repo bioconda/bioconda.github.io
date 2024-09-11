@@ -10,11 +10,14 @@ toulligqc
    :replaces_section_title:
    :noindex:
 
-   A post sequencing QC tool for Oxford Nanopore sequencers
+   A post sequencing QC tool for Oxford Nanopore sequencers.
 
    :homepage: https://github.com/GenomicParisCentre/toulligQC
-   :license: CECILL-2.1
+   :documentation: https://github.com/GenomiqueENS/toulligQC/blob/v2.7.1/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`toulligqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc/meta.yaml>`_
+   :links: biotools: :biotools:`ToulligQC`
 
    
 
@@ -28,10 +31,10 @@ toulligqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.6-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.1-0</code>,  <code>2.5.6-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  </span></summary>
       
 
-      ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
+      ``2.7.1-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
 
       
       .. raw:: html
@@ -40,16 +43,17 @@ toulligqc
       
 
    
-   :depends h5py: ``>=3.7.0``
+   :depends h5py: ``>=3.10.0``
    :depends matplotlib-base: ``>=3.6.3``
-   :depends numpy: ``>=1.24.2``
-   :depends pandas: ``>=1.5.3``
+   :depends numpy: ``>=1.26.4``
+   :depends pandas: ``>=2.1.4``
    :depends plotly: ``>=5.15.0``
-   :depends pysam: ``>=0.21.0``
-   :depends python: ``>=3.10.0``
-   :depends scikit-learn: ``>=1.2.1``
-   :depends scipy: ``>=1.10.1``
-   :depends tqdm: ``>=4.64.1``
+   :depends pod5: ``>=0.3.15``
+   :depends pysam: ``>=0.22.0``
+   :depends python: ``>=3.11``
+   :depends scikit-learn: ``>=1.4.1``
+   :depends scipy: ``>=1.11.4``
+   :depends tqdm: ``>=4.66.2``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +101,7 @@ toulligqc
 
     <script>
         var package = "toulligqc";
-        var versions = ["2.5.6","2.5.5","2.5.4","2.5.3","2.5.2"];
+        var versions = ["2.7.1","2.5.6","2.5.5","2.5.4","2.5.3"];
     </script>
 
 
