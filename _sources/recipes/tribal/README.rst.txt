@@ -29,7 +29,7 @@ tribal
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -37,8 +37,8 @@ tribal
    :depends biopython: ``>=1.81``
    :depends ete3: ``>=3.1.2``
    :depends glpk: ``>=5.0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends mafft: ``7.526``
    :depends networkx: ``>=3.1``
    :depends numpy: ``>=1.26,<2.0``
@@ -94,7 +94,7 @@ tribal
 
     <script>
         var package = "tribal";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

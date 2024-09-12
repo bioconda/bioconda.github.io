@@ -31,7 +31,7 @@ r-mfassignr
       
       
 
-      ``1.0.3-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
 
       
 
@@ -40,6 +40,7 @@ r-mfassignr
    :depends r-colorramps: ``>=2.3``
    :depends r-dplyr: ``>=0.7.6``
    :depends r-ggplot2: ``>=3.0.0``
+   :depends r-gtools: ``>=3.9.5``
    :depends r-tidyr: ``>=0.8.1``
    :requirements:
 
@@ -88,7 +89,7 @@ r-mfassignr
 
     <script>
         var package = "r-mfassignr";
-        var versions = ["1.0.3"];
+        var versions = ["1.1.1","1.1.0","1.0.3"];
     </script>
 
 
