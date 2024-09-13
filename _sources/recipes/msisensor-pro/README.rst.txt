@@ -40,7 +40,7 @@ msisensor-pro
       
 
    
-   :depends htslib: ``>=1.20,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.22.0a0``
    :depends libcxx: ``>=16``
    :depends llvm-openmp: ``>=16.0.6``
    :depends llvm-openmp: ``>=18.1.7``

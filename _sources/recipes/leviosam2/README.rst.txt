@@ -43,7 +43,7 @@ leviosam2
       
 
    
-   :depends htslib: ``>=1.18,<1.21.0a0``
+   :depends htslib: ``>=1.18,<1.22.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends python: ``>=3.6``

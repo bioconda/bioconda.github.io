@@ -12,7 +12,7 @@ anglerfish
 
    Anglerfish\, a tool to demultiplex Illumina libraries from ONT data
 
-   :homepage: https://github.com/remiolsen/anglerfish
+   :homepage: https://github.com/NationalGenomicsInfrastructure/anglerfish
    :license: MIT / MIT
    :recipe: /`anglerfish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anglerfish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anglerfish/meta.yaml>`_
 
@@ -27,19 +27,20 @@ anglerfish
       
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
    
    :depends biopython: 
-   :depends click: 
    :depends minimap2: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.12``
    :depends python-levenshtein: 
    :depends pyyaml: 
+   :depends typer: 
+   :depends typing_extensions: 
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +88,7 @@ anglerfish
 
     <script>
         var package = "anglerfish";
-        var versions = ["0.6.1","0.6.0","0.5.0","0.4.2","0.4.2"];
+        var versions = ["0.7.0","0.6.1","0.6.0","0.5.0","0.4.2"];
     </script>
 
 

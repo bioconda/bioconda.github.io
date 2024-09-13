@@ -40,7 +40,7 @@ megadepth
       
 
    
-   :depends htslib: ``>=1.20,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.22.0a0``
    :depends libbigwig: ``>=0.4.7,<0.5.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``

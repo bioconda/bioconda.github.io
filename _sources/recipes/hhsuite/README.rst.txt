@@ -13,6 +13,8 @@ hhsuite
    HH\-suite3 for fast remote homology detection and deep protein annotation
 
    :homepage: https://github.com/soedinglab/hh-suite
+   :documentation: https://github.com/soedinglab/hh-suite/wiki
+   
    :license: GPLv3
    :recipe: /`hhsuite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hhsuite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hhsuite/meta.yaml>`_
    :links: doi: :doi:`10.1186/s12859-019-3019-7`, biotools: :biotools:`hh-suite`
@@ -29,10 +31,10 @@ hhsuite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.0-12</code>,  <code>3.3.0-11</code>,  <code>3.3.0-10</code>,  <code>3.3.0-9</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-13</code>,  <code>3.3.0-12</code>,  <code>3.3.0-11</code>,  <code>3.3.0-10</code>,  <code>3.3.0-9</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  </span></summary>
       
 
-      ``3.3.0-12``,  ``3.3.0-11``,  ``3.3.0-10``,  ``3.3.0-9``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
+      ``3.3.0-13``,  ``3.3.0-12``,  ``3.3.0-11``,  ``3.3.0-10``,  ``3.3.0-9``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
 
       
       .. raw:: html
@@ -42,8 +44,8 @@ hhsuite
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

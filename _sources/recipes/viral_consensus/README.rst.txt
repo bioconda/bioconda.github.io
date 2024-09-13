@@ -34,7 +34,7 @@ viral_consensus
       
 
    
-   :depends htslib: ``>=1.19.1,<1.21.0a0``
+   :depends htslib: ``>=1.19.1,<1.22.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``

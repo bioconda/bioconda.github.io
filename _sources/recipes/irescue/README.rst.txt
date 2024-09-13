@@ -30,7 +30,7 @@ irescue
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -42,7 +42,7 @@ irescue
    :depends networkx: ``>=3.1``
    :depends numpy: ``>=1.20.2``
    :depends pysam: ``>=0.16.0.1``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :depends requests: ``>=2.27.1``
    :depends samtools: ``>=1.12``
    :requirements:
@@ -92,7 +92,7 @@ irescue
 
     <script>
         var package = "irescue";
-        var versions = ["1.1.1","1.1.0","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.3","1.0.3"];
     </script>
 
 

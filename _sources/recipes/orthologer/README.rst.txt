@@ -31,7 +31,7 @@ orthologer
       
       
 
-      ``3.3.2-0``,  ``3.3.1-0``
+      ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
 
       
 
@@ -97,7 +97,7 @@ orthologer
 
     <script>
         var package = "orthologer";
-        var versions = ["3.3.2","3.3.1"];
+        var versions = ["3.4.1","3.4.0","3.3.2","3.3.1"];
     </script>
 
 

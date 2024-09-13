@@ -28,10 +28,10 @@ microhapulator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.4.1-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.4.1-0</code>,  <code>0.3-0</code>,  </span></summary>
       
 
-      ``0.8-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
+      ``0.8.1-0``,  ``0.8-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ microhapulator
 
    
    :depends biopython: 
-   :depends bwa: ``>=0.7.17``
    :depends fastqc: ``>=0.11.9``
    :depends flash: ``>=1.2``
    :depends happer: ``>=0.1``
@@ -49,6 +48,7 @@ microhapulator
    :depends jsonschema: ``>=4.0``
    :depends matplotlib-base: ``>=3.0``
    :depends microhapdb: ``>=0.10.1``
+   :depends minimap2: ``>=2.25``
    :depends multiqc: ``>=1.14``
    :depends nbformat: ``>=5.0,<5.6``
    :depends numpy: ``>=1.19``
@@ -109,7 +109,7 @@ microhapulator
 
     <script>
         var package = "microhapulator";
-        var versions = ["0.8","0.7.2","0.7.1","0.6.1","0.5"];
+        var versions = ["0.8.1","0.8","0.7.2","0.7.1","0.6.1"];
     </script>
 
 

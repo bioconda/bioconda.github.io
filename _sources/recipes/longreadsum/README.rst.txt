@@ -36,7 +36,7 @@ longreadsum
 
    
    :depends hdf5: ``>=1.12.2,<1.12.3.0a0``
-   :depends htslib: ``>=1.18,<1.21.0a0``
+   :depends htslib: ``>=1.18,<1.22.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends numpy: 

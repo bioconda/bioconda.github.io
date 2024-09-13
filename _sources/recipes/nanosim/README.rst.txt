@@ -29,10 +29,10 @@ nanosim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.1-1</code>,  </span></summary>
       
 
-      ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
+      ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
 
       
       .. raw:: html
@@ -52,6 +52,7 @@ nanosim
    :depends pysam: ``>=0.13``
    :depends python: 
    :depends regex: 
+   :depends sam2pairwise: 
    :depends samtools: 
    :depends scikit-learn: ``>=0.20.0``
    :depends scipy: ``>=1.0.0``
@@ -103,7 +104,7 @@ nanosim
 
     <script>
         var package = "nanosim";
-        var versions = ["3.2.0","3.2.0","3.1.0","3.0.2","3.0.0"];
+        var versions = ["3.2.0","3.2.0","3.2.0","3.1.0","3.0.2"];
     </script>
 
 
