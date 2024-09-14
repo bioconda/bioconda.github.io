@@ -30,14 +30,14 @@ shasta
       
       
 
-      ``0.12.0-0``,  ``0.11.1-2``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.8.0-0``,  ``0.6.0-0``
+      ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.1-2``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.8.0-0``,  ``0.6.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libpng: 
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends python: 
    :requirements:
 
@@ -86,7 +86,7 @@ shasta
 
     <script>
         var package = "shasta";
-        var versions = ["0.12.0","0.11.1","0.11.1","0.11.1","0.8.0"];
+        var versions = ["0.13.0","0.12.0","0.11.1","0.11.1","0.11.1"];
     </script>
 
 

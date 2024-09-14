@@ -10,10 +10,12 @@ mirtop
    :replaces_section_title:
    :noindex:
 
-   Small RNA\-seq annotation
+   Small RNA\-seq annotation.
 
-   :homepage: http://github.com/mirtop/mirtop
-   :license: MIT / MIT License
+   :homepage: https://github.com/mirtop/mirtop
+   :documentation: https://mirtop.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`mirtop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop/meta.yaml>`_
    :links: biotools: :biotools:`mirtop`
 
@@ -29,10 +31,10 @@ mirtop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.25-0</code>,  <code>0.4.24-0</code>,  <code>0.4.23-1</code>,  <code>0.4.23-0</code>,  <code>0.4.22-0</code>,  <code>0.4.21-0</code>,  <code>0.4.20-0</code>,  <code>0.4.19-0</code>,  <code>0.4.18a-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.27-0</code>,  <code>0.4.25-0</code>,  <code>0.4.24-0</code>,  <code>0.4.23-1</code>,  <code>0.4.23-0</code>,  <code>0.4.22-0</code>,  <code>0.4.21-0</code>,  <code>0.4.20-0</code>,  <code>0.4.19-0</code>,  </span></summary>
       
 
-      ``0.4.25-0``,  ``0.4.24-0``,  ``0.4.23-1``,  ``0.4.23-0``,  ``0.4.22-0``,  ``0.4.21-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.18a-2``,  ``0.4.18a-1``,  ``0.4.18a-0``,  ``0.4.17a-0``,  ``0.4.15a-0``,  ``0.3.17-1``,  ``0.3.17-0``,  ``0.3.11a0-2``,  ``0.3.11a0-0``,  ``0.3.6a0-0``,  ``0.3.2a0-0``,  ``0.1.8a0-0``
+      ``0.4.27-0``,  ``0.4.25-0``,  ``0.4.24-0``,  ``0.4.23-1``,  ``0.4.23-0``,  ``0.4.22-0``,  ``0.4.21-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.18a-2``,  ``0.4.18a-1``,  ``0.4.18a-0``,  ``0.4.17a-0``,  ``0.4.15a-0``,  ``0.3.17-1``,  ``0.3.17-0``,  ``0.3.11a0-2``,  ``0.3.11a0-0``,  ``0.3.6a0-0``,  ``0.3.2a0-0``,  ``0.1.8a0-0``
 
       
       .. raw:: html
@@ -93,7 +95,7 @@ mirtop
 
     <script>
         var package = "mirtop";
-        var versions = ["0.4.25","0.4.24","0.4.23","0.4.23","0.4.22"];
+        var versions = ["0.4.27","0.4.25","0.4.24","0.4.23","0.4.23"];
     </script>
 
 

@@ -14,7 +14,7 @@ zga
 
    :homepage: https://github.com/laxeye/zga
    :developer docs: https://github.com/laxeye/zga/
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`zga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zga/meta.yaml>`_
 
    
@@ -28,22 +28,22 @@ zga
       
       
 
-      ``0.1.0-0``,  ``0.0.9.post2-1``,  ``0.0.9.post2-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``
+      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9.post2-1``,  ``0.0.9.post2-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``
 
       
 
    
+   :depends bakta: 
    :depends bbmap: 
    :depends biopython: 
    :depends blast: 
    :depends checkm-genome: ``>=1.1.0``
-   :depends dfast: ``>=1.2.12``
    :depends fastp: 
    :depends flye: ``>=2.6``
    :depends mash: ``>=2``
    :depends minimap2: 
    :depends nxtrim: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.8``
    :depends racon: 
    :depends samtools: ``>=1.9``
    :depends spades: ``>=3.12``
@@ -95,7 +95,7 @@ zga
 
     <script>
         var package = "zga";
-        var versions = ["0.1.0","0.0.9.post2","0.0.9.post2","0.0.9","0.0.8"];
+        var versions = ["0.1.1","0.1.0","0.0.9.post2","0.0.9.post2","0.0.9"];
     </script>
 
 

@@ -31,10 +31,10 @@ cellxgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.16.7-0</code>,  <code>0.16.6-0</code>,  <code>0.16.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.16.7-0</code>,  <code>0.16.6-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.4-0``,  ``0.16.2-0``,  ``0.16.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.4-0``,  ``0.16.2-0``,  ``0.16.0-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ cellxgene
    :depends numpy: ``>=1.17.5``
    :depends packaging: ``>=20.0``
    :depends pandas: ``>=1.0,!=1.1``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.6,<3.12``
    :depends python-flatbuffers: ``>=1.11.0,<2.0.0``
    :depends pyyaml: ``>=5.4``
    :depends requests: ``>=2.22.0``
@@ -116,7 +116,7 @@ cellxgene
 
     <script>
         var package = "cellxgene";
-        var versions = ["1.2.0","1.1.2","1.1.1","1.1.0","1.0.1"];
+        var versions = ["1.3.0","1.2.0","1.1.2","1.1.1","1.1.0"];
     </script>
 
 

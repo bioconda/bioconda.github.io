@@ -46,7 +46,7 @@ gw
    :depends glfw: ``>=3.3``
    :depends glfw: ``>=3.4,<4.0a0``
    :depends htslib: ``>=1.12``
-   :depends htslib: ``>=1.20,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.22.0a0``
    :depends libcurl: ``>=8.8.0,<9.0a0``
    :depends libgcc: ``>=12``
    :depends libgl: ``>=1.7.0,<2.0a0``

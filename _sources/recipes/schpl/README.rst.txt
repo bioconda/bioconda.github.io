@@ -15,6 +15,7 @@ schpl
    :homepage: https://github.com/lcmmichielsen/scHPL
    :license: MIT
    :recipe: /`schpl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schpl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schpl/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-021-23196-8`
 
    
 

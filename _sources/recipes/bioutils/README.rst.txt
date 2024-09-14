@@ -27,14 +27,15 @@ bioutils
       
       
 
-      ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``
+      ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``
 
       
 
    
    :depends attrs: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.10``
    :depends requests: 
+   :depends urllib3: ``>=1.26,<2.dev0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +83,7 @@ bioutils
 
     <script>
         var package = "bioutils";
-        var versions = ["0.5.7","0.5.6","0.5.5"];
+        var versions = ["0.6.0","0.5.7","0.5.6","0.5.5"];
     </script>
 
 
