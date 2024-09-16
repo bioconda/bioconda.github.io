@@ -27,7 +27,7 @@ vcf-validator
       
       
 
-      ``0.9.6-0``
+      ``0.9.7-0``,  ``0.9.6-0``
 
       
 
@@ -79,7 +79,7 @@ vcf-validator
 
     <script>
         var package = "vcf-validator";
-        var versions = ["0.9.6"];
+        var versions = ["0.9.7","0.9.6"];
     </script>
 
 
