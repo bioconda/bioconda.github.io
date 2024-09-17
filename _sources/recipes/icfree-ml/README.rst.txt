@@ -27,13 +27,14 @@ icfree-ml
       
       
 
-      ``2.4.0-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
+      ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
 
       
 
    
    :depends biopython: 
    :depends blast: 
+   :depends openpyxl: 
    :depends pandas: 
    :depends pydoe2: 
    :depends pysbol2: 
@@ -85,7 +86,7 @@ icfree-ml
 
     <script>
         var package = "icfree-ml";
-        var versions = ["2.4.0","2.3.3","2.3.2","2.3.2","2.3.1"];
+        var versions = ["2.5.0","2.4.0","2.3.3","2.3.2","2.3.2"];
     </script>
 
 

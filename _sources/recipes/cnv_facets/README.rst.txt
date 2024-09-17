@@ -28,10 +28,10 @@ cnv_facets
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.1-0</code>,  <code>0.16.0-1</code>,  <code>0.16.0-0</code>,  <code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.0-1</code>,  <code>0.13.0-1</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.16.1-1</code>,  <code>0.16.1-0</code>,  <code>0.16.0-1</code>,  <code>0.16.0-0</code>,  <code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.0-1</code>,  <code>0.13.0-1</code>,  <code>0.12.1-1</code>,  </span></summary>
       
 
-      ``0.16.1-0``,  ``0.16.0-1``,  ``0.16.0-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.0-1``,  ``0.13.0-1``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.12.0-0``,  ``v0.11.3-2``,  ``v0.11.3-1``,  ``v0.11.2-1``
+      ``0.16.1-1``,  ``0.16.1-0``,  ``0.16.0-1``,  ``0.16.0-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.0-1``,  ``0.13.0-1``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.12.0-0``,  ``v0.11.3-2``,  ``v0.11.3-1``,  ``v0.11.2-1``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ cnv_facets
       
 
    
-   :depends bcftools: ``>=1.20,<2.0a0``
+   :depends bcftools: ``>=1.21,<2.0a0``
    :depends bcftools: ``>=1.9``
    :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends htslib: ``>=1.20,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=12``
    :depends libgfortran: 
    :depends libgfortran5: ``>=12.4.0``
@@ -52,11 +52,12 @@ cnv_facets
    :depends r-argparse: ``>=2.1.6``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
+   :depends r-facets: ``>=0.6.2,<1.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-jsonlite: 
-   :depends samtools: ``>=1.20,<2.0a0``
-   :depends snp-pileup: 
+   :depends samtools: ``>=1.21,<2.0a0``
+   :depends snp-pileup: ``>=0.6.2,<0.7.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -104,7 +105,7 @@ cnv_facets
 
     <script>
         var package = "cnv_facets";
-        var versions = ["0.16.1","0.16.0","0.16.0","0.15.0","0.15.0"];
+        var versions = ["0.16.1","0.16.1","0.16.0","0.16.0","0.15.0"];
     </script>
 
 

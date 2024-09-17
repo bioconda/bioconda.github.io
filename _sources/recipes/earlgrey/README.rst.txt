@@ -35,10 +35,10 @@ earlgrey
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.4.4-0</code>,  <code>4.4.1-0</code>,  <code>4.4.0-0</code>,  <code>4.3.0-0</code>,  <code>4.2.4-1</code>,  <code>4.2.4-0</code>,  <code>4.2.3-0</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.4.5-0</code>,  <code>4.4.4-0</code>,  <code>4.4.1-0</code>,  <code>4.4.0-0</code>,  <code>4.3.0-0</code>,  <code>4.2.4-1</code>,  <code>4.2.4-0</code>,  <code>4.2.3-0</code>,  <code>4.1.1-1</code>,  </span></summary>
       
 
-      ``4.4.4-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+      ``4.4.5-0``,  ``4.4.4-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -56,8 +56,8 @@ earlgrey
    :depends emboss: 
    :depends genometools-genometools: 
    :depends hmmer: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends ltr_retriever: 
    :depends mafft: 
    :depends mreps: 
@@ -128,7 +128,7 @@ earlgrey
 
     <script>
         var package = "earlgrey";
-        var versions = ["4.4.4","4.4.1","4.4.0","4.3.0","4.2.4"];
+        var versions = ["4.4.5","4.4.4","4.4.1","4.4.0","4.3.0"];
     </script>
 
 

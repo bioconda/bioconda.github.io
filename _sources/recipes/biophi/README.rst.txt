@@ -10,11 +10,14 @@ biophi
    :replaces_section_title:
    :noindex:
 
-   BioPhi open\-source antibody design platform
+   BioPhi open\-source antibody design platform.
 
    :homepage: https://github.com/Merck/BioPhi
+   :documentation: https://biophi.dichlab.org
+   
    :license: MIT / MIT
    :recipe: /`biophi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biophi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biophi/meta.yaml>`_
+   :links: biotools: :biotools:`biophi`
 
    
 
@@ -28,10 +31,10 @@ biophi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.10-0</code>,  <code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  </span></summary>
       
 
-      ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.10-0``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -103,7 +106,7 @@ biophi
 
     <script>
         var package = "biophi";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.8"];
+        var versions = ["1.0.10","1.0.9","1.0.9","1.0.9","1.0.9"];
     </script>
 
 

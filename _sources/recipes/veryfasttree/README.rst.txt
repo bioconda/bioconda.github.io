@@ -10,11 +10,14 @@ veryfasttree
    :replaces_section_title:
    :noindex:
 
-   VeryFastTree \-\- speeding up the estimation of phylogenies for large alignments through parallelization and vectorization strategies
+   VeryFastTree \-\- speeding up the estimation of phylogenies for large alignments through parallelization and vectorization strategies.
 
    :homepage: https://github.com/citiususc/veryfasttree
-   :license: GPL-3.0-only
+   :documentation: https://github.com/citiususc/veryfasttree/blob/v4.0.4/README.md
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`veryfasttree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/veryfasttree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/veryfasttree/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaa582`, doi: :doi:`10.1093/gigascience/giae055`, biotools: :biotools:`veryfasttree`
 
    VeryFastTree is a highly\-tuned implementation of the FastTree\-2 tool that takes advantage of parallelization and vectorization strategies 
    to speed up the inference of phylogenies for huge alignments.
@@ -30,10 +33,10 @@ veryfasttree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.03-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.4-0</code>,  <code>4.0.03-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``4.0.03-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
+      ``4.0.4-0``,  ``4.0.03-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -43,9 +46,9 @@ veryfasttree
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libgomp: 
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +96,7 @@ veryfasttree
 
     <script>
         var package = "veryfasttree";
-        var versions = ["4.0.03","4.0.2","4.0.1","4.0","3.2.1"];
+        var versions = ["4.0.4","4.0.03","4.0.2","4.0.1","4.0"];
     </script>
 
 

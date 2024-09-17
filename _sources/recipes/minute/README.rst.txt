@@ -12,7 +12,7 @@ minute
 
    MINUTE\-ChIP data analysis workflow
 
-   :homepage: https://github.com/NBISweden/minute/
+   :homepage: https://github.com/elsasserlab/minute/
    :license: MIT
    :recipe: /`minute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minute/meta.yaml>`_
 
@@ -27,13 +27,13 @@ minute
       
       
 
-      ``0.8.0-0``,  ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
+      ``0.9.0-0``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
 
       
 
    
    :depends bedtools: ``>=2.30.0``
-   :depends bowtie2: ``>=2.4.4``
+   :depends bowtie2: ``>=2.5.3``
    :depends cutadapt: ``>=3.7``
    :depends deeptools: ``>=3.5.0``
    :depends fastqc: ``>=0.11.9``
@@ -49,6 +49,7 @@ minute
    :depends samtools: ``>=1.13``
    :depends snakemake-minimal: ``>=7.22.0``
    :depends sra-tools: ``>=2.11.0``
+   :depends strobealign: ``>=0.13.0``
    :depends xopen: ``>=1.2.0``
    :requirements:
 
@@ -97,7 +98,7 @@ minute
 
     <script>
         var package = "minute";
-        var versions = ["0.8.0","0.6.0","0.4.0","0.3.3","0.2.0"];
+        var versions = ["0.9.0","0.8.0","0.6.0","0.4.0","0.3.3"];
     </script>
 
 

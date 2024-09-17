@@ -27,7 +27,7 @@ vclean
       
       
 
-      ``0.1.2-0``,  ``0.0.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.2-0``
 
       
 
@@ -41,7 +41,7 @@ vclean
    :depends numpy: 
    :depends pandas: 
    :depends prodigal: 
-   :depends python: ``>=3.9``
+   :depends python: ``3.9.0``
    :depends scikit-learn: 
    :depends seaborn-base: 
    :depends seqkit: 
@@ -92,7 +92,7 @@ vclean
 
     <script>
         var package = "vclean";
-        var versions = ["0.1.2","0.0.2"];
+        var versions = ["0.1.3","0.1.2","0.0.2"];
     </script>
 
 
