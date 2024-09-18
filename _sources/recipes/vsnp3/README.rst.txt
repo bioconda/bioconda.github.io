@@ -28,10 +28,10 @@ vsnp3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.24-0</code>,  <code>3.23-0</code>,  <code>3.22-0</code>,  <code>3.21-0</code>,  <code>3.20-0</code>,  <code>3.19-0</code>,  <code>3.18-0</code>,  <code>3.17-0</code>,  <code>3.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.25-0</code>,  <code>3.24-0</code>,  <code>3.23-0</code>,  <code>3.22-0</code>,  <code>3.21-0</code>,  <code>3.20-0</code>,  <code>3.19-0</code>,  <code>3.18-0</code>,  <code>3.17-0</code>,  </span></summary>
       
 
-      ``3.24-0``,  ``3.23-0``,  ``3.22-0``,  ``3.21-0``,  ``3.20-0``,  ``3.19-0``,  ``3.18-0``,  ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
+      ``3.25-0``,  ``3.24-0``,  ``3.23-0``,  ``3.22-0``,  ``3.21-0``,  ``3.20-0``,  ``3.19-0``,  ``3.18-0``,  ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ vsnp3
    :depends parallel: 
    :depends pigz: 
    :depends py-cpuinfo: 
-   :depends python: ``>=3.8,<3.10``
+   :depends python: ``>=3.8,<3.12``
    :depends raxml: ``>=8.2.12``
    :depends regex: ``>=2.5.110``
    :depends samtools: ``>=1.14``
@@ -112,7 +112,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.24","3.23","3.22","3.21","3.20"];
+        var versions = ["3.25","3.24","3.23","3.22","3.21"];
     </script>
 
 
