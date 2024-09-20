@@ -26,9 +26,17 @@ pydamage
    :versions:
       
       
+      .. raw:: html
 
-      ``0.72-0``,  ``0.71-0``,  ``0.70-1``,  ``0.70-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-1``,  ``0.60-0``,  ``0.7-0``
+         <details><summary><span class="truncated-version-list"><code>0.80-0</code>,  <code>0.72-0</code>,  <code>0.71-0</code>,  <code>0.70-1</code>,  <code>0.70-0</code>,  <code>0.62-0</code>,  <code>0.61-0</code>,  <code>0.60-1</code>,  <code>0.60-0</code>,  </span></summary>
+      
 
+      ``0.80-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-1``,  ``0.70-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-1``,  ``0.60-0``,  ``0.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,10 +44,11 @@ pydamage
    :depends click: 
    :depends kneed: 
    :depends matplotlib-base: 
+   :depends numba: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: ``>=0.13.0``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.10``
    :depends scipy: 
    :depends statsmodels: 
    :depends tqdm: 
@@ -90,7 +99,7 @@ pydamage
 
     <script>
         var package = "pydamage";
-        var versions = ["0.72","0.71","0.70","0.70","0.62"];
+        var versions = ["0.80","0.72","0.71","0.70","0.70"];
     </script>
 
 

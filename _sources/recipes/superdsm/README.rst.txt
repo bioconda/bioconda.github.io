@@ -30,23 +30,25 @@ superdsm
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1-0``
 
       
 
    
    :depends blas: ``* mkl``
-   :depends cvxopt: ``>=1.2.6,<2.0``
-   :depends cvxpy: ``>=1.1.13,<2.0``
+   :depends cvxopt: ``>=1.3.2,<2.0``
+   :depends cvxpy: ``>=1.5.3,<2.0``
    :depends dill: ``>=0.3.2``
+   :depends imagecodecs: ``>=2024.6.1``
    :depends ipython: ``>=7.31.1``
    :depends matplotlib-base: ``>=3.0,<4.0``
    :depends mkl: ``>=2020.0``
-   :depends numpy: ``>=1.18,<2.0``
-   :depends python: ``>=3.6,<3.11``
-   :depends ray-core: ``>=0.8.7,<1.7``
-   :depends scikit-image: ``>=0.18,<=0.19``
-   :depends scipy: ``>=1.6.3,<2.0``
+   :depends numpy: ``>=1.26,<2.0``
+   :depends python: ``>=3.11``
+   :depends ray-core: ``>=0.8.7``
+   :depends repype: ``>=1.0.0,<1.1``
+   :depends scikit-image: ``>=0.24.0``
+   :depends scipy: ``>=1.13.1,<1.14``
    :requirements:
 
    .. rubric:: Installation
@@ -94,7 +96,7 @@ superdsm
 
     <script>
         var package = "superdsm";
-        var versions = ["0.3.0","0.2.0","0.1.3","0.1.3","0.1.2"];
+        var versions = ["0.4.0","0.3.0","0.2.0","0.1.3","0.1.3"];
     </script>
 
 

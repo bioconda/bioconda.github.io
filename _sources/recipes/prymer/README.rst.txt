@@ -30,11 +30,12 @@ prymer
       
       
 
-      ``2.0.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
+   :depends bwa-aln-interactive: ``>=0.7.18``
    :depends primer3: ``>=2.6.1``
    :depends pysam: ``>=0.22.0``
    :depends python: ``>=3.11``
@@ -85,7 +86,7 @@ prymer
 
     <script>
         var package = "prymer";
-        var versions = ["2.0.0"];
+        var versions = ["2.0.0","2.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ peptides
       
       
 
-      ``0.3.1-0``
+      ``0.3.4-0``,  ``0.3.1-0``
 
       
 
@@ -80,7 +80,7 @@ peptides
 
     <script>
         var package = "peptides";
-        var versions = ["0.3.1"];
+        var versions = ["0.3.4","0.3.1"];
     </script>
 
 

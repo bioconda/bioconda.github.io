@@ -30,10 +30,10 @@ kraken2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-4</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-4</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-1</code>,  </span></summary>
       
 
-      ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
+      ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
 
       
       .. raw:: html
@@ -44,10 +44,11 @@ kraken2
    
    :depends _openmp_mutex: ``>=4.5``
    :depends blast: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends python: 
    :depends rsync: 
    :depends tar: 
    :depends wget: 
@@ -99,7 +100,7 @@ kraken2
 
     <script>
         var package = "kraken2";
-        var versions = ["2.1.3","2.1.3","2.1.2","2.1.2","2.1.2"];
+        var versions = ["2.1.3","2.1.3","2.1.3","2.1.2","2.1.2"];
     </script>
 
 
