@@ -31,10 +31,10 @@ ntedit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.3-0</code>,  <code>1.3.5-4</code>,  <code>1.3.5-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.3-0</code>,  <code>1.3.5-4</code>,  </span></summary>
       
 
-      ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``2.0.3-0``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -44,9 +44,9 @@ ntedit
 
    
    :depends boost-cpp: 
-   :depends btllib: ``>=1.7.2,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends btllib: ``>=1.7.3,<2.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends ntcard: 
    :depends nthits: ``>=1.0.0``
@@ -100,7 +100,7 @@ ntedit
 
     <script>
         var package = "ntedit";
-        var versions = ["2.0.2","2.0.2","2.0.2","2.0.1","2.0.1"];
+        var versions = ["2.0.3","2.0.2","2.0.2","2.0.2","2.0.1"];
     </script>
 
 

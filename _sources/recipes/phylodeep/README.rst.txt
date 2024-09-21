@@ -13,7 +13,7 @@ phylodeep
    Deep\-learning parameter estimation and model selection from phylogenetic trees.
 
    :homepage: https://github.com/evolbioinfo/phylodeep
-   :documentation: https://github.com/evolbioinfo/phylodeep/blob/0.7/README.md
+   :documentation: https://github.com/evolbioinfo/phylodeep/blob/0.9/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`phylodeep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodeep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylodeep/meta.yaml>`_
@@ -31,7 +31,7 @@ phylodeep
       
       
 
-      ``0.7-0``,  ``0.6-0``
+      ``0.9-0``,  ``0.7-0``,  ``0.6-0``
 
       
 
@@ -93,7 +93,7 @@ phylodeep
 
     <script>
         var package = "phylodeep";
-        var versions = ["0.7","0.6"];
+        var versions = ["0.9","0.7","0.6"];
     </script>
 
 

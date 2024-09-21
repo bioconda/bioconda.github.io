@@ -27,12 +27,12 @@ bwa-aln-interactive
       
       
 
-      ``0.7.18-0``
+      ``0.7.18-1``,  ``0.7.18-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
@@ -81,7 +81,7 @@ bwa-aln-interactive
 
     <script>
         var package = "bwa-aln-interactive";
-        var versions = ["0.7.18"];
+        var versions = ["0.7.18","0.7.18"];
     </script>
 
 

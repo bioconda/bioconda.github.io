@@ -28,17 +28,24 @@ haystac
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3-0</code>,  </span></summary>
+      
 
+      ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends argparse: ``1.4.0.*``
-   :depends numpy: ``1.19.2.*``
-   :depends pandas: ``1.0.3.*``
+   :depends numpy: ``2.0.0.*``
+   :depends pandas: ``2.2.2.*``
    :depends psutil: ``5.7.2.*``
-   :depends python: ``3.6.7.*``
+   :depends python: ``3.9.19.*``
    :depends pyyaml: ``5.4.1.*``
    :depends requests: ``2.24.0.*``
    :depends snakemake-minimal: ``6.3.0.*``
@@ -89,7 +96,7 @@ haystac
 
     <script>
         var package = "haystac";
-        var versions = ["0.4.10","0.4.9","0.4.8","0.4.7","0.4"];
+        var versions = ["0.4.11","0.4.10","0.4.9","0.4.8","0.4.7"];
     </script>
 
 

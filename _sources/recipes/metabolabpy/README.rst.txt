@@ -30,10 +30,10 @@ metabolabpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.46-0</code>,  <code>0.9.45-0</code>,  <code>0.9.44-0</code>,  <code>0.9.43-0</code>,  <code>0.9.42-0</code>,  <code>0.9.41-0</code>,  <code>0.6.53-0</code>,  <code>0.6.51-0</code>,  <code>0.6.50-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.47-0</code>,  <code>0.9.46-0</code>,  <code>0.9.45-0</code>,  <code>0.9.44-0</code>,  <code>0.9.43-0</code>,  <code>0.9.42-0</code>,  <code>0.9.41-0</code>,  <code>0.6.53-0</code>,  <code>0.6.51-0</code>,  </span></summary>
       
 
-      ``0.9.46-0``,  ``0.9.45-0``,  ``0.9.44-0``,  ``0.9.43-0``,  ``0.9.42-0``,  ``0.9.41-0``,  ``0.6.53-0``,  ``0.6.51-0``,  ``0.6.50-0``,  ``0.6.49-0``,  ``0.6.48-0``,  ``0.6.46-0``
+      ``0.9.47-0``,  ``0.9.46-0``,  ``0.9.45-0``,  ``0.9.44-0``,  ``0.9.43-0``,  ``0.9.42-0``,  ``0.9.41-0``,  ``0.6.53-0``,  ``0.6.51-0``,  ``0.6.50-0``,  ``0.6.49-0``,  ``0.6.48-0``,  ``0.6.46-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ metabolabpy
 
     <script>
         var package = "metabolabpy";
-        var versions = ["0.9.46","0.9.45","0.9.44","0.9.43","0.9.42"];
+        var versions = ["0.9.47","0.9.46","0.9.45","0.9.44","0.9.43"];
     </script>
 
 

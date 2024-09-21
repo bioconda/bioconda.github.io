@@ -28,10 +28,10 @@ seurat-scripts
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>0.3.0-0</code>,  <code>0.0.9-2</code>,  <code>0.0.9-1</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.4.0-0</code>,  <code>4.0.0-0</code>,  <code>0.3.0-0</code>,  <code>0.0.9-2</code>,  <code>0.0.9-1</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``0.3.0-0``,  ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``
+      ``4.4.0-0``,  ``4.0.0-0``,  ``0.3.0-0``,  ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``
 
       
       .. raw:: html
@@ -40,19 +40,20 @@ seurat-scripts
       
 
    
+   :depends bioconductor-limma: 
    :depends bioconductor-multtest: 
    :depends bioconductor-scater: 
-   :depends libpng: ``>=1.6.37,<1.7.0a0``
+   :depends libpng: 
    :depends mscorefonts: 
    :depends pandoc: 
    :depends r-cairo: 
    :depends r-loom: 
    :depends r-metap: 
    :depends r-optparse: 
-   :depends r-seurat: ``4.0.0.*``
+   :depends r-remotes: 
+   :depends r-seurat: ``<=4.4``
    :depends r-seuratdisk: 
    :depends r-svglite: 
-   :depends r-uwot: ``<0.1.11``
    :depends r-workflowscriptscommon: ``>=0.0.8``
    :requirements:
 
@@ -101,7 +102,7 @@ seurat-scripts
 
     <script>
         var package = "seurat-scripts";
-        var versions = ["4.0.0","0.3.0","0.0.9","0.0.9","0.0.9"];
+        var versions = ["4.4.0","4.0.0","0.3.0","0.0.9","0.0.9"];
     </script>
 
 
