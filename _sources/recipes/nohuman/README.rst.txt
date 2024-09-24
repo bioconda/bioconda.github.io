@@ -13,7 +13,7 @@ nohuman
    Remove human reads from a sequencing run
 
    :homepage: https://github.com/mbhall88/nohuman
-   :license: MIT / MIT
+   :license: MIT
    :recipe: /`nohuman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nohuman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nohuman/meta.yaml>`_
 
    
@@ -27,14 +27,13 @@ nohuman
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends kraken2: ``2.1.*``
-   :depends libgcc-ng: ``>=12``
-   :depends openssl: ``>=3.3.1,<4.0a0``
+   :depends libgcc: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +81,7 @@ nohuman
 
     <script>
         var package = "nohuman";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.2.1","0.2.0","0.1.1","0.1.0"];
     </script>
 
 

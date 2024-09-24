@@ -29,7 +29,7 @@ mgatk
       
       
 
-      ``0.7.0-1``,  ``0.7.0-0``
+      ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``
 
       
 
@@ -52,7 +52,7 @@ mgatk
    :depends r-dplyr: 
    :depends r-matrix: 
    :depends regex: 
-   :depends ruamel.yaml: 
+   :depends ruamel.yaml: ``0.16.12.*``
    :depends snakemake-minimal: ``<8``
    :requirements:
 
@@ -101,7 +101,7 @@ mgatk
 
     <script>
         var package = "mgatk";
-        var versions = ["0.7.0","0.7.0"];
+        var versions = ["0.7.0","0.7.0","0.7.0"];
     </script>
 
 

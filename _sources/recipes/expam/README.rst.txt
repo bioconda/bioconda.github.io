@@ -13,7 +13,7 @@ expam
    Metagenomic profiling using a reference phylogeny
 
    :homepage: https://github.com/seansolari/expam
-   :documentation: https://expam.readthedocs.io/en/latest/
+   :documentation: https://expam.readthedocs.io/en/latest
    
    :license: BSD / BSD-3-Clause
    :recipe: /`expam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expam/meta.yaml>`_
@@ -30,10 +30,10 @@ expam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.2.5-1</code>,  <code>1.2.2.5-0</code>,  <code>1.2.2.4-0</code>,  <code>1.2.2.3-0</code>,  <code>1.2.2.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0.5-0</code>,  <code>1.2.2.5-1</code>,  <code>1.2.2.5-0</code>,  <code>1.2.2.4-0</code>,  <code>1.2.2.3-0</code>,  <code>1.2.2.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  </span></summary>
       
 
-      ``1.2.2.5-1``,  ``1.2.2.5-0``,  ``1.2.2.4-0``,  ``1.2.2.3-0``,  ``1.2.2.1-0``,  ``1.2.2-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``
+      ``1.4.0.5-0``,  ``1.2.2.5-1``,  ``1.2.2.5-0``,  ``1.2.2.4-0``,  ``1.2.2.3-0``,  ``1.2.2.1-0``,  ``1.2.2-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``
 
       
       .. raw:: html
@@ -42,11 +42,12 @@ expam
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends ete3: 
+   :depends libgcc: ``>=12``
    :depends matplotlib-base: 
    :depends multiprocess: 
+   :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=1.22.0``
-   :depends numpy: ``>=1.26.4,<2.0a0``
    :depends pandas: 
    :depends psutil: 
    :depends pytables: 
@@ -100,7 +101,7 @@ expam
 
     <script>
         var package = "expam";
-        var versions = ["1.2.2.5","1.2.2.5","1.2.2.4","1.2.2.3","1.2.2.1"];
+        var versions = ["1.4.0.5","1.2.2.5","1.2.2.5","1.2.2.4","1.2.2.3"];
     </script>
 
 

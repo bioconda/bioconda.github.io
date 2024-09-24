@@ -10,15 +10,14 @@ macs3
    :replaces_section_title:
    :noindex:
 
-   Model Based Analysis for ChIP\-Seq data
+   Model Based Analysis for ChIP\-Seq data.
 
-   :homepage: https://pypi.org/project/MACS3/
-   :documentation: https://macs3-project.github.io/MACS/
+   :homepage: https://github.com/macs3-project/MACS
+   :documentation: https://macs3-project.github.io/MACS
    
-   :developer docs: https://github.com/macs3-project/MACS/
    :license: BSD / BSD-3-Clause
    :recipe: /`macs3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs3/meta.yaml>`_
-   :links: biotools: :biotools:`macs`, doi: :doi:`10.1186/gb-2008-9-9-r137`, usegalaxy-eu: :usegalaxy-eu:`peakcalling_macs`
+   :links: biotools: :biotools:`macs`, doi: :doi:`10.1186/gb-2008-9-9-r137`, usegalaxy-eu: :usegalaxy-eu:`peakcalling_macs`, usegalaxy-eu: :usegalaxy-eu:`macs2_bdgbroadcall`, usegalaxy-eu: :usegalaxy-eu:`macs2_bdgcmp`, usegalaxy-eu: :usegalaxy-eu:`macs2_bdgdiff`, usegalaxy-eu: :usegalaxy-eu:`macs2_bdgpeakcall`, usegalaxy-eu: :usegalaxy-eu:`macs2_callpeak`, usegalaxy-eu: :usegalaxy-eu:`macs2_filterdup`, usegalaxy-eu: :usegalaxy-eu:`macs2_predictd`, usegalaxy-eu: :usegalaxy-eu:`macs2_randsample`, usegalaxy-eu: :usegalaxy-eu:`macs2_refinepeak`
 
    
 
@@ -31,17 +30,17 @@ macs3
       
       
 
-      ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
    
    :depends cykhash: ``>=2.0,<3.0``
-   :depends hmmlearn: ``0.3.*``
-   :depends libgcc-ng: ``>=12``
+   :depends hmmlearn: ``>=0.3.2``
+   :depends libgcc: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=1.25``
-   :depends numpy: ``>=1.26.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: ``>=1.3``
@@ -93,7 +92,7 @@ macs3
 
     <script>
         var package = "macs3";
-        var versions = ["3.0.1","3.0.1","3.0.1","3.0.1"];
+        var versions = ["3.0.2","3.0.2","3.0.1","3.0.1","3.0.1"];
     </script>
 
 

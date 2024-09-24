@@ -26,9 +26,17 @@ metabolights-utils
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+      
 
+      ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ metabolights-utils
 
     <script>
         var package = "metabolights-utils";
-        var versions = ["1.1.9","1.1.8","1.1.7","1.1.6","1.1.5"];
+        var versions = ["1.1.10","1.1.9","1.1.8","1.1.7","1.1.6"];
     </script>
 
 
