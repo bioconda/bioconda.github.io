@@ -13,7 +13,7 @@ yahs
    YaHS\, yet another Hi\-C scaffolding tool.
 
    :homepage: https://github.com/c-zhou/yahs
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`yahs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yahs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yahs/meta.yaml>`_
 
    
@@ -26,14 +26,22 @@ yahs
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2a.2-2``,  ``1.2a.2-1``,  ``1.2a.2-0``,  ``1.2a.1-0``,  ``1.2a-1``,  ``1.2a-0``,  ``1.1a.2-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.2a.2-2</code>,  <code>1.2a.2-1</code>,  <code>1.2a.2-0</code>,  <code>1.2a.1-0</code>,  <code>1.2a-1</code>,  <code>1.2a-0</code>,  <code>1.1a.2-0</code>,  </span></summary>
+      
 
+      ``1.2-1``,  ``1.2-0``,  ``1.2a.2-2``,  ``1.2a.2-1``,  ``1.2a.2-0``,  ``1.2a.1-0``,  ``1.2a-1``,  ``1.2a-0``,  ``1.1a.2-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +89,7 @@ yahs
 
     <script>
         var package = "yahs";
-        var versions = ["1.2a.2","1.2a.2","1.2a.2","1.2a.1","1.2a"];
+        var versions = ["1.2","1.2","1.2a.2","1.2a.2","1.2a.2"];
     </script>
 
 

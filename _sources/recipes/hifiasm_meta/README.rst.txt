@@ -28,10 +28,10 @@ hifiasm_meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>hamtv0.3.2-0</code>,  <code>hamtv0.3.1-2</code>,  <code>hamtv0.3.1-1</code>,  <code>hamtv0.3.1-0</code>,  <code>hamtv0.3-1</code>,  <code>hamtv0.3-0</code>,  <code>hamtv0.2.2-1</code>,  <code>hamtv0.2.2-0</code>,  <code>hamtv0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>hamtv0.3.2-1</code>,  <code>hamtv0.3.2-0</code>,  <code>hamtv0.3.1-2</code>,  <code>hamtv0.3.1-1</code>,  <code>hamtv0.3.1-0</code>,  <code>hamtv0.3-1</code>,  <code>hamtv0.3-0</code>,  <code>hamtv0.2.2-1</code>,  <code>hamtv0.2.2-0</code>,  </span></summary>
       
 
-      ``hamtv0.3.2-0``,  ``hamtv0.3.1-2``,  ``hamtv0.3.1-1``,  ``hamtv0.3.1-0``,  ``hamtv0.3-1``,  ``hamtv0.3-0``,  ``hamtv0.2.2-1``,  ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
+      ``hamtv0.3.2-1``,  ``hamtv0.3.2-0``,  ``hamtv0.3.1-2``,  ``hamtv0.3.1-1``,  ``hamtv0.3.1-0``,  ``hamtv0.3-1``,  ``hamtv0.3-0``,  ``hamtv0.2.2-1``,  ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ hifiasm_meta
 
     <script>
         var package = "hifiasm_meta";
-        var versions = ["hamtv0.3.2","hamtv0.3.1","hamtv0.3.1","hamtv0.3.1","hamtv0.3"];
+        var versions = ["hamtv0.3.2","hamtv0.3.2","hamtv0.3.1","hamtv0.3.1","hamtv0.3.1"];
     </script>
 
 

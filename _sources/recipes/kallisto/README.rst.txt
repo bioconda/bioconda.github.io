@@ -12,13 +12,13 @@ kallisto
 
    Quantifying abundances of transcripts from RNA\-Seq data\, or more generally of target sequences using high\-throughput sequencing reads.
 
-   :homepage: http://pachterlab.github.io/kallisto
+   :homepage: https://pachterlab.github.io/kallisto
    :documentation: https://pachterlab.github.io/kallisto/manual.html
    
    :developer docs: https://github.com/pachterlab/kallisto
    :license: BSD / BSD-2-Clause
    :recipe: /`kallisto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kallisto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kallisto/meta.yaml>`_
-   :links: biotools: :biotools:`kallisto`, doi: :doi:`10.1038/nbt.3519`
+   :links: biotools: :biotools:`kallisto`, doi: :doi:`10.1038/nbt.3519`, usegalaxy-eu: :usegalaxy-eu:`kallisto_pseudo`, usegalaxy-eu: :usegalaxy-eu:`kallisto_quant`
 
    
 
@@ -32,10 +32,10 @@ kallisto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.51.0-0</code>,  <code>0.50.1-2</code>,  <code>0.50.1-1</code>,  <code>0.50.1-0</code>,  <code>0.50.0-0</code>,  <code>0.48.0-2</code>,  <code>0.48.0-1</code>,  <code>0.48.0-0</code>,  <code>0.46.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.51.1-0</code>,  <code>0.51.0-0</code>,  <code>0.50.1-2</code>,  <code>0.50.1-1</code>,  <code>0.50.1-0</code>,  <code>0.50.0-0</code>,  <code>0.48.0-2</code>,  <code>0.48.0-1</code>,  <code>0.48.0-0</code>,  </span></summary>
       
 
-      ``0.51.0-0``,  ``0.50.1-2``,  ``0.50.1-1``,  ``0.50.1-0``,  ``0.50.0-0``,  ``0.48.0-2``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.2-2``,  ``0.46.2-1``,  ``0.46.2-0``,  ``0.46.1-0``,  ``0.46.0-1``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.43.1-1``,  ``0.43.1-0``,  ``0.43.0-2``,  ``0.43.0-1``,  ``0.42.4-2``,  ``0.42.4-1``,  ``0.42.3-1``,  ``0.42.3-0``
+      ``0.51.1-0``,  ``0.51.0-0``,  ``0.50.1-2``,  ``0.50.1-1``,  ``0.50.1-0``,  ``0.50.0-0``,  ``0.48.0-2``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.2-2``,  ``0.46.2-1``,  ``0.46.2-0``,  ``0.46.1-0``,  ``0.46.0-1``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.43.1-1``,  ``0.43.1-0``,  ``0.43.0-2``,  ``0.43.0-1``,  ``0.42.4-2``,  ``0.42.4-1``,  ``0.42.3-1``,  ``0.42.3-0``
 
       
       .. raw:: html
@@ -46,11 +46,11 @@ kallisto
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcurl: ``>=8.8.0,<9.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +98,7 @@ kallisto
 
     <script>
         var package = "kallisto";
-        var versions = ["0.51.0","0.50.1","0.50.1","0.50.1","0.50.0"];
+        var versions = ["0.51.1","0.51.0","0.50.1","0.50.1","0.50.1"];
     </script>
 
 

@@ -31,10 +31,10 @@ phyloacc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  </span></summary>
       
 
-      ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -44,14 +44,14 @@ phyloacc
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends armadillo: ``>=12.8,<13.0a0``
+   :depends armadillo: ``>=14.0,<15.0a0``
    :depends biopython: ``>=1.79``
    :depends blis: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libgomp: 
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends matplotlib-base: ``>=3.5``
    :depends numpy: ``>=1.22``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -104,7 +104,7 @@ phyloacc
 
     <script>
         var package = "phyloacc";
-        var versions = ["2.3.3","2.3.3","2.3.2","2.3.1","2.3.1"];
+        var versions = ["2.3.4","2.3.4","2.3.3","2.3.3","2.3.2"];
     </script>
 
 
