@@ -27,12 +27,13 @@ panacus
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
+      ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -87,7 +88,7 @@ panacus
 
     <script>
         var package = "panacus";
-        var versions = ["0.2.3","0.2.2","0.2.1","0.2"];
+        var versions = ["0.2.3","0.2.3","0.2.2","0.2.1","0.2"];
     </script>
 
 

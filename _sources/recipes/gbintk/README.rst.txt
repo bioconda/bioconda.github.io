@@ -30,7 +30,7 @@ gbintk
       
       
 
-      ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.0-0``
 
       
 
@@ -100,7 +100,7 @@ gbintk
 
     <script>
         var package = "gbintk";
-        var versions = ["0.1.0"];
+        var versions = ["1.0.0","0.1.0"];
     </script>
 
 

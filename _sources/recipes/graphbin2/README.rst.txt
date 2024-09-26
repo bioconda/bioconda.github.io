@@ -31,7 +31,7 @@ graphbin2
       
       
 
-      ``1.3.2-0``,  ``1.3.1-0``
+      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
 
@@ -90,7 +90,7 @@ graphbin2
 
     <script>
         var package = "graphbin2";
-        var versions = ["1.3.2","1.3.1"];
+        var versions = ["1.3.3","1.3.2","1.3.1"];
     </script>
 
 

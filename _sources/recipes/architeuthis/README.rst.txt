@@ -33,7 +33,7 @@ architeuthis
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
 
@@ -86,7 +86,7 @@ architeuthis
 
     <script>
         var package = "architeuthis";
-        var versions = ["0.3.0","0.3.0","0.2.1"];
+        var versions = ["0.3.1","0.3.0","0.3.0","0.2.1"];
     </script>
 
 
