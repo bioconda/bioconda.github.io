@@ -20,7 +20,7 @@ infernal
    :recipe: /`infernal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btt509`, biotools: :biotools:`infernal`
 
-   Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databases for RNA structure and sequence similarities.
+   Infernal \(INFERence of RNA ALignment\) is for searching DNA sequence databases for RNA structure and sequence similarities.
 
 
 .. conda:package:: infernal
@@ -32,10 +32,10 @@ infernal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.5-2</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-4</code>,  <code>1.1.4-3</code>,  <code>1.1.4-2</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.5-3</code>,  <code>1.1.5-2</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-4</code>,  <code>1.1.4-3</code>,  <code>1.1.4-2</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  </span></summary>
       
 
-      ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-4``,  ``1.1.4-3``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``1.1.5-3``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-4``,  ``1.1.4-3``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -45,7 +45,8 @@ infernal
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -94,7 +95,7 @@ infernal
 
     <script>
         var package = "infernal";
-        var versions = ["1.1.5","1.1.5","1.1.5","1.1.4","1.1.4"];
+        var versions = ["1.1.5","1.1.5","1.1.5","1.1.5","1.1.4"];
     </script>
 
 

@@ -10,13 +10,14 @@ gget
    :replaces_section_title:
    :noindex:
 
-   gget enables efficient querying of genomic databases
+   gget enables efficient querying of genomic databases.
 
    :homepage: https://github.com/pachterlab/gget
    :documentation: https://pachterlab.github.io/gget
    
    :license: BSD / BSD-2-Clause
    :recipe: /`gget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gget/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btac836`
 
    gget enables efficient querying of genomic databases\, such as Ensembl\, UniProt\, 
    NCBI\, directly into a Python or terminal programming environment. It was 
@@ -33,10 +34,10 @@ gget
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.28.6-0</code>,  <code>0.28.5-0</code>,  <code>0.28.4-0</code>,  <code>0.28.3-0</code>,  <code>0.28.2-0</code>,  <code>0.28.1-0</code>,  <code>0.27.9-0</code>,  <code>0.27.8-0</code>,  <code>0.27.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.29.0-0</code>,  <code>0.28.6-0</code>,  <code>0.28.5-0</code>,  <code>0.28.4-0</code>,  <code>0.28.3-0</code>,  <code>0.28.2-0</code>,  <code>0.28.1-0</code>,  <code>0.27.9-0</code>,  <code>0.27.8-0</code>,  </span></summary>
       
 
-      ``0.28.6-0``,  ``0.28.5-0``,  ``0.28.4-0``,  ``0.28.3-0``,  ``0.28.2-0``,  ``0.28.1-0``,  ``0.27.9-0``,  ``0.27.8-0``,  ``0.27.7-0``,  ``0.27.5-0``,  ``0.27.4-0``,  ``0.27.3-0``,  ``0.27.2-2``,  ``0.27.2-1``,  ``0.27.2-0``,  ``0.27.0-0``,  ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.7-0``,  ``0.3.5-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.24-0``
+      ``0.29.0-0``,  ``0.28.6-0``,  ``0.28.5-0``,  ``0.28.4-0``,  ``0.28.3-0``,  ``0.28.2-0``,  ``0.28.1-0``,  ``0.27.9-0``,  ``0.27.8-0``,  ``0.27.7-0``,  ``0.27.5-0``,  ``0.27.4-0``,  ``0.27.3-0``,  ``0.27.2-2``,  ``0.27.2-1``,  ``0.27.2-0``,  ``0.27.0-0``,  ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.7-0``,  ``0.3.5-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.24-0``
 
       
       .. raw:: html
@@ -51,13 +52,13 @@ gget
    :depends ipywidgets: 
    :depends lxml: 
    :depends matplotlib-base: 
-   :depends mysql-connector-python: ``>=8.0.5,<=8.0.29``
+   :depends mysql-connector-python: ``>=8.0.32``
    :depends numpy: ``>=1.17.2``
    :depends openai: 
    :depends openmm: ``7.5.1``
    :depends pandas: ``>=1.0.0``
    :depends py3dmol: ``>=1.8.0``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends requests: ``>=2.22.0``
    :depends tqdm: 
    :requirements:
@@ -107,7 +108,7 @@ gget
 
     <script>
         var package = "gget";
-        var versions = ["0.28.6","0.28.5","0.28.4","0.28.3","0.28.2"];
+        var versions = ["0.29.0","0.28.6","0.28.5","0.28.4","0.28.3"];
     </script>
 
 

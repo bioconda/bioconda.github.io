@@ -13,7 +13,7 @@ trgt
    Tandem repeat genotyping and visualization from PacBio HiFi data
 
    :homepage: https://github.com/PacificBiosciences/trgt
-   :license: BSD-3-Clause-Clear
+   :license: Pacific Biosciences Software License (https://github.com/PacificBiosciences/trgt/blob/main/LICENSE.md)
    :recipe: /`trgt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trgt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trgt/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ trgt
       
       
 
-      ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
@@ -79,7 +79,7 @@ trgt
 
     <script>
         var package = "trgt";
-        var versions = ["0.9.0","0.8.0","0.7.0","0.5.0","0.4.0"];
+        var versions = ["1.1.0","1.0.0","0.9.0","0.8.0","0.7.0"];
     </script>
 
 
