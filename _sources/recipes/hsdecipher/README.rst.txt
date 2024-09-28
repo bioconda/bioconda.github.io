@@ -16,7 +16,7 @@ hsdecipher
    :license: GPL-3.0-or-later
    :recipe: /`hsdecipher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hsdecipher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hsdecipher/meta.yaml>`_
 
-   
+   Many tools have been developed to measure the degree of similarity between gene duplicates within and between species.Here\, we present HSDecipher\, a bioinformatics pipeline to assist users in the analysis and visualization of highly similar duplicate genes \(HSDs\). We describe the steps for analysis of HSDs statistics\, expanding HSD gene set\, and visualizing the results of comparative genomic analyses. HSDecipher represents a useful tool for researchers exploring the evolution of duplicate genes in select eukaryotic species.
 
 
 .. conda:package:: hsdecipher
@@ -27,7 +27,7 @@ hsdecipher
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -83,7 +83,7 @@ hsdecipher
 
     <script>
         var package = "hsdecipher";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

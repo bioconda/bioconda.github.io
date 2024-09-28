@@ -13,7 +13,7 @@ snakeobjects
    Snakeobjects\, an object\-oriented workflow management system based on snakemake
 
    :homepage: https://github.com/iossifovlab/snakeobjects
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakeobjects <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakeobjects>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakeobjects/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ snakeobjects
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.4-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  </span></summary>
       
 
-      ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``3.1.4-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ snakeobjects
       
 
    
-   :depends python: 
+   :depends python: ``<3.12``
    :depends snakemake-minimal: 
    :requirements:
 
@@ -89,7 +89,7 @@ snakeobjects
 
     <script>
         var package = "snakeobjects";
-        var versions = ["3.1.2","3.1.1","3.1.0","3.0.8","3.0.7"];
+        var versions = ["3.1.4","3.1.2","3.1.1","3.1.0","3.0.8"];
     </script>
 
 
