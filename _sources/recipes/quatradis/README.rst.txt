@@ -15,6 +15,7 @@ quatradis
    :homepage: https://github.com/quadram-institute-bioscience/QuaTradis
    :license: GPL3 / GPL-3.0-only
    :recipe: /`quatradis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quatradis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quatradis/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw022`
 
    
 
@@ -28,10 +29,10 @@ quatradis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.7.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.5.4-0``,  ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.5.4-0``,  ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
 
       
       .. raw:: html
@@ -43,10 +44,9 @@ quatradis
    :depends biopython: 
    :depends bwa: 
    :depends cython: 
-   :depends dendropy: 
-   :depends graphviz: 
+   :depends dendropy: ``4.6``
    :depends htslib: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends numpy: 
@@ -60,10 +60,10 @@ quatradis
    :depends r-mass: 
    :depends samtools: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends setuptools: 
    :depends smalt: 
-   :depends snakemake: 
+   :depends snakemake-minimal: 
    :depends snakeviz: 
    :requirements:
 
@@ -112,7 +112,7 @@ quatradis
 
     <script>
         var package = "quatradis";
-        var versions = ["1.3.0","1.2.0","1.1.0","1.0.2","1.0.1"];
+        var versions = ["1.3.1","1.3.0","1.2.0","1.1.0","1.0.2"];
     </script>
 
 
