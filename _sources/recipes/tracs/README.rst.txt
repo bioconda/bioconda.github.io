@@ -29,7 +29,7 @@ tracs
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -38,8 +38,8 @@ tracs
    :depends _openmp_mutex: ``>=4.5``
    :depends htsbox: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends llvm-openmp: ``>=18.1.7``
    :depends minimap2: 
@@ -101,7 +101,7 @@ tracs
 
     <script>
         var package = "tracs";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

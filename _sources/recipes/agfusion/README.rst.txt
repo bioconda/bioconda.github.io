@@ -27,9 +27,17 @@ agfusion
    :versions:
       
       
+      .. raw:: html
 
-      ``1.252-1``,  ``1.252-0``,  ``1.251-0``,  ``1.231-0``,  ``1.23-0``,  ``1.4.1-0``,  ``1.2-2``,  ``1.2-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.252-1</code>,  <code>1.252-0</code>,  <code>1.251-0</code>,  <code>1.231-0</code>,  <code>1.23-0</code>,  <code>1.4.3-0</code>,  <code>1.4.1-0</code>,  <code>1.2-2</code>,  <code>1.2-0</code>,  </span></summary>
+      
 
+      ``1.252-1``,  ``1.252-0``,  ``1.251-0``,  ``1.231-0``,  ``1.23-0``,  ``1.4.3-0``,  ``1.4.1-0``,  ``1.2-2``,  ``1.2-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

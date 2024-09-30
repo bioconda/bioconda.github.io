@@ -27,13 +27,13 @@ gxf2bed
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ gxf2bed
 
     <script>
         var package = "gxf2bed";
-        var versions = ["0.2.2","0.2.1","0.2.0","0.1.0"];
+        var versions = ["0.2.3","0.2.2","0.2.1","0.2.0","0.1.0"];
     </script>
 
 
