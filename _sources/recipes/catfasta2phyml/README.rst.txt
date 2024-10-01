@@ -27,7 +27,7 @@ catfasta2phyml
       
       
 
-      ``1.2.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``
 
       
 
@@ -80,7 +80,7 @@ catfasta2phyml
 
     <script>
         var package = "catfasta2phyml";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.1","1.2.0"];
     </script>
 
 

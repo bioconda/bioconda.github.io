@@ -27,14 +27,15 @@ cpstools
       
       
 
-      ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: ``>=1.84.0``
    :depends numpy: ``>=1.26.4``
-   :depends python: ``>=3.10.0``
+   :depends python: ``>=3.9``
+   :depends tqdm: ``>=4.66.5``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +83,7 @@ cpstools
 
     <script>
         var package = "cpstools";
-        var versions = ["1.0.13","1.0.12","1.0.11","1.0.0"];
+        var versions = ["2.0.0","1.0.13","1.0.12","1.0.11","1.0.0"];
     </script>
 
 

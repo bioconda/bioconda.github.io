@@ -10,11 +10,12 @@ pgrc
    :replaces_section_title:
    :noindex:
 
-   A tool for compressing the DNA stream of FASTQ datasets
+   A tool for compressing the DNA stream of FASTQ datasets.
 
    :homepage: https://github.com/kowallus/PgRC
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pgrc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgrc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgrc/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btz919`
 
    
 
@@ -27,12 +28,14 @@ pgrc
       
       
 
-      ``2.0-0``
+      ``2.0-1``,  ``2.0-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx: ``>=12``
    :requirements:
 
@@ -81,7 +84,7 @@ pgrc
 
     <script>
         var package = "pgrc";
-        var versions = ["2.0"];
+        var versions = ["2.0","2.0"];
     </script>
 
 
