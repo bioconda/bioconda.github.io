@@ -10,7 +10,7 @@ panacus
    :replaces_section_title:
    :noindex:
 
-   panacus is a tool for computing counting statistics for GFA files
+   panacus is a tool for computing counting statistics for GFA files.
 
    :homepage: https://github.com/marschall-lab/panacus
    :license: MIT / MIT
@@ -27,20 +27,19 @@ panacus
       
       
 
-      ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
+      ``0.2.4-2``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
 
       
 
    
    :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends python: 
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +87,7 @@ panacus
 
     <script>
         var package = "panacus";
-        var versions = ["0.2.4","0.2.3","0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.2.4","0.2.4","0.2.3","0.2.3","0.2.2"];
     </script>
 
 

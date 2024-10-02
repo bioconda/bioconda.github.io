@@ -28,10 +28,10 @@ metacache
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.0-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.3-0</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.0-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  </span></summary>
       
 
-      ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+      ``2.4.3-0``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ metacache
 
    
    :depends gawk: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends wget: 
    :requirements:
@@ -92,7 +92,7 @@ metacache
 
     <script>
         var package = "metacache";
-        var versions = ["2.4.2","2.4.2","2.4.0","2.3.2","2.3.1"];
+        var versions = ["2.4.3","2.4.2","2.4.2","2.4.0","2.3.2"];
     </script>
 
 

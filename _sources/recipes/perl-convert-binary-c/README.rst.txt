@@ -26,14 +26,22 @@ perl-convert-binary-c
    :versions:
       
       
+      .. raw:: html
 
-      ``0.84-3``,  ``0.84-2``,  ``0.84-1``,  ``0.84-0``,  ``0.78-4``,  ``0.78-3``,  ``0.78-2``,  ``0.78-1``,  ``0.78-0``
+         <details><summary><span class="truncated-version-list"><code>0.85-0</code>,  <code>0.84-3</code>,  <code>0.84-2</code>,  <code>0.84-1</code>,  <code>0.84-0</code>,  <code>0.78-4</code>,  <code>0.78-3</code>,  <code>0.78-2</code>,  <code>0.78-1</code>,  </span></summary>
+      
 
+      ``0.85-0``,  ``0.84-3``,  ``0.84-2``,  ``0.84-1``,  ``0.84-0``,  ``0.78-4``,  ``0.78-3``,  ``0.78-2``,  ``0.78-1``,  ``0.78-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -82,7 +90,7 @@ perl-convert-binary-c
 
     <script>
         var package = "perl-convert-binary-c";
-        var versions = ["0.84","0.84","0.84","0.84","0.78"];
+        var versions = ["0.85","0.84","0.84","0.84","0.84"];
     </script>
 
 

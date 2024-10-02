@@ -30,10 +30,10 @@ eukulele
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.9-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  </span></summary>
       
 
-      ``2.0.9-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-3``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-3``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ eukulele
    :depends biopython: 
    :depends blast: 
    :depends boost-cpp: 
+   :depends busco: ``>=4.0.4``
    :depends chardet: 
    :depends diamond: 
    :depends joblib: 
@@ -107,7 +108,7 @@ eukulele
 
     <script>
         var package = "eukulele";
-        var versions = ["2.0.9","2.0.7","2.0.6","2.0.5","2.0.3"];
+        var versions = ["2.0.9","2.0.9","2.0.7","2.0.6","2.0.5"];
     </script>
 
 
