@@ -13,7 +13,7 @@ metacache
    MetaCache is a classification system for mapping genomic sequences \(short reads\, long reads\, contigs\, ...\) from metagenomic samples to their most likely taxon of origin.
 
    :homepage: https://github.com/muellan/metacache
-   :license: GPL-3.0
+   :license: GPL-3.0-or-later
    :recipe: /`metacache <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacache>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacache/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ metacache
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.3-0</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.0-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.3-1</code>,  <code>2.4.3-0</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.0-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  </span></summary>
       
 
-      ``2.4.3-0``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+      ``2.4.3-1``,  ``2.4.3-0``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ metacache
 
     <script>
         var package = "metacache";
-        var versions = ["2.4.3","2.4.2","2.4.2","2.4.0","2.3.2"];
+        var versions = ["2.4.3","2.4.3","2.4.2","2.4.2","2.4.0"];
     </script>
 
 

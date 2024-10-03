@@ -10,9 +10,11 @@ k8
    :replaces_section_title:
    :noindex:
 
-   Lightweight JavaScript shell based on Google\'s V8 JavaScript engine
+   Lightweight JavaScript shell based on Google\'s V8 JavaScript engine.
 
    :homepage: https://github.com/attractivechaos/k8
+   :documentation: https://github.com/attractivechaos/k8/blob/v1.2/README.md
+   
    :license: MIT / MIT
    :recipe: /`k8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k8/meta.yaml>`_
 
@@ -28,10 +30,10 @@ k8
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.2.5-4</code>,  <code>0.2.5-3</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.2.5-4</code>,  <code>0.2.5-3</code>,  <code>0.2.5-2</code>,  </span></summary>
       
 
-      ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -40,10 +42,12 @@ k8
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python_abi: ``3.12.* *_cp312``
+   :depends sysroot_linux-64: ``>=2.17``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +95,7 @@ k8
 
     <script>
         var package = "k8";
-        var versions = ["1.2","1.2","1.2","1.1","1.0"];
+        var versions = ["1.2","1.2","1.2","1.2","1.1"];
     </script>
 
 

@@ -13,8 +13,11 @@ spec2vec
    Word2Vec based similarity measure of mass spectrometry data.
 
    :homepage: https://github.com/iomega/spec2vec
-   :license: Apache-2.0
+   :documentation: https://spec2vec.readthedocs.io/en/latest
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`spec2vec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spec2vec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spec2vec/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pcbi.1008724`
 
    
 
@@ -27,17 +30,18 @@ spec2vec
       
       
 
-      ``0.8.0-0``,  ``0.6.0-0``
+      ``0.8.0-1``,  ``0.8.0-0``,  ``0.6.0-0``
 
       
 
    
    :depends fuzzytm: 
-   :depends gensim: ``>=4.0.0``
-   :depends matchms: ``>=0.11.0``
+   :depends gensim: ``>=4.2.0``
+   :depends matchms: ``>=0.14.0,<=0.26.4``
    :depends numba: ``>=0.51``
    :depends numpy: 
    :depends python: ``>=3.7``
+   :depends scipy: ``<=1.10.1``
    :depends tqdm: 
    :requirements:
 
@@ -86,7 +90,7 @@ spec2vec
 
     <script>
         var package = "spec2vec";
-        var versions = ["0.8.0","0.6.0"];
+        var versions = ["0.8.0","0.8.0","0.6.0"];
     </script>
 
 

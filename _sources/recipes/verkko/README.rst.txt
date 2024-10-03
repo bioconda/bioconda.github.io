@@ -13,7 +13,7 @@ verkko
    A hybrid genome assembly pipeline developed for telomere\-to\-telomere assembly of accurate \(HiFi\, ONT Duplex\, ONT HERRO\) and long \(ONT UL\) reads.
 
    :homepage: https://github.com/marbl/verkko
-   :documentation: https://github.com/marbl/verkko/blob/master/README.md
+   :documentation: https://github.com/marbl/verkko/blob/v2.2.1/README.md
    
    :license: CC0
    :recipe: /`verkko <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verkko>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verkko/meta.yaml>`_
@@ -31,10 +31,10 @@ verkko
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  </span></summary>
       
 
-      ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -49,8 +49,9 @@ verkko
    :depends findutils: ``>=4.6.0``
    :depends graphaligner: ``>=1.0.19``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.20,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mashmap: ``>=3.0.6``
@@ -112,7 +113,7 @@ verkko
 
     <script>
         var package = "verkko";
-        var versions = ["2.2","2.1","2.0","1.4.1","1.4"];
+        var versions = ["2.2.1","2.2","2.1","2.0","1.4.1"];
     </script>
 
 

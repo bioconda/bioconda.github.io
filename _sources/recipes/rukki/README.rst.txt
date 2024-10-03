@@ -1,41 +1,41 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'd4tools'
+.. title:: Package Recipe 'rukki'
 .. highlight: bash
 
-d4tools
-=======
+rukki
+=====
 
-.. conda:recipe:: d4tools
+.. conda:recipe:: rukki
    :replaces_section_title:
    :noindex:
 
-   The D4 command line utility program
+   Extracting paths from assembly graphs.
 
-
-   :homepage: https://github.com/38/d4-format
-   :license: MIT / MIT
-   :recipe: /`d4tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools/meta.yaml>`_
+   :homepage: https://github.com/marbl/rukki
+   :documentation: https://github.com/marbl/rukki/blob/v0.3.0/README.md
+   
+   :license: Public Domain
+   :recipe: /`rukki <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rukki>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rukki/meta.yaml>`_
 
    
 
 
-.. conda:package:: d4tools
+.. conda:package:: rukki
 
-   |downloads_d4tools| |docker_d4tools|
+   |downloads_rukki| |docker_rukki|
 
    :versions:
       
       
 
-      ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
+      ``0.3.0-0``
 
       
 
    
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
-   :depends starcode: 
    :requirements:
 
    .. rubric:: Installation
@@ -51,39 +51,39 @@ d4tools
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install d4tools
+      mamba install rukki
 
    and update with::
 
-      mamba update d4tools
+      mamba update rukki
 
   To create a new environment, run::
 
-      mamba create --name myenvname d4tools
+      mamba create --name myenvname rukki
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/d4tools:<tag>
+      docker pull quay.io/biocontainers/rukki:<tag>
 
-   (see `d4tools/tags`_ for valid values for ``<tag>``)
+   (see `rukki/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_d4tools| image:: https://img.shields.io/conda/dn/bioconda/d4tools.svg?style=flat
-   :target: https://anaconda.org/bioconda/d4tools
+.. |downloads_rukki| image:: https://img.shields.io/conda/dn/bioconda/rukki.svg?style=flat
+   :target: https://anaconda.org/bioconda/rukki
    :alt:   (downloads)
-.. |docker_d4tools| image:: https://quay.io/repository/biocontainers/d4tools/status
-   :target: https://quay.io/repository/biocontainers/d4tools
-.. _`d4tools/tags`: https://quay.io/repository/biocontainers/d4tools?tab=tags
+.. |docker_rukki| image:: https://quay.io/repository/biocontainers/rukki/status
+   :target: https://quay.io/repository/biocontainers/rukki
+.. _`rukki/tags`: https://quay.io/repository/biocontainers/rukki?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "d4tools";
-        var versions = ["0.3.11","0.3.10","0.3.10","0.3.8","0.3.8"];
+        var package = "rukki";
+        var versions = ["0.3.0"];
     </script>
 
 
@@ -102,7 +102,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/d4tools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rukki/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/d4tools/README.html
+   :target: http://bioconda.github.io/recipes/rukki/README.html

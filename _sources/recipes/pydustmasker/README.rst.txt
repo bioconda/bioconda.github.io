@@ -1,41 +1,40 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'd4tools'
+.. title:: Package Recipe 'pydustmasker'
 .. highlight: bash
 
-d4tools
-=======
+pydustmasker
+============
 
-.. conda:recipe:: d4tools
+.. conda:recipe:: pydustmasker
    :replaces_section_title:
    :noindex:
 
-   The D4 command line utility program
+   Python library for identification and masking of low\-complexity regions in nucleotide sequences.
 
-
-   :homepage: https://github.com/38/d4-format
+   :homepage: https://github.com/apcamargo/pydustmasker
    :license: MIT / MIT
-   :recipe: /`d4tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools/meta.yaml>`_
+   :recipe: /`pydustmasker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydustmasker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydustmasker/meta.yaml>`_
 
    
 
 
-.. conda:package:: d4tools
+.. conda:package:: pydustmasker
 
-   |downloads_d4tools| |docker_d4tools|
+   |downloads_pydustmasker| |docker_pydustmasker|
 
    :versions:
       
       
 
-      ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
+      ``1.0.0-0``
 
       
 
    
    :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends starcode: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -51,39 +50,39 @@ d4tools
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install d4tools
+      mamba install pydustmasker
 
    and update with::
 
-      mamba update d4tools
+      mamba update pydustmasker
 
   To create a new environment, run::
 
-      mamba create --name myenvname d4tools
+      mamba create --name myenvname pydustmasker
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/d4tools:<tag>
+      docker pull quay.io/biocontainers/pydustmasker:<tag>
 
-   (see `d4tools/tags`_ for valid values for ``<tag>``)
+   (see `pydustmasker/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_d4tools| image:: https://img.shields.io/conda/dn/bioconda/d4tools.svg?style=flat
-   :target: https://anaconda.org/bioconda/d4tools
+.. |downloads_pydustmasker| image:: https://img.shields.io/conda/dn/bioconda/pydustmasker.svg?style=flat
+   :target: https://anaconda.org/bioconda/pydustmasker
    :alt:   (downloads)
-.. |docker_d4tools| image:: https://quay.io/repository/biocontainers/d4tools/status
-   :target: https://quay.io/repository/biocontainers/d4tools
-.. _`d4tools/tags`: https://quay.io/repository/biocontainers/d4tools?tab=tags
+.. |docker_pydustmasker| image:: https://quay.io/repository/biocontainers/pydustmasker/status
+   :target: https://quay.io/repository/biocontainers/pydustmasker
+.. _`pydustmasker/tags`: https://quay.io/repository/biocontainers/pydustmasker?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "d4tools";
-        var versions = ["0.3.11","0.3.10","0.3.10","0.3.8","0.3.8"];
+        var package = "pydustmasker";
+        var versions = ["1.0.0"];
     </script>
 
 
@@ -102,7 +101,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/d4tools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pydustmasker/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/d4tools/README.html
+   :target: http://bioconda.github.io/recipes/pydustmasker/README.html

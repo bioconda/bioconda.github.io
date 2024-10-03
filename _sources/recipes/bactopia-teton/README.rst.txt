@@ -29,7 +29,7 @@ bactopia-teton
       
       
 
-      ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -46,7 +46,7 @@ bactopia-teton
    :depends pigz: 
    :depends python: ``>=3.6,<3.11``
    :depends sed: 
-   :depends sizemeup: ``>=1.2.2``
+   :depends sizemeup: ``>=1.2.3``
    :depends sra-human-scrubber: ``>=2.2``
    :requirements:
 
@@ -95,7 +95,7 @@ bactopia-teton
 
     <script>
         var package = "bactopia-teton";
-        var versions = ["1.1.0","1.0.5","1.0.4","1.0.3","1.0.2"];
+        var versions = ["1.1.1","1.1.0","1.0.5","1.0.4","1.0.3"];
     </script>
 
 
