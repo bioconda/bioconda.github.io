@@ -30,15 +30,16 @@ longreadsum
       
       
 
-      ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.3.1-2``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends hdf5: ``>=1.12.2,<1.12.3.0a0``
-   :depends htslib: ``>=1.18,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends numpy: 
    :depends plotly: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -90,7 +91,7 @@ longreadsum
 
     <script>
         var package = "longreadsum";
-        var versions = ["1.3.1","1.3.0","1.2.0","1.2.0","1.0.2"];
+        var versions = ["1.3.1","1.3.1","1.3.0","1.2.0","1.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ hmftools-virus-interpreter
       
       
 
-      ``1.3-0``
+      ``3.7_beta-0``,  ``1.3-0``
 
       
 
@@ -80,7 +80,7 @@ hmftools-virus-interpreter
 
     <script>
         var package = "hmftools-virus-interpreter";
-        var versions = ["1.3"];
+        var versions = ["3.7_beta","1.3"];
     </script>
 
 

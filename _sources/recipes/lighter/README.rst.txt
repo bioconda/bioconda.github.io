@@ -10,9 +10,11 @@ lighter
    :replaces_section_title:
    :noindex:
 
-   Lighter is a kmer\-based error correction method for whole genome sequencing data
+   Lighter is a kmer\-based error correction method for whole genome sequencing data.
 
    :homepage: https://github.com/mourisl/Lighter
+   :documentation: https://github.com/mourisl/Lighter/blob/v1.1.3/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`lighter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lighter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lighter/meta.yaml>`_
    :links: biotools: :biotools:`Lighter`, doi: :doi:`10.1186/s13059-014-0509-9`, usegalaxy-eu: :usegalaxy-eu:`lighter`
@@ -29,10 +31,10 @@ lighter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.2-6</code>,  <code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-6</code>,  <code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  </span></summary>
       
 
-      ``1.1.3-0``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -41,9 +43,9 @@ lighter
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +93,7 @@ lighter
 
     <script>
         var package = "lighter";
-        var versions = ["1.1.3","1.1.2","1.1.2","1.1.2","1.1.2"];
+        var versions = ["1.1.3","1.1.3","1.1.2","1.1.2","1.1.2"];
     </script>
 
 

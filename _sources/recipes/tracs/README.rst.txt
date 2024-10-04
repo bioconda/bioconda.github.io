@@ -29,19 +29,17 @@ tracs
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends _openmp_mutex: ``* *_llvm``
    :depends _openmp_mutex: ``>=4.5``
    :depends htsbox: 
    :depends joblib: 
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.7``
    :depends minimap2: 
    :depends ncbi-genome-download: 
    :depends numpy: 
@@ -101,7 +99,7 @@ tracs
 
     <script>
         var package = "tracs";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0"];
     </script>
 
 

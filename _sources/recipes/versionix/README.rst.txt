@@ -10,7 +10,7 @@ versionix
    :replaces_section_title:
    :noindex:
 
-   Get version of any tools
+   Get version of any tools.
 
    :homepage: https://github.com/sequana/versionix
    :license: BSD / BSD-3-Clause
@@ -27,13 +27,14 @@ versionix
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
    :depends click: ``>=8.1.7``
-   :depends python: ``>=3.8.0``
+   :depends colorlog: 
+   :depends python: ``>=3.8``
    :depends rich-click: 
    :requirements:
 
@@ -82,7 +83,7 @@ versionix
 
     <script>
         var package = "versionix";
-        var versions = ["0.2.4","0.2.3","0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.3.0","0.2.4","0.2.3","0.2.2","0.2.1"];
     </script>
 
 

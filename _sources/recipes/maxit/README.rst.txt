@@ -19,13 +19,13 @@ maxit
    :recipe: /`maxit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxit/meta.yaml>`_
 
    MAXIT assists in the processing and curation of macromolecular structure data. MAXIT can\:
-   \- Read and write PDB and mmCIF format files\, and translate between file formats.
-   \- Perform consistency checks on coordinates\, sequence\, and crystal data.
-   \- Automatically construct\, transform\, and merge information between formats
-   \- Align residue numbering in the coordinates with the sequence
-   \- Reorder and rename atoms in standard and nonstandard residues and ligands according to the Chemical Component Dictionary
-   \- Assign ligands the same chain IDs as the adjacent polymers
-   \- Detect missing or additional atoms
+     \- Read and write PDB and mmCIF format files\, and translate between file formats.
+     \- Perform consistency checks on coordinates\, sequence\, and crystal data.
+     \- Automatically construct\, transform\, and merge information between formats
+     \- Align residue numbering in the coordinates with the sequence
+     \- Reorder and rename atoms in standard and nonstandard residues and ligands according to the Chemical Component Dictionary
+     \- Assign ligands the same chain IDs as the adjacent polymers
+     \- Detect missing or additional atoms
 
 
 
@@ -37,13 +37,14 @@ maxit
       
       
 
-      ``11.200-0``
+      ``11.200-1``,  ``11.200-0``
 
       
 
    
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
+   :depends tcsh: 
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +92,7 @@ maxit
 
     <script>
         var package = "maxit";
-        var versions = ["11.200"];
+        var versions = ["11.200","11.200"];
     </script>
 
 
