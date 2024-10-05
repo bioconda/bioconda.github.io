@@ -27,7 +27,7 @@ snakemake-interface-report-plugins
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -81,7 +81,7 @@ snakemake-interface-report-plugins
 
     <script>
         var package = "snakemake-interface-report-plugins";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

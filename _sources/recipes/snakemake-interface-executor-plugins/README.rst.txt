@@ -28,10 +28,10 @@ snakemake-interface-executor-plugins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>9.2.0-0</code>,  <code>9.1.1-0</code>,  <code>9.1.0-0</code>,  <code>9.0.2-0</code>,  <code>9.0.1-0</code>,  <code>9.0.0-0</code>,  <code>8.2.0-0</code>,  <code>8.1.3-0</code>,  <code>8.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>9.3.1-0</code>,  <code>9.2.0-0</code>,  <code>9.1.1-0</code>,  <code>9.1.0-0</code>,  <code>9.0.2-0</code>,  <code>9.0.1-0</code>,  <code>9.0.0-0</code>,  <code>8.2.0-0</code>,  <code>8.1.3-0</code>,  </span></summary>
       
 
-      ``9.2.0-0``,  ``9.1.1-0``,  ``9.1.0-0``,  ``9.0.2-0``,  ``9.0.1-0``,  ``9.0.0-0``,  ``8.2.0-0``,  ``8.1.3-0``,  ``8.1.2-0``,  ``8.1.1-0``,  ``8.1.0-0``,  ``8.0.2-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-0``,  ``6.0.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
+      ``9.3.1-0``,  ``9.2.0-0``,  ``9.1.1-0``,  ``9.1.0-0``,  ``9.0.2-0``,  ``9.0.1-0``,  ``9.0.0-0``,  ``8.2.0-0``,  ``8.1.3-0``,  ``8.1.2-0``,  ``8.1.1-0``,  ``8.1.0-0``,  ``8.0.2-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-0``,  ``6.0.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ snakemake-interface-executor-plugins
    
    :depends argparse-dataclass: ``>=2.0.0,<3.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
-   :depends snakemake-interface-common: ``>=1.12.0,<2.0.0``
+   :depends snakemake-interface-common: ``>=1.17.4,<2.0.0``
    :depends throttler: ``>=1.2.2,<2.0.0``
    :requirements:
 
@@ -91,7 +91,7 @@ snakemake-interface-executor-plugins
 
     <script>
         var package = "snakemake-interface-executor-plugins";
-        var versions = ["9.2.0","9.1.1","9.1.0","9.0.2","9.0.1"];
+        var versions = ["9.3.1","9.2.0","9.1.1","9.1.0","9.0.2"];
     </script>
 
 

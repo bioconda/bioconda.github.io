@@ -12,6 +12,7 @@ tidk
 
    Identify and find telomeres\, or telomeric repeats in a genome.
 
+
    :homepage: https://github.com/tolkit/telomeric-identifier
    :license: MIT / MIT
    :recipe: /`tidk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk/meta.yaml>`_
@@ -28,10 +29,10 @@ tidk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.63-0</code>,  <code>0.2.41-0</code>,  <code>0.2.31-2</code>,  <code>0.2.31-1</code>,  <code>0.2.31-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.63-1</code>,  <code>0.2.63-0</code>,  <code>0.2.41-0</code>,  <code>0.2.31-2</code>,  <code>0.2.31-1</code>,  <code>0.2.31-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.2.63-1``,  ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
       .. raw:: html
@@ -90,7 +91,7 @@ tidk
 
     <script>
         var package = "tidk";
-        var versions = ["0.2.63","0.2.41","0.2.31","0.2.31","0.2.31"];
+        var versions = ["0.2.63","0.2.63","0.2.41","0.2.31","0.2.31"];
     </script>
 
 
