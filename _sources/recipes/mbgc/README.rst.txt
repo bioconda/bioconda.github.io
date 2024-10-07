@@ -10,11 +10,12 @@ mbgc
    :replaces_section_title:
    :noindex:
 
-   A tool for compressing collection of genomes in FASTA format
+   A tool for compressing collection of genomes in FASTA format.
 
    :homepage: https://github.com/kowallus/mbgc
-   :license: GPL / GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mbgc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mbgc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mbgc/meta.yaml>`_
+   :links: doi: :doi:`10.1093/gigascience/giab099`
 
    
 
@@ -27,13 +28,15 @@ mbgc
       
       
 
-      ``2.0.1-0``,  ``2.0-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +84,7 @@ mbgc
 
     <script>
         var package = "mbgc";
-        var versions = ["2.0.1","2.0","1.2.1","1.2.1","1.2.1"];
+        var versions = ["2.0.1","2.0.1","2.0","1.2.1","1.2.1"];
     </script>
 
 
