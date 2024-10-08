@@ -501,7 +501,7 @@ However, make sure to include the license files in the package (see below).
 Lastly, there are some Cargo flags that are recommended for making the build process 
 as reproducible as possible across different systems. |locked|_ ensures the builds is 
 deterministic by asserting that the exact same dependencies and versions are used as in 
-the ``Cargo.lock`` file. |no-track|_ to prevent Cargo from tracking the installed binaries, 
+the ``Cargo.lock`` file. |no-track|_ prevents Cargo from tracking the installed binaries, 
 ensuring a clean and reproducible build environment for the package. ``--root $PREFIX`` 
 to install the package into the correct place in the Conda environment. ``--path`` to 
 specify the path to the package source code (usually the current directory ``.``).
