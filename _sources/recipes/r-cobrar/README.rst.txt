@@ -29,7 +29,7 @@ r-cobrar
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -91,7 +91,7 @@ r-cobrar
 
     <script>
         var package = "r-cobrar";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0"];
     </script>
 
 

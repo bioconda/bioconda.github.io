@@ -10,10 +10,10 @@ parebrick
    :replaces_section_title:
    :noindex:
 
-   A bioinf tool for finding genome rearrangements in bacterial genomes
+   A bioinf tool for finding genome rearrangements in bacterial genomes.
 
    :homepage: https://github.com/ctlab/parallel-rearrangements
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`parebrick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parebrick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parebrick/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ parebrick
       
       
 
-      ``0.5.5-0``,  ``0.4-0``,  ``0.3.7-0``
+      ``0.5.7-0``,  ``0.5.5-0``,  ``0.4-0``,  ``0.3.7-0``
 
       
 
@@ -35,9 +35,9 @@ parebrick
    :depends bg: 
    :depends ete3: 
    :depends pyqt: 
-   :depends python: ``>=3.6,<4.0``
+   :depends python: ``>=3.6,<3.9``
    :depends scikit-learn: 
-   :depends seaborn: ``>=0.11.0``
+   :depends seaborn-base: ``>=0.11.0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ parebrick
 
     <script>
         var package = "parebrick";
-        var versions = ["0.5.5","0.4","0.3.7"];
+        var versions = ["0.5.7","0.5.5","0.4","0.3.7"];
     </script>
 
 

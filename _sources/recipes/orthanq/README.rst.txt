@@ -28,10 +28,10 @@ orthanq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-2</code>,  <code>1.7.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.9-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-2</code>,  </span></summary>
       
 
-      ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -43,19 +43,20 @@ orthanq
    :depends bwa: ``>=0.7.18,<0.8.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends clangdev: 
+   :depends coin-or-cbc: ``>=2.10.12,<2.11.0a0``
    :depends coincbc: 
    :depends fontconfig: ``>=2.14.2,<3.0a0``
    :depends fonts-conda-ecosystem: 
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends hdf5: ``1.10.5.*``
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends htslib: ``>=1.20,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minimap2: ``>=2.28,<3.0a0``
-   :depends openssl: ``>=3.3.1,<4.0a0``
+   :depends openssl: ``>=3.3.2,<4.0a0``
    :depends samtools: ``>=1.19.2,<2.0a0``
    :depends varlociraptor: ``>=8.4.7,<9.0a0``
    :depends vg: ``>=1.56.0,<2.0a0``
@@ -108,7 +109,7 @@ orthanq
 
     <script>
         var package = "orthanq";
-        var versions = ["1.7.8","1.7.7","1.7.6","1.7.5","1.7.4"];
+        var versions = ["1.7.9","1.7.8","1.7.7","1.7.6","1.7.5"];
     </script>
 
 

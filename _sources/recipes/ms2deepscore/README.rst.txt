@@ -31,7 +31,7 @@ ms2deepscore
       
       
 
-      ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
+      ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
 
       
 
@@ -44,6 +44,8 @@ ms2deepscore
    :depends python: ``>=3.9``
    :depends pytorch: 
    :depends scikit-learn: 
+   :depends tensorboard: 
+   :depends torchvision: 
    :depends tqdm: 
    :requirements:
 
@@ -92,7 +94,7 @@ ms2deepscore
 
     <script>
         var package = "ms2deepscore";
-        var versions = ["2.0.0","1.0.0","0.5.0","0.4.0","0.3.0.1"];
+        var versions = ["2.1.0","2.0.0","1.0.0","0.5.0","0.4.0"];
     </script>
 
 

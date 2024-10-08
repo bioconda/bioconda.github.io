@@ -12,8 +12,8 @@ fastaptamer
 
    A Bioinformatic Toolkit for High\-Throughput Sequence Analysis of Combinatorial Selections
 
-   :homepage: http://burkelab.missouri.edu/fastaptamer.html
-   :license: GNU General Public License v3.0
+   :homepage: https://burkelab.missouri.edu/fastaptamer.html
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`fastaptamer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastaptamer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastaptamer/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ fastaptamer
       
       
 
-      ``1.0.14-1``,  ``1.0.14-0``
+      ``1.0.16-0``,  ``1.0.14-1``,  ``1.0.14-0``
 
       
 
@@ -80,7 +80,7 @@ fastaptamer
 
     <script>
         var package = "fastaptamer";
-        var versions = ["1.0.14","1.0.14"];
+        var versions = ["1.0.16","1.0.14","1.0.14"];
     </script>
 
 

@@ -27,14 +27,15 @@ pgscatalog.core
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.1-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
    :depends httpx: ``>=0.26.0,<0.27.0``
    :depends natsort: ``>=8.4.0,<9.0.0``
-   :depends pyliftover: ``>=0.4.0,<0.5.0``
+   :depends pydantic: ``>=2.9.0,<3.0.0``
+   :depends pyliftover: ``>=0.4.1,<0.5.0``
    :depends python: ``>=3.10``
    :depends python-zlib-ng: 
    :depends tenacity: ``>=8.2.3,<9.0.0``
@@ -87,7 +88,7 @@ pgscatalog.core
 
     <script>
         var package = "pgscatalog.core";
-        var versions = ["0.2.2","0.2.1"];
+        var versions = ["0.3.1","0.2.2","0.2.1"];
     </script>
 
 

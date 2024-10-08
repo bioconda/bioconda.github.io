@@ -17,6 +17,7 @@ breseq
    
    :license: GPL / GPL-2.0-or-later
    :recipe: /`breseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breseq/meta.yaml>`_
+   :links: biotools: :biotools:`breseq`, biotools: :biotools:`breseq_bam2aln`, biotools: :biotools:`breseq_bam2cov`, usegalaxy-eu: :usegalaxy-eu:`breseq`
 
    
 
@@ -30,10 +31,10 @@ breseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.39.0-1</code>,  <code>0.39.0-0</code>,  <code>0.38.3-0</code>,  <code>0.38.2-0</code>,  <code>0.38.1-1</code>,  <code>0.38.1-0</code>,  <code>0.37.1-1</code>,  <code>0.37.1-0</code>,  <code>0.37.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.39.0-2</code>,  <code>0.39.0-1</code>,  <code>0.39.0-0</code>,  <code>0.38.3-0</code>,  <code>0.38.2-0</code>,  <code>0.38.1-1</code>,  <code>0.38.1-0</code>,  <code>0.37.1-1</code>,  <code>0.37.1-0</code>,  </span></summary>
       
 
-      ``0.39.0-1``,  ``0.39.0-0``,  ``0.38.3-0``,  ``0.38.2-0``,  ``0.38.1-1``,  ``0.38.1-0``,  ``0.37.1-1``,  ``0.37.1-0``,  ``0.37.0-0``,  ``0.36.1-1``,  ``0.36.1-0``,  ``0.36.0-0``,  ``0.35.7-0``,  ``0.35.6-0``,  ``0.35.5-1``,  ``0.35.5-0``,  ``0.35.4-0``,  ``0.35.3-0``,  ``0.35.2-0``,  ``0.35.1-0``,  ``0.35.0-0``,  ``0.34.1-0``,  ``0.34.0-0``,  ``0.33.2-0``,  ``0.33.0-0``,  ``0.31.1-3``,  ``0.31.1-2``,  ``0.31.1-1``,  ``0.29.0-0``
+      ``0.39.0-2``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.38.3-0``,  ``0.38.2-0``,  ``0.38.1-1``,  ``0.38.1-0``,  ``0.37.1-1``,  ``0.37.1-0``,  ``0.37.0-0``,  ``0.36.1-1``,  ``0.36.1-0``,  ``0.36.0-0``,  ``0.35.7-0``,  ``0.35.6-0``,  ``0.35.5-1``,  ``0.35.5-0``,  ``0.35.4-0``,  ``0.35.3-0``,  ``0.35.2-0``,  ``0.35.1-0``,  ``0.35.0-0``,  ``0.34.1-0``,  ``0.34.0-0``,  ``0.33.2-0``,  ``0.33.0-0``,  ``0.31.1-3``,  ``0.31.1-2``,  ``0.31.1-1``,  ``0.29.0-0``
 
       
       .. raw:: html
@@ -43,12 +44,11 @@ breseq
 
    
    :depends bowtie2: ``>=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends r-base: 
    :depends r-cairo: 
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +96,7 @@ breseq
 
     <script>
         var package = "breseq";
-        var versions = ["0.39.0","0.39.0","0.38.3","0.38.2","0.38.1"];
+        var versions = ["0.39.0","0.39.0","0.39.0","0.38.3","0.38.2"];
     </script>
 
 
