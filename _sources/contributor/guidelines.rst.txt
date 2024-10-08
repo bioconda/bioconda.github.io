@@ -504,7 +504,7 @@ deterministic by asserting that the exact same dependencies and versions are use
 the ``Cargo.lock`` file. |no-track|_ prevents Cargo from tracking the installed binaries, 
 ensuring a clean and reproducible build environment for the package. ``--root $PREFIX`` 
 installs the package into the correct place in the Conda environment. ``--path``
-specify the path to the package source code (usually the current directory ``.``).
+specifies the path to the package source code (usually the current directory ``.``).
 
 .. |locked| replace:: ``--locked``
 .. _locked: https://doc.rust-lang.org/cargo/commands/cargo-install.html#manifest-options
