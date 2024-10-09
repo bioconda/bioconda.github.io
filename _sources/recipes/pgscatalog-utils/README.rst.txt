@@ -29,14 +29,14 @@ pgscatalog-utils
       
       
 
-      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
 
    
-   :depends pgscatalog.calc: ``>=0.2.1,<0.3.0``
-   :depends pgscatalog.core: ``>=0.2.1,<0.3.0``
-   :depends pgscatalog.match: ``>=0.2.1,<0.3.0``
+   :depends pgscatalog.calc: ``>=0.3.0,<0.4.0``
+   :depends pgscatalog.core: ``>=0.3.1,<0.4.0``
+   :depends pgscatalog.match: ``>=0.3.3,<0.4.0``
    :depends python: ``>=3.10.0,<4.0.0``
    :requirements:
 
@@ -85,7 +85,7 @@ pgscatalog-utils
 
     <script>
         var package = "pgscatalog-utils";
-        var versions = ["1.4.0","1.3.1","1.3.0","1.2.0","1.1.2"];
+        var versions = ["1.4.1","1.4.1","1.4.0","1.3.1","1.3.0"];
     </script>
 
 

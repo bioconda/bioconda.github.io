@@ -28,10 +28,10 @@ pggb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  </span></summary>
       
 
-      ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ pggb
    :depends smoothxg: ``0.7.4``
    :depends tabix: 
    :depends time: 
-   :depends vg: ``1.40.0.*``
+   :depends vg: ``1.59.0.*``
    :depends wfmash: ``0.13.0``
    :requirements:
 
@@ -101,7 +101,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.6.0","0.5.4","0.5.3","0.5.3","0.5.3"];
+        var versions = ["0.6.0","0.6.0","0.5.4","0.5.3","0.5.3"];
     </script>
 
 

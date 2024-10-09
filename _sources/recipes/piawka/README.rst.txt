@@ -33,14 +33,13 @@ piawka
       
       
 
-      ``0.7.10-0``
+      ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.10-0``
 
       
 
    
    :depends bash: 
-   :depends mawk: ``1.3.4.*``
-   :depends parallel: 
+   :depends gawk: ``>=5.0.0``
    :depends tabix: 
    :requirements:
 
@@ -89,7 +88,7 @@ piawka
 
     <script>
         var package = "piawka";
-        var versions = ["0.7.10"];
+        var versions = ["0.8.2","0.8.1","0.7.10"];
     </script>
 
 

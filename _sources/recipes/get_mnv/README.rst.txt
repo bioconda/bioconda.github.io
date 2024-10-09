@@ -13,7 +13,7 @@ get_mnv
    Tool to identify Multi\-Nucleotide Variants \(MNVs\) in genomic sequences.
 
    :homepage: https://github.com/PathoGenOmics-Lab/get_mnv
-   :license: GPL3 / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`get_mnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/get_mnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/get_mnv/meta.yaml>`_
 
    get\_MNV is a tool designed to identify Multi\-Nucleotide Variants \(MNVs\) within the same codon in genomic sequences\, providing more accurate annotation for genomic data.
@@ -28,7 +28,7 @@ get_mnv
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -88,7 +88,7 @@ get_mnv
 
     <script>
         var package = "get_mnv";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

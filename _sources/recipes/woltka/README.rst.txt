@@ -13,7 +13,7 @@ woltka
    versatile meta\-omic data classifier
 
    :homepage: https://github.com/qiyunzhu/woltka
-   :license: BSD / BSD-3-Clause
+   :license: BSD-3-Clause
    :recipe: /`woltka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/woltka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/woltka/meta.yaml>`_
 
    
@@ -27,14 +27,14 @@ woltka
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends biom-format: 
-   :depends python: 
-   :depends setuptools: 
+   :depends numba: 
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ woltka
 
     <script>
         var package = "woltka";
-        var versions = ["0.1.6","0.1.5","0.1.4"];
+        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

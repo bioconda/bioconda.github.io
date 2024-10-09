@@ -29,13 +29,13 @@ mgikit
       
       
 
-      ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ mgikit
 
     <script>
         var package = "mgikit";
-        var versions = ["0.1.6","0.1.5","0.1.5"];
+        var versions = ["0.1.7","0.1.6","0.1.5","0.1.5"];
     </script>
 
 

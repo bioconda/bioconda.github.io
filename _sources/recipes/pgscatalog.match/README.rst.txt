@@ -29,12 +29,12 @@ pgscatalog.match
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends pgscatalog.core: ``>=0.2.1,<0.3.0``
+   :depends pgscatalog.core: ``>=0.3.0,<0.4.0``
    :depends polars: ``0.20.30.*``
    :depends pyarrow: ``>=15.0.0,<16.0.0``
    :depends python: ``>=3.10``
@@ -85,7 +85,7 @@ pgscatalog.match
 
     <script>
         var package = "pgscatalog.match";
-        var versions = ["0.3.2","0.3.1","0.3.0","0.2.3","0.2.2"];
+        var versions = ["0.3.3","0.3.2","0.3.1","0.3.0","0.2.3"];
     </script>
 
 

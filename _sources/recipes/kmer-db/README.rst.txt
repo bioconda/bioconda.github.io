@@ -26,16 +26,20 @@ kmer-db
    :versions:
       
       
+      .. raw:: html
 
-      ``1.11.1-2``,  ``1.11.1-1``,  ``1.11.1-0``,  ``1.9.4-1``,  ``1.9.4-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.7.6-1``,  ``1.7.6-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>1.11.1-2</code>,  <code>1.11.1-1</code>,  <code>1.11.1-0</code>,  <code>1.9.4-1</code>,  <code>1.9.4-0</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.7.6-1</code>,  </span></summary>
+      
 
+      ``2.2.2-0``,  ``1.11.1-2``,  ``1.11.1-1``,  ``1.11.1-0``,  ``1.9.4-1``,  ``1.9.4-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.7.6-1``,  ``1.7.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ kmer-db
 
     <script>
         var package = "kmer-db";
-        var versions = ["1.11.1","1.11.1","1.11.1","1.9.4","1.9.4"];
+        var versions = ["2.2.2","1.11.1","1.11.1","1.11.1","1.9.4"];
     </script>
 
 

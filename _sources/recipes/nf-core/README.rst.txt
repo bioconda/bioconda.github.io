@@ -12,9 +12,11 @@ nf-core
 
    Python package with helper tools for the nf\-core community.
 
-   :homepage: http://nf-co.re/
+   :homepage: https://nf-co.re
+   :developer docs: https://github.com/nf-core/tools
    :license: MIT / MIT
    :recipe: /`nf-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nf-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nf-core/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41587-020-0439-x`
 
    
 
@@ -28,10 +30,10 @@ nf-core
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.1-1</code>,  <code>2.14.1-0</code>,  <code>2.13.1-0</code>,  <code>2.13-0</code>,  <code>2.12.1-0</code>,  <code>2.12-0</code>,  <code>2.11.1-0</code>,  <code>2.11-0</code>,  <code>2.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.14.1-1</code>,  <code>2.14.1-0</code>,  <code>2.13.1-0</code>,  <code>2.13-0</code>,  <code>2.12.1-0</code>,  <code>2.12-0</code>,  <code>2.11.1-0</code>,  <code>2.11-0</code>,  </span></summary>
       
 
-      ``2.14.1-1``,  ``2.14.1-0``,  ``2.13.1-0``,  ``2.13-0``,  ``2.12.1-0``,  ``2.12-0``,  ``2.11.1-0``,  ``2.11-0``,  ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7.2-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6-1``,  ``2.6-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.14-0``,  ``1.13.3-0``,  ``1.13.2-0``,  ``1.13.1-0``,  ``1.13-0``,  ``1.12.1-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
+      ``3.0.0-0``,  ``2.14.1-1``,  ``2.14.1-0``,  ``2.13.1-0``,  ``2.13-0``,  ``2.12.1-0``,  ``2.12-0``,  ``2.11.1-0``,  ``2.11-0``,  ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7.2-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6-1``,  ``2.6-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.14-0``,  ``1.13.3-0``,  ``1.13.2-0``,  ``1.13.1-0``,  ``1.13-0``,  ``1.12.1-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -42,29 +44,30 @@ nf-core
    
    :depends click: 
    :depends filetype: 
-   :depends galaxy-tool-util: 
    :depends git: 
    :depends gitpython: 
    :depends jinja2: 
-   :depends jsonschema: ``>=3.0``
+   :depends jsonschema: ``>=4.0``
    :depends markdown: ``>=3.3``
-   :depends nextflow: ``>=23.04.0``
+   :depends nextflow: ``>=24.04.4``
    :depends nf-test: 
    :depends packaging: 
    :depends pillow: 
    :depends pre-commit: 
-   :depends prompt_toolkit: ``>=3.0.3``
-   :depends pytest: ``>=7.0.0``
-   :depends pytest-workflow: ``>=1.6.0``
+   :depends prompt_toolkit: ``>=3.0.36``
+   :depends pydantic: ``>=2.2.1``
+   :depends pygithub: 
    :depends python: ``>=3.8``
    :depends pyyaml: 
-   :depends questionary: ``>=1.8.0``
+   :depends questionary: ``>=2.0.1``
    :depends refgenie: 
    :depends requests: 
    :depends requests-cache: 
    :depends rich: ``>=13.3.1``
-   :depends rich-click: ``>=1.6.1``
+   :depends rich-click: ``1.8.*``
+   :depends ruamel.yaml: 
    :depends tabulate: 
+   :depends textual: ``0.71.0``
    :depends trogon: 
    :requirements:
 
@@ -113,7 +116,7 @@ nf-core
 
     <script>
         var package = "nf-core";
-        var versions = ["2.14.1","2.14.1","2.13.1","2.13","2.12.1"];
+        var versions = ["3.0.0","2.14.1","2.14.1","2.13.1","2.13"];
     </script>
 
 

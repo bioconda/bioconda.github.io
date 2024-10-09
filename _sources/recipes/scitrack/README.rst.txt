@@ -13,7 +13,7 @@ scitrack
    SciTrack provides basic logging capabilities to track scientific computations.
 
    :homepage: https://github.com/HuttleyLab/scitrack
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`scitrack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scitrack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scitrack/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ scitrack
       
       
 
-      ``2021.5.3-0``
+      ``2024.10.8-0``,  ``2021.5.3-0``
 
       
 
    
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ scitrack
 
     <script>
         var package = "scitrack";
-        var versions = ["2021.5.3"];
+        var versions = ["2024.10.8","2021.5.3"];
     </script>
 
 

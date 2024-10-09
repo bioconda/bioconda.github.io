@@ -6,7 +6,7 @@
 disco
 =====
 
-.. conda:recipe:: disco/1.2
+.. conda:recipe:: disco/1.0
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ disco
 
    :homepage: http://disco.omicsbio.org/
    :license: GPL-3.0
-   :recipe: /`disco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco>`_/`1.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.2/meta.yaml>`_
+   :recipe: /`disco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco>`_/`1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0/meta.yaml>`_
 
    
 

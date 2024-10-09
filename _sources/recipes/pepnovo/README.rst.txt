@@ -28,13 +28,13 @@ pepnovo
       
       
 
-      ``20101117-3``,  ``20101117-2``,  ``20101117-1``,  ``20101117-0``
+      ``20101117-4``,  ``20101117-3``,  ``20101117-2``,  ``20101117-1``,  ``20101117-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ pepnovo
 
     <script>
         var package = "pepnovo";
-        var versions = ["20101117","20101117","20101117","20101117"];
+        var versions = ["20101117","20101117","20101117","20101117","20101117"];
     </script>
 
 
