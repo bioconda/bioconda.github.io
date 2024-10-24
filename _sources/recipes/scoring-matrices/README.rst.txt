@@ -29,15 +29,14 @@ scoring-matrices
       
       
 
-      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
-   :depends libgcc: 
-   :depends libgcc-ng: ``>=12``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends libgcc: ``>=12``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +84,7 @@ scoring-matrices
 
     <script>
         var package = "scoring-matrices";
-        var versions = ["0.2.2","0.2.2","0.2.1","0.2.1","0.2.0"];
+        var versions = ["0.3.0","0.2.2","0.2.2","0.2.1","0.2.1"];
     </script>
 
 

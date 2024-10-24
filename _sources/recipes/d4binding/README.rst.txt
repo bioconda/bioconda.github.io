@@ -10,11 +10,11 @@ d4binding
    :replaces_section_title:
    :noindex:
 
-   The C\/C\+\+ binding for the D4 file format
+   The C\/C\+\+ binding for the D4 file format.
 
 
    :homepage: https://github.com/38/d4-format
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`d4binding <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4binding>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4binding/meta.yaml>`_
 
    
@@ -28,13 +28,13 @@ d4binding
       
       
 
-      ``0.3.4-0``
+      ``0.3.11-0``,  ``0.3.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends starcode: 
    :requirements:
 
@@ -83,7 +83,7 @@ d4binding
 
     <script>
         var package = "d4binding";
-        var versions = ["0.3.4"];
+        var versions = ["0.3.11","0.3.4"];
     </script>
 
 

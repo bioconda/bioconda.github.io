@@ -10,13 +10,13 @@ dnmtools
    :replaces_section_title:
    :noindex:
 
-   dnmtools is a set of tools for analyzing DNA methylation data from bisulfite sequencing
+   dnmtools is a set of tools for analyzing DNA methylation data from bisulfite sequencing.
 
 
    :homepage: https://github.com/smithlabcode/dnmtools
-   :documentation: https://dnmtools.readthedocs.io/
+   :documentation: https://dnmtools.readthedocs.io
    
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dnmtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnmtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnmtools/meta.yaml>`_
 
    
@@ -29,17 +29,26 @@ dnmtools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.3-0``,  ``1.4.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
@@ -88,7 +97,7 @@ dnmtools
 
     <script>
         var package = "dnmtools";
-        var versions = ["1.4.3","1.4.2","1.3.0","1.3.0","1.2.1"];
+        var versions = ["1.4.4","1.4.3","1.4.2","1.3.0","1.3.0"];
     </script>
 
 

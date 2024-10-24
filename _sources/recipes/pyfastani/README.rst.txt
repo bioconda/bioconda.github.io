@@ -10,12 +10,12 @@ pyfastani
    :replaces_section_title:
    :noindex:
 
-   Cython bindings and Python interface to FastANI\, a method for fast whole\-genome similarity estimation..
+   Cython bindings and Python interface to FastANI\, a method for fast whole\-genome similarity estimation.
 
    :homepage: https://github.com/althonos/pyfastani
-   :documentation: https://pyfastani.readthedocs.org/
+   :documentation: https://pyfastani.readthedocs.org
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pyfastani <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfastani>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfastani/meta.yaml>`_
 
    
@@ -29,17 +29,16 @@ pyfastani
       
       
 
-      ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.1-3``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.1-3``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +86,7 @@ pyfastani
 
     <script>
         var package = "pyfastani";
-        var versions = ["0.5.1","0.5.1","0.4.1","0.4.1","0.4.1"];
+        var versions = ["0.6.0","0.5.1","0.5.1","0.4.1","0.4.1"];
     </script>
 
 

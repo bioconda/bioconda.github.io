@@ -10,10 +10,10 @@ iseq
    :replaces_section_title:
    :noindex:
 
-   iSeq is a Bash script that allows you to download sequencing data and metadata from GSA\, SRA\, ENA\, and DDBJ databases
+   iSeq is a Bash script that allows you to download sequencing data and metadata from GSA\, SRA\, ENA\, and DDBJ databases.
 
    :homepage: https://github.com/BioOmics/iSeq
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`iseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iseq/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ iseq
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ iseq
    :depends aspera-cli: 
    :depends axel: 
    :depends pigz: 
-   :depends sra-tools: ``2.11.0.*``
+   :depends sra-tools: ``>=2.11.0``
    :depends wget: 
    :requirements:
 
@@ -84,7 +84,7 @@ iseq
 
     <script>
         var package = "iseq";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.1.0","1.0.0"];
     </script>
 
 

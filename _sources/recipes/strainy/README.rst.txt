@@ -10,7 +10,7 @@ strainy
    :replaces_section_title:
    :noindex:
 
-   assembly\-based metagenomic strain phasing using long reads
+   Assembly\-based metagenomic strain phasing using long reads
 
    :homepage: https://github.com/katerinakazantseva/strainy
    :license: GPL3 / GPL-3.0-or-later
@@ -27,7 +27,7 @@ strainy
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -95,7 +95,7 @@ strainy
 
     <script>
         var package = "strainy";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.2","1.1","1.1"];
     </script>
 
 

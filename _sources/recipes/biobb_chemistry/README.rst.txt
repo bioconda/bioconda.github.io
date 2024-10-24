@@ -50,10 +50,10 @@ biobb_chemistry
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-1</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-1</code>,  <code>3.8.0-0</code>,  </span></summary>
       
 
-      ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -62,11 +62,11 @@ biobb_chemistry
       
 
    
-   :depends acpype: ``2022.7.21``
-   :depends ambertools: ``>=22.0``
-   :depends biobb_common: ``4.2.0``
+   :depends acpype: ``>=2023.10.27``
+   :depends ambertools: ``>=22.5``
+   :depends biobb_common: ``5.0.0``
    :depends openbabel: ``3.1.1``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -114,7 +114,7 @@ biobb_chemistry
 
     <script>
         var package = "biobb_chemistry";
-        var versions = ["4.2.1","4.2.0","4.1.0","4.0.0","4.0.0"];
+        var versions = ["5.0.0","4.2.1","4.2.0","4.1.0","4.0.0"];
     </script>
 
 

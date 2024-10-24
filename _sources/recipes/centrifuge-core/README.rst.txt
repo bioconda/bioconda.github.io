@@ -12,8 +12,11 @@ centrifuge-core
 
    Classifier for metagenomic sequences. Does not include evaluation scripts
 
-   :homepage: https://github.com/DaehwanKimLab/centrifuge
-   :license: GPL3
+   :homepage: http://www.ccb.jhu.edu/software/centrifuge
+   :documentation: https://genome.cshlp.org/content/26/12/1721
+   
+   :developer docs: https://github.com/DaehwanKimLab/centrifuge
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`centrifuge-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge-core/meta.yaml>`_
    :links: biotools: :biotools:`Centrifuge`, doi: :doi:`10.1101/gr.210641.116`
 
@@ -28,14 +31,14 @@ centrifuge-core
       
       
 
-      ``1.0.4.1-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.4_beta-2``,  ``1.0.4_beta-1``,  ``1.0.4_beta-0``
+      ``1.0.4.2-1``,  ``1.0.4.2-0``,  ``1.0.4.1-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.4_beta-2``,  ``1.0.4_beta-1``,  ``1.0.4_beta-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: 
    :depends python: ``>=3.6``
    :depends tar: 
@@ -88,7 +91,7 @@ centrifuge-core
 
     <script>
         var package = "centrifuge-core";
-        var versions = ["1.0.4.1","1.0.4","1.0.4","1.0.4","1.0.4_beta"];
+        var versions = ["1.0.4.2","1.0.4.2","1.0.4.1","1.0.4","1.0.4"];
     </script>
 
 

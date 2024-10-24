@@ -10,7 +10,7 @@ tides-ml
    :replaces_section_title:
    :noindex:
 
-   Tool for ORF\-calling and ORF\-classification using ML approaches
+   Tool for ORF\-calling and ORF\-classification using ML approaches.
 
    :homepage: https://github.com/xxmalcala/TIdeS
    :license: MIT / MIT
@@ -27,22 +27,22 @@ tides-ml
       
       
 
-      ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
 
    
-   :depends barrnap: ``0.9.*``
-   :depends biopython: ``1.79.*``
-   :depends cd-hit: ``4.8.*``
-   :depends diamond: ``2.1.*``
-   :depends ete3: ``3.1.2.*``
-   :depends kraken2: ``2.1.*``
-   :depends optuna: ``3.1.*``
-   :depends pandas: ``2.0.*``
+   :depends barrnap: ``>=0.9``
+   :depends biopython: ``1.79``
+   :depends cd-hit: ``>=4.8.1``
+   :depends diamond: ``>=2.1.3``
+   :depends ete3: ``>=3.1.2``
+   :depends kraken2: ``>=2.1.0``
+   :depends optuna: ``>=3.1.1``
+   :depends pandas: ``2.1.1``
    :depends python: ``>=3.7,<=3.11``
-   :depends scikit-learn: ``1.5.0.*``
-   :depends seaborn: ``0.12.2.*``
+   :depends scikit-learn: ``>=1.5.0``
+   :depends seaborn-base: ``>=0.12.2``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ tides-ml
 
     <script>
         var package = "tides-ml";
-        var versions = ["1.3.4","1.3.2","1.3.0","1.2.0","1.1.4"];
+        var versions = ["1.3.4","1.3.4","1.3.2","1.3.0","1.2.0"];
     </script>
 
 

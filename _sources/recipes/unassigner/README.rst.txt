@@ -27,7 +27,7 @@ unassigner
       
       
 
-      ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.0-0``
 
       
 
@@ -83,7 +83,7 @@ unassigner
 
     <script>
         var package = "unassigner";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.2","1.0.0"];
     </script>
 
 

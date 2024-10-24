@@ -10,10 +10,10 @@ qtlseq
    :replaces_section_title:
    :noindex:
 
-   QTL\-seq\: pipeline to identify causative mutations responsible for a phenotype
+   QTL\-seq\: pipeline to identify causative mutations responsible for a phenotype.
 
    :homepage: https://github.com/YuSugihara/QTL-seq
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`qtlseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtlseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtlseq/meta.yaml>`_
    :links: biotools: :biotools:`qtlseq`, doi: :doi:`10.1111/tpj.12105`
 
@@ -29,10 +29,10 @@ qtlseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.8-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  </span></summary>
       
 
-      ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.2.8-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ qtlseq
    :depends pandas: 
    :depends python: ``>=3.5``
    :depends samtools: ``>=1.7``
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends snpeff: 
    :depends trimmomatic: 
    :requirements:
@@ -99,7 +99,7 @@ qtlseq
 
     <script>
         var package = "qtlseq";
-        var versions = ["2.2.6","2.2.5","2.2.4","2.2.3","2.2.2"];
+        var versions = ["2.2.8","2.2.6","2.2.5","2.2.4","2.2.3"];
     </script>
 
 

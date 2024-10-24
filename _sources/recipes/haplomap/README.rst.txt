@@ -10,10 +10,10 @@ haplomap
    :replaces_section_title:
    :noindex:
 
-   Haplotype\-based computational genetic mapping
+   Haplotype\-based computational genetic mapping.
 
    :homepage: https://github.com/zqfang/haplomap
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`haplomap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplomap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplomap/meta.yaml>`_
 
    
@@ -27,14 +27,14 @@ haplomap
       
       
 
-      ``0.1.1-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +82,7 @@ haplomap
 
     <script>
         var package = "haplomap";
-        var versions = ["0.1.1","0.1.0","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.2","0.1.1","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

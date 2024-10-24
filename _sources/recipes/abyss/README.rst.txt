@@ -10,15 +10,15 @@ abyss
    :replaces_section_title:
    :noindex:
 
-   Assembly By Short Sequences \- a de novo\, parallel\, paired\-end short read sequence assembler
+   Assembly By Short Sequences \- a de novo\, parallel\, paired\-end short read sequence assembler.
 
-   :homepage: http://www.bcgsc.ca/platform/bioinfo/software/abyss
-   :documentation: https://github.com/bcgsc/abyss#readme
+   :homepage: https://www.bcgsc.ca/platform/bioinfo/software/abyss
+   :documentation: https://github.com/bcgsc/abyss/blob/v2.3.10/README.md
    
    :developer docs: https://github.com/bcgsc/abyss
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`abyss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss/meta.yaml>`_
-   :links: biotools: :biotools:`abyss`, doi: :doi:`10.1101/gr.214346.116`, doi: :doi:`10.1101/gr.089532.108`
+   :links: biotools: :biotools:`abyss`, usegalaxy-eu: :usegalaxy-eu:`abyss-pe`, doi: :doi:`10.1101/gr.214346.116`, doi: :doi:`10.1101/gr.089532.108`
 
    
 
@@ -32,10 +32,10 @@ abyss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.9-0</code>,  <code>2.3.8-1</code>,  <code>2.3.8-0</code>,  <code>2.3.7-4</code>,  <code>2.3.7-3</code>,  <code>2.3.7-2</code>,  <code>2.3.7-1</code>,  <code>2.3.7-0</code>,  <code>2.3.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.10-0</code>,  <code>2.3.9-0</code>,  <code>2.3.8-1</code>,  <code>2.3.8-0</code>,  <code>2.3.7-4</code>,  <code>2.3.7-3</code>,  <code>2.3.7-2</code>,  <code>2.3.7-1</code>,  <code>2.3.7-0</code>,  </span></summary>
       
 
-      ``2.3.9-0``,  ``2.3.8-1``,  ``2.3.8-0``,  ``2.3.7-4``,  ``2.3.7-3``,  ``2.3.7-2``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-2``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-5``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.9.0-7``,  ``1.9.0-6``,  ``1.9.0-5``,  ``1.9.0-4``,  ``1.9.0-3``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.5.2-5``,  ``1.5.2-4``,  ``1.5.2-3``,  ``1.5.2-2``,  ``1.5.2-1``,  ``1.5.2-0``
+      ``2.3.10-0``,  ``2.3.9-0``,  ``2.3.8-1``,  ``2.3.8-0``,  ``2.3.7-4``,  ``2.3.7-3``,  ``2.3.7-2``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-2``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-5``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.9.0-7``,  ``1.9.0-6``,  ``1.9.0-5``,  ``1.9.0-4``,  ``1.9.0-3``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.5.2-5``,  ``1.5.2-4``,  ``1.5.2-3``,  ``1.5.2-2``,  ``1.5.2-1``,  ``1.5.2-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ abyss
       
 
    
+   :depends boost-cpp: 
    :depends btllib: ``>=1.7.3,<2.0a0``
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
@@ -98,7 +99,7 @@ abyss
 
     <script>
         var package = "abyss";
-        var versions = ["2.3.9","2.3.8","2.3.8","2.3.7","2.3.7"];
+        var versions = ["2.3.10","2.3.9","2.3.8","2.3.8","2.3.7"];
     </script>
 
 

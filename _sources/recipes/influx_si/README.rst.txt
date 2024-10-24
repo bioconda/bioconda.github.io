@@ -32,10 +32,10 @@ influx_si
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.0.4-0</code>,  <code>7.0.3-0</code>,  <code>7.0.2-0</code>,  <code>7.0.1-0</code>,  <code>7.0-0</code>,  <code>6.1-0</code>,  <code>6.0.4-1</code>,  <code>6.0.4-0</code>,  <code>6.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.1.0-0</code>,  <code>7.0.4-0</code>,  <code>7.0.3-0</code>,  <code>7.0.2-0</code>,  <code>7.0.1-0</code>,  <code>7.0-0</code>,  <code>6.1-0</code>,  <code>6.0.4-1</code>,  <code>6.0.4-0</code>,  </span></summary>
       
 
-      ``7.0.4-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-0``,  ``7.0-0``,  ``6.1-0``,  ``6.0.4-1``,  ``6.0.4-0``,  ``6.0.1-0``,  ``6.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``
+      ``7.1.0-0``,  ``7.0.4-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-0``,  ``7.0-0``,  ``6.1-0``,  ``6.0.4-1``,  ``6.0.4-0``,  ``6.0.1-0``,  ``6.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``
 
       
       .. raw:: html
@@ -45,8 +45,9 @@ influx_si
 
    
    :depends kvh: 
+   :depends packaging: 
    :depends pandas: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.5``
    :depends python-libsbml: 
    :depends r-arrapply: 
    :depends r-base: 
@@ -60,6 +61,7 @@ influx_si
    :depends r-rmumps: ``>=5.2.1_12``
    :depends r-slam: 
    :depends scipy: 
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
@@ -107,7 +109,7 @@ influx_si
 
     <script>
         var package = "influx_si";
-        var versions = ["7.0.4","7.0.3","7.0.2","7.0.1","7.0"];
+        var versions = ["7.1.0","7.0.4","7.0.3","7.0.2","7.0.1"];
     </script>
 
 

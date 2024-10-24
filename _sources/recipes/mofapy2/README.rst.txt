@@ -27,7 +27,7 @@ mofapy2
       
       
 
-      ``0.7.1-0``
+      ``0.7.2-0``,  ``0.7.1-0``
 
       
 
@@ -86,7 +86,7 @@ mofapy2
 
     <script>
         var package = "mofapy2";
-        var versions = ["0.7.1"];
+        var versions = ["0.7.2","0.7.1"];
     </script>
 
 

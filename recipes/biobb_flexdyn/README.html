@@ -8,11 +8,11 @@
     <title>Package Recipe &#39;biobb_flexdyn&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
-    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=fd3f3429" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=48720263" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
     <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_static/vega.min.js?v=d54ef115"></script>
     <script src="../../_static/vega-lite.min.js?v=4fab2bf4"></script>
@@ -83,7 +83,7 @@
 <p>### Introduction
 Biobb_flexdyn allows the calculation of protein conformational transitions using the GOdMD package.
 Biobb (BioExcel building blocks) packages are Python building blocks that
-create   new layer of compatibility and interoperability over popular
+create new layer of compatibility and interoperability over popular
 bioinformatics tools.
 The latest documentation of this package can be found in our readthedocs site:
 [latest API documentation](http://biobb_ml.readthedocs.io/en/latest/).</p>
@@ -103,10 +103,10 @@ Licensed under the
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/biobb_flexdyn"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/biobb_flexdyn.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/biobb_flexdyn"><img alt="docker_biobb_flexdyn" src="https://quay.io/repository/biocontainers/biobb_flexdyn/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">5.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.9.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends biobb_common<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4.2.0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">5.0.0</span></code></p>
 </dd>
 <dt class="field-odd">depends concoord<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -117,10 +117,13 @@ Licensed under the
 <dt class="field-even">depends prody<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.12</span></code></p>
 </dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.13.0,&lt;1.14.0</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -155,7 +158,7 @@ others.</p>
 
 <script>
     var package = "biobb_flexdyn";
-    var versions = ["4.2.0","4.1.0","4.0.3","4.0.2","4.0.1"];
+    var versions = ["5.0.0","4.2.0","4.1.0","4.0.3","4.0.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -307,7 +310,7 @@ others.</p>
       &#169;2016-2024, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |

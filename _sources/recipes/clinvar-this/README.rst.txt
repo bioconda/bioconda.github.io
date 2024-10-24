@@ -10,7 +10,7 @@ clinvar-this
    :replaces_section_title:
    :noindex:
 
-   ClinVar Submission API Made Easy
+   ClinVar Submission API Made Easy.
 
    :homepage: https://github.com/bihealth/clinvar-this
    :license: MIT / MIT
@@ -28,10 +28,10 @@ clinvar-this
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.2-0</code>,  <code>0.18.0-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.5-0</code>,  <code>0.15.4-0</code>,  <code>0.14.6-0</code>,  <code>0.14.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.0-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.5-0</code>,  <code>0.15.4-0</code>,  <code>0.14.6-0</code>,  </span></summary>
       
 
-      ``0.18.2-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.5-0``,  ``0.15.4-0``,  ``0.14.6-0``,  ``0.14.5-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.5-0``,  ``0.15.4-0``,  ``0.14.6-0``,  ``0.14.5-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,17 +40,19 @@ clinvar-this
       
 
    
-   :depends attrs: 
-   :depends cattrs: 
    :depends click: 
+   :depends httpx: ``>=0.24``
    :depends jsonschema: 
    :depends logzero: 
+   :depends protobuf: ``>=3.20.2,<6.0``
+   :depends pydantic: ``>=2.5``
    :depends pysam: ``>=0.10.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.6``
    :depends python-dateutil: 
-   :depends requests: 
    :depends tabulate: 
    :depends toml: 
+   :depends tqdm: ``>=4.0``
+   :depends xmltodict: ``>=0.13.0,<0.15``
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +100,7 @@ clinvar-this
 
     <script>
         var package = "clinvar-this";
-        var versions = ["0.18.2","0.18.0","0.17.1","0.17.0","0.16.0"];
+        var versions = ["0.18.3","0.18.2","0.18.0","0.17.1","0.17.0"];
     </script>
 
 

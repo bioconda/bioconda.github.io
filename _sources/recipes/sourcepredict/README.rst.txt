@@ -10,10 +10,10 @@ sourcepredict
    :replaces_section_title:
    :noindex:
 
-   Classification and prediction of the origin of metagenomic samples
+   Classification and prediction of the origin of metagenomic samples.
 
    :homepage: https://github.com/maxibor/sourcepredict
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`sourcepredict <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourcepredict>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourcepredict/meta.yaml>`_
 
    
@@ -27,13 +27,13 @@ sourcepredict
       
       
 
-      ``0.5-0``
+      ``0.5.1-0``,  ``0.5-0``
 
       
 
    
    :depends ete3: ``>=3.1.1``
-   :depends numpy: ``<1.24.0``
+   :depends numpy: ``>=1.16.4``
    :depends pandas: ``>=0.24.1``
    :depends python: ``>=3.6``
    :depends scikit-bio: ``>=0.5.5``
@@ -87,7 +87,7 @@ sourcepredict
 
     <script>
         var package = "sourcepredict";
-        var versions = ["0.5"];
+        var versions = ["0.5.1","0.5"];
     </script>
 
 

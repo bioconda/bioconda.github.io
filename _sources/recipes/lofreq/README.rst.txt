@@ -10,12 +10,13 @@ lofreq
    :replaces_section_title:
    :noindex:
 
-   A fast and sensitive variant\-caller for inferring SNVs and indels from next\-generation sequencing data
+   A fast and sensitive variant\-caller for inferring SNVs and indels from next\-generation sequencing data.
 
-   :homepage: http://csb5.github.io/lofreq/
-   :license: MIT
+   :homepage: https://csb5.github.io/lofreq
+   :developer docs: https://github.com/CSB5/lofreq
+   :license: MIT / MIT
    :recipe: /`lofreq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lofreq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lofreq/meta.yaml>`_
-   :links: usegalaxy-eu: :usegalaxy-eu:`lofreq_call`
+   :links: usegalaxy-eu: :usegalaxy-eu:`lofreq_call`, biotools: :biotools:`lofreq`
 
    
 
@@ -29,10 +30,10 @@ lofreq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.5-12</code>,  <code>2.1.5-11</code>,  <code>2.1.5-10</code>,  <code>2.1.5-9</code>,  <code>2.1.5-8</code>,  <code>2.1.5-7</code>,  <code>2.1.5-6</code>,  <code>2.1.5-5</code>,  <code>2.1.5-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.5-13</code>,  <code>2.1.5-12</code>,  <code>2.1.5-11</code>,  <code>2.1.5-10</code>,  <code>2.1.5-9</code>,  <code>2.1.5-8</code>,  <code>2.1.5-7</code>,  <code>2.1.5-6</code>,  <code>2.1.5-5</code>,  </span></summary>
       
 
-      ``2.1.5-12``,  ``2.1.5-11``,  ``2.1.5-10``,  ``2.1.5-9``,  ``2.1.5-8``,  ``2.1.5-7``,  ``2.1.5-6``,  ``2.1.5-5``,  ``2.1.5-4``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3.1-0``,  ``2.1.2-0``
+      ``2.1.5-13``,  ``2.1.5-12``,  ``2.1.5-11``,  ``2.1.5-10``,  ``2.1.5-9``,  ``2.1.5-8``,  ``2.1.5-7``,  ``2.1.5-6``,  ``2.1.5-5``,  ``2.1.5-4``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3.1-0``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -41,12 +42,13 @@ lofreq
       
 
    
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends samtools: 
+   :depends samtools: ``>=1.21,<2.0a0``
    :requirements:
 
    .. rubric:: Installation

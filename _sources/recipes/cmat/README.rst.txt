@@ -13,7 +13,7 @@ cmat
    ClinVar Mapping and Annotation Toolkit
 
    :homepage: https://github.com/EBIvariation/CMAT
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`cmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ cmat
       
       
 
-      ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
+      ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
 
       
 
@@ -42,6 +42,7 @@ cmat
    :depends pytest: ``7.2.2``
    :depends pytest-cov: ``2.10.0``
    :depends python: ``>=3.8,<3.10``
+   :depends pyyaml: ``6.0.1``
    :depends requests: ``2.32.3``
    :depends requests-mock: ``1.8.0``
    :depends retry: ``0.9.2``
@@ -92,7 +93,7 @@ cmat
 
     <script>
         var package = "cmat";
-        var versions = ["3.2.2","3.2.1","3.1.3","3.1.2","3.1.1"];
+        var versions = ["3.3.1","3.3.0","3.2.2","3.2.1","3.1.3"];
     </script>
 
 

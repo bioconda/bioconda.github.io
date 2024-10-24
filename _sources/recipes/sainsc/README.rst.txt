@@ -10,10 +10,10 @@ sainsc
    :replaces_section_title:
    :noindex:
 
-   Segmentation\-free Analysis of In Situ Capture data
+   Segmentation\-free Analysis of In Situ Capture data.
 
    :homepage: https://github.com/HiDiHlabs/sainsc
-   :documentation: https://sainsc.readthedocs.io/
+   :documentation: https://sainsc.readthedocs.io
    
    :license: MIT / MIT
    :recipe: /`sainsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sainsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sainsc/meta.yaml>`_
@@ -29,7 +29,7 @@ sainsc
       
       
 
-      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -45,7 +45,8 @@ sainsc
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-image: ``>=0.18``
    :depends scipy: ``>=1.9``
-   :depends seaborn: ``>=0.11``
+   :depends seaborn-base: ``>=0.11``
+   :depends typing-extensions: ``>=4``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +94,7 @@ sainsc
 
     <script>
         var package = "sainsc";
-        var versions = ["0.1.1","0.1.1","0.1.1","0.1.0"];
+        var versions = ["0.2.0","0.1.1","0.1.1","0.1.1","0.1.0"];
     </script>
 
 

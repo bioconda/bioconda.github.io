@@ -12,7 +12,7 @@ mkdesigner
 
    Genome\-wide design of markers for PCR\-based genotyping from NGS data.
 
-   :homepage: https://github.com/KChigira/mkdesigner/
+   :homepage: https://github.com/KChigira/mkdesigner
    :license: MIT / MIT
    :recipe: /`mkdesigner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mkdesigner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mkdesigner/meta.yaml>`_
 
@@ -28,10 +28,10 @@ mkdesigner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.3.4-0</code>,  <code>0.3.1-0</code>,  <code>0.2.1-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.3.4-0</code>,  <code>0.3.1-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.4-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.1-0``
+      ``0.5.1-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.4-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ mkdesigner
    :depends primer3: ``>=2.6.1,<3.0.0``
    :depends python: ``>=3.8,<4.0``
    :depends samtools: ``>=1.6,<2.0``
+   :depends timeout-decorator: 
    :requirements:
 
    .. rubric:: Installation
@@ -96,7 +97,7 @@ mkdesigner
 
     <script>
         var package = "mkdesigner";
-        var versions = ["0.4.4","0.4.3","0.4.2","0.4.1","0.4.1"];
+        var versions = ["0.5.1","0.4.4","0.4.3","0.4.2","0.4.1"];
     </script>
 
 

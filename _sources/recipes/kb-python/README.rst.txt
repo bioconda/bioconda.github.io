@@ -10,13 +10,14 @@ kb-python
    :replaces_section_title:
    :noindex:
 
-   A wrapper for the kallisto \| bustools workflow for single\-cell RNA\-seq pre\-processing
+   A wrapper for the kallisto \| bustools workflow for single\-cell RNA\-seq pre\-processing.
 
    :homepage: https://github.com/pachterlab/kb_python
-   :documentation: https://www.kallistobus.tools/
+   :documentation: https://www.kallistobus.tools
    
    :license: BSD / BSD-2-Clause
    :recipe: /`kb-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kb-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kb-python/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.11.21.568164`
 
    
 
@@ -30,10 +31,10 @@ kb-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.28.2-2</code>,  <code>0.28.2-1</code>,  <code>0.28.2-0</code>,  <code>0.28.1-0</code>,  <code>0.28.0-0</code>,  <code>0.27.3-1</code>,  <code>0.27.3-0</code>,  <code>0.27.2-0</code>,  <code>0.27.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.29.1-0</code>,  <code>0.28.2-2</code>,  <code>0.28.2-1</code>,  <code>0.28.2-0</code>,  <code>0.28.1-0</code>,  <code>0.28.0-0</code>,  <code>0.27.3-1</code>,  <code>0.27.3-0</code>,  <code>0.27.2-0</code>,  </span></summary>
       
 
-      ``0.28.2-2``,  ``0.28.2-1``,  ``0.28.2-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.27.3-1``,  ``0.27.3-0``,  ``0.27.2-0``,  ``0.27.1-0``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.26.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
+      ``0.29.1-0``,  ``0.28.2-2``,  ``0.28.2-1``,  ``0.28.2-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.27.3-1``,  ``0.27.3-0``,  ``0.27.2-0``,  ``0.27.1-0``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.26.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
 
       
       .. raw:: html
@@ -42,17 +43,18 @@ kb-python
       
 
    
-   :depends anndata: ``>=0.6.22.post1``
+   :depends anndata: ``>=0.9.2``
+   :depends biopython: ``>=1.8``
    :depends h5py: ``>=2.10.0``
    :depends jinja2: ``>2.10.1``
    :depends loompy: ``>=3.0.6``
    :depends nbconvert: ``>=5.6.0``
    :depends nbformat: ``>=4.4.0``
-   :depends ngs-tools: ``>=1.5.11``
+   :depends ngs-tools: ``>=1.8.6``
    :depends numpy: ``>=1.17.2``
-   :depends pandas: ``>=1.0.0,<2``
+   :depends pandas: ``>=1.5.3``
    :depends plotly: ``>=4.5.0``
-   :depends python: ``>=3.7,<3.9``
+   :depends python: ``>=3.8``
    :depends requests: ``>=2.22.0``
    :depends scanpy: ``>=1.4.4.post1``
    :depends scikit-learn: ``>=0.21.3``
@@ -105,7 +107,7 @@ kb-python
 
     <script>
         var package = "kb-python";
-        var versions = ["0.28.2","0.28.2","0.28.2","0.28.1","0.28.0"];
+        var versions = ["0.29.1","0.28.2","0.28.2","0.28.2","0.28.1"];
     </script>
 
 

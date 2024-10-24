@@ -10,10 +10,12 @@ rseqc
    :replaces_section_title:
    :noindex:
 
-   RNA\-seq QC Package
+   QC package for RNA\-seq data.
 
-   :homepage: http://rseqc.sourceforge.net/
-   :license: GPL2 / GNU General Public License v2 (GPLv2)
+   :homepage: https://rseqc.sourceforge.net
+   :documentation: https://rseqc.sourceforge.net/#usage-information
+   
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`rseqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc/meta.yaml>`_
    :links: biotools: :biotools:`rseqc`, doi: :doi:`10.1093/bioinformatics/bts356`
 
@@ -29,10 +31,10 @@ rseqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.3-2</code>,  <code>5.0.3-1</code>,  <code>5.0.3-0</code>,  <code>5.0.1-1</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.4-0</code>,  <code>5.0.3-3</code>,  <code>5.0.3-2</code>,  <code>5.0.3-1</code>,  <code>5.0.3-0</code>,  <code>5.0.1-1</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-2</code>,  </span></summary>
       
 
-      ``5.0.3-2``,  ``5.0.3-1``,  ``5.0.3-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
+      ``5.0.4-0``,  ``5.0.3-3``,  ``5.0.3-2``,  ``5.0.3-1``,  ``5.0.3-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
 
       
       .. raw:: html
@@ -42,14 +44,11 @@ rseqc
 
    
    :depends bx-python: 
-   :depends libgcc-ng: ``>=12``
+   :depends logomaker: 
    :depends numpy: 
-   :depends pip: 
    :depends pybigwig: 
    :depends pysam: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends r-base: 
+   :depends python: ``>=3.5``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +96,7 @@ rseqc
 
     <script>
         var package = "rseqc";
-        var versions = ["5.0.3","5.0.3","5.0.3","5.0.1","5.0.1"];
+        var versions = ["5.0.4","5.0.3","5.0.3","5.0.3","5.0.3"];
     </script>
 
 

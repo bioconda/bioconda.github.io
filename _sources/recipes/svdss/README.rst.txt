@@ -10,12 +10,14 @@ svdss
    :replaces_section_title:
    :noindex:
 
-   Structural Variant Discovery from Sample\-specific Strings
+   Structural Variant Discovery from Sample\-specific Strings.
 
    :homepage: https://github.com/Parsoa/SVDSS
-   :license: MIT
+   :documentation: https://github.com/Parsoa/SVDSS/blob/v2.0.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`svdss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdss/meta.yaml>`_
-   :links: biotools: :biotools:`svdss`
+   :links: biotools: :biotools:`svdss`, doi: :doi:`10.1038/s41592-022-01674-1`
 
    
 
@@ -28,18 +30,20 @@ svdss
       
       
 
-      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``2.0.0-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bcftools: ``>=1.9``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.17,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends samtools: ``>=1.9``
    :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
@@ -89,7 +93,7 @@ svdss
 
     <script>
         var package = "svdss";
-        var versions = ["1.0.5","1.0.5","1.0.5","1.0.4","1.0.4"];
+        var versions = ["2.0.0","1.0.5","1.0.5","1.0.5","1.0.4"];
     </script>
 
 

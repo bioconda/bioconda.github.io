@@ -30,10 +30,10 @@ matchms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.27.0-0</code>,  <code>0.26.4-0</code>,  <code>0.26.3-0</code>,  <code>0.26.2-0</code>,  <code>0.26.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.4-0</code>,  <code>0.24.3-0</code>,  <code>0.24.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.27.0-1</code>,  <code>0.27.0-0</code>,  <code>0.26.4-0</code>,  <code>0.26.3-0</code>,  <code>0.26.2-0</code>,  <code>0.26.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.4-0</code>,  <code>0.24.3-0</code>,  </span></summary>
       
 
-      ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.25.0-0``,  ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.22.0-0``,  ``0.21.2-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
+      ``0.27.0-1``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.25.0-0``,  ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.22.0-0``,  ``0.21.2-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -42,24 +42,24 @@ matchms
       
 
    
-   :depends deprecated: 
-   :depends lxml: 
-   :depends matplotlib-base: 
-   :depends networkx: 
-   :depends numba: ``>=0.47``
-   :depends numpy: ``<1.25``
-   :depends pandas: 
+   :depends deprecated: ``>=1.2.14``
+   :depends lxml: ``>=4.9.3,<5``
+   :depends matplotlib-base: ``>=3.7``
+   :depends networkx: ``>=3.0``
+   :depends numba: ``>=0.57.1,<0.60``
+   :depends numpy: ``>1.22,<1.27``
+   :depends pandas: ``>=2.0.3``
    :depends pickydict: ``>=0.4.0``
-   :depends pillow: ``9.5.*``
+   :depends pillow: ``!=9.4.0``
    :depends pubchempy: 
    :depends pyteomics: ``>=4.6``
-   :depends python: ``>=3.8,<3.12``
-   :depends pyyaml: 
-   :depends rdkit: ``>=2020.03.1``
-   :depends requests: 
-   :depends scipy: ``>=1.4.0,<1.11``
+   :depends python: ``>=3.9,<3.13``
+   :depends pyyaml: ``>=6.0.1``
+   :depends rdkit: ``>=2023.9.6``
+   :depends requests: ``>=2.31.0``
+   :depends scipy: ``>=1.11``
    :depends sparsestack: ``>=0.4.1``
-   :depends tqdm: 
+   :depends tqdm: ``>=4.65.0``
    :requirements:
 
    .. rubric:: Installation
@@ -107,7 +107,7 @@ matchms
 
     <script>
         var package = "matchms";
-        var versions = ["0.27.0","0.26.4","0.26.3","0.26.2","0.26.1"];
+        var versions = ["0.27.0","0.27.0","0.26.4","0.26.3","0.26.2"];
     </script>
 
 

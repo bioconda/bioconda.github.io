@@ -26,17 +26,25 @@ pybbi
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-1``,  ``0.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
+      
 
+      ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-1``,  ``0.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libpng: ``>=1.6.43,<1.7.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends numpy: ``>=1.22.4,<2.0a0``
-   :depends openssl: ``>=3.3.1,<4.0a0``
+   :depends openssl: ``>=3.3.2,<4.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends six: 
@@ -87,7 +95,7 @@ pybbi
 
     <script>
         var package = "pybbi";
-        var versions = ["0.4.0","0.4.0","0.3.6","0.3.5","0.3.2"];
+        var versions = ["0.4.1","0.4.1","0.4.0","0.4.0","0.3.6"];
     </script>
 
 

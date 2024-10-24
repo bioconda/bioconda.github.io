@@ -10,11 +10,14 @@ rna-seqc
    :replaces_section_title:
    :noindex:
 
-   Fast\, efficient RNA\-Seq metrics for quality control and process optimization
+   Fast\, efficient RNA\-Seq metrics for quality control and process optimization.
 
    :homepage: https://github.com/broadinstitute/rnaseqc
-   :license: `BSD / BSD 3-clause <https://raw.githubusercontent.com/broadinstitute/rnaseqc/master/LICENSE>`_
+   :documentation: https://github.com/getzlab/rnaseqc/blob/v2.4.2/README.md
+   
+   :license: `BSD / BSD-3-Clause <https://raw.githubusercontent.com/broadinstitute/rnaseqc/master/LICENSE>`_
    :recipe: /`rna-seqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rna-seqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rna-seqc/meta.yaml>`_
+   :links: biotools: :biotools:`rna-seqc`, doi: :doi:`10.1093/bioinformatics/btab135`
 
    
 
@@ -28,10 +31,10 @@ rna-seqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.5-6</code>,  <code>2.3.5-5</code>,  <code>2.3.5-4</code>,  <code>2.3.5-3</code>,  <code>2.3.5-2</code>,  <code>2.3.5-1</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.2-0</code>,  <code>2.3.5-6</code>,  <code>2.3.5-5</code>,  <code>2.3.5-4</code>,  <code>2.3.5-3</code>,  <code>2.3.5-2</code>,  <code>2.3.5-1</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  </span></summary>
       
 
-      ``2.3.5-6``,  ``2.3.5-5``,  ``2.3.5-4``,  ``2.3.5-3``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``1.1.8-2``,  ``1.1.8-1``
+      ``2.4.2-0``,  ``2.3.5-6``,  ``2.3.5-5``,  ``2.3.5-4``,  ``2.3.5-3``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``1.1.8-2``,  ``1.1.8-1``
 
       
       .. raw:: html
@@ -43,11 +46,10 @@ rna-seqc
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +97,7 @@ rna-seqc
 
     <script>
         var package = "rna-seqc";
-        var versions = ["2.3.5","2.3.5","2.3.5","2.3.5","2.3.5"];
+        var versions = ["2.4.2","2.3.5","2.3.5","2.3.5","2.3.5"];
     </script>
 
 

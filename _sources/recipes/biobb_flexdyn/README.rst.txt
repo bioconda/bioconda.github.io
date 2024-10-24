@@ -21,7 +21,7 @@ biobb_flexdyn
    \#\#\# Introduction
    Biobb\_flexdyn allows the calculation of protein conformational transitions using the GOdMD package. 
    Biobb \(BioExcel building blocks\) packages are Python building blocks that
-   create   new layer of compatibility and interoperability over popular
+   create new layer of compatibility and interoperability over popular
    bioinformatics tools.
    The latest documentation of this package can be found in our readthedocs site\:
    \[latest API documentation\]\(http\:\/\/biobb\_ml.readthedocs.io\/en\/latest\/\).
@@ -49,17 +49,18 @@ biobb_flexdyn
       
       
 
-      ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
+      ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
 
       
 
    
-   :depends biobb_common: ``4.2.0``
+   :depends biobb_common: ``5.0.0``
    :depends concoord: 
    :depends imods: 
    :depends nolb: 
    :depends prody: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9,<3.12``
+   :depends scipy: ``>=1.13.0,<1.14.0``
    :requirements:
 
    .. rubric:: Installation
@@ -107,7 +108,7 @@ biobb_flexdyn
 
     <script>
         var package = "biobb_flexdyn";
-        var versions = ["4.2.0","4.1.0","4.0.3","4.0.2","4.0.1"];
+        var versions = ["5.0.0","4.2.0","4.1.0","4.0.3","4.0.2"];
     </script>
 
 

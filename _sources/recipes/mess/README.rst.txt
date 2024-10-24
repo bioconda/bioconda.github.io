@@ -30,18 +30,18 @@ mess
       
       
 
-      ``0.9.0-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.2-0``,  ``v0.2.1-0``
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.2-0``,  ``v0.2.1-0``
 
       
 
    
+   :depends apptainer: ``>=1.3.2``
    :depends attrmap: ``>=0.0.7``
    :depends biopython: ``>=1.83``
-   :depends mamba: ``>=1.5.8``
-   :depends pandas: ``>=2.2.1``
-   :depends python: ``>=3.10``
+   :depends pandas: ``>=2.2.3``
+   :depends python: ``>=3.11``
    :depends pyyaml: ``>=6.0.1``
-   :depends rich-click: ``>=1.7.4``
+   :depends rich-click: ``>=1.8.3``
    :depends snakemake-minimal: ``>=8.0.0``
    :depends snaketool-utils: ``>=0.0.5``
    :requirements:
@@ -91,7 +91,7 @@ mess
 
     <script>
         var package = "mess";
-        var versions = ["0.9.0","0.8.3","0.8.3","0.8.2","0.8.0"];
+        var versions = ["0.9.0","0.9.0","0.8.3","0.8.3","0.8.2"];
     </script>
 
 

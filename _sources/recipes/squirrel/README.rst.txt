@@ -27,7 +27,7 @@ squirrel
       
       
 
-      ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``
+      ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``
 
       
 
@@ -37,7 +37,7 @@ squirrel
    :depends gofasta: 
    :depends iqtree: ``>=2.1``
    :depends jclusterfunk: ``>=0.0.25``
-   :depends mako: ``1.2``
+   :depends mako: 
    :depends matplotlib-base: ``>=3.3.1``
    :depends minimap2: ``>=2.16``
    :depends pandas: 
@@ -91,7 +91,7 @@ squirrel
 
     <script>
         var package = "squirrel";
-        var versions = ["1.0.10","1.0.9","1.0.8","1.0.7"];
+        var versions = ["1.0.11","1.0.10","1.0.10","1.0.9","1.0.8"];
     </script>
 
 

@@ -13,7 +13,7 @@ srahunter
    srahunter is a tool for processing SRA accession numbers.
 
    :homepage: https://github.com/GitEnricoNeko/srahunter
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`srahunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srahunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srahunter/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ srahunter
       
       
 
-      ``0.0.2-0``
+      ``0.0.6-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -88,7 +88,7 @@ srahunter
 
     <script>
         var package = "srahunter";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.6","0.0.4","0.0.3","0.0.2"];
     </script>
 
 

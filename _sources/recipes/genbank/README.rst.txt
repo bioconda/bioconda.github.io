@@ -27,12 +27,12 @@ genbank
       
       
 
-      ``0.110-1``,  ``0.110-0``
+      ``0.118-1``,  ``0.118-0``,  ``0.110-1``,  ``0.110-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -82,7 +82,7 @@ genbank
 
     <script>
         var package = "genbank";
-        var versions = ["0.110","0.110"];
+        var versions = ["0.118","0.118","0.110","0.110"];
     </script>
 
 

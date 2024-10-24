@@ -10,10 +10,10 @@ mutmap
    :replaces_section_title:
    :noindex:
 
-   MutMap\: pipeline to identify causative mutations responsible for a phenotype
+   MutMap\: pipeline to identify causative mutations responsible for a phenotype.
 
    :homepage: https://github.com/YuSugihara/MutMap
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mutmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutmap/meta.yaml>`_
    :links: biotools: :biotools:`mutmap`, doi: :doi:`10.1038/nbt.2095`
 
@@ -29,10 +29,10 @@ mutmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.6-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.8-0</code>,  <code>2.3.6-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
+      ``2.3.8-0``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ mutmap
    :depends pandas: 
    :depends python: ``>=3.5``
    :depends samtools: ``>=1.7``
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends snpeff: 
    :depends trimmomatic: 
    :requirements:
@@ -99,7 +99,7 @@ mutmap
 
     <script>
         var package = "mutmap";
-        var versions = ["2.3.6","2.3.5","2.3.4","2.3.3","2.3.2"];
+        var versions = ["2.3.8","2.3.6","2.3.5","2.3.4","2.3.3"];
     </script>
 
 

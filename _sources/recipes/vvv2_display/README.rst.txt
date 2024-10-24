@@ -27,7 +27,7 @@ vvv2_display
       
       
 
-      ``0.2.1-0``,  ``0.1.10-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.10-0``
 
       
 
@@ -88,7 +88,7 @@ vvv2_display
 
     <script>
         var package = "vvv2_display";
-        var versions = ["0.2.1","0.1.10"];
+        var versions = ["0.2.2","0.2.1","0.1.10"];
     </script>
 
 

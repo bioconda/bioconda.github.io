@@ -27,30 +27,17 @@ tbtamr
       
       
 
-      ``1.0.2-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
 
    
-   :depends bcftools: 
-   :depends bedtools: 
-   :depends bwa: 
-   :depends delly: 
-   :depends freebayes: 
-   :depends joblib: 
+   :depends mutamr: 
    :depends pandas: 
-   :depends pydantic: 
-   :depends pysam: 
-   :depends pytest: 
    :depends python: ``>=3.10``
-   :depends requests: 
-   :depends samclip: 
-   :depends samtools: ``1.12.*``
-   :depends snpeff: ``5.0.*``
+   :depends setuptools: 
    :depends tabulate: 
-   :depends tqdm: 
    :depends unidecode: 
-   :depends xlsxwriter: 
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +85,7 @@ tbtamr
 
     <script>
         var package = "tbtamr";
-        var versions = ["1.0.2","0.0.4","0.0.4"];
+        var versions = ["1.0.2","1.0.2","0.0.4","0.0.4"];
     </script>
 
 

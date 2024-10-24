@@ -26,9 +26,17 @@ strangepg
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-1</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  </span></summary>
+      
 
+      ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ strangepg
 
     <script>
         var package = "strangepg";
-        var versions = ["0.8.7","0.8.6","0.8.5","0.8.5","0.8.4"];
+        var versions = ["0.8.9","0.8.8","0.8.7","0.8.6","0.8.5"];
     </script>
 
 

@@ -10,7 +10,7 @@ d4tools
    :replaces_section_title:
    :noindex:
 
-   The D4 command line utility program
+   The D4 command line utility program.
 
 
    :homepage: https://github.com/38/d4-format
@@ -28,7 +28,7 @@ d4tools
       
       
 
-      ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
+      ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
 
       
 
@@ -83,7 +83,7 @@ d4tools
 
     <script>
         var package = "d4tools";
-        var versions = ["0.3.11","0.3.10","0.3.10","0.3.8","0.3.8"];
+        var versions = ["0.3.11","0.3.11","0.3.10","0.3.10","0.3.8"];
     </script>
 
 

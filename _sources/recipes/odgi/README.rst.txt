@@ -10,11 +10,14 @@ odgi
    :replaces_section_title:
    :noindex:
 
-   An optimized dynamic genome\/graph implementation
+   An optimized dynamic genome\/graph implementation.
 
    :homepage: https://github.com/pangenome/odgi
-   :license: MIT
+   :documentation: https://github.com/pangenome/odgi/blob/v0.9.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`odgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odgi/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btac308`, biotools: :biotools:`odgi`, usegalaxy-eu: :usegalaxy-eu:`odgi_viz`, usegalaxy-eu: :usegalaxy-eu:`odgi_build`
 
    
 
@@ -28,10 +31,10 @@ odgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.6-2</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.6-2</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
       
 
-      ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
+      ``0.9.0-0``,  ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
 
       
       .. raw:: html
@@ -41,9 +44,11 @@ odgi
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
+   :depends jemalloc: 
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
    :depends libjemalloc: ``>=5.3.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends pybind11: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -95,7 +100,7 @@ odgi
 
     <script>
         var package = "odgi";
-        var versions = ["0.8.6","0.8.6","0.8.6","0.8.5","0.8.4"];
+        var versions = ["0.9.0","0.8.6","0.8.6","0.8.6","0.8.5"];
     </script>
 
 

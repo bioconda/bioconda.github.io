@@ -10,7 +10,7 @@ pggb
    :replaces_section_title:
    :noindex:
 
-   This pangenome graph construction pipeline renders a collection of sequences into a pangenome graph \(in the variation graph model\).
+   PanGenome Graph Building pipeline renders
 
    :homepage: https://github.com/pangenome/pggb
    :license: MIT
@@ -28,10 +28,10 @@ pggb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  </span></summary>
       
 
-      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -44,16 +44,18 @@ pggb
    :depends bcftools: 
    :depends gfaffix: ``0.1.5b``
    :depends gsl: ``2.7.0.*``
-   :depends multiqc: ``1.19``
-   :depends odgi: ``0.8.6``
+   :depends multiqc: ``1.22``
+   :depends odgi: ``0.9.0``
    :depends pigz: 
-   :depends python-igraph: ``0.10.4``
-   :depends seqwish: ``0.7.10``
-   :depends smoothxg: ``0.7.4``
+   :depends python-igraph: ``0.11.5``
+   :depends seqwish: ``0.7.11``
+   :depends smoothxg: ``0.8.0``
    :depends tabix: 
    :depends time: 
-   :depends vg: ``1.59.0.*``
-   :depends wfmash: ``0.13.0``
+   :depends vcfbub: ``0.1.1``
+   :depends vcflib: ``1.0.10``
+   :depends vg: ``1.59.0``
+   :depends wfmash: ``0.14.0``
    :requirements:
 
    .. rubric:: Installation
@@ -101,7 +103,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.6.0","0.6.0","0.5.4","0.5.3","0.5.3"];
+        var versions = ["0.7.2","0.7.1","0.7.0","0.6.0","0.6.0"];
     </script>
 
 

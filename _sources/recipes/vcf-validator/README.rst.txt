@@ -10,7 +10,7 @@ vcf-validator
    :replaces_section_title:
    :noindex:
 
-   EBI EVA \- Validation tool to ensure VCF specification compliance
+   EBI EVA \- Validation tool for VCF file format compliance
 
    :homepage: https://github.com/EBIVariation/vcf-validator
    :license: Apache-2.0
@@ -27,11 +27,20 @@ vcf-validator
       
       
 
-      ``0.9.7-0``,  ``0.9.6-0``
+      ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.7-0``,  ``0.9.6-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends c-ares: ``>=1.32.3,<2.0a0``
+   :depends libboost: ``>=1.82.0,<1.83.0a0``
+   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.3.2,<4.0a0``
+   :depends zstd: ``>=1.5.6,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +88,7 @@ vcf-validator
 
     <script>
         var package = "vcf-validator";
-        var versions = ["0.9.7","0.9.6"];
+        var versions = ["0.10.0","0.10.0","0.9.7","0.9.6"];
     </script>
 
 

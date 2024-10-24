@@ -31,9 +31,17 @@ biobb_flexserv
    :versions:
       
       
+      .. raw:: html
 
-      ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.1-1``,  ``3.9.1-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.1-1</code>,  </span></summary>
+      
 
+      ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.1-1``,  ``3.9.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ biobb_flexserv
 
     <script>
         var package = "biobb_flexserv";
-        var versions = ["4.2.0","4.1.0","4.0.3","4.0.2","4.0.1"];
+        var versions = ["5.0.0","4.2.0","4.1.0","4.0.3","4.0.2"];
     </script>
 
 

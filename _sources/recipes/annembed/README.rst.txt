@@ -10,7 +10,7 @@ annembed
    :replaces_section_title:
    :noindex:
 
-   annembed is an ultra\-fast and scalable non\-linear dimension reduction algorithm \(similar to UMAP or t\-SNE\) for large\-scale biological data
+   annembed is an ultra\-fast and scalable non\-linear dimension reduction\/embedding algorithm \(similar to UMAP or t\-SNE\) for large\-scale biological data
 
    :homepage: https://github.com/jianshu93/annembed
    :license: MIT
@@ -27,13 +27,13 @@ annembed
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ annembed
 
     <script>
         var package = "annembed";
-        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1"];
+        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.2"];
     </script>
 
 
