@@ -12,8 +12,11 @@ masurca
 
    MaSuRCA \(Maryland Super\-Read Celera Assembler\) genome assembly software. MaSuRCA requires Illumina data\, and supports third\-generation PacBio\/Nanopore MinION reads for hybrid assembly.
 
-   :homepage: http://masurca.blogspot.co.uk/
-   :license: GPL / GPL-3.0-only
+   :homepage: https://masurca.blogspot.co.uk
+   :documentation: https://github.com/alekseyzimin/masurca/blob/v4.1.1/README.md
+   
+   :developer docs: https://github.com/alekseyzimin/masurca
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`masurca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/masurca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/masurca/meta.yaml>`_
    :links: biotools: :biotools:`masurca`, doi: :doi:`10.1093/bioinformatics/btt476`
 
@@ -29,10 +32,10 @@ masurca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.9-1</code>,  <code>4.0.9-0</code>,  <code>4.0.8-1</code>,  <code>4.0.8-0</code>,  <code>4.0.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.1-2</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.9-1</code>,  <code>4.0.9-0</code>,  <code>4.0.8-1</code>,  <code>4.0.8-0</code>,  </span></summary>
       
 
-      ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.9-1``,  ``4.0.9-0``,  ``4.0.8-1``,  ``4.0.8-0``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
+      ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.9-1``,  ``4.0.9-0``,  ``4.0.8-1``,  ``4.0.8-0``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
 
       
       .. raw:: html
@@ -46,13 +49,12 @@ masurca
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends flye: 
    :depends grep: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minimap2: 
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl: 
    :depends yaggo: ``>=1.5.10,<1.6.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +102,7 @@ masurca
 
     <script>
         var package = "masurca";
-        var versions = ["4.1.1","4.1.1","4.1.0","4.1.0","4.0.9"];
+        var versions = ["4.1.1","4.1.1","4.1.1","4.1.0","4.1.0"];
     </script>
 
 

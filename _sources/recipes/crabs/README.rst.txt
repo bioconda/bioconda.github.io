@@ -10,10 +10,10 @@ crabs
    :replaces_section_title:
    :noindex:
 
-   Crabs \(Creating Reference databases for Amplicon\-Based Sequencing\) is a program to download and curate reference databases for eDNA metabarcoding analyses
+   Crabs \(Creating Reference databases for Amplicon\-Based Sequencing\) is a program to download and curate reference databases for eDNA metabarcoding analyses.
 
    :homepage: https://github.com/gjeunen/reference_database_creator
-   :license: MIT License
+   :license: MIT / MIT
    :recipe: /`crabs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crabs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crabs/meta.yaml>`_
 
    
@@ -27,19 +27,21 @@ crabs
       
       
 
-      ``0.1.1-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``0.1.1-0``
 
       
 
    
-   :depends argparse: 
-   :depends biopython: ``1.78.*``
+   :depends biopython: 
    :depends cutadapt: ``>=3.4``
    :depends matplotlib-base: 
-   :depends muscle: ``>=3.8.31``
+   :depends muscle: 
    :depends numpy: 
    :depends pandas: ``>=0.23.4``
-   :depends python: ``>=3.6.10``
+   :depends python: ``>=3.6``
+   :depends requests: 
+   :depends rich: 
+   :depends rich-click: 
    :depends tqdm: 
    :depends vsearch: ``>=2.13.3``
    :depends wget: 
@@ -90,7 +92,7 @@ crabs
 
     <script>
         var package = "crabs";
-        var versions = ["0.1.1"];
+        var versions = ["1.0.4","1.0.3","0.1.1"];
     </script>
 
 

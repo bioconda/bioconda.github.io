@@ -13,7 +13,7 @@ biobb_flexdyn
    Biobb\_flexdyn is a BioBB category for studies on the conformational landscape of native proteins.
 
    :homepage: https://github.com/bioexcel/biobb_flexdyn
-   :license: APACHE / Apache Software License
+   :license: APACHE / Apache-2.0
    :recipe: /`biobb_flexdyn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_flexdyn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_flexdyn/meta.yaml>`_
 
    \# biobb\_flexdyn
@@ -21,7 +21,7 @@ biobb_flexdyn
    \#\#\# Introduction
    Biobb\_flexdyn allows the calculation of protein conformational transitions using the GOdMD package. 
    Biobb \(BioExcel building blocks\) packages are Python building blocks that
-   create new layer of compatibility and interoperability over popular
+   create   new layer of compatibility and interoperability over popular
    bioinformatics tools.
    The latest documentation of this package can be found in our readthedocs site\:
    \[latest API documentation\]\(http\:\/\/biobb\_ml.readthedocs.io\/en\/latest\/\).
@@ -48,9 +48,17 @@ biobb_flexdyn
    :versions:
       
       
+      .. raw:: html
 
-      ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-1</code>,  </span></summary>
+      
 
+      ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -108,7 +116,7 @@ biobb_flexdyn
 
     <script>
         var package = "biobb_flexdyn";
-        var versions = ["5.0.0","4.2.0","4.1.0","4.0.3","4.0.2"];
+        var versions = ["5.0.0","5.0.0","4.2.0","4.1.0","4.0.3"];
     </script>
 
 

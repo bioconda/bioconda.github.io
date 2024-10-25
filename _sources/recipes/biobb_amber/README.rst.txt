@@ -28,10 +28,10 @@ biobb_amber
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-1</code>,  <code>3.8.0-0</code>,  <code>3.7.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.2-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-1</code>,  <code>3.8.0-0</code>,  </span></summary>
       
 
-      ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.7.1-1``,  ``3.7.1-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
+      ``5.0.2-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.7.1-1``,  ``3.7.1-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ biobb_amber
    
    :depends ambertools: ``22.5.0``
    :depends biobb_common: ``5.0.0``
-   :depends python: ``>=3.8,<3.11``
+   :depends python: ``>=3.9,<3.11``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ biobb_amber
 
     <script>
         var package = "biobb_amber";
-        var versions = ["5.0.0","4.2.0","4.1.0","4.0.1","4.0.0"];
+        var versions = ["5.0.2","5.0.0","4.2.0","4.1.0","4.0.1"];
     </script>
 
 

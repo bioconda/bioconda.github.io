@@ -10,11 +10,15 @@ phabox
    :replaces_section_title:
    :noindex:
 
-   Phage BOX is a Python library for phage\-related tasks
+   Phage BOX is a Python library for phage\-related tasks.
 
-   :homepage: https://github.com/KennthShang/PhaBOX
-   :license: AFL
+   :homepage: https://phage.ee.cityu.edu.hk
+   :documentation: https://github.com/KennthShang/PhaBOX/wiki
+   
+   :developer docs: https://github.com/KennthShang/PhaBOX
+   :license: OTHER / AFL-3.0
    :recipe: /`phabox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phabox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phabox/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioadv/vbad101`, biotools: :biotools:`phabox`
 
    
 
@@ -27,22 +31,26 @@ phabox
       
       
 
-      ``2.0.0-0``
+      ``2.1.0-0``,  ``2.0.0-0``
 
       
 
    
    :depends biopython: ``>=1.84``
    :depends datasets: ``>=3``
+   :depends fasttree: ``>=2.1.11``
+   :depends kcounter: ``>=0.1.1``
+   :depends mafft: ``>=7.525``
    :depends networkx: ``>=3.4``
-   :depends numpy: ``>=2``
+   :depends numpy: ``>=1.26``
    :depends pandas: ``>=2``
-   :depends pprodigal: ``>=1``
-   :depends pyarrow: ``>=17``
-   :depends python: 
+   :depends prodigal-gv: ``>=2.11.0``
+   :depends pyarrow: ``>=16``
+   :depends python: ``>=3.8``
    :depends pytorch: ``>=2.4``
    :depends scipy: ``>=1.14``
-   :depends transformers: ``>=4.40``
+   :depends seaborn-base: ``>=0.13.2``
+   :depends transformers: ``>=4``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +98,7 @@ phabox
 
     <script>
         var package = "phabox";
-        var versions = ["2.0.0"];
+        var versions = ["2.1.0","2.0.0"];
     </script>
 
 

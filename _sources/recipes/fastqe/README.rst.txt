@@ -10,10 +10,10 @@ fastqe
    :replaces_section_title:
    :noindex:
 
-   A emoji based bioinformatics command line tool
+   A emoji based bioinformatics command line tool.
 
    :homepage: https://github.com/lonsbio/fastqe
-   :license: MIT / MIT
+   :license: BSD / BSD-3-Clause
    :recipe: /`fastqe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqe/meta.yaml>`_
 
    The program reads one or more input FASTQ files.
@@ -30,14 +30,14 @@ fastqe
       
       
 
-      ``0.3.1-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends biopython: ``>=1.66``
    :depends pyemojify: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ fastqe
 
     <script>
         var package = "fastqe";
-        var versions = ["0.3.1","0.2.7","0.2.6","0.1.1","0.1.1"];
+        var versions = ["0.3.3","0.3.1","0.2.7","0.2.6","0.1.1"];
     </script>
 
 

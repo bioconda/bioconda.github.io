@@ -10,10 +10,10 @@ famsa
    :replaces_section_title:
    :noindex:
 
-   Algorithm for large\-scale multiple sequence alignments
+   Algorithm for large\-scale multiple sequence alignments.
 
    :homepage: https://github.com/refresh-bio/FAMSA
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`famsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famsa/meta.yaml>`_
    :links: doi: :doi:`10.1038/srep33964`, biotools: :biotools:`famsa`
 
@@ -29,10 +29,10 @@ famsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-3</code>,  <code>2.2.2-2</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.1.2-0</code>,  <code>2.0.1-0</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.3-0</code>,  <code>2.2.2-3</code>,  <code>2.2.2-2</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.1.2-0</code>,  <code>2.0.1-0</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  </span></summary>
       
 
-      ``2.2.2-3``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.1.2-0``,  ``2.0.1-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.12-0``,  ``1.3.2-0``,  ``1.2.5-0``
+      ``2.2.3-0``,  ``2.2.2-3``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.1.2-0``,  ``2.0.1-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.12-0``,  ``1.3.2-0``,  ``1.2.5-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ famsa
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ famsa
 
     <script>
         var package = "famsa";
-        var versions = ["2.2.2","2.2.2","2.2.2","2.2.2","2.1.2"];
+        var versions = ["2.2.3","2.2.2","2.2.2","2.2.2","2.2.2"];
     </script>
 
 

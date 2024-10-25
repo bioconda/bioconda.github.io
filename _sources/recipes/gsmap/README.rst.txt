@@ -15,7 +15,7 @@ gsmap
    :homepage: https://github.com/LeonSong1995/gsMap
    :documentation: https://yanglab.westlake.edu.cn/gsmap/document
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`gsmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsmap/meta.yaml>`_
 
    gsMap integrates spatial transcriptomics \(ST\) data with genome\-wide association study \(GWAS\) summary statistics to map cells to human complex traits\, including diseases\, in a spatially resolved manner.
@@ -30,7 +30,7 @@ gsmap
       
       
 
-      ``1.70-0``
+      ``1.71.1-0``,  ``1.70-0``
 
       
 
@@ -52,7 +52,7 @@ gsmap
    :depends scikit-learn: 
    :depends scikit-misc: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends tqdm: 
    :depends zarr: 
    :requirements:
@@ -102,7 +102,7 @@ gsmap
 
     <script>
         var package = "gsmap";
-        var versions = ["1.70"];
+        var versions = ["1.71.1","1.70"];
     </script>
 
 
