@@ -10,7 +10,7 @@ strainy
    :replaces_section_title:
    :noindex:
 
-   Assembly\-based metagenomic strain phasing using long reads
+   Assembly\-based metagenomic strain phasing using long reads.
 
    :homepage: https://github.com/katerinakazantseva/strainy
    :license: GPL3 / GPL-3.0-or-later
@@ -27,7 +27,7 @@ strainy
       
       
 
-      ``1.2-0``,  ``1.1-1``,  ``1.1-0``
+      ``1.2-1``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -38,7 +38,7 @@ strainy
    :depends gfapy: 
    :depends karateclub: 
    :depends matplotlib-base: 
-   :depends minimap2: 
+   :depends minimap2: ``>=2.28``
    :depends networkx: ``>=2.6,<3.4``
    :depends numpy: ``>=1.24,<1.27``
    :depends pandas: ``>=1.3,<3``
@@ -95,7 +95,7 @@ strainy
 
     <script>
         var package = "strainy";
-        var versions = ["1.2","1.1","1.1"];
+        var versions = ["1.2","1.2","1.1","1.1"];
     </script>
 
 
