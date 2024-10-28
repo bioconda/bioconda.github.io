@@ -28,7 +28,7 @@ d4binding
       
       
 
-      ``0.3.11-0``,  ``0.3.4-0``
+      ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.4-0``
 
       
 
@@ -83,7 +83,7 @@ d4binding
 
     <script>
         var package = "d4binding";
-        var versions = ["0.3.11","0.3.4"];
+        var versions = ["0.3.11","0.3.11","0.3.4"];
     </script>
 
 

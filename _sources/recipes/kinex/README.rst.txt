@@ -10,12 +10,12 @@ kinex
    :replaces_section_title:
    :noindex:
 
-   Kinex infers causal kinases from phosphoproteomics data
+   Kinex infers causal kinases from phosphoproteomics data.
 
    :homepage: https://github.com/bedapub/kinex
    :documentation: https://kinex.readthedocs.io/en/latest/
    
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`kinex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kinex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kinex/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.11.23.568445`
 
@@ -30,7 +30,7 @@ kinex
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -40,7 +40,7 @@ kinex
    :depends numpy: ``>=1.19.5``
    :depends pandas: 
    :depends plotly: 
-   :depends python: ``>=3.8,<=3.11``
+   :depends python: ``>=3.8``
    :depends scikit-learn: 
    :depends scipy: ``>=1.10.0``
    :depends statsmodels: 
@@ -92,7 +92,7 @@ kinex
 
     <script>
         var package = "kinex";
-        var versions = ["1.0.2","1.0.1"];
+        var versions = ["1.1.0","1.0.2","1.0.1"];
     </script>
 
 

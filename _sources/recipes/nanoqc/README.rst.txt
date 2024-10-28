@@ -10,11 +10,12 @@ nanoqc
    :replaces_section_title:
    :noindex:
 
-   Create fastQC\-like plots for Oxford Nanopore sequencing data
+   Create fastQC\-like plots for Oxford Nanopore sequencing data.
 
    :homepage: https://github.com/wdecoster/nanoQC
-   :license: MIT / MIT License
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nanoqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoqc/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty149`
 
    
 
@@ -28,10 +29,10 @@ nanoqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.4-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.1-1</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.4-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.1-1</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.3.3-0``
+      ``0.10.0-0``,  ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -41,8 +42,8 @@ nanoqc
 
    
    :depends biopython: 
-   :depends bokeh: ``>=2.4,<3``
    :depends numpy: 
+   :depends plotly: ``>=5.4.0``
    :depends python: ``>=3``
    :requirements:
 
@@ -91,7 +92,7 @@ nanoqc
 
     <script>
         var package = "nanoqc";
-        var versions = ["0.9.4","0.9.2","0.9.1","0.8.1","0.7.0"];
+        var versions = ["0.10.0","0.9.4","0.9.2","0.9.1","0.8.1"];
     </script>
 
 
