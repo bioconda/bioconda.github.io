@@ -72,13 +72,19 @@
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/swiftseal/resistify">https://github.com/swiftseal/resistify</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/SwiftSeal/resistify/blob/main/README.md">https://github.com/SwiftSeal/resistify/blob/main/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify">resistify</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify">resistify</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>Resistify is a nucleotide-binding leucine rich repeat (NLR) annotation
+program, for the purpose of identifying putative disease resistance
+genes in plant genomes.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -88,23 +94,37 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/resistify"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/resistify.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/resistify"><img alt="docker_resistify" src="https://quay.io/repository/biocontainers/resistify/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends biopython<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends hmmer<span class="colon">:</span></dt>
+<dt class="field-odd">depends fair-esm<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dt class="field-even">depends hmmer<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;1.23.0</span></code></p>
 </dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.10</span></code></p>
+</dd>
+<dt class="field-odd">depends pytorch<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends rich<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends rich-argparse<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.24.2</span></code></p>
+</dd>
+<dt class="field-odd">depends sentencepiece<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends torchaudio<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends torchvision<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends transformers<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4.31.0</span></code></p>
 </dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -142,7 +162,7 @@ others.</p>
 
 <script>
     var package = "resistify";
-    var versions = ["0.4.0","0.3.0","0.2.2","0.2.1","0.1.1"];
+    var versions = ["0.5.0","0.4.0","0.3.0","0.2.2","0.2.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

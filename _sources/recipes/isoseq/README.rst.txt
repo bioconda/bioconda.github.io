@@ -27,7 +27,7 @@ isoseq
       
       
 
-      ``4.0.0-0``
+      ``4.2.0-0``,  ``4.0.0-0``
 
       
 
@@ -79,7 +79,7 @@ isoseq
 
     <script>
         var package = "isoseq";
-        var versions = ["4.0.0"];
+        var versions = ["4.2.0","4.0.0"];
     </script>
 
 

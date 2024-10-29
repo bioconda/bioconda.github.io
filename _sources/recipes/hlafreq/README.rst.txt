@@ -10,7 +10,7 @@ hlafreq
    :replaces_section_title:
    :noindex:
 
-   Download and combine HLA frequency data from multiple studies
+   Download and combine HLA frequency data from multiple studies.
 
    :homepage: https://github.com/Vaccitech/HLAfreq
    :license: MIT / MIT
@@ -27,7 +27,7 @@ hlafreq
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -88,7 +88,7 @@ hlafreq
 
     <script>
         var package = "hlafreq";
-        var versions = ["0.0.4","0.0.3","0.0.2"];
+        var versions = ["0.0.5","0.0.4","0.0.3","0.0.2"];
     </script>
 
 

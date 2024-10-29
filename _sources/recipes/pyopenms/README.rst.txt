@@ -29,10 +29,10 @@ pyopenms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.9.1-3</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  <code>2.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.9.1-3</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.0-1</code>,  </span></summary>
       
 
-      ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -42,24 +42,28 @@ pyopenms
 
    
    :depends __glibc: ``>=2.17,<3.0.a0``
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: ``>=1.85.0,<1.86.0a0``
    :depends bzip2: ``>=1.0.8,<1.1.0a0``
    :depends coinmp: ``>=1.8.4,<1.9.0a0``
+   :depends eigen: ``>=3.3.4``
    :depends eigen: ``>=3.4.0,<3.5.0a0``
-   :depends hdf5: ``>=1.14.2,<1.15.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libopenms: ``3.1.0.*``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libsvm: ``>=325,<326.0a0``
+   :depends hdf5: ``>=1.14.3,<1.15.0a0``
+   :depends icu: ``>=73.2,<74.0a0``
+   :depends libgcc: ``>=12``
+   :depends libopenms: ``3.2.0.*``
+   :depends libopenms: ``>=3.2.0``
+   :depends libstdcxx: ``>=12``
+   :depends libsvm: ``>=332,<333.0a0``
    :depends matplotlib-base: 
    :depends numpy: ``1.23.*``
    :depends numpy: ``>=1.23.5,<2.0a0``
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends qt-main: ``>=5.15.8``
    :depends qt-main: ``>=5.15.8,<5.16.0a0``
    :depends sysroot_linux-64: ``2.17.*``
-   :depends xerces-c: ``>=3.2.4,<3.3.0a0``
+   :depends xerces-c: ``>=3.2.5,<3.3.0a0``
    :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
@@ -108,7 +112,7 @@ pyopenms
 
     <script>
         var package = "pyopenms";
-        var versions = ["3.1.0","3.0.0","2.9.1","2.9.1","2.9.1"];
+        var versions = ["3.2.0","3.1.0","3.0.0","2.9.1","2.9.1"];
     </script>
 
 

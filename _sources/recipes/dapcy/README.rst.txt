@@ -10,10 +10,10 @@ dapcy
    :replaces_section_title:
    :noindex:
 
-   An sklearn implementation of discriminant analysis of principal components \(DAPC\) for population genetics
+   An sklearn implementation of discriminant analysis of principal components \(DAPC\) for population genetics.
 
    :homepage: https://gitlab.com/uhasselt-bioinfo/dapcy
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`dapcy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dapcy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dapcy/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ dapcy
       
       
 
-      ``0.1.1-0``
+      ``1.0.1-0``,  ``0.1.1-0``
 
       
 
@@ -43,7 +43,7 @@ dapcy
    :depends requests: 
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends sgkit: 
    :depends yarl: 
    :requirements:
@@ -93,7 +93,7 @@ dapcy
 
     <script>
         var package = "dapcy";
-        var versions = ["0.1.1"];
+        var versions = ["1.0.1","0.1.1"];
     </script>
 
 

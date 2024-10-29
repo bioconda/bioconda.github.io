@@ -27,7 +27,7 @@ seismic-rna
       
       
 
-      ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
+      ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
 
       
 
@@ -35,10 +35,8 @@ seismic-rna
    :depends bowtie2: ``>=2.5.4``
    :depends brotli-python: ``>=1.0``
    :depends click: ``>=8.1``
-   :depends cutadapt: ``>=4.8``
-   :depends fastqc: ``>=0.12.1``
+   :depends fastp: ``>=0.23.0``
    :depends fastqsplitter: ``>=1.2``
-   :depends matplotlib-base: ``>=3.9``
    :depends numba: ``>=0.60``
    :depends numpy: ``>=1.26,<1.27``
    :depends pandas: ``>=2.2``
@@ -96,7 +94,7 @@ seismic-rna
 
     <script>
         var package = "seismic-rna";
-        var versions = ["0.21.1","0.21.0","0.20.1","0.20.0","0.20.0"];
+        var versions = ["0.21.1","0.21.1","0.21.0","0.20.1","0.20.0"];
     </script>
 
 

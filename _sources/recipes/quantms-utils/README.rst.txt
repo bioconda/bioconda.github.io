@@ -10,10 +10,12 @@ quantms-utils
    :replaces_section_title:
    :noindex:
 
-   Python package with scripts and helpers for the quantms workflow
+   Python package with scripts and helpers for the quantms workflow.
 
    :homepage: https://www.github.com/bigbio/quantms-utils
-   :license: MIT
+   :documentation: https://quantms.org/home
+   
+   :license: MIT / MIT
    :recipe: /`quantms-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quantms-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quantms-utils/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ quantms-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
       
 
-      ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -47,13 +49,16 @@ quantms-utils
    :depends ms2rescore: ``3.0.3``
    :depends numpy: 
    :depends pandas: ``>=1.0.0``
+   :depends protobuf: ``>=3.9.2``
    :depends psm-utils: ``0.8.2``
+   :depends pyarrow: 
    :depends pydantic: ``>=1.10,<2``
+   :depends pygam: 
    :depends pyopenms: ``>=2.9.1``
    :depends python: ``>=3.7.0,<4.0.0``
    :depends scikit-learn: 
    :depends scipy: ``1.13.1``
-   :depends sdrf-pipelines: ``>=0.0.29``
+   :depends sdrf-pipelines: ``>=0.0.31``
    :requirements:
 
    .. rubric:: Installation
@@ -101,7 +106,7 @@ quantms-utils
 
     <script>
         var package = "quantms-utils";
-        var versions = ["0.0.11","0.0.10","0.0.9","0.0.8","0.0.7"];
+        var versions = ["0.0.12","0.0.11","0.0.10","0.0.9","0.0.8"];
     </script>
 
 

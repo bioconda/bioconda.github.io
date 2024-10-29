@@ -31,7 +31,7 @@ galaxy-schema
       
       
 
-      ``24.1.2-0``,  ``24.1.1-0``
+      ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
 
       
 
@@ -87,7 +87,7 @@ galaxy-schema
 
     <script>
         var package = "galaxy-schema";
-        var versions = ["24.1.2","24.1.1"];
+        var versions = ["24.1.3","24.1.2","24.1.1"];
     </script>
 
 

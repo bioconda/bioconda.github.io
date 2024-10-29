@@ -88,41 +88,39 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/perl-datetime-locale"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-datetime-locale.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-datetime-locale"><img alt="docker_perl-datetime-locale" src="https://quay.io/repository/biocontainers/perl-datetime-locale/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.43-0</code>,  <code>1.39-0</code>,  <code>1.38-1</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.43-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.39-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.38-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.38-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.37-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.36-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.35-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.34-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.33-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.44-0</code>,  <code>1.43-0</code>,  <code>1.39-0</code>,  <code>1.38-1</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.44-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.43-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.39-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.38-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.38-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.37-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.36-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.35-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.34-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.33-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12-0</span></code></p>
 </details></dd>
-<dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-even">depends libcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=16</span></code></p>
 </dd>
-<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-odd">depends perl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;5.33.0a0 *_perl5</span></code></p>
 </dd>
-<dt class="field-even">depends perl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;5.33.0a0 *_perl5</span></code></p>
+<dt class="field-even">depends perl-cpan-meta-check<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.014.*</span></code></p>
 </dd>
-<dt class="field-odd">depends perl-cpan-meta-check<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.014.*</span></code></p>
+<dt class="field-odd">depends perl-dist-checkconflicts<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.11.*</span></code></p>
 </dd>
-<dt class="field-even">depends perl-dist-checkconflicts<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.11.*</span></code></p>
-</dd>
-<dt class="field-odd">depends perl-file-sharedir<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-namespace-autoclean<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-file-sharedir<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-params-validationcompiler<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.31.*</span></code></p>
+<dt class="field-odd">depends perl-namespace-autoclean<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.31,&lt;0.32.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends perl-specio<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.48.*</span></code></p>
+<dt class="field-even">depends perl-params-validationcompiler<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.31.*</span></code></p>
 </dd>
-<dt class="field-odd">depends perl-test-warnings<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.031.*</span></code></p>
+<dt class="field-odd">depends perl-specio<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.48.*</span></code></p>
 </dd>
-<dt class="field-even">depends perl-test2-plugin-nowarnings<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.09.*</span></code></p>
+<dt class="field-even">depends perl-test-warnings<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.031.*</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-odd">depends perl-test2-plugin-nowarnings<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.09.*</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -157,7 +155,7 @@ others.</p>
 
 <script>
     var package = "perl-datetime-locale";
-    var versions = ["1.43","1.39","1.38","1.38","1.37"];
+    var versions = ["1.44","1.43","1.39","1.38","1.38"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

@@ -13,7 +13,7 @@ prodigal-gv
    A fork of Prodigal meant to improve gene calling for giant viruses
 
    :homepage: https://github.com/apcamargo/prodigal-gv
-   :license: GPL v3
+   :license: GPL-3.0-only
    :recipe: /`prodigal-gv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prodigal-gv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prodigal-gv/meta.yaml>`_
 
    
@@ -27,13 +27,13 @@ prodigal-gv
       
       
 
-      ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``
+      ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -82,7 +82,7 @@ prodigal-gv
 
     <script>
         var package = "prodigal-gv";
-        var versions = ["2.11.0","2.11.0","2.11.0","2.10.0","2.9.0"];
+        var versions = ["2.11.0","2.11.0","2.11.0","2.11.0","2.10.0"];
     </script>
 
 

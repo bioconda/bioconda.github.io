@@ -13,7 +13,7 @@ tirmite
    Map TIR\-pHMM models to genomic sequences for annotation of MITES and complete DNA\-Transposons.
 
    :homepage: https://github.com/Adamtaranto/TIRmite
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`tirmite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite/meta.yaml>`_
 
    Build profile Hidden Markov Models for Terminal Inverted repeat families \(TIR\-pHMMs\) and map to genomic sequences for annotation of MITES and complete DNA\-Transposons with variable internal sequence composition.
@@ -27,7 +27,7 @@ tirmite
       
       
 
-      ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -35,7 +35,7 @@ tirmite
    :depends biopython: ``>=1.70``
    :depends pandas: ``>=0.20.3``
    :depends pymummer: ``>=0.10.3``
-   :depends python: ``>=3``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +83,7 @@ tirmite
 
     <script>
         var package = "tirmite";
-        var versions = ["1.1.4","1.1.3","1.1.3","1.1.1","1.1.0"];
+        var versions = ["1.1.5","1.1.4","1.1.3","1.1.3","1.1.1"];
     </script>
 
 

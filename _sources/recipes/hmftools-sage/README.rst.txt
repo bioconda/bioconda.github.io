@@ -28,10 +28,10 @@ hmftools-sage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0_beta-1</code>,  <code>4.0_beta-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0_beta-2</code>,  <code>4.0_beta-1</code>,  <code>4.0_beta-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  </span></summary>
       
 
-      ``4.0_beta-1``,  ``4.0_beta-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.2.3-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.8-1``,  ``2.8-0``,  ``2.7-1``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``1.0-0``
+      ``4.0_beta-2``,  ``4.0_beta-1``,  ``4.0_beta-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.2.3-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.8-1``,  ``2.8-0``,  ``2.7-1``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ hmftools-sage
 
     <script>
         var package = "hmftools-sage";
-        var versions = ["4.0_beta","4.0_beta","3.4.4","3.4.3","3.4.2"];
+        var versions = ["4.0_beta","4.0_beta","4.0_beta","3.4.4","3.4.3"];
     </script>
 
 

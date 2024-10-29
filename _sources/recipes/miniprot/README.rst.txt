@@ -13,6 +13,7 @@ miniprot
    Miniprot aligns a protein sequence against a genome with affine gap penalty\, splicing and frameshift.
    It is primarily intended for annotating protein\-coding genes in a new species using known genes from other species. 
 
+
    :homepage: https://github.com/lh3/miniprot
    :license: MIT
    :recipe: /`miniprot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miniprot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miniprot/meta.yaml>`_
@@ -29,10 +30,10 @@ miniprot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13-0</code>,  <code>0.12-0</code>,  <code>0.11-2</code>,  <code>0.11-1</code>,  <code>0.11-0</code>,  <code>0.10-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13-1</code>,  <code>0.13-0</code>,  <code>0.12-0</code>,  <code>0.11-2</code>,  <code>0.11-1</code>,  <code>0.11-0</code>,  <code>0.10-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  </span></summary>
       
 
-      ``0.13-0``,  ``0.12-0``,  ``0.11-2``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.13-1``,  ``0.13-0``,  ``0.12-0``,  ``0.11-2``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -41,8 +42,8 @@ miniprot
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +92,7 @@ miniprot
 
     <script>
         var package = "miniprot";
-        var versions = ["0.13","0.12","0.11","0.11","0.11"];
+        var versions = ["0.13","0.13","0.12","0.11","0.11"];
     </script>
 
 

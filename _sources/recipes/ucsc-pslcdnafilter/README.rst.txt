@@ -12,11 +12,11 @@ ucsc-pslcdnafilter
 
     Filter cDNA alignments in psl format.  Filtering criteria are comparative\, selecting near best in genome alignments for each given cDNA and non\-comparative\, based only on the quality of an individual alignment. 
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v472_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-pslcdnafilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslcdnafilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslcdnafilter/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
@@ -30,19 +30,26 @@ ucsc-pslcdnafilter
    :versions:
       
       
+      .. raw:: html
 
-      ``469-0``,  ``445-1``,  ``445-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+         <details><summary><span class="truncated-version-list"><code>472-0</code>,  <code>469-0</code>,  <code>445-1</code>,  <code>445-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  <code>357-0</code>,  <code>332-0</code>,  </span></summary>
+      
 
+      ``472-0``,  ``469-0``,  ``445-1``,  ``445-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libopenssl-static: 
    :depends libpng: ``>=1.6.43,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +97,7 @@ ucsc-pslcdnafilter
 
     <script>
         var package = "ucsc-pslcdnafilter";
-        var versions = ["469","445","445","366","357"];
+        var versions = ["472","469","445","445","366"];
     </script>
 
 

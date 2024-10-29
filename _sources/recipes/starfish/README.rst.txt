@@ -10,10 +10,12 @@ starfish
    :replaces_section_title:
    :noindex:
 
-   standardized analysis pipeline for image\-based transcriptomics
+   Standardized analysis pipeline for image\-based transcriptomics.
 
    :homepage: https://github.com/spacetx/starfish
-   :license: MIT
+   :documentation: https://spacetx-starfish.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`starfish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starfish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starfish/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ starfish
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  </span></summary>
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.27-0``,  ``0.0.26-2``,  ``0.0.25-2``,  ``0.0.23-2``,  ``0.0.21-2``,  ``0.0.20-2``,  ``0.0.19-2``,  ``0.0.18-2``,  ``0.0.17-2``,  ``0.0.16-2``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
+      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.27-0``,  ``0.0.26-2``,  ``0.0.25-2``,  ``0.0.23-2``,  ``0.0.21-2``,  ``0.0.20-2``,  ``0.0.19-2``,  ``0.0.18-2``,  ``0.0.17-2``,  ``0.0.16-2``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
 
       
       .. raw:: html
@@ -41,27 +43,26 @@ starfish
 
    
    :depends click: 
-   :depends dataclasses: 
+   :depends docutils: ``<0.21``
    :depends h5py: 
-   :depends ipywidgets: 
-   :depends jsonschema: 
-   :depends matplotlib-base: 
-   :depends numpy: ``!=1.13.0``
-   :depends pandas: ``>=0.23.4``
-   :depends python: ``>=3.6``
+   :depends jsonschema: ``<4.18``
+   :depends matplotlib-base: ``<3.8``
+   :depends mistune: ``0.8.4``
+   :depends numpy: ``<1.25``
+   :depends python: ``>=3.9,<3.12``
    :depends read-roi: 
    :depends regional: 
-   :depends scikit-image: ``>=0.14.0,!=0.16.0.*,!=0.16.1.*,!=0.16.2.*,!=0.17.1.*,!=0.17.2.*``
+   :depends scikit-image: ``0.21``
    :depends scikit-learn: 
-   :depends scipy: 
+   :depends seaborn-base: 
    :depends semantic_version: 
-   :depends showit: ``>=1.1.4``
-   :depends slicedimage: ``4.1.1``
+   :depends showit: 
+   :depends slicedimage: 
    :depends sympy: 
    :depends tqdm: 
    :depends trackpy: 
    :depends validators: 
-   :depends xarray: ``>=0.14.1``
+   :depends xarray: ``<2023.09``
    :requirements:
 
    .. rubric:: Installation
@@ -109,7 +110,7 @@ starfish
 
     <script>
         var package = "starfish";
-        var versions = ["0.2.2","0.2.1","0.2.0","0.1.10","0.1.9"];
+        var versions = ["0.3.0","0.2.2","0.2.1","0.2.0","0.1.10"];
     </script>
 
 

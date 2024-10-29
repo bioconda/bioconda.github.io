@@ -13,10 +13,15 @@ resistify
    A resistance gene annotation tool
 
    :homepage: https://github.com/swiftseal/resistify
+   :documentation: https://github.com/SwiftSeal/resistify/blob/main/README.md
+   
    :license: MIT
    :recipe: /`resistify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify/meta.yaml>`_
 
-   
+   Resistify is a nucleotide\-binding leucine rich repeat \(NLR\) annotation
+   program\, for the purpose of identifying putative disease resistance
+   genes in plant genomes.
+
 
 
 .. conda:package:: resistify
@@ -27,18 +32,24 @@ resistify
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends biopython: 
+   :depends fair-esm: 
    :depends hmmer: 
-   :depends numpy: 
-   :depends python: ``>=3.9``
+   :depends numpy: ``<1.23.0``
+   :depends python: ``>=3.9,<3.10``
+   :depends pytorch: 
    :depends rich: 
    :depends rich-argparse: 
    :depends scikit-learn: ``0.24.2``
+   :depends sentencepiece: 
+   :depends torchaudio: 
+   :depends torchvision: 
+   :depends transformers: ``4.31.0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +97,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["0.4.0","0.3.0","0.2.2","0.2.1","0.1.1"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.2.2","0.2.1"];
     </script>
 
 
