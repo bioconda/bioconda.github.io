@@ -10,10 +10,10 @@ geosketch
    :replaces_section_title:
    :noindex:
 
-   Geometry\-preserving random sampling
+   Geometry\-preserving random sampling.
 
-   :homepage: https://github.com/brianhie/geosketch/
-   :license: MIT
+   :homepage: https://github.com/brianhie/geosketch
+   :license: MIT / MIT
    :recipe: /`geosketch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geosketch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geosketch/meta.yaml>`_
    :links: doi: :doi:`10.1016/j.cels.2019.05.003`
 
@@ -28,7 +28,7 @@ geosketch
       
       
 
-      ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -84,7 +84,7 @@ geosketch
 
     <script>
         var package = "geosketch";
-        var versions = ["1.2","1.1","1.0"];
+        var versions = ["1.3","1.2","1.1","1.0"];
     </script>
 
 

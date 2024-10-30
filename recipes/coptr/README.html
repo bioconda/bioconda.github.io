@@ -73,7 +73,7 @@
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/tyjo/coptr">https://github.com/tyjo/coptr</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coptr">coptr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coptr/meta.yaml">meta.yaml</a></p>
@@ -88,25 +88,28 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/coptr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/coptr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/coptr"><img alt="docker_coptr" src="https://quay.io/repository/biocontainers/coptr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.4-0</span></code></p>
 </dd>
-<dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.3.2</span></code></p>
+<dt class="field-even">depends bowtie2<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.4.1</span></code></p>
 </dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.19.1</span></code></p>
+<dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.3.2</span></code></p>
 </dd>
-<dt class="field-even">depends pysam<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.16.0.1</span></code></p>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.19.1</span></code></p>
 </dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.6</span></code></p>
+<dt class="field-odd">depends pysam<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.16.0.1</span></code></p>
 </dd>
-<dt class="field-even">depends scipy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.5.2</span></code></p>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.5.2,&lt;2.0.0</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -141,7 +144,7 @@ others.</p>
 
 <script>
     var package = "coptr";
-    var versions = ["1.1.4"];
+    var versions = ["1.1.4","1.1.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

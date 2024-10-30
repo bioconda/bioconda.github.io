@@ -13,7 +13,7 @@ massdash
    MassDash is a streamlined DIA mass spec visualization\, analysis\, optimization\, and rapid prototyping.
 
    :homepage: https://github.com/Roestlab/massdash
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`massdash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/massdash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/massdash/meta.yaml>`_
 
    
@@ -27,23 +27,23 @@ massdash
       
       
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``
+      ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``
 
       
 
    
-   :depends bokeh: ``2.4.3``
-   :depends click: 
+   :depends bokeh: ``>3.0``
+   :depends click: ``>=8.1``
    :depends joblib: 
    :depends matplotlib-base: 
-   :depends matplotlib-venn: 
    :depends numpy: ``>=1.9.0``
    :depends pandas: ``>=0.17``
-   :depends plotly: 
+   :depends plotly: ``5.24.1``
    :depends psutil: 
-   :depends pyopenms: 
-   :depends python: 
-   :depends scipy: 
+   :depends pyopenms: ``>=3.2.0``
+   :depends python: ``>=3.10,<=3.12``
+   :depends requests: 
+   :depends scipy: ``>=1.12.0``
    :depends streamlit: 
    :depends tqdm: 
    :depends upsetplot: 
@@ -94,7 +94,7 @@ massdash
 
     <script>
         var package = "massdash";
-        var versions = ["0.0.9","0.0.8","0.0.6","0.0.5"];
+        var versions = ["0.1.0","0.0.9","0.0.8","0.0.6","0.0.5"];
     </script>
 
 

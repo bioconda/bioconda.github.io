@@ -13,7 +13,7 @@ coptr
    Accurate and robust inference of microbial growth dynamics from metagenomic sequencing reads.
 
    :homepage: https://github.com/tyjo/coptr
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`coptr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coptr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coptr/meta.yaml>`_
 
    
@@ -27,16 +27,17 @@ coptr
       
       
 
-      ``1.1.4-0``
+      ``1.1.4-1``,  ``1.1.4-0``
 
       
 
    
+   :depends bowtie2: ``>=2.4.1``
    :depends matplotlib-base: ``>=3.3.2``
    :depends numpy: ``>=1.19.1``
    :depends pysam: ``>=0.16.0.1``
-   :depends python: ``>=3.6``
-   :depends scipy: ``>=1.5.2``
+   :depends python: ``>=3.7``
+   :depends scipy: ``>=1.5.2,<2.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +85,7 @@ coptr
 
     <script>
         var package = "coptr";
-        var versions = ["1.1.4"];
+        var versions = ["1.1.4","1.1.4"];
     </script>
 
 

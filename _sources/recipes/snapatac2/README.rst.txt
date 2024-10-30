@@ -10,14 +10,14 @@ snapatac2
    :replaces_section_title:
    :noindex:
 
-   SnapATAC2\: Single\-cell epigenomics analysis pipeline
+   SnapATAC2\: Single\-cell epigenomics analysis pipeline.
 
    :homepage: https://github.com/kaizhang/SnapATAC2
-   :documentation: https://kzhang.org/SnapATAC2/
+   :documentation: https://kzhang.org/SnapATAC2
    
    :license: MIT / MIT
    :recipe: /`snapatac2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2/meta.yaml>`_
-   :links: biotools: :biotools:`snapatac`, doi: :doi:`10.1038/s41592-023-02139-9`
+   :links: biotools: :biotools:`snapatac`, doi: :doi:`10.1038/s41592-023-02139-9`, usegalaxy-eu: :usegalaxy-eu:`snapatac2_preprocessing`, usegalaxy-eu: :usegalaxy-eu:`snapatac2_clustering`, usegalaxy-eu: :usegalaxy-eu:`snapatac2_peaks_and_motif`, usegalaxy-eu: :usegalaxy-eu:`snapatac2_plotting`
 
    
 
@@ -30,22 +30,21 @@ snapatac2
       
       
 
-      ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+      ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
 
       
 
    
    :depends anndata: 
-   :depends harmonypy: ``>=0.0.9``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends macs3: 
    :depends multiprocess: 
    :depends natsort: 
    :depends numpy: ``>=1.16.0``
    :depends pandas: ``>=1.0,<2.1.2``
-   :depends plotly: ``>=5.6.0``
-   :depends polars: ``>=0.20.0``
+   :depends plotly: ``>=5.19.0``
+   :depends polars: ``>=1.0``
    :depends pooch: ``>=1.6.0``
    :depends pyarrow: 
    :depends pyfaidx: ``>=0.7.0,<0.8.0``
@@ -54,15 +53,10 @@ snapatac2
    :depends python-kaleido: 
    :depends python_abi: ``3.10.* *_cp310``
    :depends rustworkx: 
-   :depends scanorama: ``>=1.7.3``
-   :depends scanpy: 
    :depends scikit-learn: ``>=1.0``
    :depends scipy: ``>=1.4``
-   :depends scvi-tools: ``>=1.0``
    :depends tqdm: ``>=4.62``
    :depends typing_extensions: 
-   :depends umap-learn: ``>=0.5.0``
-   :depends xgboost: ``>=1.4``
    :requirements:
 
    .. rubric:: Installation
@@ -110,7 +104,7 @@ snapatac2
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.6.4","2.5.3","2.5.2","2.5.1"];
+        var versions = ["2.7.0","2.6.4","2.5.3","2.5.2","2.5.1"];
     </script>
 
 

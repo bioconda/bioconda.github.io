@@ -27,11 +27,16 @@ ampd-up
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends biopython: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``3.6.*``
+   :depends pytorch: ``<2.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +84,7 @@ ampd-up
 
     <script>
         var package = "ampd-up";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

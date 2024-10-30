@@ -10,14 +10,14 @@ decom
    :replaces_section_title:
    :noindex:
 
-   decOM\: Similarity\-based microbial source tracking for contamination assessment of ancient oral samples using k\-mer\-based methods
+   decOM\: Microbial source tracking of ancient oral samples using k\-mers.
 
    :homepage: https://github.com/CamilaDuitama/decOM
-   :developer docs: https://camiladuitama.github.io/gradfolio/
    :license: MIT / MIT
    :recipe: /`decom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/decom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/decom/meta.yaml>`_
 
-   
+   decOM is a similarity\-based microbial source tracking tool for contamination assessment of ancient oral samples using k\-mer\-based methods.
+
 
 
 .. conda:package:: decom
@@ -28,7 +28,7 @@ decom
       
       
 
-      ``0.0.32-0``
+      ``0.0.32-1``,  ``0.0.32-0``
 
       
 
@@ -37,11 +37,12 @@ decom
    :depends dask: ``>=2021.12.0``
    :depends git: 
    :depends importlib_resources: ``>=5.4.0``
-   :depends numpy: ``>=1.7``
+   :depends numpy: 
    :depends pandas: 
    :depends plotly: ``>=5.5.0``
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends python-kaleido: 
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +90,7 @@ decom
 
     <script>
         var package = "decom";
-        var versions = ["0.0.32"];
+        var versions = ["0.0.32","0.0.32"];
     </script>
 
 

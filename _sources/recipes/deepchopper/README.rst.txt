@@ -29,7 +29,7 @@ deepchopper
       
       
 
-      ``1.2.4-0``
+      ``1.2.5-0``,  ``1.2.4-0``
 
       
 
@@ -99,7 +99,7 @@ deepchopper
 
     <script>
         var package = "deepchopper";
-        var versions = ["1.2.4"];
+        var versions = ["1.2.5","1.2.4"];
     </script>
 
 

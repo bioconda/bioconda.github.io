@@ -28,7 +28,7 @@ ncbi-stxtyper
       
       
 
-      ``1.0.25-0``,  ``1.0.24-0``
+      ``1.0.27-0``,  ``1.0.25-0``,  ``1.0.24-0``
 
       
 
@@ -83,7 +83,7 @@ ncbi-stxtyper
 
     <script>
         var package = "ncbi-stxtyper";
-        var versions = ["1.0.25","1.0.24"];
+        var versions = ["1.0.27","1.0.25","1.0.24"];
     </script>
 
 

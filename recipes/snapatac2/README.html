@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">snapatac2</span></span></dt>
-<dd><p>SnapATAC2: Single-cell epigenomics analysis pipeline</p>
+<dd><p>SnapATAC2: Single-cell epigenomics analysis pipeline.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/kaizhang/SnapATAC2">https://github.com/kaizhang/SnapATAC2</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://kzhang.org/SnapATAC2/">https://kzhang.org/SnapATAC2/</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://kzhang.org/SnapATAC2">https://kzhang.org/SnapATAC2</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>MIT / MIT</p>
@@ -82,7 +82,7 @@
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2">snapatac2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-odd">Links<span class="colon">:</span></dt>
-<dd class="field-odd"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/snapatac">snapatac</a>, doi: <a class="extlink-doi reference external" href="https://doi.org/10.1038/s41592-023-02139-9">10.1038/s41592-023-02139-9</a></p>
+<dd class="field-odd"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/snapatac">snapatac</a>, doi: <a class="extlink-doi reference external" href="https://doi.org/10.1038/s41592-023-02139-9">10.1038/s41592-023-02139-9</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=snapatac2_preprocessing">snapatac2_preprocessing</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=snapatac2_clustering">snapatac2_clustering</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=snapatac2_peaks_and_motif">snapatac2_peaks_and_motif</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=snapatac2_plotting">snapatac2_plotting</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -94,83 +94,66 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/snapatac2"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/snapatac2.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/snapatac2"><img alt="docker_snapatac2" src="https://quay.io/repository/biocontainers/snapatac2/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.1-0</span></code></p>
 </dd>
 <dt class="field-even">depends anndata<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends harmonypy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.0.9</span></code></p>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libzlib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;2.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends macs3<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends multiprocess<span class="colon">:</span></dt>
+<dt class="field-odd">depends macs3<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends natsort<span class="colon">:</span></dt>
+<dt class="field-even">depends multiprocess<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.16.0</span></code></p>
+<dt class="field-odd">depends natsort<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.16.0</span></code></p>
 </dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0,&lt;2.1.2</span></code></p>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0,&lt;2.1.2</span></code></p>
 </dd>
-<dt class="field-odd">depends plotly<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.6.0</span></code></p>
+<dt class="field-even">depends plotly<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.19.0</span></code></p>
 </dd>
-<dt class="field-even">depends polars<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.20.0</span></code></p>
-</dd>
-<dt class="field-odd">depends pooch<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.0</span></code></p>
-</dd>
-<dt class="field-even">depends pyarrow<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pyfaidx<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.7.0,&lt;0.8.0</span></code></p>
-</dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends python-igraph<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.10.3</span></code></p>
-</dd>
-<dt class="field-even">depends python-kaleido<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
-</dd>
-<dt class="field-even">depends rustworkx<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends scanorama<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.3</span></code></p>
-</dd>
-<dt class="field-even">depends scanpy<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
+<dt class="field-odd">depends polars<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0</span></code></p>
 </dd>
-<dt class="field-even">depends scipy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p>
+<dt class="field-even">depends pooch<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.0</span></code></p>
 </dd>
-<dt class="field-odd">depends scvi-tools<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0</span></code></p>
+<dt class="field-odd">depends pyarrow<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pyfaidx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.7.0,&lt;0.8.0</span></code></p>
+</dd>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends python-igraph<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.10.3</span></code></p>
+</dd>
+<dt class="field-odd">depends python-kaleido<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
+</dd>
+<dt class="field-odd">depends rustworkx<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0</span></code></p>
+</dd>
+<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p>
 </dd>
 <dt class="field-even">depends tqdm<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.62</span></code></p>
 </dd>
 <dt class="field-odd">depends typing_extensions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends umap-learn<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.5.0</span></code></p>
-</dd>
-<dt class="field-odd">depends xgboost<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p>
-</dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 </dl>
@@ -207,7 +190,7 @@ others.</p>
 
 <script>
     var package = "snapatac2";
-    var versions = ["2.6.4","2.5.3","2.5.2","2.5.1"];
+    var versions = ["2.7.0","2.6.4","2.5.3","2.5.2","2.5.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

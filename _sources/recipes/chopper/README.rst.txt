@@ -13,6 +13,8 @@ chopper
    A rust command line for filtering and trimming long reads.
 
    :homepage: https://github.com/wdecoster/chopper
+   :documentation: https://github.com/wdecoster/chopper#readme
+   
    :license: MIT
    :recipe: /`chopper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chopper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chopper/meta.yaml>`_
 
@@ -28,10 +30,10 @@ chopper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,8 +43,8 @@ chopper
 
    
    :depends clang: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
@@ -92,7 +94,7 @@ chopper
 
     <script>
         var package = "chopper";
-        var versions = ["0.9.0","0.8.0","0.7.0","0.6.0","0.5.0"];
+        var versions = ["0.9.0","0.9.0","0.8.0","0.7.0","0.6.0"];
     </script>
 
 
