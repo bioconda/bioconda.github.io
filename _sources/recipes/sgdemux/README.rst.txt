@@ -27,13 +27,13 @@ sgdemux
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ sgdemux
 
     <script>
         var package = "sgdemux";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.1.2","1.1.1"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0","1.1.2"];
     </script>
 
 

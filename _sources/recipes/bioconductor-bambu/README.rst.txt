@@ -28,10 +28,10 @@ bioconductor-bambu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.2.4-0</code>,  <code>3.0.8-1</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.1-0</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.4-0</code>,  <code>3.0.8-1</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.1-0</code>,  <code>2.0.6-1</code>,  </span></summary>
       
 
-      ``3.4.0-0``,  ``3.2.4-0``,  ``3.0.8-1``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.1-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
+      ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.4-0``,  ``3.0.8-1``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.1-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
 
       
       .. raw:: html
@@ -63,9 +63,9 @@ bioconductor-bambu
    :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -120,7 +120,7 @@ bioconductor-bambu
 
     <script>
         var package = "bioconductor-bambu";
-        var versions = ["3.4.0","3.2.4","3.0.8","3.0.8","3.0.6"];
+        var versions = ["3.4.0","3.4.0","3.2.4","3.0.8","3.0.8"];
     </script>
 
 

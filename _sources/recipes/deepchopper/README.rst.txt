@@ -29,12 +29,13 @@ deepchopper
       
       
 
-      ``1.2.5-0``,  ``1.2.4-0``
+      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
 
    
    :depends datasets: ``2.14.2``
+   :depends deepchopper-cli: ``>=1.2.5``
    :depends evaluate: ``>=0.4.1``
    :depends fastapi: ``0.112.2``
    :depends gradio: ``5.0.1``
@@ -99,7 +100,7 @@ deepchopper
 
     <script>
         var package = "deepchopper";
-        var versions = ["1.2.5","1.2.4"];
+        var versions = ["1.2.5","1.2.5","1.2.4"];
     </script>
 
 

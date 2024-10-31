@@ -15,7 +15,8 @@ resistify
    :homepage: https://github.com/swiftseal/resistify
    :documentation: https://github.com/SwiftSeal/resistify/blob/main/README.md
    
-   :license: MIT
+   :developer docs: https://github.com/SwiftSeal/resistify
+   :license: `GPL-3.0 <https://github.com/SwiftSeal/resistify/blob/main/LICENSE>`_
    :recipe: /`resistify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify/meta.yaml>`_
 
    Resistify is a nucleotide\-binding leucine rich repeat \(NLR\) annotation
@@ -32,7 +33,7 @@ resistify
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -97,7 +98,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["0.5.1","0.5.0","0.4.0","0.3.0","0.2.2"];
+        var versions = ["0.5.1","0.5.1","0.5.0","0.4.0","0.3.0"];
     </script>
 
 

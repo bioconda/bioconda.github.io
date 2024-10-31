@@ -28,40 +28,38 @@ gcnvkernel
       
       
 
-      ``0.8-1``,  ``0.8-0``,  ``0.7-0``
+      ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-0``
 
       
 
    
-   :depends biopython: ``1.76.*``
-   :depends dill: ``0.3.4.*``
-   :depends h5py: ``2.10.0.*``
-   :depends intel-openmp: 
-   :depends keras: ``2.2.4.*``
-   :depends matplotlib: ``3.2.1.*``
-   :depends mkl: ``2019.5.*``
-   :depends mkl-service: ``2.3.0.*``
-   :depends numpy: ``1.17.5.*``
-   :depends pandas: ``1.0.3.*``
-   :depends pip: ``21.3.1.*``
-   :depends pymc3: ``3.1.*``
-   :depends pysam: ``0.15.3.*``
-   :depends python: ``3.6.10.*``
+   :depends biopython: ``1.84.*``
+   :depends blas: ``1.0 mkl``
+   :depends dill: ``0.3.7.*``
+   :depends h5py: ``3.10.0.*``
+   :depends matplotlib: ``3.8.2.*``
+   :depends numpy: ``1.26.2.*``
+   :depends pandas: ``2.1.3.*``
+   :depends pip: ``23.3.1.*``
+   :depends pymc: ``5.10.1.*``
+   :depends pysam: ``0.22.0.*``
+   :depends pytensor: ``2.18.3.*``
+   :depends python: ``3.10.13.*``
+   :depends pytorch: ``2.1.0 *mkl*100``
+   :depends pytorch-lightning: ``2.4.0.*``
    :depends pyvcf: ``0.6.8.*``
-   :depends r-backports: ``1.1.10.*``
-   :depends r-base: ``3.6.2.*``
-   :depends r-data.table: ``1.12.8.*``
-   :depends r-dplyr: ``0.8.5.*``
-   :depends r-getopt: ``1.20.3.*``
-   :depends r-ggplot2: ``3.3.0.*``
-   :depends r-gplots: ``3.0.3.*``
-   :depends r-gsalib: ``2.1.*``
-   :depends r-optparse: ``1.6.4.*``
-   :depends scikit-learn: ``0.23.1.*``
-   :depends scipy: ``1.0.0.*``
-   :depends tensorflow: ``<2``
-   :depends theano: ``1.0.4.*``
-   :depends typing_extensions: ``4.1.1.*``
+   :depends r-backports: ``1.4.1.*``
+   :depends r-base: ``4.3.1.*``
+   :depends r-data.table: ``1.14.8.*``
+   :depends r-dplyr: ``1.1.3.*``
+   :depends r-getopt: ``1.20.4.*``
+   :depends r-ggplot2: ``3.4.4.*``
+   :depends r-gplots: ``3.1.3.*``
+   :depends r-gsalib: ``2.2.1.*``
+   :depends r-optparse: ``1.7.3.*``
+   :depends scikit-learn: ``1.3.2.*``
+   :depends scipy: ``1.11.4.*``
+   :depends tqdm: ``4.66.1.*``
    :requirements:
 
    .. rubric:: Installation
@@ -109,7 +107,7 @@ gcnvkernel
 
     <script>
         var package = "gcnvkernel";
-        var versions = ["0.8","0.8","0.7"];
+        var versions = ["0.9","0.8","0.8","0.7"];
     </script>
 
 

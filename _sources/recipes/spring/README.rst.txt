@@ -10,7 +10,7 @@ spring
    :replaces_section_title:
    :noindex:
 
-   Spring is a compression tool for Fastq files
+   Spring is a compression tool for Fastq files.
 
    :homepage: https://github.com/shubhamchandak94/Spring
    :license: Free for non-commercial use
@@ -26,14 +26,22 @@ spring
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.1-2``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +89,7 @@ spring
 
     <script>
         var package = "spring";
-        var versions = ["1.1.1","1.1.1","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0","1.1.0"];
     </script>
 
 
