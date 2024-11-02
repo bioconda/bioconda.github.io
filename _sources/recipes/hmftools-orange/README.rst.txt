@@ -28,10 +28,10 @@ hmftools-orange
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.1_beta-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.1_beta-1</code>,  <code>3.7.1_beta-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  </span></summary>
       
 
-      ``3.7.1_beta-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.0.0-0``,  ``2.7.1-0``,  ``1.10.2-0``
+      ``3.7.1_beta-1``,  ``3.7.1_beta-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.0.0-0``,  ``2.7.1-0``,  ``1.10.2-0``
 
       
       .. raw:: html
@@ -89,7 +89,7 @@ hmftools-orange
 
     <script>
         var package = "hmftools-orange";
-        var versions = ["3.7.1_beta","3.7.0","3.6.0","3.5.1","3.5.0"];
+        var versions = ["3.7.1_beta","3.7.1_beta","3.7.0","3.6.0","3.5.1"];
     </script>
 
 

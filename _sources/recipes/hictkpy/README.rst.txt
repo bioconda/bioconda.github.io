@@ -10,10 +10,10 @@ hictkpy
    :replaces_section_title:
    :noindex:
 
-   Python bindings for hictk
+   Python bindings for hictk\: read and write .cool and .hic files directly from Python
 
    :homepage: https://github.com/paulsengroup/hictkpy
-   :documentation: https://github.com/paulsengroup/hictkpy#readme
+   :documentation: https://hictkpy.readthedocs.io/en/stable/
    
    :license: MIT
    :recipe: /`hictkpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hictkpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hictkpy/meta.yaml>`_
@@ -30,22 +30,27 @@ hictkpy
       
       
 
-      ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``1.0.0-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
-   :depends hdf5: ``>=1.12``
-   :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends numpy: 
+   :depends hdf5: ``>=1.14,<2.0a0``
+   :depends hdf5: ``>=1.14.4,<1.14.5.0a0``
+   :depends libarrow: ``>=18.0.0,<18.1.0a0``
+   :depends libdeflate: ``>=1,<2.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: 
+   :depends libgcc-ng: ``>=13``
+   :depends libstdcxx: 
+   :depends libstdcxx-ng: ``>=13``
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pandas: 
+   :depends pyarrow: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
-   :depends zstd: ``>=1.5``
+   :depends zstd: ``>=1.5,<2.0a0``
    :depends zstd: ``>=1.5.6,<1.6.0a0``
    :requirements:
 
@@ -94,7 +99,7 @@ hictkpy
 
     <script>
         var package = "hictkpy";
-        var versions = ["0.0.5","0.0.5","0.0.5","0.0.4","0.0.3"];
+        var versions = ["1.0.0","0.0.5","0.0.5","0.0.5","0.0.4"];
     </script>
 
 

@@ -13,6 +13,8 @@ derna
    RNA sequence design for a target protein sequence.
 
    :homepage: https://github.com/elkebir-group/derna
+   :documentation: https://github.com/elkebir-group/derna/blob/v1.0.4/README.md
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`derna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/derna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/derna/meta.yaml>`_
 
@@ -27,7 +29,7 @@ derna
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -81,7 +83,7 @@ derna
 
     <script>
         var package = "derna";
-        var versions = ["1.0.3","1.0.3","1.0.2","1.0.2"];
+        var versions = ["1.0.4","1.0.3","1.0.3","1.0.2","1.0.2"];
     </script>
 
 
