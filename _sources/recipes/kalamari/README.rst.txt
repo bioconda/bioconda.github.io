@@ -36,10 +36,10 @@ kalamari
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.7.1-0</code>,  <code>5.7.0-0</code>,  <code>5.6.3-0</code>,  <code>5.6.2-0</code>,  <code>5.6.1-0</code>,  <code>5.6.0-2</code>,  <code>5.6.0-0</code>,  <code>5.5.0-0</code>,  <code>5.4.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.7.2-0</code>,  <code>5.7.1-0</code>,  <code>5.7.0-0</code>,  <code>5.6.3-0</code>,  <code>5.6.2-0</code>,  <code>5.6.1-0</code>,  <code>5.6.0-2</code>,  <code>5.6.0-0</code>,  <code>5.5.0-0</code>,  </span></summary>
       
 
-      ``5.7.1-0``,  ``5.7.0-0``,  ``5.6.3-0``,  ``5.6.2-0``,  ``5.6.1-0``,  ``5.6.0-2``,  ``5.6.0-0``,  ``5.5.0-0``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
+      ``5.7.2-0``,  ``5.7.1-0``,  ``5.7.0-0``,  ``5.6.3-0``,  ``5.6.2-0``,  ``5.6.1-0``,  ``5.6.0-2``,  ``5.6.0-0``,  ``5.5.0-0``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ kalamari
 
     <script>
         var package = "kalamari";
-        var versions = ["5.7.1","5.7.0","5.6.3","5.6.2","5.6.1"];
+        var versions = ["5.7.2","5.7.1","5.7.0","5.6.3","5.6.2"];
     </script>
 
 

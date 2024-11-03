@@ -27,14 +27,14 @@ rabbitqcplus
       
       
 
-      ``2.2.9-1``,  ``2.2.9-0``,  ``2.2.8-0``,  ``2.2.7-0``
+      ``2.3.0-0``,  ``2.2.9-1``,  ``2.2.9-0``,  ``2.2.8-0``,  ``2.2.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -83,7 +83,7 @@ rabbitqcplus
 
     <script>
         var package = "rabbitqcplus";
-        var versions = ["2.2.9","2.2.9","2.2.8","2.2.7"];
+        var versions = ["2.3.0","2.2.9","2.2.9","2.2.8","2.2.7"];
     </script>
 
 

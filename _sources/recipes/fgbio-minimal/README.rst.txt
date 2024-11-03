@@ -26,9 +26,17 @@ fgbio-minimal
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.5.1-0</code>,  </span></summary>
+      
 
+      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -81,7 +89,7 @@ fgbio-minimal
 
     <script>
         var package = "fgbio-minimal";
-        var versions = ["2.3.0","2.2.1","2.2.0","2.1.0","2.0.2"];
+        var versions = ["2.4.0","2.3.0","2.2.1","2.2.0","2.1.0"];
     </script>
 
 

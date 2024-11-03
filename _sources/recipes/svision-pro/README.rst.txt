@@ -13,7 +13,7 @@ svision-pro
    Neural\-network\-based long\-read SV caller.
 
    :homepage: https://github.com/songbowang125/SVision-pro
-   :documentation: https://github.com/songbowang125/SVision-pro/blob/v2.0/README.md
+   :documentation: https://github.com/songbowang125/SVision-pro/blob/v2.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`svision-pro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svision-pro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svision-pro/meta.yaml>`_
@@ -30,7 +30,7 @@ svision-pro
       
       
 
-      ``2.0-0``
+      ``2.1-0``,  ``2.0-0``
 
       
 
@@ -89,7 +89,7 @@ svision-pro
 
     <script>
         var package = "svision-pro";
-        var versions = ["2.0"];
+        var versions = ["2.1","2.0"];
     </script>
 
 

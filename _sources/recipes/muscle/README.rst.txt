@@ -10,7 +10,7 @@ muscle
    :replaces_section_title:
    :noindex:
 
-   MUSCLE\: multiple sequence alignment with high accuracy and high throughput
+   Multiple sequence and structure alignment with top benchmark scores scalable to thousands of sequences
 
    :homepage: https://github.com/rcedgar/muscle
    :license: GPL-3.0-only
@@ -29,10 +29,10 @@ muscle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1.0-1</code>,  <code>5.1-1</code>,  <code>5.1.0-0</code>,  <code>5.1-0</code>,  <code>3.8.1551-6</code>,  <code>3.8.1551-5</code>,  <code>3.8.1551-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2-0</code>,  <code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1-1</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.1-0</code>,  <code>3.8.1551-6</code>,  <code>3.8.1551-5</code>,  </span></summary>
       
 
-      ``5.1-3``,  ``5.1-2``,  ``5.1.0-1``,  ``5.1-1``,  ``5.1.0-0``,  ``5.1-0``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
+      ``5.2-0``,  ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.1-0``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ muscle
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ muscle
 
     <script>
         var package = "muscle";
-        var versions = ["5.1","5.1","5.1.0","5.1","5.1.0"];
+        var versions = ["5.2","5.1","5.1","5.1","5.1.0"];
     </script>
 
 
