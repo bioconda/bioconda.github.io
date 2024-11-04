@@ -27,12 +27,12 @@ hmftools-redux
       
       
 
-      ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
+      ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=17``
    :depends sambamba: ``>=1.0.1``
    :requirements:
 
@@ -81,7 +81,7 @@ hmftools-redux
 
     <script>
         var package = "hmftools-redux";
-        var versions = ["1.0_beta","1.0_beta","1.0_beta"];
+        var versions = ["1.0_beta","1.0_beta","1.0_beta","1.0_beta"];
     </script>
 
 

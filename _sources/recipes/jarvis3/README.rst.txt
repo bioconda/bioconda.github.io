@@ -27,7 +27,7 @@ jarvis3
       
       
 
-      ``3.7-1``,  ``3.7-0``
+      ``3.7-2``,  ``3.7-1``,  ``3.7-0``
 
       
 
@@ -80,7 +80,7 @@ jarvis3
 
     <script>
         var package = "jarvis3";
-        var versions = ["3.7","3.7"];
+        var versions = ["3.7","3.7","3.7"];
     </script>
 
 
