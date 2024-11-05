@@ -27,16 +27,18 @@ perl-json-create
       
       
 
-      ``0.35-2``,  ``0.35-1``,  ``0.35-0``,  ``0.24-3``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``
+      ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.35-0``,  ``0.24-3``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-json-parse: ``>=0.60``
+   :depends perl-json-parse: ``>=0.62,<0.63.0a0``
    :depends perl-unicode-utf8: ``>=0.62``
+   :depends perl-unicode-utf8: ``>=0.62,<0.63.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +86,7 @@ perl-json-create
 
     <script>
         var package = "perl-json-create";
-        var versions = ["0.35","0.35","0.35","0.24","0.24"];
+        var versions = ["0.35","0.35","0.35","0.35","0.24"];
     </script>
 
 

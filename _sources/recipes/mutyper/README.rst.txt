@@ -29,7 +29,7 @@ mutyper
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -89,7 +89,7 @@ mutyper
 
     <script>
         var package = "mutyper";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.2","1.0.2"];
     </script>
 
 

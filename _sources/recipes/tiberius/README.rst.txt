@@ -12,8 +12,9 @@ tiberius
 
    Tiberius is a programme for quantifying and analysing genetic sequence data.
 
+
    :homepage: https://github.com/Gaius-Augustus/Tiberius
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`tiberius <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius/meta.yaml>`_
 
    
@@ -27,7 +28,7 @@ tiberius
       
       
 
-      ``1.0.0-0``
+      ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -89,7 +90,7 @@ tiberius
 
     <script>
         var package = "tiberius";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.1","1.0.0"];
     </script>
 
 

@@ -13,7 +13,9 @@ tinscan
    Find alignment signatures characteristic of transposon insertion sites.
 
    :homepage: https://github.com/Adamtaranto/TE-insertion-scanner
-   :license: MIT / MIT License
+   :documentation: https://github.com/Adamtaranto/TE-insertion-scanner/blob/0.2.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`tinscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinscan/meta.yaml>`_
 
    
@@ -27,13 +29,13 @@ tinscan
       
       
 
-      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
    :depends biopython: ``>=1.70``
-   :depends python: ``>=3``
+   :depends python: ``>=3.8``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +83,7 @@ tinscan
 
     <script>
         var package = "tinscan";
-        var versions = ["0.2.0","0.2.0","0.2.0"];
+        var versions = ["0.2.1","0.2.0","0.2.0","0.2.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ perl-perlio-gzip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20-5</code>,  <code>0.20-4</code>,  <code>0.20-3</code>,  <code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-3</code>,  <code>0.19-2</code>,  <code>0.19-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.20-6</code>,  <code>0.20-5</code>,  <code>0.20-4</code>,  <code>0.20-3</code>,  <code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-3</code>,  <code>0.19-2</code>,  </span></summary>
       
 
-      ``0.20-5``,  ``0.20-4``,  ``0.20-3``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+      ``0.20-6``,  ``0.20-5``,  ``0.20-4``,  ``0.20-3``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ perl-perlio-gzip
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: 
    :requirements:

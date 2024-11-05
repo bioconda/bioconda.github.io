@@ -27,13 +27,13 @@ perl-padwalker
       
       
 
-      ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.3-2``,  ``2.3-1``,  ``2.3-0``
+      ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.3-2``,  ``2.3-1``,  ``2.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -82,7 +82,7 @@ perl-padwalker
 
     <script>
         var package = "perl-padwalker";
-        var versions = ["2.5","2.5","2.5","2.5","2.3"];
+        var versions = ["2.5","2.5","2.5","2.5","2.5"];
     </script>
 
 

@@ -10,7 +10,7 @@ cmaple
    :replaces_section_title:
    :noindex:
 
-   MAximum Parsimonious Likelihood Estimation in C\/C\+\+
+   MAximum Parsimonious Likelihood Estimation in C\/C\+\+.
 
    :homepage: https://github.com/iqtree/cmaple
    :documentation: https://github.com/iqtree/cmaple/wiki
@@ -30,14 +30,14 @@ cmaple
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ cmaple
 
     <script>
         var package = "cmaple";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.1.0","1.0.0","1.0.0"];
     </script>
 
 

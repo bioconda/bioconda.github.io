@@ -27,7 +27,7 @@ perl-url-encode
       
       
 
-      ``0.03-0``
+      ``0.03-1``,  ``0.03-0``
 
       
 
@@ -80,7 +80,7 @@ perl-url-encode
 
     <script>
         var package = "perl-url-encode";
-        var versions = ["0.03"];
+        var versions = ["0.03","0.03"];
     </script>
 
 

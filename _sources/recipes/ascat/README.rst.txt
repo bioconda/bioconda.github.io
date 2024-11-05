@@ -19,9 +19,11 @@ ascat
    both parental alleles for all SNP loci across the genome\).
 
 
-   :homepage: https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/
+   :homepage: https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software
+   :documentation: https://github.com/VanLoo-lab/ascat/blob/v3.2.0/README.md
+   
    :developer docs: https://github.com/Crick-CancerGenomics/ascat
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ascat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat/meta.yaml>`_
    :links: biotools: :biotools:`ascat`, doi: :doi:`10.1073/pnas.1009843107`
 
@@ -37,10 +39,10 @@ ascat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.5.2-4</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.5.2-4</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  </span></summary>
       
 
-      ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.5-0``
+      ``3.2.0-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.5-0``
 
       
       .. raw:: html
@@ -105,7 +107,7 @@ ascat
 
     <script>
         var package = "ascat";
-        var versions = ["3.1.1","3.1.1","3.0.0","3.0.0","2.5.2"];
+        var versions = ["3.2.0","3.1.1","3.1.1","3.0.0","3.0.0"];
     </script>
 
 

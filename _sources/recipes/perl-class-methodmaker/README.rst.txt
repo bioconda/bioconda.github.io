@@ -27,15 +27,15 @@ perl-class-methodmaker
       
       
 
-      ``2.24-4``,  ``2.24-3``,  ``2.24-2``,  ``2.24-1``,  ``2.24-0``
+      ``2.24-5``,  ``2.24-4``,  ``2.24-3``,  ``2.24-2``,  ``2.24-1``,  ``2.24-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
-   :depends perl-getopt-long: 
+   :depends perl-getopt-long: ``>=2.58,<3.0a0``
    :depends perl-pod-escapes: 
    :depends perl-test: 
    :requirements:

@@ -12,7 +12,7 @@ pybigtools
 
    pybigtools\: Python bindings to the Bigtools Rust library for high\-performance BigWig and BigBed I\/O
 
-   :homepage: https://github.com/jackh726/bigtools/
+   :homepage: https://github.com/jackh726/bigtools
    :documentation: https://bigtools.readthedocs.io
    
    :license: MIT / MIT
@@ -29,13 +29,21 @@ pybigtools
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  </span></summary>
+      
 
+      ``0.2.2-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends numpy: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -86,7 +94,7 @@ pybigtools
 
     <script>
         var package = "pybigtools";
-        var versions = ["0.2.0","0.2.0","0.1.4","0.1.4","0.1.3"];
+        var versions = ["0.2.2","0.2.0","0.2.0","0.1.4","0.1.4"];
     </script>
 
 

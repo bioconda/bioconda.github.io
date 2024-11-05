@@ -27,14 +27,16 @@ gfftk
       
       
 
-      ``24.2.4-0``,  ``23.12.5-0``,  ``23.9.6-0``
+      ``24.10.30-0``,  ``24.2.4-0``,  ``23.12.5-0``,  ``23.9.6-0``
 
       
 
    
+   :depends gb-io: ``>=0.3.2``
    :depends natsort: 
    :depends numpy: 
    :depends python: ``>=3.6``
+   :depends requests: 
    :depends table2asn: 
    :requirements:
 
@@ -83,7 +85,7 @@ gfftk
 
     <script>
         var package = "gfftk";
-        var versions = ["24.2.4","23.12.5","23.9.6"];
+        var versions = ["24.10.30","24.2.4","23.12.5","23.9.6"];
     </script>
 
 

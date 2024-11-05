@@ -27,7 +27,7 @@ buscolite
       
       
 
-      ``23.10.26-0``
+      ``24.11.3-0``,  ``23.10.26-0``
 
       
 
@@ -85,7 +85,7 @@ buscolite
 
     <script>
         var package = "buscolite";
-        var versions = ["23.10.26"];
+        var versions = ["24.11.3","23.10.26"];
     </script>
 
 

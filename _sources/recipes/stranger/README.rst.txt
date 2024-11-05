@@ -13,6 +13,9 @@ stranger
    Annotate VCF files with str variants
 
    :homepage: https://github.com/moonso/stranger
+   :documentation: https://github.com/Clinical-Genomics/stranger
+   
+   :developer docs: https://github.com/Clinical-Genomics/stranger
    :license: MIT / MIT
    :recipe: /`stranger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger/meta.yaml>`_
 
@@ -27,7 +30,7 @@ stranger
       
       
 
-      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
+      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
 
       
 
@@ -36,6 +39,7 @@ stranger
    :depends coloredlogs: 
    :depends python: ``>=3.6.0``
    :depends pyyaml: 
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ stranger
 
     <script>
         var package = "stranger";
-        var versions = ["0.9.2","0.9.1","0.9.0","0.8.1"];
+        var versions = ["0.9.2","0.9.2","0.9.1","0.9.0","0.8.1"];
     </script>
 
 

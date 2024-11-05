@@ -28,7 +28,7 @@ decom
       
       
 
-      ``0.0.32-1``,  ``0.0.32-0``
+      ``0.0.32-2``,  ``0.0.32-1``,  ``0.0.32-0``
 
       
 
@@ -37,10 +37,11 @@ decom
    :depends dask: ``>=2021.12.0``
    :depends git: 
    :depends importlib_resources: ``>=5.4.0``
-   :depends numpy: 
+   :depends kmtricks: ``>=1.4.0``
+   :depends numpy: ``>=1.7``
    :depends pandas: 
    :depends plotly: ``>=5.5.0``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.9,<3.13``
    :depends python-kaleido: 
    :depends setuptools: 
    :requirements:
@@ -90,7 +91,7 @@ decom
 
     <script>
         var package = "decom";
-        var versions = ["0.0.32","0.0.32"];
+        var versions = ["0.0.32","0.0.32","0.0.32"];
     </script>
 
 
