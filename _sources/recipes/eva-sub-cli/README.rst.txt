@@ -27,7 +27,7 @@ eva-sub-cli
       
       
 
-      ``0.4-0``,  ``0.3-0``,  ``0.2-0``
+      ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
@@ -41,7 +41,7 @@ eva-sub-cli
    :depends python: ``>=3.8``
    :depends pyyaml: 
    :depends requests: 
-   :depends vcf-validator: ``>=0.9.7``
+   :depends vcf-validator: ``>=0.10.0``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ eva-sub-cli
 
     <script>
         var package = "eva-sub-cli";
-        var versions = ["0.4","0.3","0.2"];
+        var versions = ["0.4.1","0.4","0.3","0.2"];
     </script>
 
 

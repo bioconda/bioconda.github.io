@@ -10,12 +10,11 @@ phabox
    :replaces_section_title:
    :noindex:
 
-   Phage BOX is a Python library for phage\-related tasks.
+   Virus identification and analysis tool set
 
-   :homepage: https://phage.ee.cityu.edu.hk
+   :homepage: https://github.com/KennthShang/PhaBOX
    :documentation: https://github.com/KennthShang/PhaBOX/wiki
    
-   :developer docs: https://github.com/KennthShang/PhaBOX
    :license: OTHER / AFL-3.0
    :recipe: /`phabox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phabox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phabox/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioadv/vbad101`, biotools: :biotools:`phabox`
@@ -31,16 +30,19 @@ phabox
       
       
 
-      ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
 
    
    :depends biopython: ``>=1.84``
+   :depends blast: ``>=2.16.0``
    :depends datasets: ``>=3``
+   :depends diamond: ``<=0.9.14``
    :depends fasttree: ``>=2.1.11``
    :depends kcounter: ``>=0.1.1``
    :depends mafft: ``>=7.525``
+   :depends mcl: ``>=22.282``
    :depends networkx: ``>=3.4``
    :depends numpy: ``>=1.26``
    :depends pandas: ``>=2``
@@ -98,7 +100,7 @@ phabox
 
     <script>
         var package = "phabox";
-        var versions = ["2.1.0","2.0.0"];
+        var versions = ["2.1.4","2.1.0","2.0.0"];
     </script>
 
 

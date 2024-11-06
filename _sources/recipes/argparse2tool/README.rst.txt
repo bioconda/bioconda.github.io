@@ -27,13 +27,12 @@ argparse2tool
       
       
 
-      ``0.4.9-0``
+      ``0.5.2-0``,  ``0.4.9-0``
 
       
 
    
-   :depends click: 
-   :depends galaxyxml: ``>=0.2.3``
+   :depends galaxyxml: ``>=0.4.6``
    :depends jinja2: 
    :depends python: ``>=3``
    :requirements:
@@ -83,7 +82,7 @@ argparse2tool
 
     <script>
         var package = "argparse2tool";
-        var versions = ["0.4.9"];
+        var versions = ["0.5.2","0.4.9"];
     </script>
 
 

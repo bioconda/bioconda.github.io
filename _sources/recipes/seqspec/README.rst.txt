@@ -27,7 +27,7 @@ seqspec
       
       
 
-      ``0.3.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -86,7 +86,7 @@ seqspec
 
     <script>
         var package = "seqspec";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.1","0.3.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bftools
 
    Bio\-Formats Command line tools
 
-   :homepage: https://docs.openmicroscopy.org/bio-formats/6.7.0/users/comlinetools/index.html
+   :homepage: https://docs.openmicroscopy.org/bio-formats/8.0.0/users/comlinetools/index.html
    :license: GNU copyleft License
    :recipe: /`bftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bftools/meta.yaml>`_
 
@@ -27,7 +27,7 @@ bftools
       
       
 
-      ``6.7.0-0``,  ``5.7.1-1``,  ``5.7.1-0``
+      ``8.0.0-0``,  ``6.7.0-0``,  ``5.7.1-1``,  ``5.7.1-0``
 
       
 
@@ -80,7 +80,7 @@ bftools
 
     <script>
         var package = "bftools";
-        var versions = ["6.7.0","5.7.1","5.7.1"];
+        var versions = ["8.0.0","6.7.0","5.7.1","5.7.1"];
     </script>
 
 

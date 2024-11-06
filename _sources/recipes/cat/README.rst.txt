@@ -13,8 +13,8 @@ cat
    CAT\/BAT\: tool for taxonomic classification of contigs and metagenome\-assembled genomes \(MAGs\)
 
 
-   :homepage: https://github.com/dutilh/CAT
-   :license: MIT
+   :homepage: https://github.com/MGXlab/CAT_pack
+   :license: MIT / MIT
    :recipe: /`cat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cat/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ cat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.3-0</code>,  <code>5.2.3-1</code>,  <code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.1-0</code>,  <code>5.3-0</code>,  <code>5.2.3-1</code>,  <code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  </span></summary>
       
 
-      ``5.3-0``,  ``5.2.3-1``,  ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
+      ``6.0.1-0``,  ``5.3-0``,  ``5.2.3-1``,  ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ cat
    
    :depends diamond: 
    :depends prodigal: 
-   :depends python: ``3.*``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation
@@ -91,7 +91,7 @@ cat
 
     <script>
         var package = "cat";
-        var versions = ["5.3","5.2.3","5.2.3","5.2.2","5.2.1"];
+        var versions = ["6.0.1","5.3","5.2.3","5.2.3","5.2.2"];
     </script>
 
 

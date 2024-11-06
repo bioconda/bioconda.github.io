@@ -28,10 +28,10 @@ saccharis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.1.dev21-5</code>,  <code>2.0.1.dev21-4</code>,  <code>2.0.1.dev21-3</code>,  <code>2.0.1.dev21-2</code>,  <code>2.0.1.dev21-0</code>,  <code>2.0.0.dev21-2</code>,  <code>2.0.0.dev21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.1.dev21-7</code>,  <code>2.0.1.dev21-6</code>,  <code>2.0.1.dev21-5</code>,  <code>2.0.1.dev21-4</code>,  <code>2.0.1.dev21-3</code>,  <code>2.0.1.dev21-2</code>,  <code>2.0.1.dev21-0</code>,  </span></summary>
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.1.dev21-5``,  ``2.0.1.dev21-4``,  ``2.0.1.dev21-3``,  ``2.0.1.dev21-2``,  ``2.0.1.dev21-0``,  ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.1.dev21-7``,  ``2.0.1.dev21-6``,  ``2.0.1.dev21-5``,  ``2.0.1.dev21-4``,  ``2.0.1.dev21-3``,  ``2.0.1.dev21-2``,  ``2.0.1.dev21-0``,  ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
       .. raw:: html

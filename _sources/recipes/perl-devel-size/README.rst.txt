@@ -26,9 +26,17 @@ perl-devel-size
    :versions:
       
       
+      .. raw:: html
 
-      ``0.83-5``,  ``0.83-4``,  ``0.83-3``,  ``0.83-2``,  ``0.83-1``,  ``0.83-0``,  ``0.82-0``,  ``0.80-1``,  ``0.80-0``
+         <details><summary><span class="truncated-version-list"><code>0.84-0</code>,  <code>0.83-5</code>,  <code>0.83-4</code>,  <code>0.83-3</code>,  <code>0.83-2</code>,  <code>0.83-1</code>,  <code>0.83-0</code>,  <code>0.82-0</code>,  <code>0.80-1</code>,  </span></summary>
+      
 
+      ``0.84-0``,  ``0.83-5``,  ``0.83-4``,  ``0.83-3``,  ``0.83-2``,  ``0.83-1``,  ``0.83-0``,  ``0.82-0``,  ``0.80-1``,  ``0.80-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -82,7 +90,7 @@ perl-devel-size
 
     <script>
         var package = "perl-devel-size";
-        var versions = ["0.83","0.83","0.83","0.83","0.83"];
+        var versions = ["0.84","0.83","0.83","0.83","0.83"];
     </script>
 
 

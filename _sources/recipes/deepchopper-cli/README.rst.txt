@@ -29,7 +29,7 @@ deepchopper-cli
       
       
 
-      ``1.2.5-0``
+      ``1.2.6-0``,  ``1.2.5-0``
 
       
 
@@ -84,7 +84,7 @@ deepchopper-cli
 
     <script>
         var package = "deepchopper-cli";
-        var versions = ["1.2.5"];
+        var versions = ["1.2.6","1.2.5"];
     </script>
 
 

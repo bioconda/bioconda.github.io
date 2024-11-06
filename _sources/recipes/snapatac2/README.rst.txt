@@ -30,7 +30,7 @@ snapatac2
       
       
 
-      ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+      ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
 
       
 
@@ -56,6 +56,7 @@ snapatac2
    :depends scikit-learn: ``>=1.0``
    :depends scipy: ``>=1.4``
    :depends tqdm: ``>=4.62``
+   :depends typeguard: ``>=4.0``
    :depends typing_extensions: 
    :requirements:
 
@@ -104,7 +105,7 @@ snapatac2
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.7.0","2.6.4","2.5.3","2.5.2","2.5.1"];
+        var versions = ["2.7.1","2.7.0","2.6.4","2.5.3","2.5.2"];
     </script>
 
 

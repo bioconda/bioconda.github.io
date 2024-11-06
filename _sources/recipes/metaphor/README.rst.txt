@@ -35,10 +35,10 @@ metaphor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.13-0</code>,  <code>1.7.12-0</code>,  <code>1.7.11-0</code>,  <code>1.7.10-0</code>,  <code>1.7.9-1</code>,  <code>1.7.9-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-1</code>,  <code>1.7.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.13-1</code>,  <code>1.7.13-0</code>,  <code>1.7.12-0</code>,  <code>1.7.11-0</code>,  <code>1.7.10-0</code>,  <code>1.7.9-1</code>,  <code>1.7.9-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-1</code>,  </span></summary>
       
 
-      ``1.7.13-0``,  ``1.7.12-0``,  ``1.7.11-0``,  ``1.7.10-0``,  ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-1``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``
+      ``1.7.13-1``,  ``1.7.13-0``,  ``1.7.12-0``,  ``1.7.11-0``,  ``1.7.10-0``,  ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-1``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ metaphor
    :depends python: ``>=3.9,<3.12``
    :depends pyyaml: 
    :depends requests: 
-   :depends snakemake: ``>=7.5``
+   :depends snakemake-minimal: ``>=7.5,<8.0``
    :depends snakemake-wrapper-utils: 
    :depends tqdm: 
    :depends zstandard: 
@@ -104,7 +104,7 @@ metaphor
 
     <script>
         var package = "metaphor";
-        var versions = ["1.7.13","1.7.12","1.7.11","1.7.10","1.7.9"];
+        var versions = ["1.7.13","1.7.13","1.7.12","1.7.11","1.7.10"];
     </script>
 
 
