@@ -29,7 +29,7 @@ polap
       
       
 
-      ``0.2.6-0``,  ``0.2.4-0``
+      ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
 
       
 
@@ -44,14 +44,18 @@ polap
    :depends entrez-direct: 
    :depends flye: ``>=2.9.2``
    :depends gfastats: 
+   :depends gfatools: 
    :depends icu: 
    :depends kmer-jellyfish: 
    :depends libxml2: 
    :depends minimap2: ``>=2.24``
+   :depends networkx: 
    :depends orthofinder: 
+   :depends pandas: 
    :depends parallel: 
    :depends perl: 
    :depends perl-xml-libxml: 
+   :depends progressivemauve: 
    :depends python: 
    :depends r-base: 
    :depends r-dplyr: 
@@ -110,7 +114,7 @@ polap
 
     <script>
         var package = "polap";
-        var versions = ["0.2.6","0.2.4"];
+        var versions = ["0.3.7","0.3.7","0.2.6","0.2.4"];
     </script>
 
 

@@ -30,9 +30,17 @@ ensembl-utils
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+      
 
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -90,7 +98,7 @@ ensembl-utils
 
     <script>
         var package = "ensembl-utils";
-        var versions = ["0.5.1","0.5.0","0.4.4","0.4.3","0.4.2"];
+        var versions = ["0.6.0","0.5.1","0.5.0","0.4.4","0.4.3"];
     </script>
 
 
