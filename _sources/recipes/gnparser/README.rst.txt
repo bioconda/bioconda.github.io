@@ -30,10 +30,10 @@ gnparser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.3-1</code>,  <code>1.10.3-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-0</code>,  <code>1.9.2-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.0-0</code>,  <code>1.7.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.4-0</code>,  <code>1.10.3-1</code>,  <code>1.10.3-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-0</code>,  <code>1.9.2-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.10.3-1``,  ``1.10.3-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``
+      ``1.10.4-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``
 
       
       .. raw:: html
@@ -89,7 +89,7 @@ gnparser
 
     <script>
         var package = "gnparser";
-        var versions = ["1.10.3","1.10.3","1.10.1","1.10.0","1.9.2"];
+        var versions = ["1.10.4","1.10.3","1.10.3","1.10.1","1.10.0"];
     </script>
 
 

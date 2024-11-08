@@ -12,10 +12,13 @@ poppunk
 
    PopPUNK \(POPulation Partitioning Using Nucleotide Kmers\)
 
-   :homepage: https://poppunk.bacpop.org/
+   :homepage: https://poppunk.bacpop.org
+   :documentation: https://poppunk.bacpop.org/index.html
+   
+   :developer docs: https://github.com/bacpop/PopPUNK
    :license: APACHE / Apache-2.0
    :recipe: /`poppunk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk/meta.yaml>`_
-   :links: doi: :doi:`10.1101/gr.241455.118`
+   :links: doi: :doi:`10.1101/gr.241455.118`, biotools: :biotools:`poppunk`
 
    
 
@@ -29,10 +32,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-1</code>,  <code>2.6.5-0</code>,  <code>2.6.4-0</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-1</code>,  <code>2.6.5-0</code>,  <code>2.6.4-0</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  </span></summary>
       
 
-      ``2.7.0-0``,  ``2.6.7-0``,  ``2.6.5-1``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.7-0``,  ``2.6.5-1``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -47,10 +50,10 @@ poppunk
    :depends graph-tool: ``>=2.35``
    :depends h5py: 
    :depends hdbscan: 
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
+   :depends libgcc: ``>=12``
+   :depends libgfortran: 
    :depends libgfortran5: ``>=12.4.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mandrake: 
    :depends matplotlib-base: 
@@ -75,7 +78,6 @@ poppunk
    :depends xorg-libxinerama: 
    :depends xorg-libxpm: 
    :depends xorg-libxrandr: 
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -123,7 +125,7 @@ poppunk
 
     <script>
         var package = "poppunk";
-        var versions = ["2.7.0","2.6.7","2.6.5","2.6.5","2.6.4"];
+        var versions = ["2.7.1","2.7.0","2.6.7","2.6.5","2.6.5"];
     </script>
 
 

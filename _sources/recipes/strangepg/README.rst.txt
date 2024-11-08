@@ -28,10 +28,10 @@ strangepg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.12-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-1</code>,  <code>0.8.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.13-0</code>,  <code>0.8.12-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-1</code>,  </span></summary>
       
 
-      ``0.8.12-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+      ``0.8.13-0``,  ``0.8.12-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ strangepg
    :depends libxcb: 
    :depends xorg-libx11: ``>=1.8.10,<2.0a0``
    :depends xorg-libxau: 
-   :depends xorg-libxcursor: ``>=1.2.2,<2.0a0``
+   :depends xorg-libxcursor: ``>=1.2.3,<2.0a0``
    :depends xorg-libxdmcp: 
    :depends xorg-libxext: 
    :depends xorg-libxfixes: 
@@ -97,7 +97,7 @@ strangepg
 
     <script>
         var package = "strangepg";
-        var versions = ["0.8.12","0.8.11","0.8.10","0.8.9","0.8.8"];
+        var versions = ["0.8.13","0.8.12","0.8.11","0.8.10","0.8.9"];
     </script>
 
 

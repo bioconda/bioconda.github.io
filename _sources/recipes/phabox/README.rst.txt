@@ -30,11 +30,12 @@ phabox
       
       
 
-      ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
 
    
+   :depends accelerate: ``>=1.0.1``
    :depends biopython: ``>=1.84``
    :depends blast: ``>=2.16.0``
    :depends datasets: ``>=3``
@@ -100,7 +101,7 @@ phabox
 
     <script>
         var package = "phabox";
-        var versions = ["2.1.4","2.1.0","2.0.0"];
+        var versions = ["2.1.5","2.1.4","2.1.0","2.0.0"];
     </script>
 
 

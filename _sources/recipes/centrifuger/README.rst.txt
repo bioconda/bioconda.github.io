@@ -28,13 +28,13 @@ centrifuger
       
       
 
-      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: 
    :depends python: 
@@ -88,7 +88,7 @@ centrifuger
 
     <script>
         var package = "centrifuger";
-        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.2"];
+        var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.3"];
     </script>
 
 
