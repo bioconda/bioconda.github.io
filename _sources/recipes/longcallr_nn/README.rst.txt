@@ -27,19 +27,20 @@ longcallr_nn
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends numpy: ``1.21.0.*``
-   :depends pysam: 
-   :depends python: ``3.9.*``
-   :depends pytorch: ``1.13.*``
-   :depends pyyaml: 
-   :depends tensorboardx: 
-   :depends torchmetrics: 
-   :depends torchvision: 
+   :depends numpy: ``>=1.21.0``
+   :depends pysam: ``>=0.16``
+   :depends python: ``>=3.9,<3.11``
+   :depends pytorch: ``>=1.13``
+   :depends pyyaml: ``>=5.3``
+   :depends requests: 
+   :depends tensorboardx: ``>=2.2``
+   :depends torchmetrics: ``>=0.9``
+   :depends torchvision: ``>=0.14``
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +88,7 @@ longcallr_nn
 
     <script>
         var package = "longcallr_nn";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.1","0.0.1"];
     </script>
 
 

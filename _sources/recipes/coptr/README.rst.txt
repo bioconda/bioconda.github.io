@@ -27,16 +27,16 @@ coptr
       
       
 
-      ``1.1.4-1``,  ``1.1.4-0``
+      ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``
 
       
 
    
    :depends bowtie2: ``>=2.4.1``
    :depends matplotlib-base: ``>=3.3.2``
-   :depends numpy: ``>=1.19.1``
+   :depends numpy: ``>=1.19.1,<=1.24.4``
    :depends pysam: ``>=0.16.0.1``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<=3.8``
    :depends scipy: ``>=1.5.2,<2.0.0``
    :requirements:
 
@@ -85,7 +85,7 @@ coptr
 
     <script>
         var package = "coptr";
-        var versions = ["1.1.4","1.1.4"];
+        var versions = ["1.1.4","1.1.4","1.1.4"];
     </script>
 
 
