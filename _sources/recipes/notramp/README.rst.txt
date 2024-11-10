@@ -29,7 +29,7 @@ notramp
       
       
 
-      ``1.0.5-0``
+      ``1.1.6-0``,  ``1.0.5-0``
 
       
 
@@ -84,7 +84,7 @@ notramp
 
     <script>
         var package = "notramp";
-        var versions = ["1.0.5"];
+        var versions = ["1.1.6","1.0.5"];
     </script>
 
 
