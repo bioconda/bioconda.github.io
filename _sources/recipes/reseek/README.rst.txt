@@ -27,7 +27,7 @@ reseek
       
       
 
-      ``2.0.1-0``
+      ``2.02-0``,  ``2.0.1-0``
 
       
 
@@ -81,7 +81,7 @@ reseek
 
     <script>
         var package = "reseek";
-        var versions = ["2.0.1"];
+        var versions = ["2.02","2.0.1"];
     </script>
 
 

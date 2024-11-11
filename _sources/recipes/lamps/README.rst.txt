@@ -28,11 +28,19 @@ lamps
       
       
 
-      
+      ``1.0.3-0``
 
       
 
    
+   :depends numpy: 
+   :depends openpyxl: 
+   :depends pandas: 
+   :depends pyjanitor: 
+   :depends pyside6: 
+   :depends pyteomics: 
+   :depends python: ``>=3.8``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +88,7 @@ lamps
 
     <script>
         var package = "lamps";
-        var versions = [];
+        var versions = ["1.0.3"];
     </script>
 
 
