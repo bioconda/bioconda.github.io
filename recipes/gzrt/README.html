@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;emu-pca&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;gzrt&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -63,44 +63,43 @@
 
           <div class="body" role="main">
             
-  <section id="emu-pca">
+  <section id="gzrt">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">emu-pca</span></span></dt>
-<dd><p>EM-PCA for Ultra-low Coverage Sequencing Data.</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">gzrt</span></span></dt>
+<dd><p>Unofficial build of the gzip Recovery Toolkit aka gzrecover</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/Rosemeis/emu">https://github.com/Rosemeis/emu</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://www.urbanophile.com/arenn/hacking/gzrt">https://www.urbanophile.com/arenn/hacking/gzrt</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0-only</p>
+<dt class="field-even">Developer docs<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/arenn/gzrt">https://github.com/arenn/gzrt</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emu-pca">emu-pca</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emu-pca/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GPL / GPL-2.0-only</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gzrt">gzrt</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gzrt/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>gzrecover is a program that will attempt to extract any readable data
+out of a gzip file that has been corrupted.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-emu-pca">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">emu-pca</span></span><a class="headerlink" href="#package-emu-pca" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object conda" id="package-gzrt">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">gzrt</span></span><a class="headerlink" href="#package-gzrt" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/emu-pca"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/emu-pca.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/emu-pca"><img alt="docker_emu-pca" src="https://quay.io/repository/biocontainers/emu-pca/status" /></a></p>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/gzrt"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gzrt.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/gzrt"><img alt="docker_gzrt" src="https://quay.io/repository/biocontainers/gzrt/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.8-0</span></code></p>
 </dd>
 <dt class="field-even">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22.4,&lt;2.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
+<dt class="field-odd">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;2.0a0</span></code></p>
 </dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -115,30 +114,30 @@ micromamba or mamba (see <a class="reference external" href="https://mamba.readt
 We will show all commands using mamba below, but the arguments are the same for the two
 others.</p>
 <p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">emu</span><span class="o">-</span><span class="n">pca</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">gzrt</span>
 
 <span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
 
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">emu</span><span class="o">-</span><span class="n">pca</span>
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">gzrt</span>
 </pre></div>
 </div>
 <p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">emu</span><span class="o">-</span><span class="n">pca</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">gzrt</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
 (see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
 <p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/emu-pca:&lt;tag&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/gzrt:&lt;tag&gt;
 
-(see `emu-pca/tags`_ for valid values for ``&lt;tag&gt;``)
+(see `gzrt/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
 </dd></dl>
 
 <script>
-    var package = "emu-pca";
-    var versions = ["1.1","1.0","1.0"];
+    var package = "gzrt";
+    var versions = ["0.8"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -214,8 +213,8 @@ others.</p>
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/emu-pca/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/emu-pca/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/gzrt/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gzrt/README.html)
 </pre></div>
 </div>
 </section>
@@ -294,14 +293,14 @@ others.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../../_sources/recipes/emu-pca/README.rst.txt"
+      <a href="../../_sources/recipes/gzrt/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/emu-pca/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/gzrt/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

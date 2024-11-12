@@ -10,7 +10,7 @@ argo
    :replaces_section_title:
    :noindex:
 
-   Argo\: species\-resolved profiling of antibiotic resistant genes with long\-read metagenomics
+   Argo\: species\-resolved profiling of antibiotic resistance genes in complex metagenomes through long\-read overlapping
 
    :homepage: https://github.com/xinehc/argo
    :license: MIT / MIT
@@ -27,7 +27,7 @@ argo
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
 
       
 
@@ -83,7 +83,7 @@ argo
 
     <script>
         var package = "argo";
-        var versions = ["0.1.1","0.1.0","0.0.1"];
+        var versions = ["0.1.2","0.1.1","0.1.0","0.0.1"];
     </script>
 
 

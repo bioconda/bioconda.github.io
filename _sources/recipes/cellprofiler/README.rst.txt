@@ -13,7 +13,7 @@ cellprofiler
    CellProfiler is free\, open\-source software for quantitative analysis of biological images.
 
    :homepage: https://github.com/CellProfiler/CellProfiler
-   :documentation: https://cellprofiler-manual.s3.amazonaws.com/CellProfiler-4.2.7/index.html
+   :documentation: https://cellprofiler-manual.s3.amazonaws.com/CellProfiler-4.2.8/index.html
    
    :license: BSD / BSD-3-Clause
    :recipe: /`cellprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellprofiler/meta.yaml>`_
@@ -29,14 +29,22 @@ cellprofiler
    :versions:
       
       
+      .. raw:: html
 
-      ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
+         <details><summary><span class="truncated-version-list"><code>4.2.8-0</code>,  <code>4.2.7-0</code>,  <code>4.2.6-0</code>,  <code>4.2.1-3</code>,  <code>4.2.1-2</code>,  <code>4.2.1-1</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>3.1.9-1</code>,  </span></summary>
+      
 
+      ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends boto3: ``>=1.12.28``
-   :depends cellprofiler-core: ``4.2.7``
+   :depends cellprofiler-core: ``4.2.8``
    :depends centrosome: 
    :depends docutils: 
    :depends h5py: ``>=3.6.0,<3.7.dev0,<4``
@@ -109,7 +117,7 @@ cellprofiler
 
     <script>
         var package = "cellprofiler";
-        var versions = ["4.2.7","4.2.6","4.2.1","4.2.1","4.2.1"];
+        var versions = ["4.2.8","4.2.7","4.2.6","4.2.1","4.2.1"];
     </script>
 
 

@@ -28,10 +28,10 @@ strainge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.8-0</code>,  <code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.3.8-0``,  ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -42,12 +42,11 @@ strainge
    
    :depends h5py: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends matplotlib-base: 
-   :depends numpy: ``>=1.21.6,<2.0a0``
-   :depends pybind11: ``>=2.2``
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pysam: ``>=0.10``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -101,7 +100,7 @@ strainge
 
     <script>
         var package = "strainge";
-        var versions = ["1.3.8","1.3.7","1.3.7","1.3.3","1.3.3"];
+        var versions = ["1.3.9","1.3.8","1.3.7","1.3.7","1.3.3"];
     </script>
 
 

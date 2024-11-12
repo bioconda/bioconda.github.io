@@ -82,7 +82,7 @@
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht">yacht</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-odd">Links<span class="colon">:</span></dt>
-<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1101/2023.04.18.537298">10.1101/2023.04.18.537298</a></p>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bioinformatics/btae047">10.1093/bioinformatics/btae047</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -94,42 +94,57 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/yacht"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/yacht.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/yacht"><img alt="docker_yacht" src="https://quay.io/repository/biocontainers/yacht/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends biom-format<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends codecov<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+</dd>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+</dd>
 <dt class="field-even">depends loguru<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends maturin<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1,&lt;2</span></code></p>
 </dd>
 <dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.21,&lt;3</span></code></p>
+</dd>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22.4</span></code></p>
+</dd>
+<dt class="field-even">depends openpyxl<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends openpyxl<span class="colon">:</span></dt>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dt class="field-even">depends pytaxonkit<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.1,&lt;0.10.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends pytest<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pytest-cov<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pytaxonkit<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pytest<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pytest-cov<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;3.6</span></code></p>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.11,&lt;3.12.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.11.* *_cp311</span></code></p>
 </dd>
 <dt class="field-odd">depends requests<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends ruff<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends rust<span class="colon">:</span></dt>
+<dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-odd">depends sourmash<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.8.11,&lt;5.0a0</span></code></p>
+</dd>
 <dt class="field-even">depends sourmash<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.8.3,&lt;5</span></code></p>
 </dd>
@@ -173,7 +188,7 @@ others.</p>
 
 <script>
     var package = "yacht";
-    var versions = ["1.2.3","1.2.2","1.2.1","1.1.0","1.0"];
+    var versions = ["1.3.0","1.2.3","1.2.2","1.2.1","1.1.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

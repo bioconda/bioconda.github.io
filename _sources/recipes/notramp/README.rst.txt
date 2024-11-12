@@ -10,7 +10,7 @@ notramp
    :replaces_section_title:
    :noindex:
 
-   Normalization and Trimming of long\-read \(ONT\, PB\) amplicon sequencing data
+   Super\-fast Normalization and Trimming for Amplicon Sequencing Data \(Long\- and Short\-read\)
 
    :homepage: https://github.com/simakro/NoTrAmp.git
    :documentation: https://github.com/simakro/NoTrAmp/blob/main/README.md
@@ -18,7 +18,11 @@ notramp
    :license: BSD / BSD-2
    :recipe: /`notramp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/notramp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/notramp/meta.yaml>`_
 
-   
+   NoTrAmp is a Tool for super fast trimming and read\-depth normalization of amplicon reads. It is designed to be used in amplicon\-tiling panels \(or similar multiplexed amplicon sequencing approaches\) to cap coverage of each amplicon \(if desired\) and to trim amplicons to their appropriate length removing barcodes\, adpaters and primers \(if desired\) in a single clipping step.
+
+   NoTrAmp is suitable for use with both long \(e.g. ONT\/PacBio\) and short reads \(e.g Illumina\). When using reads that are significantly shorter than amplicon sizes\, you should adjust the minimum required alignment length using the \-\-set\_min\_len argument.
+
+   See the projects \[home\]\(https\:\/\/github.com\/simakro\/NoTrAmp\) for usage and additional documentation.
 
 
 .. conda:package:: notramp
@@ -29,7 +33,7 @@ notramp
       
       
 
-      ``1.1.6-0``,  ``1.0.5-0``
+      ``1.1.6-1``,  ``1.1.6-0``,  ``1.0.5-0``
 
       
 
@@ -84,7 +88,7 @@ notramp
 
     <script>
         var package = "notramp";
-        var versions = ["1.1.6","1.0.5"];
+        var versions = ["1.1.6","1.1.6","1.0.5"];
     </script>
 
 

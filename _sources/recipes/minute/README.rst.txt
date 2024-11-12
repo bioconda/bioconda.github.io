@@ -13,7 +13,10 @@ minute
    MINUTE\-ChIP data analysis workflow
 
    :homepage: https://github.com/elsasserlab/minute/
-   :license: MIT
+   :documentation: https://minute.readthedocs.io/en/latest
+   
+   :developer docs: https://github.com/elsasserlab/minute
+   :license: MIT / MIT
    :recipe: /`minute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minute/meta.yaml>`_
 
    
@@ -27,7 +30,7 @@ minute
       
       
 
-      ``0.9.0-0``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
+      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
 
       
 
@@ -41,7 +44,7 @@ minute
    :depends je-suite: ``>=2.0.RC``
    :depends multiqc: ``1.17.*``
    :depends picard: ``>=2.26.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.7``
    :depends r-base: ``>=4.0.0``
    :depends r-dplyr: ``>=1.0.0``
    :depends r-ggplot2: ``>=3.3.0``
@@ -98,7 +101,7 @@ minute
 
     <script>
         var package = "minute";
-        var versions = ["0.9.0","0.8.0","0.6.0","0.4.0","0.3.3"];
+        var versions = ["0.10.0","0.9.0","0.8.0","0.6.0","0.4.0"];
     </script>
 
 

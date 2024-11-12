@@ -17,7 +17,7 @@ yacht
    
    :license: MIT / MIT
    :recipe: /`yacht <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2023.04.18.537298`
+   :links: doi: :doi:`10.1093/bioinformatics/btae047`
 
    
 
@@ -30,27 +30,31 @@ yacht
       
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
+      ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
 
       
 
    
    :depends biom-format: 
    :depends codecov: 
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends loguru: 
    :depends maturin: ``>=1,<2``
-   :depends numpy: 
+   :depends numpy: ``>=1.21,<3``
+   :depends numpy: ``>=1.22.4``
    :depends openpyxl: 
    :depends pandas: 
-   :depends pytaxonkit: 
+   :depends pytaxonkit: ``>=0.9.1,<0.10.0a0``
    :depends pytest: 
    :depends pytest-cov: 
-   :depends python: ``>3.6``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends requests: 
    :depends ruff: 
-   :depends rust: 
    :depends scikit-learn: 
    :depends scipy: 
+   :depends sourmash: ``>=4.8.11,<5.0a0``
    :depends sourmash: ``>=4.8.3,<5``
    :depends sourmash_plugin_branchwater: 
    :depends tqdm: 
@@ -101,7 +105,7 @@ yacht
 
     <script>
         var package = "yacht";
-        var versions = ["1.2.3","1.2.2","1.2.1","1.1.0","1.0"];
+        var versions = ["1.3.0","1.2.3","1.2.2","1.2.1","1.1.0"];
     </script>
 
 

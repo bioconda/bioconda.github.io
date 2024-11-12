@@ -31,7 +31,7 @@ orthodb
       
       
 
-      ``0.9.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -85,7 +85,7 @@ orthodb
 
     <script>
         var package = "orthodb";
-        var versions = ["0.9.0"];
+        var versions = ["0.9.1","0.9.0"];
     </script>
 
 

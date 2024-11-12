@@ -10,10 +10,12 @@ aspera-cli
    :replaces_section_title:
    :noindex:
 
-   Command Line Interface for IBM Aspera products
+   Command Line Interface for IBM Aspera products.
 
    :homepage: https://github.com/IBM/aspera-cli
-   :license: Apache-2.0
+   :documentation: https://www.rubydoc.info/gems/aspera-cli
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`aspera-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aspera-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aspera-cli/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ aspera-cli
       
       
 
-      ``4.14.0-1``,  ``4.14.0-0``
+      ``4.19.0-0``,  ``4.14.0-1``,  ``4.14.0-0``
 
       
 
@@ -80,7 +82,7 @@ aspera-cli
 
     <script>
         var package = "aspera-cli";
-        var versions = ["4.14.0","4.14.0"];
+        var versions = ["4.19.0","4.14.0","4.14.0"];
     </script>
 
 

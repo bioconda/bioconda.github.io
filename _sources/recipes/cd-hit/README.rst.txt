@@ -10,11 +10,14 @@ cd-hit
    :replaces_section_title:
    :noindex:
 
-   Clusters and compares protein or nucleotide sequences
+   Clusters and compares protein or nucleotide sequences.
 
    :homepage: https://github.com/weizhongli/cdhit
-   :license: GPLv2
+   :documentation: https://github.com/weizhongli/cdhit/wiki
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`cd-hit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/17.3.282`, doi: :doi:`10.1093/bioinformatics/18.1.77`, biotools: :biotools:`cd-hit`, usegalaxy-eu: :usegalaxy-eu:`cd_hit`
 
    
 
@@ -28,10 +31,10 @@ cd-hit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.8.1-10</code>,  <code>4.8.1-9</code>,  <code>4.8.1-8</code>,  <code>4.8.1-7</code>,  <code>4.8.1-6</code>,  <code>4.8.1-5</code>,  <code>4.8.1-4</code>,  <code>4.8.1-3</code>,  <code>4.8.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.8.1-11</code>,  <code>4.8.1-10</code>,  <code>4.8.1-9</code>,  <code>4.8.1-8</code>,  <code>4.8.1-7</code>,  <code>4.8.1-6</code>,  <code>4.8.1-5</code>,  <code>4.8.1-4</code>,  <code>4.8.1-3</code>,  </span></summary>
       
 
-      ``4.8.1-10``,  ``4.8.1-9``,  ``4.8.1-8``,  ``4.8.1-7``,  ``4.8.1-6``,  ``4.8.1-5``,  ``4.8.1-4``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``,  ``4.8.1-0``,  ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``,  ``4.6.6-0``,  ``4.6.4-1``,  ``4.6.4-0``
+      ``4.8.1-11``,  ``4.8.1-10``,  ``4.8.1-9``,  ``4.8.1-8``,  ``4.8.1-7``,  ``4.8.1-6``,  ``4.8.1-5``,  ``4.8.1-4``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``,  ``4.8.1-0``,  ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``,  ``4.6.6-0``,  ``4.6.4-1``,  ``4.6.4-0``
 
       
       .. raw:: html
@@ -41,10 +44,9 @@ cd-hit
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
