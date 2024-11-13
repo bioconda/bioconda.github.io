@@ -13,7 +13,7 @@ teloclip
    A tool for the recovery of unassembled telomeres from soft\-clipped read alignments.
 
    :homepage: https://github.com/Adamtaranto/teloclip
-   :documentation: https://github.com/Adamtaranto/teloclip/blob/0.0.5/README.md
+   :documentation: https://github.com/Adamtaranto/teloclip/blob/0.1.0/README.md
    
    :license: MIT / MIT
    :recipe: /`teloclip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloclip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloclip/meta.yaml>`_
@@ -29,7 +29,7 @@ teloclip
       
       
 
-      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -82,7 +82,7 @@ teloclip
 
     <script>
         var package = "teloclip";
-        var versions = ["0.0.5","0.0.4","0.0.3","0.0.3","0.0.2"];
+        var versions = ["0.1.0","0.0.5","0.0.4","0.0.3","0.0.3"];
     </script>
 
 

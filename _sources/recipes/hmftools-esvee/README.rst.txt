@@ -27,7 +27,7 @@ hmftools-esvee
       
       
 
-      ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-0``
+      ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-0``
 
       
 
@@ -81,7 +81,7 @@ hmftools-esvee
 
     <script>
         var package = "hmftools-esvee";
-        var versions = ["1.0_beta","1.0_beta","1.0_beta","1.0_beta"];
+        var versions = ["1.0_beta","1.0_beta","1.0_beta","1.0_beta","1.0_beta"];
     </script>
 
 

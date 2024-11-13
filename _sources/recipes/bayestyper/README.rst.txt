@@ -10,11 +10,14 @@ bayestyper
    :replaces_section_title:
    :noindex:
 
-   A method for variant graph genotyping based on exact alignment of k\-mers
+   A method for variant graph genotyping based on exact alignment of k\-mers.
 
    :homepage: https://github.com/bioinformatics-centre/BayesTyper
-   :license: MIT
+   :documentation: https://github.com/bioinformatics-centre/BayesTyper/blob/v1.5/README.md
+   
+   :license: MIT / MIT
    :recipe: /`bayestyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayestyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayestyper/meta.yaml>`_
+   :links: biotools: :biotools:`bayestyper`, doi: :doi:`10.1038/s41588-018-0145-5`
 
    
 
@@ -27,14 +30,15 @@ bayestyper
       
       
 
-      ``1.5-0``
+      ``1.5-3``,  ``1.5-2``,  ``1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends boost-cpp: 
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +86,7 @@ bayestyper
 
     <script>
         var package = "bayestyper";
-        var versions = ["1.5"];
+        var versions = ["1.5","1.5","1.5"];
     </script>
 
 

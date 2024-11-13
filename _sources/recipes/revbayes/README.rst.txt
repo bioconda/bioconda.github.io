@@ -10,11 +10,15 @@ revbayes
    :replaces_section_title:
    :noindex:
 
-   Bayesian phylogenetic inference using probabilistic graphical models and an interactive language.
+   Bayesian Phylogenetic Inference Using Graphical Models and an Interactive Model\-Specification Language.
 
-   :homepage: https://revbayes.github.io/
-   :license: GPLv3
+   :homepage: https://revbayes.github.io
+   :documentation: https://revbayes.github.io/tutorials
+   
+   :developer docs: https://github.com/revbayes/revbayes
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`revbayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/revbayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/revbayes/meta.yaml>`_
+   :links: biotools: :biotools:`revbayes`, doi: :doi:`10.1093/sysbio/syw021`, doi: :doi:`10.1093/sysbio/syu039`
 
    
 
@@ -27,15 +31,17 @@ revbayes
       
       
 
-      ``1.0.13-7``,  ``1.0.13-6``,  ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
+      ``1.2.4-0``,  ``1.0.13-7``,  ``1.0.13-6``,  ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.82.0,<1.82.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: ``>=1.71``
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=12``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +89,7 @@ revbayes
 
     <script>
         var package = "revbayes";
-        var versions = ["1.0.13","1.0.13","1.0.13","1.0.13","1.0.13"];
+        var versions = ["1.2.4","1.0.13","1.0.13","1.0.13","1.0.13"];
     </script>
 
 

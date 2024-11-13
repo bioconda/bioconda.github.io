@@ -27,18 +27,14 @@ hmftools-chord
       
       
 
-      ``2.1.0_beta-0``
+      ``2.1.0_beta-2``,  ``2.1.0_beta-0``
 
       
 
    
-   :depends bioconductor-bsgenome: 
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: 
    :depends openjdk: ``>=8``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: 
    :depends r-randomforest: 
-   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +82,7 @@ hmftools-chord
 
     <script>
         var package = "hmftools-chord";
-        var versions = ["2.1.0_beta"];
+        var versions = ["2.1.0_beta","2.1.0_beta"];
     </script>
 
 

@@ -10,10 +10,10 @@ atlas
    :replaces_section_title:
    :noindex:
 
-   ATLAS\, a suite of methods to accurately genotype and estimate genetic diversity
+   ATLAS\: Analysis Tools for Ancient and Low\-depth Samples
 
-   :homepage: https://bitbucket.org/wegmannlab/atlas/wiki/Home
-   :license: GPLv3
+   :homepage: https://atlaswiki.netlify.app
+   :license: MPL-2.0
    :recipe: /`atlas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atlas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atlas/meta.yaml>`_
 
    
@@ -27,17 +27,25 @@ atlas
       
       
 
-      ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
+      ``2.0.0-0``,  ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
 
       
 
    
-   :depends armadillo: ``>=12.2,<13.0a0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends armadillo: ``>=14.0,<15.0a0``
+   :depends fmt: ``>=10.2.1,<11.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends jsoncpp: ``>=1.9.5,<1.9.6.0a0``
+   :depends lapack: 
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends nlohmann_json: 
+   :depends openblas: 
+   :depends sysroot_linux-64: ``2.17.*``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +93,7 @@ atlas
 
     <script>
         var package = "atlas";
-        var versions = ["0.9.9","0.9.9","0.9.9","0.9.9"];
+        var versions = ["2.0.0","0.9.9","0.9.9","0.9.9","0.9.9"];
     </script>
 
 
