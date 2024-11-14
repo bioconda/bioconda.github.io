@@ -10,10 +10,10 @@ dupsifter
    :replaces_section_title:
    :noindex:
 
-   A tool for PCR duplicate marking of WGBS \(and WGS\) data
+   A tool for PCR duplicate marking of WGBS \(and WGS\) data.
 
    :homepage: https://github.com/huishenlab/dupsifter
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`dupsifter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dupsifter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dupsifter/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ dupsifter
       
       
 
-      ``1.2.1.20240119-1``,  ``1.2.1.20240119-0``,  ``1.2.0.20230926-0``
+      ``1.3.0.20241113-0``,  ``1.2.1.20240119-1``,  ``1.2.1.20240119-0``,  ``1.2.0.20230926-0``
 
       
 
@@ -35,12 +35,10 @@ dupsifter
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libcurl: ``>=8.8.0,<9.0a0``
    :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends openssl: ``>=3.3.0,<4.0a0``
-   :depends pthread-stubs: 
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +86,7 @@ dupsifter
 
     <script>
         var package = "dupsifter";
-        var versions = ["1.2.1.20240119","1.2.1.20240119","1.2.0.20230926"];
+        var versions = ["1.3.0.20241113","1.2.1.20240119","1.2.1.20240119","1.2.0.20230926"];
     </script>
 
 

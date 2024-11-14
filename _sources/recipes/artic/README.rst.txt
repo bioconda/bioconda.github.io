@@ -10,10 +10,12 @@ artic
    :replaces_section_title:
    :noindex:
 
-   ARTIC pipeline \- a bioinformatics pipeline for working with virus sequencing data sequenced with nanopore
+   ARTIC pipeline \- a bioinformatics pipeline for working with virus sequencing data sequenced with nanopore.
 
    :homepage: https://github.com/artic-network/fieldbioinformatics
-   :license: MIT
+   :documentation: https://artic.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`artic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/artic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/artic/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ artic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
+      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
 
       
       .. raw:: html
@@ -40,27 +42,21 @@ artic
       
 
    
-   :depends artic-porechop: ``>=0.3.2pre``
-   :depends artic-tools: 
    :depends bcftools: 
    :depends biopython: 
    :depends bwa: 
+   :depends clair3: 
    :depends clint: 
+   :depends cyvcf2: 
    :depends htslib: 
-   :depends keras-preprocessing: ``>=1.1.2``
-   :depends longshot: 
-   :depends medaka: ``>=1.10.0``
-   :depends minimap2: ``>=2.26``
+   :depends minimap2: 
    :depends multiqc: 
-   :depends muscle: ``3.8.*``
-   :depends nanopolish: ``>=0.14.0``
+   :depends muscle: ``<5.1``
    :depends pandas: 
-   :depends pip: 
    :depends pyfaidx: ``0.6.0.*``
    :depends pysam: 
    :depends pytest: 
-   :depends python: 
-   :depends pyvcf: 
+   :depends python: ``3.9``
    :depends requests: 
    :depends samtools: 
    :depends tqdm: 
@@ -111,7 +107,7 @@ artic
 
     <script>
         var package = "artic";
-        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.5.3","1.5.2","1.5.1","1.2.4","1.2.4"];
     </script>
 
 

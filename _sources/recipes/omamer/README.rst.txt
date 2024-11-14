@@ -28,7 +28,7 @@ omamer
       
       
 
-      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``
+      ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``
 
       
 
@@ -37,7 +37,7 @@ omamer
    :depends biopython: 
    :depends ete3: 
    :depends numba: 
-   :depends numpy: 
+   :depends numpy: ``<2``
    :depends pandas: ``>2.0.0``
    :depends property-manager: 
    :depends pysais: 
@@ -93,7 +93,7 @@ omamer
 
     <script>
         var package = "omamer";
-        var versions = ["2.0.4","2.0.3","2.0.2","2.0.1"];
+        var versions = ["2.0.5","2.0.4","2.0.3","2.0.2","2.0.1"];
     </script>
 
 
