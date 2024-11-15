@@ -31,10 +31,10 @@ beagle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.4_27May24.118-0</code>,  <code>5.4_22Jul22.46e-0</code>,  <code>5.2_21Apr21.304-0</code>,  <code>5.1_24Aug19.3e8-1</code>,  <code>5.1_24Aug19.3e8-0</code>,  <code>4.1_21Jan17.6cc.jar-1</code>,  <code>4.1_21Jan17.6cc.jar-0</code>,  <code>4.1_03May16.862.jar-0</code>,  <code>4.0_06Jun17-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.4_29Oct24.c8e-0</code>,  <code>5.4_27May24.118-0</code>,  <code>5.4_22Jul22.46e-0</code>,  <code>5.2_21Apr21.304-0</code>,  <code>5.1_24Aug19.3e8-1</code>,  <code>5.1_24Aug19.3e8-0</code>,  <code>4.1_21Jan17.6cc.jar-1</code>,  <code>4.1_21Jan17.6cc.jar-0</code>,  <code>4.1_03May16.862.jar-0</code>,  </span></summary>
       
 
-      ``5.4_27May24.118-0``,  ``5.4_22Jul22.46e-0``,  ``5.2_21Apr21.304-0``,  ``5.1_24Aug19.3e8-1``,  ``5.1_24Aug19.3e8-0``,  ``4.1_21Jan17.6cc.jar-1``,  ``4.1_21Jan17.6cc.jar-0``,  ``4.1_03May16.862.jar-0``,  ``4.0_06Jun17-3``,  ``4.0_06Jun17-2``,  ``4.0_06Jun17-1``
+      ``5.4_29Oct24.c8e-0``,  ``5.4_27May24.118-0``,  ``5.4_22Jul22.46e-0``,  ``5.2_21Apr21.304-0``,  ``5.1_24Aug19.3e8-1``,  ``5.1_24Aug19.3e8-0``,  ``4.1_21Jan17.6cc.jar-1``,  ``4.1_21Jan17.6cc.jar-0``,  ``4.1_03May16.862.jar-0``,  ``4.0_06Jun17-3``,  ``4.0_06Jun17-2``,  ``4.0_06Jun17-1``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ beagle
 
     <script>
         var package = "beagle";
-        var versions = ["5.4_27May24.118","5.4_22Jul22.46e","5.2_21Apr21.304","5.1_24Aug19.3e8","5.1_24Aug19.3e8"];
+        var versions = ["5.4_29Oct24.c8e","5.4_27May24.118","5.4_22Jul22.46e","5.2_21Apr21.304","5.1_24Aug19.3e8"];
     </script>
 
 

@@ -27,13 +27,13 @@ fairy
       
       
 
-      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
+      ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +81,7 @@ fairy
 
     <script>
         var package = "fairy";
-        var versions = ["0.5.5","0.5.4","0.5.3","0.5.2"];
+        var versions = ["0.5.7","0.5.5","0.5.4","0.5.3","0.5.2"];
     </script>
 
 

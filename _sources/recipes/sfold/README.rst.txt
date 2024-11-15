@@ -27,7 +27,7 @@ sfold
       
       
 
-      ``2.2-1``,  ``2.2-0``
+      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
@@ -85,7 +85,7 @@ sfold
 
     <script>
         var package = "sfold";
-        var versions = ["2.2","2.2"];
+        var versions = ["2.2","2.2","2.2"];
     </script>
 
 
