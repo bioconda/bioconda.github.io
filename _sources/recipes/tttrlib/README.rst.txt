@@ -32,7 +32,7 @@ tttrlib
       
       
 
-      ``0.25.0-0``
+      ``0.25.1-0``,  ``0.25.0-0``
 
       
 
@@ -98,7 +98,7 @@ tttrlib
 
     <script>
         var package = "tttrlib";
-        var versions = ["0.25.0"];
+        var versions = ["0.25.1","0.25.0"];
     </script>
 
 

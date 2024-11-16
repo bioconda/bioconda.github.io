@@ -10,10 +10,10 @@ breakfast
    :replaces_section_title:
    :noindex:
 
-   breakfast\: fast putative outbreak cluster and infection chain detection using SNPs
+   breakfast\: fast putative outbreak cluster and infection chain detection using SNPs.
 
    :homepage: https://github.com/rki-mf1/breakfast
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`breakfast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakfast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakfast/meta.yaml>`_
 
    
@@ -27,18 +27,18 @@ breakfast
       
       
 
-      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
+      ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
 
       
 
    
-   :depends click: ``>=8.1.3,<9.0.0``
-   :depends networkx: ``>=2.8,<3.0``
-   :depends numpy: ``>=1.22.3,<2.0.0``
-   :depends pandas: ``>=1.4.2,<2.0.0``
+   :depends click: ``>=8.1.7,<9.0.0``
+   :depends networkx: ``>=3.4.2,<4.0.0``
+   :depends numpy: ``>=2.1.3,<3.0.0``
+   :depends pandas: ``>=2.2.3,<3.0.0``
    :depends python: ``>=3.9,<3.11``
-   :depends scikit-learn: ``>=1.0.2,<2.0.0``
-   :depends scipy: ``>=1.8.0,<2.0.0``
+   :depends scikit-learn: ``>=1.5.2,<2.0.0``
+   :depends scipy: ``>=1.14.1,<2.0.0``
    :requirements:
 
    .. rubric:: Installation
@@ -86,7 +86,7 @@ breakfast
 
     <script>
         var package = "breakfast";
-        var versions = ["0.4.3","0.4.2","0.4.1","0.4.0","0.3.3"];
+        var versions = ["0.4.5","0.4.3","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

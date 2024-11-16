@@ -17,7 +17,6 @@ jaeger-bio
    
    :license: MIT / MIT
    :recipe: /`jaeger-bio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaeger-bio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaeger-bio/meta.yaml>`_
-   :links: biotools: :biotools:`jaeger`
 
    
 
@@ -30,26 +29,25 @@ jaeger-bio
       
       
 
-      ``1.1.26-0``
+      ``1.1.30-0``,  ``1.1.26-0``
 
       
 
    
-   :depends biopython: ``>=1.78``
    :depends h5py: ``>=3.8``
    :depends kneed: ``>=0.8.5``
    :depends matplotlib-base: ``>=3.7``
    :depends numpy: ``>=1.24``
    :depends pandas: ``>=1.5``
    :depends parasail-python: ``>=1.3.4``
-   :depends pip: 
+   :depends progressbar2: ``>=4.4.2``
    :depends psutil: ``>=5``
-   :depends python: ``3.*``
+   :depends pycirclize: 
+   :depends pyfastx: ``>=2``
+   :depends python: ``>=3.9,<3.12``
    :depends ruptures: ``>=1.1.9``
    :depends scikit-learn: ``1.3.2``
-   :depends seaborn: ``>=0.12.2``
    :depends tensorflow: ``>=2.15,<2.16``
-   :depends tqdm: ``>=4.64.0``
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +95,7 @@ jaeger-bio
 
     <script>
         var package = "jaeger-bio";
-        var versions = ["1.1.26"];
+        var versions = ["1.1.30","1.1.26"];
     </script>
 
 

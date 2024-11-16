@@ -27,7 +27,7 @@ zamp
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -39,7 +39,7 @@ zamp
    :depends metasnek: ``>=0.0.8``
    :depends pandas: ``>=2.2.1``
    :depends python: ``>=3.11``
-   :depends snakemake-minimal: ``>=8.0.0``
+   :depends snakemake-minimal: ``>=8.0.0,<=8.24.1``
    :depends snaketool-utils: ``>=0.0.5``
    :requirements:
 
@@ -88,7 +88,7 @@ zamp
 
     <script>
         var package = "zamp";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

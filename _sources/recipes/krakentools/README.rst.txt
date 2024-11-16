@@ -10,7 +10,7 @@ krakentools
    :replaces_section_title:
    :noindex:
 
-   KrakenTools is a suite of scripts to be used for post\-analysis of Kraken\/KrakenUniq\/Kraken2\/Bracken results. Please cite the relevant paper if using KrakenTools with any of the listed programs.
+   KrakenTools scripts for analysis of Kraken\/KrakenUniq\/Kraken2\/Bracken results
 
    :homepage: https://github.com/jenniferlu717/KrakenTools
    :license: GPL / GPL-3.0
@@ -28,7 +28,7 @@ krakentools
       
       
 
-      ``1.2-0``,  ``1.1-0``,  ``1.0.1-0``,  ``0.1-0``
+      ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0.1-0``,  ``0.1-0``
 
       
 
@@ -36,6 +36,7 @@ krakentools
    :depends biopython: 
    :depends numpy: 
    :depends python: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
@@ -83,7 +84,7 @@ krakentools
 
     <script>
         var package = "krakentools";
-        var versions = ["1.2","1.1","1.0.1","0.1"];
+        var versions = ["1.2","1.2","1.1","1.0.1","0.1"];
     </script>
 
 
