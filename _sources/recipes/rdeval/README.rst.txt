@@ -29,7 +29,7 @@ rdeval
       
       
 
-      ``0.0.2-0``
+      ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -84,7 +84,7 @@ rdeval
 
     <script>
         var package = "rdeval";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.2","0.0.2"];
     </script>
 
 

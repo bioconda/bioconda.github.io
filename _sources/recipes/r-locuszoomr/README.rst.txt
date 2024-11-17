@@ -1,0 +1,122 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'r-locuszoomr'
+.. highlight: bash
+
+r-locuszoomr
+============
+
+.. conda:recipe:: r-locuszoomr
+   :replaces_section_title:
+   :noindex:
+
+   Publication\-ready regional gene locus plots similar to those produced by the web interface \'LocusZoom\' \<https\:\/\/my.locuszoom.org\>\, but running locally in R. Genetic or genomic data with gene annotation tracks are plotted via R base graphics\, \'ggplot2\' or \'plotly\'\, allowing flexibility and easy customisation including laying out multiple locus plots on the same page. It uses the \'LDlink\' API \<https\:\/\/ldlink.nih.gov\/\?tab\=apiaccess\> to query linkage disequilibrium data from the 1000 Genomes Project and can overlay this on plots.
+
+   :homepage: https://github.com/myles-lewis/locuszoomr
+   :license: GPL3 / GPL-3
+   :recipe: /`r-locuszoomr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-locuszoomr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-locuszoomr/meta.yaml>`_
+
+   
+
+
+.. conda:package:: r-locuszoomr
+
+   |downloads_r-locuszoomr| |docker_r-locuszoomr|
+
+   :versions:
+      
+      
+
+      ``0.3.5-0``
+
+      
+
+   
+   :depends bioconductor-annotationfilter: 
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-ensembldb: 
+   :depends bioconductor-genomeinfodb: 
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-rtracklayer: 
+   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-cowplot: 
+   :depends r-dplyr: 
+   :depends r-gggrid: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-ldlinkr: 
+   :depends r-memoise: 
+   :depends r-plotly: 
+   :depends r-rlang: 
+   :depends r-zoo: 
+   :requirements:
+
+   .. rubric:: Installation
+
+  You need a conda-compatible package manager
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install r-locuszoomr
+
+   and update with::
+
+      mamba update r-locuszoomr
+
+  To create a new environment, run::
+
+      mamba create --name myenvname r-locuszoomr
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
+
+      docker pull quay.io/biocontainers/r-locuszoomr:<tag>
+
+   (see `r-locuszoomr/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_r-locuszoomr| image:: https://img.shields.io/conda/dn/bioconda/r-locuszoomr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-locuszoomr
+   :alt:   (downloads)
+.. |docker_r-locuszoomr| image:: https://quay.io/repository/biocontainers/r-locuszoomr/status
+   :target: https://quay.io/repository/biocontainers/r-locuszoomr
+.. _`r-locuszoomr/tags`: https://quay.io/repository/biocontainers/r-locuszoomr?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "r-locuszoomr";
+        var versions = ["0.3.5"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-locuszoomr/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-locuszoomr/README.html
