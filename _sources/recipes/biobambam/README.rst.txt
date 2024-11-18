@@ -10,11 +10,12 @@ biobambam
    :replaces_section_title:
    :noindex:
 
-   Tools for early stage alignment file processing
+   Tools for early stage alignment file processing.
 
    :homepage: https://gitlab.com/german.tischler/biobambam2
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`biobambam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobambam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobambam/meta.yaml>`_
+   :links: biotools: :biotools:`biobambam`
 
    
 
@@ -28,10 +29,10 @@ biobambam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.183-4</code>,  <code>2.0.183-3</code>,  <code>2.0.183-2</code>,  <code>2.0.183-1</code>,  <code>2.0.183-0</code>,  <code>2.0.182-1</code>,  <code>2.0.182-0</code>,  <code>2.0.180-1</code>,  <code>2.0.180-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.185-0</code>,  <code>2.0.183-4</code>,  <code>2.0.183-3</code>,  <code>2.0.183-2</code>,  <code>2.0.183-1</code>,  <code>2.0.183-0</code>,  <code>2.0.182-1</code>,  <code>2.0.182-0</code>,  <code>2.0.180-1</code>,  </span></summary>
       
 
-      ``2.0.183-4``,  ``2.0.183-3``,  ``2.0.183-2``,  ``2.0.183-1``,  ``2.0.183-0``,  ``2.0.182-1``,  ``2.0.182-0``,  ``2.0.180-1``,  ``2.0.180-0``,  ``2.0.179-1``,  ``2.0.179-0``,  ``2.0.87-2``,  ``2.0.87-1``,  ``2.0.87-0``,  ``2.0.79-0``,  ``2.0.78-0``,  ``2.0.72-0``,  ``2.0.62-0``,  ``2.0.58-0``,  ``2.0.57-0``,  ``2.0.44-0``,  ``2.0.42-0``,  ``2.0.39-0``,  ``2.0.25-0``
+      ``2.0.185-0``,  ``2.0.183-4``,  ``2.0.183-3``,  ``2.0.183-2``,  ``2.0.183-1``,  ``2.0.183-0``,  ``2.0.182-1``,  ``2.0.182-0``,  ``2.0.180-1``,  ``2.0.180-0``,  ``2.0.179-1``,  ``2.0.179-0``,  ``2.0.87-2``,  ``2.0.87-1``,  ``2.0.87-0``,  ``2.0.79-0``,  ``2.0.78-0``,  ``2.0.72-0``,  ``2.0.62-0``,  ``2.0.58-0``,  ``2.0.57-0``,  ``2.0.44-0``,  ``2.0.42-0``,  ``2.0.39-0``,  ``2.0.25-0``
 
       
       .. raw:: html
@@ -40,9 +41,13 @@ biobambam
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libmaus2: ``>=2.0.810,<2.1.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends gmp: ``>=6.3.0,<7.0a0``
+   :depends libgcc: ``>=12``
+   :depends libmaus2: ``>=2.0.813``
+   :depends libmaus2: ``>=2.0.813,<3.0a0``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends xerces-c: ``>=3.2.5,<3.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +95,7 @@ biobambam
 
     <script>
         var package = "biobambam";
-        var versions = ["2.0.183","2.0.183","2.0.183","2.0.183","2.0.183"];
+        var versions = ["2.0.185","2.0.183","2.0.183","2.0.183","2.0.183"];
     </script>
 
 

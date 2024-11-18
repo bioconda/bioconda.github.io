@@ -12,9 +12,10 @@ muse
 
    An accurate and ultra\-fast somatic point mutation calling tool for whole\-genome sequencing \(WGS\) and whole\-exome sequencing \(WES\) data from heterogeneous tumor samples.
 
-   :homepage: https://github.com/wwylab/MuSE
-   :documentation: https://bioinformatics.mdanderson.org/public-software/muse
+   :homepage: https://bioinformatics.mdanderson.org/public-software/muse
+   :documentation: https://github.com/wwylab/MuSE/blob/v2.1.2/README.md
    
+   :developer docs: https://github.com/wwylab/MuSE
    :license: GPL / GPL-2.0-or-later
    :recipe: /`muse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muse/meta.yaml>`_
    :links: doi: :doi:`10.1101/gr.278456.123`, doi: :doi:`10.1186/s13059-016-1029-6`
@@ -31,10 +32,10 @@ muse
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>1.0.rc-8</code>,  <code>1.0.rc-7</code>,  <code>1.0.rc-6</code>,  <code>1.0.rc-5</code>,  <code>1.0.rc-4</code>,  <code>1.0.rc-3</code>,  <code>1.0.rc-2</code>,  <code>1.0.rc-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>1.0.rc-8</code>,  <code>1.0.rc-7</code>,  <code>1.0.rc-6</code>,  <code>1.0.rc-5</code>,  <code>1.0.rc-4</code>,  <code>1.0.rc-3</code>,  </span></summary>
       
 
-      ``2.1.2-0``,  ``1.0.rc-8``,  ``1.0.rc-7``,  ``1.0.rc-6``,  ``1.0.rc-5``,  ``1.0.rc-4``,  ``1.0.rc-3``,  ``1.0.rc-2``,  ``1.0.rc-1``,  ``1.0.rc-0``
+      ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``1.0.rc-8``,  ``1.0.rc-7``,  ``1.0.rc-6``,  ``1.0.rc-5``,  ``1.0.rc-4``,  ``1.0.rc-3``,  ``1.0.rc-2``,  ``1.0.rc-1``,  ``1.0.rc-0``
 
       
       .. raw:: html
@@ -99,7 +100,7 @@ muse
 
     <script>
         var package = "muse";
-        var versions = ["2.1.2","1.0.rc","1.0.rc","1.0.rc","1.0.rc"];
+        var versions = ["2.1.2","2.1.2","2.1.2","1.0.rc","1.0.rc"];
     </script>
 
 

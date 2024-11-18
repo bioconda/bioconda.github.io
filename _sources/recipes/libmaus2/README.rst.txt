@@ -10,11 +10,12 @@ libmaus2
    :replaces_section_title:
    :noindex:
 
-   collection of data structures and algorithms for NGS data
+   Collection of data structures and algorithms for NGS data.
 
    :homepage: https://gitlab.com/german.tischler/libmaus2
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`libmaus2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmaus2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmaus2/meta.yaml>`_
+   :links: biotools: :biotools:`libmaus`
 
    
 
@@ -28,10 +29,10 @@ libmaus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.810-6</code>,  <code>2.0.810-5</code>,  <code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  <code>2.0.774-1</code>,  <code>2.0.774-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.813-0</code>,  <code>2.0.810-6</code>,  <code>2.0.810-5</code>,  <code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  <code>2.0.774-1</code>,  </span></summary>
       
 
-      ``2.0.810-6``,  ``2.0.810-5``,  ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
+      ``2.0.813-0``,  ``2.0.810-6``,  ``2.0.810-5``,  ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
 
       
       .. raw:: html
@@ -40,14 +41,20 @@ libmaus2
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: 
+   :depends gmp: ``>=6.3.0,<7.0a0``
    :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libdeflate: ``>=1.20,<1.21.0a0``
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends nettle: ``>=3.9.1,<3.10.0a0``
    :depends snappy: ``1.1.8.*``
    :depends snappy: ``>=1.1.8,<2.0a0``
    :depends staden_io_lib: ``>=1.14.14``
-   :depends staden_io_lib: ``>=1.14.14,<1.15.0a0``
+   :depends staden_io_lib: ``>=1.15.0,<1.16.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +102,7 @@ libmaus2
 
     <script>
         var package = "libmaus2";
-        var versions = ["2.0.810","2.0.810","2.0.810","2.0.810","2.0.810"];
+        var versions = ["2.0.813","2.0.810","2.0.810","2.0.810","2.0.810"];
     </script>
 
 

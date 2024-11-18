@@ -27,13 +27,14 @@ snk-cli
       
       
 
-      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.2-0``
+      ``0.7.0-1``,  ``0.7.0-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.2-0``
 
       
 
    
    :depends ascii-art: ``>=5.9,<6.dev0``
    :depends datrie: ``>=0.8.2``
+   :depends graphviz: ``>=2.38.0``
    :depends makefun: ``>=1.15,<2.dev0``
    :depends pulp: ``<2.8``
    :depends python: ``>=3.8``
@@ -88,7 +89,7 @@ snk-cli
 
     <script>
         var package = "snk-cli";
-        var versions = ["0.5.5","0.5.4","0.5.2"];
+        var versions = ["0.7.0","0.7.0","0.5.5","0.5.4","0.5.2"];
     </script>
 
 
