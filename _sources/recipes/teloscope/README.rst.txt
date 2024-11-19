@@ -28,7 +28,7 @@ teloscope
       
       
 
-      ``0.0.2-0``
+      ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -83,7 +83,7 @@ teloscope
 
     <script>
         var package = "teloscope";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.3","0.0.2"];
     </script>
 
 
