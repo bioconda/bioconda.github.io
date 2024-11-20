@@ -12,8 +12,9 @@ cazy_webscraper
 
    A tool to automate retrieving data from CAZy\, build a local CAZyme SQL database\, and throughly interrogating the data. Also\, automate retrieving protein data\, sequences\, EC numbers and structure files for specific datasets in the CAZyme database from UniProt\, GenBank and PDB.
 
-   :homepage: https://hobnobmancer.github.io/cazy_webscraper/
-   :developer docs: https://github.com/HobnobMancer/cazy_webscraper
+   :homepage: https://github.com/HobnobMancer/cazy_webscraper
+   :documentation: https://hobnobmancer.github.io/cazy_webscraper
+   
    :license: MIT / MIT
    :recipe: /`cazy_webscraper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cazy_webscraper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cazy_webscraper/meta.yaml>`_
    :links: doi: :doi:`10.1101/2022.12.02.518825`
@@ -30,10 +31,10 @@ cazy_webscraper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0.3-0</code>,  <code>2.3.0.2-0</code>,  <code>2.3.0-0</code>,  <code>2.2.8-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0.4-0</code>,  <code>2.3.0.3-0</code>,  <code>2.3.0.2-0</code>,  <code>2.3.0-0</code>,  <code>2.2.8-0</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  </span></summary>
       
 
-      ``2.3.0.3-0``,  ``2.3.0.2-0``,  ``2.3.0-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
+      ``2.3.0.4-0``,  ``2.3.0.3-0``,  ``2.3.0.2-0``,  ``2.3.0-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.3.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -103,7 +104,7 @@ cazy_webscraper
 
     <script>
         var package = "cazy_webscraper";
-        var versions = ["2.3.0.3","2.3.0.2","2.3.0","2.2.8","2.2.7"];
+        var versions = ["2.3.0.4","2.3.0.3","2.3.0.2","2.3.0","2.2.8"];
     </script>
 
 

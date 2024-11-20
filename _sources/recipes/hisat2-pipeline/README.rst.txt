@@ -10,7 +10,7 @@ hisat2-pipeline
    :replaces_section_title:
    :noindex:
 
-   A pipeline to automatically run an RNA\-seq analysis using HISAT2\/Stringtie using default settings
+   A pipeline to automatically run an RNA\-seq analysis using HISAT2\/Stringtie using default settings.
 
    :homepage: https://github.com/mcamagna/HISAT2-pipeline
    :license: GPL / GPL-3.0-or-later
@@ -28,7 +28,7 @@ hisat2-pipeline
       
       
 
-      ``1.0.7-0``,  ``1.0.6-0``
+      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``
 
       
 
@@ -86,7 +86,7 @@ hisat2-pipeline
 
     <script>
         var package = "hisat2-pipeline";
-        var versions = ["1.0.7","1.0.6"];
+        var versions = ["1.0.8","1.0.7","1.0.6"];
     </script>
 
 

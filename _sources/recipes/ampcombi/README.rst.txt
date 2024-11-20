@@ -28,17 +28,18 @@ ampcombi
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``2.0.1-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
    :depends backports.tempfile: 
    :depends biopython: ``1.80``
+   :depends colorama: ``0.4.6``
    :depends contextlib2: 
-   :depends diamond: ``2.0.15``
    :depends jsonschema: 
    :depends mmseqs2: ``15.6f452``
+   :depends numpy: ``1.26.4``
    :depends openpyxl: 
    :depends pandas: ``1.5.2``
    :depends parsedatetime: 
@@ -92,7 +93,7 @@ ampcombi
 
     <script>
         var package = "ampcombi";
-        var versions = ["0.2.2","0.2.1","0.2.0","0.1.7","0.1.6"];
+        var versions = ["2.0.1","0.2.2","0.2.1","0.2.0","0.1.7"];
     </script>
 
 

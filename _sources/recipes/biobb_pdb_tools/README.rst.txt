@@ -48,14 +48,14 @@ biobb_pdb_tools
       
       
 
-      ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
+      ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
 
       
 
    
-   :depends biobb_common: ``4.2.0``
+   :depends biobb_common: ``5.0.0``
    :depends pdb-tools: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -103,7 +103,7 @@ biobb_pdb_tools
 
     <script>
         var package = "biobb_pdb_tools";
-        var versions = ["4.2.0","4.1.1","4.1.0"];
+        var versions = ["5.0.0","5.0.0","4.2.0","4.1.1","4.1.0"];
     </script>
 
 

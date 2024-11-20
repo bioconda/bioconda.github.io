@@ -79,7 +79,7 @@
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/GreenleafLab/ArchR">https://github.com/GreenleafLab/ArchR</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL2 / GPL-2.0-or-later</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-archr">r-archr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-archr/meta.yaml">meta.yaml</a></p>
@@ -94,29 +94,44 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/r-archr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-archr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-archr"><img alt="docker_r-archr" src="https://quay.io/repository/biocontainers/r-archr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-biocgenerics<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.48.1,&lt;0.49.0a0</span></code></p>
+</dd>
 <dt class="field-odd">depends bioconductor-biostrings<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.70.1,&lt;2.71.0a0</span></code></p>
+</dd>
 <dt class="field-even">depends bioconductor-chromvar<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.24.0,&lt;1.25.0a0</span></code></p>
+</dd>
 <dt class="field-odd">depends bioconductor-complexheatmap<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.18.0,&lt;2.19.0a0</span></code></p>
+</dd>
 <dt class="field-even">depends bioconductor-genomicranges<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.54.1,&lt;1.55.0a0</span></code></p>
+</dd>
 <dt class="field-odd">depends bioconductor-motifmatchr<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.24.0,&lt;1.25.0a0</span></code></p>
+</dd>
 <dt class="field-even">depends bioconductor-rhdf5<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.46.1,&lt;2.47.0a0</span></code></p>
+</dd>
 <dt class="field-odd">depends bioconductor-rsamtools<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.18.0,&lt;2.19.0a0</span></code></p>
+</dd>
 <dt class="field-even">depends bioconductor-s4vectors<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.25</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.40.2,&lt;0.41.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends bioconductor-s4vectors<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.25</span></code></p>
+</dd>
+<dt class="field-even">depends bioconductor-sparsematrixstats<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.14.0,&lt;1.15.0a0</span></code></p>
 </dd>
 <dt class="field-odd">depends bioconductor-summarizedexperiment<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.32.0,&lt;1.33.0a0</span></code></p>
+</dd>
 <dt class="field-even">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
@@ -124,19 +139,29 @@
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
 <dt class="field-even">depends r-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends r-data.table<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-chromvarmotifs<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.2.0,&lt;0.3.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends r-data.table<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-devtools<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-ggplot2<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-ggrepel<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;3.5</span></code></p>
+</dd>
+<dt class="field-odd">depends r-ggrastr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-gridextra<span class="colon">:</span></dt>
+<dt class="field-even">depends r-ggrepel<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-gtable<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-gridextra<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-gtools<span class="colon">:</span></dt>
+<dt class="field-even">depends r-gtable<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-gtools<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-harmony<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-magrittr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -148,9 +173,18 @@
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-plyr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-rcpp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.12.16</span></code></p>
+<dt class="field-even">depends r-presto<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.0,&lt;1.0.1.0a0</span></code></p>
 </dd>
+<dt class="field-odd">depends r-rcpp<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.12.16</span></code></p>
+</dd>
+<dt class="field-even">depends r-rcpparmadillo<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-seurat<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-seuratobject<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-stringr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-uwot<span class="colon">:</span></dt>
@@ -191,7 +225,7 @@ others.</p>
 
 <script>
     var package = "r-archr";
-    var versions = ["1.0.2"];
+    var versions = ["1.0.3","1.0.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

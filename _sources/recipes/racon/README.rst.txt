@@ -13,8 +13,11 @@ racon
    Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads.
 
    :homepage: https://github.com/lbcb-sci/racon
-   :license: MIT
+   :documentation: https://github.com/lbcb-sci/racon/blob/1.5.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`racon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon/meta.yaml>`_
+   :links: biotools: :biotools:`Racon`, usegalaxy-eu: :usegalaxy-eu:`racon`
 
    
 
@@ -28,10 +31,10 @@ racon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-4</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.20-2</code>,  <code>1.4.20-1</code>,  <code>1.4.20-0</code>,  <code>1.4.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-5</code>,  <code>1.5.0-4</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.20-2</code>,  <code>1.4.20-1</code>,  <code>1.4.20-0</code>,  </span></summary>
       
 
-      ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.20-2``,  ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.13-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.7-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.3-1``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.1-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``1.5.0-5``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.20-2``,  ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.13-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.7-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.3-1``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.1-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -40,11 +43,10 @@ racon
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends python: 
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

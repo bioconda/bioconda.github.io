@@ -13,9 +13,9 @@ hicstuff
    General purpose stuff to generate and handle Hi\-C data in its simplest form.
 
    :homepage: https://github.com/koszullab/hicstuff
-   :documentation: https://hicstuff.readthedocs.io/en/latest/
+   :documentation: https://hicstuff.readthedocs.io/en/latest
    
-   :license: GPL3 / GPL-3.0-only
+   :license: BSD / BSD-3-Clause
    :recipe: /`hicstuff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicstuff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicstuff/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ hicstuff
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.7-0</code>,  <code>3.1.6-0</code>,  <code>3.1.5-2</code>,  <code>3.1.5-1</code>,  <code>3.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.7-0</code>,  <code>3.1.6-0</code>,  <code>3.1.5-2</code>,  <code>3.1.5-1</code>,  </span></summary>
       
 
-      ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.7-0``,  ``3.1.6-0``,  ``3.1.5-2``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.7-0``,  ``3.1.6-0``,  ``3.1.5-2``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ hicstuff
    :depends pandas: 
    :depends pyfastx: 
    :depends pysam: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.6``
    :depends requests: 
    :depends samtools: 
    :depends scikit-learn: 
@@ -106,7 +106,7 @@ hicstuff
 
     <script>
         var package = "hicstuff";
-        var versions = ["3.2.3","3.2.2","3.2.1","3.2.0","3.1.7"];
+        var versions = ["3.2.4","3.2.3","3.2.2","3.2.1","3.2.0"];
     </script>
 
 

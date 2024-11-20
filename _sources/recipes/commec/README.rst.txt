@@ -29,25 +29,26 @@ commec
       
       
 
-      ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.2-0``
 
       
 
    
-   :depends bedtools: ``>=2.31``
-   :depends biopython: ``>=1.8``
+   :depends bedtools: 
+   :depends biopython: 
    :depends blast: ``>=2.16``
-   :depends diamond: ``>=0.9``
-   :depends emboss: ``>=6.6``
-   :depends hmmer: ``>=3.4``
-   :depends infernal: ``>=1.1``
-   :depends numpy: ``>=2.0.0``
-   :depends pandas: ``>=2.2``
-   :depends parallel: ``>=20240722``
-   :depends perl-list-moreutils: ``>=0.430``
-   :depends pytaxonkit: ``>=0.8``
-   :depends python: ``>=3.1``
-   :depends taxonkit: ``>=0.17``
+   :depends diamond: ``>=2.1``
+   :depends emboss: 
+   :depends hmmer: 
+   :depends infernal: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends parallel: 
+   :depends perl-list-moreutils: 
+   :depends pytaxonkit: 
+   :depends python: 
+   :depends taxonkit: 
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
@@ -95,7 +96,7 @@ commec
 
     <script>
         var package = "commec";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.0","0.1.2"];
     </script>
 
 

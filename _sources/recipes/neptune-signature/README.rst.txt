@@ -1,42 +1,41 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'neptune'
+.. title:: Package Recipe 'neptune-signature'
 .. highlight: bash
 
-neptune
-=======
+neptune-signature
+=================
 
-.. conda:recipe:: neptune
+.. conda:recipe:: neptune-signature
    :replaces_section_title:
    :noindex:
 
    Neptune\: Genomic Signature Discovery
 
    :homepage: https://github.com/phac-nml/neptune
-   :license: Apache 2.0
-   :recipe: /`neptune <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neptune>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neptune/meta.yaml>`_
+   :license: APACHE / Apache-2.0
+   :recipe: /`neptune-signature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neptune-signature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neptune-signature/meta.yaml>`_
 
    
 
 
-.. conda:package:: neptune
+.. conda:package:: neptune-signature
 
-   |downloads_neptune| |docker_neptune|
+   |downloads_neptune-signature| |docker_neptune-signature|
 
    :versions:
       
       
 
-      ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-0``
+      ``2.0.0-0``
 
       
 
    
    :depends biopython: 
    :depends blast: 
-   :depends drmaa: 
    :depends numpy: 
-   :depends python: ``<3``
+   :depends python: ``>=3.10``
    :depends scipy: 
    :requirements:
 
@@ -53,39 +52,39 @@ neptune
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install neptune
+      mamba install neptune-signature
 
    and update with::
 
-      mamba update neptune
+      mamba update neptune-signature
 
   To create a new environment, run::
 
-      mamba create --name myenvname neptune
+      mamba create --name myenvname neptune-signature
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/neptune:<tag>
+      docker pull quay.io/biocontainers/neptune-signature:<tag>
 
-   (see `neptune/tags`_ for valid values for ``<tag>``)
+   (see `neptune-signature/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_neptune| image:: https://img.shields.io/conda/dn/bioconda/neptune.svg?style=flat
-   :target: https://anaconda.org/bioconda/neptune
+.. |downloads_neptune-signature| image:: https://img.shields.io/conda/dn/bioconda/neptune-signature.svg?style=flat
+   :target: https://anaconda.org/bioconda/neptune-signature
    :alt:   (downloads)
-.. |docker_neptune| image:: https://quay.io/repository/biocontainers/neptune/status
-   :target: https://quay.io/repository/biocontainers/neptune
-.. _`neptune/tags`: https://quay.io/repository/biocontainers/neptune?tab=tags
+.. |docker_neptune-signature| image:: https://quay.io/repository/biocontainers/neptune-signature/status
+   :target: https://quay.io/repository/biocontainers/neptune-signature
+.. _`neptune-signature/tags`: https://quay.io/repository/biocontainers/neptune-signature?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "neptune";
-        var versions = ["1.2.5","1.2.5","1.2.5","1.2.5","1.2.3"];
+        var package = "neptune-signature";
+        var versions = ["2.0.0"];
     </script>
 
 
@@ -104,7 +103,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/neptune/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/neptune-signature/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/neptune/README.html
+   :target: http://bioconda.github.io/recipes/neptune-signature/README.html

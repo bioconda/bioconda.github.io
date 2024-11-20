@@ -27,12 +27,12 @@ svtopo
       
       
 
-      ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
-   :depends svtopovz: ``0.1.1``
+   :depends svtopovz: ``0.1.3``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ svtopo
 
     <script>
         var package = "svtopo";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.3","0.1.1"];
     </script>
 
 

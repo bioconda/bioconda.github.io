@@ -28,7 +28,7 @@ snk
       
       
 
-      ``0.30.1-0``
+      ``0.31.0-0``,  ``0.30.1-0``
 
       
 
@@ -36,7 +36,7 @@ snk
    :depends git: 
    :depends gitpython: ``>=3.1.0,<3.2.dev0``
    :depends python: ``>=3.8``
-   :depends snk-cli: ``>=0.5.2``
+   :depends snk-cli: ``>=0.7.0``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +84,7 @@ snk
 
     <script>
         var package = "snk";
-        var versions = ["0.30.1"];
+        var versions = ["0.31.0","0.30.1"];
     </script>
 
 

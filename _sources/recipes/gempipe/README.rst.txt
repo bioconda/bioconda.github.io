@@ -13,7 +13,7 @@ gempipe
    gempipe is a tool for the reconstruction of strain\-specific genome\-scale metabolic models.
 
    :homepage: https://github.com/lazzarigioele/gempipe
-   :documentation: https://gempipe.readthedocs.io
+   :documentation: https://gempipe.readthedocs.io/
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`gempipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gempipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gempipe/meta.yaml>`_
@@ -30,10 +30,10 @@ gempipe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.37.0-0</code>,  <code>1.36.0-0</code>,  <code>1.35.5-0</code>,  <code>1.35.4-0</code>,  <code>1.35.3-0</code>,  <code>1.35.2-0</code>,  <code>1.35.1-0</code>,  <code>1.35.0-0</code>,  <code>1.34.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.37.3-0</code>,  <code>1.37.0-0</code>,  <code>1.36.0-0</code>,  <code>1.35.5-0</code>,  <code>1.35.4-0</code>,  <code>1.35.3-0</code>,  <code>1.35.2-0</code>,  <code>1.35.1-0</code>,  <code>1.35.0-0</code>,  </span></summary>
       
 
-      ``1.37.0-0``,  ``1.36.0-0``,  ``1.35.5-0``,  ``1.35.4-0``,  ``1.35.3-0``,  ``1.35.2-0``,  ``1.35.1-0``,  ``1.35.0-0``,  ``1.34.2-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.33.4-0``,  ``1.33.3-0``,  ``1.33.2-0``,  ``1.33.1-0``,  ``1.33.0-0``
+      ``1.37.3-0``,  ``1.37.0-0``,  ``1.36.0-0``,  ``1.35.5-0``,  ``1.35.4-0``,  ``1.35.3-0``,  ``1.35.2-0``,  ``1.35.1-0``,  ``1.35.0-0``,  ``1.34.2-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.33.4-0``,  ``1.33.3-0``,  ``1.33.2-0``,  ``1.33.1-0``,  ``1.33.0-0``
 
       
       .. raw:: html
@@ -60,7 +60,7 @@ gempipe
    :depends python: ``>=3.9``
    :depends scikit-learn: ``>=1.3.0``
    :depends scipy: ``>=1.10.0``
-   :depends seaborn-base: ``>=0.13.0``
+   :depends seaborn: ``>=0.13.0``
    :depends seqkit: ``>=2.2.0``
    :requirements:
 
@@ -109,7 +109,7 @@ gempipe
 
     <script>
         var package = "gempipe";
-        var versions = ["1.37.0","1.36.0","1.35.5","1.35.4","1.35.3"];
+        var versions = ["1.37.3","1.37.0","1.36.0","1.35.5","1.35.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ hmftools-chord
       
       
 
-      ``2.1.0_beta-2``,  ``2.1.0_beta-0``
+      ``2.1.0_beta-3``,  ``2.1.0_beta-2``,  ``2.1.0_beta-0``
 
       
 
@@ -82,7 +82,7 @@ hmftools-chord
 
     <script>
         var package = "hmftools-chord";
-        var versions = ["2.1.0_beta","2.1.0_beta"];
+        var versions = ["2.1.0_beta","2.1.0_beta","2.1.0_beta"];
     </script>
 
 

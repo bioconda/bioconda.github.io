@@ -51,12 +51,12 @@ biobb_haddock
       
       
 
-      ``4.2.1-0``
+      ``5.0.0-0``,  ``4.2.1-0``
 
       
 
    
-   :depends biobb_common: ``4.2.0``
+   :depends biobb_common: ``5.0.0``
    :depends python: ``>=3.9``
    :requirements:
 
@@ -105,7 +105,7 @@ biobb_haddock
 
     <script>
         var package = "biobb_haddock";
-        var versions = ["4.2.1"];
+        var versions = ["5.0.0","4.2.1"];
     </script>
 
 
