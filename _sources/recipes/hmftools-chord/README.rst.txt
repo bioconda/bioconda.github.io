@@ -27,12 +27,12 @@ hmftools-chord
       
       
 
-      ``2.1.0_beta-3``,  ``2.1.0_beta-2``,  ``2.1.0_beta-0``
+      ``2.1.0_beta-4``,  ``2.1.0_beta-3``,  ``2.1.0_beta-2``,  ``2.1.0_beta-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :depends r-base: 
    :depends r-randomforest: 
    :requirements:
@@ -82,7 +82,7 @@ hmftools-chord
 
     <script>
         var package = "hmftools-chord";
-        var versions = ["2.1.0_beta","2.1.0_beta","2.1.0_beta"];
+        var versions = ["2.1.0_beta","2.1.0_beta","2.1.0_beta","2.1.0_beta"];
     </script>
 
 

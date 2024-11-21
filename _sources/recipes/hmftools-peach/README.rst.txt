@@ -27,12 +27,12 @@ hmftools-peach
       
       
 
-      ``2.0.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ hmftools-peach
 
     <script>
         var package = "hmftools-peach";
-        var versions = ["2.0.0"];
+        var versions = ["2.0.0","2.0.0"];
     </script>
 
 

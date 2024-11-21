@@ -27,12 +27,12 @@ hmftools-neo
       
       
 
-      ``1.2_beta-0``,  ``1.0.1-0``
+      ``1.2_beta-1``,  ``1.2_beta-0``,  ``1.0.1-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ hmftools-neo
 
     <script>
         var package = "hmftools-neo";
-        var versions = ["1.2_beta","1.0.1"];
+        var versions = ["1.2_beta","1.2_beta","1.0.1"];
     </script>
 
 

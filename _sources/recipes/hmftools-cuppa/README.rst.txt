@@ -27,13 +27,13 @@ hmftools-cuppa
       
       
 
-      ``2.3.0_beta-1``,  ``2.3.0_beta-0``,  ``2.2.1-0``,  ``2.1.1-0``,  ``1.8.1-0``
+      ``2.3.0_beta-2``,  ``2.3.0_beta-1``,  ``2.3.0_beta-0``,  ``2.2.1-0``,  ``2.1.1-0``,  ``1.8.1-0``
 
       
 
    
    :depends numpy: ``>=1.24``
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :depends pandas: ``2.0.*``
    :depends python: ``3.11``
    :depends r-base: ``>=4.2,<4.3.0a0``
@@ -89,7 +89,7 @@ hmftools-cuppa
 
     <script>
         var package = "hmftools-cuppa";
-        var versions = ["2.3.0_beta","2.3.0_beta","2.2.1","2.1.1","1.8.1"];
+        var versions = ["2.3.0_beta","2.3.0_beta","2.3.0_beta","2.2.1","2.1.1"];
     </script>
 
 

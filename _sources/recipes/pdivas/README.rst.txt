@@ -13,7 +13,7 @@ pdivas
    PDIVAS\: Pathogenicity predictor of Deep\-Intronic Variants causing Aberrant Splicing
 
    :homepage: https://github.com/shiro-kur/PDIVAS
-   :license: OTHER / MIT
+   :license: MIT
    :recipe: /`pdivas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pdivas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pdivas/meta.yaml>`_
 
    
@@ -27,16 +27,16 @@ pdivas
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
    
-   :depends cyvcf2: 
-   :depends numpy: 
-   :depends pandas: 
+   :depends cyvcf2: ``>=0.11``
+   :depends numpy: ``>=1.21``
+   :depends pandas: ``>=1.3``
    :depends python: 
-   :depends scikit-learn: 
+   :depends scikit-learn: ``1.0.2.*``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +84,7 @@ pdivas
 
     <script>
         var package = "pdivas";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

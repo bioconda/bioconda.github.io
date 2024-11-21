@@ -12,8 +12,9 @@ finemap
 
    Program for identifying causal SNPs and their effect sizes and heritability contributions
 
+
    :homepage: http://www.christianbenner.com
-   :license: Other
+   :license: `Custom Academic <http://www.christianbenner.com/license_finemap_v1.4.html>`_
    :recipe: /`finemap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/finemap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/finemap/meta.yaml>`_
 
    
@@ -27,11 +28,16 @@ finemap
       
       
 
-      ``1.4.1-0``
+      ``1.4.2-0``,  ``1.4.1-0``
 
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: 
+   :depends libgomp: 
+   :depends sysroot_linux-64: ``2.17.*``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +85,7 @@ finemap
 
     <script>
         var package = "finemap";
-        var versions = ["1.4.1"];
+        var versions = ["1.4.2","1.4.1"];
     </script>
 
 

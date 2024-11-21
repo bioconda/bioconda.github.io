@@ -27,17 +27,17 @@ liana
       
       
 
-      ``1.4.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends anndata: ``>=0.7.4``
+   :depends anndata: ``>=0.7.4,<=0.10.8``
    :depends cell2cell: 
    :depends corneto: 
    :depends cvxpy: ``>=1.4,<2``
    :depends cylp: ``>=0.91.5,<0.92.0``
-   :depends decoupler: ``>=1.4.0``
+   :depends decoupler-py: ``>=1.4.0``
    :depends docrep: ``>=0.3.1``
    :depends mofapy2: ``>=0.7.0``
    :depends mofax: 
@@ -45,6 +45,7 @@ liana
    :depends muon: 
    :depends numba: ``>=0.54.0``
    :depends omnipath: ``>=1.0.6``
+   :depends pandas: ``>=2.2.2,<3.0.0``
    :depends plotnine: ``>=0.10.0``
    :depends pre-commit: ``>=3.0.0``
    :depends pydeseq2: ``>=0.3.5``
@@ -99,7 +100,7 @@ liana
 
     <script>
         var package = "liana";
-        var versions = ["1.4.0"];
+        var versions = ["1.4.0","1.4.0"];
     </script>
 
 

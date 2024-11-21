@@ -30,10 +30,10 @@ dnaapler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.0.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,9 +43,9 @@ dnaapler
 
    
    :depends biopython: ``>=1.76``
-   :depends blast: ``>=2.10``
    :depends click: ``>=8.0.0``
    :depends loguru: ``>=0.5.3``
+   :depends mmseqs2: ``13.45111``
    :depends pandas: ``>=1.4.2``
    :depends pyrodigal: ``>=3.0.0``
    :depends python: ``>=3.8,<4.0``
@@ -97,7 +97,7 @@ dnaapler
 
     <script>
         var package = "dnaapler";
-        var versions = ["0.8.1","0.8.0","0.7.0","0.6.0","0.5.2"];
+        var versions = ["1.0.0","0.8.1","0.8.0","0.7.0","0.6.0"];
     </script>
 
 

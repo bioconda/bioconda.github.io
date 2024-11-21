@@ -27,12 +27,12 @@ hmftools-bam-tools
       
       
 
-      ``1.3_beta-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3_beta-1``,  ``1.3_beta-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ hmftools-bam-tools
 
     <script>
         var package = "hmftools-bam-tools";
-        var versions = ["1.3_beta","1.2.1","1.2","1.2"];
+        var versions = ["1.3_beta","1.3_beta","1.2.1","1.2","1.2"];
     </script>
 
 

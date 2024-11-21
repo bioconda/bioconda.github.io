@@ -27,12 +27,12 @@ iseq
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends aspera-cli: 
+   :depends aspera-cli: ``4.14.0.*``
    :depends axel: 
    :depends pigz: 
    :depends sra-tools: ``>=2.11.0``
@@ -84,7 +84,7 @@ iseq
 
     <script>
         var package = "iseq";
-        var versions = ["1.2.0","1.2.0","1.1.0","1.0.0"];
+        var versions = ["1.3.0","1.2.0","1.2.0","1.1.0","1.0.0"];
     </script>
 
 

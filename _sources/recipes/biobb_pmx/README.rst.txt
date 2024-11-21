@@ -33,7 +33,7 @@ biobb_pmx
    \[latest API documentation\]\(http\:\/\/biobb\_pmx.readthedocs.io\/en\/latest\/\).
 
    \#\#\# Version
-   v4.2.1 Jan 2024 Release
+   v5.0.0 Jan 2024 Release
 
 
    \#\#\# Copyright \& Licensing
@@ -60,10 +60,10 @@ biobb_pmx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-0</code>,  </span></summary>
       
 
-      ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -72,9 +72,10 @@ biobb_pmx
       
 
    
-   :depends biobb_common: ``4.2.0``
+   :depends biobb_common: ``5.0.0``
    :depends pmx_biobb: ``4.1.3``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
+   :depends scipy: ``<1.14``
    :requirements:
 
    .. rubric:: Installation
@@ -122,7 +123,7 @@ biobb_pmx
 
     <script>
         var package = "biobb_pmx";
-        var versions = ["4.2.1","4.2.0","4.1.0","4.0.0","3.8.1"];
+        var versions = ["5.0.0","4.2.1","4.2.0","4.1.0","4.0.0"];
     </script>
 
 

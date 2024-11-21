@@ -27,12 +27,12 @@ hmftools-isofox
       
       
 
-      ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``,  ``1.4-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``,  ``1.4-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +80,7 @@ hmftools-isofox
 
     <script>
         var package = "hmftools-isofox";
-        var versions = ["1.7.1","1.6.2","1.5","1.4","1.1"];
+        var versions = ["1.7.1","1.7.1","1.6.2","1.5","1.4"];
     </script>
 
 

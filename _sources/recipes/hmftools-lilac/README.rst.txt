@@ -27,12 +27,12 @@ hmftools-lilac
       
       
 
-      ``1.6-0``,  ``1.4.2-0``,  ``1.1-0``
+      ``1.6-1``,  ``1.6-0``,  ``1.4.2-0``,  ``1.1-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :depends zlib: 
    :requirements:
 
@@ -81,7 +81,7 @@ hmftools-lilac
 
     <script>
         var package = "hmftools-lilac";
-        var versions = ["1.6","1.4.2","1.1"];
+        var versions = ["1.6","1.6","1.4.2","1.1"];
     </script>
 
 

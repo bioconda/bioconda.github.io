@@ -28,10 +28,10 @@ saccharis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.1.dev21-9</code>,  <code>2.0.1.dev21-8</code>,  <code>2.0.1.dev21-7</code>,  <code>2.0.1.dev21-6</code>,  <code>2.0.1.dev21-5</code>,  <code>2.0.1.dev21-4</code>,  <code>2.0.1.dev21-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.1.dev21-9</code>,  <code>2.0.1.dev21-8</code>,  <code>2.0.1.dev21-7</code>,  <code>2.0.1.dev21-6</code>,  <code>2.0.1.dev21-5</code>,  <code>2.0.1.dev21-4</code>,  </span></summary>
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.1.dev21-9``,  ``2.0.1.dev21-8``,  ``2.0.1.dev21-7``,  ``2.0.1.dev21-6``,  ``2.0.1.dev21-5``,  ``2.0.1.dev21-4``,  ``2.0.1.dev21-3``,  ``2.0.1.dev21-2``,  ``2.0.1.dev21-0``,  ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
+      ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.1.dev21-9``,  ``2.0.1.dev21-8``,  ``2.0.1.dev21-7``,  ``2.0.1.dev21-6``,  ``2.0.1.dev21-5``,  ``2.0.1.dev21-4``,  ``2.0.1.dev21-3``,  ``2.0.1.dev21-2``,  ``2.0.1.dev21-0``,  ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
       .. raw:: html
@@ -54,9 +54,8 @@ saccharis
    :depends psutil: 
    :depends pyqt: ``>=5,<6``
    :depends pyqt5-sip: ``>=12.11``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.11``
    :depends python-dotenv: ``>=0.20.0``
-   :depends python-wget: ``>=3.2``
    :depends raxml: ``>=8.2.12``
    :depends raxml-ng: ``>=1.2``
    :depends requests: ``>=2.28.0``
@@ -107,7 +106,7 @@ saccharis
 
     <script>
         var package = "saccharis";
-        var versions = ["2.0.1","2.0.1","2.0.1.dev21","2.0.1.dev21","2.0.1.dev21"];
+        var versions = ["2.0.2","2.0.1","2.0.1","2.0.1.dev21","2.0.1.dev21"];
     </script>
 
 

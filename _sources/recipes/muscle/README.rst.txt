@@ -29,10 +29,10 @@ muscle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.3-0</code>,  <code>5.2-0</code>,  <code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1.0-1</code>,  <code>5.1-1</code>,  <code>5.1.0-0</code>,  <code>5.1-0</code>,  <code>3.8.1551-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3-0</code>,  <code>5.2-0</code>,  <code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1-1</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.1-0</code>,  <code>3.8.1551-6</code>,  </span></summary>
       
 
-      ``5.3-0``,  ``5.2-0``,  ``5.1-3``,  ``5.1-2``,  ``5.1.0-1``,  ``5.1-1``,  ``5.1.0-0``,  ``5.1-0``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
+      ``5.3-0``,  ``5.2-0``,  ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.1-0``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ muscle
 
     <script>
         var package = "muscle";
-        var versions = ["5.3","5.2","5.1","5.1","5.1.0"];
+        var versions = ["5.3","5.2","5.1","5.1","5.1"];
     </script>
 
 

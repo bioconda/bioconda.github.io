@@ -30,14 +30,13 @@ polypolish
       
       
 
-      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends python: ``>=3.6``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +84,7 @@ polypolish
 
     <script>
         var package = "polypolish";
-        var versions = ["0.6.0","0.6.0","0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.6.0","0.6.0","0.6.0","0.5.0","0.5.0"];
     </script>
 
 
