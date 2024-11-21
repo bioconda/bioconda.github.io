@@ -401,7 +401,7 @@ are necessary to satisfy bioconda policies:</p>
 </ul>
 </section>
 <section id="c-c">
-<h2>C/C++<a class="headerlink" href="#c-c" title="Link to this heading">¶</a></h2>
+<span id="c-cpp"></span><h2>C/C++<a class="headerlink" href="#c-c" title="Link to this heading">¶</a></h2>
 <p>Build tools (e.g., <code class="docutils literal notranslate"><span class="pre">autoconf</span></code>) and compilers (e.g., <code class="docutils literal notranslate"><span class="pre">gcc</span></code>) should be
 specified in the build requirements. Compilers are handled via a special macro.
 E.g., <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('c')}}</span></code> ensures that the correct version of <code class="docutils literal notranslate"><span class="pre">gcc</span></code> is used.
@@ -458,6 +458,67 @@ other sets <code class="docutils literal notranslate"><span class="pre">BLD_PLAT
 and <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo">soapdenovo</a>
 have many fixes to makefiles</p></li>
 </ul>
+</section>
+<section id="rust">
+<h2>Rust<a class="headerlink" href="#rust" title="Link to this heading">¶</a></h2>
+<p>The Rust compiler is included with the special macro <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('rust')</span> <span class="pre">}}</span></code>. In addition,
+if your package relies on the C/C++ compilers, either directly, or indirectly through
+building dependencies, use the <a class="reference internal" href="#c-cpp"><span class="std std-ref">macros for those compilers</span></a> too.</p>
+<p>Keeping in line with <a class="reference external" href="https://conda-forge.org/docs/maintainer/adding_pkgs/#licenses-of-included-dependencies">conda-forge policies</a>,
+all (Rust) dependencies of your package should have their license included in the package.
+This can be done by including, and using, <a class="reference external" href="https://github.com/sstadick/cargo-bundle-licenses"><code class="docutils literal notranslate"><span class="pre">cargo-bundle-licenses</span></code></a> in the build process.
+However, make sure to include the license files in the package (see below).</p>
+<p>Lastly, there are some Cargo flags that are recommended for making the build process
+as reproducible as possible across different systems. <a class="reference external" href="https://doc.rust-lang.org/cargo/commands/cargo-install.html#manifest-options"><code class="docutils literal notranslate"><span class="pre">--locked</span></code></a> ensures the builds is
+deterministic by asserting that the exact same dependencies and versions are used as in
+the <code class="docutils literal notranslate"><span class="pre">Cargo.lock</span></code> file. <a class="reference external" href="https://doc.rust-lang.org/cargo/commands/cargo-install.html#install-options"><code class="docutils literal notranslate"><span class="pre">--no-track</span></code></a> prevents Cargo from tracking the installed binaries,
+ensuring a clean and reproducible build environment for the package. <code class="docutils literal notranslate"><span class="pre">--root</span> <span class="pre">$PREFIX</span></code>
+installs the package into the correct place in the Conda environment. <code class="docutils literal notranslate"><span class="pre">--path</span></code>
+specifies the path to the package source code (usually the current directory <code class="docutils literal notranslate"><span class="pre">.</span></code>).</p>
+<p>Wrapping it all up, a typical Rust recipe would look like this:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">{</span><span class="err">%</span><span class="w"> </span><span class="nv">set version = &quot;0.1.0&quot; %</span><span class="p p-Indicator">}</span>
+<span class="p p-Indicator">{</span><span class="err">%</span><span class="w"> </span><span class="nv">set name = &quot;mypackage&quot; %</span><span class="p p-Indicator">}</span>
+
+<span class="nt">package</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">version</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+
+<span class="nt">source</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/USERNAME/{{ name }}/archive/{{ version }}.tar.gz</span>
+<span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef</span>
+
+<span class="nt">build</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
+<span class="w">  </span><span class="nt">run_exports</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">pin_subpackage(&#39;mypackage&#39;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">max_pin=&quot;x.x&quot;)</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+<span class="w">  </span><span class="nt">script</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cargo-bundle-licenses --format yaml --output THIRDPARTY.yml</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cargo install -v --locked --no-track --root $PREFIX --path .</span>
+
+<span class="nt">requirements</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">build</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">compiler(&#39;rust&#39;)</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cargo-bundle-licenses</span>
+<span class="w">    </span><span class="c1"># - {{ compiler(&#39;c&#39;) }} add these C/C++ compilers if needed</span>
+<span class="w">    </span><span class="c1"># - {{ compiler(&#39;cxx&#39;) }}</span>
+
+<span class="nt">test</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">commands</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mypackage --version</span>
+
+<span class="nt">about</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">home</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://example.com</span>
+<span class="w">  </span><span class="nt">license</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MIT</span><span class="w"> </span><span class="c1"># please use https://spdx.org identifiers</span>
+<span class="w">  </span><span class="nt">license_file</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LICENSE</span><span class="w">         </span><span class="c1"># the license file for your package</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">THIRDPARTY.yml</span><span class="w">  </span><span class="c1"># this file is generated by cargo-bundle-licenses</span>
+<span class="w">  </span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">A Rust package</span>
+
+<span class="nt">extra</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">recipe-maintainers</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="err">@</span><span class="l l-Scalar l-Scalar-Plain">username</span><span class="w">  </span><span class="c1"># your GitHub username</span>
+</pre></div>
+</div>
 </section>
 <section id="haskell">
 <h2>Haskell<a class="headerlink" href="#haskell" title="Link to this heading">¶</a></h2>
@@ -658,6 +719,7 @@ and others.</p>
 <li class="toctree-l3"><a class="reference internal" href="#java">Java</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#perl">Perl</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#c-c">C/C++</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rust">Rust</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#haskell">Haskell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#general-command-line-tools">General command-line tools</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#metapackages">Metapackages</a></li>
