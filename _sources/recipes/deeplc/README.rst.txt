@@ -13,6 +13,8 @@ deeplc
    DeepLC\: Retention time prediction for \(modified\) peptides using Deep Learning.
 
    :homepage: https://compomics.github.io/projects/DeepLC
+   :documentation: https://github.com/compomics/DeepLC/blob/v3.1.3/README.md
+   
    :developer docs: https://github.com/compomics/DeepLC
    :license: APACHE / Apache-2.0
    :recipe: /`deeplc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeplc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeplc/meta.yaml>`_
@@ -30,10 +32,10 @@ deeplc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.4-0</code>,  <code>3.0.2-0</code>,  <code>2.2.38-0</code>,  <code>2.2.36-0</code>,  <code>2.2.27-0</code>,  <code>2.2.26-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.3-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.4-0</code>,  <code>3.0.2-0</code>,  <code>2.2.38-0</code>,  <code>2.2.36-0</code>,  <code>2.2.27-0</code>,  </span></summary>
       
 
-      ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.4-0``,  ``3.0.2-0``,  ``2.2.38-0``,  ``2.2.36-0``,  ``2.2.27-0``,  ``2.2.26-0``,  ``2.2.22-0``,  ``2.2.20-0``,  ``2.2.18-0``,  ``2.2.14-0``,  ``2.2.12-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``1.1.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.36-0``,  ``0.1.35-0``,  ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.31-0``,  ``0.1.30-0``,  ``0.1.29-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``3.1.3-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.4-0``,  ``3.0.2-0``,  ``2.2.38-0``,  ``2.2.36-0``,  ``2.2.27-0``,  ``2.2.26-0``,  ``2.2.22-0``,  ``2.2.20-0``,  ``2.2.18-0``,  ``2.2.14-0``,  ``2.2.12-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``1.1.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.36-0``,  ``0.1.35-0``,  ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.31-0``,  ``0.1.30-0``,  ``0.1.29-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -42,19 +44,13 @@ deeplc
       
 
    
-   :depends deeplcretrainer: 
-   :depends gooey: 
-   :depends h5py: 
-   :depends hdf5plugin: 
-   :depends numpy: ``>=1.17,<2``
-   :depends opt_einsum: 
-   :depends pandas: ``>=0.25,<2``
-   :depends psm-utils: 
-   :depends pyarrow: 
-   :depends pygam: 
-   :depends pyopenms: 
-   :depends python: ``>=3.7``
-   :depends tensorflow: ``>=2.2,<3``
+   :depends deeplcretrainer: ``>=1,<2``
+   :depends numpy: ``>=1.17,<3``
+   :depends pandas: ``>=0.25,<3``
+   :depends psm-utils: ``>=1,<2``
+   :depends python: ``>=3.9``
+   :depends scikit-learn: ``>=1.2.0,<2``
+   :depends tensorflow: ``>=2.15.0,<3``
    :requirements:
 
    .. rubric:: Installation
@@ -102,7 +98,7 @@ deeplc
 
     <script>
         var package = "deeplc";
-        var versions = ["3.0.8","3.0.7","3.0.6","3.0.4","3.0.2"];
+        var versions = ["3.1.3","3.0.8","3.0.7","3.0.6","3.0.4"];
     </script>
 
 

@@ -27,11 +27,13 @@ ega-cryptor
       
       
 
-      
+      ``2.0.0-0``
 
       
 
    
+   :depends openjdk: ``>=8,<12``
+   :depends python: ``>=3.6,<4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +81,7 @@ ega-cryptor
 
     <script>
         var package = "ega-cryptor";
-        var versions = [];
+        var versions = ["2.0.0"];
     </script>
 
 

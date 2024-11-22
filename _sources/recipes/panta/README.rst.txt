@@ -1,41 +1,46 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'simug'
+.. title:: Package Recipe 'panta'
 .. highlight: bash
 
-simug
+panta
 =====
 
-.. conda:recipe:: simug
+.. conda:recipe:: panta
    :replaces_section_title:
    :noindex:
 
-   A simple\, flexible\, and powerful tool to simulate genome sequences with pre\-defined or random genomic variants.
+   PanTA \- pan\-genome pipeline
 
-   :homepage: https://github.com/yjx1217/simuG
+   :homepage: https://github.com/amromics/panta
    :license: MIT / MIT
-   :recipe: /`simug <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simug>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simug/meta.yaml>`_
+   :recipe: /`panta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panta/meta.yaml>`_
 
    
 
 
-.. conda:package:: simug
+.. conda:package:: panta
 
-   |downloads_simug| |docker_simug|
+   |downloads_panta| |docker_panta|
 
    :versions:
       
       
 
-      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``
 
       
 
    
-   :depends gzip: 
-   :depends perl: 
-   :depends perl-getopt-long: 
-   :depends perl-pod-usage: 
+   :depends biopython: 
+   :depends blast: ``>=2.13.0``
+   :depends cd-hit: ``>=4.8.1``
+   :depends diamond: ``>=2.1.3``
+   :depends mafft: ``>=7.520``
+   :depends mcl: ``>=14.137``
+   :depends pandas: 
+   :depends psutil: 
+   :depends python: ``>=3.9``
    :requirements:
 
    .. rubric:: Installation
@@ -51,39 +56,39 @@ simug
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install simug
+      mamba install panta
 
    and update with::
 
-      mamba update simug
+      mamba update panta
 
   To create a new environment, run::
 
-      mamba create --name myenvname simug
+      mamba create --name myenvname panta
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/simug:<tag>
+      docker pull quay.io/biocontainers/panta:<tag>
 
-   (see `simug/tags`_ for valid values for ``<tag>``)
+   (see `panta/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_simug| image:: https://img.shields.io/conda/dn/bioconda/simug.svg?style=flat
-   :target: https://anaconda.org/bioconda/simug
+.. |downloads_panta| image:: https://img.shields.io/conda/dn/bioconda/panta.svg?style=flat
+   :target: https://anaconda.org/bioconda/panta
    :alt:   (downloads)
-.. |docker_simug| image:: https://quay.io/repository/biocontainers/simug/status
-   :target: https://quay.io/repository/biocontainers/simug
-.. _`simug/tags`: https://quay.io/repository/biocontainers/simug?tab=tags
+.. |docker_panta| image:: https://quay.io/repository/biocontainers/panta/status
+   :target: https://quay.io/repository/biocontainers/panta
+.. _`panta/tags`: https://quay.io/repository/biocontainers/panta?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "simug";
-        var versions = ["1.0.1","1.0.0","1.0.0"];
+        var package = "panta";
+        var versions = ["1.0.1"];
     </script>
 
 
@@ -102,7 +107,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/simug/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/panta/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/simug/README.html
+   :target: http://bioconda.github.io/recipes/panta/README.html

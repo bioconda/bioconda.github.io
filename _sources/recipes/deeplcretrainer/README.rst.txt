@@ -26,9 +26,17 @@ deeplcretrainer
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.8-0``,  ``0.2.1-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.19-0``,  ``0.1.17-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.8-0</code>,  <code>0.2.1-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.19-0</code>,  </span></summary>
+      
 
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.8-0``,  ``0.2.1-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.19-0``,  ``0.1.17-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -80,7 +88,7 @@ deeplcretrainer
 
     <script>
         var package = "deeplcretrainer";
-        var versions = ["1.0.0","0.2.12","0.2.11","0.2.8","0.2.1"];
+        var versions = ["1.0.1","1.0.0","0.2.12","0.2.11","0.2.8"];
     </script>
 
 

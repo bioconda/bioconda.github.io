@@ -13,6 +13,8 @@ biobb_mem
    Biobb\_mem is the Biobb module for membrane structure analysis.
 
    :homepage: https://github.com/bioexcel/biobb_mem
+   :documentation: http://biobb-mem.readthedocs.io/en/latest/
+   
    :license: APACHE / Apache Software License
    :recipe: /`biobb_mem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_mem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_mem/meta.yaml>`_
 
@@ -49,7 +51,7 @@ biobb_mem
       
       
 
-      ``5.0.1-0``
+      ``5.0.2-0``,  ``5.0.1-0``
 
       
 
@@ -59,6 +61,7 @@ biobb_mem
    :depends gromacs: 
    :depends hole2: 
    :depends lipyphilic: ``0.10.0``
+   :depends pip: 
    :depends python: ``>=3.9``
    :requirements:
 
@@ -107,7 +110,7 @@ biobb_mem
 
     <script>
         var package = "biobb_mem";
-        var versions = ["5.0.1"];
+        var versions = ["5.0.2","5.0.1"];
     </script>
 
 
