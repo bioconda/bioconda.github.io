@@ -27,7 +27,7 @@ gafpack
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -79,7 +79,7 @@ gafpack
 
     <script>
         var package = "gafpack";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

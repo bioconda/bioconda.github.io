@@ -27,16 +27,16 @@ scspectra
       
       
 
-      ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends numpy: ``>=1.20.3``
+   :depends numpy: ``>=2.0.0,<3.0.0``
    :depends opt-einsum: ``>=3.3.0``
-   :depends pandas: ``>=1.3.5,<2.0.0``
+   :depends pandas: ``>=2.0.0,<3.0.0``
    :depends python: ``>=3.8``
-   :depends pytorch: ``>=1.10.1,<2.0.0``
+   :depends pytorch: ``>=2.0.0,<3.0.0``
    :depends pyvis: ``>=0.1.9,<0.2.0``
    :depends scanpy: ``>=1.8.2``
    :depends scipy: ``>=1.7.3``
@@ -88,7 +88,7 @@ scspectra
 
     <script>
         var package = "scspectra";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.1","0.2.0"];
     </script>
 
 

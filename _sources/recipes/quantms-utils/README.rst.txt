@@ -30,10 +30,10 @@ quantms-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.13-0</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  </span></summary>
       
 
-      ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -43,13 +43,17 @@ quantms-utils
 
    
    :depends click: 
+   :depends deeplc: ``2.2.38``
    :depends ms2rescore: ``3.0.3``
    :depends numpy: 
    :depends pandas: 
+   :depends protobuf: ``>=3.9.2``
    :depends psm-utils: ``0.8.3``
    :depends pyarrow: 
+   :depends pygam: 
    :depends pyopenms: 
-   :depends python: ``>=3.8,<3.12``
+   :depends python: ``>=3.8,<3.11``
+   :depends scipy: ``1.13.1``
    :depends sdrf-pipelines: ``>=0.0.31``
    :requirements:
 
@@ -98,7 +102,7 @@ quantms-utils
 
     <script>
         var package = "quantms-utils";
-        var versions = ["0.0.13","0.0.12","0.0.11","0.0.10","0.0.9"];
+        var versions = ["0.0.15","0.0.14","0.0.13","0.0.12","0.0.11"];
     </script>
 
 
