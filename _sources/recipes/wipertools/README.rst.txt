@@ -27,7 +27,7 @@ wipertools
       
       
 
-      ``1.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -80,7 +80,7 @@ wipertools
 
     <script>
         var package = "wipertools";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.1","1.1.0"];
     </script>
 
 

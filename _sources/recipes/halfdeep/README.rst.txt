@@ -27,7 +27,7 @@ halfdeep
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -35,7 +35,7 @@ halfdeep
    :depends bash: 
    :depends coreutils: 
    :depends gawk: 
-   :depends genodsp: 
+   :depends genodsp: ``>=0.0.10``
    :depends grep: 
    :depends gzip: 
    :depends minimap2: 
@@ -90,7 +90,7 @@ halfdeep
 
     <script>
         var package = "halfdeep";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 
