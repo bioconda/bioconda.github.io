@@ -13,7 +13,9 @@ biobb_vs
    Biobb\_vs is the Biobb module collection to perform virtual screening studies.
 
    :homepage: https://github.com/bioexcel/biobb_vs
-   :license: APACHE / Apache Software License
+   :documentation: https://biobb-vs.readthedocs.io/en/latest
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`biobb_vs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_vs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_vs/meta.yaml>`_
 
    \# biobb\_vs
@@ -50,10 +52,10 @@ biobb_vs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.0-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  </span></summary>
       
 
-      ``4.2.0-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
+      ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
 
       
       .. raw:: html
@@ -62,9 +64,9 @@ biobb_vs
       
 
    
-   :depends biobb_common: ``4.2.0``
+   :depends biobb_common: ``5.0.0``
    :depends fpocket: ``4.1``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9,<3.12``
    :depends vina: ``1.2.3``
    :requirements:
 
@@ -113,7 +115,7 @@ biobb_vs
 
     <script>
         var package = "biobb_vs";
-        var versions = ["4.2.0","4.1.2","4.1.1","4.1.0","4.0.0"];
+        var versions = ["5.0.0","4.2.0","4.1.2","4.1.1","4.1.0"];
     </script>
 
 

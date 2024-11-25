@@ -10,12 +10,11 @@ stranger
    :replaces_section_title:
    :noindex:
 
-   Annotate VCF files with str variants
+   Annotate VCF files with STR variants with pathogenicity implications.
 
-   :homepage: https://github.com/moonso/stranger
-   :documentation: https://github.com/Clinical-Genomics/stranger
+   :homepage: https://github.com/Clinical-Genomics/stranger
+   :documentation: https://github.com/Clinical-Genomics/stranger/blob/v0.9.3/README.md
    
-   :developer docs: https://github.com/Clinical-Genomics/stranger
    :license: MIT / MIT
    :recipe: /`stranger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger/meta.yaml>`_
 
@@ -30,16 +29,16 @@ stranger
       
       
 
-      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
+      ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
 
       
 
    
    :depends click: 
    :depends coloredlogs: 
-   :depends python: ``>=3.6.0``
+   :depends importlib-resources: ``>=5.12.0``
+   :depends python: ``>=3.7``
    :depends pyyaml: 
-   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
@@ -87,7 +86,7 @@ stranger
 
     <script>
         var package = "stranger";
-        var versions = ["0.9.2","0.9.2","0.9.1","0.9.0","0.8.1"];
+        var versions = ["0.9.3","0.9.2","0.9.2","0.9.1","0.9.0"];
     </script>
 
 

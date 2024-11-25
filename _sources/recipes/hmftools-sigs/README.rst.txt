@@ -27,12 +27,12 @@ hmftools-sigs
       
       
 
-      ``1.2.1-0``,  ``1.1-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.1-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=8,<=21``
    :depends zlib: 
    :requirements:
 
@@ -81,7 +81,7 @@ hmftools-sigs
 
     <script>
         var package = "hmftools-sigs";
-        var versions = ["1.2.1","1.1"];
+        var versions = ["1.2.1","1.2.1","1.1"];
     </script>
 
 

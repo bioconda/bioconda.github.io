@@ -27,11 +27,12 @@ wipertools
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
+   :depends coreutils: ``>=8``
    :depends python: ``>=3.10``
    :requirements:
 
@@ -80,7 +81,7 @@ wipertools
 
     <script>
         var package = "wipertools";
-        var versions = ["1.1.1","1.1.0"];
+        var versions = ["1.1.1","1.1.1","1.1.0"];
     </script>
 
 

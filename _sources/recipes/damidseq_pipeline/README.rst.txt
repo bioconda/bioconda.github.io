@@ -10,10 +10,12 @@ damidseq_pipeline
    :replaces_section_title:
    :noindex:
 
-   An automated pipeline for processing DamID sequencing datasets
+   An automated pipeline for processing DamID sequencing datasets.
 
    :homepage: https://github.com/owenjm/damidseq_pipeline
-   :license: GPL-2.0
+   :documentation: https://owenjm.github.io/damidseq_pipeline
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`damidseq_pipeline <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/damidseq_pipeline>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/damidseq_pipeline/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ damidseq_pipeline
       
       
 
-      ``1.5.3-0``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``
+      ``1.6-0``,  ``1.5.3-0``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``
 
       
 
@@ -36,7 +38,7 @@ damidseq_pipeline
    :depends igvtools: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends r-base: 
-   :depends samtools: ``<1.3.0``
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +86,7 @@ damidseq_pipeline
 
     <script>
         var package = "damidseq_pipeline";
-        var versions = ["1.5.3","1.4","1.4","1.4","1.4"];
+        var versions = ["1.6","1.5.3","1.4","1.4","1.4"];
     </script>
 
 

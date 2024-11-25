@@ -26,17 +26,25 @@ cobs
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.2-2</code>,  </span></summary>
+      
 
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``>=1.72.0,<1.72.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends boost-cpp: ``1.72.0.*``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -85,7 +93,7 @@ cobs
 
     <script>
         var package = "cobs";
-        var versions = ["0.3.0","0.3.0","0.2.1","0.2.1","0.2.1"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.3.0","0.2.1"];
     </script>
 
 
