@@ -28,10 +28,10 @@ skani
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-2</code>,  <code>0.1.3-0</code>,  <code>0.1.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-2</code>,  <code>0.1.3-0</code>,  </span></summary>
       
 
-      ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-2``,  ``0.1.3-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-2``,  ``0.1.3-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ skani
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ skani
 
     <script>
         var package = "skani";
-        var versions = ["0.2.2","0.2.1","0.2.1","0.2.0","0.1.5"];
+        var versions = ["0.2.2","0.2.2","0.2.1","0.2.1","0.2.0"];
     </script>
 
 

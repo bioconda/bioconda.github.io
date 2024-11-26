@@ -29,7 +29,7 @@ polap
       
       
 
-      ``0.3.7.3-0``,  ``0.3.7.2-0``,  ``0.3.7.1-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+      ``0.3.7.3-1``,  ``0.3.7.3-0``,  ``0.3.7.2-0``,  ``0.3.7.1-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
 
       
 
@@ -50,6 +50,7 @@ polap
    :depends libxml2: 
    :depends minimap2: ``>=2.24``
    :depends networkx: 
+   :depends newick_utils: 
    :depends orthofinder: 
    :depends pandas: 
    :depends parallel: 
@@ -61,7 +62,9 @@ polap
    :depends r-dplyr: 
    :depends r-optparse: 
    :depends r-readr: 
+   :depends r-rgbif: 
    :depends r-stringr: 
+   :depends r-taxize: 
    :depends r-tidyr: 
    :depends samtools: 
    :depends seqkit: 
@@ -114,7 +117,7 @@ polap
 
     <script>
         var package = "polap";
-        var versions = ["0.3.7.3","0.3.7.2","0.3.7.1","0.3.7","0.3.7"];
+        var versions = ["0.3.7.3","0.3.7.3","0.3.7.2","0.3.7.1","0.3.7"];
     </script>
 
 

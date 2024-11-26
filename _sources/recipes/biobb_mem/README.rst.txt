@@ -51,18 +51,21 @@ biobb_mem
       
       
 
-      ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
+      ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
 
       
 
    
    :depends ambertools: ``>=22.5``
    :depends biobb_common: ``5.0.0``
+   :depends biobb_common: ``>=5.0.0,<6.0a0``
    :depends gromacs: 
    :depends hole2: 
+   :depends libgcc: ``>=12``
    :depends lipyphilic: ``0.10.0``
    :depends pip: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    .. rubric:: Installation
@@ -110,7 +113,7 @@ biobb_mem
 
     <script>
         var package = "biobb_mem";
-        var versions = ["5.0.2","5.0.2","5.0.1"];
+        var versions = ["5.0.2","5.0.2","5.0.2","5.0.1"];
     </script>
 
 

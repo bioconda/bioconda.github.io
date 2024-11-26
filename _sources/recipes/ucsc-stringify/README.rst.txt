@@ -10,13 +10,13 @@ ucsc-stringify
    :replaces_section_title:
    :noindex:
 
-   Convert file to C strings
+   Convert file to C strings.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v472_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-stringify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-stringify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-stringify/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
@@ -32,10 +32,10 @@ ucsc-stringify
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>469-0</code>,  <code>466-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>472-0</code>,  <code>469-0</code>,  <code>466-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  </span></summary>
       
 
-      ``469-0``,  ``466-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``472-0``,  ``469-0``,  ``466-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -44,13 +44,13 @@ ucsc-stringify
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :depends libopenssl-static: 
    :depends libpng: ``>=1.6.43,<1.7.0a0``
+   :depends libstdcxx: ``>=12``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
@@ -98,7 +98,7 @@ ucsc-stringify
 
     <script>
         var package = "ucsc-stringify";
-        var versions = ["469","466","377","377","377"];
+        var versions = ["472","469","466","377","377"];
     </script>
 
 
