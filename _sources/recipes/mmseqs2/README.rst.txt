@@ -13,9 +13,9 @@ mmseqs2
    MMseqs2\: ultra fast and sensitive sequence search and clustering suite
 
    :homepage: https://github.com/soedinglab/mmseqs2
-   :license: GPLv3
+   :license: MIT
    :recipe: /`mmseqs2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmseqs2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmseqs2/meta.yaml>`_
-   :links: doi: :doi:`10.1038/nbt.3988`, doi: :doi:`10.1038/s41467-018-04964-5`, doi: :doi:`10.1093/bioinformatics/bty1057`, doi: :doi:`10.1101/2020.11.27.401018`, biotools: :biotools:`mmseqs2`, biotools: :biotools:`linclust`
+   :links: doi: :doi:`10.1038/nbt.3988`, doi: :doi:`10.1038/s41467-018-04964-5`, doi: :doi:`10.1093/bioinformatics/bty1057`, doi: :doi:`10.1093/bioinformatics/btab184`, doi: :doi:`10.1101/2024.11.13.623350v1`, biotools: :biotools:`mmseqs2`, biotools: :biotools:`linclust`
 
    
 
@@ -29,10 +29,10 @@ mmseqs2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>15.6f452-3</code>,  <code>15.6f452-2</code>,  <code>15.6f452-1</code>,  <code>15.6f452-0</code>,  <code>14.7e284-2</code>,  <code>14.7e284-1</code>,  <code>14.7e284-0</code>,  <code>13.45111-2</code>,  <code>13.45111-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>16.747c6-0</code>,  <code>15.6f452-3</code>,  <code>15.6f452-2</code>,  <code>15.6f452-1</code>,  <code>15.6f452-0</code>,  <code>14.7e284-2</code>,  <code>14.7e284-1</code>,  <code>14.7e284-0</code>,  <code>13.45111-2</code>,  </span></summary>
       
 
-      ``15.6f452-3``,  ``15.6f452-2``,  ``15.6f452-1``,  ``15.6f452-0``,  ``14.7e284-2``,  ``14.7e284-1``,  ``14.7e284-0``,  ``13.45111-2``,  ``13.45111-1``,  ``13.45111-0``,  ``12.113e3-2``,  ``12.113e3-1``,  ``12.113e3-0``,  ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
+      ``16.747c6-0``,  ``15.6f452-3``,  ``15.6f452-2``,  ``15.6f452-1``,  ``15.6f452-0``,  ``14.7e284-2``,  ``14.7e284-1``,  ``14.7e284-0``,  ``13.45111-2``,  ``13.45111-1``,  ``13.45111-0``,  ``12.113e3-2``,  ``12.113e3-1``,  ``12.113e3-0``,  ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ mmseqs2
    :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
@@ -98,7 +98,7 @@ mmseqs2
 
     <script>
         var package = "mmseqs2";
-        var versions = ["15.6f452","15.6f452","15.6f452","15.6f452","14.7e284"];
+        var versions = ["16.747c6","15.6f452","15.6f452","15.6f452","15.6f452"];
     </script>
 
 

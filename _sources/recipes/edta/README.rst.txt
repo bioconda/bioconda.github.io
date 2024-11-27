@@ -31,10 +31,10 @@ edta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.6-2</code>,  <code>1.9.6-1</code>,  <code>1.9.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.6-2</code>,  <code>1.9.6-1</code>,  </span></summary>
       
 
-      ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+      ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
 
       
       .. raw:: html
@@ -46,36 +46,32 @@ edta
    :depends annosine2: 
    :depends bedtools: 
    :depends biopython: 
-   :depends blast: 
    :depends cd-hit: 
    :depends coreutils: 
-   :depends genericrepeatfinder: 
    :depends genometools-genometools: 
-   :depends glob2: 
-   :depends h5py: 
-   :depends hmmer: 
-   :depends irfinder: 
-   :depends keras: 
-   :depends ltr_finder: 
+   :depends grep: 
+   :depends helitronscanner: 
+   :depends ltr_finder_parallel: 
+   :depends ltr_harvest_parallel: 
    :depends ltr_retriever: 
-   :depends matplotlib-base: 
    :depends mdust: 
-   :depends minimap2: 
-   :depends multiprocess: 
    :depends muscle: 
-   :depends nodejs: 
    :depends openjdk: 
    :depends pandas: 
    :depends perl: 
+   :depends perl-json: 
    :depends perl-text-soundex: 
+   :depends pyarrow: 
    :depends python: ``>=3.8``
-   :depends regex: 
+   :depends r-base: 
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-here: 
+   :depends r-tidyr: 
    :depends repeatmodeler: 
-   :depends scikit-learn: 
-   :depends seqtk: 
-   :depends swifter: 
-   :depends tensorflow: 
+   :depends samtools: 
    :depends tesorter: 
+   :depends tir-learner: 
    :requirements:
 
    .. rubric:: Installation
@@ -123,7 +119,7 @@ edta
 
     <script>
         var package = "edta";
-        var versions = ["2.2.0","2.2.0","2.1.0","2.1.0","2.0.1"];
+        var versions = ["2.2.2","2.2.0","2.2.0","2.1.0","2.1.0"];
     </script>
 
 

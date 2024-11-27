@@ -43,7 +43,7 @@ libsbml
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
-   :depends libxml2: ``>=2.10,<2.11.0a0``
+   :depends libxml2: ``>=2.11,<2.12.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 

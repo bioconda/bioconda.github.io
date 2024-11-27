@@ -44,7 +44,9 @@ spoa
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:

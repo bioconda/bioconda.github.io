@@ -42,12 +42,10 @@ k8
       
 
    
-   :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends python_abi: ``3.12.* *_cp312``
-   :depends sysroot_linux-64: ``>=2.17``
    :requirements:
 
    .. rubric:: Installation

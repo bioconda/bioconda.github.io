@@ -28,7 +28,7 @@ lollipop
       
       
 
-      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -42,6 +42,7 @@ lollipop
    :depends ruamel.yaml: ``>=0.18``
    :depends scipy: 
    :depends strictyaml: 
+   :depends threadpoolctl: 
    :depends tqdm: 
    :depends zstandard: 
    :requirements:
@@ -91,7 +92,7 @@ lollipop
 
     <script>
         var package = "lollipop";
-        var versions = ["0.5.0","0.4.1","0.4.0","0.3.0","0.3.0"];
+        var versions = ["0.5.1","0.5.0","0.4.1","0.4.0","0.3.0"];
     </script>
 
 

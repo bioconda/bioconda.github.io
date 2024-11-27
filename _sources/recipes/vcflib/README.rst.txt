@@ -45,7 +45,7 @@ vcflib
    
    :depends _openmp_mutex: ``>=4.5``
    :depends eigen: 
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.20,<1.21.0a0``
    :depends jsoncpp: 
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
