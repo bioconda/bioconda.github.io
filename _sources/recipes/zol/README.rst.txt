@@ -56,7 +56,7 @@ zol
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
    :depends mcl: 
-   :depends miniprot: ``>=0.13``
+   :depends miniprot: ``0.13.*``
    :depends muscle: ``>=5.0``
    :depends ncbi-genome-download: 
    :depends pal2nal: ``>=14.1``

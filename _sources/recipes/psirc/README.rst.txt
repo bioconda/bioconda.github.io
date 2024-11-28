@@ -36,7 +36,7 @@ psirc
 
    
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends htslib: ``>=1.20,<1.21.0a0``
+   :depends htslib: ``>=1.20,<1.22.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``

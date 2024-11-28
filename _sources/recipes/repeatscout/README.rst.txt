@@ -12,9 +12,12 @@ repeatscout
 
    De novo identification of repeat families in large genomes.
 
-   :homepage: http://repeatscout.bioprojects.org
-   :license: GPL
+   :homepage: https://github.com/Dfam-consortium/RepeatScout
+   :documentation: https://github.com/Dfam-consortium/RepeatScout/blob/v1.0.7/README.md
+   
+   :license: CC0
    :recipe: /`repeatscout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout/meta.yaml>`_
+   :links: biotools: :biotools:`RepeatScout`
 
    
 
@@ -27,12 +30,12 @@ repeatscout
       
       
 
-      ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+      ``1.0.7-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc: ``>=12``
    :depends nseg: 
    :depends perl: 
    :depends perl-file-temp: 
@@ -85,7 +88,7 @@ repeatscout
 
     <script>
         var package = "repeatscout";
-        var versions = ["1.0.6","1.0.6","1.0.6","1.0.6","1.0.5"];
+        var versions = ["1.0.7","1.0.6","1.0.6","1.0.6","1.0.6"];
     </script>
 
 

@@ -48,15 +48,17 @@ tigmint
    :depends btllib: ``>=1.7.3,<2.0a0``
    :depends bwa: 
    :depends intervaltree: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends make: 
    :depends minimap2: 
    :depends pybedtools: 
    :depends pysam: ``>=0.15.3``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: 
    :depends zsh: 
    :requirements:

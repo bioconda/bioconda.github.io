@@ -13,8 +13,11 @@ ninja-nj
    Nearly Infinite Neighbor Joining Application
 
    :homepage: https://github.com/TravisWheelerLab/NINJA
-   :license: MIT
+   :documentation: https://github.com/TravisWheelerLab/NINJA/blob/1.00-cluster_only/README.md
+   
+   :license: MIT / MIT
    :recipe: /`ninja-nj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ninja-nj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ninja-nj/meta.yaml>`_
+   :links: biotools: :biotools:`ninja`
 
    
 
@@ -27,13 +30,15 @@ ninja-nj
       
       
 
-      ``0.98-3``,  ``0.98-2``,  ``0.98-1``,  ``0.98-0``,  ``0.97-0``
+      ``1.00-0``,  ``0.98-3``,  ``0.98-2``,  ``0.98-1``,  ``0.98-0``,  ``0.97-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=12``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=12``
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +86,7 @@ ninja-nj
 
     <script>
         var package = "ninja-nj";
-        var versions = ["0.98","0.98","0.98","0.98","0.97"];
+        var versions = ["1.00","0.98","0.98","0.98","0.98"];
     </script>
 
 

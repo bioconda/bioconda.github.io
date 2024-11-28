@@ -15,7 +15,7 @@ control-freec
 
 
    :homepage: https://github.com/BoevaLab/FREEC
-   :license: GPL (>=2)
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`control-freec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/control-freec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/control-freec/meta.yaml>`_
    :links: biotools: :biotools:`freec`
 
@@ -31,10 +31,10 @@ control-freec
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>11.6-3</code>,  <code>11.6-2</code>,  <code>11.6-1</code>,  <code>11.6-0</code>,  <code>11.6b-0</code>,  <code>11.5-1</code>,  <code>11.5-0</code>,  <code>11.4-0</code>,  <code>10.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>11.6-3</code>,  <code>11.6-2</code>,  <code>11.6-1</code>,  <code>11.6-0</code>,  <code>11.6b-1</code>,  <code>11.6b-0</code>,  <code>11.5-1</code>,  <code>11.5-0</code>,  <code>11.4-0</code>,  </span></summary>
       
 
-      ``11.6-3``,  ``11.6-2``,  ``11.6-1``,  ``11.6-0``,  ``11.6b-0``,  ``11.5-1``,  ``11.5-0``,  ``11.4-0``,  ``10.6-0``,  ``10.5-0``
+      ``11.6-3``,  ``11.6-2``,  ``11.6-1``,  ``11.6-0``,  ``11.6b-1``,  ``11.6b-0``,  ``11.5-1``,  ``11.5-0``,  ``11.4-0``,  ``10.6-0``,  ``10.5-0``
 
       
       .. raw:: html

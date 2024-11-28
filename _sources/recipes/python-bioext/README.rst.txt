@@ -43,8 +43,10 @@ python-bioext
    :depends biopython: ``>=1.78``
    :depends freetype: 
    :depends joblib: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
+   :depends libstdcxx-ng: ``>=12``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pysam: 
    :depends python: ``>=3.10,<3.11.0a0``

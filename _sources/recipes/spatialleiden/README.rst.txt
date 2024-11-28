@@ -29,7 +29,7 @@ spatialleiden
       
       
 
-      ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -88,7 +88,7 @@ spatialleiden
 
     <script>
         var package = "spatialleiden";
-        var versions = ["0.1.1"];
+        var versions = ["0.2.0","0.1.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ lz-ani
       
       
 
-      ``1.2.0-0``
+      ``1.2.3-0``,  ``1.2.0-0``
 
       
 
@@ -79,7 +79,7 @@ lz-ani
 
     <script>
         var package = "lz-ani";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.3","1.2.0"];
     </script>
 
 

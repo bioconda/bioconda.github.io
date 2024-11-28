@@ -30,7 +30,7 @@ phabox
       
       
 
-      ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
 
@@ -39,7 +39,7 @@ phabox
    :depends biopython: ``>=1.84``
    :depends blast: ``>=2.16.0``
    :depends datasets: ``>=3``
-   :depends diamond: ``<=0.9.14``
+   :depends diamond: ``0.9.14.*``
    :depends fasttree: ``>=2.1.11``
    :depends kcounter: ``>=0.1.1``
    :depends mafft: ``>=7.525``
@@ -101,7 +101,7 @@ phabox
 
     <script>
         var package = "phabox";
-        var versions = ["2.1.6","2.1.5","2.1.4","2.1.0","2.0.0"];
+        var versions = ["2.1.7","2.1.6","2.1.5","2.1.4","2.1.0"];
     </script>
 
 

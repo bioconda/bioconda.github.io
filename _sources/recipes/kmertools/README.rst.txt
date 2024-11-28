@@ -34,7 +34,7 @@ kmertools
       
 
    
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python_abi: ``3.12.* *_cp312``
    :requirements:
 
    .. rubric:: Installation

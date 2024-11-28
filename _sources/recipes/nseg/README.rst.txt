@@ -10,7 +10,7 @@ nseg
    :replaces_section_title:
    :noindex:
 
-   nseg identifies and masks regions of low complexity in nucleic acid sequences
+   nseg identifies and masks regions of low complexity in nucleic acid sequences.
 
    :homepage: https://github.com/jebrosen/nseg
    :license: Public Domain
@@ -28,12 +28,12 @@ nseg
       
       
 
-      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :requirements:
 
    .. rubric:: Installation

@@ -28,10 +28,10 @@ kmer-db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>1.11.1-2</code>,  <code>1.11.1-1</code>,  <code>1.11.1-0</code>,  <code>1.9.4-1</code>,  <code>1.9.4-0</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.7.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.5-0</code>,  <code>2.2.2-0</code>,  <code>1.11.1-2</code>,  <code>1.11.1-1</code>,  <code>1.11.1-0</code>,  <code>1.9.4-1</code>,  <code>1.9.4-0</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  </span></summary>
       
 
-      ``2.2.2-0``,  ``1.11.1-2``,  ``1.11.1-1``,  ``1.11.1-0``,  ``1.9.4-1``,  ``1.9.4-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.7.6-1``,  ``1.7.6-0``
+      ``2.2.5-0``,  ``2.2.2-0``,  ``1.11.1-2``,  ``1.11.1-1``,  ``1.11.1-0``,  ``1.9.4-1``,  ``1.9.4-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.7.6-1``,  ``1.7.6-0``
 
       
       .. raw:: html
@@ -87,7 +87,7 @@ kmer-db
 
     <script>
         var package = "kmer-db";
-        var versions = ["2.2.2","1.11.1","1.11.1","1.11.1","1.9.4"];
+        var versions = ["2.2.5","2.2.2","1.11.1","1.11.1","1.11.1"];
     </script>
 
 

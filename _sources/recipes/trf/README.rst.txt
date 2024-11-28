@@ -13,9 +13,10 @@ trf
    Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences.
 
    :homepage: https://tandem.bu.edu/trf/trf.html
-   :license: AGPL-3.0
+   :developer docs: https://github.com/Benson-Genomics-Lab/TRF
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`trf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf/meta.yaml>`_
-   :links: biotools: :biotools:`Trf`
+   :links: biotools: :biotools:`trf`
 
    
 
@@ -29,10 +30,10 @@ trf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.09.1-5</code>,  <code>4.09.1-4</code>,  <code>4.09.1-3</code>,  <code>4.09.1-2</code>,  <code>4.09.1-1</code>,  <code>4.09.1-0</code>,  <code>4.09-2</code>,  <code>4.09-1</code>,  <code>4.09-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.09.1-6</code>,  <code>4.09.1-5</code>,  <code>4.09.1-4</code>,  <code>4.09.1-3</code>,  <code>4.09.1-2</code>,  <code>4.09.1-1</code>,  <code>4.09.1-0</code>,  <code>4.09-2</code>,  <code>4.09-1</code>,  </span></summary>
       
 
-      ``4.09.1-5``,  ``4.09.1-4``,  ``4.09.1-3``,  ``4.09.1-2``,  ``4.09.1-1``,  ``4.09.1-0``,  ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
+      ``4.09.1-6``,  ``4.09.1-5``,  ``4.09.1-4``,  ``4.09.1-3``,  ``4.09.1-2``,  ``4.09.1-1``,  ``4.09.1-0``,  ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
 
       
       .. raw:: html
@@ -41,7 +42,7 @@ trf
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=12``
    :requirements:
 
    .. rubric:: Installation

@@ -37,6 +37,7 @@ perl-unicode-utf8
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
+   :depends perl-test-fatal: ``0.016.*``
    :requirements:
 
    .. rubric:: Installation
