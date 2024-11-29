@@ -32,7 +32,7 @@ pegas
       
       
 
-      ``0.2.13-0``
+      ``1.0.1-0``,  ``0.2.13-0``
 
       
 
@@ -92,7 +92,7 @@ pegas
 
     <script>
         var package = "pegas";
-        var versions = ["0.2.13"];
+        var versions = ["1.0.1","0.2.13"];
     </script>
 
 

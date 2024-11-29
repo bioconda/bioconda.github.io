@@ -29,15 +29,15 @@ viral_consensus
       
       
 
-      ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends htslib: ``>=1.19.1,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -85,7 +85,7 @@ viral_consensus
 
     <script>
         var package = "viral_consensus";
-        var versions = ["0.0.5","0.0.5","0.0.4","0.0.3"];
+        var versions = ["0.0.6","0.0.5","0.0.5","0.0.4","0.0.3"];
     </script>
 
 

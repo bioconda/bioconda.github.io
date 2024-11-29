@@ -10,7 +10,7 @@ brawn
    :replaces_section_title:
    :noindex:
 
-   A tool for handling repetitive insertions into sequence alignments
+   A tool for handling repetitive insertions into sequence alignments.
 
    :homepage: https://github.com/SJShaw/brawn
    :license: GPL-3.0
@@ -27,7 +27,7 @@ brawn
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -80,7 +80,7 @@ brawn
 
     <script>
         var package = "brawn";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.2","1.0.1"];
     </script>
 
 

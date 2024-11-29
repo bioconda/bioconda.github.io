@@ -10,9 +10,9 @@ pytximport
    :replaces_section_title:
    :noindex:
 
-   pytximport \- gene count estimation from alignment\-free quantification
+   pytximport \- gene count estimation from transcript\-level quantification
 
-   :homepage: https://pytximport.readthedocs.io/en/latest/start.html
+   :homepage: https://pytximport.readthedocs.io/en/stable/start.html
    :documentation: https://pytximport.readthedocs.io
    
    :developer docs: https://github.com/complextissue/pytximport
@@ -31,14 +31,14 @@ pytximport
       
       
 
-      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
+      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
 
    
    :depends anndata: ``>=0.8.0``
    :depends click: ``>=8.1.7``
-   :depends dask: ``>=2024.7.0``
+   :depends click-default-group: ``>=1.2.0``
    :depends flox: ``>=0.9.8``
    :depends h5py: ``>=3.11.0``
    :depends numpy: ``>=1.23.0``
@@ -94,7 +94,7 @@ pytximport
 
     <script>
         var package = "pytximport";
-        var versions = ["0.10.0","0.9.0","0.8.0","0.7.0","0.6.0"];
+        var versions = ["0.11.0","0.10.0","0.9.0","0.8.0","0.7.0"];
     </script>
 
 

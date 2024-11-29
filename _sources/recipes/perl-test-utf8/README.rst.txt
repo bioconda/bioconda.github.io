@@ -27,7 +27,7 @@ perl-test-utf8
       
       
 
-      ``1.01-1``,  ``1.01-0``
+      ``1.03-0``,  ``1.01-1``,  ``1.01-0``
 
       
 
@@ -80,7 +80,7 @@ perl-test-utf8
 
     <script>
         var package = "perl-test-utf8";
-        var versions = ["1.01","1.01"];
+        var versions = ["1.03","1.01","1.01"];
     </script>
 
 
