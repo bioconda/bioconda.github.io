@@ -36,6 +36,9 @@ perl-parallel-loops
    :depends perl-parallel-forkmanager: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

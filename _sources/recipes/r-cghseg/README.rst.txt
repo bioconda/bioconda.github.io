@@ -35,6 +35,9 @@ r-cghseg
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

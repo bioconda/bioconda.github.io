@@ -38,6 +38,9 @@ perl-velvetoptimiser
    :depends velvet: ``>=0.7.51``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

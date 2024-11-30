@@ -36,6 +36,9 @@ perl-types-serialiser
    :depends perl-common-sense: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

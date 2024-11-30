@@ -39,6 +39,9 @@ perl-archive-tar-wrapper
    :depends perl-log-log4perl: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

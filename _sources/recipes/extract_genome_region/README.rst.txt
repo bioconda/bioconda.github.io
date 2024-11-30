@@ -37,6 +37,9 @@ extract_genome_region
    :depends python: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

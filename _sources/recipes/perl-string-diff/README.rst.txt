@@ -36,6 +36,9 @@ perl-string-diff
    :depends perl-algorithm-diff: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

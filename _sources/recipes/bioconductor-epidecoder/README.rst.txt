@@ -43,6 +43,9 @@ bioconductor-epidecoder
    :depends r-rstatix: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

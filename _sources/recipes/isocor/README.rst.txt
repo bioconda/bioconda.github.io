@@ -41,6 +41,9 @@ isocor
    :depends scipy: ``>=0.12.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

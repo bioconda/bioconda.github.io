@@ -37,6 +37,9 @@ perl-html-tableextract
    :depends perl-html-parser: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

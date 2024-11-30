@@ -41,6 +41,9 @@ metav
    :depends trinity: ``>=2.15.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

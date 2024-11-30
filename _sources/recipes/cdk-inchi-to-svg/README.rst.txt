@@ -37,6 +37,9 @@ cdk-inchi-to-svg
    :depends openjdk: ``>=8.0.144``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -45,6 +45,9 @@ genomic_address_service
    :depends six: ``>=1.16.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

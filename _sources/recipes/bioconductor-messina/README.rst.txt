@@ -53,6 +53,9 @@ bioconductor-messina
    :depends r-survival: ``>=2.37-4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

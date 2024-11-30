@@ -54,6 +54,9 @@ bioconductor-stategra
    :depends r-mass: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

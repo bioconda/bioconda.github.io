@@ -41,6 +41,9 @@ orthofisher
    :depends tqdm: ``>=4.66.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

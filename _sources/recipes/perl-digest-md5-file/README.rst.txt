@@ -38,6 +38,9 @@ perl-digest-md5-file
    :depends perl-libwww-perl: ``>=6.39``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

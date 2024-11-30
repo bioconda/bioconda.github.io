@@ -40,6 +40,9 @@ perl-namespace-autoclean
    :depends perl-sub-identify: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -59,6 +59,9 @@ bttoxin_digger
    :depends unicycler: ``0.4.7.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

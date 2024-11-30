@@ -36,6 +36,9 @@ perl-test-exec
    :depends perl-return-multilevel: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

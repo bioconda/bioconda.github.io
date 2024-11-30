@@ -49,6 +49,9 @@ r-orqa
    :depends r-rcpp: ``>=0.8.9``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

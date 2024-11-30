@@ -40,6 +40,9 @@ cluster_vcf_records
    :depends vt: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

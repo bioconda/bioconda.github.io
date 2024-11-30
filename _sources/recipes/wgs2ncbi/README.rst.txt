@@ -37,6 +37,9 @@ wgs2ncbi
    :depends tbl2asn: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

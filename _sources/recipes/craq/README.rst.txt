@@ -39,6 +39,9 @@ craq
    :depends python_circos: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

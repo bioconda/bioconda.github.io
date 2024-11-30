@@ -57,6 +57,9 @@ snakemake
    :depends snakemake-minimal: ``8.25.4.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
@@ -157,6 +160,9 @@ snakemake
    :depends wrapt: 
    :depends yte: ``>=1.5.1,<2.0``
    :requirements:
+
+   :additional platforms:
+      
 
    .. rubric:: Installation
 

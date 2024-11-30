@@ -47,6 +47,9 @@ arvados-cwl-runner
    :depends schema-salad: ``>=3.0.20181129082112``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

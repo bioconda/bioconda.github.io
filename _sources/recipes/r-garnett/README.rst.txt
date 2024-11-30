@@ -58,6 +58,9 @@ r-garnett
    :depends r-viridis: ``>=0.5.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

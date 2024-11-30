@@ -57,6 +57,9 @@ bioconductor-risa
    :depends r-rcpp: ``>=0.9.13``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

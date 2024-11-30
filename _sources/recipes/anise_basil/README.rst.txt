@@ -40,6 +40,13 @@ anise_basil
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

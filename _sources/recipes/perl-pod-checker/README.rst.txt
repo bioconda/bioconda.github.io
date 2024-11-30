@@ -37,6 +37,9 @@ perl-pod-checker
    :depends perl-pod-simple: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

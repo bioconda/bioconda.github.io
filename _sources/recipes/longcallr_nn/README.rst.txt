@@ -43,6 +43,9 @@ longcallr_nn
    :depends torchvision: ``>=0.14``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -56,6 +56,9 @@ chewiesnake
    :depends snakemake: ``>=5.30``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

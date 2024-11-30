@@ -47,6 +47,9 @@ mobidic-mpa
    :depends vcfpy: ``>=0.13.4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

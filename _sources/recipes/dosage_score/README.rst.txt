@@ -40,6 +40,9 @@ dosage_score
    :depends samtools: ``>=1.16``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

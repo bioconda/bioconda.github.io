@@ -67,6 +67,9 @@ bioconductor-scde
    :depends r-rook: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

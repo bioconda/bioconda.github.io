@@ -36,6 +36,9 @@ perl-perl-osnames
    :depends perl-exporter: ``>=5.57``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

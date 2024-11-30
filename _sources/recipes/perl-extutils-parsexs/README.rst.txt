@@ -39,6 +39,9 @@ perl-extutils-parsexs
    :depends perl-extutils-makemaker: ``>=6.46``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

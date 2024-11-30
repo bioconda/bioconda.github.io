@@ -40,6 +40,9 @@ perl-template-toolkit
    :depends perl-test-leaktrace: ``0.17.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

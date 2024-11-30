@@ -37,6 +37,9 @@ perl-pod-coverage
    :depends perl-pod-parser: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

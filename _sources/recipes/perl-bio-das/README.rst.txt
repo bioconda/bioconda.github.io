@@ -38,6 +38,9 @@ perl-bio-das
    :depends perl-mime-base64: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

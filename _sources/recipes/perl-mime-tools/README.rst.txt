@@ -37,6 +37,9 @@ perl-mime-tools
    :depends perl-mailtools: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

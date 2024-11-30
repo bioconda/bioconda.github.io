@@ -43,6 +43,9 @@ perl-sanger-cgp-battenberg
    :depends perl-sanger-cgp-allelecount: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

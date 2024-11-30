@@ -78,6 +78,9 @@ trinity
    :depends trimmomatic: ``>=0.39``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

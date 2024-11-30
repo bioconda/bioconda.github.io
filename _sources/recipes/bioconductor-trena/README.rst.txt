@@ -55,6 +55,9 @@ bioconductor-trena
    :depends r-xgboost: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

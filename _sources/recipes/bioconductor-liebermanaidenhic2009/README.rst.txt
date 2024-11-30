@@ -47,6 +47,9 @@ bioconductor-liebermanaidenhic2009
    :depends r-kernsmooth: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

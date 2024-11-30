@@ -37,6 +37,9 @@ nextclade_js
    :depends nodejs: ``>=15.14.0,<16.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

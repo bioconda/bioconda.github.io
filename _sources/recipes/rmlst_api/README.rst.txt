@@ -37,6 +37,9 @@ rmlst_api
    :depends requests: ``2.28.1.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

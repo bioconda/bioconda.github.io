@@ -84,6 +84,9 @@ arb-bio
    :depends xorg-libxt: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
@@ -151,6 +154,9 @@ arb-bio
    :depends libstdcxx-ng: ``>=7.3.0``
    :depends openmotif-dev: 
    :requirements:
+
+   :additional platforms:
+      
 
    .. rubric:: Installation
 
@@ -220,6 +226,9 @@ arb-bio
    :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
@@ -287,6 +296,9 @@ arb-bio
    :depends libgcc-ng: ``>=7.3.0``
    :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
+
+   :additional platforms:
+      
 
    .. rubric:: Installation
 

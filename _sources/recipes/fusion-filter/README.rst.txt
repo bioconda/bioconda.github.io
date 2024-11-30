@@ -46,6 +46,9 @@ fusion-filter
    :depends star: ``>=2.5.4a``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

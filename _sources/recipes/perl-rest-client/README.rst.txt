@@ -36,6 +36,9 @@ perl-rest-client
    :depends perl-uri: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

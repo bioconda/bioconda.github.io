@@ -51,6 +51,9 @@ bioconductor-quaternaryprod
    :depends r-yaml: ``>=2.1.18``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

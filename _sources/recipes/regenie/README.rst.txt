@@ -57,6 +57,9 @@ regenie
    :depends zstd: ``>=1.5.6,<1.6.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

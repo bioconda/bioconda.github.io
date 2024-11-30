@@ -41,6 +41,9 @@ emvc-2
    :depends tqdm: ``>=4.46.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

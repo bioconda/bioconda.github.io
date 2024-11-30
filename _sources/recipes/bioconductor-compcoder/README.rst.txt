@@ -65,6 +65,9 @@ bioconductor-compcoder
    :depends r-vioplot: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -40,6 +40,9 @@ perl-xml-dom
    :depends perl-xml-regexp: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

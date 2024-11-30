@@ -49,6 +49,9 @@ r-acidplyr
    :depends r-goalie: ``>=0.7.6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

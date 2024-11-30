@@ -37,6 +37,9 @@ giatools
    :depends scikit-image: ``>=0.18``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

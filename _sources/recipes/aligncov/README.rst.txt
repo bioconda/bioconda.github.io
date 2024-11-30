@@ -37,6 +37,9 @@ aligncov
    :depends samtools: ``>=1.15``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

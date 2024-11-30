@@ -57,6 +57,9 @@ r-aroma.core
    :depends r-rcolorbrewer: ``>=1.1_2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -43,6 +43,9 @@ genomelake
    :depends six: ``>=1.9.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

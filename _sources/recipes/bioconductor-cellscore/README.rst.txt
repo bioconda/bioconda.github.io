@@ -49,6 +49,9 @@ bioconductor-cellscore
    :depends r-squash: ``>=1.0.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

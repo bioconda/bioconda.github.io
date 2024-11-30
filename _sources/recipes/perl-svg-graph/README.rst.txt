@@ -40,6 +40,9 @@ perl-svg-graph
    :depends perl-tree-dag_node: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -52,6 +52,9 @@ bioconductor-flowgraph
    :depends r-visnetwork: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

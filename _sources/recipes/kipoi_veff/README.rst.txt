@@ -57,6 +57,9 @@ kipoi_veff
    :depends urllib3: ``>=1.21.1,<1.23``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

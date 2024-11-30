@@ -46,6 +46,9 @@ bioconductor-msmb
    :depends r-tibble: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

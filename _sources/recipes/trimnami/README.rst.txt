@@ -41,6 +41,9 @@ trimnami
    :depends snaketool-utils: ``>=0.0.4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

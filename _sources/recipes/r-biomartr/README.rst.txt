@@ -61,6 +61,9 @@ r-biomartr
    :depends r-xml: ``>=3.98_1.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

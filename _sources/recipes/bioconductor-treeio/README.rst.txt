@@ -50,6 +50,9 @@ bioconductor-treeio
    :depends r-tidytree: ``>=0.4.5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

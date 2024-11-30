@@ -37,6 +37,9 @@ bioconductor-getdee2
    :depends r-htm2txt: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -57,6 +57,9 @@ nanovar
    :depends tensorflow-cpu: ``>=2.0.0,<=2.15.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

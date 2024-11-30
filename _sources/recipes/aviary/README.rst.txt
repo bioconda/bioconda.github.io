@@ -57,6 +57,9 @@ aviary
    :depends snakemake-minimal: ``>=7.0.0,<=7.32.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

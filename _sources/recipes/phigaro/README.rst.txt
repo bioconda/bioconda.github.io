@@ -50,6 +50,9 @@ phigaro
    :depends six: ``>=1.7.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

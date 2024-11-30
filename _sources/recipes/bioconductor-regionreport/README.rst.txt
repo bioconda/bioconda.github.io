@@ -55,6 +55,9 @@ bioconductor-regionreport
    :depends r-rmarkdown: ``>=0.9.5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

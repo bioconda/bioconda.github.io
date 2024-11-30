@@ -60,6 +60,9 @@ chorus2
    :depends sip: ``>=4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

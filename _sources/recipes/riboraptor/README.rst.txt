@@ -59,6 +59,9 @@ riboraptor
    :depends ucsc-bedsort: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

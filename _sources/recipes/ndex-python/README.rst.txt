@@ -39,6 +39,9 @@ ndex-python
    :depends urllib3: ``>=1.16``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -74,6 +74,9 @@ edta
    :depends tir-learner: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

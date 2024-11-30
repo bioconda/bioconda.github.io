@@ -45,6 +45,9 @@ plant_tribes_gene_family_classifier
    :depends perl: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

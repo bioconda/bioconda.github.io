@@ -39,6 +39,9 @@ qorts
    :depends r-qorts: ``1.3.6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

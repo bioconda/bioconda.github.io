@@ -41,6 +41,9 @@ bioconductor-deltacapturec
    :depends r-tictoc: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

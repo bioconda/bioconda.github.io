@@ -41,6 +41,9 @@ arboreto
    :depends scipy: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -57,6 +57,9 @@ rad_haplotyper
    :depends perl-vcftools-vcf: ``<0.700``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -52,6 +52,9 @@ r-pscbs
    :depends r-r.utils: ``>=2.12.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

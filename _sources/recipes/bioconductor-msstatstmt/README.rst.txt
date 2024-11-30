@@ -51,6 +51,9 @@ bioconductor-msstatstmt
    :depends r-lmertest: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

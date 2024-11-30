@@ -65,6 +65,9 @@ starfish
    :depends xarray: ``<2023.09``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

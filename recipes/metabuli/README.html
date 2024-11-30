@@ -89,7 +89,7 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">metabuli</span></span><a class="headerlink" href="#package-metabuli" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/metabuli"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/metabuli.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/metabuli"><img alt="docker_metabuli" src="https://quay.io/repository/biocontainers/metabuli/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
@@ -121,6 +121,8 @@
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -294,11 +296,13 @@ others.</p>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
     let id = window.location.hash.substring(1);
-    let elem = document.getElementById(id);
-    if (elem != null) {
-        // Get the closest "details" element and open it
-        closest = elem.closest("details");
-        if (closest) closest.open = true;
+    if (id) {
+        let elem = document.getElementById(id);
+        if (elem != null) {
+            // Get the closest "details" element and open it
+            closest = elem.closest("details");
+            if (closest) closest.open = true;
+        }
     }
 </script>
 

@@ -39,6 +39,9 @@ ig-checkflowtypes
    :depends r-base: ``>=3.6,<3.7.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

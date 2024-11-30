@@ -53,6 +53,9 @@ seqverify
    :depends snpsift: ``4.3.1t.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

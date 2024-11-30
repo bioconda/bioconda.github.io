@@ -58,6 +58,9 @@ taxmyphage
    :depends zipp: ``>=3.17.0,<4.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

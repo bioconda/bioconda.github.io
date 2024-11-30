@@ -36,6 +36,9 @@ perl-module-extract-use
    :depends perl-ppi: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

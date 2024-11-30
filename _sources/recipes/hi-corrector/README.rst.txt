@@ -36,6 +36,9 @@ hi-corrector
    :depends openmpi: ``>=4.1.5,<5.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -36,6 +36,9 @@ bioconductor-dir.expiry
    :depends r-filelock: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

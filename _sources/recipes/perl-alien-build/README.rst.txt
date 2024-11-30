@@ -42,6 +42,9 @@ perl-alien-build
    :depends perl-test2-suite: ``0.000145.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

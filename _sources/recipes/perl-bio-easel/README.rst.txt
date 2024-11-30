@@ -38,6 +38,9 @@ perl-bio-easel
    :depends perl-inline-c: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

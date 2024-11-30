@@ -62,6 +62,9 @@ bioconductor-primirtss
    :depends r-tidyr: ``>=0.8.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

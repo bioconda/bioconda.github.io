@@ -41,6 +41,9 @@ bioconductor-filterffpe
    :depends r-foreach: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

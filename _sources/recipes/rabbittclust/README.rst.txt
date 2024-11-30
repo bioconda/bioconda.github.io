@@ -37,6 +37,9 @@ rabbittclust
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

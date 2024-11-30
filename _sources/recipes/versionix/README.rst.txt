@@ -38,6 +38,9 @@ versionix
    :depends rich-click: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

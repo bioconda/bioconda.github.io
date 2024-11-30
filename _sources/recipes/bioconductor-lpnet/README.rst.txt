@@ -45,6 +45,9 @@ bioconductor-lpnet
    :depends r-lpsolve: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

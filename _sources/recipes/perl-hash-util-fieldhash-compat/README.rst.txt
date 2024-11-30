@@ -40,6 +40,9 @@ perl-hash-util-fieldhash-compat
    :depends perl-tie-refhash-weak: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -43,6 +43,9 @@ breakdancer
    :depends perl-statistics-descriptive: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

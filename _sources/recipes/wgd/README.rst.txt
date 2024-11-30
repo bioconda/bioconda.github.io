@@ -50,6 +50,9 @@ wgd
    :depends python: ``>=3.6,<3.10``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

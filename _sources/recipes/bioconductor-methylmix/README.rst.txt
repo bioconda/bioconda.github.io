@@ -53,6 +53,9 @@ bioconductor-methylmix
    :depends r-rpmm: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

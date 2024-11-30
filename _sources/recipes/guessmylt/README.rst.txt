@@ -43,6 +43,9 @@ guessmylt
    :depends trinity: ``2.8.4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

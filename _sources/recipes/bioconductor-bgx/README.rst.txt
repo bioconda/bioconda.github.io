@@ -54,6 +54,9 @@ bioconductor-bgx
    :depends r-rcpp: ``>=0.11.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

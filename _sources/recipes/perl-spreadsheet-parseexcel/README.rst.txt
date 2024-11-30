@@ -42,6 +42,9 @@ perl-spreadsheet-parseexcel
    :depends perl-unicode-map: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

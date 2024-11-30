@@ -50,6 +50,9 @@ bio_hansel
    :depends rich: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

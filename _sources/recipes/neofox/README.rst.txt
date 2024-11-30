@@ -53,6 +53,9 @@ neofox
    :depends xmltodict: ``>=0.12.0,<0.13.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

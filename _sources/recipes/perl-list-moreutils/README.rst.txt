@@ -37,6 +37,9 @@ perl-list-moreutils
    :depends perl-list-moreutils-xs: ``>=0.430``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

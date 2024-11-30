@@ -49,6 +49,9 @@ perl-hpc-runner-command-plugin-logger-sqlite
    :depends sqlite: ``>=3.37.0,<4.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

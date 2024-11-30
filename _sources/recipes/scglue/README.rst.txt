@@ -62,6 +62,9 @@ scglue
    :depends tqdm: ``>=4.27``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

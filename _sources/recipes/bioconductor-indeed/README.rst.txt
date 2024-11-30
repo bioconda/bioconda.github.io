@@ -47,6 +47,9 @@ bioconductor-indeed
    :depends r-visnetwork: ``>=2.0.6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

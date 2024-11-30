@@ -43,6 +43,9 @@ fast5
    :depends hdf5: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -52,6 +52,9 @@ ncbi-datasets-pylib
    :depends urllib3: ``1.26.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

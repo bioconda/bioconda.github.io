@@ -40,6 +40,9 @@ perl-bioperl-run
    :depends perl-ipc-run: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

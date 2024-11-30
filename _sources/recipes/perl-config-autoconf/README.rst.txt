@@ -42,6 +42,9 @@ perl-config-autoconf
    :depends perl-text-parsewords: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

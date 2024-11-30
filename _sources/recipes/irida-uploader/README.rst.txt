@@ -50,6 +50,9 @@ irida-uploader
    :depends requests-toolbelt: ``>=0.9.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

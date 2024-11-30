@@ -37,6 +37,9 @@ czlab_perl_lib
    :depends perl-math-cdf: ``>=0.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -36,6 +36,9 @@ extract_fasta_seq
    :depends python: ``>=2.7.15``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

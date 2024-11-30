@@ -56,6 +56,9 @@ r-htssip
    :depends r-vegan: ``>=2.4.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

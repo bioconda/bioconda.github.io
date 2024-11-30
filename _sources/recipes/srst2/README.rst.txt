@@ -39,6 +39,9 @@ srst2
    :depends scipy: ``>=0.12.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

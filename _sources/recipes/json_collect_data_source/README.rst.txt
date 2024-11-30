@@ -35,6 +35,9 @@ json_collect_data_source
    :depends python: ``>=2.7,<3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

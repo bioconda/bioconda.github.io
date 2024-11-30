@@ -37,6 +37,9 @@ defiant
    :depends mpc: ``>=1.3.1,<2.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

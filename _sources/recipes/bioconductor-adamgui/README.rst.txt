@@ -63,6 +63,9 @@ bioconductor-adamgui
    :depends r-varhandle: ``>=2.0.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

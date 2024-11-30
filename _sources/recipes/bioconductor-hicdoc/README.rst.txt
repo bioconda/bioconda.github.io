@@ -64,6 +64,9 @@ bioconductor-hicdoc
    :depends r-rcpp: ``>=0.12.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

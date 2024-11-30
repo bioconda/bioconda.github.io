@@ -37,6 +37,9 @@ netcdf-metadata-info
    :depends libnetcdf: ``>=4.4.1.1,<5.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

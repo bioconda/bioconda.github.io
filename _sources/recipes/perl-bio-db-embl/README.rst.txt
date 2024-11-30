@@ -36,6 +36,9 @@ perl-bio-db-embl
    :depends perl-bioperl-core: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

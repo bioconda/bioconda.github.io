@@ -46,6 +46,9 @@ batch_brb
    :depends sqlite: ``>=3.33.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

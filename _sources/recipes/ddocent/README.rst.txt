@@ -65,6 +65,9 @@ ddocent
    :depends vcftools: ``>=0.1.15``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

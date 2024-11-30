@@ -27,7 +27,7 @@ gretl
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -39,6 +39,13 @@ gretl
    :depends python: ``3.10.*``
    :depends seaborn-base: ``>=0.13.2``
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -85,7 +92,7 @@ gretl
 
     <script>
         var package = "gretl";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0"];
     </script>
 
 

@@ -53,6 +53,9 @@ bioconductor-svmdo
    :depends r-survival: ``>=3.4-0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

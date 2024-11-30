@@ -37,6 +37,9 @@ ncbi-acc-download
    :depends requests: ``>=2.4.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

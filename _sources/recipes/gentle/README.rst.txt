@@ -45,6 +45,9 @@ gentle
    :depends wxwidgets: ``>=3.2.2.1,<3.3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

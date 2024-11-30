@@ -64,6 +64,9 @@ bioconductor-aspli
    :depends r-upsetr: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

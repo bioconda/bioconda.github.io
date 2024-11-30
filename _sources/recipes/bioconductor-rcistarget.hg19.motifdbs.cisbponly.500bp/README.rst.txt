@@ -46,6 +46,9 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
    :depends r-data.table: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

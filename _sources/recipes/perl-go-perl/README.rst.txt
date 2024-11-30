@@ -37,6 +37,9 @@ perl-go-perl
    :depends perl-data-stag: ``>=0.07``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

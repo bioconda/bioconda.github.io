@@ -41,6 +41,9 @@ make_prg
    :depends setuptools: ``>=65,<66``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

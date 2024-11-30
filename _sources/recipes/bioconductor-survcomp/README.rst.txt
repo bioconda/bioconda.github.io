@@ -56,6 +56,9 @@ bioconductor-survcomp
    :depends r-survivalroc: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -52,6 +52,9 @@ b2b-utils
    :depends samtools: ``>=1.18,<2.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

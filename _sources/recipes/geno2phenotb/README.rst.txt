@@ -55,6 +55,9 @@ geno2phenotb
    :depends wheel: ``0.37.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

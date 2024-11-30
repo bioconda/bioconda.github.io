@@ -50,6 +50,9 @@ bcftools-snvphyl-plugin
    :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

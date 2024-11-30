@@ -38,6 +38,9 @@ goat
    :depends openssl: ``>=3.1.0,<4.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

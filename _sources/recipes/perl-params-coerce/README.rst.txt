@@ -37,6 +37,9 @@ perl-params-coerce
    :depends perl-params-util: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

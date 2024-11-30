@@ -54,6 +54,9 @@ unicycler
    :depends spades: ``>=3.15.4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

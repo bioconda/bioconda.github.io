@@ -41,6 +41,13 @@ perl-json-create
    :depends perl-unicode-utf8: ``>=0.62,<0.63.0a0``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

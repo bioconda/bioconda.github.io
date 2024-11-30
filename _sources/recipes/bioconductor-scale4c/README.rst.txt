@@ -47,6 +47,9 @@ bioconductor-scale4c
    :depends r-smoothie: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

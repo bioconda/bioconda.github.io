@@ -39,6 +39,9 @@ metaprokka
    :depends prokka: ``1.14.6.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

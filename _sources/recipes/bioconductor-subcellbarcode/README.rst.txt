@@ -53,6 +53,9 @@ bioconductor-subcellbarcode
    :depends r-scatterplot3d: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -42,6 +42,9 @@ im2deep
    :depends tensorflow: ``>=2.2,<2.13.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

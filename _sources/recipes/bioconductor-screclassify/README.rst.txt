@@ -39,6 +39,9 @@ bioconductor-screclassify
    :depends r-randomforest: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

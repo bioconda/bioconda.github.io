@@ -44,6 +44,9 @@ bioconductor-rolde
    :depends r-rngtools: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

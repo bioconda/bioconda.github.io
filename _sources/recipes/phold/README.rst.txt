@@ -54,6 +54,9 @@ phold
    :depends transformers: ``>=4.34``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

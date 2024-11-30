@@ -44,6 +44,9 @@ perl-biox-seq
    :depends perl-compress-bgzf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

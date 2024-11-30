@@ -52,6 +52,9 @@ oncotator
    :depends sqlalchemy: ``1.0.12``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -45,6 +45,9 @@ perl-json
    :depends perl-json-xs: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -54,6 +54,9 @@ pydeseq2
    :depends scipy: ``>=1.11.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

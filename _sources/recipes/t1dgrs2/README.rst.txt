@@ -63,6 +63,9 @@ t1dgrs2
    :depends wheel: ``0.40.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

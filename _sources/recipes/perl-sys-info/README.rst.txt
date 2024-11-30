@@ -37,6 +37,9 @@ perl-sys-info
    :depends perl-sys-info-driver-linux: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

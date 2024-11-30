@@ -38,6 +38,9 @@ perl-string-random
    :depends perl-parent: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

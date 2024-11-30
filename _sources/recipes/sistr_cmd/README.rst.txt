@@ -54,6 +54,9 @@ sistr_cmd
    :depends scipy: ``>=1.11.2,<1.12.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

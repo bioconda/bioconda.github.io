@@ -44,6 +44,9 @@ mrbayes
    :depends readline: ``>=8.2,<9.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

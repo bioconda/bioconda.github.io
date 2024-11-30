@@ -51,6 +51,9 @@ ena-upload-cli
    :depends requests: ``>=2.31.0,<=3.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -67,6 +67,9 @@ fastx_toolkit
    :depends perl-perlio-gzip: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

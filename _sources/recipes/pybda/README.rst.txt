@@ -47,6 +47,9 @@ pybda
    :depends sparkhpc: ``>=0.3.post4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

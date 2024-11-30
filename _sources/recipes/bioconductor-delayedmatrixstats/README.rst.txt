@@ -49,6 +49,9 @@ bioconductor-delayedmatrixstats
    :depends r-matrix: ``>=1.5-0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -59,6 +59,9 @@ bakta
    :depends xopen: ``>=1.5.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

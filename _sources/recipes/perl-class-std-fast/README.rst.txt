@@ -37,6 +37,9 @@ perl-class-std-fast
    :depends perl-scalar-list-utils: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

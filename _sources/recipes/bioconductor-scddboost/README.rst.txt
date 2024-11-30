@@ -55,6 +55,9 @@ bioconductor-scddboost
    :depends r-rcppeigen: ``>=0.3.2.9.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

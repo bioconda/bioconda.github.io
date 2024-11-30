@@ -62,6 +62,9 @@ matchms
    :depends tqdm: ``>=4.65.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

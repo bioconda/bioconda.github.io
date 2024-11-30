@@ -52,6 +52,9 @@ gimmemotifs
    :depends xxmotif: ``>=1.6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
@@ -141,6 +144,9 @@ gimmemotifs
    :depends tqdm: ``>=4.46.1``
    :depends xdg: 
    :requirements:
+
+   :additional platforms:
+      
 
    .. rubric:: Installation
 

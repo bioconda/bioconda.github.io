@@ -43,6 +43,9 @@ cytosnake
    :depends snakemake: ``>=7.32``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

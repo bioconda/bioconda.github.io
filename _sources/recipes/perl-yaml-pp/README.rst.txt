@@ -43,6 +43,9 @@ perl-yaml-pp
    :depends perl-module-load: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

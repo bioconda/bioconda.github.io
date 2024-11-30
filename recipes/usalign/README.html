@@ -103,7 +103,7 @@ where a TM-score ≥0.5 (or 0.45) means the structures share the same global top
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">usalign</span></span><a class="headerlink" href="#package-usalign" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/usalign"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/usalign.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/usalign"><img alt="docker_usalign" src="https://quay.io/repository/biocontainers/usalign/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2024.07.30-0</span></code></p>
 </dd>
@@ -115,6 +115,8 @@ where a TM-score ≥0.5 (or 0.45) means the structures share the same global top
 </dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -288,11 +290,13 @@ others.</p>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
     let id = window.location.hash.substring(1);
-    let elem = document.getElementById(id);
-    if (elem != null) {
-        // Get the closest "details" element and open it
-        closest = elem.closest("details");
-        if (closest) closest.open = true;
+    if (id) {
+        let elem = document.getElementById(id);
+        if (elem != null) {
+            // Get the closest "details" element and open it
+            closest = elem.closest("details");
+            if (closest) closest.open = true;
+        }
     }
 </script>
 

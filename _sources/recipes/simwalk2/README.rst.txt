@@ -37,6 +37,9 @@ simwalk2
    :depends libgfortran5: ``>=12.2.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

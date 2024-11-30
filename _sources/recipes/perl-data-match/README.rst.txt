@@ -38,6 +38,9 @@ perl-data-match
    :depends perl-string-escape: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

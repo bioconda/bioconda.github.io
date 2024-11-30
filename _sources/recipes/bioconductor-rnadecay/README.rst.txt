@@ -52,6 +52,9 @@ bioconductor-rnadecay
    :depends r-tmb: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

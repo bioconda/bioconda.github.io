@@ -41,6 +41,9 @@ bioconductor-reactomecontentservice4r
    :depends r-magick: ``>=2.5.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

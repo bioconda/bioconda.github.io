@@ -46,6 +46,9 @@ r2r
    :depends perl-clone: ``0.46.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -50,6 +50,9 @@ perl-sanger-cgp-vcf
    :depends perl-vcftools-vcf: ``0.1.16.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

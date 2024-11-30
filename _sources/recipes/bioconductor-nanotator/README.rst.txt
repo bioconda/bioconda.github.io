@@ -60,6 +60,9 @@ bioconductor-nanotator
    :depends r-xml2r: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -43,6 +43,9 @@ bactopia-sketcher
    :depends sourmash: ``>=4.8.4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

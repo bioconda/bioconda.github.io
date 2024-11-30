@@ -35,6 +35,9 @@ imods
    :depends arpack: ``>=3.7.0,<3.7.1.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

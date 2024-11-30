@@ -45,6 +45,9 @@ bioconductor-msqrob2
    :depends r-purrr: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

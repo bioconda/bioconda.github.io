@@ -61,6 +61,9 @@ bioconductor-motifbreakr
    :depends r-tfmpvalue: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

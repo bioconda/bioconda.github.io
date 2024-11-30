@@ -36,6 +36,9 @@ perl-tree-dag_node
    :depends perl-file-slurp-tiny: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

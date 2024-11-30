@@ -56,6 +56,9 @@ perl-bio-eutilities
    :depends perl-xml-simple: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

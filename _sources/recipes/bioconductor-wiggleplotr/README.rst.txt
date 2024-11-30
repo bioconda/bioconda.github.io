@@ -53,6 +53,9 @@ bioconductor-wiggleplotr
    :depends r-purrr: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

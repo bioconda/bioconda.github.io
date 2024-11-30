@@ -47,6 +47,9 @@ perl-bio-phylo
    :depends perl-xml-twig: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -39,6 +39,9 @@ genomescope2
    :depends r-minpack.lm: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

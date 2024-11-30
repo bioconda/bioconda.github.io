@@ -39,6 +39,9 @@ perl-html-tree
    :depends perl-html-tagset: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -51,6 +51,9 @@ metagem
    :depends snakemake: ``>=5.10.0,<5.31.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

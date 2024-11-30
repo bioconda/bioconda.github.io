@@ -41,6 +41,9 @@ search_ncbi
    :depends xmltodict: ``>=0.13.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

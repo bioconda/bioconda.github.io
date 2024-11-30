@@ -28,10 +28,10 @@ simpleaf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.17.2-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-1</code>,  <code>0.17.0-0</code>,  <code>0.16.2-0</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  <code>0.15.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17.4-0</code>,  <code>0.17.3-0</code>,  <code>0.17.2-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-1</code>,  <code>0.17.0-0</code>,  <code>0.16.2-0</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  </span></summary>
       
 
-      ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-1``,  ``0.17.0-0``,  ``0.16.2-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.17.4-0``,  ``0.17.3-0``,  ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-1``,  ``0.17.0-0``,  ``0.16.2-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -41,11 +41,18 @@ simpleaf
 
    
    :depends alevin-fry: ``>=0.8.2``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends piscem: ``>=0.9.0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends piscem: ``>=0.11.0``
    :depends salmon: ``>=1.10.1``
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -92,7 +99,7 @@ simpleaf
 
     <script>
         var package = "simpleaf";
-        var versions = ["0.17.2","0.17.1","0.17.0","0.17.0","0.16.2"];
+        var versions = ["0.17.4","0.17.3","0.17.2","0.17.1","0.17.0"];
     </script>
 
 

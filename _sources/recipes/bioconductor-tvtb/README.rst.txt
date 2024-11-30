@@ -61,6 +61,9 @@ bioconductor-tvtb
    :depends r-reshape2: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

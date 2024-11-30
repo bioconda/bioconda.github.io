@@ -38,6 +38,9 @@ perl-pegex
    :depends perl-yaml-libyaml: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

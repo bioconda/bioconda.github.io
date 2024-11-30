@@ -29,7 +29,7 @@ bali-phy
       
       
 
-      ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
+      ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
 
       
 
@@ -37,16 +37,25 @@ bali-phy
    :depends boost-cpp: ``>=1.83.0``
    :depends cairo: ``>=1.18.0,<2.0a0``
    :depends eigen: ``>=3.3.7``
+   :depends fmt: ``>=10``
+   :depends fmt: ``>=11.0.2,<12.0a0``
    :depends glib: 
    :depends gnuplot: 
-   :depends libgcc-ng: ``>=12``
-   :depends libglib: ``>=2.80.3,<3.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libglib: ``>=2.82.2,<3.0a0``
+   :depends libstdcxx: ``>=12``
    :depends pandoc: 
    :depends perl: 
-   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python: ``>=3.13,<3.14.0a0``
    :depends r-base: 
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -93,7 +102,7 @@ bali-phy
 
     <script>
         var package = "bali-phy";
-        var versions = ["4.0beta15","4.0beta15","4.0beta14","4.0beta13","3.6.0"];
+        var versions = ["4.0beta16","4.0beta15","4.0beta15","4.0beta14","4.0beta13"];
     </script>
 
 

@@ -36,6 +36,9 @@ ega-cryptor
    :depends python: ``>=3.6,<4.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

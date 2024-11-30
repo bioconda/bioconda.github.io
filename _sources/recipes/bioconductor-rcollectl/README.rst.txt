@@ -38,6 +38,9 @@ bioconductor-rcollectl
    :depends r-processx: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

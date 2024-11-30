@@ -42,6 +42,9 @@ r-smartsva
    :depends r-rspectra: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

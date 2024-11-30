@@ -58,6 +58,9 @@ bioconductor-basicstan
    :depends r-stanheaders: ``>=2.18.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

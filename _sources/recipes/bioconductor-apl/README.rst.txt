@@ -48,6 +48,9 @@ bioconductor-apl
    :depends r-viridislite: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

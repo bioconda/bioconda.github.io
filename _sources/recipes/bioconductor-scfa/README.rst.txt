@@ -46,6 +46,9 @@ bioconductor-scfa
    :depends r-torch: ``>=0.3.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -49,6 +49,9 @@ bioconductor-rgraph2js
    :depends r-whisker: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -30,7 +30,7 @@ yacht
       
       
 
-      ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
 
       
 
@@ -59,6 +59,13 @@ yacht
    :depends sourmash_plugin_branchwater: 
    :depends tqdm: 
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -105,7 +112,7 @@ yacht
 
     <script>
         var package = "yacht";
-        var versions = ["1.3.0","1.2.3","1.2.2","1.2.1","1.1.0"];
+        var versions = ["1.3.0","1.3.0","1.2.3","1.2.2","1.2.1"];
     </script>
 
 

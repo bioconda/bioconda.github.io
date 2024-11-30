@@ -46,6 +46,9 @@ xpore
    :depends ujson: ``>=4.0.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

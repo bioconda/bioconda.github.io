@@ -50,6 +50,9 @@ bioconductor-erssa
    :depends r-rcolorbrewer: ``>=1.1-2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

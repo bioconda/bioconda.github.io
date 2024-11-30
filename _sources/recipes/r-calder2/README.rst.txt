@@ -55,6 +55,9 @@ r-calder2
    :depends r-strawr: ``>=0.0.9``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

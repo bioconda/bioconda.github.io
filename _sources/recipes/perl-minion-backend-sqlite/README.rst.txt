@@ -41,6 +41,9 @@ perl-minion-backend-sqlite
    :depends perl-mojolicious: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

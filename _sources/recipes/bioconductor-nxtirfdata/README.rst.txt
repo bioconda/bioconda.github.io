@@ -41,6 +41,9 @@ bioconductor-nxtirfdata
    :depends r-r.utils: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

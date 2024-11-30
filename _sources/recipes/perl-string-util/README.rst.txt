@@ -37,6 +37,9 @@ perl-string-util
    :depends perl-test-toolbox: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

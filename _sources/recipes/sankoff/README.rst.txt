@@ -39,6 +39,9 @@ sankoff
    :depends tbb: ``>=2021.4.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

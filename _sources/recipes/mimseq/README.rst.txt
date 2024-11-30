@@ -71,6 +71,9 @@ mimseq
    :depends statsmodels: ``>=0.13.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

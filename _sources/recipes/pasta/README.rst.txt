@@ -47,6 +47,9 @@ pasta
    :depends raxml: ``>=8.2.13,<9.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

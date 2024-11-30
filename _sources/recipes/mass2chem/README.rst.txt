@@ -38,6 +38,9 @@ mass2chem
    :depends treelib: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

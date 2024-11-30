@@ -39,6 +39,9 @@ perl-git-wrapper
    :depends perl-sort-versions: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

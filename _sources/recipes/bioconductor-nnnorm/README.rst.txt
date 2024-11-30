@@ -46,6 +46,9 @@ bioconductor-nnnorm
    :depends r-nnet: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

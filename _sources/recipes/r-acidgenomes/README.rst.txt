@@ -64,6 +64,9 @@ r-acidgenomes
    :depends r-withr: ``>=2.5.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

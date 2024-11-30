@@ -37,6 +37,9 @@ perl-alien-libxml2
    :depends perl-alien-build: ``2.48.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

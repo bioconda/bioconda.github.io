@@ -38,6 +38,9 @@ emu-pca
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

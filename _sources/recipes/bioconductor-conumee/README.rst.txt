@@ -45,6 +45,9 @@ bioconductor-conumee
    :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

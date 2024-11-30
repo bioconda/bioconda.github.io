@@ -39,6 +39,9 @@ perl-cache-cache
    :depends perl-storable: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

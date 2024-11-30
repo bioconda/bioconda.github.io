@@ -67,6 +67,9 @@ bioconductor-rnaseqsamplesize
    :depends r-tidyselect: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

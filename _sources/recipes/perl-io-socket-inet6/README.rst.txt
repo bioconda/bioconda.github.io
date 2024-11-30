@@ -39,6 +39,9 @@ perl-io-socket-inet6
    :depends perl-socket6: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

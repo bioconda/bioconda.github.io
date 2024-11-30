@@ -47,6 +47,9 @@ graphclust-wrappers
    :depends perl-math-round: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

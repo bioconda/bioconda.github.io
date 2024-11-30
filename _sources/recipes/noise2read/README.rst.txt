@@ -49,6 +49,9 @@ noise2read
    :depends xlsxwriter: ``>=3.0.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

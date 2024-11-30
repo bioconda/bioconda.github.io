@@ -39,6 +39,9 @@ go-figure
    :depends seaborn: ``0.12.2.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

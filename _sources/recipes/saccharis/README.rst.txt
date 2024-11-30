@@ -61,6 +61,9 @@ saccharis
    :depends requests: ``>=2.28.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

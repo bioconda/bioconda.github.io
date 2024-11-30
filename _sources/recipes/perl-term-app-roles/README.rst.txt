@@ -37,6 +37,9 @@ perl-term-app-roles
    :depends perl-term-detect-software: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

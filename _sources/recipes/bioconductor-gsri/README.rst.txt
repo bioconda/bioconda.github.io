@@ -49,6 +49,9 @@ bioconductor-gsri
    :depends r-fdrtool: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

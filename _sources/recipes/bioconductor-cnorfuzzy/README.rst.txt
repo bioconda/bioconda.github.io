@@ -50,6 +50,9 @@ bioconductor-cnorfuzzy
    :depends r-nloptr: ``>=0.8.5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

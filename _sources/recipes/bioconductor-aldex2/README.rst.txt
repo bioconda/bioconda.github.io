@@ -55,6 +55,9 @@ bioconductor-aldex2
    :depends r-zcompositions: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

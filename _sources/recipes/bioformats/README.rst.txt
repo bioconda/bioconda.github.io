@@ -38,6 +38,9 @@ bioformats
    :depends pyvcf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

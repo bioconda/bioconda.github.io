@@ -44,6 +44,9 @@ epicseg
    :depends r-rcpp: ``>=0.10.6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

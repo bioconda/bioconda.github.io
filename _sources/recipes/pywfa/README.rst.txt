@@ -37,6 +37,9 @@ pywfa
    :depends python_abi: ``3.8.* *_cp38``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

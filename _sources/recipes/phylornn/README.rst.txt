@@ -47,6 +47,9 @@ phylornn
    :depends tensorflow: ``>=2.9.1,<3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

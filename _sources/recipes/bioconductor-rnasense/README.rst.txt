@@ -39,6 +39,9 @@ bioconductor-rnasense
    :depends r-nbpseq: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

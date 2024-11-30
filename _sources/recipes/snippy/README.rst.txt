@@ -61,6 +61,9 @@ snippy
    :depends vt: ``>=0.5772``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -19373,11 +19373,13 @@
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
     let id = window.location.hash.substring(1);
-    let elem = document.getElementById(id);
-    if (elem != null) {
-        // Get the closest "details" element and open it
-        closest = elem.closest("details");
-        if (closest) closest.open = true;
+    if (id) {
+        let elem = document.getElementById(id);
+        if (elem != null) {
+            // Get the closest "details" element and open it
+            closest = elem.closest("details");
+            if (closest) closest.open = true;
+        }
     }
 </script>
 

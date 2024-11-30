@@ -37,6 +37,9 @@ gvcf2bed
    :depends pyvcf: ``0.6.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

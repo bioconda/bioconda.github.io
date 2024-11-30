@@ -39,6 +39,9 @@ pygenetic_code
    :depends python_abi: ``3.12.* *_cp312``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

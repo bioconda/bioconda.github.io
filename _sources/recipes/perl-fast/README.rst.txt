@@ -39,6 +39,9 @@ perl-fast
    :depends perl-sort-mergesort: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -36,6 +36,9 @@ perl-data-compare
    :depends perl-file-find-rule: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

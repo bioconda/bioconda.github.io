@@ -54,6 +54,9 @@ circexplorer2
    :depends ucsc-gtftogenepred: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

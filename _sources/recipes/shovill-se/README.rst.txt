@@ -51,6 +51,9 @@ shovill-se
    :depends velvet: ``>=1.2.10``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

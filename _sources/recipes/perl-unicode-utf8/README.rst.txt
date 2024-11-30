@@ -40,6 +40,13 @@ perl-unicode-utf8
    :depends perl-test-fatal: ``0.016.*``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

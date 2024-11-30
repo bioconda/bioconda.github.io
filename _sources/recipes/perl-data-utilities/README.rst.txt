@@ -36,6 +36,9 @@ perl-data-utilities
    :depends perl-clone: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

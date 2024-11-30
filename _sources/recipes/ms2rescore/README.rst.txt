@@ -62,6 +62,9 @@ ms2rescore
    :depends xgboost: ``<2,>=1.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

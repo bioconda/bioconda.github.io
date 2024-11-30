@@ -38,6 +38,9 @@ perl-xml-simple
    :depends perl-xml-sax-expat: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

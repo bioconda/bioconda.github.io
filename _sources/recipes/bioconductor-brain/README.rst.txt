@@ -47,6 +47,9 @@ bioconductor-brain
    :depends r-polynomf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

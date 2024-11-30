@@ -38,6 +38,9 @@ fastools
    :depends regex: ``>=2020.10.11``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

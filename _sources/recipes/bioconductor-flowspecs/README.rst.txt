@@ -42,6 +42,9 @@ bioconductor-flowspecs
    :depends r-zoo: ``>=1.8.6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

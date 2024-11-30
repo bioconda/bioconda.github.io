@@ -43,6 +43,9 @@ bioconductor-genproseq
    :depends r-word2vec: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

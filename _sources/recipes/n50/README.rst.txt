@@ -57,6 +57,9 @@ n50
    :depends perl-text-asciitable: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

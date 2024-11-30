@@ -45,6 +45,9 @@ biobb_amber
    :depends python: ``>=3.9,<3.11``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

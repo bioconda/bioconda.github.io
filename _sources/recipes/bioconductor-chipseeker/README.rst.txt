@@ -64,6 +64,9 @@ bioconductor-chipseeker
    :depends r-yulab.utils: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

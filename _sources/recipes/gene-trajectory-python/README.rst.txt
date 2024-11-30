@@ -48,6 +48,9 @@ gene-trajectory-python
    :depends tqdm: ``>=4.64.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -40,6 +40,9 @@ schavott
    :depends watchdog: ``>=0.8.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

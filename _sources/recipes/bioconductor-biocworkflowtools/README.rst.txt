@@ -53,6 +53,9 @@ bioconductor-biocworkflowtools
    :depends r-usethis: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -35,6 +35,9 @@ bio-vcf
    :depends ruby: ``2.6.6.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -48,6 +48,9 @@ r-classdiscovery
    :depends r-oompadata: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

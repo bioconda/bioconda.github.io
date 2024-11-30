@@ -58,6 +58,9 @@ bioconductor-factr
    :depends r-xml: ``>=3.99``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

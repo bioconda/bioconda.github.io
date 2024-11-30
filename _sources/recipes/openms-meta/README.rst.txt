@@ -50,6 +50,9 @@ openms-meta
    :depends yaml-cpp: ``>=0.8.0,<0.9.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
@@ -137,6 +140,9 @@ openms-meta
    :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
@@ -200,6 +206,9 @@ openms-meta
 
    
    :requirements:
+
+   :additional platforms:
+      
 
    .. rubric:: Installation
 
@@ -283,6 +292,9 @@ openms-meta
    :depends thermorawfileparser: ``1.4.3``
    :depends xtandem: ``15.12.15.2``
    :requirements:
+
+   :additional platforms:
+      
 
    .. rubric:: Installation
 

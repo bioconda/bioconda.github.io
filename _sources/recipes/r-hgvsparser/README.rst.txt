@@ -36,6 +36,9 @@ r-hgvsparser
    :depends r-devtools: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

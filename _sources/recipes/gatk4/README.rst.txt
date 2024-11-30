@@ -45,6 +45,9 @@ gatk4
    :depends python: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
@@ -119,6 +122,9 @@ gatk4
    :depends openjdk: ``>=17,<18``
    :depends python: 
    :requirements:
+
+   :additional platforms:
+      
 
    .. rubric:: Installation
 

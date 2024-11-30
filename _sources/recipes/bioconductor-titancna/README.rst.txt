@@ -60,6 +60,9 @@ bioconductor-titancna
    :depends r-foreach: ``>=1.4.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

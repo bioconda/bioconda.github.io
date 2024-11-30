@@ -56,6 +56,13 @@ bioconductor-gpa
    :depends r-vegan: 
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

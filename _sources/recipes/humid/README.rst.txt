@@ -39,6 +39,9 @@ humid
    :depends libdeflate: ``>=1.13,<1.14.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

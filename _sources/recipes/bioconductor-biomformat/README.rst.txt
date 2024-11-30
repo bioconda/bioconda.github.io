@@ -48,6 +48,9 @@ bioconductor-biomformat
    :depends r-plyr: ``>=1.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

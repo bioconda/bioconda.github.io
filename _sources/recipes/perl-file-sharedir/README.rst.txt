@@ -37,6 +37,9 @@ perl-file-sharedir
    :depends perl-class-inspector: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

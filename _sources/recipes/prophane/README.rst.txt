@@ -51,6 +51,9 @@ prophane
    :depends snakemake-minimal: ``>=6.5.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

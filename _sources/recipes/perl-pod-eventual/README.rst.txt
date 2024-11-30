@@ -37,6 +37,9 @@ perl-pod-eventual
    :depends perl-test-deep: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

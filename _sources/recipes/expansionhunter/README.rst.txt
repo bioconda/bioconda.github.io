@@ -55,6 +55,13 @@ expansionhunter
    :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

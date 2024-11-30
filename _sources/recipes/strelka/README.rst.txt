@@ -44,6 +44,9 @@ strelka
    :depends python: ``2.7.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

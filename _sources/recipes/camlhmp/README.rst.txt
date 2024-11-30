@@ -49,6 +49,9 @@ camlhmp
    :depends rich-click: ``>=1.6.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -38,6 +38,9 @@ perl-sql-abstract-pg
    :depends perl-test-deep: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

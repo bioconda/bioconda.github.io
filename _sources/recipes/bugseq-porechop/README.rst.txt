@@ -38,6 +38,9 @@ bugseq-porechop
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

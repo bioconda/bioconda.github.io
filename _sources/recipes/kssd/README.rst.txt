@@ -40,6 +40,9 @@ kssd
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

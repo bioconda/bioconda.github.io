@@ -37,6 +37,9 @@ bart
    :depends refseq_masher: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

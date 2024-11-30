@@ -38,6 +38,9 @@ vcf2parquet
    :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

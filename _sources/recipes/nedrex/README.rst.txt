@@ -39,6 +39,9 @@ nedrex
    :depends requests: ``>=2.27.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

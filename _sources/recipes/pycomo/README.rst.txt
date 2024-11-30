@@ -39,6 +39,9 @@ pycomo
    :depends python-libsbml: ``>=5.20.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

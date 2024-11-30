@@ -50,6 +50,9 @@ bioconductor-cgen
    :depends r-survival: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

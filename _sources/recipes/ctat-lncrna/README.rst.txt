@@ -35,6 +35,9 @@ ctat-lncrna
    :depends slncky: ``>=1.0.4 1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

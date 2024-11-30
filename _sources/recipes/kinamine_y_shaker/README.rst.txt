@@ -38,6 +38,9 @@ kinamine_y_shaker
    :depends python: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

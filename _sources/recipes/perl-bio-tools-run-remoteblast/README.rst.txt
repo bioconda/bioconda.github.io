@@ -36,6 +36,9 @@ perl-bio-tools-run-remoteblast
    :depends perl-bioperl-core: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

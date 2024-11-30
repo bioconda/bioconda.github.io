@@ -37,6 +37,9 @@ burrito-fillings
    :depends scikit-bio: ``>=0.2.1,<0.3.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

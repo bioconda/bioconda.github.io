@@ -51,6 +51,9 @@ bioconductor-epivizrstandalone
    :depends r-git2r: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -39,6 +39,9 @@ hilive2
    :depends lz4-c: ``>=1.9.3,<1.10.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

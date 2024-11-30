@@ -44,6 +44,9 @@ bioconductor-sigspack
    :depends r-quadprog: ``>=1.5-5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

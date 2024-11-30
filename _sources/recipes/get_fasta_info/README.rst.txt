@@ -37,6 +37,9 @@ get_fasta_info
    :depends zlib: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

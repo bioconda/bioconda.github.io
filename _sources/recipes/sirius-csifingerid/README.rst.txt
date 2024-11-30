@@ -47,6 +47,9 @@ sirius-csifingerid
    :depends openjdk: ``17.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

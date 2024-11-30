@@ -45,6 +45,9 @@ bioconductor-ocplus
    :depends r-interp: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

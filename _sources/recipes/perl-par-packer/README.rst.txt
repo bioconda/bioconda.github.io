@@ -43,6 +43,9 @@ perl-par-packer
    :depends perl-text-parsewords: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

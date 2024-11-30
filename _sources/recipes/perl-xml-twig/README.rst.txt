@@ -43,6 +43,9 @@ perl-xml-twig
    :depends perl-xml-xpathengine: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

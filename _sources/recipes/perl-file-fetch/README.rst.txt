@@ -40,6 +40,9 @@ perl-file-fetch
    :depends perl-params-check: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

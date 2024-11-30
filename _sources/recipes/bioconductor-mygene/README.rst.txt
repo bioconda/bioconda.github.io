@@ -51,6 +51,9 @@ bioconductor-mygene
    :depends r-sqldf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -45,6 +45,9 @@ r-phyext2
    :depends r-phylobase: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

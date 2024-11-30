@@ -43,6 +43,9 @@ favites_lite
    :depends treeswift: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

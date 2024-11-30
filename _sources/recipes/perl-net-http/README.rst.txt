@@ -40,6 +40,9 @@ perl-net-http
    :depends perl-uri: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

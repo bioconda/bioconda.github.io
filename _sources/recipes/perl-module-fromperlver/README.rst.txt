@@ -47,6 +47,9 @@ perl-module-fromperlver
    :depends perl-version-next: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -50,6 +50,9 @@ bioconductor-esetvis
    :depends r-rtsne: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

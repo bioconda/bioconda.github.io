@@ -36,6 +36,9 @@ perl-estscan1
    :depends perl-btlib: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -51,6 +51,9 @@ perl-sanger-cgp-allelecount
    :depends perl-sanger-cgp-vcf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

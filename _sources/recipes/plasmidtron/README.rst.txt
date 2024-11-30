@@ -40,6 +40,9 @@ plasmidtron
    :depends spades: ``>=3.9.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -40,6 +40,9 @@ crispr_studio
    :depends scipy: ``<=1.2.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

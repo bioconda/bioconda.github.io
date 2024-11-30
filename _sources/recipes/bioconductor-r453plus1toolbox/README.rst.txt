@@ -75,6 +75,9 @@ bioconductor-r453plus1toolbox
    :depends r-xtable: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

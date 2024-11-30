@@ -41,6 +41,9 @@ bioconductor-meb
    :depends r-wrswor: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

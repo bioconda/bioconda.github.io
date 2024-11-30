@@ -81,6 +81,9 @@ abromics_galaxy_json_extractor
    :depends xz: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

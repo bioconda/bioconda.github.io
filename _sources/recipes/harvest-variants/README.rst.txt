@@ -47,6 +47,9 @@ harvest-variants
    :depends sra-tools: ``2.10.9.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

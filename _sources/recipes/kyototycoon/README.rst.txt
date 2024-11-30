@@ -38,6 +38,9 @@ kyototycoon
    :depends lzo: ``>=2.10,<3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

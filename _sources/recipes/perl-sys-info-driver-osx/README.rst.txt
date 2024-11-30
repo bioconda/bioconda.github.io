@@ -39,6 +39,9 @@ perl-sys-info-driver-osx
    :depends perl-sys-info-base: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

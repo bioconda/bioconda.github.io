@@ -40,6 +40,9 @@ perl-parallel-forkmanager
    :depends perl-storable: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

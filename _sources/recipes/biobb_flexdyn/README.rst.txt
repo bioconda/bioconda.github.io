@@ -71,6 +71,9 @@ biobb_flexdyn
    :depends scipy: ``>=1.13.0,<1.14.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

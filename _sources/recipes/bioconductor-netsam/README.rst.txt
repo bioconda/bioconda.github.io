@@ -54,6 +54,9 @@ bioconductor-netsam
    :depends r-wgcna: ``>=1.34.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -29,7 +29,7 @@ viral_consensus
       
       
 
-      ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -39,6 +39,13 @@ viral_consensus
    :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -85,7 +92,7 @@ viral_consensus
 
     <script>
         var package = "viral_consensus";
-        var versions = ["0.0.6","0.0.5","0.0.5","0.0.4","0.0.3"];
+        var versions = ["0.0.6","0.0.6","0.0.5","0.0.5","0.0.4"];
     </script>
 
 

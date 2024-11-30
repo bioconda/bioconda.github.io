@@ -49,6 +49,9 @@ mgnify-pipelines-toolkit
    :depends regex: ``2023.12.25``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

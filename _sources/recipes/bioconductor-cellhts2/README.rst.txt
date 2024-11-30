@@ -53,6 +53,9 @@ bioconductor-cellhts2
    :depends r-rcolorbrewer: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

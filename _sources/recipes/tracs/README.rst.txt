@@ -54,6 +54,13 @@ tracs
    :depends tqdm: 
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

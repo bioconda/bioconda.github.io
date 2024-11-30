@@ -37,6 +37,9 @@ perl-par-dist
    :depends perl-file-path: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

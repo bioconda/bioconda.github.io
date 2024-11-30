@@ -27,7 +27,7 @@ bed2gtf
       
       
 
-      ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``
+      ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``
 
       
 
@@ -35,6 +35,13 @@ bed2gtf
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -81,7 +88,7 @@ bed2gtf
 
     <script>
         var package = "bed2gtf";
-        var versions = ["1.9.3","1.9.2","1.9.1","1.9.0"];
+        var versions = ["1.9.3","1.9.3","1.9.2","1.9.1","1.9.0"];
     </script>
 
 

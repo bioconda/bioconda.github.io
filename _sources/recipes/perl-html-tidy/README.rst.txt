@@ -42,6 +42,9 @@ perl-html-tidy
    :depends tidyp: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

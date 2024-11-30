@@ -50,6 +50,9 @@ panpasco
    :depends trimmomatic: ``0.36.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

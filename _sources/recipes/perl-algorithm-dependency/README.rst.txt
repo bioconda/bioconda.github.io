@@ -36,6 +36,9 @@ perl-algorithm-dependency
    :depends perl-params-util: ``>=0.31``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

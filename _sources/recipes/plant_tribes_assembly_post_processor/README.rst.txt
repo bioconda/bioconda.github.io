@@ -50,6 +50,9 @@ plant_tribes_assembly_post_processor
    :depends trimal: ``>=1.4,<2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

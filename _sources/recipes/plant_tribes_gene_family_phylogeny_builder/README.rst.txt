@@ -37,6 +37,9 @@ plant_tribes_gene_family_phylogeny_builder
    :depends raxml: ``>=8,<9``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

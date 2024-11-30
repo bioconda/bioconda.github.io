@@ -54,6 +54,9 @@ bioconductor-m3drop
    :depends r-statmod: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

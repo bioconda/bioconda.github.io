@@ -38,6 +38,9 @@ perl-text-csv_xs
    :depends perl-text-csv: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -39,6 +39,9 @@ pdivas
    :depends scikit-learn: ``1.0.2.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

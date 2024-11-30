@@ -52,6 +52,9 @@ bioconductor-hireadsprocessor
    :depends r-soniclength: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

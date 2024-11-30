@@ -44,6 +44,9 @@ perl-sereal-encoder
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

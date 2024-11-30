@@ -38,6 +38,9 @@ pout2mzid
    :depends xsd: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

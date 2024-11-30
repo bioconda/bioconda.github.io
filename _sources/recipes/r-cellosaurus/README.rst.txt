@@ -54,6 +54,9 @@ r-cellosaurus
    :depends r-syntactic: ``>=0.7.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

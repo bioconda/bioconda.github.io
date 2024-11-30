@@ -49,6 +49,9 @@ bioconductor-polyester
    :depends r-logspline: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

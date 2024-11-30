@@ -37,6 +37,9 @@ perl-io-prompt
    :depends perl-want: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

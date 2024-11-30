@@ -46,6 +46,9 @@ bioconductor-basespacer
    :depends r-rjsonio: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

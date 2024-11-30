@@ -50,6 +50,9 @@ bioconductor-cnvrd2
    :depends r-rjags: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

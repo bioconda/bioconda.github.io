@@ -48,6 +48,9 @@ bioconductor-kcsmart
    :depends r-kernsmooth: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

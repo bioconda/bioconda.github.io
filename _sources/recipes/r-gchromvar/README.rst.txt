@@ -42,6 +42,9 @@ r-gchromvar
    :depends r-matrix: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

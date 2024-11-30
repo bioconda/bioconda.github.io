@@ -27,7 +27,7 @@ ntstat
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -45,6 +45,13 @@ ntstat
    :depends scipy: 
    :depends tabulate: 
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -91,7 +98,7 @@ ntstat
 
     <script>
         var package = "ntstat";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0"];
     </script>
 
 

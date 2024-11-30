@@ -39,6 +39,9 @@ python-bioformats
    :depends python-javabridge: ``4.0.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

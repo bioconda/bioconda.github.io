@@ -44,6 +44,9 @@ phylogenize
    :depends vsearch: ``2.24.0.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

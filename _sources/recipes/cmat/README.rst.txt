@@ -48,6 +48,9 @@ cmat
    :depends retry: ``0.9.2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -51,6 +51,9 @@ bioconductor-zinbwave
    :depends r-softimpute: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

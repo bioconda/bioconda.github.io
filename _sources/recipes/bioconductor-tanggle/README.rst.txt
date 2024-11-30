@@ -39,6 +39,9 @@ bioconductor-tanggle
    :depends r-phangorn: ``>=2.5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

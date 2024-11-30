@@ -38,6 +38,9 @@ perl-tie-refhash-weak
    :depends perl-variable-magic: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

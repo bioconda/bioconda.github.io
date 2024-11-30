@@ -50,6 +50,9 @@ binspreader
    :depends sysroot_linux-64: ``>=2.17``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

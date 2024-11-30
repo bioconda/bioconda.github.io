@@ -64,6 +64,9 @@ sdeper
    :depends umap-learn: ``0.5.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

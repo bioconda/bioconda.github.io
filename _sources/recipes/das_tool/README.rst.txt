@@ -59,6 +59,9 @@ das_tool
    :depends unzip: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

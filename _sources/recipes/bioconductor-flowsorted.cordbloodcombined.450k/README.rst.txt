@@ -51,6 +51,9 @@ bioconductor-flowsorted.cordbloodcombined.450k
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

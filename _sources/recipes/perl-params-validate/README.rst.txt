@@ -49,6 +49,9 @@ perl-params-validate
    :depends perl-test-fatal: ``0.016.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

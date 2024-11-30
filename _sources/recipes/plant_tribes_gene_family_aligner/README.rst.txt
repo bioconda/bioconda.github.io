@@ -39,6 +39,9 @@ plant_tribes_gene_family_aligner
    :depends trimal: ``>=1.4,<2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -53,6 +53,9 @@ perl-pod-elemental
    :depends perl-test-differences: ``0.69.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

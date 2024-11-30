@@ -42,6 +42,9 @@ bioconductor-mafdb.gnomad.r2.1.hs37d5
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

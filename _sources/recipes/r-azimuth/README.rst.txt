@@ -73,6 +73,9 @@ r-azimuth
    :depends r-withr: ``>=2.3.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

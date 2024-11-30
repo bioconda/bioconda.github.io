@@ -51,6 +51,9 @@ bioconductor-pd.2006.07.18.mm8.refseq.promoter
    :depends r-rsqlite: ``>=0.7-1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

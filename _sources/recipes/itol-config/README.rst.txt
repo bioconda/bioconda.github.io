@@ -38,6 +38,9 @@ itol-config
    :depends tomli: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

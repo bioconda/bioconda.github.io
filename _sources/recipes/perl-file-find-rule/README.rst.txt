@@ -37,6 +37,9 @@ perl-file-find-rule
    :depends perl-text-glob: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

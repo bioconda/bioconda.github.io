@@ -92,9 +92,9 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">bali-phy</span></span><a class="headerlink" href="#package-bali-phy" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/bali-phy"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bali-phy.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bali-phy"><img alt="docker_bali-phy" src="https://quay.io/repository/biocontainers/bali-phy/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.0beta15-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0beta15-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0beta14-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0beta13-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.0beta16-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0beta15-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0beta15-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0beta14-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0beta13-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends boost-cpp<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.83.0</span></code></p>
@@ -105,17 +105,23 @@
 <dt class="field-even">depends eigen<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.3.7</span></code></p>
 </dd>
+<dt class="field-odd">depends fmt<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=10</span></code></p>
+</dd>
+<dt class="field-even">depends fmt<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=11.0.2,&lt;12.0a0</span></code></p>
+</dd>
 <dt class="field-odd">depends glib<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends gnuplot<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
 <dt class="field-even">depends libglib<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.80.3,&lt;3.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.82.2,&lt;3.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
 </dd>
 <dt class="field-even">depends pandoc<span class="colon">:</span></dt>
@@ -123,12 +129,14 @@
 <dt class="field-odd">depends perl<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.12,&lt;3.13.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.13,&lt;3.14.0a0</span></code></p>
 </dd>
 <dt class="field-odd">depends r-base<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -163,7 +171,7 @@ others.</p>
 
 <script>
     var package = "bali-phy";
-    var versions = ["4.0beta15","4.0beta15","4.0beta14","4.0beta13","3.6.0"];
+    var versions = ["4.0beta16","4.0beta15","4.0beta15","4.0beta14","4.0beta13"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -302,11 +310,13 @@ others.</p>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
     let id = window.location.hash.substring(1);
-    let elem = document.getElementById(id);
-    if (elem != null) {
-        // Get the closest "details" element and open it
-        closest = elem.closest("details");
-        if (closest) closest.open = true;
+    if (id) {
+        let elem = document.getElementById(id);
+        if (elem != null) {
+            // Get the closest "details" element and open it
+            closest = elem.closest("details");
+            if (closest) closest.open = true;
+        }
     }
 </script>
 

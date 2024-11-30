@@ -43,6 +43,9 @@ rlpipes
    :depends snakemake-minimal: ``>=5.20.1,<=6.4.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -40,6 +40,9 @@ perl-archive-extract
    :depends perl-params-check: ``>=0.07``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -53,6 +53,9 @@ bioconductor-pram
    :depends r-data.table: ``>=1.11.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

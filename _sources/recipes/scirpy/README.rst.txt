@@ -63,6 +63,9 @@ scirpy
    :depends tqdm: ``>=4.63``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -38,6 +38,9 @@ cogclassifier
    :depends requests: ``>=2.27.1,<3.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

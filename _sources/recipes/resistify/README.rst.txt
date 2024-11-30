@@ -61,6 +61,9 @@ resistify
    :depends transformers: ``4.31.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

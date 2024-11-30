@@ -44,6 +44,9 @@ kobas
    :depends sqlite: ``>=3.30.1,<4.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

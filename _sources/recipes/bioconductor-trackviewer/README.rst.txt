@@ -64,6 +64,9 @@ bioconductor-trackviewer
    :depends r-strawr: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

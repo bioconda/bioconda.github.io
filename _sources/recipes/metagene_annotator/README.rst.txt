@@ -35,6 +35,9 @@ metagene_annotator
    :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

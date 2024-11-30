@@ -41,6 +41,9 @@ sc3-scripts
    :depends scater-scripts: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

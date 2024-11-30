@@ -35,6 +35,9 @@ fiji-morpholibj
    :depends fiji: ``>=20170530``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

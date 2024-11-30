@@ -48,6 +48,9 @@ bioconductor-tricycle
    :depends r-scattermore: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

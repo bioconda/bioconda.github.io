@@ -57,6 +57,9 @@ seurat-scripts
    :depends r-workflowscriptscommon: ``>=0.0.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

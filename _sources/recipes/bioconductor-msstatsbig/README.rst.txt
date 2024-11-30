@@ -42,6 +42,9 @@ bioconductor-msstatsbig
    :depends r-sparklyr: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

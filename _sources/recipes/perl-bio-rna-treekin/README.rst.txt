@@ -42,6 +42,9 @@ perl-bio-rna-treekin
    :depends perl-namespace-autoclean: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

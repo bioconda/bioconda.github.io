@@ -38,6 +38,9 @@ smalt
    :depends zlib: ``1.2.11*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

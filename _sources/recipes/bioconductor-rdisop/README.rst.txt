@@ -48,6 +48,9 @@ bioconductor-rdisop
    :depends r-rcpp: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

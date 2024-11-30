@@ -52,6 +52,9 @@ bioconductor-pd.chogene.2.0.st
    :depends r-rsqlite: ``>=1.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

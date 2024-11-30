@@ -42,6 +42,9 @@ perl-bio-phylo-forest-dbtree
    :depends perl-sub-name: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

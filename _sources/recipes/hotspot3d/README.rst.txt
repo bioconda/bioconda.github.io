@@ -41,6 +41,9 @@ hotspot3d
    :depends perl-test-most: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

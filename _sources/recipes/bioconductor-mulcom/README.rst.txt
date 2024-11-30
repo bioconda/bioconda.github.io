@@ -51,6 +51,9 @@ bioconductor-mulcom
    :depends r-fields: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

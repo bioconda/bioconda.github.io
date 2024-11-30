@@ -72,6 +72,9 @@ nf-core
    :depends trogon: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -50,6 +50,9 @@ bioconductor-basic4cseq
    :depends r-rcircos: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

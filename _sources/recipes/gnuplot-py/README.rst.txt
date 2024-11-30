@@ -37,6 +37,9 @@ gnuplot-py
    :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

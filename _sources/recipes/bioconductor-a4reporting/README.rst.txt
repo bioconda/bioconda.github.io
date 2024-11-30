@@ -45,6 +45,9 @@ bioconductor-a4reporting
    :depends r-xtable: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

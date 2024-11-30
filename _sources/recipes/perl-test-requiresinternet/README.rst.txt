@@ -36,6 +36,9 @@ perl-test-requiresinternet
    :depends perl-socket: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

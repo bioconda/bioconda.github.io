@@ -42,6 +42,9 @@ perl-cpan-meta
    :depends perl-version: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

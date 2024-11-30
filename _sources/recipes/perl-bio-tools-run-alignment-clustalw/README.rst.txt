@@ -38,6 +38,9 @@ perl-bio-tools-run-alignment-clustalw
    :depends perl-bioperl-run: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

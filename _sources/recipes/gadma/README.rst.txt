@@ -61,6 +61,9 @@ gadma
    :depends scipy: ``<1.14``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

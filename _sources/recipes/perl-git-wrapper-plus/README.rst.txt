@@ -42,6 +42,9 @@ perl-git-wrapper-plus
    :depends perl-try-tiny: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

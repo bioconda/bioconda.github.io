@@ -40,6 +40,9 @@ circle-map-cpp
    :depends pysam: ``>=0.20.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

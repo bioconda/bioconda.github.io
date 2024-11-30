@@ -55,6 +55,13 @@ freebayes
    :depends wfa2-lib: ``>=2.3.5,<3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

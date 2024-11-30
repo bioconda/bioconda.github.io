@@ -35,6 +35,9 @@ perl-autoloader
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

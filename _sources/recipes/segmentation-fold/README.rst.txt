@@ -42,6 +42,9 @@ segmentation-fold
    :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

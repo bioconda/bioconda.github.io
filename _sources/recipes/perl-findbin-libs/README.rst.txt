@@ -41,6 +41,9 @@ perl-findbin-libs
    :depends perl-test-simple: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -43,6 +43,13 @@ r-mspbwt
    :depends r-stitch: ``>=1.7.0,<2.0a0``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

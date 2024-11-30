@@ -71,6 +71,9 @@ biobb_dna
    :depends scikit-learn: ``>=0.24.2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

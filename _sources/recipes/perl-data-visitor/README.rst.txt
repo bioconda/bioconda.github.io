@@ -40,6 +40,9 @@ perl-data-visitor
    :depends perl-tie-toobject: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

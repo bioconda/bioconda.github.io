@@ -43,6 +43,9 @@ snakemake-executor-plugin-googlebatch
    :depends snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

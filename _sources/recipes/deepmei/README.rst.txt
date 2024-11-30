@@ -42,6 +42,9 @@ deepmei
    :depends tensorflow: ``>=2.7.0,<=2.10.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

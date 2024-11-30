@@ -54,6 +54,9 @@ hifive
    :depends setuptools_cython: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

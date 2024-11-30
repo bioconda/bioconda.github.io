@@ -51,6 +51,9 @@ bioconductor-dnabarcodes
    :depends r-rcpp: ``>=0.11.2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

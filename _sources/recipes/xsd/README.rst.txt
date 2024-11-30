@@ -37,6 +37,9 @@ xsd
    :depends xerces-c: ``>=3.2.3,<3.3.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -41,6 +41,9 @@ perl-moosex-types-path-tiny
    :depends perl-path-tiny: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

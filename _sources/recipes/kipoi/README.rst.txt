@@ -62,6 +62,9 @@ kipoi
    :depends urllib3: ``>=1.21.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -38,6 +38,9 @@ perl-bignum
    :depends perl-math-bigrat: ``>=0.2621``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

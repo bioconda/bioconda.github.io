@@ -47,6 +47,13 @@ ncbi-ngs-sdk
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

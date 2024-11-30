@@ -40,6 +40,9 @@ nanoinsight
    :depends scikit-allel: ``>=1.3.7``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

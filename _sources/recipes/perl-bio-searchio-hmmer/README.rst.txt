@@ -38,6 +38,9 @@ perl-bio-searchio-hmmer
    :depends perl-io-string: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

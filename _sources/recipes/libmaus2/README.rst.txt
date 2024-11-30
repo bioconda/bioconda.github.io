@@ -57,6 +57,13 @@ libmaus2
    :depends staden_io_lib: ``>=1.15.0,<1.16.0a0``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

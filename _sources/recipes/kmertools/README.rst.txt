@@ -37,6 +37,13 @@ kmertools
    :depends python_abi: ``3.12.* *_cp312``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

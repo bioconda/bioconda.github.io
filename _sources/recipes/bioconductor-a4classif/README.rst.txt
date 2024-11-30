@@ -50,6 +50,9 @@ bioconductor-a4classif
    :depends r-varselrf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

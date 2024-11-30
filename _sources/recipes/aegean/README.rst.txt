@@ -40,6 +40,9 @@ aegean
    :depends pango: ``>=1.50.14,<2.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

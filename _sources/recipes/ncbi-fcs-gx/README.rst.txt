@@ -50,6 +50,9 @@ ncbi-fcs-gx
    :depends rclone: ``1.61.1.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

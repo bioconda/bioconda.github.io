@@ -57,6 +57,9 @@ bioconductor-waddr
    :depends r-rcpparmadillo: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

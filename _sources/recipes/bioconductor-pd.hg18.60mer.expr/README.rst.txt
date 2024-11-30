@@ -52,6 +52,9 @@ bioconductor-pd.hg18.60mer.expr
    :depends r-rsqlite: ``>=1.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

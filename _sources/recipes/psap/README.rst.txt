@@ -46,6 +46,9 @@ psap
    :depends versioneer: ``>=0.19``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

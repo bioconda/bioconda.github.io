@@ -52,6 +52,9 @@ bioconductor-splinetimer
    :depends r-longitudinal: ``>=1.1.12``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

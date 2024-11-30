@@ -931,7 +931,7 @@ which pulls in many other dependencies. In most cases, using
 <p class="admonition-title">Recipe should have a run_exports statement that ensures correct pinning in downstream packages</p>
 <p>This ensures that the package is automatically pinned to a compatible version if
 it is used as a dependency in another recipe.
-This is a conservative strategy to avoid breakage. We came to the 
+This is a conservative strategy to avoid breakage. We came to the
 conclusion that it is better to require this little overhead instead
 of trying to fix things when they break later on.
 This holds for compiled packages (in particular those with shared
@@ -945,7 +945,7 @@ introduce breaking changes in their APIs or command line interfaces.</p>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">myrecipe</span></code> being the name of the recipe (you can also use the name variable).
-This will by default pin the package to <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0,&lt;2.0.0</span></code> where <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code> is the 
+This will by default pin the package to <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0,&lt;2.0.0</span></code> where <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code> is the
 version of the package at build time of the one depending on it and <code class="docutils literal notranslate"><span class="pre">&lt;2.0.0</span></code> constrains
 it to be less than the next major (i.e. potentially not backward compatible) version.</p>
 <p><strong>Case 2:</strong> If the software version starts with a 0 (e.g. <code class="docutils literal notranslate"><span class="pre">0.3.2</span></code>) semantic versioning allows breaking changes in minor releases. Hence, you should use:</p>
@@ -988,7 +988,7 @@ a package is being build. Please use:</p>
      <span class="o">-</span> <span class="p">{{</span> <span class="n">compiler</span><span class="p">(</span><span class="s1">&#39;language&#39;</span><span class="p">)</span> <span class="p">}}</span>
 </pre></div>
 </div>
-<p>Where language is one of <code class="docutils literal notranslate"><span class="pre">c</span></code>, <code class="docutils literal notranslate"><span class="pre">cxx</span></code>, <code class="docutils literal notranslate"><span class="pre">fortran</span></code>, <code class="docutils literal notranslate"><span class="pre">go</span></code> or
+<p>Where language is one of <code class="docutils literal notranslate"><span class="pre">c</span></code>, <code class="docutils literal notranslate"><span class="pre">cxx</span></code>, <code class="docutils literal notranslate"><span class="pre">fortran</span></code>, <code class="docutils literal notranslate"><span class="pre">rust</span></code>, <code class="docutils literal notranslate"><span class="pre">go</span></code> or
 <code class="docutils literal notranslate"><span class="pre">cgo</span></code>. You can specify multiple compilers if needed.</p>
 <p>There is no need to add <code class="docutils literal notranslate"><span class="pre">libgfortran</span></code>, <code class="docutils literal notranslate"><span class="pre">libgcc</span></code>, or
 <code class="docutils literal notranslate"><span class="pre">toolchain</span></code> to the dependencies as this will be handled by
@@ -1217,11 +1217,13 @@ recipe.</p>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
     let id = window.location.hash.substring(1);
-    let elem = document.getElementById(id);
-    if (elem != null) {
-        // Get the closest "details" element and open it
-        closest = elem.closest("details");
-        if (closest) closest.open = true;
+    if (id) {
+        let elem = document.getElementById(id);
+        if (elem != null) {
+            // Get the closest "details" element and open it
+            closest = elem.closest("details");
+            if (closest) closest.open = true;
+        }
     }
 </script>
 

@@ -37,6 +37,9 @@ perl-sub-attribute
    :depends perl-class-trigger: ``0.15.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

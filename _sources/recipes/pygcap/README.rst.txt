@@ -39,6 +39,9 @@ pygcap
    :depends ruamel.yaml: ``0.16.12.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

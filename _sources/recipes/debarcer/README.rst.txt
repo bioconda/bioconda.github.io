@@ -45,6 +45,9 @@ debarcer
    :depends seaborn: ``>=0.9,<=0.10``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

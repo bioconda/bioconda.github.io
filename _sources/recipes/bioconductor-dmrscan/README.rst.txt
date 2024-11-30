@@ -50,6 +50,9 @@ bioconductor-dmrscan
    :depends r-rcpproll: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

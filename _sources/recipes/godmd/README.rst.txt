@@ -39,6 +39,9 @@ godmd
    :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

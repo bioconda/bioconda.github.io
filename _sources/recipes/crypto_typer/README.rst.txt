@@ -38,6 +38,9 @@ crypto_typer
    :depends python: ``>=3.4``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -45,6 +45,9 @@ staphb_toolkit
    :depends spython: ``>=0.0.73``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -50,6 +50,9 @@ bioconductor-switchbox
    :depends r-proc: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

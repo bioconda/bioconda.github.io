@@ -35,6 +35,9 @@ libmuscle
    :depends libgcc-ng: ``>=4.9``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

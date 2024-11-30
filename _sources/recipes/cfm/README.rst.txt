@@ -41,6 +41,9 @@ cfm
    :depends rdkit: ``2018.09.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

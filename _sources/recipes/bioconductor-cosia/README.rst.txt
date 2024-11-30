@@ -56,6 +56,9 @@ bioconductor-cosia
    :depends r-tidyselect: ``>=1.1.2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

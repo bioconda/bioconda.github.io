@@ -37,6 +37,9 @@ rappas
    :depends phyml: ``3.3.20190909.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

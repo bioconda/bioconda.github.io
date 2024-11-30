@@ -51,6 +51,9 @@ hybran
    :depends tbl2asn-forever: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

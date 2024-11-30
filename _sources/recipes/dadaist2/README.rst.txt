@@ -61,6 +61,9 @@ dadaist2
    :depends seqfu: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

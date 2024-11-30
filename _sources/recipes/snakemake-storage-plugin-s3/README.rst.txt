@@ -42,6 +42,9 @@ snakemake-storage-plugin-s3
    :depends urllib3: ``>=2.0,<2.2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

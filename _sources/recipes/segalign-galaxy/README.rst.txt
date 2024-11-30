@@ -43,6 +43,9 @@ segalign-galaxy
    :depends segalign-full: ``0.1.2.7.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

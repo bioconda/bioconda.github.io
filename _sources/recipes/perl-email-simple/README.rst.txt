@@ -36,6 +36,9 @@ perl-email-simple
    :depends perl-email-date-format: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

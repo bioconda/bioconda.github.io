@@ -41,6 +41,9 @@ bioconductor-biocthis
    :depends r-usethis: ``>=2.0.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -38,6 +38,9 @@ group_humann2_uniref_abundances_to_go
    :depends wget: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -73,6 +73,9 @@ biobb_ml
    :depends tensorflow: ``>=2.4.2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

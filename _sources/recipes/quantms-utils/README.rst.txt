@@ -57,6 +57,9 @@ quantms-utils
    :depends sdrf-pipelines: ``>=0.0.31``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

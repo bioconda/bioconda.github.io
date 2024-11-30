@@ -42,6 +42,9 @@ mcross
    :depends r-gridextra: ``>=2.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

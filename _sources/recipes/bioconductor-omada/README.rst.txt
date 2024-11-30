@@ -50,6 +50,9 @@ bioconductor-omada
    :depends r-reshape: ``>=0.8.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

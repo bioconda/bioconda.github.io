@@ -40,6 +40,9 @@ perl-bio-cigar
    :depends perl-type-tiny: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

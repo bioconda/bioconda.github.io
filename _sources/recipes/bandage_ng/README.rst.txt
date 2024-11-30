@@ -43,6 +43,9 @@ bandage_ng
    :depends xorg-libxext: ``>=1.3.4,<2.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

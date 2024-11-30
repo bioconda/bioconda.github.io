@@ -44,6 +44,9 @@ ghost-tree
    :depends sumaclust: ``>=1.0.31``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -47,6 +47,9 @@ perl-bio-rna-rnaalisplit
    :depends viennarna: ``>=2.4.9``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

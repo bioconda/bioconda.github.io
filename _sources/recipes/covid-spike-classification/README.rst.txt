@@ -47,6 +47,9 @@ covid-spike-classification
    :depends tracy: ``>=0.5.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

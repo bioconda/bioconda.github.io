@@ -38,6 +38,9 @@ simug
    :depends perl-pod-usage: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

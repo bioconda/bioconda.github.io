@@ -46,6 +46,9 @@ cap-mirseq
    :depends vcftools: ``>=0.1.11``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

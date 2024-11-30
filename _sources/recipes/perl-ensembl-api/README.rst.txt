@@ -39,6 +39,9 @@ perl-ensembl-api
    :depends perl-ensembl-variation: ``98.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

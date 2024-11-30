@@ -40,6 +40,9 @@ perl-moosex-role-parameterized
    :depends perl-namespace-clean: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

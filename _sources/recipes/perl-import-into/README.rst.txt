@@ -36,6 +36,9 @@ perl-import-into
    :depends perl-module-runtime: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

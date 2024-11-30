@@ -43,6 +43,9 @@ noah-cli
    :depends typer: ``>=0.9.0,<0.10.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

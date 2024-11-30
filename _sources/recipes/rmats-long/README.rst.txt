@@ -45,6 +45,9 @@ rmats-long
    :depends r-stringi: ``>=1.7.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

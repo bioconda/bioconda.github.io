@@ -40,6 +40,9 @@ mpa-portable
    :depends xtandem: ``15.12.15.2``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

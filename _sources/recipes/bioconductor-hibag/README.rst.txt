@@ -49,6 +49,9 @@ bioconductor-hibag
    :depends r-rcppparallel: ``>=5.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

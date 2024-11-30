@@ -37,6 +37,9 @@ perl-test-subcalls
    :depends perl-hook-lexwrap: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

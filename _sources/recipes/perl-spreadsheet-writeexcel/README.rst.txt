@@ -37,6 +37,9 @@ perl-spreadsheet-writeexcel
    :depends perl-parse-recdescent: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

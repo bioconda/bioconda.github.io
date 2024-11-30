@@ -36,6 +36,9 @@ perl-graphics-colorobject
    :depends perl-graphics-colornames: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

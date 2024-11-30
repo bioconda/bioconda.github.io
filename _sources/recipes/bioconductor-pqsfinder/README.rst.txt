@@ -58,6 +58,9 @@ bioconductor-pqsfinder
    :depends r-rcpp: ``>=0.12.3``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

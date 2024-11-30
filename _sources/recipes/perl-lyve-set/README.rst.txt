@@ -38,6 +38,9 @@ perl-lyve-set
    :depends perl-number-range: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

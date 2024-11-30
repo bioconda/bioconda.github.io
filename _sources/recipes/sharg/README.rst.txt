@@ -39,6 +39,9 @@ sharg
    :depends yaml-cpp: ``>=0.8.0,<0.9.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

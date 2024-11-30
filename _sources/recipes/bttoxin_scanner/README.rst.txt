@@ -43,6 +43,9 @@ bttoxin_scanner
    :depends pgcgap: ``>=1.0.13``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

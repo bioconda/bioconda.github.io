@@ -40,6 +40,9 @@ perl-bio-rna-barmap
    :depends perl-test-exception: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

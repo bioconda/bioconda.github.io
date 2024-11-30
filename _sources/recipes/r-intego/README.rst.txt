@@ -37,6 +37,9 @@ r-intego
    :depends r-factominer: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

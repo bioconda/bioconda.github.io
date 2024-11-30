@@ -36,6 +36,9 @@ perl-math-spline
    :depends perl-math-derivative: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

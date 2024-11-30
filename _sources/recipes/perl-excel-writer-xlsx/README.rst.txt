@@ -45,6 +45,9 @@ perl-excel-writer-xlsx
    :depends perl-file-temp: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

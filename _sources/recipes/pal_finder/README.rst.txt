@@ -41,6 +41,9 @@ pal_finder
    :depends primer3: ``2.0.0a``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

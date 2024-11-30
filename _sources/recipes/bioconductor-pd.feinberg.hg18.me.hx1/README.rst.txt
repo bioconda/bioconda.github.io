@@ -51,6 +51,9 @@ bioconductor-pd.feinberg.hg18.me.hx1
    :depends r-rsqlite: ``>=0.7-1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -57,6 +57,9 @@ masurca
    :depends yaggo: ``>=1.5.10,<1.6.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

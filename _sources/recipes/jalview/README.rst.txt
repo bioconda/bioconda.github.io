@@ -50,6 +50,9 @@ jalview
    :depends xorg-libxtst: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

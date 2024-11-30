@@ -38,6 +38,9 @@ perl-string-truncate
    :depends perl-sub-install: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

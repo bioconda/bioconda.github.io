@@ -38,6 +38,9 @@ perl-json-validator
    :depends perl-yaml-pp: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

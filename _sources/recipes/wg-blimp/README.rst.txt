@@ -58,6 +58,9 @@ wg-blimp
    :depends snakemake-minimal: ``>=5.8``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

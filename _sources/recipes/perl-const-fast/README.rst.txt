@@ -38,6 +38,9 @@ perl-const-fast
    :depends perl-sub-exporter-progressive: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

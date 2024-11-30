@@ -53,6 +53,9 @@ tcdemux
    :depends snakemake: ``>=7.32.4,<8.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

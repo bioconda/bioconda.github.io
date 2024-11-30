@@ -39,6 +39,9 @@ perl-test-sys-info
    :depends perl-exporter: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

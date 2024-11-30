@@ -47,6 +47,9 @@ binny
    :depends snakemake: ``7.19.0.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

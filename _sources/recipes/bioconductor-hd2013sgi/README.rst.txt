@@ -53,6 +53,9 @@ bioconductor-hd2013sgi
    :depends r-vcd: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

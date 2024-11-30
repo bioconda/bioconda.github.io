@@ -41,6 +41,9 @@ odose
    :depends rpy2: ``>=2.8.5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -51,6 +51,9 @@ pymlst
    :depends ucsc-blat: ``>=360``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

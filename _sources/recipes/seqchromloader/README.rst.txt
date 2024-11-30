@@ -56,6 +56,9 @@ seqchromloader
    :depends webdataset: ``>=0.2.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

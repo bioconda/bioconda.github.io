@@ -39,6 +39,9 @@ locus_processing
    :depends requests: ``>=2.18.1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

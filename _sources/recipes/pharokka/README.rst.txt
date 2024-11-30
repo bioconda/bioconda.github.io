@@ -66,6 +66,9 @@ pharokka
    :depends trnascan-se: ``>=2.0.9``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

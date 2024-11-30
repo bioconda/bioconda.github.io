@@ -39,6 +39,9 @@ perl-test2-suite
    :depends perl-term-table: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

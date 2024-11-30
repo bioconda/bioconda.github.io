@@ -40,6 +40,9 @@ perl-test-file-contents
    :depends perl-text-diff: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

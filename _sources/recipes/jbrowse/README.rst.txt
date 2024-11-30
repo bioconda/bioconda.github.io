@@ -70,6 +70,9 @@ jbrowse
    :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

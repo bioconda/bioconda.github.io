@@ -45,6 +45,9 @@ perl-cg-pipeline
    :depends perl-xml-dom-xpath: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

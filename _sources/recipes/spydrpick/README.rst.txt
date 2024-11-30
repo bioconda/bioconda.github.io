@@ -39,6 +39,9 @@ spydrpick
    :depends tbb: ``>=2019.9,<2021.0.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

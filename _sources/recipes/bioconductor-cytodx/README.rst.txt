@@ -49,6 +49,9 @@ bioconductor-cytodx
    :depends r-rpart.plot: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

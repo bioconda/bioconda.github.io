@@ -37,6 +37,9 @@ perl-moosex-app-role-log4perl
    :depends perl-moosex-app: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

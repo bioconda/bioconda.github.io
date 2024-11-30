@@ -60,6 +60,9 @@ bioconductor-adacgh2
    :depends r-waveslim: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

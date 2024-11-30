@@ -29,7 +29,7 @@ pyjess
       
       
 
-      ``0.4.0-0``,  ``0.3.3-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``
 
       
 
@@ -38,6 +38,13 @@ pyjess
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -84,7 +91,7 @@ pyjess
 
     <script>
         var package = "pyjess";
-        var versions = ["0.4.0","0.3.3"];
+        var versions = ["0.4.1","0.4.0","0.3.3"];
     </script>
 
 

@@ -38,6 +38,9 @@ bioconductor-miqc
    :depends r-ggplot2: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

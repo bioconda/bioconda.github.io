@@ -42,6 +42,9 @@ lcfit
    :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

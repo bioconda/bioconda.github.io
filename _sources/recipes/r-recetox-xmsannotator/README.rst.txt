@@ -57,6 +57,9 @@ r-recetox-xmsannotator
    :depends r-wgcna: ``>=1.69``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

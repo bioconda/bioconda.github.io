@@ -36,6 +36,9 @@ ltr_finder_parallel
    :depends ltr_finder: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

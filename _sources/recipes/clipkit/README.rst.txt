@@ -49,6 +49,9 @@ clipkit
    :depends tqdm: ``>=4.45.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

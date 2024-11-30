@@ -47,6 +47,9 @@ bioconductor-rbcbook1
    :depends r-rpart: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

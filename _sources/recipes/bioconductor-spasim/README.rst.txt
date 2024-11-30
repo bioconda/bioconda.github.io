@@ -42,6 +42,9 @@ bioconductor-spasim
    :depends r-spatstat.random: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

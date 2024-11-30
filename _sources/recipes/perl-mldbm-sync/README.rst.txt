@@ -37,6 +37,9 @@ perl-mldbm-sync
    :depends perl-tie-cache: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

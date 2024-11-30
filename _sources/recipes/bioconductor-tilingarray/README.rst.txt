@@ -57,6 +57,9 @@ bioconductor-tilingarray
    :depends r-strucchange: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -36,6 +36,9 @@ perl-pdf-api2
    :depends perl-font-ttf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

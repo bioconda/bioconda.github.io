@@ -53,6 +53,9 @@ physiofit
    :depends streamlit: ``>=1.20.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

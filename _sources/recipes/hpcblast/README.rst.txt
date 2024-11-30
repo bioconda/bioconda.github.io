@@ -38,6 +38,9 @@ hpcblast
    :depends runjob: ``>=2.10.5``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

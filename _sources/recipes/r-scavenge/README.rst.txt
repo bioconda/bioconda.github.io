@@ -41,6 +41,9 @@ r-scavenge
    :depends r-rann: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -40,6 +40,9 @@ clinker
    :depends star: ``>=2.5.3a``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

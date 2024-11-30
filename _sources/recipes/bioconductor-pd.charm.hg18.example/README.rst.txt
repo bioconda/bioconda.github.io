@@ -51,6 +51,9 @@ bioconductor-pd.charm.hg18.example
    :depends r-rsqlite: ``>=0.7-1``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

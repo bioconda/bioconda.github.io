@@ -42,6 +42,9 @@ snakemake-executor-plugin-azure-batch
    :depends snakemake-interface-executor-plugins: ``>=8.1.1,<9.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

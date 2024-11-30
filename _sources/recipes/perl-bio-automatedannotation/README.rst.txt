@@ -57,6 +57,9 @@ perl-bio-automatedannotation
    :depends prodigal: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

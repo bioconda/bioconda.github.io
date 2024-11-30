@@ -38,6 +38,9 @@ perl-array-set
    :depends perl-tie-ixhash: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

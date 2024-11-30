@@ -55,6 +55,9 @@ gambit
    :depends sqlalchemy: ``>=1.1,<2.dev0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

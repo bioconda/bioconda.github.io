@@ -37,6 +37,9 @@ perl-image-info
    :depends perl-xml-libxml: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

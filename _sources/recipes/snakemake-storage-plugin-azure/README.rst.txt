@@ -48,6 +48,9 @@ snakemake-storage-plugin-azure
    :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

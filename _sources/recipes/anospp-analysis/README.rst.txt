@@ -46,6 +46,9 @@ anospp-analysis
    :depends tensorflow-base: ``>=2.12``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

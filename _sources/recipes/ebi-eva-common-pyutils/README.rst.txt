@@ -40,6 +40,9 @@ ebi-eva-common-pyutils
    :depends retry: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

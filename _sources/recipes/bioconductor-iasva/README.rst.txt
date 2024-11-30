@@ -47,6 +47,9 @@ bioconductor-iasva
    :depends r-irlba: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

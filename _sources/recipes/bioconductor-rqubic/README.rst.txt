@@ -51,6 +51,9 @@ bioconductor-rqubic
    :depends r-biclust: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

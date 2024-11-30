@@ -41,6 +41,9 @@ r-ccqtl
    :depends r-qtl2: ``0.30``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

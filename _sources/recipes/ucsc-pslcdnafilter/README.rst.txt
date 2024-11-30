@@ -52,6 +52,9 @@ ucsc-pslcdnafilter
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

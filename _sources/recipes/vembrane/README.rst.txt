@@ -48,6 +48,9 @@ vembrane
    :depends pyyaml: ``>=6.0,<7``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

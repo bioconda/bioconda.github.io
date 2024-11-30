@@ -52,6 +52,9 @@ wisecondorx
    :depends scipy: ``1.13``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

@@ -61,6 +61,9 @@ bioconductor-enrichmentbrowser
    :depends r-hwriter: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

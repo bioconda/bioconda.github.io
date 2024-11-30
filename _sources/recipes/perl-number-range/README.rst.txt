@@ -36,6 +36,9 @@ perl-number-range
    :depends perl-extutils-makemaker: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

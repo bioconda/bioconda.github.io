@@ -65,6 +65,9 @@ bioconductor-spatialcpie
    :depends r-zeallot: ``>=0.1.0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

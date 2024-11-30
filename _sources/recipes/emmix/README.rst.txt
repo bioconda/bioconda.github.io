@@ -36,6 +36,9 @@ emmix
    :depends libgfortran-ng: ``>=7,<8.0a0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

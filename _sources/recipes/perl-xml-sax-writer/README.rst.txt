@@ -38,6 +38,9 @@ perl-xml-sax-writer
    :depends perl-xml-sax-base: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

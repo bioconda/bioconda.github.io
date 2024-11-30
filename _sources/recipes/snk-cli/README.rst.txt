@@ -44,6 +44,9 @@ snk-cli
    :depends typer: ``>=0.9,<1.dev0``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

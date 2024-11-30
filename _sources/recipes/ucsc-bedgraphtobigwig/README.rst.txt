@@ -52,6 +52,13 @@ ucsc-bedgraphtobigwig
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :requirements:
 
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

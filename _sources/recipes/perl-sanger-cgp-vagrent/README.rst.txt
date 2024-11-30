@@ -49,6 +49,9 @@ perl-sanger-cgp-vagrent
    :depends perl-sub-exporter-progressive: ``0.001013.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

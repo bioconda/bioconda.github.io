@@ -42,6 +42,9 @@ fred2
    :depends svmlight: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

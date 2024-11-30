@@ -36,6 +36,9 @@ fiji-omero_ij
    :depends fiji: ``>=20220414``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

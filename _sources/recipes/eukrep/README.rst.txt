@@ -39,6 +39,9 @@ eukrep
    :depends scikit-learn: ``0.19.2.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

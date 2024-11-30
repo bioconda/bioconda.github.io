@@ -73,6 +73,9 @@ comparative-annotation-toolkit
    :depends ucsc-transmappsltogenepred: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

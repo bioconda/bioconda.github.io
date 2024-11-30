@@ -50,6 +50,9 @@ bioconductor-methinheritsim
    :depends r-msm: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

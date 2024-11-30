@@ -37,6 +37,9 @@ perl-moosex-singleton
    :depends perl-moose: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

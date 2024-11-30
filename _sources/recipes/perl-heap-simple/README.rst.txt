@@ -38,6 +38,9 @@ perl-heap-simple
    :depends perl-heap-simple-xs: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

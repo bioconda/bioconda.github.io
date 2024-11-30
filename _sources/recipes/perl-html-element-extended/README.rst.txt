@@ -36,6 +36,9 @@ perl-html-element-extended
    :depends perl-html-tree: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

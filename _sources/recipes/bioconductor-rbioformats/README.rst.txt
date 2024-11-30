@@ -39,6 +39,9 @@ bioconductor-rbioformats
    :depends r-rjava: ``>=0.9-6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

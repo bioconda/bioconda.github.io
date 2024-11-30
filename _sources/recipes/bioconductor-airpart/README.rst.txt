@@ -55,6 +55,9 @@ bioconductor-airpart
    :depends r-smurf: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

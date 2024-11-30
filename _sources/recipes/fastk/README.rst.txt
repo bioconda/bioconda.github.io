@@ -27,7 +27,7 @@ fastk
       
       
 
-      ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0.0-1``,  ``1.0-1``,  ``1.0-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0.0-1``,  ``1.0-1``,  ``1.0.0-0``,  ``1.0-0``
 
       
 
@@ -38,6 +38,13 @@ fastk
    :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 

@@ -43,6 +43,9 @@ bioconductor-spectra
    :depends r-fs: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

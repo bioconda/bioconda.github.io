@@ -27,7 +27,7 @@ fairy
       
       
 
-      ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
+      ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
 
@@ -35,6 +35,13 @@ fairy
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
    :requirements:
+
+   :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -81,7 +88,7 @@ fairy
 
     <script>
         var package = "fairy";
-        var versions = ["0.5.7","0.5.5","0.5.4","0.5.3","0.5.2"];
+        var versions = ["0.5.7","0.5.7","0.5.5","0.5.4","0.5.3"];
     </script>
 
 

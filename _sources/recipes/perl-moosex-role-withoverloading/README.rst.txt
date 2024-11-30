@@ -47,6 +47,9 @@ perl-moosex-role-withoverloading
    :depends perl-package-deprecationmanager: ``0.18.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

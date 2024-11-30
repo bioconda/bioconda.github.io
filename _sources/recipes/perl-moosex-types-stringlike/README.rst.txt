@@ -36,6 +36,9 @@ perl-moosex-types-stringlike
    :depends perl-moosex-types: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

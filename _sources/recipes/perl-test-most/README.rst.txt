@@ -40,6 +40,9 @@ perl-test-most
    :depends perl-test-warn: 
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

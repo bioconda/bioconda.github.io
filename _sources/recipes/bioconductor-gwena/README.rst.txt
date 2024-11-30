@@ -52,6 +52,9 @@ bioconductor-gwena
    :depends r-wgcna: ``>=1.67``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

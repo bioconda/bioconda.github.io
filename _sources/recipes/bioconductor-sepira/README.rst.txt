@@ -45,6 +45,9 @@ bioconductor-sepira
    :depends r-corpcor: ``>=1.6.9``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

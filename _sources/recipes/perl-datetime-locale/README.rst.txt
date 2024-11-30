@@ -53,6 +53,9 @@ perl-datetime-locale
    :depends perl-test2-plugin-nowarnings: ``0.09.*``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager

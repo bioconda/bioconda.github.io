@@ -36,6 +36,9 @@ pygvcf2coverage
    :depends python: ``>=3.6``
    :requirements:
 
+   :additional platforms:
+      
+
    .. rubric:: Installation
 
   You need a conda-compatible package manager
