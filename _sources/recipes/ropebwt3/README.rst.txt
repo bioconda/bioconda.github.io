@@ -13,7 +13,7 @@ ropebwt3
    Constructs the FM\-index of a large DNA sequence set and searches for matches against the FM\-index.
 
    :homepage: https://github.com/lh3/ropebwt3
-   :documentation: https://github.com/lh3/ropebwt3/blob/v3.8/README.md
+   :documentation: https://github.com/lh3/ropebwt3/blob/v3.9/README.md
    
    :license: MIT / MIT
    :recipe: /`ropebwt3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt3/meta.yaml>`_
@@ -29,14 +29,14 @@ ropebwt3
       
       
 
-      ``3.8-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4-0``,  ``3.3-0``
+      ``3.9-0``,  ``3.8-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4-0``,  ``3.3-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ ropebwt3
 
     <script>
         var package = "ropebwt3";
-        var versions = ["3.8","3.7","3.6","3.5","3.4"];
+        var versions = ["3.9","3.8","3.7","3.6","3.5"];
     </script>
 
 

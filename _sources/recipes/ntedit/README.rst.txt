@@ -31,10 +31,10 @@ ntedit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -45,11 +45,11 @@ ntedit
    
    :depends boost-cpp: 
    :depends btllib: ``>=1.7.3,<2.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends ntcard: 
-   :depends nthits: ``>=1.0.0``
+   :depends ntstat: ``>=1.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python_abi: ``3.12.* *_cp312``
    :depends snakemake-minimal: 
@@ -107,7 +107,7 @@ ntedit
 
     <script>
         var package = "ntedit";
-        var versions = ["2.1.0","2.0.3","2.0.2","2.0.2","2.0.2"];
+        var versions = ["2.1.0","2.1.0","2.0.3","2.0.2","2.0.2"];
     </script>
 
 

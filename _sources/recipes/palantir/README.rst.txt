@@ -29,7 +29,7 @@ palantir
       
       
 
-      ``1.3.4-0``,  ``1.3.3-0``
+      ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.3-0``
 
       
 
@@ -98,7 +98,7 @@ palantir
 
     <script>
         var package = "palantir";
-        var versions = ["1.3.4","1.3.3"];
+        var versions = ["1.3.6","1.3.4","1.3.3"];
     </script>
 
 
