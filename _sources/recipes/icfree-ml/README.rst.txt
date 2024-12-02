@@ -26,9 +26,17 @@ icfree-ml
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  </span></summary>
+      
 
+      ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ icfree-ml
 
     <script>
         var package = "icfree-ml";
-        var versions = ["2.5.2","2.5.1","2.5.0","2.4.0","2.3.3"];
+        var versions = ["2.6.0","2.5.2","2.5.1","2.5.0","2.4.0"];
     </script>
 
 

@@ -35,24 +35,24 @@ gambit
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``1.1.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
-   :depends alembic: ``>=1.0``
+   :depends _openmp_mutex: ``>=4.5``
    :depends attrs: ``>=20``
-   :depends biopython: ``>=1.69``
-   :depends cattrs: ``>=1.0``
+   :depends biopython: ``>=1.79``
+   :depends cattrs: ``>=23.2``
    :depends click: ``>=7.0``
    :depends h5py: ``>=3.0``
-   :depends libgcc-ng: ``>=12``
-   :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends libgcc: ``>=13``
+   :depends numpy: ``>=1.13,<2``
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
    :depends scipy: ``>=1.7``
-   :depends setuptools: 
-   :depends sqlalchemy: ``>=1.1,<2.dev0``
+   :depends sqlalchemy: ``>=1.4``
+   :depends typing-extensions: ``>=4``
    :requirements:
 
    :additional platforms:
@@ -103,7 +103,7 @@ gambit
 
     <script>
         var package = "gambit";
-        var versions = ["1.0.1","1.0.1","1.0.0","0.5.1","0.5.0"];
+        var versions = ["1.1.0","1.0.1","1.0.1","1.0.0","0.5.1"];
     </script>
 
 
