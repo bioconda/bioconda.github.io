@@ -13,7 +13,7 @@ quota_anchor
    Strand and WGD aware syntenic gene identification
 
    :homepage: https://github.com/baoxingsong/quota_Anchor
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`quota_anchor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quota_anchor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quota_anchor/meta.yaml>`_
 
    Strand and WGD aware syntenic gene identification for comparative genomics
@@ -27,7 +27,7 @@ quota_anchor
       
       
 
-      ``0.0.1b1-0``,  ``0.0.1a1-0``,  ``0.0.1a0-0``
+      ``0.0.1rc-0``,  ``0.0.1b2-1``,  ``0.0.1b2-0``,  ``0.0.1b1-0``,  ``0.0.1a1-0``,  ``0.0.1a0-0``
 
       
 
@@ -100,7 +100,7 @@ quota_anchor
 
     <script>
         var package = "quota_anchor";
-        var versions = ["0.0.1b1","0.0.1a1","0.0.1a0"];
+        var versions = ["0.0.1rc","0.0.1b2","0.0.1b2","0.0.1b1","0.0.1a1"];
     </script>
 
 

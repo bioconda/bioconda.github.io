@@ -35,12 +35,12 @@ cadd-scripts
       
       
 
-      ``1.7.2-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.post1-0``,  ``1.6-1``,  ``1.6-0``
+      ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6.post1-0``,  ``1.6-1``,  ``1.6-0``
 
       
 
    
-   :depends snakemake: ``>=4.0``
+   :depends snakemake: ``>=8.25.2``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ cadd-scripts
 
     <script>
         var package = "cadd-scripts";
-        var versions = ["1.7.2","1.7.1","1.7","1.6.post1","1.6"];
+        var versions = ["1.7.2","1.7.2","1.7.1","1.7","1.6.1"];
     </script>
 
 

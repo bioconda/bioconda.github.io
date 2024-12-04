@@ -35,7 +35,7 @@ gambit
       
       
 
-      ``1.1.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -48,14 +48,18 @@ gambit
    :depends h5py: ``>=3.0``
    :depends libgcc: ``>=13``
    :depends numpy: ``>=1.13,<2``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: ``>=1.7``
    :depends sqlalchemy: ``>=1.4``
    :depends typing-extensions: ``>=4``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +107,7 @@ gambit
 
     <script>
         var package = "gambit";
-        var versions = ["1.1.0","1.0.1","1.0.1","1.0.0","0.5.1"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.0.1","1.0.1"];
     </script>
 
 

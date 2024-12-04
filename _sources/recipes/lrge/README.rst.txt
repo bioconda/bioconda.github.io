@@ -27,14 +27,14 @@ lrge
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends __glibc: ``>=2.17,<3.0.a0``
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -89,7 +89,7 @@ lrge
 
     <script>
         var package = "lrge";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

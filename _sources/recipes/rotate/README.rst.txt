@@ -27,16 +27,20 @@ rotate
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ rotate
 
     <script>
         var package = "rotate";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

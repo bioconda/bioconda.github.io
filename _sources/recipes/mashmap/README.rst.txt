@@ -13,8 +13,11 @@ mashmap
    A fast approximate aligner for long DNA sequences.
 
    :homepage: https://github.com/marbl/MashMap
+   :documentation: https://github.com/marbl/MashMap/blob/v3.1.3/README.md
+   
    :license: Custom
    :recipe: /`mashmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashmap/meta.yaml>`_
+   :links: biotools: :biotools:`mashmap`, usegalaxy-eu: :usegalaxy-eu:`mashmap`, doi: :doi:`10.1101/2023.05.16.540882`, doi: :doi:`10.1093/bioinformatics/bty597`, doi: :doi:`10.1007/978-3-319-56970-3_5`
 
    
 
@@ -28,10 +31,10 @@ mashmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.3-1</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.3-2</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  </span></summary>
       
 
-      ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.0-1``,  ``1.0-0``
+      ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -42,18 +45,18 @@ mashmap
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openblas: 
-   :depends zlib: 
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +104,7 @@ mashmap
 
     <script>
         var package = "mashmap";
-        var versions = ["3.1.3","3.1.3","3.1.2","3.1.1","3.1.0"];
+        var versions = ["3.1.3","3.1.3","3.1.3","3.1.2","3.1.1"];
     </script>
 
 

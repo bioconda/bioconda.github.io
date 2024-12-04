@@ -10,9 +10,10 @@ somaticseq
    :replaces_section_title:
    :noindex:
 
-   An ensemble approach to accurately detect somatic mutations
+   An ensemble approach to accurately detect somatic mutations.
 
-   :homepage: https://bioinform.github.io/somaticseq/
+   :homepage: https://bioinform.github.io/somaticseq
+   :developer docs: https://github.com/bioinform/somaticseq
    :license: BSD / BSD-2-Clause
    :recipe: /`somaticseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somaticseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somaticseq/meta.yaml>`_
 
@@ -28,10 +29,10 @@ somaticseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.0-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.2-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.2-0</code>,  <code>3.6.0-0</code>,  </span></summary>
       
 
-      ``3.8.0-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.2-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``2.8.1-0``
+      ``3.9.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.2-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``2.8.1-0``
 
       
       .. raw:: html
@@ -48,7 +49,7 @@ somaticseq
    :depends pandas: 
    :depends pydantic: 
    :depends pysam: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.11``
    :depends r-ada: 
    :depends r-base: 
    :depends scalpel: 
@@ -106,7 +107,7 @@ somaticseq
 
     <script>
         var package = "somaticseq";
-        var versions = ["3.8.0","3.7.4","3.7.3","3.7.2","3.7.1"];
+        var versions = ["3.9.1","3.8.0","3.7.4","3.7.3","3.7.2"];
     </script>
 
 

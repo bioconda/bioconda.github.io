@@ -27,15 +27,15 @@ cell2cell
       
       
 
-      ``0.7.4-1``,  ``0.7.4-0``
+      ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
 
       
 
    
    :depends gseapy: ``1.0.3``
    :depends kneed: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: ``>=3.2.0,<3.7.3``
    :depends networkx: ``>=2.3``
    :depends numpy: ``>=1.16,<2.0``
@@ -55,6 +55,10 @@ cell2cell
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +106,7 @@ cell2cell
 
     <script>
         var package = "cell2cell";
-        var versions = ["0.7.4","0.7.4"];
+        var versions = ["0.7.4","0.7.4","0.7.4"];
     </script>
 
 

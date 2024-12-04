@@ -10,7 +10,7 @@ apscale
    :replaces_section_title:
    :noindex:
 
-   Advanced Pipeline for Simple yet Comprehensive AnaLysEs of DNA metabarcoding data
+   Advanced Pipeline for Simple yet Comprehensive AnaLysEs of DNA metabarcoding data.
 
    :homepage: https://github.com/DominikBuchner/apscale
    :license: MIT / MIT
@@ -27,7 +27,7 @@ apscale
       
       
 
-      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.6.3-0``,  ``1.5.5-0``
+      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.6.3-0``,  ``1.5.5-0``
 
       
 
@@ -94,7 +94,7 @@ apscale
 
     <script>
         var package = "apscale";
-        var versions = ["2.0.3","2.0.2","2.0.0","1.7.1","1.6.3"];
+        var versions = ["2.0.4","2.0.3","2.0.2","2.0.0","1.7.1"];
     </script>
 
 

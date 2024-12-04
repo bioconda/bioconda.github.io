@@ -28,10 +28,10 @@ cramino
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.0-0</code>,  <code>0.14.5-0</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  <code>0.14.1-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.5-0</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  <code>0.14.1-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.11.1-0</code>,  </span></summary>
       
 
-      ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+      ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
 
       
       .. raw:: html
@@ -40,11 +40,15 @@ cramino
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +96,7 @@ cramino
 
     <script>
         var package = "cramino";
-        var versions = ["0.15.0","0.14.5","0.14.4","0.14.3","0.14.1"];
+        var versions = ["0.15.0","0.15.0","0.14.5","0.14.4","0.14.3"];
     </script>
 
 

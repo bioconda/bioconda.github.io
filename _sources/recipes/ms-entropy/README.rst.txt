@@ -31,10 +31,10 @@ ms-entropy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.12-0``,  ``0.9.11-0``
+      ``1.3.3-1``,  ``1.3.3-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.12-0``,  ``0.9.11-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ ms-entropy
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -51,6 +51,10 @@ ms-entropy
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +102,7 @@ ms-entropy
 
     <script>
         var package = "ms-entropy";
-        var versions = ["1.3.3","1.2.0","1.2.0","1.1.3","1.1.2"];
+        var versions = ["1.3.3","1.3.3","1.2.0","1.2.0","1.1.3"];
     </script>
 
 

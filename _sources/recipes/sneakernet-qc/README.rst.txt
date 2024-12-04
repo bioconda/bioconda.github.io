@@ -28,7 +28,7 @@ sneakernet-qc
       
       
 
-      ``0.27.0-1``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.25.0-0``
+      ``0.27.2-0``,  ``0.27.0-1``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.25.0-0``
 
       
 
@@ -53,7 +53,6 @@ sneakernet-qc
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-bioperl: 
-   :depends perl-cg-pipeline: 
    :depends perl-config-simple: 
    :depends perl-file-slurp: 
    :depends perl-gd: 
@@ -124,7 +123,7 @@ sneakernet-qc
 
     <script>
         var package = "sneakernet-qc";
-        var versions = ["0.27.0","0.27.0","0.26.0","0.25.0"];
+        var versions = ["0.27.2","0.27.0","0.27.0","0.26.0","0.25.0"];
     </script>
 
 
