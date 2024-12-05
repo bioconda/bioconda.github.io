@@ -29,10 +29,10 @@ manta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-4</code>,  <code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  </span></summary>
       
 
-      ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.29.6-0``,  ``0.29.3-0``,  ``0.29.1-0``
+      ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.29.6-0``,  ``0.29.3-0``,  ``0.29.1-0``
 
       
       .. raw:: html
@@ -41,10 +41,17 @@ manta
       
 
    
-   :depends python: ``>=2.6,<3``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +99,7 @@ manta
 
     <script>
         var package = "manta";
-        var versions = ["1.6.0","1.6.0","1.6.0","1.6.0","1.5.0"];
+        var versions = ["1.6.0","1.6.0","1.6.0","1.6.0","1.6.0"];
     </script>
 
 

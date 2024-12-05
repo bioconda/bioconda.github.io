@@ -28,7 +28,7 @@ pplacer
       
       
 
-      ``1.1.alpha19-2``,  ``1.1.alpha19-1``,  ``1.1.alpha19-0``,  ``1.1.alpha17-0``
+      ``1.1.alpha19-2``,  ``1.1.alpha19-1``,  ``1.1.alpha19-0``,  ``1.1.alpha17-3``,  ``1.1.alpha17-0``
 
       
 
@@ -83,7 +83,7 @@ pplacer
 
     <script>
         var package = "pplacer";
-        var versions = ["1.1.alpha19","1.1.alpha19","1.1.alpha19","1.1.alpha17"];
+        var versions = ["1.1.alpha19","1.1.alpha19","1.1.alpha19","1.1.alpha17","1.1.alpha17"];
     </script>
 
 

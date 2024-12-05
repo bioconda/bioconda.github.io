@@ -10,14 +10,18 @@ bamscale
    :replaces_section_title:
    :noindex:
 
-   BAMscale is a one\-step tool for either 1\) quantifying and normalizing the coverage of peaks
+   BAMscale is a one\-step tool for either 1\) quantifying and normalizing the coverage of peaks.
 
    :homepage: https://github.com/ncbi/BAMscale
+   :documentation: https://github.com/ncbi/BAMscale/wiki
+   
    :license: Public Domain
    :recipe: /`bamscale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamscale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamscale/meta.yaml>`_
+   :links: biotools: :biotools:`bamscale`
 
    BAMscale is a one\-step tool for either 1\) quantifying and normalizing the coverage of peaks or 2\)
    generated scaled BigWig files for easy visualization of commonly used DNA\-seq capture based methods.
+
 
 
 .. conda:package:: bamscale
@@ -29,10 +33,10 @@ bamscale
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.5-9</code>,  <code>0.0.5-8</code>,  <code>0.0.5-7</code>,  <code>0.0.5-6</code>,  <code>0.0.5-5</code>,  <code>0.0.5-4</code>,  <code>0.0.5-3</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.9-0</code>,  <code>0.0.5-9</code>,  <code>0.0.5-8</code>,  <code>0.0.5-7</code>,  <code>0.0.5-6</code>,  <code>0.0.5-5</code>,  <code>0.0.5-4</code>,  <code>0.0.5-3</code>,  <code>0.0.5-2</code>,  </span></summary>
       
 
-      ``0.0.5-9``,  ``0.0.5-8``,  ``0.0.5-7``,  ``0.0.5-6``,  ``0.0.5-5``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.3-0``
+      ``0.0.9-0``,  ``0.0.5-9``,  ``0.0.5-8``,  ``0.0.5-7``,  ``0.0.5-6``,  ``0.0.5-5``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -42,16 +46,19 @@ bamscale
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.20,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libbigwig: ``>=0.4.7,<0.5.0a0``
-   :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +106,7 @@ bamscale
 
     <script>
         var package = "bamscale";
-        var versions = ["0.0.5","0.0.5","0.0.5","0.0.5","0.0.5"];
+        var versions = ["0.0.9","0.0.5","0.0.5","0.0.5","0.0.5"];
     </script>
 
 

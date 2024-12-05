@@ -12,7 +12,7 @@ mustang
 
    Mustang is a program that implements an algorithm for structural alignment of multiple protein structures.
 
-   :homepage: http://lcb.infotech.monash.edu.au/mustang/
+   :homepage: https://lcb.infotech.monash.edu.au/mustang
    :license: file
    :recipe: /`mustang <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mustang>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mustang/meta.yaml>`_
    :links: biotools: :biotools:`mustang`, doi: :doi:`10.1002/prot.20921`
@@ -28,15 +28,20 @@ mustang
       
       
 
-      ``3.2.3-1``,  ``3.2.3-0``
+      ``3.2.4-0``,  ``3.2.3-1``,  ``3.2.3-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +89,7 @@ mustang
 
     <script>
         var package = "mustang";
-        var versions = ["3.2.3","3.2.3"];
+        var versions = ["3.2.4","3.2.3","3.2.3"];
     </script>
 
 

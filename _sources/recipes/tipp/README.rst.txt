@@ -10,7 +10,7 @@ tipp
    :replaces_section_title:
    :noindex:
 
-   TIPP\: A User\-Friendly Tool for De Novo Assembly of Organellar Genomes with HiFi Data
+   TIPPo\: A User\-Friendly Tool for De Novo Assembly of Organellar Genomes with HiFi Data
 
    :homepage: https://github.com/Wenfei-Xian/TIPP
    :license: GPL3 / GPL-3.0-or-later
@@ -27,7 +27,7 @@ tipp
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -35,8 +35,8 @@ tipp
    :depends bioconductor-biostrings: ``2.68.1.*``
    :depends flye: 
    :depends graphaligner: ``1.0.17.*``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libxcrypt: 
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mcl: ``22.282.*``
@@ -102,7 +102,7 @@ tipp
 
     <script>
         var package = "tipp";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

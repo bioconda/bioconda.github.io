@@ -28,7 +28,7 @@ foldmason
       
       
 
-      ``1.763a428-0``
+      ``2.7bd21ed-0``,  ``1.763a428-0``
 
       
 
@@ -37,9 +37,9 @@ foldmason
    :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 
@@ -97,7 +97,7 @@ foldmason
 
     <script>
         var package = "foldmason";
-        var versions = ["1.763a428"];
+        var versions = ["2.7bd21ed","1.763a428"];
     </script>
 
 

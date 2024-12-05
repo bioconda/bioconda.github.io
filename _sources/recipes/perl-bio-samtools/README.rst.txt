@@ -27,20 +27,25 @@ perl-bio-samtools
       
       
 
-      ``1.43-4``,  ``1.43-3``,  ``1.43-2``,  ``1.43-1``,  ``1.43-0``
+      ``1.43-5``,  ``1.43-4``,  ``1.43-3``,  ``1.43-2``,  ``1.43-1``,  ``1.43-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl-core: ``1.7.8.*``
    :depends perl-module-build: ``0.4234.*``
+   :depends samtools: ``>=0.1.19,<1.0a0``
    :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
