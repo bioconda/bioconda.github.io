@@ -12,7 +12,7 @@ scirpy
 
    A Scanpy extension for analyzing single\-cell T\-cell and B\-cell receptor \(TCR\/BCR\) sequencing data.
 
-   :homepage: https://scirpy.scverse.org/en/latest/
+   :homepage: https://scirpy.scverse.org/en/latest
    :developer docs: https://github.com/icbi-lab/scirpy
    :license: BSD / BSD-3-Clause
    :recipe: /`scirpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scirpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scirpy/meta.yaml>`_
@@ -30,10 +30,10 @@ scirpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.17.2-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.17.2-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  </span></summary>
       
 
-      ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -43,10 +43,11 @@ scirpy
 
    
    :depends adjusttext: ``>=0.7``
-   :depends airr: ``>=1.2``
+   :depends airr: ``>=1.4.1``
    :depends anndata: ``>=0.9``
    :depends awkward: ``>=2.1.0``
    :depends joblib: ``>=1.3.1``
+   :depends logomaker: 
    :depends mudata: ``>=0.2.3``
    :depends networkx: ``>=2.5``
    :depends numba: ``>=0.41.0``
@@ -111,7 +112,7 @@ scirpy
 
     <script>
         var package = "scirpy";
-        var versions = ["0.19.0","0.18.0","0.17.2","0.17.1","0.17.0"];
+        var versions = ["0.20.0","0.19.0","0.18.0","0.17.2","0.17.1"];
     </script>
 
 

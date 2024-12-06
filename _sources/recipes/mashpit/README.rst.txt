@@ -10,7 +10,7 @@ mashpit
    :replaces_section_title:
    :noindex:
 
-   Sketch\-based surveillance platform
+   Sketch\-based surveillance platform.
 
    :homepage: https://github.com/tongzhouxu/mashpit
    :license: GPL2 / GPL-2.0-or-later
@@ -27,19 +27,20 @@ mashpit
       
       
 
-      ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
+      ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
 
       
 
    
-   :depends biopython: ``1.78.*``
-   :depends dask: ``>=2024.1``
-   :depends flask: ``>=3.0``
+   :depends biopython: ``>=1.83``
+   :depends dask-core: ``>=2024.1``
+   :depends flask: ``>=3.0.3``
    :depends ncbi-datasets-cli: ``>=16.10``
    :depends ncbi-datasets-pylib: ``>=16.6.0``
-   :depends numpy: ``>=1.19.5``
-   :depends pandas: ``>=1.1.5``
+   :depends numpy: ``<2.0.0``
+   :depends pandas: ``>=2.0.3``
    :depends phytreeviz: 
+   :depends psutil: 
    :depends python: ``>=3.8``
    :depends requests: 
    :depends scikit-bio: 
@@ -97,7 +98,7 @@ mashpit
 
     <script>
         var package = "mashpit";
-        var versions = ["0.9.7","0.9.6","0.9.2"];
+        var versions = ["0.9.8","0.9.7","0.9.6","0.9.2"];
     </script>
 
 

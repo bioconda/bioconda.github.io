@@ -16,7 +16,7 @@ wgdi
    :license: BSD / BSD-2-Clause
    :recipe: /`wgdi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgdi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgdi/meta.yaml>`_
 
-   Python utility libraries on comparative genomics
+   Python utility libraries on comparative genomics.
 
 
 .. conda:package:: wgdi
@@ -28,10 +28,10 @@ wgdi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-0</code>,  </span></summary>
       
 
-      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.1-0``
+      ``0.7-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ wgdi
 
     <script>
         var package = "wgdi";
-        var versions = ["0.6.5","0.6.4","0.6.3","0.6.2","0.6.1"];
+        var versions = ["0.7","0.6.5","0.6.4","0.6.3","0.6.2"];
     </script>
 
 

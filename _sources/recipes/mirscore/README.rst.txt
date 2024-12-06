@@ -27,7 +27,7 @@ mirscore
       
       
 
-      ``0.3.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -39,6 +39,7 @@ mirscore
    :depends pysam: ``>=0.21.0``
    :depends python: ``>=3.6``
    :depends samtools: ``>=1.16``
+   :depends strucvis: ``>=0.8``
    :depends tqdm: ``>=4.65``
    :depends viennarna: ``>=2.5.1``
    :requirements:
@@ -91,7 +92,7 @@ mirscore
 
     <script>
         var package = "mirscore";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.0","0.3.0"];
     </script>
 
 

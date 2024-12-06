@@ -30,10 +30,10 @@ sistr_cmd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-5</code>,  <code>1.0.2-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-5</code>,  </span></summary>
       
 
-      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``
+      ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -45,13 +45,13 @@ sistr_cmd
    :depends blast: ``>=2.9.0``
    :depends mafft: 
    :depends mash: ``>=2.0``
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``>=1.26.4,<2.0a0``
    :depends pandas: ``>=0.22,<3``
    :depends pycurl: ``>=7.45.3,<8.0a0``
    :depends pytables: ``>=3.3.0``
    :depends python: ``>=3.4``
    :depends python-dateutil: 
-   :depends scipy: ``>=1.11.2,<1.12.0a0``
+   :depends scipy: ``>=1.13.1,<1.14.0a0``
    :requirements:
 
    :additional platforms:
@@ -102,7 +102,7 @@ sistr_cmd
 
     <script>
         var package = "sistr_cmd";
-        var versions = ["1.1.2","1.1.2","1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.1.3","1.1.2","1.1.2","1.1.1","1.1.1"];
     </script>
 
 

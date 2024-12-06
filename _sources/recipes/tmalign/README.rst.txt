@@ -28,17 +28,21 @@ tmalign
       
       
 
-      ``20170708-6``,  ``20170708-5``,  ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
+      ``20170708-7``,  ``20170708-6``,  ``20170708-5``,  ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

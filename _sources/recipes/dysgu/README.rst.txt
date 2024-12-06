@@ -28,10 +28,10 @@ dysgu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  <code>1.6.2-0</code>,  </span></summary>
       
 
-      ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
       .. raw:: html
@@ -45,10 +45,10 @@ dysgu
    :depends cython: 
    :depends htslib: ``>=1.12``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends lightgbm: 
    :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.18``
@@ -64,7 +64,7 @@ dysgu
    :depends scipy: ``>=1.7``
    :depends sortedcontainers: 
    :depends wheel: 
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends xz: 
    :depends zlib: 
    :requirements:
 
@@ -120,7 +120,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.7.0","1.6.7","1.6.6","1.6.5","1.6.5"];
+        var versions = ["1.7.0","1.7.0","1.6.7","1.6.6","1.6.5"];
     </script>
 
 

@@ -27,13 +27,17 @@ cgecore
       
       
 
-      ``1.5.6-0``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``
+      ``2.0.0-0``,  ``1.5.6-0``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``
 
       
 
    
-   :depends biopython: 
-   :depends python: 
+   :depends biopython: ``>=1.81``
+   :depends gitpython: ``>=3.1.40``
+   :depends numpy: ``>=1.26.2``
+   :depends pandas: ``>=2.1.4``
+   :depends python: ``>=3.10``
+   :depends python-dateutil: ``>=2.8.2``
    :requirements:
 
    :additional platforms:
@@ -84,7 +88,7 @@ cgecore
 
     <script>
         var package = "cgecore";
-        var versions = ["1.5.6","1.5.5","1.5.5","1.5.4","1.5.3"];
+        var versions = ["2.0.0","1.5.6","1.5.5","1.5.5","1.5.4"];
     </script>
 
 

@@ -28,10 +28,10 @@ locityper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.17.3-0</code>,  <code>0.16.12-0</code>,  <code>0.16.11-0</code>,  <code>0.16.10-0</code>,  <code>0.16.9-0</code>,  <code>0.16.8-0</code>,  <code>0.16.7-0</code>,  <code>0.16.6-0</code>,  <code>0.16.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17.4-0</code>,  <code>0.17.3-0</code>,  <code>0.16.12-0</code>,  <code>0.16.11-0</code>,  <code>0.16.10-0</code>,  <code>0.16.9-0</code>,  <code>0.16.8-0</code>,  <code>0.16.7-0</code>,  <code>0.16.6-0</code>,  </span></summary>
       
 
-      ``0.17.3-0``,  ``0.16.12-0``,  ``0.16.11-0``,  ``0.16.10-0``,  ``0.16.9-0``,  ``0.16.8-0``,  ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.0-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.13.4-0``
+      ``0.17.4-0``,  ``0.17.3-0``,  ``0.16.12-0``,  ``0.16.11-0``,  ``0.16.10-0``,  ``0.16.9-0``,  ``0.16.8-0``,  ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.0-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.13.4-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ locityper
    
    :depends _openmp_mutex: ``>=4.5``
    :depends kmer-jellyfish: ``>=1.0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends minimap2: ``>=2.25``
    :depends pysam: 
    :depends python: 
@@ -99,7 +99,7 @@ locityper
 
     <script>
         var package = "locityper";
-        var versions = ["0.17.3","0.16.12","0.16.11","0.16.10","0.16.9"];
+        var versions = ["0.17.4","0.17.3","0.16.12","0.16.11","0.16.10"];
     </script>
 
 
