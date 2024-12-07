@@ -30,16 +30,16 @@ nordic
       
       
 
-      ``2.5.0-0``,  ``2.4.4-0``
+      ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.4-0``
 
       
 
    
    :depends clingo: ``>=5.6.1``
    :depends cmappy: ``>=4.0.1,<5.0a0``
-   :depends graphviz: ``>=9.0.0,<10.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends graphviz: ``>=12.0.0,<13.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.22.4,<2.0.0``
    :depends numpy: ``>=1.26.4,<2.0a0``
@@ -57,6 +57,10 @@ nordic
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -104,7 +108,7 @@ nordic
 
     <script>
         var package = "nordic";
-        var versions = ["2.5.0","2.4.4"];
+        var versions = ["2.5.0","2.5.0","2.4.4"];
     </script>
 
 

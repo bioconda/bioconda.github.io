@@ -28,16 +28,21 @@ phylip
       
       
 
-      ``3.697-1``,  ``3.697-0``,  ``3.696-3``,  ``3.696-2``,  ``3.696-1``,  ``3.696-0``
+      ``3.697-2``,  ``3.697-1``,  ``3.697-0``,  ``3.696-3``,  ``3.696-2``,  ``3.696-1``,  ``3.696-0``
 
       
 
    
+   :depends libgcc: ``>=13``
    :depends openjdk: ``>=6``
    :depends python: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ phylip
 
     <script>
         var package = "phylip";
-        var versions = ["3.697","3.697","3.696","3.696","3.696"];
+        var versions = ["3.697","3.697","3.697","3.696","3.696"];
     </script>
 
 

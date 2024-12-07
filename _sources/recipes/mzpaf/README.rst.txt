@@ -30,7 +30,7 @@ mzpaf
       
       
 
-      ``0.2.0a0-0``
+      ``0.2.0b0-0``,  ``0.2.0a0-0``
 
       
 
@@ -87,7 +87,7 @@ mzpaf
 
     <script>
         var package = "mzpaf";
-        var versions = ["0.2.0a0"];
+        var versions = ["0.2.0b0","0.2.0a0"];
     </script>
 
 

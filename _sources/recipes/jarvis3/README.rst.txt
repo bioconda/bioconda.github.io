@@ -13,7 +13,7 @@ jarvis3
    Improved encoder for genomic sequences.
 
    :homepage: https://github.com/cobilab/jarvis3
-   :license: GPL3 / GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`jarvis3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jarvis3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jarvis3/meta.yaml>`_
 
    
@@ -27,15 +27,19 @@ jarvis3
       
       
 
-      ``3.7-2``,  ``3.7-1``,  ``3.7-0``
+      ``3.7-3``,  ``3.7-2``,  ``3.7-1``,  ``3.7-0``
 
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ jarvis3
 
     <script>
         var package = "jarvis3";
-        var versions = ["3.7","3.7","3.7"];
+        var versions = ["3.7","3.7","3.7","3.7"];
     </script>
 
 

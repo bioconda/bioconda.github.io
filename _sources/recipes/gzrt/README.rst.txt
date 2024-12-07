@@ -30,16 +30,20 @@ gzrt
       
       
 
-      ``0.8-0``
+      ``0.8-1``,  ``0.8-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +91,7 @@ gzrt
 
     <script>
         var package = "gzrt";
-        var versions = ["0.8"];
+        var versions = ["0.8","0.8"];
     </script>
 
 

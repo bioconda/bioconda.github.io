@@ -28,7 +28,7 @@ probconsrna
       
       
 
-      ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
+      ``1.10-4``,  ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
 
       
 
@@ -38,6 +38,10 @@ probconsrna
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ probconsrna
 
     <script>
         var package = "probconsrna";
-        var versions = ["1.10","1.10","1.10","1.10"];
+        var versions = ["1.10","1.10","1.10","1.10","1.10"];
     </script>
 
 
