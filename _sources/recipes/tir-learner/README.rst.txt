@@ -10,9 +10,11 @@ tir-learner
    :replaces_section_title:
    :noindex:
 
-   An ensemble pipeline for terminal inverted repeat \(TIR\) transposable elements annotation
+   An ensemble pipeline for terminal inverted repeat \(TIR\) transposable elements annotation.
 
    :homepage: https://github.com/lutianyu2001/TIR-Learner
+   :documentation: https://github.com/lutianyu2001/TIR-Learner/blob/main/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tir-learner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tir-learner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tir-learner/meta.yaml>`_
    :links: doi: :doi:`10.6084/m9.figshare.26082574.v1`
@@ -28,13 +30,12 @@ tir-learner
       
       
 
-      ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
 
    
    :depends biopython: 
-   :depends blast: 
    :depends genericrepeatfinder: 
    :depends genometools-genometools: 
    :depends keras: ``>=3.3.3``
@@ -42,6 +43,7 @@ tir-learner
    :depends pandas: 
    :depends pytorch: 
    :depends regex: 
+   :depends rmblast: 
    :depends scikit-learn: ``>=1.3``
    :depends swifter: 
    :requirements:
@@ -94,7 +96,7 @@ tir-learner
 
     <script>
         var package = "tir-learner";
-        var versions = ["3.0.3","3.0.2","3.0.2","3.0.1"];
+        var versions = ["3.0.3","3.0.3","3.0.2","3.0.2","3.0.1"];
     </script>
 
 

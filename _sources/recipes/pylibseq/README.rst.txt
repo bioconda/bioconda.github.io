@@ -28,10 +28,10 @@ pylibseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.3-7</code>,  <code>0.2.3-6</code>,  <code>0.2.3-4</code>,  <code>0.2.3-3</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-3</code>,  <code>0.2.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.3-8</code>,  <code>0.2.3-7</code>,  <code>0.2.3-6</code>,  <code>0.2.3-4</code>,  <code>0.2.3-3</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-3</code>,  </span></summary>
       
 
-      ``0.2.3-7``,  ``0.2.3-6``,  ``0.2.3-4``,  ``0.2.3-3``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9.post0-0``,  ``0.1.8-0``
+      ``0.2.3-8``,  ``0.2.3-7``,  ``0.2.3-6``,  ``0.2.3-4``,  ``0.2.3-3``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9.post0-0``,  ``0.1.8-0``
 
       
       .. raw:: html
@@ -40,7 +40,9 @@ pylibseq
       
 
    
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends msprime: ``>=0.7.0``
    :depends python: ``>=3.10,<3.11.0a0``

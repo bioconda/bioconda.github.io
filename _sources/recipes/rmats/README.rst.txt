@@ -28,10 +28,10 @@ rmats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.0-4</code>,  <code>4.3.0-3</code>,  <code>4.3.0-2</code>,  <code>4.3.0-1</code>,  <code>4.3.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.2-5</code>,  <code>4.1.2-4</code>,  <code>4.1.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.0-5</code>,  <code>4.3.0-4</code>,  <code>4.3.0-3</code>,  <code>4.3.0-2</code>,  <code>4.3.0-1</code>,  <code>4.3.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.2-5</code>,  <code>4.1.2-4</code>,  </span></summary>
       
 
-      ``4.3.0-4``,  ``4.3.0-3``,  ``4.3.0-2``,  ``4.3.0-1``,  ``4.3.0-0``,  ``4.2.0-0``,  ``4.1.2-5``,  ``4.1.2-4``,  ``4.1.2-3``,  ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-4``,  ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
+      ``4.3.0-5``,  ``4.3.0-4``,  ``4.3.0-3``,  ``4.3.0-2``,  ``4.3.0-1``,  ``4.3.0-0``,  ``4.2.0-0``,  ``4.1.2-5``,  ``4.1.2-4``,  ``4.1.2-3``,  ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-4``,  ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
 
       
       .. raw:: html
@@ -40,19 +40,16 @@ rmats
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=12``
-   :depends libgfortran: 
-   :depends libgfortran5: ``>=12.4.0``
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=13.2.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends star: ``>=2.5``
    :depends zlib: 
    :requirements:
 

@@ -32,10 +32,10 @@ kmer-jellyfish
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.1-4</code>,  <code>2.3.1-3</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.1-5</code>,  <code>2.3.1-4</code>,  <code>2.3.1-3</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  </span></summary>
       
 
-      ``2.3.1-4``,  ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``1.1.12-2``,  ``1.1.12-1``,  ``1.1.12-0``
+      ``2.3.1-5``,  ``2.3.1-4``,  ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``1.1.12-2``,  ``1.1.12-1``,  ``1.1.12-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ kmer-jellyfish
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends yaggo: ``>=1.5.10,<1.6.0a0``

@@ -32,10 +32,10 @@ mantis_pfa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-1</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.5-4</code>,  <code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-1</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-1</code>,  </span></summary>
       
 
-      ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-1``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
+      ``1.5.5-4``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-1``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -47,7 +47,6 @@ mantis_pfa
    :depends cython: 
    :depends diamond: ``>=2.0.13``
    :depends hmmer: ``>=3.2.1``
-   :depends libgcc-ng: ``>=12``
    :depends nltk: ``>=3.6``
    :depends numpy: 
    :depends psutil: 
@@ -104,7 +103,7 @@ mantis_pfa
 
     <script>
         var package = "mantis_pfa";
-        var versions = ["1.5.5","1.5.5","1.5.5","1.5.5","1.5.4"];
+        var versions = ["1.5.5","1.5.5","1.5.5","1.5.5","1.5.5"];
     </script>
 
 

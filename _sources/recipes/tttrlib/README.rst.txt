@@ -32,7 +32,7 @@ tttrlib
       
       
 
-      ``0.25.1-0``,  ``0.25.0-0``
+      ``0.25.1-1``,  ``0.25.1-0``,  ``0.25.0-0``
 
       
 
@@ -42,9 +42,9 @@ tttrlib
    :depends click: 
    :depends click-didyoumean: 
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -105,7 +105,7 @@ tttrlib
 
     <script>
         var package = "tttrlib";
-        var versions = ["0.25.1","0.25.0"];
+        var versions = ["0.25.1","0.25.1","0.25.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ strawc
       
       
 
-      ``0.0.2.1-4``,  ``0.0.2.1-3``,  ``0.0.2.1-2``,  ``0.0.2.1-1``,  ``0.0.2.1-0``
+      ``0.0.2.1-5``,  ``0.0.2.1-4``,  ``0.0.2.1-3``,  ``0.0.2.1-2``,  ``0.0.2.1-1``,  ``0.0.2.1-0``
 
       
 
    
-   :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pybind11: ``>=2.4``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

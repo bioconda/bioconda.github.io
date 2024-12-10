@@ -12,7 +12,10 @@ prank
 
    PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences.
 
-   :homepage: http://wasabiapp.org/software/prank/
+   :homepage: http://wasabiapp.org/software/prank
+   :documentation: https://ariloytynoja.github.io/prank-msa
+   
+   :developer docs: https://github.com/ariloytynoja/prank-msa
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`prank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prank/meta.yaml>`_
    :links: biotools: :biotools:`prank`, doi: :doi:`10.1007/978-1-62703-646-7_10`
@@ -29,10 +32,10 @@ prank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>170427-0</code>,  <code>v.170427-7</code>,  <code>v.170427-6</code>,  <code>v.170427-5</code>,  <code>v.170427-4</code>,  <code>v.170427-3</code>,  <code>v.170427-2</code>,  <code>v.170427-1</code>,  <code>v.170427-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>170427-1</code>,  <code>170427-0</code>,  <code>v.170427-7</code>,  <code>v.170427-6</code>,  <code>v.170427-5</code>,  <code>v.170427-4</code>,  <code>v.170427-3</code>,  <code>v.170427-2</code>,  <code>v.170427-1</code>,  </span></summary>
       
 
-      ``170427-0``,  ``v.170427-7``,  ``v.170427-6``,  ``v.170427-5``,  ``v.170427-4``,  ``v.170427-3``,  ``v.170427-2``,  ``v.170427-1``,  ``v.170427-0``,  ``v.150803-0``
+      ``170427-1``,  ``170427-0``,  ``v.170427-7``,  ``v.170427-6``,  ``v.170427-5``,  ``v.170427-4``,  ``v.170427-3``,  ``v.170427-2``,  ``v.170427-1``,  ``v.170427-0``,  ``v.150803-0``
 
       
       .. raw:: html
@@ -41,15 +44,15 @@ prank
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +100,7 @@ prank
 
     <script>
         var package = "prank";
-        var versions = ["170427","v.170427","v.170427","v.170427","v.170427"];
+        var versions = ["170427","170427","v.170427","v.170427","v.170427"];
     </script>
 
 

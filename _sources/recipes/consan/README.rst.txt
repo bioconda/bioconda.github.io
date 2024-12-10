@@ -12,8 +12,10 @@ consan
 
    Pairwise RNA structural alignment\, both unconstrained and constrained on alignment pins.
 
-   :homepage: http://eddylab.org/software/consan/
-   :license: GPL-3.0
+   :homepage: http://eddylab.org/software/consan
+   :documentation: http://eddylab.org/software/consan/README
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`consan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consan/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ consan
       
       
 
-      ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-7``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -39,7 +41,7 @@ consan
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

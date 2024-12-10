@@ -10,9 +10,9 @@ mdust
    :replaces_section_title:
    :noindex:
 
-   mdust from DFCI Gene Indices Software Tools
+   mdust from DFCI Gene Indices Software Tools.
 
-   :homepage: http://compbio.dfci.harvard.edu/tgi/
+   :homepage: https://compbio.dfci.harvard.edu/tgi
    :license: The Artistic License
    :recipe: /`mdust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdust/meta.yaml>`_
 
@@ -27,15 +27,19 @@ mdust
       
       
 
-      ``2006.10.17-6``,  ``2006.10.17-5``,  ``2006.10.17-4``,  ``2006.10.17-3``,  ``2006.10.17-2``,  ``2006.10.17-1``,  ``2006.10.17-0``
+      ``2006.10.17-7``,  ``2006.10.17-6``,  ``2006.10.17-5``,  ``2006.10.17-4``,  ``2006.10.17-3``,  ``2006.10.17-2``,  ``2006.10.17-1``,  ``2006.10.17-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

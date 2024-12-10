@@ -31,10 +31,10 @@ btllib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.3-0</code>,  <code>1.7.2-3</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-3</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-0</code>,  </span></summary>
       
 
-      ``1.7.3-0``,  ``1.7.2-3``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-3``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -43,17 +43,14 @@ btllib
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: 
    :depends gzip: 
-   :depends libgcc-ng: ``>=12``
-   :depends libgomp: 
-   :depends libstdcxx-ng: ``>=12``
-   :depends lrzip: 
+   :depends libcxx: ``>=18``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends pigz: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends samtools: ``>=1.20,<2.0a0``
+   :depends samtools: ``>=1.21,<2.0a0``
    :depends tar: 
    :depends wget: 
    :depends xz: 
@@ -112,7 +109,7 @@ btllib
 
     <script>
         var package = "btllib";
-        var versions = ["1.7.3","1.7.2","1.7.2","1.7.2","1.7.2"];
+        var versions = ["1.7.3","1.7.3","1.7.2","1.7.2","1.7.2"];
     </script>
 
 

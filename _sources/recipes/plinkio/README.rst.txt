@@ -27,12 +27,12 @@ plinkio
       
       
 
-      ``0.9.8-1``,  ``0.9.8-0``
+      ``0.9.8-2``,  ``0.9.8-1``,  ``0.9.8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -85,7 +85,7 @@ plinkio
 
     <script>
         var package = "plinkio";
-        var versions = ["0.9.8","0.9.8"];
+        var versions = ["0.9.8","0.9.8","0.9.8"];
     </script>
 
 

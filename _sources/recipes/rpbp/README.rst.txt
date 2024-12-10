@@ -30,7 +30,7 @@ rpbp
       
       
 
-      ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
@@ -44,8 +44,7 @@ rpbp
    :depends fastqc: 
    :depends flexbar: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends numpy: 
    :depends pandas: 
    :depends pbiotools: ``>=4.0.2``
@@ -107,7 +106,7 @@ rpbp
 
     <script>
         var package = "rpbp";
-        var versions = ["3.0.4","3.0.4","3.0.2","3.0.2","3.0.2"];
+        var versions = ["3.0.4","3.0.4","3.0.4","3.0.2","3.0.2"];
     </script>
 
 

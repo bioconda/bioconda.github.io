@@ -27,14 +27,13 @@ isospecpy
       
       
 
-      ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``
+      ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``
 
       
 
    
    :depends cffi: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -87,7 +86,7 @@ isospecpy
 
     <script>
         var package = "isospecpy";
-        var versions = ["2.2.2","2.2.2","2.2.1"];
+        var versions = ["2.2.2","2.2.2","2.2.2","2.2.1"];
     </script>
 
 

@@ -29,12 +29,12 @@ pyjess
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``
+      ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``
 
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -91,7 +91,7 @@ pyjess
 
     <script>
         var package = "pyjess";
-        var versions = ["0.4.1","0.4.0","0.3.3"];
+        var versions = ["0.4.1","0.4.1","0.4.0","0.3.3"];
     </script>
 
 

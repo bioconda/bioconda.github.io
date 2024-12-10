@@ -27,18 +27,22 @@ emu-pca
       
       
 
-      ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +90,7 @@ emu-pca
 
     <script>
         var package = "emu-pca";
-        var versions = ["1.1","1.0","1.0"];
+        var versions = ["1.1","1.1","1.0","1.0"];
     </script>
 
 

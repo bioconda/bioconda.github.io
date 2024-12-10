@@ -10,9 +10,11 @@ annosine2
    :replaces_section_title:
    :noindex:
 
-   AnnoSINE\_v2 \- SINE Annotation Tool for Plant and Animal Genomes
+   AnnoSINE\_v2 \- SINE Annotation Tool for Plant and Animal Genomes.
 
    :homepage: https://github.com/liaoherui/AnnoSINE_v2
+   :documentation: https://github.com/liaoherui/AnnoSINE_v2/blob/main/README.md
+   
    :license: MIT / MIT
    :recipe: /`annosine2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annosine2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annosine2/meta.yaml>`_
 
@@ -27,7 +29,7 @@ annosine2
       
       
 
-      ``2.0.7-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``2.0.7-1``,  ``2.0.7-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -100,7 +102,7 @@ annosine2
 
     <script>
         var package = "annosine2";
-        var versions = ["2.0.7","1.0.5","1.0.4","1.0.4"];
+        var versions = ["2.0.7","2.0.7","1.0.5","1.0.4","1.0.4"];
     </script>
 
 

@@ -27,12 +27,11 @@ rmath4
       
       
 
-      ``4.3.1-1``,  ``4.3.1-0``
+      ``4.3.1-2``,  ``4.3.1-1``,  ``4.3.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -85,7 +84,7 @@ rmath4
 
     <script>
         var package = "rmath4";
-        var versions = ["4.3.1","4.3.1"];
+        var versions = ["4.3.1","4.3.1","4.3.1"];
     </script>
 
 

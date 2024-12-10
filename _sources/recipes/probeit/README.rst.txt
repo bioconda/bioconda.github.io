@@ -27,7 +27,7 @@ probeit
       
       
 
-      ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``2.0-0``,  ``v1.9-1``,  ``v1.9-0``
+      ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``2.0-0``,  ``v1.9-1``,  ``v1.9-0``
 
       
 
@@ -35,8 +35,7 @@ probeit
    :depends bedtools: 
    :depends biopython: 
    :depends genmap: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends mmseqs2: ``>=13.45111``
    :depends numpy: 
    :depends pandas: 
@@ -95,7 +94,7 @@ probeit
 
     <script>
         var package = "probeit";
-        var versions = ["2.2","2.2","2.2","2.2","2.0"];
+        var versions = ["2.2","2.2","2.2","2.2","2.2"];
     </script>
 
 

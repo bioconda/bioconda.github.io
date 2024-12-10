@@ -30,7 +30,7 @@ kinex
       
       
 
-      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -41,6 +41,7 @@ kinex
    :depends pandas: 
    :depends plotly: 
    :depends python: ``>=3.8``
+   :depends requests: 
    :depends scikit-learn: 
    :depends scipy: ``>=1.10.0``
    :depends statsmodels: 
@@ -95,7 +96,7 @@ kinex
 
     <script>
         var package = "kinex";
-        var versions = ["1.1.0","1.0.2","1.0.1"];
+        var versions = ["1.2.0","1.1.0","1.0.2","1.0.1"];
     </script>
 
 

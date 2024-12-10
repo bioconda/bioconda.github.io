@@ -27,7 +27,7 @@ cassiopeia
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
@@ -38,7 +38,6 @@ cassiopeia
    :depends ete3: ``>=3.1.1``
    :depends hits: 
    :depends itolapi: 
-   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=2.2.2``
    :depends nbconvert: ``>=5.4.0``
    :depends nbformat: ``>=4.4.0``
@@ -105,7 +104,7 @@ cassiopeia
 
     <script>
         var package = "cassiopeia";
-        var versions = ["2.0.0","2.0.0"];
+        var versions = ["2.0.0","2.0.0","2.0.0"];
     </script>
 
 

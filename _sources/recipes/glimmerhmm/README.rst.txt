@@ -10,11 +10,12 @@ glimmerhmm
    :replaces_section_title:
    :noindex:
 
-   GlimmerHMM is a gene finder based on a Generalized Hidden Markov Model \(GHMM\)
+   GlimmerHMM is a gene finder based on a Generalized Hidden Markov Model \(GHMM\).
 
-   :homepage: https://ccb.jhu.edu/software/glimmerhmm/
+   :homepage: https://ccb.jhu.edu/software/glimmerhmm
    :license: Artistic License
    :recipe: /`glimmerhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerhmm/meta.yaml>`_
+   :links: biotools: :biotools:`glimmer-hmm`, doi: :doi:`10.1093/bioinformatics/bth315`
 
    
 
@@ -27,13 +28,13 @@ glimmerhmm
       
       
 
-      ``3.0.4-8``,  ``3.0.4-7``,  ``3.0.4-5``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``
+      ``3.0.4-9``,  ``3.0.4-8``,  ``3.0.4-7``,  ``3.0.4-5``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -41,7 +42,7 @@ glimmerhmm
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
