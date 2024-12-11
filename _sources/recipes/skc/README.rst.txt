@@ -27,12 +27,11 @@ skc
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -83,7 +82,7 @@ skc
 
     <script>
         var package = "skc";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

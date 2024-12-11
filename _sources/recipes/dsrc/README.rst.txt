@@ -29,10 +29,10 @@ dsrc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2015.06.04-8</code>,  <code>2015.06.04-7</code>,  <code>2015.06.04-6</code>,  <code>2015.06.04-5</code>,  <code>2015.06.04-4</code>,  <code>2015.06.04-3</code>,  <code>2015.06.04-2</code>,  <code>2015.06.04-1</code>,  <code>2015.06.04-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2015.06.04-9</code>,  <code>2015.06.04-8</code>,  <code>2015.06.04-7</code>,  <code>2015.06.04-6</code>,  <code>2015.06.04-5</code>,  <code>2015.06.04-4</code>,  <code>2015.06.04-3</code>,  <code>2015.06.04-2</code>,  <code>2015.06.04-1</code>,  </span></summary>
       
 
-      ``2015.06.04-8``,  ``2015.06.04-7``,  ``2015.06.04-6``,  ``2015.06.04-5``,  ``2015.06.04-4``,  ``2015.06.04-3``,  ``2015.06.04-2``,  ``2015.06.04-1``,  ``2015.06.04-0``,  ``2014.12.17-2``,  ``2014.12.17-1``
+      ``2015.06.04-9``,  ``2015.06.04-8``,  ``2015.06.04-7``,  ``2015.06.04-6``,  ``2015.06.04-5``,  ``2015.06.04-4``,  ``2015.06.04-3``,  ``2015.06.04-2``,  ``2015.06.04-1``,  ``2015.06.04-0``,  ``2014.12.17-2``,  ``2014.12.17-1``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ dsrc
 
    
    :depends boost-cpp: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

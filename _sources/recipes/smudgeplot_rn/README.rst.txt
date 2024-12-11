@@ -27,16 +27,16 @@ smudgeplot_rn
       
       
 
-      ``0.2.5_RN-6``,  ``0.2.5_RN-5``,  ``0.2.5_RN-4``,  ``0.2.5_RN-3``,  ``0.2.5_RN-2``,  ``0.2.5_RN-1``,  ``0.2.5_RN-0``,  ``0.2.4_RN-0``
+      ``0.2.5_RN-7``,  ``0.2.5_RN-6``,  ``0.2.5_RN-5``,  ``0.2.5_RN-4``,  ``0.2.5_RN-3``,  ``0.2.5_RN-2``,  ``0.2.5_RN-1``,  ``0.2.5_RN-0``,  ``0.2.4_RN-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends numpy: 
-   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python: ``>=3.13,<3.14.0a0``
    :depends r-argparse: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-viridis: 
    :depends scipy: 
    :requirements:

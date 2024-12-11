@@ -28,10 +28,10 @@ pixelator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.2-0</code>,  <code>0.15.2-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.2-0</code>,  <code>0.15.2-0</code>,  <code>0.15.0-0</code>,  </span></summary>
       
 
-      ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.2-0``,  ``0.15.2-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``
+      ``0.19.0-0``,  ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.2-0``,  ``0.15.2-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``
 
       
       .. raw:: html
@@ -60,6 +60,7 @@ pixelator
    :depends pyfastx: 
    :depends python: ``>=3.10,<3.12``
    :depends python-annoy: ``<=1.17.0``
+   :depends python-xxhash: 
    :depends ruamel.yaml: ``>=0.17.21,<0.18.0``
    :depends scanpy: 
    :depends scipy: ``<1.13.0``
@@ -119,7 +120,7 @@ pixelator
 
     <script>
         var package = "pixelator";
-        var versions = ["0.18.3","0.18.2","0.18.1","0.17.1","0.17.0"];
+        var versions = ["0.19.0","0.18.3","0.18.2","0.18.1","0.17.1"];
     </script>
 
 

@@ -31,10 +31,10 @@ longshot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.4.5-2</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.4.5-2</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  </span></summary>
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``v0.3.5-0``,  ``v0.3.4-0``,  ``v0.3.3-0``,  ``v0.3.2-0``
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``v0.3.5-0``,  ``v0.3.4-0``,  ``v0.3.3-0``,  ``v0.3.2-0``
 
       
       .. raw:: html
@@ -43,10 +43,9 @@ longshot
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libcxx: ``>=18``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -101,7 +100,7 @@ longshot
 
     <script>
         var package = "longshot";
-        var versions = ["1.0.0","1.0.0","1.0.0","0.4.5","0.4.5"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","0.4.5"];
     </script>
 
 

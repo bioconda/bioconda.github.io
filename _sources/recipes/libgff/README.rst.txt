@@ -27,14 +27,14 @@ libgff
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -89,7 +89,7 @@ libgff
 
     <script>
         var package = "libgff";
-        var versions = ["2.0.0","2.0.0"];
+        var versions = ["2.0.0","2.0.0","2.0.0"];
     </script>
 
 

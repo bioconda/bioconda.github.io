@@ -27,14 +27,14 @@ boutroslabplottinggeneral
       
       
 
-      ``5.3.4-5``,  ``5.3.4-2``,  ``5.3.4-0``
+      ``5.3.4-6``,  ``5.3.4-5``,  ``5.3.4-2``,  ``5.3.4-0``
 
       
 
    
    :depends r-argparse: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bh: 
    :depends r-cluster: 
    :depends r-dbi: 
@@ -104,7 +104,7 @@ boutroslabplottinggeneral
 
     <script>
         var package = "boutroslabplottinggeneral";
-        var versions = ["5.3.4","5.3.4","5.3.4"];
+        var versions = ["5.3.4","5.3.4","5.3.4","5.3.4"];
     </script>
 
 

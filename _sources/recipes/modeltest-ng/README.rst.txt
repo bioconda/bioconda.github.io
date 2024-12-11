@@ -30,14 +30,13 @@ modeltest-ng
       
       
 
-      ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.7-3``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends libcxx: ``>=18``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +87,7 @@ modeltest-ng
 
     <script>
         var package = "modeltest-ng";
-        var versions = ["0.1.7","0.1.7","0.1.7","0.1.6","0.1.6"];
+        var versions = ["0.1.7","0.1.7","0.1.7","0.1.7","0.1.6"];
     </script>
 
 

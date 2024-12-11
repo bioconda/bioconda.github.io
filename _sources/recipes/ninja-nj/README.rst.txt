@@ -30,15 +30,15 @@ ninja-nj
       
       
 
-      ``1.00-0``,  ``0.98-3``,  ``0.98-2``,  ``0.98-1``,  ``0.98-0``,  ``0.97-0``
+      ``1.00-1``,  ``1.00-0``,  ``0.98-3``,  ``0.98-2``,  ``0.98-1``,  ``0.98-0``,  ``0.97-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ ninja-nj
 
     <script>
         var package = "ninja-nj";
-        var versions = ["1.00","0.98","0.98","0.98","0.98"];
+        var versions = ["1.00","1.00","0.98","0.98","0.98"];
     </script>
 
 

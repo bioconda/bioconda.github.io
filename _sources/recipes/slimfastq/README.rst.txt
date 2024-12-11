@@ -27,13 +27,12 @@ slimfastq
       
       
 
-      ``2.04-4``,  ``2.04-3``,  ``2.04-2``,  ``2.04-1``,  ``2.04-0``
+      ``2.04-5``,  ``2.04-4``,  ``2.04-3``,  ``2.04-2``,  ``2.04-1``,  ``2.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

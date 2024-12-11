@@ -28,15 +28,15 @@ pgrc
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-1``,  ``2.0-0``
+      ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ pgrc
 
     <script>
         var package = "pgrc";
-        var versions = ["2.0.2","2.0.1","2.0","2.0"];
+        var versions = ["2.0.2","2.0.2","2.0.1","2.0","2.0"];
     </script>
 
 

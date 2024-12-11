@@ -27,13 +27,13 @@ get_fasta_info
       
       
 
-      ``2.4-2``,  ``2.4-1``,  ``2.4-0``
+      ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -85,7 +85,7 @@ get_fasta_info
 
     <script>
         var package = "get_fasta_info";
-        var versions = ["2.4","2.4","2.4"];
+        var versions = ["2.4","2.4","2.4","2.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ inmoose
       
       
 
-      ``0.7.2-0``
+      ``0.7.2-1``,  ``0.7.2-0``
 
       
 
@@ -35,8 +35,7 @@ inmoose
    :depends anndata: 
    :depends click: 
    :depends fastcluster: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :depends matplotlib-base: 
    :depends mpmath: ``>=1.1.0``
    :depends numpy: ``>=1.21,<3``
@@ -98,7 +97,7 @@ inmoose
 
     <script>
         var package = "inmoose";
-        var versions = ["0.7.2"];
+        var versions = ["0.7.2","0.7.2"];
     </script>
 
 

@@ -26,14 +26,21 @@ newick_utils
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6-8``,  ``1.6-7``,  ``1.6-6``,  ``1.6-5``,  ``1.6-4``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.6-9</code>,  <code>1.6-8</code>,  <code>1.6-7</code>,  <code>1.6-6</code>,  <code>1.6-5</code>,  <code>1.6-4</code>,  <code>1.6-3</code>,  <code>1.6-2</code>,  <code>1.6-1</code>,  </span></summary>
+      
 
+      ``1.6-9``,  ``1.6-8``,  ``1.6-7``,  ``1.6-6``,  ``1.6-5``,  ``1.6-4``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libxml2: ``>=2.12.7,<3.0a0``
+   :depends libxml2: ``>=2.13.5,<3.0a0``
    :requirements:
 
    :additional platforms:

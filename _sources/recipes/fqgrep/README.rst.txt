@@ -27,13 +27,12 @@ fqgrep
       
       
 
-      ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.0-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ fqgrep
 
     <script>
         var package = "fqgrep";
-        var versions = ["1.0.3","1.0.2","1.0.2","1.0.2","1.0.1"];
+        var versions = ["1.0.3","1.0.3","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

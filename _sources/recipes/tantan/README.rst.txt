@@ -31,10 +31,10 @@ tantan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>51-0</code>,  <code>50-0</code>,  <code>49-0</code>,  <code>40-2</code>,  <code>40-1</code>,  <code>40-0</code>,  <code>39-0</code>,  <code>34-0</code>,  <code>32-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>51-1</code>,  <code>51-0</code>,  <code>50-0</code>,  <code>49-0</code>,  <code>40-2</code>,  <code>40-1</code>,  <code>40-0</code>,  <code>39-0</code>,  <code>34-0</code>,  </span></summary>
       
 
-      ``51-0``,  ``50-0``,  ``49-0``,  ``40-2``,  ``40-1``,  ``40-0``,  ``39-0``,  ``34-0``,  ``32-0``,  ``31-0``,  ``26-2``,  ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
+      ``51-1``,  ``51-0``,  ``50-0``,  ``49-0``,  ``40-2``,  ``40-1``,  ``40-0``,  ``39-0``,  ``34-0``,  ``32-0``,  ``31-0``,  ``26-2``,  ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
 
       
       .. raw:: html
@@ -43,9 +43,8 @@ tantan
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +99,7 @@ tantan
 
     <script>
         var package = "tantan";
-        var versions = ["51","50","49","40","40"];
+        var versions = ["51","51","50","49","40"];
     </script>
 
 

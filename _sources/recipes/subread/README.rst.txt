@@ -10,10 +10,13 @@ subread
    :replaces_section_title:
    :noindex:
 
-   High\-performance read alignment\, quantification\, and mutation discovery
+   High\-performance read alignment\, quantification\, and mutation discovery.
 
-   :homepage: http://subread.sourceforge.net/
-   :license: GPL-3.0-only
+   :homepage: https://subread.sourceforge.net
+   :documentation: https://subread.sourceforge.net/SubreadUsersGuide.pdf
+   
+   :developer docs: https://sourceforge.net/projects/subread
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`subread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread/meta.yaml>`_
    :links: biotools: :biotools:`subread`, usegalaxy-eu: :usegalaxy-eu:`featurecounts`, doi: :doi:`10.1093/nar/gkt214`
 
@@ -29,10 +32,10 @@ subread
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.6-2</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.8-0</code>,  <code>2.0.6-3</code>,  <code>2.0.6-2</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  </span></summary>
       
 
-      ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.4-1``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.0.post3-0``,  ``1.5.0-0``,  ``1.5.0p3-0``,  ``1.4.6p5-0``
+      ``2.0.8-0``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.4-1``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.0.post3-0``,  ``1.5.0-0``,  ``1.5.0p3-0``,  ``1.4.6p5-0``
 
       
       .. raw:: html
@@ -41,15 +44,15 @@ subread
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +100,7 @@ subread
 
     <script>
         var package = "subread";
-        var versions = ["2.0.6","2.0.6","2.0.6","2.0.3","2.0.3"];
+        var versions = ["2.0.8","2.0.6","2.0.6","2.0.6","2.0.6"];
     </script>
 
 

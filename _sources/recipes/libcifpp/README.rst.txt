@@ -30,10 +30,10 @@ libcifpp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.0.8-0</code>,  <code>7.0.7-0</code>,  <code>7.0.6-0</code>,  <code>7.0.5-0</code>,  <code>7.0.4-1</code>,  <code>7.0.4-0</code>,  <code>7.0.3-0</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.0.8-1</code>,  <code>7.0.8-0</code>,  <code>7.0.7-0</code>,  <code>7.0.6-0</code>,  <code>7.0.5-0</code>,  <code>7.0.4-1</code>,  <code>7.0.4-0</code>,  <code>7.0.3-0</code>,  <code>5.0.0-2</code>,  </span></summary>
       
 
-      ``7.0.8-0``,  ``7.0.7-0``,  ``7.0.6-0``,  ``7.0.5-0``,  ``7.0.4-1``,  ``7.0.4-0``,  ``7.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
+      ``7.0.8-1``,  ``7.0.8-0``,  ``7.0.7-0``,  ``7.0.6-0``,  ``7.0.5-0``,  ``7.0.4-1``,  ``7.0.4-0``,  ``7.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -43,9 +43,9 @@ libcifpp
 
    
    :depends boost-cpp: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +100,7 @@ libcifpp
 
     <script>
         var package = "libcifpp";
-        var versions = ["7.0.8","7.0.7","7.0.6","7.0.5","7.0.4"];
+        var versions = ["7.0.8","7.0.8","7.0.7","7.0.6","7.0.5"];
     </script>
 
 

@@ -27,12 +27,12 @@ r-gganatogram
       
       
 
-      ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-ggpolypath: 
    :requirements:
@@ -85,7 +85,7 @@ r-gganatogram
 
     <script>
         var package = "r-gganatogram";
-        var versions = ["0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

@@ -32,10 +32,10 @@ ucsc-twobittofa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>472-0</code>,  <code>469-0</code>,  <code>455-1</code>,  <code>455-0</code>,  <code>447-0</code>,  <code>377-4</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>472-1</code>,  <code>472-0</code>,  <code>469-0</code>,  <code>455-1</code>,  <code>455-0</code>,  <code>447-0</code>,  <code>377-4</code>,  <code>377-3</code>,  <code>377-2</code>,  </span></summary>
       
 
-      ``472-0``,  ``469-0``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``472-1``,  ``472-0``,  ``469-0``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -44,11 +44,10 @@ ucsc-twobittofa
       
 
    
-   :depends libgcc: ``>=12``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.43,<1.7.0a0``
+   :depends libpng: ``>=1.6.44,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :requirements:
 
@@ -104,7 +103,7 @@ ucsc-twobittofa
 
     <script>
         var package = "ucsc-twobittofa";
-        var versions = ["472","469","455","455","447"];
+        var versions = ["472","472","469","455","455"];
     </script>
 
 

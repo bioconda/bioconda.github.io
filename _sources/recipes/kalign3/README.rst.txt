@@ -29,10 +29,10 @@ kalign3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.5-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.2.2-3</code>,  <code>3.2.2-2</code>,  <code>3.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.5-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.2.2-3</code>,  <code>3.2.2-2</code>,  </span></summary>
       
 
-      ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.5-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
+      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.5-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ kalign3
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -97,7 +96,7 @@ kalign3
 
     <script>
         var package = "kalign3";
-        var versions = ["3.4.0","3.4.0","3.3.5","3.3.2","3.3.2"];
+        var versions = ["3.4.0","3.4.0","3.4.0","3.3.5","3.3.2"];
     </script>
 
 

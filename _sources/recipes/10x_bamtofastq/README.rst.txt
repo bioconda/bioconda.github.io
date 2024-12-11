@@ -28,13 +28,12 @@
       
       
 
-      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -85,7 +84,7 @@
 
     <script>
         var package = "10x_bamtofastq";
-        var versions = ["1.4.1","1.4.1","1.4.1"];
+        var versions = ["1.4.1","1.4.1","1.4.1","1.4.1"];
     </script>
 
 

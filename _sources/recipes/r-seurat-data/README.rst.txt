@@ -28,12 +28,12 @@ r-seurat-data
       
       
 
-      ``0.2.1-0``
+      ``0.2.1-1``,  ``0.2.1-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-rappdirs: 
@@ -87,7 +87,7 @@ r-seurat-data
 
     <script>
         var package = "r-seurat-data";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.1","0.2.1"];
     </script>
 
 

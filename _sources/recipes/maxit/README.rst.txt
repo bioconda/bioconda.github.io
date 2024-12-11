@@ -37,14 +37,12 @@ maxit
       
       
 
-      ``11.200-2``,  ``11.200-1``,  ``11.200-0``
+      ``11.200-3``,  ``11.200-2``,  ``11.200-1``,  ``11.200-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends tcsh: 
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -99,7 +97,7 @@ maxit
 
     <script>
         var package = "maxit";
-        var versions = ["11.200","11.200","11.200"];
+        var versions = ["11.200","11.200","11.200","11.200"];
     </script>
 
 

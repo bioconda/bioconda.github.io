@@ -28,10 +28,10 @@ sickle-trim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.33-10</code>,  <code>1.33-9</code>,  <code>1.33-8</code>,  <code>1.33-7</code>,  <code>1.33-6</code>,  <code>1.33-5</code>,  <code>1.33-4</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.33-11</code>,  <code>1.33-10</code>,  <code>1.33-9</code>,  <code>1.33-8</code>,  <code>1.33-7</code>,  <code>1.33-6</code>,  <code>1.33-5</code>,  <code>1.33-4</code>,  <code>1.33-3</code>,  </span></summary>
       
 
-      ``1.33-10``,  ``1.33-9``,  ``1.33-8``,  ``1.33-7``,  ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
+      ``1.33-11``,  ``1.33-10``,  ``1.33-9``,  ``1.33-8``,  ``1.33-7``,  ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ sickle-trim
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

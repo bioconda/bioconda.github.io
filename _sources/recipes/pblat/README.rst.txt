@@ -28,14 +28,21 @@ pblat
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.5.1-4</code>,  <code>2.5.1-3</code>,  <code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5-2</code>,  <code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  </span></summary>
+      
 
+      ``2.5.1-4``,  ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openssl: ``>=3.4.0,<4.0a0``
    :depends zlib: 
    :requirements:
@@ -92,7 +99,7 @@ pblat
 
     <script>
         var package = "pblat";
-        var versions = ["2.5.1","2.5.1","2.5.1","2.5.1","2.5"];
+        var versions = ["2.5.1","2.5.1","2.5.1","2.5.1","2.5.1"];
     </script>
 
 

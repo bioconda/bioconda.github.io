@@ -26,13 +26,20 @@ perl-gdtextutil
    :versions:
       
       
+      .. raw:: html
 
-      ``0.86-8``,  ``0.86-7``,  ``0.86-6``,  ``0.86-5``,  ``0.86-4``,  ``0.86-3``,  ``0.86-2``,  ``0.86-1``,  ``0.86-0``
+         <details><summary><span class="truncated-version-list"><code>0.86-9</code>,  <code>0.86-8</code>,  <code>0.86-7</code>,  <code>0.86-6</code>,  <code>0.86-5</code>,  <code>0.86-4</code>,  <code>0.86-3</code>,  <code>0.86-2</code>,  <code>0.86-1</code>,  </span></summary>
+      
 
+      ``0.86-9``,  ``0.86-8``,  ``0.86-7``,  ``0.86-6``,  ``0.86-5``,  ``0.86-4``,  ``0.86-3``,  ``0.86-2``,  ``0.86-1``,  ``0.86-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-gd: 
    :requirements:

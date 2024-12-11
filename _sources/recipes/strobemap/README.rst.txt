@@ -27,17 +27,14 @@ strobemap
       
       
 
-      ``0.0.2-3``,  ``0.0.2-2``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.2-4``,  ``0.0.2-3``,  ``0.0.2-2``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
    
-   :depends _openmp_mutex: ``* *_llvm``
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends llvm-openmp: ``>=16.0.3``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends python: ``>=3.9``
    :requirements:
 
@@ -89,7 +86,7 @@ strobemap
 
     <script>
         var package = "strobemap";
-        var versions = ["0.0.2","0.0.2","0.0.2","0.0.2"];
+        var versions = ["0.0.2","0.0.2","0.0.2","0.0.2","0.0.2"];
     </script>
 
 

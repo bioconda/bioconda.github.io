@@ -31,13 +31,12 @@ flexiplex
       
       
 
-      ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
+      ``1.01-2``,  ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -93,7 +92,7 @@ flexiplex
 
     <script>
         var package = "flexiplex";
-        var versions = ["1.01","1.01","0.97.1","0.97.1","0.97"];
+        var versions = ["1.01","1.01","1.01","0.97.1","0.97.1"];
     </script>
 
 

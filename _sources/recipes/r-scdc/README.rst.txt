@@ -29,10 +29,10 @@ r-scdc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0-9</code>,  <code>0-8</code>,  <code>0-7</code>,  <code>0-6</code>,  <code>0-5</code>,  <code>0-4</code>,  <code>0-3</code>,  <code>0-2</code>,  <code>0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0-10</code>,  <code>0-9</code>,  <code>0-8</code>,  <code>0-7</code>,  <code>0-6</code>,  <code>0-5</code>,  <code>0-4</code>,  <code>0-3</code>,  <code>0-2</code>,  </span></summary>
       
 
-      ``0-9``,  ``0-8``,  ``0-7``,  ``0-6``,  ``0-5``,  ``0-4``,  ``0-3``,  ``0-2``,  ``0-1``,  ``0-0``
+      ``0-10``,  ``0-9``,  ``0-8``,  ``0-7``,  ``0-6``,  ``0-5``,  ``0-4``,  ``0-3``,  ``0-2``,  ``0-1``,  ``0-0``
 
       
       .. raw:: html
@@ -42,9 +42,8 @@ r-scdc
 
    
    :depends bioconductor-biobase: ``>=2.50.0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.0,<4.1``
+   :depends libcxx: ``>=18``
+   :depends r-base: ``>=4.0.5``
    :depends r-cowplot: ``>=1.1.1``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-l1pack: ``>=0.38.196``

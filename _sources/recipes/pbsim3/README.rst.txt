@@ -28,13 +28,12 @@ pbsim3
       
       
 
-      ``3.0.4-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -85,7 +84,7 @@ pbsim3
 
     <script>
         var package = "pbsim3";
-        var versions = ["3.0.4","3.0.2","3.0.1","3.0.0"];
+        var versions = ["3.0.4","3.0.4","3.0.2","3.0.1","3.0.0"];
     </script>
 
 

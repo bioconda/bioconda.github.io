@@ -27,14 +27,14 @@ rtk2
       
       
 
-      ``2.11.2-0``,  ``2.11.1-0``,  ``2.10-0``
+      ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ rtk2
 
     <script>
         var package = "rtk2";
-        var versions = ["2.11.2","2.11.1","2.10"];
+        var versions = ["2.11.2","2.11.2","2.11.1","2.10"];
     </script>
 
 

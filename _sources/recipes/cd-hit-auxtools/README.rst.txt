@@ -27,13 +27,12 @@ cd-hit-auxtools
       
       
 
-      ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``,  ``4.8.1-0``,  ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``
+      ``4.8.1-4``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``,  ``4.8.1-0``,  ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ cd-hit-auxtools
 
     <script>
         var package = "cd-hit-auxtools";
-        var versions = ["4.8.1","4.8.1","4.8.1","4.8.1","4.6.8"];
+        var versions = ["4.8.1","4.8.1","4.8.1","4.8.1","4.8.1"];
     </script>
 
 

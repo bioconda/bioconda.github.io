@@ -28,14 +28,14 @@ psmc
       
       
 
-      ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``
+      ``0.6.5-4``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +91,7 @@ psmc
 
     <script>
         var package = "psmc";
-        var versions = ["0.6.5","0.6.5","0.6.5","0.6.5"];
+        var versions = ["0.6.5","0.6.5","0.6.5","0.6.5","0.6.5"];
     </script>
 
 

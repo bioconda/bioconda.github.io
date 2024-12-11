@@ -26,14 +26,22 @@ perl-unicode-normalize
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26-6``,  ``1.26-5``,  ``1.26-4``,  ``1.26-3``,  ``1.26-2``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.18-0``
+         <details><summary><span class="truncated-version-list"><code>1.26-7</code>,  <code>1.26-6</code>,  <code>1.26-5</code>,  <code>1.26-4</code>,  <code>1.26-3</code>,  <code>1.26-2</code>,  <code>1.26-1</code>,  <code>1.26-0</code>,  <code>1.25-0</code>,  </span></summary>
+      
 
+      ``1.26-7``,  ``1.26-6``,  ``1.26-5``,  ``1.26-4``,  ``1.26-3``,  ``1.26-2``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.18-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 

@@ -27,15 +27,15 @@ sciphin
       
       
 
-      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends boost-cpp: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ sciphin
 
     <script>
         var package = "sciphin";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

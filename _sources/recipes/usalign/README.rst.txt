@@ -41,13 +41,12 @@ usalign
       
       
 
-      ``2024.07.30-0``
+      ``2024.07.30-1``,  ``2024.07.30-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -102,7 +101,7 @@ usalign
 
     <script>
         var package = "usalign";
-        var versions = ["2024.07.30"];
+        var versions = ["2024.07.30","2024.07.30"];
     </script>
 
 

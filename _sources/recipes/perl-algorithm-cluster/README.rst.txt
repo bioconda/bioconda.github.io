@@ -28,10 +28,10 @@ perl-algorithm-cluster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.59-4</code>,  <code>1.59-3</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.56-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.59-5</code>,  <code>1.59-4</code>,  <code>1.59-3</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  </span></summary>
       
 
-      ``1.59-4``,  ``1.59-3``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
+      ``1.59-5``,  ``1.59-4``,  ``1.59-3``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ perl-algorithm-cluster
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 

@@ -34,13 +34,12 @@ eternafold
       
       
 
-      ``1.3.1-0``
+      ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -91,7 +90,7 @@ eternafold
 
     <script>
         var package = "eternafold";
-        var versions = ["1.3.1"];
+        var versions = ["1.3.1","1.3.1"];
     </script>
 
 

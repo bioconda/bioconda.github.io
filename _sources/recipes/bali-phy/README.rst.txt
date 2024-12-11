@@ -29,21 +29,20 @@ bali-phy
       
       
 
-      ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
+      ``4.0beta16-1``,  ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
 
       
 
    
    :depends boost-cpp: ``>=1.83.0``
-   :depends cairo: ``>=1.18.0,<2.0a0``
+   :depends cairo: ``>=1.18.2,<2.0a0``
    :depends eigen: ``>=3.3.7``
    :depends fmt: ``>=10``
    :depends fmt: ``>=11.0.2,<12.0a0``
    :depends glib: 
    :depends gnuplot: 
-   :depends libgcc: ``>=12``
+   :depends libcxx: ``>=18``
    :depends libglib: ``>=2.82.2,<3.0a0``
-   :depends libstdcxx: ``>=12``
    :depends pandoc: 
    :depends perl: 
    :depends python: ``>=3.13,<3.14.0a0``
@@ -102,7 +101,7 @@ bali-phy
 
     <script>
         var package = "bali-phy";
-        var versions = ["4.0beta16","4.0beta15","4.0beta15","4.0beta14","4.0beta13"];
+        var versions = ["4.0beta16","4.0beta16","4.0beta15","4.0beta15","4.0beta14"];
     </script>
 
 

@@ -28,10 +28,10 @@ libsbml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.20.4-1</code>,  <code>5.20.4-0</code>,  <code>5.18.0-10</code>,  <code>5.18.0-9</code>,  <code>5.18.0-8</code>,  <code>5.18.0-7</code>,  <code>5.18.0-6</code>,  <code>5.18.0-5</code>,  <code>5.18.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.20.4-2</code>,  <code>5.20.4-1</code>,  <code>5.20.4-0</code>,  <code>5.18.0-10</code>,  <code>5.18.0-9</code>,  <code>5.18.0-8</code>,  <code>5.18.0-7</code>,  <code>5.18.0-6</code>,  <code>5.18.0-5</code>,  </span></summary>
       
 
-      ``5.20.4-1``,  ``5.20.4-0``,  ``5.18.0-10``,  ``5.18.0-9``,  ``5.18.0-8``,  ``5.18.0-7``,  ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
+      ``5.20.4-2``,  ``5.20.4-1``,  ``5.20.4-0``,  ``5.18.0-10``,  ``5.18.0-9``,  ``5.18.0-8``,  ``5.18.0-7``,  ``5.18.0-6``,  ``5.18.0-5``,  ``5.18.0-4``,  ``5.18.0-3``,  ``5.18.0-2``,  ``5.18.0-1``,  ``5.18.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,9 @@ libsbml
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends libxml2: ``>=2.10,<2.11.0a0``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -99,7 +98,7 @@ libsbml
 
     <script>
         var package = "libsbml";
-        var versions = ["5.20.4","5.20.4","5.18.0","5.18.0","5.18.0"];
+        var versions = ["5.20.4","5.20.4","5.20.4","5.18.0","5.18.0"];
     </script>
 
 

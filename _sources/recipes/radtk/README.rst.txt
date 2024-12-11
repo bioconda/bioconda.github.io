@@ -27,13 +27,13 @@ radtk
       
       
 
-      ``0.2.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -88,7 +88,7 @@ radtk
 
     <script>
         var package = "radtk";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.0","0.2.0"];
     </script>
 
 

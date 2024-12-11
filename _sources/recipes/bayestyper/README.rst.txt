@@ -30,15 +30,15 @@ bayestyper
       
       
 
-      ``1.5-3``,  ``1.5-2``,  ``1.5-0``
+      ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-0``
 
       
 
    
    :depends boost-cpp: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ bayestyper
 
     <script>
         var package = "bayestyper";
-        var versions = ["1.5","1.5","1.5"];
+        var versions = ["1.5","1.5","1.5","1.5"];
     </script>
 
 

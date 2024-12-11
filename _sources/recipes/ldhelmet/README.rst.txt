@@ -28,7 +28,7 @@ ldhelmet
       
       
 
-      ``1.10-7``,  ``1.10-6``,  ``1.10-5``,  ``1.10-4``,  ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
+      ``1.10-8``,  ``1.10-7``,  ``1.10-6``,  ``1.10-5``,  ``1.10-4``,  ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
 
       
 
@@ -36,8 +36,8 @@ ldhelmet
    :depends boost-cpp: 
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

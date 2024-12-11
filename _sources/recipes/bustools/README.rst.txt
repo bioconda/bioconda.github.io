@@ -32,10 +32,10 @@ bustools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.44.1-0</code>,  <code>0.44.0-0</code>,  <code>0.43.2-2</code>,  <code>0.43.2-1</code>,  <code>0.43.2-0</code>,  <code>0.43.1-0</code>,  <code>0.43.0-0</code>,  <code>0.42.0-2</code>,  <code>0.42.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.44.1-1</code>,  <code>0.44.1-0</code>,  <code>0.44.0-0</code>,  <code>0.43.2-2</code>,  <code>0.43.2-1</code>,  <code>0.43.2-0</code>,  <code>0.43.1-0</code>,  <code>0.43.0-0</code>,  <code>0.42.0-2</code>,  </span></summary>
       
 
-      ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.2-2``,  ``0.43.2-1``,  ``0.43.2-0``,  ``0.43.1-0``,  ``0.43.0-0``,  ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.41.0-2``,  ``0.41.0-1``,  ``0.41.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.39.4-0``,  ``0.39.3-0``,  ``0.39.2-0``
+      ``0.44.1-1``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.2-2``,  ``0.43.2-1``,  ``0.43.2-0``,  ``0.43.1-0``,  ``0.43.0-0``,  ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.41.0-2``,  ``0.41.0-1``,  ``0.41.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.39.4-0``,  ``0.39.3-0``,  ``0.39.2-0``
 
       
       .. raw:: html
@@ -45,9 +45,8 @@ bustools
 
    
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -102,7 +101,7 @@ bustools
 
     <script>
         var package = "bustools";
-        var versions = ["0.44.1","0.44.0","0.43.2","0.43.2","0.43.2"];
+        var versions = ["0.44.1","0.44.1","0.44.0","0.43.2","0.43.2"];
     </script>
 
 

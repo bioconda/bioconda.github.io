@@ -27,13 +27,13 @@ bed2gff
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ bed2gff
 
     <script>
         var package = "bed2gff";
-        var versions = ["0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.1.5","0.1.5","0.1.4","0.1.3"];
     </script>
 
 

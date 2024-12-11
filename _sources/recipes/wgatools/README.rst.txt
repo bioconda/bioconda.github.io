@@ -27,13 +27,13 @@ wgatools
       
       
 
-      ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends openssl: ``>=3.3.0,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :depends perl: 
    :requirements:
 
@@ -85,7 +85,7 @@ wgatools
 
     <script>
         var package = "wgatools";
-        var versions = ["0.1.1","0.1.0","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0","0.1.0"];
     </script>
 
 

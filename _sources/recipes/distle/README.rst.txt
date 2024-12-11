@@ -27,12 +27,11 @@ distle
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -83,7 +82,7 @@ distle
 
     <script>
         var package = "distle";
-        var versions = ["0.2.0","0.1.1"];
+        var versions = ["0.2.0","0.2.0","0.1.1"];
     </script>
 
 

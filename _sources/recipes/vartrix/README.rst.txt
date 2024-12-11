@@ -28,16 +28,15 @@ vartrix
       
       
 
-      ``1.1.22-4``,  ``1.1.22-3``,  ``1.1.22-2``,  ``1.1.22-1``,  ``1.1.22-0``
+      ``1.1.22-5``,  ``1.1.22-4``,  ``1.1.22-3``,  ``1.1.22-2``,  ``1.1.22-1``,  ``1.1.22-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libcxx: ``>=18``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:

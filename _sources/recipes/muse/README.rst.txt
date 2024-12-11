@@ -32,10 +32,10 @@ muse
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>1.0.rc-8</code>,  <code>1.0.rc-7</code>,  <code>1.0.rc-6</code>,  <code>1.0.rc-5</code>,  <code>1.0.rc-4</code>,  <code>1.0.rc-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-3</code>,  <code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>1.0.rc-8</code>,  <code>1.0.rc-7</code>,  <code>1.0.rc-6</code>,  <code>1.0.rc-5</code>,  <code>1.0.rc-4</code>,  </span></summary>
       
 
-      ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``1.0.rc-8``,  ``1.0.rc-7``,  ``1.0.rc-6``,  ``1.0.rc-5``,  ``1.0.rc-4``,  ``1.0.rc-3``,  ``1.0.rc-2``,  ``1.0.rc-1``,  ``1.0.rc-0``
+      ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``1.0.rc-8``,  ``1.0.rc-7``,  ``1.0.rc-6``,  ``1.0.rc-5``,  ``1.0.rc-4``,  ``1.0.rc-3``,  ``1.0.rc-2``,  ``1.0.rc-1``,  ``1.0.rc-0``
 
       
       .. raw:: html
@@ -47,12 +47,12 @@ muse
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends icu: ``>=73.2,<74.0a0``
-   :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libgcc: ``>=12``
+   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -107,7 +107,7 @@ muse
 
     <script>
         var package = "muse";
-        var versions = ["2.1.2","2.1.2","2.1.2","1.0.rc","1.0.rc"];
+        var versions = ["2.1.2","2.1.2","2.1.2","2.1.2","1.0.rc"];
     </script>
 
 

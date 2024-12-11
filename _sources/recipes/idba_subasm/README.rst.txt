@@ -28,10 +28,10 @@ idba_subasm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.3a2-8</code>,  <code>1.1.3a2-7</code>,  <code>1.1.3a2-6</code>,  <code>1.1.3a2-5</code>,  <code>1.1.3a2-4</code>,  <code>1.1.3a2-3</code>,  <code>1.1.3a2-2</code>,  <code>1.1.3a2-1</code>,  <code>1.1.3a2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.3a2-9</code>,  <code>1.1.3a2-8</code>,  <code>1.1.3a2-7</code>,  <code>1.1.3a2-6</code>,  <code>1.1.3a2-5</code>,  <code>1.1.3a2-4</code>,  <code>1.1.3a2-3</code>,  <code>1.1.3a2-2</code>,  <code>1.1.3a2-1</code>,  </span></summary>
       
 
-      ``1.1.3a2-8``,  ``1.1.3a2-7``,  ``1.1.3a2-6``,  ``1.1.3a2-5``,  ``1.1.3a2-4``,  ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
+      ``1.1.3a2-9``,  ``1.1.3a2-8``,  ``1.1.3a2-7``,  ``1.1.3a2-6``,  ``1.1.3a2-5``,  ``1.1.3a2-4``,  ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ idba_subasm
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

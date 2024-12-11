@@ -27,15 +27,14 @@ kmercamel
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends glpk: ``>=5.0,<6.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +90,7 @@ kmercamel
 
     <script>
         var package = "kmercamel";
-        var versions = ["1.0.2","1.0.2"];
+        var versions = ["1.0.2","1.0.2","1.0.2"];
     </script>
 
 

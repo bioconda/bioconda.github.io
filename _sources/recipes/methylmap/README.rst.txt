@@ -27,9 +27,17 @@ methylmap
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  </span></summary>
+      
 
+      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -94,7 +102,7 @@ methylmap
 
     <script>
         var package = "methylmap";
-        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.4.6"];
+        var versions = ["0.5.5","0.5.4","0.5.3","0.5.2","0.5.1"];
     </script>
 
 

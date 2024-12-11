@@ -31,10 +31,10 @@ cd-hit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.8.1-11</code>,  <code>4.8.1-10</code>,  <code>4.8.1-9</code>,  <code>4.8.1-8</code>,  <code>4.8.1-7</code>,  <code>4.8.1-6</code>,  <code>4.8.1-5</code>,  <code>4.8.1-4</code>,  <code>4.8.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.8.1-12</code>,  <code>4.8.1-11</code>,  <code>4.8.1-10</code>,  <code>4.8.1-9</code>,  <code>4.8.1-8</code>,  <code>4.8.1-7</code>,  <code>4.8.1-6</code>,  <code>4.8.1-5</code>,  <code>4.8.1-4</code>,  </span></summary>
       
 
-      ``4.8.1-11``,  ``4.8.1-10``,  ``4.8.1-9``,  ``4.8.1-8``,  ``4.8.1-7``,  ``4.8.1-6``,  ``4.8.1-5``,  ``4.8.1-4``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``,  ``4.8.1-0``,  ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``,  ``4.6.6-0``,  ``4.6.4-1``,  ``4.6.4-0``
+      ``4.8.1-12``,  ``4.8.1-11``,  ``4.8.1-10``,  ``4.8.1-9``,  ``4.8.1-8``,  ``4.8.1-7``,  ``4.8.1-6``,  ``4.8.1-5``,  ``4.8.1-4``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``,  ``4.8.1-0``,  ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``,  ``4.6.6-0``,  ``4.6.4-1``,  ``4.6.4-0``
 
       
       .. raw:: html
@@ -43,10 +43,9 @@ cd-hit
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
    :requirements:
 
    :additional platforms:

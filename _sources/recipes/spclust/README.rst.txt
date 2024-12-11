@@ -27,15 +27,14 @@ spclust
       
       
 
-      ``28.5.19-0``
+      ``28.5.19-1``,  ``28.5.19-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends openmpi-mpicxx: 
    :depends zlib: 
    :requirements:
@@ -88,7 +87,7 @@ spclust
 
     <script>
         var package = "spclust";
-        var versions = ["28.5.19"];
+        var versions = ["28.5.19","28.5.19"];
     </script>
 
 

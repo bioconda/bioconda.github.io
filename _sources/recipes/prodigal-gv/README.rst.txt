@@ -28,10 +28,10 @@ prodigal-gv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.0-4</code>,  <code>2.11.0-3</code>,  <code>2.11.0-2</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-0</code>,  <code>2.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11.0-5</code>,  <code>2.11.0-4</code>,  <code>2.11.0-3</code>,  <code>2.11.0-2</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-0</code>,  </span></summary>
       
 
-      ``2.11.0-4``,  ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``
+      ``2.11.0-5``,  ``2.11.0-4``,  ``2.11.0-3``,  ``2.11.0-2``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.3-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ prodigal-gv
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

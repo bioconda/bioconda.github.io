@@ -26,14 +26,21 @@ bambamc
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.50-8``,  ``0.0.50-7``,  ``0.0.50-6``,  ``0.0.50-5``,  ``0.0.50-4``,  ``0.0.50-3``,  ``0.0.50-2``,  ``0.0.50-1``,  ``0.0.50-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.50-9</code>,  <code>0.0.50-8</code>,  <code>0.0.50-7</code>,  <code>0.0.50-6</code>,  <code>0.0.50-5</code>,  <code>0.0.50-4</code>,  <code>0.0.50-3</code>,  <code>0.0.50-2</code>,  <code>0.0.50-1</code>,  </span></summary>
+      
 
+      ``0.0.50-9``,  ``0.0.50-8``,  ``0.0.50-7``,  ``0.0.50-6``,  ``0.0.50-5``,  ``0.0.50-4``,  ``0.0.50-3``,  ``0.0.50-2``,  ``0.0.50-1``,  ``0.0.50-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

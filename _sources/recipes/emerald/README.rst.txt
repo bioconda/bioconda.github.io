@@ -28,14 +28,14 @@ emerald
       
       
 
-      ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
 
    
    :depends gmp: ``>=6.3.0,<7.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends openmp: 
    :requirements:
 
@@ -87,7 +87,7 @@ emerald
 
     <script>
         var package = "emerald";
-        var versions = ["1.2.1","1.2.1","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.2.1","1.2.1","1.2.1","1.1.0","1.1.0"];
     </script>
 
 

@@ -30,10 +30,10 @@ trf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.09.1-6</code>,  <code>4.09.1-5</code>,  <code>4.09.1-4</code>,  <code>4.09.1-3</code>,  <code>4.09.1-2</code>,  <code>4.09.1-1</code>,  <code>4.09.1-0</code>,  <code>4.09-2</code>,  <code>4.09-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.09.1-7</code>,  <code>4.09.1-6</code>,  <code>4.09.1-5</code>,  <code>4.09.1-4</code>,  <code>4.09.1-3</code>,  <code>4.09.1-2</code>,  <code>4.09.1-1</code>,  <code>4.09.1-0</code>,  <code>4.09-2</code>,  </span></summary>
       
 
-      ``4.09.1-6``,  ``4.09.1-5``,  ``4.09.1-4``,  ``4.09.1-3``,  ``4.09.1-2``,  ``4.09.1-1``,  ``4.09.1-0``,  ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
+      ``4.09.1-7``,  ``4.09.1-6``,  ``4.09.1-5``,  ``4.09.1-4``,  ``4.09.1-3``,  ``4.09.1-2``,  ``4.09.1-1``,  ``4.09.1-0``,  ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ trf
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:

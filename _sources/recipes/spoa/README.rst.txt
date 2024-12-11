@@ -31,10 +31,10 @@ spoa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.4-2</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.8-0</code>,  <code>4.0.7-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.4-3</code>,  <code>4.1.4-2</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.8-0</code>,  </span></summary>
       
 
-      ``4.1.4-2``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-5``,  ``4.0.7-4``,  ``4.0.7-3``,  ``4.0.7-2``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``4.1.4-3``,  ``4.1.4-2``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-5``,  ``4.0.7-4``,  ``4.0.7-3``,  ``4.0.7-2``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -44,9 +44,9 @@ spoa
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ spoa
 
     <script>
         var package = "spoa";
-        var versions = ["4.1.4","4.1.4","4.1.4","4.1.3","4.1.2"];
+        var versions = ["4.1.4","4.1.4","4.1.4","4.1.4","4.1.3"];
     </script>
 
 

@@ -28,10 +28,10 @@ smhasher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.150.1-10</code>,  <code>0.150.1-9</code>,  <code>0.150.1-7</code>,  <code>0.150.1-6</code>,  <code>0.150.1-5</code>,  <code>0.150.1-4</code>,  <code>0.150.1-3</code>,  <code>0.150.1-2</code>,  <code>0.150.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.150.1-11</code>,  <code>0.150.1-10</code>,  <code>0.150.1-9</code>,  <code>0.150.1-7</code>,  <code>0.150.1-6</code>,  <code>0.150.1-5</code>,  <code>0.150.1-4</code>,  <code>0.150.1-3</code>,  <code>0.150.1-2</code>,  </span></summary>
       
 
-      ``0.150.1-10``,  ``0.150.1-9``,  ``0.150.1-7``,  ``0.150.1-6``,  ``0.150.1-5``,  ``0.150.1-4``,  ``0.150.1-3``,  ``0.150.1-2``,  ``0.150.1-1``,  ``0.150.1-0``
+      ``0.150.1-11``,  ``0.150.1-10``,  ``0.150.1-9``,  ``0.150.1-7``,  ``0.150.1-6``,  ``0.150.1-5``,  ``0.150.1-4``,  ``0.150.1-3``,  ``0.150.1-2``,  ``0.150.1-1``,  ``0.150.1-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ smhasher
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:

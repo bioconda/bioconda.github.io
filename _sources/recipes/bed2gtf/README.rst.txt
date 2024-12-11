@@ -27,13 +27,12 @@ bed2gtf
       
       
 
-      ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``
+      ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -88,7 +87,7 @@ bed2gtf
 
     <script>
         var package = "bed2gtf";
-        var versions = ["1.9.3","1.9.3","1.9.2","1.9.1","1.9.0"];
+        var versions = ["1.9.3","1.9.3","1.9.3","1.9.2","1.9.1"];
     </script>
 
 

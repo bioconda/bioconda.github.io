@@ -28,10 +28,10 @@ plink2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.00a5.12-0</code>,  <code>2.00a5.10-0</code>,  <code>2.00a5-0</code>,  <code>2.00a3.7-4</code>,  <code>2.00a3.7-3</code>,  <code>2.00a3.7-2</code>,  <code>2.00a3.7-1</code>,  <code>2.00a3.7-0</code>,  <code>2.00a3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.00a5.12-1</code>,  <code>2.00a5.12-0</code>,  <code>2.00a5.10-0</code>,  <code>2.00a5-0</code>,  <code>2.00a3.7-4</code>,  <code>2.00a3.7-3</code>,  <code>2.00a3.7-2</code>,  <code>2.00a3.7-1</code>,  <code>2.00a3.7-0</code>,  </span></summary>
       
 
-      ``2.00a5.12-0``,  ``2.00a5.10-0``,  ``2.00a5-0``,  ``2.00a3.7-4``,  ``2.00a3.7-3``,  ``2.00a3.7-2``,  ``2.00a3.7-1``,  ``2.00a3.7-0``,  ``2.00a3.3-0``,  ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
+      ``2.00a5.12-1``,  ``2.00a5.12-0``,  ``2.00a5.10-0``,  ``2.00a5-0``,  ``2.00a3.7-4``,  ``2.00a3.7-3``,  ``2.00a3.7-2``,  ``2.00a3.7-1``,  ``2.00a3.7-0``,  ``2.00a3.3-0``,  ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ plink2
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -92,7 +91,7 @@ plink2
 
     <script>
         var package = "plink2";
-        var versions = ["2.00a5.12","2.00a5.10","2.00a5","2.00a3.7","2.00a3.7"];
+        var versions = ["2.00a5.12","2.00a5.12","2.00a5.10","2.00a5","2.00a3.7"];
     </script>
 
 

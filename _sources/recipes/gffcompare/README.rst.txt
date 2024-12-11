@@ -29,10 +29,10 @@ gffcompare
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.6-3</code>,  <code>0.12.6-2</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.11.2-3</code>,  <code>0.11.2-2</code>,  <code>0.11.2-1</code>,  <code>0.11.2-0</code>,  <code>0.10.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.6-4</code>,  <code>0.12.6-3</code>,  <code>0.12.6-2</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.11.2-3</code>,  <code>0.11.2-2</code>,  <code>0.11.2-1</code>,  <code>0.11.2-0</code>,  </span></summary>
       
 
-      ``0.12.6-3``,  ``0.12.6-2``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
+      ``0.12.6-4``,  ``0.12.6-3``,  ``0.12.6-2``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ gffcompare
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -97,7 +96,7 @@ gffcompare
 
     <script>
         var package = "gffcompare";
-        var versions = ["0.12.6","0.12.6","0.12.6","0.12.6","0.11.2"];
+        var versions = ["0.12.6","0.12.6","0.12.6","0.12.6","0.12.6"];
     </script>
 
 

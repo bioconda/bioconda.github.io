@@ -31,14 +31,13 @@ pgenlib
       
       
 
-      ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
+      ``0.91.0-1``,  ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.19.0``
    :depends numpy: ``>=1.21,<3``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -97,7 +96,7 @@ pgenlib
 
     <script>
         var package = "pgenlib";
-        var versions = ["0.91.0","0.90.2","0.90.2","0.90.1"];
+        var versions = ["0.91.0","0.91.0","0.90.2","0.90.2","0.90.1"];
     </script>
 
 

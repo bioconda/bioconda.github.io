@@ -29,13 +29,20 @@ bigtools
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+      
 
+      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -90,7 +97,7 @@ bigtools
 
     <script>
         var package = "bigtools";
-        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.5.0"];
+        var versions = ["0.5.4","0.5.4","0.5.3","0.5.2","0.5.1"];
     </script>
 
 

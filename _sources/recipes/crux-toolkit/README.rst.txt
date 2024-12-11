@@ -28,13 +28,12 @@ crux-toolkit
       
       
 
-      ``4.1-2``,  ``4.1-1``,  ``4.1-0``,  ``3.2-3``,  ``3.2-2``,  ``3.2-1``,  ``3.2-0``
+      ``4.1-3``,  ``4.1-2``,  ``4.1-1``,  ``4.1-0``,  ``3.2-3``,  ``3.2-2``,  ``3.2-1``,  ``3.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -85,7 +84,7 @@ crux-toolkit
 
     <script>
         var package = "crux-toolkit";
-        var versions = ["4.1","4.1","4.1","3.2","3.2"];
+        var versions = ["4.1","4.1","4.1","4.1","3.2"];
     </script>
 
 

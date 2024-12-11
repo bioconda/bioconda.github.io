@@ -28,10 +28,10 @@ savvy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-4</code>,  <code>2.0.1-3</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-4</code>,  <code>2.0.1-3</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,10 @@ savvy
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends shrinkwrap: 
-   :depends zstd: ``>=1.5.2,<1.6.0a0``
+   :depends zstd: ``>=1.5.6,<1.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +94,7 @@ savvy
 
     <script>
         var package = "savvy";
-        var versions = ["2.1.0","2.1.0","2.1.0","2.0.1","2.0.1"];
+        var versions = ["2.1.0","2.1.0","2.1.0","2.1.0","2.0.1"];
     </script>
 
 

@@ -27,14 +27,13 @@ haplomap
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -89,7 +88,7 @@ haplomap
 
     <script>
         var package = "haplomap";
-        var versions = ["0.1.2","0.1.1","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.2","0.1.2","0.1.1","0.1.0","0.1.0"];
     </script>
 
 

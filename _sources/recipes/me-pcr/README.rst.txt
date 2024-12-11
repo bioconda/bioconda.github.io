@@ -41,13 +41,12 @@ me-pcr
       
       
 
-      ``1.0.6-0``
+      ``1.0.6-1``,  ``1.0.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -98,7 +97,7 @@ me-pcr
 
     <script>
         var package = "me-pcr";
-        var versions = ["1.0.6"];
+        var versions = ["1.0.6","1.0.6"];
     </script>
 
 

@@ -27,13 +27,13 @@ extract_fullseq
       
       
 
-      ``3.101-5``,  ``3.101-4``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
+      ``3.101-6``,  ``3.101-5``,  ``3.101-4``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

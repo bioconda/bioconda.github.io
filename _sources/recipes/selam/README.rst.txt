@@ -36,14 +36,13 @@ selam
       
       
 
-      ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``
+      ``0.9-4``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -98,7 +97,7 @@ selam
 
     <script>
         var package = "selam";
-        var versions = ["0.9","0.9","0.9","0.9"];
+        var versions = ["0.9","0.9","0.9","0.9","0.9"];
     </script>
 
 

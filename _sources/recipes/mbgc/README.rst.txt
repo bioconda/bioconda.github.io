@@ -28,15 +28,13 @@ mbgc
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``
+      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=12``
-   :depends libgomp: 
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
+   :depends llvm-openmp: ``>=18.1.8``
    :requirements:
 
    :additional platforms:
@@ -91,7 +89,7 @@ mbgc
 
     <script>
         var package = "mbgc";
-        var versions = ["2.0.1","2.0.1","2.0","1.2.1","1.2.1"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0","1.2.1"];
     </script>
 
 

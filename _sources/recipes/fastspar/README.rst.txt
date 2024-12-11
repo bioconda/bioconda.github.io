@@ -33,19 +33,27 @@ fastspar
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-6</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  </span></summary>
+      
 
+      ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends armadillo: ``>=12.2,<13.0a0``
+   :depends armadillo: ``>=14.2,<15.0a0``
    :depends armadillo: ``>=7.800.1``
+   :depends gnu-getopt: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=13.2.0``
    :depends openblas: ``* *openmp*``
    :requirements:
 

@@ -28,12 +28,11 @@ gemf_favites
       
       
 
-      ``1.0.3-0``
+      ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends python: ``>=3.7``
    :requirements:
 
@@ -85,7 +84,7 @@ gemf_favites
 
     <script>
         var package = "gemf_favites";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.3","1.0.3"];
     </script>
 
 

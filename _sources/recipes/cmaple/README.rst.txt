@@ -30,14 +30,14 @@ cmaple
       
       
 
-      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ cmaple
 
     <script>
         var package = "cmaple";
-        var versions = ["1.1.0","1.0.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,15 +27,23 @@ goat
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.0-0``,  ``0.1.55-0``,  ``0.1.54-0``,  ``0.1.51-1``,  ``0.1.51-0``,  ``0.1.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.5-3</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.0-0</code>,  <code>0.1.55-0</code>,  <code>0.1.54-0</code>,  <code>0.1.51-1</code>,  <code>0.1.51-0</code>,  </span></summary>
+      
 
+      ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.0-0``,  ``0.1.55-0``,  ``0.1.54-0``,  ``0.1.51-1``,  ``0.1.51-0``,  ``0.1.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends openssl: ``>=3.1.0,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +94,7 @@ goat
 
     <script>
         var package = "goat";
-        var versions = ["0.2.5","0.2.5","0.2.5","0.2.0","0.1.55"];
+        var versions = ["0.2.5","0.2.5","0.2.5","0.2.5","0.2.0"];
     </script>
 
 

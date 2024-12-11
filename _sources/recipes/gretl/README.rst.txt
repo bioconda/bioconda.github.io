@@ -27,12 +27,11 @@ gretl
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc: ``>=12``
    :depends matplotlib-base: ``>=3.9``
    :depends numpy: ``>=2.1.3``
    :depends pandas: ``>=2.1.3``
@@ -92,7 +91,7 @@ gretl
 
     <script>
         var package = "gretl";
-        var versions = ["0.1.1","0.1.1","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.0"];
     </script>
 
 

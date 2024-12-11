@@ -12,7 +12,7 @@ bioconductor-mpra
 
    Analyze massively parallel reporter assays
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mpra.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mpra.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mpra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-mpra
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-mpra
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocgenerics: ``>=0.48.0``
+   :depends bioconductor-limma: ``>=3.58.0``
+   :depends bioconductor-s4vectors: ``>=0.40.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.32.0``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-scales: 
    :depends r-statmod: 
@@ -97,7 +97,7 @@ bioconductor-mpra
 
     <script>
         var package = "bioconductor-mpra";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.16.0"];
     </script>
 
 

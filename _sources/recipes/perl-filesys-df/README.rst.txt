@@ -26,13 +26,21 @@ perl-filesys-df
    :versions:
       
       
+      .. raw:: html
 
-      ``0.92-8``,  ``0.92-7``,  ``0.92-6``,  ``0.92-5``,  ``0.92-4``,  ``0.92-3``,  ``0.92-2``,  ``0.92-1``,  ``0.92-0``
+         <details><summary><span class="truncated-version-list"><code>0.92-9</code>,  <code>0.92-8</code>,  <code>0.92-7</code>,  <code>0.92-6</code>,  <code>0.92-5</code>,  <code>0.92-4</code>,  <code>0.92-3</code>,  <code>0.92-2</code>,  <code>0.92-1</code>,  </span></summary>
+      
 
+      ``0.92-9``,  ``0.92-8``,  ``0.92-7``,  ``0.92-6``,  ``0.92-5``,  ``0.92-4``,  ``0.92-3``,  ``0.92-2``,  ``0.92-1``,  ``0.92-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 

@@ -30,10 +30,10 @@ trimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.1-9</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.1-9</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  </span></summary>
       
 
-      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -42,8 +42,7 @@ trimal
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -98,7 +97,7 @@ trimal
 
     <script>
         var package = "trimal";
-        var versions = ["1.5.0","1.5.0","1.4.1","1.4.1","1.4.1"];
+        var versions = ["1.5.0","1.5.0","1.5.0","1.4.1","1.4.1"];
     </script>
 
 

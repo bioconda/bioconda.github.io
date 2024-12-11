@@ -30,17 +30,25 @@ ucsc-netsyntenic
    :versions:
       
       
+      .. raw:: html
 
-      ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-1``,  ``357-0``,  ``332-0``
+         <details><summary><span class="truncated-version-list"><code>469-1</code>,  <code>469-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-1</code>,  <code>357-0</code>,  </span></summary>
+      
 
+      ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-1``,  ``357-0``,  ``332-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.43,<1.7.0a0``
+   :depends libpng: ``>=1.6.44,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :depends zlib: 
    :requirements:
@@ -97,7 +105,7 @@ ucsc-netsyntenic
 
     <script>
         var package = "ucsc-netsyntenic";
-        var versions = ["469","377","377","377","377"];
+        var versions = ["469","469","377","377","377"];
     </script>
 
 

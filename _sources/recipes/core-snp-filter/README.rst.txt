@@ -27,13 +27,12 @@ core-snp-filter
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -88,7 +87,7 @@ core-snp-filter
 
     <script>
         var package = "core-snp-filter";
-        var versions = ["0.2.0","0.2.0","0.1.1","0.1.1"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.1.1","0.1.1"];
     </script>
 
 

@@ -29,10 +29,10 @@ tidk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.63-1</code>,  <code>0.2.63-0</code>,  <code>0.2.41-0</code>,  <code>0.2.31-2</code>,  <code>0.2.31-1</code>,  <code>0.2.31-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.63-2</code>,  <code>0.2.63-1</code>,  <code>0.2.63-0</code>,  <code>0.2.41-0</code>,  <code>0.2.31-2</code>,  <code>0.2.31-1</code>,  <code>0.2.31-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.2.63-1``,  ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.2.63-2``,  ``0.2.63-1``,  ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
       .. raw:: html
@@ -41,9 +41,8 @@ tidk
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends openssl: ``>=3.3.2,<4.0a0``
+   :depends libcxx: ``>=18``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -98,7 +97,7 @@ tidk
 
     <script>
         var package = "tidk";
-        var versions = ["0.2.63","0.2.63","0.2.41","0.2.31","0.2.31"];
+        var versions = ["0.2.63","0.2.63","0.2.63","0.2.41","0.2.31"];
     </script>
 
 

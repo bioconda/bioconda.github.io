@@ -29,10 +29,10 @@ clark
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.6.1-4</code>,  <code>1.2.6.1-3</code>,  <code>1.2.6.1-2</code>,  <code>1.2.6.1-1</code>,  <code>1.2.6.1-0</code>,  <code>1.2.5.1-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.6.1-5</code>,  <code>1.2.6.1-4</code>,  <code>1.2.6.1-3</code>,  <code>1.2.6.1-2</code>,  <code>1.2.6.1-1</code>,  <code>1.2.6.1-0</code>,  <code>1.2.5.1-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  </span></summary>
       
 
-      ``1.2.6.1-4``,  ``1.2.6.1-3``,  ``1.2.6.1-2``,  ``1.2.6.1-1``,  ``1.2.6.1-0``,  ``1.2.5.1-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3.1-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.2_b-0``
+      ``1.2.6.1-5``,  ``1.2.6.1-4``,  ``1.2.6.1-3``,  ``1.2.6.1-2``,  ``1.2.6.1-1``,  ``1.2.6.1-0``,  ``1.2.5.1-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3.1-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.2_b-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ clark
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends tar: 
    :requirements:
 

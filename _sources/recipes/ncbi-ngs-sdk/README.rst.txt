@@ -28,10 +28,10 @@ ncbi-ngs-sdk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.1-4</code>,  <code>3.0.1-3</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>2.11.2-1</code>,  <code>2.11.2-0</code>,  <code>2.11.1-0</code>,  <code>2.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-5</code>,  <code>3.0.1-4</code>,  <code>3.0.1-3</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>2.11.2-1</code>,  <code>2.11.2-0</code>,  <code>2.11.1-0</code>,  </span></summary>
       
 
-      ``3.0.1-4``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.9-1``,  ``2.10.9-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
+      ``3.0.1-5``,  ``3.0.1-4``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.9-1``,  ``2.10.9-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,9 @@ ncbi-ngs-sdk
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends libiconv: ``>=1.17,<2.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libxml2: ``>=2.12.7,<3.0a0``
+   :depends libxml2: ``>=2.13.5,<3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 

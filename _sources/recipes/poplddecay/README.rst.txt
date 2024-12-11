@@ -30,14 +30,13 @@ poplddecay
       
       
 
-      ``3.43-1``,  ``3.43-0``
+      ``3.43-2``,  ``3.43-1``,  ``3.43-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -92,7 +91,7 @@ poplddecay
 
     <script>
         var package = "poplddecay";
-        var versions = ["3.43","3.43"];
+        var versions = ["3.43","3.43","3.43"];
     </script>
 
 

@@ -28,10 +28,10 @@ poseidon-trident
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.7.0-0</code>,  <code>1.5.4.0-0</code>,  <code>1.5.0.1-0</code>,  <code>1.4.1.0-0</code>,  <code>1.3.0.4-0</code>,  <code>1.2.0.0-0</code>,  <code>1.1.11.0-2</code>,  <code>1.1.11.0-1</code>,  <code>1.1.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.7.0-1</code>,  <code>1.5.7.0-0</code>,  <code>1.5.4.0-0</code>,  <code>1.5.0.1-0</code>,  <code>1.4.1.0-0</code>,  <code>1.3.0.4-0</code>,  <code>1.2.0.0-0</code>,  <code>1.1.11.0-2</code>,  <code>1.1.11.0-1</code>,  </span></summary>
       
 
-      ``1.5.7.0-0``,  ``1.5.4.0-0``,  ``1.5.0.1-0``,  ``1.4.1.0-0``,  ``1.3.0.4-0``,  ``1.2.0.0-0``,  ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
+      ``1.5.7.0-1``,  ``1.5.7.0-0``,  ``1.5.4.0-0``,  ``1.5.0.1-0``,  ``1.4.1.0-0``,  ``1.3.0.4-0``,  ``1.2.0.0-0``,  ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ poseidon-trident
 
    
    :depends gmp: ``>=6.3.0,<7.0a0``
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -98,7 +97,7 @@ poseidon-trident
 
     <script>
         var package = "poseidon-trident";
-        var versions = ["1.5.7.0","1.5.4.0","1.5.0.1","1.4.1.0","1.3.0.4"];
+        var versions = ["1.5.7.0","1.5.7.0","1.5.4.0","1.5.0.1","1.4.1.0"];
     </script>
 
 

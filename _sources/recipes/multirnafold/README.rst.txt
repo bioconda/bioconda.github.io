@@ -27,13 +27,12 @@ multirnafold
       
       
 
-      ``2.1-0``
+      ``2.1-1``,  ``2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ multirnafold
 
     <script>
         var package = "multirnafold";
-        var versions = ["2.1"];
+        var versions = ["2.1","2.1"];
     </script>
 
 

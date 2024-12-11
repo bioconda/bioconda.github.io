@@ -26,14 +26,21 @@ perl-list-someutils
    :versions:
       
       
+      .. raw:: html
 
-      ``0.59-2``,  ``0.59-1``,  ``0.59-0``,  ``0.58-1``,  ``0.58-0``,  ``0.56-2``,  ``0.56-1``,  ``0.56-0``,  ``0.53-0``
+         <details><summary><span class="truncated-version-list"><code>0.59-3</code>,  <code>0.59-2</code>,  <code>0.59-1</code>,  <code>0.59-0</code>,  <code>0.58-1</code>,  <code>0.58-0</code>,  <code>0.56-2</code>,  <code>0.56-1</code>,  <code>0.56-0</code>,  </span></summary>
+      
 
+      ``0.59-3``,  ``0.59-2``,  ``0.59-1``,  ``0.59-0``,  ``0.58-1``,  ``0.58-0``,  ``0.56-2``,  ``0.56-1``,  ``0.56-0``,  ``0.53-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
@@ -89,7 +96,7 @@ perl-list-someutils
 
     <script>
         var package = "perl-list-someutils";
-        var versions = ["0.59","0.59","0.59","0.58","0.58"];
+        var versions = ["0.59","0.59","0.59","0.59","0.58"];
     </script>
 
 

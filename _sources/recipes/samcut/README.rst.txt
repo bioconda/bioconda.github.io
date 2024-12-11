@@ -27,13 +27,12 @@ samcut
       
       
 
-      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.0.10-0``
+      ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.0.10-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ samcut
 
     <script>
         var package = "samcut";
-        var versions = ["0.1.1","0.1.1","0.1.1","0.0.10"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1","0.0.10"];
     </script>
 
 

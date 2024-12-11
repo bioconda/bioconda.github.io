@@ -28,10 +28,10 @@ htsbox
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>r346-5</code>,  <code>r346-4</code>,  <code>r346-3</code>,  <code>r346-2</code>,  <code>r346-1</code>,  <code>r346-0</code>,  <code>r340-2</code>,  <code>r340-1</code>,  <code>r340-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>r346-6</code>,  <code>r346-5</code>,  <code>r346-4</code>,  <code>r346-3</code>,  <code>r346-2</code>,  <code>r346-1</code>,  <code>r346-0</code>,  <code>r340-2</code>,  <code>r340-1</code>,  </span></summary>
       
 
-      ``r346-5``,  ``r346-4``,  ``r346-3``,  ``r346-2``,  ``r346-1``,  ``r346-0``,  ``r340-2``,  ``r340-1``,  ``r340-0``,  ``r327-0``,  ``r315-4``,  ``r315-3``,  ``r315-2``,  ``r315-1``,  ``r315-0``,  ``r312-0``
+      ``r346-6``,  ``r346-5``,  ``r346-4``,  ``r346-3``,  ``r346-2``,  ``r346-1``,  ``r346-0``,  ``r340-2``,  ``r340-1``,  ``r340-0``,  ``r327-0``,  ``r315-5``,  ``r315-4``,  ``r315-3``,  ``r315-2``,  ``r315-1``,  ``r315-0``,  ``r312-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ htsbox
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

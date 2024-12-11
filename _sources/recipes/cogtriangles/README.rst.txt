@@ -28,13 +28,13 @@ cogtriangles
       
       
 
-      ``2012.04-2``,  ``2012.04-1``,  ``2012.04-0``
+      ``2012.04-3``,  ``2012.04-2``,  ``2012.04-1``,  ``2012.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ cogtriangles
 
     <script>
         var package = "cogtriangles";
-        var versions = ["2012.04","2012.04","2012.04"];
+        var versions = ["2012.04","2012.04","2012.04","2012.04"];
     </script>
 
 

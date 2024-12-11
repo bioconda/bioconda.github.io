@@ -27,12 +27,11 @@ segul
       
       
 
-      ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.3-0``
+      ``0.22.1-1``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -87,7 +86,7 @@ segul
 
     <script>
         var package = "segul";
-        var versions = ["0.22.1","0.22.0","0.21.3"];
+        var versions = ["0.22.1","0.22.1","0.22.0","0.21.3"];
     </script>
 
 

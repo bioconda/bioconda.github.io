@@ -26,14 +26,21 @@ perl-unicode-map
    :versions:
       
       
+      .. raw:: html
 
-      ``0.112-8``,  ``0.112-7``,  ``0.112-6``,  ``0.112-5``,  ``0.112-4``,  ``0.112-3``,  ``0.112-2``,  ``0.112-1``,  ``0.112-0``
+         <details><summary><span class="truncated-version-list"><code>0.112-9</code>,  <code>0.112-8</code>,  <code>0.112-7</code>,  <code>0.112-6</code>,  <code>0.112-5</code>,  <code>0.112-4</code>,  <code>0.112-3</code>,  <code>0.112-2</code>,  <code>0.112-1</code>,  </span></summary>
+      
 
+      ``0.112-9``,  ``0.112-8``,  ``0.112-7``,  ``0.112-6``,  ``0.112-5``,  ``0.112-4``,  ``0.112-3``,  ``0.112-2``,  ``0.112-1``,  ``0.112-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 

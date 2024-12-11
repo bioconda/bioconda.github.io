@@ -28,10 +28,10 @@ fastani
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34-4</code>,  <code>1.34-3</code>,  <code>1.34-2</code>,  <code>1.34-1</code>,  <code>1.34-0</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  <code>1.33-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34-5</code>,  <code>1.34-4</code>,  <code>1.34-3</code>,  <code>1.34-2</code>,  <code>1.34-1</code>,  <code>1.34-0</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  </span></summary>
       
 
-      ``1.34-4``,  ``1.34-3``,  ``1.34-2``,  ``1.34-1``,  ``1.34-0``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
+      ``1.34-5``,  ``1.34-4``,  ``1.34-3``,  ``1.34-2``,  ``1.34-1``,  ``1.34-0``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ fastani
    
    :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

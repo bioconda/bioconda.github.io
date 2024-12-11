@@ -27,14 +27,13 @@ slow5curl
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
    :depends curl: 
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -86,7 +85,7 @@ slow5curl
 
     <script>
         var package = "slow5curl";
-        var versions = ["0.2.1","0.2.0"];
+        var versions = ["0.2.1","0.2.1","0.2.0"];
     </script>
 
 

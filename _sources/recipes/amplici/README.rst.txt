@@ -28,16 +28,16 @@ amplici
       
       
 
-      ``2.2-0``
+      ``2.2-1``,  ``2.2-0``
 
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=12.4.0``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgfortran5: ``>=13.3.0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ amplici
 
     <script>
         var package = "amplici";
-        var versions = ["2.2"];
+        var versions = ["2.2","2.2"];
     </script>
 
 

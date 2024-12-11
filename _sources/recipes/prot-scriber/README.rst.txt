@@ -28,10 +28,10 @@ prot-scriber
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.6-2</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  </span></summary>
       
 
-      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ prot-scriber
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ prot-scriber
 
     <script>
         var package = "prot-scriber";
-        var versions = ["0.1.6","0.1.6","0.1.5","0.1.4","0.1.4"];
+        var versions = ["0.1.6","0.1.6","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

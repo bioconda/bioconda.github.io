@@ -26,14 +26,21 @@ fermi
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1_r751_beta-8``,  ``1.1_r751_beta-7``,  ``1.1_r751_beta-6``,  ``1.1_r751_beta-5``,  ``1.1_r751_beta-4``,  ``1.1_r751_beta-3``,  ``1.1_r751_beta-2``,  ``1.1_r751_beta-1``,  ``1.1_r751_beta-0``
+         <details><summary><span class="truncated-version-list"><code>1.1_r751_beta-9</code>,  <code>1.1_r751_beta-8</code>,  <code>1.1_r751_beta-7</code>,  <code>1.1_r751_beta-6</code>,  <code>1.1_r751_beta-5</code>,  <code>1.1_r751_beta-4</code>,  <code>1.1_r751_beta-3</code>,  <code>1.1_r751_beta-2</code>,  <code>1.1_r751_beta-1</code>,  </span></summary>
+      
 
+      ``1.1_r751_beta-9``,  ``1.1_r751_beta-8``,  ``1.1_r751_beta-7``,  ``1.1_r751_beta-6``,  ``1.1_r751_beta-5``,  ``1.1_r751_beta-4``,  ``1.1_r751_beta-3``,  ``1.1_r751_beta-2``,  ``1.1_r751_beta-1``,  ``1.1_r751_beta-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
    :depends zlib: 
    :requirements:

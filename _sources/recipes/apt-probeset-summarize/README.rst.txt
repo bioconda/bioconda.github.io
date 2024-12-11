@@ -27,13 +27,13 @@ apt-probeset-summarize
       
       
 
-      ``2.10.0-5``,  ``2.10.0-4``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``
+      ``2.10.0-6``,  ``2.10.0-5``,  ``2.10.0-4``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

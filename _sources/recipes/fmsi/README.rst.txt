@@ -30,14 +30,14 @@ fmsi
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends sdsl-lite: 
    :requirements:
 
@@ -93,7 +93,7 @@ fmsi
 
     <script>
         var package = "fmsi";
-        var versions = ["0.3.1","0.3.0","0.2.4","0.2.4"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.4","0.2.4"];
     </script>
 
 
