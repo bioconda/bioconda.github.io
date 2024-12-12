@@ -52,16 +52,15 @@ rpsbproc
       
       
 
-      ``0.5.0-1``,  ``0.5.0-0``
+      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=12``
-   :depends libsqlite: ``>=3.46.0,<4.0a0``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libsqlite: ``>=3.47.2,<4.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -116,7 +115,7 @@ rpsbproc
 
     <script>
         var package = "rpsbproc";
-        var versions = ["0.5.0","0.5.0"];
+        var versions = ["0.5.0","0.5.0","0.5.0"];
     </script>
 
 

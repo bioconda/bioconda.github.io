@@ -27,12 +27,11 @@ nedbit-features-calculator
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -87,7 +86,7 @@ nedbit-features-calculator
 
     <script>
         var package = "nedbit-features-calculator";
-        var versions = ["1.2","1.2"];
+        var versions = ["1.2","1.2","1.2"];
     </script>
 
 

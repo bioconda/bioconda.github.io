@@ -31,10 +31,10 @@ regenie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0-1</code>,  <code>4.0-0</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  <code>3.4.1-0</code>,  <code>3.4-0</code>,  <code>3.3-0</code>,  <code>3.2.9-0</code>,  <code>3.2.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0-2</code>,  <code>4.0-1</code>,  <code>4.0-0</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  <code>3.4.1-0</code>,  <code>3.4-0</code>,  <code>3.3-0</code>,  <code>3.2.9-0</code>,  </span></summary>
       
 
-      ``4.0-1``,  ``4.0-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2.9-0``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5.2-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2.4-0``,  ``3.2.2.3-0``,  ``3.2.2.1-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
+      ``4.0-2``,  ``4.0-1``,  ``4.0-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2.9-0``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5.2-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2.4-0``,  ``3.2.2.3-0``,  ``3.2.2.1-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
 
       
       .. raw:: html
@@ -43,14 +43,14 @@ regenie
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: ``1.74.*``
-   :depends libgcc: ``>=12``
-   :depends libgfortran: 
-   :depends libgfortran5: ``>=12.4.0``
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=13.2.0``
    :depends liblapack: ``>=3.9.0,<3.10.0a0``
-   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=19.1.5``
    :depends mkl: ``>=2020.4``
    :depends sqlite: 
    :depends zlib: 
@@ -105,7 +105,7 @@ regenie
 
     <script>
         var package = "regenie";
-        var versions = ["4.0","4.0","3.6","3.5","3.4.1"];
+        var versions = ["4.0","4.0","4.0","3.6","3.5"];
     </script>
 
 

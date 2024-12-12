@@ -27,12 +27,11 @@ perl-class-methodmaker
       
       
 
-      ``2.25-0``,  ``2.24-5``,  ``2.24-4``,  ``2.24-3``,  ``2.24-2``,  ``2.24-1``,  ``2.24-0``
+      ``2.25-1``,  ``2.25-0``,  ``2.24-5``,  ``2.24-4``,  ``2.24-3``,  ``2.24-2``,  ``2.24-1``,  ``2.24-0``
 
       
 
    
-   :depends libgcc: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-getopt-long: ``>=2.58,<3.0a0``
@@ -92,7 +91,7 @@ perl-class-methodmaker
 
     <script>
         var package = "perl-class-methodmaker";
-        var versions = ["2.25","2.24","2.24","2.24","2.24"];
+        var versions = ["2.25","2.25","2.24","2.24","2.24"];
     </script>
 
 

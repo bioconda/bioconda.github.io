@@ -27,13 +27,13 @@ piler-cr
       
       
 
-      ``1.06-4``,  ``1.06-3``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
+      ``1.06-5``,  ``1.06-4``,  ``1.06-3``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

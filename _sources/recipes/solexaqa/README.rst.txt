@@ -28,16 +28,16 @@ solexaqa
       
       
 
-      ``3.1.7.1-6``,  ``3.1.7.1-5``,  ``3.1.7.1-4``,  ``3.1.7.1-3``,  ``3.1.7.1-2``,  ``3.1.7.1-1``,  ``3.1.7.1-0``
+      ``3.1.7.1-7``,  ``3.1.7.1-6``,  ``3.1.7.1-5``,  ``3.1.7.1-4``,  ``3.1.7.1-3``,  ``3.1.7.1-2``,  ``3.1.7.1-1``,  ``3.1.7.1-0``
 
       
 
    
    :depends boost-cpp: 
    :depends icu: ``>=73.2,<74.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

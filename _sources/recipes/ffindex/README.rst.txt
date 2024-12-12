@@ -27,13 +27,12 @@ ffindex
       
       
 
-      ``0.98-4``,  ``0.98-3``,  ``0.98-2``,  ``0.98-1``,  ``0.98-0``
+      ``0.98-5``,  ``0.98-4``,  ``0.98-3``,  ``0.98-2``,  ``0.98-1``,  ``0.98-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

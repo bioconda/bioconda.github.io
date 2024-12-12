@@ -30,10 +30,10 @@ meraculous
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.6-8</code>,  <code>2.2.6-7</code>,  <code>2.2.6-6</code>,  <code>2.2.6-5</code>,  <code>2.2.6-4</code>,  <code>2.2.6-3</code>,  <code>2.2.6-2</code>,  <code>2.2.6-1</code>,  <code>2.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.6-9</code>,  <code>2.2.6-8</code>,  <code>2.2.6-7</code>,  <code>2.2.6-6</code>,  <code>2.2.6-5</code>,  <code>2.2.6-4</code>,  <code>2.2.6-3</code>,  <code>2.2.6-2</code>,  <code>2.2.6-1</code>,  </span></summary>
       
 
-      ``2.2.6-8``,  ``2.2.6-7``,  ``2.2.6-6``,  ``2.2.6-5``,  ``2.2.6-4``,  ``2.2.6-3``,  ``2.2.6-2``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5.1.1.ga103cd6-0``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``
+      ``2.2.6-9``,  ``2.2.6-8``,  ``2.2.6-7``,  ``2.2.6-6``,  ``2.2.6-5``,  ``2.2.6-4``,  ``2.2.6-3``,  ``2.2.6-2``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5.1.1.ga103cd6-0``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``
 
       
       .. raw:: html
@@ -44,10 +44,10 @@ meraculous
    
    :depends boost-cpp: 
    :depends gnuplot: ``>=3.7``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgd: ``>=2.0``
    :depends libgd: ``>=2.3.3,<2.4.0a0``
-   :depends libstdcxx: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-log-log4perl: ``>=1.31``
    :requirements:

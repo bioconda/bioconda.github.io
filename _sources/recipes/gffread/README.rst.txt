@@ -30,10 +30,10 @@ gffread
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.7-4</code>,  <code>0.12.7-3</code>,  <code>0.12.7-2</code>,  <code>0.12.7-1</code>,  <code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.11.7-0</code>,  <code>0.11.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.7-5</code>,  <code>0.12.7-4</code>,  <code>0.12.7-3</code>,  <code>0.12.7-2</code>,  <code>0.12.7-1</code>,  <code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.11.7-0</code>,  </span></summary>
       
 
-      ``0.12.7-4``,  ``0.12.7-3``,  ``0.12.7-2``,  ``0.12.7-1``,  ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
+      ``0.12.7-5``,  ``0.12.7-4``,  ``0.12.7-3``,  ``0.12.7-2``,  ``0.12.7-1``,  ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
 
       
       .. raw:: html
@@ -42,9 +42,8 @@ gffread
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

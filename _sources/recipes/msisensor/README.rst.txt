@@ -27,21 +27,26 @@ msisensor
       
       
 
-      ``0.5-6``,  ``0.5-5``,  ``0.5-4``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
+      ``0.5-7``,  ``0.5-6``,  ``0.5-5``,  ``0.5-4``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends ncurses: ``>=6.3,<7.0a0``
-   :depends openmp: 
+   :depends bamtools: ``>=2.5.2,<2.6.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends ncurses: ``>=6.5,<7.0a0``
    :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

@@ -28,14 +28,14 @@ predictosaurus
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends openssl: ``>=3.4.0,<4.0a0``
@@ -93,7 +93,7 @@ predictosaurus
 
     <script>
         var package = "predictosaurus";
-        var versions = ["0.2.3","0.2.2","0.2.1","0.2.0","0.1.1"];
+        var versions = ["0.2.4","0.2.3","0.2.2","0.2.1","0.2.0"];
     </script>
 
 

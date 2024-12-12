@@ -28,10 +28,10 @@ clustalo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-8</code>,  <code>1.2.4-7</code>,  <code>1.2.4-6</code>,  <code>1.2.4-5</code>,  <code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-9</code>,  <code>1.2.4-8</code>,  <code>1.2.4-7</code>,  <code>1.2.4-6</code>,  <code>1.2.4-5</code>,  <code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  </span></summary>
       
 
-      ``1.2.4-8``,  ``1.2.4-7``,  ``1.2.4-6``,  ``1.2.4-5``,  ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``
+      ``1.2.4-9``,  ``1.2.4-8``,  ``1.2.4-7``,  ``1.2.4-6``,  ``1.2.4-5``,  ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ clustalo
 
    
    :depends argtable2: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

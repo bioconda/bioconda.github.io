@@ -28,10 +28,10 @@ mwga-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.6-2</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.6-3</code>,  <code>0.1.6-2</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  </span></summary>
       
 
-      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.6-3``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ mwga-utils
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ mwga-utils
 
     <script>
         var package = "mwga-utils";
-        var versions = ["0.1.6","0.1.6","0.1.6","0.1.4","0.1.4"];
+        var versions = ["0.1.6","0.1.6","0.1.6","0.1.6","0.1.4"];
     </script>
 
 

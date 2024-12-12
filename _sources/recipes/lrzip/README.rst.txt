@@ -26,16 +26,24 @@ lrzip
    :versions:
       
       
+      .. raw:: html
 
-      ``0.651-0``,  ``0.621-7``,  ``0.621-6``,  ``0.621-5``,  ``0.621-4``,  ``0.621-3``,  ``0.621-2``,  ``0.621-1``,  ``0.621-0``
+         <details><summary><span class="truncated-version-list"><code>0.651-1</code>,  <code>0.651-0</code>,  <code>0.621-7</code>,  <code>0.621-6</code>,  <code>0.621-5</code>,  <code>0.621-4</code>,  <code>0.621-3</code>,  <code>0.621-2</code>,  <code>0.621-1</code>,  </span></summary>
+      
 
+      ``0.651-1``,  ``0.651-0``,  ``0.621-7``,  ``0.621-6``,  ``0.621-5``,  ``0.621-4``,  ``0.621-3``,  ``0.621-2``,  ``0.621-1``,  ``0.621-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends lz4-c: ``>=1.9.3,<1.10.0a0``
    :depends lzo: ``>=2.10,<3.0a0``
    :depends zlib: 
@@ -93,7 +101,7 @@ lrzip
 
     <script>
         var package = "lrzip";
-        var versions = ["0.651","0.621","0.621","0.621","0.621"];
+        var versions = ["0.651","0.651","0.621","0.621","0.621"];
     </script>
 
 

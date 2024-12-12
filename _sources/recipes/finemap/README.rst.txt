@@ -28,7 +28,7 @@ finemap
       
       
 
-      ``1.4.2-0``,  ``1.4.1-0``
+      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``
 
       
 
@@ -88,7 +88,7 @@ finemap
 
     <script>
         var package = "finemap";
-        var versions = ["1.4.2","1.4.1"];
+        var versions = ["1.4.2","1.4.2","1.4.1"];
     </script>
 
 

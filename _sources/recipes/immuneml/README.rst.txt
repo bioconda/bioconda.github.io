@@ -30,10 +30,10 @@ immuneml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.6-1</code>,  <code>2.2.6-0</code>,  <code>2.2.5-1</code>,  <code>2.2.5-0</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.3-0</code>,  <code>2.2.6-1</code>,  <code>2.2.6-0</code>,  <code>2.2.5-1</code>,  <code>2.2.5-0</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  </span></summary>
       
 
-      ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``3.0.3-0``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -42,33 +42,31 @@ immuneml
       
 
    
-   :depends airr: ``>=1``
-   :depends cython: 
+   :depends airr: ``>=1,<1.4``
+   :depends bionumpy: ``>=0.2.31``
    :depends dill: ``>=0.3``
-   :depends editdistance: ``0.5.3``
-   :depends fishersapi: 
-   :depends gensim: ``>=3.8,<4``
-   :depends h5py: ``>=2.9.0``
-   :depends libgcc-ng: ``>=12``
+   :depends editdistance: 
+   :depends gensim: ``>=4``
+   :depends keras: ``>=2.12.0``
+   :depends libgcc: ``>=13``
    :depends logomaker: ``>=0.8``
    :depends matplotlib-base: ``>=3.1``
    :depends matplotlib-venn: ``>=0.11``
-   :depends numpy: ``>=1.18``
-   :depends pandas: ``>=1``
+   :depends npstructures: 
+   :depends numpy: ``<2.0.0``
+   :depends olga: ``>=1.2.4``
+   :depends pandas: 
    :depends plotly: ``>=4``
-   :depends pystache: ``0.5.4``
+   :depends pystache: 
    :depends pytest: ``>=4``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
-   :depends pytorch: ``>=1.5.1``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=5.3``
    :depends regex: 
-   :depends requests: ``>=2.21``
    :depends scikit-learn: ``>=0.23``
-   :depends scipy: 
-   :depends tensorboard: ``>=1.14.0``
-   :depends tqdm: ``>=0.24``
+   :depends scipy: ``<1.13``
+   :depends tensorflow: ``>=2.12.0``
    :depends tzlocal: 
+   :depends umap-learn: 
    :requirements:
 
    :additional platforms:
@@ -119,7 +117,7 @@ immuneml
 
     <script>
         var package = "immuneml";
-        var versions = ["2.2.6","2.2.6","2.2.5","2.2.5","2.2.4"];
+        var versions = ["3.0.3","2.2.6","2.2.6","2.2.5","2.2.5"];
     </script>
 
 

@@ -28,10 +28,10 @@ perl-data-uuid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.226-3</code>,  <code>1.226-2</code>,  <code>1.226-1</code>,  <code>1.226-0</code>,  <code>1.224-1</code>,  <code>1.224-0</code>,  <code>1.221-5</code>,  <code>1.221-4</code>,  <code>1.221-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.226-4</code>,  <code>1.226-3</code>,  <code>1.226-2</code>,  <code>1.226-1</code>,  <code>1.226-0</code>,  <code>1.224-1</code>,  <code>1.224-0</code>,  <code>1.221-5</code>,  <code>1.221-4</code>,  </span></summary>
       
 
-      ``1.226-3``,  ``1.226-2``,  ``1.226-1``,  ``1.226-0``,  ``1.224-1``,  ``1.224-0``,  ``1.221-5``,  ``1.221-4``,  ``1.221-3``,  ``1.221-2``,  ``1.221-1``,  ``1.221-0``
+      ``1.226-4``,  ``1.226-3``,  ``1.226-2``,  ``1.226-1``,  ``1.226-0``,  ``1.224-1``,  ``1.224-0``,  ``1.221-5``,  ``1.221-4``,  ``1.221-3``,  ``1.221-2``,  ``1.221-1``,  ``1.221-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ perl-data-uuid
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-digest-md5: 
    :requirements:
@@ -94,7 +93,7 @@ perl-data-uuid
 
     <script>
         var package = "perl-data-uuid";
-        var versions = ["1.226","1.226","1.226","1.226","1.224"];
+        var versions = ["1.226","1.226","1.226","1.226","1.226"];
     </script>
 
 

@@ -27,25 +27,21 @@ atlas
       
       
 
-      ``2.0.0-0``,  ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
 
       
 
    
-   :depends __glibc: ``>=2.17,<3.0.a0``
-   :depends _openmp_mutex: ``>=4.5``
-   :depends armadillo: ``>=14.0,<15.0a0``
+   :depends armadillo: ``>=14.2,<15.0a0``
    :depends fmt: ``>=10.2.1,<11.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends jsoncpp: ``>=1.9.5,<1.9.6.0a0``
+   :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends lapack: 
-   :depends libgcc: ``>=12``
-   :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends nlohmann_json: 
    :depends openblas: 
-   :depends sysroot_linux-64: ``2.17.*``
    :requirements:
 
    :additional platforms:
@@ -100,7 +96,7 @@ atlas
 
     <script>
         var package = "atlas";
-        var versions = ["2.0.0","0.9.9","0.9.9","0.9.9","0.9.9"];
+        var versions = ["2.0.0","2.0.0","0.9.9","0.9.9","0.9.9"];
     </script>
 
 

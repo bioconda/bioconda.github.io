@@ -27,14 +27,13 @@ fastsimbac
       
       
 
-      ``1.0.1_bd3ad13d8f79-6``,  ``1.0.1_bd3ad13d8f79-5``,  ``1.0.1_bd3ad13d8f79-4``,  ``1.0.1_bd3ad13d8f79-3``,  ``1.0.1_bd3ad13d8f79-2``,  ``1.0.1_bd3ad13d8f79-1``,  ``1.0.1_bd3ad13d8f79-0``
+      ``1.0.1_bd3ad13d8f79-7``,  ``1.0.1_bd3ad13d8f79-6``,  ``1.0.1_bd3ad13d8f79-5``,  ``1.0.1_bd3ad13d8f79-4``,  ``1.0.1_bd3ad13d8f79-3``,  ``1.0.1_bd3ad13d8f79-2``,  ``1.0.1_bd3ad13d8f79-1``,  ``1.0.1_bd3ad13d8f79-0``
 
       
 
    
    :depends boost: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

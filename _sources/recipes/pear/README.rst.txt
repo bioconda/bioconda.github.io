@@ -29,10 +29,10 @@ pear
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.6-10</code>,  <code>0.9.6-9</code>,  <code>0.9.6-8</code>,  <code>0.9.6-7</code>,  <code>0.9.6-6</code>,  <code>0.9.6-5</code>,  <code>0.9.6-4</code>,  <code>0.9.6-3</code>,  <code>0.9.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.6-11</code>,  <code>0.9.6-10</code>,  <code>0.9.6-9</code>,  <code>0.9.6-8</code>,  <code>0.9.6-7</code>,  <code>0.9.6-6</code>,  <code>0.9.6-5</code>,  <code>0.9.6-4</code>,  <code>0.9.6-3</code>,  </span></summary>
       
 
-      ``0.9.6-10``,  ``0.9.6-9``,  ``0.9.6-8``,  ``0.9.6-7``,  ``0.9.6-6``,  ``0.9.6-5``,  ``0.9.6-4``,  ``0.9.6-3``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``
+      ``0.9.6-11``,  ``0.9.6-10``,  ``0.9.6-9``,  ``0.9.6-8``,  ``0.9.6-7``,  ``0.9.6-6``,  ``0.9.6-5``,  ``0.9.6-4``,  ``0.9.6-3``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ pear
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

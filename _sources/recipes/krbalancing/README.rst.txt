@@ -41,9 +41,8 @@ krbalancing
 
    
    :depends eigen: ``>=3.3.7``
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends llvm-openmp: ``>=19.1.5``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends pybind11: ``>=2.2.4``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

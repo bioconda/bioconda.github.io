@@ -27,13 +27,12 @@ gefast
       
       
 
-      ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ gefast
 
     <script>
         var package = "gefast";
-        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","1.0.0"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","2.0.1"];
     </script>
 
 

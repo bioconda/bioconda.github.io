@@ -27,12 +27,11 @@ recgraph
       
       
 
-      ``1.0.0-0``,  ``0.3.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -83,7 +82,7 @@ recgraph
 
     <script>
         var package = "recgraph";
-        var versions = ["1.0.0","0.3.0"];
+        var versions = ["1.0.0","1.0.0","0.3.0"];
     </script>
 
 

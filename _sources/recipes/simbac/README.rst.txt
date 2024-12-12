@@ -28,14 +28,13 @@ simbac
       
       
 
-      ``0.1a-5``,  ``0.1a-4``,  ``0.1a-3``,  ``0.1a-2``,  ``0.1a-1``,  ``0.1a-0``
+      ``0.1a-6``,  ``0.1a-5``,  ``0.1a-4``,  ``0.1a-3``,  ``0.1a-2``,  ``0.1a-1``,  ``0.1a-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

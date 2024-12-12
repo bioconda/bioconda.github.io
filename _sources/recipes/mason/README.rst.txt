@@ -28,14 +28,14 @@ mason
       
       
 
-      ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``
+      ``2.0.9-4``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +91,7 @@ mason
 
     <script>
         var package = "mason";
-        var versions = ["2.0.9","2.0.9","2.0.9","2.0.9","2.0.8"];
+        var versions = ["2.0.9","2.0.9","2.0.9","2.0.9","2.0.9"];
     </script>
 
 

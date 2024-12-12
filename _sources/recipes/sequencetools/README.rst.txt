@@ -28,10 +28,10 @@ sequencetools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.4.0-0</code>,  <code>1.5.3.2-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.4.0.6-1</code>,  <code>1.4.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.4.0-1</code>,  <code>1.5.4.0-0</code>,  <code>1.5.3.2-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.4.0.6-1</code>,  </span></summary>
       
 
-      ``1.5.4.0-0``,  ``1.5.3.2-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.0.6-1``,  ``1.4.0.6-0``,  ``1.2.2-0``
+      ``1.5.4.0-1``,  ``1.5.4.0-0``,  ``1.5.3.2-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.4.0.6-1``,  ``1.4.0.6-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ sequencetools
 
    
    :depends gmp: ``>=6.3.0,<7.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends samtools: 
    :depends zlib: 
    :requirements:
@@ -99,7 +98,7 @@ sequencetools
 
     <script>
         var package = "sequencetools";
-        var versions = ["1.5.4.0","1.5.3.2","1.5.3","1.5.3","1.5.2"];
+        var versions = ["1.5.4.0","1.5.4.0","1.5.3.2","1.5.3","1.5.3"];
     </script>
 
 

@@ -28,13 +28,12 @@ prosampler
       
       
 
-      ``1.5-0``,  ``1.0-0``
+      ``1.5-1``,  ``1.5-0``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -89,7 +88,7 @@ prosampler
 
     <script>
         var package = "prosampler";
-        var versions = ["1.5","1.0"];
+        var versions = ["1.5","1.5","1.0"];
     </script>
 
 

@@ -32,10 +32,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-1</code>,  <code>2.6.5-0</code>,  <code>2.6.4-0</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.2-1</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-1</code>,  <code>2.6.5-0</code>,  <code>2.6.4-0</code>,  <code>2.6.3-0</code>,  </span></summary>
       
 
-      ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.7-0``,  ``2.6.5-1``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.7.2-1``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.7-0``,  ``2.6.5-1``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -44,17 +44,17 @@ poppunk
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends biopython: 
    :depends dendropy: ``>=4.4.0``
    :depends graph-tool: ``>=2.35``
    :depends h5py: 
    :depends hdbscan: 
-   :depends libgcc: ``>=12``
-   :depends libgfortran: 
-   :depends libgfortran5: ``>=12.4.0``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=13.2.0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=19.1.5``
    :depends mandrake: 
    :depends matplotlib-base: 
    :depends networkx: 
@@ -132,7 +132,7 @@ poppunk
 
     <script>
         var package = "poppunk";
-        var versions = ["2.7.2","2.7.1","2.7.0","2.6.7","2.6.5"];
+        var versions = ["2.7.2","2.7.2","2.7.1","2.7.0","2.6.7"];
     </script>
 
 

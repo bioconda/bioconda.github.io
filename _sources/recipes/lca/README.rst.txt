@@ -28,10 +28,10 @@ lca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.25-0</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  <code>0.24-0</code>,  <code>0.23-1</code>,  <code>0.23-0</code>,  <code>0.22-0</code>,  <code>0.21-1</code>,  <code>0.21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.25-1</code>,  <code>0.25-0</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  <code>0.24-0</code>,  <code>0.23-1</code>,  <code>0.23-0</code>,  <code>0.22-0</code>,  <code>0.21-1</code>,  </span></summary>
       
 
-      ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
+      ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
 
       
       .. raw:: html
@@ -40,9 +40,8 @@ lca
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -94,7 +93,7 @@ lca
 
     <script>
         var package = "lca";
-        var versions = ["0.25","0.24","0.24","0.24","0.23"];
+        var versions = ["0.25","0.25","0.24","0.24","0.24"];
     </script>
 
 

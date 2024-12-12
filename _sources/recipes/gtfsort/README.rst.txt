@@ -28,13 +28,12 @@ gtfsort
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -85,7 +84,7 @@ gtfsort
 
     <script>
         var package = "gtfsort";
-        var versions = ["0.2.2","0.2.1"];
+        var versions = ["0.2.2","0.2.2","0.2.1"];
     </script>
 
 

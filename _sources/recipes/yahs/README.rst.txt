@@ -28,10 +28,10 @@ yahs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.2a.2-2</code>,  <code>1.2a.2-1</code>,  <code>1.2a.2-0</code>,  <code>1.2a.1-0</code>,  <code>1.2a-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.2a.2-2</code>,  <code>1.2a.2-1</code>,  <code>1.2a.2-0</code>,  <code>1.2a.1-0</code>,  </span></summary>
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.2a.2-2``,  ``1.2a.2-1``,  ``1.2a.2-0``,  ``1.2a.1-0``,  ``1.2a-1``,  ``1.2a-0``,  ``1.1a.2-0``,  ``1.0-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.2a.2-2``,  ``1.2a.2-1``,  ``1.2a.2-0``,  ``1.2a.1-0``,  ``1.2a-1``,  ``1.2a-0``,  ``1.1a.2-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ yahs
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +95,7 @@ yahs
 
     <script>
         var package = "yahs";
-        var versions = ["1.2.2","1.2.1","1.2","1.2","1.2a.2"];
+        var versions = ["1.2.2","1.2.2","1.2.1","1.2","1.2"];
     </script>
 
 

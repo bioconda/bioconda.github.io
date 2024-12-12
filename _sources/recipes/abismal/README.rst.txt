@@ -31,10 +31,10 @@ abismal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  </span></summary>
       
 
-      ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,12 +43,10 @@ abismal
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libgcc: ``>=12``
-   :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
    :requirements:
 
    :additional platforms:
@@ -103,7 +101,7 @@ abismal
 
     <script>
         var package = "abismal";
-        var versions = ["3.2.4","3.2.3","3.2.2","3.2.0","3.1.1"];
+        var versions = ["3.2.4","3.2.4","3.2.3","3.2.2","3.2.0"];
     </script>
 
 

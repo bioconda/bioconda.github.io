@@ -28,10 +28,10 @@ perl-file-copy-recursive
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.45-4</code>,  <code>0.45-3</code>,  <code>0.45-2</code>,  <code>0.45-1</code>,  <code>0.45-0</code>,  <code>0.44-1</code>,  <code>0.44-0</code>,  <code>0.38-3</code>,  <code>0.38-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.45-5</code>,  <code>0.45-4</code>,  <code>0.45-3</code>,  <code>0.45-2</code>,  <code>0.45-1</code>,  <code>0.45-0</code>,  <code>0.44-1</code>,  <code>0.44-0</code>,  <code>0.38-3</code>,  </span></summary>
       
 
-      ``0.45-4``,  ``0.45-3``,  ``0.45-2``,  ``0.45-1``,  ``0.45-0``,  ``0.44-1``,  ``0.44-0``,  ``0.38-3``,  ``0.38-2``,  ``0.38-1``
+      ``0.45-5``,  ``0.45-4``,  ``0.45-3``,  ``0.45-2``,  ``0.45-1``,  ``0.45-0``,  ``0.44-1``,  ``0.44-0``,  ``0.38-3``,  ``0.38-2``,  ``0.38-1``
 
       
       .. raw:: html
@@ -40,10 +40,7 @@ perl-file-copy-recursive
       
 
    
-   :depends libgcc: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-test-fatal: ``0.016.*``
-   :depends perl-test-warnings: ``0.031.*``
    :requirements:
 
    :additional platforms:

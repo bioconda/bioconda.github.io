@@ -28,10 +28,10 @@ groot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  <code>0.8.5-1</code>,  <code>0.8.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-6</code>,  <code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  <code>0.8.5-1</code>,  </span></summary>
       
 
-      ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``0.8.5-1``,  ``0.8.4-1``,  ``0.8.3-1``,  ``0.8.2-1``,  ``0.8.1-1``,  ``0.7.1-1``,  ``0.7-1``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``0.8.5-1``,  ``0.8.4-1``,  ``0.8.3-1``,  ``0.8.2-1``,  ``0.8.1-1``,  ``0.7.1-1``,  ``0.7-1``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ groot
 
    
    :depends ca-certificates: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:

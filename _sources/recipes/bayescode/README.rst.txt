@@ -27,14 +27,13 @@ bayescode
       
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
+      ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
 
       
 
    
    :depends ete3: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -89,7 +88,7 @@ bayescode
 
     <script>
         var package = "bayescode";
-        var versions = ["1.3.2","1.3.1","1.3.0","1.2.2","1.1.6"];
+        var versions = ["1.3.2","1.3.2","1.3.1","1.3.0","1.2.2"];
     </script>
 
 

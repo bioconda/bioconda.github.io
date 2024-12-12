@@ -27,16 +27,17 @@ epik
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
    :depends boost-cpp: ``1.85.*``
    :depends click: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=19.1.5``
    :depends python: 
    :requirements:
 
@@ -92,7 +93,7 @@ epik
 
     <script>
         var package = "epik";
-        var versions = ["0.2.0","0.2.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0"];
     </script>
 
 

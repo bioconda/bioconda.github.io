@@ -28,12 +28,12 @@ rnahybrid
       
       
 
-      ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
+      ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgd: ``>=2.3.3,<2.4.0a0``
    :requirements:
 
@@ -85,7 +85,7 @@ rnahybrid
 
     <script>
         var package = "rnahybrid";
-        var versions = ["2.1.2","2.1.2","2.1.2","2.1.2"];
+        var versions = ["2.1.2","2.1.2","2.1.2","2.1.2","2.1.2"];
     </script>
 
 

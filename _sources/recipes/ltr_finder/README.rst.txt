@@ -27,13 +27,13 @@ ltr_finder
       
       
 
-      ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
+      ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: 
    :depends perl-gd: 
    :requirements:
@@ -86,7 +86,7 @@ ltr_finder
 
     <script>
         var package = "ltr_finder";
-        var versions = ["1.07","1.07","1.07","1.07"];
+        var versions = ["1.07","1.07","1.07","1.07","1.07"];
     </script>
 
 

@@ -28,13 +28,13 @@ gassst
       
       
 
-      ``1.28-2``,  ``1.28-1``,  ``1.28-0``
+      ``1.28-3``,  ``1.28-2``,  ``1.28-1``,  ``1.28-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ gassst
 
     <script>
         var package = "gassst";
-        var versions = ["1.28","1.28","1.28"];
+        var versions = ["1.28","1.28","1.28","1.28"];
     </script>
 
 

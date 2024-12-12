@@ -27,13 +27,12 @@ rerconverge
       
       
 
-      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-devtools: 
    :depends r-geiger: 
    :depends r-gplots: 
@@ -92,7 +91,7 @@ rerconverge
 
     <script>
         var package = "rerconverge";
-        var versions = ["0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.3.0","0.3.0","0.3.0","0.3.0"];
     </script>
 
 

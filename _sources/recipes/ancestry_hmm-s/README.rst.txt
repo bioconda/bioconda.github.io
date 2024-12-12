@@ -32,14 +32,13 @@ ancestry_hmm-s
       
       
 
-      ``0.9.0.2-5``,  ``0.9.0.2-4``,  ``0.9.0.2-3``,  ``0.9.0.2-2``,  ``0.9.0.2-1``,  ``0.9.0.2-0``
+      ``0.9.0.2-6``,  ``0.9.0.2-5``,  ``0.9.0.2-4``,  ``0.9.0.2-3``,  ``0.9.0.2-2``,  ``0.9.0.2-1``,  ``0.9.0.2-0``
 
       
 
    
-   :depends armadillo: ``>=12.8,<13.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends armadillo: ``>=14.2,<15.0a0``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

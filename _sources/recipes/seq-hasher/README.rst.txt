@@ -28,7 +28,7 @@ seq-hasher
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -87,7 +87,7 @@ seq-hasher
 
     <script>
         var package = "seq-hasher";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

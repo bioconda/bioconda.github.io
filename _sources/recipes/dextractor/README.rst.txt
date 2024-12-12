@@ -28,10 +28,10 @@ dextractor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0p2-8</code>,  <code>1.0p2-7</code>,  <code>1.0p2-6</code>,  <code>1.0p2-5</code>,  <code>1.0p2-4</code>,  <code>1.0p2-3</code>,  <code>1.0p2-2</code>,  <code>1.0p2-1</code>,  <code>1.0p2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0p2-9</code>,  <code>1.0p2-8</code>,  <code>1.0p2-7</code>,  <code>1.0p2-6</code>,  <code>1.0p2-5</code>,  <code>1.0p2-4</code>,  <code>1.0p2-3</code>,  <code>1.0p2-2</code>,  <code>1.0p2-1</code>,  </span></summary>
       
 
-      ``1.0p2-8``,  ``1.0p2-7``,  ``1.0p2-6``,  ``1.0p2-5``,  ``1.0p2-4``,  ``1.0p2-3``,  ``1.0p2-2``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-0``
+      ``1.0p2-9``,  ``1.0p2-8``,  ``1.0p2-7``,  ``1.0p2-6``,  ``1.0p2-5``,  ``1.0p2-4``,  ``1.0p2-3``,  ``1.0p2-2``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ dextractor
 
    
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

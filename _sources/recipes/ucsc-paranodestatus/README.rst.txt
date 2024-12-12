@@ -31,16 +31,16 @@ ucsc-paranodestatus
       
       
 
-      ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
+      ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.43,<1.7.0a0``
+   :depends libpng: ``>=1.6.44,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :depends zlib: 
    :requirements:
@@ -97,7 +97,7 @@ ucsc-paranodestatus
 
     <script>
         var package = "ucsc-paranodestatus";
-        var versions = ["469","377","377","377","377"];
+        var versions = ["469","469","377","377","377"];
     </script>
 
 

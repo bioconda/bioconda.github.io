@@ -13,7 +13,7 @@ sylph-tax
    Integrating taxonomic information into the sylph metagenome profiler.
 
    :homepage: https://github.com/bluenote-1577/sylph-tax
-   :documentation: https://github.com/bluenote-1577/sylph-tax/blob/v1.0.0/README.md
+   :documentation: https://github.com/bluenote-1577/sylph-tax/blob/v1.1.0/README.md
    
    :license: MIT / MIT
    :recipe: /`sylph-tax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sylph-tax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sylph-tax/meta.yaml>`_
@@ -29,7 +29,7 @@ sylph-tax
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -87,7 +87,7 @@ sylph-tax
 
     <script>
         var package = "sylph-tax";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

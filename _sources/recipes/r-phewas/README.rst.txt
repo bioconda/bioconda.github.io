@@ -29,10 +29,10 @@ r-phewas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.6-0</code>,  <code>0.12.1-8</code>,  <code>0.12.1-7</code>,  <code>0.12.1-6</code>,  <code>0.12.1-5</code>,  <code>0.12.1-4</code>,  <code>0.12.1-3</code>,  <code>0.12.1-2</code>,  <code>0.12.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.6-1</code>,  <code>0.99.6-0</code>,  <code>0.12.1-8</code>,  <code>0.12.1-7</code>,  <code>0.12.1-6</code>,  <code>0.12.1-5</code>,  <code>0.12.1-4</code>,  <code>0.12.1-3</code>,  <code>0.12.1-2</code>,  </span></summary>
       
 
-      ``0.99.6-0``,  ``0.12.1-8``,  ``0.12.1-7``,  ``0.12.1-6``,  ``0.12.1-5``,  ``0.12.1-4``,  ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
+      ``0.99.6-1``,  ``0.99.6-0``,  ``0.12.1-8``,  ``0.12.1-7``,  ``0.12.1-6``,  ``0.12.1-5``,  ``0.12.1-4``,  ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
 
       
       .. raw:: html
@@ -41,10 +41,9 @@ r-phewas
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.3.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=13.2.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: ``>=2.2.0``
@@ -105,7 +104,7 @@ r-phewas
 
     <script>
         var package = "r-phewas";
-        var versions = ["0.99.6","0.12.1","0.12.1","0.12.1","0.12.1"];
+        var versions = ["0.99.6","0.99.6","0.12.1","0.12.1","0.12.1"];
     </script>
 
 

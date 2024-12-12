@@ -29,10 +29,10 @@ razers3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.8-5</code>,  <code>3.5.8-4</code>,  <code>3.5.8-3</code>,  <code>3.5.8-2</code>,  <code>3.5.8-1</code>,  <code>3.5.8-0</code>,  <code>3.5.3-3</code>,  <code>3.5.3-2</code>,  <code>3.5.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.8-6</code>,  <code>3.5.8-5</code>,  <code>3.5.8-4</code>,  <code>3.5.8-3</code>,  <code>3.5.8-2</code>,  <code>3.5.8-1</code>,  <code>3.5.8-0</code>,  <code>3.5.3-3</code>,  <code>3.5.3-2</code>,  </span></summary>
       
 
-      ``3.5.8-5``,  ``3.5.8-4``,  ``3.5.8-3``,  ``3.5.8-2``,  ``3.5.8-1``,  ``3.5.8-0``,  ``3.5.3-3``,  ``3.5.3-2``,  ``3.5.3-1``,  ``3.5.3-0``,  ``3.5.0-1``,  ``3.5.0-0``
+      ``3.5.8-6``,  ``3.5.8-5``,  ``3.5.8-4``,  ``3.5.8-3``,  ``3.5.8-2``,  ``3.5.8-1``,  ``3.5.8-0``,  ``3.5.3-3``,  ``3.5.3-2``,  ``3.5.3-1``,  ``3.5.3-0``,  ``3.5.0-1``,  ``3.5.0-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ razers3
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

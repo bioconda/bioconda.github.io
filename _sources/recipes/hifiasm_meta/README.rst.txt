@@ -28,10 +28,10 @@ hifiasm_meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>hamtv0.3.2-1</code>,  <code>hamtv0.3.2-0</code>,  <code>hamtv0.3.1-2</code>,  <code>hamtv0.3.1-1</code>,  <code>hamtv0.3.1-0</code>,  <code>hamtv0.3-1</code>,  <code>hamtv0.3-0</code>,  <code>hamtv0.2.2-1</code>,  <code>hamtv0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>hamtv0.3.2-2</code>,  <code>hamtv0.3.2-1</code>,  <code>hamtv0.3.2-0</code>,  <code>hamtv0.3.1-2</code>,  <code>hamtv0.3.1-1</code>,  <code>hamtv0.3.1-0</code>,  <code>hamtv0.3-1</code>,  <code>hamtv0.3-0</code>,  <code>hamtv0.2.2-1</code>,  </span></summary>
       
 
-      ``hamtv0.3.2-1``,  ``hamtv0.3.2-0``,  ``hamtv0.3.1-2``,  ``hamtv0.3.1-1``,  ``hamtv0.3.1-0``,  ``hamtv0.3-1``,  ``hamtv0.3-0``,  ``hamtv0.2.2-1``,  ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
+      ``hamtv0.3.2-2``,  ``hamtv0.3.2-1``,  ``hamtv0.3.2-0``,  ``hamtv0.3.1-2``,  ``hamtv0.3.1-1``,  ``hamtv0.3.1-0``,  ``hamtv0.3-1``,  ``hamtv0.3-0``,  ``hamtv0.2.2-1``,  ``hamtv0.2.2-0``,  ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
 
       
       .. raw:: html
@@ -40,9 +40,8 @@ hifiasm_meta
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -98,7 +97,7 @@ hifiasm_meta
 
     <script>
         var package = "hifiasm_meta";
-        var versions = ["hamtv0.3.2","hamtv0.3.2","hamtv0.3.1","hamtv0.3.1","hamtv0.3.1"];
+        var versions = ["hamtv0.3.2","hamtv0.3.2","hamtv0.3.2","hamtv0.3.1","hamtv0.3.1"];
     </script>
 
 

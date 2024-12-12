@@ -27,13 +27,13 @@ chromimpute
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends openjdk: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ chromimpute
 
     <script>
         var package = "chromimpute";
-        var versions = ["1.0.3","1.0.3"];
+        var versions = ["1.0.3","1.0.3","1.0.3"];
     </script>
 
 

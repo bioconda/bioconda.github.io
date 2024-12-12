@@ -28,19 +28,18 @@ seqcomplexity
       
       
 
-      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends freetype: ``>=2.12.1,<3.0a0``
-   :depends libexpat: ``>=2.5.0,<3.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``>=3.1.0,<4.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libcxx: ``>=18``
+   :depends libexpat: ``>=2.6.4,<3.0a0``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +90,7 @@ seqcomplexity
 
     <script>
         var package = "seqcomplexity";
-        var versions = ["0.1.2","0.1.2","0.1.1","0.1.0"];
+        var versions = ["0.1.2","0.1.2","0.1.2","0.1.1","0.1.0"];
     </script>
 
 

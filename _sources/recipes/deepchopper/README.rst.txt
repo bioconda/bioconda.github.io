@@ -29,7 +29,7 @@ deepchopper
       
       
 
-      ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``
+      ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
 
@@ -40,7 +40,6 @@ deepchopper
    :depends fastapi: ``0.112.2``
    :depends gradio: ``5.0.1``
    :depends hydra-core: ``>=1.3.2``
-   :depends libgcc: ``>=12``
    :depends lightning: ``>=2.1.2``
    :depends omegaconf: ``>=2.3.0``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -107,7 +106,7 @@ deepchopper
 
     <script>
         var package = "deepchopper";
-        var versions = ["1.2.6","1.2.5","1.2.5","1.2.4"];
+        var versions = ["1.2.6","1.2.6","1.2.5","1.2.5","1.2.4"];
     </script>
 
 

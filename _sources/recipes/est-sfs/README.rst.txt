@@ -28,13 +28,13 @@ est-sfs
       
       
 
-      ``2.04-0``
+      ``2.04-1``,  ``2.04-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ est-sfs
 
     <script>
         var package = "est-sfs";
-        var versions = ["2.04"];
+        var versions = ["2.04","2.04"];
     </script>
 
 

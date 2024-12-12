@@ -29,15 +29,14 @@ insurveyor
       
       
 
-      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
 
    
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: 
    :depends pyfaidx: ``>=0.5.9.1``
    :depends pysam: ``>=0.16.0.1``
@@ -95,7 +94,7 @@ insurveyor
 
     <script>
         var package = "insurveyor";
-        var versions = ["1.1.3","1.1.3","1.1.2","1.1.1","1.1.1"];
+        var versions = ["1.1.3","1.1.3","1.1.3","1.1.2","1.1.1"];
     </script>
 
 

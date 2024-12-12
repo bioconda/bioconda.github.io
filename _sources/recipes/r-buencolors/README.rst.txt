@@ -27,12 +27,12 @@ r-buencolors
       
       
 
-      ``0.5.6-0``
+      ``0.5.6-1``,  ``0.5.6-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-mass: 
    :requirements:
@@ -85,7 +85,7 @@ r-buencolors
 
     <script>
         var package = "r-buencolors";
-        var versions = ["0.5.6"];
+        var versions = ["0.5.6","0.5.6"];
     </script>
 
 

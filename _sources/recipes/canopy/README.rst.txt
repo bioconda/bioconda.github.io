@@ -27,17 +27,15 @@ canopy
       
       
 
-      ``0.25-0``
+      ``0.25-1``,  ``0.25-0``
 
       
 
    
-   :depends _openmp_mutex: ``* *_llvm``
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends llvm-openmp: ``>=18.1.3``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=19.1.5``
    :depends zlib: 
    :requirements:
 
@@ -89,7 +87,7 @@ canopy
 
     <script>
         var package = "canopy";
-        var versions = ["0.25"];
+        var versions = ["0.25","0.25"];
     </script>
 
 

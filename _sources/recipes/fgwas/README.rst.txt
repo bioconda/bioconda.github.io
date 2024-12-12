@@ -26,17 +26,24 @@ fgwas
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.6-8``,  ``0.3.6-7``,  ``0.3.6-6``,  ``0.3.6-5``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.6-9</code>,  <code>0.3.6-8</code>,  <code>0.3.6-7</code>,  <code>0.3.6-6</code>,  <code>0.3.6-5</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  </span></summary>
+      
 
+      ``0.3.6-9``,  ``0.3.6-8``,  ``0.3.6-7``,  ``0.3.6-6``,  ``0.3.6-5``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:

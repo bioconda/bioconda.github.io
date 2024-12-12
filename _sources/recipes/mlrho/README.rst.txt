@@ -27,15 +27,22 @@ mlrho
    :versions:
       
       
+      .. raw:: html
 
-      ``2.9-8``,  ``2.9-7``,  ``2.9-6``,  ``2.9-5``,  ``2.9-4``,  ``2.9-3``,  ``2.9-2``,  ``2.9-1``,  ``2.9-0``
+         <details><summary><span class="truncated-version-list"><code>2.9-9</code>,  <code>2.9-8</code>,  <code>2.9-7</code>,  <code>2.9-6</code>,  <code>2.9-5</code>,  <code>2.9-4</code>,  <code>2.9-3</code>,  <code>2.9-2</code>,  <code>2.9-1</code>,  </span></summary>
+      
 
+      ``2.9-9``,  ``2.9-8``,  ``2.9-7``,  ``2.9-6``,  ``2.9-5``,  ``2.9-4``,  ``2.9-3``,  ``2.9-2``,  ``2.9-1``,  ``2.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    :additional platforms:

@@ -26,14 +26,21 @@ verse
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.5-8``,  ``0.1.5-7``,  ``0.1.5-6``,  ``0.1.5-5``,  ``0.1.5-4``,  ``0.1.5-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.5-9</code>,  <code>0.1.5-8</code>,  <code>0.1.5-7</code>,  <code>0.1.5-6</code>,  <code>0.1.5-5</code>,  <code>0.1.5-4</code>,  <code>0.1.5-3</code>,  <code>0.1.5-2</code>,  <code>0.1.5-1</code>,  </span></summary>
+      
 
+      ``0.1.5-9``,  ``0.1.5-8``,  ``0.1.5-7``,  ``0.1.5-6``,  ``0.1.5-5``,  ``0.1.5-4``,  ``0.1.5-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

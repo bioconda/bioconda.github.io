@@ -41,9 +41,11 @@ python-hyphy-python
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libcurl: ``>=8.10.1,<9.0a0``
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:

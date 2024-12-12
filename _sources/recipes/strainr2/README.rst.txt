@@ -27,15 +27,15 @@ strainr2
       
       
 
-      ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bbmap: 
    :depends fastp: 
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-optparse: 
    :depends r-tidyverse: 
    :depends samtools: 
@@ -93,7 +93,7 @@ strainr2
 
     <script>
         var package = "strainr2";
-        var versions = ["2.1.0","2.0.0","2.0.0","1.0.1","1.0.1"];
+        var versions = ["2.1.0","2.1.0","2.0.0","2.0.0","1.0.1"];
     </script>
 
 

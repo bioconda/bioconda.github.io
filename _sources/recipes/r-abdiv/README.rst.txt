@@ -34,13 +34,13 @@ r-abdiv
       
       
 
-      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-testthat: ``>=2.1.0``
    :depends r-vegan: 
    :requirements:
@@ -93,7 +93,7 @@ r-abdiv
 
     <script>
         var package = "r-abdiv";
-        var versions = ["0.2.0","0.2.0","0.2.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0"];
     </script>
 
 

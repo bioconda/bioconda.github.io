@@ -28,12 +28,12 @@ r-seurat-disk
       
       
 
-      ``0.0.0.9021-0``
+      ``0.0.0.9021-1``,  ``0.0.0.9021-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: ``>=2.0.1``
    :depends r-crayon: ``>=1.3.4``
    :depends r-hdf5r: ``>=1.3.0``
@@ -94,7 +94,7 @@ r-seurat-disk
 
     <script>
         var package = "r-seurat-disk";
-        var versions = ["0.0.0.9021"];
+        var versions = ["0.0.0.9021","0.0.0.9021"];
     </script>
 
 

@@ -28,10 +28,10 @@ perl-json-xs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.03-3</code>,  <code>4.03-2</code>,  <code>4.03-1</code>,  <code>4.03-0</code>,  <code>4.02-3</code>,  <code>4.02-2</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  <code>4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.03-4</code>,  <code>4.03-3</code>,  <code>4.03-2</code>,  <code>4.03-1</code>,  <code>4.03-0</code>,  <code>4.02-3</code>,  <code>4.02-2</code>,  <code>4.02-1</code>,  <code>4.02-0</code>,  </span></summary>
       
 
-      ``4.03-3``,  ``4.03-2``,  ``4.03-1``,  ``4.03-0``,  ``4.02-3``,  ``4.02-2``,  ``4.02-1``,  ``4.02-0``,  ``4.0-0``,  ``3.04-0``,  ``2.34-6``,  ``2.34-5``,  ``2.34-4``,  ``2.34-3``,  ``2.34-2``,  ``2.34-1``,  ``2.34-0``
+      ``4.03-4``,  ``4.03-3``,  ``4.03-2``,  ``4.03-1``,  ``4.03-0``,  ``4.02-3``,  ``4.02-2``,  ``4.02-1``,  ``4.02-0``,  ``4.0-0``,  ``3.04-0``,  ``2.34-7``,  ``2.34-6``,  ``2.34-5``,  ``2.34-4``,  ``2.34-3``,  ``2.34-2``,  ``2.34-1``,  ``2.34-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ perl-json-xs
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-common-sense: 
    :depends perl-types-serialiser: 
@@ -99,7 +98,7 @@ perl-json-xs
 
     <script>
         var package = "perl-json-xs";
-        var versions = ["4.03","4.03","4.03","4.03","4.02"];
+        var versions = ["4.03","4.03","4.03","4.03","4.03"];
     </script>
 
 

@@ -27,19 +27,27 @@ metabuli
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.8-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=19.1.5``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 
@@ -97,7 +105,7 @@ metabuli
 
     <script>
         var package = "metabuli";
-        var versions = ["1.0.8","1.0.5","1.0.5","1.0.5","1.0.3"];
+        var versions = ["1.0.8","1.0.8","1.0.5","1.0.5","1.0.5"];
     </script>
 
 

@@ -45,7 +45,7 @@ emboss
    :depends libharu: ``>=2.4.4,<2.5.0a0``
    :depends libpng: ``>=1.6.44,<1.7.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends zlib: 
    :requirements:
 

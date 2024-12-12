@@ -28,13 +28,12 @@ niemagraphgen
       
       
 
-      ``1.0.6-0``
+      ``1.0.6-1``,  ``1.0.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -85,7 +84,7 @@ niemagraphgen
 
     <script>
         var package = "niemagraphgen";
-        var versions = ["1.0.6"];
+        var versions = ["1.0.6","1.0.6"];
     </script>
 
 

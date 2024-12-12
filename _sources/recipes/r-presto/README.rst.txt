@@ -29,13 +29,12 @@ r-presto
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -96,7 +95,7 @@ r-presto
 
     <script>
         var package = "r-presto";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

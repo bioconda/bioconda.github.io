@@ -27,14 +27,14 @@ biobloomtools
       
       
 
-      ``2.3.5-5``,  ``2.3.5-4``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``
+      ``2.3.5-6``,  ``2.3.5-5``,  ``2.3.5-4``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends make: 
    :depends sparsehash: 
    :depends zlib: 

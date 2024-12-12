@@ -27,13 +27,12 @@ namfinder
       
       
 
-      ``0.1.3-0``
+      ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends zlib: 
    :requirements:
 
@@ -85,7 +84,7 @@ namfinder
 
     <script>
         var package = "namfinder";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.3","0.1.3"];
     </script>
 
 

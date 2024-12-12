@@ -88,25 +88,19 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/canopy"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/canopy.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/canopy"><img alt="docker_canopy" src="https://quay.io/repository/biocontainers/canopy/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.25-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.25-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25-0</span></code></p>
 </dd>
-<dt class="field-even">depends _openmp_mutex<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">* *_llvm</span></code></p>
+<dt class="field-even">depends libcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=18</span></code></p>
 </dd>
-<dt class="field-odd">depends _openmp_mutex<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p>
+<dt class="field-odd">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
-</dd>
-<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
-</dd>
-<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;1.3.0a0</span></code></p>
+<dt class="field-even">depends llvm-openmp<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=18.1.8</span></code></p>
 </dd>
 <dt class="field-odd">depends llvm-openmp<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=18.1.3</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=19.1.5</span></code></p>
 </dd>
 <dt class="field-even">depends zlib<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -148,7 +142,7 @@ others.</p>
 
 <script>
     var package = "canopy";
-    var versions = ["0.25"];
+    var versions = ["0.25","0.25"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

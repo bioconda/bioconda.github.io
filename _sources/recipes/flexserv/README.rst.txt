@@ -27,15 +27,15 @@ flexserv
       
       
 
-      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ flexserv
 
     <script>
         var package = "flexserv";
-        var versions = ["1.0.2","1.0.2","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.1"];
     </script>
 
 

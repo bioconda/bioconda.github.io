@@ -27,14 +27,14 @@ slclust
       
       
 
-      ``02022010-4``,  ``02022010-3``,  ``02022010-2``,  ``02022010-1``,  ``02022010-0``
+      ``02022010-5``,  ``02022010-4``,  ``02022010-3``,  ``02022010-2``,  ``02022010-1``,  ``02022010-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

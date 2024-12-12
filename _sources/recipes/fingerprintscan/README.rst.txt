@@ -27,13 +27,13 @@ fingerprintscan
       
       
 
-      ``3_597-4``,  ``3_597-3``,  ``3_597-2``,  ``3_597-1``,  ``3_597-0``
+      ``3_597-5``,  ``3_597-4``,  ``3_597-3``,  ``3_597-2``,  ``3_597-1``,  ``3_597-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

@@ -31,10 +31,10 @@ dnmtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.0-1</code>,  </span></summary>
       
 
-      ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,13 +43,11 @@ dnmtools
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libgcc: ``>=12``
-   :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
    :requirements:
 
    :additional platforms:
@@ -104,7 +102,7 @@ dnmtools
 
     <script>
         var package = "dnmtools";
-        var versions = ["1.4.4","1.4.3","1.4.2","1.3.0","1.3.0"];
+        var versions = ["1.4.4","1.4.4","1.4.3","1.4.2","1.3.0"];
     </script>
 
 

@@ -26,13 +26,21 @@ rainbow
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.4-9``,  ``2.0.4-8``,  ``2.0.4-7``,  ``2.0.4-6``,  ``2.0.4-5``,  ``2.0.4-4``,  ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.4-10</code>,  <code>2.0.4-9</code>,  <code>2.0.4-8</code>,  <code>2.0.4-7</code>,  <code>2.0.4-6</code>,  <code>2.0.4-5</code>,  <code>2.0.4-4</code>,  <code>2.0.4-3</code>,  <code>2.0.4-2</code>,  </span></summary>
+      
 
+      ``2.0.4-10``,  ``2.0.4-9``,  ``2.0.4-8``,  ``2.0.4-7``,  ``2.0.4-6``,  ``2.0.4-5``,  ``2.0.4-4``,  ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: 
    :requirements:
 

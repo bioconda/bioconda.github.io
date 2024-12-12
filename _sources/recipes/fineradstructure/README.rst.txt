@@ -27,15 +27,15 @@ fineradstructure
       
       
 
-      ``0.3.2r109-6``,  ``0.3.2r109-5``,  ``0.3.2r109-4``,  ``0.3.2r109-3``,  ``0.3.2r109-2``,  ``0.3.2r109-1``,  ``0.3.2r109-0``
+      ``0.3.2r109-7``,  ``0.3.2r109-6``,  ``0.3.2r109-5``,  ``0.3.2r109-4``,  ``0.3.2r109-3``,  ``0.3.2r109-2``,  ``0.3.2r109-1``,  ``0.3.2r109-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

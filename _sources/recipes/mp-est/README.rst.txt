@@ -27,12 +27,11 @@ mp-est
       
       
 
-      ``3.0.0-1``,  ``3.0.0-0``
+      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -83,7 +82,7 @@ mp-est
 
     <script>
         var package = "mp-est";
-        var versions = ["3.0.0","3.0.0"];
+        var versions = ["3.0.0","3.0.0","3.0.0"];
     </script>
 
 

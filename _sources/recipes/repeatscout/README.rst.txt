@@ -29,13 +29,20 @@ repeatscout
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.7-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.6-3</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  </span></summary>
+      
 
+      ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
    :depends nseg: 
    :depends perl: 
    :depends perl-file-temp: 
@@ -95,7 +102,7 @@ repeatscout
 
     <script>
         var package = "repeatscout";
-        var versions = ["1.0.7","1.0.6","1.0.6","1.0.6","1.0.6"];
+        var versions = ["1.0.7","1.0.7","1.0.6","1.0.6","1.0.6"];
     </script>
 
 

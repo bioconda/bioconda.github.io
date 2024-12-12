@@ -27,13 +27,21 @@ r-sbpiper
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.0-8``,  ``1.9.0-7``,  ``1.9.0-6``,  ``1.9.0-5``,  ``1.9.0-4``,  ``1.9.0-3``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.0-9</code>,  <code>1.9.0-8</code>,  <code>1.9.0-7</code>,  <code>1.9.0-6</code>,  <code>1.9.0-5</code>,  <code>1.9.0-4</code>,  <code>1.9.0-3</code>,  <code>1.9.0-2</code>,  <code>1.9.0-1</code>,  </span></summary>
+      
 
+      ``1.9.0-9``,  ``1.9.0-8``,  ``1.9.0-7``,  ``1.9.0-6``,  ``1.9.0-5``,  ``1.9.0-4``,  ``1.9.0-3``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colorramps: 
    :depends r-data.table: 
    :depends r-factoextra: 

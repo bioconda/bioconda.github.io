@@ -27,13 +27,12 @@ conifer
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ conifer
 
     <script>
         var package = "conifer";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.2","1.0.2"];
     </script>
 
 

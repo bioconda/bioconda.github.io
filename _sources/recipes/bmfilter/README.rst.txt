@@ -27,13 +27,12 @@ bmfilter
       
       
 
-      ``3.101-5``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
+      ``3.101-6``,  ``3.101-5``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -88,7 +87,7 @@ bmfilter
 
     <script>
         var package = "bmfilter";
-        var versions = ["3.101","3.101","3.101","3.101"];
+        var versions = ["3.101","3.101","3.101","3.101","3.101"];
     </script>
 
 

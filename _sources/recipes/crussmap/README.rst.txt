@@ -28,16 +28,15 @@ crussmap
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends openssl: ``>=3.3.0,<4.0a0``
+   :depends libcxx: ``>=18``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +87,7 @@ crussmap
 
     <script>
         var package = "crussmap";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -29,14 +29,13 @@ mutyper
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: 
    :depends cyvcf2: ``>=0.30.15``
-   :depends libgcc: ``>=12``
    :depends pandas: 
    :depends pyfaidx: 
    :depends pyliftover: 
@@ -96,7 +95,7 @@ mutyper
 
     <script>
         var package = "mutyper";
-        var versions = ["1.0.2","1.0.2"];
+        var versions = ["1.0.2","1.0.2","1.0.2"];
     </script>
 
 

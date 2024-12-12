@@ -27,12 +27,12 @@ genodsp
       
       
 
-      ``0.0.10-0``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.10-1``,  ``0.0.10-0``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ genodsp
 
     <script>
         var package = "genodsp";
-        var versions = ["0.0.10","0.0.3","0.0.3"];
+        var versions = ["0.0.10","0.0.10","0.0.3","0.0.3"];
     </script>
 
 

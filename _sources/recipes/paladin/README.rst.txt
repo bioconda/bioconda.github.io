@@ -31,10 +31,10 @@ paladin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.6-5</code>,  <code>1.4.6-4</code>,  <code>1.4.6-3</code>,  <code>1.4.6-2</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.4-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.6-6</code>,  <code>1.4.6-5</code>,  <code>1.4.6-4</code>,  <code>1.4.6-3</code>,  <code>1.4.6-2</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.4-0</code>,  <code>1.3.1-2</code>,  </span></summary>
       
 
-      ``1.4.6-5``,  ``1.4.6-4``,  ``1.4.6-3``,  ``1.4.6-2``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.4.6-6``,  ``1.4.6-5``,  ``1.4.6-4``,  ``1.4.6-3``,  ``1.4.6-2``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -44,8 +44,7 @@ paladin
 
    
    :depends curl: 
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

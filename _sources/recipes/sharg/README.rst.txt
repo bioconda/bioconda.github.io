@@ -29,13 +29,13 @@ sharg
       
       
 
-      ``1.1.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends yaml-cpp: ``>=0.8.0,<0.9.0a0``
    :requirements:
 
@@ -87,7 +87,7 @@ sharg
 
     <script>
         var package = "sharg";
-        var versions = ["1.1.1"];
+        var versions = ["1.1.1","1.1.1"];
     </script>
 
 

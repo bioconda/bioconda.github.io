@@ -27,17 +27,16 @@ ntsynt
       
       
 
-      ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends btllib: ``>=1.7.1``
    :depends btllib: ``>=1.7.3,<2.0a0``
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends ncls: 
    :depends pybedtools: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -100,7 +99,7 @@ ntsynt
 
     <script>
         var package = "ntsynt";
-        var versions = ["1.0.2","1.0.1","1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.2","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

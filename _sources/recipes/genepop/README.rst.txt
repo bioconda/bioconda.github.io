@@ -28,13 +28,12 @@ genepop
       
       
 
-      ``4.8.2-0``,  ``4.6-0``,  ``4.5.1-0``
+      ``4.8.2-1``,  ``4.8.2-0``,  ``4.6-0``,  ``4.5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -89,7 +88,7 @@ genepop
 
     <script>
         var package = "genepop";
-        var versions = ["4.8.2","4.6","4.5.1"];
+        var versions = ["4.8.2","4.8.2","4.6","4.5.1"];
     </script>
 
 

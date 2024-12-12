@@ -27,16 +27,15 @@ mammal
       
       
 
-      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=13.2.0``
    :depends libiconv: 
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: 
    :depends readline: 
    :requirements:
@@ -89,7 +88,7 @@ mammal
 
     <script>
         var package = "mammal";
-        var versions = ["1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

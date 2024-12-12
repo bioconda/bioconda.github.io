@@ -30,17 +30,25 @@ revbayes
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.4-0``,  ``1.0.13-7``,  ``1.0.13-6``,  ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.0.13-7</code>,  <code>1.0.13-6</code>,  <code>1.0.13-5</code>,  <code>1.0.13-4</code>,  <code>1.0.13-3</code>,  <code>1.0.13-2</code>,  <code>1.0.13-1</code>,  </span></summary>
+      
 
+      ``1.2.4-1``,  ``1.2.4-0``,  ``1.0.13-7``,  ``1.0.13-6``,  ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: ``>=1.71``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
@@ -96,7 +104,7 @@ revbayes
 
     <script>
         var package = "revbayes";
-        var versions = ["1.2.4","1.0.13","1.0.13","1.0.13","1.0.13"];
+        var versions = ["1.2.4","1.2.4","1.0.13","1.0.13","1.0.13"];
     </script>
 
 

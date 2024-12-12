@@ -27,14 +27,13 @@ fxtract
       
       
 
-      ``2.4-2``,  ``2.4-1``,  ``2.4-0``
+      ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 
@@ -86,7 +85,7 @@ fxtract
 
     <script>
         var package = "fxtract";
-        var versions = ["2.4","2.4","2.4"];
+        var versions = ["2.4","2.4","2.4","2.4"];
     </script>
 
 

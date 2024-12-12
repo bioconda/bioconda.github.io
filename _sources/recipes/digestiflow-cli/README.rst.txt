@@ -29,10 +29,10 @@ digestiflow-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.8-6</code>,  <code>0.5.8-5</code>,  <code>0.5.8-4</code>,  <code>0.5.8-3</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.8-7</code>,  <code>0.5.8-6</code>,  <code>0.5.8-5</code>,  <code>0.5.8-4</code>,  <code>0.5.8-3</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  </span></summary>
       
 
-      ``0.5.8-6``,  ``0.5.8-5``,  ``0.5.8-4``,  ``0.5.8-3``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.5.8-7``,  ``0.5.8-6``,  ``0.5.8-5``,  ``0.5.8-4``,  ``0.5.8-3``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ digestiflow-cli
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends openssl: ``>=3.3.1,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :requirements:
 
    :additional platforms:

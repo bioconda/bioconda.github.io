@@ -40,6 +40,7 @@ perl-xml-libxslt
       
 
    
+   :depends libgcc: ``>=13``
    :depends libxslt: ``>=1.1.35,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xml-libxml: 

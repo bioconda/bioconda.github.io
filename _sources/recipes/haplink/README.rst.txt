@@ -27,13 +27,13 @@ haplink
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends julia: ``>=1.8``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ haplink
 
     <script>
         var package = "haplink";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.0"];
     </script>
 
 

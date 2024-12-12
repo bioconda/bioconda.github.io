@@ -28,10 +28,10 @@ r-biodb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.2-9</code>,  <code>1.2.2-8</code>,  <code>1.2.2-7</code>,  <code>1.2.2-6</code>,  <code>1.2.2-5</code>,  <code>1.2.2-4</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.2-10</code>,  <code>1.2.2-9</code>,  <code>1.2.2-8</code>,  <code>1.2.2-7</code>,  <code>1.2.2-6</code>,  <code>1.2.2-5</code>,  <code>1.2.2-4</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  </span></summary>
       
 
-      ``1.2.2-9``,  ``1.2.2-8``,  ``1.2.2-7``,  ``1.2.2-6``,  ``1.2.2-5``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0rc2-1``,  ``1.2.0rc2-0``,  ``1.2.0a-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.2.2-10``,  ``1.2.2-9``,  ``1.2.2-8``,  ``1.2.2-7``,  ``1.2.2-6``,  ``1.2.2-5``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0rc2-1``,  ``1.2.0rc2-0``,  ``1.2.0a-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -40,9 +40,8 @@ r-biodb
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libcxx: ``>=18``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bitops: 
    :depends r-digest: 
    :depends r-jsonlite: 

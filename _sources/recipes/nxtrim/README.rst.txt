@@ -28,14 +28,13 @@ nxtrim
       
       
 
-      ``0.4.3-4``,  ``0.4.3-3``,  ``0.4.3-2``,  ``0.4.3-1``,  ``0.4.3-0``
+      ``0.4.3-5``,  ``0.4.3-4``,  ``0.4.3-3``,  ``0.4.3-2``,  ``0.4.3-1``,  ``0.4.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

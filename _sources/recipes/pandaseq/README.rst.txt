@@ -28,10 +28,10 @@ pandaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11-8</code>,  <code>2.11-7</code>,  <code>2.11-6</code>,  <code>2.11-5</code>,  <code>2.11-4</code>,  <code>2.11-3</code>,  <code>2.11-2</code>,  <code>2.11-1</code>,  <code>2.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11-9</code>,  <code>2.11-8</code>,  <code>2.11-7</code>,  <code>2.11-6</code>,  <code>2.11-5</code>,  <code>2.11-4</code>,  <code>2.11-3</code>,  <code>2.11-2</code>,  <code>2.11-1</code>,  </span></summary>
       
 
-      ``2.11-8``,  ``2.11-7``,  ``2.11-6``,  ``2.11-5``,  ``2.11-4``,  ``2.11-3``,  ``2.11-2``,  ``2.11-1``,  ``2.10-0``,  ``2.8.1-7``,  ``2.8.1-6``,  ``2.8.1-5``,  ``2.8.1-4``,  ``2.8.1-3``,  ``2.8.1-2``,  ``2.8.1-1``
+      ``2.11-9``,  ``2.11-8``,  ``2.11-7``,  ``2.11-6``,  ``2.11-5``,  ``2.11-4``,  ``2.11-3``,  ``2.11-2``,  ``2.11-1``,  ``2.10-0``,  ``2.8.1-8``,  ``2.8.1-7``,  ``2.8.1-6``,  ``2.8.1-5``,  ``2.8.1-4``,  ``2.8.1-3``,  ``2.8.1-2``,  ``2.8.1-1``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ pandaseq
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

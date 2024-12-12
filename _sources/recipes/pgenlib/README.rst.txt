@@ -36,7 +36,8 @@ pgenlib
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.19.0``
    :depends numpy: ``>=1.21,<3``

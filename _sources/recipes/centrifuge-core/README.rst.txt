@@ -30,15 +30,23 @@ centrifuge-core
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.4.2-1``,  ``1.0.4.2-0``,  ``1.0.4.1-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.4_beta-2``,  ``1.0.4_beta-1``,  ``1.0.4_beta-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.4.2-2</code>,  <code>1.0.4.2-1</code>,  <code>1.0.4.2-0</code>,  <code>1.0.4.1-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.4_beta-2</code>,  <code>1.0.4_beta-1</code>,  </span></summary>
+      
 
+      ``1.0.4.2-2``,  ``1.0.4.2-1``,  ``1.0.4.2-0``,  ``1.0.4.1-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.4_beta-2``,  ``1.0.4_beta-1``,  ``1.0.4_beta-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
    :depends python: ``>=3.6``
    :depends tar: 
@@ -98,7 +106,7 @@ centrifuge-core
 
     <script>
         var package = "centrifuge-core";
-        var versions = ["1.0.4.2","1.0.4.2","1.0.4.1","1.0.4","1.0.4"];
+        var versions = ["1.0.4.2","1.0.4.2","1.0.4.2","1.0.4.1","1.0.4"];
     </script>
 
 

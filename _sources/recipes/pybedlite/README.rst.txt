@@ -29,15 +29,22 @@ pybedlite
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  <code>0.0.2-0</code>,  <code>0.0.1-1</code>,  </span></summary>
+      
 
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends attrs: ``>=23.0.0``
    :depends cgranges: ``>=0.1``
-   :depends libgcc-ng: ``>=12``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends typing_extensions: ``>=3.7.4``
@@ -96,7 +103,7 @@ pybedlite
 
     <script>
         var package = "pybedlite";
-        var versions = ["1.0.0","1.0.0","0.1.0","0.1.0","0.0.4"];
+        var versions = ["1.0.0","1.0.0","1.0.0","0.1.0","0.1.0"];
     </script>
 
 

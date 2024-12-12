@@ -27,13 +27,12 @@ floria
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ floria
 
     <script>
         var package = "floria";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.1","0.0.1"];
     </script>
 
 

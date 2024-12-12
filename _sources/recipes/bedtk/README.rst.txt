@@ -29,13 +29,13 @@ bedtk
       
       
 
-      ``0.0.r25.dirty-5``,  ``0.0.r25.dirty-4``,  ``0.0.r25.dirty-3``,  ``0.0.r25.dirty-2``,  ``0.0.r25.dirty-1``,  ``0.0.r25.dirty-0``
+      ``0.0.r25.dirty-6``,  ``0.0.r25.dirty-5``,  ``0.0.r25.dirty-4``,  ``0.0.r25.dirty-3``,  ``0.0.r25.dirty-2``,  ``0.0.r25.dirty-1``,  ``0.0.r25.dirty-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:

@@ -28,10 +28,10 @@ treebest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.2.post1-5</code>,  <code>1.9.2.post1-4</code>,  <code>1.9.2.post1-3</code>,  <code>1.9.2.post1-2</code>,  <code>1.9.2.post1-1</code>,  <code>1.9.2.post1-0</code>,  <code>1.9.2.post0-0</code>,  <code>1.9.2_ep78-2</code>,  <code>1.9.2_ep78-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.2.post1-6</code>,  <code>1.9.2.post1-5</code>,  <code>1.9.2.post1-4</code>,  <code>1.9.2.post1-3</code>,  <code>1.9.2.post1-2</code>,  <code>1.9.2.post1-1</code>,  <code>1.9.2.post1-0</code>,  <code>1.9.2.post0-0</code>,  <code>1.9.2_ep78-2</code>,  </span></summary>
       
 
-      ``1.9.2.post1-5``,  ``1.9.2.post1-4``,  ``1.9.2.post1-3``,  ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
+      ``1.9.2.post1-6``,  ``1.9.2.post1-5``,  ``1.9.2.post1-4``,  ``1.9.2.post1-3``,  ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ treebest
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

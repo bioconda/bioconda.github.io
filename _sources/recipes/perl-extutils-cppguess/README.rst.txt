@@ -26,14 +26,21 @@ perl-extutils-cppguess
    :versions:
       
       
+      .. raw:: html
 
-      ``0.26-2``,  ``0.26-1``,  ``0.26-0``,  ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``
+         <details><summary><span class="truncated-version-list"><code>0.26-3</code>,  <code>0.26-2</code>,  <code>0.26-1</code>,  <code>0.26-0</code>,  <code>0.12-5</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-2</code>,  <code>0.12-1</code>,  </span></summary>
+      
 
+      ``0.26-3``,  ``0.26-2``,  ``0.26-1``,  ``0.26-0``,  ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-module-build: ``0.4234.*``
@@ -91,7 +98,7 @@ perl-extutils-cppguess
 
     <script>
         var package = "perl-extutils-cppguess";
-        var versions = ["0.26","0.26","0.26","0.12","0.12"];
+        var versions = ["0.26","0.26","0.26","0.26","0.12"];
     </script>
 
 

@@ -27,14 +27,14 @@ fastqtk
       
       
 
-      ``0.27-3``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
+      ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ fastqtk
 
     <script>
         var package = "fastqtk";
-        var versions = ["0.27","0.27","0.27","0.27"];
+        var versions = ["0.27","0.27","0.27","0.27","0.27"];
     </script>
 
 

@@ -28,13 +28,13 @@ migraine
       
       
 
-      ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-0``
+      ``0.6.0-4``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ migraine
 
     <script>
         var package = "migraine";
-        var versions = ["0.6.0","0.6.0","0.6.0","0.6.0","0.5.4"];
+        var versions = ["0.6.0","0.6.0","0.6.0","0.6.0","0.6.0"];
     </script>
 
 

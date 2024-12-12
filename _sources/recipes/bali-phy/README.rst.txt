@@ -41,8 +41,9 @@ bali-phy
    :depends fmt: ``>=11.0.2,<12.0a0``
    :depends glib: 
    :depends gnuplot: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends libglib: ``>=2.82.2,<3.0a0``
+   :depends libstdcxx: ``>=13``
    :depends pandoc: 
    :depends perl: 
    :depends python: ``>=3.13,<3.14.0a0``

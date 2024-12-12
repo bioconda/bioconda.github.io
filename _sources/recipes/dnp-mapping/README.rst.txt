@@ -27,13 +27,12 @@ dnp-mapping
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ dnp-mapping
 
     <script>
         var package = "dnp-mapping";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

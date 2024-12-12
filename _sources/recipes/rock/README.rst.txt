@@ -27,13 +27,12 @@ rock
       
       
 
-      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -84,7 +83,7 @@ rock
 
     <script>
         var package = "rock";
-        var versions = ["2.0","2.0","2.0"];
+        var versions = ["2.0","2.0","2.0","2.0"];
     </script>
 
 

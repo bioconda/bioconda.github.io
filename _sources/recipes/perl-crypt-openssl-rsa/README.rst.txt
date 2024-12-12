@@ -27,13 +27,12 @@ perl-crypt-openssl-rsa
       
       
 
-      ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.28-1``,  ``0.28-0``
+      ``0.33-4``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.28-1``,  ``0.28-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends openssl: ``>=3.3.2,<4.0a0``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-crypt-openssl-guess: ``0.15.*``
    :depends perl-crypt-openssl-random: ``>=0.11,<0.12.0a0``
@@ -91,7 +90,7 @@ perl-crypt-openssl-rsa
 
     <script>
         var package = "perl-crypt-openssl-rsa";
-        var versions = ["0.33","0.33","0.33","0.33","0.32"];
+        var versions = ["0.33","0.33","0.33","0.33","0.33"];
     </script>
 
 

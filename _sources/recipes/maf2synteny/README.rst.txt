@@ -27,13 +27,13 @@ maf2synteny
       
       
 
-      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ maf2synteny
 
     <script>
         var package = "maf2synteny";
-        var versions = ["1.2","1.2","1.2","1.2","1.1"];
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
     </script>
 
 

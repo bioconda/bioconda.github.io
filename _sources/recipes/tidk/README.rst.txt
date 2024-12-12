@@ -41,7 +41,8 @@ tidk
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends openssl: ``>=3.4.0,<4.0a0``
    :requirements:
 

@@ -31,13 +31,13 @@ gfa1
       
       
 
-      ``0.53.alpha-2``,  ``0.53.alpha-1``,  ``0.53.alpha-0``
+      ``0.53.alpha-3``,  ``0.53.alpha-2``,  ``0.53.alpha-1``,  ``0.53.alpha-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -89,7 +89,7 @@ gfa1
 
     <script>
         var package = "gfa1";
-        var versions = ["0.53.alpha","0.53.alpha","0.53.alpha"];
+        var versions = ["0.53.alpha","0.53.alpha","0.53.alpha","0.53.alpha"];
     </script>
 
 
