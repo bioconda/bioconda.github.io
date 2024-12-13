@@ -28,14 +28,13 @@ deploid
       
       
 
-      ``0.5-4``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``v0.5-1``,  ``v0.5-0``
+      ``0.5-5``,  ``0.5-4``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``v0.5-1``,  ``v0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

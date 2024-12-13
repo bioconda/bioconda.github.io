@@ -27,12 +27,12 @@ gctb
       
       
 
-      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ gctb
 
     <script>
         var package = "gctb";
-        var versions = ["2.0","2.0","2.0"];
+        var versions = ["2.0","2.0","2.0","2.0"];
     </script>
 
 

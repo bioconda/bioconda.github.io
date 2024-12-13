@@ -30,10 +30,10 @@ r-metacoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.7-0</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``0.3.7-0``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ r-metacoder
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-crayon: 
    :depends r-dplyr: 
@@ -116,7 +116,7 @@ r-metacoder
 
     <script>
         var package = "r-metacoder";
-        var versions = ["0.3.7","0.3.6","0.3.6","0.3.6","0.3.6"];
+        var versions = ["0.3.7","0.3.7","0.3.6","0.3.6","0.3.6"];
     </script>
 
 

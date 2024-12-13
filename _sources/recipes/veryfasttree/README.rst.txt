@@ -33,10 +33,10 @@ veryfasttree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.4-0</code>,  <code>4.0.03-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.4-1</code>,  <code>4.0.4-0</code>,  <code>4.0.03-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  </span></summary>
       
 
-      ``4.0.4-0``,  ``4.0.03-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
+      ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.03-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -46,9 +46,9 @@ veryfasttree
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -103,7 +103,7 @@ veryfasttree
 
     <script>
         var package = "veryfasttree";
-        var versions = ["4.0.4","4.0.03","4.0.2","4.0.1","4.0"];
+        var versions = ["4.0.4","4.0.4","4.0.03","4.0.2","4.0.1"];
     </script>
 
 

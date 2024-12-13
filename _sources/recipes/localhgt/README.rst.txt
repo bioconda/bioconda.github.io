@@ -28,7 +28,7 @@ localhgt
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -36,8 +36,7 @@ localhgt
    :depends biopython: 
    :depends bwa: ``>=0.7.17``
    :depends fastp: ``>=0.23.2``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends networkx: ``>=2.6.3``
    :depends numpy: ``<=1.24``
    :depends pandas: 
@@ -100,7 +99,7 @@ localhgt
 
     <script>
         var package = "localhgt";
-        var versions = ["1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

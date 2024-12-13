@@ -28,10 +28,10 @@ curves
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-4</code>,  <code>3.0.0-3</code>,  <code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.2-3</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-4</code>,  <code>3.0.0-3</code>,  <code>3.0.0-2</code>,  <code>3.0.0-1</code>,  </span></summary>
       
 
-      ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.0-0``
+      ``3.0.2-3``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ curves
 
    
    :depends ambertools: ``>=22.0``
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.3.0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
    :depends libnetcdf: ``>=4.9.2,<4.9.3.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends netcdf-fortran: ``>=4.6.1,<4.7.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    :additional platforms:
@@ -98,7 +98,7 @@ curves
 
     <script>
         var package = "curves";
-        var versions = ["3.0.2","3.0.2","3.0.2","3.0.1","3.0.0"];
+        var versions = ["3.0.2","3.0.2","3.0.2","3.0.2","3.0.1"];
     </script>
 
 

@@ -40,7 +40,8 @@ libbigwig
       
 
    
-   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:

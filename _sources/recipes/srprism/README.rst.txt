@@ -27,15 +27,15 @@ srprism
       
       
 
-      ``2.4.24-5``,  ``2.4.24-3``,  ``2.4.24-2``
+      ``2.4.24-6``,  ``2.4.24-5``,  ``2.4.24-3``,  ``2.4.24-2``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +91,7 @@ srprism
 
     <script>
         var package = "srprism";
-        var versions = ["2.4.24","2.4.24","2.4.24"];
+        var versions = ["2.4.24","2.4.24","2.4.24","2.4.24"];
     </script>
 
 

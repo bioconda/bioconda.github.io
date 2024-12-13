@@ -54,6 +54,7 @@ phyml
       
 
    
+   :depends libgcc: ``>=13``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 

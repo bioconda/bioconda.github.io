@@ -27,15 +27,15 @@ parafly
       
       
 
-      ``r2013_01_21-3``,  ``r2013_01_21-1``,  ``r2013_01_21-0``
+      ``r2013_01_21-4``,  ``r2013_01_21-3``,  ``r2013_01_21-1``,  ``r2013_01_21-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +91,7 @@ parafly
 
     <script>
         var package = "parafly";
-        var versions = ["r2013_01_21","r2013_01_21","r2013_01_21"];
+        var versions = ["r2013_01_21","r2013_01_21","r2013_01_21","r2013_01_21"];
     </script>
 
 

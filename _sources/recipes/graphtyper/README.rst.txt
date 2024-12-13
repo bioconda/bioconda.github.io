@@ -26,19 +26,28 @@ graphtyper
    :versions:
       
       
+      .. raw:: html
 
-      ``2.7.7-0``,  ``2.7.2-1``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.7.7-1</code>,  <code>2.7.7-0</code>,  <code>2.7.2-1</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.5.1-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  </span></summary>
+      
 
+      ``2.7.7-1``,  ``2.7.7-0``,  ``2.7.2-1``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
    :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends xz: 
    :depends zlib: 
    :requirements:
 
@@ -94,7 +103,7 @@ graphtyper
 
     <script>
         var package = "graphtyper";
-        var versions = ["2.7.7","2.7.2","2.7.2","2.7.1","2.5.1"];
+        var versions = ["2.7.7","2.7.7","2.7.2","2.7.2","2.7.1"];
     </script>
 
 

@@ -27,12 +27,11 @@ perl-forks
       
       
 
-      ``0.36-8``,  ``0.36-7``,  ``0.36-6``,  ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-2``,  ``0.36-1``
+      ``0.36-9``,  ``0.36-8``,  ``0.36-7``,  ``0.36-6``,  ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-2``,  ``0.36-1``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-acme-damn: 
    :depends perl-attribute-handlers: 
@@ -40,7 +39,7 @@ perl-forks
    :depends perl-list-moreutils: 
    :depends perl-storable: 
    :depends perl-sys-sigaction: 
-   :depends perl-time-hires: 
+   :depends perl-time-hires: ``>=1.9764,<2.0a0``
    :requirements:
 
    :additional platforms:

@@ -26,16 +26,24 @@ vcf2parquet
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2-0``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2-0</code>,  </span></summary>
+      
 
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2-0``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +94,7 @@ vcf2parquet
 
     <script>
         var package = "vcf2parquet";
-        var versions = ["0.5.0","0.4.1","0.4.0","0.3.1","0.3.1"];
+        var versions = ["0.5.0","0.5.0","0.4.1","0.4.0","0.3.1"];
     </script>
 
 

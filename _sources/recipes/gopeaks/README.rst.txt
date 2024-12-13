@@ -27,12 +27,12 @@ gopeaks
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ gopeaks
 
     <script>
         var package = "gopeaks";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -33,8 +33,9 @@ relion
 
    
    :depends fftw: ``>=3.3.10,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends libpng: ``>=1.6.44,<1.7.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libtiff: ``>=4.7.0,<4.8.0a0``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:

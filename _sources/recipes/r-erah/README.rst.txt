@@ -27,14 +27,14 @@ r-erah
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.2-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-furrr: 
    :depends r-future: 
    :depends r-hiclimr: 
@@ -94,7 +94,7 @@ r-erah
 
     <script>
         var package = "r-erah";
-        var versions = ["2.0.1","2.0.0","1.1.2"];
+        var versions = ["2.0.1","2.0.1","2.0.0","1.1.2"];
     </script>
 
 

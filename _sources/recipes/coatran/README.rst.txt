@@ -28,13 +28,12 @@ coatran
       
       
 
-      ``0.0.4-0``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -85,7 +84,7 @@ coatran
 
     <script>
         var package = "coatran";
-        var versions = ["0.0.4","0.0.1","0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.0.4","0.0.4","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

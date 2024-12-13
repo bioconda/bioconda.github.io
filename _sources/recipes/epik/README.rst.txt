@@ -34,10 +34,9 @@ epik
    
    :depends boost-cpp: ``1.85.*``
    :depends click: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends llvm-openmp: ``>=19.1.5``
    :depends python: 
    :requirements:
 

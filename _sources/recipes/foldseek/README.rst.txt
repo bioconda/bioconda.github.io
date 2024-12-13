@@ -41,13 +41,13 @@ foldseek
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends llvm-openmp: ``>=19.1.5``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 

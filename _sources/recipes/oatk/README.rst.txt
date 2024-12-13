@@ -27,14 +27,13 @@ oatk
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends hmmer: ``>=3.4``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -86,7 +85,7 @@ oatk
 
     <script>
         var package = "oatk";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

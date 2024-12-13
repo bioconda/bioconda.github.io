@@ -33,7 +33,8 @@ bayescode
 
    
    :depends ete3: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 

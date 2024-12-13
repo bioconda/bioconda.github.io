@@ -30,10 +30,10 @@ k8
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.2.5-4</code>,  <code>0.2.5-3</code>,  <code>0.2.5-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.2.5-4</code>,  <code>0.2.5-3</code>,  </span></summary>
       
 
-      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -42,12 +42,9 @@ k8
       
 
    
-   :depends __glibc: ``>=2.17,<3.0.a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
-   :depends sysroot_linux-64: ``>=2.17``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :requirements:
 
    :additional platforms:
@@ -102,7 +99,7 @@ k8
 
     <script>
         var package = "k8";
-        var versions = ["1.2","1.2","1.2","1.2","1.1"];
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
     </script>
 
 

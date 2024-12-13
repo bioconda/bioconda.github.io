@@ -28,10 +28,10 @@ fermi2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>r193-8</code>,  <code>r193-7</code>,  <code>r193-6</code>,  <code>r193-5</code>,  <code>r193-4</code>,  <code>r193-3</code>,  <code>r193-2</code>,  <code>r193-1</code>,  <code>r193-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>r193-9</code>,  <code>r193-8</code>,  <code>r193-7</code>,  <code>r193-6</code>,  <code>r193-5</code>,  <code>r193-4</code>,  <code>r193-3</code>,  <code>r193-2</code>,  <code>r193-1</code>,  </span></summary>
       
 
-      ``r193-8``,  ``r193-7``,  ``r193-6``,  ``r193-5``,  ``r193-4``,  ``r193-3``,  ``r193-2``,  ``r193-1``,  ``r193-0``,  ``r188-0``,  ``r170-3``,  ``r170-2``,  ``r170-1``,  ``r170-0``
+      ``r193-9``,  ``r193-8``,  ``r193-7``,  ``r193-6``,  ``r193-5``,  ``r193-4``,  ``r193-3``,  ``r193-2``,  ``r193-1``,  ``r193-0``,  ``r188-0``,  ``r170-4``,  ``r170-3``,  ``r170-2``,  ``r170-1``,  ``r170-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ fermi2
 
    
    :depends bfc: 
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
    :depends ropebwt2: 
    :depends seqtk: 

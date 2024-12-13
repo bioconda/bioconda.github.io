@@ -44,7 +44,9 @@ infernal
       
 
    
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 

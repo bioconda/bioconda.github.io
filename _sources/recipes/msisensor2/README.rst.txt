@@ -27,16 +27,16 @@ msisensor2
       
       
 
-      ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -88,7 +88,7 @@ msisensor2
 
     <script>
         var package = "msisensor2";
-        var versions = ["0.1","0.1","0.1"];
+        var versions = ["0.1","0.1","0.1","0.1"];
     </script>
 
 

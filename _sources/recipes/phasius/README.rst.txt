@@ -27,13 +27,13 @@ phasius
       
       
 
-      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ phasius
 
     <script>
         var package = "phasius";
-        var versions = ["0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.0","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

@@ -27,16 +27,23 @@ r-cssam
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4-7``,  ``1.4-6``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``0-0``
+         <details><summary><span class="truncated-version-list"><code>1.4-8</code>,  <code>1.4-7</code>,  <code>1.4-6</code>,  <code>1.4-5</code>,  <code>1.4-4</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  </span></summary>
+      
 
+      ``1.4-8``,  ``1.4-7``,  ``1.4-6``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-biobase: ``>=2.50.0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.0,<4.1``
+   :depends libcxx: ``>=18``
+   :depends r-base: ``>=4.0.5``
    :depends r-formula: ``>=1.2_4``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-pkgmaker: ``>=0.32.2``

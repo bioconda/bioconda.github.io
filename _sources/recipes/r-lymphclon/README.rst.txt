@@ -27,12 +27,12 @@ r-lymphclon
       
       
 
-      ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``
+      ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-corpcor: 
    :depends r-expm: 
    :depends r-mass: 
@@ -86,7 +86,7 @@ r-lymphclon
 
     <script>
         var package = "r-lymphclon";
-        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0"];
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.3.0"];
     </script>
 
 

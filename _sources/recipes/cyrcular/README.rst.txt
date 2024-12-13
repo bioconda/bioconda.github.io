@@ -27,7 +27,7 @@ cyrcular
       
       
 
-      ``0.3.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -35,11 +35,11 @@ cyrcular
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends openssl: ``>=3.3.1,<4.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ cyrcular
 
     <script>
         var package = "cyrcular";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.0","0.3.0"];
     </script>
 
 

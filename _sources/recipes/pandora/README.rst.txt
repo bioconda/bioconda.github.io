@@ -27,13 +27,13 @@ pandora
       
       
 
-      ``0.9.2-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``
+      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ pandora
 
     <script>
         var package = "pandora";
-        var versions = ["0.9.2","0.9.1","0.9.1","0.9.1"];
+        var versions = ["0.9.2","0.9.2","0.9.1","0.9.1","0.9.1"];
     </script>
 
 

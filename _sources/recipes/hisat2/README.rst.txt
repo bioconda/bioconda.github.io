@@ -44,7 +44,8 @@ hisat2
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: 
    :depends python: ``>3.5``
    :requirements:

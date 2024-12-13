@@ -28,13 +28,12 @@ rfmix
       
       
 
-      ``2.03.r0.9505bfa-5``,  ``2.03.r0.9505bfa-4``,  ``2.03.r0.9505bfa-3``,  ``2.03.r0.9505bfa-2``,  ``2.03.r0.9505bfa-1``,  ``2.03.r0.9505bfa-0``
+      ``2.03.r0.9505bfa-6``,  ``2.03.r0.9505bfa-5``,  ``2.03.r0.9505bfa-4``,  ``2.03.r0.9505bfa-3``,  ``2.03.r0.9505bfa-2``,  ``2.03.r0.9505bfa-1``,  ``2.03.r0.9505bfa-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends pthread-stubs: 
    :requirements:
 

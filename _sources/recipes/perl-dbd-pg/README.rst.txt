@@ -40,6 +40,7 @@ perl-dbd-pg
       
 
    
+   :depends libgcc: ``>=13``
    :depends libpq: ``>=16.6,<17.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 

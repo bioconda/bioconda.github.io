@@ -30,7 +30,7 @@ transannot
       
       
 
-      ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``3.0.0-0``,  ``1.fa9ebab-0``
+      ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.fa9ebab-0``
 
       
 
@@ -99,7 +99,7 @@ transannot
 
     <script>
         var package = "transannot";
-        var versions = ["3.70b2a60","3.70b2a60","3.7f1c8e1","3.0.0","1.fa9ebab"];
+        var versions = ["3.70b2a60","3.70b2a60","3.7f1c8e1","3.0.0","3.0.0"];
     </script>
 
 

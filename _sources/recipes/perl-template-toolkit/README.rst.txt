@@ -27,12 +27,11 @@ perl-template-toolkit
       
       
 
-      ``3.100-2``,  ``3.100-1``,  ``3.100-0``,  ``3.010-1``,  ``3.010-0``,  ``2.26-2``,  ``2.26-1``,  ``2.26-0``
+      ``3.100-3``,  ``3.100-2``,  ``3.100-1``,  ``3.100-0``,  ``3.010-1``,  ``3.010-0``,  ``2.26-2``,  ``2.26-1``,  ``2.26-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-appconfig: 
    :depends perl-image-info: 
@@ -88,7 +87,7 @@ perl-template-toolkit
 
     <script>
         var package = "perl-template-toolkit";
-        var versions = ["3.100","3.100","3.100","3.010","3.010"];
+        var versions = ["3.100","3.100","3.100","3.100","3.010"];
     </script>
 
 

@@ -27,12 +27,12 @@ umi-transfer
       
       
 
-      ``1.5.0-0``,  ``1.0.0-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ umi-transfer
 
     <script>
         var package = "umi-transfer";
-        var versions = ["1.5.0","1.0.0"];
+        var versions = ["1.5.0","1.5.0","1.0.0"];
     </script>
 
 

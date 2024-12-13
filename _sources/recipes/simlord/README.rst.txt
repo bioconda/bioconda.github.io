@@ -28,10 +28,10 @@ simlord
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.2-2</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-5</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.2-2</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.2-2``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.7.3-0``
+      ``1.0.4-5``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.2-2``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.7.3-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ simlord
 
    
    :depends dinopy: 
-   :depends libgcc-ng: ``>=12``
-   :depends numpy: 
+   :depends libgcc: ``>=13``
+   :depends numpy: ``<2``
    :depends pysam: ``>=0.8.4``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -50,6 +50,10 @@ simlord
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +101,7 @@ simlord
 
     <script>
         var package = "simlord";
-        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.3"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.4"];
     </script>
 
 

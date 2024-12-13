@@ -30,14 +30,14 @@ ratatosk
       
       
 
-      ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.6.3-2``,  ``0.7.6.3-1``,  ``0.7.6.3-0``
+      ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.6.3-2``,  ``0.7.6.3-1``,  ``0.7.6.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ ratatosk
 
     <script>
         var package = "ratatosk";
-        var versions = ["0.9.0","0.9.0","0.7.6.3","0.7.6.3","0.7.6.3"];
+        var versions = ["0.9.0","0.9.0","0.9.0","0.7.6.3","0.7.6.3"];
     </script>
 
 

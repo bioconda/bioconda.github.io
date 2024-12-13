@@ -29,10 +29,10 @@ r-annotables
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.90-4</code>,  <code>0.1.90-3</code>,  <code>0.1.90-2</code>,  <code>0.1.90-1</code>,  <code>0.1.90-0</code>,  <code>v0.1.90-3</code>,  <code>v0.1.90-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.90-4</code>,  <code>0.1.90-3</code>,  <code>0.1.90-2</code>,  <code>0.1.90-1</code>,  <code>0.1.90-0</code>,  <code>v0.1.90-3</code>,  </span></summary>
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.90-4``,  ``0.1.90-3``,  ``0.1.90-2``,  ``0.1.90-1``,  ``0.1.90-0``,  ``v0.1.90-3``,  ``v0.1.90-2``,  ``v0.1.90-1``,  ``v0.1.90-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.90-4``,  ``0.1.90-3``,  ``0.1.90-2``,  ``0.1.90-1``,  ``0.1.90-0``,  ``v0.1.90-3``,  ``v0.1.90-2``,  ``v0.1.90-1``,  ``v0.1.90-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-annotables
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-tibble: 
    :requirements:
 
@@ -93,7 +93,7 @@ r-annotables
 
     <script>
         var package = "r-annotables";
-        var versions = ["0.2.0","0.2.0","0.1.90","0.1.90","0.1.90"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.1.90","0.1.90"];
     </script>
 
 

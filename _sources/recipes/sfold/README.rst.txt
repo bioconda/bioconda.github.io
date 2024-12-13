@@ -27,16 +27,16 @@ sfold
       
       
 
-      ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
    :depends gawk: 
    :depends grep: 
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :requirements:
 
@@ -88,7 +88,7 @@ sfold
 
     <script>
         var package = "sfold";
-        var versions = ["2.2","2.2","2.2","2.2"];
+        var versions = ["2.2","2.2","2.2","2.2","2.2"];
     </script>
 
 

@@ -27,15 +27,15 @@ revoluzer
       
       
 
-      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.2-0``
+      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.2-0``
 
       
 
    
    :depends boost-cpp: 
    :depends glpk: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ revoluzer
 
     <script>
         var package = "revoluzer";
-        var versions = ["0.1.6","0.1.6","0.1.5","0.1.2"];
+        var versions = ["0.1.6","0.1.6","0.1.6","0.1.5","0.1.2"];
     </script>
 
 

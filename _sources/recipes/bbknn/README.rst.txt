@@ -40,6 +40,7 @@ bbknn
       
 
    
+   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.13``
    :depends numpy: ``>=1.19,<3``
    :depends pandas: 

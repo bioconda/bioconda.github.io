@@ -27,13 +27,13 @@ artic-porechop
       
       
 
-      ``0.3.2pre-6``,  ``0.3.2pre-5``,  ``0.3.2pre-4``,  ``0.3.2pre-3``,  ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
+      ``0.3.2pre-7``,  ``0.3.2pre-6``,  ``0.3.2pre-5``,  ``0.3.2pre-4``,  ``0.3.2pre-3``,  ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:

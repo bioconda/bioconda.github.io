@@ -27,12 +27,11 @@ sfld
       
       
 
-      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :requirements:
 
    :additional platforms:
@@ -83,7 +82,7 @@ sfld
 
     <script>
         var package = "sfld";
-        var versions = ["1.1","1.1","1.1","1.1"];
+        var versions = ["1.1","1.1","1.1","1.1","1.1"];
     </script>
 
 

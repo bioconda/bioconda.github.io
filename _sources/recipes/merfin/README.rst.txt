@@ -27,15 +27,15 @@ merfin
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8``
    :depends gzip: ``>=1.11``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends meryl: ``>=1.3,<2000``
    :depends pigz: ``>=2.6``
    :depends xz: ``>=5.2.5``
@@ -89,7 +89,7 @@ merfin
 
     <script>
         var package = "merfin";
-        var versions = ["1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0"];
     </script>
 
 
